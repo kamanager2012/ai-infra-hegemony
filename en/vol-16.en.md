@@ -1,169 +1,248 @@
-# Volume 16: AI Infrastructure Quantitative Framework — Compute, Memory, Packaging, and Capacity
+# Volume 16: Quantitative Framework for AI Infrastructure — Compute, Memory, Packaging, and Capacity
 
-Chinese original: [vol-16.md](vol-16.en.md)
+Chinese source edition: [vol-16.md](../vol-16.md)
 
-## 1. Core question
+> Retrieval and revision cutoff: **2026-08-27**. The purpose of this framework is not to produce one supposedly precise future. It is to keep physical units, evidence grades, and observable variables separate enough that the model can be falsified.
 
-Which quantitative identities are robust enough to support cross-volume reasoning without creating false precision?
+## 1. What the quantitative framework is designed to do
 
-This volume separates four unit systems:
-- **compute:** FLOPs, GPU-hours, tokens, arithmetic intensity;
-- **memory:** bytes, bandwidth, KV footprint, HBM/DDR bit supply;
-- **manufacturing:** die area, yield, wafers, packaging units;
-- **capital / power:** dollars, depreciation years, MW/GW.
+The easiest mistake in AI-infrastructure quantification is to connect numbers from different physical pools and different evidence grades until they look like one precise model.
 
-The key rule is dimensional discipline: quantities from different unit systems cannot be added or divided into a synthetic “compute gap” without a valid conversion model.
-## 2. Evidence boundary
+This volume limits itself to four classes of reproducible analysis:
 
-First-party technical anchors include:
-- DeepSeek-V3: 671B total parameters, 37B activated, 14.8T tokens, **2.788M H800 GPU-hours**, and the report-side **$5.576M** rental conversion;
-- DeepSeek-V2: the specific comparison in which KV cache was reduced **93.3%** and peak generation throughput increased up to **5.76×**;
-- NVL72: 72 GPUs, 36 Grace CPUs, **13.4 TB HBM3E**, **17 TB LPDDR5X**, and rack-scale NVLink;
-- Micron: HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity.
+1. compute and memory intensity;
+2. rack-scale material demand;
+3. advanced-packaging geometry stress tests;
+4. capacity and commitment indicators.
 
-Historical assumptions for MFU, wafer prices, reticle-area conversions, HBM stack yield, unverified rack counts, or fixed depreciation formulas remain model inputs only when explicitly sourced and scoped.
-## 3. Dig into the mechanism (physics / commerce / geopolitics)
+Any quantity that cannot be closed with public data remains a parameter. It is not filled with a convenient point estimate.
 
-### 3.1 Bandwidth identity: bytes moved per token matter as much as peak compute
+## 2. Roofline: why inference is often constrained by memory bandwidth first
 
-Williams et al. split a machine's roof into two: a compute roof and a bandwidth roof. Critical intensity is their ratio. Dense matrix multiplies in training can push arithmetic intensity up toward the compute roof. Autoregressive decode after launch reads a large KV each time and writes one token. Byte movement dominates time. Buying more peak TFLOPS without lifting bandwidth drops marginal tokens/s under the bandwidth roof. That is the layer this volume can write as an equation, and it holds without shipments.
+The basic Roofline relationship is:
 
-MLA cuts bytes inside the equation. The V3 report is explicit: at inference you only cache the compressed latent \(c_t^{KV}\) and the decoupled RoPE key. You do not cache full multi-head K and V. \(d_c=512\) versus \(n_h d_h=128\times128=16384\) is an order-of-magnitude compression. earlier stress-test material wrote 8192, which does not match official V2/V3 hyperparameters. V2's 93.3% versus 67B is an official abstract sentence. The comparison is their own prior dense model, not a universal MHA constant for the industry. 5.76x is V2 peak generation throughput, not earlier stress-test material's "nearly 10x". The compression direction holds: decode defaults to Memory-bound; KV bytes/token is an explicit variable. Anyone who writes 93.3% as an industry standard for all models is promoting one comparison point into a law.
+```text
+Performance
+= min(
+    Peak Compute,
+    Memory Bandwidth × Arithmetic Intensity
+  )
+```
 
-In-cabinet interconnect lifts the bandwidth wall from the chip to the cabinet. Official NVL72 uses a 130 TB/s NVLink domain to write 72 GPUs as one logic chip. Outside the cabinet is Ethernet or InfiniBand, more than an order of magnitude lower. So when the supply-coordination layer schedules production, HBM capacity, HBM bandwidth, and in-cabinet interconnect are one set of material. Peak FLOPS is another set of advertising. Memory-bound pushes profit toward HBM and in-cabinet interconnect. MLA-class compression is a technical raid on that profit. It raids capacity pathology, not the bandwidth roof itself. Decode still moves bytes. Each sequence just occupies fewer of them, so concurrency can rise.
+The critical arithmetic intensity is:
 
-### 3.2 Profit and cash are already a closed quantitative identity
+```text
+I_critical
+= Peak Compute / Memory Bandwidth
+```
 
-The official profit, cash, and supply-commitment tables are maintained in [Volume 1](vol-01.en.md). The current anchor is FY26 free cash flow of $96.6B and **FY27 Q2 operating income of $63.734B at 75.0% GAAP gross margin**. These figures support strong capacity-reservation power, but not a one-variable rule that converts gross margin into guaranteed capacity allocation. Bidding for capacity depends on price, long-duration demand, prepayment, credit, utilization, roadmap certainty, supplier diversification, and geopolitics.
+When a workload's arithmetic intensity falls below that threshold, the system is in the memory-bound region.
 
-### 3.3 Prepayments stand in for invented shipments
+Autoregressive inference repeatedly reads model state and KV cache. Peak FLOPS can therefore rise much faster than realized token throughput if HBM bandwidth and memory movement remain the binding constraint.
 
-Wafer-area demand needs shipments. There is no official 2026–2036 cabinet series. The 10-K has another already-closed set of numbers. FY26 10-K original: We have also entered and may continue to enter into prepaid manufacturing and capacity agreements to supply both current and future products. The same note names TSMC and Samsung for foundry, Hynix, Micron, and Samsung for memory, and CoWoS for packaging. It does not split dollars. CFO: supply-related commitments $95.2B at FY26 year-end, inventory $21.4B. 10-K Note R21: these commitments reflect datacenter-scale production and longer future ordering horizons; as of 2026-01-25 they were $95.2B, substantially all payable through fiscal year 2027. Q1 FY27 CFO: commitments to $119.0B, inventory $25.8B. 10-Q note: $95.0B payable in the remainder of fiscal 2027, the rest in 2028–2031. Three-month add $23.8B. The company itself wrote it as locking inventory and capacity. Same note: some agreements are cancellable, able to be rescheduled, or adjustable. Not every dollar is irrevocable. The report does not treat that the entire TSMC factory has already been bought dead.
+That is why frontier-inference performance cannot be evaluated from FLOPS alone.
 
-Multi-year cloud-service commitments are another line: $27.0B at FY26 year-end, $30.0B at Q1 end, paid year by year through 2032. The 10-K writes they are mainly for R&D compute, not wafer prepayments. Write them apart. What was not found: how much went to TSMC, Hynix, or Samsung each; a named 2nm first-silicon prepayment contract dollar amount. The report does not infer one.
+## 3. MLA: architecture can directly change memory demand
 
-When shipment data are absent, supply commitments provide a financial demand constraint rather than a shipment proxy. Strong cash flow, order scale, prepayments, credit, utilization, roadmap certainty, supplier diversification, and geopolitics can all influence access to incremental capacity. No deterministic supplier-allocation rule is assumed. If the title still wants a "forecast frame," the first layer of the frame should be: whether commitments keep rising, whether gross margin still sits near 75%, whether H20-class charges appear again. Those three have official tables to check against. Cabinet counts, wafer counts, and fab counts do not.
+The DeepSeek-V3 technical report discloses:
 
-### 3.4 The wafer-area identity stops at the symbol layer
+- **671B** total parameters;
+- **37B** activated parameters;
+- **14.8T** pre-training tokens;
+- **2.788M H800 GPU-hours**;
+- MLA compressed KV dimension **d_c = 512**.
 
-The equation the title wants can only be identity plus loss. Logic-wafer demand = chip shipments × effective area per chip / (usable wafer area × composite yield). Memory-wafer demand = HBM stack count × area per layer × layer count / (wafer area × stack composite yield), then converted to equivalent DRAM capacity in the makers' direction of "the same bits take more wafers." Advanced-packaging wafers = CoWoS chip sets needed / substrate and interposer yield. earlier stress-test material supplied area and yield parts (858 mm², 1600 mm², +50%–55%, 48.6%, 3:1, 3.3x). It did not supply 2026–2036 shipments. Without shipments there is no computable demand path.
+The DeepSeek-V2 technical report separately reports, relative to DeepSeek 67B:
 
-The main line multiplies what can be multiplied per cabinet. Official NVL72: 13.4 TB HBM, 17 TB LPDDR. 10k / 30k / 50k cabinets are magnitude laid on the table, not a forecast. 5.39 is a CoWoS-wafers-per-cabinet estimate: 72 packages divided by about 13.4 per wafer. Front-end logic is another line: 144 dice, about 2.9 wafers per cabinet after an assumed yield. 835,000 cabinets = 4.5 million wafers ÷ 5.39. The pool is 30% of factory shipments. Wrong pool. The binding line is CoWoS. Sell-side puts NVIDIA at about 60% / 595k–630k wafers (Morgan Stanley / Mizuho paraphrase). TSMC has no split. At 5.39, about 100k cabinets take more than half of that packaging line. You do not need 800k cabinets to lock 3nm. Those estimates belong to the main line and the wafer-start note. This volume only borrows the conclusion: if the area equation uses the wrong pool, the wafer count it outputs has no physical meaning.
+- KV-cache reduction of approximately **93.3%**;
+- maximum generation throughput of approximately **5.76×**.
 
-This volume refuses to "solve" the equation with invented yearly shipments. Anyone who claims to have already computed how many tens of thousands of wafers 2030 will lack, unless they return to a sourced shipment assumption, is unverified. The reticle limit expanded 3.3x by CoWoS-L expands the interposer, not a free lunch of logic density. Dual die still pays an area tax. 858 mm² and 1600 mm² are engineering narration, not a datasheet. 48.6% depends on assumed 95% and 90%. It is not a factory filing. Micron's FY24 Q3 prepared remarks provide the first-party numeric anchor: HBM3E requires approximately 3× the wafer supply of DDR5 for the same bits at the same node; the FY25 10-K confirms the physical direction. The ~3× ratio is A-grade company evidence, but it remains an industry trade ratio rather than a universal fab-control constant.
+Those figures refer to different model generations and should not be combined into one benchmark claim.
 
-### 3.5 Scaling Law: one point does not fix an exponent
+The important mechanism is:
 
-Empirical scaling says loss changes with parameter count, data volume, and compute. Kaplan and Hoffmann (Chinchilla) published fitted forms. Those coefficients are not in SOURCE. The hard rule does not let this volume import new quantities. DeepSeek-V3 supplies one point: 671B / 37B active, 14.8 trillion tokens, 2.788M H800 hours, $5.576 million at $2/hour. The report itself writes: the costs above include only official training, not prior research and ablations on architecture, algorithms, or data. One point does not fix an exponent and does not fix an optimal parameter–data mix. earlier stress-test material's 85%+ cost drop compares against a wide band of "tens of millions to hundreds of millions of dollars for a traditional trillion-parameter model." The denominator itself was never confirm. This volume does not carry it forward.
+> **Model architecture can reduce bytes per token, changing concurrency and serving cost for a given amount of HBM capacity.**
 
-V3 MoE splits total parameters from active parameters: 256 routed experts plus 1 shared, Top-8, at most 4 nodes per token. 37B active versus 671B total is sparsity. MLA then cuts KV. FP8 mixed precision, DualPipe, and auxiliary-loss-free load balancing are engineering that pushes GPU-hours down. They are not a new Scaling law. If the frame is to be testable, record three series under a fixed eval quality: training GPU-hours, active parameters, KV bytes/token. If they fall, wafer-demand elasticity shrinks. If they do not, you return to stacking area and stacking HBM. The report does not treat one open-source model's invoice as an industry production function. Still less divide four-cloud capex by $5.576 million and conclude "industry training is already two orders cheaper." That is a unit mismatch: one side is a rental assumption in one report; the other is halls, land, power, cabinets, and years of depreciation.
+That does not make memory bandwidth irrelevant. It changes the demand function imposed on the memory system.
 
-### 3.6 Buyers have money. The use differs
+## 4. How to interpret DeepSeek's training-cost figure
 
-Microsoft net income and purchases of property and equipment are in [Volume 1](vol-01.en.md) and [Volume 8](vol-08.en.md). The clouds are not poor. That hundred billion turns around and builds halls. NVIDIA's hundred billion is earned selling the scarce slice itself. Prepayments are reproduction. If the quantitative frame writes "who can buy the next cabinet" as a bidding contest, it must first ask which cash line. Microsoft PPE is halls. NVIDIA supply commitments are wafers. Both are large. They do not lock the same slice of material. Algorithmic cost cuts (MLA, MoE, FP8) can cut KV and cut activation. They cannot cut the cabinet-level bandwidth wall, and they cannot cut slots already bought by prepayments. Cloud ASIC specs: [Volume 4](vol-04.en.md).
+DeepSeek-V3 reports approximately **2.788M H800 GPU-hours** for the full training run.
 
-### 3.7 Sellers are already rich. They still cannot cover 75%
+Using the report-side rental assumption of **$2 per GPU-hour** gives:
 
-TSMC gross margin and Hynix operating margin: [Volume 5](vol-05.en.md). Sellers are already rich. They still cannot cover the cabinet-selling tranche. Anyone else who wants the same material pays more, or does not get it. "Area" in the equation needs different availability by jurisdiction. It cannot be one global table. The China stack: [Volume 12](vol-12.en.md). This volume does not write the China stack as a second Scaling, and does not write a domestic training invoice as an extrapolable industry function.
+```text
+2.788M × $2 ≈ $5.576M
+```
 
-## 4. Added analysis (scenarios, objections, testable markers)
+This is **not** the full cash cost of developing a frontier model.
 
-Push forward from the numbers now on the table. Do not attach probabilities.
+It does not include, among other items:
 
-Scenario A: the bandwidth wall remains binding. Decode stays memory-bound, sustaining demand for HBM and high-bandwidth in-rack interconnect. Gross margin stays near 75%. Supply commitments keep rising. Wafer demand is led by large dice plus a memory penalty, but this volume still does not output a wafer count. It only outputs direction: the scarce slice is locked first by prepayments. The residual goes to phones and PCs. The first wave pays a memory residual pressure.
+- research iteration;
+- failed runs and ablations;
+- data collection and cleaning;
+- engineering payroll;
+- infrastructure depreciation;
+- networking;
+- storage;
+- the post-training ecosystem.
 
-Scenario B: compression spills out. A V2-scale KV drop becomes the industry default. Concurrency per cabinet rises. HBM capacity demand flattens or turns into a layer-count race. The bandwidth roof is still there. Profit cedes part of "capacity pathology" and moves to bandwidth and in-cabinet switches. MLA is a raid, not a demolition. What can be watched: \(d_c\), cache ratios, and whether decode is still written Memory-bound in public technical reports.
+The figure is useful as an anchor for **effective training-compute scale**. It should not be restated as “a frontier model costs only $5.6M to build.”
 
-Scenario C: Scaling changes gear. Returns to stacking parameters fall below returns to high-quality data and reinforcement learning. GPU-hour growth decouples from wafer area. V3 already split total parameters from active parameters. That is the embryo of a gear change, not a finished industry production function. If public eval quality no longer rises with total parameters, elasticity in the area equation falls. This volume still does not fill coefficients.
+## 5. Rack-scale memory demand
 
-Scenario D: the supply formula takes the wheel. CoWoS and HBM yield constrain shipments. The demand equation never gets a chance to be "solved." The industry runs on quotas. Official contrast: supply commitments up $23.8B in three months, plus C.C. Wei's tight-packaging sentence on the main line (source 02; this volume only borrows the direction). Commitments are still rising. That means sellers are still bidding for quota with cash, not that quota has loosened enough to order off a Scaling curve.
+The official GB200 NVL72 configuration includes:
 
-Scenario E: buyers cut orders. Cloud hundred-billion net income stops becoming PPE, or NVIDIA operating income stops becoming new prepayments. The objection holds only if the official tables themselves turn: free cash down, commitment balance down, gross margin leaving 75%. None of those is done. Q1 is still one quarter of operating income $53.5B and free cash $48.6B.
+- **72 Blackwell GPUs**;
+- **36 Grace CPUs**;
+- **13.4 TB HBM3E**;
+- **17 TB LPDDR5X**.
 
-Objection 1: public Scaling papers already exist; this volume should write the coefficients. Those coefficients are not in SOURCE or [Volume 1](vol-01.en.md). The hard rule does not import new quantities. Objection 2: $5.576 million can be an industry training-cost anchor. It is one team, one hardware, a $2/hour assumption, a conversion that excludes prior research, and it depends on H800. Objection 3: once the reticle limit is expanded by the interposer, the area equation is obsolete. What expanded is packaging area, not logic density. Objection 4: booked first customer 19% means there is still a safe distance. 19% is TSMC revenue share, not this volume's wafer count, and not a prepayment split. The key point is that a 19% historical customer-revenue share does not determine future wafer or packaging allocation; incremental capacity capture is the relevant forward variable. Objection 5: Microsoft has a hundred billion of net income; the clouds can add prepayments themselves until allocation changes. Cloud money builds halls. To change allocation, the main line writes three checks bound together: prepayments large enough that one name cannot be the only recognized buyer; software bound into one stack; memory longs that leave a line for commodity bits. A credible counterweight requires purchasing power, software portability, alternative manufacturing, and memory supply to improve together. The $119.0B commitment balance is a financial anchor for one side of that mechanism, not a customer-specific allocation table.
+For a scenario with (R) racks:
 
-Testable markers (observation items only; this volume does not independently verify for you): whether next-quarter NVIDIA gross margin still sits near 75%; whether supply commitments keep leaving $119.0B upward, or first fall back; whether H20-class inventory charges appear again; whether operating income remains the capacity-bidding line and net income is still lifted by equity marks; \(d_c\), KV-compression language, training GPU-hours and token counts in public technical reports; whether the NVL72 product page is still 13.4 / 17 for HBM and LPDDR; whether makers still use the language "the same bits take more wafers." The wafer-demand identity enters calculation only after citable shipments appear. This volume does not fill it early.
+```text
+HBM(R) = 13.4 TB × R
+LPDDR(R) = 17 TB × R
+```
 
-## 5. Gaps and what cannot be treated as fact
+| Scenario rack count | HBM3E | LPDDR5X |
+|---:|---:|---:|
+| 1,000 | 13.4 PB | 17 PB |
+| 10,000 | 134 PB | 170 PB |
+| 30,000 | 402 PB | 510 PB |
+| 50,000 | 670 PB | 850 PB |
 
-The wafer-area demand equation the title promised has no numerical solution in the body. Scaling Law has no reproducible coefficients, no loss curve, and no optimal mix. What the current evidence review checked: V3 Table 1 and hyperparameters; V2 abstract 93.3% and 5.76x; the NVL72 product page; NVIDIA FY26 / Q1 FY27 official tables; Intel 1999 income statement; Microsoft FY25 summary and PPE; TSMC 2025 gross margin; Hynix FY25 operating margin; supply commitments 952→1,190. What the current evidence review did not check: 85%+, nearly 10x, MFU>50%, earlier stress-test material 8192, earlier stress-test material NVL72 13.8 TB, $215B as "AI hardware," 20%–30% downstream price-up, N3E $20,000–$22,000, 48.6%, 3.3x, 858 / 1600 mm² as a datasheet. 48.6% depends on assumed 95% and 90%. Any 2026–2036 wafer count, any "how many fabs are needed," if it appears elsewhere without a shipment assumption, cannot be this volume's output. A TSMC or CoWoS prepayment split was not found. A 2nm first-silicon contract dollar amount was not found. Apple / AMD / Qualcomm / Huawei gross margins were not checked in the current evidence review. This volume does not claim a forecast model was calibrated. It does not claim it audited working papers beyond the 10-K.
+These are **scenario-demand identities**, not shipment estimates.
 
-Four-cloud capex against each firm's statements: Microsoft FY25 PPE 64,551; Amazon, Google, and Meta scopes sit in main-line section 8. Mixed-year add about $211.9B–$213.9B, not earlier stress-test material "$215B of AI hardware." The capital equation wants dollar depreciation. The energy equation wants megawatts. This volume wants mm² and bytes/token. The three unit systems cannot be added. Any practice that writes a "compute gap" as a single number has already dropped at least two unit systems. That is the first discipline of the quantitative frame.
+They are useful because the physical bill of materials is observable even when actual rack shipments are not.
 
-## 6. What can be estimated and what cannot
+## 6. HBM wafer-supply trade ratio
 
-Putting the three title blocks back into a workflow of "compute what can be computed, stop where it cannot" is the only responsible delivery this volume can make on a "quantitative forecast frame." Step one. Use Roofline to judge whether the workload sits on the compute roof or the bandwidth roof. Decode defaults to Memory-bound unless measured intensity approaches the critical value. This step does not need shipments. It needs official or measurable peak compute and bandwidth. The NVL72 product page gives cabinet NVLink 130 TB/s and 13.4 TB HBM, enough to judge that inside the cabinet is not Ethernet scale.
+Micron's FY24 Q3 prepared remarks disclosed an industry-wide relationship for HBM3E:
 
-Step two. Write KV bytes/token as an explicit variable with MLA-class compression. What official text can confirm: V3 \(d_c=512\), \(n_h=128\), \(d_h=128\), and V2 93.3% versus 67B. Watch whether later reports still use the same compression dimensions and still write decode as cache-bound. Do not treat 93.3% as an industry constant for all models.
+```text
+HBM3E wafer supply
+≈ 3 × DDR5 wafer supply
+```
 
-Step three. Open the area identity only when citable chip shipments and HBM stack counts appear, then substitute reticle, dual die, and memory-penalty parts. Otherwise stop at the symbol layer. What can be multiplied is multiplied per cabinet only: HBM and LPDDR bytes at 10k / 30k / 50k cabinets. 5.39 is for the CoWoS line only, not for the factory's 15,022 thousand wafers.
+for the **same technology node** and the **same number of bits**.
 
-Step four. Scaling tracks only GPU-hours and active parameters under a quality constraint. V3's 2.788M hours and $5.576 million are one point, with a rental assumption, excluding prior research. Do not treat that point as a price law. Do not extrapolate 2036 loss.
+The implication is that rising HBM bit demand can amplify pressure on DRAM wafer supply.
 
-Step five, added to the frame in the current evidence review: use profit, cash, and supply commitments as the demand constraint. While gross margin sits near 75% and commitments keep rising, the right-hand side of the area equation is already occupied by checks even without shipments. Commitments falling back, margin leaving, operating income no longer converting into new prepaid agreements: those are the official signals of demand loosening. Cloud PPE sits on halls. It does not enter the left-hand side of this step.
+This is **A-grade first-party company evidence**. It is a trade ratio under a defined comparison, not a universal constant that can be mechanically extended to every future HBM generation.
 
-Failure modes of the frame are also specific. Extrapolating "intelligence output" from peak PFLOPS and ignoring bandwidth overstates out-of-cabinet scale-out. Extrapolating industry capex from one model's invoice puts $5.576 million and two-hundred-billion-scale hall depreciation in the same column. Shouting "how many fabs are short" from an area equation with no shipments forges an identity into a forecast. Extrapolating ten-year loss from Scaling exponents not written into the sources violates the hard rule. Dividing factory wafers by 19% customer share forges revenue share into wafer starts. Bidding for capacity with $58.3B of net income counts $15.9B of equity marks as wafers. This volume would rather admit the gap on the title's promise than fill the gap with fake parameters.
+## 7. Advanced-packaging geometry stress test
 
-Estimate, in engineering, means: inputs known, formula closed, output recomputable. By that standard, this volume can currently estimate only these. First: given peak compute and bandwidth, compute critical intensity and judge which side the load sits on. Second: given official V3 hyperparameters, understand the order-of-magnitude relation of the compression dimension to full multi-head; 93.3% follows the V2 original; do not treat a new division as a V3 fact. Third: given product-page 13.4 TB and 17 TB, multiply by 10k / 30k / 50k cabinets to get HBM and LPDDR byte magnitudes. Fourth: given the official income statement, back-calculate net margin, split operating income from equity marks, and track the supply-commitment balance. What cannot be estimated: how many 12-inch wafers 2030 needs, how many CoWoS fabs, whether industry training cost will generally fall to $5.576 million, whether Kaplan / Chinchilla coefficients still hold in 2026. Writing what cannot be estimated as an estimate is a liability to the reader.
+The report uses **5.39 CoWoS wafers per rack** as a **D-grade geometry stress test**.
 
-If a later volume or an outside source supplies sourced shipments, the area identity can be filled without changing its structure. That is a legitimate next hop. This volume stops at structure because it follows the main line, not because of a lack of ability. Readers should treat Volume 16 as a variable dictionary plus a cash constraint, not as a calibrated macro forecaster.
+The working relationship is:
 
-## 6.1 Why decode sits on the bandwidth roof by definition
+```text
+72 packages
+÷ 13.4 packages per wafer
+≈ 5.39 wafers per rack
+```
 
-One training step can do a large number of multiply-adds on the same activation. Arithmetic intensity rises with matrix side length. The useful work of one decode step is: read KV up to the current step, compute one attention, write KV for one new token. The numerator is FLOPS of one forward. The denominator is KV volume times byte width. The longer the context, the larger the denominator, the lower the intensity. That direction is not something hyperparameters can reverse. It is the definition of autoregression. So Roofline in this volume is not a decorative figure. It says: between the peak-PFLOPS advertisement and tokens/s delivered sits a bandwidth roof. The cabinet's design raises the roof — HBM bandwidth plus in-cabinet NVLink — rather than lifting intensity past the critical value. MLA cuts KV bytes per sequence in the denominator, so the same roof can run more sequences concurrently. Once concurrency rises, total bytes moved need not fall. HBM is still worth money. That is the physical meaning of "compression raids capacity pathology and does not demolish the bandwidth roof."
+The **13.4 packages per wafer** term is a geometry assumption. It is not a TSMC-disclosed yield.
 
-The V3 report itself writes training-time communication as another bandwidth book. The cluster is 2048 H800s, NVLink inside the node, InfiniBand across nodes. The report writes NVLink about 160 GB/s, IB about 50 GB/s, roughly 3.2x. To hold IB traffic down, each token is sent to at most 4 nodes. That is not a product-page spec this volume needs. It is an engineering constraint in a training report, showing that even in training, which should be compute-dense, cross-node bandwidth already forces the architecture to yield. Inference decode will lean on bandwidth even more. When this volume cites 160 / 50 it marks the source as engineering narration in V3 report section 3.2.2, not the NVL72 product page. The two sets cannot be added.
+The result is therefore suitable for:
 
-## 6.2 What the five interrupts look like inside the quantitative frame
+- order-of-magnitude packaging demand;
+- scenario comparison;
+- bottleneck sensitivity analysis.
 
-The five are in the main line and [Volume 8](vol-08.en.md). The docket is in [Volume 11](vol-11.en.md). This volume only writes: if one of them is actually done, which observables in the frame would move.
+It is **not** suitable for:
 
-Western bundling: the counterparties on supply commitments are no longer written mainly by one name. Official tables will not suddenly print "second-name prepayments," but TSMC's customer table and NVIDIA's commitment-balance growth would fork. What this volume can watch is whether the commitment balance keeps rising. It cannot watch the split, because the split was not found.
+- dividing TSMC annual wafer shipments;
+- inferring actual Blackwell shipments;
+- inferring customer-level CoWoS allocation.
 
-Cloud ASICs take training: not inference shunt. The main line writes that public next generations have not retreated to 5nm plus commodity DDR5. Quantitatively, if training-cabinet orders are taken by ASICs, NVIDIA data-center compute revenue should loosen before networking revenue. FY26 compute 162,361, networking 31,376; Q1 data center 75,246. That is a platform table, not a training/inference split. The frame can only treat "compute revenue no longer makes a new high" as an observation item. It cannot fill an unannounced ASIC wafer count into the area equation.
+The distinction between a geometry coefficient and an observed manufacturing yield is a hard quantitative guardrail.
 
-Power stops the buildout: Volume 13's question. If cabinets cannot take power, 75% cannot lock the next slice either. This volume's observation item is whether the commitment balance is still rising. If it is still rising, sellers still think capacity and power match the check. Megawatts of power do not enter this volume's mm² column.
+## 8. Why public data cannot close the shipment model directly
 
-A second bid in the East: what the China stack stands up is a parallel bid, not a substitute seat for Apple or AMD at TSMC. This volume does not write a domestic training invoice as an extrapolable function. The observation item is not in this volume's alphabet.
+At least three critical public splits are missing:
 
-A split or a forced-open CUDA: regulation hits contracts. It does not hit the CoWoS queue. The quantitative frame has almost no leading indicator on this line. 10% of annual turnover is a statutory ceiling. FY26 × 10% = $21.6B. That is not a fine. $21.6B against one year of free cash $96.6B is a cost, not a structural break. This volume records $21.6B as a main-line sentence. It does not write it as cash about to leave.
+- actual rack shipments;
+- customer-level HBM bits;
+- customer-level CoWoS allocation.
 
-When none of the five is done, the frame's default path is: gross margin stays near 75%, commitments keep rising, the bandwidth roof is still there, the area equation stays empty. Empty is not failure. It is a refusal to forge shipments.
+Inferring rack counts directly from Data Center revenue introduces an unknown system ASP.
 
-## 6.3 Unit discipline: three books cannot be added
+Using that inferred rack count to estimate HBM and CoWoS demand would then propagate one unknown into several apparently precise outputs.
 
-The easiest way to ruin this volume is not omitting a formula. It is adding different units together. Dollar commitments, wafers, HBM bytes, tokens, GPU-hours, megawatts, PFLOPS: seven quantities have no common denominator. The only legitimate operations are identities inside one unit. 13.4 TB times cabinet count yields PB: bytes times an integer. $95.2B to $119.0B is dollars minus dollars. 2.788M hours is time. 671B is a parameter count. Hours times an assumed rental yield $5.576 million; the report wrote the assumption itself. Dividing $5.576 million into $193.7B of data-center revenue does not yield "training cost as a ten-thousandth of rent," because the numerator is official training of one open-source model and the denominator is the world's cabinet rent paid to the system platform. The scopes are not the same thing.
+The publication framework therefore uses:
 
-Likewise, you cannot divide 15,022 thousand wafers by HPC 58% and get NVIDIA's wafer count. 58% is TSMC wafer-revenue platform share. 15,022 is factory shipment units. Revenue share is not unit share. You cannot divide the factory by first-customer 19% and get wafer starts. You cannot divide the factory by 5.39 and get cabinets. The main line already named these errors. This volume writes them again because the title carries the word "equation," and readers will divide by instinct. The first discipline: both sides of a division must be the same unit system, and the denominator must be that line's pool.
+> **observable demand anchors + scenario rack counts + physical system BOM**
 
-Depreciation years also do not enter this volume's estimates. earlier stress-test material once had 4-year hardware depreciation. Cloud accounting policy was not checked in the current evidence review. The report does not treat 4 years as fact. The capital equation belongs to Volume 8. If this volume mentions $211.9B–$213.9B, it is only as "the hall line is already large," not as the right-hand side of the area equation.
+rather than:
 
-## 6.4 Split the lines inside the income statement too
+> **revenue ÷ assumed rack price**.
 
-On the same NVIDIA income statement, at least four lines cannot be mixed. Operating income is earned selling cabinets and networking. Bidding for capacity looks at it. Q1 FY27 net income was lifted above operating income by $15.9B of equity marks. Bidding for capacity on net income overstates. Free cash is operating cash minus equipment and principal: FY26 96,575, Q1 48,554. That is cash that can add prepayments and can also buy back shares. Buybacks plus dividends FY26 $41.1B, Q1 about $20B. Cash did not all become supply commitments. Shareholders took a cut too. Supply commitments are future payments in off-balance or footnote form, not cash already out. The relation among the four: operating income supports free cash; part of free cash returns to shareholders; part becomes new commitments and inventory. Q1 inventory from $21.4B to $25.8B, commitments from $95.2B to $119.0B, about $20B returned to shareholders at the same time, cash balance from year-end $62.6B to $50.3B — the CFO wrote $50.3B of cash and marketable debt securities. The frame has to watch these lines together. It cannot watch only net income making a new high.
+## 9. Supply commitments are a stronger forward indicator when shipment splits are missing
 
-H20 is another line that must be split. A $4.5B inventory and purchase-commitment charge pushed down full-year FY26 gross margin. Structural margin is Q4 75.0% and Q1 74.9%. If a similar charge appears next quarter, 71.1% will be written as a full-year number again. That is a control line, not the bandwidth wall loosening. The quantitative frame records H20 as a one-off or policy disturbance, not as a downward shift in the margin center, unless several consecutive quarters fail to return near 75%.
+When shipment detail is unavailable, disclosed supply commitments provide a more defensible forward indicator than a fabricated unit model.
 
-R&D 18,497 against revenue 215,938 back-calculates to about 8.6%. The official table does not print that percentage. This volume does not write it as an R&D-intensity law. It is listed only to show: the system platform's absolute R&D already exceeds many buyers' full-year profit, and the supply-coordination layer's scheduling engineering is itself stacked with cash. Cloud commitments $27.0B to $30.0B are R&D cloud, not foundry prepayments. Split them again.
+NVIDIA reported supply-related commitments of:
 
-## 7. Variable dictionary and interfaces to the spine
+- **$95.2B** at FY26 year-end;
+- **$119.0B** at FY27 Q1.
 
-The variable dictionary keeps only quantities that are defined by the model or supported by the current evidence set, so later users do not add parameters without a source or explicit assumption. Compute side: peak FLOPS, bandwidth, critical intensity \(I_{\text{critical}}\). Official V3: 671B total, 37B active, 14.8 trillion tokens, 2.788M H800 hours, 2048 cards, $2/hour rental assumption, $5.576 million converted. Official V2: versus 67B, KV down 93.3%, throughput 5.76x. MLA: \(d_c=512\), \(n_h=128\), \(d_h=128\). Older MFU>50%, “nearly 10×,” 85%+ cost-reduction, and 8192-dimension claims remain outside the fact layer unless tied to the appropriate source and comparison.
+These commitments reflect reservation of inventory and manufacturing capacity for future product supply.
 
-Memory and cabinet: official NVL72 72 / 36 / 13.4 TB HBM3E / 17 TB LPDDR5X / 130 TB/s. Main-line multiples 134 / 402 / 670 PB (10k / 30k / 50k cabinets). Micron's approximately **3× HBM3E wafer-supply trade ratio versus DDR5** is the current A-grade anchor. Other geometry and yield multipliers remain engineering assumptions unless separately sourced.
+They do not disclose the amount assigned to each supplier, technology, or packaging line. But they provide an observable proxy for the intensity of forward resource reservation.
 
-Manufacturing-side reticle, die-area, interposer, and wafer-price values require source-specific treatment. The **5.39 CoWoS wafers/rack** coefficient remains a D-grade geometry estimate. 15,022 thousand wafers are TSMC 2025 shipments, source 02. This volume does not divide them by 5.39.
+## 10. AHICR: Advanced/HPC Incremental Capacity Capture Ratio
 
-Cash side ([Volume 1](vol-01.en.md)): FY26 revenue 215,938, gross margin 71.1%, operating income 130,387, net income 120,067, free cash 96,575, data center 193,737, R&D 18,497, H20 Q1 charge $4.5B. Q1 FY27 revenue 81,615, gross margin 74.9%, operating income 53,536, net income 58,321 (includes $15.9B of marks), free cash 48,554, data center 75,246. Supply commitments 952→1,190. Cloud commitments 270→300, use is R&D. Intel 1999: 29,389 / 7,314 / 59.7%. Microsoft FY25: 281,724 / 101,832 / PPE 64,551. TSMC 2025 gross margin 59.9%. Hynix operating margin 49%.
+The report introduces:
 
-On the capital side earlier stress-test material $215B is downgraded to mixed-year scope. The main line restates about $211.9B–$213.9B of group-wide equipment purchases, not an AI-hardware line item. Coefficients outside this alphabet are foreign. They must carry another source. They cannot be mixed into this volume's body as "already estimated."
+```text
+AHICR
+= incremental advanced AI/HPC resources captured by one buyer
+  / total incremental advanced AI/HPC resources
+```
 
-Interface to Volume 8 and Volume 13: the capital equation wants dollar depreciation; the energy equation wants megawatts and years; this volume wants mm², bytes/token, and the dollar commitment balance. The three unit systems cannot be added. Interface to Volume 9: the bandwidth wall explains why HBM and in-cabinet interconnect are taken first, and why the first wave of PCs, general-purpose servers, and phones pays a residual-capacity pressure. Interface to Volume 14: winners are the platform-control layers themselves plus memory that follows the price, not a second model profit pool; this volume's $5.576 million does not explain who wins. Interface to Volume 1: the system platform sells cabinets; the software/interface layer sets CUDA and the cabinet standard; the supply-coordination layer schedules the HBM / CoWoS / NVLink mix; the model/deployment extension's revenue bulk is still on cabinets. If the quantitative frame writes a model invoice as the main engine, it has left the question again.
+The numerator and denominator should be evaluated **separately by scarce layer**, including:
 
-Main-line section 8: FY26 data center $193.7B is the rent the world paid out. The application layer is squeezed. The back end collects rent. Phones and PCs that never buy a GPU still pay a memory residual pressure. The world does not blow up. Upgrades stop one node down. One firm writes the rules. If those five interrupts are not done, the line walks past half of the scarce slice. The window is the few years before the next first-to-market node is locked by commitments. What Volume 16 can do is restore "past half" from a slogan to a testable identity: whether the bandwidth roof is still there, whether the commitment balance is still rising, whether the area equation has shipments to fill. Of the three, the first two can be watched now. The third is empty. Empty, stop.
+- advanced logic;
+- HBM;
+- CoWoS;
+- power.
 
-Share-era quantification is insufficient for the current problem. The system has no single audited shipment series that maps platform share into future resource access. What can be observed are supply commitments, seller economics, physical bottlenecks, system-stack substitution, and the allocation of incremental capacity. The correct question is therefore not whether "19% is safe" but how much of the next scarce increment is captured, at what evidence grade, and under which demand and supply assumptions.
+AHICR is not one synthetic unit that adds wafers, memory bits, packaging, and megawatts together.
 
-This volume therefore collapses the forecast frame to three layers, not a ten-year table. The bottom layer is physical identity: Roofline, MLA compression dimensions, bytes per cabinet. The middle layer is cash identity: operating income, free cash, supply commitments, H20 disturbance. The top layer is the area equation, which stops when shipments are missing. Scaling coefficients enter none of the three layers unless a citable fit appears in SOURCE or the sources. The three layers can explain one another. They cannot substitute for one another. Cash rising faster still does not mean next year's mm² is already known. A harder bandwidth roof still does not mean 2030 fab counts are already known. Explanation is Numbers are official tables. Both sit in the same volume so the reader can see which layer is already closed and which is still empty.
+Its purpose is to measure how much of the **incremental scarce capacity** a buyer captures within each physical pool.
 
-This volume still outputs no wafer-count forecast for any year. Without a shipment input the identity has no numerical solution. A wafer count written hard can only be fiction. Accordingly, this volume does not publish a hard 2030 wafer-shortfall number without an explicit shipment input and stated yield assumptions.
+That makes it more useful for forward resource competition than a historical revenue share.
+
+## 11. Quantitative guardrails
+
+The report applies the following non-equivalences throughout:
+
+- **revenue share ≠ wafer share**;
+- **contracted MW ≠ energized MW**;
+- **rack specification × hypothetical racks ≠ shipments**;
+- **CoWoS geometry ≠ fab yield**;
+- **CapEx guidance ≠ actual CapEx**;
+- **AI exposure ≠ job loss**;
+- **model rental-cost conversion ≠ full company cash cost**.
+
+These are not wording preferences. They prevent unit errors from becoming false industrial conclusions.
+
+## 12. Current conclusion
+
+AI infrastructure can be quantified, but only if dimensions remain consistent.
+
+The most reliable sequence is:
+
+**official system specification  
+→ material identity  
+→ scenario demand  
+→ supply constraint  
+→ financial commitment  
+→ falsification**
+
+The wrong sequence is to choose a large conclusion first and then backfill numbers until the model appears closed.
+
+Quantification is most useful when it shows exactly **which variable is observed, which one is assumed, and which missing disclosure prevents the next step from being treated as fact**.
