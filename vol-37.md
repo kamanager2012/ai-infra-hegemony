@@ -1,326 +1,202 @@
-# 第三十七卷：AI 基础设施资本风险——折旧、利用率、价格与去库存
+# 第三十七卷：AI 基础设施泡沫识别与市场清算框架
 
-## 1. 核心判断
+## 1. CapEx 很大，不等于泡沫
 
-AI 基础设施是否形成泡沫，不能由股价、舆论或单一 CapEx 数字判断。
+AI infrastructure 的投资规模已经极高，但“投资巨大”本身不能证明泡沫。
 
-真正需要观察的是四类信号是否同时出现：
+泡沫真正发生在：
 
-1. **会计信号**：折旧与基础设施运营成本持续上升；
-2. **利用率 / 收入信号**：AI 相关增量收入、调用量或机时利用率不足以覆盖新增成本；
-3. **市场清算信号**：GPU/整柜现货折价、交期缩短、HBM/CoWoS 由配额转向宽松供应；
-4. **前瞻承诺信号**：Cloud CapEx 指引下调，或供应承诺、预付款出现显著放缓、改期或取消。
+> 资产价格、建设规模和未来现金流预期长期脱离实际利用率与可实现收益。
 
-只有第一类信号，代表资本密集化；第一、二类同时出现，代表 ROI 压力；四类信号共同出现，才接近本卷定义的 **Infrastructure Hard Landing（基础设施硬着陆）**。
+因此，本卷不用单一估值倍数或 CapEx 总额判断泡沫。
 
-因此，本报告不采用“CapEx 很大 = 泡沫”或“CapEx 仍在增长 = 没有泡沫”这两种简单判断。
+## 2. 四类清算信号
 
-## 2. 资本开支必须先统一口径
+本报告采用四类信号。
 
-Microsoft、Amazon、Alphabet、Meta 的 CapEx 口径并不完全一致。
+### 2.1 Accounting
 
-不同公司存在：
+- impairment；
+- inventory write-down；
+- accelerated depreciation；
+- asset disposal。
 
-- 财年与日历年差异；
-- PPE 与 net PPE 差异；
-- fulfillment/network infrastructure 等非 AI 项目；
-- office 与其他技术设施；
-- data center、server、network、power 等多类资产。
+这些信号说明企业已经开始在账面承认未来现金流低于原先预期。
 
-因此，不能把四家公司全部 CapEx 直接相加后称为“AI hardware CapEx”。
+### 2.2 Utilization / Revenue
 
-更有意义的观察对象是：
-
-- AI server / accelerator investment；
-- network；
-- memory；
-- data-center construction；
-- power；
-- custom silicon；
-
-在各家公司投资结构中的占比是否持续提高。
-
-2025–2026 年公开数据已经说明一件事：资本基数仍在快速上升。真正的风险并不是“资本投入太大”本身，而是这些资产未来能否形成足够 utilization 与 cash return。
-
-## 3. 折旧墙：费用出现晚于采购决定
-
-AI infrastructure investment 具有明显的时间错配。
-
-采购决定发生在第一年，但 hardware depreciation 会在后续多个会计年度持续进入费用。
-
-因此，卖方可以在设备交付时确认收入，而买方需要在未来数年内持续承担：
-
-- depreciation；
-- power；
-- cooling；
-- networking；
-- software；
-- operations。
-
-这意味着“卖方高利润”和“买方 ROI 压力”完全可以同时存在。
-
-本报告不把“四年折旧”写成所有公司的统一会计规则。服务器、accelerator、network equipment 与 data-center building 的使用寿命存在公司差异。
-
-但机制不会改变：
-
-> **一旦大规模 CapEx 转化为 PPE，未来几个会计年度就会出现持续成本；是否继续扩张，则取决于下一轮 utilization、收入和新增订单。**
-
-## 4. Token 价格下降不是泡沫，价格下降与用量不足才是
-
-AI 软件和模型价格持续下降是正常技术进步的一部分。
-
-价格下降本身甚至可能扩大需求。
-
-真正危险的组合是：
-
-- token / inference price 快速下降；
-- 但调用量增长不足；
-- enterprise workflow 没有形成足够新增收入；
-- infrastructure utilization 因此下降。
-
-这也是为什么“DeepSeek 训练成本下降”不能直接推出“AI infrastructure 已经过剩”。
-
-算法效率提高可以降低单位训练或推理需求，但同时也可能：
-
-- 扩大模型使用范围；
-- 增加并发；
-- 增加 Agent workflow；
-- 扩大长上下文与多模态需求。
-
-最终结果取决于**效率提升是否带来足够的需求弹性**。
-
-## 5. AI Software Unit Economics 是需求侧核心
-
-判断 infrastructure demand 是否可持续，必须进一步看应用层单位经济。
-
-AI Software Unit Economics 至少包括：
-
-- inference cost；
-- retrieval / storage；
-- tool / API cost；
-- human review；
-- AI-specific cloud cost；
-- reliability / observability；
-- workflow orchestration。
-
-如果应用公司无法把 AI 转化为可重复的 workflow revenue，那么成本会持续存在，但收入不会同步增长。
-
-这种情况下，风险会从应用层向上游传导：
-
-应用 ROI 下降  
-→ cloud workload growth 放缓  
-→ utilization 下降  
-→ next-round CapEx 放缓  
-→ hardware order growth 放缓。
-
-因此，真正的基础设施风险不是“模型公司烧钱”，而是**整个 workload monetization chain 无法覆盖不断扩大的固定资产成本**。
-
-## 6. 去库存不是一个动作，而是四层资产依次出清
-
-AI infrastructure 去库存具有明显层次。
-
-### 6.1 第一层：GPU / Rack Inventory
-
-最容易看到市场变化。
-
-典型信号包括：
-
-- 现货相对合同价折让；
-- 交期显著缩短；
-- 预付款条款变弱；
-- 二手系统出现稳定成交市场。
-
-这是最接近“短周期库存”的部分。
-
-### 6.2 第二层：HBM / Advanced Packaging
-
-这类产能物理黏性更强。
-
-Micron 已明确披露 HBM3E 相同 bit、相同 node 下约需要 DDR5 **3× wafer supply**；TSMC 也持续确认 advanced packaging tightness。
-
-因此，HBM 和 CoWoS 不会因为一个季度订单下滑就立即恢复成普通 DRAM 或消费逻辑产线。
-
-### 6.3 第三层：Installed Compute
-
-已经安装并开始折旧的 server / rack 无法“取消订单”。
-
-如果 utilization 下降，只能通过：
-
-- 降价；
-- 转售；
-- 改用途；
-- 延长使用周期；
-- impairment。
-
-这一层会直接影响新设备价格和下一轮采购。
-
-### 6.4 第四层：Data Center / Power
-
-土建、substation、PPA、nuclear contract 等资产期限更长。
-
-在需求强劲时，它们是 scarce asset；在硬着陆时，它们可能成为长期负担。
-
-因此，AI 泡沫如果真正破裂，不会表现为“所有资产一起归零”，更可能表现为：
-
-> **短周期硬件先降价，制造追加产能随后放缓，已安装资产 utilization 下降，而长久期电力与土建继续留在资产负债表上。**
-
-## 7. 卖方与买方的风险不同
-
-NVIDIA、TSMC、memory suppliers 与 cloud buyers 并不处于同一会计位置。
-
-卖方主要面对：
-
-- order growth；
-- pricing；
-- capacity commitments；
-- inventory；
-- margin。
-
-买方主要面对：
-
-- depreciation；
-- utilization；
-- power cost；
-- workload revenue；
-- return on invested capital。
-
-因此，卖方高利润与买方投资回报压力并不矛盾。
-
-如果需求在高位放缓，最先出现风险的可能是：
-
-1. workload ROI；
-2. utilization；
-3. next-generation procurement；
-4. seller order growth；
-5. upstream capacity expansion。
-
-而不是卖方已经确认的历史收入立即消失。
-
-## 8. 监管不能消除折旧墙
-
-反垄断政策可能改变 system-stack competition，但不会自动取消已经投入的 PPE。
-
-罚款属于卖方成本。
-
-折旧属于买方费用。
-
-Token cost 属于应用层单位成本。
-
-这三者位于不同主体的财务报表中。
-
-真正可能影响未来投资回报的监管措施，是能够显著降低 migration cost 的结构性措施，例如：
-
-- interoperability；
-- anti-tying；
-- portability；
-- interface openness；
-- structural separation。
-
-即使这些措施发生，它们也只能改变未来 workload allocation，不能追溯性消除已经发生的折旧。
-
-## 9. 四类风险状态
-
-### 9.1 Healthy Expansion
-
-CapEx 高增长，但 utilization、workflow revenue 与 seller orders 同步增长。
-
-结果：高投入属于理性扩容，而不是泡沫。
-
-### 9.2 ROI Pressure
-
-折旧持续上升，但应用层收入和 utilization 开始落后。
-
-结果：投资回报下降，但供给仍然紧张，市场尚未进入真正清算。
-
-### 9.3 Soft Landing
-
-Cloud CapEx 增速下降，硬件价格和交期趋于正常，但 utilization 仍然较高。
-
-结果：行业从极端紧缺转向正常资本周期。
-
-### 9.4 Hard Landing
-
-四类风险信号同时出现：
-
-- utilization 显著下降；
-- workflow revenue 不足；
-- hardware / HBM / packaging market 明显转松；
-- next-round commitments 大幅减速或取消。
-
-这才是本报告定义的基础设施硬着陆。
-
-## 10. 当前状态：尚未出现完整硬着陆信号
-
-截至 2026 年 8 月，当前公开事实仍显示：
-
-- NVIDIA FY27 Q2 Data Center revenue：**$89.0B**；
-- GAAP gross margin：**75.0%**；
-- Rubin 已进入 full production；
-- supply commitments 仍处于高位；
-- HBM demand 仍然强；
-- TSMC 仍将 advanced packaging 描述为限制客户增长的瓶颈；
-- hyperscaler CapEx 仍然处于高位。
-
-这说明“收入失速 + 毛利塌陷 + 供给宽松 + 承诺收缩”的完整硬着陆组合尚未出现。
-
-但这并不意味着风险不存在。
-
-CapEx 是领先指标，折旧和 utilization 验证具有滞后性。当前最值得关注的是未来几个季度是否出现：
-
-- workload revenue 增速放缓；
-- utilization 下滑；
-- GPU/rack lead time 大幅缩短；
-- HBM/CoWoS tightness 缓解；
-- supply commitments 改期或取消；
-- cloud CapEx 指引系统性下调。
-
-## 11. 可验证指标
-
-### Buyer Side
-
-- CapEx growth；
-- PPE growth；
-- D&A；
-- utilization；
-- AI revenue disclosure；
+- compute utilization；
+- revenue per deployed system；
+- enterprise AI revenue；
 - workflow monetization。
 
-### Seller Side
+如果 utilization 高，CapEx 可以持续。
 
-- Data Center revenue；
-- gross margin；
-- supply commitments；
-- inventory；
-- order lead time。
+如果 utilization 长期低，资本压力会逐渐显现。
 
-### Market Clearing
+### 2.3 Market Clearing
 
-- rack / GPU spot pricing；
-- secondary-market liquidity；
-- HBM lead time；
-- CoWoS availability；
-- cloud instance pricing。
+- GPU/system second-hand price；
+- cloud instance discount；
+- delivery lead time；
+- HBM price；
+- packaging availability。
 
-### Long-duration Assets
+市场价格通常比财报更早反映供需变化。
 
-- data-center cancellations；
-- power contract changes；
-- energized MW versus contracted MW；
-- impairment。
+### 2.4 Forward Commitment
 
-## 12. 最终判断
+- hyperscaler CapEx guidance；
+- NVIDIA supply commitments；
+- long-duration compute contracts；
+- power commitments。
 
-AI 基础设施风险的本质，不是“AI 有没有价值”，而是：
+forward commitment 是判断下一轮扩张是否继续的关键。
 
-> **未来 workload 产生的现金流，能否覆盖今天正在形成的 hardware depreciation、data-center cost、power commitment 和 upstream capacity investment。**
+## 3. 什么叫“资本硬着陆”
 
-只要 utilization 与 workflow revenue 能够跟上，大规模 CapEx 仍然可能是合理扩张。
+本报告把 S4 Capital Hard Landing 定义为多类信号同步恶化：
 
-如果收入和利用率长期落后，而供给、价格和下一轮承诺同时转弱，AI 基础设施才会真正进入去库存和资本硬着陆。
+1. utilization 下降；
+2. AI revenue 不足；
+3. hardware residual value 下跌；
+4. CapEx guidance 下调；
+5. supply commitments 放缓或取消；
+6. impairment 增加。
 
-因此，本卷反对两种极端叙事：
+只有这种组合出现，才足以说明产业从“高投入增长”进入“资本清算”。
 
-- “CapEx 越大，泡沫越大”；
-- “CapEx 还在增长，所以不存在泡沫”。
+## 4. 为什么 seller 与 buyer 会不同步
 
-真正的判断标准始终是：**会计、利用率、市场清算和未来承诺是否同时发生变化。**
+NVIDIA 是 system seller。
+
+hyperscaler 是 asset buyer。
+
+需求放缓时：
+
+- buyer 先减少 next-generation order；
+- seller revenue growth 随后下降；
+- manufacturing utilization 再向上游传导。
+
+因此，NVIDIA 毛利率可能在一段时间内仍高，而 cloud ROI 已经开始恶化。
+
+这也是为什么不能只看 seller margin 判断泡沫。
+
+## 5. Inventory shock 与 structural collapse 不同
+
+FY26 H20 相关 charge 曾影响 NVIDIA 全年 gross margin。
+
+但 FY27 Q2 GAAP gross margin 已恢复到 **75.0%**。
+
+这说明：
+
+> 一次性 inventory / regulatory shock 可以影响单季或全年利润，却不一定代表 system economics 已经结构性崩溃。
+
+判断结构性变化需要更长期的：
+
+- volume；
+- pricing；
+- commitment；
+- utilization。
+
+## 6. Algorithmic efficiency 是泡沫模型中的关键变量
+
+如果相同 capability 所需 compute 快速下降，而 workload volume 没有同步增长，则：
+
+- previously ordered capacity 可能过剩；
+- system price 下跌；
+- utilization 下降。
+
+反之，如果更低成本刺激了大规模新需求，则效率提升反而延长资本周期。
+
+因此：
+
+[
+Net Infrastructure Demand
+=
+Efficiency effect
+	imes
+Demand elasticity
+]
+
+不能只看 efficiency。
+
+## 7. Model-layer price war 可能先于 infrastructure clearing
+
+模型 API 与 open-source competition 可以迅速压低：
+
+- token price；
+- subscription price；
+- model margin。
+
+但 infrastructure 是否过剩取决于：
+
+- total token volume；
+- workflow adoption；
+- utilization。
+
+所以“模型越来越便宜”不是“GPU 一定过剩”的充分条件。
+
+## 8. Second-hand market 是重要前置指标
+
+如果新一代 hardware 快速替代旧一代，economic depreciation 会快于 accounting depreciation。
+
+因此需要监测：
+
+- used accelerator price；
+- lease rate；
+- resale liquidity；
+- old-generation cloud discount。
+
+这些指标能够帮助判断：
+
+> 市场是否已经开始主动清算旧 compute。
+
+## 9. Power 与 long-duration asset 的清算更慢
+
+data-center shell、substation、PPA 的期限比 GPU 长。
+
+因此 S4 中的典型顺序可能是：
+
+hardware order  
+→ system residual value  
+→ server utilization  
+→ data-center lease  
+→ power/project economics。
+
+这意味着资本硬着陆可能持续多年，而不是一个季度完成。
+
+## 10. 四类情景下的资本表现
+
+### S1 Competitive Expansion
+CapEx 高，但供给增加、竞争加剧、ROI 仍健康。
+
+### S2 Baseline Concentration
+CapEx 高，scarce-layer margin 强，利用率维持。
+
+### S3 Resource Hegemony
+CapEx 与资源锁定进一步集中，进入壁垒继续提高。
+
+### S4 Capital Hard Landing
+利用率、价格、承诺和新投资同步下降。
+
+## 11. 当前判断
+
+截至 2026 年 8 月，公开事实更符合：
+
+> **高强度资本扩张 + ROI 压力上升**
+
+而不是已经确认的基础设施泡沫破裂。
+
+S4 仍是必须认真监测的情景，但要成为主情景，需要看到：
+
+- CapEx；
+- utilization；
+- clearing price；
+- commitments
+
+同时转弱。
+
+真正危险的不是“AI 花钱太多”，而是：
+
+> **资产越来越多，但能够产生现金流的有效 workload 没有同步增长。**
