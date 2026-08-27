@@ -18,13 +18,20 @@ AI infrastructure 的量化分析最容易犯的错误，是把不同物理池�
 Roofline model 的基本关系：
 
 [
-Performance = min(Peak Compute, Memory Bandwidth 	imes Arithmetic Intensity)
+Performance
+=
+minleft(
+Peak Compute,;
+Memory Bandwidth 	imes Arithmetic Intensity
+ight)
 ]
 
 临界算术强度：
 
 [
-I_{critical}=rac{Peak Compute}{Memory Bandwidth}
+I_{critical}
+=
+rac{Peak Compute}{Memory Bandwidth}
 ]
 
 当 workload 的 arithmetic intensity 低于临界值时，系统处于 memory-bound 区域。
@@ -93,11 +100,11 @@ GB200 NVL72 官方配置：
 因此：
 
 [
-HBM(R)=13.4 TB	imes R
+HBM(R)=13.4 	ext{TB} 	imes R
 ]
 
 [
-LPDDR(R)=17 TB	imes R
+LPDDR(R)=17 	ext{TB} 	imes R
 ]
 
 其中 (R) 是 rack 数。
@@ -116,7 +123,9 @@ LPDDR(R)=17 TB	imes R
 Micron FY24 Q3 prepared remarks：
 
 [
-HBM3E wafer supply approx 3	imes DDR5
+HBM3E wafer supply
+approx
+3 	imes DDR5 wafer supply
 ]
 
 条件是：
@@ -130,18 +139,16 @@ HBM3E wafer supply approx 3	imes DDR5
 
 ## 7. Packaging geometry stress test
 
-报告采用：
+报告采用 **5.39 CoWoS wafers/rack** 作为 D 级 geometry stress test。
+
+其几何来源为：
 
 [
-5.39 CoWoS wafers/rack
-]
-
-作为 D 级 geometry stress test。
-
-来源：
-
-[
-72 packages div 13.4 packages/wafer approx 5.39
+72 	ext{packages}
+div
+13.4 	ext{packages/wafer}
+approx
+5.39 	ext{wafers/rack}
 ]
 
 其中 13.4 packages/wafer 是几何假设，不是 TSMC 官方 yield。
@@ -198,9 +205,10 @@ NVIDIA：
 报告引入：
 
 [
-AHICR=
-rac{某买方获得的新增先进AI/HPC资源}
-{全行业新增先进AI/HPC资源}
+AHICR
+=
+rac{	ext{某买方获得的新增先进 AI/HPC 资源}}
+{	ext{全行业新增先进 AI/HPC 资源}}
 ]
 
 这里的“资源”可以分别计算：
