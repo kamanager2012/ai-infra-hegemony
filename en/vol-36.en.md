@@ -2,7 +2,7 @@
 
 Chinese original: [vol-36.md](../vol-36.md)
 
-FY26 and supply commitments: [Volume 1](vol-01.md). Mixed-year four-cloud figures: `四云Capex口径核对.md`. This volume does not invent sovereign-fund holdings. What can be confirm is Norges Bank's published asset mix, and the third-party compute-financing memorandum NVIDIA itself named: Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR.
+FY26 and supply commitments: [Volume 1](vol-01.en.md). Mixed-year four-cloud figures: `四云Capex口径核对.md`. This volume does not invent sovereign-fund holdings. What can be confirm is Norges Bank's published asset mix, and the third-party compute-financing memorandum NVIDIA itself named: Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR.
 
 ## 1. The question this volume answers
 
@@ -97,7 +97,7 @@ Watching sovereign funds in public markets means watching for direct projects, n
 
 ### 3.8 China consumption cannot fill this acceleration
 
-The China stack: [Volume 12](vol-12.md). The five interrupts: [Volume 8](vol-08.md). A China replacement cycle cannot interrupt this acceleration.
+The China stack: [Volume 12](vol-12.en.md). The five interrupts: [Volume 8](vol-08.en.md). A China replacement cycle cannot interrupt this acceleration.
 
 ### 3.9 FX shows only in the won table
 
@@ -109,11 +109,11 @@ Any position whose return depends on the next GPU shipping on time should be man
 
 Public capital is the same mechanism in a state version. Chip acts, export controls, sovereign AI: taxpayer money driven into copying a single point. If public capital covers only the building and not power and people, the books form "subsidized, no-cash-flow" assets — the same mismatch as four-year cloud depreciation, except the payer is the taxpayer. This volume does not introduce unsupported CHIPS Act appropriation figures.
 
-The five paths: [Volume 8](vol-08.md). This volume does not reopen endgame sentences.
+The five paths: [Volume 8](vol-08.en.md). This volume does not reopen endgame sentences.
 
 ### 3.11 The accounting face of a valuation rewrite, not a slogan
 
-A valuation rewrite lands on the books as only three things. First, the numerator moves from "revenue growth" to "who still collects scarce-layer value capture." The revenue bulk is still on cabinets; see [Volume 1](vol-01.md). Q1 FY27 on the old cut: data-center compute $60.4B, networking $14.8B; edge $6.4B. Networking $14.8B in one quarter says rent is not collected only on GPUs. If valuation only gives a "chip-stock" multiple, it drops the software/interface layer and the supply-coordination layer. Second, the denominator moves from "next-quarter shipments" to "whether commitments can be rescheduled." Inside $119.0B are agreements that can be adjusted. Third, the discount rate has to move from a software low-capex assumption back to a heavy-asset depreciation and interconnection assumption. Keep pricing clouds on a software discount rate and you are treating buildings as expensed code.
+A valuation rewrite lands on the books as only three things. First, the numerator moves from "revenue growth" to "who still collects scarce-layer value capture." The revenue bulk is still on cabinets; see [Volume 1](vol-01.en.md). Q1 FY27 on the old cut: data-center compute $60.4B, networking $14.8B; edge $6.4B. Networking $14.8B in one quarter says rent is not collected only on GPUs. If valuation only gives a "chip-stock" multiple, it drops the software/interface layer and the supply-coordination layer. Second, the denominator moves from "next-quarter shipments" to "whether commitments can be rescheduled." Inside $119.0B are agreements that can be adjusted. Third, the discount rate has to move from a software low-capex assumption back to a heavy-asset depreciation and interconnection assumption. Keep pricing clouds on a software discount rate and you are treating buildings as expensed code.
 
 R&D also has to be put back. FY26 R&D $18,497 million, free cash $96,575 million. The seller is not burning cash into its own wafer fab. It burns cash into the roadmap, the software stack, and buybacks, and uses prepayments to make other people's plants queue for it. Buyer R&D and capex are another table. Mixing them in one "tech growth" basket is, in accounting, adding two tables wrong.
 
@@ -161,4 +161,4 @@ The older Microsoft revenue range has been replaced by FY25 revenue of **$281.72
 
 One more judgment that cannot be written as fact: four-year hardware has already been packaged as a qualifying long-duration asset. The 10 August memorandum is a try, not a try that has already succeeded. Whether pensions and insurers will follow: public filings have not yet given a citable allocation share.
 
-Still cannot write: $500 billion already raised; the Norway fund's official mix equals a heavy single-name position; four-year hardware has already been packaged as a qualifying long-duration asset. Four-cloud scope and the case file: [Volume 8](vol-08.md), [Volume 11](vol-11.md). This volume serves the spine that profit pushes prepayments. It does not open another chapter called "empire market cap."
+Still cannot write: $500 billion already raised; the Norway fund's official mix equals a heavy single-name position; four-year hardware has already been packaged as a qualifying long-duration asset. Four-cloud scope and the case file: [Volume 8](vol-08.en.md), [Volume 11](vol-11.en.md). This volume serves the spine that profit pushes prepayments. It does not open another chapter called "empire market cap."
