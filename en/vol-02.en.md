@@ -37,7 +37,7 @@ Seventy-two GPU packages per cabinet are the numerator of 5.39 later. 13.4 TB is
 
 The full FY26 / Q1 FY27 table is in [Volume 1](vol-01.en.md). This volume does not reopen it. The press release opened in the current evidence review writes the platform splits in full: gaming a record $16.0 billion for the year, up 41%; Q4 $3.7 billion, down 13% sequentially as channel inventory came down; professional visualization $3.2 billion for the year; automotive $2.3 billion for the year. They already made cards. What changed is selling training as a cabinet. Once the cabinet is the default sales unit, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain.
 
-Asset-light is a mechanism, not an adjective. FY26 purchases of property and equipment and intangibles were only $6,042M, against operating income $130,387M and free cash $96,575M. The cabinet's heavy assets sit at TSMC, the three memory makers, and Foxconn / Quanta final assembly. What it collects is the right to weld those parts into a trainable system, plus the switching cost of the developer stack. Analysis add: the asset-light name uses profit to lock next year's slots at the heavy-asset names.
+Asset-light is a mechanism, not an adjective. FY26 purchases of property and equipment and intangibles were only $6,042M, against operating income $130,387M and free cash $96,575M. The cabinet's heavy assets sit at TSMC, the three memory makers, and Foxconn / Quanta final assembly. What it collects is the right to weld those parts into a trainable system, plus the switching cost of the developer stack. An asset-light system platform can convert operating cash into future supply commitments without carrying the same fab-level capital intensity as upstream manufacturers.
 
 ### 3.2 software/interface layer seat: a unified compute architecture is a tax, not an atom
 
@@ -95,7 +95,7 @@ The system-sales layer can already give the same material to the higher-margin d
 
 The difference from a backdoor: this sentence is a public finance write-up. It can enter the body. A unified compute architecture explains why switching stacks is hard. It does not explain a quarter of scarce gaming cards. Do not weld the two into one sentence.
 
-## 4. Analysis add
+## 4. Scenarios, counterarguments, and testable indicators
 
 ### 4.1 After the sales unit moves up, the comparison object changes
 
@@ -131,7 +131,7 @@ Speak when there is a number. Leave it empty when there is not. Whether data-cen
 
 A dollar bill of materials, software and brand premium 40% to 45%, switch-chip gross margin above 85%, a cabinet leaving the factory at $2.60 million to $3.30 million: historical stress-test material has them; the official product page and 10-K do not. They do not enter the fact layer.
 
-Packaging exclusive 60%, monthly-capacity path from 13k to 130k: sell-side or draft, not a TSMC split. Do not mix Morgan Stanley 595,000 wafers and Mizuho 630,000 wafers into one official table. There is no official number for how many B200 packages come off one packaging wafer. 5.39 is an estimate. The 835,000-cabinet pool is the wrong pool. Void it.
+Customer-level CoWoS shares and monthly-capacity paths from sell-side research are not TSMC disclosures and should not be merged into one official table. There is no official number for how many B200 packages come off one packaging wafer. 5.39 is an estimate. The 835,000-cabinet pool is the wrong pool. Void it.
 
 PTX 95%, AMD trailing 30% to 50%: no sample. A unified compute architecture is an interface fact, not a citable share.
 
