@@ -2,13 +2,15 @@
 
 Nothing in this file is posted automatically. It is a release-writing draft for the repository owner.
 
-Repo: https://github.com/kamanager2012/ai-infra-hegemony
+Repo / English release landing page: https://github.com/kamanager2012/ai-infra-hegemony
 
-English start: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/README.en.md
+Complete Chinese edition: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/README.zh-CN.md
 
-Chinese source of truth: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/README.md
+English edition index: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/README.en.md
 
-Master judgment: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/总判.md
+Master judgment (English): https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/%E6%80%BB%E5%88%A4.en.md
+
+Master judgment (Chinese): https://github.com/kamanager2012/ai-infra-hegemony/blob/main/%E6%80%BB%E5%88%A4.md
 
 ---
 
@@ -51,7 +53,7 @@ FY27 Q2:
 
 But the correct counterfactual is no longer “NVIDIA has a system, everyone else only has a die.”
 
-Google Ironwood, AWS Trainium3 UltraServer, and Meta MTIA are becoming system stacks too.
+Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA are evolving into competing system stacks.
 
 **4/**  
 One of the key models in the report is **Non-AI Residual Capacity**.
@@ -196,12 +198,12 @@ FY27 Q2：
 
 但现在不能再写“只有NVIDIA有系统，云厂只有一颗ASIC”。
 
-Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA 都在向完整系统栈推进。
+Google Ironwood、AWS Trainium3 UltraServer、Microsoft Maia、Meta MTIA 都在向完整系统栈推进。
 
 **4/**  
 报告里一个核心模型叫：
 
-**Non-AI Residual Capacity —— 非 AI有效残余产能。**
+**Non-AI Residual Capacity —— 非 AI 有效残余产能。**
 
 总产能增长，不等于手机、PC、传统服务器就能恢复供应。
 
