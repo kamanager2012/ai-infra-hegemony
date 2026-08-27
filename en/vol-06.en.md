@@ -1,8 +1,8 @@
 # Volume 6: Model vendors’ commercial bind and the open-source game (inference-cost collapse, DeepSeek, and a commercialization dead end)
 
-Chinese original: [vol-06.md](vol-06.md)
+Chinese original: [vol-06.md](vol-06.en.md)
 
-Cloud ASIC specs: [Volume 4](vol-04.md). The two attachments of model firms: [Volume 26](vol-26.md). This volume does not reopen a spec table. It only writes this: MLA and a million-dollar training bill change the HBM demand function. They do not cancel the cabinet, and they are not a commercialization dead end.
+Cloud ASIC specs: [Volume 4](vol-04.en.md). The two attachments of model firms: [Volume 26](vol-26.en.md). This volume does not reopen a spec table. It only writes this: MLA and a million-dollar training bill change the HBM demand function. They do not cancel the cabinet, and they are not a commercialization dead end.
 
 ## 1. The question this volume answers
 
@@ -10,7 +10,7 @@ Do model firms sell intelligence, or a toll for one forward pass on someone else
 
 This volume follows the model layer only, but the model layer is not independent. The main line writes NVIDIA as four corners: the athlete sells GPUs, cabinets, and interconnect; the referee sets a unified compute architecture, high-speed interconnect, and a cabinet standard; the coach sets the Hopper-to-Blackwell-to-Rubin mix of HBM, packaging, and interconnect; the model player ships Nemotron, NeMo, and inference microservices. The revenue bulk is still on cabinets. Model firms themselves do not control wafers, HBM, or power. They control weights and APIs. Open source can thin the API price. It does not punch through the referee seat. Cloud ASICs can shunt some inference. Public next-gen parts have not retreated to 5nm plus commodity DDR5.
 
-The China stack survives on people who cannot buy NVIDIA, not on cheapness punching through a unified-compute-architecture tax. At home it can at most do phones. PCs and AI are another layer. Matching an open-source training bill to global cabinets, HBM, and advanced packaging is the wrong layer.
+China's parallel stack should not be described as "phones only." It has stronger domestic supply in smartphones, parts of consumer computing, and portions of the accelerator/software stack, while frontier AI remains constrained by advanced logic, HBM-class memory, advanced packaging, high-speed interconnect, and software migration at scale. Open-source training efficiency can reduce compute demand, but it does not by itself substitute those physical layers.
 
 Training cost, compression ratios, and financial anchors that are unique to the draft and were not re-checked against the technical-report originals in this pass are marked "draft figures." This volume opened no model-firm S-1 or registration statement. Cloud ASICs are nailed only to foundry and memory sentences the companies themselves wrote. Third-party node guesses, packaging share, and TCO savings do not enter the fact layer. Four-cloud capex uses group-wide totals that can be added from each firm's statements. It is not written as "$215B of AI hardware."
 
@@ -28,7 +28,7 @@ The strategic meaning of this set is larger than the dollar meaning. Even if the
 
 ### 2.2 Four-cloud ASICs, capex, profit, and the TSMC increment
 
-Specs: [Volume 4](vol-04.md). Four-cloud capex scope: [四云Capex口径核对](四云Capex口径核对.md). Profit and prepayments: [Volume 1](vol-01.md). Booked 19%: [Volume 4](vol-04.md). This volume does not reopen them. No cloud was found saying it is going back to 5nm plus commodity DDR5 as the inference mainstay.
+Specs: [Volume 4](vol-04.en.md). Four-cloud capex scope: [四云Capex口径核对](四云Capex口径核对.md). Profit and prepayments: [Volume 1](vol-01.en.md). Booked 19%: [Volume 4](vol-04.en.md). This volume does not reopen them. No cloud was found saying it is going back to 5nm plus commodity DDR5 as the inference mainstay.
 
 ## 3. Push the mechanism forward
 
@@ -46,7 +46,7 @@ The other face of the open-source game is ecosystem lock. Open weights do not au
 
 ### 3.2 Cloud ASICs have not dodged the scarce slice
 
-Specs: the opening pointer and [Volume 25](vol-25.md). This volume does not reopen them. To beat today's cabinet you return to 3nm, HBM, and advanced packaging. Only a real retreat to 5nm with less packaging dodges the scarce slice. Public next-gen parts have not stopped. If they do not stop, ASICs still bid the same slice against NVIDIA. Of the five interrupts, "cloud ASICs take training off the cabinet" is now taking some inference, not the training cabinet.
+Specs: the opening pointer and [Volume 25](vol-25.en.md). This volume does not reopen them. To beat today's cabinet you return to 3nm, HBM, and advanced packaging. Only a real retreat to 5nm with less packaging dodges the scarce slice. Public next-gen parts have not stopped. If they do not stop, ASICs still bid the same slice against NVIDIA. Of the five interrupts, "cloud ASICs take training off the cabinet" is now taking some inference, not the training cabinet.
 
 ### 3.3 The model player is a power extension, not a second profit pool
 
@@ -70,11 +70,11 @@ Three layers are not one layer. The phone layer eats LPDDR and consumer bits. Th
 
 ### 3.5 The China stack survives on people who cannot buy
 
-Three layers: [Volume 12](vol-12.md). This volume does not reopen a prospectus. Open weights can run on a parallel stack. What they run is inference for people who cannot buy cabinets, not training cabinets in Western clouds. Open source thins the closed API. Domestic substitution stands up a parallel bid. Stacked together, the two still do not break the North American cloud plus unified compute architecture plus advanced packaging plus HBM weld.
+Three layers: [Volume 12](vol-12.en.md). This volume does not reopen a prospectus. Open weights can run on a parallel stack. What they run is inference for people who cannot buy cabinets, not training cabinets in Western clouds. Open source thins the closed API. Domestic substitution stands up a parallel bid. Stacked together, the two still do not break the North American cloud plus unified compute architecture plus advanced packaging plus HBM weld.
 
 ### 3.6 Bundling still misses three checks. The model layer will be picked off
 
-The three checks and five interrupts: [Volume 8](vol-08.md). What the model layer can supply is the second check: bind weights, compilers, and communication into one stack that can change base. That check is still an embryo. Open weights are embryo material, not a base already dug through. For model firms, the closest of the five are the second and the fifth. The second is not done: public next-gen ASICs are still on HBM and leading-edge nodes. The fifth is not done: there is no case forcing the interface open. So model firms still face this: the API is thinned by open source, the base is not forced open, and the landlord has stepped onto the field.
+The three checks and five interrupts: [Volume 8](vol-08.en.md). What the model layer can supply is the second check: bind weights, compilers, and communication into one stack that can change base. That check is still an embryo. Open weights are embryo material, not a base already dug through. For model firms, the closest of the five are the second and the fifth. The second is not done: public next-gen ASICs are still on HBM and leading-edge nodes. The fifth is not done: there is no case forcing the interface open. So model firms still face this: the API is thinned by open source, the base is not forced open, and the landlord has stepped onto the field.
 
 ## 4. Scenarios, counters, and testable markers
 
