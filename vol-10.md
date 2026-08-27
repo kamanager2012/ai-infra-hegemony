@@ -1,72 +1,223 @@
-# 第十卷：未来10年全球AI产业情景推演（竞争性扩容、基准集中、资源霸权与资本硬着陆）
+# 第十卷：未来十年 AI 基础设施四类标准情景
 
-终局开关怎么从现在这组数往下推，见[第十五卷](vol-15.md)。全书统一假设见[核心假设矩阵](核心假设矩阵.md)。本卷只写一件事：同一组物理、资本、算法、地缘与监管变量，在不同取值下会走向哪类产业结果。
+## 1. 情景分析不是点预测
 
-## 1. 本卷要回答的问题
+本报告不为 2030 或 2036 给出单一确定答案，也不再使用固定的 40% / 30% / 15% / 15% 权重。
 
-第十卷不是十年天气预报。早期版本曾给四种终局附加未校准概率，但第五支又没有被独立定义，因此这些权重不再承担全书预测功能。现在统一使用 S1—S4 情景状态与 H1—H16 假设变量。
+未来结果取决于一组可观察变量，包括：
 
-本卷要回答三件事。第一，默认路径是什么。总判的发动机是：需求推利润，利润推预付款，预付款锁封装和首发，对手拿残量、交货变慢，更没有钱去捆长约和换栈。做不成打断，线就往稀缺段过半走。第二，能把这条发动机扳开的开关有几条，现在有没有一条做成。总判写五条：西边真抱团；云系统栈把训练和推理长期迁走，而不只是部署一颗自研芯片；电把扩产卡死；东边立住第二个买盘；业务拆分或强制开 CUDA。标题里点名的寡头集中、边缘去中心、资本硬着陆分别对应锁死、算法打断、买方砍单。第三，读者应该看哪些可证伪信号，而不是把早期作者权重当成已经校准过的世界频率。本卷不另造概率。
+- advanced-capacity allocation；
+- HBM supply；
+- packaging；
+- cloud system-stack substitution；
+- model-company long-duration demand；
+- power；
+- software migration；
+- China parallel stack；
+- regulation；
+- utilization；
+- CapEx discipline。
 
-公开源在写本卷当天能对上的：台积电 2025 HPC 占全年营收 58%，第一客户 19%。魏哲家 2Q26 仍说封装紧到限制客户增长。英伟达 FY26 数据中心收入 1,937 亿美元；供应承诺从 FY26 末 952 亿美元加到 Q1 FY27 末 1,190 亿美元。司法部调查在，justice.gov 没有 *United States v. NVIDIA* 起诉书。法国 2026-07-09 说调查接近尾声，异议说明书到 2026-08-26 没有公开发出。这些是开关现在停在哪一档，不是 2036 年的点预测。完整财务底座见[第一卷](vol-01.md)。
+这些变量统一记录在《核心假设矩阵》中。
 
-## 2. 早期情景与统一假设矩阵
+本卷采用四类标准情景：**S1–S4**。
 
-权力分配句仍在：瓶颈方 60%–75% 毛利率，2024 年四云 Capex 2,150 亿美元，下游芯片成本 20%–30% 上涨（均为早期情景数字）。资本侧，2024 年这批资产按 4 年硬件、15 年土建折旧，将在 2025–2028 年形成每年 450 亿–550 亿美元刚性硬件折旧（早期情景数字）。折旧墙打在哪几年，见[第三十卷](vol-30.md)。
+## 2. S1 — Competitive Expansion / 竞争性扩容
 
-Part II 把 2026 年四云 Capex 写成 6,700–7,500 亿美元，并称全行业需 1,550 亿美元以上年化 AI 增量收入才能维持 ROI；同时又写「当前真实企业端 AI 软件增量收入约 350–500 亿美元」，从而出现每年 600–800 亿美元商业化缺口（均为早期情景数字）。这些是「财报指引与投研综合预测」，不是已审计发生额。四云官方 Capex 加不出 6,700–7,500 亿，混年 2024 全集团设备购置约 2,119–2,139 亿，不是「AI 硬件 2,150 亿」。
+### 定义
 
-Token 敏感性矩阵（早期情景数字，模型情景）没有给出样本与会计口径。本卷不拿这张矩阵当底座。
+AI demand 继续增长，但供给与系统竞争同步扩张。
 
-Part II 第八篇四种终局（早期情景数字，概率为作者赋值）：
+主要特征：
 
-- 情景一寡头中央集权 40%——先进制程至 1nm 以下、单座晶圆厂成本突破 400 亿美元，Nvidia 与北美三大云垄断全球 80% 高端算力与能源配额。
-- 情景二算法破壁与边缘去中心化 30%——称类似 DeepSeek 的创新使模型算力需求下降 1000 倍，端侧即可运行「人类顶级智慧」，基础设施退化为微利公用事业。
-- 情景三资本泡沫硬着陆 15%——企业 ROI 填补不了每年 1,500 亿美元折旧黑洞，云巨头砍 Capex，二级市场重演 2000 年式杀估值。
-- 情景四东西方双轨独立生态 15%——光刻、制造、EDA、存储、互联、框架到应用完全内循环。
+- TSMC/Samsung 等 advanced capacity 扩张；
+- HBM supply 提升；
+- packaging tightness 缓解；
+- cloud custom silicon 成熟；
+- open software layer 降低 migration cost；
+- power supply 跟上 data-center buildout；
+- 多套 system stack 并存。
 
-第十卷标题多出来的「第五支」在早期版本中没有定义。本书要的情景其实是另一棵树：品牌消亡、硬件独大、戴尔联想华硕微星惠普变成整机代工、索尼变薄、微软 Azure 不薄。这些被 40% 那一格吞掉了。本卷把它们标成锁死支下面的子情景，不另赋百分比。微软 Intelligent Cloud FY25 1,062.65 亿美元说明 Azure 不会薄成游戏工作室。
+### 经济结果
 
-DeepSeek-V3 总参 671B、激活 37B，2048 颗 H800、278.8 万 GPU 时、预训练折算约 557.6 万美元，KV Cache 压缩 93.3%（早期情景数字，本卷未复核原文）。昇腾侧 CANN 改写量 5% 以下、HCCS 392 GB/s（均为早期情景数字，本卷未核原件）。
+NVIDIA 仍是重要平台，但无法持续提高对全部稀缺层的控制。
 
-### 2.1 统一到四类标准情景
+平台利润下降到更正常竞争水平，AI 基础设施总市场继续扩大。
 
-本卷不再把 早期未校准概率 当作主模型。它们保留为早期讨论权重，不再承担全书终局概率。
+这是“市场做大、集中度下降”的路径。
 
-统一采用[核心假设矩阵](核心假设矩阵.md)中的四类标准情景：
+## 3. S2 — Baseline Concentration / 基准集中
 
-- **S1 竞争性扩容**：供给最终跑赢 AI 吸收，AHICR 回到 40%–50%，先进封装与电力转松，第二先进制造源和云 ASIC 形成真实替代。
-- **S2 基准集中**：AI 保持高增长，供给经常落后一拍，AHICR 约 50%–60%，HBM/封装/电力瓶颈滚动出现，非 AI 行业主要承受反事实挤出。
-- **S3 资源霸权**：AI 需求长期高增长，先进供给持续落后，AHICR 进入 60%–80%，预付款和长约强化，竞争者在产品周期、交期和生态反馈上出现非线性恶化。
-- **S4 资本硬着陆**：Token 单价下降和调用量不足以覆盖折旧，买方砍 Capex、供应承诺放缓或改期，硬件先减值、长周期电力和土建最后退出。
+### 定义
 
-“边缘去中心”“东西方双轨”“电力卡死”不再作为与四类标准情景并列的独立终局，而作为决定 S1–S4 内部形态的条件变量：算法效率、H13 中国平行栈、H6 电力与 H11 监管。
+当前趋势延续：
 
-## 3. 分支真正由什么决定
+- AI demand 高；
+- NVIDIA seller-side economics 强；
+- HBM 与 packaging 持续紧张；
+- cloud custom silicon 持续成长但尚未完全替代 frontier training；
+- power 成为新的建设约束；
+- 中国平行栈继续发展但尚未完成 frontier AI 全栈闭环。
 
-S1—S4 不是四篇平行故事，而是同一组约束的不同取值。
+### 经济结果
 
-- 物理轴：光罩极限、CoWoS 夹具时数、HBM 每 bit 吃更多晶圆，决定算力能不能被第二名复制。
-- 资本轴：卖方自由现金、供应承诺，以及模型公司的长期容量承诺共同决定错配能扛几年、下一代基础设施有没有足够的需求确定性。FY27 Q2 NVIDIA营业利润已到637.34亿美元；OpenAI Stargate和Anthropic/AWS十年级承诺说明，资本轴现在不只来自云厂CapEx，也来自模型公司作为anchor buyer提供的长期需求。
-- 算法轴：MLA / MoE 能不能把 Memory-bound 推理的有效成本打下来，决定贵集群是不是唯一解。
-- 地缘轴：出口管制与主权模型，决定市场是一张网还是两张网。
-- 规制轴：调查在、起诉没有，10% 是法条天花板不是罚单，国安把先进芯片写成许可证项之后拆分更难下手。
+市场继续快速扩张，同时价值捕获集中在少数 system platform 与 scarce-layer supplier。
 
-寡头集中要求物理难复制、资本愿意继续垫、算法没有把需求打穿、规制没有拆开四角。边缘去中心要求算法效率的跃迁压过封装与电力的刚性。硬着陆要求收入弹性低于折旧刚性，而且必须看到砍单，不是只看到股价回撤。双轨要求管制持续且两边都能凑齐一条能用的栈。电与规制打断要求并网许可证或拆分令真的落下。
+这是截至 2026 年 8 月最接近当前事实的基准情景。
 
-默认路径是锁死。五条打断现在都还没做成。做成的只有供应承诺加到 1,190 亿美元。各自为战，是把每年新开的 CoWoS 和 2nm 首发让出去。账面 19% 不是安全距离，客户甲乙见[第四卷](vol-04.md)。占住增量，后年排期就是第一名的。
+## 4. S3 — Resource Hegemony / 资源霸权
 
-5.39 是 CoWoS 片/柜的测算，不是台积电披露。绑死线在封装，约 10 万柜过半，不需要 80 万柜去锁 3nm。池子和公式见 [第二十四卷](vol-24.md)。相关数据不在本卷重复展开几何。
+### 定义
 
-## 4. 可证伪信号，而不是概率
+稀缺资源进一步集中，替代路线进展慢于 demand growth。
 
-本卷不另造概率。读者看变量和开关，不看早期作者权重。
+典型条件：
 
-- 锁死还在：台积电法说仍写 CoWoS tight / limits customers' growth；第一客户份额继续抬；供应承诺继续加；公开下一代云 ASIC 仍写 3nm + HBM。
-- 算法打断做成：出现可复核的、跨多家买方的「同等能力训练账单下降一个数量级」，并且云次年 Capex 指引因此下调，而不是省下来的预算立刻转化成更多并发。
-- 硬着陆做成：云厂CapEx连续明显下调；模型公司长期容量承诺出现大规模改期/取消或利用不足；NVIDIA数据中心增速持续降档并伴随毛利率、交期、供应承诺同时转弱。单一指标不够。
-- 电打断做成：见[第十三卷](vol-13.md)。柜子上不了电，预付的封装片变成出不去的库存。签约MW不是已经卡死。
-- 东边买盘做成：见[第十二卷](vol-12.md)。国内先进封装和 HBM 级 bit 能量产到撑住训练柜。长鑫招股书全文 0 处 HBM，不是做成。
-- 规制打断做成：见[第十一卷](vol-11.md)。justice.gov 出现起诉书，或者拆分令、强制开 CUDA 的生效文本。调查不是起诉。
+- advanced packaging 长期供不应求；
+- HBM trade ratio 继续上升；
+- leading-edge logic 增量高度集中；
+- CUDA/NVLink migration cost 仍高；
+- cloud custom silicon 只能局部分流；
+- power access 被少数大型买方提前锁定；
+- long-duration compute commitments 继续增加。
 
-2036 年会停在哪一档，本卷不预测。把开关推到截止年份的写法，见[第十五卷](vol-15.md)。第一阶段三端现在该怎么行动，见[第二十卷](vol-20.md)。十年怎么活，见[第四十卷](vol-40.md)。
+### 经济结果
+
+system platform 的利润和资源预订能力形成更强正反馈：
+
+高利润  
+→ 更高 prepayment  
+→ 更多 future capacity  
+→ 更高 delivery certainty  
+→ 更强 customer lock-in。
+
+这不是法律意义上的“垄断”，而是一种基础设施资源控制力显著增强的产业状态。
+
+## 5. S4 — Capital Hard Landing / 资本硬着陆
+
+### 定义
+
+AI demand、utilization 与 monetization 无法覆盖快速增长的资本成本。
+
+典型信号：
+
+- token/workflow volume 增长停滞；
+- instance price 快速下跌；
+- utilization 下降；
+- enterprise AI revenue 增速不足；
+- hyperscaler CapEx guidance 下调；
+- supply commitments 停止增长或取消；
+- second-hand GPU/system price 下跌；
+- infrastructure impairment 上升。
+
+### 经济结果
+
+首先受冲击的通常不是已经建设完的电网和 data-center shell，而是：
+
+- next-generation server orders；
+- inventory；
+- short-lived hardware residual value；
+- speculative model company financing。
+
+如果下降持续，才会进一步传导到 semiconductor CapEx 与 power buildout。
+
+## 6. 四种情景由哪些变量决定
+
+### 6.1 Supply variables
+
+- leading-edge wafer capacity；
+- HBM bits；
+- packaging capacity；
+- power availability。
+
+### 6.2 Substitution variables
+
+- cloud custom silicon；
+- open compiler/runtime；
+- alternative interconnect；
+- China parallel stack。
+
+### 6.3 Demand variables
+
+- token volume；
+- enterprise workflow adoption；
+- long-duration model-company commitments；
+- sovereign AI demand。
+
+### 6.4 Financial variables
+
+- seller FCF；
+- hyperscaler CapEx；
+- depreciation；
+- utilization；
+- financing cost。
+
+### 6.5 Regulatory variables
+
+- export control；
+- antitrust remedy；
+- interface openness；
+- national industrial policy。
+
+## 7. Anchor Compute Buyer 是新的关键变量
+
+过去，模型公司更多被视为 cloud customer。
+
+现在 OpenAI、Anthropic 等开始通过多年、GW 级 compute commitment 影响 infrastructure investment。
+
+因此，《核心假设矩阵》加入 **H17 — Anchor Buyer Demand**。
+
+如果大型模型公司的长期需求持续扩大：
+
+- cloud 更愿意提前建设；
+- chip/HBM/power 更容易获得长期合同；
+- S2/S3 概率提高。
+
+如果这些长期承诺开始取消或重谈：
+
+- S4 风险显著提高。
+
+## 8. 场景切换的可证伪信号
+
+### S2 → S1
+
+- alternative system stack 在 frontier training 中规模化；
+- packaging/HBM lead time 显著下降；
+- CUDA migration cost 明显降低；
+- 多买方获得稳定 advanced capacity。
+
+### S2 → S3
+
+- supply commitments 继续快速上升；
+- HBM/packaging 长期紧张；
+- system-stack switching cost 上升；
+- scarce power 被少数买方长期锁定。
+
+### S2 → S4
+
+- CapEx guidance 连续下降；
+- utilization 下降；
+- supply commitments 被取消；
+- second-hand hardware clearing price 快速下跌；
+- enterprise AI monetization 明显弱于折旧和运营成本。
+
+## 9. 当前判断
+
+截至 2026 年 8 月，正式基准是 **S2 — Baseline Concentration**。
+
+原因是：
+
+- NVIDIA FY27 Q2 seller economics 仍强；
+- HBM 与 advanced packaging 仍是关键 bottleneck；
+- cloud custom silicon 已形成真实竞争，但尚未完全替代 frontier training；
+- AI infrastructure CapEx 继续扩张；
+- power 约束上升；
+- China parallel stack 尚未在 frontier AI 全部关键层实现等价替代。
+
+但 S2 不是永恒状态。
+
+未来十年真正值得追踪的，不是谁在某一年拥有多少“市场份额”，而是哪一套 system stack 能持续获得：
+
+> logic + HBM + packaging + interconnect + software + rack + data center + power
+
+并把这些资源转化成可持续 utilization 与现金流。
