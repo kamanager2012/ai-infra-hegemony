@@ -92,7 +92,7 @@ Cabinet counts, full-year global absolute HBM bits, an official number for packa
 
 Cabinet counts, full-year global absolute HBM bits, an official number for B200 packages per packaging wafer: not found.
 
-A 3:1 wafer penalty as a measured factory constant: Micron says the same bits take more wafers; Hot Chips paraphrases about 3×. That is not a maker formula. The draft's 12-high composite yield 48.6% and area up 50% to 55% are examples. Do not promote them.
+A 3:1 wafer penalty as a measured factory constant: Micron says the same bits take more wafers; Micron's first-party materials disclose ~3×. That is not a maker formula. The draft's 12-high composite yield 48.6% and area up 50% to 55% are examples. Do not promote them.
 
 Qualcomm 8 Elite purchase price $180–$190, MediaTek about $155, AP at 30% of BOM, a 40-month replacement cycle: analyst. This volume does not reopen them. TSMC 3nm foundry price $20,000–$22,000 per wafer: in the first-eight-volume draft, not in the management report opened this pass. It does not enter the fact layer.
 
