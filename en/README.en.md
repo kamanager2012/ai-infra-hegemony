@@ -38,6 +38,15 @@ The repository is currently in private publication-preparation mode. The public-
 
 > **Translation status (2026-08-27):** the English landing page and master judgment track the current framework. Individual chapter translations are being re-audited against the Chinese source of truth and may still contain older wording, structure, or evidence framing. For external publication, the Chinese edition remains authoritative until a chapter is explicitly revalidated.
 
+## Core research infrastructure
+
+- [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
+- [Core Evidence Ledger](核心证据台账.en.md)
+- [Core Source Index](核心参考文献索引.en.md)
+- [Core Concepts and Model Index](核心概念与模型索引.en.md)
+- [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
+- [Mechanism Index](机制索引.en.md)
+
 ## Research method
 
 The report uses a five-layer structure:
