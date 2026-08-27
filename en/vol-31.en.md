@@ -1,8 +1,8 @@
 # Volume 31: Core Indicators and Evidence Monitoring Framework
 
-Chinese original: [vol-31.md](vol-31.md)
+Chinese original: [vol-31.md](vol-31.en.md)
 
-Regulatory mechanism: [Volume 11](vol-11.md). Seller economics and supply commitments: [Volume 1](vol-01.md). Power-status framework: [Volume 35](vol-35.en.md).
+Regulatory mechanism: [Volume 11](vol-11.en.md). Seller economics and supply commitments: [Volume 1](vol-01.en.md). Power-status framework: [Volume 35](vol-35.en.md).
 
 
 ## 1. Purpose of this volume
@@ -54,7 +54,7 @@ The four-year hardware + fifteen-year civil-works depreciation model remains a s
 
 ### 3.2 US Department of Justice: inquiry yes, complaint no
 
-[Volume 11](vol-11.md) confirm this line: the inquiry is real. Litigation and a fine have not landed. The report does not treat a subpoena as a split order.
+[Volume 11](vol-11.en.md) confirm this line: the inquiry is real. Litigation and a fine have not landed. The report does not treat a subpoena as a split order.
 
 2024-08-02 Reuters, citing The Information: the Department of Justice had opened a probe after rivals complained NVIDIA may have abused a dominant position in AI-chip sales. The inquiry looks at whether it pressed cloud vendors to buy multiple products, and whether it sold networking gear at higher prices when customers wanted AMD or Intel AI chips. The same day CBS / AP checked with DOJ: no comment, no further information at the time. That is investigative reporting, not a complaint. URL: https://www.reuters.com/technology/nvidia-faces-us-doj-probe-over-complaints-rivals-information-reports-2024-08-02/
 
@@ -110,19 +110,19 @@ FY26 Data Center revenue of **$193.737B** is a seller-side revenue anchor. It is
 
 Seller-side value capture should be described using NVIDIA's own reported financials. FY26 revenue $215.9B, up 65% year on year; data center full year $193.7B, up 68%. It is not a split of four-cloud capex, and cannot be written as "the four clouds paid NVIDIA the entire $193.7B" — outside the four there are still Oracle, sovereign clouds, model firms, and enterprises. FY25 data center is another line (framework-checked $115,186M). Do not mix years with FY26 $193.7B. Q4 FY25 only says CSPs about 50% of that quarter's data-center revenue. That quarter's data center is $35,580M. There is no full-year CSP split. Seller revenue ≠ buyer capex.
 
-The buyer end: [Volume 8](vol-08.md). The four clouds each report their own equipment purchases. Line items and fiscal years do not line up. They cannot be added into one calendar year.
+The buyer end: [Volume 8](vol-08.en.md). The four clouds each report their own equipment purchases. Line items and fiscal years do not line up. They cannot be added into one calendar year.
 
 What can be written: the four clouds are adding group-wide capex; NVIDIA FY26 data center collected $193.7B. The direction is that a slice of cloud capex becomes cabinets, then NVIDIA revenue. TrendForce puts 47% of 2026 major-CSP capex and 68% of 2027 into memory. The money flow is cloud → cabinet → NVIDIA and memory makers. Startups walk the cloud channel. The path is the same. The mix differs by firm. The report does not treat "a $1B raise puts $700–800M in Jensen's pocket" — there is no such split table. The report does not treat "four-cloud 2024 AI hardware = $215B"; that the entire $193.7B came from these four; or knock mixed-year capex against DC revenue into a "synthetic value-capture ratio." Buyer and seller line items differ. Buyers still have civil works, power, self-designed ASICs, memory, and optics.
 
 Cloud buyers also have substantial capital capacity. Microsoft FY25 net income was **$101.832B** and PPE additions were **$64.551B**. The distinction is functional: hyperscaler cash funds buildings, power, networks, custom silicon, and third-party systems, while NVIDIA cash and supply commitments can be directed more directly toward inventory and future manufacturing capacity. Self-designed ASICs still bid for the same 3nm and HBM. Miss first silicon and, to keep cloud customers, they still have to keep ordering cabinets. Hypothesis from here: the cloud becomes a channel that distributes cabinets downstream. downstream distribution channel means that. It does not mean hundreds of thousands of Rubin cabinets already ordered. Unverified: do not forecast the year the cloud becomes a pure channel.
 
-Phones and PCs, even if they never buy a GPU, are still absorbing residual-capacity pressure. Residual bits: [Volume 5](vol-05.md). That is memory collective liability, not a check they wrote to NVIDIA.
+Phones and PCs, even if they never buy a GPU, are still absorbing residual-capacity pressure. Residual bits: [Volume 5](vol-05.en.md). That is memory collective liability, not a check they wrote to NVIDIA.
 
 ### 3.8 A fine does not change the bid; the five interrupts are not done
 
-A fine does not change the bid. Profit, prepayments, supply commitments: [Volume 1](vol-01.md). The 1999 Intel comparison is in 3.9 below: that was CPU share. Today the comparison is free cash and one quarter of operating income. A-grade cells: 3.1 above.
+A fine does not change the bid. Profit, prepayments, supply commitments: [Volume 1](vol-01.en.md). The 1999 Intel comparison is in 3.9 below: that was CPU share. Today the comparison is free cash and one quarter of operating income. A-grade cells: 3.1 above.
 
-The five interrupts: [Volume 8](vol-08.md). The docket: [Volume 11](vol-11.md). Cloud custom-chip specs: [Volume 4](vol-04.md). China stack: [Volume 12](vol-12.md). US antitrust does not save Huawei. What it would split is domestic tying and supply discrimination, not open 2nm for SMIC, and not open HBM for CXMT.
+The five interrupts: [Volume 8](vol-08.en.md). The docket: [Volume 11](vol-11.en.md). Cloud custom-chip specs: [Volume 4](vol-04.en.md). China stack: [Volume 12](vol-12.en.md). US antitrust does not save Huawei. What it would split is domestic tying and supply discrimination, not open 2nm for SMIC, and not open HBM for CXMT.
 
 A structural split or a forced-open CUDA: what can change the rules overnight is not AMD. It is a split, forced interoperability, a ban on tied supply. A fine does not change the bid. The monitoring discipline is simple: record inquiry, complaint, formal proceeding, decision, and remedy as separate legal states; record statutory ceilings as legal boundaries rather than expected fines; and update the scenario only when the formal status changes.
 
@@ -162,7 +162,7 @@ Indicators to check and update year by year (or fiscal year by fiscal year):
 8. TSMC revenue, gross margin, HPC share, first-customer share, packaging-and-test share. Compare 2025: HPC 58%, first customer 19%, packaging and test a bit over 10%. CoWoS monthly 13k→130k and a 60% lock do not enter A grade.
 9. Hynix revenue, operating margin, whether HBM revenue still writes "more than doubled in a year." Do not put operating profit in the gross-margin column.
 10. Software: whether any SaaS with a reported gross margin is moving toward either 85% or 55%. Neither end has a sample now.
-11. Nuclear, interconnection, algorithm cost, BOM: all stay D grade. Return to [Volume 13](vol-13.md), [Volume 6](vol-06.md), [Volume 2](vol-02.md). This volume did not re-check contracts and papers.
+11. Nuclear, interconnection, algorithm cost, BOM: all stay D grade. Return to [Volume 13](vol-13.en.md), [Volume 6](vol-06.en.md), [Volume 2](vol-02.en.md). This volume did not re-check contracts and papers.
 
 The counter that printing engineering BOMs and 10-Ks on one "evidence appendix" creates a precision illusion. The right method is split books — finance one, engineering one, regulatory procedure one, claims one. This volume already grades A/B/C/D and puts regulatory procedure in its own sections. That is accepting this counter.
 
