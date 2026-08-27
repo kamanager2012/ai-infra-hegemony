@@ -60,7 +60,7 @@
 - 中文 `main` 为当前研究真源；
 - 英文README与英文总判已同步当前框架；
 - X中英文发布线程已更新到当前研究结论；
-- **发布关键英文卷已完成本轮同步**：vol-12 / 20 / 22 / 24 / 25 / 26 / 28 / 30 / 31 / 35 / 36 / 37 / 39 / 40；
+- **发布关键英文卷已完成本轮同步**：vol-12 / 18 / 20 / 22 / 24 / 25 / 26 / 28 / 30 / 31 / 35 / 36 / 37 / 39 / 40；
 - 上述关键卷已统一到 system-stack、Anchor Compute Buyer、Non-AI Residual Capacity、证据分级、FY27 Q2、分层中国栈与 S1–S4 情景框架；
 - 其余英文逐卷译文仍可能滞后于中文最新修订，因此**中文仍是最终真源**，英文README继续保留该提示。
 
@@ -112,7 +112,7 @@ The report now explicitly models:
 ### Launch material
 - Current English landing page: [en/README.en.md](en/README.en.md)
 - Current X launch drafts: [en/SHARE.md](en/SHARE.md)
-- Release-critical English chapters synchronized in this pass: **12 / 20 / 22 / 24 / 25 / 26 / 28 / 30 / 31 / 35 / 36 / 37 / 39 / 40**, plus the English master judgment.
+- Release-critical English chapters synchronized in this pass: **12 / 18 / 20 / 22 / 24 / 25 / 26 / 28 / 30 / 31 / 35 / 36 / 37 / 39 / 40**, plus the English master judgment.
 
 The synchronized path now uses the current system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, evidence-grading, FY27 Q2, layered-China-stack, and S1–S4 scenario framework.
 
