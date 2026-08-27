@@ -4,11 +4,11 @@ Do not post from this file automatically. James posts on X himself. No X API.
 
 Repo: https://github.com/kamanager2012/ai-infra-hegemony
 
-English start: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/README.en.md
+English start: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/README.en.md
 
-Judgment: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/总判.en.md
+Judgment: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/总判.en.md
 
-Volume 1: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/vol-01.en.md
+Volume 1: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/vol-01.en.md
 
 ## English thread
 
