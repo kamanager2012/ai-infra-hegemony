@@ -61,8 +61,9 @@
 - 英文README与英文总判已同步当前框架；
 - X中英文发布线程已更新到当前研究结论；
 - 英文 landing page 与 master judgment 已同步当前框架；
-- 英文逐卷译文正在重新逐卷审校，部分文件仍可能保留旧结构、旧措辞或旧证据边界；
-- 在逐卷重新确认前，**中文 `main` 仍是最终 source of truth**。
+- 英文 **40 卷 + 8 篇宏观文章** 已完成本轮逐文件框架/出版 QA；
+- 已统一清理 Four Corners、旧 margin-monopoly、TSMC 单客户确定论、旧 FY27 Q2 outlook、旧 40/30/15/15 概率误用及内部 draft/audit 施工语言；
+- **中文 `main` 仍是最终 source of truth**，用于未来发现中英差异时裁决。
 
 ---
 
@@ -113,6 +114,6 @@ The report now explicitly models:
 - Current English landing page: [en/README.en.md](en/README.en.md)
 - Current X launch drafts: [en/SHARE.md](en/SHARE.md)
 - The English master judgment tracks the current system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, evidence-grading, FY27 Q2, layered-China-stack, and S1–S4 framework.
-- Individual English chapter translations are being re-audited and are not publication-final until explicitly revalidated.
+- All 40 English volumes and 8 macro essays have completed the current framework/publication QA pass.
 
-For the latest research conclusions, always use `main`. The Chinese edition remains the source of truth during this re-audit.
+For the latest research conclusions, always use `main`. The Chinese edition remains the source of truth for resolving any future bilingual discrepancy.
