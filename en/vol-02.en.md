@@ -1,8 +1,8 @@
 # Volume 2: Nvidia compute-empire model (system-level monopoly, Blackwell microarchitecture, and the CUDA lock)
 
-Chinese original: [vol-02.md](vol-02.md)
+Chinese original: [vol-02.md](vol-02.en.md)
 
-Moat tables and the draft BOM audit are in [Volume 32](vol-32.md). This volume only writes why the sales unit moved up to the cabinet, and why the referee seat cannot be punched through by cheapness alone.
+Moat tables and the draft BOM audit are in [Volume 32](vol-32.en.md). This volume only writes why the sales unit moved up to the cabinet, and why the referee seat cannot be punched through by cheapness alone.
 
 ## 1. The question this volume answers
 
@@ -36,7 +36,7 @@ Official product page: the GB200 NVL72 connects 36 Grace and 72 Blackwell in a r
 
 Seventy-two GPU packages per cabinet are the numerator of 5.39 later. 13.4 TB is the official anchor for memory demand multiplied by cabinet. 17 TB of LPDDR is on the CPU side, not HBM, but it competes with the cabinet for the same maker leading-edge capacity. The draft wrote 13.8 TB, another scope of 72 times 192 GB, which does not match this product page. This volume uses the page's 13.4.
 
-The full FY26 / Q1 FY27 table is in [Volume 1](vol-01.md). This volume does not reopen it. The press release opened in this pass writes the platform splits in full: gaming a record $16.0 billion for the year, up 41%; Q4 $3.7 billion, down 13% sequentially as channel inventory came down; professional visualization $3.2 billion for the year; automotive $2.3 billion for the year. They already made cards. What changed is selling training as a cabinet. Once the cabinet is the default sales unit, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain.
+The full FY26 / Q1 FY27 table is in [Volume 1](vol-01.en.md). This volume does not reopen it. The press release opened in this pass writes the platform splits in full: gaming a record $16.0 billion for the year, up 41%; Q4 $3.7 billion, down 13% sequentially as channel inventory came down; professional visualization $3.2 billion for the year; automotive $2.3 billion for the year. They already made cards. What changed is selling training as a cabinet. Once the cabinet is the default sales unit, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain.
 
 Asset-light is a mechanism, not an adjective. FY26 purchases of property and equipment and intangibles were only $6,042M, against operating income $130,387M and free cash $96,575M. The cabinet's heavy assets sit at TSMC, the three memory makers, and Foxconn / Quanta final assembly. What it collects is the right to weld those parts into a trainable system, plus the switching cost of the developer stack. Analysis add: the asset-light name uses profit to lock next year's slots at the heavy-asset names.
 
@@ -64,11 +64,11 @@ Samsung, 28 July 2025, announced a foundry supply long: KRW 22.76T, about $16.54
 
 ### 3.4 Profit decides the bid
 
-The margin monopoly, Intel 1999, and supply commitments are in [Volume 1](vol-01.md). This volume does not reopen the full table. This volume uses one sentence: the asset-light name uses profit to lock next year's slots at the heavy-asset names. Sellers are already rich, and they still expand to its mix. They are not the firms bidding against it for cabinets. A neutrality pledge has no consideration in front of a check. Not yet written as fact: TSMC already a captive fab, a High-NA bulk buyout, a 2nm first-silicon contract dollar amount. If they are not found, leave them empty.
+Profit, cash, and supply commitments are maintained in [Volume 1](vol-01.en.md). This volume uses only the mechanism: strong free cash flow and order certainty increase a platform's ability to reserve future scarce resources. That does **not** make TSMC a captive fab or imply a one-variable auction. Price, order scale, prepayment, credit, utilization, roadmap certainty, diversification, and geopolitics all affect allocation. High-NA bulk-buyout stories, undisclosed N2 first-silicon contract amounts, and customer-specific packaging splits remain outside the fact layer unless primary evidence appears.
 
 ### 3.5 Booked 19% is not a safe distance
 
-TSMC shipments, node revenue, platforms, and Customer A / B are in [Volume 4](vol-04.md). This volume does not reopen them. 19% is full-year revenue share. Voice on the scarce slice is larger than this booked number. What is being opened is HPC and packaging, not phones. Occupy the increment and next year's slots belong to the first name. Booked 19% is not a safe distance.
+TSMC shipments, node revenue, platforms, and Customer A / B are in [Volume 4](vol-04.en.md). This volume does not reopen them. 19% is full-year revenue share. Voice on the scarce slice is larger than this booked number. What is being opened is HPC and packaging, not phones. Occupy the increment and next year's slots belong to the first name. Booked 19% is not a safe distance.
 
 ### 3.6 5.39 and the pool
 
@@ -106,11 +106,11 @@ The CPU is not extinguished inside the cabinet. 36 Grace, 2,592 cores, and 17 TB
 
 ### 4.2 Cheapness alone does not punch through
 
-Analysis add. The China stack, the AMD stack, and the Intel stack can be cheaper in hardware. The switching tax is rewriting kernels, rebuilding cluster scheduling, and re-validating models. A 75% pad lets it follow a price cut down. The China stack survives on people who cannot buy, not on cheapness punching through a unified compute architecture. Three layers: [Volume 12](vol-12.md). This volume does not reopen a prospectus. To get AMD, Intel, Apple, and Qualcomm off TSMC's queue, the third item is export control and trust. The gate is law, not yield. Those firms are still in TSMC's queue. In the queue they sit behind NVIDIA.
+Analysis add. The China stack, the AMD stack, and the Intel stack can be cheaper in hardware. The switching tax is rewriting kernels, rebuilding cluster scheduling, and re-validating models. A 75% pad lets it follow a price cut down. The China stack survives on people who cannot buy, not on cheapness punching through a unified compute architecture. Three layers: [Volume 12](vol-12.en.md). This volume does not reopen a prospectus. To get AMD, Intel, Apple, and Qualcomm off TSMC's queue, the third item is export control and trust. The gate is law, not yield. Those firms are still in TSMC's queue. In the queue they sit behind NVIDIA.
 
 ### 4.3 Bundling still misses three checks
 
-Analysis add. Acting alone means handing over each year's new lines and packaging. TSMC has no financial reason to offend the first name for the second. The increment-up-48% slice is locked first by whoever prepaid more. NVIDIA need not first take half the factory. Occupy the increment and next year's slots are its. Booked 19% is not a safe distance.
+Acting alone can weaken a buyer's position in the next scarce increment, but supplier allocation is not determined by whether TSMC would "offend" one customer. The testable mechanism is multi-variable: long-duration demand, prepayment, credit quality, utilization, and roadmap certainty can tilt incremental capacity toward the strongest bid, while TSMC still values customer diversification, geopolitical resilience, and long-run bargaining power. The 19% historical revenue share is therefore not a safe-distance metric, and neither is it proof of automatic exclusivity.
 
 To change the allocation, bind three checks. First, prepayments large enough that TSMC cannot recognize only one buyer. Second, software bound into one stack, so the switching tax becomes a change of base rather than a change of vendor; UXL and oneAPI are embryos. Third, memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Apple does not bid against AMD for cabinets. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs. Phone makers bind residual memory.
 
@@ -118,7 +118,7 @@ A neutral foundry pledge has no consideration in front of a check. This is not a
 
 ### 4.4 The engine and the five interrupts
 
-Hypothesis from here: demand pushes profit, profit pushes commitments, commitments lock capacity and HBM, rivals' costs rise, deliveries slow, profits thin, they have even less money to bind longs and switch stacks, and share widens again. That is the engine. The five interrupts are in [Volume 8](vol-08.md). What is done is only supply commitments to $119.0B. Inquiries exist. Complaints do not. If those five are not done, the line walks past half of the scarce slice. The world does not blow up. Upgrades stop one node down. One firm writes the rules.
+Hypothesis from here: demand pushes profit, profit pushes commitments, commitments lock capacity and HBM, rivals' costs rise, deliveries slow, profits thin, they have even less money to bind longs and switch stacks, and share widens again. That is the engine. The five interrupts are in [Volume 8](vol-08.en.md). What is done is only supply commitments to $119.0B. Inquiries exist. Complaints do not. If those five are not done, the line walks past half of the scarce slice. The world does not blow up. Upgrades stop one node down. One firm writes the rules.
 
 ### 4.5 Whole-system OEM is a scenario, not a forecast
 
