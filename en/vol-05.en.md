@@ -1,4 +1,4 @@
-# Volume 5: HBM, the memory war, and the AI supply-chain rewrite (SK Hynix / Micron / Samsung and the 3:1 wafer penalty)
+# Volume 5: HBM, the memory war, and the AI supply-chain rewrite (SK Hynix / Micron / Samsung and the ~3× wafer-supply trade ratio)
 
 Chinese original: [vol-05.md](vol-05.md)
 
@@ -48,7 +48,7 @@ Front-end logic is another line. Two B200 dies are about 800 mm² at the reticle
 
 The platform table is in [Volume 4](vol-04.md). This volume does not reopen it. What can be nailed: what is being opened is HPC and packaging, not phones. Memory makers turning to HBM follow this increment, not the phone LPDDR pricing meeting. Makers have no financial reason to offend a cabinet contract for a phone maker. Whoever leaves a line for phones and PCs gives up a slice in the current profit race. That is a hypothesis from the present, not an already-happened "full pivot, commodity supply down 40%." The 40% sentence is in the draft. This pass matches no maker announcement. It does not enter the fact layer.
 
-### 2.5 Institutional and paraphrase: 51% of bits, about 3× the silicon
+### 2.5 Evidence stack: 51% of bits and Micron's first-party ~3× wafer-supply trade ratio
 
 The judgment cites TrendForce: 51% of 2026 DRAM bits are HBM plus RDIMM. Memory is 47% of major CSP capex in 2026 and 68% in 2027. Institutional scope, not a Hynix or Micron segment disclosure. Do not promote it to a maker table.
 
@@ -56,7 +56,7 @@ The same official TrendForce release (25 August 2026, https://www.trendforce.com
 
 51% is bit supply, not revenue. HBM unit prices are high, so the revenue share will be higher. RDIMM is already inside this 51%. That means conventional server DDR5 is not another river. It is the socket stick inside this half. If the clouds restack inference onto DDR5, they are bidding the residual already inside this 51%, or the residual already rising with it. Mark it institutional. Do not promote it to maker shipments.
 
-Micron 10-K: the same bits of HBM take more wafers. Hot Chips paraphrase: about 3× versus DDR5. The judgment writes "Hot Chips paraphrase about 3× versus DDR5." 3:1 is not a measured constant inside a factory MES. It is a maker direction plus a paraphrased multiple. What can enter the fact layer is "more wafers" and the "about 3×" direction. Stepping it up to 4:1 or 5:1 is a forward hypothesis on 16-Hi stacks. This volume marks it unverified. Do not treat as audit fact.
+Micron FY24 Q3 prepared remarks state that, industry-wide, HBM3E consumes approximately **3× the wafer supply of DDR5** to produce a given number of bits in the same technology node, and that the HBM4 trade ratio is expected to be higher. Micron's FY25 10-K later confirms the direction by stating that HBM requires more wafers and cleanroom space for the same bits. The ~3× ratio is therefore **A-grade first-party company evidence**; Hot Chips 2026 is corroborating context, not the primary basis. The judgment writes "Micron first-party ~3× wafer-supply ratio versus DDR5." 3:1 is not a measured constant inside a factory MES. It is a maker direction plus a paraphrased multiple. What can enter the fact layer is "more wafers" and the "about 3×" direction. Stepping it up to 4:1 or 5:1 is a forward hypothesis on 16-Hi stacks. This volume marks it unverified. Do not treat as audit fact.
 
 Channel talk: 16G DDR5 from about 450 to 1,800. Huaqiangbei paraphrase, not an annual report; the direction is residual bits following the rise. Source nailed to 7 July 2026, CCTV Finance and Cailian, https://m.cls.cn/detail/2418583 ; 21st Century Business Herald carried the same sentence. A 32 GB DDR5 kit rose to nearly RMB 4,000, three to four times last year. The reporter's tally: 16G last year RMB 450, now RMB 1,800, up 300%; 32G last year RMB 900, now RMB 3,800, up 322%; 1 TB SSD last year RMB 410, now RMB 950, up 132%. Grade: channel spot talk, not a TrendForce contract price, not a maker list price. It only shows consumer sticks already paying a "residual tax." Do not back out a maker ASP.
 
@@ -84,7 +84,7 @@ Same 10-K: most 2025 DRAM bits on 1β; in FQ4 2025, HBM3e 12-Hi already the majo
 
 10-K original: Due to the higher performance and more complex manufacturing process, HBM requires a higher number of wafers and more cleanroom space to produce the same number of bits as conventional DRAM in the same technology node. Same paragraph: if HBM demand weakens and makers cut capacity from HBM back to conventional DRAM, conventional supply will rise markedly. Read backwards: while HBM is still taking wafers, conventional is residual.
 
-Hot Chips 2026 floor notes (ServeTheHome, https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/ ): design architecture, advanced packaging, and manufacturing complexity together mean the same capacity of HBM3e consumes about 3× the silicon of DDR5. The same piece also writes that a typical GPU counted as base die plus eight HBM4 stacks exceeds 12,000 mm². The Tom's Hardware headline put 3× in the title. Scope: the same capacity, not a factory split of "one HBM wafer trades for three DDR5 wafers." 3:1 enters as conference paraphrase. It is not promoted to a 10-K-checked multiple. Micron's official slides in full text are not separately posted on the investor page.
+Hot Chips 2026 floor notes (ServeTheHome, https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/ ): design architecture, advanced packaging, and manufacturing complexity together mean the same capacity of HBM3e consumes about 3× the silicon of DDR5. The same piece also writes that a typical GPU counted as base die plus eight HBM4 stacks exceeds 12,000 mm². The Tom's Hardware headline put 3× in the title. Scope: the same capacity, not a factory split of "one HBM wafer trades for three DDR5 wafers." The ~3× ratio is A-grade first-party company evidence; it is not a universal fab-control constant. Micron's official slides in full text are not separately posted on the investor page.
 
 The three firms' fiscal years do not align. Do not convert won into dollars and add them to Micron.
 
@@ -106,9 +106,9 @@ Source 03 puts the three together and does not promote them to a new number. Hal
 
 Supply commitments: [Volume 1](vol-01.md). It names Hynix, Micron, and Samsung for memory and gives no split. The highest-profit name can add a prepayment tranche. Not yet written as fact: Hynix already a captive fab, 16-Hi stacks bought out in bulk, some contract locking all 2027 HBM. If it is not found, leave it empty. Four-cloud scope: [四云Capex口径核对](四云Capex口径核对.md). Cloud money has other uses. NVIDIA's money is used to lock the next slice of material. On this memory slice, two piles of money bid the same stack line.
 
-### 3.3 3:1 is a direction, not a measured constant
+### 3.3 ~3× is a disclosed industry trade ratio, not a universal fab constant
 
-The draft took single-die yield 95% to the twelfth power times base-die yield 90%, got 48.6%, and then wrote that each HBM wafer equivalently consumes three conventional DRAM wafers. The formula is a sketch. Hot Chips paraphrases about 3×. The Micron 10-K writes that the same bits take more wafers. The direction matches. The coefficient is not a MES. 4:1 and 5:1 only earn the right to move from forecast to observation after 16-Hi is in volume and makers still say "one wafer counts as four." This volume does not write a sketch formula as a law of nature.
+The draft derived its own 3:1 ratio from an uncalibrated compound-yield sketch; that derivation is rejected. Independently, Micron's FY24 Q3 prepared remarks disclose that industry-wide HBM3E requires approximately 3× the wafer supply of DDR5 for the same bits at the same node, while the FY25 10-K confirms the direction. The company disclosure is usable as A-grade evidence, but it is still an industry trade ratio rather than a fab MES constant. 4:1 and 5:1 only earn the right to move from forecast to observation after 16-Hi is in volume and makers still say "one wafer counts as four." This volume does not write a sketch formula as a law of nature.
 
 The logic base die lifts I/O and power out of the memory process. HBM starts to consume leading-edge logic. Halfway through the memory war it becomes a foundry war. If the base die runs 3nm or 5nm, every stack takes leading-edge logic again, and maybe packaging. TSMC packaging is already tight enough to limit customer growth. Base die and GPU die bid the same factory's back end. That is mechanism, not a disclosed base-die wafer count.
 
