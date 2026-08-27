@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "AI基础设施霸权时代"
-message: 如需引用本研究，请使用本 CITATION.cff；正式发布许可另行确定。
+message: "Please cite this research using this CITATION.cff. Original report text is governed by the AI Infrastructure Hegemony Restricted Research License v1.0 / 如需引用本研究，请使用本 CITATION.cff；原创研究文本适用受限研究许可 v1.0。"
 type: software
 authors:
   - name: "James"
