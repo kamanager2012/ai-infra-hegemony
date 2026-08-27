@@ -87,7 +87,7 @@ Five interrupts that would break the line: the West actually bundles; cloud ASIC
 
 If the word rent is still used, the collection point is not the model API. It is the cabinet price and the packaging quota. Asset-light: FY26 purchases of property and equipment plus intangibles $6,042M, which does not match a wafer fab. The heavy assets sit at TSMC and Hynix. Clouds buy scarcity into depreciation. Model firms hunt cash flow between depreciation and open-source price cuts. FY26 data center $193.7B is the rent the world paid. The application layer is squeezed. The back end collects rent. Phones and PCs that never buy a GPU still pay a memory spillover tax.
 
-The window is the few years before the next first-to-market node is locked by commitments. A forecast equals a push from the present. While the margin holds, commitments keep rising. While packaging stays tight, slots keep tilting to the first name. While cabinets keep shipping, memory multiplies by cabinet, and the residual goes to a few dozen brands. This is not an end state that already happened. It is the least-effort direction from the numbers now on the table.
+The key window lies before next-generation capacity is heavily committed. If seller economics remain strong, supply commitments continue to rise, advanced packaging stays tight, and rack-scale deployments keep expanding, the relative bargaining power of large long-duration buyers increases. This is a forward mechanism, not an already-completed end state.
 
 ### 3.1 Where the share era and the margin era differ
 
