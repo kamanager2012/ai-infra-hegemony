@@ -110,7 +110,9 @@ X / 社交媒体发帖底稿在 [en/SHARE.md](en/SHARE.md)，不代发。当前�
 
 欢迎纠错和补出处。规则在 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-数字错了，开 [数字或口径纠错](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml)。没有官方链接的定量不要提。
+数字、时间、口径或证据等级错了，开 [数字 / 口径 / 来源纠错](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml)。
+
+如果你认为假设、机制或情景不成立，开 [机制 / 情景挑战](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=analysis.yml)。最好直接指出：哪个 F 不成立、哪个 H 不合理、哪条 M 断了、哪个 S 推不出来，或应该加入什么 X 证伪信号。
 
 ## 引用
 
