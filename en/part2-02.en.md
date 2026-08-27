@@ -2,7 +2,7 @@
 
 Chinese original: [part2-02.md](part2-02.md)
 
-The cabinet as sales unit: [Volume 2](vol-02.md) and [Volume 32](vol-32.md). Official single-cabinet spec follows the judgment: 72 GPU, 36 Grace, HBM 13.4 TB, LPDDR 17 TB. This essay does not reopen the FY26 table.
+The cabinet as sales unit: [Volume 2](vol-02.en.md) and [Volume 32](vol-32.en.md). Official single-cabinet spec follows the judgment: 72 GPU, 36 Grace, HBM 13.4 TB, LPDDR 17 TB. This essay does not reopen the FY26 table.
 
 ## 1. The question this essay answers
 
@@ -28,11 +28,11 @@ The technical blog (developer.nvidia.com, the GB200 NVL72 piece) opens the mecha
 
 The 18 March 2024 newsroom (Blackwell platform launch) announced the chip and the cabinet together. Blackwell GPU 208 billion transistors, TSMC custom 4NP, two reticle-limit dies fused into one logical GPU with a 10 TB/s die-to-die link. Fifth-generation NVLink 1.8 TB/s per card, up to 576 cards. GB200 NVL72 is 36 Superchips, 72 GPUs plus 36 CPUs, with BlueField-3. The press release writes the whole cabinet as "a single GPU," 1.4 exaflops AI, 30 TB fast memory. Versus H100, inference up to 30×, cost and energy down up to 25×. These are launch sentences, with up to. They are not an unboxing measurement.
 
-Company books and supply commitments: [Volume 1](vol-01.md). The 10-K nails prepayments. It does not split cabinet price, and has no factory-gate cabinet price.
+Company books and supply commitments: [Volume 1](vol-01.en.md). The 10-K nails prepayments. It does not split cabinet price, and has no factory-gate cabinet price.
 
 The draft had a whole-cabinet ASP range and a line-item dollar BOM (die, HBM, CoWoS, Switch, copper cable, liquid cooling, software premium of forty-odd points). NVIDIA's product page, newsroom, and 10-K print neither a factory-gate cabinet price nor line-item dollars. The judgment called "re-sticking a BOM" idle work. This essay deletes that dollar set. Do not fill in $2.5–3.0M/cabinet, and do not back-calculate 75% gross margin into "software premium XXX ten-thousand per cabinet." BOM in this essay means only the official physical composition: how many cards, how much memory, how many switch trays, what interconnect.
 
-Cabinet count times spec: [Volume 16](vol-16.md). The reticle limit explains why one logical GPU needs two dies, and why packaging hits the ceiling before the front end.
+Cabinet count times spec: [Volume 16](vol-16.en.md). The reticle limit explains why one logical GPU needs two dies, and why packaging hits the ceiling before the front end.
 
 Jensen Huang's original sentence in the FY26 press release: "Grace Blackwell with NVLink is the king of inference today." This essay reads that sentence as the company itself admitting: what is sold is the Grace + Blackwell + NVLink set, not loose cards.
 
@@ -44,15 +44,15 @@ Memory is two pools, not one. HBM3E 13.4 TB sits next to the GPU. LPDDR5X 17 TB 
 
 Interconnect is also two layers. Do not mix them. In-domain is fifth-generation NVLink plus switch trays, officially written as scale-up. Between domains is Quantum InfiniBand, Spectrum Ethernet, BlueField-3, officially written as connecting hundreds or thousands of Blackwells out. The press release's 576 cards, 1 PB/s, is an upper-bound promotion of a larger NVLink domain, not 576 cards in every cabinet. This essay's sales unit is this one NVL72 cabinet. Cabinet to cabinet still walks their NICs and switches. Referee power stretches from the backplane to the campus network.
 
-Commercially, the empire does not stand on an undisclosed line-item dollar BOM. It stands on three things being true at once. First, the sales unit moved up: NVL72 writes cabinet dimensions, liquid cooling, and the NVLink domain as a reference design; OEMs assemble to drawing. Second, margin lives at the company layer, not in a cabinet line item. See [Volume 1](vol-01.md). Third, prepayments lock the next generation. They have not already bought the whole factory dead.
+Commercially, the empire does not stand on an undisclosed line-item dollar BOM. It stands on three things being true at once. First, the sales unit moved up: NVL72 writes cabinet dimensions, liquid cooling, and the NVLink domain as a reference design; OEMs assemble to drawing. Second, margin lives at the company layer, not in a cabinet line item. See [Volume 1](vol-01.en.md). Third, prepayments lock the next generation. They have not already bought the whole factory dead.
 
-Referee power sits in software and interfaces. CUDA, PTX, TensorRT-LLM, NeMo, NIM, Mission Control: the product page treats them all as existing product lines. A generation can change without tearing customer software. Do not write NIM as a second profit pool. Coach power sits in the mix. Packaging tightness: [Volume 24](vol-24.md). The China stack: [Volume 12](vol-12.md). NVL72 is the commodity that welds a margin monopoly into a cabinet outline.
+Referee power sits in software and interfaces. CUDA, PTX, TensorRT-LLM, NeMo, NIM, and Mission Control all strengthen switching costs and system integration, but they should not be collapsed into a separate audited profit pool. Coach power sits in how chips, HBM, packaging, interconnect, and racks are co-designed. The economic object is therefore **system-stack value capture**, not "a margin monopoly welded into a cabinet."
 
 The technical blog also writes interconnect generations. NVLink walked from first-generation 160 GB/s in 2014 to fifth-generation 1.8 TB/s; the text writes per-card bandwidth as 12× the first generation; domain size expanded from at most 8 cards on a board (HGX H200, 900 GB/s per card) to 72 cards. 576 cards, over 1 PB/s, 240 TB fast memory, is an upper-bound promotion of a larger domain, not this NVL72 cabinet's spec. This essay nails the cabinet spec to the product page: 72 cards, 13.4 TB, 17 TB, 130 TB/s. The generation story is only used to show how referee power grew: bandwidth and domain size rose together. What Ethernet has to chase is not one point. It is a curve they defined themselves.
 
 The physical BOM has four levels. Do not quote a price by skipping a level. Die: two reticle-limit dies fused into one logical GPU; the launch write-up writes 10 TB/s die-to-die. Superchip: two GPUs plus one Grace, C2C 900 GB/s. Tray: two Grace plus four GPUs, liquid-cooled, 80 petaflops, 1.7 TB. Whole cabinet: 18 trays plus 9 switch trays, copper cable cartridges. What official sources give is composition at this level, not dollars at this level. Someone using company gross margin 75% to back out "software XXX ten-thousand per cabinet" — the equation does not hold. Gross margin is a full-year weighted average of all products. Inside it are gaming cards, professional cards, auto, the H20 charge. The 10-K has no "NVL72 line-item gross margin" row. Inventory $21.4B at FY26 year-end, $25.8B at Q1 end; product-warranty liability $2.8B at FY26 year-end: all company-layer. Warranty or inventory cannot be divided by an undisclosed cabinet count and treated as unit cost.
 
-Tape-out: [Volume 16](vol-16.md) and [Volume 24](vol-24.md). This essay only borrows: what is truly scarce is packaging and HBM, not front-end logic unit count. Dollars stay blank.
+Tape-out: [Volume 16](vol-16.en.md) and [Volume 24](vol-24.en.md). This essay only borrows: what is truly scarce is packaging and HBM, not front-end logic unit count. Dollars stay blank.
 
 ## 4. Analysis added (scenarios, counters, testable indicators)
 
@@ -98,4 +98,4 @@ The product page does not print whole-cabinet watts. 120 kW is the judgment's an
 
 Prepayments are not split to TSMC, not split to CoWoS, and do not name a 2nm first-silicon amount. Supply commitments "some can be rescheduled." Multi-year cloud $27B / $30B is not wafer prepayments.
 
-Net margin 55.6% is a back-calculation. PTX 95%, AMD lagging 30%–50%, single-die Switch gross margin, NIM ARR, whole-cabinet shipments: not found. This essay opened the product page, the technical blog, the newsroom Blackwell piece, the FY26 press release, and carries [Volume 1](vol-01.md)'s 10-K / CFO citations. It did no unboxing, and did not reread every 10-K footnote. Quantitative forecasts without a source are marked unverified. Do not treat them as audit fact.
+Net margin 55.6% is a back-calculation. PTX 95%, AMD lagging 30%–50%, single-die Switch gross margin, NIM ARR, whole-cabinet shipments: not found. This essay opened the product page, the technical blog, the newsroom Blackwell piece, the FY26 press release, and carries [Volume 1](vol-01.en.md)'s 10-K / CFO citations. It did no unboxing, and did not reread every 10-K footnote. Quantitative forecasts without a source are marked unverified. Do not treat them as audit fact.
