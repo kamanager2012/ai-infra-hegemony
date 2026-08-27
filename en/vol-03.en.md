@@ -34,7 +34,7 @@ The reticle limit welds this cabinet onto packaging. H100 GPU die 814 mm², NVID
 
 Identity: demand equals cabinets shipped times materials per cabinet. NVIDIA does not report cabinet counts. Makers do not report full-year absolute bits. The arithmetic stops at per cabinet, per thousand cabinets, and scenario cabinet counts. It is not written as already having bought a global percentage.
 
-Units must be confirm first. 1 PB equals 1,000 TB. 1 EB equals 1,000 PB. Per thousand cabinets (scenario, not shipments): HBM 13.4 PB, LPDDR 17 PB. 10,000 cabinets: HBM 134 PB, LPDDR 170 PB. 30,000 cabinets: 402 PB and 510 PB. 50,000 cabinets: 670 PB and 850 PB. An outside draft wrote 10,000 cabinets as 134 EB, a thousand times too large. This volume does not follow that unit error.
+Units must be normalized first. 1 PB equals 1,000 TB. 1 EB equals 1,000 PB. Per thousand cabinets (scenario, not shipments): HBM 13.4 PB, LPDDR 17 PB. 10,000 cabinets: HBM 134 PB, LPDDR 170 PB. 30,000 cabinets: 402 PB and 510 PB. 50,000 cabinets: 670 PB and 850 PB. An earlier external calculation mislabeled 134 PB as 134 EB, a 1,000× unit error. This volume uses the corrected PB-scale arithmetic.
 
 FY26 data center $193,737M cannot be multiplied as a full year of 72-card cabinets. Blackwell is ramping. The main line is explicit: only Q1 FY27 writes a Blackwell 300 pull. Hypothesis from here: once shipments walk as cabinets, demand multiplies by cabinet; supply cannot keep up with the product. Dividing full-year data-center revenue by a self-made cabinet ASP and treating the quotient as annual shipments is another wrong sum. This volume does not do it.
 
@@ -94,7 +94,7 @@ Cabinet counts, full-year global absolute HBM bits, an official number for B200 
 
 A 3:1 wafer penalty as a measured factory constant: Micron says the same bits take more wafers; Micron's first-party materials disclose ~3×. That is not a maker formula. historical stress-test material's 12-high composite yield 48.6% and area up 50% to 55% are examples. Do not promote them.
 
-Qualcomm 8 Elite purchase price $180–$190, MediaTek about $155, AP at 30% of BOM, a 40-month replacement cycle: analyst. This volume does not reopen them. TSMC 3nm foundry price $20,000–$22,000 per wafer: in the first-eight-volume draft, not in the management report opened the current evidence review. It does not enter the fact layer.
+Qualcomm 8 Elite purchase price $180–$190, MediaTek about $155, AP at 30% of BOM, a 40-month replacement cycle: analyst. This volume does not reopen them. The earlier $20,000–$22,000 3 nm wafer-price estimate is not supported by the TSMC management material used here and therefore does not enter the fact layer.
 
 Huaqiangbei 450 to 1,800: channel talk.
 
