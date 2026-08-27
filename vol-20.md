@@ -39,8 +39,9 @@
 每个 AI workflow 至少应计算：
 
 [
-Unit Economics=
-Revenue or productivity value
+Unit Economics
+=
+Revenue or Productivity Value
 -
 Inference
 -
@@ -50,7 +51,7 @@ Storage
 -
 Tool/API
 -
-Human review
+Human Review
 ]
 
 如果不能形成可验证的单位经济，AI adoption 很容易变成“功能使用量增长，但利润没有增长”。
@@ -98,19 +99,19 @@ AI system procurement 不能只看 GPU count。
 
 真正需要区分：
 
-### Platform asset
+### 6.1 Platform asset
 
 控制 system definition、software 和 customer ecosystem。
 
-### Scarce manufacturing asset
+### 6.2 Scarce manufacturing asset
 
 foundry、HBM、advanced packaging。
 
-### Infrastructure asset
+### 6.3 Infrastructure asset
 
 powered land、grid、cooling、data center。
 
-### Application asset
+### 6.4 Application asset
 
 依赖 workflow、distribution 与 unit economics。
 
