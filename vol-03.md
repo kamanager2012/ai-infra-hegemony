@@ -16,7 +16,7 @@ AI 基础设施扩张并不会把全球所有半导体产能同时抽走。真�
 - power-management components；
 - data-center power。
 
-因此，更准确的分析对象是 **Non-AI Residual Capacity（非 AI 剩余产能）**。
+因此，更准确的分析对象是 **Non-AI Residual Capacity（非 AI 有效残余产能）**。
 
 ## 2. Rack-scale system 把需求变成可计算的物理量
 
@@ -32,11 +32,11 @@ GB200 NVL72 官方配置：
 如果 rack 出货量为 (R)，则仅内存需求就满足：
 
 [
-HBM = 13.4 TB 	imes R
+HBM = 13.4 	ext{TB} 	imes R
 ]
 
 [
-LPDDR = 17 TB 	imes R
+LPDDR = 17 	ext{TB} 	imes R
 ]
 
 因此：
@@ -74,7 +74,8 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 报告使用一个 D 级几何压力测试：
 
 [
-72 GPU packages div 13.4 packages/wafer approx 5.39 CoWoS wafers/rack
+72 	ext{GPU packages} div 13.4 	ext{packages/wafer}
+approx 5.39 	ext{CoWoS wafers/rack}
 ]
 
 其中：
@@ -88,7 +89,7 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 因此绝不能使用：
 
 [
-15M TSMC annual wafers div 5.39
+15M 	ext{TSMC annual wafers} div 5.39
 ]
 
 来推导全球可生产多少 rack。TSMC 全年 wafer shipments 包含大量 smartphone、automotive、IoT 和 mature-node 产品，物理池完全不同。
