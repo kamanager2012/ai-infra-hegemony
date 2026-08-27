@@ -8,7 +8,7 @@ The cabinet as sales unit: [Volume 2](vol-02.en.md) and [Volume 32](vol-32.en.md
 
 Is NVIDIA's platform power primarily a single-chip benchmark advantage, or the result of integrating compute dies, HBM, NVLink, rack-scale interconnect, cooling, software, and deployment standards into one system stack? What does the official physical BOM confirm, what remains undisclosed, and where can Ethernet or hyperscaler-built systems create credible substitution?
 
-This essay only confirm public sources: the NVIDIA GB200 NVL72 product page, the technical blog, the 18 March 2024 newsroom, the FY26 press release and 10-K / CFO. The draft's whole-cabinet dollar split table is not official. This essay does not promote it, does not fill it, does not invent it.
+This essay only confirm public sources: the NVIDIA GB200 NVL72 product page, the technical blog, the 18 March 2024 newsroom, the FY26 press release and 10-K / CFO. The earlier version's whole-cabinet dollar split table is not official. This essay does not promote it, does not fill it, does not invent it.
 
 ## 2. Evidence boundary
 
@@ -47,7 +47,7 @@ Scenario B: algorithms lower interconnect sensitivity. Routed experts get fewer,
 
 Scenario C: self-built ASICs plus optical switching work well on a general framework. Cabinet-level NVLink uniqueness falls. That requires a compiler and an ecosystem, not only a chip spec. The TPU path exists. The page does not name TSMC or Broadcom. If production training migrates at scale, incumbent system share can fall. If not, software/runtime switching costs remain material. The relevant test is whether cloud system stacks take a meaningful share of training, not merely whether custom chips exist.
 
-Counters. Comparing "who is faster" on single-card TFLOPS, and going around the 72-card domain. Writing undisclosed whole-cabinet dollars as audit fact. Treating 30× / 4× / 25× promotional sentences as already instrument-checked. Writing supply commitments $119.0B as already buying TSMC's whole factory dead. Writing NIM as a second profit pool. Mixing 13.4 TB and 13.8 TB, 30 TB into a precise unified memory without marking the source.
+Counters. Comparing "who is faster" on single-card TFLOPS, and going around the 72-card domain. Writing undisclosed whole-cabinet dollars as verified first-party fact. Treating 30× / 4× / 25× promotional sentences as already instrument-checked. Writing supply commitments $119.0B as already buying TSMC's whole factory dead. Writing NIM as a second profit pool. Mixing 13.4 TB and 13.8 TB, 30 TB into a precise unified memory without marking the source.
 
 Testable indicators (write the number when there is one; leave blank when there is not):
 
@@ -73,7 +73,7 @@ Cabinet count cannot be backed out of free cash. $96,575M free cash divided by a
 
 ## 5. Gaps and what must not be treated as fact
 
-NVIDIA has not published an NVL72 factory-gate price, a channel price, or a line-item dollar BOM. The draft's whole-cabinet ASP range, software premium of forty-odd points, HBM tens of thousands of dollars per cabinet: none enter this essay's fact layer. Do not invent $2.5–3.0M/cabinet either. Gross margin 71.1% / 75.0% is company-layer, not cabinet line-item gross margin.
+NVIDIA has not published an NVL72 factory-gate price, a channel price, or a line-item dollar BOM. The earlier version's whole-cabinet ASP range, software premium of forty-odd points, HBM tens of thousands of dollars per cabinet: none enter this essay's fact layer. Do not invent $2.5–3.0M/cabinet either. Gross margin 71.1% / 75.0% is company-layer, not cabinet line-item gross margin.
 
 The product page does not print whole-cabinet watts. 120 kW is the judgment's and the industry's common scope. This essay does not promote it to official. Copper "2 miles," in-domain latency "under 100 ns," Ethernet MFU "25%": neither the official page nor the 10-K has them. Do not write them.
 
@@ -81,4 +81,4 @@ The product page does not print whole-cabinet watts. 120 kW is the judgment's an
 
 Prepayments are not split to TSMC, not split to CoWoS, and do not name a 2nm first-silicon amount. Supply commitments "some can be rescheduled." Multi-year cloud $27B / $30B is not wafer prepayments.
 
-Net margin 55.6% is a back-calculation. PTX 95%, AMD lagging 30%–50%, single-die Switch gross margin, NIM ARR, whole-cabinet shipments: not found. This essay opened the product page, the technical blog, the newsroom Blackwell piece, the FY26 press release, and carries [Volume 1](vol-01.en.md)'s 10-K / CFO citations. It did no unboxing, and did not reread every 10-K footnote. Quantitative forecasts without a source are marked unverified. Do not treat them as audit fact.
+Net margin 55.6% is a back-calculation. PTX 95%, AMD lagging 30%–50%, single-die Switch gross margin, NIM ARR, whole-cabinet shipments: not found. This essay opened the product page, the technical blog, the newsroom Blackwell piece, the FY26 press release, and carries [Volume 1](vol-01.en.md)'s 10-K / CFO citations. It did no unboxing, and did not reread every 10-K footnote. Quantitative forecasts without a source are marked unverified. Do not treat them as verified first-party fact.
