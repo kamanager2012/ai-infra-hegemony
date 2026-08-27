@@ -1,192 +1,178 @@
-# Volume 22: Consumer Electronics — DRAM Residual Capacity, PC, and Smartphone Cost Transmission
+# Volume 22: Consumer Electronics — DRAM Residual Capacity, PCs, and Smartphone Cost Transmission
 
-Chinese original: [vol-22.md](vol-22.en.md)
+Chinese source edition: [vol-22.md](../vol-22.md)
 
-## 1. Core question
+> Retrieval and revision cutoff: **2026-08-27**. This volume focuses on shared upstream constraints. It does not treat consumer electronics as directly competing for frontier training racks, and it does not convert channel prices or analyst SoC quotes into audited whole-device inflation.
 
-AI infrastructure does not need to eliminate consumer electronics to change its cost structure. The relevant mechanism is **Non-AI Residual Capacity**: after HBM, RDIMM, advanced logic, and other priority demand absorb scarce inputs, how much effective supply remains for smartphones, PCs, gaming, and general-purpose systems?
+## 1. AI affects consumer electronics first through memory residual capacity
 
-This volume separates three questions: whether memory pressure is cyclical or structural; how shared logic and memory pools transmit cost into devices; and which effects can actually be quantified from public evidence. It does not infer a universal phone-BOM inflation rate from analyst SoC quotes or channel prices.
-## 2. Evidence boundary
+Consumer electronics do not generally buy frontier training racks.
 
-Historical stress tests used wafer-price estimates, SoC purchase-price estimates, replacement-cycle assumptions, and fixed BOM percentages. Those figures lack a consistent first-party denominator and are not used as current facts.
+They do, however, share parts of the upstream manufacturing system with AI and server demand, including:
 
-The current quantitative anchors are stronger and narrower:
+- DRAM wafers;
+- leading-edge logic;
+- power-management components;
+- selected packaging capacity.
 
-- Micron's first-party disclosure that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity;
-- TrendForce's institutional estimate that HBM + RDIMM represent about **51% of 2026 DRAM bit supply**;
-- TSMC's official 2025 platform and advanced-packaging disclosures;
-- memory-maker financials and product-mix disclosures;
-- institutional contract-price tracking and channel spot prices, kept at their proper evidence grades.
+One important transmission path is therefore:
 
-The analysis therefore focuses on shared-resource pressure and residual supply rather than an invented whole-device inflation coefficient.
-## 3. Current evidence and transmission mechanism
+> **higher HBM / RDIMM demand → less residual conventional-DRAM capacity → higher or more volatile PC and smartphone memory cost**
 
-This section writes only sentences already confirm in the Judgment and evidence 03. Institutional notes are marked institutional. Maker notes are marked maker. Channel talk is marked talk. Won are not privately converted to dollars. Undisclosed quantities remain unquantified.
+The key variable is not total memory supply alone. It is the **residual capacity left for non-AI demand after higher-priority server and HBM products absorb manufacturing input**.
 
-### 3.1 Consumer electronics in the residual-capacity framework
+## 2. Structural pressure must be separated from cyclical price increases
 
-The official GB200 NVL72 reference configuration is 72 GPUs, 36 Grace CPUs, 13.4 TB HBM3E, and 17 TB LPDDR5X. 10,000 cabinets: HBM 134 PB, LPDDR 170 PB. 30,000 cabinets: 402 and 510. 50,000 cabinets: 670 and 850. TrendForce official note: 51% of 2026 DRAM bits are HBM plus RDIMM. Memory as a share of major CSP capex: 47% in 2026, 68% in 2027. Micron FY24 Q3 prepared remarks state that, industry-wide, HBM3E consumes approximately **3× the wafer supply of DDR5** to produce a given number of bits in the same technology node, and that the HBM4 trade ratio is expected to be higher. Micron's FY25 10-K later confirms the direction by stating that HBM requires more wafers and cleanroom space for the same bits. The ~3× ratio is therefore **A-grade first-party company evidence**; Hot Chips 2026 is corroborating context, not the primary basis. Hynix: HBM revenue more than doubled in a year. Channel talk: 16G DDR5 450 to 1,800.
+A quarter of rising memory prices does not by itself prove a permanent AI-driven shift.
 
-The Judgment's hypothesis from here: makers convert to HBM, consumer bits fall further. Server DDR5 is already residual, not another river.
+If AI demand weakens and memory manufacturers reallocate capacity back toward conventional DRAM, consumer pressure can ease.
 
-TSMC 2025 shipments were about 15.0M 12-inch-equivalent wafers, with annual capacity above 17M. Wafer revenue: 3nm 24%, 5nm 36%, 7nm 14%, 7nm and below 74%. Platforms: HPC 58%, up 48% year on year; smartphone 29%. First customer 19%, up from 12%; second 17%, down from 22%. Packaging and test about 8% in 2024, a bit over 10% in 2025. C.C. Wei, 4Q24: advanced packaging tight / cannot meet demand. 2Q26: limits customers' growth. Shareholders' meeting "sold out through 2026" has no official transcript. Not promoted.
+If HBM and RDIMM continue to deliver higher returns and absorb more wafer input over multiple investment cycles, residual consumer supply can remain structurally tighter.
 
-The China analysis uses a layered substitution framework rather than a single domestic-substitution label. China can form more complete parallel supply in smartphones and parts of consumer computing, while high-end workstation and frontier AI stacks still face non-equivalent constraints in advanced logic, HBM, advanced packaging, interconnect, and mature software. CXMT's prospectus contains no HBM product line; public monthly-capacity numbers are not official disclosures. YMTC publicly describes 200+ layer NAND but not the commonly repeated wafer-per-month figure. The question is **which layer can be supplied in parallel, at what scale and migration cost**, not whether domestic manufacturing is simply present or absent.
+The relevant variables are therefore:
 
-FY26 NVIDIA Data Center revenue provides a seller-side value-capture anchor, while hyperscaler CapEx remains buyer-side company-wide investment. Phones and PCs can still face memory and leading-edge allocation pressure even when they never purchase a data-center GPU.
+- product mix;
+- CapEx allocation;
+- wafer-supply trade ratios;
+- contract duration.
 
-### 3.2 TrendForce: half the bits already went to cabinets
+This distinction separates a normal memory cycle from a durable change in the way capacity is allocated.
 
-Source: TrendForce press release, 2026-08-25. The title writes that memory prices soar, and that DRAM and NAND Flash will account for 68% of major CSP capex in 2027.
+## 3. HBM amplifies pressure on residual DRAM supply
 
-Memory as a share of cloud capex (institutional estimate, not a four-cloud 10-K line item): DRAM and NAND combined account for 47% of CSP total capex in 2026, rising to 68% in 2027. The same note also writes CSP total capex up 98% year on year in 2026, and another 50% in 2027. This is TrendForce's estimate for "the major CSPs it tracks." It is not an "memory purchases" row in Amazon, Google, Microsoft, or Meta statements.
+Micron disclosed in its FY24 Q3 prepared remarks that HBM3E requires roughly **3× the wafer supply of DDR5** to produce the same number of bits at the same technology node.
 
-HBM plus RDIMM as a share of 2026 DRAM bits: TrendForce estimates the combined share at 51%. Same paragraph: makers give limited capacity to servers first; in 2027, node migration plus new-fab ramp in the second half is expected to add another 27% to combined server-DRAM plus HBM bit supply.
+TrendForce estimates that **HBM + RDIMM account for approximately 51% of 2026 DRAM bits**.
 
-Contract-price direction in the same note (institutional, not a maker quote sheet): 2H25 server DRAM contract prices cumulative +64%, 2026 outlook about +270% more; enterprise SSD 2H25 about +35%, 2026 cumulative outlook about +235%; some long-term agreements from 2Q26 onward carry a price ceiling; HBM contract prices in 2027 may still rise 70% to 140%.
+These figures measure different things, but together they show why HBM can exert more pressure on manufacturing input than a simple bit-share comparison suggests.
 
-How this holds the volume: 51% is bit supply, not revenue. HBM unit price is high, so the revenue share will be higher. RDIMM is already inside that 51%, which means "server conventional DDR5" is not another river. It is the socket stick inside this half. The remaining less-than-half of bits is phones, PCs, consumer, and other non-RDIMM. If the cloud shifts inference onto DDR5, it is fighting for the residual already inside that 51%, or the slice already rising with it. For phones and PCs, that is the denominator a quantitative model can actually use: not one flagship's SoC purchase price, but that half the world's bits have already been cut away.
+If high-value HBM demand keeps rising, the consumer market can face a tighter residual even without an absolute decline in total DRAM output.
 
-### 3.3 Micron: ~3× wafer-supply intensity is first-party evidence
+## 4. PCs face two main transmission channels
 
-Micron FY24 Q3 prepared remarks state that, industry-wide, HBM3E consumes approximately **3× the wafer supply of DDR5** to produce a given number of bits in the same technology node, and that the HBM4 trade ratio is expected to be higher. Micron's FY25 10-K later confirms the direction by stating that HBM requires more wafers and cleanroom space for the same bits. The ~3× ratio is therefore **A-grade first-party company evidence**; Hot Chips 2026 is corroborating context, not the primary basis.
+### 4.1 GPU allocation
 
-Micron's official 10-K (fiscal year ended 2025-08-28) does not print 3×, but the direction is the same sentence: due to higher performance and a more complex manufacturing process, HBM requires more wafers and more cleanroom space to produce the same number of bits as conventional DRAM at the same technology node. The same paragraph also writes: if HBM demand weakens and makers cut capacity from HBM back to conventional DRAM, conventional supply will rise materially. Read in reverse: while HBM is still taking wafers, conventional DRAM is residual.
+Consumer GPUs and data-center accelerators share parts of the advanced manufacturing ecosystem.
 
-Micron FY25 segments (dollars, maker): total revenue $37.378B, prior year $25.111B. DRAM $28.58B, prior year $17.60B. NAND $8.50B, prior year $7.23B. The cloud-and-hyperscale plus all-data-center HBM slice (company-scope CMBU) $13.52B, prior year $3.79B. The mid-cloud and enterprise-memory slice $7.23B, prior year $4.98B. The phone plus client plus own-brand slice $11.86B, prior year $11.67B. Same 10-K: most 2025 DRAM bits on 1β; in Q4, HBM3E 12-Hi already the majority of HBM shipments; HBM4 36GB 12-Hi already sampled. CMBU sells HBM, DDR5 and DDR4, LPDDR5, GDDR6. MCBU walks almost sideways for a year. The cloud-memory slice jumps from $3.79B to $13.52B. That is what "residual" looks like on a maker's books: what rose is the cabinet, not the phone or the PC.
+NVIDIA has previously disclosed supply constraints affecting Gaming products.
 
-### 3.4 Hynix and Samsung: won, no conversion
+That does not imply that every gaming card is displaced one-for-one by a data-center accelerator. It does show that consumer and data-center products can compete inside a common supply system.
 
-Hynix FY25 (won, K-IFRS, press release 2026-01-28): revenue KRW 97.1467T, prior year KRW 66.1930T; operating profit KRW 47.2063T, prior year KRW 23.4673T; operating margin 49%, prior year 35%; net profit KRW 42.9479T, prior year KRW 19.7969T. Q4 revenue KRW 32.8267T, operating profit KRW 19.1696T, margin 58%. DRAM segment: HBM revenue more than doubled year on year, a significant contribution to record results. The same note also writes: besides HBM, server conventional memory demand also rose sharply; 1nm-class conventional DRAM entered volume production; 256GB DDR5 RDIMM (32Gb 1β); HBM3E and HBM4 supplied at the same time; advanced packaging under construction in Cheongju, Yongin, and Indiana. NAND: 321-layer QLC development completed; second half leans on enterprise SSD; full-year NAND revenue a record. No DRAM / NAND dollar split. No absolute bits. 49% is not converted into dollars.
+### 4.2 DDR5 and LPDDR supply
 
-Samsung Device Solutions and Memory (won): company full-year revenue KRW 333.6T, operating profit KRW 43.6T. Device Solutions Q4 revenue KRW 44.0T, operating profit KRW 16.4T. In Q4, despite limited supply, the Memory business, on conventional DRAM demand and enterprise-product price rises plus expanded HBM sales, set quarterly records in revenue and operating profit. The business focus is written as HBM, server DDR5, and enterprise SSD. The conference materials split Memory for the year: 2024 Memory revenue KRW 84.5T, 2025 KRW 104.1T, up 23% year on year; Device Solutions revenue KRW 111.1T to KRW 130.1T, up 17%. The press release does not split DRAM / NAND amounts and does not report HBM bits. There is no maker announcement "cut 80k wafers back from HBM" — per the evidence instruction, The report does not treat it. 2026 outlook in the same note: keep prioritizing AI high value-add; start delivering HBM4 in Q1 (including 11.7 Gbps); expand DDR5, SOCAMM2, GDDR7; on the NAND side push high-performance TLC into inference KV-SSD.
+PCs also rely on DDR5 and LPDDR.
 
-The three firms' fiscal years do not align. Micron's year-end is about the end of August. Do not convert Hynix and Samsung won into dollars and then add them to Micron.
+If server and HBM demand absorb more wafer input and investment capacity, PC memory costs become more exposed to upstream allocation decisions.
 
-### 3.5 CXMT: 0 mentions of HBM in the full text; 350k wafers per month is not the prospectus
+The resulting pressure is more likely to appear through:
 
-CXMT prospectus (SSE registration draft, 2026-05-20), full-text search for HBM and the four characters "高带宽内存": 0 mentions. Products write only DDR and LPDDR: a diversified layout of DDR series and LPDDR series already formed; DDR covers DDR4 and DDR5; LPDDR has shipped LPDDR4X and LPDDR5 / LPDDR5X. Process is written as "first-generation through fourth-generation process technology platforms." It does not print 1α, 1β, or a node label such as "19nm." Node names are not invented.
+- high-end GPU availability;
+- memory pricing;
+- configuration changes;
+- longer replacement cycles.
 
-Main-business mix (RMB 10,000s): 2025 DDR 1,953,128.56, 31.87%; LPDDR 4,070,354.50, 66.43%; other 104,054.15, 1.70%; main-business total 6,127,537.21. In 2024 LPDDR was still 82.74%. 2025 DDR plus LPDDR equals 98.30% of main business. No HBM row. Main business is 99.74%, 98.97%, and 99.15% of period operating revenue.
+The exact size of each effect depends on vendor contracts and product mix and therefore should not be inferred from one channel quote.
 
-Three raised-fund projects: memory wafer manufacturing volume-line upgrade and rebuild RMB 7.5B; DRAM technology upgrade RMB 18.0B, of which RMB 13.0B from the raise; forward-looking R&D RMB 9.0B. Total investment RMB 34.5B; planned use of raised funds RMB 29.5B. Forward-looking project original: focused on forward-looking research needed for future advanced DRAM, planned input RMB 9.0B, construction period written through 2026–2028 as "a forward-looking technology platform fitted to DRAM." The two characters HBM do not appear. RMB 9.0B is a DRAM forward-looking basket, not a separately listed HBM line.
+## 5. Smartphones remain a huge market; AI has not “eliminated” them
 
-Capacity: the prospectus only writes three 12-inch DRAM wafer fabs in Hefei and Beijing together; by Omdia capacity, shipments, and sales, it has become China first and world fourth. A full-text search for "350,000" is not monthly capacity. The prospectus does not contain 350k wafers per month. The 350k in Korean reports is a year-end outlook from a semiconductor analysis house, not the prospectus. The same Korean-media paragraph also writes: last year's revenue mostly came from smartphone LPDDR and PC / server DDR; capacity assigned to HBM is only a tiny share. 350k wafers per month does not enter the fact layer.
+TSMC's 2025 smartphone platform still represented approximately **29% of revenue** and continued to grow year over year.
 
-How this holds the volume: what CXMT sells on the books is DDR and LPDDR whose international price has already risen. What the raise adds is conventional lines and "DRAM forward-looking," not a new HBM river that peers the three makers. Once the international price holds, it follows the price on the slice that makes money; if it does not follow, it is handing over the newly opened lines. Domestic phone makers that treat CXMT as "their own supply" have the layer wrong: it fills residual, not the half of bits on the cabinet.
+The relevant structural change is not that smartphones disappeared.
 
-### 3.6 YMTC: NAND third, not an HBM spare
+It is that:
 
-YMTC official product page: two representative fifth-generation 3D NAND products, X4-9070 TLC 1Tb, X4-6080 QLC 2Tb. That official page does not print stack-layer count. Prospectus (filing draft, SSE 2026-08-21): January–March 2026 operating revenue RMB 47.042B, net profit attributable to the parent RMB 33.379B; by TrendForce sales amount and shipments, both ranked world third and China first. Reporting-period operating revenue: 2026 Q1 RMB 47.042B, 2025 RMB 63.185B, 2024 RMB 45.203B, 2023 RMB 18.744B. Net profit attributable to the parent: Q1 RMB 33.379B, 2025 RMB 14.211B, 2024 RMB 6.771B, 2023 negative RMB 19.181B. Raised-fund projects: volume-line technology upgrade RMB 20.8B, R&D-related RMB 12.2B, total RMB 33.0B. Official layer sentence: 2022 launched Xtacking 3.0, becoming one of the world's first firms to ship 3D NAND products of 200 layers and above; 2024 iterated Xtacking 4.0. What the prospectus prints is "200 layers and above / broke 200 layers," not the 267 layers in the press. The full text also has no official monthly capacity in units of 10k wafers. The report does not treat second-hand figures such as "about 200k wafers." HBM appears in the YMTC prospectus glossary as an industry noun, not as a YMTC product line. YMTC is a NAND IDM.
+- HPC grew faster;
+- incremental advanced capacity became more oriented toward AI/HPC;
+- memory supply became more influenced by server and HBM economics.
 
-How this holds the volume: what YMTC eats is NAND and SSD price rises, not HBM. World NAND shipments third means it can fill consumer and a slice of enterprise SSD. It cannot fill HBM, and it cannot fill that half of bits that is server DDR5. Phone and PC SSDs will rise with it. That is another slice of the residual-capacity pressure, not "the domestic flash maker has already saved the consumer drive."
+For flagship smartphones, that can contribute to:
 
-### 3.7 Huaqiangbei: channel talk, only proving the residual hurt first
+- higher SoC cost;
+- more expensive memory configurations;
+- wider price-tier differentiation.
 
-Cailian, 2026-07-07, relaying CCTV Finance: a 32G DDR5 memory kit rose to nearly RMB 4,000, three to four times last year. Reporter tally: 16G DDR5 last year RMB 450, now RMB 1,800, a rise of 300%; 32G last year RMB 900, now RMB 3,800, a rise of 322%; 1TB SSD last year RMB 410, now RMB 950, a rise of 132%. Grade: channel spot talk. Not a TrendForce contract price. Not a maker quote sheet. It only proves consumer sticks are already paying a "residual-capacity pressure." It cannot be backed out into maker ASP, and it cannot be written as NVIDIA having sticker-priced the consumer stick.
+But without public procurement contracts, analyst SoC price estimates should not be converted into a precise whole-device BOM inflation rate.
 
-## 4. Mechanism (how a physical price rise becomes whole-device inflation)
+## 6. Channel prices are thermometers, not contract ledgers
 
-The shock has three conveyor belts that reinforce one another, not one. None of the three has to pass through an analyst purchase price on Snapdragon 8 Elite.
+Channel DRAM and SSD prices can help detect consumer-side residual pressure.
 
-### 4.1 First belt: the right to bid sits on the cabinet, not the device
+They are not equivalent to:
 
-The firm that sells cabinets takes 71% to 75% gross margin. Profit, cash, and supply commitments are [Volume 1](vol-01.en.md).
+- vendor contract prices;
+- global ASPs;
+- long-term supply agreements.
 
-Buyer and supplier power should not be reduced to a single gross-margin comparison. NVIDIA's 71%–75% platform gross-margin band, TSMC's foundry economics, SK hynix's memory-cycle economics, and cloud buyers' capital budgets sit on different accounting structures. The allocation mechanism is broader: price, order scale, prepayment, customer credit, utilization, roadmap certainty, supplier diversification, and geopolitics all matter. Strong seller-side cash flow can tilt **incremental** scarce capacity toward the strongest buyer, but it does not create a deterministic rule that TSMC must favor one customer regardless of every other consideration.
+This report therefore treats channel pricing as **C-grade evidence**.
 
-Rack-scale AI systems and consumer devices have very different price tolerance and cost structures. Higher memory cost can be absorbed more easily by a high-value compute system than by a price-sensitive phone or PC, but the report does not infer a universal BOM elasticity for either category. The first sentence a quantitative model can use is that sentence, not "the application processor broke 30% of BOM."
+Its role is to show that price pressure is reaching the terminal market, not to reconstruct a memory vendor's full pricing architecture.
 
-Another official sentence opened in the project evidence review is used here only as contrast. This volume does not claim this task newly read the 10-K: FY25 Gaming $11.350B against data center $115.186B; Q4 Gaming $2.544B, down 11% year on year and 22% quarter on quarter, original text written as limited supply for Blackwell and Ada. It is not "a published cut of how many tens of thousands of game cards." It is an official admission that consumer cards and the data center fight for the same supply. Consumer discrete GPUs are already being squeezed. That is harder than an analyst quote on one flagship phone. Official 60-class list prices that can be used: RTX 4060 RMB 2,399, RTX 5060 RMB 2,499, about +4%, suggested retail, not a Huaqiangbei print. The contrast: official game-card stickers walk almost sideways, and a single-quarter jump in memory contract prices is not the same order of magnitude. What is expensive is not the price tag the cabinet-seller writes on a 60-class card. It is the bits and wafers that were drawn away.
+## 7. China's consumer supply base can provide a partial buffer
 
-### 4.2 Second belt: half the bits were cut away; silicon burn is harsher than bits
+China has substantial or expanding capabilities in:
 
-51% is bit supply. HBM unit price is high, so the revenue share will be higher. Hynix has already written the revenue-side tilt into a press release as "more than doubled in a year." Micron CMBU jumps from $3.79B to $13.52B; MCBU walks from $11.67B to $11.86B, almost still for a year. Samsung Memory walks from KRW 84.5T to KRW 104.1T, and what it writes as priority is HBM, server DDR5, and enterprise SSD. Three books stand on the same side.
+- LPDDR;
+- DDR;
+- NAND;
+- smartphone supply chains.
 
-Silicon allocation is harsher than a simple bit count because HBM consumes more wafer supply per delivered bit. **Micron provides first-party evidence that, at the same node and bit capacity, HBM3E requires about 3× the wafer supply of DDR5.** That is now A-grade company evidence, not a D-grade engineering sketch. Future 4× or 5× ratios for later HBM generations remain hypotheses unless manufacturers disclose them. The mechanism that survives is clear: shifting capacity toward HBM can reduce Non-AI Residual Capacity more than a one-for-one bit comparison suggests.
+That can reduce some domestic consumer-side supply pressure.
 
-Multiply-by-cabinet writes the turn as arithmetic. 10,000 cabinets take 134 PB of HBM and 170 PB of LPDDR. 30,000 cabinets: 402 and 510. 50,000 cabinets: 670 and 850. NVIDIA does not report cabinet counts. Makers do not report full-year absolute bits. So these are scenarios, not shipments. The use of the scenario is not to report that some percent of the world has already been bought. It is to say: once shipments walk by cabinet, demand multiplies by cabinet; if supply cannot keep up with the product, the leftover goes to phones, PCs, and consumer drives, split among a few dozen brands. Memory share inside the cabinet is low, so the cabinet is not afraid of expensive. Phone and PC share is high, so they die first. Channel 16G 450 to 1,800 is the tip, not pricing power.
+But those capabilities cannot simply be extended to HBM-class memory.
 
-If the cloud shifts inference onto DDR5, that is not opening a new river. HBM has already drawn wafers at a higher silicon burn; the DDR5 bits that remain are still being split between RDIMM and phones and PCs. Stacking more DDR5 is a tax on the slice already rising. Public next-generation specs are [Volume 4](vol-04.en.md). No firm was found saying it would retreat to 5nm plus commodity DDR5 as the inference mainstay. So "shift inference onto conventional sticks and the phone will get room" has no anchor in public next generations.
+The appropriate conclusion is layered:
 
-### 4.3 Third belt: the increment in leading-edge logic is not in the phone
+- domestic consumer supply can buffer part of the residual pressure;
+- it does not by itself change global frontier-AI HBM allocation.
 
-TSMC 2025 HPC was 58%, up 48% year on year, while smartphone was 29%, up 11%. The important point is that incremental HPC and packaging capacity is contested separately from historical smartphone revenue. A 19% annual customer revenue share does not determine future allocation; order scale, prepayments, utilization, roadmap certainty, diversification, and strategic factors all matter.
+Consumer-memory resilience and frontier-HBM closure are different questions.
 
-earlier stress-test material writes N3E at $20,000 to $22,000 per wafer as the upstream of flagship SoC price rises. The current evidence review's evidence did not recheck that wafer quote. It does not enter the fact layer. The mechanism is still isomorphic: a flagship SoC, for an NPU and a larger cache, often also wants a larger die; "each wafer more expensive times each chip occupying more area" stacked together is how analysts write $180 to $190. This volume admits that belt holds in physics. It does not admit those two dollar figures are already a contract. The PC side has no matching CPU or discrete-GPU purchase price, but whoever fights training chips for N3 or N2 pays the premium first. Phone application processors mainly take standard packages. What is actually gated is leading-edge process quota and memory wafers, not an advanced-packaging quota table. Writing NVIDIA 60% and Apple 8% into the phone shock makes readers think the first evidence of siphoning is a packaging monopoly. It should be rewritten: the official packaging anchor is "tight, plus a rising revenue share"; the official consumer-side anchor is limited game-card supply, plus TrendForce writing PC OEMs and phones as the side short of quota.
+## 8. Automotive should not be treated as another smartphone or PC cycle
 
-On geopolitics, the consumer-electronics supply chain is highly concentrated in East Asian assembly and Korean memory. Export controls mainly hit leading-edge GPUs. They do not directly give phones a holiday. But if HBM and leading-edge-logic capex keep filling the makers, a relaxation of controls will not automatically knock DDR5 and LPDDR prices back to the old platform. Automotive electronics are slower. A 2-to-3-year automotive qualification means that even if they will pay a premium, they cannot take a seat in this node switch. Once automotive material is locked on a high-price node, exit is also slower than the phone.
+Automotive has a longer qualification cycle and a different component mix.
 
-### 4.4 The China market is a residual pool, not a second bid
+Its demand for memory, logic, and power-management components does not move in lockstep with smartphones and PCs.
 
-A larger China-side supply base does not automatically restore global non-AI residual capacity. The effect depends on which layers—consumer DRAM, HBM, advanced logic, packaging, and system software—actually expand.
+AI-related supply pressure is therefore more likely to appear through:
 
-More China phone and PC shipments buy residual bits, not HBM, and not advanced packaging. The more they buy, the more buyers sit inside the residual. The residual itself is first cut by the 51% that is HBM plus RDIMM. The premium Chinese consumers pay lifts domestic retail and brand margin. It does not lift TSMC HPC's plus 48%, and it does not stop the 75% firm from adding another tranche of prepayments. So "the China market is large, consumer electronics will refill itself" is old-cycle speech. This is an AI game: the scarce good sits on the cabinet, not in Honor's or Xiaomi's BOM.
+- selected component prices;
+- the cost of adopting advanced compute;
+- qualification and redesign delays.
 
-The layer must be right. Phones consume LPDDR and consumer NAND; PCs consume DDR/SSD and workstation graphics; frontier AI consumes HBM, server memory, advanced packaging, high-speed interconnect, and system software. China's strong position in phones and parts of consumer computing does not automatically imply an equivalent frontier training stack, and constraints in frontier AI do not imply that domestic consumer manufacturing is absent. Administrative controls can protect existing domestic supply, but a frontier AI closed loop still requires advanced packaging and HBM-class memory to reach sufficient scale.
+The automotive transmission path should be modeled separately rather than added to one generic consumer-electronics shock.
 
-To get AMD, Intel, Apple, Qualcomm, and MediaTek off TSMC's queue, a China fab must at the same time: reach the top node, have capacity that can take the load, and have the United States and those firms willing to hand over masks. The third item is export control and trust. It does not pass. Catch the first two, and Western flagship chips still cannot be taken. Those firms are still in TSMC's queue. In the queue they are still behind NVIDIA. More bundling by China phone makers binds memory residual. It does not change the advanced-packaging slot, and it does not change the increment lock behind 19%. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs, plus memory longs in real money. That check is not done. What is done is supply commitments added to $119.0B.
+## 9. Quantitative boundary
 
-CXMT and YMTC are companies. The prospectus does not list HBM as a line. The main line is conventional DRAM. After the three giants draw good capacity to HBM, conventional prices are high, and CXMT makes more money doing conventional. Once the international price holds, they sell first to the high bidder. If Huawei wants high-end bits, it bids at that price. Those who can pay join the high-price peer. Those who cannot take residual. It is not that the maker is unpatriotic. It is that the maker wants profit. Cheapness alone does not fill the tax of the unified compute architecture. A high-price peer can join the high-price bid. Domestic clouds switch stacks only under cutoff and policy. Both sides are expensive. The China stack lives on people who cannot buy NVIDIA, not on cheapness punching through the unified compute architecture.
+The current evidence can support direct quantification of:
 
-The concentration scenario is conditional rather than physical law. If supply diversification, system-stack substitution, migration-cost reduction, power expansion, and structural remedies remain weak, scarce-layer concentration can persist. Consumer devices may then absorb memory and leading-edge allocation pressure through pricing, specification changes, and slower upgrade cycles.
+- the HBM3E **~3× wafer-supply trade ratio**;
+- the estimated **51% HBM + RDIMM share of 2026 DRAM bits**;
+- rack-scale HBM demand scenarios;
+- TSMC platform revenue mix.
 
-### 4.5 Why the two old belts are not enough, and why they cannot be deleted
+It does not support a precise public estimate of:
 
-The old volume wrote the shock as wafer quotes plus a memory penalty. The older $20,000–$22,000 wafer-price estimate is not used as a current fact-layer anchor. The current memory evidence is stronger: institutional DRAM-bit estimates, Micron's ~3× wafer-supply trade ratio, company financials, and lower-grade channel pricing all point in the same direction. The two still reinforce each other: leading-edge-logic quota goes first to the buyer who can prepay; memory wafers go first to stacks and server sticks. Even if a flagship SoC can still get N3, it still faces LPDDR bits of which half have already been cut away. A sub-flagship that stays on an older node can dodge the wafer quote. It cannot dodge the residual-capacity pressure. That is the boundary between "broad inflation" and "only the flagship hurts": if only the top SoC pays the leading-edge-logic tax, mid-range devices can live on mature process, and the industry becomes "the flagship hurts, volume still walks"; if the memory penalty lifts LPDDR across the board, the pain sinks to the thousand-yuan phone. The older model had mostly top-end evidence, so broad device inflation remains a hypothesis that must be tested with brand- and segment-level data. Current institutional and channel evidence strengthens that hypothesis: TrendForce has already written PC OEMs and phones as the side short of quota; Huaqiangbei talk has already written the 16G stick as a 3× jump. The sink is happening. What is still missing is a brand official consecutive-decline shipment table. Without the table, The report does not treat "mid-range is already dead."
+- one smartphone's AI-driven BOM inflation;
+- one brand's private procurement contract;
+- the effective large-customer price of one SoC;
+- the number of months by which AI alone has lengthened the industry replacement cycle.
 
-The PC cannot stay empty. earlier stress-test material gave no notebook CPU or discrete-GPU purchase price, but the belt is the same. If consumer discrete GPUs keep fighting the data center for the same generation of packaging and memory, retail will see stock-outs or price rises first, not "AI PC" software points cashed. If an OEM uses AI-PC marketing to cover SoC and memory inflation, it must be able to point at which workflow makes a user willing to pay early for the next replacement inside those 40 months. earlier stress-test material has no penetration rate for that workflow, so a marketing narrative cannot fill the quantitative model's blank. Official limited supply on game cards is already the hardest sentence on the PC side. General-purpose servers have no public "shipments already extinguished" statistic. What can be written is structure: the CPU becomes a cabinet accessory; the firm that sells cabinets still has an automotive business and a Grace path, which shows they do not hand general-purpose compute to a rival. The report does not treat "commercial-server brands have already exited." Testable items can only stay empty: non-AI server shipments, which brands exit leading-edge SKUs. No statistic, leave it empty.
+Those variables remain outside the fact layer until reproducible evidence becomes available.
 
-Looking back from the channel: if carrier plans and trade-in are still designed around a two-year replacement, they will misalign with a 40-month reality, and inventory and subsidy efficiency will worsen together. The 40-month replacement-cycle estimate remains a historical external estimate rather than a revalidated current anchor. What can be watched is whether plan design has changed. No new percentage is needed. If channel 16G 450 to 1,800 continues, assembled PCs and brand PCs will first cut memory specs, then raise the whole device. That is an observable order, not a newly measured elasticity.
+## 10. Current judgment
 
-## 5. Scenarios, counterarguments, and testable indicators
+Consumer electronics are absorbing **residual-capacity pressure** from the AI infrastructure cycle, but the effect is strongly layered.
 
-Three shock scenarios. Pushed from the present. The Judgment is not denied.
+The best-supported transmission channels are:
 
-Structural siphon. The HBM penalty rate lasts. Makers keep allocating wafers to stacks and server sticks. TrendForce pushes memory's share of 2027 cloud capex further to 68%; HBM contract prices in 2027 may still rise 70% to 140%. Flagship SoCs stay in the high-price band; the replacement cycle holds above earlier stress-test material's 40 months. Brands lean on a few ultra-premium SKUs for margin; shipments do not return to the old scale. China demand keeps eating residual. It cannot eat the scarce slice back. The line walks past half of the scarce slice. Upgrades stop one node down.
+- memory;
+- consumer GPUs;
+- leading-edge capacity allocation.
 
-Quota reflux. If the cloud side cuts orders in 2026–2028, advanced-packaging and DRAM wafers flow back, effective N3 supply to consumer electronics rises, and SoC and memory price rises stop or give back. This does not need the phone to suddenly become an "AI must-have." It only needs the upstream to stop monopolizing the wafer. Micron's own 10-K wrote that sentence: if HBM demand weakens and makers cut capacity back to conventional, conventional supply will rise materially. Watch items: whether the cabinet-seller's data-center revenue growth falls to single digits, whether Gaming becomes large again, whether four-cloud mixed-year capex turns from the Judgment's $211.9B-to-$213.9B order of magnitude. earlier stress-test material $670B to $750B is an extrapolation, unverified, not to be treated as verified first-party fact. Reflux is a fork, not the present. The present is supply commitments still rising.
+The publication-level conclusion is therefore:
 
-Spec downgrade. Brands actively leave the sub-flagship on an older node, and use earlier stress-test material's $155 versus $180-to-$190 gap for product layering. Shipments hold, but "flagship experience" and profit concentrate at the top. Memory specs are allowed to step down, to avoid fighting servers for the same wafer while the penalty rate lasts. PC OEMs should ask the symmetric question: which SKUs must follow N3 or N2, and which can keep a last-generation processor that is good enough. This is a hedge, not a reversal of the siphon. Phone-maker bundling at most changes residual allocation. It does not change the increment lock behind 19%.
+> **AI infrastructure is transmitting part of its upstream resource competition into PCs, smartphones, and other non-AI terminals through shared scarce manufacturing layers.**
 
-The other side must be written fully, or the quantitative model will pretend it has already closed. First other side: $180 to $190 is an analyst purchase price, not a public contract. Brands can break effective cost apart with bundling, rebates, and baseband integration; a 30% BOM share may overstate the "cash shock." This volume agrees. So those SoC prices do not enter the current model inputs.
+That is not a claim that AI is “destroying consumer electronics.”
 
-Second other side: a longer replacement cycle has many factors. Screens and cameras already suffice, channel inventory, macroeconomics — it cannot be booked only to the AI siphon. The 40-month figure is not independently revalidated in the current edition. This volume agrees. So replacement months stay in earlier stress-test material, and are not the sole causal explanation.
-
-Third other side: if an on-device NPU can actually run a usable assistant locally, the phone may regain a reason to replace, and siphon and pull will hedge each other on the same machine. earlier stress-test material gave no on-device-model shipments or daily actives. "On-device AI saves the phone" cannot be written as already happened. This volume marks that item as still to be tested.
-
-Fourth other side: TrendForce 51% and 47% to 68% are institutional, not maker segments. Contract-price +270% is an outlook, not a full-year ASP already landed. Some long-term agreements carry a price ceiling, which means the rise is also not unbounded. This volume agrees. Institutional notes enter the evidence layer. They are not promoted to a 10-K. A ceiling means the cloud side is also negotiating. It does not mean residual has already been protected.
-
-Fifth other side: CXMT world fourth, YMTC world third — domestic supply will knock the residual-capacity pressure down. This volume does not agree to write that as already happened. CXMT follows the international floor; the prospectus has no HBM project. YMTC fills NAND; it cannot fill that half of bits that is server DDR5. However large domestic shipments are, they do not become "Washington will hand over masks." If the Eastern bid stands, it is a parallel stack. If it does not stand, the West is left with one bidder. A parallel stack cannot save Apple's and AMD's seats at TSMC, and it cannot save Western PC brands from the residual-capacity pressure.
-
-Testable marks: write only what can be checked against a table. No new percentages. In the next TrendForce note, whether HBM plus RDIMM as a share of DRAM bits is still near 51%, and whether memory inside cloud capex still walks the 47% to 68% direction. Whether Hynix still discloses HBM revenue more than doubled in a year, and whether operating margin is still in the 49% band. Whether Micron CMBU is still expanding, and whether MCBU still walks almost sideways. Whether Samsung Memory still writes HBM, server DDR5, and enterprise SSD as priority. Whether TSMC earnings calls still have smartphone-platform revenue below HPC, and whether the first customer is still walking from 12% toward 19%. Whether the next CXMT prospectus or periodic report is still 0 mentions of HBM, and whether DDR plus LPDDR is still above 98% of main business. Whether Huaqiangbei 16G still sits near RMB 1,800, or gives back. Whether brand-report shipments and ASP walk "volume down, price up." Whether the limited-supply sentence on game cards is still in the CFO commentary. The PC needs its own BOM watch. A phone SoC price cannot stand in for it. An automotive introduction cycle of 2 to 3 years means it is not 2026's first validator. Non-AI server shipments, and which brands exit leading-edge SKUs: no statistic, leave them empty.
-
-For brand firms, the useful output is a layered decision framework rather than another unsupported annual percentage forecast. If the flagship still walks the leading-edge node to hold a technology image, it must admit it is fighting training chips for the same logic line. The sub-flagship actively stays on an older node, to make shipments. Memory specs are allowed to step down, to avoid fighting servers for the same wafer while the penalty rate lasts. SSD specs are likewise allowed to step down, because NAND is also written into the 47% to 68% of cloud capex. If channel and carrier subsidies are still designed around old-day volume, inventory will appear on a longer replacement cycle. None of these actions needs a new price number. They only need to admit the half of bits and the residual-capacity pressure the Judgment already gave. China brands have one more layer: do not treat CXMT as an HBM spare, and do not treat domestic shipments as a second gravity. Domestic shipments are the number of buyers inside the residual pool, not a bidding function inside the scarce slice.
-
-Actions an OEM can take that do not depend on new numbers: write SKU layering in hard, and avoid crowding the whole series onto the leading-edge node; change memory specs from "high-spec across the board" to steppable; rewrite differentiators unrelated to AI (battery, repair, channel) as margin sources again. These are hedges, not a reversal of the siphon. Reversal waits on the Judgment's forks being done. Until they are done, this volume's working hypothesis is: the line walks past half of the scarce slice, and consumer electronics keep paying the tax.
-
-Cash in transit and retained profit must also be kept apart. Most of the additional cost borne by consumer electronics does not become brand-level profit. Value capture can instead accrue upstream in memory, foundry, packaging, and system platforms: Hynix 49%, Samsung Memory KRW 104.1T, Micron DRAM $28.58B. Further up, upstream cash flow and prepayments can support the next round of capacity reservation. What the brand sees is a dearer BOM, slower shipments, and misaligned plans. The profit pool is not in Honor's or Dell's phone or PC segment. It is in the cabinet, the stack, and leading-edge logic. Drawing four-cloud gross margins and brand whole-device gross margins on the same "consumer-electronics shock" map misleads: the denominators differ. The right comparison is "who can pay for the next tranche of material," not "who stickers high."
-
-This volume's quantitative boundary stops here. What can be used: the half of bits already written, 3× silicon, three books, multiply-by-cabinet scenarios, channel talk, HPC 58% against smartphone 29%. What cannot be used: a whole-device tear-down not given, an SoC purchase price not rechecked, 40 months not repeated. Writing "by how much next year's phone ASP will rise" from here exceeds earlier stress-test material, and it exceeds this task's number discipline. The layered and misaligned observations above are enough to stop this volume on the boundary "the shock mechanism can be explained; whole-device inflation cannot be precise to the next percentage point." The part of the title's quantitative model that does not match the name is "how many points of whole-device BOM inflation." The part that matches the name is: residual has already been cut into a shape, and the shape can be drawn with half the bits and multiply-by-cabinet.
-
-## 6. Gaps and what cannot be treated as fact
-
-1. There is no complete phone or PC BOM table, only older SoC-price, SoC share, and one sentence of 20% to 30%. A true whole-device cost-inflation model cannot be done. The quantification the title promised can, in the current edition, only reach residual structure, not whole-device percentage points.
-2. Older SoC-price, area-cost, and 40-month replacement-cycle figures are not supported by a directly comparable contract or customs series and do not enter the current model inputs.
-3. PC processors, discrete GPUs, tablets, and IoT have no matching prices. The title wrote phones and PCs; The older body was much stronger on smartphones than PCs. On the PC side, current evidence supports supply pressure and memory-cost transmission, but not a complete whole-device BOM model.
-4. "About 20% to 25% above the prior generation" does not give the prior-generation purchase price. The reader cannot back-calculate.
-5. Micron's approximately **3× HBM3E wafer-supply trade ratio versus DDR5** is A-grade first-party evidence. It is a capacity trade ratio, not a direct elasticity of phone-memory retail prices.
-6. NVIDIA 60% of advanced packaging, Apple about 8%, is not a TSMC split. This volume does not put it in the fact layer. Phone SoCs mostly do not take advanced packaging in the first place.
-7. Robot BOM percentages are unrelated to this volume's title. They cannot fill a blank in the phone model.
-8. TrendForce 51%, 47% to 68%, and a contract-price outlook of +270% are institutional, not maker segments. Cloud capex +98% is a TrendForce tracked sample, not a four-cloud 10-K add.
-9. Hynix and Samsung do not split DRAM and NAND amounts, and do not report full-year absolute bits. Do not convert won into dollars and then add them to Micron. The three fiscal years do not align.
-10. CXMT 350k wafers per month is not in the prospectus. It is a semiconductor-analysis-house outlook. YMTC official layers are written to 200 and above; press 267 does not enter. Neither firm has an official monthly capacity in units of 10k wafers.
-11. Huaqiangbei 450 to 1,800 is channel talk. It cannot be backed out into maker ASP.
-12. There is no official consecutive-decline shipment table for phones, PCs, or non-AI servers. "General-purpose servers have already been extinguished" is not written.
-13. Supply commitments of $119.0B are not split to Hynix or HBM. Multi-year cloud-service agreements are not memory prepayments.
-14. Converting HPC 58%, 3nm 24%, and first customer 19% into tens of thousands of wafers. Revenue share is not unit share.
-15. This volume did not newly read a full 10-K. It does not claim to have checked any cell of original HTML. What it uses are sentences whose sources are already written in the Judgment and evidence 03.
-16. earlier stress-test material $215B, $670B to $750B, and 4.1-year depreciation cannot be treated as verified first-party fact on the Judgment and capex-scope-check reading.
-
-(This volume invents no purchase price, BOM share, replacement-cycle months, cabinet count, global bits, or customer contract. 8.6, 13.2, three makers at 1.8 million wafers per month, and Samsung cutting 80k wafers back from HBM are not written, per the evidence instruction.)
+It is a claim that product configuration, upgrade speed, and cost structure are increasingly influenced by resource competition upstream.
