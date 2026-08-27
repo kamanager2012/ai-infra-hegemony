@@ -1,6 +1,6 @@
 # The Age of AI Infrastructure Hegemony
 
-An open-source industry research monograph: **40 volumes + 8 macro essays** on AI infrastructure, semiconductors, memory, advanced packaging, cloud capex, power, software economics, labor, and the 2026–2036 industrial endgame.
+An industry research monograph: **40 volumes + 8 macro essays** on AI infrastructure, semiconductors, memory, advanced packaging, cloud CapEx, power, software economics, labor, and the 2026–2036 industrial endgame.
 
 The Chinese edition is the source of truth and is updated first: [中文目录](../README.md).
 
@@ -8,7 +8,7 @@ The rule is simple: **facts must be sourced; forecasts stay labeled as assumptio
 
 Sources last checked: **2026-08-27**.
 
-Licensed under [CC BY 4.0](../LICENSE). Current rebuild notes: [Release Notes](../RELEASE_NOTES.md).
+The repository is currently in private publication-preparation mode. The public-release licensing terms will be finalized separately before publication. Current revision notes: [Release Notes](../RELEASE_NOTES.md).
 
 ## Core findings
 
@@ -17,7 +17,7 @@ Licensed under [CC BY 4.0](../LICENSE). Current rebuild notes: [Release Notes](.
 - **Total supply growth does not equal recovery for non-AI industries.** The report tracks **Non-AI Residual Capacity**: what remains after AI and other priority demand absorb the increment.
 - **HBM has a first-party physical cost anchor.** Micron disclosed that, at the same node and for the same number of bits, HBM3E consumes roughly **3× the wafer supply of DDR5**. This is not a price multiple and not a universal constant across all generations.
 - **Model companies are becoming anchor infrastructure buyers.** Stargate and Anthropic/AWS show that long-term model demand can shape data-center, chip, power, and financing decisions.
-- **Power is an independent physical quota.** 120kW-class AI racks, an ~835MW nuclear restart PPA, Talen/AWS’s revised **up to 1.92GW** PPA, and Kairos/Google’s **up to 500MW** SMR plan all run on different clocks.
+- **Power is an independent physical quota.** 120 kW-class AI racks, an ~835 MW nuclear restart PPA, Talen/AWS’s revised **up to 1.92 GW** PPA, and Kairos/Google’s **up to 500 MW** SMR plan all run on different clocks.
 - **Downstream transmission is already observable.** 2026 memory contract prices have risen sharply, and AI software must be analyzed through unit economics rather than a fixed “85% → 55% gross margin” story.
 - **The future is modeled as states, not point prophecy.** The report uses:
   - **S1 Competitive Expansion**
@@ -64,7 +64,7 @@ Key rule: **supply expansion is not the same thing as recovery.** You must separ
 10. [Four 2026–2036 industry scenarios](vol-10.en.md)
 11. [Antitrust, industrial policy, and AI-era power structures](vol-11.en.md)
 12. [US–China AI supply-chain competition](vol-12.en.md)
-13. [120kW-class racks, grid access, and long-term power locking](vol-13.en.md)
+13. [120 kW-class racks, grid access, and long-term power locking](vol-13.en.md)
 14. [Winners and losers across semiconductors, cloud, software, and devices](vol-14.en.md)
 15. [The 2036 industrial end-state](vol-15.en.md)
 16. [Quantitative models for wafers, bandwidth, and physical bottlenecks](vol-16.en.md)
@@ -86,7 +86,7 @@ Key rule: **supply expansion is not the same thing as recovery.** You must separ
 32. [NVIDIA deep teardown: system economics vs cloud-stack substitution](vol-32.en.md)
 33. [AMD, Intel, Qualcomm, and Apple: divergent counter-paths](vol-33.en.md)
 34. [Global semiconductor supply-chain reconstruction](vol-34.en.md)
-35. [Energy deep dive: ~835MW restart PPA, up to 1.92GW revised AWS/Talen PPA, and SMRs](vol-35.en.md)
+35. [Energy deep dive: ~835 MW restart PPA, up to 1.92 GW revised AWS/Talen PPA, and SMRs](vol-35.en.md)
 36. [AI and global capital markets](vol-36.en.md)
 37. [AI bubble and hard-landing stress model](vol-37.en.md)
 38. [Task exposure, workflow redesign, and labor-market outcomes](vol-38.en.md)
