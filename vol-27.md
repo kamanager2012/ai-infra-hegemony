@@ -45,7 +45,7 @@ AI software gross margin 不存在统一行业终点。
 
 一个 AI workflow 的经济性可以写成：
 
-[
+```text
 Contribution Margin
 =
 Revenue per workflow
@@ -55,7 +55,7 @@ Variable AI cost
 Tool/API
 -
 Human review
-]
+```
 
 其中 Variable AI cost 包括：
 
@@ -192,9 +192,9 @@ human review 可能长期存在。
 
 因此，真正的 automation ROI 必须包含：
 
-[
+```text
 Human time before - Human time after
-]
+```
 
 而不是只统计 AI usage。
 
