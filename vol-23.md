@@ -1,61 +1,152 @@
-# 第二十三卷：HBM、存储与“AI时代的新石油”（HBM4 16-Hi堆叠、逻辑底座与存储资本开支）
+# 第二十三卷：HBM4、逻辑底座与存储资本密度
 
-残量模型、51% bit、按柜乘 HBM/LPDDR、海力士 FY25 49%，见[第五卷](vol-05.md)。消费电子交的是残量税，见[第二十二卷](vol-22.md)。中国栈三层、长鑫 0 处 HBM，见[第十二卷](vol-12.md)。本卷不重讲那几句。本卷只写：3:1 在物理上能站住哪一段，标题里的 16-Hi 现在有没有规格表，以及石油比喻在哪一点会断。
+## 1. HBM 为什么具有“新石油”式的稀缺属性
 
-## 1. 本卷要回答的问题
+把 HBM 称为“AI 时代新石油”只能作为比喻。
 
-把 HBM 称作“新石油”，是比喻还是机制？石油的要点是能量密度、管网和地租；HBM 的要点是带宽密度、堆叠良率和晶圆惩罚。本卷要回答三件事。第一，早期版本里的 3:1 惩罚率怎样在物理上说得通，哪些句子能进事实层、哪些必须停在早期版本公式。第二，标题里的 HBM4 16-Hi 与逻辑底座会不会把它再推陡——现在有没有规格表。第三，“新石油”在哪一点会说不通：石油可以库存、可以现货交割，HBM 却和特定 GPU 世代、特定底座、特定封装绑定。
+真正可分析的机制是：
 
-不新编柜数，不新编全球 bit，不把韩元换成美元。51% 和按柜乘已经写在第五卷，本卷只在需要对照时点一句。
+- high bandwidth density；
+- stacking complexity；
+- wafer-supply trade ratio；
+- packaging dependency；
+- generation-specific qualification。
 
-## 2. 早期版本公式（压缩，不升格）
+HBM 的战略价值来自难以快速复制的生产能力，而不是因为它与石油具有相同市场结构。
 
-- TSV：裸片面积比同容量 DDR5 增大 50%～55%（第三篇正文用 55%）。
-- 12 层：复合良率写成 \(Y_{\text{total}}=(0.95)^{12}\times 0.90\approx 48.6\%\)，投料 2.5～3 倍。第三篇流程图另写：1 片 12 寸高端 DRAM 做 DDR5 约 1,200 颗，做 HBM 经面积损失与良率后约 400 颗，结论仍是 3:1。图里复合良率又写成 54%～65%，与 48.6% 并置，内部未校准。
-- 逻辑底座：HBM 必须额外消耗 1 颗定制化先进制程逻辑芯片。
-- HBM4：16 层堆叠加台积电 3nm / 5nm 先进逻辑底座，惩罚率被写成“由 3:1 进一步恶化至 4:1 甚至 5:1”。标题中的“16-Hi”只在这一句落地，没有单堆容量、带宽、量产年或价格。
-- GB200 NVL72：早期版本写 HBM3e 13.8 TB、成本 58 万～68 万美元、原厂毛利率超 60%。产品页官方规格是 13.4 TB HBM3E、17 TB LPDDR5X。BOM 区间和“超 60%”继续停在早期版本测算。
+## 2. ~3× 的真正物理含义
 
-能留下来当骨架的是方向：堆叠更吃硅。不能留下来当计量的是 16-Hi 规格、3:1 校准、整柜 HBM 美元成本和“新石油可库存”。
+Micron FY24 Q3 prepared remarks：
 
-## 3. 能站住的约3×来自Micron一手披露，不是早期48.6%公式
+> HBM3E 在相同 technology node、生产相同比特时，约需要 DDR5 **3× wafer supply**。
 
-石油地租成立，是因为油井、管网和炼厂不能在一个季度里复制。HBM 地租若成立，也必须落在同一类不可快速复制的损耗上。早期版本用面积、良率乘法和底座三件事去解释 3:1。这三件事方向对，精度不够。能进事实层的，不是早期48.6%的自算公式。主数值锚来自 Micron FY24 Q3 prepared remarks：行业范围内，在相同技术节点、生产相同比特时，HBM3E 约需要 DDR5 **3× 的 wafer supply**，并预计 HBM4 trade ratio 更高。Micron FY25 10-K 又确认 HBM 同bit需要更多晶圆与洁净室。前者给出数值，后者给出持续的法律披露方向；两者共同构成一手证据链。
+Micron FY25 10-K 又确认：
 
-Hot Chips 2026 把同一方向写成了会议语言。ServeTheHome 现场笔记：The combined overhead of design architecture, advanced packaging, and manufacturing complexity means that about 3x as much silicon is consumed to deliver the same HBM3E capacity as DDR5。出处：https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/ 。口径要钉死：这是同一容量的 HBM3E 对 DDR5，把设计、先进封装和制造复杂度合在一起的硅消耗，不是“一片 HBM 晶圆换三片 DDR5 晶圆”的工厂分账，也不是 10-K 已经核过的倍数。3× 进会议转述层。
+> HBM 为生产相同比特需要更多 wafers 与 cleanroom space。
 
-于是 3:1 的经济含义可以不靠那条未校准公式成立：原厂每答应一张高带宽订单，就放弃更多普通 DRAM 的产出能力。面积被 TSV 和 KOZ 吃掉，洁净室被堆叠和底座吃掉，资本开支被清州、龙仁、印第安纳这类厂点吃掉。谁控制可工作的 TSV 堆叠与底座良率，谁就有定价权。目前公开能量产高带宽堆叠的，仍是海力士、美光、三星三家。长鑫招股书全文 0 处 HBM，不能把第四家写进 2026 年的有效供给。
+因此，~3× 的核心含义是：
 
-bit 份额还低估了晶圆被抽走的程度。第五卷钉的 51% 已经是 HBM 加 RDIMM 的 bit。HBM 自己的 bit 份额一定小于 51%。Micron FY24 Q3约3×一手披露与FY25 10-K都在说：同样 bit，HBM 更吃晶圆和洁净室。于是一个直接推论、不必新编百分比：HBM 在晶圆和洁净室里的权重，高于它在 bit 里的权重。原厂转产一句，消费少的不止 1:1。能说的只是方向——挪一条线去做堆叠，残量少得比挪走的 bit 更多。这就是为什么“改堆 DDR5”在账本上看起来像省 HBM，在晶圆上看起来像加税。
+> 同样 bit demand，HBM 会占用更多 manufacturing input。
 
-## 4. 16-Hi 没有规格表；底座若进台积电，地租会迁一截
+它并不是：
 
-底座若走 3nm / 5nm，HBM 不再是“存储厂自己的事”，而要排队进台积电。早期版本把 HBM4 16-Hi 的惩罚率写成 4:1～5:1，因为层数从 12 走到 16，良率乘法更陡，再加上一颗先进逻辑芯片。方向可以留，计量不能留。海力士官方写的是 HBM3E 与 HBM4 同时供货、HBM4 已大规模生产，没有16-Hi和公开良率公式；这不否定Micron另一份正式材料对HBM3E约3× trade ratio的披露。三星官方写 Q1 2026 开始交付 HBM4、含 11.7Gbps，同样没有 16-Hi。美光 10-K 写 HBM4 36GB 12-Hi 已送样，公开能钉住的层数是 12-Hi，不是标题里的 16。
+> 一片 HBM wafer 永远“等于三片 DDR5 wafer”。
 
-于是“新石油”的管网有一段可能铺在别人的晶圆厂里，但在原厂与台积电都给出可核对的底座出货之前，这段迁徙只是机制，不是已经完成的利润再分配。台积电本研究能用的官方句仍是先进封装加测试收入 2024 约 8%、2025 略超 10%，以及魏哲家 CoWoS tight / cannot meet demand、2Q26 limits customers' growth。没有“HBM 底座吃掉多少 3nm”的分项。
+这是一个 industry trade ratio，而不是固定 fab accounting rule。
 
-标题把 16-Hi 与逻辑底座并列，正是在提示这一种迁徙：若底座留在存储厂的成熟工艺，地租主要留在韩系原厂；若底座必须进台积电，地租有一截会迁到代工，HBM 就不再是单一产业的油井。观察项可以留，事实不能写。
+## 3. 为什么 HBM bit share 会低估制造压力
 
-## 5. 石油比喻在三处会断
+假设 HBM 的 bit share 为 (x)，而同 bit wafer input 高于 conventional DRAM，那么：
 
-HBM 几乎不能当库存石油用。石油在罐里还能等价格；HBM 的接口、层数、底座与特定 GPU 世代绑定。四年硬件折旧意味着一代颗粒很难跨过两代系统继续按原价出售。原油有公开基准与期货曲线；HBM 是年度或半年度的大客户谈判，价格几乎不出现在本报告能引用的 10-K 分项里。所谓“新石油”因此更容易变成叙事：短缺时人人都说它像石油，过剩时没有期货可以做空一代 12-Hi 颗粒。投资端若把存储股当成油企去持有，必须接受没有库存缓冲、没有公开曲线、只有世代绑定这一事实。企业端则应把 HBM 看成机柜能否交货的门槛件，而不是可以在现货市场补的耗材。
+[
+Manufacturing share > Bit share
+]
 
-MLA 把 KV Cache 压掉 93.3%（早期情景数字）是需求侧的替代能源：不是让 HBM 消失，而是让“每 Token 所需的常驻显存”下降。若企业把节省立刻转化成更长上下文、更高并发，需求仍在；若转化不成，沉没进更高堆叠和先进底座的资本开支会变成闲置油井。NVL72 把 13.4 TB 写成统一显存，有一半其实是系统定义出来的：NVLink 先把 72 卡焊成一块逻辑芯片，HBM 才显得像必须按柜采购的燃料。如果未来有更多工作负载可以拆到显存墙以内，计量单位会从“整柜 TB”变回“单卡 GB”。那一天到来之前，采购部门按柜去抢 8-Hi / 12-Hi，看起来就很像去码头抢原油舱位。本卷不预测那一天的年份。计量单位一变，“新石油”这个词就要重写，因为石油很少因为燃烧算法改进而突然不需要油罐。
+因此，即使 HBM 在总 DRAM bits 中不是多数，其对：
 
-定制化堆叠会把石油比喻再撕开一截。海力士 FY25 新闻稿把 Custom HBM 写成持续获得关注的差异化方向。这不是产量数字，是产品形态。定制化意味着堆叠、底座、通道数按某一家加速器去裁，更不能当库存原油在现货盘上倒手。教练定配比，原厂按配比改模具，颗粒和世代、和柜、甚至和单一客户绑定得更紧。投资端若仍按“存储周期回暖”去持有，看错的不是利润弹性，是库存假设。
+- wafer；
+- cleanroom；
+- CapEx；
+- packaging
 
-地缘上，三家韩美日系原厂加上可能的台积电底座，使 HBM 比逻辑 GPU 更容易被出口管制切到。把 HBM 当作国家层面的“石油储备”去理解，会高估可贸易性：它不能像原油一样在现货市场灵活交割。储备逻辑应写成“可工作的堆叠产能加底座代工准入”，而不是吨位。
+的影响也可能显著高于 bit share。
 
-## 6. 三种情景，和不做什么
+这解释了为什么 HBM demand 会压缩 conventional DRAM residual capacity。
 
-三种情景不配新概率：
+## 4. HBM4 可能进一步提高资本密度
 
-- **新石油坐实**：12-Hi 按官方已经在出的口径走稳，惩罚率在经济上仍值回投料。海力士营业利润率仍在 49% 附近；美光 CMBU 仍远厚于几乎横着走的 MCBU。16-Hi 若仍只出现在路线图，并不否定这条情景——坐实靠的是半边 bit 和原厂账本，不是标题里的层数。
-- **底座瓶颈**：存储厂宣布下一代，出货被先进逻辑底座或 CoWoS 配额卡住。表现会是：原厂新闻稿继续写 HBM4，整柜缺的是“成套可焊的 HBM”，不是 DRAM 晶圆本身。地租有一截迁到代工。
-- **算法或架构削需**：MLA / MoE 一类跳跃扩散，或 TrendForce 自己写的“减少每颗 AI 芯片集成的 HBM”被云真正采用。原厂利润率从 49% 回落，10-K 里那句“同样 bit 要更多晶圆”在物理上仍成立，但经济上不再值回投料。常规 DRAM 按美光 10-K 的反句回流。
+Micron 已表示 HBM4 的 trade ratio 预计高于 HBM3E。
 
-反方要写够，否则“新石油”会自己膨胀。第一，约 1,200 颗对约 400 颗、48.6% 与图中 54%～65% 并置，说明早期版本 3:1 是数量级结论，不是已校准的工艺控制图。第二，海力士 49%、美光 CMBU 135.2 亿美元，含有现阶段短缺溢价，不是长期均衡地租。第三，把 HBM 比作石油，会让人以为需求无弹性。第四，51% 是 bit 供给不是收入，47% / 68% 不是四云 10-K 分项。
+这意味着 future HBM generation 可能继续增加：
 
-可检验：美光下一份 10-K 是否还写“同样 bit 要更多晶圆”，HBM4 是 12-Hi 送样还是更高层出货；海力士、三星官方页有没有出现 16-Hi 规格表；台积电法说有没有可核对的底座句。
+- logic-base complexity；
+- stacking；
+- packaging；
+- wafer input；
+- testing。
 
-不做什么：不把 16-Hi 写成已经量产；不把 3:1 写成工厂控制图；不把 13.4 TB 乘出 5 万柜再去除以未公开的全球 HBM bit；不把韩元海力士、三星加成美元再和美光加总；不把长鑫 IPO 写成 HBM 供给函数。残量和按柜乘的完整写法，见[第五卷](vol-05.md)。
+但具体 HBM4/HBM4E 不同 configuration 的 trade ratio 必须以未来 vendor disclosure 为准。
+
+不能把 HBM3E 的 3× 直接机械改写成 HBM4 4× 或 5×。
+
+## 5. 16-Hi 不能在缺乏正式规格时写成既定事实
+
+HBM generation 可能向更高 stack count 演进，但具体：
+
+- 12-Hi；
+- 16-Hi；
+- capacity；
+- bandwidth；
+- yield；
+- production timing
+
+必须按 vendor official specification 逐项确认。
+
+因此，本报告不会因为标题或供应链预测出现“16-Hi”，就把它写成所有 HBM4 的统一量产规格。
+
+## 6. Logic base die 会把存储与先进逻辑进一步绑定
+
+HBM 正在从“纯 DRAM stack”向更复杂的逻辑底座整合演进。
+
+这可能产生新的资源竞争：
+
+HBM vendor  
+→ logic base die  
+→ advanced foundry  
+→ advanced packaging。
+
+如果 logic base 使用 leading-edge process，memory 与 compute 会进一步竞争相同 foundry resource。
+
+这会使 HBM 从 memory bottleneck 进一步升级为跨 memory/foundry 的 system bottleneck。
+
+## 7. 三家供应商的结构优势
+
+SK hynix、Samsung、Micron 的优势来自同时拥有：
+
+- DRAM technology；
+- TSV/stacking；
+- manufacturing scale；
+- HBM qualification；
+- customer relationship。
+
+这一能力无法通过普通 DRAM capacity 快速复制。
+
+因此，HBM 市场的进入壁垒不仅来自 CapEx，还来自：
+
+- yield learning；
+- packaging know-how；
+- customer qualification；
+- generation timing。
+
+## 8. HBM 的“库存”属性与石油不同
+
+HBM 与 commodity oil 最大的差异是：
+
+- product generation 快；
+- 与 specific accelerator generation 绑定；
+- qualification cycle 长；
+- obsolete risk 高。
+
+因此，HBM 不能像标准 commodity 一样长期无差别库存。
+
+这意味着：
+
+> HBM scarcity 与 generation mismatch 可以同时存在。
+
+即某一代产品过剩，并不自动解决下一代 frontier HBM 的短缺。
+
+## 9. 当前判断
+
+HBM 的战略价值来自三个同时存在的特征：
+
+1. high bandwidth；
+2. high wafer-supply trade ratio；
+3. high integration/qualification complexity。
+
+未来如果 HBM4/HBM4E 继续提高 capital intensity，memory 可能长期保持 AI system 的核心 scarce layer。
+
+如果新的 memory architecture 或 algorithmic efficiency 显著降低 bandwidth/memory demand，则这一结构可能被打破。
+
+所以 HBM 的长期价值不是“永远短缺”，而是：
+
+> **只要 frontier system 对 bandwidth 的增长快于 memory supply elasticity，HBM 就会继续拥有高战略价值。**
