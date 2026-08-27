@@ -36,7 +36,7 @@ The repository is currently in private publication-preparation mode. The public-
 7. [Chinese 2026–2036 hypothesis matrix](../核心假设矩阵.md)
 8. [English mechanism index](机制索引.en.md)
 
-> **Translation status (2026-08-27):** the English landing page and master judgment track the current framework. Individual chapter translations are being re-audited against the Chinese source of truth and may still contain older wording, structure, or evidence framing. For external publication, the Chinese edition remains authoritative until a chapter is explicitly revalidated.
+> **Translation status (2026-08-27):** all **40 English volumes + 8 English macro essays** have completed the current framework/publication QA pass. The English edition now uses the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack competition, Non-AI Residual Capacity, Anchor Compute Buyer, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 scenario framework. The Chinese `main` edition remains the source of truth if a future discrepancy is discovered.
 
 ## Core research infrastructure
 
