@@ -6,7 +6,7 @@ The Chinese research corpus remains the source of truth: [中文主目录](../RE
 
 **Research rule:** facts must be sourced; forecasts remain labeled as hypotheses, mechanisms, scenarios, or stress tests. Revenue share is not wafer share. Contracted MW is not energized load. Guidance is not actual performance.
 
-**Retrieval and revision cutoff: 2026-08-27.** The repository is in private publication-preparation mode. Original report text is governed by the **AI Infrastructure Hegemony Restricted Research License v1.0**: reading, linking, citation, and reasonable short quotation are permitted; substantial redistribution, commercial reuse, derivative editions/translations, bulk dataset extraction, and AI/ML training use require prior permission except where platform terms or applicable law provide otherwise. See [LICENSE](../LICENSE).
+**Retrieval and revision cutoff: 2026-08-27.** The repository is in private publication-preparation mode. Original report text is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. Commercial use is not permitted; redistribution is limited to unadapted material under the license terms with attribution, and adapted or derivative versions may not be shared. See [LICENSE](../LICENSE).
 
 ## Core findings
 
