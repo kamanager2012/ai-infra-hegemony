@@ -1,8 +1,8 @@
 # Volume 35: AI Power Constraints — 835 MW, 1.92 GW, and 500 MW Across Three Delivery Paths
 
-Chinese original: [vol-35.md](vol-35.md)
+Chinese original: [vol-35.md](vol-35.en.md)
 
-The power-constraint mechanism is developed in [Volume 13](vol-13.md). This volume focuses on three observable project paths and the distinction between announced, contracted, permitted, energized, and utilized capacity. It also explains why aggregate interconnection queues cannot be treated as directly deliverable AI load.
+The power-constraint mechanism is developed in [Volume 13](vol-13.en.md). This volume focuses on three observable project paths and the distinction between announced, contracted, permitted, energized, and utilized capacity. It also explains why aggregate interconnection queues cannot be treated as directly deliverable AI load.
 
 ## 1. The question this volume answers
 
@@ -42,7 +42,7 @@ What matters for AI is not "how many GW sit in the queue." It is when a high-vol
 
 ### 2.4 The financial base is not reopened in this volume
 
-Four-cloud scope: [Volume 8](vol-08.md). Profit and cash: [Volume 1](vol-01.md). The depreciation wall: [Volume 30](vol-30.md). This volume does not recopy the table.
+Four-cloud scope: [Volume 8](vol-08.en.md). Profit and cash: [Volume 1](vol-01.en.md). The depreciation wall: [Volume 30](vol-30.en.md). This volume does not recopy the table.
 
 ## 3. Mechanism (physics / commerce / geopolitics)
 
@@ -72,7 +72,7 @@ ERCOT's spot and PJM's capacity market are different structures. The same 20-yea
 
 ### 3.4 Antitrust does not change a main transformer. National security has no order that says "therefore do not split power"
 
-The case file: [Volume 11](vol-11.md). National-security files: [Volume 8](vol-08.md). A fine does not change the bid, and it does not change the NRC timetable of one 835 MW unit. Writing "regulation is about to open the market, and the power constraint will open with it" as a timetable exceeds the public record. The Pennsylvania governor, in the Talen new contract, said "more power is more national security." That is a state-government political sentence, not a White House-issued "do-not-split order" or "must-protect-direct-connect order."
+The case file: [Volume 11](vol-11.en.md). National-security files: [Volume 8](vol-08.en.md). A fine does not change the bid, and it does not change the NRC timetable of one 835 MW unit. Writing "regulation is about to open the market, and the power constraint will open with it" as a timetable exceeds the public record. The Pennsylvania governor, in the Talen new contract, said "more power is more national security." That is a state-government political sentence, not a White House-issued "do-not-split order" or "must-protect-direct-connect order."
 
 When FERC denied the original Susquehanna expansion agreement, the dispute exposed a real conflict between rapid large-load deployment and grid reliability / consumer-cost rules. The June 2025 rewrite moved the arrangement front-of-the-meter; the **April 2026 completion of that conversion** closes the old procedural question but not the economic one. Regulation no longer decides whether the first reconfiguration happens; it now shapes the pace, cost, and reliability obligations of the 1,920 MW ramp. That distinction belongs in cloud depreciation models.
 
@@ -80,9 +80,9 @@ When FERC denied the original Susquehanna expansion agreement, the dispute expos
 
 Judgment section 7: acting alone means handing over each year's new lines and packaging. To change the allocation, bind three checks: prepayments large enough that the foundry cannot recognize only one buyer; software bound into one stack (UXL / oneAPI is a seed); memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Power is not any of those three checks. Power is another line: even after the material is in hand, without energization the cabinet is still a liquid-cooled warehouse. Making "power stops the buildout" does not take three press releases. It takes enough campuses failing on permits and main transformers that even the leading buyer's prepayments have nowhere to become running cabinets.
 
-What is visible now is the opposite middle state. Buyers are adding group-wide capex: [Volume 8](vol-08.md). Seller supply commitments: [Volume 1](vol-01.md). Nuclear contracts are being signed, but 835 MW waits on 2028, 500 MW waits on 2030–2035, and 1,920 MW ramps through 2032. ERCOT has many applications and little delivery. That is a constraint, not yet a lock.
+What is visible now is the opposite middle state. Buyers are adding group-wide capex: [Volume 8](vol-08.en.md). Seller supply commitments: [Volume 1](vol-01.en.md). Nuclear contracts are being signed, but 835 MW waits on 2028, 500 MW waits on 2030–2035, and 1,920 MW ramps through 2032. ERCOT has many applications and little delivery. That is a constraint, not yet a lock.
 
-China grid line items are empty: [Volume 12](vol-12.md). "China nuclear installed capacity is large" cannot be used to fill "global cabinets have already lost power." Cloud ASICs: [Volume 4](vol-04.md). In-house chips do not save a 120 kW cabinet's need for a main transformer. Writing "we make our own chips" as "we do not lack power" welds two forks into one.
+China grid line items are empty: [Volume 12](vol-12.en.md). "China nuclear installed capacity is large" cannot be used to fill "global cabinets have already lost power." Cloud ASICs: [Volume 4](vol-04.en.md). In-house chips do not save a 120 kW cabinet's need for a main transformer. Writing "we make our own chips" as "we do not lack power" welds two forks into one.
 
 Restarting existing piles is also not an industrial process already rolled out. CNBC citing Constellation: if Three Mile Island returns in 2028, it will be the second commercial pile restarted in US history, with Michigan Palisades written as the first and targeted earlier. Both still have to pass the NRC. Constellation's press release writes that restart requires replacing the turbine, generator, main transformer, and cooling controls; the company separately filed to extend operations at least to 2054. The about $1.6 billion in investor materials is restart capex, not the total Microsoft pays Constellation under the PPA. The two sums cannot be swapped. Brattle's $16 billion is a state-GDP impact study, a third sum, still less a contract. Three numbers appearing in the same news chain is the place this volume must cut.
 
@@ -92,7 +92,7 @@ A matching PPA and a plant-side direct connect must also be cut apart. Microsoft
 
 historical stress-test material wrote passive copper saving 20 kW per cabinet versus optics. The current evidence review has no official comparison experiment. 20 kW does not enter the fact layer. Only the mechanism is kept: every kilowatt saved inside the cabinet is more compute on an existing feeder; every megawatt bought outside the campus is to make the feeder itself appear. A firm that does only one of the two is exposed on the other. The NVIDIA user guide writes the whole cabinet at about 120 kW, the power shelves as eight shelves, 33 kW per shelf, N+N. That means redundant power itself is a heat load. Liquid cooling solves the compute tray. It does not solve the campus-side main transformer. Whoever only changes cold plates and does not change interconnection is doing a local optimization on a feeder already built.
 
-Cabinets times spec: [Volume 16](vol-16.md). If the power constraint is truly done, the product stops at a smaller cabinet count. If it only stops in the application queue, the product keeps walking and residual bits keep being pulled. This volume does not write any cabinet-count tier as shipments that already happened.
+Cabinets times spec: [Volume 16](vol-16.en.md). If the power constraint is truly done, the product stops at a smaller cabinet count. If it only stops in the application queue, the product keeps walking and residual bits keep being pulled. This volume does not write any cabinet-count tier as shipments that already happened.
 
 Of the four firms, only three walk into this volume's nuclear evidence. Meta has no matching restart or SMR-fleet anchor in the current evidence set used by this volume. "The four clouds are all buying nuclear" cannot be written as fact. Constellation calls itself the largest US nuclear company, total installed 55 GW; Talen calls itself about 10.7 GW of generation assets, of which nuclear about 2.2 GW. Both sentences are company self-introductions, used to show who still holds existing piles, not available output checked in this volume. The Talen new contract also writes that the long contract will reduce the company's reliance on the federal nuclear production tax credit; Constellation investor materials write the Three Mile Island restart as aimed at 45Y. The tax credit is part of the restart economics. It is not a power-price formula Microsoft or Amazon has already paid on someone else's behalf. No first-party power-price formula is used; undisclosed pricing remains unquantified.
 
@@ -106,7 +106,7 @@ Scenario B: SMRs slip, and 2026–2030 produces "chips waiting for power." If Ka
 
 Scenario C: algorithms and low-power architectures pull power density back from 120 kW. MLA compresses memory. Edge small models shunt inference. Cabinets return to air cooling or 40 kW-class liquid cooling. Then a 20-year nuclear PPA becomes an over-hedge. The objection: the judgment's training-cluster direction is larger unified memory and higher cabinet power, and public next-generation cloud ASICs have not retreated to 5 nm plus commodity DDR5. No firm says the next cabinet will return to air cooling. Writing "efficiency will save power" as already happened exceeds the present.
 
-Scenario D: regulation welds power and a split together, and still cannot finish it. The case file: [Volume 11](vol-11.md). What is alleged is tying, not a main transformer. A fine does not change that 835 MW in 2028. FERC has already shown: a national-security sentence and consumer cost can fight on opposite faces of the same order. A true CUDA split is another line, [Volume 8](vol-08.md). This volume does not write it as already started.
+Scenario D: regulation welds power and a split together, and still cannot finish it. The case file: [Volume 11](vol-11.en.md). What is alleged is tying, not a main transformer. A fine does not change that 835 MW in 2028. FERC has already shown: a national-security sentence and consumer cost can fight on opposite faces of the same order. A true CUDA split is another line, [Volume 8](vol-08.en.md). This volume does not write it as already started.
 
 One comparison often missed: the duration mismatch between prepayments and power contracts. Most supply commitments are payable through fiscal 2027. They lock the next wafer, packaging, and inventory. A nuclear PPA once signed is 20 years. It locks watts and carbon attributes. Prepayments paid in 2027 may buy cabinets that only have 835 MW to match in 2028, a first SMR to hope for in 2030, and a possible full 1,920 MW in 2032. In the years between, cabinets walk on 4-year depreciation, and power walks on permits. Whoever writes the two timetables as one "already-locked energy war" covers the progressive tense with the completed tense.
 
@@ -122,7 +122,7 @@ Testable checks, only those whose right or wrong can be seen on the public recor
 
 ## 5. Gaps and what cannot be written as fact
 
-What this volume read is the Constellation 2024-09-20 press release and 8-K, Talen 2024-03 deal paraphrases and the 2025-06-11 Exhibit 99.1, the Google / Kairos 2024-10-14 official releases, the NVIDIA DGX GB user guide, ERCOT / PUCT 2026 public materials, Reuters and commission releases on FERC 2024-11 and later proceedings, and numbers already confirm in the judgment, [Volume 11](vol-11.md), and [Volume 8](vol-08.md). It did not read the three PPA bodies, the full Talen acquisition agreement, the Kairos engineering-permit docket, or an NRC review checklist. An "official press release" cannot be promoted to a checked contract.
+What this volume read is the Constellation 2024-09-20 press release and 8-K, Talen 2024-03 deal paraphrases and the 2025-06-11 Exhibit 99.1, the Google / Kairos 2024-10-14 official releases, the NVIDIA DGX GB user guide, ERCOT / PUCT 2026 public materials, Reuters and commission releases on FERC 2024-11 and later proceedings, and numbers already confirm in the judgment, [Volume 11](vol-11.en.md), and [Volume 8](vol-08.en.md). It did not read the three PPA bodies, the full Talen acquisition agreement, the Kairos engineering-permit docket, or an NRC review checklist. An "official press release" cannot be promoted to a checked contract.
 
 What cannot be written as already happened:
 
@@ -139,4 +139,4 @@ What cannot be written as already happened:
 - China and Europe grid queues, nuclear permits, data-center load — this volume has no addable official split.
 - Nuclear operators already enjoy 60%～75% gross margin.
 
-Power determines whether delivered compute can become a utilized asset. Current evidence supports power as a major constraint, not as an already-completed shutdown of AI infrastructure expansion. The shared interrupt variables are summarized in [Volume 8](vol-08.md).
+Power determines whether delivered compute can become a utilized asset. Current evidence supports power as a major constraint, not as an already-completed shutdown of AI infrastructure expansion. The shared interrupt variables are summarized in [Volume 8](vol-08.en.md).
