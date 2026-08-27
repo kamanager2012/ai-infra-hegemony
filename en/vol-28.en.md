@@ -47,7 +47,7 @@ CXMT's prospectus contains no disclosed HBM product line, and public wafer-per-m
 
 ### 3.6 Official cloud-ASIC sentences serve halls, not joints
 
-Specs: [Volume 4](vol-04.md). This volume does not reopen them. Those specs explain pre-shipment simulation and cloud-side skill learning. They do not explain a 50W-to-100W online loop. Cloud ASICs stop in the hall. The edge default is still written as Thor. Do not weld two thermodynamic systems into one sentence that says "self-designed chips have already liberated robots."
+Cloud-side system specifications are covered in [Volume 4](vol-04.md). They explain training and simulation, not the thermodynamic constraints of a 50–100 W edge loop. Cloud accelerators and robot-edge controllers therefore belong to different physical regimes and should not be treated as one substitution problem.
 
 ### 3.7 The Samsung long is Tesla, not humanoid shipments
 
@@ -113,7 +113,7 @@ The five: [Volume 8](vol-08.md). This volume asks only: if simulation still runs
 
 ### 3.15 cloud-infrastructure cost before shipment; residual-memory pressure after
 
-Rent: [Volume 1](vol-01.md). Four-cloud scope: [Volume 8](vol-08.md). If a robot whole machine still has to pass cloud-side simulation, it pays this rent first. If after shipment it stuffs consumer-grade bits into a joint controller, it then pays a residual-memory pressure. Do not weld the two into one "robot-revolution capex." Humanoid whole machines have no window of their own. They borrow the few years before halls are locked.
+Seller-side infrastructure economics are covered in [Volume 1](vol-01.md), and hyperscaler CapEx scope in [Volume 8](vol-08.md). Robotics can face both cloud-side training/simulation cost and edge-side memory constraints, but those costs should remain separate rather than being collapsed into one “robotics CapEx” aggregate.
 
 Memory as a share of major cloud capex: 47% in 2026, 68% in 2027. More than half of the memory increment already goes to cabinets. 51% of 2026 DRAM bits are HBM plus registered DIMMs. Micron FY24 Q3 prepared remarks disclose that, industry-wide, HBM3E requires approximately **3× the wafer supply of DDR5** to produce a given number of bits in the same technology node; Micron's FY25 10-K later confirms that HBM requires more wafers and cleanroom space for the same bits. The ~3× ratio is A-grade first-party evidence, while still not being a universal fab-control constant. Hynix: HBM revenue more than doubled in a year. After makers shift, consumer bits shrink. Robots, phones, PCs, and consumer drives split the same residual pool. Channel-verbal 16G DDR5 from about 450 to 1800. You can buy it. The price is higher. Cabinet selling prices are high enough that even expensive memory cannot crush the profit on one accelerator board. In PCs and phones the memory share is high. Higher component cost is more likely to pressure whole-machine robotics economics and configuration before it directly determines rack-scale platform profitability.
 
