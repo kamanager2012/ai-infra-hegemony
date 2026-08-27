@@ -1,6 +1,6 @@
 # Volume 13: The energy war of the AI era (120 kW thermal islands, 5–7 year interconnect queues, and data-center nuclearization)
 
-Chinese original: [vol-13.md](vol-13.md)
+Chinese original: [vol-13.md](vol-13.en.md)
 
 ## 1. The question this volume answers
 
@@ -16,9 +16,9 @@ Whether power is still an electricity-bill line depends on whether it can turn a
 
 ### 2.1 Cash already on the chain (tables are not recopied)
 
-What power would interrupt is "profit to prepayment to locked capacity." Official numbers on that chain are in [Volume 1](vol-01.md): FY26 data center $193.7B, free cash $96.575B, supply commitments from $95.2B to $119.0B. The cabinet bill of materials is in [Volume 2](vol-02.md): 72 cards, 13.4 TB of HBM, 17 TB of LPDDR. If the cabinet can ship, prepayments become revenue. If it cannot, revenue stops in inventory.
+What power would interrupt is "profit to prepayment to locked capacity." Official numbers on that chain are in [Volume 1](vol-01.en.md): FY26 data center $193.7B, free cash $96.575B, supply commitments from $95.2B to $119.0B. The cabinet bill of materials is in [Volume 2](vol-02.en.md): 72 cards, 13.4 TB of HBM, 17 TB of LPDDR. If the cabinet can ship, prepayments become revenue. If it cannot, revenue stops in inventory.
 
-TSMC shipments, platforms, and packaging quotes are in [Volume 4](vol-04.md). C.C. Wei saying packaging already limits customers' growth is a wall that has already happened on the wafer side. Addable four-cloud equipment purchases are in [Volume 8](vol-08.md): mixed-year about $211.9B to $213.9B, not "$215B of AI hardware." Residual multiplied by cabinet is in [Volume 3](vol-03.md) and [Volume 5](vol-05.md). This volume asks the reverse: if the cabinet cannot take power, do those multiplications still hold.
+TSMC shipments, platforms, and packaging quotes are in [Volume 4](vol-04.en.md). C.C. Wei saying packaging already limits customers' growth is a wall that has already happened on the wafer side. Addable four-cloud equipment purchases are in [Volume 8](vol-08.en.md): mixed-year about $211.9B to $213.9B, not "$215B of AI hardware." Residual multiplied by cabinet is in [Volume 3](vol-03.en.md) and [Volume 5](vol-05.en.md). This volume asks the reverse: if the cabinet cannot take power, do those multiplications still hold.
 
 ### 2.2 The draft's energy block, all downgraded
 
@@ -34,7 +34,7 @@ On the financial background, the draft wrote 2024 four-cloud capex as $215B, the
 
 ### 2.3 Which of the five is power
 
-The five interrupts, and which of them is done, are in the judgment and [Volume 1](vol-01.md). Docket progress is in [Volume 11](vol-11.md). This volume handles only the third: it does not split the stack, it does not stand up another referee, it only leaves already-scheduled cabinets dark. If it does not win, the line walks past half of the scarce slice. This volume writes "has not won" as the present, not as never possible.
+The five interrupts, and which of them is done, are in the judgment and [Volume 1](vol-01.en.md). Docket progress is in [Volume 11](vol-11.en.md). This volume handles only the third: it does not split the stack, it does not stand up another referee, it only leaves already-scheduled cabinets dark. If it does not win, the line walks past half of the scarce slice. This volume writes "has not won" as the present, not as never possible.
 
 ## 3. Dig into the mechanism
 
@@ -74,7 +74,7 @@ Hypothesis from here, without rejecting the main line. Two forks.
 
 Fork A: power has not stopped the buildout. Cabinets ship on the prepayment clock. FY26 data center $193.7B keeps serving as global rent. Supply commitments add again from $119.0B. Packaging stays tight. C.C. Wei's "limits customers' growth" stays in force. The HPC 58%, up 48% year on year, increment keeps being occupied by the first name. Residual multiplies by cabinet. Phones and PCs pay a memory tax. This is the judgment's main road: if those five are not done, the line walks past half of the scarce slice. On this road, power is a hall cost, not an interrupt.
 
-Fork B: power has stopped the buildout. Already-prepaid packaging wafers become assembled cabinets waiting for power at the campus gate. The athlete's revenue stops in inventory. Free cash $96.575B is still there, but whether the next supply commitment is added is a board question that looks at whether the cabinets can light. TSMC has no financial reason to offend the first name for the second, provided the first name is still ordering. If the first name delays take-up because it cannot take power, a slot window opens. A window is not an automatic fill by the second name. A window is more likely the whole line slowing together. The coach can keep scheduling HBM and advanced packaging and still cannot feed a campus that will not light. The 75% pad is still there. It cannot lock the next slice, because the next slice has no floor.
+Fork B: power becomes the binding brake. Prepaid packaging and systems can become stranded or delayed if campuses cannot energize them. That can reduce utilization, delay take-up, and weaken the next round of commitments. A freed manufacturing slot is not automatically reassigned to a specific rival: the entire line can slow, another high-credit buyer can take it, or suppliers can rebalance across customers. Power therefore interrupts the resource loop through **utilization and order certainty**, not because TSMC has a duty to favor or avoid offending any one customer.
 
 The present walk is Fork A. There is no checked interconnection effective capacity, no checked power-on failure rate, and no checked take-up cancelled because of power. Fork B is a mechanism, not a sentence that can be written as fact in August 2026. This volume leaves Fork B as a falsifiable interrupt. It does not announce a win early.
 
@@ -160,9 +160,9 @@ Packaging tightness is a coach-side limit that has already happened. Power is a 
 
 Memory multiplies by cabinet. If cabinets cannot ship, the HBM draw slows. The residual tax does not vanish at once, because maker conversion lags and longs are still on. A power win will not suddenly make phones and PCs cheap. If power has not won, the residual model keeps multiplying by the 10,000 / 30,000 / 50,000-cabinet hypotheses.
 
-Cloud ASICs taking training off the cabinet is another of the five. Public next-gen specs are in [Volume 4](vol-04.md): no retreat to 5nm plus commodity DDR5. Those chips also have to take power. If cloud ASICs win, the training load may change cabinets. The point load does not necessarily vanish. Power and cloud ASICs are not interchangeable interrupts. They are two independent forks. Neither is done.
+Cloud ASICs taking training off the cabinet is another of the five. Public next-gen specs are in [Volume 4](vol-04.en.md): no retreat to 5nm plus commodity DDR5. Those chips also have to take power. If cloud ASICs win, the training load may change cabinets. The point load does not necessarily vanish. Power and cloud ASICs are not interchangeable interrupts. They are two independent forks. Neither is done.
 
-Antitrust hits contracts; see [Volume 11](vol-11.md). Power hits a physical permit, not a competition-law permit. Do not mix the two permits. The competition-law permit governs whether you can sell. The grid permit governs whether you can light. The permit that governs lighting has no public evidence yet of having stuck the selling.
+Antitrust hits contracts; see [Volume 11](vol-11.en.md). Power hits a physical permit, not a competition-law permit. Do not mix the two permits. The competition-law permit governs whether you can sell. The grid permit governs whether you can light. The permit that governs lighting has no public evidence yet of having stuck the selling.
 
 Bundling still misses three checks. Power substitutes for none of them. If the West actually bundles, it still has to find a floor. If the East stands up a second bid, it still has to find a floor. Power stopping the buildout is the floor disappearing first. If the floor is still there, the other four still have to be done. This volume does not write power as a universal fork that can replace bundling, stack-switching, or a second bid.
 
