@@ -32,16 +32,16 @@
 - Three-Layer AI Skills Stack
 
 ### 事实层重要更新
-- NVIDIA FY27 Q2：营收 $96.221B、数据中心 $89.0B、GAAP毛利率75.0%，Rubin进入full production；
-- TSMC N2/N2P/A16与High-NA EUV明确解绑定；
+- NVIDIA FY27 Q2：营收 $96.221B、数据中心 $89.0B、GAAP 毛利率 75.0%，Rubin 进入 full production；
+- TSMC N2/N2P/A16 与 High-NA EUV明确解绑定；
 - Micron一手披露 HBM3E 在相同节点、相同比特下约需 DDR5 三倍 wafer supply；
-- CoWoS 3.3× reticle 能力与 NVIDIA 高份额需求重新分级；
-- 2026云厂竞争升级为系统栈竞争：Ironwood、Trainium3 UltraServer、MTIA等；
+- Advanced packaging 证据重新分级：TSMC tightness 为 A 级事实，NVIDIA >60% CoWoS demand 为 B 级机构估计，5.39 CoWoS wafers/rack 为 D 级几何压力测试；
+- 2026 年云厂竞争升级为系统栈竞争：Ironwood、Trainium3 UltraServer、MTIA等；
 - OpenAI Stargate、Anthropic/AWS被纳入 Anchor Compute Buyer 框架；
 - Microsoft / Constellation、Talen / AWS、Google / Kairos 的能源项目按合同容量、法律结构和上电状态重新拆分；
-- 2026 Hyperscaler CapEx按公司真实口径更新，不再写“缺微软”；
-- 2026消费内存合同价与终端压力纳入消费电子传导模型；
-- ILO劳动暴露与Stanford教育采用数据进入劳动/教育卷。
+- 2026 Hyperscaler CapEx 按公司真实口径更新，不再写“缺微软”；
+- 2026 年消费内存合同价与终端压力纳入消费电子传导模型；
+- ILO 劳动暴露与Stanford 教育采用数据进入劳动/教育卷。
 
 ### 关键纠错
 已经废弃或降级：
@@ -54,7 +54,7 @@
 - “四云2026缺微软CapEx口径”；
 - “SaaS 85%→55%”作为固定行业终局；
 - “暴露率=失业率”；
-- 835 + 960 + 500MW 直接视作当前能源容量。
+- 835 MW + 960 MW + 500 MW 直接视作当前能源容量。
 
 ### 发布前状态
 - 中文 `main` 为当前研究真源；
