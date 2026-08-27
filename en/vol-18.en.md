@@ -39,7 +39,7 @@ A scenario is the state produced when a defined set of hypotheses activates a de
 - **S3 — Resource Hegemony**
 - **S4 — Capital Hard Landing**
 
-The early 40% / 30% / 15% / 15% discussion weights are not part of the formal model.
+The early uncalibrated discussion weights are not part of the formal model.
 
 ### X — Falsification
 
