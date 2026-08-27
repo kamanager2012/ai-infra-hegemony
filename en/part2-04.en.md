@@ -2,13 +2,13 @@
 
 Chinese original: [part2-04.md](part2-04.md)
 
-Mixed-year four-cloud scope: `四云Capex口径核对.md`. Whether ASICs retreated to 5nm + DDR5: [Volume 4](vol-04.md) and [Volume 24](vol-24.md). How to use the DeepSeek training books: [Volume 26](vol-26.md). This essay does not reopen the spec table. This essay only collects: group-wide PPE is not an AI-hardware line item; training substitution has not won.
+Mixed-year four-cloud scope: `四云Capex口径核对.md`. Whether ASICs retreated to 5nm + DDR5: [Volume 4](vol-04.md) and [Volume 24](vol-24.md). How to use the DeepSeek training books: [Volume 26](vol-26.md). This essay does not reopen the spec table. This essay only collects: group-wide PPE is not an AI-hardware line item; broad training substitution remains incomplete.
 
 ## 1. The question this essay answers
 
 What the four clouds have already spent — is it group-wide property-and-equipment purchases, or an "AI hardware" line item? Has a self-built ASIC pulled hyperscale pretraining off Nvidia cabinets? DeepSeek-V3's MLA and the draft's training-cost figure — did they ease this spend, or make already-sunk group capital harder to recover?
 
-This essay does not write the draft's "2024 AI hardware $215B" and "2026 four-cloud $670–$750B" as facts that have already happened. What can be checked is the PPE line on each cash-flow statement, and node and memory on each firm's own product pages. ASIC products exist. Training substitution has not won. Public next-generation specs are 3nm-class logic plus HBM, not a retreat to 5nm plus commodity DDR5.
+This essay does not write the draft's "2024 AI hardware $215B" and "2026 four-cloud $670–$750B" as facts that have already happened. What can be checked is the PPE line on each cash-flow statement, and node and memory on each firm's own product pages. ASIC products exist. broad training substitution remains incomplete. Public next-generation specs are 3nm-class logic plus HBM, not a retreat to 5nm plus commodity DDR5.
 
 ## 2. Accounting and evidence boundary
 
@@ -50,7 +50,7 @@ The limiting question is ecosystem completeness: compiler/runtime maturity, scal
 DeepSeek-V3 reports 671B total parameters, 37B activated per token, and **2.788M H800 GPU-hours** of formal training. Its report-side $2/GPU-hour conversion yields about **$5.576M**, excluding prior research and ablations. This is useful evidence that architecture and systems design can reduce formal training compute. It does not imply that every frontier model has the same full development cost, or that HBM, packaging, and power cease to matter.
 
 ## 4.
-## 4. Analysis added (scenarios, counters, testable indicators)
+## 4. Scenarios, counterarguments, and testable indicators
 
 The 2026 by-firm forecast table is unverified. Do not treat it as audit fact.
 
@@ -62,7 +62,7 @@ Scenario C: the MLA path becomes default. 8-card servers take a large share of i
 
 Counters: treating a $750B sum as an already-approved budget; writing mixed-year about $211.9B group-wide PPE as "AI hardware $215B"; extrapolating $5.576 million to "every frontier model needs only five million dollars"; treating a TPU spec table as obtainable training share for external customers; writing Maia 200 / Trainium3 / Ironwood / MTIA 300+ HBM specs as "already won training."
 
-Testable indicators: whether each next cash-flow statement's PPE still adds on guidance; whether there is AI incremental revenue as its own row; whether Trainium / TPU / Maia external instances are still complained about on dynamic shapes; whether open-source model training cost keeps landing below ten million dollars; whether public token prices show a 30%–50% annualized fall; whether any cloud writes on an official page "the training mainstay has left bought-in cabinets." Shipments and training share stay blank this pass. Do not invent them.
+Testable indicators: whether each next cash-flow statement's PPE still adds on guidance; whether there is AI incremental revenue as its own row; whether Trainium / TPU / Maia external instances are still complained about on dynamic shapes; whether open-source model training cost keeps landing below ten million dollars; whether public token prices show a 30%–50% annualized fall; whether any cloud writes on an official page "the training mainstay has left bought-in cabinets." Shipments and training-share estimates remain unquantified until first-party or high-quality institutional evidence is available.
 
 The executable sentence for a CFO is only one: do not assume in the same budget "usage +300%, unit price does not fall, and the draft's $750B must be spent." The right order: first take a usage cell you are willing to believe, then see whether that cell still covers already-happened group-wide PPE depreciation when unit price falls 30% and 50%, and only then decide whether next year still approaches the forecast table. ASIC projects use the same order: first ask whether they are truly cheaper than bought-in cabinets on dynamic shapes and long context, then ask whether the compiler team's cost is below the purchase saved. DeepSeek is not a slogan to stop spending. It is a reason to change spend from "buy a full set of cabinets" to "buy enough effective tokens to cover the workflow."
 
