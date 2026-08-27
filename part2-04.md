@@ -1,4 +1,4 @@
-# 第四篇：四云集团 Capex、自研 ASIC 没赢、DeepSeek 把训练门槛打穿
+# 第四篇：云巨头 7500 亿 Capex 战争、自研 ASIC 局限与 DeepSeek 架构颠覆
 
 四云混年口径见 `四云Capex口径核对.md`。ASIC 有没有退回 5nm + DDR5，见[第四卷](vol-04.md)和[第二十四卷](vol-24.md)。DeepSeek 训练账怎么用，见[第二十六卷](vol-26.md)。本篇不重开规格表。本篇只收：集团 PPE 不是 AI 硬件分项，训练替代没赢。
 

@@ -1,4 +1,4 @@
-# Volume 2: The compute-empire model (cabinet as sales unit, CUDA as referee, system-level lock)
+# Volume 2: Nvidia compute-empire model (system-level monopoly, Blackwell microarchitecture, and the CUDA lock)
 
 Chinese original: [vol-02.md](vol-02.md)
 

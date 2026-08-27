@@ -1,4 +1,4 @@
-# Volume 30: The depreciation wall decides 2025–2028. It does not automatically decide 2036
+# Volume 30: The final ten-year endgame (the 2036 tech-industry map and a full winner–loser portrait)
 
 Chinese original: [vol-30.md](vol-30.md)
 

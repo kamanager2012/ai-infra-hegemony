@@ -1,4 +1,4 @@
-# Volume 1: Executive summary (a margin monopoly, not a share monopoly)
+# Volume 1: Executive summary and the core judgment for the next decade (cognitive means of production and intelligence rent)
 
 Chinese original: [vol-01.md](vol-01.md)
 

@@ -1,4 +1,4 @@
-# Volume 35: Three nuclear contracts and the queue (evidence on the power interrupt)
+# Volume 35: The AI energy war, deep cut (Three Mile Island 835 MW PPA, Susquehanna direct connect, and SMR evidence)
 
 Chinese original: [vol-35.md](vol-35.md)
 

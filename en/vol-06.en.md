@@ -1,4 +1,4 @@
-# Volume 6: Open source thins the API price; it does not punch through the referee seat (557.6 is one training point)
+# Volume 6: Model vendors’ commercial bind and the open-source game (inference-cost collapse, DeepSeek, and a commercialization dead end)
 
 Chinese original: [vol-06.md](vol-06.md)
 

@@ -1,4 +1,4 @@
-# Volume 20: First-stage hedges at three ends (what firms, investors, and states each hedge against)
+# Volume 20: Final strategy report (phase-one close: corporate transition, investment hedges, and state action)
 
 Chinese original: [vol-20.md](vol-20.md)
 

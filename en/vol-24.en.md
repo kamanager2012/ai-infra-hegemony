@@ -1,4 +1,4 @@
-# Volume 24: Advanced packaging is tight; official text does not split CoWoS (past half of the scarce slice recognizes only the first name)
+# Volume 24: Advanced packaging and TSMC (CoWoS monthly capacity from 13k to 130k wafers and Nvidia’s 60% lock)
 
 Chinese original: [vol-24.md](vol-24.md)
 

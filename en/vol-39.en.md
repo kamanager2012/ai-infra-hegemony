@@ -1,4 +1,4 @@
-# Volume 39: Changing a classroom syllabus does not change a prepayment (no admissions or employment invented)
+# Volume 39: Education and talent-system reconstruction in the AI era (lagging engineering curricula, hybrid AI talent, and a cognitive jump)
 
 Margin monopoly: [Volume 1](vol-01.md). Labor statistics are zero: [Volume 38](vol-38.md). This volume does not write admissions, employment, or starting pay. Capability structure can be written. Headcount stays blank.
 

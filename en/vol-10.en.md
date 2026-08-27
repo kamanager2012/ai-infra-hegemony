@@ -1,4 +1,4 @@
-# Volume 10: Scenarios are switches, not a 40/30/15/15 forecast
+# Volume 10: Five scenarios for the global AI industry over the next decade (oligopoly, edge decentralization, hard landing, and the decision tree)
 
 Chinese original: [vol-10.md](vol-10.md)
 

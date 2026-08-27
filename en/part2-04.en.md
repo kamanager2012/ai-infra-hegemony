@@ -1,4 +1,4 @@
-# Essay 4: Four-cloud group-wide capex, self-built ASICs have not won, DeepSeek punched through the training bar
+# Essay 4: The clouds’ $750B capex war, the limit of in-house ASICs, and DeepSeek’s architectural shock
 
 Chinese original: [part2-04.md](part2-04.md)
 

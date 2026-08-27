@@ -1,4 +1,4 @@
-# Volume 34: The single points sit on lithography and materials ($3.8B is a verbal round number, not a price list)
+# Volume 34: Reconstruction of the global semiconductor supply chain (ASML, Japanese materials, Western chip acts, and geopolitical breaks)
 
 Chinese original: [vol-34.md](vol-34.md)
 

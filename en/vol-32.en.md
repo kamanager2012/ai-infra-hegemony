@@ -1,4 +1,4 @@
-# Volume 32: The moat is 72 cards welded into one unified memory (BOM demoted; die-level versus cabinet-level)
+# Volume 32: NVIDIA deep teardown (full-stack architecture, NVLink 5.0, PTX, and the GB200 NVL72 BOM)
 
 Chinese original: [vol-32.md](vol-32.md)
 

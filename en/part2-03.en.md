@@ -1,4 +1,4 @@
-# Essay 3: Physical manufacturing limits and the fight for the global semiconductor supply chain (TSMC 2nm, CoWoS, and HBM)
+# Essay 3: Physical manufacturing limits and the fight for the global semiconductor supply chain
 
 Chinese original: [part2-03.md](part2-03.md)
 

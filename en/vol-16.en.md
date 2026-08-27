@@ -1,4 +1,4 @@
-# Volume 16: The wafer equation is missing a multiplier (DeepSeek is one training point, not a fittable curve)
+# Volume 16: Data models and a quantitative forecast frame (wafer-area equation, memory-bandwidth bottleneck, and Scaling Law estimates)
 
 Chinese original: [vol-16.md](vol-16.md)
 

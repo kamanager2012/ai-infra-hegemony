@@ -1,4 +1,4 @@
-# Essay 6: The energy war and physical grid constraints (the 120 kW heat island, nuclear PPAs, and SMRs)
+# Essay 6: The energy war and physical grid constraints
 
 Chinese original: [part2-06.md](part2-06.md)
 

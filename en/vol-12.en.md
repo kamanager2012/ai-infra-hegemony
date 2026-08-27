@@ -1,4 +1,4 @@
-# Volume 12: China–U.S. AI supply-chain competition (three layers of the China stack are not one layer: at home it can at most do phones)
+# Volume 12: China–U.S. AI supply-chain competition (export controls, Huawei Ascend, and asymmetric innovation)
 
 Chinese original: [vol-12.md](vol-12.md)
 

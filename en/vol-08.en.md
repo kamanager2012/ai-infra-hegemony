@@ -1,4 +1,4 @@
-# Volume 8: Buyers cannot cover; prepayments lock the next generation (compute rent, antitrust, and national security)
+# Volume 8: Capital, finance, and the AI infrastructure supercycle (the century’s largest capex cycle and a 4-year depreciation stress test)
 
 Chinese original: [vol-08.md](vol-08.md)
 

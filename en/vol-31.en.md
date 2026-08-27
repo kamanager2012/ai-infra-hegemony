@@ -1,4 +1,4 @@
-# Volume 31: The appendix only grades; the three lines stop in which cell (A/B/C/D)
+# Volume 31: Evidence and data appendix (I) (historical tracking of global semiconductors and compute, and a key-indicator library)
 
 Chinese original: [vol-31.md](vol-31.md)
 

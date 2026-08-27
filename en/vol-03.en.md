@@ -1,4 +1,4 @@
-# Volume 3: Demand multiplies by cabinet. Residual goes to a few dozen phone and PC brands
+# Volume 3: The AI compute siphon (advanced-node and memory capacity crowding out consumer electronics and auto)
 
 Chinese original: [vol-03.md](vol-03.md)
 

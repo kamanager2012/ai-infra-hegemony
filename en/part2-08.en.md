@@ -1,4 +1,4 @@
-# Essay 8: US–China compute competition and endgame switches (the China market cannot save the globe; the endgame table does not enter the facts)
+# Essay 8: US–China compute competition and the 2036 endgame decision tree
 
 Chinese original: [part2-08.md](part2-08.md)
 

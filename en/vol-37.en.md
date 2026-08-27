@@ -1,4 +1,4 @@
-# Volume 37: Four-year depreciation and tokens do not match ($750B cannot be added; the matrix is draft)
+# Volume 37: AI-bubble and risk models (4-year server depreciation, token-price collapse stress tests, and destocking)
 
 Chinese original: [vol-37.md](vol-37.md)
 

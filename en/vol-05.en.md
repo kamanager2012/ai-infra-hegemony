@@ -1,4 +1,4 @@
-# Volume 5: HBM, the memory war, and the AI supply-chain rewrite (Hynix profit, demand times cabinets, residual bits)
+# Volume 5: HBM, the memory war, and the AI supply-chain rewrite (SK Hynix / Micron / Samsung and the 3:1 wafer penalty)
 
 Chinese original: [vol-05.md](vol-05.md)
 

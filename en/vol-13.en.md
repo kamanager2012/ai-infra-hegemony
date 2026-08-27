@@ -1,4 +1,4 @@
-# Volume 13: Power stops the buildout (120 kW is a rack condition; 2,600 GW is a queue, not a gap)
+# Volume 13: The energy war of the AI era (120 kW thermal islands, 5–7 year interconnect queues, and data-center nuclearization)
 
 Chinese original: [vol-13.md](vol-13.md)
 

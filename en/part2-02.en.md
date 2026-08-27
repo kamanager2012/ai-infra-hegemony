@@ -1,4 +1,4 @@
-# Essay 2: Nvidia's hardware–software empire, the NVL72 BOM, and interconnect
+# Essay 2: Core compute monopoly and a deep teardown of Nvidia’s hardware–software empire
 
 Chinese original: [part2-02.md](part2-02.md)
 

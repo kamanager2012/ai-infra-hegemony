@@ -1,4 +1,4 @@
-# Essay 5: Siphon on the real economy and the consumer-electronics chain (phones, auto chips, and robots)
+# Essay 5: The “siphon catastrophe” on the real economy and the consumer-electronics chain
 
 Chinese original: [part2-05.md](part2-05.md)
 

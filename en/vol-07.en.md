@@ -1,4 +1,4 @@
-# Volume 7: The sales unit moves up to the cabinet (a trust is not a verdict)
+# Volume 7: Nvidia’s expansion across industries (from GPU to full systems, DGX Cloud, and a vertical trust)
 
 Chinese original: [vol-07.md](vol-07.md)
 

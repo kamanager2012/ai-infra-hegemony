@@ -1,4 +1,4 @@
-# Essay 7: The capital supercycle, bubble mechanics, and an extreme stress test (4-year depreciation and cash-flow sensitivity)
+# Essay 7: The capital supercycle, bubble mechanics, and an extreme stress test
 
 Chinese original: [part2-07.md](part2-07.md)
 

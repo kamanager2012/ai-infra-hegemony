@@ -1,4 +1,4 @@
-# Volume 17: Three walls and the ledger wall serialize (power exhaustion and safety challenges do not enter the fact layer)
+# Volume 17: Terminal risk analysis (Moore’s-law physics, power exhaustion, capital-bubble clearance, and safety challenges)
 
 Chinese original: [vol-17.md](vol-17.md)
 

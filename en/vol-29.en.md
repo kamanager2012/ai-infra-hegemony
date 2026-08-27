@@ -1,4 +1,4 @@
-# Volume 29: Running is not breaking the lock (HCCS, CANN, DUV, and domestic HBM each hit a different wall)
+# Volume 29: A breakout analysis of China’s AI chain (Ascend 910C, CANN 8.0, SMIC leading edge, and indigenous substitution)
 
 Chinese original: [vol-29.md](vol-29.md)
 

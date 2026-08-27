@@ -1,4 +1,4 @@
-# Volume 11: Antitrust, industrial policy, and the new power structure in the AI era (the regulatory limit when the four corners sit in one legal person)
+# Volume 11: Antitrust, industrial policy, and the new power structure in the AI era (sovereign-AI statutes and the limit of antitrust)
 
 Chinese original: [vol-11.md](vol-11.md)
 

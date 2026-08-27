@@ -1,4 +1,4 @@
-# Volume 36: The seller does not carry four-year depreciation. The buyer does (no sovereign-fund holdings table)
+# Volume 36: AI and global capital markets (supercycle allocation, tech valuation reset, and sovereign-fund entry)
 
 Chinese original: [vol-36.md](vol-36.md)
 

@@ -1,4 +1,4 @@
-# Volume 27: A seat is no longer a sufficient statistic (85→55 has no sample)
+# Volume 27: Software-industry reconstruction in the AI era (seat-license breakup, 85% to 55% margins, and agent-native software)
 
 Chinese original: [vol-27.md](vol-27.md)
 

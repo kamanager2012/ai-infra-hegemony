@@ -1,4 +1,4 @@
-# Volume 9: A shock model for global physical manufacturing and supply chains (first-wave siphon: PCs, general-purpose servers, phones)
+# Volume 9: A shock model for global physical manufacturing and supply chains (the digital-transformation trap and centralized-compute inflation)
 
 Chinese original: [vol-09.md](vol-09.md)
 

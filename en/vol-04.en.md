@@ -1,4 +1,4 @@
-# Volume 4: TSMC, leading-edge manufacturing, and the fight for packaging (the increment is HPC; the scarce slice is past half)
+# Volume 4: TSMC, 2nm, and the fight for leading-edge manufacturing (ASML High-NA EUV and foundry premiums)
 
 Chinese original: [vol-04.md](vol-04.md)
 

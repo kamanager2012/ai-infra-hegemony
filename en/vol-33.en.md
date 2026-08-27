@@ -1,4 +1,4 @@
-# Volume 33: AMD, Intel, Qualcomm, Apple (four firms, not an alliance; each stuck on bid and slots)
+# Volume 33: AMD, Intel, Qualcomm, Apple (counter-paths of the four legacy compute giants and on-device AI)
 
 Chinese original: [vol-33.md](vol-33.md)
 

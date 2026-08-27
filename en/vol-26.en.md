@@ -1,4 +1,4 @@
-# Volume 26: Model firms have two attachments (change the cloud, change the invoice header, not the memory type)
+# Volume 26: Power between model firms and compute platforms (OpenAI, Anthropic, DeepSeek, and dependence on infrastructure)
 
 Chinese original: [vol-26.md](vol-26.md)
 

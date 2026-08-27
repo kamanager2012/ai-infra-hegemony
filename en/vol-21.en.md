@@ -1,4 +1,4 @@
-# Volume 21: Where the money stops in whose margin (no invented input-output table)
+# Volume 21: A data model of the industry (real upstream–downstream cash flows, margin distribution, and profit-pool estimates)
 
 Chinese original: [vol-21.md](vol-21.md)
 

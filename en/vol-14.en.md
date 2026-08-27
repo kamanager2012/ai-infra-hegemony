@@ -1,4 +1,4 @@
-# Volume 14: The winners are the four corners and the makers who follow the floor (SaaS 85→55 has no sample)
+# Volume 14: A map of winners and losers in the AI era (semiconductors, clouds, legacy SaaS, and terminal-hardware profit reallocation)
 
 Chinese original: [vol-14.md](vol-14.md)
 

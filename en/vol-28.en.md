@@ -1,4 +1,4 @@
-# Volume 28: Two thermodynamic regimes (BOM 35/20/25; Thor versus 120 kW)
+# Volume 28: AI and the robot revolution (embodied vehicles, frameless torque motors / reducers / sensors, and edge-compute BOM)
 
 Chinese original: [vol-28.md](vol-28.md)
 

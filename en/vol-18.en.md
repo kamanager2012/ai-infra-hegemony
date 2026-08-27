@@ -1,4 +1,4 @@
-# Volume 18: Which claims can be traced back, and where the pen must stop
+# Volume 18: Research method and a rebuilt analytic frame (from macro strategy to micro engineering evidence)
 
 Chinese original: [vol-18.md](vol-18.md)
 

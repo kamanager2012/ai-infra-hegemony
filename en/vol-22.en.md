@@ -1,4 +1,4 @@
-# Volume 22: What consumer electronics pay is a residual tax (SoC / BOM prices are not promoted to official)
+# Volume 22: A quantitative shock model for consumer electronics (Snapdragon 8 Elite $180–$190 and phone/PC BOM inflation)
 
 Chinese original: [vol-22.md](vol-22.md)
 

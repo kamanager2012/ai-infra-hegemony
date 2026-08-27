@@ -1,4 +1,4 @@
-# Volume 38: Tasks are sliced first. Rent is collected first (no unemployment headcount invented)
+# Volume 38: Labor-market reconstruction in the AI era (cognitive-labor substitution, human–machine division, and new production relations)
 
 Rent and tax: [Volume 8](vol-08.md). This volume has no unemployment rate, no jobs-lost count, no wage percentile. Statistics are zero. Do not invent headcount.
 

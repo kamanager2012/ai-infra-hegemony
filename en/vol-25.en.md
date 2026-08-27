@@ -1,4 +1,4 @@
-# Volume 25: In-house chips still bid inside the scarce slice (Samsung's long contract is Tesla, not the four clouds)
+# Volume 25: Cloud giants and the AI compute war (the four giants’ 2024 $215B capex and the limit of in-house ASICs)
 
 Chinese original: [vol-25.md](vol-25.md)
 

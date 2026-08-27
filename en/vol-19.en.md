@@ -1,4 +1,4 @@
-# Volume 19: The timeline only keeps what already happened and what the draft named (no invented 2036 calendar)
+# Volume 19: A 2026–2036 ten-year timeline forecast (tech nodes, product cycles, and industry milestones)
 
 Chinese original: [vol-19.md](vol-19.md)
 

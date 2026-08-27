@@ -1,4 +1,4 @@
-# Volume 23: Where 3:1 and "new oil" fail (16-Hi has no spec sheet)
+# Volume 23: HBM, memory, and “the new oil of the AI era” (HBM4 16-Hi, the logic base, and memory capex)
 
 Chinese original: [vol-23.md](vol-23.md)
 
