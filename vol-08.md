@@ -22,10 +22,10 @@ Microsoft、Amazon、Alphabet、Meta 的 AI/data-center 投资已经进入历史
 
 | 公司 | 最新公开口径 |
 |---|---:|
-| Microsoft | Calendar 2026 CapEx 约 **$190B** |
-| Alphabet | CapEx guidance **$180–190B** |
-| Meta | CapEx guidance **$125–145B** |
-| Amazon | 截至 2026 Q2，TTM net PPE purchase 约 **$169B** |
+| Microsoft | Calendar-2026 reported CapEx expectation 约 **US$175B**（7/29 lease-classification adjustment 后；underlying investment expectation unchanged） |
+| Alphabet | Q2 earnings-call CapEx guidance **US$195–205B** |
+| Meta | Q2 CapEx guidance **US$130–145B**（含 finance-lease principal） |
+| Amazon | 截至 2026-06-30，TTM PPE net purchases actual **US$169.007B** |
 
 这些数字的时间窗与会计科目不同，因此仅用于观察资本扩张方向，不作机械加总。
 
