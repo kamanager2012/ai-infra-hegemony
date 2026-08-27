@@ -90,7 +90,7 @@ TSMC publishes no CoWoS monthly capacity, no official full-year wafer count, no 
 
 The judgment listed five lines that would break it. The West actually bundles: prepayments large enough that the foundry cannot recognize only one buyer; software bound into one stack; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Cloud ASICs take training off the cabinet, not just shunt inference. Power stops the buildout. The East stands up a second bid. A structural split or a forced-open CUDA. None of the five is done.
 
-What is done: supply commitments to $119.0B; inquiries exist, complaints do not; France is near the end and has not issued a statement of objections; the EU sent questionnaires, cleared Run:ai unconditionally, and has no 101/102 opening. Fail them and the line walks past half of the scarce slice. The window is the few years before the next first-to-market node is locked by commitments. After that, a second name that bundles is still asking for residual. Booked first customer 19% is not a safe distance. Occupy the increment and next year's slots belong to the first name.
+Current observable facts include supply commitments of $119.0B at FY27 Q1 and regulatory processes that had not yet produced broad structural remedies. The strategic window lies before next-generation capacity is heavily committed. A 19% historical customer revenue share is not a forward allocation guarantee; what matters is whether regulatory or competitive changes materially reduce switching cost or alter incremental resource access.
 
 China's stack is in [Volume 12](vol-12.en.md). U.S. antitrust cannot save Huawei. What it splits is domestic tying, not opening 2nm for SMIC.
 
