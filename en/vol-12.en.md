@@ -48,7 +48,7 @@ LPDDR at two thirds of main business is what the phone layer looks like on a dom
 
 ### 3.3 The PC layer: neither the rules nor the residual sit in a domestic closed loop
 
-The PC layer has two walls. The first is rules: Windows, x86, CUDA workstations, discrete-GPU drivers, and professional-software certification do not sit in a referee stood up at home. CANN faces training and inference frameworks, not the desktop ecology. The second is residual: after makers move wafers from conventional DRAM toward HBM, DDR5 sticks and consumer SSDs are what is left. TrendForce writes 51% of 2026 DRAM bits as HBM+RDIMM. RDIMM is already inside the half that "goes to cabinets," not a consumer stick. The leftover, under half the bits, is split among phones, PCs, consumer, and other non-RDIMM. Huaqiangbei talk only proves consumer sticks are already absorbing the residual-capacity cost.
+The PC layer has two constraints. The first is ecosystem compatibility: Windows, x86, CUDA workstations, discrete-GPU drivers, and professional-software certification are not automatically reproduced by a domestic accelerator/runtime stack. CANN faces training and inference frameworks, not the desktop ecology. The second is residual: after makers move wafers from conventional DRAM toward HBM, DDR5 sticks and consumer SSDs are what is left. TrendForce writes 51% of 2026 DRAM bits as HBM+RDIMM. RDIMM is already inside the half that "goes to cabinets," not a consumer stick. The leftover, under half the bits, is split among phones, PCs, consumer, and other non-RDIMM. Huaqiangbei talk only proves consumer sticks are already absorbing the residual-capacity cost.
 
 Domestic shops can ship notebooks. They can ship industry machines with a domestic CPU and a domestic OS. That is industry and Xinchuang, not the global PC layer. The increment on the global PC layer has already been squeezed by the supply-allocation layer onto a node down and a die down. Game cards received the official "supply limited." That is the leading system vendor admitting the yield. It is harder than any launch of a domestic desktop stack. This volume does not write "domestic notebook shipments" as a closed loop on the PC layer.
 
@@ -98,7 +98,7 @@ However large China is, it is one regional bid. Cabinets, HBM, CoWoS, and CUDA s
 
 The substitutable radius of controlled items also differs. A whole GPU card, HBM dies, an EUV scanner, and some EDA modules have a very small radius. Server boards, ordinary optics, cooling towers, cement, and transformers have a large radius. The premise on which the Ascend path can unfold is routing around or down-speccing the small-radius links with systems and algorithms, not pretending the radius has already grown. HCCS is domesticating interconnect on a small radius (the bandwidth number unchecked). CANN is compatibility on the software radius (rewrite volume unchecked). DeepSeek is cutting the use of small-radius hardware on the algorithm radius. The three together are what earlier unverified material title's "breakout" is made of. Taking any one of them as a full win goes past the evidence.
 
-## 4. Analysis addendum (scenarios, the other side, testable markers)
+## 4. Scenarios, counterarguments, and testable markers
 
 Push forward from the numbers now on the table. Do not give new probabilities. earlier unverified material's dual-track 15% is uncalibrated. Do not reuse it.
 
@@ -176,7 +176,7 @@ So none of the five is "make the China phone layer larger." A larger phone layer
 
 ## 10. Back to the main line
 
-the leading system vendor sells cabinets. the supply-allocation layer schedules CoWoS and HBM. the software/runtime layer uses CUDA and a cabinet standard to lock the cabinet into a unit that cannot be taken apart. What the China stack has to interrupt is this whole set, not only the import of one card. Of the three forks, this one has not yet closed. Winning is not defined as "there is a domestic accelerator brand at home." It is "the other athlete and the other referee have cut switching costs enough that firms will move training off CUDA, and domestic HBM and advanced packaging are no longer only under attack."
+The leading platform combines rack-scale systems, software/runtime interfaces, HBM, advanced packaging, and interconnect. A China frontier-AI parallel stack therefore has to close across the full system, not merely produce a domestic accelerator. The relevant test is whether migration costs fall enough for material training workloads to move while domestic HBM-class memory and advanced packaging reach sufficient scale.
 
 What can enter the fact layer today is the structure left after the layers are split. China has a stronger parallel-supply position in smartphones and parts of consumer computing than in frontier workstations or AI-training systems. CXMT publicly sells DDR/LPDDR rather than an HBM line; YMTC is a NAND supplier; SMIC's foundry share is not evidence of equivalent frontier-node capacity. TSMC's 2025 mix was 58% HPC and 29% smartphones; TrendForce puts HBM+RDIMM at about 51% of 2026 DRAM bits. Administrative controls can protect the domestic layers that already exist, but **frontier AI substitution still depends on advanced logic, HBM-class memory, advanced packaging, interconnect, and software closing together at scale.**
 
