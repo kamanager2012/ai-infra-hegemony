@@ -1,18 +1,18 @@
 # Volume 33: AMD, Intel, Qualcomm, Apple (counter-paths of the four legacy compute giants and on-device AI)
 
-Chinese original: [vol-33.md](vol-33.md)
+Chinese original: [vol-33.md](vol-33.en.md)
 
-A margin monopoly, supply commitments, and the FY26 base: see [Volume 1](vol-01.md) and the master verdict. This volume does not recopy that table. It only writes which slice of bid and slots each of the four is stuck on, and why they are not an alliance.
+Scarce-layer value capture, supply commitments, and the current financial base: see [Volume 1](vol-01.en.md) and the master verdict. This volume does not recopy that table. It only writes which slice of bid and slots each of the four is stuck on, and why they are not an alliance.
 
 ## 1. The question this volume answers
 
-Are the four traditional compute majors in the title still there? Yes. Have they formed an alliance to counter NVIDIA? No. The draft has no alliance agreement either. This volume changes the question: under a margin monopoly, not a share monopoly, is each of the four a buyer or a seller, who can wait and who cannot, and can an antitrust inquiry give them a shortcut.
+Are the four traditional compute majors in the title still there? Yes. Have they formed an alliance to counter NVIDIA? No. The draft has no alliance agreement either. This volume changes the question: under a scarce-layer value-capture regime rather than a simple share-monopoly model, is each of the four a buyer or a seller, who can wait and who cannot, and can an antitrust inquiry give them a shortcut.
 
 Who can wait: clouds, NVIDIA, the memory makers, sovereigns. Who cannot: PCs, mid- and low-end phones, security cameras, the channel. Among the four, Apple sits closer to those who can wait. Qualcomm's flagship can wait a while. White-box and security are not in this volume's title, yet they are the first to lose the line. Writing "the four compute majors" as siphon victims is the wrong layer.
 
-## 2. The checked base: a margin monopoly, prepayments still rising
+## 2. The checked base: strong seller-side cash flow and capacity-reservation power
 
-Profit, cash, and supply commitments: see [Volume 1](vol-01.md). This volume does not recopy the table. Among the four traditional majors, none has published a prepaid manufacturing and capacity total of the same order. That is not a brand gap. It is a bid gap.
+Profit, cash, and supply commitments: see [Volume 1](vol-01.en.md). This volume does not recopy the table. Among the four traditional majors, none has published a prepaid manufacturing and capacity total of the same order. That is not a brand gap. It is a bid gap.
 
 ## 3. Where each of the four is stuck is not one counter-path
 
@@ -44,27 +44,27 @@ Apple can wait, because the device loop and the cash flow do not turn over on a 
 
 ## 4. Antitrust is not a shortcut
 
-The docket: see [Volume 11](vol-11.md) and [Volume 31](vol-31.md). If the four are counting on regulators to hand them the right to define the training cabinet, the public record does not match. Inquiries exist. Complaints do not. None of the four has received an official packaging quota or a CUDA interface because of an inquiry. Writing "regulators are about to open the market" as the four's counter-attack timetable exceeds the public record.
+The docket: see [Volume 11](vol-11.en.md) and [Volume 31](vol-31.en.md). If the four are counting on regulators to hand them the right to define the training cabinet, the public record does not match. Inquiries exist. Complaints do not. None of the four has received an official packaging quota or a CUDA interface because of an inquiry. Writing "regulators are about to open the market" as the four's counter-attack timetable exceeds the public record.
 
 ## 5. National-security files exist. "Therefore do not split" does not
 
-National-security files: see [Volume 8](vol-08.md) and [Volume 11](vol-11.md). The four cannot read a national-security memorandum as "regulators will not touch the athlete," and they cannot read it as "regulators will certainly protect the athlete." Neither "therefore" is in the source text.
+National-security files: see [Volume 8](vol-08.en.md) and [Volume 11](vol-11.en.md). The four cannot read a national-security memorandum as "regulators will not touch the athlete," and they cannot read it as "regulators will certainly protect the athlete." Neither "therefore" is in the source text.
 
 ## 6. A fifth party: cloud ASICs, a fork that has not won
 
-Specs: see [Volume 4](vol-04.md). The Samsung long is Tesla: see [Volume 25](vol-25.md). TPU, Trainium, Maia, and MTIA are not in this volume's title, yet they will eat the internal-inference slice AMD is most likely to take. Cloud ASICs hit the athlete's die. They do not hit the referee. The products exist. This pass has no official training-share split. They have not won. Do not write "the counter-attack is about to succeed." Do not write "they can only be wiped out."
+Specs: see [Volume 4](vol-04.en.md). The Samsung long is Tesla: see [Volume 25](vol-25.en.md). TPU, Trainium, Maia, and MTIA are not in this volume's title, yet they will eat the internal-inference slice AMD is most likely to take. Cloud ASICs hit the athlete's die. They do not hit the referee. The products exist. This pass has no official training-share split. They have not won. Do not write "the counter-attack is about to succeed." Do not write "they can only be wiped out."
 
 ## 7. Cut system OEM from consumer notebooks. Sony is not Microsoft
 
 On the AI-cabinet slice, OEMs shipping DGX-class / certified systems is already happening. Consumer notebooks becoming "assembled to NVIDIA drawings" is not done, and there is no shipment proof. Dell, Lenovo, ASUS, MSI, and HP becoming system ODMs is an extension of the cabinet logic that has already happened, not a fact already delivered on consumer notebooks. The wafer foundry is still TSMC. PC brands do not become fabs.
 
-Sony thinning into a software game brand is plausible. Microsoft will not. Microsoft's cloud slice: see [Volume 8](vol-08.md). Xbox can thin. Azure will not. None of the four is a cloud. Writing their end state as "all become losers under NVIDIA" is too full. The rivals are still here today. There is no official "already wiped out" data on CPUs, phone SoCs, or x86 attach. Do not write who exits in which year.
+Sony thinning into a software game brand is plausible. Microsoft will not. Microsoft's cloud slice: see [Volume 8](vol-08.en.md). Xbox can thin. Azure will not. None of the four is a cloud. Writing their end state as "all become losers under NVIDIA" is too full. The rivals are still here today. There is no official "already wiped out" data on CPUs, phone SoCs, or x86 attach. Do not write who exits in which year.
 
-Game-card supply yields: see [Volume 2](vol-02.md) and [Volume 32](vol-32.md). That is not about the four counter-attacking. It does decide that their downstream is squeezed first. The first wave squeezes PCs, commercial PCs, general-purpose servers, phones, plus security and the channel. It does not squeeze Apple first.
+Game-card supply yields: see [Volume 2](vol-02.en.md) and [Volume 32](vol-32.en.md). That is not about the four counter-attacking. It does decide that their downstream is squeezed first. The first wave squeezes PCs, commercial PCs, general-purpose servers, phones, plus security and the channel. It does not squeeze Apple first.
 
 ## 8. Compute rent and the four clouds: the four do not match that mixed-year table
 
-Rent and four-cloud scope: see [Volume 8](vol-08.md). None of the four is a main payer of that rent. This pass did not open the latest 10-K capex lines for the four traditional majors file by file. Do not pass mixed-year cloud spend off as their "counter-attack budget."
+Rent and four-cloud scope: see [Volume 8](vol-08.en.md). None of the four is a main payer of that rent. This pass did not open the latest 10-K capex lines for the four traditional majors file by file. Do not pass mixed-year cloud spend off as their "counter-attack budget."
 
 ## 9. Who can wait, who cannot
 
@@ -72,7 +72,7 @@ The clock that can wait is years and a decade. Intelligent Cloud is still growin
 
 Among the four: Apple can wait; Qualcomm's flagship can wait a while; AMD can wait at the inference-cabinet door and still has not taken the right to define the training cabinet; Intel's foundry clock is longer, and as long as accelerators are still in the filing they have not been wiped out. Downstream mid- and low-end phones, channel PCs, and security modules have no $119.0B-class supply commitment. The queue does not reach them. This pass has no security or channel shipment stats. The mechanism can be written. Do not invent a name list.
 
-The five interrupts: see [Volume 8](vol-08.md). The docket: see [Volume 11](vol-11.md).
+The five interrupts: see [Volume 8](vol-08.en.md). The docket: see [Volume 11](vol-11.en.md).
 
 ## 10. Testable markers and gaps
 
@@ -84,23 +84,23 @@ This volume does not write the four as a counter-alliance about to succeed, and 
 
 ## 11. Three income statements compared: the share era, the scarce slice, and what the cloud's money is for
 
-Profit and cash: see [Volume 1](vol-01.md). Maker-side won: see [Volume 5](vol-05.md). What shows where the four are stuck better than "the four counter-attack" is the lines already nailed on three tables: the share era watched who shipped more; today watches who can outbid cabinet gross margin. If the four treat "NVIDIA's one-quarter net income" as a number they must chase, they will chase the wrong line. Bidding for capacity looks at operating income, not net income. This pass did not open the four's latest full gross margins file by file. Mechanically they do not sell this cabinet. Comparing sticker prices is meaningless.
+Profit and cash: see [Volume 1](vol-01.en.md). Maker-side won: see [Volume 5](vol-05.en.md). What shows where the four are stuck better than "the four counter-attack" is the lines already nailed on three tables: the share era watched who shipped more; today watches who can outbid cabinet gross margin. If the four treat "NVIDIA's one-quarter net income" as a number they must chase, they will chase the wrong line. Bidding for capacity looks at operating income, not net income. This pass did not open the four's latest full gross margins file by file. Mechanically they do not sell this cabinet. Comparing sticker prices is meaningless.
 
 ## 12. How prepayments change the slot, and why a neutrality pledge has no consideration
 
-Supply commitments: see [Volume 1](vol-01.md). TSMC's books: see [Volume 4](vol-04.md). Among the four traditional majors, nothing public matches a supply commitment of the same order. This pass found none. AMD expanding Instinct and Intel expanding accelerators both squeeze the same increment. Qualcomm protecting the flagship is in the same fab. The four are quota rivals to one another, not allies. A neutrality pledge has no consideration in front of a check.
+Supply commitments: see [Volume 1](vol-01.en.md). TSMC's books: see [Volume 4](vol-04.en.md). Among the four traditional majors, nothing public matches a supply commitment of the same order. This pass found none. AMD expanding Instinct and Intel expanding accelerators both squeeze the same increment. Qualcomm protecting the flagship is in the same fab. The four are quota rivals to one another, not allies. A neutrality pledge has no consideration in front of a check.
 
 ## 13. Inquiry timeline: how far it can be written, and what cannot be written as already happened
 
-The timeline: see [Volume 31](vol-31.md). If a "regulatory window" for the four exists, it still stops at inquiry, not at a judgment.
+The timeline: see [Volume 31](vol-31.en.md). If a "regulatory window" for the four exists, it still stops at inquiry, not at a judgment.
 
 ## 14. Why cloud-ASIC specs return to the same scarce slice
 
-Specs: see [Volume 4](vol-04.md). If the four pin their hopes on cloud in-house silicon opening the training-cabinet market, public specs walk the other way. What is most likely to squeeze AMD is this internal-inference slice, not a lift from "the alliance of four."
+Specs: see [Volume 4](vol-04.en.md). If the four pin their hopes on cloud in-house silicon opening the training-cabinet market, public specs walk the other way. What is most likely to squeeze AMD is this internal-inference slice, not a lift from "the alliance of four."
 
 ## 15. How the first siphon lands on the four's downstream
 
-Game-card supply yields: see [Volume 2](vol-02.md). The first wave does not squeeze Apple. It squeezes PCs, commercial PCs, general-purpose servers, phones, plus security and the channel. Security, the channel, and white-box have no four-cloud mixed-year spend, and even less a supply-commitment prepayment. The queue does not reach them. This pass has no security or channel shipment stats. Do not name who dies.
+Game-card supply yields: see [Volume 2](vol-02.en.md). The first wave does not squeeze Apple. It squeezes PCs, commercial PCs, general-purpose servers, phones, plus security and the channel. Security, the channel, and white-box have no four-cloud mixed-year spend, and even less a supply-commitment prepayment. The queue does not reach them. This pass has no security or channel shipment stats. Do not name who dies.
 
 Servers have to be split: AI cabinets are swelling. There is no "shipments already wiped out" series for general-purpose servers. CPU down-binning can be written. Wipe-out cannot. Grace shows they also do not want to leave the CPU to a rival. Console APUs, phone SoCs, and x86 attach are all still there. Dells shipping certified systems is a cabinet slice that has already happened. Consumer notebooks assembled to drawings is not done. The wafer foundry is still TSMC.
 
@@ -108,6 +108,6 @@ The four sit in different places on this siphon. Apple's device loop can keep ev
 
 ## 16. The application layer is squeezed. The rent sits on the cabinet
 
-The revenue bulk is still on cabinets: see [Volume 1](vol-01.md). Among the four traditional majors, none takes the cabinet rent by "also training models."
+The revenue bulk is still on cabinets: see [Volume 1](vol-01.en.md). Among the four traditional majors, none takes the cabinet rent by "also training models."
 
 If the four still plan a decade as a "joint counter-attack," they will spend the window bidding against one another for material. This volume leaves only these sentences: the four are still there, and they are not an alliance; prepayments are still rising, and the split is not disclosed; inquiries exist, complaints do not; system OEM has happened only on cabinets, not on consumer notebooks; Sony can thin, Microsoft Azure will not; the first wave squeezes the downstream that cannot wait.
