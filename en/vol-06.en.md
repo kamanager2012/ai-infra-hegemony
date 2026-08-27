@@ -1,99 +1,140 @@
 # Volume 06: Model-Company Unit Economics, Algorithmic Efficiency, and Open-Source Competition
 
-Chinese original: [vol-06.md](vol-06.en.md)
-
-Cloud ASIC specs: [Volume 4](vol-04.en.md). The two attachments of model firms: [Volume 26](vol-26.en.md). This volume does not reopen a spec table. It only writes this: MLA and a million-dollar training bill change the HBM demand function. They do not cancel the cabinet, and they are not a commercialization dead end.
+Chinese original: [vol-06.md](../vol-06.md)
 
 ## 1. Core question
 
-How do algorithmic efficiency, open weights, cloud system stacks, and infrastructure cost change the bargaining power and unit economics of model companies?
+How do algorithmic efficiency, open weights, falling inference prices, and cloud custom silicon change model-company economics without eliminating the physical infrastructure stack underneath them?
 
-Model companies do not control every physical layer of the stack, but by 2026 they are no longer merely thin API tenants either. Long-duration commitments such as Stargate and Anthropic/AWS show that frontier labs can become **Anchor Compute Buyers**. At the same time, open-source and algorithmic efficiency can reduce compute required per delivered capability and compress API pricing.
+This volume separates three questions that older versions mixed together:
 
-The relevant question is therefore not “open source kills model companies” or “only the most expensive rack can produce intelligence.” It is whether a model company can convert capability into durable workflow revenue while controlling enough of its compute, migration, and infrastructure economics.
-## 2. Official and institutional sources
+1. **Training efficiency:** how much compute is required to reach a given capability level?
+2. **Inference unit economics:** what does each useful unit of output cost after model inference, retrieval/storage, tools/APIs, human review, and cloud infrastructure?
+3. **Infrastructure dependence:** even if model efficiency improves, which workloads still depend on advanced logic, HBM, packaging, interconnect, racks, and power?
 
-### 2.1 Roofline, MLA, and DeepSeek: what current evidence supports
+The answer is not “open source kills the model business,” and it is not “better algorithms cancel infrastructure.” Efficiency changes the demand function; it does not automatically remove the underlying system constraints.
 
-DeepSeek-V3 provides a first-party anchor of **671B total parameters**, **37B activated parameters**, **14.8T pretraining tokens**, and **2.788M H800 GPU-hours** for formal training. The report-side rental conversion at $2/GPU-hour is approximately **$5.576M**, explicitly excluding prior research and ablations.
+## 2. Evidence anchors
 
-DeepSeek-V2 separately reports a **93.3% KV-cache reduction** and up to **5.76×** peak generation throughput versus its stated baseline. Those V2 figures must not be mixed into V3 as if they were the same experiment.
+### 2.1 DeepSeek-V3: formal training compute is an important counterexample to simple cost extrapolation
 
-The durable mechanism is that low-rank attention, MoE, routing, caching, and systems optimization can materially change compute and memory demand per useful workload. They do not eliminate HBM, interconnect, packaging, or power constraints.
-### 2.2 Four-cloud ASICs, capex, profit, and the TSMC increment
+DeepSeek-V3 reports **671B total parameters**, **37B activated parameters per token**, and **2.788M H800 GPU-hours** for formal training. The technical report converts that formal-training compute at $2 per H800 GPU-hour to approximately **$5.576M**.
 
-Specs: [Volume 4](vol-04.en.md). Four-cloud capex scope: [四云Capex口径核对](四云Capex口径核对.md). Profit and prepayments: [Volume 1](vol-01.en.md). Booked 19%: [Volume 4](vol-04.en.md). This volume does not reopen them. No cloud was found saying it is going back to 5nm plus commodity DDR5 as the inference mainstay.
+Source: DeepSeek-V3 Technical Report, https://arxiv.org/abs/2412.19437
 
-## 3. Push the mechanism forward
+The scope matters. This number is not the complete economic cost of building DeepSeek-V3. It excludes prior research, architecture exploration, ablations, data work, failed experiments, organizational cost, and the ongoing cost of serving the model. It therefore supports a narrower conclusion: **algorithm/system co-design can materially reduce the formal training-compute bill relative to naive frontier-cost extrapolations.**
 
-### 3.1 Open source thins the API premium, not the cabinet
+### 2.2 Multi-head latent attention changes the memory-demand function
 
-Hypothesis from here, not a veto. DeepSeek's technical-report evidence weakens the assumption that frontier capability necessarily requires the same compute budget structure across all model architectures. Once weights are open, inference price is competed down toward the clouds' marginal power and depreciation. If model firms keep collecting software-grade margin by seat or by token, they hit the introduction's 85% to 55%: the real cost structure is already four-year server depreciation, not the near-zero marginal cost of copying software.
+DeepSeek's multi-head latent attention compresses the key/value representation used during autoregressive inference. The strategic implication is not a fixed universal “93.3% saving” for every model and context. The durable mechanism is that reducing KV-cache footprint can increase concurrency and lower memory traffic per served token.
 
-Physically, the commercial bind comes from roofline. Whoever compresses per-token KV from 8192 to 512 releases nearly 10× concurrency on the same HBM. The 72-card cabinet's 130 TB/s backplane is still worth money, but the way it is worth money changes from "it has to be this large to hold the context" to "the same context can serve more sessions." HBM still eats more wafers than commodity bits. The model layer is changing the HBM demand function. Changing the demand function is not cancelling the supply constraint. Concurrency goes up, token unit price goes down, cabinets are still bought. Only the recovery function changes.
+That matters because autoregressive decoding is often constrained by memory movement and bandwidth rather than only by peak arithmetic throughput. Better attention architecture can therefore lower the HBM required per unit of useful inference without making HBM, interconnect, or accelerator systems irrelevant.
 
-Commercially, open source splits "can afford to train" from "can sell dear." $5.576 million and 2.788 million GPU-hours (historical stress-test values) hit the entry ticket, not full cost. Data, alignment, inference inventory, failed experiments: historical stress-test material does not write them. Even if full cost is still tens of millions of dollars, that does not deny the bracket "entry is no longer hundreds of millions." The old closed-API method held premium with parameter count and eval scores. Open source put total parameters, active parameters, and the training bill on the same technical report. That takes the right to define "good enough" out of the lab budget's hands.
+### 2.3 Cloud custom silicon is now a system-stack competition
 
-The clouds sit in a tighter twist. They are the model firms' landlord, competitors with in-house models, and they still have to prove on TPUs, Trainium, and Maia that they can buy less NVIDIA. The closer depreciation gets to historical stress-test material's annualized $45B to $55B (unverified), the harder the top-layer premium covers the landlord's capex, and the more model firms look like "independent software that raises cloud utilization." The only live path is embedding the model in a workflow: customers buy the result, not the token. The dead-end condition is equally clear: if volume stalls and unit price falls again, a pure API is not a business that can hold software-grade margin. This volume does not pick a branch.
+Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA show that hyperscalers are no longer competing only with isolated custom chips. They are building combinations of accelerators, interconnect, compiler/runtime software, racks or pods, internal workloads, and data-center infrastructure.
 
-The other face of the open-source game is ecosystem lock. Open weights do not automatically lift a unified compute architecture, intermediate ISA, or high-speed-interconnect semantics. An open model that nearly 10×es concurrency on an 8-GPU server may still only run that 10× to the full inside NVIDIA's unified-memory story. So the "dimensionality cut" hits closed-API price. It does not necessarily hit the cabinet's software premium. What would hit model and system at once is an implementation that both compresses KV and reproduces the 93.3% gain on TPU, Trainium, and Ascend. The sources give no such cross-hardware control. This volume does not invent one.
+This creates **Cloud System-Stack Substitution**: internal workloads can move away from NVIDIA where the cloud can control the full deployment path. The key empirical questions are how much training and inference actually migrate, what software-migration cost remains, and whether the alternative stack still competes for the same advanced logic, HBM, advanced packaging, and power.
 
-### 3.2 Cloud ASICs have not dodged the scarce slice
+## 3. Mechanism
 
-Specs: the opening pointer and [Volume 25](vol-25.en.md). This volume does not reopen them. To beat today's cabinet you return to 3nm, HBM, and advanced packaging. Only a real retreat to 5nm with less packaging dodges the scarce slice. Public next-gen parts have not stopped. If they do not stop, ASICs still bid the same slice against NVIDIA. Of the five interrupts, "cloud ASICs take training off the cabinet" is now taking some inference, not the training cabinet.
+### 3.1 Open weights compress model-layer scarcity faster than physical scarcity
 
-### 3.3 Model and deployment products can extend platform power without a separately disclosed profit pool
+Open weights make capability easier to reproduce and compare. When a strong model can be trained with materially lower formal compute and then deployed across multiple providers, the model layer loses some of the scarcity that supported high per-token premiums.
 
-The deepening rewrite of Volume 6: DeepSeek only proves open source can thin the API. NVIDIA as model/deployment extension is written as a conflict structure, not a second profit pool. The China stack survives on people who cannot buy, not on cheapness punching through a unified compute architecture.
+But open weights do not automatically reproduce accelerator supply, HBM capacity, advanced packaging, scale-up / scale-out networking, power and grid connection, optimized compiler/runtime ecosystems, or high-utilization production operations.
 
-The conflict structure is this. The system platform sells cabinets. The software/runtime layer sets the interface. The roadmap and supply-coordination layer sets the mix. The model/deployment extension ships weights and deploy microservices. Once the platform-control layers are welded, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain, and whether models inside that domain can be pulled up with official microservices. Once inside the domain, the next generation is bought inside the same domain. Open weights can run outside the domain, but running nearly 10× concurrency to the full often still returns to unified memory and official kernels. If a model firm only sells weights, it sells the layer that can be copied open. NVIDIA sells the domain that cannot be opened.
+The economic consequence is a separation between **model scarcity** and **infrastructure scarcity**. The first can fall quickly; the second may remain constrained.
 
-That the revenue bulk is still on cabinets can already be confirm. R&D $18,497M is group-wide. The main line has that row. There is no model-software split. This volume does not invent inference-microservice ARR. If no split is found, leave it empty.
+### 3.2 AI software must be evaluated with AI Software Unit Economics
 
-The model firm's dead end is not "the model is not good enough." It is that cost structure and price structure no longer belong to the same class of good. Software-era 85% margin assumes the marginal cost of copying a weight is near zero. In the AI-infrastructure era the cost is a cabinet depreciated over four years, rack-scale power, and group-wide capex already written on the clouds' books. Once API unit price is beaten by open inference down toward marginal power, model firms must remanufacture scarcity with product form, or they go from software companies to cloud channels. The introduction writes this as margin 85% to 55%. This volume reads it as: seat-license software is being replaced by "intelligence that carries depreciation." Whether the replacement is done waits on a same-scope filing, not a demo.
+Traditional SaaS intuition is insufficient because AI-native products carry material variable and semi-variable compute cost.
 
-Put model firms back in the three layers of power and the seat is set. The bottleneck layer takes 60% to 75% gross margin (historical stress-test values, matching the main line's seller 49% to 59.9% and cabinet-seller 71% to 75%). The cloud layer takes the landlord right that matches mixed-year group-wide capex of $211.9B to $213.9B. The model layer controls neither wafers nor power. It controls weights that can be copied open. Multi-head latent attention and $5.576 million (historical stress-test values) cut the cost of "copy" again. The model layer's bargaining room is therefore narrower than the 2023 story, not wider. To widen it, it has to change from a weight seller to a workflow seller, so the customer stops production if it leaves the model. Draft Volume 6 gives no revenue evidence that any firm has already finished that rewrite.
+```text
+AI_Gross_Margin
+=
+(Revenue
+- Model_Inference_Cost
+- Retrieval_Storage_Cost
+- Tool_API_Cost
+- Human_Review_Cost
+- AI_Specific_Cloud_Cost)
+/ Revenue
+```
 
-### 3.4 Lower price alone does not eliminate system-stack switching costs
+The correct question is not whether AI software “should” have an 85% or 55% gross margin. Those fixed endpoints are not industry facts. The variables that matter include revenue per user or completed outcome, calls/tokens per user, agent-loop depth, routing/batching/caching/quantization, accelerator/cloud price, human-review and tool/API cost, and private-infrastructure utilization.
 
-Cheapness alone is not enough. A unified compute architecture is a ten-year developer stack. UXL and oneAPI have people on stage. That is digging, not already through. A 75% pad means it can also cut price. Hardware can be cheaper. The switching tax remains. Open models beat API price down. The switching tax is still due: kernels, compilers, communication primitives, the in-cabinet domain. The China stack survives on people who cannot buy NVIDIA, not on cheapness punching through a unified compute architecture. A high-price peer only lets Huawei join the high-price bid. Domestic clouds switch stacks only under cutoff and policy. Both sides are expensive.
+A lower percentage gross margin can still produce a larger absolute profit pool if AI expands ARPU, usage, or addressable market. Conversely, rapid token-price decline can destroy a model company's economics if usage and product value do not rise fast enough.
 
-Geopolitically, DeepSeek running this set of historical stress-test values on post-export-control silicon is a demonstration: the locked side can trade structure and scheduling for a hardware generation gap. That does not cancel the 72-card cabinet's system premium. It does rewrite the story that "only an unrestricted top card can ship a frontier model." Control then moves from "forbid compute" to "forbid the highest-bandwidth system." The model-layer open-source game becomes a gauge of control. What it measures: can a notch-down of hardware plus algorithm approach the frontier. What it approaches is API-layer "good enough," not the system-layer domain.
+### 3.3 Owning infrastructure changes the accounting form, not the physical cost
 
-Three layers are not one layer. The phone layer eats LPDDR and consumer bits. The PC layer eats DDR sticks. The AI layer eats HBM, server DIMMs, advanced packaging, and the high-speed domain. An open-source training bill is the model layer cutting the API layer down a dimension. It is not a rewrite of the AI-layer supply function. Matching a domestic open model to global cabinet allocation is the wrong layer.
+A model company that rents APIs records an external service cost. A cloud or vertically integrated model company can convert part of that cost into depreciation, power, operations, and capital commitments. The physical resources do not disappear; their accounting location changes.
 
-### 3.5 China's parallel stack is driven by access constraints, domestic demand, and system capability
+This is why hyperscaler CapEx and model-company economics must not be collapsed into one line. The clouds can absorb infrastructure depreciation across many workloads, while an independent model company must create enough product value to cover the compute it consumes.
 
-Three layers: [Volume 12](vol-12.en.md). This volume does not reopen a prospectus. Open weights can run on parallel stacks and reduce dependence on one API vendor, but frontier training substitution still depends on hardware, memory, packaging, interconnect, software maturity, and deployment scale. Open source thins the closed API. Domestic substitution stands up a parallel bid. Stacked together, the two still do not break the North American cloud plus unified compute architecture plus advanced packaging plus HBM weld.
+### 3.4 Anchor Compute Buyers change the financing side of the model business
 
-### 3.6 Bundling still misses three checks. The model layer will be picked off
+By 2026, model companies are also becoming infrastructure anchor customers.
 
-The three checks and five interrupts: [Volume 8](vol-08.en.md). What the model layer can supply is the second check: bind weights, compilers, and communication into one stack that can change base. That check is still an embryo. Open weights are embryo material, not a base already dug through. For model firms, the closest of the five are the second and the fifth. The second is not done: public next-gen ASICs are still on HBM and leading-edge nodes. The fifth is not done: there is no case forcing the interface open. So model firms still face this: the API is thinned by open source, the base is not forced open, and the landlord has stepped onto the field.
+OpenAI's Stargate program targets **$500B / 10 GW** over the long run, with more than **5 GW** publicly described as under development after the Oracle expansion. Anthropic and AWS announced more than **$100B** of AWS technology spending over ten years and reservation of up to **5 GW**.
 
-## 4. Scenarios, counters, and testable markers
+These commitments do not mean all capacity is already energized or utilized. They do show that the model layer can influence the financing and construction of cloud, chip, data-center, and power capacity.
 
-Main scenario (analysis add): from 2026 to 2028 the model market splits into three layers. The bottom is open weights plus self-built or rented inference, price near power and depreciation. The middle is clouds mixing ASICs and GPUs and selling them as tokens. The top is a few closed firms collecting premium on product form (deep research, agent workflows, compliance isolation), not on parameter count. The closer depreciation gets to historical stress-test material's annualized $45B to $55B (unverified), the harder the top-layer premium covers the landlord's capex. Model firms look more like independent software that raises cloud utilization.
+```text
+long-duration model demand
+→ greater infrastructure-financing certainty
+→ earlier cloud / data-center / power construction
+→ more stable chip and memory orders
+→ priority access to capacity
+→ larger training and inference scale
+→ future demand commitments
+```
 
-Counter 1: closed firms still hold assets that cannot be opened — data, tool use, product distribution — so API margin need not follow training cost. Counter 2: $5.576 million covers pretraining only; true full cost is still tens of millions of dollars; the moat remains. Counter 3: agent workflows pull token burn up, so even if unit price falls year on year, clouds can still recover group-wide capex on volume. historical stress-test material sensitivity table has a column with call volume +300% and unit price down 50% a year that still writes a $15B return. That column is a scenario, not a realized result. Counter 4: if 93.3% does not reproduce on long context and multimodal, the memory-bandwidth bound returns to the old seat and the HBM demand function is not rewritten. Counter 5: if the next official cloud-ASIC note truly writes 5nm plus commodity DRAM as the inference mainstay, the main line's fifth clause "have not stopped" has to be rewritten. the current evidence review found no such sentence.
+This is a two-way dependency. Infrastructure platforms own heavy assets and physical capacity; model companies provide high-value demand and utilization.
 
-Testable markers. Do public technical reports still write this set: 671 billion, 37 billion, 2.788 million GPU-hours, $5.576 million. Do cloud token quotes show historical stress-test material's implied 30% to 50% year-on-year drop. Is there one same-scope case of software-as-a-service margin from 85% to 55%. Is there a real "nearly 10×" concurrency control on an 8-GPU server for an open model. Do the next official notes from Microsoft, Google, Amazon, and Meta still write HBM and leading-edge nodes, or does a "retreat to commodity DRAM" sentence appear. Will Google or Amazon name a foundry for the first time. Will Meta, after the 300 generation, name TSMC or 3nm. Do supply commitments rise again next quarter or go flat. Do not treat Part II's $35B to $50B of AI software revenue as an audited industry size.
+### 3.5 Cloud ASIC substitution can reduce platform profit without reducing upstream scarcity
 
-This volume does not pick a branch. It only requires later citations to keep $5.576 million, 93.3%, and 85% to 55% labeled as historical stress-test values or unverified judgments, not as an industry liquidation already finished. Whether the dead end has already happened waits on the first same-scope filing of margin walking from 85% to 55%.
+If a hyperscaler moves part of inference from NVIDIA to an internal accelerator, two different effects follow: NVIDIA may lose part of the platform profit pool, while the cloud may still consume advanced logic, HBM, advanced packaging, networking, and power.
 
-## 5. Gaps and what cannot be written as fact
+Therefore “NVIDIA substitution” and “AI resource-demand reduction” are not the same event. A cloud system stack can be a strong competitive response to NVIDIA while intensifying competition for the same upstream resources.
 
-$5.576 million is a conversion. Rate, whether cluster depreciation is included, and whether the bill is pretraining only, historical stress-test material does not unpack. The 85%+ cut is set against "tens of millions to hundreds of millions," a range, not a sample mean. the current evidence review did not open the technical-report original. 671 billion, 37 billion, latent dim 512, head dim 8192, model FLOPS utilization above 50%, 14.8 trillion tokens: all historical stress-test values.
+### 3.6 China's parallel stack must be evaluated layer by layer
 
-93.3% and "nearly 10×" give no multi-head baseline and no context length. A cross-hardware reproduction control is not in the sources. The report does not infer one.
+China has stronger domestic capability in smartphones, parts of consumer computing, and portions of the accelerator/software stack. Frontier AI remains constrained by the combined maturity and scale of advanced logic, HBM-class memory, advanced packaging, high-speed interconnect, and software migration.
 
-Software-as-a-service 85% to 55%, 2026 capex $670B to $750B, AI software revenue $35B to $50B, a $60B to $80B gap, annualized depreciation $45B to $55B and $115.5B: all models or forecasts, unverified, do not treat as audited fact. historical stress-test material $215B is not an addable formula. This volume uses mixed-year group-wide $211.9B to $213.9B, and the 2025 mixed year of about $354B to $356.5B. The four clouds have no "AI hardware" line item.
+Open models can improve the usefulness of a parallel stack because they reduce dependence on one closed model provider. They do not, by themselves, close every hardware and system-integration gap.
 
-This volume invents no model-firm ARR, user count, or profit. OpenAI and Anthropic have almost no standalone financial rows in draft Volume 6. Nemotron, NeMo, and inference microservices have no revenue split.
+## 4. Scenario implications
 
-Google and Amazon's latest official generation do not name TSMC. The report does not treat that they have left, and do not write that they have named one. Meta's 300 generation names Broadcom. It does not name TSMC. It does not name 3nm. Third-party transistor counts, Hynix stacks, 3nm compute dice, Broadcom's packaging percentage, and ASIC TCO-savings percentages do not enter the fact layer. Seventy-two-card cabinet dollars and a bill-of-materials split are not sources for this volume.
+### S1 — Competitive Expansion
 
-Samsung 16k, 24k, 40k wafers per month; CXMT 350k wafers per month; YMTC monthly wafers in the tens of thousands: not in the announcements. SMIC 5.1% is institutional revenue share, not units. Converting HPC 58%, 3nm 24%, first-customer 19% into tens of thousands of wafers: revenue share is not units.
+Algorithmic efficiency improves rapidly, cloud system stacks substitute a meaningful share of training and inference, software portability improves, and upstream supply expands. Model competition intensifies while infrastructure concentration weakens.
 
-Do not fold equity marks into the cash that bids for capacity. Q1 net income includes about $15.9B of unrealized gains. Bidding looks at operating income $53,536M.
+### S2 — Baseline Concentration
 
-Cabinet counts, global absolute HBM bits, packaging wafers by customer, a realized year-on-year drop in public token quotes, the first same-scope filing of margin walking from 85% to 55%: leave them empty. The report does not infer them.
+Open weights and efficiency compress API pricing, but frontier workloads continue to require large-scale advanced infrastructure. Clouds divert some internal workloads while NVIDIA remains a major external platform. Model companies differentiate through workflow integration, distribution, proprietary data, reliability, and long-duration capacity access.
+
+### S3 — Resource Hegemony
+
+Model demand remains high enough that efficiency gains are reinvested into larger workloads, longer context, multimodality, agents, and more inference. Anchor-buyer commitments expand. Physical bottlenecks remain tight even as unit compute efficiency improves. The infrastructure layer captures a large share of value.
+
+### S4 — Capital Hard Landing
+
+Token prices fall faster than useful demand grows, model-company product differentiation weakens, and long-duration compute commitments become underutilized or are rescheduled. GPU/rack pricing and lead times soften before long-duration data-center and power assets can clear.
+
+## 5. What would falsify the main mechanism?
+
+The current framework should be weakened if several of the following become persistent:
+
+- strong models achieve frontier capability with dramatically less total production compute, not only lower formal training compute;
+- cloud custom stacks migrate large training and inference workloads with low software-switching cost;
+- HBM and advanced packaging stop being scarce even while AI usage remains high;
+- inference unit prices fall but model-company revenue per outcome and cash flow rise enough to cover infrastructure comfortably;
+- long-duration model-company compute commitments are repeatedly reduced without impairing product growth;
+- frontier performance becomes materially less dependent on advanced process nodes, HBM, and rack-scale interconnect.
+
+## 6. Boundary conditions
+
+This volume does **not** treat DeepSeek's $5.576M formal-training conversion as complete R&D cost, one KV-cache compression ratio as universal across models and contexts, fixed 85% → 55% AI-software margins as an observed industry path, cloud custom silicon as proof that upstream resource competition disappears, contract value or reserved GW as already energized load, model-company commitments as guaranteed future utilization, or open weights as equivalent to open hardware/software infrastructure.
+
+The durable conclusion is narrower: **algorithmic efficiency and open competition can materially reduce model-layer scarcity and unit cost, while the physical infrastructure stack can remain scarce. The strategic contest therefore shifts from “who owns the best weights” toward who can combine capability, workflow value, system efficiency, and durable access to compute.**
