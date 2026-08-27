@@ -86,6 +86,40 @@ FY26、供应承诺见[第一卷](vol-01.md)。本卷不重开全表。年报同
 
 三家会计年不对齐。不把韩元加成美元再和美光加总。
 
+### 2.9 观察挤出与反事实挤出：扩产不等于恢复
+
+本卷把“AI 挤占存储”拆成两个不同概念，避免把所有价格上涨都写成已经发生的绝对短缺。
+
+**Observed Crowding-out（观察到的绝对挤出）**：非 AI 行业实际拿到的有效供给绝对下降，或者在需求未下降的情况下被迫降配、延迟、提价。
+
+**Counterfactual Crowding-out（反事实挤出）**：非 AI 行业实际供给仍增长，但如果没有 AI/HBM 的新增吸收，本来可以获得更多。它没有表现成绝对减产，却表现成“扩产后仍然紧”。
+
+定义非 AI 有效残余供给：
+
+```
+NonAI_Residual(t)
+= Effective_DRAM_Supply(t)
+- AI_HBM_Absorption(t)
+- Server_Priority_Absorption(t)
+- Other_Priority_Demand(t)
+```
+
+因此真正需要比较的是增量：
+
+```
+ΔNonAI_Residual
+= ΔEffective_Supply
+- ΔAI_Absorption
+- ΔOther_Priority_Demand
+```
+
+只要 `ΔAI_Absorption + ΔOther_Priority_Demand > ΔEffective_Supply`，全行业即使在“扩产”，非 AI 残量仍会恶化。反过来，如果供给增长持续跑赢 AI 吸收，残量才是真正恢复。
+
+**F**：Micron 已经披露 HBM3E 在相同 bit 下需要大约 DDR5 三倍的 wafer supply；机构预测也显示 HBM 与服务器内存正在占用越来越大的 DRAM bit 资源。  
+**M**：同一片晶圆投向 HBM 与投向传统 DRAM 的机会成本不同。只要 HBM 的风险调整后回报、订单确定性和长期需求更高，逐利的原厂就有动力把新增资本、先进节点和良率爬坡优先配置给 HBM。  
+**H/S**：本报告因此不把“DRAM 总 bit supply 增长”自动解释成 PC/手机供应恢复，而是要求观察 NonAI_Residual 是否转正。  
+**X**：如果 HBM 的 wafer trade ratio 显著下降、传统 DRAM 新线独立扩张、或 AI/HBM 需求增速持续低于总供给增速，这一挤出机制必须下调。
+
 ## 3. 机制往下推
 
 ### 3.1 原厂转向高价，残量不是另一条河
