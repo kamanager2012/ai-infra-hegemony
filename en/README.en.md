@@ -8,7 +8,7 @@ The rule is simple: **facts must be sourced; forecasts stay labeled as assumptio
 
 Sources last checked: **2026-08-27**.
 
-Licensed under [CC BY 4.0](../LICENSE). Current rebuild notes: [Release Notes](../RELEASE_NOTES.md).
+Licensed under **[CC BY-NC-ND 4.0](../LICENSE)**: non-commercial redistribution of the unadapted work is permitted with attribution; commercial use and public distribution of translations, remixes, abridgements, reorganizations, or other adaptations require separate permission. Third-party material remains subject to its respective rights holders. Earlier copies validly received under CC BY 4.0 retain those prior rights; current and future `main` versions use the new license. Current rebuild notes: [Release Notes](../RELEASE_NOTES.md).
 
 ## Core findings
 
