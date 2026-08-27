@@ -6,12 +6,14 @@ NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，�
 
 GB200 NVL72 官方配置为：
 
-- **72 Blackwell GPU**
-- **36 Grace CPU**
-- **13.4 TB HBM3E**
-- **17 TB LPDDR5X**
-- 72-GPU NVLink domain
-- liquid-cooled rack-scale design
+| 项目 | 官方配置 |
+|---|---|
+| GPU | **72 Blackwell GPU** |
+| CPU | **36 Grace CPU** |
+| HBM | **13.4 TB HBM3E** |
+| CPU memory | **17 TB LPDDR5X** |
+| Scale-up domain | 72-GPU NVLink domain |
+| Rack design | Liquid-cooled rack-scale system |
 
 来源：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 
@@ -92,17 +94,16 @@ FY27 Q2，NVIDIA 已披露 Rubin 进入 **full production**。这表明竞争单
 
 ## 4. 高利润为何会转化为资源预订能力
 
-NVIDIA FY26：
+NVIDIA 的资源预订能力可由以下财务指标观察：
 
-- Free cash flow：**$96.575B**
-- Operating income：**$130.387B**
-
-FY27 Q2：
-
-- Revenue：**$96.221B**
-- Data Center revenue：**$89.0B**
-- GAAP gross margin：**75.0%**
-- GAAP operating income：**$63.734B**
+| 指标 | 数值 |
+|---|---:|
+| FY26 Free cash flow | **$96.575B** |
+| FY26 Operating income | **$130.387B** |
+| FY27 Q2 Revenue | **$96.221B** |
+| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY27 Q2 GAAP gross margin | **75.0%** |
+| FY27 Q2 GAAP operating income | **$63.734B** |
 
 FY27 Q1 supply-related commitments 已上升至 **$119.0B**。
 
