@@ -1,6 +1,6 @@
 # Volume 15: The 2036 AI-Infrastructure Endgame — System Stacks, Resources, and Power
 
-Chinese original: [vol-15.md](vol-15.md)
+Chinese original: [vol-15.md](vol-15.en.md)
 
 ## 1. Core question
 
