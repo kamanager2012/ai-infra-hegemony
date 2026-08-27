@@ -1,195 +1,288 @@
-# 第三十一卷：证据与数据附录（一）（全球半导体与算力市场历史数据追踪与关键指标库）
+# 第三十一卷：核心指标与证据监测框架
 
-规制机制见[第十一卷](vol-11.md)。租税和预付款见[第八卷](vol-08.md)。本卷是附录：早期版本那张表哪些格子能当锚，美、法、欧三条线公开记录停在哪一格。
+## 1. 本卷的作用：让结论能够持续更新
 
-## 1. 本卷要回答的问题
+一份长期产业研究报告不能只在发布日成立。
 
-早期版本把第三十一卷写成「全球半导体与算力市场历史数据追踪与关键指标库」。前稿已改任务：附录必须改口径，不是再贴一张自称「经核对」的总表。A 级格子换成已核点估计，B 级区间要删。总判和 [第十一卷](vol-11.md) 再往下钉一层：反垄断三条线现在停在哪一格，算力租税哪一头能对上报表。
+AI infrastructure 的关键变量变化很快：
 
-本卷只回答四句。第一，早期版本那张「经核对官方财务事实」表，哪些格子能当历史追踪的锚，哪些是区间、定性或混年加总，使用时不能升级成本卷已核对的 10-K。第二，美国司法部、法国竞争管理局、欧盟委员会三条线，公开记录分别停在调查、接近尾声、问过卷，还是已经起诉、已经发异议说明书、已经按第 101 / 102 条立案。第三，英伟达 FY26 数据中心 1,937 亿美元是卖方自己披露的数据中心收入，可作为算力价值捕获的重要代理；四云 Capex 是买方全集团设备购置。二者不能加成「AI 硬件 2,150 亿」，也不能对敲成一张租税率。第四，能一夜改规则的是拆分或强制开 CUDA，不是罚款。10% 年营收是法定天花板。白宫 NSM-25、商务部 BIS、国防部把先进芯片和大算力集群写成国家安全，拆分难下手是从这些文件推的政治约束，不是已经签署的「不拆令」。
+- seller economics；
+- hyperscaler CapEx；
+- HBM supply；
+- advanced packaging；
+- foundry allocation；
+- power；
+- regulation；
+- system-stack substitution。
 
-本卷是指标库加证据分级。它不发明份额，不给 2036 年的收入或装机，也不把调查写成拆分令。检索截止 2026-08-26。公司数以 IR / Exhibit 99.1 / 总判已抄的官方句为准。路透原文部分 401，用法条、转载页和同期二手全文对照，不把汇编站升级成司法部。本研究公开检索核过司法部案卷检索页、法国 2026-07-09 路透电、欧盟 Run:ai 无条件批准、条例 1/2003 第 23 条，以及英伟达 FY26 业绩稿。没有读到 *United States v. NVIDIA* 起诉书，没有读到法国异议说明书，没有读到委员会 101 / 102 正式立案稿。
+因此，本卷不是历史数据堆积，而是一套**持续监测框架**：明确哪些指标可以更新主判断，哪些指标只能作为辅助证据。
 
-## 2. 基线判断与关键假设
+## 2. Seller Economics
 
-附录卷的独立内容，早期版本就是下面这张表。数字全部标「早期情景数字」。本卷没有逐页核对各家 10-K 全文，不重复「已经核对」这一声称。
+### NVIDIA
 
-| 主体 | 周期 | 总收入 | 数据中心/AI 相关 | 综合 GAAP 毛利率 | Capex |
-| --- | --- | --- | --- | --- | --- |
-| Nvidia | FY2024（至 2024.01） | 609.22 亿美元（YoY +126%） | 475.25 亿美元（YoY +217%） | 72.7%（+15.9pct） | 12.1 亿美元（轻资产） |
-| Nvidia | FY2025（至 2025.01） | 1,304.97 亿美元（YoY +114%） | 1,150+ 亿美元（YoY +142%） | 75.0%（并写 Q4 单季 73.0%） | 29.8 亿美元 |
-| 台积电 | CY2023 | 704.5 亿美元（台币 2.16 万亿） | HPC 占比 43% | 54.4% | 304.5 亿美元 |
-| 台积电 | CY2024 | 883.4 亿美元（YoY +25.4%） | HPC 超越手机 | 53.8% | 298.5 亿美元（3nm 占 18%） |
-| SK 海力士 | 2023 | 32.77 万亿韩元（约 250 亿美元） | 存储下行 | 营业亏损 7.73 万亿韩元 | 6.59 万亿韩元 |
-| SK 海力士 | 2024 | 66.19 万亿韩元（YoY +102%） | HBM 占 DRAM 收入超 40% | 营业利润 23.47 万亿韩元（35%） | 16.20 万亿韩元 |
-| Amazon | 2024 | 6,201 亿美元 | AWS「突破千亿美元」 | 48.8% | 777 亿美元（YoY +61.5%） |
-| Alphabet | 2024 | 3,497 亿美元 | Google Cloud「连续盈利」 | 57.6% | 525 亿美元（YoY +62.5%） |
-| Microsoft | 「2024 财年/运行」 | 2,451 亿 ~ 2,600+ 亿美元 | Intelligent Cloud「核心支柱」 | 69.5% | 「突破 550 亿美元」 |
-| Meta | 2024 | 1,648 亿美元 | 广告推荐「全面 AI 赋能」 | 81.5% | 309 亿美元（2025「高增」） |
-| 四云合计 | 2024 | — | 合计 Capex 突破 2,150 亿美元 | 「历史最高」 | 年化硬件折旧超 450 亿美元 |
+当前核心锚：
 
-早期版本因果句：硬件 4 年直线折旧、土建 15 年，2,150 亿美元将在 2025—2028 年形成每年 450 亿 ~ 550 亿美元刚性硬件折旧。这是会计模板，不是四家 10-K 资产分类加总。
+- FY26 revenue：**$215.938B**
+- FY26 Data Center revenue：**$193.737B**
+- FY26 FCF：**$96.575B**
+- FY27 Q2 revenue：**$96.221B**
+- FY27 Q2 Data Center revenue：**$89.0B**
+- FY27 Q2 GAAP gross margin：**75.0%**
+- FY27 Q2 GAAP operating income：**$63.734B**
+- Rubin：**full production**
 
-工程侧证据按来源重新分级，回对应卷：整柜BOM和网络见[第二卷](vol-02.md)、[第七卷](vol-07.md)；HBM约3× wafer trade ratio已由Micron一手披露，见[第五卷](vol-05.md)、[第二十三卷](vol-23.md)；电 / 核见[第十三卷](vol-13.md)；算法 / MLA 见[第六卷](vol-06.md)、[第十六卷](vol-16.md)；中国栈见[第十二卷](vol-12.md)；机器人见[第二十八卷](vol-28.md)；消费电子见[第二十二卷](vol-22.md)；封装见[第二十四卷](vol-24.md)。
+这些指标回答：
 
-讨论已经指定应改的格子，本卷写入，不把旧区间继续当 A 级。Nvidia FY25：数据中心从「1,150+」改为 115,186 百万美元；总营收 130,497 百万美元。另列 Compute & Networking 116,193 百万美元、Gaming 11,350 百万美元、Automotive 1,694 百万美元。Q4：数据中心 35,580 百万美元，当季 Blackwell 110 亿美元，CSP 约占当季数据中心收入 50%。出处是框架已核的 Q4 FY25 CFO Commentary，本卷不把它们再升成「本卷新核对」。微软：废弃 2,451～2,600+ 与「突破 550」。写入 FY24 / FY25 营收 245,122 / 281,724 百万美元，Intelligent Cloud 87,464 / 106,265 百万美元，Azure FY25 超 750 亿美元、同比 +34%，设备购置 FY24 44,477 百万美元、FY25 64,551 百万美元。四云合计：废弃「2024 AI Capex = 2,150 亿」。写入混年复加 2,119～2,139 亿，并注明全集团、混财年。2025 混年 3,540～3,565 亿单列。海力士：用 32.7657 / 66.1930 万亿韩元；「约 250 亿」降级为换算。BOM、MFU、CoWoS具体月产能、整柜几何系数、固定SaaS毛利终点和年折旧模板仍保持D级或早期压力测试；HBM约3×已升级为A类公司一手口径，CoWoS >60%则保留为TrendForce B类机构预测，不能混成同一等级。海力士营业利润写进「毛利率」列，是早期情景表结构错误，附录不得将错就错去算利润池。
+> system platform 是否仍拥有足够高的利润与现金流继续预订下一代 scarce resources？
 
-利润现金和供应承诺见[第一卷](vol-01.md)。本卷不重抄表。A 级格子仍须回 IR，见下 3.1。
+### Supply commitments
 
-10% 年营收是法定天花板，FY26 × 10% = 215.938 亿美元，总判写成约 216 亿美元，不是罚单。调查在，起诉没有。法国接近尾声，异议说明书没发。欧盟问过卷，Run:ai 无条件过了，没有 101/102 立案。白宫 NSM-25、BIS、国防部把先进芯片写成国安，没有「因此不拆」的令。假设往下：罚款是成本，国安下拆分难下手。
+- FY26 year-end：**$95.2B**
+- FY27 Q1：**$119.0B**
 
+供应承诺是前向资源锁定的重要 proxy，但不能拆成未披露的供应商金额。
 
-## 3. 机制深挖（物理 / 商业 / 地缘）
+## 3. Foundry / Packaging
 
-### 3.1 先给格子分级，再谈权力
+### TSMC 2025
 
-附录的第一件事不是抒情，是分级。
+- 12-inch equivalent wafer shipments：约 **15.0M**
+- annual capacity：超过 **17M**
+- 3 nm：**24%** of wafer revenue
+- 5 nm：**36%**
+- 7 nm：**14%**
+- ≤7 nm：**74%**
+- HPC：**58%**
+- smartphone：**29%**
+- largest customer：**19% of annual revenue**
+- second-largest customer：**17%**
+- advanced packaging + testing：略高于 **10%**
 
-- A 级（像精确值，仍须回源）：Nvidia FY25 总收入 130,497 百万美元、数据中心 115,186 百万美元、毛利率 75.0%；FY26 总收入 215,938 百万美元、数据中心 193,737 百万美元、毛利率 71.1%、营业利润 130,387 百万美元、净利润 120,067 百万美元、自由现金 96,575 百万美元。微软设备购置 FY24 44,477 百万美元、FY25 64,551 百万美元；营收 FY24 245,122 百万美元、FY25 281,724 百万美元；Intelligent Cloud FY25 106,265 百万美元。亚马逊 CY2025 净额 128,320 百万美元，Alphabet CY2025 设备购置 91,447 百万美元，Meta CY2025 设备购置 69,691 百万美元、公司口径 72.22 亿美元。这些仍是「已核点估计」，使用前必须回 IR / Exhibit 99.1，不能因为印在附录就升级成「本卷已核对 10-K」。
-- B 级（区间或不等式，本卷降级）：Microsoft 收入 2,451~2,600+、Capex「突破 550」；Nvidia 数据中心「1,150+」；AWS「突破千亿」；四云合计「突破 2,150」；折旧「超 450」又写成 450~550。B 级只能做量级对照，不能做精确复原。讨论要求删区间，本卷把它们留在早期版本栏，不带进新锚。
-- C 级（定性）：Google Cloud「连续盈利」、HPC「超越手机」、广告「全面 AI 赋能」、Microsoft「2024 财年/运行」这种周期混写。C 级不是数据。HPC 超越手机这一句，总判已经换成台积电 2025 晶圆营收 HPC 58%、同比 +48%、手机 29%，不再用定性句当锚。
-- D 级（工程测算或情景）：BOM区间、MFU、5.39 CoWoS片/柜、固定SaaS毛利终点、未来产能捕获率等。**HBM约3×不是D级**：Micron已一手披露同节点同bit的HBM3E wafer-supply trade ratio；DeepSeek $5.576M也可由官方技术报告核对，但二者都必须保留各自边界。CoWoS >60%属于TrendForce B类机构预测，不是TSMC官方客户分项。
+### Packaging status
 
-不可比的口径必须先写死。Nvidia 的「数据中心」是分部收入；Amazon 的 6,201 亿是集团总收入，AWS 只给定性；Alphabet、Microsoft、Meta 同理。毛利率 48.8%、57.6%、69.5%、81.5%、75.0% 不能横比成「谁更会做 AI」——综合 GAAP 毛利率含广告、零售、办公软件。海力士 35% 是营业利润率，不是毛利率。卖方已经暴利：台积电 2025 毛利率 59.9%，海力士营业利润率 49%。买方里没有谁在卖柜这件事上垫得过 71.1%–75.0%。苹果、AMD、高通、华为都是买方。比价没有意义。
+TSMC 已明确表示：
 
-加总 2,150 亿美元的复原问题，口径核对话已经算过。混年（微软 FY2024 + 其余三家 CY2024）设备购置、亚马逊用净额、Meta 不加租赁 = 44,477 + 77,658 + 52,535 + 37,256 = 211,926（百万美元），约 2,119 亿；Meta 改用公司口径则 213,895，约 2,139 亿。早期版本 2,150 亿落在这两行附近，是四舍五入，不是四家同一科目、同一日历年、更不是「AI 服务器 / GPU」分项。亚马逊含履约网络，Meta 含 Reality Labs，Alphabet 含办公和其他技术设施。2025 实际（微软仍是 FY2025）：64,551 + 128,320 + 91,447 + 69,691 = 354,009（约 3,540 亿）；Meta 用公司口径则 356,533（约 3,565 亿）。已经不是 2,150 亿。截至2026年8月，微软已给出日历年约1900亿美元CapEx预期，Alphabet为1800–1900亿美元，Meta为1250–1450亿美元，Amazon截至2026Q2的TTM净PPE约1690亿美元；四者口径和时间窗不同，不做统一复加。加不出早期版本的 6,700–7,500 亿。那一笔继续标：未核验，不得作为已确认事实。
+- capacity very tight；
+- cannot meet customer demand；
+- packaging tightness limits customer growth。
 
-折旧公式是假设，不是披露。4 年硬件 + 15 年土建是早期版本选用的会计模板。实际 10-K 里服务器、网络、建筑的使用寿命、残值和已在用资产基数都未在表中出现。450 亿 ~ 550 亿美元 = 年化硬件折旧，把 2,150 亿按约 4 年摊，再混入「超 450」的措辞。它是压力测试的输入，不是核对师确认的 2025 年费用。2025 混年已经到约 3,540～3,565 亿，再用 2024 的 2,150 推 2026—2028，会低估基数。具体 2026—2028 年费用：未核验，不得作为已确认事实。
+因此 advanced packaging tightness 属于 A 级事实。
 
-### 3.2 美国司法部：调查在，起诉不在
+### CoWoS demand allocation
 
-[第十一卷](vol-11.md) 把这条钉死：调查是真的，诉讼和罚单还没落。不能把传票写成拆分令。
+TrendForce 对 NVIDIA 占 2025 CoWoS demand 超过 60% 的估计属于 **B 级机构研究**。
 
-2024-08-02 路透转 The Information：司法部已经开查，竞争对手投诉英伟达可能滥用在人工智能芯片销售上的支配地位。调查看的是：是否施压云厂商买多件产品；是否在客户想买 AMD、英特尔的人工智能芯片时，把网络设备卖得更贵。同日 CBS / AP 核过司法部：当时不评论、不提供进一步信息。这是调查报道，不是起诉书。地址：https://www.reuters.com/technology/nvidia-faces-us-doj-probe-over-complaints-rivals-information-reports-2024-08-02/
+TSMC 没有披露 customer-level CoWoS allocation。
 
-2024-09-03 彭博（Ian King / Leah Nylen）：司法部向英伟达和其他公司发出传票，寻求它违反反垄断法的证据；此前是问卷，现在是有法律约束力的请求。Bloomberg Law 多两句程序位置：这让政府更接近提出正式投诉。彭博写的是「更接近正式起诉」，不是已经起诉。路透转述同一稿。地址：https://www.bloomberg.com/news/articles/2024-09-03/nvidia-gets-doj-subpoena-in-escalating-antitrust-investigation
+## 4. Memory
 
-2024-09-04 英伟达发言人：We have inquired with the U.S. Department of Justice and have not been subpoenaed. Nonetheless, we are happy to answer any questions regulators may have about our business. 彭博次日稿也写了同一否认，并解释民事调查令常被口头叫成 subpoena。传票这件事以司法部自己的文书为准，公司当时否认收到。地址：https://www.reuters.com/technology/nvidia-did-not-receive-us-justice-department-subpoena-spokesperson-says-2024-09-04/
+### Micron
 
-截至 2026-08-26：`justice.gov` 反垄断司公开案件里，能读到的 2025 年起诉是 *U.S. v. Hewlett Packard Enterprise Co. and Juniper Networks, Inc.*（2025-01-30），被告不是英伟达。没有读到 *United States v. NVIDIA Corp.* 的 Complaint，也没有 Competitive Impact Statement / Proposed Final Judgment。第三方 Docket（AI Lawsuit Tracker，最后核对写 2026-06-02）自己的状态是：Active DOJ Investigation — No formal complaint filed as of April 2026；Settlement: No settlement on record。这是汇编站，不是司法部。只用来对照「公开记录上还是空的」。2026 年 3 月沃伦 / 布卢门撒尔就 Groq 许可交易发过信，那是国会质询，不是反垄断起诉。
+核心 A 级物理锚：
 
-美国谢尔曼法没有「年营收 10%」这一条。美国这边能一夜改规则的是拆分、禁令、强制互操作，不是把欧盟上限抄过去。法理上，美国不罚「靠产品和远见赢来的垄断」。要打，打的是搭售、供货歧视、用产能惩罚换栈的人。这些要合同、邮件、客户证言。调查可以打很多年。公开记录停在调查，附录就不能写成已经起诉、已经和解、已经拆 Mellanox、已经强制开 CUDA。
+> HBM3E 在相同 technology node、生产相同比特时，约需要 DDR5 **3× wafer supply**。
 
-### 3.3 法国：接近尾声，异议说明书没有发
+FY25 10-K 进一步确认 HBM 对 wafers 与 cleanroom space 的要求更高。
 
-公司自己写过法国在查。英伟达 2023-11-21 季报（路透 2023-11-24 引原文）：For example, the French Competition Authority collected information from us regarding our business and competition in the graphics card and cloud service provider market as part of an ongoing inquiry into competition in those markets. 同一段还写：欧盟和中国监管机构也就 GPU 销售和供给分配要过信息。路透同稿写：法国 9 月突袭了巴黎办公室（熟悉情况的人）。这是调查，不是处罚决定。
+### TrendForce
 
-2026-07-09 路透电（Euronext 全文转载）：The French competition authority said on Thursday its probe into chipmaker Nvidia Corp is coming to an end. 总报告人 Umberto Berkani：We are nearing the end of the investigation. 路透写明：调查结束不等于必然制裁。调查部门必须先决定发不发异议说明书（statement of objections），或者结案。如果发，英伟达有机会答辩，再由管理局委员会作最终裁定。Global Competition Review 同日（付费）：France’s Competition Authority is “approaching” a decision on whether or not to formally accuse Nvidia。本研究公开检索还能读到 CNA、The Next Web 对同一电的转述，句子没有超出「接近尾声、下一步才是发不发异议说明书」。2026-07-09 到 2026-08-26：没有读到 Autorité de la concurrence 官网就英伟达发出异议说明书（communication des griefs）或处罚决定。二手稿把「接近决定要不要指控」写成「即将发指控」，那是加码，原文没有。
+2026 年：
 
-法国商法典 L464-2：企业罚款上限是全球未税营业额最高值的 10%。FY26 营收 215,938 百万美元的 10% 是 21,593.8 百万美元。这是法定天花板，不是即将开出的罚单。没有异议说明书，这个乘积不能写成「法国即将开出 216 亿」。
+- HBM + RDIMM：约 **51% of DRAM bits**
 
-### 3.4 欧盟：问过卷，没有正式立案稿，没有罚单
+这两条共同用于监测 conventional DRAM residual capacity。
 
-路透 2024-12-06：欧盟反垄断监管机构在问英伟达的对手和客户，芯片商是否捆绑产品从而获得不公平优势，知情人士说，这一动作可能导向正式调查。路透 2024-12-04：同一轮问卷挂在 Run:ai 并购审查上，不是已经开的 101/102 立案。
+### SK hynix
 
-并购本身：委员会 2024-12-20 无条件批准 Run:ai。公开决定是 Case M.11766 – NVIDIA / RUN:AI，依据合并条例第 6(1)(b) 条。交易本身没有欧盟维度，意大利竞争管理局按第 22 条提交审查，委员会 2024-10-31 接受。英伟达 2025-01-10 就意大利用第 22 条上交审查起诉委员会（T-15/25）。路透 2025-02-24：这一诉讼不影响已经批准的 Run:ai 交易。这是并购管辖权诉讼，不是滥用市场支配地位的罚单。EUR-Lex 能读到 T-15/25 的起诉摘要：请求撤销 2024-10-31 接受意大利移交的决定，第一条理由是对第 22 条的解释与 Illumina 判决不符。
+FY25：
 
-Capitol Forum 2026-02-11 引消息源说委员会还在问数据中心部件定义。那是新闻，不是委员会 *Opening of proceedings* 新闻稿。Fortune 2024-07-05 引 Vestager：芯片供给是瓶颈，不等于监管行动。截至 2026-08-26：没有读到欧盟委员会竞争总司就英伟达 101/102 发出的正式立案、异议说明书或罚单。
+- revenue：KRW **97.1467T**
+- operating profit：KRW **47.2063T**
+- operating margin：**49%**
+- HBM revenue：同比超过一倍
 
-问过卷是真的。无条件批准 Run:ai，说明委员会在并购这一截当时没有认定必须附加结构性救济。T-15/25 说明公司在打管辖权，不说明滥用支配地位案已经立。附录若把「欧盟在查英伟达」写成「已经正式立案」或「即将开出 10% 罚单」，就是把问卷和法条上限加成了起诉书。
+用于判断 HBM product mix 是否继续改善 memory vendor economics。
 
-### 3.5 10% 年营收是法条，不是罚单
+## 5. Hyperscaler CapEx
 
-欧盟条例 1/2003 第 23 条第 2 款：For each undertaking and association of undertakings participating in the infringement, the fine shall not exceed 10 % of its total turnover in the preceding business year. 委员会罚款页把这句话再写一遍。同一条例第 7 条才是能拆结构的条款：委员会可以下行为或结构性救济；结构性救济只有在行为救济不等效或更重时才能用。那是权力清单，不是已经对英伟达用过。地址：https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32003R0001 与 https://competition-policy.ec.europa.eu/index/fines_en
+四大云必须逐家公司记录，避免强行合并不同时间窗和科目。
 
-法国上限见上节 L464-2。算术不是罚单。NVIDIA FY26 营收 215,938 百万美元。10% 是 21,593.8 百万美元。这是把法条上限乘上公司自己的年报，不是委员会或法国管理局开出的数。没有立案、没有异议说明书，这个乘积不能写成「即将开出 216 亿」。
+需要持续监测：
 
-钱上可以对照，不能把对照写成处罚决定。Q1 FY27 一个季度营业利润 535.36 亿美元。法国或欧盟的法定上限约 216 亿美元，大约是这一季营业利润的四成，是 FY26 净利润 1,200.67 亿美元的约 18%。只要不拆、不强制开接口、不禁止预付款锁产能，罚款是成本。回购加股息一年都能还股东 411 亿美元。罚款改不了出价。总判写过：只要毛利还在这个位置，承诺继续加。别人要同样的料，得出更高的价，或者拿不到。216 亿写进成本，锁产能的那一截预付款还在。
+- Microsoft CapEx；
+- Amazon net PPE purchase；
+- Alphabet CapEx；
+- Meta CapEx；
+- financing lease treatment；
+- AI/data-center specific disclosure。
 
-### 3.6 国安：先进算力已经写成国家安全
+判断重点不是“总额有没有创新高”，而是：
 
-拆分在法理上做得到。下面这些文件把同一截芯片写成国家安全之后，行政上更难下手。文件只证明「写成了国安」，不证明「已经决定不拆」。
+> 新增 CapEx 是否仍然主要流向 AI server、network、memory、data center 与 power。
 
-白宫 2024-10-24 首份人工智能国家安全备忘录 NSM-25。事实清单：Developing advanced AI systems requires large volumes of advanced chips. ... The NSM directs actions to improve the security and diversity of chip supply chains。正文：National Security Memorandum/NSM–25。地址：https://www.govinfo.gov/content/pkg/DCPD-202400945/pdf/DCPD-202400945.pdf
+## 6. Power
 
-商务部 BIS 2022-10-07 临时终规，联邦公报 2022-10-13（87 FR 62186）：对先进计算集成电路、含这些电路的计算机商品、以及某些半导体制造物项实施必要管制。2025-01-15 临时终规（AI Diffusion IFR）：修订 EAR，以管制最先进人工智能模型和大规模先进计算集成电路集群的全球扩散，保护美国国家安全和外交政策利益。NVIDIA FY26 10-K 自己写的后果（截至 2026-01-25 财年）：As of the end of fiscal year 2026, we were effectively foreclosed from competing in China's data center computing/compute market。同一 10-K：2025-01 的 AI Diffusion IFR 本来要对 H200 / GB200 / GB300 搞全球许可；2025-05 美国政府宣布要撤回并另写替代规则，范围未定。这是出口管制在改，不是反垄断结案。
+能源项目统一采用五层状态：
 
-五角大楼 2023 数据、分析与人工智能采用战略，副国防部长 2023-11-02 发布。公开稿把 AI 直接接到《国防战略》对华威慑：The NDS also describes the need for the United States to sustain and strengthen deterrence against the People’s Republic of China ... Accelerating adoption of data, analytics, and AI technologies will enable enduring decision advantage。
+| 状态 | 含义 |
+|---|---|
+| Announced | 项目/目标已公布 |
+| Contracted | 已形成合同 |
+| Permitted | 已获得关键许可 |
+| Energized | 已实际送电 |
+| Utilized | 已形成真实负载 |
 
-白宫一边嫌暴利抽美国云和制造业的血，一边要这条栈在军备里压住东边。拆分或强制开 CUDA 会慢自己的迭代。国安压过竞争，是从这些文件推的政治约束。高高举起，落下的更可能是和解、互联上让一点、ASIC 能接入一部分网络。暴利和预付款不被碰。反垄断拖慢脚步，逼它交保护费，不拆这台出利润的机器。80% 加速器份额是媒体和卖方口径，不是司法部相关市场界定，不写进认定。没有读到白宫或五角大楼「因此不拆英伟达」的令。把「国安下拆分难下手」写成已经签署的禁拆令，是推演升级成文件，附录不允许。
+当前重要项目：
 
-### 3.7 算力租税：1,937 亿是卖方租金，对不上「AI 硬件 2,150 亿」
+- Microsoft / Constellation：约 **835 MW** restart PPA
+- Talen / AWS：新版 PPA 最高 **1.92 GW**
+- Google / Kairos：开发目标最高 **500 MW**
 
-相关主判断与证据见《总判》及对应专题卷。应用层卷，后端收租。手机 PC 不买 GPU 也交存储溢出税。世界不是炸开。是升级停在次一级制程，规则由一家定。
+Talen/AWS 的 front-of-the-meter conversion 已于 **2026 年 4 月完成**。
 
-租金这一头只能写英伟达自己报的数。FY26 营收 2,159 亿美元，同比 +65%；数据中心全年 1,937 亿美元，同比 +68%。它不是四云 Capex 的分项，也不能写成「四云把 1,937 亿全付给了英伟达」——四云之外还有 Oracle、主权云、模型公司和企业。FY25 数据中心是另一笔（框架已核 115,186 百万美元）。不要和 FY26 1,937 亿混年。Q4 FY25 只说 CSP 约占当季数据中心收入 50%，当季数据中心是 35,580 百万美元，没有全年 CSP 分拆。卖方收入 ≠ 买方 Capex。
+因此后续应监测的是：
 
-买方这一头见[第八卷](vol-08.md)。四云各报各的设备购置，科目和财年对不齐，不能加成同一日历年。
+- contract ramp；
+- energized MW；
+- actual data-center load；
+- utilization。
 
-能写：四云在加全集团CapEx；英伟达FY26数据中心收入1,937亿美元，FY27 Q2单季数据中心收入已到890亿美元。方向上，云与模型公司的资本/容量承诺有一部分转化为服务器、网络、存储和数据中心采购，再进入芯片与系统供应商收入。TrendForce 把 2026 年主要 CSP CapEx 的 47%、2027 年的 68% 算进内存。钱的流向是云 → 柜 → 英伟达和存储原厂。初创公司走云通道，路径一样，比例各家不同。不能写「一家融 10 亿就有 7–8 亿进黄仁勋口袋」——没有这张分拆表。也不能写「四云 2024 年 AI 硬件 = 2,150 亿」；把 1,937 亿全部来自这四家；把不同财年的 Capex 和 DC 收入对敲成「租税率」。买卖双方科目不同，买方还有土建、电、自研 ASIC、内存、光模块。
+## 7. System-Stack Substitution
 
-云不是没钱。微软 FY25 净利 101,832 百万美元，PPE 增加 64,551 百万美元。这一千亿要盖机房。英伟达的一千亿是卖稀缺段本身赚的，预付款是再生产。所以不是云没枪，是云的钱有别的用途，英伟达的钱专门用来锁下一截料。自研 ASIC 还是要拍同一截 3nm 和 HBM。抢不到首发，为了留住云客户，还得继续订柜。假设往下：云变成把柜子分销给下游的通道。买办是这个意思，不是已经订了几十万柜 Rubin。未核验：不预测哪一年云变成纯通道。
+持续跟踪：
 
-手机和 PC 即使不买 GPU，也在交税。残量见[第五卷](vol-05.md)。这是存储株连，不是它们给英伟达开过支票。
+### Google
+- TPU / Ironwood
+- compiler/runtime
+- pod scale
+- external availability
 
-### 3.8 罚款改不了出价；五条打断还没做成
+### AWS
+- Trainium
+- Neuron
+- UltraServer
+- Anthropic workload
 
-罚款改不了出价。利润、预付款、供应承诺见[第一卷](vol-01.md)。1999 年英特尔对照见下 3.9：那是 CPU 份额。今天比的是自由现金和一季营业利润，A 级格子见上 3.1。
+### Microsoft
+- Maia
+- Azure workload
+- software maturity
 
-五条打断见[第八卷](vol-08.md)。案卷见[第十一卷](vol-11.md)。云专用芯片规格见[第四卷](vol-04.md)。中国栈见[第十二卷](vol-12.md)。美国反垄断救不了华为。拆的是美国国内的捆绑和供货歧视，不是给中芯开 2nm，也不是给长鑫开 HBM。
+### Meta
+- MTIA
+- internal workload
+- generative AI expansion
 
-业务拆分或强制开 CUDA：能一夜改规则的，不是 AMD，是拆分、强制互操作、禁止捆绑供货。罚款改不了出价。附录的任务是把「调查在 / 起诉不在 / 10% 是天花板 / 国安已写成许可证项」钉在同一张分级表上，不把其中任何一格提前写成已经发生的救济。
+真正的替代指标不是 chip benchmark，而是：
 
+- frontier workload share；
+- utilization；
+- migration cost；
+- system TCO；
+- production scale。
 
+## 8. China Parallel Stack
 
-### 3.9 预付款锁产能，不是传票里的搭售
+应分别监测：
 
-附录容易把两件不同的事写成一件。一件是总判已经钉住的预付款：10-K 原文 prepaid manufacturing and capacity agreements。供应承诺 FY26 末 952 亿美元，Q1 FY27 末 1,190 亿美元，三个月加 238 亿美元，大部分要在 2027 财年付。官方写在锁库存和产能。没拆到台积电或 CoWoS。有的协议能改期。这是卖方用自己赚来的自由现金（FY26 965.75 亿美元）去拍下一截料。台积电董事会对股东负责。第一名给的利润大到超过其余客户的增量时，没有财务理由为第二名得罪第一名。这不是行政收购，是预付款把排期买走。中立承诺在支票面前没有对价。还没写成事实的：台积电已经变成专属厂、High-NA 整批被买断、苹果或高通已经拿不到任何先进制程。2025 年台积电账面第一大客户 19%，第二大 17%。黄仁勋说已经是最大客户。具体百分比等台积电 2026 年报。
+### Logic
+- domestic accelerator；
+- foundry scale；
+- yield / volume disclosure。
 
-另一件是司法部调查里被点名的销售行为：是否施压云厂商买多件产品；是否在客户想混用 AMD 或英特尔芯片时，把网络设备卖得更贵。这是搭售和供货歧视的调查方向。它要合同、邮件、客户证言。公开记录上，这两件事不要加成一句「英伟达已经用预付款完成了被调查的捆绑」。预付款锁的是代工和库存，调查问的是对云和网络的销售条款。前者写在 10-K 的供应承诺，后者写在路透和彭博的调查报道。附录分两格，不合成一格。
+### Memory
+- HBM-class product；
+- qualification；
+- volume production。
 
-能打断预付款的，不是 216 亿的法条上限。能打断的是：西边把预付款捆成不能只认一家；或者拆分、强制开 CUDA、禁止产能歧视，把销售条款和产能锁一起拆开。调查停在问卷和传票报道，拆开没有发生。供应承诺三个月加 238 亿美元，是 2026 年已经做成的那一格。附录追踪时，供应承诺走 A 级（公司自己披露，仍须回 10-K），搭售指控走程序格（调查在，起诉不在），不要用其中一格去证明另一格。
+### Packaging
+- advanced integration；
+- scale；
+- yield。
 
-英特尔 1999 年营收 29,389 百万美元、净利 7,314 百万美元、毛利率 59.7%，是总判拿来对照的历史锚。那是 CPU 份额。代工在自己厂里，客户能双源，没有今天这一截 CoWoS / HBM / 2nm 首发要拿千亿预付款去拍。早期版本附录标题写「全球半导体与算力市场历史数据追踪」，却没有 WSTS、没有英特尔这一行、没有思科 2000。份额会破，因为下一截产能不是它一家能预付锁死的。今天比的不是份额，是一年自由现金 966 亿美元、一季营业利润 535 亿美元、毛利率回到 75% 附近。这是稀缺段利润池控制。历史惯性、客户背叛、代工厂中立，在这笔现金面前没有对价。附录若只追「加速器份额 80%」，就是把媒体口径当成司法部相关市场，并且漏掉了真正能锁下一截料的那一格：预付款和自由现金。
+### Software
+- CANN / compiler/runtime；
+- framework compatibility；
+- cluster utilization。
 
-## 4. 情景分析、反方与可检验指标
+### Deployment
+- frontier workload；
+- data-center power；
+- real system scale。
 
-本附录建议的追踪清单只使用已有口径，不新增未核验的目标值。情景是分支，不是已经开出的概率。
+只有这些指标共同改善，才能上调“中国 frontier AI parallel stack 已形成完整闭环”的判断。
 
-情景一：法国发出异议说明书。公开记录从「接近尾声」走到「已经指控」。英伟达进入答辩和口头听证，管理局委员会再裁定。这一情景改变的是程序位置，不自动改变出价。在异议说明书落地之前，216 亿仍然只是 L464-2 的天花板。可检验：Autorité de la concurrence 官网是否出现 communication des griefs 或处罚决定。
+## 9. Regulation
 
-情景二：法国结案，不发异议说明书。调查接近尾声的另一出口就是关掉。这一情景也不能写成「反垄断已经失败」——美国调查还在，欧盟问卷还在。可检验：官网是否出现 clôture / no further action 一类结案稿。
+法律状态必须按程序记录：
 
-情景三：美国司法部提出正式投诉。公开记录从调查走到 *United States v. NVIDIA*。能一夜改规则的工具这时才进法庭：拆分、禁令、强制互操作、禁止捆绑供货。传票和问卷本身不是这些工具。可检验：justice.gov 是否出现 Complaint、Competitive Impact Statement 或 Proposed Final Judgment，被告是不是英伟达。
+1. inquiry / information request
+2. investigation
+3. statement of objections / complaint
+4. formal proceeding
+5. final decision
+6. remedy / fine
 
-情景四：调查继续拖，国安约束继续在。这是 2026-08-26 公开记录已经呈现的状态。供应承诺已经加到 1,190 亿美元。只要毛利还在 71.1%–75.0% 这条带，预付款继续锁下一代。罚款若最终开出且不碰结构，就是成本。可检验：供应承诺是否继续加；毛利率是否离开这条带；10-K 是否还写对华数据中心「effectively foreclosed」。
+禁止：
 
-反方一：云买家足够大（微软 Intelligent Cloud 106,265 百万美元，2025 混年四云集团 Capex 已约 3,540 亿），可以用量压运动员 ASP，四角不必收束成单一租金。反方成立的条件是买家在「卖柜」上垫得过 71.1%–75.0%，或者联合预付款大到台积电不能只认一家。现在看到的是各自为战的加总，不是联合预付款。反方二：CSP只占Q4 FY25数据中心约50%，主权与企业自建会稀释“四云决定一切”。这条反方削弱的是“1,937亿全部来自四云”，也进一步说明该收入只能作为价值捕获代理，不能等同于全球全部算力租金。反方三：调查本身已经改变行为，Run:ai 开源、互联让一点、ASIC 能接入一部分网络，不必等到起诉。行为收敛如果发生，要写进下一季的产品文档和供货条款，不能用「调查存在」反推「捆绑已经解除」。反方四：国安也可以反过来要求拆分，以免单一供应商变成单点故障。公开文件目前写的是供给链安全与多样性，没有「因此拆英伟达」的令。把这条反方写成已经发生的政策，不允许。
+- inquiry → “已经起诉”
+- statutory ceiling → “即将罚款”
+- merger review → “已经认定垄断”
 
-建议逐年（或逐财年）核对并回填的指标：
+监管真正影响模型的变量是：
 
-1. Nvidia 总收入、数据中心收入、GAAP 毛利率、营业利润、自由现金、供应承诺。对照 FY26 的 215,938 / 193,737 / 71.1% / 130,387 / 96,575 / 952 亿，以及 Q1 FY27 末 1,190 亿。
-2. 四云各自现金流量表设备购置（微软 Additions to property and equipment，亚马逊净额，Alphabet 购置，Meta 购置与公司口径分开）。对照混年 2,119～2,139 亿与 3,540～3,565 亿。不要再写「AI 硬件 2,150 亿」。
-3. 司法部：justice.gov 是否出现 *United States v. NVIDIA*。没有就继续写「调查在，起诉不在」。
-4. 法国：异议说明书或结案稿有没有出现。没有就继续写「接近尾声，异议说明书没发」。
-5. 欧盟：101/102 正式立案稿、异议说明书或罚单有没有出现。没有就继续写「问过卷，没有正式立案」。Run:ai 保持无条件批准；T-15/25 是管辖权诉讼，单独追踪。
-6. 10% 乘积：只用法定上限乘上年报，标注「不是罚单」。美国侧不抄这条。
-7. 国安文件：NSM、BIS、国防部战略是否还把先进芯片和大集群写成许可证项；10-K 对华数据中心句是否还在。不把它们写成「不拆令」。
-8. 台积电收入、毛利率、HPC 占比、第一客户占比、封装加测试占比。对照 2025：HPC 58%、第一客户 19%、封装加测试略超 10%。CoWoS 月产能 1.3 万→13 万及独占 60% 不进 A 级。
-9. 海力士收入、营业利润率、HBM 收入是否还写「一年翻倍以上」。营业利润不要写进毛利率列。
-10. 软件：有报告毛利率的 SaaS 是否向 85% 或 55% 任一端靠近。两端目前都无样本。
-11. 核电、并网、算法成本、BOM：全部保持 D 级，回[第十三卷](vol-13.md)、[第六卷](vol-06.md)、[第二卷](vol-02.md)。本卷未重核合同与论文。
+- interface openness；
+- tying restriction；
+- supply discrimination；
+- structural remedy。
 
-反方把工程 BOM 和 10-K 印在同一张「证据附录」会制造精度幻觉。正确做法是分册——财务一册、工程一册、监管程序一册、声称一册。本卷已经按 A/B/C/D 分级，并把监管程序单独成节，就是接受这一反方。
+## 10. Capital-Clearing Signals
 
-## 5. 研究边界与未确认事项
+S4 Capital Hard Landing 重点监测四组指标。
 
-- 本卷未逐页核对 10-K / 20-F / 台积电、海力士年报原文。已核点估计来自 IR / Exhibit 99.1 / 总判已抄官方句。不得声称「经本卷核对」。
-- Microsoft 早期版本周期与收入、Capex 均为模糊格子，已废弃；Azure 超 750 亿美元是公司口头量级，不是现金流量表格子。
-- AWS、Google Cloud 缺精确分部收入。Amazon 6,201 亿、Alphabet 3,497 亿是集团总收入，不能和 Nvidia 数据中心横比。
-- 2,150 亿与 450~550 亿折旧不能在本卷内闭合验证。混年复加只能写到 2,119～2,139 亿（2024）和 3,540～3,565 亿（2025）。2026 已不再缺微软公开口径，但四家仍不是同一会计口径，不能把 6,700–7,500 亿升级为统一AI硬件实际值。
-- 海力士把营业利润写进毛利率列，属早期情景表结构问题。「约 250 亿美元」是换算，官方韩元是 32.7657 万亿。
-- BOM、MFU、训练美元、CoWoS 产能、核电 MW 都不是 SEC 财务事实，也不是反垄断认定。
-- 「全球半导体与算力市场」标题下没有 WSTS、IDC 或任何第三方市场总量。缺行业规模时间序列。
-- 司法部起诉、和解、拆 Mellanox、强制开 CUDA：还没发生。传票报道与公司否认并存，以司法部文书为准。
-- 法国异议说明书、法国或欧盟罚单：还没发生。「接近尾声」不是「即将发指控」。
-- 「即将开出年营收 10%」——那是法条天花板。美国谢尔曼法没有这一条。
-- 白宫 / 五角大楼已经发文禁止拆分：没有这份文件。国安下拆分难下手是推演。
-- 「四云 2024 年 AI 硬件 Capex = 2,150 亿」；「1,937 亿全部来自这四家」；把混年 Capex 和 DC 收入对敲成租税率。
-- 80% 加速器份额：媒体和卖方口径，不是司法部相关市场界定。
-- 「一家融 10 亿就有 7–8 亿进黄仁勋口袋」：没有分拆表。
-- 任何向前的数字外推：未核验，不得作为已确认事实。
+### Accounting
+- impairment
+- inventory write-down
+- accelerated depreciation
 
-如果系统栈替代、第二供应源、供给扩张、互操作开放等打断条件长期不能闭环，而预付款和Anchor Buyer Demand继续强化，则S3资源霸权情景权重上升；反之则向S1/S2回落。附录能做的，是不让调查、法条上限和混年加总，在下一轮引用里再膨胀成已经发生的救济和已经核对的 AI 硬件账单。
+### Utilization / Revenue
+- compute utilization
+- AI workflow revenue
+- revenue per deployed compute
 
-后续更新遵循“状态变化才改判断”的原则。美国司法部在没有正式诉讼文件前保持“调查”状态；法国程序仅在异议说明书、正式决定或结案出现时更新；欧盟问卷、Run:ai 无条件批准与 T-15/25 管辖权诉讼分别记录，不合并为“欧盟已经立案”。FY26 NVIDIA Data Center revenue 与四云各自 CapEx 保持不同会计口径，不直接画等号；供应承诺以法定申报为准，不以传票或媒体报道替代。
+### Market Clearing
+- second-hand system price
+- cloud discount
+- lead time
+
+### Forward Commitment
+- CapEx guidance
+- supply commitments
+- long-duration compute contracts
+- power contracts
+
+只有多组信号同步恶化，才足以把 S4 从压力测试升级为主情景。
+
+## 11. 证据等级快速表
+
+| 证据 | 等级 |
+|---|---|
+| NVIDIA / TSMC / Micron 官方披露 | A |
+| 政府、监管、法院、正式合同 | A |
+| TrendForce / OECD / IEA / Stanford HAI | B |
+| 投行、供应链、媒体估计 | C |
+| 5.39 CoWoS wafers/rack | D |
+| hypothetical rack-count demand | D |
+
+## 12. 更新原则
+
+未来每次更新报告时，只问三件事：
+
+1. 哪个事实发生变化？
+2. 它改变了哪一个机制变量？
+3. 它是否足以改变 S1–S4 的相对判断？
+
+这样可以避免因为一条新闻重新改写整套产业叙事。
+
+本卷的价值不是“拥有最多数字”，而是确保整份报告的判断可以被现实持续校准。
