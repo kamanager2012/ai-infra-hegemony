@@ -1,65 +1,220 @@
-# 第二十卷：最终战略报告（第一阶段总结：企业转型、投资对冲与国家政策行动指南）
+# 第二十卷：战略含义——企业、资本与国家如何应对 AI 基础设施重构
 
-全案终章、个人/企业/国家怎么活十年，见[第四十卷](vol-40.md)。终局开关与稀缺段过半，见[第十五卷](vol-15.md)。折旧墙打在哪几年，见[第三十卷](vol-30.md)。本卷只写第一阶段：三端各自该对冲什么、不用对冲什么。不发明仓位，不发明目标价，不把 2036 情景树当成已经发生的外交现实。
+## 1. 战略建议必须建立在机制上
 
-## 1. 本卷要回答的问题
+前十九卷得到的核心结论不是“押注某一家赢家”，而是三个可检验机制：
 
-到第二十卷，前十九卷真正能转化成行动的，不是再讲一遍“三堵墙”。企业面对的是系统栈迁移、硬件折旧和存储残量；投资面对的是价值捕获集中在少数物理瓶颈；国家面对的是电力、先进制造、开放迁移和第二供应源。主线不是“谁一定赢”，而是：高回报买方更有能力预占新增资源；非AI行业拿到的是优先分配后的残量；系统栈替代、供给扩张与监管决定这条强化回路能否被打断。
+1. 稀缺层价值捕获正在上升；
+2. system-stack competition 替代单芯片竞争；
+3. AI demand 正在改变 memory、packaging、power 与 CapEx 结构。
 
-FY26、台积电 2025、海力士 49%、供应承诺 952→1,190、四云混年口径，全部已经写在总判和[第一卷](vol-01.md)。本卷不再抄财务表。
+因此，企业、资本和国家的战略目标都应围绕：
 
-## 2. 早期战略框架与当前修正版
+- reducing dependency；
+- increasing optionality；
+- securing scarce resources；
+- improving utilization。
 
-早期版本把权力过度压缩成毛利率、统一CapEx和单点成本涨幅。当前版本改为三条可检验机制：上游稀缺段的价值捕获与产能预占；云与模型公司通过系统栈和长期容量承诺争夺平台权力；下游消费电子与制造业通过 Non-AI Residual Capacity 承受成本传导。战略原句是：企业建立多芯片与多模型弹性调度、聚焦可产生商业价值的工作流、避免专有 API 锁定；投资超配先进封装耗材、液冷 CDU、数据中心核电与电网并网指标；国家将电力基建与先进制程攻关并重，以架构与算法杠杆撬动硬件封锁。
+## 2. 企业：避免把模型能力等同于单一供应商
 
-2,150亿、20%～30%、传统SaaS 85%与AI软件55%、整柜ASP 260万～330万、软件溢价40%～45%、早期2036概率表，都只保留为历史压力测试，不再承担正式模型功能。混年全集团设备购置约 2,119～2,139 亿，不是「AI 硬件 2,150 亿」。450～550 亿年折旧是 4 年硬件加 15 年土建的模板，不是四家 10-K 资产分类加总。
+企业采用 AI 时最重要的基础设施原则是 **portability**。
 
-## 3. 企业端：对冲的是把地租当成自己的毛利
+关键能力包括：
 
-云已经替全行业垫了 2,150 亿美元量级的 Capex（早期情景数字）。企业若按列表价把专有模型 API 写进核心工作流，等于在 Nvidia 75.0% 与云折旧之上再叠一层锁定。TrendForce 2026-08-25：主要 CSP 的 DRAM+NAND 将占 2026 年总 CapEx 的 47%，2027 年 68%。企业付的云账单里，会有越来越大一截是内存溢价，不是自己能控制的 Token 折扣。
+- multi-model routing；
+- multi-cloud deployment；
+- data portability；
+- open interface；
+- workload benchmarking；
+- cost observability。
 
-早期版本给的技术反例是 MLA / MoE 与多芯片调度：不是让企业自建万卡集群，而是让同一工作流可以在不同模型、不同芯片上被替换。DeepSeek-V3 官方技术报告确认完整正式训练2.788M H800 GPU hours，按论文假设折算约557.6万美元，说明“更低正式训练计算账单”至少已经出现过一次；它不能保证下一次还成立，但足够否定“只有独家闭源 API 才有智能”的采购叙事。
+企业真正应该锁定的是：
 
-企业不能做的，是把“推理改堆商品 DDR5”写成战略。HBM+RDIMM 已经占 2026 DRAM bit 的 51%。RDIMM 在这 51% 里面。再堆 DDR5，是和手机 PC 抢已经在涨的残量，加税，不是开出一条新河。美光 10-K：同样 bit 的 HBM 要更多晶圆。Hot Chips 转述约 3× 硅。华强北 16G DDR5 450→1800 是渠道口述，说明残量税已经打到整机厂的采购单上。
+> 能产生可量化业务价值的 workflow。
 
-企业战略因此应写成：先选能直接减少人力或周期的工作流，再选可迁移的推理栈，最后才谈要不要预付算力；预付的时候把内存配额写成和 GPU 同等硬的门槛，而不是假设 DDR5 可以无限替代 HBM。顺序反了，就会在 2025—2028 折旧脊上替云和芯片厂商完成收入确认。
+而不是某个模型 API 本身。
 
-## 4. 投资端：对冲的是软件估值、硬件约束
+## 3. 企业：用 AI Software Unit Economics 管理成本
 
-利润池已经显示在表上：Nvidia 毛利率 75.0%（FY25；FY26 全年 71.1%，Q4 回到 75.0%），台积电 2025 毛利率 59.9%，海力士 FY25 营业利润率 49%。超配封装耗材、CDU、核电与并网指标，逻辑是：这些物件的供给弹性低于模型公司的 Token 价格弹性。现在还要加上：超配“能把晶圆变成 HBM 和 RDIMM 的原厂权利”，而不是超配“再开一条消费 DRAM 的故事”。
+每个 AI workflow 至少应计算：
 
-反过来说，超配“AI软件席位”不能只看席位数，而要看AI Software Unit Economics：推理、检索、工具调用、人审与AI云成本是否被ARPU和调用效率覆盖。第一阶段的投资指南不应发明新的目标价，只应承认：物理稀缺的证据等级（机柜 120 kW、CoWoS 紧、HBM 要更多晶圆、51% bit）高于软件增量收入的证据等级（350～500 亿美元那行是推演）。
+[
+Unit Economics=
+Revenue or productivity value
+-
+Inference
+-
+Retrieval
+-
+Storage
+-
+Tool/API
+-
+Human review
+]
 
-卖方把英伟达算进 CoWoS 约六成，台积电无分项，不能当成仓位公式。测算说明稀缺段在十万柜量级过半，不需要八十万柜。投资若用错池子，会把窗口看成还早得很。也不要把账面客户占比 19% 当成安全距离。新开的是 HPC 和封装。苹果锁的是手机逻辑。
+如果不能形成可验证的单位经济，AI adoption 很容易变成“功能使用量增长，但利润没有增长”。
 
-瓶颈方 60%～75% 是卖方毛利，不是买方收益率。投资人不应把这个数字理解成自己也能赚到。
+因此，企业部署 AI 应优先关注：
 
-## 5. 国家端：对冲的是只攻芯片、以及把三层当成一层
+- task completion rate；
+- cost per completed task；
+- human time saved；
+- error/review cost；
+- retention / revenue impact。
 
-出口管制改变可买集合，不改变光罩和 5～7 年排队。把先进制程攻关写成唯一国家任务，会漏掉早期版本已经写明的短板：没有封装配额就没有可装的 HBM，没有并网指标就没有可上电的 120 kW 柜。算法与架构杠杆是在硬件被切一刀之后的补偿，不是可以替代基荷电力的政策。能源三类项目分别是Crane约835MW、Susquehanna新版PPA最高1,920MW、Kairos最高500MW；它们处在不同兑现时钟，不能简单加总成已上电功率。相对“500柜即60～80MW”的中型集群压力测试看起来不小，相对全国排队 2,600 GW 则很小。2,600 GW 对不上官方合计，不进事实层。三笔合同细节见[第三十五卷](vol-35.md)。中国栈三层见[第十二卷](vol-12.md)。
+## 4. 企业：compute commitment 要与真实需求匹配
 
-当下能写进指南的，是出口清单与先进封装、HBM、EUV 同向收紧时，国内系统工程必须按“可获得器件”而不是“对标规格表”来设计。各自为战，就是把每年新开的线和封装让出去。要改分配，总判写了三笔：预付款大到不能只认一家；软件捆成一套；存储长协给通用颗粒留线。缺一笔，还是被各个击破。三笔都是方向，不是已经签成的条约。
+长期 reserved compute 可以降低供应风险，但也会创造资产负担。
 
-第一阶段不要把 2036 双轨情景当成已经发生的外交现实。那是 15% 概率的树支（早期情景数字，未核验）。
+企业不应仅因为“未来算力会短缺”就过度预订。
 
-## 6. 三种战略情景，和不做什么
+合理策略是：
 
-三种情景不配新概率：
+- high-certainty workload：长期 commitment；
+- uncertain workload：flexible cloud / spot / multi-provider；
+- latency-sensitive workload：靠近 production；
+- model experimentation：保持 portability。
 
-- **地租延续**：企业 Agent 收入覆盖 450 亿～550 亿美元年折旧（早期版本模板），内存再吃掉 CSP CapEx 的近半到三分之二。企业策略偏多模型，但仍要预留 CUDA 主路径；投资继续超配瓶颈实物和 HBM 权利；国家仍要把并网改革放在补贴模型公司前面，并把三层写进产业政策。
-- **算法破壁**：类似 93.3% KV 压缩的跳跃再现，硬件需求增速下降。企业应避免长周期算力预付；投资要能从封装与 HBM 主题里退出；国家避免按峰值需求去锁死核电与晶圆厂补贴。即便破壁，残量税也不会立刻消失：原厂已经把线转向高附加值，切回来要时间。
-- **硬着陆**：调用量跟不上 Token 降价，云砍单。企业把资本开支转回可迁移软件与自有数据；投资转向能活过一轮去库存的现金流资产；国家准备的是失业与资本开支塌缩，而不是继续以“抢芯片”为唯一叙事。消费电子会先看到回流，训练柜后看到。
+## 5. 企业：memory 与 bandwidth 不能被忽略
 
-反方：战略报告最容易变成“三端都要做所有事”。资源有限时，企业不需要自建核电，国家不需要指导单只股票的超配。另一反方是 ASIC 万能论：公开下一代不是退回商品 DDR5，见[第四卷](vol-04.md)。企业把宝押在“明年就能离开 Nvidia 系统并改堆 DDR5”可能过早，也看错了河。
+AI system procurement 不能只看 GPU count。
 
-不做什么：不把 2026 年 7,500 亿美元当预算事实；不把供应链 CoWoS 月产能当投资锚；不把微软营收区间当成精确 10-K；不把“安全挑战”写成已经完成的对齐评测；不要求企业在没有工作流 ROI 的情况下预付四年算力；不把改堆 DDR5 写成国家存储战略；不把长鑫 IPO 写成 HBM 供给函数；不写招股书里没有的月产能；不写 8.6 与 13.2；不把法定罚款天花板当成已经开出的罚单；不把调查当成起诉；不把四云混年加总改写成「AI 硬件 2,150 亿」。
+需要同时检查：
 
-## 7. 时间纪律
+- HBM capacity；
+- HBM bandwidth；
+- interconnect；
+- host memory；
+- storage；
+- network；
+- power。
 
-第十九卷已经说明，2026—2028 才是可对表的折旧、上电与残量窗口，2029 年以后证据变稀。因此企业不要签超出工作流验证期的算力长约，投资不要用 2036 年封装展望去定仓位，国家不要把尚未商运的 SMR 写成已经解决的基荷，也不要把尚未出现在招股书里的 HBM 写成已经解决的供给。把行动锁在第一段可观察的四年里，比写出一份十年愿景更接近“第一阶段总结”该有的克制。
+算法优化能降低 memory demand，但不能把 bandwidth constraint 从系统设计中删除。
 
-总判列的五条打断条件，第一阶段一条都没做成。战略报告的诚实写法是：在这五条做成之前，按稀缺段过半、残量加税、三层错位来行动；做成一条，再重写本卷，而不是现在就按“已经被打断”来配仓。做成一条之后怎么改十年战略，见[第四十卷](vol-40.md)。
+## 6. 资本：关注 scarce layer，而不是“AI”标签
 
-可检验指标：企业侧看关键工作流是否已能在两个以上模型或两家云之间切换，以及采购单里内存是否被当成和 GPU 同等的配额；投资侧看持仓是否真能映射到封装、CDU、核电运营商、HBM 原厂与并网相关资本开支，而不是主题 ETF 名称；国家侧看排队年限是否仍是 5～7 年、本土能否获得可统计的先进封装与 HBM 产出（长鑫招股书没有 HBM 行，故只能观察有没有新增原厂披露）。
+资本市场最容易犯的错误，是把所有与 AI 有关的公司都视为同一种资产。
 
-企业买的是可替换的工作流，不是不可替换的接口，也不买一条并不存在的 DDR5 新河。投资买的是仍然短缺的物理权利，不是故事本身的估值倍数。国家建的是电力、封装和分得清的三层，不是再发一份算力口号。谁先把这三句话做反，谁就会在 2025—2028 的折旧脊上替别人完成收入。
+真正需要区分：
+
+### Platform asset
+
+控制 system definition、software 和 customer ecosystem。
+
+### Scarce manufacturing asset
+
+foundry、HBM、advanced packaging。
+
+### Infrastructure asset
+
+powered land、grid、cooling、data center。
+
+### Application asset
+
+依赖 workflow、distribution 与 unit economics。
+
+四类资产的风险、资本强度和利润周期完全不同。
+
+## 7. 资本：CapEx 上升不是自动利好
+
+高 CapEx 可能意味着：
+
+- demand growth；
+- entry barrier；
+- future capacity；
+
+也可能意味着：
+
+- future depreciation；
+- overbuild；
+- low utilization；
+- stranded asset。
+
+因此，判断 AI infrastructure cycle 必须同时看：
+
+- CapEx；
+- utilization；
+- revenue；
+- FCF；
+- supply commitments；
+- clearing price。
+
+## 8. 国家：先进制造政策不能只补 fab
+
+如果国家只补 logic fab，而忽略：
+
+- HBM；
+- advanced packaging；
+- substrate；
+- power；
+- grid；
+- talent；
+- software migration；
+
+就无法形成完整 frontier AI system stack。
+
+国家竞争单位已经从“是否拥有一座先进 fab”上移到“是否拥有可持续部署完整 system 的能力”。
+
+## 9. 国家：power 是 semiconductor policy 的一部分
+
+120 kW-class rack 与 100 MW/GW-class campus 使电力成为 compute policy 的组成部分。
+
+因此，产业政策需要把：
+
+- chip incentive；
+- grid planning；
+- generation；
+- interconnection；
+- data-center permit
+
+放在同一个基础设施框架中。
+
+否则会出现：
+
+> 有 chip，没有可上电的 data center。
+
+## 10. 国家：开放迁移能力是战略资产
+
+如果一个经济体只依赖一套 software stack，供应中断会被放大。
+
+因此，国家与大型企业都应支持：
+
+- open compiler/runtime；
+- multi-architecture education；
+- portable model format；
+- interoperable networking；
+- cross-stack benchmark。
+
+目标不是排斥领先平台，而是降低单点 dependency。
+
+## 11. China parallel stack 的政策含义
+
+中国长期竞争力取决于能否同时扩展：
+
+- advanced logic；
+- HBM；
+- packaging；
+- interconnect；
+- software；
+- power。
+
+单点国产化无法形成完整 frontier AI capability。
+
+算法效率可以提高有限 hardware 的 effective output，但不能替代全部 physical layer。
+
+## 12. 当前战略结论
+
+对企业：
+
+> 提高 workload portability，先证明 unit economics，再锁长期算力。
+
+对资本：
+
+> 区分 platform profit、manufacturing scarcity、infrastructure duration 与 application economics。
+
+对国家：
+
+> 把 semiconductor、memory、packaging、software 与 power 作为一套 system policy。
+
+AI infrastructure 竞争最终不是“谁拥有最多 GPU”，而是谁能持续把 scarce physical resources 转化为高利用率、可迁移、可产生现金流的系统。
