@@ -115,9 +115,9 @@ long-duration model demand
 
 模型公司能否形成可持续利润，最终取决于：
 
-[
+```text
 Revenue per task > Total cost per task
-]
+```
 
 其中 Total cost 至少包括：
 
