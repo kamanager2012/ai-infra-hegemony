@@ -85,7 +85,7 @@ Geographically, advanced-packaging capacity is highly concentrated on Taiwan sit
 
 ### 3.8 Profit sits with the system definer, not in the packaging hall
 
-TSMC's 2025 gross margin was 59.9%, while company commentary has described packaging/test economics separately from the corporate average. The relevant framework is **scarce-layer value capture**, not a single "margin monopoly" score. A high-margin system vendor can have strong bidding power, yet foundries also optimize for customer diversification, utilization, geopolitics, long-run bargaining power, and capital returns. Packaging can be a binding quota without becoming the industry's largest profit pool.
+TSMC's 2025 gross margin was 59.9%, while company commentary has described packaging/test economics separately from the corporate average. The relevant framework is **scarce-layer value capture**, not a one-variable gross-margin rule. A high-margin system vendor can have strong bidding power, yet foundries also optimize for customer diversification, utilization, geopolitics, long-run bargaining power, and capital returns. Packaging can be a binding quota without becoming the industry's largest profit pool.
 
 If NVIDIA's cash flow, margins, and order certainty remain strong, its capacity to make prepayments and long-duration commitments remains high. That can tilt incremental scarce capacity toward it. But allocation is not a one-variable auction: price, order scale, prepayment, customer credit, utilization, roadmap certainty, supplier diversification, and geopolitics all matter. The report therefore watches incremental allocation rather than asserting that every rival must simply "pay more or get nothing."
 
