@@ -2,7 +2,7 @@
 
 Chinese original: [part2-07.md](part2-07.md)
 
-The depreciation wall hits 2025—2028. It does not automatically decide 2036. See [Volume 30](vol-30.md). Mixed-year four-cloud scope: `四云Capex口径核对.md`. This essay does not reopen 2150 as AI hardware. This essay only collects: the four-year depreciation template and cash-flow sensitivity, marked draft.
+The depreciation wall hits 2025—2028. It does not automatically decide 2036. See [Volume 30](vol-30.en.md). Mixed-year four-cloud scope: `四云Capex口径核对.md`. This essay does not reopen 2150 as AI hardware. This essay only collects: the four-year depreciation template and cash-flow sensitivity, marked draft.
 
 ## 1. The question this essay answers
 
@@ -16,15 +16,15 @@ Of the figures above, other than Nvidia FY25 revenue $130,497M, data center $115
 
 ## 3. Official profit and cash: the seller has already confirmed. The buyer is still building halls
 
-The evidence is [Volume 1](vol-01.md). This essay opened Nvidia's 2026-02-25 press release and Microsoft's FY25 cash-flow page. Figures match the evidence. This essay is not a full 10-K audit.
+The evidence is [Volume 1](vol-01.en.md). This essay opened Nvidia's 2026-02-25 press release and Microsoft's FY25 cash-flow page. Figures match the evidence. This essay is not a full 10-K audit.
 
-Profit, cash, and supply commitments: [Volume 1](vol-01.md). This essay takes only two sentences: the seller almost never carries the hall; it leaves the hall to the buyer. Bidding for capacity looks at operating income, not net income lifted by marks. On the same Microsoft FY25 cash-flow statement, purchases $64,551M, depreciation, amortization, and other $34,153M. That depreciation row is the official depreciation this essay's stress test can take into the fact layer.
+Profit, cash, and supply commitments: [Volume 1](vol-01.en.md). This essay takes only two sentences: the seller almost never carries the hall; it leaves the hall to the buyer. Bidding for capacity looks at operating income, not net income lifted by marks. On the same Microsoft FY25 cash-flow statement, purchases $64,551M, depreciation, amortization, and other $34,153M. That depreciation row is the official depreciation this essay's stress test can take into the fact layer.
 
 ## 4. Four-cloud capex: rows that can be re-added. $215B and $750B cannot add to official
 
-Each of the four reports its own. Line items and fiscal years do not align. Microsoft cuts on 30 June. The other three are calendar year. Figures from each IR / Exhibit 99.1. Scope: the already-checked `四云Capex口径核对.md` and [Volume 11](vol-11.md).
+Each of the four reports its own. Line items and fiscal years do not align. Microsoft cuts on 30 June. The other three are calendar year. Figures from each IR / Exhibit 99.1. Scope: the already-checked `四云Capex口径核对.md` and [Volume 11](vol-11.en.md).
 
-Mixed-year four-cloud: [Volume 8](vol-08.md) and `四云Capex口径核对.md`. This essay's stress test uses each firm's own row, not a mixed sum. Cannot be written as "four-cloud 2024 AI hardware capex = $215B," and cannot add the draft $670–$750B. Seller rent cannot be knocked against buyer PPE.
+Mixed-year four-cloud: [Volume 8](vol-08.en.md) and `四云Capex口径核对.md`. This essay's stress test uses each firm's own row, not a mixed sum. Cannot be written as "four-cloud 2024 AI hardware capex = $215B," and cannot add the draft $670–$750B. Seller rent cannot be knocked against buyer PPE.
 
 ## 4b. Why mixed-year cannot be divided by four
 
@@ -52,7 +52,7 @@ Geopolitically, dual-track expansion may let two overhangs appear globally at on
 
 Three-month commitments from $95.2B to $119.0B, an add of $23.8B, about four-tenths of Q1 FY27 operating income $53,536M. This is not a bet under cash stress. It is the person with the highest profit adding one more bin of prepayments. Official text writes substantially all will be paid through fiscal year 2027; of quarter-end $119.0B, public footnotes have written the remainder pays through 2028–2031. Same note: in certain instances, these agreements are cancellable, able to be rescheduled, or adjustable. Not every dollar is irrevocable. Do not write it as already buying TSMC's whole factory dead.
 
-Hypothesis from here: as long as gross margin stays in the 71%–75% bin, commitments will keep adding. Anyone else who wants the same material pays more, or does not get it. TSMC has no financial reason to offend the first name for the second. A neutrality pledge has no consideration in front of a check. If buyer usage later cannot fill, what is cut is their own depreciation and power contracts, not free cash the seller has already booked. What a stress test must truly watch is whether the buyer can cover already-taken depreciation with workflow cash; not whether the seller will fall from 75% first.
+Hypothesis from here: if seller cash flow, margin, order scale, and roadmap certainty remain strong, supply commitments can continue to rise. But rivals are not automatically priced out, and TSMC is not governed by a rule about "offending" one customer. Allocation depends on price, long-duration demand, prepayment, credit, utilization, diversification, geopolitics, and supplier bargaining power. A hard-landing stress test should therefore watch whether utilization and workflow revenue cover buyer depreciation **and** whether the next round of seller commitments slows, is rescheduled, or is cancelled.
 
 Microsoft's comparison kills this. Net income $101,832M, operating cash $136,162M, PPE added $64,551M in a year, D&A already at $34,153M. The cloud is not unarmed. This hundred billion builds halls. NVIDIA FY26 net income $120,067M is earned selling the scarce slice itself. In the same year's free cash $96,575M, $41.1B went back to shareholders; it itself spent only $6,042M on equipment. A seller stress test can almost never do "capex crushes itself." A buyer stress test can, at any time.
 
