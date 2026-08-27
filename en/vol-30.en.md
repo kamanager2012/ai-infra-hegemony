@@ -1,57 +1,206 @@
-# Volume 30: Depreciation Wall, Capital Clearing, and Long-Term Industrial Structure
+# Volume 30: The Depreciation Wall, Capital Clearing, and Long-Run Industry Structure
 
-Chinese original: [vol-30.md](vol-30.en.md)
+Chinese source edition: [vol-30.md](../vol-30.md)
 
-The four-scenario end-state framework is in [Volume 15](vol-15.en.md), the final strategic synthesis in [Volume 40](vol-40.en.md), cloud system-stack substitution in [Volume 25](vol-25.en.md), and China's layered parallel stack in [Volume 12](vol-12.en.md). This volume focuses on one mechanism: how short-lived compute assets and long-lived infrastructure create different capital-clearing clocks.
+> Retrieval and revision cutoff: **2026-08-27**. The “depreciation wall” is a capital-return mechanism, not a claim that one fixed dollar shock must occur in one predetermined year.
 
-## 1. The question this volume answers
+## 1. Depreciation is a capital constraint, not a calendar forecast
 
-Stack the physical walls and the depreciation wall already named in earlier volumes onto 2036. Who still stands at the bottleneck? This volume invents no new share numbers. It gives no 2036 revenue, share, or installed base. "Oligopoly concentration, edge decentralization, hard capital landing" in the table of contents can be scenario titles. They cannot be probabilities already issued.
+The depreciation-wall thesis is often simplified into:
 
-The endgame is not a company list. The endgame is whether three walls are still there. If the memory wall is still there, HBM and advanced-packaging pricing power will not return to the 2022 DRAM cycle. If the interconnect wall is still there, a fabric that can offer in-cabinet unified memory still collects system-level value-capture premium, whether or not the brand is still called NVIDIA. If the power wall is still there, high-power cabinets and multi-year interconnection keep nuclear and long-cycle power operators on the "bottleneck controller" line. All three constraints are already observable in current infrastructure markets; 2036 analysis asks whether they persist, migrate, or disappear. What this volume adds is the clock: depreciation on the 2024–2025 capex wave hits mainly in 2025–2028. It does not automatically decide who is still standing in 2036.
+> “A fixed amount of AI depreciation will hit profits in a specific year.”
 
-## 2. Evidence boundary for depreciation analysis
+The more defensible definition is:
 
-Depreciation analysis must separate disclosed accounting data from scenario templates. The following categories are not interchangeable:
+> **When hardware refresh cycles move faster than workload monetization, the asset burden lowers capital returns and pressures the buyer to reduce the next investment round.**
 
-- Bottleneck controllers (TSMC, NVIDIA, SK hynix, nuclear operators) enjoy 60%–75% gross margin and pricing power.
-- Clouds and model firms bear depreciation on 2024 $215B of capex and accelerate ASICs and algorithm cost-down.
-- Downstream consumer electronics and manufacturing bear chip purchase costs up 20%–30%, and replacement cycles lengthen.
-- After dense depreciation in 2025–2027, high-cost models that miss ROI are washed out; the industry enters a high-efficiency Agents mature period. Technical direction: CoWoS/CoPoS, CPO, MLA/MoE.
+Depreciation therefore has to be analyzed together with:
 
-Four-cloud CapEx is company-wide and uses different fiscal windows and accounting definitions. The 2024 mixed-year reconstruction is roughly **$211.9B–$213.9B**, while the 2025 mixed-year level is roughly **$354.0B–$356.5B**. A fixed **$45B–$55B** annual-depreciation estimate derived from a universal four-year hardware life is therefore only a stress-test template, not a sum of disclosed asset-class schedules. Unverified BOMs, software-premium estimates, monthly CoWoS capacity paths, and fixed SaaS-margin endpoints likewise remain outside the fact layer.
+- utilization;
+- revenue;
+- residual value;
+- next-generation CapEx.
 
-FY26, TSMC 2025, Hynix FY25, NVL72 single-cabinet spec, supply commitments 952→1,190, and the 10% statutory ceiling are already in the judgment and [Volume 1](vol-01.en.md). This volume does not copy them again.
+## 2. Hardware and infrastructure have different economic lives
 
-## 3. Mechanism: the depreciation wall decides 2025–2028. It does not automatically decide 2036
+AI investment includes:
 
-A short hardware depreciation schedule primarily affects the years following deployment, but it does not determine the 2036 industrial structure. Long-run outcomes depend on whether second and third investment waves arrive, whether workload utilization remains high, and whether newer systems economically obsolete older assets before accounting depreciation ends.
+- accelerators and servers;
+- networking;
+- data-center shells;
+- cooling;
+- grid infrastructure;
+- power contracts.
 
-If the Agents mature period holds and inference cheapens through MLA-class methods, capex may shift from "bid for training fabric" to "buy power and packaging." If Agents miss enterprise ROI, the second capex wave does not come, and bottleneck-party gross margin of 71.1%–75.0% falls first. This volume does not forecast which path happens. What is testable: whether four-cloud group capex falls two years running; whether NVIDIA data-center revenue leaves the FY26 $193,737M magnitude; whether gross margin leaves the 71.1% to 75.0% band. The last two are comparison only, not a forecast.
+These assets do not share one useful life.
 
-The depreciation wall and scarce-resource concentration are different mechanisms. Resource concentration asks how incremental CoWoS, leading-edge logic, and HBM are allocated across buyers; the depreciation wall asks when already-deployed PPE becomes expense and whether utilization supports another investment wave. The first mechanism is treated in [Volume 15](vol-15.en.md); the second is concentrated in the 2025–2028 window for the current build cycle and does not by itself determine 2036.
+A universal “four-year straight-line depreciation” model is therefore inappropriate for the entire AI-infrastructure stack.
 
-## 4. Winner portraits can only be written as functions, not market caps
+The key risk is **duration mismatch**:
 
-Function seats already named in the judgment and earlier stress-test material. No 2036 market cap or share:
+> **shorter-cycle hardware vs. longer-cycle infrastructure**
 
-- Manufacture and packaging: who can still expand CoWoS-class advanced packaging and decide who gets the increment. TSMC itself only admits a rising packaging-and-test share and tight CoWoS. Sell-side research puts NVIDIA at about 60% of 2026 CoWoS. That is not a TSMC split. The direction is the same line. 1.3万→13万 wafers is not a TSMC disclosure.
-- **Memory:** whether HBM remains a scarce layer. Micron provides first-party evidence that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity; SK hynix reported HBM revenue more than doubling year over year.
-- System stack: who can combine rack/pod standards, scale-up and scale-out interconnect, compiler/runtime, workload software, and data-center deployment into a deliverable compute system. Compute & Networking in FY25 was $116,193M, a neighboring segment, not an reported software-tax value. FY26 Data Center splits into Compute $162,361M and Networking $31,376M.
-- Power: who holds executable contracted baseload and interconnection, not merely a queue number. Contract detail on 835 MW / Susquehanna's revised **1,920 MW** long-term PPA / 500 MW: [Volume 35](vol-35.en.md). Contracted capacity, planned capacity, actual energized load, and utilization are not interchangeable.
-- **Algorithmic efficiency:** whether lower compute per completed workload reduces infrastructure demand faster than workload volume expands.
-- **Edge and Physical AI:** whether low-power deployment and physical-system economics create a separate demand curve from data-center infrastructure.
+The mismatch becomes more severe when the workload or architecture changes before the long-duration asset has earned an adequate return.
 
-Loser portraits can only be written as mechanism too. Seat-based SaaS that cannot rewrite an 85% gross-margin story into a measurable workflow will be punched through by usage cost. 85%→55% has no sample. Do not treat it as a statistic. Consumer-electronics whole machines that keep eating a memory residual pressure and a lengthened replacement cycle are not AI demand. They are the supply side being siphoned. Channel-verbal 16G DDR5 from 450 to 1800 is not a 10-K. It only shows residual DRAM supply are rising in price. Snapdragon 8 Elite $180–$190 and replacement cycles above 40 months are earlier stress-test values. This volume did not re-check ASP.
+## 3. Where capital pressure appears first
 
-Microsoft especially cannot be written as a loser. Intelligent Cloud FY25 $106,265M; Azure above $75B, up 34% year on year. Xbox can thin. Azure will not. Sony thinning and Microsoft thinning are not the same sentence. An endgame "Sony becomes a software games brand" can be marked as a scenario. Delete that sentence for Microsoft.
+When demand is weaker than expected, the fastest-moving adjustments are usually:
 
-The sales unit has already moved up from the chip to the rack, but the **endgame competition unit is now the system stack**: rack or pod, interconnect, compiler/runtime, workload software, and data-center deployment together determine deliverable compute. Official rack reference remains 72 GPUs, 36 Grace CPUs, 13.4 TB HBM, and 17 TB LPDDR. Q4 FY25 Blackwell revenue of $11.0B shows the increment is already counted by platform generation rather than by one card.
+1. next-generation hardware orders;
+2. inventory;
+3. second-hand system prices;
+4. discretionary expansion.
 
-Cloud system stacks now attack interconnect, software, rack/pod standards, and runtimes—not only the accelerator die. As of **FY27 Q2**, however, that diversion had not appeared as a structural collapse in NVIDIA: quarterly Data Center revenue was **$89.0B** and GAAP gross margin **75.0%**. This does not prove cloud alternatives have failed; it means the contest must be measured at the system level and over time.
+The slowest-moving assets include:
 
-Prepayments and supply commitments reserve upstream resources; PPE builds halls and infrastructure. They are different accounting lines but jointly determine future deliverable compute. The report's 5.39 CoWoS wafers-per-rack coefficient remains a D-grade pressure-test estimate, not a TSMC disclosure. The 10k / 30k / 50k rack tonnage examples are hypothetical counts multiplied by official rack specifications, not disclosed shipments and not 2036 installed-base forecasts.
+- power contracts;
+- data-center shells;
+- grid assets.
 
-## 5. What this volume does not write
+Capital clearing therefore has a sequence.
 
-It does not retell the five interrupts (see the judgment and [Volume 13](vol-13.en.md), [Volume 11](vol-11.en.md)). It does not reopen the official Maia / TPU / Trainium / MTIA spec table ([Volume 4](vol-04.en.md)). It does not collapse China's layered parallel stack into a single substitution claim ([Volume 12](vol-12.en.md)), and it does not treat seller-side Data Center revenue as a universal measure of global compute economics ([Volume 8](vol-08.en.md)). It does not write 2036 as a timetable already issued.
+Short-duration assets reprice first; long-duration obligations remain.
+
+## 4. CapEx cannot be interpreted without utilization
+
+The same **$100B** of CapEx can represent very different economics.
+
+At high utilization, it can be a productive growth asset.
+
+At low utilization, it can be excess capacity.
+
+The capital-cycle model therefore needs variables such as:
+
+```text
+Revenue / Deployed Compute
+```
+
+and:
+
+```text
+Utilization
+```
+
+CapEx alone is not enough.
+
+## 5. Second-hand prices are important clearing signals
+
+Financial statements can lag market conditions.
+
+Second-hand GPU and system prices can reveal:
+
+- oversupply;
+- generational obsolescence;
+- weaker demand.
+
+If a new generation causes the residual value of the previous generation to fall sharply, the buyer's **economic depreciation** can accelerate even if accounting schedules do not change immediately.
+
+Market-clearing prices are therefore useful S4 indicators.
+
+## 6. Algorithmic efficiency can accelerate economic obsolescence
+
+If a new model architecture delivers the same workload with less:
+
+- HBM;
+- FLOPS;
+- network traffic;
+
+then an older system can become economically obsolete before it becomes physically unusable.
+
+This is **economic obsolescence**.
+
+It can be more important than accounting depreciation in a rapidly changing technology cycle.
+
+## 7. Long-duration power assets move in the opposite direction
+
+Power and data-center infrastructure have much longer durations.
+
+Under sustained AI demand, they can become scarce and valuable assets.
+
+Under **S4 Capital Hard Landing**, the same assets can become stranded.
+
+A long-duration PPA can therefore be:
+
+- a moat in S2 or S3;
+- a burden in S4.
+
+Asset value depends on the future workload that actually uses the infrastructure.
+
+## 8. Which firms can survive the capital cycle best?
+
+Stronger positions generally combine one or more of:
+
+- high utilization;
+- diversified workloads;
+- strong free cash flow;
+- flexible system stacks;
+- low financing cost;
+- ownership of scarce assets.
+
+System platforms, hyperscalers, power-asset owners, and foundries therefore experience the same cycle differently.
+
+Their balance sheets and risk clocks are not interchangeable.
+
+## 9. Model-company capital fragility
+
+A model company that locks large amounts of long-duration compute without creating stable revenue can face:
+
+- take-or-pay obligations;
+- financing pressure;
+- contract renegotiation;
+- dilution.
+
+The **Anchor Compute Buyer Effect** therefore creates both growth and concentration risk.
+
+Demand certainty makes projects financeable, but weak monetization can turn the same commitment into a liability.
+
+## 10. 2036 cannot be derived directly from 2026 depreciation
+
+One investment wave eventually depreciates.
+
+The industry structure in 2036 will depend on:
+
+- whether second and third buildout waves occur;
+- workload demand;
+- system substitution;
+- power;
+- China's parallel stack;
+- regulation.
+
+A single depreciation cycle cannot determine which companies dominate a decade later.
+
+Long-run structure is shaped by repeated investment and clearing rounds.
+
+## 11. AI does not disappear after capital clearing
+
+Even if **S4 Capital Hard Landing** occurs, the installed infrastructure still exists.
+
+Historical fiber, telecom, and cloud cycles show a recurring pattern:
+
+**capital overbuild  
+→ asset-price decline  
+→ lower access cost  
+→ new applications**
+
+AI infrastructure can follow a similar path.
+
+Capital losses and long-run AI usage growth are therefore not contradictory.
+
+## 12. Current judgment
+
+As of **August 2026**, the evidence is insufficient to say that AI infrastructure has entered full capital clearing.
+
+The current state is better described as:
+
+> **CapEx expansion + rising ROI pressure**
+
+The combination that would materially strengthen S4 is:
+
+- falling utilization;
+- lower CapEx guidance;
+- declining supply commitments;
+- rapidly falling second-hand system prices;
+- increasing impairments;
+- weakening enterprise AI monetization.
+
+Only when several of these signals deteriorate together should S4 move from stress test to dominant current interpretation.
