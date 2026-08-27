@@ -131,13 +131,13 @@ Automotive chip 具有：
 
 真正需要计算的是：
 
-[
+```text
 Net productivity value
 =
 Productivity gain
 -
 Total AI adoption cost
-]
+```
 
 ## 9. 当前判断
 
