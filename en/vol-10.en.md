@@ -27,7 +27,7 @@ The relevant inputs are defined in the [Core Hypothesis Matrix](核心假设矩�
 
 ## 2. Why fixed probability tables are rejected
 
-Older versions used 40% / 30% / 15% / 15% discussion weights for several future states. Those numbers were not statistically calibrated world frequencies and are not part of the current framework.
+Older versions used uncalibrated discussion weights for several future states. Those weights were not statistically calibrated world frequencies and are not part of the current framework.
 
 The report instead asks which observable variables are moving toward or away from each state. This avoids false precision and allows the scenario system to be updated when new evidence appears.
 
