@@ -1,14 +1,14 @@
 # Volume 14: A map of winners and losers in the AI era (semiconductors, clouds, legacy SaaS, and terminal-hardware profit reallocation)
 
-Chinese original: [vol-14.md](vol-14.md)
+Chinese original: [vol-14.md](vol-14.en.md)
 
-The margin monopoly is in [Volume 1](vol-01.md) and the master judgment. The residual tax is in [Volume 5](vol-05.md) and [Volume 9](vol-09.md). Seat-license gross margin has no sample; see [Volume 27](vol-27.md). This volume does not recopy the financial tables. It only marks who collects profit and who is merely larger in revenue.
+Scarce-layer value capture and seller-side cash economics are in [Volume 1](vol-01.en.md) and the master judgment. The residual tax is in [Volume 5](vol-05.en.md) and [Volume 9](vol-09.en.md). Seat-license gross margin has no sample; see [Volume 27](vol-27.en.md). This volume does not recopy the financial tables. It only marks who collects profit and who is merely larger in revenue.
 
 ## 1. The question this volume answers
 
 Who in this round actually collects profit, and who is only larger in revenue while cash is sucked into halls and a residual tax? The draft of Volume 14 was boilerplate. The old expansion redrew the map as a four-layer industry catalog: semiconductors / cloud / SaaS / devices. Audit and the master judgment already changed the question. Winners are first the four corners themselves, and the hardware revenue, not a second profit pool in models. Next are the three memory makers and advanced packaging that the coach pulls along and that reprice to the floor. After that, power counterparties who can lock baseload into a long contract. The first wave of losers is phones, PCs, commercial PCs, and general-purpose servers that take the residual, plus CPUs whose profit center has been moved — a demotion, not an extinction. Traditional SaaS "gross margin compressed from 85% to 55%" has no company sample and no year. It does not enter this volume's fact layer. Extinction of consumer electronics as a class is marked as a scenario. It is not written as a loser list that already happened.
 
-What this volume nails is not another copy of the income statement. The margin monopoly is in [Volume 1](vol-01.md). The increment in HPC and booked 19% are in [Volume 4](vol-04.md). The binding line at CoWoS is in [Volume 24](vol-24.md). The four clouds cannot be used as a profit-pool denominator; the scope is in [Volume 8](vol-08.md). This volume only draws who collects rent and who pays the residual tax.
+What this volume nails is not another copy of the income statement. Scarce-layer value capture is in [Volume 1](vol-01.en.md). The increment in HPC and booked 19% are in [Volume 4](vol-04.en.md). The binding line at CoWoS is in [Volume 24](vol-24.en.md). The four clouds cannot be used as a profit-pool denominator; the scope is in [Volume 8](vol-08.en.md). This volume only draws who collects rent and who pays the residual tax.
 
 ## 2. What the draft already claimed (compressed; key numbers kept)
 
@@ -24,7 +24,7 @@ The draft has no industry-by-industry profit-pool table, no named loser list, an
 
 ### 3.1 Profit, increment, the binding line, and foundry share
 
-The margin monopoly is in [Volume 1](vol-01.md). The increment in HPC and booked 19% are in [Volume 4](vol-04.md). The binding line at CoWoS is in [Volume 24](vol-24.md). Foundry share 72% is in [Volume 4](vol-04.md). This volume does not reopen them. It only draws winners and losers: who collects rent, who pays the residual tax.
+Scarce-layer value capture is in [Volume 1](vol-01.en.md). The increment in HPC and booked 19% are in [Volume 4](vol-04.en.md). The binding line at CoWoS is in [Volume 24](vol-24.en.md). Foundry share 72% is in [Volume 4](vol-04.en.md). This volume does not reopen them. It only draws winners and losers: who collects rent, who pays the residual tax.
 
 ### 3.5 Winners: four-corner hardware, plus the three who follow the price, plus packaging
 
@@ -52,11 +52,11 @@ Traditional seat-license software gross margin from 85% to 55% is a draft assert
 
 ### 3.7 Clouds are buyers. The depreciation book is harder
 
-The four clouds are scale winners and conditional profit winners, not sellers bidding against 75%. Capex scope is in [四云Capex口径核对](四云Capex口径核对.md). NVIDIA revenue and four-cloud capex cannot be knocked against each other. The two sides are different accounts. Cloud ASICs have not retreated to 5nm plus commodity DDR5. Specs are in [Volume 4](vol-04.md). The winner condition is AI incremental revenue covering hardware depreciation without punching through group gross margin. The loser condition is capex ahead of workflow monetization, the cloud becoming a utility that keeps accelerators for customers.
+The four clouds are scale winners and conditional profit winners, not sellers bidding against 75%. Capex scope is in [四云Capex口径核对](四云Capex口径核对.md). NVIDIA revenue and four-cloud capex cannot be knocked against each other. The two sides are different accounts. Cloud ASICs have not retreated to 5nm plus commodity DDR5. Specs are in [Volume 4](vol-04.en.md). The winner condition is AI incremental revenue covering hardware depreciation without punching through group gross margin. The loser condition is capex ahead of workflow monetization, the cloud becoming a utility that keeps accelerators for customers.
 
 ### 3.8 Geopolitics: two winner tables. The China market cannot save global cabinets
 
-Firms that can enter CUDA and advanced packaging keep collecting dollar rent. In regions locked out by controls, winners become systems integrators and algorithm firms on a substitute stack. Their margin band does not automatically equal 75%. The China market cannot save global cabinets. The closed loop is in [Volume 12](vol-12.md). The five interrupts are in [Volume 8](vol-08.md). The case file is in [Volume 11](vol-11.md).
+Firms that can enter CUDA and advanced packaging keep collecting dollar rent. In regions locked out by controls, winners become systems integrators and algorithm firms on a substitute stack. Their margin band does not automatically equal 75%. The China market cannot save global cabinets. The closed loop is in [Volume 12](vol-12.en.md). The five interrupts are in [Volume 8](vol-08.en.md). The case file is in [Volume 11](vol-11.en.md).
 
 ## 4. Analysis addendum (scenarios, objections, testable marks)
 
