@@ -73,15 +73,15 @@ On the China stack, use the layered framework in [Volume 12](vol-12.en.md). Chin
 
 ### 3.5 Antitrust is not a shortcut. A fine does not change the bid
 
-The case file: [Volume 11](vol-11.md) and [Volume 31](vol-31.md). What can change the rules overnight is not the second name. It is a breakup, forced interoperability, a ban on bundled supply. A fine does not change the bid. The investigation is there. A complaint is not.
+The case file: [Volume 11](vol-11.en.md) and [Volume 31](vol-31.en.md). What can change the rules overnight is not the second name. It is a breakup, forced interoperability, a ban on bundled supply. A fine does not change the bid. The investigation is there. A complaint is not.
 
 ### 3.6 compute-platform value capture: the application layer grinds. The backend collects
 
-value capture and four-cloud scope: [Volume 8](vol-08.md). The closing chapter only leaves the direction: a slice of cloud capex becomes cabinets, then becomes seller revenue. The application layer grinds. The backend collects value capture. Phones and PCs that buy no accelerator still pay a memory residual pressure. The world is not blowing open. It is an upgrade parked on the next-lower node, with rules set by one firm.
+value capture and four-cloud scope: [Volume 8](vol-08.en.md). The closing chapter only leaves the direction: a slice of cloud capex becomes cabinets, then becomes seller revenue. The application layer grinds. The backend collects value capture. Phones and PCs that buy no accelerator still pay a memory residual pressure. The world is not blowing open. It is an upgrade parked on the next-lower node, with rules set by one firm.
 
 ### 3.7 Five interrupt paths. None of them has been done
 
-The five interrupts: [Volume 8](vol-08.md). If they are not done, the line walks the scarce slice past halfway. The window is these few years before next-generation first silicon is locked by commitments. The engine has not changed: demand pushes profit, profit pushes prepayments, prepayments lock capacity. That is a hypothesis from the present, not a filing sentence that already happened.
+The five interrupts: [Volume 8](vol-08.en.md). If they are not done, the line walks the scarce slice past halfway. The window is these few years before next-generation first silicon is locked by commitments. The engine has not changed: demand pushes profit, profit pushes prepayments, prepayments lock capacity. That is a hypothesis from the present, not a filing sentence that already happened.
 
 ### 3.8 Endgames carry branches, not faith, and not forged probabilities
 
@@ -143,11 +143,11 @@ the system platform decides who can pay for a cabinet. Individuals almost cannot
 
 the software/runtime layer decides the stack-switch cost pressure. If individuals and firms can deliver on only one stack, the cost pressure is paid yearly. If a country's training system teaches only one software/runtime ecosystem, a dual-track scenario can create immediate migration and talent bottlenecks. A forced opening of CUDA can change the rules overnight. On the public record it has not been done.
 
-the supply-coordination layer decides who gets next year's newly opened line. Individuals cannot touch the supply-coordination layer corner. What a firm can show is only a long contract and a prepayment. A national-statute fab that does not also build packaging and materials is a high-cost copy. Packaging tightness: [Volume 24](vol-24.md).
+the supply-coordination layer decides who gets next year's newly opened line. Individuals cannot touch the supply-coordination layer corner. What a firm can show is only a long contract and a prepayment. A national-statute fab that does not also build packaging and materials is a high-cost copy. Packaging tightness: [Volume 24](vol-24.en.md).
 
 The model player is an extension of power, not a second profit pool. An individual who locks a workflow into a proprietary API is turning themselves into this corner's distribution. A firm that treats "we have a large model" as a moat is treating the fourth moat as the first.
 
-The first siphon wave: [Volume 22](vol-22.md), [Volume 33](vol-33.md). Individuals replacing devices more slowly is how value capture reaches the terminal. It is not a statistic that "AI jobs disappeared."
+The first siphon wave: [Volume 22](vol-22.en.md), [Volume 33](vol-33.en.md). Individuals replacing devices more slowly is how value capture reaches the terminal. It is not a statistic that "AI jobs disappeared."
 
 How to read the window: do not invent new figures. The gates are each volume's testable items. If the gates have not moved, the closing chapter does not change the three strategic sentences.
 
