@@ -62,7 +62,8 @@ AI infrastructure 的资本风险来自：
 真正需要观察的是：
 
 [
-Economic Return =
+Economic Return
+=
 Revenue from deployed compute
 -
 Depreciation
