@@ -1,4 +1,4 @@
-# Volume 28: AI and the robot revolution
+# Volume 28: Two thermodynamic regimes (BOM 35/20/25; Thor versus 120 kW)
 
 Chinese original: [vol-28.md](vol-28.md)
 

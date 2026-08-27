@@ -1,4 +1,4 @@
-# Volume 40: Final strategy report (closing chapter of the full case: personal survival rules, corporate moats, and national strategy for the next decade)
+# Volume 40: Three closing sentences (persons stand on constraints; firms queue moats by difficulty; states admit a single point cannot be copied in a decade)
 
 Endgame switches: [Volume 15](vol-15.md). Phase-one three ends: [Volume 20](vol-20.md). This volume is the closing chapter of the full case. It only synthesizes. It does not reopen financial tables, the case file, or prospectuses.
 

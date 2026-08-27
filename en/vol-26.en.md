@@ -1,4 +1,4 @@
-# Volume 26: Power between model firms and compute platforms
+# Volume 26: Model firms have two attachments (change the cloud, change the invoice header, not the memory type)
 
 Chinese original: [vol-26.md](vol-26.md)
 

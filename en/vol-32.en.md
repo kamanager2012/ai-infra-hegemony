@@ -1,4 +1,4 @@
-# Volume 32: NVIDIA deep teardown
+# Volume 32: The moat is 72 cards welded into one unified memory (BOM demoted; die-level versus cabinet-level)
 
 Chinese original: [vol-32.md](vol-32.md)
 

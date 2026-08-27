@@ -1,4 +1,4 @@
-# Volume 15: 2036 endgame for the global AI industry (the compute map and a new order of production ten years out)
+# Volume 15: The endgame is a switch, not a forecast (past half of the scarce slice, and allocation rights)
 
 Chinese original: [vol-15.md](vol-15.md)
 
