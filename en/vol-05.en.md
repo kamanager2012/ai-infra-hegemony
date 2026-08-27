@@ -33,7 +33,7 @@ FY26 and supply commitments: [Volume 1](vol-01.en.md). This volume does not reop
 
 Source: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 
-Official: 36 Grace, 72 Blackwell, 13.4 TB HBM3e, 17 TB LPDDR5. historical stress-test material wrote 13.8 TB, another scope of 72 times 192 GB, which does not match this product page. This volume uses the page's 13.4. The 17 TB of LPDDR is on the CPU side, not HBM, but it bids the same maker leading-edge capacity against the cabinet.
+Official: 36 Grace, 72 Blackwell, 13.4 TB HBM3e, 17 TB LPDDR5. earlier stress-test material wrote 13.8 TB, another scope of 72 times 192 GB, which does not match this product page. This volume uses the page's 13.4. The 17 TB of LPDDR is on the CPU side, not HBM, but it bids the same maker leading-edge capacity against the cabinet.
 
 Identity: demand equals cabinets shipped times the bill of materials per cabinet. NVIDIA does not report cabinet counts. Makers do not report full-year absolute bits. The arithmetic stops at scenarios.
 
@@ -43,7 +43,7 @@ Front-end logic is another line. Two B200 dies are about 800 mm² at the reticle
 
 ### 2.4 TSMC HPC 58%: which increment memory follows
 
-The platform table is in [Volume 4](vol-04.en.md). This volume does not reopen it. What can be confirmeded is that the strongest incremental demand is concentrated in HPC, HBM, and advanced packaging rather than in consumer devices. Memory vendors allocate product mix according to pricing, contract duration, utilization, customer relationships, diversification, and long-run returns; higher-value AI/server demand can therefore reduce the residual capacity available to consumer DRAM. This is a mechanism-level inference, not evidence that commodity supply has already fallen by a fixed percentage. No such fixed 40% reduction enters the fact layer.
+The platform table is in [Volume 4](vol-04.en.md). This volume does not reopen it. What can be confirmed is that the strongest incremental demand is concentrated in HPC, HBM, and advanced packaging rather than in consumer devices. Memory vendors allocate product mix according to pricing, contract duration, utilization, customer relationships, diversification, and long-run returns; higher-value AI/server demand can therefore reduce the residual capacity available to consumer DRAM. This is a mechanism-level inference, not evidence that commodity supply has already fallen by a fixed percentage. No such fixed 40% reduction enters the fact layer.
 
 ### 2.5 Evidence stack: 51% of bits and Micron's first-party ~3× wafer-supply trade ratio
 
@@ -105,7 +105,7 @@ Supply commitments: [Volume 1](vol-01.en.md). It names Hynix, Micron, and Samsun
 
 ### 3.3 ~3× is a disclosed industry trade ratio, not a universal fab constant
 
-historical stress-test material derived its own 3:1 ratio from an uncalibrated compound-yield sketch; that derivation is rejected. Independently, Micron's FY24 Q3 prepared remarks disclose that industry-wide HBM3E requires approximately 3× the wafer supply of DDR5 for the same bits at the same node, while the FY25 10-K confirms the direction. The company disclosure is usable as A-grade evidence, but it is still an industry trade ratio rather than a fab MES constant. 4:1 and 5:1 only earn the right to move from forecast to observation after 16-Hi is in volume and makers still say "one wafer counts as four." This volume does not write a sketch formula as a law of nature.
+earlier stress-test material derived its own 3:1 ratio from an uncalibrated compound-yield sketch; that derivation is rejected. Independently, Micron's FY24 Q3 prepared remarks disclose that industry-wide HBM3E requires approximately 3× the wafer supply of DDR5 for the same bits at the same node, while the FY25 10-K confirms the direction. The company disclosure is usable as A-grade evidence, but it is still an industry trade ratio rather than a fab MES constant. 4:1 and 5:1 only earn the right to move from forecast to observation after 16-Hi is in volume and makers still say "one wafer counts as four." This volume does not write a sketch formula as a law of nature.
 
 The logic base die lifts I/O and power out of the memory process. HBM starts to consume leading-edge logic. Halfway through the memory war it becomes a foundry war. If the base die runs 3nm or 5nm, every stack takes leading-edge logic again, and maybe packaging. TSMC packaging is already tight enough to limit customer growth. Base die and GPU die bid the same factory's back end. That is mechanism, not a disclosed base-die wafer count.
 
@@ -117,7 +117,7 @@ CXMT's prospectus: 0 mentions of HBM in a full-text search. 350k wafers per mont
 
 CXMT source is the SSE registration draft dated 20 May 2026: https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260520_C5DZ.pdf . Source 03 read it by text search. Full-text search for HBM in Chinese and English: 0 hits. Products write only DDR and LPDDR: DDR covers DDR4 and DDR5; LPDDR covers LPDDR4X and LPDDR5 / LPDDR5X. Process writes "first- through fourth-generation process platforms" and prints no node-nanometer label. The report does not infer a node name.
 
-Main-product mix (RMB 10,000s): 2025 DDR 1,953,128.56, 31.87%; LPDDR 4,070,354.50, 66.43%; other 104,054.15, 1.70%; main-product total 6,127,537.21. The two series sum to 98.30%. historical stress-test material writes that in the last three years main products were 99.74%, 98.97%, and 99.15% of revenue, mainly from these two series. There is no HBM line. 2024 and 2023 are likewise DDR plus LPDDR, with no HBM line.
+Main-product mix (RMB 10,000s): 2025 DDR 1,953,128.56, 31.87%; LPDDR 4,070,354.50, 66.43%; other 104,054.15, 1.70%; main-product total 6,127,537.21. The two series sum to 98.30%. earlier stress-test material writes that in the last three years main products were 99.74%, 98.97%, and 99.15% of revenue, mainly from these two series. There is no HBM line. 2024 and 2023 are likewise DDR plus LPDDR, with no HBM line.
 
 Three raised-fund projects: memory wafer manufacturing volume-line upgrade and rebuild, RMB 7.5B; DRAM technology upgrade, RMB 18.0B (RMB 13.0B proposed from the raise); DRAM forward-looking technology research and development, RMB 9.0B. Total RMB 34.5B, RMB 29.5B proposed from the raise. The forward-looking project original focuses on future advanced DRAM, with a build window written through 2026–2028. RMB 9.0B is a DRAM forward-looking basket, not a separately listed HBM line. The two characters for HBM do not appear.
 
