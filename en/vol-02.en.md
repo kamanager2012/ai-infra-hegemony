@@ -1,152 +1,184 @@
 # Volume 02: NVIDIA Platform Dominance and the System-Stack Moat
 
-Chinese original: [vol-02.md](vol-02.en.md)
+Chinese original: [../vol-02.md](../vol-02.md)
 
-Moat tables and historical stress-test material BOM audit are in [Volume 32](vol-32.en.md). This volume only writes why the sales unit moved up to the cabinet, and why the software/interface layer seat cannot be punched through by cheapness alone.
+## 1. The competitive unit has moved above the GPU
 
-## 1. Core question
+NVIDIA's most important current advantage is not the isolated performance of one GPU generation. It is the ability to organize accelerators, HBM, interconnect, compilers, runtimes, and rack-scale systems into one procurement and deployment unit.
 
-Which layers of NVIDIA's advantage are currently observable, and what would a real substitute have to replace?
+The official GB200 NVL72 configuration is:
 
-The system-stack moat spans:
-1. accelerator and rack-scale system;
-2. scale-up / scale-out interconnect;
-3. CUDA/PTX, compilers, runtimes, and libraries;
-4. rack/pod reference architecture and deployment;
-5. roadmap and supply coordination across logic, HBM, packaging, networking, cooling, and power;
-6. workload and customer installed base.
+| Component | Official configuration |
+|---|---|
+| GPU | **72 Blackwell GPUs** |
+| CPU | **36 Grace CPUs** |
+| HBM | **13.4 TB HBM3E** |
+| CPU memory | **17 TB LPDDR5X** |
+| Scale-up domain | 72-GPU NVLink domain |
+| Rack design | Liquid-cooled rack-scale system |
 
-The report does not use an undisclosed cabinet BOM, software-premium percentage, or one margin number as proof of monopoly. It asks whether competing stacks can deliver comparable production workloads with lower switching cost and sufficient physical supply.
-## 2. Evidence boundary
+Source: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 
-First-party anchors include:
-- official NVL72 rack-scale configuration and memory/interconnect specifications;
-- NVIDIA Data Center financials;
-- CUDA/PTX and NVLink documentation;
-- repeated TSMC advanced-packaging tightness disclosures;
-- NVIDIA supply-related commitments.
+This changes the buyer's comparison object. In the accelerator-card era, FLOPS, memory capacity, and card price dominated. At rack scale, buyers must compare at least:
 
-Historical whole-rack ASPs, fixed “software premium” shares, universal PTX coverage, rival performance-gap percentages, and switch-chip margin estimates are not issuer disclosures and remain outside the fact layer.
-## 3. Dig into the mechanism
+1. GPU / accelerator architecture;
+2. HBM capacity and bandwidth;
+3. scale-up interconnect;
+4. scale-out networking;
+5. compiler/runtime;
+6. distributed-training stack;
+7. rack, power, and cooling;
+8. real workload-migration cost.
 
-### 3.1 The sales unit has moved to rack-scale systems
+A cheaper ASIC therefore does not automatically imply a cheaper or more competitive training system.
 
-Official product page: the GB200 NVL72 connects 36 Grace and 72 Blackwell in a rack-scale, liquid-cooled design, a 72-GPU high-speed domain acting as one giant GPU. Spec table: GPU memory 13.4 TB HBM3E, CPU memory 17 TB LPDDR5X, NVLink bandwidth 130 TB/s, 2,592 Arm CPU cores. Source: https://www.nvidia.com/en-us/data-center/gb200-nvl72/ the current evidence review opened the product page. The three rows on configuration, memory, and interconnect match source 02. The page also writes inference, training, and energy multiples versus H100. Those are the company's own comparison sentences, with assumptions. Do not treat them as third-party measurements.
+## 2. CUDA/NVLink is not a separately disclosed “software tax”
 
-Seventy-two GPU packages per cabinet are the numerator of 5.39 later. 13.4 TB is the official anchor for memory demand multiplied by cabinet. 17 TB of LPDDR is on the CPU side, not HBM, but it competes with the cabinet for the same maker leading-edge capacity. historical stress-test material wrote 13.8 TB, another scope of 72 times 192 GB, which does not match this product page. This volume uses the page's 13.4.
+CUDA's strategic value is that it lowers software-friction inside NVIDIA's system while increasing the engineering cost of moving production workloads to another stack.
 
-The full FY26 / Q1 FY27 table is in [Volume 1](vol-01.en.md). This volume does not reopen it. The press release opened in the current evidence review writes the platform splits in full: gaming a record $16.0 billion for the year, up 41%; Q4 $3.7 billion, down 13% sequentially as channel inventory came down; professional visualization $3.2 billion for the year; automotive $2.3 billion for the year. They already made cards. What changed is selling training as a cabinet. Once the cabinet is the default sales unit, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain.
+The effect spans:
 
-Asset-light is a mechanism, not an adjective. FY26 purchases of property and equipment and intangibles were only $6,042M, against operating income $130,387M and free cash $96,575M. The cabinet's heavy assets sit at TSMC, the three memory makers, and Foxconn / Quanta final assembly. What it collects is the right to weld those parts into a trainable system, plus the switching cost of the developer stack. An asset-light system platform can convert operating cash into future supply commitments without carrying the same fab-level capital intensity as upstream manufacturers.
+- kernels and operator ecosystems;
+- compiler/runtime;
+- profiling and debugging;
+- collective communication;
+- inference software;
+- framework integration;
+- distributed scheduling;
+- system-level coordination with NVLink/NVSwitch.
 
-### 3.2 software/interface layer seat: a unified compute architecture is a tax, not an atom
+This lock-in cannot be converted into an undisclosed fixed “software premium.” NVIDIA does not report a standalone CUDA contribution to rack gross margin.
 
-CUDA, PTX, high-speed interconnect, and the cabinet reference design are interface facts. A ten-year developer stack is in place. The CFO write-up describes the platform as processors, interconnect, software, algorithms, systems, and services. Compute and networking is the book where system-sales layer and software/interface layer are welded: source 01 splits data center into compute $162,361M and networking $31,376M. Networking is not an accessory line. It is the ticket into the domain. Once inside a 72-card high-speed domain, 72 dice act as one logic chip. The next generation, Rubin, is still sold inside this domain. software/interface layer and system-sales layer are welded shut.
+The defensible conclusion is narrower: **the software stack raises system-level substitutability costs and therefore strengthens pricing power and retention.**
 
-PTX coverage of 95% and AMD trailing 30% to 50% have no sample. They do not enter the fact layer. A unified compute architecture explains why others have trouble switching stacks. The switching tax is rewriting kernels, rebuilding cluster scheduling, and re-validating models. Hardware can be cheaper. A margin pad near 75% means it can also cut price. Cheapness alone does not punch through.
+Open migration routes exist. oneAPI, UXL, ROCm, cloud-native compilers, and other multi-architecture approaches continue to improve. Public evidence, however, does not yet establish that frontier AI workloads can migrate from CUDA/NVLink to another general-purpose stack at large scale with negligible engineering cost.
 
-UXL and oneAPI have people on stage. That is digging, not already through. The main line writes that bundling needs three checks. Software is one of them: the switching tax becomes a change of base rather than a change of vendor. Miss that check and each stack switch is picked off one by one. The China stack survives on people who cannot buy, not on cheapness punching through a unified compute architecture. A high-price peer only lets Huawei join the high-price bid. Domestic clouds switch stacks only under cutoff and policy. Both sides are expensive.
+## 3. The moat is system-definition power
 
-For a cloud ASIC to win, it must also split this domain on training, not only shunt inference. Main-line point five: public next generations are not 5nm plus commodity DDR5. Maia, TPU, Trainium, and MTIA all move toward HBM and a leading-edge node. The direction is the opposite. To beat today's cabinet you return to 3nm, HBM, and packaging, and you bid against 75% gross margin. Only a true retreat to 5nm and less packaging gets you off the scarce slice. Public next generations have not stopped. This volume does not recopy the cloud-ASIC node table. That is source 04's scope. Here it only confirm the software/interface layer seat: training is still inside this domain. Shunting inference is not enough.
+NVIDIA's platform control can be separated into four layers.
 
-### 3.3 roadmap and supply-coordination layer: the mix pulls foundry and memory
+### 3.1 Compute
 
-The roadmap is public: Hopper, Blackwell, Rubin. The 10-K writes that Rubin is expected to begin volume shipments in the second half of FY27. The press release writes Vera Rubin as six new chips, cutting inference token cost versus Blackwell by up to an order of magnitude. That is a company forward sentence, not a shipped filing line. The mix walks HBM, packaging, and high-speed interconnect together. NVIDIA does not need to own a foundry to influence future supply: prepayments, order scale, long-duration commitments, utilization, and roadmap certainty can affect supplier allocation decisions.
+The GPU remains the central compute unit, but the commercial product has moved from accelerator cards toward integrated systems.
 
-TSMC advanced packaging and test revenue, CFO Wendell Huang on the 4Q24 call: overall advanced packaging and test accounted for over 8% of revenue last year and will account for over 10% this year. The company is explicit that it does not break packaging segments. 4Q25 call, corrected after the call: last year a bit over 10%, about 8% in 2024, 2026 outlook low teens. What can be confirm: about 8% in 2024, a bit over 10% in 2025, 2026 outlook low teens. What cannot: packaging revenue alone, monthly capacity, packaging wafers by customer.
+FY26 Data Center revenue was **$193.737B**. Compute and networking are both material parts of the platform economics.
 
-C.C. Wei, 4Q24 original: today it is all AI, capacity is very tight, and cannot even meet customers' need. 2Q26 original: packaging capacity is so tight that now it limits my customers' growth. Same call: today the majority is still CoWoS. The six English words "sold out through 2026" at the shareholders' meeting: the Focus Taiwan shareholders' meeting copy opened in source 02 has no packaging and no "sold out." Second-hand paraphrase is not promoted to an official sentence. This volume uses only the two sentences that can be confirm: tight, cannot meet, already limits customer growth.
+### 3.2 Interconnect
 
-SK hynix FY25 press release: revenue KRW 97.1467T, operating profit KRW 47.2063T, operating margin 49%, net profit KRW 42.9479T, net margin 44%. HBM revenue in the DRAM segment more than doubled in a year. Won are not privately converted to dollars. Makers expand to this mix. The roadmap and supply-coordination layer sets the mix. Sellers expand to the mix. The increment that comes out is bought first by prepayments. Sellers are already rich. They still cannot cover the cabinet-selling tranche.
+NVLink/NVSwitch moves multi-GPU systems away from independent accelerators connected only through an external network and toward a large shared compute domain.
 
-Samsung, 28 July 2025, announced a foundry supply long: KRW 22.76T, about $16.544B, 24 July 2025 to 31 December 2033. The counterparty is written as a large global company. The filing does not write Taylor, does not write wafers per month, and does not write Tesla. Musk named the new Texas fab for Tesla's next-generation AI6. 16k / 24k / 40k wafers per month are in neither the filing nor Reuters. The report does not treat them. This parallel line proves the second-name foundry is not another TSMC: the long is there, monthly capacity is empty, and it cannot take the GDS queue of Western flagship chips.
+This matters particularly for frontier training, where bottlenecks include:
 
-### 3.4 Profit decides the bid
+- all-to-all communication;
+- model parallelism;
+- memory movement;
+- synchronization;
+- cluster utilization.
 
-Profit, cash, and supply commitments are maintained in [Volume 1](vol-01.en.md). This volume uses only the mechanism: strong free cash flow and order certainty increase a platform's ability to reserve future scarce resources. That does **not** make TSMC a captive fab or imply a one-variable auction. Price, order scale, prepayment, credit, utilization, roadmap certainty, diversification, and geopolitics all affect allocation. High-NA bulk-buyout stories, undisclosed N2 first-silicon contract amounts, and customer-specific packaging splits remain outside the fact layer unless primary evidence appears.
+### 3.3 Software
 
-### 3.5 Booked 19% is not a safe distance
+CUDA, TensorRT-LLM, NeMo, NIM, and related tooling reduce deployment friction inside the NVIDIA ecosystem.
 
-TSMC shipments, node revenue, platforms, and Customer A / B are in [Volume 4](vol-04.en.md). This volume does not reopen them. The 19% figure is a full-year revenue share, not a forward wafer or packaging allocation share. The relevant variable is how incremental HPC and packaging capacity is distributed across buyers under long-duration orders, prepayments, utilization, roadmap certainty, diversification, and geopolitical constraints.
+These assets strengthen system usability and switching costs. They do **not** prove the existence of a separately audited second software profit pool.
 
-### 3.6 5.39 and the pool
+### 3.4 Roadmap coordination
 
-5.39 is a packaging-wafers-per-cabinet estimate: 72 GPU packages divided by about 13.4 packages per wafer. 72 is official. About 13.4 is a geometry working hypothesis: two dice totaling about 1,600 mm², plus eight HBM stacks, an interposer far larger than a single GPU. A 300 mm wafer is about 70,686 mm². There is no official TSMC number for how many B200 packages come off one packaging wafer. 5.39 is an estimate. It is not fiction. It is also not logic wafers per cabinet for the whole factory.
+Hopper → Blackwell → Rubin is not a GPU-only roadmap. It coordinates:
 
-Die area. B200 two dice at about 800 mm² reticle limit, confirm in Electronic Design and IEEE Spectrum, a reporter geometry sentence, not a 10-K. H100 official blog: 814 mm². Front-end logic is another line: 144 dice, about 2.9 wafers per cabinet at 70% yield. That does not match 5.39. Mixing them is the wrong pool.
+- logic node;
+- HBM generation;
+- advanced packaging;
+- interconnect;
+- rack architecture;
+- power and cooling design.
 
-835,000 cabinets equals 4.5 million wafers divided by 5.39. 4.5 million is 30% of TSMC's 2025 shipments of 15 million. 5.39 is packaging wafers per cabinet. Most of the 15 million are phones, MCUs, auto, and mature nodes. Dividing the whole factory, or 30% of it, by 5.39 yields a cabinet count with no physical meaning. The whole factory 15 million divided by 5.39 yields 2.78 million cabinets. That cannot be used either.
+By FY27 Q2, NVIDIA disclosed that Rubin had entered **full production**. The competitive unit is therefore continuing to move toward the complete system rather than back toward a single-chip comparison.
 
-A sell-side pool must be labeled sell-side. Morgan Stanley paraphrase: 2026 global packaging demand about 1 million wafers, NVIDIA about 595,000 and 60%, TSMC monthly capacity from 32,000 wafers in 2024 to 93,000 in 2026. the current evidence review did not open the Morgan Stanley original. It is confirm to the Longbridge paraphrase. Mizuho at another date: monthly capacity 140,000, NVIDIA 630,000 wafers at TSMC. The two sell-sides do not agree. A TSMC split does not exist. The main line uses only: packaging is tight, sold-out direction; when half is taken on a sell-side 1-million-wafer pool, label it sell-side.
+## 4. Why high profitability can become capacity-reservation power
 
-At 5.39 packaging wafers per cabinet and sell-side 2026 demand of about 1 million wafers: half equals 500,000 wafers, about 93,000 cabinets. NVIDIA's tracked 595,000 wafers is about 110,000 cabinets, already past half of this packaging line. Rounded: about 100k cabinets take more than half. 800,000 cabinets times 5.39 equals 4.31 million wafers, 29% of the factory's 15 million, also near the 3nm-plus-5nm revenue share, but 24% plus 36% equals 60% is revenue, not wafers. The report does not treat 800,000 cabinets as locking 50% of 3nm or 2nm. You do not need 800,000 cabinets to lock 3nm. The binding line is packaging.
+Key financial anchors include:
 
-What official text can confirm dead is only: packaging is tight, cannot meet, already limits customer growth. 100k cabinets is a sell-side pool times an estimate coefficient. The direction matches the main line. The coefficient is not an annual report.
+| Metric | Value |
+|---|---:|
+| FY26 free cash flow | **$96.575B** |
+| FY26 operating income | **$130.387B** |
+| FY27 Q2 revenue | **$96.221B** |
+| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY27 Q2 GAAP gross margin | **75.0%** |
+| FY27 Q2 GAAP operating income | **$63.734B** |
 
-### 3.7 The model/deployment extension is written as structure only
+Supply-related commitments reached **$119.0B** at FY27 Q1.
 
-Nemotron, NeMo, and inference-microservice product lines exist. The 10-K writes NVIDIA AI Enterprise, NIM, NeMo, and blueprints. The press release launched the Nemotron 3 open-model family. The revenue bulk is still on cabinets. The report does not infer model ARR. The report does not treat a second profit pool. Power extends: others train on its stack; it sells adjacent models and inference products. If distillation happens, the mechanism is visibility on a compute path, not proven theft. A backdoor already happened: no forensics. It does not enter the fact layer.
+Strong platform economics can therefore be recycled into the next generation of:
 
-Multi-year cloud-service commitments rose from $27.0B to $30.0B, officially for R&D, not confirmed cloud revenue, and still less model revenue. historical stress-test material promoted this line to cloud ARR. The scope is wrong.
+- wafers;
+- HBM;
+- advanced packaging;
+- substrates;
+- networking components;
+- system inventory.
 
-### 3.8 Gaming cards are already giving way
+The reinforcing mechanism is:
 
-The system-sales layer can already give the same material to the higher-margin data center. This is not a guess. The FY25 CFO write-up already wrote limited supply for both Blackwell and Ada gaming GPUs. FY26 press release: gaming $16.0 billion for the year, $3.7 billion in Q4, still strong year on year, sequentially down as channel inventory came down. The outlook writes that supply constraints will drag gaming in Q1 FY27 and after. Scarcity is the same leading-edge logic, packaging, and HBM being fed to the data center first. It is not a published cut of how many tens of thousands of cards. It is an admission that consumer cards and the data center compete for the same supply, and the consumer end is squeezed.
+**high system profit → stronger resource reservation → greater delivery certainty → stronger customer retention → larger next-generation system revenue.**
 
-The difference from a backdoor: this sentence is a public finance write-up. It can enter the body. A unified compute architecture explains switching cost, while gaming-card scarcity is a separate supply-allocation issue. The two mechanisms should not be collapsed into one causal claim.
+This is not an automatic monopoly formula. Suppliers still optimize customer diversification, credit, utilization, long-duration contracts, geopolitical exposure, and bargaining balance.
 
-## 4. Scenarios, counterarguments, and testable indicators
+## 5. What cloud custom silicon is actually attacking
 
-### 4.1 After the sales unit moves up, the comparison object changes
+Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA should not be understood as a few ASICs challenging a GPU.
 
-Once the cabinet is the default sales unit, comparison moves from single-card FLOPs to whether you can enter the domain. Inside a 72-card high-speed interconnect, 72 dice act as one logic chip. The customer is not buying 72 cards and then finding a switch. The customer is buying a hall unit already welded. The next generation is still bought inside this domain. software/interface layer and system-sales layer are welded shut. The 8-card board is a transition. The CFO write-up writes the transition as from a small NVLink-8 plus InfiniBand to a large NVLink-72. Sales unit: card, to 8-card board, to 72-card cabinet.
+The real substitution path is **Cloud System-Stack Substitution**.
 
-The CPU is not extinguished inside the cabinet. 36 Grace, 2,592 cores, and 17 TB of LPDDR prove it made the CPU a cabinet accessory, not that it announced the CPU gone. The profit center has already moved to the accelerator. Scheduling and the edge still need a CPU. Downgrade is not extinction. Consumer CPUs and whole PCs are not the current disclosed main line. They may extend. There are no shipments and no revenue. The report does not infer them. Game consoles do not make a brand now. They already make silicon. That is an existing fact beside the scenario, not a forecast that whole PCs have already been absorbed.
+A credible substitute must coordinate:
 
-### 4.2 Cheapness alone does not punch through
+- accelerator architecture;
+- compiler/runtime;
+- framework support;
+- HBM;
+- scale-up fabric;
+- scale-out network;
+- rack/pod architecture;
+- large internal workloads;
+- developer migration.
 
-The China stack, the AMD stack, and the Intel stack can be cheaper in hardware. The switching tax is rewriting kernels, rebuilding cluster scheduling, and re-validating models. A 75% pad lets it follow a price cut down. The China stack survives on people who cannot buy, not on cheapness punching through a unified compute architecture. Three layers: [Volume 12](vol-12.en.md). This volume does not reopen a prospectus. To get AMD, Intel, Apple, and Qualcomm off TSMC's queue, the third item is export control and trust. The gate is law, not yield. Those firms are still in TSMC's queue. In the queue they sit behind NVIDIA.
+These systems can reduce NVIDIA's value capture in chips, software, and interconnect while still consuming the same advanced logic, HBM, advanced packaging, and power.
 
-### 4.3 Bundling still misses three checks
+Two effects can therefore occur simultaneously:
 
-Acting alone can weaken a buyer's position in the next scarce increment, but supplier allocation is not determined by whether TSMC would "offend" one customer. The testable mechanism is multi-variable: long-duration demand, prepayment, credit quality, utilization, and roadmap certainty can tilt incremental capacity toward the strongest bid, while TSMC still values customer diversification, geopolitical resilience, and long-run bargaining power. The 19% historical revenue share is therefore not a safe-distance metric, and neither is it proof of automatic exclusivity.
+1. **Platform-profit diversion** — cloud-owned stacks capture economics that would otherwise accrue to NVIDIA.
+2. **Upstream resource competition** — those same stacks increase demand for scarce manufacturing and power resources.
 
-To change the allocation, bind three checks. First, prepayments large enough that TSMC cannot recognize only one buyer. Second, software bound into one stack, so the switching tax becomes a change of base rather than a change of vendor; UXL and oneAPI are embryos. Third, memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Apple does not bid against AMD for cabinets. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs. Phone makers bind residual memory.
+## 6. The actual boundary of the moat
 
-Foundry and memory suppliers allocate scarce capacity through a multi-variable commercial process: order size, prepayments, utilization, credit quality, roadmap certainty, customer diversification, strategic relationships, and geopolitical risk. High-margin AI/HPC demand can receive strong economic priority, but the report does not assume a deterministic one-buyer allocation rule.
+The strongest part of NVIDIA's moat is the interaction among:
 
-### 4.4 The engine and the five interrupts
+> GPU + HBM + NVLink/NVSwitch + CUDA/runtime + rack architecture + deployment tooling
 
-Hypothesis from here: demand pushes profit, profit pushes commitments, commitments lock capacity and HBM, rivals' costs rise, deliveries slow, profits thin, they have even less money to bind longs and switch stacks, and share widens again. That is the engine. The five interrupts are in [Volume 8](vol-08.en.md). What is done is only supply commitments to $119.0B. Inquiries exist. Complaints do not. If those five are not done, the line walks past half of the scarce slice. The world does not blow up. Upgrades stop one node down. One firm writes the rules.
+But the moat is not unbreakable.
 
-### 4.5 Whole-system OEM is a scenario, not a forecast
+The following developments would materially weaken platform dominance:
 
-Rivals are all still here today. There is no official "already extinguished" series for CPUs, phone SoCs, or x86 attach. The report does not treat who exits in which year. The mechanism can be written: if CUDA plus the cabinet reference design locks, brand machines move from defining their own product to assembling to a drawing. The AI-server and workstation slice has already started. Chip foundry is still TSMC. Dell, Lenovo, ASUS, and HP can become whole-system CMs, an Apple-to-Foxconn structure, not wafer fabs. What can be checked: whether OEM AI servers are only an approved list; whether consumer-notebook CPUs can still ship a non-NVIDIA option; whether AMD and Intel accelerated-compute revenue disappears from filings. If there is no number, leave it empty. Hang it under expansion after demand steadies. Mark it a scenario. Do not put it in this volume's conclusion as a trust already completed.
+- cloud custom silicon reaches large-scale frontier training;
+- open software materially lowers CUDA migration cost;
+- alternative scale-up fabrics mature;
+- HBM and advanced-packaging supply becomes materially loose;
+- large customers deploy the same workloads across multiple system stacks;
+- regulatory remedies force interface opening or limit tying in ways that lower switching costs.
 
-### 4.6 Checks that can be tested
+## 7. Current judgment
 
-Speak when there is a number. Leave it empty when there is not. Whether data-center revenue is still sold as cabinets, and whether hyperscale is still about half. Whether supply commitments keep rising or start to shrink. Whether packaging-and-test revenue walks to the low-teens outlook, and whether C.C. Wei still says it limits customer growth. Whether TSMC's first-customer share keeps walking up from 19%, and whether HPC stays above 58%. Whether gaming is still written by the company as supply-constrained. Whether inference microservices are disclosed as their own revenue. Whether a cloud ASIC splits the 72-card domain on training, not only shunts inference. Whether the West shows bundled prepayments large enough that TSMC cannot recognize only one buyer. Whether the East shows a second bid that can take Western GDS. Whether power stops the buildout. These are checks, not a forecast timetable.
+As of August 2026, NVIDIA has clear system-level platform dominance, but the evidence does not justify saying competition is over.
 
-## 5. Gaps and what this volume cannot write as fact
+The more precise state is:
 
-A dollar bill of materials, software and brand premium 40% to 45%, switch-chip gross margin above 85%, a cabinet leaving the factory at $2.60 million to $3.30 million: historical stress-test material has them; the official product page and 10-K do not. They do not enter the fact layer.
+- competition is moving from chips to system stacks;
+- NVIDIA still has the most mature commercial general-purpose AI system stack;
+- cloud custom silicon has become a real second technical path;
+- the competitive question is shifting from “who has the better chip?” toward “who controls total system cost, migration, supply, and utilization?”
 
-Customer-level CoWoS shares and monthly-capacity paths from sell-side research are not TSMC disclosures and should not be merged into one official table. There is no official number for how many B200 packages come off one packaging wafer. 5.39 is an estimate. The 835,000-cabinet pool is the wrong pool. Void it.
+That system-level framing is the starting point for the supply-chain analysis in the rest of the report.
 
-PTX 95%, AMD trailing 30% to 50%: no sample. A unified compute architecture is an interface fact, not a citable share.
+---
 
-A backdoor already happened: no forensics. Distilling every model house's data: no judicial or audit material. A privileged position can be written. Theft cannot.
-
-Inference-microservice ARR: no split. Multi-year cloud-service commitments $27.0B to $30.0B, officially for R&D, not confirmed cloud revenue.
-
-The trust already complete, rivals no longer exist, Dells already become CMs: scenarios, not the present. There is no official "already extinguished" CPU attach series.
-
-How much prepaid to TSMC, Hynix, and Samsung each: no official split was found. Locking next-generation 2nm first silicon as a disclosed contract: no prepayment sentence naming 2nm was found. The 10-K only writes prepaid manufacturing and capacity agreements for current and future products.
-
-C.C. Wei at the shareholders' meeting, verbatim "sold out through 2026": official earnings calls are tight, cannot meet, limits growth. Do not promote it.
-
-Samsung Taylor monthly capacity 16k / 24k / 40k: not in the announcement. Converting HPC 58% or 3nm 24% into tens of thousands of wafers: cannot. Writing TrendForce 72% as TSMC's own reported share: cannot.
-
-NVIDIA net margin 55.6% and Intel 1999 net margin 25%: official text does not print them. This volume writes them only as back-calculations. Latest full gross margins for Apple, AMD, Qualcomm, and Huawei were not checked in the current evidence review. The report does not infer them. Limited supply of gaming cards has no quantity, and no allocation table of wafers, packaging, and HBM between gaming and data center.
-
-This volume does not claim to have re-audited a full 10-K. Hard numbers sit on official sentences already opened in the main line, source 01, and source 02, plus the product page and the FY26 and Q1 FY27 press releases checked in the current evidence review. A hypothesis from here can write a mechanism. It is not written as already having taken a percentage.
+Evidence grades and forward assumptions follow [Research Methodology and Evidence Grading](研究方法与证据分级.en.md), [Core Evidence Ledger](核心证据台账.en.md), and [Core Hypothesis Matrix](核心假设矩阵.en.md).
