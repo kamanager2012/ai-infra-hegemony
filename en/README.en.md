@@ -27,14 +27,14 @@ The repository is currently in private publication-preparation mode. The public-
 
 ## Start here
 
-1. [Master judgment](总判.en.md)
-2. [Volume 1: Executive summary](vol-01.en.md)
-3. [Chinese research method and evidence grading](../研究方法与证据分级.md)
-4. [Chinese core evidence ledger](../核心证据台账.md)
-5. [Chinese core reference index](../核心参考文献索引.md)
-6. [Chinese concepts and model index](../核心概念与模型索引.md)
-7. [Chinese 2026–2036 hypothesis matrix](../核心假设矩阵.md)
-8. [English mechanism index](机制索引.en.md)
+1. [Master Judgment](总判.en.md)
+2. [Volume 1: Executive Summary](vol-01.en.md)
+3. [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
+4. [Core Evidence Ledger](核心证据台账.en.md)
+5. [Core Source Index](核心参考文献索引.en.md)
+6. [Core Concepts and Model Index](核心概念与模型索引.en.md)
+7. [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
+8. [Mechanism Index](机制索引.en.md)
 
 > **Translation status (2026-08-27):** all **40 English volumes + 8 English macro essays** have completed the current framework/publication QA pass. The English edition now uses the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack competition, Non-AI Residual Capacity, Anchor Compute Buyer, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 scenario framework. The Chinese `main` edition remains the source of truth if a future discrepancy is discovered.
 
@@ -115,12 +115,14 @@ Key rule: **supply expansion is not the same thing as recovery.** You must separ
 
 ## Evidence and references
 
-For the highest-impact claims, use the Chinese:
-- [Evidence ledger](../核心证据台账.md)
-- [Core reference index](../核心参考文献索引.md)
-- [External research comparison](../外部研究对照索引.md)
+For the highest-impact claims:
+- [Core Evidence Ledger](核心证据台账.en.md)
+- [Core Source Index](核心参考文献索引.en.md)
+- [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
+- [Core Hypothesis Matrix](核心假设矩阵.en.md)
+- [External Research Comparison](../外部研究对照索引.md) — currently maintained in Chinese
 
-Cloud capex is **group-wide property and equipment spending**, not a clean “AI hardware” line. See [four-cloud capex notes](../四云Capex口径核对.md).
+Cloud CapEx is **group-wide property and equipment spending**, not a clean “AI hardware” line. See [four-cloud CapEx notes](../四云Capex口径核对.md).
 
 ## Share
 
