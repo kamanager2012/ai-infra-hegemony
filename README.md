@@ -6,6 +6,9 @@
 
 许可是 [CC BY 4.0](LICENSE)。转载、改写、商用都可以，署名即可。
 
+发帖底稿在 [en/SHARE.md](en/SHARE.md)，不代发。[v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。
+
+
 ## 先读
 
 1. [总判](总判.md)
