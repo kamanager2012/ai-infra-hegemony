@@ -1,6 +1,6 @@
 # Volume 37: AI-bubble and risk models (4-year server depreciation, token-price collapse stress tests, and destocking)
 
-Chinese original: [vol-37.md](vol-37.md)
+Chinese original: [vol-37.md](../vol-37.md)
 
 The depreciation wall: [Volume 30](vol-30.md). Four-cloud scope: `四云Capex口径核对.md`. Antitrust: [Volume 11](vol-11.md). This volume does not reopen the case file. The token matrix is marked draft. No sample.
 
@@ -34,19 +34,35 @@ Algorithm cost-down anchor (draft, DeepSeek technical-report scope): 671B total 
 
 Clearing window: the draft marked 2025–2027 as a dense depreciation test, high-cost models that miss ROI are culled, the industry moves into an Agents mature period. Downstream keeps carrying 20%–30% chip-cost inflation. 20%–30% is draft paraphrase. Purchase-price reports were not re-checked this pass. Do not promote it.
 
-### 2.2 Scope the judgment and [Volume 11](vol-11.md) already changed
+### 2.2 Scope the judgment and Volume 11 already changed
 
-Four-cloud scope: [Volume 8](vol-08.md) and `四云Capex口径核对.md`. This volume nails only three sentences: $215B is not a reproducible same-calendar-year, same-line-item, AI-split sum; mixed-year 2025 has already changed bins; 2026 three-name guidance cannot add the draft $670–750B. Do not knock seller rent against buyer capex into a rent rate. Profit and cash: [Volume 1](vol-01.md).
+Four-cloud scope: [Volume 8](vol-08.en.md) and `../四云Capex口径核对.md`. Four statements are now fixed.
+
+1. The old "$215B of 2024 AI CapEx" is not a same-calendar-year, same-line-item, AI-only sum.
+2. The mixed-year 2025 base has already shifted to about **$354.0B–$356.5B**.
+3. By August 2026, Microsoft had guided to roughly **$190B** of calendar-year CapEx, Alphabet to **$180B–$190B**, Meta to **$125B–$145B**, and Amazon's trailing-twelve-month net PPE was around **$169B**. These accounting windows differ and must not be added into a single "AI hardware CapEx" total.
+4. Seller-side value capture cannot be netted against buyer CapEx into a rent-tax rate.
+
+Large 2026 capital spending does not prove that a bubble is absent; CapEx is a leading investment and utilization/depreciation validation lags. Equally, large CapEx does not prove that a bubble already exists. The clearing question requires price, utilization, lead time, and the next round of commitments together.
 
 ## 3. Mechanism (physics / commerce / geopolitics)
 
-### 3.1 Accounting definition of a bubble: the depreciation wall before the stock price
+## 3. Mechanism (physics / commerce / geopolitics)
 
-Analysis added. A stock-price drawdown can come from rates, positioning, narrative. It need not come from assets already idle. This volume narrows "bubble" to whether two things, accounting and physics, can hold at once: four-year hardware is still taking depreciation, but machine-hours are not full; token unit price is moving down because of open source and methods of the MLA kind, but usage never reaches the right-hand cell of the draft matrix. Both at once is destocking, not "AI is useless."
+### 3.1 A bubble requires four classes of clearing signals
 
-Four-year straight line is a template, not a sum of four 10-K asset classes. Useful lives for servers, accelerators, networking gear, and buildings are not uniform, and not every firm uses four years. Microsoft later also changed building lives, which changes the depreciation cadence on the statements, not necessarily a campus already poured. So "that 2024 stock contributes $45–55B of hardware depreciation each year in 2025–2028" is a draft template, not an audit fact. The mechanism that can be written: once capex is in, expense appears on schedule in later fiscal years; the year expense appears is not the year of an order cut. Order cuts look at the next round of orders and prepayments, not PPE already booked.
+This report does **not** define a bubble as "CapEx is large." Large infrastructure investment can be rational if real demand and utilization rise with it. A risk state has to be read through at least four signal classes:
 
-Mixed-year 2025 is already about $354.0–356.5B. Using 2024's $215B again to push a 2026–2028 depreciation wall understates the base. Specific 2026–2028 expense: unverified, not an audit fact. The direction that can be written: the wall is thickening, not thinning. Thickening itself is not a burst. A burst depends on whether incremental revenue can cover the wall.
+1. **Accounting:** depreciation and infrastructure operating cost keep rising.
+2. **Utilization / revenue:** incremental AI revenue, calls, or machine-hour utilization fail to cover the rising cost base.
+3. **Market clearing:** GPU/rack spot discounts appear, lead times shorten materially, or HBM/CoWoS move from quota allocation toward readily available supply.
+4. **Forward commitments:** cloud CapEx guidance is cut, or semiconductor supply commitments / prepayments stop growing, are rescheduled, or are cancelled.
+
+Accounting pressure alone is **capital intensification**, not a burst. Accounting + weak utilization is **ROI pressure**. When all four groups line up, the system begins to resemble **infrastructure destocking / a hard landing**.
+
+A stock-price drawdown can come from rates, positioning, or narrative and therefore is not sufficient evidence. The four-year straight-line model is itself only a template: useful lives for servers, accelerators, networking, and buildings differ by company. The mechanism is that sunk CapEx creates expense over later years; order cuts are visible in the **next** round of orders and commitments, not in PPE that is already booked.
+
+Mixed-year 2025 is already about $354.0B–$356.5B. Reusing the 2024 "$215B" base to project 2026–2028 understates the capital base, while mechanically summing the latest non-comparable guidance and dividing by four creates false precision. The direction can be stated: the depreciation wall is thickening. Thickening is not itself a burst.
 
 ### 3.2 Rent sits with the seller, depreciation with the buyer. The two books do not match
 
@@ -56,7 +72,7 @@ Rent with the seller, depreciation with the buyer, accounts that do not line up:
 
 The draft matrix's x-axis is usage, y-axis is unit price. The most dangerous cell is not "usage doubles but price halves and you still eke a profit." It is "usage up only 50%, price down 50%" — that cell the draft wrote directly as destocking. The +300% / down 50% still-earn-$15B cell assumes usage compounding at a three-year double-or-better pace. Without that usage, a price cut is destocking. DeepSeek makes a unit-price fall more likely. It does not automatically make usage +300%.
 
-Analysis added. The y-axis has already been opened by open source. DeepSeek-V3 broke the faith that "you must stack a hundred thousand cards to enter," so later names no longer take a hundred-thousand-card training run at the old price. What it breaks is pricing power on first-layer inventory, not fourth-layer power contracts. Whether enterprises can write Agents into cash-producing steps is what decides whether the x-axis has the right to walk right. Seat pricing hid inference cost in R&D or the cloud bill. Agents turn tokens into cost of goods. SaaS margin from 85% to 55% is the draft's meter for an application-layer bubble. No sample this pass. Do not promote it. The mechanism that can be written: if an application company cannot get usage to the matrix's +150% or better, it blows up before the clouds — it does not have Amazon's bulk to spread depreciation, and it pays inference by usage. A model company's inventory is another shape: training budgets already burned, weights that cannot be resold. Open source lowers exclusive rent on weights. Hardware destocking is price and lead time. Model destocking is closing APIs and dismissing research groups. Both are often written as one news item. The mechanisms differ.
+Open source and DeepSeek-class efficiency have already opened the token-price axis, but that does not mechanically determine the usage axis. Application risk should therefore be read through **AI Software Unit Economics**, not a fixed "SaaS margin 85%→55%" claim. Revenue must cover inference, retrieval/storage, tool/API calls, human review, AI-specific cloud cost, and the relevant depreciation. Falling unit cost can expand demand; falling price without enough usage growth can still destroy ROI. The old matrix remains a stress test, not an industry P&L forecast.
 
 P&L figures in the matrix — $45 / $80 / $20 / $90B and the rest — are scenario arithmetic, not an audit result. This volume does not invent a "more precise" P&L table to replace it. Replacement would need a real token-price time series and an enterprise AI incremental-revenue split. Neither exists on the public record.
 
@@ -66,7 +82,7 @@ The three characters "destock" make people look only at the Nvidia channel. Real
 
 The first layer is GPUs and cabinets not yet racked, the easiest place for spot versus contract concessions. Lead times from tens of weeks back to week-scale delivery, softer prepayment terms, and a bid-able second-hand cabinet — those three are closer to a definition of destocking than "a cloud still says we like AI." The draft had no such high-frequency data. This volume lists them as watch items.
 
-The second layer is HBM and CoWoS work-in-process. Physically the hardest to turn. 3:1: [Volume 5](vol-05.md). Tight packaging: [Volume 24](vol-24.md). A line will not revert to consumer because of one quarter of cuts.
+The second layer is HBM and CoWoS work-in-process, physically the hardest inventory to turn. Micron provides **first-party evidence** that, at the same node and bit capacity, HBM3E requires about **3× the wafer supply** of DDR5. Tight advanced packaging and the HBM wafer penalty therefore make this layer sticky. One quarter of order cuts does not instantly turn an HBM/advanced-packaging line back into unconstrained consumer supply.
 
 The third layer is four-year servers already installed and already depreciating. The only levers are lower utilization or resale. Resale punches new-goods prices directly. This layer can be impaired on the books. The physical cabinets still sit in halls using power.
 
