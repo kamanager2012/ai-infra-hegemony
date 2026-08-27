@@ -1,8 +1,8 @@
 # Volume 9: Transmission from AI Infrastructure into the Physical Supply Chain
 
-Chinese original: [vol-09.md](vol-09.md)
+Chinese original: [vol-09.md](vol-09.en.md)
 
-The residual model is in [Volume 5](vol-05.md). The residual-capacity pressure on consumer electronics is in [Volume 22](vol-22.md). 5.39 and the wrong pool are in `测算-投片与柜-20260826.md`. China's three layers are in [Volume 12](vol-12.md). This volume does not reopen those tables. This volume writes only that the first wave squeezed is PCs, general-purpose servers, and phones, not factories moving to the cloud.
+The residual model is in [Volume 5](vol-05.en.md). The residual-capacity pressure on consumer electronics is in [Volume 22](vol-22.en.md). 5.39 and the wrong pool are in `测算-投片与柜-20260826.md`. China's three layers are in [Volume 12](vol-12.en.md). This volume does not reopen those tables. This volume writes only that the first wave squeezed is PCs, general-purpose servers, and phones, not factories moving to the cloud.
 
 ## 1. Core question
 
@@ -32,15 +32,15 @@ Current anchors are stronger:
 The mechanism is therefore resource competition and residual supply, not a universal device-BOM inflation coefficient.
 ## 3. Mechanism: resource allocation, residual supply, and product-cycle pressure
 
-TSMC shipments, platforms, Customer A and B, and the packaging sentences are in [Volume 4](vol-04.md). 51% and the makers' shift are in [Volume 5](vol-05.md). The 5.39 wrong pool is in [Volume 4](vol-04.md) and `测算-投片与柜-20260826.md`. This volume does not reopen the ledger. This volume only lands those numbers on first-wave boxes.
+TSMC shipments, platforms, Customer A and B, and the packaging sentences are in [Volume 4](vol-04.en.md). 51% and the makers' shift are in [Volume 5](vol-05.en.md). The 5.39 wrong pool is in [Volume 4](vol-04.en.md) and `测算-投片与柜-20260826.md`. This volume does not reopen the ledger. This volume only lands those numbers on first-wave boxes.
 
 **Packaging pressure must use the correct denominator.** The report's 5.39 CoWoS wafers/rack coefficient is a D-grade geometry stress test and must not be divided into TSMC's total foundry wafer shipments. 835,000 cabinets is void. The binding line is CoWoS. On a sell-side pool of about 1 million wafers, about 100,000 cabinets take more than half. You do not need 800,000 cabinets to lock 3nm. What first-wave box makers feel is not the whole factory bought out. It is increment slots and packaging slots going to cabinets first.
 
 **Consumer and general-purpose compute draw from shared upstream resource pools.** The first wave is not "manufacturing digitization charged cloud rent." It is personal computers, commercial boxes, general-purpose servers, phones, and gaming cards fighting cabinets for the same slice of packaging and the same slice of high-price memory. Gaming cards: NVIDIA Q4 FY25 CFO commentary writes Blackwell and Ada supply limited. That is harder than any phone-analyst quote. How the four classes are squeezed is in sections 6 and 12.
 
-**Commerce layer.** Prepayments and capacity commitments are in [Volume 1](vol-01.md). While the margin holds, commitments keep rising. Apple locks phone logic. However large phone logic is, it is not this increment. Why PC makers cannot bind the three checks is in section 13.
+**Commerce layer.** Prepayments and capacity commitments are in [Volume 1](vol-01.en.md). While the margin holds, commitments keep rising. Apple locks phone logic. However large phone logic is, it is not this increment. Why PC makers cannot bind the three checks is in section 13.
 
-**Geopolitics layer.** Three layers are in [Volume 12](vol-12.md). The first wave is siphoned outside controls, and hit by licenses and residual prices together inside controls. The digital-transformation trap is a side branch: it explains who pays the rent; it does not explain who is squeezed in the first wave.
+**Geopolitics layer.** Three layers are in [Volume 12](vol-12.en.md). The first wave is siphoned outside controls, and hit by licenses and residual prices together inside controls. The digital-transformation trap is a side branch: it explains who pays the rent; it does not explain who is squeezed in the first wave.
 
 ## 4. Scenarios, counterarguments, and testable indicators
 
@@ -120,7 +120,7 @@ The annual report also writes 2025: 305 processes deployed, 12,682 products buil
 
 ## 11. Cloud in-house accelerators sit on the same gate
 
-Specs are in [Volume 4](vol-04.md). This volume does not reopen them. Cloud in-house cards are not a parallel river that yields to consumer electronics. They are a second group of buyers on the same scarce slice. The first wave is squeezed from both sides: cabinets take the slots the supply-coordination layer queues first; the clouds' own accelerators then take another part of 3nm and HBM. What PCs and phones see as "foundry still there, memory still there" is residual after these two buyer groups have drawn. The Samsung long is Tesla, not the four clouds handing GDS to a second TSMC.
+Specs are in [Volume 4](vol-04.en.md). This volume does not reopen them. Cloud in-house cards are not a parallel river that yields to consumer electronics. They are a second group of buyers on the same scarce slice. The first wave is squeezed from both sides: cabinets take the slots the supply-coordination layer queues first; the clouds' own accelerators then take another part of 3nm and HBM. What PCs and phones see as "foundry still there, memory still there" is residual after these two buyer groups have drawn. The Samsung long is Tesla, not the four clouds handing GDS to a second TSMC.
 
 ## 12. Where the tax on the four box classes lands
 
@@ -170,4 +170,4 @@ The institutional layer points the same way. TrendForce 2026 Q1 release: TSMC sh
 
 ## 17. A fine does not change fixture-hours; rent does not explain who is squeezed
 
-The docket is in [Volume 11](vol-11.md). Rent is in [Volume 8](vol-08.md). This volume does not reopen them. A fine does not change CoWoS fixture-hours. The first wave cannot count on a court giving material back to PCs and phones. This volume asks only: whom the supply-coordination layer queues first, and who in the first wave pays tax. With no unit series, it outputs no global PC or phone unit decline for any year.
+The docket is in [Volume 11](vol-11.en.md). Rent is in [Volume 8](vol-08.en.md). This volume does not reopen them. A fine does not change CoWoS fixture-hours. The first wave cannot count on a court giving material back to PCs and phones. This volume asks only: whom the supply-coordination layer queues first, and who in the first wave pays tax. With no unit series, it outputs no global PC or phone unit decline for any year.
