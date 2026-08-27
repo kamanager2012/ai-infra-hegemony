@@ -2,7 +2,7 @@
 
 Chinese original: [vol-37.md](../vol-37.md)
 
-Depreciation and capital clearing: [Volume 30](vol-30.md). Hyperscaler CapEx scope: [Volume 8](vol-08.en.md) and [../四云Capex口径核对.md](../四云Capex口径核对.md). Regulatory procedure: [Volume 11](vol-11.md).
+Depreciation and capital clearing: [Volume 30](vol-30.en.md). Hyperscaler CapEx scope: [Volume 8](vol-08.en.md) and [../四云Capex口径核对.md](../四云Capex口径核对.md). Regulatory procedure: [Volume 11](vol-11.en.md).
 
 > Retrieval and revision cutoff: **2026-08-27**. This volume distinguishes observed facts, scenario stress tests, and market-clearing indicators. Large CapEx by itself is not evidence of a bubble; the relevant question is whether utilization, clearing prices, and forward commitments deteriorate together.
 
@@ -46,7 +46,7 @@ Mixed-year 2025 is already about $354.0B–$356.5B. Reusing the 2024 "$215B" bas
 
 ### 3.2 seller-side value capture sits with the seller, depreciation with the buyer. The two books do not match
 
-seller-side value capture with the seller, depreciation with the buyer, accounts that do not line up: [Volume 1](vol-01.md), [Volume 8](vol-08.md). The moment profit is recognized at the seller is earlier than the moment the buyer sells machine-hours into software cash. So "buyer depreciation pressure" and "seller fat profit" can hold at once. If a hard landing develops, buyer utilization and second-tier model-company economics are likely to weaken before previously recognized seller revenue is reversed. If destocking happens, it happens inside this bidding structure, not in an industry where "everyone is slightly profitable together."
+seller-side value capture with the seller, depreciation with the buyer, accounts that do not line up: [Volume 1](vol-01.en.md), [Volume 8](vol-08.en.md). The moment profit is recognized at the seller is earlier than the moment the buyer sells machine-hours into software cash. So "buyer depreciation pressure" and "seller fat profit" can hold at once. If a hard landing develops, buyer utilization and second-tier model-company economics are likely to weaken before previously recognized seller revenue is reversed. If destocking happens, it happens inside this bidding structure, not in an industry where "everyone is slightly profitable together."
 
 ### 3.3 How to read the token matrix, and how to misread it
 
@@ -72,11 +72,11 @@ Transmission of cuts: the first knife is the longest-lead, most-prepaid high-end
 
 ### 3.5 Physical stickiness: power and packaging make capacity irreversible
 
-The calculation pool: [Volume 16](vol-16.md) and [Volume 24](vol-24.md). Residual: [Volume 5](vol-05.md). Cloud ASICs: [Volume 4](vol-04.md). A 120 kW cabinet, the wafer penalty of HBM versus DDR5, advanced packaging lifted from single-digit revenue share to a bit over 10% — none of this is capacity that returns to the old state when an order is cancelled. Books can impair. Lines cannot turn instantly. Destocking therefore has physical stickiness. ASICs shunting inference do not automatically turn second-layer inventory into a consumer line that can be turned.
+The calculation pool: [Volume 16](vol-16.en.md) and [Volume 24](vol-24.en.md). Residual: [Volume 5](vol-05.en.md). Cloud ASICs: [Volume 4](vol-04.en.md). A 120 kW cabinet, the wafer penalty of HBM versus DDR5, advanced packaging lifted from single-digit revenue share to a bit over 10% — none of this is capacity that returns to the old state when an order is cancelled. Books can impair. Lines cannot turn instantly. Destocking therefore has physical stickiness. ASICs shunting inference do not automatically turn second-layer inventory into a consumer line that can be turned.
 
 ### 3.6 Antitrust does not change depreciation. A fine is a cost
 
-The case file: [Volume 11](vol-11.md). This volume does not reopen it. A fine is a cost. National-security documents exist. "Therefore they will not break it up" does not. Bubble clearing can still happen. The trigger is depreciation not matching usage, not a courtroom. Dual stacks: [Volume 12](vol-12.md). Supply is built as two safety stocks. Demand does not double.
+The case file: [Volume 11](vol-11.en.md). This volume does not reopen it. A fine is a cost. National-security documents exist. "Therefore they will not break it up" does not. Bubble clearing can still happen. The trigger is depreciation not matching usage, not a courtroom. Dual stacks: [Volume 12](vol-12.en.md). Supply is built as two safety stocks. Demand does not double.
 
 ## 4. Scenarios, counterarguments, and testable markers
 
@@ -113,13 +113,13 @@ Calling a stock-price drawdown a bubble burst ignores that depreciation has not 
 
 The three things in this volume's title — four-year depreciation, token unit price, destocking — are not three parallel news items. They are one cash-flow projected at three dates. The year capex goes in, the seller recognizes revenue and margin; for four years after, the buyer takes depreciation on schedule; token unit price decides how much cash each machine-hour recovers in those four years. Destocking is a channel phenomenon visible only in year three or four, but it is jointly decided by year-one bids and year-two usage. Compressing the three dates into "already a bubble now" or "not a bubble yet" misreads both.
 
-The first book is buyer PPE. Scope: [Volume 8](vol-08.md). What can be written: the base is rising. Wall thickness depends on hardware share and useful life, which firms do not disclose to a reproducible add. "$45–55B of hardware depreciation a year" can only be a template.
+The first book is buyer PPE. Scope: [Volume 8](vol-08.en.md). What can be written: the base is rising. Wall thickness depends on hardware share and useful life, which firms do not disclose to a reproducible add. "$45–55B of hardware depreciation a year" can only be a template.
 
-The second book is seller seller-side value capture. See [Volume 1](vol-01.md). This book recognizes early and takes cash fast. It does not answer whether buyer machine-hours were sold. If destocking happens only in the second tier, this book can keep adding.
+The second book is seller seller-side value capture. See [Volume 1](vol-01.en.md). This book recognizes early and takes cash fast. It does not answer whether buyer machine-hours were sold. If destocking happens only in the second tier, this book can keep adding.
 
 The third book is token unit price and usage. There is no all-market index on the public record. historical stress-test material matrix gives nine cells. This volume keeps it as a scenario and does not invent another. The only reading that can be written: the y-axis has been opened by open source; the x-axis still depends on whether the workflow produces cash. DeepSeek-V3's $5.576 million is a seller-side value capture conversion of one official training run, not a clearing price for the inference market. After inference turns tokens into cost of goods, application-layer margin pressure and cloud depreciation pressure meet on the same operating statement. Before they meet, the seller can keep collecting seller-side value capture, the buyer can keep adding PPE, and stocks can keep arguing "is it a bubble." After they meet, one can talk about which layer the first destocking knife hits.
 
-The three books not matching is not a data error. The accounts were never one-to-one. [Volume 11](vol-11.md) forbids knocking mixed-year capex against data-center revenue. This volume obeys. What is forbidden is a tax rate, not the mechanism. The mechanism is still: the application layer grinds at the front, profit is siphoned at the rear. What grinds is token unit price and seat pricing. What is siphoned is cabinet invoices. Phones and PCs that do not buy GPUs still pay an overflow tax on memory residual. That tax does not enter this volume's matrix, but it makes the shortcut "destocking equals a consumer-electronics thaw" harder — makers have already retuned lines for HBM. Consumer bits are not another river.
+The three books not matching is not a data error. The accounts were never one-to-one. [Volume 11](vol-11.en.md) forbids knocking mixed-year capex against data-center revenue. This volume obeys. What is forbidden is a tax rate, not the mechanism. The mechanism is still: the application layer grinds at the front, profit is siphoned at the rear. What grinds is token unit price and seat pricing. What is siphoned is cabinet invoices. Phones and PCs that do not buy GPUs still pay an overflow tax on memory residual. That tax does not enter this volume's matrix, but it makes the shortcut "destocking equals a consumer-electronics thaw" harder — makers have already retuned lines for HBM. Consumer bits are not another river.
 
 Antitrust sits outside these three books. An investigation can eventually change software/interface or tying rules if it produces a formal remedy. It does not yet change PPE already booked, or cabinets already shipped. A fine is the seller's cost, depreciation the buyer's expense, tokens the application's cost of goods. The debit sides of the three tables are not the same legal person. So "wait for a fine to clear the bubble" does not hold in accounting. What waiting can get, at most, is a little give on interfaces, and ASICs able to attach to part of the network. Fat profit and prepayments are not touched. Four-year depreciation is still taken.
 
@@ -135,7 +135,7 @@ The China stack cannot catch Western destocking. The wrong layer was already wri
 
 historical stress-test material gave no cloud AI-segment split, no real token-price time series, no days of inventory, no supplier-channel inventory. P&L in the matrix — $45 / $80 / $20 / $90B and the rest — is scenario arithmetic, not an first-party result. $0.08/kWh, PUE=1.2, hardware 65% of capex, annualized depreciation $115.5B, breakeven incremental revenue $155B, 2026 four-cloud $670–750B: all historical stress-test assumptions or compilations and remain outside the current fact layer. 20%–30% chip-cost inflation, SaaS margin 85%→55%, MLA KV compression 93.3%, CoWoS monthly capacity 13k→130k and 60% lock: not a TSMC or NVIDIA line item. Do not promote them.
 
-This volume did not audit full 10-Ks page by page. SEC HTML fetches from this machine were refused. Figures follow official earnings releases / Exhibit 99.1 / sentences already checked in the judgment. If a 10-K restates, the 10-K wins. Specific destocking quarters, price-drop sizes, and clearing lists cannot be derived from historical stress-test material or [Volume 11](vol-11.md). This volume does not invent them.
+This volume did not audit full 10-Ks page by page. SEC HTML fetches from this machine were refused. Figures follow official earnings releases / Exhibit 99.1 / sentences already checked in the judgment. If a 10-K restates, the 10-K wins. Specific destocking quarters, price-drop sizes, and clearing lists cannot be derived from historical stress-test material or [Volume 11](vol-11.en.md). This volume does not invent them.
 
 Not yet happened, cannot be written as already happened: a DOJ complaint, a settlement, a Mellanox split, a forced opening of CUDA; a French statement of objections, a French or EU fine; "a 10% of annual revenue fine about to be issued"; a White House / Pentagon text already forbidding a breakup; four-cloud "AI hardware capex $215B"; 2026 four-cloud already spending $670–750B; token unit price already down 50% annualized; a bid-able second-hand cabinet market already there.
 
