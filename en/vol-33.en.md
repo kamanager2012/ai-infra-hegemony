@@ -20,7 +20,7 @@ Profit, cash, and supply commitments: see [Volume 1](vol-01.en.md). This volume 
 
 ## 3. Where each of the four is stuck is not one counter-path
 
-All four look as if they are making AI chips. They are bidding for the same scarce set: TSMC leading-edge process, advanced packaging, and consumer memory not yet drained by HBM. Every extra slice of packaging AMD takes is a slice Apple's M series and Broadcom ASICs do not get. Qualcomm does not build training cabinets, yet it still has to buy the same-generation wafers. So "the four jointly counter" does not hold commercially. historical stress-test material has no alliance, no cross-license, and no joint prepayment.
+All four look as if they are making AI chips. They are bidding for the same scarce set: TSMC leading-edge process, advanced packaging, and consumer memory not yet drained by HBM. Every extra slice of packaging AMD takes is a slice Apple's M series and Broadcom ASICs do not get. Qualcomm does not build training cabinets, yet it still has to buy the same-generation wafers. So "the four jointly counter" does not hold commercially. earlier stress-test material has no alliance, no cross-license, and no joint prepayment.
 
 ### 3.1 AMD: closest to the training-cabinet door, still a buyer
 
@@ -32,13 +32,13 @@ What it is more likely to eat first is a price-sensitive inference cluster that 
 
 Intel is fighting the wafer fab and the accelerator at once. The foundry path is won or lost on leading-edge yield and customer trust, not on a brand speech. The accelerator path is won or lost on whether the compiler stays stable on dynamic shapes and long context. the current evidence review did not read a latest full Intel 10-K accelerator-compute split. Do not fill the blank with "about to reverse," and do not write "already wiped out." x86 attach, host, and PC CPUs are still there. There is no official allocation table proving who cannot get capacity.
 
-Intel also has a national industrial-policy path: treating the fab itself as a sovereign asset. CHIPS Act grants, fab production dates, yields: historical stress-test material is empty. This volume does not invent them. A sovereign can wait ten years to climb the ladder. Terminals that cannot wait cannot wait for that ladder.
+Intel also has a national industrial-policy path: treating the fab itself as a sovereign asset. CHIPS Act grants, fab production dates, yields: earlier stress-test material is empty. This volume does not invent them. A sovereign can wait ten years to climb the ladder. Terminals that cannot wait cannot wait for that ladder.
 
 ### 3.3 Qualcomm: the flagship can wait a while; the downstream cannot
 
 Qualcomm's field is the flagship phone and the on-device NPU in PCs. It does not sell an NVL72-class cabinet. What it pads is not 71%–75% cabinet gross margin. What it wants is an SoC premium. When leading-edge process and HBM feed the data center first, consumer memory and phone logic get squeezed. That is the resource-allocation pressure, not Qualcomm helping AMD bid for cabinets.
 
-historical stress-test material wrote flagship SoC purchase prices and a replacement cycle. the current evidence review did not verify them. Do not promote them. The mechanism that can be written: an on-device breakout is not another bin of peak TOPS. It is splitting a local small model and a cloud large model under a given BOM constraint. If price rises and experience does not, inflation passes to the OEM, then to the user, demand shrinks, and leading-edge orders concentrate further on the data center and Apple. Mid- and low-end phones, channel boxes, and security modules have no prepayments. The queue does not reach them. The first wave squeezes those, not Qualcomm the company.
+earlier stress-test material wrote flagship SoC purchase prices and a replacement cycle. the current evidence review did not verify them. Do not promote them. The mechanism that can be written: an on-device breakout is not another bin of peak TOPS. It is splitting a local small model and a cloud large model under a given BOM constraint. If price rises and experience does not, inflation passes to the OEM, then to the user, demand shrinks, and leading-edge orders concentrate further on the data center and Apple. Mid- and low-end phones, channel boxes, and security modules have no prepayments. The queue does not reach them. The first wave squeezes those, not Qualcomm the company.
 
 ### 3.4 Apple: a vertical closed loop. It can wait. It does not fight the training cabinet
 
