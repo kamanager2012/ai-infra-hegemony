@@ -54,13 +54,13 @@ TrendForce 对 2025 CoWoS demand 的估计显示 NVIDIA 占比超过 60%。
 
 本报告 geometry stress test：
 
-[
+```text
 72 	ext{packages}
-div
+÷
 13.4 	ext{packages/wafer}
-approx
+≈
 5.39 	ext{CoWoS wafers/rack}
-]
+```
 
 该数字仅表示 rack-scale system 对 CoWoS 的潜在数量级压力。
 
@@ -104,9 +104,9 @@ advanced packaging 则同时受：
 
 如果新增 CoWoS 资源为 (C)，某平台捕获比例为 (s)，则其他买方残量为：
 
-[
+```text
 Residual = (1-s)C
-]
+```
 
 例如：
 
