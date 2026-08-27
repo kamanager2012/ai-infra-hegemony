@@ -3,7 +3,9 @@
 
 **40-volume industry research monograph + 8 macro essays**
 
-[English](#english-edition) · [中文版](#中文版--ai基础设施霸权时代) · [Research method](en/研究方法与证据分级.en.md) · [Release notes](RELEASE_NOTES.md)
+> **English release landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
+
+[English](README.md) · [中文版](README.zh-CN.md) · [Research method](en/研究方法与证据分级.en.md) · [Release notes](RELEASE_NOTES.md)
 
 ---
 
@@ -42,7 +44,7 @@ The repository is currently in publication preparation. Public-release licensing
 10. [English Edition Index](en/README.en.md)
 11. [X / social launch drafts](en/SHARE.md)
 
-All **40 English volumes + 8 English macro essays** have completed the current framework/publication QA pass. The English edition now follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` edition remains the source of truth for resolving any future bilingual discrepancy.
+All **40 English volumes + 8 English macro essays** have completed a repository-wide publication-language and legacy-framing pass. Volumes 36, 37, 39, and 40 were additionally re-edited against the current Chinese structure in this release-preparation cycle. The English edition follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` corpus remains the source of truth for resolving bilingual discrepancies.
 
 ## Research method
 
@@ -127,122 +129,3 @@ Corrections, source upgrades, mechanism challenges, counterarguments, and falsif
 GitHub reads [CITATION.cff](CITATION.cff). Author: James (kamanager2012). Public-release licensing terms will be finalized separately.
 
 ---
-
-# 中文版 · AI基础设施霸权时代
-
-行业深度研究专著，共四十卷，并附八篇宏观专题文章。
-
-本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-27**；本文不构成审计意见、投资建议或法律意见。
-
-仓库当前处于内部整理与发布准备阶段。对外许可方案将在正式发布前单独确定，现有 `LICENSE` 不作为最终发布许可承诺。
-
-X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Release Notes](RELEASE_NOTES.md)；历史存档版本见 [v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。当前研究以 `main` 为准。
-
-
-## 核心发现
-
-- **AI基础设施竞争的单位正在从“芯片”上移到“系统栈”**：GPU/ASIC只是底层，真正的竞争已经覆盖先进制程、HBM、CoWoS、scale-up/scale-out互联、编译与运行时、机柜/Pod、数据中心与电力。
-- **NVIDIA的现实优势仍然很强，但不能再解释成“别人只有裸片”**：FY27 Q2 营收 $96.221B、Data Center $89.0B、GAAP 毛利率 75.0%，Rubin 已进入 full production；与此同时，Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA都在向完整系统栈扩展。
-- **“总供给增长”不等于“非AI行业恢复供应”**：本报告用 Non-AI Residual Capacity 区分总供给、AI吸收和消费/传统行业真正拿到的残量。
-- **HBM的物理代价已经有一手锚**：Micron披露，相同节点、相同比特下，HBM3E 约需要 DDR5 3× wafer supply；这不是售价倍数，也不是所有世代固定常数。
-- **模型公司正在从租户变成基础设施锚定买方**：Stargate、Anthropic/AWS 十年级容量承诺说明，模型需求本身正在反向塑造云、芯片、电力和融资。
-- **电力是独立于晶圆、封装、存储之外的第四条物理配额**：120 kW 级 AI 机柜、835 MW 核电重启 PPA、Susquehanna新版最高1.92 GW PPA、Kairos最高500 MW SMR计划，分别处在不同兑现时钟。
-- **消费电子和软件已经出现可观测传导**：2026 年内存合同价显著上涨；AI 软件的毛利必须按推理、检索、工具、人审和AI云成本做单位经济，而不是预设“85%→55%”。
-- **未来结论不是单点预言**：全书用 S1 竞争性扩容、S2 基准集中、S3 资源霸权、S4 资本硬着陆四类状态，以及H1–H17变量持续更新。
-
-## 先读
-
-1. [总判](总判.md)
-2. [第一卷：执行摘要与未来十年核心判断](vol-01.md)
-3. [研究方法与证据分级](研究方法与证据分级.md)
-4. [核心证据台账](核心证据台账.md)
-5. [核心参考文献索引](核心参考文献索引.md)
-6. [核心概念与模型索引](核心概念与模型索引.md)
-7. [核心假设矩阵（2026—2036）](核心假设矩阵.md)
-8. 按 [机制索引](机制索引.md) 跳
-
-
-四云资本开支是全集团设备购置，不是「AI 硬件」分项，口径见 [四云 Capex 核对](四云Capex口径核对.md)。高影响命题的一手/机构来源见 [核心参考文献索引](核心参考文献索引.md)；外部公开研究用于方法校准和反方对照，见 [外部研究对照索引](外部研究对照索引.md)。
-
-
-## 研究方法
-
-本报告不是资料汇编，也不是把未来写成既成事实。全书统一使用五层结构：
-
-1. **事实（F）**：截至检索截止日已经发生且可核验的财务、产能、产品、合同、监管、能源与市场数据。事实层优先公司财报、监管文件、官方产品页和一手公告；二手机构数据必须注明来源层级与口径。
-2. **假设（H）**：对未来需求增速、先进产能分配、HBM/封装扩张、电力约束、价格与资本开支等变量作明确设定。假设不是事实，不要求“已经发生”，但必须与当前物理、财务和产业约束相容。
-3. **机制（M）**：解释事实与假设如何通过利润、预付款、产能分配、良率、封装、存储、电力、折旧和生态锁定等机制传导。
-4. **情景（S）**：在不同假设组合下推演 2026—2036 的产业结果。情景可以激进，但必须能追溯到 F + H + M，不能凭空给终局数字。
-5. **证伪（X）**：为关键判断给出可观察的反向信号。若先进供给增长持续快于 AI 吸收、竞争者建立等价软件与制造闭环、关键资源不再稀缺，相关“霸权/虹吸”情景必须下调。
-
-核心原则：**已经发生的必须准确；未来可以大胆假设，但假设必须明示，推演必须闭环。** “扩产”不自动等于“传统行业供应恢复”；需要区分总供给、AI 吸收量与非 AI 有效残余供给。
-
-## 主线
-
-核心不是简单份额垄断，而是**稀缺段的超额价值捕获与新增产能分配权**。预付款和长期订单可以提前锁下一代；增量正在向高性能计算倾斜。真正需要观察的不是全球总产能，而是 AI 吸收之后留给手机、电脑、传统服务器和其他行业的**有效残量**。中国栈必须分层讨论；云自研下一代公开规格仍大量依赖先进节点、先进封装和高带宽内存。电力是独立于芯片、封装、存储之外的另一条物理约束。反垄断调查在，起诉与拆分不能提前写成事实。
-
-## 四十卷
-
-- [第一卷：执行摘要与未来十年核心判断](vol-01.md)
-- [第二卷：NVIDIA 平台支配力与系统栈护城河](vol-02.md)
-- [第三卷：AI Resource Gravity 与非 AI 剩余产能](vol-03.md)
-- [第四卷：TSMC、N2 与先进制造资源分配](vol-04.md)
-- [第五卷：HBM、存储战争与 AI 供应链重构](vol-05.md)
-- [第六卷：模型公司单位经济、算法效率与开源竞争](vol-06.md)
-- [第七卷：NVIDIA 纵向扩张与 AI Factory 控制力](vol-07.md)
-- [第八卷：AI 基础设施超级周期、CapEx 与折旧压力](vol-08.md)
-- [第九卷：AI 基础设施扩张对实体供应链的传导](vol-09.md)
-- [第十卷：未来十年 AI 基础设施四类标准情景](vol-10.md)
-- [第十一卷：反垄断、产业政策与 AI 平台权力边界](vol-11.md)
-- [第十二卷：中美 AI 产业链竞争与中国 Parallel Stack](vol-12.md)
-- [第十三卷：AI 时代能源战争——从 120 kW Rack 到 GW 级电力锁定](vol-13.md)
-- [第十四卷：AI 基础设施价值捕获地图——谁获得利润，谁承担残量压力](vol-14.md)
-- [第十五卷：2036 年 AI 基础设施终局——系统栈、资源与权力结构](vol-15.md)
-- [第十六卷：AI 基础设施量化框架——Compute、Memory、Packaging 与 Capacity](vol-16.md)
-- [第十七卷：AI 基础设施终极风险——物理、资本、替代与制度约束](vol-17.md)
-- [第十八卷：研究方法与证据架构](vol-18.md)
-- [第十九卷：2026–2036 AI 基础设施时间线与阶段性里程碑](vol-19.md)
-- [第二十卷：战略含义——企业、资本与国家如何应对 AI 基础设施重构](vol-20.md)
-- [第二十一卷：AI 基础设施资金流与利润池结构](vol-21.md)
-- [第二十二卷：消费电子冲击模型——DRAM 残量、PC 与 Smartphone 成本传导](vol-22.md)
-- [第二十三卷：HBM4、逻辑底座与存储资本密度](vol-23.md)
-- [第二十四卷：Advanced Packaging、CoWoS 与 AI 系统交付瓶颈](vol-24.md)
-- [第二十五卷：Hyperscaler System-Stack Competition](vol-25.md)
-- [第二十六卷：模型公司、Anchor Compute Buyer 与基础设施共建](vol-26.md)
-- [第二十七卷：Agent-native Software 与 AI 软件单位经济](vol-27.md)
-- [第二十八卷：Physical AI 与机器人系统的真正瓶颈](vol-28.md)
-- [第二十九卷：中国 Frontier AI Parallel Stack 的系统级评估](vol-29.md)
-- [第三十卷：折旧墙、资本清算与长期产业结构](vol-30.md)
-- [第三十一卷：核心指标与证据监测框架](vol-31.md)
-- [第三十二卷：NVIDIA 全栈架构深度拆解——GPU、NVLink、CUDA/PTX 与 Rack-Scale System](vol-32.md)
-- [第三十三卷：AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](vol-33.md)
-- [第三十四卷：全球半导体供应链重构——设备、材料、制造与地缘冗余](vol-34.md)
-- [第三十五卷：AI 电力约束实证——835 MW、1.92 GW 与 500 MW 三条路径](vol-35.md)
-- [第三十六卷：AI 基础设施资本市场——资产久期、融资结构与主权资本](vol-36.md)
-- [第三十七卷：AI 基础设施泡沫识别与市场清算框架](vol-37.md)
-- [第三十八卷：AI 与劳动市场——从任务暴露到岗位重构](vol-38.md)
-- [第三十九卷：AI 时代教育与人才体系——从模型使用到系统工程能力](vol-39.md)
-- [第四十卷：总战略结论——未来十年的个人、企业、资本与国家选择](vol-40.md)
-
-## 宏观八篇
-
-- [第一篇：生产资料革命与总体判断](part2-01.md)
-- [第二篇：算力平台集中与 NVIDIA 软硬件系统权力深度拆解](part2-02.md)
-- [第三篇：物理制造极限与全球半导体供应链争夺](part2-03.md)
-- [第四篇：云巨头 Capex 战争、系统栈反击与 DeepSeek 架构降本](part2-04.md)
-- [第五篇：实体经济与消费电子产业链的资源虹吸与成本传导](part2-05.md)
-- [第六篇：能源战争与物理电网约束](part2-06.md)
-- [第七篇：资本超级周期、泡沫机制与极端压力测试](part2-07.md)
-- [第八篇：中美算力竞争与 2036 终局情景决策树](part2-08.md)
-
-## 参与
-
-欢迎提交事实纠错、来源补充与机制挑战。规则在 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-数字、时间、口径或证据等级错了，开 [数字 / 口径 / 来源纠错](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml)。
-
-如果你认为假设、机制或情景不成立，开 [机制 / 情景挑战](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=analysis.yml)。最好直接指出：哪个 F 不成立、哪个 H 不合理、哪条 M 断了、哪个 S 推不出来，或应该加入什么 X 证伪信号。
-
-## 引用
-
-GitHub 会读 [CITATION.cff](CITATION.cff)。作者 James（kamanager2012），2026。
