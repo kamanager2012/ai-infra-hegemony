@@ -1,181 +1,230 @@
-# Volume 12: China–U.S. AI Supply-Chain Competition and China's Parallel Stack
+# Volume 12: U.S.–China AI Supply-Chain Competition and China's Parallel Stack
 
-Chinese original: [vol-12.md](vol-12.en.md)
+Chinese source edition: [vol-12.md](../vol-12.md)
 
-## 1. Core question
+> Retrieval and revision cutoff: **2026-08-27**. China's substitution capacity must be evaluated by layer. Strength in smartphones and consumer computing does not prove frontier-AI closure; frontier-AI constraints do not imply that China is limited to consumer devices.
 
-China's AI supply capability must be analyzed in layers rather than as a single "domestic substitution" variable. Smartphone/consumer computing, PC/workstation/general computing, and frontier AI system stacks depend on different combinations of logic, memory, packaging, interconnect, software, and deployment scale.
+## 1. China's AI supply capability must be layered
 
-This volume therefore asks four questions: which layers already support credible parallel supply; where CXMT, YMTC, SMIC, Ascend, and CANN contribute; which frontier-AI layers remain constrained; and under what conditions a domestic stack would become a system-level substitute rather than a product-level alternative. Export controls and domestic system formation are separate mechanisms and must be evaluated separately.
+Any claim that “China can replace” or “China cannot replace” is too broad unless the system is divided into distinct capability layers.
 
-## 2. Current evidence boundary and analytical baseline
+At minimum, the analysis should separate:
 
-Public and secondary materials describe an increasingly integrated domestic stack around Ascend accelerators, HCCS/CloudEngine interconnect, SuperPoD-class systems, and the CANN software environment. However, specific figures such as 392 GB/s, "linear scale-out of thousands of cards," or a sub-5% rewrite rate are not treated here as A-grade facts unless supported by current first-party documentation. The analytical point is system integration, not any single unchecked specification.
+1. smartphones and consumer computing;
+2. PCs, workstations, and general computing;
+3. frontier AI system stacks.
 
-Algorithmic efficiency is an important asymmetric lever. DeepSeek-V3 provides a first-party anchor for a 671B-parameter model with 37B activated parameters and **2.788M H800 GPU-hours** of formal training; its report-side $2/GPU-hour conversion yields about **$5.576M**, excluding prior research and ablations. The key implication is higher effective compute productivity under constrained hardware, not the disappearance of hardware dependence.
+These layers require different combinations of logic, memory, packaging, software, and performance.
 
-Older fixed-margin, mixed-year CapEx, downstream-cost, and point-probability assumptions are not part of the current fact layer. Future outcomes are governed by the shared H1–H17 variables and S1–S4 scenario framework.
+China's success in smartphone supply chains therefore cannot be extrapolated directly into complete frontier-AI substitution.
 
-This volume does not promote unverified 910C peak-FLOPS ratios, SMIC yield assumptions, CXMT HBM layer counts, or unchecked migration percentages into the fact layer.
+The reverse is also wrong: constraints in frontier AI do not justify the claim that China's semiconductor capability is confined to phones.
 
-The current framework therefore focuses on whether an alternative **system stack** is closing across accelerator, memory, packaging, interconnect, compiler/runtime, and deployment—not on one bandwidth figure or one migration-percentage claim. DeepSeek's formal training still used H800 hardware, and the CXMT prospectus did not disclose an HBM product line. The present-tense conclusion is therefore layered: **China can form more complete parallel supply in smartphones and parts of consumer computing, while high-end workstation and frontier AI stacks still lack an equivalent substitute across advanced logic, HBM, advanced packaging, interconnect, and mature software.** The China market does not by itself rewrite global rack, HBM, CoWoS, or CUDA allocation.
+## 2. Layer one: smartphones and consumer computing
 
-## 3. Push the mechanism (physics / commerce / geopolitics)
+China has a relatively complete industrial base in this layer, including:
 
-### 3.1 Three layers are not one layer
+- SoC design;
+- mature and selected advanced foundry capability;
+- LPDDR and NAND;
+- packaging;
+- device manufacturing;
+- operating-system and application ecosystems;
+- a very large domestic market.
 
-Writing "China semiconductors" as one word kneads three layers of demand into one layer of supply, and then pushes "substitution is already done" or "the blockade has already failed" from that one layer. The material and the rules differ on all three.
+The layer is characterized by:
 
-**The phone layer.** This layer needs a phone SoC, LPDDR, NAND/UFS, RF, and power management. TSMC's 2025 platform mix was 29% smartphone wafer revenue and 58% HPC. China has a comparatively complete chain here: SoC design, mature and some advanced DUV foundry capacity, LPDDR/NAND, OSAT, devices, and distribution. That makes smartphones and parts of consumer computing the strongest current parallel-supply layer. **It does not imply that high-end PC/workstation or frontier training stacks already have equivalent performance, scale, and software substitution.**
+- high volume;
+- relatively complete local supply chains;
+- domestic demand capable of supporting scale;
+- performance requirements different from frontier training.
 
-**The PC layer.** What it wants is an x86 or compatible CPU, Windows or a like desktop stack, a discrete GPU or a CUDA workstation, DDR5 sticks, and consumer / commercial SSDs. Game cards have already officially yielded: the leading system vendor gives the same supply first to the data center. General-purpose servers have to be split out: AI cabinets swell; dual-socket machines that cannot get an accelerator are squeezed. This layer has no 71%–75% pad. Channel talk, Huaqiangbei 16G DDR5 from about 450 to 1,800 (CCTV Finance / Cailian 2026-07-07), is a residual-capacity pressure, not a maker list price. Domestic shops can assemble notebooks. They do not resolve the rule layer or the residual dies of the global PC. Do not resolve = the layer is wrong, not that China cannot turn a screw.
+This is therefore the layer in which parallel domestic supply is easiest to establish at meaningful scale.
 
-**The AI layer.** What it wants is the cabinet, HBM, CoWoS, NVLink, CUDA. Official per cabinet: 72 GPUs, 36 Grace, HBM 13.4 TB, LPDDR 17 TB. Source: NVIDIA GB200 NVL72 product page. 10,000 cabinets are 134 PB of HBM plus 170 PB of LPDDR; 30,000 cabinets 402 / 510; 50,000 cabinets 670 / 850. These are the product page multiplied out, not deliveries. TrendForce official note, 2026-08-25: HBM+RDIMM together are about 51% of 2026 DRAM bit supply; memory as a share of major CSP CapEx is 47% in 2026 and 68% in 2027. Micron 10-K: the same bits of HBM take more wafers; Micron first-party ~3× wafer-supply ratio versus DDR5. Hynix FY25: HBM revenue more than doubled in a year, operating margin 49%. The bid pad on this layer is NVIDIA FY26 gross margin 71.1% (charged through H20 inventory; Q4 back to 75.0%), data center $193,737M, free cash $96,575M. Among buyers, no one selling cabinets can outbid that pad. However large China is, what it changes is who buys Ascend and who cannot buy NVIDIA. It does not change North American cloud + CUDA + packaging + HBM.
+## 3. Layer two: PCs, workstations, and general computing
 
-Stacking the three layers on one "domestic substitution rate" table is a catalog error. A high substitution rate on the phone layer cannot be extrapolated into a closed loop on the PC layer and the AI layer.
+This layer is more difficult.
 
-### 3.2 The phone layer: the layer that actually stands at home
+Important constraints include:
 
-The TSMC annual report books geographic revenue by customer headquarters: 2025 North America 75%, Asia-Pacific (excluding China and Japan) 9%, China 9%, Japan 4%, Europe, the Middle East, and Africa 3%. In 2024 China was still 11%, North America 70%. Source: TSMC 2025 annual report / 4Q25 management report. Apple sits in North America even when phones sell in China. China's 9% is not "China consumer electronics are one tenth of TSMC." It is customers headquartered in China. North America rose from 70% to 75%; China fell from 11% to 9%. The increment is not in China customers.
+- high-performance CPUs and GPUs;
+- the Windows/x86 ecosystem or an alternative desktop stack;
+- DDR5;
+- workstation software compatibility;
+- professional graphics;
+- developer tooling and ecosystem depth.
 
-The same annual report also writes: 2025 smartphone shipments about +3%; the 2026 outlook expects smartphone growth to fall, reflecting memory shortage and price-ups. The phone layer itself is already paying a residual-capacity pressure. Flagships keep paying leading-edge logic ASP; mid and low end fall back to mature nodes. Older SoC price, BOM-share, and replacement-cycle estimates lack a revalidated primary or institutional source in the current edition and therefore remain outside the fact layer. What can be confirmed is the platform table: phones are still there, but they are not what the supply-allocation layer feeds first.
+China can expand domestic CPU, GPU, operating-system, memory, and device supply.
 
-SMIC is third in global foundry revenue, not a second TSMC. TrendForce 2026 Q1: top ten together about $47.95B; TSMC about $35.86B, share 72% (several paraphrases 72.3%); Samsung Foundry (excluding System LSI) 6.5%; SMIC 5.1%, revenue about $2.51B. Source: TrendForce 2026-06-12 and Korean press / TelecomLead paraphrases. The same note writes that in Q1 SMIC took early pulls from TV and PC / notebook, and that some 8-inch customer price-ups from 2H25 took effect. Those are consumer and mature-node orders, not top-end AI logic. The judgment's original sentence: SMIC's 5.1% cannot take Western reticles. Public high-end AI logic volume is still mostly TSMC, with Samsung as a parallel line.
+But a fully substitutable workstation experience also requires mature application compatibility, development tools, and performance at scale.
 
-CXMT's books also stand on the phone layer. SSE registration draft dated 2026-05-20, full-text search for HBM / 高带宽内存: 0 mentions. Products write only the DDR series and the LPDDR series. 2025 main business: DDR 1,953,128.56 × RMB 10,000, 31.87%; LPDDR 4,070,354.50 × RMB 10,000, 66.43%; other 1.70%. DDR+LPDDR = 98.30%. Three raised-fund projects: memory wafer manufacturing volume-line technology upgrade RMB 7.5B; DRAM technology upgrade RMB 18.0B (RMB 13.0B proposed from the raise); forward-looking technology R&D RMB 9.0B; total investment RMB 34.5B, RMB 29.5B proposed from the raise. The forward-looking project original writes "adapted to future advanced DRAM," with a build window written through 2026–2028. The two characters for HBM do not appear. Capacity: three 12-inch fabs in Hefei and Beijing; on Omdia figures, China first, global fourth. The prospectus does not contain 350k wafers per month. What Korean press writes is a SemiAnalysis year-end outlook. It does not enter the fact layer. Source: [Volume 5](vol-05.en.md) search of the prospectus PDF.
+The correct description is therefore:
 
-LPDDR at two thirds of main business is what the phone layer looks like on a domestic maker's books. Once the international price holds, making conventional still pays more. That is not a failure of patriotism. It is a demand for profit.
+> **partial substitution is expanding, but the layer is neither fully closed nor structurally impossible.**
 
-### 3.3 The PC layer: neither the rules nor the residual sit in a domestic closed loop
+## 4. Layer three: the frontier AI system stack
 
-The PC layer has two constraints. The first is ecosystem compatibility: Windows, x86, CUDA workstations, discrete-GPU drivers, and professional-software certification are not automatically reproduced by a domestic accelerator/runtime stack. CANN faces training and inference frameworks, not the desktop ecology. The second is residual: after makers move wafers from conventional DRAM toward HBM, DDR5 sticks and consumer SSDs are what is left. TrendForce writes 51% of 2026 DRAM bits as HBM+RDIMM. RDIMM is already inside the half that "goes to cabinets," not a consumer stick. The leftover, under half the bits, is split among phones, PCs, consumer, and other non-RDIMM. Huaqiangbei talk only proves consumer sticks are already absorbing the residual-capacity cost.
+Frontier AI requires several advanced layers to work together:
 
-Domestic shops can ship notebooks. They can ship industry machines with a domestic CPU and a domestic OS. That is industry and Xinchuang, not the global PC layer. The increment on the global PC layer has already been squeezed by the supply-allocation layer onto a node down and a die down. Game cards received the official "supply limited." That is the leading system vendor admitting the yield. It is harder than any launch of a domestic desktop stack. This volume does not write "domestic notebook shipments" as a closed loop on the PC layer.
+- advanced logic;
+- HBM-class memory;
+- advanced packaging;
+- high-speed interconnect;
+- compiler/runtime;
+- distributed training;
+- rack-scale deployment;
+- data-center power.
 
-### 3.4 The AI layer: an alternative system stack is forming, but the loop is not closed
+This is the hardest layer of China's parallel stack.
 
-The Ascend path's structure can be written. On the leading system vendor side: a domestic accelerator, die-to-die interconnect, switches, super-nodes. On the software/runtime layer side: CANN, MindSpore, adapters for PyTorch / vLLM. Reuters 2025-04-21, citing sources: 910C planned for large-scale shipment to China customers, packing two 910B dies into one 910C. That is a source, not an official datasheet. This volume does not promote it to peak FLOPS or a benchmark ratio. Public papers and field studies have written migration friction on CANN, operator long tails, and gaps in ops tools, in the same direction as "5% rewrite volume is a migration cost, not ecological sovereignty." This volume does not cite unchecked percentages.
+A breakthrough at one point does not automatically create system-level equivalence.
 
-A closed loop has to stand up the accelerator, the interconnect, the memory, and the compiler stack at once. Making one card, while HBM still leans on imports or is still under attack, packaging still leans on limited domestic advanced packaging, and the framework still follows CUDA operators, is not a closed loop. DeepSeek's low training bill shows the algorithm lever. The experiment base is still H800. Extrapolating that sentence into "controls failed" skips chip supply. Usable tokens per unit of import-constrained resource is the engineering meaning "asymmetric" should have in the title. MLA and MoE cut a pathological dependence on HBM capacity, and they hit storage and advanced packaging where controls hurt most. A lever existing is not the AI layer already standing alone.
+Examples of incomplete closure include:
 
-Large North American hyperscalers remain major buyers of frontier training systems. A larger China-side demand pool would add another source of advanced-compute demand; it would not automatically release HBM, advanced packaging, or leading-edge logic back to consumer markets.
+- an accelerator without sufficient HBM;
+- an HBM prototype without packaging at scale;
+- hardware with high software-migration cost;
+- a cluster that cannot scale efficiently because of interconnect or power limits.
 
-### 3.5 A trust gate, not a yield gate
+The unit of comparison must therefore be the **complete system**, not one chip specification.
 
-For Apple, AMD, Qualcomm, Intel, and MediaTek to leave the TSMC queue, a China fab has to do three things at once: process at the top, capacity that can take the load, and the United States and those firms willing to hand over reticles. The third is export control and the foreign-direct-product rule. Catching up on the first two still cannot take Western flagship chips. Those firms are still in the TSMC queue. The queue sits behind NVIDIA.
+## 5. Strategic significance of Huawei Ascend / CANN
 
-So even if Eastern capacity stands up, it is a parallel bid, not a substitute seat for those names at TSMC. Booked 19% and packaging tight: [Volume 4](vol-04.en.md). SMIC's 5.1% cannot take this slice. Apple locks phone logic. However large the phone layer is, it cannot lock the new pie on the AI layer.
+The strategic importance of Ascend + CANN is not one generation's peak single-card specification.
 
-### 3.6 CXMT follows the price. It does not transfuse Huawei
+It is the construction of an accelerator software ecosystem outside CUDA, including:
 
-Profit has no nationality. Once the international price holds, makers sell first to the high bidder. Hynix FY25 operating margin 49%, HBM revenue more than doubled year on year, and it also named a sharp rise in conventional server memory. Samsung Memory 2025 KRW 104.1T, priority on HBM, server DDR5, and enterprise SSD. Micron FY25 DRAM $28.58B; the cloud-memory slice CMBU from $3.79B to $13.52B; mobile plus client plus Crucial MCBU from $11.67B to $11.86B, almost sideways. The floor is what they and the cabinet lifted together. CXMT walks that floor.
+- compiler/runtime;
+- framework adaptation;
+- distributed communication;
+- model deployment;
+- a domestic developer ecosystem.
 
-Huawei wants high-end dies. It bids at this price. It does not take them at an insider price. If it can pay, it is a high-price peer. If it cannot, it takes residual the way a phone maker does. The judgment's original sentence: Huawei's high price is a rent unpaid to NVIDIA inside the restricted domestic market. Rationing blocks domestic bits from flowing out. It does not mean CXMT has already been scaled. 350k wafers per month is not an announcement. Writing "domestic HBM about to ramp" from the channel as fact goes past the prospectus.
+The relevant progress indicators are therefore:
 
-Cheapness alone does not punch through CUDA. CUDA is a decade-long developer stack. UXL / oneAPI exists. It is digging. It has not dug through. A 75% pad means it can also cut price. The China stack lives on people who cannot buy NVIDIA, not on cheapness punching through CUDA. A high-price peer lets Huawei join the high-price bid. Domestic clouds switch stacks only under cutoff and policy. Both sides are expensive.
+- frontier-model migration cost;
+- large-cluster utilization;
+- compiler maturity;
+- operator coverage;
+- deployment stability;
+- workload scale.
 
-### 3.7 YMTC is NAND number three, not an HBM spare
+Peak FLOPS alone does not answer whether the stack is production-competitive.
 
-YMTC official layer text writes "200 layers and above / broke 200 layers," not press 267. Site 2025-08-06: fifth-generation 3D NAND X4-9070 (TLC) and X4-6080 (QLC), 1Tb and 2Tb, and it does not print stack-layer counts. Prospectus (SSE filing draft 2026-08-21): January–March 2026 revenue RMB 47.042B, net income attributable to the parent RMB 33.379B; on TrendForce, third globally and first in China by both sales dollars and bits shipped. 2025 revenue RMB 63.185B, attributable RMB 14.211B. Raised funds: volume-line technology upgrade RMB 20.8B, R&D RMB 12.2B, total proposed from the raise RMB 33.0B. The full text has no official monthly capacity in the tens of thousands of wafers. HBM appears in the glossary explaining DRAM stacks, not as a YMTC product line. YMTC is a NAND IDM.
+## 6. Memory is one of the easiest constraints to underestimate
 
-It can supply consumer and some enterprise SSD. It cannot supply HBM, and it cannot supply that half of bits that is server DDR5. A NAND price-up letting it earn in one quarter what used to be a year's profit shows that the residual-capacity pressure also holds on flash. It does not show that China already has a memory closed loop for training cabinets.
+CXMT's public offering materials disclose DDR and LPDDR products but do not disclose an HBM product line.
 
-### 3.8 Administrative allocation and frontier-stack closure are separate mechanisms
+That evidence should be interpreted narrowly:
 
-Administrative allocation can influence where domestic DDR, LPDDR, NAND, tools, and substrates are sold, but it does not substitute for frontier-AI manufacturing capability. A credible closed loop requires advanced logic, HBM-class memory, advanced packaging, interconnect, compiler/runtime maturity, and deployment at usable scale.
+> **the public filing does not disclose an HBM product line.**
 
-The current public evidence supports a layered conclusion. CXMT's filing does not disclose an HBM product line; YMTC is a NAND IDM; SMIC's 5.1% figure is a foundry revenue share rather than a frontier-AI capacity share. These facts do not imply that China lacks all AI capability, but they do mean that administrative protection alone cannot be treated as proof of a frontier-equivalent system stack. Longer-run escape routes—photonics, new topologies, different memory hierarchies, or other non-silicon innovations—remain technology scenarios rather than present capacity.
+It does not prove that no HBM R&D exists.
 
-Cash NVIDIA earns outside can bid unrestricted tools, specialty gases, packaging substrates, and other scarce inputs at high prices, creating spillover pressure on any parallel stack that still needs internationally priced equipment and materials. The current financial anchor is **FY27 Q2 operating income of $63.734B and Data Center revenue of $89.0B**; Q1 FY27 supply commitments were $119.0B, up $23.8B in three months. The filing describes inventory and capacity commitments but does not split them by TSMC, CoWoS, or memory supplier, and some agreements can be rescheduled. U.S. antitrust does not by itself open restricted leading-edge manufacturing or HBM supply for Chinese buyers.
+For industry analysis, however, a complete frontier-AI parallel stack ultimately requires HBM-class memory at verifiable scale.
 
-### 3.9 The China market cannot save the globe. This is an AI game
+YMTC's NAND capability strengthens storage supply but does not substitute for HBM or DRAM.
 
-However large China is, it is one regional bid. Cabinets, HBM, CoWoS, and CUDA sit in the global cloud and in North America. TSMC 2025 North America customers 75%, China customers 9%. SMIC's 5.1% cannot take Western reticles, and it cannot eat the four clouds' training. What the domestic stack can take is parallel supply on the phone layer: Kirin plus SMIC, CXMT LPDDR, YMTC UFS. PCs are still x86, Windows, discrete GPUs. AI is still the cabinet.
+The label “domestic memory” therefore cannot be used as one undifferentiated category.
 
-"Cannot be broken" names this structure, not that China has no industry. If domestic R&D catches up and tears a slice with capacity and price, a parallel bid can stand. If it cannot stand, the West is left with one bidder. If it stands, the global market is still two stacks, not one stack rewritten by China demand. Dual track is two referees, two cabinets, two grids. Global demand does not double for that. Export control cutting the leading system vendor's China market does not automatically rebate China consumer electronics. Domestic advanced packaging and HBM are just as tight. The first wave of paying a tax, cutting spec, and delaying happens inside both stacks.
+## 7. Foundry and advanced packaging must be analyzed together
 
-The substitutable radius of controlled items also differs. A whole GPU card, HBM dies, an EUV scanner, and some EDA modules have a very small radius. Server boards, ordinary optics, cooling towers, cement, and transformers have a large radius. The premise on which the Ascend path can unfold is routing around or down-speccing the small-radius links with systems and algorithms, not pretending the radius has already grown. HCCS is domesticating interconnect on a small radius (the bandwidth number unchecked). CANN is compatibility on the software radius (rewrite volume unchecked). DeepSeek is cutting the use of small-radius hardware on the algorithm radius. The three together are what earlier unverified material title's "breakout" is made of. Taking any one of them as a full win goes past the evidence.
+TrendForce's 2026 Q1 foundry-revenue estimates were approximately:
 
-## 4. Scenarios, counterarguments, and testable markers
+| Foundry | Revenue share |
+|---|---:|
+| TSMC | **72%** |
+| Samsung | **6.5%** |
+| SMIC | **5.1%** |
 
-Push forward from the numbers now on the table. Do not give new probabilities. earlier unverified material's dual-track 15% is uncalibrated. Do not reuse it.
+These are foundry **revenue shares**. They are not measures of frontier-AI wafer capability.
 
-Scenario A: a weak dual track, domestic side stopped on the phone layer. Cards that can be imported keep running CUDA; incremental domestic clusters are mainly Ascend + CANN + open-source models, enough for mid-scale inference, high-end training still scarce. Phone-layer whole devices and LPDDR keep getting larger, paying a memory residual pressure, not CUDA switching-cost premium. The PC layer keeps assembling and doing Xinchuang. It does not resolve global rules. An administrative lock blocks domestic bits from flowing out. What it protects is this layer. Profit: the U.S. side still collects high-end hardware scarcity premium in the 71%–75% gross-margin band; the China side books the spread as systems-integration fees on domestic substitution.
+A competitive frontier parallel supply chain also requires:
 
-Scenario B: the algorithm break enlarges; the AI layer is still short of material. Open-source models keep cutting cost along KV compression and MoE activation; domestic clusters are enough at mid scale. DeepSeek $5.576M is a report-side conversion, not an audited bill. The lever lifts output per "constrained GPU-hour." It does not lift the layer count of domestic HBM. High-end training still wants imported boards or rationing. The phone layer benefits from on-device distillation; flagships pay a 3 nm cost pressure; mid and low end fall back to mature nodes. The river did not split. The upstream–downstream spread on the same river widened.
+- advanced packaging;
+- substrates;
+- HBM integration;
+- yield;
+- high-volume qualification.
 
-Scenario C: the administrative lock tightens, and only the phone layer is left. The HBM and advanced-packaging gap widens; compute is rationed; firms treat GPU-hours as internal money. CXMT keeps making DDR / LPDDR at the international price and does not open a large HBM program. YMTC keeps eating the NAND price-up. The far gate (non-silicon) still has no volume. The judgment's sentence lands here: if it cannot hold a training cabinet, an administrative lock leaves only the phone layer.
+Node progress is therefore necessary but not sufficient.
 
-Scenario D: a parallel bid stands; the globe is still two stacks. Domestic advanced packaging and HBM-class bits can actually volume enough to hold a training cabinet, and an administrative lock is enough to keep a closed loop. Western cabinets, CUDA, and CoWoS are not rewritten. The China market still cannot save the globe. This branch has no public line evidence now. Keep it as a watch. The report does not treat it as the base case.
+A logic die without scalable packaging and memory integration does not create a complete frontier system.
 
-Scenario E: compliance loosens or transshipment widens. The CUDA leg of the dual stack thickens again; Ascend becomes a backup; the investment logic returns to one global supply. This branch depends on policy. This volume does not forecast a date. Loosening is also not a rebate: HBM+RDIMM is still half of 2026 DRAM bits, and consumer sticks still follow the rise.
+## 8. Algorithmic efficiency is an important asymmetric lever
 
-Other side one: no peer FLOPS, no breakout. That defines the contest as single-chip peak and ignores the systems and algorithms earlier unverified material already stressed. This volume agrees that "peak is not the only ruler." It does not agree that "without a peak you can announce a closed loop." Other side two: 5% rewrite volume is maker copy; independent reproduction will be higher. That doubt has to be kept. This volume has no third-party audit. Other side three: DeepSeek proves controls failed. It proves an algorithm can cut the bill. It does not prove advanced packaging and HBM can already be ignored. Other side four: the China market is large enough that makers will leave an HBM line for it. Prospectus 0 mentions of HBM, LPDDR 66.43%; once the international price holds, sell first to the high bidder. Leaving a line is a hypothesis, not something already happened. Other side five: SMIC 5.1% is closing on Samsung 6.5% and will soon be able to take the load. Revenue shares approaching is not nodes and licenses approaching. The same note writes the orders on TVs and notebooks. Other side six: TSMC China customers at 9% means China is already an important bid. 9% is booked by headquarters, and it fell from 11%; North America 75%. Important is not able to change the allocation.
+DeepSeek and related developments show that model architecture and algorithms can reduce the amount of hardware required for a given level of capability.
 
-Testable markers (a watch list only; do not fill new numbers): on TSMC's next annual report or earnings call, whether the smartphone platform is still near 29%, whether HPC is still above 58%, whether China-region customers are still near 9%, whether North America is still near 75%; on next-quarter TrendForce foundry revenue share, whether SMIC is still in the 5% band and whether the order description is still a consumer pull; whether later CXMT notices or annual reports show an HBM product line, an HBM revenue line, or official monthly capacity; whether later YMTC notices show official monthly capacity in the tens of thousands of wafers, and whether the layer count still only writes 200 layers and above; whether training hardware in domestic large-model technical reports still shows H800 or the same-generation constrained board in volume; whether CANN migration cases have a third-party-reproduced rewrite ratio; whether C.C. Wei's word on CoWoS is still tight or has loosened; whether HBM+RDIMM is still written by institutions as more than half of DRAM bits. All quantities go back to makers and original notes. This volume does not independently verify for them.
+For a supply-constrained ecosystem, that is especially valuable.
 
-## 5. Gaps and what cannot be treated as fact
+Potential levers include:
 
-There is no official 910B / 910C peak compute, power, memory, or benchmark. A Reuters source is not a datasheet. There is no SMIC node, capacity, or yield. There is no CXMT HBM layer count, bandwidth, yield, or customer; the prospectus full text has 0 mentions. There is no official CXMT monthly capacity; 350k wafers per month does not enter the fact layer. There is no official YMTC monthly capacity in the tens of thousands of wafers; 267 layers do not enter the fact layer. There is no export-control list, entity-list entry, or license statistic. 392 GB/s, 5%, thousands of cards, and 400G RoCE are all unverified statements; this volume did no board-level measurement. "Linear scale-out" gives no efficiency curve. DeepSeek $5.576M is what earlier unverified material calls an official conversion, not an audited cloud-compute bill. The 15% dual-track probability is uncalibrated. earlier unverified material $215B is not an AI-hardware line item. 20%–30% has no sample and no base period.
+- sparse architectures;
+- memory compression;
+- better routing;
+- quantization;
+- scheduling.
 
-This volume does not claim China has already "caught up" on some node, and it does not claim U.S. controls have "already locked" the other side. It does not claim brands have already died, CPUs have already been wiped out, or the globe has stopped. It does not write a backdoor. It does not write Huawei's high price as already having physically broken international tools. It does not write an administrative lock as already having scaled CXMT into an HBM-familiar training supply.
+If these techniques reduce compute per useful task, scarce hardware can produce more effective output.
 
-If the asymmetric path is to hold, energy efficiency has to be written as deliverable engineering. Usable tokens per constrained GPU-hour, concurrent context per unit of domestic HBM, and long-tail operator coverage on CANN measure a breakout better than a nanometer number. earlier unverified material gave the DeepSeek-side training bill and 93.3% compression. It did not give the matching Ascend-side bill. In the absence of a measurement, the fair reading is: the algorithm proved a lever exists, the hardware proved a system is being built, and the two ends have not been verified by the same controlled experiment. Firm strategy is therefore a dual stack and a movable workflow, not a bet that one ecology will "win" in some year.
+But algorithmic efficiency should not be restated as “physical supply no longer matters.”
 
-On the U.S.-alliance side, the cost of tightening controls is not only diplomatic. Cutting the China market out of high-end GPU demand hands a slice of scale to a "nothing to deliver" gap, and it forces the other side to treat open-source models and systems engineering as a national task. If the authority only counts "they cannot get H100" and does not count "they are forced to make MLA and cluster scheduling a public good," it undercounts the direction of asymmetric innovation. The objective function should have both supply interruption and the other side's algorithm acceleration. Otherwise it is one-sided bookkeeping. This volume does not score any concrete control order.
+Its strategic role is:
 
-A reading discipline to add: on a sentence such as "domestic compute is already enough" or "the blockade has already failed," ask three questions first — enough for training or for inference, a cluster of how many cards, and whether the eval set is the same set as abroad. On "domestic substitution rate," ask first which layer is being substituted. earlier unverified material does not give answers to those three. This volume does not fill them. The phone-layer answer and the AI-layer answer will not be the same.
+> **to raise effective compute productivity under supply constraints.**
 
-## 6. A high price inside the restricted domestic market is not a second global bid
+It is a multiplier on constrained resources, not a substitute for every missing physical layer.
 
-After the segmented market cuts the market, the price inside can sit above the outside or below it, depending on which side holds the scarce slice. Whole GPU cards are scarcer inside, so Huawei buying a domestic full stack at a high price is, in essence, a rent unpaid to NVIDIA and paid instead to domestic systems integration and domestic cards. Memory dies have had their floor lifted outside by the cabinet; if makers inside are allowed to export, domestic bits walk out with the international premium. Rationing's job is to hold that slice of bits. Holding is not producing enough. What is held is the flow, not the capacity.
+## 9. Export controls create both short- and long-term effects
 
-FY26 and prepayments: [Volume 1](vol-01.en.md). That cash bids unrestricted tools and materials on the international market. A high-price full stack at home will eat the spillover: the same scanner, the same bottle of specialty gas, the same substrate, bid outside against a 71%–75% gross-margin pad. the segmented market can block a card. It cannot block a premium seeping in through tools and materials. If the near gate only locks bits and does not lock the spillover of tools and substrates, the phone layer is taxed too.
+Export controls operate in two directions.
 
-That is why "the China market is large" cannot fill the residual gap left by the HBM conversion, and still less can it buy through North American cloud prepayments. TSMC China customers 9%, North America 75%. The clouds are not poor: Microsoft FY25 net income $101,832M, PPE up $64,551M. The cloud hundred billion builds halls. NVIDIA's hundred billion is earned selling the scarce slice itself. Prepayments are reproduction. However thick the China bid is, it does not change the use of those two piles of money.
+### Short term
 
-## 7. Resource controls, stack-switching cost, and cloud ASICs are separate mechanisms
+They can:
 
-Rationing, switching stacks, and self-designed chips are often kneaded into one sentence, "domestic substitution." The three hit different layers.
+- limit access to advanced hardware;
+- raise acquisition cost;
+- slow frontier-cluster deployment.
 
-Administrative allocation changes the flow of already-produced DDR, LPDDR, NAND, tools, and substrates. It can preserve more conventional memory for domestic buyers, but it does not create HBM capacity or reduce compiler/runtime migration cost. Flow control and capacity formation therefore have to be analyzed separately.
+### Long term
 
-The stack-switch tax hits the software/runtime layer. When a firm moves training from CUDA to CANN, what it pays is not the spread on one card. It is operator long tails, training stability, toolchain people, and ISV plugins. If earlier unverified material's 5% rewrite volume holds, it only covers "getting the model script to run." Running, and running large-scale training stably, are not the same tax. Clouds and internet majors will keep both paths at once: as much CUDA as they can buy, Ascend for compliance and supply. The dual stack itself is a cost. Cheapness alone does not fill this tax. NVIDIA FY26 gross margin is still 71.1%, Q4 back to 75.0%. It has a pad and can cut price. The current China stack is driven primarily by constrained access, domestic demand, and strategic autonomy rather than by a demonstrated global cost advantage over the CUDA ecosystem.
+They can:
 
-Cloud ASICs hit Western training cabinets, not the Eastern phone layer. Specs: [Volume 4](vol-04.en.md). No house was found saying it would retreat to 5nm plus commodity DDR5 as the inference mainstay. The Samsung long is Tesla, not the four clouds. SMIC's 5.1% cannot take those reticles.
+- strengthen domestic-substitution incentives;
+- increase the strategic value of a parallel ecosystem;
+- accelerate local software/hardware integration.
 
-Cloud custom silicon is neither simply "good news" nor "bad news" for the China stack. It changes the competitive unit from one accelerator die toward a **system stack**: chip, HBM, packaging, interconnect, compiler/runtime, rack/pod, and workload deployment. Western clouds can divert platform profit away from NVIDIA while still competing for the same upstream advanced resources. For China, the question is whether a second stack can close those scarce non-silicon layers together—not whether Western clouds design one more ASIC.
+Controls can therefore widen the short-run capability gap while simultaneously increasing the incentive to build a long-run alternative stack.
 
-The interface with Volume 9 sits here. Volume 9 writes residual: the cabinet draws HBM, CoWoS, and enterprise SSD; what is left goes to phones and PCs. Volume 12 asks whether a stronger China-side parallel stack would increase non-AI residual supply. Not necessarily: additional domestic AI demand can coexist with continued pressure on HBM, packaging, and conventional DRAM. Cost transmission, specification changes, and product delays therefore have to be measured separately in each stack.
+Which effect dominates depends on the speed of substitution across several layers.
 
-## 8. How large the phone layer can get still cannot lock the increment
+## 10. What would constitute genuine frontier-stack closure?
 
-A larger domestic phone and consumer-computing layer already has visible parallel-supply tracks in devices, SoCs/foundry, LPDDR, and NAND. Those tracks matter because they reduce dependence at the layers they actually serve. They should not be extrapolated into a claim that frontier workstation or AI-training supply is already closed domestically. The relevant test is whether advanced logic, HBM-class memory, advanced packaging, high-speed interconnect, and software migration all close at usable scale.
+This report uses a system-level test.
 
-TSMC's 2025 mix—HPC up 48% year on year and smartphone up 11%—shows why incremental capacity matters. Historical customer revenue shares do not determine future wafer allocation, but large long-duration orders, prepayments, roadmap certainty, and software-stack commitments can influence bargaining power over the increment. Consumer-device buyers therefore compete on a different economic footing from anchor AI-system buyers.
+A complete frontier AI parallel stack requires all of the following to become viable at scale:
 
-Flagships keep paying a leading-edge logic cost pressure; mid and low end fall back to mature nodes. That is a split inside the phone layer, not the phone layer becoming the AI layer. If on-device models walk down distillation and KV compression, a mid- or low-end phone can run enough local inference, and the pathological demand for top-end HBM falls. Training clusters stay expensive. That is the same sentence as scenario B. The report does not treat "enough on device" as a training closed loop.
+1. advanced accelerators can be delivered in volume;
+2. HBM-class memory can be delivered in volume;
+3. advanced packaging can be delivered in volume;
+4. high-speed interconnect can support large clusters;
+5. compiler/runtime migration cost becomes acceptable;
+6. frontier-model training runs stably;
+7. data-center power and system deployment can be sustained.
 
-"Getting larger" on the PC layer at home is easier to misread. Xinchuang desktops, domestic CPUs, and a domestic office stack can hold government and some industry orders. That is a policy bid, not the rule layer of the global PC. Discrete GPUs and CUDA workstations are still in the residual. Limited game-card supply is a public sentence. Adding up Xinchuang shipments and writing "the PC layer is already resolved" treats an industry contract as a global stack.
+Only when those conditions are simultaneously met is it appropriate to describe the stack as closed at the frontier-system level.
 
-What can be written now as "getting larger" on the AI layer is that super-nodes and the adapter layer are being built. SuperPoD, CloudEngine, and CANN adapters for mainstream frameworks: the structure exists. Linear scale-out of thousands of cards is a systems claim. In distributed training, communication usually drags linear toward sub-linear. This volume does not rewrite it as measured efficiency. Until the loop is done, getting larger only changes rationing order inside the restricted domestic market. It does not change the West's bid or its slots.
+## 11. Current judgment
 
-## 9. What the five interrupts mean for the China stack
+As of **August 2026**:
 
-The judgment lists five interrupts that could weaken the resource-hegemony loop: the West actually bundles; cloud ASICs take training off (not only shunt inference); power stops the buildout; the East stands up a second bid; a structural split or a forced-open CUDA. None of the five is done. What is done is only supply commitments to $119.0B. For the China stack, what actually matters is the fourth and the fifth, plus "the East closing its own loop."
+- **smartphones / consumer computing:** parallel supply is comparatively strong;
+- **PCs / workstations:** substitution capability is expanding but remains incomplete;
+- **frontier AI:** an important domestic technology stack exists, but several advanced layers have not yet demonstrated equivalent scale and closure.
 
-For the East to stand up a second bid, the premise is that Western firms will hand reticles to a China-controlled fab, or that a China fab itself makes leading-edge logic and HBM that the West will adopt. The trust gate comes first. The yield gate comes after. SMIC's foundry position and CXMT's conventional DRAM capability support parts of a domestic parallel supply chain, but a frontier-AI system substitute still requires advanced logic, HBM-class memory, packaging, interconnect, software maturity, and deployment scale. A domestic-only system therefore does not by itself determine TSMC allocation to other global customers.
+The most accurate description is therefore neither “China has fully broken through” nor “China is permanently blocked.”
 
-A forced-open CUDA or a split hits tying inside the United States. White House NSM-25, BIS, and DoD write advanced chips as national security. There is no order that says "therefore do not split." Hypothesis from here: a fine is a cost. A split is hard under national security. Even if it splits, it does not open 2nm for SMIC and does not open HBM for CXMT. The China stack cannot treat U.S. antitrust as its own foundry policy.
+It is:
 
-Power stopping the buildout is Volume 13's fork. It has not yet closed. Even if it wins, the first wave's tax does not vanish — consumer dies stay tight — but the leading system vendor's cabinets do not sell, and expansion on the 71%–75% side stops. That is "the people who can wait suddenly also cannot wait." It does not automatically spit HBM back to CXMT, and it does not automatically cut the CANN switching tax.
-
-So none of the five is "make the China phone layer larger." A larger phone layer is already happening. It is not an interrupt condition. Writing what is already happening as about to interrupt global cabinets is the layer written wrong. The window is still the few years before the next first-to-market node is locked by commitments. If those five are not done, the line walks past half of the scarce slice. After half, a second name that then bundles is still asking for residual. China as a second bid is also asking for residual.
-
-## 10. Back to the main line
-
-The leading platform combines rack-scale systems, software/runtime interfaces, HBM, advanced packaging, and interconnect. A China frontier-AI parallel stack therefore has to close across the full system, not merely produce a domestic accelerator. The relevant test is whether migration costs fall enough for material training workloads to move while domestic HBM-class memory and advanced packaging reach sufficient scale.
-
-What can enter the fact layer today is the structure left after the layers are split. China has a stronger parallel-supply position in smartphones and parts of consumer computing than in frontier workstations or AI-training systems. CXMT publicly sells DDR/LPDDR rather than an HBM line; YMTC is a NAND supplier; SMIC's foundry share is not evidence of equivalent frontier-node capacity. TSMC's 2025 mix was 58% HPC and 29% smartphones; TrendForce puts HBM+RDIMM at about 51% of 2026 DRAM bits. Administrative controls can protect the domestic layers that already exist, but **frontier AI substitution still depends on advanced logic, HBM-class memory, advanced packaging, interconnect, and software closing together at scale.**
-
-The world does not blow up. Upgrades stop one node down. Phones and PCs pay a memory residual pressure. One firm writes the rules. The relevant test is therefore not a nanometer race or a binary "breakout" claim. What can be checked is whether next quarter TSMC still says tight, whether HPC is still above 58%, whether the CXMT annual report has an HBM line, and whether domestic training reports are still on H800.
+> **China is moving from product substitution toward system-stack substitution. The global balance will depend on whether advanced logic, HBM, packaging, interconnect, and software can all reach scale together.**
