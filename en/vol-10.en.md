@@ -187,6 +187,6 @@ Evidence that should shift weight toward **S4**:
 
 ## 9. Boundary conditions
 
-This volume does not assign fixed 2036 probabilities, treat the former 40/30/15/15 weights as calibrated forecasts, equate total CapEx with AI hardware CapEx, or treat a single algorithmic breakthrough as proof of 1000× industry-wide compute-demand reduction.
+This volume does not assign fixed 2036 probabilities, treat former fixed scenario weights as calibrated forecasts, equate total CapEx with AI hardware CapEx, or treat a single algorithmic breakthrough as proof of 1000× industry-wide compute-demand reduction.
 
 The purpose of S1–S4 is to create a **falsifiable industrial state machine**. The reader should be able to update the scenario map as evidence changes rather than defend a prophecy written years earlier.
