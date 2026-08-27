@@ -18,14 +18,25 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 
 ## 核心发现
 
-- **AI基础设施竞争的单位正在从“芯片”上移到“系统栈”**：GPU/ASIC只是底层，真正的竞争已经覆盖先进制程、HBM、CoWoS、scale-up/scale-out互联、编译与运行时、机柜/Pod、数据中心与电力。
-- **NVIDIA的现实优势仍然很强，但不能再解释成“别人只有裸片”**：FY27 Q2 营收 $96.221B、Data Center $89.0B、GAAP 毛利率 75.0%，Rubin 已进入 full production；与此同时，Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA都在向完整系统栈扩展。
+- **AI基础设施竞争的单位正在从“芯片”上移到“系统栈”**：GPU/ASIC只是底层，真正的竞争已经覆盖先进制程、HBM、先进封装、scale-up/scale-out互联、编译与运行时、机柜/Pod、数据中心与电力。
+- **NVIDIA 的现实优势仍然很强，但不能再解释成“别人只有裸片”**：NVIDIA 官方 FY27 Q2 披露的营收是 **US$96,221 million = US$96.221B = 962.21 亿美元**，Data Center 营收 **US$89.0B = 890 亿美元**，GAAP 毛利率 **75.0%**，GAAP 营业利润 **US$63.734B = 637.34 亿美元**；Vera Rubin 已进入 full production。[NVIDIA 官方 FY27 Q2 财报](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx)。与此同时，Google [Ironwood](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/)、AWS [Trn3 UltraServers / Trainium3](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/)、Microsoft [Maia 200](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/) 与 Meta [MTIA 300](https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/) 都证明云厂竞争已从“自研一颗芯片”继续上移到系统栈。
 - **“总供给增长”不等于“非AI行业恢复供应”**：本报告用 Non-AI Residual Capacity 区分总供给、AI吸收和消费/传统行业真正拿到的残量。
-- **HBM的物理代价已经有一手锚**：Micron披露，相同节点、相同比特下，HBM3E 约需要 DDR5 3× wafer supply；这不是售价倍数，也不是所有世代固定常数。
-- **模型公司正在从租户变成基础设施锚定买方**：Stargate、Anthropic/AWS 十年级容量承诺说明，模型需求本身正在反向塑造云、芯片、电力和融资。
-- **电力是独立于晶圆、封装、存储之外的第四条物理配额**：120 kW 级 AI 机柜、835 MW 核电重启 PPA、Susquehanna新版最高1.92 GW PPA、Kairos最高500 MW SMR计划，分别处在不同兑现时钟。
-- **消费电子和软件已经出现可观测传导**：2026 年内存合同价显著上涨；AI 软件的毛利必须按推理、检索、工具、人审和AI云成本做单位经济，而不是预设“85%→55%”。
-- **未来结论不是单点预言**：全书用 S1 竞争性扩容、S2 基准集中、S3 资源霸权、S4 资本硬着陆四类状态，以及H1–H17变量持续更新。
+- **HBM 的物理代价已经有一手锚**：Micron 官方披露，在相同技术节点、生产相同比特时，HBM3E 大约需要 DDR5/D5 **3× wafer supply**；这不是售价倍数，也不是所有世代固定常数。[Micron FY24 Q3 Prepared Remarks](https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564)。
+- **模型公司正在从租户变成基础设施锚定买方**：OpenAI [Stargate](https://openai.com/index/announcing-the-stargate-project/) 与 Anthropic [最高 5 GW 的 AWS 新算力协议](https://www.anthropic.com/news/anthropic-amazon-compute?lang=us) 说明，长期模型需求正在反向塑造云、芯片、电力和融资。
+- **电力是独立于晶圆、封装、存储之外的另一条物理配额**：NVIDIA 官方文档给出 GB200/GB300 NVL72 级机柜约 **120 kW** 功率（[NVIDIA](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)）；Constellation/Microsoft Crane 重启项目约 **835 MW**（[Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)）；Talen 2026 Q2 文件确认 AWS 新版 PPA 最高 **1,920 MW = 1.92 GW**，并于 2026 年 4 月完成新版 PPA 切换（[SEC](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)）；Google/Kairos 公开协议最高 **500 MW**（[Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)）。合同容量、建设进度、上电容量和真实利用率必须分开。
+- **消费电子已经出现可观察的内存价格传导**：TrendForce 公开跟踪显示，2026 Q1 conventional DRAM contract prices 约环比上涨 **93%–98%**；这是 **B 级机构数据**，不能写成厂商官方财报事实。[TrendForce](https://www.trendforce.com/presscenter/news/20260601-13070.html)。AI 软件则必须按推理、检索、工具、人审与 AI 云成本做单位经济，而不是预设固定行业毛利终局。
+- **未来结论不是单点预言**：全书用 S1 竞争性扩容、S2 基准集中、S3 资源霸权、S4 资本硬着陆四类状态，以及 H1–H17 变量持续更新。
+
+### 历史事实门禁
+
+本项目从现在起执行硬规则：**已经发生的历史数据只有在公开可查时才能进入 F（事实）层。**
+
+- 财务数据必须保留财年/季度、GAAP 或 non-GAAP 口径、原始单位与分母；
+- 中文换算必须可机械复核，例如 **US$96.221B = US$96,221M = 962.21 亿美元**，绝不能写成 9622.1 亿美元；
+- 公司事实优先公司 IR、SEC/监管文件、正式合同与官方产品文档；
+- B/C 级机构数据必须保留机构名称、估算身份和口径，不能升级成公司官方事实；
+- 找不到公开来源的“历史数字”必须删除或降级，不能继续放在 F 层；
+- 未来数据可以大胆假设、推算和压力测试，但必须明确标为 H/M/S/D，不得伪装成已经发生的历史事实。
 
 ## 先读
 
