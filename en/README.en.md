@@ -21,7 +21,7 @@ The Chinese research corpus remains the source of truth: [中文主目录](../RE
 
 ### Historical fact gate
 
-An already-observed claim may enter **F — Fact** only if it is publicly verifiable. Financial figures must retain period, accounting basis, original units, and denominators. Conversions must be mechanically checkable: **US$96.221B = US$96,221M = 962.21 亿美元**. If a historical number lacks a public source, it must be removed or downgraded from F. Institutional estimates must retain the institution name and evidence grade. Forward-looking values are permitted only when explicitly labeled as hypotheses, model outputs, stress tests, or scenarios.
+An already-observed claim may enter **F — Fact** only if it is publicly verifiable. Financial figures must retain period, accounting basis, original units, and denominators. Conversions must be mechanically checkable: **US$96.221B = US$96,221M**. Preserve the source unit when it is already clear instead of introducing unnecessary localized conversions. If a historical number lacks a public source, it must be removed or downgraded from F. Institutional estimates must retain the institution name and evidence grade. Forward-looking values are permitted only when explicitly labeled as hypotheses, model outputs, stress tests, or scenarios.
 
 ## Start here
 
