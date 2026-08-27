@@ -109,7 +109,7 @@ historical stress-test material derived its own 3:1 ratio from an uncalibrated c
 
 The logic base die lifts I/O and power out of the memory process. HBM starts to consume leading-edge logic. Halfway through the memory war it becomes a foundry war. If the base die runs 3nm or 5nm, every stack takes leading-edge logic again, and maybe packaging. TSMC packaging is already tight enough to limit customer growth. Base die and GPU die bid the same factory's back end. That is mechanism, not a disclosed base-die wafer count.
 
-Test and burn-in are a hidden penalty outside 3:1. A fail after 12-Hi bonding happens after the stack. What is sunk is twelve dies. Actual wafer use may sit above the paraphrased about-3×. This volume does not give another multiple. 48.6% is already an optimistic example, not a conservative floor. Mark it an analysis addendum.
+Test and burn-in are a hidden penalty outside 3:1. A fail after 12-Hi bonding happens after the stack. What is sunk is twelve dies. Actual wafer use may sit above the paraphrased about-3×. This volume does not give another multiple. 48.6% is already an optimistic example, not a conservative floor. It remains an engineering sensitivity, not a first-party yield floor.
 
 ### 3.4 CXMT follows the price. It does not feed Huawei
 
@@ -133,13 +133,13 @@ The China market cannot save the HBM allocation of global cabinets. The payer si
 
 The three checks and the five interrupts are in [Volume 8](vol-08.md). This volume follows only the third check. Phone makers bind memory residual. They cannot bind the stacks on training cabinets. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs, plus memory longs in real cash. That check is not done yet.
 
-## 4. Analysis addendum (scenarios, the other side, testable markers)
+## 4. Scenarios, counterarguments, and testable markers
 
-Analysis addendum. Do not refute. Clouds restacking inference onto DDR5 is not opening another river. HBM has already drawn wafers at a higher silicon cost; the DDR5 bits left are still split between RDIMM and phones and PCs. Stacking more is a tax on the slice already rising. Huaqiangbei 16G from 450 to 1,800 is residual dying first, as talk. This volume confirm only this: restacking onto commodity sticks does not change the sentence "half the bits already go to cabinets."
+Moving more inference toward DDR5 does not create an independent memory-supply pool. HBM and server RDIMM already compete within the broader DRAM resource base, so additional server-memory demand can continue to pressure consumer residual supply. Channel pricing is used only as a lower-grade market signal, not as a contract-price proxy.
 
 The condition on which the other side can stand is written by Micron itself: if HBM demand weakens and makers cut capacity back to conventional, conventional supply will rise markedly. This volume does not write "weakens" as already happened. The Samsung release has no "cut back 80k wafers." The Hynix release does not write that consumer lines were stopped. How much is cut waits on the next segment.
 
-Testable markers. The report does not infer thresholds. Whether the next Hynix release still writes HBM revenue doubling and a sharp rise in conventional server memory. Whether next-quarter Samsung Memory still names HBM, server DDR5, and enterprise SSD. Whether Micron's cloud-memory unit keeps pulling away from mobile-client, or the latter lifts its head. Whether TrendForce still reports HBM plus RDIMM over half of DRAM bits. Whether the next CXMT draft still searches to 0 HBM hits. Whether YMTC official layers still stop at "200 and above." This is a watch list, not a forecast table. Unverified. Do not treat as audit fact.
+Testable markers. The report does not infer thresholds. Whether the next Hynix release still writes HBM revenue doubling and a sharp rise in conventional server memory. Whether next-quarter Samsung Memory still names HBM, server DDR5, and enterprise SSD. Whether Micron's cloud-memory unit keeps pulling away from mobile-client, or the latter lifts its head. Whether TrendForce still reports HBM plus RDIMM over half of DRAM bits. Whether future CXMT filings disclose a standalone HBM product line. Whether YMTC official layers still stop at "200 and above." This is a watch list, not a forecast table. These are monitoring indicators, not current facts.
 
 Hypothesis from here: while cabinet-selling gross margin holds at 71% to 75%, prepayments can keep rising. Consumer bits get thinner. They are what is left after the same river was drawn. The world does not blow up. Upgrades stop one node down. Phones and PCs pay a memory spillover tax.
 
