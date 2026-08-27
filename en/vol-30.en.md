@@ -33,16 +33,16 @@ The depreciation wall and scarce-resource concentration are different mechanisms
 
 ## 4. Winner portraits can only be written as functions, not market caps
 
-Function seats already named in the judgment and historical stress-test material. No 2036 market cap or share:
+Function seats already named in the judgment and earlier stress-test material. No 2036 market cap or share:
 
 - Manufacture and packaging: who can still expand CoWoS-class advanced packaging and decide who gets the increment. TSMC itself only admits a rising packaging-and-test share and tight CoWoS. Sell-side research puts NVIDIA at about 60% of 2026 CoWoS. That is not a TSMC split. The direction is the same line. 1.3万→13万 wafers is not a TSMC disclosure.
 - **Memory:** whether HBM remains a scarce layer. Micron provides first-party evidence that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity; SK hynix reported HBM revenue more than doubling year over year.
-- System stack: who can combine rack/pod standards, scale-up and scale-out interconnect, compiler/runtime, workload software, and data-center deployment into a deliverable compute system. Compute & Networking in FY25 was $116,193M, a neighboring segment, not an audited software-tax value. FY26 Data Center splits into Compute $162,361M and Networking $31,376M.
+- System stack: who can combine rack/pod standards, scale-up and scale-out interconnect, compiler/runtime, workload software, and data-center deployment into a deliverable compute system. Compute & Networking in FY25 was $116,193M, a neighboring segment, not an reported software-tax value. FY26 Data Center splits into Compute $162,361M and Networking $31,376M.
 - Power: who holds executable contracted baseload and interconnection, not merely a queue number. Contract detail on 835 MW / Susquehanna's revised **1,920 MW** long-term PPA / 500 MW: [Volume 35](vol-35.en.md). Contracted capacity, planned capacity, actual energized load, and utilization are not interchangeable.
 - **Algorithmic efficiency:** whether lower compute per completed workload reduces infrastructure demand faster than workload volume expands.
 - **Edge and Physical AI:** whether low-power deployment and physical-system economics create a separate demand curve from data-center infrastructure.
 
-Loser portraits can only be written as mechanism too. Seat-based SaaS that cannot rewrite an 85% gross-margin story into a measurable workflow will be punched through by usage cost. 85%→55% has no sample. Do not treat it as a statistic. Consumer-electronics whole machines that keep eating a memory residual pressure and a lengthened replacement cycle are not AI demand. They are the supply side being siphoned. Channel-verbal 16G DDR5 from 450 to 1800 is not a 10-K. It only shows residual DRAM supply are rising in price. Snapdragon 8 Elite $180–$190 and replacement cycles above 40 months are historical stress-test values. This volume did not re-check ASP.
+Loser portraits can only be written as mechanism too. Seat-based SaaS that cannot rewrite an 85% gross-margin story into a measurable workflow will be punched through by usage cost. 85%→55% has no sample. Do not treat it as a statistic. Consumer-electronics whole machines that keep eating a memory residual pressure and a lengthened replacement cycle are not AI demand. They are the supply side being siphoned. Channel-verbal 16G DDR5 from 450 to 1800 is not a 10-K. It only shows residual DRAM supply are rising in price. Snapdragon 8 Elite $180–$190 and replacement cycles above 40 months are earlier stress-test values. This volume did not re-check ASP.
 
 Microsoft especially cannot be written as a loser. Intelligent Cloud FY25 $106,265M; Azure above $75B, up 34% year on year. Xbox can thin. Azure will not. Sony thinning and Microsoft thinning are not the same sentence. An endgame "Sony becomes a software games brand" can be marked as a scenario. Delete that sentence for Microsoft.
 
