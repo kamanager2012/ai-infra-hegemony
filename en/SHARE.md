@@ -15,7 +15,7 @@ Master judgment: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/�
 ## English thread — release version
 
 **1/**  
-I open-sourced a 40-volume + 8-essay research monograph on AI infrastructure and the 2026–2036 industrial restructuring.
+I published a 40-volume + 8-essay research monograph on AI infrastructure and the 2026–2036 industrial restructuring.
 
 It is not a benchmark report and not a collection of hot takes.
 
@@ -96,10 +96,10 @@ model demand shapes infrastructure; infrastructure constrains model companies.
 Power is a separate physical quota.
 
 Examples in the report:
-- ~120kW-class AI racks
-- ~835MW nuclear restart PPA
-- Talen/AWS revised PPA: up to 1.92GW
-- Google/Kairos: up to 500MW SMR development
+- ~120 kW-class AI racks
+- ~835 MW nuclear restart PPA
+- Talen/AWS revised PPA: up to 1.92 GW
+- Google/Kairos: up to 500 MW SMR development
 
 Important: contract capacity is not the same as already energized AI load.
 
@@ -141,7 +141,7 @@ https://github.com/kamanager2012/ai-infra-hegemony
 
 ## English single-post version
 
-Open-sourced: **The Age of AI Infrastructure Hegemony** — 40 volumes + 8 macro essays on AI infrastructure and the 2026–2036 industrial restructuring.
+Published: **The Age of AI Infrastructure Hegemony** — 40 volumes + 8 macro essays on AI infrastructure and the 2026–2036 industrial restructuring.
 
 Core thesis: the unit of competition is moving from chips to **system stacks** — leading-edge logic, HBM, advanced packaging, fabrics, software, racks, data centers, and power.
 
@@ -156,11 +156,11 @@ https://github.com/kamanager2012/ai-infra-hegemony
 ## 中文线程 — 发布版
 
 **1/**  
-开源了一份 40 卷 + 8 篇宏观的行业深度研究专著：
+发布了一份 40 卷 + 8 篇宏观的行业深度研究专著：
 
-《AI基础设施霸权时代》
+《AI 基础设施霸权时代》
 
-研究的是：AI基础设施如何在 2026—2036 重构半导体、存储、先进封装、云资本开支、电力、软件、消费电子、劳动与全球产业格局。
+研究的是：AI 基础设施如何在 2026—2036 重构半导体、存储、先进封装、云资本开支、电力、软件、消费电子、劳动与全球产业格局。
 
 事实必须有来源，未来判断必须标假设/情景。
 
@@ -201,7 +201,7 @@ Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA 都在向完整系统栈
 **4/**  
 报告里一个核心模型叫：
 
-**Non-AI Residual Capacity —— 非AI有效残余产能。**
+**Non-AI Residual Capacity —— 非 AI有效残余产能。**
 
 总产能增长，不等于手机、PC、传统服务器就能恢复供应。
 
@@ -210,7 +210,7 @@ Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA 都在向完整系统栈
 总有效供给  
 − AI吸收  
 − 其他优先需求  
-= 非AI行业最后真正拿到的资源。
+= 非 AI行业最后真正拿到的资源。
 
 这个变量比“总产能扩了多少”更重要。
 
@@ -219,7 +219,7 @@ HBM也不只是“贵一点的内存”。
 
 Micron一手披露：
 
-在相同技术节点、生产相同比特时，HBM3E大约需要 DDR5 **3倍 wafer supply**。
+在相同技术节点、生产相同比特时，HBM3E大约需要 DDR5 **3× wafer supply**。
 
 所以AI内存扩张会真实占用更多晶圆资源。
 
@@ -240,12 +240,12 @@ OpenAI Stargate、Anthropic/AWS 说明一个新的角色正在出现：
 电力是独立于晶圆、封装、HBM之外的另一条物理配额。
 
 报告里核过的现实样本包括：
-- 120kW级AI机柜
-- 约835MW核电重启PPA
-- Talen/AWS新版最高1.92GW PPA
-- Google/Kairos最高500MW SMR开发计划
+- 120 kW级AI 机柜
+- 约835 MW核电重启PPA
+- Talen/AWS新版最高1.92 GW PPA
+- Google/Kairos最高500 MW SMR开发计划
 
-但合同容量 ≠ 已经送到AI机柜的实时功率。
+但合同容量 ≠ 已经送到AI 机柜的实时功率。
 
 每一层都有自己的兑现时钟。
 
@@ -259,10 +259,10 @@ S2 基准集中
 S3 资源霸权  
 S4 资本硬着陆
 
-再用 H1—H17 变量持续更新：需求、先进节点、HBM、CoWoS、电力、云系统栈、CUDA迁移成本、资本开支、监管、中国平行栈、模型公司长期算力承诺……
+再用 H1–H17 变量持续更新：需求、先进节点、HBM、CoWoS、电力、云系统栈、CUDA迁移成本、资本开支、监管、中国平行栈、模型公司长期算力承诺……
 
 **9/**  
-仓库里现在不只是40卷正文。
+仓库里现在不只是40 卷正文。
 
 还包括：
 - 研究方法与证据分级
@@ -271,8 +271,8 @@ S4 资本硬着陆
 - 核心概念与模型索引
 - 2026—2036核心假设矩阵
 - 外部研究对照索引
-- 40卷
-- 8篇宏观
+- 40 卷
+- 8 篇宏观
 
 欢迎直接挑错。
 
@@ -286,9 +286,9 @@ https://github.com/kamanager2012/ai-infra-hegemony
 
 ## 中文单条版
 
-开源：《AI基础设施霸权时代》
+发布：《AI 基础设施霸权时代》
 
-40卷 + 8篇宏观，研究AI基础设施如何在2026—2036重构半导体、HBM、先进封装、云资本开支、电力、软件、消费电子、劳动和全球产业格局。
+40 卷 + 8 篇宏观，研究AI 基础设施如何在2026—2036重构半导体、HBM、先进封装、云资本开支、电力、软件、消费电子、劳动和全球产业格局。
 
 核心判断：竞争单位正在从“芯片”上移到“系统栈”。
 
