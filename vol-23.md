@@ -38,9 +38,9 @@ Micron FY25 10-K 又确认：
 
 假设 HBM 的 bit share 为 (x)，且同 bit wafer input 高于 conventional DRAM，则：
 
-[
+```text
 Manufacturing share > Bit share
-]
+```
 
 因此，即使 HBM 在总 DRAM bits 中不是多数，其对：
 
