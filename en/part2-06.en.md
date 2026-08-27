@@ -1,69 +1,165 @@
 # Macro Essay 6: The Energy War and Physical Grid Constraints
 
-Chinese original: [part2-06.md](part2-06.md)
+Chinese source edition: [part2-06.md](../part2-06.md)
 
-The power-constraint mechanism is developed in [Volume 13](vol-13.md), with project-level evidence in [Volume 35](vol-35.md). This essay asks whether power has become the dominant system bottleneck. The current answer is narrower: power is already strategic, but contracted capacity, permitted capacity, energized load, and utilized load remain different states. SMRs are primarily a longer-duration option rather than immediate spot supply.
+> Retrieval and revision cutoff: **2026-08-27**. Power is now a core AI-infrastructure constraint, but current evidence does not show that it has already become the single dominant bottleneck. Contracted, permitted, energized, and utilized MW remain separate states.
 
-## 1. The question this essay answers
+## 1. The macro question
 
-Can power jam expansion dead? The judgment wrote it as one of five interrupts: if cabinets cannot take power, system-seller revenue parks in inventory, and the supply-coordination layer can queue CoWoS and HBM and still cannot feed them out. This essay, as a macro piece, answers only that sentence. Volume 35 listed three nuclear-deal narratives. What the macro layer must ask is not "data centers have already gone nuclear." It is: after cabinet power density enters the hundred-kilowatt class and campuses enter the hundred-megawatt class, have interconnect licenses and nuclear contracts already become a third physical constraint alongside packaging and HBM; are SMRs this decade's supply, or the next decade's option.
+Even if HBM and advanced packaging expand, an AI system cannot produce useful work until the data center can be powered.
 
-The present conclusion is that the mechanism is real, but power has not become the sole dominant bottleneck. Without checked effective interconnect capacity, without a checked energization-failure rate, "the queue is long" cannot be written as "US power is exhausted," and unread PPA megawatts cannot be added into "already several GW of compute power." The earlier version's 2,600 GW queue, Three Mile Island 835 MW, Susquehanna planned 960 MW, Kairos combined 500 MW do not enter this essay's fact layer. They can stay in the earlier version's claims, used to check how far a public process has walked.
+The key question is therefore:
 
-## 2. Evidence boundary
+> **Has electricity become a third quota alongside advanced packaging and HBM—and if so, how much of the announced or contracted power is actually executable?**
 
-- NVIDIA product documentation supports roughly **120 kW/rack** for GB200-class rack-scale systems.
-- Microsoft/Constellation: ~**835 MW** restart-linked PPA, with regulatory restart work still required.
-- Talen/AWS: replacement PPA up to **1.92 GW**; the front-of-the-meter conversion was completed in **April 2026**.
-- Google/Kairos: development agreement up to **500 MW**, with first commercial deployment targeted around 2030.
+The current judgment is:
 
-Aggregate queue figures, household-energy analogies, unverified cooling BOMs, and fixed power-price/PUE assumptions remain stress-test material. Nominal MW/GW cannot be added into already-energized AI load.
-## 3. Mechanism (physical / commercial / geopolitical)
+- power is already a core constraint;
+- it is not yet proven to be the only dominant constraint;
+- SMRs are better understood as long-duration supply options than as current power.
 
-**Physical meaning of a third physical constraint.** Without a feeder, an advanced-packaging quota is interposers in a warehouse, HBM is chips in a warehouse. 120 kW lifts power from an opex line to a "can it be racked" constraint. Four-year hardware depreciation against a 5-to-7-year license clock is the most dangerous accounting mismatch: the asset-life financial clock is shorter than the power-license clock. Whoever first shortens the license clock (restarting an existing pile, building next to one, buying a campus that already has power) privatizes the third physical constraint. That is a mechanism, not an already-happened outage table.
+## 2. Why rack density changes the problem
 
-**Three contracts represent three technical maturities, not three GW already delivered.** Restarting an existing pile is fastest, the political symbol heaviest; next-to-pile direct connect is medium speed, and tests the grid's rules for large-user direct supply; SMRs are slowest, an option for next-decade campuses. Writing the three contracts as "tech firms have already solved energy" is treating an option as spot. What 2026 to 2028 can use is mainly the small slice of the first two that has finished licensing and actually delivers power. The last one does not match the packaging window in front of us.
+GB200 NVL72-class systems operate around **120 kW per rack**.
 
-How far public process can be confirmed. NRC site page: former Three Mile Island Unit 1 permanently shut down 26 September 2019, licensed thermal power 2,568 MWt; late 2024 Constellation filed a restart intent; 13 May 2025 approved the rename to Christopher M. Crane Clean Energy Center; restart must simultaneously restore the operating-license basis, restore equipment to safe operation, and complete necessary upgrades. The NRC stood up a restart group. 3 June 2026 issued a draft environmental impact statement, comments due 8 July, final outlook the same September; several licenses to restore power operation still in review. 1 July 2026 approved receipt of new fuel. The page still also hangs SAFSTOR decommissioning status. Retrieval cutoff 26 August 2026: this is "walk regulation after signing," not already dedicated delivery to a data center. Source: https://www.nrc.gov/info-finder/reactors/ccec
+At that density, approximately 500 racks represent around **60 MW of IT load** before full facility overhead.
 
-On the Susquehanna path, what public news can confirm is the regulator blocking a direct connect, not planned megawatts already interconnected. November 2024, FERC denied a revised interconnection service agreement 2–1, on the ground that the RTO had not shown the necessity of departing from the standard text. The denial was later upheld; the owner sued in the Fifth Circuit. Other reporting said the parties moved to a front-of-meter PPA and no longer the same behind-the-meter expansion. This essay did not read the full commission order or later PPA contracts. Do not write planned megawatts as already delivered. The mechanism that can be written: a large user next to a pile will be stopped by reliability, cost, and fair access. Signing is not energization.
+The constraint therefore moves beyond an electricity bill.
 
-On the Kairos path, what public sources can confirm is a demonstration license, not a fleet in service. Federal Register: 21 November 2024 the NRC issued Kairos construction permits for two Hermes 2 test reactors at Oak Ridge. The company held a Hermes 2 groundbreaking on 17 April 2026, called it the first delivery under a Google master development agreement, and power to the TVA grid. The company's own window still points at the end of this decade into the first half of the next. Fluoride-salt reactors lack a continuous commercial-operation sample.  tying national strategy to a 2030–2035 in-service window is isomorphic to tying supply to next-generation lithography delivery. SMRs are an option. Writing an option into a 2026 supply plan is the wrong clock.
+A project needs:
 
-**Why 2,600 GW cannot be treated as a power shortage.** The earlier version's set was not split into generation, storage, load, double-counting. Queue capacity is not equivalent to data-center shortage, and it does not prove that AI system sales have already stopped. LBNL interconnect reports exist, used to prove "queues are years, projects exit." They cannot be used to add the national queue into "potential compute" and then subtract "minus data centers and it is enough." What matters for AI is the small slice of high-voltage dedicated lines and main transformers that can actually deliver inside a few years. Treating total queue GW as potential compute is an order-of-magnitude error. This essay therefore leaves 2,600 GW at the scenario-only layer.
+- transmission;
+- substations;
+- transformers;
+- interconnection;
+- cooling;
+- permits;
+- firm generation.
 
-**Commercially, a twenty-year power contract against a four-year server.** In a destocking scenario the power contract becomes a long liability; in an oligopoly scenario the power contract becomes a moat. Four-cloud scope: [Volume 8](vol-08.md). This money has to cover halls. It will also become civil works and power. It cannot be knocked into "GW already paid to a nuclear plant."
+Power becomes a delivery condition.
 
-**Geopolitically, a nuclear license is national capacity, not cloud-vendor capacity.** The US still has restartable commercial piles and a relatively complete regulator. That is the premise of the Three Mile Island story appearing. FERC blocking a direct connect says the same national capacity can both permit and stop. Other economies with only chip subsidies and no license path will be absent from a far-dated large-campus scenario. Power should remain an independent physical-constraint layer. Nuclear counterparties, utilities, and grid operators do not define the software/runtime stack or the compute roadmap.
+## 3. Three representative power paths
 
-Liquid cooling is the energy chain inside the cabinet. The draft wrote Auras, AVC, Vertiv into the BOM, $40,000 to $55,000 per cabinet. On 500 cabinets that is lead time and leak risk. The energy war is not only at the plant. It is also in cold plates and quick-disconnects. It explains "why a cabinet cannot make do with an ordinary air-cooled hall." It does not explain "power has already jammed expansion dead."
+### Microsoft / Constellation — ~835 MW restart
 
-## 4. Scenarios, counterarguments, and testable indicators
+The 20-year PPA supports the restart of the former Three Mile Island Unit 1, now the Crane Clean Energy Center.
 
-Power extrapolations unverified. Do not treat them as verified first-party fact.
+The project remains dependent on regulatory and restart execution.
 
-Scenario A: existing-pile restarts finish on the regulatory calendar; next-to-build finds an executable path in front-of-meter or direct-connect rules; SMRs land on time or slip a little. This decade sees a batch of campuses with a nuclear label. GW-class is still a case. The third physical constraint becomes joint rent for clouds and nuclear operators. This is "power starts to look like quota," not yet "power has already jammed expansion dead."
+The ~835 MW figure is a plant/project capacity anchor, not proof of 835 MW of live AI load.
 
-Scenario B: regulation limits large-user queue-jumping; the next-to-build model is retroactively failed; planned direct supply falls back into the queue. Chips keep waiting on power. Civil spend becomes concrete. A hard landing and an energy constraint happen at once. This branch is the closest to the judgment's "power jams expansion dead." There is now no public energization-failure rate to support that it has already happened.
+### Talen / AWS — up to 1.92 GW
 
-Scenario C: algorithms and the edge pull cabinet power back from the hundred-kilowatt class. Nuclear long contracts become overhedge. The contract is still there. The load is not enough. This is destocking's mirror on the power ledger.
+The revised arrangement can scale to **1.92 GW**.
 
-The five paths: [Volume 8](vol-08.md). Evidence that the power fork has not become the dominant bottleneck is not "nobody talks nuclear." It is: cabinets are still shipping; the NRC site page still writes a potential restart; SMRs are still on a demonstration license; FERC can still send a direct connect back. system-seller revenue has not parked in inventory.
+Talen has confirmed that conversion to the revised **front-of-the-meter** structure was completed in **April 2026**.
 
-Counter one: substituting RECs for watts. RECs solve book emissions. They do not solve feeders and main transformers. Counter two: using 2,600 GW to prove power is ample. A queue is not dispatchable capacity. Counter three: using a 2036 2-to-5 GW plan to prove 2026 already has power. A plan is not delivery. Counter four: nuclear operators have already entered the 60% to 75% gross-margin band. No plant statement. This essay deletes that juxtaposition.
+The monitoring question is now:
 
-Testable indicators list only observation items. Do not pre-fill results. Whether the NRC issues a license to restore power operation, and whether commercial delivery appears, rather than remaining parked on an EIS and fuel receipt. Whether the Susquehanna path stays denied, is rewritten by a court, or walks front-of-meter instead. Whether the Kairos window is still written in the first half of the next decade, and whether the demonstration pile is still parked on a construction permit. Whether public queue times are still years. Whether newly filed campus power leaves the earlier version's 100 to 300 MW. Whether NVIDIA next quarter is still adding supply commitments, rather than explaining revenue as "waiting on power." These indicators go back to regulatory originals and company releases. This essay does not independently verify them in their place.
+- how quickly capacity ramps;
+- how much is energized;
+- how much load appears;
+- how highly it is utilized.
 
-The energy essay must be read with the manufacturing essay and the capital essay at once. Packaging loosening one notch only sends more hundred-kilowatt cabinets to knock on an already-long queue. The manufacturing ceiling loosens, the power ceiling tightens. The earlier version's 2026 power-and-civil $207.5 billion is an admission of this transfer, unverified. If that money is spent on campuses without a license, the accounting result is concrete. Spent on executable watts, the accounting result is a third physical constraint. The same forecast, spent in the wrong place, the sign flips.
+### Google / Kairos — up to 500 MW
 
-For non-US readers, this essay's evidence is all in three US regional grids and the NRC and FERC. Other grids' queue years, nuclear licenses, and large-user direct-supply rules all differ. 5 to 7 years and unchecked PPA megawatts cannot be carried over directly. What can be carried is the mechanism: once cabinet power enters the hundred-kilowatt class and campuses enter the hundred-megawatt class, the power-license clock will be slower than the chip clock, and a direct-connect existing pile will look more like "spot" than new wind and solar. SMRs in any jurisdiction look more like an option.
+The development framework targets up to **500 MW**.
 
-The sentence for nations is the same as Volume 40: licenses and main transformers must be written together with chip subsidies. Write only subsidies, and you get cabinets waiting on power. Write only environmental targets, not executable watts, and you get RECs. Neither fills four-year depreciation. This is not "power has already won." It is "if this fork is truly to win, what is missing is executable watts, not a slogan."
+This is a longer-duration advanced-nuclear path.
 
-## 5. Gaps and what must not be treated as fact
+It should be treated as future supply optionality, not as current AI power.
 
-PPA contracts and acquisition files were not read. $16 billion appears only in diagram text. 835, 960, 500 MW are nameplate or planned. They do not enter the fact layer. 2,600 GW includes non-AI projects, not split, does not enter the fact layer. 8 cents/kWh and PUE 1.2 are assumptions. 2030 and 2036 power are forecasts. China, Europe, India grids are not in the evidence. Nuclear-operator gross margin has no standalone line. 60 to 80 MW, 600 million kWh, 60,000 households are earlier scenario conversions; those grid-side conversions are not treated as first-party facts. This essay does not claim a nuclear-engineering audit, and does not claim a ten-year term was already read.
+## 4. Why the three numbers cannot be added into live AI capacity
 
-Writing nuclear as absolute political correctness or absolute political error helps no depreciation model. This essay only requires three things checkable: whether watts were actually delivered, whether the term is longer than four years, whether the license is executable. The three contracts currently sit in three states — "signed restart, regulation unfinished," "acquired next-to-build, direct connect blocked by the regulator," "far-dated pile order, demonstration just broken ground" — and cannot be added into GW already delivered to a hall. Adding them is publicity. Splitting by state is an operations map.
+The three projects occupy different states:
 
-This essay still outputs no year's "cabinets stopped for power" unit count or GW. Without an energization-failure rate, a hard-written production stop can only be fiction. If a reader sees this essay writing 2,600 GW or the three PPA megawatt sets as evidence that expansion has already been jammed dead, they may judge the writer out of bounds. Power is one of three forks. It has not become the dominant bottleneck now.
+- restart + regulatory process;
+- commercial structure converted, capacity ramping;
+- long-duration advanced-nuclear development.
+
+Adding 835 MW + 1.92 GW + 500 MW produces a nominal project total.
+
+It does not produce an operating AI-load total.
+
+The correct power framework is:
+
+1. Announced
+2. Contracted
+3. Permitted
+4. Energized
+5. Utilized
+
+The economic value increases as a project moves down that sequence.
+
+## 5. Grid queues are evidence of congestion, not deliverable compute
+
+Large interconnection queues contain:
+
+- generation;
+- storage;
+- loads;
+- duplicate or speculative applications;
+- projects that later withdraw.
+
+Therefore:
+
+```text
+Queue MW ≠ Deliverable AI MW
+```
+
+What matters to an AI campus is the subset of grid infrastructure that can actually deliver high-voltage power on the required timetable.
+
+The bottleneck is local and temporal.
+
+National installed generation is not a substitute for a missing transformer or interconnection permit at a specific node.
+
+## 6. Power creates a duration mismatch
+
+AI hardware can turn over on a multi-year technology clock.
+
+Power projects and contracts can last much longer.
+
+That creates the risk:
+
+> **short-duration compute demand financed or supported by long-duration infrastructure**
+
+Under sustained growth, secure power is a moat.
+
+Under S4 Capital Hard Landing, the same obligation can become a stranded long-duration asset.
+
+Power therefore belongs in both the physical-bottleneck model and the capital-risk model.
+
+## 7. Rolling Bottleneck Cascade
+
+The system can move through several limiting layers:
+
+**HBM/packaging tight  
+→ more supply comes online  
+→ more racks seek deployment  
+→ grid/interconnection becomes tighter  
+→ deployment slows  
+→ utilization and next hardware orders weaken**
+
+The bottleneck can rotate.
+
+This is why the report avoids declaring any one scarce layer permanently dominant.
+
+## 8. What would prove that power has become the dominant bottleneck?
+
+The evidence would need to show several of the following:
+
+- widespread deployment delays caused specifically by power;
+- persistent energized-capacity shortfalls;
+- idle delivered hardware waiting for interconnection;
+- next-generation orders delayed because projects cannot be energized;
+- power constraints explicitly cited by major buyers as a binding growth limit.
+
+As of August 2026, power is a core constraint but not yet proven to dominate the whole system.
+
+The key metric is not:
+
+> “How many GW have been announced?”
+
+It is:
+
+> **How many MW can be permitted, energized, and continuously used before the hardware generation changes?**
