@@ -79,13 +79,7 @@ TrendForce 对 NVIDIA 占 2025 CoWoS demand 超过 60% 的估计，应作为 **B
 
 ## 5. 5.39 wafers/rack 只能作为压力测试
 
-本报告使用：
-
-[
-5.39 CoWoS wafers/rack
-]
-
-作为 D 级 geometry stress test。
+本报告使用 **5.39 CoWoS wafers/rack** 作为 D 级 geometry stress test。
 
 其意义是估算 rack-scale deployment 对 advanced packaging 的数量级压力，而不是推导 TSMC 全厂产能。
 
