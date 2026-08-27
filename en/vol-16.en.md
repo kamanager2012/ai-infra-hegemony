@@ -34,7 +34,7 @@ In-cabinet interconnect lifts the bandwidth wall from the chip to the cabinet. O
 
 ### 3.2 Profit and cash are already a closed quantitative identity
 
-The official profit, cash, and supply-commitment tables are maintained in [Volume 1](vol-01.en.md). The current anchor is FY26 free cash flow of $96.6B and **FY27 Q2 operating income of $63.734B at 75.0% GAAP gross margin**. These figures support strong capacity-reservation power, but not a one-variable "margin monopoly" law. Bidding for capacity depends on price, long-duration demand, prepayment, credit, utilization, roadmap certainty, supplier diversification, and geopolitics.
+The official profit, cash, and supply-commitment tables are maintained in [Volume 1](vol-01.en.md). The current anchor is FY26 free cash flow of $96.6B and **FY27 Q2 operating income of $63.734B at 75.0% GAAP gross margin**. These figures support strong capacity-reservation power, but not a one-variable rule that converts gross margin into guaranteed capacity allocation. Bidding for capacity depends on price, long-duration demand, prepayment, credit, utilization, roadmap certainty, supplier diversification, and geopolitics.
 
 ### 3.3 Prepayments stand in for invented shipments
 
