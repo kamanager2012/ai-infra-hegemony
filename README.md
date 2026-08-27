@@ -4,7 +4,7 @@
 
 读公开财报和公司自己的产品页。数字不编。预测标成假设，不升成已经发生。检索截止 2026-08-26。不是 10-K 全文审计。
 
-[总判](总判.md) · [机制索引](机制索引.md) · [第一卷](vol-01.md) · [怎么参与](CONTRIBUTING.md) · [怎么引用](CITATION.cff)
+[总判](总判.md) · [机制索引](机制索引.md) · [第一卷](vol-01.md) · [怎么参与](CONTRIBUTING.md) · [怎么引用](CITATION.cff) · [English](README.en.md)
 
 许可是 [CC BY 4.0](LICENSE)。转载、改写、商用都可以，署名即可。纠错请开 issue，不要编数字。
 
