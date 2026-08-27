@@ -1,51 +1,196 @@
-# 第三十卷：2036产业终局情景推演（全球科技产业格局与赢家输家结构）
+# 第三十卷：折旧墙、资本清算与长期产业结构
 
-终局开关、稀缺段过半见[第十五卷](vol-15.md)；统一情景与假设变量见[核心假设矩阵](核心假设矩阵.md)。个人、企业、国家怎么活，见[第四十卷](vol-40.md)。云系统栈是否能够在训练/推理上形成长期替代，见[第四卷](vol-04.md)、[第二十四卷](vol-24.md)和[第二十五卷](vol-25.md)。中国栈三层，见[第十二卷](vol-12.md)。反垄断调查与起诉，见[第十一卷](vol-11.md)。本卷只写一件事：早期版本那一波折旧墙打在哪几年，打不到 2036。
+## 1. 折旧不是年份预测，而是资本约束
 
-## 1. 本卷要回答的问题
+AI infrastructure 的“折旧墙”经常被误解成：
 
-把前面各卷已经出现的物理墙、折旧墙叠到 2036 年，谁还站在瓶颈位置？本卷不发明新的份额数字，不给 2036 年的收入、市占或装机量。S1–S4 可以作为压力测试状态，不能当已经开出的概率。2036 的截面可能是多个状态的混合，而不是四格互斥。
+> 某几年必然出现固定金额的利润冲击。
 
-终局不是公司名单。终局是三堵墙还在不在。内存墙还在，HBM 与先进封装的定价权不会回到 2022 年的 DRAM 周期。互联墙还在，能提供机柜内统一显存的织物仍收系统级租金，无论品牌是否还叫 Nvidia。功耗墙还在，高功率机柜和多年并网会把核电与长周期电力运营商留在「瓶颈掌控者」那一行。总判把这三堵墙写成现在就能看见的分配，不必等到 2036。本卷补的是时钟：2024—2025 那一波 Capex 的折旧，主冲击落在 2025—2028，不自动决定 2036 谁还站着。
+更准确的定义是：
 
-## 2. 早期版本折旧模板，以及已经打掉的格子
+> 当 hardware refresh 快于 workload monetization 时，资产成本开始压低资本回报率，并迫使买方减少下一轮投资。
 
-第三十卷原文没有独立的第二节，没有 2036 年的收入、市占或装机量。它重复四条跨卷句子，全部标「早期情景数字」，本卷不把它们升成已核 10-K，也不把它们写成 2036 年的中枢：
+因此，折旧墙必须与：
 
-- 瓶颈掌控者（台积电、Nvidia、SK 海力士、核电运营商）享有 60%～75% 毛利率与定价权。
-- 云与模型厂商承受 2024 年 2,150 亿美元 Capex 的折旧，加速 ASIC 与算法降本。
-- 下游消费电子与制造业承受芯片采购成本上升 20%～30%，换机周期被动拉长。
-- 2025—2027 年密集折旧后，ROI 不达标的高成本模型被淘汰，行业进入高能效 Agents 成熟期；技术方向是 CoWoS/CoPoS、CPO、MLA/MoE。
+- utilization；
+- revenue；
+- residual value；
+- next-generation CapEx
 
-2,150 亿不是四份同一日历年、同一科目、AI 分项的可复加算式。混年（微软 FY24 + 其余 CY2024）设备购置、亚马逊用净额、Meta 不加租赁 = 44,477 + 77,658 + 52,535 + 37,256 = 211,926（百万美元），约 2,119 亿；Meta 用公司口径则 2,139 亿。2025 混年约 3,540～3,565 亿。四笔都是全集团资本开支。450～550 亿年折旧是按 4 年硬件加 15 年土建推的模板，不是四家 10-K 资产分类加总。微软「突破 550 亿」对不上现金流量表：Additions to property and equipment，FY24 为 44,477 百万美元，FY25 为 64,551 百万美元。Nvidia FY25 数据中心精确值是 115,186 百万美元，不是「1,150+」。BOM、软件溢价 40%～45%、CoWoS 月产能 1.3 万→13 万及独占 60%，不是台积电或英伟达分项。AI软件毛利压力测试端点 无样本。DeepSeek-V3 的 557.6 万美元是早期版本自称，截至当前公开资料，尚未重核论文。本卷只把这些格子当对照，不把它们写成 2036 年还成立的定量。
+共同分析。
 
-FY26、台积电 2025、海力士 FY25、NVL72 单柜规格、供应承诺 952→1,190、10% 法定天花板，全部已经写在总判和[第一卷](vol-01.md)。本卷不再抄一遍。
+## 2. Hardware 与 infrastructure 的寿命不同
 
-## 3. 机制：折旧墙决定 2025—2028，不自动决定 2036
+AI investment 包含：
 
-2,150 亿美元按 4 年硬件折旧，主冲击落在 2025—2028，这是早期版本模板。到 2030 年以后，那一批资产已经提完或接近提完。2036 年的输赢取决于此后有没有第二、第三轮同等量级的 Capex，以及 Agents 是否真的把机时吃满。2025 混年已经到约 3,540～3,565 亿，再用 2024 的 2150 推 2026—2028，会低估基数。具体 2026—2028 年费用：未核验，不得作为已确认事实。
+- accelerator / server；
+- network；
+- data-center shell；
+- cooling；
+- grid；
+- power contract。
 
-若 Agents 成熟期成立且推理因 MLA 一类方法变便宜，资本开支可能从「抢训练织物」转为「买电和买封装」。若 Agents 达不到企业 ROI，第二轮 Capex 不会再来，瓶颈方的 71.1%～75.0% 毛利率会先掉。本卷不预测哪一条发生。可检验的是：四云集团 Capex 是否连续两年负增长；英伟达数据中心收入是否离开 FY26 的 193,737 百万美元量级；毛利率是否离开 71.1% 到 75.0% 这条带。后两项只作对照，不是预测。
+这些资产的经济寿命不同。
 
-折旧墙和稀缺段过半不是同一件事。稀缺段过半问的是：下一代首发还没被承诺锁死的这几年，CoWoS / 先进逻辑首发 / HBM 有没有一半已经按第一名排好。折旧墙问的是：买方已经投下的那一波 PPE，会在哪几年变成费用，会不会逼出第二轮。第一问的答案在[第十五卷](vol-15.md)。第二问的答案是：第一波打在 2025—2028；2036 要另开一轮，或者不再开。
+因此，不能统一使用“4年直线折旧”估算整个 AI infrastructure。
 
-## 4. 赢家画像只能写成功能，不能写成市值
+真正的风险是 duration mismatch：
 
-对应总判和早期版本已点名的功能位，不给 2036 年的市值或份额：
+短周期 hardware  
+vs  
+长周期 infrastructure。
 
-- 制造与封装位：谁还能扩 CoWoS 一类先进封装并决定增量分给谁。台积电自己只承认封装加测试占比抬升、CoWoS 紧。卖方研究估英伟达占 2026 CoWoS 约六成，不是台积电分项，方向同一条。1.3 万→13 万片不是台积电披露。
-- 存储位：谁还在收 HBM 的晶圆惩罚租金。美光 10-K：同样 bit 的 HBM 要更多晶圆。Hot Chips 转述约 3 倍于 DDR5。海力士 HBM 收入一年翻倍以上。
-- 系统位：谁还能把机柜标准、NVLink 织物和编译栈写成不可替换的接口。Compute & Networking 在 FY25 是 116,193 百万美元，是邻近分部，不是软件税审计值。FY26 数据中心拆成 Compute 162,361 百万美元、Networking 31,376 百万美元。
-- 电力位：谁手里有已签约的零碳基荷，而不是排队号。835 MW / Susquehanna 新版最高 1,920 MW / 500 MW 的合同细节见[第三十五卷](vol-35.md)，本卷未重核。
-- 算法位：谁能把训练账单按百万美元量级而不是按整柜去谈。557.6 万美元是早期版本自称，截至当前公开资料，尚未重核。
-- 端侧与具身位：谁能在 50W–100W、超 1000 TOPS 上出货。无整机美元、无出货，不写革命已爆发。
+## 3. 第一轮资本压力首先打在哪里
 
-输家画像同样只能写机制。席位制 SaaS 若不能把 85% 毛利叙事改成可计量的工作流，会被用量成本打穿；AI软件毛利压力测试端点 无样本，不当统计。消费电子整机若继续吃存储溢出税和拉长的换机周期，就不是 AI 的需求侧，而是被虹吸的供给侧。渠道口头 16G DDR5 从 450 到 1800，不是 10-K，只说明残量在涨价。骁龙 8 Elite 180～190 美元、换机 40 个月以上，是早期情景数字，本卷未重核 ASP。
+当 demand 低于预期时，最先调整的是：
 
-微软这条尤其不能写成输家。Intelligent Cloud FY25 为 106,265 百万美元，Azure 超 750 亿美元、同比 +34%。Xbox 可以变薄，Azure 不会。索尼变薄和微软变薄不是同一句话。终局「索尼变成软件游戏品牌」可以标情景；微软这条删。
+1. next-generation hardware order；
+2. inventory；
+3. second-hand system price；
+4. discretionary expansion。
 
-销售单元已经从芯片上移到整柜。一柜官方 72 颗 GPU、36 颗 Grace、HBM 13.4 TB、LPDDR 17 TB。终局竞争单位已经从卡上移到系统：整柜、Pod、互联、软件与数据中心共同决定可交付算力。Q4 FY25 当季 Blackwell 110 亿美元，说明增量已经按整代计，不按单卡计。云系统栈已经开始攻击互联、软件、机柜/Pod与运行时，不再只是裸片竞争；但截至FY27 Q2，其分流尚未在NVIDIA 890亿美元单季数据中心收入与75%毛利率上表现为结构性崩塌。预付款与供应承诺用于锁上游资源，PPE用于建设机房和基础设施；两笔钱处在不同会计科目，却共同决定未来可交付算力。5.39 是 CoWoS 片/柜的测算，不是台积电披露。绑死线在封装，不需要 80 万柜去锁 3nm。1 万、3 万、5 万柜的吨位是总判按官方单柜规格乘的假设，不是已披露销量。本卷不把假设柜量写成 2036 年的装机。
+最晚调整的是：
 
-## 5. 本卷不写的
+- power contract；
+- data-center shell；
+- grid asset。
 
-不重讲五条打断（见总判和[第十三卷](vol-13.md)、[第十一卷](vol-11.md)）。不重开 Maia / TPU / Trainium / MTIA 官方规格表（见[第四卷](vol-04.md)）。不重讲中国市场救不了全球（见[第十二卷](vol-12.md)）。不重讲算力租税已经在收（见[第八卷](vol-08.md)）。不把 2036 写成已经开出的时刻表。
+因此，资本清算具有明显顺序。
+
+## 4. CapEx 不能脱离 utilization
+
+同样 $100B CapEx：
+
+如果 utilization 90%，可能是高回报增长资产。
+
+如果 utilization 30%，可能是过剩资产。
+
+因此，判断 AI infrastructure cycle 必须增加：
+
+[
+Revenue / Deployed Compute
+]
+
+和：
+
+[
+Utilization
+]
+
+而不是只看 CapEx。
+
+## 5. Second-hand price 是重要市场清算信号
+
+财报可能滞后。
+
+second-hand GPU/system market 能更早反映：
+
+- oversupply；
+- generation obsolescence；
+- weak demand。
+
+如果新一代 system 上线后，上一代 residual value 快速下降，会直接提高 hyperscaler 的经济折旧压力。
+
+因此，market-clearing price 是 S4 监测的重要指标。
+
+## 6. Algorithmic efficiency 会加快经济折旧
+
+如果新模型架构能在更少：
+
+- HBM；
+- FLOPS；
+- network
+
+下实现相同 workload，那么旧 system 即使物理上仍能运行，也可能经济上提前过时。
+
+这构成：
+
+> **economic obsolescence**
+
+而不只是 accounting depreciation。
+
+## 7. Power asset 的风险方向相反
+
+power/data-center infrastructure 期限更长。
+
+如果 AI demand 持续增长，它们可能成为 scarce asset。
+
+如果 compute demand 下降，它们可能成为 stranded asset。
+
+因此，同一个长期 PPA：
+
+- 在 S2/S3 中是护城河；
+- 在 S4 中可能变成长久期负担。
+
+## 8. 哪些公司最能穿越资本周期
+
+长期更强的主体通常拥有至少一项：
+
+- high utilization；
+- diversified workload；
+- strong FCF；
+- flexible system stack；
+- low financing cost；
+- scarce asset。
+
+因此，system platform、hyperscaler、power asset owner、foundry 的资本周期表现不会相同。
+
+## 9. Model company 的资本脆弱性
+
+模型公司如果通过长期 compute contract 锁定大量 capacity，却无法形成稳定 revenue，可能面临：
+
+- take-or-pay；
+- financing pressure；
+- contract renegotiation；
+- dilution。
+
+因此，Anchor Buyer Effect 同时带来增长和风险。
+
+## 10. 2036 结构不能由 2026 折旧直接决定
+
+2026 的一轮 CapEx 最终会折旧完毕。
+
+2036 的产业结构取决于：
+
+- 是否发生第二、第三轮 buildout；
+- workload demand；
+- system substitution；
+- power；
+- China parallel stack；
+- regulation。
+
+因此，不能用一轮资产折旧推导十年后公司名单。
+
+## 11. 资本清算后的 AI 不会消失
+
+即使 S4 Capital Hard Landing 出现，大量已建基础设施仍然存在。
+
+历史上 fiber、telecom、cloud 都曾出现：
+
+资本过剩  
+→ asset price 下跌  
+→ 使用成本下降  
+→ 新应用出现。
+
+AI infrastructure 也可能经历类似过程。
+
+因此，资本硬着陆与长期 AI usage 增长并不矛盾。
+
+## 12. 当前判断
+
+截至 2026 年 8 月，尚未看到足够证据证明 AI infrastructure 已进入全面资本清算。
+
+当前更像：
+
+> CapEx expansion + increasing ROI pressure。
+
+真正需要警惕的是以下组合同时出现：
+
+- utilization 下滑；
+- CapEx guidance 下调；
+- supply commitments 下降；
+- second-hand system price 快速下跌；
+- impairment 增加；
+- enterprise AI monetization 弱化。
+
+只有这些信号同时出现，S4 才从压力测试变成现实主情景。
