@@ -32,13 +32,9 @@ Stanford HAI 2026 AI Index 等资料显示，AI 工具在学生和教育场景�
 
 因此出现：
 
-[
-Tool Adoption
->
-Curriculum Update
->
-Institutional Reform
-]
+```text
+Tool Adoption > Curriculum Update > Institutional Reform
+```
 
 教育改革不能停留在“允许不允许用 AI”。
 
