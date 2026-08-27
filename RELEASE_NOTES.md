@@ -2,6 +2,21 @@
 
 > 当前正式研究版本以 `main` 为准。早期 GitHub Release `v0.1.0` 仅作为历史存档。
 
+## 许可变更 / License change
+
+自当前 `main` 版本起，本项目原创内容由 **CC BY 4.0** 收紧为 **CC BY-NC-ND 4.0**：
+
+- 允许署名后的非商业原样转载；
+- 未经另行书面许可，不允许商业使用；
+- 未经另行书面许可，不允许公开发布翻译、改写、重组、删改或其他衍生版本；
+- 第三方材料不因进入本仓库而被重新授权；
+- 正常引用、合理使用及其他法定版权例外不受本许可额外限制。
+
+历史边界必须明确：Creative Commons 许可对已经合法获得许可的旧版本不可追溯撤销，因此此前已按 CC BY 4.0 获得的副本仍保留其原有许可权利；**当前及后续 `main` 版本使用 CC BY-NC-ND 4.0**。需要商业使用、翻译出版或其他超出新许可范围的使用，可另行取得版权人的书面授权。
+
+English: current and future `main` versions are offered under **CC BY-NC-ND 4.0**. Non-commercial sharing of the unadapted work is permitted with attribution; commercial use and distribution of adaptations require separate permission. Prior CC BY 4.0 grants for earlier copies are not retroactively revoked.
+
+
 ## 中文
 
 这一轮不是文字润色，而是对整套研究进行了系统重构。
