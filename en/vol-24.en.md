@@ -1,165 +1,197 @@
 # Volume 24: Advanced Packaging, CoWoS, and AI-System Delivery Bottlenecks
 
-Chinese original: [vol-24.md](../vol-24.md)
+Chinese source edition: [vol-24.md](../vol-24.md)
 
-Cloud-system competition: [Volume 25](vol-25.en.md). Evidence grading: [Volume 31](vol-31.en.md). The geometry note around 5.39 is a pressure test, not a TSMC disclosure. This volume's factual anchor is narrower: TSMC has publicly described advanced packaging / CoWoS as tight and growth-limiting while **not disclosing a customer-level CoWoS split**. TrendForce's estimate that NVIDIA represents more than 60% of CoWoS demand is **B-grade institutional research**; the report's 5.39 wafers-per-rack coefficient is **D-grade engineering geometry**.
+> Retrieval and revision cutoff: **2026-08-27**. This volume keeps three evidence levels separate: TSMC's first-party statements on packaging tightness, institutional estimates of customer demand, and the report's own geometry stress tests.
 
-Historical monthly-capacity ramps and customer-share estimates are not TSMC disclosures. The current analysis instead combines **official tightness + rising HPC mix + customer concentration + institutional demand-share estimates + supply commitments**, while keeping each evidence grade separate.
+## 1. Advanced packaging has become a system constraint
 
-## 1. The question this volume answers
+Frontier AI accelerators increasingly depend on:
 
-Has advanced packaging become one of the binding quotas on frontier AI hardware? TSMC has said CoWoS is tight and that packaging capacity can limit customer growth; its financial statements disclose advanced packaging and testing at an aggregate level rather than a CoWoS customer split. TSMC's 2025 HPC revenue mix was 58%, up 48% year on year, while its largest and second-largest customers were 19% and 17% of annual revenue. Those customer figures are revenue shares, not wafer or CoWoS shares.
+- multi-die integration;
+- HBM;
+- large interposers;
+- high-speed die-to-die connections.
 
-Cloud custom silicon has **not** opened a commodity packaging river. Maia, Ironwood, Trainium, and newer MTIA generations increasingly operate as system stacks, but they still use advanced logic, HBM, packaging, interconnect, and software. This can divert platform profit from NVIDIA while simultaneously increasing competition for scarce upstream resources. Samsung provides a limited parallel leading-edge foundry route for selected customers; SMIC supplies substantial domestic/mature-node capacity but is not an equivalent foundry path for Western frontier training systems.
+Advanced packaging is therefore no longer just the final manufacturing step.
 
-The correct object is therefore the **incremental advanced-capacity capture ratio**, not a claim that one buyer already "owns" the packaging market.
+It has become:
 
-The question is no longer whether "130k wafers and 60% exclusive" are literally true. It is whether repeatedly tight advanced packaging, rising HPC demand, large supply commitments, and concentrated system demand can tilt **incremental** capacity toward the strongest buyers. That is a mechanism and scenario question; it is not a TSMC annual-report line item.
+> **a scarce manufacturing layer that can determine whether a frontier AI system can actually be delivered.**
 
-## 2. Evidence boundary
+A logic die that exists without the packaging capacity required to combine logic, HBM, and interconnect is not yet a deliverable rack-scale system.
 
-Three evidence layers must remain separate:
+## 2. TSMC's first-party evidence is already sufficient to establish tightness
 
-- **A grade:** TSMC's first-party statements that advanced-packaging capacity is tight and can limit customer growth; TSMC's aggregate advanced-packaging/testing disclosures.
-- **B grade:** TrendForce's estimate that NVIDIA represented more than 60% of CoWoS demand.
-- **D grade:** the report's **5.39 CoWoS wafers/rack** geometry stress test.
+TSMC described advanced-packaging capacity as **very tight** in its 2024 Q4 discussion and said it could not meet all customer demand.
 
-Specific monthly CoWoS capacity ramps, customer-level wafer counts, cabinet ASPs, software-premium estimates, and future 2030/2036 packaging-capacity paths are not promoted into the fact layer. They may be useful as historical stress-test inputs but cannot be presented as TSMC disclosures.
-## 3. Mechanism: official tightness, incremental allocation, and system-stack demand
+By 2026 Q2, management said packaging capacity was tight enough to **limit customers' growth**.
 
-### 3.1 What first-party evidence actually confirms
+TSMC also disclosed that advanced packaging plus testing represented:
 
-On the 4Q24 call, an analyst asked directly for CoWoS revenue share and margin. CFO Wendell Huang's official sentence: we don't break down in different segments of the advanced packaging; advanced packaging and testing over 8% of 2024 revenue, and it will account for over 10% this year; gross margin better than before, still below the corporate average. The source is the investor-relations transcript the official investor-relations transcript. C.C. Wei on the same call: today is all AI-focused, and we have very tight capacity and cannot even meet customers' need. On the 2Q26 call, C.C. Wei wrote tightness as a hard constraint on customer growth: our packaging capacity is so tight that now it limits my customers' growth. Those statements provide the first-party anchor. "Sold out through 2026" at the shareholders' meeting has no official transcript. This volume does not write "sold out" as TSMC's own sentence.
+- about **8%** of revenue in 2024;
+- slightly more than **10%** in 2025.
 
-In the 2025 capex guide, about 10% to 20% goes to advanced packaging, testing, mask making, and others. That is a capex basket, not CoWoS monthly capacity, and still less the 13k-to-130k table. The ceiling official text will admit stops here: tight, limits growth, packaging and test past 10%, no segment split, margin still below the corporate average. Using an undisclosed share to explain official "tight" is circular. This volume does not take that road.
+The company does not publicly provide a customer-level CoWoS allocation table.
 
-### 3.2 Incremental HPC and packaging capacity matters more than historical revenue share
+The evidence boundary is therefore clear:
 
-TSMC's books: [Volume 4](vol-04.en.md). Profit and cash: [Volume 1](vol-01.en.md). What is being opened is HPC and packaging. Apple locks phone logic. Booked 19% is not a safe distance. Occupy the increment and next year's slots belong to the leading buyer. Packaging is one slice of the system supply mix. It is not another fab that can be handed to the second name at will.
+> **CoWoS / advanced-packaging tightness is an A-grade fact. Customer-level allocation is not.**
 
-### 3.3 Physics: a chip past the reticle must first become a packageable puzzle
+## 3. NVIDIA's >60% share of CoWoS demand is B-grade institutional research
 
-A single die is stuck at the reticle. The main line writes B200 as two dice of about 800 mm² each, near the reticle limit (Electronic Design / IEEE Spectrum paraphrase); H100 814 mm² (NVIDIA blog). Historical engineering descriptions treat Blackwell as a dual-die design with HBM surrounding the logic complex. Without a silicon interposer or RDL large enough, these objects are only a pile of dice. CoWoS-L claiming 3.3 times the reticle (historical stress-test value) is trading package area for logic area. Expansion is therefore not "buy a few more scanners": you need interposer wafers, bonders, test stations, and dedicated sites. Historical lead-time estimates may illustrate the direction of packaging stress, but they are not used here as first-party capacity measurements.
+TrendForce estimates that NVIDIA represented more than **60% of 2025 CoWoS demand**.
 
-Official one-cabinet bill: 72 GPUs, 36 Grace, 13.4 TB HBM, 17 TB LPDDR. 10k cabinets: 134 PB HBM, 170 PB LPDDR. 30k cabinets: 402 PB HBM, 510 PB LPDDR. 50k cabinets: 670 PB HBM, 850 PB LPDDR. That is tonnage multiplied from the product page, not shipments. Without CoWoS, HBM stacks cannot be bonded; fuel cannot enter the engine. Without HBM, the interposer is empty silicon. When both are tight, the prepayment queue decides who first gets a working set.
+That estimate is important because it indicates how strongly one platform can influence the packaging market.
 
-### 3.4 5.39 maps to the packaging line, not 30% of the factory
+But it remains **B-grade institutional research**.
 
-The report's **5.39 CoWoS wafers-per-rack coefficient is D-grade geometry for pressure testing**: 72 packaged devices divided by an assumed roughly 13.4 packages per interposer wafer. It is not a disclosed TSMC yield, not a customer allocation share, and not a bridge to the entire foundry wafer pool. The earlier 835,000-rack arithmetic used the wrong denominator. Any estimate such as "around 100k racks consume more than half of a packaging line" depends on an external capacity estimate and the assumed geometry and must remain a sensitivity case, not a present-tense fact.
+It should not be restated as:
 
-The useful identity is only **racks × assumed packaging wafers per rack = pressure on the modeled packaging slice**. The coefficient is uncertain because package dimensions, interposer design, edge loss, yield, and product generation change. There is no official TSMC sentence saying how many Blackwell or Rubin packages one CoWoS wafer yields. A larger HBM/interposer design may increase packaging pressure, but the report must not state that the coefficient "can only rise." Future product geometry requires a new calculation.
+- a TSMC official disclosure;
+- actual customer wafer allocation;
+- a guaranteed future share.
 
-Reading an unverified capacity-ramp table as either "shortage is over" or "one buyer has already locked the market" would exceed the evidence. What can be observed is that TSMC has repeatedly described advanced packaging as tight. What remains to be measured is whether lead times, utilization, customer allocation, and the next round of capacity additions actually loosen. Institutional demand-share estimates can inform that watch, but they do not become TSMC disclosures.
+Its correct use is scenario analysis: if one buyer continues to represent a very large share of demand, residual packaging capacity available to competitors can become strategically important.
 
-### 3.5 Cloud ASICs did not open another packaging river
+## 4. 5.39 CoWoS wafers per rack is a D-grade geometry stress test
 
-[Volume 4](vol-04.en.md) only confirm foundry and memory the companies themselves wrote. Third-party node guesses, CoWoS share, and TCO savings do not enter the fact layer. No first-party cloud source reviewed here states "retreat to 5nm plus commodity DDR5 as the inference mainstay."
+The report uses the following geometry stress test:
 
-Microsoft Maia 100. Azure official blog (2024-04-03): Maia 100 is one of the largest processors made on 5nm node using advanced packaging technology from TSMC. URL: https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/. Azure Infrastructure (Hot Chips specs, 2024-08-27): die about 820 mm², TSMC N5, CoWoS-S, four HBM2E stacks, 64 GB total, 1.8 TB/s. URL: https://techcommunity.microsoft.com/blog/azureinfrastructureblog/inside-maia-100-revolutionizing-ai-workloads-with-microsofts-custom-ai-accelerat/4229118. The first-party implication is: the foundry is TSMC, the package writes CoWoS-S, the memory is HBM2E. This 5nm generation also did not take commodity DDR5. Cloud custom silicon's first generation already stands on the packaging line this volume writes.
+```text
+72 packages
+÷ 13.4 packages per wafer
+≈ 5.39 CoWoS wafers per rack
+```
 
-Microsoft Maia 200. Azure Infrastructure official deep dive (2026-01-26): latest TSMC N3; 216 GB HBM3e, 7 TB/s; off-package main memory written as co-packaged High Bandwidth Memory. URL: https://techcommunity.microsoft.com/blog/azureinfrastructureblog/deep-dive-into-the-maia-200-architecture/4489312. The company main blog the same day writes inference; node and memory type follow the deep dive: https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/. The first-party implication is: the next generation did not retreat to 5nm plus DDR5. Official text itself writes N3 and HBM3e. Intelligent Cloud can afford prepayments. What it buys is the same slice of material, not another 5nm river.
+The coefficient is designed only to illustrate the order of magnitude of packaging pressure created by rack-scale systems.
 
-Google TPU. Cloud docs TPU7x (Ironwood) comparison: v5p 95 GiB HBM per chip, 2,765 GBps; v6e (Trillium) 32 GiB, 1,638 GBps; TPU7x Ironwood 192 GiB, 7,380 GBps. Launch note (2025-04-09): Ironwood 192 GB per chip, bandwidth 7.37 TB/s. Software-stack note (2025-11-06): each chip has eight stacks of HBM3E, peak 7.4 TB/s, capacity 192 GiB. URLs: https://docs.cloud.google.com/tpu/docs/tpu7x , https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ , https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack. Three public generations are all HBM, not DDR5. Those three Google documents only write custom TPU, HBM, ICI. No official Google sentence naming TSMC or Broadcom was found. Third parties often write TSMC N3P plus Broadcom. This volume does not treat third-party foundry attributions as Google disclosures. What can be confirmed is that Ironwood uses HBM3E. HBM and advanced packaging are still the same supply.
+It is **not**:
 
-Amazon Inferentia and Trainium. Inferentia product page: first generation 8 GB DDR4 per chip; Inferentia2 32 GB HBM per chip, 4x capacity, 10x bandwidth. Inf2 instance page: up to 384 GB total, 32 GB HBM per chip. URLs: https://aws.amazon.com/ai/machine-learning/inferentia/ and https://aws.amazon.com/ec2/instance-types/inf2/. That is the only official sentence among the four that admits an inference chip used commodity-class DRAM. The direction is away, not a retreat. Trainium2: 96 GiB HBM per chip, 2.9 TB/s; instance total 1.5 TB HBM3. These official pages do not write TSMC or 5nm. Trainium3: first 3nm AWS AI chip; 144 GB HBM3e, 4.9 TB/s; UltraServer up to 20.7 TB HBM3e. URLs: https://aws.amazon.com/ec2/instance-types/trn3/ and https://aws.amazon.com/ai/machine-learning/trainium/. Official text admits 3nm and HBM3e. No official AWS sentence "fabricated by TSMC" was found. The direction is still a leading-edge node plus HBM.
+- a TSMC yield;
+- observed wafer starts;
+- logic-wafer demand;
+- customer allocation.
 
-Meta MTIA. Official 2024-04-10 comparison: first generation TSMC 7nm, off-chip LPDDR5 64 GB; next generation TSMC 5nm, off-chip LPDDR5 128 GB. That is the only generation among the four that official text admits ran as a mainstay on leading-edge logic plus commodity-class DRAM. It hit ranking and recommendation, not Blackwell training cabinets. Official 2026-03-11: partnership with Broadcom; MTIA 300 comprises one compute chiplet, two network chiplets, and several HBM stacks; HBM bandwidth is the most important factor for generative inference; HBM bandwidth doubled from 400 to 450; and it writes latest process nodes, HBM, packaging technologies. That note does not write TSMC, and does not write 3nm. The path is LPDDR5 toward HBM, not a retreat to DDR5.
+The **13.4 packages per wafer** term is itself a geometry assumption, not a TSMC manufacturing disclosure.
 
-A search of the four official domains found no sentence "5nm plus DDR5 as the inference mainstay" or "retreat from HBM to commodity DRAM." What was read runs the other way. To beat today's high-end accelerator you return to 3nm, HBM, and CoWoS, and you bid against 75% gross margin. Only a true retreat to 5nm and less packaging gets you off the scarce slice. Public next generations have not stopped.
+The 5.39 coefficient therefore must not be combined with TSMC's roughly 15 million annual 12-inch-equivalent wafer shipments as though both figures described the same production pool.
 
-### 3.6 Who can produce: mostly TSMC; Samsung is Tesla; SMIC cannot take GDS
+## 5. Why packaging can become a shorter-term quota than the node itself
 
-TrendForce 2026 Q1 pure-play foundry revenue: TSMC 72%, Samsung 6.5%, SMIC 5.1%. Public high-end AI logic volume is still mostly TSMC, with Samsung as a parallel line. Samsung's $16.54B long (announced KRW 22.76T, through 2033) is Tesla. Musk named the Taylor fab for AI6. 16k / 24k / 40k wafers per month are not in the announcements. SMIC 5.1% cannot take Western GDS. Export control and trust: the third item does not pass. SMIC takes phones, TVs, notebooks, and mature nodes, not Azure or GCP training cabinets. Intel Foundry is not in this pure-play top ten. Rapidus is not yet in volume.
+Leading-edge logic supply can expand through:
 
-So: write the node as 5nm or 3nm, the public volume fab for the four clouds' leading-edge AI logic is still mostly TSMC. A 5nm die may be cuttable. High-density interconnect still wants CoWoS. Sell-side puts Broadcom and cloud ASICs into a small slice of CoWoS; common tracking writes Broadcom about 15%. 35% assigned to an ASIC alliance is not a TSMC disclosure. The report does not treat it. NVL72 dollars per cabinet, and how many percent of TCO an ASIC saves: the companies themselves did not say so on the pages above. The report does not treat it.
+- new fabs;
+- process migration;
+- capacity additions.
 
-The China stack: [Volume 12](vol-12.en.md). China fabs cannot take Western GDS, so extra Eastern plants still cannot replace AMD's or Apple's seat at TSMC. The queue is still behind NVIDIA.
+Advanced packaging has a different constraint set.
 
-### 3.7 Packaging quota times interconnect and the compiler stack becomes market structure
+It depends simultaneously on:
 
-Getting CoWoS only lets you bond HBM and logic. To treat 72 bonded GPUs as one unified memory, you still need NVLink and sub-100-nanosecond access (earlier stress-test values: 130 TB/s per cabinet, 13.8 TB memory, below 100 ns). Ethernet, however fast, is another latency and bandwidth. So "packaging tight + proprietary interconnect + CUDA" is three doors. An ASIC that opens only the first may still lose at cabinet level to the whole cabinet. Large-scale system integration is another delivery constraint after packaging, but no unsupported “million-rack” manufacturing claim enters the fact layer.
+- tools;
+- interposers;
+- substrates;
+- testing;
+- process flow;
+- HBM integration.
 
-Copper cable or co-packaged optics saves power inside the thermal wall. It does not replace CoWoS. Treating optics modules or CPO as a way around the interposer misreads this volume's bottleneck layer. If CoPoS panel-level is still only pre-research or a pilot, it cannot be written as relief inside the depreciation window. On the 2Q26 call, C.C. Wei said the majority is still CoWoS; the alternative is a pilot line, about another year from maturity. That is a direction word, not a second river already in 2026 volume.
+This creates periods in which:
 
-Geographically, advanced-packaging capacity is highly concentrated on Taiwan sites. That is the same geographic risk as 2nm fabs and EUV, not a line two years of subsidy can copy. Arizona, Kumamoto, and Dresden are front-end and geographic scatter, not an already-disclosed second CoWoS main plant. This volume invents no overseas packaging monthly capacity.
+> **logic wafers are available, but complete systems still cannot be delivered at the desired rate.**
 
-### 3.8 Profit sits with the system definer, not in the packaging hall
+Packaging therefore acts as a delivery gate between semiconductor production and usable AI infrastructure.
 
-TSMC's 2025 gross margin was 59.9%, while company commentary has described packaging/test economics separately from the corporate average. The relevant framework is **scarce-layer value capture**, not a one-variable gross-margin rule. A high-margin system vendor can have strong bidding power, yet foundries also optimize for customer diversification, utilization, geopolitics, long-run bargaining power, and capital returns. Packaging can be a binding quota without becoming the industry's largest profit pool.
+## 6. Incremental-capacity capture matters more than one monthly capacity estimate
 
-If NVIDIA's cash flow, margins, and order certainty remain strong, its capacity to make prepayments and long-duration commitments remains high. That can tilt incremental scarce capacity toward it. But allocation is not a one-variable auction: price, order scale, prepayment, customer credit, utilization, roadmap certainty, supplier diversification, and geopolitics all matter. The report therefore watches incremental allocation rather than asserting that every rival must simply "pay more or get nothing."
+Let new CoWoS capacity be (C), and let one platform capture a fraction (s).
 
-### 3.9 Acting alone hands over new lines; China TAM is not a rebuttal
+Residual capacity for other buyers is:
 
-Acting alone means handing over each year's new lines and packaging. Changing the allocation requires three checks: prepayments large enough that it cannot recognize only one buyer; software bound into one stack, with an open accelerator interface as the embryo; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Apple does not fight AMD for cabinets. What changes cabinets is the accelerator-and-cloud-ASIC bundle. Phone makers bind residual memory. If China phone makers bundle, they at most change residual allocation. They do not change the increment lock behind 19%.
+```text
+Residual = (1 - s) × C
+```
 
-The strategic window is the period before next-generation capacity and long-duration commitments are fully locked. Rubin-class systems may change interposer and HBM requirements, but the report does not assume the 5.39 coefficient must move in only one direction. What matters is whether new packaging supply, cloud system-stack substitution, memory expansion, and power delivery loosen the scarce layers faster than demand and commitments absorb them.
+| Increment captured by one buyer | Residual for others |
+|---:|---:|
+| 50% | 50% |
+| 60% | 40% |
+| 70% | 30% |
+| 80% | 20% |
 
-CXMT's public product mix is DDR/LPDDR rather than a disclosed HBM line. That can support parallel supply in phones and parts of consumer computing, but it does not create a tax-free HBM/advanced-packaging river for frontier cloud systems. If domestic HBM-class memory and advanced packaging reach sufficient scale, a parallel AI stack becomes more plausible; if they do not, administrative protection alone cannot create an equivalent frontier training stack.
+This table is a scenario model, not a forecast of the real customer split.
 
-## 4. Scenarios, counterarguments, and testable indicators
+Its purpose is to show a simple mechanism:
 
-New quantitative marks are unverified; do not treat as first-party fact.
+> **As one buyer captures a larger share of incremental scarce capacity, the residual available to second and third buyers falls rapidly.**
 
-First scenario: the quota continues. Official text keeps saying tight and limits growth. Packaging-and-test share stays above 10%. The increment is still queued by prepayments. Sell-side tracking keeps writing NVIDIA at about 60%. AMD, Broadcom, and Apple zero-sum the residual. New entrants are in fact fighting for the square most easily squeezed out. What can be checked: whether C.C. Wei or the CFO still uses words such as tight, cannot meet, limits growth; whether advanced packaging and testing is still written as over 10%; whether supply commitments still add from $119.0B. Do not forecast monthly capacity in any year.
+That mechanism is more durable than debating an unverified monthly capacity number.
 
-Second scenario: the ramp lands and demand does not follow. If clouds cut orders or algorithms cut need, packaging utilization falls, lead times vanish, and the sell-side 60% premium falls. TSMC HPC may still be large, but the "choke" narrative has to be rewritten as an ordinary foundry cycle. What can be checked: whether the official limited-supply sentence on gaming cards disappears; whether data-center growth slows; whether packaging-and-test share falls back from 10%. Older 52-week lead-time estimates are not used as first-party monitoring anchors. It has no monthly utilization.
+## 7. Cloud custom silicon does not automatically escape CoWoS and HBM
 
-Third scenario: cloud ASICs take training. That is the one of the main line's five most directly tied to this volume. The condition is public next generations stopping at 5nm, using less CoWoS, and not using HBM. None was found. What can be checked: whether an official sentence appears, "training mainstay or inference mainstay on commodity DIMMs, no HBM, no CoWoS." If Microsoft writes a next generation that no longer uses CoWoS-S or no longer uses HBM3e, this volume is rewritten. If Google writes a next generation as DDR, this volume is rewritten. Until then, custom silicon is still inside the scarce slice. Buyers go from one firm to five. Five bid together. Lead times do not automatically turn cloud-friendly.
+Google, AWS, Microsoft, and Meta are building increasingly complete custom AI systems.
 
-Fourth scenario: a technology switch. CoPoS, other panel-level, or co-packaged optics open the interposer constraint. That technology switch is the key uncertainty behind older long-range packaging-capacity stress tests. The 2Q26 call writes the alternative as a pilot, about another year. Until pre-research is written as volume, strategy still plans on CoWoS shortage. What can be checked: whether TSMC starts disclosing alternative-packaging revenue or utilization on its own; whether customer product pages write a volume packaging name that is not CoWoS.
+But new generations still rely heavily on combinations of:
 
-Write the other side in full. First: 13k, 35k, 75k to 80k, 120k to 130k are year-end guidance narratives. There is no monthly utilization, and no official conversion of "one CoWoS wafer to how many GPUs." A Blackwell dual-die plus many-stack HBM package is larger than a generation of H100. The same wafer count does not mean the same card count. Second: 60% and "hundreds of billions of dollars of prepayments" have no contract source. They may be a supply-chain oral upper bound. The main line only writes them as sell-side tracking. Third: Google and Amazon official text does not name TSMC. "All at TSMC" cannot be written as something the four themselves admitted. Fourth: Amazon's first inference generation used DDR4; Meta's first two used LPDDR5. That proves clouds were willing to use commodity-class memory; they later moved off it. You cannot write "clouds never used ordinary memory." Fifth: TSMC gross margin 59.9% is below NVIDIA 71.1% to 75.0%. Even if packaging is strategically tightest, the profit pool still mostly sits with the system definer. Sixth: ranking can stay on LPDDR5. Ranking success cannot be written as a training-cabinet breakout. None of the six denies "official text already admits packaging is tight; public next generations have not retreated to commodity DIMMs."
+- advanced logic;
+- HBM;
+- advanced packaging.
 
-For firms, the packaging quota is a procurement-lead-time problem: no slot, no training box that can be racked. Multi-chip scheduling does not solve "the box does not exist." For investment, overweighting "advanced-packaging consumables" is not the same beta as TSMC itself. Consumables may sit closer to the bottleneck, but this volume does not provide a company-level financial sample for them. Investment can only bet official tightness, not 60%. For states, writing advanced packaging as a campaign beside 2nm sits closer to this volume's mechanism than subsidizing logic lines alone. Until there is countable disclosed domestic CoWoS-class capacity, you cannot claim you have already hedged sell-side 60%. If policy wants to support startup chips and does not solve the packaging queue, it is only funding drawings.
+Custom silicon can change:
 
-Read against the HBM volume: packaging is the quota; memory is the fuel. Without CoWoS, HBM cannot be bonded. Without HBM, the interposer is empty. What prepayments buy is not abstract capacity. It is the number of complete training boxes that can leave the line each year. Sell-side AMD about 14% and Broadcom about 11% are, in this sense, residual box counts, not a leftover-percentage game. Startups about 7% look like ecosystem diversity. They are in fact the square most easily squeezed out in a ramp year. Those percentages remain sell-side estimates rather than first-party allocation data.
+- who defines the accelerator;
+- who captures software and platform economics.
 
-The coupling of interconnect and packaging also sets where CPO and copper sit. Older engineering estimates attributed meaningful power savings to passive copper relative to optics, but no first-party 20 kW/rack measurement is used here. That is saving power inside the thermal wall, not replacing CoWoS. If CPO only changes light leaving the cabinet, and does not change HBM-to-logic bonding on the interposer, this volume's binding line does not move.
+It does not automatically reduce demand for the same upstream scarce layers.
 
-Checkable markers collapse to a short table. No new numbers. Whether the call still says tight / cannot meet / limits growth. Whether packaging-and-test share stays above 10%. Whether the first customer is still near 19%, HPC still near 58%. Whether supply commitments still add from $119.0B. Whether Microsoft, Google, Amazon, and Meta official pages still write HBM or CoWoS. Whether TSMC still refuses to split CoWoS. Whether a Samsung announcement names a second cloud. Whether SMIC share still sits near 5.1% and still cannot take Western GDS. Whether AP8 moves from "expected" to a production statement; this line only checks a previously identified plant name, and does not extrapolate a fifth site. If CoWoS-L $150,000 to $200,000 in the BOM falls sharply on later cabinets while whole-cabinet ASP does not, the packaging-shortage premium is fading and the system-software premium is still there. Both price points are non-first-party estimates and are used only as monitoring controls, not disclosed costs.
+In some cases, successful custom silicon can increase upstream competition by adding another large buyer of leading-edge logic, HBM, packaging, and power.
 
-Monthly-capacity and customer-share estimates can inform a working hypothesis, but they are not TSMC annual-report line items, and they cannot be cited outward as first-party fact. If a maker later publishes a split, replace this section whole. Do not stack a new percentage on top.
+## 8. Bottleneck location is not the same as profit-pool location
 
-### 3.10 Prepayments lock queue rights, not a disclosed packaging share
+Advanced packaging can be a system bottleneck without becoming the industry's largest profit pool.
 
-Supply commitments rose from $95.2B to $119.0B. Official text writes prepaid manufacturing and capacity agreements. The $23.8B added in those three months is mostly due through fiscal 2027. Official text does not split it to TSMC, and does not split it to CoWoS. Some agreements can be rescheduled. So what prepayments prove is: the seller is locking inventory and capacity, and the lock is speeding up. Prepayments cannot be inverted into "TSMC has already written 60% of CoWoS into a contract schedule." Writing "hundreds of billions of dollars of cash prepayments lock 60%" as already-checked fact welds two facts of different hardness: one is the supply-commitment balance in NVIDIA's own annual report; the other is sell-side tracking of packaging wafers. The first is A-grade. The second is C-grade. This volume writes them apart.
+TSMC has indicated that advanced-packaging margins remain below the company's overall average.
 
-The queue-rights mechanism does not need 60% to hold. TSMC 2025 HPC is already 58% of revenue, up 48% year on year. The first customer rose from 12% to 19%. What is being opened is HPC and packaging. After people, tools, and lines are queued to the leading buyer, the second name who adds price still buys residual. C.C. Wei in 2Q26 said packaging is so tight it limits customer growth. Among those limited are, obviously, the string that can pay and still cannot get a packaging slot. The clouds are not poor. Microsoft FY25 net income already passed a hundred billion dollars. Money does not solve the physics of "not enough interposer to cut this quarter." What prepayments can do is take next quarter's and next year's slots first. Occupy the increment and next year's slots belong to the leading buyer. That is the main line's section-3 sentence. This volume lands it on packaging.
+A system platform can capture value through a different combination:
 
-Official limited supply on gaming cards is the same queue projected onto the consumer side. Shared leading-edge resources can create prioritization pressure between Data Center and Gaming. The current evidence framework already establishes that limited supply on gaming cards does not need 60% exclusive to hold. This volume agrees. Consumer cards and training cabinets fight for the same front-end and a slice of packaging, not two fabs. This volume invents no "already cut how many tens of thousands of gaming cards." Official limited supply is enough.
+- software;
+- interconnect;
+- integration;
+- switching cost;
+- customer lock-in.
 
-### 3.11 Residual memory is rising in price; packaging slots have not become residual
+The distinction is fundamental:
 
-The residual-capacity pressure: [Volume 5](vol-05.en.md) and [Volume 22](vol-22.en.md). The memory side is already pulling wafers. Server DDR5 is already residual, not another river.
+> **bottleneck location ≠ profit location**
 
-The packaging side has no matching "residual river." Advanced packaging and testing is only about 10% of TSMC revenue, yet C.C. Wei called it tight on two calls in a row. Share of revenue is small; the constraint is hard, because this slice has no substitute: HBM must be bonded on an interposer before it can enter a training cabinet. Phone logic can skip CoWoS. Apple locks phone logic. It cannot lock the increment. If clouds move inference to ASICs plus conventional DDR5, they stop bidding against NVIDIA for full HBM output. That is this road's only physical benefit. What they add, though, is residual already rising; and if a 5nm die still wants high-density interconnect, they still return to the queue. Source 04's conclusion: public next generations have not stopped. If they do not stop, the memory residual pressure and the packaging quota are collected together.
+A scarce manufacturing step can control delivery while another layer captures more of the economic surplus.
 
-CXMT follows the international floor. The prospectus: 0 mentions of HBM. It can pull some low-end demand off the consumer platter and let the three majors leave good wafers for HBM and server DIMMs. That is residual reallocation. It is not a tax-free DDR5 river for cloud ASICs, and still less a no-queue CoWoS river for AMD. If domestic advanced packaging can already volume enough to hold training cabinets, an administrative lock is enough to keep a closed loop. If it cannot, the administrative lock leaves only the phone layer. This volume writes that sentence as the wrong layer, not as a moral judgment.
+## 9. Advanced packaging is also central to China's frontier-stack closure
 
-### 3.12 Why the three doors cannot be pulled apart
+A complete China frontier-AI parallel stack requires more than a competitive logic die.
 
-Packaging remains one of the physical gates, but cloud competition is now **system stack vs system stack**, not "an ASIC opens only the first door." Maia/TPU/Trainium/MTIA combine chips with some mix of HBM, interconnect, compiler/runtime, rack/pod design, and internal workloads. Their progress can reduce NVIDIA's platform-profit capture while still leaving both sides dependent on advanced manufacturing and power. The correct test is how much workload moves, at what migration cost, and whether the alternative stack can secure the same upstream resources at scale.
+It also requires scalable capability in:
 
-A design partner helping a cloud build custom silicon is only one part of a larger system-stack transition. Customer-level CoWoS shares are not disclosed by TSMC, so sell-side estimates for Broadcom or other buyers cannot be promoted into fact. What custom silicon clearly changes is who defines the accelerator, interconnect, compiler/runtime, and workload economics. What it does **not** automatically remove is demand for advanced logic, HBM, advanced packaging, and data-center power.
+- advanced packaging;
+- HBM integration;
+- substrates;
+- testing;
+- high-volume yield.
 
-### 3.13 The world does not blow up. Upgrades stop one node down
+Logic-node progress without packaging scale cannot deliver a stable large-system supply chain.
 
-The main line is not that the world "blows up" or that only one firm can ever ship frontier systems. The mechanism is **tiered allocation under scarcity**: some devices can move to less constrained nodes or packaging; frontier training systems cannot avoid every scarce layer at once. Consumer electronics can therefore feel Non-AI Residual Capacity pressure even when they never buy a GPU, while AI systems face packaging/HBM allocation directly. Which buyer captures the next increment is a measurable future variable, not a predetermined outcome.
+Advanced packaging must therefore be analyzed as its own layer rather than hidden inside the broad label “domestic chips.”
 
-The window is the few years before the next first-to-market node is locked by commitments. If Rubin's mix keeps enlarging the interposer and HBM4, 5.39 will only walk up. The window is not waiting for 835,000 cabinets. The window is, before the next generation is written into the $119.0B commitment queue, whether the West binds the three checks, or whether clouds truly stop at 5nm. Neither is done now.
+## 10. Current judgment
 
-## 5. Gaps and what cannot be written as fact
+As of **August 2026**:
 
-1. The four points from 13k to 130k come from supply-chain guidance paraphrase, not TSMC audited segment capacity. 250k and 450k wafers in 2030 and 2036 are forecasts, unverified; do not treat as first-party fact.
-2. 2026 appears as both 120k to 130k and 125k. The text does not say target, guide, or midpoint.
-3. NVIDIA 60%, the rest 14% / 11% / 8% / 7%, and "hundreds of billions of dollars" of prepayments have no contract or 10-K line item. Sell-side 595k to 630k wafers is likewise not a TSMC split.
-4. TSMC filings do not split CoWoS revenue, margin, or utilization. 59.9% is corporate blended gross margin. Packaging and test 8% to a bit over 10% is the finest official split.
-5. There is no official conversion of "one CoWoS wafer to how many GPU sets / how many TB of HBM." 5.39 is an estimate. No monthly capacity can be turned into a global installable cabinet count. 835,000 cabinets used the wrong pool.
-6. CoPoS and CPO are only direction words. The 858 mm² reticle and the 3.3-times expansion have no official derivation.
-7. Google and Amazon latest generations do not name TSMC in official text. That cannot be written as already having left. Eighth-generation TPU node and HBM capacity: the source did not read a sentence on that page. Do not fill it in.
-8. Samsung's $16.54B announcement does not write Tesla. Tesla is Musk oral. Wafers per month are not in the announcements.
-9. No official sentence "retreat to 5nm plus commodity DDR5 as the inference mainstay" was found. If it is not found, write that it was not found. The report does not infer a sentence that it already retreated.
-10. This volume relies on the cited first-party and institutional sources and does not constitute a page-by-page audit opinion on the full TSMC 20-F. CXMT monthly capacity and a domestic three-firm sum do not match official figures. The report does not treat them.
+- TSMC has directly confirmed advanced-packaging tightness;
+- institutional research supports the view that NVIDIA has an unusually large influence on CoWoS demand;
+- TSMC still does not disclose a customer-level CoWoS split;
+- **5.39 wafers per rack** remains a **D-grade geometry stress test**;
+- cloud custom silicon continues to compete for many of the same upstream scarce resources.
 
-This volume closes on a narrower, publishable statement. **TSMC officially acknowledges advanced-packaging tightness and does not disclose customer-level CoWoS allocation. TrendForce's >60% NVIDIA demand share is a B-grade institutional estimate; 5.39 wafers per rack is a D-grade geometry stress test. Public cloud system stacks still rely heavily on HBM and advanced nodes. High-concentration scenarios are inferred from customer concentration, HPC growth, commitments, and system demand—not reported as annual-report facts. China has stronger parallel supply in smartphones and parts of consumer computing, while frontier AI remains constrained by advanced logic, HBM, packaging, interconnect, and software.** New primary disclosures supersede this inference.
+CoWoS and advanced packaging are therefore among the most important physical quotas in AI infrastructure today.
+
+The analytical discipline is equally important: **first-party tightness, institutional customer-share estimates, and internal geometry stress tests must remain separate evidence classes.**
