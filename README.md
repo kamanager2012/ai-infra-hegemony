@@ -6,8 +6,19 @@
 
 许可是 [CC BY 4.0](LICENSE)。转载、改写、商用都可以，署名即可。
 
-发帖底稿在 [en/SHARE.md](en/SHARE.md)，不代发。[v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。
+X / 社交媒体发帖底稿在 [en/SHARE.md](en/SHARE.md)，不代发。早期存档版本：[v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。当前研究以 `main` 为准。
 
+
+## 核心发现
+
+- **AI基础设施竞争的单位正在从“芯片”上移到“系统栈”**：GPU/ASIC只是底层，真正的竞争已经覆盖先进制程、HBM、CoWoS、scale-up/scale-out互联、编译与运行时、机柜/Pod、数据中心与电力。
+- **NVIDIA的现实优势仍然很强，但不能再解释成“别人只有裸片”**：FY27 Q2营收 $96.221B、数据中心 $89.0B、GAAP毛利率75.0%，Rubin进入full production；与此同时，Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA都在向完整系统栈扩展。
+- **“总供给增长”不等于“非AI行业恢复供应”**：本报告用 Non-AI Residual Capacity 区分总供给、AI吸收和消费/传统行业真正拿到的残量。
+- **HBM的物理代价已经有一手锚**：Micron披露，相同节点、相同比特下，HBM3E约需要DDR5三倍wafer supply；这不是售价倍数，也不是所有世代固定常数。
+- **模型公司正在从租户变成基础设施锚定买方**：Stargate、Anthropic/AWS十年级容量承诺说明，模型需求本身正在反向塑造云、芯片、电力和融资。
+- **电力是独立于晶圆、封装、存储之外的第四条物理配额**：120kW级AI机柜、835MW核电重启PPA、Susquehanna新版最高1.92GW PPA、Kairos最高500MW SMR计划，分别处在不同兑现时钟。
+- **消费电子和软件已经出现可观测传导**：2026内存合同价显著上涨；AI软件的毛利必须按推理、检索、工具、人审和AI云成本做单位经济，而不是预设“85%→55%”。
+- **未来结论不是单点预言**：全书用 S1竞争性扩容、S2基准集中、S3资源霸权、S4资本硬着陆四类状态，以及H1—H17变量持续更新。
 
 ## 先读
 
