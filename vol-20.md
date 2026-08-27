@@ -38,7 +38,7 @@
 
 每个 AI workflow 至少应计算：
 
-[
+```text
 Unit Economics
 =
 Revenue or Productivity Value
@@ -52,7 +52,7 @@ Storage
 Tool/API
 -
 Human Review
-]
+```
 
 如果不能形成可验证的单位经济，AI adoption 很容易变成“功能使用量增长，但利润没有增长”。
 
