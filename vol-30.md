@@ -67,15 +67,15 @@ vs
 
 因此，判断 AI infrastructure cycle 必须增加：
 
-[
+```text
 Revenue / Deployed Compute
-]
+```
 
 和：
 
-[
+```text
 Utilization
-]
+```
 
 而不是只看 CapEx。
 
