@@ -1,4 +1,4 @@
-# Essay 8: US–China compute competition and the 2036 endgame decision tree
+# Macro Essay 8: U.S.–China Compute Competition and the 2036 Endgame
 
 Chinese original: [part2-08.md](part2-08.md)
 
@@ -6,22 +6,23 @@ China stack, three layers: [Volume 12](vol-12.md). Endgame switches: [Volume 10]
 
 ## 1. The question this essay answers
 
-After export controls cut the CUDA ecosystem from China data centers, is Huawei Ascend plus domestic semiconductors a second bid, or already a substitute that can save global cabinets, HBM, CoWoS, CUDA? This essay answers only three things. First, phones, PCs, and AI are not one layer. Matching domestic shipments to global training cabinets is the wrong layer. Second, a full-text search of the CXMT prospectus for HBM / 高带宽内存 hits 0. The three fundraising projects have no HBM project name. 350k wafers/month is not an announcement. Third, the draft's 40% / 30% / 15% / 15% endgame table is a scenario branch. It does not enter the fact layer.
+Export controls have accelerated the formation of a China-side parallel stack, but the relevant question is system-level closure rather than a single “domestic substitution” percentage. Smartphone, PC/general computing, and frontier AI require different combinations of logic, memory, packaging, interconnect, software, and scale. The CXMT prospectus does not disclose an HBM product line, and historical 40/30/15/15 scenario weights are not part of the formal framework.
 
-The judgment already wrote: the China market cannot save global cabinets, HBM, CoWoS, CUDA. At home, phones at most. PCs and AI do not resolve. The layer is wrong. This essay nails that sentence to files that can be publicly checked. It does not write a wish as already caught up.
+The current layered conclusion is narrower: China has stronger parallel supply in smartphones and parts of consumer/general computing, while frontier-AI equivalence still depends on advanced logic, HBM-class memory, advanced packaging, high-speed interconnect, compiler/runtime maturity, and deployment scale.
 
-## 2. What the draft already argued (compressed; no key number dropped)
+## 2. Evidence boundary
 
-The Ascend stack. 910B / 910C, Da Vinci cores; HCCS 392 GB/s; bidirectional 400G RoCE; CloudEngine forming a SuperPoD; CANN 8.0 compatible with PyTorch / vLLM / MindSpore, graph compile and auto-tune taking open-source model rewrite volume below 5%. These are draft paraphrase. This essay did not read Huawei originals. Do not promote them to checked shipments or a checked rewrite rate. CXMT was written in the draft as volume LPDDR5 / DDR5 and attacking 3D TSV domestic HBM. An attack can be written as a wish. The prospectus does not have this row.
+Historical versions mixed unverified Ascend bandwidth, CANN rewrite-rate claims, future HBM plans, single-point foundry shares, tool prices, fab costs, and fixed 2036 probabilities. Those values do not enter the current fact layer unless separately supported by first-party or high-quality institutional evidence.
 
-The global single points used for comparison in the draft: TSMC 95% of top-tier AI foundry, High-NA $380 million a tool, a 2nm fab $20B–$25B, CoWoS 60% to Nvidia, CUDA 95% of operators. These do not match official line items in public sources this pass. They drop out of the fact layer. What can stay is TSMC's own sentences and official TrendForce pieces: HPC already 58% of wafer revenue, packaging plus test 2025 a bit over 10%, C.C. Wei saying CoWoS tight, limits customers' growth; 2026 Q1 foundry revenue TSMC about 72%, Samsung 6.5%, SMIC 5.1%.
+The current baseline is:
+- TSMC 2025 HPC share **58%**, advanced packaging + testing slightly above **10%**;
+- 2026 Q1 foundry revenue share: TSMC ~**72%**, Samsung ~**6.5%**, SMIC ~**5.1%**;
+- CXMT filing: DDR/LPDDR product lines disclosed, no HBM product row;
+- YMTC: NAND/SSD, not HBM;
+- DeepSeek-V3: **2.788M H800 GPU-hours** as an algorithmic-efficiency anchor;
+- China-side accelerator, interconnect, and compiler/runtime ecosystems are developing, but system-level frontier substitution still has to close across all scarce layers.
 
-DeepSeek on 2048 H800s finished 671B / 37B activated pretrain at about $5.576 million and 2.788 million GPU-hours, KV compressed 93.3%. It is the draft's algorithm-leverage evidence, not proof of already owning NVL72.
-
-Four endgames (draft probabilities, unverified, do not treat as audit fact): oligopoly centralization 40%, algorithm breakthrough and edge 30%, capital hard landing 15%, East–West dual track 15%. A single fab above $40 billion, monopoly of about 80% of high-end compute, demand down 1,000×: all endgame rhetoric. This essay keeps the branches as switches. Probabilities and point estimates do not enter the facts.
-
-The national-strategy sentence still works: weight power and leading-edge process equally; treat architecture and algorithms as a lever. That is an action list, not a 2036 forecast.
-
+The formal future framework is S1–S4 with H1–H17—not fixed 40/30/15/15 probabilities.
 ## 3. Mechanism (physical / commercial / geopolitical)
 
 ### 3.1 Three layers are not one layer
@@ -30,7 +31,7 @@ The phone layer's scarcity is a slice of leading-edge logic and residual LPDDR. 
 
 The PC layer grabs the same residual DRAM, consumer SSDs, gaming cards. NVIDIA itself has written Blackwell and Ada supply limited. Domestic OEMs are still there. They have no accelerator stack of their own, and no CoWoS queue. Still x86, Windows, discrete GPUs. Residual thinner. Unresolved: it cannot solve DIMMs, disks, and cards being sucked into cabinets.
 
-The AI layer's scarcity is packaging, HBM, cabinet fabric, the referee stack. A domestic parallel stack is for people who cannot buy a cabinet. It cannot take a Western photoresist. Matching phone share or PC shipments to AI cabinets is the wrong layer. Residual: [Volume 5](vol-05.md). Cabinet count times spec: [Volume 16](vol-16.md). Domestic commodity bits follow the residual river's international price. They cannot fill the half of bits inside the cabinet.
+The AI layer's scarcity is packaging, HBM, cabinet fabric, the compiler/runtime stack. A domestic parallel stack is for people who cannot buy a cabinet. It cannot take a Western photoresist. Matching phone share or PC shipments to AI cabinets is the wrong layer. Residual: [Volume 5](vol-05.md). Cabinet count times spec: [Volume 16](vol-16.md). Domestic commodity bits follow the residual river's international price. They cannot fill the half of bits inside the cabinet.
 
 ### 3.2 CXMT prospectus full text: 0 mentions of HBM
 
@@ -52,7 +53,7 @@ The YMTC prospectus (SSE 2026-08-21 filing draft) official sentence is among the
 
 TrendForce 2026-06-12 official piece: 2026 Q1 global top-ten foundry combined revenue $47.95 billion. TSMC about $35.86 billion, share expanded to 72%, the driver written as AI-server GPU / xPU. Samsung Foundry about $3.2 billion, share 6.5%. SMIC $2.51 billion, share 5.1%, the pull written as TV brands and notebook ODMs pulling inventory forward, plus 8-inch price-ups, not 3nm training cabinets. Public volume fabs that can do top-tier AI logic are still mostly TSMC, with Samsung as a parallel line. SMIC 5.1% cannot take a Western photoresist. Apple, AMD, Qualcomm handing GDS to a China-controlled fab pass the export-control and foreign-direct-product-rule gate, not a yield race. Even if Eastern capacity rises, it is a parallel bid, not a substitute for these names' seat at TSMC.
 
-Cloud ASICs: [Volume 4](vol-04.md). This slice of SMIC foundry revenue cannot take the 3nm-plus-HBM line. Huawei is a buyer. A high price inside the iron curtain is rent unpaid to NVIDIA, not a rewrite of global rent. Huaqiangbei: [Essay 5](part2-05.md).
+Cloud ASICs: [Volume 4](vol-04.md). This slice of SMIC foundry revenue cannot take the 3nm-plus-HBM line. Huawei is a buyer. A high price inside the restricted domestic market is value capture redirected away from NVIDIA, not a rewrite of global platform value capture. Huaqiangbei: [Essay 5](part2-05.md).
 
 ### 3.5 The near gate has already fallen. The far gate is still on non-silicon
 
@@ -60,23 +61,23 @@ The near gate is administrative lock. See [Volume 12](vol-12.md). The 10-K itsel
 
 ### 3.6 The East's second bid has not stood
 
-The five paths: [Volume 8](vol-08.md). What this Eastern path looks like when done: domestic advanced packaging and HBM-grade bits can volume enough to hold a training cabinet, and the bid is large enough that newly opened foundry and maker lines cannot only recognize the first name. The prospectus is still selling DDR / LPDDR. Foundry share is parked on TVs and notebooks. The second bid has not stood. The China stack lives on people who cannot buy NVIDIA, not on cheapness punching through CUDA.
+The five paths: [Volume 8](vol-08.md). What this Eastern path looks like when done: domestic advanced packaging and HBM-grade bits can volume enough to hold a training cabinet, and the bid is large enough that newly opened foundry and maker lines cannot only recognize the first name. The prospectus is still selling DDR / LPDDR. Foundry share is parked on TVs and notebooks. A second global-scale resource bid has not yet been demonstrated. The current China stack is driven primarily by constrained access, domestic demand, strategic autonomy, and improving system capability rather than a demonstrated global cost advantage over CUDA.
 
-## 4. Analysis added (scenarios, counters, testable indicators)
+## 4. Scenarios, counterarguments, and testable indicators
 
-Analysis added. The endgame table does not enter the facts. The four branches are used as switches. No frequencies.
+The endgame table does not enter the facts. The four branches are used as switches. No frequencies.
 
 Switch one: four corners lock. The right to define the cabinet moved up. OEM certified systems are already happening. Consumer notebooks assembled to drawing have not finished. The China market cannot change this slice. Test: whether TSMC HPC keeps pressing past phones, whether first customer keeps leaving 19%, whether supply commitments keep adding.
 
-Switch two: China-stack closed loop. A second referee lowers switching cost. It has not won now. It is not already caught up. Test: whether CXMT's next prospectus or annual report shows an HBM product row and an HBM revenue row; whether YMTC still only writes 200-layer-and-above NAND; whether SMIC share is still pulled by TVs and notebooks; public MFU comparisons of MoE on CANN clusters.
+Switch two: China-stack closure. A second compiler/runtime ecosystem materially lowers switching cost and frontier workloads run at competitive scale. Test: whether CXMT's next prospectus or annual report shows an HBM product row and an HBM revenue row; whether YMTC still only writes 200-layer-and-above NAND; whether SMIC share is still pulled by TVs and notebooks; public MFU comparisons of MoE on CANN clusters.
 
 Switch three: power jams expansion first. Energization constraint is a real fork. Mixed-year 2025 four-cloud equipment purchases are still adding, not already jammed. Test: whether new campuses are built and energized, or built waiting on a feeder.
 
-Switch four: a cloud ASIC pulls training off. Products exist. Public next generation still wants 3nm and HBM. Has not won. Test: whether an official training share appears, not only an inference shunt.
+Switch four: cloud system stacks pull a material share of training away from incumbent systems. Public next-generation products exist, but industry-wide training substitution remains incomplete. Test: whether an official training share appears, not only an inference shunt.
 
 Switch five: hard landing. Buyers cut group-wide capex. Mixed-year 2025 is still adding, not already cut. Test: whether lead times, prepayment terms, and second-hand cabinets all soften at once.
 
-Draft 40 / 30 / 15 / 15 and 1,000×, 80%, a single fab $40 billion stay marked unverified. Their use is to distinguish branches, not to supply a 2036 point forecast. Picking the endgame you like first and then finding numbers becomes a wish list. First see the power, packaging, stack, and cash in hand, then pick a branch.
+Historical 40/30/15/15 weights, 1,000× demand shocks, 80% concentration points, and single-fab cost estimates remain outside the formal scenario model. Their use is to distinguish branches, not to supply a 2036 point forecast. Picking the endgame you like first and then finding numbers becomes a wish list. First see the power, packaging, stack, and cash in hand, then pick a branch.
 
 Counters: writing 910C as already equivalent to NVL72; writing DeepSeek as already lifting all process blockades; writing the CXMT listing as already volume HBM; writing 350k wafers/month as the prospectus; writing SMIC 5.1% as able to take a Western photoresist; treating 40% as a plan target.
 
