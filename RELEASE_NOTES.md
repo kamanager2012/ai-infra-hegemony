@@ -1,6 +1,6 @@
-# Release Notes — 2026-08-27
+# Release Notes — 2026-08-28
 
-> The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
+> Publication QA updated **2026-08-28**; research retrieval/revision cutoff remains **2026-08-27**. The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
 
 ## English
 
@@ -51,7 +51,9 @@ The report now explicitly models:
 - English edition index: [en/README.en.md](en/README.en.md)
 - Current X launch drafts: [en/SHARE.md](en/SHARE.md)
 - The English master judgment tracks the current system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, evidence-grading, FY27 Q2, layered-China-stack, and S1–S4 framework.
-- All 40 English volumes and 8 macro essays have completed a repository-wide publication-language and legacy-framing pass. Volumes 36, 37, 39, and 40 were additionally re-edited against the current Chinese structure in this release-preparation cycle.
+- All 40 English volumes and 8 macro essays have completed a full repository-wide publication QA pass. High-risk legacy translations and all 8 macro essays were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression.
+- The targeted regression now passes for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns.
+- Root and English-edition indexes have been synchronized to the actual H1 titles of all 40 English volumes and all 8 English macro essays.
 
 For the latest research conclusions, always use `main`. The Chinese edition remains the source of truth for resolving any future bilingual discrepancy.
 
@@ -116,6 +118,8 @@ For the latest research conclusions, always use `main`. The Chinese edition rema
 - 英文README与英文总判已同步当前框架；
 - X中英文发布线程已更新到当前研究结论；
 - 根 `README.md` 已改为英文优先发布首页；完整中文入口独立为 `README.zh-CN.md`，中文 `main` 研究正文继续作为 source of truth；
-- 英文 **40 卷 + 8 篇宏观文章** 已完成全库出版语体与旧框架残留扫描；其中 `36/37/39/40` 在本轮进一步按中文当前结构重新编辑验收；
+- 英文 **40 卷 + 8 篇宏观文章** 已完成全库出版 QA；高风险旧译稿与 8 篇宏观英文稿已按中文当前结构重新编辑，低风险卷经回归后保留；
+- 英文全量目标回归已清零：旧工作底稿语体、FY27 Q2 旧 outlook、旧固定情景权重、单位大小写错误、隐藏控制字符与错误中文源链接模式；
+- 根 `README.md` 与 `en/README.en.md` 已同步 40 卷 + 8 篇英文稿的实际 H1 标题；
 - 已统一清理 Four Corners、旧 margin-monopoly、TSMC 单客户确定论、旧 FY27 Q2 outlook、旧 40/30/15/15 概率误用及内部 draft/audit 施工语言；
 - **中文 `main` 仍是最终 source of truth**，用于未来发现中英差异时裁决。
