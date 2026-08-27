@@ -32,7 +32,7 @@ The original report text is licensed under **Creative Commons Attribution-NonCom
 
 ### Historical fact gate
 
-For this repository, an already-observed historical claim may enter **F — Fact** only when it is publicly verifiable. Financial figures must preserve the reporting period, accounting basis, original unit, and denominator. Unit conversions must be mechanically checkable—for example, **US$96.221B = US$96,221M = 962.21 亿美元**, not 9,622.1 亿美元. If a historical number cannot be traced to a public source, it must be removed or downgraded from F. Institutional estimates may be used only with the institution named and the evidence grade preserved. Forward-looking values are allowed only when explicitly labeled as hypotheses, model outputs, stress tests, or scenarios.
+For this repository, an already-observed historical claim may enter **F — Fact** only when it is publicly verifiable. Financial figures must preserve the reporting period, accounting basis, original unit, and denominator. Unit conversions must be mechanically checkable—for example, **US$96.221B = US$96,221M**. Avoid unnecessary cross-unit rewrites when the source unit is already clear. If a historical number cannot be traced to a public source, it must be removed or downgraded from F. Institutional estimates may be used only with the institution named and the evidence grade preserved. Forward-looking values are allowed only when explicitly labeled as hypotheses, model outputs, stress tests, or scenarios.
 
 ## Start here
 
