@@ -8,7 +8,7 @@
 
 > 如果今天已经观察到的 system-stack competition、HBM/packaging bottleneck、cloud CapEx、power constraint 和 China parallel stack 持续演化，2036 年产业结构可能呈现什么形态？
 
-第十卷定义 S1–S4 四类标准情景。
+第十卷定义 S1–S4 四类标准情景，具体输入变量见 [《核心假设矩阵》](核心假设矩阵.md)。
 
 本卷进一步分析每种情景下的**产业结构**。
 
