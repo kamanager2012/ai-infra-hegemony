@@ -23,6 +23,7 @@ This checklist separates research completion from publication operations. A chec
 ## 2. Publication metadata
 
 - [x] `CITATION.cff` no longer declares CC BY 4.0 or an obsolete release date.
+- [x] `CITATION.cff` uses an English-first title and a `preferred-citation` with `type: book` for the monograph.
 - [x] `RELEASE_NOTES.md` distinguishes the current `main` research state from the archival `v0.1.0` snapshot.
 - [x] `CONTRIBUTING.md` reflects the current bilingual publication state.
 - [x] X/social launch copy points to the English root landing page and the correct Chinese landing page.
@@ -52,3 +53,42 @@ This checklist separates research completion from publication operations. A chec
 The archival `v0.1.0` should remain unchanged. For the first fully publication-QA-reviewed bilingual public edition, the recommended release tag is **`v1.0.0`** rather than rewriting the historical snapshot.
 
 The tag should be created only after the final license is selected and the release commit is remotely re-verified.
+
+
+## 6. Copy-ready GitHub metadata
+
+These values are ready for the final GitHub UI step.
+
+**Repository description**
+
+> Bilingual 40-volume + 8-essay industry research monograph on AI infrastructure, semiconductors, HBM, advanced packaging, hyperscaler system stacks, power, capital, software economics, and the 2026–2036 industrial endgame.
+
+**Recommended topics**
+
+`ai-infrastructure`, `semiconductors`, `nvidia`, `tsmc`, `hbm`, `advanced-packaging`, `hyperscalers`, `data-centers`, `energy`, `industry-research`
+
+**Release tag**
+
+`v1.0.0`
+
+**Release title**
+
+> v1.0.0 — The Age of AI Infrastructure Hegemony
+
+**Release body**
+
+> First public, publication-QA-reviewed bilingual edition of *The Age of AI Infrastructure Hegemony*.
+>
+> - 40-volume industry research monograph + 8 macro essays.
+> - English-first release landing page with a complete Chinese edition.
+> - Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope.
+> - Unified F→H→M→S→X framework and A/B/C/D evidence grading.
+> - English 40 + 8 corpus completed repository-wide publication QA and title/link regression.
+> - Research retrieval/revision cutoff: 2026-08-27.
+> - Original report text is governed by the AI Infrastructure Hegemony Restricted Research License v1.0.
+>
+> This research is not an audit opinion, investment recommendation, or legal opinion.
+
+## 7. Tooling boundary for the final publication step
+
+The connected GitHub write tools used in this preparation cycle can update repository files on `main`, but they do not currently expose repository-About/visibility mutation or GitHub Release/tag creation. Those remaining unchecked publication operations must therefore be performed through a GitHub interface that exposes those controls. Do not mark them complete until the public repository and `v1.0.0` release can be remotely verified.
