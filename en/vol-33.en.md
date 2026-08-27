@@ -52,11 +52,11 @@ The docket: see [Volume 11](vol-11.en.md) and [Volume 31](vol-31.en.md). If the 
 
 ## 5. National-security files exist. "Therefore do not split" does not
 
-National-security files: see [Volume 8](vol-08.en.md) and [Volume 11](vol-11.en.md). The four cannot read a national-security memorandum as "regulators will not touch the athlete," and they cannot read it as "regulators will certainly protect the athlete." Neither "therefore" is in the source text.
+National-security files: see [Volume 8](vol-08.en.md) and [Volume 11](vol-11.en.md). The four companies cannot read a national-security memorandum as either “regulators will not touch NVIDIA” or “regulators will certainly protect NVIDIA.” Neither "therefore" is in the source text.
 
 ## 6. Hyperscaler system stacks are a separate competitive force
 
-Specs: see [Volume 4](vol-04.en.md). The Samsung long is Tesla: see [Volume 25](vol-25.en.md). TPU, Trainium, Maia, and MTIA are not in this volume's title, yet they will eat the internal-inference slice AMD is most likely to take. Cloud ASICs hit the athlete's die. They do not hit the referee. The products exist. the current evidence review has no official training-share split. They have not won. The report does not treat "the counter-attack is about to succeed." The report does not treat "they can only be wiped out."
+Specs: see [Volume 4](vol-04.en.md). The Samsung long is Tesla: see [Volume 25](vol-25.en.md). TPU, Trainium, Maia, and MTIA are not in this volume's title, yet they will eat the internal-inference slice AMD is most likely to take. Cloud custom silicon competes with accelerator volume, while true system-stack substitution must also address interconnect, compiler/runtime, deployment tooling, and workload migration. The products exist. the current evidence review has no official training-share split. They have not yet displaced the dominant external platform at comparable scale. The report does not treat "the counter-attack is about to succeed." The report does not treat "they can only be wiped out."
 
 ## 7. Cut system OEM from consumer notebooks. Sony is not Microsoft
 
@@ -72,7 +72,7 @@ value capture and four-cloud scope: see [Volume 8](vol-08.en.md). None of the fo
 
 ## 9. Who can wait, who cannot
 
-The clock that can wait is years and a decade. Intelligent Cloud is still growing. NVIDIA data center FY26 $193,737M. Foundry and memory are pulled by the coach. States decide on licenses and safety stock. The clock that cannot wait is quarterly shipments and shelf turns. When leading-edge process, packaging, and HBM feed a 71%–75% data-center margin first, consumer cards are already official "limited supply." On the same kit, those who cannot wait are squeezed first.
+The clock that can wait is years and a decade. Intelligent Cloud is still growing. NVIDIA data center FY26 $193,737M. Foundry and memory demand are pulled by the system roadmap and workload mix. States decide on licenses and safety stock. The clock that cannot wait is quarterly shipments and shelf turns. When leading-edge process, packaging, and HBM feed a 71%–75% data-center margin first, consumer cards are already official "limited supply." On the same kit, those who cannot wait are squeezed first.
 
 Among the four: Apple can wait; Qualcomm's flagship can wait a while; AMD can wait at the inference-cabinet door and still has not taken the right to define the training cabinet; Intel's foundry clock is longer, and as long as accelerators are still in the filing they have not been wiped out. Downstream mid- and low-end phones, channel PCs, and security modules have no $119.0B-class supply commitment. The queue does not reach them. the current evidence review has no security or channel shipment stats. The mechanism can be written. The report does not infer a name list.
 
