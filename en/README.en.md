@@ -1,63 +1,45 @@
 # The Age of AI Infrastructure Hegemony
 
-An industry research monograph: **40 volumes + 8 macro essays** on AI infrastructure, semiconductors, memory, advanced packaging, cloud CapEx, power, software economics, labor, and the 2026–2036 industrial endgame.
+An industry research monograph: **40 volumes + 8 macro essays** on AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, software economics, labor, and the 2026–2036 industrial endgame.
 
-The Chinese edition is the source of truth and is updated first: [中文目录](../README.md).
+The Chinese edition remains the source of truth and is updated first: [中文主目录](../README.md).
 
-The rule is simple: **facts must be sourced; forecasts stay labeled as assumptions and scenarios.** No estimate is upgraded into a company disclosure. No revenue share is silently converted into wafer share. No contract capacity is treated as already energized load.
+**Research rule:** facts must be sourced; forecasts remain labeled as hypotheses, mechanisms, scenarios, or stress tests. Revenue share is not wafer share. Contracted MW is not energized load. Guidance is not actual performance.
 
-Sources last checked: **2026-08-27**.
-
-The repository is currently in private publication-preparation mode. The public-release licensing terms will be finalized separately before publication. Current revision notes: [Release Notes](../RELEASE_NOTES.md).
+**Retrieval and revision cutoff: 2026-08-27.** The repository is in private publication-preparation mode. Public-release licensing terms will be finalized separately before publication.
 
 ## Core findings
 
-- **The unit of competition is moving from chips to system stacks.** The real battlefield now includes leading-edge logic, HBM, CoWoS, scale-up/scale-out fabrics, compilers and runtimes, racks/pods, data centers, and power.
-- **NVIDIA remains extraordinarily strong, but the correct counterfactual is no longer “NVIDIA has a system, everyone else only has a die.”** FY27 Q2 revenue was **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, and Rubin entered full production. At the same time, Google Ironwood, AWS Trainium3 UltraServer, and Meta MTIA are becoming full system stacks.
-- **Total supply growth does not equal recovery for non-AI industries.** The report tracks **Non-AI Residual Capacity**: what remains after AI and other priority demand absorb the increment.
-- **HBM has a first-party physical cost anchor.** Micron disclosed that, at the same node and for the same number of bits, HBM3E consumes roughly **3× the wafer supply of DDR5**. This is not a price multiple and not a universal constant across all generations.
-- **Model companies are becoming anchor infrastructure buyers.** Stargate and Anthropic/AWS show that long-term model demand can shape data-center, chip, power, and financing decisions.
-- **Power is an independent physical quota.** 120 kW-class AI racks, an ~835 MW nuclear restart PPA, Talen/AWS’s revised **up to 1.92 GW** PPA, and Kairos/Google’s **up to 500 MW** SMR plan all run on different clocks.
-- **Downstream transmission is already observable.** 2026 memory contract prices have risen sharply, and AI software must be analyzed through unit economics rather than a fixed “85% → 55% gross margin” story.
-- **The future is modeled as states, not point prophecy.** The report uses:
-  - **S1 Competitive Expansion**
-  - **S2 Baseline Concentration**
-  - **S3 Resource Hegemony**
-  - **S4 Capital Hard Landing**
+- **Competition is moving from chips to system stacks.** The relevant unit now includes advanced logic, HBM, advanced packaging, scale-up/scale-out interconnect, compilers/runtimes, racks/pods, data centers, and power.
+- **NVIDIA remains exceptionally strong, but the counterfactual is no longer “one GPU versus one ASIC die.”** FY27 Q2 revenue was **$96.221B**, Data Center revenue **$89.0B**, GAAP gross margin **75.0%**, and Rubin entered full production. Hyperscalers are simultaneously building competing system stacks.
+- **Total supply growth does not equal recovery for non-AI industries.** The report tracks **Non-AI Residual Capacity** after AI and other priority demand absorb the increment.
+- **HBM has a first-party physical tradeoff.** Micron disclosed that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity. This is a wafer-supply trade ratio, not a price multiple.
+- **Model companies can become Anchor Compute Buyers.** Stargate and Anthropic/AWS show how long-duration model demand can influence chips, data centers, power, cloud capacity, and financing.
+- **Power is an independent physical constraint.** Rack power, contracted generation, interconnection, energization, and utilization run on different clocks.
+- **AI software must be analyzed through unit economics rather than inherited SaaS-margin assumptions.** Inference, retrieval/storage, tools/APIs, human review, and AI-specific cloud cost all matter.
+- **The future is modeled as states rather than one prophecy:** **S1 Competitive Expansion, S2 Baseline Concentration, S3 Resource Hegemony, S4 Capital Hard Landing**.
 
 ## Start here
 
 1. [Master Judgment](总判.en.md)
-2. [Volume 1: Executive Summary](vol-01.en.md)
+2. [Volume 01 — Executive Summary](vol-01.en.md)
 3. [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
 4. [Core Evidence Ledger](核心证据台账.en.md)
 5. [Core Source Index](核心参考文献索引.en.md)
 6. [Core Concepts and Model Index](核心概念与模型索引.en.md)
 7. [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
 8. [Mechanism Index](机制索引.en.md)
+9. [X / social launch drafts](SHARE.md)
 
-> **Translation status (2026-08-27):** all **40 English volumes + 8 English macro essays** have completed the current framework/publication QA pass. The English edition now uses the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack competition, Non-AI Residual Capacity, Anchor Compute Buyer, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 scenario framework. The Chinese `main` edition remains the source of truth if a future discrepancy is discovered.
-
-## Core research infrastructure
-
-- [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
-- [Core Evidence Ledger](核心证据台账.en.md)
-- [Core Source Index](核心参考文献索引.en.md)
-- [Core Concepts and Model Index](核心概念与模型索引.en.md)
-- [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
-- [Mechanism Index](机制索引.en.md)
+> **English publication status:** the English landing page, master framework, and publication-critical chapters have been synchronized to the current F→H→M→S→X architecture. A second full-volume editorial QA is still in progress across the 40 English volumes and 8 macro essays. Earlier translations may still contain legacy draft language or superseded framing until that pass is complete. The Chinese `main` edition remains the source of truth for resolving any discrepancy.
 
 ## Research method
 
-The report uses a five-layer structure:
+The report uses one causal and evidentiary chain:
 
-1. **F — Fact:** verified filings, official product specifications, contracts, regulatory documents, and high-quality historical statistics.
-2. **H — Hypothesis:** explicit future assumptions on demand, capacity allocation, HBM/packaging, power, prices, and capex.
-3. **M — Mechanism:** how profit, prepayments, allocation, yield, packaging, memory, power, depreciation, and switching costs transmit the effect.
-4. **S — Scenario:** outcomes derived from combinations of F + H + M.
-5. **X — Falsification:** observable signals that would weaken or overturn the scenario.
+**F — Fact → H — Hypothesis → M — Mechanism → S — Scenario → X — Falsification**
 
-Key rule: **supply expansion is not the same thing as recovery.** You must separately track total supply, AI absorption, and the effective residual available to non-AI industries.
+Evidence grades are kept separate from scenario confidence. First-party evidence, institutional research, supply-chain estimates, and report-side stress tests are not collapsed into one confidence level.
 
 ## Forty volumes
 
@@ -113,29 +95,13 @@ Key rule: **supply expansion is not the same thing as recovery.** You must separ
 7. [The Capital Supercycle, Clearing Risk, and Extreme Stress Tests](part2-07.en.md)
 8. [U.S.–China Compute Competition and the 2036 Endgame](part2-08.en.md)
 
-## Evidence and references
+## Core research infrastructure
 
-For the highest-impact claims:
+- [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
 - [Core Evidence Ledger](核心证据台账.en.md)
 - [Core Source Index](核心参考文献索引.en.md)
-- [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
-- [Core Hypothesis Matrix](核心假设矩阵.en.md)
-- [External Research Comparison](../外部研究对照索引.md) — currently maintained in Chinese
+- [Core Concepts and Model Index](核心概念与模型索引.en.md)
+- [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
+- [Mechanism Index](机制索引.en.md)
 
-Cloud CapEx is **group-wide property and equipment spending**, not a clean “AI hardware” line. See [four-cloud CapEx notes](../四云Capex口径核对.md).
-
-## Share
-
-Copy-ready launch posts are in [SHARE.md](SHARE.md). They are drafts only; nothing is posted automatically.
-
-## Contribute
-
-Rules: [CONTRIBUTING.md](../CONTRIBUTING.md)
-
-If a figure, date, denominator, accounting definition, or evidence grade is wrong, open a [fact/evidence issue](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml).
-
-If you think an assumption, mechanism, scenario, or falsification condition is wrong, open a [mechanism/scenario challenge](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=analysis.yml).
-
-## Cite
-
-GitHub reads [CITATION.cff](../CITATION.cff). Author: James (kamanager2012), 2026.
+For the latest research conclusions, use `main`.
