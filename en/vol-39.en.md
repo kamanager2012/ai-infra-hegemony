@@ -1,150 +1,249 @@
 # Volume 39: Education and Talent Systems in the AI Era — From Model Use to Systems Engineering
 
-Profit-pool control: [Volume 1](vol-01.en.md). Labor evidence boundaries: [Volume 38](vol-38.en.md). The current report now incorporates Stanford HAI's 2026 AI Index for education-side adoption and institutional lag. It still does not invent unemployment, salaries, or school-level outcomes that were not measured.
+Chinese source edition: [vol-39.md](../vol-39.md)
 
-## 1. The question this volume answers
+> Retrieval and revision cutoff: **2026-08-27**. This volume focuses on capability formation rather than forecasting graduate employment, salaries, or school-level outcomes that are not directly supported by evidence.
 
-The education system still tends to produce people through separated disciplines, while the production system consumes capability across wafer → packaging → HBM → liquid cooling → grid interconnect → CUDA/CANN → workflow. This volume asks three testable questions: where traditional engineering education lags; which accountable combinations deserve the name "compound talent"; and whether a cognitive leap can be achieved merely by renaming courses.
+## 1. The educational objective is moving from “using AI” to understanding systems
 
-Education data are no longer completely blank. Stanford HAI's 2026 AI Index provides current evidence on student adoption, school policy, and the changing AI/CS talent pipeline. The report still does not invent unemployment, starting salaries, study-abroad flows, or individual-school outcomes beyond the available evidence.
+An AI curriculum built mainly around:
 
-The curriculum problem is not solved by simply opening more AI courses. Production systems now require capability across model use, compiler/runtime interfaces, interconnect, HBM, packaging, cooling, power, deployment reliability, and verification. The mismatch between department-level teaching and system-level production is the core education lag.
+- prompting;
+- model calling;
+- basic automation;
 
-The H20 charge must also enter the training assumption. Full-year FY26 gross margin fell to 71.1% after the charge, but Q4 returned to 75.0% and Q1 FY27 was 74.9%. By **FY27 Q2**, NVIDIA GAAP gross margin was again **75.0%** and operating income had risen to **$63,734M**. A policy shock can create inventory and purchase-obligation charges; it should not be taught as automatic evidence that the platform's structural economics have already broken.
+will be commoditized quickly as the tools themselves improve.
 
-## 2. Evidence boundary and inherited industry context
+The more durable capability is understanding how the full system works across:
 
-This volume uses the same industry facts as the rest of the report, but it does not convert them into education outcomes without evidence. NVIDIA financials, TSMC/HBM constraints, hyperscaler CapEx, and software migration costs describe the environment that education must respond to; they do not prove school-level placement rates, salaries, enrollment quality, or curriculum effectiveness.
+- models;
+- data;
+- compute;
+- memory;
+- software;
+- networks;
+- power;
+- economics;
+- responsibility.
 
-The education-specific evidence base comes from Stanford HAI's 2026 AI Index and public training-program documentation. The central conclusion is therefore narrower: AI-tool adoption is moving faster than curriculum, governance, and cross-disciplinary systems training. The response should be measured in capability formation, not in the number of renamed "AI" programs.
-## 2A. 2026 education reality: student adoption is running ahead of institutions
+The educational object is therefore moving upward from a single AI tool toward the complete system that produces, deploys, and governs AI capability.
 
-Stanford HAI's 2026 AI Index gives the education side a concrete current baseline. In the United States, more than **80%** of high-school and college students report using AI for schoolwork, while only about half of secondary schools have established AI-related policies and only around **6%** of teachers consider their school's policy sufficiently clear. Governance is materially behind adoption.
+## 2. AI adoption is moving faster than curriculum and institutional reform
 
-The talent pipeline is also changing:
-- U.S. four-year computer-science undergraduate enrollment fell about **11%** from 2024 to 2025.
-- AI-related master's completions rose about **17%** from 2023 to 2024.
-- New AI PhDs in the U.S. and Canada rose about **22%** from 2022 to 2024, with much of the increase flowing into academia rather than a matching expansion in industrial absorption.
-- More than 90% of countries now provide some computer-science education in primary or secondary school, while dedicated AI education is advancing more slowly; several countries began more systematic AI requirements in 2025–26.
+Stanford HAI's 2026 AI Index and other current education evidence show rapid adoption of AI tools in student and educational settings.
 
-These data do **not** prove that traditional education has failed. They support a narrower mechanism:
+Curricula, assessment methods, teacher training, and institutional policy generally move more slowly.
 
-> **AI-tool adoption speed > curriculum-update speed > degree/governance update speed.**
+The structural gap can be summarized as:
 
-The relevant reform question is therefore not merely "did the school open an AI course?" but whether the curriculum moves upward from tool use to system understanding, verification, cross-stack migration, and physical constraints.
+```text
+Tool Adoption > Curriculum Update > Institutional Reform
+```
 
-## 2B. Three-layer capability framework: tool, system, constraint
+Education reform therefore cannot stop at the question of whether students are allowed to use AI.
 
-This report separates AI talent into three layers:
+The harder question is:
 
-1. **Tool / cognitive layer:** model use, prompting, retrieval, evaluation, workflow design.
-2. **Systems-engineering layer:** compiler/runtime, multi-model scheduling, interconnect, racks, data pipelines, cost, and reliability.
-3. **Physical / responsibility-constraint layer:** power, heat, packaging, yield, PPAs, site operations, licenses, safety, and compliance.
+> **How do we evaluate whether a student can understand, verify, control, and take responsibility for AI-assisted output?**
 
-The first layer scales fastest and is the easiest for models themselves to commoditize. The second governs production deployment and migration. The third expands slowest because it is bound to physical systems and responsibility.
+## 3. Layer one: AI literacy
 
-This is a more durable ten-year talent framework than either "everyone learns prompts" or "everyone learns chips."
+Every discipline increasingly needs a baseline understanding of:
 
-## 3. Mechanism (physical / commercial / geopolitical)
+- model limitations;
+- hallucination;
+- source verification;
+- privacy;
+- data leakage;
+- bias;
+- responsible use.
 
-### 3.1 Physical: courses park on the chip. The floor parks on the cabinet and the grid
+This is becoming a new form of general digital literacy.
 
-Traditional EE teaches transistors and digital circuits. Traditional CS teaches algorithms and operating systems. Traditional energy teaches power plants. What the floor consumes is already the cabinet: 72 GPUs, 36 Grace, intra-cabinet fabric, a liquid-cooling loop, and the multi-year power contract this cabinet must connect to. The lag is not "no AI elective." It is no systems engineering whose experimental object is the cabinet and the power contract. Temporarily teaming people from three departments will miss a GPU generation on delivery. Teaming itself is not compound training. Compound training is one person switching four languages inside one project: model (compression, routing, concurrency), compile (CUDA or CANN), packaging (what a CoWoS quota means for delivery), finance (four-year hardware depreciation against fifteen-year civil works). Drop one layer and you will make a wrong promise on quota or power.
+The objective is not to turn every student into a model engineer. It is to make students capable of identifying where AI output can fail and what evidence is required before that output is trusted.
 
-Physical walls decide that course grain must move up. The memory wall turns HBM from a "storage elective" into the first constraint on whether a training cabinet can stand. The interconnect wall turns NVLink-class cabinet fabric from a "networks appendix" into the first constraint on whether distributed training can run full. The power wall turns grid interconnect and cold plates from "facilities management" into the first constraint on cabinet design. Public next-generation AI systems continue to emphasize advanced logic, HBM, high-speed interconnect, and system-level deployment. Translated into education, curricula should reflect the architecture of current production systems rather than assume that commodity-memory accelerators are the universal inference baseline. This volume does not invent school catalogs. It only marks this direction.
+## 4. Layer two: AI workflow engineering
 
-Lab equipment itself is the textbook. Without a liquid-cooling loop, without two development stacks, without a sample of a real-structure power contract, teachers can only narrate cabinets and twenty-year licenses. Narration does not train respect for heat and licenses. A funding list tests better than a course title whether a school treats the lag as a real problem. After export controls cut textbooks, developer boards, and clusters, a lab that cannot buy matching hardware can only park on simulation. Simulation trains syntax. It does not train body memory of a hot island. This holds with no admissions statistic: what is missing is the object, not the headcount.
+Many future roles will not require training a frontier foundation model.
 
-As the industrial sales unit moves from chips toward rack-scale systems, the educational experimental unit should also move upward. A course still using a single-card developer board as "AI hardware lab" is teaching the previous sales unit. A single card can teach kernels and memory access. It cannot teach what happens when any one of fabric, power, or return water drops after 72 GPUs and 36 Grace sit in the same cabinet. This volume does not require every school to buy one official-spec cabinet. What it requires: the object of the lab report must admit the cabinet, and not pretend the object is still one accelerator card. A scaled-down liquid-cooling loop, a cabinet-level power budget, a virtual multi-year power contract can all be substitute objects. A substitute must write which slice it substitutes. It cannot be written as already equivalent to the floor.
+They will require the ability to combine:
 
-### 3.2 Commercial: scarce-layer value capture determines who can afford scarce jobs
+- model selection;
+- prompt and context design;
+- retrieval;
+- tool orchestration;
+- evaluation;
+- automation;
+- human review.
 
-Profit comparison: [Volume 1](vol-01.en.md). Schools evaluate by major. Firms evaluate by depreciation, quota, and prepayments. The mismatch will show as firms using internal training to poach the few people who can compile the stack and run liquid cooling, while complaining "too many graduates." Diploma inflation and wage polarization can happen at once. This volume has no employment survey. It does not write percentages.
+This is the engineering layer that turns model capability into a repeatable workflow.
 
-Who can afford these jobs is read from free cash, not from campus-recruiting posters. A light-asset seller can afford a Deep Learning Institute, University Ambassador, Teaching Kits, and can also afford prepayments. A school can afford a new course. It cannot afford a packaging line.
+Its economic test is not whether a demo works once. It is whether the workflow produces reliable output at an acceptable cost under real operating constraints.
 
-People trained by buyers have as their main job keeping a hall running. People trained by sellers have as their main job locking the stack and the cabinet together. Both sides are short of people. It is not the same trade. Writing an "AI talent gap" as one total stacks two layers into one. This volume does not invent that total.
+## 5. Layer three: systems engineering
 
-Reading filings is itself a systems-engineering skill and can be taught before new lab hardware arrives. Students must separate operating income from net income: Q1 FY27 net income included $15.9B of equity marks, while FY27 Q2 GAAP operating income reached **$63,734M** with gross margin still at **75.0%**. They must separate free cash flow from CapEx; supply commitments from multi-year cloud commitments; and a one-time H20 inventory charge from the underlying margin structure. An engineer who can call an API but cannot distinguish these accounts will misread capacity, depreciation, and infrastructure bargaining power at the same time.
+Frontier AI depends on more than models.
 
-### 3.3 Industrial capacity cycles move faster than academic degree cycles
+It also requires:
 
-Supply commitments are covered in [Volume 1](vol-01.en.md). Expanding enrollment can increase the future talent pool, but it does not change near-term foundry, packaging, or HBM allocation. Academic capacity and industrial capacity operate on different clocks. People can switch to learning CANN. They can also switch to learning CUDA. The queue will not open because a classroom changed textbooks.
+- GPUs and other accelerators;
+- HBM;
+- networking;
+- distributed computing;
+- compiler/runtime systems;
+- data centers;
+- power.
 
-Not yet written as fact: TSMC has already become a captive fab, High-NA has been bought out in bulk, a 2nm first-to-market contract amount. If it cannot be found, leave it blank. An education volume especially must not write these blanks as "therefore courses must be changed at once." Courses can be changed. If a contract amount has not been disclosed, an undisclosed contract cannot be the quantitative basis of a syllabus.
+Top-tier AI engineering therefore increasingly crosses:
 
-That a commitment can be rescheduled does not mean the commitment does not lock people. Official text writes that in certain instances they can be cancelled, rescheduled, or adjusted, so this volume does not write $119.0B as an already-bought-dead whole factory. But three months added $23.8B, most of it to be paid in fiscal 2027, is already enough to set the queue language for the next two years. A school's training cycle is four years. The commitment's payment peak is written in fiscal 2027. In a four-year program, the catalog a student enters on faces, at graduation, a queue that has already been paid for a slice. The academic degree cycle is structurally slower than the current capacity-commitment cycle. This is not a moral critique that "schools are slow." It is two institutions whose cycles do not match. The way to speed up is not to add one more course. It is to put prepayments, the gross-margin band, and two software/runtime ecosystems into a core course a first-year can read, and let the next three years of labs turn around those three things. An "industry overview" added in year four will not catch the fiscal-2027 payment slice.
+**computer science  
++ computer architecture  
++ networks and systems  
++ infrastructure economics**
 
-### 3.4 the software/runtime layer teaches the software/runtime layer's language: DLI is publicly visible teaching power
+The same industrial shift that moves competition from chips toward system stacks also moves the educational target from isolated model skills toward system-level reasoning.
 
-NVIDIA's ecosystem illustrates how hardware, software/runtime interfaces, supply coordination, and model/deployment tooling can reinforce one another. For education, the important implication is that the software/runtime layer also shapes training materials, certifications, tools, and the practical language students encounter before entering production environments.
+## 6. Hardware and software can no longer be taught as completely separate worlds
 
-What public sources can confirm is the institution itself, not headcount. NVIDIA Deep Learning Institute offers self-paced and instructor-led courses, topics including CUDA C++, CUDA Python, multi-GPU, multi-node, and issues a DLI certificate on passing. The University Ambassador Program is invite-only: must be employed by an academic institution, must be invited by a local NVIDIA representative, must pass instructor certification for the workshop (technical qualification, content mastery, classroom delivery, platform use). The official page writes that Ambassadors can bring Agentic AI, AI Factories, Physical AI, Industrial AI workshops into classrooms and academic conferences, free to the academic community; the page writes the value of this free training as a value of $500 per student. There are also Teaching Kits, and NVIDIA Academy for operations (DGX systems administration, NVIDIA AI Enterprise, Spectrum-X). Sources: https://www.nvidia.com/en-us/training/educator-programs/university-ambassador-program/ and https://www.nvidia.com/en-us/training/self-paced-courses/ . These public pages support the program and course descriptions used here. The pages have no Ambassador total, no annual certificate count, no list of covered universities. The report does not infer them.
+Traditional education often places:
 
-This is more than generic industry outreach: certification and curriculum materials can influence which software/runtime ecosystem becomes the default language for students and practitioners. Ambassadors can also, as the official page describes, buy workshops at a discount and resell them as industrial continuing education. Teaching power, certification power, and commercial continuing education close a loop on the same stack. A vendor certificate is not a university degree, but ignoring a dominant production stack can also create real employability and migration costs. A robust curriculum therefore needs both practical exposure and portability across architectures.
+- models;
+- compilers;
+- chips;
+- networks;
+- power;
 
-Compound training should therefore include more than one software/runtime ecosystem. CUDA and CANN are useful contrasting cases because they connect compiler/runtime choices to different hardware and deployment environments. This volume opened NVIDIA's official training pages. This volume does not use an unsupported Huawei/CANN student-scale estimate. The report does not infer a CANN certificate count, and do not carry historical stress-test material's "rewrite volume down below 5%" as a teaching experiment already validated. The mechanism that can be written: if a country teaches only one of the two, a graduate's migration cost in the other ecosystem will approach relearning a major. Schools that can should require the same assignment to be delivered as a minimum runnable implementation on both stacks, even if performance is a slice worse. Education's goal is not to pick a side. It is to leave people with migration capability in a dual-track scenario. How much worse the performance is was not measured this volume. Leave it blank.
+in different departments.
 
-NVIDIA Academy lists operations separately: DGX systems administration, NVIDIA AI Enterprise administration, Spectrum-X deployment. These are course names on a public page, not a headcount this volume invented. people trained by a model course, and people who keep cabinets, networks, and an enterprise software stack running, are not one lab that can be muddled through. If a school has only model courses and no cabinet-ops course, it hands the back half of the software/runtime layer — turning a standard into a system that can take a shift — entirely to the seller's academy and corporate internal training. The Ambassadors page also writes that certified instructors can resell workshops at a discount as industrial continuing education. If a public university only does prep and lets continuing education go, teaching value capture follows the software/runtime layer too. This volume has no continuing-education market size. It does not invent how large this value capture is. What can be written is which side holds the right.
+Industrial systems require them to work together.
 
-### 3.5 Geopolitics: three layers are not one layer. Education must be layered too
+Inference optimization, for example, can simultaneously involve:
 
-Three layers: [Volume 12](vol-12.en.md). This volume does not reopen a prospectus. If education stacks the three layers on the one sentence "the country must be autonomous," it will train a batch useful on the phone layer and unusable on the cabinet layer. The three layers' labs, licenses, and thesis topics are not the same. Writing "IC talent" as one plan is the wrong layer again.
+- quantization;
+- kernels;
+- HBM bandwidth;
+- interconnect;
+- batching;
+- power.
 
-People on the residual layer first meet not CUDA, but stockouts and price-ups after DIMMs, disks, and cards are sucked into cabinets. Rules-layer courses sit on cabinets and the software/runtime layer. Residual-layer courses sit on repair, down-spec, substitute parts, and delivery. The two course sets cannot share one "AI applications" handout.
+A curriculum that teaches only one of those layers can produce local expertise while still missing the bottleneck that determines system performance.
 
-The East standing a second bid depends on advanced packaging and HBM-grade bits, not on training one more batch of people who can write a parallel stack. Parallel service is a real job. It is not a substitute for global cabinets. Until UXL / oneAPI have dug through, writing them as a degree track that already replaces CUDA is writing a blank as a finished good. The five paths and the case file: [Volume 8](vol-08.en.md), [Volume 11](vol-11.en.md). A course can teach open-source substitutes. It cannot write "CUDA will be split open next year" as a training assumption.
+Cross-layer experiments are therefore more valuable than simply adding another generic “AI course.”
 
-### 3.6 A cognitive leap does not change the bid
+## 7. Multi-stack capability is a strategic skill
 
-The title writes the cognitive leap heavily. On the book's first-part historical cut, the leap is not students learning to use a chatbot. It is admitting the means of production changed: people are no longer the only cognitive engine; a person's work becomes design, verification, and taking responsibility. if basic education still prides itself on information retrieval and format compliance, it will collide head-on with Agents; if higher education still prides itself on single-point drill, it will collide head-on with cabinet engineering. What must move up is problem formalization, result verification, multi-constraint tradeoff (power, heat, quota, compliance). These capabilities cannot be replaced by "one more generative-AI gen-ed."
+Future engineers should not understand only one proprietary software and accelerator stack.
 
-But a leap does not change the bid. Students moving up cognitively will not make a foundry yield increment to the second name. Compound training does not fill a photoresist gate, and does not fill residual. See [Volume 12](vol-12.en.md), [Volume 5](vol-05.en.md). People can be smarter. Residual will not become a river again because people are smarter.
+More durable capability includes familiarity with:
 
-value capture and cost pressure: [Volume 8](vol-08.en.md). If the education volume treats "everyone learns prompts" as the answer to this value capture, it has written value capture and cost pressure as a literacy course. A literacy course does not change a supply commitment. If students add buyer civil works and seller value capture together in homework as "total AI spend," they stack a fake total. The first problem on the literacy exam is refusing that addition.
+- CUDA;
+- alternative accelerator stacks;
+- cloud custom silicon;
+- open compiler/runtime systems;
+- distributed frameworks.
 
-Personal survival rules in an education volume can only be written to capability, not to open roles. A person who can independently make multi-constraint tradeoffs can stand on the buyer hall, the seller stack, a parallel stack, or a power license. Which side they stand on is decided by the bid and by controls, not by a transcript. What a transcript can prove is whether this person will make promises on the wrong layer.
+The educational goal is not to force students to “pick a side.”
 
-## 4. Scenarios, counterarguments, and testable indicators
+It is to improve **portability**: the ability to understand why a workload behaves differently across architectures and how to migrate it without treating peak benchmark numbers as the whole system.
 
-No admissions headcount and no starting pay.
+In a world of cloud custom silicon, regional technology stacks, and export controls, portability becomes both an engineering skill and a resilience skill.
 
-Scenario A: course titles change. Capability does not. Schools open AI colleges in bulk. Content is still calling APIs and drilling public datasets. Industry keeps using internal training to digest cabinets, power contracts, PTX or Da Vinci graph compilation. Diploma inflation, wage polarization. This is the cheapest path, and the one that most wastes the window. The window is these few years before next-generation first silicon is locked by commitments, not a window that opens in 2036. Renaming occupies these years.
+## 8. Physical AI requires a new cross-disciplinary combination
 
-Scenario B: compound training whose experimental object is the cabinet and the grid takes shape. Students must deliver reproducible utilization, power, and cost on a real or scaled-down liquid-cooling object; must be able to say how one compression or routing changes concurrency on a given card count; must be able to read a multi-year power contract and a four-year depreciation table; must deliver a minimum runnable implementation on each of CUDA and CANN. People who can independently schedule many models match historical stress-test material's enterprise-side strategic sentence. The number will not be large. This volume does not invent how large.
+Robotics and Physical AI combine:
 
-Scenario C: dual-track education precedes a trade split. One textbook uses CUDA, NVLink, nuclear PPAs as cases. The other uses CANN and domestic packaging as cases. Cross-border credits fail. If the endgame runs East–West dual track, what is testable is not a slogan. It is whether two assignment sets can be delivered in the same school at once. Delivering only one is picking a side early.
+- control;
+- mechanics;
+- sensors;
+- embedded compute;
+- AI;
+- safety.
 
-Three counters. Treating "everyone learns prompts" as a cognitive leap — prompts do not read prepayments, and do not read gross margin. Treating dropping foundational math and physics as embracing AI — without heat, power, and yield equations, neither the cabinet nor HBM's wafer penalty can be taught; this volume does not invent a new penalty multiple; the direction sits in the judgment and the memory evidence. Treating a single-ecosystem certificate as an internationally portable degree — a certificate is the software/runtime layer's exam, not a diploma.
+A pure model curriculum cannot cover that system.
 
-Testable indicators all avoid headcount. Whether engineering core courses show advanced packaging, liquid cooling, PPAs, depreciation, and not only a machine-learning elective. Whether graduate work is a reproducible utilization / power / cost triple, not a chat screenshot. Whether the same assignment has a minimum implementation on each of two software/runtime ecosystems. Whether firm campus recruiting writes "multi-chip multi-model scheduling," and not only a framework name. Whether national research funding shows power licenses and process at once, and not only subsidized parameter counts. Whether NVIDIA supply commitments keep adding on the $95.2B to $119.0B sum; whether gross margin stays in the 71.1% to 75.0% band. The last two are not education indicators. They are the external environment education cannot change. While the external environment is still there, scenario A is the default.
+One of the most durable talent categories is therefore likely to be:
 
-A one-semester project can replace a new course. Adding one generative-AI gen-ed does not change the lag. What can change the structure is a graduation project that must deliver a triple at once: utilization measured under a given power budget; a BOM under a given wafer / packaging price assumption (the assumption must mark its source; no source, mark unverified); payback conditions under four-year depreciation and a virtual multi-year power contract. Students may use open-source models, but must say how compression or routing changes concurrency. Drop any one of the three and the project is only a chat demo. If a price assumption used a channel oral or a seller research note, it must be downgraded. It cannot be written as an official line item.
+> **engineers who understand both AI capability and the constraints of real physical systems.**
 
-The faculty gap is larger than the student gap. People who can push a Transformer will not necessarily read a PPA. People who can run a plant will not necessarily tune a compiler. Compound training first means two kinds of teacher co-own one course, not a demand that large numbers of "omni-professors" appear. This volume has no faculty-headcount statistic. It does not invent how many people are missing. What can be written is the organizational move itself: two leads on the same course, one shared rubric, scoring the model link, the systems link, and the power-and-finance link separately. If a country truly weights power and process equally, the equipment list must show a liquid-cooling object, a power-contract text, and two software stacks. Showing only a larger parameter-count contest is scenario A.
+Physical systems introduce latency, heat, energy, failure modes, safety requirements, maintenance, and accountability that cannot be reduced to a model API call.
 
-Professional qualifying exams will become a hidden syllabus. Nuclear operations, structural sign-off, physicians and nurses, grid dispatch — these exams will not vanish because a model can answer questions. If engineering reform goes around them, it will send students onto floors they cannot work without a license. Compound sometimes is one old license plus one new scheduling capability, not two new diplomas. This volume does not invent old-license pass rates.
+## 9. Power and infrastructure are now part of the AI talent system
 
-Corporate internal training will temporarily cover a school's lag. It cannot replace a degree cycle. Internal training only serves people already hired, already under NDA. Public education has to serve people who have not yet received a quota. If only internal training works, talent will concentrate further in the few firms that already own cabinets and power contracts. A cognitive leap will become shop-floor process inside a closed workshop, not a social capability. NVIDIA's own DLI and enterprise workshops are exactly the public version of this closed process: they admit outsiders, but the language is the software/runtime layer's language. If a school contracts the whole public degree cycle to this public version, public education becomes prep.
+The expansion of AI data centers has made:
 
-The Intel 1999 comparison is used this way in the scenarios. In the share era, training followed the CPU interface: compilers, operating systems, motherboards. Gross margin 59.7% was already high, but that was share value capture. In the margin era, training follows the cabinet and the prepayment: who can read what a $119.0B commitment is locking, who can decide, in front of 71%–75% gross margin, whether to stand on the buyer, the seller, or a parallel stack. Adding one deep-learning course to a 1999 microprocessor catalog is not a leap. The leap is admitting value capture moved from share to margin, and the course object moved from the chip to the cabinet and the commitment.
+- power engineering;
+- cooling;
+- electrical distribution;
+- networking;
+- operations;
 
-The case file: [Volume 11](vol-11.en.md). Writing "antitrust will soon open the software stack" as an admissions selling point is writing an unfiled case as a judgment already rendered. A course can discuss the statute. It cannot treat the discussion as a breakup that has already happened.
+part of the AI infrastructure stack.
 
-The window is these few years before next-generation first silicon is locked by commitments. Education, however fast it reforms, is not faster than three months adding $23.8B. So this volume does not write "reform succeeds" as the default scenario. The default is scenario A. Scenario B is a few schools using an equipment list and two assignment sets to pull themselves out of A. Scenario C is geopolitics cutting credits first. All three can happen in different schools in the same country. One national catalog is the wrong layer again.
+The category “AI talent” should therefore not be reduced to machine-learning engineers.
 
-## 5. Gaps and what must not be treated as fact
+As rack density and campus scale rise, system reliability increasingly depends on people who can connect compute architecture to facilities, power, thermal design, and operations.
 
-Earlier versions of Volume 39 lacked an education-specific statistical base. This volume does not invent graduate headcount, starting pay, study-abroad flows, program-closure rates, DLI certificate counts, Ambassador headcount, or CANN student scale. Engineering and financial figures carried over come from the judgment and [Volume 1](vol-01.en.md), and from industry evidence already graded elsewhere in the report. They are not education-output indicators.
+## 10. Teaching and curriculum organization also need to change
 
-Public pages cited in this edition include: NVIDIA q4fy26 CFO / press release / 10-K, q1fy27 CFO / press release / 10-Q, Intel 1999 annual-report income statement and Q1 2000 outlook, Microsoft FY25 annual-report summary and Q4 cash-flow statement, TSMC 4Q25 Management Report, SK hynix FY25 press release, NVIDIA DLI University Ambassador and self-paced-course public pages. No claim that every note of every 10-K was independently audited. Sentences already opened in evidence 01 are carried sentence by sentence.
+Cross-layer education is difficult for one instructor or one department to deliver.
 
-Still blank, not invented: prepayment dollars split to TSMC / CoWoS / 2nm; unverified gross margins for Apple, AMD, Qualcomm, and Huawei; NVIDIA net margin 55.6%, Intel net margin 24.9% (back-calculated, official text does not print them); any university's training-plan evaluation; CANN migration rewrite volume; CoWoS monthly capacity and per-customer quota; SoC unit prices; AMD's relative-lag percentage; four-cloud 2024 "AI hardware $215B" (the judgment already rewrote this as mixed-year group-wide about $211.9–$213.9B, not this education volume's base); 2026 $670–$750B (cannot be added, not cited); labor and education statistics.
+More realistic structures include:
 
-One cabinet 72 GPU / 36 Grace / HBM 13.4 TB / LPDDR 17 TB is the official cabinet spec the judgment adopted, used as an experimental object, not a list of what schools have already installed. Algorithmic compression ratios are not treated as education outcomes; technical-report figures retain their original technical scope. It does not write any compression ratio as a teaching experiment already validated. H20 $4.5B is inventory and purchase obligations, not an education budget. Multi-year cloud $27.0B / $30.0B is not compute grants paid to universities.
+- joint courses;
+- co-teaching;
+- project-based assessment;
+- real or scaled infrastructure labs;
+- cross-disciplinary capstone projects.
 
-Source links kept as in evidence 01, for checking, not promoted to "this volume independently independently audited": NVIDIA FY26 CFO https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm ; 10-K https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; Q1 FY27 CFO https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm ; Microsoft FY25 10-K https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm and PPE cash-flow statement https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/cash-flows ; TSMC 4Q25 Management Report https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf ; Intel 1999 annual report https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-05/history-1999-annual-report.pdf . DLI pages have no certificate totals. This volume cites only the institution and course names.
+Students should be required to answer several questions inside the same project:
 
-Vocational and university education require different capability designs. What universities drag is the cabinet, the power contract, two software/runtime ecosystems, and reading the table. What vocational schools drag is the residual layer: assembly, repair, substitute parts, delivery. The China analysis is layered: domestic supply is stronger in smartphones and parts of consumer computing, while frontier AI remains constrained by advanced logic, HBM-class memory, advanced packaging, interconnect, and software migration at scale. If vocational schools are remade into "AI colleges" and lose repair and delivery, they rename away the residual layer's last remaining craft. If universities are remade into prompt camps and lose heat, power, and yield, they rename away the rules layer's last remaining literacy. Both can happen at once. Happening at once is the national version of scenario A.
+- Does it perform?
+- What does it cost?
+- Is it reliable?
+- What power and cooling does it require?
+- What are the safety and responsibility constraints?
 
-The durable conclusion is that education lag is real at the system boundary: curriculum must move from model use toward systems engineering, cross-stack migration, physical constraints, and accountable decision-making. Better talent can improve adaptation and execution, but it does not by itself erase semiconductor or power scarcity.
+That moves assessment away from “can the student call the model?” toward “can the student make a system work under constraints?”
+
+## 11. Entry-level education must adapt to AI automation
+
+AI can already perform growing amounts of:
+
+- routine coding;
+- basic research;
+- drafting.
+
+Students therefore need earlier exposure to work that is harder to automate completely:
+
+- system debugging;
+- verification;
+- architecture;
+- real-world projects;
+- responsibility for outcomes.
+
+Otherwise, education risks spending several years training students primarily on the tasks that AI systems are improving at fastest.
+
+This does **not** imply that foundational knowledge should be removed. Mathematics, physics, computer science fundamentals, and domain knowledge become more important when students are expected to verify AI-generated intermediate work rather than merely reproduce it.
+
+## 12. Current judgment
+
+The central shift in AI education is not “create more AI majors.”
+
+It is:
+
+> **make AI a systems capability across technical and professional education.**
+
+The most valuable people will not simply be those who are best at calling models.
+
+They will be able to:
+
+- understand models;
+- understand the underlying system;
+- evaluate economics;
+- verify results;
+- migrate across multiple stacks;
+- take responsibility for real-world consequences.
+
+That educational logic mirrors the industrial logic of this report.
+
+AI infrastructure competition is moving from isolated chips and isolated models toward **system-stack competition**. Education has to move in the same direction: from tool operation toward systems engineering, portability, verification, and accountable execution.
