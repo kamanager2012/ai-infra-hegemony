@@ -55,9 +55,9 @@ AI infrastructure investment 包含多个不同寿命的资产：
 
 不能简单使用：
 
-[
-AI annual depreciation = Total CapEx div 4
-]
+```text
+AI annual depreciation ≠ Total CapEx ÷ 4 (as a universal formula)
+```
 
 作为“AI 年折旧”的统一公式。
 
