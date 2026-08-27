@@ -9,7 +9,7 @@ NVIDIA 的扩张并不主要表现为收购更多硬件公司，而是不断扩�
 - GPU / CPU；
 - NVLink / NVSwitch；
 - networking；
-- rack reference design；
+- rack-scale reference design；
 - liquid cooling requirements；
 - CUDA/runtime；
 - inference software；
@@ -48,7 +48,7 @@ FY26 NVIDIA Data Center revenue 中，compute 与 networking 都已经成为重�
 - 增强 rack/pod 的统一性；
 - 把 accelerator purchase 与 network architecture 绑定。
 
-因此，平台竞争不再是“GPU + 第三方网络”的简单组合，而越来越像一套完整 AI factory architecture。
+因此，平台竞争不再是“GPU + 第三方网络”的简单组合，而越来越像一套完整 AI Factory architecture。
 
 ## 4. DGX Cloud 的战略意义
 
