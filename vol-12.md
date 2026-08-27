@@ -121,9 +121,11 @@ YMTC 的 NAND 能增强 storage supply，却不能替代 HBM/DRAM。
 
 TrendForce 2026 Q1 foundry revenue share：
 
-- TSMC：约 72%
-- Samsung：约 6.5%
-- SMIC：约 5.1%
+| Foundry | Revenue share |
+|---|---:|
+| TSMC | 约 **72%** |
+| Samsung | 约 **6.5%** |
+| SMIC | 约 **5.1%** |
 
 这些是 foundry revenue share，不等于 frontier AI wafer capability。
 
