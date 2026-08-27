@@ -159,9 +159,9 @@ data center 的 power bottleneck 是 grid。
 
 真正需要比较：
 
-[
+```text
 Useful task output / Wh
-]
+```
 
 以及：
 
