@@ -42,7 +42,7 @@ Second: the denominator is not a unified four years. On the same Microsoft cash-
 
 Third: the seller almost never enters this division. Nvidia FY26 itself spent only $6,042M on equipment, free cash $96,575M. If a stress test starts from "industry depreciation" and then treats seller profit as cash the industry has already recovered, it writes already-booked value capture as an investment not yet recovered. value capture is $193,737M. Investment is each buyer's own PPE. The two rows cannot be each other.
 
-So this essay does not use $45B–$55B, and does not use $115.5B. Depreciation that can enter the fact layer is, for now, only this Microsoft row $34,153M. The other three names' D&A were not confirm in this pass's evidence. Leave them blank. Four-cloud total depreciation has no official total. Do not invent one.
+So this essay does not use $45B–$55B, and does not use $115.5B. Depreciation that can enter the fact layer is, for now, only this Microsoft row $34,153M. Comparable D&A for the other three hyperscalers is not yet established on one unified scope. There is no official four-cloud total depreciation figure, so the report keeps it unquantified.
 
 ## 5. The bubble's micro-mechanism is duration mixing
 
@@ -52,7 +52,7 @@ Physical stickiness decides destocking is not symmetric. HBM lines and advanced 
 
 Commercially, usage sits in the workflow; unit price sits in open source and inference efficiency. The seller cannot control usage, yet locked its own shipments through prepayments. Profit confirms on the seller first. Risk bursts later on the buyer and the line. That is a classic capacity cycle. historical stress-test material wrote DeepSeek training about $5.576 million, KV compressed 93.3%, as the technical condition for a price cut. Those are historical stress-test values. This essay does not newly check training-cost page numbers. The mechanism can stay: a lower entry fee presses unit price. It does not automatically push usage to the matrix's +300% cell. Without that cell, historical stress-test material's "down 50% still earns $15B" does not exist.
 
-Geopolitically, dual-track expansion may let two overhangs appear globally at once. Controls cut the return channel. Unilateral clearing is steeper. Sovereign-fund holdings were zero in historical stress-test material. Do not invent amounts. Analysis added leaves only the structure: if you only hold tech stocks of the first duration, you are on the same side as retail; if you hold power and licenses of the third duration, that is what may still be left in a stress test.
+Geopolitically, dual-track expansion may let two overhangs appear globally at once. Controls cut the return channel. Unilateral clearing is steeper. Sovereign-fund holdings were zero in historical stress-test material. Do not invent amounts. The remaining analytical structure is: if you only hold tech stocks of the first duration, you are on the same side as retail; if you hold power and licenses of the third duration, that is what may still be left in a stress test.
 
 ## 6. How prepayments move the stress-test clock onto the buyer
 
