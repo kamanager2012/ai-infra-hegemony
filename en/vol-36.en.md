@@ -1,20 +1,18 @@
 # Volume 36: AI and global capital markets (supercycle allocation, tech valuation reset, and sovereign-fund entry)
 
-Chinese original: [vol-36.md](vol-36.md)
+Chinese original: [vol-36.md](../vol-36.md)
 
 FY26 and supply commitments: [Volume 1](vol-01.md). Mixed-year four-cloud figures: `四云Capex口径核对.md`. This volume does not invent sovereign-fund holdings. What can be nailed is Norges Bank's published asset mix, and the third-party compute-financing memorandum NVIDIA itself named: Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR.
 
 ## 1. The question this volume answers
 
-Capital markets are not being asked whether AI matters. The numbers visible in August 2026 are already hard: NVIDIA one year of free cash $96,575 million, one quarter of operating income $53,536 million, supply commitments up from $95.2B to $119.0B in three months; mixed-year four-cloud group-wide capex lifted from about $211.9–213.9B to about $354.0–356.5B. This volume asks only three harder things.
+Capital markets are not being asked whether AI matters. By August 2026 the seller-side cash engine and buyer-side capital cycle are both large enough to require different valuation clocks. NVIDIA FY26 free cash flow was $96,575M; **FY27 Q2 operating income reached $63,734M with GAAP gross margin at 75.0%**. Supply commitments rose from $95.2B at FY26 year-end to $119.0B at Q1 FY27. Four-cloud group-wide capital spending moved from a mixed-year 2024 base of about $211.9B–$213.9B to about $354.0B–$356.5B in 2025.
 
-First, how the duration of this spending and the depreciation clock rewrite valuation. The seller almost never carries four-year server depreciation. The buyer does. Using the same growth-stock multiple on both sides mislabels a light-asset seller's profit onto a heavy-asset buyer's balance sheet.
+This volume asks three harder questions. First, how spending duration and depreciation reset valuation when the seller does not carry the buyer's server depreciation. Second, where **scarce-layer value capture** stops: chips, packaging, memory, cloud infrastructure, and application software do not share one margin structure. Third, whether long-duration capital is buying an equity narrative or physical scarcity—power, packaging, interconnection, and financeable compute assets.
 
-Second, on which layer profit stops. The judgment's spine is a margin monopoly, not a share monopoly. Chips, packaging, and memory already collect scarce-slice rent. Clouds have to turn net income back into halls. Models and applications still pay that rent. If allocation cannot tell these three layers apart, the supercycle is only a narrative.
+The title mentions sovereign-fund entry, but the draft supplied no sovereign-fund holdings table. What can be nailed is Norges Bank's published asset mix and NVIDIA's 10 August 2026 memorandum with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to develop third-party compute-financing platforms targeting more than $500B over time. That is an MOU and a mobilization target, not $500B already deployed.
 
-Third, whether ultra-long money buys an equity story or physical scarcity — power, packaging, and interconnection rights. The title writes "sovereign funds enter." The draft gave no holdings, no committed amounts, and no project list for any sovereign fund. Among public sources opened this pass, what can be nailed is the asset-class mix on Norges Bank Investment Management's site, and NVIDIA's own 10 August 2026 memorandum of understanding on a third-party compute-financing platform. The latter names Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR. It is not a sovereign-fund holdings table. The mobilization figure "over $500 billion over time" is an official target sentence. The memorandum still awaits definitive agreements. Do not write it as already deployed.
-
-The engine is not a China-consumption refill, and not "priced too high, therefore it collapses." The judgment and the deep dives already wrote: demand pushes profit, profit pushes prepayments, prepayments lock capacity and HBM, rivals' costs rise, deliveries slow, margins thin, and they have even less money to bundle long contracts and switch stacks. Gross margin near 75% is bidding power. The risk is that this acceleration is not interrupted.
+The mechanism is not "75% gross margin automatically wins every bid." Allocation depends on price, order scale, prepayments, customer credit, utilization, roadmap certainty, supplier diversification, and geopolitics. NVIDIA's current cash generation gives it unusually strong capacity to reserve the next scarce increment, while cloud buyers can simultaneously fund halls, power, and their own system stacks. Capital-market analysis must therefore separate **upstream resource competition** from **platform-profit diversion**.
 
 ## 2. What the draft already argued (compressed; no key number dropped)
 
@@ -32,7 +30,7 @@ The depreciation formula is a draft template: servers four-year straight line, b
 
 The title writes "sovereign funds enter." The draft had zero holdings, zero amounts, zero fund names.
 
-The audit already struck or downgraded several lines. $215B is not a reproducible sum of four same-calendar-year, same-line-item, AI-split figures. Mixed year (Microsoft FY24 + the other three CY2024) equipment purchases, Amazon on a net basis, Meta without leases = 44,477 + 77,658 + 52,535 + 37,256 = 211,926 (millions of dollars), about $211.9B; Meta on the company definition, $213.9B. All four lines are group-wide capex. Microsoft "broke $55B" does not match the cash-flow statement: Additions to property and equipment, FY24 $44,477 million, FY25 $64,551 million. 2026 $670–750B cannot be added. The midpoint of the three names that gave guidance is about $490–520B (Amazon about $200B + Alphabet $175–185B + Meta $115–135B), missing Microsoft's official 2026 guidance. The token matrix and $115.5B depreciation are scenario arithmetic.
+The audit already struck or downgraded several lines. "$215B of 2024 AI CapEx" is not a reproducible same-calendar-year, same-line-item, AI-only sum; the mixed-year 2024 reconstruction is about $211.9B–$213.9B and 2025 is about $354.0B–$356.5B. By August 2026, Microsoft had guided to roughly **$190B** of calendar-year CapEx, Alphabet to **$180B–$190B**, Meta to **$125B–$145B**, while Amazon's trailing-twelve-month net PPE was around **$169B**. Those windows and line items differ and must not be mechanically added into one "AI hardware CapEx" number. The old $670B–$750B table remains a historical scenario, not an audited actual.
 
 Profit, cash, and supply commitments: [Volume 1](vol-01.md). This volume only adds two capital-markets sentences: period-end Q1 net property and equipment $12,403 million, inventory $25,797 million; the 10-Q splits $119.0B as "$95B remaining this year, the rest through FY2031." Multi-year cloud-service commitments are a separate line, used for R&D compute, not wafer prepayments.
 
@@ -42,13 +40,17 @@ NVIDIA press release, 10 August 2026: independent compute-financing platforms wi
 
 Norges Bank Investment Management site, 2026 first-quarter key figures: fund value NOK 1,999.8B; equities NOK 1,403.6B (70.2%), fixed income NOK 552.2B (27.6%), unlisted real estate NOK 35.9B (1.8%), renewable-energy infrastructure NOK 8.8B (0.4%). The deputy CEO wrote that the quarter was decided by equities, especially large U.S. technology names falling. Source: https://www.nbim.no/en/news-and-insights/1q-3q/key-figures-1q-2026/ . That page does not name NVIDIA share counts or market value. Third-party 13F aggregators' holdings were not opened as SEC 13F originals this pass. Do not promote them.
 
-Q2 FY27 outlook (official, not actual): revenue expected $91.0B plus or minus 2%; no assumed data-center compute revenue from China; GAAP and non-GAAP gross margin expected 74.9% and 75.0%, plus or minus 50 basis points. Today is 26 August 2026. The $58.321B quarterly net income refers to the first quarter, not second-quarter actuals that have not been written into this draft.
+**FY27 Q2 is now actual, not outlook.** NVIDIA reported revenue of **$96,221M**, Data Center revenue of **$89,000M**, GAAP gross margin of **75.0%**, and GAAP operating income of **$63,734M**. Vera Rubin had entered full production. The old sentence treating Q2 as future guidance is retired; Q1 net income of $58,321M remains a Q1 fact and should not be substituted for Q2 operating performance.
 
 ## 3. Mechanism (physics / commerce / geopolitics)
 
-### 3.1 A margin monopoly, not a share monopoly
+### 3.1 Scarce-layer value capture, not a single margin-monopoly score
 
-Analysis added. The margin-monopoly control is in [Volume 1](vol-01.md). This volume uses it only to set valuation: whoever can outbid cabinet-level gross margin has bidding power. The consideration for a neutrality pledge is the second name putting up a prepayment no smaller than the first name's increment, and bundling software and memory long contracts with it. All three are still undone.
+The valuation question is not whether one consolidated gross-margin number proves monopoly. NVIDIA, TSMC, SK hynix, Microsoft, and infrastructure operators have different accounting structures. The useful distinction is **who captures value at a scarce layer while carrying which depreciation clock**.
+
+NVIDIA currently combines high platform gross margin, strong free cash flow, software/interconnect lock-in, and large supply commitments. TSMC carries foundry capital intensity; memory vendors carry a cyclical fab base; clouds carry data-center and server depreciation; power/interconnection assets carry still longer duration. The same earnings multiple cannot be applied across all four clocks.
+
+For allocation, the report uses a testable mechanism rather than a slogan: price, long-duration orders, prepayments, credit, utilization, and roadmap certainty can tilt incremental scarce capacity toward the strongest buyer, while suppliers retain incentives to diversify customers and geopolitical exposure. This is strong bargaining power, not automatic one-customer exclusivity.
 
 ### 3.2 Prepayments buy the slot
 
@@ -56,7 +58,7 @@ The 10-K itself admits prepaid manufacturing and capacity agreements, for curren
 
 What can be nailed is the total: $95.2B to $119.0B, up $23.8B in three months, most payable through FY2027. The Q1 10-Q splits $119.0B as "$95B remaining this year, the rest through FY2031." That is the official sentence locking inventory and capacity, not a claim that the entire TSMC factory has already been bought dead. Agreements are "in certain instances cancellable, reschedulable, or adjustable." Writing "already exclusive" exceeds the evidence.
 
-Hypothesis from here: while the margin holds, commitments keep rising. The highest-profit name can add a tranche of prepayments. TSMC's board answers to shareholders. When the first name's profit exceeds the increment from everyone else, there is no financial reason to offend the first name for the second. This is not an administrative takeover. It is prepayments buying the slot. Booked first customer 19%, second 17% is not a safe distance. Occupy the increment and next year's slots belong to the first name.
+Hypothesis from here: if NVIDIA's cash flow, margin, and order certainty remain materially ahead, supply commitments and prepayments are likely to stay strong. That creates an economic incentive for incremental scarce capacity to tilt toward it, but not an obligation for TSMC or any supplier to prioritize one customer regardless of diversification, geopolitics, or long-run bargaining power. The 19% / 17% historical customer-revenue split is therefore not a safe-distance metric; the forward variable is the **incremental advanced-capacity capture ratio**, not whether a supplier would "offend" one customer.
 
 The same table also has multi-year cloud-service commitments: $27.0B at FY26 year-end, $30.0B at Q1 end. Official text: used for R&D compute. If capital markets add the $30B cloud commitment and the $119.0B supply commitment together as "foundry already bought out," the scope is wrong. The former is NVIDIA renting compute for its own R&D. The latter locks material.
 
@@ -68,7 +70,7 @@ The first layer is two-to-four-year IT hardware. GPUs, HBM, and switch chips bin
 
 The second layer is fifteen-year buildings and twenty-year power contracts. Substations, nuclear PPAs, liquid-cooled campuses, interconnection rights. The return curve looks like infrastructure, not seat-priced software. The right holder is capital whose liability duration is very long, not a growth fund graded every quarter. Power could interrupt expansion. It has not. Mixed-year 2025 four-cloud spending is still up to about $354.0–356.5B, which says buyers have not yet been pinned by power into a halt.
 
-The third layer is software margin. The draft repeatedly writes traditional SaaS margin compressed from 85% to 55% because inference became cost of goods. This pass has no sample company that wrote those percentage points as an audited fact. The mechanism that can stay: seat-priced software multiples have to cut from "high increment, low marginal cost" to "usage times token cost." Whoever cannot grow usage enough to cover depreciation will be swapped, in depreciation years, for agent-native workflows. 85%→55% stays marked as draft. Do not promote it.
+The third layer is **AI Software Unit Economics**. The old "traditional SaaS 85% versus AI software 55%" figures remain early stress-test endpoints, not industry statistics. The formal denominator is revenue; the cost stack includes inference, retrieval/storage, tool/API calls, human review, and AI-specific cloud/compute. If ARPU, routing efficiency, cache efficiency, and workload value do not cover those variable costs plus the relevant depreciation, the business should be valued less like near-zero-marginal-cost SaaS and more like a compute-intensive service.
 
 The most common secondary-market error is using NVIDIA FY26 revenue $215,938 million and gross margin 71.1%–75.0% to give every "AI-related" stock the same duration. The correct split: chips and the CUDA lock priced as a two-to-four-year cyclical; clouds priced on free cash against "depreciation versus incremental revenue"; nuclear, transformers, and liquid-cooled campuses priced as infrastructure. Three methods give three fair multiples. Mixing them is the micro-mechanism of a bubble.
 
