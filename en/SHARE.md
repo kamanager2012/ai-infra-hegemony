@@ -190,10 +190,10 @@ https://github.com/kamanager2012/ai-infra-hegemony
 NVIDIA现在仍然非常强。
 
 FY27 Q2：
-- 营收 962.21 亿美元
-- 数据中心 890 亿美元
+- 营收 US$96.221B
+- 数据中心 US$89.0B
 - GAAP 毛利率 75.0%
-- 营业利润 637.34 亿美元
+- 营业利润 US$63.734B
 - Rubin 已进入 full production
 
 但现在不能再写“只有NVIDIA有系统，云厂只有一颗ASIC”。
