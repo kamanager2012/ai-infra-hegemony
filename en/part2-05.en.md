@@ -90,7 +90,7 @@ Scenario A: flagships keep inflating, mid-tier freezes the node. Replacement cyc
 
 Scenario B: small on-device models are enough. Consumers will pay a premium for local intelligence. The siphon is still there. The catastrophe is weakest. This is the world Qualcomm and Apple most want.
 
-Scenario C: the stack penalty walks further up the Hot Chips paraphrase of about 3×, low-power shortage outweighs controller price-ups, even mid-tier is killed by memory. Phone orders fewer, TSMC HPC share higher. The siphon self-reinforces. 4:1 is a forward assumption, unverified. Do not treat it as audit fact.
+Scenario C: the stack penalty walks further up Micron's first-party ~3× wafer-supply trade ratio, low-power shortage outweighs controller price-ups, even mid-tier is killed by memory. Phone orders fewer, TSMC HPC share higher. The siphon self-reinforces. 4:1 is a forward assumption, unverified. Do not treat it as audit fact.
 
 Counters: writing one foldable or a new-phone launch as a cycle reversal; writing cockpit Thor as already widespread on volume cars; reading robot 25% compute as the whole machine already electronic; reading Edge $6.4 billion as Gaming or robots already exploded.
 
@@ -106,7 +106,7 @@ TrendForce 47%, 68%, 51%, contract prices 270% and 235%: institute, not a four-c
 
 Huaqiangbei 450 to 1,800: channel oral, the 7 July 2026 timestamp.
 
-3.1 is not a factory-measured constant. About 3× is a conference paraphrase. 8.6, 13.2, three majors 1.80 million wafers per month, Samsung cutting back 80,000 wafers: evidence-03 explicitly does not write them.
+3.1 is not a factory-measured constant. About The ~3× ratio is A-grade first-party Micron evidence. 8.6, 13.2, three majors 1.80 million wafers per month, Samsung cutting back 80,000 wafers: evidence-03 explicitly does not write them.
 
 CXMT 350,000 wafers per month, YMTC 267 layers, official monthly capacity in the 10,000-wafer class: not in the prospectus.
 
