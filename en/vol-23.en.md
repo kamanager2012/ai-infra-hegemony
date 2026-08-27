@@ -1,8 +1,8 @@
 # Volume 23: HBM4, Logic Base Dies, and Memory Capital Intensity
 
-Chinese original: [vol-23.md](vol-23.md)
+Chinese original: [vol-23.md](vol-23.en.md)
 
-The residual-capacity model is in [Volume 5](vol-05.md), consumer transmission in [Volume 22](vol-22.md), and China's layered memory constraints in [Volume 12](vol-12.md). This volume focuses on HBM's physical wafer intensity, stacking complexity, logic-base-die integration, and the conditions under which HBM capital intensity changes.
+The residual-capacity model is in [Volume 5](vol-05.en.md), consumer transmission in [Volume 22](vol-22.en.md), and China's layered memory constraints in [Volume 12](vol-12.en.md). This volume focuses on HBM's physical wafer intensity, stacking complexity, logic-base-die integration, and the conditions under which HBM capital intensity changes.
 
 ## 1. Core question
 
@@ -62,4 +62,4 @@ The other side must be written fully, or "new oil" inflates on its own. First: O
 
 Testable: whether Micron's next 10-K still writes "same bits need more wafers"; whether HBM4 is 12-Hi samples or a higher stack shipping; whether Hynix and Samsung official pages show a 16-Hi spec sheet; whether TSMC earnings calls have a checkable base-die sentence.
 
-What not to do: do not write 16-Hi as already in volume production; do not write 3:1 as a factory control chart; do not multiply 13.4 TB out to 50,000 cabinets and then divide by unpublished global HBM bits; do not convert Hynix and Samsung won into dollars and add them to Micron; do not write the CXMT IPO into the HBM supply function. The full residual and multiply-by-cabinet write-up is [Volume 5](vol-05.md).
+What not to do: do not write 16-Hi as already in volume production; do not write 3:1 as a factory control chart; do not multiply 13.4 TB out to 50,000 cabinets and then divide by unpublished global HBM bits; do not convert Hynix and Samsung won into dollars and add them to Micron; do not write the CXMT IPO into the HBM supply function. The full residual and multiply-by-cabinet write-up is [Volume 5](vol-05.en.md).
