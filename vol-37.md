@@ -111,13 +111,10 @@ FY26 H20 相关 charge 曾影响 NVIDIA 全年 gross margin。
 
 因此：
 
-[
+```text
 Net Infrastructure Demand
-=
-Efficiency effect
-	imes
-Demand elasticity
-]
+= Efficiency effect × Demand elasticity
+```
 
 不能只看 efficiency。
 
