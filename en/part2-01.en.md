@@ -2,7 +2,7 @@
 
 Chinese original: [part2-01.md](part2-01.md)
 
-The full base for the four corners and scarce-layer value capture: [Volume 1](vol-01.en.md) and the judgment. This essay is the macro entry. It does not replace Volume 1.
+The full base for platform control and scarce-layer value capture is in [Volume 1](vol-01.en.md) and the master judgment. This essay is the macro entry and does not replace Volume 1.
 
 This essay is the macro entry point for Part II. It separates current facts, institutional estimates, report-side calculations, and forward scenarios, then asks whether AI infrastructure is becoming a new class of production asset rather than merely another generation of computing equipment.
 
@@ -23,7 +23,7 @@ The current macro baseline instead uses observed financials, TSMC's public roadm
 
 ### 3.1 Seller anchor
 
-Profit, cash, supply commitments, four corners: [Volume 1](vol-01.en.md). This essay takes only one sentence: what is already being sold is not a single chip. It is a cabinet factory that can emit tokens continuously. The comparison is not who ships more. It is who, on the act of selling cabinets, can pad whole-cabinet gross margin.
+Profit, cash, supply commitments, and system-stack control are covered in [Volume 1](vol-01.en.md). The key point here is that the commercial unit has moved upward from a single chip toward a rack-scale production system.
 
 ### 3.2 Foundry anchor
 
@@ -69,7 +69,7 @@ Becoming a means of production does not automatically equal a welfare improvemen
 
 The macro conclusions in this essay rely on company filings, official product and investor-relations materials, and clearly graded institutional research. Later first-party restatements supersede earlier figures.
 
-The table's 2030 and 2036 columns are composite forecasts, not contracts. Trillion spend, $45,000 wafers, 450,000 wafers/month, 2~5 GW are all unverified. Reticle limit, CFET, CoPoS are mechanism nouns in the draft. No already-in-volume yield was given. High-NA $380 million a tool, the historical-node quote table: ASML or foundry price-list originals were not opened this pass. Keep them marked draft. Labor substitution has no statistical support. NVIDIA prepayments are not split into TSMC, Hynix, Samsung line-item dollars. CoWoS monthly-capacity path and the seller's "about 60%" are not a TSMC line item. Microsoft now provides a calendar-2026 CapEx expectation around $190B, but its accounting window still differs from the other hyperscalers. PC / phone / general-server shipment statistics were not checked in this essay.
+The 2030 and 2036 cells remain composite forecasts, not contracts. Trillion-dollar spending, $45,000 wafers, 450,000 wafers/month, and 2–5 GW campuses remain scenario inputs. CFET, CoPoS, and reticle limits are mechanism variables; unverified tool-price and future-node quote assumptions remain outside the fact layer. Labor substitution has no statistical support. NVIDIA prepayments are not split into TSMC, Hynix, Samsung line-item dollars. CoWoS monthly-capacity path and the seller's "about 60%" are not a TSMC line item. Microsoft now provides a calendar-2026 CapEx expectation around $190B, but its accounting window still differs from the other hyperscalers. PC / phone / general-server shipment statistics were not checked in this essay.
 
 Sentences that cannot be written: mixed-year four-cloud PPE as one "AI hardware" line; the draft's 2026 North-American cloud-spend bin as an already-disclosed total; dividing a whole-fab shipment pool by a packaging unit consumption to get a huge cabinet count and then lock 3nm; writing a 10% of annual-revenue ceiling as a fine about to be issued; writing an investigation as a complaint or a breakup order.
 
