@@ -47,7 +47,7 @@ CXMT's prospectus contains no disclosed HBM product line, and public wafer-per-m
 
 ### 3.6 Official cloud-ASIC sentences serve halls, not joints
 
-Cloud-side system specifications are covered in [Volume 4](vol-04.md). They explain training and simulation, not the thermodynamic constraints of a 50–100 W edge loop. Cloud accelerators and robot-edge controllers therefore belong to different physical regimes and should not be treated as one substitution problem.
+Cloud-side system specifications are covered in [Volume 4](vol-04.en.md). They explain training and simulation, not the thermodynamic constraints of a 50–100 W edge loop. Cloud accelerators and robot-edge controllers therefore belong to different physical regimes and should not be treated as one substitution problem.
 
 ### 3.7 The Samsung long is Tesla, not humanoid shipments
 
@@ -105,25 +105,25 @@ Stop first at the layer that can be written. The central framework and cloud-sys
 
 ### 3.13 Official memory specs at the four firms
 
-See [Volume 4](vol-04.md). This volume does not reopen them.
+See [Volume 4](vol-04.en.md). This volume does not reopen them.
 
 ### 3.14 Of the five interrupts, the one that truly touches this volume is cloud self-design taking training
 
-The five: [Volume 8](vol-08.md). This volume asks only: if simulation still runs on the scarce slice, the joint has already paid cloud-infrastructure cost before it leaves the factory. Only taking training changes that layer. Public next generations have not taken it.
+The five: [Volume 8](vol-08.en.md). This volume asks only: if simulation still runs on the scarce slice, the joint has already paid cloud-infrastructure cost before it leaves the factory. Only taking training changes that layer. Public next generations have not taken it.
 
 ### 3.15 cloud-infrastructure cost before shipment; residual-memory pressure after
 
-Seller-side infrastructure economics are covered in [Volume 1](vol-01.md), and hyperscaler CapEx scope in [Volume 8](vol-08.md). Robotics can face both cloud-side training/simulation cost and edge-side memory constraints, but those costs should remain separate rather than being collapsed into one “robotics CapEx” aggregate.
+Seller-side infrastructure economics are covered in [Volume 1](vol-01.en.md), and hyperscaler CapEx scope in [Volume 8](vol-08.en.md). Robotics can face both cloud-side training/simulation cost and edge-side memory constraints, but those costs should remain separate rather than being collapsed into one “robotics CapEx” aggregate.
 
 Memory as a share of major cloud capex: 47% in 2026, 68% in 2027. More than half of the memory increment already goes to cabinets. 51% of 2026 DRAM bits are HBM plus registered DIMMs. Micron FY24 Q3 prepared remarks disclose that, industry-wide, HBM3E requires approximately **3× the wafer supply of DDR5** to produce a given number of bits in the same technology node; Micron's FY25 10-K later confirms that HBM requires more wafers and cleanroom space for the same bits. The ~3× ratio is A-grade first-party evidence, while still not being a universal fab-control constant. Hynix: HBM revenue more than doubled in a year. After makers shift, consumer bits shrink. Robots, phones, PCs, and consumer drives split the same residual pool. Channel-verbal 16G DDR5 from about 450 to 1800. You can buy it. The price is higher. Cabinet selling prices are high enough that even expensive memory cannot crush the profit on one accelerator board. In PCs and phones the memory share is high. Higher component cost is more likely to pressure whole-machine robotics economics and configuration before it directly determines rack-scale platform profitability.
 
 ### 3.16 5nm plus ordinary memory to beat old cards still needs someone to make it
 
-See [Volume 4](vol-04.md). This volume does not reopen it. If the edge continues to be written with a Blackwell core, it still bids against cabinets in the same slot queue.
+See [Volume 4](vol-04.en.md). This volume does not reopen it. If the edge continues to be written with a Blackwell core, it still bids against cabinets in the same slot queue.
 
 ### 3.17 Three China-stack layers land on the joint
 
-Three layers: [Volume 12](vol-12.md). This volume does not reopen them. Joint actuator supply can sit at home. Leading-edge logic for the edge does not pass the gate. The layer is wrong, not the clock.
+Three layers: [Volume 12](vol-12.en.md). This volume does not reopen them. Joint actuator supply can sit at home. Leading-edge logic for the edge does not pass the gate. The layer is wrong, not the clock.
 
 ### 3.18 For simulation to beat today's cabinet, you return to the scarce slice and bid
 
