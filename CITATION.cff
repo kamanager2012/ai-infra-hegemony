@@ -1,15 +1,28 @@
 cff-version: 1.2.0
-title: "AI基础设施霸权时代"
-message: "Please cite this research using this CITATION.cff. Original report text is governed by the AI Infrastructure Hegemony Restricted Research License v1.0 / 如需引用本研究，请使用本 CITATION.cff；原创研究文本适用受限研究许可 v1.0。"
+title: "The Age of AI Infrastructure Hegemony"
+message: "Please cite this research using the preferred citation below / 如需引用本研究，请使用下方推荐引用格式。"
 type: software
 authors:
   - name: "James"
     alias: kamanager2012
+abstract: "A bilingual 40-volume industry research monograph with 8 macro essays on AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, software economics, labor, and the 2026–2036 industrial endgame."
 repository-code: "https://github.com/kamanager2012/ai-infra-hegemony"
 url: "https://github.com/kamanager2012/ai-infra-hegemony"
+license-url: "https://github.com/kamanager2012/ai-infra-hegemony/blob/main/LICENSE"
 keywords:
   - AI infrastructure
   - semiconductors
   - NVIDIA
   - TSMC
   - HBM
+  - advanced packaging
+  - hyperscalers
+  - power
+preferred-citation:
+  type: book
+  title: "The Age of AI Infrastructure Hegemony"
+  authors:
+    - name: "James"
+      alias: kamanager2012
+  year: 2026
+  url: "https://github.com/kamanager2012/ai-infra-hegemony"
