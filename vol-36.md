@@ -191,12 +191,9 @@ Anchor Buyer
 
 AI 资产最终需要回答：
 
-[
-Capital Return =
-Cash generated
-/
-Capital committed
-]
+```text
+Capital Return = Cash generated / Capital committed
+```
 
 因此，资本市场应该同时观察：
 
