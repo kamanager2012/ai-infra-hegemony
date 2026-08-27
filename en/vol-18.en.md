@@ -135,6 +135,6 @@ Rules:
 
 ## 8. Publication rule
 
-The English edition is not a loose translation layer. It must preserve the same analytical ontology as the Chinese source-of-truth edition. Where older English chapters contain obsolete draft language, the current F/H/M/S/X framework and central English evidence files govern.
+The English edition is not a loose translation layer. It must preserve the same analytical ontology as the Chinese source-of-truth edition. Where older English chapters contain legacy wording, the current F/H/M/S/X framework and central English evidence files govern.
 
 The purpose of this methodology is not to make the report cautious for its own sake. It is to make strong conclusions **traceable, updateable, and falsifiable**.
