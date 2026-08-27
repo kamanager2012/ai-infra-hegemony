@@ -1,122 +1,218 @@
 # Volume 15: The 2036 AI-Infrastructure Endgame — System Stacks, Resources, and Power
 
-Chinese original: [vol-15.md](vol-15.en.md)
+Chinese source edition: [vol-15.md](../vol-15.md)
 
-## 1. Core question
+> Retrieval and revision cutoff: **2026-08-27**. The year 2036 is used as a long-range cross-section, not as a precise forecast point. This volume assigns no fixed market shares and no fixed scenario probabilities.
 
-The 2036 endgame is not a fixed winner list and not a single-point forecast. It is a set of conditional industrial states produced by resource availability, system-stack substitution, software migration, power, capital returns, regulation, and China parallel-stack capability.
+## 1. 2036 is not a single-number forecast
 
-This volume therefore uses the shared scenario system:
+The purpose of this volume is not to predict one company's 2036 market share.
 
-- **S1 — Competitive Expansion**
-- **S2 — Baseline Concentration**
-- **S3 — Resource Hegemony**
-- **S4 — Capital Hard Landing**
+It asks a different question:
 
-The former former uncalibrated point weights discussion weights are not part of the formal framework.
-## 2. Current factual anchors
+> **If the system-stack competition, HBM and packaging constraints, cloud CapEx, power constraints, and China's parallel stack already visible today continue to evolve, what industrial structures could emerge by 2036?**
 
-The endgame is constrained by current facts, not determined by them:
+Volume 10 defines the four formal scenarios, S1–S4. The underlying variables are tracked in the [Core Hypothesis Matrix](核心假设矩阵.en.md).
 
-- NVIDIA FY27 Q2 revenue **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, operating income **$63.734B**.
-- TSMC 2025 HPC share **58%**; advanced packaging remains tight; customer revenue concentration is high but does not equal wafer allocation.
-- Micron first-party evidence places HBM3E at roughly **3× DDR5 wafer-supply intensity** for the same node and bit capacity.
-- Hyperscalers are building competing system stacks rather than only custom dies.
-- OpenAI/Stargate and Anthropic/AWS demonstrate long-duration Anchor Buyer Demand.
-- Power is becoming a separate constraint, but contracted MW must remain separate from energized and utilized load.
-- China's parallel supply is strongest in smartphones and parts of consumer computing; frontier-AI equivalence still depends on advanced logic, HBM, packaging, interconnect, software migration, and deployment scale.
+This volume focuses on the **industrial structure** associated with each state.
 
-These anchors set the state variables. They do not fix a 2036 outcome.
-## 3. Push the mechanism forward
+## 2. The competitive unit is likely to remain the system, not one chip
 
-### 3.1 Residual is not transitional noise. It is the physical floor of the endgame
+Across all four scenarios, frontier-AI competition is unlikely to return to a simple contest over the best standalone accelerator.
 
-The Volume 15 historical wrote memory crowding as one cell on the four-axis table: from 1:3 to 1:4 in 2030 and 1:5 and above in 2036. That cell is a forecast. It does not enter the fact layer. What can be confirmed is the present: half the bits already go to cabinets; silicon burn is harsher than bits; the three makers' books stand on the cabinet side. Extending those three sentences ten years does not require inventing 1nm and 5 GW. As long as maker boards still answer to shareholders and high-price longs still hold, the shift will not automatically walk back to consumer. Consumer bits shrink not because "the penalty becomes 1:5 ten years out," but because the same capacity already takes about 3× the silicon. Cut one line and consumer loses more than 1:1.
+The relevant stack includes:
 
-Server DDR5 is already inside the 51%. The easiest error in an endgame narrative is writing "shift inference onto commodity sticks" as an escape river. Source 03 closed that river. A shift buys RDIMM and consumer residual already inside the half, or already rising with it. Huaqiangbei 16G from 450 to 1,800 is talk that residual dies first. Memory as a share of CSP capex walking from 47% to 68% is an institutional measure of "hall budgets eaten by bits." If that 68% is still there in 2036, the bulk of the value capture is not in model licenses. It is in bits and cabinets. On the rentier list, makers and cabinet sellers weigh more than application-layer brands.
+- logic;
+- HBM;
+- advanced packaging;
+- interconnect;
+- software;
+- racks and pods;
+- data centers;
+- power.
 
-3.1, 4.1, and 5.1 only earn the right to move from forecast to observation after 16-Hi is in volume and makers still say "one wafer counts as four." This volume does not write a sketch formula as a law of nature. What can enter the fact layer is the direction "more wafers" and "about 3×." Adding up to 4.1 or 5.1 is marked unverified; do not treat as verified first-party fact. Test and burn-in are a hidden penalty outside the paraphrased 3×. Failures after 12-Hi bonding happen after the stack; what is sunk is twelve layers of die. Actual wafer burn may sit above the paraphrase. This volume does not give another multiple.
+The long-run structural question is therefore:
 
-### 3.2 The line walks past half of the scarce slice. You do not need half the factory first
+> **Will these layers be tightly coordinated by a small number of platforms, or supplied through several interoperable system stacks?**
 
-The Judgment and the forecast spine share one line: NVIDIA does not first need half of TSMC's whole factory. Occupy the increment and next year's slots are already its. Booked first-customer 19%, up from 12%, looks far. The increment has already tilted. HPC 58%, up 48% year on year: what is being opened is that slice and packaging. Packaging is already so tight it limits customer growth. HBM plus RDIMM already half of 2026 DRAM bits. Voice on the scarce slice is already larger than 19%. The window is not waiting for the book to hit 50%. It is the few years before the next first-to-market node and packaging expansions are slotted dead to the leading buyer. After those years, bundling is also asking for residual.
+That distinction matters more than one headline chip share.
 
-At **5.39 CoWoS wafers/rack**, roughly 100,000 racks already constitutes a large packaging stress test. Sell-side customer-wafer estimates are not TSMC disclosures. The mechanism is therefore expressed through **incremental advanced-capacity capture** rather than a deterministic customer-allocation rule.
+## 3. S1 in 2036: multiple system stacks coexist
 
-Acting alone means handing over each year's new lines and packaging. To change the allocation, bind three checks: prepayments large enough that the foundry cannot recognize only one buyer; software bound into one stack, so the switching tax becomes a change of base rather than a change of vendor; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Apple does not bid against AMD for cabinets. What changes the cabinet is accelerators and cloud ASICs. Phone makers bind memory residual. They cannot bind training-cabinet stacks. None of the three checks is done. What is done: supply commitments to $119.0B.
+Under **S1 — Competitive Expansion**:
 
-Acceleration is the engine of the forecast, not a frequency that already happened. Demand rises, profit rises, more capacity and stacks are prepaid, rivals' costs rise, deliveries slow, profits thin, still less money to bind longs and switch stacks, share widens again. Only those five can interrupt it. Until they win, the line walks past half. The endgame Volume 15 should write is the cross-section of that line ten years out, not a point forecast on the 1nm cell.
+- NVIDIA remains one of the major platforms;
+- Google, AWS, Microsoft, and Meta mature their internal system stacks;
+- open compiler/runtime layers reduce migration cost;
+- advanced-packaging and HBM supply expand materially;
+- more buyers gain access to leading-edge capacity;
+- China's parallel stack becomes more complete.
 
-### 3.3 Shifting onto commodity sticks is a tax. Cloud ASICs have not stopped either
+The industrial structure would resemble:
 
-The escape narrative has two versions. First: shift inference onto DDR5 and dodge HBM. Source 03 says that is a tax. Second: cloud ASICs open a new river of 5nm plus commodity sticks. Judgment section 5 says public next generations point the other way. Microsoft Maia 200, Ironwood, Trainium3, Meta MTIA 300: what they write is more advanced logic plus more HBM. The official shift from DDR to HBM is AWS Inferentia2. No firm was found saying it would retreat to commodity sticks as the inference mainstay.
+> **several large system platforms supported by a highly specialized upstream manufacturing network.**
 
-What would actually dodge the scarce slice is a retreat to 5nm, less packaging, less stacking. Public next generations have not stopped. To beat today's cabinet you return to 3nm, HBM, and advanced packaging, and you bid against 75% gross margin. The result of that bid is not "the clouds took training off the cabinet." It is "the clouds and the cabinet seller add price on the same fab and the same stack line." Training remains materially concentrated on rack-scale accelerator systems, while inference is more diversified. Cloud system-stack substitution is already real, but the endgame depends on how much training and inference workload migrates sustainably across generations, not on the existence of a custom chip alone.
+Value capture would become more distributed across clouds, software, manufacturing, and specialized infrastructure suppliers.
 
-Samsung's Tesla long is one parallel bid. KRW 22.76T through 2033. Musk named the Taylor fab. 16k, 24k, and 40k wafers per month are not announced. SMIC 5.1% cannot take Western reticles. If a parallel bid stands, the world is two stacks, not one stack rewritten by the second bid. If it does not stand, the West has only one bidder. Neither cross-section is "the world blows up."
+## 4. S2 in 2036: high concentration with persistent competition
 
-### 3.4 The China bid is a parallel stack. It cannot save global cabinets
+Under **S2 — Baseline Concentration**:
 
-Judgment section 6: the China market cannot save global cabinets, HBM, advanced packaging, or a unified compute architecture. Domestic parallel supply is currently stronger in smartphones and parts of consumer computing than in a fully equivalent frontier-AI stack. PCs and AI do not resolve. The layer is wrong. CXMT prospectus: 0 mentions of HBM. 350k wafers per month is not an announcement. YMTC official text writes above 200 layers. It has no monthly wafer-capacity in the tens of thousands. Once the international price holds, makers sell first to the high bidder. Huawei's high price is a value capture unpaid to NVIDIA inside the restricted domestic market. Allocation keeps domestic bits from flowing out. It does not mean CXMT has been nursed to HBM.
+- NVIDIA remains the leading general-purpose AI system platform;
+- cloud custom silicon continues to expand inside proprietary workloads;
+- HBM and advanced packaging remain periodically tight;
+- power becomes a central resource for large data-center projects;
+- China develops a strong parallel ecosystem while important technical and software divisions remain.
 
-Near gate: an administrative lock. Far gate: everything that is not silicon. If domestic advanced packaging and HBM-class bits can already hold a training cabinet in volume, the administrative lock is enough to keep a closed loop. If not, the lock only keeps the phone layer. This volume puts CXMT on the phone layer and the PC layer, not the AI layer. The layer is wrong. The sum is meaningless. Matching domestic phone shipments to HBM on global training cabinets is the wrong layer.
+This structure is not a single-company monopoly.
 
-A trust gate, not a yield gate. To get AMD, Intel, Apple, Qualcomm, and MediaTek out of TSMC's queue, a China fab must do all three at once: process at the top, capacity that can take them, and the United States and those firms willing to hand over reticles. The third item is export control and the foreign direct product rule. Catch the first two and you still cannot take Western flagship chips. Those firms are still in the TSMC queue, and in that queue they still sit behind NVIDIA. So even if Eastern capacity rises, it is a parallel bid, not a substitute seat for these names at TSMC. However large China is, what it changes is who at home buys a domestic accelerator and who cannot buy NVIDIA. It does not change North American cloud plus unified compute architecture plus packaging plus HBM. Global training-cabinet mix is still set by the supply-coordination layer, the interface by the software/runtime layer, and the bid still pressed by 71% to 75%. This is an AI game: the rule layer and the compute layer have already fused in one Western firm. If domestic R&D catches up and tears a piece open with capacity and price, a parallel bid can stand. If it cannot, the West has only one bidder. If it stands, the global market is still two stacks. "Cannot be broken" names this structure, not the absence of a China industry.
+It is closer to:
 
-Profit has no nationality. After the three giants pull good capacity to HBM, conventional bits are expensive, and making conventional still pays. Domestic makers follow the floor. That is not a lack of patriotism. It is a demand for profit. Huawei pays and it gets the bits. It cannot pay and it takes residual like a phone maker. Cheapness alone does not punch through a unified compute architecture. The architecture is a ten-year developer stack. UXL and oneAPI exist. They are digging. They have not dug through. Hardware can be cheap. The switching tax is still there. A 75% pad means it can also follow a price cut down. The China stack lives on people who cannot buy NVIDIA, not on cheapness punching through the stack.
+> **a small number of large system stacks + a small number of critical scarce-layer suppliers.**
 
-### 3.5 Three allocation rights: power-on, compile, regulate
+As of August 2026, this is the most natural long-run extension of the current base case.
 
-earlier stress-test material's first essay said that when compute itself yields cognitive value, how supply is allocated decides the redistribution of profit and wealth. 2036 has three allocation rights: who owns clusters that can be powered (PPAs and interconnection); who owns workflows and data that compile onto those clusters; who owns the regulatory stamp that defines precision and safety. The oligopoly branch stacks all three on the same set of North American firms. The edge branch dilutes the first right into a utility and returns the second to device makers and the open-source commons. The dual-track branch copies the three rights into two sets. The hard-landing branch temporarily breaks the capital structure of the first right. The physical plant need not change owners.
+## 5. S3 in 2036: Resource Hegemony
 
-Labor is empty in the Volume 15 original. Titles for Volumes 38 and 39 appear only later in the book. This volume does not cross the border to invent employment elasticities. What can be said is mechanism: if agent workflows replace mid-skill cognitive labor, value capture moves from the wage bill onto cluster depreciation, model licenses, and grid contracts. The split ratios are unknown. Concrete unemployment rates and tax bases are not in earlier stress-test material. This volume does not invent them.
+Under **S3 — Resource Hegemony**, the decisive variable is not one company's chip share.
 
-Energy rationing is a fifth order, consistent with Volume 10, and is not assigned a probability. If the 2036 map is shaped more by grid and long-duration power contracts than by accelerator share, value capture can shift toward powered infrastructure even while compute platforms remain concentrated. Power interrupts "profit to prepayments to locked capacity" if and only if: cabinets that have been built cannot be powered, the system platform's revenue stops in inventory, and the supply-coordination layer can keep slotting and still cannot feed it out. That condition has not yet become the dominant system state. 2,600 GW of queue is not split. It does not enter the fact layer. PPA megawatts were not read from originals in the current evidence review. The report does not treat power as a fourth corner. Nuclear counterparties are constraint-sellers, not supply-coordination layer or software/runtime layer.
+It is the degree to which several scarce layers become highly concentrated and jointly difficult to substitute.
 
-Time is inconsistent. The hard depreciation constraint sits in 2025–2028. A 500 MW SMR, if written in 2030–2035, and 1nm sit in the 2036 cell of the table. Endgame narratives easily read the last cell backward over the first ten years, as if the path were already fixed in the rear-view mirror. An honest reading: the first half is set by depreciation already spent, packaging tightness, half the bits already going to cabinets, and 5-to-7-year grid queues; only the second half reaches those 1nm and 5 GW cells on the table. If the first half takes a hard landing, the second half's $1.1T of capex will not appear. That $1.1T is a historical forecast cell, unverified; do not treat as verified first-party fact.
+A typical S3 structure would include:
 
-### 3.6 The world does not blow up. Upgrades stop one node down
+- concentrated leading-edge capacity;
+- concentrated HBM supply;
+- persistently tight advanced packaging;
+- tightly controlled high-speed interconnect;
+- high software switching costs;
+- powered land and firm MW reserved far in advance.
 
-The main line already wrote: the world is not a physical destruction. Upgrades stop, profit is extracted, and one firm writes the rules. Volume 15 should write that sentence as the default endgame cross-section, not as one cell among four mutually exclusive cells. The parts of the default cross-section are all present now: HPC eats the increment, packaging is tight enough to limit growth, half the bits go to cabinets, consumer sticks pay a 3× tax in the channel, CXMT follows price and does not open a large HBM project, public next-generation cloud ASICs still walk toward stacks, and none of the five interrupts is done. Put those parts ten years out and what you get is not "the globe stops." It is phones and PCs paying a memory residual pressure, replacement cycles lengthening, some advanced SKUs leaving inventory, general-purpose servers stepping down, and training cabinets still shipping to the supply-coordination layer's mix. Factories, channels, and whole-machine makers face three things: pay the tax, step down, or slip the date. There is no fourth item called "sit and wait ten years for a global shutdown." Brand death is a tail scenario. Do not name names.
+A new entrant would therefore face a much harder problem than designing a faster accelerator.
 
-Who can wait: clouds, cabinet sellers, memory makers, sovereign projects — they lock HBM, server sticks, and enterprise drives with longs. Who cannot wait: PCs, mid- and low-end phones, security, consumer storage, channel merchants. Those who cannot slip the date and cannot swap a qualified bit (auto, medical, industrial) hurt more, but that is the second wave. The first wave is still PCs, commercial PCs, general-purpose servers, and phones. Five to ten years is the longest hypothesis, not a published restart calendar. The only thing that overturns the empty window is makers expanding consumer capacity early. Current seller economics favor high-value AI/server products, but supplier allocation also depends on customer diversification, utilization, contract structure, and long-run strategy.
+It would have to reproduce or gain access to a large part of the **complete infrastructure stack**.
 
-For persons and firms, the endgame implication is translated once: do not take a single interface, a single cabinet type, or a single-jurisdiction power contract as the ten-year default. Whichever switch it lands on, switching costs will be higher than in 2026 — either because oligopoly locks the stack, or because dual track splits the stack, or because a hard landing fragments the secondary ecosystem. Elastic scheduling is not a slogan. It is insurance against endgame uncertainty. This volume does not write the insurance as a product pitch.
+That creates very high capital and coordination barriers.
 
-## 4. Switches, not a forecast
+## 6. S4 in 2036: infrastructure utility after capital clearing
 
-40, 30, 15, 15 are the author's priors, not frequencies the world handed over. Demand down 1,000×, monopoly 80%, a $40B single fab, are historical assignments. They do not enter the fact layer. 1nm, CFET, panel-level packaging 450k wafers per month, a 1:5 penalty, capex $1.1T, campuses 2–5 GW: the whole table is demoted to conjecture. High-NA at $380M per tool has no source page attached. This volume does not re-estimate any firm's 2036 share and does not draw a country ranking that was not in earlier stress-test material. The endgame this book wants — rivals gone, whole-machine makers turned into ODMs, Sony thinned, Microsoft turned into a software brand, hardware alone at the top — hangs in its strongest form and is marked scenario. Microsoft Intelligent Cloud FY25 $106,265M shows a games console can thin; the cloud will not thin into a studio. The two firms cannot be written in one sentence as "became software brands."
+Under **S4 — Capital Hard Landing**:
 
-First principles rewrite the switches. Do not assign percentages. platform-control layers lock. That is the content of the oligopoly cell, not the 40%. Compute-layer plus rule-layer hegemony, marked scenario. The sales unit already moved up to the cabinet. That is mechanism, with no shipment share. If it locks, the right to define the whole machine moves up onto NVIDIA drawings, foundry and makers expand to the mix, PCs and phones split residual, and the CPU is demoted to a cabinet accessory — demotion is not extinction. Testable: whether supply commitments keep rising; whether packaging is still written tight; whether HBM plus RDIMM still take more than half of DRAM bits; whether first-customer revenue share keeps walking up from 19%. No number, leave it empty.
+- oversupplied compute is repriced;
+- hardware residual values fall;
+- model and application margins remain under pressure;
+- hyperscalers reduce the next expansion cycle;
+- long-duration data-center and power assets face lower utilization.
 
-Algorithm or cloud-ASIC interrupt. That is the edge cell plus the first of the three forks. It has not yet become the dominant system state. Public next generations have not retreated to 5nm plus commodity sticks. Testable: whether a firm writes commodity DDR5 as its training mainstay; whether a firm publicly takes training off the whole cabinet onto an in-house chip and stops buying cabinets. Until that is seen, do not announce that algorithms have broken the platform-control layers.
+But S4 does not imply that AI disappears.
 
-China-stack closed loop. That is the dual-track cell plus the second of the three forks. The structure is there. The loop is not yet closed at frontier scale. CXMT prospectus: 0 mentions of HBM. YMTC is NAND number three. SMIC 5.1% cannot take Western reticles. Testable: whether a prospectus or annual report lists a standalone HBM line and shipments; whether a domestic software/runtime layer cuts switching costs enough that enterprises will move training off the unified compute architecture. No public benchmark, leave it empty. Until the loop wins, do not write an obituary for hegemony. If it stands, the world is two stacks, not one stack rewritten by China demand.
+A more plausible long-run sequence is:
 
-Power stops the buildout. That is the added fifth branch plus the third of the three forks. The mechanism is there. It has not yet become the dominant system state. 2,600 GW does not enter the fact layer. PPA megawatts were not read from originals in the current evidence review. Testable: whether a public sentence appears that whole-cabinet shipments were blocked by interconnection permits and system platform revenue stopped in inventory. Until then, power is still a constraint, not a fork that has already won. The report does not treat nuclear operators into the 60%–75% gross-margin sentence. There is no plant P&L.
+> **overbuild → price compression → cheaper access → new applications**
 
-Buyer cut orders. That is the hard-landing cell. earlier stress-test material $215B and $670B–$750B cannot be treated as checked. What the Judgment can confirm is a mixed year of about $211.9B to $213.9B, group-wide equipment purchases, not an AI-hardware line. Cut orders are an observation item, not something that already happened. Testable: whether the four firms' next-year guidance is collectively cut; whether supply commitments walk back from $119.0B; whether makers write in an annual report that they cut capacity from HBM back to conventional. The Micron 10-K already wrote the direction sentence for a cutback. If a cutback happens, consumer bits will rise materially and the residual-capacity pressure will loosen. It has not happened.
+The installed compute base can become lower-cost infrastructure after capital losses are recognized.
 
-Bundling is the inverse condition on the switches, not a sixth branch. Miss one of the three checks and you are still picked off one by one. Testable: whether a cross-buyer joint prepayment appears that is large enough the foundry cannot recognize only one name; whether UXL or oneAPI turns the switching tax from a change of vendor into a change of base; whether a memory long is published that leaves a line for commodity bits. None of the three is present.
+Historical fiber, telecom, and cloud buildouts show why capital failure and technology diffusion can coexist.
 
-confirm the use of time gates. This volume does not treat earlier stress-test material's five 2030 gates (wafers about $32,000, packaging above 250k wafers per month, penalty near 1:4, four-cloud capex still above $750B, a 500 MW–1 GW campus appearing) as verified first-party fact. Those five gates all come from earlier stress-test material's own forecast cells. If the gates are not passed, demote the entire 2036 row to conjecture — that sentence still holds, but the gates themselves are also conjecture. This volume switches to gates that can be watched now: whether half the bits still sit on the cabinet side; whether maker operating margins still sit in the 49% band; whether supply commitments are still rising; whether packaging is still written tight; whether the CXMT prospectus is still 0 mentions of HBM; whether public next-generation cloud chips still write HBM. If three or more of the five pass, the physical premise of the lock branch still holds; if fewer than two pass, read edge, dual track, or hard landing, and stop citing 5 GW and 1nm. Gates are for deleting scenarios, not decorating them. If Volume 15 is read as a pamphlet that "ten years out it must be more concentrated," it has been read backwards.
+The competition would shift from “who can build fastest?” toward “who can use the installed base most productively?”
 
-2036 is more likely a mixed state than four mutually exclusive cells. Training and very large cabinets still follow the supply-coordination layer's mix; inference and the edge are partly utility-ized; China–U.S. software evaluation is dual-track; cut orders appear in some years. On the cross-section there can still sit at once: oligopoly training in North America that can be powered, sovereign small clusters in East Asia and Europe, a large volume of edge inference, and a secondary compute market that has already cleared once. earlier stress-test material's four mutually exclusive cells cannot hold that cross-section. That is a structural gap, not a gap that can be filled by writing more adjectives. The join to Volume 10: the five scenarios are paths; Volume 15 is the cross-section after a path has walked ten years. The path is not finished. The cross-section is not fixed.
+## 7. Memory may remain a decisive long-run divider
 
-Other side one: 2036 is too far; the exercise is meaningless. The value of a switch table is not a point forecast. It is that it exposes the variables that must move: who gets half the bits, which way silicon burn walks, whether prepayments add, whether packaging stays tight, whether a second bid stands, whether power stops the build, whether training is still on the cabinet. Readers can cross items out one by one. Other side two: the 80% quota has already been broken by regulation or open source. That needs forced interoperability or edge quality that actually replaces a cloud API, not a demo. Inquiries exist. Complaints do not. The statutory ceiling of $21.6B is not a fine. Other side three: nuclearization stops on an accident or on politics, and 2–5 GW campuses cannot be built. That moves the energy axis from "nuclear" to "gas plus queue." Oligopoly does not vanish. The map only slides from nuclear plants to gas corridors. 2–5 GW itself is a historical forecast cell, unverified. Other side four: CXMT suddenly lists HBM standalone and eats half the world's bits. Prospectus: 0 mentions. The three raised-fund projects do not carry that name. "Cannot enter high value-add in the near term" is a Korean-press expert judgment, not a story of already having failed, and not a story of already having succeeded. Leave it empty.
+Micron's disclosure that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity shows that memory scaling is not free.
 
-This volume still does not give a single 2036 winner list. The list depends on the switches. Until the switches are chosen, the list is invention.
+If later HBM generations continue to require increasing manufacturing input per delivered bit, memory can remain a persistent system bottleneck.
 
-## 5. Gaps and what cannot be treated as fact
+If new memory architectures, 3D integration, or algorithmic efficiency materially reduce bandwidth and capacity requirements, the constraint can weaken.
 
-Volume 15 has no country or regional capacity map and no labor, education, or fiscal figures. Europe, India, and the Middle East are absent from the original. Empty sentences cannot patch them into the endgame. The 2030 and 2036 four-axis cells are all forecasts. 1nm, CFET, panel-level packaging 450k wafers, a 1:5 penalty, $1.1T, 2–5 GW are all unverified. 1,000×, 80%, a $40B single fab, and the 15% / 30% / 40% probabilities are author assignments. High-NA at $380M per tool has no source page attached. earlier stress-test material four-cloud capex $215B, annual depreciation $45B to $55B, and 2026 $670B to $750B do not match the checked mixed-year group-wide figures. They do not enter the fact layer.
+The long-run AI stack may therefore be shaped as much by the **memory wall** as by transistor-node leadership.
 
-Micron official-slide original PDF was not in the current evidence review. 3× is currently a ServeTheHome and Tom's Hardware paraphrase. Hynix / Samsung DRAM versus NAND amount splits, full-year HBM bits, absolute wafers: empty. CXMT prospectus monthly capacity, HBM capacity, 350k wafers per month: not in the prospectus. YMTC official stack-layer count 267 does not enter; official monthly wafers in the tens of thousands are not there. 8.6 / 13.2 TB as another scope, three-maker 1.80 million wafers per month, Samsung cutting 80k wafers back from HBM: do not write them, per the evidence instruction. Do not convert won into dollars and add them to Micron.
+## 8. Advanced packaging can become a strategic layer in its own right
 
-Supply commitments of $119.0B are not split to Hynix or HBM. TSMC does not disclose NVIDIA's share or a monthly-capacity split. Sell-side 60%, 595k to 630k wafers, is not a foundry split. Folding 58%, 24%, and 19% into tens of thousands of wafers: revenue share is not units. Cabinet counts, global absolute HBM bits, stack wafers by customer: empty. The report does not infer them.
+As chiplets, large interposers, 3D integration, and optical or next-generation interconnect develop, system performance can depend increasingly on:
 
-Brands already dead, CPUs already extinct, a ten-year global stop, whole-machine makers already turned into ODMs, Sony and Microsoft already the same class of software brand: scenarios, not facts. Microsoft Intelligent Cloud $106,265M conflicts directly with "thinned." Backdoors and stolen training data do not enter the fact layer. Unified-compute-architecture coverage, single-switch gross margin, software premium: already cut by the frame. DeepSeek 671B parameters, a converted $5.576M, 93.3% KV compression: historical figures. the current evidence review did not check the technical report. They do not enter this volume's fact layer.
+- die-to-die bandwidth;
+- HBM integration;
+- thermal design;
+- package yield;
+- system topology.
 
-This volume is an industry-analysis chapter, not an audit opinion. First-party, institutional, channel, and scenario evidence retain their own grades and scopes; missing quantities remain unquantified.
+Advanced packaging is therefore not merely a downstream manufacturing service.
 
-The honest use of an endgame exercise is as a pressure-test switch, not as prophecy. Take every 2036 cell on the four-axis table at its upper bound and you get a world of extreme capital and power intensity, corresponding to the oligopoly branch, and the whole table is unverified. Take "algorithm breakout, demand down 1,000×" throughout and the table fails. Readers should require any decision memo that cites this volume to write which set of switches it opened. A 2036 map with no switches written is decoration. From the present forward, the only sentence that can enter the body of a memo is this one: the line walks past half of the scarce slice; server sticks are already residual; if those five are not done, upgrades stop one node down, and one firm writes the rules.
+By 2036, semiconductor competition may be poorly described by “node leadership” alone.
+
+The ability to integrate logic, memory, thermal design, and interconnect at system scale can become a separate strategic advantage.
+
+## 9. Power will increasingly shape the geography of AI
+
+If rack and pod power continue to rise, the geographic distribution of AI infrastructure will increasingly depend on:
+
+- firm generation;
+- grid access;
+- water and cooling;
+- permits;
+- political acceptance.
+
+Future AI hubs are therefore more likely to appear where several conditions are jointly available:
+
+> **compute supply + power + land + regulatory execution**
+
+Energy geography becomes part of technology competition.
+
+The relevant scarce asset is not national electricity in the abstract, but executable power at the location and time the compute system needs it.
+
+## 10. The long-run role of China's parallel stack
+
+Whether China develops a complete parallel frontier stack by 2036 will influence whether the global system looks like:
+
+- one global system ecosystem;
+- two relatively separate system ecosystems;
+- several regional or sovereign AI stacks.
+
+The key variable is not one aggregate domestic-substitution percentage.
+
+It is whether several layers close at scale:
+
+- advanced logic;
+- HBM;
+- advanced packaging;
+- interconnect;
+- software migration;
+- frontier workloads.
+
+If those layers become jointly viable, global AI infrastructure can develop two or more durable centers of resource gravity.
+
+If they do not, strength in consumer and industrial supply chains will not automatically translate into frontier-system closure.
+
+## 11. The real dividing lines of the endgame
+
+Four questions are likely to matter more than a headline “80% market share” number:
+
+1. **Are system stacks interoperable enough to migrate major workloads?**
+2. **Is scarce manufacturing sufficiently diversified?**
+3. **Has power become a durable quota?**
+4. **Can AI workloads generate enough cash flow to cover the infrastructure built for them?**
+
+These questions map directly onto the report's current mechanisms.
+
+They are also falsifiable over time.
+
+## 12. Current conclusion
+
+Looking from 2026 toward 2036, the most defensible baseline is neither permanent monopoly nor rapid commoditization of all compute.
+
+It is:
+
+> **high capital intensity, high concentration, and multi-system-stack competition coexisting for an extended period.**
+
+Leading platforms will continue to compete over system definition.
+
+Hyperscalers will internalize more of the stack.
+
+Manufacturing and power will retain strategic value.
+
+China's parallel stack will continue to expand.
+
+Which end state ultimately dominates depends on which constraints and substitution paths cross their critical thresholds first.
+
+2036 is therefore not the “answer” to this report.
+
+It is a long-range test of whether the mechanisms visible in 2026 continue to hold.
