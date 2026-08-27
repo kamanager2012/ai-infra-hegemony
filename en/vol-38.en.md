@@ -1,10 +1,14 @@
 # Volume 38: AI and Labor Markets — From Task Exposure to Job Restructuring
 
-Rent and tax: [Volume 8](vol-08.en.md). This volume has no unemployment rate, no jobs-lost count, no wage percentile. Statistics are zero. The report does not infer headcount.
+Chinese source edition: [vol-38.md](../vol-38.md)
 
-## 1. Core question
+> Retrieval and revision cutoff: **2026-08-27**. This volume separates technical task exposure from actual adoption, workflow redesign, responsibility constraints, and final employment or wage outcomes. Exposure is not unemployment.
 
-AI labor impact cannot be inferred directly from model capability or task exposure. The report uses a five-step translation layer:
+## 1. AI changes tasks before it changes job titles
+
+The labor-market effect of AI cannot be described reliably by asking only how many occupations might disappear.
+
+A more defensible causal chain is:
 
 ```text
 Task Exposure
@@ -14,120 +18,231 @@ Task Exposure
 → Employment / Wage Outcome
 ```
 
-A task may be technically automatable but still remain inside a human job because deployment is uneconomic, workflow integration is incomplete, accountability cannot be transferred, or regulation requires a licensed person.
+This report therefore uses a **Task-to-Job Translation Layer**.
 
-The core question is therefore not “how many jobs will AI eliminate,” but which tasks are reorganized first, which jobs change composition, where productivity gains accrue, and which responsibilities remain attached to humans.
-## 2. What earlier stress-test material already argued (compressed; unverified numbers not promoted)
+The central implication is simple: technical capability does not map directly into headcount.
 
-The means-of-production characterization comes from Part I Volume 1. In the third information revolution, PCs and phones were a passive extension of human brainpower, output bounded by physiology and cognitive bandwidth. 2026–2036 was written in earlier stress-test material as the first time compute itself could generalize, generate code, induce logic, and decide autonomously. The diagram's endpoint is a supercluster driving Agent workflows, directly substituting junior and mid-level human intelligence. That is a strategic scenario, not an observed employment census.
+## 2. Exposure is not unemployment
 
-The cost side gave a financial motive for labor substitution, but the scope must be downgraded. Mixed-year four-cloud figures: [Volume 8](vol-08.en.md). The depreciation wall: [Volume 30](vol-30.en.md). Mixed-year capex cannot be added into "AI hardware," and it cannot be used to back out one firm's already-verified depreciation path.
+ILO, IMF, OECD, and related labor research repeatedly distinguish between:
 
-The older SaaS 85%→55% margin path is a business-model stress test, not an observed industry margin path. This volume keeps the mechanism: seat licenses sell person-months; Agent software sells completed steps. It does not write 85% and 55% as an already-settled industry mean.
+- tasks that are technically exposed to AI;
+- firms actually adopting AI;
+- jobs being redesigned;
+- jobs ultimately disappearing.
 
-On the algorithm side, earlier stress-test material used DeepSeek-V3/R1 training cost and MLA compressing KV Cache to write that "a mid-size firm can also afford the inference that rewrites junior cognitive steps." Those engineering figures were not re-checked against the original the current evidence review. Do not promote them. What can stay is the direction: cheaper inference does not mean human cognitive labor has no value. It only lowers the bar for rewriting a textualizable step as an API call.
+An occupation can have a large share of tasks that are technically automatable while the employer still chooses to:
 
-On the edge, earlier stress-test material wrote Jetson Thor power, a humanoid-robot BOM split, flagship SoC purchase prices, and replacement cycles. The original reports were not re-checked the current evidence review. Do not promote them to purchase prices or shipments. The mechanism that can stay: installation, repair, and care in the physical world do not vanish linearly with token price. When edge substitution does not scale, cloud tokens remain the scale entry, and labor substitution concentrates in large firms that already bought cloud seats.
+- automate only part of the workflow;
+- retain human review;
+- expand customer-facing work;
+- reduce junior hiring;
+- increase output per senior employee.
 
-The strategic sentence still works: firms should focus on workflows that produce commercial value directly, and avoid proprietary-API lock-in. The matching sentence for individuals, the corresponding individual-level implication is: do not write irreplaceable judgment as middleware an API can fully recap.
+Employment outcomes therefore emerge only after the workflow itself changes.
 
-## 3. What public labor literature confirm: exposure is not unemployment
+A published exposure percentage should not be restated as an unemployment forecast.
 
-A labor volume is easiest to write as "X% of jobs are about to disappear." The public literature itself blocks that cut. This volume only cites the institutions' own sentences. It does not rewrite exposure rates as unemployment rates.
+## 3. Adoption economics determines whether firms actually substitute tasks
 
-The International Labour Organization's February 2026 research brief *Workers' exposure to AI: What indicators tell us – and what they don't* (ILO, DOI 10.54394/00033279) locked the scope. Exposure indicators estimate on which tasks an AI system can substitute for a person. They do not estimate whether automation pays, whether it brings productivity, or how it will change employment. The brief's original:
+A firm has a strong economic reason to replace a human task only when the full AI workflow is cheaper and sufficiently reliable.
 
-> They measure what could be automated technically, not whether automation is profitable, generates productivity gains, nor how it impacts employment.
+A simplified condition is:
 
-The same brief's conclusion is harder:
+```text
+AI Cost + Review + Error + Compliance
+<
+Human Cost
+```
 
-> They should not be used to forecast job losses. They are best understood as early warning indicators that identify occupations where task content is likely to change.
+Benchmark improvement alone is therefore not enough.
 
-Method disagreement itself is a fact. Earlier computerization indicators pointed risk more at low-pay, repetitive, routine manual or routine cognitive jobs. Newer indicators built on AI capability assign higher exposure to cognitive, analytical, administrative, and managerial jobs. The brief writes: business, finance, computing, mathematics, education stay highest across several indicators; office and administrative support, sales are also fragile, with larger within-group differences. High-exposure jobs often sit at the center of an occupational network; the shock spills along skill and transfer paths. Manual, care, and craft jobs sit at the network's edge; direct spillover is smaller. That is occupational-network structure, not an unemployment map this volume invented.
+Adoption also depends on:
 
-The ILO report prepared for the 2026 International Labour Conference, *Artificial Intelligence and the world of work* (ILC114-I(B)), compresses existing evidence into one sentence: at this stage AI mainly changes tasks and work organization, rather than wiping out jobs at scale; this is consistent with earlier technological transitions. Outcomes depend on the balance between task substitution and task creation, and on the economic and institutional factors that shape adoption. Even if totals do not move much, distributional effects can still be large, especially where transfer options are few and social protection is weak. This volume treats that sentence as a method constraint, not as a guarantee that "therefore there will be no layoffs."
+- reliability;
+- latency;
+- integration;
+- security;
+- legal responsibility.
 
-The IMF's January 2024 Staff Discussion Note *Gen-AI: Artificial Intelligence and the Future of Work* (SDN/2024/001) gives exposure, not unemployment. The staff abstract writes: about 40% of global employment is exposed to AI; about 60% in advanced economies, because more jobs are cognitive-task jobs; about 40% in emerging markets, about 26% in low-income countries. Of exposed jobs in advanced economies, about half may be hit negatively; the rest may gain productivity from complementarity. The same note also splits: in an average advanced economy, high-exposure and high-complementarity is about 27% of employment, high-exposure and low-complementarity about 33%. High-exposure employment in the UK and the US is roughly near 70% and 60%, split about half and half between high complementarity and low complementarity. All of these percentages are exposure and complementarity classifications. The IMF itself did not write them as already-realized unemployment rates. The 14 January 2026 IMF blog *New Skills and AI Are Reshaping the Future of Work* again uses "nearly 40 percent of jobs globally are exposed to AI-driven changes," and adds a sentence this volume needs: competition policy also matters; when firms acquire rivals to grab scarce talent, market power concentrates.
+A model can be technically capable of a task and still be uneconomic or unacceptable in production.
 
-The OECD has written in country studies: AI's largest progress is on non-routine cognitive tasks, so the most exposed are often white-collar; but high exposure is not the same as being substituted. By the time of that research, OECD countries had not yet seen negative aggregate employment results caused by AI. 83% of SMEs reported that generative AI had not changed the total number of people they need — that is firm self-report, not a census. This volume treats it only as side evidence that "aggregates have not yet been punched through by public statistics," not as a global conclusion.
+## 4. Tasks most exposed to restructuring
 
-Stack ILO, IMF, and OECD public literature on the judgment and what you get is not a layoff timetable. It is a division of labor: exposure tells you which tasks are sliced first; rent and tax tell you who collects the residual after the slice; antitrust tells you whether this rent-collection structure can be rewritten overnight. Drop any layer and you misread "white-collar exposure is high" as "white-collar is about to disappear," or "aggregates have not collapsed" as "rent does not exist."
+Tasks are generally easier to automate when they have:
 
-## 4. How infrastructure and system-stack structure reaches the employment contract
+- digital inputs;
+- repeatable outputs;
+- clear evaluation criteria;
+- low dependence on the physical world.
 
-Labor markets are downstream of production architecture. Employers that can access reliable compute, mature software/runtime stacks, and scalable workflow tooling can reorganize tasks faster than firms constrained by cost, infrastructure, regulation, or physical operations.
+Examples include:
 
-Three capability layers matter for workers:
+- drafting;
+- summarization;
+- classification;
+- routine coding;
+- standard support;
+- research assistance.
 
-1. **Tool / cognitive layer:** model use, retrieval, evaluation, and workflow design. Supply can expand rapidly and some skills may commoditize quickly.
-2. **Systems-engineering layer:** compilers, runtimes, multi-model scheduling, data pipelines, reliability, and infrastructure economics. These skills remain closer to production bottlenecks.
-3. **Physical / responsibility layer:** power, cooling, packaging, manufacturing yield, on-site operations, licenses, safety, care, and legal accountability. These tasks are slower to automate because responsibility and physical execution cannot be moved as easily as text generation.
+These tasks can be compressed substantially even when the surrounding occupation remains.
 
-The employment unit therefore moves from job title toward task bundle and responsibility boundary. Titles can persist while task composition, junior hiring, management layers, and compensation structures change.
-## 5. compute-platform value capture: who pays rent, who draws a wage
+The relevant change is often **task density per worker**, not immediate elimination of the job title.
 
-Rent and tax: [Volume 8](vol-08.en.md). Four-cloud scope: the same volume. For labor-market analysis, three transmission channels matter.
+## 5. Tasks that are harder to remove completely
 
-First, rent and wages fight over the same corporate P&L. Profit and cash: [Volume 1](vol-01.en.md). If an employer prepays cabinets on one side and keeps the old mid-level intelligence headcount on the other, depreciation and wages will fight in the same year. What moves first is usually the budget for steps that can be textualized, checked, and rolled back, not capacity commitments already signed.
+Tasks with one or more of the following characteristics are harder to make fully autonomous:
 
-Second, a rent rate cannot be computed. A rent direction can be written. See [Volume 8](vol-08.en.md). The direction: a slice of cloud capex becomes cabinets, then becomes seller revenue. That slice no longer comes back as wages to employees who produce intermediate text.
+- legal liability;
+- physical presence;
+- high-stakes judgment;
+- interpersonal trust;
+- licensing;
+- unpredictable environments.
 
-Third, residual-capacity pressure hits another layer of labor. Residual: [Volume 5](vol-05.en.md). Phones, PCs, consumer disks, channel boxes, security modules have no prepayments. The queue does not reach them. Assembly workers, channel sales, and installation techs in these industries first meet not "AI stole the white-collar meal," but fewer leading-edge SKUs on the shelf, more expensive controllers, slower replacement. the current evidence review has no employment headcount for these jobs. The report does not infer it. The mechanism holds: residual-capacity pressure is the first wave of the labor shock. It just hits the downstream that cannot wait, not the title wall at the "four compute giants." Worker bargaining power can differ sharply depending on whether the employer controls scarce infrastructure, software interfaces, or only a downstream application layer.
+Examples include:
 
-## 6. Antitrust and national security: a fine does not change the bid. A breakup changes the rules
+- medical sign-off;
+- structural-engineering sign-off;
+- field maintenance;
+- nuclear operations;
+- complex negotiation;
+- childcare and care work.
 
-If labor bargaining hopes regulation will open the market, the public record does not match. The case file: [Volume 11](vol-11.en.md). National-security documents: [Volume 8](vol-08.en.md). For labor markets, a monetary fine does not by itself change system interfaces, capacity access, or workflow control. Employers will not expand mid-level intelligence headcount back because of a statutory ceiling that has not yet been issued. What can change the structure of the employment contract is forced opening of the software stack, a ban on bundled supply, that class of interoperability and structural remedy. None of that has been done. Writing "regulation is about to open the market" as a white-collar transfer timetable exceeds the public record. The labor meaning: administrative lock decides who can use a high-speed interconnect cluster, and who can only work on Ethernet or a domestic interconnect. Export controls do not lay people off directly. They write a productivity gap as a border. That is a layer, not a headcount.
+AI can still restructure these occupations.
 
-## 7. Three layers of labor, not one "AI job"
+But responsibility, physical presence, or licensing can keep a human inside the decision loop even after a large share of intermediate cognitive work is automated.
 
-China's supply capability must be analyzed by layer, and the labor market follows the same logic. Strong smartphone and consumer-computing capability does not automatically imply frontier-AI system equivalence, while frontier constraints do not imply the absence of a domestic software, device, manufacturing, or services workforce.
+## 6. The entry-level ladder is one of the most important structural risks
 
-Phone layer. The scarce object is a slice of leading-edge logic and residual LPDDR. Apple locks its own phone logic. The rest is the Smartphone platform. Domestic shipments, brands, and channels are still there. Kirin plus SMIC is this layer's parallel supply. CXMT commodity DRAM can supply this layer. Labor: assembly, test, channel, after-sales are still there. What they pay is a memory residual pressure and slower replacement, not a CUDA switching cost. They cannot save engineer headcount on the other two layers.
+Even if aggregate employment does not fall immediately, AI can reduce demand for:
 
-PC layer. The same residual DRAM, consumer SSDs, gaming cards. Official supply of gaming cards is limited. OEMs are still there. They have no accelerator stack of their own, and no CoWoS queue. Still x86, Windows, discrete GPUs. Labor: ODM lines, channel stores, repair shops. When residual thins further, this layer first cuts shifts and inventory, not the "prompt engineer" title. Unresolved: it cannot solve DIMMs, disks, and cards being sucked into cabinets.
+- junior analysts;
+- junior coders;
+- entry-level support;
+- routine research roles.
 
-AI layer. The scarce objects are packaging, HBM, cabinet fabric, the software/runtime layer stack. Labor: people at the rules layer sit on cabinets — cluster scheduling, cabinet integration, advanced-packaging process, liquid cooling and power licenses. Three layers and two gates: [Volume 12](vol-12.en.md). Compound training does not fill a photoresist gate. A cognitive leap does not change the bid.
+That creates a deeper organizational problem.
 
-If policy only subsidizes the "AI job" title, it piles people onto the side that is already exposed, and where bargaining sits in the stack, not in the person. What is truly scarce is the technician who can keep cabinets and the grid running, and the person who can design a workflow between two software/runtime layer stacks. The former is at the supply-coordination layer corner. The latter is at the software/runtime layer corner. Neither is "prompts" on an admissions brochure. This volume has no hiring headcount for technician and prompt jobs. It does not invent a ratio. It only leaves a testable item: in public job texts, whether the ratio of "multi-model scheduling / cabinet / liquid cooling / packaging" to "single-framework fine-tune" has risen.
+Traditional professional development often follows:
 
-Shop-floor labor deserves its own paragraph. A humanoid robot puts compute in only one slice of the BOM. The rest is motors, reducers, sensors, and structure. Even if edge compute rises, assembly, calibration, repair, and care still need people. Process engineers in factories, grid operators on shift, nuclear licensing teams all belong to the set "a model cannot take the responsibility." There will be many stories of cognitive-labor substitution. The bulk of the employment stock may still sit in these sets. The ILO brief puts manual, care, and craft at the edge of the occupational network, in the same direction as this sentence. This volume does not promote BOM percentages. It only leaves the structure: steps whose responsibility cannot be moved still price as wages and insurance; steps that can be published, checked, and rolled back will price as tokens first.
+**junior work  
+→ accumulated experience  
+→ senior judgment**
 
-Unions, professional licenses, and industry standards are speed bumps, not because the technology cannot do it, but because responsibility cannot be moved. Medicine, law, structural sign-off, nuclear operations will all require a human in the loop. Headcount inside the loop will fall. Unit price need not fall. Whether labor law allows seniority to be rewritten as delivery-by-step is each country's own gap. earlier stress-test material did not write it. This volume does not invent statutes.
+If a large share of junior tasks is automated, firms need a new way to create experienced senior workers.
 
-## 8. The five interrupt paths are not the same speed for labor
+This may become one of the most important long-run labor effects of AI: not simply fewer tasks, but a weaker **experience-acquisition ladder**.
 
-The major infrastructure-reversal variables operate at different speeds in the labor market. Cloud system stacks can create new compiler, systems, and hardware-software co-design roles; better cross-stack portability can reduce skill lock-in; binding power constraints can slow construction and deployment hiring; and regional parallel stacks can create separate certification and career ladders. Structural interoperability remedies could reduce switching costs more abruptly, but no such broad remedy should be assumed in advance.
+## 7. Wage outcomes can become more polarized
 
-## 9. Scenarios, counterarguments, and testable indicators
+AI can simultaneously:
 
-No unemployment-rate figure. Any quantitative "X% of jobs disappear," other than the exposure rates already sourced above, is not written in this volume. Exposure rates are not unemployment forecasts and should never be reported as such.
+- raise the productivity of highly skilled workers;
+- reduce the value of routine tasks;
+- increase the premium on system and operator skills.
 
-Scenario A: task substitution faster than job substitution. Firms keep titles, shrink junior headcount, hand mid-level steps to Agents, and use the wage saved against cabinet depreciation and prepayments. Wage polarization happens by layer: workflow designers, cabinet and packaging technicians, on-site responsibility jobs rise; textualizable mid-level jobs stall. This is the path that most closely fits the ILO's "change tasks, not the job roster first" and earlier stress-test material's "Agents mature period." Four-cloud capex is still adding, which means buyers have not stopped expanding. Financial pressure on this path comes from depreciation and commitments, not from demand that has already collapsed.
+That can produce a labor structure in which:
 
-Scenario B: usage is not enough. Substitution is called off. Clouds and software firms first cut people unrelated to AI delivery. Customer-side substitution projects stall. What the labor market sees is not "AI stole the meal," but "AI-project layoffs." The trigger is not a token unit price this volume invented. It is buyers cutting group-wide capex. Mixed-year 2025 is still adding, not already cut. Testable: whether Microsoft PPE, Amazon net equipment purchases, Google equipment purchases, and Meta company-definition capex all turn at once. Before they turn, do not write one firm's project layoffs as an aggregate turning point.
+- top-performer leverage rises;
+- routine middle-layer roles shrink;
+- demand rises for physical and systems technicians.
 
-Scenario C: edge decentralization. Edge models become strong enough that a device can run top-tier intelligence. Individual workers again own a small piece of the means of production. Seat licenses break down more thoroughly. Income moves to platform take-rates and device installments. The counter is oligopoly endgame: compute locked by a few clouds and Nvidia, workers generally becoming distribution channels. earlier stress-test material gave probabilities. None were checked. This volume carries no frequencies. It only leaves the switch: if the edge does not scale, cloud tokens remain the scale entry, and substitution concentrates in large firms that already bought cloud seats; if the software/runtime layer is not forcibly opened, the weight of the distribution-channel scenario rises. Both are hypotheses from here. They are not forecasts.
+The result does not have to be “all knowledge-work wages fall.”
 
-Five counters to block. Extrapolating a whole occupation disappearing from one demo video. Writing cheaper DeepSeek training as "human cognitive labor has no value." Writing IMF 40% / 60% exposure as already unemployed. Writing 10% of annual revenue as a fine about to be issued, then inferring "regulation will save white-collar." Adding four-cloud mixed-year capex into AI hardware, then inferring "depreciation must cut mid-level intelligence." All five exceed the public record.
+Different layers of the labor market can move in opposite directions.
 
-Testable indicators take only public, non-invented targets. Whether software firms break inference cost out into cost of sales. Whether firms disclose the number of processes replaced by Agents, not an "AI employee count." Whether cloud incremental revenue and PPE / equipment purchases can be matched in direction — not knocked into a rent rate. The ratio in hiring texts of "multi-model scheduling / workflow / cabinet / liquid cooling / packaging" to "single-framework fine-tune." Whether public hiring for nuclear, liquid-cooling, and advanced-packaging jobs rises in step with GPU software jobs. Whether justice.gov shows *United States v. NVIDIA*. Whether the French authority has issued a statement of objections. Whether the European Commission has a 101/102 opening press release. Whether TSMC's next annual report first-customer share keeps leaving 19%. Whether supply commitments keep leaving $119.0B. For these items: if there is a notice, write the notice. If there is no notice, leave it blank.
+## 8. Physical AI creates a second wave on a slower clock
 
-## 10. After mid-level intelligence is sliced, organizations flatten. Responsibility does not
+As robotics and autonomous systems improve, AI effects can extend from digital tasks into:
 
-The mid-layer that used to coordinate junior staff is itself a textualizable step. If Agent workflows truly run stably, firm titles will fall and project systems will rise. That need not lower total labor compensation. It will change how compensation is paid: more by delivered steps, less by seniority. The IMF 2024 note wrote: if AI complementarity with high-income workers is strong, labor-income inequality may rise; capital returns will push wealth inequality up; if productivity gains are large enough, most workers' wage levels may still rise. That is a conditional. It is not an already-realized Gini coefficient.
+- warehouses;
+- manufacturing;
+- logistics;
+- inspection;
+- maintenance.
 
-AI-related value capture has three collection points. A fourth layer is the software/runtime stack. Model weights, compute quota, workflow data, plus the stack at the software/runtime layer corner. If an employer only takes employee-produced text, fine-tunes it, and rents it back, employees are creating their own substitute. The firm strategic sentence writes "avoid proprietary-API lock-in." The matching sentence for individuals is the same sentence. Steps that can be published, checked, and rolled back will price as tokens first. Steps that must be signed, must be on site, must answer for yield and for bodies still price as wages and insurance. Unions and licenses block the latter being wrongly priced as the former. They can block responsibility. They cannot block exposure.
+Physical AI, however, faces additional constraints:
 
-The China stack's labor ceiling is here too. If domestic R&D catches up and tears open a piece with capacity and price, it can stand a parallel bid and feed engineers on a second software/runtime layer. If it does not stand, the West has only one bidder left, and domestic cognitive labor may still face a productivity gap where frontier compute, HBM-class memory, packaging, interconnect, or software migration remain constrained. Those who can pay are high-price peers. Those who cannot take residual. It is not that the foundry is unpatriotic. The foundry wants profit. "Domestic CXMT exists, therefore PCs and AI have bits" does not hold. PCs take residual DIMMs. AI does not get equivalent stacks. Still unresolved. People follow the layer: people on the phone layer stay; people on the AI layer cannot buy equivalent tools; a productivity gap becomes a wage gap. This volume has no cross-strait wage-gap survey. It does not invent a multiple.
+- hardware cost;
+- reliability;
+- safety;
+- maintenance;
+- regulation.
 
-The five paths: [Volume 8](vol-08.en.md). A cognitive leap does not fill the window. Admissions do not fill a photoresist gate. What this volume can write is only that these constraints are already standing. Headcount stays blank.
+That usually makes physical-world substitution slower than software-task substitution.
 
-## 11. Gaps and what must not be treated as fact
+The second wave is therefore likely to follow a different adoption curve from coding, drafting, or digital support.
 
-earlier stress-test material of Volume 38 had not one labor statistic. This volume does not invent unemployment rates, wage medians, jobs-lost counts, admissions, or starting pay. IMF 40% / 60% / 40% / 26% and advanced-economy 27% / 33% are exposure and complementarity classifications, not unemployment. The ILO explicitly wrote that exposure indicators must not be used to forecast job losses. OECD "no negative aggregate yet" is an observation as of that study's publication, not a permanent guarantee.
+## 9. AI infrastructure also creates new labor demand
 
-Cannot be written as already happened: a DOJ complaint, a settlement, a Mellanox split, a forced opening of CUDA; a French statement of objections, a French or EU fine; "a 10% of annual revenue fine about to be issued"; a White House or Pentagon text already forbidding a breakup; four-cloud "AI hardware capex $215B"; the four clouds paying NVIDIA the entire $193.7B; SaaS gross margin already walking from 85% to 55%; a country where "X% of jobs have already been replaced by AI."
+The AI buildout simultaneously increases demand for roles such as:
 
-The following older assumptions remain outside the current fact layer: DeepSeek training cost, MLA compression ratio, Jetson / robot BOM, flagship SoC purchase prices, 40-month replacement, chip cost +20%~30%, endgame probabilities 40% / 30% / 15% / 15%. 85%→55% is a business-model assumption. The legal arrangement of who receives AI-related value capture (copyright, labor law, collective bargaining) was not written in earlier stress-test material. This volume also did no country's labor-force survey, and did not independently verify 10-Ks page by page. Company figures follow sources already checked in [Volume 11](vol-11.en.md) and the current evidence framework.
+- data-center technicians;
+- liquid-cooling engineers;
+- power engineers;
+- semiconductor process engineers;
+- advanced-packaging specialists;
+- network engineers;
+- safety and compliance staff;
+- model-infrastructure engineers.
 
-Retrieval cutoff 2026-08-26. Some Reuters originals 401; use Reuters reprints or contemporaneous secondary full text. Company figures from IR / Exhibit 99.1. Labor scope from the ILO brief, the ILO conference report, IMF SDN/2024/001 and the 2026-01-14 blog, and public sentences in OECD country studies. Quantitative forecasts without a source are marked unverified. Do not treat them as verified first-party fact.
+Labor restructuring is therefore not a one-way process in which AI simply reduces employment.
+
+It reallocates labor across layers of the system.
+
+Some cognitive middle-layer tasks can shrink while physical infrastructure and responsibility-intensive work expands.
+
+## 10. Will organizations become thinner or simply more productive?
+
+Agent-native workflows can reduce some coordination work.
+
+But organizations may not shrink mechanically if:
+
+- task volume rises;
+- review requirements increase;
+- compliance becomes more demanding;
+- new products and workflows expand.
+
+The useful organizational indicators are therefore:
+
+- management layers;
+- span of control;
+- junior-to-senior ratio;
+- revenue per employee;
+- human-review ratio.
+
+A thinner org chart is one possible outcome, not an automatic consequence of better models.
+
+## 11. Policy implications
+
+Policy should not focus only on the number of “AI-exposed jobs.”
+
+It should also track:
+
+- reskilling;
+- apprenticeship;
+- professional responsibility;
+- entry-level pipelines;
+- mobility;
+- wage distribution.
+
+The most important statistical guardrail is:
+
+> **Do not convert an exposure percentage directly into a job-loss forecast.**
+
+Labor policy needs evidence about actual adoption and workflow redesign, not only technical capability.
+
+## 12. Current judgment
+
+AI has entered a period of large-scale **task restructuring**.
+
+The current evidence does not support one universal number for “how many jobs AI will eliminate.”
+
+The more reliable sequence is:
+
+> **observe task automation first → then workflow redesign → then employment and wage outcomes**
+
+That translation layer is essential.
+
+Without it, labor analysis mistakes model capability for corporate adoption and technical exposure for realized unemployment.
