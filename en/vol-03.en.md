@@ -1,8 +1,8 @@
 # Volume 03: AI Resource Gravity and Non-AI Residual Capacity
 
-Chinese original: [vol-03.md](vol-03.md)
+Chinese original: [vol-03.md](vol-03.en.md)
 
-The residual model is in [Volume 5](vol-05.md). First-wave whole systems are in [Volume 9](vol-09.md). The consumer-electronics tax is in [Volume 22](vol-22.md). This volume does not reopen 51% or analyst SoC prices. This volume only writes demand as the identity cabinets × BOM. It does not write that a global percentage has already been bought away.
+The residual model is in [Volume 5](vol-05.en.md). First-wave whole systems are in [Volume 9](vol-09.en.md). The consumer-electronics tax is in [Volume 22](vol-22.en.md). This volume does not reopen 51% or analyst SoC prices. This volume only writes demand as the identity cabinets × BOM. It does not write that a global percentage has already been bought away.
 
 ## 1. Core question
 
@@ -44,7 +44,7 @@ Front-end logic is another line. GPU dice per cabinet: 72 times 2 equals 144. Ab
 
 ### 2.3 Who can bid, increment, packaging, memory past half, gaming cards giving way
 
-Profit is in [Volume 1](vol-01.md). TSMC increment and packaging are in [Volume 4](vol-04.md) and [Volume 24](vol-24.md). 51% is in [Volume 5](vol-05.md). Gaming cards giving way is in [Volume 1](vol-01.md). This volume does not reopen them. This volume only writes demand as cabinets × BOM. It does not write that a global percentage has already been bought away.
+Profit is in [Volume 1](vol-01.en.md). TSMC increment and packaging are in [Volume 4](vol-04.en.md) and [Volume 24](vol-24.en.md). 51% is in [Volume 5](vol-05.en.md). Gaming cards giving way is in [Volume 1](vol-01.en.md). This volume does not reopen them. This volume only writes demand as cabinets × BOM. It does not write that a global percentage has already been bought away.
 
 ## 3. Push the mechanism forward
 
@@ -70,7 +70,7 @@ FY26 data center $193,737M is the rent the world paid, not a cabinet count. The 
 
 ### 3.3 Makers, packaging, power, the other side
 
-Makers turning to high price: [Volume 5](vol-05.md). The packaging gate: [Volume 24](vol-24.md). Power is not this quarter's cut-supply: [Volume 13](vol-13.md). Three other-side points: [Volume 8](vol-08.md). This volume does not reopen them. The first wave is not auto: see 3.1 above. Why multiply-by-cabinet is honest: see 3.2 above.
+Makers turning to high price: [Volume 5](vol-05.en.md). The packaging gate: [Volume 24](vol-24.en.md). Power is not this quarter's cut-supply: [Volume 13](vol-13.en.md). Three other-side points: [Volume 8](vol-08.en.md). This volume does not reopen them. The first wave is not auto: see 3.1 above. Why multiply-by-cabinet is honest: see 3.2 above.
 
 ### 3.7 Checks that can be tested, not adjectives
 
