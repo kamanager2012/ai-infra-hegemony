@@ -1,6 +1,6 @@
 # Volume 05: HBM, the Memory War, and AI Supply-Chain Restructuring
 
-Chinese original: [vol-05.md](vol-05.md)
+Chinese original: [vol-05.md](vol-05.en.md)
 
 ## 1. Core question
 
@@ -27,7 +27,7 @@ Source 03 in the current evidence review added the Samsung press release and ear
 
 ### 2.2 NVIDIA profit and prepayments: where the cash that locks memory longs comes from
 
-FY26 and supply commitments: [Volume 1](vol-01.md). This volume does not reopen the full table. The 10-K at the same node names Hynix, Micron, and Samsung for memory purchases. It does not split dollars by vendor. There is no line that says "paid Hynix X billion for HBM." The report does not infer one. This volume treats $95.2B to $119.0B as the cash ceiling for locking the next material, not as cash already booked as receipts at Hynix. Multi-year cloud-service commitments are not memory prepayments. Write them apart.
+FY26 and supply commitments: [Volume 1](vol-01.en.md). This volume does not reopen the full table. The 10-K at the same node names Hynix, Micron, and Samsung for memory purchases. It does not split dollars by vendor. There is no line that says "paid Hynix X billion for HBM." The report does not infer one. This volume treats $95.2B to $119.0B as the cash ceiling for locking the next material, not as cash already booked as receipts at Hynix. Multi-year cloud-service commitments are not memory prepayments. Write them apart.
 
 ### 2.3 Official per-cabinet bill of materials and multiply-by-cabinet
 
@@ -43,7 +43,7 @@ Front-end logic is another line. Two B200 dies are about 800 mm² at the reticle
 
 ### 2.4 TSMC HPC 58%: which increment memory follows
 
-The platform table is in [Volume 4](vol-04.md). This volume does not reopen it. What can be confirmeded is that the strongest incremental demand is concentrated in HPC, HBM, and advanced packaging rather than in consumer devices. Memory vendors allocate product mix according to pricing, contract duration, utilization, customer relationships, diversification, and long-run returns; higher-value AI/server demand can therefore reduce the residual capacity available to consumer DRAM. This is a mechanism-level inference, not evidence that commodity supply has already fallen by a fixed percentage. No such fixed 40% reduction enters the fact layer.
+The platform table is in [Volume 4](vol-04.en.md). This volume does not reopen it. What can be confirmeded is that the strongest incremental demand is concentrated in HPC, HBM, and advanced packaging rather than in consumer devices. Memory vendors allocate product mix according to pricing, contract duration, utilization, customer relationships, diversification, and long-run returns; higher-value AI/server demand can therefore reduce the residual capacity available to consumer DRAM. This is a mechanism-level inference, not evidence that commodity supply has already fallen by a fixed percentage. No such fixed 40% reduction enters the fact layer.
 
 ### 2.5 Evidence stack: 51% of bits and Micron's first-party ~3× wafer-supply trade ratio
 
@@ -61,7 +61,7 @@ TrendForce 2026 Q1 foundry revenue: TSMC 72%, Samsung 6.5%, SMIC 5.1%. Instituti
 
 ### 2.6 Sellers are already rich. Buyers cannot cover
 
-The profit comparison is in [Volume 1](vol-01.md). This volume does not reopen it. Clouds bid HBM with profits from software and cloud. NVIDIA bids HBM with profits from selling cabinets. Same slice of material, two bid functions. A scarce-layer value capture means the second function can add a tranche.
+The profit comparison is in [Volume 1](vol-01.en.md). This volume does not reopen it. Clouds bid HBM with profits from software and cloud. NVIDIA bids HBM with profits from selling cabinets. Same slice of material, two bid functions. A scarce-layer value capture means the second function can add a tranche.
 
 ### 2.7 Samsung Memory: maker won, no FX conversion
 
@@ -101,7 +101,7 @@ Source 03 puts the three together and does not promote them to a new number. Hal
 
 ### 3.2 Prepayments lock the next stack, not dies already delivered
 
-Supply commitments: [Volume 1](vol-01.md). It names Hynix, Micron, and Samsung for memory and gives no split. The highest-profit name can add a prepayment tranche. Not yet written as fact: Hynix already a captive fab, 16-Hi stacks bought out in bulk, some contract locking all 2027 HBM. If it is not found, leave it empty. Four-cloud scope: [四云Capex口径核对](四云Capex口径核对.md). Cloud money has other uses. NVIDIA's money is used to lock the next slice of material. On this memory slice, two piles of money bid the same stack line.
+Supply commitments: [Volume 1](vol-01.en.md). It names Hynix, Micron, and Samsung for memory and gives no split. The highest-profit name can add a prepayment tranche. Not yet written as fact: Hynix already a captive fab, 16-Hi stacks bought out in bulk, some contract locking all 2027 HBM. If it is not found, leave it empty. Four-cloud scope: [四云Capex口径核对](四云Capex口径核对.md). Cloud money has other uses. NVIDIA's money is used to lock the next slice of material. On this memory slice, two piles of money bid the same stack line.
 
 ### 3.3 ~3× is a disclosed industry trade ratio, not a universal fab constant
 
@@ -131,7 +131,7 @@ The China market cannot save the HBM allocation of global cabinets. The payer si
 
 ### 3.5 Memory remains an independent constraint even under broader system competition
 
-The three checks and the five interrupts are in [Volume 8](vol-08.md). This volume follows only the third check. Phone makers bind memory residual. They cannot bind the stacks on training cabinets. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs, plus memory longs in real cash. That check is not done yet.
+The three checks and the five interrupts are in [Volume 8](vol-08.en.md). This volume follows only the third check. Phone makers bind memory residual. They cannot bind the stacks on training cabinets. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs, plus memory longs in real cash. That check is not done yet.
 
 ## 4. Scenarios, counterarguments, and testable markers
 
