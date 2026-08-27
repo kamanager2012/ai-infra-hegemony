@@ -1,8 +1,8 @@
 # Volume 29: System-Level Assessment of China's Frontier-AI Parallel Stack
 
-Chinese original: [vol-29.md](vol-29.md)
+Chinese original: [vol-29.md](vol-29.en.md)
 
-The layered China framework is established in [Volume 12](vol-12.md). This volume asks whether the domestic frontier-AI stack closes at the **system level** across accelerator, interconnect, HBM-class memory, advanced packaging, compiler/runtime, deployment scale, and workload performance.
+The layered China framework is established in [Volume 12](vol-12.en.md). This volume asks whether the domestic frontier-AI stack closes at the **system level** across accelerator, interconnect, HBM-class memory, advanced packaging, compiler/runtime, deployment scale, and workload performance.
 
 ## 1. Core question
 
@@ -31,11 +31,11 @@ SuperPoD "thousands of cards" is a claim, not a cabinet. The judgment's official
 
 CANN 8.0 cutting open-source model migration rewrites to under 5% (historical stress-test values) shows that inference and training frameworks can be pointed at PyTorch / vLLM. That solves "can it run." In an NVIDIA cabinet BOM, 40% to 45% is CUDA / TensorRT-LLM / DOCA and brand premium (historical stress-test values). That is pricing power after it already runs. It is an estimate, not a segment filing. It remains outside the first-party fact layer. What CANN has to match is operator coverage, compiler stability, and multi-generation hardware compatibility, not the line count of one migration patch. 5% is a necessary threshold, not a sufficient moat.
 
-Open cross-architecture interfaces can reduce migration cost, but public evidence does not yet show negligible switching cost for frontier workloads across CUDA, CANN, and other stacks. The current China stack is driven by constrained access, domestic demand, strategic autonomy, and improving system capability—not by a demonstrated global cost advantage over CUDA-based frontier systems. A 71.1% to 75.0% pad means it can also cut price. Model firms split into "use its stack" and "pay the cloud bill": [Volume 26](vol-26.md). The current China stack is strongest where constrained access, domestic demand, and strategic autonomy support adoption. That is not the same as demonstrating global frontier-workload migration away from CUDA at low switching cost.
+Open cross-architecture interfaces can reduce migration cost, but public evidence does not yet show negligible switching cost for frontier workloads across CUDA, CANN, and other stacks. The current China stack is driven by constrained access, domestic demand, strategic autonomy, and improving system capability—not by a demonstrated global cost advantage over CUDA-based frontier systems. A 71.1% to 75.0% pad means it can also cut price. Model firms split into "use its stack" and "pay the cloud bill": [Volume 26](vol-26.en.md). The current China stack is strongest where constrained access, domestic demand, and strategic autonomy support adoption. That is not the same as demonstrating global frontier-workload migration away from CUDA at low switching cost.
 
 ## 5. Manufacturing: logic progress does not automatically close HBM and packaging
 
-SADP / SAQP are useful manufacturing mechanisms to discuss, but specific SMIC node and yield assumptions remain unverified here. Multi-patterning trades time, mask count, and overlay error for resolution. Capacity and cost curves differ from single-exposure EUV. Even if logic chips can ship, HBM still has to pass stacks and a base. CXMT "attacking domestic HBM" is progressive tense in historical stress-test material. Prospectus: 0 mentions of HBM. The main line is conventional DRAM. See [Volume 12](vol-12.md). 35 × 10,000 wafers per month is not an announcement. The report does not treat it. Without domestic HBM, a 910C cluster hits the memory-capacity wall first. Interconnect has not had its turn.
+SADP / SAQP are useful manufacturing mechanisms to discuss, but specific SMIC node and yield assumptions remain unverified here. Multi-patterning trades time, mask count, and overlay error for resolution. Capacity and cost curves differ from single-exposure EUV. Even if logic chips can ship, HBM still has to pass stacks and a base. CXMT "attacking domestic HBM" is progressive tense in historical stress-test material. Prospectus: 0 mentions of HBM. The main line is conventional DRAM. See [Volume 12](vol-12.en.md). 35 × 10,000 wafers per month is not an announcement. The report does not treat it. Without domestic HBM, a 910C cluster hits the memory-capacity wall first. Interconnect has not had its turn.
 
 TrendForce 2026 Q1 SMIC share 5.1%. SMIC takes phones, TVs, notebooks, and mature nodes, not Azure / GCP training cabinets. Export control and trust: the third item does not pass. Samsung 6.5% can divert Tesla's long, not domestic cabinets. 16,000 / 24,000 / 40,000 wafers per month are not in any announcement.
 
@@ -45,4 +45,4 @@ DeepSeek used H800 and 278.8 × 10,000 GPU-hours to make 671B / 37B (historical 
 
 ## 7. What this volume does not write
 
-It does not retell the three layers (see [Volume 12](vol-12.md)). It does not reopen the Maia / TPU / Trainium spec table (see [Volume 4](vol-04.md), [Volume 24](vol-24.md)). It does not retell 51% and cabinets-times-spec (see [Volume 5](vol-05.md)). It does not reopen the FY26 and TSMC tables (see [Volume 1](vol-01.md)). It does not write SuperPoD thousands of cards as already-peer cabinets. It does not write a 5% rewrite as already having dug through CUDA.
+It does not retell the three layers (see [Volume 12](vol-12.en.md)). It does not reopen the Maia / TPU / Trainium spec table (see [Volume 4](vol-04.en.md), [Volume 24](vol-24.en.md)). It does not retell 51% and cabinets-times-spec (see [Volume 5](vol-05.en.md)). It does not reopen the FY26 and TSMC tables (see [Volume 1](vol-01.en.md)). It does not write SuperPoD thousands of cards as already-peer cabinets. It does not write a 5% rewrite as already having dug through CUDA.
