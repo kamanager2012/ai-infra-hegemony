@@ -2,7 +2,7 @@
 
 Chinese original: [part2-01.md](part2-01.md)
 
-The full base for the four corners and the margin monopoly: [Volume 1](vol-01.md) and the judgment. This essay is the macro entry. It does not replace Volume 1.
+The full base for the four corners and scarce-layer value capture: [Volume 1](vol-01.en.md) and the judgment. This essay is the macro entry. It does not replace Volume 1.
 
 This essay is the master outline of Part II. First the characterization, then the draft's four-dimension table split into "already happened / extrapolated," then NVIDIA's FY26 press release and 10-K, TSMC's 2025 annual report, and equipment purchases on the four clouds' cash-flow statements, to nail the overall judgment to numbers that can be checked. Four layers written apart: official is what the company itself printed; institutional is a seller or industry-institute compilation; draft is a sentence the book already had, not promoted; calculated is addition and subtraction on official numbers, not a second filing.
 
@@ -28,19 +28,19 @@ The qualitative conclusion the draft already wrote correctly: how compute supply
 
 ### 3.1 Seller anchor
 
-Profit, cash, supply commitments, four corners: [Volume 1](vol-01.md). This essay takes only one sentence: what is already being sold is not a single chip. It is a cabinet factory that can emit tokens continuously. The comparison is not who ships more. It is who, on the act of selling cabinets, can pad whole-cabinet gross margin.
+Profit, cash, supply commitments, four corners: [Volume 1](vol-01.en.md). This essay takes only one sentence: what is already being sold is not a single chip. It is a cabinet factory that can emit tokens continuously. The comparison is not who ships more. It is who, on the act of selling cabinets, can pad whole-cabinet gross margin.
 
 ### 3.2 Foundry anchor
 
-TSMC's books: [Volume 4](vol-04.md). Packaging tightness: [Volume 24](vol-24.md). This essay takes only: increment is in high-performance computing; the short board is packaging. Wafer revenue is not unit count.
+TSMC's books: [Volume 4](vol-04.en.md). Packaging tightness: [Volume 24](vol-24.en.md). This essay takes only: increment is in high-performance computing; the short board is packaging. Wafer revenue is not unit count.
 
 ### 3.3 Buyer anchor
 
-Mixed-year four-cloud: [Volume 8](vol-08.md) and `四云Capex口径核对.md`. This essay takes only: buyer PPE is a group-wide ticket, not an "AI hardware" line item; it cannot be knocked against seller data-center revenue.
+Mixed-year four-cloud: [Volume 8](vol-08.en.md) and `四云Capex口径核对.md`. This essay takes only: buyer PPE is a group-wide ticket, not an "AI hardware" line item; it cannot be knocked against seller data-center revenue.
 
 ## 4. Overall judgment
 
-This essay's overall judgment only nails the unit of measure. It does not reopen the volumes. Margin monopoly: [Volume 1](vol-01.md). Residual: [Volume 5](vol-05.md). Packaging past halfway: [Volume 24](vol-24.md). Cloud ASICs: [Volume 4](vol-04.md). The China stack: [Volume 12](vol-12.md). The five paths and rent: [Volume 8](vol-08.md). The case file: [Volume 11](vol-11.md).
+This essay's overall judgment only nails the unit of measure. It does not reopen the volumes. Scarce-layer value capture: [Volume 1](vol-01.en.md). Residual: [Volume 5](vol-05.en.md). Packaging past halfway: [Volume 24](vol-24.en.md). Cloud system-stack substitution: [Volume 25](vol-25.en.md). The China stack: [Volume 12](vol-12.en.md). The five paths and rent: [Volume 8](vol-08.en.md). The case file: [Volume 11](vol-11.en.md).
 
 How to use the four-dimension table: the left side is a constraint that has already changed the world; the right side is an extrapolation if the constraint is not interrupted by algorithm, power, or a bubble. Any "ten-year megatrend" that cannot give at least two checkable numbers from process quotes, packaging tightness, HBM occupancy, cloud PPE, and campus power should not be written into a judgment.
 
