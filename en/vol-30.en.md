@@ -1,8 +1,8 @@
 # Volume 30: Depreciation Wall, Capital Clearing, and Long-Term Industrial Structure
 
-Chinese original: [vol-30.md](vol-30.md)
+Chinese original: [vol-30.md](vol-30.en.md)
 
-The four-scenario end-state framework is in [Volume 15](vol-15.md), the final strategic synthesis in [Volume 40](vol-40.md), cloud system-stack substitution in [Volume 25](vol-25.md), and China's layered parallel stack in [Volume 12](vol-12.md). This volume focuses on one mechanism: how short-lived compute assets and long-lived infrastructure create different capital-clearing clocks.
+The four-scenario end-state framework is in [Volume 15](vol-15.en.md), the final strategic synthesis in [Volume 40](vol-40.en.md), cloud system-stack substitution in [Volume 25](vol-25.en.md), and China's layered parallel stack in [Volume 12](vol-12.en.md). This volume focuses on one mechanism: how short-lived compute assets and long-lived infrastructure create different capital-clearing clocks.
 
 ## 1. The question this volume answers
 
@@ -21,7 +21,7 @@ Depreciation analysis must separate disclosed accounting data from scenario temp
 
 Four-cloud CapEx is company-wide and uses different fiscal windows and accounting definitions. The 2024 mixed-year reconstruction is roughly **$211.9B–$213.9B**, while the 2025 mixed-year level is roughly **$354.0B–$356.5B**. A fixed **$45B–$55B** annual-depreciation estimate derived from a universal four-year hardware life is therefore only a stress-test template, not a sum of disclosed asset-class schedules. Unverified BOMs, software-premium estimates, monthly CoWoS capacity paths, and fixed SaaS-margin endpoints likewise remain outside the fact layer.
 
-FY26, TSMC 2025, Hynix FY25, NVL72 single-cabinet spec, supply commitments 952→1,190, and the 10% statutory ceiling are already in the judgment and [Volume 1](vol-01.md). This volume does not copy them again.
+FY26, TSMC 2025, Hynix FY25, NVL72 single-cabinet spec, supply commitments 952→1,190, and the 10% statutory ceiling are already in the judgment and [Volume 1](vol-01.en.md). This volume does not copy them again.
 
 ## 3. Mechanism: the depreciation wall decides 2025–2028. It does not automatically decide 2036
 
@@ -29,7 +29,7 @@ A short hardware depreciation schedule primarily affects the years following dep
 
 If the Agents mature period holds and inference cheapens through MLA-class methods, capex may shift from "bid for training fabric" to "buy power and packaging." If Agents miss enterprise ROI, the second capex wave does not come, and bottleneck-party gross margin of 71.1%–75.0% falls first. This volume does not forecast which path happens. What is testable: whether four-cloud group capex falls two years running; whether NVIDIA data-center revenue leaves the FY26 $193,737M magnitude; whether gross margin leaves the 71.1% to 75.0% band. The last two are comparison only, not a forecast.
 
-The depreciation wall and scarce-resource concentration are different mechanisms. Resource concentration asks how incremental CoWoS, leading-edge logic, and HBM are allocated across buyers; the depreciation wall asks when already-deployed PPE becomes expense and whether utilization supports another investment wave. The first mechanism is treated in [Volume 15](vol-15.md); the second is concentrated in the 2025–2028 window for the current build cycle and does not by itself determine 2036.
+The depreciation wall and scarce-resource concentration are different mechanisms. Resource concentration asks how incremental CoWoS, leading-edge logic, and HBM are allocated across buyers; the depreciation wall asks when already-deployed PPE becomes expense and whether utilization supports another investment wave. The first mechanism is treated in [Volume 15](vol-15.en.md); the second is concentrated in the 2025–2028 window for the current build cycle and does not by itself determine 2036.
 
 ## 4. Winner portraits can only be written as functions, not market caps
 
@@ -54,4 +54,4 @@ Prepayments and supply commitments reserve upstream resources; PPE builds halls 
 
 ## 5. What this volume does not write
 
-It does not retell the five interrupts (see the judgment and [Volume 13](vol-13.md), [Volume 11](vol-11.md)). It does not reopen the official Maia / TPU / Trainium / MTIA spec table ([Volume 4](vol-04.md)). It does not collapse China's layered parallel stack into a single substitution claim ([Volume 12](vol-12.md)), and it does not treat seller-side Data Center revenue as a universal measure of global compute economics ([Volume 8](vol-08.md)). It does not write 2036 as a timetable already issued.
+It does not retell the five interrupts (see the judgment and [Volume 13](vol-13.en.md), [Volume 11](vol-11.en.md)). It does not reopen the official Maia / TPU / Trainium / MTIA spec table ([Volume 4](vol-04.en.md)). It does not collapse China's layered parallel stack into a single substitution claim ([Volume 12](vol-12.en.md)), and it does not treat seller-side Data Center revenue as a universal measure of global compute economics ([Volume 8](vol-08.en.md)). It does not write 2036 as a timetable already issued.
