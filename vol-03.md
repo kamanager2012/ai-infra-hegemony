@@ -31,13 +31,13 @@ GB200 NVL72 官方配置：
 
 如果 rack 出货量为 (R)，则仅内存需求就满足：
 
-[
+```text
 HBM = 13.4 	ext{TB} 	imes R
-]
+```
 
-[
+```text
 LPDDR = 17 	ext{TB} 	imes R
-]
+```
 
 因此：
 
@@ -73,10 +73,10 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 
 报告使用一个 D 级几何压力测试：
 
-[
-72 	ext{GPU packages} div 13.4 	ext{packages/wafer}
-approx 5.39 	ext{CoWoS wafers/rack}
-]
+```text
+72 	ext{GPU packages} ÷ 13.4 	ext{packages/wafer}
+≈ 5.39 	ext{CoWoS wafers/rack}
+```
 
 其中：
 
@@ -88,9 +88,9 @@ approx 5.39 	ext{CoWoS wafers/rack}
 
 因此绝不能使用：
 
-[
-15M 	ext{TSMC annual wafers} div 5.39
-]
+```text
+15M 	ext{TSMC annual wafers} ÷ 5.39
+```
 
 来推导全球可生产多少 rack。TSMC 全年 wafer shipments 包含大量 smartphone、automotive、IoT 和 mature-node 产品，物理池完全不同。
 
