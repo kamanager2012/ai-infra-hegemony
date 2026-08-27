@@ -29,7 +29,7 @@ Buyer CapEx and seller supply commitments must therefore remain separate account
 
 ### 3.2 The four official spec sheets are not reopened in this volume
 
-Foundry and memory sentences for the four firms: [Volume 4](vol-04.md). This volume does not reopen the spec table. It only takes apart which layer the in-house chip stops on, and whether Samsung's long contract is a four-cloud diversion.
+Foundry and memory sentences for the four firms: [Volume 4](vol-04.en.md). This volume does not reopen the spec table. It only takes apart which layer the in-house chip stops on, and whether Samsung's long contract is a four-cloud diversion.
 
 Meta's first two generations are the official sample that recommendation ranking used: TSMC 5nm plus off-chip LPDDR. They did not have to bid for full-output HBM from the first day. Once the job became generative inference, the same company wrote bandwidth as the most important factor and publicly added memory stacks. Recommendation can stop on commodity-class memory. Generative cannot. The cloud war this volume discusses has its main battlefield on training cabinets and generative inference, not recommendation ranking. Using the first two generations to prove "a retreat is possible" is the wrong battlefield.
 
@@ -57,7 +57,7 @@ Samsung foundry share in 2026 Q1 was 6.5%, with TSMC still dominant. Samsung's l
 
 ### 3.8 No sentence was found that says "retreat to 5nm plus commodity memory as the inference mainstay"
 
-The search result is in [Volume 4](vol-04.md). This volume does not reopen it. The direction that was read is the opposite. To beat today's cabinet you return to 3nm, HBM, and advanced packaging. Public next-generation parts have not stopped.
+The search result is in [Volume 4](vol-04.en.md). This volume does not reopen it. The direction that was read is the opposite. To beat today's cabinet you return to 3nm, HBM, and advanced packaging. Public next-generation parts have not stopped.
 
 ### 3.9 Depreciation capacity freed on 5nm is a hypothesis, not a product roadmap
 
@@ -77,7 +77,7 @@ If cloud in-house chips keep writing HBM, they walk into the same demand river o
 
 ### 3.11 A domestic grid does not save this volume's foundry question
 
-China's stack: [Volume 12](vol-12.md). China's parallel stack does not currently provide an equivalent foundry path for the four Western hyperscalers' frontier systems.
+China's stack: [Volume 12](vol-12.en.md). China's parallel stack does not currently provide an equivalent foundry path for the four Western hyperscalers' frontier systems.
 
 ### 3.12 The conditions that would interrupt are not done
 
