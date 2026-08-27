@@ -1,12 +1,12 @@
 # Volume 32: NVIDIA deep teardown (full-stack architecture, NVLink 5.0, PTX, and the GB200 NVL72 BOM)
 
-Chinese original: [vol-32.md](vol-32.md)
+Chinese original: [vol-32.md](vol-32.en.md)
 
-The mechanism core of athlete plus referee among the four corners is in [Volume 2](vol-02.md). Cloud ASIC specs are in [Volume 4](vol-04.md). This volume does not reopen those two tables. This volume only tears down: is the moat welding 72 cards into one unified memory, and which cells of the draft BOM must stay estimates.
+The mechanism core of athlete plus referee among the four corners is in [Volume 2](vol-02.en.md). Cloud ASIC specs are in [Volume 4](vol-04.en.md). This volume does not reopen those two tables. This volume only tears down: is the moat welding 72 cards into one unified memory, and which cells of the draft BOM must stay estimates.
 
 ## 1. The question this volume answers
 
-Is the moat the Blackwell die, or the ability to weld 72 cards into one unified memory and then collect a software premium in the quote? The draft pressed the answer onto one NVL72 BOM: the die is only 10% to 12%, software and brand premium 40% to 45%, whole-cabinet ASP $2.60 million to $3.30 million. The audit has already knocked that table down. It cannot be treated as an official teardown. This volume answers with the judgment's four corners and official sentences from [Volume 4](vol-04.md). It does not promote a supply-chain estimate into a 10-K.
+Is the moat the Blackwell die, or the ability to weld 72 cards into one unified memory and then collect a software premium in the quote? The draft pressed the answer onto one NVL72 BOM: the die is only 10% to 12%, software and brand premium 40% to 45%, whole-cabinet ASP $2.60 million to $3.30 million. The audit has already knocked that table down. It cannot be treated as an official teardown. This volume answers with the judgment's four corners and official sentences from [Volume 4](vol-04.en.md). It does not promote a supply-chain estimate into a 10-K.
 
 The ask splits into three sentences, one corner each. Athlete: the revenue bulk is still on cabinets; the sales unit has already moved from the chip up to the whole cabinet. Referee: CUDA, PTX, NVLink, and the cabinet standard are interfaces that exist; with no replaceable intermediate representation, the referee seat is still there. Coach: the roadmap walks HBM, CoWoS, and the NVLink mix; prepayments lock the increment behind the first name. The model player is written as structure only: Nemotron / NeMo / NIM exist, with no revenue split, and are not written as a second profit pool.
 
@@ -40,15 +40,15 @@ Company financial control (draft numbers): FY25 revenue $130,497 million, data c
 
 The frame and the discussion have already replaced FY25 from a fuzzy range with a point estimate (frame-checked; this volume did not pull the 10-K separately): revenue $130,497 million, data center $115,186 million, gross margin 75.0%; Compute & Networking $116,193 million; Gaming $11,350 million, Automotive $1,694 million. Q4 FY25 data center $35,580 million, Blackwell $11.0B that quarter, CSPs about 50% of that quarter's data-center revenue. Gaming that quarter -11% year on year, -22% sequentially, official reason limited supply for both Blackwell and Ada GPUs. FY25 Capex $2.98B was not re-checked in the CFO Commentary this pass. Keep it marked draft.
 
-Profit cash and supply commitments are in [Volume 1](vol-01.md). This volume does not recopy the table.
+Profit cash and supply commitments are in [Volume 1](vol-01.en.md). This volume does not recopy the table.
 
-TSMC's books are in [Volume 4](vol-04.md). Packaging tightness is in [Volume 24](vol-24.md). Sell-side research estimates NVIDIA at about 60% / 595k–630k wafers of 2026 CoWoS. TSMC has no split.
+TSMC's books are in [Volume 4](vol-04.en.md). Packaging tightness is in [Volume 24](vol-24.en.md). Sell-side research estimates NVIDIA at about 60% / 595k–630k wafers of 2026 CoWoS. TSMC has no split.
 
-One official cabinet: 72 GPUs, 36 Grace, HBM 13.4 TB, LPDDR 17 TB. The estimate pool is in [Volume 16](vol-16.md) and [Volume 24](vol-24.md). Two B200s about 800 mm² at reticle limit (Electronic Design / IEEE Spectrum). H100 814 mm² (NVIDIA blog).
+One official cabinet: 72 GPUs, 36 Grace, HBM 13.4 TB, LPDDR 17 TB. The estimate pool is in [Volume 16](vol-16.en.md) and [Volume 24](vol-24.en.md). Two B200s about 800 mm² at reticle limit (Electronic Design / IEEE Spectrum). H100 814 mm² (NVIDIA blog).
 
-Four-cloud scope is in [Volume 8](vol-08.md). The docket is in [Volume 11](vol-11.md).
+Four-cloud scope is in [Volume 8](vol-08.en.md). The docket is in [Volume 11](vol-11.en.md).
 
-Cloud-custom chip specs are in [Volume 4](vol-04.md). The Samsung long is Tesla, in [Volume 25](vol-25.md). This draft found no cloud saying it is retreating to 5nm plus commodity fifth-generation double data rate as the inference mainstay.
+Cloud-custom chip specs are in [Volume 4](vol-04.en.md). The Samsung long is Tesla, in [Volume 25](vol-25.en.md). This draft found no cloud saying it is retreating to 5nm plus commodity fifth-generation double data rate as the inference mainstay.
 
 ## 3. Dig into the mechanism (physics / business / geopolitics)
 
@@ -64,21 +64,21 @@ Backdoors / stolen training data are allegations. There is no public forensics. 
 
 Analysis add. Profit is not in the die, it is in the system. That direction can stay. What cannot hold that direction up is the $2.60 million to $3.30 million teardown table. The 10-K does not split die, HBM, CoWoS, Switch, copper, liquid cooling, and software premium that way. Single-switch-chip gross margin >85% has no matching segment filing. Software premium 40% to 45% is also not the audited counterpart of Compute & Networking. FY25 Compute & Networking $116,193 million is the neighboring segment. It contains interconnect hardware. It is not the "software tax" cell.
 
-Gross margin fell from 75.0% to 71.1%. The company itself wrote an H20 inventory charge. It is not "the software premium has already collapsed." Q4 was back to 75.0%. After the charge, seller fat is still at this level. Profit cash is in [Volume 1](vol-01.md). Hypothesis from here: while the margin holds at this level, commitments keep rising. Anyone else who wants the same material pays more, or does not get it.
+Gross margin fell from 75.0% to 71.1%. The company itself wrote an H20 inventory charge. It is not "the software premium has already collapsed." Q4 was back to 75.0%. After the charge, seller fat is still at this level. Profit cash is in [Volume 1](vol-01.en.md). Hypothesis from here: while the margin holds at this level, commitments keep rising. Anyone else who wants the same material pays more, or does not get it.
 
-One-quarter operating-income scale against Intel is in [Volume 1](vol-01.md). Four-cloud scope is in [Volume 8](vol-08.md). Do not knock seller revenue against buyer capex. Do not write supply commitments as already having bought all advanced packaging. What can be written: cash has already gone out ahead of the slot. Some agreements can be rescheduled. Reschedule is not cancel. Q4 FY25 only says cloud-service providers were about 50% of that quarter's data-center revenue. There is no full-year split. Sovereign, enterprise self-build, and contract-manufactured cabinets are the other half. The athlete is still collecting. The referee is still there.
+One-quarter operating-income scale against Intel is in [Volume 1](vol-01.en.md). Four-cloud scope is in [Volume 8](vol-08.en.md). Do not knock seller revenue against buyer capex. Do not write supply commitments as already having bought all advanced packaging. What can be written: cash has already gone out ahead of the slot. Some agreements can be rescheduled. Reschedule is not cancel. Q4 FY25 only says cloud-service providers were about 50% of that quarter's data-center revenue. There is no full-year split. Sovereign, enterprise self-build, and contract-manufactured cabinets are the other half. The athlete is still collecting. The referee is still there.
 
 ### 3.3 Demand multiplies by cabinet. The binding line is packaging
 
-Analysis add. What this volume can write is not a BOM dollar teardown. It is this multiplication: demand is cabinet count times 13.4 terabytes of high-bandwidth memory, not a FLOPs slogan. The estimate pool is in [Volume 16](vol-16.md) and [Volume 24](vol-24.md). Residual is in [Volume 5](vol-05.md). These are demand figures multiplied from a hypothetical cabinet count, not disclosed sales.
+Analysis add. What this volume can write is not a BOM dollar teardown. It is this multiplication: demand is cabinet count times 13.4 terabytes of high-bandwidth memory, not a FLOPs slogan. The estimate pool is in [Volume 16](vol-16.en.md) and [Volume 24](vol-24.en.md). Residual is in [Volume 5](vol-05.en.md). These are demand figures multiplied from a hypothetical cabinet count, not disclosed sales.
 
 Q4 Blackwell $11.0B that quarter says the increment is already counted by whole generation, not by single card. Gaming cards themselves write limited supply. The consumer end is already giving way to the data center. Wafers, advanced packaging, and HBM feed the data center at 71.1% to 75.0% gross margin first. This is a public financial write-up. You do not have to wait for demand to peak, and you do not have to invent "how many tens of thousands of gaming cards have already been cut."
 
-### 3.4 Cloud ASICs hit the die. Public next generations have not dodged the scarce slice
+### 3.4 Cloud system stacks attack chips, interconnect, software, and rack economics while still sharing scarce upstream resources
 
-The spec table is in [Volume 4](vol-04.md). This volume does not reopen it. Even on the draft BOM, the die is only 10% to 12%. A cloud ASIC that matches Blackwell at the transistor layer still only attacks 1/10 of that estimate table. HBM is the largest hardware line (draft $580k to $680k, 20% to 23%). CoWoS-L then takes $150k to $200k. Without stack and interposer quota, cloning one GPU still cannot assemble 13.4 TB. The BOM is not official. The direction matches the official spec: what public next generations themselves add is HBM, not a de-spec to commodity DRAM. About 820 mm² and H100's 814 mm² sit near the same reticle-limit band. They are not "small chips dodging packaging."
+The spec table is in [Volume 4](vol-04.en.md). This volume does not reopen it. Even on the draft BOM, the die is only 10% to 12%. A cloud ASIC that matches Blackwell at the transistor layer still only attacks 1/10 of that estimate table. HBM is the largest hardware line (draft $580k to $680k, 20% to 23%). CoWoS-L then takes $150k to $200k. Without stack and interposer quota, cloning one GPU still cannot assemble 13.4 TB. The BOM is not official. The direction matches the official spec: what public next generations themselves add is HBM, not a de-spec to commodity DRAM. About 820 mm² and H100's 814 mm² sit near the same reticle-limit band. They are not "small chips dodging packaging."
 
-Die-level versus cabinet-level, and the two paths that once used commodity memory, are below in 3.8 and 3.9. The Samsung long is Tesla, not the four clouds, in [Volume 25](vol-25.md).
+Die-level versus cabinet-level, and the two paths that once used commodity memory, are below in 3.8 and 3.9. The Samsung long is Tesla, not the four clouds, in [Volume 25](vol-25.en.md).
 
 ### 3.5 The referee seat is an interface, not a 40% to 45% audited figure
 
@@ -90,22 +90,22 @@ Copper is a power strategy, not nostalgia. 5000+ passive copper cables, 20 kW sa
 
 ### 3.6 Asset-light against a heavy cabinet. The chokepoint is not the whole-system CM
 
-Analysis add. FY25 Capex $2.98B is a draft number, not re-checked this pass. Four-cloud mixed-year scope is in [Volume 8](vol-08.md). Do not use "AI-specific $215B." Asset-light versus asset-heavy still holds: the seller sets its own Capex against the buyer group's Capex. NVIDIA leaves multi-year depreciation and 120 kW interconnection risk to the buyer, and keeps 71.1% to 75.0% gross margin for itself. ODMs (Foxconn / Quanta) take only the draft's $50k to $75k of final assembly, 1.8% to 2.5% share. What can choke NVIDIA on the supply chain is TSMC advanced logic and CoWoS quota, plus the three HBM makers, not the whole-system CM. What Dell, Lenovo, Quanta, and Foxconn can become is whole-system contract manufacturing (an Apple-to-Foxconn structure), not a wafer fab. That is a scenario, not an already-announced list.
+Analysis add. FY25 Capex $2.98B is a draft number, not re-checked this pass. Four-cloud mixed-year scope is in [Volume 8](vol-08.en.md). Do not use "AI-specific $215B." Asset-light versus asset-heavy still holds: the seller sets its own Capex against the buyer group's Capex. NVIDIA leaves multi-year depreciation and 120 kW interconnection risk to the buyer, and keeps 71.1% to 75.0% gross margin for itself. ODMs (Foxconn / Quanta) take only the draft's $50k to $75k of final assembly, 1.8% to 2.5% share. What can choke NVIDIA on the supply chain is TSMC advanced logic and CoWoS quota, plus the three HBM makers, not the whole-system CM. What Dell, Lenovo, Quanta, and Foxconn can become is whole-system contract manufacturing (an Apple-to-Foxconn structure), not a wafer fab. That is a scenario, not an already-announced list.
 
-Geopolitics: foundry and packaging in Taiwan, high-bandwidth memory in Korea, system definition at NVIDIA. Export control can change an accelerator's spec suffix. It cannot change the BOM structure. The official spec is still 13.4 terabytes of high-bandwidth memory plus advanced packaging. The China stack is in [Volume 12](vol-12.md).
+Geopolitics: foundry and packaging in Taiwan, high-bandwidth memory in Korea, system definition at NVIDIA. Export control can change an accelerator's spec suffix. It cannot change the BOM structure. The official spec is still 13.4 terabytes of high-bandwidth memory plus advanced packaging. The China stack is in [Volume 12](vol-12.en.md).
 
 ### 3.7 None of the five interrupts is done
 
-The five interrupts are in [Volume 8](vol-08.md). The docket is in [Volume 11](vol-11.md). The most direct interrupt for this volume is cloud-custom chips taking training away. Public next generations have not taken it away. They have walked into the same slice of material. See [Volume 4](vol-04.md). The window is the few years before the next first-to-market node is locked by commitments.
+The five interrupts are in [Volume 8](vol-08.en.md). The docket is in [Volume 11](vol-11.en.md). The most direct interrupt for this volume is cloud-custom chips taking training away. Public next generations have not taken it away. They have walked into the same slice of material. See [Volume 4](vol-04.en.md). The window is the few years before the next first-to-market node is locked by commitments.
 
 
 ### 3.8 Die-level memory does not match cabinet-level demand. The direction is the same line
 
-Analysis add. [Volume 4](vol-04.md) nails memory per chip. The judgment nails one cabinet. The spec table is in [Volume 4](vol-04.md). The two sets cannot be subtracted directly. The direction can still match. Die-level is tens to a bit over two hundred GB. Cabinet-level is the official NVL72 13.4 TB HBM plus 17 TB LPDDR. The gap is 72 packages and the fabric, not "the clouds have already replaced the whole cabinet with commodity DIMMs."
+Analysis add. [Volume 4](vol-04.en.md) nails memory per chip. The judgment nails one cabinet. The spec table is in [Volume 4](vol-04.en.md). The two sets cannot be subtracted directly. The direction can still match. Die-level is tens to a bit over two hundred GB. Cabinet-level is the official NVL72 13.4 TB HBM plus 17 TB LPDDR. The gap is 72 packages and the fabric, not "the clouds have already replaced the whole cabinet with commodity DIMMs."
 
 The 1.77 PB in the Ironwood software-stack write-up is a cluster total, not a single-cabinet control. Trainium3 UltraServer is written as cabinet-scale or super-cabinet-scale. The memory type is still HBM3e, not DDR5. What all four add is capacity and bandwidth, not a de-spec. This volume does not sum die-level GB into "how many cabinets cloud ASICs have already replaced." There are no shipments. A sum has no meaning.
 
-Cabinet count times spec is in [Volume 16](vol-16.md). Residual is in [Volume 5](vol-05.md). These numbers only say: as long as whole cabinets still ship at this spec, high-bandwidth memory and commodity memory are both pulled away by the cabinet. If the clouds move inference at scale onto custom chips plus traditional fifth-generation double data rate, and stop bidding against NVIDIA for full HBM output, that is the only physical upside of this path. What they are adding, though, is the residual slice that is already rising. You can still buy it. The price is higher. Not a dead end. A tax. Public next generations have not chosen this path.
+Cabinet count times spec is in [Volume 16](vol-16.en.md). Residual is in [Volume 5](vol-05.en.md). These numbers only say: as long as whole cabinets still ship at this spec, high-bandwidth memory and commodity memory are both pulled away by the cabinet. If the clouds move inference at scale onto custom chips plus traditional fifth-generation double data rate, and stop bidding against NVIDIA for full HBM output, that is the only physical upside of this path. What they are adding, though, is the residual slice that is already rising. You can still buy it. The price is higher. Not a dead end. A tax. Public next generations have not chosen this path.
 
 ### 3.9 The two paths that once used commodity memory are both leaving
 
@@ -119,11 +119,11 @@ Microsoft never walked a commodity-DRAM generation. Maia 100 was already 5nm plu
 
 ### 3.10 Prepayments are reproduction. Buyer capex builds halls
 
-Analysis add. Two hundred-billion checks are not the same thing. Profit cash and supply commitments are in [Volume 1](vol-01.md). Four-cloud scope is in [Volume 8](vol-08.md). The depreciation wall is in [Volume 30](vol-30.md). The seller presses cash already earned back into the scarce slice, so the next slot recognizes itself first. The buyer's check builds halls. Cloud-custom chips hit the die. They do not hit the cash used to prepay. If a breakout only replaces single-card FLOPs, bidding power stays on the margin side.
+Analysis add. Two hundred-billion checks are not the same thing. Profit cash and supply commitments are in [Volume 1](vol-01.en.md). Four-cloud scope is in [Volume 8](vol-08.en.md). The depreciation wall is in [Volume 30](vol-30.en.md). The seller presses cash already earned back into the scarce slice, so the next slot recognizes itself first. The buyer's check builds halls. Cloud-custom chips hit the die. They do not hit the cash used to prepay. If a breakout only replaces single-card FLOPs, bidding power stays on the margin side.
 
 ### 3.11 Booked 19% is not a safe distance. The increment has already tilted
 
-Analysis add. TSMC's books are in [Volume 4](vol-04.md). Packaging tightness is in [Volume 24](vol-24.md). Booked 19% is not a safe distance. What is being opened is HPC and packaging. However large Apple is, it locks phone logic. The window is not waiting for the book to hit 50%. It is the few years before the next first-to-market node is locked by commitments. The parallel line now catching is Tesla, not the four clouds' cabinets. See [Volume 25](vol-25.md).
+Analysis add. TSMC's books are in [Volume 4](vol-04.en.md). Packaging tightness is in [Volume 24](vol-24.en.md). Booked 19% is not a safe distance. What is being opened is HPC and packaging. However large Apple is, it locks phone logic. The window is not waiting for the book to hit 50%. It is the few years before the next first-to-market node is locked by commitments. The parallel line now catching is Tesla, not the four clouds' cabinets. See [Volume 25](vol-25.en.md).
 
 ### 3.12 Gaming-card limited supply is athlete behavior that can be written today
 
@@ -135,22 +135,22 @@ Professional cards take it on the chin. After the sales unit moved up, DGX / who
 
 ### 3.13 To take training away, which pieces have to be done at once
 
-Analysis add. The judgment writes "cloud ASICs take training away" as one of the five interrupts, and adds a parenthesis: not only an inference shunt. This volume splits that sentence with [Volume 4](vol-04.md). The inference shunt has already happened: Inferentia, Maia, TPU v6e, and the first two MTIA generations are all public products on the inference or recommendation side. Whether training has been taken away is not whether a self-designed chip exists. It is whether training still needs a high-bandwidth fabric, HBM, and advanced packaging, and whether compile still has to pass CUDA / PTX / the deploy stack.
+Analysis add. The judgment writes "cloud ASICs take training away" as one of the five interrupts, and adds a parenthesis: not only an inference shunt. This volume splits that sentence with [Volume 4](vol-04.en.md). The inference shunt has already happened: Inferentia, Maia, TPU v6e, and the first two MTIA generations are all public products on the inference or recommendation side. Whether training has been taken away is not whether a self-designed chip exists. It is whether training still needs a high-bandwidth fabric, HBM, and advanced packaging, and whether compile still has to pass CUDA / PTX / the deploy stack.
 
 On official pages, the training side has not been taken away. Trainium3 is written as 3nm plus HBM3e. Ironwood is written as 192 GB HBM3E; the software-stack write-up writes 1.77 PB directly addressable. Maia 200 is written as N3 plus HBM3e; the company main blog places it on inference; a deep look is still the same slice of material. The MTIA 300 generation adds HBM stacks for GenAI inference. No firm writes "training moves to 5nm plus commodity DDR5." No firm writes "training no longer needs advanced packaging." CoWoS share and TCO savings that third parties often write do not enter the fact layer.
 
 All have to be done at once before it is an interrupt: the self-designed chip no longer queues the same CoWoS and the same class of HBM; the self-designed fabric no longer accepts RoCE's communication penalty, or accepts the penalty and still reaches an acceptable MFU in production; the compiler stack no longer leaves the switching tax on CUDA / PTX. Miss one of the three and the athlete or the referee is still there. Replacing only single-card FLOPS, bidding power stays on the 71.1% to 75.0% side. Prepayments keep rising. Anyone else who wants the same material pays more, or does not get it.
 
-Power, a second bid in the East, and a split or a forced-open CUDA are the other three. See [Volume 8](vol-08.md), [Volume 13](vol-13.md), [Volume 11](vol-11.md). This volume does not open them. What the China stack can catch is people who cannot buy NVIDIA, not tearing global labs off CUDA. See [Volume 12](vol-12.md).
+Power, a second bid in the East, and a split or a forced-open CUDA are the other three. See [Volume 8](vol-08.en.md), [Volume 13](vol-13.en.md), [Volume 11](vol-11.en.md). This volume does not open them. What the China stack can catch is people who cannot buy NVIDIA, not tearing global labs off CUDA. See [Volume 12](vol-12.en.md).
 
 
 ### 3.14 This volume does not collapse the four corners into a single rent, and it does not start a counter-story
 
 Analysis add. The four corners holding at once does not mean the world's AI bill all enters NVIDIA's 10-K. FY26 data center $193,737 million is the rent the seller has confirmed, not global AI spend. Model-firm APIs, cloud-customer bills, application distribution, the grid, and China's sovereign stack do not automatically merge into this cell. CSPs about 50% of Q4 FY25 data-center revenue means half of that quarter was not these four clouds. Sovereign, enterprise self-build, and OEM cabinets: the athlete is still collecting, the referee is still there. Volume 26 cannot be written as "only three labs × four clouds." Neither can this volume.
 
-The other way: a buyer large enough does not automatically weaken the four corners. Microsoft Intelligent Cloud $106,265 million, 2025 mixed-year four-cloud group capex about $354.0–356.5B, proves buyers can pay. It does not prove buyers, selling cabinets, can outbid 71.1% to 75.0%. If a self-designed chip still has to pass CUDA / PTX / the deploy stack, the referee seat is still there. If training still needs a high-bandwidth fabric and HBM, the athlete's whole cabinet is still there. The public next generation read in [Volume 4](vol-04.md) is exactly the second sentence. Nemotron / NeMo / NIM exist. That is a reach of power: others train on its stack, and it sells adjacent model services. There is no revenue split. Do not write "models have become a second profit pool." The conflict with independent labs is structure: the referee sets what can run, the athlete sells the cabinet needed to run it, and the model player then ships competing weights on the same stack. All three can be true at once.
+The other way: a buyer large enough does not automatically weaken the four corners. Microsoft Intelligent Cloud $106,265 million, 2025 mixed-year four-cloud group capex about $354.0–356.5B, proves buyers can pay. It does not prove buyers, selling cabinets, can outbid 71.1% to 75.0%. If a self-designed chip still has to pass CUDA / PTX / the deploy stack, the referee seat is still there. If training still needs a high-bandwidth fabric and HBM, the athlete's whole cabinet is still there. The public next generation read in [Volume 4](vol-04.en.md) is exactly the second sentence. Nemotron / NeMo / NIM exist. That is a reach of power: others train on its stack, and it sells adjacent model services. There is no revenue split. Do not write "models have become a second profit pool." The conflict with independent labs is structure: the referee sets what can run, the athlete sells the cabinet needed to run it, and the model player then ships competing weights on the same stack. All three can be true at once.
 
-So the teardown's conclusion is not "NVIDIA has already collected all the rent." It is "the allocation now visible is still walking past half of the scarce slice." It lands on the cabinet itself: spec times cabinet count is demand; public ASICs have not changed the spec; prepayments are still rising. The five are in [Volume 8](vol-08.md). Numbers only reuse the judgment, [Volume 4](vol-04.md), and what the draft already had.
+So the teardown's conclusion is not "NVIDIA has already collected all the rent." It is "the allocation now visible is still walking past half of the scarce slice." It lands on the cabinet itself: spec times cabinet count is demand; public ASICs have not changed the spec; prepayments are still rising. The five are in [Volume 8](vol-08.en.md). Numbers only reuse the judgment, [Volume 4](vol-04.en.md), and what the draft already had.
 
 ## 4. Analysis added (scenarios, counters, testable indicators)
 
@@ -192,7 +192,7 @@ Testable; fill when there is a number:
 - CoWoS monthly capacity 13k → 130k, NVIDIA exclusive 60%/70%, is not a TSMC split. 5.39 wafers per cabinet, 100k cabinets taking more than half the packaging line, are estimates, not TSMC's books.
 - Google and AWS latest-generation official pages do not name TSMC and do not name Broadcom. Third-party TSMC N3P, Broadcom, and CoWoS share do not enter the fact layer. Meta's 300 generation does not name 3nm.
 - No cloud was found saying it is retreating to 5nm plus commodity DDR5 as the inference mainstay. No official sentence was found saying "already left TSMC." Invent neither end.
-- NVL72 dollars per cabinet, how many percent TCO an ASIC saves, how many percent of CoWoS Broadcom takes: the companies themselves do not say this on the pages listed in [Volume 4](vol-04.md). Do not write them.
+- NVL72 dollars per cabinet, how many percent TCO an ASIC saves, how many percent of CoWoS Broadcom takes: the companies themselves do not say this on the pages listed in [Volume 4](vol-04.en.md). Do not write them.
 - Samsung 16k / 24k / 40k wafers per month, CXMT 350k wafers per month, SMIC plus CXMT plus YMTC combined monthly capacity: no announcement. Do not write them.
 - Microsoft becoming a software-and-games brand, hardware left only to NVIDIA: it conflicts with Intelligent Cloud $106,265 million. Delete. Sony thinning is another scenario.
 - OpenAI / Anthropic compute contracts, reservations, revenue share: empty.
