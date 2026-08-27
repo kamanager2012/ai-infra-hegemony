@@ -39,15 +39,14 @@ Microsoft、Amazon、Alphabet、Meta 的 CapEx 是买方资本支出。
 
 NVIDIA Data Center revenue 是卖方收入。
 
-FY26：
+关键财务锚如下：
 
-- Data Center revenue：**$193.737B**
-- Free cash flow：**$96.575B**
-
-FY27 Q2：
-
-- Data Center revenue：**$89.0B**
-- GAAP operating income：**$63.734B**
+| 指标 | 数值 |
+|---|---:|
+| FY26 Data Center revenue | **$193.737B** |
+| FY26 Free cash flow | **$96.575B** |
+| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY27 Q2 GAAP operating income | **$63.734B** |
 
 这说明 system platform 可以留下非常高比例的价值。
 
@@ -210,11 +209,11 @@ Micron 的 ~3× wafer-supply trade ratio 又说明 HBM 对 manufacturing input �
 
 从买方到上游，大致形成：
 
-Hyperscaler / model company  
-→ system platform  
-→ foundry / memory / packaging  
-→ equipment / materials  
-→ power / data-center infrastructure。
+> Hyperscaler / model company  
+> → system platform  
+> → foundry / memory / packaging  
+> → equipment / materials  
+> → power / data-center infrastructure。
 
 但这条链不是单向。
 
