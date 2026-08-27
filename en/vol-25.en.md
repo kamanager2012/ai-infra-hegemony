@@ -81,9 +81,9 @@ China's stack: [Volume 12](vol-12.md). China's parallel stack does not currently
 
 ### 3.12 The conditions that would interrupt are not done
 
-Acting alone means handing over each year's new lines and packaging. To change the allocation, the judgment writes three checks bound together: prepayments large enough that the foundry cannot recognize only one buyer; software bound into one stack, with open accelerator interfaces as a seed; memory longs that leave a line for commodity bits. If one remains weak, the counterweight to concentrated allocation is correspondingly weaker. The five interrupts are in the judgment and in [Volume 8](vol-08.md). What this volume can test is whether official pages still write HBM, and whether a Samsung announcement names a second cloud. Until those two sentences change, in-house chips are still inside the scarce slice.
+A credible counterweight to concentrated allocation requires several mechanisms to improve together: stronger long-duration purchasing power, lower cross-stack switching cost, and more diversified memory and packaging supply. In-house systems can divert platform profit while still competing for the same HBM, advanced logic, packaging, and power. The key test is whether those upstream dependencies materially decline.
 
-## 4. Added analysis (scenarios, objections, testable checks)
+## 4. Scenarios, objections, and testable checks
 
 Scenario quantities remain conditional and do not enter the fact layer.
 
