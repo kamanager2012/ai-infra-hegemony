@@ -40,9 +40,9 @@ This checklist separates research completion from publication operations. A chec
 
 ## 4. Final release verification
 
-- [ ] Re-read the remote `LICENSE`, `README.md`, `README.zh-CN.md`, `CITATION.cff`, `CONTRIBUTING.md`, `RELEASE_NOTES.md`, and `en/SHARE.md` after the final licensing commit.
-- [ ] Re-run the 40 + 8 English publication regression after the final release commit.
-- [ ] Verify all root and English index links from the remote repository.
+- [x] Re-read the remote `LICENSE`, `README.md`, `README.zh-CN.md`, `CITATION.cff`, `CONTRIBUTING.md`, `RELEASE_NOTES.md`, and `en/SHARE.md` after the final licensing commit.
+- [x] Re-run the 40 + 8 English publication regression after the final licensing/release-preparation commit.
+- [x] Verify all root and English index links from the remote repository.
 - [ ] Verify the repository is public only after all hard gates pass.
 - [ ] Create the public GitHub release from the verified release commit.
 - [ ] Publish external launch copy only after the public URL and release tag resolve correctly.
