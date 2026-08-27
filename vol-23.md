@@ -36,7 +36,7 @@ Micron FY25 10-K 又确认：
 
 ## 3. 为什么 HBM bit share 会低估制造压力
 
-假设 HBM 的 bit share 为 (x)，而同 bit wafer input 高于 conventional DRAM，那么：
+假设 HBM 的 bit share 为 (x)，且同 bit wafer input 高于 conventional DRAM，则：
 
 [
 Manufacturing share > Bit share
