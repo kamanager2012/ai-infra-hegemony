@@ -1,6 +1,6 @@
 # 第八卷：AI 基础设施超级周期、CapEx 与折旧压力
 
-## 1. 本轮资本周期的核心不是“总投资到底是多少”
+## 1. 资本周期的核心不是“总投资到底是多少”
 
 Microsoft、Amazon、Alphabet、Meta 的 AI/data-center 投资已经进入历史高位。
 
@@ -12,18 +12,22 @@ Microsoft、Amazon、Alphabet、Meta 的 AI/data-center 投资已经进入历史
 2. IT equipment 与 data-center/power infrastructure 分离；
 3. actual CapEx 与 guidance/forecast 分离。
 
-详见《四云Capex口径核对》。
+详见 [《四云 CapEx 口径核对》](四云Capex口径核对.md)。
 
 ## 2. 2025–2026 的资本扩张现实
 
 2025 混年口径下，Microsoft、Amazon、Alphabet、Meta 的 equipment/PPE purchase 已达到约 **$354B** 量级。
 
-截至 2026 年 8 月：
+截至 2026 年 8 月，公开口径如下：
 
-- Microsoft 已公开给出 calendar 2026 CapEx 约 **$190B** 的预期；
-- Alphabet 指引约 **$180–190B**；
-- Meta 指引约 **$125–145B**；
-- Amazon 截至 2026 Q2 的 TTM net PPE purchase 约 **$169B**。
+| 公司 | 最新公开口径 |
+|---|---:|
+| Microsoft | Calendar 2026 CapEx 约 **$190B** |
+| Alphabet | CapEx guidance **$180–190B** |
+| Meta | CapEx guidance **$125–145B** |
+| Amazon | 截至 2026 Q2，TTM net PPE purchase 约 **$169B** |
+
+这些数字的时间窗与会计科目不同，因此仅用于观察资本扩张方向，不作机械加总。
 
 这些数字已经足以证明 AI infrastructure CapEx cycle 仍在扩张。
 
@@ -52,10 +56,10 @@ AI infrastructure investment 包含多个不同寿命的资产：
 不能简单使用：
 
 [
-Total CapEx / 4
+AI annual depreciation = Total CapEx div 4
 ]
 
-作为“AI 年折旧”。
+作为“AI 年折旧”的统一公式。
 
 原因是：
 
