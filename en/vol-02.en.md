@@ -67,7 +67,7 @@ Profit, cash, and supply commitments are maintained in [Volume 1](vol-01.en.md).
 
 ### 3.5 Booked 19% is not a safe distance
 
-TSMC shipments, node revenue, platforms, and Customer A / B are in [Volume 4](vol-04.en.md). This volume does not reopen them. 19% is full-year revenue share. Voice on the scarce slice is larger than this booked number. What is being opened is HPC and packaging, not phones. Occupy the increment and next year's slots belong to the first name. Booked 19% is not a safe distance.
+TSMC shipments, node revenue, platforms, and Customer A / B are in [Volume 4](vol-04.en.md). This volume does not reopen them. The 19% figure is a full-year revenue share, not a forward wafer or packaging allocation share. The relevant variable is how incremental HPC and packaging capacity is distributed across buyers under long-duration orders, prepayments, utilization, roadmap certainty, diversification, and geopolitical constraints.
 
 ### 3.6 5.39 and the pool
 
@@ -93,7 +93,7 @@ Multi-year cloud-service commitments rose from $27.0B to $30.0B, officially for 
 
 The system-sales layer can already give the same material to the higher-margin data center. This is not a guess. The FY25 CFO write-up already wrote limited supply for both Blackwell and Ada gaming GPUs. FY26 press release: gaming $16.0 billion for the year, $3.7 billion in Q4, still strong year on year, sequentially down as channel inventory came down. The outlook writes that supply constraints will drag gaming in Q1 FY27 and after. Scarcity is the same leading-edge logic, packaging, and HBM being fed to the data center first. It is not a published cut of how many tens of thousands of cards. It is an admission that consumer cards and the data center compete for the same supply, and the consumer end is squeezed.
 
-The difference from a backdoor: this sentence is a public finance write-up. It can enter the body. A unified compute architecture explains why switching stacks is hard. It does not explain a quarter of scarce gaming cards. Do not weld the two into one sentence.
+The difference from a backdoor: this sentence is a public finance write-up. It can enter the body. A unified compute architecture explains switching cost, while gaming-card scarcity is a separate supply-allocation issue. The two mechanisms should not be collapsed into one causal claim.
 
 ## 4. Scenarios, counterarguments, and testable indicators
 
@@ -113,7 +113,7 @@ Acting alone can weaken a buyer's position in the next scarce increment, but sup
 
 To change the allocation, bind three checks. First, prepayments large enough that TSMC cannot recognize only one buyer. Second, software bound into one stack, so the switching tax becomes a change of base rather than a change of vendor; UXL and oneAPI are embryos. Third, memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Apple does not bid against AMD for cabinets. What can actually change the cabinet is the bundle that makes accelerator cards and cloud ASICs. Phone makers bind residual memory.
 
-A neutral foundry pledge has no consideration in front of a check. This is not a moral judgment. It is a board answering to shareholders. When the first name's profit exceeds the increment from everyone else, leaving a line for the second name is handing the high-margin increment to someone else. Seller 59.9% and 49% are already high, and those firms still expand to its mix. They are not the firms bidding against it for cabinets.
+Foundry and memory suppliers allocate scarce capacity through a multi-variable commercial process: order size, prepayments, utilization, credit quality, roadmap certainty, customer diversification, strategic relationships, and geopolitical risk. High-margin AI/HPC demand can receive strong economic priority, but the report does not assume a deterministic one-buyer allocation rule.
 
 ### 4.4 The engine and the five interrupts
 
