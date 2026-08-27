@@ -14,7 +14,7 @@ The honest unit of a data-version model is layered retention, not an added-up ma
 
 ## 2. Arguments already in the draft (compressed; key numbers not dropped)
 
-The same table appears again. The following are draft numbers. This draft does not promote them into annual-report cells opened in this pass. What this pass can replace is replaced with official notes in section 3. What it cannot replace stays in the draft column.
+The same table appears again. The following are draft numbers. This volume does not promote them into annual-report cells opened in this pass. What this pass can replace is replaced with official notes in section 3. What it cannot replace stays in the draft column.
 
 | Entity | Period | Revenue | AI or data-center related | Gross or operating profit | Capex |
 | --- | --- | --- | --- | --- | --- |
