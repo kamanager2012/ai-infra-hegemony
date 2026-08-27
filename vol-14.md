@@ -34,10 +34,12 @@ NVIDIA 当前是最典型案例。
 
 FY27 Q2：
 
-- Revenue：$96.221B
-- Data Center：$89.0B
-- GAAP gross margin：75.0%
-- GAAP operating income：$63.734B
+| 指标 | 数值 |
+|---|---:|
+| Revenue | **$96.221B** |
+| Data Center revenue | **$89.0B** |
+| GAAP gross margin | **75.0%** |
+| GAAP operating income | **$63.734B** |
 
 这是当前 AI infrastructure 中最强的 seller-side value capture。
 
@@ -191,11 +193,11 @@ Smartphone、PC、gaming、general server 并没有消失。
 
 截至 2026 年 8 月，AI infrastructure 的价值捕获大致呈现：
 
-**System platform**
-→ **HBM / advanced packaging / leading-edge manufacturing**
-→ **powered infrastructure**
-→ **hyperscaler platform**
-→ **model/application layer**
+> **System platform**  
+> → **HBM / advanced packaging / leading-edge manufacturing**  
+> → **powered infrastructure**  
+> → **hyperscaler platform**  
+> → **model / application layer**
 
 这不是固定排名。
 
