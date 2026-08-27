@@ -1,0 +1,58 @@
+name: 机制 / 情景挑战
+description: 对假设、因果机制、情景推演或证伪条件提出反方
+title: "[机制] "
+labels: ["analysis"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 挑战哪一卷 / 哪个模型
+      placeholder: vol-04 / AHICR / S3资源霸权 / Anchor Compute Buyer Effect
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: 当前结论或机制
+      description: 请贴出你要挑战的句子、公式或情景。
+    validations:
+      required: true
+
+  - type: dropdown
+    id: layer
+    attributes:
+      label: 你主要挑战哪一层
+      options:
+        - F - 事实基础有问题
+        - H - 假设不合理
+        - M - 机制链断裂
+        - S - 情景结果推不出来
+        - X - 缺少关键证伪条件
+        - 多层同时存在
+    validations:
+      required: true
+
+  - type: textarea
+    id: argument
+    attributes:
+      label: 反方逻辑
+      description: 最好写成“变量A变化 → 机制B失效 → 情景C应下调”的形式。
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 支持材料
+      description: 可以是一手来源、高质量机构研究、可复核数据或明确的反例。
+    validations:
+      required: false
+
+  - type: textarea
+    id: falsifier
+    attributes:
+      label: 你建议加入的可证伪信号
+      description: 什么现实变化会证明当前判断需要上调、下调或废弃？
+    validations:
+      required: false
