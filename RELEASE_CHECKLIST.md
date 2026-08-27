@@ -32,12 +32,12 @@ This checklist separates research completion from publication operations. A chec
 
 ## 3. Licensing — hard gate
 
-- [x] Replace the existing CC BY 4.0 `LICENSE` before changing repository visibility to public.
-- [x] Ensure the final license, README, and CITATION wording agree.
+- [x] Replace the previous license with the standard `CC-BY-NC-ND-4.0` license before changing repository visibility to public.
+- [x] Ensure `LICENSE`, README files, and `CITATION.cff` all declare `CC-BY-NC-ND-4.0` consistently.
 - [x] Confirm treatment of quotations, third-party figures, and source excerpts separately from original report text.
-- [x] Confirm that commercial reuse, substantial redistribution, derivative translations, bulk copying/dataset extraction, and AI/ML training use require explicit permission except where platform terms or applicable law provide otherwise.
+- [x] Confirm that the selected standard license prohibits commercial use and sharing derivative/adapted material. Note: it still permits noncommercial sharing of unadapted material under its terms.
 
-**License hard gate passed:** the repository no longer uses CC BY 4.0. Before publication, re-read the final remote `LICENSE` together with GitHub's current platform terms.
+**License hard gate passed:** the repository uses the standard SPDX-listed **CC-BY-NC-ND-4.0** license. Commercial use is prohibited; shared copies must remain unadapted and attributed under the license terms.
 
 ## 4. Final release verification
 
@@ -85,7 +85,7 @@ These values are ready for the final GitHub UI step.
 > - Unified F→H→M→S→X framework and A/B/C/D evidence grading.
 > - English 40 + 8 corpus completed repository-wide publication QA and title/link regression.
 > - Research retrieval/revision cutoff: 2026-08-27.
-> - Original report text is governed by the AI Infrastructure Hegemony Restricted Research License v1.0.
+> - Original report text is licensed under CC BY-NC-ND 4.0.
 >
 > This research is not an audit opinion, investment recommendation, or legal opinion.
 
