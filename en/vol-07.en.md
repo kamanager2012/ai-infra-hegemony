@@ -1,24 +1,24 @@
 # Volume 7: Nvidia’s expansion across industries (from GPU to full systems, DGX Cloud, and a vertical trust)
 
-Chinese original: [vol-07.md](vol-07.md)
+Chinese original: [vol-07.md](vol-07.en.md)
 
-Four-corner mechanism: [Volume 2](vol-02.md). Moat tables: [Volume 32](vol-32.md). The China stack: [Volume 12](vol-12.md). This volume does not reopen the full FY26 table. This volume only writes where expansion's cash comes from, and whether DGX Cloud has already become a business.
+Four-corner mechanism: [Volume 2](vol-02.en.md). Moat tables: [Volume 32](vol-32.en.md). The China stack: [Volume 12](vol-12.en.md). This volume does not reopen the full FY26 table. This volume only writes where expansion's cash comes from, and whether DGX Cloud has already become a business.
 
 ## 1. The question this volume answers
 
 The title writes "vertical industrial trust." Discussion and audit already judged: that is table-of-contents tone, not a market definition already adjudicated. This volume does not ask how many industries NVIDIA announced it had entered. It asks whether the sales unit moved from the card to the cabinet, where expansion's cash comes from, whether the cloud slice has already become a business, whether the eastern market can change the western allocation, and which three checks the second name still misses before it keeps handing over each year's new lines.
 
-The main line writes the athlete as one year of free cash and one quarter of operating income. [Volume 1](vol-01.md) nails those two lines to the official table. Expansion is not a slogan. Expansion is: the name with the margin monopoly uses prepayments to buy the next generation's slots, pins the sales unit to the cabinet, gives gaming-card material to the data center, and keeps a self-run cloud option pointed at the clouds. If the word trust is used, it applies only to the present in which cabinets are already selling and there is still no revenue line outside the cabinet or on the industry side. It does not apply to "rivals are already out, PC brands have already become contract manufacturers." That last sentence is a scenario only.
+The platform's expansion should be read through **scarce-layer value capture and system integration**, not a "margin monopoly" slogan. FY27 Q2 keeps the seller-side economics strong, while prepayments and supply commitments increase capacity-reservation power. At the same time, clouds are building alternative system stacks. The sales unit is moving upward from the chip toward the rack/system, and the correct question is how much of the next scarce increment the leading platform captures while rivals attack interconnect, software, and workload control.
 
-The China stack: [Volume 12](vol-12.md). The expansion volume does not reopen it. The mark of success is not eastern shipments. It is whether the western second name has handed over the new lines and packaging.
+The China stack: [Volume 12](vol-12.en.md). The expansion volume does not reopen it. The mark of success is not eastern shipments. It is whether the western second name has handed over the new lines and packaging.
 
-This volume did not reopen the full NVIDIA FY26 10-K. Numbers here follow the main line and the CFO write-ups, press releases, and 10-K notes already opened in [Volume 1](vol-01.md). If a figure is not found, leave it empty. The draft Volume 7 body pasted Volume 2's dollar bill of materials again. This volume does not repaste it.
+This volume did not reopen the full NVIDIA FY26 10-K. Numbers here follow the main line and the CFO write-ups, press releases, and 10-K notes already opened in [Volume 1](vol-01.en.md). If a figure is not found, leave it empty. The draft Volume 7 body pasted Volume 2's dollar bill of materials again. This volume does not repaste it.
 
 ## 2. Official and institutional sources
 
 ### 2.1 Profit, prepayments, the control, the cabinet, and four-cloud scope
 
-The FY26 / Q1 FY27 table is in [Volume 1](vol-01.md). Prepayments and supply commitments are in [Volume 1](vol-01.md). The Intel 1999 control is in [Volume 1](vol-01.md). The cabinet spec is in [Volume 2](vol-02.md). Gaming cards giving way is in [Volume 1](vol-01.md). Four-cloud capex is in [四云Capex口径核对](四云Capex口径核对.md). This volume does not reopen them. This volume only writes how the sales unit moved from the card to the cabinet, and why the official cloud is only an option.
+The FY26 / Q1 FY27 table is in [Volume 1](vol-01.en.md). Prepayments and supply commitments are in [Volume 1](vol-01.en.md). The Intel 1999 control is in [Volume 1](vol-01.en.md). The cabinet spec is in [Volume 2](vol-02.en.md). Gaming cards giving way is in [Volume 1](vol-01.en.md). Four-cloud capex is in [四云Capex口径核对](四云Capex口径核对.md). This volume does not reopen them. This volume only writes how the sales unit moved from the card to the cabinet, and why the official cloud is only an option.
 
 ## 3. Dig into the mechanism
 
@@ -32,15 +32,15 @@ Hypothesis from here: once the cabinet becomes the checklist, the next tender us
 
 The physical unit of expansion is the cabinet, not the chip. Liquid cooling, power conversion, and copper cable write "NVIDIA-compatible" as a data-center engineering standard. Once a customer builds a hall to that thermal design and power feed, the next purchase's switching cost is poured into concrete and busbars. That is harder than a trademark. A trademark can be swapped. A busbar cannot.
 
-Networking needs its own sentence. Inside FY26 data center, compute $162.361B, networking $31.376B. Expansion does not rest on GPUs alone. High-speed interconnect, switch trays, and in-cabinet copper weld 72 cards into one domain. When the customer buys compute, it is already buying networking. Half of the second-layer lock is written in networking: switching vendors is not swapping accelerator cards. It is tearing apart parallelism already written to this name's semantics. [Volume 1](vol-01.md) nails those two rows to the CFO platform table. This volume does not write $31.376B as "interconnect is already a monopoly." It writes that the expanding sales unit already contains interconnect. Without this slice, a cabinet is still a pile of cards. With it, a cabinet is a domain.
+Networking needs its own sentence. Inside FY26 data center, compute $162.361B, networking $31.376B. Expansion does not rest on GPUs alone. High-speed interconnect, switch trays, and in-cabinet copper weld 72 cards into one domain. When the customer buys compute, it is already buying networking. Half of the second-layer lock is written in networking: switching vendors is not swapping accelerator cards. It is tearing apart parallelism already written to this name's semantics. [Volume 1](vol-01.en.md) nails those two rows to the CFO platform table. This volume does not write $31.376B as "interconnect is already a monopoly." It writes that the expanding sales unit already contains interconnect. Without this slice, a cabinet is still a pile of cards. With it, a cabinet is a domain.
 
-### 3.2 Only a margin monopoly can add a tranche of prepayments
+### 3.2 Strong cash flow and order certainty can add a tranche of prepayments
 
-The mechanism is in [Volume 1](vol-01.md). This volume does not reopen the table. The three-month rise from $95.2B to $119.0B is already an official record of adding a tranche. Expansion is not spending free cash down to build its own wafer fab. Expansion is turning part of free cash into supply commitments, returning part to shareholders, and staying asset-light. That is not the same road as Intel in 1999 turning profit into its own plants.
+The mechanism is in [Volume 1](vol-01.en.md). This volume does not reopen the table. The three-month rise from $95.2B to $119.0B is already an official record of adding a tranche. Expansion is not spending free cash down to build its own wafer fab. Expansion is turning part of free cash into supply commitments, returning part to shareholders, and staying asset-light. That is not the same road as Intel in 1999 turning profit into its own plants.
 
 ### 3.3 Buyer and rival in one body
 
-The clouds are the largest buyers, and they are also the owners of in-house accelerators. NVIDIA sells them cabinets, locks their tenants to its own instruction set with CUDA, and keeps an official-cloud product form so the option remains: "I can also rent compute to model firms around you." Model firms therefore face three layers of rent: the cabinet, the cloud markup, and a possible official cloud. That is what "vertical industrial trust" means as mechanism — it need not finish a legal monopoly. It only has to make the second-best choice at each layer lose a slice of efficiency or a slice of schedule. Cloud in-house specs: [Volume 4](vol-04.md). Cloud ASICs are the same auction, not another river.
+The clouds are the largest buyers, and they are also the owners of in-house accelerators. NVIDIA sells them cabinets, locks their tenants to its own instruction set with CUDA, and keeps an official-cloud product form so the option remains: "I can also rent compute to model firms around you." Model firms therefore face three layers of rent: the cabinet, the cloud markup, and a possible official cloud. That is what "vertical industrial trust" means as mechanism — it need not finish a legal monopoly. It only has to make the second-best choice at each layer lose a slice of efficiency or a slice of schedule. Cloud in-house specs: [Volume 4](vol-04.en.md). Cloud ASICs are the same auction, not another river.
 
 ### 3.4 The official cloud is an option, not a business line
 
@@ -50,7 +50,7 @@ As mechanism it looks like an option: a reminder to Amazon, Microsoft, and Googl
 
 ### 3.5 Vertical extension is a second curve, not the base
 
-The draft's Part II wrote an automotive single chip at about 2000 petaflops of FP4 (cabin and drive on one die), and an edge module at about 25% of a humanoid-robot bill of materials. Mark both as draft numbers. There is no teardown, no automaker contract, no FY26 automotive revenue line. [Volume 1](vol-01.md) has no auto or robot split. The deepening note's FY25 automotive $1,694M against that year's data center $115,186M already shows the scale: the vertical story is large in the narrative and still a corner on the income statement.
+The draft's Part II wrote an automotive single chip at about 2000 petaflops of FP4 (cabin and drive on one die), and an edge module at about 25% of a humanoid-robot bill of materials. Mark both as draft numbers. There is no teardown, no automaker contract, no FY26 automotive revenue line. [Volume 1](vol-01.en.md) has no auto or robot split. The deepening note's FY25 automotive $1,694M against that year's data center $115,186M already shows the scale: the vertical story is large in the narrative and still a corner on the income statement.
 
 Hypothesis from here: automotive qualification takes two to three years (draft). Once a cabin-and-drive chip becomes the default for high-end ADAS, the vehicle electronics architecture stays locked on the same software stack longer. The edge module pulls the power band to 50W to 100W (draft), completing the shape "cloud-side 72-card cabinet / edge-side same family." That is one lock opened onto two industries, not two new moats. If the unified-compute-architecture sentence "95% of frontier operator libraries bound" holds, auto and robots are only the lock's radius. That sentence has no sample. This volume does not promote it.
 
@@ -58,11 +58,11 @@ Geography will crop vertical expansion. A full 72-card cabinet is an in-quota pr
 
 ### 3.6 The China market cannot save the globe
 
-The layer is wrong. See [Volume 12](vol-12.md). This volume does not reopen it. If expansion is done in the West, the eastern parallel stack serves people who cannot buy. The mark of success is not eastern shipments. It is whether the western second name has handed over the new lines and packaging.
+The layer is wrong. See [Volume 12](vol-12.en.md). This volume does not reopen it. If expansion is done in the West, the eastern parallel stack serves people who cannot buy. The mark of success is not eastern shipments. It is whether the western second name has handed over the new lines and packaging.
 
 ### 3.7 Miss three bundle checks and you hand over the new lines
 
-The three checks and the five interrupts are in [Volume 8](vol-08.md). This volume does not reopen them. As long as there is no split, no forced-open interface, and no ban on locking capacity with prepayments, a fine cannot cover the bid.
+The three checks and the five interrupts are in [Volume 8](vol-08.en.md). This volume does not reopen them. As long as there is no split, no forced-open interface, and no ban on locking capacity with prepayments, a fine cannot cover the bid.
 
 ### 3.8 The profit center moved to the cabinet. A CPU downgrade is not extinction
 
@@ -106,7 +106,7 @@ Hypothesis from here: for the model player to become a profit pool, it must show
 
 ### 3.10 Compute rent: expansion collects rent, not a share manifesto
 
-Rent scope: [Volume 8](vol-08.md). This volume lands it on the sales unit. The collection unit of rent is the cabinet, not the card. Customers pay by cabinet, halls are built by cabinet, memory multiplies by cabinet, packaging is queued by cabinet. Only layer one is done (the sales unit moved up). Layer two is adding commitments. Layers three and four are still an option and a mock-up.
+Rent scope: [Volume 8](vol-08.en.md). This volume lands it on the sales unit. The collection unit of rent is the cabinet, not the card. Customers pay by cabinet, halls are built by cabinet, memory multiplies by cabinet, packaging is queued by cabinet. Only layer one is done (the sales unit moved up). Layer two is adding commitments. Layers three and four are still an option and a mock-up.
 
 ### 3.11 A different expansion from Intel 1999
 
@@ -123,6 +123,6 @@ This volume closes on one sentence. Analysis add: the part of expansion that has
 3. The official cloud has no revenue, GPU-hours, or split. $27.0B and $30.0B are multi-year cloud-service commitments, used for R&D, not ARR.
 4. How much prepayment went to TSMC, Hynix, and Samsung each: no official split was found. 2nm first silicon as a disclosed contract: no prepayment sentence that names the node was found.
 5. Auto at about 2000 petaflops of FP4, edge at about 25% of robot materials: no teardown or contract. Unified-compute-architecture 95%, AMD trailing 30% to 50%: still unsampled assertions.
-6. Official FY26 splits for gaming, professional visualization, and auto were not collected in [Volume 1](vol-01.md). This volume does not invent them. Gaming cards giving way uses only the FY25 official sentence already cited in the deepening note.
+6. Official FY26 splits for gaming, professional visualization, and auto were not collected in [Volume 1](vol-01.en.md). This volume does not invent them. Gaming cards giving way uses only the FY25 official sentence already cited in the deepening note.
 7. Four-cloud $215B is not addable AI hardware. The 2026 range $670B to $750B cannot be added from this pass.
 8. Any forward share, cabinet count, or packaging wafers by customer: "unverified, not an audit fact." This volume does not claim to have audited a full 10-K.
