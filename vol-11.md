@@ -104,9 +104,9 @@ AI 平台的市场力量不再集中在单一产品。
 
 它不能直接被转换为：
 
-[
+```text
 Potential fine = Company Revenue 	imes 10%
-]
+```
 
 然后写成“未来罚款”。
 
