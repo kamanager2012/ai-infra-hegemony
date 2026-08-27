@@ -1,8 +1,8 @@
 # Volume 20: Strategic Implications for Firms, Capital, and States
 
-Chinese original: [vol-20.md](vol-20.md)
+Chinese original: [vol-20.md](vol-20.en.md)
 
-This volume translates the report's mechanisms into strategic implications for firms, capital allocators, and states. The final synthesis is in [Volume 40](vol-40.md), the S1–S4 end-state framework in [Volume 15](vol-15.md), and the depreciation/clearing mechanism in [Volume 30](vol-30.md). The focus here is decision structure rather than target prices, portfolio prescriptions, or deterministic 2036 forecasts.
+This volume translates the report's mechanisms into strategic implications for firms, capital allocators, and states. The final synthesis is in [Volume 40](vol-40.en.md), the S1–S4 end-state framework in [Volume 15](vol-15.en.md), and the depreciation/clearing mechanism in [Volume 30](vol-30.en.md). The focus here is decision structure rather than target prices, portfolio prescriptions, or deterministic 2036 forecasts.
 
 ## 1. Core question
 
@@ -61,7 +61,7 @@ This volume does not introduce a second probability system. Strategic responses 
 - **S3 — Resource Hegemony:** scarce-resource capture and switching costs rise. Firms need an executable second stack; capital should focus on concentration risk as well as scarcity value; states need credible second sources and lower migration barriers.
 - **S4 — Capital Hard Landing:** utilization, clearing prices, CapEx guidance, and forward commitments weaken together. Firms should reduce long-duration compute exposure; capital should prioritize balance-sheet resilience; states should prepare for infrastructure overhang without confusing capital clearing with the disappearance of AI demand.
 
-The other side: a strategy report most easily becomes "all three ends must do everything." When resources are finite, firms need not build nuclear plants, and states need not steer overweighting of a single stock. Another other side is ASIC-as-panacea: public next generations do not retreat to commodity DDR5; see [Volume 4](vol-04.md). A firm that bets "next year we can leave the Nvidia system and shift onto DDR5" may be early, and may have misread the river.
+The other side: a strategy report most easily becomes "all three ends must do everything." When resources are finite, firms need not build nuclear plants, and states need not steer overweighting of a single stock. Another other side is ASIC-as-panacea: public next generations do not retreat to commodity DDR5; see [Volume 4](vol-04.en.md). A firm that bets "next year we can leave the Nvidia system and shift onto DDR5" may be early, and may have misread the river.
 
 What not to do: do not treat 2026 $750B as a budget fact; do not treat supply-chain CoWoS monthly capacity as an investment anchor; do not treat a Microsoft revenue range as a precise 10-K; do not write "safety challenges" as an alignment evaluation already done; do not require firms to prepay four years of compute without workflow ROI; do not write shifting onto DDR5 as a national memory strategy; do not write the CXMT IPO as an HBM supply function; do not write a monthly capacity that is not in the prospectus; do not write 8.6 and 13.2; do not treat a statutory fine ceiling as a fine already issued; do not treat an inquiry as a complaint; do not rewrite the four-cloud mixed-year sum as "AI hardware $215B."
 
@@ -69,7 +69,7 @@ What not to do: do not treat 2026 $750B as a budget fact; do not treat supply-ch
 
 Volume 19 already said that 2026–2028 is the window that can be checked against a table for depreciation, energization, and residual, and that evidence thins after 2029. Firms should therefore not sign compute longs beyond a workflow validation period; investors should not size positions off a 2036 packaging outlook; states should not write SMRs not yet in commercial operation as baseload already solved, nor write HBM that has not yet appeared in a prospectus as supply already solved. Locking action to the first observable four years is closer to the restraint a "first-stage summary" should have than writing a ten-year vision.
 
-The strategy should therefore remain adaptive. As system-stack substitution, power constraints, supply expansion, China parallel-stack capability, or structural regulatory remedies change, the recommended balance between portability, long-duration commitments, and physical capacity must change with them. The ten-year synthesis is in [Volume 40](vol-40.md).
+The strategy should therefore remain adaptive. As system-stack substitution, power constraints, supply expansion, China parallel-stack capability, or structural regulatory remedies change, the recommended balance between portability, long-duration commitments, and physical capacity must change with them. The ten-year synthesis is in [Volume 40](vol-40.en.md).
 
 Testable marks: on the firm side, whether key workflows can already switch across two or more models or two clouds, and whether memory is treated as a quota as hard as the GPU on the purchase order; on the investor side, whether holdings actually map to packaging, CDUs, nuclear operators, HBM makers, and interconnection-related capex, not to a thematic ETF name; on the state side, whether queue years are still 5–7, and whether the home market can obtain countable advanced packaging and HBM output (the CXMT prospectus has no HBM row, so one can only watch for new maker disclosure).
 
