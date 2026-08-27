@@ -9,7 +9,7 @@
 1. 历史口径中的 **$215B** 并不是四家公司在同一日历年、同一会计科目下披露的统一 CapEx 总额；它最接近“Microsoft 财年 + 其余三家日历年”的混合口径。
 2. 按可复加的 2024 混年设备购置口径，合计约 **$211.9B–$213.9B**。因此历史 **$215B** 量级接近，但会计口径并不严格一致。
 3. 这四笔均为 **company-wide CapEx / PPE**，不是“AI server / GPU”分项。Amazon 还包含 fulfillment/network infrastructure，Meta 包含 Reality Labs，Alphabet 包含办公及其他技术设施。
-4. 截至 2026 年 8 月，公开规模继续上升，但时间窗和科目仍不统一：Microsoft calendar 2026 CapEx 预期约 **$190B**；Alphabet guidance **$180–190B**；Meta guidance **$125–145B**；Amazon 截至 2026 Q2 的 TTM net PPE purchase 约 **$169B**。这些数字可以用于判断资本扩张方向，但**不能机械复加成统一“2026 AI hardware CapEx”**。
+4. 截至 2026 年 8 月，公开规模继续上升，但时间窗和科目仍不统一：Microsoft calendar-2026 报表口径 CapEx expectation 约 **US$175B**（2026-07-29 租赁分类调整后；公司称底层投资预期不变）；Alphabet Q2 earnings-call guidance **US$195–205B**；Meta Q2 guidance **US$130–145B**；Amazon 截至 2026-06-30 的 TTM PPE net purchases actual **US$169.007B**。这些数字可以用于判断资本扩张方向，但**不能机械复加成统一“2026 AI hardware CapEx”**。
 
 ## 可复加用的科目
 
@@ -24,16 +24,16 @@
 
 | | 2023 | 2024 | 2025 | 2026 最新公开口径* |
 |---|---:|---:|---:|---|
-| Microsoft（FY，至 6/30） | 28,107 | **44,477** | **64,551** | Calendar 2026 CapEx 预期约 **$190,000** |
-| Amazon 净额 | — | **77,658** | **128,320** | 截至 2026 Q2，TTM net PPE purchase 约 **$169,000** |
+| Microsoft（FY，至 6/30） | 28,107 | **44,477** | **64,551** | Calendar-2026 报表口径 expectation 约 **US$175B**（租赁分类调整后） |
+| Amazon 净额 | — | **77,658** | **128,320** | 截至 2026-06-30，TTM PPE net purchases actual **US$169.007B** |
 | Amazon 毛额购置 | — | 82,999 | 131,819 | — |
 | Amazon 出售与激励 | — | 5,341 | 3,499 | — |
-| Alphabet | 32,251 | **52,535** | **91,447** | Guidance **$180,000–$190,000** |
+| Alphabet | 32,251 | **52,535** | **91,447** | Q2 earnings-call guidance **US$195–205B** |
 | Meta 设备购置 | — | **37,256** | **69,691** | — |
 | Meta 融资租赁本金 | — | 1,969 | 2,524 | — |
-| Meta 公司口径 CapEx | — | 39,225 | 72,215 | Guidance **$125,000–$145,000**（含融资租赁本金） |
+| Meta 公司口径 CapEx | — | 39,225 | 72,215 | Q2 guidance **US$130–145B**（含 finance-lease principal） |
 
-* 2026 列的时间窗和会计定义不一致，仅用于观察规模方向，不用于直接加总。
+* 2026 列混合公司 guidance 与 Amazon TTM actual，且时间窗、租赁分类和会计定义不一致，仅用于观察规模方向，不用于直接加总。
 
 Amazon 2024 净额勾稽：82,999 − 5,341 = 77,658。  
 Amazon 2025 净额勾稽：131,819 − 3,499 = 128,320。  
@@ -65,10 +65,10 @@ Meta 2025 公司口径：69,691 + 2,524 = 72,215（公司稿写 $72.22 billion�
 
 | 公司 | 2026 最新公开口径 |
 |---|---:|
-| Microsoft | Calendar 2026 CapEx 约 **$190B** |
-| Amazon | 截至 2026 Q2，TTM net PPE purchase 约 **$169B** |
-| Alphabet | Guidance **$180–190B** |
-| Meta | Guidance **$125–145B** |
+| Microsoft | Calendar-2026 reported CapEx expectation 约 **US$175B** |
+| Amazon | 截至 2026-06-30，TTM PPE net purchases actual **US$169.007B** |
+| Alphabet | Q2 earnings-call guidance **US$195–205B** |
+| Meta | Q2 guidance **US$130–145B** |
 
 四家公司当前均处于高强度资本投入区间，但 Microsoft 的 calendar-year expectation、Amazon 的 TTM net PPE，以及 Alphabet/Meta 的 guidance 并不是同一会计量。由此只能推出“资本扩张继续抬升”，不能推出一个官方统一的“2026 四云 AI hardware CapEx”总额。
 
@@ -85,7 +85,11 @@ Meta 2025 公司口径：69,691 + 2,524 = 72,215（公司稿写 $72.22 billion�
 - Amazon：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm （Exhibit 99.1，2026-02-05）
 - Alphabet 2024：https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm
 - Alphabet 2025：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm
-- Meta：https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx （2026-01-28）
+- Microsoft 最新 calendar-2026 口径：https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4 （2026-07-29；约 US$175B，租赁分类调整）
+- Amazon 2026 Q2 10-Q：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm （TTM PPE net purchases US$169.007B）
+- Alphabet 最新 guidance：2026 Q2 earnings call，公开报道记录为 US$195–205B；在官方 transcript 可稳定归档前，保留来源身份，不升级为法定申报 actual。
+- Meta 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm （guidance US$130–145B）
+- Meta 2025 actual：https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
 
 
 > 2026 年最新口径的交叉检查见 [《核心证据台账》](核心证据台账.md) 与 [第八卷](vol-08.md)。
