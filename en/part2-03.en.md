@@ -1,80 +1,188 @@
-# Macro Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply-Chain Contest
+# Macro Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply Contest
 
-Chinese original: [part2-03.md](part2-03.md)
+Chinese source edition: [part2-03.md](../part2-03.md)
 
-Which pool, CoWoS past halfway: [Volume 4](vol-04.md) and [Volume 24](vol-24.md). Where 3:1 and "the new oil" do not hold: [Volume 23](vol-23.md). The 5.39 calculation: `测算-投片与柜-20260826.md`. This essay does not reopen those tables. This essay only collects: process, packaging, and HBM are three ceilings with different units; the clearest 2025–26 first-party bottleneck is advanced packaging.
+> Retrieval and revision cutoff: **2026-08-27**. Advanced logic, advanced packaging, and HBM are different physical pools. Their metrics cannot be substituted for one another, and the shortest layer determines system delivery.
 
-## 1. The question this essay answers
+## 1. The core question
 
-Among advanced logic, advanced packaging, and HBM, which layer is the binding physical ceiling on rack-scale AI systems around 2026? TSMC's books first customer 19%, HPC already 58%, packaging revenue just over 10% — these three official sets measure different things. They cannot substitute for each other. 5.39 wafers/cabinet is a calculation, not an annual report. 835,000 cabinets used the wrong pool. The earlier version's self-derived 3:1 formula cannot be promoted, but Micron's separate first-party ~3× HBM3E-versus-DDR5 wafer-supply disclosure can. This essay only answers: who is locking increment, which line is locked, and at what order of magnitude halfway falls.
+Around 2026, which physical layer most directly limits rack-scale AI-system delivery?
 
-## 2. Evidence boundary
+The answer cannot be derived from one number such as:
 
-Historical versions combined foundry share, future wafer prices, monthly CoWoS capacity, package-level BOM assumptions, and self-derived HBM yield formulas into one table. That table mixed different physical pools and evidence grades.
+- TSMC's largest-customer revenue share;
+- HPC revenue share;
+- packaging revenue share;
+- an estimated CoWoS monthly capacity;
+- an HBM bit share.
 
-The current framework keeps the three ceilings separate:
+These quantities measure different objects.
 
-- **Advanced logic:** TSMC node roadmap, platform revenue mix, and industry foundry-share data.
-- **Advanced packaging:** TSMC first-party statements that capacity is tight and can limit customer growth; TrendForce customer-demand estimates remain B-grade.
-- **HBM:** Micron first-party evidence that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity.
+The correct framework separates three ceilings:
 
-The report's **5.39 CoWoS wafers/rack** coefficient remains a D-grade geometry stress test, not a TSMC yield or capacity disclosure.
-## 3. Mechanism (physical / commercial / geopolitical)
+1. **leading-edge logic**;
+2. **advanced packaging**;
+3. **HBM / DRAM manufacturing input**.
 
-The three ceilings have different physical units. The process ceiling is exposure, overlay, and transistor structure (N2 first-generation nanosheet, then A14). Official sources only report wafer **revenue** share, not units by node. The packaging ceiling is interposers and reticle multiples. The unit is "whether a large chip and HBM can be welded together." C.C. Wei only says tight. He does not report monthly capacity. The HBM ceiling is that the same bits need more wafers and more cleanroom. The unit is how much consumer DRAM is left after memory makers turn lines toward cabinets. All three must be satisfied at once. The short board decides shipments. The clearest first-party 2025–26 bottleneck is advanced packaging: C.C. Wei himself said it already limits customer growth. On the process side 2nm has just entered volume. There is not yet a standalone revenue row that can be used to "lock 50% of 3nm/2nm." On the HBM side, the key numeric anchor is Micron's FY24 Q3 first-party disclosure of an industry-wide ~3× HBM3E-versus-DDR5 wafer-supply trade ratio; the earlier version's own 3:1 yield formula remains rejected.
+All three must be satisfied at the same time.
 
-### 3.1 2 nm and incremental capacity: what first-party disclosures can and cannot show
+## 2. Leading-edge logic: an entry ticket, not the full delivery system
 
-TSMC's books: [Volume 4](vol-04.md). This essay only adds three sentences unique to the annual report: the table has no standalone 2nm revenue row; N2 is first-generation nanosheet, entered volume in 4Q 2025; geographic dispersion (Arizona, Kumamoto) is not an already-appeared second public track that can volume top-tier AI logic. Revenue share is not unit count. What is being opened is HPC, not phones. How to read booked 19%, see section 4 below. Samsung's long contract is Tesla: [Volume 25](vol-25.md).
+TSMC's 2025 public disclosures show:
 
-### 3.2 CoWoS: official sources only say tight. 5.39 is a calculation. 835,000 cabinets used the wrong pool
+- 3 nm at **24% of wafer revenue**;
+- 5 nm at **36%**;
+- 7 nm at **14%**;
+- 7 nm and below at **74%**;
+- HPC at **58% of revenue**;
+- N2 entering volume production in **4Q25**.
 
-Packaging plus test: 4Q24 call, Huang — the company does not split advanced-packaging segments; 2024 advanced packaging plus test about 8% and above of revenue, 2025 will exceed 10%. 4Q25 post-call correction: 2025 a bit over 10%, 2024 about 8%, 2026 outlook low-teens. What can be confirmed is aggregate revenue share and that TSMC does not disclose customer-level CoWoS allocation. Monthly capacity, annual package-wafer totals, and customer splits remain outside the first-party fact layer.
+These are strong indicators of leading-edge concentration and HPC demand.
 
-C.C. Wei's first-party statements support tightness and customer-growth constraints, not the second-hand phrase 'sold out through 2026.' 4Q24 call: *today is all AI focused, and we have very tight capacity and cannot even meet customers' need*. 2Q26 call (2026-07-16): *our packaging capacity is so tight that now it limits my customers' growth*; same session *the majority is still CoWoS*. Focus Taiwan 2026-06-04 shareholders'-meeting text has no CoWoS and no sold out. What first-party verbatim supports: tight, cannot meet, already limits customer growth. Those six English words in second-hand paraphrase are not promoted.
+They do not disclose:
 
-Chapter 5 of the annual report writes CoWoS as a 2.5D service that stacks multiple SoCs and HBM together. CoWoS-S (silicon interposer, eDTC) has been in volume for years; 3.5×-reticle CoWoS-L in volume since 2024; 5.5×-reticle CoWoS-L planned to finish qualification in 2026; 9.5× reticle still in development. A 2Q26 analyst asked about a 14×-reticle roadmap and glass substrates. C.C. Wei only answered that the majority is still CoWoS, and alternatives still need about a year before volume with customers. The reticle limit cuts a large chip into two dies and then stitches them back. That is the physical source of packaging demand. Electronic Design / IEEE Spectrum paraphrase B200 as two dies of about 800 mm² each, package totaling about 1,600 mm² (a reporter geometry sentence, not a 10-K). The official H100 blog writes 814 mm². NVL72 product page official: 72 Blackwell GPUs, 36 Grace, 13.4 TB HBM3E, 17 TB LPDDR5X. 72 GPU packages are the numerator of 5.39 below.
+- physical wafers by customer;
+- N2 customer allocation;
+- N2 revenue share;
+- customer-level frontier-AI capacity.
 
-What 5.39 is. The calculation volume's equation: CoWoS wafers per cabinet = 72 GPU packages ÷ how many a CoWoS wafer yields. 72 ÷ 5.39 = 13.36 packages/wafer. 72 is the product page. Around 13.4 is a geometry working assumption: two dies totaling about 1,600 mm², plus 8 HBM stacks, the interposer far larger than a single GPU; 300 mm wafer area \(\pi\times 150^{2}=70{,}686\) mm². There is no official TSMC "how many B200s one CoWoS wafer yields." 5.39 is a calculation, not a fiction, and not a capacity formula in the annual report, and still less whole-fab logic wafers/cabinet. Front-end logic is another line: one cabinet 144 GPU dies, theoretically about 72 per wafer, 70% yield gives about 2.9 wafers/cabinet. The two lines do not match. Mixing them is the wrong pool. Do not write another fake yield formula of the \((0.95)^{12}\) type to "derive" 5.39 — that formula is in the draft. This essay does not use it.
+A node is therefore the **entry ticket**.
 
-Where 835,000 cabinets came from, and why it is void. 4.5 million ÷ 5.39 ≈ 835,000 cabinets. 4.5 million = 30% of TSMC's 2025 shipments of 15.00 million. 5.39 is CoWoS wafers/cabinet. Most of the 15.00 million is phones, MCUs, auto, mature nodes. Dividing the whole fab, or 30% of the whole fab, by 5.39 yields a cabinet count with no physical meaning. Dividing the full-year 15.00 million by 5.39 would give 2.78 million cabinets, equally meaningless. 800,000 cabinets × 5.39 = 4.31 million wafers, near 29% of the whole fab, also near 3nm+5nm revenue share (24%+36%=60% is revenue, not wafers). 800,000 cabinets cannot be written as "locking 50% of 3nm/2nm."
+It is not the complete system-delivery constraint.
 
-Use the right pool. TSMC's annual report and calls have no official full-year CoWoS wafer count. Sellers (Longbridge citing Morgan Stanley): 2026 global CoWoS demand about 1.00 million wafers, NVIDIA about 595,000 wafers, about 60%; monthly capacity written from 32k in 2024 to 93k by end-2026. Another house, Mizuho (Investing.com cite), writes monthly capacity 140k, NVIDIA 630,000 wafers at TSMC. The two houses disagree. Neither is a TSMC line item. On 5.39 and the seller's 1.00 million wafers: half = 500,000 wafers ≈ 93,000 cabinets; 595,000 wafers ≈ 110,000 cabinets. Rounded: about 100,000 cabinets past halfway on this packaging line. The judgment: you do not need 800,000 cabinets to lock 3nm. One Rubin cabinet official HBM4 20.7 TB, the interposer larger, CoWoS wafers per cabinet will only be larger than 5.39, not smaller.
+## 3. Advanced packaging: the clearest first-party short-term bottleneck
 
-Commercial meaning. Prepayments turn the packaging ceiling into quota. NVIDIA FY26 supply commitments from $95.2B to Q1 FY27 $119.0B (judgment; 10-K original prepaid manufacturing and capacity agreements, not split to TSMC or CoWoS). TSMC's resource allocation reflects long-duration orders, prepayments, utilization, roadmap certainty, customer diversification, pricing, and geopolitical risk. High-value AI/HPC demand can compete strongly for incremental packaging, but no deterministic rule that "the first buyer automatically gets the increment" is assumed. Geopolitically, lithography is in Europe, foundry and packaging in Taiwan, HBM in Korea. A chips act can copy a building. It cannot copy the time of three queues lining up at once.  the supply-chain fight is a fight for alignment, not a fight for one isolated fab.
+TSMC has repeatedly described advanced-packaging capacity as very tight.
 
-The two lines cannot be added into "eight TSMC wafers per cabinet." 2.9 eats front-end 4nm-class logic, and competes with Apple and Qualcomm for the same Gigafab's leading-edge node, but not for the same reticle queue: phones want small chips and high yield; cabinets want dual dies near the reticle limit. 5.39 eats back-end interposers. Phones almost do not enter this pool. Adding 2.9 and 5.39 and then dividing 15.00 million is the third use of the wrong pool.  TSMC can be full on logic and short on packaging at the same time — C.C. Wei in 2Q26 welcomed Intel EMIB "sharing a bit of the load" precisely because the front end still wants to sell more and the back end is already jamming customers. Packaging revenue just over 10%, logic still the company's body, is not a contradiction: the short board can be the small head of revenue.
+The company said in 2024 Q4 that it could not meet all customer needs.
 
-### 3.3 HBM: Micron's ~3× trade ratio is first-party; the draft yield formula is not
+By 2026 Q2, management said packaging capacity was tight enough to **limit customers' growth**.
 
-Maker won and 51% bits: [Volume 5](vol-05.md). This essay takes only: 51% is bits, not revenue. RDIMM is already inside this 51%. Server commodity DDR5 is not another river. If clouds restack inference on DDR5, they are grabbing residual already on this half, adding tax, not opening a new river. Micron's ~3× trade ratio is first-party evidence; the earlier version's self-derived 3:1 formula is not.
+TSMC also disclosed advanced packaging + testing at approximately:
 
-Micron does not supply an official "3:1" formula. 10-K (fiscal year ended 2025-08-28) original: the same bits, same node, HBM needs more wafers and more cleanroom. Hot Chips 2026 floor notes (ServeTheHome): same-capacity HBM3E consumes about 3× the silicon of DDR5 — design architecture, advanced packaging, and manufacturing complexity together. Tom's Hardware headlines in the same direction. The ~3× ratio is A-grade first-party Micron evidence. The ~3× value is already first-party Micron evidence, but it should not be reinterpreted as a universal factory split, and still less to a factory split of "one HBM wafer for three DDR5 wafers." The earlier version's \((0.95)^{12}\times 0.90\) and "1,200 versus 400" are a diagram, not a warehouse count. This essay does not use them. Working magnifications that stack another yield layer of the 8.6 / 13.2 type: evidence-03 explicitly does not write them.
+- **8% of revenue in 2024**;
+- slightly above **10% in 2025**.
 
-Cabinet count times spec: [Volume 16](vol-16.md). What residual looks like on maker books: [Volume 5](vol-05.md): what rose is cabinets, not phones and PCs.
+The key evidence boundary is:
 
-## 4. Scenarios, counterarguments, and testable indicators
+> **Packaging tightness is first-party fact. Customer-level CoWoS allocation is not publicly disclosed by TSMC.**
 
-2026 shipments 16–17 million, capex-budget revisions, low-teens packaging revenue: all outlook. Seller 1.00 million wafers / 595,000 wafers / 93k–140k wafers/month fight each other. They are only used to mark the halfway order of magnitude. They remain capacity scenarios unless later first-party disclosures confirm them.
+That makes advanced packaging one of the clearest observable short-term delivery constraints.
 
-Scenario A: advanced packaging remains the binding short board. C.C. Wei in 2Q26 already said it limits customer growth. Even if CoWoS ramp walks to the seller-written 100k-wafers-per-month class, 5.5× and 9.5× reticles press down how many units one wafer can yield, wafers per cabinet larger than 5.39. Halfway still sits near 100,000 cabinets, not 835,000. The investment watch is lead time and "tight / limits growth" on the call, not whole-fab shipments.
+## 4. The 5.39 wafers-per-rack coefficient is a geometry stress test
 
-Scenario B: the short board moves from packaging to HBM and power. After packaging loosens a bit, cabinets still cannot ship, because 13.4 TB/cabinet and grid interconnect are still there. Hynix operating margin 49%, HBM revenue doubling, says the maker has no financial reason to cut lines back to consumer. TrendForce has already assigned half of 2026 bits to HBM+RDIMM. Consumer electronics pays residual tax (Huaqiangbei channel oral 16G DDR5 450 yuan to 1,800 yuan, not maker ASP).
+The report's working relation is:
 
-Scenario C: N2 / A16 ramp lifts process quotes another bin. Mid-tier buyers exit the first-silicon queue, but packaging is still the quantity gate. Before 2nm has a standalone revenue row, "locking 2nm" cannot be written as already happened. A16's Super Power Rail is for HPC, not for phones. Phones keep locking another queue on 3nm / N2P.
+```text
+72 GPU packages
+÷ 13.4 packages per CoWoS wafer
+≈ 5.39 CoWoS wafers per rack
+```
 
-Counters: writing TrendForce 72% as "top-tier AI foundry 95%"; writing 130k wafers/month as already realized in 2026; writing 5.39 into the annual report; treating 835,000 cabinets as a buildable cabinet-count ceiling; turning Micron's ~3× industry trade ratio into a universal fab-control law; treating "sold out through 2026" as C.C. Wei verbatim. 0.95 and 0.90 in the formula are settings, not a metrology certificate from a line.
+The **72** is tied to the official NVL72 configuration.
 
-Testable indicators: whether TSMC-call 3nm revenue share is still above 24%, and when N2 becomes its own row; whether HPC keeps pressing past phones; whether first customer is still walking up near 19%; whether packaging plus test walks from a bit over 10% to low-teens; whether C.C. Wei still uses tight / cannot meet / limits growth; whether TrendForce foundry share 72% / 6.5% / 5.1% loosens; whether Hynix still discloses a large year-on-year HBM-revenue increase, and whether operating margin stays near 49%; whether HBM+RDIMM is still written as more than half of DRAM bits. Until TSMC itself reports CoWoS monthly capacity, treat it only as seller tracking.
+The **13.4 packages per wafer** term is a geometry assumption.
 
-The three ceilings have different observation frequencies. Mixed wafer revenue changes by quarter, good for watching whether HPC is still pulling increment. Packaging watches call wording and revenue share, not outside monthly-capacity tables. HBM watches maker revenue direction and bit structure, not a fake yield formula. Covering all three with one "semiconductor ETF" averages the short-board shift away. This essay's use is to force the three apart: process is an entry ticket for a few buyers; packaging is the quantity gate; HBM is a blood-draw on consumer goods. The short board 2025 official sources most clearly support advanced packaging as the bottleneck; the memory short board is hardening; 2nm has just entered volume; price screening does not yet have an annual-report row that can be checked.
+The resulting **5.39** is therefore **D-grade engineering geometry**.
 
-National strategy in the manufacturing fight is often written as "rebuild a TSMC." On the annual report, this fab must have N2 yield, CoWoS-class packaging, and HBM on the Korea side at once. Even if the entry tickets are assembled, without packaging and HBM it still cannot spit out the dual die NVL72 wants. The correct national question is not "whether to build a fab." It is which of the three ceilings is the shortest short board on one's own side. Fill the wrong short board and you get an asset that can cut a ribbon and cannot supply. For investors: first ask whether the present short board is process, packaging, or HBM, then decide which slice to overweight. Overweighting all three at once is refusing to admit the short board will move. In 2023, whoever saw packaging tight matched lead times. In 2025–2026 official sentences have already upgraded from cannot meet to limits growth. The same discipline still applies. The window is these few years before next-generation first silicon is locked by commitments, not waiting on 835,000 cabinets.
+It is not:
 
-The 19% customer-revenue figure also requires careful interpretation. Customer A's share fell from 25% in 2023 to 22% in 2024 to 19% in 2025, while Customer B rose from 11% to 12% to 17%. Split them: 2025 first-name revenue jumped from NT$352.271B to NT$726.974B, almost doubled; share fell only because the denominator (company-wide revenue) rose faster. Customer B absolute revenue walked almost sideways (NT$624.345B to NT$645.179B); share was lifted because others rose and it did not. Jensen Huang calling himself the largest customer is another line. The 20-F does not name names. This essay does not write 19% as NVIDIA. What can be written: increment is in HPC; whoever captures more of the increment gains greater influence over the next product cycle. 19% is a full-year average, not CoWoS share, and not 2nm first-silicon share.
+- a TSMC-disclosed yield;
+- a front-end logic-wafer coefficient;
+- a customer-allocation disclosure.
 
-HBM's macro consequence also does not need 3:1 to stand. In a traditional DRAM down-cycle makers cut output, consumer electronics benefits. Now makers turn lines toward cabinets. Consumer electronics is hurt in the up-cycle and is not necessarily compensated in the down-cycle. Memory is no longer only a cycle good. It is also an accessory mine for the cabinet. The China stack: [Volume 12](vol-12.md).
+The coefficient is useful for scenario stress tests.
 
-## 5. Gaps and what must not be treated as fact
+It is not valid to divide TSMC's full annual wafer shipments by 5.39 and claim a global rack-production limit.
 
-TSMC CoWoS monthly capacity, official full-year wafers, packaging wafers by customer: neither the annual report nor the calls have them. How many B200s one CoWoS wafer yields: no official number. 5.39 is a calculation. C.C. Wei shareholders'-meeting verbatim "sold out through 2026": not found in the official shareholders'-meeting text opened. 2nm / N2P / A16 revenue share: not in the table. Quotes $10,000–$40,000, one fab $20–$25B, High-NA $380 million: draft numbers, not checked in the annual report this essay, not promoted. Vera Rubin "exclusive" is a earlier scenario tilt, not a signed exclusive contract. Seller 1.00 million wafers, 595k–630k wafers, 93k or 140k wafers/month: not a TSMC line item, and the two houses still disagree. Micron's ~3× HBM3E-versus-DDR5 trade ratio is official first-party material; the 12-layer 48.6% self-derived formula is not. 1,200 versus 400: a diagram. Hynix FY25 does not split DRAM / NAND dollars, and does not report full-year HBM bits. CXMT prospectus full text 0 mentions of HBM; 350k wafers/month is not an announcement. This essay does not borrow it. This essay read TSMC's 2025 annual-report site and shareholder letter, 4Q25 management-report scope, 4Q24 / 4Q25 / 2Q26 call paraphrases, two official TrendForce pieces, the Hynix FY25 press release. It does not claim every page of the 20-F was audited, and did not open the Morgan Stanley original PDF.
+That mixes different physical pools.
+
+## 5. Why the “835,000 racks” style calculation fails
+
+TSMC's full-fab wafer shipments include:
+
+- smartphones;
+- automotive;
+- IoT;
+- mature-node products;
+- many non-CoWoS flows.
+
+CoWoS is a back-end advanced-packaging pool.
+
+Front-end logic wafers are another pool.
+
+A rack can consume both, but their coefficients cannot be added or applied to the same denominator.
+
+This is the central quantitative discipline:
+
+> **Do not divide a packaging coefficient into a foundry-wide front-end wafer total.**
+
+A model can look arithmetically clean while being physically meaningless.
+
+## 6. HBM: manufacturing pressure exceeds simple bit share
+
+Micron disclosed that HBM3E requires roughly **3× the wafer supply of DDR5** for the same number of bits at the same technology node.
+
+This is **A-grade first-party evidence**.
+
+TrendForce estimates that HBM + RDIMM represent about **51% of 2026 DRAM bits**.
+
+Together, these observations show why AI/server memory can consume a disproportionate share of manufacturing input.
+
+The ~3× figure is not:
+
+- a price multiple;
+- a permanent universal constant;
+- a fab-accounting identity.
+
+It is a defined industry trade ratio.
+
+## 7. Scarcity moves across the three ceilings
+
+The binding constraint can migrate.
+
+### If packaging is tight
+
+Logic exists, but complete systems cannot be assembled fast enough.
+
+### If packaging loosens
+
+HBM or power may become the next bottleneck.
+
+### If HBM expands
+
+Leading-edge logic, power, or utilization can become more important.
+
+This is why the report uses the **Rolling Bottleneck Cascade** rather than declaring one layer permanently dominant.
+
+## 8. Customer concentration must be read carefully
+
+TSMC's largest customer represented **19% of 2025 annual revenue**.
+
+That is not:
+
+- 19% of CoWoS;
+- 19% of N2;
+- 19% of frontier-AI wafers.
+
+Revenue share can change because the numerator changes, the company-wide denominator changes, or both.
+
+The forward strategic question is therefore not historical share.
+
+It is **incremental scarce-capacity capture** across each physical layer.
+
+## 9. Current macro judgment
+
+As of August 2026:
+
+- advanced logic remains highly concentrated;
+- N2 has entered production but customer allocation remains undisclosed;
+- advanced packaging is explicitly described by TSMC as growth-limiting;
+- HBM's manufacturing-input intensity is confirmed by Micron;
+- cloud custom systems continue to bid for the same upstream resources.
+
+The correct macro picture is:
+
+> **process is the entry ticket, packaging is a quantity gate, and HBM is a manufacturing-input multiplier.**
+
+The shortest of the three determines how many complete frontier systems can actually leave the line.
