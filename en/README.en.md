@@ -86,14 +86,14 @@ Evidence grades are kept separate from scenario confidence. First-party evidence
 
 ## Eight macro essays
 
-1. [The Means-of-Production Revolution and the Overall Judgment](part2-01.en.md)
-2. [AI Platform Concentration and NVIDIA's System-Level Power](part2-02.en.md)
-3. [Physical Manufacturing Limits and the Global Semiconductor Supply-Chain Contest](part2-03.en.md)
-4. [Hyperscaler CapEx, System-Stack Counterattack, and Architecture-Driven Cost Reduction](part2-04.en.md)
-5. [Resource Reallocation and Cost Transmission into Consumer Electronics and the Real Economy](part2-05.en.md)
-6. [The Energy War and Physical Grid Constraints](part2-06.en.md)
-7. [The Capital Supercycle, Clearing Risk, and Extreme Stress Tests](part2-07.en.md)
-8. [U.S.–China Compute Competition and the 2036 Endgame](part2-08.en.md)
+1. [Macro Essay 1: The Means-of-Production Shift and the Overall Judgment](part2-01.en.md)
+2. [Macro Essay 2: Platform Concentration and NVIDIA's Hardware–Software System Power](part2-02.en.md)
+3. [Macro Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply Contest](part2-03.en.md)
+4. [Macro Essay 4: Hyperscaler CapEx, System-Stack Counterattack, and DeepSeek's Architecture-Driven Cost Reduction](part2-04.en.md)
+5. [Macro Essay 5: Resource Reallocation and Cost Transmission into Consumer Electronics and the Real Economy](part2-05.en.md)
+6. [Macro Essay 6: The Energy War and Physical Grid Constraints](part2-06.en.md)
+7. [Macro Essay 7: The Capital Supercycle, Bubble Mechanisms, and Extreme Stress Tests](part2-07.en.md)
+8. [Macro Essay 8: U.S.–China Compute Competition and the 2036 Endgame Decision Tree](part2-08.en.md)
 
 ## Core research infrastructure
 
