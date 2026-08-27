@@ -32,9 +32,9 @@ NVIDIA 相关 rack 文档给出的 GB200 NVL72 设计功率约 **120 kW/rack**�
 
 约 500 个 120 kW rack，仅 IT load 就达到：
 
-[
-500 	imes 120 kW = 60 MW
-]
+```text
+500 × 120 kW = 60 MW
+```
 
 这只是 IT power，不包含完整 facility overhead。
 
@@ -126,10 +126,9 @@ Google 与 Kairos 的开发协议目标最高约 **500 MW**。
 
 因此：
 
-[
-Queue MW 
-eq Deliverable AI MW
-]
+```text
+Queue MW ≠ Deliverable AI MW
+```
 
 真正需要观察的是：
 
