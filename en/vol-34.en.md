@@ -69,7 +69,7 @@ Drawing the chain as US design, Taiwan manufacturing, Korea memory, Dutch lithog
 
 CHIPS-style policy most easily promises the bottom of the ladder. The US $39.0B manufacturing incentive, TSMC Arizona up to $6.6B, Intel up to $7.86B, Europe Dresden EUR 5.0B, all land on the bottom and the middle: build fabs, buy tools, invite foundry onshore to ship auto and industrial nodes. The top is still the EUV queue, Japanese materials qualification, and Taiwan's advanced-packaging slots. Dresden writes 28 to 12 nm. That is exactly the point: money can invite TSMC. It cannot invite the training-cabinet line.
 
-A latecomer must climb the same ladder and also cut into an equipment queue the incumbent has already locked. Supply commitments rose in three months to $119.0B. That is the first name buying slots with profit. A home fab, even if its investment approaches the news figure, will still sit where it can be advertised and cannot yet supply training cabinets. False plurality is a stable state: politically plural, technically still a single point.
+A latecomer must climb the same ladder and also cut into an equipment queue the incumbent has already locked. Supply commitments rose in three months to $119.0B. That shows how strong cash flow and long-duration commitments can reinforce access to future capacity. A new domestic fab may improve geographic diversity before it becomes a production-equivalent frontier-AI second source. The result can therefore be political plurality without immediate technical substitutability.
 
 ## 13. Who can wait, who cannot
 
