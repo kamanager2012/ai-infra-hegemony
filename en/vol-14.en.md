@@ -1,106 +1,131 @@
-# Volume 14: AI Infrastructure Value-Capture Map — Profit Pools and Residual Pressure
+# Volume 14: AI Infrastructure Value-Capture Map — Who Captures Profit and Who Bears Residual Pressure
 
-Chinese original: [vol-14.md](vol-14.en.md)
-
-Scarce-layer value capture and seller-side economics are in [Volume 1](vol-01.en.md). Non-AI Residual Capacity is in [Volume 5](vol-05.en.md) and [Volume 9](vol-09.en.md). AI Software Unit Economics is in [Volume 27](vol-27.en.md). This volume maps where value is captured, where capital intensity sits, and where residual pressure is transmitted.
+Chinese original: [vol-14.md](../vol-14.md)
 
 ## 1. Core question
 
-Which layers of the AI infrastructure stack can capture durable economic value, and which layers mainly absorb capital cost, utilization risk, or residual supply pressure?
+Which layers capture durable economic value from the AI infrastructure buildout, which layers mainly absorb capital expenditure and depreciation, and which downstream markets bear residual supply pressure?
 
-The answer cannot be reduced to a winner/loser list based on one year's gross margin. The report distinguishes:
+The report does not classify an industry as a “winner” merely because its revenue grows, and it does not classify an industry as a “loser” merely because input costs rise. The correct map separates **scarcity-layer value capture**, **system/platform value capture**, **capital-intensive capacity ownership**, **application/workflow economics**, and **residual-capacity pressure on non-AI markets**.
 
-- **system platforms** — integration, software, interconnect, and rack-scale value capture;
-- **foundry and advanced packaging** — high capital intensity plus scarce manufacturing capability;
-- **memory** — HBM/server demand, cyclical capacity, and wafer tradeoffs;
-- **hyperscalers** — enormous scale but heavy CapEx and depreciation;
-- **power / interconnection** — long-duration scarce infrastructure;
-- **AI software** — outcome pricing and variable inference/tool/review cost;
-- **consumer/general-purpose computing** — exposure to residual-capacity pressure.
+## 2. Current evidence anchors
 
-The same company can be a scale winner and a return-on-capital loser in different scenarios.
-## 2. Evidence boundary
+### NVIDIA system platform
 
-Historical versions used a single 60%–75% “bottleneck margin” band, fixed consumer cost inflation, a 40-month replacement cycle, cabinet BOM estimates, and a SaaS 85%→55% margin path. Those values do not form a valid cross-industry profit-pool table.
+NVIDIA FY27 Q2 revenue was **$96.221B**, Data Center revenue **$89.0B**, GAAP gross margin **75.0%**, and operating income **$63.734B**. This demonstrates exceptional seller-side value capture in the current system-stack cycle.
 
-Current analysis relies on:
-- NVIDIA's seller-side financials and system-stack economics;
-- TSMC's foundry and packaging disclosures;
-- SK hynix / Micron / Samsung memory economics;
-- hyperscaler company-wide CapEx and asset duration;
-- formal power-project status;
-- AI Software Unit Economics rather than a fixed SaaS endpoint;
-- Non-AI Residual Capacity rather than a universal consumer “tax.”
+### TSMC and advanced manufacturing
 
-The objective is to map mechanisms, not manufacture a precise ranking from incomparable accounting denominators.
-## 3. Push the mechanism (physics / commerce / geopolitics)
+TSMC's 2025 HPC platform share was **58%**. Advanced packaging/testing contributed slightly above **10%** of revenue, while management repeatedly described packaging capacity as tight and capable of limiting customer growth. A smaller revenue layer can therefore still be a binding delivery constraint.
 
-### 3.1 Profit, increment, the binding line, and foundry share
+### Memory
 
-Scarce-layer value capture is in [Volume 1](vol-01.en.md). The increment in HPC and booked 19% are in [Volume 4](vol-04.en.md). The binding line at CoWoS is in [Volume 24](vol-24.en.md). Foundry share 72% is in [Volume 4](vol-04.en.md). This volume does not reopen them. It only draws winners and losers: who collects scarcity value, who pays the residual-capacity pressure.
+Micron disclosed that HBM3E requires roughly **3× the wafer supply of DDR5** for the same node and bit capacity. SK hynix reported FY25 operating margin of **49%** and HBM revenue that more than doubled year over year. Higher resource intensity plus strong demand gives memory makers substantial bargaining power while the cycle remains tight.
 
-### 3.5 System platforms, memory, and packaging capture value through different mechanisms
+### Cloud capital
 
-Draw the map on the platform-control layers, not on an industry catalog.
+Hyperscalers are spending at historically high levels, but their CapEx is company-wide and sits on the buyer side of the system. High spending does not automatically imply high AI-specific returns. The economic test is utilization and monetization across the life of the assets.
 
-The system-sales layer currently captures substantial value: FY26 Data Center revenue was **$193.737B**, and FY26 free cash flow was **$96.575B**. Asset-light: capex is tiny versus revenue; residual value is mostly not on its own balance sheet. The software/interface layer wins on the switching tax: a unified compute architecture is a ten-year developer stack. UXL and oneAPI exist. They are digging. They have not dug through. Hardware can be cheap. The switching tax is still there. A 75% pad means it can also cut price. The roadmap and supply-coordination layer wins on the mix: Hopper to Blackwell to Rubin, with HBM, advanced packaging, and interconnect scheduled together. The model/deployment extension has products. That is not the winners' main book. Writing "they train models" as a second profit pool splits the platform-control layers into an ordinary chip firm and an ordinary software firm. The question leans.
+### Consumer transmission
 
-The three memory makers who follow the price are the second ring of winners. SK hynix FY2025 official press release: revenue KRW 97.1467T, operating profit KRW 47.2063T, operating margin 49%, net profit KRW 42.9479T. Prior-year control: revenue KRW 66.1930T, operating profit KRW 23.4673T, operating margin 35%. One year from 35% to 49% is a snapshot of HBM pulling memory from a bulk cycle toward a "compute attachment." It is not a permanent tax regime. Hynix itself wrote that HBM revenue more than doubled in a year. New fabs are named for AI. Samsung Memory and Micron actively moving wafers and high-value capacity toward cabinets is the same floor. After the three turn to high price, the residual is thinner. A few dozen brands split what is left. That holds up "no bundle, no commodity-bit long." Once memory walks from shortage back to bulk, 49% can snap back to a 2023-style loss year. Whether chip scarcity value is terminal depends on whether the penalty ratio is still there, not on one year of operating profit.
+TrendForce reported severe 2026 memory-price pressure in smartphones and other consumer markets. These effects are better described as **residual-capacity pressure and cost transmission** than as a universal “AI tax” with one fixed percentage.
 
-Packaging is the third ring. TSMC packaging and test from 8% to slightly over 10%. C.C. Wei said it is so tight it limits customer growth, and that the majority is still chip-on-wafer-on-substrate. Advanced-packaging revenue share is still far smaller than wafers. The gate is here. Sell-side puts NVIDIA at about 60%. Once past half, what the second name wants is not a bit more money. It is whether a slot exists. Packaging houses and substrate vendors pulled along eat the overflow. They eat the slice the roadmap and supply-coordination layer cannot schedule. They do not eat the software/interface layer.
+## 3. Value-capture layers
 
-Power and interconnection can become a separate scarce-infrastructure value-capture layer, but project economics depend on contract structure, energization, utilization, and duration. The master judgment writes "power stops the buildout" as one of five interrupts. It has not won. Counterparties who can sign a baseload long have a chance to collect scarce scarcity value. Unit megawatts and PPA dollars that cannot be written do not enter the fact layer. historical stress-test material pointed at 835 MW and 960 MW. the current evidence review does not recheck them. They are not a completed winner cell. Power is a constraint, not the platform-control layers themselves.
+### 3.1 System-stack platforms
 
-### 3.6 First-wave residual pressure falls on consumer and general-purpose computing
+A platform captures more value when it controls several complementary layers at once: accelerator systems, interconnect, compiler/runtime interfaces, rack/pod architecture, deployment tooling, and installed workloads.
 
-The first wave is not "manufacturing digitalization paying cloud scarcity value." It is PCs, commercial PCs, general-purpose servers, phones, and game cards, competing with cabinets for the same slice of packaging and the same slice of high-price memory. Those who cannot compete pay a residual-capacity pressure: longer lead times, higher bit prices, longer replacement. Those who can still get a node down and a bit down. Brand extinction stays a scenario. No names. Not written as a loser list that already happened.
+The economic advantage is not simply market share. It comes from reducing the number of components a customer can substitute independently. If switching hardware also requires changes in kernels, communication primitives, scheduling, topology, validation, and operations, the platform has a system-level moat.
 
-Phones are still here. TSMC's smartphone platform in 2025 was still 29%, still up 11% year on year. The river did not dry. What changed is the increment: HPC up 48%, revenue share from 51% to 58%. Flagships keep paying leading-edge ASP. Mid and low end go back to mature nodes. Draft SoC quotes, controller share of BOM above 30%, replacement beyond 40 months — the current evidence review did not recheck the original reports. They stay historical stress-test claims. What can be confirm is the platform table and the packaging sentences: phones are still here, but they are not who the roadmap and supply-coordination layer feeds first.
+NVIDIA is the clearest current example. The important counterforce is the rise of hyperscaler system stacks—Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA—which can divert internal workloads and reduce platform profit even if they still consume the same upstream scarce resources.
 
-PCs and game cards have already been conceded by the system-sales layer. Consumer accelerators and the data center queue in the same supply-commitment book. Official text writes Blackwell and Ada supply as limited. That is not an analyst guess. PCs pay a memory residual pressure, plus missing discrete GPUs. Commercial PCs still have to pass security management and long-cycle driver certification. Advanced packaging will not yield this slice. General-purpose servers and AI cabinets are not the same order, but they compete for memory makers' wafers. TrendForce official copy: 51% of 2026 DRAM bits are HBM plus RDIMM. Registered DIMMs are already inside that half "for cabinets." If a general-purpose server is still buying DDR5 RDIMMs, it is buying residual after the pull, and the price follows the residual. Official cabinet: 13.4 TB plus 17 TB. 10,000 cabinets is 134 PB of HBM. That is the product page multiplied. It is not a shipment forecast.
+### 3.2 Advanced foundry and packaging
 
-CPUs are demoted, not extinguished. Data-center revenue has already left gaming and automotive far behind. Grace is still on the cabinet BOM, 36 versus 72 accelerators. It is an accessory. The profit center is not there. Intel 1999 share-era scarcity value does not map onto selling cabinets today. Applied in this volume: CPU vendors are still here, but they are accessories. Writing "already dead" crosses the scenario line.
+TSMC captures value from leading-edge manufacturing, but foundry economics and system-platform economics have different denominators and capital structures. Advanced packaging can be a bottleneck even when it is a smaller revenue line than front-end wafers.
 
-Traditional seat-license software gross margin from 85% to 55% is a draft assertion. It names no 10-K and no year. The mechanism is plausible: seat-license marginal cost is near zero; an agent has to write every inference into COGS. No sample, and it does not enter the fact layer. Whoever only announces an assistant product and does not change revenue recognition and COGS structure is sticking a label on the old profit pool. This volume does not draw that sentence onto the winner-loser map.
+The key analytical variable is not “who owns the whole fab.” It is how incremental advanced capacity is allocated among customers with different order scale, prepayments, credit quality, utilization, roadmap certainty, and geopolitical constraints.
 
-### 3.7 Clouds are buyers. The depreciation book is harder
+### 3.3 HBM and server memory
 
-The four clouds are scale winners and conditional profit winners, not sellers bidding against 75%. Capex scope is in [四云Capex口径核对](四云Capex口径核对.md). NVIDIA revenue and four-cloud capex cannot be knocked against each other. The two sides are different accounts. Cloud ASICs have not retreated to 5nm plus commodity DDR5. Specs are in [Volume 4](vol-04.en.md). The winner condition is AI incremental revenue covering hardware depreciation without punching through group gross margin. The loser condition is capex ahead of workflow monetization, the cloud becoming a utility that keeps accelerators for customers.
+HBM converts AI demand into disproportionate wafer and cleanroom consumption. While HBM and server-memory demand remain strong, memory makers can capture scarcity value and prioritize higher-value products.
 
-### 3.8 Geopolitics: two winner tables. The China market cannot save global cabinets
+This value capture is cyclical rather than guaranteed. If AI demand weakens, HBM supply expands too far, or conventional-memory capacity returns rapidly, memory margins can compress sharply. A high-margin year should not be mistaken for a permanent structural monopoly.
 
-Firms that can enter CUDA and advanced packaging keep collecting dollar scarcity value. In regions locked out by controls, winners become systems integrators and algorithm firms on a substitute stack. Their margin band does not automatically equal 75%. China's parallel stack can alter regional supply and competition, but frontier-AI substitution remains a system-level question rather than a single regional demand offset. The closed loop is in [Volume 12](vol-12.en.md). The five interrupts are in [Volume 8](vol-08.en.md). The case file is in [Volume 11](vol-11.en.md).
+### 3.4 Power and interconnection
 
-## 4. Scenarios, counterarguments, and testable indicators
+Power providers, grid-connected sites, restartable generation, transformers, and interconnection rights can capture scarcity value where compute demand exceeds executable power supply.
 
-Push forward from the numbers now on the table. No extra probabilities. A four-scenario probability table does not enter the fact layer.
+But contracted MW is not energized load. Power assets also carry long duration. The same PPA or interconnection asset that is valuable in S2/S3 can become utilization risk in S4. Power is therefore a scenario-dependent scarcity layer, not an automatically winning asset class.
 
-Scenario A: bottleneck scarcity value continues. NVIDIA gross margin stays near 71% to 75%; Q4 was already back to 75%. Hynix operating margin stays high. TSMC HPC holds the first platform. Packaging and test stays above 10%. C.C. Wei still says tight. Prepayments keep rising. About 100k cabinets take more than half of this packaging line. The first wave keeps paying the residual-capacity pressure. Phone revenue at 29% is still there. New lines and packaging go to cabinets first. Consumer-electronics brand extinction is still only a scenario, not a base-case fact.
+### 3.5 Hyperscalers
 
-Scenario B: clouds digest internally. The four clouds run past depreciation on ads, office, and internal recommendation. External APIs can lose; internal efficiency still counts as a win. External model firms fare worse. Cloud ASICs stay on 3nm plus HBM and bid against 75%. They do not retreat to commodity memory. Scale winners are still the four clouds. Profit winners are still four-corner hardware.
+Cloud companies occupy a mixed position: they are large buyers of AI infrastructure; they own data centers and power arrangements; they distribute external model and software demand; they build internal accelerators and system stacks; and they can monetize AI indirectly through advertising, productivity, search, commerce, and internal efficiency.
 
-Scenario C: algorithm deflation. Training and inference costs move down the DeepSeek path. historical stress-test material wrote KV-cache compression 93.3% and pretraining converted at about $5.576M. This volume did not recheck the technical report. Hardware ASP is under pressure. Winners move from chips to applications that can still lock data and workflow. This scenario only holds if cabinet prices and prepayments come down together. Supply commitments rose $23.8B in three months. The direction is the opposite.
+Their economic outcome cannot be read from CapEx alone. A hyperscaler can spend heavily and still create value if utilization and incremental revenue are high. It can also destroy value if hardware, buildings, and power commitments outrun monetization.
 
-Scenario D: hard landing. The cell where calls rise and unit price falls appears. Destocking. Memory and foundry are hurt before software. Hynix 49% returns to a cyclical loss. TSMC HPC share falls back. The first wave briefly gets mature nodes flowing back. What flows back is a node down, not same-generation advanced packaging.
+### 3.6 Model companies and AI-native software
 
-Objection 1: clouds are the biggest winners, because customers cannot leave. 2024 and 2025 revenue support "large." Capex and depreciation support "brittle." Winning or losing is whether incremental revenue covers the halls. Do not replace the income statement with market cap. Objection 2: booked 19% means Apple is still there, so it is safe. The annual report itself writes the first name up from 12% and the second name down from 22%, with HPC already at 58%. A safe distance is measured on the increment, not on a full-year blended share. Objection 3: 5.39 is made up. It is an estimate. The numerator 72 is official. The denominator about 13.4 is a geometry working assumption. Using it on the full-factory 15,022 thousand wafers is what is made up. Objection 4: consumer electronics will pass cost through by raising price. What can be confirm is official limited supply on game cards, and half of DRAM bits already written to cabinets. Objection 5: a Samsung Taylor long will split foundry concentration. The announcement is a parallel line. No monthly wafers. It cannot take the Western flagship-chip queue.
+Model companies control weights, product distribution, proprietary data, workflow integration, and user relationships, but they do not automatically control the physical infrastructure underneath them.
 
-Testable marks, observation items only. Go back to the makers and the original press releases. This volume does not audit for them. Whether NVIDIA gross margin is still 71% to 75%; whether supply commitments keep leaving $119.0B. Whether TSMC HPC is still above 58%; whether packaging and test is still above 10%; whether C.C. Wei still says tight; whether the first customer keeps leaving 19%. Whether TrendForce foundry revenue share is still above 70%. Whether Hynix operating margin stays high. Whether game cards are still written as supply-limited. Whether HBM plus registered DIMMs are still written by institutions as more than half of bits. Whether the four clouds' cash-flow statements split out an AI line item — if not, do not invent one.
+Their economics should be measured with **AI Software Unit Economics** rather than a fixed SaaS-margin assumption:
 
-## 5. What this volume cannot write as fact
+```text
+AI_Gross_Margin
+=
+(Revenue
+- Model_Inference_Cost
+- Retrieval_Storage_Cost
+- Tool_API_Cost
+- Human_Review_Cost
+- AI_Specific_Cloud_Cost)
+/ Revenue
+```
 
-TSMC has no CoWoS monthly capacity, no official full-year wafer count, and no packaging wafers by customer. C.C. Wei at the shareholders' meeting, verbatim "sold out through 2026," was not found. How many B200s come off one advanced-packaging wafer has no official number. Samsung Taylor 16k / 24k / 40k wafers per month is not in the announcements. Do not convert HPC 58% or 3nm 24% into tens of thousands of wafers. The report does not treat TrendForce 72% as a share TSMC itself reported. NVIDIA at about 60%, 595,000 wafers, is a sell-side paraphrase. 100k cabinets taking more than half is a sell-side pool times an estimate. 835,000 cabinets is void.
+The strongest model/software businesses will be those that create enough workflow or outcome value to cover compute while preserving distribution and switching costs. Pure per-token scarcity is more vulnerable to open models and price competition.
 
-Seat-license gross margin from 85% to 55% has no company and no year. It does not enter the fact layer. Cabinet software premium and switch gross margin were cut by the frame. Consumer-electronics purchase cost, SoC quotes, 40-month replacement, and robot BOM were not rechecked in the current evidence review. They stay historical stress-test claims. Nuclear-unit megawatts do not enter the fact layer. $215B is not an AI-hardware line item. 2026 $670B to $750B is a forecast, unverified; do not treat as an audited fact. This volume does not claim to have audited a 10-K.
+## 4. Who bears residual pressure?
 
-There is no industry-by-industry profit-pool table, no named loser list, and no first-wave unit-shipment control. What can be written is the mechanism: they compete with cabinets for the same slice of packaging and the same slice of high-price bits. The result is in TSMC's platform table and the packaging sentences.
+### 4.1 Smartphones
 
-## 6. Split scale winners from profit winners
+Smartphones still represent a major TSMC platform and continue to ship at scale. The issue is not disappearance. It is that AI/HPC can absorb a larger share of incremental leading-edge and memory resources, increasing cost or slowing upgrades at the margin.
 
-The map must split scale winners from profit winners, or four-cloud revenue will hide depreciation. On revenue, all four clouds are larger than NVIDIA. On gross margin, free cash, and prepayments, NVIDIA turns the scarce slice itself into cash. TSMC's 59.9% gross margin is manufacturing scarcity value that has to keep sinking heavy capital to hold the bottleneck. Hynix 49% is attachment scarcity value. Once the attachment returns to bulk, the tier collapses. The same firm can win on the revenue layer and lose on free cash flow.
+### 4.2 PCs and gaming
 
-Who the residual is pushed to is the cross-period dark line. NVIDIA is asset-light; residual value is mostly not on its own books. The clouds are asset-heavy; residual value sits in the halls. Phone and auto plants carry chips bought dear and inventory. The winner is the link that can push residual onto someone else and collect only definition-rights cash. That is compatible at once with 71% to 75% gross margin, free cash $96.6B, and supply commitments of $119.0B.
+PCs and gaming compete for some of the same advanced logic and memory resources used by data-center products. Where suppliers prioritize higher-value data-center demand, consumer products can experience constrained availability, higher component prices, or slower refresh cycles.
 
-Pricing power sits with NVIDIA, HBM makers, and power counterparties who hold a baseload block. Volume without pricing power: phone OEMs, model-API firms that must buy accelerators at the market, and demoted CPUs. The four clouds have volume and some pricing power, but group-wide capex makes that power conditional. TSMC sits in the middle: 59.9% says it is not a coolie; heavy capital says pricing power has to be bought again every year. Booked 19% is not a safe distance.
+### 4.3 General-purpose servers
 
-The world does not blow up. Upgrades stop one node down. One firm writes the rules. If those five are not done, the line walks past half of the scarce slice. The window is the few years before the next first-to-market node is locked by commitments. If Volume 14 is written again as a four-layer industry catalog, or if the seat-license margin assertion and consumer-electronics extinction are written as fact, the question leans. The map is an arrangement of observation marks, not a ranking.
+General-purpose servers do not use the same full rack-scale AI bill of materials, but they compete with AI infrastructure for server DRAM, power budgets, data-center space, and some upstream semiconductor resources. The pressure is partial and component-specific rather than universal.
+
+### 4.4 Traditional software
+
+Traditional software is not automatically a loser. The relevant distinction is whether AI adds monetizable workflow value faster than it adds inference, tool, review, and infrastructure cost. Products that can price by outcome or embed AI into high-value workflows may expand their profit pool; products that add expensive inference without new willingness to pay may see margin pressure.
+
+## 5. Scenario map
+
+### S1 — Competitive Expansion
+
+Supply loosens, cloud system stacks substitute effectively, and software portability improves. Scarcity premiums fall. Value shifts toward applications, workflows, and differentiated services.
+
+### S2 — Baseline Concentration
+
+System platforms, advanced manufacturing, HBM, packaging, and selected power assets retain strong value capture. Hyperscalers remain large but must manage depreciation and utilization carefully. Consumer markets bear moderate residual pressure.
+
+### S3 — Resource Hegemony
+
+Scarce-layer value capture intensifies. Long-duration commitments and prepayments reinforce leading platforms. Non-AI Residual Capacity remains constrained. The strongest profit pools sit closer to system platforms and physical bottlenecks.
+
+### S4 — Capital Hard Landing
+
+Utilization and forward commitments weaken. GPU/rack pricing and memory/packaging margins compress. Long-duration data-center and power assets clear more slowly. Applications with real workflow value may survive better than infrastructure projects built on weak utilization assumptions.
+
+## 6. Falsification and monitoring
+
+The map should be updated when the following change materially: NVIDIA Data Center growth, gross margin, and supply commitments; TSMC HPC mix and advanced-packaging tightness; HBM/DDR resource intensity and memory-maker margins; cloud system-stack production adoption; hyperscaler utilization and AI monetization; consumer-memory contract pricing and product-cycle behavior; signed power capacity versus actual energization; and model-company revenue quality and compute commitments.
+
+## 7. Boundary conditions
+
+This volume does not treat NVIDIA Data Center revenue as “all global compute rent,” use one fixed consumer cost-inflation percentage, assume a permanent 85% → 55% software-margin path, convert customer revenue share into wafer allocation, or classify every nuclear/power asset as a guaranteed winner.
+
+The durable conclusion is that **AI infrastructure redistributes value according to scarcity, substitutability, capital duration, and workflow monetization. Revenue growth alone does not identify the winner; control of a scarce or difficult-to-substitute layer does.**
