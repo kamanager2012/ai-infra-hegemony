@@ -1,139 +1,223 @@
 # Volume 11: Antitrust, Industrial Policy, and the Boundaries of AI Platform Power
 
-Chinese original: [vol-11.md](vol-11.en.md)
+Chinese source edition: [vol-11.md](../vol-11.md)
 
-Value capture and capital commitments are covered in [Volume 8](vol-08.en.md). Legal-status monitoring and statutory ceilings are tracked in [Volume 31](vol-31.en.md). This volume focuses on which parts of an integrated AI system stack competition policy can actually change.
+> Retrieval and revision cutoff: **2026-08-27**. Legal attention, a formal investigation, a complaint, a final decision, a fine, and a structural remedy are different states. This volume tracks those states separately and does not convert statutory ceilings into financial forecasts.
 
-## 1. Core question
+## 1. Why traditional antitrust analysis struggles with system-stack power
 
-NVIDIA combines accelerator systems, high-speed interconnect, a mature software/runtime ecosystem, rack-scale reference architectures, and model/deployment products in one platform. The antitrust question is therefore not reducible to accelerator market share. It is whether conduct or structure across interfaces, tying, supply terms, networking, and adjacent software can materially change switching costs and bargaining power.
+AI platform power is no longer concentrated in one product.
 
-Four distinctions govern the analysis:
+A leading system platform can coordinate several layers at once:
 
-1. **Inquiry ≠ complaint ≠ decision ≠ remedy.** Regulatory stages must be tracked separately.
-2. **A fine is different from a structural or interoperability remedy.** Monetary penalties may affect earnings without changing switching economics.
-3. **National-security policy and competition policy can pull in different directions.** Export-control documents establish national-security treatment of advanced compute; they do not prove that regulators have decided either to protect or to break up a platform.
-4. **Legal remedies do not directly manufacture physical capacity.** CoWoS, HBM, leading-edge logic, grid interconnection, and power remain separate constraints.
+- accelerators;
+- interconnect;
+- compiler/runtime;
+- rack reference design;
+- deployment software;
+- cloud or service channels;
+- adjacent model products.
 
-The current legal and financial evidence is evaluated under the same F → H → M → S → X discipline used across the report.
-## 2. Evidence boundary
+This creates a structural problem for market definition.
 
-Historical versions mixed market-power arguments with unverified cabinet BOMs, software-premium estimates, point estimates of switch-chip margin, and fixed 2036 concentration probabilities. Those inputs do not enter the fact layer.
+Each individual layer may have competitors while system-level switching cost remains high because several critical interfaces are coordinated by the same platform.
 
-The current evidence base is narrower:
+The central regulatory question is therefore not simply market share in one component.
 
-- public regulatory inquiries and formal procedural status;
-- statutory remedy and penalty ceilings;
-- NVIDIA's disclosed platform economics and supply commitments;
-- official product/interface facts;
-- TSMC and memory-side physical constraints;
-- clearly graded institutional estimates where first-party allocation data do not exist.
+It is:
 
-The report does not infer undisclosed ARR, customer-level capacity allocation, or legal remedies that have not occurred.
-## 3. Mechanism: integrated platform power, legal remedies, and physical constraints
+> **Does control across several interfaces make alternative system stacks materially harder to adopt?**
 
-**Integrated platform power spans multiple relevant layers.** NVIDIA combines accelerator systems, CUDA and related runtime interfaces, NVLink and rack-scale architectures, roadmap/supply coordination, and model/deployment products. The FY26 financial base is maintained in [Volume 1](vol-01.en.md). The economic issue is how these layers reinforce switching costs and bargaining power when assessed together.
+## 2. Fines and structural remedies have different economic effects
 
-Antitrust habitually cuts by relevant market: accelerators one slice, networking one slice, software one slice, model services one slice. With the platform-control layers in one legal person, each cut slice "has rivals": accelerators have AMD and cloud ASICs, networking has Ethernet, software has the UXL / oneAPI embryos, models have the whole open- and closed-source track. Taken together, the platform defines important system interfaces, coordinates a roadmap that consumes scarce upstream resources, and extends into adjacent deployment products. Upstream suppliers still make their own allocation decisions based on price, volume, credit, utilization, diversification, geopolitics, and long-run bargaining power. If the remedy hits contract terms on only one slice, the other three remain. That is the "new power structure": not a share number, but four powers that did not need a court merger.
+A fine primarily affects cash flow.
 
-**Inquiries exist. Complaints do not.** What [Volume 11](vol-11.en.md) confirm is what public sources can check. U.S. DOJ: Reuters on 2024-08-02, citing The Information — an inquiry already open, looking at whether clouds were pressed to buy multiple products, and whether networking gear was marked up when buying a rival's chips. DOJ declined to comment to the Associated Press at the time. Bloomberg on 2024-09-03: subpoenas, from questionnaires up to binding process, written as "a step closer to a formal complaint," not already a complaint. NVIDIA statement on 2024-09-04: it asked DOJ, had not been subpoenaed, and was willing to answer regulator questions. Civil investigative demands are often called subpoenas in talk; a subpoena is what DOJ's own paper says. As of 2026-08-26, among public Antitrust Division cases on justice.gov, the 2025 complaint that can be read is *U.S. v. Hewlett Packard Enterprise Co. and Juniper Networks, Inc.* (2025-01-30). The defendant is not NVIDIA. There is no *United States v. NVIDIA Corp.* Complaint, and no Competitive Impact Statement or Proposed Final Judgment. In March 2026 Warren and Blumenthal sent a letter on the Groq license. That is a congressional inquiry, not an antitrust complaint. Conclusion: the inquiry is real. Complaints and fines have not landed. The report does not treat a subpoena as a split order.
+A structural or conduct remedy can change the rules of competition.
 
-**France is near the end. No statement of objections has issued.** The company wrote it itself. 2023-11-21 quarterly: the French Competition Authority collected information on graphics cards and the cloud-service-provider market; EU and Chinese regulators also asked for materials on GPU sales and supply allocation. The same Reuters piece wrote that France raided the Paris office in September. That is an inquiry, not a penalty decision. Reuters 2026-07-09: general rapporteur Umberto Berkani told reporters the inquiry is near the end. Near the end does not mean sanctions must follow. The investigation service first decides whether to issue a statement of objections; it can also close the case. If issued, the company can still reply, and the board then makes a final ruling. From 2026-07-09 to 2026-08-26, the Autorité de la concurrence site had no statement of objections or penalty decision on NVIDIA that we could read. Secondary copy writes "near a decision on whether to accuse" as "about to issue a charge." The original does not. Conclusion: the inquiry is near the end. Whether a statement of objections has issued: on the public record, no. It can also close.
+### Fine
 
-**The EU sent questionnaires. No 101/102 opening. No fine.** Reuters 2024-12-06: regulators were asking rivals and customers whether NVIDIA tied products or took an unfair advantage; sources said this step could lead to a formal investigation. Reuters 2024-12-04: the same questionnaire round hung on the Run:ai merger review, not an already-opened 101/102 case. The merger itself: the Commission unconditionally approved Run:ai on 2024-12-20. NVIDIA on 2025-01-10 sued the Commission in Italy over Article 22 referral (T-15/25). Reuters 2025-02-24: that case does not affect the already-approved deal. That is a merger-jurisdiction suit, not an abuse-of-dominance fine. Capitol Forum 2026-02-11 cited sources that the Commission was still asking how to define data-center components. That is news, not a Commission *Opening of proceedings* release. Fortune 2024-07-05 quoted Vestager: chip supply is a bottleneck. That is not a regulatory action. As of 2026-08-26: no formal DG COMP opening, statement of objections, or fine on NVIDIA under 101/102 was read. Conclusion: a formal opening or a fine, no. Questionnaires, yes.
+A fine may reduce current profit without materially changing:
 
-**10% of annual turnover is a statute, not a fine.** Council Regulation (EC) No 1/2003 Article 23(2): for each undertaking participating in the infringement, the fine shall not exceed 10% of its total turnover in the preceding business year. The Commission's fines page repeats that sentence. Article 7 of the same regulation is the clause that can split structure: the Commission may impose behavioral or structural remedies; structural remedies only when behavioral remedies would be equally effective or more burdensome. That is a power list, not something already used on NVIDIA. French Commercial Code L464-2: the firm-level sanction ceiling is 10% of worldwide pre-tax turnover in the highest completed accounting year, counted from the year before the conduct through the years the conduct ran. NVIDIA FY26 revenue $215,938 million. 10% is $21,593.8 million. That is the statutory ceiling times the company's own annual report, not a number issued by the Commission or the French authority. With no opening and no statement of objections, this product cannot be written as "about to issue a $21.6B fine." The U.S. Sherman Act has no "10% of annual turnover" clause. What can change the rules overnight on the U.S. side is a split, an injunction, or forced interoperability, not copying the EU ceiling across.
+- CUDA migration cost;
+- the NVLink ecosystem;
+- HBM allocation;
+- advanced-packaging availability;
+- rack architecture;
+- long-duration customer deployment.
 
-**Once national security writes advanced compute as a license item, a split is harder to land.** A split is doable in doctrine. After the files below write the same slice of silicon as national security, it is harder to land administratively. The files only prove "written as national security." They do not prove "already decided not to split." White House 2024-10-24 first AI national-security memorandum NSM-25: frontier AI has major implications for national security and foreign policy; developing advanced AI systems requires large volumes of advanced chips; the memorandum calls for improving the security and diversity of the chip supply chain, and next-generation government supercomputers should take AI into account. Commerce BIS 2022-10-07 interim final rule (Federal Register 2022-10-13, 87 FR 62186): controls on advanced-computing integrated circuits, computer commodities containing them, and certain semiconductor-manufacturing items. 2025-01-15 interim final rule (AI Diffusion IFR): brings global diffusion of the most advanced AI models and large-scale advanced-computing IC clusters under export control, to protect U.S. national security and foreign-policy interests. NVIDIA's own FY26 10-K: as of FY26 year-end, the company has been effectively blocked from China's data-center compute market. Same 10-K: the January 2025 AI Diffusion IFR would have imposed a global license on H200, GB200, and GB300; in May 2025 the U.S. government announced it would withdraw and write a replacement, scope unset. That is export control changing, not an antitrust close. Pentagon 2023-11-02 *Data, Analytics, and AI Adoption Strategy*: accelerate adoption of advanced AI so the warfighter keeps decision advantage; the *National Defense Strategy* is to write deterrence of China in; adversaries have publicly said they will use AI for military advantage. Conclusion: White House, Commerce, and DoD have all written advanced chips and large compute clusters as national security. That a split is hard under national security is a political constraint pushed from these files, not a signed "do-not-split" order.
+### Structural or conduct remedy
 
-**A fine is a cost; structural remedies can change switching economics.** The financial anchor has moved to **FY27 Q2 operating income of $63.734B and GAAP gross margin of 75.0%**. Q1 FY27 supply commitments were $119.0B, but the filing does not split them by TSMC, CoWoS, or memory supplier and some commitments can be rescheduled. The allocation mechanism is not "75% margin means rivals pay more or get nothing." Price, long-duration demand, prepayment, credit, utilization, roadmap certainty, supplier diversification, and geopolitics all matter. A fine may not alter those variables much; a forced-open interface, tying remedy, supply restriction, or structural separation could change switching costs or bargaining power more materially.
+Requirements involving:
 
-**Adjacent model/deployment products create a structural platform question, not a separately disclosed profit pool.** The Nemotron, NeMo, and NIM product lines exist. No split revenue. The report does not treat token ARR. The system platform sells infrastructure to model companies while also offering adjacent deployment and model products on the same software stack. The conflict of interest is not a "backdoor" — backdoors do not enter the fact layer — it is: the interface the software/runtime layer sets also serves its own model product. A forced-open CUDA would move this layer. Fining sales contracts alone would not. The discussion already wrote: a privileged position (training has to pass the stack) can be written as structure; a backdoor cannot. This volume complies.
+- interface openness;
+- interoperability;
+- tying restrictions;
+- non-discriminatory supply;
+- structural separation;
 
-**Buyers are oligopolists too. Regulation will hit its own people.** Four-cloud scope is in [Volume 8](vol-08.en.md). They are NVIDIA's largest customers, substitutes with in-house accelerators, and the gate for enterprise software distribution. If the remedy is "must supply mid-size clouds on equal terms," physics first needs surplus packaging and power. If the remedy is "clouds must not tie models to compute," it hits these firms' own cloud and advertising profits. The clouds are not poor. That hundred billion builds halls. If competition policy addresses only one side of a vertically interconnected market, bargaining power may migrate rather than disappear.
+can directly alter switching cost, customer bargaining power, and platform-profit capture.
 
-**Sovereign AI and antitrust have different objective functions.** Industrial policy may prioritize domestic capacity, national models, procurement, and security; antitrust focuses on competitive conduct and market structure. Export controls can alter the purchasable set without creating an equivalent domestic frontier stack. China has stronger parallel supply in smartphones and parts of consumer computing, but frontier training still depends on advanced logic, HBM-class memory, advanced packaging, interconnect, and software migration at scale. Antitrust cannot substitute for those physical capabilities, and administrative protection alone does not prove they are already closed.
+The economically important variable is therefore not the maximum theoretical fine.
 
-**compute-platform value capture: $193.7B is the value capture end, not four-cloud AI hardware.** Scope is in [Volume 8](vol-08.en.md). What can be written: the four clouds are adding group-wide capex; NVIDIA collected $193.7B of FY26 data-center revenue. What cannot: four-cloud 2024 AI hardware equals $215B; knocking mixed-year capex against data-center revenue into a "synthetic value-capture ratio."
+It is:
 
-**Regulation hits contracts. It does not hit the CoWoS queue or the HBM conversion.** Classic tools hit mergers, tying, refusal to deal, and price discrimination. Power at the platform-control layers comes from three layers at once. First layer: CUDA and PTX software switching costs. The theoretical tools to split this layer are forced interoperability, published interfaces, and a ban on retaliatory cutoff. UXL and oneAPI are embryos. They have not dug through. Second layer: NVLink and cabinet-scale liquid cooling and copper, a system that does not come apart. Splitting this layer hits the performance cliff earlier stress-test material already wrote — in-cabinet bandwidth and outside-cabinet Ethernet are not the same order of magnitude. 1.8 TB/s per card and 130 TB/s at cabinet versus 800G RoCE at about 100 GB/s is a unverified engineering comparison. This volume takes it as mechanism direction, not a courtroom measurement. Third layer: TSMC CoWoS and HBM physical quotas. Splitting the third layer, the object is not even in the same company: foundry and memory are upstream oligopolists. TSMC 2025 shipments 15,022 thousand 12-inch equivalents; HPC 58% of revenue, up 48% year on year; first customer 19% (up from 12%), second 17% (down from 22%). Packaging and test about 8% in 2024, a bit over 10% in 2025. C.C. Wei, 4Q24: CoWoS tight, cannot meet demand. 2Q26: limits customers' growth. "Sold out through 2026" at the shareholders' meeting has no official transcript. A behavioral remedy on one GPU company does not change makers' profit motive to move wafers from commodity DRAM to HBM, and it does not determine how TSMC allocates future capacity among large customers. Packaging analysis is in [Volume 4](vol-04.en.md). The key point is that legal remedies and physical capacity operate on different clocks.
+> **whether a formal remedy appears that lowers system-migration cost or changes supply and bundling rules.**
 
-The 1999 check is in [Volume 1](vol-01.en.md). Scarce-layer value capture is not the same as share dominance. 80% accelerator share is media and sell-side scope, not a DOJ relevant-market definition. It does not enter a finding.
+## 3. The United States combines competition policy, national security, and industrial policy
 
-## 4. Scenarios, counterarguments, and falsifiable indicators
+U.S. policy toward AI infrastructure has more than one objective.
 
-Push forward from the numbers now. Do not assign extra probabilities. The four-scenario probabilities and the 2036 four-axis table do not enter the fact layer.
+Competition policy can target:
 
-Scenario A: behavioral remedies. Publish the interface, ban retaliation, force multi-brand bids on government clusters. The result may be a slightly looser software layer and a tighter cabinet and packaging layer — buyers switch to another compiler on the same physical stack. If CUDA is ordered to publish a subset, the migration tax falls a notch. That is not more CoWoS slots. While C.C. Wei still says packaging limits customer growth, a multi-brand bid buys a slower delivery tier.
+- tying;
+- exclusionary conduct;
+- discriminatory supply;
+- anti-competitive acquisitions.
 
-Scenario B: structural remedies. Split the systems business, or limit cabinet tying, or force networking out of the GPU contract. If earlier stress-test material 40%–45% premium truly comes from the right to define software, a split may compress the average close. If the premium is in fact a shadow price on scarce CoWoS and HBM, a split only changes who invoices: one invoice for the GPU, one for the switch; the cabinet is still the same supply commitment. The U.S. side has no 10%-of-turnover clause; what can change the rules overnight is this branch. There is no complaint now, so this branch still sits on the power list. Article 7 of Regulation 1/2003 is likewise a power in Europe, not an order already used.
+At the same time, advanced compute, large AI clusters, and semiconductor supply chains are treated as national-security and industrial-policy assets.
 
-Scenario C: sovereignty reshapes competition. National rules may require in-country model hosting, accelerator whitelists, or other controls that create more segmented regional stacks. Export controls can reduce NVIDIA's direct China data-center market while simultaneously accelerating domestic alternatives. Whether that produces a frontier-equivalent closed loop depends on advanced logic, HBM-class memory, advanced packaging, interconnect, and software portability—not merely on administrative protection. National-security objectives can also complicate structural antitrust remedies, so behavioral or interoperability remedies may be more politically feasible than a breakup.
+The policy structure is therefore not simply “antitrust versus laissez-faire.”
 
-Scenario D: regulation spins. Cases open, hearings, commitments; the queue and HBM lead times do not change. Supply commitments up $23.8B in three months. Firms keep doing what earlier stress-test material already advised: multi-chip elastic scheduling as self-insurance. That is not a legal victory. It is lowering exposure to single-stack value capture extraction inside the regulatory limit. The investment overweight in advanced-packaging consumables, liquid cooling, nuclear, and interconnection metrics is itself a bet that "regulation cannot hit the physical short side." Money is betting against the law. Physics is harder than the statute.
+It is closer to:
 
-Other side one: high margin equals an actionable monopoly. FY26 gross margin 71.1%, Q4 75.0%, FY25 full year 75.0% is necessary but not sufficient. The U.S. does not punish a monopoly "won by product and foresight." What you hit, if you hit, is tying, supply discrimination, and using capacity to punish people who switch stacks. That takes contracts, mail, and customer testimony. An inquiry can run for years. This volume has no such docket. Other side two: open source and ASICs already constrain. Public next-gen parts are not 5nm plus commodity DDR5. Maia 200 writes TSMC N3, HBM3e 216GB; Ironwood official 192GB HBM3E; Trainium3 writes first 3nm AI chip, HBM3e 144GB. No firm says it is going back to 5nm plus commodity DDR5 as the inference mainstay. The direction is the opposite. To beat today's cabinet you return to 3nm, HBM, and CoWoS, and you bid against 75% gross margin. The constraint is incomplete. Counterargument three: the true bottlenecks may sit in foundry capacity, HBM, advanced packaging, and power rather than in the platform contract itself. That moves part of the policy problem away from classic antitrust and toward infrastructure, industrial policy, and utility regulation. Power is already a major constraint, but current evidence does not show that it has become the sole dominant bottleneck. Other side four: $21.6B already hurts enough. Arithmetic is not a fine. One quarter of Q1 operating income $53.536B. Without structural change, a monetary penalty primarily remains an earnings cost rather than an interoperability remedy. Counterargument five: the unconditional Run:ai merger clearance does not amount to a finding that the broader software/runtime layer is free of competition concerns. Merger clearance and separate Article 101/102 conduct investigations are different legal states and must remain distinct.
+> **competition policy seeks to limit platform abuse while national-security policy seeks to preserve U.S. leadership in the frontier AI stack.**
 
-Falsifiable indicators (observation items only; go back to the source file): whether a *United States v. NVIDIA* Complaint or settlement order appears on justice.gov; whether the French authority issues a statement of objections or a close release; whether DG COMP issues a 101/102 *Opening of proceedings*; whether next quarter's supply commitments keep rising or get rescheduled; whether data-center revenue after FY26 still walks at the $193.7B magnitude; whether the next four-cloud cash-flow statements still add equipment purchases on each firm's own scope, rather than being written as "AI hardware $215B"; whether TSMC's next call still has packaging tight; whether HBM+RDIMM is still written by the house as more than half of DRAM bits; whether NIM shows split revenue. These indicators go back to DOJ, the competition authority, the Commission site, and company IR. This volume treats them as monitoring items and updates the scenario only when the formal public status changes.
+Those objectives can constrain the form and intensity of structural remedies.
 
-## 5. Gaps and what cannot be treated as fact
+## 4. In Europe, procedural status matters more than headlines
 
-What has not happened and cannot be written as already happened: a DOJ complaint, a settlement, a Mellanox split, a forced-open CUDA; a French statement of objections, a French or EU fine; "about to issue 10% of annual turnover" — that is a statutory ceiling; White House or Pentagon already issuing a ban on a split (there is no such file); four-cloud "AI hardware capex $215B." Older 80% concentration, $40B single-fab, NVLink-margin/MFU, and cabinet-BOM figures remain scenario or engineering estimates rather than legal facts. The report does not treat 60%–75% gross margin directly as "unlawful monopoly profit." The report does not infer clause summaries for the EU DMA, the U.S. FTC, or any Asian jurisdiction. SAMR's additional restrictions on the Mellanox deal are not listed as a checked item in the [Volume 11](vol-11.en.md) main table. This volume does not treat them as a U.S.-style split. The limits and scenarios added here are an analysis frame, not a legal opinion.
+European and French authorities continue to scrutinize GPU, cloud, and AI-infrastructure competition.
 
-Volume 11 has no new statute names, clause numbers, docket numbers, fines, or market-share time series, except Article 23 and Article 7 of Regulation 1/2003 and French Commercial Code L464-2, already confirm in [Volume 11](vol-11.en.md). T-15/25 is a merger-jurisdiction number, not an abuse-of-dominance fine. "Sovereign AI act" is still only in the title. This volume does not invent sovereign-act clauses in Asia or the Americas.
+But the legal state has to be described precisely.
 
-Once the essential-facilities doctrine is invoked, the remedy imagination is forced access and a regulated return. But the GPU generation cycle is, on earlier stress-test material, about four years; return regulation would hit investment, and no regulation would be called collecting intelligence value capture. That is an old problem from electricity antitrust, only with a shorter asset life. This volume recommends no specific rate. Regulating a four-year asset as fifteen-year infrastructure would create a new mismatch on the books. Executable self-insurance still falls back to the sentence earlier stress-test material already wrote: multi-chip and multi-model elastic scheduling, avoid proprietary-API lock.
+Relevant stages can include:
 
-TSMC publishes no CoWoS monthly capacity, no official full-year wafer count, no packaging wafers by customer. NVIDIA at 60% / 595k wafers is sell-side paraphrase. About 100,000 cabinets taking more than half is a sell-side pool times an estimate. 13.4 TB HBM and 17 TB LPDDR per cabinet is the product page. 10k, 30k, and 50k cabinets are hypotheses multiplied forward from the present, not delivered. This volume does not write those PB as a percent of global HBM.
+- information requests;
+- market inquiries;
+- merger review;
+- statements of objections;
+- formal proceedings;
+- final decisions;
+- fines or remedies.
 
-## 6. Of the five interrupts, what is done is the inquiry and the commitment add
+Only an official procedural document changes the report's legal fact layer.
 
-The judgment listed five lines that would break it. The West actually bundles: prepayments large enough that the foundry cannot recognize only one buyer; software bound into one stack; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Cloud ASICs take training off the cabinet, not just shunt inference. Power stops the buildout. The East stands up a second bid. A structural split or a forced-open CUDA. None of the five is done.
+A media headline saying that regulators are “looking at” a market is not equivalent to a formal case, and a formal case is not equivalent to a final remedy.
 
-Current observable facts include supply commitments of $119.0B at FY27 Q1 and regulatory processes that had not yet produced broad structural remedies. The strategic window lies before next-generation capacity is heavily committed. A 19% historical customer revenue share is not a forward allocation guarantee; what matters is whether regulatory or competitive changes materially reduce switching cost or alter incremental resource access.
+The same discipline applies across jurisdictions.
 
-China's stack is in [Volume 12](vol-12.en.md). U.S. antitrust cannot save Huawei. What it splits is domestic tying, not opening 2nm for SMIC.
+## 5. A statutory 10% turnover ceiling is not a fine forecast
 
-The engine has not changed. Demand pushes profit, profit pushes prepayments, prepayments lock capacity and HBM, rival costs rise, deliveries slow, profits thin, they have even less money to bind longs and switch stacks, and share widens again. Antitrust slows the step and makes it pay protection money. It does not split the machine that prints the profit — that is a hypothesis from here, not a signed policy. What can stop this value capture is still the same few lines: the application end never makes money and capex stops itself; the West bundles; ASICs take training; power stops the buildout; a split or an open CUDA; the East stands up a second bid. None of these is done. Doing the Eastern one is only a second gravity. It cannot save the allocation of global cabinets.
+A statutory percentage ceiling defines the maximum authority available under a legal framework.
 
-## 7. The three powers are not in the same court
+It should not be converted mechanically into:
 
-It is enough to collect the "new power structure" into three powers. The report does not infer another agency name. The first power is whoever defines the system: whoever specifies in-cabinet interconnect, the compiler, and cabinet turnkey collects that tier of system-layer premium. earlier stress-test material 40%–45% is an engineering estimate. This volume keeps only the direction that "the right to define is worth money." It does not write the range as audited. The second power is whoever allocates the molecules: whoever queues CoWoS and HBM decides which class of box takes the downstream cost shock. The first wave is PCs, commercial PCs, general-purpose servers, and phones, paying a residual tax, not stopping. The third power is whoever approves the electrons: whoever issues interconnection and export licenses can jump the queue or take a whole market off the board. NVIDIA itself wrote that it has been blocked from China's data-center market. That is the third power already used once.
+```text
+Potential Fine = Company Revenue × 10%
+```
 
-Antitrust is good at chasing the first power's contract terms: tying, supply discrimination, questionnaires, and subpoenas. Industrial policy is good at subsidizing the second power's onshore plants, and at using export controls to cut the second power's buyers into two price books. Energy regulation and export control are good at reviewing the third power's rates and licenses. The three powers are not in the same court. That is the institutional meaning of the regulatory limit. This volume does not recommend merging regulators. It only opposes covering three powers with a single statute title. The U.S. hits conduct cases and export lists. Europe hits questionnaires, merger jurisdiction, and a statement of objections not yet issued. China hits security reviews and a domestic-substitution list. Three toolkits push on the same physical stack. The resultant is not "more competition." It is "more partition."
+and presented as an expected future liability.
 
-One more power sits on the model/deployment layer and is often dropped from the list. NIM and Nemotron let the same company sell the shovel and open a service on the mine others dig with that shovel. A forced-open CUDA would move the software/runtime layer and also the model/deployment layer's distribution channel. Fine only the system seller's sales contracts and the model/deployment layer is still there. The discussion asked this volume to name the conflict. Name it as far as structure. With no split revenue, there is no "models are already a second profit pool." Hardware is still the bulk. FY26 data center $193.7B against full-year revenue $215.938B is the system seller's size, not the model/deployment layer's.
+That would ignore several unresolved questions:
 
-The report does not treat buyer-side power as a fourth corner. Clouds are a channel, ASIC designers, and the profit center of advertising and office suites. They can afford prepayments. They cannot afford the 71% to 75% cabinet-selling margin. Their hundred billion builds halls. NVIDIA's hundred billion locks the next slice of material. Comparing sticker prices is meaningless. If regulation writes the clouds as victims, it misses that the clouds themselves are a gate. If it writes them as conspirators, it needs contracts and mail. This volume has no such docket. What can be written is structure: a buyer oligopoly and a seller's platform-control layers bid for the same slice of CoWoS and HBM. The seller can outbid. The buyer builds halls.
+- whether a violation is established;
+- the legal treatment of relevant versus total turnover;
+- whether the remedy is behavioral rather than monetary;
+- case timing;
+- whether a final decision is ever reached.
 
-## 8. Close
+The ceiling is evidence of the **strength of the legal tool**, not a company-specific financial forecast.
 
-What Volume 11 should remember is not a fine amount. It is three sentences already confirm. The inquiries are real; complaints and fines have not landed. 10% is a statutory ceiling. FY26 revenue $215,938 million times 10% equals $21,593.8 million, about $21.6B. That is not a number about to be issued. What the national-security files explain is why an inquiry can drag and a split is hard to land. FY26 data center $193.7B is the value capture end. Four-cloud mixed-year 2024 about $211.9B to $213.9B, 2025 about $354.0B, is group-wide equipment purchases, not "AI hardware $215B."
+## 6. Sovereign AI and antitrust optimize different objectives
 
-The platform-control layers sit in one legal person. The system seller sells cabinets. The software/runtime layer sets the interface. The roadmap and supply-coordination layer queues packaging and HBM. The model/deployment layer stands on the same stack. Regulation hits contracts. It does not hit the queue. A fine does not change the bid. What can change the rules overnight is still a split, forced interoperability, or a ban on tied supply. None of the five interrupts is done. Fail them and the line walks past half of the scarce slice. The world does not blow up. Upgrades stop one node down. Phones and PCs pay a memory tax. One firm writes the rules.
+Sovereign-AI policy can focus on:
 
-A reader of this volume should not expect a global unified "AI antitrust charter." What is more likely: questionnaires, an inquiry near the end, a merger cleared unconditionally, supply commitments to $119.0B, and a statement of objections not yet issued. Leave empty what is empty. Write a complaint when there is a complaint. Write a fine when there is a fine. If there is none, do not write the ceiling as an invoice.
+- domestic compute capacity;
+- data sovereignty;
+- model capability;
+- defense and security;
+- local industrial ecosystems.
 
-## 9. Procedure in three countries: if it sits on a step, do not write the next step
+Antitrust focuses on:
 
-Antitrust news most easily writes "near" as "already." The [Volume 11](vol-11.en.md) master table exists to block that step. The U.S. sits on an inquiry. France sits on an inquiry near the end, not yet deciding whether to issue a statement of objections. The EU sits on questionnaires and one unconditionally approved merger, plus one jurisdiction suit. None of the three steps has reached "complaint / charge / fine." Write any step forward as already happened and this volume is void.
+- competition;
+- market access;
+- tying;
+- exclusion;
+- customer or consumer welfare;
+- market structure.
 
-On the U.S. side, the public timeline has only four cells. August 2024: Reuters citing The Information, DOJ already inquiring into tying and networking markups. DOJ declined to comment to AP. 3 September 2024: Bloomberg wrote subpoenas; Bloomberg Law added "a step closer to a formal complaint." 4 September 2024: the company said it had not received a subpoena. 2025 through 26 August 2026: no NVIDIA complaint and no settlement order on justice.gov. A third-party docket itself wrote, as of April 2026, Active DOJ Investigation, no formal complaint, no settlement on record. That is an aggregator, not DOJ. It is only a check that the public record is still empty. A congressional letter on the Groq license does not change this cell. A civil inquiry can run for years. The Sherman Act wants conduct evidence, not a photograph of the gross margin. FY26 gross margin 71.1%, Q4 75.0%, can prove the seller is fat. It cannot replace contracts and mail.
+The two policy functions can align or conflict.
 
-On the French side, the company itself wrote the inquiry into the November 2023 quarterly. A raid is an investigative tool. Berkani's sentence on 9 July 2026 is nearing the end of the investigation; Reuters immediately wrote: The end of the investigation does not mean Nvidia will necessarily face sanctions. The next step is whether to issue a communication des griefs. If not issued, the case can close. Global Competition Review the same day wrote approaching a decision on whether or not to formally accuse. Whether to accuse is still a binary. Writing that sentence as "about to issue a charge" is an add. L464-2's 10% is not usable at this step. No statement of objections, no penalty decision, and therefore no multiplication against worldwide pre-tax turnover.
+A government can simultaneously:
 
-On the EU side, split it into three different things. First: questionnaires from 2023, tying asked in December 2024. A questionnaire that "could lead to" a formal investigation is not an opening. Second: Run:ai, unconditionally approved on 20 December 2024. Third: T-15/25, the company suing the Commission for expanding merger review under Article 22; Reuters wrote that it does not affect the already-approved deal. None of the three is a 101/102 Opening of proceedings, let alone a statement of objections or a fine. Article 23's 10% and Article 7's structural remedy in Regulation 1/2003 still sit on the power list. Vestager saying chip supply is a bottleneck is a judgment on supply, not a regulatory action. Capitol Forum in February 2026 saying they were still asking how to define data-center components is still news, not an opening.
+- support domestic AI-infrastructure expansion;
+- restrict platform tying;
+- use export controls to limit foreign access to the same hardware.
 
-The three countries sit on different stairs and point at the same judgment sentence: what is done is the inquiry and near-the-end; no complaint, no statement of objections, no 101/102 opening. The window is still there. The window is not "regulators about to move." It is "the few years before the next first-to-market node is locked by $119.0B of commitments." The regulatory calendar and the packaging calendar are not the same table. When C.C. Wei says packaging already limits customer growth, DOJ still has no complaint. The two tables do not line up. That is regulation not hitting the queue.
+That is not necessarily policy inconsistency.
 
-## 10. Prepayments, value capture, and the old 1999 table
+It reflects different objective functions operating at the same time.
 
-The 1999 check and supply commitments are in [Volume 1](vol-01.en.md). value capture scope is in [Volume 8](vol-08.en.md). This volume does not reopen the full table.
+## 7. Which mechanisms regulation can actually interrupt
 
-10-K language: prepaid manufacturing and capacity agreements. Supply commitments $95.2B at FY26 year-end, $119.0B at Q1 FY27 end, up $23.8B in three months, most payable through FY2027. Official text locks inventory and capacity. It does not split TSMC or CoWoS. Some agreements can be rescheduled. If antitrust only hits the tying sentence in the sales contract, it does not hit these commitments. The commitments are to foundry and makers, not a price list to downstream clouds. A forced-open CUDA also does not change this commitment table's due dates. What would change it is a ban on using commitments to punish people who switch stacks, or writing the commitments themselves as exclusive. That takes contract text. This volume has no contract text. So it stops at the mechanism: prepayments buy the slot. A neutrality pledge has no consideration in front of a check. This is not an administrative takeover.
+Regulation is more likely to change interfaces and commercial rules than semiconductor physics.
 
-On the value capture end, $193.7B is NVIDIA data-center segment full-year revenue. Four-cloud 2025 mixed-year equipment purchases $354,009 million. The two lines cannot be knocked into a rate. Buyer line items include civil works, power, in-house ASICs, memory, and optics. TrendForce puts 47% of 2026 CSP capex and 68% of 2027 into memory. The rising memory share means a slice of the value capture lands on HBM and RDIMM, not only on the GPU invoice. Phones and PCs that never buy a training cabinet still pay this slice. HBM+RDIMM is 51% of 2026 DRAM bits. After makers convert, consumer bits shrink. Channel talk: 16G DDR5 from about 450 to 1,800. Apple and Qualcomm pay a spillover price on every consumer bit. That is memory contagion, not a check they wrote to NVIDIA. A high domestic system price can redirect value capture toward domestic suppliers. Administrative allocation can retain some conventional memory domestically, but it does not demonstrate HBM-class supply at scale.
+### 7.1 Interface control
 
-The gap between the 1999 table and today's structure is institutional as well as technological. Share can be attacked by a compatible rival product; today's platform power also involves future capacity reservation, interconnect/software switching costs, export controls, and physical bottlenecks. Antitrust can change conduct, interfaces, tying, or structure, but it does not automatically create CoWoS fixture-hours, HBM output, or grid capacity. That is why legal remedies and physical resource allocation must remain separate mechanisms.
+Mandatory interface openness can reduce software or networking migration cost.
 
-Back to the question. What classic antitrust can still split is contracts and interfaces. What it cannot split is the packaging queue, the HBM conversion, and advanced clusters already written as national security. The inquiry can continue. France can issue a statement of objections, or close. The EU can open, or keep asking how to define components. Until those things happen, this volume leaves them empty. Empty is not unfinished. Empty is the hard rule in [Volume 11](vol-11.en.md).
+### 7.2 Bundling
+
+Restrictions on GPU, networking, and software tying can improve a customer's ability to combine suppliers.
+
+### 7.3 Supply discrimination
+
+If discriminatory allocation is demonstrated with evidence, rules can change how supply is offered.
+
+### 7.4 Acquisition and vertical integration
+
+Limits on further acquisitions can prevent a platform from placing additional intermediate layers under common control.
+
+But regulation cannot directly create:
+
+- HBM bits;
+- CoWoS process capacity;
+- N2 wafers;
+- grid capacity.
+
+Legal remedies and physical supply therefore operate on different layers and different clocks.
+
+## 8. U.S. antitrust and China's frontier-supply constraints are different problems
+
+Stronger U.S. competition policy toward NVIDIA would not automatically solve the physical constraints facing China's frontier AI stack.
+
+China's ability to build a complete parallel stack still depends on:
+
+- advanced logic;
+- HBM;
+- advanced packaging;
+- interconnect;
+- compiler/runtime;
+- large-scale deployment.
+
+Antitrust can reduce platform lock-in in markets where alternative supply exists.
+
+It cannot substitute for the manufacturing and software capabilities required to build a separate frontier system.
+
+## 9. Current judgment
+
+As of **August 2026**, regulatory risk is an important external variable for AI system platforms.
+
+But there is not yet one global remedy that has structurally rewritten the system-stack landscape.
+
+In the formal scenarios, regulation therefore acts differently:
+
+- **S1 Competitive Expansion:** open interfaces, lower tying, and stronger multi-stack competition;
+- **S2 Baseline Concentration:** investigations and oversight continue while the structure changes only gradually;
+- **S3 Resource Hegemony:** regulation fails to reduce the main switching and resource barriers;
+- **S4 Capital Hard Landing:** demand and capital clearing dominate the downturn rather than regulation being the main trigger.
+
+The key variable to update is **formal legal status and actual remedy**.
+
+News tone is not a substitute for either.
