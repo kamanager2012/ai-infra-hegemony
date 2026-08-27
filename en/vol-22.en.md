@@ -1,6 +1,6 @@
 # Volume 22: Consumer Electronics — DRAM Residual Capacity, PC, and Smartphone Cost Transmission
 
-Chinese original: [vol-22.md](vol-22.md)
+Chinese original: [vol-22.md](vol-22.en.md)
 
 ## 1. Core question
 
@@ -92,7 +92,7 @@ The shock has three conveyor belts that reinforce one another, not one. None of 
 
 ### 4.1 First belt: the right to bid sits on the cabinet, not the device
 
-The firm that sells cabinets takes 71% to 75% gross margin. Profit, cash, and supply commitments are [Volume 1](vol-01.md).
+The firm that sells cabinets takes 71% to 75% gross margin. Profit, cash, and supply commitments are [Volume 1](vol-01.en.md).
 
 Buyer and supplier power should not be reduced to a single gross-margin comparison. NVIDIA's 71%–75% platform gross-margin band, TSMC's foundry economics, SK hynix's memory-cycle economics, and cloud buyers' capital budgets sit on different accounting structures. The allocation mechanism is broader: price, order scale, prepayment, customer credit, utilization, roadmap certainty, supplier diversification, and geopolitics all matter. Strong seller-side cash flow can tilt **incremental** scarce capacity toward the strongest buyer, but it does not create a deterministic rule that TSMC must favor one customer regardless of every other consideration.
 
@@ -108,7 +108,7 @@ Silicon allocation is harsher than a simple bit count because HBM consumes more 
 
 Multiply-by-cabinet writes the turn as arithmetic. 10,000 cabinets take 134 PB of HBM and 170 PB of LPDDR. 30,000 cabinets: 402 and 510. 50,000 cabinets: 670 and 850. NVIDIA does not report cabinet counts. Makers do not report full-year absolute bits. So these are scenarios, not shipments. The use of the scenario is not to report that some percent of the world has already been bought. It is to say: once shipments walk by cabinet, demand multiplies by cabinet; if supply cannot keep up with the product, the leftover goes to phones, PCs, and consumer drives, split among a few dozen brands. Memory share inside the cabinet is low, so the cabinet is not afraid of expensive. Phone and PC share is high, so they die first. Channel 16G 450 to 1,800 is the tip, not pricing power.
 
-If the cloud shifts inference onto DDR5, that is not opening a new river. HBM has already drawn wafers at a higher silicon burn; the DDR5 bits that remain are still being split between RDIMM and phones and PCs. Stacking more DDR5 is a tax on the slice already rising. Public next-generation specs are [Volume 4](vol-04.md). No firm was found saying it would retreat to 5nm plus commodity DDR5 as the inference mainstay. So "shift inference onto conventional sticks and the phone will get room" has no anchor in public next generations.
+If the cloud shifts inference onto DDR5, that is not opening a new river. HBM has already drawn wafers at a higher silicon burn; the DDR5 bits that remain are still being split between RDIMM and phones and PCs. Stacking more DDR5 is a tax on the slice already rising. Public next-generation specs are [Volume 4](vol-04.en.md). No firm was found saying it would retreat to 5nm plus commodity DDR5 as the inference mainstay. So "shift inference onto conventional sticks and the phone will get room" has no anchor in public next generations.
 
 ### 4.3 Third belt: the increment in leading-edge logic is not in the phone
 
