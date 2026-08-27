@@ -6,15 +6,23 @@ The case closing chapter, and how persons / firms / states live the decade, is [
 
 ## 1. The question this volume answers
 
-By Volume 20 the draft calls itself a "first-stage summary." What the first nineteen volumes can actually turn into action is not another telling of the three walls. Firms face API lock-in, a four-year hardware bill, and a memory residual already rising. Investors face margins concentrated in a few physical bottlenecks. States face power queues, leading-edge process that cannot be split off, and a China stack whose three layers are not one layer. The main line is not denied: 75% gross margin pins the bid; cabinet demand is filled first and the leftover is what others get; Apple cannot lock HPC; the China market cannot save global AI; not bundling means handing over the newly opened lines.
+By Volume 20, what can be turned into action is no longer another retelling of the "three walls." Firms face **system-stack migration**, hardware depreciation, and memory residual capacity. Investors face value capture concentrated in a small set of physical bottlenecks. States face power, advanced manufacturing, open migration, and the need for credible second sources.
 
-FY26, TSMC 2025, Hynix 49%, supply commitments 952→1,190, and the four-cloud mixed-year scope are all already written in the Judgment and [Volume 1](vol-01.md). This volume does not recopy the financial table.
+The main line is not "one company must win." It is three testable mechanisms: higher-return buyers have more capacity to reserve incremental resources; non-AI sectors receive what remains after priority allocation; and system-stack substitution, supply expansion, and regulation determine whether that reinforcing loop can be interrupted.
 
-## 2. The draft's three strategic axes (compressed; not promoted)
+Current FY27 Q2 financials, TSMC 2025, Hynix, supply commitments, and four-cloud accounting scope are maintained in the Judgment and [Volume 1](vol-01.en.md). This volume does not duplicate the financial table.
 
-The draft writes power as three layers: TSMC, Nvidia, SK hynix, and nuclear operators enjoy 60%–75% gross margins and pricing power; clouds and model firms, under $215B of depreciation pressure, do in-house ASICs and algorithm cost-cuts; downstream consumer electronics and manufacturing absorb chip purchase-cost rises of 20%–30%, and replacement cycles stretch passively. The original strategic sentences: firms build multi-chip and multi-model elastic scheduling, focus on workflows that can produce commercial value, and avoid proprietary API lock-in; investors overweight advanced-packaging consumables, liquid-cooling CDUs, and data-center nuclear and grid-interconnection marks; states put power infrastructure and leading-edge process on the same footing, and use architecture and algorithm leverage against a hardware cutoff.
+## 2. Three strategic axes under the current framework
 
-$215B, 20%–30%, 85%→55%, whole-cabinet ASP $2.60M–$3.30M, software premium 40%–45%, and the 2036 four scenarios 40/30/15/15 are all marked "draft numbers." Mixed-year group-wide equipment purchases of about $211.9B–$213.9B are not "AI hardware $215B." $45B–$55B of annual depreciation is a template of 4-year hardware plus 15-year civil works, not a sum of four 10-K asset classifications.
+Earlier versions compressed power too aggressively into gross margins, one CapEx number, and single-point downstream cost inflation. The current version uses three mechanisms instead:
+
+1. **Upstream value capture and capacity reservation** at scarce layers.
+2. **System-stack competition and long-duration capacity commitments** among clouds and model companies.
+3. **Non-AI Residual Capacity** transmitting cost pressure into consumer electronics and manufacturing.
+
+The actionable strategic sentences remain: firms build multi-chip and multi-model scheduling and avoid proprietary API lock-in; investors focus on bottlenecks whose supply elasticity is lower than token-price elasticity; states treat power, advanced manufacturing, migration capability, and second-source formation as one industrial system.
+
+The old $215B, 20%–30%, SaaS 85%→55%, $2.6M–$3.3M rack ASP, 40%–45% software premium, and early 2036 probability table remain historical stress-test inputs only. Mixed-year group-wide equipment purchases of about $211.9B–$213.9B were never "AI hardware $215B."
 
 ## 3. The firm end: hedge treating rent as your own margin
 
@@ -30,7 +38,7 @@ Firm strategy should therefore be written: first pick workflows that directly cu
 
 The profit pool is already on the table: Nvidia gross margin 75.0% (FY25; FY26 full year 71.1%, Q4 back to 75.0%), TSMC 2025 gross margin 59.9%, Hynix FY25 operating margin 49%. Overweight packaging consumables, CDUs, nuclear, and interconnection marks. The logic: supply elasticity of those objects is lower than token-price elasticity at model firms. Add now: overweight "the maker right that turns wafers into HBM and RDIMM," not "the story of opening another consumer-DRAM line."
 
-Conversely, overweighting "AI software seats" is a bet that the introduction's sentence — SaaS gross margin from 85% to 55% — will not happen. 85%→55% has no sample. A first-stage investment guide should not invent new target prices. It should only admit: the evidence grade of physical scarcity (120 kW cabinets, CoWoS tight, HBM takes more wafers, 51% of bits) is higher than the evidence grade of incremental software revenue (the $35B–$50B row is an extrapolation).
+Conversely, "AI software seats" must be evaluated through **AI Software Unit Economics**, not a fixed SaaS-margin narrative: inference, retrieval, tool calls, human review, and AI-cloud cost must be covered by ARPU and usage efficiency. The old 85%→55% endpoint has no sample and remains a stress test. A first-stage investment guide should not invent target prices; it should distinguish higher-grade physical-scarcity evidence from lower-grade application-revenue extrapolation.
 
 Sell-side counts Nvidia as about 60% of CoWoS. TSMC has no split. That cannot be a position formula. The estimate shows more than half the scarce slice at the 100k-cabinet order of magnitude. You do not need 800k cabinets. If investors use the wrong pool, they will see the window as still early. Also do not treat booked customer share of 19% as a safe distance. What is being opened is HPC and packaging. Apple locks phone logic.
 
@@ -38,7 +46,7 @@ Bottleneck-side 60%–75% is a seller margin, not a buyer return. Investors shou
 
 ## 5. The state end: hedge attacking only chips, and treating three layers as one
 
-Export controls change the purchasable set. They do not change the reticle or a 5–7 year queue. Writing leading-edge process as the only national task misses shortfalls the draft already wrote: without a packaging quota there is no HBM that can be mounted; without an interconnection mark there is no 120 kW cabinet that can be energized. Algorithm and architecture leverage is compensation after hardware is cut. It is not a policy that can replace baseload power. Three nuclear PPAs sum to 835+960+500 MW, which looks large against a mid-size cluster of "500 cabinets, 60–80 MW" (draft numbers), and small against a national queue of 2,600 GW. 2,600 GW does not match an official total. It does not enter the fact layer. Contract detail is [Volume 35](vol-35.md). The three layers of the China stack are [Volume 12](vol-12.md).
+The power contracts in [Volume 35](vol-35.en.md) sit on different delivery clocks and must not be added as if all MW were already energized. Contracted capacity, planned capacity, actual load, and annual utilization are separate variables. A national queue estimate that cannot be matched to an official aggregate does not enter the fact layer.
 
 What can be written into a guide now: when the export list tightens in the same direction as advanced packaging, HBM, and EUV, domestic systems engineering must be designed to "devices that can be obtained," not to a peer spec sheet. Acting alone means handing over each year's new lines and packaging. To change allocation, the Judgment wrote three checks: prepayments large enough that TSMC cannot recognize only one buyer; software bound into one stack; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. All three are directions, not treaties already signed.
 
