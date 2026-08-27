@@ -1,5 +1,5 @@
-name: 数字或口径纠错
-description: 正文里的数、出处或口径不对
+name: 数字 / 口径 / 来源纠错
+description: 正文中的数字、时间、来源、会计口径、单位或证据等级不对
 title: "[纠错] "
 labels: ["fact"]
 body:
@@ -7,19 +7,49 @@ body:
     id: volume
     attributes:
       label: 哪一卷或哪一篇
-      placeholder: vol-24 / part2-03 / 总判
+      placeholder: vol-24 / part2-03 / 总判 / 核心证据台账
     validations:
       required: true
+
   - type: textarea
     id: current
     attributes:
       label: 现在写的是什么
+      description: 请贴出对应句子或数字。
     validations:
       required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你认为哪里有问题
+      description: 例如时间错、单位错、分母错、机构预测被写成官方、合同容量被写成已上电等。
+    validations:
+      required: true
+
   - type: textarea
     id: source
     attributes:
-      label: 官方出处
-      description: SEC、年报、公司产品页或法说逐字稿。没有链接的定量不要提。
+      label: 原始来源 / 高质量机构来源
+      description: 优先SEC、年报、IR、官方产品页、监管/法院文件、技术报告；也接受方法透明的高质量机构研究。请附链接。
     validations:
       required: true
+
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: 你认为应属于哪个证据等级
+      options:
+        - A - 一手公司 / 监管 / 法院 / 正式技术报告
+        - B - 高质量机构研究
+        - C - 券商 / 供应链 / 媒体转述
+        - D - 假设 / 模型 / 压力测试
+        - 不确定
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议如何修正
+      description: 请尽量写清正确数字、时间、分母和措辞边界。
