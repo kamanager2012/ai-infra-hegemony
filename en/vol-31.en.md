@@ -22,7 +22,7 @@ A long-duration industry report needs a monitoring system that can update conclu
 Each indicator retains its own accounting scope and evidence grade. Seller revenue is not buyer CapEx; customer revenue share is not wafer share; statutory penalty ceilings are not fines; inquiries are not complaints; contracted MW is not energized load.
 ## 2. Monitoring anchors
 
-The current monitoring baseline uses verified or clearly graded anchors rather than a single "audited master table":
+The current monitoring baseline uses verified or clearly graded anchors rather than a single "verified master table":
 
 - NVIDIA FY26 revenue **$215.938B**, Data Center revenue **$193.737B**, FCF **$96.575B**; FY27 Q2 revenue **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, operating income **$63.734B**.
 - Supply-related commitments: **$95.2B** at FY26 year-end and **$119.0B** at FY27 Q1.
@@ -50,7 +50,7 @@ Scopes that cannot be compared must be separated before analysis. NVIDIA Data Ce
 
 The 2024 four-cloud reconstruction remains about $211.9B–$213.9B on a mixed-year, mixed-scope basis; 2025 is about $354.0B–$356.5B. By August 2026, Microsoft had guided to roughly $190B of calendar-year CapEx, Alphabet to $180B–$190B, Meta to $125B–$145B, and Amazon's trailing-twelve-month net PPE was around $169B. These time windows and line items still differ and must not be added into one "AI hardware CapEx" number.
 
-The four-year hardware + fifteen-year civil-works depreciation model remains a stress-test template rather than a sum of four audited asset-class schedules. Specific 2026–2028 depreciation expense is therefore not an first-party fact.
+The four-year hardware + fifteen-year civil-works depreciation model remains a stress-test template rather than a sum of four audited asset-class schedules. Specific 2026–2028 depreciation expense is therefore not a first-party fact.
 
 ### 3.2 US Department of Justice: inquiry yes, complaint no
 
@@ -134,7 +134,7 @@ The other is sales conduct named in the DOJ inquiry: whether it pressed cloud ve
 
 What can interrupt prepayments is not a $21.6B statutory ceiling. What can interrupt is: the West binds prepayments so TSMC cannot recognize only one buyer; or a split, a forced-open CUDA, a ban on capacity discrimination, opening sales terms and the capacity lock together. The inquiry stops at questionnaires and subpoena reporting. The opening has not happened. Supply commitments adding $23.8B in three months is the cell already done in 2026. When the appendix tracks, supply commitments walk A grade (company disclosure, still must go back to the 10-K). Tying allegations walk the procedure cell (inquiry yes, complaint no). Do not use one cell to prove the other.
 
-Intel 1999 revenue $29,389M, net income $7,314M, gross margin 59.7%, is the historical anchor the central framework uses for comparison. That was CPU share. Foundry was in-house. Customers could dual-source. There was no today's slice of CoWoS / HBM / 2nm first silicon that has to be bid with a hundred-billion prepayment. historical stress-test material appendix title writes "historical data tracker for the global semiconductor and compute market," yet has no WSTS, no Intel row, no Cisco 2000. Share will break, because the next slice of capacity is not something one firm can lock with prepayments. Today the comparison is not share. It is one year of free cash $96.6B, one quarter of operating income $53.5B, and gross margin back near 75%. That is strong seller-side economics, not proof of a permanent monopoly. Historical switching, customer diversification, and supplier incentives remain part of the mechanism. If the appendix only chases "80% accelerator share," it treats media scope as a DOJ relevant market and misses the cell that can actually lock the next slice of material: prepayments and free cash.
+Intel 1999 revenue $29,389M, net income $7,314M, gross margin 59.7%, is the historical anchor the central framework uses for comparison. That was CPU share. Foundry was in-house. Customers could dual-source. There was no today's slice of CoWoS / HBM / 2nm first silicon that has to be bid with a hundred-billion prepayment. earlier stress-test material appendix title writes "historical data tracker for the global semiconductor and compute market," yet has no WSTS, no Intel row, no Cisco 2000. Share will break, because the next slice of capacity is not something one firm can lock with prepayments. Today the comparison is not share. It is one year of free cash $96.6B, one quarter of operating income $53.5B, and gross margin back near 75%. That is strong seller-side economics, not proof of a permanent monopoly. Historical switching, customer diversification, and supplier incentives remain part of the mechanism. If the appendix only chases "80% accelerator share," it treats media scope as a DOJ relevant market and misses the cell that can actually lock the next slice of material: prepayments and free cash.
 
 ## 4. Scenarios, counterarguments, and testable indicators
 
@@ -168,11 +168,11 @@ The counter that printing engineering BOMs and 10-Ks on one "evidence appendix" 
 
 ## 5. Gaps and what cannot be treated as fact
 
-- This volume did not audit 10-K / 20-F / TSMC and Hynix annual-report originals page by page. Verified point estimates come from IR / Exhibit 99.1 / official sentences already copied in the central framework. Do not claim "audited by this volume."
+- This volume did not independently verify 10-K / 20-F / TSMC and Hynix annual-report originals page by page. Verified point estimates come from IR / Exhibit 99.1 / official sentences already copied in the central framework. Do not claim "audited by this volume."
 - Older Microsoft period/range estimates have been replaced by the current point figures and accounting scope. Azure above $75B is a company verbal magnitude, not a cash-flow-statement cell.
 - AWS and Google Cloud lack exact segment revenue. Amazon $620.1B and Alphabet $349.7B are group totals. They cannot be cross-compared with NVIDIA data center.
 - $215B and $45B~$55B depreciation cannot be closed inside this volume. The mixed-year addable can only be written to $211.9B–$213.9B (2024) and $354.0B–$356.5B (2025). 2026 guidance lacks Microsoft. $670–750B cannot be added.
-- Putting Hynix operating profit in the gross-margin column is a structural error in historical stress-test material table. "About $25B" is a conversion. Official won is KRW 32.7657T.
+- Putting Hynix operating profit in the gross-margin column is a structural error in earlier stress-test material table. "About $25B" is a conversion. Official won is KRW 32.7657T.
 - BOM, MFU, training dollars, CoWoS capacity, and nuclear MW are not SEC financial facts and not antitrust findings.
 - Under the title "global semiconductor and compute market" there is no WSTS, IDC, or any third-party market total. An industry-size time series is missing.
 - A DOJ complaint, settlement, Mellanox split, forced-open CUDA: have not happened. Subpoena reporting and the company's denial coexist. Follow DOJ paper.
