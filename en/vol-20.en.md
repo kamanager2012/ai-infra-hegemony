@@ -1,10 +1,10 @@
-# Volume 20: Final strategy report (phase-one close: corporate transition, investment hedges, and state action)
+# Volume 20: Strategic Implications for Firms, Capital, and States
 
 Chinese original: [vol-20.md](vol-20.md)
 
-The case closing chapter, and how persons / firms / states live the decade, is [Volume 40](vol-40.md). The end-state switch and more than half the scarce slice are [Volume 15](vol-15.md). Which years the depreciation wall hits is [Volume 30](vol-30.md). This volume only writes the first stage: what each of the three ends should hedge, and what they need not hedge. It invents no positions, invents no target prices, and does not treat the 2036 scenario tree as a diplomatic fact that already happened.
+This volume translates the report's mechanisms into strategic implications for firms, capital allocators, and states. The final synthesis is in [Volume 40](vol-40.md), the S1–S4 end-state framework in [Volume 15](vol-15.md), and the depreciation/clearing mechanism in [Volume 30](vol-30.md). The focus here is decision structure rather than target prices, portfolio prescriptions, or deterministic 2036 forecasts.
 
-## 1. The question this volume answers
+## 1. Core question
 
 By Volume 20, what can be turned into action is no longer another retelling of the "three walls." Firms face **system-stack migration**, hardware depreciation, and memory residual capacity. Investors face value capture concentrated in a small set of physical bottlenecks. States face power, advanced manufacturing, open migration, and the need for credible second sources.
 
@@ -14,7 +14,7 @@ Current FY27 Q2 financials, TSMC 2025, Hynix, supply commitments, and four-cloud
 
 ## 2. Three strategic axes under the current framework
 
-Earlier versions compressed power too aggressively into gross margins, one CapEx number, and single-point downstream cost inflation. The current version uses three mechanisms instead:
+The current framework separates three mechanisms that should not be collapsed into one margin or CapEx number:
 
 1. **Upstream value capture and capacity reservation** at scarce layers.
 2. **System-stack competition and long-duration capacity commitments** among clouds and model companies.
@@ -22,43 +22,44 @@ Earlier versions compressed power too aggressively into gross margins, one CapEx
 
 The actionable strategic sentences remain: firms build multi-chip and multi-model scheduling and avoid proprietary API lock-in; investors focus on bottlenecks whose supply elasticity is lower than token-price elasticity; states treat power, advanced manufacturing, migration capability, and second-source formation as one industrial system.
 
-The old $215B, 20%–30%, SaaS 85%→55%, $2.6M–$3.3M rack ASP, 40%–45% software premium, and early 2036 probability table remain historical stress-test inputs only. Mixed-year group-wide equipment purchases of about $211.9B–$213.9B were never "AI hardware $215B."
+Mixed-year group-wide equipment purchases of roughly $211.9B–$213.9B are not an "AI hardware $215B" official line. Likewise, fixed SaaS-margin endpoints, unverified rack ASPs, software-premium estimates, and old point-probability tables do not enter the current fact layer.
 
-## 3. The firm end: hedge treating rent as your own margin
+## 3. Firms: preserve portability and prove workflow economics
 
-Clouds have already advanced capex on the order of $215B for the whole industry (draft numbers). If a firm writes a proprietary model API into a core workflow at list price, that is another lock stacked on Nvidia 75.0% and cloud depreciation. TrendForce 2026-08-25: DRAM+NAND at the major CSPs will be 47% of 2026 total CapEx and 68% in 2027. A growing slice of the cloud bill a firm pays will be a memory premium, not a token discount it can control.
+Hyperscaler CapEx is already at historically high levels, but the accounting scope is company-wide and differs by firm. For an enterprise buyer, the strategic risk is therefore not "paying someone else's rent" in the abstract; it is locking a core workflow to a model, cloud, or accelerator stack before the workflow's unit economics and migration path are proven. TrendForce's institutional estimates that memory could represent 47% of major-CSP CapEx in 2026 and 68% in 2027 reinforce the importance of memory and infrastructure cost inside the cloud bill.
 
-The draft's technical counter-example is MLA / MoE and multi-chip scheduling: not that firms should build 10k-card clusters themselves, but that the same workflow can be swapped across models and chips. DeepSeek-V3 trained 671B on 2.788 million GPU-hours at about $5.576M (draft paraphrase), which shows that "the same ability, a lower training bill" happened once. It does not guarantee the next time. It is enough to reject the procurement story that "only an exclusive closed API has intelligence."
+MLA, MoE, model routing, and multi-stack scheduling show why enterprises should preserve optionality rather than assume one closed interface is the only path to capability. DeepSeek-V3's technical report provides a first-party anchor of **2.788M H800 GPU-hours** for formal training and a report-side **$5.576M** rental conversion; it does not imply that all frontier models can replicate the same total development cost.
 
-What a firm must not do is write "shift inference onto commodity DDR5" as strategy. HBM+RDIMM is already 51% of 2026 DRAM bits. RDIMM is inside that 51%. Stacking more DDR5 is a fight with phones and PCs for a residual already rising. It is a tax, not a new river. Micron 10-K: the same bits of HBM take more wafers. Hot Chips paraphrase about 3× silicon. Huaqiangbei 16G DDR5 450→1800 is channel talk, which shows the residual tax has already hit OEM purchase orders.
+A second mistake is to treat commodity DDR5 as an unlimited substitute for HBM. HBM + RDIMM are already a large share of 2026 DRAM bit supply in institutional estimates, and Micron's first-party disclosure shows that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity. Enterprises should therefore model memory capacity and bandwidth as real constraints rather than assume they disappear when workloads move across accelerators.
 
 Firm strategy should therefore be written: first pick workflows that directly cut labor or cycle time; then pick a migratable inference stack; only then talk about whether to prepay compute. When you prepay, write the memory quota as a gate as hard as the GPU, rather than assume DDR5 can infinitely substitute for HBM. Reverse the order and you will complete revenue recognition for clouds and chip vendors on the 2025–2028 depreciation ridge.
 
-## 4. The investor end: hedge software valuation, hardware constraint
+## 4. Capital: distinguish scarce-layer assets from application economics
 
-The profit pool is already on the table: Nvidia gross margin 75.0% (FY25; FY26 full year 71.1%, Q4 back to 75.0%), TSMC 2025 gross margin 59.9%, Hynix FY25 operating margin 49%. Overweight packaging consumables, CDUs, nuclear, and interconnection marks. The logic: supply elasticity of those objects is lower than token-price elasticity at model firms. Add now: overweight "the maker right that turns wafers into HBM and RDIMM," not "the story of opening another consumer-DRAM line."
+The investment question is not whether every AI-linked asset benefits equally. NVIDIA's system economics, TSMC's manufacturing economics, memory-cycle economics, and long-duration power/data-center assets have different capital intensity, utilization risk, and cash-flow duration. The relevant distinction is between platform control, scarce manufacturing, infrastructure duration, and application-layer unit economics.
 
 Conversely, "AI software seats" must be evaluated through **AI Software Unit Economics**, not a fixed SaaS-margin narrative: inference, retrieval, tool calls, human review, and AI-cloud cost must be covered by ARPU and usage efficiency. The old 85%→55% endpoint has no sample and remains a stress test. A first-stage investment guide should not invent target prices; it should distinguish higher-grade physical-scarcity evidence from lower-grade application-revenue extrapolation.
 
-Sell-side counts Nvidia as about 60% of CoWoS. TSMC has no split. That cannot be a position formula. The estimate shows more than half the scarce slice at the 100k-cabinet order of magnitude. You do not need 800k cabinets. If investors use the wrong pool, they will see the window as still early. Also do not treat booked customer share of 19% as a safe distance. What is being opened is HPC and packaging. Apple locks phone logic.
+TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is B-grade institutional evidence, while TSMC does not disclose customer-level allocation. The report's 5.39 CoWoS-wafers-per-rack coefficient is D-grade geometry. Neither should be converted into a deterministic investment position or a current TSMC customer share.
 
 Bottleneck-side 60%–75% is a seller margin, not a buyer return. Investors should not read that number as something they can earn too.
 
-## 5. The state end: hedge attacking only chips, and treating three layers as one
+## 5. States: treat manufacturing, software, and power as one system policy
 
 The power contracts in [Volume 35](vol-35.en.md) sit on different delivery clocks and must not be added as if all MW were already energized. Contracted capacity, planned capacity, actual load, and annual utilization are separate variables. A national queue estimate that cannot be matched to an official aggregate does not enter the fact layer.
 
-What can be written into a guide now: when the export list tightens in the same direction as advanced packaging, HBM, and EUV, domestic systems engineering must be designed to "devices that can be obtained," not to a peer spec sheet. Acting alone means handing over each year's new lines and packaging. To change allocation, the Judgment wrote three checks: prepayments large enough that TSMC cannot recognize only one buyer; software bound into one stack; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. All three are directions, not treaties already signed.
+Industrial policy should not stop at logic fabs. A credible frontier-AI supply system also requires HBM, advanced packaging, interconnect, compiler/runtime portability, power, and deployment capability. Long-duration purchasing power and second-source formation matter, but they should be modeled as economic mechanisms rather than assumed treaties or guaranteed allocations.
 
-The first stage must not treat the 2036 dual-track scenario as a diplomatic fact that already happened. That is a 15% branch of the tree (draft numbers, unverified).
+A dual-track 2036 outcome remains a conditional scenario, not a diplomatic fact or a fixed-probability forecast.
 
-## 6. Three strategic scenarios, and what not to do
+## 6. Strategic responses under the standard S1–S4 framework
 
-The three scenarios are not given new probabilities:
+This volume does not introduce a second probability system. Strategic responses should remain conditional on the standard S1–S4 states:
 
-- **Rent continues:** enterprise agent revenue covers $45B–$55B of annual depreciation (draft template), and memory then eats near half to two-thirds of CSP CapEx. Firm strategy leans multi-model but still reserves a CUDA main path; investors keep overweighting bottleneck objects and HBM rights; states still put interconnection reform ahead of subsidizing model firms, and write the three layers into industrial policy.
-- **Algorithm break:** a jump like 93.3% KV compression recurs, and hardware-demand growth falls. Firms should avoid long-cycle compute prepayments; investors must be able to exit packaging and HBM themes; states should avoid locking nuclear and fab subsidies to peak demand. Even after a break, the residual tax does not vanish at once: makers have already turned lines toward high value-add, and cutting back takes time.
-- **Hard landing:** call volume cannot keep up with token price cuts; clouds cut orders. Firms turn capex back to migratable software and owned data; investors turn to cash-flow assets that can live through one destocking; states prepare for unemployment and a capex collapse, not "grab chips" as the only narrative. Consumer electronics will see the reflux first; training cabinets later.
+- **S1 — Competitive Expansion:** supply broadens, software migration improves, and cloud system stacks gain share. Firms should maximize portability; capital should expect lower scarcity premiums; states should prioritize interoperability and supply diversity.
+- **S2 — Baseline Concentration:** demand remains strong, scarce layers stay valuable, and multiple stacks coexist. Firms should validate workflow ROI before long commitments; capital should distinguish platform economics from infrastructure duration; states should continue expanding power and physical capacity.
+- **S3 — Resource Hegemony:** scarce-resource capture and switching costs rise. Firms need an executable second stack; capital should focus on concentration risk as well as scarcity value; states need credible second sources and lower migration barriers.
+- **S4 — Capital Hard Landing:** utilization, clearing prices, CapEx guidance, and forward commitments weaken together. Firms should reduce long-duration compute exposure; capital should prioritize balance-sheet resilience; states should prepare for infrastructure overhang without confusing capital clearing with the disappearance of AI demand.
 
 The other side: a strategy report most easily becomes "all three ends must do everything." When resources are finite, firms need not build nuclear plants, and states need not steer overweighting of a single stock. Another other side is ASIC-as-panacea: public next generations do not retreat to commodity DDR5; see [Volume 4](vol-04.md). A firm that bets "next year we can leave the Nvidia system and shift onto DDR5" may be early, and may have misread the river.
 
@@ -68,8 +69,8 @@ What not to do: do not treat 2026 $750B as a budget fact; do not treat supply-ch
 
 Volume 19 already said that 2026–2028 is the window that can be checked against a table for depreciation, energization, and residual, and that evidence thins after 2029. Firms should therefore not sign compute longs beyond a workflow validation period; investors should not size positions off a 2036 packaging outlook; states should not write SMRs not yet in commercial operation as baseload already solved, nor write HBM that has not yet appeared in a prospectus as supply already solved. Locking action to the first observable four years is closer to the restraint a "first-stage summary" should have than writing a ten-year vision.
 
-None of the Judgment's five interrupt conditions is done in the first stage. The honest writing of a strategy report: until those five are done, act on more than half the scarce slice, a residual tax, and three layers in the wrong place; rewrite this volume after one is done, rather than size positions now as if "already interrupted." How a ten-year strategy changes after one is done is [Volume 40](vol-40.md).
+The strategy should therefore remain adaptive. As system-stack substitution, power constraints, supply expansion, China parallel-stack capability, or structural regulatory remedies change, the recommended balance between portability, long-duration commitments, and physical capacity must change with them. The ten-year synthesis is in [Volume 40](vol-40.md).
 
 Testable marks: on the firm side, whether key workflows can already switch across two or more models or two clouds, and whether memory is treated as a quota as hard as the GPU on the purchase order; on the investor side, whether holdings actually map to packaging, CDUs, nuclear operators, HBM makers, and interconnection-related capex, not to a thematic ETF name; on the state side, whether queue years are still 5–7, and whether the home market can obtain countable advanced packaging and HBM output (the CXMT prospectus has no HBM row, so one can only watch for new maker disclosure).
 
-Firms buy replaceable workflows, not irreplaceable interfaces, and they do not buy a DDR5 river that does not exist. Investors buy physical rights that are still scarce, not the valuation multiple of the story itself. States build power, packaging, and three layers that can be told apart, not another compute slogan. Whoever first reverses these three sentences will complete someone else's revenue on the 2025–2028 depreciation ridge.
+The common principle is straightforward: firms should preserve workflow portability and prove unit economics; capital should distinguish scarce physical assets from narrative exposure; states should build complete systems rather than isolated components.
