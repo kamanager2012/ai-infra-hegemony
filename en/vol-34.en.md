@@ -1,8 +1,8 @@
 # Volume 34: Global Semiconductor Supply-Chain Restructuring — Equipment, Materials, Manufacturing, and Geopolitical Redundancy
 
-Chinese original: [vol-34.md](vol-34.md)
+Chinese original: [vol-34.md](vol-34.en.md)
 
-Packaging tightness: [Volume 24](vol-24.md). The CHIPS Act takes only official award notices. This volume does not promote a High-NA verbal price, and does not promote a CoWoS ramp table.
+Packaging tightness: [Volume 24](vol-24.en.md). The CHIPS Act takes only official award notices. This volume does not promote a High-NA verbal price, and does not promote a CoWoS ramp table.
 
 ## 1. Core question
 
@@ -17,11 +17,11 @@ This volume asks:
 The report distinguishes announced projects, awarded subsidies, installed capacity, qualified production, and economically competitive volume.
 ## 2. The fab end already checked: the increment is HPC; packaging is tight
 
-The TSMC ledger is in [Volume 4](vol-04.md). Packaging tightness is in [Volume 24](vol-24.md). This volume adds only two fab-end sentences of its own: the annual report writes that 2nm entered volume production in 4Q25; the table has no separate 2nm row. In 2Q26, HPC was 66% of that quarter's revenue. That is a comparison only, not a full year. If supply-chain reconstruction is written as a multi-party rise, first explain: with what profit the rising party adds a tranche of prepayments.
+The TSMC ledger is in [Volume 4](vol-04.en.md). Packaging tightness is in [Volume 24](vol-24.en.md). This volume adds only two fab-end sentences of its own: the annual report writes that 2nm entered volume production in 4Q25; the table has no separate 2nm row. In 2Q26, HPC was 66% of that quarter's revenue. That is a comparison only, not a full year. If supply-chain reconstruction is written as a multi-party rise, first explain: with what profit the rising party adds a tranche of prepayments.
 
 ## 3. Long-duration commitments reshape allocation before spot markets clear
 
-Supply commitments: [Volume 1](vol-01.md). When buyers purchase quota with prepayments, the price signal distorts. Spot shortage is covered by contracts until some cloud cuts orders. Only then do foundries and memory makers see inventory at the same time. What is visible now is commitments still rising, not already cut. Multi-year cloud is another line, used for R&D compute, not wafer prepayments. Both are long money. Neither is spot.
+Supply commitments: [Volume 1](vol-01.en.md). When buyers purchase quota with prepayments, the price signal distorts. Spot shortage is covered by contracts until some cloud cuts orders. Only then do foundries and memory makers see inventory at the same time. What is visible now is commitments still rising, not already cut. Multi-year cloud is another line, used for R&D compute, not wafer prepayments. Both are long money. Neither is spot.
 
 ## 4. Lithography is a single point. There is no official price list
 
@@ -61,7 +61,7 @@ More advanced European projects such as Intel Magdeburg: the current evidence re
 
 ## 8. Four clouds, scarcity value, the docket, and the residual are not reopened here
 
-Four-cloud scope: [四云Capex口径核对](四云Capex口径核对.md). scarcity value: [Volume 8](vol-08.md). The docket: [Volume 11](vol-11.md). The residual: [Volume 5](vol-05.md). This volume asks only: an act can climb the bottom of the ladder; it cannot climb the top. Lithography and materials are single points. See sections 4 and 5 above.
+Four-cloud scope: [四云Capex口径核对](四云Capex口径核对.md). scarcity value: [Volume 8](vol-08.en.md). The docket: [Volume 11](vol-11.en.md). The residual: [Volume 5](vol-05.en.md). This volume asks only: an act can climb the bottom of the ladder; it cannot climb the top. Lithography and materials are single points. See sections 4 and 5 above.
 
 ## 12. The reproducibility ladder: an act can climb the bottom, not the top
 
@@ -73,7 +73,7 @@ A latecomer must climb the same ladder and also cut into an equipment queue the 
 
 ## 13. Who can wait, who cannot
 
-Who can wait and who cannot: [Volume 33](vol-33.md). This volume adds only one sentence: endpoints that cannot wait cannot wait for the lithography-and-materials ladder. The five interrupts: [Volume 8](vol-08.md).
+Who can wait and who cannot: [Volume 33](vol-33.en.md). This volume adds only one sentence: endpoints that cannot wait cannot wait for the lithography-and-materials ladder. The five interrupts: [Volume 8](vol-08.en.md).
 
 ## 14. Testable indicators
 
@@ -87,7 +87,7 @@ The judgments this volume can leave are only these sentences. The lithography si
 
 ## 16. Packaging estimate against the acts: taking half does not require locking the whole fab
 
-The estimate pool: [Volume 16](vol-16.md) and [Volume 24](vol-24.md). Half of the scarce slice is packaging, not full-year shipments.
+The estimate pool: [Volume 16](vol-16.en.md) and [Volume 24](vol-24.en.md). Half of the scarce slice is packaging, not full-year shipments.
 
 The act comparison writes this shut. Arizona up to $6.6B plus a proposed $5.0B loan, against more than $65.0B of investment and three greenfield fabs, aims to move leading-edge logic to the United States. Dresden EUR 5.0B of aid, nodes written at 28 to 12 nm, 480,000 wafers a year, full production in 2029, serving auto and industrial. Both are real money. Neither equals already copying the 5.39 packaging line onto home soil. Intel's $7.86B award covers manufacturing and advanced packaging; $5.695B was already booked in August 2025, and equity was handed over. Money and equity are moving. The packaging slot a training cabinet needs is still tight on the original single point. C.C. Wei in the summer of 2026 was still saying: packaging is so tight that it limits customer growth.
 
