@@ -1,8 +1,8 @@
 # Volume 19: 2026–2036 AI-Infrastructure Timeline and Milestones
 
-Chinese original: [vol-19.md](vol-19.md)
+Chinese original: [vol-19.md](vol-19.en.md)
 
-The end-state switch is [Volume 15](vol-15.md). First-stage three ends are [Volume 20](vol-20.md). How to live the decade is [Volume 40](vol-40.md). Nuclear-contract detail is [Volume 35](vol-35.md). This volume only ranks nodes that already happened or that historical stress-test material named. It does not invent a 2036 calendar.
+The end-state switch is [Volume 15](vol-15.en.md). First-stage three ends are [Volume 20](vol-20.en.md). How to live the decade is [Volume 40](vol-40.en.md). Nuclear-contract detail is [Volume 35](vol-35.en.md). This volume only ranks nodes that already happened or that historical stress-test material named. It does not invent a 2036 calendar.
 
 ## 1. Core question
 
@@ -91,4 +91,4 @@ For firms and investors, this timeline is not used to "bet a launch year." It is
 
 This volume introduces no independent numeric forecast layer; it reorganizes already-supported milestones and scenario conditions into a common timeline.
 
-The end-state switch is [Volume 15](vol-15.md). First-stage three-end action is [Volume 20](vol-20.md). How to live the decade is [Volume 40](vol-40.md). This volume only puts several clocks on one axis. It does not reopen the scenario tree.
+The end-state switch is [Volume 15](vol-15.en.md). First-stage three-end action is [Volume 20](vol-20.en.md). How to live the decade is [Volume 40](vol-40.en.md). This volume only puts several clocks on one axis. It does not reopen the scenario tree.
