@@ -1,47 +1,299 @@
-# Copy-ready posts (not sent)
+# Copy-ready X posts (not sent)
 
-Do not post from this file automatically. James posts on X himself. No X API.
+Nothing in this file is posted automatically. It is a release-writing draft for the repository owner.
 
 Repo: https://github.com/kamanager2012/ai-infra-hegemony
 
 English start: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/README.en.md
 
-Judgment: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/总判.en.md
+Chinese source of truth: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/README.md
 
-Volume 1: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/en/vol-01.en.md
+Master judgment: https://github.com/kamanager2012/ai-infra-hegemony/blob/main/总判.md
 
-## English thread
+---
 
-1/ Open-sourced a 40-volume report: The Age of AI Infrastructure Hegemony. Public filings and company pages only. No invented numbers. CC BY 4.0.
+## English thread — release version
 
-https://github.com/kamanager2012/ai-infra-hegemony
+**1/**  
+I open-sourced a 40-volume + 8-essay research monograph on AI infrastructure and the 2026–2036 industrial restructuring.
 
-2/ Thesis: this is a margin monopoly, not a share monopoly. Intel 1999 was CPU share. NVIDIA FY26 is a prepaid lock on the next node, CoWoS, and HBM.
+It is not a benchmark report and not a collection of hot takes.
 
-3/ FY26 official: $215.9B revenue, $193.7B data center, 71.1% GM (Q4 back to 75.0%), $96.6B FCF. Supply commitments $95.2B → $119.0B in one quarter.
-
-4/ TSMC 2025: HPC is 58% of revenue. Customer 1 at 19% is not a safe distance. Packaging is tight enough to limit customer growth. About 100k cabinets, not 835k, take more than half that line.
-
-5/ Public next-gen cloud ASICs did not retreat to 5nm + commodity DDR5. Maia 200, Ironwood, Trainium3 all write HBM. China's stack is three layers. Domestic supply at most covers phones.
-
-6/ Five interrupts, none done: a real Western bundle, training ASICs, power, a second Eastern bid, a forced-open CUDA. Inquiries exist. Complaints do not.
-
-7/ English start is the judgment and Volume 1. The body is Chinese; the index is enough to navigate. Corrections welcome. Do not invent a number.
-
-## 中文帖
-
-1/ 开源了一份四十卷研究报告：《AI基础设施霸权时代》。只读公开财报和公司产品页。数字不编。CC BY 4.0。
+Facts are sourced. Forecasts stay labeled as hypotheses and scenarios.
 
 https://github.com/kamanager2012/ai-infra-hegemony
 
-2/ 主线：利润率垄断，不是份额垄断。1999 年英特尔是 CPU 份额。英伟达 FY26 是预付款锁下一代、CoWoS 和高带宽内存。
+**2/**  
+The core thesis:
 
-3/ FY26 官方：营收 2159 亿，数据中心 1937 亿，毛利率 71.1%（Q4 回到 75.0%），自由现金 966 亿。供应承诺 952 亿 → 1190 亿，一个季度加上去。
+The unit of competition is moving from **chips to system stacks**.
 
-4/ 台积电 2025：HPC 占营收 58%。第一客户 19% 不是安全距离。封装紧到限制客户增长。大约 10 万柜，不是 83.5 万柜，就能过半这条线。
+The real battlefield is now:
 
-5/ 云自研公开下一代没有退回 5nm 加商品 DDR5。Maia 200、Ironwood、Trainium3 都写 HBM。中国栈三层不是一层。国内最多手机。
+leading-edge logic  
++ HBM  
++ advanced packaging  
++ scale-up / scale-out fabrics  
++ compilers / runtimes  
++ racks / pods  
++ data centers  
++ power.
 
-6/ 能打断的五条都还没做成：西边真抱团、训练被 ASIC 拆走、电卡死扩产、东边第二个买盘、强制开 CUDA。调查在，起诉没有。
+**3/**  
+NVIDIA is still extraordinarily strong.
 
-7/ 英文先读总判和第一卷。正文是中文，索引够跳。欢迎纠错。不要编数字。
+FY27 Q2:
+- Revenue: $96.221B
+- Data Center: $89.0B
+- GAAP GM: 75.0%
+- Operating income: $63.734B
+- Rubin: full production
+
+But the correct counterfactual is no longer “NVIDIA has a system, everyone else only has a die.”
+
+Google Ironwood, AWS Trainium3 UltraServer, and Meta MTIA are becoming system stacks too.
+
+**4/**  
+One of the key models in the report is **Non-AI Residual Capacity**.
+
+Total supply growth does not automatically mean phones, PCs, or traditional servers get more supply.
+
+You have to track:
+
+Total effective supply  
+− AI absorption  
+− other priority demand  
+= what non-AI industries actually receive.
+
+That distinction matters more than the headline capacity number.
+
+**5/**  
+HBM is not just “expensive memory.”
+
+Micron disclosed that at the same process node and for the same number of bits, HBM3E consumes roughly **3× the wafer supply of DDR5**.
+
+That creates a real physical opportunity cost.
+
+It also helps explain why memory tightness can spill into consumer electronics even while total DRAM capacity expands.
+
+**6/**  
+Model companies are also changing the power structure.
+
+OpenAI Stargate and Anthropic/AWS show a new role:
+
+**Anchor Compute Buyer.**
+
+Long-term model demand can improve financing certainty for data centers, chips, and power.
+
+So the relationship is no longer simply:
+
+model company → rents cloud.
+
+It is increasingly two-way:
+model demand shapes infrastructure; infrastructure constrains model companies.
+
+**7/**  
+Power is a separate physical quota.
+
+Examples in the report:
+- ~120kW-class AI racks
+- ~835MW nuclear restart PPA
+- Talen/AWS revised PPA: up to 1.92GW
+- Google/Kairos: up to 500MW SMR development
+
+Important: contract capacity is not the same as already energized AI load.
+
+Different layers run on different clocks.
+
+**8/**  
+The future section does not use one-point prophecy.
+
+It uses four states:
+
+S1 — Competitive Expansion  
+S2 — Baseline Concentration  
+S3 — Resource Hegemony  
+S4 — Capital Hard Landing
+
+And 17 variables covering demand, advanced-node supply, packaging, HBM, power, cloud system-stack substitution, software switching costs, capex, regulation, China, and anchor-buyer demand.
+
+**9/**  
+The project also contains:
+- evidence grading
+- a core evidence ledger
+- a primary-source reference index
+- a model glossary
+- a 2026–2036 hypothesis matrix
+- external research comparisons
+- 40 volumes
+- 8 macro essays
+
+Corrections are welcome.
+
+If a number is wrong, challenge the number.
+
+If a scenario is wrong, challenge the assumptions or mechanism.
+
+Repo:
+https://github.com/kamanager2012/ai-infra-hegemony
+
+---
+
+## English single-post version
+
+Open-sourced: **The Age of AI Infrastructure Hegemony** — 40 volumes + 8 macro essays on AI infrastructure and the 2026–2036 industrial restructuring.
+
+Core thesis: the unit of competition is moving from chips to **system stacks** — leading-edge logic, HBM, advanced packaging, fabrics, software, racks, data centers, and power.
+
+Latest anchors include NVIDIA FY27 Q2, TSMC N2/N2P/A16, Micron’s ~3× HBM3E wafer-supply trade ratio vs DDR5, cloud system-stack counterattacks, OpenAI/Anthropic as anchor compute buyers, and long-term power constraints.
+
+Facts are sourced. Forecasts are explicit scenarios. No estimate is upgraded into a company disclosure.
+
+https://github.com/kamanager2012/ai-infra-hegemony
+
+---
+
+## 中文线程 — 发布版
+
+**1/**  
+开源了一份 40 卷 + 8 篇宏观的行业深度研究专著：
+
+《AI基础设施霸权时代》
+
+研究的是：AI基础设施如何在 2026—2036 重构半导体、存储、先进封装、云资本开支、电力、软件、消费电子、劳动与全球产业格局。
+
+事实必须有来源，未来判断必须标假设/情景。
+
+https://github.com/kamanager2012/ai-infra-hegemony
+
+**2/**  
+这份报告最核心的判断不是“NVIDIA会不会垄断”。
+
+而是：
+
+**竞争单位正在从芯片上移到系统栈。**
+
+真正的战场已经变成：
+
+先进制程  
++ HBM  
++ CoWoS  
++ scale-up / scale-out 互联  
++ 编译器 / 运行时  
++ 机柜 / Pod  
++ 数据中心  
++ 电力。
+
+**3/**  
+NVIDIA现在仍然非常强。
+
+FY27 Q2：
+- 营收 962.21 亿美元
+- 数据中心 890 亿美元
+- GAAP 毛利率 75.0%
+- 营业利润 637.34 亿美元
+- Rubin 已进入 full production
+
+但现在不能再写“只有NVIDIA有系统，云厂只有一颗ASIC”。
+
+Google Ironwood、AWS Trainium3 UltraServer、Meta MTIA 都在向完整系统栈推进。
+
+**4/**  
+报告里一个核心模型叫：
+
+**Non-AI Residual Capacity —— 非AI有效残余产能。**
+
+总产能增长，不等于手机、PC、传统服务器就能恢复供应。
+
+真正要算的是：
+
+总有效供给  
+− AI吸收  
+− 其他优先需求  
+= 非AI行业最后真正拿到的资源。
+
+这个变量比“总产能扩了多少”更重要。
+
+**5/**  
+HBM也不只是“贵一点的内存”。
+
+Micron一手披露：
+
+在相同技术节点、生产相同比特时，HBM3E大约需要 DDR5 **3倍 wafer supply**。
+
+所以AI内存扩张会真实占用更多晶圆资源。
+
+这也是为什么“总DRAM扩产”和“手机/PC内存仍然很贵”可以同时成立。
+
+**6/**  
+模型公司也不再只是云的普通租户。
+
+OpenAI Stargate、Anthropic/AWS 说明一个新的角色正在出现：
+
+**Anchor Compute Buyer —— 锚定算力买方。**
+
+模型公司用多年、十年级算力承诺，提高数据中心、电力、芯片项目的融资确定性；反过来，它们也被这些基础设施约束。
+
+权力关系开始变成双向。
+
+**7/**  
+电力是独立于晶圆、封装、HBM之外的另一条物理配额。
+
+报告里核过的现实样本包括：
+- 120kW级AI机柜
+- 约835MW核电重启PPA
+- Talen/AWS新版最高1.92GW PPA
+- Google/Kairos最高500MW SMR开发计划
+
+但合同容量 ≠ 已经送到AI机柜的实时功率。
+
+每一层都有自己的兑现时钟。
+
+**8/**  
+未来十年我没有写成一个点预测。
+
+全书统一成四类状态：
+
+S1 竞争性扩容  
+S2 基准集中  
+S3 资源霸权  
+S4 资本硬着陆
+
+再用 H1—H17 变量持续更新：需求、先进节点、HBM、CoWoS、电力、云系统栈、CUDA迁移成本、资本开支、监管、中国平行栈、模型公司长期算力承诺……
+
+**9/**  
+仓库里现在不只是40卷正文。
+
+还包括：
+- 研究方法与证据分级
+- 核心证据台账
+- 核心参考文献索引
+- 核心概念与模型索引
+- 2026—2036核心假设矩阵
+- 外部研究对照索引
+- 40卷
+- 8篇宏观
+
+欢迎直接挑错。
+
+数字错了，就打数字。
+机制错了，就打机制。
+假设错了，就打假设。
+
+https://github.com/kamanager2012/ai-infra-hegemony
+
+---
+
+## 中文单条版
+
+开源：《AI基础设施霸权时代》
+
+40卷 + 8篇宏观，研究AI基础设施如何在2026—2036重构半导体、HBM、先进封装、云资本开支、电力、软件、消费电子、劳动和全球产业格局。
+
+核心判断：竞争单位正在从“芯片”上移到“系统栈”。
+
+报告现在已经纳入NVIDIA FY27 Q2、TSMC N2/N2P/A16、Micron HBM3E约3× wafer supply、云厂系统栈反击、OpenAI/Anthropic锚定算力买方、电力长期约束等最新现实锚。
+
+事实有证据，未来标假设，情景可证伪。
+
+https://github.com/kamanager2012/ai-infra-hegemony
