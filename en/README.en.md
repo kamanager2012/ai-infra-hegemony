@@ -8,7 +8,7 @@ The rule is simple: **facts must be sourced; forecasts stay labeled as assumptio
 
 Sources last checked: **2026-08-26**.
 
-Licensed under [CC BY 4.0](../LICENSE).
+Licensed under [CC BY 4.0](../LICENSE). Current rebuild notes: [Release Notes](../RELEASE_NOTES.md).
 
 ## Core findings
 
