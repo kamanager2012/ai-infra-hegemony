@@ -24,7 +24,7 @@ The mechanism is not “AI drains everything.” It is that high-value, high-cer
 
 Source: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 
-Product-page body: The NVIDIA GB200 NVL72 connects 36 Grace CPUs and 72 Blackwell GPUs in a rack-scale, liquid-cooled design. Spec table: Configuration 36 Grace, 72 Blackwell; GPU memory 13.4 TB HBM3E; CPU memory 17 TB LPDDR5X. This is the official bill of materials. historical stress-test material's 13.8 TB does not match the official site. Use the official site.
+Product-page body: The NVIDIA GB200 NVL72 connects 36 Grace CPUs and 72 Blackwell GPUs in a rack-scale, liquid-cooled design. Spec table: Configuration 36 Grace, 72 Blackwell; GPU memory 13.4 TB HBM3E; CPU memory 17 TB LPDDR5X. This is the official bill of materials. earlier stress-test material's 13.8 TB does not match the official site. Use the official site.
 
 They already made cards. What changed is selling training as a cabinet. Once the cabinet is the default sales unit, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain. Once inside, the next generation is bought inside the same domain. This volume does not split the cabinet into a dollar table. A dollar table is a historical stress-test extrapolation, not a product page. What can enter the identity is only unit counts and terabytes.
 
@@ -92,7 +92,7 @@ Cabinet counts, full-year global absolute HBM bits, an official number for packa
 
 Cabinet counts, full-year global absolute HBM bits, an official number for B200 packages per packaging wafer: not found.
 
-A 3:1 wafer penalty as a measured factory constant: Micron says the same bits take more wafers; Micron's first-party materials disclose ~3×. That is not a maker formula. historical stress-test material's 12-high composite yield 48.6% and area up 50% to 55% are examples. Do not promote them.
+A 3:1 wafer penalty as a measured factory constant: Micron says the same bits take more wafers; Micron's first-party materials disclose ~3×. That is not a maker formula. earlier stress-test material's 12-high composite yield 48.6% and area up 50% to 55% are examples. Do not promote them.
 
 Qualcomm 8 Elite purchase price $180–$190, MediaTek about $155, AP at 30% of BOM, a 40-month replacement cycle: analyst. This volume does not reopen them. The earlier $20,000–$22,000 3 nm wafer-price estimate is not supported by the TSMC management material used here and therefore does not enter the fact layer.
 
@@ -112,7 +112,7 @@ Samsung Taylor 16k / 24k / 40k wafers per month: not in the announcement. CXMT 3
 
 Counting equity marks as money that bids for capacity. Q1 net income $58.321B includes about $15.9B of unrealized equity gains. Bidding looks at operating income.
 
-historical stress-test material "four-cloud 2024 capex officially broke $215B of AI" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B, not an AI-hardware line item. This volume does not treat that money as cabinets the resource reallocation has already bought.
+earlier stress-test material "four-cloud 2024 capex officially broke $215B of AI" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B, not an AI-hardware line item. This volume does not treat that money as cabinets the resource reallocation has already bought.
 
 Backdoors, stolen training data: no public forensics. They do not enter the fact layer.
 
