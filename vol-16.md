@@ -31,7 +31,7 @@ Memory Bandwidth 	imes Arithmetic Intensity
 ```text
 I_{critical}
 =
-rac{Peak Compute}{Memory Bandwidth}
+Peak Compute / Memory Bandwidth
 ```
 
 当 workload 的 arithmetic intensity 低于临界值时，系统处于 memory-bound 区域。
