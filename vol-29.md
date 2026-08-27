@@ -1,41 +1,182 @@
-# 第二十九卷：中国AI产业链突围分析（华为昇腾910C、CANN 8.0、中芯国际先进制程与自主替代）
+# 第二十九卷：中国 Frontier AI Parallel Stack 的系统级评估
 
-中国栈三层不是一层，长鑫 0 处 HBM，近端闸和远端闸，见[第十二卷](vol-12.md)。本卷不重讲那几句。本卷只比较早期版本里真正出现过的规格：HCCS 对 NVLink、CANN 对 CUDA、DUV 多重曝光对先进制程、国产 HBM 对海力士。跑起来不等于破局。
+## 1. “能跑起来”与“形成等价系统”不是同一个标准
 
-## 1. 本卷要回答的问题
+评估中国 AI stack 不能只看某一颗 accelerator 是否能够运行模型。
 
-在出口管制把高端 GPU 与先进制程挡在海关之后，华为昇腾加 CANN 加中芯国际加长鑫存储这条链，能替代的是「能训练和推理」，还是只替代「能交货」？没有可复加的 910C 出货去对敲英伟达 FY26 数据中心 1,937.37 亿美元。早期版本没有给出 910C 的峰值算力、HBM 容量、制程节点、单价或出货，也没有中芯的具体纳米节点与良率。不补。
+需要分成：
 
-## 2. 早期版本能留下的对照（不升格）
+1. functional availability；
+2. performance；
+3. scale；
+4. software portability；
+5. supply sustainability；
+6. economics。
 
-昇腾 910B / 910C 配备自研 HCCS 片间互联，带宽 392 GB/s，配合 CloudEngine 交换机，组成「支持数千卡线性扩展」的 SuperPoD。CANN 8.0 对 PyTorch、vLLM 做底层算子对齐与自动调优，开源模型迁移的代码改写量「降低至 5% 以下」。中芯国际用 DUV 多重曝光（SADP / SAQP）攻关先进制程「良率平衡线」；长鑫存储推进 DDR5 / LPDDR5 量产，并攻坚 3D TSV 国产 HBM。以上均为早期情景数字，本卷未读原厂文档。
+只有这些维度同时达到可接受水平，才构成 system-level substitution。
 
-对照西方织物（早期情景数字）：NVLink 5.0 单 GPU 双向 1.8 TB/s，72 卡背板 130 TB/s，统一显存 13.8 TB，延迟小于 100 纳秒；RoCE 800G 为 100 GB/s、1.5 到 3.0 微秒。总判官方单柜改为 HBM 13.4 TB 加 LPDDR 17 TB，与早期版本 13.8 TB 不是同一口径。HBM 物理账和 3:1，见[第二十三卷](vol-23.md)，相关数据不在本卷重复展开公式。
+## 2. Ascend + CANN 的价值在于系统完整性
 
-## 3. 互联墙：392 GB/s 对 1.8 TB/s
+Huawei Ascend 的战略意义来自：
 
-两者都是早期情景数字。换算只作分析：1.8 TB/s = 1800 GB/s，约为 392 GB/s 的 4.6 倍；若再对比机柜级 130 TB/s，昇腾单条 HCCS 并不自动等于「一块巨型逻辑芯片」。早期版本用 SuperPoD 加 CloudEngine 声称数千卡线性扩展，但没有给出等效于小于 100 纳秒统一显存的延迟，也没有给出集合通信的有效算力利用率。HCCS 口径（单向或双向、每卡几条、对应延迟）不明，4.6 倍只是粗算，不能写成已测代差。
+- accelerator；
+- CANN；
+- communication；
+- server/system；
+- domestic cloud deployment。
 
-突围若成立，更可能是「把集群做大、用更多卡换单卡带宽」加上「用 MLA / 混合专家降低对统一显存的病态依赖」，而不是在单链路带宽上追上 NVLink 5.0。线性扩展是否真线性，必须以通信占比来检验，不能用「数千卡」当证明。反方也成立：392 GB/s 已高于 RoCE 800G 的 100 GB/s（早期情景数字），国内织物不必对标 NVLink 也能打赢「以太网集群」。够用和对等不是同一句话。
+因此，评价它不能只比较 peak FLOPS。
 
-SuperPoD「数千卡」是声称，不是柜。总判一柜官方 72 GPU、36 Grace、HBM 13.4 TB、LPDDR 17 TB。国内没有可复加的柜量去乘这组规格。国内没有封装分项。5.39 见 [第二十四卷](vol-24.md)。
+更重要的是：
 
-## 4. 软件墙：5% 改写量是迁移成本，不是生态租金
+- large-cluster utilization；
+- compiler stability；
+- operator coverage；
+- framework compatibility；
+- failure recovery；
+- production deployment。
 
-CANN 8.0 把开源模型迁移改写压到 5% 以下（早期情景数字），说明推理与训练框架可以对准 PyTorch / vLLM。这解决的是「能不能跑起来」。英伟达机柜物料清单里 40% 到 45% 是 CUDA / TensorRT-LLM / DOCA 与品牌溢价（早期情景数字），那是已经跑起来之后的定价权，是测算不是分部财报，不升成已核。CANN 要对齐的是算子覆盖、编译稳定性和多代硬件兼容，不是单次迁移补丁行数。5% 是必要门槛，不是充分护城河。
+这是 system-stack 竞争。
 
-总判把软件捆成一套写成打断条件之一，胚子是统一加速库一类的开放接口。现在没有做成。中国栈靠买不到英伟达的人活，不是靠便宜打穿 CUDA。71.1% 到 75.0% 的垫意味着它也能降价打。模型公司拆成「用他的栈」和「向云付账单」，见[第二十六卷](vol-26.md)。中国栈接住的是第一笔里买不到的人，不是把全球实验室从 CUDA 上撕下来。便宜填不满 CUDA 的税。
+## 3. Interconnect 是大集群的关键
 
-## 5. 制造墙：DUV 换的是能做，HBM 还在进行时
+frontier training 需要：
 
-中芯走 SADP / SAQP（早期版本陈述），没有节点与良率。多重曝光用时间、掩模次数和套准误差换分辨率，产能与成本曲线和极紫外单次曝光不同。即便逻辑芯片能出货，HBM 仍要过堆叠和底座这一关。长鑫「攻坚国产 HBM」在早期版本里是进行时。招股书全文 0 处 HBM，主线是常规 DRAM，见[第十二卷](vol-12.md)。35 万片每月不是公告，不写。没有国产 HBM，910C 集群会在显存容量上先碰到墙，互联还没轮到。
+- tensor/model parallel；
+- expert routing；
+- collective communication。
 
-TrendForce 2026 年一季度中芯份额 5.1%。中芯接的是手机、电视、笔记本和成熟制程，不是 Azure / GCP 的训练柜。出口管制和信任，第三项过不去。三星 6.5% 能分流的是特斯拉长约那条线，不是国产柜。16,000 / 24,000 / 40,000 片每月没有公告。
+因此，interconnect 决定：
 
-## 6. 算法杠杆：557.6 万美元为什么被点名
+- scaling efficiency；
+- cluster utilization；
+- usable compute。
 
-DeepSeek 用 H800、278.8 万 GPU 时做出 671B / 37B（早期情景数字），被放在「架构与算法创新杠杆撬动硬件封锁」这句旁边。如果训练账单可以落在百万美元而不是数十亿美元机柜，出口管制的杀伤从「无法做前沿模型」降为「无法做最高带宽织物上的最大密模」。权力从海关部分回到研究团队。前提是 H800 级或昇腾级供给仍然存在，以及 MLA 对 KV 的 93.3% 压缩对中文与多模态任务同样成立。后一点早期版本没测。557.6 万美元是算力折算，不是全成本，对照基线没有样本，截至当前公开资料，尚未核论文。不能写成「训练已经便宜到可以离开 HBM」。H800 本身说明依附带有许可证维度。国内若用昇腾复现，对照早期版本：互联是 392 GB/s 对 1.8 TB/s，长鑫招股书 0 处 HBM。层不对，不是同一条河。
+即使单卡性能足够，如果 cluster communication 无法有效扩展，大规模训练效率仍会受到限制。
 
-## 7. 本卷不写的
+所以国产 stack 的关键测试不是“单卡 benchmark”，而是：
 
-不重讲三层（见卷十二）。不重开 Maia / TPU / Trainium 规格表（见卷四、卷二十四）。不重讲 51% 和按柜乘（见卷五）。不重开 FY26 和台积电表（见卷一）。不把 SuperPoD 数千卡写成已经对等的柜。不把 5% 改写量写成已经挖穿 CUDA。
+> thousands-of-accelerator cluster 的有效 utilization。
+
+## 4. CANN 与 CUDA 的真正竞争指标
+
+CANN 的竞争目标不只是“支持 PyTorch”。
+
+需要长期观察：
+
+- operator completeness；
+- compiler optimization；
+- debugging；
+- profiler；
+- distributed runtime；
+- multi-generation compatibility；
+- developer tooling。
+
+migration cost 只有在 production workload 中足够低，才能真正削弱 CUDA switching cost。
+
+## 5. Foundry 是必要条件，但不是全部
+
+China frontier AI supply 仍受到 advanced logic 约束。
+
+但即使 logic die 能够稳定生产，完整 system 还需要：
+
+- HBM；
+- packaging；
+- substrate；
+- interconnect；
+- power。
+
+因此，foundry progress 必须与整个 stack 同时评估。
+
+## 6. HBM 是最关键的未闭环层之一
+
+CXMT 公开招股材料披露 DDR/LPDDR，但未披露 HBM product line。
+
+这不能证明没有任何 HBM R&D。
+
+但产业层面需要出现：
+
+- official product；
+- customer qualification；
+- volume production；
+- bandwidth/capacity；
+- packaging integration。
+
+只有这些出现，才能把国产 HBM 从“研发可能性”升级为“system supply”。
+
+## 7. Algorithmic efficiency 是重要杠杆
+
+受限 supply chain 下，算法优化具有更高价值。
+
+可通过：
+
+- sparse model；
+- memory compression；
+- quantization；
+- communication optimization；
+- routing；
+
+提高 effective compute。
+
+因此，中国 stack 不需要在每一个硬件指标上完全复制 NVIDIA，才能形成有价值的 domestic system。
+
+但算法不能替代全部 physical bottleneck。
+
+## 8. Domestic demand 是最大的战略资产之一
+
+中国拥有：
+
+- large cloud market；
+- internet platforms；
+- manufacturing；
+- government/enterprise demand。
+
+这允许国产 stack 在国内 workload 中积累：
+
+- compiler feedback；
+- deployment experience；
+- software ecosystem；
+- scale。
+
+这与 hyperscaler custom silicon 的逻辑类似：
+
+> 自己拥有大 workload，就可以在不先征服全球 developer 的情况下迭代 system。
+
+## 9. Export control 同时强化 parallel-stack incentive
+
+出口限制提高短期成本，但也提高 domestic stack 的战略必要性。
+
+长期影响取决于：
+
+- R&D efficiency；
+- capital allocation；
+- ecosystem adoption；
+- supply scaling。
+
+因此，export control 不是单向变量。
+
+## 10. 什么时候可以说“形成第二系统”
+
+本报告采用七项 gate：
+
+1. advanced accelerator scale；
+2. HBM-class memory scale；
+3. advanced packaging scale；
+4. large-cluster interconnect；
+5. mature compiler/runtime；
+6. frontier workload migration；
+7. sustainable cost/utilization。
+
+七项都达到可验证规模，才是完整 frontier AI parallel stack。
+
+## 11. 当前判断
+
+截至 2026 年，中国已经拥有真实、持续发展的 accelerator/software parallel stack。
+
+但最前沿 system-level substitution 仍需要多个 advanced layer 同时闭环。
+
+因此，最准确的描述是：
+
+> **中国已经跨过“没有替代系统”的阶段，但尚未跨过“所有关键层都实现全球等价规模”的阶段。**
+
+这个中间状态本身就足以改变全球 AI supply-chain strategy。
