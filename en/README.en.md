@@ -36,7 +36,7 @@ The repository is currently in private publication-preparation mode. The public-
 7. [Chinese 2026–2036 hypothesis matrix](../核心假设矩阵.md)
 8. [English mechanism index](机制索引.en.md)
 
-> **Translation status (2026-08-27):** the English overview, master judgment, and release-critical chapters **12 / 18 / 20 / 22 / 24 / 25 / 26 / 28 / 30 / 31 / 35 / 36 / 37 / 39 / 40** are synchronized to the current framework. Other translated chapter bodies may still lag the Chinese source of truth after major revisions.
+> **Translation status (2026-08-27):** the English landing page and master judgment track the current framework. Individual chapter translations are being re-audited against the Chinese source of truth and may still contain older wording, structure, or evidence framing. For external publication, the Chinese edition remains authoritative until a chapter is explicitly revalidated.
 
 ## Research method
 
