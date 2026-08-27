@@ -1,61 +1,192 @@
-# Volume 10: Five scenarios for the global AI industry over the next decade (oligopoly, edge decentralization, hard landing, and the decision tree)
+# Volume 10: Four Standard AI-Infrastructure Scenarios for the Next Decade
 
-Chinese original: [vol-10.md](vol-10.md)
+Chinese original: [vol-10.md](../vol-10.md)
 
-How the end-state switches push forward from the numbers now on the table is in [Volume 15](vol-15.md). Why four mutually exclusive 2036 cells cannot hold a mixed cross-section is also in that volume. This volume writes one thing: why the draft probability table cannot be treated as world frequencies, and which switch settings the title's oligopoly concentration, edge decentralization, and capital hard landing each map to.
+## 1. Core question
 
-## 1. The question this volume answers
+The next decade should not be represented by a single point forecast or by uncalibrated probability weights. The report therefore uses four standard industrial states derived from the same variables and mechanisms used across all forty volumes.
 
-Volume 10 is not a ten-year weather forecast. The title writes "five scenarios." The draft imported Part II chapter 8's four end states together with 40%, 30%, 15%, and 15%. The fifth branch is undefined. Scenarios only deserve to be switches. The probability table is spinning in a vacuum.
+The formal scenario set is:
 
-This volume answers three things. First, what is the default path. The engine in the judgment is: demand pushes profit, profit pushes prepayments, prepayments lock packaging and the first-to-market node, rivals take the residual, deliveries slow, and they have even less money to bind longs and switch stacks. Fail the interrupts and the line walks past half of the scarce slice. Second, how many switches can pry that engine open, and whether any one of them is done. The judgment writes five: the West actually bundles; cloud ASICs take training, not just inference; power stops the buildout; the East stands up a second bid; a structural split or a forced-open CUDA. The title's oligopoly concentration, edge decentralization, and capital hard landing map to lock, an algorithm interrupt, and a buyer cut. Third, which falsifiable signals the reader should watch, instead of treating 40/30/15/15 as already-calibrated world frequencies. This volume does not invent probabilities.
+- **S1 — Competitive Expansion**
+- **S2 — Baseline Concentration**
+- **S3 — Resource Hegemony**
+- **S4 — Capital Hard Landing**
 
-Public sources that lined up on the day this volume was written: TSMC 2025 HPC was 58% of full-year revenue; first customer 19%. C.C. Wei in 2Q26 still said packaging is so tight that it limits customers' growth. NVIDIA FY26 data center revenue $193.7B; supply commitments from $95.2B at FY26 year-end to $119.0B at Q1 FY27 end. A DOJ inquiry exists; justice.gov has no *United States v. NVIDIA* complaint. France said on 2026-07-09 the inquiry is near the end; no statement of objections had been issued publicly as of 2026-08-26. These are which notch the switches sit on now, not a 2036 point forecast. The full financial base is in [Volume 1](vol-01.md).
+The scenario engine is the common chain:
 
-## 2. The draft's four scenarios (all marked draft; do not promote)
+```text
+Fact F
++ Hypothesis H
++ Mechanism M
+→ Scenario S
+→ Falsification / Update X
+```
 
-The power-allocation sentence is still there: the bottleneck side at 60%–75% gross margin, 2024 four-cloud capex $215B, downstream chip costs up 20%–30% (all draft figures). On the capital side, this 2024 vintage, depreciated over 4 years for hardware and 15 years for civil works, would form $45B–$55B a year of rigid hardware depreciation in 2025–2028 (draft figures). Which years the depreciation wall hits is in [Volume 30](vol-30.md).
+The relevant inputs are defined in the [Core Hypothesis Matrix](核心假设矩阵.en.md), including demand growth, effective advanced-logic supply, incremental resource capture, HBM intensity, packaging expansion, power, cloud system-stack substitution, software migration cost, token pricing, regulation, China parallel-stack maturity, return on invested capital, prepayments, and Anchor Buyer Demand.
 
-Part II writes 2026 four-cloud capex as $670–750B, and says the industry needs more than $155B of annualized incremental AI revenue to hold ROI; it also writes "current real enterprise AI software incremental revenue of about $35–50B," producing a $60–80B a year commercialization gap (all draft figures). These are "guidance plus sell-side synthesis," not audited realized amounts. Official four-cloud capex does not add to $670–750B. Mixed-year 2024 group-wide equipment purchases are about $211.9–213.9B. That is not "AI hardware $215B."
+## 2. Why fixed probability tables are rejected
 
-The token-sensitivity matrix (draft figures, model scenarios) gives no sample and no accounting scope. This volume does not use that matrix as a base.
+Older versions used 40% / 30% / 15% / 15% discussion weights for several future states. Those numbers were not statistically calibrated world frequencies and are not part of the current framework.
 
-Part II chapter 8, four end states (draft figures; probabilities are author assignments):
+The report instead asks which observable variables are moving toward or away from each state. This avoids false precision and allows the scenario system to be updated when new evidence appears.
 
-- Scenario 1, oligarchic centralization, 40% — leading-edge nodes below 1nm, a single fab costing more than $40B, NVIDIA and the three North American clouds monopolizing 80% of global high-end compute and energy quotas.
-- Scenario 2, algorithm breakthrough and edge decentralization, 30% — innovations like DeepSeek cut model compute demand by 1000×, "top-tier human intelligence" runs on-device, infrastructure decays into a thin-margin utility.
-- Scenario 3, capital-bubble hard landing, 15% — enterprise ROI cannot fill a $150B a year depreciation hole, cloud giants cut capex, the secondary market repeats a 2000-style valuation kill.
-- Scenario 4, East–West dual-track independent ecosystems, 15% — lithography, manufacturing, EDA, memory, interconnect, frameworks, and applications all close the loop at home.
+Current anchors include:
 
-The "fifth branch" the Volume 10 title adds is undefined in the draft. What the book actually wants as scenarios is another tree: brands die, hardware dominates, Dell, Lenovo, ASUS, MSI, and HP become box ODMs, Sony thins, Microsoft Azure does not thin. Those were swallowed by the 40% cell. This volume marks them as sub-scenarios under the lock branch. It does not assign extra percentages. Microsoft Intelligent Cloud FY25 $106.265B shows Azure will not thin into a game studio.
+- TSMC 2025 HPC platform share **58%**;
+- TSMC management continuing to describe advanced packaging as tight and growth-limiting;
+- NVIDIA supply-related commitments of **$119.0B** at FY27 Q1;
+- NVIDIA FY27 Q2 revenue **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, operating income **$63.734B**;
+- hyperscaler system stacks continuing to develop across Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA;
+- long-duration model-company infrastructure commitments from OpenAI/Stargate and Anthropic/AWS;
+- power projects with contractual scales ranging from hundreds of megawatts to multi-gigawatt arrangements, but with different construction and energization clocks.
 
-DeepSeek-V3 total parameters 671B, active 37B, 2048 H800s, 2.788 million GPU-hours, pretrain converted to about $5.576M, KV Cache compression 93.3% (draft figures; this volume did not re-open the technical report). On Ascend, CANN rewrite below 5%, HCCS 392 GB/s (all draft figures; this volume did not re-open the originals).
+These facts constrain the scenario tree. They do not select one inevitable 2036 outcome.
 
-## 3. What actually decides the branches
+## 3. Scenario S1 — Competitive Expansion
 
-The five scenarios are not parallel stories. They are different values of the same constraint set.
+Typical variable pattern:
 
-- Physics axis: reticle limit, CoWoS fixture-hours, HBM taking more wafers per bit. These decide whether a second name can copy the compute.
-- Capital axis: one year of free cash $96.6B, one quarter of operating income $53.5B, supply commitments up $23.8B in three months. These decide how many years a mismatch can be carried, and whether prepayments can buy the next generation's slots.
-- Algorithm axis: whether MLA / MoE can drive down the effective cost of memory-bound inference. This decides whether the expensive cluster is the only solution.
-- Geopolitics axis: export controls and sovereign models. These decide whether the market is one net or two.
-- Regulation axis: inquiries exist, complaints do not; 10% is a statutory ceiling, not a fine; once national security writes advanced chips as license items, a split is harder to land.
+- AI demand remains large but supply eventually grows faster;
+- advanced packaging and HBM loosen materially;
+- a scalable second frontier-manufacturing source emerges;
+- cloud system stacks substitute a meaningful share of training and inference;
+- software migration costs fall;
+- power and interconnection expand fast enough to avoid becoming the dominant bottleneck.
 
-Oligopoly concentration requires physics that is hard to copy, capital willing to keep padding, algorithms that have not punched demand through, and regulation that has not split the four corners. Edge decentralization requires a jump in algorithm efficiency that outruns the rigidity of packaging and power. A hard landing requires revenue elasticity below depreciation rigidity, and you must see cuts, not only a share-price drawdown. Dual-track requires controls that persist and both sides able to assemble a usable stack. A power or regulation interrupt requires an interconnection license or a split order that actually lands.
+Industrial result:
 
-The default path is lock. None of the five interrupts is done. What is done is supply commitments to $119.0B. Acting alone means handing over each year's new CoWoS and 2nm first silicon. Booked 19% is not a safe distance. Customer A and Customer B are in [Volume 4](vol-04.md). Occupy the increment and next year's slots belong to the first name.
+- AI remains a very large market, but concentration weakens;
+- Non-AI Residual Capacity recovers;
+- NVIDIA remains an important platform but captures a smaller share of incremental system profit;
+- hyperscalers gain bargaining power through their own system stacks;
+- upstream supply becomes more contestable.
 
-5.39 is a CoWoS wafers-per-cabinet estimate, not a TSMC disclosure. The binding line is packaging; about 100,000 cabinets take more than half. You do not need 800,000 cabinets to lock 3nm. The pool and the formula are in `测算-投片与柜-20260826.md`. This volume does not reopen the geometry.
+This is not a “post-AI” scenario. It is a high-demand industry with broader supply and stronger substitution.
 
-## 4. Falsifiable signals, not probabilities
+## 4. Scenario S2 — Baseline Concentration
 
-This volume does not invent probabilities. The reader watches switches, not 40/30/15/15.
+Typical variable pattern:
 
-- Lock still on: TSMC's call still writes CoWoS tight / limits customers' growth; first-customer share keeps rising; supply commitments keep rising; public next-gen cloud ASICs still write 3nm + HBM.
-- Algorithm interrupt done: a reviewable, cross-buyer drop of "same-capability training bills by an order of magnitude," and the clouds' next-year capex guidance is cut because of it, rather than the saved budget converting at once into more concurrency.
-- Hard landing done: four-cloud group capex negative for two years running; NVIDIA data center revenue leaves the FY26 $193,737M magnitude; gross margin leaves the 71.1% to 75.0% band. The last two items are only a check.
-- Power interrupt done: see [Volume 13](vol-13.md). Cabinets cannot get on the grid; prepaid packaging wafers become inventory that cannot leave. Contracted megawatts are not already a stop.
-- Eastern bid done: see [Volume 12](vol-12.md). Domestic advanced packaging and HBM-class bits can volume-produce enough to hold up a training cabinet. CXMT's prospectus: 0 mentions of HBM. That is not done.
-- Regulation interrupt done: see [Volume 11](vol-11.md). A complaint appears on justice.gov, or an effective text of a split order or a forced-open CUDA. An inquiry is not a complaint.
+- AI demand remains high;
+- effective supply expands but often lags demand by a product cycle;
+- HBM remains more resource-intensive than conventional DRAM;
+- advanced packaging remains periodically tight;
+- power becomes a major constraint gradually;
+- cloud system stacks divert internal inference and part of training, but software migration costs remain meaningful;
+- prepayments and long-duration commitments remain important but do not close the market.
 
-Which notch 2036 stops on, this volume does not forecast. How to push the switches to the cutoff year is in [Volume 15](vol-15.md). What the three ends should do now in phase one is in [Volume 20](vol-20.md). How to live for ten years is in [Volume 40](vol-40.md).
+Industrial result:
+
+- leading platforms continue to capture substantial value;
+- bottlenecks roll across logic, HBM, packaging, networking, and power;
+- traditional industries experience observed or counterfactual crowding-out;
+- cloud custom silicon reduces some platform profit without eliminating upstream resource competition;
+- the market remains concentrated but not fully locked.
+
+This is the report's central “concentration without inevitability” state.
+
+## 5. Scenario S3 — Resource Hegemony
+
+Typical variable pattern:
+
+- high AI demand persists for multiple years;
+- effective advanced supply remains below demand;
+- a leading platform captures a very high share of incremental scarce AI/HPC resources across generations;
+- HBM and advanced packaging remain quota-like;
+- power becomes a hard ceiling;
+- cloud system stacks fail to substitute enough frontier training demand;
+- software migration costs remain high;
+- AI returns remain high enough to support stronger prepayments and long-duration contracts;
+- Anchor Compute Buyer commitments continue to expand.
+
+Industrial result:
+
+- resource-allocation power concentrates;
+- competitors lose time first through residual capacity, lead times, and product-cycle delay rather than because they become incapable of designing chips;
+- Non-AI Residual Capacity remains structurally constrained;
+- the Installed-base Flywheel and Self-financing Demand Loop reinforce one another;
+- platform power increasingly spans hardware, software interfaces, system design, and capacity reservation.
+
+This is the strongest form of the report's “AI infrastructure hegemony” thesis. It remains a scenario, not a statement that the end state has already arrived.
+
+## 6. Scenario S4 — Capital Hard Landing
+
+Typical variable pattern:
+
+- AI demand materially misses expectations;
+- inference/token prices fall faster than useful usage and revenue grow;
+- utilization weakens;
+- AI return on invested capital falls;
+- supply commitments slow, are rescheduled, or are reduced;
+- Anchor Buyer commitments are underutilized or renegotiated;
+- long-duration buildings, power, and interconnection assets remain in place.
+
+Industrial result:
+
+- GPU/rack pricing and lead times soften first;
+- new cabinet orders and secondary-market values weaken before long-duration civil works can clear;
+- HBM and advanced-packaging expansion slows later;
+- depreciation and utilization pressure move onto cloud and infrastructure balance sheets;
+- weaker second-tier firms may exit, potentially leaving the surviving infrastructure market more concentrated after the clearing event.
+
+A share-price drawdown alone is not S4. The report requires accounting pressure, weak utilization, market-clearing deterioration, and weaker forward commitments together.
+
+## 7. The main switching variables
+
+### 7.1 Physical supply
+
+Watch advanced logic, HBM, advanced packaging, interconnect, cooling, transformers, and grid connection. A bottleneck can migrate rather than disappear.
+
+### 7.2 Cloud System-Stack Substitution
+
+The critical question is not whether custom accelerators exist. It is whether hyperscalers can migrate large production training and inference workloads with acceptable software cost and sufficient physical supply.
+
+### 7.3 Algorithmic efficiency
+
+Efficiency can reduce compute per unit of capability. It can also trigger a rebound effect if lower unit cost produces more users, more agents, longer context, multimodality, and larger workloads. The net demand effect must be measured rather than assumed.
+
+### 7.4 Anchor Buyer Demand
+
+Long-duration model-company commitments can stabilize infrastructure financing and capacity construction. If those commitments shrink or run at low utilization, S4 gains weight; if they expand and are used heavily, S2/S3 gain weight.
+
+### 7.5 Power
+
+Contracted MW/GW must remain separate from energized and utilized load. A hardware system without interconnection and usable power is not deliverable compute.
+
+### 7.6 Regulation
+
+Investigations, complaints, remedies, fines, interoperability mandates, and structural separation are different legal states. Only implemented remedies should be treated as scenario-switch events.
+
+## 8. Falsification and updating
+
+Evidence that should shift weight toward **S1**:
+
+- HBM and advanced packaging loosen persistently;
+- cloud system stacks migrate large production workloads;
+- software portability improves materially;
+- a scalable second frontier-manufacturing source emerges;
+- Non-AI Residual Capacity recovers.
+
+Evidence that should shift weight toward **S3**:
+
+- supply commitments keep rising;
+- advanced packaging remains growth-limiting;
+- HBM remains highly resource-intensive;
+- a leading platform repeatedly receives incremental first-to-market capacity;
+- power/interconnection remains slower than data-center construction;
+- Anchor Buyer Demand expands.
+
+Evidence that should shift weight toward **S4**:
+
+- utilization weakens across multiple operators;
+- token/inference prices fall without sufficient volume or ARPU response;
+- GPU/rack lead times and secondary prices collapse;
+- hyperscaler CapEx and semiconductor commitments are cut or rescheduled;
+- long-duration infrastructure remains underused.
+
+## 9. Boundary conditions
+
+This volume does not assign fixed 2036 probabilities, treat the former 40/30/15/15 weights as calibrated forecasts, equate total CapEx with AI hardware CapEx, or treat a single algorithmic breakthrough as proof of 1000× industry-wide compute-demand reduction.
+
+The purpose of S1–S4 is to create a **falsifiable industrial state machine**. The reader should be able to update the scenario map as evidence changes rather than defend a prophecy written years earlier.
