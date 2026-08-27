@@ -1,26 +1,52 @@
 # Volume 39: Education and talent-system reconstruction in the AI era (lagging engineering curricula, hybrid AI talent, and a cognitive jump)
 
-Margin monopoly: [Volume 1](vol-01.md). Labor statistics are zero: [Volume 38](vol-38.md). This volume does not write admissions, employment, or starting pay. Capability structure can be written. Headcount stays blank.
+Profit-pool control: [Volume 1](vol-01.en.md). Labor evidence boundaries: [Volume 38](vol-38.en.md). The current report now incorporates Stanford HAI's 2026 AI Index for education-side adoption and institutional lag. It still does not invent unemployment, salaries, or school-level outcomes that were not measured.
 
 ## 1. The question this volume answers
 
-The education system is still producing people by "one language, one chip, one diploma." Industry is consuming people by "wafer—packaging—HBM—liquid cooling—grid interconnect—CUDA / CANN—workflow." This volume asks only three testable things: on which layer traditional engineering education lags; which accountable capability combinations "compound talent" names; and whether a so-called cognitive leap can be finished by swapping a batch of course titles.
+The education system still tends to produce people through separated disciplines, while the production system consumes capability across wafer → packaging → HBM → liquid cooling → grid interconnect → CUDA/CANN → workflow. This volume asks three testable questions: where traditional engineering education lags; which accountable combinations deserve the name "compound talent"; and whether a cognitive leap can be achieved merely by renaming courses.
 
-Margin monopoly and supply commitments: [Volume 1](vol-01.md). Changing a classroom syllabus does not change this check. Labor and education were zero in the draft; do not invent unemployment rates; do not invent admissions; what can be written is only the layer. Compound training does not fill a photoresist gate. A cognitive leap does not change the bid.
+Education data are no longer completely blank. Stanford HAI's 2026 AI Index provides current evidence on student adoption, school policy, and the changing AI/CS talent pipeline. The report still does not invent unemployment, starting salaries, study-abroad flows, or individual-school outcomes beyond the available evidence.
 
-This volume therefore does not write admissions, employment, starting pay, study-abroad flows, or program-closure rates. The draft of Volume 39 itself had none of these statistics. Capability structure can be written. Headcount stays blank.
+Translate the four corners into training objects or the volume becomes "open more AI courses." The athlete needs people who can deliver and operate full systems; the referee needs people who can work across compiler/runtime interfaces; the coach needs people who understand why HBM, packaging, interconnect, and power are co-scheduled; the model player needs people who can verify and deploy models into production. The mismatch between departmental curricula and system-level production is the education lag.
 
-Translate the four corners into training objects, or this volume becomes "open a few more courses." The athlete wants people who can deliver a cabinet and run the interconnect full. The referee wants people who can use CUDA or another stack to weld a workflow onto an interface. The coach wants people who can read why the HBM, CoWoS, NVLink mix is queued that way. The model player has products. The revenue bulk is still on cabinets, so "everyone trains a large model" is not the main job. The four corners are not four electives. They are four shop floors. Schools cut by department. The floor cuts by cabinet. The stretch that does not match is the lag.
-
-The H20 charge must also enter the training assumption. Full-year gross margin 71.1% was hit. The structure did not fall to 71%. Q4 was back to 75.0%. Q1 FY27 is still 74.9%. Policy can book a $4.5B China-goods charge. It cannot make the last two quarters' gross margin leave the neighborhood of 75%. If a course still writes "China specials will dilute seller supernormal profit for a long time, therefore the stack will loosen" as a premise, it is already running against the last two official tables. The policy shock is inventory and purchase obligations, not a trend a syllabus can bet on.
+The H20 charge must also enter the training assumption. Full-year FY26 gross margin fell to 71.1% after the charge, but Q4 returned to 75.0% and Q1 FY27 was 74.9%. By **FY27 Q2**, NVIDIA GAAP gross margin was again **75.0%** and operating income had risen to **$63,734M**. A policy shock can create inventory and purchase-obligation charges; it should not be taught as automatic evidence that the platform's structural economics have already broken.
 
 ## 2. What the draft already argued (compressed; no key number dropped)
 
 SOURCE Volume 39 has almost no independent education facts. It wears the book template: memory wall, interconnect wall, power wall; bottleneck controllers (TSMC, Nvidia, SK hynix, nuclear operators) enjoy 60%–75% gross margin; clouds and model firms bear depreciation on 2024 $215 billion capex; downstream consumer electronics bear chip purchase-cost inflation of 20%–30%; the technical direction is CoWoS / CoPoS, CPO, MLA / MoE; the enterprise side wants multi-chip multi-model elastic scheduling and should avoid proprietary-API lock-in; the national side should weight power infrastructure and leading-edge process attack equally. These sentences repeat across volumes. They are not an education survey. This volume marks them all "draft number" or "draft strategic sentence" and does not promote them to checked education output.
 
-Profit, cash, and supply commitments: [Volume 1](vol-01.md). TSMC's books: [Volume 4](vol-04.md). The five interrupts: [Volume 8](vol-08.md). If the education volume still uses 1999's "train microprocessor talent" as a template, it will misread a margin monopoly as a share monopoly. The sales unit moved up from the chip to the cabinet. The lab unit must move up too.
+Profit, cash, and supply commitments: [Volume 1](vol-01.en.md). TSMC: [Volume 4](vol-04.en.md). The five interrupts: [Volume 8](vol-08.en.md). If an education program still treats the current structure as a simple "share monopoly," it misses the report's updated framework: scarce-layer value capture, incremental capacity reservation, and system-stack competition. The sales unit moved from the chip to the rack/system; the lab object must move upward too.
 
 The draft's strategic sentence for the national side: weight power infrastructure and leading-edge process attack equally, and use architecture and algorithm innovation as a lever against hardware blockade. For individuals and firms: multi-chip multi-model elastic scheduling, focus on workflows that produce commercial value, avoid proprietary-API lock-in. That is already a talent-training syllabus. It just lives in the industry volumes. Discussion added a sentence this volume must catch: compound training must add "two referees" (CUDA and CANN), not only two process nodes.
+
+## 2A. 2026 education reality: student adoption is running ahead of institutions
+
+Stanford HAI's 2026 AI Index gives the education side a concrete current baseline. In the United States, more than **80%** of high-school and college students report using AI for schoolwork, while only about half of secondary schools have established AI-related policies and only around **6%** of teachers consider their school's policy sufficiently clear. Governance is materially behind adoption.
+
+The talent pipeline is also changing:
+- U.S. four-year computer-science undergraduate enrollment fell about **11%** from 2024 to 2025.
+- AI-related master's completions rose about **17%** from 2023 to 2024.
+- New AI PhDs in the U.S. and Canada rose about **22%** from 2022 to 2024, with much of the increase flowing into academia rather than a matching expansion in industrial absorption.
+- More than 90% of countries now provide some computer-science education in primary or secondary school, while dedicated AI education is advancing more slowly; several countries began more systematic AI requirements in 2025–26.
+
+These data do **not** prove that traditional education has failed. They support a narrower mechanism:
+
+> **AI-tool adoption speed > curriculum-update speed > degree/governance update speed.**
+
+The relevant reform question is therefore not merely "did the school open an AI course?" but whether the curriculum moves upward from tool use to system understanding, verification, cross-stack migration, and physical constraints.
+
+## 2B. Three-layer capability framework: tool, system, constraint
+
+This report separates AI talent into three layers:
+
+1. **Tool / cognitive layer:** model use, prompting, retrieval, evaluation, workflow design.
+2. **Systems-engineering layer:** compiler/runtime, multi-model scheduling, interconnect, racks, data pipelines, cost, and reliability.
+3. **Physical / responsibility-constraint layer:** power, heat, packaging, yield, PPAs, site operations, licenses, safety, and compliance.
+
+The first layer scales fastest and is the easiest for models themselves to commoditize. The second governs production deployment and migration. The third expands slowest because it is bound to physical systems and responsibility.
+
+This is a more durable ten-year talent framework than either "everyone learns prompts" or "everyone learns chips."
 
 ## 3. Mechanism (physical / commercial / geopolitical)
 
@@ -34,7 +60,7 @@ Lab equipment itself is the textbook. Without a liquid-cooling loop, without two
 
 The sales unit moved up from the chip to the cabinet. The lab unit must move up too. A course still using a single-card developer board as "AI hardware lab" is teaching the previous sales unit. A single card can teach kernels and memory access. It cannot teach what happens when any one of fabric, power, or return water drops after 72 GPUs and 36 Grace sit in the same cabinet. This volume does not require every school to buy one official-spec cabinet. What it requires: the object of the lab report must admit the cabinet, and not pretend the object is still one accelerator card. A scaled-down liquid-cooling loop, a cabinet-level power budget, a virtual multi-year power contract can all be substitute objects. A substitute must write which slice it substitutes. It cannot be written as already equivalent to the floor.
 
-### 3.2 Commercial: a margin monopoly decides who can afford scarce jobs
+### 3.2 Commercial: scarce-layer value capture determines who can afford scarce jobs
 
 Profit comparison: [Volume 1](vol-01.md). Schools evaluate by major. Firms evaluate by depreciation, quota, and prepayments. The mismatch will show as firms using internal training to poach the few people who can compile the stack and run liquid cooling, while complaining "too many graduates." Diploma inflation and wage polarization can happen at once. This volume has no employment survey. It does not write percentages.
 
@@ -42,7 +68,7 @@ Who can afford these jobs is read from free cash, not from campus-recruiting pos
 
 People trained by buyers have as their main job keeping a hall running. People trained by sellers have as their main job locking the stack and the cabinet together. Both sides are short of people. It is not the same trade. Writing an "AI talent gap" as one total stacks two layers into one. This volume does not invent that total.
 
-Reading a filing is itself a slice of compound capability, and it is a slice that can be taught now, without waiting for lab kit to arrive. Students must be able to split operating income from net income: Q1 FY27 net income $58,321M includes $15.9B of equity marks; bidding for capacity looks at $53,536M. They must split free cash from capex: the seller's one year of free cash $96,575M, its own PPE and intangible purchases only $6,042M. They must split supply commitments from multi-year cloud commitments: $119.0B locks inventory and capacity; $30.0B is cloud for R&D. They must split a one-time gross-margin hit from structure: H20 $4.5B hit the full year; the last two quarters are back near 75%. Someone who can call an API but cannot split these four lines will, after graduation, speak wrongly on quota, depreciation, and the stock-price narrative at once. This is not finance stealing an engineering course. This is literacy for engineers who want to live on the scarce slice.
+Reading filings is itself a systems-engineering skill and can be taught before new lab hardware arrives. Students must separate operating income from net income: Q1 FY27 net income included $15.9B of equity marks, while FY27 Q2 GAAP operating income reached **$63,734M** with gross margin still at **75.0%**. They must separate free cash flow from CapEx; supply commitments from multi-year cloud commitments; and a one-time H20 inventory charge from the underlying margin structure. An engineer who can call an API but cannot distinguish these accounts will misread capacity, depreciation, and infrastructure bargaining power at the same time.
 
 ### 3.3 The prepayment is the real admissions office. School admissions are not
 
