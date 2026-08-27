@@ -1,313 +1,225 @@
-# 第三十六卷：AI 与全球资本市场——资本久期、估值重构与基础设施金融化
+# 第三十六卷：AI 基础设施资本市场——资产久期、融资结构与主权资本
 
-## 1. 核心判断
+## 1. AI 资本市场不能只看“科技股估值”
 
-AI 资本市场的核心问题，已经不再是“AI 是否重要”，而是：**不同类型的 AI 资产具有完全不同的资本久期、折旧结构和风险来源。**
+AI infrastructure 正在形成一个跨越多种资产类别的资本体系：
 
-当前至少存在三类完全不同的资产：
+- listed technology equity；
+- semiconductor manufacturing；
+- private infrastructure；
+- data center；
+- power；
+- project finance；
+- long-duration compute contracts。
 
-1. **高利润、低自有资本开支的平台卖方**：代表性企业如 NVIDIA；
-2. **高资本开支的云与数据中心买方**：承担 server、network、data center 与 power 的持续折旧；
-3. **长久期基础设施资产**：包括 powered land、substation、PPA、nuclear restart、data-center real estate 等。
+因此，AI 资本周期的核心不是“科技股涨了多少”，而是：
 
-如果仍然使用同一套“科技成长股”估值逻辑比较这三类资产，就会系统性误判风险。
+> 哪一种资本承担哪一种久期、风险和现金流。
 
-本卷关注三个问题：
+## 2. Asset-light platform 与 heavy infrastructure 的估值逻辑不同
 
-- 谁真正捕获 AI 基础设施利润；
-- 谁承担折旧和长期资本成本；
-- 长久期资本是否正在从科技股股权进一步进入 compute、data center 与 power infrastructure。
+NVIDIA 的核心财务特征是：
 
-## 2. 卖方与买方不是同一种资本结构
+- high system margin；
+- strong FCF；
+- relatively low direct fixed-asset intensity。
 
-NVIDIA FY26 的核心特征是高利润与强自由现金流：
+FY26 FCF 为 **$96.575B**。
 
-- Free cash flow：**$96.575B**；
-- FY27 Q2 Data Center revenue：**$89.0B**；
-- FY27 Q2 GAAP operating income：**$63.734B**；
-- FY27 Q2 GAAP gross margin：**75.0%**。
+FY27 Q2：
 
-与此同时，FY27 Q1 supply-related commitments 已达到 **$119.0B**。
+- revenue：**$96.221B**
+- Data Center：**$89.0B**
+- GAAP gross margin：**75.0%**
+- GAAP operating income：**$63.734B**
 
-这类平台卖方并不需要自己建设大规模晶圆厂或数据中心，就可以通过预付款、capacity agreement 和长期供应承诺获得下一代资源。
+与之相比，hyperscaler、foundry、memory vendor 和 power developer 需要承担大量 fixed asset。
 
-Cloud buyers 的资本结构完全不同。Microsoft、Amazon、Alphabet、Meta 需要承担：
+因此，同样的 revenue growth，在不同层的资本回报含义完全不同。
 
-- server / accelerator；
-- networking；
-- data-center construction；
+## 3. Hyperscaler 的资本风险来自多资产叠加
+
+hyperscaler CapEx 同时进入：
+
+- servers；
+- custom silicon；
+- network；
+- buildings；
 - cooling；
 - power；
-- long-duration infrastructure。
+- land。
 
-因此，卖方高利润与买方高 CapEx 可以长期同时存在。
+这意味着 hyperscaler 的现金流要同时支撑多个资产寿命。
 
-这也是为什么“AI 产业利润率”不能用一个统一数字描述。
+如果 workload utilization 高，这种 CapEx 可以形成长期 barrier。
 
-## 3. 稀缺层价值捕获正在改变估值逻辑
+如果 utilization 下降，资产负担会迅速显现。
 
-本报告提出的 **Scarce-layer Value Capture**，对资本市场的直接含义是：
+所以 hyperscaler 的估值必须同时看：
 
-> 估值不应只看 revenue growth，而应判断企业是否控制稀缺层、是否能够把现金转化为下一代资源，以及竞争者是否能够替代这些资源。
+- growth；
+- D&A；
+- FCF；
+- utilization；
+- AI-related revenue；
+- next-year CapEx。
 
-当前高价值捕获主要集中在：
+## 4. Semiconductor manufacturing 是另一类资产
 
-- system platform；
-- advanced manufacturing；
-- HBM；
-- advanced packaging；
-- high-speed interconnect；
-- powered infrastructure。
+TSMC、SK hynix、Micron 等制造商承担：
 
-这些层的共同特征是：供给扩张速度慢于短期需求变化。
+- fab；
+- equipment；
+- cleanroom；
+- process migration；
+- yield learning。
 
-因此，在 AI 资本超级周期中，“增长”与“稀缺性”不是同一个概念。真正决定估值韧性的，是企业是否同时拥有：
+它们的回报取决于：
 
-- pricing power；
-- free cash flow；
+- utilization；
+- product mix；
+- technology leadership；
+- customer demand；
+- pricing。
+
+HBM boom 可以显著改善 memory vendor economics，但制造利润仍比 platform profit 更具周期性。
+
+## 5. AI infrastructure 正在形成独立融资资产
+
+NVIDIA 2026 年宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 等机构合作建立 AI compute infrastructure financing platform，目标是随时间动员超过 **$500B** 第三方资本。
+
+这说明 AI compute 正在从：
+
+> technology-company internal CapEx
+
+扩展为：
+
+> institutional infrastructure asset class。
+
+但目标融资额不等于已经到账或已经部署。
+
+真正需要观察的是：
+
+- final agreements；
+- committed capital；
+- project pipeline；
+- project-level leverage；
+- cash yield；
+- utilization。
+
+## 6. 为什么长期资本开始进入 compute
+
+长期资本偏好的资产通常具有：
+
+- predictable cash flow；
+- long contract；
+- collateral；
+- infrastructure-like demand。
+
+AI data center 正试图通过：
+
+- long-term compute commitment；
+- PPA；
+- hyperscaler lease；
+- model-company anchor demand
+
+创造这种可融资结构。
+
+如果成功，AI infrastructure 的资本来源将不再只依赖 hyperscaler balance sheet。
+
+## 7. Anchor Buyer 是融资结构的关键
+
+OpenAI、Anthropic 等大型模型买方可以提供：
+
 - long-duration demand；
-- capacity access；
-- migration control。
+- capacity reservation；
+- workload visibility。
 
-## 4. 供应承诺是平台资本能力的重要指标
+这使 project finance 更容易成立。
 
-NVIDIA 官方文件确认，公司使用 prepaid manufacturing and capacity agreements，为当前和未来产品锁定制造与产能。
+因此：
 
-FY27 Q1 相关供应承诺达到 **$119.0B**，其中大部分将在 FY27 及之后支付。
+Anchor Buyer  
+→ revenue certainty  
+→ lower financing risk  
+→ more infrastructure construction。
 
-这一数字不能被拆成：
+但 customer concentration 也会上升。
 
-- TSMC payment；
-- CoWoS payment；
-- HBM supplier payment；
-- N2 prepayment。
+如果单一模型公司需求恶化，项目风险可能被放大。
 
-因为公司没有公开这些客户级或供应商级分项。
+## 8. Sovereign capital 的角色
 
-但它仍然是一个极其重要的资本市场指标，因为它说明：平台利润正在被主动转换为未来的资源确定性。
+主权基金参与 AI infrastructure 的战略逻辑通常不同于普通科技股投资。
 
-这形成一个跨代反馈：
+它可能更关注：
 
-**高系统利润 → 更高自由现金流 → 更强 capacity commitment → 更高交付确定性 → 更强客户留存 → 下一代收入。**
-
-需要强调的是，这不是自动垄断公式。供应商仍会考虑客户多元化、信用质量、利用率、合同期限、roadmap certainty 和地缘政治。
-
-## 5. Cloud CapEx 不能直接加总成“AI 硬件”
-
-Microsoft、Amazon、Alphabet、Meta 的 CapEx 必须分别对待。
-
-不同公司存在：
-
-- 财年与日历年差异；
-- gross PPE 与 net PPE 差异；
-- fulfillment / logistics；
-- office；
-- Reality Labs；
-- network；
+- domestic compute capacity；
 - data center；
-- power。
+- power；
+- semiconductor manufacturing；
+- strategic autonomy。
 
-因此，本报告不采用“四云 CapEx 总和 = AI hardware investment”的简单加总。
+因此，主权资本真正有战略意义的部分，不是持有多少 NVIDIA 股票，而是是否直接参与：
 
-更重要的观察是：
+- fab；
+- data center；
+- power；
+- sovereign cloud；
+- AI infrastructure fund。
 
-1. CapEx 是否持续上升；
-2. AI server/network/memory/data center 占比是否提高；
-3. depreciation 是否加速；
-4. workload revenue 和 utilization 是否能够覆盖新增资产。
+没有官方项目披露时，不应使用二手持仓或传闻数字构造“主权基金已经全面入场”的结论。
 
-这也是为什么第三十七卷的资本硬着陆判断，必须同时看会计、利用率、市场清算和未来承诺，而不能只看 CapEx 绝对规模。
+## 9. Duration matching
 
-## 6. 三种资产久期必须分开定价
+资本配置需要匹配资产寿命。
 
-### 6.1 第一类：2–4 年硬件资产
+| 资产 | 典型风险 |
+|---|---|
+| GPU/server | 技术迭代、残值 |
+| Data center | utilization、租约 |
+| Grid/substation | 长建设周期 |
+| PPA | 长合同负担 |
+| Foundry | utilization、node transition |
+| HBM fab | memory cycle |
 
-包括：
+最危险的结构是：
 
-- GPU / accelerator；
-- HBM；
-- network equipment；
-- rack system。
+> 短期 demand 假设 + 长期 debt / power obligation。
 
-这类资产技术迭代快、残值风险高，更接近高周期科技资产。
+## 10. 估值不能脱离 cash conversion
 
-其估值核心是：
+AI 资产最终需要回答：
 
-- product cycle；
-- supply tightness；
-- pricing；
+[
+Capital Return =
+Cash generated
+/
+Capital committed
+]
+
+因此，资本市场应该同时观察：
+
+- earnings；
+- FCF；
+- CapEx；
 - utilization；
-- replacement rate。
-
-### 6.2 第二类：10–20 年基础设施资产
-
-包括：
-
-- data-center building；
-- substation；
-- grid interconnect；
-- long-duration PPA；
-- nuclear restart；
-- powered land。
-
-这类资产更接近基础设施。
-
-其核心变量是：
-
+- debt；
 - contract duration；
-- regulatory certainty；
-- counterparty credit；
-- utilization；
-- residual power demand。
+- residual value。
 
-### 6.3 第三类：Software / Workflow Asset
+只看 revenue growth 会低估 infrastructure cycle 的资本风险。
 
-软件与工作流资产的核心不是 PPE，而是：
+## 11. 当前判断
 
-- recurring revenue；
-- retention；
-- switching cost；
-- inference cost；
-- AI Software Unit Economics。
+AI infrastructure 正从科技公司内部投资，演变成：
 
-AI 时代的错误估值，往往来自用软件的低资本开支逻辑去估值重资产云厂，又用基础设施的稳定现金流逻辑去包装快速贬值的 GPU。
+> **科技资本 + 基础设施资本 + 私募资本 + 主权资本**
 
-## 7. Compute 正在被包装成独立金融资产
+共同参与的长期资产体系。
 
-NVIDIA 2026 年 8 月 10 日宣布，与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 建立 AI compute infrastructure financing platform，目标是随时间动员超过 **$500B** 第三方资本。
+这会提高整个产业可获得的资本规模，也会把风险从单一公司资产负债表扩散到更广的金融体系。
 
-这是一个重要信号：资本市场正在尝试将 compute infrastructure 从企业内部 CapEx，转化为可以独立融资、租赁或证券化的资产。
+因此，未来 AI 资本周期的关键问题不是“还有多少钱愿意投”，而是：
 
-但需要严格区分：
-
-- $500B 是目标规模；
-- 当前是 MoU / financing platform framework；
-- 不等于 $500B 已经募集或投入。
-
-如果这一模式成熟，Cloud buyers 可以把部分 infrastructure risk 转移至独立融资载体。
-
-但风险也会随之转移：
-
-> **如果 2–4 年寿命的 compute hardware 被包装成 10–20 年久期的 infrastructure asset，残值风险必须由某一方承担。**
-
-这可能成为下一阶段 AI 基础设施金融创新最重要的风险来源之一。
-
-## 8. 主权基金：真正有战略意义的是直接基础设施，而不是普通科技股持仓
-
-主权基金参与 AI 不能简单用“持有多少 NVIDIA 股票”衡量。
-
-如果主权基金只是通过二级市场持有科技股，其风险暴露与普通大型机构并没有本质区别。
-
-更具有战略意义的参与方式包括：
-
-- direct data-center investment；
-- power project；
-- semiconductor fab；
-- advanced packaging；
-- grid infrastructure；
-- compute financing vehicle。
-
-这些资产的资本久期与主权资金、养老金和保险资金更匹配。
-
-目前公开资料能够确认部分大型长期资本开始参与 AI infrastructure financing，但尚不足以建立完整的全球主权基金 AI 项目数据库。
-
-因此，本报告不对沙特、阿布扎比、新加坡等主权基金的具体 AI 配置金额作未经一手资料支持的汇总。
-
-## 9. 资本市场正在从“买科技股”走向“买 AI 基础设施现金流”
-
-如果 AI infrastructure 继续扩大，资本配置方式可能发生结构变化：
-
-过去：
-
-> 买 GPU / cloud / software equity
-
-未来可能进一步增加：
-
-> data-center debt / compute leasing / powered-land financing / PPA / nuclear / infrastructure fund
-
-这意味着 AI 资本超级周期不只是科技股估值变化，也可能推动新的基础设施融资市场形成。
-
-真正值得关注的不是“AI 主题基金规模”，而是：
-
-- compute lease 是否出现标准化合同；
-- residual value risk 如何分配；
-- financing vehicle 是否能够低成本融资；
-- cloud buyer 是否获得 off-balance-sheet 或 asset-light 优势；
-- infrastructure investor 是否真正承担 hardware obsolescence risk。
-
-## 10. AI 资本配置的三类风险
-
-### 10.1 Valuation Mismatch
-
-用软件估值方法评估高折旧资产，或用基础设施估值方法包装快速贬值硬件。
-
-### 10.2 Duration Mismatch
-
-短寿命 compute hardware 与长久期 capital 混合，导致残值风险被低估。
-
-### 10.3 Concentration Risk
-
-资本大量集中到同一 system stack、同一供给链或同一电力区域。
-
-当平台控制力增强时，这种集中可以提高收益；一旦 workload migration、监管或技术路线发生变化，也会放大损失。
-
-## 11. 四类资本市场情景
-
-### S1 — Competitive Expansion
-
-多套 system stack 同时扩张，供应能力提高，资本流向多个平台和基础设施层。
-
-结果：估值从单一 winner-takes-most 叙事转向多平台竞争。
-
-### S2 — Baseline Concentration
-
-领先平台继续保持高利润和资源预订能力，Cloud CapEx 继续增长，基础设施融资市场扩大。
-
-这是当前最接近现实的状态。
-
-### S3 — Resource Hegemony
-
-scarce-layer value capture 进一步集中，长周期资本更加依赖少数平台、供应商和基础设施节点。
-
-结果：高收益与高集中风险同时上升。
-
-### S4 — Capital Hard Landing
-
-workload revenue 与 utilization 不足，hardware order growth 下滑，compute financing vehicle 出现残值压力，长周期基础设施项目面临减值。
-
-这一情景与第三十七卷的硬着陆模型直接对应。
-
-## 12. 可验证指标
-
-未来资本市场是否真正发生结构变化，可以持续观察：
-
-- NVIDIA supply commitments；
-- Cloud CapEx growth；
-- D&A / PPE；
-- AI workload revenue；
-- utilization；
-- compute leasing / financing transaction；
-- infrastructure fund formation；
-- data-center / power direct investment；
-- hardware residual value；
-- sovereign direct project investment。
-
-特别值得关注的是：NVIDIA 等平台发起的 compute infrastructure financing platform，是否从 MoU 发展为真正可定价、可融资、可转让的独立资产类别。
-
-## 13. 最终判断
-
-AI 正在同时重构科技估值和基础设施金融。
-
-未来十年的资本市场不会只围绕“哪只 AI 股票涨得更多”展开，而会逐渐分化为三类资产：
-
-1. **平台与稀缺层利润资产**；
-2. **Cloud / data-center 重资产**；
-3. **长久期 power / infrastructure assets**。
-
-这三类资产拥有不同的折旧周期、现金流结构和风险。
-
-因此，AI 资本配置的第一原则不是“提高 AI 权重”，而是：
-
-> **先识别自己持有的是哪一种久期、哪一种资源控制权，以及谁最终承担 utilization 和 residual-value risk。**
-
-只有把这三张资产负债表分开，AI 资本超级周期才是可分析的投资问题，而不是一个宽泛的市场叙事。
+> **这些长期资本是否能够获得足够稳定的利用率和现金回报。**
