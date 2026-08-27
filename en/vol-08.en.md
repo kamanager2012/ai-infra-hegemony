@@ -32,10 +32,10 @@ As of August 2026, public company-specific indicators include:
 
 | Company | Latest public scope |
 |---|---:|
-| Microsoft | Calendar-2026 CapEx approximately **$190B** |
-| Alphabet | CapEx guidance **$180–190B** |
-| Meta | CapEx guidance **$125–145B** |
-| Amazon | TTM net PPE purchases approximately **$169B** through 2026 Q2 |
+| Microsoft | Calendar-2026 reported CapEx expectation approximately **US$175B** after the July 29 lease-classification change; underlying investment expectation unchanged |
+| Alphabet | Q2 earnings-call CapEx guidance **US$195–205B** |
+| Meta | Q2 CapEx guidance **US$130–145B**, including finance-lease principal |
+| Amazon | TTM PPE net purchases actual **US$169.007B** through 2026-06-30 |
 
 These figures use different windows and accounting definitions.
 
