@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "AI基础设施霸权时代"
+message: 引用本书请用这份 CITATION.cff。
+type: software
+authors:
+  - name: "James"
+    alias: kamanager2012
+repository-code: "https://github.com/kamanager2012/ai-infra-hegemony"
+url: "https://github.com/kamanager2012/ai-infra-hegemony"
+license: CC-BY-4.0
+date-released: "2026-08-27"
+keywords:
+  - AI infrastructure
+  - semiconductors
+  - NVIDIA
+  - TSMC
+  - HBM

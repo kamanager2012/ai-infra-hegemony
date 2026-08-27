@@ -1,8 +1,12 @@
 # AI基础设施霸权时代
 
-四十卷研究报告，加八篇宏观。读公开财报和公司自己的产品页。数字不编。预测标成假设，不升成已经发生。
+开源研究报告。四十卷，加八篇宏观。
 
-检索截止 2026-08-26。不是 10-K 全文审计。各卷写了出处链接。
+读公开财报和公司自己的产品页。数字不编。预测标成假设，不升成已经发生。检索截止 2026-08-26。不是 10-K 全文审计。
+
+[总判](总判.md) · [机制索引](机制索引.md) · [第一卷](vol-01.md) · [怎么参与](CONTRIBUTING.md) · [怎么引用](CITATION.cff)
+
+许可是 [CC BY 4.0](LICENSE)。转载、改写、商用都可以，署名即可。纠错请开 issue，不要编数字。
 
 ## 先读
 
@@ -70,10 +74,12 @@
 - [第七篇：不能拿混年除以四](part2-07.md)
 - [第八篇：中国救不了全球栈](part2-08.md)
 
-## 许可
+## 参与
 
-[CC BY 4.0](LICENSE)。转载、改写、商用都可以，署名即可。
+欢迎纠错和补出处。规则在 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-## 作者
+数字错了，开 [数字或口径纠错](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml)。没有官方链接的定量不要提。
 
-James（[kamanager2012](https://github.com/kamanager2012)）
+## 引用
+
+GitHub 会读 [CITATION.cff](CITATION.cff)。作者 James（kamanager2012），2026。

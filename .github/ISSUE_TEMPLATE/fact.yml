@@ -1,0 +1,25 @@
+name: 数字或口径纠错
+description: 正文里的数、出处或口径不对
+title: "[纠错] "
+labels: ["fact"]
+body:
+  - type: input
+    id: volume
+    attributes:
+      label: 哪一卷或哪一篇
+      placeholder: vol-24 / part2-03 / 总判
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 现在写的是什么
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 官方出处
+      description: SEC、年报、公司产品页或法说逐字稿。没有链接的定量不要提。
+    validations:
+      required: true
