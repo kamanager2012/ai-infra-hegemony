@@ -128,4 +128,3 @@ Corrections, source upgrades, mechanism challenges, counterarguments, and falsif
 
 GitHub reads [CITATION.cff](CITATION.cff). Author: James (kamanager2012). Public-release licensing terms will be finalized separately.
 
----
