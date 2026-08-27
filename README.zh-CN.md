@@ -11,7 +11,7 @@
 
 本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-27**；本文不构成审计意见、投资建议或法律意见。
 
-仓库当前处于内部整理与发布准备阶段。对外许可方案将在正式发布前单独确定，现有 `LICENSE` 不作为最终发布许可承诺。
+本报告原创研究文本采用 **AI Infrastructure Hegemony Restricted Research License v1.0**。该许可不是开源许可，也不是 Creative Commons 许可。允许正常阅读、链接、引用与合理短引；大规模转载、商业再利用、衍生版本/翻译、批量数据集化及 AI/ML 训练用途原则上需要事先获得授权，但 GitHub 平台条款或适用法律另行赋予的权利不受影响。详见 [LICENSE](LICENSE)。
 
 X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Release Notes](RELEASE_NOTES.md)；历史存档版本见 [v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。当前研究以 `main` 为准。
 
@@ -122,4 +122,4 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 
 ## 引用
 
-GitHub 会读 [CITATION.cff](CITATION.cff)。作者 James（kamanager2012），2026。
+GitHub 会读 [CITATION.cff](CITATION.cff)。作者 James（kamanager2012），2026。原创研究文本适用 [AI Infrastructure Hegemony Restricted Research License v1.0](LICENSE)。
