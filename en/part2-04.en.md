@@ -54,7 +54,7 @@ DeepSeek-V3 reports 671B total parameters, 37B activated per token, and **2.788M
 
 The 2026 by-firm forecast table is unverified. Do not treat it as audit fact.
 
-Scenario A: group-wide PPE keeps adding on already-disclosed guidance. The gap is filled by ads (the draft wrote Meta gross margin 81.5%) and cloud stock, not by pure AI increment as its own row. ASICs eat internal recommendation and a slice of inference. External still buys training cabinets. DeepSeek forces price cuts but does not trigger destocking. This is "spend is happening; substitution has not won."
+Scenario A: group-wide PPE keeps expanding with disclosed guidance. Internal accelerators absorb recommendation and part of inference, while external systems continue to carry a meaningful share of training. Algorithmic efficiency lowers unit cost without triggering broad destocking. This is a state of continued infrastructure expansion with incomplete system-stack substitution.
 
 Scenario B: usage parks at +50%, unit price falls 50% on open source, the matrix declares overhang. The draft's $115.5B depreciation cannot find $155B of increment — those two figures are draft arithmetic, not 2025 actual depreciation. If order cuts happen, they start with training cabinets. ASIC projects will be cut with them, because internal teams also have to prove ROI. Mixed-year 2025 four-cloud PPE is still adding, which says this cell has not appeared.
 
