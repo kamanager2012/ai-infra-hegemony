@@ -100,7 +100,7 @@ Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 给模型公司和内部 
 
 大型模型公司正在从普通 cloud customer 变成长期基础设施买方。
 
-OpenAI Stargate 与 Anthropic/AWS 等公开项目表明，模型公司开始用多年、GW 级、长期 chip/compute commitments 锚定基础设施建设。
+OpenAI Stargate 与 Anthropic/AWS 等公开项目表明，模型公司开始用多年、GW 级、长期 chip / compute commitments 锚定基础设施建设。
 
 这形成 **Anchor Compute Buyer Effect**：
 
