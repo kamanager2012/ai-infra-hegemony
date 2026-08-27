@@ -45,7 +45,7 @@ Historical cabinet BOM estimates, fixed software-premium percentages, mixed-year
 
 ## 4. Scenarios, counterarguments, and testable indicators
 
-Four profit-pool scenarios (analysis added; no new probabilities; no invented new percentages):
+Four value-capture scenarios are considered without introducing new probabilities or unsupported percentages:
 
 First: the pool keeps concentrating upstream. Cloud capex does not fall. NVIDIA data-center revenue walks another step from $115.186B to $193.737B. TSMC HPC and Hynix HBM shares keep rising. If the move of supply commitments from $95.2B to $119.0B still repeats, prepayments lock the next packaging and stack lines first. Whether the software premium is still historical stress-test material's about 40% has no official split table. It cannot be treated as already held. What can be an anchor: gross margin still in the 71% to 75% band; maker operating margins still in the Hynix 49% and Samsung Memory high-value-add-priority band. The scarce-layer value-capture story holds on this band.
 
@@ -68,13 +68,13 @@ If a data-version model must be given a skeleton that can be hand-calculated, it
 ## 5. Gaps and what cannot be treated as fact
 
 1. There is no true input-output table or inter-company transaction matrix. NVIDIA data-center revenue and four-cloud capex cannot be treated as each other's counterpart.
-2. $215B, the Microsoft revenue range, and capex that "broke $55B" are draft scope. the current evidence review replaces what it can with mixed-year $211.9B to $213.9B and Microsoft point estimates of $281.724B and PPE $64.551B. Unopened cells are not filled.
-3. Won and dollars are used together. Hynix 2023 draft about $25B is a conversion. The official note gives no rate. Drop the dollar conversion. This volume keeps Hynix and Samsung in won only.
+2. Older mixed-scope $215B and Microsoft range estimates are not used as current anchors. The publication baseline uses the reconciled mixed-year $211.9B–$213.9B 2024 equipment-purchase range and Microsoft FY25 point figures.
+3. Won and dollars are used together. SK hynix and Samsung figures are kept in their reported KRW denomination where the company source provides no conversion rate.
 4. Downstream 20% to 30%, SaaS 85% to 55%, 2026 $750B and $115.5B depreciation, and $35B to $50B software revenue may not be treated as first-party fact.
 5. The two whole-cabinet BOM number sets are unreconciled, and they are not NVIDIA-confirmed revenue tables. Maker gross margin over 60% and per-die switch margin greater than 85% do not enter the fact layer.
 6. Micron, Samsung, AMD, Broadcom, Amphenol, Hon Hai and others appear in the BOM but have no peer segment tables newly opened in this volume. Chain coverage is still incomplete.
 7. 47%, 68%, and 51% are TrendForce institutional estimates, not four-cloud filing line items. Micron's ~3× HBM3E-versus-DDR5 wafer-supply trade ratio is A-grade first-party company evidence. CXMT monthly capacity is not written; YMTC's public layer statement is kept separate from monthly-wafer claims.
-8. What this draft opened is the Judgment, the profit-and-cash evidence, the memory-residual evidence, and the press and results links listed in this section. It does not claim a page-by-page audit of each firm's full annual report.
+8. This volume relies on the cited financial, memory, and source-index evidence and does not constitute an audit opinion on each firm's full annual report.
 9. 8.6, 13.2, three-maker 1.80 million wafers per month, and Samsung cutting 80k wafers back from HBM stay empty per the memory-residual evidence list. This volume does not write them.
 
 (This volume invents no new profit-pool percentages or transaction amounts. New judgments are marked Quantitative forecasts without a source are marked unverified; do not treat as first-party fact.)
