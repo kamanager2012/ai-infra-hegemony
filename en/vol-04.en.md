@@ -156,9 +156,9 @@ Checks that can be tested list only what can be publicly matched. TSMC annual-re
 
 ## 6. What this volume cannot write as fact
 
-High-NA $380 million a tool, a single fab $20B to $25B, a wafer-price table from $10,000 at 7nm to $30,000–$35,000 at 2nm: historical stress-test material has them; TSMC earnings write-ups do not. Mark them draft.
+Older High-NA tool-price, single-fab cost, and node-by-node wafer-price figures remain engineering or scenario estimates unless supported by the relevant first-party source; they do not enter the current fact layer.
 
-Foundry 95% actual share: a draft assertion. This volume uses institutional single-quarter 72% and annual-report foundry 2.0 40%, written apart, not a census, not fused.
+An older 95% frontier-foundry-share assertion is not used. This volume keeps institutional single-quarter foundry share and TSMC's annual-report Foundry 2.0 share as separate metrics with different denominators.
 
 CoWoS monthly capacity, official full-year wafers, packaging wafers by customer: not found. Morgan Stanley 93,000, Mizuho 140,000: label sell-side. They do not agree.
 
