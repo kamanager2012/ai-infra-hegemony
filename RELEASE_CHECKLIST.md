@@ -31,12 +31,12 @@ This checklist separates research completion from publication operations. A chec
 
 ## 3. Licensing — hard gate
 
-- [ ] Replace the existing CC BY 4.0 `LICENSE` before changing repository visibility to public.
-- [ ] Ensure the final license, README, and CITATION wording agree.
-- [ ] Confirm treatment of quotations, third-party figures, and source excerpts separately from original report text.
-- [ ] Confirm whether commercial reuse, redistribution, derivative translations, bulk copying, and model-training/data-mining use require explicit permission.
+- [x] Replace the existing CC BY 4.0 `LICENSE` before changing repository visibility to public.
+- [x] Ensure the final license, README, and CITATION wording agree.
+- [x] Confirm treatment of quotations, third-party figures, and source excerpts separately from original report text.
+- [x] Confirm that commercial reuse, substantial redistribution, derivative translations, bulk copying/dataset extraction, and AI/ML training use require explicit permission except where platform terms or applicable law provide otherwise.
 
-**Do not make the repository public while the current CC BY 4.0 file remains unless CC BY 4.0 is intentionally chosen.**
+**License hard gate passed:** the repository no longer uses CC BY 4.0. Before publication, re-read the final remote `LICENSE` together with GitHub's current platform terms.
 
 ## 4. Final release verification
 
