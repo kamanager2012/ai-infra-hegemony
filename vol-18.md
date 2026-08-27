@@ -1,313 +1,231 @@
-# 第十八卷：研究方法与证据架构（从事实到情景的统一尺子）
+# 第十八卷：研究方法与证据架构
 
-> **本卷不维护第二套证据规则。** 全书最高方法口径依次见：[研究方法与证据分级](研究方法与证据分级.md)、[核心证据台账](核心证据台账.md)、[核心参考文献索引](核心参考文献索引.md)、[核心概念与模型索引](核心概念与模型索引.md)、[核心假设矩阵](核心假设矩阵.md)。本卷只解释这些规则怎样落到产业分析。
+## 1. 为什么需要统一方法
 
-总判负责结论，本卷负责尺子。任何数字、机制或未来判断，只要与根目录方法文件发生冲突，**以根目录中央方法与证据台账为准**。
+AI infrastructure 涉及财务、半导体、存储、封装、云、能源、监管和劳动市场。
 
-## 1. 本卷要回答什么
+这些领域的数字具有完全不同的来源与维度。
 
-四十卷报告最危险的错误，不是某个数字差几个百分点，而是把不同性质的句子写成同一种“事实”：
+如果不建立统一证据架构，最容易出现以下错误：
 
-- 把公司披露与机构预测混在一起；
-- 把收入份额换算成晶圆份额；
-- 把合同容量写成已经上电的实际负荷；
-- 把工程几何测算写成原厂产能；
-- 把未来压力测试写成今天已经发生；
-- 用2030/2036情景反推2026财务事实；
-- 同一条二手数字在多卷重复后，被误认为“多源验证”。
+- 公司披露与机构预测混写；
+- revenue share 换算成 wafer share；
+- contracted MW 写成 energized load；
+- engineering estimate 写成 vendor disclosure；
+- future scenario 写成 current fact；
+- 同一二手数字在多卷重复后被误认为“多源验证”。
 
-因此本卷只解决三个方法问题：
-
-1. **一句话属于 F / H / M / S / X 哪一层？**
-2. **支撑它的证据属于 A / B / C / D 哪一级？**
-3. **从事实到未来结论的因果链是否闭合，并且能被现实证伪？**
-
-## 2. 全书统一结构：F → H → M → S → X
-
-### F — Fact / 事实
-
-已经发生、可以核验的现实。
-
-允许进入事实层的典型材料包括：
-- 公司财报、10-K、20-F、正式业绩材料；
-- 官方产品规格；
-- 正式合同、监管文件、法院文件；
-- 公司明确披露的收入、产能、客户集中度；
-- 高质量独立研究机构的历史统计，但必须保留“机构研究”身份。
-
-事实层必须同时满足：
-- 有时间；
-- 有口径；
-- 有分母；
-- 有来源；
-- 不把指导值写成实际值；
-- 不把二手估算伪装成公司披露。
-
-### H — Hypothesis / 假设
-
-尚未发生、但用于未来推演的输入变量。
-
-例如：
-- AI需求增长率；
-- 先进节点有效供给增长率；
-- AHICR 50% / 60% / 70% / 80%压力测试；
-- CoWoS扩产速度；
-- HBM后续世代的wafer trade ratio；
-- 电力项目实际并网进度；
-- Token单价下降速度；
-- 模型公司长期算力承诺是否继续扩张。
-
-假设可以激进，但必须写清：
-1. 为什么与当前物理、财务和产业约束相容；
-2. 什么现实变化会让它失效。
-
-### M — Mechanism / 机制
-
-机制负责回答“为什么事实A会把系统推向结果B”。
-
-本书当前统一使用的核心机制包括：
-- Super-buyer Effect；
-- AI Resource Gravity；
-- Capacity Preemption；
-- Advanced HPC Incremental Capacity Capture；
-- Non-AI Residual Capacity；
-- Scarcity-layer Value Capture；
-- Installed-base Flywheel；
-- Rolling Bottleneck Cascade；
-- Cloud System-Stack Substitution；
-- Anchor Compute Buyer Effect；
-- AI Software Unit Economics；
-- Task-to-Job Translation Layer。
-
-机制必须能写成因果链，而不是形容词。
-
-### S — Scenario / 情景
-
-情景是在一组明确假设下运行机制后的结果。
-
-正式终局只使用[核心假设矩阵](核心假设矩阵.md)中的四类状态：
-- **S1 竞争性扩容**
-- **S2 基准集中**
-- **S3 资源霸权**
-- **S4 资本硬着陆**
-
-早期40% / 30% / 15% / 15%之类未校准概率不再承担正式模型功能。
-
-### X — Falsification / 证伪
-
-所有强判断必须回答：
-
-> 出现什么现实以后，本报告要下调、推翻或重写它？
-
-例如：
-- 第二个最前沿AI代工/封装供应源真正形成大规模可替代供给；
-- AI需求增量持续低于有效供给增量；
-- HBM或先进封装不再稀缺；
-- 云系统栈在训练与推理两端形成大规模、低迁移成本替代；
-- 先进计算不再依赖最新节点；
-- 电力/并网约束被低成本大规模解除；
-- 模型公司长期容量承诺出现系统性缩减、改期或低利用率。
-
-没有证伪条件的“十年判断”，只能算观点，不能算本报告的正式情景。
-
-## 3. 全书统一证据等级：A / B / C / D
-
-证据等级只采用[研究方法与证据分级](研究方法与证据分级.md)的定义。
-
-### A — 一手确认
-
-公司财报、10-K/20-F、监管公告、官方产品页、政府文件、正式合同、法院材料。
-
-当前高影响例子：
-- NVIDIA FY27 Q2实际财务；
-- TSMC关于先进封装紧、限制客户增长的正式表述；
-- **Micron关于HBM3E在相同节点、相同比特下约需DDR5 3× wafer supply的一手披露**；
-- OpenAI Stargate与Anthropic/AWS长期基础设施承诺的正式披露；
-- Talen/AWS等能源项目的正式合同/监管/SEC状态。
-
-### B — 高质量独立研究
-
-OECD、IEA、学术研究、行业协会、TrendForce等持续覆盖、方法明确的独立研究。
-
-当前关键例子：
-- **TrendForce：NVIDIA为2025年CoWoS最大需求客户，预计需求占比>60%**；
-- TrendForce关于HBM+RDIMM、云内存CapEx、消费内存合同价等跟踪。
-
-B级可以作为现实锚，但不能改写成“TSMC官方确认”。
-
-### C — 卖方 / 供应链估算
-
-券商、产业链渠道、媒体引述的客户分配、具体产能、价格、交期等。
-
-例如：
-- 某客户年度CoWoS具体需求片数；
-- 未被原厂披露的月产能；
-- 渠道现货价格；
-- 供应链客户份额拆分。
-
-C级可以服务压力测试，不得升格成公司事实。
-
-### D — 本报告假设 / 模型输出
-
-包括：
-- **5.39 CoWoS wafers / rack几何测算**；
-- 50% / 60% / 70% / 80% AHICR压力测试；
-- 反事实挤出量；
-- 2030/2036情景值；
-- 未经原厂确认的BOM、MFU、固定SaaS毛利终点；
-- 本报告自行构造的未来区间。
-
-**统一校正：Micron HBM≈3×是A；TrendForce CoWoS >60%是B；5.39是D。三者不能再混成同一等级。**
-
-## 4. 从宏观到微观，只允许单向接
-
-合法因果链是：
-
-```
-历史现金流 / 合同 / 需求
-→ 购买哪些物理对象
-→ 物理对象受什么约束
-→ 资源如何被分配
-→ 谁得到新增供给、谁只得到残量
-→ 收入 / 成本 / 折旧 / 利润如何变化
-→ 在不同H条件下进入哪一种S情景
-```
-
-反方向禁止：
-
-```
-2036情景
-→ 倒推2026已经发生
-```
-
-例如：
-- 不能用2036 CoWoS预测反推2026实际产能；
-- 不能用S3资源霸权情景反推“NVIDIA现在已经占TSMC N2 80%”；
-- 不能用未来资本硬着陆情景反推“当前CapEx已经是泡沫”；
-- 不能用算法效率提升反推“HBM需求已经消失”。
-
-## 5. 五类最容易犯的跨量纲错误
-
-### 5.1 收入份额 ≠ 晶圆份额 ≠ 先进节点份额 ≠ CoWoS份额
-
-TSMC客户收入占比只能说明收入集中度，不能直接换成N2片数或CoWoS片数。
-
-### 5.2 总供给增长 ≠ 非AI行业恢复
-
-正式模型必须先算：
-
-```
-NonAI_Residual(t)
-= Effective_Supply(t)
-- AI_Absorption(t)
-- Other_Priority_Demand(t)
-```
-
-总供给可以增长，Non-AI Residual仍然下降。
-
-### 5.3 合同容量 ≠ 规划容量 ≠ 实际上电负荷 ≠ 年利用率
-
-MW/GW必须先说明是哪一种量。能源卷中的长期PPA，不得直接写成“今天已有同等AI负荷”。
-
-### 5.4 产品规格 × 假设数量 ≠ 已交付规模
-
-单柜13.4TB HBM、17TB LPDDR属于产品规格；乘1万柜得到PB需求属于测算；它不是1万柜已经交付。
-
-### 5.5 价格上涨 ≠ 同比例BOM上涨
-
-内存合同价、渠道价、整机BOM和零售价是不同分母，不能横向机械换算。
-
-## 6. 核心模型如何进入正文
-
-### 6.1 AHICR：只看“新增先进HPC资源”
-
-```
-AHICR
-= Head_Player_Incremental_Advanced_HPC_Capacity
-/ Total_Incremental_Advanced_HPC_Capacity
-```
-
-50%–80%是压力测试，不是当前披露份额。
-
-### 6.2 Non-AI Residual Capacity：先减AI吸收量
-
-研究重点不是“产能有没有扩”，而是扩出来以后谁先拿走。
-
-### 6.3 Cloud System-Stack Substitution：竞争单位不是一颗ASIC
-
-至少同时看：
-- 芯片；
-- HBM / 封装；
-- scale-up / scale-out互联；
-- compiler / runtime；
-- rack / pod；
-- 实际工作负载和部署规模。
-
-云系统栈可以一边分流NVIDIA的平台利润池，一边继续与NVIDIA争夺先进逻辑、HBM、封装和电力。这两个效应不矛盾。
-
-### 6.4 Anchor Compute Buyer Effect：模型公司不再只是租户
-
-长期模型需求可以提高基础设施融资确定性，并影响云、芯片、数据中心和电力扩建节奏；反过来，改期、低利用率或合同收缩也可能成为资本硬着陆的领先信号。
-
-### 6.5 AI Software Unit Economics：不使用固定SaaS终点
-
-AI软件必须把推理、检索/存储、工具/API、人工复核和AI云成本纳入单位经济。早期“85%→55%”只能留作压力测试，不能当行业事实。
-
-## 7. 负证据怎么用
-
-“文件里没找到”只能证明**该文件没有披露**，不能证明现实世界绝对不存在。
-
-正确：
-> 长鑫招股书未披露HBM产品线。
-
-错误：
-> 长鑫不存在任何HBM研发。
-
-负证据的价值，是阻止没有正证据的强结论进入事实层，而不是制造另一个绝对结论。
-
-## 8. 情景矩阵与证伪必须共用同一组变量
-
-正式未来推演只引用[核心假设矩阵](核心假设矩阵.md)中的H1—H17。
-
-其中尤其要同时观察：
-- AI需求 vs 有效供给；
-- AHICR；
-- HBM / CoWoS；
-- 电力与并网；
-- 云系统栈替代；
-- 软件迁移成本；
-- CapEx / 折旧 / 利用率；
-- 中国平行栈；
-- 监管；
-- **H17 模型公司长期算力承诺 / Anchor Buyer Demand**。
-
-四类情景不是信仰标签，而是一组变量落在不同区间后的状态。
-
-## 9. 发布前检查清单
-
-任何一卷准备进入 `main` 前，至少检查：
-
-1. 数字是否有时间、分母和口径；
-2. 是否把收入占比偷换成物理份额；
-3. 是否把guidance写成actual；
-4. 是否把B/C级写成A；
-5. 是否把D级模型写成企业披露；
-6. 是否把合同MW写成已上电MW；
-7. 是否把产品规格乘假设数量写成销量；
-8. 是否把早期概率继续当正式终局；
-9. 是否说明强情景的证伪条件；
-10. 是否与[核心证据台账](核心证据台账.md)和[核心假设矩阵](核心假设矩阵.md)冲突。
-
-若冲突，**中央台账优先，本卷必须改。**
-
-## 10. 本卷停笔处
-
-第十八卷的任务不是再产生一套“方法论资产”，而是确保全书只用同一把尺子：
+因此，本报告采用统一的：
 
 **F → H → M → S → X**
 
-以及同一套证据等级：
+结构。
 
-**A一手 → B高质量独立研究 → C卖方/供应链 → D本报告模型与压力测试**
+## 2. F — Fact
 
-从这里往后，各卷可以新增事实、更新假设、修正机制、重算情景，但不能再发明第二套证据规则。
+Fact 是已经发生、可以回溯到明确来源的现实。
+
+典型来源：
+
+- 10-K / 20-F / annual report；
+- official earnings materials；
+- official product specification；
+- regulatory document；
+- court filing；
+- formal contract；
+- government document。
+
+Fact 不等于“网上很多文章都这么写”。
+
+## 3. H — Hypothesis
+
+Hypothesis 是基于事实提出、但尚未被现实完全确认的判断。
+
+例如：
+
+> 高利润与长期订单会提高买方获取下一代 advanced capacity 的能力。
+
+这不是财报事实，而是可以被数据验证或推翻的研究假设。
+
+## 4. M — Mechanism
+
+Mechanism 解释事实与未来状态之间的因果链。
+
+例如：
+
+高 system margin  
+→ higher FCF  
+→ larger prepayment  
+→ stronger capacity reservation  
+→ higher delivery certainty  
+→ stronger customer retention。
+
+机制必须明确中间变量，不能用“因为它强，所以会更强”代替因果解释。
+
+## 5. S — Scenario
+
+Scenario 是未来变量在特定组合下形成的产业状态。
+
+本报告采用：
+
+- S1 Competitive Expansion
+- S2 Baseline Concentration
+- S3 Resource Hegemony
+- S4 Capital Hard Landing
+
+Scenario 不是 prediction certainty。
+
+它表达：
+
+> 如果一组条件成立，产业更可能向哪种结构演化。
+
+## 6. X — Falsification
+
+任何重要判断都必须附带证伪条件。
+
+例如：
+
+如果 supply commitments 连续下降、packaging 不再 tight、cloud frontier training 大规模迁离，那么“稀缺层价值捕获继续强化”的判断必须下调。
+
+没有 falsification condition 的宏大叙事，不进入本报告正式方法层。
+
+## 7. A/B/C/D 证据等级
+
+### A — First-party
+
+包括：
+
+- company filing；
+- official product page；
+- regulator/government；
+- court document；
+- formal contract。
+
+例：
+
+Micron FY24 Q3 prepared remarks 披露 HBM3E 约需要 DDR5 3× wafer supply。
+
+### B — Institutional research
+
+高质量机构研究：
+
+- TrendForce；
+- IEA；
+- OECD；
+- Stanford HAI；
+- academic research；
+- industry association。
+
+例：
+
+TrendForce 对 NVIDIA 占 CoWoS demand 超过 60% 的估计。
+
+### C — Sell-side / supply-chain / media estimate
+
+包括：
+
+- investment bank；
+- channel；
+- supply-chain report；
+- media estimate。
+
+这类信息可以帮助理解方向，但不能冒充公司官方数据。
+
+### D — Report model / stress test
+
+由本报告自行计算：
+
+- geometry；
+- arithmetic；
+- sensitivity；
+- stress test；
+- scenario assumption。
+
+例：
+
+5.39 CoWoS wafers/rack。
+
+## 8. 维度一致性原则
+
+全书禁止以下换算：
+
+### Revenue share → wafer share
+
+TSMC largest customer 19% revenue share 不能写成 19% wafer share。
+
+### Contracted MW → utilized compute
+
+1.92 GW PPA 不能写成 1.92 GW active AI load。
+
+### Product spec × hypothetical quantity → shipment
+
+13.4 TB/rack × 50,000 racks 只能是 scenario demand，不是实际 HBM shipment。
+
+### Engineering geometry → fab yield
+
+5.39 CoWoS wafers/rack 不是 TSMC yield。
+
+### CapEx guidance → actual
+
+guidance 必须与 actual 分开。
+
+## 9. Negative evidence 的边界
+
+“某文件没有披露”只证明：
+
+> 在该文件范围内未披露。
+
+它不能自动证明：
+
+> 企业没有研发、没有产品、没有计划。
+
+例如：
+
+CXMT 招股文件没有披露 HBM product line。
+
+正确写法是“该文件未披露 HBM 产品线”，不能扩大为“CXMT 没有任何 HBM R&D”。
+
+## 10. Current fact 与 future scenario 分离
+
+正式报告中的未来判断必须带条件。
+
+不使用：
+
+“某公司一定会垄断 N2。”
+
+使用：
+
+“如果长期订单、预付款、利用率和 roadmap certainty 持续领先，该买方获得更高比例新增 advanced capacity 的概率会上升。”
+
+这种表达仍然可以大胆，但必须可证伪。
+
+## 11. 核心模型的统一位置
+
+报告的重要模型包括：
+
+- AI Resource Gravity
+- Scarce-layer Value Capture
+- AHICR
+- Non-AI Residual Capacity
+- Cloud System-Stack Substitution
+- Anchor Compute Buyer Effect
+- Rolling Bottleneck Cascade
+- AI Software Unit Economics
+- Task-to-Job Translation Layer
+
+这些模型均用于解释机制，不替代原始事实。
+
+## 12. 发布标准
+
+每一卷必须同时满足：
+
+1. 当前事实有来源；
+2. 机构数字标明机构属性；
+3. 卖方估计不冒充一手披露；
+4. 自算模型标明假设；
+5. future claim 条件化；
+6. 有 falsification condition；
+7. technical unit 使用标准行业符号；
+8. 正文不出现内部修订过程。
+
+这套方法不是为了让报告“更保守”，而是为了让未来判断可以更大胆，同时仍然保持可验证性。
