@@ -47,7 +47,7 @@ The clouds are the largest buyers, and they are also the owners of in-house acce
 
 ### 3.4 The official cloud is an option, not a business line
 
-Multi-year cloud-service commitments rose from $27.0B to $30.0B. Official text writes them as R&D. Audit marked an earlier commitment of the same kind as the anchor for "R&D plus official-cloud offerings." Neither place gives official-cloud revenue, GPU-hours, gross margin, or a split with the four clouds.
+Multi-year cloud-service commitments rose from $27.0B to $30.0B. Official text writes them as R&D. Earlier evidence review treated a commitment of the same kind as the anchor for "R&D plus official-cloud offerings." Neither place gives official-cloud revenue, GPU-hours, gross margin, or a split with the four clouds.
 
 As mechanism it looks like an option: a reminder to Amazon, Microsoft, and Google that model firms can rent cabinets from NVIDIA without going through them. An option becomes a business only with a revenue line. Without a revenue line, "cloud expansion" in the title is only a channel threat. This volume writes this layer as "a product form exists, multi-year cloud commitments exist, disclosed revenue does not." The report does not treat the $30.0B commitment as the size of a cloud business.
 
