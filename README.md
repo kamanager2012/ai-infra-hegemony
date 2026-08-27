@@ -17,7 +17,7 @@ The report is built from public statutory filings, company materials, regulatory
 
 **Retrieval and revision cutoff: August 27, 2026.** This research is not an audit opinion, investment recommendation, or legal opinion.
 
-The original report text is distributed under the **AI Infrastructure Hegemony Restricted Research License v1.0**. It is not an open-source or Creative Commons license. Reading, linking, normal citation, and reasonable short quotation are permitted; substantial redistribution, commercial reuse, derivative editions/translations, bulk dataset extraction, and AI/ML training use require prior permission except where platform terms or applicable law provide otherwise. See [LICENSE](LICENSE).
+The original report text is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. Commercial use is not permitted. Redistribution is permitted only for unadapted material under the license terms with attribution; adapted or derivative versions may not be shared. See [LICENSE](LICENSE).
 
 ## Core findings
 
@@ -126,5 +126,5 @@ Corrections, source upgrades, mechanism challenges, counterarguments, and falsif
 
 ## Citation
 
-GitHub reads [CITATION.cff](CITATION.cff). Author: James (kamanager2012). Original report text is governed by the [AI Infrastructure Hegemony Restricted Research License v1.0](LICENSE).
+GitHub reads [CITATION.cff](CITATION.cff). Author: James (kamanager2012). Original report text is licensed under [CC BY-NC-ND 4.0](LICENSE).
 
