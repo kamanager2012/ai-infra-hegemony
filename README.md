@@ -6,7 +6,7 @@
 
 许可是 [CC BY 4.0](LICENSE)。转载、改写、商用都可以，署名即可。
 
-X / 社交媒体发帖底稿在 [en/SHARE.md](en/SHARE.md)，不代发。早期存档版本：[v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。当前研究以 `main` 为准。
+X / 社交媒体发帖底稿在 [en/SHARE.md](en/SHARE.md)，不代发。当前系统重构见 [Release Notes](RELEASE_NOTES.md)。早期存档版本：[v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。当前研究以 `main` 为准。
 
 
 ## 核心发现
