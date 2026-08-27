@@ -1,134 +1,310 @@
-# Volume 18: Research method and a rebuilt analytic frame (from macro strategy to micro engineering evidence)
+# Volume 18: Research method and evidence architecture
 
-Chinese original: [vol-18.md](vol-18.md)
+> **This volume does not maintain a second evidence system.** The highest-order rules for the monograph are the root-level [Research method and evidence grading](../研究方法与证据分级.md), [Core evidence ledger](../核心证据台账.md), [Core reference index](../核心参考文献索引.md), [Core concepts and model index](../核心概念与模型索引.md), and [Core hypothesis matrix](../核心假设矩阵.md). This chapter only explains how those rules are applied to industry analysis.
 
-The judgment is the ruler. This volume does not tell another industry story. Official / estimate / draft / scenario must be kept apart.
+The master judgment owns conclusions. This volume owns the ruler. If a number, mechanism, or future claim in this chapter conflicts with the central method or evidence ledger, **the central files govern**.
 
-## 1. The question this volume answers
+## 1. What this volume answers
 
-On what does this forty-volume report actually stand? What the reader sees is the same financial table, the same "three walls," and the same three strategic axes copied from volume to volume. This volume does not answer with another industry story. It answers: which claims are traceable historical disclosure, which are engineering formulas, which are supply-chain paraphrase, which are scenario pushes; and how an expansion that invents no new numbers should wire a macro judgment to a micro mechanism, and where it must stop. The book wants first principles plus a critical audit. The ruler must stand first. Only then will Volumes 19 to 24 not write institutional press releases as 10-Ks.
+The most dangerous error in a forty-volume report is not a small numerical miss. It is writing different kinds of claims as if they were the same kind of fact.
 
-## 2. Arguments already in the draft (compressed; key numbers kept)
+Common failure modes include:
+- treating a company disclosure and an institutional forecast as equivalent;
+- turning revenue share into wafer share;
+- treating contracted MW as already energized load;
+- presenting engineering geometry as disclosed fab capacity;
+- writing a stress test as if it had already happened;
+- using a 2030/2036 scenario to infer a 2026 fact;
+- repeating one secondary estimate across many chapters until it looks like multi-source confirmation.
 
-The book's opening *White Paper on Data Authenticity and Research Method* claims alignment with SemiAnalysis, TechInsights, Morgan Stanley, the Goldman Sachs chip set, and ISCA / HPCA, and lists four pillars (draft wording; this volume did not re-check those firms' original reports):
+This chapter therefore asks only three methodological questions:
 
-1. **Historical filings (2023—2024/2025)**: anchored to NVIDIA, Amazon, Alphabet, Microsoft, Meta SEC Form 10-K / 10-Q, plus TSMC earnings filings and SK hynix official disclosure. Key table numbers are the same set reused across volumes: NVIDIA FY2024 / FY2025 revenue $60.922B / $130.497B, data center $47.525B / $115.0B+, gross margin 72.7% / 75.0%, capex $1.21B / $2.98B; TSMC CY23 / CY24 revenue $70.45B / $88.34B, gross margin 54.4% / 53.8%, capex $30.45B / $29.85B; SK hynix 2024 revenue KRW 66.19T, HBM over 40% of DRAM revenue; four-cloud 2024 capex combined "broke $215B."
-2. **Micro engineering and thermodynamics**: reticle limit about 858 mm², CoWoS-L interposer 3.3× reticle expansion, 3D TSV aspect ratio and keep-out loss, MR-MUF claimed to cut thermal resistance 40%, cabinet 120 kW microchannel direct liquid cooling.
-3. **Algorithms and Roofline**: critical compute intensity equals peak compute divided by memory bandwidth; autoregressive decode judged Memory-bound. DeepSeek MLA sets \(d_c=512\) against \(n_h \times d_h=8192\), claims KV Cache compression 93.3%; DeepSeek-V3 total 671B, active 37B, 2048 H800s, 2.788 million GPU-hours, converted about $5.576M.
-4. **Macro TCO**: IT hardware 4-year depreciation + civil works 15 years; $215B capex maps to annualized "500亿+" rigid depreciation; also writes SaaS gross margin pressed from 85% to 55%.
+1. Does a claim belong to **F / H / M / S / X**?
+2. Is its evidence **A / B / C / D**?
+3. Is the causal chain from fact to future outcome closed and falsifiable?
 
-Part II separately builds a "four-dimension benchmark" table (draft numbers, including forecasts): physical-node wafer ASP from 3nm about $20,000 to 2036 1nm ">45,000 dollars"; CoWoS from about 125,000 wafers/month in 2026 to 450,000 wafers/month in 2036; HBM penalty from 1:3 to 1:5+; four-cloud capex from about $750B to 2030 "breaking $1.1T"; power at a single top-tier data center from 100～300 MW to 2.0～5.0 GW. High-NA at $380 million per tool is treated as a constraint source on the process dimension.
+## 2. The common structure: F → H → M → S → X
 
-The "strategic action guidance" shared across volumes splits actors into enterprise, investment, and state, and points at multi-chip scheduling, packaging consumables / liquid-cooling CDUs / interconnection metrics, and power weighted with leading-edge process. Volume 18 itself has no independent section 2. Method lives only in the general introduction and this copied structure.
+### F — Fact
 
-## 3. Mechanism (wire the four pillars into one causal chain, and add a fifth: residual-bit sources)
+An observed and checkable fact.
 
-**Layer one: auditable historical flows.** (analysis added here) 10-K / TSMC annual report / Hynix annual report answer "how much money has already been spent, and in whose hands the margin landed." They do not answer "can it still be earned next year." NVIDIA asset-light (capex far below revenue) and cloud asset-heavy (Amazon $77.7B, Alphabet $52.5B, Microsoft "broke $55B," Meta $30.9B, draft numbers) are two ends of the same value chain: the cloud turns cash into cabinets; NVIDIA / TSMC / Hynix turn cabinets into margin. Methodologically this layer only allows numbers that carry an accounting period, and must admit: a 10-K not opened in the expansion cannot be written as "audited and confirmed." What this pass actually opened and excerpted is the HBM-wafer sentence in Micron's FY25 10-K, the Hynix FY25 press release, the Samsung FY25 press release and earnings table, the CXMT prospectus, and the YMTC prospectus. What was not opened stays marked draft numbers.
+Typical fact-layer material:
+- company filings, 10-Ks, 20-Fs, and formal earnings material;
+- official product specifications;
+- contracts, regulatory filings, and court records;
+- company-disclosed revenue, capacity, and customer concentration;
+- high-quality institutional historical statistics, while retaining their institutional identity.
 
-Hynix FY25: revenue KRW 97.1467T, operating profit KRW 47.2063T, operating margin 49%, HBM revenue more than doubled year on year. https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/ . Samsung 2025 Memory KRW 104.1T, 4Q25 DS 44.0 / operating profit 16.4, priority HBM / server DDR5 / enterprise SSD. https://news.samsungsemiconductor.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results/ . Micron DRAM $28.58B, NAND $8.50B, CMBU $13.52B, MCBU $11.86B. https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm . Won are not converted to dollars. The three fiscal years do not align. Do not add them into a "global memory market." That is layer-one discipline, not style.
+A fact must preserve:
+- time;
+- accounting or engineering scope;
+- denominator;
+- source;
+- the distinction between guidance and actuals;
+- the distinction between an estimate and a company disclosure.
 
-**Layer two: physical identities, not market forecasts.** (analysis added here) Roofline \(I_{\text{critical}}\), 12-high yield \(0.95^{12}\times 0.90\approx 48.6\%\), and the reticle-area cap belong to engineering identities of the form "if the assumptions hold, the inference holds." They can explain why HBM siphons DRAM at higher silicon burn, why a single cabinet reaches 120 kW, and why CoWoS becomes a quota before transistor shrink. They cannot, by themselves, give 2026 $750B of capex. Writing a formula result as an "industry fact" is the draft's most common overstep. The estimate volume writes another identity clearly: cabinets × wafers per cabinet = demand on this TSMC slice; supply − demand = residual left for others. 5.39 maps to 72 GPU packages in one cabinet divided by how many a CoWoS wafer yields. It is geometric estimate, not a TSMC split. Cabinet counts from dividing the full-fab 15 million wafers by 5.39 are meaningless. The pool is wrong. Method must first ask "which pool is being divided."
+### H — Hypothesis
 
-The physical sentence in the Micron 10-K is cleaner than the draft 3:1 formula: same bits, same node, HBM takes more wafers and cleanroom. Hot Chips writes the direction as about 3× silicon. ServeTheHome floor notes: https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/ . Tom's Hardware title also writes 3×. https://www.tomshardware.com/tech-industry/semiconductors/micron-says-the-silicon-gap-between-hbm-and-ddr5-is-widening-with-every-generation . **3× enters the conference-paraphrase layer, not the 10-K-verified layer.** Draft 4:1, 5:1, and 16-Hi specs still do not enter the fact layer.
+A future input used in scenario analysis.
 
-**Layer three: supply-chain paraphrase.** (analysis added here) CoWoS monthly capacity climbing from a low to a high, NVIDIA locking about 60%, Apple about 8%, Qualcomm 8 Elite purchase price $180～$190 — the draft writes these as from TrendForce, TSMC supply-chain guidance, and analyst tallies (draft numbers). This layer's method rank is below a 10-K: it may be right, but the speaker is not disclosing under issuer legal liability. In expansion it can only be "second-hand capacity / quotes the draft cited." It cannot be promoted to "audited capacity." The judgment writes: C.C. Wei in 4Q24 said CoWoS tight / cannot meet demand; in 2Q26 said limits customers' growth; "sold out through 2026" at the shareholders' meeting has no official transcript. Sell-side puts NVIDIA at about 60% / 595k–630k wafers. TSMC has no split. This volume leaves all of that at C grade.
+Examples:
+- AI-demand growth;
+- effective advanced-node supply growth;
+- 50% / 60% / 70% / 80% AHICR stress levels;
+- CoWoS expansion;
+- future HBM wafer-supply trade ratios;
+- actual grid-interconnection progress;
+- token-price decline;
+- whether long-duration model-company compute commitments continue to expand.
 
-The TrendForce 2026-08-25 official note is a line this pass grades on its own: HBM+RDIMM 51% of 2026 DRAM bit supply; DRAM+NAND 47% of major CSP CapEx in 2026, 68% in 2027. https://www.trendforce.com/presscenter/news/20260825-13198.html . It is a dated press release, cleaner than word-of-mouth monthly capacity, still not a four-cloud 10-K. Use: it can hold "server DDR5 is already in that half of the bits." It cannot be written as "Microsoft has already signed 68% of capex to memory."
+A hypothesis may be aggressive, but it must say:
+1. why it is compatible with known physical, financial, and industrial constraints; and
+2. what observable change would invalidate it.
 
-**Layer four: scenarios and stress tests.** (analysis added here) 2026 $670B～$750B, the token-price decline matrix, 2036 four-scenario probabilities 40% / 30% / 15% / 15%, are a decision tree, not a point forecast. Right use: fix the depreciation clock and the physical walls, ask "what revenue growth rate fills $45B～$55B of annual depreciation." Wrong use: treat a single number in a table as a fact ten years out.
+### M — Mechanism
 
-**Layer five: negative propositions a prospectus can falsify.** (analysis added here) CXMT prospectus full text 0 mentions of HBM is strong evidence of "not found," not "maybe there, we did not see it." SSE PDF: https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260520_C5DZ.pdf . None of the three raised-fund project names contain HBM. 2025 main products 98.30% DDR+LPDDR. Year-end monthly capacity in Korean media is a SemiAnalysis outlook. It is not in the prospectus. Per instruction, do not write it. YMTC prospectus official layer count writes 200 layers and above. No monthly capacity in the tens of thousands of wafers. https://static.sse.com.cn/stock/disclosure/announcement/c/202608/002251_20260821_7075.pdf . A negative proposition ranks high methodologically: it blocks sentences like "the China market saves global AI," which need positive output to stand.
+A mechanism explains why fact A can push the system toward result B.
 
-The legal join from macro to micro is one-way: first historical cash flow, then ask which formula constrains the physical objects that cash bought (wafers, interposers, HBM, MW, cabinets), then translate the constraint into who has pricing power, and only then allow the scenario "if ROI is missed, wash out." Using 2036 450,000 wafers/month of CoWoS to back out a 2024 filing is circular. Geography in method is only a boundary condition: export controls change the purchasable set. They do not change Roofline or the depreciation formula. Do not write a "Huawei breakout" as already-in-volume peer advanced HBM unless a checkable maker disclosure appears.
+The report's common mechanism set includes:
+- Super-buyer Effect;
+- AI Resource Gravity;
+- Capacity Preemption;
+- Advanced HPC Incremental Capacity Capture;
+- Non-AI Residual Capacity;
+- Scarcity-layer Value Capture;
+- Installed-base Flywheel;
+- Rolling Bottleneck Cascade;
+- Cloud System-Stack Substitution;
+- Anchor Compute Buyer Effect;
+- AI Software Unit Economics;
+- Task-to-Job Translation Layer.
 
-First-principles price transmission must also be graded. (analysis added here) Memory and drives rise not because NVIDIA posted a retail price on consumer DIMMs, but because NVIDIA plus the clouds can pay for HBM and server bits, and makers shift lines. Storage share inside a cabinet is low, so price is not feared. Share inside phones and PCs is high, so they die first. Huaqiangbei 16G DDR5 450→1800 is channel oral. CCTV Finance / Cailian 2026-07-07, https://m.cls.cn/detail/2418583 , ranks below TrendForce contract prices, and further below maker list prices. The three price layers cannot be added sideways.
+A mechanism must be expressible as a causal chain, not as a slogan.
 
-## 4. Analysis added (scenarios, counters, testable indicators)
+### S — Scenario
 
-The reconstructed analysis frame can be pressed into a checklist (analysis added here):
+A scenario is the state produced when a defined set of hypotheses activates a defined set of mechanisms.
 
-- **Claim grades**: A = issuer disclosure with a period (reuse must be marked "draft numbers"; new excerpts this pass must give the link and the original sentence); B = engineering formulas and geometric estimates (state the assumptions; 5.39 is an estimate); C = supply-chain / analyst / TrendForce press release; D = scenario. Do not write D into the "official fact base." 3× sits between B and C: the direction has a 10-K, the multiple is a conference.
-- **Forbidden jumps**: from NVIDIA 75.0% gross margin straight to "a system-level trust will last a decade"; from $215B capex straight to "the largest cycle of the twenty-first century is already locked"; from MLA compression 93.3% straight to "HBM demand vanishes"; from "restack onto DDR5" straight to "consumer electronics is saved"; from a CXMT IPO straight to "a China HBM supply function."
-- **Forbidden numbers**: draft 3:1 / 16-Hi / CoWoS monthly from low to high / NVIDIA exclusive 60% / SoC 180–190 do not enter the fact layer. Do not write 8.6 / 13.2, CXMT monthly capacity, or a three-maker monthly split. Do not privately convert won to dollars.
-- **Counter**: banks and supply-chain shops are themselves sell-side research, not the same evidence grade as a 10-K. The draft lists SemiAnalysis, TrendForce, and ISCA side by side, which easily lets a reader think a conference paper and a monthly capacity track can prove each other.
-- **Another counter**: the $5.576M in the DeepSeek technical report is its own conversion. Scope may omit cluster depreciation, power, and engineering labor. Using it against a "hundreds of millions of dollars of training" comparison must stay "paraphrase, not an audit by this report."
+The formal endgame uses the four states in the [Core hypothesis matrix](../核心假设矩阵.md):
+- **S1 — Competitive Expansion**
+- **S2 — Baseline Concentration**
+- **S3 — Resource Hegemony**
+- **S4 — Capital Hard Landing**
 
-Testable indicators (method level; no new thresholds invented): whether the same financial table still contradicts itself across volumes (Microsoft revenue is already a range); whether the CoWoS path treats a supply-chain year-end point or TSMC "packaging+test revenue over 10%, CoWoS tight" as "the present"; whether 4-year depreciation and 15-year civil works are split in every capex sum; whether every "expected / will reach / endgame" is marked unverified push; whether a TrendForce 51% / 47% / 68% cite also writes "institutional, not a 10-K"; whether a 3× cite also writes "Hot Chips paraphrase"; whether a CXMT cite writes "prospectus 0 mentions of HBM."
+The early 40% / 30% / 15% / 15% weights no longer serve as the formal model.
 
-Enterprise, investment, and state guidance must be rewritten as falsifiable acts: whether an enterprise actually stood up multi-chip scheduling is whether the inference stack runs CUDA and at least one non-CUDA path at once; whether investment is overweight physical scarcity is packaging-consumable, CDU, and interconnection-queue capex disclosure, not a thematic-fund flyer; whether a state weights power with leading-edge process is interconnection queue years and domestically obtainable advanced packaging and HBM output, not the title of a strategy paper. That the CXMT prospectus has no HBM line is the falsification of the state-side sentence "a second supply already exists."
+### X — Falsification
 
-On writing discipline, this volume's task drops the grades into four hard constraints, the same ruler Volumes 19 to 24 will use. (analysis added here) Only reuse numbers the draft already wrote, and mark them "draft numbers"; new judgments are marked "analysis added here" only, with no new output, price, margin, or probability attached; any sentence that treats a post-2026 number as a fact that already happened must be rewritten "unverified; do not treat as audited fact." Do not claim to have read a 10-K that was not opened. Volume 17 risk, Volume 19 timeline, Volume 21 profit pool are only this ruler applied to different questions: grade first, then wire cause, and only then allow a scenario.
+Every strong claim must answer:
 
-If the reader only looks at section 4 strategic action guidance in each volume, they will think method has already issued an executable book. Those three lines are template sentences. No position cap, no duration, no counter-signal. After the method rebuild, strategy sentences can only be demoted to directional hypotheses: an enterprise avoiding a single-interface lock is hedging switching cost; investment overweight packaging and power is betting the physical wall is still tight; a state weighting power with process is admitting queue years are slower than fab construction. Those hypotheses must be checked against the Volume 19 timeline, not by inventing another scoring model in this volume.
+> What observable event would force this report to reduce, reject, or rewrite the claim?
 
-Conversely, once method is graded, the mass of repetition across forty volumes is no longer a defect. It is a warning: the same table treated as "this volume's core evidence" means most volumes had no independent data-generation process. The expansion's job is to re-read the repeated table as different questions on the same base, not to copy the table again. Volume 18 to here is only responsible for standing the ruler up. The judgment, the memory residual-bit sources, and the wafer-start estimates are new bases this pass added. They are not another market table that can be summed at will.
+Examples:
+- a second frontier AI foundry/packaging source becomes genuinely scalable and substitutable;
+- AI-demand growth remains below effective supply growth;
+- HBM or advanced packaging ceases to be scarce;
+- cloud system stacks achieve large-scale training and inference substitution at low migration cost;
+- frontier compute no longer depends materially on the latest nodes;
+- grid and power constraints are removed at scale and low cost;
+- model-company capacity commitments are systematically reduced, rescheduled, or under-utilized.
 
-Also prevent "padding with sources." (analysis added here) Copying Hynix 49%, TrendForce 51%, and Micron 3× into every volume looks thick and adds no new cause. Legal use: Volume 17 uses them to rank risks, Volume 19 uses them to nail the year 2026, Volume 21 uses them to draw profit retention, Volume 22 uses them to talk a consumption tax, Volume 23 uses them to split silicon burn, Volume 24 uses them to show a packaging pool cannot be used to divide full-fab shipments. One piece of evidence is allowed to answer only this volume's question.
+A ten-year claim without a falsification condition is an opinion, not a formal scenario in this report.
 
-## 5. Gaps and what cannot be treated as fact
+## 3. The common evidence grades: A / B / C / D
 
-1. Volume 18 in Part I is almost an empty template. It has no sample of its own, no error, no data cleaning, and no citation list. So-called "method" has to be assembled from the introduction and Part II.
-2. This volume did not read every 10-K / 10-Q original. Microsoft revenue and capex are not point estimates even inside the draft. The Micron 10-K, the two prospectuses, and the Hynix / Samsung press releases are what this pass opened.
-3. The 2030 / 2036 columns of the four-dimension benchmark table (wafer >45,000 dollars, CoWoS 450,000 wafers/month, capex $1.1T, campus 2～5 GW) are forecasts (unverified; do not treat as audited fact).
-4. SaaS gross margin "from 85% to 55%" appears in the introduction with no sample firms and no accounting line. MR-MUF cutting thermal resistance 40%, CoWoS-L 3.3× reticle: no derivation was seen.
-5. Listing SemiAnalysis, ISCA, and SEC side by side overstates the legal force of second-hand capacity numbers. Later volumes that reuse these numbers must keep demoting them to draft paraphrase.
-6. Micron's official Hot Chips slides full text was not hung on the investor page this pass. 3× is floor notes and a title for now. CXMT monthly capacity, YMTC exact layer count, three-maker monthly split: if no maker announcement is found, do not write them.
+The grades below are taken directly from the root method file.
 
-(This volume adds no new filing, capacity, or price numbers. New cites point only at links already opened.)
+### A — First-party confirmation
 
+Company filings, 10-K/20-F, regulatory announcements, official product pages, government documents, formal contract disclosures, and court materials.
 
-## 6. The ruler must stand first (analysis added here)
+High-impact current examples include:
+- NVIDIA FY27 Q2 actual financials;
+- TSMC's formal statements that advanced packaging is tight and can limit customer growth;
+- **Micron's first-party disclosure that HBM3E requires about 3× the wafer supply of DDR5 at the same node and bit capacity**;
+- formal Stargate and Anthropic/AWS infrastructure commitments;
+- formal contract/regulatory/SEC status for major power projects.
 
-On what this forty-volume report stands cannot keep depending on the same table copied across volumes. This volume splits claims into four layers — traceable historical disclosure, engineering formulas, supply-chain paraphrase, scenario pushes — and adds a fifth: negative propositions a prospectus can falsify. The book wants first principles plus a critical audit. If the ruler does not stand, later volumes will write institutional press releases as annual reports. This section invents no new output, price, or probability. It only re-ranks sentences already nailed, by grade.
+### B — High-quality independent research
 
-Layer one only allows numbers that carry an accounting period. Annual reports, TSMC annual reports, and Hynix official press releases answer how much money has already been spent and in whose hands the margin landed. They do not answer whether it can still be earned next year. NVIDIA asset-light and cloud asset-heavy are two ends of the same value chain: the cloud turns cash into cabinets; NVIDIA, TSMC, and Hynix turn cabinets into margin. A report not opened in the expansion cannot be written as audited and confirmed. What this pass actually opened and excerpted is the HBM-wafer sentence in the Micron annual report, the Hynix press release, the Samsung press release and earnings table, the CXMT prospectus, and the YMTC prospectus. What was not opened stays marked draft numbers.
+OECD, IEA, academic research, industry associations, TrendForce, and similar institutions with explicit methods and sustained coverage.
 
-Maker won and Micron segments: [Volume 5](vol-05.md). Won are not converted to dollars. The three fiscal years do not align. Do not add them into a global memory market. That is layer-one discipline, not style. NVIDIA profit and cash: [Volume 1](vol-01.md). Those sentences enter layer one on the premise that the judgment already nailed them. This volume does not rewrite them as a new sum.
+Key example:
+- **TrendForce's estimate that NVIDIA was the largest CoWoS-demand customer in 2025, at more than 60% of demand.**
 
-Layer two is physical identities, not market forecasts. Roofline critical compute intensity, the twelve-high yield formula, and the reticle-area cap belong to engineering identities of the form if the assumptions hold, the inference holds. They can explain why HBM siphons conventional bits at higher silicon burn, why a single cabinet reaches 120 kW, and why advanced packaging becomes a quota before transistor shrink. They cannot, by themselves, give 2026 $750B of capex. Writing a formula result as an industry fact is the draft's most common overstep. The estimate volume writes another identity clearly: cabinets times wafers per cabinet equals demand on this TSMC slice; supply minus demand equals residual left for others. 5.39 maps to 72 accelerator packages in one cabinet divided by how many one advanced-packaging wafer yields. It is geometric estimate, not a TSMC split. Cabinet counts from dividing the full-fab 15 million wafers by 5.39 are meaningless. The pool is wrong. Method must first ask which pool is being divided.
+B-grade evidence can anchor a scenario. It cannot be rewritten as "TSMC officially confirmed."
 
-The physical sentence in the Micron annual report is cleaner than the draft 3:1 formula: same bits, same node, HBM takes more wafers and cleanroom. The conference writes the direction as about 3× silicon. 3× enters the conference-paraphrase layer, not the annual-report-verified layer. Draft 4:1, 5:1, and 16-high specs still do not enter the fact layer. Official single cabinet 72 accelerators, 36 CPUs, 13.4 TB HBM, 17 TB LPDDR is a product page and enters the official layer. Petabytes from those capacities times a cabinet count are estimates, not maker shipments. The two lines cannot be added sideways.
+### C — Sell-side / supply-chain estimates
 
-Layer three is supply-chain paraphrase. Advanced-packaging monthly capacity climbing from a low to a high, NVIDIA locking about 60%, Apple about 8%, a system-chip purchase price $180 to $190: the draft writes these as from institutions and analyst tallies. This layer's method rank is below an annual report: it may be right, but the speaker is not disclosing under issuer legal liability. In expansion it can only be second-hand capacity or quotes the draft cited. It cannot be promoted to audited capacity. The judgment writes: C.C. Wei said advanced packaging is tight and cannot meet demand, and said it limits customers' growth; "sold out through 2026" at the shareholders' meeting has no official transcript. Sell-side puts NVIDIA at about 60%. TSMC has no split. This volume leaves all of that at C grade.
+Broker research, channel checks, and media-reported customer allocations, specific capacity numbers, prices, and lead times.
 
-The institutional 2026-08-25 official note is a line this pass grades on its own: HBM plus registered DIMMs 51% of that year's DRAM bit supply; DRAM plus flash 47% of major cloud capex that year, 68% the next. It is a dated press release, cleaner than word-of-mouth monthly capacity, still not a four-cloud annual report. Use: it can hold that server conventional DDR5 is already in that half of the bits. It cannot be written as a given cloud having already signed 68% of capex to memory. Contract-price paths in the same note also sit at C grade: second-half server conventional memory cumulative rise, another large rise in the outlook for the next year, enterprise SSD in the same direction, some longs with a price ceiling, HBM contract prices the year after that may still rise. A ceiling and a rise can exist at once. Do not write either sentence as a purchase budget that already happened.
+Examples:
+- specific annual CoWoS wafer-demand estimates by customer;
+- undisclosed monthly capacity estimates;
+- channel spot pricing;
+- supply-chain customer-share tables.
 
-Layer four is scenarios and stress tests. 2026 $670B to $750B, a token-price decline matrix, 2036 four-scenario probabilities, are a decision tree, not a point forecast. Right use: fix the depreciation clock and the physical walls, ask what revenue growth rate fills $45B to $55B of annual depreciation. Wrong use: treat a single number in a table as a fact ten years out. The five interrupt conditions the judgment lists are also scenario-layer boundaries, not an industry calendar that already happened. None of the five is done. What is done is supply commitments added to the hundred-billion magnitude, inquiry yes and complaint no. Methodologically, a condition that is not done cannot be written as already interrupted.
+C-grade evidence may inform stress tests but cannot masquerade as issuer disclosure.
 
-Layer five is negative propositions a prospectus can falsify. CXMT prospectus full text 0 mentions of HBM is strong evidence of not found, not maybe there, we did not see it. None of the three raised-fund project names contain HBM. 2025 main products 98.30% conventional plus low-power. Year-end monthly capacity in Korean media is an institutional outlook. It is not in the prospectus. Per instruction, do not write it. YMTC prospectus official layer count writes 200 layers and above. No monthly capacity in the tens of thousands of wafers. A negative proposition ranks high methodologically: it blocks sentences like the China market saves global AI, which need positive output to stand. At home, China can at most supply phones. PCs and AI do not resolve. The layer is wrong. Writing three layers as one is a method error, not a stance error.
+### D — Report hypotheses and model outputs
 
-## 7. Macro to micro may join in one direction only (analysis added here)
+This includes:
+- **the 5.39 CoWoS-wafers-per-rack geometry estimate**;
+- 50% / 60% / 70% / 80% AHICR stress levels;
+- counterfactual crowding-out calculations;
+- 2030/2036 scenario values;
+- unverified BOM/MFU assumptions or fixed SaaS-margin endpoints.
 
-The legal join is: first historical cash flow, then ask which formula constrains the physical objects that cash bought, then translate the constraint into who has pricing power, and only then allow the scenario if return is missed, wash out. Using 2036 450,000 wafers per month of advanced packaging to back out a 2024 filing is circular. Geography in method is only a boundary condition: export controls change the purchasable set. They do not change Roofline or the depreciation formula. Do not write a given domestic maker's breakout as already-in-volume peer advanced HBM unless a checkable maker disclosure appears.
+**Unified correction: Micron HBM ≈3× is A; TrendForce CoWoS >60% is B; 5.39 is D. They must not be collapsed into one evidence grade.**
 
-First-principles price transmission must also be graded. Memory and drives rise not because NVIDIA posted a retail price on consumer DIMMs, but because NVIDIA plus the clouds can pay for HBM and server bits, and makers shift lines. Storage share inside a cabinet is low, so price is not feared. Share inside phones and PCs is high, so they die first. Huaqiangbei 16G DDR5 from about 450 yuan to 1,800 yuan is channel oral, ranks below institutional contract prices, and further below maker list prices. The three price layers cannot be added sideways. The judgment writes residual bits as: makers shift to HBM, consumer bits shrink; server conventional DIMMs are already residual, not another river. If the clouds restack inference onto conventional DIMMs, they bid for the slice already inside the 51%, or the slice already rising with it — a tax, not a new river. That sentence is the main line, not a metaphor. Method must allow it to be falsified by later maker disclosure: if makers cut capacity back to conventional at scale, and annual reports no longer write that the same bits take more wafers, the residual-bit main line must be rewritten. Until then, do not write restacking onto conventional DIMMs as an escape door that already holds.
+## 4. Macro-to-micro reasoning is one-way
 
-Four-cloud capex matched to each firm's own filings, mixed-year sum about $211.9B to $213.9B, is not $215B of AI hardware. The draft $215B stays marked draft numbers. Methodologically, the same set of numbers is written both as an actual four-cloud combined in a given year and as support for annualized depreciation above $50B and software gross margin from 85% to 55%. The latter has no sample and cannot be treated as a software-industry collapse that already happened. 2026 $750B is a forecast on another table. It cannot be turned around to prove the prior year was already a bubble. A scope conflict must be its own line. One line cannot be used to prove the other.
+The legal causal direction is:
 
-TSMC books: [Volume 4](vol-04.md). Method must write: revenue share is not unit share. Booked customer share is not a safe distance. What is being opened is HPC and packaging. Apple locks phone logic. Occupy the increment and next year's slots belong to the first name. Measuring a margin monopoly with the old ruler of a share monopoly is a method error.
+```
+historical cash flow / contracts / demand
+→ physical objects purchased
+→ constraints on those objects
+→ allocation of scarce resources
+→ incremental supply versus residual supply
+→ revenue / cost / depreciation / profit effects
+→ scenario state under explicit H variables
+```
 
-## 8. Checklist and forbidden jumps (analysis added here)
+The reverse direction is forbidden:
 
-Claim grades: A equals issuer disclosure with a period; reuse must be marked draft numbers; new excerpts this pass must give source and original sentence. B equals engineering formulas and geometric estimates; state the assumptions; 5.39 is an estimate. C equals supply-chain, analyst, institutional press release. D equals scenario. Do not write D into the official fact base. 3× sits between B and C: the direction has an annual report, the multiple is a conference.
+```
+2036 scenario
+→ therefore this already happened in 2026
+```
 
-Forbidden jumps: from NVIDIA 75% gross margin straight to a system-level trust will last a decade; from $215B capex straight to the largest cycle of the twenty-first century is already locked; from KV-cache compression 93.3% straight to HBM demand vanishes; from restacking onto conventional DIMMs straight to consumer electronics is saved; from a CXMT listing straight to a China HBM supply function; from cloud self-designed chips straight to training has already been taken. Public next generations are not 5nm plus commodity conventional DIMMs. Microsoft, Google, and Amazon public specs all sit on HBM. Some also moved from conventional DIMMs onto HBM. No firm was found saying it would retreat to 5nm plus commodity conventional DIMMs as the inference mainstay. To beat today's cabinet you return to 3nm, HBM, and advanced packaging, and you bid against 75% gross margin. Only a true retreat to 5nm and less packaging dodges the scarce slice. Public next generations have not stopped.
+Examples of forbidden reverse inference:
+- using a 2036 CoWoS forecast to infer current CoWoS capacity;
+- using S3 to claim NVIDIA already holds 80% of TSMC N2;
+- using a future hard-landing scenario to claim current CapEx is already a bubble;
+- using algorithmic efficiency to claim HBM demand has already disappeared.
 
-Forbidden numbers: draft 3:1, 16-high, advanced-packaging monthly from low to high, NVIDIA exclusive 60%, system-chip 180 to 190, do not enter the fact layer. Do not write 8.6 and 13.2, CXMT monthly capacity, or a three-maker monthly split. Do not privately convert won to dollars. A statutory fine ceiling back-calculated at 10% of annual revenue is a ceiling, not a fine. It cannot be written as a fine already issued.
+## 5. Five common dimensional errors
 
-Counters: banks and supply-chain shops are themselves sell-side research, not the same evidence grade as an annual report. The draft lists institutions, academic conferences, and regulatory files side by side, which easily lets a reader think a paper and a monthly capacity track can prove each other. Another counter: a training-dollar number in a given technical report is its own conversion. Scope may omit cluster depreciation, power, and engineering labor. Using it against a hundreds-of-millions training comparison must stay paraphrase, not an audit by this report. Third counter: copying the same institutional numbers into every volume looks thick and adds no new cause. Legal use: Volume 17 uses them to rank risks, Volume 19 uses them to nail the year 2026, Volume 21 uses them to draw profit retention, Volume 22 uses them to talk a consumption tax, Volume 23 uses them to split silicon burn, Volume 24 uses them to show a packaging pool cannot be used to divide full-fab shipments. One piece of evidence is allowed to answer only this volume's question. This volume is Volume 18. It is only responsible for standing the ruler up.
+### 5.1 Revenue share ≠ wafer share ≠ leading-node share ≠ CoWoS share
 
-Testable indicators at the method level, no new thresholds invented: whether the same financial table still contradicts itself across volumes; whether the advanced-packaging path treats a supply-chain year-end point or TSMC packaging-plus-test revenue over 10% and packaging tight as the present; whether 4-year depreciation and 15-year civil works are split in every capex sum; whether every expected, will reach, endgame is marked unverified push; whether an institutional 51%, 47%, 68% cite also writes institutional, not an annual report; whether a 3× cite also writes conference paraphrase; whether a CXMT cite writes prospectus 0 mentions of HBM. Enterprise, investment, and state guidance must be rewritten as falsifiable acts: whether an enterprise actually stood up multi-chip scheduling is whether the inference stack runs a unified compute architecture and at least one non-unified path at once; whether investment is overweight physical scarcity is packaging-consumable, liquid-cooling plant, and interconnection-queue capex disclosure, not a thematic-fund flyer; whether a state weights power with leading-edge process is interconnection queue years and domestically obtainable advanced packaging and HBM output, not the title of a strategy paper. That the CXMT prospectus has no HBM line is the falsification of the state-side sentence a second supply already exists.
+A TSMC customer revenue share is a concentration indicator. It is not a direct conversion into N2 wafers or CoWoS wafers.
 
-## 9. Writing discipline and where this volume stops (analysis added here)
+### 5.2 Total supply growth ≠ non-AI recovery
 
-This volume's task drops the grades into four hard constraints. Only reuse numbers the draft already wrote, and mark them draft numbers; new judgments are marked analysis added here only, with no new output, price, margin, or probability attached; any sentence that treats a post-2026 number as a fact that already happened must be rewritten unverified, do not treat as audited fact. Do not claim to have read a report that was not opened. Volume 17 risk, Volume 19 timeline, Volume 20 action principles are only this ruler applied to different questions: grade first, then wire cause, and only then allow a scenario.
+The report uses:
 
-If the reader only looks at section 4 strategic action guidance in each volume, they will think method has already issued an executable book. Those three lines are template sentences. No position cap, no duration, no counter-signal. After the method rebuild, strategy sentences can only be demoted to directional hypotheses: an enterprise avoiding a single-interface lock is hedging switching cost; investment overweight packaging and power is betting the physical wall is still tight; a state weighting power with process is admitting queue years are slower than fab construction. Those hypotheses must be checked against the Volume 19 timeline, not by inventing another scoring model in this volume.
+```
+NonAI_Residual(t)
+= Effective_Supply(t)
+- AI_Absorption(t)
+- Other_Priority_Demand(t)
+```
 
-Conversely, once method is graded, the mass of repetition across forty volumes is no longer a defect. It is a warning: the same table treated as this volume's core evidence means most volumes had no independent data-generation process. The expansion's job is to re-read the repeated table as different questions on the same base, not to copy the table again. Volume 18 to here is only responsible for standing the ruler up. The judgment, the memory residual-bit sources, and the wafer-start estimates are new bases this pass added. They are not another market table that can be summed at will.
+Total supply can grow while Non-AI Residual Capacity still falls.
 
-Also prevent padding with sources. Copying Hynix 49%, institutional 51%, and Micron 3× into every volume looks thick and adds no new cause. Do not pad word count with English sentences, URLs, and Latin abbreviations. New paragraphs in this volume open the mechanism in Chinese characters. Numbers only reuse what is already nailed. English original sentences stay in the source files. They do not enter this volume's body as filler. That is method, and also a correction of the last pass that treated all non-whitespace characters as Chinese characters.
+### 5.3 Contracted capacity ≠ planned capacity ≠ energized load ≠ annual utilization
 
-The judgment writes the five interrupts as boundary conditions. Methodologically, if a boundary condition is not done, the main line is written forward as half of the scarce slice, a residual-bit tax, and three layers in the wrong place. When one is done, rewrite the ruler's domain of application. Do not change the frame now as if it had already been interrupted. The window is the few years before the next first-to-market node is locked by supply commitments. This volume does not write the window as a new year number. It writes it as a methodologically observable interval: supply commitments still rising, advanced packaging still called tight, HBM plus registered DIMMs still written as more than half the bits. While those three are simultaneous, the window is still there. If any one is rewritten by a maker or issuer disclosure, the writing of the window must change.
+Every MW/GW figure must identify which quantity it represents. A long-duration PPA is not automatically today's AI load.
 
-The world does not blow up. Upgrades stop one node down. One firm writes the rules. Method must allow that sentence to be falsified, and must not allow it to be swapped, before falsification, for another ungraded story. Where this volume stops: the ruler stands. Later volumes may use only this ruler. They may not invent another market table that can be summed at will.
+### 5.4 Product specification × hypothetical quantity ≠ shipments
+
+13.4 TB HBM and 17 TB LPDDR per rack are product specifications. Multiplying them by 10,000 racks gives a scenario demand number, not disclosed shipments.
+
+### 5.5 Component-price inflation ≠ identical BOM inflation
+
+Memory contract prices, channel spot prices, device BOMs, and retail prices have different denominators and cannot be mechanically converted into one another.
+
+## 6. How the core models enter the report
+
+### 6.1 AHICR applies only to incremental advanced HPC resources
+
+```
+AHICR
+= Head_Player_Incremental_Advanced_HPC_Capacity
+/ Total_Incremental_Advanced_HPC_Capacity
+```
+
+The 50%–80% levels are stress tests, not disclosed present shares.
+
+### 6.2 Non-AI Residual Capacity subtracts priority absorption first
+
+The research question is not simply whether capacity expands. It is who absorbs the expansion before non-AI industries receive the remainder.
+
+### 6.3 Cloud System-Stack Substitution is not a one-chip contest
+
+At minimum it must track:
+- accelerator;
+- HBM / packaging;
+- scale-up / scale-out interconnect;
+- compiler / runtime;
+- rack / pod;
+- real workloads and deployment scale.
+
+Cloud system stacks can divert NVIDIA's platform profit while **simultaneously** competing with NVIDIA for advanced logic, HBM, packaging, and power. These effects are not contradictory.
+
+### 6.4 Anchor Compute Buyer Effect means model companies are not only tenants
+
+Long-duration model demand can increase financing certainty and shape the pace of cloud, chip, data-center, and power expansion. Rescheduling, under-utilization, or contraction can become leading signals for a hard landing.
+
+### 6.5 AI Software Unit Economics replaces fixed SaaS endpoints
+
+AI software must account for inference, retrieval/storage, tools/APIs, human review, and AI-specific cloud cost. The old "85% → 55%" margin path remains only a stress-test endpoint.
+
+## 7. How to use negative evidence
+
+"Not found in this document" proves only that **the document did not disclose it**.
+
+Correct:
+> The CXMT prospectus did not disclose an HBM product line.
+
+Incorrect:
+> CXMT has no HBM research anywhere.
+
+Negative evidence is valuable because it blocks unsupported positive claims from entering the fact layer. It must not create a new absolute claim.
+
+## 8. Scenario variables and falsification use the same system
+
+Formal future work uses H1–H17 from the [Core hypothesis matrix](../核心假设矩阵.md), including:
+- AI demand versus effective supply;
+- AHICR;
+- HBM / CoWoS;
+- power and interconnection;
+- cloud system-stack substitution;
+- software migration cost;
+- CapEx / depreciation / utilization;
+- China's parallel-stack capability;
+- regulation;
+- **H17 — long-duration model-company compute commitments / Anchor Buyer Demand**.
+
+The four scenarios are states produced by these variables, not belief labels.
+
+## 9. Publication checklist
+
+Before a chapter enters `main`, check at minimum:
+
+1. Does every major number have a time, denominator, and scope?
+2. Has a revenue share been silently converted into a physical share?
+3. Has guidance been written as actual?
+4. Has B/C evidence been promoted into A?
+5. Has a D-grade model output been presented as company disclosure?
+6. Has contracted MW been presented as energized MW?
+7. Has product spec × hypothetical quantity been presented as shipments?
+8. Are early uncalibrated probabilities still being used as the formal endgame?
+9. Does every strong scenario state a falsification condition?
+10. Does the chapter conflict with the [Core evidence ledger](../核心证据台账.md) or [Core hypothesis matrix](../核心假设矩阵.md)?
+
+If there is a conflict, **the central ledger wins and the chapter must change**.
+
+## 10. Where this volume stops
+
+Volume 18 does not create another methodological asset. Its purpose is to ensure that the monograph uses one ruler:
+
+**F → H → M → S → X**
+
+and one evidence hierarchy:
+
+**A first-party → B high-quality independent research → C sell-side/supply-chain → D report models and stress tests.**
+
+Later chapters may add facts, update hypotheses, revise mechanisms, or recalculate scenarios. They may not invent a second evidence system.
