@@ -1,16 +1,18 @@
-# Volume 26: Power between model firms and compute platforms (OpenAI, Anthropic, DeepSeek, and dependence on infrastructure)
+# Volume 26: Power between model firms and compute platforms (from compute dependence to anchor buyers and infrastructure co-build)
 
-Chinese original: [vol-26.md](vol-26.md)
+Chinese original: [vol-26.md](../vol-26.md)
 
-Official cloud-ASIC specs: [Volume 4](vol-04.md) and [Volume 24](vol-24.md). Residual bits: [Volume 5](vol-05.md). Financial base: [Volume 1](vol-01.md). This volume does not recopy the FY26 or TSMC tables. This volume only writes that what model firms depend on is the stack and the name on the invoice, not one brand's advertising copy.
+Cloud-system specs: [Volume 4](vol-04.en.md) and [Volume 25](vol-25.en.md). Residual capacity: [Volume 5](vol-05.en.md). Anchor Compute Buyer Effect: [Core concepts and models](../核心概念与模型索引.md). This volume no longer treats "model company depends on cloud" as a one-way relationship; it studies how long-duration capacity commitments can shape chips, data centers, and power while model companies remain constrained by physical assets and system stacks.
 
 ## 1. The question this volume answers
 
-Between model firms such as OpenAI, Anthropic, and DeepSeek, and compute platforms that own land, power, cabinets, and a compiler stack, on which side does power hang? This volume treats only four layers of dependence: whether training must rent a high-bandwidth cabinet; whether inference can flee the memory wall by algorithm; whether cheap open-source training rewrites the split; and whether official cloud-ASIC memory specs move model firms from "renting an NVIDIA cabinet" to "renting the same slice of HBM." The question changes from "model firms are rising" to "are model firms paying the scarce slice."
+Between model firms such as OpenAI, Anthropic, and DeepSeek and platforms that control land, power, racks, and compiler stacks, where does bargaining power sit? By 2026 the question cannot be reduced to "model companies depend on clouds." OpenAI is organizing multi-party infrastructure through Stargate, and Anthropic has made a long-duration, large-scale AWS capacity commitment. Frontier model companies are becoming **super-scale compute buyers** that can influence chip roadmaps, data-center construction, and power planning.
 
-Dependence must be split into two bills. It cannot be fused into one layer. The first bill is using the stack: training has to pass CUDA, PTX, NVLink, and a cabinet standard. That is referee plus athlete. The second bill is paying the invoice: machine-hours land on Azure, AWS, and Google PP&E and depreciation, not on NVIDIA's 10-K. OpenAI and Anthropic sit in the title. The body has no contract, no accelerator quota, no reservation, and no revenue split. Do not invent them. DeepSeek only supplies one publicly self-reported training ledger, used to show that "a million-dollar-scale pretrain exists." Do not subtract it from undisclosed closed-source spend.
+This volume tracks five relationships: system-stack dependence; long-duration compute contracts; who carries infrastructure capital; whether algorithmic efficiency lowers unit demand; and whether model-company order scale can reshape cloud and semiconductor roadmaps.
 
-Nail the main line first. Public next-generation chips at the four clouds are not a retreat to 5nm plus commodity DDR5. Maia 200 writes TSMC N3 and 216 GB HBM3e. Ironwood writes 192 GB HBM3E. Trainium3 writes 3nm and 144 GB HBM3e. From the MTIA 300 generation on, the pages write HBM stacks. Whichever cloud a model firm binds, training and high-quality inference still land on HBM. Changing clouds changes the name on the invoice, not the memory type. Samsung's $16.54B long is Tesla, not a second foundry river for model labs. At home, China can at most supply the phone layer. It cannot punch through CUDA and the cabinet. The Nemotron / NeMo / NIM product lines exist. There is no split revenue. The model player is not promoted to a second profit pool.
+Dependence must be split into **three** accounts. First is **using a stack**: chips, interconnect, compiler/runtime, and rack-level system. Second is the **long-duration compute bill**: a model company can trade multi-year commitments for priority capacity. Third is **asset ownership**: data centers, power, servers, and networks usually remain on cloud, infrastructure, utility, or financing-partner balance sheets. A sufficiently large model buyer can influence the second and third accounts without owning a fab, an HBM line, or a grid.
+
+Public next-generation cloud systems do not retreat to 5nm + commodity DDR5: Maia 200 uses TSMC N3 and 216 GB HBM3e; Ironwood 192 GB HBM3E; Trainium3 3nm and 144 GB HBM3e; MTIA generations from 300 onward use HBM stacks. Changing clouds can change chips, interconnect, compiler, runtime, and the invoice name, but it does not automatically remove HBM and advanced-system constraints. China's parallel stack is developing, but frontier training still requires advanced manufacturing, HBM/packaging, interconnect, and manageable software-migration cost to close together.
 
 ## 2. What the draft can keep, and what is already written elsewhere
 
@@ -46,21 +48,39 @@ The draft wrote DeepSeek-V3 pretrain as 2048 H800s, 2.788 million GPU-hours, $5.
 
 H800 itself shows that dependence has a license dimension. Export control writes which card you can rent as a border. An algorithm edge can partly hedge interconnect and memory specs. It cannot assume every lab can copy the supply condition of 2048 cards and 2.788 million GPU-hours. If a domestic shop reproduces on Ascend, the draft comparison is interconnect at 392 GB/s versus 1.8 TB/s, and CXMT's prospectus with 0 mentions of HBM. The layer is wrong. Not the same river. The China stack catches people who cannot buy NVIDIA. It does not tear global labs off CUDA. UXL / oneAPI is an embryo. It has not dug through. Cheapness does not fill the CUDA tax. A 71.1% to 75.0% pad means it can also cut price.
 
-### 3.5 Three commercial contracts; no amount for any one firm
+### 3.5 Commercial relations have moved from "rent cloud" to long-duration capacity commitments and infrastructure co-build
 
-Analysis added here. No transaction amount that did not appear in the draft. OpenAI and Anthropic sit in the title. The body has no contract, no GPU count, no reservation, and no split rate. Do not invent them. Valuation, losses, and API volume stay empty too.
+By 2026, primary public material is sufficient to retire the old "contract amounts are blank" framing.
 
-First, exclusive cloud bind: a model firm trades equity or an exclusive interface for cabinet priority. The gain is power to start work. The cost is distribution, pricing, and chip choice locked to one cloud's depreciation table. Mixed-year group capex of $211.9B to $213.9B, and the 2025 mixed year of about $354.0B to $356.5B, still have to be paid by someone. The bound customer is the first payer. Microsoft Intelligent Cloud at $106.265B shows the buyer is large enough to keep a model lab and an in-house chip at once. That is not a disclosure of how many cards it gave which lab. Second, multi-cloud hedge: the same model mirrors inference on two or more clouds; training may still sit on one fabric. What is hedged is power-on risk and commercial terms. What is not hedged is the physical gap between a high-bandwidth fabric and ordinary Ethernet, or the fact that all four write HBM. Third, self-build or a domestic cluster: the DeepSeek path trades fewer GPU-hours for a releasable model. Self-build moves depreciation from the cloud's book to the model firm's own book. It does not erase four-year hardware depreciation, and it does not erase the HBM queue. Prepayments already stand at $119.0B. Anyone else who wants the same material pays more, or does not get it.
+**OpenAI / Stargate.** OpenAI announced Stargate in 2025 with a target of investing up to $500B in U.S. AI infrastructure over four years. Initial equity participants included SoftBank, OpenAI, Oracle, and MGX; OpenAI is responsible for operations and SoftBank for financial responsibility. In July 2025, OpenAI and Oracle announced another 4.5 GW of Stargate data-center capacity, taking capacity under development above 5 GW with Abilene, and said the platform would run more than two million chips. Stargate spans multiple infrastructure partners; Microsoft continues to provide cloud services.
 
-Q4 FY25 CSPs were about 50% of that quarter's data-center revenue; that quarter's data center was $35,580M. Model firms can also take sovereign, enterprise self-build, and OEM paths. Do not write that the only road is the four clouds. On any of those roads the athlete still collects and the referee is still there. Seller revenue is not buyer capex: FY26 data center $193.737B is not "the four clouds paid NVIDIA the $211.9B," and it cannot be knocked against mixed-year group spend.
+**Anthropic / AWS.** In April 2026, Anthropic announced an expanded Amazon relationship: a commitment to spend **more than $100B over ten years** on AWS technology and reserve up to **5 GW** of new capacity. Anthropic said it was already using **more than one million Trainium2 chips** to train and serve Claude and expected close to 1 GW of Trainium2/Trainium3 capacity online by the end of 2026.
+
+These facts change the bargaining model:
+
+```
+model demand scale
+→ long-duration compute commitment
+→ financing certainty for cloud / infrastructure
+→ new data-center, power, and chip scheduling
+→ priority capacity for the model company
+→ larger training / inference
+→ larger long-duration commitment
+```
+
+A frontier model company can therefore become an **anchor tenant / anchor compute buyer**, and may help define the next system generation.
+
+Asset ownership still matters. Stargate does not mean OpenAI owns every site, power plant, server, and fab; Anthropic's 5 GW is not 5 GW of already-energized self-owned capacity. Model firms gain long-duration capacity, operational influence, and priority; irreversible capital and manufacturing remain distributed across clouds, data centers, utilities, chipmakers, and financing partners.
+
+The dependence is now two-way: infrastructure platforms need high-value model demand; model companies need executable power, racks, HBM, advanced packaging, and system software. Bargaining power depends on substitutability, who carries irreversible capital, who controls next-generation scarce resources, and whether the model company can move its demand to another platform.
 
 ### 3.6 CUDA tax and the compiler stack: model firms flee a brand; they do not flee the IR
 
 Analysis added here. The draft wrote software and brand premium at 40% to 45% of the cabinet. That is an estimate, not a segment filing. Compute & Networking $116,193M is the adjacent FY25 segment. It is not an audit match for a "software tax of 40% to 45%." The mechanism that can be written: a model firm's training framework, inference engine, and op library default to one compiler stack. Each cloud ASIC has its own stack: Neuron, TPU software, Maia software, MTIA. Changing stacks is a switching tax, not zero cost. The judgment writes binding software into one stack as one of the interrupt conditions. The embryo is an open interface in the class of a unified acceleration library. It is not done. A model firm that wants NVIDIA cabinets and all four ASICs at once has to keep four compile-and-debug trees. Small and mid-size labs cannot. They keep paying rent to the platform that owns a mature stack. That is the CUDA tax in the wide sense: it need not be paid to NVIDIA, but it is paid to whoever can compile the model onto high-bandwidth memory.
 
-Domestic CANN cutting open-source-model migration rewrites to under 5% is a draft number. That is migration cost, not ecosystem rent. 5% proves "it can run." Pricing power after it runs sits in the draft's 40% to 45% band. This volume does not promote that band to verified. The China stack reaches the phone layer at most. PCs and training cabinets do not resolve. The layer is wrong. A model firm cannot expect "swap in a domestic compiler" to leave the scarce slice. Three layers are not one layer: phones are leading-edge logic plus LPDDR plus consumer bits; PCs are x86, Windows, and discrete GPUs; AI is the cabinet, HBM, CoWoS, NVLink, and CUDA. At home, China can at most supply the phone layer in parallel. A break only happens on the AI layer. However large the China phone market, it is not that layer.
+China can already provide parallel supply in smartphones and parts of consumer computing, while frontier training still requires advanced logic, HBM/advanced packaging, high-speed interconnect, and mature software to close simultaneously at scale. Replacing one compiler or one domestic chip is therefore not equivalent to replacing the full frontier system stack. UXL and oneAPI demonstrate that real open cross-architecture migration paths exist; public evidence does not yet show that frontier workloads can move across CUDA, TPU, Neuron, MTIA, and domestic stacks at negligible migration cost.
 
-Nemotron / NeMo / NIM exist. That is a power extension: others train on its stack; it sells adjacent model services. There is no split revenue. Do not write "models have become a second profit pool." Conflict with independent labs is structure: the referee writes what can run; the athlete sells the cabinet needed to run it; the model player then ships competing weights on the same stack. All three can be true at once. The revenue bulk is still on cabinets. FY26 data center $193.737B is the rent the world paid. The application layer is squeezed. The back end collects rent.
+FY26 NVIDIA Data Center revenue of $193.737B is one of the largest single seller-side proxies for AI-infrastructure monetary flow and value capture. It is not equal to all global compute rent. The application layer can face lower prices while the backend still captures substantial value.
 
 ### 3.7 Samsung's long and Tesla: irrelevant to this volume, and it must be written clear
 
