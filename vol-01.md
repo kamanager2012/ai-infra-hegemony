@@ -16,13 +16,15 @@ NVIDIA 当前最重要的变化，是销售单元已经从单卡上移至 rack-s
 
 NVIDIA FY26（截至 2026-01-25）官方数据如下：
 
-- Revenue：**$215.938B**
-- Data Center revenue：**$193.737B**
-- GAAP gross margin：**71.1%**
-- Operating income：**$130.387B**
-- Net income：**$120.067B**
-- Free cash flow：**$96.575B**
-- R&D：**$18.497B**
+| 指标 | FY26 |
+|---|---:|
+| Revenue | **$215.938B** |
+| Data Center revenue | **$193.737B** |
+| GAAP gross margin | **71.1%** |
+| Operating income | **$130.387B** |
+| Net income | **$120.067B** |
+| Free cash flow | **$96.575B** |
+| R&D | **$18.497B** |
 
 主要来源：
 - SEC CFO commentary: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm
@@ -31,13 +33,15 @@ NVIDIA FY26（截至 2026-01-25）官方数据如下：
 
 FY27 Q2（截至 2026-07-26）进一步显示平台盈利能力仍处于高位：
 
-- Revenue：**$96.221B**
-- Data Center revenue：**$89.0B**
-- GAAP gross margin：**75.0%**
-- GAAP operating income：**$63.734B**
-- Net income：**$59.688B**
-- Vera Rubin：**full production**
-- FY27 Q3 revenue guidance：**$108.0B ±2%**
+| 指标 | FY27 Q2 |
+|---|---:|
+| Revenue | **$96.221B** |
+| Data Center revenue | **$89.0B** |
+| GAAP gross margin | **75.0%** |
+| GAAP operating income | **$63.734B** |
+| Net income | **$59.688B** |
+| Vera Rubin | **full production** |
+| FY27 Q3 revenue guidance | **$108.0B ±2%** |
 
 FY26 的 H20 相关减值并未改变当前平台利润结构。到 FY27 Q2，GAAP gross margin 已回到 75.0%。
 
@@ -49,17 +53,19 @@ FY26 的 H20 相关减值并未改变当前平台利润结构。到 FY27 Q2，GA
 
 TSMC 2025 年公开数据包括：
 
-- 12-inch equivalent wafer shipments：约 **15.0M**
-- 年产能：超过 **17M**
-- 3 nm：晶圆收入 **24%**
-- 5 nm：**36%**
-- 7 nm：**14%**
-- ≤7 nm：**74%**
-- HPC platform：**58%**，同比 +48%
-- Smartphone：**29%**
-- Largest customer：年度营收 **19%**
-- Second-largest customer：**17%**
-- Advanced packaging + testing：2024 年约 **8%**，2025 年略高于 **10%**
+| 指标 | 2025 |
+|---|---:|
+| 12-inch equivalent wafer shipments | 约 **15.0M** |
+| 年产能 | 超过 **17M** |
+| 3 nm wafer revenue share | **24%** |
+| 5 nm wafer revenue share | **36%** |
+| 7 nm wafer revenue share | **14%** |
+| ≤7 nm wafer revenue share | **74%** |
+| HPC platform share | **58%**，同比 +48% |
+| Smartphone platform share | **29%** |
+| Largest customer revenue share | **19%** |
+| Second-largest customer revenue share | **17%** |
+| Advanced packaging + testing | 2024 年约 **8%**；2025 年略高于 **10%** |
 
 TSMC 管理层关于先进封装的公开表述，是判断供给约束的重要一手依据。2024 Q4，魏哲家称相关产能“very tight”，并表示无法满足全部客户需求；2026 Q2，又明确指出 packaging capacity 已经紧到限制客户增长。
 
@@ -174,10 +180,12 @@ CXMT 招股材料没有披露 HBM 产品线。这只能解释为“该文件未�
 
 Intel 1999 年主要财务数据：
 
-- Revenue：**$29.389B**
-- Gross margin：约 **59.7%**
-- Operating income：**$9.767B**
-- Net income：**$7.314B**
+| 指标 | 1999 |
+|---|---:|
+| Revenue | **$29.389B** |
+| Gross margin | 约 **59.7%** |
+| Operating income | **$9.767B** |
+| Net income | **$7.314B** |
 
 Intel 当时的优势主要集中在 CPU、x86 软件兼容和自有制造。
 
