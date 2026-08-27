@@ -61,7 +61,7 @@ AI infrastructure 的资本风险来自：
 
 真正需要观察的是：
 
-[
+```text
 Economic Return
 =
 Revenue from deployed compute
@@ -73,7 +73,7 @@ Power
 Operations
 -
 Financing
-]
+```
 
 如果 deployed compute 利用率不足，资本压力会先反映在：
 
