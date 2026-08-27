@@ -104,11 +104,11 @@ Google 与 Kairos 的开发协议目标合计最高约 **500 MW**。
 
 因此，AI resource competition 正在从：
 
-wafer / HBM / packaging
+> wafer / HBM / packaging
 
 扩展到：
 
-**powered site / grid / firm MW**。
+> **powered site / grid / firm MW**。
 
 ## 7. 电力如何打断 semiconductor expansion
 
