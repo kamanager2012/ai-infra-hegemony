@@ -1,188 +1,210 @@
-# Volume 13: The AI Energy War — From 120 kW Racks to GW-Scale Power Constraints
+# Volume 13: The AI Energy War — From 120 kW Racks to GW-Scale Power Commitments
 
-Chinese original: [vol-13.md](vol-13.en.md)
+Chinese source edition: [vol-13.md](../vol-13.md)
 
-## 1. Core question
+> Retrieval and revision cutoff: **2026-08-27**. This volume separates announced, contracted, permitted, energized, and utilized power. The size of a PPA is not the same thing as live AI load.
 
-Power is an independent physical constraint on AI infrastructure. The relevant question is not whether “the cloud has gone nuclear,” but whether delivered compute can be converted into **energized, cooled, utilized capacity** on a timetable compatible with short hardware generations and long infrastructure lives.
+## 1. Why power is becoming an infrastructure quota rather than only an operating cost
 
-This volume tracks four states separately:
+Once AI rack power density reaches roughly **120 kW per rack**, data-center construction changes qualitatively.
 
-```text
-announced capacity
-→ contracted capacity
-→ permitted / interconnected capacity
-→ energized load
-→ utilized load
-```
+About 500 racks at 120 kW represent approximately **60 MW of IT load** before the rest of the facility is counted.
 
-A signed PPA is not a powered rack. A grid queue is not available load. A 120 kW rack makes local power density, cooling, main transformers, and interconnection first-order design constraints.
-## 2. Current evidence boundary
+AI-infrastructure delivery therefore depends not only on:
 
-First-party and formal project anchors include:
+- GPUs;
+- HBM;
+- advanced packaging;
 
-- NVIDIA GB200/GB300-class NVL72 rack power at roughly **120 kW**.
-- Microsoft / Constellation: **20-year PPA**, roughly **835 MW**, restart target around **2028**.
-- Talen / AWS: replacement PPA up to **1.92 GW**; front-of-the-meter conversion completed in **April 2026**; actual ramp and utilization remain the live variables.
-- Google / Kairos: development target up to **500 MW**, with first commercial projects targeted around **2030**.
+but also on:
 
-Historical claims such as a single **2,600 GW** U.S. queue total, universal 5–7 year interconnection time, 500-rack annual energy totals, copper-cable savings, cooling BOM percentages, or nuclear-operator gross margins are not used as current first-party facts unless separately sourced.
+- grid connection;
+- substations;
+- transformers;
+- transmission;
+- cooling;
+- firm power;
+- permits.
 
-The core analytical distinction is therefore physical status and timing—not nominal MW alone.
-## 3. Mechanism: rack density, interconnection, and power-contract duration
+Power is becoming a core scarce layer in the AI infrastructure system.
 
-### 3.1 Rack density turns power and cooling into deployment conditions
+## 2. Contracted MW is not energized load
 
-Power density rose by an order of magnitude. Air-cooling heat-exchange area and hall return air fail first. Microchannel cold plates sit on the GPU and the switch die and dump heat into the CDU and the water loop. Leak tests, water quality, and pump redundancy become a go-live gate the way a unified compute architecture is a go-live gate. earlier stress-test material's per-cabinet liquid-cooling dollar amount is small. Whether it can be built at scale decides whether the cabinet can run at 120 kW. The heat island also spills into the city: a 60-to-80 MW point load changes the environmental permit on the substation main transformer and the cooling tower. The way the energy war enters the municipal layer is the point load, not the national share of kilowatt-hours.
+Power analysis has to distinguish at least five states:
 
-120 kW is not "a few more air conditioners." Air conditioners handle hall air. Direct liquid cooling handles surface heat flux on the die. A 5-to-10 kW air-cooled cabinet can plug into an ordinary campus. A 120 kW-class cabinet is hard to "plug first and ask later" on an ordinary campus. Density itself screens the business model. Campuses that can take this density already tend to come with power, water, and permits. The system platform sells a turnkey cabinet and defaults the customer to a floor that can take power. Without that floor, the turnkey stops in the warehouse.
+1. announced capacity;
+2. contracted capacity;
+3. permitted capacity;
+4. energized capacity;
+5. utilized load.
 
-This volume does not estimate how many cabinets 835 MW can feed, so a division is not written as fact. It keeps only earlier stress-test material's 500-cabinet, 60-to-80 MW pair, marked as an engineering conversion, unchecked. The household comparison (60,000 homes, 600 million kWh) is only a magnitude for non-technical readers. Residential load is dispersed and low-coincidence. Compute load is a high-coincidence block. Dividing users by megawatts understates the local hit and overstates the national share. Keep earlier stress-test material comparison. In the gaps, downgrade it to a rhetorical magnitude.
+These states are not interchangeable.
 
-### 3.2 Grid queues measure process, not deliverable AI load
+A 1 GW PPA cannot be restated as “1 GW of AI compute already online.”
 
-2,600 GW is queue capacity, not capacity under construction. earlier stress-test material gives no composition. Duplicate filings, speculative holds, and repeated interconnection-point edits are common diseases of a grid queue. earlier stress-test material has no cleaned effective capacity. What actually binds compute is the transformer, short-circuit capacity, and transmission corridor at a local node, plus the 5-to-7-year calendar. Even if national generation capacity is ample, a campus that wants to light 60 to 80 MW inside 18 months can still fail at the substation. The energy war's battlefield is the node, not the country-level installed-capacity table.
+Likewise, planned data-center power cannot be mechanically converted into active GPU counts.
 
-5–7 years versus 12–18 months is a clock mismatch. Under ordinary utility process, the hall is built first and then waits for power. The rational responses are three: buy a finished campus that can take power at once; sign a long with an operating nuclear unit and fund a restart; book future baseload as paper SMR capacity. The first two grab in-place baseload. The third bets a ten-year-scale new pile. Whoever first locks a megawatt block of the size earlier stress-test material named occupies a time window in the regional grid that others cannot copy. The window is time, not installed capacity.
+The relevant question is always: **how far has the project moved from contract to executable load?**
 
-Interconnection queues above 2,600 GW must not be read as "the United States is about to be short 2,600 GW of data-center power." The queue mixes wind, solar, storage, legacy generation, and load projects. Treating total queue gigawatts as potential compute is an order-of-magnitude error. What matters for AI is not total queue gigawatts. It is the thin slice of high-voltage spurs and main transformers that can actually deliver inside five years. This volume does not invent how large that slice is. With no cleaned number, it stops at the mechanism.
+## 3. Microsoft / Constellation: approximately 835 MW tied to a nuclear restart
 
-C.C. Wei in 2Q26 said packaging capacity already limits customers' growth. That is a foundry-side limit. If power also limits power-on, customers hit two walls at once: the wafers do not come out, and the cabinets do not light. The two walls need not arrive together. What can be confirmed now is the first. The second is still a mechanism, not a checked power-on failure rate.
+Microsoft and Constellation's long-term PPA is associated with the restart of an approximately **835 MW** nuclear unit.
 
-### 3.3 Nuclear arrangements sit on different delivery clocks
+The strategic significance is not that Microsoft already has 835 MW of live AI load.
 
-Training clusters want a high load factor and want twenty-four hours. A nuclear output curve fits better than wind and solar. A power-purchase agreement buys the power price and the carbon attribute together, and it also buys the political symbol. Restarting a shut unit takes a safety review, equipment replacement, and a rebuilt crew. A 20-year long is a demand anchor for those fixed costs. The SMR 500 MW is written in 2030 to 2035, the back half of this monograph's ten-year window. It cannot balance the 2026-to-2028 depreciation peak. Large nuclear-linked contracts show long-duration power reservation, but they do not establish that nuclear power has already become the dominant operating supply for AI data centers.
+It is that a hyperscaler is willing to use long-duration demand to support the return of an existing nuclear asset.
 
-The three contracts stand for three levels of technical maturity. Restarting an in-place pile is fastest and heaviest as a political symbol. Direct connection next to a pile is medium speed and tests the grid's rules for large-user direct supply. SMRs are slowest, an option on campuses after 2030. Writing the three contracts as "tech firms have already solved energy" treats an option as spot. What 2026 to 2028 can use is mainly the first two. In the front half, only operating or restartable blocks count. SMRs in the back half are options. The strategic value of powered sites and existing interconnection is primarily time-to-power. Where acquisition values are not supported by the current first-party source set, they remain outside the fact layer.
+The mechanism is:
 
-A nuclear restart and a new SMR are not on the same capex calendar either. Three Mile Island is "waking a unit that already existed." The main uncertainties are the license, the equipment, and local politics. Kairos is "waking a pile type that has not yet run commercially." The uncertainties are design certification, the supply chain, and first-of-a-kind demonstration risk. A 20-year power contract paired with short-lived compute hardware creates duration mismatch: valuable in a constrained-growth scenario and potentially burdensome in a hard landing. The investment-side "overweight nuclear and interconnection rights" must carry this fork. Otherwise overweight is a slogan. earlier stress-test material gave no power-price formula. This volume does not invent a price per megawatt-hour.
+> **large compute demand → long-duration offtake → financeable power asset → dedicated capacity path**
 
-On geopolitics, the U.S. East becomes earlier stress-test material's nuclear-and-compute coupling sample because of Three Mile Island and Susquehanna. Texas and California are named as queue battlefields, but earlier stress-test material gives no data-center load numbers for those two regions. Power paths in China, Europe, and the Middle East are not written in this volume's source. Three U.S. cases cannot be extrapolated into global nuclearization. A nuclear permit is a state capability, not a cloud-vendor capability. The United States still has restartable commercial piles and a relatively intact regulator. That is the premise on which the Three Mile Island story can appear. An economy that has only chip subsidies and no permit path will be absent from the back-half campus-power scenarios. This volume does not write those economies' megawatts.
+Actual delivery still depends on:
 
-### 3.4 Breaking the chain: cabinets sit in inventory; do prepayments still rise
+- regulatory approval;
+- restart schedule;
+- grid delivery;
+- commercial operation;
+- realized utilization.
 
-The engine of the acceleration is: demand rises, profit rises, more capacity and HBM are prepaid. For power to break it, "demand rises" must stop at shipment. Prepayments lock wafers and bits. After the wafers are packaged and the cabinets assembled, there still has to be a floor that can take 120 kW. That floor is not inside a TSMC fab and not inside a Hynix fab. The floor sits at the substation, the feeder, and the permit office.
+The contract therefore represents a power-supply strategy, not a completed data-center load measurement.
 
-Hypothesis from here, without rejecting the main line. Two forks.
+## 4. Talen / AWS: a long-duration arrangement expandable to 1.92 GW
 
-Scenario A: power remains a constraint but does not stop system expansion. Seller economics stay strong, supply commitments remain elevated, advanced packaging stays tight, and rack deployment continues. In this state, power is an important infrastructure cost and scheduling constraint, but semiconductor and system-stack scarcity remain equally important.
+The revised Talen/AWS PPA can expand to as much as **1.92 GW**.
 
-Fork B: power becomes the binding brake. Prepaid packaging and systems can become stranded or delayed if campuses cannot energize them. That can reduce utilization, delay take-up, and weaken the next round of commitments. A freed manufacturing slot is not automatically reassigned to a specific rival: the entire line can slow, another high-credit buyer can take it, or suppliers can rebalance across customers. Power therefore interrupts the resource loop through **utilization and order certainty**, not because TSMC has a duty to favor or avoid offending any one customer.
+Talen confirmed that the conversion to the revised **front-of-the-meter** structure was completed in **April 2026**.
 
-The present walk is Fork A. There is no checked interconnection effective capacity, no checked power-on failure rate, and no checked take-up cancelled because of power. Fork B is a mechanism, not a sentence that can be written as fact in August 2026. This volume leaves Fork B as a falsifiable interrupt. It does not announce a win early.
+The relevant monitoring question has therefore changed.
 
-Microsoft's hundred billion of net income is used on halls. NVIDIA's hundred billion of free cash is used to reproduce the scarce slice. The two sums do not sit on one "who is richer" table. If power stops the buildout, Microsoft's hundred billion becomes cement waiting for power, and NVIDIA's hundred billion becomes inventory waiting for power. Neither side can wait out a four-year depreciation, but the pain points differ. The cloud's pain is construction-in-progress and power longs. The system platform's pain is revenue recognition and whether the next prepayment still rises. The foundry's pain is a slot window. The three pains added together are the cash-flow meaning of "power stops the buildout."
+It is no longer whether the conversion will occur. It is:
 
-### 3.5 Power is not a platform layer and does not change the three layers
+- how the contract ramps;
+- how many megawatts become energized;
+- how much data-center load actually appears;
+- how highly that capacity is utilized.
 
-Power is not a platform-control layer. Utilities, nuclear operators, and grid owners supply an independent physical constraint: executable MW. They do not define CUDA, NVLink, rack architecture, or the accelerator roadmap. A PPA can improve deliverability of a compute system, but it does not create an alternative compiler/runtime ecosystem. Power economics and system-platform economics therefore remain separate.
+This distinction is central to the report's power framework: legal structure can be complete while physical load is still ramping.
 
-Three layers are not one layer. The scarce objects on the phone layer are leading-edge logic and LPDDR. The scarce objects on the PC layer are x86, Windows, and discrete GPUs. The scarce objects on the AI layer are the cabinet, HBM, packaging, high-speed interconnect, and a unified compute architecture. Power binds power-on on the third layer. If power does not stop the buildout, the first and second layers still pay a memory tax, because makers still have a motive to convert to HBM. If power does stop the buildout, third-layer cabinets do not sell; the residual-capacity pressure on the first and second layers does not vanish on its own. It only draws one fewer slice of new cabinets. The earlier evidence review already noted: if power stops the buildout first, the first wave's tax does not vanish, but the system platform's cabinets do not sell and expansion on the 75% side stops. That is "the people who can wait suddenly cannot wait." It has not yet become the sole dominant constraint yet.
+## 5. Google / Kairos: up to 500 MW on the SMR path
 
-The China market cannot save global cabinets and cannot save global power. China's parallel supply is stronger in smartphones and parts of consumer computing, while frontier AI still depends on advanced logic, HBM-class memory, packaging, interconnect, software maturity, and deployment scale. Eastern capacity is a parallel bid. It does not by itself determine packaging or leading-edge allocation for North American hyperscalers, nor does it solve their local interconnection constraints. This volume does not write China grid numbers. The structure can be written: if the East is to stand up a second bid, it must buy material on the same layer, and it must have power on the same layer. Without power, a parallel bid is also a warehouse.
+Google and Kairos have a development agreement targeting up to approximately **500 MW** in aggregate.
 
-### 3.6 The depreciation clock, the permit clock, and the chip clock
+This path differs fundamentally from restarting an existing nuclear plant.
 
-earlier stress-test material wrote four-year server depreciation and fifteen-year data-center civil depreciation as hard accounting constraints. The permit clock is 5–7 years. The chip clock is packaging moving from tight to limiting customers' growth, already happened. The three clocks do not line up. A finance clock shorter than the permit clock is the most dangerous accounting mismatch: the asset-life finance clock finishes a lap while the power permit is still in the queue. Whoever first shortens the permit clock (restarting an in-place pile, building next to a pile, buying a campus that already has power) privatizes the third quota. The public narrative for shortening the permit clock is still only those three, and the megawatts were not checked against originals.
+SMRs are a longer-duration supply option with:
 
-Four-cloud mixed-year equipment purchases of about $211.9B to $213.9B are group-wide, not an AI-hardware line item. How much of that money became cement waiting for power: this volume has no split. Part II writes 2026 power and civil works at about $207.5B, a forecast, unverified. The same civil dollar, spent on a campus with no permit, books as cement; spent on executable megawatts, books as the third quota. Spend it in the wrong place and the sign flips. This volume does not invent how many megawatts are executable.
+- development risk;
+- regulatory risk;
+- first-of-a-kind execution risk;
+- a later delivery clock.
 
-The light assets sit on NVIDIA's books. FY26 purchases of property and equipment plus intangibles $6,042M, which does not match a wafer fab. The heavy assets sit at TSMC and Hynix. Clouds buy scarcity into depreciation. Power's heavy assets sit at the plant, the main transformer, and the corridor. Three sets of heavy assets are not on one balance sheet. The clocks still have to stack on one delivery chain. If they do not stack, delivery stops. That is the physical reason power can break prepayments. A reason that holds is not an interrupt that has already happened.
+Their strategic value is closer to:
 
-### 3.7 Liquid cooling is the in-cabinet energy chain; the battlefield is still the node
+- a future option;
+- a long-duration capacity hedge;
+- an industrial-learning path.
 
-Once CDUs, cold plates, quick couplings, and leak detection become standard on a 120 kW cabinet, suppliers move from server parts to the data center's second power-electronics layer. earlier stress-test material's $40,000 to $55,000 per-cabinet direct liquid cooling is hardware only. It excludes hall water-loop retrofit, water rights, and discharge permits. The investment side lists liquid-cooling CDUs next to nuclear and interconnection rights for this reason: they are all permit conditions that turn 120 kW from a design value into a running value. This volume does not estimate the liquid-cooling market.
+SMR capacity should therefore not be used to “solve” 2026–2028 rack-deployment pressure on paper.
 
-A cabinet that cannot take power is inventory, however high the high-speed interconnect. Two engineering responses then appear. One moves training onto campuses that already have a power-purchase agreement and accepts geographic concentration. One splits inference onto weak-power nodes or the edge and accepts a performance ceiling. The first hardens joint rent between the oligopoly and counterparties who can lock baseload. The second feeds ammunition to an algorithm or edge interrupt. The 120 kW cabinet itself leans toward the first, because this density is hard to plug first and ask later on an ordinary campus. So the energy war is not an appendix to the chip war. It screens which business models are physically feasible. Screening in progress is not nuclearization already finished.
+## 6. Why power creates a new form of resource lock-in
 
-Cross-region comparison must stop in this volume. China's west-to-east transmission, Middle East gas generation, and Nordic hydro can all rewrite local compute siting, but the source Volume 13 gives no non-U.S. numbers. Filling those numbers in would be a violation. A reader who wants a global energy map should go outside Volume 35's task and find original grid files, not look in this volume for "overseas megawatts already checked for you."
+Semiconductor scarcity is tied to technology generations.
 
-## 4. Added analysis
+Power scarcity is tied to geography, permitting, and executable infrastructure.
 
-Power extrapolations are unverified.
+When a hyperscaler secures:
 
-### 4.1 Scenarios: power wins, power does not win, power arrives late, power is routed around by algorithms
+- powered land;
+- grid interconnection;
+- firm generation;
+- substation capacity;
 
-Scenario A extension: if powered sites near firm generation become scarce, executable interconnection itself can acquire a scarcity premium. That can reinforce infrastructure concentration without changing the software or compute architecture.
+those assets are difficult for a competitor to reproduce quickly in the same location.
 
-Scenario B: power stops the buildout. Already-prepaid cabinets sit in inventory. Supply commitments stop rising, or they only reschedule instead of locking new capacity. A packaging window opens. The next round of HPC allocation weakens as utilization and order certainty fall. That is the judgment's third interrupt winning. There is no checked evidence that has walked here. To win, at least one of power-on failure, delayed take-up, or commitments stopping their add must be visible, public, and recheckable.
+AI resource competition is therefore expanding from:
 
-Scenario C: SMRs slip. The 500 MW 2030-to-2035 node moves right. The 2026-to-2028 power gap can only be met with gas peakers or delayed cabinet power-on. Capex becomes construction-in-progress. Back-half megawatts cannot hedge front-half depreciation. The clock error itself takes the "nuclearization" narrative apart: in the front half, only operating or restartable blocks count.
+> **wafer / HBM / packaging**
 
-Scenario D: algorithms and liquid cooling push power intensity down. Architectures of the low-rank-attention class cut wasted memory movement. PUE improves. A 120 kW-class cabinet still wants a dedicated spur. Lower intensity is not a vanished queue. If cloud ASICs only shunt inference, the training cabinet's point load is still there. Public next-gen parts have not retreated to 5nm plus commodity DDR5. To beat today's cabinet you return to 3nm, HBM, and advanced packaging, and you bid against 75% gross margin. Only a real retreat that uses less packaging dodges the scarce slice and also dodges part of the point load. Public next-gen parts have not stopped. So D is not done either.
+to:
 
-Scenario E: local opposition and power-price politics. Residential rates are blamed for subsidizing data centers. Power-purchase agreements are reopened or capped. The nuclearization narrative stalls. This is a municipal-layer interrupt. It is not the same as a national shortage. A node failure is enough to leave one campus's cabinets at the gate.
+> **powered site / grid / firm MW**.
 
-None of the shared interrupt variables is done. Power's three ways of winning (B; the front-half gap inside C; the node veto inside E) are not done either. A is a strengthening, not an interrupt. The main road is still the judgment's sentence: if they are not done, the line walks past half of the scarce slice. The window is the few years before the next first-to-market node is locked by commitments. For power to act inside the window, commitments must stop rising. A slide of SMRs ten years out is not that.
+This is a distinct form of capacity reservation with a different time constant.
 
-### 4.2 Counters
+## 7. How power can interrupt semiconductor expansion
 
-Counter 1: power is only a cost, not a strategy. 600 million kWh is a small head against a large state's use. Against a point load and local congestion it is not a small head. Strategy comes from the local, not from the national share. Writing ample national installed capacity as "power is not an interrupt" drops the node.
+If semiconductor supply continues to expand but data centers cannot be energized on schedule, the system can move through the following sequence:
 
-Counter 2: gas, and wind-and-solar plus storage, are faster. earlier stress-test material takes baseload and zero-carbon as a preference the clouds have already revealed. It does not rule out burning gas in a transition. This volume does not invent gas-fired megawatts. Transition gas can shorten the permit clock by a slice and can let "nuclearization" not have to win first. If burning gas really lights the cabinets, this interrupt has even more not won. There is no checked gas-substitution table.
+1. delivered hardware waits for deployment;
+2. utilization weakens;
+3. depreciation begins before matching revenue appears;
+4. next-generation orders are delayed;
+5. supply-commitment growth slows.
 
-Counter 3: $16B and $0.65B are one-off news, far smaller than mixed-year equipment purchases on the order of $200B, so energy is not yet the main field. The small dollar amount is exactly the point: in-place nuclear blocks that can be bought are few. Scarcity shows up in megawatts and time, not in the percentage of capex. Using a dollar share to deny strategy is the wrong ruler.
+This is a **Rolling Bottleneck Cascade**:
 
-Counter 4: replace megawatts with green certificates. A green certificate buys an attribute, not a feeder. An attribute does not fill a four-year depreciation. Write only an environmental target and not executable megawatts, and what you get is a certificate. A certificate does not light a 120 kW cabinet.
+**packaging bottleneck eases  
+→ power bottleneck rises  
+→ deployment rate slows  
+→ hardware-order growth slows**
 
-Counter 5: use 2,600 GW to prove power is ample, or use a 2036 campus plan of 2 to 5 GW to prove 2026 already has power. The first treats the queue as supply. The second treats an end-state table as spot. The 2036 four-dimension table does not enter the fact layer, not one cell. This volume does not cite that forecast grid to prove power is here or not here.
+The limiting constraint can therefore migrate over time.
 
-Counterargument 6: power may become the first dominant bottleneck. That remains a valid scenario, but current evidence does not justify treating it as an already-completed outcome. Without comparable energization-failure and utilization data, the report cannot infer that power has already halted the global buildout.
+More chips do not guarantee more usable compute if power-on becomes the next gate.
 
-### 4.3 Falsifiable indicators
+## 8. National electricity supply is not the same as locally usable AI power
 
-What is falsifiable and now empty matters more than a mechanism that can be narrated.
+The binding constraint for an AI data center is often a local node rather than a national energy total.
 
-Whether Three Mile Island Unit 1 restarts on the 20-year long and sends earlier stress-test material's 835 MW. Whether Cumulus direct supply approaches earlier stress-test material's 960 MW. Whether the 7 Kairos units interconnect in earlier stress-test material's 2030-to-2035 window. All three must be judged on regulatory or company files, not on news headlines.
+A country can have ample installed generation and still be unable to deliver 100 MW to a specific campus within 18 months.
 
-Whether PJM, Texas, and California public queues still write above 2,600 GW, and whether a cleaned effective capacity exists. With no cleaned number, 2,600 GW still does not enter the fact layer.
+The critical variables are local:
 
-Whether newly announced data-center IT loads commonly enter above 60 MW. Whether liquid-cooled cabinets run at the 120 kW design instead of derating. Derated operation means the density narrative loses first, and the power interrupt weakens by a slice, because the point load never reached earlier stress-test material's block.
+- transformer capacity;
+- transmission corridors;
+- interconnection queues;
+- permits;
+- construction;
+- firm generation.
 
-Whether supply commitments keep rising next quarter. They were already $119.0B at the end of Q1 FY27. If they stop rising or are rescheduled at scale because of power, this interrupt has its first cash-flow evidence. It does not now.
+AI power constraints are therefore primarily **node and time problems**, not simple national installed-capacity problems.
 
-On packaging: whether C.C. Wei still says it limits customers' growth, and whether the reason customers' growth is limited has moved from wafers to power. Official text does not split that. The report does not infer it.
+## 9. Power contracts and hardware depreciation run on different clocks
 
-system platform revenue: whether data-center revenue is still recognized on the cabinet, or whether inventory language of "shipped, not powered" appears. The 10-K does not have that sentence. The report does not infer it.
+AI servers can turn over rapidly over a period of several years.
 
-Power price, PUE, and the household conversion stay with earlier stress-test material. The report does not infer new ones. In the stress test, power at $0.08 per kWh and PUE 1.2 are assumptions, unverified.
+Large power infrastructure can last **10–20 years or longer**.
 
-### 4.4 Interfaces with packaging, memory, cloud ASICs, and antitrust
+That creates a duration mismatch:
 
-Packaging tightness is a supply-coordination layer-side limit that has already happened. Power is a power-on-side limit not yet checked. Do not add the two into "a double lock already finished." The add is publicity. Split by state is the map: wafer tightness is a checked direction; power tightness is a mechanism.
+> **shorter-lived compute assets vs. longer-lived power and infrastructure obligations**
 
-Memory multiplies by cabinet. If cabinets cannot ship, the HBM draw slows. The residual-capacity pressure does not vanish at once, because maker conversion lags and longs are still on. A power win will not suddenly make phones and PCs cheap. If power has not yet become the sole dominant constraint, the residual model keeps multiplying by the 10,000 / 30,000 / 50,000-cabinet hypotheses.
+Under sustained demand growth, long-duration power access can be a moat.
 
-Cloud ASICs taking training off the cabinet is another of the five. Public next-gen specs are in [Volume 4](vol-04.en.md): no retreat to 5nm plus commodity DDR5. Those chips also have to take power. If cloud ASICs win, the training load may change cabinets. The point load does not necessarily vanish. Power and cloud ASICs are not interchangeable interrupts. They are two independent forks. Neither is done.
+Under S4 Capital Hard Landing, the same asset can become a long-duration liability.
 
-Antitrust hits contracts; see [Volume 11](vol-11.en.md). Power hits a physical permit, not a competition-law permit. Do not mix the two permits. The competition-law permit governs whether you can sell. The grid permit governs whether you can light. The permit that governs lighting has no public evidence yet of having stuck the selling.
+The value of a power contract therefore depends on utilization over time, not only on the nominal number of megawatts reserved.
 
-Power is an independent physical constraint, not a substitute for software portability, supply diversification, or a second resource buyer. Even a well-diversified system stack still needs an executable powered site; conversely, abundant power does not solve HBM, packaging, or software lock-in.
+## 10. Current judgment
 
-Power changes the location of the bottleneck. If semiconductor supply remains the short side, value capture stays concentrated in systems, HBM, packaging, and related scarce layers. If power and interconnection become the short side, more capital can be trapped in underutilized buildings, racks, and long-duration infrastructure. The two mechanisms can coexist and should be tracked separately.
+As of **August 2026**:
 
-### 4.5 The key window is the interaction between reservation growth and executable power
+- power is already a core AI-infrastructure constraint;
+- large hyperscalers are using long-duration contracts to reserve future MW;
+- contracted capacity is much larger than the AI load that can be confirmed as energized and utilized;
+- nuclear restarts, front-of-the-meter PPAs, and SMR development sit on different maturity clocks;
+- the evidence is not yet sufficient to conclude that power has already stopped AI expansion.
 
-The relevant window lies between next-generation capacity reservation and the date at which that capacity must become utilized compute. NVIDIA's FY26 filing discloses prepaid manufacturing and capacity agreements for current and future products but does not provide a 2 nm first-silicon dollar allocation. At FY27 Q1, supply-related commitments had risen by **$23.8B** in three months, showing that reservation activity remained strong. Power becomes a stronger system constraint if deployment delays begin to reduce utilization, delay take-up, or cause future commitments to be rescheduled.
+The most important forward indicators are:
 
-A local interconnection failure is not the same as a system-wide stop in AI deployment. Hyperscalers can redirect equipment across powered campuses. Power becomes a macro constraint only when shortages are broad enough to delay utilization across multiple projects or materially change order and commitment behavior. Individual PPAs, restart projects, and substations therefore provide evidence of scarcity and hedging—not proof that the global buildout has already stopped.
+- energized MW;
+- time to power;
+- rack utilization;
+- power-related deployment delays;
+- next-round hardware commitments.
 
-A 19% historical customer-revenue share is not a forward allocation guarantee. Power does not directly determine customer allocation, but it can weaken utilization and therefore future order certainty. What power can change is: if the increment will not light, the slot goes empty. If utilization weakens, suppliers can rebalance future capacity across customers, products, or total build plans; no deterministic customer rule is assumed. NVIDIA's strong free cash flow, operating income, and gross margin show that seller-side reservation capacity remained high. A power bottleneck would become economically decisive only if it materially weakens utilization, future orders, or the willingness to continue making long-duration supply commitments.
+The energy contest is not about who announces the largest GW number.
 
-Hypothesis from here. While the margin holds, commitments keep rising. Competing buyers can face higher prices, longer lead times, or smaller allocations while packaging remains tight and long-duration demand stays strong. Cabinets keep shipping. Memory multiplies by cabinet. Non-AI industries receive the residual after higher-priority demand is allocated. Power keeps existing as a node permit and keeps forcing clouds to sign longs, buy campuses that already have power, and book piles that have not yet run commercially. Those moves change who lights first, not who first stops being the system platform. Powered capacity affects which projects can monetize compute first. Compute-system revenue and power-provider revenue remain different value-capture layers and must not be combined into a single “energy replaced chips” narrative.
+It is about:
 
-Intel's 1999 economics provide a historical comparison, but today's system-level competition spans more than processor share. A durable alternative must address compute, interconnect, software/runtime portability, HBM/packaging access, and executable power. A power bottleneck can slow deployment and extend the competitive window, but it does not by itself create a substitute system stack.
-
-This volume leaves that sentence to Volume 10 and Volume 15 as a switch: power stopping the buildout is one of the switches, and it is now thrown off. Throwing it on requires a falsifiable power-on failure and a halt to commitment adds. Until then, Volume 13 stops here.
-
-## 5. Gaps and what cannot be treated as fact
-
-2,600 GW is not split into generation, storage, data centers, or duplicate positions. It does not enter the fact layer. 5–7 years and 12–18 months are ranges, with no project sample. 60 to 80 MW, 600 million kWh, and 60,000 households are engineering conversions. This volume did not recheck grid or statistical-agency originals. The Microsoft long "over $16B" appears only in a Part II figure note. Volume 13 did not write it and did not supply a contract text. Three Mile Island 835 MW, Susquehanna planned 960 MW, $0.65B, Kairos 7 units at 500 MW: historical stress-test claims. the current evidence review did not read power-purchase agreements or regulatory files. They do not enter the fact layer. SMR technical route, permitting, and financing are not opened. There are no China, Europe, or Middle East grid numbers. Nuclear-operator 60% to 75% gross margin is a boilerplate sentence, not a plant filing. Delete it. 2026 power infrastructure $207.5B is a forecast. Power at $0.08 and PUE 1.2 are assumptions. This volume read no power-purchase-agreement original and does not claim an audit.
-
-earlier stress-test material "four-cloud 2024 capex officially broke $215B of AI" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B. 2026 $670B to $750B cannot be added. 2036 campuses at 2 to 5 GW, four-scenario probabilities, and penalty-rate extrapolations: the whole table does not enter the fact layer.
-
-This volume does not estimate how many cabinets 835 MW feeds. It does not estimate the liquid-cooling market. It does not subtract the queue's total gigawatts into "enough once you remove data centers." It does not add the three contracts into "2.3 GW of compute power already exists." The add is publicity. Split by state is the map: signed restart, acquired adjacent build, forward-ordered pile. The three states cannot be added.
-
-The report does not treat power as a platform-control layer, does not treat nuclear projects as already delivered AI load, and does not infer a system-wide buildout stop from unverified energization-failure rates. National installed capacity and local executable MW must be analyzed separately.
-
-The heat-grid-nuclear set will, in reverse, change chip and software design goals. A cabinet that cannot take power is inventory, however high the bandwidth. This volume leaves that sentence in the mechanism layer. Interrupts that have been done: still zero. Cash that has been done: still supply commitments $119.0B, and FY26 data center $193.7B of rent. Power wins only if it stops those two. It has not yet become the sole dominant constraint yet.
+> **who can convert contracted capacity into sustained, highly utilized compute on an executable timetable.**
