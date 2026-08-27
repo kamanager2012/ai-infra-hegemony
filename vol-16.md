@@ -17,22 +17,22 @@ AI infrastructure 的量化分析最容易犯的错误，是把不同物理池�
 
 Roofline model 的基本关系：
 
-[
+```text
 Performance
 =
 minleft(
 Peak Compute,;
 Memory Bandwidth 	imes Arithmetic Intensity
 ight)
-]
+```
 
 临界算术强度：
 
-[
+```text
 I_{critical}
 =
 rac{Peak Compute}{Memory Bandwidth}
-]
+```
 
 当 workload 的 arithmetic intensity 低于临界值时，系统处于 memory-bound 区域。
 
@@ -69,9 +69,9 @@ DeepSeek-V3 报告给出完整训练约 **2.788M H800 GPU-hours**。
 
 如果按报告侧假设的 **$2/GPU-hour** 进行租金换算：
 
-[
-2.788M 	imes $2 approx $5.576M
-]
+```text
+2.788M 	imes $2 ≈ $5.576M
+```
 
 这不是企业完整现金成本。
 
@@ -99,13 +99,13 @@ GB200 NVL72 官方配置：
 
 因此：
 
-[
+```text
 HBM(R)=13.4 	ext{TB} 	imes R
-]
+```
 
-[
+```text
 LPDDR(R)=17 	ext{TB} 	imes R
-]
+```
 
 其中 (R) 是 rack 数。
 
@@ -122,11 +122,11 @@ LPDDR(R)=17 	ext{TB} 	imes R
 
 Micron FY24 Q3 prepared remarks：
 
-[
+```text
 HBM3E wafer supply
-approx
+≈
 3 	imes DDR5 wafer supply
-]
+```
 
 条件是：
 
@@ -143,13 +143,13 @@ approx
 
 其几何来源为：
 
-[
+```text
 72 	ext{packages}
-div
+÷
 13.4 	ext{packages/wafer}
-approx
+≈
 5.39 	ext{wafers/rack}
-]
+```
 
 其中 13.4 packages/wafer 是几何假设，不是 TSMC 官方 yield。
 
@@ -204,12 +204,12 @@ NVIDIA：
 
 报告引入：
 
-[
+```text
 AHICR
 =
 rac{	ext{某买方获得的新增先进 AI/HPC 资源}}
 {	ext{全行业新增先进 AI/HPC 资源}}
-]
+```
 
 这里的“资源”可以分别计算：
 
