@@ -35,7 +35,7 @@ A privileged position can be written: training has to pass their stack and their
 
 ### 3.2 Changing clouds changes the name on the invoice, not HBM
 
-The four official spec sets are already in [Volume 4](vol-04.md) and [Volume 24](vol-24.md). This volume keeps one sentence: whichever cloud a model firm binds, training and high-quality inference still land on HBM. Changing clouds changes the name on the invoice, not the memory type. The current evidence review did not read any cloud saying "retreat to 5nm + commodity DDR5 as the inference mainstay." The four sentences together are not "in-house silicon equals a model-firm breakout." They are "in-house silicon turns the scarce-slice buyer from one name into five." Five names bidding together does not automatically make price or lead time friendly to a lab.
+The four official spec sets are already in [Volume 4](vol-04.en.md) and [Volume 24](vol-24.en.md). This volume keeps one sentence: whichever cloud a model firm binds, training and high-quality inference still land on HBM. Changing clouds changes the name on the invoice, not the memory type. The current evidence review did not read any cloud saying "retreat to 5nm + commodity DDR5 as the inference mainstay." The four sentences together are not "in-house silicon equals a model-firm breakout." They are "in-house silicon turns the scarce-slice buyer from one name into five." Five names bidding together does not automatically make price or lead time friendly to a lab.
 
 ### 3.3 Inference escape has a boundary: MLA reduces rank; it does not cancel the memory wall
 
@@ -89,13 +89,13 @@ Samsung announced KRW 22.76T, about $16.544B, through 2033. The counterparty is 
 
 ### 3.8 How the two bills land on the bid
 
-The using-the-stack bill decides whether a model firm can start work, which IR it uses, and whether weights move across clouds without loss. The paying-the-invoice bill decides who advances depreciation and at what tariff it is passed to the lab. Four-cloud PPE proves halls are being built. See [Volume 1](vol-01.md) and the four-cloud scope check. Those lines do not prove a buyer can push seller gross margin down from 71.1% or the quarter's 75.0%. Prepayments, HPC 58%, first customer 19%: see the judgment. Matching Apple's phone share against a model firm's training cabinets is the wrong layer.
+The using-the-stack bill decides whether a model firm can start work, which IR it uses, and whether weights move across clouds without loss. The paying-the-invoice bill decides who advances depreciation and at what tariff it is passed to the lab. Four-cloud PPE proves halls are being built. See [Volume 1](vol-01.en.md) and the four-cloud scope check. Those lines do not prove a buyer can push seller gross margin down from 71.1% or the quarter's 75.0%. Prepayments, HPC 58%, first customer 19%: see the judgment. Matching Apple's phone share against a model firm's training cabinets is the wrong layer.
 
-A model firm that thinks switching to an ASIC cloud escapes the scarce slice still pays an HBM bill. Specs: [Volume 4](vol-04.md). Acting alone on exclusive deals means handing over each year's new lines and packaging. The major interrupt variables remain incomplete and should be monitored through the shared S1–S4 framework.
+A model firm that thinks switching to an ASIC cloud escapes the scarce slice still pays an HBM bill. Specs: [Volume 4](vol-04.en.md). Acting alone on exclusive deals means handing over each year's new lines and packaging. The major interrupt variables remain incomplete and should be monitored through the shared S1–S4 framework.
 
 ### 3.9 residual-capacity pressure also hits model firms on the inference side
 
-Even if a lab moves some inference onto ordinary servers, the added load is still residual. 51% and cabinet-times-spec: [Volume 5](vol-05.md). If a cloud moves inference at scale onto ASICs plus conventional DDR5: it stops bidding against NVIDIA for full HBM output, the only physical benefit of that path; but the added load is the slice already rising, bid by phones, PCs, and ordinary servers together. Not a dead end. A tax. Domestic memory does not automatically open a tax-free DDR5 river for model labs. See [Volume 12](vol-12.md). What model firms contest is not one wafer in full-factory shipments. It is the packaging and HBM slice. 5.39 and the wrong pool: `测算-投片与柜-20260826.md`.
+Even if a lab moves some inference onto ordinary servers, the added load is still residual. 51% and cabinet-times-spec: [Volume 5](vol-05.en.md). If a cloud moves inference at scale onto ASICs plus conventional DDR5: it stops bidding against NVIDIA for full HBM output, the only physical benefit of that path; but the added load is the slice already rising, bid by phones, PCs, and ordinary servers together. Not a dead end. A tax. Domestic memory does not automatically open a tax-free DDR5 river for model labs. See [Volume 12](vol-12.en.md). What model firms contest is not one wafer in full-factory shipments. It is the packaging and HBM slice. 5.39 and the wrong pool: `测算-投片与柜-20260826.md`.
 
 ## 4. Scenarios, counterarguments, and testable markers
 
