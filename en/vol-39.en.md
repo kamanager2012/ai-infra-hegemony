@@ -59,7 +59,7 @@ As the industrial sales unit moves from chips toward rack-scale systems, the edu
 
 ### 3.2 Commercial: scarce-layer value capture determines who can afford scarce jobs
 
-Profit comparison: [Volume 1](vol-01.md). Schools evaluate by major. Firms evaluate by depreciation, quota, and prepayments. The mismatch will show as firms using internal training to poach the few people who can compile the stack and run liquid cooling, while complaining "too many graduates." Diploma inflation and wage polarization can happen at once. This volume has no employment survey. It does not write percentages.
+Profit comparison: [Volume 1](vol-01.en.md). Schools evaluate by major. Firms evaluate by depreciation, quota, and prepayments. The mismatch will show as firms using internal training to poach the few people who can compile the stack and run liquid cooling, while complaining "too many graduates." Diploma inflation and wage polarization can happen at once. This volume has no employment survey. It does not write percentages.
 
 Who can afford these jobs is read from free cash, not from campus-recruiting posters. A light-asset seller can afford a Deep Learning Institute, University Ambassador, Teaching Kits, and can also afford prepayments. A school can afford a new course. It cannot afford a packaging line.
 
@@ -69,7 +69,7 @@ Reading filings is itself a systems-engineering skill and can be taught before n
 
 ### 3.3 Industrial capacity cycles move faster than academic degree cycles
 
-Supply commitments are covered in [Volume 1](vol-01.md). Expanding enrollment can increase the future talent pool, but it does not change near-term foundry, packaging, or HBM allocation. Academic capacity and industrial capacity operate on different clocks. People can switch to learning CANN. They can also switch to learning CUDA. The queue will not open because a classroom changed textbooks.
+Supply commitments are covered in [Volume 1](vol-01.en.md). Expanding enrollment can increase the future talent pool, but it does not change near-term foundry, packaging, or HBM allocation. Academic capacity and industrial capacity operate on different clocks. People can switch to learning CANN. They can also switch to learning CUDA. The queue will not open because a classroom changed textbooks.
 
 Not yet written as fact: TSMC has already become a captive fab, High-NA has been bought out in bulk, a 2nm first-to-market contract amount. If it cannot be found, leave it blank. An education volume especially must not write these blanks as "therefore courses must be changed at once." Courses can be changed. If a contract amount has not been disclosed, an undisclosed contract cannot be the quantitative basis of a syllabus.
 
@@ -89,19 +89,19 @@ NVIDIA Academy lists operations separately: DGX systems administration, NVIDIA A
 
 ### 3.5 Geopolitics: three layers are not one layer. Education must be layered too
 
-Three layers: [Volume 12](vol-12.md). This volume does not reopen a prospectus. If education stacks the three layers on the one sentence "the country must be autonomous," it will train a batch useful on the phone layer and unusable on the cabinet layer. The three layers' labs, licenses, and thesis topics are not the same. Writing "IC talent" as one plan is the wrong layer again.
+Three layers: [Volume 12](vol-12.en.md). This volume does not reopen a prospectus. If education stacks the three layers on the one sentence "the country must be autonomous," it will train a batch useful on the phone layer and unusable on the cabinet layer. The three layers' labs, licenses, and thesis topics are not the same. Writing "IC talent" as one plan is the wrong layer again.
 
 People on the residual layer first meet not CUDA, but stockouts and price-ups after DIMMs, disks, and cards are sucked into cabinets. Rules-layer courses sit on cabinets and the software/runtime layer. Residual-layer courses sit on repair, down-spec, substitute parts, and delivery. The two course sets cannot share one "AI applications" handout.
 
-The East standing a second bid depends on advanced packaging and HBM-grade bits, not on training one more batch of people who can write a parallel stack. Parallel service is a real job. It is not a substitute for global cabinets. Until UXL / oneAPI have dug through, writing them as a degree track that already replaces CUDA is writing a blank as a finished good. The five paths and the case file: [Volume 8](vol-08.md), [Volume 11](vol-11.md). A course can teach open-source substitutes. It cannot write "CUDA will be split open next year" as a training assumption.
+The East standing a second bid depends on advanced packaging and HBM-grade bits, not on training one more batch of people who can write a parallel stack. Parallel service is a real job. It is not a substitute for global cabinets. Until UXL / oneAPI have dug through, writing them as a degree track that already replaces CUDA is writing a blank as a finished good. The five paths and the case file: [Volume 8](vol-08.en.md), [Volume 11](vol-11.en.md). A course can teach open-source substitutes. It cannot write "CUDA will be split open next year" as a training assumption.
 
 ### 3.6 A cognitive leap does not change the bid
 
 The title writes the cognitive leap heavily. On the book's first-part historical cut, the leap is not students learning to use a chatbot. It is admitting the means of production changed: people are no longer the only cognitive engine; a person's work becomes design, verification, and taking responsibility. if basic education still prides itself on information retrieval and format compliance, it will collide head-on with Agents; if higher education still prides itself on single-point drill, it will collide head-on with cabinet engineering. What must move up is problem formalization, result verification, multi-constraint tradeoff (power, heat, quota, compliance). These capabilities cannot be replaced by "one more generative-AI gen-ed."
 
-But a leap does not change the bid. Students moving up cognitively will not make a foundry yield increment to the second name. Compound training does not fill a photoresist gate, and does not fill residual. See [Volume 12](vol-12.md), [Volume 5](vol-05.md). People can be smarter. Residual will not become a river again because people are smarter.
+But a leap does not change the bid. Students moving up cognitively will not make a foundry yield increment to the second name. Compound training does not fill a photoresist gate, and does not fill residual. See [Volume 12](vol-12.en.md), [Volume 5](vol-05.en.md). People can be smarter. Residual will not become a river again because people are smarter.
 
-value capture and cost pressure: [Volume 8](vol-08.md). If the education volume treats "everyone learns prompts" as the answer to this value capture, it has written value capture and cost pressure as a literacy course. A literacy course does not change a supply commitment. If students add buyer civil works and seller value capture together in homework as "total AI spend," they stack a fake total. The first problem on the literacy exam is refusing that addition.
+value capture and cost pressure: [Volume 8](vol-08.en.md). If the education volume treats "everyone learns prompts" as the answer to this value capture, it has written value capture and cost pressure as a literacy course. A literacy course does not change a supply commitment. If students add buyer civil works and seller value capture together in homework as "total AI spend," they stack a fake total. The first problem on the literacy exam is refusing that addition.
 
 Personal survival rules in an education volume can only be written to capability, not to open roles. A person who can independently make multi-constraint tradeoffs can stand on the buyer hall, the seller stack, a parallel stack, or a power license. Which side they stand on is decided by the bid and by controls, not by a transcript. What a transcript can prove is whether this person will make promises on the wrong layer.
 
@@ -129,13 +129,13 @@ Corporate internal training will temporarily cover a school's lag. It cannot rep
 
 The Intel 1999 comparison is used this way in the scenarios. In the share era, training followed the CPU interface: compilers, operating systems, motherboards. Gross margin 59.7% was already high, but that was share value capture. In the margin era, training follows the cabinet and the prepayment: who can read what a $119.0B commitment is locking, who can decide, in front of 71%–75% gross margin, whether to stand on the buyer, the seller, or a parallel stack. Adding one deep-learning course to a 1999 microprocessor catalog is not a leap. The leap is admitting value capture moved from share to margin, and the course object moved from the chip to the cabinet and the commitment.
 
-The case file: [Volume 11](vol-11.md). Writing "antitrust will soon open the software stack" as an admissions selling point is writing an unfiled case as a judgment already rendered. A course can discuss the statute. It cannot treat the discussion as a breakup that has already happened.
+The case file: [Volume 11](vol-11.en.md). Writing "antitrust will soon open the software stack" as an admissions selling point is writing an unfiled case as a judgment already rendered. A course can discuss the statute. It cannot treat the discussion as a breakup that has already happened.
 
 The window is these few years before next-generation first silicon is locked by commitments. Education, however fast it reforms, is not faster than three months adding $23.8B. So this volume does not write "reform succeeds" as the default scenario. The default is scenario A. Scenario B is a few schools using an equipment list and two assignment sets to pull themselves out of A. Scenario C is geopolitics cutting credits first. All three can happen in different schools in the same country. One national catalog is the wrong layer again.
 
 ## 5. Gaps and what must not be treated as fact
 
-Earlier versions of Volume 39 lacked an education-specific statistical base. This volume does not invent graduate headcount, starting pay, study-abroad flows, program-closure rates, DLI certificate counts, Ambassador headcount, or CANN student scale. Engineering and financial figures carried over come from the judgment and [Volume 1](vol-01.md), and from industry evidence already graded elsewhere in the report. They are not education-output indicators.
+Earlier versions of Volume 39 lacked an education-specific statistical base. This volume does not invent graduate headcount, starting pay, study-abroad flows, program-closure rates, DLI certificate counts, Ambassador headcount, or CANN student scale. Engineering and financial figures carried over come from the judgment and [Volume 1](vol-01.en.md), and from industry evidence already graded elsewhere in the report. They are not education-output indicators.
 
 Public pages cited in this edition include: NVIDIA q4fy26 CFO / press release / 10-K, q1fy27 CFO / press release / 10-Q, Intel 1999 annual-report income statement and Q1 2000 outlook, Microsoft FY25 annual-report summary and Q4 cash-flow statement, TSMC 4Q25 Management Report, SK hynix FY25 press release, NVIDIA DLI University Ambassador and self-paced-course public pages. No claim that every note of every 10-K was independently audited. Sentences already opened in evidence 01 are carried sentence by sentence.
 
