@@ -1,8 +1,8 @@
 # Volume 17: Ultimate AI-Infrastructure Risks — Physical, Capital, Substitution, and Institutional Constraints
 
-Chinese original: [vol-17.md](vol-17.md)
+Chinese original: [vol-17.md](vol-17.en.md)
 
-The power interrupt is [Volume 13](vol-13.md). Residual and 3:1 are [Volume 5](vol-05.md) and [Volume 23](vol-23.md). The depreciation wall is [Volume 30](vol-30.md). This volume does not reopen nuclear contracts or 2600GW. The title's safety challenge has almost no standalone paragraph in the forty volumes. This volume does not invent one.
+The power interrupt is [Volume 13](vol-13.en.md). Residual and 3:1 are [Volume 5](vol-05.en.md) and [Volume 23](vol-23.en.md). The depreciation wall is [Volume 30](vol-30.en.md). This volume does not reopen nuclear contracts or 2600GW. The title's safety challenge has almost no standalone paragraph in the forty volumes. This volume does not invent one.
 
 ## 1. Core question
 
@@ -32,13 +32,13 @@ The title's “safety” dimension is treated as an institutional/deployment con
 
 Physical limits begin with reticle-scale logic, memory bandwidth, advanced packaging, and power; exact reticle-area values require source-specific treatment. More bandwidth then walks CoWoS, HBM, and NVLink, not a density miracle at the next node. Micron FY24 Q3 prepared remarks disclose that, industry-wide, HBM3E requires approximately **3× the wafer supply of DDR5** to produce a given number of bits in the same technology node; Micron's FY25 10-K later confirms that HBM requires more wafers and cleanroom space for the same bits. The ~3× ratio is A-grade first-party evidence, while still not being a universal fab-control constant. If advanced logic and HBM-class memory tighten simultaneously, consumer products can face both wafer-level and bit-level residual pressure.
 
-The power wall is [Volume 13](vol-13.md). What is exhausted is not the planet's generation. It is dispatchable, interconnectable, coolable power density. If cabinets cannot be installed, HBM orders do not cancel themselves.
+The power wall is [Volume 13](vol-13.en.md). What is exhausted is not the planet's generation. It is dispatchable, interconnectable, coolable power density. If cabinets cannot be installed, HBM orders do not cancel themselves.
 
-The ledger wall is [Volume 30](vol-30.md). The trigger of a bubble washout is depreciation, not the share price. TrendForce writes that at the major CSPs it tracks, DRAM and NAND combined will be 47% of 2026 total CapEx and rise further to 68% in 2027. That is an institutional estimate, not a memory-purchase line in a four-cloud 10-K.
+The ledger wall is [Volume 30](vol-30.en.md). The trigger of a bubble washout is depreciation, not the share price. TrendForce writes that at the major CSPs it tracks, DRAM and NAND combined will be 47% of 2026 total CapEx and rise further to 68% in 2027. That is an institutional estimate, not a memory-purchase line in a four-cloud 10-K.
 
-The memory-structure wall is [Volume 5](vol-05.md). 51% is bit supply. If clouds shift inference onto DDR5, they grab residual already inside that half. It is a tax, not a new river.
+The memory-structure wall is [Volume 5](vol-05.en.md). 51% is bit supply. If clouds shift inference onto DDR5, they grab residual already inside that half. It is a tax, not a new river.
 
-Maker books are [Volume 5](vol-05.md). What is rising is the cabinet, not phones and PCs. A risk story written as "memory makers will break first, so the cycle ends" runs against those three statements. The China stack is [Volume 12](vol-12.md). China's parallel stack can alter regional sourcing and substitution, but it does not automatically remove global constraints in advanced logic, HBM, packaging, interconnect, or power.
+Maker books are [Volume 5](vol-05.en.md). What is rising is the cabinet, not phones and PCs. A risk story written as "memory makers will break first, so the cycle ends" runs against those three statements. The China stack is [Volume 12](vol-12.en.md). China's parallel stack can alter regional sourcing and substitution, but it does not automatically remove global constraints in advanced logic, HBM, packaging, interconnect, or power.
 
 ## 4. Scenarios, counterarguments, and testable indicators
 
@@ -72,11 +72,11 @@ This volume adds no unsupported filing, capacity, or price figures; new conclusi
 
 ## 6. The serial order is already written in section 3
 
-Section 3 already ranks the walls as one causal chain: physics narrows the buyer set, power stalls energization, depreciation turns money already spent into a rigid cost, and memory pushes capex structure toward the die. This section does not recopy the Micron original sentence, 51%, 47% to 68%, or nuclear megawatts. Power detail is [Volume 13](vol-13.md). Residual is [Volume 5](vol-05.md). Depreciation is [Volume 30](vol-30.md).
+Section 3 already ranks the walls as one causal chain: physics narrows the buyer set, power stalls energization, depreciation turns money already spent into a rigid cost, and memory pushes capex structure toward the die. This section does not recopy the Micron original sentence, 51%, 47% to 68%, or nuclear megawatts. Power detail is [Volume 13](vol-13.en.md). Residual is [Volume 5](vol-05.en.md). Depreciation is [Volume 30](vol-30.en.md).
 
 ## 7. Maker books, the China stack, four-corner ranking
 
-Memory economics are in [Volume 5](vol-05.md), the China stack in [Volume 12](vol-12.md), reversal variables in [Volume 8](vol-08.md), and cloud system-stack specifications in [Volume 4](vol-04.md). This volume only ranks the major physical and capital constraints as one causal chain.
+Memory economics are in [Volume 5](vol-05.en.md), the China stack in [Volume 12](vol-12.en.md), reversal variables in [Volume 8](vol-08.en.md), and cloud system-stack specifications in [Volume 4](vol-04.en.md). This volume only ranks the major physical and capital constraints as one causal chain.
 
 ## 10. Safety and institutional risk require observable constraints
 
@@ -92,6 +92,6 @@ The causal order is: physical constraints narrow the buyer set; power can delay 
 
 Also watch: copying the same set of institutional numbers into every volume looks thick and adds no new cause. This volume uses them only to rank risk. Timeline, profit retention, the consumer residual-pressure transmission, silicon consumption, and the packaging pool: each volume answers only that volume's question. On writing discipline, scenario judgments carry no unsupported output, price, margin, or probability. Any sentence that treats a post-2026 number as a fact that already happened must be rewritten as unverified; do not treat as first-party fact. Do not claim to have read an unopened annual report. The report does not treat a monthly capacity that is not in the prospectus. The report does not treat 8.6 and 13.2 from outside notes. The report does not treat a three-maker monthly-capacity split. The report does not treat advanced packaging from a low to a high monthly rate as about 60% locked by one name — TSMC has no split.
 
-The estimate pool is [Volume 16](vol-16.md) and [Volume 24](vol-24.md). This volume only marks "about 100k cabinets take more than half this packaging line" as a risk that can already be observed, not something that waits for the next decade to start. The window is not waiting for a cabinet count divided from the wrong pool.
+The estimate pool is [Volume 16](vol-16.en.md) and [Volume 24](vol-24.en.md). This volume only marks "about 100k cabinets take more than half this packaging line" as a risk that can already be observed, not something that waits for the next decade to start. The window is not waiting for a cabinet count divided from the wrong pool.
 
 The world does not blow up. Upgrades stop one node down. One firm writes the rules. If those five are not done, the line walks past half of the scarce slice. This volume only writes ultimate risk as walls that can serialize, not as a year.
