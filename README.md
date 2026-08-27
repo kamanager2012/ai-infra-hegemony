@@ -42,7 +42,7 @@ The repository is currently in publication preparation. Public-release licensing
 10. [English Edition Index](en/README.en.md)
 11. [X / social launch drafts](en/SHARE.md)
 
-The Chinese `main` edition remains the source of truth while the English chapter set is being revalidated. Publication-critical English chapters are being synchronized to the same F/H/M/S/X, evidence-grading, system-stack, Anchor Buyer, Residual Capacity, and S1–S4 framework.
+All **40 English volumes + 8 English macro essays** have completed the current framework/publication QA pass. The English edition now follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` edition remains the source of truth for resolving any future bilingual discrepancy.
 
 ## Research method
 
