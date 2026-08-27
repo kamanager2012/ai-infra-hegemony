@@ -1,8 +1,8 @@
 # Volume 27: Agent-Native Software and AI Software Unit Economics
 
-Chinese original: [vol-27.md](vol-27.md)
+Chinese original: [vol-27.md](vol-27.en.md)
 
-Cloud ASICs: [Volume 4](vol-04.md). Four-cloud mixed-year scope: `四云Capex口径核对.md`. This volume has no Salesforce or Adobe gross-margin sample. It does not write 85→55 as something that already happened.
+Cloud ASICs: [Volume 4](vol-04.en.md). Four-cloud mixed-year scope: `四云Capex口径核对.md`. This volume has no Salesforce or Adobe gross-margin sample. It does not write 85→55 as something that already happened.
 
 ## 1. Core question
 
@@ -56,7 +56,7 @@ There is no public transmission coefficient. You cannot multiply $354.0B by a ho
 
 The source set confirms only the foundry and memory relationships that companies themselves disclose. Third-party node estimates, advanced-packaging shares, and percent TCO saved by a custom chip do not enter the fact layer. No first-party cloud source reviewed here states that next-generation inference systems are retreating to 5 nm plus commodity DRAM. If a software firm assumes models will get cheap enough to use without limit on a seat, it first has to pass these four landlords' own spec pages.
 
-Official specs for the four: [Volume 4](vol-04.md). The search did not read a sentence that 5nm plus commodity DRAM is the inference mainstay. The software-industry rewrite is therefore not "models return to commodity DIMMs and the seat automatically restores." It is "cost of goods is confirm to the scarce slice; the price list must change." Switching clouds is not switching memory type. The bill header can move from one cloud to another. The memory spec page does not open a commodity-DRAM back door for software firms.
+Official specs for the four: [Volume 4](vol-04.en.md). The search did not read a sentence that 5nm plus commodity DRAM is the inference mainstay. The software-industry rewrite is therefore not "models return to commodity DIMMs and the seat automatically restores." It is "cost of goods is confirm to the scarce slice; the price list must change." Switching clouds is not switching memory type. The bill header can move from one cloud to another. The memory spec page does not open a commodity-DRAM back door for software firms.
 
 ### 3.4 Physics: low-rank attention eases the memory wall. It does not delete call depth
 
@@ -78,7 +78,7 @@ China's parallel supply is stronger in smartphones and parts of consumer computi
 
 ### 3.7 Bidding: 71% to 75% pins machine-hours, not seat fees
 
-Scarce-layer value capture: [Volume 1](vol-01.md). A software firm's seat fee, after the cloud price list, has a slice that becomes a bid for HBM and advanced packaging. Booked 19% is not a safe distance. If software's "AI attach" revenue really grows, the add lands on this slot, not on another 5nm river.
+Scarce-layer value capture: [Volume 1](vol-01.en.md). A software firm's seat fee, after the cloud price list, has a slice that becomes a bid for HBM and advanced packaging. Booked 19% is not a safe distance. If software's "AI attach" revenue really grows, the add lands on this slot, not on another 5nm river.
 
 C.C. Wei, 4Q24: advanced packaging is tight and cannot meet demand. 2Q26: it limits customers' growth. Packaging and test about 8% of revenue in 2024, a bit over 10% in 2025. A $3M cabinet, custom silicon saving 40% to 60% of TCO: no company said so. The report does not treat it. Sell-side estimates put NVIDIA at about 60% of advanced packaging. That is not a TSMC split. Do not promote it to official exclusivity. The software volume does not need that allocation table to stand: the scarce slice is past half; the price list arrives later.
 
@@ -114,7 +114,7 @@ The first switching-cost layer sits on the model protocol. Software makes its di
 
 Changing allocation requires several mechanisms to improve together: Prepayments large enough that one buyer cannot be the only name recognized; software bound into one stack, so the switching cost becomes a change of base rather than a change of vendor; memory longs that force makers to leave a line for commodity bits. If one remains weak, bargaining power and portability remain limited. Four-cloud 2025 mixed year of about $354.0B is each acting alone, added up. It is not a joint prepayment. Software firms each signing an exclusive model protocol is splitting the second check as well. TSMC allocates incremental capacity using multiple commercial and strategic criteria; large prepayments and long-duration demand can strengthen a buyer's position without guaranteeing allocation.
 
-The five interrupts: the judgment and [Volume 8](vol-08.md). The case file: [Volume 11](vol-11.md). The switching cost does not fall on its own because an inquiry exists.
+The five interrupts: the judgment and [Volume 8](vol-08.en.md). The case file: [Volume 11](vol-11.en.md). The switching cost does not fall on its own because an inquiry exists.
 
 ### 3.14 A private cabinet does not return cost of goods to zero
 
