@@ -76,7 +76,7 @@ Section 3 already ranks the walls as one causal chain: physics narrows the buyer
 
 ## 7. Maker books, the China stack, four-corner ranking
 
-Maker books are [Volume 5](vol-05.md). The China stack is [Volume 12](vol-12.md). The four corners are the Judgment. The five interrupts are [Volume 8](vol-08.md). Cloud in-house specs are [Volume 4](vol-04.md). This volume does not reopen them. This volume only ranks the walls as one causal chain.
+Memory economics are in [Volume 5](vol-05.md), the China stack in [Volume 12](vol-12.md), reversal variables in [Volume 8](vol-08.md), and cloud system-stack specifications in [Volume 4](vol-04.md). This volume only ranks the major physical and capital constraints as one causal chain.
 
 ## 10. Safety and institutional risk require observable constraints
 
@@ -88,7 +88,7 @@ Section 4 already writes wall-first, ledger-first, residual-first, and wall-and-
 
 ## 12. Evidence boundary and handoff to later volumes
 
-What can be confirm is the order: physics narrows the buyer set, power stalls energization, depreciation turns money already spent into a rigid cost, memory pushes capex structure toward the die, the China stack cannot fill global cabinets, the four corners decide who is entitled to wash others out rather than be washed out, and the five interrupt conditions are not done. What must be left to later volumes: where the profit pool stops, how consumer electronics pays a spillover tax, how HBM pulls wafers, and whether the advanced-packaging pool can be divided by full-factory shipments. Those volumes have their own authors. This volume does not seize the writing, and it does not promote their conclusions into already-first-party fact.
+The causal order is: physical constraints narrow the buyer set; power can delay energization; depreciation turns past spending into rigid cost; memory and packaging shape system economics; and system-stack portability determines how easily buyers can switch. Later volumes separately analyze profit pools, consumer cost transmission, HBM wafer intensity, and packaging allocation. This volume does not promote those scenario conclusions into first-party facts.
 
 Also watch: copying the same set of institutional numbers into every volume looks thick and adds no new cause. This volume uses them only to rank risk. Timeline, profit retention, the consumer residual-pressure transmission, silicon consumption, and the packaging pool: each volume answers only that volume's question. On writing discipline, scenario judgments carry no unsupported output, price, margin, or probability. Any sentence that treats a post-2026 number as a fact that already happened must be rewritten as unverified; do not treat as first-party fact. Do not claim to have read an unopened annual report. The report does not treat a monthly capacity that is not in the prospectus. The report does not treat 8.6 and 13.2 from outside notes. The report does not treat a three-maker monthly-capacity split. The report does not treat advanced packaging from a low to a high monthly rate as about 60% locked by one name — TSMC has no split.
 
