@@ -44,7 +44,7 @@ Annual-report position section, same scope: net revenue by platform, HPC 58%, sm
 
 2Q26 single quarter, HPC 66% of that quarter's revenue, up 20% sequentially. Source: 2Q26 earnings-call transcript. Control only, not a full year. However high a quarter goes, 66% cannot be written as full-year wafers.
 
-HPC is not NVIDIA. Inside it are also AMD, Broadcom, and cloud ASICs. Smartphone is not Apple. Some of Apple's PC chips are classified into HPC. What can be confirm is direction: what is being opened is HPC and packaging, not phone logic. Smartphones still grew 11% for the year, but share fell from 35% to 29%. The increment pie is not there.
+HPC is not NVIDIA. Inside it are also AMD, Broadcom, and cloud ASICs. Smartphone is not Apple. Some of Apple's PC chips are classified into HPC. What can be confirmed is direction: what is being opened is HPC and packaging, not phone logic. Smartphones still grew 11% for the year, but share fell from 35% to 29%. The increment pie is not there.
 
 The annual report also splits geography by headquarters: North America 75%, Asia-Pacific excluding China and Japan 9%, China 9%, Japan 4%, EMEA 3%. China 9% is customer-headquarters scope, not the China market being able to change global cabinet allocation. The payer is in North America. The main line writes that the China market cannot save global cabinets, HBM, packaging, and a unified compute architecture. Geography 75% versus 9% is the same sentence's annual-report footnote.
 
@@ -54,7 +54,7 @@ The annual-report risk chapter names first and second, not customer names. Origi
 
 Revenue table Customer A, Customer B: 2025 Customer A NT$726,974,278 thousand, 19%, 2024 12%, amount NT$352,271,213 thousand. Customer B 2025 NT$645,178,671 thousand, 17%, 2024 22%, amount NT$624,345,477 thousand. Other 64% versus 66%. Total 2025 NT$3,809,054,272 thousand, 2024 NT$2,894,307,699 thousand. Source: annual report chapter 5, table titled customers accounting for at least 10% of annual consolidated net revenue.
 
-What can be confirm: the leading customer jumped from 12% to 19%; the second fell from 22% to 17%. TSMC does not name them. Huang calling himself the largest customer is another line, not in TSMC's files. 19% is full-year revenue share. It cannot be converted into 19% of wafers. Voice on the scarce slice is larger than this booked number: what is being opened is HPC up 48%, not phones.
+What can be confirmed: the leading customer jumped from 12% to 19%; the second fell from 22% to 17%. TSMC does not name them. Huang calling himself the largest customer is another line, not in TSMC's files. 19% is full-year revenue share. It cannot be converted into 19% of wafers. Voice on the scarce slice is larger than this booked number: what is being opened is HPC up 48%, not phones.
 
 The main line's sentence lands here: booked 19% is not a safe distance. Occupy the increment and next year's slots belong to the leading customer. The top ten already take 78%. The second name falling from 22% means the full-year book is changing names. The scarce slice changes faster, because the scarce slice is the increment itself.
 
@@ -62,7 +62,7 @@ The main line's sentence lands here: booked 19% is not a safe distance. Occupy t
 
 4Q24 call, CFO Wendell Huang: we do not break down advanced packaging segments. Advanced packaging and test over 8% last year, will be over 10% this year. Source: 4Q24 transcript. C.C. Wei, same call: today it is all AI focused, capacity is very tight, and cannot even meet customers' need.
 
-4Q25 call, corrected after the call: last year's advanced-packaging revenue contribution a bit over 10%, about 8% in 2024. Expected to grow faster than the company average, 2026 low teens. Source: 4Q25 transcript. What can be confirm: about 8% in 2024, a bit over 10% in 2025, 2026 outlook low teens. What cannot: CoWoS revenue alone, monthly capacity, packaging wafers by customer. The company is explicit that it does not split.
+4Q25 call, corrected after the call: last year's advanced-packaging revenue contribution a bit over 10%, about 8% in 2024. Expected to grow faster than the company average, 2026 low teens. Source: 4Q25 transcript. What can be confirmed: about 8% in 2024, a bit over 10% in 2025, 2026 outlook low teens. What cannot: CoWoS revenue alone, monthly capacity, packaging wafers by customer. The company is explicit that it does not split.
 
 2Q26, C.C. Wei: our packaging capacity is so tight that now it limits my customers' growth. Same call: today the majority is still CoWoS. Source: 2Q26 transcript https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf Public write-up, same sentence. the current evidence review's retrieval confirms the original is tight, limits growth, welcome a bit more elasticity in the market so the front-end wafer business can keep growing. Front-end is the bulk. The majority is still this packaging. Substitutes are being built to cut cost; the pilot line is about another year from maturity.
 
