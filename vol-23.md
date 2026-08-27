@@ -18,19 +18,19 @@
 
 能留下来当骨架的是方向：堆叠更吃硅。不能留下来当计量的是 16-Hi 规格、3:1 校准、整柜 HBM 美元成本和“新石油可库存”。
 
-## 3. 3:1 能站住的，是原厂句子，不是那条 48.6%
+## 3. 能站住的约3×来自Micron一手披露，不是早期48.6%公式
 
-石油地租成立，是因为油井、管网和炼厂不能在一个季度里复制。HBM 地租若成立，也必须落在同一类不可快速复制的损耗上。早期版本用面积、良率乘法和底座三件事去解释 3:1。这三件事方向对，精度不够。能进事实层的，不是那条 48.6% 的公式，而是美光自己写进 10-K 的句子。财政年截至 2025-08-28 的 Form 10-K 原文：Due to the higher performance and more complex manufacturing process, HBM requires a higher number of wafers and more cleanroom space to produce the same number of bits as conventional DRAM in the same technology node。出处：https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm 。同一段还写：若 HBM 需求转弱、原厂把产能从 HBM 切回常规 DRAM，常规 DRAM 供给会明显增加。反过来读：HBM 还在抢晶圆的时候，常规 DRAM 就是残量。这是原厂法律责任下的表述，不是供应链口口相传。
+石油地租成立，是因为油井、管网和炼厂不能在一个季度里复制。HBM 地租若成立，也必须落在同一类不可快速复制的损耗上。早期版本用面积、良率乘法和底座三件事去解释 3:1。这三件事方向对，精度不够。能进事实层的，不是早期48.6%的自算公式。主数值锚来自 Micron FY24 Q3 prepared remarks：行业范围内，在相同技术节点、生产相同比特时，HBM3E 约需要 DDR5 **3× 的 wafer supply**，并预计 HBM4 trade ratio 更高。Micron FY25 10-K 又确认 HBM 同bit需要更多晶圆与洁净室。前者给出数值，后者给出持续的法律披露方向；两者共同构成一手证据链。
 
 Hot Chips 2026 把同一方向写成了会议语言。ServeTheHome 现场笔记：The combined overhead of design architecture, advanced packaging, and manufacturing complexity means that about 3x as much silicon is consumed to deliver the same HBM3E capacity as DDR5。出处：https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/ 。口径要钉死：这是同一容量的 HBM3E 对 DDR5，把设计、先进封装和制造复杂度合在一起的硅消耗，不是“一片 HBM 晶圆换三片 DDR5 晶圆”的工厂分账，也不是 10-K 已经核过的倍数。3× 进会议转述层。
 
 于是 3:1 的经济含义可以不靠那条未校准公式成立：原厂每答应一张高带宽订单，就放弃更多普通 DRAM 的产出能力。面积被 TSV 和 KOZ 吃掉，洁净室被堆叠和底座吃掉，资本开支被清州、龙仁、印第安纳这类厂点吃掉。谁控制可工作的 TSV 堆叠与底座良率，谁就有定价权。目前公开能量产高带宽堆叠的，仍是海力士、美光、三星三家。长鑫招股书全文 0 处 HBM，不能把第四家写进 2026 年的有效供给。
 
-bit 份额还低估了晶圆被抽走的程度。第五卷钉的 51% 已经是 HBM 加 RDIMM 的 bit。HBM 自己的 bit 份额一定小于 51%。美光 10-K 和会议 3× 都在说：同样 bit，HBM 更吃晶圆和洁净室。于是一个直接推论、不必新编百分比：HBM 在晶圆和洁净室里的权重，高于它在 bit 里的权重。原厂转产一句，消费少的不止 1:1。能说的只是方向——挪一条线去做堆叠，残量少得比挪走的 bit 更多。这就是为什么“改堆 DDR5”在账本上看起来像省 HBM，在晶圆上看起来像加税。
+bit 份额还低估了晶圆被抽走的程度。第五卷钉的 51% 已经是 HBM 加 RDIMM 的 bit。HBM 自己的 bit 份额一定小于 51%。Micron FY24 Q3约3×一手披露与FY25 10-K都在说：同样 bit，HBM 更吃晶圆和洁净室。于是一个直接推论、不必新编百分比：HBM 在晶圆和洁净室里的权重，高于它在 bit 里的权重。原厂转产一句，消费少的不止 1:1。能说的只是方向——挪一条线去做堆叠，残量少得比挪走的 bit 更多。这就是为什么“改堆 DDR5”在账本上看起来像省 HBM，在晶圆上看起来像加税。
 
 ## 4. 16-Hi 没有规格表；底座若进台积电，地租会迁一截
 
-底座若走 3nm / 5nm，HBM 不再是“存储厂自己的事”，而要排队进台积电。早期版本把 HBM4 16-Hi 的惩罚率写成 4:1～5:1，因为层数从 12 走到 16，良率乘法更陡，再加上一颗先进逻辑芯片。方向可以留，计量不能留。海力士官方写的是 HBM3E 与 HBM4 同时供货、HBM4 已大规模生产，没有 16-Hi，没有良率公式，没有 3:1。三星官方写 Q1 2026 开始交付 HBM4、含 11.7Gbps，同样没有 16-Hi。美光 10-K 写 HBM4 36GB 12-Hi 已送样，公开能钉住的层数是 12-Hi，不是标题里的 16。
+底座若走 3nm / 5nm，HBM 不再是“存储厂自己的事”，而要排队进台积电。早期版本把 HBM4 16-Hi 的惩罚率写成 4:1～5:1，因为层数从 12 走到 16，良率乘法更陡，再加上一颗先进逻辑芯片。方向可以留，计量不能留。海力士官方写的是 HBM3E 与 HBM4 同时供货、HBM4 已大规模生产，没有16-Hi和公开良率公式；这不否定Micron另一份正式材料对HBM3E约3× trade ratio的披露。三星官方写 Q1 2026 开始交付 HBM4、含 11.7Gbps，同样没有 16-Hi。美光 10-K 写 HBM4 36GB 12-Hi 已送样，公开能钉住的层数是 12-Hi，不是标题里的 16。
 
 于是“新石油”的管网有一段可能铺在别人的晶圆厂里，但在原厂与台积电都给出可核对的底座出货之前，这段迁徙只是机制，不是已经完成的利润再分配。台积电本研究能用的官方句仍是先进封装加测试收入 2024 约 8%、2025 略超 10%，以及魏哲家 CoWoS tight / cannot meet demand、2Q26 limits customers' growth。没有“HBM 底座吃掉多少 3nm”的分项。
 
