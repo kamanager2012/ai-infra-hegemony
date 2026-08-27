@@ -6,17 +6,13 @@ AI 对劳动市场的影响不能直接用“多少岗位会消失”描述。
 
 更可靠的因果链是：
 
-[
+```text
 Task Exposure
-ightarrow
-Adoption Economics
-ightarrow
-Workflow Redesign
-ightarrow
-Responsibility Constraint
-ightarrow
-Employment/Wage Outcome
-]
+→ Adoption Economics
+→ Workflow Redesign
+→ Responsibility Constraint
+→ Employment / Wage Outcome
+```
 
 因此，本报告采用 **Task-to-Job Translation Layer**。
 
@@ -42,11 +38,9 @@ ILO、IMF、OECD 等研究反复强调：
 
 企业只有在：
 
-[
-AI Cost + Review + Error + Compliance
-<
-Human Cost
-]
+```text
+AI Cost + Review + Error + Compliance < Human Cost
+```
 
 时，才有强烈经济动机替换任务。
 
