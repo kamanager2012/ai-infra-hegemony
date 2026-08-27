@@ -35,7 +35,7 @@ In the 2025 capex guide, about 10% to 20% goes to advanced packaging, testing, m
 
 ### 3.2 Incremental HPC and packaging capacity matters more than historical revenue share
 
-TSMC's books: [Volume 4](vol-04.md). Profit and cash: [Volume 1](vol-01.md). What is being opened is HPC and packaging. Apple locks phone logic. Booked 19% is not a safe distance. Occupy the increment and next year's slots belong to the leading buyer. Packaging is one slice of the system supply mix. It is not another fab that can be handed to the second name at will.
+TSMC's books: [Volume 4](vol-04.en.md). Profit and cash: [Volume 1](vol-01.en.md). What is being opened is HPC and packaging. Apple locks phone logic. Booked 19% is not a safe distance. Occupy the increment and next year's slots belong to the leading buyer. Packaging is one slice of the system supply mix. It is not another fab that can be handed to the second name at will.
 
 ### 3.3 Physics: a chip past the reticle must first become a packageable puzzle
 
@@ -53,7 +53,7 @@ Reading an unverified capacity-ramp table as either "shortage is over" or "one b
 
 ### 3.5 Cloud ASICs did not open another packaging river
 
-[Volume 4](vol-04.md) only confirm foundry and memory the companies themselves wrote. Third-party node guesses, CoWoS share, and TCO savings do not enter the fact layer. No first-party cloud source reviewed here states "retreat to 5nm plus commodity DDR5 as the inference mainstay."
+[Volume 4](vol-04.en.md) only confirm foundry and memory the companies themselves wrote. Third-party node guesses, CoWoS share, and TCO savings do not enter the fact layer. No first-party cloud source reviewed here states "retreat to 5nm plus commodity DDR5 as the inference mainstay."
 
 Microsoft Maia 100. Azure official blog (2024-04-03): Maia 100 is one of the largest processors made on 5nm node using advanced packaging technology from TSMC. URL: https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/. Azure Infrastructure (Hot Chips specs, 2024-08-27): die about 820 mm², TSMC N5, CoWoS-S, four HBM2E stacks, 64 GB total, 1.8 TB/s. URL: https://techcommunity.microsoft.com/blog/azureinfrastructureblog/inside-maia-100-revolutionizing-ai-workloads-with-microsofts-custom-ai-accelerat/4229118. The first-party implication is: the foundry is TSMC, the package writes CoWoS-S, the memory is HBM2E. This 5nm generation also did not take commodity DDR5. Cloud custom silicon's first generation already stands on the packaging line this volume writes.
 
@@ -73,7 +73,7 @@ TrendForce 2026 Q1 pure-play foundry revenue: TSMC 72%, Samsung 6.5%, SMIC 5.1%.
 
 So: write the node as 5nm or 3nm, the public volume fab for the four clouds' leading-edge AI logic is still mostly TSMC. A 5nm die may be cuttable. High-density interconnect still wants CoWoS. Sell-side puts Broadcom and cloud ASICs into a small slice of CoWoS; common tracking writes Broadcom about 15%. 35% assigned to an ASIC alliance is not a TSMC disclosure. The report does not treat it. NVL72 dollars per cabinet, and how many percent of TCO an ASIC saves: the companies themselves did not say so on the pages above. The report does not treat it.
 
-The China stack: [Volume 12](vol-12.md). China fabs cannot take Western GDS, so extra Eastern plants still cannot replace AMD's or Apple's seat at TSMC. The queue is still behind NVIDIA.
+The China stack: [Volume 12](vol-12.en.md). China fabs cannot take Western GDS, so extra Eastern plants still cannot replace AMD's or Apple's seat at TSMC. The queue is still behind NVIDIA.
 
 ### 3.7 Packaging quota times interconnect and the compiler stack becomes market structure
 
@@ -131,7 +131,7 @@ Official limited supply on gaming cards is the same queue projected onto the con
 
 ### 3.11 Residual memory is rising in price; packaging slots have not become residual
 
-The residual-capacity pressure: [Volume 5](vol-05.md) and [Volume 22](vol-22.md). The memory side is already pulling wafers. Server DDR5 is already residual, not another river.
+The residual-capacity pressure: [Volume 5](vol-05.en.md) and [Volume 22](vol-22.en.md). The memory side is already pulling wafers. Server DDR5 is already residual, not another river.
 
 The packaging side has no matching "residual river." Advanced packaging and testing is only about 10% of TSMC revenue, yet C.C. Wei called it tight on two calls in a row. Share of revenue is small; the constraint is hard, because this slice has no substitute: HBM must be bonded on an interposer before it can enter a training cabinet. Phone logic can skip CoWoS. Apple locks phone logic. It cannot lock the increment. If clouds move inference to ASICs plus conventional DDR5, they stop bidding against NVIDIA for full HBM output. That is this road's only physical benefit. What they add, though, is residual already rising; and if a 5nm die still wants high-density interconnect, they still return to the queue. Source 04's conclusion: public next generations have not stopped. If they do not stop, the memory residual pressure and the packaging quota are collected together.
 
