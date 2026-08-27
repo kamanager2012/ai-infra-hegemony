@@ -8,7 +8,8 @@ authors:
 abstract: "A bilingual 40-volume industry research monograph with 8 macro essays on AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, software economics, labor, and the 2026–2036 industrial endgame."
 repository-code: "https://github.com/kamanager2012/ai-infra-hegemony"
 url: "https://github.com/kamanager2012/ai-infra-hegemony"
-license-url: "https://github.com/kamanager2012/ai-infra-hegemony/blob/main/LICENSE"
+license: "CC-BY-NC-ND-4.0"
+license-url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 keywords:
   - AI infrastructure
   - semiconductors
