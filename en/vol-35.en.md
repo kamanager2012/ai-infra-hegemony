@@ -1,142 +1,230 @@
 # Volume 35: AI Power Constraints — 835 MW, 1.92 GW, and 500 MW Across Three Delivery Paths
 
-Chinese original: [vol-35.md](vol-35.en.md)
+Chinese source edition: [vol-35.md](../vol-35.md)
 
-The power-constraint mechanism is developed in [Volume 13](vol-13.en.md). This volume focuses on three observable project paths and the distinction between announced, contracted, permitted, energized, and utilized capacity. It also explains why aggregate interconnection queues cannot be treated as directly deliverable AI load.
+> Retrieval and revision cutoff: **2026-08-27**. This volume tracks power through five states: Announced, Contracted, Permitted, Energized, and Utilized. Nameplate or contracted capacity is never treated as live AI load.
 
-## 1. The question this volume answers
+## 1. Power must be analyzed by project state
 
-Power is already a strategic constraint, but current evidence does not show that it has become the sole dominant bottleneck on AI infrastructure expansion. The relevant question is whether executable energized load can keep pace with delivered compute.
+AI data-center power discussions often mix three different questions:
 
-Three questions matter: how rack-scale power density changes data-center engineering; what rights and delivery states different nuclear arrangements actually provide; and how regulatory/interconnection timelines interact with the much faster chip and server cycle.
+- how many MW or GW were announced;
+- how many were written into contracts;
+- how many are actually operating.
 
-The sales unit has already moved from the chip to the cabinet. Official cabinet: 72 GPU, 36 Grace, HBM 13.4 TB, LPDDR 17 TB. The NVIDIA DGX GB cabinet user guide writes: whole-cabinet power about 120 kW; the power shelf uses six air-cooled 5.5 kW supplies, eight shelves in N+N, 33 kW input per shelf. That is the energy war inside the cabinet. Outside the campus is another war: whoever first gets executable baseload and interconnection can turn cabinets in a warehouse into running assets. The two wars are not the same thing, and they cannot substitute for each other.
+This report uses five states:
 
-## 2. Evidence boundary and project status
+1. **Announced**
+2. **Contracted**
+3. **Permitted**
+4. **Energized**
+5. **Utilized**
 
-### 2.1 Rack power density: product evidence versus engineering scenarios
+Only by separating those states can power be compared meaningfully with hardware shipments, CapEx, and workload utilization.
 
-NVIDIA product documentation supports a rack-scale configuration around **120 kW/rack**, with liquid cooling and high-density power distribution. Legacy-air-cooling comparisons, cooling-system BOM shares, and claimed copper-versus-optics power savings are not treated as first-party facts here. Scenario calculations such as 500 racks × 120 kW are useful only as engineering scale checks, not disclosed campus utilization.
+## 2. 120 kW-class racks change data-center engineering
 
-The meaning of 120 kW is not a slogan. Feeders and main transformers must move from "a small slice of the campus" to "a dedicated line plus a main transformer plus backup." A 5–10 kW air-cooled cabinet can live on room air-conditioning and ordinary low-voltage feeders. 120 kW means copper busbars, CDUs, cold plates, and quick-disconnects must enter the cabinet. Every kilowatt saved, if true, is not an environmental ad. It is more compute on the same feeder and the same CDU. Energy efficiency at cabinet scale converts directly into deployable GPU count. That is the same sentence as the judgment's "the sales unit moved up to the cabinet": what is sold is no longer one chip's thermal design power. It is the electricity, cooling, and interconnect one cabinet must satisfy at once.
+NVIDIA-related rack documentation places GB200 NVL72 design power at roughly **120 kW per rack**.
 
-### 2.2 Three nuclear arrangements with different delivery clocks
+At that density, the facility requires a different engineering envelope:
 
-The three contracts are this volume's evidence. They must be written in the companies' own sentences, not promoted from second-hand compilations.
+- direct liquid cooling;
+- high-current busway;
+- larger transformers;
+- high-density distribution;
+- stronger cooling loops.
 
-Microsoft and Constellation. 2024-09-20, Constellation official press release and 8-K: a 20-year power purchase agreement to restart Three Mile Island Unit 1, renamed Crane Clean Energy Center, adding about 835 MW of carbon-free power to the grid; Microsoft buys the plant's output to match load at its PJM data centers. Restart and delivery under the contract must pass Nuclear Regulatory Commission safety and environmental review, plus state and local permits. A separate license-renewal filing would extend operations at least to 2054. Expected ready to operate in 2028. Unit 1 is a separate facility from Unit 2 of the 1979 accident. Before retirement the plant was rated 837 MW, and in its last year capacity factor was 96.3%. Utility Dive / CNBC citing investor materials: Constellation plans to spend about $1.6 billion to restart, aiming at the federal 45Y clean-electricity tax credit. Utility Dive also citing a Constellation spokesperson: no plan to build a Microsoft data center at the plant. A Brattle Group economic-impact study commissioned by Pennsylvania building trades writes: 3,400 direct and indirect jobs, $16 billion added to state GDP, more than $3 billion in state and federal tax. That $16 billion is a state-GDP impact study, not the PPA consideration. Part II wrote the amount as "over $16 billion" and implied a contract price. The scope is wrong. This volume does not follow it.
+For 500 racks:
 
-Amazon and Talen / Susquehanna. 2024-03, Talen sold the Cumulus data-center campus to AWS for $650 million (close $350 million, plus $300 million in milestones). The campus sits against the Susquehanna nuclear plant. Public materials write the plant at about 2.5 GW gross capacity; World Nuclear News writes 2,475 MWe, with a Talen subsidiary holding 90%. Combined redundant substation capacity at the campus can reach 960 MW. AWS contract power commitments climb in 120 MW steps, starting in 2025; a one-time option caps the commitment at 480 MW; two further ten-year extensions hang on the two units' 2042 and 2044 license renewals. This is version one of "move the data center inside the plant fence." It is not a behind-the-meter lock that the two parties can finish by handshake.
+```text
+500 × 120 kW = 60 MW
+```
 
-FERC sent version one back a step. On 1 November 2024, FERC denied 2-1 the revised interconnection service agreement that would have expanded behind-the-meter colocation from 300 MW to 480 MW; in April 2025 it denied rehearing. On 11 June 2025, Talen disclosed a replacement PPA with a **1,920 MW** full amount through 2042, extendable, ramping to full no later than 2032. The physical arrangement moved **front-of-the-meter**: plant power enters PJM first, Talen supplies at retail, and PPL handles transmission and distribution. Talen's latest 2026 SEC disclosure confirms that the conversion was **completed in April 2026**. The research question is therefore no longer "will the spring-2026 reconfiguration finish?" but "how quickly does actual energized load ramp under the 1,920 MW contract?" Contracted MW, planned campus MW, actual load, and annual utilization remain separate quantities.
+That is IT load alone, before full facility overhead.
 
-Google and Kairos Power. 2024-10-14, Google official blog and Kairos press release: a power-purchase arrangement for multiple small reactors, self-described as the first enterprise-side agreement "to buy power from multiple SMRs." First unit targeted for 2030 interconnection, then deployment through 2035, totaling at most 500 MW of around-the-clock carbon-free power. Kairos writes fluoride-salt cooling and ceramic pebble-bed fuel (TRISO), low-pressure operation. Official releases do not write "7 units." A same-day Reuters item wrote "six to seven units." That is a reporter conversion, not a unit count on either party's signature page. This volume confirm only 500 MW, first unit 2030, and the 2035 window. It does not write 7 units as official fact. Kairos's non-power Hermes demonstration reactor in Tennessee has an NRC construction permit and has broken ground. That is a demonstration reactor, not a 500 MW commercial fleet already under construction.
+AI data centers have therefore entered an era of **100 MW-class local loads**.
 
-### 2.3 The interconnection queue: "2,600 GW" can no longer be treated as a sum of three markets
+## 3. Microsoft / Constellation: approximately 835 MW tied to a restart PPA
 
-Older stress tests used a >2,600 GW aggregate queue, 5–7 year interconnection cycle, and 12–18 month data-center construction cycle. These are not treated as a unified official U.S. average. The current analysis instead uses market-specific queue data and keeps construction, interconnection, energization, and utilization as separate clocks.
+Microsoft and Constellation signed a 20-year PPA supporting the restart of the former Three Mile Island Unit 1, renamed the Crane Clean Energy Center.
 
-What can be kept is public queues by market, and it must be written that "in queue is not under construction." ERCOT around June 2026: large-load interconnection requests about 438,000 MW (press release) to about 474 GW (Senate materials), of which about 90% are data centers; Texas historical peak load 85,508 MW (2023-08-10). PUCT 2026-06-18 approved Batch Zero: large loads of 75 MW and above move to batch studies, no longer one-off reviews; about 205 GW qualify for the first batch from existing studies; a first-batch transmission-plan draft is expected autumn 2027. 2026-08-03 the Texas governor asked that new data-center interconnections be paused; ERCOT was asked to finish an audit by December 10. Large loads that have already had a stability study and plan to come online within the year: about 17, combined peak about 6.6 GW, taking about five years to ramp full. PJM's first generation queue after reform is reported at about 201.5–220 GW; PJM's own load-growth narrative writes at most about 70 GW by 2038, mainly data centers. Generation projects studied since 2020 exceed 300 GW; those holding interconnection agreements are only about 51 GW. Queue capacity and executable interconnection are not the same number.
+The public project scale is approximately **835 MW**.
 
-What matters for AI is not "how many GW sit in the queue." It is when a high-voltage dedicated line and a main transformer can actually energize a campus of 120 kW cabinets. GPU generations are 2–3 years. Financial depreciation is 4 years. Nuclear permits and main transformers often outlast both beats. Power's clock is slower than the chip's clock. That is the "energy war." Writing "already no power" exceeds the present.
+### Current state
 
-### 2.4 The financial base is not reopened in this volume
+- Contract: signed;
+- restart project: progressing;
+- regulatory process: ongoing;
+- commercial operation: still dependent on required approvals and restart execution;
+- actual AI load: cannot be inferred from the 835 MW nameplate figure.
 
-Four-cloud scope: [Volume 8](vol-08.en.md). Profit and cash: [Volume 1](vol-01.en.md). The depreciation wall: [Volume 30](vol-30.en.md). This volume does not recopy the table.
+The strategic significance is:
 
-## 3. Mechanism (physics / commerce / geopolitics)
+> **a hyperscaler is willing to provide long-duration demand support for the return of a large existing nuclear asset.**
 
-### 3.1 Three clocks do not line up. Idle depreciation arrives before a blackout
+The PPA is evidence of infrastructure reservation, not evidence that 835 MW of AI load is already online.
 
-The core of the energy war is three clocks that do not line up. Chip generations 2–3 years, financial depreciation 4 years, main transformers and nuclear permits often longer than both beats, and a power contract once signed is 20 years. Whoever decides on the wrong clock goes bankrupt on the other two. Buying NVL72 on the chip clock and queuing on the utility clock produces cabinets built, feeders not arrived, depreciation spinning empty. Locking 835 MW on a 20-year power contract and then failing to absorb baseload in a year when inference demand is cut produces power longer and heavier than the chips. Requiring each campus to pay back in the year under 4-year depreciation produces a refusal to touch nuclear, a permanent stop at the hundred-megawatt class, and a permanent place at the back of the queue.
+## 4. Talen / AWS: up to 1.92 GW under the revised structure
 
-A 12–18 month data-center construction estimate is not used as a universal first-party cycle. Even if true, it is not 12–18 months to power. The vertical-construction clock deceives capex decisions. Before energization, annual kWh is all zero, and depreciation still runs on 4 years. The energy war looks like generation. In accounting it looks more like preventing idle time. Whoever can compress the gap between "built" and "energized" to shorter than one GPU generation destroys less of the group-wide spend that has already happened. The mechanism is that a completed but unenergized asset can incur depreciation before generating useful compute revenue. The only change is that $215 billion can no longer be used to push an annual-depreciation midpoint.
+The revised Talen/AWS arrangement can reach as much as **1.92 GW**.
 
-Direct-connecting existing piles (Three Mile Island restart, Susquehanna behind-the-fence) is a shortcut inside the third clock: use a restart of an existing pile, or load inside the fence, to compress a new pile's ten years into the length of a permit revision. SMRs admit the shortcut is not enough and buy 2030–2035. Neither is a "green-power story." Both privatize interconnection rights out of the public queue. earlier stress-test material wrote nuclear operators into the 60%～75% gross-margin band for this reason: when the queue itself becomes a commodity, whoever holds an executable permit starts collecting land scarcity premium. The current evidence review has no official gross-margin split for nuclear operators. 60%～75% is not promoted. Only the mechanism is kept.
+The important status change is already known:
 
-### 3.2 835 MW, 1.92 GW, and 500 MW represent different contractual and physical states
+> **conversion to the revised front-of-the-meter structure was completed in April 2026.**
 
-Three Mile Island 835 MW is a restart of an existing pressurized-water reactor. Power goes onto PJM first. Microsoft uses a PPA to match its data-center load in that region. It buys baseload and carbon attributes, not a dedicated busbar at the plant gate. Constellation itself says there is no behind-the-fence plan. By arithmetic, 835 MW is about the power cap of ten 80 MW mid-size campuses. Capacity factor is unverified. Do not treat the multiplication as available output. Microsoft is not buying a REC game. It is buying baseload watts that skip part of the "new generation plus new dedicated line" queue. It still has to pass the NRC. It still may not deliver until 2028. Signed in 2024, possible delivery in 2028: a generation and a half of GPUs in between.
+The monitoring question has therefore moved from “will the conversion happen?” to:
 
-The original Susquehanna structure involved a behind-the-meter campus and smaller planning figures. The June 2025 replacement PPA increased the commercial amount to **1.92 GW** and moved the physical arrangement front-of-the-meter; Talen's 2026 disclosure confirms that this conversion was **completed in April 2026**. The live variables are now the contractual ramp, energized MW, actual data-center load, and utilization.
+- capacity ramp;
+- transmission delivery;
+- energized load;
+- actual AWS data-center demand;
+- utilization.
 
-Google's 500 MW is a forward order book. First unit 2030, fleet written through 2035, technology path fluoride-salt reactor plus TRISO, almost no continuous commercial-operation sample in history. The commercial-operation window itself is a risk disclosure. Google going to SMRs equals admitting that the first half of this decade has not enough new piles to interconnect, so it can only sign forward. TVA later wrote the Hermes 2 demonstration as a PPA of at most 50 MW. That is demonstration scale, not 500 MW already on the ground.
+This path represents a long-duration commercial relationship between large data-center demand and existing nuclear generation through the grid/front-of-the-meter structure.
 
-The three contracts still do not justify the completed-tense claim "the cloud giants have already gone nuclear." Three Mile Island may not restart until 2028; Kairos is a post-2030 order book; Susquehanna's **front-of-the-meter conversion is now complete**, but the 1,920 MW contract still ramps through 2032. Power becomes a binding interrupt only when executable energized load fails to keep pace with deployed compute—not merely because large contractual MW figures exist.
+## 5. Google / Kairos: up to 500 MW of SMR development
 
-### 3.3 Power and semiconductor scarcity are separate value-capture layers
+Google and Kairos have a development agreement targeting up to approximately **500 MW**.
 
-scarcity premium: [Volume 8](vol-08.en.md). Supply commitments: [Volume 1](vol-01.en.md). Power can become a separate scarce infrastructure layer; it is not a line item inside semiconductor value capture. A signed PPA does not rewrite wafer, HBM, or packaging allocation, and semiconductor prepayments do not energize a campus. Upstream allocation depends on price, long-duration orders, prepayments, customer credit, utilization, roadmap certainty, supplier diversification, and geopolitics—not a deterministic rule that a supplier must "avoid offending" one customer. Power interrupts the loop only when reserved compute cannot become utilized assets because executable interconnection or generation is missing.
+Its maturity is different from the first two projects:
 
-ERCOT's spot and PJM's capacity market are different structures. The same 20-year PPA hedges different risks in the two markets: one fears price spikes more, the other fears capacity shortfall. This volume does not write the two markets' spreads as numbers. Firms writing "we bought green power" as one story covers that difference until the bill clears at the nodal price.
+- it is an advanced-nuclear development path;
+- commercial deployment is on a longer clock;
+- current energized AI load cannot be inferred from the development target.
 
-### 3.4 Antitrust does not change a main transformer. National security has no order that says "therefore do not split power"
+The 500 MW figure is therefore best understood as:
 
-The case file: [Volume 11](vol-11.en.md). National-security files: [Volume 8](vol-08.en.md). A fine does not change the bid, and it does not change the NRC timetable of one 835 MW unit. Writing "regulation is about to open the market, and the power constraint will open with it" as a timetable exceeds the public record. The Pennsylvania governor, in the Talen new contract, said "more power is more national security." That is a state-government political sentence, not a White House-issued "do-not-split order" or "must-protect-direct-connect order."
+> **a future supply option**
 
-When FERC denied the original Susquehanna expansion agreement, the dispute exposed a real conflict between rapid large-load deployment and grid reliability / consumer-cost rules. The June 2025 rewrite moved the arrangement front-of-the-meter; the **April 2026 completion of that conversion** closes the old procedural question but not the economic one. Regulation no longer decides whether the first reconfiguration happens; it now shapes the pace, cost, and reliability obligations of the 1,920 MW ramp. That distinction belongs in cloud depreciation models.
+rather than current power availability.
 
-### 3.5 Why the power fork is still not done
+## 6. The three project numbers cannot be added into “live AI power”
 
-Judgment section 7: acting alone means handing over each year's new lines and packaging. To change the allocation, bind three checks: prepayments large enough that the foundry cannot recognize only one buyer; software bound into one stack (UXL / oneAPI is a seed); memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. Power is not any of those three checks. Power is another line: even after the material is in hand, without energization the cabinet is still a liquid-cooled warehouse. Making "power stops the buildout" does not take three press releases. It takes enough campuses failing on permits and main transformers that even the leading buyer's prepayments have nowhere to become running cabinets.
+Adding:
 
-What is visible now is the opposite middle state. Buyers are adding group-wide capex: [Volume 8](vol-08.en.md). Seller supply commitments: [Volume 1](vol-01.en.md). Nuclear contracts are being signed, but 835 MW waits on 2028, 500 MW waits on 2030–2035, and 1,920 MW ramps through 2032. ERCOT has many applications and little delivery. That is a constraint, not yet a lock.
+**835 MW + 1.92 GW + 500 MW**
 
-China grid line items are empty: [Volume 12](vol-12.en.md). "China nuclear installed capacity is large" cannot be used to fill "global cabinets have already lost power." Cloud ASICs: [Volume 4](vol-04.en.md). In-house chips do not save a 120 kW cabinet's need for a main transformer. Writing "we make our own chips" as "we do not lack power" welds two forks into one.
+produces a nominal total of **3.255 GW**.
 
-Restarting existing piles is also not an industrial process already rolled out. CNBC citing Constellation: if Three Mile Island returns in 2028, it will be the second commercial pile restarted in US history, with Michigan Palisades written as the first and targeted earlier. Both still have to pass the NRC. Constellation's press release writes that restart requires replacing the turbine, generator, main transformer, and cooling controls; the company separately filed to extend operations at least to 2054. The about $1.6 billion in investor materials is restart capex, not the total Microsoft pays Constellation under the PPA. The two sums cannot be swapped. Brattle's $16 billion is a state-GDP impact study, a third sum, still less a contract. Three numbers appearing in the same news chain is the place this volume must cut.
+It does **not** produce 3.255 GW of operating AI load.
 
-A matching PPA and a plant-side direct connect must also be cut apart. Microsoft buys carbon matching inside the PJM region; the spokesperson said clearly there is no behind-the-fence plan. Amazon buys a campus inside the fence plus a later-rerouted front-of-the-meter long contract. Google buys a modular-reactor order book not yet built. All three are "buying nuclear." The bundle of rights they bought is not the same. Welding three press releases into "the clouds have already gone nuclear" covers legal form with a verb. FERC has already shown: legal form can send a direct connect back on the last centimeter of an expansion.
+The projects sit at different stages:
 
-### 3.6 The 20 kW inside the cabinet and the 835 MW outside the campus are two scales of the same war
+| Project | Nominal scale | Core state |
+|---|---:|---|
+| Microsoft / Constellation | ~835 MW | restart + regulatory process |
+| Talen / AWS | up to 1.92 GW | front-of-meter conversion completed; ramp continues |
+| Google / Kairos | up to 500 MW | long-duration development |
 
-earlier stress-test material wrote passive copper saving 20 kW per cabinet versus optics. The current evidence review has no official comparison experiment. 20 kW does not enter the fact layer. Only the mechanism is kept: every kilowatt saved inside the cabinet is more compute on an existing feeder; every megawatt bought outside the campus is to make the feeder itself appear. A firm that does only one of the two is exposed on the other. The NVIDIA user guide writes the whole cabinet at about 120 kW, the power shelves as eight shelves, 33 kW per shelf, N+N. That means redundant power itself is a heat load. Liquid cooling solves the compute tray. It does not solve the campus-side main transformer. Whoever only changes cold plates and does not change interconnection is doing a local optimization on a feeder already built.
+This is why energy analysis has to follow project state instead of adding headline capacity.
 
-Cabinets times spec: [Volume 16](vol-16.en.md). If the power constraint is truly done, the product stops at a smaller cabinet count. If it only stops in the application queue, the product keeps walking and residual bits keep being pulled. This volume does not write any cabinet-count tier as shipments that already happened.
+## 7. Grid queues are not the same as deliverable shortage
 
-Of the four firms, only three walk into this volume's nuclear evidence. Meta has no matching restart or SMR-fleet anchor in the current evidence set used by this volume. "The four clouds are all buying nuclear" cannot be written as fact. Constellation calls itself the largest US nuclear company, total installed 55 GW; Talen calls itself about 10.7 GW of generation assets, of which nuclear about 2.2 GW. Both sentences are company self-introductions, used to show who still holds existing piles, not available output checked in this volume. The Talen new contract also writes that the long contract will reduce the company's reliance on the federal nuclear production tax credit; Constellation investor materials write the Three Mile Island restart as aimed at 45Y. The tax credit is part of the restart economics. It is not a power-price formula Microsoft or Amazon has already paid on someone else's behalf. No first-party power-price formula is used; undisclosed pricing remains unquantified.
+Large interconnection queues demonstrate intense demand for grid access.
 
-## 4. Added analysis (scenarios, objections, testable checks)
+But queue data can contain:
 
-Power-volume extrapolations are unverified. Do not treat them as verified first-party facts. Scenarios are not probabilities. They are forks from the present.
+- generation;
+- storage;
+- load;
+- duplicate applications;
+- projects that later withdraw.
 
-Scenario A: direct connect and restarts become standard kit for a few clouds, and the public queue keeps worsening. Restarts of existing piles like Three Mile Island, and behind-the-fence sites rewritten as front-of-the-meter long contracts like Susquehanna, are copied onto a limited number of old sites. Winners are operators who already hold nuclear assets, and clouds that can sign a 20-year contract. Losers are mid-size colos that can only queue. 120 kW cabinets keep entering campuses, but campus count is capped by the power ceiling. Supply commitments still rise. the leading buyer still locks material. Only some of the locked material has to wait for power in a warehouse. That is not the hegemony shutting. It is acceleration cut by a slice. The objection: if FERC writes front-of-the-meter arrangements as a copyable standard tariff, the scarce scarcity premium of direct connect is diluted, and nuclear operators cannot collect "interconnection-rights land scarcity premium," only ordinary long-term power sales.
+Therefore:
 
-Scenario B: SMRs slip, and 2026–2030 produces "chips waiting for power." If Kairos 500 MW slides out of 2030–2035, Google must rely longer on the grid, gas, or other PPAs. If NRC review of Three Mile Island slips past 2028, Microsoft's 20-year contract still has not delivered. For Talen, the front-of-the-meter conversion is no longer the uncertainty—it was completed in April 2026. The uncertainty is whether the **1,920 MW ramp** proceeds on schedule through 2032 and at what actual utilization. A completed interconnection reconfiguration is not the same as fully energized contractual capacity.
+```text
+Queue MW ≠ Deliverable AI MW
+```
 
-Scenario C: algorithms and low-power architectures pull power density back from 120 kW. MLA compresses memory. Edge small models shunt inference. Cabinets return to air cooling or 40 kW-class liquid cooling. Then a 20-year nuclear PPA becomes an over-hedge. The objection: the judgment's training-cluster direction is larger unified memory and higher cabinet power, and public next-generation cloud ASICs have not retreated to 5 nm plus commodity DDR5. No firm says the next cabinet will return to air cooling. Writing "efficiency will save power" as already happened exceeds the present.
+The variables that matter for actual AI delivery are:
 
-Scenario D: regulation welds power and a split together, and still cannot finish it. The case file: [Volume 11](vol-11.en.md). What is alleged is tying, not a main transformer. A fine does not change that 835 MW in 2028. FERC has already shown: a national-security sentence and consumer cost can fight on opposite faces of the same order. A true CUDA split is another line, [Volume 8](vol-08.en.md). This volume does not write it as already started.
+- time to interconnect;
+- transmission;
+- transformer availability;
+- permitting;
+- physical energization.
 
-One comparison often missed: the duration mismatch between prepayments and power contracts. Most supply commitments are payable through fiscal 2027. They lock the next wafer, packaging, and inventory. A nuclear PPA once signed is 20 years. It locks watts and carbon attributes. Prepayments paid in 2027 may buy cabinets that only have 835 MW to match in 2028, a first SMR to hope for in 2030, and a possible full 1,920 MW in 2032. In the years between, cabinets walk on 4-year depreciation, and power walks on permits. Whoever writes the two timetables as one "already-locked energy war" covers the progressive tense with the completed tense.
+Queue size is evidence of congestion and demand for access, not a direct measure of executable AI power.
 
-Testable checks, only those whose right or wrong can be seen on the public record:
+## 8. Time-to-Power is becoming a competitive variable
 
-- Whether Three Mile Island Unit 1 actually restarts around 2028, and whether Microsoft buys matching power near 835 MW under the 20-year contract; whether a behind-the-fence build appears contrary to the official statement.
-- Whether Susquehanna's 1,920 MW contract ramps on the disclosed post-April-2026 conversion schedule, and how much of the contractual/planned capacity becomes actual energized load and utilization.
-- Whether Kairos still claims first unit 2030, the 2035 window, and at most 500 MW in total; if official text writes a concrete unit count, then it enters the fact layer.
-- Whether ERCOT Batch Zero produces a transmission plan in autumn 2027, and how much of the 474 GW of requests is marked allocatable load; whether the governor's pause becomes a formal ban.
-- Whether capacity holding interconnection agreements in PJM's reformed generation queue still sits near the 51 GW order of magnitude.
-- Whether equipment purchases in the four clouds' next earnings releases keep rising on a group-wide scope; whether anyone begins to break out "power-contract lives longer than 4-year hardware depreciation."
-- Whether justice.gov shows *United States v. NVIDIA*; whether France issues a communication des griefs; whether the EU issues an Article 101/102 case press release. If not, it is still "inquiries exist, complaints do not."
+AI hardware can move through product generations in months or a few years.
 
-## 5. Gaps and what cannot be written as fact
+Large power infrastructure generally moves more slowly.
 
-What this volume read is the Constellation 2024-09-20 press release and 8-K, Talen 2024-03 deal paraphrases and the 2025-06-11 Exhibit 99.1, the Google / Kairos 2024-10-14 official releases, the NVIDIA DGX GB user guide, ERCOT / PUCT 2026 public materials, Reuters and commission releases on FERC 2024-11 and later proceedings, and numbers already confirm in the judgment, [Volume 11](vol-11.en.md), and [Volume 8](vol-08.en.md). It did not read the three PPA bodies, the full Talen acquisition agreement, the Kairos engineering-permit docket, or an NRC review checklist. An "official press release" cannot be promoted to a checked contract.
+Projects that already possess:
 
-What cannot be written as already happened:
+- powered land;
+- existing grid connection;
+- firm generation;
+- fast permitting;
 
-- Power has already stopped the buildout, or has already shut the hegemony.
-- The Microsoft Three Mile Island contract consideration is "over $16 billion" — that is Brattle's state-GDP impact, not the agreement price.
-- Google officially ordered 7 SMR units — official text only writes at most 500 MW, multiple units, 2030–2035.
-- PJM + ERCOT + CAISO queue 2,600 GW.
-- Four-cloud 2024 AI-hardware capex = $215 billion; 2026 $670～750 billion.
-- $193.7 billion all from the four clouds, or four-cloud capex and data-center revenue can be crossed into a scarcity premium rate.
-- A Justice Department complaint, a settlement, a Mellanox split, a forced-open CUDA; a French statement of objections or a fine; an EU Article 101/102 case or a 10% fine.
-- The White House or the Pentagon has already issued text forbidding a split, or already issued text guaranteeing nuclear direct connect.
-- 835 MW, 960 MW, 1,920 MW, 500 MW are already verified annual operating hours.
-- 500 cabinets, 60–80 MW, annual 600 million kWh, 60,000 households; liquid-cooling BOM $40,000–55,000; copper saving 20 kW. The above are earlier stress-test values or arithmetic.
-- China and Europe grid queues, nuclear permits, data-center load — this volume has no addable official split.
-- Nuclear operators already enjoy 60%～75% gross margin.
+can therefore gain a material time advantage.
 
-Power determines whether delivered compute can become a utilized asset. Current evidence supports power as a major constraint, not as an already-completed shutdown of AI infrastructure expansion. The shared interrupt variables are summarized in [Volume 8](vol-08.en.md).
+This is **Time-to-Power**.
+
+Hyperscaler competition increasingly depends not only on:
+
+- compute;
+- chips;
+- networks;
+
+but also on:
+
+> **how quickly another 100 MW can actually be energized.**
+
+## 9. Semiconductor and power bottlenecks can rotate
+
+When CoWoS or HBM is tight, hardware is the bottleneck.
+
+If hardware supply expands but grid delivery lags, power can become the next bottleneck.
+
+If power catches up but workload demand is insufficient, utilization becomes the constraint.
+
+This is the practical form of the **Rolling Bottleneck Cascade**.
+
+The limiting layer can migrate:
+
+**manufacturing → power → utilization**
+
+and later move again as conditions change.
+
+## 10. Long-duration power contracts are also financial commitments
+
+A PPA is both:
+
+- a supply hedge;
+- a financial obligation.
+
+Under high-demand scenarios, secure MW can be a moat.
+
+Under **S4 Capital Hard Landing**, long-duration power commitments can become burdensome if utilization falls.
+
+Power contracts therefore need to be evaluated through:
+
+- duration;
+- take-or-pay structure;
+- ramp profile;
+- utilization;
+- underlying project risk.
+
+The nominal GW figure is only the first line of the analysis.
+
+## 11. Current judgment
+
+As of **August 2026**, the evidence supports four conclusions:
+
+- AI racks have reached roughly 120 kW-class power density;
+- hyperscalers are signing 500 MW-to-GW-scale long-duration power arrangements;
+- the Talen/AWS front-of-the-meter conversion has been completed;
+- announced and contracted capacity remains much larger than the AI load that can be confirmed as utilized.
+
+Power is therefore already a strategic scarce layer in AI infrastructure.
+
+The most useful metric is not:
+
+> “How many GW have been announced?”
+
+It is:
+
+> **How many MW have been permitted, energized, and then used continuously by high-utilization AI workloads?**
