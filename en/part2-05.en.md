@@ -42,7 +42,7 @@ Auto on the same table: FY26 $2,349 million, up 39% year on year; Q4 $604 millio
 
 Q1 FY27 changed scope. Edge computing folds in PCs, game consoles, workstations, wireless base stations, robots, auto. Official table: Edge $6,369 million, up 29% year on year, up 10% sequentially. CFO original: The increases were driven by robust Blackwell workstation demand, partially offset by slower consumer PC demand that was tempered by elevated memory and systems prices. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
 
-This quarter no longer lists Gaming separately. What can be nailed: consumer PCs were held down by "elevated memory and systems prices." Workstations are rising. Gaming cards are no longer reported alone.
+This quarter no longer lists Gaming separately. What can be confirmed: consumer PCs were held down by "elevated memory and systems prices." Workstations are rising. Gaming cards are no longer reported alone.
 
 ### 2.4 Foundry and makers: consumer electronics is the side that yields
 
