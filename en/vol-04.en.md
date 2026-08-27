@@ -1,12 +1,12 @@
 # Volume 4: TSMC, 2nm, and the fight for leading-edge manufacturing (ASML High-NA EUV and foundry premiums)
 
-Chinese original: [vol-04.md](vol-04.md)
+Chinese original: [vol-04.md](vol-04.en.md)
 
 ## 1. The question this volume answers
 
 Is the fight for leading-edge manufacturing on a 2nm price list, or on slots for packaging and first-to-market nodes? Can Apple still lock next year's new lines? Is booked first-customer 19% a safe distance? Is 835,000 cabinets locking 3nm the right pool?
 
-This volume does not write a lithography-tool unit quote. It does not write how many billions a 2nm fab costs. Those are draft numbers. TSMC earnings write-ups and the annual report have no such split. What this volume can use is what TSMC itself reports: shipments, wafer-revenue mix, platforms, customer concentration, packaging-and-test revenue share, and C.C. Wei's original sentences on earnings calls. Foundry concentration uses institutional single-quarter revenue share. Wafers per cabinet use the official cabinet bill of materials times a geometry estimate. Sell-side monthly capacity is labeled sell-side. Prepayments and profit cash join source 01: whoever can pay for the slot, TSMC has no financial reason to offend the first name for the second.
+This volume does not invent lithography-tool prices, 2nm-fab costs, or customer-level wafer allocations. It uses what TSMC reports directly: shipments, wafer-revenue mix, platforms, customer concentration, packaging/test share, and management statements on tightness. Foundry concentration and customer-specific CoWoS estimates remain institutional or sell-side evidence. Prepayments and profit connect through a **resource-allocation mechanism**: price, long-duration orders, prepayment, customer credit, utilization, roadmap certainty, diversification, and geopolitics all matter. No single gross-margin comparison proves how TSMC must allocate capacity.
 
 The main line nails this: the increment is HPC; booked 19% is not a safe distance. Occupy the increment and next year's slots belong to the first name. The binding line is CoWoS. About 100k cabinets take more than half of this packaging line. You do not need 800,000 cabinets to lock 3nm. 835,000 cabinets equals 4.5 million wafers divided by 5.39. The pool is wrong. This volume writes that line. It does not start a separate price war.
 
@@ -76,7 +76,7 @@ Public high-end AI logic volume is still mostly TSMC, with Samsung as a parallel
 
 ### 3.6 Profit cash: who can add a prepayment tranche
 
-FY26, supply commitments, and Intel 1999 are in [Volume 1](vol-01.md). This volume does not reopen the full table. This volume uses one sentence: TSMC gross margin 59.9% is already high, and what it still expands is lines and fixtures that walk the first name's mix. Whoever can prepay can add a tranche. A neutrality pledge has no consideration in front of a check. There is no line that says "paid TSMC X billion for packaging or 2nm first silicon." Do not invent one.
+FY26, supply commitments, and Intel 1999 are in [Volume 1](vol-01.en.md). This volume does not reopen the full table. This volume uses one sentence: TSMC gross margin 59.9% is already high, and what it still expands is lines and fixtures that walk the first name's mix. Whoever can prepay can add a tranche. A neutrality pledge has no consideration in front of a check. There is no line that says "paid TSMC X billion for packaging or 2nm first silicon." Do not invent one.
 
 ### 3.7 Wafers per cabinet and the wrong pool
 
@@ -114,11 +114,11 @@ What official text can nail dead is only: packaging is tight, cannot meet, alrea
 
 Analysis add. Apple can lock a large slice of phone leading-edge logic. It cannot lock the increment and packaging. It just went from ten-year first name to second, still about 17%. Other phone brands split what is left inside the 29% smartphone platform. The smartphone platform still grew 11% for the year, but share dropped six points. Apple locking 3nm cannot save AMD's cabinets, and cannot save the slot for its own small slice of PC chips inside HPC. Even if PC chips are classified into HPC, they still bid against training cabinets, cloud ASICs, and networking chips for the same first-to-market slice and the same packaging slice.
 
-Hypothesis from here: next year's new packaging and 2nm first silicon are locked first by whoever prepaid more. Booked 19% is not a safe distance. Occupy the increment and next year's slots belong to the first name. TSMC has no financial reason to offend the first name for the second. The HPC-up-48% slice is locked first by whoever committed more. Acting alone means handing over each year's new lines and packaging. The main line writes that changing the allocation requires three checks: prepayments large enough that it cannot recognize only one buyer; software bound into one stack; memory longs that leave a line for commodity bits. Miss one check and you are still picked off one by one. This volume only treats how the first check lands on the manufacturing end. If the first check does not land, the next two are empty in other volumes too.
+Hypothesis from here: if one platform maintains superior order scale, prepayment capacity, credit quality, utilization, and roadmap certainty, some **incremental** packaging and leading-edge capacity can tilt toward it. The historical 19% customer-revenue share is not a safe-distance metric and must not be converted into a wafer or CoWoS share. The counterweight is a credible second bid plus substitutable system stacks and sufficient memory/power supply—not a claim that TSMC is financially unable to diversify customers.
 
 ### 4.3 Prepayments are reproduction. The clouds are not unarmed
 
-The mechanism is in [Volume 1](vol-01.md). This volume lands it on the manufacturing end: lock the increment; you need not first take half the factory. Half the factory is the pool of phones plus MCUs plus auto plus mature nodes. Past half of the scarce slice, on a sell-side 1-million-wafer pool, is about 100k cabinets. The two pools differ by an order of magnitude. The wrong pool yields a sentence with no physical meaning, such as needing 800,000 cabinets to lock 3nm.
+The mechanism is in [Volume 1](vol-01.en.md). This volume lands it on the manufacturing end: lock the increment; you need not first take half the factory. Half the factory is the pool of phones plus MCUs plus auto plus mature nodes. Past half of the scarce slice, on a sell-side 1-million-wafer pool, is about 100k cabinets. The two pools differ by an order of magnitude. The wrong pool yields a sentence with no physical meaning, such as needing 800,000 cabinets to lock 3nm.
 
 ### 4.4 5.39 only divides packaging, not 15 million
 
@@ -130,11 +130,11 @@ Sell-side 1 million wafers, NVIDIA about 60%: the direction matches the main lin
 
 ### 4.5 Onshore US fabs solve an origin story. They do not automatically copy packaging discipline
 
-Analysis add. The annual report writes Arizona as a wholly owned 12-inch fab. The capacity number given is above 17 million inside the managed perimeter. It does not split how much advanced packaging each fab has. Eastern capacity coming up is a parallel bid, not a substitute seat. Three layers: [Volume 12](vol-12.md). The Samsung Taylor long is Tesla willing to hand it over; see 3.8 above. 16k / 24k / 40k wafers per month have no announcement. Do not use them to fill the parallel line's capacity.
+Analysis add. The annual report writes Arizona as a wholly owned 12-inch fab. The capacity number given is above 17 million inside the managed perimeter. It does not split how much advanced packaging each fab has. Eastern capacity coming up is a parallel bid, not a substitute seat. Three layers: [Volume 12](vol-12.en.md). The Samsung Taylor long is Tesla willing to hand it over; see 3.8 above. 16k / 24k / 40k wafers per month have no announcement. Do not use them to fill the parallel line's capacity.
 
 ### 4.6 Cloud ASICs also return to the same slice
 
-Public specs are in later sources and [Volume 25](vol-25.md). This volume does not reopen the spec table. To beat today's cabinet you return to 3nm, HBM, and this packaging. Only a true retreat to 5nm and less packaging gets you off the scarce slice. Public next generations have not stopped. So cloud custom silicon does not automatically open a second foundry. They are a second bid on the same slice, not another fab.
+Public specs are in later sources and [Volume 25](vol-25.en.md). This volume does not reopen the spec table. To beat today's cabinet you return to 3nm, HBM, and this packaging. Only a true retreat to 5nm and less packaging gets you off the scarce slice. Public next generations have not stopped. So cloud custom silicon does not automatically open a second foundry. They are a second bid on the same slice, not another fab.
 
 ## 5. Analysis add (scenarios, the other side, checks that can be tested)
 
