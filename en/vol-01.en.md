@@ -1,17 +1,20 @@
-# Volume 1: Executive summary and the core judgment for the next decade (cognitive means of production and intelligence rent)
+# Volume 01: Executive Summary and Core Judgments for the Next Decade
 
 Chinese original: [vol-01.md](vol-01.en.md)
 
-## 1. The question this volume answers
+## 1. Core question
 
-Over the next ten years, has compute already moved from a tool used by people to a means of production that can itself yield cognitive value? If so, who collects the rent, from whom, and through which physical bottleneck? This volume does not tear down a single fab line and does not report unverified cabinet counts. It nails the spine of the book.
+Has compute moved from being merely a tool used by people toward becoming a capital-intensive means of producing cognitive output—and if so, which layers capture value, which resources become scarce, and what can interrupt the reinforcing loop?
 
-The draft called this "intelligence rent." Rent is a metaphor, not an accounting line. The current question is not whether share and gross margin form one "monopoly score." It is whether **scarce-layer value capture** lets a platform reserve future resources faster than rivals can substitute the full stack. FY26 free cash flow was $96.575B; **FY27 Q2 operating income was $63.734B, Data Center revenue $89.0B, and GAAP gross margin 75.0%**. TSMC and memory makers operate under different economics. The report therefore tracks cash generation, supply commitments, substitutability, and **incremental advanced-capacity capture**, rather than asserting that one margin number decides every allocation.
+This volume establishes the book's current analytical base:
 
-Three supply layers are not one layer. China has a comparatively stronger parallel-supply position in smartphones and parts of consumer computing, while high-end workstation and frontier AI stacks still lack equivalent substitution across advanced logic, HBM, advanced packaging, high-speed interconnect, and mature software. The analytical mistake is to convert either fact into an absolute statement about "China can only make phones" or "domestic substitution is complete." The relevant variable is which layer can close at what scale and migration cost.
-
-This volume also nails the sales unit. They already made cards. What changed is selling training as a cabinet. Once the cabinet is the default sales unit, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain. Once inside the domain, the next generation is bought inside the same domain. Referee and athlete are welded together.
-
+- the competitive unit has moved from chips toward **system stacks**;
+- scarce-layer value capture is more important than a single market-share or margin score;
+- prepayments and long-duration commitments can influence incremental capacity allocation;
+- Non-AI Residual Capacity can deteriorate even while total supply expands;
+- hyperscaler system stacks can divert platform profit while still competing for the same advanced logic, HBM, packaging, and power;
+- model companies can become Anchor Compute Buyers;
+- future outcomes are represented by S1–S4 rather than fixed point probabilities.
 ## 2. Official and institutional sources
 
 ### 2.1 NVIDIA FY26 and Q1 FY27
@@ -26,7 +29,7 @@ Full-year gross margin fell from 75.0% to 71.1%. The company itself wrote the re
 
 Q1 FY27 (ended 26 April 2026; CFO commentary https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm ): revenue $81,615M, gross margin 74.9%, operating income $53,536M, net income $58,321M, data center $75,246M. Net income includes equity marks. CFO text: Q1 net gains on equity securities of $15.9B, driven by unrealized gains on public and private equity. The reconciliation takes $15,936M of net equity-security gains out of other income; non-GAAP net income $45,548M. Bidding for capacity and writing prepayments looks at operating income $53,536M, not net income $58,321M. Quarterly operating cash $50,344M; free cash $48,554M. Returns to shareholders about $20B. Supply-related commitments rose from $95.2B at FY26 year-end to $119.0B.
 
-That is the athlete's size among the four corners. The referee is a unified compute architecture, high-speed interconnect, and a cabinet standard. The CFO write-up describes the platform as processors, interconnect, software, algorithms, systems, and services. The coach is Hopper to Blackwell to Rubin, with an HBM, packaging, and interconnect mix. The 10-K writes that Rubin is expected to begin volume shipments in the second half of FY27. The model player is Nemotron, NeMo, and inference microservices. The product lines exist. The revenue bulk is still on cabinets. Do not invent ARR.
+NVIDIA's platform advantage spans system sales, software/interfaces, roadmap and supply coordination, and model/deployment extensions. The company's own disclosures describe a platform combining processors, interconnect, software, algorithms, systems, and services. The largest directly reported revenue pool remains Data Center infrastructure rather than a separately disclosed model-software segment.
 
 Sales unit: the official GB200 NVL72 page is 36 Grace, 72 Blackwell, 13.4 TB HBM3e, 17 TB LPDDR5. https://www.nvidia.com/en-us/data-center/gb200-nvl72/ They already made cards. What changed is selling training as a cabinet.
 
@@ -46,9 +49,9 @@ Microsoft FY25 annual report: revenue $281,724M, operating income $128,528M, net
 
 ### 2.4 Official prepayment sentence. No TSMC dollar split
 
-10-K: "We have also entered and may continue to enter into prepaid manufacturing and capacity agreements to supply both current and future products." It names TSMC and Samsung for wafers, and Hynix, Micron, and Samsung for memory, using chip-on-wafer-on-substrate packaging. It does not split dollars by vendor. There is no line that says "paid TSMC X billion for packaging or 2nm first silicon." Do not invent one.
+10-K: "We have also entered and may continue to enter into prepaid manufacturing and capacity agreements to supply both current and future products." It names TSMC and Samsung for wafers, and Hynix, Micron, and Samsung for memory, using chip-on-wafer-on-substrate packaging. It does not split dollars by vendor. There is no line that says "paid TSMC X billion for packaging or 2nm first silicon." The report does not infer one.
 
-Supply commitments: $95.2B at FY26 year-end, $119.0B at Q1 FY27 end. CFO text: We have strategically secured inventory and capacity to meet demand beyond the next several quarters. 10-K note: substantially all will be paid through fiscal year 2027. Some agreements can be rescheduled or cancelled. Do not write that the entire TSMC factory has already been bought dead. The three-month add is $23.8B. The company itself wrote it as locking inventory and capacity.
+Supply commitments: $95.2B at FY26 year-end, $119.0B at Q1 FY27 end. CFO text: We have strategically secured inventory and capacity to meet demand beyond the next several quarters. 10-K note: substantially all will be paid through fiscal year 2027. Some agreements can be rescheduled or cancelled. The report does not treat that the entire TSMC factory has already been bought dead. The three-month add is $23.8B. The company itself wrote it as locking inventory and capacity.
 
 Multi-year cloud-service commitments: $27.0B at FY26 year-end, $30.0B at quarter-end, officially for R&D, not wafer prepayments. Write them apart.
 
@@ -62,17 +65,17 @@ TrendForce: 51% of 2026 DRAM bits are HBM plus RDIMM. Institutional scope.
 
 ### 2.6 Four-cloud capex is not $215B of AI hardware
 
-The draft sentence "the four clouds officially broke $215B of AI capex in 2024" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B. Microsoft FY24 purchases of property and equipment $44,477M; Amazon CY2024 net $77,658M; Google $52,535M; Meta equipment $37,256M; sum $211,926M. Meta's company figure plus finance-lease principal: $213,895M. See `四云Capex口径核对.md`. All four lines are group-wide capex, not an AI-server line item. Amazon includes fulfillment. Meta includes Reality Labs. Google includes offices and other technical facilities.
+historical stress-test material sentence "the four clouds officially broke $215B of AI capex in 2024" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B. Microsoft FY24 purchases of property and equipment $44,477M; Amazon CY2024 net $77,658M; Google $52,535M; Meta equipment $37,256M; sum $211,926M. Meta's company figure plus finance-lease principal: $213,895M. See `四云Capex口径核对.md`. All four lines are group-wide capex, not an AI-server line item. Amazon includes fulfillment. Meta includes Reality Labs. Google includes offices and other technical facilities.
 
-2025 mixed year: Microsoft $64,551M, Amazon net $128,320M, Google $91,447M, Meta equipment $69,691M, sum on the order of $353.9B, still group-wide, not AI hardware. The draft 2026 range $670–750B cannot be added from guidance disclosed in this pass. The midpoint of the three firms that gave guidance is about $490–520B. Microsoft official 2026 guidance was not read. Do not fill it in.
+2025 mixed year: Microsoft $64,551M, Amazon net $128,320M, Google $91,447M, Meta equipment $69,691M, sum on the order of $353.9B, still group-wide, not AI hardware. historical stress-test material 2026 range $670–750B cannot be added from guidance disclosed in the current evidence review. The midpoint of the three firms that gave guidance is about $490–520B. Microsoft official 2026 guidance was not read. Do not fill it in.
 
 ## 3. Push the mechanism forward
 
 **Scarce-layer value capture is not the same as share dominance.** NVIDIA's current advantage combines platform gross margin, free cash flow, long-duration demand, software/interconnect integration, and supply commitments. Cloud buyers are also capital-rich and are building their own system stacks. Allocation therefore depends on price, order scale, prepayment, credit, utilization, roadmap certainty, supplier diversification, and geopolitics. The historical TSMC 19% customer-revenue share is not a safe-distance metric; the forward variable is the share of **incremental** scarce AI/HPC resources captured across generations.
 
-Hypothesis from here: while the margin holds, commitments keep rising. Anyone else who wants the same material pays more, or does not get it. TSMC's board answers to shareholders. When the first name's profit exceeds the increment from everyone else, there is no financial reason to offend the first name for the second. This is not an administrative takeover. It is prepayments buying the slot. A neutrality pledge has no consideration in front of a check. Booked 19% is not a safe distance. What is being opened is HPC and packaging. Apple locks phone logic. Occupy the increment and next year's slots belong to the first name.
+Hypothesis from here: if strong cash flow, long-duration orders, prepayments, utilization, credit quality, and roadmap certainty persist, the leading buyer can gain greater influence over incremental scarce capacity. Suppliers still balance customer diversification, geopolitics, utilization, and long-run bargaining power. Historical customer revenue share is therefore not the forward allocation variable; **incremental advanced-capacity capture** is.
 
-Once the sales unit moves up, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain. Once inside, the next generation is bought inside the same domain. Referee and athlete are welded together. For a cloud ASIC to win, it must also split this domain on training, not only shunt inference. Public specs: [Volume 4](vol-04.en.md). No retreat to 5nm plus commodity DDR5 as the inference mainstay was found. To beat today's cabinet you return to 3nm, HBM, and packaging, and you bid against 75% gross margin.
+Once the sales unit moves up, customers do not compare single-card FLOPs. They compare whether they can enter a 72-card high-speed domain. Once inside, the next generation is bought inside the same domain. software/interface layer and system sales layer are welded together. For a cloud ASIC to win, it must also split this domain on training, not only shunt inference. Public specs: [Volume 4](vol-04.en.md). No retreat to 5nm plus commodity DDR5 as the inference mainstay was found. To beat today's cabinet you return to 3nm, HBM, and packaging, and you bid against 75% gross margin.
 
 Three layers are not one layer. China can build parallel supply in smartphones and parts of consumer computing, but that does not yet equal an interchangeable frontier AI system stack. CXMT's prospectus does not disclose an HBM product line; that is a document-bounded negative fact, not proof that no HBM R&D exists anywhere. The correct question is whether advanced logic, HBM-class memory, packaging, interconnect, and software migration close together at sufficient scale.
 
@@ -90,11 +93,11 @@ The window is the few years before the next first-to-market node is locked by co
 
 Intel's 59.7% gross margin in 1999 sat on CPUs produced in its own fabs and competed in a market where a second compatible CPU could directly attack share. Today's platform contest is broader: chips, HBM, packaging, interconnect, compiler/runtime, rack/pod, power, and workload deployment form a **system stack**. Breaking one layer can reduce platform profit without immediately substituting every physical layer. That is why the report separates share erosion, platform-profit diversion, and upstream resource competition.
 
-FY26 free cash $96.575B is already more than three times Intel's 1999 full-year revenue of $29.389B. The scale comparison only shows that bidding power is not in the same era. Intel's net income that year was $7.314B, back-calculated net margin 24.9%. NVIDIA's back-calculated net margin is 55.6%. The gap is not an accounting trick. The scarce slice sits on its books, not on the foundry's. TSMC's 59.9% is a foundry gross margin. Hynix's 49% is a memory margin. Both are rich. Neither covers the firm that sells cabinets. Seller riches prove the mix is set by the coach: foundries and memory makers expand to the Hopper-to-Blackwell-to-Rubin mix, and the increment is bought first by prepayments.
+FY26 free cash $96.575B is already more than three times Intel's 1999 full-year revenue of $29.389B. The scale comparison only shows that bidding power is not in the same era. Intel's net income that year was $7.314B, back-calculated net margin 24.9%. NVIDIA's back-calculated net margin is 55.6%. The gap is not an accounting trick. The scarce slice sits on its books, not on the foundry's. TSMC's 59.9% is a foundry gross margin. Hynix's 49% is a memory margin. Both are rich. Neither covers the firm that sells cabinets. Seller riches prove the mix is set by the roadmap and supply-coordination layer: foundries and memory makers expand to the Hopper-to-Blackwell-to-Rubin mix, and the increment is bought first by prepayments.
 
 Microsoft FY25 net income $101.832B; purchases of property and equipment $64.551B. The clouds are not unarmed. The guns point at halls, power, land, and networks, not at first-to-market packaging. NVIDIA's free cash the same year was $96.575B; purchases of property and equipment and intangibles only $6.042B. Asset-light is not a weakness. It leaves the heavy assets on other books and the slots on its own checks. A cloud hundred billion and its hundred billion cannot sit on one "who is richer" table. The uses differ. The object of reproduction differs.
 
-### 3.2 After the three layers are nailed, China numbers cannot save global cabinets
+### 3.2 After the three layers are confirm, China numbers cannot save global cabinets
 
 The scarce objects on the phone layer are leading-edge logic and LPDDR. Apple can lock a large slice of this layer. It cannot lock the packaging increment or 2nm first silicon. TSMC's 2025 smartphone platform fell from 35% to 29%; the absolute dollar amount still rose 11%. Phones did not vanish. What vanished is their seat in the increment pie. The scarce objects on the PC layer are x86, Windows, and discrete GPUs. This volume does not report unverified attach rates. The scarce objects on the AI layer are the cabinet, HBM, packaging, high-speed interconnect, and a unified compute architecture. The three layers do not share buyers, sellers, or substitutes.
 
@@ -112,9 +115,9 @@ The window is the few years before the next first-to-market node is locked by co
 
 ## 4. What this volume cannot write as fact
 
-The draft "four-cloud 2024 capex officially broke $215B of AI" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B, not an AI-hardware line item.
+historical stress-test material "four-cloud 2024 capex officially broke $215B of AI" cannot be treated as fact. What can be added is mixed-year group-wide equipment purchases of about $211.9B to $213.9B, not an AI-hardware line item.
 
-The draft NVIDIA FY25 capex of $2.98B does not match the FY25 CFO purchases of property and equipment of $3,236M, and it matches FY26 $6,042M even less. Use the official cash-flow statement.
+historical stress-test material NVIDIA FY25 capex of $2.98B does not match the FY25 CFO purchases of property and equipment of $3,236M, and it matches FY26 $6,042M even less. Use the official cash-flow statement.
 
 835,000 cabinets locking 3nm is the wrong pool. 5.39 is a packaging-wafers-per-cabinet estimate. It cannot divide TSMC's full-year 15 million wafers. See source 02. "About 100k cabinets take more than half" is a sell-side million-wafer pool times the estimate. It is not an annual report.
 
@@ -122,15 +125,15 @@ CoWoS monthly capacity from 13k to 130k wafers, and NVIDIA at 60%, is not a TSMC
 
 Backdoors, stolen training data: no public forensics. They do not enter the fact layer. A privileged position can be written: training has to pass their stack and their cabinet.
 
-Inference-microservice revenue, model ARR, and contract volume with OpenAI: no split is published. Do not invent one.
+Inference-microservice revenue, model ARR, and contract volume with OpenAI: no split is published. The report does not infer one.
 
-Latest full gross margins for Apple, AMD, Qualcomm, and Huawei were not opened file-by-file in this pass. Do not invent them. Mechanically they do not sell this cabinet.
+Latest full gross margins for Apple, AMD, Qualcomm, and Huawei were not opened file-by-file in the current evidence review. The report does not infer them. Mechanically they do not sell this cabinet.
 
 2nm first-silicon prepayment dollars, a High-NA bulk buyout, TSMC already a captive fab: no official sentence was found. Leave them empty.
 
-"Intelligence rent" is a metaphor, not an accounting line. SaaS gross margin from 85% to 55%, and downstream BOM up 20% to 30%, are draft extrapolations, not audited samples.
+"scarce-layer value capture" is a metaphor, not an accounting line. SaaS gross margin from 85% to 55%, and downstream BOM up 20% to 30%, are historical stress-test extrapolations, not audited samples.
 
-C.C. Wei at the shareholders' meeting, "sold out through 2026": the Focus Taiwan shareholders' meeting copy we opened does not have that sentence. What official text can nail is tight, cannot meet, and already limits customer growth.
+C.C. Wei at the shareholders' meeting, "sold out through 2026": the Focus Taiwan shareholders' meeting copy we opened does not have that sentence. What official text can confirm is tight, cannot meet, and already limits customer growth.
 
 Converting 19%, 58%, and 24% into tens of thousands of wafers. Revenue share is not unit share. Leading-edge ASP is high. 24% of revenue is far smaller than 24% of wafers.
 
