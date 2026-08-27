@@ -111,14 +111,14 @@ Long-duration orders and prepayments can reserve future supply. The key variable
 
 ## Eight macro essays — English
 
-- [Essay 1: The Means-of-Production Revolution and the Overall Judgment](en/part2-01.en.md)
-- [Essay 2: AI Platform Concentration and NVIDIA's Software-Hardware System Power](en/part2-02.en.md)
-- [Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply-Chain Contest](en/part2-03.en.md)
-- [Essay 4: Hyperscaler CapEx War, System-Stack Counterattack, and Architecture-Driven Cost Reduction](en/part2-04.en.md)
-- [Essay 5: Resource Reallocation and Cost Transmission into Consumer Electronics and the Real Economy](en/part2-05.en.md)
-- [Essay 6: The Energy War and Physical Grid Constraints](en/part2-06.en.md)
-- [Essay 7: The Capital Supercycle, Bubble Mechanics, and Extreme Stress Tests](en/part2-07.en.md)
-- [Essay 8: US–China Compute Competition and the 2036 Endgame Decision Tree](en/part2-08.en.md)
+- [Macro Essay 1: The Means-of-Production Shift and the Overall Judgment](en/part2-01.en.md)
+- [Macro Essay 2: Platform Concentration and NVIDIA's Hardware–Software System Power](en/part2-02.en.md)
+- [Macro Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply Contest](en/part2-03.en.md)
+- [Macro Essay 4: Hyperscaler CapEx, System-Stack Counterattack, and DeepSeek's Architecture-Driven Cost Reduction](en/part2-04.en.md)
+- [Macro Essay 5: Resource Reallocation and Cost Transmission into Consumer Electronics and the Real Economy](en/part2-05.en.md)
+- [Macro Essay 6: The Energy War and Physical Grid Constraints](en/part2-06.en.md)
+- [Macro Essay 7: The Capital Supercycle, Bubble Mechanisms, and Extreme Stress Tests](en/part2-07.en.md)
+- [Macro Essay 8: U.S.–China Compute Competition and the 2036 Endgame Decision Tree](en/part2-08.en.md)
 
 ## Contributing
 
