@@ -70,7 +70,7 @@ PC 使用 DDR5/LPDDR。
 TSMC 2025 smartphone platform：
 
 - revenue share：**29%**
--同比仍增长。
+- 同比仍增长。
 
 因此，AI 并没有“挤掉 smartphone”。
 
