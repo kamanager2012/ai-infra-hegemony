@@ -2,7 +2,7 @@
 
 An industry research monograph: **40 volumes + 8 macro essays** on AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, software economics, labor, and the 2026–2036 industrial endgame.
 
-The Chinese edition remains the source of truth and is updated first: [中文主目录](../README.md).
+The Chinese research corpus remains the source of truth: [中文主目录](../README.zh-CN.md). The repository root [README](../README.md) is the English-first release landing page.
 
 **Research rule:** facts must be sourced; forecasts remain labeled as hypotheses, mechanisms, scenarios, or stress tests. Revenue share is not wafer share. Contracted MW is not energized load. Guidance is not actual performance.
 
@@ -31,7 +31,7 @@ The Chinese edition remains the source of truth and is updated first: [中文主
 8. [Mechanism Index](机制索引.en.md)
 9. [X / social launch drafts](SHARE.md)
 
-> **English publication status:** the English landing page, master framework, and publication-critical chapters have been synchronized to the current F→H→M→S→X architecture. A second full-volume editorial QA is still in progress across the 40 English volumes and 8 macro essays. Earlier translations may still contain legacy draft language or superseded framing until that pass is complete. The Chinese `main` edition remains the source of truth for resolving any discrepancy.
+> **English publication status:** all 40 English volumes and 8 macro essays have completed a repository-wide publication-language and legacy-framing pass. Publication-critical volumes 36, 37, 39, and 40 were additionally re-edited against the current Chinese structure in this release-preparation cycle. This does not replace future sentence-level bilingual synchronization when the Chinese research changes; the Chinese `main` corpus remains the source of truth for resolving any discrepancy.
 
 ## Research method
 
