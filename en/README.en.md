@@ -121,7 +121,9 @@ Copy-ready launch posts are in [SHARE.md](SHARE.md). They are drafts only; nothi
 
 Rules: [CONTRIBUTING.md](../CONTRIBUTING.md)
 
-If a figure is wrong, open a [fact or definition issue](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml).
+If a figure, date, denominator, accounting definition, or evidence grade is wrong, open a [fact/evidence issue](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml).
+
+If you think an assumption, mechanism, scenario, or falsification condition is wrong, open a [mechanism/scenario challenge](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=analysis.yml).
 
 ## Cite
 
