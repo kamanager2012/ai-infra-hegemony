@@ -61,13 +61,13 @@ The near gate is administrative lock. See [Volume 12](vol-12.md). The 10-K itsel
 
 ### 3.6 The East's second bid has not stood
 
-The five paths: [Volume 8](vol-08.md). What this Eastern path looks like when done: domestic advanced packaging and HBM-grade bits can volume enough to hold a training cabinet, and the bid is large enough that newly opened foundry and maker lines cannot only recognize the first name. The prospectus is still selling DDR / LPDDR. Foundry share is parked on TVs and notebooks. A second global-scale resource bid has not yet been demonstrated. The current China stack is driven primarily by constrained access, domestic demand, strategic autonomy, and improving system capability rather than a demonstrated global cost advantage over CUDA.
+The five paths: [Volume 8](vol-08.md). A mature China-side path would require domestic advanced packaging and HBM-grade memory at sufficient scale for frontier systems, plus enough long-duration demand to compete credibly for incremental foundry and memory capacity. The prospectus is still selling DDR / LPDDR. Foundry share is parked on TVs and notebooks. A second global-scale resource bid has not yet been demonstrated. The current China stack is driven primarily by constrained access, domestic demand, strategic autonomy, and improving system capability rather than a demonstrated global cost advantage over CUDA.
 
 ## 4. Scenarios, counterarguments, and testable indicators
 
 The endgame table does not enter the facts. The four branches are used as switches. No frequencies.
 
-Switch one: four corners lock. The right to define the cabinet moved up. OEM certified systems are already happening. Consumer notebooks assembled to drawing have not finished. The China market cannot change this slice. Test: whether TSMC HPC keeps pressing past phones, whether first customer keeps leaving 19%, whether supply commitments keep adding.
+Switch one: incumbent system-stack concentration strengthens. The unit of control moves further upward from chips to certified systems and interfaces. Test: whether TSMC HPC continues to outgrow smartphones, whether customer concentration changes, and whether supply commitments continue to rise.
 
 Switch two: China-stack closure. A second compiler/runtime ecosystem materially lowers switching cost and frontier workloads run at competitive scale. Test: whether CXMT's next prospectus or annual report shows an HBM product row and an HBM revenue row; whether YMTC still only writes 200-layer-and-above NAND; whether SMIC share is still pulled by TVs and notebooks; public MFU comparisons of MoE on CANN clusters.
 
