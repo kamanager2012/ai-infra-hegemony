@@ -54,7 +54,7 @@ The report now explicitly models:
 - All 40 English volumes and 8 macro essays have completed a full repository-wide publication QA pass. High-risk legacy translations and all 8 macro essays were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression.
 - The targeted regression now passes for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns.
 - Root and English-edition indexes have been synchronized to the actual H1 titles of all 40 English volumes and all 8 English macro essays.
-- The previous CC BY 4.0 file has been replaced by the **AI Infrastructure Hegemony Restricted Research License v1.0**. It permits reading, linking, citation, and reasonable short quotation while reserving substantial redistribution, commercial reuse, derivative editions/translations, bulk dataset extraction, and AI/ML training use except where GitHub platform terms or applicable law provide otherwise.
+- Licensing is standardized on **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (`CC-BY-NC-ND-4.0`)**. Commercial use is prohibited; redistribution is limited to unadapted material under the license terms with attribution, and adapted/derivative versions may not be shared.
 
 For the latest research conclusions, always use `main`. The Chinese edition remains the source of truth for resolving any future bilingual discrepancy.
 
