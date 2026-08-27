@@ -3,7 +3,7 @@
 
 **40-volume industry research monograph + 8 macro essays**
 
-[English](#english-edition) · [中文版](#中文版--ai基础设施霸权时代) · [Research method](研究方法与证据分级.md) · [Release notes](RELEASE_NOTES.md)
+[English](#english-edition) · [中文版](#中文版--ai基础设施霸权时代) · [Research method](en/研究方法与证据分级.en.md) · [Release notes](RELEASE_NOTES.md)
 
 ---
 
@@ -32,10 +32,15 @@ The repository is currently in publication preparation. Public-release licensing
 
 1. [Master Judgment](en/总判.en.md)
 2. [Volume 01 — Executive Summary and Core Judgments](en/vol-01.en.md)
-3. [Volume 18 — Research Methodology and Evidence Architecture](en/vol-18.en.md)
-4. [Mechanism Index](en/机制索引.en.md)
-5. [English Edition Index](en/README.en.md)
-6. [X / social launch drafts](en/SHARE.md)
+3. [Research Methodology and Evidence Grading](en/研究方法与证据分级.en.md)
+4. [Core Evidence Ledger](en/核心证据台账.en.md)
+5. [Core Source Index](en/核心参考文献索引.en.md)
+6. [Core Concepts and Model Index](en/核心概念与模型索引.en.md)
+7. [Core Hypothesis Matrix (2026–2036)](en/核心假设矩阵.en.md)
+8. [Volume 18 — Research Methodology and Evidence Architecture](en/vol-18.en.md)
+9. [Mechanism Index](en/机制索引.en.md)
+10. [English Edition Index](en/README.en.md)
+11. [X / social launch drafts](en/SHARE.md)
 
 The Chinese `main` edition remains the source of truth while the English chapter set is being revalidated. Publication-critical English chapters are being synchronized to the same F/H/M/S/X, evidence-grading, system-stack, Anchor Buyer, Residual Capacity, and S1–S4 framework.
 
