@@ -23,10 +23,10 @@ NVIDIA 曾公开披露 gaming GPU supply constraints，这说明 consumer GPU �
 
 PC 同时受到第二条传导：
 
-HBM/server demand 上升  
-→ memory vendor 调整 product mix  
-→ conventional DDR5 residual supply 变化  
-→ channel price 与 system configuration 受到影响。
+> HBM / server demand 上升  
+> → memory vendor 调整 product mix  
+> → conventional DDR5 residual supply 变化  
+> → channel price 与 system configuration 受到影响。
 
 因此，PC 承受的是“GPU allocation + memory residual”双重压力。
 
@@ -132,7 +132,11 @@ Automotive chip 具有：
 真正需要计算的是：
 
 [
-Productivity gain - Total AI adoption cost
+Net productivity value
+=
+Productivity gain
+-
+Total AI adoption cost
 ]
 
 ## 9. 当前判断
