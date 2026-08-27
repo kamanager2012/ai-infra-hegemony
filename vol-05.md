@@ -90,9 +90,9 @@ HBM demand 上升
 
 GB200 NVL72：
 
-[
+```text
 13.4 TB HBM3E/rack
-]
+```
 
 对应情景：
 
