@@ -23,14 +23,16 @@ AI infrastructure 的关键变量变化很快：
 
 当前核心锚：
 
-- FY26 revenue：**$215.938B**
-- FY26 Data Center revenue：**$193.737B**
-- FY26 FCF：**$96.575B**
-- FY27 Q2 revenue：**$96.221B**
-- FY27 Q2 Data Center revenue：**$89.0B**
-- FY27 Q2 GAAP gross margin：**75.0%**
-- FY27 Q2 GAAP operating income：**$63.734B**
-- Rubin：**full production**
+| 指标 | 数值 |
+|---|---:|
+| FY26 revenue | **$215.938B** |
+| FY26 Data Center revenue | **$193.737B** |
+| FY26 FCF | **$96.575B** |
+| FY27 Q2 revenue | **$96.221B** |
+| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY27 Q2 GAAP gross margin | **75.0%** |
+| FY27 Q2 GAAP operating income | **$63.734B** |
+| Rubin | **full production** |
 
 这些指标回答：
 
