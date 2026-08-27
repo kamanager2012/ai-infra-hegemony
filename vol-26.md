@@ -56,14 +56,13 @@ OpenAI 2025 年进一步披露与 Oracle 等合作扩展数据中心，已形成
 
 Anthropic 与 AWS 已形成长期深度基础设施关系。
 
-公开材料包括：
+公开材料已经给出更明确的长期锚：
 
-- 长期 AWS compute commitment；
-- Trainium deployment；
-- large-scale chip usage；
-- multi-GW reservation direction。
-
-Anthropic 已公开使用超过 1M Trainium2 chips，并预计到 2026 年底形成接近 1 GW 的 Trainium2/3 capacity。
+- Anthropic 对 AWS 的未来十年计算承诺超过 **$100B**；
+- 可预留最高 **5 GW** 的 AWS compute capacity；
+- 已大规模部署 Trainium；
+- Anthropic 已公开使用超过 **1M Trainium2 chips**；
+- 预计到 2026 年底形成接近 **1 GW** 的 Trainium2/3 capacity。
 
 这说明：
 
