@@ -1,100 +1,211 @@
-# Volume 08: The AI Infrastructure Supercycle, CapEx, and Depreciation Pressure
+# Volume 08: The AI-Infrastructure Supercycle, CapEx, and Depreciation Pressure
 
-Chinese original: [vol-08.md](vol-08.en.md)
+Chinese source edition: [vol-08.md](../vol-08.md)
 
-How antitrust would split the stack, and which cell the inquiries sit in, is in [Volume 11](vol-11.en.md). The evidence table and the three-line appendix are in [Volume 31](vol-31.en.md). This volume does not reopen the docket. It writes only this slice of the rent: buyers cannot cover, and prepayments lock the next generation.
+> Retrieval and revision cutoff: **2026-08-27**. Hyperscaler CapEx must be read by company, accounting scope, and time window. Company-wide capital spending is not equivalent to an official AI-hardware line item.
 
-## 1. Core question
+## 1. The capital-cycle question is not one aggregate spending number
 
-When does an infrastructure supercycle remain self-financing, and when does it become a depreciation and utilization problem?
+Microsoft, Amazon, Alphabet, and Meta are investing at historically high levels in AI and data-center infrastructure.
 
-The report separates:
-- company-wide CapEx / PPE;
-- AI-specific equipment where disclosed;
-- seller revenue and margin;
-- supply-related commitments;
-- hardware depreciation;
-- long-duration buildings, power, and interconnection assets;
-- actual utilization and workflow revenue.
+The common analytical error is to combine different:
 
-Large CapEx alone is not evidence of a bubble. A hard landing requires weakening utilization, economics, clearing prices, and forward commitments together.
-## 2. Current accounting baseline
+- fiscal years;
+- CapEx definitions;
+- accounting categories;
 
-The 2024 “$215B four-cloud AI CapEx” figure is not a unified same-calendar-year, same-line-item AI total. The reproducible mixed-year company-wide equipment/PPE range is about **$211.9B–$213.9B**.
+and then label the sum “AI hardware CapEx.”
 
-The 2025 mixed-year level rose to roughly **$354.0B–$356.5B**, still company-wide rather than AI-only.
+This report keeps three separations:
 
-By August 2026, public figures remained large but used different windows:
-- Microsoft: calendar 2026 CapEx expectation around **$190B**
-- Alphabet: **$180–190B**
-- Meta: **$125–145B**
-- Amazon: roughly **$169B** TTM net PPE purchase
+1. **company-wide CapEx vs. AI-specific CapEx**;
+2. **IT equipment vs. data-center and power infrastructure**;
+3. **actual CapEx vs. guidance or forecast**.
 
-These figures must not be mechanically summed into a single “2026 AI hardware CapEx” total.
+See the [Four-Cloud CapEx Scope Check](四云CapEx口径核对.en.md).
 
-On the seller side, NVIDIA FY27 Q2 actuals were revenue **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, and operating income **$63.734B**. Supply-related commitments were **$119.0B** at FY27 Q1. The analytical problem is the interaction between buyer depreciation/utilization and seller forward commitments—not one side “outspending” the other.
-## 3. Mechanism (physics, commerce, geopolitics)
+## 2. The 2025–2026 capital expansion is already visible
 
-### 3.1 Buyer CapEx and seller resource-reservation capacity are different financial objects
+On a mixed-year 2025 basis, equipment/PPE purchases across Microsoft, Amazon, Alphabet, and Meta reached approximately **$354B** in aggregate scale.
 
-Foundry, memory, cloud, and system-seller margins have different denominators and should not be ranked as one “bid score.” On the buyer side, Microsoft has $101.8B of net income; its use is halls. Four-cloud mixed-year equipment purchases moved from $211.9B to the $354.0B order; the use is group-wide capacity, not cabinet gross margin. NVIDIA's one year of free cash $96.6B and one quarter of operating income $53.5B exist to lock the next slice of material. If order scale, prepayments, credit quality, utilization, roadmap certainty, and expected returns remain strong, a leading buyer can gain more leverage over incremental scarce capacity. Suppliers still balance diversification, geopolitics, utilization, and long-run bargaining power.
+As of August 2026, public company-specific indicators include:
 
-Booked 19% and packaging tightness are in [Volume 4](vol-04.en.md). This volume does not reopen them. What this volume asks is only this: buyers cannot cover, so prepayments are still the seller's.
+| Company | Latest public scope |
+|---|---:|
+| Microsoft | Calendar-2026 CapEx approximately **$190B** |
+| Alphabet | CapEx guidance **$180–190B** |
+| Meta | CapEx guidance **$125–145B** |
+| Amazon | TTM net PPE purchases approximately **$169B** through 2026 Q2 |
 
-### 3.2 Prepayments lock the next generation, not a depreciation line already disclosed
+These figures use different windows and accounting definitions.
 
-earlier stress-test material wrote four-year straight-line depreciation as a time bomb on the clouds' income statements. The mechanism that can be written is not an expense that already hit that line. It is the direction of the commitments. Supply commitments rose $23.8B in three months. Official text locks inventory and capacity. The prepaid manufacturing and capacity agreements sit in the 10-K. Multi-year cloud-service agreements are another line, officially for R&D, not wafer prepayments. Write them apart. Cloud-service commitments at quarter-end are on the order of $30B. That is not the same row as $119.0B of supply commitments.
+They are useful for establishing the direction of the capital cycle.
 
-The asset-light name uses profit to lock next year's slots at the heavy-asset names. NVIDIA's own capex is far smaller than the clouds' and the foundries'. The heavy assets sit in TSMC furnaces, packaging tools, and the memory makers' HBM lines. Prepayments have not already bought the whole factory dead. Some agreements can be rescheduled or cancelled. Rescheduling has a cost. Cancellation has a cost. Profit pads the cost. One year of free cash $96.6B can pad a reschedule and can pad an added tranche. Cloud money has to pay civil works, power, in-house accelerators, and cabinets at once. The same dollar cannot both build a hall and outbid at TSMC for first silicon. So the clouds are not unarmed. Their money has other uses. NVIDIA's money is used to lock the next slice of material.
+They should not be mechanically added into one official “four-cloud AI CapEx” total.
 
-The four-year versus fifteen-year mismatch still holds. The ruler has to change. Servers and cabinets are booked over four to five years. Substations, nuclear offtakes, and hall shells are booked over fifteen years or longer. The mismatch means: once this year's group-wide equipment purchases are written down, a lossless exit two years later is hard. What falls first is not a substation already poured. It is the next cabinet order and residual value on used cabinets. earlier stress-test material divided $215B by four and got $45B to $55B. That treats mixed-year group-wide spend as AI hardware, then treats the assumption as an expense. This volume does not write that division as annual depreciation that already happened. What can be watched is whether next year's capex still rises, whether supply commitments still rise, and whether gross margin still returns to 75%.
+The evidence is already sufficient to show that the AI-infrastructure investment cycle remains expansionary.
 
-### 3.3 Structural remedies affect market design differently from monetary penalties
+## 3. CapEx creates lock-in because asset lives differ
 
-What can change the rules overnight is not AMD shipping another generation of cards. It is a split, forced interoperability, or a ban on tied supply. A fine does not change the bid. The French ceiling is about $21.6B, about four-tenths of Q1 FY27 operating income $53.5B, and about 18% of FY26 net income $120.6B. Buybacks plus dividends returned $41.1B to shareholders in a year. While there is no split, no forced-open interface, and no ban on prepayments locking capacity, a fine is a cost. US law does not punish a monopoly won on products and foresight. What it would hit is tying, supply discrimination, and using capacity to punish a stack switch. That takes contracts, mail, and customer testimony. An inquiry can run for years.
+AI-infrastructure spending includes assets with very different economic lives:
 
-The EU sent questionnaires. Run:ai cleared unconditionally. There is no Article 101/102 opening. After a formal opening come a statement of objections, a defense, a Commission decision, then the courts. That is a process measured in years. France is near the end. The next step is whether to issue a statement of objections, or to close. Writing "near the end" as "a fine is about to land" is an add-on. The DOJ inquiry, counted from August 2024, still had no complaint as of August 2026. Subpoena reporting and the company's denial both sit in the public record. A subpoena is not a breakup order.
+- GPUs and accelerators: shorter technology cycles;
+- servers and networking: short-to-medium cycles;
+- data-center shells: long cycles;
+- substations and transmission: longer cycles;
+- nuclear and PPA commitments: potentially 10–20 years or more.
 
-An 80-point accelerator share is a press and sell-side scope, not a DOJ relevant-market definition. It does not enter a finding. Seventy to eighty percent of financing flowing straight to NVIDIA has no split table. The report does not treat it.
+This creates a central mismatch:
 
-### 3.4 Once the same slice of silicon is written as a license item, a split is harder
+> **Technology iteration can move much faster than the economic life of the infrastructure built around it.**
 
-The White House dislikes the fat margin drawing blood from US clouds and manufacturing, and it also needs this stack to hold the East in armaments. BIS has already written advanced computing ICs and large clusters as export-control items. DoD has already written AI adoption as part of deterrence of China. The 10-K itself writes that China's data-center compute market is effectively closed. A split or a forced-open unified compute architecture would slow its own iteration. Hypothesis from here: national security outweighs competition. What is raised high and set down is a settlement, a little give on interconnect, and in-house accelerators getting onto part of the network. The fat margin and the prepayments are not touched. Antitrust slows the walk and makes it pay protection. It does not take apart the machine that prints the profit. That is a political constraint, not an order not to split. The files do not contain the four characters "therefore do not split."
+If model efficiency, system architecture, or workload demand changes before the server asset has earned an adequate return, economic obsolescence risk rises.
 
-For the China stack, U.S. antitrust and export controls act on different layers. Antitrust can affect tying, interfaces, and domestic competitive conduct; it does not by itself open restricted frontier foundry or HBM capacity. China already has stronger parallel supply in smartphones and parts of consumer computing, while an equivalent frontier training stack still requires advanced logic, HBM-class memory, packaging, interconnect, and software migration to close together. The report therefore avoids the old absolute sentence "China can only do phones."
+If server demand remains strong but grid delivery lags, the risk shifts toward stranded or underutilized infrastructure.
 
-### 3.5 Where the rent flows: the application layer is squeezed; the back end collects
+## 4. How the “depreciation wall” should be analyzed
 
-At the front the application layer drives unit prices to the floor. At the back the rent is collected by the cabinet. NVIDIA FY26 data center $193.7B is the compute invoice the world paid for training and inference. Q4 gross margin was back to 75%. Financing and cloud bills end as cabinets. The report does not treat that a firm that raises $1B sends $0.7B to $0.8B into one pocket. There is no such split table. What can be written: inside four-cloud capex, training cabinets and HBM are the bulk; TrendForce puts 47% of 2026 CSP capex and 68% of 2027 into memory. That is an institutional scope. The cash flow is cloud to cabinet to NVIDIA and the three memory makers. Startups walk the cloud channel. The path is the same. The mix differs by firm.
+The following shortcut is not valid as a universal AI-depreciation formula:
 
-Cloud in-house accelerators still bid for the same slice of 3nm and HBM. Public next-gen parts have not retreated to 5nm plus commodity DDR5. Miss first silicon and, to keep cloud customers, they still have to keep ordering cabinets. One scenario is that hyperscalers remain major distribution and deployment channels for third-party rack-scale systems even while expanding their own stacks. This is a channel-structure hypothesis, not evidence of a specific future rack order. Microsoft net income $101.8B. In-house accelerators have a design. They do not have their own packaging line or maker bits. Bidding against 75% gross margin is bidding against the same scarce slice.
+```text
+Annual AI Depreciation = Total CapEx ÷ 4
+```
 
-Phones and PCs that never buy a GPU still pay the tax. TrendForce: 51% of 2026 DRAM bits are HBM plus RDIMM. Commodity LPDDR and DDR5 are residual. Price follows. Channel talk: 16G DDR5 from about 450 to 1800. Apple and Qualcomm pay a spillover on every consumer bit. That is memory contagion. It is not a check they wrote to NVIDIA.
+It fails because:
 
-### 3.6 Physical life and accounting life: write the mismatch; do not write an already-lost $100B a year
+- CapEx is not all IT hardware;
+- data centers and power assets have longer lives;
+- depreciation policies differ by company;
+- finance leases and asset purchases are accounted for differently.
 
-Heat, power, and copper in a cabinet are written into fifteen-year civil works. GPU systems are booked over four to five years. If a model architecture cuts cache and memory demand before the book is run off, the prior cabinet loses its economics while depreciation is still running. A supercycle therefore has two deaths. One: incremental revenue cannot cover equipment purchases already written down. Two: revenue is enough, but the asset is obsolete before the book is run off. Both deaths hit the clouds' income statements first, not NVIDIA's gross-margin slogan. NVIDIA takes a volume hit first: clouds cut training buildout, slip the next first-to-market node, and throw inference to in-house accelerators. The price hit comes later, because the scarce slice is still in its hands.
+A better monitoring set includes:
 
-Dividing the second forecast's depreciation by the first actuals' revenue invents a fake conclusion that a hundred billion is already being lost each year. $670B to $750B cannot be added in the current evidence review. $121.875B is $750B times 65% divided by four: three assumptions stacked. This volume does not write that product as an expense. Power at $0.08/kWh and PUE 1.2 folding out $28B is the same class of stress-test assumption. What can be written: power is not an opex leftover. It is a capital constraint that sits next to the server. Interconnection queues are measured in years. Firms that can sign a nuclear offtake can pair fifteen-year civil works with four-year IT. Firms that cannot buy spot power and wait in line. The world's largest capex cycle is therefore not one global market. It is several regional cycles cut by power and licenses.
+- PPE additions;
+- depreciation and amortization;
+- useful-life disclosures;
+- AI-related revenue;
+- utilization;
+- incremental operating cash flow.
 
-## 4. Scenarios, counterarguments, and testable indicators
+The **depreciation wall** is therefore an economic-pressure mechanism, not a predetermined annual dollar point.
 
-Push forward from the numbers now on the table. Do not attach probabilities.
+## 5. When does a supercycle become a bubble?
 
-Main scenario: gross margin returns near 75%; supply commitments keep rising; buyer group-wide equipment purchases keep rising; the added money still cannot cover cabinet gross margin. Prepayments keep locking next-generation packaging, HBM, and first-to-market nodes. Clouds do three things: raise utilization on clusters already bought, move inference onto cheaper fabrics and in-house accelerators, and cut training buildout whose ROI cannot be told. NVIDIA takes a volume hit first, not necessarily a price hit. The application layer keeps squeezing unit prices. The back end keeps collecting by the cabinet. Phones and PCs keep paying a residual-bit tax. Inquiries stay open. Complaints stay unfiled. Whether France issues a statement of objections is still a fork, not a fine already landed. The world does not blow up. Upgrades stop one node down, and one firm writes the rules.
+Large CapEx by itself does not prove a bubble.
 
-Bubble scenario: enterprise token volume stalls, unit prices fall, utilization weakens, and the next round of cloud CapEx or semiconductor commitments slows, is rescheduled, or is cut. What falls first can be short-lived IT residual values and new cabinet orders rather than fifteen-year civil works. A one-quarter inventory charge can move gross margin without proving that the platform's structural economics have broken. The hard-landing model therefore watches **accounting, utilization/revenue, market-clearing, and forward-commitment signals together**.
+An expansion can remain economically rational when several conditions hold:
 
-Counter A: buyers actually bundle. Prepayments large enough that TSMC cannot recognize only one buyer; software bound into one stack; memory longs that leave a line for commodity bits. All three together change allocation. Miss one and you are still picked off one by one. UXL and oneAPI are embryos. They have not punched through. Counter B: in-house accelerators take training off the cabinet, not only shunt inference. Public next-gen parts have not retreated to 5nm plus commodity memory. To beat today's cabinet you return to 3nm, HBM, and packaging, and you bid against 75% gross margin. Counter C: power stops the buildout. Interconnection and nuclear offtakes become hard constraints: cabinets have buyers, power does not. Counter D: the East stands up a second bid. Tools and materials are de-Americanized and it holds. Even then it is only a second gravity. It does not save the allocation of global cabinets. Counter E: a split or a forced-open unified compute architecture. That is the one that can change the rules overnight. The national-security files explain why that line is hard to touch. They do not show it already closed.
+- utilization remains high;
+- revenue per unit of deployed compute is stable;
+- token and workflow volume rises;
+- customer demand becomes longer-duration;
+- supply commitments continue to grow;
+- next-generation deployment still produces attractive ROI.
 
-None of the five is done. What is done: supply commitments to $119.0B; inquiries exist, complaints do not; France is near the end and has not issued a statement of objections; the EU sent questionnaires, cleared Run:ai unconditionally, and has no Article 101/102 opening. 10% of annual turnover is a statutory ceiling. $215.9B times 10% is $21.6B. That is not a fine. White House NSM-25, BIS, and DoD write advanced chips as national security. There is no order that says "therefore do not split." Hypothesis from here: a fine is a cost. A split is hard under national security. If those five are not done, the line walks past half of the scarce slice. The window is the few years before the next first-to-market node is locked by commitments.
+Capital-hard-landing risk rises if the opposite combination appears:
 
-Testable marks: only whether public files change their wording. First, the supply-commitment row: after $95.2B to $119.0B, does the next quarter still rise or is it the first stop. Second, gross margin: Q4 75.0%, Q1 74.9%; is the next quarter still there. Third, hyperscaler capital intensity: do Microsoft, Amazon, Alphabet, and Meta continue expanding from the latest disclosed CapEx / net-PPE bases, and do utilization and revenue keep pace with that expansion. Fourth, does justice.gov have a *United States v. NVIDIA* complaint, does the French site have a statement of objections, does the Commission have an Article 101/102 opening release. Fifth, have the memorandum, export controls, and the defense strategy been rewritten as do-not-split or must-split. Sixth, is data-center revenue still adding on the $193.7B order. Do not treat $121.875B and $28B of opex as expenses that already happened. The report does not treat $21.6B as a fine about to be issued.
+- utilization falls;
+- token prices fall without enough volume growth;
+- enterprise workflow monetization stalls;
+- next-year CapEx guidance is cut;
+- supply commitments stop growing or are cancelled;
+- second-hand system values fall sharply.
 
-What the capital cycle finally has to answer is whether this round of equipment purchases will rewrite the rent in the first seven volumes. If clouds cut training buildout, push cabinet ASP down, and throw more load to open source and in-house accelerators, then 75% gross margin, the packaging lock, and HBM's share of memory revenue all flip from rent evidence to high-side risk marks. If token volume becomes a usage event, the same equipment purchases become a threshold: later names cannot match this order of annual spend, and the oligopoly is reinforced by capex itself. Both directions share one set of observations. This volume does not forecast a stock price. It does not give a multiple. It does not write "the largest of the twenty-first century" as a historical conclusion already compared. Any use of the older $750B or $121.875B stress-test figures should keep them explicitly labeled as scenario arithmetic rather than observed company data. What can be cited directly is still each firm's equipment purchases with the line item named, NVIDIA's own data-center revenue and profit cash, and the supply-commitment row.
+The diagnosis depends on synchronized signals, not on investment size alone.
 
-## 5. Gaps, and what cannot be written as fact
+## 6. Seller and buyer capital structures are different
 
-1. $215B is not an addable sum this volume took from four 10-Ks. It is a rounded mixed-year group-wide equipment purchase. It cannot be written as four-cloud 2024 AI-hardware capex. 2. $45B to $55B of depreciation is a four-year straight-line assumption, not AI-server depreciation the four firms disclosed. 3. $670B–$750B of CapEx, $462.5B of hardware, $115.5B/$121.875B of depreciation, $35B–$50B of software revenue, and the older Three Mile Island contract-value estimate are historical stress-test or second-hand figures, not current fact-layer anchors. By August 2026, all four firms had public scale indicators, but their accounting windows still differed: Microsoft calendar-2026 CapEx expectation around **$190B**, Alphabet **$180–190B**, Meta **$125–145B**, and Amazon about **$169B** of TTM net PPE purchase. These figures still cannot be mechanically summed into one official AI-hardware CapEx total. 4. The token matrix of nine cells gives no absolute base for unit price or volume. It is not a valuation model. $0.08/kWh, PUE 1.2, and IT at 65% are stress-test assumptions. 5. A DOJ complaint, a settlement, a networking split, and a forced-open unified compute architecture have not happened. 6. A French statement of objections, and a French or EU fine, have not happened. 7. "A 10% of annual turnover fine is about to be issued" is a statutory ceiling. 8. There is no White House or Pentagon file that already forbids a split. 9. The four clouds paying NVIDIA the whole $193.7B does not match line items and leaves out other buyers. 10. An 80-point accelerator share is not a DOJ relevant market; seventy to eighty percent of financing flowing to NVIDIA has no split table. 11. "Packaging sold out through the end of 2026" at the shareholders' meeting has no official transcript. 12. "The largest capex cycle of the twenty-first century" is a title judgment. The earlier source material gives no cross-century comparable series. This volume invents no stock price, multiple, or default rate. 13. 2027 guidance and mid-year raises were not re-added on this volume's line items. They do not enter the main table. 14. Supply commitments are not split to TSMC or to packaging. The report does not treat that the whole factory has already been bought dead.
+NVIDIA and the hyperscalers should not be compared only by asking who has more cash.
 
-The independent variables are now explicit: comparable cloud investment scopes; supply commitments; FY27 Q2 seller economics; token volume and price; utilization; power projects actually entering service; system-stack substitution; and regulatory progression from inquiry toward remedies. The dependent variables are **scarce-layer value capture, incremental capacity capture, platform-profit diversion, and utilization of deployed compute**. None is treated as a one-point forecast. The formal future states are S1–S4 in the central hypothesis matrix.
+NVIDIA's free cash flow can be directed toward:
+
+- inventory;
+- capacity reservation;
+- supply commitments;
+- system roadmaps.
+
+Hyperscaler cash also has to finance:
+
+- land;
+- buildings;
+- power;
+- networking;
+- custom silicon;
+- third-party systems;
+- operations.
+
+The same dollar therefore reproduces a different asset base in each business model.
+
+This helps explain how an asset-light platform can influence manufacturing CapEx far beyond the fixed assets on its own balance sheet.
+
+## 7. Power lengthens the capital cycle
+
+As rack power density rises, the data-center buildout becomes more than a server-purchase cycle.
+
+Key constraints expand into:
+
+- grid interconnection;
+- substations;
+- transformers;
+- transmission;
+- cooling;
+- long-duration power contracts.
+
+The hardware cycle and infrastructure cycle therefore become layered.
+
+If semiconductor supply loosens while power remains constrained, the bottleneck can migrate from chips to electricity.
+
+This is the **Rolling Bottleneck Cascade**.
+
+## 8. Four groups of capital-clearing signals
+
+The report monitors four classes of evidence.
+
+### 8.1 Accounting
+
+- impairments;
+- accelerated depreciation;
+- inventory write-downs;
+- asset disposals.
+
+### 8.2 Utilization / Revenue
+
+- deployed-compute utilization;
+- AI-workload revenue;
+- revenue per unit of compute;
+- idle capacity.
+
+### 8.3 Market Clearing
+
+- second-hand GPU or system prices;
+- cloud-instance discounts;
+- lease rates;
+- delivery lead times.
+
+### 8.4 Forward Commitments
+
+- CapEx guidance;
+- supply commitments;
+- long-duration compute contracts;
+- power contracts.
+
+A capital hard landing requires deterioration across multiple groups.
+
+One isolated signal is insufficient.
+
+## 9. Current judgment
+
+As of **August 2026**, AI infrastructure remains in a capital-expansion phase rather than a completed clearing phase.
+
+The risks are also rising:
+
+- the annual CapEx base is expanding rapidly;
+- server generations turn over quickly;
+- power assets have much longer durations;
+- model and software pricing competition is intensifying.
+
+The most accurate current description is:
+
+> **The supercycle continues, but the hurdle for utilization, workflow monetization, and next-generation ROI is becoming higher.**
+
+That is the central dividing line between **S2 Baseline Concentration** and **S4 Capital Hard Landing**.
