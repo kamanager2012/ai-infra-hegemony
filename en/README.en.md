@@ -6,7 +6,7 @@ The Chinese edition is the source of truth and is updated first: [中文目录](
 
 The rule is simple: **facts must be sourced; forecasts stay labeled as assumptions and scenarios.** No estimate is upgraded into a company disclosure. No revenue share is silently converted into wafer share. No contract capacity is treated as already energized load.
 
-Sources last checked: **2026-08-26**.
+Sources last checked: **2026-08-27**.
 
 Licensed under [CC BY 4.0](../LICENSE). Current rebuild notes: [Release Notes](../RELEASE_NOTES.md).
 
@@ -36,7 +36,7 @@ Licensed under [CC BY 4.0](../LICENSE). Current rebuild notes: [Release Notes](.
 7. [Chinese 2026–2036 hypothesis matrix](../核心假设矩阵.md)
 8. [English mechanism index](机制索引.en.md)
 
-> The English overview is kept current. Some translated chapter bodies may lag the Chinese source of truth after major revisions.
+> **Translation status (2026-08-27):** the English overview, master judgment, and release-critical chapters **12 / 20 / 22 / 24 / 25 / 26 / 28 / 30 / 31 / 35 / 36 / 37 / 39 / 40** are synchronized to the current framework. Other translated chapter bodies may still lag the Chinese source of truth after major revisions.
 
 ## Research method
 
