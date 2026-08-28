@@ -8,7 +8,7 @@ Chinese source edition: [vol-13.md](../vol-13.md)
 
 Once AI rack power density reaches roughly **120 kW per rack**, data-center construction changes qualitatively.
 
-About 500 racks at **120 kW per rack** represent approximately **60 MW of rack-level full-load power**. The 120 kW figure is an NVIDIA rack-power figure that includes compute nodes and rack components; it should not be relabeled as compute-only IT load.
+**D-grade scenario arithmetic:** about 500 racks at **120 kW per rack** represent approximately **60 MW of rack-level full-load power**. This is a scale test, not evidence that 500 racks or 60 MW are already deployed or energized. The 120 kW figure is an NVIDIA rack-power figure that includes compute nodes and rack components; it should not be relabeled as compute-only IT load.
 
 AI-infrastructure delivery therefore depends not only on:
 
@@ -72,9 +72,9 @@ The contract therefore represents a power-supply strategy, not a completed data-
 
 The revised Talen/AWS PPA can expand to as much as **1.92 GW**.
 
-Talen confirmed that the conversion to the revised **front-of-the-meter** structure was completed in **April 2026**.
+Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. Its earlier 2025 10-K had described the process as beginning in spring 2026 with **full transition expected in spring 2027**. April 2026 should therefore be treated as a revised-PPA transition status update, not as proof that every physical conversion and power-delivery step was complete.
 
-The relevant monitoring question has therefore changed.
+The relevant monitoring questions remain:
 
 It is no longer whether the conversion will occur. It is:
 
@@ -85,9 +85,9 @@ It is no longer whether the conversion will occur. It is:
 
 This distinction is central to the report's power framework: legal structure can be complete while physical load is still ramping.
 
-## 5. Google / Kairos: up to 500 MW on the SMR path
+## 5. Google / Kairos: up to 50 MWe in 2030, then up to 500 MWe by 2035
 
-Google and Kairos have a development agreement targeting up to approximately **500 MW** in aggregate.
+The public Google/Kairos path is **Hermes 2 up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**.
 
 This path differs fundamentally from restarting an existing nuclear plant.
 
@@ -162,7 +162,7 @@ More chips do not guarantee more usable compute if power-on becomes the next gat
 
 The binding constraint for an AI data center is often a local node rather than a national energy total.
 
-A country can have ample installed generation and still be unable to deliver 100 MW to a specific campus within 18 months.
+A country can have ample installed generation while a specific campus still lacks **100 MW-class** deliverable power on the required schedule. Time-to-power must be verified project by project through interconnection, substation, transmission, permitting, and construction milestones.
 
 The critical variables are local:
 
@@ -179,7 +179,7 @@ AI power constraints are therefore primarily **node and time problems**, not sim
 
 AI servers can turn over rapidly over a period of several years.
 
-Large power infrastructure can last **10–20 years or longer**.
+Large power infrastructure and long-duration PPAs can outlast fast-turnover compute assets; the Microsoft/Constellation Crane arrangement, for example, is a **20-year PPA**.
 
 That creates a duration mismatch:
 
