@@ -122,7 +122,7 @@ rather than in the demolition of power plants or data centers.
 
 ## 7. Supply commitments move the clock forward
 
-NVIDIA's supply-related commitments rose from **$95.2B** at FY26 year-end to **$119.0B** at FY27 Q1.
+NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B** as of 2026-01-25 to **US$119B** as of 2026-04-26 and then to **US$279B** as of 2026-07-26. The FY27 Q2 filing says the latest commitments are primarily tied to memory and manufacturing facilities. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
 
 These commitments show that the seller is reserving future supply.
 
