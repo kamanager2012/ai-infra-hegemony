@@ -107,7 +107,7 @@ Key financial anchors include:
 | FY27 Q2 GAAP gross margin | **75.0%** |
 | FY27 Q2 GAAP operating income | **US$63.734B** |
 
-Manufacturing, supply, and capacity commitments reached **US$119B** as of 2026-04-26.
+Manufacturing, supply, and capacity commitments reached **US$279B** as of 2026-07-26, up from US$119B as of 2026-04-26. The FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
 
 Strong platform economics can therefore be recycled into the next generation of:
 
