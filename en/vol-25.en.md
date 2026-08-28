@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-25.md](../vol-25.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The hyperscaler response is no longer well described as “ASIC vs. GPU.” The relevant unit is the complete cloud system stack.
+> Retrieval and revision cutoff: **2026-08-28**. The hyperscaler response is no longer well described as “ASIC vs. GPU.” The relevant unit is the complete cloud system stack.
 
 ## 1. The cloud response has moved from custom chips to custom systems
 
