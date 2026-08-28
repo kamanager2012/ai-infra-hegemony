@@ -1,6 +1,5 @@
 # Part I · 第3章：AI Resource Gravity 与 Non-AI Residual Capacity
 
-> **出版层章节。** 由 [vol-03](../vol-03.md) 与 [vol-09](../vol-09.md) 重编。HBM 与 advanced packaging 的物理细节分别归 Ch05 / Ch06，本章只解释资源为什么向 AI/server 倾斜，以及这种倾斜如何传导到 PC、smartphone、general server 与其他非 AI 市场。
 
 ## 1. “AI 虹吸”不是把所有半导体产能一起抽走
 
