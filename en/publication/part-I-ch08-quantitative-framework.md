@@ -52,9 +52,9 @@ But a changed demand function does not eliminate physical constraints. Whether h
 
 ## 4. Formal-training compute conversion is not full R&D cost
 
-DeepSeek-V3 reports **2.788M H800 GPU-hours** for full formal training.
+DeepSeek-V3 reports **2.788M H800 GPU-hours** for full formal training, and the paper uses a **US$2/GPU-hour** rental-cost assumption.[^1]
 
-Using the paper's **US$2/GPU-hour** assumption:
+A clearly labeled **D-grade arithmetic conversion** is therefore:
 
 > **2.788M × US$2 ≈ US$5.576M**
 
@@ -122,6 +122,8 @@ It cannot be used to divide TSMC annual front-end wafer shipments, infer actual 
 ## 8. Power must also be quantified with state and physical boundaries
 
 Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
+
+Using 500 racks as a scenario input, a **D-grade arithmetic calculation** is:
 
 > 500 racks × 120 kW = **60 MW of rack-level full-load power**
 
