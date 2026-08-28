@@ -96,9 +96,9 @@ TSMC does not publish a customer-level CoWoS split.
 
 TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand should therefore remain **B-grade institutional research**, not be presented as a TSMC allocation disclosure.
 
-## 5. 5.39 wafers per rack is only a packaging stress test
+## 5. 5.37 wafers per rack is only a packaging stress test
 
-The report uses **5.39 CoWoS wafers per rack** as a **D-grade geometry stress test**.
+The report uses **5.37 CoWoS wafers per rack** as a **D-grade geometry stress test**.
 
 Its role is to estimate the order of magnitude of advanced-packaging pressure from rack-scale deployment.
 
