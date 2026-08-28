@@ -187,4 +187,7 @@ HBM has moved from “high-end memory next to the GPU” into a core resource la
 ## Key public sources for this volume
 
 - TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY25 10-K — HBM requires more wafers / cleanroom space: https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+- NVIDIA GB200 NVL72 official product page — 13.4 TB HBM3E per rack: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
