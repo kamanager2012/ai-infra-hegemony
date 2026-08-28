@@ -3809,7 +3809,7 @@ HBM boom 可以显著改善 memory-vendor economics，但制造利润仍比 syst
 
 NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立独立 compute financing platforms，目标是**随时间动员超过 US$500B third-party capital**用于 AI infrastructure buildout。[^ch23-3]
 
-这条证据的重要性不在“500B 已到账”，而在于：
+这条证据的重要性不在于把 **US$500B mobilization target** 误写成“已到账现金”，而在于：[^ch23-3]
 
 > **compute 正被尝试组织成可由长期机构资本独立承销和融资的基础设施资产。**
 
