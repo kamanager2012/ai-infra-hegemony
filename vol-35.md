@@ -30,11 +30,13 @@ NVIDIA 相关 rack 文档给出的 GB200 NVL72 设计功率约 **120 kW/rack**�
 - high-density distribution；
 - stronger cooling loop。
 
-约 500 个 120 kW rack，仅 IT load 就达到：
+约 500 个按 120 kW/rack 设计的 rack，对应的 **rack-level full-load power** 约为：
 
 ```text
 500 × 120 kW = 60 MW
 ```
+
+这里的 120 kW 是整柜功耗口径，包含 compute nodes 与 rack components，不能改写成纯 compute-only IT load。
 
 这只是 IT power，不包含完整 facility overhead。
 
