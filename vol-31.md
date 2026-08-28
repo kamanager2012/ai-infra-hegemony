@@ -44,7 +44,7 @@ AI infrastructure 的关键变量变化很快：
 - 2026-04-26：**US$119B**
 - 2026-07-26：**US$279B**
 
-口径：manufacturing, supply, and capacity commitments；Q2 10-Q 说明最新承诺主要关联 memory 与 manufacturing facilities，不是单一供应商订单。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
+口径：manufacturing, supply, and capacity commitments；Q2 10-Q 说明最新承诺主要关联 memory 与 manufacturing facilities，不是单一供应商订单。
 
 供应承诺是前向资源锁定的重要 proxy，但不能拆成未披露的供应商金额。
 
@@ -58,11 +58,13 @@ AI infrastructure 的关键变量变化很快：
 - 5 nm：**36%**
 - 7 nm：**14%**
 - ≤7 nm：**74%**
-- HPC：**58%**
-- smartphone：**29%**
-- largest customer：**19% of annual revenue**
-- second-largest customer：**17%**
+- HPC：**58%** of revenue；platform revenue YoY **+48%**
+- Smartphone：**29%** of revenue；platform revenue YoY **+11%**
+- 2025 largest customer：**19% of annual revenue**
+- 2025 second-largest customer：**17%**
 - advanced packaging + testing：略高于 **10%**
+
+**客户口径硬边界：** annual largest / second-largest ranking 不是同一客户跨年序列。另一张匿名客户表才可直接比较 2024→2025：Customer A **12%→19%**，Customer B **22%→17%**。两套表不得拼接成“某个第一客户”的纵向轨迹。
 
 ### Packaging status
 
@@ -92,24 +94,25 @@ FY25 10-K 进一步确认 HBM 对 wafers 与 cleanroom space 的要求更高。
 
 ### TrendForce
 
-2026 年：
+**2026E institutional forecast：**
 
-- HBM + RDIMM：约 **51% of DRAM bits**
+- HBM + RDIMM：约 **51% of DRAM bit supply**。
 
-这两条共同用于监测 conventional DRAM residual capacity。
+51% 是预测的 bit share，不是已经实现的 full-year actual，也不是 wafer share 或 revenue share。
+
+这与 Micron 的 3× trade ratio 共同用于监测 conventional DRAM residual capacity。
 
 ### SK hynix
 
 FY25：
 
-- revenue：KRW **97.1467T**
-- operating profit：KRW **47.2063T**
-- operating margin：**49%**
-- HBM revenue：同比超过一倍
+- Revenue：**KRW 97.1467T**
+- Operating profit：**KRW 47.2063T**
+- Operating margin：**49%**
+- Net income：**KRW 42.9479T**
+- HBM revenue：more than doubled YoY
 
-公开来源：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-
-用于判断 HBM product mix 是否继续改善 memory vendor economics。
+用于判断 HBM product mix 是否继续改善 memory-vendor economics。
 
 ## 5. Hyperscaler CapEx
 
@@ -121,12 +124,14 @@ FY25：
 - Amazon net PPE purchase；
 - Alphabet CapEx；
 - Meta CapEx；
-- financing lease treatment；
+- finance-lease treatment；
 - AI/data-center specific disclosure。
 
 判断重点不是“总额有没有创新高”，而是：
 
 > 新增 CapEx 是否仍然主要流向 AI server、network、memory、data center 与 power。
+
+同时必须保留 actual / guidance / expectation 的身份，不能把四家不同口径机械复加成“官方 AI hardware CapEx”。
 
 ## 6. Power
 
@@ -142,11 +147,9 @@ FY25：
 
 当前重要项目：
 
-- Microsoft / Constellation：约 **835 MW** restart PPA
-- Talen / AWS：新版 PPA 最高 **1.92 GW**
-- Google / Kairos：开发目标最高 **500 MW**
-
-Talen/AWS 的 front-of-the-meter conversion 已于 **2026 年 4 月完成**。
+- Microsoft / Constellation：约 **835 MW** restart PPA；
+- Talen / AWS：revised PPA full contract quantity **up to 1,920 MW**，transition occurred in **2026-04**，power delivery ramps to full volume **no later than 2032**；
+- Google / Kairos：Hermes 2 **up to 50 MWe in 2030**，fleet **up to 500 MWe by 2035**。
 
 因此后续应监测的是：
 
@@ -155,11 +158,7 @@ Talen/AWS 的 front-of-the-meter conversion 已于 **2026 年 4 月完成**。
 - actual data-center load；
 - utilization。
 
-### 本卷关键公开来源
-- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
+合同上限不能写成已经送到 AI racks 的实时功率。
 
 ## 7. System-Stack Substitution
 
@@ -302,12 +301,14 @@ S4 Capital Hard Landing 重点监测四组指标。
 
 ## 本卷关键公开来源
 
-- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-
-## 本篇关键公开来源
-
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- TSMC 2025 consolidated report（Customer A/B）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- NVIDIA FY27 Q2 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q（US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- TSMC 2025 Annual Report：https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 20-F（annual customer rankings）：https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report（Customer A/B）：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- SK hynix FY25 official results：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+- Constellation / Microsoft Crane restart (~835 MW)：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q（up to 1,920 MW; full volume no later than 2032）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google（50 MWe in 2030; up to 500 MWe by 2035）：https://www.kairospower.com/google
