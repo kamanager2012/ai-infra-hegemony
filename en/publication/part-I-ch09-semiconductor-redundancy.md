@@ -18,7 +18,7 @@ Supply security for an accelerator designer is therefore not determined by chip 
 
 ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. Its High-NA TWINSCAN EXE platform remained in customer qualification toward high-volume manufacturing.
 
-ASML stated that by the end of 2025 customers had run more than **400,000 wafers** on High-NA systems while work continued toward high-volume-manufacturing qualification.
+ASML stated that by the end of 2025 customers had run more than **400,000 wafers** on High-NA systems while work continued toward high-volume-manufacturing qualification.[^1]
 
 The strategic constraint in advanced lithography cannot therefore be captured by a single-machine price.
 
@@ -45,7 +45,7 @@ This report therefore defines supply-chain independence as **system-level contin
 
 The existence of a domestic fab does not automatically mean that capacity expansion is independent of external upstream supply.
 
-ASML's public export-control statements provide an auditable boundary:
+ASML's public export-control statements provide an auditable boundary:[^2][^3]
 
 - sales of EUV systems to China are already restricted;
 - the most advanced immersion DUV systems require Dutch export licences;
@@ -73,7 +73,7 @@ The relevant materials constraint is therefore not an unsupported market-share s
 
 ## 5. TSMC's geographic expansion shows that redundancy is real—and that the core cluster cannot be copied instantly
 
-TSMC's 2025 Annual Report shows:
+TSMC's 2025 Annual Report shows:[^4]
 
 - the first Arizona fab entered **4 nm volume production in 4Q24**;
 - the second Arizona fab is planned for 3 nm and more advanced technologies;
@@ -88,9 +88,7 @@ Different regions continue to differ in node mix, product mix, packaging, workfo
 
 ## 6. Government subsidies reduce the cost of redundancy; they do not create instant independence
 
-The U.S. Department of Commerce final CHIPS award for TSMC Arizona includes up to **US$6.6B of direct funding** supporting three leading-edge fabs.
-
-Final NAPMP advanced-packaging awards total **US$1.4B**, while Amkor's Arizona advanced-packaging/test facility received up to **US$407M of direct funding**.
+The U.S. Department of Commerce final CHIPS award for TSMC Arizona includes up to **US$6.6B of direct funding** supporting three leading-edge fabs. Final NAPMP advanced-packaging awards total **US$1.4B**, while Amkor's Arizona advanced-packaging/test facility received up to **US$407M of direct funding**.[^5][^6][^7]
 
 These programs directly support a broader conclusion:
 
@@ -124,7 +122,7 @@ This is not simply an efficiency failure. It is a changed cost function under a 
 
 Demand for leading-edge logic, HBM, packaging, and power has pushed advanced manufacturing beyond the normal commercial cycle toward strategic infrastructure.
 
-TSMC's 2025 Annual Report links Arizona expansion to strong multi-year AI-related demand, while U.S. CHIPS programs treat AI/HPC as important use cases for leading-edge and advanced-packaging investment.
+TSMC's 2025 Annual Report links Arizona expansion to strong multi-year AI-related demand, while U.S. CHIPS programs treat AI/HPC as important use cases for leading-edge and advanced-packaging investment.[^4][^5][^6]
 
 The AI-infrastructure cycle and industrial-policy cycle are therefore increasingly overlapping.
 
@@ -198,13 +196,12 @@ As of 2026, public evidence supports a relatively clear direction:
 
 The semiconductor supply chain of the next decade is therefore more likely to consist of **highly concentrated core technologies + greater regional redundancy + higher strategic inventories + greater public-capital participation** than to return quickly to a fully dispersed and fully substitutable global market.
 
-## Key public sources
+## References
 
-- ASML 2025 Annual Report: https://www.asml.com/en/investors/annual-report/2025
-- ASML 2025 Strategy & Stories — EUV / High-NA roadmap: https://www.asml.com/en/investors/annual-report/2025/strategy-and-stories
-- ASML — Dutch export controls: EUV already restricted; most advanced immersion DUV requires export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
-- ASML — 2024 updated U.S. restrictions include additional advanced manufacturing technologies, metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
-- TSMC 2025 Annual Report — Arizona/Japan/Germany/Taiwan footprint: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- U.S. Department of Commerce — TSMC Arizona CHIPS final award: https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
-- U.S. Department of Commerce — US$1.4B NAPMP advanced-packaging awards: https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
-- U.S. Department of Commerce — Amkor Arizona advanced-packaging award: https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
+[^1]: ASML, 2025 Annual Report and Strategy & Stories, EUV / High-NA roadmap and system shipments, https://www.asml.com/en/investors/annual-report/2025
+[^2]: ASML, 2023 statement on Dutch export-control regulations, EUV and advanced immersion DUV licensing, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+[^3]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology, and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+[^4]: TSMC, 2025 Annual Report, Arizona/Japan/Germany/Taiwan manufacturing footprint and AI-related demand context, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^5]: U.S. Department of Commerce, TSMC Arizona CHIPS final award, 2024-11, https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
+[^6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
+[^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
