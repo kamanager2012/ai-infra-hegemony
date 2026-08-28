@@ -18,11 +18,11 @@ Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：[^1]
 - U.S. four-year university CS undergraduate enrollment 2024→2025 **下降 11%**；[^1]
 - AI software-related master's graduates 2023→2024 **增长 17%**。[^1]
 
-这说明：
+这些数据共同说明工具采用速度明显快于制度适配，但它们本身并不证明 AI 已经改善学习结果。
 
-> **Tool Adoption > Curriculum Update > Institutional Reform**
+教育体系的核心问题已经从“学生有没有用 AI”转向：
 
-教育体系的核心问题已经从“学生有没有用 AI”转向“如何验证学生是否理解、控制并对 AI 结果负责”。
+> **如何验证学生是否理解模型边界、能够设计 workflow、验证结果，并对最终输出负责。**
 
 ## 3. 第一层：AI Literacy
 
@@ -72,7 +72,7 @@ frontier AI 需要 accelerator、HBM、network、distributed computing、compile
 
 robotics / Physical AI 同时需要 control、mechanics、sensor、embedded compute、AI 与 safety。
 
-未来稀缺人才之一会是能把 model capability 与 physical-world reliability 连接起来的 system engineer。
+如果 Physical AI 从 demo 扩大到 production deployment，对能够把 model capability 与 physical-world reliability、safety、manufacturing economics 连接起来的 system engineer 的需求会提高。
 
 ## 9. Power / Cooling / Operations 也属于 AI 人才体系
 
@@ -102,11 +102,23 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 ## 12. 当前判断
 
-AI 教育的核心变化不是“新增一个 AI 专业”，而是：
+AI 教育的核心变化不是简单“新增一个 AI 专业”，而是产业能力结构正在改变教育的有效训练目标。
 
-> **把 AI 变成技术和专业教育中的系统能力，同时把 verification、portability 与 responsibility 提升为核心训练目标。**
+在模型调用越来越商品化的情况下，长期更有区分度的能力更可能来自：
 
-未来最有价值的人才不会只是最会调用模型的人，而是能够理解系统、验证结果、计算经济性、跨 stack 迁移并承担现实后果的人。
+- domain knowledge；
+- workflow / system design；
+- verification；
+- performance / cost measurement；
+- cross-stack portability；
+- physical / regulatory constraints；
+- responsibility。
+
+因此：
+
+> **AI literacy 是底层能力，workflow engineering 是应用层能力，system engineering 与 verification 则是把 AI 转化为现实生产力的关键能力。**
+
+这与本报告的产业主线一致：竞争单位从单一模型或芯片上移到完整 system 后，人才评价也需要从“会使用工具”上移到“能设计、验证并对系统结果负责”。
 
 ## References
 
