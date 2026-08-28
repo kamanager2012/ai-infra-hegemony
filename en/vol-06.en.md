@@ -26,7 +26,7 @@ The scope matters. This number is not the complete economic cost of building Dee
 
 ### 2.2 Multi-head latent attention changes the memory-demand function
 
-DeepSeek's multi-head latent attention compresses the key/value representation used during autoregressive inference. The strategic implication is not a fixed universal “93.3% saving” for every model and context. The durable mechanism is that reducing KV-cache footprint can increase concurrency and lower memory traffic per served token.
+DeepSeek's multi-head latent attention compresses the key/value representation used during autoregressive inference. The **93.3% KV-cache reduction** is a specific DeepSeek-V2 result **relative to DeepSeek 67B**, alongside a reported **5.76× maximum generation throughput**; it is not a universal saving for every model or context. Source: https://github.com/deepseek-ai/DeepSeek-V2 . The durable mechanism is that reducing KV-cache footprint can increase concurrency and lower memory traffic per served token.
 
 That matters because autoregressive decoding is often constrained by memory movement and bandwidth rather than only by peak arithmetic throughput. Better attention architecture can therefore lower the HBM required per unit of useful inference without making HBM, interconnect, or accelerator systems irrelevant.
 
@@ -76,7 +76,7 @@ This is why hyperscaler CapEx and model-company economics must not be collapsed 
 
 By 2026, model companies are also becoming infrastructure anchor customers.
 
-OpenAI's Stargate program targets **$500B / 10 GW** over the long run, with more than **5 GW** publicly described as under development after the Oracle expansion. Anthropic and AWS announced more than **$100B** of AWS technology spending over ten years and reservation of up to **5 GW**.
+OpenAI's Stargate program began with a **US$500B / 10 GW** long-run commitment. By October 2025, OpenAI disclosed **more than 8 GW of planned capacity** and **more than US$450B of planned investment over three years**; the 1 GW Michigan campus broke ground in June 2026. Anthropic and AWS announced more than **US$100B** of AWS technology spending over ten years and reservation of up to **5 GW**.
 
 These commitments do not mean all capacity is already energized or utilized. They do show that the model layer can influence the financing and construction of cloud, chip, data-center, and power capacity.
 
