@@ -157,17 +157,15 @@ This is why the report uses the **Rolling Bottleneck Cascade** rather than decla
 
 ## 8. Customer concentration must be read carefully
 
-TSMC's largest customer represented **19% of 2025 annual revenue**.
+TSMC's **largest / second-largest customer shares were 19% / 17% of 2025 annual revenue**. Those annual rank statistics are not a same-customer longitudinal series. A separate anonymized table shows **Customer A at 12%→19%** and **Customer B at 22%→17%** from 2024 to 2025. The two disclosures must not be stitched together as if the annual largest or second-largest customer were necessarily the same entity each year.
 
-That is not:
+These figures are not:
 
-- 19% of CoWoS;
-- 19% of N2;
-- 19% of frontier-AI wafers.
+- CoWoS share;
+- N2 share;
+- frontier-AI wafer share.
 
-Revenue share can change because the numerator changes, the company-wide denominator changes, or both.
-
-The forward strategic question is therefore not historical share.
+TSMC does not publicly identify the customers in those tables. The forward strategic question is therefore not a fabricated customer trajectory.
 
 It is **incremental scarce-capacity capture** across each physical layer.
 
@@ -191,3 +189,5 @@ The shortest of the three determines how many complete frontier systems can actu
 
 - TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 2025 20-F — annual largest / second-largest customer concentration: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report — anonymized Customer A/B comparison: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
