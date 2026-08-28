@@ -1,6 +1,6 @@
 # English Publication Layer · The Age of AI Infrastructure Hegemony
 
-> This directory contains the continuous-reading English publication edition. **Current status: Publication Integrated / Publication QA in progress; it is not yet marked Publication Ready.** A complete 32/32 chapter architecture does not by itself mean citation, figure/table, copyright, layout, and export QA are complete.
+> This directory contains the continuous-reading English publication edition. **All 32/32 English chapters have now been resynchronized from the current Chinese canonical edition, including inline footnotes, References, table numbering, and the updated analytical framework. English Markdown-level QA is now the next gate; the project is not yet marked Publication Ready.**
 
 See the [English Front Matter](00-front-matter.md), the canonical [Publication Release Standard](../../出版封版标准.md), and [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 
@@ -10,8 +10,10 @@ See the [English Front Matter](00-front-matter.md), the canonical [Publication R
 - **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
 - **Part III — Capital Cycles, Profit Pools, and External Transmission: 8/8 chapters synchronized.**
 - **Part IV — Method, Scenarios, Monitoring, and Strategy: 6/6 chapters synchronized.**
-- **English Publication Layer: 32/32 chapters structurally integrated.**
-- **Publication Ready: not yet passed; chapter-level citation, table/figure, copyright, cross-language, and export QA remain mandatory.**
+- **English Publication Layer: 32/32 chapters synchronized to the current Chinese canonical edition.**
+- **English Front Matter: complete** — scope/disclaimer, table of contents, list of tables, and abbreviations/core glossary.
+- **English Markdown QA: pending final automated regression in this pass.**
+- **Publication Ready: not yet passed** — bilingual regression, critical-link rescan, third-party copyright clearance, PDF/e-book export QA, and final proofreading remain mandatory.
 
 The Chinese and English Publication Layers now share the same 32-chapter architecture. The Chinese edition remains the final source of truth for resolving any future bilingual discrepancy.
 
@@ -82,4 +84,4 @@ The English publication layer follows the same rules as the Chinese canonical pu
 
 ## Current QA status
 
-All **32/32 English publication chapters** have completed the first synchronization pass. The remaining work is QA rather than chapter generation: dead-link rescans, deep-source verification, denominator checks, cross-language regression, and final PDF/e-book layout.
+All **32/32 English publication chapters** have been rebuilt against the current Chinese canonical edition. The remaining work is QA rather than chapter generation: English Markdown regression, bilingual structure/data regression, critical-link rescans, copyright review, and final PDF/e-book layout.
