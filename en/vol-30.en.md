@@ -63,7 +63,7 @@ Short-duration assets reprice first; long-duration obligations remain.
 
 ## 4. CapEx cannot be interpreted without utilization
 
-The same **$100B** of CapEx can represent very different economics.
+As an **illustrative sensitivity input**, the same **$100B** of CapEx can represent very different economics; $100B here is not an observed industry total.
 
 At high utilization, it can be a productive growth asset.
 
