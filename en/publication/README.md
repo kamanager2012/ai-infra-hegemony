@@ -1,21 +1,16 @@
-# English Publication Layer · The Age of AI Infrastructure Hegemony
+# English Research Edition · The Age of AI Infrastructure Hegemony
 
-> This directory contains the continuous-reading English publication edition. **All 32/32 English chapters have been resynchronized from the current Chinese canonical edition. English Markdown QA, chapter-by-chapter bilingual structure/high-risk numeric regression, and the bilingual 96/96 research required-source gate have passed. The project is still not marked Publication Ready.**
+> This directory contains the continuous-reading English research edition. All 32/32 chapters follow the same analytical structure as the current Chinese canonical edition. Ongoing work focuses on research quality itself: factual semantics, industrial mechanisms, redundancy reduction, terminology, counter-evidence, and scenario boundaries.
 
-See the [English Front Matter](00-front-matter.md), the canonical [Publication Release Standard](../../出版封版标准.md), and [Publication Architecture](../PUBLICATION_STRUCTURE.md).
+See the [English Report Scope and Evidence Boundaries](00-front-matter.md) and [Research Architecture](../PUBLICATION_STRUCTURE.md).
 
-## Current build status
+## Current research structure
 
 - **Part I — System Power and Physical Scarcity: 9/9 chapters synchronized.**
 - **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
 - **Part III — Capital Cycles, Profit Pools, and External Transmission: 8/8 chapters synchronized.**
 - **Part IV — Method, Scenarios, Monitoring, and Strategy: 6/6 chapters synchronized.**
 - **English Publication Layer: 32/32 chapters synchronized to the current Chinese canonical edition.**
-- **English Front Matter: pre-release content complete** — scope/disclaimer, table of contents, list of tables, and abbreviations/core glossary are present; target version is v1.0.0 and the formal publication date remains intentionally unlocked until final proof/public release.
-- **English Markdown QA: PASS** — References 32/32, footnote definitions/uses closed, no raw URLs in chapter bodies, no construction-language residue, no heading-level skips, Table/Source/Note consistency, and standard unit casing.
-- **Bilingual chapter regression: PASS** — 32/32 chapters match on Table-number sets, Reference counts, numeric section sequences, and high-risk currency/percentage/power/capacity/process numeric-unit sets.
-- **Research required-source gate: PASS** — Chinese 48/48 + English 48/48, for 96/96 research files total; the high-risk claim ledgers contain 32 aligned bilingual records per language.
-- **Publication Ready: not yet passed** — critical-link and current rights gates have passed. The fresh enabled `Release QA v1` workflow triggers normally, but attempts still fail before GitHub-hosted runner assignment (`steps: [] / runner_id: 0`). Remaining mandatory work is successful runner assignment (or the local/WSL fallback), verified bilingual PDF/EPUB build + machine proof, final human proofreading/lower-risk semantic sign-off, author COI confirmation, and final release metadata/public-release operations.
 
 The Chinese and English Publication Layers now share the same 32-chapter architecture. The Chinese edition remains the final source of truth for resolving any future bilingual discrepancy.
 
@@ -84,6 +79,6 @@ The English publication layer follows the same rules as the Chinese canonical pu
 7. Internal workpaper language and revision-process commentary do not enter publication text.
 8. Technical units retain standard notation: TB, GB, GHz, MHz, kW, MW, GW, MWh, TWh.
 
-## Current QA status
+## Current research status
 
-All **32/32 English publication chapters** have been rebuilt against the current Chinese canonical edition. English Markdown QA, bilingual structure/high-risk numeric regression, and the **96/96 research required-source regression** have passed. Remaining work is operational final-publication QA: successful GitHub-hosted runner assignment for the enabled `Release QA v1` workflow (or the local/WSL fallback), actual PDF/EPUB build and machine proof, final human proofreading/lower-risk semantic sign-off, author COI confirmation, and final release metadata/release operations.
+All **32/32 English research chapters** follow the current Chinese canonical research structure. Remaining work is substantive: strengthen source semantics, industrial mechanisms, counterarguments, scenario logic, and final editorial clarity.
