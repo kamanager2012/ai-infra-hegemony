@@ -1,0 +1,167 @@
+# Part I · Chapter 2: NVIDIA's System Stack and Platform Power
+
+> **Publication-layer chapter.** Recompiled from [Volume 02](../vol-02.en.md), [Volume 32](../vol-32.en.md), and [Macro Essay 02](../part2-02.en.md). The research modules remain the source layer for evidence tracing and Git diffs; this chapter keeps only the main argument and the engineering detail needed for continuous reading.
+
+## 1. The competitive unit has moved from the GPU to the system stack
+
+NVIDIA's most important current advantage is no longer the point performance of one GPU generation. It is the ability to organize accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system. The official GB200 NVL72 specification makes the shift in sales unit explicit:
+
+| Layer | Official specification / structure |
+|---|---|
+| GPU | 72 Blackwell GPUs |
+| CPU | 36 Grace CPUs |
+| GPU memory | 13.4 TB HBM3E |
+| CPU memory | 17 TB LPDDR5X |
+| Scale-up domain | 72-GPU NVLink domain |
+| Rack | liquid-cooled rack-scale system |
+
+This changes how competition must be measured. In the add-in-card era, FLOPS, memory capacity, and card price could dominate the comparison. At rack scale, the comparison has to include memory hierarchy, scale-up/scale-out interconnect, compiler/runtime, distributed-training software, power/cooling, deployment tooling, and workload-migration cost.
+
+A cheaper ASIC die therefore does not automatically imply a cheaper production AI system.
+
+## 2. NVLink / NVSwitch: turning communication into an internal system capability
+
+Frontier-model training is not limited by single-GPU compute alone. Tensor parallelism, pipeline parallelism, expert parallelism, and collective communication push performance toward bandwidth, topology, synchronization, and collective implementation.
+
+The strategic value of NVLink/NVSwitch is that scale-up communication is designed as a platform-internal capability. GB200 NVL72 organizes 72 GPUs inside one NVLink domain; NVIDIA's current product page reports **130 TB/s of aggregate NVLink bandwidth per rack**.
+
+That does not prove Ethernet-based alternatives are inherently incapable of substitution. It changes the substitution problem:
+
+> A challenger must replace not one GPU, but the production capability created by **compute + memory + in-domain interconnect + the software execution model**.
+
+For that reason, this report does not use unverified nanosecond-level latency comparisons or treat promotional benchmarks as independent measurements. The relevant evidence is production workload behavior: post-migration throughput, utilization, engineering cost, and reliability.
+
+## 3. CUDA / PTX: the moat is a cross-generation software asset
+
+CUDA's strategic value should not be reduced to an imaginary fixed "software tax" that does not appear in financial disclosures. It is better understood as a long-lived software asset:
+
+- compiler and kernel ecosystem;
+- libraries;
+- profiling / debugging;
+- framework integration;
+- distributed communication;
+- inference / training runtime;
+- deployment tooling;
+- developer knowledge.
+
+PTX matters because it provides a relatively stable intermediate representation. Upper-layer software does not need to be rewritten from scratch every time the GPU generation changes. Hardware can move from Hopper to Blackwell to Rubin while a meaningful share of software assets remains reusable.
+
+That creates a cross-generation mechanism:
+
+**larger installed base → more production software assets → lower in-platform upgrade cost → higher out-of-platform migration cost.**
+
+This is why NVIDIA's advantage cannot be measured by one benchmark or proved by an undisclosed "CUDA margin."
+
+## 4. Rack-scale architecture extends switching costs into the data center
+
+When the purchasing unit becomes the rack, migration costs extend from software into physical infrastructure. Customers build not only code, but also:
+
+- rack / pod topology;
+- power distribution;
+- liquid cooling;
+- networking;
+- firmware;
+- cluster management;
+- scheduling and performance validation.
+
+Changing one accelerator may be a procurement action. Changing a rack-scale system can require revalidating software-hardware coordination and data-center engineering.
+
+This is where chip-only benchmarks most easily understate system power. The farther the system extends into racks, pods, and sites, the more challengers must prove deployment time, reliability, and total cost of ownership—not simply peak compute.
+
+## 5. Why platform profit can become next-generation resource-reservation power
+
+If system-level advantage produces high profit and free cash flow, it can influence the supply chain. The company-level anchors needed here are limited to one set:
+
+| Metric | Current public value |
+|---|---:|
+| FY26 Data Center revenue | US$193.737B |
+| FY26 NVIDIA-defined non-GAAP free cash flow | US$96.575B |
+| FY27 Q2 revenue | US$96.221B |
+| FY27 Q2 Data Center revenue | US$89.0B |
+| FY27 Q2 GAAP gross margin | 75.0% |
+| FY27 Q2 GAAP operating income | US$63.734B |
+| 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
+
+The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems. The filing does not split the US$279B across TSMC, CoWoS, SK hynix, Micron, Samsung, or any other individual supplier.
+
+The number therefore demonstrates the scale of aggregate forward supply commitments; it is not evidence of any specific supplier's future revenue.
+
+This creates a testable cross-generation reinforcing mechanism:
+
+**high system profit → stronger supply commitments and resource reservation → greater delivery certainty → stronger customer retention → next-cycle system revenue.**
+
+It is not an automatic monopoly formula. Suppliers still optimize for customer diversification, credit quality, utilization, geopolitics, and long-run bargaining balance.
+
+## 6. NVIDIA's system power has clear physical boundaries
+
+NVIDIA does not directly manufacture every critical scarce layer. It still depends on:
+
+- leading-edge foundries;
+- HBM vendors;
+- the advanced-packaging ecosystem;
+- data-center operators;
+- grid / power suppliers.
+
+Strong platform power therefore does not make physical supply fully endogenous. A mismatch in TSMC capacity, HBM, advanced packaging, or power can constrain next-generation delivery.
+
+This is why the report separates **Scarce-layer Value Capture** from a simple market-share monopoly story. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
+
+## 7. The real counterattack is a Cloud System Stack, not a single ASIC
+
+The strategic significance of Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA is not merely the existence of another chip. Hyperscalers also possess:
+
+- captive large-scale workloads;
+- cloud distribution;
+- control of data-center infrastructure;
+- internal compiler/runtime software;
+- in-house interconnect and rack/pod design;
+- the ability to optimize a narrower workload at system level.
+
+The future competition is therefore not:
+
+> NVIDIA GPU vs. custom ASIC
+
+but:
+
+> **NVIDIA system stack vs. cloud system stack**
+
+This can produce two effects that point in opposite directions yet coexist:
+
+1. **Platform-profit diversion:** in-house cloud systems reduce dependence on part of NVIDIA's platform profit pool;
+2. **Upstream resource competition:** those systems still compete for advanced logic, HBM, advanced packaging, and power.
+
+Successful cloud custom silicon does not automatically relieve upstream physical scarcity.
+
+## 8. What would count as genuine erosion of the moat
+
+The NVIDIA system moat should not be judged from product-launch count or single-chip performance. The structure weakens only if several of the following variables move together:
+
+- cloud system stacks reach production scale in frontier training / high-value inference;
+- open software materially lowers CUDA migration cost;
+- alternative scale-up fabrics reach production-grade scale;
+- engineering cost and performance loss during multi-stack migration continue to fall;
+- scarce upstream resources stop disproportionately supporting NVIDIA's roadmap;
+- major customers distribute real workloads across multiple systems rather than running only benchmarks or narrow internal tests.
+
+If several of these changes persist, NVIDIA's platform power could move from "system-level pricing power" toward a more negotiable "integration advantage." If migration remains expensive while in-platform generational upgrades stay low-friction, the system moat remains intact.
+
+## 9. Current judgment
+
+As of August 2026, the most accurate description is neither "GPU competition is over" nor "cloud ASICs have replaced NVIDIA."
+
+It is:
+
+> **NVIDIA currently has the most mature commercial general-purpose AI system stack; hyperscalers have built a real second system-stack path, but the extent of substitution must be validated through production workloads, migration cost, utilization, and upstream resource dependence.**
+
+That is the starting point for the rest of the book's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
+
+## Key public sources
+
+- NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- NVIDIA DGX GB200 hardware guide: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- CoreWeave, 2025-02-04, GB200 NVL72 general availability: https://investors.coreweave.com/news/news-details/2025/CoreWeave-First-Cloud-Provider-to-Announce-General-Availability-of-NVIDIA-GB200-NVL72-Instances/default.aspx
+- NVIDIA, 2025-04-28, OCI liquid-cooled GB200 NVL72 deployment: https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/
