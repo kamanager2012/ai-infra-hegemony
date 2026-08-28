@@ -89,9 +89,11 @@ That creates a variable comparable in importance to the chip roadmap:
 
 Projects with existing grid interconnection, powered land, substation / transformer capacity, firm generation, and executable permitting paths gain a timing advantage.
 
-Hyperscaler competition is therefore not only about who acquires more accelerators. It is also about:
+Hyperscaler competition is therefore not only about who acquires more accelerators. It is also about an **illustrative deployment-scale question**:
 
 > **who can energize the next 50 MW / 100 MW / 500 MW of systems sooner.**
+
+The 50 / 100 / 500 MW values are scenario-scale markers used to illustrate Time-to-Power; they are not disclosed project capacities.
 
 ## 7. Power and semiconductor bottlenecks can rotate
 
