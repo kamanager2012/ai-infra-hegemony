@@ -264,7 +264,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 3. 后续章节只增加新的 evidence、boundary、counterargument 或 falsification；
 4. 同一数字跨章使用时保持原始分母、时间窗和 evidence grade；
 5. source 跟随事实，不能因章节重组而丢失；
-6. 修订历史、编辑过程和内部工作记录不进入正文。
+6. 修订历史与过程性编辑记录不进入研究正文。
 
 这样读者才能区分：
 
@@ -291,7 +291,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 - technical unit 使用标准行业符号；
 - accounting / physical unit 不混用；
 - 关键分母明确；
-- 正文不携带 revision metadata、施工语言或内部自我辩护；
+- 正文不携带 revision metadata、过程性编辑措辞或自我辩护语气；
 - 章节有明确产业问题，而不是数字堆砌；
 - 结论能够回答“这对产业结构意味着什么”。
 
