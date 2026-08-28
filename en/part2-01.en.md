@@ -76,13 +76,35 @@ After AI/server demand absorbs high-value capacity, non-AI markets should be ana
 
 DeepSeek and other architecture-efficiency examples show that compute and memory required for a particular workload can fall materially.
 
-But lower unit cost does not imply lower total infrastructure demand. If cheaper intelligence expands token, agent, workflow, and user volume faster than unit resource intensity falls, total demand can keep rising.
+But lower unit cost does not imply lower total infrastructure demand. The research and publication layers now use the same computable relationship:
 
-The macro relationship is therefore closer to:
+```text
+Infrastructure_Demand_t
+= Unit_Resource_Intensity_t
+× Workload_Volume_t
+```
 
-> **Net Infrastructure Demand = Efficiency Effect × Demand Elasticity**
+Relative to a baseline period:
 
-The relevant evidence is total productive workload and asset utilization, not one training-cost headline or one API price.
+```text
+Infrastructure_Demand_t / Infrastructure_Demand_0
+=
+(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
+×
+(Workload_Volume_t / Workload_Volume_0)
+```
+
+If the analysis also maps effective price changes into workload volume, it can separately introduce an explicitly labeled elasticity assumption:
+
+```text
+Workload_Volume_t / Workload_Volume_0
+=
+(Effective_Price_t / Effective_Price_0)^(-ε)
+```
+
+where ε must refer to demand for the same comparable, verifiable outcome. This keeps efficiency improvement and demand expansion separate instead of compressing them into a non-computable slogan.
+
+The relevant evidence is unit resource intensity, total productive workload, effective price, and asset utilization—not one training-cost headline or one API price.
 
 ## 6. Multiple regional stacks may increase duplication as well as resilience
 
