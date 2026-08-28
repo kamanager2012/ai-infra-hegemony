@@ -106,9 +106,9 @@ rather than a confirmed broad impairment cycle.
 
 The combination that would make the depreciation wall dangerous is sustained utilization decline, rapid residual-value erosion, lower CapEx guidance, shrinking commitments, and rising impairment at the same time.
 
-## Key public sources
+## References
 
-- Microsoft FY26 10-K: https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
-- Alphabet 2025 10-K: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
-- Meta 2025 10-K: https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
-- Amazon 2025 10-K: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+[^1]: Microsoft Corporation, FY26 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+[^2]: Alphabet Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+[^3]: Meta Platforms, Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+[^4]: Amazon.com, Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
