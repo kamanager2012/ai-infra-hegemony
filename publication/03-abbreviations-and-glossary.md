@@ -26,6 +26,8 @@
 | FCF | Free Cash Flow | 保留公司定义与 GAAP/non-GAAP 身份 |
 | PPA | Power Purchase Agreement | contracted capacity 不等于 energized/utilized load |
 | PUE | Power Usage Effectiveness | data-center efficiency metric |
+| LPS | Land, Power and Shell | data-center site 的土地、电力接入与建筑壳体组合；secured LPS 不等于 energized / utilized compute |
+| IT-GW | Gigawatts of IT load / IT capacity | 表示 IT equipment / AI factory 的设计负载容量；不能与 generation GW、PPA GW 或 grid-delivered GW 直接视为同一物理量 |
 | CSP | Cloud Service Provider | hyperscaler 为其中重要类别 |
 | OEM | Original Equipment Manufacturer | 终端/整机厂商 |
 | ODM | Original Design Manufacturer | 设计制造服务商 |
