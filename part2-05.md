@@ -82,6 +82,29 @@ AI/服务器资源吸收
 
 将部分推理 workload 转向 DDR5 并不会创造独立于服务器内存池的新供给。RDIMM 已包含在相关 server-memory bit share 中，因此新增需求仍可能加剧同一 DRAM 资源池的竞争。渠道价格只能作为终端压力的温度计，不能反推原厂长期合同价格。
 
+### 3.1A Two-Speed Semiconductor Economy：真正被重写的是资本配置函数
+
+消费电子压力不能只从当期“有没有货”判断。更深层的变化发生在下一轮资本形成。
+
+TSMC 2026 Q2 的 revenue mix 显示，HPC 占季度营收 **66%**，Smartphone 占 **22%**；HPC revenue 环比 **+20%**，Smartphone 环比 **-4%**。这是 TSMC 单季 platform revenue mix，不是全球半导体份额，也不能把 HPC 全部写成 AI。与此同时，TSMC 把 2026 年 capital budget 上调至 **US$60B–64B**，主要投向 advanced process technologies，并继续投入 advanced packaging、testing 等。来源：https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+Samsung 2026 Q2 则给出 memory 侧的一手锚：公司称在 **limited capacity** 下把重点放在 server products，并预计 2026 H2 server DRAM、eSSD 与 HBM demand 继续加速；即使 mobile 与 PC demand 部分放缓，仍预计市场保持 undersupplied。来源：https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results
+
+这说明正在形成两套不同的资源经济：
+
+| 维度 | AI Infrastructure Economy | Traditional Device Economy |
+|---|---|---|
+| 需求主体 | hyperscaler / system seller / Anchor Compute Buyer | smartphone / PC / consumer OEM |
+| 资源竞争方式 | 长约、预付款、capacity reservation、较高价格承受能力 | BOM 约束、零售价格弹性、产品分层 |
+| 资本结果 | 更容易前置拉动先进逻辑、HBM、封装与 power buildout | 更依赖 residual supply、成本转嫁和换机周期 |
+| 主要风险 | utilization / monetization 不及资本基数 | BOM inflation / demand destruction / product downgrading |
+
+因此，本报告把这一状态称为 **Two-Speed Semiconductor Economy**。它不是“AI 抢走所有消费芯片”的同义词，而是：
+
+> **AI/HPC 正在改变全球半导体决定下一美元资本投向哪里的函数。**
+
+这也是为什么短期 allocation 变化只是第一层，设备与未来 Fab/packaging/memory CapEx 的方向才是更长期的第二层和第三层影响。
+
 ### 3.2 手机：被动窒息，不是需求消失
 
 Smartphone 仍保持较大市场规模，因此更准确的判断不是“消费电子衰退”，而是产品结构和升级节奏受到约束。旗舰机型需要同时承受先进 SoC 与 LPDDR 成本，中端产品则更可能延长成熟节点生命周期。关于采购单价和换机周期的具体点估计，如缺乏一手来源，不进入事实层。
