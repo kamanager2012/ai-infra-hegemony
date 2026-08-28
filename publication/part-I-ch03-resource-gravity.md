@@ -28,7 +28,7 @@ AI infrastructure 对供应链的影响具有强烈层级性。真正容易被�
 
 在极端紧缺期，市场并不只通过涨价清算。**长期协议、客户信用、预付款、采购规模和供应商给出的 allocation fulfillment** 会先决定谁能拿到足够的量。
 
-TrendForce 2026-01 明确指出，美国 CSP 锁定 capacity 后，其他买家为了确保 supply allocation 被迫接受更高价格；2026-03 又指出，PC OEM / module maker 如果 allocation fulfillment 较低，只能从供应商或模组厂以更高价格补货。
+TrendForce 2026-01 明确指出，美国 CSP 锁定 capacity 后，其他买家为了确保 supply allocation 被迫接受更高价格；2026-03 又指出，PC OEM / module maker 如果 allocation fulfillment 较低，只能从供应商或模组厂以更高价格补货。[^1][^2]
 
 因此：
 
@@ -48,9 +48,33 @@ TrendForce 2026-01 明确指出，美国 CSP 锁定 capacity 后，其他买家�
 
 因此，“全球产能增长”不能自动推出 PC、smartphone、general server 或消费 GPU 的供给恢复宽松。
 
+### 3.1 Two-Speed Semiconductor Economy：不同终端共享资源，但资本形成速度不同
+
+AI Infrastructure Economy 与 Traditional Device Economy 共享部分 advanced logic、memory、packaging 与 power-management 资源，却具有不同的 willingness-to-pay、合同期限、预付款结构、BOM 约束与终端价格弹性。
+
+这意味着 AI Resource Gravity 的长期结果不只是当期 allocation 变化，更会影响下一轮资本形成：供应商会根据风险调整后回报决定下一美元 CapEx 投向哪里。**Two-Speed Semiconductor Economy** 描述的是这种资源经济差异，而不是“消费电子被永久献祭”的事实判决。
+
+### 3.2 AI Capacity Gap：判断短缺是在强化、收敛还是反转
+
+本报告按物理层定义：
+
+```text
+AI_Capacity_Gap_i(t)
+= Growth(AI_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
+
+其中 \(i\) 分别对应 advanced logic、HBM/DRAM、advanced packaging、networking 与 power。
+
+- **Gap > 0**：AI 新增需求快于新增有效供给，S2/S3 压力上升；
+- **Gap ≈ 0**：供需向平衡收敛；
+- **Gap < 0**：供给增长快于需求，但只有同时出现 utilization、clearing price 与 commitments 恶化时，才构成 S4 的强信号。
+
+AI Capacity Gap 与 Non-AI Residual Capacity 是互补变量：前者描述 AI 侧的新增供需差，后者描述优先分配之后其他行业还能获得多少有效资源。
+
 ## 4. Memory 是最清晰的 observed crowding-out 路径
 
-Micron 一手披露 same node / same bits 条件下 HBM3E 约需要 DDR5 **3× wafer supply**；TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。
+Micron 一手披露 same node / same bits 条件下 HBM3E 约需要 DDR5 **3× wafer supply**；TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^3][^4]
 
 这使 memory 层出现一条可观察机制：
 
@@ -60,7 +84,7 @@ Micron 一手披露 same node / same bits 条件下 HBM3E 约需要 DDR5 **3× w
 
 ## 5. PC 与 Gaming：GPU allocation + memory residual 双重暴露
 
-NVIDIA FY26 10-K 披露 Gaming revenue **US$16.0B、同比 +41%**，同时预计 supply constraints 会成为 FY27 Q1 及之后 Gaming 的 headwind。
+NVIDIA FY26 10-K 披露 Gaming revenue **US$16.0B、同比 +41%**，同时预计 supply constraints 会成为 FY27 Q1 及之后 Gaming 的 headwind。[^5]
 
 这证明消费 GPU 侧存在供应约束，但不能直接推出所有约束都由 Data Center allocation 造成。
 
@@ -74,7 +98,7 @@ general server 不一定使用 HBM，但大量使用 DDR5 RDIMM。TrendForce 把
 
 ## 7. Smartphone：没有被 AI 挤掉，但增量资源竞争已改变
 
-TSMC 2025 smartphone platform 占全年 net revenue **29%**，platform revenue 同比增长 **11%**；HPC 占 **58%**，增速更高。
+TSMC 2025 smartphone platform 占全年 net revenue **29%**，platform revenue 同比增长 **11%**；HPC 占 **58%**。[^6]
 
 这不能写成“AI 取代 smartphone”。更准确的是：
 
@@ -128,11 +152,11 @@ automotive 具有长 qualification cycle、高 reliability requirement 和大量
 
 如果 DDR/LPDDR 价格与供给恢复宽松、consumer GPU availability 明显改善、smartphone/general-server upgrade 不再受到 shared-resource pressure，且 memory/packaging product mix 不再持续向 AI/server 倾斜，本章对 crowding-out 的判断应下调。
 
-## 关键公开来源
+## References
 
-- NVIDIA FY26 10-K — Gaming +41% and supply-constraint headwind: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
-- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- TSMC 4Q25 Presentation — smartphone 29%, HPC 58%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
-- TrendForce 2026-01-05 — CSPs lock capacity, other buyers accept higher prices to secure allocation: https://www.trendforce.com/presscenter/news/20260105-12860.html
-- TrendForce 2026-03-31 — lower allocation fulfillment forces OEMs to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
+[^1]: TrendForce, 2026-01-05, CSP capacity locking and allocation pricing, https://www.trendforce.com/presscenter/news/20260105-12860.html
+[^2]: TrendForce, 2026-03-31, allocation fulfillment and higher-price procurement by OEMs/module makers, https://www.trendforce.com/presscenter/news/20260331-12995.html
+[^3]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E wafer-supply trade ratio versus DDR5, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^5]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Gaming revenue and supply-constraint disclosure, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^6]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
