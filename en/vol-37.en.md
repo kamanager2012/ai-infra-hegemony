@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-37.md](../vol-37.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume does not define a bubble by market capitalization or headline CapEx. It looks for a synchronized deterioration in utilization, realized cash flow, market clearing, and forward commitments.
+> Retrieval and revision cutoff: **2026-08-28**. This volume does not define a bubble by market capitalization or headline CapEx. It looks for a synchronized deterioration in utilization, realized cash flow, market clearing, and forward commitments.
 
 ## 1. Large CapEx is not, by itself, evidence of a bubble
 
