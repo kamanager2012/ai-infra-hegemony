@@ -4,7 +4,7 @@ Chinese source edition: [vol-21.md](../vol-21.md)
 
 > **Publication role:** [Volume 14](vol-14.en.md) owns the Value Capture Map; this volume is the capital-flow companion focused on double counting, capital intensity, and upstream commitments. The integrated Chinese publication chapter is [Part III · Chapter 20](../publication/part-III-ch20-value-capture-map.md).
 
-> Retrieval and revision cutoff: **2026-08-27**. Capital-flow analysis must avoid counting the same dollar multiple times as hyperscaler CapEx, vendor revenue, foundry revenue, memory revenue, and infrastructure investment.
+> Retrieval and revision cutoff: **2026-08-28**. Capital-flow analysis must avoid counting the same dollar multiple times as hyperscaler CapEx, vendor revenue, foundry revenue, memory revenue, and infrastructure investment.
 
 ## 1. The same dollar cannot be counted three times
 
