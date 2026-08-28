@@ -8,7 +8,7 @@ NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center rea
 
 > **interface control + reference architecture + software/runtime + supply orchestration**
 
-系统边界已经覆盖 GPU / CPU、NVLink / NVSwitch、networking、rack-scale design、liquid-cooling requirements、CUDA/runtime、AI Enterprise、NIM / NeMo、DGX 与 cloud-service extensions。
+系统边界已经覆盖 GPU / CPU、NVLink / NVSwitch、networking、rack-scale design、liquid-cooling requirements、CUDA/runtime、AI Enterprise、NIM / NeMo、DGX 与 cloud-service extensions。[^1][^2][^3]
 
 ## 2. Rack-scale sales unit 会重新定义 OEM / ODM 的角色
 
@@ -51,7 +51,7 @@ NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center rea
 
 ## 6. Asset-light Orchestration 为什么重要
 
-NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ecosystem 与 infrastructure providers，同时用 long-term commitments、prepayments、roadmap coordination 和 volume certainty 影响这些供应商扩产。
+NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ecosystem 与 infrastructure providers，同时用 long-term commitments、prepayments、roadmap coordination 和 volume certainty 影响这些供应商扩产。FY26 10-K 的 manufacturing, supply and capacity commitments 为这一 supply-orchestration 模式提供了公司层事实锚。[^4]
 
 这形成典型：
 
@@ -94,9 +94,9 @@ AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有�
 但“纵向扩张”与“产业完全被一个平台控制”仍是两个不同命题。下一阶段真正需要观察的是：system definition 能否继续转化成长期 workload、supply commitments 和低迁移成本的跨代客户留存。
 
 
-## 关键公开来源
+## References
 
-- NVIDIA NIM official product page — optimized inference microservices across cloud, data center, workstation and edge: https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/
-- NVIDIA AI Foundation Models / NeMo — NVIDIA AI Foundry combines foundation models, NeMo, NIM and DGX Cloud: https://www.nvidia.com/en-us/ai-data-science/foundation-models/
-- NVIDIA DGX Cloud Lepton — unified AI platform / compute marketplace and integration with NIM / NeMo: https://developer.nvidia.com/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/
-- NVIDIA FY26 10-K — Data Center, networking, platform and supply-chain disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^1]: NVIDIA, NIM official product page, optimized inference microservices across cloud, data center, workstation and edge, https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/
+[^2]: NVIDIA, AI Foundation Models / NeMo, NVIDIA AI Foundry architecture, https://www.nvidia.com/en-us/ai-data-science/foundation-models/
+[^3]: NVIDIA, “Introducing NVIDIA DGX Cloud Lepton,” unified AI platform and compute marketplace, https://developer.nvidia.com/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/
+[^4]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Data Center, networking, platform and supply-chain disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
