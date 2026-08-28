@@ -23,7 +23,7 @@ Microsoft、Amazon、Alphabet、Meta 的 infrastructure spending 已处历史高
 | Meta | US$130–145B | Q2 guidance；含 finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
 
-**Source:** Microsoft FY26 Q4 earnings materials、Alphabet 2026 Q2 SEC Exhibit 99.1、Meta 2026 Q2 SEC Exhibit 99.1、Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
+**Source:** Microsoft FY26 Q4 earnings materials；Alphabet Q2 2026 company guidance as reported by Reuters（SEC Exhibit 99.1 separately supports Q2 actual results）；Meta 2026 Q2 SEC Exhibit 99.1；Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
 **Note:** 四家公司时间窗和会计口径不同，严禁机械相加为统一 AI hardware CapEx。
 
 这些数据足以证明 infrastructure investment 仍在高位扩张，但不能机械相加：三家是 guidance/expectation，Amazon 是 TTM actual，时间窗与科目都不同。
@@ -98,6 +98,6 @@ CapEx cycle 的转折不能只看 stock price。本书观察：
 ## References
 
 [^1]: Microsoft, FY26 Q4 earnings / conference call, calendar-2026 reported CapEx expectation, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-[^2]: Alphabet, 2026 Q2 SEC Exhibit 99.1, full-year CapEx guidance, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+[^2]: Alphabet, Q2 2026 earnings-call full-year CapEx guidance **US$195–205B**, company guidance reported by Reuters, 2026-07-22, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Alphabet SEC Exhibit 99.1 separately supports Q2 actual results, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 [^3]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, FY2026 CapEx guidance including finance-lease principal, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 [^4]: Amazon.com, 2026 Q2 Form 10-Q, TTM purchases of property and equipment, net of proceeds and incentives, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
