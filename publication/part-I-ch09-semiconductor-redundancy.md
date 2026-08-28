@@ -39,6 +39,26 @@ leading-edge manufacturing 依赖设备安装、备件、软件、process recipe
 
 因此，本书把 supply-chain independence 定义为 **system-level continuity**，而不是“地图上有一个 fab”。
 
+### 3.1 Upstream Continuity：设备、软件、备件和服务本身就是独立约束
+
+“国内有 fab”也不能自动推出“扩产不再受外部供给影响”。
+
+ASML 的公开出口管制说明给出了一个可审计边界：
+
+- EUV systems 对中国的销售已受限制；
+- 最先进 immersion DUV systems 需要荷兰政府 export license；
+- 2024 更新后的美国规则进一步扩大到部分 advanced semiconductor manufacturing equipment、metrology 与 software。
+
+这支持的不是“所有中国晶圆厂都会因断供停摆”——ASML 自己也明确指出，限制针对 advanced technologies / specific fabs，其他系统并非全部受同一规则控制。
+
+真正应该监测的是：
+
+> **critical equipment availability + software/license + spare parts/field service + materials qualification**
+
+这些上游变量决定新增产能能否按计划 ramp、既有产线能否长期维持 yield，以及下一代工艺能否持续迭代。
+
+所以“存储产能扩张”与“存储供应链完全自主”也是两个不同命题。
+
 ## 4. Material Qualification 是经常被低估的时间成本
 
 advanced node 对 contamination、particle、uniformity、defect density 与 long-term stability 极为敏感。
@@ -174,6 +194,8 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 - ASML 2025 Annual Report: https://www.asml.com/en/investors/annual-report/2025
 - ASML 2025 Strategy & Stories — EUV / High-NA roadmap: https://www.asml.com/en/investors/annual-report/2025/strategy-and-stories
+- ASML — Dutch export controls: EUV already restricted; most advanced immersion DUV requires export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+- ASML — 2024 updated U.S. restrictions include additional advanced manufacturing technologies, metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
 - TSMC 2025 Annual Report — Arizona/Japan/Germany/Taiwan footprint: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - U.S. Department of Commerce — TSMC Arizona CHIPS final award: https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
 - U.S. Department of Commerce — US$1.4B NAPMP advanced-packaging awards: https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
