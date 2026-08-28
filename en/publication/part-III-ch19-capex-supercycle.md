@@ -26,7 +26,7 @@ There is therefore no official "four-cloud AI hardware CapEx" that can be obtain
 **Source:** Microsoft FY26 Q4 earnings materials; Alphabet Q2 2026 company guidance as reported by Reuters (SEC Exhibit 99.1 separately supports Q2 actual results); Meta 2026 Q2 SEC Exhibit 99.1; and Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
 **Note:** Time windows and accounting treatments differ; the figures must not be mechanically added into a unified AI-hardware CapEx number.
 
-These figures are sufficient to show that infrastructure investment remains at elevated levels.
+Taken together, these public disclosures indicate that infrastructure investment remains at elevated levels.
 
 They cannot be mechanically added because three are guidance / expectations while Amazon is TTM actual, and the accounting periods and categories differ.
 
