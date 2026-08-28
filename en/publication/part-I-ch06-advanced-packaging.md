@@ -18,7 +18,7 @@ TSMC's public statements are sufficient to establish advanced-packaging tightnes
 Revenue disclosures must retain their original year-specific labels:
 
 - 4Q24 transcript: **advanced packaging and testing >8% of revenue**;
-- 4Q25 transcript, using the company's corrected wording: **advanced packaging slightly over 10% of 2025 revenue**.
+- 4Q25 transcript, using the company's corrected wording: **advanced packaging slightly over 10% of 2025 revenue**.[^6]
 
 These labels are not perfectly identical. This report therefore does **not** treat >8% → >10% as a strict same-denominator time series, nor does it rewrite the 2025 "advanced packaging" figure back into "advanced packaging + testing."
 
@@ -55,7 +55,7 @@ This report uses an order-of-magnitude geometry model:
 
 The inputs are:
 
-- 72 GPUs from the official NVL72 specification;
+- 72 GPUs from the official NVL72 specification;[^4]
 - ~13.4 packages/wafer as a report-side geometry assumption;
 - therefore, 5.37 as a **D-grade stress test**.
 
@@ -65,7 +65,7 @@ This distinction matters because advanced-packaging wafers and TSMC's annual 12-
 
 ## 6. Why total foundry wafer shipments cannot be divided by 5.37
 
-TSMC shipped roughly **15.0M 12-inch-equivalent wafers** in 2025 across smartphones, HPC, automotive, IoT, mature nodes, and many other front-end products. The 5.37 figure is a report-side geometry stress test for **CoWoS packaging wafers per rack**.
+TSMC shipped roughly **15.0M 12-inch-equivalent wafers** in 2025 across smartphones, HPC, automotive, IoT, mature nodes, and many other front-end products.[^7] The 5.37 figure is a report-side geometry stress test for **CoWoS packaging wafers per rack**.
 
 The following calculation is physically invalid:
 
@@ -156,3 +156,5 @@ The judgment that advanced packaging is a core scarce layer should be weakened i
 [^3]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^4]: NVIDIA, “GB200 NVL72,” official product page, 72 Blackwell GPUs per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 [^5]: TSMC, 2Q24 Earnings Conference Transcript, advanced-packaging margin relative to corporate average, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
+[^6]: TSMC, 4Q25 Earnings Conference Transcript, corrected 2025 advanced-packaging revenue identity, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+[^7]: TSMC, 2025 Annual Report, annual wafer shipments and manufacturing footprint, https://investor.tsmc.com/static/annualReports/2025/english/index.html
