@@ -284,7 +284,7 @@ S4 Capital Hard Landing 重点监测四组指标。
 | 政府、监管、法院、正式合同 | A |
 | TrendForce / OECD / IEA / Stanford HAI | B |
 | 投行、供应链、媒体估计 | C |
-| 5.39 CoWoS wafers/rack | D |
+| 5.37 CoWoS wafers/rack | D |
 | hypothetical rack-count demand | D |
 
 ## 12. 更新原则
