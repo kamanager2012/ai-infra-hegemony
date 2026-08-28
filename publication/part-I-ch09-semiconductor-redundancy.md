@@ -1,6 +1,5 @@
 # Part I · 第9章：全球半导体供应链与制造冗余
 
-> **出版层章节。** 以 [vol-34](../vol-34.md) 为主源，并用 ASML、TSMC 与 CHIPS for America 的公开材料限定事实边界。本章不使用未经核验的设备单价或材料份额表，重点解释：为什么“再建一座 fab”不等于复制完整 leading-edge supply chain，以及战略冗余为什么同时提高 resilience 与成本。
 
 ## 1. Frontier AI 背后是一条跨企业、跨国家的工业链
 
