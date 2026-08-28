@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-05.md](../vol-05.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. HBM is analyzed here as a system-level resource. The report separates first-party wafer-supply tradeoffs, institutional bit-share estimates, and scenario rack demand.
+> Retrieval and revision cutoff: **2026-08-28**. HBM is analyzed here as a system-level resource. The report separates first-party wafer-supply tradeoffs, institutional bit-share estimates, and scenario rack demand.
 
 ## 1. HBM has moved from component to system bottleneck
 
