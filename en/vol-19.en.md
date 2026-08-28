@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-19.md](../vol-19.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The timeline advances by observable conditions, not by assuming that specific events must happen in specific years. The dates below are monitoring windows, not deterministic forecasts.
+> Retrieval and revision cutoff: **2026-08-28**. The timeline advances by observable conditions, not by assuming that specific events must happen in specific years. The dates below are monitoring windows, not deterministic forecasts.
 
 ## 1. A ten-year timeline should be milestone-driven
 
