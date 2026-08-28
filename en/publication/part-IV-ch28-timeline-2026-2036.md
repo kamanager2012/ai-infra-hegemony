@@ -15,7 +15,7 @@ The years are observation windows, not event guarantees.
 
 ## 2. Phase I: 2026–2027 — System Race and Infrastructure Lock-in
 
-Current confirmed anchors include:
+Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**;
 - GAAP gross margin **75.0%**;
@@ -117,7 +117,7 @@ The timeline does not pre-set:
 
 These variables depend heavily on yield, architecture, product mix, demand, regulation, and the capital cycle.
 
-The publication layer records falsifiable conditions and milestones instead.
+The report records falsifiable conditions and milestones rather than treating distant target years as completed facts.
 
 ## 7. Algorithmic milestones
 
@@ -174,12 +174,11 @@ The next decade is more likely to be decided by three thresholds than by one par
 
 Until all three are much clearer, 2036 should remain a conditional cross-section rather than a deterministic answer.
 
-## Key public sources
+## References
 
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- TrendForce — 2026E HBM + RDIMM: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Constellation / Microsoft Crane: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
-- Kairos / Google: https://www.kairospower.com/google
+[^1]: NVIDIA, FY27 Q2 official results, Data Center revenue, GAAP margin, and Rubin production status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^4]: Constellation, Crane Clean Energy Center / Microsoft PPA, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^5]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
