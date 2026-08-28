@@ -74,13 +74,35 @@ compute hardware、network、data-center shell、grid 与长期 PPA 的 useful l
 
 DeepSeek 等案例说明，architecture / algorithmic efficiency 可以显著降低特定训练或 serving workload 的 compute / memory requirement。
 
-但效率提升不会自动意味着总基础设施需求下降。单位成本下降之后，如果 token、agent、workflow 和用户规模增长更快，总需求仍可能继续扩大。
+但效率提升不会自动意味着总基础设施需求下降。研究层与出版层统一使用：
 
-因此宏观关系更接近：
+```text
+Infrastructure_Demand_t
+= Unit_Resource_Intensity_t
+× Workload_Volume_t
+```
 
-> **Net Infrastructure Demand = Efficiency Effect × Demand Elasticity**
+相对基准期：
 
-真正需要观察的是有效 workload 总量和 capital utilization，而不是单次训练成本或 API 单价本身。
+```text
+Infrastructure_Demand_t / Infrastructure_Demand_0
+=
+(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
+×
+(Workload_Volume_t / Workload_Volume_0)
+```
+
+如果要把有效价格变化映射到 workload volume，可另外使用明确标注的弹性假设：
+
+```text
+Workload_Volume_t / Workload_Volume_0
+=
+(Effective_Price_t / Effective_Price_0)^(-ε)
+```
+
+其中 ε 必须对应同一可比、可验收工作结果的需求价格弹性。这样，“效率提升”与“需求扩张”就不会被压缩成一个不可计算的口号。
+
+真正需要观察的是 unit resource intensity、有效 workload 总量、effective price 与 capital utilization，而不是单次训练成本或 API 单价本身。
 
 ## 6. 两套或多套系统生态会提高重复建设，也会提高选择权
 
