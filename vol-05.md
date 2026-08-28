@@ -166,5 +166,8 @@ HBM 已经从“GPU 边上的高端内存”上升为 AI 基础设施资源竞�
 ## 本卷关键公开来源
 
 - TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply；2026/2027 CSP memory CapEx forecast）： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page：https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY25 10-K（HBM requires more wafers / cleanroom space）：https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+- NVIDIA GB200 NVL72 official product page（13.4 TB HBM3E/rack）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 - SK hynix FY25 official results：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
