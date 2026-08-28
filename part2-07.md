@@ -49,7 +49,7 @@
 
 ## 6. 预付款如何把压力测试的时钟拨到买方
 
-三个月承诺从 $95.2B 加到 $119.0B，加的是 $23.8B，大约等于 Q1 FY27 营业利润 $53,536M 的四成多。这更接近高现金流平台主动扩大供应与产能承诺，而不是现金约束下的被动举债。官方写 substantially all will be paid through fiscal year 2027；Q1 末的 $119.0B 里，公开附注写过其余额会付到 2028–2031。同注：in certain instances, these agreements are cancellable, able to be rescheduled, or adjustable。不是每一美元都不可撤。不写成已经买死台积电全厂。
+Q1 阶段，commitments 从 **US$95.2B** 加到 **US$119B**；到 2026-07-26，FY27 Q2 10-Q 又把 supply and capacity commitments 提高到 **US$279B**。公司说明 Q2 最新承诺主要关联 memory 与 manufacturing facilities，用于 data-center infrastructure systems 的 current / future architectures。协议在部分情况下仍可取消、改期或调整，因此不能写成已经买死台积电全厂或锁死某一家 HBM/CoWoS 供应商。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
 
 假设层面，如果 seller economics、订单规模、预付款能力、信用、利用率和 roadmap certainty 持续处于高位，供应承诺可能继续扩大。竞争者能否获得同一批资源，取决于其长期订单、价格、信用、供应商多元化与地缘风险等多变量条件，而不能简化成“供应商是否愿意得罪第一客户”。买方若后来用量填不上，砍的是自己的折旧和电约，不是卖方已经入账的自由现金。压力测试真正要盯的，是买方能不能把已经计提的折旧，用工作流现金盖住；不是卖方会不会先从 75% 掉下来。
 
@@ -106,11 +106,11 @@
 
 这个顺序对「超配物理稀缺」是提醒。超配第四波之后的资产，在前三波里会看起来像愚蠢的长久期；在再集中里会变成还在的东西。压力测试不告诉你该站哪一波，只告诉你不要用第一波的股价给第四波定价。第七篇和第三十六卷是同一件事的两个尺度：一篇写估值时钟，一篇写谁先退出。
 
-能够打断集中化趋势的主要条件包括：跨平台联合采购、cloud system-stack substitution、持续性电力瓶颈、第二个全球级资源买盘，以及强制开放接口或结构性监管救济。当前这些变量均处于不同发展阶段，尚未形成统一的结构性逆转。做成的只有：供应承诺加到 $119.0B；调查在，起诉没有。罚款是成本，改不了出价。如果这些打断机制持续缺位，S3 Resource Hegemony 的相对权重会上升。关键窗口位于下一代首发资源尚未被长期承诺充分锁定的阶段。压力测试若只盯股价，会把窗口看丢。
+能够打断集中化趋势的主要条件包括：跨平台联合采购、cloud system-stack substitution、持续性电力瓶颈、第二个全球级资源买盘，以及强制开放接口或结构性监管救济。当前这些变量均处于不同发展阶段，尚未形成统一的结构性逆转。已经发生的是：supply and capacity commitments 加到 **US$279B**；调查在，起诉没有。罚款是成本，改不了出价。如果这些打断机制持续缺位，S3 Resource Hegemony 的相对权重会上升。关键窗口位于下一代首发资源尚未被长期承诺充分锁定的阶段。压力测试若只盯股价，会把窗口看丢。
 
 ## 9. 可检验指标
 
-仅列可公开追踪的指标。NVIDIA 供应承诺是否继续离开 $119.0B，还是增速放缓。自由现金是否仍靠近一年 $96,575M 这一档，营业利润是否仍按季而不是按股权浮盈看。微软 PPE 是否继续离开 FY25 的 $64,551M，折旧摊销是否继续离开 $34,153M。亚马逊净额、Alphabet 购置、Meta 设备是否还在加，还是掉头。三家 2026 指引是否仍停在依据确认的 $200B / $175–$185B / $115–$135B 附近，还是后来改口；改口也仍是全集团，不是 AI 分项。justice.gov 是否出现起诉书，与本文折旧无关，但能改规则的不是罚款。HBM 交期、二手柜成交、Token 公开价格仅在存在可追踪时间序列时纳入分析。
+仅列可公开追踪的指标。NVIDIA supply and capacity commitments 是否继续离开 **US$279B**，还是增速放缓。自由现金是否仍靠近 FY26 **US$96.575B** 这一档，营业利润是否仍按季而不是按股权浮盈看。四云最新公开口径必须分开：Microsoft calendar-2026 reported CapEx expectation 约 **US$175B**；Alphabet Q2 guidance **US$195–205B**；Meta Q2 guidance **US$130–145B**；Amazon 截至 2026-06-30 的 TTM PPE net purchases actual **US$169.007B**。这些仍是不同会计科目/时间窗，不能复加成统一 AI hardware CapEx。justice.gov 是否出现起诉书，与本文折旧无关，但能改规则的不是罚款。HBM 交期、二手柜成交、Token 公开价格仅在存在可追踪时间序列时纳入分析。
 
 ## 10. 研究边界与未确认事项
 
