@@ -163,3 +163,14 @@ It is:
 > **NVIDIA's strongest moat is the integration of hardware, memory, fabric, software, rack architecture, and deployment into one repeatable system.**
 
 That is the level at which competitors have to win.
+
+
+## Key public sources for this essay
+
+- NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- NVIDIA DGX GB200 hardware guide — rack power / hardware context: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- CoreWeave, 4 February 2025 — first cloud provider to announce GA of GB200 NVL72 instances: https://investors.coreweave.com/news/news-details/2025/CoreWeave-First-Cloud-Provider-to-Announce-General-Availability-of-NVIDIA-GB200-NVL72-Instances/default.aspx
+- NVIDIA, 28 April 2025 — OCI first wave of liquid-cooled GB200 NVL72 racks live: https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/
