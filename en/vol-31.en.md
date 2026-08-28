@@ -124,6 +124,8 @@ FY25:
 - operating margin: **49%**;
 - HBM revenue: more than doubled year over year.
 
+Public source: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+
 These indicators help determine whether the HBM product mix continues to support unusually strong memory-vendor economics.
 
 ## 5. Hyperscaler CapEx
