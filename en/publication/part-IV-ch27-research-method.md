@@ -101,6 +101,8 @@ A long-run narrative without falsification conditions does not enter the book's 
 
 ## 7. A / B / C / D Evidence Grades
 
+**Table 27.1 — Evidence-grade system used in this report**
+
 | Grade | Definition | Typical source |
 |---|---|---|
 | A | First-party / formal evidence | filing, official product page, regulator, government, court, formal contract |
@@ -108,10 +110,13 @@ A long-run narrative without falsification conditions does not enter the book's 
 | C | Sell-side / supply-chain / media estimate | investment bank, channel, supply-chain source, media estimate |
 | D | Report model / stress test | geometry, arithmetic, sensitivity, scenario assumption |
 
+**Source:** Report research method.  
+**Note:** Evidence grade measures source strength, not analytical importance. D-grade models can support scenarios and sensitivity analysis but cannot be presented as observed facts.
+
 Examples:
 
-- Micron HBM3E same-node/same-bits ≈ **3× DDR5 wafer supply**: **A**;
-- TrendForce estimate that NVIDIA represented >60% of 2025 CoWoS demand: **B**;
+- Micron HBM3E same-node/same-bits ≈ **3× DDR5 wafer supply**: **A**;[^1]
+- TrendForce estimate that NVIDIA represented >60% of 2025 CoWoS demand: **B**;[^2]
 - a sell-side estimate of one customer's monthly CoWoS wafer count: **C**;
 - 72 ÷ 13.4 ≈ **5.37 CoWoS wafers/rack** as report-side geometry: **D**.
 
@@ -127,11 +132,11 @@ TSMC customer revenue share cannot be converted directly into N2, 3 nm, HPC, or 
 
 ### Contracted MW ≠ Energized MW ≠ Utilized AI Load
 
-An up-to-1.92-GW revised PPA cannot be rewritten as 1.92 GW of active AI load.
+An up-to-1.92-GW revised PPA cannot be rewritten as 1.92 GW of active AI load.[^3]
 
 ### Product specification × hypothetical quantity ≠ shipment
 
-13.4 TB HBM3E/rack × 50,000 hypothetical racks creates D-grade scenario demand, not actual HBM shipment.
+13.4 TB HBM3E/rack × 50,000 hypothetical racks creates D-grade scenario demand, not actual HBM shipment.[^4]
 
 ### Engineering geometry ≠ fab yield
 
@@ -185,22 +190,20 @@ They do not replace source facts.
 
 Their validity must ultimately be tested by new F and X evidence.
 
-## 12. Publication-layer deduplication rules
+## 12. Full-report deduplication and cross-reference rules
 
-The research layer can retain multiple independent modules for evidence tracing.
+A formal report should not repeatedly rewrite the same facts and mechanisms across chapters.
 
-The publication layer must satisfy stricter rules:
+The publication rules are:
 
-1. one factual table has one canonical home;
-2. a mechanism is fully defined once;
-3. later chapters add evidence, boundaries, counterarguments, or falsification;
-4. unique formulas / cross-volume reasoning from macro essays move into the relevant canonical chapter;
+1. one high-impact factual table has one primary location;
+2. a mechanism is fully defined once and later chapters inherit it through cross-reference;
+3. later chapters add only new evidence, boundaries, counterarguments, or falsification conditions;
+4. when one number appears across chapters, its original denominator, time window, and evidence grade remain unchanged;
 5. sources move with the claims they support;
-6. internal revision history does not enter public-facing text.
+6. revision history, editorial process, and construction metadata do not enter public-facing text.
 
-The publication layer is therefore not a mechanical merger of 40 research volumes.
-
-It is a reorganization of evidence and argument.
+The purpose is not to reduce information. It is to let readers distinguish first definition, incremental evidence, and cross-chapter inference.
 
 ## 13. Formal release standard
 
@@ -220,10 +223,9 @@ This method does not exist to make scenarios timid.
 
 It allows scenarios to be bold while the fact layer remains auditable, falsifiable, and updateable.
 
-## Key public sources
+## References
 
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- NVIDIA GB200 NVL72 product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- Talen 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- TrendForce, 2025 CoWoS demand structure: https://www.trendforce.com/research/download/RP250314ZJ
+[^1]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^2]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^4]: NVIDIA, “GB200 NVL72,” official product page, 13.4 TB HBM3E per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
