@@ -1,6 +1,5 @@
 # Part II · 第10章：模型单位经济、算法效率与开源竞争
 
-> **出版层章节。** 以 [vol-06](../vol-06.md) 为主源，并与 Part I Ch08 的量化边界保持一致。本章不使用固定“AI SaaS 毛利率终点”，而把模型与软件竞争放进 **AI Software Unit Economics + demand elasticity** 框架。
 
 ## 1. 模型公司不是脱离基础设施的纯软件生意
 
