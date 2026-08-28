@@ -1,6 +1,8 @@
 # AI基础设施霸权时代
 ### The Age of AI Infrastructure Hegemony
 
+**发布状态：Pre-release Publication QA Edition；目标 v1.0.0 尚未发布。**
+
 行业深度研究专著。中文与英文 **Publication Layer 均已完成 4 Part / 32 章正式同步，并通过 Markdown 层 QA 与逐章双语结构/高风险数值回归**。仓库保留 **40 个分卷研究模块 + 8 篇宏观专题**作为证据回溯与研究存档。正式连续阅读请从[出版版目录](publication/01-table-of-contents.md)进入。
 
 [English release page](README.md) · [English edition index](en/README.en.md) · [Release notes](RELEASE_NOTES.md)
