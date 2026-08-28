@@ -87,16 +87,16 @@ The report uses a **D-grade geometry stress test**:
 ```text
 72 GPU packages
 ÷ 13.4 packages per wafer
-≈ 5.39 CoWoS wafers per rack
+≈ 5.37 CoWoS wafers per rack
 ```
 
 The inputs have different evidence status:
 
 - 72 packages: derived from the official rack configuration;
 - 13.4 packages per wafer: geometry working assumption;
-- 5.39 wafers per rack: scenario stress-test result.
+- 5.37 wafers per rack: scenario stress-test result.
 
-The 5.39 figure is **not** a TSMC-disclosed yield and is **not** front-end logic-wafer consumption.
+The 5.37 figure is **not** a TSMC-disclosed yield and is **not** front-end logic-wafer consumption.
 
 It must not be divided into TSMC's roughly 15M annual wafer shipments to infer global rack capacity.
 
