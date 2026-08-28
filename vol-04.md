@@ -63,6 +63,8 @@ TSMC 的 2025 largest customer **19%** 与 second-largest customer **17%** 都�
 - Customer A：2024→2025 **12%→19%**；
 - Customer B：2024→2025 **22%→17%**。
 
+来源：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+
 因此，不能把某一年的 “largest customer 22%” 与下一年的 Customer A 19% 拼接后解释成同一个客户“份额下降”。两套披露回答不同问题，必须分开。
 
 原因也包括：不同产品的 node、die size、wafer ASP、packaging intensity 都不同。
