@@ -72,7 +72,7 @@
 
 本文依据 NVIDIA 官方财务材料、TSMC 2025 年报与管理报告，以及 Microsoft、Amazon、Alphabet、Meta 的 IR/Exhibit 现金流量表。若后续 10-K/20-F 对相关数字发生重述，以最新法定申报为准。
 
-四维表的 2030、2036 列是综合预测，不是合同。万亿开支、45,000 美元晶圆、45 万片/月、2–5 GW 均未核验。光罩极限、CFET、CoPoS 在历史压力测试中是机制名词，没有给出已量产的良率。High-NA 单台 3.8 亿美元、历史节点报价表，截至当前公开资料，尚未核验 ASML 或代工价目原文，继续标历史压力测试。劳动替代没有统计支撑。NVIDIA 预付款没有拆到台积电、海力士、三星的分项美元。CoWoS 月产能轨迹和卖方「约 60%」不是台积电分项。截至2026年8月，微软已给出日历年约1900亿美元CapEx预期；与其他云厂仍需按统一科目和时间窗比较。PC / 手机 / 通用服务器出货统计本文未核。
+四维表的 2030、2036 列是综合预测，不是合同。万亿开支、45,000 美元晶圆、45 万片/月、2–5 GW 均未核验。光罩极限、CFET、CoPoS 在历史压力测试中是机制名词，没有给出已量产的良率。High-NA 单台 3.8 亿美元、历史节点报价表，截至当前公开资料，尚未核验 ASML 或代工价目原文，继续标历史压力测试。劳动替代没有统计支撑。NVIDIA 预付款没有拆到台积电、海力士、三星的分项美元。CoWoS 月产能轨迹和卖方「约 60%」不是台积电分项。截至 2026 年 8 月，Microsoft 在 2026-07-29 将 calendar-2026 reported CapEx expectation 调整为约 **US$175B**，原因是更多 data-center leases 从 finance lease 转为 operating lease；公司同时表示 underlying investment expectation unchanged。Alphabet Q2 earnings-call guidance 为 **US$195–205B**，Meta Q2 guidance 为 **US$130–145B**，Amazon 截至 2026-06-30 的 TTM PPE net purchases actual 为 **US$169.007B**。四家会计科目和时间窗仍不一致，不能机械加总成统一 AI hardware CapEx。PC / 手机 / 通用服务器出货统计本文未核。
 
 不纳入事实层的内容包括：把四云混年 PPE 写成「AI 硬件」一条；把历史压力测试 2026 年那一档北美云开支当成已披露合计；用全厂出货池子去除一个封装单耗，得到超大柜数再去锁 3nm；把 10% 年营收天花板写成即将开出的罚单；把调查写成起诉或拆分令。
 
