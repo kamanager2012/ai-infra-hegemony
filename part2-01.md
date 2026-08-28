@@ -1,89 +1,152 @@
-# 第一篇：生产资料革命与总体判断
+# 第一篇：生产资料化与宏观计量框架
 
-稀缺层价值捕获与系统栈竞争的完整框架见[第一卷](vol-01.md)与总体判断。本文作为宏观入口，用于建立跨章节的共同计量基准。
+> **出版定位：**本篇是研究层的宏观入口，负责定义“算力何时从工具变成生产性基础设施”的可检验条件，以及跨章节统一计量单位。最终出版总判见 [Part IV · 第32章](publication/part-IV-ch32-master-judgment.md)。节点报价、远期 CoWoS 月产能、2030/2036 GW 单点等缺乏一手支撑的参数不进入事实层。
 
-本文作为 Part II 的总纲，先界定总体机制，再将历史事实、机构研究、情景假设与本报告测算分层呈现。核心事实锚来自 NVIDIA FY26/FY27 财务披露、TSMC 2025 年报，以及 Microsoft、Amazon、Alphabet、Meta 的现金流量表。
+## 1. 核心问题：算力何时具有“生产资料”属性
 
-## 1. 核心问题
+这里的“生产资料化”不是把模型拟人化，也不是假设 AI 具备不受约束的主体性。它描述一个经济条件：
 
-算力是不是已经从工具变成了能自我演进的认知生产资料？如果是，全球计算权力应按哪几个可核对的基准来量，而不是按口号来量？本文不对十年后的终局给出点预测，而是回答三项问题：生产资料化的机制是什么；哪些变化已经由公开事实确认；当前证据更支持哪类情景。后续七篇分别讨论封装、存储、云系统栈竞争、消费成本传导、能源、资本周期与终局。
+> **一套 AI system 能否在给定 compute、power 和 capital cost 下，持续完成可验证、可验收、可重复的工作流，并产生足以覆盖其长期成本的经济价值。**
 
-“自我演进”在这里不是科幻意义上的主体性，而是指大规模 Transformer、MoE 与推理强化学习使模型能够在工作流中生成代码、归纳逻辑并完成多步决策。检验很具体：一段过去必须由中级雇员逐步完成的工作，现在能否在给定功耗和给定美元折旧下，被集群连续做完并验收。做不到，算力仍是工具；做到了，地租就开始从工资账户转向晶圆、封装和电的账户。
+如果只能辅助人类完成局部任务，compute 更接近工具；如果能够大规模连续完成过去需要人工逐步执行的工作，并且结果可被业务系统验收，compute、memory、interconnect、data center 与 power 就开始表现为生产性基础设施。
 
-黄仁勋在 FY26 全年新闻稿里把同一件事写成工厂：「customers are racing to invest in AI compute — the factories powering the AI industrial revolution」。这是官方修辞，不是已确认事实。它有用，是因为它和财报里的柜子、预付款、自由现金对得上：卖方卖的已经不是单芯片，是能连续出 token 的整柜工厂。
+因此，真正的计量单位不是“模型有多聪明”，而是：
 
-## 2. 基线判断与关键假设
+> **cost per verified workflow outcome + capital required to sustain it**
 
-从机械化、信息化到 AI 基础设施化，可以观察到生产资料形态的连续上移：蒸汽与内燃机把能源转化为机械动能，信息革命显著降低信息传输和检索成本，而 2026–2036 的关键变量在于算力是否能够持续完成可验收的认知工作。长期情景中，晶圆、封装、HBM 与电力可能进一步成为认知生产能力的关键投入，但这仍属于条件化情景，而非既成事实。
+## 2. 当前已经可以确认的五个结构变化
 
-以下四维基准表属于历史压力测试参数，包含大量前向假设。物理制程：2026 年 3nm 约 20,000 美元；2030 年 2nm/A16 突破 32,000 美元；2036 年 1nm（CFET）高于 45,000 美元。约束写成 High-NA EUV 单台 3.8 亿美元的折旧。封装：2026 年 CoWoS 约 12.5 万片/月；2030 年高于 25.0 万片/月；2036 年 45.0 万片/月（CoPoS）。约束：硅中介层突破光罩极限。存储：2026 年 1:3 惩罚；2030 年 1:4（HBM4/4e）；2036 年 1:5+（3D 逻辑—存储键合）。资本开支：历史压力测试写 2026 年北美四云约若干千亿美元级、2030 年破万亿、2036 年开支趋稳并转向折旧运营。能耗：2026 年单一顶级园区 100–300 MW；2030 年 500 MW–1.0 GW；2036 年 2.0~5.0 GW。约束：PJM/ERCOT 排队 5–7 年。
+### 2.1 销售单位上移到 System Stack
 
-历史节点报价同样仅作为压力测试输入：7nm 10,000 美元，5nm 16,000 美元，3nm 20,000~22,000 美元，2nm 30,000~35,000 美元；SaaS 毛利 85%→55% 也只是历史压力测试端点。**这些数字无论位于表的左侧还是右侧，只要没有对应的一手公开披露，就不进入事实层。** 当前正式稿不再用“接近已发生”或“被多方重复引用”替代证据。
+NVIDIA 的商业产品已经从 accelerator card 上移到 rack-scale system；Google、AWS、Microsoft、Meta 也已把 custom silicon 扩展到 compiler/runtime、interconnect、rack/pod 与 production workload。竞争单位因此从 chip 上移到 **system stack**。
 
-核心定性判断仍然成立：算力与关键基础设施的供给分配方式，会显著影响产业利润流向与国家间的资本配置。本文的重点是提高这一判断的可计量性与可证伪性。
+### 2.2 HBM 的制造投入高于 Conventional DRAM
 
-## 3. 官方锚：卖方、代工、买方
+Micron 一手披露：在 same technology node / same number of bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。这说明 bandwidth expansion 会改变 DRAM manufacturing input 和 residual capacity，而不是只改变 memory price。
 
-### 3.1 卖方锚
+### 2.3 Advanced Packaging 已成为可验证交付约束
 
-利润、现金、供应承诺、四角见[第一卷](vol-01.md)。本文只取一句：卖的已经不是单芯片，是能连续出 token 的整柜工厂。比的不是谁出货多，是谁在卖柜这件事上垫得过整柜毛利。
+TSMC 已在一手逐字稿中多次描述 advanced-packaging capacity tight，2026 Q2 更明确表示 packaging tightness 已经限制客户增长。它说明 logic wafer available 并不自动等于完整 system deliverable。
 
-### 3.2 代工锚
+### 2.4 Power 已进入系统交付链
 
-台积电台账见[第四卷](vol-04.md)。封装紧见[第二十四卷](vol-24.md)。本文只取：增量在高性能计算，短板在封装。晶圆营收不是片数。
+约 120 kW-class rack 与多个数百 MW / GW 级长期电力项目说明，grid connection、substation、firm generation、permit 与 Time-to-Power 已成为 AI infrastructure 的独立物理变量。
 
-### 3.3 买方锚
+### 2.5 资本与长期承诺正在提前锁定未来资源
 
-四云混年见[第八卷](vol-08.md)和 `四云Capex口径核对.md`。本文只取：买方 PPE 是全集团门票，不是「AI 硬件」分项；不能和卖方数据中心收入对敲。
+NVIDIA manufacturing, supply, and capacity commitments 已由 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**；hyperscaler 与 model company 也通过长期 data-center / power / compute commitments 提前塑造未来供给。公开文件并未把这些承诺拆成单一供应商份额，因此只能作为整体 forward commitment 与资源预订强度的锚。
 
-## 4. 总体判断
+## 3. 宏观分析必须同时看五个计量轴
 
-本文总体判断只钉计量单位，不重开各卷。稀缺段利润池控制见[第一卷](vol-01.md)。残量见[第五卷](vol-05.md)。封装过半见[第二十四卷](vol-24.md)。云系统栈 见[第四卷](vol-04.md)。中国栈见[第十二卷](vol-12.md)。五条和租税见[第八卷](vol-08.md)。案卷见[第十一卷](vol-11.md)。
+### 3.1 Verified Workflow Economics
 
-四维表的用法：左侧是已经改变世界的约束，右侧是若约束不被算法、电或泡沫打断时的外推。任何「十年大趋势」若给不出制程报价、封装松紧、HBM 占用、云巨头 PPE、园区功率这五类中的至少两类可核对数字，就不应当写进判断。
+AI 是否真正成为生产性资产，最终取决于每个 workflow 的可验证业务价值、完成成本、人工复核成本与长期使用量。
 
-## 5. 机制深挖（物理 / 商业 / 地缘）
+### 3.2 System Substitution
 
-物理上，生产资料化的条件是模型能在没有逐步人工指令的情况下完成一段可验收的工作。这要求三堵墙同时被系统工程绕开，而不是被单芯片微缩消灭。内存墙用 HBM 和统一显存硬堆；互联墙用 NVLink 把几十卡合成一块逻辑芯片；功耗墙用液冷和直连电源硬接。工具时代的计算机可以等一等、慢一慢；生产资料时代的集群必须连续运转，因为折旧按几年直线计提。停机的机会成本从「少算几次」变成「每年百亿美元级的空转」。历史压力测试把 NVL72 写成 13.8 TB、NVLink 1.8 TB/s、120 kW DLC，本研究按官方单柜 13.4 TB HBM 来用；互联和机柜功率未在本文重核，不升格。
+需要观察 workload 是否能够在 NVIDIA、TPU、Trainium、Maia、MTIA 或其他 system stack 之间以可接受成本迁移。单卡 benchmark 不能替代 production migration data。
 
-商业上，能够长期获得晶圆、先进封装、HBM 与电力等稀缺资源的主体，更有可能获得超额价值捕获。卖方一年自由现金 966 亿美元、近两季毛利回到 75% 附近，是地租已经在卖方兑现。买方混年 PPE 从约 2,120 亿美元量级抬到约 3,540 亿美元量级，是门票。门票回收的必要路径是 Agent 替代初级与中级智力：没有足够的增量收入，门票会变成坏账。这是机制，不是已经实现的劳动统计。
+### 3.3 Scarce Physical Inputs
 
-地缘上，生产资料一旦能连续出可验收的工作，出口管制的对象就从产品变成「能生产认知的机器」。两套生态会按安全逻辑各建一套晶圆—封装—模型栈。四维表在 2036 年给出的 1nm、45 万片/月、万亿级开支、数 GW 园区，都默认全球仍是同一套技术轨道。若双轨成立，表里的全球加总会裂成两套较小的数，单套内部的单点溢价可能更高。双轨先裂的是软件与运行时层（CUDA 对 CANN），不必先复制 High-NA。
+advanced logic、HBM、advanced packaging 与 power 是不同物理池。一个约束缓解，并不意味着其他约束同步消失。
 
-## 6. 情景分析、反方与可检验指标
+### 3.4 Capital Duration
 
-四维表的 2030/2036 格未核验，不得作为已确认事实。
+compute hardware、network、data-center shell、grid 与长期 PPA 的 useful life / contract duration 不同。买方 ROI 必须覆盖这种 duration mismatch。
 
-情景 A：表的 2026 列大致兑现，2030 列部分兑现。制程和封装沿资本能堆的方向走，买方开支到不了历史压力测试右侧那一档，因为企业要先证明用量。能耗走到 500 MW 级园区，但 1 GW 只属于少数直连电源的点。这是「生产资料化发生，规模比表保守」。
+### 3.5 Utilization and Forward Commitments
 
-情景 B：算法破壁，表的右侧整体失效。一类把对 HBM 和互联的病态需求打断，端侧设备承担日常智能，基础设施退化成微利公用事业。劳动替代仍发生，但地租从芯片转向场景和数据。历史压力测试右侧那一档年开支会变成过度建设。
+高 CapEx 只有在资产获得足够 utilization 与 workflow revenue 时才形成高质量回报。未来判断必须同时看实际利用率、seller commitments、Anchor Buyer contracts 和 market-clearing price。
 
-情景 C：双轨。表变成两张更贵、更小的表。High-NA、日本材料、CoWoS 的单点在两边都被当成战略库存重复建设，全球加总上升，单边可用量下降。
+## 4. 从 Workflow 到 Scarce-Layer Value Capture 的传导
 
-反方：用「自演进」一词暗示模型已具备不受约束的主体性。历史压力测试写的是工作流，不是法人意义上的主体。反方还包：把历史压力测试 2026 年那一档四云开支写成已发生；把 2024 混年设备购置直接叫成「AI 硬件」再线性外推到 2036。两边都不成立。
+当 AI workflow 能持续产生可验收结果时，需求会沿产业链向下传导：
 
-可检验指标：3nm/2nm 公开报价是否沿历史压力测试 20,000 美元到 30,000 美元以上走；CoWoS 是否仍被台积电写成无法满足需求，包装测试占比是否继续高于 10%；HBM 对 DRAM 的晶圆占用是否仍被原厂和买方同时提及；四云 PPE 是停在 2025 混年约 3,540 亿美元附近，还是三家指引加微软之后明显再上一个台阶；顶级园区并网功率是否离开 100–300 MW 区间；供应承诺是在当前 **US$279B** 基线上继续增长、趋稳，还是开始下降。五年里只要有两列明确失败，右侧终局就应当改写，而不是用「长期仍然成立」把失败解释掉。
+> workflow demand → compute/system demand → HBM / packaging / power demand → forward commitments → scarce-resource allocation
 
-四维表还有一个用法：它是拒绝空话的过滤器。任何关于“十年大趋势”的判断，都应至少对应制程、封装、HBM、云厂 CapEx/PPE 或园区功率中的可核验指标，否则不进入本专著的正式结论。任何将情景外推写成既成事实的表达，都应在正式稿中剔除。
+如果某个平台同时拥有高 cash flow、强 switching cost、明确 roadmap 和长期订单，它更有能力提前锁定下一代 scarce input，从而提高交付确定性。
 
-生产资料化并不自动等于福利改善。地租上升时，没有配额的国家和没有工作流的企业，会变成价格接受者：为同一单位智能支付更高的晶圆、封装和电。第一篇因此不是欢呼革命，而是把革命的计量单位固定下来，供后面七篇逐项拆开。
+这形成 **Scarce-layer Value Capture**：价值并不只留在拥有最高市场份额的主体，而更容易流向那些控制稀缺、迁移困难或能够协调多层供给的节点。
 
-## 7. 研究边界与未确认事项
+与此同时，AI/server demand 吸收增量资源后，传统市场真正可获得的供给需要用 **Non-AI Residual Capacity** 衡量，而不能只看行业总产能。
 
-本文依据 NVIDIA 官方财务材料、TSMC 2025 年报与管理报告，以及 Microsoft、Amazon、Alphabet、Meta 的 IR/Exhibit 现金流量表。若后续 10-K/20-F 对相关数字发生重述，以最新法定申报为准。
+## 5. 算法效率既可能降低资本需求，也可能扩大总使用量
 
-四维表的 2030、2036 列是综合预测，不是合同。万亿开支、45,000 美元晶圆、45 万片/月、2–5 GW 均未核验。光罩极限、CFET、CoPoS 在历史压力测试中是机制名词，没有给出已量产的良率。High-NA 单台 3.8 亿美元、历史节点报价表，截至当前公开资料，尚未核验 ASML 或代工价目原文，继续标历史压力测试。劳动替代没有统计支撑。NVIDIA 预付款没有拆到台积电、海力士、三星的分项美元。CoWoS 月产能轨迹和卖方「约 60%」不是台积电分项。截至 2026 年 8 月，Microsoft 在 2026-07-29 将 calendar-2026 reported CapEx expectation 调整为约 **US$175B**，原因是更多 data-center leases 从 finance lease 转为 operating lease；公司同时表示 underlying investment expectation unchanged。Alphabet Q2 earnings-call guidance 为 **US$195–205B**，Meta Q2 guidance 为 **US$130–145B**，Amazon 截至 2026-06-30 的 TTM PPE net purchases actual 为 **US$169.007B**。四家会计科目和时间窗仍不一致，不能机械加总成统一 AI hardware CapEx。PC / 手机 / 通用服务器出货统计本文未核。
+DeepSeek 等案例说明，architecture / algorithmic efficiency 可以显著降低特定训练或 serving workload 的 compute / memory requirement。
 
-不纳入事实层的内容包括：把四云混年 PPE 写成「AI 硬件」一条；把历史压力测试 2026 年那一档北美云开支当成已披露合计；用全厂出货池子去除一个封装单耗，得到超大柜数再去锁 3nm；把 10% 年营收天花板写成即将开出的罚单；把调查写成起诉或拆分令。
+但效率提升不会自动意味着总基础设施需求下降。单位成本下降之后，如果 token、agent、workflow 和用户规模增长更快，总需求仍可能继续扩大。
 
-总纲的正确读法是：左侧是已经改变世界的约束，右侧是若约束不被算法、电或泡沫打断时的外推。后面七篇分别检查这些「若」。
+因此宏观关系更接近：
 
-## 本篇关键公开来源
+> **Net Infrastructure Demand = Efficiency Effect × Demand Elasticity**
 
-- NVIDIA FY27 Q2 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q（manufacturing, supply, and capacity commitments US$279B）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Microsoft FY26 Q4 earnings / call（calendar-2026 reported CapEx expectation）：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-- Meta 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-- Amazon 2026 Q2 Form 10-Q：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+真正需要观察的是有效 workload 总量和 capital utilization，而不是单次训练成本或 API 单价本身。
+
+## 6. 两套或多套系统生态会提高重复建设，也会提高选择权
+
+出口管制、供应韧性和产业自主会推动区域化 system stack。双轨或多轨并不必然减少全球总基础设施；它可能导致：
+
+- duplicated software/runtime；
+- duplicated manufacturing capacity；
+- duplicated power/data-center reservation；
+- lower single-stack efficiency；
+- higher resilience and strategic optionality。
+
+因此，地缘分化对资本总量的影响可能是“更多重复建设”，而不是简单的全球需求下降。
+
+## 7. 远期数字必须保持 H / D 身份
+
+本书不把 2030/2036 的 node price、CoWoS monthly capacity、HBM future trade ratio、GW-scale campus 或 trillion-dollar CapEx 写成已确认路径。
+
+统一规则是：
+
+- 历史事实没有一手或高质量公开来源，不进入 F；
+- 公司 guidance 必须保留 guidance 身份；
+- 机构预测必须保留机构与时间窗口；
+- 2030/2036 单点只可作为 H / D 级 scenario input；
+- 同一数字被多个章节重复引用，不会自动提高证据等级。
+
+因此，宏观判断依赖机制和可观察变量，而不是依赖一个精确的远期价格表。
+
+## 8. 当前更支持哪一种状态
+
+截至 2026 年 8 月，事实组合更接近 **S2 — Baseline Concentration**：
+
+- leading system platform economics 很强；
+- cloud custom stacks 已形成真实第二路线；
+- HBM / advanced packaging / power 仍存在明显物理约束；
+- China parallel stack 持续扩展，但 frontier closure 仍需多个 advanced layer 同时验证；
+- CapEx 和 forward commitments 仍处高位，但 buyer-side ROI 压力上升。
+
+这不是对 2036 的固定预测。若供给弹性、interoperability 和替代系统成熟度快速提高，权重会向 S1 移动；若多个 scarce layer 和 switching cost 同时加强，则向 S3 移动；若 utilization、clearing price、CapEx 与 forward commitments 同步转弱，则向 S4 移动。
+
+## 9. 什么会证伪“生产资料化继续强化”
+
+以下信号若持续出现，应下调当前宏观判断：
+
+- productive AI workload 无法覆盖新增资本基数；
+- major system/platform commitments 连续下降；
+- advanced packaging / HBM 供给长期显著宽松；
+- cloud custom systems 大规模降低 switching cost 和外部平台依赖；
+- energized power 增长明显快于 compute demand，Time-to-Power 失去稀缺性；
+- second-hand compute / lease price 持续快速下跌；
+- application/workflow monetization 长期弱于 inference 与基础设施成本。
+
+宏观研究的目标不是让所有长期判断都“永远成立”，而是明确指出什么证据出现时必须改变判断。
+
+## 10. 当前宏观结论
+
+AI infrastructure 的核心变化可以压缩为一句：
+
+> **当可验证 workflow 把 compute 转化为持续经济产出时，system stack、HBM、advanced packaging、power 与 capital duration 就不再只是技术参数，而成为决定产业价值捕获和竞争结构的生产性基础设施变量。**
+
+这仍是条件命题。最终决定资本回报的不是 hardware 数量，而是这些基础设施能否持续服务可迁移、可验收、能产生现金流的真实 workload。
+
+## 关键公开来源
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q — US$279B manufacturing, supply, and capacity commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- Micron FY24 Q3 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TSMC 2Q26 Earnings Conference Transcript — packaging tightness limits customer growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
