@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-36.md](../vol-36.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume separates disclosed facts from financing hypotheses. A financing target is not deployed capital, and public equity exposure is not the same as direct infrastructure investment.
+> Retrieval and revision cutoff: **2026-08-28**. This volume separates disclosed facts from financing hypotheses. A financing target is not deployed capital, and public equity exposure is not the same as direct infrastructure investment.
 
 ## 1. AI capital markets cannot be reduced to technology-equity valuation
 
