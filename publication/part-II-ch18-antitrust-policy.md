@@ -33,7 +33,7 @@ AI platform 的力量可能同时分布在 accelerator、interconnect、compiler
 
 ## 3. 10% Turnover Ceiling 不是未来罚款模型
 
-EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 undertaking 前一营业年度 total turnover 的 **10%**。
+EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 undertaking 前一营业年度 total turnover 的 **10%**。[^1]
 
 这是一条法定 ceiling，不是：
 
@@ -45,7 +45,7 @@ EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 und
 
 ## 4. 程序状态必须逐层读取
 
-欧盟 Article 102 公开程序本身已经给出清晰状态机：
+欧盟 Article 102 公开程序本身已经给出清晰状态机：[^2]
 
 1. complaint / ex officio investigation；
 2. request for information；
@@ -58,7 +58,7 @@ EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 und
 
 ## 5. 2026 年 Cloud Regulation 说明监管重点正在上移到 Interoperability
 
-European Commission 2026 年仍在推进 DMA cloud-computing market investigation，公开 roundtables 明确讨论 cloud-service interoperability、financial conditions 与 contractual conditions；该 market investigation 的 final report 计划到 **May 2027**。
+European Commission 2026 年仍在推进 DMA cloud-computing market investigation，公开 roundtables 明确讨论 cloud-service interoperability、financial conditions 与 contractual conditions；该 market investigation 的 final report 计划到 **May 2027**。[^3]
 
 这说明监管关注点已经不只是传统价格，也包括跨服务技术互操作、合同与 switching conditions。
 
@@ -120,12 +120,17 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 ## 10. Regulation 如何改变 S1–S4
 
+**Table 18.1 — 监管变量对 S1–S4 的作用路径**
+
 | 情景 | 监管变量的作用 |
 |---|---|
 | S1 Competitive Expansion | interface openness、interoperability、tying limits 有效降低 switching cost |
 | S2 Baseline Concentration | 调查与规则持续存在，但 system structure 基本保持 |
 | S3 Resource Hegemony | remedy 不足以降低多层 switching / scarcity |
 | S4 Capital Hard Landing | 通常由 utilization / capital clearing 主导，监管更多影响清算后的市场结构 |
+
+**Source:** 本报告情景框架；EU competition / DMA procedure 作为监管机制背景。[^2][^3]  
+**Note:** 表中为机制映射，不代表欧盟已对任何特定 AI platform 作出最终违法认定或 remedy。
 
 所以监管不是固定“利空平台”的单向变量。它是否改变产业结构，取决于正式 remedy 是否真正触及迁移、bundling 与 access。
 
@@ -144,9 +149,8 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 只有这些正式事件，才足以改变 system-stack scenario weighting。
 
-## 关键公开来源
+## References
 
-- EUR-Lex — Regulation (EC) No 1/2003, Article 23(2): https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
-- European Commission — Article 102 investigation procedure: https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
-- European Commission / DMA — 2026 cloud computing market-investigation roundtables; final report due May 2027: https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
-- European Commission — Competition Policy portal / formal case search: https://competition-policy.ec.europa.eu/index_en
+[^1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
+[^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
+[^3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
