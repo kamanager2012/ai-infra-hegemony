@@ -98,26 +98,28 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 ## 6. Dashboard E — Power State Machine
 
-**Table 29.2 — Power project state machine**
+**Table 29.2 — Power / LPS delivery state machine**
 
 | 状态 | 解释 |
 |---|---|
-| Announced | 项目 / 目标公布 |
-| Contracted | 合同成立 |
+| Announced | 项目或目标公布 |
+| Contracted / Secured | 合同成立，或 land / power / shell 等资源已被锁定 |
 | Permitted | 关键许可获得 |
-| Energized | 实际送电 |
-| Utilized | 形成真实负载 |
+| Construction / Transition | 基础设施建设、重启或转换实际推进 |
+| Energized | 已具备实际送电条件 |
+| Utilized | 已形成真实、可持续 workload |
 
-**Source:** 本报告 power-state framework。  
-**Note:** state machine 用于防止把 headline MW/GW、contract quantity 或 project target 写成 active AI load。
+**Source:** 本报告 power / LPS state framework。  
+**Note:** state machine 用于防止把 headline MW/GW、secured IT-GW、contract quantity 或 project target 写成 active AI load。Generation MW/GW、PPA capacity 与 IT-GW 必须保持各自物理身份。
 
 当前代表性项目：
 
 - Microsoft / Constellation：~835 MW restart PPA；[^10]
 - Talen / AWS：up to 1.92 GW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；[^11]
-- Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035。[^12]
+- Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035；[^12]
+- PORTS-Pike / NVIDIA / SB Energy / OpenAI：initial 4.25 IT-GW design capacity，属于 secured LPS / future phased buildout，计划从 2028 年开始分阶段上线。[^13]
 
-真正需要更新的是 ramp、energized MW、actual load 与 utilization。
+真正需要更新的是：每个项目从 secured / contracted 向 construction、energized、utilized 的实际转换速度，而不是 headline capacity 本身。
 
 ## 7. Dashboard F — System-Stack Substitution
 
