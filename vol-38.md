@@ -216,5 +216,5 @@ AI 已经出现可观察的任务重构，但现有跨国证据不足以把它�
 
 ## 本卷关键公开来源
 
-- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure*（2025-05-20）：https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure
+- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure*（2025-05-20）：https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
 - IMF Staff Discussion Note, *Gen-AI: Artificial Intelligence and the Future of Work*（advanced economies 约 60% employment exposure；这是职业暴露，不是单岗位任务自动化率）：https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
