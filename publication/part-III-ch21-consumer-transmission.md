@@ -42,7 +42,38 @@ TSMC 2025 smartphone platform 占全年 net revenue **29%**，platform revenue �
 
 因此，AI/HPC growth 并不等于 smartphone demand 消失。
 
+Counterpoint 2026H1 给出了更直接的终端压力证据：
+
+- global smartphone SoC shipments 同比 **-15%**；
+- MediaTek 与 Qualcomm shipments 均同比下降 **>25%**；
+- 2Q26 smartphone memory prices 同比上涨 **>300%**；
+- 但 GenAI smartphone SoC shipments 同比 **+24%**；
+- UNISOC 在低成本 segment 继续扩大份额。
+
+这说明发生的是**分层重构**而不是统一死亡：entry/mid-range 对 memory/BOM pressure 更敏感，premium/GenAI segment 相对更有韧性，低成本 SoC 路线也可能获得 share。
+
 真正的变化是：HPC 对新增先进资源的吸引更强，memory economics 更偏向 server/HBM，导致 flagship BOM、memory configuration 与中端产品 node strategy 更容易受到约束。
+
+### 4.1 Cross-Market Resource Reordering：AI 打破的是多终端资源配置平衡
+
+TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D advanced packaging** 的 bottleneck，并称 NVIDIA 较早预先锁定了大量 **4/3 nm wafer capacity、CoWoS、HBM、T-glass、substrates、PCB 与 SSD** 等资源。
+
+2026-06 的 foundry research 又指出 TSMC **3 nm capacity remains severely constrained**；同月 TrendForce 进一步指出，foundries 正把更多 wafer capacity 转向 AI-related products，高价值 AI demand 与 mature-node output cuts 已经改变 8-inch/12-inch 的供需结构。
+
+因此，本书把这一变化定义为：
+
+> **Cross-Market Resource Reordering = AI 的更高预期回报与更强订单确定性，使多个原本服务不同终端市场的增量资源，被重新排序到 AI/server 优先级更高的用途。**
+
+它不是“过去所有客户平均分产能、现在英伟达拿走一切”。
+
+它支持的是：
+
+- advanced-node / packaging / memory / power-device 资源配置逻辑发生变化；
+- traditional end markets 面对更低 Non-AI Residual Capacity；
+- allocation assurance 与议价能力的重要性上升；
+- 低利润、低议价、短订单客户更容易承受 higher price + lower quantity。
+
+但这些机构证据**不能**直接推出“Apple/Qualcomm/AMD/Intel 各自具体少拿了多少 wafer allocation”，更不能写成“某一家已拿走 100% 先进产能”。
 
 ## 5. PC 同时受到 Memory 与 GPU / System Price 两条传导
 
@@ -156,3 +187,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 - Counterpoint Research 2026-02-11 — broadband memory prices ~7×; router memory BOM >20% vs ~3%: https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
 - TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
 - Seagate FY26 results — AI/cloud data generation supports mass-capacity HDD demand: https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
+- Counterpoint 2026-07-28 — H1 smartphone SoC shipments -15% YoY; MediaTek/Qualcomm >25% decline; memory prices >300% YoY; GenAI SoCs +24%: https://counterpointresearch.com/en/insights/global-smartphone-soc-shipments-fall-15percent-yoy-in-h12026
+- TrendForce 2026-04-30 — AI supply-chain arms race; 3nm–2nm and advanced-packaging bottlenecks; NVIDIA pre-secured large volumes of critical resources: https://www.trendforce.com/presscenter/news/20260430-13028.html
+- TrendForce 2026-06-08 — TSMC 3nm capacity remains severely constrained: https://www.trendforce.com/research/download/RP260608SX3
+- TrendForce 2026-06-30 — foundries dedicate more wafer capacity to AI-related products, altering mature-node supply-demand balance: https://www.trendforce.com/presscenter/news/20260630-13127.html
