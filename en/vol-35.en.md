@@ -99,7 +99,7 @@ The projects sit at different stages:
 | Project | Nominal scale | Core state |
 |---|---:|---|
 | Microsoft / Constellation | ~835 MW | restart + regulatory process |
-| Talen / AWS | up to 1,920 MW | revised-PPA transition occurred in 2026-04; delivery ramps to full volume no later than 2032 |
+| Talen / AWS | up to 1,920 MW | 2026 Q2 10-Q: transition occurred in April 2026; 2025 10-K: full transition expected spring 2027 and ramp to full volume no later than 2032 |
 | Google / Kairos | Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035 | long-duration development |
 
 This is why energy analysis has to follow project state instead of adding headline capacity.
@@ -207,7 +207,7 @@ As of **August 2026**, the evidence supports four conclusions:
 
 - AI racks have reached roughly 120 kW-class power density;
 - hyperscalers are signing 500 MW-to-GW-scale long-duration power arrangements;
-- the Talen/AWS front-of-the-meter conversion has been completed;
+- the 2026 Q2 10-Q records the revised-PPA transition in April 2026, but that is not treated as proof that every physical transition or delivery step was complete;
 - announced and contracted capacity remains much larger than the AI load that can be confirmed as utilized.
 
 Power is therefore already a strategic scarce layer in AI infrastructure.
@@ -224,5 +224,6 @@ It is:
 ### Key public sources
 - NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2026 Q2 10-Q — revised AWS PPA up to 1,920 MW; transition occurred in April 2026: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K — full transition expected spring 2027; full-volume ramp no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
