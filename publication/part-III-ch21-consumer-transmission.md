@@ -16,19 +16,19 @@ consumer products 与 AI/server systems 共享的主要层包括：
 
 ## 2. HBM 的制造投入会放大 DRAM residual pressure
 
-Micron 一手披露：same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。
+Micron 一手披露：same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^1]
 
-TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。
+TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^2]
 
 这意味着 consumer DRAM 的压力不能只用 bit share 判断。高价值 memory 如果同时需要更多 manufacturing input，会进一步压缩 conventional DRAM 的有效 residual supply。
 
 ## 3. Smartphone memory 已出现机构级合同价冲击
 
-TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smartphone memory estimated contract prices 同比接近 **+200%**。
+TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smartphone memory estimated contract prices 同比接近 **+200%**。[^3]
 
-到 2Q26，TrendForce 估计 LPDDR4X solution ASP 环比 **+70–75%**、LPDDR5X **+78–83%**。
+到 2Q26，TrendForce 估计 LPDDR4X solution ASP 环比 **+70–75%**、LPDDR5X **+78–83%**。[^4]
 
-但到 3Q26，涨幅已经明显收敛到约 **+8–13% QoQ**。与此同时，TrendForce 仍指出 suppliers 持续把 capacity 向 server / HBM applications 倾斜。
+但到 3Q26，涨幅已经明显收敛到约 **+8–13% QoQ**。[^5]与此同时，TrendForce 仍指出 suppliers 持续把 capacity 向 server / HBM applications 倾斜。
 
 因此更准确的判断是：
 
@@ -36,11 +36,11 @@ TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smart
 
 ## 4. Smartphone 仍是巨大市场，不是被 AI 消灭
 
-TSMC 2025 smartphone platform 占全年 net revenue **29%**，platform revenue 同比 **+11%**。
+TSMC 2025 smartphone platform 占全年 net revenue **29%**，platform revenue 同比 **+11%**。[^6]
 
 因此，AI/HPC growth 并不等于 smartphone demand 消失。
 
-Counterpoint 2026H1 给出了更直接的终端压力证据：
+Counterpoint 2026H1 给出了更直接的终端压力证据：[^7]
 
 - global smartphone SoC shipments 同比 **-15%**；
 - MediaTek 与 Qualcomm shipments 均同比下降 **>25%**；
@@ -54,9 +54,9 @@ Counterpoint 2026H1 给出了更直接的终端压力证据：
 
 ### 4.1 Cross-Market Resource Reordering：AI 打破的是多终端资源配置平衡
 
-TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D advanced packaging** 的 bottleneck，并称 NVIDIA 较早预先锁定了大量 **4/3 nm wafer capacity、CoWoS、HBM、T-glass、substrates、PCB 与 SSD** 等资源。
+TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D advanced packaging** 的 bottleneck，并称 NVIDIA 较早预先锁定了大量 **4/3 nm wafer capacity、CoWoS、HBM、T-glass、substrates、PCB 与 SSD** 等资源。[^8]
 
-2026-06 的 foundry research 又指出 TSMC **3 nm capacity remains severely constrained**；同月 TrendForce 进一步指出，foundries 正把更多 wafer capacity 转向 AI-related products，高价值 AI demand 与 mature-node output cuts 已经改变 8-inch/12-inch 的供需结构。
+2026-06 的 foundry research 又指出 TSMC **3 nm capacity remains severely constrained**；[^9] 同月 TrendForce 进一步指出，foundries 正把更多 wafer capacity 转向 AI-related products，[^10]高价值 AI demand 与 mature-node output cuts 已经改变 8-inch/12-inch 的供需结构。
 
 因此，本书把这一变化定义为：
 
@@ -75,9 +75,9 @@ TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D
 
 ## 5. PC 同时受到 Memory 与 GPU / System Price 两条传导
 
-NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 supply constraints 会成为 FY27 Q1 及之后 Gaming 的 headwind。
+NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 supply constraints 会成为 FY27 Q1 及之后 Gaming 的 headwind。[^11]
 
-到 FY27 Q1，公司新的 Edge Computing 口径又指出，consumer PC demand 较慢，部分原因是 **elevated memory and systems prices**。
+到 FY27 Q1，公司新的 Edge Computing 口径又指出，consumer PC demand 较慢，部分原因是 **elevated memory and systems prices**。[^12]
 
 这形成两条独立但可以叠加的传导：
 
@@ -98,7 +98,7 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 ### 6.1 Supply Assurance 是独立变量
 
-在极端紧缺期，终端厂商面对的不只是 ASP 上升，还可能是 **allocation fulfillment 不足**。TrendForce 2026-03 指出，allocation 较低的 PC OEM / module maker 需要以更高价格从供应商或模组厂补货；2026-05 的 smartphone research 也指出 full-year allocation 收紧，品牌需要更谨慎地管理 LTA 与库存。
+在极端紧缺期，终端厂商面对的不只是 ASP 上升，还可能是 **allocation fulfillment 不足**。TrendForce 2026-03 指出，allocation 较低的 PC OEM / module maker 需要以更高价格从供应商或模组厂补货；[^13]2026-05 的 smartphone research 也指出 full-year allocation 收紧，品牌需要更谨慎地管理 LTA 与库存。
 
 因此，分析必须把：
 
@@ -124,13 +124,13 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 汽车与工业设备具有更长 qualification cycle，但这不意味着它们不受 AI 时代 product-mix 重排影响。
 
-TrendForce 2026-06 指出，主要 memory suppliers 把 capacity 继续向 HBM 与高层数 3D NAND 等高价值产品倾斜，挤压 NOR Flash 与 SLC NAND 的成熟产能；1H26 两类产品合约价累计涨幅均超过 100%。到 2026-07，TrendForce 又把 2H26 SLC NAND 相对 1H26 的涨幅预期提高到 **120–170%**，汽车、工业、networking 都是主要受影响客户。
+TrendForce 2026-06 指出，主要 memory suppliers 把 capacity 继续向 HBM 与高层数 3D NAND 等高价值产品倾斜，挤压 NOR Flash 与 SLC NAND 的成熟产能；1H26 两类产品合约价累计涨幅均超过 100%。[^14]到 2026-07，TrendForce 又把 2H26 SLC NAND 相对 1H26 的涨幅预期提高到 **120–170%**，[^15]汽车、工业、networking 都是主要受影响客户。
 
 这里能确认的是**具体 mature-memory 品类的结构性短缺与涨价**，不能把它扩大成“所有车规存储涨180%”“单车成本增加7000–10000元”或“全年供应满足率不足50%”这类未经一手/机构来源闭合的整车结论。
 
 ## 9.1 Routers / Broadband：低议价买家是更清晰的受害层
 
-Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。
+Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。[^16]
 
 这条证据很重要，因为它说明：
 
@@ -142,7 +142,7 @@ Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上�
 
 AI data-center storage 正在形成分层竞争。
 
-TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量 QLC nearline SSD 的替代加速；但 Seagate FY26 又明确表示，AI 产生的数据增长正在强化 mass-capacity storage demand。
+TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量 QLC nearline SSD 的替代加速；[^17] 但 Seagate FY26 又明确表示，AI 产生的数据增长正在强化 mass-capacity storage demand。[^18]
 
 因此更准确的结构是：
 
@@ -170,22 +170,23 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 它不是“消费电子被 AI 淘汰”，而是产品配置、升级速度、利润率和换机周期面对新的上游资源竞争。
 
-## 关键公开来源
+## References
 
-- TrendForce 2026-02-11 — 1Q26 mainstream smartphone memory contract cost nearly +200% YoY: https://www.trendforce.com/presscenter/news/20260211-12922.html
-- TrendForce 2026-05-14 — 2Q26 LPDDR4X +70–75% QoQ; LPDDR5X +78–83%: https://www.trendforce.com/presscenter/news/20260514-13044.html
-- TrendForce 2026-08-03 — 3Q26 mobile DRAM hikes narrow to 8–13%; server/HBM capacity shift remains: https://www.trendforce.com/research/download/RP260803NC
-- TrendForce 2026-08-25 — 2026E HBM + RDIMM 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- NVIDIA FY27 Q1 CFO commentary — consumer PC demand tempered by elevated memory and systems prices: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
-- TSMC 4Q25 Presentation: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
-- TrendForce 2026-03-31 — lower allocation fulfillment forces buyers to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
-- TrendForce 2026-06-16 — NOR Flash / SLC NAND 1H26 contract-price increases >100%, mature-capacity squeeze: https://www.trendforce.com/presscenter/news/20260616-13102.html
-- TrendForce 2026-07-13 — SLC NAND 2H26 forecast +120–170% vs 1H26; automotive/industrial/networking exposure: https://www.trendforce.com/presscenter/news/20260713-13142.html
-- Counterpoint Research 2026-02-11 — broadband memory prices ~7×; router memory BOM >20% vs ~3%: https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
-- TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
-- Seagate FY26 results — AI/cloud data generation supports mass-capacity HDD demand: https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
-- Counterpoint 2026-07-28 — H1 smartphone SoC shipments -15% YoY; MediaTek/Qualcomm >25% decline; memory prices >300% YoY; GenAI SoCs +24%: https://counterpointresearch.com/en/insights/global-smartphone-soc-shipments-fall-15percent-yoy-in-h12026
-- TrendForce 2026-04-30 — AI supply-chain arms race; 3nm–2nm and advanced-packaging bottlenecks; NVIDIA pre-secured large volumes of critical resources: https://www.trendforce.com/presscenter/news/20260430-13028.html
-- TrendForce 2026-06-08 — TSMC 3nm capacity remains severely constrained: https://www.trendforce.com/research/download/RP260608SX3
-- TrendForce 2026-06-30 — foundries dedicate more wafer capacity to AI-related products, altering mature-node supply-demand balance: https://www.trendforce.com/presscenter/news/20260630-13127.html
+[^1]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^2]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^3]: TrendForce, 2026-02-11, 1Q26 mainstream smartphone memory contract cost, https://www.trendforce.com/presscenter/news/20260211-12922.html
+[^4]: TrendForce, 2026-05-14, 2Q26 LPDDR4X and LPDDR5X ASP changes, https://www.trendforce.com/presscenter/news/20260514-13044.html
+[^5]: TrendForce, 2026-08-03, 3Q26 mobile DRAM price outlook, https://www.trendforce.com/research/download/RP260803NC
+[^6]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+[^7]: Counterpoint Research, 2026-07-28, H1 2026 smartphone SoC shipment and memory-price trends, https://counterpointresearch.com/en/insights/global-smartphone-soc-shipments-fall-15percent-yoy-in-h12026
+[^8]: TrendForce, 2026-04-30, AI supply-chain arms race and advanced-node / packaging bottlenecks, https://www.trendforce.com/presscenter/news/20260430-13028.html
+[^9]: TrendForce, 2026-06-08, TSMC 3 nm capacity remains severely constrained, https://www.trendforce.com/research/download/RP260608SX3
+[^10]: TrendForce, 2026-06-30, foundry capacity reallocation toward AI-related products, https://www.trendforce.com/presscenter/news/20260630-13127.html
+[^11]: NVIDIA Corporation, FY26 Form 10-K, Gaming revenue and supply-constraint disclosure, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^12]: NVIDIA, FY27 Q1 CFO commentary, consumer PC demand tempered by elevated memory and systems prices, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
+[^13]: TrendForce, 2026-03-31, allocation fulfillment and higher-price procurement, https://www.trendforce.com/presscenter/news/20260331-12995.html
+[^14]: TrendForce, 2026-06-16, NOR Flash / SLC NAND mature-capacity squeeze, https://www.trendforce.com/presscenter/news/20260616-13102.html
+[^15]: TrendForce, 2026-07-13, SLC NAND 2H26 price forecast, https://www.trendforce.com/presscenter/news/20260713-13142.html
+[^16]: Counterpoint Research, 2026-02-11, broadband memory-price surge and router BOM impact, https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
+[^17]: TrendForce, 2025-09-15, nearline HDD shortage and QLC SSD substitution, https://www.trendforce.com/presscenter/news/20250915-12714.html
+[^18]: Seagate Technology, FY26 results, AI/cloud data generation and mass-capacity storage demand, https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
