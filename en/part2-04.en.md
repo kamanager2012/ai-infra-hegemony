@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-04.md](../part2-04.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Hyperscaler PPE is not an official AI-hardware line item. Cloud custom systems are now real system stacks, but full substitution in frontier training and the external ecosystem remains incomplete.
+> Retrieval and revision cutoff: **2026-08-28**. Hyperscaler PPE is not an official AI-hardware line item. Cloud custom systems are now real system stacks, but full substitution in frontier training and the external ecosystem remains incomplete.
 
 ## 1. The core question
 
