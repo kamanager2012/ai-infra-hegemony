@@ -107,6 +107,22 @@ But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packa
 
 "Conventional memory can bypass TSMC logic foundry" and "the frontier AI memory stack is independent of TSMC" are therefore different propositions.
 
+### 6.2 Domestic memory scale: revenue share and shipment share must remain separate
+
+CXMT's prospectus, citing Omdia, provides an auditable metric: based on **2025 Q2 DRAM revenue**, CXMT held approximately **3.97% global share**, ranking fourth globally and first in China.
+
+The claim that "CXMT already has 8% of global DRAM" therefore does not enter this report's fact layer.
+
+YMTC's latest institutional metric uses a different denominator. Counterpoint Research's Q2 2026 Memory & Storage Tracker places YMTC at roughly **14% of NAND shipments**, ranking third globally. The same research firm's Q1 2026 **13%** figure is a NAND **revenue share**.
+
+Those two percentages cannot be turned into one continuous time series because their denominators differ.
+
+What they support is a narrower conclusion:
+
+> **China's conventional DRAM / NAND presence in global supply has risen materially, but share growth does not by itself prove HBM, leading-edge logic, or frontier-system closure.**
+
+Claims such as "capacity will double by 2027" or specific Phase-III monthly wafer output remain B/C-grade background unless they are disclosed directly by the company or another formal first-party source.
+
 ### 6.2 HDD must not be hidden by progress in NAND
 
 AI data-center storage also includes nearline HDD.
@@ -157,9 +173,19 @@ The logic is similar to hyperscaler custom silicon:
 
 Long-run progress should therefore be evaluated from production workload scale and persistence—not benchmarks alone.
 
-## 10. Export controls have different short-run and long-run effects
+## 10. Export controls affect manufacturing continuity as well as accelerator access
 
 Export restrictions raise the near-term cost of acquiring advanced hardware and can slow frontier-cluster deployment.
+
+A separate upstream issue is semiconductor-manufacturing equipment, software, and service. ASML's public statements confirm that EUV sales to China are restricted, the most advanced immersion DUV systems require export licences, and later U.S. updates expanded controls to additional advanced manufacturing technologies, including metrology and software.
+
+This does not mean every domestic memory fab would immediately stop operating under a disruption.
+
+It does mean:
+
+> **domestic memory capacity growth ≠ upstream manufacturing autonomy**
+
+Whether new capacity can ramp, process generations can advance, and installed tools can be sustained depends on critical equipment, software licences, spare parts, field service, and materials qualification continuity.
 
 Over the longer run, the same restrictions increase the incentive for domestic substitution, local hardware/software integration, and parallel-ecosystem development.
 
@@ -225,8 +251,13 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 - TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
+- CXMT 2025 prospectus / Omdia — 2025Q2 DRAM revenue share 3.97%, global #4: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+- Counterpoint Research 2026Q2 — YMTC 14% NAND shipment share, global #3: https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+- Counterpoint Research 2026Q1 — YMTC 13% NAND revenue share: https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 - CXMT official DDR5 product page — up to 8000 Mbps, 16Gb/24Gb, server/workstation/PC modules: https://www.cxmt.com/en/product.html
 - YMTC company profile / products — Gen5 Xtacking 4.0 3D NAND, enterprise/client/embedded storage: https://www.ymtc.com/en/aboutus.html
 - YMTC commercial 3D NAND product portfolio: https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
 - Micron investor material — HBM4E base logic die partnership with TSMC: https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
 - TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
+- ASML — EUV restricted; most advanced immersion DUV subject to export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+- ASML — updated restrictions include metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
