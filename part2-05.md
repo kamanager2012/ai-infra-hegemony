@@ -78,7 +78,7 @@ AI/服务器资源吸收
 
 假设往下，不否决。趋势力把二零二六年DRAM位的一半写成HBM加寄存条，把云开支里的内存写成百分之四十七到百分之六十八。美光年报写同样的位要更多晶圆。华强北口述消费条已经跟涨。英伟达财务官把游戏写成供应受限，把下一季消费个人电脑写成被内存价按住。四条叠在一起，资源重分配不必等「所有手机一起涨到同一售价」才算发生。它先发生在位的分配、晶圆的分配、渠道现货和游戏卡的交期上。
 
-谁为手机和电脑留线，谁在当前利润竞赛里少一截。海力士营业利润率百分之四十九，HBM一年翻倍。三星存储优先高附加值。美光云内存一年从三点七九跳到十三点五二，手机客户端几乎不动。原厂董事会对股东负责。第一名给的利润大到超过其余客户的增量时，没有财务理由为装机店得罪整柜合同。这不是行政命令，是预付款和长约把排期买走。中立承诺在支票面前没有对价。
+谁为手机和电脑留线，谁在当前利润竞赛里少一截。SK hynix FY25 operating margin 为 **49%**，HBM revenue more than doubled YoY。Micron FY25 10-K 则给出更清楚的业务分化：Cloud Memory Business Unit revenue 从 FY24 **US$3.792B** 升至 FY25 **US$13.524B（+257%）**，Mobile and Client Business Unit 从 **US$11.667B** 升至 **US$11.859B（+2%）**。这说明 AI/cloud memory 的增量远强于 mobile/client，而不是“所有内存业务同步增长”。原厂董事会对股东负责。第一名给的利润大到超过其余客户的增量时，没有财务理由为装机店得罪整柜合同。这不是行政命令，是预付款和长约把排期买走。中立承诺在支票面前没有对价。
 
 将部分推理 workload 转向 DDR5 并不会创造独立于服务器内存池的新供给。RDIMM 已包含在相关 server-memory bit share 中，因此新增需求仍可能加剧同一 DRAM 资源池的竞争。渠道价格只能作为终端压力的温度计，不能反推原厂长期合同价格。
 
@@ -106,11 +106,11 @@ NVIDIA FY26 Automotive revenue 为 **$2.349B**。汽车行业的约束更主要�
 
 情景甲：旗舰持续通胀，中端冻结节点。换机周期不回。汽车继续慢两拍。机器人小批量，计算仍走边缘栈。趋势力百分之五十一和百分之六十八若还在下一份稿里，residual-capacity pressure继续。
 
-情景乙：端侧小模型够用，消费者肯为本地智能付溢价。资源重分配仍在，资源资源重分配压力最弱。这是高通和苹果最想要的世界。
+情景乙：端侧小模型够用，消费者肯为本地智能付溢价。资源重分配仍在，资源重分配压力最弱。这是高通和苹果最想要的世界。
 
 情景丙：以 Micron 一手披露的 HBM3E 约 3× trade ratio 为当前锚，若未来世代 trade ratio 继续上行，LPDDR/DDR residual supply 可能进一步收紧，并显著压缩中端产品的配置与价格空间。手机订单更少，台积电高性能计算占比更高。资源重分配自我加强。百分之四比一是前向假设，未核验，不得作为已确认事实。
 
-反方：把个别折叠屏或新机发布写成周期反转；把驾驶舱雷神写成已经在量产车上普及；把机器人百分之二十五计算理解成整机已经电子化；把边缘计算六十四亿美元读成游戏或机器人已经爆发。
+反方：把个别折叠屏或新机发布写成周期反转；把驾驶舱雷神写成已经在量产车上普及；把机器人百分之二十五计算理解成整机已经电子化；把Edge Computing **US$6.369B（约63.69亿美元）**读成游戏或机器人已经爆发。
 
 可检验指标：趋势力下一份稿是否还写HBM加寄存条占位一半、内存占云开支从百分之四十七走向百分之六十八；华强北16 GB是否还在一千八百元量级，或回到合同价附近；英伟达游戏是否重新单列，供应受限那句是否还在；边缘计算是否仍写消费个人电脑被内存价按住；台积电手机平台是否继续让位于高性能计算；车厂量产主芯片节点是否落后旗舰手机；机器人公开物料清单是否仍把计算写在约四分之一。不要把历史情景假设一百八十到一百九十美元当成已审计采购价。
 
@@ -128,12 +128,19 @@ SoC一百八十到一百九十美元、一百五十五美元、百分之二十�
 
 长鑫三十五万片每月、长存二百六十七层、官方月产能万片：招股书没有。
 
-把边缘计算六十四亿美元拆成游戏、汽车、机器人各自多少：官方不分。把合作名单写成出货爆发：没有。
+把Edge Computing **US$6.369B（约63.69亿美元）**拆成游戏、汽车、机器人各自多少：官方不分。把合作名单写成出货爆发：没有。
 
 全球手机出货、整机均价、汽车芯片装车量、机器人出货：本文不作未经验证的定量估算。
 
-本文讨论的是资源资源重分配与成本传导，不是行业破产统计。可确认的是分配、价格和产量压力，不是终端厂已经倒闭。
+本文讨论的是资源重分配与成本传导，不是行业破产统计。可确认的是分配、价格和产量压力，不是终端厂已经倒闭。
 
 ## 本篇关键公开来源
 
-- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TrendForce 2026-02-11（1Q26 8GB+256GB smartphone memory contract cost nearly +200% YoY）：https://www.trendforce.com/presscenter/news/20260211-12922.html
+- TrendForce 2026-05-14（2Q26 LPDDR4X +70–75% QoQ；LPDDR5X +78–83% QoQ）：https://www.trendforce.com/presscenter/news/20260514-13044.html
+- TrendForce 2026-08-25（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page：https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈3× DDR5 wafer supply）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY25 10-K（CMBU US$3.792B→US$13.524B；MCBU US$11.667B→US$11.859B）：https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+- SK hynix FY25 official results（operating margin 49%；HBM revenue more than doubled）：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+- NVIDIA FY27 Q1 CFO commentary（Edge Computing US$6.369B；consumer PC demand tempered by elevated memory/system prices）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
