@@ -99,24 +99,40 @@ Google / Kairos 的公开路径更长：
 
 ---
 
-## 4. 三类 Power Project 不能机械合并成“已运行 AI 电力”
+### 3.4 NVIDIA / SB Energy / OpenAI：从购电进一步走向 Land + Power + Shell 锁定
 
-**Table 7.1 — 三类代表性 AI 电力路径**
+2026-08-17，NVIDIA 披露 PORTS-Pike Technology Campus 的新结构：通过与 SB Energy 合作，NVIDIA 为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**；OpenAI 将使用该 site，SB Energy 建设、持有并运营 data center。项目计划容量预计从 **2028 年开始分阶段上线**。[^7]
+
+这条证据把 Time-to-Power 再推进一层：
+
+> **真正稀缺的不是孤立的电力合同，而是 land + power + shell 在可执行时间窗口内的组合。**
+
+因此，LPS secured capacity 比单纯 headline PPA 更接近 deployable-compute 的前置条件。
+
+但 4.25 IT-GW 仍然是设计/规划容量，不是 2026 energized 或 utilized load。
+
+---
+
+## 4. 不同 Power / LPS Project 不能机械合并成“已运行 AI 电力”
+
+**Table 7.1 — 代表性 AI 电力 / LPS 路径**
 
 | 项目 | 名义规模 | 当前分析身份 |
 |---|---:|---|
 | Crane / Microsoft | ~835 MW | restart / regulatory / execution path |
 | Talen / AWS | up to 1,920 MW | revised PPA / transition / ramp |
 | Kairos / Google | up to 50 MWe in 2030; up to 500 MWe by 2035 | long-duration development option |
+| PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / future phased buildout from 2028 |
 
-**Source:** Constellation、Talen Energy、Kairos Power / Google.[^2][^3][^4][^5]  
+**Source:** Constellation、Talen Energy、Kairos Power / Google、NVIDIA / SB Energy.[^2][^3][^4][^5][^7]  
 **Note:** 不同项目处于不同合同、建设、许可、上电与利用状态，不能机械相加为 active AI load。
 
-这三个案例分别代表：
+这些案例分别代表：
 
 1. 重启既有大型电源；
 2. 重构大型用户与现有 generation asset 的长期关系；
-3. 建设新的未来 generation technology。
+3. 建设新的未来 generation technology；
+4. 通过信用支持提前锁定 land + power + shell 的组合交付能力。
 
 它们说明 AI demand 正在影响 power capital formation，但不能用来证明某个统一 GW 数字已经投入 AI 运行。
 
@@ -258,3 +274,4 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
+[^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
