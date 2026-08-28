@@ -24,7 +24,7 @@
 
 ## 3. Google：TPU 已经是芯片、软件、互联和 Pod 的组合
 
-Google 的 TPU 路线已经跨越多代。Ironwood 继续把产品定义上移到大规模 pod / system：自研 accelerator 与 XLA/software、high-bandwidth interconnect、HBM 和 Google Cloud workload 共同形成完整栈。
+Google 的 TPU 路线已经跨越多代。Ironwood 继续把产品定义上移到大规模 pod / system：[^1]自研 accelerator 与 XLA/software、high-bandwidth interconnect、HBM 和 Google Cloud workload 共同形成完整栈。
 
 所以 Google 的竞争力不是“一颗 TPU 比一颗 GPU 快多少”，而是：
 
@@ -34,15 +34,15 @@ Google 的 TPU 路线已经跨越多代。Ironwood 继续把产品定义上移�
 
 ## 4. AWS：Trainium 把芯片、Neuron 与 UltraServer 组合成系统
 
-AWS Trainium 同样已经从 accelerator 向 system 发展。Trainium3 UltraServers、Neuron software stack、AWS networking/data-center deployment 与大规模 cloud workload 共同构成第二类系统。
+AWS Trainium 同样已经从 accelerator 向 system 发展。Trainium3 UltraServers、Neuron software stack、AWS networking/data-center deployment 与大规模 cloud workload 共同构成第二类系统。[^2]
 
-其战略优势还包括长期 anchor workload。Anthropic 已公开深化与 AWS 的长期 compute relationship，这使 Trainium 不只是实验性 silicon，而拥有持续迭代 system economics 的大客户基础。
+其战略优势还包括长期 anchor workload。Anthropic 已公开深化与 AWS 的长期 compute relationship，[^3]这使 Trainium 不只是实验性 silicon，而拥有持续迭代 system economics 的大客户基础。
 
 但“有 anchor workload”不等于已经取代 NVIDIA 外部生态。真正需要验证的是 large-cluster scaling、utilization、software maturity、迁移成本以及外部客户采用。
 
 ## 5. Microsoft：Maia 的价值取决于 Azure 内部规模化，而不是复制整个 CUDA
 
-Microsoft Maia 的合理评价标准不是“是否第一天支持所有模型”，而是它能否在 Azure / Microsoft 内部足够大的 workload 上形成稳定成本优势。
+Microsoft Maia 200 的合理评价标准不是“是否第一天支持所有模型”，[^4]而是它能否在 Azure / Microsoft 内部足够大的 workload 上形成稳定成本优势。
 
 长期竞争力取决于：
 
@@ -57,7 +57,7 @@ Microsoft Maia 的合理评价标准不是“是否第一天支持所有模型�
 
 ## 6. Meta：MTIA 证明“窄 workload 先优化”也是有效路径
 
-Meta 拥有超大 recommendation、ranking 与 generative-AI workload。MTIA 的逻辑不是先成为 general-purpose accelerator，而是围绕最重要的内部 workload 做 specialization，并把 silicon、software、networking 与 rack deployment 逐步组织成 custom full-stack solution。
+Meta 拥有超大 recommendation、ranking 与 generative-AI workload。MTIA 300 的逻辑不是先成为 general-purpose accelerator，[^5]而是围绕最重要的内部 workload 做 specialization，并把 silicon、software、networking 与 rack deployment 逐步组织成 custom full-stack solution。
 
 这条路线的经济目标是：
 
@@ -97,9 +97,9 @@ Cloud custom silicon 属于**私有降本**：Google、AWS、Microsoft 或 Meta 
 
 DeepSeek 所代表的算法/架构效率则更接近**公共降本**：如果一种架构显著降低训练或 serving 的 compute/memory requirement，其他开发者也可能采用类似方法，从而改变整个市场的单位智能成本。
 
-DeepSeek-V3 Technical Report 的可核一手锚是：671B total parameters、37B activated parameters、14.8T pre-training tokens；pre-training **2.664M H800 GPU-hours**，完整正式训练 **2.788M H800 GPU-hours**。按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练 compute conversion**，不代表完整 R&D cost。
+DeepSeek-V3 Technical Report 的可核一手锚是：671B total parameters、37B activated parameters、14.8T pre-training tokens；pre-training **2.664M H800 GPU-hours**，完整正式训练 **2.788M H800 GPU-hours**。[^6]按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练 compute conversion**，不代表完整 R&D cost。
 
-另一条独立证据来自 DeepSeek-V2：相对 DeepSeek 67B，报告 **93.3% KV-cache reduction** 与 **5.76× maximum generation throughput**。V2 与 V3 不能拼成同一个模型的单一结果。
+另一条独立证据来自 DeepSeek-V2：相对 DeepSeek 67B，报告 **93.3% KV-cache reduction** 与 **5.76× maximum generation throughput**。[^7]V2 与 V3 不能拼成同一个模型的单一结果。
 
 ## 10. 算法降本不会自动把基础设施需求清零
 
@@ -148,12 +148,12 @@ architecture efficiency 可以降低 bytes/token、training compute 或 serving 
 
 因此，**Cloud System-Stack Substitution 是最可能把 S2 Baseline Concentration 推向 S1 Competitive Expansion 的结构变量之一**，但它的强度必须用真实 workload share、迁移成本、利用率和上游资源依赖来衡量。
 
-## 关键公开来源
+## References
 
-- Google Ironwood TPU: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
-- AWS Trainium3 UltraServers: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
-- Microsoft Maia 200: https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
-- Meta MTIA 300: https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-- Anthropic / AWS compute collaboration: https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-- DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
-- DeepSeek-V2 repository / technical report: https://github.com/deepseek-ai/DeepSeek-V2
+[^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
+[^5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^6]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^7]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
