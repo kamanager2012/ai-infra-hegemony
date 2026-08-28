@@ -57,7 +57,7 @@ S2 的结构是：少数大型 system platform 和 scarce-layer supplier 保持�
 - buyer 会主动保留第二系统，但不会立即放弃主栈；
 - 上游资源分配仍受长期订单、现金流、roadmap certainty 和客户多元化共同影响。
 
-截至 2026 年 8 月，本报告把 S2 作为最接近当前事实组合的**基准状态**，不是不可改变的十年预测。
+截至 2026 年 8 月，本报告把 S2 作为最接近当前事实组合的**基准状态**，不是不可改变的十年预测。[^1][^2][^3]
 
 ## 5. S3 — Resource Hegemony：真正的门槛是复制整套基础设施
 
@@ -251,6 +251,12 @@ smartphone / consumer supply success 不能直接证明 frontier AI closure；�
 对所有主体，最重要的共同策略可以压缩成一句：
 
 > **不要押注一个不可改变的终局；建立能够在终局改变时仍然可执行的选择权。**
+
+## References
+
+[^1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging supply constraint, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 
 ## 交叉引用
 
