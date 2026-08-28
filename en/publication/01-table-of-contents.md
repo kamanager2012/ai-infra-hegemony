@@ -52,9 +52,8 @@
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
 32. [Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions](part-IV-ch32-master-judgment.md)
 
-## Appendices / Research Controls
+## Research Appendices
 
-- [Publication Release Standard](../../出版封版标准.md)
 - [Core Evidence Ledger](../核心证据台账.en.md)
 - [Core Source Index](../核心参考文献索引.en.md)
 - [Core Concept and Model Index](../核心概念与模型索引.en.md)
