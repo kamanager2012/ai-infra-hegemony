@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-02.md](../part2-02.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The essay uses official system specifications and company disclosures. It does not reconstruct an undisclosed cabinet price or assign an invented dollar value to “software premium.”
+> Retrieval and revision cutoff: **2026-08-28**. The essay uses official system specifications and company disclosures. It does not reconstruct an undisclosed cabinet price or assign an invented dollar value to “software premium.”
 
 ## 1. The core question
 
