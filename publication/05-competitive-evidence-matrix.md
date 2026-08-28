@@ -21,4 +21,4 @@
 2. 竞争集合按 layer 定义，不把 smartphone SoC、frontier training accelerator、foundry、HBM vendor 强行放进同一个 market-share 表。
 3. “没有等价替代”与“没有任何替代”必须分开。
 4. 每次 major update 至少检查一条会**削弱**主论点的证据，而不只增加支持性证据。
-5. 如果反方证据跨过第29章 operational trigger，应调整 S1–S4 weighting，而不是仅放在脚注中。
+5. 如果反方证据获得持续、可比且足够独立的支持，并改变核心机制变量，应调整 S1–S4 weighting，而不是仅放在脚注中。
