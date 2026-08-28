@@ -29,7 +29,7 @@ AI infrastructure 的同一笔支出可能同时出现在：
 
 ## 3. System Platform：把多个 scarce layer 组织成一套高价值产品
 
-NVIDIA 是当前最清晰的 system-platform 案例。FY27 Q2：Revenue **US$96.221B**、Data Center revenue **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**。
+NVIDIA 是当前最清晰的 system-platform 案例。FY27 Q2：Revenue **US$96.221B**、Data Center revenue **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**。[^1]
 
 这一层的价值不只是 accelerator die，而来自 compute、HBM、interconnect、software/runtime、rack architecture 与 deployment tooling 的系统整合。系统平台的优势在于：
 
@@ -42,7 +42,7 @@ NVIDIA 是当前最清晰的 system-platform 案例。FY27 Q2：Revenue **US$96.
 
 ## 4. Foundry / Advanced Packaging：重资产制造可以成为数量闸门
 
-TSMC 2025 gross margin 为 **59.9%**，HPC platform 占全年 revenue **58%**。2025 的公司更正口径为 **advanced packaging slightly over 10% of revenue**，而 2026 Q2 管理层进一步表示 packaging tightness 已经限制客户增长。
+TSMC 2025 gross margin 为 **59.9%**，HPC platform 占全年 revenue **58%**。[^2] 2025 的公司更正口径为 **advanced packaging slightly over 10% of revenue**，[^3] 而 2026 Q2 管理层进一步表示 packaging tightness 已经限制客户增长。[^4]
 
 这说明制造价值已经从 transistor scaling 扩展到 system integration。但 foundry / packaging 与 system platform 的经济模型不同：
 
@@ -54,9 +54,9 @@ TSMC 2025 gross margin 为 **59.9%**，HPC platform 占全年 revenue **58%**。
 
 ## 5. HBM / Memory：高制造投入与产品周期共同创造稀缺利润
 
-SK hynix FY25 官方结果为 Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**，HBM revenue 同比超过一倍。
+SK hynix FY25 官方结果为 Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**，HBM revenue 同比超过一倍。[^5]
 
-Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。这使 HBM 的 value capture 同时来自 bandwidth value、制造投入密度、stacking/qualification 与短期 supply scarcity。
+Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^6]这使 HBM 的 value capture 同时来自 bandwidth value、制造投入密度、stacking/qualification 与短期 supply scarcity。
 
 但 memory 仍具有明显周期性。如果 HBM capacity 超前扩张、generation mismatch 上升或 demand 增速下降，利润可以快速回吐。因此，memory 更接近**高壁垒的制造稀缺周期**，不是永久平台租金。
 
@@ -78,7 +78,7 @@ Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal 
 
 ## 7. Supply commitments 是 system platform 与 manufacturing 之间的资金桥
 
-NVIDIA manufacturing, supply, and capacity commitments 从 2026-01-25 的 **US$95.2B** 上升到 2026-04-26 的 **US$119B**，再到 2026-07-26 的 **US$279B**。
+NVIDIA manufacturing, supply, and capacity commitments 从 2026-01-25 的 **US$95.2B** 上升到 2026-04-26 的 **US$119B**，再到 2026-07-26 的 **US$279B**。[^7]
 
 FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。它可以作为**未来资源锁定强度的财务 proxy**，但公开文件没有 supplier-level split，因此不能写成 TSMC、SK hynix、Micron 或任何单一供应商“已经收到多少”。
 
@@ -86,7 +86,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 ## 8. Power / Powered Land：价值来自时间稀缺，而不是单纯电价
 
-当 rack power 进入约 **120 kW-class**，数据中心需要更强的 grid connection、substation、transformer、cooling 与 firm generation。拥有 powered land、existing interconnection 和可执行许可路径的资产会获得明显 **Time-to-Power** 价值。
+当 rack power 进入约 **120 kW-class**，[^8]数据中心需要更强的 grid connection、substation、transformer、cooling 与 firm generation。拥有 powered land、existing interconnection 和可执行许可路径的资产会获得明显 **Time-to-Power** 价值。
 
 这层资产的特点是：复制慢、地理固定、许可周期长、合同期限往往长于 compute generation。
 
@@ -146,13 +146,13 @@ smartphone、PC、gaming 与 general server 仍然是大型市场。它们承受
 
 > **同一笔资本在每一层留下多少可重复现金流、形成多少不可替代性，又把多少长期风险留在资产负债表上。**
 
-## 关键公开来源
+## References
 
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q — US$279B manufacturing, supply, and capacity commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 4Q25 Transcript — 2025 advanced packaging slightly over 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
-- TSMC 2Q26 Earnings Conference Transcript — packaging tightness limits customer growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
-- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^1]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: TSMC, 2025 Annual Report, gross margin and platform mix, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^3]: TSMC, 4Q25 Earnings Conference Transcript, advanced packaging slightly over 10% of 2025 revenue, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^6]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^8]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
