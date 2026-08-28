@@ -228,5 +228,6 @@ The August 2026 financing initiatives are evidence that the market is trying to 
 
 ## Key public sources for this volume
 
+- NVIDIA FY26 official results — NVIDIA-defined non-GAAP FCF US$96.575B: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - NVIDIA, 2026-08-10, AI-compute financing platforms, >US$500B third-party-capital mobilization target: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
