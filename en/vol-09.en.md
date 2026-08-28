@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-09.md](../vol-09.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. AI infrastructure does not “take all chips.” The relevant mechanism is selective transmission through manufacturing layers shared by AI systems and non-AI products.
+> Retrieval and revision cutoff: **2026-08-28**. AI infrastructure does not “take all chips.” The relevant mechanism is selective transmission through manufacturing layers shared by AI systems and non-AI products.
 
 ## 1. The shock is selective, not economy-wide
 
