@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-20.md](../vol-20.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The strategic recommendations in this volume are derived from mechanisms established in the preceding chapters. They are not a recommendation to bet on one company or one fixed end state.
+> Retrieval and revision cutoff: **2026-08-28**. The strategic recommendations in this volume are derived from mechanisms established in the preceding chapters. They are not a recommendation to bet on one company or one fixed end state.
 
 ## 1. Strategy should be built from mechanisms
 
