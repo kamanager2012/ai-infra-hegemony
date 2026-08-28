@@ -225,5 +225,11 @@ The more accurate effect is **resource reallocation, product stratification, and
 
 ## Key public sources for this essay
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TrendForce, 11 Feb 2026 — 1Q26 8GB+256GB smartphone memory contract cost nearly +200% YoY: https://www.trendforce.com/presscenter/news/20260211-12922.html
+- TrendForce, 14 May 2026 — 2Q26 LPDDR4X +70–75% QoQ; LPDDR5X +78–83% QoQ: https://www.trendforce.com/presscenter/news/20260514-13044.html
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
+- Micron FY24 Q3 prepared remarks — HBM3E ≈3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY25 10-K — CMBU US$3.792B→US$13.524B; MCBU US$11.667B→US$11.859B: https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+- SK hynix FY25 official results — operating margin 49%; HBM revenue more than doubled: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+- NVIDIA FY27 Q1 CFO commentary — Edge Computing US$6.369B; consumer PC demand tempered by elevated memory/system prices: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
