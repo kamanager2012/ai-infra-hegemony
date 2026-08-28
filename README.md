@@ -15,7 +15,7 @@ This project is a long-form industry research monograph on the restructuring of 
 
 The report is built from public statutory filings, company materials, regulatory documents, formal contract disclosures, and high-quality institutional research. Already-observed claims are treated as facts; forward-looking claims are explicitly separated into hypotheses, mechanisms, scenarios, and falsification conditions.
 
-**Retrieval and revision cutoff: August 27, 2026.** This research is not an audit opinion, investment recommendation, or legal opinion.
+**Retrieval and revision cutoff: August 28, 2026.** This research is not an audit opinion, investment recommendation, or legal opinion.
 
 The original report text is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. Commercial use is not permitted. Redistribution is permitted only for unadapted material under the license terms with attribution; adapted or derivative versions may not be shared. See [LICENSE](LICENSE).
 
