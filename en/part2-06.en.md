@@ -20,9 +20,9 @@ The current judgment is:
 
 ## 2. Why rack density changes the problem
 
-GB200 NVL72-class systems operate around **120 kW per rack**.
+NVIDIA's GB200 NVL72 rack-level hardware guidance is approximately **120 kW/rack**. Source: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 
-At that density, approximately 500 racks represent around **60 MW of IT load** before full facility overhead.
+As a **D-grade scenario arithmetic**, 500 × 120 kW ≈ **60 MW of rack-level full-load power**. This is not compute-only IT load, not a shipment count, and not evidence that 500 racks or 60 MW are already deployed or energized.
 
 The constraint therefore moves beyond an electricity bill.
 
@@ -42,7 +42,7 @@ Power becomes a delivery condition.
 
 ### Microsoft / Constellation — ~835 MW restart
 
-The 20-year PPA supports the restart of the former Three Mile Island Unit 1, now the Crane Clean Energy Center.
+The 20-year PPA supports the restart of the former Three Mile Island Unit 1, now the Crane Clean Energy Center. Source: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 
 The project remains dependent on regulatory and restart execution.
 
@@ -50,7 +50,7 @@ The ~835 MW figure is a plant/project capacity anchor, not proof of 835 MW of li
 
 ### Talen / AWS — up to 1.92 GW
 
-The revised arrangement can scale to **1.92 GW**.
+The revised arrangement can scale to **1.92 GW**. Source: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 
 Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. Its earlier 2025 10-K had expected **full transition in spring 2027**, so April 2026 should not be read as proof that every physical conversion or delivery step was complete.
 
@@ -63,7 +63,7 @@ The monitoring question is now:
 
 ### Google / Kairos — up to 500 MW
 
-The published development clock is more specific: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**.
+The published development clock is more specific: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**. Source: https://www.kairospower.com/google
 
 This is a longer-duration advanced-nuclear path.
 
@@ -77,7 +77,7 @@ The three projects occupy different states:
 - commercial structure converted, capacity ramping;
 - long-duration advanced-nuclear development.
 
-Adding 835 MW + 1.92 GW + 500 MW produces a nominal project total.
+A **D-grade arithmetic addition** of 835 MW + 1.92 GW + 500 MW can produce a nominal project total, but the terms represent different project states and maturity clocks.
 
 It does not produce an operating AI-load total.
 
