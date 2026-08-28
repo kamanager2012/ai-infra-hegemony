@@ -12,9 +12,9 @@ The most reliable starting point is therefore task exposure rather than direct j
 
 ILO and IMF research both require a separation between occupational exposure and actual adoption, job redesign, and employment outcomes.
 
-ILO's 2025 refined index estimates that roughly **one in four jobs worldwide has some GenAI exposure**, while emphasizing that transformation is more likely than simple redundancy.
+ILO's 2025 refined index estimates that roughly **one in four jobs worldwide has some GenAI exposure**, while emphasizing that transformation is more likely than simple redundancy.[^1]
 
-The IMF framework estimates around **40% of global employment** and about **60% of advanced-economy employment** as exposed to AI.
+The IMF framework estimates around **40% of global employment** and about **60% of advanced-economy employment** as exposed to AI.[^2]
 
 These are occupational / employment exposure measures.
 
@@ -124,7 +124,7 @@ The correct sequence remains:
 
 Any framework that converts an exposure percentage directly into an unemployment forecast skips the most important corporate-adoption and responsibility layers.
 
-## Key public sources
+## References
 
-- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure*: https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
-- IMF Staff Discussion Note, *Gen-AI: Artificial Intelligence and the Future of Work*: https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+[^1]: International Labour Organization, “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, 2025, https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
+[^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
