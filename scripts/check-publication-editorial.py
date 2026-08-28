@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Editorial preflight for the formal bilingual Publication Layer.
 
-This is a narrow release gate for publication hygiene. It is not a style
-opinion engine and does not rewrite prose automatically.
+Narrow release gate for publication hygiene. It intentionally checks only
+release-marker residue and malformed unit casing; link/media checks live in
+their dedicated gates.
 """
 from __future__ import annotations
 
@@ -22,23 +23,19 @@ BAD_UNITS = re.compile(
     r"\b(?:Kw|KW|KWh|KWH|Mhz|MHZ|Ghz|GHZ|TBPS|GBPS|MW/h|GW/h)\b"
 )
 
-LOCAL_MD_LINK = re.compile(
-    r"\[[^\]]+\]\((?!https?://|mailto:)([^)]+\.md(?:#[^)]+)?)\)"
-)
 
-RAW_HTML_MEDIA = re.compile(r"<(?:img|iframe)\b", re.I)
-
-def files() -> list[Path]:
+def publication_files() -> list[Path]:
     out: list[Path] = []
     for directory in DIRS:
         out.extend(sorted(directory.glob("*.md")))
     return out
 
+
 def main() -> int:
     failures: list[str] = []
     checked = 0
 
-    for path in files():
+    for path in publication_files():
         text = path.read_text(encoding="utf-8", errors="strict")
         checked += 1
         for lineno, line in enumerate(text.splitlines(), start=1):
@@ -60,6 +57,7 @@ def main() -> int:
 
     print("Publication editorial gate PASS: no release-hygiene blockers detected.")
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
