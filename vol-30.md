@@ -59,11 +59,13 @@ vs
 
 ## 4. CapEx 不能脱离 utilization
 
-同样 $100B CapEx：
+作为 **D 级 sensitivity example**，设定同样 **US$100B CapEx**：
 
-如果 utilization 90%，可能是高回报增长资产。
+如果 utilization 为 **90%**，它可能代表高回报增长资产。
 
-如果 utilization 30%，可能是过剩资产。
+如果 utilization 为 **30%**，它可能代表过剩资产。
+
+US$100B、90% 与 30% 都是示例输入，不是任何公司或行业的 current actual。
 
 因此，判断 AI infrastructure cycle 必须增加：
 
