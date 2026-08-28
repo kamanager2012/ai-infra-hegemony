@@ -10,9 +10,11 @@
 
 > **这些层最终由少数平台高度协调，还是由多套可互操作系统共同提供？**
 
-## 2. 本章引用的事实锚已经在前文建立
+## 2. 本章使用的事实锚与对应章节
 
-| 结构变量 | Canonical publication chapter |
+**Table 31.1 — 长期战略判断所依赖的核心结构变量**
+
+| 结构变量 | 对应章节 |
 |---|---|
 | NVIDIA system stack / switching cost | [Part I · Ch02](part-I-ch02-nvidia-system-stack.md) |
 | HBM / memory resource intensity | [Part I · Ch05](part-I-ch05-hbm-memory.md) |
@@ -22,6 +24,9 @@
 | China frontier-system closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
 | Value Capture Map | [Part III · Ch20](part-III-ch20-value-capture-map.md) |
 | Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
+
+**Source:** 本报告章节体系。  
+**Note:** 本章只承接前文章节已经建立的事实与机制，不重复复制高影响数据表。
 
 终局章不复制这些章节的财务表和物理公式，只使用已经建立的变量进行情景与行动分析。
 
@@ -132,12 +137,17 @@ portability 不意味着所有供应商平均采购。更有效的策略是：
 
 至少要把四类资产分开：
 
+**Table 31.2 — AI 相关资产的主要价值来源与风险**
+
 | 资产 | 主要价值 | 主要风险 |
 |---|---|---|
 | Platform | switching cost / system definition / ecosystem | substitution / regulation |
 | Manufacturing | scarcity / yield / technology / capacity | cycle / CapEx / utilization |
 | Infrastructure | powered land / grid / data center / duration | utilization / duration mismatch |
 | Application | workflow / distribution / data | commoditization / unit economics |
+
+**Source:** 本报告 Value Capture / Duration framework。  
+**Note:** 分类用于战略分析，不构成证券估值、评级或投资建议。
 
 高 CapEx 既可能是进入壁垒和增长准备，也可能是未来 depreciation 与 stranded asset。资本判断必须同时看 CapEx、utilization、revenue、FCF、forward commitments 与 clearing price。
 
@@ -242,7 +252,7 @@ smartphone / consumer supply success 不能直接证明 frontier AI closure；�
 
 > **不要押注一个不可改变的终局；建立能够在终局改变时仍然可执行的选择权。**
 
-## 核心证据导航
+## 交叉引用
 
 - [核心证据台账](../核心证据台账.md)
 - [核心参考文献索引](../核心参考文献索引.md)
