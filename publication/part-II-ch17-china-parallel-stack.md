@@ -87,6 +87,22 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 所以“普通内存可以绕开台积电”与“frontier AI memory stack 不受台积电影响”是两个完全不同的命题。
 
+### 6.2 国产 Memory Scale：必须区分 Revenue Share 与 Shipment Share
+
+长鑫招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四、中国第一。
+
+因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本书事实层。
+
+长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。
+
+这两个数字不能拼成同一时间序列，因为分母不同。
+
+它们真正支持的是：
+
+> **中国 conventional DRAM / NAND 的全球供给存在感已经明显上升，但份额增长本身仍不能证明 HBM、leading-edge logic 或 frontier-system closure。**
+
+关于“2027 产能翻倍”“三期明确达到某个月产量”的说法，如果只来自其他公司的招股书转引、媒体或供应链估算，只能放在 B/C 级背景，不进入本章 A 级事实层。
+
 ### 6.2 HDD 不能被 NAND 的国产进展掩盖
 
 AI data-center storage 还包含 nearline HDD。公开产业研究显示，全球 nearline / mass-capacity HDD 仍高度集中于 Seagate、Western Digital 与 Toshiba。
@@ -125,9 +141,17 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 因此，判断中国栈长期进展，不能只看 benchmark，还要看 production workload 的规模与持续性。
 
-## 10. Export control 的短期与长期效应方向不同
+## 10. Export Control：不只是“买不到 GPU”，还影响 Manufacturing Continuity
 
 出口限制在短期会提高先进硬件获取成本并降低 frontier cluster deployment speed；长期则会提高 domestic substitution incentive、local software/hardware integration 与 parallel ecosystem 的战略价值。
+
+更上游还要单独看 semiconductor manufacturing equipment / software / service。ASML 的公开说明确认：EUV 对中国已受限制，最先进 immersion DUV 需要出口许可，后续美国规则还扩大到部分 advanced manufacturing technology、metrology 与 software。
+
+这不等于“国内所有 memory fab 会因为断供立刻停产”，但它说明：
+
+> **domestic memory capacity growth ≠ upstream manufacturing autonomy**
+
+新增产能能否 ramp、工艺能否升级、既有设备能否长期维护，仍要看关键设备、软件许可、备件、field service 与材料 qualification 的连续性。
 
 因此，export control 不是一个单向变量。它可能同时扩大短期性能/规模差距，并强化长期平行体系建设动机。最终结果取决于 R&D efficiency、capital allocation、ecosystem adoption 与 supply scaling，而不是政策本身自动决定。
 
@@ -173,8 +197,13 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 - TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
+- CXMT 2025 prospectus / Omdia — 2025Q2 DRAM revenue share 3.97%, global #4: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+- Counterpoint Research 2026Q2 — YMTC 14% NAND shipment share, global #3: https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+- Counterpoint Research 2026Q1 — YMTC 13% NAND revenue share: https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 - CXMT official DDR5 product page — up to 8000 Mbps, 16Gb/24Gb, server/workstation/PC modules: https://www.cxmt.com/en/product.html
 - YMTC company profile / products — Gen5 Xtacking 4.0 3D NAND, enterprise/client/embedded storage: https://www.ymtc.com/en/aboutus.html
 - YMTC commercial 3D NAND product portfolio: https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
 - Micron investor material — HBM4E base logic die partnership with TSMC: https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
 - TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
+- ASML — EUV restricted; most advanced immersion DUV subject to export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+- ASML — updated restrictions include metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
