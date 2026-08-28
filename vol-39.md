@@ -26,7 +26,7 @@ AI 教育如果只教：
 
 ## 2. AI adoption 已经快于课程制度更新
 
-Stanford HAI 2026 AI Index 给出了更精确的现实锚：**4/5** 美国高中和大学生已经使用 AI 完成 schoolwork；但只有约一半 middle/high schools 有 AI policy，且 **6%** 这一结果的统计单位是**学校层面的调查结果（关于教师对 policy 清晰度的评价）**，不能直接改写成“6% 的教师认为清晰”。与此同时，美国四年制大学 CS undergraduate enrollment 在 2024→2025 **下降 11%**，而 AI software-related master's graduates 在 2023→2024 **增长 17%**。
+Stanford HAI 2026 AI Index 给出的官方口径是：**4/5** 美国高中和大学生已经使用 AI 完成 schoolwork；约一半 middle/high schools 有 AI policy，且只有 **6% 的教师**认为这些 policy 清晰。与此同时，美国四年制大学 CS undergraduate enrollment 在 2024→2025 **下降 11%**，AI software-related master's graduates 在 2023→2024 **增长 17%**。
 
 因此出现：
 
@@ -216,3 +216,9 @@ AI 教育的核心变化不是“新增 AI 专业”，而是：
 - 对现实后果负责。
 
 这与 AI infrastructure 从单一芯片竞争上移到 system-stack competition 是同一产业逻辑。
+
+
+## 本卷关键公开来源
+
+- Stanford HAI 2026 AI Index — Education：https://hai.stanford.edu/ai-index/2026-ai-index-report/education
+- Stanford HAI 2026 AI Index — Chapter 7 PDF：https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_7_education.pdf
