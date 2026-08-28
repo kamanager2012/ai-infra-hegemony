@@ -1,7 +1,5 @@
 # Part II · 第15章：Physical AI 与机器人系统的真正瓶颈
 
-> **出版层章节。** 以 [vol-28](../vol-28.md) 为主源。本章把 Physical AI 视为 cloud training、edge inference/control、mechanical actuation、sensor、battery 与 manufacturing 的完整 system，而不是“把大模型装进机器人”。
-
 ## 1. 机器人竞争单位同样是 System
 
 Physical AI 需要同时解决 perception、planning、control、actuation、power、safety 与 mechanical reliability。
