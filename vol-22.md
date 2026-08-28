@@ -32,13 +32,15 @@ Micron FY24 Q3 prepared remarks：
 
 > HBM3E 在相同 node、相同比特下约需要 DDR5 **3× wafer supply**。
 
-TrendForce：
+TrendForce **预计**：
 
-> HBM + RDIMM 约占 2026 DRAM bits **51%**。
+> HBM + RDIMM 约占 **2026 DRAM bit supply 51%**。
+
+这里的 51% 是 **2026E institutional forecast**，不是已经实现的 full-year actual。
 
 两个数字结合意味着：
 
-HBM 对 DRAM manufacturing input 的影响，高于单纯 bit share 所显示的比例。
+HBM 对 DRAM manufacturing input 的影响，可能高于单纯 bit share 所显示的比例。
 
 因此，consumer DRAM residual capacity 可能受到更强挤压。
 
@@ -70,15 +72,17 @@ PC 使用 DDR5/LPDDR。
 TSMC 2025 smartphone platform：
 
 - revenue share：**29%**
-- 同比仍增长。
+- platform revenue YoY growth：**+11%**
+
+29% 是 revenue mix，+11% 是该 platform 的同比营收增速，两个指标不能混成一个口径。来源：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf 。
 
 因此，AI 并没有“挤掉 smartphone”。
 
 真正发生的是：
 
 - HPC growth 更快；
-- advanced capacity 增量更偏向 AI/HPC；
-- memory supply 更受 server/HBM 影响。
+- incremental advanced-capacity demand 更偏向 AI/HPC；
+- memory supply 更受 server/HBM economics 影响。
 
 这可能导致 flagship smartphone：
 
@@ -138,8 +142,8 @@ Automotive 具有更长 qualification cycle。
 
 当前可以量化：
 
-- HBM ~3× wafer-supply trade ratio；
-- HBM+RDIMM 51% DRAM bits；
+- HBM3E ~3× wafer-supply trade ratio（A 级一手事实）；
+- HBM + RDIMM 51% of 2026 DRAM bit supply（B 级 2026E 机构预测）；
 - rack-scale HBM demand scenarios；
 - TSMC platform revenue mix。
 
@@ -168,5 +172,7 @@ Automotive 具有更长 qualification cycle。
 
 ## 本卷关键公开来源
 
-- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 4Q25 presentation（Smartphone 29% revenue mix；+11% YoY platform-revenue growth）： https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
+- NVIDIA FY26 10-K（Gaming +41%；FY27 Q1 and beyond supply-constraint headwind）： https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
