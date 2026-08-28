@@ -79,19 +79,39 @@ The central structural change is not that consumer electronics disappear. It is:
 
 > **AI/HPC is increasing the influence of a relatively small number of capital-intensive buyers over marginal semiconductor demand and incremental capital formation.**
 
-### 3.5 AI Capacity Gap
+### 3.5 AI Capacity Gap: separate the absolute gap from the growth gap
 
-To determine whether scarcity is strengthening, converging, or reversing toward surplus, the report measures each physical layer separately:
+To determine whether a physical layer is **actually short of deliverable supply today**, the report defines an absolute gap:
 
 ```text
 AI_Capacity_Gap_i(t)
-= Growth(AI_Demand_i(t))
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+where \(i\) represents physical layers such as advanced logic, HBM/DRAM, advanced packaging, networking, and power. Demand and capacity must use the **same delivery window, qualification/quality boundary, and physical unit**, such as wafers/month, qualified package starts/month, bits/year, or MW.
+
+- **Absolute Gap > 0:** current deliverable supply is insufficient;
+- **Absolute Gap ≈ 0:** current supply and demand are near balance;
+- **Absolute Gap < 0:** current effective headroom exists.
+
+To determine whether scarcity pressure is widening or converging, the report separately defines:
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
 - Growth(AI_Effective_Capacity_i(t))
 ```
 
-where (i) represents physical layers such as advanced logic, HBM/DRAM, advanced packaging, networking, and power.
+The Growth Gap is a difference in growth rates over the same period, measured in percentage points. It describes the **direction of pressure**, not the current stock gap:
 
-**Gap > 0** means incremental AI demand is growing faster than incremental effective capacity; **Gap ≈ 0** means supply and demand are converging; **Gap < 0** becomes a strong S4 Capital Hard Landing signal only when utilization, clearing prices, and forward commitments deteriorate at the same time.
+- **Growth Gap > 0:** scarcity may widen, or existing headroom may be eroded;
+- **Growth Gap < 0:** scarcity may converge, or effective headroom may expand;
+- **Growth Gap = 0:** supply and demand are changing at the same rate; it does not imply that no shortage exists.
+
+A strong S4 Capital Hard Landing signal therefore requires **Absolute Gap < 0 / excess capacity** together with deterioration in utilization, clearing prices, and forward commitments—not a negative Growth Gap by itself.
+
+AI Capacity Gap, AI Capacity Growth Gap, and Non-AI Residual Capacity answer different questions: the first two measure the current AI-side shortfall and its direction of change; NARC measures effective supply left for non-AI demand after priority allocation.
 
 ### 3.6 Cloud System-Stack Substitution
 
