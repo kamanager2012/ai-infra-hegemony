@@ -62,7 +62,7 @@ AI infrastructure 的关键变量变化很快：
 - Smartphone：**29%** of revenue；platform revenue YoY **+11%**
 - 2025 largest customer：**19% of annual revenue**
 - 2025 second-largest customer：**17%**
-- advanced packaging：略高于 **10%**（不得扩写为 packaging + testing）
+- 2025 advanced packaging：略高于 **10%**（4Q25 transcript 公司会后更正；2024 >8% 使用 distinct “advanced packaging and testing” 标签）
 
 **客户口径硬边界：** annual largest / second-largest ranking 不是同一客户跨年序列。另一张匿名客户表才可直接比较 2024→2025：Customer A **12%→19%**，Customer B **22%→17%**。两套表不得拼接成“某个第一客户”的纵向轨迹。
 
@@ -312,3 +312,6 @@ S4 Capital Hard Landing 重点监测四组指标。
 - Constellation / Microsoft Crane restart (~835 MW)：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q（up to 1,920 MW; full volume no later than 2032）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 - Kairos / Google（50 MWe in 2030; up to 500 MWe by 2035）：https://www.kairospower.com/google
+
+- TSMC 4Q24 Transcript（2024 advanced packaging and testing >8%）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
