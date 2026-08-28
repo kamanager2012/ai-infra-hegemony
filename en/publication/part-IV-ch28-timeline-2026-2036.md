@@ -21,8 +21,8 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - GAAP gross margin **75.0%**;
 - Rubin in **full production**;
 - manufacturing, supply, and capacity commitments rising from **US$119B** on 2026-04-26 to **US$279B** on 2026-07-26;
-- TSMC advanced-packaging tightness still limiting customer growth;
-- hyperscaler infrastructure spending remaining elevated;
+- TSMC advanced-packaging tightness still limiting customer growth;[^7]
+- public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
 - power projects at different states with scales around 835 MW, up to 1.92 GW, and up to 500 MWe;
 - TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
 
@@ -182,3 +182,5 @@ Until all three are much clearer, 2036 should remain a conditional cross-section
 [^4]: Constellation, Crane Clean Energy Center / Microsoft PPA, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 [^5]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
+[^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
