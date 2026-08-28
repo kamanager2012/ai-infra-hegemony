@@ -219,3 +219,11 @@ powered land、grid、cooling、data center。
 > 把 semiconductor、memory、packaging、software 与 power 作为一套 system policy。
 
 AI infrastructure 竞争最终不是“谁拥有最多 GPU”，而是谁能持续把 scarce physical resources 转化为高利用率、可迁移、可产生现金流的系统。
+
+
+## 本卷关键公开来源
+
+- NVIDIA DGX GB200 hardware guide（约120 kW/rack）：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart（20-year PPA；约835 MW）：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q（revised AWS PPA up to 1,920 MW）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google（Hermes 2 up to 50 MWe in 2030；fleet up to 500 MWe by 2035）：https://www.kairospower.com/google
