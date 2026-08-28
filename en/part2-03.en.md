@@ -40,6 +40,10 @@ TSMC's 2025 public disclosures show:
 - HPC at **58% of revenue**;
 - N2 entering volume production in **4Q25**.
 
+Primary sources:
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 4Q25 Presentation (2025 platform mix / growth): https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+
 These are strong indicators of leading-edge concentration and HPC demand.
 
 They do not disclose:
