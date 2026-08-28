@@ -161,3 +161,8 @@ Its job is to establish the unit of measurement:
 > **Can capital, scarce physical resources, and system software convert compute into repeatable economic output at scale?**
 
 The next seven essays test that question layer by layer.
+
+## Key public sources for this essay
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
