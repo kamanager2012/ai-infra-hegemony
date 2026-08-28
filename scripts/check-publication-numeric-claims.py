@@ -87,6 +87,10 @@ def inherited_list_lead(lines: list[str], i: int) -> str:
 
 def values(line: str) -> list[str]:
     line = re.sub(r"https?://\S+", "", line)
+    # Process/product designators such as N2 wafers are names, not quantities.
+    # Remove the designator phrase while preserving any real quantity later
+    # in the same sentence (for example, "N2 ... 10,000 wafers").
+    line = re.sub(r"\bN\d+\s+wafers?\b", "", line, flags=re.I)
     return [m.group(0).strip() for m in STRONG_NUM.finditer(line)]
 
 def norm(v: str) -> str:
