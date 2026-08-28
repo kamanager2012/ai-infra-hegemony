@@ -53,15 +53,21 @@ N2 的意义不只是 transistor density。竞争者真正关心：
 
 拿到某个 node 并不自动构成 system victory。如果 memory、packaging、interconnect 或 power 缺失，完整交付仍然受限。
 
-## 5. AHICR：比历史 revenue share 更适合分析未来分配
+## 5. 真正值得跟踪的是 Incremental Capacity Access，而不是创造一个综合份额
 
-本书使用 **Advanced/HPC Incremental Capacity Capture Ratio（AHICR）** 分析下一代增量资源：
+历史 revenue share 只能说明过去收入集中度，不能直接回答下一代资源如何分配。对 N2/N2P/A16 更有价值的问题是：**哪些客户能够在量产初期持续获得足够、稳定、经过验证的增量供给。**
 
-> AHICR = 某买方获得的新增 advanced AI/HPC resource ÷ 全行业对应新增 resource
+但这种分析必须逐层进行。advanced logic、HBM、advanced packaging 与 power 使用不同物理单位、不同供应商和不同扩产时钟，因此不应被压缩成一个综合“资源捕获率”。
 
-AHICR 必须按 physical layer 分别看 logic、HBM、packaging、power，不能把不同单位硬加在一起。
+更稳健的跟踪方式是分别观察：
 
-50/60/70/80% 只能作为 D 级 scenario levels，用于观察 residual capacity 的非线性变化，不是当前披露的客户份额。
+- leading-edge node 的量产节奏与客户需求强度；
+- HBM qualification 与 supply；
+- advanced-packaging capacity；
+- system delivery 与 utilization；
+- 客户长期承诺、预付款与 roadmap visibility。
+
+这比用 50/60/70/80% 的假设比例模拟“谁拿走多少未来产能”更适合作为正文分析。
 
 ## 6. TSMC 的资源分配不是单变量决定
 
@@ -75,7 +81,7 @@ AHICR 必须按 physical layer 分别看 logic、HBM、packaging、power，不�
 
 TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoWoS allocation 未披露。[^5] TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计属于 B 级机构数据。[^6]
 
-5.37 CoWoS wafers/rack 是报告侧 D 级 geometry stress test，不是 TSMC yield，也不能拿 TSMC 全年 15M front-end wafer shipments 去除。
+因此，前道 logic capacity 与后道 advanced-packaging capacity 必须分别分析，不能把两者放进同一个 wafer 分母，更不能用全厂 front-end wafer shipments 直接推导可交付 AI rack 数量。
 
 这说明“leading-edge logic available”与“complete AI system deliverable”不是同一个问题。
 
@@ -89,9 +95,16 @@ TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry
 
 ## 9. 当前判断
 
-TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 强、HPC 已成为最大 platform、advanced packaging 仍是公开确认的增长约束。
+TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 领先、HPC 已成为最大 platform、advanced packaging 仍是公开确认的增长约束。
 
-未来最关键的观察变量不是某一季 customer revenue share，而是：N2/N2P/A16 增量资源的客户结构、HBM / packaging supply、cloud custom silicon 的新增资源竞争，以及第二制造体系能否在 logic + packaging + memory 上形成组合替代。
+但这并不意味着 TSMC 已成为某一家 AI 客户的“专属 fab”。对未来最有解释力的变量不是某一季 customer revenue share，而是：
+
+- N2/N2P/A16 的量产节奏与有效供给；
+- 大型 AI 与 cloud-custom-system 客户对新增 leading-edge capacity 的需求强度；
+- HBM / packaging 是否同步扩张；
+- 第二制造体系能否在 logic + memory + packaging 上形成组合替代。
+
+因此，先进制程的长期竞争核心不是一个“2 nm wafer price”，而是**下一代 system 所需多层资源能否在同一时间窗口内形成可交付组合。**
 
 ## References
 
