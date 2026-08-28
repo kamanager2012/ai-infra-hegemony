@@ -1,13 +1,13 @@
 # AI基础设施霸权时代
 ### The Age of AI Infrastructure Hegemony
 
-行业深度研究专著。当前仓库保留 **40 个分卷研究模块 + 8 篇宏观专题**作为研究层；中文 **Publication Layer 已完成 4 Part / 32 章第一轮连续重编**，详见[出版层总目录](publication/README.md)与[《出版版结构》](出版结构.md)。研究层继续作为事实回溯与 Git diff 的稳定 source layer。
+行业深度研究专著。中文与英文 **Publication Layer 均已完成 4 Part / 32 章正式同步，并通过 Markdown 层 QA 与逐章双语结构/高风险数值回归**。仓库保留 **40 个分卷研究模块 + 8 篇宏观专题**作为证据回溯与研究存档。正式连续阅读请从[出版版目录](publication/01-table-of-contents.md)进入。
 
 [English release page](README.md) · [English edition index](en/README.en.md) · [Release notes](RELEASE_NOTES.md)
 
-> **中文 `main` 研究正文仍是事实、证据等级与分析口径的 source of truth；英文版作为对外发布主入口，与中文版本保持同一套 F → H → M → S → X 架构。**
+> **中文版 Publication Layer 是双语事实、证据等级与分析口径的 canonical source；英文 Publication Layer 已按当前中文版重新同步，并保持同一套 F → H → M → S → X 架构。**
 
-> 中文 Publication Layer **32/32 章已生成第一版整合正文**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。这表示章节结构与第一轮去重重编已经完整，**不等同于最终出版 QA 全绿**；后续仍继续做引用链、死链、第一方来源下沉、双语同步与全书一致性回归。英文研究层 **40 卷 + 8 篇宏观文章**继续保持稳定镜像。
+> 中文与英文 Publication Layer 均为 **32/32 章**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。两版 Markdown 结构/引用 QA 与双语结构/高风险数值回归已经通过；**最终 Publication Ready 尚需关键外链复扫、第三方材料版权确认、PDF/电子书导出 QA 与最终 proofread。**
 
 本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-28**；本文不构成审计意见、投资建议或法律意见。
 
@@ -41,16 +41,16 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 
 ## 先读
 
-1. [总判](总判.md)
-2. [第一卷：执行摘要与未来十年核心判断](vol-01.md)
-3. [研究方法与证据分级](研究方法与证据分级.md)
-4. [核心证据台账](核心证据台账.md)
-5. [核心参考文献索引](核心参考文献索引.md)
-6. [核心概念与模型索引](核心概念与模型索引.md)
-7. [核心假设矩阵（2026—2036）](核心假设矩阵.md)
-8. [Publication Layer：4 Part / 32章](publication/README.md)
-9. [出版版结构与研究模块映射](出版结构.md)
-10. 按 [机制索引](机制索引.md) 跳
+1. [正式出版目录](publication/01-table-of-contents.md)
+2. [第1章：执行摘要与未来十年核心判断](publication/part-I-ch01-executive-summary.md)
+3. [第32章：总判——从事实、机制到可证伪的长期判断](publication/part-IV-ch32-master-judgment.md)
+4. [Front Matter：报告定位、证据边界与免责声明](publication/00-front-matter.md)
+5. [表格目录](publication/02-list-of-tables.md)
+6. [缩写与核心术语表](publication/03-abbreviations-and-glossary.md)
+7. [第27章：研究方法与证据架构](publication/part-IV-ch27-research-method.md)
+8. [核心证据台账](核心证据台账.md)
+9. [核心参考文献索引](核心参考文献索引.md)
+10. [出版层总目录与 QA 状态](publication/README.md)
 
 
 四云资本开支是全集团设备购置，不是「AI 硬件」分项，口径见 [四云 Capex 核对](四云Capex口径核对.md)。高影响命题的一手/机构来源见 [核心参考文献索引](核心参考文献索引.md)；外部公开研究用于方法校准和反方对照，见 [外部研究对照索引](外部研究对照索引.md)。
