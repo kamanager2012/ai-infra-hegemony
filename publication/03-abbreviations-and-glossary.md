@@ -75,7 +75,7 @@ hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/p
 以 successfully completed workflow 为核心单位，计算 inference、retrieval/storage、tools/API、retry、human review 等真实变动成本。
 
 ### Task-to-Job Translation
-Task Exposure → Adoption Economics → Workflow Redesign → Responsibility Constraint → Employment / Wage Outcome。避免把技术暴露率直接写成岗位消失率。
+Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome。用于避免把模型能力、职业暴露率或单个 task 自动化直接写成岗位消失率。
 
 ## 情景术语
 
