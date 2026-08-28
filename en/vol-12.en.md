@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-12.md](../vol-12.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. China's substitution capacity must be evaluated by layer. Strength in smartphones and consumer computing does not prove frontier-AI closure; frontier-AI constraints do not imply that China is limited to consumer devices.
+> Retrieval and revision cutoff: **2026-08-28**. China's substitution capacity must be evaluated by layer. Strength in smartphones and consumer computing does not prove frontier-AI closure; frontier-AI constraints do not imply that China is limited to consumer devices.
 
 ## 1. China's AI supply capability must be layered
 
