@@ -172,3 +172,7 @@ The most useful forward indicators are:
 - memory-vendor product mix.
 
 Only if several of these weaken together should the transmission mechanism be upgraded from selective scarce-layer pressure to a broader manufacturing-cost shock.
+
+## Key public sources for this volume
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
