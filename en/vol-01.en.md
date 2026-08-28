@@ -81,7 +81,7 @@ The 19% largest-customer revenue share is neither an N2 wafer share nor a CoWoS 
 
 ### 2.3 HBM: AI demand has entered the wafer-supply layer
 
-Micron's FY24 Q3 prepared remarks provide a critical first-party physical anchor: at the same technology node and bit capacity, HBM3E requires roughly **3× the wafer supply of DDR5**. Micron's FY25 10-K further confirms that HBM requires more wafers and cleanroom space to produce the same number of bits.
+Micron's FY24 Q2 prepared remarks provide a critical first-party physical anchor: at the same technology node and bit capacity, HBM3E requires roughly **3× the wafer supply of DDR5**. Micron's FY25 10-K further confirms that HBM requires more wafers and cleanroom space to produce the same number of bits.
 
 The ~3× figure is therefore an **A-grade first-party wafer-supply trade ratio**. It is not a price multiple and should not be treated as a fixed manufacturing constant for every fab or HBM generation.
 
@@ -274,8 +274,8 @@ This volume follows the common evidence system. Company disclosures, institution
 - TSMC 2025 20-F — annual customer rankings: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report — Customer A/B: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
-- Micron FY24 Q3 Prepared Remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 event page: https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 Prepared Remarks — HBM3E ≈ 3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Microsoft FY26 Q4 earnings / call: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
 - Alphabet 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 - Meta 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
