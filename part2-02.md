@@ -49,6 +49,8 @@ NVIDIA 的平台优势究竟来自单芯片性能，还是来自计算裸片、H
 
 官方材料可以确认 NVLink 从早期世代持续扩展到第五代 **1.8 TB/s per GPU**，而 GB200 NVL72 把 **72 GPU** 放进一个 NVLink domain；更大的 576-GPU / >1 PB/s / 240 TB 数字属于 NVIDIA 对更大 NVLink domain 的平台级宣传，不是 NVL72 单柜规格。本文把单柜规格固定在产品页可核的 72 GPU、36 Grace CPU、13.4 TB HBM3E、17 TB LPDDR5X 与 130 TB/s aggregate NVLink bandwidth，不再混入缺乏卷内一手锚的 HGX H200 旁支数字。
 
+来源：NVIDIA GB200 NVL72 official product page：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+
 物理 BOM 有四级，不能跳级报价。晶粒：两颗光罩极限合成一颗逻辑 GPU，发布稿写 10 TB/s 片间。Superchip：两 GPU 加一 Grace，C2C 900 GB/s。托盘：两 Grace 加四 GPU，液冷，80 petaflops，1.7 TB。整柜：18 托盘加 9 交换托盘，铜缆盒。官方给的是这一级的构成，不是这一级的美元。有人用公司毛利 75% 反推「每柜软件 XXX 万」，式子不成立。毛利是全年所有产品的加权，里面有游戏卡、专业卡、汽车、H20 冲减，10-K 没有「NVL72 分项毛利」这一行。存货 FY26 末 $21.4B、Q1 末 $25.8B，产品质保负债 FY26 末 $2.8B，都是公司层。不能把质保或存货除以一个未披露的柜数，当成单柜成本。
 
 投片见[第十六卷](vol-16.md)和[第二十四卷](vol-24.md)。本文只借用：真正稀缺的是封装和 HBM，不是前道逻辑的片数。公开资料未披露对应美元分项。
@@ -68,7 +70,7 @@ NVIDIA 的平台优势究竟来自单芯片性能，还是来自计算裸片、H
 可检验指标：
 
 - 公开交付是否仍以整柜 / NVLink 域为主，而不是散卡加以太网
-- 公司毛利率是否守在 70% 以上（近两季已回到 75% 附近）
+- 公司 GAAP gross margin 是否持续维持在约 70% 以上；FY27 Q2 为 **75.0%**。来源：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - 供应承诺是否继续加（2026-01-25 **US$95.2B** → 2026-04-26 **US$119B** → 2026-07-26 **US$279B**）
 - 产品页是否仍印 13.4 TB / 17 TB / 130 TB/s 这一套
 - CUDA / NIM / Mission Control 是否仍是默认部署栈
