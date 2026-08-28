@@ -1,5 +1,7 @@
 # 第三十二卷：NVIDIA 全栈架构深度拆解——GPU、NVLink、CUDA/PTX 与 Rack-Scale System
 
+> **出版定位：**[第二卷](vol-02.md)负责 NVIDIA 平台支配力、财务与资源预订能力的总体判断；本卷只做工程层深拆，解释 GPU/CPU、HBM、NVLink/NVSwitch、CUDA/PTX、libraries 与 rack architecture 如何共同形成生产级 switching cost。公司层财务与平台结论不在本卷重复展开。
+
 ## 1. NVIDIA 的护城河不是一张 BOM
 
 NVIDIA 的系统优势经常被简化成：
