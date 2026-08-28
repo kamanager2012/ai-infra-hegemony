@@ -52,7 +52,7 @@ The ~835 MW figure is a plant/project capacity anchor, not proof of 835 MW of li
 
 The revised arrangement can scale to **1.92 GW**.
 
-Talen has confirmed that conversion to the revised **front-of-the-meter** structure was completed in **April 2026**.
+Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. Its earlier 2025 10-K had expected **full transition in spring 2027**, so April 2026 should not be read as proof that every physical conversion or delivery step was complete.
 
 The monitoring question is now:
 
@@ -63,7 +63,7 @@ The monitoring question is now:
 
 ### Google / Kairos — up to 500 MW
 
-The development framework targets up to **500 MW**.
+The published development clock is more specific: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**.
 
 This is a longer-duration advanced-nuclear path.
 
@@ -163,3 +163,12 @@ The key metric is not:
 It is:
 
 > **How many MW can be permitted, energized, and continuously used before the hardware generation changes?**
+
+
+## Key public sources for this essay
+
+- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart — 20-year PPA, ~835 MW; official release says significant investments: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — transition occurred in April 2026; up to 1,920 MW: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K — transition process beginning spring 2026; full transition expected spring 2027: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
