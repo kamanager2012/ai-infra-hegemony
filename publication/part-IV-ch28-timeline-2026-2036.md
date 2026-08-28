@@ -4,7 +4,7 @@
 
 未来十年最容易出现的错误，是把技术 roadmap、capital plan 和 power project 的目标年份写成“必然发生”。
 
-本书把时间线分成：
+本报告把时间线分成：
 
 - **Phase I：2026–2027**；
 - **Phase II：2028–2030**；
