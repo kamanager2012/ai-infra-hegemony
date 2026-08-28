@@ -25,68 +25,19 @@ A frontier AI system now depends on several layers at once:
 
 Any industrial analysis focused only on model rankings or chip benchmarks is therefore incomplete.
 
-## 2. Five structural facts that matter most now
+## 2. Five structural facts: cited here, not re-proved
 
-### 2.1 The system sales unit has moved upward
+This is the strategic synthesis volume. It does not reproduce the financial tables, HBM physical derivations, advanced-packaging evidence, or project-level power-state analysis already established elsewhere.
 
-Products such as GB200 NVL72 have pushed the commercial unit from an individual accelerator toward a rack-scale system.
+| Structural fact | Current judgment | Canonical evidence home |
+|---|---|---|
+| System sales unit moved upward | Competition has moved from the accelerator card toward rack-scale systems and complete system stacks | [vol-02](vol-02.en.md) + [vol-32](vol-32.en.md) |
+| Scarce-layer value capture | Strong seller economics, long-duration commitments, and supply coordination create reservation power without proving exclusive control of all future capacity | [vol-01](vol-01.en.md) + [Core Evidence Ledger](核心证据台账.en.md) |
+| Memory / packaging bottlenecks | HBM manufacturing intensity, forward memory pressure, and advanced-packaging tightness are separate physical constraints | [vol-05](vol-05.en.md) + [vol-24](vol-24.en.md) |
+| A second cloud system stack | Google, AWS, Microsoft, and Meta have moved from isolated custom chips toward software + interconnect + rack/pod + workload stacks | [vol-25](vol-25.en.md) |
+| Power quota | ~120 kW-class racks plus the 835 MW / up-to-1.92-GW / up-to-500-MWe project paths show that power has its own contract, permitting, energization, and utilization clocks | [vol-13](vol-13.en.md) + [vol-35](vol-35.en.md) |
 
-The relevant competition is increasingly:
-
-> **system stack vs. system stack.**
-
-That shift changes where switching costs, bottlenecks, and value capture sit.
-
-### 2.2 Scarce-layer value capture is already visible
-
-NVIDIA FY27 Q2 actuals were:
-
-- revenue: **US$96.221B**;
-- Data Center revenue: **US$89.0B**;
-- GAAP gross margin: **75.0%**;
-- GAAP operating income: **US$63.734B**.
-
-Strong seller economics create the financial capacity to make long-duration supply commitments and reserve scarce resources.
-
-That does not mean one buyer automatically receives every unit of future capacity. It means cash generation, order visibility, prepayments, and long contracts have become real competitive tools.
-
-### 2.3 Memory and advanced packaging are core bottlenecks
-
-Micron's disclosure that HBM3E requires roughly **3× the wafer supply of DDR5** at the same node and bit capacity is first-party evidence of a physical tradeoff.
-
-TrendForce estimates that HBM plus RDIMM account for roughly **51% of 2026 DRAM bits**.
-
-TSMC has also stated that advanced-packaging tightness is constraining customer growth.
-
-The implication is that AI expansion is not limited by logic dies alone. Memory and packaging can become binding constraints even when wafer capacity expands.
-
-### 2.4 Hyperscalers are building a second class of system stack
-
-Google, AWS, Microsoft, and Meta have moved beyond designing isolated custom chips.
-
-Their internal programs increasingly combine:
-
-- software;
-- interconnect;
-- rack/pod design;
-- internal workloads.
-
-These stacks can divert part of the platform profit pool away from NVIDIA.
-
-At the same time, they continue to compete for many of the same upstream scarce resources: advanced logic, HBM, packaging, and power.
-
-### 2.5 Power has entered the core resource layer
-
-~120 kW-class racks, together with separately sourced power project/contract paths such as 835 MW, **up to 1.92 GW**, and **up to 500 MWe by 2035**, make:
-
-- grid capacity;
-- substations;
-- firm power;
-- PPAs;
-
-part of the AI infrastructure allocation problem.
-
-Power is not a downstream implementation detail. It is a separate physical constraint with its own permitting, construction, financing, and energization clock.
+The rest of this volume therefore asks one question: **given those established structural facts, how should individuals, firms, capital, and states preserve optionality, and which observable signals should change the relative weight of S1–S4?**
 
 ## 3. Formal future framework: S1–S4
 
