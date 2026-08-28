@@ -41,10 +41,10 @@ That shift changes where switching costs, bottlenecks, and value capture sit.
 
 NVIDIA FY27 Q2 actuals were:
 
-- revenue: **$96.221B**;
-- Data Center revenue: **$89.0B**;
+- revenue: **US$96.221B**;
+- Data Center revenue: **US$89.0B**;
 - GAAP gross margin: **75.0%**;
-- GAAP operating income: **$63.734B**.
+- GAAP operating income: **US$63.734B**.
 
 Strong seller economics create the financial capacity to make long-duration supply commitments and reserve scarce resources.
 
@@ -325,3 +325,5 @@ It can remain a continuously recalibrated industrial framework.
 
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply (forecast): https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TSMC 2Q26 transcript / IR materials — advanced-packaging tightness limiting customer growth: https://investor.tsmc.com/english/quarterly-results/2026/q2
