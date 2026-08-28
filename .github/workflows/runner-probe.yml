@@ -19,3 +19,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - run: echo "ubuntu-22.04 runner assigned"
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - run: echo "windows-latest runner assigned"
