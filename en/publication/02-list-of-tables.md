@@ -33,6 +33,7 @@
 - [Table 29.1 — NVIDIA seller economics and forward-reservation baseline](part-IV-ch29-monitoring-framework.md)
 - [Table 29.2 — Power project state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — Default evidence grade for report updates](part-IV-ch29-monitoring-framework.md)
+- [Table 29.4 — Observation frequency, persistence, and scenario triggers for core variables](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4](part-IV-ch30-scenarios.md)
 - [Table 31.1 — Core structural variables used in the long-run strategic judgment](part-IV-ch31-strategy-endgame.md)
 - [Table 31.2 — Primary value sources and risks across AI-related asset classes](part-IV-ch31-strategy-endgame.md)
