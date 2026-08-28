@@ -239,6 +239,37 @@ Utilization, market-clearing prices, CapEx / commitments, and accounting losses 
 
 Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
 
+## 12A. Operational monitoring thresholds: converting “persistent/material/large-scale” into trigger rules
+
+To keep terms such as “persistent,” “material,” and “large-scale” from remaining qualitative adjectives, the report adds a **D-grade operational trigger policy**. These are research-update rules, not industry facts or trading signals.
+
+**Table 29.4 — Observation frequency, persistence, and scenario triggers for core variables**
+
+| Variable group | Default frequency | Default persistence | Trigger rule |
+|---|---|---|---|
+| Seller economics / forward commitments | quarterly | 2 consecutive quarters | commitments or next-generation supply reservations must decline/cancel in two consecutive quarters before being treated as trend weakening; one quarter is only an observation |
+| HBM / DRAM allocation & pricing | monthly + quarterly | 3 monthly observations or 2 quarters | at least two of allocation fulfillment, contract pricing, lead time, and Absolute AI Capacity Gap must improve together before supply easing is treated as a trend |
+| Advanced packaging | quarterly + event-driven | 2 quarters | first-party suppliers must cease describing packaging as a growth constraint for two quarters while B-grade lead-time/pricing indicators also ease before S1 supply-elasticity weight rises materially |
+| Cloud system-stack substitution | quarterly + major deployment events | 2 reporting periods | at least two of production workload, external availability, and migration-cost/software maturity must improve across two reporting periods before substitution is treated as executable |
+| Power / Time-to-Power | quarterly | 2 quarters | conversion from contracted/permitted MW toward energized MW must improve while deployment waiting time declines before the power bottleneck is treated as easing |
+| Anchor Compute Buyer | event-driven + quarterly | 2 observations when recurring | formal expansion/delivery supports S2/S3; major delays, renegotiations, or cancellations raise S4 only when utilization or financing signals weaken in the same direction |
+| Capital clearing | quarterly | **2 consecutive quarters** | Accounting, Utilization/Revenue, Market Clearing, and Forward Commitment must **all deteriorate together** for two quarters before S4 moves from stress case toward main-scenario candidate |
+| Regulation | event-driven | legal-state transition | inquiry/RFI does not trigger structural reweighting; formal proceeding/final remedy matters only when interface, tying, access, or supply conditions materially change |
+
+**Source:** Report D-grade monitoring policy.  
+**Note:** “2 quarters / 3 months” is a default update discipline designed to stop one news item from rewriting a long-run judgment. Where a series is annual or event-driven, use the latest two comparable observations rather than inventing quarterly data.
+
+### Handling missing data
+
+If a layer does not provide same-unit `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**. Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as proxies, but they cannot be renamed as an absolute capacity gap.
+
+### Minimum evidence combinations for scenario reweighting
+
+- **Material move toward S1:** at least two of Supply Elasticity, System Substitution, and Buyer Optionality satisfy their persistence rules;
+- **Material move toward S3:** Multi-layer Scarcity, Switching Cost, and Forward Reservation strengthen together for at least two comparable observations;
+- **Material move toward S4:** retain Chapter 24's hard gate—four capital-clearing signal classes deteriorate together for two consecutive quarters;
+- **Otherwise remain in S2 or make only local weighting adjustments**, rather than changing the main scenario on one headline.
+
 ## 13. Update discipline
 
 One news item should not rewrite the entire book.
