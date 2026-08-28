@@ -28,7 +28,7 @@ DeepSeek-V3 技术材料报告约：
 - 37B activated parameters；
 - 2.788M H800 GPU-hours for pre-training。
 
-若以 $2/GPU-hour 进行外部成本换算，则约为 **$5.576M**。这一数字属于报告侧租金折算，不等于 DeepSeek 实际现金支出，也不包括完整研发、数据、实验、失败训练和基础设施成本。
+若以 **US$2/GPU-hour** 进行报告侧租金换算，则约为 **US$5.576M**。这一数字属于技术报告中的 formal-training compute conversion，不等于 DeepSeek 实际完整现金支出，也不包括完整研发、数据、实验、失败训练和基础设施成本。
 
 这种案例真正说明的是：
 
@@ -157,4 +157,4 @@ Revenue per task > Total cost per task
 
 ## 本卷关键公开来源
 
-- DeepSeek-V3 Technical Report（2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
+- DeepSeek-V3 Technical Report（2.788M H800 GPU-hours；报告侧 US$2/GPU-hour → US$5.576M formal-training compute conversion）： https://arxiv.org/abs/2412.19437
