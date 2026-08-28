@@ -1,0 +1,163 @@
+# Part I · 第2章：NVIDIA 系统栈与平台权力
+
+> **出版层章节。** 由研究模块 [vol-02](../vol-02.md)、[vol-32](../vol-32.md) 与 [macro-02](../part2-02.md) 重编。研究模块继续保留为事实回溯和 Git diff 的 source layer；本章只保留连续阅读所需的主论证与独有工程细节。
+
+## 1. 竞争单位已经从 GPU 上移到系统栈
+
+NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，而是把 accelerator、HBM、scale-up fabric、compiler/runtime、libraries、rack architecture 与部署工具组织成一个可重复交付的系统。GB200 NVL72 的官方产品规格已经清楚显示这种销售单元上移：
+
+| 层 | 官方规格 / 结构 |
+|---|---|
+| GPU | 72 Blackwell GPU |
+| CPU | 36 Grace CPU |
+| GPU memory | 13.4 TB HBM3E |
+| CPU memory | 17 TB LPDDR5X |
+| Scale-up domain | 72-GPU NVLink domain |
+| Rack | liquid-cooled rack-scale system |
+
+这改变了竞争的比较方式。单卡时代可以主要比较 FLOPS、显存和卡价；rack-scale 时代必须同时比较 memory hierarchy、scale-up/scale-out interconnect、compiler/runtime、distributed training stack、power/cooling、部署工具和 workload migration cost。
+
+因此，“更便宜的一颗 ASIC”并不自动等于“更便宜的一套生产级 AI system”。
+
+## 2. NVLink / NVSwitch：把通信从外部网络问题变成系统内部能力
+
+frontier model training 的瓶颈并不只在单卡计算。tensor parallel、pipeline parallel、expert parallel 和 collective communication 会把性能越来越多地交给 bandwidth、topology、synchronization 与 collective implementation。
+
+NVLink/NVSwitch 的战略价值，是把 scale-up communication 设计为平台内部能力。GB200 NVL72 把 72 颗 GPU 组织在一个 NVLink domain 中；NVIDIA 当前产品页给出整柜 **130 TB/s aggregate NVLink bandwidth**。这并不能证明任何以太网方案天然无法替代，但它改变了替代问题：
+
+> 竞争者必须替代的不是一颗 GPU，而是“计算 + 内存 + 域内互联 + 软件执行模型”这一整组生产能力。
+
+因此，本报告不使用未经公开仪器验证的 ns 级延迟对比，也不把宣传性 benchmark 直接写成第三方实测结论。真正需要观察的是可复核的 production workload：迁移后吞吐、利用率、工程成本与可靠性是否仍有显著差距。
+
+## 3. CUDA / PTX：护城河不是“软件税”，而是跨代软件资产
+
+CUDA 的战略价值不能被简化成一个不存在于财报中的固定“软件溢价”。它更接近长期积累的软件资产：
+
+- compiler 与 kernel ecosystem；
+- libraries；
+- profiling / debugging；
+- framework integration；
+- distributed communication；
+- inference / training runtime；
+- deployment tooling；
+- developer knowledge。
+
+PTX 的作用尤其重要：它提供稳定的 intermediate representation，使上层软件不必在每一代 GPU 变化时完全重写。硬件路线可以从 Hopper 进入 Blackwell、再进入 Rubin，而相当一部分上层软件资产可以继续复用。
+
+这形成一种跨代机制：
+
+**更大的 installed base → 更多 production software assets → 更低的平台内升级成本 → 更高的平台外迁移成本。**
+
+它解释了为什么 NVIDIA 的优势不能只用一次 benchmark 测量，也不能用一个未经披露的“CUDA 毛利率”证明。
+
+## 4. Rack-scale architecture 把 switching cost 延伸到数据中心
+
+当采购单位上移到 rack，迁移成本也从 software 延伸到 physical infrastructure。客户围绕特定系统建设的，不只是代码，还包括：
+
+- rack / pod topology；
+- power distribution；
+- liquid cooling；
+- networking；
+- firmware；
+- cluster management；
+- scheduling 与 performance validation。
+
+因此，换一颗 accelerator 可能只是一个采购动作；换一套 rack-scale system，往往意味着重新验证软硬件协同和数据中心工程。
+
+这一点是 NVIDIA 系统权力最容易被“芯片 benchmark”低估的地方。系统越往 rack/pod 和园区层延伸，竞争者越需要在部署时间、可靠性和总拥有成本上证明替代，而不是只在峰值算力上接近。
+
+## 5. 平台利润为什么会转化为下一代资源预订能力
+
+系统级优势如果能够产生高利润和高自由现金流，就会进一步影响供应链。当前最重要的公司层锚点不需要在多个章节反复铺开，只保留一组：
+
+| 指标 | 当前公开值 |
+|---|---:|
+| FY26 Data Center revenue | US$193.737B |
+| FY26 NVIDIA-defined non-GAAP free cash flow | US$96.575B |
+| FY27 Q2 revenue | US$96.221B |
+| FY27 Q2 Data Center revenue | US$89.0B |
+| FY27 Q2 GAAP gross margin | 75.0% |
+| FY27 Q2 GAAP operating income | US$63.734B |
+| 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
+
+FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
+
+这构成一个可检验的跨代强化机制：
+
+**高系统利润 → 更强供应承诺与资源预订能力 → 更高交付确定性 → 更强客户留存 → 下一轮系统收入。**
+
+它不是自动垄断公式。供应商仍会考虑客户多元化、信用、利用率、地缘政治和长期议价平衡。
+
+## 6. NVIDIA 的系统权力也有明确物理边界
+
+NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
+
+- leading-edge foundry；
+- HBM vendors；
+- advanced packaging ecosystem；
+- data-center operators；
+- grid / power suppliers。
+
+因此，平台权力强并不意味着物理供给完全内生。TSMC、HBM、advanced packaging 和 power 中任一层失配，都可能成为下一代交付约束。
+
+这也是为什么本报告把 **Scarce-layer Value Capture** 与“市场份额垄断”分开。系统平台可以拥有很强的组织和出价能力，但仍然受到外部物理供应弹性约束。
+
+## 7. 真正的反击是 Cloud System Stack，而不是单颗 ASIC
+
+Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 的战略意义，不在于“有另一颗芯片”，而在于 hyperscaler 同时拥有：
+
+- 自有大规模 workload；
+- cloud distribution；
+- data-center control；
+- internal compiler/runtime；
+- 自研 interconnect / rack/pod；
+- 针对较窄 workload 做系统级优化的能力。
+
+所以未来竞争不是：
+
+> NVIDIA GPU vs custom ASIC
+
+而是：
+
+> **NVIDIA system stack vs cloud system stack**
+
+这会同时产生两个方向相反但可以并存的效应：
+
+1. **Platform-profit diversion**：云自研系统减少部分对 NVIDIA 平台利润池的依赖；
+2. **Upstream resource competition**：自研系统本身仍会争夺先进逻辑、HBM、advanced packaging 和 power。
+
+因此，cloud custom silicon 的成功并不自动意味着上游物理稀缺缓解。
+
+## 8. 云系统需要达到什么程度才算真正削弱护城河
+
+判断 NVIDIA system moat 是否发生结构性削弱，不能靠新闻数量或单卡性能，而要看以下变量是否同时变化：
+
+- cloud system stack 是否进入 frontier training / high-value inference 的生产规模；
+- open software 是否显著降低 CUDA migration cost；
+- alternative scale-up fabric 是否达到 production-grade scale；
+- workload 在多套 system stack 间迁移时，工程成本与性能损失是否持续下降；
+- scarce upstream resources 是否不再明显支持 NVIDIA roadmap；
+- 大客户是否能够把真实 workload 分散到多套系统，而不是只做 benchmark 或内部窄场景试验。
+
+如果这些变化中的多项持续出现，NVIDIA 的平台权力会从“系统级定价权”逐步退回更可谈判的“集成优势”。如果迁移仍然昂贵，而平台内跨代升级继续保持低摩擦，则系统护城河仍然成立。
+
+## 9. 当前判断
+
+截至 2026 年 8 月，最准确的描述不是“GPU 竞争已经结束”，也不是“云 ASIC 已经替代 NVIDIA”。
+
+更准确的是：
+
+> **NVIDIA 当前拥有最成熟的商业化通用 AI system stack；hyperscaler 已经形成真实的第二条 system-stack 路线，但其替代程度必须用生产级 workload、迁移成本、利用率和上游资源依赖来验证。**
+
+这也是本书后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
+
+## 关键公开来源
+
+- NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- NVIDIA DGX GB200 hardware guide: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- CoreWeave, 2025-02-04, GB200 NVL72 general availability: https://investors.coreweave.com/news/news-details/2025/CoreWeave-First-Cloud-Provider-to-Announce-General-Availability-of-NVIDIA-GB200-NVL72-Instances/default.aspx
+- NVIDIA, 2025-04-28, OCI liquid-cooled GB200 NVL72 deployment: https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/
