@@ -110,6 +110,22 @@ This framework explains memory, consumer-GPU, and selected leading-edge allocati
 
 It also explains why "capacity is expanding" and "traditional markets are becoming loose again" are not synonymous.
 
+## 6A. Two-Speed Semiconductor Economy: AI is changing where the next dollar of capital goes
+
+By 2026, the most important structural change is no longer only which buyer receives more wafers in the current quarter. It is **for which demand the next generation of supply is being built**.
+
+In TSMC's 2Q26 platform revenue mix, HPC represented **66%** and Smartphone **22%**; advanced technologies, defined as 7 nm and below, represented **77%** of wafer revenue. TSMC also raised its 2026 capital budget to **US$60B–64B**, with most spending directed toward advanced process technologies and continued investment in advanced packaging, testing, and related areas. HPC cannot be equated one-for-one with AI, and these figures do not prove that Apple, Qualcomm, or any specific customer was “crowded out.” The narrower supported conclusion is that high-growth HPC/AI workloads are materially influencing incremental advanced-manufacturing capital formation. Source: https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+The memory layer shows the same shift in priority. Samsung said in 2Q26 that, under limited capacity, its Memory Business focused primarily on server products and expected server DRAM, enterprise SSD, and HBM demand to accelerate in 2H26. On 2026-08-07, SK hynix announced approximately **KRW54T** of combined investment in Yongin Y2 and Cheongju M17 to expand its mid- to long-term DRAM and NAND production base. Sources: https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results ; https://news.skhynix.com/en/fab-facility-investment-2026/
+
+This report defines the resulting macro structure as **Two-Speed Semiconductor Economy**:
+
+> **The marginal demand of the AI Infrastructure Economy is increasingly pulled by a small number of capital-intensive buyers, while the Traditional Device Economy remains constrained by BOM discipline, retail price elasticity, and replacement cycles. The two economies share parts of the upstream supply chain but have different price tolerance and capital-formation power.**
+
+This is not a factual verdict that consumer electronics have been “sacrificed.” The stronger long-run proposition is that marginal semiconductor demand is becoming more dependent on the CapEx decisions of hyperscalers, system-platform sellers, and Anchor Compute Buyers—moving the industry from **Demand Diversification** toward greater **Capital Concentration**.
+
+Whether this becomes permanent depends on AI Capacity Gap, NARC, utilization, pricing feedback, and whether future expansion restores balance.
+
 ## 7. Sixth master judgment: Cloud Custom Silicon is both platform substitution and upstream resource competition
 
 Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer about a naked ASIC.
