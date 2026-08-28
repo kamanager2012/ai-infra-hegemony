@@ -56,17 +56,22 @@ The near-term value of SMRs therefore lies mainly in future optionality; they sh
 
 Mechanically adding approximately 835 MW, up to 1.92 GW, and up to 500 MWe produces a nominal total but not a usable AI-load number.
 
+**Table 7.1 — Nominal scale and delivery state of three AI-power pathways**
+
 | Project | Nominal scale | Primary status |
 |---|---:|---|
 | Crane / Microsoft | ~835 MW | restart + regulatory process |
 | Talen / AWS | up to 1,920 MW | revised-PPA transition / ramp |
 | Kairos / Google | 50 MWe in 2030; up to 500 MWe by 2035 | long-duration development |
 
+**Source:** Constellation, Talen Energy, and Kairos Power / Google.[^2][^3][^4][^5]  
+**Note:** The nominal capacities sit at different contract, permitting, construction, energization, and utilization states and must not be mechanically added into active AI load.
+
 The three paths represent restarting an existing large generator, restructuring the commercial/grid relationship between a large load and existing generation, and developing next-generation nuclear supply. Their technology maturity, permitting clocks, and utilization dates are not comparable.
 
 ## 5. Grid queues are evidence of congestion, not a measure of "AI power shortage"
 
-Berkeley Lab's Queued Up data show that active U.S. generation/storage interconnection requests peaked near **2,600 GW at the end of 2023** and stood at approximately **2,061 GW at the end of 2025**.
+Berkeley Lab's Queued Up data show that active U.S. generation/storage interconnection requests peaked near **2,600 GW at the end of 2023** and stood at approximately **2,061 GW at the end of 2025**.[^6]
 
 These numbers cannot be converted into "the United States lacks 2,061 GW of data-center power." The queue is primarily generation/storage projects and includes projects that may withdraw, duplicate one another, or experience long delays.
 
