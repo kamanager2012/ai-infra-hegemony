@@ -44,7 +44,7 @@ NVIDIA FY27 Q2：
 
 ### 2.3 Memory 与 packaging 是核心瓶颈
 
-Micron HBM3E ~3× DDR5 wafer-supply trade ratio 是 A 级事实。
+Micron FY24 Q3 prepared remarks 的 **industrywide / same-node / same-bits** 口径为：HBM3E 约需 DDR5 **3× wafer supply**。这是有明确适用边界的一手公司披露，不把“~3×”脱离口径写成普适物理常数。
 
 TrendForce **预计** HBM + RDIMM 约占 **2026 DRAM bit supply 51%**；这是 2026E 机构预测，不是已实现实绩。
 
@@ -63,7 +63,7 @@ Google、AWS、Microsoft、Meta 的自研路线已经从 chip 上升到：
 
 ### 2.5 Power 已进入核心资源层
 
-约 **120 kW/rack** 的 GB200 NVL72-class rack 与 100 MW/GW-class campus 使：
+约 **120 kW/rack** 的 GB200 NVL72-class rack，以及 835 MW / up to 1.92 GW / up to 500 MWe 等不同成熟度的 power project / contract 路径，使：
 
 - grid；
 - substation；
