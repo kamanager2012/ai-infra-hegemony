@@ -126,14 +126,23 @@ def check_anchors(text: str, anchors: list[str], label: str) -> None:
         raise ProofFailure(f"{label}: missing extracted-text anchors: {missing}")
 
 
-def page_text_lengths(path: Path, pages: int, temp_dir: Path) -> list[int]:
-    lengths: list[int] = []
-    for page in range(1, pages + 1):
-        out = temp_dir / f"page-{page:04d}.txt"
-        run(["pdftotext", "-f", str(page), "-l", str(page), str(path), str(out)])
-        txt = out.read_text(encoding="utf-8", errors="replace")
-        lengths.append(len(re.sub(r"\s+", "", txt)))
-    return lengths
+def page_text_lengths(extracted_text: str, pages: int) -> list[int]:
+    # pdftotext separates pages with form-feed characters. Reuse the full
+    # extraction instead of spawning one pdftotext process per page.
+    page_texts = extracted_text.split("\f")
+    if page_texts and not page_texts[-1].strip():
+        page_texts.pop()
+    if len(page_texts) != pages:
+        # Some poppler builds may omit a final separator; tolerate only a
+        # one-page accounting difference and pad with an empty page marker.
+        if len(page_texts) == pages - 1:
+            page_texts.append("")
+        else:
+            raise ProofFailure(
+                f"page/text extraction mismatch: pdf pages={pages}, "
+                f"pdftotext pages={len(page_texts)}"
+            )
+    return [len(re.sub(r"\s+", "", txt)) for txt in page_texts]
 
 
 def check_blank_pages(lengths: list[int], label: str) -> dict:
@@ -251,9 +260,7 @@ def check_pdf(path: Path, lang: str, proof_root: Path) -> dict:
     font_result = check_fonts(path)
     bbox_result = check_bbox(path, bbox_file)
 
-    temp_pages = work / "page-text"
-    temp_pages.mkdir(exist_ok=True)
-    lengths = page_text_lengths(path, pages, temp_pages)
+    lengths = page_text_lengths(text, pages)
     blank_result = check_blank_pages(lengths, path.name)
 
     samples = sample_pages(pages)
