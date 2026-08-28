@@ -19,6 +19,12 @@ This checklist separates research completion from publication operations. A chec
 - [x] F→H→M→S→X ontology is synchronized across the release framework.
 - [x] A/B/C/D evidence grading is synchronized across the release framework.
 - [x] Targeted regression is clear for legacy workpaper phrasing, stale FY27 Q2 outlook framing, fixed 40/30/15/15 scenario weights, malformed unit capitalization, hidden control characters, and known bad Chinese-source link patterns.
+- [x] Seven-way read-only fact audit findings were reconciled against public sources and current `main`: TSMC customer-series logic, smartphone share/growth scope, TrendForce 51% forecast status, rack-power scope, Gaming supply wording, packaging wording, rack power, four-cloud guidance timing, and English omissions were corrected.
+- [x] NVIDIA manufacturing, supply, and capacity commitments are updated through FY27 Q2: **US$95.2B → US$119B → US$279B**, with the Q2 SEC source and supplier-allocation boundary preserved.
+- [x] High-impact direct-source coverage regression passed for the audited Chinese source-of-truth set: **21/21** files have direct public links for the relevant NVIDIA FY27 Q2 / TrendForce 51% / Micron 3× / DeepSeek 2.788M anchors.
+- [x] Equivalent English high-impact direct-source coverage regression passed: **24/24** audited files returned no missing direct-source anchor.
+- [x] Central stale-scope regression is clear for the known 9622.1 conversion error, current-only US$119B wording, outdated four-cloud guidance, 51% forecast-as-actual wording, and stale 100 kW rack framing.
+- [ ] Complete a full line-by-line public-source audit of **every historical numeric claim across all 40 volumes + 8 macro essays**. The targeted high-impact audit above is complete; this broader claim-by-claim audit remains a separate gate if required before public release.
 
 ## 2. Publication metadata
 
