@@ -166,3 +166,10 @@ TSMC 的战略地位来自三个同时存在的事实：
 - 第二代工体系能否在 logic + packaging + HBM 上形成组合替代。
 
 先进制造竞争正在从“谁拥有最先进 node”转变为“谁能稳定获得完整 frontier system 所需的全部 scarce layers”。
+
+## 本篇关键公开来源
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report（Customer A/B）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
