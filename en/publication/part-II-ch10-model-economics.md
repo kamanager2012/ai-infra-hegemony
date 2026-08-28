@@ -12,7 +12,7 @@ The relevant unit is:
 
 ## 2. Algorithmic efficiency changes the demand function
 
-DeepSeek-V3 first-party disclosures include:
+DeepSeek-V3 first-party disclosures include:[^1]
 
 - 671B total parameters;
 - 37B activated parameters;
@@ -28,7 +28,7 @@ The important implication is that frontier capability is not linearly fixed to h
 
 ## 3. MLA shows that memory cost can be attacked directly by algorithms
 
-DeepSeek-V2 reports, relative to DeepSeek 67B:
+DeepSeek-V2 reports, relative to DeepSeek 67B:[^2]
 
 - approximately **93.3% KV-cache reduction**;
 - approximately **5.76× maximum generation throughput**.
@@ -114,7 +114,7 @@ As of 2026, a more defensible description is:
 
 Algorithmic efficiency can become either a **demand interrupter** or a **usage multiplier** for infrastructure. Which effect dominates can only be determined through workload volume, utilization, and unit economics.
 
-## Key public sources
+## References
 
-- DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
-- DeepSeek-V2: https://github.com/deepseek-ai/DeepSeek-V2
+[^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
+[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
