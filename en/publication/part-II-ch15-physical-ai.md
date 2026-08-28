@@ -20,7 +20,7 @@ Many Physical AI systems therefore naturally follow:
 
 > **cloud-side heavy training + edge-side compressed inference/control**
 
-A roughly 120 kW-class data-center rack and a robot's W/Wh-level power budget belong to completely different physical pools.
+A roughly 120 kW-class data-center rack and a robot's W/Wh-level power budget belong to completely different physical pools.[^4]
 
 ## 3. Robot BOM cannot be fixed by a universal percentage template
 
@@ -56,7 +56,7 @@ The strategic value of the sensor stack is therefore not just BOM share. It is c
 
 ## 6. The strategic position of the edge platform
 
-NVIDIA Jetson/Thor, Qualcomm, and other edge accelerators compete across:
+NVIDIA Jetson Thor, Qualcomm, and other edge accelerators compete across:[^1][^2]
 
 - compute;
 - software;
@@ -86,7 +86,7 @@ Robot adoption therefore does not necessarily reduce data-center demand. It can 
 
 ### 7.1 The robot itself can become a new memory / storage demand pool
 
-Micron's June 24, 2026 investor presentation provides a useful quantitative anchor that must retain its identity as a **company forward-looking view**:
+Micron's June 24, 2026 investor presentation provides a useful quantitative anchor that must retain its identity as a **company forward-looking view**:[^3]
 
 - L2+ and above vehicles carry more than **5×** the memory and storage content of an average vehicle;
 - Micron states that humanoid robots carry roughly **10×** the memory content of an average L2+ vehicle;
@@ -149,9 +149,9 @@ It is a contest over:
 
 > **who can convert AI capability into reliable, low-cost, mass-producible, maintainable physical work.**
 
-## Key public sources
+## References
 
-- NVIDIA Isaac official platform page — GR00T, simulation/training, Jetson Thor inference/control, and DGX/OVX/AGX workflow layers: https://developer.nvidia.com/isaac
-- NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot — Jetson Thor onboard compute + Isaac GR00T open platform: https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
-- NVIDIA DGX GB200 hardware guide — data-center rack power reference used only for cloud-vs-edge physical contrast: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Micron 2026-06-24 investor presentation — humanoid robots ~10× memory content vs average L2+ vehicle; multi-decade demand outlook: https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
+[^1]: NVIDIA Developer, Isaac platform, simulation/training and robotics workflow, https://developer.nvidia.com/isaac
+[^2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
+[^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
+[^4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
