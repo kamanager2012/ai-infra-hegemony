@@ -33,7 +33,7 @@ AMD 与 NVIDIA 会竞争相同的 advanced logic、HBM 与 packaging。
 
 反过来，如果 HBM/packaging supply elasticity 提高，AMD system expansion 的约束会下降。
 
-这使 AMD 成为观察 **non-anchor-buyer access / Non-AI-and-non-leading residual capacity** 的重要对象，但本书不为它另造新的核心术语。
+这使 AMD 成为观察 **non-anchor-buyer access / Non-AI-and-non-leading residual capacity** 的重要对象，但本报告不为它另造新的核心术语。
 
 ## 4. Intel：Product Clock 与 Foundry Clock 是两条时间线
 
@@ -63,7 +63,7 @@ Apple 不是 frontier training system vendor，但它可以决定大量 consumer
 
 ## 7. Apple 是 Leading-edge User，但不制造未经披露的客户排名
 
-Apple 长期使用 leading-edge processes，但在没有公司一手客户份额/排名披露时，本书不把某一具体年份的“第一/第二大客户”身份作为事实。
+Apple 长期使用 leading-edge processes，但在没有公司一手客户份额/排名披露时，本报告不把某一具体年份的“第一/第二大客户”身份作为事实。
 
 真正要看的是：leading-node launch scale 是否保持、AI/HPC 对 incremental capacity 的吸收是否加速，以及 device-AI strategy 是否改变 wafer / memory mix。
 
