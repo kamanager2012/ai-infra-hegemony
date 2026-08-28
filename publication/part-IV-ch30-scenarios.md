@@ -132,24 +132,44 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 
 ## 5A. AI Capacity Gap：S1–S4 的跨情景诊断轴
 
-S1–S4 保持为并列条件状态，不新增第二套情景命名。为了判断状态权重如何移动，本书增加一个跨情景诊断变量：
+S1–S4 保持为并列条件状态，不新增第二套情景命名。为了区分“当前是否短缺”和“短缺压力如何变化”，本报告使用两个互补指标。
+
+### 绝对缺口
 
 ```text
 AI_Capacity_Gap_i(t)
-= Growth(AI_Demand_i(t))
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+Demand 与 Capacity 必须在同一物理层、同一交付窗口、同一 qualification / quality boundary 下计算，单位可以是 wafers/month、qualified package starts/month、bits/year 或 MW。
+
+- **Absolute Gap > 0**：当前可交付供给不足；
+- **Absolute Gap ≈ 0**：当前供需接近平衡；
+- **Absolute Gap < 0**：当前存在有效余量。
+
+### 增长缺口
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
 - Growth(AI_Effective_Capacity_i(t))
 ```
 
-其中 (i) 分别代表 advanced logic、HBM/DRAM、advanced packaging、networking、power 等物理层。不同层的 Gap 可以方向相反，因此禁止先加总成一个“全球 AI 产能缺口”。
+Growth Gap 用同一期间的增长率差表示，只描述绝对缺口未来更可能扩大还是收敛：
 
-解释规则：
+- **Growth Gap > 0**：短缺可能扩大，或既有余量被侵蚀；
+- **Growth Gap < 0**：短缺可能收敛，或有效余量扩大；
+- **Growth Gap = 0**：供需以相同速度变化，不代表当前不存在短缺。
 
-- **多个关键层持续 Gap > 0**：scarcity 延续，S2 / S3 相对权重上升；
-- **关键层 Gap 向 0 收敛，同时 multi-sourcing 与 substitution 改善**：S1 相对权重上升；
-- **Gap < 0 但 utilization 仍高**：只是供给宽松，不能直接判 S4；
-- **Gap < 0 + utilization 下滑 + clearing price 恶化 + commitments 收缩**：才构成 S4 权重显著上升的组合。
+因此：
 
-AI Capacity Gap 与 Non-AI Residual Capacity 必须同时观察。前者回答“AI 自己还缺多少新增供给”，后者回答“优先分配之后，非 AI 市场还剩多少有效供给”。
+- **Absolute Gap > 0 且 Growth Gap > 0，且跨多个关键层持续**：稀缺强化，S2 / S3 权重上升；
+- **Absolute Gap > 0 但 Growth Gap < 0**：仍短缺，但供给正在追赶，S1 权重可能上升；
+- **Absolute Gap < 0 且 utilization 健康**：供给出现余量，但不等于 S4；
+- **Absolute Gap < 0 + utilization 下滑 + clearing price 恶化 + commitments 收缩**：S4 权重显著上升。
+
+AI Capacity Gap / Growth Gap 必须与 Non-AI Residual Capacity 联合读取：前两者回答 AI 自身当前缺多少、缺口怎么变化；NARC 回答优先分配以后非 AI 市场还能拿到多少有效供给。
 
 ## 6. 五类决定情景的变量
 
