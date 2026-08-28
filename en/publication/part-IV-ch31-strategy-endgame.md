@@ -1,7 +1,5 @@
 # Part IV · Chapter 31: The 2036 Endgame and Strategic Optionality
 
-> **Publication-layer endgame chapter.** Recompiled from [Volume 15](../vol-15.en.md), [Volume 20](../vol-20.en.md), and [Volume 40](../vol-40.en.md). The factual cases for NVIDIA, HBM, advanced packaging, power, cloud system stacks, and China's parallel stack are established in earlier chapters. This chapter asks only: **If those mechanisms continue evolving, which options should different actors preserve, and which signals should change S1–S4 weighting?**
-
 ## 1. 2036 is not a market-share forecast point
 
 This book does not predict one company's exact 2036 market share and does not assign fixed scenario probabilities.
