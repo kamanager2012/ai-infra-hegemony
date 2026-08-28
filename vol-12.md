@@ -103,7 +103,7 @@ Ascend + CANN 的真正意义不是某一代单卡参数，而是中国正在构
 
 ## 6. Memory 是最容易被低估的约束
 
-CXMT 的公开招股材料披露 DDR 与 LPDDR 产品，但没有披露 HBM 产品线。
+长鑫科技 **2026-05-27 上交所注册稿**披露 DDR 与 LPDDR 产品；对注册稿全文检索 `HBM` 与“高带宽内存”均无命中，因此本报告只写“该注册稿未披露 HBM 产品线”。
 
 这一事实应严格解释为：
 
@@ -124,7 +124,7 @@ TrendForce 2026 Q1 foundry revenue share：
 | Foundry | Revenue share |
 |---|---:|
 | TSMC | 约 **72%** |
-| Samsung | 约 **6.5%** |
+| Samsung Foundry（excluding System LSI） | 约 **6.5%** |
 | SMIC | 约 **5.1%** |
 
 这些是 foundry revenue share，不等于 frontier AI wafer capability。
@@ -204,3 +204,9 @@ Export control 会同时产生两个方向的影响。
 因此，最准确的判断不是“突破”或“封死”，而是：
 
 > 中国正在从产品替代向系统栈替代推进，真正决定全球格局的是 advanced logic、HBM、packaging、interconnect 与 software 能否同时形成规模。
+
+
+## 本卷关键公开来源
+
+- 长鑫科技 2026-05-27 科创板招股说明书（注册稿，上交所）：https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+- TrendForce 2026-06-12 — 1Q26 foundry revenue share（TSMC 72%、Samsung Foundry excluding System LSI 6.5%、SMIC 5.1%）：https://www.trendforce.com/presscenter/news/20260612-13095.html
