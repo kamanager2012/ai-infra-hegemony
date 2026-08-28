@@ -51,7 +51,38 @@ TSMC's 2025 smartphone platform represented **29%** of annual net revenue and gr
 
 AI/HPC growth therefore does not imply that smartphone demand disappeared.
 
+Counterpoint's H1 2026 data provides a more direct view of the pressure:
+
+- global smartphone SoC shipments: **-15% YoY**;
+- MediaTek and Qualcomm shipments: both **down more than 25% YoY**;
+- Q2 2026 smartphone memory prices: **up more than 300% YoY**;
+- GenAI smartphone SoC shipments: **+24% YoY**;
+- UNISOC continued gaining in cost-sensitive segments.
+
+The result is **segmentation and restructuring rather than uniform collapse**: entry/mid-range devices are more exposed to memory/BOM pressure, premium/GenAI devices are relatively more resilient, and lower-cost SoC paths can gain share.
+
 The real change is that HPC has stronger pull on incremental advanced resources and memory economics tilts more toward server/HBM, making flagship BOM, memory configuration, and mid-range node strategy more exposed to upstream constraints.
+
+### 4.1 Cross-Market Resource Reordering: AI is changing the allocation balance across end markets
+
+TrendForce stated in April 2026 that AI demand had created bottlenecks in **3 nm–2 nm wafers and 2.5D/3D advanced packaging**, and that NVIDIA had moved early to secure large volumes of **4/3 nm wafer capacity, CoWoS, HBM, T-glass, substrates, PCBs, and SSDs**.
+
+Its June foundry research said TSMC **3 nm capacity remained severely constrained**. TrendForce also stated that foundries were dedicating a larger share of wafer capacity to AI-related products, materially changing the supply-demand balance for mature nodes as well.
+
+This report therefore defines:
+
+> **Cross-Market Resource Reordering = higher expected returns and stronger demand certainty in AI cause incremental resources that previously served multiple end markets to be reprioritized toward AI/server applications.**
+
+This is not a claim that capacity used to be distributed evenly or that NVIDIA now receives everything.
+
+What the evidence supports is:
+
+- advanced-node / packaging / memory / power-device allocation logic is changing;
+- traditional end markets face lower Non-AI Residual Capacity;
+- allocation assurance and bargaining power matter more;
+- lower-margin, lower-bargaining-power, shorter-duration buyers are more exposed to higher prices and lower quantities.
+
+The evidence does **not** disclose how many wafers Apple, Qualcomm, AMD, or Intel individually lost, and it does not support a "100% capacity capture" claim.
 
 ## 5. PCs face two simultaneous channels: memory and GPU / system pricing
 
@@ -182,3 +213,7 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 - Counterpoint Research 2026-02-11 — broadband memory prices ~7×; router memory BOM >20% vs ~3%: https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
 - TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
 - Seagate FY26 results — AI/cloud data generation supports mass-capacity HDD demand: https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
+- Counterpoint 2026-07-28 — H1 smartphone SoC shipments -15% YoY; MediaTek/Qualcomm >25% decline; memory prices >300% YoY; GenAI SoCs +24%: https://counterpointresearch.com/en/insights/global-smartphone-soc-shipments-fall-15percent-yoy-in-h12026
+- TrendForce 2026-04-30 — AI supply-chain arms race; 3nm–2nm and advanced-packaging bottlenecks; NVIDIA pre-secured large volumes of critical resources: https://www.trendforce.com/presscenter/news/20260430-13028.html
+- TrendForce 2026-06-08 — TSMC 3nm capacity remains severely constrained: https://www.trendforce.com/research/download/RP260608SX3
+- TrendForce 2026-06-30 — foundries dedicate more wafer capacity to AI-related products, altering mature-node supply-demand balance: https://www.trendforce.com/presscenter/news/20260630-13127.html
