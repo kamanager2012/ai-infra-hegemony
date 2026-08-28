@@ -1,7 +1,7 @@
 # The Age of AI Infrastructure Hegemony
 ### AI基础设施霸权时代
 
-**Research corpus: 40 stable volume modules + 8 macro essays. Publication edition: four parts / ~32 integrated chapters.**
+**Research corpus: 40 stable volume modules + 8 macro essays. The Chinese publication layer now has a complete first integrated pass: four parts / 32 chapters.**
 
 > **English release landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
 
@@ -49,7 +49,7 @@ For this repository, an already-observed historical claim may enter **F — Fact
 11. [Publication Architecture — four parts / ~32 chapters](en/PUBLICATION_STRUCTURE.md)
 12. [X / social launch drafts](en/SHARE.md)
 
-All **40 English volume modules + 8 English macro essays** have completed a repository-wide evidence and text QA pass. They remain the stable research layer while the publication layer is being reorganized into a continuous four-part edition. High-risk legacy translations were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression. The current English corpus passes the targeted publication checks for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns. The English edition follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` corpus remains the source of truth for resolving bilingual discrepancies.
+The Chinese **Publication Layer now contains all 32 integrated chapters** (Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6). This means the first continuous restructuring and deduplication pass exists; it does **not** mean final publication QA is fully green. The **40 English volume modules + 8 English macro essays** remain the stable English research layer while chapter-level English publication synchronization is still pending. High-risk legacy translations were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression. The current English corpus passes the targeted publication checks for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns. The English edition follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` corpus remains the source of truth for resolving bilingual discrepancies.
 
 ## Research method
 
