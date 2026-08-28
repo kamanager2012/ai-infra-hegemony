@@ -35,7 +35,7 @@ This report therefore does not treat the size of a possible fine as the central 
 
 ## 3. The 10% turnover ceiling is not a future-fine model
 
-Article 23(2) of EU Regulation (EC) No 1/2003 provides that certain fines shall not exceed **10% of the undertaking's total turnover in the preceding business year**.
+Article 23(2) of EU Regulation (EC) No 1/2003 provides that certain fines shall not exceed **10% of the undertaking's total turnover in the preceding business year**.[^1]
 
 This is a statutory ceiling.
 
@@ -49,7 +49,7 @@ The 10% figure therefore indicates the strength of the legal tool. It does not e
 
 ## 4. Regulatory procedure must be read stage by stage
 
-The EU's Article 102 procedure provides a useful state machine:
+The EU's Article 102 procedure provides a useful state machine:[^2]
 
 1. complaint / ex officio investigation;
 2. request for information;
@@ -66,7 +66,7 @@ An RFI, market inquiry, or news report cannot be rewritten as "the regulator has
 
 The European Commission continued a DMA cloud-computing market investigation in 2026.
 
-Public roundtables explicitly addressed cloud-service interoperability, financial conditions, and contractual conditions; the final report is planned for **May 2027**.
+Public roundtables explicitly addressed cloud-service interoperability, financial conditions, and contractual conditions; the final report is planned for **May 2027**.[^3]
 
 Regulatory attention is therefore moving beyond price toward technical interoperability, contract terms, and switching conditions.
 
@@ -132,12 +132,17 @@ The two can influence strategic bargaining and policy, but they are not substitu
 
 ## 10. How regulation changes S1–S4
 
+**Table 18.1 — How regulatory variables map into S1–S4**
+
 | Scenario | Role of regulatory variables |
 |---|---|
 | S1 Competitive Expansion | interface openness, interoperability, and tying limits materially reduce switching costs |
 | S2 Baseline Concentration | investigations and rules persist while system structure remains broadly intact |
 | S3 Resource Hegemony | remedies are insufficient to reduce multi-layer switching costs / scarcity |
 | S4 Capital Hard Landing | utilization / capital clearing dominates; regulation influences post-clearing market structure |
+
+**Source:** Report scenario framework; EU competition and DMA procedures as regulatory-mechanism background.[^2][^3]  
+**Note:** The table maps mechanisms. It does not imply a final infringement finding or remedy against any specific AI platform.
 
 Regulation is therefore not a one-direction "negative for the platform" variable.
 
@@ -160,9 +165,8 @@ The events that need continuous monitoring are:
 
 Only these formal events are strong enough to change system-stack scenario weighting.
 
-## Key public sources
+## References
 
-- EUR-Lex — Regulation (EC) No 1/2003, Article 23(2): https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
-- European Commission — Article 102 investigation procedure: https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
-- European Commission / DMA — 2026 cloud-computing market-investigation roundtables; final report due May 2027: https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
-- European Commission — Competition Policy portal / formal case search: https://competition-policy.ec.europa.eu/index_en
+[^1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
+[^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
+[^3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
