@@ -46,6 +46,11 @@ Stargate's public ambition is to build very large-scale AI infrastructure in the
 
 By October 2025, OpenAI disclosed **more than 8 GW of planned capacity** and **more than US$450B of planned investment over the next three years**. In June 2026, the **1 GW** Michigan Stargate campus broke ground.
 
+Primary sources:
+- Stargate initial US$500B four-year plan: https://openai.com/index/announcing-the-stargate-project/
+- OpenAI infrastructure update: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+- Michigan 1 GW campus: https://openai.com/index/stargate-michigan-data-center/
+
 The strategic significance is:
 
 > **model demand is being translated directly into land, power, chips, and data-center construction.**
@@ -71,6 +76,8 @@ Public materials provide unusually concrete anchors, including:
 - large-scale Trainium deployment;
 - public use of more than **1M Trainium2 chips**;
 - a path toward roughly **1 GW** of Trainium2/3 capacity by the end of 2026.
+
+Source: https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 
 This matters because an Anchor Buyer can do more than support cloud expansion.
 
