@@ -1,7 +1,5 @@
 # Part III · 第20章：Value Capture Map——资金流、利润池与风险承担
 
-> **出版层章节。** 由研究模块 [vol-14](../vol-14.md) 与 [vol-21](../vol-21.md) 重编。本章不估算一个“全球 AI 利润池总额”，也不把不同公司的收入、CapEx 和上游收入重复相加。核心问题是：**同一笔资本经过系统平台、制造、memory、cloud、power 与 application 后，价值最终停在哪里，风险又留在哪里。**
-
 ## 1. 同一美元不能在产业链上重复计算
 
 AI infrastructure 的同一笔支出可能同时出现在：
