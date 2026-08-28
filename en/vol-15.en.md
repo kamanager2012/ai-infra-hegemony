@@ -216,3 +216,7 @@ Which end state ultimately dominates depends on which constraints and substituti
 2036 is therefore not the “answer” to this report.
 
 It is a long-range test of whether the mechanisms visible in 2026 continue to hold.
+
+## Key public sources for this volume
+
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
