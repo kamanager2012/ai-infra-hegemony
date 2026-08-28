@@ -1,7 +1,5 @@
 # Part III · Chapter 23: AI-Infrastructure Capital Markets and Financing Structure
 
-> **Publication-layer chapter.** Based primarily on [Volume 36](../vol-36.en.md). This chapter does not discuss technology-stock valuation. It examines how AI compute is moving from corporate CapEx into an asset class financed by private capital, infrastructure capital, and sovereign capital—and who ultimately bears utilization and residual-value risk.
-
 ## 1. The AI capital market now spans multiple asset classes
 
 AI-infrastructure capital is no longer limited to listed technology equity.
