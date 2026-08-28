@@ -50,7 +50,7 @@ AMD 与 NVIDIA 会竞争相同的：
 
 反过来，如果 packaging/HBM supply 扩大，AMD 的 system expansion 更容易加速。
 
-因此，AMD 是最典型的 **Non-leading-buyer residual capacity** 观察对象之一。
+因此，AMD 是观察 **Non-AI Residual Capacity / non-anchor-buyer access** 的重要对象之一；这里不再新造与总判不一致的“Non-leading-buyer residual capacity”术语。
 
 ## 4. Intel：product company 与 foundry 的双重路线
 
@@ -122,7 +122,7 @@ Apple 不是 frontier training system vendor，但它可以决定：
 
 ## 7. Apple 也是强势先进制程买方
 
-Apple 长期是 leading-edge process 的重要客户。
+Apple 长期使用 leading-edge process，但本卷不在缺乏一手客户份额/排序披露时把它升级为特定年份的“重要客户排名”事实。
 
 因此，AI/HPC demand 增长不会让 smartphone advanced logic 自动消失。
 
@@ -153,7 +153,7 @@ Intel 如果 foundry 与 accelerator 同时恢复，会提高 supply diversity�
 
 Qualcomm/Apple 如果显著扩大 on-device inference，会降低部分 cloud demand。
 
-四家公司产生的影响方向不同，但都可能推动 S2 向 S1 Competitive Expansion 移动。
+四家公司产生的影响方向不同；如果这些替代与 edge-demand 变量持续增强，它们会**提高 S1 Competitive Expansion 相对于 S2 Baseline Concentration 的权重**。S1 与 S2 是并列条件情景，不写成必然连续轨迹。
 
 ## 10. 当前判断
 
