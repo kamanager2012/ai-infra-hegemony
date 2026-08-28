@@ -193,7 +193,7 @@ Industrial policy therefore has to become system policy.
 
 ## 9. States: power policy is now part of semiconductor policy
 
-120 kW-class racks and 100 MW/GW-class campuses make power a component of compute policy.
+Roughly **120 kW-class rack** power, together with separately sourced project/contract paths such as the 835 MW restart PPA, the revised PPA **up to 1.92 GW**, and the Google/Kairos fleet **up to 500 MWe by 2035**, makes power a component of compute policy. Project capacity must not be relabeled as live AI load.
 
 A coherent industrial policy therefore has to connect:
 
