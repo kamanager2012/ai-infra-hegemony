@@ -21,8 +21,10 @@ This checklist separates research completion from publication operations. A chec
 - [x] Targeted regression is clear for legacy workpaper phrasing, stale FY27 Q2 outlook framing, fixed 40/30/15/15 scenario weights, malformed unit capitalization, hidden control characters, and known bad Chinese-source link patterns.
 - [x] Seven-way read-only fact audit findings were reconciled against public sources and current `main`: TSMC customer-series logic, smartphone share/growth scope, TrendForce 51% forecast status, rack-power scope, Gaming supply wording, packaging wording, rack power, four-cloud guidance timing, and English omissions were corrected.
 - [x] NVIDIA manufacturing, supply, and capacity commitments are updated through FY27 Q2: **US$95.2B → US$119B → US$279B**, with the Q2 SEC source and supplier-allocation boundary preserved.
-- [x] High-impact direct-source coverage regression passed for the audited Chinese source-of-truth set: **21/21** files have direct public links for the relevant NVIDIA FY27 Q2 / TrendForce 51% / Micron 3× / DeepSeek 2.788M anchors.
-- [x] Equivalent English high-impact direct-source coverage regression passed: **24/24** audited files returned no missing direct-source anchor.
+- [x] Repository-wide high-risk required-source regression passed for the Chinese research layer: **48/48** files (40 volumes + 8 macro essays) returned no missing required source anchor after remediation.
+- [x] Equivalent English high-risk required-source regression passed: **48/48** files returned no missing required source anchor.
+- [x] Deterministic CI gate added at `scripts/check-required-sources.py` and wired into `.github/workflows/links.yml`; the combined gate covers **96/96** research files.
+- [x] Machine-readable high-risk claim ledgers exist for both languages with **32 verified records each**, identical `bilingual_id` sets, no duplicate claim IDs, and all referenced English research files present.
 - [x] Central stale-scope regression is clear for the known 9622.1 conversion error, current-only US$119B wording, outdated four-cloud guidance, 51% forecast-as-actual wording, and stale 100 kW rack framing.
 - [ ] Complete a full line-by-line public-source audit of **every historical numeric claim across all 40 volumes + 8 macro essays**. The targeted high-impact audit above is complete; this broader claim-by-claim audit remains a separate gate if required before public release.
 
@@ -115,7 +117,8 @@ The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc43
 - [x] P1 metadata correction: research retrieval/revision cutoff normalized to 2026-08-28 across the identified English research headers and release metadata.
 - [x] Reproducibility foundation: versioned D-grade model inputs and one-command recomputation script added.
 - [x] Claim-audit foundation: machine-readable claim-ledger schema and deterministic numeric-claim candidate extractor added.
-- [ ] Complete the full claim-by-claim source audit for every required historical numeric Fact in the 40-volume + 8-essay corpus and publication layer.
+- [x] High-risk research-claim source coverage: bilingual 48 + 48 required-source regression passed; 32 + 32 verified high-risk ledger records committed.
+- [ ] Complete the **every-number** claim-by-claim source audit for all remaining historical numeric Facts beyond the deterministic high-risk rule set, including lower-risk figures that do not trigger the current source-regression patterns.
 - [ ] Obtain a green relative-link CI run after GitHub Actions becomes diagnosable; current Actions runs fail before exposing normal step/log detail.
 - [ ] Obtain green bilingual PDF/EPUB build and proof QA; the first Publication Build run failed before normal step/log detail was exposed.
 - [ ] Complete final critical external-link sweep / archival fallback policy.
@@ -135,5 +138,6 @@ The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc43
 - [x] Restore missing English evidence: consumer-memory price moves, TSMC Customer A/B series, and English public-source ledger section.
 - [x] Mark social-release URLs as non-public while the repository remains private.
 - [x] Add direct public-source links to the most heavily reused NVIDIA / TSMC / Micron / TrendForce / DeepSeek / power anchors in core volumes and master judgments.
-- [ ] Complete a repository-wide per-chapter source-link coverage sweep for all remaining historical claims before public release.
+- [x] Complete repository-wide **high-risk** per-chapter source-link coverage sweep: Chinese **48/48**, English **48/48**, enforced by CI.
+- [ ] Complete the broader **every-number historical-Fact** audit for lower-risk numeric claims not covered by the high-risk source-pattern gate before public release.
 
