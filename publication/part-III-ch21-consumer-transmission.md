@@ -110,7 +110,7 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 渠道现货可以证明消费者/装机市场在某时点承受压力，但不能反推出 vendor contract ASP 或 long-duration agreements。
 
-所以 publication layer 以 TrendForce contract-price research、vendor filings 与 company commentary 为主，不用渠道口述建立核心结论。
+所以本报告以 TrendForce contract-price research、vendor filings 与 company commentary 为主要证据，不用渠道口述建立核心结论。
 
 ## 8. China Consumer Supply 可以缓冲本地压力，但不等于 HBM Closure
 
