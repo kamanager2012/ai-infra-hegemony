@@ -16,6 +16,7 @@
 | Part II | [第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md) | 已完成第一版连续重编 | vol-12 + vol-29 + macro-08 |
 | Part III | [第20章：Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md) | 已完成第一版连续重编 | vol-14 + vol-21 |
 | Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已完成第一版连续重编 | vol-37 + macro-07 |
+| Part IV | [第31章：2036 终局与战略选择](part-IV-ch31-strategy-endgame.md) | 已完成第一版连续重编 | vol-15 + vol-20 + vol-40 |
 
 ## 出版层编辑标准
 
