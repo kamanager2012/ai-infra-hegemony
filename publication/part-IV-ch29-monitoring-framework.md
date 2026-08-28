@@ -46,6 +46,8 @@ US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue�
 
 ### TSMC 2025
 
+以下基线来自 TSMC 2025 Annual Report。[^3]
+
 - 12-inch-equivalent wafer shipments：~15.0M；
 - annual capacity：>17M；
 - 3 nm / 5 nm / 7 nm wafer revenue：24% / 36% / 14%；
@@ -68,15 +70,15 @@ TSMC 未披露 customer-level CoWoS allocation。
 
 ### A-grade manufacturing anchor
 
-Micron：HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**；FY25 10-K 进一步确认 HBM 需要更多 wafers / cleanroom space。
+Micron：HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**；FY25 10-K 进一步确认 HBM 需要更多 wafers / cleanroom space。[^5]
 
 ### B-grade forward structure
 
-TrendForce：**2026E HBM + RDIMM ≈51% of DRAM bit supply**。
+TrendForce：**2026E HBM + RDIMM ≈51% of DRAM bit supply**。[^4]
 
 ### Vendor economics
 
-SK hynix FY25：Revenue KRW97.1467T、Operating profit KRW47.2063T、Operating margin 49%、Net income KRW42.9479T；HBM revenue more than doubled YoY。
+SK hynix FY25：Revenue KRW97.1467T、Operating profit KRW47.2063T、Operating margin 49%、Net income KRW42.9479T；HBM revenue more than doubled YoY。[^6]
 
 这组指标用于判断 HBM product mix 是否继续吸收 DRAM manufacturing input，以及 conventional DRAM residual capacity 是否松动。
 
