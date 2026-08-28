@@ -59,7 +59,7 @@ NVIDIA 的平台控制力可以分成四层。
 
 GPU 仍然是核心计算单元，但产品形态已经从 accelerator card 上移到 integrated system。
 
-FY26 Data Center revenue 为 **$193.737B**，其中 compute 与 networking 都已经构成重要收入来源。
+FY26 Data Center revenue 为 **US$193.737B**，其中 compute 与 networking 都已经构成重要收入来源。
 
 ### 3.2 Interconnect
 
@@ -98,14 +98,14 @@ NVIDIA 的资源预订能力可由以下财务指标观察：
 
 | 指标 | 数值 |
 |---|---:|
-| FY26 Free cash flow | **$96.575B** |
-| FY26 Operating income | **$130.387B** |
-| FY27 Q2 Revenue | **$96.221B** |
-| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY26 non-GAAP free cash flow（NVIDIA 定义） | **US$96.575B** |
+| FY26 Operating income | **US$130.387B** |
+| FY27 Q2 Revenue | **US$96.221B** |
+| FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP gross margin | **75.0%** |
-| FY27 Q2 GAAP operating income | **$63.734B** |
+| FY27 Q2 GAAP operating income | **US$63.734B** |
 
-FY27 Q1 supply-related commitments 已上升至 **$119.0B**。
+截至 2026-04-26，manufacturing, supply, and capacity commitments 已上升至 **US$119B**。
 
 这些数字说明，平台利润可以被重新投入到下一代：
 
