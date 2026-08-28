@@ -98,7 +98,7 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 
 ### 5.1 PC / gaming
 
-NVIDIA 官方曾披露 gaming GPU supply constraints。消费 GPU 与 Data Center 产品会共享部分先进逻辑、memory 和供应链资源，因此 PC/gaming 是较早感受到 allocation pressure 的消费市场之一。
+NVIDIA FY26 10-K 的可核表述是：FY26 Gaming revenue 同比增长 **41%**，同时公司预计 **supply constraints will be a headwind to Gaming in FY27 Q1 and beyond**。这支持消费 GPU 侧存在供应约束，但不能把约束原因直接写成“Data Center 抢走了 Gaming 配额”。消费 GPU 与 Data Center 产品确实共享部分先进逻辑、memory 与供应链资源，因此 PC/gaming 可作为 residual-capacity pressure 的观察市场。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm 。
 
 ### 5.2 General server
 
