@@ -10,7 +10,7 @@ This explains an apparently contradictory state: foundry logic-wafer capacity ca
 
 ## 2. TSMC has confirmed tightness, but year-specific disclosure labels must remain separate
 
-TSMC's public statements are sufficient to establish advanced-packaging tightness:
+TSMC's public statements are sufficient to establish advanced-packaging tightness:[^1][^2]
 
 - 4Q24: management described relevant capacity as **very tight** and unable to satisfy all customer demand;
 - 2Q26: management stated more directly that packaging capacity was **so tight that now it limits my customers' growth**.
@@ -20,7 +20,7 @@ Revenue disclosures must retain their original year-specific labels:
 - 4Q24 transcript: **advanced packaging and testing >8% of revenue**;
 - 4Q25 transcript, using the company's corrected wording: **advanced packaging slightly over 10% of 2025 revenue**.
 
-These labels are not perfectly identical. The publication layer therefore does **not** treat >8% → >10% as a strict same-denominator time series, nor does it rewrite the 2025 "advanced packaging" figure back into "advanced packaging + testing."
+These labels are not perfectly identical. This report therefore does **not** treat >8% → >10% as a strict same-denominator time series, nor does it rewrite the 2025 "advanced packaging" figure back into "advanced packaging + testing."
 
 ## 3. CoWoS tightness is A-grade fact; customer allocation is not disclosed
 
@@ -37,7 +37,7 @@ Annual customer revenue share, wafer revenue share, and CoWoS customer share are
 
 ## 4. NVIDIA >60% of CoWoS demand is a B-grade institutional anchor
 
-TrendForce's research on 2025 CoWoS demand identifies NVIDIA as the largest demand customer and estimates its demand share at **more than 60%**.
+TrendForce's research on 2025 CoWoS demand identifies NVIDIA as the largest demand customer and estimates its demand share at **more than 60%**.[^3]
 
 The evidence grade must remain **B — institutional estimate**. The figure is useful for analyzing demand concentration and designing stress tests, but it cannot be rewritten as:
 
@@ -51,7 +51,7 @@ The correct use is: **highly concentrated demand has a real institutional anchor
 
 This report uses an order-of-magnitude geometry model:
 
-72 GPU packages ÷ approximately 13.4 packages/wafer ≈ **5.37 CoWoS wafers/rack**.
+72 GPU packages ÷ approximately 13.4 packages/wafer ≈ **5.37 CoWoS wafers/rack**. The 72-GPU input comes from NVIDIA's official NVL72 specification.[^4]
 
 The inputs are:
 
@@ -91,12 +91,17 @@ If incremental packaging capacity is C and one platform captures a share s, the 
 
 > **Residual = (1 − s) × C**
 
+**Table 6.1 — Residual sensitivity under incremental packaging-capacity capture**
+
 | Assumed capture rate | Residual for other buyers |
 |---:|---:|
 | 50% | 50% |
 | 60% | 40% |
 | 70% | 30% |
 | 80% | 20% |
+
+**Source:** Report D-grade scenario model.  
+**Note:** Capture rates are not current TSMC customer-allocation facts; they are sensitivity inputs for studying concentration of incremental resources.
 
 These 50/60/70/80% values are **D-grade scenario levels**, not TSMC's current customer allocation.
 
@@ -115,7 +120,7 @@ More custom silicon does not automatically mean lower CoWoS/HBM pressure.
 
 ## 10. Bottleneck location is not the same as profit location
 
-Advanced packaging can be the system-delivery bottleneck without having the highest margin in the value chain. TSMC management stated in 2Q24 that advanced-packaging gross margin had historically been significantly below corporate average and was approaching, but had not yet reached, the company average.
+Advanced packaging can be the system-delivery bottleneck without having the highest margin in the value chain. TSMC management stated in 2Q24 that advanced-packaging gross margin had historically been significantly below corporate average and was approaching, but had not yet reached, the company average.[^5]
 
 Physical bottlenecks and profit pools therefore have to remain separate:
 
@@ -144,11 +149,10 @@ As of August 2026, the most defensible conclusions are:
 
 The judgment that advanced packaging is a core scarce layer should be weakened if TSMC stops describing packaging as a growth constraint, lead times fall materially, customer-level allocation becomes more distributed, and HBM/packaging supply elasticity continues to improve.
 
-## Key public sources
+## References
 
-- TSMC 4Q24 Transcript — advanced packaging and testing >8%; capacity very tight: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
-- TSMC 4Q25 Transcript — 2025 advanced packaging slightly over 10%, company-corrected wording: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
-- TSMC 2Q26 Earnings Conference Transcript — packaging capacity limits customers' growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
-- TSMC 2Q24 Transcript — advanced-packaging margin relative to corporate average: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
-- TrendForce, 2025 CoWoS demand structure — NVIDIA estimated >60%: https://www.trendforce.com/research/download/RP250314ZJ
-- NVIDIA GB200 NVL72 product page — 72 Blackwell GPUs/rack: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^1]: TSMC, 4Q24 Earnings Conference Transcript, advanced packaging and testing >8% of revenue; capacity “very tight,” https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+[^2]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^3]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^4]: NVIDIA, “GB200 NVL72,” official product page, 72 Blackwell GPUs per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^5]: TSMC, 2Q24 Earnings Conference Transcript, advanced-packaging margin relative to corporate average, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
