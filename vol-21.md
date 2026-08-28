@@ -62,7 +62,7 @@ TSMC 收入来自：
 
 - gross margin：**59.9%**
 - HPC platform：**58% of revenue**
-- advanced packaging：略高于 **10%**（不得扩写为 packaging + testing）
+- 2025 advanced packaging：略高于 **10%**（4Q25 transcript 公司会后更正口径；2024 的 >8% 则是 distinct “advanced packaging and testing” 标签）
 
 TSMC 在系统中承担重资产制造，因此其资本强度与 NVIDIA 完全不同。
 
@@ -258,3 +258,5 @@ AI infrastructure 当前最强的利润池集中在：
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report（Customer A/B）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
