@@ -53,6 +53,8 @@ SK hynix reported for FY25:
 - net income: **KRW 42.9479T**;
 - HBM revenue: more than doubled year over year.
 
+Public source: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+
 These figures show that HBM demand is changing not only product mix but also the profitability structure of the memory industry.
 
 At the same time, SK hynix continued to describe strong demand for conventional server memory.
