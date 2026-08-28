@@ -186,3 +186,7 @@ Micron 的 HBM3E ~3× wafer-supply trade ratio 表明，memory scaling 并不是
 真正决定终局的，是这些力量谁先跨过临界点。
 
 因此，2036 年不是本报告的“答案”，而是检验当前机制是否持续成立的远期截面。
+
+## 本卷关键公开来源
+
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
