@@ -102,7 +102,32 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 如果这些变量与 buyer utilization、市场清算价格一起转弱，资本硬着陆的证据强度会明显上升。
 
-## 7. 清算顺序具有资产久期
+## 7. Demand Quality：必须区分 Organic Workload 与 Supplier-Assisted Financing
+
+当 system seller 同时参与客户 equity investment、credit enhancement、LPS support 或 infrastructure financing 时，seller-side order visibility 不能完全等同于独立终端需求强度。
+
+NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500B third-party capital mobilization，另一方面在 PORTS-Pike 提供 LPS credit support，并在 FY27 Q2 earnings call 中披露对 frontier AI labs 的大规模投资与 selective credit enhancement。[^5][^6][^7]
+
+这并不证明需求是“虚假的”。
+
+真正需要追踪的是：
+
+> **最终 workload monetization 是否能够在没有不断提高 supplier balance-sheet support 的情况下，持续覆盖 infrastructure cash cost 与 capital cost。**
+
+因此，S4 监测应增加一组 demand-quality variables：
+
+- customer operating cash flow / financing capacity；
+- supplier equity / credit support 占基础设施融资的比重；
+- third-party capital 是否承担独立风险；
+- compute 是否具有真实跨客户可转移性；
+- anchor workload 是否持续增长；
+- refinancing 是否依赖更强的新一轮 support。
+
+如果 utilization 与 monetization 健康，supplier-assisted financing 可以只是加速资本形成。
+
+如果 utilization 走弱，同时 supplier support 比重不断上升，则 forward commitments 的信号质量应下调。
+
+## 8. 清算顺序具有资产久期
 
 短周期资产先清算，长周期资产后清算。典型顺序更接近：
 
@@ -110,7 +135,7 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 因此，S4 可能持续多年，而不是一个季度完成。电厂、变电设施和数据中心壳体不会像 GPU 库存一样快速消失，它们可能降价、换主人、重谈合同，或者在下一轮集中化中重新成为稀缺资产。
 
-## 8. 什么才叫 S4 Capital Hard Landing
+## 9. 什么才叫 S4 Capital Hard Landing
 
 本报告只有在以下四类变量出现同步恶化时，才把 S4 从压力测试上调为现实主情景：
 
@@ -121,7 +146,7 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 股价下跌、模型价格下降、某一季毛利波动或一个历史压力测试不满足，都不足以单独证明 S4。
 
-## 9. 当前判断
+## 10. 当前判断
 
 截至 2026 年 8 月，公开事实更接近：
 
@@ -137,3 +162,6 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 [^2]: NVIDIA Corporation, FY27 Q1 Form 10-Q, GAAP gross margin 74.9%, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
 [^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, land-power-shell credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^7]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
