@@ -83,7 +83,7 @@ TSMC 管理层已经多次明确描述 advanced packaging tightness。
 2026 Q2：
 > packaging capacity is so tight that now it limits my customers' growth
 
-这两句比任何“月产 13 万片”“某客户独占 60%”的供应链数字更重要，因为它们属于 TSMC 自己的经营披露。
+这两句比任何**例如“月产 13 万片”“某客户独占 60%”这类未经一手披露验证的供应链数字**更重要，因为它们属于 TSMC 自己的经营披露。
 
 TSMC 并未公开 CoWoS customer split。
 
@@ -97,7 +97,7 @@ TrendForce 对 NVIDIA 占 2025 CoWoS demand 超过 60% 的估计，应作为 **B
 
 它不能用于：
 
-- 除 TSMC 全年约 15M wafer shipments；
+- 作为**错误外推反例**，拿 TSMC 全年约 15M wafer shipments 作分母；该 15M shipment 基线来自 TSMC 2025 Annual Report：https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - 推导 Blackwell 实际出货；
 - 推导 CoWoS yield；
 - 推导客户实际 allocation。
