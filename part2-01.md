@@ -34,7 +34,7 @@ TSMC 已在一手逐字稿中多次描述 advanced-packaging capacity tight，20
 
 ### 2.5 资本与长期承诺正在提前锁定未来资源
 
-NVIDIA manufacturing, supply, and capacity commitments 已由 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**；hyperscaler 与 model company 也通过长期 data-center / power / compute commitments 提前塑造未来供给。公开文件并未把这些承诺拆成单一供应商份额，因此只能作为整体 forward commitment 与资源预订强度的锚。
+NVIDIA manufacturing, supply, and capacity commitments 已由 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**；hyperscaler 与 model company 也通过长期 data-center / power / compute commitments 提前塑造未来供给。公开文件并未把这些承诺拆成单一供应商份额，因此只能作为整体 forward commitment 与资源预订强度的锚。 来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 ## 3. 宏观分析必须同时看五个计量轴
 
