@@ -78,6 +78,34 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 因此，seller-assisted financing 既可能加速供给形成，也可能提高 system-platform、anchor buyer 与 infrastructure developer 之间的风险耦合。
 
+### 6.1 Supplier-Assisted Demand 与 Financing Reflexivity 必须单独观察
+
+NVIDIA 在 2026-08-26 FY27 Q2 earnings call 中进一步披露，公司已向 frontier AI labs 投资接近 **US$50B**，并表示还会对另一家 frontier lab 提供接近 **2 GW compute** 的 selective credit enhancement。[^5]
+
+这些属于 NVIDIA management commentary，应保留其公司披露身份。
+
+它们说明一个新的资本机制正在形成：
+
+> **platform cash generation → equity / credit support → infrastructure financing improves → anchor customer capacity expands → platform system demand expands**
+
+这条链条可以真实加速基础设施形成，因为其中仍然存在长期客户、独立基础设施开发商和外部资本。
+
+但它也会产生 **financing reflexivity**：
+
+- seller revenue 与 seller-supported customer expansion 的相关性提高；
+- end-demand signal 与 financing support 更难完全分开；
+- customer concentration risk 增强；
+- 如果 monetization 不足，信用支持和资产风险可能沿链条反向传导。
+
+因此，评估 AI infrastructure demand quality 时，应区分：
+
+1. **independently financed end demand**；
+2. **long-duration customer commitments**；
+3. **third-party infrastructure finance**；
+4. **supplier equity / credit enhancement**。
+
+这四类需求都可能真实，但其风险承担结构不同。
+
 ---
 
 ## 7. Compute 为什么能被包装成 Infrastructure Asset
@@ -156,3 +184,4 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^3]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^4]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, credit support, US$1.5B SB Energy investment, initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^5]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investments and selective credit enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
