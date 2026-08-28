@@ -19,6 +19,16 @@
 - Replaced the legacy Micron `static-files` URL, which now redirects away from the document, with the direct official Q4CDN PDF deep link.
 - Propagated the correction through the Chinese research layer, English research mirrors, core evidence ledgers/reference indexes, top-level READMEs, and affected publication chapters.
 
+### Research numeric-claim closeout
+
+- Completed a repository-wide **high-risk required-source regression** across the research layer: **48/48 Chinese files + 48/48 English files = 96/96 PASS** after remediation.
+- Added `scripts/check-required-sources.py` and wired it into the `links` GitHub Actions workflow so future source regressions fail CI.
+- Added bilingual machine-readable high-risk claim ledgers with **32 verified records per language** and aligned `bilingual_id` values.
+- Verified ledger integrity: no duplicate claim IDs, 32/32 bilingual IDs aligned, and all referenced English research files present.
+- Reclassified legacy large-number CoWoS/CapEx stress calculations in macro essays 3/4 as **RETIRED C/D-grade research history**, explicitly excluded from the Fact layer and Publication Layer unless rebound to current evidence.
+- Corrected several research-layer source-chain gaps discovered by the full 96-file sweep, including TSMC 2Q26 packaging, TrendForce CoWoS >60%, NVIDIA FY26 seller economics, Crane/Talen/Kairos project sources, and Alphabet full-year CapEx guidance identity.
+- The remaining numeric-content gate is narrower: a literal **every-number historical-Fact audit** for lower-risk numeric claims not covered by the deterministic high-risk pattern set.
+
 ### Publication evidence-chain cleanup
 
 - Added first-party source blocks to the NVIDIA AI Factory, Physical AI, and differentiated-competitor publication chapters.
