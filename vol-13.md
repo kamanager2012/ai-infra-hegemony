@@ -110,6 +110,12 @@ Google 与 Kairos 的开发协议目标合计最高约 **500 MW**。
 
 > **powered site / grid / firm MW**。
 
+### 本卷关键公开来源
+- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
+
 ## 7. 电力如何打断 semiconductor expansion
 
 如果 semiconductor supply 持续增加，但 data center 无法按时上电，则会出现：
