@@ -8,7 +8,7 @@
 
 - Chinese Publication Layer now contains **32/32 integrated chapters** across four parts: Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6.
 - English Publication Layer now also contains **32/32 synchronized publication chapters** across the same four-part architecture.
-- English chapter generation is complete; remaining work is publication QA, evidence-link regression, bilingual consistency checks, and export/layout validation.
+- English chapter generation is complete. Markdown/citation QA, bilingual structure/high-risk numeric regression, strict every-number source coverage, critical-link sweep, and current Publication Layer rights/quotation audit are complete; remaining work is verified PDF/EPUB build + proof, final human/semantic sign-off, author COI confirmation, and release operations.
 - `publication/README.md` and `出版结构.md` each resolve to **32 unique publication-chapter links**.
 - The 32-chapter first integration pass is complete; this is **not** a declaration that final publication QA is fully green. Evidence-chain, dead-link, source-depth, bilingual synchronization, and whole-book consistency checks continue.
 
@@ -27,7 +27,7 @@
 - Verified ledger integrity: no duplicate claim IDs, 32/32 bilingual IDs aligned, and all referenced English research files present.
 - Reclassified legacy large-number CoWoS/CapEx stress calculations in macro essays 3/4 as **RETIRED C/D-grade research history**, explicitly excluded from the Fact layer and Publication Layer unless rebound to current evidence.
 - Corrected several research-layer source-chain gaps discovered by the full 96-file sweep, including TSMC 2Q26 packaging, TrendForce CoWoS >60%, NVIDIA FY26 seller economics, Crane/Talen/Kairos project sources, and Alphabet full-year CapEx guidance identity.
-- The remaining numeric-content gate is narrower: a literal **every-number historical-Fact audit** for lower-risk numeric claims not covered by the deterministic high-risk pattern set.
+- Strict **every-number source coverage** is now complete across the bilingual research layer (**96/96 files / 1,052 unit-bearing numeric candidates / 0 unresolved**) and the formal Publication Layer (**64/64 chapters / 529 candidates / 0 unresolved**). Remaining lower-risk work is semantic editorial sign-off where source meaning, denominator, or time-window still requires human judgment; structural source coverage is not presented as sentence-by-sentence external audit assurance.
 
 ### Publication evidence-chain cleanup
 
