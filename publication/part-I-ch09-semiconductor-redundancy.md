@@ -36,7 +36,7 @@ leading-edge manufacturing 依赖设备安装、备件、软件、process recipe
 
 即使两个地区都拥有厂房，如果供应商网络、工程人才、qualification cycle、tool service 与材料稳定性不同，effective capacity 也不会完全等价。
 
-因此，本书把 supply-chain independence 定义为 **system-level continuity**，而不是“地图上有一个 fab”。
+因此，本报告把 supply-chain independence 定义为 **system-level continuity**，而不是“地图上有一个 fab”。
 
 ### 3.1 Upstream Continuity：设备、软件、备件和服务本身就是独立约束
 
@@ -164,7 +164,7 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 ## 12. 什么才叫真正的 Supply-Chain Resilience
 
-本书不把“完全自主”设为唯一目标。更现实的指标是：
+本报告不把“完全自主”设为唯一目标。更现实的指标是：
 
 1. single-point failure 是否减少；
 2. critical layer 是否存在 qualified second source；
