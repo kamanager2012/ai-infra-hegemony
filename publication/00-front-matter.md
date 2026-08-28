@@ -5,7 +5,6 @@
 ### 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构
 
 **作者：** James（kamanager2012）  
-**正式发布日期：** 待最终 PDF/EPUB proof 与公开发布完成后锁定  
 **资料检索与修订截止：** 2026-08-28  
 **语言：** 中文主版 / English parallel edition
 
@@ -50,7 +49,7 @@
 
 ## 阅读导航
 
-- [正式目录](01-table-of-contents.md)
+- [报告目录](01-table-of-contents.md)
 - [表格目录](02-list-of-tables.md)
 - [缩写与核心术语表](03-abbreviations-and-glossary.md)
 - [研究透明度、局限性与纠错机制](04-research-transparency.md)
