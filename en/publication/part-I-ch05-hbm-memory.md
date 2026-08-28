@@ -2,13 +2,13 @@
 
 ## 1. HBM has moved from a GPU component to a system-level resource
 
-In frontier AI systems, HBM affects model capacity, batching, context length, concurrency, communication patterns, and accelerator utilization. The official GB200 NVL72 configuration includes **13.4 TB of HBM3E per rack**, showing that once the purchasing unit moves to rack scale, memory demand also moves from "GB per GPU" to "PB per deployment."
+In frontier AI systems, HBM affects model capacity, batching, context length, concurrency, communication patterns, and accelerator utilization. The official GB200 NVL72 configuration includes **13.4 TB of HBM3E per rack**,[^1] showing that once the purchasing unit moves to rack scale, memory demand also moves from "GB per GPU" to "PB per deployment."
 
 HBM therefore affects more than the accelerator BOM. It propagates into DRAM wafer allocation, cleanroom space, advanced packaging, memory-vendor product mix, and the residual supply of conventional DRAM.
 
 ## 2. Micron's ~3× disclosure is the most important current first-party physical anchor
 
-Micron's FY24 Q2 prepared remarks provide a clear boundary: at the **same technology node and for the same number of bits**, HBM3E requires approximately **3× the wafer supply of DDR5**. Micron's FY25 10-K further confirms that producing the same number of HBM bits requires more wafers and cleanroom space.
+Micron's FY24 Q2 prepared remarks provide a clear boundary: at the **same technology node and for the same number of bits**, HBM3E requires approximately **3× the wafer supply of DDR5**.[^2] Micron's FY25 10-K further confirms that producing the same number of HBM bits requires more wafers and cleanroom space.[^3]
 
 This evidence supports the following conclusions:
 
@@ -20,7 +20,7 @@ It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an
 
 ## 3. 51% is a 2026E DRAM bit-supply forecast, not HBM actuals
 
-TrendForce **forecasts** that **HBM + RDIMM together will account for roughly 51% of 2026 DRAM bit supply**. This B-grade institutional forecast must retain three boundaries:
+TrendForce **forecasts** that **HBM + RDIMM together will account for roughly 51% of 2026 DRAM bit supply**.[^4] This B-grade institutional forecast must retain three boundaries:
 
 1. the 51% includes **HBM and RDIMM** and cannot be rewritten as "51% of DRAM is HBM";
 2. it is a **bit-supply** share, not a wafer share;
@@ -40,7 +40,7 @@ This is why the report uses **Non-AI Residual Capacity** as the central memory m
 
 ## 5. SK hynix FY25 results show that HBM has changed product economics
 
-SK hynix reported FY25 revenue of **KRW97.1467T**, operating profit of **KRW47.2063T**, operating margin of **49%**, and net income of **KRW42.9479T**, while stating that HBM revenue more than doubled year over year.
+SK hynix reported FY25 revenue of **KRW97.1467T**, operating profit of **KRW47.2063T**, operating margin of **49%**, and net income of **KRW42.9479T**, while stating that HBM revenue more than doubled year over year.[^5]
 
 These figures do not prove that HBM alone generated all profit, but they are sufficient to show that high-value memory product mix has materially improved memory-vendor economics. Conventional server memory remains important as well, reinforcing the point that HBM and DDR5/RDIMM are not fully isolated capital and manufacturing systems.
 
@@ -55,11 +55,23 @@ High-end HBM supply is concentrated primarily among SK hynix, Samsung, and Micro
 - generation timing;
 - high-volume manufacturing stability.
 
-Public first-party material is insufficient to construct a fully comparable and auditable three-vendor HBM market-share table. The publication layer therefore does not upgrade media or sell-side estimates into company-official share data.
+Public first-party material is insufficient to construct a fully comparable and auditable three-vendor HBM market-share table. This report therefore does not upgrade media or sell-side estimates into company-official share data.
+
+### 6.1 Price feedback: HBM resource pull is not infinitely one-directional
+
+Resource reallocation contains a price-feedback mechanism. TrendForce's June 2, 2026 model estimate found that after conventional DRAM prices rose sharply from the second half of 2025, **DDR5 64GB RDIMM per-wafer revenue exceeded HBM in 1Q26**; the same research estimated HBM profitability below that of DDR5 64GB RDIMM.[^6]
+
+This is B-grade institutional estimation, not product-level realized gross-margin disclosure from Samsung, SK hynix, or Micron. Its analytical value is the self-correcting mechanism it reveals:
+
+> HBM/AI demand rises → conventional-DRAM residual supply tightens → DDR5/RDIMM prices rise → conventional-DRAM per-wafer economics improve → the relative incentive for further HBM conversion declines → memory vendors rebalance product mix.
+
+AI Resource Gravity is therefore not an infinitely one-way pump. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
 
 ## 7. Rack-scale demand can support scenario arithmetic, not fake shipment estimates
 
 Using the GB200 NVL72 product specification of **13.4 TB HBM3E/rack**, we can run order-of-magnitude stress tests:
+
+**Table 5.1 — GB200 NVL72 rack count and HBM3E scenario demand**
 
 | Scenario rack count | HBM3E demand |
 |---:|---:|
@@ -67,6 +79,9 @@ Using the GB200 NVL72 product specification of **13.4 TB HBM3E/rack**, we can ru
 | 10,000 | 134 PB |
 | 30,000 | 402 PB |
 | 50,000 | 670 PB |
+
+**Source:** NVIDIA GB200 NVL72 official specification; report scenario arithmetic.[^1]  
+**Note:** Rack count is a D-grade assumption. The PB figures are not actual shipments or consumption.
 
 These are **D-grade scenario-demand calculations**. NVIDIA does not disclose annual rack shipments that can be multiplied directly by this specification, and memory vendors do not disclose customer-level annual HBM bits mapped one-for-one to these racks. Neither 50,000 racks nor 670 PB may therefore be presented as actual consumption.
 
@@ -110,10 +125,11 @@ The long-run claim is therefore not "HBM will always be scarce." It is:
 
 > **As long as frontier-system bandwidth demand grows faster than HBM supply elasticity and manufacturing input per bit remains materially above conventional DRAM, HBM will remain a core scarce layer of AI infrastructure.**
 
-## Key public sources
+## References
 
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- Micron FY25 10-K — HBM requires more wafers / cleanroom space: https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
-- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-- NVIDIA GB200 NVL72 product page — 13.4 TB HBM3E/rack: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^2]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^3]: Micron Technology, FY25 Form 10-K, HBM wafer and cleanroom requirements, U.S. SEC, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+[^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^6]: TrendForce, 2026-06-02, per-wafer revenue comparison for HBM and DDR5 64GB RDIMM, https://www.trendforce.com/presscenter/news/20260602-13074.html
