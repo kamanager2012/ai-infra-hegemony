@@ -2,7 +2,9 @@
 
 ## 1. The competitive unit has moved from the GPU to the system stack
 
-NVIDIA's most important current advantage is no longer the point performance of one GPU generation. It is the ability to organize accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system. The official GB200 NVL72 specification makes the shift in sales unit explicit:
+NVIDIA's most important current advantage is no longer the point performance of one GPU generation. It is the ability to organize accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system. The official GB200 NVL72 specification makes the shift in sales unit explicit:[^1]
+
+**Table 2.1 — GB200 NVL72 rack-scale system structure**
 
 | Layer | Official specification / structure |
 |---|---|
@@ -13,6 +15,9 @@ NVIDIA's most important current advantage is no longer the point performance of 
 | Scale-up domain | 72-GPU NVLink domain |
 | Rack | liquid-cooled rack-scale system |
 
+**Source:** NVIDIA GB200 NVL72 official product page.[^1]  
+**Note:** The table reports the official system specification; it does not represent shipment volume, utilization, or customer deployment scale.
+
 This changes how competition must be measured. In the add-in-card era, FLOPS, memory capacity, and card price could dominate the comparison. At rack scale, the comparison has to include memory hierarchy, scale-up/scale-out interconnect, compiler/runtime, distributed-training software, power/cooling, deployment tooling, and workload-migration cost.
 
 A cheaper ASIC die therefore does not automatically imply a cheaper production AI system.
@@ -21,7 +26,7 @@ A cheaper ASIC die therefore does not automatically imply a cheaper production A
 
 Frontier-model training is not limited by single-GPU compute alone. Tensor parallelism, pipeline parallelism, expert parallelism, and collective communication push performance toward bandwidth, topology, synchronization, and collective implementation.
 
-The strategic value of NVLink/NVSwitch is that scale-up communication is designed as a platform-internal capability. GB200 NVL72 organizes 72 GPUs inside one NVLink domain; NVIDIA's current product page reports **130 TB/s of aggregate NVLink bandwidth per rack**.
+The strategic value of NVLink/NVSwitch is that scale-up communication is designed as a platform-internal capability. GB200 NVL72 organizes 72 GPUs inside one NVLink domain; NVIDIA's current product page reports **130 TB/s of aggregate NVLink bandwidth per rack**.[^1]
 
 That does not prove Ethernet-based alternatives are inherently incapable of substitution. It changes the substitution problem:
 
@@ -70,6 +75,8 @@ This is where chip-only benchmarks most easily understate system power. The fart
 
 If system-level advantage produces high profit and free cash flow, it can influence the supply chain. The company-level anchors needed here are limited to one set:
 
+**Table 2.2 — NVIDIA seller-side economics and forward supply commitments**
+
 | Metric | Current public value |
 |---|---:|
 | FY26 Data Center revenue | US$193.737B |
@@ -80,7 +87,10 @@ If system-level advantage produces high profit and free cash flow, it can influe
 | FY27 Q2 GAAP operating income | US$63.734B |
 | 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
 
-The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems. The filing does not split the US$279B across TSMC, CoWoS, SK hynix, Micron, Samsung, or any other individual supplier.
+**Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^2][^3][^4]  
+**Note:** US$279B is the aggregate manufacturing, supply, and capacity commitment; public filings do not provide a supplier-level split.
+
+The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems.[^4] The filing does not split the US$279B across TSMC, CoWoS, SK hynix, Micron, Samsung, or any other individual supplier.
 
 The number therefore demonstrates the scale of aggregate forward supply commitments; it is not evidence of any specific supplier's future revenue.
 
@@ -106,7 +116,7 @@ This is why the report separates **Scarce-layer Value Capture** from a simple ma
 
 ## 7. The real counterattack is a Cloud System Stack, not a single ASIC
 
-The strategic significance of Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA is not merely the existence of another chip. Hyperscalers also possess:
+The strategic significance of Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA is not merely the existence of another chip.[^5] Hyperscalers also possess:
 
 - captive large-scale workloads;
 - cloud distribution;
@@ -153,13 +163,10 @@ It is:
 
 That is the starting point for the rest of the book's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
 
-## Key public sources
+## References
 
-- NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- NVIDIA DGX GB200 hardware guide: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-- NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- CoreWeave, 2025-02-04, GB200 NVL72 general availability: https://investors.coreweave.com/news/news-details/2025/CoreWeave-First-Cloud-Provider-to-Announce-General-Availability-of-NVIDIA-GB200-NVL72-Instances/default.aspx
-- NVIDIA, 2025-04-28, OCI liquid-cooled GB200 NVL72 deployment: https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/
+[^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^2]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+[^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
