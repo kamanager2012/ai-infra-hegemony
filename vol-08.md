@@ -48,7 +48,7 @@ AI infrastructure investment 包含多个不同寿命的资产：
 - servers/network：中短周期；
 - data-center shell：长周期；
 - substations/transmission：更长周期；
-- nuclear/PPA：可能达到 10–20 年以上。
+- nuclear/PPA：属于更长周期资产/合同；例如 Crane Clean Energy Center 对应 **20 年 PPA**。来源：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 
 这导致一个核心错配：
 
