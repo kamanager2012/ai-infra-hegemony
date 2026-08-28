@@ -12,7 +12,7 @@ The relevant unit is:
 
 ## 2. Algorithmic efficiency changes the demand function
 
-DeepSeek-V3 first-party disclosures include:[^1]
+DeepSeek-V3 first-party disclosures include:[^1][^1]
 
 - 671B total parameters;
 - 37B activated parameters;
@@ -28,7 +28,7 @@ The important implication is that frontier capability is not linearly fixed to h
 
 ## 3. MLA shows that memory cost can be attacked directly by algorithms
 
-DeepSeek-V2 reports, relative to DeepSeek 67B:[^2]
+DeepSeek-V2 reports, relative to DeepSeek 67B:[^2][^2]
 
 - approximately **93.3% KV-cache reduction**;
 - approximately **5.76× maximum generation throughput**.
