@@ -197,3 +197,7 @@ S4 仍是必须认真监测的情景，但要成为主情景，需要看到：
 真正危险的不是“AI 花钱太多”，而是：
 
 > **资产越来越多，但能够产生现金流的有效 workload 没有同步增长。**
+
+## 本卷关键公开来源
+
+- NVIDIA FY27 Q2 official results（GAAP gross margin 75.0%）： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
