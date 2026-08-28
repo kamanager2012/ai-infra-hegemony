@@ -198,6 +198,28 @@ If China develops sufficient scale across those advanced layers, it can instead 
 
 That is different from being merely the recipient of residual global capacity.
 
+## 7A. AI Capacity Gap
+
+To avoid treating “strong AI demand” as equivalent to permanent scarcity, the report introduces **AI Capacity Gap**:
+
+```text
+AI_Capacity_Gap(t)
+= Growth(AI_Demand(t))
+- Growth(AI_Dedicated_or_Effective_Capacity(t))
+```
+
+Capacity must be measured by physical layer. Advanced logic, HBM, advanced packaging, and power cannot be collapsed into one aggregate number.
+
+- **Gap > 0 across several layers:** incremental demand is outrunning incremental effective supply, increasing pressure toward S2 Baseline Concentration / S3 Resource Hegemony.
+- **Gap ≈ 0:** supply and demand are approaching balance, more consistent with controlled expansion between S1 and S2.
+- **Gap < 0:** this becomes an S4 Capital Hard Landing signal only when utilization, clearing prices, and forward commitments also weaken. A negative Gap by itself does not prove a hard landing.
+
+The metric reframes the forward question:
+
+> **Does AI-demand growth continue to exceed growth in AI-dedicated or AI-effective capacity?**
+
+AI Capacity Gap and Non-AI Residual Capacity are complementary. The former measures the incremental AI-side supply-demand gap; the latter measures how much effective supply remains for non-AI demand after priority allocation.
+
 ## 8. Current judgment
 
 As of **August 2026**, the evidence supports several conclusions:
