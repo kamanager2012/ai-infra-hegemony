@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-17.md](../vol-17.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. AI-infrastructure risk is not one “bubble probability.” The system can fail through several independent channels, and the most severe outcomes come from cascades across them.
+> Retrieval and revision cutoff: **2026-08-28**. AI-infrastructure risk is not one “bubble probability.” The system can fail through several independent channels, and the most severe outcomes come from cascades across them.
 
 ## 1. Five distinct risk families
 
