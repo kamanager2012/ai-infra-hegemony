@@ -140,24 +140,44 @@ After capital clearing, cheaper compute can still stimulate new applications.
 
 ## 5A. AI Capacity Gap: a cross-scenario diagnostic axis
 
-S1–S4 remain parallel conditional states. The report does not introduce a second scenario taxonomy. Instead, it adds a cross-scenario diagnostic variable:
+S1–S4 remain parallel conditional states; the report does not introduce a second scenario taxonomy. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
+
+### Absolute gap
 
 ```text
 AI_Capacity_Gap_i(t)
-= Growth(AI_Demand_i(t))
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+Demand and capacity must be measured within the same physical layer, delivery window, and qualification/quality boundary. Units can include wafers/month, qualified package starts/month, bits/year, or MW.
+
+- **Absolute Gap > 0:** current deliverable supply is insufficient;
+- **Absolute Gap ≈ 0:** current supply and demand are near balance;
+- **Absolute Gap < 0:** current effective headroom exists.
+
+### Growth gap
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
 - Growth(AI_Effective_Capacity_i(t))
 ```
 
-where (i) is a physical layer such as advanced logic, HBM/DRAM, advanced packaging, networking, or power. Layer-level gaps can move in opposite directions, so they must not be collapsed prematurely into one “global AI capacity gap.”
+The Growth Gap is a same-period growth-rate difference and describes whether the absolute gap is more likely to widen or converge:
 
-Interpretation:
+- **Growth Gap > 0:** scarcity may widen, or existing headroom may be eroded;
+- **Growth Gap < 0:** scarcity may converge, or effective headroom may expand;
+- **Growth Gap = 0:** supply and demand are changing at the same rate; it does not mean no shortage exists.
 
-- **persistent Gap > 0 across several critical layers:** scarcity remains strong and relative weight shifts toward S2 / S3;
-- **critical-layer gaps converge toward zero while multi-sourcing and substitution improve:** relative weight shifts toward S1;
-- **Gap < 0 while utilization remains healthy:** supply is loosening, but this is not by itself S4;
-- **Gap < 0 + falling utilization + weaker clearing prices + shrinking commitments:** the combined evidence materially raises S4 weight.
+Therefore:
 
-AI Capacity Gap must be read together with Non-AI Residual Capacity. The former asks how much incremental supply AI still lacks; the latter asks how much effective capacity remains for non-AI demand after priority allocation.
+- **Absolute Gap > 0 and Growth Gap > 0 across several critical layers:** scarcity is strengthening and relative weight shifts toward S2 / S3;
+- **Absolute Gap > 0 but Growth Gap < 0:** the layer remains short, but supply is catching up and S1 weight can rise;
+- **Absolute Gap < 0 with healthy utilization:** supply has headroom, but this is not S4 by itself;
+- **Absolute Gap < 0 + falling utilization + weaker clearing prices + shrinking commitments:** S4 weight rises materially.
+
+AI Capacity Gap / Growth Gap must be read together with Non-AI Residual Capacity. The first two ask how much AI currently lacks and how that gap is changing; NARC asks how much effective supply remains for non-AI demand after priority allocation.
 
 ## 6. Five variable classes determine scenario structure
 
