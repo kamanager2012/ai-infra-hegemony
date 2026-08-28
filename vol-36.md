@@ -24,14 +24,16 @@ NVIDIA 的核心财务特征是：
 - strong FCF；
 - relatively low direct fixed-asset intensity。
 
-FY26 FCF 为 **$96.575B**。
+FY26 NVIDIA-defined non-GAAP free cash flow 为 **US$96.575B**。
 
 FY27 Q2：
 
-- revenue：**$96.221B**
-- Data Center：**$89.0B**
+- Revenue：**US$96.221B**
+- Data Center：**US$89.0B**
 - GAAP gross margin：**75.0%**
-- GAAP operating income：**$63.734B**
+- GAAP operating income：**US$63.734B**
+
+来源：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 
 与之相比，hyperscaler、foundry、memory vendor 和 power developer 需要承担大量 fixed asset。
 
@@ -86,7 +88,9 @@ HBM boom 可以显著改善 memory vendor economics，但制造利润仍比 plat
 
 ## 5. AI infrastructure 正在形成独立融资资产
 
-NVIDIA 2026 年宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 等机构合作建立 AI compute infrastructure financing platform，目标是随时间动员超过 **$500B** 第三方资本。
+NVIDIA 于 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立独立 AI compute infrastructure financing platforms，目标是**随时间动员超过 US$500B 的第三方资本**用于 AI infrastructure buildout。
+
+来源：https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 
 这说明 AI compute 正在从：
 
@@ -96,16 +100,17 @@ NVIDIA 2026 年宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman 
 
 > institutional infrastructure asset class。
 
-但目标融资额不等于已经到账或已经部署。
+但证据边界必须写清：**>US$500B 是 over-time mobilization target，不是已经募集、承诺、到账或部署的资本。**
 
 真正需要观察的是：
 
-- final agreements；
+- definitive agreements；
 - committed capital；
 - project pipeline；
 - project-level leverage；
 - cash yield；
-- utilization。
+- utilization；
+- hardware residual-value risk 最终由谁承担。
 
 ## 6. 为什么长期资本开始进入 compute
 
@@ -223,4 +228,5 @@ AI infrastructure 正从科技公司内部投资，演变成：
 
 ## 本卷关键公开来源
 
-- NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA, 2026-08-10, AI compute financing platforms >US$500B third-party-capital mobilization target：https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
