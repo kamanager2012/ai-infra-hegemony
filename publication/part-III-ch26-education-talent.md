@@ -10,7 +10,7 @@ prompting、model calling 与基础 automation 很容易随工具进化而商品
 
 ## 2. AI Adoption 已经快于 Curriculum / Policy
 
-Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：
+Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：[^1]
 
 - **4 out of 5** U.S. high-school and college students use AI for schoolwork；
 - 只有约一半 middle/high schools 有 AI policy；
@@ -108,7 +108,6 @@ AI 教育的核心变化不是“新增一个 AI 专业”，而是：
 
 未来最有价值的人才不会只是最会调用模型的人，而是能够理解系统、验证结果、计算经济性、跨 stack 迁移并承担现实后果的人。
 
-## 关键公开来源
+## References
 
-- Stanford HAI 2026 AI Index — Education: https://hai.stanford.edu/ai-index/2026-ai-index-report/education
-- Stanford HAI 2026 AI Index Report: https://hai.stanford.edu/ai-index/2026-ai-index-report
+[^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
