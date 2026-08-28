@@ -136,14 +136,14 @@ Public source: https://investors.micron.com/static-files/4550f98c-1054-4847-a929
 
 ## 7. Advanced-packaging geometry stress test
 
-The report uses **5.39 CoWoS wafers per rack** as a **D-grade geometry stress test**.
+The report uses **5.37 CoWoS wafers per rack** as a **D-grade geometry stress test**.
 
 The working relationship is:
 
 ```text
 72 packages
 ÷ 13.4 packages per wafer
-≈ 5.39 wafers per rack
+≈ 5.37 wafers per rack
 ```
 
 The **13.4 packages per wafer** term is a geometry assumption. It is not a TSMC-disclosed yield.
