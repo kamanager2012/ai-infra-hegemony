@@ -1,7 +1,5 @@
 # Part IV · 第28章：2026–2036 时间线与阶段性里程碑
 
-> **出版层时间线章。** 以 [vol-19](../vol-19.md) 为主源。这里不预写 2030 / 2036 的精确市场份额、node price、CoWoS 月片数或 campus GW，而是把未来十年拆成四个观察窗口，并为每个阶段定义能够改变 S1–S4 权重的可验证里程碑。
-
 ## 1. 时间线是 Conditional Milestone Map，不是年份故事
 
 未来十年最容易出现的错误，是把技术 roadmap、capital plan 和 power project 的目标年份写成“必然发生”。
