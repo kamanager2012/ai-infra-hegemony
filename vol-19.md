@@ -22,7 +22,7 @@
 - NVIDIA FY27 Q2 Data Center revenue：$89.0B；
 - GAAP gross margin：75.0%；
 - Rubin：full production；
-- supply-related commitments：FY27 Q1 $119.0B；
+- manufacturing, supply, and capacity commitments：2026-04-26 **US$119B**；2026-07-26 **US$279B**（Q2 10-Q，最新承诺主要关联 memory 与 manufacturing facilities）；
 - TSMC packaging tightness 仍限制客户增长；
 - HBM + RDIMM 约占 2026 DRAM bits 的 51%；
 - cloud CapEx 继续扩大；
@@ -39,7 +39,7 @@
 - advanced packaging expansion；
 - cloud custom silicon 新一代部署；
 - power project actual energization；
-- supply commitments 是否继续增长。
+- supply commitments 是否继续增长。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
 
 ## 3. Phase II：2028–2030 —— substitution 是否形成规模
 
