@@ -1,7 +1,5 @@
 # Part II · 第11章：NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张
 
-> **出版层章节。** 以 [vol-07](../vol-07.md) 为主源。Part I Ch02 已经解释 NVIDIA system-stack moat；本章只讨论纵向扩张：系统边界如何从 accelerator 延伸到 networking、rack reference architecture、deployment software、cloud service 与 Physical AI。
-
 ## 1. NVIDIA 的扩张方式不是传统 IDM 式纵向整合
 
 NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center real estate 来控制系统。
