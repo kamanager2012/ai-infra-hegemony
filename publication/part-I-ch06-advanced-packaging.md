@@ -19,7 +19,7 @@ TSMC 的公开表述足以确认 advanced-packaging tightness：[^1][^2]
 收入披露也必须保持原始年份标签：
 
 - 4Q24 transcript：**advanced packaging and testing >8% of revenue**；
-- 4Q25 transcript 的公司会后更正口径：**advanced packaging slightly over 10% of 2025 revenue**。
+- 4Q25 transcript 的公司会后更正口径：**advanced packaging slightly over 10% of 2025 revenue**。[^6]
 
 这两个标签并不完全相同，因此本报告**不把 >8% → >10% 当作严格同口径连续时间序列**，也不把 2025 的 advanced packaging 扩写回 “advanced packaging + testing”。
 
@@ -54,7 +54,7 @@ TrendForce 对 2025 CoWoS demand 的研究将 NVIDIA 列为最大需求客户，
 
 其中：
 
-- 72 GPU 来自 NVL72 官方产品规格；
+- 72 GPU 来自 NVL72 官方产品规格；[^4]
 - ~13.4 packages/wafer 是报告侧 geometry assumption；
 - 5.37 因而属于 **D 级 stress test**。
 
@@ -64,7 +64,7 @@ TrendForce 对 2025 CoWoS demand 的研究将 NVIDIA 列为最大需求客户，
 
 ## 6. 为什么不能用全厂 wafer shipments 去除 5.37
 
-TSMC 2025 全年约 **15.0M 12-inch-equivalent wafer shipments** 覆盖 smartphone、HPC、automotive、IoT、mature nodes 等大量前道产品。5.37 则是报告侧对 **CoWoS packaging wafer/rack** 的几何压力测试。
+TSMC 2025 全年约 **15.0M 12-inch-equivalent wafer shipments** 覆盖 smartphone、HPC、automotive、IoT、mature nodes 等大量前道产品。[^7]5.37 则是报告侧对 **CoWoS packaging wafer/rack** 的几何压力测试。
 
 所以如下运算没有物理意义：
 
@@ -155,3 +155,5 @@ frontier AI parallel stack 不能只用 logic node 判断。即使 accelerator d
 [^3]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^4]: NVIDIA, “GB200 NVL72,” official product page, 72 Blackwell GPUs per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 [^5]: TSMC, 2Q24 Earnings Conference Transcript, advanced-packaging margin relative to corporate average, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
+[^6]: TSMC, 4Q25 Earnings Conference Transcript, corrected 2025 advanced-packaging revenue identity, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+[^7]: TSMC, 2025 Annual Report, annual wafer shipments and manufacturing footprint, https://investor.tsmc.com/static/annualReports/2025/english/index.html
