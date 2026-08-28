@@ -1,8 +1,8 @@
 # English Publication Layer · The Age of AI Infrastructure Hegemony
 
-> This directory contains the continuous-reading English publication edition. The stable English research layer remains in `en/vol-01.en.md`–`en/vol-40.en.md` and `en/part2-01.en.md`–`en/part2-08.en.md` for evidence tracing, independent revision, and Git diffs.
+> This directory contains the continuous-reading English publication edition. **Current status: Publication Integrated / Publication QA in progress; it is not yet marked Publication Ready.** A complete 32/32 chapter architecture does not by itself mean citation, figure/table, copyright, layout, and export QA are complete.
 
-See also [Publication Architecture](../PUBLICATION_STRUCTURE.md).
+See the [English Front Matter](00-front-matter.md), the canonical [Publication Release Standard](../../出版封版标准.md), and [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 
 ## Current build status
 
@@ -10,7 +10,8 @@ See also [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 - **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
 - **Part III — Capital Cycles, Profit Pools, and External Transmission: 8/8 chapters synchronized.**
 - **Part IV — Method, Scenarios, Monitoring, and Strategy: 6/6 chapters synchronized.**
-- **English Publication Layer: 32/32 chapters.**
+- **English Publication Layer: 32/32 chapters structurally integrated.**
+- **Publication Ready: not yet passed; chapter-level citation, table/figure, copyright, cross-language, and export QA remain mandatory.**
 
 The Chinese and English Publication Layers now share the same 32-chapter architecture. The Chinese edition remains the final source of truth for resolving any future bilingual discrepancy.
 
