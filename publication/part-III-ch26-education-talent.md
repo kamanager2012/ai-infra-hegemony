@@ -1,7 +1,5 @@
 # Part III · 第26章：AI 时代教育与人才体系
 
-> **出版层章节。** 以 [vol-39](../vol-39.md) 为主源，并以 Stanford HAI 2026 AI Index 的 Education 网页口径为事实锚。教育问题不只是“允许不允许用 AI”，而是如何训练能够理解、验证、迁移和承担系统责任的人。
-
 ## 1. 教育目标正在从“会用 AI”上移到“理解系统”
 
 prompting、model calling 与基础 automation 很容易随工具进化而商品化。
