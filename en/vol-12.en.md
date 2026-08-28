@@ -113,7 +113,7 @@ Peak FLOPS alone does not answer whether the stack is production-competitive.
 
 ## 6. Memory is one of the easiest constraints to underestimate
 
-CXMT's public offering materials disclose DDR and LPDDR products but do not disclose an HBM product line.
+CXMT's **27 May 2026 SSE registration prospectus** discloses DDR and LPDDR products. Full-text checks for `HBM` and the Chinese term for high-bandwidth memory return no match, so this report makes only the narrow claim that the registration prospectus does not disclose an HBM product line.
 
 That evidence should be interpreted narrowly:
 
@@ -134,7 +134,7 @@ TrendForce's 2026 Q1 foundry-revenue estimates were approximately:
 | Foundry | Revenue share |
 |---|---:|
 | TSMC | **72%** |
-| Samsung | **6.5%** |
+| Samsung Foundry (excluding System LSI) | **6.5%** |
 | SMIC | **5.1%** |
 
 These are foundry **revenue shares**. They are not measures of frontier-AI wafer capability.
@@ -228,3 +228,9 @@ The most accurate description is therefore neither “China has fully broken thr
 It is:
 
 > **China is moving from product substitution toward system-stack substitution. The global balance will depend on whether advanced logic, HBM, packaging, interconnect, and software can all reach scale together.**
+
+
+## Key public sources for this volume
+
+- CXMT 27 May 2026 STAR Market registration prospectus (SSE): https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+- TrendForce, 12 June 2026 — 1Q26 foundry revenue shares (TSMC 72%, Samsung Foundry excluding System LSI 6.5%, SMIC 5.1%): https://www.trendforce.com/presscenter/news/20260612-13095.html
