@@ -11,7 +11,7 @@ API、订阅和 agent service 的底层变量成本包括 accelerator time、HBM
 
 ## 2. Algorithmic efficiency 改变的是需求函数
 
-DeepSeek-V3 一手披露：671B total parameters、37B activated parameters、14.8T pre-training tokens、2.664M H800 GPU-hours pre-training、2.788M H800 GPU-hours full formal training。
+DeepSeek-V3 一手披露：671B total parameters、37B activated parameters、14.8T pre-training tokens、2.664M H800 GPU-hours pre-training、2.788M H800 GPU-hours full formal training。[^1]
 
 按论文使用的 US$2/GPU-hour 假设，2.788M GPU-hours 对应约 **US$5.576M formal-training compute conversion**。这不是完整企业研发成本。
 
@@ -19,7 +19,7 @@ DeepSeek-V3 一手披露：671B total parameters、37B activated parameters、14
 
 ## 3. MLA 说明 Memory Cost 可以被算法直接攻击
 
-DeepSeek-V2 相对 DeepSeek 67B 报告约 **93.3% KV-cache reduction** 和约 **5.76× maximum generation throughput**。
+DeepSeek-V2 相对 DeepSeek 67B 报告约 **93.3% KV-cache reduction** 和约 **5.76× maximum generation throughput**。[^2]
 
 这两个数字属于 V2，不属于 V3。
 
@@ -100,7 +100,7 @@ Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司和内部 
 
 因此，算法效率既可能成为基础设施需求的**打断器**，也可能成为总使用量的**放大器**。哪一种占主导，只能由 workload volume、utilization 与 unit economics 证明。
 
-## 关键公开来源
+## References
 
-- DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
-- DeepSeek-V2: https://github.com/deepseek-ai/DeepSeek-V2
+[^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
+[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
