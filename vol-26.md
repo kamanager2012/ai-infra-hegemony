@@ -186,3 +186,9 @@ Anchor Buyer model 也会放大风险。
 - chip/HBM/power contract 期限变长。
 
 因此，未来判断 AI infrastructure demand 时，必须把 OpenAI、Anthropic 等长期需求作为独立变量，而不是只看 hyperscaler CapEx。
+
+
+## 本卷关键公开来源
+
+- Anthropic / AWS compute partnership（>US$100B over 10 years；up to 5 GW；>1M Trainium2）：https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+- OpenAI — Announcing The Stargate Project（US$500B / 10 GW long-run framework）：https://openai.com/index/announcing-the-stargate-project/
