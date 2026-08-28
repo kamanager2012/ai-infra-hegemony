@@ -1,6 +1,6 @@
 # The Age of AI Infrastructure Hegemony
 
-An industry research corpus with **40 stable volume modules + 8 macro essays**. The English Publication Layer is now live at **18/32 chapters**: Part I 9/9 and Part II 9/9 are synchronized within the four-part continuous-reading edition.
+An industry research corpus with **40 stable volume modules + 8 macro essays**. The English Publication Layer is now synchronized at **32/32 chapters** across all four parts: Part I 9/9, Part II 9/9, Part III 8/8, and Part IV 6/6.
 
 The Chinese research corpus remains the source of truth: [中文主目录](../README.zh-CN.md). The repository root [README](../README.md) is the English-first release landing page.
 
@@ -33,11 +33,11 @@ An already-observed claim may enter **F — Fact** only if it is publicly verifi
 6. [Core Concepts and Model Index](核心概念与模型索引.en.md)
 7. [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
 8. [Mechanism Index](机制索引.en.md)
-9. [English Publication Layer — Part I 9/9](publication/README.md)
+9. [English Publication Layer — 32/32 chapters](publication/README.md)
 10. [Publication Architecture — four parts / 32 chapters](PUBLICATION_STRUCTURE.md)
 11. [X / social launch drafts](SHARE.md)
 
-> **English publication-layer status:** Part I **9/9** and Part II **9/9** are synchronized; Parts III–IV remain in progress. The 40 English volume modules and 8 macro essays remain the stable research layer for traceability, evidence review, and bilingual synchronization.
+> **English publication-layer status:** all **32/32 publication chapters** are synchronized across four parts. The 40 English volume modules and 8 macro essays remain the stable research layer for traceability, evidence review, and bilingual synchronization. Final publication work now focuses on dead-link rescans, deep-source verification, denominator consistency, cross-language regression, and PDF/e-book layout.
 
 ## Research method
 
