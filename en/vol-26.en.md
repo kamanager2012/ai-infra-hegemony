@@ -213,3 +213,9 @@ They increasingly act as **Anchor Compute Buyers** whose long-duration demand ca
 This mechanism explains why infrastructure providers are willing to build ahead of current usage.
 
 Future AI-infrastructure demand analysis therefore has to track OpenAI, Anthropic, and other large model-company commitments as independent variables alongside hyperscaler CapEx.
+
+
+## Key public sources for this volume
+
+- Anthropic / AWS compute partnership — >US$100B over 10 years; up to 5 GW; >1M Trainium2 chips: https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+- OpenAI — Announcing The Stargate Project — US$500B / 10 GW long-run framework: https://openai.com/index/announcing-the-stargate-project/
