@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-31.md](../vol-31.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The purpose of this volume is to make the report continuously updateable. It defines which observations can change the main judgment and which should remain supporting evidence.
+> Retrieval and revision cutoff: **2026-08-28**. The purpose of this volume is to make the report continuously updateable. It defines which observations can change the main judgment and which should remain supporting evidence.
 
 ## 1. Why the report needs a monitoring framework
 
