@@ -160,9 +160,9 @@ Crane, Talen/AWS, Kairos/Google, and similar projects must be updated by current
 
 Signing a contract cannot automatically mark AI power as online.
 
-In particular, the April-2026 revised-PPA transition status in Talen's 2026 Q2 10-Q does not prove that every physical transition or full-delivery step was completed.
+In particular, the April-2026 revised-PPA transition status in Talen's 2026 Q2 10-Q does not prove that every physical transition or full-delivery step was completed.[^5]
 
-The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.
+The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.[^5]
 
 ## 10. Three thresholds that matter more than the calendar year
 
