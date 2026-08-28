@@ -1,7 +1,5 @@
 # Part IV · Chapter 30: The Four Standard Scenarios — S1 to S4
 
-> **Publication-layer scenario chapter.** Based primarily on [Volume 10](../vol-10.en.md). The four scenarios do not carry fixed probabilities and are not treated as sequential stages. They are standard structural states created by different combinations of supply, substitution, demand, finance, power, regulation, and geopolitics.
-
 ## 1. Scenario analysis is not a point forecast
 
 This book does not assign one deterministic answer to 2030 or 2036, nor does it use a fixed probability table such as 40% / 30% / 15% / 15%.
