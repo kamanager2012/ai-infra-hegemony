@@ -1,0 +1,232 @@
+# Part IV · 第29章：核心指标与证据监测框架
+
+> **出版层监测章。** 以 [vol-31](../vol-31.md) 为主源。本章不是再建立一套新的结论，而是定义未来每次更新时应读取哪些指标、如何保持证据身份，以及什么变化足以改变 S1–S4 的相对权重。
+
+## 1. 长期研究必须设计成可更新系统
+
+AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry allocation、power、regulation 与 system substitution 都快速变化。
+
+因此 publication layer 不能只在发布日期成立。
+
+每次更新只回答三件事：
+
+1. **哪个事实改变了？**
+2. **它改变了哪个机制变量？**
+3. **它是否足以改变 S1–S4 的相对权重？**
+
+## 2. Dashboard A — Seller Economics / Forward Reservation
+
+### NVIDIA 当前锚
+
+| 指标 | 当前公开值 |
+|---|---:|
+| FY26 Revenue | US$215.938B |
+| FY26 Data Center | US$193.737B |
+| FY26 NVIDIA-defined non-GAAP FCF | US$96.575B |
+| FY27 Q2 Revenue | US$96.221B |
+| FY27 Q2 Data Center | US$89.0B |
+| FY27 Q2 GAAP gross margin | 75.0% |
+| FY27 Q2 GAAP operating income | US$63.734B |
+| Rubin | full production |
+
+Supply / capacity commitments：
+
+- 2026-01-25：US$95.2B；
+- 2026-04-26：US$119B；
+- 2026-07-26：US$279B。
+
+这组指标回答：system seller 是否仍拥有足够 cash generation 与 forward commitment ability 预订下一代 scarce resources。
+
+US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue。
+
+## 3. Dashboard B — Foundry / Packaging
+
+### TSMC 2025
+
+- 12-inch-equivalent wafer shipments：~15.0M；
+- annual capacity：>17M；
+- 3 nm / 5 nm / 7 nm wafer revenue：24% / 36% / 14%；
+- ≤7 nm：74%；
+- HPC platform：58%，YoY +48%；
+- smartphone platform：29%，YoY +11%；
+- largest / second-largest annual customer：19% / 17% revenue。
+
+另一匿名客户表才支持 2024→2025：Customer A 12%→19%，Customer B 22%→17%。两套披露不能拼成同一客户轨迹。
+
+### Packaging
+
+A-grade signal：TSMC 持续描述 packaging capacity tight / growth-limiting。
+
+B-grade signal：TrendForce 估计 NVIDIA 占 2025 CoWoS demand >60%。
+
+TSMC 未披露 customer-level CoWoS allocation。
+
+## 4. Dashboard C — Memory
+
+### A-grade manufacturing anchor
+
+Micron：HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**；FY25 10-K 进一步确认 HBM 需要更多 wafers / cleanroom space。
+
+### B-grade forward structure
+
+TrendForce：**2026E HBM + RDIMM ≈51% of DRAM bit supply**。
+
+### Vendor economics
+
+SK hynix FY25：Revenue KRW97.1467T、Operating profit KRW47.2063T、Operating margin 49%、Net income KRW42.9479T；HBM revenue more than doubled YoY。
+
+这组指标用于判断 HBM product mix 是否继续吸收 DRAM manufacturing input，以及 conventional DRAM residual capacity 是否松动。
+
+## 5. Dashboard D — Hyperscaler CapEx
+
+Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
+
+- accounting line item；
+- fiscal / calendar window；
+- actual vs guidance / expectation；
+- finance-lease treatment；
+- AI/data-center specific disclosure。
+
+监测重点不是“总额创新高”本身，而是新增 capital 是否继续流向 server、network、memory、custom silicon、data center 与 power。
+
+不同口径不得机械相加成 official AI hardware CapEx。
+
+## 6. Dashboard E — Power State Machine
+
+| 状态 | 解释 |
+|---|---|
+| Announced | 项目 / 目标公布 |
+| Contracted | 合同成立 |
+| Permitted | 关键许可获得 |
+| Energized | 实际送电 |
+| Utilized | 形成真实负载 |
+
+当前代表性项目：
+
+- Microsoft / Constellation：~835 MW restart PPA；
+- Talen / AWS：up to1.92GW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；
+- Google / Kairos：Hermes 2 up to50MWe in2030，fleet up to500MWe by2035。
+
+真正需要更新的是 ramp、energized MW、actual load 与 utilization。
+
+## 7. Dashboard F — System-Stack Substitution
+
+对 Google / AWS / Microsoft / Meta，分别跟踪：
+
+- production workload share；
+- external availability；
+- compiler/runtime maturity；
+- large-cluster scaling；
+- migration cost；
+- utilization；
+- system TCO。
+
+单颗 chip benchmark 不是充分替代指标。
+
+## 8. Dashboard G — China Parallel Stack
+
+分别监测：
+
+### Logic
+
+domestic accelerator、foundry scale、yield / volume disclosure。
+
+### Memory
+
+HBM-class product、qualification、volume production。
+
+### Packaging
+
+advanced integration、yield、scale。
+
+### Software
+
+compiler/runtime、framework compatibility、cluster utilization。
+
+### Deployment
+
+frontier workload、data-center power、real system scale。
+
+只有多个 closure gates 同时改善，才上调 frontier-system closure。
+
+## 9. Dashboard H — Regulation
+
+法律状态机统一记录：
+
+> inquiry / RFI → investigation → Statement of Objections / formal complaint → formal proceeding → final decision → remedy / fine
+
+禁止：
+
+- inquiry → “已经起诉”；
+- statutory ceiling → “即将罚款”；
+- merger review → “已经认定垄断”。
+
+真正改变 scenario 的变量是 interface openness、tying restriction、access / supply remedy 与 structural change。
+
+## 10. Dashboard I — Capital Clearing
+
+### Accounting
+
+impairment、inventory write-down、accelerated depreciation、asset disposal。
+
+### Utilization / Revenue
+
+compute utilization、AI workflow revenue、revenue per deployed compute。
+
+### Market Clearing
+
+used-system price、cloud discount、lease rate、delivery lead time。
+
+### Forward Commitment
+
+CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts。
+
+只有多组信号同步恶化，S4 才从 stress test 升级为主情景。
+
+## 11. Evidence-grade 快速规则
+
+| 数据类型 | 默认等级 |
+|---|---|
+| company filing / official product / government / court / formal contract | A |
+| institutional research | B |
+| sell-side / supply-chain / media estimate | C |
+| report geometry / stress test / hypothetical rack count | D |
+
+任何更新都必须保持原始等级；数字更新不等于证据等级自动提升。
+
+## 12. Scenario Weighting 的更新规则
+
+### 向 S1 移动
+
+system substitution 扩大、migration cost 下降、HBM/packaging/power 供给弹性改善、multi-buyer resource access 增强。
+
+### 向 S3 移动
+
+seller commitments 继续扩大、多层 scarcity 持续、switching cost 上升、powered capacity 被少数 anchor buyers 长期锁定。
+
+### 向 S4 移动
+
+utilization、market-clearing price、CapEx / commitments 与 accounting losses 同步恶化。
+
+### 留在 S2
+
+dominant platform economics 强，但 alternative stacks 继续发展；scarce layers 仍紧但持续扩产；CapEx 高且 ROI 仍可支撑。
+
+## 13. 更新纪律
+
+一条新闻不应该重写全书。
+
+只有当新事实改变了核心机制变量，并跨过预先定义的 threshold，才修改 scenario weighting。
+
+这使报告能够长期更新，而不是在每次产品发布、股价波动或传闻后改写产业故事。
+
+## 关键公开来源导航
+
+- [核心证据台账](../核心证据台账.md)
+- [核心参考文献索引](../核心参考文献索引.md)
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TrendForce 2026E memory structure: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
