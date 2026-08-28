@@ -3,9 +3,6 @@
 ### Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital
 
 **Author:** James (kamanager2012)  
-**Edition status:** Pre-release Publication QA Edition  
-**Target version:** v1.0.0 (not yet released)  
-**Publication date:** To be fixed only after final PDF/EPUB proof and public release  
 **Research and revision cutoff:** 28 August 2026  
 **Languages:** Chinese canonical edition / English parallel edition
 
@@ -44,7 +41,7 @@ This report is for industry research and information purposes only. It is not in
 
 ## Copyright
 
-Original report text is distributed under the repository LICENSE. Third-party material remains subject to the rights and licensing terms of its respective owners. The final publication edition should include only third-party material that is clearly permitted, properly cited, redrawn where appropriate, or otherwise cleared for use.
+Original report text is distributed under the repository LICENSE. Third-party material remains subject to the rights and licensing terms of its respective owners. Third-party material is used only when its rights boundary is clear and the material is appropriately cited or otherwise permitted.
 
 ---
 
