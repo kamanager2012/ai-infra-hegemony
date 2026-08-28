@@ -77,6 +77,22 @@ edge system 不需要复制 data-center rack architecture。
 
 机器人普及不一定减少 data-center demand，反而可能扩大新的训练/推理 workload。
 
+### 7.1 机器人本体也可能成为新的 Memory / Storage Demand Pool
+
+Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必须保留“公司前瞻判断”身份的量化锚：
+
+- L2+ 及以上车辆的 memory + storage content 已超过 average vehicle 的 **5×**；
+- Micron 称 humanoid robots 的 memory content 约为 average L2+ vehicle 的 **10×**；
+- 公司预计本十年后段开始形成持续、多十年的 robotics memory demand cycle。
+
+这不是全行业 actual shipment，也不是“每台机器人固定需要数百 GB DRAM + 数 TB SSD”的统一规格。
+
+它真正支持的机制是：
+
+> **Physical AI commercial scale ↑ → edge memory/storage content ↑ + fleet-generated cloud workload ↑**
+
+所以机器人可能同时成为 edge memory 的新需求池和 cloud retraining / storage 的新需求源。
+
 ## 8. 机器人侧的 Power Wall 是 Battery / Thermal
 
 data center 的 power bottleneck 是 grid / interconnection；机器人侧则是 battery energy density、runtime、charging、thermal 与 peak actuator demand。
@@ -127,3 +143,4 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 - NVIDIA Isaac official platform page — GR00T, simulation/training, Jetson Thor inference/control and DGX/OVX/AGX workflow layers: https://developer.nvidia.com/isaac
 - NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot — Jetson Thor onboard compute + Isaac GR00T open platform: https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 - NVIDIA DGX GB200 hardware guide — data-center rack power reference used only for cloud-vs-edge physical contrast: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Micron 2026-06-24 investor presentation — humanoid robots ~10× memory content vs average L2+ vehicle; multi-decade demand outlook: https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
