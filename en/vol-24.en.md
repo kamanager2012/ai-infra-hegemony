@@ -27,10 +27,12 @@ TSMC described advanced-packaging capacity as **very tight** in its 2024 Q4 disc
 
 By 2026 Q2, management said packaging capacity was tight enough to **limit customers' growth**.
 
-TSMC also disclosed that advanced packaging plus testing represented:
+TSMC's year-specific wording must be preserved:
 
-- about **8%** of revenue in 2024;
-- slightly more than **10%** in 2025.
+- 4Q24 transcript: **advanced packaging and testing >8% of 2024 revenue**;
+- 4Q25 transcript, after company correction: **advanced packaging slightly above 10% of 2025 revenue**.
+
+The labels differ, so the two numbers are not treated as a perfectly like-for-like time series.
 
 The company does not publicly provide a customer-level CoWoS allocation table.
 
@@ -195,3 +197,10 @@ As of **August 2026**:
 CoWoS and advanced packaging are therefore among the most important physical quotas in AI infrastructure today.
 
 The analytical discipline is equally important: **first-party tightness, institutional customer-share estimates, and internal geometry stress tests must remain separate evidence classes.**
+
+
+## Key public sources
+
+- TSMC 4Q24 Transcript — advanced packaging and testing >8%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript — 2025 advanced packaging slightly above 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+- TrendForce, 2025 CoWoS demand structure (NVIDIA estimated >60%, B-grade institutional estimate): https://www.trendforce.com/research/download/RP250314ZJ
