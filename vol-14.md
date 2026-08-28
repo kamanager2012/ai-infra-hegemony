@@ -78,7 +78,7 @@ TSMC 是典型的 manufacturing bottleneck owner。
 - advanced packaging；
 - roadmap execution。
 
-TSMC 2025 gross margin **59.9%**，HPC platform 占全年 revenue **58%**。advanced packaging + testing 略高于全年 revenue 的 **10%**，而管理层在 2026 Q2 又明确表示 packaging tightness 已经限制客户增长。
+TSMC 2025 gross margin **59.9%**，HPC platform 占全年 revenue **58%**。TSMC 4Q25 transcript 的公司会后更正口径是 **advanced packaging slightly over 10% of 2025 revenue**；这不能扩写成 2025 “advanced packaging + testing”。管理层在 2026 Q2 又明确表示 packaging tightness 已经限制客户增长。
 
 来源：
 - https://investor.tsmc.com/static/annualReports/2025/english/index.html
@@ -233,3 +233,5 @@ AI 时代真正的“赢家”不是某个行业，而是能够控制以下至�
 - TSMC 2025 Annual Report：https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - TSMC 2026 Q2 IR / transcript（packaging tightness limits customer growth）：https://investor.tsmc.com/english/quarterly-results/2026/q2
 - SK hynix FY25 official results（Operating margin 49%; HBM revenue more than doubled YoY）：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
