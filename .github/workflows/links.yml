@@ -16,3 +16,6 @@ jobs:
           python-version: "3.12"
       - name: Check relative markdown links
         run: python scripts/check-links.py
+
+      - name: Check required evidence sources
+        run: python scripts/check-required-sources.py
