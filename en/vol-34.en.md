@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-34.md](../vol-34.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Frontier AI depends on an industrial chain that cannot be replicated quickly. This volume separates equipment, materials, manufacturing, qualification, and geographic redundancy rather than treating “domestic capacity” as one variable.
+> Retrieval and revision cutoff: **2026-08-28**. Frontier AI depends on an industrial chain that cannot be replicated quickly. This volume separates equipment, materials, manufacturing, qualification, and geographic redundancy rather than treating “domestic capacity” as one variable.
 
 ## 1. Behind the AI chip is a long industrial chain
 
