@@ -62,7 +62,7 @@ AI infrastructure 的关键变量变化很快：
 - Smartphone：**29%** of revenue；platform revenue YoY **+11%**
 - 2025 largest customer：**19% of annual revenue**
 - 2025 second-largest customer：**17%**
-- advanced packaging + testing：略高于 **10%**
+- advanced packaging：略高于 **10%**（不得扩写为 packaging + testing）
 
 **客户口径硬边界：** annual largest / second-largest ranking 不是同一客户跨年序列。另一张匿名客户表才可直接比较 2024→2025：Customer A **12%→19%**，Customer B **22%→17%**。两套表不得拼接成“某个第一客户”的纵向轨迹。
 
@@ -148,7 +148,7 @@ FY25：
 当前重要项目：
 
 - Microsoft / Constellation：约 **835 MW** restart PPA；
-- Talen / AWS：revised PPA full contract quantity **up to 1,920 MW**，transition occurred in **2026-04**，power delivery ramps to full volume **no later than 2032**；
+- Talen / AWS：revised PPA full contract quantity **up to 1,920 MW**；2026 Q2 10-Q 写明 transition occurred in **2026-04**，而 2025 10-K 曾写 full transition expected in **spring 2027**。April 2026 不等于全部物理交付完成，power delivery 仍需按后续公开状态跟踪；
 - Google / Kairos：Hermes 2 **up to 50 MWe in 2030**，fleet **up to 500 MWe by 2035**。
 
 因此后续应监测的是：
