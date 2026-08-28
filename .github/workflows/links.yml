@@ -19,3 +19,12 @@ jobs:
 
       - name: Check required evidence sources
         run: python scripts/check-required-sources.py
+
+      - name: Check publication numeric source coverage
+        run: python scripts/check-publication-numeric-claims.py
+
+      - name: Check publication third-party asset rights
+        run: python scripts/check-publication-rights.py
+
+      - name: Recompute versioned D-grade models
+        run: python scripts/recompute_models.py
