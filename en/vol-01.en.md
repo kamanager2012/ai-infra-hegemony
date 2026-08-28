@@ -258,3 +258,7 @@ Conversely, if seller cash flow, capacity commitments, HBM demand, and advanced-
 ---
 
 This volume follows the common evidence system. Company disclosures, institutional research, sell-side estimates, and report stress tests are separated into A/B/C/D grades. See [Research Methodology and Evidence Grading](研究方法与证据分级.en.md), [Core Evidence Ledger](核心证据台账.en.md), and [Core Hypothesis Matrix](核心假设矩阵.en.md).
+
+## Key public sources for this volume
+
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
