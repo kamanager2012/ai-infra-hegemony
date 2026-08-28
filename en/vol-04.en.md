@@ -42,7 +42,8 @@ TSMC's public 2025 disclosures include:
 - Smartphone platform: **29%** of revenue, with platform revenue up **11%** year over year;
 - largest customer: **19% of annual revenue**;
 - second-largest customer: **17%**;
-- advanced packaging + testing: about **8%** of revenue in 2024 and slightly above **10%** in 2025.
+- 4Q24 transcript: **advanced packaging and testing >8% of revenue**;
+- 4Q25 transcript (company-corrected wording): **advanced packaging slightly above 10% of 2025 revenue**. The labels are not identical, so 8%→10% should not be treated as a perfectly continuous like-for-like series.
 
 The source base includes TSMC's 2025 Annual Report, 4Q25 Management Report, and investor-conference materials.
 
@@ -212,3 +213,6 @@ toward:
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - TSMC 2025 20-F — annual largest / second-largest customer rankings: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report — anonymized Customer A/B 2024→2025 comparison: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+
+- TSMC 4Q24 Transcript — advanced packaging and testing >8%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript — 2025 advanced packaging slightly above 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
