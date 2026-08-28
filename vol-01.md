@@ -67,6 +67,12 @@ TSMC 2025 年公开数据包括：
 | Second-largest customer revenue share | **17%** |
 | Back-end revenue disclosure | 2024：**advanced packaging and testing >8%**；2025：**advanced packaging slightly over 10%**（company-corrected；两年标签不完全同口径） |
 
+主要来源：
+- TSMC 2025 Annual Report（wafer shipments/capacity、node revenue mix、HPC/smartphone platform）：https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 Form 20-F（largest / second-largest customer annual revenue share）：https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 4Q24 Transcript（advanced packaging and testing >8%）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+
 TSMC 管理层关于先进封装的公开表述，是判断供给约束的重要一手依据。2024 Q4，魏哲家称相关产能“very tight”，并表示无法满足全部客户需求；2026 Q2，又明确指出 packaging capacity 已经紧到限制客户增长。
 
 这里需要严格区分三个不同概念：
