@@ -137,6 +137,8 @@ HBM3E wafer supply
 
 该比率属于 **A 级一手公司证据**，但不能机械外推到所有未来 HBM generation。
 
+公开来源：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+
 ## 7. Packaging geometry stress test
 
 报告采用 **5.39 CoWoS wafers/rack** 作为 D 级 geometry stress test。
