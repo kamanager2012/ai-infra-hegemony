@@ -28,7 +28,7 @@ TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smart
 
 到 2Q26，TrendForce 估计 LPDDR4X solution ASP 环比 **+70–75%**、LPDDR5X **+78–83%**。[^4]
 
-但到 3Q26，涨幅已经明显收敛到约 **+8–13% QoQ**。[^5]与此同时，TrendForce 仍指出 suppliers 持续把 capacity 向 server / HBM applications 倾斜。
+TrendForce 2026-08-03 的 **3Q26 forecast** 预计 mobile DRAM 涨幅将明显收敛到约 **+8–13% QoQ**。[^5] 与此同时，TrendForce 仍指出 suppliers 持续把 capacity 向 server / HBM applications 倾斜。
 
 因此更准确的判断是：
 
