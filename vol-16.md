@@ -249,3 +249,7 @@ AI infrastructure 可以量化，但必须保持维度一致。
 → **falsification**
 
 而不是先设一个宏大结论，再反向寻找数字填满它。
+
+## 本卷关键公开来源
+
+- DeepSeek-V3 Technical Report（2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
