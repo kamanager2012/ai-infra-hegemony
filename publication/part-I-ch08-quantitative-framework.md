@@ -1,6 +1,5 @@
 # Part I · 第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade
 
-> **出版层章节。** 由 [vol-16](../vol-16.md) 与 [vol-17](../vol-17.md) 重编。前者提供可审计量化框架，后者提供风险级联。本文不试图“算出唯一未来”，而是规定哪些量可以相乘、哪些单位不能混用，以及 bottleneck 如何在 compute、memory、packaging、power 与 capital 之间轮换。
 
 ## 1. 量化的目标不是制造一个伪精确总模型
 
