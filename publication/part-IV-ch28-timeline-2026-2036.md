@@ -23,7 +23,7 @@
 - manufacturing, supply, and capacity commitments 由 2026-04-26 **US$119B** 升至 2026-07-26 **US$279B**；
 - TSMC advanced-packaging tightness 仍限制 customer growth；[^7]
 - 四大云厂公开资本投入指标仍处高位，但必须保留各自 actual / guidance / expectation 身份；[^8]
-- power project 已出现约 835 MW、up to 1.92 GW、up to 500 MWe 等不同成熟度路径；
+- power / LPS project 已出现约 835 MW、up to 1.92 GW、up to 500 MWe，以及 PORTS-Pike initial 4.25 IT-GW design capacity 等不同成熟度路径；[^9]
 - TrendForce **预计** HBM + RDIMM 约占 2026 DRAM bit supply **51%**。
 
 这个阶段的核心问题是：
@@ -61,9 +61,11 @@
 
 要看 HBM supply 是否进入持续宽松，advanced packaging 是否不再被厂商称为 growth constraint，新 packaging architecture 是否真正提高供给弹性。
 
-### Power
+### Power / LPS
 
-要看 headline contracted GW 有多少转化为 energized、utilized capacity，以及 Time-to-Power 是否仍决定 site selection。
+要看 headline contracted / secured capacity 有多少真正转化为 energized、utilized capacity，以及 Time-to-Power 是否仍决定 site selection。
+
+PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它是 Phase II 检验“secured LPS 是否真正变成 deployable compute”的重要观察点，而不是 Phase I 的已运行容量。[^9]
 
 ## 4. Phase III：2031–2033 — 地理与产业结构开始固化
 
@@ -180,3 +182,4 @@ Crane、Talen/AWS、Kairos/Google 等项目都必须按当前 state 更新，不
 [^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
 [^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
