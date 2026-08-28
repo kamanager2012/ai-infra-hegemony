@@ -56,7 +56,7 @@ NVIDIA reported manufacturing, supply, and capacity commitments of:
 - **US$119B** as of 2026-04-26;
 - **US$279B** as of 2026-07-26.
 
-Scope: the FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities. These remain aggregate commitments, not a disclosed single-supplier order. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
+Scope: the FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities. These remain aggregate commitments, not a disclosed single-supplier order.
 
 These commitments are useful as a forward proxy for resource reservation.
 
@@ -74,11 +74,13 @@ Key public anchors include:
 - 5 nm: **36%**;
 - 7 nm: **14%**;
 - 7 nm and below: **74%**;
-- HPC platform: **58%**;
-- Smartphone platform: **29%**;
-- largest customer: **19% of annual revenue**;
-- second-largest customer: **17%**;
+- HPC platform: **58%** of revenue, with platform revenue up **48% YoY**;
+- Smartphone platform: **29%** of revenue, with platform revenue up **11% YoY**;
+- 2025 largest customer: **19% of annual revenue**;
+- 2025 second-largest customer: **17%**;
 - advanced packaging + testing: slightly above **10%** of revenue.
+
+**Customer-scope hard boundary:** annual largest / second-largest rankings are not a same-customer time series. A separate anonymized table provides the directly comparable 2024→2025 series: Customer A **12%→19%**, Customer B **22%→17%**. The two disclosure formats must not be stitched together into one customer's longitudinal trajectory.
 
 ### Packaging status
 
@@ -110,11 +112,13 @@ Micron's FY25 10-K further confirms that HBM requires more wafers and cleanroom 
 
 ### TrendForce
 
-For 2026:
+**2026E institutional forecast:**
 
-- HBM + RDIMM represent approximately **51% of DRAM bits**.
+- HBM + RDIMM represent approximately **51% of DRAM bit supply**.
 
-Together, those observations help monitor conventional-DRAM residual capacity.
+The 51% figure is a forecast bit share, not an observed full-year actual, wafer share, or revenue share.
+
+Together with Micron's 3× trade-ratio disclosure, it helps monitor conventional-DRAM residual capacity.
 
 ### SK hynix
 
@@ -123,9 +127,8 @@ FY25:
 - revenue: **KRW 97.1467T**;
 - operating profit: **KRW 47.2063T**;
 - operating margin: **49%**;
+- net income: **KRW 42.9479T**;
 - HBM revenue: more than doubled year over year.
-
-Public source: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 These indicators help determine whether the HBM product mix continues to support unusually strong memory-vendor economics.
 
@@ -148,7 +151,7 @@ It is:
 
 > **Is incremental capital still flowing primarily into AI servers, networking, memory, data centers, and power?**
 
-Scope consistency matters more than producing one visually impressive four-company total.
+Scope consistency matters more than producing one visually impressive four-company total. Actuals, guidance, and expectations must retain their separate identities.
 
 ## 6. Power
 
@@ -165,10 +168,8 @@ Energy projects are tracked through five states:
 Current important projects include:
 
 - Microsoft / Constellation: approximately **835 MW** restart PPA;
-- Talen / AWS: revised PPA up to **1.92 GW**;
-- Google / Kairos: development target up to **500 MW**.
-
-The Talen/AWS front-of-the-meter conversion was completed in **April 2026**.
+- Talen / AWS: revised-PPA full contract quantity **up to 1,920 MW**, transition occurred in **April 2026**, with power delivery ramping to full volume **no later than 2032**;
+- Google / Kairos: Hermes 2 **up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**.
 
 The next variables are therefore:
 
@@ -177,11 +178,7 @@ The next variables are therefore:
 - actual data-center load;
 - utilization.
 
-### Key public sources
-- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
+A contracted maximum must not be restated as real-time AI-rack load.
 
 ## 7. System-stack substitution
 
@@ -332,12 +329,14 @@ It is that it keeps the report **continuously calibratable to reality**.
 
 ## Key public sources for this volume
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-
-## Key public sources
-
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- TSMC 2025 consolidated report (Customer A/B): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TSMC 2025 20-F — annual customer rankings: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report — Customer A/B: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — up to 1,920 MW; full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — 50 MWe in 2030; up to 500 MWe by 2035: https://www.kairospower.com/google
