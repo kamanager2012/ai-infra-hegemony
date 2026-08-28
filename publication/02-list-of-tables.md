@@ -33,6 +33,7 @@
 - [Table 29.1 — NVIDIA seller economics 与 forward-reservation 基线](part-IV-ch29-monitoring-framework.md)
 - [Table 29.2 — Power project state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — 更新时的默认 evidence grade](part-IV-ch29-monitoring-framework.md)
+- [Table 29.4 — 核心变量的观察频率、持续期与情景触发规则](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号](part-IV-ch30-scenarios.md)
 - [Table 31.1 — 长期战略判断所依赖的核心结构变量](part-IV-ch31-strategy-endgame.md)
 - [Table 31.2 — AI 相关资产的主要价值来源与风险](part-IV-ch31-strategy-endgame.md)
