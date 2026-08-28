@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-24.md](../vol-24.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume keeps three evidence levels separate: TSMC's first-party statements on packaging tightness, institutional estimates of customer demand, and the report's own geometry stress tests.
+> Retrieval and revision cutoff: **2026-08-28**. This volume keeps three evidence levels separate: TSMC's first-party statements on packaging tightness, institutional estimates of customer demand, and the report's own geometry stress tests.
 
 ## 1. Advanced packaging has become a system constraint
 
