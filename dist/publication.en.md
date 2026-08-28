@@ -1928,3 +1928,1501 @@ The semiconductor supply chain of the next decade is therefore more likely to co
 [^ch09-5]: U.S. Department of Commerce, TSMC Arizona CHIPS final award, 2024-11, https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
 [^ch09-6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
 [^ch09-7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
+
+
+\newpage
+
+# Part II · Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition
+
+## 1. Model companies are not pure software businesses detached from infrastructure
+
+The variable cost underneath APIs, subscriptions, and agent services includes accelerator time, HBM bandwidth, KV cache, storage / retrieval, networking, third-party tools, human review, cloud margin, and serving utilization.
+
+AI software therefore cannot simply inherit the traditional SaaS narrative that an incremental user carries almost no marginal cost.
+
+The relevant unit is:
+
+> **Revenue per completed workflow − total variable AI cost per completed workflow**
+
+## 2. Algorithmic efficiency changes the demand function
+
+DeepSeek-V3 first-party disclosures include:[^ch10-1][^ch10-1]
+
+- 671B total parameters;
+- 37B activated parameters;
+- 14.8T pre-training tokens;
+- 2.664M H800 GPU-hours for pre-training;
+- 2.788M H800 GPU-hours for full formal training.
+
+Using the paper's US$2/GPU-hour assumption, 2.788M GPU-hours corresponds to approximately **US$5.576M of formal-training compute conversion**.
+
+That is not full enterprise R&D cost.
+
+The important implication is that frontier capability is not linearly fixed to hardware input. Architecture, sparsity, routing, and memory design can materially change the resources required per unit of capability.
+
+## 3. MLA shows that memory cost can be attacked directly by algorithms
+
+DeepSeek-V2 reports, relative to DeepSeek 67B:[^ch10-2][^ch10-2]
+
+- approximately **93.3% KV-cache reduction**;
+- approximately **5.76× maximum generation throughput**.
+
+These figures belong to V2, not V3.
+
+Their economic significance is that the same HBM capacity can support more concurrency, memory traffic per token can fall, and serving utilization can improve.
+
+Lower unit cost, however, does not guarantee lower aggregate infrastructure demand. If lower cost causes token, agent, and workflow volume to rise faster, total demand can still increase.
+
+## 4. Open source compresses model-layer profit first; it does not automatically compress all infrastructure profit
+
+Open-source models increase capability diffusion, private deployment, and model-switching options while pressuring API premiums.
+
+Model-layer switching generally happens faster than replacement of accelerators, HBM, networking, packaging, or data-center infrastructure.
+
+The market can therefore experience:
+
+> **model price compression + infrastructure utilization growth**
+
+This is why falling API prices are not equivalent to falling AI-infrastructure demand.
+
+## 5. The correct GPU-vs-ASIC comparison unit is System TCO
+
+Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA create alternative compute paths for internal workloads and model companies.
+
+The comparison should not focus on accelerator-die price alone. It must include:
+
+- workload compatibility;
+- compiler/runtime maturity;
+- HBM / interconnect configuration;
+- cluster scaling;
+- debugging / porting cost;
+- effective utilization.
+
+A theoretically cheaper chip can still produce a higher system TCO if migration, debugging, or utilization are materially worse.
+
+## 6. AI Software Unit Economics
+
+A production workflow should at minimum include:
+
+> **Contribution Margin = Revenue per workflow − inference − retrieval/storage − tools/APIs − retries − human review − compliance/operations**
+
+The metrics that matter include:
+
+- cost per successfully completed task;
+- gross margin after inference;
+- revenue / productivity value per workflow;
+- retention;
+- retry / failure rate;
+- human-review burden;
+- utilization of reserved compute.
+
+## 7. Anchor Buyers let model companies influence infrastructure in reverse
+
+The largest model companies increasingly influence cloud, chip, and power investment through multi-year compute commitments, dedicated data-center projects, and long-duration capacity reservations.
+
+A model company is therefore not permanently limited to passively accepting cloud pricing. At sufficient scale, it can become a demand anchor for infrastructure capital formation.
+
+The same mechanism amplifies risk. If architecture efficiency rises, revenue underperforms, or workloads migrate elsewhere, long-duration capacity commitments can turn into utilization and duration risk.
+
+## 8. Price compression and the Jevons-style rebound
+
+Algorithmic efficiency and open-source competition reduce the unit cost of intelligence.
+
+Aggregate infrastructure demand depends on:
+
+> **Net Infrastructure Demand = Unit Resource Intensity × Total Workload Volume**
+
+If unit resource intensity falls 50% while workload volume grows 4×, total demand still increases.
+
+Long-run analysis therefore has to observe real workload, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
+
+## 9. Current judgment
+
+As of 2026, a more defensible description is:
+
+- model-layer price competition and capability diffusion are real;
+- unit cost continues to fall;
+- open source raises buyer bargaining power;
+- infrastructure demand has not therefore entered a confirmed decline cycle;
+- large model companies are using long-duration commitments to shape infrastructure buildout.
+
+Algorithmic efficiency can become either a **demand interrupter** or a **usage multiplier** for infrastructure. Which effect dominates can only be determined through workload volume, utilization, and unit economics.
+
+## References
+
+[^ch10-1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
+[^ch10-2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
+
+
+\newpage
+
+# Part II · Chapter 11: NVIDIA's Expansion from Accelerator Vendor to AI Factory
+
+## 1. NVIDIA's expansion is not traditional IDM-style vertical integration
+
+NVIDIA does not control the system by owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
+
+Its expansion is better described as:
+
+> **interface control + reference architecture + software/runtime + supply orchestration**
+
+The system boundary now spans GPU / CPU, NVLink / NVSwitch, networking, rack-scale design, liquid-cooling requirements, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^ch11-1][^ch11-2][^ch11-3][^ch11-1][^ch11-2][^ch11-3]
+
+## 2. The rack-scale sales unit changes the role of OEMs and ODMs
+
+In the accelerator-card era, OEMs had wide latitude to define server architecture around the GPU.
+
+At rack scale, power delivery, cooling, fabric, cable topology, firmware, rack layout, and software validation are more tightly coupled to the reference architecture.
+
+This does not mean Dell, HPE, Lenovo, ODMs, or other integrators lose product capability. It means the system-platform owner exerts stronger constraints over whole-system design and qualification.
+
+## 3. Networking has become part of the compute platform
+
+Large-model training and inference increasingly depend on multi-GPU scaling and collective communication.
+
+When accelerators, NVLink/NVSwitch, InfiniBand/Ethernet networking, and the software communication stack are co-designed, the network stops being merely an external component and becomes part of system performance and switching cost.
+
+Platform competition therefore moves from "GPU + arbitrary network" toward a more integrated AI Factory architecture.
+
+## 4. DGX Cloud is primarily a platform extension
+
+Without a separately disclosed large-scale revenue line, DGX Cloud should not be presented as a second business that has already replaced hyperscalers.
+
+Its more defensible strategic functions are:
+
+1. demonstrating the complete NVIDIA architecture;
+2. collecting real workload / deployment feedback;
+3. lowering the initial adoption barrier for the full stack;
+4. increasing NVIDIA's channel and bargaining options relative to hyperscalers.
+
+DGX Cloud is therefore better understood as a platform extension and reference-deployment channel.
+
+## 5. AI Enterprise / NIM / NeMo primarily deepen deployment integration and migration cost
+
+Software products extend the system platform from hardware purchase into model serving, deployment, optimization, enterprise support, and lifecycle management.
+
+Until independent software revenue is disclosed, this report does not estimate a fixed "software tax" or separate software profit pool.
+
+The more accurate strategic effect is:
+
+> **lower deployment friction inside the platform and higher migration friction outside it.**
+
+## 6. Why asset-light orchestration matters
+
+NVIDIA leaves much of the manufacturing CapEx with TSMC, memory vendors, the packaging ecosystem, and infrastructure providers while influencing their expansion through long-duration commitments, prepayments, roadmap coordination, and volume certainty. NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^ch11-4] NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^ch11-4]
+
+The structure is:
+
+> system definition / cash generation stays with the platform → heavy manufacturing CapEx stays with suppliers → the platform uses orders and commitments to reserve future resources
+
+This raises platform capital efficiency and turns external supply elasticity into part of platform strategy.
+
+## 7. Physical AI is the next system extension, but it cannot be mixed with current Data Center profit
+
+Automotive, robotics, simulation, and edge deployment follow the same system logic: hardware architecture, runtime, simulation, developer tooling, and model deployment form a combined platform.
+
+But "strategically important" does not mean "already contributing Data Center-scale revenue."
+
+Physical AI has to be evaluated independently through design wins, deployment scale, revenue, reliability, and ecosystem adoption.
+
+## 8. Seven boundaries to vertical expansion
+
+NVIDIA's system expansion faces real counterforces:
+
+- hyperscaler custom system stacks;
+- open compiler/runtime and portability;
+- alternative networking;
+- customer multi-sourcing;
+- regulation / interface remedies;
+- physical power and supply constraints;
+- China's parallel stack.
+
+If these variables strengthen together, NVIDIA can remain the strongest system platform while losing some bargaining power over system definition.
+
+## 9. The correct meaning of "AI Factory"
+
+AI Factory should not be interpreted as an ownership claim that "every data center is an NVIDIA factory."
+
+It is better understood as a design philosophy in which compute, memory, networking, software, racks, cooling, and deployment are optimized as one production system.
+
+Its industrial importance is that the sales unit, qualification process, supply commitments, and data-center engineering are pulled into one coordinated roadmap.
+
+## 10. Current judgment
+
+As of 2026, the clearest change is that NVIDIA has moved materially from accelerator vendor toward system-platform / AI-Factory architecture.
+
+"Vertical expansion" and "the industry is fully controlled by one platform" remain different propositions.
+
+The next question is whether system definition can continue to translate into long-duration workloads, supply commitments, and cross-generation customer retention with low in-platform migration cost.
+
+## References
+
+[^ch11-1]: NVIDIA, NIM official product page, optimized inference microservices across cloud, data center, workstation, and edge, https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/
+[^ch11-2]: NVIDIA, AI Foundation Models / NeMo, NVIDIA AI Foundry architecture, https://www.nvidia.com/en-us/ai-data-science/foundation-models/
+[^ch11-3]: NVIDIA, “Introducing NVIDIA DGX Cloud Lepton,” unified AI platform and compute marketplace, https://developer.nvidia.com/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/
+[^ch11-4]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Data Center, networking, platform, and supply-chain disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+
+\newpage
+
+# Part II · Chapter 12: Hyperscaler System-Stack Competition
+
+## 1. Competition has moved from ASIC vs. GPU to System Stack vs. System Stack
+
+Describing Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA as "a few ASICs challenging GPUs" no longer captures the 2026 competitive state.
+
+The relevant unit includes at least:
+
+- accelerator;
+- HBM;
+- compiler/runtime;
+- scale-up fabric;
+- scale-out network;
+- rack/pod;
+- orchestration;
+- production workload.
+
+This report uses **Cloud System-Stack Substitution** to describe the change.
+
+The metric is not a single-chip benchmark. It is whether an alternative system can deliver sufficiently low TCO, acceptable migration cost, and stable large-scale utilization on real workloads.
+
+## 2. The hyperscaler's unique advantage: it is its own first large customer
+
+The structural difference between the major clouds and an ordinary chip startup is that hyperscalers simultaneously possess:
+
+- massive internal workloads;
+- data-center scale;
+- compiler / software engineering;
+- cloud distribution;
+- capital;
+- power procurement;
+- custom-silicon teams.
+
+They do not need to reproduce CUDA's entire external developer ecosystem on day one.
+
+If an in-house system continuously lowers cost on a large captive workload, it already creates real economic value and generates production feedback for improving the compiler, interconnect, rack, and deployment tooling.
+
+That produces a powerful learning loop:
+
+> **internal workload → production feedback → system optimization → lower TCO → more internal workload**
+
+## 3. Google: TPU is already a combination of chip, software, interconnect, and pod
+
+Google's TPU path spans multiple generations.
+
+Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with XLA/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^ch12-1][^ch12-1]
+
+Google's competitive unit is therefore:
+
+> **TPU + compiler/runtime + network + pod + captive workload + cloud distribution**
+
+If this system continuously lowers total cost of ownership for selected training or inference workloads, it can divert part of NVIDIA's platform profit even without becoming the universal development platform for the entire industry.
+
+## 4. AWS: Trainium combines silicon, Neuron, and UltraServer
+
+AWS Trainium has likewise moved from accelerator toward system.
+
+Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.[^ch12-2][^ch12-2]
+
+AWS also benefits from long-duration anchor demand. Anthropic has publicly deepened its compute relationship with AWS, giving Trainium a large workload base on which to iterate system economics.[^ch12-3][^ch12-3]
+
+But "having an anchor workload" is not the same as replacing NVIDIA's external ecosystem.
+
+The variables that still need to be tested include large-cluster scaling, utilization, software maturity, migration cost, and external-customer adoption.
+
+## 5. Microsoft: Maia's value depends on scaled Azure deployment, not copying all of CUDA
+
+The correct standard for Microsoft Maia 200 is not whether it supports every model on day one.[^ch12-4]
+
+It is whether Maia can create a stable cost advantage on a sufficiently large Azure / Microsoft internal workload.
+
+Long-run competitiveness depends on:
+
+- compiler/runtime maturity;
+- scale-up / scale-out capability;
+- HBM configuration and supply;
+- rack/data-center integration;
+- high utilization;
+- broader Azure deployment.
+
+If those conditions hold across a large enough captive workload, Maia can divert part of external platform economics.
+
+Becoming a general external substitute would require lower migration cost and a wider ecosystem.
+
+## 6. Meta: MTIA shows that narrow-workload specialization can be a valid route
+
+Meta operates very large recommendation, ranking, and generative-AI workloads.
+
+MTIA 300's logic is not to become a general-purpose accelerator first.[^ch12-5] It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution.
+
+The economic objective is:
+
+> **give the company's largest workloads a lower long-run TCO.**
+
+MTIA does not need to beat general-purpose GPUs across every workload to create value.
+
+## 7. Cloud custom systems create two simultaneous effects on NVIDIA
+
+### 7.1 Platform-profit diversion
+
+In-house systems can reduce external accelerator purchases, lower dependence on an external software/platform stack, improve procurement bargaining power, and keep more economics inside the cloud platform.
+
+### 7.2 Upstream resource competition
+
+Next-generation custom systems still need advanced logic, HBM, advanced packaging, networking, and power.
+
+Their expansion can therefore increase competition for the same upstream scarce resources used by NVIDIA.
+
+The combined result is:
+
+> **Cloud custom silicon can weaken NVIDIA platform profit while intensifying competition for TSMC / HBM / packaging / power.**
+
+The two effects are not contradictory.
+
+## 8. Cloud CapEx is not synonymous with NVIDIA revenue
+
+Hyperscaler CapEx includes custom silicon, third-party accelerators, networking, memory, data centers, power, offices, fulfillment assets, and other categories. Fiscal periods, PPE definitions, and lease accounting also differ across companies.
+
+Therefore:
+
+> **Cloud CapEx ≠ AI hardware subtotal ≠ NVIDIA purchases**
+
+Higher CapEx can support NVIDIA shipments while also accelerating systems designed to substitute for NVIDIA.
+
+The four-cloud CapEx numbers cannot be compared directly with NVIDIA revenue to construct an "AI compute tax rate."
+
+## 9. DeepSeek represents another type of competition: public algorithmic cost reduction
+
+Cloud custom silicon is a form of **private cost reduction**: Google, AWS, Microsoft, or Meta optimize their own system economics and keep most of the benefit inside their platforms.
+
+The algorithmic / architectural efficiency represented by DeepSeek is closer to **public cost reduction**. If an architecture materially lowers compute or memory requirements for training or serving, other developers can adopt similar ideas and alter the market-wide unit cost of intelligence.
+
+The auditable DeepSeek-V3 first-party anchors are:[^ch12-6][^ch12-6]
+
+- 671B total parameters;
+- 37B activated parameters;
+- 14.8T pre-training tokens;
+- **2.664M H800 GPU-hours** for pre-training;
+- **2.788M H800 GPU-hours** for full formal training.
+
+Using the paper's US$2/GPU-hour assumption, **US$5.576M corresponds to the full formal-training compute conversion**, not full R&D cost.
+
+A separate DeepSeek-V2 result reports **93.3% KV-cache reduction** and **5.76× maximum generation throughput** relative to DeepSeek 67B.[^ch12-7][^ch12-7]
+
+V2 and V3 must not be combined into a single model result.
+
+## 10. Algorithmic cost reduction does not automatically eliminate infrastructure demand
+
+Architecture efficiency can reduce bytes/token, training compute, or serving cost, but aggregate infrastructure demand still depends on demand elasticity: how much workload volume expands after unit cost falls.
+
+DeepSeek-style efficiency can therefore affect hyperscalers in two directions:
+
+- reduce the hardware required for the same workload;
+- stimulate larger token / workflow volume through lower prices and broader applications.
+
+The correct question is not "efficiency rose, so CapEx should fall."
+
+It is:
+
+> **After unit workload cost falls, do total effective workload, utilization, and revenue still cover the installed capital base?**
+
+## 11. What would count as real System-Stack Substitution
+
+Single-chip benchmarks are not enough.
+
+At least the following variables need to be observed together:
+
+1. mature compiler/runtime;
+2. large-cluster scaling;
+3. high utilization;
+4. acceptable workload-migration cost;
+5. sustainable HBM / packaging / power supply;
+6. stable rack/pod deployment;
+7. significant real workload share.
+
+Success on internal workloads can create real economics, but "full replacement of NVIDIA's external ecosystem" additionally requires evidence of cross-customer, cross-workload migration and production reliability.
+
+## 12. The long-run equilibrium is more likely to be workload segmentation
+
+The most realistic long-run structure may not be one side eliminating the other.
+
+A more plausible equilibrium is workload segmentation.
+
+**Areas where NVIDIA can remain stronger:**
+
+- general-purpose frontier training;
+- broad external developer ecosystems;
+- heterogeneous enterprise workloads.
+
+**Areas where hyperscaler custom stacks can be stronger:**
+
+- massive internal workloads;
+- repeatable architecture;
+- vertically optimized training/inference;
+- cloud-specific TCO optimization.
+
+The boundary will move with software maturity, interconnect, memory supply, workload structure, and migration cost.
+
+## 13. Current judgment
+
+As of August 2026, the most defensible description is:
+
+- cloud custom silicon is already a real competitive force;
+- the competitive unit has moved from custom chip to complete system stack;
+- hyperscalers are attacking software, interconnect, rack/pod, and workload layers rather than only the accelerator die;
+- frontier training and the broad external ecosystem have not been shown to have systematically moved away from NVIDIA;
+- custom systems still compete heavily for advanced logic, HBM, advanced packaging, and power.
+
+**Cloud System-Stack Substitution is therefore one of the most important structural variables that could move S2 Baseline Concentration toward S1 Competitive Expansion**, but its strength must be measured through real workload share, migration cost, utilization, and upstream-resource dependence.
+
+## References
+
+[^ch12-1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^ch12-2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^ch12-3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^ch12-4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
+[^ch12-5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^ch12-6]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^ch12-7]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
+
+
+\newpage
+
+# Part II · Chapter 13: Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure
+
+## 1. Model companies are moving from compute tenants to Infrastructure Anchor Buyers
+
+The traditional relationship was:
+
+> model company → rent cloud compute
+
+At the largest scale, it is changing toward:
+
+> **model-company demand ↔ cloud / data-center / power buildout**
+
+Multi-year compute commitments, dedicated campuses, chip selection, and capacity reservation give infrastructure providers greater revenue visibility.
+
+## 2. Anchor Compute Buyer Effect
+
+The mechanism can be written as:
+
+> **long-duration model demand → infrastructure-financing certainty → earlier data-center/power buildout → earlier chip/HBM/packaging reservation → priority capacity for anchor workloads**
+
+Model-company demand has therefore become an upstream signal for capital formation, not merely a passive consequence of hyperscaler investment.
+
+## 3. OpenAI Stargate: from nominal commitment to secured / construction state
+
+OpenAI announced Stargate in January 2025, with a plan to invest **US$500B over four years** in U.S. AI infrastructure.[^ch13-1]
+
+The long-run objective was later described as securing **10 GW** of U.S. AI infrastructure by 2029.[^ch13-2]
+
+The status moved further forward in 2026. On **April 29, 2026**, OpenAI said Stargate had **surpassed the 10 GW secured-capacity milestone** and had added more than 3 GW in the prior 90 days.[^ch13-2] On **June 1, 2026**, the **1 GW The Barn** data-center campus in Michigan broke ground.[^ch13-3]
+
+These states must remain separate:
+
+> commitment / secured capacity / construction / energized capacity / utilization
+
+More than 10 GW secured does not mean more than 10 GW is already energized and operating.
+
+## 4. Anthropic / AWS: an anchor workload can also accelerate custom silicon
+
+Anthropic disclosed in April 2026 that:[^ch13-4]
+
+- its future ten-year commitment to AWS technologies is **more than US$100B**;
+- it can access **up to 5 GW** of capacity;
+- it is already using **more than 1M Trainium2 chips**;
+- by the end of 2026 it expects close to **1 GW of Trainium2/3 capacity**.
+
+Model-company demand can therefore become an important anchor workload for cloud custom silicon.
+
+The public disclosure establishes scale. It does not establish a "largest customer" ranking without a disclosed workload-share denominator.
+
+## 5. Anchor Buyers gain demand-side power, not ownership of the physical stack
+
+A model company can influence:
+
+- demand certainty;
+- chip / system selection;
+- cloud roadmaps;
+- rack deployment;
+- power planning;
+- infrastructure financing.
+
+But it does not normally own the leading-edge foundry, HBM fab, advanced-packaging fab, or transmission grid.
+
+Anchor Buyer power is therefore an increase in demand-side bargaining and coordination—not full supply-chain ownership.
+
+## 6. Why changing clouds is not merely changing the bill
+
+A model company chooses a full system composed of accelerator, HBM, interconnect, compiler/runtime, scheduler, rack/pod, and cloud operations.
+
+Migration can require kernel adaptation, distributed-training changes, performance tuning, observability rework, and operational revalidation.
+
+That creates infrastructure switching costs and helps explain why exit costs from long-duration capacity commitments can be much higher than those of ordinary SaaS contracts.
+
+## 7. Algorithmic efficiency directly changes Anchor Demand
+
+If architecture sharply lowers the compute required for the same capability, a model company can reduce long-duration capacity commitments, improve buyer bargaining power, and increase utilization risk for infrastructure providers.
+
+If lower unit cost stimulates workload volume even faster, long-duration commitments can continue to expand.
+
+Anchor Buyer Demand is therefore a dynamic demand function, not a fixed exponential curve.
+
+## 8. How Anchor Buyer demand propagates through the supply chain
+
+Large-scale model demand can transmit through:
+
+> model demand → cloud CapEx / custom silicon → accelerator/HBM/packaging → data-center power → grid/generation
+
+AI-infrastructure analysis therefore has to look beyond hyperscaler CapEx and system-vendor commitments and track model-company long-duration contracts as an independent variable.
+
+## 9. Risk: Anchor Buyers can also amplify stranded-capacity risk
+
+If model-company revenue, financing, workload growth, or architecture assumptions reverse, long-duration infrastructure commitments can become low-utilization assets.
+
+The variables that matter include:
+
+- cancellation / rescheduling;
+- take-or-pay / minimum commitments;
+- utilization;
+- project financing;
+- customer concentration;
+- power and data-center delivery state.
+
+## 10. Current judgment
+
+As of August 2026, large model companies constitute a distinct Anchor Buyer category inside AI infrastructure.
+
+OpenAI Stargate's secured-capacity and construction states, together with Anthropic/AWS's ten-year compute commitment and Trainium deployment, show that model workloads are shaping data-center, power, and custom-silicon buildout.
+
+Anchor Buyer commitments are therefore an important leading indicator between S2/S3 expansion and S4 capital clearing.
+
+## References
+
+[^ch13-1]: OpenAI, “Announcing The Stargate Project,” 2025-01, https://openai.com/index/announcing-the-stargate-project/
+[^ch13-2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+[^ch13-3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
+[^ch13-4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW, and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+
+
+\newpage
+
+# Part II · Chapter 14: Agent-Native Software and AI Software Unit Economics
+
+## 1. Agent-native software changes the cost structure
+
+Traditional SaaS typically has low software-replication cost, and seat growth does not necessarily increase variable compute linearly.
+
+Agent-native software is different. A single task may trigger retrieval, reasoning, multiple model calls, tool invocation, browser/action execution, retries, and human review.
+
+The cost unit therefore shifts from:
+
+> **account / seat**
+
+toward:
+
+> **workflow execution**
+
+## 2. There is no universal end-state for "AI SaaS gross margin"
+
+Variable cost differs by product and depends on model choice, context length, caching, retrieval, tools/APIs, failure/retry rates, human review, pricing model, and task depth.
+
+This report therefore does not treat a fixed path such as "traditional SaaS 85% → AI SaaS 55%" as fact.
+
+It uses **AI Software Unit Economics** instead.
+
+## 3. Core unit-economics formula
+
+A production workflow can be approximated as:
+
+> **Contribution Margin = Revenue / Productivity Value per workflow − Variable AI cost − Tools/APIs − Human review**
+
+Variable AI cost includes at least:
+
+- inference;
+- retrieval / storage;
+- model routing;
+- retries;
+- observability;
+- failure handling.
+
+The optimization target is **cost per successfully completed workflow**, not merely cost per token.
+
+## 4. Agent depth determines the cost curve
+
+A shallow assistant may look like:
+
+> single prompt → single response
+
+A deeper agent looks more like:
+
+> plan → retrieve → reason → tool call → inspect → retry → finalize
+
+As loop depth grows, compute, tool usage, and the failure surface all expand.
+
+Agent products therefore have to optimize:
+
+- task success;
+- loop length;
+- model routing;
+- caching;
+- tool reliability;
+- failure / retry rate.
+
+## 5. Why seat pricing comes under pressure
+
+Seat pricing can remain effective for summarization, autocomplete, and shallow-assistant products.
+
+If one seat can launch research, coding, support, sales, and operations workflows with very different depths, compute variance becomes much larger.
+
+Long-run pricing can therefore shift toward combinations of:
+
+- usage;
+- credits;
+- workflow;
+- outcome;
+- hybrid models.
+
+This does not imply that seat pricing disappears. It means agent depth weakens the correlation between a seat and real variable cost.
+
+## 6. Multi-model routing becomes a foundational software capability
+
+Sending every task to the most expensive model directly damages unit economics.
+
+A more efficient system design can use:
+
+- cheap / local models for classification, extraction, and high-volume routine work;
+- medium models for routine reasoning;
+- frontier models for complex tasks and high-uncertainty decisions;
+- specialist/custom models for stable professional workloads.
+
+Routing is a dynamic allocation problem across quality, latency, cost, and failure probability.
+
+## 7. Open source can move profit from "model capability" toward workflow and distribution
+
+Open-source models increase portability, pressure API premiums, expand private deployment, and improve buyer bargaining power.
+
+Model capability itself therefore becomes harder to preserve as permanent software margin.
+
+More durable value can move toward:
+
+- proprietary workflow;
+- domain data / context;
+- distribution;
+- integration;
+- trust / compliance;
+- measurable outcomes.
+
+## 8. Cloud System-Stack Competition can transmit into application cost
+
+Software companies usually do not purchase HBM, CoWoS, or grid capacity directly.
+
+Cloud pricing, however, embeds accelerator, memory, networking, data-center, and power costs.
+
+If hyperscaler custom stacks lower real system TCO, part of that benefit can transmit over time through instance or API pricing into the application layer.
+
+Infrastructure competition around Google Ironwood TPU, AWS Trainium3, and other systems therefore affects software contribution margin as well as the chip market.[^ch14-1][^ch14-2]
+
+## 9. Human review is an often-underestimated variable cost
+
+In high-risk workflows such as legal, finance, and enterprise operations, human review may remain necessary for a long time.
+
+If agent-generation speed rises 10× but review burden does not fall, labor has simply moved from production to verification.
+
+True automation ROI should include:
+
+> **Human time before − Human time after − new review / exception-handling time**
+
+rather than measuring AI usage or generated tokens alone.
+
+## 10. Where high-quality profit in agent-native software can come from
+
+Products with stronger long-run economics are more likely to combine:
+
+- high workflow completion;
+- low variable AI cost;
+- low retry / review burden;
+- strong proprietary context;
+- distribution;
+- measurable customer ROI;
+- the ability to route across models and providers.
+
+Software competition is therefore moving from feature competition toward **workflow economics competition**.
+
+## 11. Current judgment
+
+AI is moving part of software from low-marginal-cost replication toward real-time compute-consuming workflow systems.
+
+This can compress some traditional software margins, but it does not imply that all software becomes a low-margin business.
+
+The dividing line is:
+
+> **who can convert model calls into repeatable, verifiable, low-failure, monetizable business outcomes.**
+
+## References
+
+[^ch14-1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^ch14-2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+
+## Cross-references
+
+- Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition
+- Chapter 12: Hyperscaler System-Stack Competition
+- Chapter 20: Value Capture Map
+- Chapter 25: AI and Labor Markets
+
+
+\newpage
+
+# Part II · Chapter 15: Physical AI and the Real Bottlenecks in Robotics
+
+## 1. The competitive unit in robotics is also the system
+
+Physical AI has to solve perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
+
+A robot's productive value therefore cannot be judged from the AI model or edge TOPS alone.
+
+A complete system has to close:
+
+> **model capability × sensor quality × control latency × actuator reliability × energy efficiency × manufacturing economics**
+
+## 2. Cloud training and edge control sit under different physical constraints
+
+Large-scale simulation, policy training, and foundation-model training can run in data centers.
+
+Real-time control is constrained by latency, thermals, battery, sensor loops, and safety deadlines.
+
+Many Physical AI systems therefore naturally follow:
+
+> **cloud-side heavy training + edge-side compressed inference/control**
+
+A roughly 120 kW-class data-center rack and a robot's W/Wh-level power budget belong to completely different physical pools.[^ch15-4]
+
+## 3. Robot BOM cannot be fixed by a universal percentage template
+
+Humanoids, AMRs, industrial arms, autonomous vehicles, and drones have very different actuator, reducer, sensor, compute, and battery cost structures.
+
+This report therefore does not treat fixed templates such as "actuators 35% / sensors 20% / compute 25%" as industry fact.
+
+The real task is to identify the **scarce component** for each robot form factor.
+
+## 4. Actuators and reducers can be harder to commoditize than compute
+
+The software narrative can easily understate mechanical bottlenecks such as:
+
+- frameless torque motors;
+- harmonic reducers;
+- planetary roller screws;
+- bearings;
+- precision gearboxes.
+
+The key variables include durability, backlash, repeatability, noise, yield, maintenance, and cost.
+
+The industry can therefore reach a state where:
+
+> **compute gets cheaper while high-precision mechanical components remain system bottlenecks.**
+
+## 5. Sensor quality determines whether model capability becomes reliable control
+
+Robotic systems may require cameras, depth sensing, force/torque sensors, tactile sensors, IMUs, encoders, and other feedback channels.
+
+Model capability becomes stable control only when calibration, latency, robustness, and failure detection are strong enough.
+
+The strategic value of the sensor stack is therefore not just BOM share. It is closed-loop reliability.
+
+## 6. The strategic position of the edge platform
+
+NVIDIA Jetson Thor, Qualcomm, and other edge accelerators compete across:[^ch15-1][^ch15-2]
+
+- compute;
+- software;
+- power efficiency;
+- developer ecosystem.
+
+An edge system does not need to replicate data-center rack architecture.
+
+But a platform that spans cloud training, simulation, and edge deployment can create cross-layer cloud-to-robot ecosystem lock-in.
+
+## 7. Physical deployment can generate more cloud workload in reverse
+
+Even if one robot uses modest edge compute, a large fleet continuously generates:
+
+- video / sensor data;
+- simulation workloads;
+- retraining;
+- synthetic data;
+- fleet analytics;
+- model updates.
+
+The feedback loop can be:
+
+> **physical deployment → data generation → retraining → more cloud compute**
+
+Robot adoption therefore does not necessarily reduce data-center demand. It can create new training and inference workloads.
+
+### 7.1 The robot itself can become a new memory / storage demand pool
+
+Micron's June 24, 2026 investor presentation provides a useful quantitative anchor that must retain its identity as a **company forward-looking view**:[^ch15-3]
+
+- L2+ and above vehicles carry more than **5×** the memory and storage content of an average vehicle;
+- Micron states that humanoid robots carry roughly **10×** the memory content of an average L2+ vehicle;
+- the company expects a sustained, multi-decade robotics memory-demand cycle to begin in the latter part of this decade.
+
+This is not industry-wide actual shipment data and it does not establish a universal "hundreds of GB of DRAM + several TB of SSD per robot" configuration.
+
+What it supports is the mechanism:
+
+> **Physical AI commercial scale ↑ → edge memory/storage content ↑ + fleet-generated cloud workload ↑**
+
+Robotics can therefore become both a new edge-memory demand pool and a new source of cloud retraining / storage demand.
+
+## 8. The robot-side power wall is battery / thermal
+
+The data-center power bottleneck is grid / interconnection.
+
+The robot-side bottleneck is battery energy density, runtime, charging, thermal constraints, and peak actuator demand.
+
+Physical AI should therefore be evaluated through:
+
+> **Useful task output / Wh**
+
+alongside continuous runtime, recharge time, thermal headroom, maintenance intervals, and field reliability—not TOPS alone.
+
+## 9. The real threshold from demo to mass production is manufacturing
+
+A demo can tolerate expensive parts, manual calibration, low yield, and frequent maintenance.
+
+Mass production cannot.
+
+Scale thresholds include component yield, assembly time, field failure rate, maintenance interval, supply-chain stability, and unit economics.
+
+The industrial inflection point for Physical AI therefore has to be demonstrated through manufacturing and deployment data, not demonstration videos.
+
+## 10. China's capability structure in Physical AI differs from frontier AI
+
+Physical AI depends heavily on motors, batteries, sensors, manufacturing, consumer-electronics supply chains, and system integration.
+
+Those layers do not perfectly overlap with the HBM / advanced-packaging / leading-edge compute closure required for frontier AI infrastructure.
+
+China can therefore have stronger competitiveness in robot systems and mechanical supply chains than in some frontier-AI infrastructure layers.
+
+This is a separate industrial path and should not be reduced to one "AI chip capability" metric.
+
+## 11. Value capture can be distributed across multiple physical layers
+
+Long-run value capture can appear simultaneously in:
+
+- edge compute / software platforms;
+- actuators / reducers;
+- sensors;
+- batteries / power electronics;
+- manufacturing / integration;
+- cloud simulation / training infrastructure.
+
+The robotics revolution is not fundamentally a contest over which model tops a benchmark.
+
+It is a contest over:
+
+> **who can convert AI capability into reliable, low-cost, mass-producible, maintainable physical work.**
+
+## References
+
+[^ch15-1]: NVIDIA Developer, Isaac platform, simulation/training and robotics workflow, https://developer.nvidia.com/isaac
+[^ch15-2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
+[^ch15-3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Micron_Q3_26_Earnings_Deck.pdf
+[^ch15-4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+
+
+\newpage
+
+# Part II · Chapter 16: AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths
+
+## 1. The four companies should not be collapsed into one "traditional semiconductor camp"
+
+AMD, Intel, Qualcomm, and Apple differ in compute layer, software, manufacturing access, workload mix, distribution, and capital structure.
+
+The correct question is therefore not who will "join forces against NVIDIA," but:
+
+> **Which layer of system-stack dominance is each company attacking?**
+
+## 2. AMD: the most direct data-center system challenger
+
+AMD Instinct is one of the most direct alternatives in data-center acceleration. AMD's current official roadmap also organizes Instinct GPUs, EPYC CPUs, Pensando networking, and ROCm into rack/system-level solutions.[^ch16-1][^ch16-2]
+
+The real threshold is not GPU design alone. It also includes:
+
+- ROCm / software maturity;
+- scale-up / scale-out;
+- HBM;
+- advanced packaging;
+- system reference architecture;
+- customer migration / production support.
+
+AMD's competitive unit has therefore also moved from chip to system.
+
+## 3. AMD is exposed to the same scarce-resource access problem
+
+AMD and NVIDIA compete for many of the same advanced-logic, HBM, and packaging resources.
+
+When NVIDIA demand is exceptionally strong, AMD's challenge is not only market share. It is also access to incremental scarce capacity.
+
+If HBM / packaging supply elasticity rises, the constraints on AMD system expansion fall.
+
+AMD is therefore a useful observable for **non-anchor-buyer access / residual capacity outside the leading buyer**, without requiring a new bespoke core concept.
+
+## 4. Intel: Product Clock and Foundry Clock run on different timelines
+
+Intel simultaneously carries CPU/product competition, accelerator efforts, foundry strategy, and domestic-manufacturing policy. Intel's 2025 Form 10-K and its 2026 VLSI Symposium update show that Intel Foundry continues to pursue an external-foundry strategy, with 18A in production and 18A-P in risk production.[^ch16-3][^ch16-4]
+
+The Product Clock requires short-cycle delivery of performance, software, and customer adoption.
+
+The Foundry Clock requires long-duration progress in process technology, yield, customer trust, packaging, and high-volume execution.
+
+Intel's recovery cannot therefore be proved by one product or one fab.
+
+## 5. Qualcomm: changing cloud demand from the edge
+
+Qualcomm's relative strengths are closer to smartphones, PCs, edge AI, low-power compute, and connectivity. Its 2026 materials continue to emphasize local agentic AI on Snapdragon X Series PCs and on-device generative AI on mobile platforms.[^ch16-5][^ch16-6]
+
+It does not need to reproduce NVL72 to capture AI value.
+
+If on-device model capability, memory efficiency, and local inference continue improving, more workloads can move from cloud to device, reducing part of cloud-inference demand.
+
+Qualcomm's primary effect on AI infrastructure is therefore **demand-function restructuring**, not direct substitution for frontier training systems.
+
+## 6. Apple: the power of a vertical consumer stack lies in workload placement
+
+Apple vertically integrates silicon, operating systems, devices, application ecosystems, distribution, and a massive installed base. Apple Intelligence publicly combines on-device processing with Private Cloud Compute, making workload placement a core part of its AI system design.[^ch16-7][^ch16-8]
+
+Apple is not a frontier-training system vendor, but it can influence where large volumes of consumer workloads execute: on device, in private cloud, or in public cloud.
+
+If on-device capability improves rapidly, Apple becomes an important platform variable affecting cloud-inference intensity.
+
+## 7. Apple is a leading-edge user, but this report does not invent customer rankings
+
+Apple has long used leading-edge process technology, but without first-party customer-share or ranking disclosures, this report does not treat a specific-year "largest/second-largest customer" identity as fact.
+
+The important forward variables are whether leading-node launch scale remains strong, whether AI/HPC absorbs more incremental capacity, and whether device-AI strategy changes wafer / memory mix.
+
+Historical revenue share is again not a substitute for AHICR.
+
+## 8. The four companies pressure the dominant stack from different directions
+
+**Table 16.1 — Four differentiated competitive paths**
+
+| Company | Primary competitive direction |
+|---|---|
+| AMD | Data-center accelerator / system |
+| Intel | CPU + accelerator + foundry |
+| Qualcomm | edge / PC / mobile AI |
+| Apple | vertically integrated on-device AI / workload placement |
+
+**Source:** AMD, Intel, Qualcomm, and Apple official company/product materials.[^ch16-1][^ch16-3][^ch16-5][^ch16-7]  
+**Note:** The table classifies competitive paths; it does not imply that the four companies operate in the same market or have directly comparable market shares.
+
+NVIDIA therefore faces multi-layer erosion rather than one unified opponent.
+
+## 9. What would raise the weight of S1 Competitive Expansion
+
+- AMD scales a production system stack;
+- Intel improves foundry and product execution together, increasing manufacturing/system diversity;
+- Qualcomm / Apple move more high-volume inference toward the edge;
+- open software / interfaces lower migration cost;
+- HBM / packaging supply becomes looser.
+
+These changes can raise S1 relative to S2, but S1 and S2 are parallel conditional states rather than sequential stages.
+
+## 10. Current judgment
+
+The incumbent semiconductor companies have neither disappeared nor formed a unified alliance.
+
+A more realistic structure is: AMD competes directly at the data-center system level; Intel is attempting to repair both product and manufacturing clocks; Qualcomm and Apple reshape part of the demand function from the edge and device layers.
+
+Whether they materially weaken dominant system-stack economics depends on production workload share, software portability, scarce-resource access, and customer migration—not on product-launch count.
+
+## References
+
+[^ch16-1]: AMD, Instinct / Helios official page, rack-scale solution integrating Instinct GPUs, EPYC CPUs, Pensando networking, and ROCm, https://www.amd.com/en/products/accelerators/instinct.html
+[^ch16-2]: AMD, “ROCm 10: A Simpler Path to Production AI on AMD,” 2026-08-27, https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html
+[^ch16-3]: Intel Corporation, 2025 Form 10-K, Intel Foundry and manufacturing strategy, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm
+[^ch16-4]: Intel Foundry, 2026-06 VLSI Symposium process milestones, 18A production and 18A-P risk production, https://newsroom.intel.com/intel-foundry/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium
+[^ch16-5]: Qualcomm, 2026-08, agentic AI applications on Snapdragon X Series PCs, https://www.qualcomm.com/news/onq/2026/08/agentic-ai-apps-snapdragon-x-series
+[^ch16-6]: Qualcomm, Mobile AI / on-device generative AI, https://www.qualcomm.com/smartphones/features/mobile-ai
+[^ch16-7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
+[^ch16-8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
+
+
+\newpage
+
+# Part II · Chapter 17: China's Parallel Stack — From Product Substitution to Frontier System Closure
+
+## 1. "It can run" and "it forms an equivalent system" are not the same standard
+
+Any discussion of China's AI stack becomes misleading if the layers are not separated first.
+
+At minimum, the analysis should distinguish:
+
+1. **smartphone / consumer computing**;
+2. **PC / workstation / general computing**;
+3. **frontier AI system stack**.
+
+These layers have very different requirements for advanced logic, memory, packaging, software, interconnect, and performance.
+
+China's strong smartphone supply chain cannot be extrapolated into proof that frontier-training systems are already closed. Conversely, frontier-AI constraints cannot be rewritten as "China has no semiconductor substitution capability."
+
+The relevant test is whether a system reaches production-grade acceptability across **functional availability, performance, scale, software portability, supply sustainability, and economics** at the same time.
+
+## 2. Layer one: consumer computing is the easiest place to form parallel supply
+
+Smartphones and parts of consumer computing can form a more complete domestic chain because they can draw on local SoCs, foundries, LPDDR/NAND, packaging, device manufacturing, operating-system/application ecosystems, and large domestic demand.
+
+TSMC's 2025 platform mix still shows smartphone at **29%** of annual platform revenue and HPC at **58%**.[^ch17-1]
+
+### 2.1 "Huawei is the only Chinese smartphone-SoC vendor with real scale" is no longer consistent with 2026 public data
+
+Counterpoint Research's 2026 Q1 global smartphone AP-SoC shipment shares show:[^ch17-2]
+
+- UNISOC: **14%**;
+- HiSilicon: **4%**.
+
+If commercial scale is measured by actual smartphone-SoC shipments, domestic supply is therefore not limited to Huawei.
+
+Huawei / HiSilicon's more defensible distinction is that its **premium in-house device + SoC + software/ecosystem vertical loop is more mature**, not that it is the only domestic vendor with shipment scale.
+
+Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^ch17-3] Reuters reported in August 2026 that O1 had powered **more than 1M devices**, while the next-generation O3 continues on TSMC 3 nm with projected initial device shipments of 200k–300k units.[^ch17-4]
+
+The claim that Xiaomi has only "200k–300k scraps of capacity" or that the program is merely a branding exercise therefore does not enter the fact layer.
+
+A better judgment is:
+
+> **Xiaomi has achieved real production deployment, while multi-generation scale, modem/system integration, foundry dependency, and sustained shipment share still require validation.**
+
+UNISOC represents a different commercial loop: much larger shipment scale in mass-market / entry-5G devices without proving premium-flagship system equivalence.
+
+Consumer parallel-supply capability should therefore be evaluated as its own layer—not used as proof for or against frontier-AI closure.
+
+## 3. Layer two: PCs / workstations are constrained more by software compatibility and scale
+
+PCs, workstations, and general computing require CPU/GPU hardware, DDR5, professional software, drivers/tooling, desktop ecosystems, and developer compatibility.
+
+The claim that domestic PC CPUs/GPUs are "blank" is also too strong.
+
+Loongson's current official portfolio includes desktop/general-purpose CPUs such as the 3A6000 and 3B6000.[^ch17-5] Moore Threads publicly sells the MTT S80 gaming GPU.[^ch17-6]
+
+These facts establish **real products and deployable domestic PC/graphics systems**.
+
+They do not establish:
+
+- mainstream consumer-PC shipment share approaching Intel/AMD/NVIDIA;
+- equivalent coverage of professional software / games;
+- equivalent performance-per-watt, driver maturity, developer ecosystem, or supply scale.
+
+The more accurate description is therefore:
+
+> **the segment is not empty; products and domestic ecosystems exist, while mainstream scale, compatibility, and system economics remain the closure barriers.**
+
+## 4. Layer three: frontier AI is a system-level threshold
+
+Frontier AI requires multiple advanced layers to work simultaneously:
+
+- advanced accelerators;
+- HBM-class memory;
+- advanced packaging;
+- high-speed scale-up / scale-out interconnect;
+- compiler/runtime;
+- distributed training;
+- rack-scale deployment;
+- data-center power.
+
+A breakthrough in one layer does not automatically create an equivalent system.
+
+An accelerator without HBM, hardware with very high migration cost, or a cluster with weak utilization/interconnect scaling can all produce materially weaker system economics.
+
+This report therefore does not treat "one domestic chip can run a model" as sufficient evidence of frontier substitution.
+
+## 5. The strategic meaning of Ascend / CANN lies in system completeness, not one card's peak number
+
+The key value of a domestic accelerator stack is not the peak FLOPS of one generation.
+
+It is whether compiler/runtime, framework adaptation, distributed communication, deployment tooling, and production-workload feedback form a closed loop.
+
+The preferred observables include:
+
+- large-cluster utilization;
+- compiler stability;
+- operator completeness;
+- framework compatibility;
+- failure recovery;
+- multi-generation compatibility;
+- production deployment scale.
+
+Because some specific Ascend/CANN performance and migration-efficiency figures currently come primarily from secondary sources, this chapter does not upgrade unverified parameters into confirmed facts.
+
+## 6. Memory is the layer most easily hidden by the broad term "domestic memory"
+
+CXMT's **May 27, 2026 STAR Market registration prospectus** discloses DDR and LPDDR products.[^ch17-7]
+
+Full-text searches of the prospectus for `HBM` and the Chinese term for high-bandwidth memory return no matches. This report therefore keeps one narrow conclusion:
+
+> **The registration prospectus does not disclose an HBM product line.**
+
+This does **not** prove that the company has no HBM R&D.
+
+To move HBM from possible R&D into frontier-system supply, the evidence would need to include official products, customer qualification, volume production, bandwidth/capacity, and packaging integration.
+
+The same prospectus also requires strict separation between project investment and planned offering proceeds. For the DRAM technology-upgrade project, **RMB18.0B total investment** and **RMB13.0B planned offering proceeds** are different denominators.[^ch17-7]
+
+DDR/LPDDR supply expansion and HBM-class memory closure therefore have to remain separate.
+
+### 6.1 Conventional DRAM / NAND and frontier HBM are different supply-chain thresholds
+
+CXMT's current official product page discloses DDR5 chips up to **8000 Mbps**, with 16Gb/24Gb densities and server/workstation/PC module coverage including RDIMM/MRDIMM.[^ch17-8]
+
+YMTC officially describes itself as a 3D NAND IDM and discloses its Gen5/Xtacking 4.0 product path together with raw NAND, embedded memory, client SSD, and enterprise SSD portfolios.[^ch17-9]
+
+These facts support a narrower conclusion:
+
+> **consumer/general-purpose memory resilience can improve before frontier HBM closure is achieved.**
+
+Front-end manufacturing for conventional DRAM and NAND is not the same physical pool as TSMC leading-edge logic foundry capacity.
+
+But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packaging, and accelerator-integration dependencies. Micron, for example, has publicly disclosed a TSMC partnership for manufacturing HBM4E base logic dies.[^ch17-10]
+
+"Conventional memory can bypass TSMC logic foundry" and "the frontier AI memory stack is independent of TSMC" are therefore different propositions.
+
+### 6.2 Domestic memory scale: revenue share and shipment share must remain separate
+
+CXMT's prospectus, citing Omdia, provides an auditable metric: based on **2025 Q2 DRAM revenue**, CXMT held approximately **3.97% global share**, ranking fourth globally and first in China.[^ch17-11]
+
+The claim that "CXMT already has 8% of global DRAM" therefore does not enter this report's fact layer.
+
+YMTC's latest institutional metric uses a different denominator. Counterpoint Research's Q2 2026 Memory & Storage Tracker places YMTC at roughly **14% of NAND shipments**, ranking third globally.[^ch17-12] The same research firm's Q1 2026 **13%** figure is a NAND **revenue share**.[^ch17-13]
+
+Those two percentages cannot be turned into one continuous time series because their denominators differ.
+
+What they support is a narrower conclusion:
+
+> **China's conventional DRAM / NAND presence in global supply has risen materially, but share growth does not by itself prove HBM, leading-edge logic, or frontier-system closure.**
+
+Claims such as "capacity will double by 2027" or specific Phase-III monthly wafer output remain B/C-grade background unless they are disclosed directly by the company or another formal first-party source.
+
+### 6.3 HDD must not be hidden by progress in NAND
+
+AI data-center storage also includes nearline HDD.
+
+Public industry research shows that global nearline / mass-capacity HDD supply remains highly concentrated in Seagate, Western Digital, and Toshiba.
+
+Stronger domestic NAND / SSD capability therefore cannot be rewritten as "the entire storage stack is domestically closed."
+
+AI has also not simply eliminated HDD. Mass-capacity / cold-storage demand remains real, while QLC nearline SSD is accelerating substitution for selected workloads.
+
+## 7. Foundry revenue share is not frontier-AI capability
+
+TrendForce's 1Q26 foundry revenue-share estimates are approximately:[^ch17-14]
+
+**Table 17.1 — Global foundry revenue share, 1Q26 (TrendForce)**
+
+| Foundry | Revenue share |
+|---|---:|
+| TSMC | 72% |
+| Samsung Foundry (excluding System LSI) | 6.5% |
+| SMIC | 5.1% |
+
+**Source:** TrendForce, 2026-06-12.[^ch17-14]  
+**Note:** These are foundry revenue shares, not advanced-node yield, AI wafer capacity, or frontier-system capability.
+
+These are foundry **revenue shares**, not advanced-node yield, AI wafer capacity, or frontier-system delivery capability.
+
+A frontier AI parallel supply stack requires more than logic dies. It also needs advanced packaging, substrates, HBM integration, yield, high-volume qualification, and power.
+
+Node progress is one necessary condition, not the whole system.
+
+## 8. Algorithmic efficiency is an important asymmetric lever
+
+The DeepSeek-V3 Technical Report shows that algorithmic and architectural design can materially lower the hardware required per unit of capability.
+
+The paper reports **2.664M H800 GPU-hours for pre-training** and **2.788M H800 GPU-hours for full formal training**.[^ch17-15] Using the paper's US$2/GPU-hour assumption, **US$5.576M corresponds to full formal-training compute conversion**, not full R&D cost.
+
+The supported mechanism is that in a supply-constrained environment, sparse architecture, memory efficiency, routing, quantization, and scheduling can improve effective compute productivity.
+
+It does not support the claim that physical supply no longer matters, nor that any constrained system can automatically reproduce the same economics.
+
+Algorithmic efficiency is a lever—not a substitute for HBM, packaging, interconnect, and power.
+
+## 9. Domestic workloads are an important condition for parallel-system iteration
+
+A parallel stack does not need to win the global developer ecosystem before it can create value.
+
+A sufficiently large captive workload can generate production feedback in compiler behavior, deployment, failure recovery, operator coverage, and utilization.
+
+The logic is similar to hyperscaler custom silicon:
+
+> **large captive workloads can first support a narrower but complete system stack before the stack expands toward a broader external ecosystem.**
+
+Long-run progress should therefore be evaluated from production workload scale and persistence—not benchmarks alone.
+
+## 10. Export controls affect manufacturing continuity as well as accelerator access
+
+Export restrictions raise the near-term cost of acquiring advanced hardware and can slow frontier-cluster deployment.
+
+A separate upstream issue is semiconductor-manufacturing equipment, software, and service. ASML's public statements confirm that EUV sales to China are restricted, the most advanced immersion DUV systems require export licences, and later controls expanded to additional advanced manufacturing technologies, including metrology and software.[^ch17-16][^ch17-17]
+
+This does not mean every domestic memory fab would immediately stop operating under a disruption.
+
+It does mean:
+
+> **domestic memory capacity growth ≠ upstream manufacturing autonomy**
+
+Whether new capacity can ramp, process generations can advance, and installed tools can be sustained depends on critical equipment, software licences, spare parts, field service, and materials qualification continuity.
+
+Over the longer run, the same restrictions increase the incentive for domestic substitution, local hardware/software integration, and parallel-ecosystem development.
+
+Export control is therefore not a one-direction variable.
+
+It can widen short-term performance/scale gaps while strengthening the long-run incentive to build a parallel system.
+
+The final outcome depends on R&D efficiency, capital allocation, ecosystem adoption, and supply scaling—not policy alone.
+
+## 11. Seven Frontier System Closure Gates
+
+This report treats "China has formed a complete frontier-AI parallel stack" as fact only when all seven gates reach verifiable scale:
+
+1. advanced accelerators can be delivered at scale;
+2. HBM-class memory can be delivered at scale;
+3. advanced packaging can be delivered at scale;
+4. high-speed interconnect can support large clusters;
+5. compiler/runtime migration cost is acceptable;
+6. frontier workloads can run stably;
+7. system cost / utilization / power are sustainable.
+
+These gates change the question from "Does a domestic product exist?" to "Can a production-grade system be sustained?"
+
+A persistent weakness in any one gate can limit system-level equivalent substitution.
+
+## 12. The real effect on global resource competition
+
+If China's parallel stack scales simultaneously in advanced logic, HBM, packaging, interconnect, and software, it will do more than replace imports.
+
+It will create a second large resource-gravity center, adding new foundry demand, memory demand, packaging demand, power demand, and long-duration capital commitments to regional and global resource allocation.
+
+Current public evidence is not sufficient to show that this second frontier resource center has already reached equivalent full-stack scale.
+
+CXMT's registration prospectus does not disclose an HBM product line. SMIC's 5.1% figure is foundry revenue share rather than frontier capability. Multiple non-silicon layers still require independent validation.
+
+The most accurate current state is therefore:
+
+> **China has moved beyond the stage of "no alternative system," but has not yet crossed the threshold of globally equivalent scaled closure across all critical layers.**
+
+## 13. Current judgment and falsification
+
+As of August 2026:
+
+- smartphone / consumer computing: relatively strong parallel-supply capability;
+- PC / workstation: expanding substitution, with software and professional-workload compatibility still determining closure;
+- frontier AI: a real and continuing accelerator/software parallel stack exists, while HBM, advanced packaging, interconnect, software migration, power, and scale still require simultaneous validation.
+
+The system-closure judgment should be raised if first-party evidence appears for:
+
+- an official HBM product / revenue line;
+- auditable large-cluster utilization and frontier workloads;
+- scaled advanced-packaging delivery;
+- multi-generation compiler/runtime compatibility;
+- stable and sustainable system economics.
+
+If these gates remain uncrossed, "a domestic technology stack exists" cannot be upgraded into "frontier-equivalent substitution."
+
+## References
+
+[^ch17-1]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, HPC 58%, smartphone 29%, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+[^ch17-2]: Counterpoint Research, 2026 Q1 smartphone AP-SoC shipment share, UNISOC 14%, HiSilicon 4%, https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly
+[^ch17-3]: Xinhua, 2025-05-22, Xiaomi XRing O1 entered mass production, https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
+[^ch17-4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+[^ch17-5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
+[^ch17-6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
+[^ch17-7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+[^ch17-8]: CXMT, official DDR5 product page, https://www.cxmt.com/en/product.html
+[^ch17-9]: YMTC, company profile and product portfolio, https://www.ymtc.com/en/aboutus.html ; https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
+[^ch17-10]: Micron Technology, investor material on HBM4E base logic die partnership with TSMC, https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
+[^ch17-11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, global #4, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^ch17-12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^ch17-13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^ch17-14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^ch17-15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^ch17-16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+[^ch17-17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology, and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+
+
+\newpage
+
+# Part II · Chapter 18: Antitrust, Industrial Policy, and the Boundaries of AI Platform Power
+
+## 1. System-stack power creates a new problem for traditional relevant-market analysis
+
+AI platform power can span accelerators, interconnect, compiler/runtime, rack reference architecture, deployment software, cloud channels, and adjacent model products.
+
+Individual product markets can each contain competitors while system-level switching costs remain high because one platform coordinates several critical interfaces.
+
+The regulatory question therefore extends beyond one market-share number:
+
+> **Do cross-layer interfaces, bundling, migration costs, and supply coordination create exclusionary effects together?**
+
+## 2. Fines and remedies must remain separate
+
+A fine primarily affects cash flow.
+
+A structural or conduct remedy can alter the rules of competition.
+
+### Fine
+
+A monetary penalty does not necessarily change CUDA migration cost, interconnect ecosystems, rack architecture, customer workflows, or physical supply.
+
+### Conduct / Structural Remedy
+
+Measures that can directly alter system economics include:
+
+- interface openness;
+- interoperability requirements;
+- tying / bundling restrictions;
+- non-discriminatory access / supply rules;
+- acquisition restrictions;
+- structural separation.
+
+This report therefore does not treat the size of a possible fine as the central platform-power variable.
+
+## 3. The 10% turnover ceiling is not a future-fine model
+
+Article 23(2) of EU Regulation (EC) No 1/2003 provides that certain fines shall not exceed **10% of the undertaking's total turnover in the preceding business year**.[^ch18-1]
+
+This is a statutory ceiling.
+
+It is not:
+
+> **Potential fine = revenue × 10%**
+
+Liability, seriousness, duration, relevant sales, procedural outcome, and remedy design all matter.
+
+The 10% figure therefore indicates the strength of the legal tool. It does not enter this report's earnings model.
+
+## 4. Regulatory procedure must be read stage by stage
+
+The EU's Article 102 procedure provides a useful state machine:[^ch18-2]
+
+1. complaint / ex officio investigation;
+2. request for information;
+3. formal investigation / market-definition and dominance assessment;
+4. Statement of Objections;
+5. prohibition / commitment decision;
+6. fine / remedy.
+
+Each stage has a different legal meaning.
+
+An RFI, market inquiry, or news report cannot be rewritten as "the regulator has already found a violation."
+
+## 5. 2026 cloud regulation shows the focus moving toward interoperability
+
+The European Commission continued a DMA cloud-computing market investigation in 2026.[^ch18-3]
+
+Public roundtables explicitly addressed cloud-service interoperability, financial conditions, and contractual conditions; the final report is planned for **May 2027**.[^ch18-3]
+
+Regulatory attention is therefore moving beyond price toward technical interoperability, contract terms, and switching conditions.
+
+This is directly relevant to AI system-stack competition because interfaces and contracts become competitive variables when workloads cannot migrate at low cost.
+
+## 6. Antitrust and sovereign / industrial policy optimize different objectives
+
+Competition policy focuses on market access, tying, exclusion, interoperability, and customer choice.
+
+Industrial and national-security policy focuses on domestic compute, semiconductor capacity, export controls, data sovereignty, and strategic autonomy.
+
+The same government can simultaneously:
+
+- subsidize domestic advanced manufacturing;
+- promote sovereign AI / cloud capacity;
+- restrict exports of sensitive accelerators;
+- require greater interoperability from platforms operating in its market.
+
+These are not inherently contradictory. They are different policy objectives.
+
+## 7. Regulation can change four system variables
+
+### 7.1 Interface Control
+
+Opening compiler/runtime/network interfaces can lower migration costs.
+
+### 7.2 Bundling / Tying
+
+Restricting inappropriate bundling across accelerators, networks, and software can improve the feasibility of multi-vendor systems.
+
+### 7.3 Access / Supply Rules
+
+If discriminatory access or allocation is legally established, non-discrimination remedies can change buyer bargaining structure.
+
+### 7.4 Acquisition / Vertical Integration
+
+Merger control can prevent another critical intermediate layer from moving under one ownership structure.
+
+These variables can all affect system-stack moats.
+
+## 8. Regulation cannot directly create physical capacity
+
+Regulation can lower switching costs.
+
+It cannot directly manufacture:
+
+- HBM bits;
+- advanced-packaging capacity;
+- N2 wafers;
+- grid / energized MW.
+
+Even highly effective interface remedies can therefore coexist with continuing physical scarcity.
+
+Legal competition and physical supply have to remain separate analytical models.
+
+## 9. The impact on China's Parallel Stack must also remain layered
+
+U.S. or European competition policy toward an AI platform does not automatically resolve China's frontier-AI constraints in advanced logic, HBM, packaging, interconnect, and production software.
+
+Likewise, stronger domestic system capability in China does not automatically change U.S. or European antitrust analysis.
+
+The two can influence strategic bargaining and policy, but they are not substitutes for one another.
+
+## 10. How regulation changes S1–S4
+
+**Table 18.1 — How regulatory variables map into S1–S4**
+
+| Scenario | Role of regulatory variables |
+|---|---|
+| S1 Competitive Expansion | interface openness, interoperability, and tying limits materially reduce switching costs |
+| S2 Baseline Concentration | investigations and rules persist while system structure remains broadly intact |
+| S3 Resource Hegemony | remedies are insufficient to reduce multi-layer switching costs / scarcity |
+| S4 Capital Hard Landing | utilization / capital clearing dominates; regulation influences post-clearing market structure |
+
+**Source:** Report scenario framework; EU competition and DMA procedures as regulatory-mechanism background.[^ch18-2][^ch18-3]  
+**Note:** The table maps mechanisms. It does not imply a final infringement finding or remedy against any specific AI platform.
+
+Regulation is therefore not a one-direction "negative for the platform" variable.
+
+Its structural effect depends on whether binding remedies actually reach migration, bundling, and access.
+
+## 11. Current judgment
+
+As of August 2026, regulation is an important external variable for AI system platforms.
+
+This report does not treat an investigation, market inquiry, or statutory fine ceiling as proof that structural reform has already occurred.
+
+The events that need continuous monitoring are:
+
+- formal proceedings;
+- Statement of Objections or equivalent formal complaint;
+- binding conduct commitments;
+- interoperability / tying / access remedies;
+- final decisions;
+- whether remedies actually reduce production migration cost.
+
+Only these formal events are strong enough to change system-stack scenario weighting.
+
+## References
+
+[^ch18-1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
+[^ch18-2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
+[^ch18-3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
