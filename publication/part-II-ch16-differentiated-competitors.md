@@ -97,3 +97,14 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 更现实的格局是：AMD 从 data-center system 正面竞争；Intel 同时修复 product 与 manufacturing；Qualcomm/Apple 从 edge / device 改写一部分需求。
 
 它们是否真正削弱 dominant system-stack economics，最终要看 production workload share、software portability、scarce-resource access 与 customer migration，而不是产品发布数量。
+
+## 关键公开来源
+
+- AMD Instinct / Helios official page — rack-scale solution integrating Instinct GPUs, EPYC CPUs, Pensando networking and ROCm: https://www.amd.com/en/products/accelerators/instinct.html
+- AMD ROCm 10, 2026-08-27 — production inference/training software path on AMD Instinct: https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html
+- Intel 2025 10-K — Intel Foundry, internal manufacturing base and external-foundry strategy: https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm
+- Intel Foundry, 2026-06 — Intel 18A in production; 18A-P in risk production: https://newsroom.intel.com/intel-foundry/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium
+- Qualcomm, 2026-08 — agentic AI applications running natively on Snapdragon X Series PCs: https://www.qualcomm.com/news/onq/2026/08/agentic-ai-apps-snapdragon-x-series
+- Qualcomm Mobile AI — on-device generative AI positioning: https://www.qualcomm.com/smartphones/features/mobile-ai
+- Apple Intelligence — on-device processing plus Private Cloud Compute for larger server-based models: https://www.apple.com/apple-intelligence/
+- Apple Private Cloud Compute security documentation: https://security.apple.com/documentation/private-cloud-compute/
