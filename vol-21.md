@@ -246,3 +246,8 @@ AI infrastructure 当前最强的利润池集中在：
 因此，AI 产业最重要的不是“总共花了多少钱”，而是：
 
 > **同一笔资本在每一层留下多少利润、形成多少长期锁定、产生多少可重复现金流。**
+
+## 本卷关键公开来源
+
+- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
