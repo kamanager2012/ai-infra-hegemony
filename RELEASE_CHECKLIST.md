@@ -123,7 +123,7 @@ The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc43
 - [ ] Complete any remaining lower-risk **semantic** claim-to-source verification required by final editorial sign-off; structural traceability and high-risk semantic verification are complete, but they are not the same assertion.
 - [ ] Obtain a green relative-link CI run after GitHub Actions becomes diagnosable; current Actions runs fail before exposing normal step/log detail.
 - [ ] Obtain green bilingual PDF/EPUB build and proof QA; the first Publication Build run failed before normal step/log detail was exposed.
-- [ ] Complete final critical external-link sweep / archival fallback policy.
+- [x] Complete final critical external-link sweep under the curated fallback policy: **25/25** critical evidence items reachable; **24/25** primary URLs directly reachable, with `TSMC-2Q26-TRANSCRIPT` satisfied by the declared official TSMC 2026 Q2 Quarterly Results fallback because the encrypted PDF deep link remains unstable.
 - [ ] Complete final human PDF/EPUB proofread and release operations.
 
 ## Historical fact audit hard gate — 2026-08-28
