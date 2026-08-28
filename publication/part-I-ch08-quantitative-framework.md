@@ -193,7 +193,7 @@ AI infrastructure 的瓶颈会轮换，而不是永久固定在同一层。
 
 ## 15. 最可靠的量化顺序
 
-出版层采用以下顺序：
+本报告采用以下顺序：
 
 > **official system spec → material identity → scenario demand → supply constraint → forward commitment → utilization → falsification**
 
