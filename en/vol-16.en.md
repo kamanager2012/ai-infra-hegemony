@@ -254,4 +254,10 @@ Quantification is most useful when it shows exactly **which variable is observed
 
 ## Key public sources for this volume
 
-- DeepSeek-V3 Technical Report — 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
+- DeepSeek-V3 Technical Report — pre-training 2.664M; full formal training 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
+- DeepSeek-V2 — 93.3% KV-cache reduction and 5.76× maximum generation throughput relative to DeepSeek 67B: https://github.com/deepseek-ai/DeepSeek-V2
+- NVIDIA GB200 NVL72 product page — 36 Grace CPUs, 72 Blackwell GPUs, 13.4 TB HBM3E, 17 TB LPDDR5X: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
+- Micron FY24 Q3 prepared remarks — industrywide HBM3E ≈3× DDR5 wafer supply at same node / same bits: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- NVIDIA FY26 10-K — 2026-01-25 supply/capacity commitments baseline: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
