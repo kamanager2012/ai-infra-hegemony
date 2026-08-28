@@ -32,23 +32,25 @@ AI infrastructure 的资本开支已经进入极高水平，但投资规模本�
 
 NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。
 
-## 3. 四云 CapEx 必须分公司、分会计口径观察
+## 3. CapEx 基数由第19章负责，本章只观察“方向是否反转”
 
-统一的“2026 AI hardware CapEx”并不存在。当前可公开追踪的规模包括：
+四大 hyperscaler 的 CapEx / PPE / finance-lease 口径并不一致，因此完整资本基数和会计边界已经在第19章单独处理。
 
-**Table 24.1 — 四大云厂 2026 年资本投入公开口径**
+本章不再重复四云 CapEx 表。
 
-| 公司 | 2026 当前公开口径 | 身份 |
-|---|---:|---|
-| Microsoft | calendar-2026 reported CapEx expectation ~US$175B | expectation；受 lease classification 影响，underlying investment expectation unchanged |
-| Alphabet | US$195–205B | Q2 guidance |
-| Meta | US$130–145B | Q2 guidance；含 finance-lease principal |
-| Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
+对于资本清算，真正重要的是变化方向：
 
-**Source:** Microsoft FY26 Q4 earnings materials；Alphabet Q2 2026 company guidance as reported by Reuters（SEC Exhibit 99.1 separately supports Q2 actual results）；Meta 2026 Q2 SEC Exhibit 99.1；Amazon 2026 Q2 Form 10-Q.[^5][^6][^7][^8]  
-**Note:** expectation / guidance / TTM actual 的时间窗与会计口径不同，不构成可直接相加的统一 AI hardware CapEx。
+- guidance 是否连续下调；
+- investment mix 是否从 expansion 转向 maintenance；
+- project timing 是否推迟；
+- long-duration commitments 是否重谈；
+- deployed assets 的 utilization 是否同步下降。
 
-这些数字的时间窗和会计科目不同，**不能机械相加成统一 AI hardware CapEx**。历史情景中的 US$215B、US$670–750B 等统一总额如果缺乏可比口径，只能保留为旧压力测试，不进入事实层。
+因此：
+
+> **Bubble detection 不依赖一个“全球 AI CapEx 总额”，而依赖资本扩张、利用率和未来承诺是否开始系统性背离。**
+
+详见[第19章：AI 基础设施 CapEx 超级周期](part-III-ch19-capex-supercycle.md)。
 
 ## 4. Seller 与 Buyer 的资本时钟不同
 
@@ -60,63 +62,32 @@ NVIDIA 是 system seller，hyperscaler 是 asset buyer。卖方可以在出货�
 
 这解释了为什么 seller margin 仍高，并不能证明 buyer-side ROI 一定健康；同样，buyer ROI 出现压力，也不意味着 seller economics 当季就会崩塌。
 
-## 5. Algorithmic efficiency 既可能制造过剩，也可能延长周期
+## 5. Algorithmic Efficiency：关键不是效率本身，而是效率与 Workload Growth 的相对速度
 
-如果相同 capability 所需 compute 快速下降，而 workload volume 没有同步增长，已部署 capacity 可能出现过剩；如果更低成本刺激大量新 workload，效率提升反而会增加总基础设施需求。
+算法效率可以让同一工作结果需要更少 compute / memory，也可能通过降价和可用性提升刺激更多 workload。
 
-本报告不再使用不可直接计算的“efficiency effect × demand elasticity”表达式，而把需求拆成两个可测量因子：
-
-```text
-Infrastructure_Demand_t
-= Unit_Resource_Intensity_t
-× Workload_Volume_t
-```
-
-因此相对于基准期 0：
+因此，总基础设施需求可以用一个最简单的身份关系理解：
 
 ```text
-Infrastructure_Demand_t / Infrastructure_Demand_0
-=
-(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
-×
-(Workload_Volume_t / Workload_Volume_0)
+Infrastructure Demand
+= Unit Resource Intensity
+× Workload Volume
 ```
 
-`Unit_Resource_Intensity` 必须绑定明确工作单位，例如 GPU-hours / verified workflow、HBM bytes / token、kWh / completed job；`Workload_Volume` 则是同一期间完成的 workflow / token / job 数量。
+如果 Unit Resource Intensity 下降得更快，总需求可能下降；如果 Workload Volume 增长得更快，总需求仍可上升。
 
-如果需要把价格变化与 workload volume 联系起来，可以另外引入常数弹性近似：
+本报告不在正文中为需求弹性预设任意数值，也不使用假设价格降幅去制造伪精确的需求倍数。
 
-```text
-Workload_Volume_t / Workload_Volume_0
-=
-(Effective_Price_t / Effective_Price_0)^(-ε)
-```
+真正应该观察的是：
 
-其中 ε 是对**同一可比工作结果**的需求价格弹性。于是：
+- cost per verified workflow；
+- token / workflow volume；
+- deployed-compute utilization；
+- price / revenue per workload；
+- enterprise adoption；
+- infrastructure commitments。
 
-```text
-Infrastructure_Demand_t / Infrastructure_Demand_0
-=
-(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
-×
-(Effective_Price_t / Effective_Price_0)^(-ε)
-```
-
-**Table 24.2 — 效率下降与需求弹性的 D 级敏感性示例**
-
-假设单位资源强度下降 40%（`URI_t / URI_0 = 0.60`），同一可验收 workflow 的有效价格下降 50%（`P_t / P_0 = 0.50`）：
-
-| 需求弹性 ε | Workload volume factor | Infrastructure demand factor | 相对基准 |
-|---:|---:|---:|---:|
-| 0.5 | 1.414× | 0.849× | -15.1% |
-| 1.0 | 2.000× | 1.200× | +20.0% |
-| 1.2 | 2.297× | 1.378× | +37.8% |
-| 1.5 | 2.828× | 1.697× | +69.7% |
-
-**Source:** 本报告 D 级 sensitivity model。  
-**Note:** 0.60、0.50 与 ε 均为示例假设，不代表当前行业 actual。该表只说明：同样的 efficiency gain，在不同需求弹性下可以导致基础设施需求下降或上升。
-
-模型价格战同理。token/API price 下跌只能证明单位价格变化，不能单独证明 total token volume、workflow adoption 和 infrastructure utilization 同步下降。
+所以模型价格下降或算法效率提升，都不能单独证明 overcapacity。
 
 ## 6. Anchor Compute Buyer 已成为新的领先指标
 
@@ -166,7 +137,3 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 [^2]: NVIDIA Corporation, FY27 Q1 Form 10-Q, GAAP gross margin 74.9%, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
 [^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-[^5]: Microsoft, FY26 Q4 earnings / conference call, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-[^6]: Alphabet, Q2 2026 earnings-call full-year CapEx guidance **US$195–205B**, company guidance reported by Reuters, 2026-07-22, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Alphabet SEC Exhibit 99.1 separately supports Q2 actual results, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-[^7]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-[^8]: Amazon.com, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
