@@ -93,14 +93,15 @@ Google / Kairos 的项目路径更具体：**Hermes 2 up to 50 MWe in 2030**，�
 | 项目 | 名义规模 | 核心状态 |
 |---|---:|---|
 | Microsoft / Constellation | ~835 MW | restart + regulatory |
-| Talen / AWS | up to 1,920 MW | revised PPA transition occurred 2026-04; delivery ramps to full volume no later than 2032 |
+| Talen / AWS | up to 1,920 MW | 2026 Q2 10-Q: transition occurred 2026-04; 2025 10-K: full transition expected spring 2027 and ramp to full volume no later than 2032 |
 | Google / Kairos | Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035 | long-term development |
 
 这就是为什么能源分析必须按状态，而不是按新闻 headline 加总。
 
 ### 公开来源
 - Constellation / Microsoft Crane: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2026 Q2 10-Q（transition occurred 2026-04；up to 1,920 MW）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K（full transition expected spring 2027；full-volume ramp no later than 2032）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Google / Kairos: https://www.kairospower.com/google
 
 ## 7. Grid queue 也不能等同于 shortage
