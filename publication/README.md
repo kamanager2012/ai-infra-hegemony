@@ -48,8 +48,20 @@
 - **Part III — 资本周期、利润池与外部传导：8/8。**
 - **Part IV — 方法、情景、监测与战略：6/6。**
 - **Publication Layer 第一版整合正文：32/32 章已生成。**
+- **32/32 章节结构与旧口径机械回归：已通过。**
+- **核心证据深链 QA：已完成第一轮。**
 
-> `32/32` 表示出版层章节文件已经完整生成并完成第一轮重编，**不等同于最终出版 QA 已全绿**。下一阶段仍需做逐章引用链、死链、第一方来源下沉、英文出版层同步与全书一致性回归。
+当前已完成的出版 QA 包括：
+
+- 32 个 publication 文件逐章存在性、章号、目录唯一链接检查；
+- 旧 `5.39` CoWoS 几何系数回归清零，统一为 `5.37`；
+- Talen “April 2026 = 全部物理转换完成”式错误表述回归清零；
+- Micron HBM3E ≈3× DDR5 wafer-supply 一手证据统一修正为 **FY24 Q2 Prepared Remarks**，并下沉到可直达官方 PDF；
+- Micron IR landing/event links 与失效 `static-files` 深链从 publication layer 清零；
+- publication layer 内部“审稿/工作底稿/历史误写”类过程性语言回归清零；
+- NVIDIA / TSMC / SEC / TrendForce / Constellation / NRC / Anthropic / Microsoft / Intel / Qualcomm / OpenAI / U.S. Commerce / Stanford HAI / ILO 等核心来源完成一轮深链抽检。
+
+> `32/32` 仍不等于最终出版物已经封版。剩余主要工作是：**英文 publication layer 同步、逐章 inline citation / footnote 精细化、全书图表与版式统一、最终死链复扫与 PDF/电子书导出 QA。**
 
 ## 出版层编辑标准
 
