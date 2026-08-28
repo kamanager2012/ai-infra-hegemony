@@ -209,3 +209,7 @@ NVIDIA 的优势应该描述为**系统栈整合与跨代软件资产**，而不
 - scarce upstream resource 不再优先支持 NVIDIA roadmap。
 
 只有这些变化出现，系统护城河才会发生结构性削弱。
+
+## 本卷关键公开来源
+
+- NVIDIA DGX GB200/NVL72 official hardware guide（rack-scale system structure / power context）： https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
