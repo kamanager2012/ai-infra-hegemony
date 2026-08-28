@@ -25,13 +25,13 @@ AI infrastructure 的关键变量变化很快：
 
 | 指标 | 数值 |
 |---|---:|
-| FY26 revenue | **$215.938B** |
-| FY26 Data Center revenue | **$193.737B** |
-| FY26 FCF | **$96.575B** |
-| FY27 Q2 revenue | **$96.221B** |
-| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY26 revenue | **US$215.938B** |
+| FY26 Data Center revenue | **US$193.737B** |
+| FY26 non-GAAP FCF（NVIDIA 定义） | **US$96.575B** |
+| FY27 Q2 revenue | **US$96.221B** |
+| FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP gross margin | **75.0%** |
-| FY27 Q2 GAAP operating income | **$63.734B** |
+| FY27 Q2 GAAP operating income | **US$63.734B** |
 | Rubin | **full production** |
 
 这些指标回答：
@@ -40,8 +40,10 @@ AI infrastructure 的关键变量变化很快：
 
 ### Supply commitments
 
-- FY26 year-end：**$95.2B**
-- FY27 Q1：**$119.0B**
+- 2026-01-25：**US$95.2B**
+- 2026-04-26：**US$119B**
+
+口径：manufacturing, supply, and capacity commitments；不是单一供应商订单。
 
 供应承诺是前向资源锁定的重要 proxy，但不能拆成未披露的供应商金额。
 
