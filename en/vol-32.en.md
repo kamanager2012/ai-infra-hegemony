@@ -2,6 +2,8 @@
 
 Chinese source edition: [vol-32.md](../vol-32.md)
 
+> **Publication role:** [Volume 02](vol-02.en.md) owns the high-level platform-power, financial, and capacity-reservation argument. This volume is the engineering deep dive: GPU/CPU, HBM, NVLink/NVSwitch, CUDA/PTX, libraries, and rack architecture as the production switching-cost stack. Company-level financial arguments are not repeated here.
+
 > Retrieval and revision cutoff: **2026-08-27**. This volume analyzes NVIDIA's moat as an integrated system stack. It does not rely on an undisclosed cabinet BOM, an invented software-margin split, or a single benchmark.
 
 ## 1. NVIDIA's moat is not one BOM
