@@ -1,7 +1,7 @@
 # The Age of AI Infrastructure Hegemony
 ### AI基础设施霸权时代
 
-**Research corpus: 40 stable volume modules + 8 macro essays. The Chinese publication layer now has a complete first integrated pass: four parts / 32 chapters.**
+**Publication edition: Chinese and English are both complete at 4 parts / 32 chapters and have passed Markdown-level QA plus chapter-by-chapter bilingual structure/high-risk numeric regression. The 40 stable volume modules + 8 macro essays remain the research corpus for evidence tracing.**
 
 > **English release landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
 
@@ -37,20 +37,20 @@ For this repository, an already-observed historical claim may enter **F — Fact
 
 ## Start here
 
-1. [Master Judgment](en/总判.en.md)
-2. [Volume 01 — Executive Summary and Core Judgments for the Next Decade](en/vol-01.en.md)
-3. [Research Methodology and Evidence Grading](en/研究方法与证据分级.en.md)
-4. [Core Evidence Ledger](en/核心证据台账.en.md)
-5. [Core Source Index](en/核心参考文献索引.en.md)
-6. [Core Concepts and Model Index](en/核心概念与模型索引.en.md)
-7. [Core Hypothesis Matrix (2026–2036)](en/核心假设矩阵.en.md)
-8. [Volume 18 — Research Methodology and Evidence Architecture](en/vol-18.en.md)
-9. [Mechanism Index](en/机制索引.en.md)
-10. [English Edition Index](en/README.en.md)
-11. [Publication Architecture — four parts / ~32 chapters](en/PUBLICATION_STRUCTURE.md)
+1. [Publication Table of Contents](en/publication/01-table-of-contents.md)
+2. [Chapter 1 — Executive Summary](en/publication/part-I-ch01-executive-summary.md)
+3. [Chapter 32 — Master Judgment](en/publication/part-IV-ch32-master-judgment.md)
+4. [Front Matter / Scope / Evidence Boundaries](en/publication/00-front-matter.md)
+5. [List of Tables](en/publication/02-list-of-tables.md)
+6. [Abbreviations and Core Glossary](en/publication/03-abbreviations-and-glossary.md)
+7. [Chapter 27 — Research Method and Evidence Architecture](en/publication/part-IV-ch27-research-method.md)
+8. [Core Evidence Ledger](en/核心证据台账.en.md)
+9. [Core Source Index](en/核心参考文献索引.en.md)
+10. [English Publication Index](en/publication/README.md)
+11. [Research-Module Index](en/README.en.md)
 12. [X / social launch drafts](en/SHARE.md)
 
-The Chinese **Publication Layer contains all 32 integrated chapters** (Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6). The English Publication Layer now mirrors the same architecture at **32/32 chapters** across all four parts. The **40 English volume modules + 8 English macro essays** remain the stable English research layer for evidence tracing and bilingual regression. High-risk legacy translations were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression. The current English corpus passes the targeted publication checks for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns. The English edition follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` corpus remains the source of truth for resolving bilingual discrepancies.
+The Chinese and English **Publication Layers both contain all 32 chapters** (Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6). Both editions have passed Markdown-level structural/citation QA, and chapter-by-chapter bilingual regression has passed for Table-number sets, Reference counts, numeric section sequences, and high-risk currency/percentage/power/capacity/process values. The **40 English volume modules + 8 English macro essays** remain the stable research layer for evidence tracing. The Chinese publication edition is the canonical source for resolving future bilingual discrepancies. Final Publication Ready status still requires critical-link rescans, third-party copyright clearance, PDF/e-book export QA, and final proofreading.
 
 ## Research method
 
