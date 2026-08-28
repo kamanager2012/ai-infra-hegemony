@@ -84,7 +84,7 @@ TSMC has confirmed advanced-packaging tightness and stated in 2Q26 that packagin
 
 TSMC does not disclose customer-level CoWoS allocation.
 
-TrendForce's estimate that NVIDIA represented >60% of 2025 CoWoS demand therefore remains a B-grade institutional anchor.
+TrendForce's estimate that NVIDIA represented >60% of 2025 CoWoS demand therefore remains a B-grade institutional anchor.[^15]
 
 ### Power
 
@@ -314,6 +314,8 @@ It is to build an industrial-analysis framework that changes when the facts chan
 [^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
 [^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 [^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+
+[^15]: TrendForce, 2025 CoWoS demand-structure research, NVIDIA estimated at >60% of 2025 CoWoS demand, https://www.trendforce.com/research/download/RP250314ZJ
 
 ## Cross-references
 
