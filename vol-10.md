@@ -221,3 +221,7 @@ AI demand、utilization 与 monetization 无法覆盖快速增长的资本成本
 > logic + HBM + packaging + interconnect + software + rack + data center + power
 
 并把这些资源转化成可持续 utilization 与现金流。
+
+## 本卷关键公开来源
+
+- NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
