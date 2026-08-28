@@ -247,3 +247,9 @@ If several of those conditions develop together, the system moat weakens structu
 Until then, the most defensible description is not “one superior GPU.”
 
 It is **an integrated platform whose hardware, software, fabric, rack architecture, and deployment tooling reinforce one another across generations**.
+
+
+## Key public sources for this volume
+
+- NVIDIA GB200 NVL72 product page — 36 Grace CPUs, 72 Blackwell GPUs, 13.4 TB HBM3E, 17 TB LPDDR5X: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- NVIDIA DGX GB200 hardware guide — rack-scale system structure and power context: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
