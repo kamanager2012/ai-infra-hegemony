@@ -1,7 +1,5 @@
 # Part III · Chapter 21: Cost Transmission into Consumer Electronics and the Real Economy
 
-> **Publication-layer chapter.** Recompiled from [Volume 22](../vol-22.en.md) and [Macro Essay 05](../part2-05.en.md). Part I Chapter 3 already explains Non-AI Residual Capacity; this chapter tracks how residual pressure transmits into smartphones, PCs, general consumer devices, and selected real-economy costs.
-
 ## 1. Consumer electronics do not buy training racks, but they share upstream resources
 
 Consumer products and AI/server systems share several upstream layers:
