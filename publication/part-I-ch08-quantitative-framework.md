@@ -42,7 +42,7 @@ DeepSeek-V2 的独立结果则包括：相对 DeepSeek 67B，约 **93.3% KV-cach
 
 ## 4. Formal-training compute conversion 不是完整研发成本
 
-DeepSeek-V3 full formal training 为 **2.788M H800 GPU-hours**。按论文使用的 **US$2/GPU-hour** 假设做租金换算：
+DeepSeek-V3 full formal training 为 **2.788M H800 GPU-hours**；论文同时使用 **US$2/GPU-hour** 的租金假设。[^1] 因此可做一项明确标注的 **D 级算术换算**：
 
 > **2.788M × US$2 ≈ US$5.576M**
 
@@ -100,7 +100,7 @@ Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / 
 
 ## 8. Power 也必须按状态与物理边界计算
 
-约 **120 kW/rack** 可以作为 rack-level power-density input。[^5]500 racks × 120 kW = **60 MW rack-level full-load power**。
+约 **120 kW/rack** 可以作为 rack-level power-density input。[^5] 以 500 racks 为情景输入，可做 **D 级算术**：500 racks × 120 kW = **60 MW rack-level full-load power**。
 
 但这一算术不包括完整 facility overhead，也不代表某个园区已经部署 500 柜。
 
