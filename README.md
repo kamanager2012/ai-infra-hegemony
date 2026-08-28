@@ -1,6 +1,8 @@
 # The Age of AI Infrastructure Hegemony
 ### AI基础设施霸权时代
 
+**Release status: Pre-release Publication QA Edition · target v1.0.0 is not yet released.**
+
 **Publication edition: Chinese and English are both complete at 4 parts / 32 chapters and have passed Markdown-level QA plus chapter-by-chapter bilingual structure/high-risk numeric regression. The 40 stable volume modules + 8 macro essays remain the research corpus for evidence tracing.**
 
 > **English release landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
