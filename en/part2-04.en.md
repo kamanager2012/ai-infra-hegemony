@@ -125,7 +125,7 @@ DeepSeek-V3 provides a first-party technical anchor:
 - **14.8T** pre-training tokens;
 - **2.788M H800 GPU-hours** for the formal training run.
 
-Using the report-side rental assumption of **$2 per GPU-hour** produces approximately:
+Using the report-side rental assumption of **US$2 per GPU-hour** produces approximately:
 
 ```text
 2.788M × US$2 ≈ US$5.576M
@@ -146,7 +146,7 @@ The number is best interpreted as a **formal training-compute conversion**.
 
 ## 7. MLA and efficiency change the demand function
 
-DeepSeek's MLA work demonstrates that architecture can materially reduce KV-cache requirements and improve serving efficiency.
+DeepSeek's MLA work demonstrates that architecture can materially reduce KV-cache requirements and improve serving efficiency. The quantitative **93.3% KV-cache reduction** and **5.76× maximum generation throughput** figures belong specifically to **DeepSeek-V2 relative to DeepSeek 67B**; they are not universal savings and should not be merged with DeepSeek-V3's training-compute figures.
 
 The macro implication is not that “hardware no longer matters.”
 
@@ -228,3 +228,4 @@ The long-run winner is the system that keeps **cost per effective unit of intell
 - Meta Q2 2026 SEC Exhibit 99.1 — guidance **US$130–145B**, including finance-lease principal: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 - Amazon Q2 2026 10-Q — TTM PPE net purchases actual **US$169.007B**: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
 - DeepSeek-V3 Technical Report — 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
+- DeepSeek-V2 repository / technical report — 93.3% KV-cache reduction and 5.76× maximum generation throughput relative to DeepSeek 67B: https://github.com/deepseek-ai/DeepSeek-V2
