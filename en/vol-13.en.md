@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-13.md](../vol-13.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume separates announced, contracted, permitted, energized, and utilized power. The size of a PPA is not the same thing as live AI load.
+> Retrieval and revision cutoff: **2026-08-28**. This volume separates announced, contracted, permitted, energized, and utilized power. The size of a PPA is not the same thing as live AI load.
 
 ## 1. Why power is becoming an infrastructure quota rather than only an operating cost
 
