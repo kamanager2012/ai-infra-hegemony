@@ -68,7 +68,7 @@ Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage inter
 
 先进芯片可以按月/季度推进新一代，电力基础设施却常以多年推进。于是出现一个与 chip roadmap 并列的竞争变量：**Time-to-Power**。
 
-拥有 existing grid connection、powered land、substation / transformer capacity、firm generation 与 executable permitting path 的项目会获得时间优势。这意味着 hyperscaler 的竞争不仅是“谁拿到更多 accelerator”，还包括：**谁能让下一批 50 MW / 100 MW / 500 MW 的系统更早真正上电。**
+拥有 existing grid connection、powered land、substation / transformer capacity、firm generation 与 executable permitting path 的项目会获得时间优势。这意味着 hyperscaler 的竞争不仅是“谁拿到更多 accelerator”，还包括一个**示意性的部署量级问题**：谁能让下一批 50 MW / 100 MW / 500 MW 的系统更早真正上电。这里的 50 / 100 / 500 MW 是用于说明 Time-to-Power 尺度的情景量级，不是已披露项目容量。
 
 ## 7. 电力与 semiconductor bottleneck 会轮换
 
