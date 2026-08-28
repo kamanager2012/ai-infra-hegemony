@@ -29,6 +29,9 @@ jobs:
       - name: Check publication third-party asset rights
         run: python scripts/check-publication-rights.py
 
+      - name: Check publication editorial hygiene
+        run: python scripts/check-publication-editorial.py
+
       - name: Recompute versioned D-grade models
         run: python scripts/recompute_models.py
 
