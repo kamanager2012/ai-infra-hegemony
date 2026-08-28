@@ -26,14 +26,16 @@ That distinction matters because the seller of a high-margin system platform, th
 
 NVIDIA's current financial profile combines high system-level economics, strong free cash flow, and relatively low direct fixed-asset intensity.
 
-FY26 free cash flow was **$96.575B**.
+FY26 NVIDIA-defined non-GAAP free cash flow was **US$96.575B**.
 
 FY27 Q2 actuals were:
 
-- revenue: **$96.221B**;
-- Data Center revenue: **$89.0B**;
+- revenue: **US$96.221B**;
+- Data Center revenue: **US$89.0B**;
 - GAAP gross margin: **75.0%**;
-- GAAP operating income: **$63.734B**.
+- GAAP operating income: **US$63.734B**.
+
+Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 
 By contrast, hyperscalers, foundries, memory manufacturers, and power developers must carry large pools of fixed assets and the associated depreciation, utilization, and financing risk.
 
@@ -82,7 +84,9 @@ The HBM cycle can materially improve memory-vendor economics, but manufacturing 
 
 ## 5. AI compute is beginning to form a financeable infrastructure asset class
 
-In August 2026 NVIDIA announced a memorandum with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to develop third-party AI-compute financing platforms, with an ambition to mobilize more than **$500B** over time.
+On **2026-08-10**, NVIDIA announced strategic partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to establish independent AI-compute infrastructure financing platforms with a target to **mobilize more than US$500B of third-party capital over time** for AI-infrastructure buildout.
+
+Source: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 
 That development matters because it points to a shift from:
 
@@ -92,7 +96,7 @@ toward:
 
 > institutional infrastructure financing.
 
-But the evidence boundary is important. **$500B is a mobilization target, not capital already raised, committed, or deployed.**
+The evidence boundary is important. **More than US$500B is an over-time mobilization target, not capital already raised, committed, funded, or deployed.**
 
 The relevant follow-up indicators are:
 
@@ -220,8 +224,9 @@ It is:
 
 > **Can long-duration capital earn sufficiently stable utilization and cash returns from assets whose technology and demand cycles may be much shorter than their financing lives?**
 
-The August 2026 financing initiatives are evidence that the market is trying to solve that problem. They are not yet evidence that the problem has been solved.
+The August 2026 financing initiatives are evidence that the market is trying to solve that problem. They are not evidence that the target capital has already been mobilized or that duration mismatch has been solved.
 
 ## Key public sources for this volume
 
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA, 2026-08-10, AI-compute financing platforms, >US$500B third-party-capital mobilization target: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
