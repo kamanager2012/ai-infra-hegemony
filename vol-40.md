@@ -256,3 +256,6 @@ China parallel stack 正在扩展，但 frontier AI 完整闭环仍取决于多�
 - Micron FY24 Q2 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - TSMC 2Q26 Earnings Conference Transcript（advanced-packaging tightness limits customer growth）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 - NVIDIA DGX GB200 hardware guide（~120 kW/rack）：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane Clean Energy Center（20-year PPA; ~835 MW unit）：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 Form 10-Q（revised AWS PPA up to 1,920 MW; transition occurred in April 2026）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos Power / Google（Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035）：https://www.kairospower.com/google
