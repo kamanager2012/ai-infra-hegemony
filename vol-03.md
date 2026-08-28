@@ -18,6 +18,22 @@ AI 基础设施扩张并不会把全球所有半导体产能同时抽走。真�
 
 因此，更准确的分析对象是 **Non-AI Residual Capacity（非 AI 有效残余产能）**。
 
+## 1A. Two-Speed Semiconductor Economy：AI 基础设施与传统终端开始进入不同的资源经济
+
+本报告进一步把 AI Resource Gravity 的宏观结果定义为 **Two-Speed Semiconductor Economy（双速半导体经济）**。它不是说消费电子“消失”，而是说共享同一上游资源池的两类需求正在表现出不同的支付能力、资本回报与扩产优先级。
+
+2026 年第二季度，TSMC 的 HPC platform revenue 环比增长 **20%**、占公司季度营收 **66%**；Smartphone platform revenue 环比下降 **4%**、占比 **22%**。同一季度 advanced technologies（7 nm 及以下）占 wafer revenue **77%**。这些数字描述的是 TSMC 当季 revenue mix，而不是全球 wafer allocation，也不能把 HPC 全部等同于 AI。来源：https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+更值得关注的是资本形成。TSMC 在 2026 Q2 earnings call 将全年 capital budget 上调到 **US$60B–64B**，其中约 **70%–80%**用于 advanced process technologies，约 **10%–20%**用于 advanced packaging、testing、mask making 等；公司把持续的 AI/HPC structural demand 列为扩张背景。这里同样不能把全部 CapEx 归因于 AI，但它证明高增长 workload 正在影响下一轮供给形成。
+
+因此，传统终端面临的核心问题不是“今天是否还有产能”，而是：
+
+> **下一单位新增资本、cleanroom、先进封装和设备，优先为哪一类长期需求建设。**
+
+这使半导体产业的边际需求结构从较分散的 smartphone / PC / server / automotive / industrial 组合，逐步增加由少数 hyperscaler、system-platform seller 与 Anchor Compute Buyer 驱动的基础设施资本开支权重。
+
+Two-Speed Semiconductor Economy 是机制判断（M），不是“AI 已经永久献祭消费电子”的事实结论。其强弱需要由 revenue mix、CapEx allocation、memory product mix、lead time、终端 BOM 与 Non-AI Residual Capacity 共同验证。
+
 ## 2. Rack-scale system 把需求变成可计算的物理量
 
 GB200 NVL72 官方配置：
