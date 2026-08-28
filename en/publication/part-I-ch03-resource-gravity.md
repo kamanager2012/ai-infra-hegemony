@@ -27,7 +27,7 @@ This does not mean suppliers serve only the top buyer, nor that traditional mark
 
 In an extreme shortage, the market does not clear through price alone. **Long-term agreements, customer credit, prepayments, purchasing scale, and allocation fulfillment** can determine first whether a buyer receives enough volume.
 
-TrendForce stated in January 2026 that as U.S. CSPs locked in capacity, other customers had to accept higher prices to secure supply allocations. In March 2026, it further noted that PC OEMs and module makers with lower allocation-fulfillment rates were forced to procure incremental supply at higher prices.
+TrendForce stated in January 2026 that as U.S. CSPs locked in capacity, other customers had to accept higher prices to secure supply allocations. In March 2026, it further noted that PC OEMs and module makers with lower allocation-fulfillment rates were forced to procure incremental supply at higher prices.[^1][^2]
 
 Therefore:
 
@@ -47,9 +47,33 @@ If total supply rises 20% while AI/server demand absorbs 40% more, effective res
 
 "Global capacity is increasing" therefore does not automatically imply that PCs, smartphones, general servers, or consumer GPUs are returning to abundant supply.
 
+### 3.1 Two-Speed Semiconductor Economy: shared resources, different capital-formation speeds
+
+The AI Infrastructure Economy and the Traditional Device Economy share parts of the same advanced-logic, memory, packaging, and power-management resource base, but they differ materially in willingness to pay, contract duration, use of prepayments, BOM constraints, and end-market price elasticity.
+
+The long-run consequence of AI Resource Gravity is therefore not limited to current-period allocation. It also affects the next round of capital formation: suppliers decide where the next dollar of CapEx goes based on risk-adjusted returns. The **Two-Speed Semiconductor Economy** describes this difference in resource economics; it is not a factual declaration that consumer electronics are being permanently “sacrificed.”
+
+### 3.2 AI Capacity Gap: is scarcity strengthening, converging, or reversing?
+
+The report defines the variable separately for each physical layer:
+
+```text
+AI_Capacity_Gap_i(t)
+= Growth(AI_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
+
+where \(i\) represents advanced logic, HBM/DRAM, advanced packaging, networking, and power.
+
+- **Gap > 0:** incremental AI demand is growing faster than incremental effective capacity, raising S2/S3 pressure;
+- **Gap ≈ 0:** supply and demand are converging;
+- **Gap < 0:** capacity is growing faster than demand, but this becomes a strong S4 signal only when utilization, clearing prices, and commitments deteriorate at the same time.
+
+AI Capacity Gap and Non-AI Residual Capacity are complementary variables: the former asks whether AI itself still lacks incremental supply; the latter asks how much effective supply remains for other industries after priority allocation.
+
 ## 4. Memory is the clearest observed crowding-out path
 
-Micron disclosed that HBM3E requires approximately **3× the wafer supply of DDR5** on the same technology node and for the same number of bits. TrendForce forecasts HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
+Micron disclosed that HBM3E requires approximately **3× the wafer supply of DDR5** on the same technology node and for the same number of bits; TrendForce forecasts HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.[^3][^4]
 
 That creates an observable memory-layer mechanism:
 
@@ -59,7 +83,7 @@ The 51% figure is a 2026E bit-supply forecast. It is not an HBM-only share and n
 
 ## 5. PCs and Gaming: dual exposure to GPU allocation and memory residuals
 
-NVIDIA's FY26 10-K reports Gaming revenue of roughly **US$16.0B, up 41% year over year**, while also stating that supply constraints were expected to be a headwind to Gaming in FY27 Q1 and beyond.
+NVIDIA's FY26 10-K reports Gaming revenue of roughly **US$16.0B, up 41% year over year**, while also stating that supply constraints were expected to be a headwind to Gaming in FY27 Q1 and beyond.[^5]
 
 That is evidence of supply constraints on the gaming side, but it does not prove that every constraint was caused by Data Center allocation.
 
@@ -73,7 +97,7 @@ AI/server infrastructure expansion can therefore raise general-server cost throu
 
 ## 7. Smartphones: not displaced by AI, but competing under a new incremental-resource regime
 
-TSMC's 2025 smartphone platform accounted for **29%** of annual net revenue and grew **11% year over year**; HPC accounted for **58%** and grew faster.
+TSMC's 2025 smartphone platform accounted for **29%** of annual net revenue and grew **11% year over year**; HPC accounted for **58%**.[^6]
 
 This does not support the statement that "AI replaced smartphones." A more accurate description is:
 
@@ -127,11 +151,11 @@ than with the claim that "AI is taking every chip."
 
 The crowding-out thesis should be weakened if DDR/LPDDR pricing and supply become sustainably loose, consumer-GPU availability improves materially, smartphone/general-server upgrades no longer show shared-resource pressure, and memory/packaging product mix stops tilting toward AI/server demand.
 
-## Key public sources
+## References
 
-- NVIDIA FY26 10-K — Gaming +41% and supply-constraint headwind: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
-- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- TSMC 4Q25 Presentation — smartphone 29%, HPC 58%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
-- TrendForce 2026-01-05 — CSPs lock capacity, other buyers accept higher prices to secure allocation: https://www.trendforce.com/presscenter/news/20260105-12860.html
-- TrendForce 2026-03-31 — lower allocation fulfillment forces OEMs to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
+[^1]: TrendForce, 2026-01-05, CSP capacity locking and allocation pricing, https://www.trendforce.com/presscenter/news/20260105-12860.html
+[^2]: TrendForce, 2026-03-31, allocation fulfillment and higher-price procurement by OEMs/module makers, https://www.trendforce.com/presscenter/news/20260331-12995.html
+[^3]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E wafer-supply trade ratio versus DDR5, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^5]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Gaming revenue and supply-constraint disclosure, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^6]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
