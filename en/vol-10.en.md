@@ -37,6 +37,12 @@ Current anchors include:
 - TSMC management continuing to describe advanced packaging as tight and growth-limiting;
 - NVIDIA manufacturing, supply, and capacity commitments of **US$279B** at FY27 Q2, up from US$119B at FY27 Q1;
 - NVIDIA FY27 Q2 revenue **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, operating income **$63.734B**;
+
+Primary sources:
+- TSMC 2025 Annual Report / platform mix: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2Q26 transcript / packaging tightness: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- NVIDIA FY27 Q2 Form 10-Q / US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- NVIDIA FY27 Q2 official results / revenue, Data Center, margin, operating income: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - hyperscaler system stacks continuing to develop across Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA;
 - long-duration model-company infrastructure commitments from OpenAI/Stargate and Anthropic/AWS;
 - power projects with contractual scales ranging from hundreds of megawatts to multi-gigawatt arrangements, but with different construction and energization clocks.
