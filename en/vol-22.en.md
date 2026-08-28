@@ -73,7 +73,7 @@ The exact size of each effect depends on vendor contracts and product mix and th
 
 ## 5. Smartphones remain a huge market; AI has not “eliminated” them
 
-TSMC's smartphone platform represented **29% of 2025 revenue**; separately, smartphone-platform revenue grew **11% year over year**. The 29% figure is revenue mix, while +11% is platform-revenue growth. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf .
+TSMC's smartphone platform represented **29% of 2025 revenue**; separately, smartphone-platform revenue grew **11% year over year**. The 29% figure is revenue mix, while +11% is platform-revenue growth. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf .
 
 The relevant structural change is not that smartphones disappeared.
 
@@ -178,6 +178,7 @@ It is a claim that product configuration, upgrade speed, and cost structure are 
 ## Key public sources for this volume
 
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-- TSMC 4Q25 presentation — Smartphone 29% revenue mix; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
+- TSMC 4Q25 presentation — Smartphone 29% revenue mix; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — Gaming +41%; supply-constraint headwind expected in FY27 Q1 and beyond: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
