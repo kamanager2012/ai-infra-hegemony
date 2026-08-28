@@ -64,13 +64,13 @@ The strategic significance is:
 
 The PPA is evidence of infrastructure reservation, not evidence that 835 MW of AI load is already online.
 
-## 4. Talen / AWS: up to 1.92 GW under the revised structure
+## 4. Talen / AWS: full contract quantity up to 1,920 MW under the revised PPA
 
-The revised Talen/AWS arrangement can reach as much as **1.92 GW**.
+The revised Talen/AWS PPA has a **full contract quantity up to 1,920 MW** through 2042.
 
 The important status change is already known:
 
-> **conversion to the revised front-of-the-meter structure was completed in April 2026.**
+> **the transition to the revised front-of-the-meter PPA occurred in April 2026, while power delivery continues to ramp toward full volume no later than 2032.**
 
 The monitoring question has therefore moved from “will the conversion happen?” to:
 
@@ -84,7 +84,7 @@ This path represents a long-duration commercial relationship between large data-
 
 ## 5. Google / Kairos: up to 500 MW of SMR development
 
-Google and Kairos have a development agreement targeting up to approximately **500 MW**.
+The Google/Kairos path is more specific: **Hermes 2 is planned for up to 50 MWe in 2030**, followed by a fleet delivering **up to 500 MWe by 2035**.
 
 Its maturity is different from the first two projects:
 
@@ -113,10 +113,15 @@ The projects sit at different stages:
 | Project | Nominal scale | Core state |
 |---|---:|---|
 | Microsoft / Constellation | ~835 MW | restart + regulatory process |
-| Talen / AWS | up to 1.92 GW | front-of-meter conversion completed; ramp continues |
-| Google / Kairos | up to 500 MW | long-duration development |
+| Talen / AWS | up to 1,920 MW | revised-PPA transition occurred in 2026-04; delivery ramps to full volume no later than 2032 |
+| Google / Kairos | Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035 | long-duration development |
 
 This is why energy analysis has to follow project state instead of adding headline capacity.
+
+### Public sources
+- Constellation / Microsoft Crane: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Google / Kairos: https://www.kairospower.com/google
 
 ## 7. Grid queues are not the same as deliverable shortage
 
