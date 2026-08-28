@@ -1,7 +1,5 @@
 # Part III · 第21章：消费电子与实体经济的成本传导
 
-> **出版层章节。** 由 [vol-22](../vol-22.md) 与 [macro-05](../part2-05.md) 重编。Part I Ch03 已解释 Non-AI Residual Capacity；本章只追踪这种残量压力如何进入 smartphone、PC、general consumer devices 与部分实体经济成本。
-
 ## 1. Consumer Electronics 不直接买训练柜，但会共享上游资源
 
 consumer products 与 AI/server systems 共享的主要层包括：
