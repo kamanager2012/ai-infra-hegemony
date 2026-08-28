@@ -62,7 +62,7 @@ TSMC 收入来自：
 
 - gross margin：**59.9%**
 - HPC platform：**58% of revenue**
-- advanced packaging + testing：略高于 **10%**
+- advanced packaging：略高于 **10%**（不得扩写为 packaging + testing）
 
 TSMC 在系统中承担重资产制造，因此其资本强度与 NVIDIA 完全不同。
 
@@ -159,7 +159,7 @@ hyperscaler 同样拥有极强现金流，但资金用途更加分散。
 
 TrendForce 预计 2026 年 HBM + RDIMM 约占 DRAM bits **51%**。
 
-Micron 的 ~3× wafer-supply trade ratio 又说明 HBM 对 manufacturing input 的消耗高于同 bit DDR5。
+Micron FY24 Q3 的 **industrywide / same-node / same-bits** 口径显示，HBM3E 约需 DDR5 **3× wafer supply**，说明 HBM 对 manufacturing input 的消耗更高；该比例不是 Micron 自家固定常数。
 
 因此，AI infrastructure 的资金不只流向 GPU。
 
