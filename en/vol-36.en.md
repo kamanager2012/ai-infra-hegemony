@@ -221,3 +221,7 @@ It is:
 > **Can long-duration capital earn sufficiently stable utilization and cash returns from assets whose technology and demand cycles may be much shorter than their financing lives?**
 
 The August 2026 financing initiatives are evidence that the market is trying to solve that problem. They are not yet evidence that the problem has been solved.
+
+## Key public sources for this volume
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
