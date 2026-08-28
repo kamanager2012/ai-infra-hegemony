@@ -176,6 +176,28 @@ AI Resource Gravity 的核心不是“AI 需求最大”，而是**AI 订单具�
 
 反过来，中国如果在这些 advanced layers 上形成足够规模，则会产生第二个资源重力中心，而不是简单成为原有全球供应链的“剩余产能接收方”。
 
+## 7A. AI Capacity Gap：判断资源紧缺是在恶化、均衡还是反转
+
+为了避免把“AI 需求很强”直接等同于“未来永远短缺”，本报告引入 **AI Capacity Gap**：
+
+```text
+AI_Capacity_Gap(t)
+= Growth(AI_Demand(t))
+- Growth(AI_Dedicated_or_Effective_Capacity(t))
+```
+
+这里的 capacity 必须按物理层分别计算，不能把 logic、HBM、advanced packaging 与 power 合并成一个总量。
+
+- **Gap > 0 且跨层持续**：新增需求快于新增有效供给，S2 Baseline Concentration / S3 Resource Hegemony 的压力上升；
+- **Gap ≈ 0**：供需逐步接近平衡，更接近 S1 Competitive Expansion 与 S2 之间的可控扩张；
+- **Gap < 0**：只有在 utilization、clearing price、forward commitments 等也同步走弱时，才构成 S4 Capital Hard Landing 风险；负 Gap 本身不等于资本硬着陆。
+
+这个指标的作用，是把“AI 会不会继续抢资源”改写成一个可验证的问题：
+
+> **AI demand growth 是否持续快于 AI-dedicated / AI-effective capacity growth？**
+
+它与 Non-AI Residual Capacity 是一组互补变量：AI Capacity Gap 描述 AI 侧新增供需缺口，NARC 描述同一资源池完成优先分配后，非 AI 市场还剩多少有效供给。
+
 ## 8. 当前判断
 
 截至 2026 年 8 月，可以确认的是：
