@@ -275,7 +275,7 @@ The report cannot:
 - calculate every company's AI-specific ROI exactly from public materials;
 - automatically treat every number in 40 volumes, 8 macro essays, and 32 publication chapters as audited fact.
 
-Full historical numeric claim-by-claim audit remains a public-release hard gate. The repository now includes a machine-readable schema and candidate extractor, but those do not substitute for source review.
+As of 2026-08-28, strict every-number **source coverage** has been completed across the bilingual research layer (**96/96 files / 1,052 unit-bearing numeric candidates / 0 unresolved**) and the formal Publication Layer (**64/64 chapters / 529 candidates / 0 unresolved**). This establishes a source anchor, explicit model/scenario identity, or an explainable counterexample boundary for detected numeric claims. It does **not** constitute sentence-by-sentence external audit assurance, and it does not replace final editorial semantic sign-off on lower-risk source meaning, denominators, and time windows. The machine-readable schema, candidate extractor, and high-risk claim ledgers are complementary controls against missed claims.
 
 ## 6. Correction policy
 
