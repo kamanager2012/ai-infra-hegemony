@@ -8,9 +8,9 @@ See also [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 
 - **Part I — System Power and Physical Scarcity: 9/9 chapters synchronized.**
 - **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
-- Part III — Capital Cycles, Profit Pools, and External Transmission: pending English publication synchronization.
+- **Part III — Capital Cycles, Profit Pools, and External Transmission: 8/8 chapters synchronized.**
 - Part IV — Method, Scenarios, Monitoring, and Strategy: pending English publication synchronization.
-- **English Publication Layer: 18/32 chapters.**
+- **English Publication Layer: 26/32 chapters.**
 
 The Chinese Publication Layer remains the canonical publication source for chapter structure and factual scope while English chapter synchronization is in progress.
 
@@ -42,6 +42,19 @@ The Chinese Publication Layer remains the canonical publication source for chapt
 | 17 | [China's Parallel Stack — From Product Substitution to Frontier System Closure](part-II-ch17-china-parallel-stack.md) | vol-12 + vol-29 + macro-08 |
 | 18 | [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md) | vol-11 |
 
+## Part III — Capital Cycles, Profit Pools, and External Transmission
+
+| Chapter | English publication chapter | Research-layer source |
+|---|---|---|
+| 19 | [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md) | vol-08 |
+| 20 | [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md) | vol-14 + vol-21 |
+| 21 | [Cost Transmission into Consumer Electronics and the Real Economy](part-III-ch21-consumer-transmission.md) | vol-22 + macro-05 |
+| 22 | [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md) | vol-30 |
+| 23 | [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md) | vol-36 |
+| 24 | [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md) | vol-37 + macro-07 |
+| 25 | [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md) | vol-38 |
+| 26 | [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md) | vol-39 |
+
 ## Editorial and evidence rules
 
 The English publication layer follows the same rules as the Chinese canonical publication layer:
@@ -59,4 +72,4 @@ The English publication layer follows the same rules as the Chinese canonical pu
 
 Part I has completed the first English synchronization pass. It will continue to receive the same dead-link, deep-source, denominator, and cross-language regression applied to the Chinese publication layer.
 
-The next build target is **Part III, Chapters 19–26**.
+The next build target is **Part IV, Chapters 27–32**.
