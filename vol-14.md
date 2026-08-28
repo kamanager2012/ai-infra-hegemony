@@ -218,3 +218,7 @@ AI 时代真正的“赢家”不是某个行业，而是能够控制以下至�
 - proprietary workflow。
 
 因此，本报告后续不使用简单“谁赢谁输”的静态表，而使用 **Value Capture Map + Scenario Matrix** 判断利润如何在不同情景下迁移。
+
+## 本卷关键公开来源
+
+- NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
