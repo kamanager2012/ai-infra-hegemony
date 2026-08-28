@@ -128,5 +128,5 @@ Cloud CapEx、system-vendor revenue、foundry revenue、memory revenue 与 power
 - [核心参考文献索引](../核心参考文献索引.md)
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- Micron FY24 Q3 Prepared Remarks: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - TrendForce 2026E memory structure: https://www.trendforce.com/presscenter/news/20260825-13198.html
