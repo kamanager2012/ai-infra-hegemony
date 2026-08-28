@@ -72,7 +72,7 @@ SK hynix FY25 官方数据：
 
 ## 5. 51% DRAM bit share 的含义
 
-TrendForce **预计**，2026 年 HBM + RDIMM 约占 **DRAM bit supply 的 51%**。这是 **2026E institutional forecast**，不是已经实现的 full-year actual。
+TrendForce **预计**，2026 年 HBM + RDIMM 约占 **DRAM bit supply 的 51%**。这是 **2026E institutional forecast**，不是已经实现的 full-year actual。 来源：https://www.trendforce.com/presscenter/news/20260825-13198.html
 
 这个数字不能理解成“51% DRAM 都是 HBM”，也不能改写成 wafer share 或 revenue share。
 
