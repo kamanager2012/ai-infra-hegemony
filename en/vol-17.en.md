@@ -31,7 +31,7 @@ A frontier AI system depends on several physical layers:
 
 Failure or tightness at any one layer can limit total system delivery.
 
-Micron's HBM3E **~3× wafer-supply trade ratio** shows that memory demand can amplify DRAM wafer pressure.
+Micron's FY24 Q3 prepared remarks use an **industrywide, same-node, same-bits** scope: HBM3E requires roughly **3× the wafer supply of DDR5**. That shows how HBM can amplify DRAM wafer pressure, but it is not a fixed Micron-specific constant.
 
 TSMC's first-party statements on advanced-packaging tightness show that packaging is not merely a supporting process; it can directly limit customer growth.
 
@@ -41,7 +41,7 @@ It is a **multi-layer integration risk**.
 
 ## 3. Power risk: hardware can exist but remain unusable
 
-At roughly 120 kW-class rack density, power can become the next bottleneck after semiconductor manufacturing.
+GB200 NVL72-class public product documentation is roughly **120 kW per rack**. That is a product-level density anchor, not evidence that a campus is already carrying the corresponding live load; whether power becomes the next bottleneck depends on interconnection, energization, and utilization.
 
 Relevant risks include:
 
