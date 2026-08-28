@@ -12,12 +12,17 @@
 
 最新公司披露大致显示：
 
+**Table 22.1 — 主要 Cloud 公司 server / network equipment useful-life disclosure**
+
 | 公司 | server / network equipment useful-life disclosure |
 |---|---|
 | Microsoft FY26 | 2–6 years |
 | Alphabet 2025 | generally 6 years |
 | Meta 2025 | 5–5.5 years |
 | Amazon 2025 | 5–6 years；部分资产 2025 从 6 年调整到 5 年 |
+
+**Source:** Microsoft FY26 10-K、Alphabet 2025 10-K、Meta 2025 10-K、Amazon 2025 10-K.[^1][^2][^3][^4]  
+**Note:** accounting useful life 不是 economic life；不同公司资产类别与折旧估计不可机械视为同口径。
 
 这已经足以证明：不能用一个统一“4 年直线折旧”去估算整个 AI infrastructure。
 
@@ -106,9 +111,9 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 折旧墙真正需要警惕的组合是：utilization 下滑、residual value 快速下降、CapEx guidance 下调、commitments 收缩和 impairment 增加同时出现。
 
-## 关键公开来源
+## References
 
-- Microsoft FY26 10-K: https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
-- Alphabet 2025 10-K: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
-- Meta 2025 10-K: https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
-- Amazon 2025 10-K: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+[^1]: Microsoft Corporation, FY26 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+[^2]: Alphabet Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+[^3]: Meta Platforms, Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+[^4]: Amazon.com, Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
