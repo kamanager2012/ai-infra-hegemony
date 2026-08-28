@@ -242,3 +242,10 @@ The central danger is not simply that AI is attracting too much money.
 It is:
 
 > **that the stock of infrastructure keeps rising while the volume of economically productive workload fails to rise with it.**
+
+
+## Key public sources for this volume
+
+- NVIDIA FY26 official results / 10-K — H20-related charges; FY26 Q4 GAAP gross margin 75.0%: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q1 10-Q — Q1 GAAP gross margin 74.9%: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
+- NVIDIA FY27 Q2 official results — Q2 GAAP gross margin 75.0%: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
