@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-06.md](../part2-06.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Power is now a core AI-infrastructure constraint, but current evidence does not show that it has already become the single dominant bottleneck. Contracted, permitted, energized, and utilized MW remain separate states.
+> Retrieval and revision cutoff: **2026-08-28**. Power is now a core AI-infrastructure constraint, but current evidence does not show that it has already become the single dominant bottleneck. Contracted, permitted, energized, and utilized MW remain separate states.
 
 ## 1. The macro question
 
