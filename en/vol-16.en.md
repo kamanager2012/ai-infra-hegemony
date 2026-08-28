@@ -72,7 +72,7 @@ DeepSeek-V3 reports approximately **2.788M H800 GPU-hours** for the full trainin
 Using the report-side rental assumption of **$2 per GPU-hour** gives:
 
 ```text
-2.788M × $2 ≈ $5.576M
+2.788M × US$2 ≈ US$5.576M
 ```
 
 This is **not** the full cash cost of developing a frontier model.
@@ -131,6 +131,8 @@ for the **same technology node** and the **same number of bits**.
 The implication is that rising HBM bit demand can amplify pressure on DRAM wafer supply.
 
 This is **A-grade first-party company evidence**. It is a trade ratio under a defined comparison, not a universal constant that can be mechanically extended to every future HBM generation.
+
+Public source: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 
 ## 7. Advanced-packaging geometry stress test
 
