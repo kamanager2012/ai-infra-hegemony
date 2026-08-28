@@ -53,7 +53,7 @@ That is why a Capital Hard Landing is unlikely to complete in a single quarter.
 
 ## 5. CapEx has to be divided by utilization, not only by years
 
-The same US$100B investment has very different economics at 90% utilization and 30% utilization.
+As a **D-grade sensitivity example**, the same **US$100B** investment has very different economics at **90%** utilization and **30%** utilization. US$100B, 90%, and 30% are illustrative inputs, not industry actuals.
 
 The analysis therefore has to include:
 
