@@ -190,3 +190,4 @@ Evidence that should shift weight toward **S4**:
 This volume does not assign fixed 2036 probabilities, treat former fixed scenario weights as calibrated forecasts, equate total CapEx with AI hardware CapEx, or treat a single algorithmic breakthrough as proof of 1000× industry-wide compute-demand reduction.
 
 The purpose of S1–S4 is to create a **falsifiable industrial state machine**. The reader should be able to update the scenario map as evidence changes rather than defend a prophecy written years earlier.
+- TSMC 2Q26 Earnings Conference Transcript (packaging capacity limits customers' growth): https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
