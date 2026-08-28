@@ -1,7 +1,5 @@
 # Part II · 第13章：Anchor Compute Buyer Effect——模型公司如何重塑基础设施
 
-> **出版层章节。** 以 [vol-26](../vol-26.md) 为主源，并更新到 2026 年 8 月公开状态。本章把 OpenAI / Anthropic 等模型公司从普通 cloud tenant 中单独抽出，分析长期 workload commitment 如何影响 data center、custom silicon、HBM、packaging 与 power。
-
 ## 1. 模型公司正在从“算力租户”升级为 Infrastructure Anchor Buyer
 
 传统关系是：
