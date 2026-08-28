@@ -107,7 +107,7 @@ PCs also face a second channel: server/HBM demand changes DRAM product mix and t
 
 ## 6. General servers: RDIMM sits inside the same high-value memory pool
 
-General servers do not necessarily use HBM, but they consume large amounts of DDR5 RDIMM. TrendForce includes RDIMM and HBM together in its forward view of 2026 DRAM bit supply, showing that traditional server memory is not a fully independent commodity river.
+General servers do not necessarily use HBM, but they consume large amounts of DDR5 RDIMM. TrendForce includes RDIMM and HBM together in its forward view of 2026 DRAM bit supply.[^4] This shows that traditional server memory is not a fully independent commodity river.
 
 AI/server infrastructure expansion can therefore raise general-server cost through memory allocation even when the server itself does not use a frontier accelerator.
 
