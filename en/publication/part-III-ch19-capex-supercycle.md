@@ -14,12 +14,17 @@ There is therefore no official "four-cloud AI hardware CapEx" that can be obtain
 
 ## 2. Current 2026 capital-expansion anchors
 
+**Table 19.1 — Public 2026 capital-spending metrics for the four major clouds**
+
 | Company | Current 2026 public metric | Identity |
 |---|---:|---|
 | Microsoft | calendar-2026 reported CapEx expectation ~US$175B | expectation; underlying investment expectation unchanged after lease-classification adjustment |
 | Alphabet | US$195–205B | Q2 full-year guidance |
 | Meta | US$130–145B | Q2 guidance; includes finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
+
+**Source:** Microsoft FY26 Q4 earnings materials, Alphabet 2026 Q2 SEC Exhibit 99.1, Meta 2026 Q2 SEC Exhibit 99.1, and Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
+**Note:** Time windows and accounting treatments differ; the figures must not be mechanically added into a unified AI-hardware CapEx number.
 
 These figures are sufficient to show that infrastructure investment remains at elevated levels.
 
@@ -102,9 +107,9 @@ rather than a completed capital-clearing cycle.
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
 
-## Key public sources
+## References
 
-- Microsoft FY26 Q4 earnings / call: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-- Meta 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-- Amazon 2026 Q2 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^1]: Microsoft, FY26 Q4 earnings / conference call, calendar-2026 reported CapEx expectation, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+[^2]: Alphabet, 2026 Q2 SEC Exhibit 99.1, full-year CapEx guidance, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+[^3]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, FY2026 CapEx guidance including finance-lease principal, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+[^4]: Amazon.com, 2026 Q2 Form 10-Q, TTM purchases of property and equipment, net of proceeds and incentives, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
