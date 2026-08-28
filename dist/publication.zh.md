@@ -1845,3 +1845,1323 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 [^ch09-5]: U.S. Department of Commerce, TSMC Arizona CHIPS final award, 2024-11, https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
 [^ch09-6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
 [^ch09-7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
+
+
+\newpage
+
+# Part II · 第10章：模型单位经济、算法效率与开源竞争
+
+
+## 1. 模型公司不是脱离基础设施的纯软件生意
+
+API、订阅和 agent service 的底层变量成本包括 accelerator time、HBM bandwidth、KV cache、storage / retrieval、networking、third-party tools、human review、cloud margin 与 serving utilization。
+
+因此，AI 软件无法简单沿用“新增用户几乎没有边际成本”的传统 SaaS 叙事。真正的单位是：
+
+> **Revenue per completed workflow − total variable AI cost per completed workflow**
+
+## 2. Algorithmic efficiency 改变的是需求函数
+
+DeepSeek-V3 一手披露：671B total parameters、37B activated parameters、14.8T pre-training tokens、2.664M H800 GPU-hours pre-training、2.788M H800 GPU-hours full formal training。[^ch10-1]
+
+按论文使用的 US$2/GPU-hour 假设，2.788M GPU-hours 对应约 **US$5.576M formal-training compute conversion**。这不是完整企业研发成本。
+
+它证明的是：frontier capability 与硬件投入之间不是固定线性关系。architecture、sparsity、routing 和 memory design 可以显著改变单位 capability 所需资源。
+
+## 3. MLA 说明 Memory Cost 可以被算法直接攻击
+
+DeepSeek-V2 相对 DeepSeek 67B 报告约 **93.3% KV-cache reduction** 和约 **5.76× maximum generation throughput**。[^ch10-2]
+
+这两个数字属于 V2，不属于 V3。
+
+其经济意义在于：同一 HBM capacity 可以承载更高并发，单位 token memory traffic 下降，serving utilization 提高。
+
+但更低单位成本不意味着总基础设施需求必然下降。如果 lower cost 刺激 token、agent 与 workflow volume 更快增长，总需求仍可上升。
+
+## 4. 开源首先压缩模型层利润，不会自动压缩全部基础设施利润
+
+Open-source model 会提高 capability diffusion、private deployment 与 model switching option，并压低 API premium。
+
+但模型层迁移速度通常快于底层 accelerator、HBM、network、packaging 和 data-center infrastructure 的迁移速度。
+
+所以可以出现：
+
+> **model price compression + infrastructure utilization growth**
+
+这也是为什么“API price 下跌”和“AI infrastructure demand 下跌”不能画等号。
+
+## 5. GPU vs ASIC 的正确比较单位是 System TCO
+
+Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司和内部 workload 提供第二条 compute path。
+
+真正要比较的不是 accelerator die price，而是：
+
+- workload compatibility；
+- compiler/runtime maturity；
+- HBM / interconnect configuration；
+- cluster scaling；
+- debugging / porting cost；
+- effective utilization。
+
+如果理论 chip cost 更低，但 migration、debug 或 utilization 更差，system TCO 未必更低。
+
+## 6. AI Software Unit Economics
+
+一个生产级 workflow 至少应计算：
+
+> **Contribution Margin = Revenue per workflow − inference − retrieval/storage − tools/APIs − retries − human review − compliance/operations**
+
+真正值得比较的指标包括：
+
+- cost per successfully completed task；
+- gross margin after inference；
+- revenue / productivity value per workflow；
+- retention；
+- retry / failure rate；
+- human review burden；
+- utilization of reserved compute。
+
+## 7. Anchor Buyer 让模型公司反向影响基础设施
+
+超大模型公司已经开始通过 multi-year compute commitments、dedicated data-center projects 与 long-duration capacity reservation 影响 cloud / chip / power investment。
+
+这意味着模型公司不是永远只能被动接受 cloud price。达到足够规模后，它们本身可以成为基础设施资本形成的需求锚。
+
+但这也放大风险：如果 architecture efficiency 提高、revenue 增长不及预期或 workload 转移，长期 capacity commitment 会变成 utilization / duration risk。
+
+## 8. Price Compression 与 Jevons-style Rebound
+
+算法效率和开源竞争会降低 unit intelligence cost。最终基础设施需求取决于：
+
+> **Net Infrastructure Demand = Unit Resource Intensity × Total Workload Volume**
+
+如果 resource intensity 下降 50%，但 workload volume 增长 4×，总需求仍增长。
+
+所以长期判断必须观察真实 workload、utilization 和 business outcome，而不是只看训练成本、benchmark 或 token price。
+
+## 9. 当前判断
+
+截至 2026 年，更稳健的状态是：
+
+- model layer price competition 与 capability diffusion 已经发生；
+- unit cost 持续下降；
+- open-source 提高 buyer bargaining power；
+- infrastructure demand 尚未因此进入确认下降周期；
+- large model companies 正通过长期 commitment 反向塑造 infrastructure buildout。
+
+因此，算法效率既可能成为基础设施需求的**打断器**，也可能成为总使用量的**放大器**。哪一种占主导，只能由 workload volume、utilization 与 unit economics 证明。
+
+## References
+
+[^ch10-1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
+[^ch10-2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
+
+
+\newpage
+
+# Part II · 第11章：NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张
+
+## 1. NVIDIA 的扩张方式不是传统 IDM 式纵向整合
+
+NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center real estate 来控制系统。
+
+它的扩张更接近：
+
+> **interface control + reference architecture + software/runtime + supply orchestration**
+
+系统边界已经覆盖 GPU / CPU、NVLink / NVSwitch、networking、rack-scale design、liquid-cooling requirements、CUDA/runtime、AI Enterprise、NIM / NeMo、DGX 与 cloud-service extensions。[^ch11-1][^ch11-2][^ch11-3]
+
+## 2. Rack-scale sales unit 会重新定义 OEM / ODM 的角色
+
+在 accelerator-card 时代，OEM 可以围绕 GPU 定义大量 server architecture。
+
+进入 rack-scale system 后，power delivery、cooling、fabric、cable topology、firmware、rack layout 和 software validation 被更强地绑定到 reference architecture。
+
+这不意味着 Dell、HPE、Lenovo、ODM 等失去产品能力，而是 system-platform owner 对整机设计和 qualification 的约束增强。
+
+## 3. Networking 已经成为 Compute Platform 的一部分
+
+大模型 training/inference 的性能越来越依赖 multi-GPU scaling 与 collective communication。
+
+当 accelerator、NVLink/NVSwitch、InfiniBand/Ethernet networking 与 software communication stack 被一起设计时，network 不再只是第三方附属品，而成为 system performance 与 switching cost 的组成部分。
+
+所以平台竞争逐渐从“GPU + 任意网络”变成一套更统一的 AI Factory architecture。
+
+## 4. DGX Cloud 的价值主要在 Platform Extension
+
+在没有独立大规模收入分项的情况下，不应把 DGX Cloud 写成已经取代 hyperscaler 的第二主业。
+
+更可靠的战略功能是：
+
+1. 展示完整 NVIDIA architecture；
+2. 获得真实 workload / deployment feedback；
+3. 降低客户首次使用全栈系统的门槛；
+4. 增加与 hyperscaler 之间的渠道与议价选择。
+
+它更接近 platform extension 与 reference deployment channel。
+
+## 5. AI Enterprise / NIM / NeMo 的核心作用是强化部署与迁移成本
+
+软件产品让 system platform 从 hardware purchase 延伸到 model serving、deployment、optimization、enterprise support 与 lifecycle management。
+
+在未披露独立软件收入之前，本书不把这些产品的贡献估算成固定“软件税”或单独利润池。
+
+更准确的作用是：
+
+> **降低 platform 内部部署摩擦，提高 platform 外部迁移成本。**
+
+## 6. Asset-light Orchestration 为什么重要
+
+NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ecosystem 与 infrastructure providers，同时用 long-term commitments、prepayments、roadmap coordination 和 volume certainty 影响这些供应商扩产。FY26 10-K 的 manufacturing, supply and capacity commitments 为这一 supply-orchestration 模式提供了公司层事实锚。[^ch11-4]
+
+这形成典型：
+
+> system definition / cash generation 留在平台 → 重资产扩产留在供应链 → 平台用订单和承诺锁定未来资源
+
+它提高了平台资本效率，也把外部 supply elasticity 变成平台战略的一部分。
+
+## 7. Physical AI 是下一层系统延伸，但不能与 Data Center 当前利润混用
+
+Automotive、robotics、simulation 与 edge deployment 延续相同逻辑：hardware architecture、runtime、simulation、developer tooling 与 model deployment 共同形成系统。
+
+但“战略重要”不等于“当前收入已经与 Data Center 相同”。Physical AI 的价值必须独立看 design wins、deployment scale、revenue、reliability 与 ecosystem adoption。
+
+## 8. 纵向扩张的六个边界
+
+NVIDIA 的系统扩张并非没有制衡：
+
+- hyperscaler custom system stack；
+- open compiler/runtime / portability；
+- alternative networking；
+- customer multi-sourcing；
+- regulation / interface remedy；
+- physical power and supply constraints；
+- China parallel stack。
+
+如果这些变量同时增强，NVIDIA 仍可能是最强 system platform，但 system definition 的议价能力会下降。
+
+## 9. “AI Factory” 的正确含义
+
+AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有权叙事。
+
+更准确地说，它代表一个设计哲学：compute、memory、networking、software、rack、cooling 与 deployment 被当成统一生产系统优化。
+
+这一思想的产业影响在于销售单位、qualification、supply commitments 与 data-center engineering 都被拉进同一个 roadmap。
+
+## 10. 当前判断
+
+截至 2026 年，最确定的变化是 NVIDIA 已经明显从 accelerator vendor 向 system-platform / AI-Factory architecture 扩张。
+
+但“纵向扩张”与“产业完全被一个平台控制”仍是两个不同命题。下一阶段真正需要观察的是：system definition 能否继续转化成长期 workload、supply commitments 和低迁移成本的跨代客户留存。
+
+
+## References
+
+[^ch11-1]: NVIDIA, NIM official product page, optimized inference microservices across cloud, data center, workstation and edge, https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/
+[^ch11-2]: NVIDIA, AI Foundation Models / NeMo, NVIDIA AI Foundry architecture, https://www.nvidia.com/en-us/ai-data-science/foundation-models/
+[^ch11-3]: NVIDIA, “Introducing NVIDIA DGX Cloud Lepton,” unified AI platform and compute marketplace, https://developer.nvidia.com/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/
+[^ch11-4]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Data Center, networking, platform and supply-chain disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+
+\newpage
+
+# Part II · 第12章：Hyperscaler System-Stack Competition
+
+## 1. 竞争已经从 ASIC vs GPU 升级为 System Stack vs System Stack
+
+把 Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 概括成“几颗 ASIC 挑战 GPU”，已经无法描述 2026 年的竞争状态。真正的竞争单位至少包含：accelerator、HBM、compiler/runtime、scale-up fabric、scale-out network、rack/pod、orchestration 与 production workload。
+
+本书用 **Cloud System-Stack Substitution** 描述这一变化。它衡量的不是某颗芯片 benchmark，而是一套替代系统能否在真实 workload 上形成足够低的 TCO、可接受的迁移成本和稳定的大规模利用率。
+
+## 2. Hyperscaler 的独特优势：自己就是第一批大客户
+
+四大云与普通 chip startup 的结构差异在于，它们同时拥有：
+
+- massive internal workload；
+- data-center scale；
+- compiler / software engineering；
+- cloud distribution；
+- capital；
+- power procurement；
+- custom-silicon teams。
+
+它们不需要第一天就复制 CUDA 的整个外部 developer ecosystem。只要能在自己的大型 captive workload 上持续降低成本，就能产生真实经济价值，并通过生产反馈迭代 compiler、interconnect、rack 与 deployment tooling。
+
+这也是 cloud custom silicon 最强的学习飞轮：**internal workload → production feedback → system optimization → lower TCO → more internal workload**。
+
+## 3. Google：TPU 已经是芯片、软件、互联和 Pod 的组合
+
+Google 的 TPU 路线已经跨越多代。Ironwood 继续把产品定义上移到大规模 pod / system：[^ch12-1]自研 accelerator 与 XLA/software、high-bandwidth interconnect、HBM 和 Google Cloud workload 共同形成完整栈。
+
+所以 Google 的竞争力不是“一颗 TPU 比一颗 GPU 快多少”，而是：
+
+> **TPU + compiler/runtime + network + pod + captive workload + cloud distribution**。
+
+如果这套系统在特定 training/inference workload 上持续降低 total cost of ownership，它就可以分流 NVIDIA platform profit，即使它没有成为全行业通用开发平台。
+
+## 4. AWS：Trainium 把芯片、Neuron 与 UltraServer 组合成系统
+
+AWS Trainium 同样已经从 accelerator 向 system 发展。Trainium3 UltraServers、Neuron software stack、AWS networking/data-center deployment 与大规模 cloud workload 共同构成第二类系统。[^ch12-2]
+
+其战略优势还包括长期 anchor workload。Anthropic 已公开深化与 AWS 的长期 compute relationship，[^ch12-3]这使 Trainium 不只是实验性 silicon，而拥有持续迭代 system economics 的大客户基础。
+
+但“有 anchor workload”不等于已经取代 NVIDIA 外部生态。真正需要验证的是 large-cluster scaling、utilization、software maturity、迁移成本以及外部客户采用。
+
+## 5. Microsoft：Maia 的价值取决于 Azure 内部规模化，而不是复制整个 CUDA
+
+Microsoft Maia 200 的合理评价标准不是“是否第一天支持所有模型”，[^ch12-4]而是它能否在 Azure / Microsoft 内部足够大的 workload 上形成稳定成本优势。
+
+长期竞争力取决于：
+
+- compiler/runtime maturity；
+- scale-up / scale-out capability；
+- HBM configuration 与 supply；
+- rack/data-center integration；
+- high utilization；
+- broader Azure deployment。
+
+只要这些变量在足够大的内部 workload 上成立，Maia 就可以分流外购 platform economics；要进一步变成通用外部替代，则还需要更低 migration cost 与更广 ecosystem。
+
+## 6. Meta：MTIA 证明“窄 workload 先优化”也是有效路径
+
+Meta 拥有超大 recommendation、ranking 与 generative-AI workload。MTIA 300 的逻辑不是先成为 general-purpose accelerator，[^ch12-5]而是围绕最重要的内部 workload 做 specialization，并把 silicon、software、networking 与 rack deployment 逐步组织成 custom full-stack solution。
+
+这条路线的经济目标是：
+
+> **让自己的最大 workload 获得更低的长期 TCO。**
+
+它不需要在所有 workload 上击败通用 GPU 才能产生价值。
+
+## 7. Cloud custom system 对 NVIDIA 会产生两个同时存在的效应
+
+### 7.1 Platform-profit diversion
+
+自研系统可以减少部分外购 accelerator、降低对外部 software/platform 的依赖、增强采购议价，并把更多 economics 留在 cloud platform 内部。
+
+### 7.2 Upstream resource competition
+
+但下一代 custom system 仍需要先进逻辑、HBM、advanced packaging、networking 和 power。因此，自研系统的扩张又可能增加对与 NVIDIA 相同 upstream scarce resources 的竞争。
+
+所以：
+
+> **Cloud custom silicon 可以同时削弱 NVIDIA 平台利润，并强化 TSMC / HBM / packaging / power 的资源竞争。**
+
+这两个效应并不矛盾。
+
+## 8. Cloud CapEx 不是 NVIDIA revenue 的同义词
+
+hyperscaler CapEx 同时覆盖 custom silicon、外购 accelerator、network、memory、data center、power、办公/履约等不同资产。各公司财年、PPE 与 lease accounting 也不同。
+
+因此：
+
+> **Cloud CapEx ≠ AI hardware subtotal ≠ NVIDIA purchases**
+
+CapEx 上升既可能支持 NVIDIA 出货，也可能加速 NVIDIA 的替代系统。不能把四云资本开支与 NVIDIA revenue 直接对敲成一个“算力税率”。
+
+## 9. DeepSeek 代表另一种竞争：公共算法降本
+
+Cloud custom silicon 属于**私有降本**：Google、AWS、Microsoft 或 Meta 优化自己的 system economics，收益主要留在自己的平台内。
+
+DeepSeek 所代表的算法/架构效率则更接近**公共降本**：如果一种架构显著降低训练或 serving 的 compute/memory requirement，其他开发者也可能采用类似方法，从而改变整个市场的单位智能成本。
+
+DeepSeek-V3 Technical Report 的可核一手锚是：671B total parameters、37B activated parameters、14.8T pre-training tokens；pre-training **2.664M H800 GPU-hours**，完整正式训练 **2.788M H800 GPU-hours**。[^ch12-6]按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练 compute conversion**，不代表完整 R&D cost。
+
+另一条独立证据来自 DeepSeek-V2：相对 DeepSeek 67B，报告 **93.3% KV-cache reduction** 与 **5.76× maximum generation throughput**。[^ch12-7]V2 与 V3 不能拼成同一个模型的单一结果。
+
+## 10. 算法降本不会自动把基础设施需求清零
+
+architecture efficiency 可以降低 bytes/token、training compute 或 serving cost，但总 infrastructure demand 仍取决于 demand elasticity：单位成本下降之后，新的 workload 是否增长得更快。
+
+因此，DeepSeek 式效率提升对 hyperscaler 有双重影响：
+
+- 可能降低同一 workload 需要的硬件；
+- 也可能因为更低价格和更广应用刺激更大 token/workflow volume。
+
+正确问题不是“效率提高，所以 CapEx 应该下降”，而是：**单位 workload 成本下降后，总有效 workload、利用率和收入能否覆盖已经形成的资本基数。**
+
+## 11. 什么情况下才算 System-Stack Substitution 真正成立
+
+单颗芯片 benchmark 不够。至少需要同时观察：
+
+1. compiler/runtime mature；
+2. large-cluster scaling；
+3. high utilization；
+4. workload migration cost acceptable；
+5. HBM / packaging / power supply 可持续；
+6. rack/pod deployment 稳定；
+7. significant real workload share。
+
+内部 workload 上的成功可以形成真实经济价值，但“全面替代 NVIDIA 外部生态”还需要证明跨客户、跨 workload 的迁移与 production reliability。
+
+## 12. 长期均衡更可能是 Workload Segmentation
+
+最现实的长期格局未必是一方完全消灭另一方，而更可能形成 workload segmentation：
+
+**NVIDIA 更强的区域：** general-purpose frontier training、broad external developer ecosystem、heterogeneous enterprise workload。
+
+**Hyperscaler custom stack 更强的区域：** massive internal workload、repeatable architecture、vertically optimized inference/training、cloud-specific TCO optimization。
+
+边界会随着 software maturity、interconnect、memory supply、workload structure 和迁移成本不断移动。
+
+## 13. 当前判断
+
+截至 2026 年 8 月，最稳健的描述是：
+
+- cloud custom silicon 已经成为实质竞争力量；
+- 竞争单位已经从自研芯片上移到完整 system stack；
+- hyperscaler 已经开始攻击 software、interconnect、rack/pod 与 workload 层，而不是只攻击 accelerator die；
+- frontier training 与广泛外部生态仍未证明已经系统性脱离 NVIDIA；
+- custom system 仍大量竞争 advanced logic、HBM、advanced packaging 与 power。
+
+因此，**Cloud System-Stack Substitution 是最可能把 S2 Baseline Concentration 推向 S1 Competitive Expansion 的结构变量之一**，但它的强度必须用真实 workload share、迁移成本、利用率和上游资源依赖来衡量。
+
+## References
+
+[^ch12-1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^ch12-2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^ch12-3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^ch12-4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
+[^ch12-5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^ch12-6]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^ch12-7]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
+
+
+\newpage
+
+# Part II · 第13章：Anchor Compute Buyer Effect——模型公司如何重塑基础设施
+
+## 1. 模型公司正在从“算力租户”升级为 Infrastructure Anchor Buyer
+
+传统关系是：
+
+> model company → rent cloud compute
+
+超大模型公司正在把关系改成：
+
+> **model-company demand ↔ cloud / data-center / power buildout**
+
+它们通过 multi-year compute commitments、dedicated campuses、chip selection 与 capacity reservation 给基础设施供应商更高 revenue visibility。
+
+## 2. Anchor Compute Buyer Effect
+
+机制可以写成：
+
+> **long-duration model demand → infrastructure financing certainty → earlier data-center/power buildout → earlier chip/HBM/packaging reservation → priority capacity for anchor workload**
+
+所以模型公司本身已经成为上游资本形成的重要需求信号，而不是仅仅接受 hyperscaler 的投资结果。
+
+## 3. OpenAI Stargate：从 nominal commitment 到 secured / construction state
+
+OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。[^ch13-1]
+
+随后官方把长期目标描述为到 2029 年确保 **10 GW** 美国 AI infrastructure。[^ch13-2]
+
+状态继续前移：OpenAI 在 **2026-04-29** 表示已**超过 10 GW secured-capacity milestone**，并称此前 90 天新增超过 3 GW；[^ch13-2] **2026-06-01**，Michigan 的 **1 GW The Barn** data-center campus 正式破土。[^ch13-3]
+
+这些状态必须区分：commitment / secured capacity / construction / energized capacity / utilization。超过 10 GW secured 不等于 10 GW 已全部上电运行。
+
+## 4. Anthropic / AWS：Anchor Workload 也能推动 Custom Silicon
+
+Anthropic 在 2026-04 官方披露：[^ch13-4]
+
+- 对 AWS technologies 的未来十年 commitment **>US$100B**；
+- 可获得 **up to 5 GW** capacity；
+- 已使用 **>1M Trainium2 chips**；
+- 到 2026 年底预计接近 **1 GW Trainium2/3 capacity**。
+
+这说明 model-company demand 可以成为 cloud custom silicon 的重要 anchor workload。
+
+但公开披露只能证明规模大，不能在缺乏 workload-share 排名时写成“第一大用户”。
+
+## 5. Anchor Buyer 增强的是需求侧权力，不是物理所有权
+
+模型公司可以影响：
+
+- demand certainty；
+- chip / system selection；
+- cloud roadmap；
+- rack deployment；
+- power planning；
+- infrastructure financing。
+
+但通常并不直接拥有 leading-edge foundry、HBM fab、advanced-packaging fab 或 transmission grid。
+
+所以 Anchor Buyer 是需求侧 bargaining / coordination power 的上升，而不是完整 supply-chain ownership。
+
+## 6. 为什么换云不是简单换账单
+
+模型公司选择的是 accelerator、HBM、interconnect、compiler/runtime、scheduler、rack/pod 与 cloud operations 的完整 system。
+
+迁移可能需要 kernel adaptation、distributed-training changes、performance tuning、observability rework 与 operational revalidation。
+
+这形成 infrastructure switching cost，也解释了为什么长期 commitment 的退出成本可能高于普通 SaaS contract。
+
+## 7. Algorithmic Efficiency 会直接改变 Anchor Demand
+
+如果 architecture 大幅降低同一 capability 的 compute requirement，model company 可以减少长期 capacity commitment，提高 buyer bargaining power，并提高 infrastructure provider 的 utilization risk。
+
+如果 unit cost 下降反而刺激 workload volume 更快增长，长期 commitment 仍可能继续扩大。
+
+所以 Anchor Buyer Demand 是动态需求函数，不是固定指数增长曲线。
+
+## 8. Anchor Buyer 的产业链传导
+
+大规模模型需求可以沿链条传播：
+
+> model demand → cloud CapEx / custom silicon → accelerator/HBM/packaging → data-center power → grid/generation
+
+因此，评估 AI infrastructure cycle 不能只看 hyperscaler CapEx 和 system-vendor commitments，还要独立看 model-company long-duration contracts 是否扩张、改期或利用不足。
+
+## 9. 风险：Anchor Buyer 也会放大 Stranded-Capacity Risk
+
+如果 model-company revenue、financing、workload growth 或 architecture assumptions 发生逆转，long-duration infrastructure commitments 可能变成低利用率资产。
+
+需要持续观察：
+
+- cancellation / rescheduling；
+- take-or-pay / minimum commitments；
+- utilization；
+- project financing；
+- customer concentration；
+- power and data-center delivery state。
+
+## 10. 当前判断
+
+截至 2026 年 8 月，模型公司已经成为 AI infrastructure 的独立 Anchor Buyer category。
+
+OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的十年 compute commitment 和 Trainium deployment 都说明：模型 workload 正在影响 data-center、power 与 custom-silicon buildout。
+
+这使 Anchor Buyer commitments 成为 S2/S3 expansion 与 S4 capital clearing 之间的重要 leading indicator。
+
+## References
+
+[^ch13-1]: OpenAI, “Announcing The Stargate Project,” 2025-01, https://openai.com/index/announcing-the-stargate-project/
+[^ch13-2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+[^ch13-3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
+[^ch13-4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+
+
+\newpage
+
+# Part II · 第14章：Agent-native Software 与 AI Software Unit Economics
+
+## 1. Agent-native Software 改写的是成本结构
+
+传统 SaaS 的典型特征是 software replication cost 低、seat 增长不一定线性增加 variable compute。
+
+Agent-native software 不同。一次任务可能触发 retrieval、reasoning、multiple model calls、tool invocation、browser/action execution、retry 与 human review。
+
+于是软件成本单位从：
+
+> **account / seat**
+
+逐渐上移到：
+
+> **workflow execution**
+
+## 2. 不存在统一的“AI SaaS 毛利率终点”
+
+不同 agent 产品的 variable cost 取决于 model choice、context length、cache、retrieval、tool/API、failure/retry、human review、pricing model 与 task depth。
+
+因此，本书不使用“传统 SaaS 85% → AI SaaS 55%”这类固定路径作为事实。
+
+统一使用 **AI Software Unit Economics**。
+
+## 3. 核心单位经济公式
+
+生产级 workflow 可以近似写成：
+
+> **Contribution Margin = Revenue / Productivity Value per workflow − Variable AI cost − Tools/APIs − Human review**
+
+Variable AI cost 至少包括：
+
+- inference；
+- retrieval / storage；
+- model routing；
+- retry；
+- observability；
+- failure handling。
+
+真正要优化的是 **cost per successfully completed workflow**，而不是单纯 cost per token。
+
+## 4. Agent Depth 决定成本曲线
+
+浅层 assistant 可能是 single prompt → single response。
+
+深层 agent 更接近：plan → retrieve → reason → tool call → inspect → retry → finalize。
+
+loop depth 增加时，compute、tool usage 和 failure surface 一起上升。因此 agent 产品必须同时优化：
+
+- task success；
+- loop length；
+- model routing；
+- caching；
+- tool reliability；
+- failure / retry rate。
+
+## 5. Seat Pricing 为什么会受到挑战
+
+如果产品主要提供 summary、autocomplete 或 shallow assistant，seat pricing 仍然可行。
+
+如果一个 seat 可以运行 research、coding、support、sales、operations 等大量不同深度 workflow，compute variance 会显著扩大。
+
+因此更常见的长期定价组合可能是 usage、credits、workflow、outcome 或 hybrid pricing。
+
+这不是说 seat pricing 会消失，而是 agent depth 会让纯 seat 与真实 variable cost 的相关性下降。
+
+## 6. Multi-model Routing 是新的基础软件能力
+
+所有任务都调用最昂贵模型会直接破坏 unit economics。
+
+更合理的 system design 是：
+
+- cheap / local model：classification、extraction、high-volume routine work；
+- medium model：routine reasoning；
+- frontier model：复杂任务与高不确定决策；
+- specialist/custom model：稳定专业 workload。
+
+routing 本质上是在质量、latency、cost 和 failure probability 之间动态分配资源。
+
+## 7. Open Source 会把利润从“模型能力”推向 Workflow / Distribution
+
+open-source model 提高 model portability，压低 API premium，也增加 private deployment 与 buyer bargaining power。
+
+因此，model capability 本身越来越难成为永久软件 margin。
+
+更稳定的价值来源可能转向：
+
+- proprietary workflow；
+- domain data / context；
+- distribution；
+- integration；
+- trust / compliance；
+- measurable outcome。
+
+## 8. Cloud System-Stack Competition 会向 Application 成本传导
+
+软件公司通常不会直接购买 HBM、CoWoS 或 grid capacity，但 cloud price 最终包含 accelerator、memory、network、data center 与 power。
+
+如果 hyperscaler custom stack 能降低真实 system TCO，长期可能通过 instance/API price 向 application layer 传导。
+
+因此，Google Ironwood TPU、AWS Trainium3 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。[^ch14-1][^ch14-2]
+
+## 9. Human Review 是经常被低估的变量成本
+
+在 legal、finance、enterprise operations 等高风险 workflow 中，human review 可能长期存在。
+
+如果 agent 生成速度提高 10×，但 review burden 不下降，企业只是把人工从 production 移到 verification。
+
+真实 automation ROI 应计算：
+
+> **Human time before − Human time after − new review / exception handling time**
+
+而不是只统计 AI usage 或 generated tokens。
+
+## 10. Agent-native Software 的高质量利润来自哪里
+
+长期更有机会形成高质量 economics 的产品通常具备：
+
+- high workflow completion；
+- low variable AI cost；
+- low retry / review burden；
+- strong proprietary context；
+- distribution；
+- measurable customer ROI；
+- ability to route across models / providers。
+
+这意味着 software competition 正从 feature competition 上移到 **workflow economics competition**。
+
+## 11. 当前判断
+
+AI 正在把一部分 software 从低边际成本复制品变成实时消耗 compute 的工作流系统。
+
+这会压缩部分传统软件利润，但不会自动把整个软件行业变成低毛利。
+
+真正的分水岭是：
+
+> **谁能把模型调用转化成可重复、可验收、低失败率、可收费的业务结果。**
+
+## References
+
+[^ch14-1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^ch14-2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+
+## 交叉引用
+
+- 第10章：模型单位经济、算法效率与开源竞争
+- 第12章：Hyperscaler System-Stack Competition
+- 第20章：Value Capture Map
+- 第25章：AI 与劳动市场
+
+
+\newpage
+
+# Part II · 第15章：Physical AI 与机器人系统的真正瓶颈
+
+## 1. 机器人竞争单位同样是 System
+
+Physical AI 需要同时解决 perception、planning、control、actuation、power、safety 与 mechanical reliability。
+
+所以一台机器人能否形成生产力，不能只由 AI model 或 edge TOPS 判断。
+
+完整系统至少要把：
+
+> **model capability × sensor quality × control latency × actuator reliability × energy efficiency × manufacturing economics**
+
+同时闭合。
+
+## 2. Cloud Training 与 Edge Control 是两套物理约束
+
+large-scale simulation、policy training 与 foundation-model training 可以在 data center 完成。
+
+实时 control 则受到 latency、thermal、battery、sensor loop 与 safety deadline 约束。
+
+所以很多 Physical AI 系统天然呈现：
+
+> **cloud-side heavy training + edge-side compressed inference/control**
+
+data-center 的约 **120 kW-class rack**[^ch15-4] 与机器人本体的 W/Wh 级 power budget 属于完全不同的物理池。
+
+## 3. Robot BOM 不能套统一百分比模板
+
+humanoid、AMR、industrial arm、autonomous vehicle、drone 的 actuator、reducer、sensor、compute 与 battery 成本结构差异巨大。
+
+因此，本书不采用固定“执行器35% / 传感器20% / 计算25%”之类行业模板。
+
+真正需要识别的是不同机器人形态中的 **scarce component**。
+
+## 4. Actuator / Reducer 可能比 Compute 更难商品化
+
+Physical AI 最容易被软件叙事低估的，是 frameless torque motor、harmonic reducer、planetary roller screw、bearing 与 precision gearbox 等机械部件。
+
+它们的竞争变量包括 durability、backlash、repeatability、noise、yield、maintenance 与 cost。
+
+于是完全可能出现：
+
+> **compute 更便宜，但高精度机械部件仍是系统瓶颈。**
+
+## 5. Sensor Quality 决定模型能否转化成可靠 Control
+
+robot system 需要 camera、depth、force/torque、tactile、IMU、encoder 等多种 sensing。
+
+模型能力只有在 calibration、latency、robustness 与 failure detection 足够好时，才能转化成稳定 control。
+
+因此 sensor stack 的价值不只是 BOM，而是 closed-loop reliability。
+
+## 6. Edge Platform 的战略位置
+
+NVIDIA Jetson Thor、Qualcomm 与其他 edge accelerators 的竞争维度是 compute、software、power efficiency 与 developer ecosystem。NVIDIA Isaac/GR00T 将 simulation/training、robot model 与 Jetson Thor onboard compute 组织成跨 cloud-to-edge workflow。[^ch15-1][^ch15-2]
+
+edge system 不需要复制 data-center rack architecture。
+
+但如果同一平台同时覆盖 cloud training / simulation / edge deployment，就可能形成 cloud-to-robot 的跨层 ecosystem lock-in。
+
+## 7. Physical Deployment 会反向制造更多 Cloud Workload
+
+即使单台 robot 的 edge compute 很有限，大规模 fleet 会持续产生：
+
+- video / sensor data；
+- simulation；
+- retraining；
+- synthetic data；
+- fleet analytics；
+- model updates。
+
+因此可形成：
+
+> **physical deployment → data generation → retraining → more cloud compute**
+
+机器人普及不一定减少 data-center demand，反而可能扩大新的训练/推理 workload。
+
+### 7.1 机器人本体也可能成为新的 Memory / Storage Demand Pool
+
+Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必须保留“公司前瞻判断”身份的量化锚：[^ch15-3]
+
+- L2+ 及以上车辆的 memory + storage content 已超过 average vehicle 的 **5×**；
+- Micron 称 humanoid robots 的 memory content 约为 average L2+ vehicle 的 **10×**；
+- 公司预计本十年后段开始形成持续、多十年的 robotics memory demand cycle。
+
+这不是全行业 actual shipment，也不是“每台机器人固定需要数百 GB DRAM + 数 TB SSD”的统一规格。
+
+它真正支持的机制是：
+
+> **Physical AI commercial scale ↑ → edge memory/storage content ↑ + fleet-generated cloud workload ↑**
+
+所以机器人可能同时成为 edge memory 的新需求池和 cloud retraining / storage 的新需求源。
+
+## 8. 机器人侧的 Power Wall 是 Battery / Thermal
+
+data center 的 power bottleneck 是 grid / interconnection；机器人侧则是 battery energy density、runtime、charging、thermal 与 peak actuator demand。作为量纲对照，NVIDIA DGX GB200 rack 的官方功耗约为 120 kW，但该数据只用于说明 cloud 与 edge 属于不同物理池。[^ch15-4]
+
+因此 Physical AI 应比较：
+
+> **Useful task output / Wh**
+
+以及 continuous runtime、recharge time、thermal headroom、maintenance interval 与 field reliability，而不是只比较 TOPS。
+
+## 9. Demo 到 Mass Production 的真正门槛是 Manufacturing
+
+demo 可以容忍 expensive parts、manual calibration、low yield 和 frequent maintenance。
+
+mass production 不行。
+
+规模化临界点包括 component yield、assembly time、field failure rate、maintenance interval、supply-chain stability 与 unit economics。
+
+因此 Physical AI 的产业拐点必须由 manufacturing / deployment data 证明，而不能由演示视频证明。
+
+## 10. 中国在 Physical AI 上的能力结构与 Frontier AI 不同
+
+Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-electronics supply chain 与 system integration。
+
+这些层与 frontier AI 的 HBM / advanced-packaging / leading-edge compute 闭环并不完全重合。
+
+所以中国在机器人整机和机械供应链上的竞争力，可以与其在 frontier AI infrastructure advanced layers 的状态不同。
+
+这是独立产业路径，不应被一个“AI 芯片能力”指标覆盖。
+
+## 11. Value Capture 可能分布在多个物理层
+
+长期 value capture 可能同时出现在：
+
+- edge compute / software platform；
+- actuator / reducer；
+- sensor；
+- battery / power electronics；
+- manufacturing / integration；
+- cloud simulation / training infrastructure。
+
+机器人革命的真正竞争不是“谁模型 benchmark 最好”，而是：
+
+> **谁能把 AI capability 转化成可靠、低成本、可量产、可维护的物理工作。**
+
+## References
+
+[^ch15-1]: NVIDIA Developer, Isaac platform, simulation/training and robotics workflow, https://developer.nvidia.com/isaac
+[^ch15-2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
+[^ch15-3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Micron_Q3_26_Earnings_Deck.pdf
+[^ch15-4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+
+
+\newpage
+
+# Part II · 第16章：AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径
+
+## 1. 不能把四家公司放进一个“传统芯片阵营”
+
+AMD、Intel、Qualcomm、Apple 的 compute layer、software、manufacturing access、workload、distribution 与 capital structure 都不同。
+
+因此，正确问题不是谁“联合挑战 NVIDIA”，而是：
+
+> **每家公司正在攻击 system-stack dominance 的哪一个层级？**
+
+## 2. AMD：最直接的 Data Center System Challenger
+
+AMD Instinct 是最直接的 data-center accelerator alternatives 之一，AMD 当前官方路线也已把 Instinct GPU、EPYC CPU、Pensando networking 与 ROCm 组织为 rack/system 级解决方案。[^ch16-1][^ch16-2]
+
+真正的门槛不只是 GPU design，而是：
+
+- ROCm / software maturity；
+- scale-up / scale-out；
+- HBM；
+- advanced packaging；
+- system reference architecture；
+- customer migration / production support。
+
+因此 AMD 的竞争单位也已经从 chip 上移到 system。
+
+## 3. AMD 同样暴露于 Scarce-resource Access
+
+AMD 与 NVIDIA 会竞争相同的 advanced logic、HBM 与 packaging。
+
+所以 NVIDIA demand 极强时，AMD 的挑战不仅是 market share，也包括 incremental scarce capacity access。
+
+反过来，如果 HBM/packaging supply elasticity 提高，AMD system expansion 的约束会下降。
+
+这使 AMD 成为观察 **non-anchor-buyer access / Non-AI-and-non-leading residual capacity** 的重要对象，但本书不为它另造新的核心术语。
+
+## 4. Intel：Product Clock 与 Foundry Clock 是两条时间线
+
+Intel 同时承担 CPU/product competition、accelerator attempts、foundry strategy 与 domestic manufacturing policy。Intel 2025 10-K 与 2026 VLSI Symposium 更新显示 Intel Foundry 仍在推进 external-foundry strategy，18A 已进入 production、18A-P 进入 risk production。[^ch16-3][^ch16-4]
+
+Product clock 需要在短周期交付 performance、software 与 customer adoption；foundry clock 则需要长期建立 process、yield、customer trust、packaging 与 high-volume execution。
+
+因此，Intel 的复苏不能由一颗产品或一座 fab 单独证明。
+
+## 5. Qualcomm：从 Edge 改写 Cloud Demand
+
+Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 与 connectivity；公司 2026 年公开材料继续强调 Snapdragon X Series PC 上的本地 agentic AI 与 mobile on-device generative AI。[^ch16-5][^ch16-6]
+
+它不需要复制 NVL72 才能获取 AI value。
+
+如果 on-device model capability、memory efficiency 与 local inference 持续提高，更多 workload 可以从 cloud 移到 device，降低一部分 cloud inference demand。
+
+因此 Qualcomm 对 AI infrastructure 的影响主要是**需求函数重构**，而不是直接替代 frontier training system。
+
+## 6. Apple：Vertical Consumer Stack 的力量在 Workload Placement
+
+Apple 的 silicon、OS、device、application ecosystem、distribution 与 installed base 高度垂直。Apple Intelligence 的公开架构同时使用 on-device processing 与 Private Cloud Compute，说明 workload placement 本身就是其 AI system design 的核心。[^ch16-7][^ch16-8]
+
+Apple 不是 frontier training system vendor，但它可以决定大量 consumer workload：哪些在 device 完成，哪些调用 private / public cloud。
+
+如果端侧 capability 快速提高，Apple 会成为影响 cloud inference intensity 的重要平台变量。
+
+## 7. Apple 是 Leading-edge User，但不制造未经披露的客户排名
+
+Apple 长期使用 leading-edge processes，但在没有公司一手客户份额/排名披露时，本书不把某一具体年份的“第一/第二大客户”身份作为事实。
+
+真正要看的是：leading-node launch scale 是否保持、AI/HPC 对 incremental capacity 的吸收是否加速，以及 device-AI strategy 是否改变 wafer / memory mix。
+
+这再次说明 historical revenue share 不能替代 AHICR。
+
+## 8. 四家公司对主栈的影响来自不同方向
+
+**Table 16.1 — 四类差异化竞争路径**
+
+| 公司 | 主要竞争方向 |
+|---|---|
+| AMD | Data Center accelerator / system |
+| Intel | CPU + accelerator + foundry |
+| Qualcomm | edge / PC / mobile AI |
+| Apple | vertically integrated on-device AI / workload placement |
+
+**Source:** AMD、Intel、Qualcomm、Apple 官方产品与公司材料。[^ch16-1][^ch16-3][^ch16-5][^ch16-7]  
+**Note:** 表中为竞争路径分类，不表示四家公司处于相同市场或拥有可直接比较的 market share。
+
+NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
+
+## 9. 哪些变化会提高 S1 Competitive Expansion 的权重
+
+- AMD 在 production system stack 上规模化；
+- Intel foundry 与 product execution 同时改善，增加 manufacturing/system diversity；
+- Qualcomm / Apple 推动更多 high-volume inference 移到 edge；
+- open software / interfaces 降低 migration cost；
+- HBM / packaging supply 更宽松。
+
+这些变化可以共同提高 S1 相对 S2 的权重，但 S1/S2 是并列条件情景，不是必然连续阶段。
+
+## 10. 当前判断
+
+传统芯片巨头没有消失，也没有形成统一联盟。
+
+更现实的格局是：AMD 从 data-center system 正面竞争；Intel 同时修复 product 与 manufacturing；Qualcomm/Apple 从 edge / device 改写一部分需求。
+
+它们是否真正削弱 dominant system-stack economics，最终要看 production workload share、software portability、scarce-resource access 与 customer migration，而不是产品发布数量。
+
+## References
+
+[^ch16-1]: AMD, Instinct / Helios official page, rack-scale solution integrating Instinct GPUs, EPYC CPUs, Pensando networking and ROCm, https://www.amd.com/en/products/accelerators/instinct.html
+[^ch16-2]: AMD, “ROCm 10: A Simpler Path to Production AI on AMD,” 2026-08-27, https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html
+[^ch16-3]: Intel Corporation, 2025 Form 10-K, Intel Foundry and manufacturing strategy, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm
+[^ch16-4]: Intel Foundry, 2026-06 VLSI Symposium process milestones, 18A production and 18A-P risk production, https://newsroom.intel.com/intel-foundry/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium
+[^ch16-5]: Qualcomm, 2026-08, agentic AI applications on Snapdragon X Series PCs, https://www.qualcomm.com/news/onq/2026/08/agentic-ai-apps-snapdragon-x-series
+[^ch16-6]: Qualcomm, Mobile AI / on-device generative AI, https://www.qualcomm.com/smartphones/features/mobile-ai
+[^ch16-7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
+[^ch16-8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
+
+
+\newpage
+
+# Part II · 第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure
+
+## 1. “能运行”与“形成等价系统”不是同一个标准
+
+讨论中国 AI stack，如果不先区分层级，结论会迅速失真。至少需要分成三层：
+
+1. **smartphone / consumer computing**；
+2. **PC / workstation / general computing**；
+3. **frontier AI system stack**。
+
+三层对 advanced logic、memory、packaging、software、interconnect 与 performance requirement 的要求完全不同。中国在 smartphone supply chain 上形成较强能力，不能自动外推为 frontier training system 已经闭环；反过来，frontier AI 的约束也不能被写成“中国半导体没有替代能力”。
+
+真正需要回答的是：一套系统能否在 **functional availability、performance、scale、software portability、supply sustainability 和 economics** 六个维度同时达到生产级可接受水平。
+
+## 2. 第一层：消费计算最容易形成平行供给
+
+smartphone 与部分 consumer computing 更容易形成完整国内链条，因为这一层可以依托本土 SoC、foundry、LPDDR/NAND、packaging、device manufacturing、operating system/application ecosystem 与大型国内需求。
+
+TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**，而 HPC 为 **58%**。[^ch17-1]这说明消费计算仍是重要市场，但 frontier AI 与 smartphone 已经在同一先进制造体系中竞争不同资源。
+
+### 2.1 “只有华为能规模量产国产手机 SoC”已经不符合 2026 的公开数据
+
+Counterpoint Research 的 2026Q1 global smartphone AP-SoC shipment share 显示：[^ch17-2]
+
+- UNISOC：**14%**；
+- HiSilicon：**4%**。
+
+因此，如果“规模”按实际 smartphone SoC shipment 口径衡量，国产供应并不只有华为一家。
+
+Huawei / HiSilicon 的独特优势更适合描述为：**高端自有终端 + 自研 SoC + 自有软件/生态的 vertical closed loop 更成熟**，而不是“唯一有量”。
+
+Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；[^ch17-3] Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**，新一代 O3 继续采用 TSMC 3 nm，首发产品预计 200k–300k units。[^ch17-4]
+
+这意味着“Xiaomi 只有20–30万片边角料、只是品牌秀”不能作为事实层。更准确的判断是：
+
+> **Xiaomi 已经形成真实量产，但 multi-generation scale、modem/system integration、foundry dependency 与长期 shipment share 仍需要继续验证。**
+
+UNISOC 则代表另一种 commercial loop：它在大众/入门与 entry-5G 市场拥有更大的 shipment scale，但不能据此外推为 premium flagship system equivalence。
+
+因此，消费端的平行供给能力应被评价为一个独立层级，而不是拿来证明或否定 frontier AI closure。
+
+## 3. 第二层：PC / workstation 的难点更多在软件兼容与性能规模
+
+PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专业软件、driver/tooling、desktop ecosystem 与 developer compatibility。硬件存在替代并不等于使用体验、性能和软件栈已经等价。
+
+“国产 PC CPU/GPU 是一片空白”同样过度。
+
+龙芯当前公开产品线包含面向 desktop/general-purpose 的 3A6000、3B6000 等 CPU；[^ch17-5] Moore Threads 公开销售 MTT S80 gaming GPU。[^ch17-6]
+
+这些事实证明**产品存在且能形成真实 PC/graphics deployment**。
+
+但它们不能证明：
+
+- mainstream consumer-PC shipment share 已接近 Intel/AMD/NVIDIA；
+- professional software / game compatibility 已达到同等级覆盖；
+- performance/watt、driver maturity、developer ecosystem 与 supply scale 已全面等价。
+
+所以这一层最准确的描述是：**不是“空白”，而是存在产品与自主生态，但主流规模、兼容性和系统经济性仍是闭环门槛。**
+
+## 4. 第三层：Frontier AI 是系统级门槛
+
+frontier AI 需要多个 advanced layer 同时成立：
+
+- advanced accelerator；
+- HBM-class memory；
+- advanced packaging；
+- high-speed scale-up / scale-out interconnect；
+- compiler/runtime；
+- distributed training；
+- rack-scale deployment；
+- data-center power。
+
+任一单点突破都不足以自动形成等价系统。有 accelerator 但没有 HBM，有 hardware 但 migration cost 很高，有 cluster 但 utilization 与 interconnect scaling 不足，都可能使 system-level competitiveness 显著下降。
+
+因此，本书不使用“某颗芯片能运行模型”作为 frontier substitution 的充分条件。
+
+## 5. Ascend / CANN 的战略意义在系统完整性，而不是单卡数字
+
+国内 accelerator stack 的核心价值，不在某一代单卡 peak FLOPS，而在于是否形成 compiler/runtime、framework adaptation、distributed communication、deployment tooling 与 production workload 反馈的闭环。
+
+评估这一层应优先观察：
+
+- large-cluster utilization；
+- compiler stability；
+- operator completeness；
+- framework compatibility；
+- failure recovery；
+- multi-generation compatibility；
+- production deployment scale。
+
+由于部分 Ascend/CANN 具体性能和迁移效率数字目前主要来自二手材料，本章不把未逐项核验的一手缺失参数写成已确认事实。
+
+## 6. Memory 是最容易被“国产存储”总词掩盖的层
+
+长鑫科技 **2026-05-27 上交所注册稿**披露 DDR 与 LPDDR 产品。[^ch17-7]对注册稿全文检索 `HBM` 与“高带宽内存”均无命中，因此本报告只保留一个窄结论：
+
+> **该注册稿未披露 HBM 产品线。**
+
+这不证明企业不存在任何 HBM R&D；但要把 HBM 从研发可能性升级为 frontier system supply，必须看到 official product、customer qualification、volume production、bandwidth/capacity 与 packaging integration。
+
+同一注册稿还必须严格区分 project investment 与 planned offering proceeds：三项项目总投资与拟使用募集资金不是同一分母；其中 DRAM 技术升级项目 **RMB18.0B 总投资**与 **RMB13.0B 拟使用募集资金**不得混用。
+
+因此，DDR/LPDDR 供给增强与 HBM-class memory closure 必须分开分析。
+
+### 6.1 普通 DRAM / NAND 与 Frontier HBM 不是同一供应链门槛
+
+长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；[^ch17-8]这足以确认中国 conventional DRAM / server DRAM 的真实供给能力已经显著增强。
+
+长江存储官方则确认自身是 3D NAND IDM，并披露 Gen5/Xtacking 4.0 相关产品体系以及 raw NAND、embedded memory、client SSD 与 enterprise SSD 产品线。[^ch17-9]
+
+这两条事实说明：
+
+> **consumer/general-purpose memory resilience 可以提高，而不需要先完成 frontier HBM closure。**
+
+普通 DRAM 与 NAND 的 memory-cell front-end manufacturing 并不等同于台积电 leading-edge logic foundry；但 HBM-class AI system 会重新引入 advanced logic / base logic die、advanced packaging 与 accelerator integration 等更高门槛。Micron 就曾公开披露 HBM4E 的 base logic die 与 TSMC 合作制造。[^ch17-10]
+
+所以“普通内存可以绕开台积电”与“frontier AI memory stack 不受台积电影响”是两个完全不同的命题。
+
+### 6.2 国产 Memory Scale：必须区分 Revenue Share 与 Shipment Share
+
+长鑫招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四、中国第一。[^ch17-11]
+
+因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本书事实层。
+
+长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；[^ch17-12] 同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。[^ch17-13]
+
+这两个数字不能拼成同一时间序列，因为分母不同。
+
+它们真正支持的是：
+
+> **中国 conventional DRAM / NAND 的全球供给存在感已经明显上升，但份额增长本身仍不能证明 HBM、leading-edge logic 或 frontier-system closure。**
+
+关于“2027 产能翻倍”“三期明确达到某个月产量”的说法，如果只来自其他公司的招股书转引、媒体或供应链估算，只能放在 B/C 级背景，不进入本章 A 级事实层。
+
+### 6.3 HDD 不能被 NAND 的国产进展掩盖
+
+AI data-center storage 还包含 nearline HDD。公开产业研究显示，全球 nearline / mass-capacity HDD 仍高度集中于 Seagate、Western Digital 与 Toshiba。
+
+因此，“国产 NAND / SSD 能力增强”不能自动写成“整个 storage stack 已经国产闭环”。
+
+同时，AI 并没有简单淘汰 HDD：mass-capacity / cold-storage demand 仍然存在，只是 QLC nearline SSD 正在部分 workload 上加速替代。
+
+## 7. Foundry share 不能直接等同于 Frontier AI capability
+
+TrendForce 2026 Q1 foundry revenue share 约为：[^ch17-14]
+
+**Table 17.1 — 2026 Q1 全球 foundry revenue share（TrendForce）**
+
+| Foundry | Revenue share |
+|---|---:|
+| TSMC | 72% |
+| Samsung Foundry (excluding System LSI) | 6.5% |
+| SMIC | 5.1% |
+
+**Source:** TrendForce, 2026-06-12.[^ch17-14]  
+**Note:** 该表为 foundry revenue share，不是 advanced-node yield、AI wafer capacity 或 frontier-system capability。
+
+这些是 foundry **revenue share**，不是先进节点良率、AI wafer capacity 或 frontier-system delivery capability。
+
+中国要形成 frontier AI parallel supply，不只需要 logic die，还需要 advanced packaging、substrate、HBM integration、yield、high-volume qualification 与 power。节点追赶是必要条件之一，不是完整系统本身。
+
+## 8. Algorithmic efficiency 是重要非对称杠杆
+
+DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单位 capability 对硬件的需求。论文给出的 **pre-training 为 2.664M H800 GPU-hours**，完整正式训练为 **2.788M H800 GPU-hours**；[^ch17-15]按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练**，不等于完整研发成本。
+
+这一案例支持的机制是：在 supply-constrained environment 中，sparse architecture、memory efficiency、routing、quantization 与 scheduling 可以提高 effective compute productivity。
+
+它不支持“物理供给已经不重要”，也不支持“任何受限系统都能复制同样成本”。算法效率是杠杆，不是对 HBM、packaging、interconnect 和 power 的替代品。
+
+## 9. Domestic workload 是平行系统迭代的重要条件
+
+一个 parallel stack 不必先征服全球 developer 才能产生价值。只要拥有足够大的内部 workload，就可以通过真实生产环境积累 compiler feedback、deployment experience、failure recovery、operator coverage 和 utilization 数据。
+
+这一逻辑与 hyperscaler custom silicon 类似：**大规模 captive workload 可以先支持一套较窄但完整的 system stack，再决定是否向更广泛外部生态扩展。**
+
+因此，判断中国栈长期进展，不能只看 benchmark，还要看 production workload 的规模与持续性。
+
+## 10. Export Control：不只是“买不到 GPU”，还影响 Manufacturing Continuity
+
+出口限制在短期会提高先进硬件获取成本并降低 frontier cluster deployment speed；长期则会提高 domestic substitution incentive、local software/hardware integration 与 parallel ecosystem 的战略价值。
+
+更上游还要单独看 semiconductor manufacturing equipment / software / service。ASML 的公开说明确认：EUV 对中国已受限制，最先进 immersion DUV 需要出口许可，后续规则还扩大到部分 advanced manufacturing technology、metrology 与 software。[^ch17-16][^ch17-17]
+
+这不等于“国内所有 memory fab 会因为断供立刻停产”，但它说明：
+
+> **domestic memory capacity growth ≠ upstream manufacturing autonomy**
+
+新增产能能否 ramp、工艺能否升级、既有设备能否长期维护，仍要看关键设备、软件许可、备件、field service 与材料 qualification 的连续性。
+
+因此，export control 不是一个单向变量。它可能同时扩大短期性能/规模差距，并强化长期平行体系建设动机。最终结果取决于 R&D efficiency、capital allocation、ecosystem adoption 与 supply scaling，而不是政策本身自动决定。
+
+## 11. 七个 Frontier System Closure Gate
+
+本书只有在以下七项都达到可验证规模时，才把“中国已经形成完整 frontier AI parallel stack”作为事实层判断：
+
+1. advanced accelerator 可规模化交付；
+2. HBM-class memory 可规模化；
+3. advanced packaging 可规模化；
+4. high-speed interconnect 可支撑大集群；
+5. compiler/runtime migration cost 可接受；
+6. frontier workload 能稳定运行；
+7. system cost / utilization / power 可持续。
+
+这七个 gate 的意义，是把“有没有国产产品”改成“能否形成 production-grade system”。任何一项长期缺失，都可能限制整体等价替代。
+
+## 12. 对全球资源竞争的真正影响
+
+如果中国 parallel stack 在 advanced logic、HBM、packaging、interconnect 与 software 上同时规模化，它不会只是“替代进口”，还会形成第二个大型资源重力中心：新的 foundry demand、memory demand、packaging demand、power demand 与长期资本承诺会进入全球/区域资源分配。
+
+目前公开证据尚不足以证明这一第二个 frontier resource center 已经达到与全球主栈等价的完整规模。长鑫注册稿未披露 HBM product line，SMIC 5.1% 是 foundry revenue share 而非 frontier capability，多个 non-silicon layer 仍需要独立验证。
+
+因此，当前更准确的状态是：**中国已经跨过“没有替代系统”的阶段，但尚未跨过“所有关键层都实现全球等价规模闭环”的阶段。**
+
+## 13. 当前判断与证伪条件
+
+截至 2026 年 8 月：
+
+- smartphone / consumer computing：平行供给能力较强；
+- PC / workstation：替代能力扩大，但软件与专业 workload 兼容仍决定闭环程度；
+- frontier AI：已经存在真实、持续发展的 accelerator/software parallel stack，但 HBM、advanced packaging、interconnect、software migration、power 与 scale 仍需同时验证。
+
+如果未来出现以下一手信号，应上调 system-closure 判断：公开 HBM product/revenue line；可复核的大集群 utilization 与 frontier workload；advanced-packaging 规模化交付；多代 compiler/runtime 兼容；以及稳定、可持续的 system economics。
+
+如果这些 gate 长期未跨越，则“有国内技术栈”仍不能升级为“frontier 等价替代”。
+
+## References
+
+[^ch17-1]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, HPC 58%, smartphone 29%, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+[^ch17-2]: Counterpoint Research, 2026 Q1 smartphone AP-SoC shipment share, UNISOC 14%, HiSilicon 4%, https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly
+[^ch17-3]: Xinhua, 2025-05-22, Xiaomi XRing O1 entered mass production, https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
+[^ch17-4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+[^ch17-5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
+[^ch17-6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
+[^ch17-7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+[^ch17-8]: CXMT, official DDR5 product page, https://www.cxmt.com/en/product.html
+[^ch17-9]: YMTC, company profile and product portfolio, https://www.ymtc.com/en/aboutus.html ; https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
+[^ch17-10]: Micron Technology, investor material on HBM4E base logic die partnership with TSMC, https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
+[^ch17-11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, global #4, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^ch17-12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^ch17-13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^ch17-14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^ch17-15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^ch17-16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+[^ch17-17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+
+
+\newpage
+
+# Part II · 第18章：反垄断、产业政策与 AI 平台权力边界
+
+## 1. System-stack power 给传统相关市场分析带来新难题
+
+AI platform 的力量可能同时分布在 accelerator、interconnect、compiler/runtime、rack reference architecture、deployment software、cloud channel 与 adjacent model products。
+
+于是可能出现：每个单独产品市场都存在竞争者，但多个关键接口由同一平台协调时，system-level switching cost 仍然很高。
+
+因此，监管真正需要理解的是：
+
+> **单一市场份额之外，跨层接口、bundling、migration cost 与 supply coordination 是否共同形成排他效果。**
+
+## 2. Fine 与 Remedy 必须分开
+
+罚款主要影响现金流；结构性或行为救济才可能改变竞争规则。
+
+### Fine
+
+罚款本身未必改变 CUDA migration cost、interconnect ecosystem、rack architecture、customer workflow 或 physical supply。
+
+### Conduct / Structural Remedy
+
+以下措施才可能直接改变 system economics：
+
+- interface openness；
+- interoperability requirements；
+- tying / bundling restriction；
+- non-discriminatory access / supply rules；
+- acquisition restriction；
+- structural separation。
+
+因此，本书不把“可能罚多少钱”当成平台权力的核心变量。
+
+## 3. 10% Turnover Ceiling 不是未来罚款模型
+
+EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 undertaking 前一营业年度 total turnover 的 **10%**。[^ch18-1]
+
+这是一条法定 ceiling，不是：
+
+> **Potential fine = revenue × 10%**
+
+违法是否成立、严重性、持续时间、相关销售、程序结果和 remedy 形式都会影响最终结果。
+
+所以 10% 只能表示法律工具强度，不能进入本书的公司盈利预测。
+
+## 4. 程序状态必须逐层读取
+
+欧盟 Article 102 公开程序本身已经给出清晰状态机：[^ch18-2]
+
+1. complaint / ex officio investigation；
+2. request for information；
+3. formal investigation / market definition and dominance assessment；
+4. Statement of Objections；
+5. prohibition / commitment decision；
+6. fine / remedy。
+
+不同阶段的法律含义完全不同。RFI、market inquiry 或新闻报道不能直接写成“已经认定违法”。
+
+## 5. 2026 年 Cloud Regulation 说明监管重点正在上移到 Interoperability
+
+European Commission 2026 年仍在推进 DMA cloud-computing market investigation，公开 roundtables 明确讨论 cloud-service interoperability、financial conditions 与 contractual conditions；该 market investigation 的 final report 计划到 **May 2027**。[^ch18-3]
+
+这说明监管关注点已经不只是传统价格，也包括跨服务技术互操作、合同与 switching conditions。
+
+这与 AI system-stack competition 高度相关：如果客户无法低成本迁移 workload，接口和合同本身可能成为竞争变量。
+
+## 6. Antitrust 与 Sovereign / Industrial Policy 不是同一个目标函数
+
+竞争政策关注 market access、tying、exclusion、interoperability 与 customer choice；产业/国家安全政策则关注 domestic compute、semiconductor capacity、export control、data sovereignty 与 strategic autonomy。
+
+同一政府完全可能同时：
+
+- 补贴本土 advanced manufacturing；
+- 推动 sovereign AI / cloud capacity；
+- 限制敏感 accelerator 出口；
+- 又要求本国市场中的平台提高 interoperability。
+
+这些不是逻辑矛盾，而是不同政策目标并存。
+
+## 7. Regulation 能改变四个系统变量
+
+### 7.1 Interface Control
+
+开放 compiler/runtime/network interfaces 可以降低 migration cost。
+
+### 7.2 Bundling / Tying
+
+限制 accelerator、network、software 的不当绑定，可以提高 multi-vendor system 的可执行性。
+
+### 7.3 Access / Supply Rules
+
+如果存在依法确认的 discriminatory access / allocation，non-discrimination remedy 可能改变 buyer bargaining structure。
+
+### 7.4 Acquisition / Vertical Integration
+
+merger control 可以阻止关键中间层进一步被纳入同一控制体系。
+
+这些变量都会影响 system-stack moat。
+
+## 8. Regulation 无法直接创造 Physical Capacity
+
+监管可以降低 switching cost，但不能直接制造：
+
+- HBM bits；
+- advanced-packaging capacity；
+- N2 wafers；
+- grid / energized MW。
+
+因此，即使 interface remedy 显著成功，physical scarcity 仍可能继续存在。
+
+法律竞争与物理供给必须在不同模型中分析。
+
+## 9. 对 China Parallel Stack 的影响也必须分层
+
+美国或欧洲对某一 AI platform 的竞争政策，不会自动解决中国 frontier AI stack 的 advanced logic、HBM、packaging、interconnect 与 production software closure。
+
+相反，中国本土 system capability 的提高也不自动改变欧美市场的 antitrust assessment。
+
+两者可能互相影响 bargaining / strategic policy，但不能互相替代。
+
+## 10. Regulation 如何改变 S1–S4
+
+**Table 18.1 — 监管变量对 S1–S4 的作用路径**
+
+| 情景 | 监管变量的作用 |
+|---|---|
+| S1 Competitive Expansion | interface openness、interoperability、tying limits 有效降低 switching cost |
+| S2 Baseline Concentration | 调查与规则持续存在，但 system structure 基本保持 |
+| S3 Resource Hegemony | remedy 不足以降低多层 switching / scarcity |
+| S4 Capital Hard Landing | 通常由 utilization / capital clearing 主导，监管更多影响清算后的市场结构 |
+
+**Source:** 本报告情景框架；EU competition / DMA procedure 作为监管机制背景。[^ch18-2][^ch18-3]  
+**Note:** 表中为机制映射，不代表欧盟已对任何特定 AI platform 作出最终违法认定或 remedy。
+
+所以监管不是固定“利空平台”的单向变量。它是否改变产业结构，取决于正式 remedy 是否真正触及迁移、bundling 与 access。
+
+## 11. 当前判断
+
+截至 2026 年 8 月，监管已成为 AI system-platform 的重要外部变量，但本书不会把调查、market inquiry 或法定罚款 ceiling 写成已经发生的结构性改造。
+
+真正需要持续更新的是：
+
+- 是否进入正式 proceedings；
+- 是否发出 Statement of Objections / equivalent formal complaint；
+- 是否形成 binding conduct commitments；
+- 是否出现 interoperability / tying / access remedy；
+- 是否有最终 decision；
+- remedy 是否真实降低 production migration cost。
+
+只有这些正式事件，才足以改变 system-stack scenario weighting。
+
+## References
+
+[^ch18-1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
+[^ch18-2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
+[^ch18-3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
