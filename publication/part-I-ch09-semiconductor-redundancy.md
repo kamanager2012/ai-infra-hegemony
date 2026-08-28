@@ -17,7 +17,7 @@
 
 ## 2. ASML 说明设备本身也是 system-level capability
 
-ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；其 High-NA TWINSCAN EXE 平台仍在进入高量产前的客户验证阶段。ASML 表示，到 2025 年末客户已在 High-NA systems 上运行超过 400,000 wafers，并继续推进系统向 high-volume manufacturing qualification。
+ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；其 High-NA TWINSCAN EXE 平台仍在进入高量产前的客户验证阶段。ASML 表示，到 2025 年末客户已在 High-NA systems 上运行超过 400,000 wafers，并继续推进系统向 high-volume manufacturing qualification。[^1]
 
 这说明先进光刻的战略约束不是一个“单台机器报价”就能描述。真正重要的是：
 
@@ -42,7 +42,7 @@ leading-edge manufacturing 依赖设备安装、备件、软件、process recipe
 
 “国内有 fab”也不能自动推出“扩产不再受外部供给影响”。
 
-ASML 的公开出口管制说明给出了一个可审计边界：
+ASML 的公开出口管制说明给出了一个可审计边界：[^2][^3]
 
 - EUV systems 对中国的销售已受限制；
 - 最先进 immersion DUV systems 需要荷兰政府 export license；
@@ -70,7 +70,7 @@ advanced node 对 contamination、particle、uniformity、defect density 与 lon
 
 ## 5. TSMC 的地理扩张证明“冗余正在发生”，也证明核心集群不会瞬间复制
 
-TSMC 2025 Annual Report 显示：
+TSMC 2025 Annual Report 显示：[^4]
 
 - Arizona 第一座 fab 已在 **4Q24** 进入 4 nm volume production；
 - 第二座 Arizona fab 计划生产 3 nm 及更先进技术；
@@ -85,7 +85,7 @@ TSMC 2025 Annual Report 显示：
 
 ## 6. 政府补贴的作用是降低冗余建设成本，而不是创造即时独立
 
-美国 Department of Commerce 对 TSMC Arizona 的 CHIPS final award 包括 up to **US$6.6B direct funding**，支持三座 leading-edge fabs；对 advanced packaging 的 NAPMP final awards 合计 **US$1.4B**，另对 Amkor Arizona advanced-packaging/test facility 提供 up to **US$407M** direct funding。
+美国 Department of Commerce 对 TSMC Arizona 的 CHIPS final award 包括 up to **US$6.6B direct funding**，支持三座 leading-edge fabs；对 advanced packaging 的 NAPMP final awards 合计 **US$1.4B**，另对 Amkor Arizona advanced-packaging/test facility 提供 up to **US$407M** direct funding。[^5][^6][^7]
 
 这些项目直接证明：
 
@@ -119,7 +119,7 @@ TSMC 2025 Annual Report 显示：
 
 AI 对 leading-edge logic、HBM、packaging 与 power 的需求使先进制造从商业周期资产进一步变成战略基础设施。
 
-TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related demand 联系起来；美国 CHIPS awards 也把 AI/HPC 作为 leading-edge 与 advanced-packaging investment 的重要应用背景。
+TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related demand 联系起来；美国 CHIPS awards 也把 AI/HPC 作为 leading-edge 与 advanced-packaging investment 的重要应用背景。[^4][^5][^6]
 
 因此，AI infrastructure cycle 与 industrial-policy cycle 已经发生明显叠加。
 
@@ -189,13 +189,12 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 因此，未来十年的半导体供应链更可能是**高集中核心技术 + 更多区域冗余 + 更高战略库存与公共资本参与**，而不是快速回到完全分散、完全可替代的全球市场。
 
-## 关键公开来源
+## References
 
-- ASML 2025 Annual Report: https://www.asml.com/en/investors/annual-report/2025
-- ASML 2025 Strategy & Stories — EUV / High-NA roadmap: https://www.asml.com/en/investors/annual-report/2025/strategy-and-stories
-- ASML — Dutch export controls: EUV already restricted; most advanced immersion DUV requires export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
-- ASML — 2024 updated U.S. restrictions include additional advanced manufacturing technologies, metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
-- TSMC 2025 Annual Report — Arizona/Japan/Germany/Taiwan footprint: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- U.S. Department of Commerce — TSMC Arizona CHIPS final award: https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
-- U.S. Department of Commerce — US$1.4B NAPMP advanced-packaging awards: https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
-- U.S. Department of Commerce — Amkor Arizona advanced-packaging award: https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
+[^1]: ASML, 2025 Annual Report and Strategy & Stories, EUV / High-NA roadmap and system shipments, https://www.asml.com/en/investors/annual-report/2025
+[^2]: ASML, 2023 statement on Dutch export-control regulations, EUV and advanced immersion DUV licensing, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+[^3]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+[^4]: TSMC, 2025 Annual Report, Arizona/Japan/Germany/Taiwan manufacturing footprint and AI-related demand context, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^5]: U.S. Department of Commerce, TSMC Arizona CHIPS final award, 2024-11, https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
+[^6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
+[^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
