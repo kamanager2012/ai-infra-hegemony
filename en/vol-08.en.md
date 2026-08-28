@@ -26,7 +26,7 @@ See the [Four-Cloud CapEx Scope Check](四云CapEx口径核对.en.md).
 
 ## 2. The 2025–2026 capital expansion is already visible
 
-On a mixed-year 2025 basis, equipment/PPE purchases across Microsoft, Amazon, Alphabet, and Meta reached approximately **$354B** in aggregate scale.
+On a mixed-year 2025 basis, equipment/PPE purchases across Microsoft, Amazon, Alphabet, and Meta reached approximately **US$354B** in aggregate scale. This is a research-side mixed-window reconstruction from company disclosures, not a jointly reported “AI CapEx” metric.
 
 As of August 2026, public company-specific indicators include:
 
@@ -36,6 +36,13 @@ As of August 2026, public company-specific indicators include:
 | Alphabet | Q2 earnings-call CapEx guidance **US$195–205B** |
 | Meta | Q2 CapEx guidance **US$130–145B**, including finance-lease principal |
 | Amazon | TTM PPE net purchases actual **US$169.007B** through 2026-06-30 |
+
+The accounting identities matter:
+
+- Microsoft / Alphabet / Meta values above are **guidance or expectations**;
+- Amazon's **US$169.007B** is a **TTM actual** through 2026-06-30;
+- Alphabet's Q2 2026 actual CapEx was **US$44.9B**, distinct from its full-year guidance;
+- Microsoft's approximately US$175B headline moved primarily because more future data-center leases will be classified as operating rather than finance leases; management said underlying investment expectations were unchanged.
 
 These figures use different windows and accounting definitions.
 
@@ -134,7 +141,7 @@ Hyperscaler cash also has to finance:
 - third-party systems;
 - operations.
 
-The same dollar therefore reproduces a different asset base in each business model.
+The same US$1 therefore reproduces a different asset base in each business model.
 
 This helps explain how an asset-light platform can influence manufacturing CapEx far beyond the fixed assets on its own balance sheet.
 
@@ -209,3 +216,10 @@ The most accurate current description is:
 > **The supercycle continues, but the hurdle for utilization, workflow monetization, and next-generation ROI is becoming higher.**
 
 That is the central dividing line between **S2 Baseline Concentration** and **S4 Capital Hard Landing**.
+
+## Key public sources for this volume
+
+- Microsoft FY26 Q4 earnings / earnings call — calendar-2026 reported CapEx expectation approximately US$175B after lease-classification change; underlying investment expectation unchanged: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+- Alphabet Q2 2026 SEC Exhibit 99.1 — Q2 actual CapEx US$44.9B; full-year US$195–205B figure is Q2 earnings-call guidance: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Meta Q2 2026 SEC Exhibit 99.1 — 2026 CapEx guidance US$130–145B including principal payments on finance leases: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+- Amazon Q2 2026 Form 10-Q — TTM PPE net purchases actual US$169.007B; Q2 cash CapEx US$53.1B: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
