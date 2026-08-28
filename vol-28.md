@@ -38,7 +38,7 @@
 
 > cloud-side heavy training + edge-side compressed inference/control。
 
-这与 rack-scale AI 的 100 kW 级环境完全不同。
+这与 GB200 NVL72 **约 120 kW/rack** 的 rack-scale AI 环境完全不同。该 120 kW 是整柜设计/满载级功耗口径，而不是单纯 GPU IT load。来源：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html 。
 
 ## 3. Robot BOM 不能被一个百分比模板固定
 
