@@ -34,9 +34,9 @@ long-duration model demand
 
 ## 3. OpenAI Stargate
 
-OpenAI Stargate 的公开目标是未来数年在美国建设大规模 AI infrastructure，目标规模最高达到 **$500B**。
+OpenAI Stargate 的公开目标是未来数年在美国建设大规模 AI infrastructure，目标规模为 **US$500B / 10 GW**。
 
-OpenAI 2025 年进一步披露与 Oracle 等合作扩展数据中心，已形成 **>5 GW** under-development capacity 的公开方向。
+OpenAI 在 2025-10 进一步披露，Stargate 已达到 **>8 GW planned capacity**、**>US$450B planned investment over the next three years**；到 2026-06，Michigan 的 **1 GW** The Barn data-center campus 已正式破土。
 
 这类项目的战略意义在于：
 
@@ -50,7 +50,7 @@ OpenAI 2025 年进一步披露与 Oracle 等合作扩展数据中心，已形成
 - energized capacity；
 - actual utilization。
 
-“计划投资 $500B”不能写成“已经投入 $500B”。
+“US$500B commitment”或“>US$450B planned investment”都不能写成“已经实际支出同等金额”；planned capacity 也不能写成 energized/utilized capacity。
 
 ## 4. Anthropic / AWS
 
@@ -58,7 +58,7 @@ Anthropic 与 AWS 已形成长期深度基础设施关系。
 
 公开材料已经给出更明确的长期锚：
 
-- Anthropic 对 AWS 的未来十年计算承诺超过 **$100B**；
+- Anthropic 对 AWS 的未来十年计算承诺超过 **US$100B**；
 - 可预留最高 **5 GW** 的 AWS compute capacity；
 - 已大规模部署 Trainium；
 - Anthropic 已公开使用超过 **1M Trainium2 chips**；
