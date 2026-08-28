@@ -1,5 +1,7 @@
 # Copy-ready X posts (not sent)
 
+> **PRIVATE REPOSITORY WARNING:** while this repository remains private, the GitHub URLs below return 404 or require authorization for unauthenticated readers. Do **not** publish this copy externally until repository visibility is changed and the public URLs are re-verified.
+
 Nothing in this file is posted automatically. It is a release-writing draft for the repository owner.
 
 Repo / English release landing page: https://github.com/kamanager2012/ai-infra-hegemony
