@@ -21,7 +21,7 @@ TSMC 的公开表述足以确认 advanced-packaging tightness：[^1][^2]
 - 4Q24 transcript：**advanced packaging and testing >8% of revenue**；
 - 4Q25 transcript 的公司会后更正口径：**advanced packaging slightly over 10% of 2025 revenue**。
 
-这两个标签并不完全相同，因此出版层**不把 >8% → >10% 当作严格同口径连续时间序列**，也不把 2025 的 advanced packaging 扩写回 “advanced packaging + testing”。
+这两个标签并不完全相同，因此本报告**不把 >8% → >10% 当作严格同口径连续时间序列**，也不把 2025 的 advanced packaging 扩写回 “advanced packaging + testing”。
 
 ## 3. CoWoS tightness 是 A 级事实，customer allocation 不是
 
