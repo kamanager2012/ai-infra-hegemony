@@ -18,19 +18,13 @@ Task Exposure
 
 ## 2. Exposure 不等于 unemployment
 
-ILO、IMF、OECD 等研究反复强调：
+ILO 与 IMF 的公开研究都要求把 **occupational exposure** 与实际 adoption、job redesign 和 employment outcome 分开理解：
 
 - exposure 衡量技术上哪些任务可能被 AI 影响；
 - 它不等于企业一定采用；
 - 更不等于同等比例岗位消失。
 
-例如，一个岗位可能 60% 任务可自动化，但企业最终选择：
-
-- 自动化 20%；
-- 保留人工审核；
-- 增加客户工作；
-- 减少初级岗位；
-- 提高高级员工产出。
+例如，一个岗位即使存在较高技术暴露，企业仍可能只自动化部分 workflow，同时保留人工审核、增加客户工作、调整初级岗位招聘，并提高高级员工产出。这里不人为设定“60% 可自动化 / 20% 实际自动化”之类无一手依据的比例。
 
 因此，职业层结果必须经过企业工作流重构才能形成。
 
@@ -209,7 +203,7 @@ Agent-native workflow 可能减少部分协调层。
 
 ## 12. 当前判断
 
-AI 已经进入大规模任务重构阶段。
+AI 已经出现可观察的任务重构，但现有跨国证据不足以把它概括成一个统一的“全经济大规模任务重构率”。
 
 但现有证据不足以支持一个统一“AI 将消灭多少岗位”的数字。
 
@@ -218,3 +212,9 @@ AI 已经进入大规模任务重构阶段。
 > 先观察任务自动化，再观察 workflow redesign，最后观察岗位和工资。
 
 这是从技术能力到劳动结果之间不可跳过的转换层。
+
+
+## 本卷关键公开来源
+
+- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure*（2025-05-20）：https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure
+- IMF Staff Discussion Note, *Gen-AI: Artificial Intelligence and the Future of Work*（advanced economies 约 60% employment exposure；这是职业暴露，不是单岗位任务自动化率）：https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
