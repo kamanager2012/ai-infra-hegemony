@@ -1,49 +1,100 @@
 # Part II · 第13章：Anchor Compute Buyer Effect——模型公司如何重塑基础设施
 
-## 1. 模型公司正在从“算力租户”升级为 Infrastructure Anchor Buyer
+## 1. 核心判断：头部模型公司正在从“算力租户”升级为基础设施资本形成的锚定买方
 
-传统关系是：
+传统关系更接近：
 
 > model company → rent cloud compute
 
-超大模型公司正在把关系改成：
+但超大模型公司的关系正在演化为：
 
-> **model-company demand ↔ cloud / data-center / power buildout**
+> **model-company demand ↔ cloud / data-center / power / chip buildout**
 
-它们通过 multi-year compute commitments、dedicated campuses、chip selection 与 capacity reservation 给基础设施供应商更高 revenue visibility。
+当模型公司通过 multi-year compute commitments、dedicated campuses、chip selection、capacity reservation 与长期 cloud agreement 提供更高 revenue visibility 时，它们已经不只是“购买现成算力”。
 
-## 2. Anchor Compute Buyer Effect
+它们开始影响：
 
-机制可以写成：
+- data-center investment timing；
+- cloud custom-silicon roadmap；
+- accelerator / HBM / packaging reservation；
+- power procurement；
+- project financing；
+- infrastructure geography。
 
-> **long-duration model demand → infrastructure financing certainty → earlier data-center/power buildout → earlier chip/HBM/packaging reservation → priority capacity for anchor workload**
+因此，本报告把这类需求定义为 **Anchor Compute Buyer**。
 
-所以模型公司本身已经成为上游资本形成的重要需求信号，而不是仅仅接受 hyperscaler 的投资结果。
+---
 
-## 3. OpenAI Stargate：从 nominal commitment 到 secured / construction state
+## 2. Anchor Compute Buyer Effect 的核心机制
+
+传导链可以写成：
+
+> **long-duration model demand → revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation → priority capacity for anchor workload**
+
+关键变化在于：需求本身开始推动供给提前建设。
+
+这与传统“先建云，再等客户租用”的模式不同。
+
+如果 buyer commitment 足够长、足够大，供应商与资本市场会更愿意：
+
+- 提前建 data center；
+- 提前签 power contract；
+- 提前锁定 chip / HBM / packaging；
+- 提前部署 custom silicon；
+- 提前配置项目融资。
+
+因此，模型公司正在成为上游资本形成的重要 leading indicator。
+
+---
+
+## 3. OpenAI Stargate：必须严格区分 Commitment、Secured、Construction 与 Energized
 
 OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。[^1]
 
 随后官方把长期目标描述为到 2029 年确保 **10 GW** 美国 AI infrastructure。[^2]
 
-状态继续前移：OpenAI 在 **2026-04-29** 表示已**超过 10 GW secured-capacity milestone**，并称此前 90 天新增超过 3 GW；[^2] **2026-06-01**，Michigan 的 **1 GW The Barn** data-center campus 正式破土。[^3]
+状态继续前移：
 
-这些状态必须区分：commitment / secured capacity / construction / energized capacity / utilization。超过 10 GW secured 不等于 10 GW 已全部上电运行。
+- **2026-04-29**：OpenAI 表示已超过 **10 GW secured-capacity milestone**，并称此前 90 天新增超过 3 GW；[^2]
+- **2026-06-01**：Michigan 的 **1 GW The Barn** data-center campus 正式破土。[^3]
 
-## 4. Anthropic / AWS：Anchor Workload 也能推动 Custom Silicon
+这些状态不能混写。
 
-Anthropic 在 2026-04 官方披露：[^4]
+必须区分：
+
+> **Announced / Committed → Secured → Construction → Energized → Utilized**
+
+因此：
+
+- US$500B 是长期计划，不是已投入 actual；
+- >10 GW secured 不等于 >10 GW 已经 energized；
+- 1 GW groundbreaking 不等于 1 GW 已经 online；
+- energized capacity 也不等于满负荷 utilization。
+
+这套状态机与第7章 Power 分析保持一致。
+
+---
+
+## 4. Anthropic / AWS：Anchor Workload 可以反向推动 Custom Silicon
+
+Anthropic 2026-04 官方披露：[^4]
 
 - 对 AWS technologies 的未来十年 commitment **>US$100B**；
 - 可获得 **up to 5 GW** capacity；
 - 已使用 **>1M Trainium2 chips**；
 - 到 2026 年底预计接近 **1 GW Trainium2/3 capacity**。
 
-这说明 model-company demand 可以成为 cloud custom silicon 的重要 anchor workload。
+这说明 model-company demand 不只是购买 GPU，也可以成为 hyperscaler custom silicon 的长期 anchor workload。
 
-但公开披露只能证明规模大，不能在缺乏 workload-share 排名时写成“第一大用户”。
+这会形成一条新的反馈链：
 
-## 5. Anchor Buyer 增强的是需求侧权力，不是物理所有权
+> **large model workload → custom-silicon deployment → production feedback → system optimization → lower TCO → more anchor workload**
+
+因此，Anchor Buyer 与 Cloud System-Stack Substitution 不是两条独立故事，而是可以相互强化。
+
+---
+
+## 5. Anchor Buyer 增强的是 Demand-Side Coordination Power，而不是完整物理所有权
 
 模型公司可以影响：
 
@@ -52,56 +103,193 @@ Anthropic 在 2026-04 官方披露：[^4]
 - cloud roadmap；
 - rack deployment；
 - power planning；
-- infrastructure financing。
+- financing schedule。
 
-但通常并不直接拥有 leading-edge foundry、HBM fab、advanced-packaging fab 或 transmission grid。
+但它们通常并不直接拥有：
 
-所以 Anchor Buyer 是需求侧 bargaining / coordination power 的上升，而不是完整 supply-chain ownership。
+- leading-edge foundry；
+- HBM fab；
+- advanced-packaging fab；
+- transmission grid；
+- generation fleet。
 
-## 6. 为什么换云不是简单换账单
+所以 Anchor Buyer 增强的是：
 
-模型公司选择的是 accelerator、HBM、interconnect、compiler/runtime、scheduler、rack/pod 与 cloud operations 的完整 system。
+> **demand-side bargaining + coordination + financing power**
 
-迁移可能需要 kernel adaptation、distributed-training changes、performance tuning、observability rework 与 operational revalidation。
+而不是 supply-chain ownership。
 
-这形成 infrastructure switching cost，也解释了为什么长期 commitment 的退出成本可能高于普通 SaaS contract。
+这一区分很重要。
 
-## 7. Algorithmic Efficiency 会直接改变 Anchor Demand
+一个 buyer 可以通过长期 commitment 显著影响上游资本形成，但仍然受 advanced logic、HBM、packaging、power 与 permitting 的物理约束。
 
-如果 architecture 大幅降低同一 capability 的 compute requirement，model company 可以减少长期 capacity commitment，提高 buyer bargaining power，并提高 infrastructure provider 的 utilization risk。
+---
 
-如果 unit cost 下降反而刺激 workload volume 更快增长，长期 commitment 仍可能继续扩大。
+## 6. 长期 Compute Commitment 也会提高 Switching Cost
 
-所以 Anchor Buyer Demand 是动态需求函数，不是固定指数增长曲线。
+模型公司采购的不是一张 accelerator card，而是一套完整 system：
 
-## 8. Anchor Buyer 的产业链传导
+- accelerator；
+- HBM；
+- interconnect；
+- compiler/runtime；
+- scheduler；
+- rack/pod；
+- cloud operations；
+- observability；
+- failure recovery。
 
-大规模模型需求可以沿链条传播：
+因此，“换云”往往不是简单更换账单。
 
-> model demand → cloud CapEx / custom silicon → accelerator/HBM/packaging → data-center power → grid/generation
+迁移可能需要：
 
-因此，评估 AI infrastructure cycle 不能只看 hyperscaler CapEx 和 system-vendor commitments，还要独立看 model-company long-duration contracts 是否扩张、改期或利用不足。
+- kernel adaptation；
+- distributed-training changes；
+- performance tuning；
+- data-pipeline changes；
+- observability rework；
+- operational revalidation。
 
-## 9. 风险：Anchor Buyer 也会放大 Stranded-Capacity Risk
+这意味着长期 commitment 的退出成本可能显著高于普通 SaaS contract。
 
-如果 model-company revenue、financing、workload growth 或 architecture assumptions 发生逆转，long-duration infrastructure commitments 可能变成低利用率资产。
+同时，这也解释了为什么 hyperscaler custom stack 一旦获得大型 anchor workload，就可能形成更强学习效应与 lock-in。
 
-需要持续观察：
+---
 
-- cancellation / rescheduling；
-- take-or-pay / minimum commitments；
+## 7. Anchor Buyer Demand 不是固定指数增长函数
+
+长期 compute demand 会被两组相反力量同时影响。
+
+### 降低单位需求的因素
+
+- algorithmic efficiency；
+- quantization；
+- sparse architecture；
+- better scheduling；
+- higher utilization；
+- lower bytes/token；
+- faster hardware。
+
+### 扩大总需求的因素
+
+- model capability expansion；
+- inference adoption；
+- agent workflows；
+- longer context；
+- multimodality；
+- lower unit cost stimulating more usage。
+
+因此：
+
+> **unit compute demand can fall while total infrastructure demand rises**
+
+Anchor Buyer Demand 不能用简单“每年固定翻倍”外推。
+
+真正需要跟踪的是：
+
+- workload volume；
 - utilization；
-- project financing；
-- customer concentration；
-- power and data-center delivery state。
+- unit cost；
+- monetization；
+- commitment renewal；
+- project delivery。
 
-## 10. 当前判断
+---
 
-截至 2026 年 8 月，模型公司已经成为 AI infrastructure 的独立 Anchor Buyer category。
+## 8. Anchor Buyer 如何沿产业链传导
 
-OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的十年 compute commitment 和 Trainium deployment 都说明：模型 workload 正在影响 data-center、power 与 custom-silicon buildout。
+大规模模型需求可以沿完整产业链传播：
 
-这使 Anchor Buyer commitments 成为 S2/S3 expansion 与 S4 capital clearing 之间的重要 leading indicator。
+> **model demand → cloud CapEx / custom silicon → accelerator / HBM / packaging → data center → power → grid / generation**
+
+这意味着 AI infrastructure cycle 不能只观察：
+
+- NVIDIA revenue；
+- hyperscaler CapEx；
+- TSMC / memory CapEx。
+
+还必须独立观察：
+
+- model-company long-duration contract；
+- secured capacity；
+- project construction；
+- utilization；
+- commitment rescheduling。
+
+如果 Anchor Buyer commitment 继续扩张并被真实 workload 吸收，S2/S3 的资本扩张动力会增强。
+
+如果 commitment 改期、缩减或利用不足，则 S4 risk 上升。
+
+---
+
+## 9. Anchor Buyer 的最大风险：Customer Concentration + Duration Mismatch
+
+Anchor Buyer 能提高融资确定性，也会提高集中度风险。
+
+如果一个大型 infrastructure project 主要依赖少数 model-company workload，其资本回收就更依赖这些客户未来的：
+
+- revenue；
+- financing；
+- technical roadmap；
+- workload growth；
+- contract performance。
+
+与此同时，AI hardware 的技术周期短，而：
+
+- data-center shell；
+- power contract；
+- grid connection；
+- generation asset；
+
+具有更长经济寿命。
+
+于是会形成：
+
+> **shorter-cycle AI workload / compute technology vs longer-cycle infrastructure obligation**
+
+如果模型公司增长假设失效，长期 commitment 可能从“融资锚”转化为 stranded-capacity risk。
+
+---
+
+## 10. 判断 Anchor Buyer 是否正在强化，应看什么
+
+### 强化信号
+
+- long-duration compute commitments 继续扩大；
+- secured capacity 增长；
+- dedicated campus / power projects 进入 construction；
+- custom silicon 获得更多 anchor workload；
+- utilization 与 workload revenue 同步增长；
+- commitment 续签或延长。
+
+### 弱化信号
+
+- project rescheduling；
+- commitment renegotiation；
+- cancellation；
+- utilization 低于预期；
+- model-company financing / revenue 压力；
+- capacity delivery 明显领先于 workload growth。
+
+因此，Headline commitment 本身不是终点。
+
+真正重要的是：
+
+> **长期需求是否最终转化成高利用率、可货币化的真实 workload。**
+
+---
+
+## 11. 当前判断
+
+截至 2026 年 8 月，模型公司已经可以被视为 AI infrastructure 的独立 Anchor Buyer category。
+
+OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的十年 compute commitment 与 Trainium deployment，都说明：
+
+> **model workload 已经开始影响 cloud architecture、custom silicon、data-center buildout、power procurement 与基础设施融资。**
+
+因此，Anchor Buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。
+
+它既可以加速 AI infrastructure 的资本形成，也可以在 utilization 不足时放大 stranded-capacity 与 duration-mismatch risk。
 
 ## References
 
