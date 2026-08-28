@@ -12,7 +12,7 @@ AI infrastructure 的资本开支已经进入极高水平，但投资规模本�
 
 最慢但最硬的信号来自账面确认：impairment、inventory write-down、accelerated depreciation、asset disposal。它们说明企业已经承认原先预期的未来现金流或残值不足。
 
-单季政策/库存项目不能自动升级成结构性崩溃。例如 NVIDIA FY26 的 H20-related charges 影响过利润，但 FY26 Q4 GAAP gross margin 已为 **75.0%**，FY27 Q1 为 **74.9%**，FY27 Q2 维持 **75.0%**。一次性 charge / release 与长期 system economics 必须分开。
+单季政策/库存项目不能自动升级成结构性崩溃。例如 NVIDIA FY26 的 H20-related charges 影响过利润，但 FY26 Q4 GAAP gross margin 已为 **75.0%**，FY27 Q1 为 **74.9%**，FY27 Q2 维持 **75.0%**。[^1][^2][^3]一次性 charge / release 与长期 system economics 必须分开。
 
 ### 2.2 Utilization / Revenue
 
@@ -30,11 +30,13 @@ AI infrastructure 的资本开支已经进入极高水平，但投资规模本�
 
 下一轮扩张是否继续，要看 hyperscaler CapEx guidance、NVIDIA manufacturing/supply/capacity commitments、long-duration model-company compute contracts 与 power commitments。
 
-NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。
+NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。
 
 ## 3. 四云 CapEx 必须分公司、分会计口径观察
 
 统一的“2026 AI hardware CapEx”并不存在。当前可公开追踪的规模包括：
+
+**Table 24.1 — 四大云厂 2026 年资本投入公开口径**
 
 | 公司 | 2026 当前公开口径 | 身份 |
 |---|---:|---|
@@ -42,6 +44,9 @@ NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 �
 | Alphabet | US$195–205B | Q2 guidance |
 | Meta | US$130–145B | Q2 guidance；含 finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
+
+**Source:** Microsoft FY26 Q4 earnings materials、Alphabet 2026 Q2 SEC Exhibit 99.1、Meta 2026 Q2 SEC Exhibit 99.1、Amazon 2026 Q2 Form 10-Q.[^5][^6][^7][^8]  
+**Note:** expectation / guidance / TTM actual 的时间窗与会计口径不同，不构成可直接相加的统一 AI hardware CapEx。
 
 这些数字的时间窗和会计科目不同，**不能机械相加成统一 AI hardware CapEx**。历史情景中的 US$215B、US$670–750B 等统一总额如果缺乏可比口径，只能保留为旧压力测试，不进入事实层。
 
@@ -103,17 +108,17 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 > **高强度资本扩张 + ROI 压力上升**
 
-而不是已经确认的 AI-infrastructure bubble collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，FY27 Q2 GAAP operating income 为 **US$63.734B**，supply/capacity commitments 已升至 **US$279B**；同时 hyperscaler 仍在给出极高的基础设施投资口径。
+而不是已经确认的 AI-infrastructure bubble collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3] supply/capacity commitments 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
 
 这不证明未来一定软着陆。它只说明：**要宣布资本清算已经成为现实主线，还需要 utilization、clearing price、accounting losses 与 forward commitments 的同步证据。**
 
-## 关键公开来源
+## References
 
-- NVIDIA FY26 official results — NVIDIA-defined non-GAAP FCF US$96.575B: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-- NVIDIA FY27 Q1 10-Q — GAAP gross margin 74.9%: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
-- NVIDIA FY27 Q2 official results — GAAP gross margin 75.0%, GAAP operating income US$63.734B: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q — US$279B manufacturing, supply, and capacity commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- Microsoft FY26 Q4 earnings / call: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-- Meta 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-- Amazon 2026 Q2 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^1]: NVIDIA, FY26 official results, NVIDIA-defined non-GAAP free cash flow and FY26 Q4 margin, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+[^2]: NVIDIA Corporation, FY27 Q1 Form 10-Q, GAAP gross margin 74.9%, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
+[^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: Microsoft, FY26 Q4 earnings / conference call, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+[^6]: Alphabet, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+[^7]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+[^8]: Amazon.com, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
