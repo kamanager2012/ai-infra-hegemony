@@ -45,6 +45,8 @@ NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95
 
 这也是为什么产业竞争最终会从“谁愿意出更高价格”升级为“谁能够获得稳定数量、稳定交付和系统级优先级”。
 
+2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型长期资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^15][^16] 前者是 mobilization target、后者是 future design capacity，都不是已部署资本或已上电负载；但二者共同表明，领先 system platform 正开始把协调能力从芯片供应扩展到资本与物理基础设施。
+
 ---
 
 ## 3. AI 正在形成 Two-Speed Semiconductor Economy
@@ -148,6 +150,8 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model
 但同一机制也会放大资本周期风险。如果长期需求承诺改期、利用率不足或商业收入无法覆盖基础设施资本成本，原本支持建设的确定性就可能转化为 stranded-capacity 与 duration-mismatch risk。
 
 因此，model-company long-duration commitment 已经成为与 hyperscaler CapEx、system-vendor supply commitments 同级的重要领先指标。
+
+PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^16] 这提高了基础设施形成速度，也同时增加 customer concentration 与 duration risk。
 
 ---
 
@@ -347,3 +351,5 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 [^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
 [^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 [^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^15]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^16]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
