@@ -103,7 +103,13 @@ These values are ready for the final GitHub UI step.
 >
 > This research is not an audit opinion, investment recommendation, or legal opinion.
 
-## 7. Tooling boundary for the final publication step
+**Local/WSL fallback while GitHub Actions is disabled**
+
+`bash scripts/run-release-qa.sh`
+
+This one-command path runs repository/source QA, rebuilds the committed bilingual materialized sources, builds both PDF/EPUB editions, and executes the final machine proof. It requires the publication toolchain listed by the script. A PASS still does not replace human visual/read-through proof or author COI confirmation.
+
+
 
 The connected GitHub write tools used in this preparation cycle can update repository files on `main`, but they do not currently expose repository-About/visibility mutation or GitHub Release/tag creation. Those remaining unchecked publication operations must therefore be performed through a GitHub interface that exposes those controls. Do not mark them complete until the public repository and `v1.0.0` release can be remotely verified.
 
