@@ -41,6 +41,7 @@ NON_FACT = re.compile(
     r"不能|不允许|不是实际|不代表|不得|不采用|没有披露|未披露|不.*披露|"
     r"does.*not.*disclose|not disclose|not as|mechanically|机械|"
     r"absolute claim|绝对化|target|目标|threshold|阈值|formula|公式|"
+    r"不适合|not suitable|same US\$1|同样 US\$1|"
     r"if\b|如果|假如|本报告|本书|this report|the report",
     re.I,
 )
@@ -72,8 +73,12 @@ def table_source_map(lines: list[str]) -> dict[int, bool]:
         end = i
         if not any(TABLE_SEPARATOR.match(x.strip()) for x in lines[start:end]):
             continue
-        look = "\n".join(lines[end:min(len(lines), end + 10)])
-        sourced = bool(re.search(r"https?://", look) or SOURCE_LABEL.search(look))
+        look = "\n".join(lines[max(0, start - 6):min(len(lines), end + 12)])
+        sourced = bool(
+            re.search(r"https?://", look)
+            or SOURCE_LABEL.search(look)
+            or NON_FACT.search(look)
+        )
         for n in range(start, end):
             out[n] = sourced
     return out
@@ -99,8 +104,8 @@ def norm(value: str) -> str:
     return re.sub(r"\s+", "", value).lower()
 
 def nearby_source(lines: list[str], i: int) -> bool:
-    lo = max(0, i - 3)
-    hi = min(len(lines), i + 11)
+    lo = max(0, i - 4)
+    hi = min(len(lines), i + 21)
     block = "\n".join(lines[lo:hi])
     return bool(re.search(r"https?://", block) or SOURCE_LABEL.search(block))
 
@@ -144,6 +149,13 @@ def main() -> int:
 
             vals = values(line)
             if not vals:
+                continue
+            date_only = all(
+                re.fullmatch(r"(?:19|20)\d{2}\s*年|(?:1[0-2]|[1-9])\s*月|(?:3[01]|[12]\d|[1-9])\s*天", v)
+                for v in vals
+            )
+            node_only = all(v.lower().endswith("nm") for v in vals)
+            if date_only or node_only:
                 continue
 
             same_para = "\n".join(
