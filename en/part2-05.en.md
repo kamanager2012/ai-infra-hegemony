@@ -51,10 +51,12 @@ TrendForce's 2026 smartphone and memory tracking provides stronger evidence than
 
 Reported institutional observations include:
 
-- major increases in smartphone memory contract pricing;
-- sharp 2Q26 increases in LPDDR4X and LPDDR5X ASPs;
-- continued pressure on conventional DRAM contract prices;
-- suppliers prioritizing HBM/server memory and enterprise SSD.
+- for a mainstream **8 GB + 256 GB smartphone memory configuration**, 1Q26 contract cost was reported at **nearly +200% YoY**;
+- 2Q26 **LPDDR4X ASP rose about 70%–75% QoQ** and **LPDDR5X about 78%–83% QoQ**;
+- conventional DRAM contract prices remained under strong upward pressure;
+- suppliers prioritized HBM/server memory and enterprise SSD.
+
+Sources: https://www.trendforce.com/presscenter/news/20260211-12922.html and https://www.trendforce.com/presscenter/news/20260514-13044.html .
 
 The relevant chain is:
 
