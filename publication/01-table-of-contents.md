@@ -52,9 +52,8 @@
 31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
 32. [总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md)
 
-## Appendices / Research Controls
+## 研究附录
 
-- [出版封版标准](../出版封版标准.md)
 - [核心证据台账](../核心证据台账.md)
 - [核心参考文献索引](../核心参考文献索引.md)
 - [核心概念与模型索引](../核心概念与模型索引.md)
