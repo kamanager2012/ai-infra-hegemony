@@ -114,7 +114,7 @@ This does **not** prove that the company has no HBM R&D.
 
 To move HBM from possible R&D into frontier-system supply, the evidence would need to include official products, customer qualification, volume production, bandwidth/capacity, and packaging integration.
 
-The same prospectus also requires strict separation between project investment and planned offering proceeds. For the DRAM technology-upgrade project, **RMB18.0B total investment** and **RMB13.0B planned offering proceeds** are different denominators.
+The same prospectus also requires strict separation between project investment and planned offering proceeds. For the DRAM technology-upgrade project, **RMB18.0B total investment** and **RMB13.0B planned offering proceeds** are different denominators.[^7]
 
 DDR/LPDDR supply expansion and HBM-class memory closure therefore have to remain separate.
 
