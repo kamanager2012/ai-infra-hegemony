@@ -33,7 +33,9 @@ NON_FACT = re.compile(
     r"for example|例如|比如|cannot|must not|not actual|not shipment|"
     r"not consumption|does not mean|不能|不允许|不是实际|不代表|不得|不采用|"
     r"target|目标|threshold|阈值|formula|公式|if\b|如果|假如|"
-    r"this report|the report|本书|本报告",
+    r"this report|the report|本书|本报告|截至|as of|"
+    r"没有披露|未披露|does not disclose|not disclose|"
+    r"mechanically|机械|absolute claim|绝对化",
     re.I,
 )
 
@@ -124,8 +126,13 @@ def main() -> int:
             if re.search(r"\]\([^)]*\.md(?:#[^)]*)?\)", line):
                 continue
 
+            if re.match(r"^\d+[.)]\s", line):
+                continue
+
             vals = values(line)
             if not vals:
+                continue
+            if all(re.fullmatch(r"\d{4}\s*年", v) for v in vals):
                 continue
 
             same_para = "\n".join(
@@ -139,7 +146,10 @@ def main() -> int:
                 or re.search(r"https?://", lead)
                 or tables.get(i)
             )
-            model_boundary = bool(NON_FACT.search(same_para))
+            arithmetic_block = line.startswith(">") and bool(
+                re.search(r"[=≈×÷]|\b(?:plus|minus|times|divided)\b", line, re.I)
+            )
+            model_boundary = bool(NON_FACT.search(same_para) or arithmetic_block)
             candidates.append((i, line, vals, explicit or model_boundary))
             if explicit:
                 sourced_values.update(norm(v) for v in vals)
