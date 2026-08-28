@@ -78,6 +78,10 @@ lang: en-US
     chunks.append(process(read(f"{base}/02-list-of-tables.md"), "lot"))
     chunks.append("\\newpage\n")
     chunks.append(process(read(f"{base}/03-abbreviations-and-glossary.md"), "glossary"))
+    chunks.append("\\newpage\n")
+    chunks.append(process(read(f"{base}/04-research-transparency.md"), "transparency"))
+    chunks.append("\\newpage\n")
+    chunks.append(process(read(f"{base}/05-competitive-evidence-matrix.md"), "competition"))
 
     for rel in chapters:
         chapter = re.search(r"ch(\d+)", rel)
