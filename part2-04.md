@@ -107,3 +107,4 @@ DeepSeek-V3 技术报告可以作为一手训练锚：671B total parameters、37
 
 - DeepSeek-V3 Technical Report（2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
 - DeepSeek-V2 technical report / repository（93.3% KV-cache reduction、5.76× max generation throughput 相对 DeepSeek 67B）： https://github.com/deepseek-ai/DeepSeek-V2
+- NVIDIA FY27 Q2 official results（Data Center revenue US$89.0B、GAAP gross margin 75.0% 等）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
