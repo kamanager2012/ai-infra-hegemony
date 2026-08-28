@@ -1,7 +1,5 @@
 # Part I · Chapter 5: HBM and the Restructuring of Memory Resources
 
-> **Publication-layer chapter.** Recompiled from [Volume 05](../vol-05.en.md) and [Volume 23](../vol-23.en.md). This chapter defines the physical manufacturing cost of HBM, the DRAM residual-capacity mechanism, and the capital-density implications of HBM4 in one place. Advanced-packaging allocation is treated separately in Chapter 6.
-
 ## 1. HBM has moved from a GPU component to a system-level resource
 
 In frontier AI systems, HBM affects model capacity, batching, context length, concurrency, communication patterns, and accelerator utilization. The official GB200 NVL72 configuration includes **13.4 TB of HBM3E per rack**, showing that once the purchasing unit moves to rack scale, memory demand also moves from "GB per GPU" to "PB per deployment."
