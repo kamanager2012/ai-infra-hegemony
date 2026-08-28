@@ -32,7 +32,7 @@ Every update should answer only three questions:
 **Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^1][^2]  
 **Note:** Company-defined non-GAAP FCF and GAAP metrics retain their respective identities; aggregate commitments have no disclosed supplier-level split.
 
-Supply / capacity commitments:
+Supply / capacity commitments:[^2]
 
 - 2026-01-25: US$95.2B;
 - 2026-04-26: US$119B;
@@ -40,7 +40,7 @@ Supply / capacity commitments:
 
 These metrics ask whether the system seller still has enough cash generation and forward-commitment capacity to reserve next-generation scarce resources.
 
-The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.
+The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
 
 ## 3. Dashboard B — Foundry / Packaging
 
@@ -56,15 +56,15 @@ The following baseline is drawn from TSMC's 2025 Annual Report.[^3]
 - smartphone platform: 29%, +11% YoY;
 - largest / second-largest annual customer: 19% / 17% of revenue.
 
-A separate anonymized customer table supports only the 2024→2025 Customer A 12%→19% and Customer B 22%→17% trajectories.
+A separate anonymized customer table supports only the 2024→2025 Customer A 12%→19% and Customer B 22%→17% trajectories.[^7]
 
 The two disclosure types cannot be merged into one customer history.
 
 ### Packaging
 
-A-grade signal: TSMC continues to describe packaging capacity as tight / growth-limiting.
+A-grade signal: TSMC continues to describe packaging capacity as tight / growth-limiting.[^8]
 
-B-grade signal: TrendForce estimates NVIDIA at >60% of 2025 CoWoS demand.
+B-grade signal: TrendForce estimates NVIDIA at >60% of 2025 CoWoS demand.[^9]
 
 TSMC does not disclose customer-level CoWoS allocation.
 
@@ -123,9 +123,9 @@ Non-comparable accounting definitions must not be mechanically added into an off
 
 Representative current paths include:
 
-- Microsoft / Constellation: ~835 MW restart PPA;
-- Talen / AWS: up to 1.92 GW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;
-- Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035.
+- Microsoft / Constellation: ~835 MW restart PPA;[^10]
+- Talen / AWS: up to 1.92 GW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^11]
+- Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035.[^12]
 
 The variables that need updating are ramp, energized MW, actual load, and utilization.
 
@@ -286,3 +286,9 @@ This keeps the report updateable without rewriting the industry narrative after 
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^7]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+[^8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^9]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^11]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
