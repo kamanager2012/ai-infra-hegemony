@@ -202,7 +202,7 @@ CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts�
 | company filing / official product / government / court / formal contract | A |
 | institutional research | B |
 | sell-side / supply-chain / media estimate | C |
-| report geometry / stress test / hypothetical rack count | D |
+| report-side calculation / sensitivity / scenario input | D |
 
 **Source:** 本报告证据方法（见第27章）。  
 **Note:** 默认等级可因来源质量上调或下调，但不能因重复引用自动升级。
