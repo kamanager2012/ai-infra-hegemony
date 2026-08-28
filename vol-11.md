@@ -100,7 +100,7 @@ AI 平台的市场力量不再集中在单一产品。
 
 ## 5. 10% revenue ceiling 不是现实罚款预测
 
-欧盟竞争法中的营业额比例上限属于法律授权边界。
+欧盟 Regulation (EC) No 1/2003 Article 23(2) 规定：对参与违法的 undertaking / association，罚款不得超过其**前一营业年度 total turnover 的 10%**。这是法定上限，不是预期罚款。
 
 它不能直接被转换为：
 
@@ -113,7 +113,7 @@ Potential fine = Company Revenue 	imes 10%
 原因是：
 
 - 是否构成违法尚未确定；
-- relevant turnover 与 total turnover 的法律处理不同；
+- 具体罚款计算会考虑违法性质、严重性、持续时间及相关销售等因素，但 **10% ceiling 的分母是 total turnover**；
 - remedy 可能是 conduct-based；
 - case timing 不确定；
 - final decision 可能不存在。
@@ -205,3 +205,8 @@ Antitrust 关注：
 - S4 Capital Hard Landing：监管通常不是主要触发因素，需求与资本清算更重要。
 
 真正需要持续更新的是**正式法律状态与 remedy**，而不是新闻语气。
+
+
+## 本卷关键公开来源
+
+- EUR-Lex — Regulation (EC) No 1/2003, Article 23(2)（10% of total turnover ceiling）：https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
