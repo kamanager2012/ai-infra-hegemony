@@ -1,7 +1,5 @@
 # Part III · Chapter 24: Bubble Identification, Capital Clearing, and S4
 
-> **Publication-layer chapter.** Recompiled from [Volume 37](../vol-37.en.md) and [Macro Essay 07](../part2-07.en.md). Accounting details on useful life and duration mismatch belong in Volume 30; financing structure belongs in Volume 36. This chapter asks one question: **What evidence is strong enough to move from "high-intensity expansion" to "Capital Hard Landing"?**
-
 ## 1. Large CapEx does not by itself prove a bubble
 
 AI-infrastructure capital spending is extremely high, but investment size alone cannot prove a bubble.
