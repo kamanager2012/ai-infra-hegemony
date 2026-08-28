@@ -240,7 +240,7 @@ AI infrastructure 可以量化，但必须保持维度一致。
 - DeepSeek-V3 Technical Report（pre-training 2.664M；full training 2.788M H800 GPU-hours）：https://arxiv.org/abs/2412.19437
 - DeepSeek-V2（93.3% KV-cache reduction；5.76× maximum generation throughput，relative to DeepSeek 67B）：https://github.com/deepseek-ai/DeepSeek-V2
 - NVIDIA GB200 NVL72 product page（72 GPU、36 Grace、13.4 TB HBM3E、17 TB LPDDR5X）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- Micron FY24 Q2 event page：https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 Prepared Remarks：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Micron FY24 Q2 prepared remarks（industry-wide HBM3E ≈ 3× DDR5 wafer supply at same node / same bits）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA FY26 10-K（2026-01-25 supply/capacity commitments baseline）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - NVIDIA FY27 Q2 10-Q（US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
