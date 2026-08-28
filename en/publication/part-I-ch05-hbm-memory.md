@@ -69,7 +69,7 @@ AI Resource Gravity is therefore not an infinitely one-way pump. Long-run alloca
 
 ## 7. Rack-scale demand can support scenario arithmetic, not fake shipment estimates
 
-Using the GB200 NVL72 product specification of **13.4 TB HBM3E/rack**, we can run order-of-magnitude stress tests:
+Using the GB200 NVL72 product specification of **13.4 TB HBM3E/rack**[^1], we can run order-of-magnitude stress tests:
 
 **Table 5.1 — GB200 NVL72 rack count and HBM3E scenario demand**
 
