@@ -4,7 +4,7 @@
 
 当 AI rack power density 进入约 **120 kW/rack** 级别后，data center 建设逻辑发生变化。
 
-约 500 个 120 kW rack，仅 IT load 就达到约 **60 MW**。
+约 500 个按 **120 kW/rack** 设计的 GB200 NVL72 rack，对应约 **60 MW 的 rack-level full-load power**。这里的 120 kW 是 NVIDIA 对整柜功耗的官方口径，包含 compute nodes 与 rack components（如 switches / interconnects），不能写成纯 IT compute load。来源：https://docs.nvidia.com/mission-control/docs/systems-administration-guide/2.0.0/prs/faq.html 。
 
 这意味着 AI infrastructure 的交付不再只取决于：
 
