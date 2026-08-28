@@ -16,7 +16,24 @@ IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-e
 
 这些都是 occupational / employment exposure，不是“同等比例任务会被自动化”，更不是同等比例岗位消失。
 
-## 3. Adoption Economics 是技术能力到替代之间的第一道门
+## 3. Task-to-Job Translation：从模型能力到就业结果至少要跨五层
+
+本报告使用以下传导链：
+
+> **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
+
+这条链条的意义是：任何一层都可能阻断“模型能力提升 → 岗位减少”的直接外推。
+
+例如：
+
+- 模型能完成一个 task，不代表企业 workflow 已经重新设计；
+- workflow 可以自动化，不代表错误、合规和责任成本足够低；
+- 单个 task 被压缩，不代表整个 occupation 消失；
+- 企业人均产出提高，也可能表现为需求扩张而不是 headcount 下降。
+
+因此，就业预测必须从 task 和 workflow 开始，而不能从 benchmark 直接跳到 job count。
+
+## 4. Adoption Economics 是技术能力到替代之间的第一道门
 
 企业只有在：
 
@@ -28,7 +45,7 @@ IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-e
 
 reliability、latency、security、integration 与 legal responsibility 都会改变 adoption。
 
-## 4. 最容易被重构的是 Digital / Repeatable / Evaluable Tasks
+## 5. 最容易被重构的是 Digital / Repeatable / Evaluable Tasks
 
 例如 drafting、summarization、classification、routine coding、standard support 与 research assistance。
 
@@ -36,7 +53,7 @@ reliability、latency、security、integration 与 legal responsibility 都会�
 
 但“任务被压缩”仍可能表现为同一岗位产出提高，而不是岗位立即取消。
 
-## 5. Responsibility Constraint 会保留大量 Human-in-the-loop
+## 6. Responsibility Constraint 会保留大量 Human-in-the-loop
 
 medical sign-off、engineering sign-off、field maintenance、nuclear operations、complex negotiation、care work 等任务受到 liability、physical presence、licensing 与 trust 约束。
 
@@ -44,7 +61,7 @@ AI 可能改变 preparation / analysis / documentation，但最后责任仍可�
 
 因此 human review 既是软件成本，也是劳动转换的重要边界。
 
-## 6. Entry-level Ladder 是最值得观察的结构变化
+## 7. Entry-level Ladder 是最值得观察的结构变化
 
 即使 total employment 短期没有明显下降，junior analyst、junior coder、entry-level support、routine research 等传统入门任务可能先被压缩。
 
@@ -56,7 +73,7 @@ AI 可能改变 preparation / analysis / documentation，但最后责任仍可�
 
 这可能比一个统一“失业率预测”更重要。
 
-## 7. Wage Outcome 可能出现分化，而不是统一下降
+## 8. Wage Outcome 可能出现分化，而不是统一下降
 
 AI 可以提高 high-skill worker leverage，同时降低 routine task value，也可能增加 system/operator/verification skill premium。
 
@@ -64,27 +81,36 @@ AI 可以提高 high-skill worker leverage，同时降低 routine task value，�
 
 劳动结果更可能是结构分化，而不是所有 knowledge workers 工资同步下降。
 
-## 8. Physical AI 会形成第二波但更慢
+## 9. Physical AI 的劳动传导通常更慢、更资本密集
 
 warehouse、manufacturing、logistics、inspection、maintenance 等 physical tasks 的自动化还要跨过 hardware cost、reliability、safety、maintenance 与 regulation。
 
 因此 Physical AI 的 labor translation 通常比纯 digital workflow 更慢、更资本密集。
 
-## 9. AI Infrastructure 本身也创造新技能需求
+## 10. AI Infrastructure 本身也创造新技能需求
 
 AI expansion 同时增加 data-center technician、liquid-cooling engineer、power engineer、semiconductor process engineer、advanced-packaging engineer、network engineer、safety/compliance 与 model-infrastructure roles。
 
 所以劳动变化是 reallocation，不是单向“AI 减少工作”。
 
-## 10. 企业组织是否变薄，要看 Review 与 Task Volume
+## 11. 企业组织是否变薄，要看 Review 与 Task Volume
 
 agent-native workflow 可能减少部分 coordination work。
 
 但如果 task volume、exception handling、review 与 compliance 同时增加，headcount 不一定按比例减少。
 
-更有价值的指标是 management layers、span of control、junior/senior ratio、revenue per employee 与 human-review ratio。
+更有价值的指标是：
 
-## 11. 当前判断
+- management layers / span of control；
+- junior / senior ratio；
+- revenue or output per employee；
+- human-review ratio；
+- task completion time；
+- exception / escalation rate。
+
+这些变量比“某行业被 AI 替代百分比”更接近真实组织变化。
+
+## 12. 当前判断
 
 截至 2026 年，已有足够证据说明 AI 正在重构任务，但没有足够跨国证据支持一个统一“全经济岗位消失率”。
 
