@@ -10,9 +10,9 @@
 
 ILO 与 IMF 的公开研究都要求把 occupational exposure 与实际 adoption、job redesign 和 employment outcome 分开。
 
-ILO 2025 的 refined index 估计全球约**四分之一岗位存在某种 GenAI exposure**，同时强调 transformation 比简单 redundancy 更可能是主要结果。
+ILO 2025 的 refined index 估计全球约**四分之一岗位存在某种 GenAI exposure**，同时强调 transformation 比简单 redundancy 更可能是主要结果。[^1]
 
-IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-economy employment** exposed to AI。
+IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-economy employment** exposed to AI。[^2]
 
 这些都是 occupational / employment exposure，不是“同等比例任务会被自动化”，更不是同等比例岗位消失。
 
@@ -94,7 +94,7 @@ agent-native workflow 可能减少部分 coordination work。
 
 任何把 exposure percentage 直接转成 unemployment prediction 的做法，都跳过了最重要的企业采用与责任转换层。
 
-## 关键公开来源
+## References
 
-- ILO Working Paper 140, Generative AI and Jobs: A Refined Global Index of Occupational Exposure: https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
-- IMF Staff Discussion Note, Gen-AI: Artificial Intelligence and the Future of Work: https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+[^1]: International Labour Organization, “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, 2025, https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
+[^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
