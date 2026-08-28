@@ -4,7 +4,7 @@
 
 Once rack-scale AI systems reach roughly **120 kW/rack**, electricity is no longer merely an operating expense. It becomes a constraint on whether systems can be deployed and utilized on schedule.
 
-NVIDIA's official documentation for GB200/GB300 NVL72-class racks gives an approximately **120 kW/rack** full-rack power figure. A clearly labeled **D-grade scenario calculation** is therefore:
+NVIDIA's official documentation for GB200/GB300 NVL72-class racks gives an approximately **120 kW/rack** full-rack power figure.[^1] A clearly labeled **D-grade scenario calculation** is therefore:
 
 > 500 racks × 120 kW/rack = **60 MW of rack-level full-load power**
 
@@ -24,7 +24,7 @@ A 1 GW PPA cannot be rewritten as "1 GW of AI compute online." A 500 MW developm
 
 ### 3.1 Microsoft / Constellation: restarting an existing ~835 MW nuclear asset
 
-Microsoft and Constellation entered a **20-year PPA** supporting the restart of the former Three Mile Island Unit 1 as the Crane Clean Energy Center, with an approximately **835 MW** public capacity anchor.
+Microsoft and Constellation entered a **20-year PPA** supporting the restart of the former Three Mile Island Unit 1 as the Crane Clean Energy Center, with an approximately **835 MW** public capacity anchor.[^2]
 
 The case shows how hyperscaler demand can support a large existing power asset returning to service.
 
@@ -36,7 +36,7 @@ Constellation's official release states that the restart requires significant in
 
 The Talen/AWS revised PPA has a full contract quantity of **up to 1,920 MW** and runs through 2042.
 
-Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. An earlier 2025 10-K had stated that **full transition was expected in spring 2027**.
+Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. An earlier 2025 10-K had stated that **full transition was expected in spring 2027**.[^3][^4]
 
 April 2026 can therefore be used as the current disclosed status of the revised-PPA transition. It **cannot** be interpreted as proof that every physical conversion, transmission modification, and full-delivery step had already been completed.
 
@@ -46,7 +46,7 @@ This case shows that regulation and commercial structure can change the delivery
 
 ### 3.3 Google / Kairos: 50 MWe in 2030 and up to 500 MWe by 2035
 
-The Google/Kairos public timeline is much longer: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet of **up to 500 MWe by 2035**.
+The Google/Kairos public timeline is much longer: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet of **up to 500 MWe by 2035**.[^5]
 
 This is better understood as a long-duration supply option, industrial-learning path, and capacity hedge than as spot power that can be called on in 2026–2028.
 
@@ -127,12 +127,11 @@ As of August 2026, public evidence supports a narrower conclusion:
 
 > **Power has joined HBM and advanced packaging as a core physical constraint, but the evidence is not yet sufficient to show that power alone dominates the entire AI-infrastructure expansion rate.**
 
-## Key public sources
+## References
 
-- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Constellation / Microsoft Crane restart — 20-year PPA, ~835 MW: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- NRC — Crane / former Three Mile Island Unit 1 regulatory information: https://www.nrc.gov/info-finder/reactors/ccec
-- Talen 2026 Q2 10-Q — revised AWS PPA transition occurred in April 2026; up to 1,920 MW: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K — full transition expected spring 2027: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
-- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
-- Berkeley Lab, Queued Up 2026 — end-2025 active queue ~2,061 GW; end-2023 peak near 2,600 GW: https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
+[^1]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^2]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition and up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
+[^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
