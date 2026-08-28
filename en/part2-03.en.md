@@ -186,3 +186,8 @@ The correct macro picture is:
 > **process is the entry ticket, packaging is a quantity gate, and HBM is a manufacturing-input multiplier.**
 
 The shortest of the three determines how many complete frontier systems can actually leave the line.
+
+## Key public sources for this essay
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
