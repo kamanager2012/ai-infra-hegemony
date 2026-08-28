@@ -20,13 +20,44 @@ smartphone 与部分 consumer computing 更容易形成完整国内链条，因�
 
 TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**，而 HPC 为 **58%**。这说明消费计算仍是重要市场，但 frontier AI 与 smartphone 已经在同一先进制造体系中竞争不同资源。
 
+### 2.1 “只有华为能规模量产国产手机 SoC”已经不符合 2026 的公开数据
+
+Counterpoint Research 的 2026Q1 global smartphone AP-SoC shipment share 显示：
+
+- UNISOC：**14%**；
+- HiSilicon：**4%**。
+
+因此，如果“规模”按实际 smartphone SoC shipment 口径衡量，国产供应并不只有华为一家。
+
+Huawei / HiSilicon 的独特优势更适合描述为：**高端自有终端 + 自研 SoC + 自有软件/生态的 vertical closed loop 更成熟**，而不是“唯一有量”。
+
+Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**，新一代 O3 继续采用 TSMC 3 nm，首发产品预计 200k–300k units。
+
+这意味着“Xiaomi 只有20–30万片边角料、只是品牌秀”不能作为事实层。更准确的判断是：
+
+> **Xiaomi 已经形成真实量产，但 multi-generation scale、modem/system integration、foundry dependency 与长期 shipment share 仍需要继续验证。**
+
+UNISOC 则代表另一种 commercial loop：它在大众/入门与 entry-5G 市场拥有更大的 shipment scale，但不能据此外推为 premium flagship system equivalence。
+
 因此，消费端的平行供给能力应被评价为一个独立层级，而不是拿来证明或否定 frontier AI closure。
 
 ## 3. 第二层：PC / workstation 的难点更多在软件兼容与性能规模
 
 PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专业软件、driver/tooling、desktop ecosystem 与 developer compatibility。硬件存在替代并不等于使用体验、性能和软件栈已经等价。
 
-所以这一层最准确的描述是：**替代能力可以扩大，但闭环程度取决于软件兼容、专业 workload 与长期 developer support。**
+“国产 PC CPU/GPU 是一片空白”同样过度。
+
+龙芯当前公开产品线包含面向 desktop/general-purpose 的 3A6000、3B6000 等 CPU；Moore Threads 公开销售 MTT S80 gaming GPU，并持续维护 Windows/DirectX 兼容与 driver stack。
+
+这些事实证明**产品存在且能形成真实 PC/graphics deployment**。
+
+但它们不能证明：
+
+- mainstream consumer-PC shipment share 已接近 Intel/AMD/NVIDIA；
+- professional software / game compatibility 已达到同等级覆盖；
+- performance/watt、driver maturity、developer ecosystem 与 supply scale 已全面等价。
+
+所以这一层最准确的描述是：**不是“空白”，而是存在产品与自主生态，但主流规模、兼容性和系统经济性仍是闭环门槛。**
 
 ## 4. 第三层：Frontier AI 是系统级门槛
 
@@ -103,7 +134,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 关于“2027 产能翻倍”“三期明确达到某个月产量”的说法，如果只来自其他公司的招股书转引、媒体或供应链估算，只能放在 B/C 级背景，不进入本章 A 级事实层。
 
-### 6.2 HDD 不能被 NAND 的国产进展掩盖
+### 6.3 HDD 不能被 NAND 的国产进展掩盖
 
 AI data-center storage 还包含 nearline HDD。公开产业研究显示，全球 nearline / mass-capacity HDD 仍高度集中于 Seagate、Western Digital 与 Toshiba。
 
@@ -195,6 +226,11 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 - SSE listing notice — listed 2026-07-27, ticker 688825: https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
 - TrendForce, 2026-06-12 — 1Q26 foundry revenue shares: https://www.trendforce.com/presscenter/news/20260612-13095.html
 - TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- Counterpoint 2026Q1 smartphone AP-SoC shipment share — UNISOC 14%, HiSilicon 4%: https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly
+- Xinhua 2025-05-22 — Xiaomi XRing O1 entered mass production: https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
+- Reuters 2026-08-24 — XRing O1 powered >1M devices; O3 uses TSMC 3 nm with projected 200k–300k initial device shipments: https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+- Loongson official CPU product line — desktop/general-purpose products: https://www.loongson.cn/product/list?id=4
+- Moore Threads MTT S80 official product page: https://en.mthreads.com/product/S80
 - NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
 - CXMT 2025 prospectus / Omdia — 2025Q2 DRAM revenue share 3.97%, global #4: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
