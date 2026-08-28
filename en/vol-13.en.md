@@ -70,7 +70,7 @@ The contract therefore represents a power-supply strategy, not a completed data-
 
 ## 4. Talen / AWS: a long-duration arrangement expandable to 1.92 GW
 
-The revised Talen/AWS PPA can expand to as much as **1.92 GW**.
+The revised Talen/AWS PPA can expand to as much as **1.92 GW**. Source: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 
 Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. Its earlier 2025 10-K had described the process as beginning in spring 2026 with **full transition expected in spring 2027**. April 2026 should therefore be treated as a revised-PPA transition status update, not as proof that every physical conversion and power-delivery step was complete.
 
@@ -163,7 +163,7 @@ More chips do not guarantee more usable compute if power-on becomes the next gat
 
 The binding constraint for an AI data center is often a local node rather than a national energy total.
 
-A country can have ample installed generation while a specific campus still lacks **100 MW-class** deliverable power on the required schedule. Time-to-power must be verified project by project through interconnection, substation, transmission, permitting, and construction milestones.
+A country can have ample installed generation while a specific campus still lacks deliverable power on the required schedule. For example, a **100 MW-class** requirement still has to be verified project by project through interconnection, substation, transmission, permitting, and construction milestones.
 
 The critical variables are local:
 
