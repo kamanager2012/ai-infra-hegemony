@@ -223,5 +223,6 @@ Those three thresholds will do more than any fixed calendar to determine whether
 - NVIDIA FY27 Q2 10-Q — manufacturing, supply, and capacity commitments US$279B: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2026 Q2 10-Q — revised AWS PPA up to 1,920 MW; transition occurred in April 2026: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K — full transition expected in spring 2027; delivery ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
