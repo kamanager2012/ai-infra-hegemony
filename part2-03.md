@@ -79,3 +79,8 @@ HBM的宏观后果不依赖把约3×当作恒定常数。传统 DRAM 下行时�
 ## 5. 研究边界与未确认事项
 
 台积电 CoWoS 月产能、全年官方片数、按客户封装片数：年报和法说都没有。一片 CoWoS 出几颗 B200：没有官方数，5.39 是测算。魏哲家股东会逐字 “sold out through 2026”：打开的官方股东会稿里未见可核验的一手披露。2nm / N2P / A16 的营收占比：表里没有。报价 10,000～40,000 美元、单厂 200～250 亿美元、High-NA 3.8 亿美元：早期情景数字，本文未在年报里核对，不升格。Vera Rubin「独占」是历史压力测试倾向，不是已签署独家合同。卖方 100 万片、59.5～63 万片、9.3 万或 14 万片月：不是台积电分项，两家还不一致。HBM约3× wafer supply已有Micron一手披露；12层48.6%复合良率公式不是原厂官方，不使用。1200 对 400：示意图。海力士 FY25 不拆 DRAM / NAND 金额，不报 HBM 全年 bit。长鑫招股书全文 0 处 HBM，35 万片/月不是公告，本文不借用。本文读了台积电 2025 年报网站与股东信、4Q25 管理报告口径、4Q24 / 4Q25 / 2Q26 法说转述、TrendForce 两篇官稿、海力士 FY25 新闻稿；没有声称审计过 20-F 每一页，也没有打开摩根士丹利原 PDF。
+
+## 本篇关键公开来源
+
+- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
