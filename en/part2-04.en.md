@@ -27,7 +27,7 @@ The four major clouds use different:
 - lease treatment;
 - CapEx guidance conventions.
 
-On a mixed-year 2025 basis, comparable equipment/PPE purchases reached roughly **$354B** in aggregate scale.
+On a mixed-year 2025 basis, comparable equipment/PPE purchases reached roughly **US$354B** in aggregate scale.
 
 By August 2026, company-specific public indicators include:
 
@@ -128,7 +128,7 @@ DeepSeek-V3 provides a first-party technical anchor:
 Using the report-side rental assumption of **$2 per GPU-hour** produces approximately:
 
 ```text
-2.788M × $2 ≈ $5.576M
+2.788M × US$2 ≈ US$5.576M
 ```
 
 This is not the complete R&D cost.
@@ -222,4 +222,9 @@ The long-run winner is the system that keeps **cost per effective unit of intell
 
 ## Key public sources for this essay
 
+- Microsoft FY26 Q4 Investor Relations / earnings call, July 29, 2026 — source for the revised calendar-2026 reported CapEx expectation and lease-classification discussion: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+- Alphabet Q2 2026 SEC Exhibit 99.1 — Q2 actuals: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Alphabet Q2 earnings-call guidance **US$195–205B** — Reuters report of CFO guidance, not a statutory actual: https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/
+- Meta Q2 2026 SEC Exhibit 99.1 — guidance **US$130–145B**, including finance-lease principal: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+- Amazon Q2 2026 10-Q — TTM PPE net purchases actual **US$169.007B**: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
 - DeepSeek-V3 Technical Report — 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
