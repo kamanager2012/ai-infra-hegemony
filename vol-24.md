@@ -28,7 +28,7 @@ TSMC 2026 Q2：
 - advanced packaging + testing 2024 revenue share：约 8%
 - 2025：略高于 10%
 
-TSMC CFO 也明确表示，公司不会把 advanced packaging 进一步按 CoWoS 等类别详细拆分。
+TSMC 当前公开年报与法说材料主要以 **advanced packaging / testing 聚合口径**披露，没有提供可用于本报告的 CoWoS customer-level allocation 或完整 CoWoS 分项收入表。因此，本报告不能把聚合 advanced-packaging 数据进一步硬拆成 CoWoS 客户份额。
 
 因此：
 
@@ -146,7 +146,7 @@ Google、AWS、Microsoft、Meta 的新一代 accelerator system 仍然大量采�
 
 advanced packaging 可以是 supply bottleneck，但不一定是最大利润池。
 
-TSMC 自己表示 advanced packaging margin 仍低于公司平均。
+TSMC 2Q24 法说的更准确表述是：advanced packaging gross margin **过去显著低于公司平均，正在接近 corporate average；当时尚未达到**。这是一条带明确时点的管理层表述，不能永久化成“advanced packaging margin 始终低于公司平均”。来源：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf 。
 
 相比之下，system platform 可以通过：
 
