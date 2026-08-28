@@ -22,11 +22,11 @@ This mirrors the industrial shift from competition around one chip toward compet
 
 The Stanford HAI 2026 AI Index Education chapter provides several clear signals:[^1]
 
-- **4 out of 5** U.S. high-school and college students use AI for schoolwork;
-- only about half of middle/high schools have an AI policy;
-- **just 6% of teachers say those policies are clear**;
-- U.S. four-year university CS undergraduate enrollment fell **11% from 2024 to 2025**;
-- AI software-related master's graduates grew **17% from 2023 to 2024**.
+- **4 out of 5** U.S. high-school and college students use AI for schoolwork;[^1]
+- only about half of middle/high schools have an AI policy;[^1]
+- **just 6% of teachers say those policies are clear**;[^1]
+- U.S. four-year university CS undergraduate enrollment fell **11% from 2024 to 2025**;[^1]
+- AI software-related master's graduates grew **17% from 2023 to 2024**.[^1]
 
 The pattern is:
 
