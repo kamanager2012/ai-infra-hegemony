@@ -21,12 +21,12 @@ TSMC 2025 年公开数据：
 
 - 12-inch equivalent wafer shipments：约 **15.0M**
 - annual capacity：超过 **17M wafers**
-- 3 nm：晶圆收入 **24%**
+- 3 nm：wafer revenue **24%**
 - 5 nm：**36%**
 - 7 nm：**14%**
 - ≤7 nm：**74%**
-- HPC platform：**58%**，同比 +48%
-- Smartphone：**29%**
+- HPC platform：**58%**，platform revenue 同比 +48%
+- Smartphone platform：**29%**，platform revenue 同比 +11%
 - largest customer：**19% of annual revenue**
 - second-largest customer：**17%**
 - advanced packaging + testing：2024 年约 **8%**，2025 年略高于 **10%**
@@ -43,11 +43,11 @@ TSMC 2025 年公开数据：
 
 因此，“TSMC 已成为某一家客户的专属 fab”不符合公开事实。
 
-## 3. 客户收入份额不能换算成 wafer share
+## 3. 客户收入份额既不能换算成 wafer share，也不能拼成虚假跨年轨迹
 
-TSMC 的 largest customer 19% 是**年度收入份额**。
+TSMC 的 2025 largest customer **19%** 与 second-largest customer **17%** 都是**年度收入排名口径**。
 
-它不能直接换算成：
+它们不能直接换算成：
 
 - N2 wafer share；
 - 3 nm wafer share；
@@ -55,11 +55,18 @@ TSMC 的 largest customer 19% 是**年度收入份额**。
 - HPC wafer share；
 - physical wafer count。
 
-原因很简单：不同产品的 node、die size、wafer ASP、packaging intensity 都不同。
+同样重要的是，**annual largest / second-largest ranking 不能被当成同一个客户的跨年序列**。TSMC 另一张匿名客户表才提供可直接跨年比较的数据：
+
+- Customer A：2024→2025 **12%→19%**；
+- Customer B：2024→2025 **22%→17%**。
+
+因此，不能把某一年的 “largest customer 22%” 与下一年的 Customer A 19% 拼接后解释成同一个客户“份额下降”。两套披露回答不同问题，必须分开。
+
+原因也包括：不同产品的 node、die size、wafer ASP、packaging intensity 都不同。
 
 同样，HPC revenue share 58% 也不能换算成 58% 的 wafer shipments。
 
-报告因此采用 **AHICR（Advanced HPC Incremental Capacity Capture Ratio）** 来讨论未来竞争：关注下一批新增先进 AI/HPC 资源中，哪些买方获得了更高比例，而不是拿年度历史收入份额替代未来 allocation。
+报告因此采用 **AHICR（Advanced/HPC Incremental Capacity Capture Ratio）** 来讨论未来竞争：关注下一批新增先进 AI/HPC 资源中，哪些买方获得了更高比例，而不是拿年度历史收入份额替代未来 allocation。
 
 ## 4. Advanced packaging 已经成为公开确认的瓶颈
 
@@ -169,7 +176,6 @@ TSMC 的战略地位来自三个同时存在的事实：
 
 ## 本篇关键公开来源
 
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- TSMC 2025 consolidated report（Customer A/B）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TSMC 2025 20-F（annual largest / second-largest customer ranking）: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report（Customer A/B 2024→2025）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
