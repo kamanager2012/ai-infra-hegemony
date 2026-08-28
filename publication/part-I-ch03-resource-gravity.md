@@ -108,7 +108,7 @@ PC 还承受第二条链：server/HBM demand 改变 DRAM product mix，进而影
 
 ## 6. General Server：RDIMM 已进入同一高价值 memory pool
 
-general server 不一定使用 HBM，但大量使用 DDR5 RDIMM。TrendForce 把 RDIMM 与 HBM 一起纳入 2026 DRAM bit-supply 前向结构，说明 traditional server memory 并不是完全独立的 commodity river。
+general server 不一定使用 HBM，但大量使用 DDR5 RDIMM。TrendForce 把 RDIMM 与 HBM 一起纳入 2026 DRAM bit-supply 前向结构。[^4] 这说明 traditional server memory 并不是完全独立的 commodity river。
 
 所以 AI/server infrastructure expansion 可以通过 memory allocation 间接提高 general-server cost，即使服务器本身没有使用 frontier accelerator。
 
