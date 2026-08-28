@@ -4,7 +4,7 @@ Chinese source edition: [vol-35.md](../vol-35.md)
 
 > **Publication role:** [Volume 13](vol-13.en.md) explains why power becomes an independent AI-infrastructure quota. This volume is the project-evidence companion, comparing Crane, Talen/AWS, and Kairos/Google across Contracted, Permitted, Energized, and Utilized states.
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume tracks power through five states: Announced, Contracted, Permitted, Energized, and Utilized. Nameplate or contracted capacity is never treated as live AI load.
+> Retrieval and revision cutoff: **2026-08-28**. This volume tracks power through five states: Announced, Contracted, Permitted, Energized, and Utilized. Nameplate or contracted capacity is never treated as live AI load.
 
 ## 1. Power must be analyzed by project state
 
