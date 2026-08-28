@@ -42,8 +42,9 @@ AI infrastructure 的关键变量变化很快：
 
 - 2026-01-25：**US$95.2B**
 - 2026-04-26：**US$119B**
+- 2026-07-26：**US$279B**
 
-口径：manufacturing, supply, and capacity commitments；不是单一供应商订单。
+口径：manufacturing, supply, and capacity commitments；Q2 10-Q 说明最新承诺主要关联 memory 与 manufacturing facilities，不是单一供应商订单。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
 
 供应承诺是前向资源锁定的重要 proxy，但不能拆成未披露的供应商金额。
 
