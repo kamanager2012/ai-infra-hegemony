@@ -78,7 +78,7 @@ Key public anchors include:
 - Smartphone platform: **29%** of revenue, with platform revenue up **11% YoY**;
 - 2025 largest customer: **19% of annual revenue**;
 - 2025 second-largest customer: **17%**;
-- advanced packaging: slightly above **10%**; do not broaden this into “packaging + testing” of revenue.
+- 2025 advanced packaging: slightly above **10%** under the company-corrected 4Q25 wording; the 2024 >8% disclosure used the distinct label “advanced packaging and testing.”
 
 **Customer-scope hard boundary:** annual largest / second-largest rankings are not a same-customer time series. A separate anonymized table provides the directly comparable 2024→2025 series: Customer A **12%→19%**, Customer B **22%→17%**. The two disclosure formats must not be stitched together into one customer's longitudinal trajectory.
 
@@ -340,3 +340,6 @@ It is that it keeps the report **continuously calibratable to reality**.
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q — up to 1,920 MW; full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 - Kairos / Google — 50 MWe in 2030; up to 500 MWe by 2035: https://www.kairospower.com/google
+
+- TSMC 4Q24 Transcript — 2024 advanced packaging and testing >8%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript — 2025 advanced packaging slightly above 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
