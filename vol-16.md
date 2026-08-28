@@ -118,13 +118,13 @@ LPDDR(R) = 17 TB × R
 
 ## 6. HBM wafer-supply trade ratio
 
-Micron FY24 Q3 prepared remarks 披露，**industry-wide**，HBM3E 在 same technology node、生产 same number of bits 时约需要 DDR5 **3× wafer supply**。
+Micron FY24 Q2 prepared remarks 披露，**industry-wide**，HBM3E 在 same technology node、生产 same number of bits 时约需要 DDR5 **3× wafer supply**。
 
 因此，若 HBM bit demand 上升，DRAM wafer pressure 会被 trade ratio 放大。
 
 该比率属于 **A 级一手公司披露的 industry-wide estimate / observation**，不是 Micron 单厂固定制造常数，也不能机械外推到所有未来 HBM generation。
 
-公开来源：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+公开来源：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 
 ## 7. Packaging geometry stress test
 
@@ -240,7 +240,7 @@ AI infrastructure 可以量化，但必须保持维度一致。
 - DeepSeek-V3 Technical Report（pre-training 2.664M；full training 2.788M H800 GPU-hours）：https://arxiv.org/abs/2412.19437
 - DeepSeek-V2（93.3% KV-cache reduction；5.76× maximum generation throughput，relative to DeepSeek 67B）：https://github.com/deepseek-ai/DeepSeek-V2
 - NVIDIA GB200 NVL72 product page（72 GPU、36 Grace、13.4 TB HBM3E、17 TB LPDDR5X）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- Micron FY24 Q3 event page：https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
-- Micron FY24 Q3 prepared remarks（industry-wide HBM3E ≈ 3× DDR5 wafer supply at same node / same bits）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 event page：https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 prepared remarks（industry-wide HBM3E ≈ 3× DDR5 wafer supply at same node / same bits）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA FY26 10-K（2026-01-25 supply/capacity commitments baseline）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - NVIDIA FY27 Q2 10-Q（US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
