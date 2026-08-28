@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-38.md](../vol-38.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume separates technical task exposure from actual adoption, workflow redesign, responsibility constraints, and final employment or wage outcomes. Exposure is not unemployment.
+> Retrieval and revision cutoff: **2026-08-28**. This volume separates technical task exposure from actual adoption, workflow redesign, responsibility constraints, and final employment or wage outcomes. Exposure is not unemployment.
 
 ## 1. AI changes tasks before it changes job titles
 
