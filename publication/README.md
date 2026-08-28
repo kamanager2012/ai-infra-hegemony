@@ -1,8 +1,8 @@
 # Publication Layer · 出版层总目录
 
-> 这里存放面向连续阅读的最终出版章节。研究层仍由根目录 `vol-01`—`vol-40` 与 `part2-01`—`part2-08` 提供事实回溯、独立修订和 Git diff。
+> 这里存放面向连续阅读的出版版正文。**当前状态：Publication Integrated / Publication QA in progress；尚未标记为 Publication Ready。** 32/32 章存在只代表结构整合完成，不代表引文、图表、版权、版式与导出 QA 已全部通过。
 
-完整结构见 [《出版版结构》](../出版结构.md)。
+正式封版门禁见 [《出版封版标准》](../出版封版标准.md)；出版前置页见 [Front Matter](00-front-matter.md)；完整结构见 [《出版版结构》](../出版结构.md)。
 
 ## 当前已完成的真实合并章节
 
@@ -47,7 +47,8 @@
 - **Part II — 需求、替代与第二系统栈：9/9。**
 - **Part III — 资本周期、利润池与外部传导：8/8。**
 - **Part IV — 方法、情景、监测与战略：6/6。**
-- **Publication Layer 第一版整合正文：32/32 章已生成。**
+- **Publication Layer：32/32 章已完成结构整合（Publication Integrated）。**
+- **Publication Ready：未通过最终封版门禁；仍在逐章 citation / table / figure / copyright / export QA。**
 - **32/32 章节结构与旧口径机械回归：已通过。**
 - **核心证据深链 QA：已完成第一轮。**
 
