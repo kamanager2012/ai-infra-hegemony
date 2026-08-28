@@ -171,3 +171,8 @@ AI Resource Gravity 的核心不是“AI 需求最大”，而是**AI 订单具�
 - 这种挤压具有**层级性和选择性**，不是“所有芯片都被 AI 抢走”。
 
 未来最重要的观察指标是 Non-AI Residual Capacity 是否继续下降，以及这种下降是否从 memory/packaging 扩散到更多传统终端市场。
+
+## 本卷关键公开来源
+
+- TrendForce, HBM + RDIMM 2026 DRAM bit supply 51% / CSP memory CapEx： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
