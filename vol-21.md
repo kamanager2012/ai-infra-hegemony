@@ -112,6 +112,9 @@ NVIDIA manufacturing, supply, and capacity commitments：
 
 - 2026-01-25：**US$95.2B**
 - 2026-04-26：**US$119B**
+- 2026-07-26：**US$279B**
+
+Q2 10-Q 说明，最新承诺主要关联 memory 与 manufacturing facilities；仍不能拆成单一 supplier amount。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 它说明 system vendor 已经提前将未来现金需求转化为：
 
