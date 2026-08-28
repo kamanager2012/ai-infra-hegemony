@@ -2,7 +2,7 @@
 
 **Repository:** `kamanager2012/ai-infra-hegemony`  
 **Target:** first public publication of *The Age of AI Infrastructure Hegemony*  
-**Research retrieval/revision cutoff:** 2026-08-27  
+**Research retrieval/revision cutoff:** 2026-08-28  
 **Publication QA state:** 2026-08-28
 
 This checklist separates research completion from publication operations. A checked research item means the underlying content has been reviewed; it does not imply that the repository has already been made public.
@@ -90,7 +90,7 @@ These values are ready for the final GitHub UI step.
 > - Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope.
 > - Unified F→H→M→S→X framework and A/B/C/D evidence grading.
 > - English 40 + 8 corpus completed repository-wide publication QA and title/link regression.
-> - Research retrieval/revision cutoff: 2026-08-27.
+> - Research retrieval/revision cutoff: 2026-08-28.
 > - Original report text is licensed under CC BY-NC-ND 4.0.
 >
 > This research is not an audit opinion, investment recommendation, or legal opinion.
