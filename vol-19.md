@@ -180,3 +180,7 @@ Crane、Talen/AWS、Kairos 等项目应持续按成熟度更新，而不能在�
 3. **AI workload monetization 是否跨过覆盖资本成本的临界点。**
 
 这三个临界点决定 2026–2036 最终走向 S1、S2、S3 还是 S4。
+
+## 本卷关键公开来源
+
+- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
