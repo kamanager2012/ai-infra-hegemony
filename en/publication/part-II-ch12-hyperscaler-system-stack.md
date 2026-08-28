@@ -43,7 +43,7 @@ That produces a powerful learning loop:
 
 Google's TPU path spans multiple generations.
 
-Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with XLA/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1]
+Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with XLA/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1][^1]
 
 Google's competitive unit is therefore:
 
@@ -55,9 +55,9 @@ If this system continuously lowers total cost of ownership for selected training
 
 AWS Trainium has likewise moved from accelerator toward system.
 
-Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.[^2]
+Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.[^2][^2]
 
-AWS also benefits from long-duration anchor demand. Anthropic has publicly deepened its compute relationship with AWS, giving Trainium a large workload base on which to iterate system economics.[^3]
+AWS also benefits from long-duration anchor demand. Anthropic has publicly deepened its compute relationship with AWS, giving Trainium a large workload base on which to iterate system economics.[^3][^3]
 
 But "having an anchor workload" is not the same as replacing NVIDIA's external ecosystem.
 
@@ -130,7 +130,7 @@ Cloud custom silicon is a form of **private cost reduction**: Google, AWS, Micro
 
 The algorithmic / architectural efficiency represented by DeepSeek is closer to **public cost reduction**. If an architecture materially lowers compute or memory requirements for training or serving, other developers can adopt similar ideas and alter the market-wide unit cost of intelligence.
 
-The auditable DeepSeek-V3 first-party anchors are:[^6]
+The auditable DeepSeek-V3 first-party anchors are:[^6][^6]
 
 - 671B total parameters;
 - 37B activated parameters;
@@ -140,7 +140,7 @@ The auditable DeepSeek-V3 first-party anchors are:[^6]
 
 Using the paper's US$2/GPU-hour assumption, **US$5.576M corresponds to the full formal-training compute conversion**, not full R&D cost.
 
-A separate DeepSeek-V2 result reports **93.3% KV-cache reduction** and **5.76× maximum generation throughput** relative to DeepSeek 67B.[^7]
+A separate DeepSeek-V2 result reports **93.3% KV-cache reduction** and **5.76× maximum generation throughput** relative to DeepSeek 67B.[^7][^7]
 
 V2 and V3 must not be combined into a single model result.
 
