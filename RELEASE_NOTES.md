@@ -1,4 +1,18 @@
-# Release Notes — 2026-08-28
+# Release Notes
+
+## 2026-08-29 finalization closeout
+
+- Research retrieval/revision cutoff remains **2026-08-28**; this section records publication-QA work completed on **2026-08-29**.
+- Strict every-number source coverage closed at **96/96 research files / 1,052 candidates / 0 unresolved** and **64/64 formal publication chapters / 529 candidates / 0 unresolved**.
+- Final critical-link sweep closed at **25/25 reachable under policy**: **24/25** primary URLs directly reachable, with the declared official TSMC 2026 Q2 Results fallback used for the unstable encrypted 2Q26 transcript deep link.
+- Current formal Publication Layer rights/quotation audit closed: **78/78 files**, **0 embedded third-party media/iframe**, **0 >25-word inline external quotations**; all >25-word Markdown blockquotes reviewed were report-authored analytical callouts.
+- Publication editorial hygiene sweep closed at **78/78 files / 0 release-marker or malformed-unit issues**.
+- Front matter now explicitly states **Pre-release Publication QA Edition**, target **v1.0.0 (not yet released)**, and defers the formal publication date until final proof/public release.
+- Added `scripts/proof_publication.py`, `scripts/check-publication-editorial.py`, `scripts/run-release-qa.sh`, and fresh `.github/workflows/release-qa.yml`.
+- GitHub Actions remains an external execution blocker: the fresh `Release QA v1` run `33192383757` registered successfully but failed before runner assignment with `steps: [] / runner_id: 0`; its job-log blob does not exist. The repository itself is private, non-archived, on `main`, and the connected GitHub app has admin/push access.
+- Remaining release gates are verified PDF/EPUB build + machine proof, final human proofreading/lower-risk semantic sign-off, author COI confirmation, final publication-date lock, and public-release operations.
+
+## 2026-08-28 publication and evidence QA
 
 > Publication QA and research retrieval/revision cutoff updated **2026-08-28**. The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
 
