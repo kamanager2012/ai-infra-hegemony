@@ -28,6 +28,7 @@ This checklist separates research completion from publication operations. A chec
 - [x] Central stale-scope regression is clear for the known 9622.1 conversion error, current-only US$119B wording, outdated four-cloud guidance, 51% forecast-as-actual wording, and stale 100 kW rack framing.
 - [x] Complete deterministic **every-number source-coverage audit** across the bilingual research layer: Chinese **48/48** + English **48/48**. Final strict pass: **1,052 unit-bearing numeric candidates / 0 unresolved**.
 - [ ] Complete lower-risk **semantic claim-by-claim editorial verification** where required. The strict gate proves traceability / model-boundary identity; high-risk claims are separately semantically verified in the bilingual claim ledgers. Do not describe structural source coverage as proof that every lower-risk source supports every sentence verbatim.
+- [x] Complete formal Publication Layer **editorial hygiene** sweep: **78/78 Markdown files / 0 release-marker or malformed-unit issues** under `scripts/check-publication-editorial.py` (TODO/TBD/FIXME/PLACEHOLDER, 待补/待核/草稿/内部稿等残留，以及 Kw/KWh/Mhz/Ghz 等错误单位大小写).
 
 ## 2. Publication metadata
 
@@ -44,6 +45,7 @@ This checklist separates research completion from publication operations. A chec
 - [x] Replace the previous license with the standard `CC-BY-NC-ND-4.0` license before changing repository visibility to public.
 - [x] Ensure `LICENSE`, README files, and `CITATION.cff` all declare `CC-BY-NC-ND-4.0` consistently.
 - [x] Confirm treatment of quotations, third-party figures, and source excerpts separately from original report text.
+- [x] Final current-Publication-Layer rights/quotation audit: **78/78 formal publication files** checked; **0 embedded third-party media/iframe**, **0 >25-word inline quoted external passages**; every >25-word Markdown blockquote reviewed was report-authored analytical prose. Any future third-party visual or long reproduced quotation reopens this gate.
 - [x] Confirm that the selected standard license prohibits commercial use and sharing derivative/adapted material. Note: it still permits noncommercial sharing of unadapted material under its terms.
 
 **License hard gate passed:** the repository uses the standard SPDX-listed **CC-BY-NC-ND-4.0** license. Commercial use is prohibited; shared copies must remain unadapted and attributed under the license terms.
@@ -53,6 +55,7 @@ This checklist separates research completion from publication operations. A chec
 - [x] Re-read the remote `LICENSE`, `README.md`, `README.zh-CN.md`, `CITATION.cff`, `CONTRIBUTING.md`, `RELEASE_NOTES.md`, and `en/SHARE.md` after the final licensing commit.
 - [x] Re-run the 40 + 8 English publication regression after the final licensing/release-preparation commit.
 - [x] Verify all root and English index links from the remote repository.
+- [ ] Author-confirm the Funding / Conflict-of-Interest statement in `publication/04-research-transparency.md` / English mirror before public release.
 - [ ] Verify the repository is public only after all hard gates pass.
 - [ ] Create the public GitHub release from the verified release commit.
 - [ ] Publish external launch copy only after the public URL and release tag resolve correctly.
@@ -121,8 +124,8 @@ The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc43
 - [x] High-risk research-claim source coverage: bilingual 48 + 48 required-source regression passed; 32 + 32 verified high-risk ledger records committed.
 - [x] Complete strict **every-number source-coverage** regression beyond the high-risk rule set: bilingual research layer **96/96**, **1,052 candidates / 0 unresolved**; formal Publication Layer **64/64**, **529 candidates / 0 unresolved**.
 - [ ] Complete any remaining lower-risk **semantic** claim-to-source verification required by final editorial sign-off; structural traceability and high-risk semantic verification are complete, but they are not the same assertion.
-- [ ] Obtain a green relative-link CI run after GitHub Actions becomes diagnosable; current Actions runs fail before exposing normal step/log detail.
-- [ ] Obtain green bilingual PDF/EPUB build and proof QA; the first Publication Build run failed before normal step/log detail was exposed.
+- [ ] Obtain a green relative-link CI run after GitHub Actions is re-enabled. GitHub API retry currently returns **403 `Unable to retry disabled workflow`**; the last recorded `links` job ended before execution with `steps: []` and `runner_id: 0`, and later `main` pushes have not created new runs. This is an Actions enablement/platform gate, not a repository-script failure.
+- [ ] Obtain green bilingual PDF/EPUB build and proof QA after GitHub Actions is re-enabled. `Publication Build` now builds both languages, runs structural PDF/EPUB QA, executes `scripts/proof_publication.py`, and uploads proof renders/reports; the workflow cannot currently execute because GitHub reports it disabled.
 - [x] Complete final critical external-link sweep under the curated fallback policy: **25/25** critical evidence items reachable; **24/25** primary URLs directly reachable, with `TSMC-2Q26-TRANSCRIPT` satisfied by the declared official TSMC 2026 Q2 Quarterly Results fallback because the encrypted PDF deep link remains unstable.
 - [ ] Complete final human PDF/EPUB proofread and release operations.
 
