@@ -19,29 +19,38 @@ def fetch(url: str):
         r.read(4096)
         return r.status, r.geturl()
 
+def candidates(item: dict):
+    yield item["url"], item.get("final_url_contains"), "primary"
+    for fallback in item.get("fallback_urls", []):
+        yield fallback["url"], fallback.get("final_url_contains"), "fallback"
+
 def main():
     data = json.loads(MANIFEST.read_text(encoding="utf-8"))
     failures = []
     for item in data["links"]:
         last = None
-        for attempt in range(3):
-            try:
-                status, final_url = fetch(item["url"])
-                if status not in {200, 206}:
-                    raise RuntimeError(f"HTTP {status}")
-                needle = item.get("final_url_contains")
-                if needle and needle not in final_url:
-                    raise RuntimeError(f"redirected to unexpected URL: {final_url}")
-                print(f"PASS {item[\"id\"]}: {status} {final_url}")
-                last = None
+        passed = False
+        for url, needle, route in candidates(item):
+            for attempt in range(3):
+                try:
+                    status, final_url = fetch(url)
+                    if status not in {200, 206}:
+                        raise RuntimeError(f"HTTP {status}")
+                    if needle and needle not in final_url:
+                        raise RuntimeError(f"redirected to unexpected URL: {final_url}")
+                    print(f"PASS {item['id']} via {route}: {status} {final_url}")
+                    last = None
+                    passed = True
+                    break
+                except Exception as exc:
+                    last = exc
+                    if attempt < 2:
+                        time.sleep(2 ** attempt)
+            if passed:
                 break
-            except Exception as exc:
-                last = exc
-                if attempt < 2:
-                    time.sleep(2 ** attempt)
-        if last is not None:
+        if not passed:
             failures.append((item["id"], item["url"], str(last)))
-            print(f"FAIL {item[\"id\"]}: {last}")
+            print(f"FAIL {item['id']}: {last}")
 
     print(f"checked {len(data[\"links\"])} critical external links; failures={len(failures)}")
     if failures:
