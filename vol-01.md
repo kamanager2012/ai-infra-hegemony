@@ -18,13 +18,13 @@ NVIDIA FY26（截至 2026-01-25）官方数据如下：
 
 | 指标 | FY26 |
 |---|---:|
-| Revenue | **$215.938B** |
-| Data Center revenue | **$193.737B** |
+| Revenue | **US$215.938B** |
+| Data Center revenue | **US$193.737B** |
 | GAAP gross margin | **71.1%** |
-| Operating income | **$130.387B** |
-| Net income | **$120.067B** |
-| Free cash flow | **$96.575B** |
-| R&D | **$18.497B** |
+| Operating income | **US$130.387B** |
+| Net income | **US$120.067B** |
+| Non-GAAP free cash flow（NVIDIA 定义） | **US$96.575B** |
+| R&D | **US$18.497B** |
 
 主要来源：
 - SEC CFO commentary: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm
@@ -35,19 +35,19 @@ FY27 Q2（截至 2026-07-26）进一步显示平台盈利能力仍处于高位�
 
 | 指标 | FY27 Q2 |
 |---|---:|
-| Revenue | **$96.221B** |
-| Data Center revenue | **$89.0B** |
+| Revenue | **US$96.221B** |
+| Data Center revenue | **US$89.0B** |
 | GAAP gross margin | **75.0%** |
-| GAAP operating income | **$63.734B** |
-| Net income | **$59.688B** |
+| GAAP operating income | **US$63.734B** |
+| Net income | **US$59.688B** |
 | Vera Rubin | **full production** |
-| FY27 Q3 revenue guidance | **$108.0B ±2%** |
+| FY27 Q3 revenue guidance | **US$108.0B ±2%** |
 
 FY26 的 H20 相关减值并未改变当前平台利润结构。到 FY27 Q2，GAAP gross margin 已回到 75.0%。
 
-更重要的是资源承诺。NVIDIA 供应相关承诺由 FY26 年末的 **$95.2B** 上升至 FY27 Q1 的 **$119.0B**。公司同时披露使用 prepaid manufacturing and capacity agreements，为当前及未来产品锁定制造与产能。
+更重要的是资源承诺。NVIDIA manufacturing, supply, and capacity commitments 由 2026-01-25 的 **US$95.2B** 上升至 2026-04-26 的 **US$119B**。公司同时披露使用 prepaid manufacturing and capacity agreements，为当前及未来产品锁定制造与产能。
 
-需要特别说明的是，公开文件并未将这 $119.0B 拆分至 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此该数字只能说明 NVIDIA 的整体供应与产能承诺规模，不能直接视为任何单一供应商的收入。
+需要特别说明的是，公开文件并未将这 **US$119B** 拆分至 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此该数字只能说明 NVIDIA 的整体供应与产能承诺规模，不能直接视为任何单一供应商的收入。
 
 ### 2.2 TSMC：先进制造与先进封装仍是核心物理约束
 
