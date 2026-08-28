@@ -53,6 +53,8 @@
 - [正式目录](01-table-of-contents.md)
 - [表格目录](02-list-of-tables.md)
 - [缩写与核心术语表](03-abbreviations-and-glossary.md)
+- [研究透明度、局限性与纠错机制](04-research-transparency.md)
+- [竞争集、替代路径与反方证据矩阵](05-competitive-evidence-matrix.md)
 - [Executive Summary — 第1章](part-I-ch01-executive-summary.md)
 - [研究方法与证据架构 — 第27章](part-IV-ch27-research-method.md)
 - [核心证据台账](../核心证据台账.md)
