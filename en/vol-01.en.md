@@ -262,3 +262,10 @@ This volume follows the common evidence system. Company disclosures, institution
 ## Key public sources for this volume
 
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+
+## Key public sources
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report (Customer A/B): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
