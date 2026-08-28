@@ -1,5 +1,7 @@
 # 第二十一卷：AI 基础设施资金流与利润池结构
 
+> **出版定位：**[第十四卷](vol-14.md)负责 Value Capture Map 与各层价值捕获机制；本卷只负责资金流、double counting、资本强度与 upstream commitment。最终连续出版版已合并为[第20章](publication/part-III-ch20-value-capture-map.md)。
+
 ## 1. 资金流不能把同一美元重复记三遍
 
 AI infrastructure 的资金流经常同时出现在：
@@ -249,10 +251,8 @@ AI infrastructure 当前最强的利润池集中在：
 
 ## 本卷关键公开来源
 
-- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-
-## 本篇关键公开来源
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
