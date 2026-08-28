@@ -188,3 +188,7 @@ TSMC 2Q24 法说的更准确表述是：advanced packaging gross margin **过去
 - cloud custom silicon 仍然在竞争相同 scarce upstream resources。
 
 因此，CoWoS 是 AI infrastructure 当前最重要的物理配额之一，但其真实 customer allocation 必须继续保持证据边界。
+
+## 本卷关键公开来源
+
+- TrendForce, 2025 CoWoS demand structure（NVIDIA estimated >60%, B-grade institutional estimate）： https://www.trendforce.com/research/download/RP250314ZJ
