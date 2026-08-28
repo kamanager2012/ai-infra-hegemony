@@ -158,7 +158,7 @@ power 统一使用：
 
 Crane、Talen/AWS、Kairos/Google 等项目都必须按当前 state 更新，不能在合同签署时直接标记为 AI power online。
 
-尤其 Talen 2026 Q2 10-Q 的 April-2026 revised-PPA transition 状态，不等于全部物理转换或 full delivery 已完成；较早 2025 10-K 的 spring-2027 full-transition expectation 与 no-later-than-2032 ramp 仍提供物理时钟背景。
+尤其 Talen 2026 Q2 10-Q 的 April-2026 revised-PPA transition 状态，不等于全部物理转换或 full delivery 已完成；较早 2025 10-K 的 spring-2027 full-transition expectation 与 no-later-than-2032 ramp 仍提供物理时钟背景。[^5]
 
 ## 10. 三个决定未来结构的临界点
 
