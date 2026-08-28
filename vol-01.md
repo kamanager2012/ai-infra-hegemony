@@ -89,7 +89,7 @@ TrendForce 的机构研究进一步显示，2026 年 HBM + RDIMM 约占 DRAM bit
 
 Microsoft、Amazon、Alphabet、Meta 的 CapEx 均处于历史高位，但不同公司的时间窗口和会计科目并不一致。
 
-2025 混年口径下，四家公司设备购置合计约 **$354B** 量级；2026 年 Microsoft、Alphabet、Meta 已给出更高的公开 CapEx 预期或指引，Amazon 的 TTM net PPE 也继续上升。
+2025 混年口径下，四家公司设备购置合计约 **US$354B** 量级；这是本报告基于公开 PPE/equipment-purchase 科目的 **D 级 mixed-window reconstruction / scale anchor**，不是四家公司共同披露的统一 actual。2026 年 Microsoft、Alphabet、Meta 已给出更高的公开 CapEx 预期或指引，Amazon 的 TTM net PPE 也继续上升。
 
 这些数字不能直接等同于“AI hardware CapEx”，原因在于：
 
@@ -277,6 +277,7 @@ Intel 当时的优势主要集中在 CPU、x86 软件兼容和自有制造。
 - Micron FY24 Q2 Prepared Remarks：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Micron FY24 Q2 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Microsoft FY26 Q4 earnings / call：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Alphabet 2026 Q2 SEC Exhibit 99.1（支撑 Q2 actual results）：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Alphabet Q2 earnings-call full-year CapEx guidance US$195–205B（company guidance reported by Reuters）：https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/
 - Meta 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 - Amazon 2026 Q2 Form 10-Q：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
