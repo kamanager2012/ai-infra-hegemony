@@ -1,7 +1,5 @@
 # Part IV · Chapter 29: Core Metrics and Evidence-Monitoring Framework
 
-> **Publication-layer monitoring chapter.** Based primarily on [Volume 31](../vol-31.en.md). This chapter does not create another set of conclusions. It defines which metrics should be read during future updates, how evidence identity should be preserved, and which changes are strong enough to alter the relative weighting of S1–S4.
-
 ## 1. Long-run research has to be designed as an updateable system
 
 Seller economics, CapEx, HBM, packaging, foundry allocation, power, regulation, and system substitution all change quickly.
