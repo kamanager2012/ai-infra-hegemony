@@ -3,13 +3,13 @@
 
 ## 1. HBM 已从 GPU 配件变成系统级资源
 
-在 frontier AI system 中，HBM 同时影响模型容量、batch、context、并发、communication pattern 与 accelerator utilization。GB200 NVL72 官方配置包含 **13.4 TB HBM3E/rack**，说明采购单位上移到 rack scale 后，memory demand 也从“每颗 GPU 多少 GB”上移到“一个部署需要多少 PB”。
+在 frontier AI system 中，HBM 同时影响模型容量、batch、context、并发、communication pattern 与 accelerator utilization。GB200 NVL72 官方配置包含 **13.4 TB HBM3E/rack**，[^1]说明采购单位上移到 rack scale 后，memory demand 也从“每颗 GPU 多少 GB”上移到“一个部署需要多少 PB”。
 
 因此 HBM 的产业影响不只发生在 accelerator BOM，还会传导到 DRAM wafer allocation、cleanroom space、advanced packaging、memory-vendor product mix 与 conventional DRAM residual supply。
 
 ## 2. Micron 的约 3× 是当前最重要的一手物理锚
 
-Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。Micron FY25 10-K 又确认，生产相同比特的 HBM 需要更多 wafers 与 cleanroom space。
+Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^2] Micron FY25 10-K 又确认，生产相同比特的 HBM 需要更多 wafers 与 cleanroom space。[^3]
 
 因此这条证据可以支持：
 
@@ -21,7 +21,7 @@ Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technol
 
 ## 3. 51% 是 2026E DRAM bit-supply 预测，不是 HBM 实绩
 
-TrendForce **预计**，2026 年 **HBM + RDIMM 合计约占 DRAM bit supply 的 51%**。这是一条 B 级机构前向预测，必须同时保留三个边界：
+TrendForce **预计**，2026 年 **HBM + RDIMM 合计约占 DRAM bit supply 的 51%**。[^4]这是一条 B 级机构前向预测，必须同时保留三个边界：
 
 1. 51% 包含 HBM **和 RDIMM**，不能写成“51% DRAM 都是 HBM”；
 2. 它是 **bit supply**，不是 wafer share；
@@ -41,7 +41,7 @@ memory 资源重分配可以写成一条清晰链条：
 
 ## 5. SK hynix 的 FY25 财务显示 HBM 已经改变产品经济性
 
-SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**、Net income **KRW 42.9479T**，且公司披露 HBM revenue 同比超过一倍。
+SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**、Net income **KRW 42.9479T**，且公司披露 HBM revenue 同比超过一倍。[^5]
 
 这些数据不能证明 HBM 单独贡献全部利润，但足以说明高价值 memory product mix 已显著改善 memory-vendor economics。与此同时，conventional server memory demand 仍然重要，这进一步说明 HBM 与 DDR5/RDIMM 并非完全隔离的资本和制造体系。
 
@@ -56,11 +56,23 @@ SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KR
 - generation timing；
 - high-volume manufacturing stability。
 
-公开一手资料不足以支持一张完全同口径、可审计的三厂精确 HBM market-share 表，因此出版层不把媒体或卖方估算升级为公司官方份额。
+公开一手资料不足以支持一张完全同口径、可审计的三厂精确 HBM market-share 表，因此本报告不把媒体或卖方估算升级为公司官方份额。
+
+### 6.1 价格反馈：HBM 的资源虹吸不是无限单向过程
+
+资源重分配存在价格反馈。TrendForce 2026-06-02 的模型估算显示，随着 conventional DRAM 自 2025 年下半年起大幅涨价，**DDR5 64GB RDIMM 在 2026 Q1 的 per-wafer revenue 已超过 HBM**；该机构同时估算 HBM profitability 低于 DDR5 64GB RDIMM。[^6]
+
+这是 B 级机构估算，不是 Samsung、SK hynix 或 Micron 披露的产品级实际毛利率。但它揭示了重要的自我修复机制：
+
+> HBM/AI demand 上升 → conventional DRAM residual supply 收紧 → DDR5/RDIMM price 上升 → conventional DRAM per-wafer economics 改善 → 继续向 HBM 转产的相对激励下降 → memory vendor 重新平衡 product mix。
+
+因此，AI Resource Gravity 不是无限的单向抽水机。长期 allocation 取决于不同产品的风险调整后单位稀缺资源回报、qualification、yield、generation transition 与客户合同结构。
 
 ## 7. Rack-scale 需求只能做情景算术，不能伪装成 shipment
 
 以 GB200 NVL72 **13.4 TB HBM3E/rack** 为产品规格锚，可做数量级压力测试：
+
+**Table 5.1 — GB200 NVL72 rack 数量与 HBM3E 情景需求**
 
 | 情景 rack 数 | HBM3E demand |
 |---:|---:|
@@ -68,6 +80,9 @@ SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KR
 | 10,000 | 134 PB |
 | 30,000 | 402 PB |
 | 50,000 | 670 PB |
+
+**Source:** NVIDIA GB200 NVL72 official specification；本报告情景算术。[^1]  
+**Note:** rack count 为 D 级假设，表中 PB 数值不是实际 shipment 或 consumption。
 
 这些都是 **D 级 scenario demand arithmetic**。NVIDIA 没有披露可直接用于这一乘算的全年 rack shipments，memory vendors 也没有披露与这些 rack 一一对应的 customer-level annual HBM bits，因此不得把 50,000 racks 或 670 PB 写成实际消费量。
 
@@ -111,11 +126,11 @@ HBM 的长期稀缺不是必然。以下变化会显著削弱当前机制：
 
 > **只要 frontier-system bandwidth demand 增长快于 HBM supply elasticity，且每 bit 制造投入仍显著高于 conventional DRAM，HBM 就会继续作为 AI infrastructure 的核心 scarce layer。**
 
-## 关键公开来源
+## References
 
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply at same node / same bits: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- Micron FY25 10-K — HBM requires more wafers / cleanroom space: https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
-- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-- NVIDIA GB200 NVL72 product page — 13.4 TB HBM3E/rack: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^2]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^3]: Micron Technology, FY25 Form 10-K, HBM wafer and cleanroom requirements, U.S. SEC, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+[^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^6]: TrendForce, 2026-06-02, per-wafer revenue comparison for HBM and DDR5 64GB RDIMM, https://www.trendforce.com/presscenter/news/20260602-13074.html
