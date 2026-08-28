@@ -91,6 +91,32 @@ The same prospectus also requires strict separation between project investment a
 
 DDR/LPDDR supply expansion and HBM-class memory closure therefore have to remain separate.
 
+### 6.1 Conventional DRAM / NAND and frontier HBM are different supply-chain thresholds
+
+CXMT's current official product page discloses DDR5 chips up to **8000 Mbps**, with 16Gb/24Gb densities and server/workstation/PC module coverage including RDIMM/MRDIMM.
+
+YMTC officially describes itself as a 3D NAND IDM and lists Gen5 TLC X4-9060/X4-9070 products under Xtacking 4.0, alongside raw NAND, embedded memory, client SSD, and enterprise SSD product paths.
+
+These facts support a narrower conclusion:
+
+> **consumer/general-purpose memory resilience can improve before frontier HBM closure is achieved.**
+
+Front-end manufacturing for conventional DRAM and NAND is not the same physical pool as TSMC leading-edge logic foundry capacity.
+
+But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packaging, and accelerator-integration dependencies. Micron, for example, has publicly disclosed a TSMC partnership for manufacturing HBM4E base logic dies.
+
+"Conventional memory can bypass TSMC logic foundry" and "the frontier AI memory stack is independent of TSMC" are therefore different propositions.
+
+### 6.2 HDD must not be hidden by progress in NAND
+
+AI data-center storage also includes nearline HDD.
+
+Public industry research shows that global nearline / mass-capacity HDD supply remains highly concentrated in Seagate, Western Digital, and Toshiba.
+
+Stronger domestic NAND / SSD capability therefore cannot be rewritten as "the entire storage stack is domestically closed."
+
+AI has also not simply eliminated HDD. Mass-capacity / cold-storage demand remains real, while QLC nearline SSD is accelerating substitution for selected workloads.
+
 ## 7. Foundry revenue share is not frontier-AI capability
 
 TrendForce's 1Q26 foundry revenue-share estimates are approximately:
@@ -199,3 +225,8 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 - TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
+- CXMT official DDR5 product page — up to 8000 Mbps, 16Gb/24Gb, server/workstation/PC modules: https://www.cxmt.com/en/product.html
+- YMTC company profile / products — Gen5 Xtacking 4.0 3D NAND, enterprise/client/embedded storage: https://www.ymtc.com/en/aboutus.html
+- YMTC commercial 3D NAND product portfolio: https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
+- Micron investor material — HBM4E base logic die partnership with TSMC: https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
+- TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
