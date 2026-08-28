@@ -49,29 +49,29 @@ TrendForce 对 2025 CoWoS demand 的研究将 NVIDIA 列为最大需求客户，
 
 正确用法是：**高集中 demand 有现实机构锚，但真实 allocation 仍需等待一手披露。**
 
-## 5. 5.39 CoWoS wafers/rack 是 D 级几何压力测试
+## 5. 5.37 CoWoS wafers/rack 是 D 级几何压力测试
 
-本书曾使用一个数量级模型：72 个 GPU package ÷ 约 13.4 packages/wafer ≈ **5.39 CoWoS wafers/rack**。
+本书曾使用一个数量级模型：72 个 GPU package ÷ 约 13.4 packages/wafer ≈ **5.37 CoWoS wafers/rack**。
 
 其中：
 
 - 72 GPU 来自 NVL72 官方产品规格；
 - ~13.4 packages/wafer 是报告侧 geometry assumption；
-- 5.39 因而属于 **D 级 stress test**。
+- 5.37 因而属于 **D 级 stress test**。
 
 它**不是** TSMC disclosed yield、actual wafer starts、logic-wafer demand 或 customer allocation。
 
 这一边界非常重要，因为 advanced-packaging wafer 与 TSMC 全年 12-inch-equivalent wafer shipments 并不是同一个物理池。
 
-## 6. 为什么不能用全厂 wafer shipments 去除 5.39
+## 6. 为什么不能用全厂 wafer shipments 去除 5.37
 
-TSMC 2025 全年约 **15.0M 12-inch-equivalent wafer shipments** 覆盖 smartphone、HPC、automotive、IoT、mature nodes 等大量前道产品。5.39 则是报告侧对 **CoWoS packaging wafer/rack** 的几何压力测试。
+TSMC 2025 全年约 **15.0M 12-inch-equivalent wafer shipments** 覆盖 smartphone、HPC、automotive、IoT、mature nodes 等大量前道产品。5.37 则是报告侧对 **CoWoS packaging wafer/rack** 的几何压力测试。
 
 所以如下运算没有物理意义：
 
-> 全厂 annual wafer shipments ÷ 5.39 = 可生产 AI racks
+> 全厂 annual wafer shipments ÷ 5.37 = 可生产 AI racks
 
-这会把前道逻辑 wafer pool 与后道 advanced-packaging pool 混为一个分母。由此得到的 80 万柜、83.5 万柜或其他超大柜数，都不能作为系统交付能力事实。
+这会把前道逻辑 wafer pool 与后道 advanced-packaging pool 混为一个分母。由此得到的 80 万柜、量纲错误的超大柜数或其他超大柜数，都不能作为系统交付能力事实。
 
 同样，也不能把前道 logic-wafer/rack 与后道 CoWoS-wafer/rack 两个模型直接相加成“每柜吃多少 TSMC wafers”。它们处在不同制造工序和不同 capacity pool。
 
@@ -139,7 +139,7 @@ frontier AI parallel stack 不能只用 logic node 判断。即使 accelerator d
 - TSMC 已一手确认 advanced-packaging tightness；
 - TrendForce 为 NVIDIA 高 CoWoS demand concentration 提供 B 级机构锚；
 - customer-level allocation 仍未由 TSMC 官方披露；
-- 5.39 wafers/rack 只能作为 D 级 geometry stress test；
+- 5.37 wafers/rack 只能作为 D 级 geometry stress test；
 - custom silicon 仍可能竞争相同 upstream scarce resources。
 
 如果未来 TSMC 不再描述 packaging 为增长约束、交期显著缩短、customer-level allocation 更分散、以及 HBM/packaging supply elasticity 持续上升，本章对 advanced packaging 作为核心 scarce layer 的判断应下调。
