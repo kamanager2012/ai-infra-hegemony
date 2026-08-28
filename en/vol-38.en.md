@@ -24,7 +24,7 @@ The central implication is simple: technical capability does not map directly in
 
 ## 2. Exposure is not unemployment
 
-ILO, IMF, OECD, and related labor research repeatedly distinguish between:
+ILO and IMF research both distinguish **occupational exposure** from actual adoption, job redesign, and final employment outcomes:
 
 - tasks that are technically exposed to AI;
 - firms actually adopting AI;
@@ -235,7 +235,7 @@ Labor policy needs evidence about actual adoption and workflow redesign, not onl
 
 ## 12. Current judgment
 
-AI has entered a period of large-scale **task restructuring**.
+Task restructuring is already observable, but the available cross-country evidence does not establish one economy-wide **large-scale task-restructuring rate**.
 
 The current evidence does not support one universal number for “how many jobs AI will eliminate.”
 
@@ -246,3 +246,9 @@ The more reliable sequence is:
 That translation layer is essential.
 
 Without it, labor analysis mistakes model capability for corporate adoption and technical exposure for realized unemployment.
+
+
+## Key public sources
+
+- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure* (20 May 2025): https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure
+- IMF Staff Discussion Note, *Gen-AI: Artificial Intelligence and the Future of Work* (the roughly 60% figure for advanced economies is employment exposure, not a within-job task-automation rate): https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
