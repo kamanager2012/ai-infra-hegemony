@@ -102,6 +102,7 @@ def values(line: str) -> list[str]:
     line = re.sub(r"\bN\d+\s+wafers?\b", "", line, flags=re.I)
     line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+(?:chips?|systems?)\b", "", line, flags=re.I)
     line = re.sub(r"\b(?:DDR|LPDDR|HBM)\d+[A-Za-z0-9]*\s+wafers?\b", "", line, flags=re.I)
+    line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+racks?\b", "", line, flags=re.I)
     return [m.group(0).strip() for m in STRONG_NUM.finditer(line)]
 
 def norm(value: str) -> str:
