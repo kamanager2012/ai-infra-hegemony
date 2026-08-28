@@ -1,7 +1,5 @@
 # Part I · Chapter 7: From 120 kW Racks to GW-Scale Power Constraints
 
-> **Publication-layer chapter.** Recompiled from [Volume 13](../vol-13.en.md), [Volume 35](../vol-35.en.md), and [Macro Essay 06](../part2-06.en.md). This chapter compresses the power argument into one chain: **rack power density → project state → Time-to-Power → utilization / capital consequences**.
-
 ## 1. Why power has moved from operating cost to infrastructure quota
 
 Once rack-scale AI systems reach roughly **120 kW/rack**, electricity is no longer merely an operating expense. It becomes a constraint on whether systems can be deployed and utilized on schedule.
