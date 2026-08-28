@@ -77,7 +77,9 @@ TSMC 在 4Q24 表示 advanced packaging capacity “very tight”，2026 Q2 又�
 
 NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此同时，835 MW 级核电重启、最高 1.92 GW 的长期 PPA，以及数百 MW 级长期电源开发计划，说明 Time-to-Power、grid connection、substation、firm power 与 permitting 已经进入 AI system delivery 的核心约束集合。[^9]
 
-分析中必须严格区分 **Contracted / Permitted / Energized / Utilized MW**。合同容量不能写成已经上电，更不能写成已经被有效 workload 使用。
+分析中必须严格区分 **Contracted / Secured / Permitted / Construction / Energized / Utilized**。合同或 secured capacity 不能写成已经上电，更不能写成已经被有效 workload 使用。
+
+2026-08-17 的 PORTS-Pike 项目进一步说明，稀缺正在从单纯“电力容量”上移到 **land + power + shell（LPS）** 的组合交付。NVIDIA 披露通过对 SB Energy 提供 credit support 锁定初始 **4.25 IT-GW** 设计容量，OpenAI 为客户，项目计划从 2028 年开始分阶段上线。[^12] 这不是当前 energized load，但它证明 system platform 已开始把资源协调能力延伸到数据中心物理基础设施。
 
 ---
 
@@ -169,6 +171,8 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 
 > **高强度资本扩张仍在持续，但对 utilization 与 monetization 的要求正在明显提高。**
 
+资本来源也在变化。NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立独立 compute financing platforms，目标是**随时间动员超过 US$500B third-party capital**；公司同时明确这些合作仍取决于 final agreements。[^13] 因此，这一数字应作为 capital-mobilization target，而不是已经 funded / deployed 的资本。
+
 这与“全行业资本硬着陆已经发生”是两个不同判断。
 
 ---
@@ -244,4 +248,6 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 [^8]: TSMC, 4Q24 Earnings Conference Transcript, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf ; TSMC, 2Q26 Earnings Conference Transcript, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^9]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center announcement, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google partnership, https://www.kairospower.com/google
 [^10]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^11]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf ; Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80 ; DeepSeek, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437 ; TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^11]: CXMT public offering materials, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf ; Shanghai Stock Exchange, CXMT (688825) listing announcement, trading began 2026-07-27, https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml ; Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80 ; DeepSeek, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437 ; TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^12]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
