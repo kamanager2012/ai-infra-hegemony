@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-40.md](../vol-40.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This closing volume synthesizes the report's established facts, mechanisms, and scenarios. It introduces no new probability system and does not convert unresolved hypotheses into facts.
+> Retrieval and revision cutoff: **2026-08-28**. This closing volume synthesizes the report's established facts, mechanisms, and scenarios. It introduces no new probability system and does not convert unresolved hypotheses into facts.
 
 ## 1. Final judgment of the full report
 
