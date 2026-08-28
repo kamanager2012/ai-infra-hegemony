@@ -154,3 +154,7 @@ Revenue per task > Total cost per task
 因此，算法效率既可能成为 AI infrastructure 的“需求打断器”，也可能成为扩大总需求的“使用量放大器”。
 
 判断哪一种效应占主导，需要观察真实 workload、utilization 与单位任务经济，而不是只看 benchmark。
+
+## 本卷关键公开来源
+
+- DeepSeek-V3 Technical Report（2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
