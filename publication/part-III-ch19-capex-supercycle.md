@@ -1,7 +1,5 @@
 # Part III · 第19章：AI 基础设施 CapEx 超级周期
 
-> **出版层章节。** 以 [vol-08](../vol-08.md) 为主源。资本清算的判据归 Ch24；折旧 useful life 归 Ch22。本章只回答：为什么 AI infrastructure CapEx 仍在扩张、为什么四云数字不能直接相加成“AI hardware CapEx”，以及资本周期何时从扩张转向约束。
-
 ## 1. CapEx 大小不是唯一问题，口径一致性才是第一道门
 
 Microsoft、Amazon、Alphabet、Meta 的 infrastructure spending 已处历史高位，但四家公司财年、PPE、finance lease 与 net purchases 定义并不一致。
