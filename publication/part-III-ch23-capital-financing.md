@@ -116,7 +116,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 所以真正具有战略意义的是对 fab、power、sovereign cloud、compute fund 和 infrastructure project 的直接参与，而不是二手市场股票持仓。
 
-没有官方项目披露时，本书不使用传闻持仓构造“主权资本已经全面入场”的结论。
+没有官方项目披露时，本报告不使用传闻持仓构造“主权资本已经全面入场”的结论。
 
 ## 11. Duration Matching 是融资质量核心
 
