@@ -99,6 +99,28 @@ These values are ready for the final GitHub UI step.
 
 The connected GitHub write tools used in this preparation cycle can update repository files on `main`, but they do not currently expose repository-About/visibility mutation or GitHub Release/tag creation. Those remaining unchecked publication operations must therefore be performed through a GitHub interface that exposes those controls. Do not mark them complete until the public repository and `v1.0.0` release can be remotely verified.
 
+## Independent publication-audit remediation — 2026-08-28
+
+The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc435a1686821fce`. Findings below are tracked against later `main` commits and are not marked closed merely because the benchmark was older.
+
+- [x] English Publication Layer resynchronized 32/32 from the current Chinese canonical edition; English TOC, List of Tables, glossary, inline footnotes, References, and external-reader prose added.
+- [x] 32/32 bilingual publication chapters pass structural regression for Table-number sets, Reference counts, and numeric section sequences.
+- [x] High-risk bilingual currency / percentage / power / capacity / process values were regression-checked after synchronization.
+- [x] P1 model correction: `AI Capacity Gap` now means absolute effective demand minus effective capacity in one physical layer; `AI Capacity Growth Gap` separately tracks the growth-rate difference.
+- [x] P1 model correction: Chapter 24 infrastructure demand now uses `Unit Resource Intensity × Workload Volume`, with a separate constant-elasticity demand response and reproducible D-grade sensitivity example.
+- [x] P1 evidence correction: F-MEM-03 now has a central TrendForce source-index entry and remains B-grade / preliminary 2027 allocation research.
+- [x] P1 evidence correction: 3Q26 mobile-DRAM +8–13% language explicitly retains forecast identity.
+- [x] P1 evidence correction: redirected Micron robotics static-file URL replaced by the stable official Q3 2026 earnings deck.
+- [x] P1 link correction: English Four-Cloud CapEx Scope Check now exists at `en/四云CapEx口径核对.en.md`, resolving the audited `en/vol-08.en.md` relative-link target.
+- [x] P1 metadata correction: research retrieval/revision cutoff normalized to 2026-08-28 across the identified English research headers and release metadata.
+- [x] Reproducibility foundation: versioned D-grade model inputs and one-command recomputation script added.
+- [x] Claim-audit foundation: machine-readable claim-ledger schema and deterministic numeric-claim candidate extractor added.
+- [ ] Complete the full claim-by-claim source audit for every required historical numeric Fact in the 40-volume + 8-essay corpus and publication layer.
+- [ ] Obtain a green relative-link CI run after GitHub Actions becomes diagnosable; current Actions runs fail before exposing normal step/log detail.
+- [ ] Obtain green bilingual PDF/EPUB build and proof QA; the first Publication Build run failed before normal step/log detail was exposed.
+- [ ] Complete final critical external-link sweep / archival fallback policy.
+- [ ] Complete final human PDF/EPUB proofread and release operations.
+
 ## Historical fact audit hard gate — 2026-08-28
 
 - [x] Correct TSMC customer-concentration logic: annual largest/second-largest rankings are **not** a same-customer time series; anonymized Customer A/B series is kept separate.
