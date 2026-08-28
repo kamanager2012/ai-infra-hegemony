@@ -25,6 +25,7 @@
 - [Table 22.1 — Major cloud server / network-equipment useful-life disclosures](part-III-ch22-depreciation-wall.md)
 - [Table 23.1 — AI-infrastructure asset classes and primary financing risks](part-III-ch23-capital-financing.md)
 - [Table 24.1 — Public 2026 capital-spending metrics for the four major clouds](part-III-ch24-capital-clearing.md)
+- [Table 24.2 — D-grade sensitivity example for efficiency and demand elasticity](part-III-ch24-capital-clearing.md)
 
 ## Part IV
 
