@@ -30,9 +30,9 @@ Roofline model 的核心关系是：
 
 ## 3. Algorithmic architecture 会改变需求函数，但不会删除物理约束
 
-DeepSeek-V3 Technical Report 的一手锚包括：671B total parameters、37B activated parameters、14.8T pre-training tokens、**2.664M H800 GPU-hours pre-training** 与 **2.788M H800 GPU-hours full formal training**。
+DeepSeek-V3 Technical Report 的一手锚包括：671B total parameters、37B activated parameters、14.8T pre-training tokens、**2.664M H800 GPU-hours pre-training** 与 **2.788M H800 GPU-hours full formal training**。[^1]
 
-DeepSeek-V2 的独立结果则包括：相对 DeepSeek 67B，约 **93.3% KV-cache reduction** 与约 **5.76× maximum generation throughput**。
+DeepSeek-V2 的独立结果则包括：相对 DeepSeek 67B，约 **93.3% KV-cache reduction** 与约 **5.76× maximum generation throughput**。[^2]
 
 这两组数字属于不同模型版本，不能混写。
 
@@ -52,13 +52,15 @@ DeepSeek-V3 full formal training 为 **2.788M H800 GPU-hours**。按论文使用
 
 ## 5. Rack-scale BOM 可以量化，但 rack shipment 不能凭空补齐
 
-GB200 NVL72 官方配置为：72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E、17 TB LPDDR5X。
+GB200 NVL72 官方配置为：72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E、17 TB LPDDR5X。[^3]
 
 如果情景 rack 数为 R，则：
 
 > **HBM(R) = 13.4 TB × R**
 
 > **LPDDR(R) = 17 TB × R**
+
+**Table 8.1 — NVL72 rack 数量与 HBM/LPDDR 情景需求**
 
 | 情景 rack 数 | HBM3E | LPDDR5X |
 |---:|---:|---:|
@@ -67,11 +69,14 @@ GB200 NVL72 官方配置为：72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E、
 | 30,000 | 402 PB | 510 PB |
 | 50,000 | 670 PB | 850 PB |
 
+**Source:** NVIDIA official GB200 NVL72 specification；本报告情景算术。[^3]  
+**Note:** rack count 为假设输入；表中 PB 数值不是实际出货或消费量。
+
 这是 **D 级 scenario arithmetic**。NVIDIA 没有公开可用于这一乘算的全年 NVL72 rack shipment，因此不能先用 Data Center revenue 除一个自拟 ASP，再把假设 rack 数继续传播成 HBM、CoWoS 和 power 的“实际值”。
 
 ## 6. HBM trade ratio 会放大 bit-demand 对 wafer input 的压力
 
-Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。
+Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^4]
 
 因此，bit demand 与 manufacturing input 不是一一对应。HBM bit share 上升时，对 DRAM wafer / cleanroom input 的压力可能高于 bit share 本身。
 
@@ -95,7 +100,7 @@ Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / 
 
 ## 8. Power 也必须按状态与物理边界计算
 
-约 **120 kW/rack** 可以作为 rack-level power-density input。500 racks × 120 kW = **60 MW rack-level full-load power**。
+约 **120 kW/rack** 可以作为 rack-level power-density input。[^5]500 racks × 120 kW = **60 MW rack-level full-load power**。
 
 但这一算术不包括完整 facility overhead，也不代表某个园区已经部署 500 柜。
 
@@ -105,7 +110,7 @@ Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / 
 
 ## 9. 当 shipment 无法闭合时，Forward Commitment 比自拟出货更有价值
 
-NVIDIA manufacturing, supply, and capacity commitments 的公开轨迹为：
+NVIDIA manufacturing, supply, and capacity commitments 的公开轨迹为：[^6]
 
 - 2026-01-25：**US$95.2B**；
 - 2026-04-26：**US$119B**；
@@ -196,11 +201,11 @@ AI infrastructure 的瓶颈会轮换，而不是永久固定在同一层。
 
 这套纪律的价值不是让所有未来判断变保守，而是允许情景大胆，同时保证事实层和物理量纲始终可审计。
 
-## 关键公开来源
+## References
 
-- DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
-- DeepSeek-V2: https://github.com/deepseek-ai/DeepSeek-V2
-- NVIDIA GB200 NVL72 product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
+[^3]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^4]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^5]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
