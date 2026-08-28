@@ -1,7 +1,5 @@
 # Part II · Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition
 
-> **Publication-layer chapter.** Based primarily on [Volume 06](../vol-06.en.md) and aligned with the quantitative boundaries in Part I Chapter 8. This chapter does not assume a fixed end-state for "AI SaaS gross margin." It analyzes model and software competition through **AI Software Unit Economics + demand elasticity**.
-
 ## 1. Model companies are not pure software businesses detached from infrastructure
 
 The variable cost underneath APIs, subscriptions, and agent services includes accelerator time, HBM bandwidth, KV cache, storage / retrieval, networking, third-party tools, human review, cloud margin, and serving utilization.
