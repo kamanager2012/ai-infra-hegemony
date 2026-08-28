@@ -86,6 +86,22 @@ The feedback loop can be:
 
 Robot adoption therefore does not necessarily reduce data-center demand. It can create new training and inference workloads.
 
+### 7.1 The robot itself can become a new memory / storage demand pool
+
+Micron's June 24, 2026 investor presentation provides a useful quantitative anchor that must retain its identity as a **company forward-looking view**:
+
+- L2+ and above vehicles carry more than **5×** the memory and storage content of an average vehicle;
+- Micron states that humanoid robots carry roughly **10×** the memory content of an average L2+ vehicle;
+- the company expects a sustained, multi-decade robotics memory-demand cycle to begin in the latter part of this decade.
+
+This is not industry-wide actual shipment data and it does not establish a universal "hundreds of GB of DRAM + several TB of SSD per robot" configuration.
+
+What it supports is the mechanism:
+
+> **Physical AI commercial scale ↑ → edge memory/storage content ↑ + fleet-generated cloud workload ↑**
+
+Robotics can therefore become both a new edge-memory demand pool and a new source of cloud retraining / storage demand.
+
 ## 8. The robot-side power wall is battery / thermal
 
 The data-center power bottleneck is grid / interconnection.
@@ -140,3 +156,4 @@ It is a contest over:
 - NVIDIA Isaac official platform page — GR00T, simulation/training, Jetson Thor inference/control, and DGX/OVX/AGX workflow layers: https://developer.nvidia.com/isaac
 - NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot — Jetson Thor onboard compute + Isaac GR00T open platform: https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 - NVIDIA DGX GB200 hardware guide — data-center rack power reference used only for cloud-vs-edge physical contrast: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Micron 2026-06-24 investor presentation — humanoid robots ~10× memory content vs average L2+ vehicle; multi-decade demand outlook: https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
