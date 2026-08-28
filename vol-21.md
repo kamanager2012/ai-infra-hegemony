@@ -70,10 +70,15 @@ TSMC 在系统中承担重资产制造，因此其资本强度与 NVIDIA 完全�
 
 SK hynix、Samsung、Micron 通过 HBM 与 server memory 获得 AI infrastructure 需求。
 
-SK hynix FY25：
+SK hynix FY25 官方结果：
 
-- operating margin：**49%**
-- HBM revenue：同比超过一倍。
+- Revenue：**KRW 97.1467T**
+- Operating profit：**KRW 47.2063T**
+- Operating margin：**49%**
+- Net income：**KRW 42.9479T**
+- HBM revenue：**more than doubled YoY**。
+
+公开来源：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 这表明 memory layer 已经成为重要利润池。
 
