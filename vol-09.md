@@ -19,7 +19,7 @@ AI infrastructure 对实体制造业的影响具有高度选择性。
 
 消费 GPU 与 Data Center accelerator 会共享部分先进 manufacturing resources。
 
-NVIDIA 曾公开披露 gaming GPU supply constraints，这说明 consumer GPU 并非完全独立于 Data Center allocation。
+NVIDIA FY26 10-K 更准确的表述是：FY26 Gaming revenue 达 **US$16.0B、同比 +41%**，同时公司预计 **supply constraints will be a headwind to Gaming in FY27 Q1 and beyond**。这支持“消费 GPU 也会受到供应约束”的判断，但不能直接推出约束全部由 Data Center allocation 导致。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm 。
 
 PC 同时受到第二条传导：
 
@@ -34,7 +34,7 @@ PC 同时受到第二条传导：
 
 General server 不一定使用 HBM，但大量使用 DDR5 RDIMM。
 
-TrendForce 预计 2026 年 HBM + RDIMM 已占 DRAM bits 约 **51%**。
+TrendForce **预计** 2026 年 HBM + RDIMM 将占 DRAM bit supply 约 **51%**。这是 2026E 机构预测，不是已实现历史实绩。来源：https://www.trendforce.com/presscenter/news/20260825-13198.html 。
 
 这意味着 general server memory 也已经进入 AI/server-driven memory pool，而不是完全独立的 commodity market。
 
@@ -49,7 +49,7 @@ Smartphone 与 frontier AI 的重叠主要在：
 - selected packaging；
 - power-management components。
 
-TSMC 2025 smartphone platform 仍占 revenue **29%**，同比增长。
+TSMC 2025 smartphone platform 占全年 revenue **29%**；另一个独立指标是该 platform revenue **同比增长 11%**。29% 是 revenue mix，+11% 是 YoY growth，不能合并成一句。来源：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf 。
 
 所以 AI 并没有“挤掉 smartphone”。
 
