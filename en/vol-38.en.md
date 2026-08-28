@@ -250,5 +250,5 @@ Without it, labor analysis mistakes model capability for corporate adoption and 
 
 ## Key public sources
 
-- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure* (20 May 2025): https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure
+- ILO Working Paper 140, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure* (20 May 2025): https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
 - IMF Staff Discussion Note, *Gen-AI: Artificial Intelligence and the Future of Work* (the roughly 60% figure for advanced economies is employment exposure, not a within-job task-automation rate): https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
