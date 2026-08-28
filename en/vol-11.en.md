@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-11.md](../vol-11.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Legal attention, a formal investigation, a complaint, a final decision, a fine, and a structural remedy are different states. This volume tracks those states separately and does not convert statutory ceilings into financial forecasts.
+> Retrieval and revision cutoff: **2026-08-28**. Legal attention, a formal investigation, a complaint, a final decision, a fine, and a structural remedy are different states. This volume tracks those states separately and does not convert statutory ceilings into financial forecasts.
 
 ## 1. Why traditional antitrust analysis struggles with system-stack power
 
