@@ -21,16 +21,19 @@ The scenario variables remain anchored to the [Core Hypothesis Matrix](核心假
 
 ## 2. Phase I: 2026–2027 — system race and infrastructure locking
 
-The current factual base includes:
+### Confirmed historical/current facts
 
-- NVIDIA FY27 Q2 Data Center revenue: **$89.0B**;
+- NVIDIA FY27 Q2 Data Center revenue: **US$89.0B**;
 - GAAP gross margin: **75.0%**;
 - Rubin: **full production**;
 - manufacturing, supply, and capacity commitments: **US$119B** as of 2026-04-26 and **US$279B** as of 2026-07-26; the Q2 filing says the latest amount is primarily tied to memory and manufacturing facilities;
 - TSMC advanced-packaging tightness still limiting customer growth;
-- HBM + RDIMM representing approximately **51% of 2026 DRAM bits**;
-- continued hyperscaler CapEx expansion;
-- power arrangements reaching the **835 MW, 1.92 GW, and 500 MW** scale.
+- hyperscaler capital spending remains elevated;
+- power agreements have reached approximately 835 MW, up to 1,920 MW, and up to 500 MWe in projects at different maturity stages; these are not equivalent to energized AI load.
+
+### Institutional forecast / forward anchor
+
+- TrendForce **projects** HBM + RDIMM at approximately **51% of 2026 DRAM bit supply**. This is a **2026E institutional forecast**, not an observed full-year actual.
 
 The central question for this phase is:
 
@@ -43,7 +46,7 @@ Key milestones include:
 - advanced-packaging expansion;
 - next-generation cloud custom-silicon deployment;
 - actual energization of power projects;
-- whether supply commitments continue to rise. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
+- whether supply commitments continue to rise.
 
 ## 3. Phase II: 2028–2030 — does substitution reach scale?
 
@@ -84,12 +87,6 @@ Watch whether:
 The critical variable is not whether alternatives exist in demos.
 
 It is whether they operate reliably at production scale.
-
-### Key public sources
-- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
 
 ## 4. Phase III: 2031–2033 — geographic and industrial structure hardens
 
@@ -222,4 +219,9 @@ Those three thresholds will do more than any fixed calendar to determine whether
 
 ## Key public sources for this volume
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- NVIDIA FY27 Q2 official results — Data Center US$89.0B, GAAP GM 75.0%, Rubin full production: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q — manufacturing, supply, and capacity commitments US$279B: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
