@@ -3,7 +3,8 @@
 **Repository:** `kamanager2012/ai-infra-hegemony`  
 **Target:** first public publication of *The Age of AI Infrastructure Hegemony*  
 **Research retrieval/revision cutoff:** 2026-08-28  
-**Publication QA state:** 2026-08-28
+**Publication QA state:** 2026-08-29  
+**Latest closeout cycle:** 2026-08-29 — strict numeric coverage, rights/quotation audit, editorial hygiene, critical-link sweep, pre-release metadata, unified release-QA tooling, and Actions execution diagnostics
 
 This checklist separates research completion from publication operations. A checked research item means the underlying content has been reviewed; it does not imply that the repository has already been made public.
 
