@@ -73,6 +73,28 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 因此，DDR/LPDDR 供给增强与 HBM-class memory closure 必须分开分析。
 
+### 6.1 普通 DRAM / NAND 与 Frontier HBM 不是同一供应链门槛
+
+长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；这足以确认中国 conventional DRAM / server DRAM 的真实供给能力已经显著增强。
+
+长江存储官方则确认自身是 3D NAND IDM，Gen5 TLC X4-9060/X4-9070 已进入产品体系，Xtacking 4.0 已形成量产产品路径，并覆盖 raw NAND、embedded memory、client SSD 与 enterprise SSD。
+
+这两条事实说明：
+
+> **consumer/general-purpose memory resilience 可以提高，而不需要先完成 frontier HBM closure。**
+
+普通 DRAM 与 NAND 的 memory-cell front-end manufacturing 并不等同于台积电 leading-edge logic foundry；但 HBM-class AI system 会重新引入 advanced logic / base logic die、advanced packaging 与 accelerator integration 等更高门槛。Micron 就曾公开披露 HBM4E 的 base logic die 与 TSMC 合作制造。
+
+所以“普通内存可以绕开台积电”与“frontier AI memory stack 不受台积电影响”是两个完全不同的命题。
+
+### 6.2 HDD 不能被 NAND 的国产进展掩盖
+
+AI data-center storage 还包含 nearline HDD。公开产业研究显示，全球 nearline / mass-capacity HDD 仍高度集中于 Seagate、Western Digital 与 Toshiba。
+
+因此，“国产 NAND / SSD 能力增强”不能自动写成“整个 storage stack 已经国产闭环”。
+
+同时，AI 并没有简单淘汰 HDD：mass-capacity / cold-storage demand 仍然存在，只是 QLC nearline SSD 正在部分 workload 上加速替代。
+
 ## 7. Foundry share 不能直接等同于 Frontier AI capability
 
 TrendForce 2026 Q1 foundry revenue share 约为：
@@ -151,3 +173,8 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 - TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
+- CXMT official DDR5 product page — up to 8000 Mbps, 16Gb/24Gb, server/workstation/PC modules: https://www.cxmt.com/en/product.html
+- YMTC company profile / products — Gen5 Xtacking 4.0 3D NAND, enterprise/client/embedded storage: https://www.ymtc.com/en/aboutus.html
+- YMTC commercial 3D NAND product portfolio: https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
+- Micron investor material — HBM4E base logic die partnership with TSMC: https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
+- TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
