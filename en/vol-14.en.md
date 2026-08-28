@@ -18,7 +18,7 @@ Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-fo
 
 ### TSMC and advanced manufacturing
 
-TSMC's 2025 HPC platform share was **58% of revenue**. Advanced packaging/testing contributed slightly above **10% of revenue**, while management in 2026 Q2 described packaging capacity as tight enough to limit customer growth. A smaller revenue layer can therefore still be a binding delivery constraint.
+TSMC's 2025 HPC platform share was **58% of revenue**. The company-corrected 4Q25 transcript says **advanced packaging** contributed slightly above **10% of 2025 revenue**; it should not be broadened into 2025 “advanced packaging/testing.” Management in 2026 Q2 described packaging capacity as tight enough to limit customer growth. A smaller revenue layer can therefore still be a binding delivery constraint.
 
 Sources:
 - https://investor.tsmc.com/static/annualReports/2025/english/index.html
@@ -145,3 +145,5 @@ The durable conclusion is that **AI infrastructure redistributes value according
 - TSMC 2026 Q2 IR / transcript — packaging tightness limiting customer growth: https://investor.tsmc.com/english/quarterly-results/2026/q2
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 - SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+
+- TSMC 4Q25 Transcript — 2025 advanced packaging slightly above 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
