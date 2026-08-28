@@ -36,12 +36,14 @@ FY27 Q2：
 
 | 指标 | 数值 |
 |---|---:|
-| Revenue | **$96.221B** |
-| Data Center revenue | **$89.0B** |
+| Revenue | **US$96.221B** |
+| Data Center revenue | **US$89.0B** |
 | GAAP gross margin | **75.0%** |
-| GAAP operating income | **$63.734B** |
+| GAAP operating income | **US$63.734B** |
 
-这是当前 AI infrastructure 中最强的 seller-side value capture。
+来源：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+
+这是当前 AI infrastructure 中最强的 seller-side value capture 之一。
 
 ## 3. 第二类：HBM / Memory Supplier
 
@@ -49,12 +51,14 @@ SK hynix、Samsung、Micron 获益于 HBM product mix 上移。
 
 HBM 的价值来自：
 
-- 高 bandwidth；
+- high bandwidth；
 - high stacking complexity；
 - advanced packaging integration；
 - high wafer-supply trade ratio。
 
-SK hynix FY25 operating margin 达到 **49%**，HBM revenue 同比超过一倍。
+SK hynix FY25 Operating margin 达到 **49%**，HBM revenue more than doubled YoY。
+
+来源：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 但 memory supplier 的利润仍具有周期性。
 
@@ -74,9 +78,13 @@ TSMC 是典型的 manufacturing bottleneck owner。
 - advanced packaging；
 - roadmap execution。
 
-2025 gross margin **59.9%**，HPC 已占 platform revenue **58%**。
+TSMC 2025 gross margin **59.9%**，HPC platform 占全年 revenue **58%**。advanced packaging + testing 略高于全年 revenue 的 **10%**，而管理层在 2026 Q2 又明确表示 packaging tightness 已经限制客户增长。
 
-advanced packaging tightness 又说明制造价值正在从单纯 transistor scaling 向 system integration 扩展。
+来源：
+- https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+这些事实说明制造价值正在从单纯 transistor scaling 向 system integration 扩展。
 
 但 TSMC 的商业模式仍是 manufacturing service，平台利润和制造利润不能混为一谈。
 
@@ -221,5 +229,7 @@ AI 时代真正的“赢家”不是某个行业，而是能够控制以下至�
 
 ## 本卷关键公开来源
 
-- NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- SK hynix FY25 official results（Operating margin 49%; HBM revenue more than doubled YoY）： https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+- NVIDIA FY27 Q2 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- TSMC 2025 Annual Report：https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2026 Q2 IR / transcript（packaging tightness limits customer growth）：https://investor.tsmc.com/english/quarterly-results/2026/q2
+- SK hynix FY25 official results（Operating margin 49%; HBM revenue more than doubled YoY）：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
