@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-39.md](../vol-39.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume focuses on capability formation rather than forecasting graduate employment, salaries, or school-level outcomes that are not directly supported by evidence.
+> Retrieval and revision cutoff: **2026-08-28**. This volume focuses on capability formation rather than forecasting graduate employment, salaries, or school-level outcomes that are not directly supported by evidence.
 
 ## 1. The educational objective is moving from “using AI” to understanding systems
 
