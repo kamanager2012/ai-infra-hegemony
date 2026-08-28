@@ -2,7 +2,15 @@
 
 ## 1. 为什么 AI Infrastructure 研究必须先统一证据语言
 
-AI infrastructure 同时跨越财务、semiconductor、memory、advanced packaging、cloud、power、regulation 与 labor market。不同领域的数字具有不同物理单位、会计口径、时间窗口和证据强度。
+AI infrastructure 同时跨越财务、semiconductor、memory、advanced packaging、cloud、power、regulation 与 labor market。
+
+不同领域的数字具有不同：
+
+- 物理单位；
+- 会计口径；
+- 时间窗口；
+- 分母；
+- 证据强度。
 
 如果没有统一规则，最常见的错误包括：
 
@@ -22,11 +30,16 @@ AI infrastructure 同时跨越财务、semiconductor、memory、advanced packagi
 
 > **A / B / C / D evidence grade**
 
-前者负责判断身份，后者负责证据强度。
+前者负责判断“这是什么类型的命题”，后者负责判断“证据有多强”。
 
-## 2. F — Fact
+---
 
-Fact 必须是已经发生、可以回溯到明确公开来源的现实。
+## 2. F — Fact：已经发生且可公开核验
+
+Fact 必须满足两个条件：
+
+1. 已经发生；
+2. 可以回溯到明确公开来源。
 
 优先来源包括：
 
@@ -37,46 +50,72 @@ Fact 必须是已经发生、可以回溯到明确公开来源的现实。
 - court filing；
 - formal contract / official project disclosure。
 
-Fact 不等于“很多媒体都这么写”。多个媒体引用同一个来源，也不构成独立多源验证。
+Fact 不等于“很多媒体都这么写”。
 
-## 3. H — Hypothesis
+如果多个媒体引用同一原始来源，仍然只能算同一证据链。
 
-Hypothesis 是由事实引出的未来输入条件，但尚未被现实完全确认。
+---
+
+## 3. H — Hypothesis：明确写出未来输入条件
+
+Hypothesis 是由事实引出的未来输入条件，但尚未被现实确认。
 
 例如：
 
-> **如果一家 system platform 持续拥有更高现金流、长期订单、预付款能力和 roadmap certainty，它获取下一代 scarce capacity 的议价能力可能提高。**
+> **如果一家 system platform 持续拥有更高现金流、长期订单、预付款能力和 roadmap certainty，其获取下一代 scarce capacity 的议价能力可能提高。**
 
-这不是 company filing 中的事实，而是可以被未来 allocation、commitment 与 delivery data 检验的研究假设。
+这不是 company filing 中的事实。
 
-## 4. M — Mechanism
+它必须由未来的：
 
-Mechanism 必须解释事实和未来状态之间的中间变量。
+- allocation；
+- commitment；
+- delivery；
+- utilization；
+
+等数据继续验证。
+
+---
+
+## 4. M — Mechanism：必须解释中间传导，而不是重复结论
+
+Mechanism 要回答：
+
+> **为什么 A 会导致 B？**
 
 例如：
 
 > high system margin → higher cash generation → larger forward commitments → stronger capacity reservation → higher delivery certainty → stronger customer retention
 
-机制不能退化成“因为它强，所以会更强”。至少要说明：哪个变量变化、通过什么约束传导、什么证据可以证明链条断裂。
+一个合格机制至少要说明：
 
-## 5. S — Scenario
+- 哪个变量变化；
+- 通过什么约束传导；
+- 哪个中间环节可能失效；
+- 什么证据会证明链条断裂。
 
-Scenario 是多个 H / M 组合后的条件状态，而不是确定预测。
+“因为它强，所以会更强”不构成机制。
 
-本书采用四类标准情景：
+---
+
+## 5. S — Scenario：条件状态，不是单点预测
+
+本报告采用四类标准情景：
 
 - **S1 — Competitive Expansion**；
 - **S2 — Baseline Concentration**；
 - **S3 — Resource Hegemony**；
 - **S4 — Capital Hard Landing**。
 
-情景的作用不是给世界分配固定概率，而是回答：
+Scenario 的作用不是给未来分配一个固定概率，而是回答：
 
 > **如果一组可观察条件同时成立，产业结构更接近哪一种状态？**
 
-## 6. X — Falsification
+因此，2030 / 2036 的 point estimate 只有在明确条件下才有意义。
 
-任何强判断都必须附带反向信号。
+---
+
+## 6. X — Falsification：任何强判断都必须允许被现实推翻
 
 例如，“scarce-layer value capture 继续强化”必须在以下变量持续逆转时下调：
 
@@ -87,7 +126,9 @@ Scenario 是多个 H / M 组合后的条件状态，而不是确定预测。
 - migration cost 被 open interfaces 显著降低；
 - utilization 与 forward commitments 同时转弱。
 
-没有 falsification condition 的长期叙事，不进入本书正式判断。
+没有 falsification condition 的长期叙事，不进入本报告强结论。
+
+---
 
 ## 7. A / B / C / D Evidence Grade
 
@@ -98,55 +139,74 @@ Scenario 是多个 H / M 组合后的条件状态，而不是确定预测。
 | A | First-party / formal evidence | company filing、official product page、regulator、government、court、formal contract |
 | B | Institutional research | TrendForce、ILO、IMF、Stanford HAI、academic / industry research |
 | C | Sell-side / supply-chain / media estimate | investment bank、channel、supply-chain source、media estimate |
-| D | Report model / stress test | geometry、arithmetic、sensitivity、scenario assumption |
+| D | Report model / stress test | arithmetic、sensitivity、scenario assumption |
 
 **Source:** 本报告研究方法。  
-**Note:** evidence grade 衡量来源强度，不等同于结论重要性；D 级模型可用于情景和 sensitivity，但不能冒充已发生事实。
+**Note:** evidence grade 衡量来源强度，不等同于结论重要性。
 
-例子：
+例如：
 
-- Micron HBM3E same-node/same-bits ≈ 3× DDR5 wafer supply：**A**；[^1]
-- TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计：**B**；[^2]
-- 卖方对某客户具体 CoWoS 月片数的估计：**C**；
-- 72 ÷ 13.4 ≈ **5.37 CoWoS wafers/rack** 的报告侧 geometry：**D**。
+- Micron HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**：A；[^1]
+- TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计：B；[^2]
+- 卖方对某客户具体 CoWoS 月片数的估计：C；
+- 本报告基于公开规格进行的假设敏感性计算：D。
 
-证据等级不会因为同一数字被多个章节重复引用而自动上升。
+D 级模型可以用于情景分析，但不能被写成已经发生的产业事实。
+
+---
 
 ## 8. Dimensional Consistency：量纲比故事更优先
 
-全书禁止以下转换：
+### Revenue Share ≠ Wafer Share
 
-### Revenue share ≠ wafer share
+TSMC customer revenue share 不能直接变成：
 
-TSMC customer revenue share 不能直接变成 N2、3 nm、HPC 或 CoWoS physical share。
+- N2 share；
+- 3 nm share；
+- HPC wafer share；
+- CoWoS share。
+
+### Demand Share ≠ Allocation Share
+
+机构估计某客户需求占比，不等于供应商确认的实际 allocation。
 
 ### Contracted MW ≠ Energized MW ≠ Utilized AI Load
 
-up-to-1.92-GW revised PPA 不能写成 1.92 GW active AI load。[^3]
+长期 PPA 或 secured capacity 不能直接写成 active AI load。[^3]
 
-### Product spec × hypothetical quantity ≠ shipment
+### Product Spec ≠ Industry Shipment
 
-13.4 TB HBM3E/rack × 50,000 hypothetical racks 只能得到 D-grade scenario demand，不是 actual HBM shipment。[^4]
+13.4 TB HBM3E/rack 是 system specification。[^4]
 
-### Engineering geometry ≠ fab yield
+如果没有真实 rack shipment，就不能进一步推出行业 actual HBM consumption。
 
-5.37 CoWoS wafers/rack 是 geometry stress test，不是 TSMC disclosed yield。
+### Guidance ≠ Actual
 
-### Guidance / expectation ≠ actual
+company guidance、expectation 与 TTM actual 必须保持各自身份。
 
-company guidance 必须保留 guidance 身份，不能与另一家 TTM actual 放在同一“已发生总额”里。
+### Physical Pool A ≠ Physical Pool B
 
-## 9. Negative Evidence 的边界
+front-end logic wafer、advanced-packaging capacity、HBM bits 与 energized MW 不能因为都服务同一个 AI system 就被放进同一分母。
 
-“某份文件没有披露”只证明该文件范围内没有披露。
+---
 
-例如 CXMT 注册稿未披露 HBM product line，只能写成：
+## 9. Negative Evidence：只能限制可确认事实
 
-> **该注册稿未披露 HBM 产品线。**
+“某份公开文件没有披露某项内容”只能证明：
 
-不能扩大成“企业没有任何 HBM R&D”。
+> **在这份文件和当前公开材料范围内，没有足够证据确认该事项。**
 
-Negative evidence 的作用是限制可确认事实，不是证明现实中绝对不存在某项活动。
+例如，如果公开发行材料未确认可规模交付 HBM 产品线，合理结论是：
+
+> **公开材料不足以确认已形成规模化 HBM supply。**
+
+不能由此证明：
+
+> 企业内部不存在任何 HBM R&D。
+
+Negative evidence 的作用是限制事实层，不是证明现实中的绝对不存在。
+
+---
 
 ## 10. Forecast / Guidance / Scenario 必须保留时间身份
 
@@ -156,54 +216,90 @@ Negative evidence 的作用是限制可确认事实，不是证明现实中绝�
 - publication date；
 - forecast window。
 
-例如 TrendForce “HBM + RDIMM ≈ 51% of 2026 DRAM bit supply”必须写成 **2026E institutional forecast**，不能在跨章引用后变成 2026 actual。
+例如 TrendForce “HBM + RDIMM ≈ 51% of 2026 DRAM bit supply”必须保留为 **2026E institutional forecast**，不能在跨章引用后变成 2026 actual。
 
-同理，2030 / 2036 node price、monthly packaging capacity、GW campus 等 point estimates 只能在明确假设条件下使用。
+同样：
 
-## 11. 全书核心机制模型的位置
+- company guidance 不能写成 actual；
+- announced project capacity 不能写成 delivered capacity；
+- secured capacity 不能写成 utilized capacity；
+- 2030 / 2036 point estimates 必须保留 hypothesis / scenario 身份。
 
-本书使用的主要模型包括：
+---
+
+## 11. 本报告核心分析概念
+
+全书保留以下主要概念：
 
 - **AI Resource Gravity**；
 - **Scarce-layer Value Capture**；
-- **AHICR — Advanced/HPC Incremental Capacity Capture Ratio**；
 - **Non-AI Residual Capacity**；
+- **Two-Speed Semiconductor Economy**；
+- **AI Capacity Gap / AI Capacity Growth Gap**；
 - **Cloud System-Stack Substitution**；
 - **Anchor Compute Buyer Effect**；
 - **Rolling Bottleneck Cascade**；
 - **AI Software Unit Economics**；
-- **Task-to-Job Translation Layer**。
+- **Task-to-Job Translation**。
 
-这些模型用于组织因果关系，不替代原始事实。模型的正确性最终要由新的 F 与 X 检验。
+这些概念只用于组织因果关系。
 
-## 12. 全书去重与交叉引用原则
+它们不能：
 
-正式报告必须避免同一事实和机制在不同章节被反复重写：
+- 替代原始数据；
+- 混合不同物理单位；
+- 用模型名称掩盖证据缺失；
+- 因为跨章重复出现而自动升级可信度。
 
-1. 一个高影响事实表只保留一个主要位置；
-2. 一个机制只完整定义一次，后续章节通过交叉引用承接；
-3. 后续章节只新增 evidence、boundary、counterargument 或 falsification；
+---
+
+## 12. 去重与交叉引用原则
+
+正式研究正文避免同一事实和机制在不同章节被反复重写。
+
+规则是：
+
+1. 一个高影响事实只在最相关章节完整展开；
+2. 一个机制只完整定义一次；
+3. 后续章节只增加新的 evidence、boundary、counterargument 或 falsification；
 4. 同一数字跨章使用时保持原始分母、时间窗和 evidence grade；
 5. source 跟随事实，不能因章节重组而丢失；
-6. 修订历史、编辑过程和版本施工信息不进入正式正文。
+6. 修订历史、编辑过程和内部工作记录不进入正文。
 
-这样做的目的不是减少信息，而是让读者能够分清“第一次定义”“新增证据”和“跨章推论”。
+这样读者才能区分：
 
-## 13. 正式发布标准
+> **第一次定义**
 
-每一章必须同时满足：
+与
+
+> **新增证据 / 新的产业推论**
+
+而不是在不同章节反复看到同一段论证。
+
+---
+
+## 13. 研究成稿质量标准
+
+每一章至少应满足：
 
 - fact 有 source；
 - forecast / institutional number 保留身份；
-- sell-side estimate 不冒充 first-party；
-- D-grade model 明示假设；
+- sell-side / supply-chain estimate 不冒充 first-party；
+- D-grade calculation 明示假设；
 - future claim 条件化；
-- 有 falsification condition；
+- 强判断有 falsification condition；
 - technical unit 使用标准行业符号；
 - accounting / physical unit 不混用；
-- 正文不携带内部 revision metadata、过程性说明或自我辩护语气。
+- 关键分母明确；
+- 正文不携带 revision metadata、施工语言或内部自我辩护；
+- 章节有明确产业问题，而不是数字堆砌；
+- 结论能够回答“这对产业结构意味着什么”。
 
-这套方法不是为了让结论更保守，而是让情景可以更大胆，同时仍然可审计、可证伪、可更新。
+这套方法不是为了让结论更保守。
+
+它的目标是：
+
+> **允许未来推演足够大胆，同时保证事实层、量纲、证据身份和因果链始终可审计、可证伪、可更新。**
 
 ## References
 
