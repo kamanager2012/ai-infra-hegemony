@@ -1,7 +1,5 @@
 # Part IV · 第30章：S1–S4 四类标准情景
 
-> **出版层情景章。** 以 [vol-10](../vol-10.md) 为主源。四种情景不赋固定概率，也不被写成必然连续阶段；它们是由 supply、substitution、demand、finance、power、regulation 等变量组合形成的标准状态。
-
 ## 1. Scenario Analysis 不是 Point Forecast
 
 本书不为 2030 或 2036 给出一个唯一答案，也不使用固定 40% / 30% / 15% / 15% 之类权重。
