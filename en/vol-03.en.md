@@ -257,3 +257,4 @@ The important question is whether residual capacity continues to fall within mem
 - Micron FY25 10-K — HBM requires more wafers / cleanroom space: https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
 - TSMC 4Q25 presentation — Smartphone 29% revenue mix; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — Gaming +41%; supply-constraint headwind expected in FY27 Q1 and beyond: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA GB200 NVL72 official product page (72 Blackwell GPUs, 36 Grace CPUs, 13.4 TB HBM3E, 17 TB LPDDR5X): https://www.nvidia.com/en-us/data-center/gb200-nvl72/
