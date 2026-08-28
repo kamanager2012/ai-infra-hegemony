@@ -20,7 +20,7 @@
 
 ASIC 历史压力测试规格：TPU v5p 单芯片 459 TFLOPS BF16，95 GiB HBM（2765 GB/s），8960 芯片/Pod，OCS 动态 3D Torus；对外受制于 JAX/TensorFlow，PyTorch 不如 CUDA 顺。Trainium2：8×NeuronCore-v3，667 TFLOPS BF16、1299 TFLOPS FP8，96 GiB HBM 2.9 TB/s，NeuronLink-v3 1.28 TB/s，64 卡 UltraServer；动态形状与长上下文抖动高于 NVIDIA。MTIA v2：TSMC 5nm，128MB SRAM，偏 DLRM。Maia 100：内部推理分流，尚不能承担外部万亿参数超大规模预训练。
 
-DeepSeek 历史压力测试：671B，激活 37B（256 路由专家 + 1 共享，Top-8）；2048×H800，278.8 万 GPU 时，14.8 万亿 Token，约 US$5.576M；对比传统动辄数千万至数亿美元，降幅被写成 85%+。MLA：\(c_t^{KV}\in\mathbb{R}^{d_c}\)，\(d_c=512\ll 8192\)，KV 压 93.3%，8 卡并发近 10 倍。无辅助损失负载均衡，MFU 超 50%。
+DeepSeek-V3 一手训练锚：671B total parameters、37B activated parameters、14.8T pre-training tokens、**2.788M H800 GPU-hours**；按报告侧 **US$2/GPU-hour** 假设折算约 **US$5.576M**，且不代表完整 R&D cost。另一个独立证据来自 **DeepSeek-V2**：相对 DeepSeek 67B，MLA 报告约 **93.3% KV-cache reduction** 与约 **5.76× maximum generation throughput**。V2 与 V3 两组数字不得混写成同一模型结果。
 
 口径见[第八卷](vol-08.md)和 `四云Capex口径核对.md`。不能写成「四云 2024 年 AI 硬件 = $2,150 亿」。历史压力测试 2026 年 $6,700–$7,500 亿加不出来。
 
@@ -68,15 +68,15 @@ PPE 增加和折旧费用不是同一行。微软 FY25 现金流量表同一页�
 
 ### 3.3 DeepSeek：正式训练计算成本可核，完整研发成本仍需区分
 
-DeepSeek-V3技术报告已经可以作为一手锚：671B总参、每Token激活37B；完整正式训练2.788M H800 GPU hours，按论文假设 **US$2/GPU-hour** 折算 **US$5.576M**。报告明确不含此前研究、架构消融和基础设施成本。这个数字证明正式训练计算成本可以被架构与系统协同显著压低，但不能直接代表完整研发成本，也不能推出所有闭源前沿模型都能复制。MLA 的 \(d_c=512\ll 8192\)、KV 压 93.3%、8 卡并发近 10 倍、无辅助损失、MFU 超 50%，沿用历史压力测试。
+DeepSeek-V3 技术报告可以作为一手训练锚：671B total parameters、37B activated per token、14.8T pre-training tokens、完整正式训练 **2.788M H800 GPU-hours**，按报告侧假设 **US$2/GPU-hour** 折算 **US$5.576M**。报告明确这不是完整 R&D cost。**93.3% KV-cache reduction 与 5.76× maximum generation throughput 属于 DeepSeek-V2 相对 DeepSeek 67B 的结果，不属于 V3 训练账。** 两组数据在本报告中分开使用。
 
-地缘上，H800 本身是管制折中货。$557.6 万证明：在被限制的硬件上，算法可以把训练门槛打穿。这会刺激管制加码，也会刺激更多买方要求以太网和开源栈。NVIDIA 系统溢价的政治风险从这里上升，不等于训练柜已经被替代。
+地缘上，H800 本身是管制折中货。**US$5.576M** 这一 formal-training compute conversion 说明：在被限制的硬件上，算法可以把训练门槛打穿。这会刺激管制加码，也会刺激更多买方要求以太网和开源栈。NVIDIA 系统溢价的政治风险从这里上升，不等于训练柜已经被替代。
 
-从方程上看，MLA 减少的是 KV 和训练门槛，不是推理时代的总电量。93.3% 的 Cache 压缩让中小企业进得了门，也让 Token 单价具备下跌的技术条件。对已经按混年约 $2,119–$2,139 亿集团 PPE、又在 2025 混年加到约 $3,540–$3,565 亿的买方，这是双刃：单位智能变便宜，资产利用率必须靠用量补上。战争从「谁买得到柜」部分转向「谁先把 Agent 写成现金工作流」。
+从方程上看，MLA 减少的是 KV-cache footprint 与 serving memory pressure，不是把推理时代的总电量清零。DeepSeek-V2 相对 DeepSeek 67B 的 **93.3% KV-cache reduction** 说明架构可以显著改变 bytes/token；它不能被外推成所有模型固定节省 93.3%。对已经按混年约 $2,119–$2,139 亿集团 PPE、又在 2025 混年加到约 $3,540–$3,565 亿的买方，这是双刃：单位智能变便宜，资产利用率必须靠用量补上。战争从「谁买得到柜」部分转向「谁先把 Agent 写成现金工作流」。
 
-不对称在于：云巨头的 ASIC 降低自己对 NVIDIA 的采购，不降低对手对 NVIDIA 的采购，因此是私有的降本。DeepSeek 的开源和 $557.6 万训练成本是公共的降本，纵轴（单价）对所有人同时下降，横轴（用量）却只属于把 Agent 写成现金的人。在公共降本已经发生时，仍按私有军备的逻辑加集团 PPE，可以理解成抢配额，也可以理解成在错误的资产久期上扩大资本承诺。私有 ASIC 救不了公共跌价；公共跌价却会让私有 ASIC 的专用编译器更难证明迁移成本值得。
+不对称在于：云巨头的 ASIC 降低自己对 NVIDIA 的采购，不降低对手对 NVIDIA 的采购，因此是私有的降本。DeepSeek 的开源和 **US$5.576M formal-training compute conversion**是公共的降本，纵轴（单价）对所有人同时下降，横轴（用量）却只属于把 Agent 写成现金的人。在公共降本已经发生时，仍按私有军备的逻辑加集团 PPE，可以理解成抢配额，也可以理解成在错误的资产久期上扩大资本承诺。私有 ASIC 救不了公共跌价；公共跌价却会让私有 ASIC 的专用编译器更难证明迁移成本值得。
 
-$557.6 万不能外推成「所有前沿模型都只需五百万美元」。报告自己把租金假设写死为 US$2/GPU-hour，并且把研究、废实验、集群折旧排除在外。换一套未公开的预训练配方，或把上下文和后训练拉长，同一公式会给出另一笔数。能站住的只有这一次官方训练运行的 GPU 时。MLA 压的是 KV，不是把推理期总电量清零：并发上去之后，机房里转的还是 HBM 和电。所以 DeepSeek 改变的是进入门槛和单价的技术下限，不是把已经计提的集团 PPE 变成可逆投资。买方若按「门槛已被打穿」去减柜，要先看到用量格子，而不是先看到一篇技术报告。
+**US$5.576M** 不能外推成「所有前沿模型都只需五百万美元」。报告自己把租金假设写死为 US$2/GPU-hour，并且把研究、废实验、集群折旧排除在外。换一套未公开的预训练配方，或把上下文和后训练拉长，同一公式会给出另一笔数。能站住的只有这一次官方训练运行的 GPU 时。MLA 压的是 KV，不是把推理期总电量清零：并发上去之后，机房里转的还是 HBM 和电。所以 DeepSeek 改变的是进入门槛和单价的技术下限，不是把已经计提的集团 PPE 变成可逆投资。买方若按「门槛已被打穿」去减柜，要先看到用量格子，而不是先看到一篇技术报告。
 
 ## 4. 情景、反方与可检验指标
 
@@ -103,3 +103,4 @@ $557.6 万不能外推成「所有前沿模型都只需五百万美元」。报�
 ## 本篇关键公开来源
 
 - DeepSeek-V3 Technical Report（2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
+- DeepSeek-V2 technical report / repository（93.3% KV-cache reduction、5.76× max generation throughput 相对 DeepSeek 67B）： https://github.com/deepseek-ai/DeepSeek-V2
