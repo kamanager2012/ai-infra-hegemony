@@ -116,6 +116,20 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 
 S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺激新的 application demand。
 
+## 5.1 四类标准情景的比较框架
+
+**Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号**
+
+| 情景 | 核心驱动 | 主要产业结果 | 关键反向信号 |
+|---|---|---|---|
+| S1 — Competitive Expansion | supply elasticity、multi-sourcing、portability 上升 | value capture 更分散，buyer optionality 提高 | scarce-layer tightness 重新强化、migration cost 回升 |
+| S2 — Baseline Concentration | demand 强、dominant platforms 强、替代持续但不完全 | 高增长与集中并存 | supply/substitution 明显改善或 ROI/commitments 同步恶化 |
+| S3 — Resource Hegemony | 多层 scarcity + switching cost + forward reservation 强化 | incremental capacity 更集中，后来者复制成本提高 | capacity access 分散、open interfaces 显著降低迁移成本 |
+| S4 — Capital Hard Landing | utilization / monetization 弱于资本基数 | clearing、orders、CapEx 与资产价值下行 | utilization、clearing price 和 forward commitments 恢复 |
+
+**Source:** 本报告 S1–S4 scenario framework。  
+**Note:** 四类情景是并列条件状态，不赋固定概率，也不是必然连续阶段。
+
 ## 5A. AI Capacity Gap：S1–S4 的跨情景诊断轴
 
 S1–S4 保持为并列条件状态，不新增第二套情景命名。为了判断状态权重如何移动，本书增加一个跨情景诊断变量：
@@ -207,7 +221,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 ## 12. 当前基准
 
-截至 2026 年 8 月，正式 baseline 是：
+截至 2026 年 8 月，本报告的 baseline 是：
 
 > **S2 — Baseline Concentration**
 
@@ -235,7 +249,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 这使远期判断可以随产业事实更新，而不依赖一次性押注。
 
-## 核心监测入口
+## 交叉引用
 
 - [第29章：核心指标与证据监测框架](part-IV-ch29-monitoring-framework.md)
 - [第32章：总判](part-IV-ch32-master-judgment.md)
