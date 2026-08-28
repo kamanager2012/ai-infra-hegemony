@@ -35,7 +35,7 @@ Current anchors include:
 
 - TSMC 2025 HPC platform share **58%**;
 - TSMC management continuing to describe advanced packaging as tight and growth-limiting;
-- NVIDIA supply-related commitments of **$119.0B** at FY27 Q1;
+- NVIDIA manufacturing, supply, and capacity commitments of **US$279B** at FY27 Q2, up from US$119B at FY27 Q1;
 - NVIDIA FY27 Q2 revenue **$96.221B**, Data Center **$89.0B**, GAAP gross margin **75.0%**, operating income **$63.734B**;
 - hyperscaler system stacks continuing to develop across Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA;
 - long-duration model-company infrastructure commitments from OpenAI/Stargate and Anthropic/AWS;
@@ -170,7 +170,7 @@ Evidence that should shift weight toward **S1**:
 
 Evidence that should shift weight toward **S3**:
 
-- supply commitments keep rising;
+- supply commitments keep rising; FY27 Q2 source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm ;
 - advanced packaging remains growth-limiting;
 - HBM remains highly resource-intensive;
 - a leading platform repeatedly receives incremental first-to-market capacity;
