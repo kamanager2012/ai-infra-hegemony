@@ -1,21 +1,19 @@
 # AI基础设施霸权时代
 ### The Age of AI Infrastructure Hegemony
 
-**发布状态：Pre-release Publication QA Edition；目标 v1.0.0 尚未发布。**
+行业深度研究报告。中文与英文均已形成 **4 Part / 32 章完整研究结构**。仓库同时保留 **40 个分卷研究模块 + 8 篇宏观专题**作为证据回溯、专题研究与持续更新基础。连续阅读请从[报告目录](publication/01-table-of-contents.md)进入。
 
-行业深度研究专著。中文与英文 **Publication Layer 均已完成 4 Part / 32 章正式同步，并通过 Markdown 层 QA 与逐章双语结构/高风险数值回归**。仓库保留 **40 个分卷研究模块 + 8 篇宏观专题**作为证据回溯与研究存档。正式连续阅读请从[出版版目录](publication/01-table-of-contents.md)进入。
+[English research page](README.md) · [English edition index](en/README.en.md)
 
-[English release page](README.md) · [English edition index](en/README.en.md) · [Release notes](RELEASE_NOTES.md)
+> **中文版 32 章研究正文是双语事实、证据等级与分析口径的 canonical source；英文版与当前中文版保持同一套 F → H → M → S → X 架构。**
 
-> **中文版 Publication Layer 是双语事实、证据等级与分析口径的 canonical source；英文 Publication Layer 已按当前中文版重新同步，并保持同一套 F → H → M → S → X 架构。**
-
-> 中文与英文 Publication Layer 均为 **32/32 章**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。两版 Markdown 结构/引用 QA、双语结构/高风险数值回归、critical-link sweep 与当前 Publication Layer 版权/长引文审计均已通过；**最终 Publication Ready 现主要取决于已启用的 `Release QA v1` 获得 GitHub-hosted runner 分配（或本地/WSL fallback 实跑），随后完成双语 PDF/EPUB 实构建与 machine proof、最终人工 proofread/低风险语义复核、作者 COI 确认，以及最终发布日期/Release 操作。**
+> 中文与英文均为 **32/32 章**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。后续工作只围绕研究报告本身：继续核实低风险事实语义、强化产业机制、清理重复论证、统一数据口径与行业术语，并完善最终文字表达。
 
 本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-28**；本文不构成审计意见、投资建议或法律意见。
 
 本报告原创研究文本采用 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International（CC BY-NC-ND 4.0）**。**禁止商业使用**；仅可在署名并遵守许可证条款的前提下传播未经改编的原始材料，不得传播翻译、改写、节选重组等衍生版本。详见 [LICENSE](LICENSE)。
 
-X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Release Notes](RELEASE_NOTES.md)；历史存档版本见 [v0.1.0](https://github.com/kamanager2012/ai-infra-hegemony/releases/tag/v0.1.0)。当前研究以 `main` 为准。
+当前研究以 `main` 为准；历史版本仅用于追溯，不作为当前结论依据。
 
 
 ## 核心发现
