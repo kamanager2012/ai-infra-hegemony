@@ -41,7 +41,8 @@ SK hynix FY25 官方数据：
 - Net income：**KRW 42.9479T**
 - HBM revenue：同比超过一倍
 
-来源：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+来源：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/  
+中央来源锚见[核心参考文献索引](核心参考文献索引.md)。
 
 这一组数据说明，HBM 需求已经不仅改变产品结构，也显著改变存储厂盈利结构。
 
