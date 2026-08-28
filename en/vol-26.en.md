@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-26.md](../vol-26.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Large model companies are increasingly influencing infrastructure investment through long-duration demand. Announced investment, reserved capacity, constructed capacity, energized capacity, and utilization remain separate states.
+> Retrieval and revision cutoff: **2026-08-28**. Large model companies are increasingly influencing infrastructure investment through long-duration demand. Announced investment, reserved capacity, constructed capacity, energized capacity, and utilization remain separate states.
 
 ## 1. Model companies are moving from compute tenants toward long-duration infrastructure buyers
 
