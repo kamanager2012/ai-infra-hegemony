@@ -4,7 +4,7 @@
 
 AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry allocation、power、regulation 与 system substitution 都快速变化。
 
-因此 publication layer 不能只在发布日期成立。
+因此，本报告的结论必须设计成可持续更新，而不是只在发布日期成立。
 
 每次更新只回答三件事：
 
@@ -16,6 +16,8 @@ AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry alloc
 
 ### NVIDIA 当前锚
 
+**Table 29.1 — NVIDIA seller economics 与 forward-reservation 基线**
+
 | 指标 | 当前公开值 |
 |---|---:|
 | FY26 Revenue | US$215.938B |
@@ -26,6 +28,9 @@ AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry alloc
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
 | Rubin | full production |
+
+**Source:** NVIDIA FY26 results、FY27 Q2 results 与 FY27 Q2 Form 10-Q.[^1][^2]  
+**Note:** company-defined non-GAAP FCF 与 GAAP metrics 必须保留各自口径；commitments 为 aggregate amount，未披露 supplier-level split。
 
 Supply / capacity commitments：
 
@@ -91,6 +96,8 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 ## 6. Dashboard E — Power State Machine
 
+**Table 29.2 — Power project state machine**
+
 | 状态 | 解释 |
 |---|---|
 | Announced | 项目 / 目标公布 |
@@ -98,6 +105,9 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 | Permitted | 关键许可获得 |
 | Energized | 实际送电 |
 | Utilized | 形成真实负载 |
+
+**Source:** 本报告 power-state framework。  
+**Note:** state machine 用于防止把 headline MW/GW、contract quantity 或 project target 写成 active AI load。
 
 当前代表性项目：
 
@@ -183,12 +193,17 @@ CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts�
 
 ## 11. Evidence-grade 快速规则
 
+**Table 29.3 — 更新时的默认 evidence grade**
+
 | 数据类型 | 默认等级 |
 |---|---|
 | company filing / official product / government / court / formal contract | A |
 | institutional research | B |
 | sell-side / supply-chain / media estimate | C |
 | report geometry / stress test / hypothetical rack count | D |
+
+**Source:** 本报告证据方法（见第27章）。  
+**Note:** 默认等级可因来源质量上调或下调，但不能因重复引用自动升级。
 
 任何更新都必须保持原始等级；数字更新不等于证据等级自动提升。
 
@@ -218,13 +233,11 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 这使报告能够长期更新，而不是在每次产品发布、股价波动或传闻后改写产业故事。
 
-## 关键公开来源导航
+## References
 
-- [核心证据台账](../核心证据台账.md)
-- [核心参考文献索引](../核心参考文献索引.md)
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TrendForce 2026E memory structure: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics and Rubin status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^3]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
