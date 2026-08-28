@@ -308,7 +308,7 @@ S4 should become the dominant interpretation only when several groups deteriorat
 | Government, regulator, court, formal contract | A |
 | TrendForce / OECD / IEA / Stanford HAI | B |
 | Investment-bank, supply-chain, or media estimate | C |
-| 5.39 CoWoS wafers/rack | D |
+| 5.37 CoWoS wafers/rack | D |
 | Hypothetical rack-count demand | D |
 
 The grade describes the evidentiary basis of a claim, not whether the mechanism itself is economically important.
