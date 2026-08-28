@@ -106,7 +106,7 @@ General server 不一定需要 HBM，但会使用 DDR5 RDIMM。由于 RDIMM 本�
 
 ### 5.3 Smartphone
 
-Smartphone 仍是 TSMC 第二大 platform。TSMC 2025 Smartphone platform 占全年 revenue **29%**；另一个独立指标是 platform revenue **同比增长 11%**。29% 是 revenue mix，+11% 是 YoY growth，不能混成一个口径。来源：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf 。
+Smartphone 仍是 TSMC 第二大 platform。TSMC 2025 Smartphone platform 占全年 revenue **29%**；另一个独立指标是 platform revenue **同比增长 11%**。29% 是 revenue mix，+11% 是 YoY growth，不能混成一个口径。来源：https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf 。
 
 因此，AI 并没有“挤掉手机”。
 
@@ -175,6 +175,8 @@ AI Resource Gravity 的核心不是“AI 需求最大”，而是**AI 订单具�
 ## 本卷关键公开来源
 
 - TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page： https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-- TSMC 4Q25 presentation（Smartphone 29% revenue mix；+11% YoY platform-revenue growth）： https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
+- Micron FY25 10-K（HBM requires more wafers / cleanroom space）： https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+- TSMC 4Q25 presentation（Smartphone 29% revenue mix；+11% YoY platform-revenue growth）： https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K（Gaming +41%；FY27 Q1 and beyond supply-constraint headwind）： https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
