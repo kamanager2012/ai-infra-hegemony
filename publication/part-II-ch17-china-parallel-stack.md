@@ -92,11 +92,11 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ## 6. Memory 是最容易被“国产存储”总词掩盖的层
 
-长鑫科技 **2026-05-27 上交所注册稿**披露 DDR 与 LPDDR 产品。[^7]对注册稿全文检索 `HBM` 与“高带宽内存”均无命中，因此本报告只保留一个窄结论：
+长鑫科技的公开招股/注册材料披露 DDR 与 LPDDR 产品；公司随后已于 **2026-07-27** 在上交所科创板上市交易。[^7][^18] 对相关公开材料检索 `HBM` 与“高带宽内存”未见可用于确认量产产品线的披露，因此本报告只保留一个窄结论：
 
-> **该注册稿未披露 HBM 产品线。**
+> **现有公开发行与产品材料不足以确认已形成可规模交付的 HBM 产品线。**
 
-这不证明企业不存在任何 HBM R&D；但要把 HBM 从研发可能性升级为 frontier system supply，必须看到 official product、customer qualification、volume production、bandwidth/capacity 与 packaging integration。
+这不证明企业不存在任何 HBM R&D；但要把 HBM 从研发可能性升级为 frontier system supply，仍必须看到 official product、customer qualification、volume production、bandwidth/capacity 与 packaging integration。上市改变的是资本市场与融资阶段，不会自动跨越 HBM、advanced packaging 或 frontier-system closure 的技术门槛。
 
 同一注册稿还必须严格区分 project investment 与 planned offering proceeds：三项项目总投资与拟使用募集资金不是同一分母；其中 DRAM 技术升级项目 **RMB18.0B 总投资**与 **RMB13.0B 拟使用募集资金**不得混用。
 
@@ -118,7 +118,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ### 6.2 国产 Memory Scale：必须区分 Revenue Share 与 Shipment Share
 
-长鑫招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四、中国第一。[^11]
+长鑫公开招股材料引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四。[^11]
 
 因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本书事实层。
 
@@ -207,7 +207,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 如果中国 parallel stack 在 advanced logic、HBM、packaging、interconnect 与 software 上同时规模化，它不会只是“替代进口”，还会形成第二个大型资源重力中心：新的 foundry demand、memory demand、packaging demand、power demand 与长期资本承诺会进入全球/区域资源分配。
 
-目前公开证据尚不足以证明这一第二个 frontier resource center 已经达到与全球主栈等价的完整规模。长鑫注册稿未披露 HBM product line，SMIC 5.1% 是 foundry revenue share 而非 frontier capability，多个 non-silicon layer 仍需要独立验证。
+目前公开证据尚不足以证明这一第二个 frontier resource center 已经达到与全球主栈等价的完整规模。长鑫已经进入公开资本市场并扩大 conventional DRAM 产业化能力，但这不能替代 HBM-class memory、advanced packaging 与其他 frontier layers 的独立验证；SMIC 5.1% 也只是 foundry revenue share，而非 frontier capability。
 
 因此，当前更准确的状态是：**中国已经跨过“没有替代系统”的阶段，但尚未跨过“所有关键层都实现全球等价规模闭环”的阶段。**
 
@@ -231,14 +231,16 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 [^4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
 [^5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
 [^6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
-[^7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+[^7]: CXMT, public offering / registration materials, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
 [^8]: CXMT, official DDR5 product page, https://www.cxmt.com/en/product.html
 [^9]: YMTC, company profile and product portfolio, https://www.ymtc.com/en/aboutus.html ; https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
 [^10]: Micron Technology, investor material on HBM4E base logic die partnership with TSMC, https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
-[^11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, global #4, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^11]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, global #4, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
 [^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
 [^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 [^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
 [^16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
 [^17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+
+[^18]: Shanghai Stock Exchange, listing announcement for CXMT (688825), 2026-07-24; trading commenced 2026-07-27, https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
