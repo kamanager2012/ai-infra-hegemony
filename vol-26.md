@@ -66,7 +66,7 @@ Anthropic 与 AWS 已形成长期深度基础设施关系。
 
 这说明：
 
-> model company demand 可以成为 cloud custom silicon 的第一大锚定 workload。
+> model company demand 可以成为 cloud custom silicon 的**重要锚定 workload**。公开披露能证明规模很大，但不能据此写成“第一大”，除非有明确的 workload-share 排名。
 
 因此，Anchor Buyer 不只是帮助基础设施扩张，也可以改变 accelerator competition。
 
