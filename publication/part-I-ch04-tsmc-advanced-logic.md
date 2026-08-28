@@ -71,7 +71,7 @@ AHICR 必须按 physical layer 分别看 logic、HBM、packaging、power，不�
 
 TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoWoS allocation 未披露。TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计属于 B 级机构数据。
 
-5.39 CoWoS wafers/rack 是报告侧 D 级 geometry stress test，不是 TSMC yield，也不能拿 TSMC 全年 15M front-end wafer shipments 去除。
+5.37 CoWoS wafers/rack 是报告侧 D 级 geometry stress test，不是 TSMC yield，也不能拿 TSMC 全年 15M front-end wafer shipments 去除。
 
 这说明“leading-edge logic available”与“complete AI system deliverable”不是同一个问题。
 
