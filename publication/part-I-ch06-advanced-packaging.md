@@ -1,6 +1,5 @@
 # Part I · 第6章：Advanced Packaging、CoWoS 与系统交付瓶颈
 
-> **出版层章节。** 由研究模块 [vol-24](../vol-24.md) 与 [macro-03](../part2-03.md) 重编，并与 [vol-04](../vol-04.md) 的 TSMC 先进制造口径保持一致。本章只回答 advanced packaging 这一独立物理池：什么已经被一手确认，什么只是机构估计，什么只是报告侧几何压力测试。
 
 ## 1. Advanced packaging 已经从配套环节变成系统交付层
 
