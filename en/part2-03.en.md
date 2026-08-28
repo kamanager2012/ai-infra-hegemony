@@ -71,21 +71,21 @@ The key evidence boundary is:
 
 That makes advanced packaging one of the clearest observable short-term delivery constraints.
 
-## 4. The 5.39 wafers-per-rack coefficient is a geometry stress test
+## 4. The 5.37 wafers-per-rack coefficient is a geometry stress test
 
 The report's working relation is:
 
 ```text
 72 GPU packages
 ÷ 13.4 packages per CoWoS wafer
-≈ 5.39 CoWoS wafers per rack
+≈ 5.37 CoWoS wafers per rack
 ```
 
 The **72** is tied to the official NVL72 configuration.
 
 The **13.4 packages per wafer** term is a geometry assumption.
 
-The resulting **5.39** is therefore **D-grade engineering geometry**.
+The resulting **5.37** is therefore **D-grade engineering geometry**.
 
 It is not:
 
@@ -95,11 +95,11 @@ It is not:
 
 The coefficient is useful for scenario stress tests.
 
-It is not valid to divide TSMC's full annual wafer shipments by 5.39 and claim a global rack-production limit.
+It is not valid to divide TSMC's full annual wafer shipments by 5.37 and claim a global rack-production limit.
 
 That mixes different physical pools.
 
-## 5. Why the “835,000 racks” style calculation fails
+## 5. Why the “an invalid six-figure rack-count extrapolation” style calculation fails
 
 TSMC's full-fab wafer shipments include:
 
