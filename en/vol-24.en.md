@@ -56,14 +56,14 @@ It should not be restated as:
 
 Its correct use is scenario analysis: if one buyer continues to represent a very large share of demand, residual packaging capacity available to competitors can become strategically important.
 
-## 4. 5.39 CoWoS wafers per rack is a D-grade geometry stress test
+## 4. 5.37 CoWoS wafers per rack is a D-grade geometry stress test
 
 The report uses the following geometry stress test:
 
 ```text
 72 packages
 ÷ 13.4 packages per wafer
-≈ 5.39 CoWoS wafers per rack
+≈ 5.37 CoWoS wafers per rack
 ```
 
 The coefficient is designed only to illustrate the order of magnitude of packaging pressure created by rack-scale systems.
@@ -77,7 +77,7 @@ It is **not**:
 
 The **13.4 packages per wafer** term is itself a geometry assumption, not a TSMC manufacturing disclosure.
 
-The 5.39 coefficient therefore must not be combined with TSMC's roughly 15 million annual 12-inch-equivalent wafer shipments as though both figures described the same production pool.
+The 5.37 coefficient therefore must not be combined with TSMC's roughly 15 million annual 12-inch-equivalent wafer shipments as though both figures described the same production pool.
 
 ## 5. Why packaging can become a shorter-term quota than the node itself
 
@@ -191,7 +191,7 @@ As of **August 2026**:
 - TSMC has directly confirmed advanced-packaging tightness;
 - institutional research supports the view that NVIDIA has an unusually large influence on CoWoS demand;
 - TSMC still does not disclose a customer-level CoWoS split;
-- **5.39 wafers per rack** remains a **D-grade geometry stress test**;
+- **5.37 wafers per rack** remains a **D-grade geometry stress test**;
 - cloud custom silicon continues to compete for many of the same upstream scarce resources.
 
 CoWoS and advanced packaging are therefore among the most important physical quotas in AI infrastructure today.
