@@ -1,7 +1,5 @@
 # Part II · Chapter 16: AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths
 
-> **Publication-layer chapter.** Based primarily on [Volume 33](../vol-33.en.md). These four companies do not form an "anti-NVIDIA alliance." They alter the competitive structure from different directions: data-center systems, a dual product/foundry clock, edge AI, and vertically integrated device stacks.
-
 ## 1. The four companies should not be collapsed into one "traditional semiconductor camp"
 
 AMD, Intel, Qualcomm, and Apple differ in compute layer, software, manufacturing access, workload mix, distribution, and capital structure.
