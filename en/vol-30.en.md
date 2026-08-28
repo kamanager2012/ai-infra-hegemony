@@ -32,7 +32,7 @@ AI investment includes:
 - grid infrastructure;
 - power contracts.
 
-These assets do not share one useful life.
+These assets do not share one useful life. Current first-party accounting policies also differ: Microsoft FY26 lists **2–6 years** for servers and network equipment; Alphabet 2025 generally uses **6 years**; Meta 2025 uses **5–5.5 years** for servers and network assets; Amazon 2025 uses **5–6 years** for servers and networking equipment. Companies can also revise these estimates as technology changes.
 
 A universal “four-year straight-line depreciation” model is therefore inappropriate for the entire AI-infrastructure stack.
 
@@ -156,7 +156,7 @@ Demand certainty makes projects financeable, but weak monetization can turn the 
 
 ## 10. 2036 cannot be derived directly from 2026 depreciation
 
-One investment wave eventually depreciates.
+A 2026 investment wave will enter depreciation or amortization according to each asset's useful life, in-service date, impairments, and later estimate changes. There is no single year in which the whole wave mechanically “finishes depreciating.”
 
 The industry structure in 2036 will depend on:
 
@@ -204,3 +204,11 @@ The combination that would materially strengthen S4 is:
 - weakening enterprise AI monetization.
 
 Only when several of these signals deteriorate together should S4 move from stress test to dominant current interpretation.
+
+
+## Key public sources for this volume
+
+- Microsoft FY26 10-K — servers/network equipment useful life 2–6 years: https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+- Alphabet 2025 10-K — servers/network equipment generally 6 years: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+- Meta 2025 10-K — servers/network assets 5–5.5 years: https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+- Amazon 2025 10-K — servers/networking equipment 5–6 years; subset changed from 6 to 5 years in 2025: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
