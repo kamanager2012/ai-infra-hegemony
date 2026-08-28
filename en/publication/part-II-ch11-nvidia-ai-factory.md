@@ -8,7 +8,7 @@ Its expansion is better described as:
 
 > **interface control + reference architecture + software/runtime + supply orchestration**
 
-The system boundary now spans GPU / CPU, NVLink / NVSwitch, networking, rack-scale design, liquid-cooling requirements, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^1][^2][^3]
+The system boundary now spans GPU / CPU, NVLink / NVSwitch, networking, rack-scale design, liquid-cooling requirements, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^1][^2][^3][^1][^2][^3]
 
 ## 2. The rack-scale sales unit changes the role of OEMs and ODMs
 
@@ -51,7 +51,7 @@ The more accurate strategic effect is:
 
 ## 6. Why asset-light orchestration matters
 
-NVIDIA leaves much of the manufacturing CapEx with TSMC, memory vendors, the packaging ecosystem, and infrastructure providers while influencing their expansion through long-duration commitments, prepayments, roadmap coordination, and volume certainty. NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^4]
+NVIDIA leaves much of the manufacturing CapEx with TSMC, memory vendors, the packaging ecosystem, and infrastructure providers while influencing their expansion through long-duration commitments, prepayments, roadmap coordination, and volume certainty. NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^4] NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^4]
 
 The structure is:
 
