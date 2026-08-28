@@ -38,14 +38,16 @@ These layers are not simple duplicates, but presenting them as “40 volumes + 8
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
-19. AI-infrastructure CapEx supercycle — vol-08  
-20. Value Capture Map and capital flows — vol-14 + vol-21  
-21. Consumer-electronics and real-economy transmission — vol-22 + macro-05  
-22. Depreciation wall and duration mismatch — vol-30  
-23. AI-infrastructure capital markets and financing — vol-36  
-24. Bubble detection, market clearing, and S4 — vol-37 + macro-07  
-25. AI and labor markets — vol-38  
-26. Education and talent systems — vol-39  
+**Status: 8/8 English publication chapters synchronized.**
+
+19. [The AI-Infrastructure CapEx Supercycle](publication/part-III-ch19-capex-supercycle.md) — vol-08  
+20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](publication/part-III-ch20-value-capture-map.md) — vol-14 + vol-21  
+21. [Cost Transmission into Consumer Electronics and the Real Economy](publication/part-III-ch21-consumer-transmission.md) — vol-22 + macro-05  
+22. [The Depreciation Wall and Duration Mismatch](publication/part-III-ch22-depreciation-wall.md) — vol-30  
+23. [AI-Infrastructure Capital Markets and Financing Structure](publication/part-III-ch23-capital-financing.md) — vol-36  
+24. [Bubble Identification, Capital Clearing, and S4](publication/part-III-ch24-capital-clearing.md) — vol-37 + macro-07  
+25. [AI and Labor Markets — The Task-to-Job Translation Layer](publication/part-III-ch25-labor-market.md) — vol-38  
+26. [Education and Talent Systems in the AI Era](publication/part-III-ch26-education-talent.md) — vol-39  
 
 ## Part IV — Method, Scenarios, Monitoring, and Strategy
 
@@ -73,4 +75,4 @@ The repository keeps two layers:
 - **Research layer:** 40 volumes + 8 macro essays for traceability, independent revision, and Git diffs.
 - **Publication layer:** approximately 32 chapters in four parts for continuous reading, PDF/e-book production, and public release.
 
-Existing volume numbers remain stable as research-layer IDs. English publication synchronization is now complete for Part I and continues through Parts II–IV.
+Existing volume numbers remain stable as research-layer IDs. English publication synchronization is now complete for Parts I–III and continues through Part IV.
