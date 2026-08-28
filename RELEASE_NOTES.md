@@ -2,6 +2,27 @@
 
 > Publication QA and research retrieval/revision cutoff updated **2026-08-28**. The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
 
+## 2026-08-28 publication and evidence QA
+
+### Publication-layer milestone
+
+- Chinese Publication Layer now contains **32/32 integrated chapters** across four parts: Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6.
+- `publication/README.md` and `出版结构.md` each resolve to **32 unique publication-chapter links**.
+- The 32-chapter first integration pass is complete; this is **not** a declaration that final publication QA is fully green. Evidence-chain, dead-link, source-depth, bilingual synchronization, and whole-book consistency checks continue.
+
+### Core evidence correction — Micron HBM wafer trade ratio
+
+- Corrected the first-party source for the widely cited **HBM3E ≈ 3× DDR5 wafer-supply trade ratio** from **Micron FY24 Q3** to **Micron FY24 Q2 Prepared Remarks (March 20, 2024)**.
+- The official source states the boundary explicitly: **industrywide, same technology node, same number of bits**.
+- Replaced the legacy Micron `static-files` URL, which now redirects away from the document, with the direct official Q4CDN PDF deep link.
+- Propagated the correction through the Chinese research layer, English research mirrors, core evidence ledgers/reference indexes, top-level READMEs, and affected publication chapters.
+
+### Publication evidence-chain cleanup
+
+- Added first-party source blocks to the NVIDIA AI Factory, Physical AI, and differentiated-competitor publication chapters.
+- Replaced Micron event/landing-page references with the direct prepared-remarks document.
+- Verified high-risk TSMC transcript/presentation, SEC, TrendForce, NVIDIA, Constellation/NRC, Anthropic, Microsoft, Intel, Qualcomm, and U.S. Commerce links used by the publication layer.
+
 ## English
 
 The current research version is the `main` branch. GitHub release `v0.1.0` is an archival snapshot.
