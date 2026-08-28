@@ -68,6 +68,29 @@ The relevant chain is:
 
 This is stronger evidence for the mechanism than an unverified claim about one flagship SoC's customer price.
 
+## 3A. Two-Speed Semiconductor Economy: the deeper change is the capital-allocation function
+
+Consumer-electronics pressure should not be judged only by whether a device vendor can obtain supply this quarter. The deeper change occurs in the formation of the next round of capacity.
+
+TSMC's 2Q26 revenue mix placed HPC at **66%** of quarterly revenue and Smartphone at **22%**; HPC revenue rose **20% QoQ**, while Smartphone fell **4% QoQ**. These are TSMC platform-revenue metrics, not global semiconductor shares, and HPC cannot be treated as identical to AI. TSMC also raised its 2026 capital budget to **US$60B–64B**, with most spending directed toward advanced process technologies and continued investment in advanced packaging, testing, and related areas. Source: https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+Samsung's 2Q26 results provide a first-party memory-side anchor. Samsung said that, under **limited capacity**, its Memory Business focused primarily on server products and expected demand for server DRAM, enterprise SSDs, and HBM to accelerate in 2H26. Even with partial moderation in mobile and PC demand, Samsung expected the memory market to remain undersupplied. Source: https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results
+
+The result is an increasingly visible two-speed resource economy:
+
+| Dimension | AI Infrastructure Economy | Traditional Device Economy |
+|---|---|---|
+| Main buyers | hyperscalers / system sellers / Anchor Compute Buyers | smartphone / PC / consumer OEMs |
+| Allocation tools | long contracts, prepayments, capacity reservation, higher price tolerance | BOM discipline, retail price elasticity, product segmentation |
+| Capital effect | stronger pull on advanced logic, HBM, packaging, and power buildout | greater dependence on residual supply, cost pass-through, and replacement cycles |
+| Main risk | utilization / monetization below the capital base | BOM inflation / demand destruction / product downgrading |
+
+This report calls the structure **Two-Speed Semiconductor Economy**. It is not another way to say that “AI takes every consumer chip.” The stronger proposition is:
+
+> **AI/HPC is changing the function by which the semiconductor industry decides where the next dollar of capital is deployed.**
+
+That is why current-quarter allocation is only the first layer. Equipment allocation and the design of future fab, packaging, and memory CapEx are the longer-lived second and third layers.
+
 ## 4. Channel prices are thermometers, not vendor ledgers
 
 Huaqiangbei channel observations showed sharp increases in DDR5 and SSD spot pricing in mid-2026.
