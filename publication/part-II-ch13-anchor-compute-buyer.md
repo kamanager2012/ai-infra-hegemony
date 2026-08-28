@@ -24,7 +24,7 @@
 
 OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。[^1]
 
-随后官方把长期目标描述为到 2029 年确保 10 GW 美国 AI infrastructure。
+随后官方把长期目标描述为到 2029 年确保 **10 GW** 美国 AI infrastructure。[^2]
 
 状态继续前移：OpenAI 在 **2026-04-29** 表示已**超过 10 GW secured-capacity milestone**，并称此前 90 天新增超过 3 GW；[^2] **2026-06-01**，Michigan 的 **1 GW The Barn** data-center campus 正式破土。[^3]
 
