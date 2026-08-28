@@ -9,7 +9,7 @@ frontier AI system 同时需要 leading-edge logic、HBM、advanced packaging、
 
 > **谁能在 N2/N2P/A16 等下一代资源进入 volume production 时，稳定获得足够规模，并同时匹配 memory、packaging 与 system roadmap。**
 
-## 2. TSMC 2025 的事实底座
+## 2. TSMC 2025 的关键事实
 
 **Table 4.1 — TSMC 2025 产能、技术与平台收入结构**
 
