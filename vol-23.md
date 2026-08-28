@@ -153,4 +153,6 @@ HBM 的战略价值来自三个同时存在的特征：
 
 ## 本卷关键公开来源
 
+- Micron FY24 Q3 event page：https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY25 10-K（HBM requires more wafers / cleanroom space）：https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
