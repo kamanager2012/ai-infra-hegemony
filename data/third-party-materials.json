@@ -2,5 +2,14 @@
   "version": "2026-08-28",
   "scope": "publication/ and en/publication/ only",
   "policy": "Every embedded image or other third-party media asset in the formal Publication Layer must have a rights record before release. The current Publication Layer intentionally embeds no third-party raster/vector figures; source data are presented as report-authored tables with citations.",
-  "assets": []
+  "assets": [],
+  "last_publication_rights_audit": {
+    "date": "2026-08-28",
+    "publication_files_checked": 78,
+    "embedded_third_party_media": 0,
+    "long_inline_quoted_passages_over_25_words": 0,
+    "long_blockquotes_reviewed": "All >25-word Markdown blockquotes in the formal Publication Layer were reviewed as report-authored analytical callouts/mechanism summaries, not reproduced third-party prose.",
+    "result": "PASS for current formal Publication Layer",
+    "boundary": "Any future embedded third-party image, figure, iframe, or long reproduced quotation must reopen the rights gate and add an explicit rights/provenance record."
+  }
 }
