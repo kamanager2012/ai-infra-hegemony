@@ -182,10 +182,13 @@ Intel 1999 年主要财务数据：
 
 | 指标 | 1999 |
 |---|---:|
-| Revenue | **$29.389B** |
+| Net revenue | **US$29.389B** |
 | Gross margin | 约 **59.7%** |
-| Operating income | **$9.767B** |
-| Net income | **$7.314B** |
+| Operating income | **US$9.767B** |
+| Net income | **US$7.314B** |
+
+公开来源：Intel Corporation 1999 Annual Report  
+https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-05/history-1999-annual-report.pdf
 
 Intel 当时的优势主要集中在 CPU、x86 软件兼容和自有制造。
 
