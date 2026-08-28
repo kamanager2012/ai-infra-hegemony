@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-23.md](../vol-23.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. HBM's strategic scarcity is analyzed through manufacturing input, integration complexity, and qualification—not through a commodity analogy or an unsupported future stack-height formula.
+> Retrieval and revision cutoff: **2026-08-28**. HBM's strategic scarcity is analyzed through manufacturing input, integration complexity, and qualification—not through a commodity analogy or an unsupported future stack-height formula.
 
 ## 1. What gives HBM “new oil” characteristics
 
