@@ -1,7 +1,5 @@
 # Part III · Chapter 20: Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing
 
-> **Publication-layer chapter.** Recompiled from [Volume 14](../vol-14.en.md) and [Volume 21](../vol-21.en.md). This chapter does not estimate a single "global AI profit pool" or double-count revenue, CapEx, and upstream revenue across companies. The core question is: **As the same dollar passes through system platforms, manufacturing, memory, cloud, power, and applications, where does value remain—and where does risk remain?**
-
 ## 1. The same dollar cannot be counted repeatedly across the supply chain
 
 The same AI-infrastructure spending can appear as:
