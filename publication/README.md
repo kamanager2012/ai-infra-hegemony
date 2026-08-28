@@ -1,6 +1,6 @@
 # Publication Layer · 出版层总目录
 
-> 这里存放面向连续阅读的出版版正文。**当前状态：Publication Integrated / Publication QA in progress；尚未标记为 Publication Ready。** 32/32 章存在只代表结构整合完成，不代表引文、图表、版权、版式与导出 QA 已全部通过。
+> 这里存放面向连续阅读的出版版正文。**中文版 32/32 章已完成第一轮专业出版编辑，并通过 Markdown 层结构/引用一致性 QA；英文版尚待按中文版重新同步。整体项目仍未标记为 Publication Ready。** 最终封版仍需完成中英逐章 regression、关键外链复扫、版权确认与 PDF/电子书导出 QA。
 
 正式封版门禁见 [《出版封版标准》](../出版封版标准.md)；出版前置页见 [Front Matter](00-front-matter.md)；完整结构见 [《出版版结构》](../出版结构.md)。
 
@@ -47,8 +47,11 @@
 - **Part II — 需求、替代与第二系统栈：9/9。**
 - **Part III — 资本周期、利润池与外部传导：8/8。**
 - **Part IV — 方法、情景、监测与战略：6/6。**
-- **Publication Layer：32/32 章已完成结构整合（Publication Integrated）。**
-- **Publication Ready：未通过最终封版门禁；仍在逐章 citation / table / figure / copyright / export QA。**
+- **中文 Publication Layer：32/32 章完成结构整合与第一轮专业出版编辑。**
+- **中文 Markdown QA：PASS** — References 32/32、footnote 引用定义一致、正文裸 URL 清零、施工语气清零、标题层级无跳级、Table 编号/Source/Note 一致、常见单位大小写错误清零。
+- **中文 Front Matter：已补齐** — 报告定位/免责声明、正式目录、表格目录、缩写与核心术语表。
+- **英文 Publication Layer：待以当前中文版为唯一翻译源重新同步。**
+- **Publication Ready：尚未完成** — 仍需双语回归、关键外链复扫、第三方材料版权确认、PDF/电子书导出与最终 proofread。
 - **32/32 章节结构与旧口径机械回归：已通过。**
 - **核心证据深链 QA：已完成第一轮。**
 
@@ -62,7 +65,7 @@
 - publication layer 内部“审稿/工作底稿/历史误写”类过程性语言回归清零；
 - NVIDIA / TSMC / SEC / TrendForce / Constellation / NRC / Anthropic / Microsoft / Intel / Qualcomm / OpenAI / U.S. Commerce / Stanford HAI / ILO 等核心来源完成一轮深链抽检。
 
-> `32/32` 仍不等于最终出版物已经封版。剩余主要工作是：**英文 publication layer 同步、逐章 inline citation / footnote 精细化、全书图表与版式统一、最终死链复扫与 PDF/电子书导出 QA。**
+> `32/32` 仍不等于最终出版物已经封版。**中文版正文与引用格式已完成本轮 Markdown QA；下一步先按中文版同步英文 32 章，再进行全书关键外链、版权与 PDF/电子书导出 QA。**
 
 ## 出版层编辑标准
 
