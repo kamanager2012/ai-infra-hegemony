@@ -47,7 +47,7 @@ NVIDIA 的平台优势究竟来自单芯片性能，还是来自计算裸片、H
 接口控制力集中在软件与系统接口。CUDA、PTX、TensorRT-LLM、NeMo、NIM、Mission Control，产品页都当产品线存在。换代可以不拆客户软件。不把 NIM 写成第二利润池。供应链协调力体现在系统配比与首发资源安排，封装紧见[第二十四卷](vol-24.md)。中国栈见[第十二卷](vol-12.md)。NVL72 是把稀缺段利润池控制焊进机柜外形的那一件商品。
 
 
-技术博客还写了互联的世代。NVLink 从 2014 年第一代 160 GB/s 走到第五代 1.8 TB/s，文中写单卡带宽是第一代的 12 倍；域尺寸从单板最多 8 卡（HGX H200，每卡 900 GB/s）扩到 72 卡。576 卡、超过 1 PB/s、240 TB 快内存，是更大域的上限宣传，不是 NVL72 这一柜的规格。本文把柜的规格建立在产品页：72 卡、13.4 TB、17 TB、130 TB/s。世代故事只用来说明裁判权是怎么长出来的：带宽和域尺寸一起涨，以太网要追的不是一个点，是一条被他们自己定义的曲线。
+官方材料可以确认 NVLink 从早期世代持续扩展到第五代 **1.8 TB/s per GPU**，而 GB200 NVL72 把 **72 GPU** 放进一个 NVLink domain；更大的 576-GPU / >1 PB/s / 240 TB 数字属于 NVIDIA 对更大 NVLink domain 的平台级宣传，不是 NVL72 单柜规格。本文把单柜规格固定在产品页可核的 72 GPU、36 Grace CPU、13.4 TB HBM3E、17 TB LPDDR5X 与 130 TB/s aggregate NVLink bandwidth，不再混入缺乏卷内一手锚的 HGX H200 旁支数字。
 
 物理 BOM 有四级，不能跳级报价。晶粒：两颗光罩极限合成一颗逻辑 GPU，发布稿写 10 TB/s 片间。Superchip：两 GPU 加一 Grace，C2C 900 GB/s。托盘：两 Grace 加四 GPU，液冷，80 petaflops，1.7 TB。整柜：18 托盘加 9 交换托盘，铜缆盒。官方给的是这一级的构成，不是这一级的美元。有人用公司毛利 75% 反推「每柜软件 XXX 万」，式子不成立。毛利是全年所有产品的加权，里面有游戏卡、专业卡、汽车、H20 冲减，10-K 没有「NVL72 分项毛利」这一行。存货 FY26 末 $21.4B、Q1 末 $25.8B，产品质保负债 FY26 末 $2.8B，都是公司层。不能把质保或存货除以一个未披露的柜数，当成单柜成本。
 
@@ -84,9 +84,9 @@ NVIDIA 的平台优势究竟来自单芯片性能，还是来自计算裸片、H
 NVL72 的系统控制力可以概括为四个相互连接的层面：72 GPU 与 36 Grace CPU 构成计算主体；NVLink/CUDA 定义关键接口与软件迁移成本；HBM、CoWoS 与互联配比体现供应链协调；Nemotron/NIM 等软件服务继续向上延伸平台能力。其竞争优势来自这些层的协同，而不是任何一个单独部件。
 
 
-newsroom 的伙伴名单是销售单元上移的旁证，不是出货表。2024 年 3 月 18 日稿点名 AWS、Google Cloud、Microsoft Azure、Oracle，以及 CoreWeave、Lambda 等。后来的博客写 CoreWeave 先把 GB200 NVL72 实例公开、OCI 上了液冷柜。名单证明云在按整柜接，不证明哪一家买了多少柜，也不证明柜价。产品页已经另开 GB300 NVL72（72 颗 Blackwell Ultra 加 36 颗 Grace），说明销售单元还会沿这条外形走下去。本文不写 GB300 的未核内存和未核柜价。
+newsroom 的伙伴名单是销售单元上移的旁证，不是出货表。2024 年 3 月 18 日稿点名 AWS、Google Cloud、Microsoft Azure、Oracle，以及 CoreWeave、Lambda 等。CoreWeave 2025-02-04 官方公告称其成为首个将 GB200 NVL72-based instances generally available 的云提供商；NVIDIA 2025-04-28 又披露 OCI 已上线并优化第一波 liquid-cooled GB200 NVL72 racks。两条材料证明 rack-scale system 已进入云端商业部署，但仍不能推出各家柜数或柜价。产品页已经另开 GB300 NVL72（72 颗 Blackwell Ultra 加 36 颗 Grace），说明销售单元还会沿这条外形走下去。本文不写 GB300 的未核内存和未核柜价。
 
-不能从自由现金反推柜数。$96,575M 自由现金除以任何柜价，得到的都是假柜数。官方没有给出除数。这种除法缺少官方柜价作为分母，因此不具备可验证性。能写的是方向：自由现金和营业利润够大，预付款和长期承诺仍在加；公开轨迹已经从 **US$95.2B → US$119B → US$279B**，但这仍不能换算成“今年出了多少柜”或某家供应商拿到多少。
+不能从自由现金反推柜数。FY26 **US$96,575M NVIDIA-defined non-GAAP free cash flow** 除以任何柜价，得到的都是假柜数。官方没有给出除数。这种除法缺少官方柜价作为分母，因此不具备可验证性。能写的是方向：自由现金和营业利润够大，预付款和长期承诺仍在加；公开轨迹已经从 **US$95.2B → US$119B → US$279B**，但这仍不能换算成“今年出了多少柜”或某家供应商拿到多少。
 
 ## 5. 研究边界与未确认事项
 
@@ -98,4 +98,14 @@ NVIDIA 没有公布 NVL72 出厂价、渠道价、分项美元 BOM。历史压�
 
 预付款不拆台积电、不拆 CoWoS、不点名 2nm 首发金额。供应承诺「某些可改期」。多年代云 $27B / $30B 不是晶圆预付款。
 
-净利率 55.6% 是回算。PTX 95%、AMD 落后 30%–50%、单片 Switch 毛利、NIM ARR、整柜出货量，未见可核验的一手披露。本文打开了产品页、技术博客、newsroom Blackwell 稿、FY26 新闻稿，并沿用 [第一卷](vol-01.md) 对 10-K / CFO 的引句。没有做开箱，没有把 10-K 每一条附注重读一遍。没有出处的定量预测，标未核验，不得作为已确认事实。
+净利率 55.6% 是回算。PTX 95%、AMD 落后 30%–50%、单片 Switch 毛利、NIM ARR、整柜出货量等指标若没有可核验的一手披露，不进入事实层。未披露的定量预测必须保持为假设或删除，不能因在多处重复出现而升格。
+
+## 本篇关键公开来源
+
+- NVIDIA GB200 NVL72 official product page：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- NVIDIA DGX GB200 hardware guide（~120 kW/rack）：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- NVIDIA FY26 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 10-Q（US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- CoreWeave 2025-02-04 — first cloud provider to announce GA of GB200 NVL72 instances：https://investors.coreweave.com/news/news-details/2025/CoreWeave-First-Cloud-Provider-to-Announce-General-Availability-of-NVIDIA-GB200-NVL72-Instances/default.aspx
+- NVIDIA 2025-04-28 — OCI first wave of liquid-cooled GB200 NVL72 racks live：https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/
