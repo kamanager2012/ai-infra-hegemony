@@ -1,143 +1,249 @@
 # AI基础设施霸权时代
 ### The Age of AI Infrastructure Hegemony
 
-行业深度研究报告。中文与英文均已形成 **4 Part / 32 章完整研究结构**。仓库同时保留 **40 个分卷研究模块 + 8 篇宏观专题**作为证据回溯、专题研究与持续更新基础。连续阅读请从[报告目录](publication/01-table-of-contents.md)进入。
+**全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构**
 
-[English research page](README.md) · [English edition index](en/README.en.md)
+一份面向 AI infrastructure、semiconductor、cloud、capital 与产业战略的长期行业研究报告。
 
-> **中文版 32 章研究正文是双语事实、证据等级与分析口径的 canonical source；英文版与当前中文版保持同一套 F → H → M → S → X 架构。**
+**资料检索与修订截止：2026-08-28**
 
-> 中文与英文均为 **32/32 章**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。后续工作只围绕研究报告本身：继续核实低风险事实语义、强化产业机制、清理重复论证、统一数据口径与行业术语，并完善最终文字表达。
+[开始阅读 32 章中文版](publication/README.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [最终总判](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
 
-本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-28**；本文不构成审计意见、投资建议或法律意见。
+---
 
-本报告原创研究文本采用 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International（CC BY-NC-ND 4.0）**。**禁止商业使用**；仅可在署名并遵守许可证条款的前提下传播未经改编的原始材料，不得传播翻译、改写、节选重组等衍生版本。详见 [LICENSE](LICENSE)。
+## 报告研究什么
 
-当前研究以 `main` 为准；历史版本仅用于追溯，不作为当前结论依据。
+AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完整 **system stack**：
 
+> **advanced logic + HBM + advanced packaging + interconnect + compiler/runtime + rack/data center + power + capital + workload**
 
-## 核心发现
+本报告研究这一变化如何进一步影响：
 
-- **AI基础设施竞争的单位正在从“芯片”上移到“系统栈”**：GPU/ASIC只是底层，真正的竞争已经覆盖先进制程、HBM、先进封装、scale-up/scale-out互联、编译与运行时、机柜/Pod、数据中心与电力。
-- **AI 还在改变半导体“下一美元资本投向哪里”**：本报告把这一结构称为 **Two-Speed Semiconductor Economy（双速半导体经济）**——AI 基础设施与传统终端共享部分上游资源，但价格承受能力、合同期限与资本形成能力不同；配套的 **AI Capacity Gap** 衡量同一物理层当前 `AI effective demand − AI effective capacity` 的绝对缺口，**AI Capacity Growth Gap** 再判断缺口扩大或收敛方向；二者与 Non-AI Residual Capacity 联合使用，而不是另起一套情景体系。
-- **NVIDIA 的现实优势仍然很强，但不能再解释成“别人只有裸片”**：NVIDIA 官方 FY27 Q2 披露的营收是 **US$96.221B**，Data Center 营收 **US$89.0B**，GAAP 毛利率 **75.0%**，GAAP 营业利润 **US$63.734B**；Vera Rubin 已进入 full production。[NVIDIA 官方 FY27 Q2 财报](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx)。与此同时，Google [Ironwood](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/)、AWS [Trn3 UltraServers / Trainium3](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/)、Microsoft [Maia 200](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/) 与 Meta [MTIA 300](https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/) 都证明云厂竞争已从“自研一颗芯片”继续上移到系统栈。
-- **“总供给增长”不等于“非AI行业恢复供应”**：本报告用 Non-AI Residual Capacity 区分总供给、AI吸收和消费/传统行业真正拿到的残量。
-- **HBM 的物理代价已经有一手锚**：Micron 官方披露，在相同技术节点、生产相同比特时，HBM3E 大约需要 DDR5/D5 **3× wafer supply**；这不是售价倍数，也不是所有世代固定常数。[Micron FY24 Q2 Prepared Remarks](https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf)。
-- **模型公司正在从租户变成基础设施锚定买方**：OpenAI [Stargate](https://openai.com/index/announcing-the-stargate-project/) 与 Anthropic [最高 5 GW 的 AWS 新算力协议](https://www.anthropic.com/news/anthropic-amazon-compute?lang=us) 说明，长期模型需求正在反向塑造云、芯片、电力和融资。
-- **电力是独立于晶圆、封装、存储之外的另一条物理配额**：NVIDIA 官方文档给出 GB200/GB300 NVL72 级机柜约 **120 kW** 功率（[NVIDIA](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)）；Constellation/Microsoft Crane 重启项目约 **835 MW**（[Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)）；Talen 2026 Q2 文件确认 AWS 新版 PPA 最高 **1,920 MW = 1.92 GW**，2026 Q2 10-Q 记载 revised-PPA transition occurred in 2026 年 4 月；该状态不等同于全部物理转换或 full delivery 完成（[SEC](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)）；Google/Kairos 公开协议最高 **500 MW**（[Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)）。合同容量、建设进度、上电容量和真实利用率必须分开。
-- **消费电子已经出现可观察的内存价格传导**：TrendForce 公开跟踪显示，2026 Q1 conventional DRAM contract prices 约环比上涨 **93%–98%**；这是 **B 级机构数据**，不能写成厂商官方财报事实。[TrendForce](https://www.trendforce.com/presscenter/news/20260601-13070.html)。AI 软件则必须按推理、检索、工具、人审与 AI 云成本做单位经济，而不是预设固定行业毛利终局。
-- **未来结论不是单点预言**：全书用 S1 竞争性扩容、S2 基准集中、S3 资源霸权、S4 资本硬着陆四类状态，以及 H1–H17 变量持续更新。
+- NVIDIA 与 hyperscaler custom systems 的竞争；
+- TSMC、HBM 与 advanced packaging 的资源配置；
+- AI 对 semiconductor capital formation 的影响；
+- power / Time-to-Power 对 compute deployment 的约束；
+- model company 从 cloud tenant 向 Anchor Compute Buyer 演化；
+- smartphone、PC、automotive、industrial 等传统终端的 residual capacity；
+- 中国 parallel stack 与 frontier system closure；
+- AI infrastructure CapEx、折旧、融资与资本清算；
+- Agent-native Software、Physical AI、劳动市场与人才体系；
+- 2026–2036 的条件化产业情景。
 
-### 历史事实门禁
+---
 
-本项目从现在起执行硬规则：**已经发生的历史数据只有在公开可查时才能进入 F（事实）层。**
+## 核心判断
 
-- 财务数据必须保留财年/季度、GAAP 或 non-GAAP 口径、原始单位与分母；
-- 财务数据优先保留公司原始披露单位，例如 **US$96.221B = US$96,221M**；没有必要为了中文页面强制换成“亿美元”，避免引入二次换算错误；
-- 公司事实优先公司 IR、SEC/监管文件、正式合同与官方产品文档；
-- B/C 级机构数据必须保留机构名称、估算身份和口径，不能升级成公司官方事实；
-- 找不到公开来源的“历史数字”必须删除或降级，不能继续放在 F 层；
-- 未来数据可以大胆假设、推算和压力测试，但必须明确标为 H/M/S/D，不得伪装成已经发生的历史事实。
+### 1. 竞争单位已经从 Chip 上移到 System Stack
 
-## 先读
+NVIDIA 当前优势不能只用 GPU benchmark 或 market share 解释。
 
-1. [正式出版目录](publication/01-table-of-contents.md)
-2. [第1章：执行摘要与未来十年核心判断](publication/part-I-ch01-executive-summary.md)
-3. [第32章：总判——从事实、机制到可证伪的长期判断](publication/part-IV-ch32-master-judgment.md)
-4. [Front Matter：报告定位、证据边界与免责声明](publication/00-front-matter.md)
-5. [表格目录](publication/02-list-of-tables.md)
-6. [缩写与核心术语表](publication/03-abbreviations-and-glossary.md)
-7. [第27章：研究方法与证据架构](publication/part-IV-ch27-research-method.md)
-8. [核心证据台账](核心证据台账.md)
-9. [核心参考文献索引](核心参考文献索引.md)
-10. [出版层总目录与 QA 状态](publication/README.md)
+完整竞争已经覆盖 compute、memory、interconnect、software、rack architecture、data center 与 power。Google Ironwood、AWS Trainium3、Microsoft Maia、Meta MTIA 与 AMD Instinct/ROCm 也都在向更完整的 system stack 演化。
 
+因此，长期竞争的关键不是：
 
-四云资本开支是全集团设备购置，不是「AI 硬件」分项，口径见 [四云 Capex 核对](四云Capex口径核对.md)。高影响命题的一手/机构来源见 [核心参考文献索引](核心参考文献索引.md)；外部公开研究用于方法校准和反方对照，见 [外部研究对照索引](外部研究对照索引.md)。
+> 谁拥有一颗更快的芯片
 
+而是：
+
+> **谁能够以更低迁移成本、更高利用率和更稳定供应，把完整 system 持续交付给真实 workload。**
+
+### 2. AI 正在改变半导体“下一美元资本投向哪里”
+
+TSMC 2026 Q2 的 HPC platform revenue 占比达到 **66%**，advanced technologies（7 nm 及以下）占 wafer revenue **77%**。这些是 revenue mix，不是 AI wafer share，但说明 HPC 已成为先进制造资本形成的重要边际驱动力之一。
+
+本报告把这种结构称为 **Two-Speed Semiconductor Economy**：
+
+> AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，却拥有不同的价格承受能力、订单期限与资本形成能力。
+
+### 3. 总供给增长不等于传统行业获得更多供给
+
+本报告使用 **Non-AI Residual Capacity**：
+
+```text
+NonAI_Residual
+= Effective_Supply
+- AI_Server_Absorption
+- Other_Priority_Demand
+```
+
+因此，全球 wafer、DRAM 或 packaging capacity 可以增长，同时 smartphone、PC、automotive 等终端仍然面对更高价格、更低 allocation 或更慢规格升级。
+
+### 4. HBM 的资源占用不能只看 Bit Share
+
+Micron 一手披露，在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。
+
+这是一项 wafer-supply trade ratio，不是售价倍数，也不是所有 HBM 世代永远固定的制造常数。
+
+TrendForce 对 HBM + RDIMM 占 2026 DRAM bit supply 约 **51%** 的判断则属于 **2026E institutional forecast**，不能写成 full-year actual。
+
+### 5. Advanced Packaging 与 Power 都已经成为独立约束
+
+TSMC 已一手确认 advanced-packaging capacity tightness 会限制 customer growth。
+
+同时，高密度 AI rack 让竞争继续上移到：
+
+- powered land；
+- grid interconnection；
+- substation；
+- cooling；
+- firm power；
+- permitting。
+
+2026-08-17 的 PORTS-Pike 项目进一步显示，system platform 正开始直接协调 **land + power + shell（LPS）**：NVIDIA 披露通过 credit support 锁定初始 **4.25 IT-GW** 设计容量，OpenAI 为客户，项目计划从 2028 年开始分阶段上线。
+
+这里必须严格区分：
+
+> **secured / contracted capacity ≠ energized capacity ≠ utilized AI load**
+
+### 6. 模型公司正在成为 Anchor Compute Buyer
+
+OpenAI Stargate、Anthropic/AWS 等长期 compute commitments 表明，头部 model company 已经不只是租用现成 cloud capacity。
+
+长期模型需求可以形成：
+
+> **revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
+
+但同一机制也会提高 customer concentration 与 duration mismatch risk。
+
+### 7. 资本竞争正在从 Corporate CapEx 扩展到 Infrastructure Finance
+
+NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立 AI compute infrastructure financing platforms，目标是**随时间动员超过 US$500B third-party capital**。
+
+这是一项 mobilization target，不是已经 funded / committed / deployed 的资本。
+
+它说明 compute 正被尝试组织成更接近长期 infrastructure asset 的融资对象。
+
+### 8. 中国已经形成真实 Parallel Stack，但 Frontier Closure 必须逐层验证
+
+中国已经跨过“没有替代系统”的阶段，但 frontier AI 等价闭环仍需要分别验证：
+
+- advanced logic；
+- HBM-class memory；
+- advanced packaging；
+- high-speed interconnect；
+- compiler/runtime；
+- frontier production workload；
+- system utilization；
+- power；
+- upstream equipment / materials continuity。
+
+consumer DRAM / NAND、smartphone SoC 或 foundry revenue share 的增长，都不能单独证明完整 frontier-system closure。
+
+### 9. 当前最接近 S2 — Baseline Concentration
+
+本报告不用一个 2036 单点预测描述未来，而采用四类条件状态：
+
+- **S1 — Competitive Expansion**
+- **S2 — Baseline Concentration**
+- **S3 — Resource Hegemony**
+- **S4 — Capital Hard Landing**
+
+截至 2026 年 8 月，公开事实组合最接近 **S2**：
+
+> 高增长、高集中与真实替代路径同时存在。
+
+---
 
 ## 研究方法
 
-本报告不是资料汇编，也不是把未来写成既成事实。全书统一使用五层结构：
+全报告使用：
 
-1. **事实（F）**：截至检索截止日已经发生且可核验的财务、产能、产品、合同、监管、能源与市场数据。事实层优先公司财报、监管文件、官方产品页和一手公告；二手机构数据必须注明来源层级与口径。
-2. **假设（H）**：对未来需求增速、先进产能分配、HBM/封装扩张、电力约束、价格与资本开支等变量作明确设定。假设不是事实，不要求“已经发生”，但必须与当前物理、财务和产业约束相容。
-3. **机制（M）**：解释事实与假设如何通过利润、预付款、产能分配、良率、封装、存储、电力、折旧和生态锁定等机制传导。
-4. **情景（S）**：在不同假设组合下推演 2026—2036 的产业结果。情景可以激进，但必须能追溯到 F + H + M，不能凭空给终局数字。
-5. **证伪（X）**：为关键判断给出可观察的反向信号。若先进供给增长持续快于 AI 吸收、竞争者建立等价软件与制造闭环、关键资源不再稀缺，相关“霸权/虹吸”情景必须下调。
+> **F → H → M → S → X**
 
-核心原则：**已经发生的必须准确；未来可以大胆假设，但假设必须明示，推演必须闭环。** “扩产”不自动等于“传统行业供应恢复”；需要区分总供给、AI 吸收量与非 AI 有效残余供给。
+- **F — Fact：** 已发生且可公开核验；
+- **H — Hypothesis：** 明确的未来输入条件；
+- **M — Mechanism：** 事实与假设之间的因果传导；
+- **S — Scenario：** 条件组合形成的未来状态；
+- **X — Falsification：** 足以迫使判断改变的反向信号。
 
-## 主线
+证据同时分为：
 
-核心不是简单份额垄断，而是**稀缺段的超额价值捕获与新增产能分配权**。预付款和长期订单可以提前锁下一代；增量正在向高性能计算倾斜。真正需要观察的不是全球总产能，而是 AI 吸收之后留给手机、电脑、传统服务器和其他行业的**有效残量**。中国栈必须分层讨论；云自研下一代公开规格仍大量依赖先进节点、先进封装和高带宽内存。电力是独立于芯片、封装、存储之外的另一条物理约束。反垄断调查在，起诉与拆分不能提前写成事实。
+- **A：** company / regulator / formal contract 等 first-party evidence；
+- **B：** institutional / academic research；
+- **C：** sell-side / supply-chain / media estimate；
+- **D：** report-side calculation / sensitivity / scenario input。
 
-## 研究模块索引：四十卷（稳定编号）
+基本原则：
 
-> 以下卷号用于事实回溯、Git 历史、issue 纠错和双语镜像，**不是最终出版顺序**。连续阅读请按[出版版结构](出版结构.md)。
+> **已经发生的必须准确；未来可以大胆推演，但必须明示条件、分母、证据身份和证伪条件。**
 
-- [第一卷：执行摘要与未来十年核心判断](vol-01.md)
-- [第二卷：NVIDIA 平台支配力与系统栈护城河](vol-02.md)
-- [第三卷：AI Resource Gravity 与非 AI 剩余产能](vol-03.md)
-- [第四卷：TSMC、N2 与先进制造资源分配](vol-04.md)
-- [第五卷：HBM、存储战争与 AI 供应链重构](vol-05.md)
-- [第六卷：模型公司单位经济、算法效率与开源竞争](vol-06.md)
-- [第七卷：NVIDIA 纵向扩张与 AI Factory 控制力](vol-07.md)
-- [第八卷：AI 基础设施超级周期、CapEx 与折旧压力](vol-08.md)
-- [第九卷：AI 基础设施扩张对实体供应链的传导](vol-09.md)
-- [第十卷：未来十年 AI 基础设施四类标准情景](vol-10.md)
-- [第十一卷：反垄断、产业政策与 AI 平台权力边界](vol-11.md)
-- [第十二卷：中美 AI 产业链竞争与中国 Parallel Stack](vol-12.md)
-- [第十三卷：AI 时代能源战争——从 120 kW Rack 到 GW 级电力锁定](vol-13.md)
-- [第十四卷：AI 基础设施价值捕获地图——谁获得利润，谁承担残量压力](vol-14.md)
-- [第十五卷：2036 年 AI 基础设施终局——系统栈、资源与权力结构](vol-15.md)
-- [第十六卷：AI 基础设施量化框架——Compute、Memory、Packaging 与 Capacity](vol-16.md)
-- [第十七卷：AI 基础设施终极风险——物理、资本、替代与制度约束](vol-17.md)
-- [第十八卷：研究方法与证据架构](vol-18.md)
-- [第十九卷：2026–2036 AI 基础设施时间线与阶段性里程碑](vol-19.md)
-- [第二十卷：战略含义——企业、资本与国家如何应对 AI 基础设施重构](vol-20.md)
-- [第二十一卷：AI 基础设施资金流与利润池结构](vol-21.md)
-- [第二十二卷：消费电子冲击模型——DRAM 残量、PC 与 Smartphone 成本传导](vol-22.md)
-- [第二十三卷：HBM4、逻辑底座与存储资本密度](vol-23.md)
-- [第二十四卷：Advanced Packaging、CoWoS 与 AI 系统交付瓶颈](vol-24.md)
-- [第二十五卷：Hyperscaler System-Stack Competition](vol-25.md)
-- [第二十六卷：模型公司、Anchor Compute Buyer 与基础设施共建](vol-26.md)
-- [第二十七卷：Agent-native Software 与 AI 软件单位经济](vol-27.md)
-- [第二十八卷：Physical AI 与机器人系统的真正瓶颈](vol-28.md)
-- [第二十九卷：中国 Frontier AI Parallel Stack 的系统级评估](vol-29.md)
-- [第三十卷：折旧墙、资本清算与长期产业结构](vol-30.md)
-- [第三十一卷：核心指标与证据监测框架](vol-31.md)
-- [第三十二卷：NVIDIA 全栈架构深度拆解——GPU、NVLink、CUDA/PTX 与 Rack-Scale System](vol-32.md)
-- [第三十三卷：AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](vol-33.md)
-- [第三十四卷：全球半导体供应链重构——设备、材料、制造与地缘冗余](vol-34.md)
-- [第三十五卷：AI 电力约束实证——835 MW、1.92 GW 与 500 MW 三条路径](vol-35.md)
-- [第三十六卷：AI 基础设施资本市场——资产久期、融资结构与主权资本](vol-36.md)
-- [第三十七卷：AI 基础设施泡沫识别与市场清算框架](vol-37.md)
-- [第三十八卷：AI 与劳动市场——从任务暴露到岗位重构](vol-38.md)
-- [第三十九卷：AI 时代教育与人才体系——从模型使用到系统工程能力](vol-39.md)
-- [第四十卷：总战略结论——未来十年的个人、企业、资本与国家选择](vol-40.md)
+---
 
-## 宏观专题索引：八篇（出版时并入主章节）
+## 阅读入口
 
-> 八篇宏观专题保留为研究与交叉验证资产；最终出版物不在40卷之后重复追加整组长文，而是将其独有数据、公式与跨卷推演吸收到对应出版章节。
+### 快速阅读
 
-- [第一篇：生产资料革命与总体判断](part2-01.md)
-- [第二篇：算力平台集中与 NVIDIA 软硬件系统权力深度拆解](part2-02.md)
-- [第三篇：物理制造极限与全球半导体供应链争夺](part2-03.md)
-- [第四篇：云巨头 Capex 战争、系统栈反击与 DeepSeek 架构降本](part2-04.md)
-- [第五篇：实体经济与消费电子产业链的资源虹吸与成本传导](part2-05.md)
-- [第六篇：能源战争与物理电网约束](part2-06.md)
-- [第七篇：资本超级周期、泡沫机制与极端压力测试](part2-07.md)
-- [第八篇：中美算力竞争与 2036 终局情景决策树](part2-08.md)
+1. [第1章：执行摘要与未来十年核心判断](publication/part-I-ch01-executive-summary.md)
+2. [第32章：总判——从事实、机制到可证伪的长期判断](publication/part-IV-ch32-master-judgment.md)
+3. [第30章：S1–S4 四类标准情景](publication/part-IV-ch30-scenarios.md)
 
-## 参与
+### 完整报告
 
-欢迎提交事实纠错、来源补充与机制挑战。规则在 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- [32章中文总目录](publication/README.md)
+- [报告说明与证据边界](publication/00-front-matter.md)
+- [表格目录](publication/02-list-of-tables.md)
+- [缩写与核心术语表](publication/03-abbreviations-and-glossary.md)
+- [研究透明度、局限性与纠错机制](publication/04-research-transparency.md)
+- [竞争集、替代路径与反方证据矩阵](publication/05-competitive-evidence-matrix.md)
 
-数字、时间、口径或证据等级错了，开 [数字 / 口径 / 来源纠错](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=fact.yml)。
+### 证据与方法
 
-如果你认为假设、机制或情景不成立，开 [机制 / 情景挑战](https://github.com/kamanager2012/ai-infra-hegemony/issues/new?template=analysis.yml)。最好直接指出：哪个 F 不成立、哪个 H 不合理、哪条 M 断了、哪个 S 推不出来，或应该加入什么 X 证伪信号。
+- [第27章：研究方法与证据架构](publication/part-IV-ch27-research-method.md)
+- [核心证据台账](核心证据台账.md)
+- [核心参考文献索引](核心参考文献索引.md)
+- [核心概念与模型索引](核心概念与模型索引.md)
+- [核心假设矩阵](核心假设矩阵.md)
+- [四云 CapEx 口径核对](四云Capex口径核对.md)
+- [外部研究对照索引](外部研究对照索引.md)
 
-## 引用
+---
 
-GitHub 会读 [CITATION.cff](CITATION.cff)。作者 James（kamanager2012），2026。原创研究文本适用 [CC BY-NC-ND 4.0](LICENSE)。
+## 重要证据边界
+
+本报告不做以下直接推导，除非存在足够公开证据：
+
+- revenue share → wafer share；
+- customer revenue → CoWoS allocation；
+- HBM demand share → actual packaging allocation；
+- contracted / secured MW → energized / utilized load；
+- company-wide CapEx → AI hardware CapEx；
+- model training compute → full R&D cost；
+- occupational exposure → unemployment；
+- conventional DRAM / NAND capability → HBM closure；
+- foundry revenue share → frontier AI capability。
+
+研究截止日后的新事实应视为新的研究输入，而不能倒写成 2026-08-28 前已经发生。
+
+---
+
+## 免责声明
+
+本报告用于产业研究与信息交流，不构成：
+
+- 投资建议；
+- 证券研究评级；
+- 法律意见；
+- 审计意见；
+- 任何交易建议或保证性预测。
+
+未来判断会随技术、需求、资本、监管、地缘政治与供给变化而调整。
+
+## 版权与引用
+
+原创研究文本按仓库 [LICENSE](LICENSE) 所列条款使用。第三方材料仍受其各自权利人和许可条件约束。
+
+引用信息见 [CITATION.cff](CITATION.cff)。
+
+## 纠错与反方意见
+
+欢迎提交：
+
+- 事实或数字纠错；
+- 更高等级来源；
+- denominator / time-window 修正；
+- mechanism challenge；
+- counter-evidence；
+- falsification signal。
+
+[参与研究与纠错说明](CONTRIBUTING.md)
