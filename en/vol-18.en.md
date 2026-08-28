@@ -138,3 +138,12 @@ Rules:
 The English edition is not a loose translation layer. It must preserve the same analytical ontology as the Chinese source-of-truth edition. Where older English chapters contain legacy wording, the current F/H/M/S/X framework and central English evidence files govern.
 
 The purpose of this methodology is not to make the report cautious for its own sake. It is to make strong conclusions **traceable, updateable, and falsifiable**.
+
+
+## Key public sources for this volume
+
+- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
+- Micron FY24 Q3 prepared remarks — HBM3E ≈3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 2025 20-F — largest customer 19% of annual revenue: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- NVIDIA GB200 NVL72 product page — 13.4 TB HBM3E per rack: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- Talen 2026 Q2 10-Q — revised AWS PPA up to 1,920 MW: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
