@@ -12,6 +12,7 @@
 
 ## Part II
 
+- [Table 16.1 — 四类差异化竞争路径](part-II-ch16-differentiated-competitors.md)
 - [Table 17.1 — 2026 Q1 全球 foundry revenue share（TrendForce）](part-II-ch17-china-parallel-stack.md)
 - [Table 18.1 — 监管变量对 S1–S4 的作用路径](part-II-ch18-antitrust-policy.md)
 
