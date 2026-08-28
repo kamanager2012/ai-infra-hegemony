@@ -139,7 +139,7 @@ Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但�
 
 > **NVIDIA 当前拥有最成熟的商业化通用 AI system stack；hyperscaler 已经形成真实的第二条 system-stack 路线，但其替代程度必须用生产级 workload、迁移成本、利用率和上游资源依赖来验证。**
 
-这也是本书后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
+这也是本报告后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
 
 ## References
 
