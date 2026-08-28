@@ -67,10 +67,10 @@ DeepSeek-V2 技术报告则明确给出相对 DeepSeek 67B：
 
 DeepSeek-V3 报告给出完整训练约 **2.788M H800 GPU-hours**。
 
-如果按报告侧假设的 **$2/GPU-hour** 进行租金换算：
+如果按报告侧假设的 **US$2/GPU-hour** 进行租金换算：
 
 ```text
-2.788M 	imes $2 ≈ $5.576M
+2.788M 	imes $2 ≈ US$5.576M
 ```
 
 这不是企业完整现金成本。
@@ -86,7 +86,7 @@ DeepSeek-V3 报告给出完整训练约 **2.788M H800 GPU-hours**。
 - storage；
 - post-training ecosystem。
 
-因此，这个数字适合用于比较**有效训练计算量级**，不适合直接写成“训练一个 frontier model 只需要 $5.6M”。
+因此，这个数字适合用于比较**有效训练计算量级**，不适合直接写成“训练一个 frontier model 只需要 US$5.6M”。
 
 ## 5. Rack-scale memory demand
 
@@ -187,10 +187,13 @@ HBM3E wafer supply
 
 当 shipment 分项缺失时，supply commitment 比自拟出货模型更有价值。
 
-NVIDIA：
+NVIDIA manufacturing, supply, and capacity commitments：
 
-- FY26 year-end supply-related commitments：**$95.2B**
-- FY27 Q1：**$119.0B**
+- 2026-01-25：**US$95.2B**
+- 2026-04-26：**US$119B**
+- 2026-07-26：**US$279B**
+
+Q2 10-Q 说明，US$279B 主要对应 data-center infrastructure systems 所需的 memory 和 manufacturing facilities，用于 current / future architectures 的长期需求。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 这类指标反映：
 
