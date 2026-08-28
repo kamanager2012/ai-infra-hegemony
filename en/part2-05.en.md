@@ -222,3 +222,8 @@ The core conclusion is:
 That is not the same as saying those industries are disappearing.
 
 The more accurate effect is **resource reallocation, product stratification, and a higher cost of upgrading.**
+
+## Key public sources for this essay
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
