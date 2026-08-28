@@ -261,3 +261,11 @@ AI-infrastructure competition is ultimately not about who owns the most GPUs.
 It is about:
 
 > **who can repeatedly convert scarce physical resources into highly utilized, portable, cash-generating systems.**
+
+
+## Key public sources for this volume
+
+- NVIDIA DGX GB200 hardware guide — approximately 120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart — 20-year PPA, ~835 MW: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — revised AWS PPA up to 1,920 MW: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
