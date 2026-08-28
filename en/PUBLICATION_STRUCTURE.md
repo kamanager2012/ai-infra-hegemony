@@ -10,15 +10,17 @@ These layers are not simple duplicates, but presenting them as “40 volumes + 8
 
 ## Part I — System Power and Physical Scarcity
 
-1. Executive summary — vol-01  
-2. NVIDIA system stack and platform power — vol-02 + vol-32 + macro-02  
-3. AI Resource Gravity and Non-AI Residual Capacity — vol-03 + vol-09  
-4. TSMC, N2, and advanced-logic allocation — vol-04  
-5. HBM and memory restructuring — vol-05 + vol-23  
-6. Advanced packaging / CoWoS delivery bottlenecks — vol-24 + macro-03  
-7. From 120 kW racks to GW-scale power constraints — vol-13 + vol-35 + macro-06  
-8. Quantitative infrastructure framework and rolling bottlenecks — vol-16 + vol-17  
-9. Global semiconductor supply-chain redundancy — vol-34  
+**Status: 9/9 English publication chapters synchronized.**
+
+1. [Executive Summary and Core Judgments for the Next Decade](publication/part-I-ch01-executive-summary.md) — vol-01  
+2. [NVIDIA's System Stack and Platform Power](publication/part-I-ch02-nvidia-system-stack.md) — vol-02 + vol-32 + macro-02  
+3. [AI Resource Gravity and Non-AI Residual Capacity](publication/part-I-ch03-resource-gravity.md) — vol-03 + vol-09  
+4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](publication/part-I-ch04-tsmc-advanced-logic.md) — vol-04  
+5. [HBM and the Restructuring of Memory Resources](publication/part-I-ch05-hbm-memory.md) — vol-05 + vol-23  
+6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](publication/part-I-ch06-advanced-packaging.md) — vol-24 + macro-03  
+7. [From 120 kW Racks to GW-Scale Power Constraints](publication/part-I-ch07-power-constraint.md) — vol-13 + vol-35 + macro-06  
+8. [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](publication/part-I-ch08-quantitative-framework.md) — vol-16 + vol-17  
+9. [Global Semiconductor Supply Chains and Manufacturing Redundancy](publication/part-I-ch09-semiconductor-redundancy.md) — vol-34  
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
@@ -69,4 +71,4 @@ The repository keeps two layers:
 - **Research layer:** 40 volumes + 8 macro essays for traceability, independent revision, and Git diffs.
 - **Publication layer:** approximately 32 chapters in four parts for continuous reading, PDF/e-book production, and public release.
 
-Existing volume numbers remain stable until the publication layer is generated.
+Existing volume numbers remain stable as research-layer IDs. English publication synchronization is now complete for Part I and continues through Parts II–IV.
