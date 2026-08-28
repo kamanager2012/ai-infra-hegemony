@@ -20,13 +20,13 @@ NVIDIA FY26, ended January 25, 2026:
 
 | Metric | FY26 |
 |---|---:|
-| Revenue | **$215.938B** |
-| Data Center revenue | **$193.737B** |
+| Revenue | **US$215.938B** |
+| Data Center revenue | **US$193.737B** |
 | GAAP gross margin | **71.1%** |
-| Operating income | **$130.387B** |
-| Net income | **$120.067B** |
-| Free cash flow | **$96.575B** |
-| R&D | **$18.497B** |
+| Operating income | **US$130.387B** |
+| Net income | **US$120.067B** |
+| Non-GAAP free cash flow (NVIDIA definition) | **US$96.575B** |
+| R&D | **US$18.497B** |
 
 Primary sources:
 - SEC CFO commentary: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm
@@ -37,19 +37,19 @@ FY27 Q2, ended July 26, 2026, showed that platform profitability remained except
 
 | Metric | FY27 Q2 |
 |---|---:|
-| Revenue | **$96.221B** |
-| Data Center revenue | **$89.0B** |
+| Revenue | **US$96.221B** |
+| Data Center revenue | **US$89.0B** |
 | GAAP gross margin | **75.0%** |
-| GAAP operating income | **$63.734B** |
-| Net income | **$59.688B** |
+| GAAP operating income | **US$63.734B** |
+| Net income | **US$59.688B** |
 | Vera Rubin | **full production** |
-| FY27 Q3 revenue guidance | **$108.0B ±2%** |
+| FY27 Q3 revenue guidance | **US$108.0B ±2%** |
 
 The FY26 H20-related charge did not permanently reset the platform margin structure; by FY27 Q2, GAAP gross margin had returned to 75.0%.
 
-Capacity commitments are equally important. NVIDIA's supply-related commitments rose from **$95.2B** at FY26 year-end to **$119.0B** at FY27 Q1. The company also discloses prepaid manufacturing and capacity agreements for current and future products.
+Capacity commitments are equally important. NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26. The company also discloses prepaid manufacturing and capacity agreements for current and future products.
 
-Public filings do **not** allocate the $119.0B among TSMC, CoWoS, SK hynix, Micron, or Samsung. It is therefore evidence of aggregate supply and capacity commitments, not a customer-specific revenue number for any single supplier.
+Public filings do **not** allocate the **US$119B** among TSMC, CoWoS, SK hynix, Micron, or Samsung. It is therefore evidence of aggregate supply and capacity commitments, not a customer-specific revenue number for any single supplier.
 
 ### 2.2 TSMC: advanced manufacturing and packaging remain physical constraints
 
