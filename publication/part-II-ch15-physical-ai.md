@@ -28,7 +28,7 @@ data-center 的约 **120 kW-class rack**[^4] 与机器人本体的 W/Wh 级 powe
 
 humanoid、AMR、industrial arm、autonomous vehicle、drone 的 actuator、reducer、sensor、compute 与 battery 成本结构差异巨大。
 
-因此，本书不采用固定“执行器35% / 传感器20% / 计算25%”之类行业模板。
+因此，本报告不采用固定“执行器35% / 传感器20% / 计算25%”之类行业模板。
 
 真正需要识别的是不同机器人形态中的 **scarce component**。
 
