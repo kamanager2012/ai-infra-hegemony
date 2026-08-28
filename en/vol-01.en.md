@@ -47,9 +47,9 @@ FY27 Q2, ended July 26, 2026, showed that platform profitability remained except
 
 The FY26 H20-related charge did not permanently reset the platform margin structure; by FY27 Q2, GAAP gross margin had returned to 75.0%.
 
-Capacity commitments are equally important. NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26. The company also discloses prepaid manufacturing and capacity agreements for current and future products.
+Capacity commitments are equally important. NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and then to **US$279B** on 2026-07-26. The FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities for data-center infrastructure systems supporting current and future architectures.
 
-Public filings do **not** allocate the **US$119B** among TSMC, CoWoS, SK hynix, Micron, or Samsung. It is therefore evidence of aggregate supply and capacity commitments, not a customer-specific revenue number for any single supplier.
+Public filings do **not** allocate the **US$279B** among TSMC, CoWoS, SK hynix, Micron, or Samsung. It is therefore evidence of aggregate supply and capacity commitments, not a customer-specific revenue number for any single supplier. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
 
 ### 2.2 TSMC: advanced manufacturing and packaging remain physical constraints
 
