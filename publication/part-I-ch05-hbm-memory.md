@@ -1,6 +1,5 @@
 # Part I · 第5章：HBM 与存储资源重构
 
-> **出版层章节。** 由研究模块 [vol-05](../vol-05.md) 与 [vol-23](../vol-23.md) 重编。本章只完整定义一次 HBM 的物理代价、DRAM residual-capacity 机制与 HBM4 资本密度；具体 advanced-packaging 配额另见第6章。
 
 ## 1. HBM 已从 GPU 配件变成系统级资源
 
