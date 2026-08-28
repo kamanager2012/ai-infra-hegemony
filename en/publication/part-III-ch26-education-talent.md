@@ -1,7 +1,5 @@
 # Part III · Chapter 26: Education and Talent Systems in the AI Era
 
-> **Publication-layer chapter.** Based primarily on [Volume 39](../vol-39.en.md) and anchored to the Education chapter of the Stanford HAI 2026 AI Index. The educational problem is not simply whether AI use should be allowed. It is how to train people who can understand, verify, migrate, and take responsibility for systems.
-
 ## 1. The educational objective is moving from "using AI" toward "understanding systems"
 
 Prompting, model calls, and basic automation can commoditize quickly as tools improve.
