@@ -21,6 +21,8 @@ AMD Instinct 是最直接的 data-center accelerator alternatives 之一，AMD �
 - system reference architecture；
 - customer migration / production support。
 
+AMD 在 2026-08-27 发布 ROCm 10，并把 ROCm.AI 推向 general availability，官方定位明确强调从 Instinct infrastructure access 到 production inference / training 的迁移、validated frameworks/containers、communication libraries 与 developer workflow。[^2] 这说明 AMD 当前最关键的竞争动作之一，已经从“补齐软件功能”上移到**降低 production migration friction**。
+
 因此 AMD 的竞争单位也已经从 chip 上移到 system。
 
 ## 3. AMD 同样暴露于 Scarce-resource Access
