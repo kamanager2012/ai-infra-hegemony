@@ -58,6 +58,10 @@ Current anchors include:
 | FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP operating income | **US$63.734B** |
 
+Primary sources:
+- NVIDIA FY26 official results (FY26 Data Center revenue / FCF): https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q2 official results (Q2 Data Center revenue / operating income): https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+
 These figures show that a system platform can retain a very large share of value while remaining relatively asset-light compared with foundries and data-center owners.
 
 ### 2.3 Foundry and packaging
@@ -171,7 +175,7 @@ A platform seller can often reserve upstream resources without carrying the full
 
 ## 6. HBM extends the capital flow beyond the accelerator
 
-TrendForce estimates that HBM + RDIMM represent approximately **51% of 2026 DRAM bits**.
+TrendForce estimates that HBM + RDIMM represent approximately **51% of 2026 DRAM bits**. Source: https://www.trendforce.com/presscenter/news/20260825-13198.html
 
 Micron's FY24 Q3 **industrywide / same-node / same-bits** disclosure puts HBM3E at roughly **3× the wafer supply of DDR5**, showing higher manufacturing-input intensity without turning that ratio into a Micron-specific constant.
 
@@ -186,7 +190,7 @@ This helps explain why consumer and conventional DRAM can feel AI-driven pressur
 
 ## 7. Power is becoming another capital-absorption layer
 
-At roughly 120 kW-class rack density, large data-center projects require early investment in:
+At roughly **120 kW/rack** class density, large data-center projects require early investment in: Source: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 
 - substations;
 - transformers;
