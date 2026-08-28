@@ -51,17 +51,19 @@
 
 这也是为什么 Capital Hard Landing 不会在一个季度完成。
 
-## 5. CapEx 必须除以 Utilization，而不是只除以年份
+## 5. CapEx 必须与 Utilization 一起分析，而不是只看折旧年限
 
-作为 **D 级 sensitivity example**，同样 **US$100B** investment 在 **90%** 与 **30%** utilization 下会代表完全不同的经济结果；US$100B、90% 和 30% 都是示例输入，不是行业 actual。
+同样规模的基础设施投资，在高利用率和低利用率条件下会产生完全不同的资本回报。
 
-因此必须同时看：
+因此必须同时观察：
 
 > **Revenue / Deployed Compute**
 
 以及真实 **Utilization**。
 
-固定折旧年限只能描述会计费用节奏，不能描述资产是否在创造足够现金流。
+固定折旧年限只能描述会计费用节奏，不能说明资产是否创造了足够现金流。
+
+真正决定“折旧墙”强度的是：**单位已部署资本能够持续产生多少有效 workload 与收入。**
 
 ## 6. Market-clearing Price 是比财报更快的 Economic Depreciation 信号
 
