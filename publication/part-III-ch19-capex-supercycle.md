@@ -30,7 +30,7 @@ Microsoft、Amazon、Alphabet、Meta 的 infrastructure spending 已处历史高
 
 ## 3. 2025 mixed-window aggregate 只能作为 scale anchor
 
-按公开 PPE/equipment purchase 口径复算得到的 2025 mixed-window scale 约 **US$354B**。
+按公开 PPE/equipment purchase 口径复算得到的 2025 mixed-window scale 约 **US$354B**；这是本报告的 **D 级 reconstruction / scale anchor**，不是四家公司共同披露的统一实际值。
 
 它的用途仅是说明资本基数已经很大，不是四家公司共同披露的统一 AI subtotal。
 
