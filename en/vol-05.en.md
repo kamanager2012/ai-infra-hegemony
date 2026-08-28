@@ -183,3 +183,8 @@ The most important forward indicators include:
 - whether China demonstrates HBM-class products at verifiable scale.
 
 HBM has moved from “high-end memory next to the GPU” into a core resource layer of AI-infrastructure competition.
+
+## Key public sources for this volume
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
