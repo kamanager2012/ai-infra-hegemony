@@ -39,7 +39,7 @@ TSMC's public 2025 disclosures include:
 - 7 nm: **14%**;
 - 7 nm and below: **74%**;
 - HPC platform: **58%** of revenue, up **48%** year over year;
-- Smartphone platform: **29%**;
+- Smartphone platform: **29%** of revenue, with platform revenue up **11%** year over year;
 - largest customer: **19% of annual revenue**;
 - second-largest customer: **17%**;
 - advanced packaging + testing: about **8%** of revenue in 2024 and slightly above **10%** in 2025.
@@ -54,11 +54,11 @@ Second, advanced manufacturing is highly concentrated economically while still s
 
 Public evidence therefore does not support the claim that TSMC has become the exclusive fab of one customer.
 
-## 3. Customer revenue share is not wafer share
+## 3. Customer revenue share is neither wafer share nor a same-customer time series
 
-The largest customer's **19%** figure is an annual **revenue share**.
+The 2025 largest-customer **19%** and second-largest-customer **17%** figures are annual **revenue-ranking statistics**.
 
-It cannot be converted directly into:
+They cannot be converted directly into:
 
 - N2 wafer share;
 - 3 nm wafer share;
@@ -66,7 +66,14 @@ It cannot be converted directly into:
 - HPC wafer share;
 - physical wafer count.
 
-Different products use different nodes, die sizes, wafer ASPs, and packaging intensity.
+Equally important, **annual largest / second-largest rankings must not be stitched into a same-customer longitudinal series**. A separate anonymized disclosure provides the directly comparable 2024→2025 customer series:
+
+- Customer A: **12%→19%**;
+- Customer B: **22%→17%**.
+
+It is therefore invalid to connect a prior year's “largest customer” percentage to the later Customer A percentage and explain the result as one customer's changing share. The two disclosures answer different questions and must remain separate.
+
+Different products also use different nodes, die sizes, wafer ASPs, and packaging intensity.
 
 For the same reason, HPC's **58% revenue share** is not equivalent to 58% of wafer shipments.
 
@@ -202,7 +209,6 @@ toward:
 
 ## Key public sources
 
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- TSMC 2025 consolidated report (Customer A/B): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TSMC 2025 20-F — annual largest / second-largest customer rankings: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report — anonymized Customer A/B 2024→2025 comparison: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
