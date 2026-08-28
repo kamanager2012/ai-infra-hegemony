@@ -98,7 +98,7 @@ open-source model 提高 model portability，压低 API premium，也增加 priv
 
 如果 hyperscaler custom stack 能降低真实 system TCO，长期可能通过 instance/API price 向 application layer 传导。
 
-因此，Google TPU、AWS Trainium 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。
+因此，Google Ironwood TPU、AWS Trainium3 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。[^1][^2]
 
 ## 9. Human Review 是经常被低估的变量成本
 
@@ -136,9 +136,14 @@ AI 正在把一部分 software 从低边际成本复制品变成实时消耗 com
 
 > **谁能把模型调用转化成可重复、可验收、低失败率、可收费的业务结果。**
 
-## 关键证据导航
+## References
 
-- [第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md) — DeepSeek V2/V3、算法效率与 demand elasticity 的一手/技术来源。
-- [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) — cloud custom silicon、system TCO 与 compute-cost transmission。
-- [第20章：Value Capture Map](part-III-ch20-value-capture-map.md) — application-layer value capture、workflow monetization 与 infrastructure cost transmission。
-- [第25章：AI 与劳动市场](part-III-ch25-labor-market.md) — human review / responsibility constraint 对真实 automation economics 的边界。
+[^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+
+## 交叉引用
+
+- [第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)
+- [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
+- [第20章：Value Capture Map](part-III-ch20-value-capture-map.md)
+- [第25章：AI 与劳动市场](part-III-ch25-labor-market.md)
