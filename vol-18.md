@@ -229,3 +229,7 @@ CXMT 招股文件没有披露 HBM product line。
 8. 正文不出现内部修订过程。
 
 这套方法不是为了让报告“更保守”，而是为了让未来判断可以更大胆，同时仍然保持可验证性。
+
+## 本卷关键公开来源
+
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
