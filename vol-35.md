@@ -1,5 +1,7 @@
 # 第三十五卷：AI 电力约束实证——835 MW、1.92 GW 与 500 MW 三条路径
 
+> **出版定位：**[第十三卷](vol-13.md)定义为什么 power 会成为 AI infrastructure 的独立物理配额；本卷只做项目级实证，重点比较 Crane、Talen/AWS 与 Kairos/Google 在 Contracted / Permitted / Energized / Utilized 状态上的差异。
+
 ## 1. 本卷只分析可验证的电力状态
 
 AI data center power 经常出现三个数字混在一起：
@@ -18,29 +20,11 @@ AI data center power 经常出现三个数字混在一起：
 
 只有这样，电力才可以与 hardware shipment、CapEx 和 utilization 放在同一个分析框架中。
 
-## 2. 120 kW-class rack 改变 data-center engineering
+## 2. Rack-power 输入锚：只用于数量级换算
 
-NVIDIA 相关 rack 文档给出的 GB200 NVL72 设计功率约 **120 kW/rack**。
+NVIDIA 官方机柜文档给出的 GB200 NVL72 级整柜功耗约为 **120 kW/rack**。本卷只把它作为项目尺度的输入锚；液冷、busway、transformer 与高密度配电的工程含义已在[第十三卷](vol-13.md)展开。
 
-这一量级意味着：
-
-- direct liquid cooling；
-- high-current busway；
-- larger transformer；
-- high-density distribution；
-- stronger cooling loop。
-
-约 500 个按 120 kW/rack 设计的 rack，对应的 **rack-level full-load power** 约为：
-
-```text
-500 × 120 kW = 60 MW
-```
-
-这里的 120 kW 是整柜功耗口径，包含 compute nodes 与 rack components，不能改写成纯 compute-only IT load。
-
-这是按整柜功率做的 **rack-level full-load scenario arithmetic**，不包含完整 facility overhead，也不等于某个园区已形成 60 MW 或 100 MW 实时负荷。
-
-它能证明的是：数百个 120 kW-class rack 的部署会把局部供电需求推到**数十 MW 级**；要写“100 MW 级 campus 已形成”，必须另有具体项目的一手容量与 energized 状态。
+**D 级情景算术：**500 × 120 kW = **60 MW rack-level full-load power**。它不是某个园区已经部署 500 柜的事实，也不包含完整 facility overhead，更不能据此宣布“100 MW campus 已运行”。
 
 ## 3. Microsoft / Constellation：约 835 MW restart PPA
 
@@ -212,7 +196,7 @@ AI chip 可以在数月内完成新一代迭代。
 
 - AI rack 已进入约 120 kW 级功率密度；
 - hyperscaler 正在签署 500 MW–GW 级长期 power arrangements；
-- Talen/AWS front-of-meter conversion 已完成；
+- Talen 2026 Q2 10-Q 记载 revised-PPA transition occurred in 2026-04；较早 2025 10-K 曾预计 full transition in spring 2027，因此不能把 April 2026 写成全部物理转换或 full delivery 已完成；
 - contracted/announced capacity 远大于可直接确认的 utilized AI load。
 
 因此，电力已经成为 AI infrastructure 的战略 scarce layer。
