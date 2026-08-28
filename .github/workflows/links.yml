@@ -20,6 +20,9 @@ jobs:
       - name: Check required evidence sources
         run: python scripts/check-required-sources.py
 
+      - name: Check research every-number source coverage
+        run: python scripts/check-research-numeric-claims.py
+
       - name: Check publication numeric source coverage
         run: python scripts/check-publication-numeric-claims.py
 
