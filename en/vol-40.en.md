@@ -77,7 +77,7 @@ At the same time, they continue to compete for many of the same upstream scarce 
 
 ### 2.5 Power has entered the core resource layer
 
-~120 kW-class racks and 100 MW/GW-class campuses make:
+~120 kW-class racks, together with separately sourced power project/contract paths such as 835 MW, **up to 1.92 GW**, and **up to 500 MWe by 2035**, make:
 
 - grid capacity;
 - substations;
