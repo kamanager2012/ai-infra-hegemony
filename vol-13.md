@@ -60,7 +60,7 @@ Microsoft 与 Constellation 的长期 PPA 对应约 **835 MW** 核电机组重�
 
 ## 4. Talen / AWS：最高 1.92 GW 的长期电力安排
 
-Talen/AWS 新版 PPA 最高可扩展至 **1.92 GW**。
+Talen/AWS 新版 PPA 最高可扩展至 **1.92 GW**。 来源：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 
 Talen 2026 Q2 10-Q 写明，向 revised AWS PPA 的 transition **occurred in April 2026**；较早的 2025 10-K 则曾描述为 spring 2026 开始 transitioning、**full transition expected in spring 2027**。因此，April 2026 应理解为 revised-PPA transition 状态更新，不能写成全部物理转换与供电交付已经完成。
 
