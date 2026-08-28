@@ -1,7 +1,5 @@
 # Part II · 第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure
 
-> **出版层章节。** 由研究模块 [vol-12](../vol-12.md)、[vol-29](../vol-29.md) 与 [macro-08](../part2-08.md) 重编。本章不使用单一“国产化率”判断中国 AI 供给能力，而是区分消费计算、通用计算与 frontier AI system 三个层级。
-
 ## 1. “能运行”与“形成等价系统”不是同一个标准
 
 讨论中国 AI stack，如果不先区分层级，结论会迅速失真。至少需要分成三层：
