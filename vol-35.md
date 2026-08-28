@@ -58,13 +58,13 @@ Microsoft 与 Constellation 签署 20 年 PPA，支持重启原 Three Mile Islan
 
 > hyperscaler 愿意用长期需求支持一座大型现有核电资产重新投入。
 
-## 4. Talen / AWS：最高 1.92 GW PPA
+## 4. Talen / AWS：revised PPA full contract quantity up to 1,920 MW
 
-Talen 与 AWS 的新版安排最高可达到 **1.92 GW**。
+Talen 与 AWS 的 revised PPA full contract quantity 最高为 **1,920 MW**，合同延续至 2042。
 
 关键状态变化：
 
-> 向新版 front-of-the-meter 结构的转换已于 **2026 年 4 月完成**。
+> 向 revised front-of-the-meter PPA 的 transition 已于 **2026-04** 发生；但 power delivery 仍按合同逐步 ramp，**full volume 最晚 2032** 达成。
 
 因此，分析重点已经从“能否完成转换”转向：
 
@@ -80,7 +80,7 @@ Talen 与 AWS 的新版安排最高可达到 **1.92 GW**。
 
 ## 5. Google / Kairos：最高 500 MW SMR development
 
-Google 与 Kairos 的开发协议目标最高约 **500 MW**。
+Google / Kairos 的项目路径更具体：**Hermes 2 up to 50 MWe in 2030**，随后扩展为 fleet，**up to 500 MWe by 2035**。
 
 其状态与前两项不同：
 
@@ -107,10 +107,15 @@ Google 与 Kairos 的开发协议目标最高约 **500 MW**。
 | 项目 | 名义规模 | 核心状态 |
 |---|---:|---|
 | Microsoft / Constellation | ~835 MW | restart + regulatory |
-| Talen / AWS | up to 1.92 GW | front-of-meter conversion completed; ramp continues |
-| Google / Kairos | up to 500 MW | long-term development |
+| Talen / AWS | up to 1,920 MW | revised PPA transition occurred 2026-04; delivery ramps to full volume no later than 2032 |
+| Google / Kairos | Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035 | long-term development |
 
 这就是为什么能源分析必须按状态，而不是按新闻 headline 加总。
+
+### 公开来源
+- Constellation / Microsoft Crane: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Google / Kairos: https://www.kairospower.com/google
 
 ## 7. Grid queue 也不能等同于 shortage
 
