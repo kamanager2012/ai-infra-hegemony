@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-16.md](../vol-16.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The purpose of this framework is not to produce one supposedly precise future. It is to keep physical units, evidence grades, and observable variables separate enough that the model can be falsified.
+> Retrieval and revision cutoff: **2026-08-28**. The purpose of this framework is not to produce one supposedly precise future. It is to keep physical units, evidence grades, and observable variables separate enough that the model can be falsified.
 
 ## 1. What the quantitative framework is designed to do
 
