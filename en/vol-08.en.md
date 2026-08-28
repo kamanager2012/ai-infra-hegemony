@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-08.md](../vol-08.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Hyperscaler CapEx must be read by company, accounting scope, and time window. Company-wide capital spending is not equivalent to an official AI-hardware line item.
+> Retrieval and revision cutoff: **2026-08-28**. Hyperscaler CapEx must be read by company, accounting scope, and time window. Company-wide capital spending is not equivalent to an official AI-hardware line item.
 
 ## 1. The capital-cycle question is not one aggregate spending number
 
