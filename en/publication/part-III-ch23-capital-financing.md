@@ -62,7 +62,7 @@ It is:
 
 NVIDIA also states that the partnerships are **subject to execution of final agreements**.
 
-The >US$500B figure therefore remains a mobilization target—not committed, funded, or deployed capital.
+The **>US$500B** figure therefore remains a mobilization target—not committed, funded, or deployed capital.[^3]
 
 ## 6. Why compute can be packaged as an infrastructure asset
 
