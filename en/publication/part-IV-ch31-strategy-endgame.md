@@ -12,9 +12,11 @@ The long-run question is therefore:
 
 > **Will these layers become highly coordinated by a small number of platforms, or supplied by multiple interoperable systems?**
 
-## 2. The factual anchors are already established in canonical chapters
+## 2. Core structural variables and their source chapters
 
-| Structural variable | Canonical publication chapter |
+**Table 31.1 — Core structural variables used in the long-run strategic judgment**
+
+| Structural variable | Source chapter |
 |---|---|
 | NVIDIA system stack / switching cost | [Part I · Ch02](part-I-ch02-nvidia-system-stack.md) |
 | HBM / memory resource intensity | [Part I · Ch05](part-I-ch05-hbm-memory.md) |
@@ -24,6 +26,9 @@ The long-run question is therefore:
 | China frontier-system closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
 | Value Capture Map | [Part III · Ch20](part-III-ch20-value-capture-map.md) |
 | Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
+
+**Source:** Report chapter architecture.  
+**Note:** This chapter inherits facts and mechanisms established earlier rather than duplicating high-impact factual tables.
 
 The endgame chapter does not duplicate those financial tables and physical formulas.
 
@@ -58,7 +63,7 @@ This means:
 - buyers maintain second-system options without immediately abandoning the primary stack;
 - upstream resource allocation reflects long-duration orders, cash flow, roadmap certainty, and supplier incentives to preserve customer diversity.
 
-As of August 2026, this remains the baseline state most consistent with current evidence.
+As of August 2026, this remains the baseline state most consistent with current evidence.[^1][^2][^3]
 
 It is not an immutable ten-year prediction.
 
@@ -154,12 +159,17 @@ The second path exists to reduce single-point supply, pricing, policy, and migra
 
 At least four asset classes should remain separate:
 
+**Table 31.2 — Primary value sources and risks across AI-related asset classes**
+
 | Asset | Primary value | Primary risk |
 |---|---|---|
 | Platform | switching cost / system definition / ecosystem | substitution / regulation |
 | Manufacturing | scarcity / yield / technology / capacity | cycle / CapEx / utilization |
 | Infrastructure | powered land / grid / data center / duration | utilization / duration mismatch |
 | Application | workflow / distribution / data | commoditization / unit economics |
+
+**Source:** Report Value Capture / Duration framework.  
+**Note:** The classification is for strategic analysis and is not an investment rating or valuation recommendation.
 
 High CapEx can be an entry barrier and preparation for growth, or a source of future depreciation and stranded assets.
 
@@ -290,7 +300,13 @@ The common strategic principle can be compressed into one sentence:
 
 > **Do not bet on an unchangeable end-state; build options that remain executable when the end-state changes.**
 
-## Core evidence navigation
+## References
+
+[^1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging supply constraint, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+
+## Cross-references
 
 - [Core Evidence Ledger](../核心证据台账.en.md)
 - [Core Source Index](../核心参考文献索引.en.md)
