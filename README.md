@@ -1,13 +1,11 @@
 # The Age of AI Infrastructure Hegemony
 ### AI基础设施霸权时代
 
-**Release status: Pre-release Publication QA Edition · target v1.0.0 is not yet released.**
+**Research report: Chinese and English both contain the complete 4-part / 32-chapter industry-analysis structure. The 40 stable volume modules + 8 macro essays remain the underlying research corpus for evidence tracing and continued revision.**
 
-**Publication edition: Chinese and English are both complete at 4 parts / 32 chapters and have passed Markdown-level QA plus chapter-by-chapter bilingual structure/high-risk numeric regression. The 40 stable volume modules + 8 macro essays remain the research corpus for evidence tracing.**
+> **English research landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
 
-> **English release landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
-
-[English](README.md) · [中文版](README.zh-CN.md) · [Publication architecture](en/PUBLICATION_STRUCTURE.md) · [Research method](en/研究方法与证据分级.en.md) · [Release notes](RELEASE_NOTES.md)
+[English](README.md) · [中文版](README.zh-CN.md) · [Research structure](en/PUBLICATION_STRUCTURE.md) · [Research method](en/研究方法与证据分级.en.md)
 
 ---
 
@@ -52,7 +50,7 @@ For this repository, an already-observed historical claim may enter **F — Fact
 11. [Research-Module Index](en/README.en.md)
 12. [X / social launch drafts](en/SHARE.md)
 
-The Chinese and English **Publication Layers both contain all 32 chapters** (Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6). Both editions have passed Markdown-level structural/citation QA, and chapter-by-chapter bilingual regression has passed for Table-number sets, Reference counts, numeric section sequences, and high-risk currency/percentage/power/capacity/process values. The **40 English volume modules + 8 English macro essays** remain the stable research layer for evidence tracing. The Chinese publication edition is the canonical source for resolving future bilingual discrepancies. Final Publication Ready status now depends on obtaining a successful GitHub-hosted runner assignment for the enabled `Release QA v1` workflow (or running the local/WSL fallback), then completing verified bilingual PDF/EPUB build + machine proof, final human proofreading and lower-risk semantic sign-off, author-confirming the Funding / Conflict-of-Interest statement, and locking final release metadata.
+The Chinese and English **32-chapter research editions are complete in structure** (Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6). The **40 English volume modules + 8 English macro essays** remain the stable research layer for evidence tracing. The Chinese research edition is the canonical source for resolving future bilingual discrepancies. Ongoing work focuses on research quality itself: factual accuracy, source semantics, industrial mechanisms, chapter-level redundancy, terminology, scenario logic, and final editorial refinement.
 
 ## Research method
 
@@ -119,9 +117,9 @@ Long-duration orders and prepayments can reserve future supply. The key variable
 - [Volume 39: Education and Talent Systems in the AI Era — From Model Use to Systems Engineering](en/vol-39.en.md)
 - [Volume 40: Final Strategic Synthesis — Individuals, Firms, Capital, and States](en/vol-40.en.md)
 
-## Macro research essays — integrated into the publication layer
+## Macro research essays — integrated into the 32-chapter research structure
 
-> These essays remain research and synthesis assets. The final publication edition will absorb their unique data, engineering analysis, and cross-volume arguments into the corresponding main chapters instead of appending a second long-form block after the 40 volumes.
+> These essays remain research and synthesis assets. Their unique data, engineering analysis, and cross-volume arguments are absorbed into the corresponding main chapters rather than repeated as a second long-form block.
 
 - [Macro Essay 1: The Means-of-Production Shift and the Overall Judgment](en/part2-01.en.md)
 - [Macro Essay 2: Platform Concentration and NVIDIA's Hardware–Software System Power](en/part2-02.en.md)
