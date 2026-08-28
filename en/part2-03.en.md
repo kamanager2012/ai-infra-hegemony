@@ -1,5 +1,8 @@
 # Macro Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply Contest
 
+
+> **Audit boundary for retired research calculations.** The Chinese research source retains several historical CoWoS/supply-chain stress calculations to document denominator and physical-pool errors. Those retired C/D-grade calculations are **not imported into this English publication-facing research essay as observed facts**. Current conclusions rely on first-party TSMC/Micron evidence, explicitly graded institutional research, and versioned D-grade models.
+
 Chinese source edition: [part2-03.md](../part2-03.md)
 
 > Retrieval and revision cutoff: **2026-08-28**. Advanced logic, advanced packaging, and HBM are different physical pools. Their metrics cannot be substituted for one another, and the shortest layer determines system delivery.
