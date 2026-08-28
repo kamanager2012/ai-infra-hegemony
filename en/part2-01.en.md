@@ -1,173 +1,152 @@
-# Macro Essay 1: The Means-of-Production Shift and the Overall Judgment
+# Macro Essay 1: Productive Compute and the Macro Measurement Framework
 
 Chinese source edition: [part2-01.md](../part2-01.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This essay is the macro entry point for Part II. It separates established facts, institutional evidence, report-side stress tests, and long-range scenarios.
+> **Publication role:** this is the research-layer macro entry point. It defines the test for when compute becomes productive infrastructure and the common measurement units used across the essays. The integrated publication judgment is [Part IV · Chapter 32](../publication/part-IV-ch32-master-judgment.md). Unsupported point estimates for future node prices, CoWoS monthly capacity, 2030/2036 GW campuses, or similar long-range values do not enter the fact layer.
 
-## 1. The core question
+## 1. The core question: when does compute become productive infrastructure?
 
-The strategic question is not whether AI is “important.”
+The phrase “means of production” is not a claim that models possess unconstrained agency. It describes an economic condition:
 
-It is whether compute is moving from a passive tool into a **repeatable means of producing verifiable cognitive work**.
+> **Can an AI system, under measurable compute, power, and capital costs, repeatedly complete verifiable workflows that can be accepted by a real business process and generate enough value to cover the system's long-run cost?**
 
-A practical test is:
+If it can only assist isolated tasks, compute remains closer to a tool. If it can reliably execute large volumes of accepted work, compute, memory, interconnect, data centers, and power begin to behave like productive infrastructure.
 
-> **Can a cluster complete a multi-step workflow that previously required skilled human labor, under a measurable power budget and a measurable capital cost, with output that can be evaluated and accepted?**
+The relevant unit is therefore not “model intelligence” in the abstract. It is:
 
-If the answer is no, compute remains a tool.
+> **cost per verified workflow outcome + capital required to sustain it**
 
-If the answer becomes yes across large volumes of work, part of the economic rent can move away from labor and toward:
+## 2. Five structural changes are already observable
 
-- wafers;
-- HBM;
-- advanced packaging;
-- interconnect;
-- power;
-- system platforms.
+### 2.1 The sales unit has moved upward to the system stack
 
-This is the macro mechanism behind the rest of the report.
+NVIDIA now sells rack-scale systems rather than only accelerator cards, while Google, AWS, Microsoft, and Meta have expanded custom silicon into compilers/runtimes, interconnect, rack/pod design, and captive production workloads. Competition has therefore moved from the chip toward the **system stack**.
 
-## 2. What is already observable
+### 2.2 HBM uses more manufacturing input than conventional DRAM
 
-The factual base is narrower than many long-range AI narratives.
+Micron disclosed that, at the same technology node and for the same number of bits, HBM3E requires roughly **3× the wafer supply of DDR5**. Bandwidth expansion therefore changes manufacturing inputs and residual DRAM capacity, not merely memory pricing.
 
-What can already be observed includes:
+### 2.3 Advanced packaging is a verified delivery constraint
 
-- NVIDIA selling rack-scale systems rather than only discrete accelerators;
-- FY26 free cash flow of **$96.575B**;
-- FY27 Q2 revenue of **$96.221B** and Data Center revenue of **$89.0B**;
-- GAAP gross margin of **75.0%**;
-- TSMC's HPC platform at **58% of 2025 revenue**;
-- TSMC describing advanced-packaging tightness as a limit on customer growth;
-- HBM + RDIMM estimated at about **51% of 2026 DRAM bits**;
-- hyperscalers expanding CapEx and long-duration power commitments.
+TSMC has repeatedly described advanced-packaging capacity as tight and in 2Q26 stated that packaging tightness was limiting customer growth. Logic wafer availability does not automatically equal complete-system deliverability.
 
-These facts show that AI compute is already being built and financed as infrastructure.
+### 2.4 Power has entered the system-delivery chain
 
-They do **not** prove a fixed 2030 or 2036 end state.
+Roughly 120 kW-class racks and several hundred-MW / GW-scale long-duration power projects show that grid connection, substations, firm generation, permits, and **Time-to-Power** are now independent infrastructure variables.
 
-## 3. The common measurement framework
+### 2.5 Capital and long-duration commitments are reserving future resources earlier
 
-The macro report tracks five physical and financial dimensions:
+NVIDIA manufacturing, supply, and capacity commitments rose from **US$95.2B** on 2026-01-25 to **US$279B** on 2026-07-26. Hyperscalers and model companies are also using long-duration compute, data-center, and power commitments to shape future supply. Public filings do not provide a supplier-level split, so these figures are evidence of aggregate forward commitment rather than a disclosed allocation to one foundry, packaging supplier, or HBM vendor.
 
-1. **leading-edge process capacity**;
-2. **advanced packaging**;
-3. **HBM and server memory**;
-4. **hyperscaler/model-company capital commitments**;
-5. **power and energized capacity**.
+## 3. The macro analysis uses five measurement axes
 
-Long-range values for exact wafer prices, monthly CoWoS capacity, future HBM trade ratios, trillion-dollar spending, or multi-GW campuses remain scenario inputs unless verified by public disclosures.
+### 3.1 Verified Workflow Economics
 
-The purpose of the framework is to prevent an argument about “the next ten years” from floating free of measurable industrial variables.
+Compute becomes productive only when each workflow produces measurable value after inference, retrieval, tools, review, and operational cost.
 
-A serious long-range claim should map to at least two observable categories in this list.
+### 3.2 System Substitution
 
-## 4. The three system actors: seller, manufacturer, buyer
+The report tracks whether real workloads can move among NVIDIA, TPU, Trainium, Maia, MTIA, or other stacks at acceptable engineering cost. One-chip benchmarks cannot substitute for production migration evidence.
 
-### Seller
+### 3.3 Scarce Physical Inputs
 
-The system seller's economic power is visible in:
+Advanced logic, HBM, advanced packaging, and power are separate physical pools. Relief in one layer does not imply simultaneous relief in the others.
 
-- revenue;
-- margin;
-- free cash flow;
-- forward supply commitments.
+### 3.4 Capital Duration
 
-The seller does not need to own the fabs in order to influence them.
+Compute hardware, networking, data-center shells, grid assets, and PPAs operate on different useful lives and contractual clocks. Buyer ROI must cover this duration mismatch.
 
-### Manufacturer
+### 3.5 Utilization and Forward Commitments
 
-Foundries, memory vendors, and packaging providers carry:
+High CapEx becomes high-quality investment only if the asset base receives enough productive utilization and workflow revenue. Current-state analysis therefore tracks utilization, seller commitments, Anchor Buyer contracts, and market-clearing prices together.
 
-- heavy CapEx;
-- yield risk;
-- process-transition risk;
-- physical capacity constraints.
+## 4. From workflow demand to scarce-layer value capture
 
-Their bottlenecks determine how much of the system can actually be delivered.
+When AI workflows create accepted economic output, demand transmits down the stack:
 
-### Buyer
+> workflow demand → system demand → HBM / packaging / power demand → forward commitments → scarce-resource allocation
 
-Hyperscalers and Anchor Compute Buyers fund:
+If one platform combines strong cash generation, switching costs, roadmap certainty, and long-duration orders, it can reserve scarce future inputs earlier and raise delivery certainty.
 
-- servers;
-- custom silicon;
-- networking;
-- buildings;
-- power;
-- land;
-- long-duration capacity.
+This is the mechanism behind **Scarce-layer Value Capture**. Economic value tends to accumulate where supply is scarce, substitution is difficult, or multiple layers can be coordinated effectively.
 
-Buyer CapEx is not the same accounting object as seller revenue.
+After AI/server demand absorbs high-value capacity, non-AI markets should be analyzed through **Non-AI Residual Capacity**, not industrywide gross capacity alone.
 
-The report never treats the two as a single “AI spend” number.
+## 5. Algorithmic efficiency can lower unit demand or expand total usage
 
-## 5. The deeper mechanism: from labor cost to infrastructure rent
+DeepSeek and other architecture-efficiency examples show that compute and memory required for a particular workload can fall materially.
 
-The economic transition can be written as:
+But lower unit cost does not imply lower total infrastructure demand. If cheaper intelligence expands token, agent, workflow, and user volume faster than unit resource intensity falls, total demand can keep rising.
 
-**work becomes machine-executable  
-→ compute intensity rises  
-→ scarce system resources gain value  
-→ buyers commit capital earlier  
-→ platform and physical bottleneck owners capture more rent**
+The macro relationship is therefore closer to:
 
-The mechanism works only when the output is economically useful.
+> **Net Infrastructure Demand = Efficiency Effect × Demand Elasticity**
 
-If AI systems cannot create enough incremental revenue or productivity, the same CapEx becomes a depreciation and utilization problem.
+The relevant evidence is total productive workload and asset utilization, not one training-cost headline or one API price.
 
-That is why labor substitution, platform economics, and infrastructure finance are connected.
+## 6. Multiple regional stacks may increase duplication as well as resilience
 
-The “means of production” thesis is therefore conditional on **productive workload**, not on benchmark capability alone.
+Export controls, resilience objectives, and industrial policy can produce parallel technology ecosystems. Multiple stacks can mean:
 
-## 6. Three macro scenarios
+- duplicated software/runtime;
+- duplicated manufacturing capacity;
+- duplicated power/data-center reservations;
+- lower single-stack efficiency;
+- greater resilience and strategic optionality.
 
-### Scenario A — Infrastructure deepens, but less aggressively than the most bullish stress tests
+Geopolitical fragmentation can therefore increase infrastructure duplication rather than simply reduce global demand.
 
-System stacks expand, packaging and memory remain valuable, and large campuses grow, but buyers require stronger proof of usage before committing to the most extreme long-range buildout.
+## 7. Long-range point estimates remain H / D, not facts
 
-### Scenario B — Algorithmic efficiency breaks the infrastructure-intensity curve
+The report does not treat exact 2030/2036 node prices, CoWoS monthly capacity, future HBM trade ratios, multi-GW campuses, or trillion-dollar CapEx as confirmed paths.
 
-Better architectures sharply reduce memory, compute, and interconnect required per useful task.
+The rules are:
 
-If demand elasticity is insufficient to offset the savings, infrastructure becomes more utility-like and capital intensity falls.
+- historical numbers without public first-party or high-quality institutional evidence do not enter F;
+- company guidance remains guidance;
+- institutional forecasts retain source identity and time window;
+- 2030/2036 point values remain explicit H / D scenario inputs;
+- repetition across chapters does not upgrade evidence grade.
 
-### Scenario C — Parallel stacks split the global system
+The long-range thesis therefore rests on mechanisms and observable variables, not a precise future price table.
 
-Geopolitical fragmentation produces two or more technology ecosystems.
+## 8. Which state best matches the current evidence?
 
-Redundant fabs, packaging, materials, and software stacks raise global cost while lowering dependence on one supply chain.
+As of August 2026, the fact pattern is closest to **S2 — Baseline Concentration**:
 
-The result is not necessarily less infrastructure.
+- leading system-platform economics remain strong;
+- cloud custom stacks are a real second route;
+- HBM, advanced packaging, and power still create physical constraints;
+- China's parallel stack is expanding, but frontier closure still requires several advanced layers to scale together;
+- CapEx and forward commitments remain high while buyer-side ROI pressure is rising.
 
-It can be **more duplicated infrastructure with lower efficiency**.
+This is not a fixed 2036 forecast. Higher supply elasticity, interoperability, and substitution would shift weight toward S1; tighter scarce layers and switching costs toward S3; synchronized weakness in utilization, clearing prices, CapEx, and commitments toward S4.
 
-## 7. What would falsify the current macro judgment?
+## 9. What would falsify a stronger productive-infrastructure thesis?
 
-The current thesis should weaken if several conditions appear together:
+The current macro judgment should weaken if several of the following persist:
 
-- advanced packaging becomes durably abundant;
-- HBM and server-memory pressure eases materially;
-- system substitution lowers platform switching costs;
-- hyperscaler/model-company CapEx stops rising;
-- energized power becomes widely available faster than compute demand;
-- productive AI workload fails to cover the capital base;
-- second-hand compute prices clear sharply lower.
+- productive AI workloads fail to cover the growing capital base;
+- major system-platform commitments decline repeatedly;
+- advanced-packaging and HBM supply becomes durably abundant;
+- cloud custom systems sharply lower switching costs and external-platform dependence;
+- energized power expands faster than compute demand and Time-to-Power loses scarcity;
+- second-hand compute and lease prices clear persistently lower;
+- application/workflow monetization remains below inference and infrastructure cost.
 
-The first macro essay therefore does not celebrate an inevitable revolution.
+The purpose of the framework is not to make every long-range claim survive. It is to make clear which evidence would force the claim to change.
 
-Its job is to establish the unit of measurement:
+## 10. Current macro conclusion
 
-> **Can capital, scarce physical resources, and system software convert compute into repeatable economic output at scale?**
+> **When verifiable workflows convert compute into durable economic output, system stacks, HBM, advanced packaging, power, and capital duration stop being isolated technical parameters and become productive-infrastructure variables that shape value capture and industrial structure.**
 
-The next seven essays test that question layer by layer.
+This remains conditional. Long-run returns depend not on installed hardware counts, but on whether the infrastructure continuously serves portable, verifiable, cash-generating workloads.
 
-## Key public sources for this essay
+## Key public sources
 
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - NVIDIA FY27 Q2 10-Q — US$279B manufacturing, supply, and capacity commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- Micron FY24 Q3 prepared remarks — HBM3E ≈3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Microsoft FY26 Q4 earnings / call — calendar-2026 reported CapEx expectation: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-- Meta 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-- Amazon 2026 Q2 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+- TSMC 2Q26 Earnings Conference Transcript — packaging tightness limits customer growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
