@@ -10,6 +10,7 @@
 |---|---|---|---|
 | Part I | [第2章：NVIDIA 系统栈与平台权力](part-I-ch02-nvidia-system-stack.md) | 已完成第一版连续重编 | vol-02 + vol-32 + macro-02 |
 | Part I | [第7章：从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md) | 已完成第一版连续重编 | vol-13 + vol-35 + macro-06 |
+| Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已完成第一版连续重编 | vol-37 + macro-07 |
 
 ## 出版层编辑标准
 
