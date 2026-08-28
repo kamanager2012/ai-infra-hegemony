@@ -2,6 +2,8 @@
 
 Chinese original: [vol-14.md](../vol-14.md)
 
+> **Publication role:** this volume owns the Value Capture Map and the mechanism of value capture by layer. [Volume 21](vol-21.en.md) is the capital-flow companion focused on buyer → platform → manufacturing / memory / power flows and double-counting discipline. The integrated Chinese publication chapter is [Part III · Chapter 20](../publication/part-III-ch20-value-capture-map.md).
+
 ## 1. Core question
 
 Which layers capture durable economic value from the AI infrastructure buildout, which layers mainly absorb capital expenditure and depreciation, and which downstream markets bear residual supply pressure?
