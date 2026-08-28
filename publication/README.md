@@ -14,6 +14,7 @@
 | Part I | [第7章：从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md) | 已完成第一版连续重编 | vol-13 + vol-35 + macro-06 |
 | Part II | [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) | 已完成第一版连续重编 | vol-25 + macro-04 |
 | Part II | [第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md) | 已完成第一版连续重编 | vol-12 + vol-29 + macro-08 |
+| Part III | [第20章：Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md) | 已完成第一版连续重编 | vol-14 + vol-21 |
 | Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已完成第一版连续重编 | vol-37 + macro-07 |
 
 ## 出版层编辑标准
