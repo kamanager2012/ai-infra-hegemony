@@ -1,7 +1,5 @@
 # Part III · Chapter 25: AI and Labor Markets — The Task-to-Job Translation Layer
 
-> **Publication-layer chapter.** Based primarily on [Volume 38](../vol-38.en.md). Labor-market effects cannot jump directly from benchmark performance to "jobs disappear." This chapter uses the chain **Task Exposure → Adoption Economics → Workflow Redesign → Responsibility Constraint → Employment/Wage Outcome**.
-
 ## 1. AI changes tasks before it changes job titles
 
 A job usually consists of many tasks.
