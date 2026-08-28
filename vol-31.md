@@ -34,6 +34,10 @@ AI infrastructure 的关键变量变化很快：
 | FY27 Q2 GAAP operating income | **US$63.734B** |
 | Rubin | **full production** |
 
+主要来源：
+- NVIDIA FY26 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q2 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+
 这些指标回答：
 
 > system platform 是否仍拥有足够高的利润与现金流继续预订下一代 scarce resources？
@@ -43,6 +47,8 @@ AI infrastructure 的关键变量变化很快：
 - 2026-01-25：**US$95.2B**
 - 2026-04-26：**US$119B**
 - 2026-07-26：**US$279B**
+
+来源：NVIDIA FY27 Q2 Form 10-Q：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 口径：manufacturing, supply, and capacity commitments；Q2 10-Q 说明最新承诺主要关联 memory 与 manufacturing facilities，不是单一供应商订单。
 
@@ -64,6 +70,12 @@ AI infrastructure 的关键变量变化很快：
 - 2025 second-largest customer：**17%**
 - 2025 advanced packaging：略高于 **10%**（4Q25 transcript 公司会后更正；2024 >8% 使用 distinct “advanced packaging and testing” 标签）
 
+主要来源：
+- TSMC 2025 Annual Report：https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 Form 20-F（annual customer ranking）：https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report（Customer A/B）：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TSMC 4Q25 Transcript（advanced packaging）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+
 **客户口径硬边界：** annual largest / second-largest ranking 不是同一客户跨年序列。另一张匿名客户表才可直接比较 2024→2025：Customer A **12%→19%**，Customer B **22%→17%**。两套表不得拼接成“某个第一客户”的纵向轨迹。
 
 ### Packaging status
@@ -78,7 +90,7 @@ TSMC 已明确表示：
 
 ### CoWoS demand allocation
 
-TrendForce 对 NVIDIA 占 2025 CoWoS demand 超过 60% 的估计属于 **B 级机构研究**。
+TrendForce 对 NVIDIA 占 2025 CoWoS demand 超过 60% 的估计属于 **B 级机构研究**。 来源：https://www.trendforce.com/research/download/RP250314ZJ
 
 TSMC 没有披露 customer-level CoWoS allocation。
 
@@ -90,6 +102,8 @@ TSMC 没有披露 customer-level CoWoS allocation。
 
 > HBM3E 在相同 technology node、生产相同比特时，约需要 DDR5 **3× wafer supply**。
 
+来源：Micron FY24 Q2 Prepared Remarks：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+
 FY25 10-K 进一步确认 HBM 对 wafers 与 cleanroom space 的要求更高。
 
 ### TrendForce
@@ -97,6 +111,8 @@ FY25 10-K 进一步确认 HBM 对 wafers 与 cleanroom space 的要求更高。
 **2026E institutional forecast：**
 
 - HBM + RDIMM：约 **51% of DRAM bit supply**。
+
+来源：https://www.trendforce.com/presscenter/news/20260825-13198.html
 
 51% 是预测的 bit share，不是已经实现的 full-year actual，也不是 wafer share 或 revenue share。
 
@@ -111,6 +127,8 @@ FY25：
 - Operating margin：**49%**
 - Net income：**KRW 42.9479T**
 - HBM revenue：more than doubled YoY
+
+来源：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 用于判断 HBM product mix 是否继续改善 memory-vendor economics。
 
