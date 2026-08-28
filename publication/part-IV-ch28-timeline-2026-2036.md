@@ -21,8 +21,8 @@
 - GAAP gross margin **75.0%**；
 - Rubin **full production**；
 - manufacturing, supply, and capacity commitments 由 2026-04-26 **US$119B** 升至 2026-07-26 **US$279B**；
-- TSMC advanced-packaging tightness 仍限制 customer growth；
-- hyperscaler infrastructure spending 继续处高位；
+- TSMC advanced-packaging tightness 仍限制 customer growth；[^7]
+- 四大云厂公开资本投入指标仍处高位，但必须保留各自 actual / guidance / expectation 身份；[^8]
 - power project 已出现约 835 MW、up to 1.92 GW、up to 500 MWe 等不同成熟度路径；
 - TrendForce **预计** HBM + RDIMM 约占 2026 DRAM bit supply **51%**。
 
@@ -178,3 +178,5 @@ Crane、Talen/AWS、Kairos/Google 等项目都必须按当前 state 更新，不
 [^4]: Constellation, Crane Clean Energy Center / Microsoft PPA, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 [^5]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
+[^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
