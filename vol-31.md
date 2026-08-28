@@ -318,3 +318,4 @@ S4 Capital Hard Landing 重点监测四组指标。
 - TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
 - TSMC 2Q26 Earnings Conference Transcript（packaging capacity limits customers' growth）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 - TrendForce 2025 CoWoS demand structure（NVIDIA estimated >60%, B-grade）：https://www.trendforce.com/research/download/RP250314ZJ
+- NVIDIA FY26 official results（FY26 Data Center revenue / NVIDIA-defined non-GAAP FCF）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
