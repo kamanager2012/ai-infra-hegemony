@@ -58,10 +58,7 @@
 AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，但价格承受能力、合同期限、BOM 约束与资本形成能力不同，导致新增资源配置速度分化。
 
 ### AI Capacity Gap / AI Capacity Growth Gap
-**AI Capacity Gap** 是同一 physical layer、同一交付窗口下 `AI effective demand − AI effective capacity` 的绝对物理缺口；**AI Capacity Growth Gap** 是需求增长率与有效产能增长率之差，只描述缺口扩大/收敛方向。二者不得互换。
-
-### AHICR
-Advanced/HPC Incremental Capacity Capture Ratio。用于分析某买方对某一 physical layer **新增** advanced/HPC capacity 的捕获程度，不等于历史 revenue share。
+**AI Capacity Gap** 是同一 physical layer、同一交付窗口下 `AI effective demand − AI effective capacity` 的绝对物理缺口；**AI Capacity Growth Gap** 是需求增长率与有效产能增长率之差，只描述缺口扩大/收敛方向。二者不得互换。不同 physical layer 必须分别计算，不能合并成一个综合“资源占有率”。
 
 ### Cloud System-Stack Substitution
 hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/pod 与 captive workload 形成第二类生产级 system stack 的替代机制。
