@@ -58,10 +58,12 @@ The company said in 2024 Q4 that it could not meet all customer needs.
 
 By 2026 Q2, management said packaging capacity was tight enough to **limit customers' growth**.
 
-TSMC also disclosed advanced packaging + testing at approximately:
+TSMC's disclosures use different labels by year:
 
-- **8% of revenue in 2024**;
-- slightly above **10% in 2025**.
+- 4Q24 transcript: **advanced packaging and testing >8% of 2024 revenue**;
+- 4Q25 transcript, after company correction: **advanced packaging slightly above 10% of 2025 revenue**.
+
+These are not treated as a perfectly like-for-like time series.
 
 The key evidence boundary is:
 
@@ -187,7 +189,12 @@ The shortest of the three determines how many complete frontier systems can actu
 
 ## Key public sources for this essay
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TSMC 4Q25 Presentation — 2025 platform mix / growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- TSMC 4Q24 Transcript — advanced packaging and testing >8%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript — 2025 advanced packaging slightly above 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+- TSMC 2Q26 Earnings Conference Transcript — packaging capacity limits customers' growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 - TSMC 2025 20-F — annual largest / second-largest customer concentration: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report — anonymized Customer A/B comparison: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
