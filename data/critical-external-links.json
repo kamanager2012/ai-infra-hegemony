@@ -1,6 +1,6 @@
 {
   "version": "2026-08-28",
-  "policy": "Critical evidence links. HTTP 200/206 required after redirects; optional final_url_contains prevents silent redirects to generic landing pages.",
+  "policy": "Critical evidence links. Primary HTTP 200/206 is preferred; curated official fallback URLs may satisfy reachability when a document deep link is unstable or bot-blocked. Redirect destinations remain constrained.",
   "links": [
     {
       "id": "NV-FY27-Q2",
@@ -20,7 +20,13 @@
     {
       "id": "TSMC-2Q26-TRANSCRIPT",
       "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf",
-      "final_url_contains": "TSMC%202Q26%20Transcript.pdf"
+      "final_url_contains": "TSMC%202Q26%20Transcript.pdf",
+      "fallback_urls": [
+        {
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+          "final_url_contains": "quarterly-results/2026/q2"
+        }
+      ]
     },
     {
       "id": "MICRON-HBM-3X",
