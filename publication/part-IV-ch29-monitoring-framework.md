@@ -1,7 +1,5 @@
 # Part IV · 第29章：核心指标与证据监测框架
 
-> **出版层监测章。** 以 [vol-31](../vol-31.md) 为主源。本章不是再建立一套新的结论，而是定义未来每次更新时应读取哪些指标、如何保持证据身份，以及什么变化足以改变 S1–S4 的相对权重。
-
 ## 1. 长期研究必须设计成可更新系统
 
 AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry allocation、power、regulation 与 system substitution 都快速变化。
