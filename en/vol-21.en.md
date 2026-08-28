@@ -121,7 +121,10 @@ The report also tracks:
 NVIDIA's manufacturing, supply, and capacity commitments were:
 
 - **US$95.2B** as of 2026-01-25;
-- **US$119B** as of 2026-04-26.
+- **US$119B** as of 2026-04-26;
+- **US$279B** as of 2026-07-26.
+
+The FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities; they still cannot be decomposed into supplier-level amounts. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
 
 These commitments show that future cash demand is being translated into:
 
