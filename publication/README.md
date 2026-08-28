@@ -6,7 +6,7 @@
 
 ## 32 章研究结构
 
-| Part | 出版章 | 状态 | 合并来源 |
+| Part | 正式章节 | 状态 | 合并来源 |
 |---|---|---|---|
 | Part I | [第1章：执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md) | 已形成连续研究正文 | vol-01 |
 | Part I | [第2章：NVIDIA 系统栈与平台权力](part-I-ch02-nvidia-system-stack.md) | 已形成连续研究正文 | vol-02 + vol-32 + macro-02 |
@@ -50,19 +50,9 @@
 - **中文 32 章研究正文：结构完整。**
 - **英文 32 章研究正文：与中文版保持同一研究结构。**
 
-当前已完成的出版 QA 包括：
-
-- 32 个 publication 文件逐章存在性、章号、目录唯一链接检查；
-- 旧 `5.39` CoWoS 几何系数回归清零，统一为 `5.37`；
-- Talen “April 2026 = 全部物理转换完成”式错误表述回归清零；
-- Micron HBM3E ≈3× DDR5 wafer-supply 一手证据统一修正为 **FY24 Q2 Prepared Remarks**，并下沉到可直达官方 PDF；
-- Micron IR landing/event links 与失效 `static-files` 深链从 publication layer 清零；
-- publication layer 内部“审稿/工作底稿/历史误写”类过程性语言回归清零；
-- NVIDIA / TSMC / SEC / TrendForce / Constellation / NRC / Anthropic / Microsoft / Intel / Qualcomm / OpenAI / U.S. Commerce / Stanford HAI / ILO 等核心来源完成一轮深链抽检。
-
 > `32/32` 只表示研究结构完整，不代表内容无需继续深化。当前重点是提高每一章的研究密度、证据强度、产业逻辑和结论质量。
 
-## 出版层编辑标准
+## 研究正文编辑标准
 
 “完成合并”不是把多个 Markdown 文件拼起来，而必须同时满足：
 
@@ -70,8 +60,8 @@
 2. 同一机制只完整定义一次；
 3. 深拆卷只贡献新增工程、数据、反方或证伪；
 4. 宏观篇只吸收独有公式、BOM、跨卷推演与边界，不重复整段主论证；
-5. 来源跟随事实进入出版章；
-6. 对话流式短句在出版层重组为连续段落；
+5. 来源跟随事实进入正式章节；
+6. 对话流式短句在研究正文重组为连续段落；
 7. F/H/M/S/X 身份和 A/B/C/D 证据等级不能因合并丢失；
 8. 研究层卷号不改，确保历史链接、issue、引用和双语镜像稳定。
 
