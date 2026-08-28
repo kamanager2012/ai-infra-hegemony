@@ -31,7 +31,7 @@ This is why HBM, interconnect, and compute have to be analyzed as one system rat
 
 ## 3. Algorithmic architecture changes the demand function without deleting physical constraints
 
-First-party anchors from the DeepSeek-V3 Technical Report include:
+First-party anchors from the DeepSeek-V3 Technical Report include:[^1]
 
 - 671B total parameters;
 - 37B activated parameters;
@@ -39,7 +39,7 @@ First-party anchors from the DeepSeek-V3 Technical Report include:
 - **2.664M H800 GPU-hours for pre-training**;
 - **2.788M H800 GPU-hours for full formal training**.
 
-DeepSeek-V2 separately reports, relative to DeepSeek 67B:
+DeepSeek-V2 separately reports, relative to DeepSeek 67B:[^2]
 
 - approximately **93.3% KV-cache reduction**;
 - approximately **5.76× maximum generation throughput**.
