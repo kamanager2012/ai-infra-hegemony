@@ -88,13 +88,13 @@ The evidence classes should not be mixed.
 
 ## 5. NVIDIA's own disclosures show consumer-side supply pressure
 
-NVIDIA FY26 Gaming revenue reached **$16.042B**.
+NVIDIA FY26 Gaming revenue reached **US$16.042B**.
 
-The company also stated that Gaming would face supply constraints in FY27 Q1 and beyond.
+The company also stated that Gaming would face supply constraints in FY27 Q1 and beyond. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm .
 
-In FY27 Q1, NVIDIA changed segment presentation and reported Edge Computing at **$6.369B**.
+In FY27 Q1, NVIDIA changed segment presentation and reported Edge Computing at **US$6.369B**.
 
-The CFO commentary said consumer PC demand was tempered by **elevated memory and systems prices**, while Blackwell workstation demand remained robust.
+The CFO commentary said consumer PC demand was tempered by **elevated memory and systems prices**, while Blackwell workstation demand remained robust. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm .
 
 These disclosures matter because they establish two things at once:
 
