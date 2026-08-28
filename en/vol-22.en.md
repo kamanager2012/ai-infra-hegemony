@@ -40,7 +40,7 @@ This distinction separates a normal memory cycle from a durable change in the wa
 
 ## 3. HBM amplifies pressure on residual DRAM supply
 
-Micron disclosed in its FY24 Q3 prepared remarks that HBM3E requires roughly **3× the wafer supply of DDR5** to produce the same number of bits at the same technology node.
+Micron disclosed in its FY24 Q2 prepared remarks that HBM3E requires roughly **3× the wafer supply of DDR5** to produce the same number of bits at the same technology node.
 
 TrendForce **projects** that **HBM + RDIMM account for approximately 51% of 2026 DRAM bit supply**. This is a **2026E institutional forecast**, not an observed full-year actual.
 
@@ -178,7 +178,7 @@ It is a claim that product configuration, upgrade speed, and cost structure are 
 ## Key public sources for this volume
 
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 event page: https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
-- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 event page: https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - TSMC 4Q25 presentation — Smartphone 29% revenue mix; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - NVIDIA FY26 10-K — Gaming +41%; supply-constraint headwind expected in FY27 Q1 and beyond: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
