@@ -1,5 +1,8 @@
 # Macro Essay 4: Hyperscaler CapEx, System-Stack Counterattack, and DeepSeek's Architecture-Driven Cost Reduction
 
+
+> **Audit boundary for retired CapEx stress tests.** Earlier Chinese research drafts contain large dollar stress-test totals and token-price/use-volume matrices. They are retired D-grade scenario arithmetic, **not company actuals or a normalized industry total**, and are intentionally not reproduced here as factual inputs. Current capital identities follow the Four-Cloud CapEx Scope Check and publication Chapters 19/24.
+
 Chinese source edition: [part2-04.md](../part2-04.md)
 
 > Retrieval and revision cutoff: **2026-08-28**. Hyperscaler PPE is not an official AI-hardware line item. Cloud custom systems are now real system stacks, but full substitution in frontier training and the external ecosystem remains incomplete.
