@@ -42,7 +42,7 @@ This distinction separates a normal memory cycle from a durable change in the wa
 
 Micron disclosed in its FY24 Q3 prepared remarks that HBM3E requires roughly **3× the wafer supply of DDR5** to produce the same number of bits at the same technology node.
 
-TrendForce estimates that **HBM + RDIMM account for approximately 51% of 2026 DRAM bits**.
+TrendForce **projects** that **HBM + RDIMM account for approximately 51% of 2026 DRAM bit supply**. This is a **2026E institutional forecast**, not an observed full-year actual.
 
 These figures measure different things, but together they show why HBM can exert more pressure on manufacturing input than a simple bit-share comparison suggests.
 
@@ -80,7 +80,7 @@ The relevant structural change is not that smartphones disappeared.
 It is that:
 
 - HPC grew faster;
-- incremental advanced capacity became more oriented toward AI/HPC;
+- incremental advanced-capacity demand became more oriented toward AI/HPC;
 - memory supply became more influenced by server and HBM economics.
 
 For flagship smartphones, that can contribute to:
@@ -143,8 +143,8 @@ The automotive transmission path should be modeled separately rather than added 
 
 The current evidence can support direct quantification of:
 
-- the HBM3E **~3× wafer-supply trade ratio**;
-- the estimated **51% HBM + RDIMM share of 2026 DRAM bits**;
+- the HBM3E **~3× wafer-supply trade ratio** as A-grade first-party evidence;
+- the **51% HBM + RDIMM share of 2026 DRAM bit supply** as a B-grade **2026E institutional forecast**;
 - rack-scale HBM demand scenarios;
 - TSMC platform revenue mix.
 
@@ -177,5 +177,7 @@ It is a claim that product configuration, upgrade speed, and cost structure are 
 
 ## Key public sources for this volume
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 4Q25 presentation — Smartphone 29% revenue mix; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
+- NVIDIA FY26 10-K — Gaming +41%; supply-constraint headwind expected in FY27 Q1 and beyond: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
