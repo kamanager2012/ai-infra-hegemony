@@ -1,7 +1,5 @@
 # Part III · 第22章：折旧墙与 Duration Mismatch
 
-> **出版层章节。** 以 [vol-30](../vol-30.md) 为主源。Ch19 讲 CapEx 扩张，Ch24 讲资本清算；本章只解释：不同资产 useful life 为什么让 AI infrastructure 出现“折旧墙”，以及 accounting depreciation 与 economic obsolescence 为什么不是一回事。
-
 ## 1. 折旧墙不是某一年必然出现的固定美元冲击
 
 更准确的定义是：
