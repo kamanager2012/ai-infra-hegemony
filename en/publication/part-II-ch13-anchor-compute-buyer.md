@@ -24,7 +24,7 @@ Model-company demand has therefore become an upstream signal for capital formati
 
 OpenAI announced Stargate in January 2025, with a plan to invest **US$500B over four years** in U.S. AI infrastructure.[^1]
 
-The long-run objective was later described as securing 10 GW of U.S. AI infrastructure by 2029.
+The long-run objective was later described as securing **10 GW** of U.S. AI infrastructure by 2029.[^2]
 
 The status moved further forward in 2026. On **April 29, 2026**, OpenAI said Stargate had **surpassed the 10 GW secured-capacity milestone** and had added more than 3 GW in the prior 90 days.[^2] On **June 1, 2026**, the **1 GW The Barn** data-center campus in Michigan broke ground.[^3]
 
