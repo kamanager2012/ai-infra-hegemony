@@ -143,7 +143,7 @@ TrendForce 对 NVIDIA 占 CoWoS demand 超过 60% 的估计。
 
 例：
 
-5.39 CoWoS wafers/rack。
+5.37 CoWoS wafers/rack。
 
 ## 8. 维度一致性原则
 
@@ -163,7 +163,7 @@ TSMC largest customer 19% revenue share 不能写成 19% wafer share。
 
 ### Engineering geometry → fab yield
 
-5.39 CoWoS wafers/rack 不是 TSMC yield。
+5.37 CoWoS wafers/rack 不是 TSMC yield。
 
 ### CapEx guidance → actual
 
