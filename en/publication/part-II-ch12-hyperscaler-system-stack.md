@@ -43,7 +43,7 @@ That produces a powerful learning loop:
 
 Google's TPU path spans multiple generations.
 
-Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with XLA/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.
+Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with XLA/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1]
 
 Google's competitive unit is therefore:
 
@@ -55,9 +55,9 @@ If this system continuously lowers total cost of ownership for selected training
 
 AWS Trainium has likewise moved from accelerator toward system.
 
-Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.
+Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.[^2]
 
-AWS also benefits from long-duration anchor demand. Anthropic has publicly deepened its compute relationship with AWS, giving Trainium a large workload base on which to iterate system economics.
+AWS also benefits from long-duration anchor demand. Anthropic has publicly deepened its compute relationship with AWS, giving Trainium a large workload base on which to iterate system economics.[^3]
 
 But "having an anchor workload" is not the same as replacing NVIDIA's external ecosystem.
 
@@ -65,7 +65,7 @@ The variables that still need to be tested include large-cluster scaling, utiliz
 
 ## 5. Microsoft: Maia's value depends on scaled Azure deployment, not copying all of CUDA
 
-The correct standard for Microsoft Maia is not whether it supports every model on day one.
+The correct standard for Microsoft Maia 200 is not whether it supports every model on day one.[^4]
 
 It is whether Maia can create a stable cost advantage on a sufficiently large Azure / Microsoft internal workload.
 
@@ -86,7 +86,7 @@ Becoming a general external substitute would require lower migration cost and a 
 
 Meta operates very large recommendation, ranking, and generative-AI workloads.
 
-MTIA's logic is not to become a general-purpose accelerator first. It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution.
+MTIA 300's logic is not to become a general-purpose accelerator first.[^5] It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution.
 
 The economic objective is:
 
@@ -130,7 +130,7 @@ Cloud custom silicon is a form of **private cost reduction**: Google, AWS, Micro
 
 The algorithmic / architectural efficiency represented by DeepSeek is closer to **public cost reduction**. If an architecture materially lowers compute or memory requirements for training or serving, other developers can adopt similar ideas and alter the market-wide unit cost of intelligence.
 
-The auditable DeepSeek-V3 first-party anchors are:
+The auditable DeepSeek-V3 first-party anchors are:[^6]
 
 - 671B total parameters;
 - 37B activated parameters;
@@ -140,7 +140,7 @@ The auditable DeepSeek-V3 first-party anchors are:
 
 Using the paper's US$2/GPU-hour assumption, **US$5.576M corresponds to the full formal-training compute conversion**, not full R&D cost.
 
-A separate DeepSeek-V2 result reports **93.3% KV-cache reduction** and **5.76× maximum generation throughput** relative to DeepSeek 67B.
+A separate DeepSeek-V2 result reports **93.3% KV-cache reduction** and **5.76× maximum generation throughput** relative to DeepSeek 67B.[^7]
 
 V2 and V3 must not be combined into a single model result.
 
@@ -208,12 +208,12 @@ As of August 2026, the most defensible description is:
 
 **Cloud System-Stack Substitution is therefore one of the most important structural variables that could move S2 Baseline Concentration toward S1 Competitive Expansion**, but its strength must be measured through real workload share, migration cost, utilization, and upstream-resource dependence.
 
-## Key public sources
+## References
 
-- Google Ironwood TPU: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
-- AWS Trainium3 UltraServers: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
-- Microsoft Maia 200: https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
-- Meta MTIA 300: https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-- Anthropic / AWS compute collaboration: https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-- DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
-- DeepSeek-V2 repository / technical report: https://github.com/deepseek-ai/DeepSeek-V2
+[^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
+[^5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^6]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^7]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
