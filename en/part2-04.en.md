@@ -134,6 +134,8 @@ DeepSeek-V3 provides a first-party technical anchor:
 - **14.8T** pre-training tokens;
 - **2.788M H800 GPU-hours** for the formal training run.
 
+Source: DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
+
 Using the report-side rental assumption of **US$2 per GPU-hour** produces approximately:
 
 ```text
