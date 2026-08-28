@@ -86,11 +86,11 @@ hyperscaler 是 asset buyer。
 
 FY26 H20 相关 charge 曾影响 NVIDIA 全年 gross margin。
 
-但 FY27 Q2 GAAP gross margin 已恢复到 **75.0%**。
+FY26 Q4 GAAP gross margin 已为 **75.0%**，FY27 Q1 为 74.9%，FY27 Q2 **维持在 75.0%**；因此不能写成“Q2 才恢复到 75.0%”。
 
 这说明：
 
-> 一次性 inventory / regulatory shock 可以影响单季或全年利润，却不一定代表 system economics 已经结构性崩溃。
+> H20 相关 charges / releases 等一次性或政策相关项目可以影响单季或全年利润，却不一定代表 system economics 已经结构性崩溃；“regulatory shock”只作为分析标签，不冒充公司原始措辞。
 
 判断结构性变化需要更长期的：
 
