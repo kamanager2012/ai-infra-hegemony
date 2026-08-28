@@ -50,7 +50,7 @@ PC 受到两条主要路径影响。
 
 consumer GPU 与 Data Center accelerator 会共享部分 advanced manufacturing resource。
 
-NVIDIA 曾披露 gaming GPU supply constraints。
+NVIDIA FY26 10-K 更准确的披露是：FY26 Gaming revenue 同比增长 **41%**，同时预计 **supply constraints will be a headwind to Gaming in FY27 Q1 and beyond**。这证明 Gaming 侧存在供应约束预期，但不能直接把原因全部归结为 Data Center allocation。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm 。
 
 ### 4.2 DDR5 supply
 
