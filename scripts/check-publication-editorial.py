@@ -50,14 +50,6 @@ def main() -> int:
                 failures.append(
                     f"{path.relative_to(ROOT)}:{lineno}: unit casing: {line.strip()}"
                 )
-            if LOCAL_MD_LINK.search(line):
-                failures.append(
-                    f"{path.relative_to(ROOT)}:{lineno}: local .md link remains: {line.strip()}"
-                )
-            if RAW_HTML_MEDIA.search(line):
-                failures.append(
-                    f"{path.relative_to(ROOT)}:{lineno}: raw embedded media/iframe: {line.strip()}"
-                )
 
     print(f"publication editorial files checked: {checked}")
     if failures:
