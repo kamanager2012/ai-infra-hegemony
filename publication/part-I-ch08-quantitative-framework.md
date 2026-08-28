@@ -1,205 +1,376 @@
 # Part I · 第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade
 
+## 1. 核心原则：量化不是把所有数字塞进一个总模型
 
-## 1. 量化的目标不是制造一个伪精确总模型
+AI infrastructure 最容易出现的分析错误，是把不同物理池、不同会计科目、不同时间窗口和不同证据等级的数字串成一个看似完整的总量模型。
 
-AI infrastructure 最容易出现的分析错误，是把不同物理池、不同会计科目和不同证据等级的数字串成一个看似完整的总量模型。
+本报告只允许能够保持量纲和证据身份的量化进入主链。
 
-本书只允许四类量化进入主链：
+核心原则是：
 
-1. **Compute / memory intensity**；
-2. **Rack-scale material demand**；
-3. **Packaging / power 的明确压力测试**；
-4. **Capacity / commitment / utilization indicators**。
+> **先确认物理对象和分母，再做计算；无法公开闭合的变量保留为参数，不用“合理猜测”补齐。**
 
-任何无法由公开数据闭合的环节，都必须保留成参数，而不是用一个“看起来合理”的点值补齐。
+量化主要服务四类问题：
 
-## 2. Roofline：为什么 frontier inference 不能只比较 FLOPS
+1. workload 对 compute / memory / interconnect 的需求强度；
+2. system spec 如何转化成 material / power requirement；
+3. 某一 scarce layer 是否存在有效供给缺口；
+4. bottleneck、utilization 与 capital return 如何随时间变化。
 
-Roofline model 的核心关系是：
+---
+
+## 2. Roofline：为什么不能只用 FLOPS 衡量 AI System
+
+Roofline model 的基本关系是：
 
 > **Performance = min(Peak Compute, Memory Bandwidth × Arithmetic Intensity)**
 
-临界算术强度为：
+临界算术强度：
 
 > **I_critical = Peak Compute / Memory Bandwidth**
 
-当 workload 的 arithmetic intensity 低于临界值，系统进入 memory-bound 区域。自回归推理需要持续读取 model state、KV cache 和 routing / activation 数据，因此即使 accelerator 的 peak FLOPS 很高，真实 token throughput 仍可能受 HBM bandwidth 与 memory movement 限制。
+当 workload 的 arithmetic intensity 低于临界值时，系统进入 memory-bound 区域。
 
-这就是为什么本书把 HBM、interconnect 与 compute 放在同一系统单位里，而不是只用峰值算力解释 frontier inference。
+这解释了为什么 frontier inference / training 不能只比较 peak FLOPS。
 
-## 3. Algorithmic architecture 会改变需求函数，但不会删除物理约束
+真实 workload 还会受到：
 
-DeepSeek-V3 Technical Report 的一手锚包括：671B total parameters、37B activated parameters、14.8T pre-training tokens、**2.664M H800 GPU-hours pre-training** 与 **2.788M H800 GPU-hours full formal training**。[^1]
+- HBM bandwidth；
+- model state movement；
+- KV cache；
+- MoE routing；
+- collective communication；
+- interconnect；
+- synchronization；
 
-DeepSeek-V2 的独立结果则包括：相对 DeepSeek 67B，约 **93.3% KV-cache reduction** 与约 **5.76× maximum generation throughput**。[^2]
+等因素影响。
 
-这两组数字属于不同模型版本，不能混写。
+因此，本报告把 compute、memory 与 interconnect 放在同一 system unit 中分析。
 
-它们的共同方法意义是：architecture 可以改变 bytes/token、activated compute、communication pattern 与 serving concurrency，因此会直接改变对 HBM、network 和 compute 的需求函数。
+---
 
-但需求函数变化不等于物理约束消失。更高效率是否减少总基础设施需求，仍取决于 workload volume 与 demand elasticity。
+## 3. Algorithmic Efficiency 会改变需求函数，但不会自动删除物理约束
 
-## 4. Formal-training compute conversion 不是完整研发成本
+算法与架构可以改变：
 
-DeepSeek-V3 full formal training 为 **2.788M H800 GPU-hours**；论文同时使用 **US$2/GPU-hour** 的租金假设。[^1] 因此可做一项明确标注的 **D 级算术换算**：
+- activated compute；
+- bytes/token；
+- KV-cache requirement；
+- communication pattern；
+- batch / concurrency；
+- serving efficiency。
 
-> **2.788M × US$2 ≈ US$5.576M**
+DeepSeek-V3 / V2 等公开案例说明，architecture improvement 可以显著改变单位 capability 所需的硬件资源。[^1][^2]
 
-这一数字只代表该次 formal-training compute conversion，不包括 research iteration、failed runs、data engineering、engineering payroll、cluster depreciation、networking、storage 与 post-training ecosystem。
+但量化时必须区分：
 
-因此本书允许把 US$5.576M 用作**公开训练运行量级**，不允许把它写成“一个 frontier model 的完整企业成本”。
+> **unit-resource demand**
 
-## 5. Rack-scale BOM 可以量化，但 rack shipment 不能凭空补齐
+与
 
-GB200 NVL72 官方配置为：72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E、17 TB LPDDR5X。[^3]
+> **total infrastructure demand**
 
-如果情景 rack 数为 R，则：
+如果单位 workload 成本下降，而 workload volume 增长得更快，总基础设施需求仍然可能继续上升。
 
-> **HBM(R) = 13.4 TB × R**
+因此：
 
-> **LPDDR(R) = 17 TB × R**
+> **Efficiency gain ≠ infrastructure demand decline**
 
-**Table 8.1 — NVL72 rack 数量与 HBM/LPDDR 情景需求**
+真正需要计算的是 demand elasticity，而不是只计算单位成本下降。
 
-| 情景 rack 数 | HBM3E | LPDDR5X |
-|---:|---:|---:|
-| 1,000 | 13.4 PB | 17 PB |
-| 10,000 | 134 PB | 170 PB |
-| 30,000 | 402 PB | 510 PB |
-| 50,000 | 670 PB | 850 PB |
+---
 
-**Source:** NVIDIA official GB200 NVL72 specification；本报告情景算术。[^3]  
-**Note:** rack count 为假设输入；表中 PB 数值不是实际出货或消费量。
+## 4. System Spec 可以用于 Material Identity，但不能凭空制造 Shipment
 
-这是 **D 级 scenario arithmetic**。NVIDIA 没有公开可用于这一乘算的全年 NVL72 rack shipment，因此不能先用 Data Center revenue 除一个自拟 ASP，再把假设 rack 数继续传播成 HBM、CoWoS 和 power 的“实际值”。
+GB200 NVL72 官方规格包括：
 
-## 6. HBM trade ratio 会放大 bit-demand 对 wafer input 的压力
+- 72 Blackwell GPU；
+- 36 Grace CPU；
+- 13.4 TB HBM3E；
+- 17 TB LPDDR5X。[^3]
 
-Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^4]
+这类公开规格可以回答：
 
-因此，bit demand 与 manufacturing input 不是一一对应。HBM bit share 上升时，对 DRAM wafer / cleanroom input 的压力可能高于 bit share 本身。
+> **一套 system 需要什么、需要多少。**
 
-该 3× 不是 Micron 单厂固定 MES 常数，也不能机械外推成 HBM4/HBM5 的永久倍率。
+但如果没有公开 shipment / deployment count，就不能回答：
 
-## 7. Packaging geometry 只能承担 sensitivity，不承担 shipment
+> **全行业实际消耗了多少。**
 
-报告使用约 **5.37 CoWoS wafers/rack** 作为 D 级 geometry stress test：
+因此：
 
-> **72 packages ÷ 13.4 packages/wafer ≈ 5.37 wafers/rack**
+> **official system spec × hypothetical deployment count = scenario arithmetic**
 
-其中 13.4 packages/wafer 是报告侧 geometry assumption，不是 TSMC 官方 yield 或 packages-per-wafer 指标。
+而不是 actual shipment。
 
-所以 5.37 只可用于：
+同理，不能通过：
 
-- packaging demand order-of-magnitude；
-- scenario comparison；
-- bottleneck sensitivity。
+> Data Center revenue ÷ 自拟 system ASP
 
-不能用于除 TSMC annual front-end wafer shipments、反推实际 Blackwell shipment 或推导 customer allocation。
+反推出“实际 rack 数”，再继续传播成 HBM、packaging 和 power 的事实数字。
 
-## 8. Power 也必须按状态与物理边界计算
+---
 
-约 **120 kW/rack** 可以作为 rack-level power-density input。[^5] 以 500 racks 为情景输入，可做 **D 级算术**：500 racks × 120 kW = **60 MW rack-level full-load power**。
+## 5. HBM：Bit Demand 与 Manufacturing Input 不是一一对应
 
-但这一算术不包括完整 facility overhead，也不代表某个园区已经部署 500 柜。
+Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
-更重要的是，电力要区分：Announced、Contracted、Permitted、Energized、Utilized。contracted MW 不等于 energized MW，energized MW 也不等于高利用率 AI load。
+> 在 same technology node / same number of bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^4]
 
-因此，power quantity 与 hardware quantity 一样，必须保留状态身份。
+因此：
 
-## 9. 当 shipment 无法闭合时，Forward Commitment 比自拟出货更有价值
+> **same bits ≠ same wafer input**
 
-NVIDIA manufacturing, supply, and capacity commitments 的公开轨迹为：[^6]
+这说明 HBM bit share 上升时，对 DRAM wafer / cleanroom input 的压力可能高于 bit share 本身。
+
+但 3× 必须保留适用条件：
+
+- same technology node；
+- same number of bits；
+- HBM3E vs DDR5；
+- 不是售价倍数；
+- 不是未来所有 HBM generation 的永久常数。
+
+---
+
+## 6. AI Capacity Gap：先判断“现在缺不缺”，再判断“缺口在扩大还是收敛”
+
+对每个物理层 (i)，定义：
+
+```text
+AI_Capacity_Gap_i(t)
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+其中 (i) 可以分别代表：
+
+- advanced logic；
+- HBM / DRAM；
+- advanced packaging；
+- networking；
+- power。
+
+Demand 与 Capacity 必须使用：
+
+- 同一 physical layer；
+- 同一 delivery window；
+- 同一 qualification / quality boundary；
+- 同一 physical unit。
+
+例如：
+
+- wafers/month；
+- qualified package starts/month；
+- bits/year；
+- MW。
+
+解释：
+
+- **Gap > 0**：当前有效供给不足；
+- **Gap ≈ 0**：当前接近平衡；
+- **Gap < 0**：当前存在有效余量。
+
+---
+
+## 7. Capacity Growth Gap：只描述方向，不能代替当前缺口
+
+再定义：
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i)
+- Growth(AI_Effective_Capacity_i)
+```
+
+它回答的是：
+
+> **当前供需缺口更可能扩大还是收敛？**
+
+- **Growth Gap > 0**：短缺压力可能加剧，或既有余量缩小；
+- **Growth Gap < 0**：供给在追赶，短缺可能收敛；
+- **Growth Gap = 0**：只表示增长速度相同，不表示当前没有短缺。
+
+因此：
+
+> **Absolute Gap 与 Growth Gap 必须同时看。**
+
+一个市场可以仍然短缺，但供给正在快速追赶；也可以当前还有余量，但需求增长速度正在迅速侵蚀余量。
+
+---
+
+## 8. Non-AI Residual Capacity 回答的是另一类问题
+
+AI Capacity Gap 观察 AI 侧。
+
+传统市场则需要看：
+
+```text
+NonAI_Residual(t)
+= Effective_Supply(t)
+- AI_Server_Absorption(t)
+- Other_Priority_Demand(t)
+```
+
+它回答：
+
+> **AI 和其他高优先需求吸收之后，非 AI 市场还能获得多少有效供给。**
+
+因此：
+
+- AI Capacity Gap；
+- AI Capacity Growth Gap；
+- Non-AI Residual Capacity；
+
+不能互相替代。
+
+前两者看 AI 自身，后者看传统市场 residual access。
+
+---
+
+## 9. Power 必须同时保留 Physical Quantity 与 Delivery State
+
+约 **120 kW/rack** 可以作为 rack-level power-density input。[^5]
+
+但 system power 计算必须同时保留两个维度：
+
+### Physical Quantity
+
+- kW；
+- MW；
+- GW。
+
+### Delivery State
+
+- Announced；
+- Contracted；
+- Permitted；
+- Construction / Transition；
+- Energized；
+- Utilized。
+
+因此：
+
+> **contracted MW ≠ energized MW ≠ utilized AI load**
+
+一个正确的 power model 必须同时说明“多少”和“处于什么状态”。
+
+---
+
+## 10. Forward Commitment 是 Supply Reservation Intensity 的 Proxy，而不是 Shipment
+
+NVIDIA manufacturing, supply and capacity commitments 的公开轨迹为：[^6]
 
 - 2026-01-25：**US$95.2B**；
 - 2026-04-26：**US$119B**；
 - 2026-07-26：**US$279B**。
 
-FY27 Q2 10-Q 说明，最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。
+FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。
 
-它不能告诉我们某一家 supplier 得到多少，但可以作为 future resource reservation intensity 的可观察 proxy。
+这可以用来观察：
 
-在缺乏 customer-level HBM bits、CoWoS allocation 和 rack shipment 时，这类前向 commitment 比“收入÷自拟柜价”的伪精确模型更有价值。
+> **future resource reservation intensity**
 
-## 10. AHICR：每个 scarce layer 分开测增量捕获
+但不能告诉我们：
 
-本书使用 **Advanced/HPC Incremental Capacity Capture Ratio（AHICR）**：
+- 某一家 supplier 获得多少；
+- customer-level HBM bits；
+- CoWoS allocation；
+- rack shipments。
 
-> **AHICR(layer) = 某买方获得的新增先进 AI/HPC resource ÷ 该 physical layer 全行业新增 resource**
+因此：
 
-AHICR 必须分别观察：
+> **commitment ≠ shipment**
 
-- advanced logic；
-- HBM；
-- advanced packaging；
-- power。
+它是领先指标，而不是实际交付量。
 
-这些单位不能相加成一个万能“资源占有率”。AHICR 的价值在于观察下一代增量资源是否持续向少数买方倾斜，而不是把历史 revenue share 当成未来 allocation。
+---
 
-## 11. 五类风险必须分开，再看是否形成级联
+## 11. Rolling Bottleneck Cascade：约束会在不同物理层之间迁移
 
-AI infrastructure 的系统风险可以分成：
+AI infrastructure 没有一个永久固定的唯一瓶颈。
 
-1. **Physical bottleneck**：logic / HBM / packaging / interconnect；
-2. **Power bottleneck**：grid / substation / permit / cooling；
-3. **Capital / utilization risk**：资产利用率不足以覆盖 depreciation、power、operations 与 financing；
-4. **System substitution risk**：cloud custom stacks / open software 改变 platform economics；
-5. **Regulatory / geopolitical risk**：export control、supply interruption、interface remedy、regional fragmentation。
+一种扩张链可能是：
 
-单一风险并不等于全行业 crisis。真正危险的是多个时钟开始串联。
+> HBM / packaging tight  
+> → hardware delivery constrained  
+> → supply expands  
+> → more systems reach sites  
+> → power / interconnection becomes binding  
+> → utilization becomes next constraint
 
-## 12. Rolling Bottleneck Cascade
+反向资本链可能是：
 
-AI infrastructure 的瓶颈会轮换，而不是永久固定在同一层。
-
-一种正向扩张链是：
-
-> HBM / packaging tight → hardware delivery constrained → supply expands → more racks reach sites → power / interconnection becomes binding → utilization becomes next constraint
-
-一种反向资本链则可能是：
-
-> power delay → utilization decline → buyer ROI decline → next CapEx slows → hardware orders slow → HBM / packaging tightness eases → upstream CapEx slows
+> power delay / low utilization  
+> → buyer ROI declines  
+> → CapEx slows  
+> → hardware orders slow  
+> → HBM / packaging tightness eases  
+> → upstream CapEx slows
 
 这就是 **Rolling Bottleneck Cascade**。
 
-它解释了为什么“HBM 已经缓解”并不能证明 AI infrastructure 已经没有约束，也解释了为什么“power 成为约束”并不等于 semiconductor bottleneck 永久消失。
+它说明：
 
-## 13. Capital return 需要把所有现金时钟放进同一方程
+> **一个瓶颈缓解，不代表系统约束消失；约束可能只是转移到了下一层。**
 
-最基本的经济式可以写成：
+---
 
-> **Economic Return = Revenue from deployed compute − Depreciation − Power − Operations − Financing**
+## 12. Capital Return 必须把不同现金时钟放进同一经济框架
 
-这里最危险的是 duration mismatch：hardware 快速迭代，而 data-center shell、grid、PPA 与 debt 可能持续更久。
+AI infrastructure 的最基本经济关系可以写成：
 
-所以一个系统即使技术上可运行，也可能因为低 utilization 或长期 obligations 形成差的资本回报。
+> **Economic Return = Revenue from Productive Workload − Depreciation − Power − Operations − Financing**
 
-## 14. Quantitative Guardrails
+这里的核心问题是 duration mismatch：
 
-全书必须遵守以下硬边界：
+- hardware 技术周期短；
+- network / cooling 中周期；
+- data-center shell 长周期；
+- grid / PPA / generation 更长周期。
+
+因此，一个 system 即使技术上可运行，也可能因为：
+
+- utilization 低；
+- workload monetization 弱；
+- capital cost 高；
+- long-duration obligation 重；
+
+而形成较差资本回报。
+
+---
+
+## 13. Quantitative Guardrails
+
+全书量化必须遵守以下边界：
 
 - revenue share ≠ wafer share；
 - platform revenue share ≠ physical shipment share；
+- demand share ≠ allocation share；
 - contracted MW ≠ energized MW；
 - energized MW ≠ utilized AI load；
-- rack spec × hypothetical racks ≠ shipment；
-- CoWoS geometry ≠ fab yield；
+- system spec × hypothetical count ≠ actual shipment；
+- front-end wafer pool ≠ advanced-packaging wafer pool；
 - CapEx guidance ≠ actual CapEx；
-- AI exposure ≠ job loss；
-- model rental conversion ≠ full company cash cost；
 - institutional forecast ≠ company actual；
-- one physical pool ≠ another physical pool。
+- model compute conversion ≠ full R&D cost；
+- exposure ≠ realized outcome。
 
-## 15. 最可靠的量化顺序
+这些不是文字上的谨慎，而是防止模型在量纲上失真。
 
-本报告采用以下顺序：
+---
 
-> **official system spec → material identity → scenario demand → supply constraint → forward commitment → utilization → falsification**
+## 14. 最可靠的量化顺序
 
-而不是先设定一个宏大终局，再反向搜索数字把公式填满。
+本报告采用：
 
-这套纪律的价值不是让所有未来判断变保守，而是允许情景大胆，同时保证事实层和物理量纲始终可审计。
+> **official fact → physical identity → denominator → scenario input → supply constraint → utilization → capital return → falsification**
+
+而不是：
+
+> **先设定一个终局 → 再寻找数字填满模型。**
+
+量化框架的价值不是制造伪精确，而是让未来情景可以大胆，同时让事实层、物理量纲和证据身份始终保持可审计。
 
 ## References
 
