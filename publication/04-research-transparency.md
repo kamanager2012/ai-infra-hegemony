@@ -64,7 +64,7 @@
 - 用公开材料精确计算所有公司的 AI-specific ROI；
 - 把 40 卷、8 篇宏观专题和 32 章中的所有数字自动升级为已审计事实。
 
-全量历史数字 claim-by-claim audit 仍是正式发布前硬门禁；机器可读 schema 与 candidate extractor 已加入仓库，但不能替代人工/来源核验。
+截至 2026-08-28，strict every-number **source-coverage** 已覆盖中英文 research layer **96/96 files / 1,052 unit-bearing numeric candidates / 0 unresolved**，Publication Layer **64/64 chapters / 529 candidates / 0 unresolved**。这证明数字主张已具备来源锚、明确的模型/情景身份或可解释的反例边界；它**不等于**逐句外部审计鉴证，也不替代低风险 claim 在最终 editorial proof 阶段对 source meaning、denominator 与 time window 的人工 semantic sign-off。机器可读 schema、candidate extractor 与 high-risk claim ledger 共同用于降低漏审风险。
 
 ## 6. 纠错原则
 
