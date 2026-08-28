@@ -2,9 +2,9 @@
 
 ## 1. Why power has moved from operating cost to infrastructure quota
 
-Once rack-scale AI systems reach roughly **120 kW/rack**, electricity is no longer merely an operating expense. It becomes a constraint on whether systems can be deployed and utilized on schedule.
+Once rack-scale AI systems reach roughly **120 kW/rack**, electricity is no longer merely an operating expense. It becomes a constraint on whether systems can be deployed and utilized on schedule.[^1]
 
-NVIDIA's official documentation for GB200/GB300 NVL72-class racks gives an approximately **120 kW/rack** full-rack power figure.[^1] A clearly labeled **D-grade scenario calculation** is therefore:
+NVIDIA's official documentation for GB200/GB300 NVL72-class racks gives an approximately **120 kW/rack** full-rack power figure. A clearly labeled **D-grade scenario calculation** is therefore:
 
 > 500 racks × 120 kW/rack = **60 MW of rack-level full-load power**
 
