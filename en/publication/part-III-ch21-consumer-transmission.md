@@ -78,6 +78,18 @@ AI-resource pressure is therefore more likely to appear first as an **upgrade ta
 
 > the same price buys slower specification improvement, or the same specification requires a higher BOM.
 
+### 6.1 Supply Assurance is a separate variable
+
+In an extreme shortage, end-product vendors face more than rising ASPs. They can also face **insufficient allocation fulfillment**.
+
+TrendForce stated in March 2026 that PC OEMs / module makers with lower allocations had to procure incremental supply at higher prices. Its May smartphone research also described tighter full-year allocations and the need for brands to manage LTAs and inventory more carefully.
+
+The analysis therefore has to separate:
+
+> **price pressure** from **quantity assurance**
+
+Prices can rise while supply remains insufficient. A willingness to pay more does not guarantee the quantity required by the production plan.
+
 ## 7. Channel price is a thermometer; institutional contract price is closer to the industry layer
 
 Spot/channel prices can show that consumers or system builders are under pressure at a specific moment.
@@ -94,15 +106,39 @@ But consumer DRAM / NAND capability cannot be extrapolated automatically into HB
 
 Domestic substitution can therefore change smartphone / PC cost structures without eliminating the frontier AI bottlenecks in HBM and advanced packaging.
 
-## 9. Automotive and robotics require separate cost structures
+## 9. Automotive / Industrial: mature memory can also be displaced by high-value product mix
 
-Automotive systems have longer qualification cycles.
+Automotive and industrial systems have longer qualification cycles, but that does not insulate them from AI-era product-mix reallocation.
 
-Robotics depends on actuators, reducers, sensors, batteries, and manufacturing.
+TrendForce stated in June 2026 that major memory suppliers were prioritizing HBM and advanced-layer 3D NAND, squeezing mature NOR Flash and SLC NAND capacity; cumulative 1H26 contract-price increases for both categories exceeded 100%. In July, TrendForce raised its 2H26 SLC NAND forecast to **+120–170% versus 1H26**, with automotive, industrial, and networking buyers among the affected customers.
 
-They will not experience cost transmission on the same cadence as smartphones and PCs.
+What can be supported is **structural shortage and price inflation in specific mature-memory categories**.
 
-This report therefore avoids a universal consumer-BOM inflation rate and does not treat one robot BOM template as cross-industry fact.
+This report does not upgrade that evidence into unverified whole-vehicle claims such as "all automotive memory +180%," "RMB7,000–10,000 added memory cost per vehicle," or "annual supply fulfillment below 50%."
+
+## 9.1 Routers / Broadband: low-bargaining-power buyers show the damage more clearly
+
+Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.
+
+This is important because it shows that:
+
+> **the severity of resource crowding-out is strongly related to bargaining power and supply assurance.**
+
+Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of the shock. Smaller OEMs are more exposed to the combination of higher prices and lower allocations.
+
+## 9.2 HDD and SSD: not a one-way "SSD kills HDD" story
+
+AI data-center storage is becoming a segmented market.
+
+TrendForce observed both severe nearline-HDD shortages and faster substitution toward high-capacity QLC nearline SSDs. At the same time, Seagate's FY26 results explicitly linked AI-driven data growth to stronger mass-capacity storage demand.
+
+A more accurate structure is:
+
+- latency / inference-sensitive workloads raise the attractiveness of SSD / QLC nearline SSD;
+- cold and mass-capacity storage continues to create real HDD demand;
+- HDD supply and HAMR ramp can themselves become storage bottlenecks.
+
+AI data centers therefore do not make HDD strategically irrelevant by default.
 
 ## 10. Real-economy firms face a second layer of AI Adoption Cost
 
@@ -140,3 +176,9 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 - Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA FY27 Q1 CFO commentary — consumer PC demand tempered by elevated memory and systems prices: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
 - TSMC 4Q25 Presentation: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- TrendForce 2026-03-31 — lower allocation fulfillment forces buyers to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
+- TrendForce 2026-06-16 — NOR Flash / SLC NAND 1H26 contract-price increases >100%, mature-capacity squeeze: https://www.trendforce.com/presscenter/news/20260616-13102.html
+- TrendForce 2026-07-13 — SLC NAND 2H26 forecast +120–170% vs 1H26; automotive/industrial/networking exposure: https://www.trendforce.com/presscenter/news/20260713-13142.html
+- Counterpoint Research 2026-02-11 — broadband memory prices ~7×; router memory BOM >20% vs ~3%: https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
+- TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
+- Seagate FY26 results — AI/cloud data generation supports mass-capacity HDD demand: https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
