@@ -22,7 +22,7 @@ AI infrastructure 的资本体系已经不只包括 listed technology equity。
 
 NVIDIA 的典型特征是 high system margin、strong cash generation 与相对较低直接 fixed-asset intensity。
 
-FY26 NVIDIA-defined non-GAAP free cash flow 为 **US$96.575B**；FY27 Q2 Revenue **US$96.221B**、Data Center **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**。
+FY26 NVIDIA-defined non-GAAP free cash flow 为 **US$96.575B**；[^1] FY27 Q2 Revenue **US$96.221B**、Data Center **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**。[^2]
 
 相比之下，hyperscaler、foundry、memory vendor、data-center operator 和 power developer 需要承担大量 fixed assets。
 
@@ -48,7 +48,7 @@ HBM boom 可以显著改善 memory-vendor economics，但制造利润仍比 syst
 
 ## 5. 2026 年出现了独立 Compute Financing Platform
 
-NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立独立 compute financing platforms，目标是**随时间动员超过 US$500B third-party capital**用于 AI infrastructure buildout。
+NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立独立 compute financing platforms，目标是**随时间动员超过 US$500B third-party capital**用于 AI infrastructure buildout。[^3]
 
 这条证据的重要性不在“500B 已到账”，而在于：
 
@@ -98,6 +98,8 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 ## 10. Duration Matching 是融资质量核心
 
+**Table 23.1 — AI infrastructure 资产类别与主要融资风险**
+
 | 资产 | 主要风险 |
 |---|---|
 | GPU/server | technology refresh / residual value |
@@ -106,6 +108,9 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 | PPA | long obligation / demand risk |
 | Foundry | utilization / node transition |
 | HBM fab | memory cycle / generation timing |
+
+**Source:** 本报告资产久期与融资风险框架。  
+**Note:** 表中为机制分类，不代表所有项目具有相同融资结构、杠杆水平或合同条款。
 
 最危险结构是：
 
@@ -123,8 +128,8 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 
 最终决定这类融资是否可持续的，不是 headline target，而是 utilization、cash yield、contract quality 与 hardware residual value。
 
-## 关键公开来源
+## References
 
-- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA 2026-08-10 — AI compute financing platforms, >US$500B third-party-capital mobilization target: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^1]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” NVIDIA-defined non-GAAP free cash flow, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+[^2]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^3]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
