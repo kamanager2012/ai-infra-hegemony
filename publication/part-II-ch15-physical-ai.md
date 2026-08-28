@@ -52,7 +52,7 @@ robot system 需要 camera、depth、force/torque、tactile、IMU、encoder 等�
 
 ## 6. Edge Platform 的战略位置
 
-NVIDIA Jetson/Thor、Qualcomm 与其他 edge accelerators 的竞争维度是 compute、software、power efficiency 与 developer ecosystem。
+NVIDIA Jetson Thor、Qualcomm 与其他 edge accelerators 的竞争维度是 compute、software、power efficiency 与 developer ecosystem。NVIDIA Isaac/GR00T 将 simulation/training、robot model 与 Jetson Thor onboard compute 组织成跨 cloud-to-edge workflow。[^1][^2]
 
 edge system 不需要复制 data-center rack architecture。
 
@@ -77,7 +77,7 @@ edge system 不需要复制 data-center rack architecture。
 
 ### 7.1 机器人本体也可能成为新的 Memory / Storage Demand Pool
 
-Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必须保留“公司前瞻判断”身份的量化锚：
+Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必须保留“公司前瞻判断”身份的量化锚：[^3]
 
 - L2+ 及以上车辆的 memory + storage content 已超过 average vehicle 的 **5×**；
 - Micron 称 humanoid robots 的 memory content 约为 average L2+ vehicle 的 **10×**；
@@ -93,7 +93,7 @@ Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必
 
 ## 8. 机器人侧的 Power Wall 是 Battery / Thermal
 
-data center 的 power bottleneck 是 grid / interconnection；机器人侧则是 battery energy density、runtime、charging、thermal 与 peak actuator demand。
+data center 的 power bottleneck 是 grid / interconnection；机器人侧则是 battery energy density、runtime、charging、thermal 与 peak actuator demand。作为量纲对照，NVIDIA DGX GB200 rack 的官方功耗约为 120 kW，但该数据只用于说明 cloud 与 edge 属于不同物理池。[^4]
 
 因此 Physical AI 应比较：
 
@@ -136,9 +136,9 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 > **谁能把 AI capability 转化成可靠、低成本、可量产、可维护的物理工作。**
 
-## 关键公开来源
+## References
 
-- NVIDIA Isaac official platform page — GR00T, simulation/training, Jetson Thor inference/control and DGX/OVX/AGX workflow layers: https://developer.nvidia.com/isaac
-- NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot — Jetson Thor onboard compute + Isaac GR00T open platform: https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
-- NVIDIA DGX GB200 hardware guide — data-center rack power reference used only for cloud-vs-edge physical contrast: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Micron 2026-06-24 investor presentation — humanoid robots ~10× memory content vs average L2+ vehicle; multi-decade demand outlook: https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
+[^1]: NVIDIA Developer, Isaac platform, simulation/training and robotics workflow, https://developer.nvidia.com/isaac
+[^2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
+[^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
+[^4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
