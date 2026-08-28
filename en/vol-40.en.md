@@ -320,3 +320,8 @@ The decisive variables for the next decade are not one benchmark or one market-s
 As long as those variables are updated with public evidence, this report does not need to rely on prophecy.
 
 It can remain a continuously recalibrated industrial framework.
+
+## Key public sources for this volume
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
