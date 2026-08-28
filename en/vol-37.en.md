@@ -110,6 +110,11 @@ NVIDIA's FY26 H20-related charges affected full-year profitability.
 
 FY26 Q4 GAAP gross margin was already **75.0%**, FY27 Q1 was 74.9%, and FY27 Q2 **held at 75.0%**, with revenue of **$96.221B**, Data Center revenue of **$89.0B**, and GAAP operating income of **$63.734B**.
 
+Primary sources:
+- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q1 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+
 The implication is narrow but important:
 
 > **H20-related charges/releases and other one-time or policy-related items can damage a quarter or fiscal year without proving that system economics have structurally collapsed. “Regulatory shock” is an analytical label, not NVIDIA's wording.**
