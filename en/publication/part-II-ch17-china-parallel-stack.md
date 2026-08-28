@@ -24,19 +24,48 @@ Smartphones and parts of consumer computing can form a more complete domestic ch
 
 TSMC's 2025 platform mix still shows smartphone at **29%** of annual platform revenue and HPC at **58%**.
 
-Consumer computing therefore remains a major market, but frontier AI and smartphones compete for different resources inside the same advanced-manufacturing ecosystem.
+### 2.1 "Huawei is the only Chinese smartphone-SoC vendor with real scale" is no longer consistent with 2026 public data
 
-Consumer parallel-supply capability should be evaluated as its own layer—not used as proof for or against frontier-AI closure.
+Counterpoint Research's 2026 Q1 global smartphone AP-SoC shipment shares show:
+
+- UNISOC: **14%**;
+- HiSilicon: **4%**.
+
+If commercial scale is measured by actual smartphone-SoC shipments, domestic supply is therefore not limited to Huawei.
+
+Huawei / HiSilicon's more defensible distinction is that its **premium in-house device + SoC + software/ecosystem vertical loop is more mature**, not that it is the only domestic vendor with shipment scale.
+
+Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra. Reuters reported in August 2026 that O1 had powered **more than 1M devices**, while the next-generation O3 continues on TSMC 3 nm with projected initial device shipments of 200k–300k units.
+
+The claim that Xiaomi has only "200k–300k scraps of capacity" or that the program is merely a branding exercise therefore does not enter the fact layer.
+
+A better judgment is:
+
+> **Xiaomi has achieved real production deployment, while multi-generation scale, modem/system integration, foundry dependency, and sustained shipment share still require validation.**
+
+UNISOC represents a different commercial loop: much larger shipment scale in mass-market / entry-5G devices without proving premium-flagship system equivalence.
+
+Consumer parallel-supply capability should therefore be evaluated as its own layer—not used as proof for or against frontier-AI closure.
 
 ## 3. Layer two: PCs / workstations are constrained more by software compatibility and scale
 
 PCs, workstations, and general computing require CPU/GPU hardware, DDR5, professional software, drivers/tooling, desktop ecosystems, and developer compatibility.
 
-Hardware alternatives can exist without equivalent user experience, performance, or software-stack maturity.
+The claim that domestic PC CPUs/GPUs are "blank" is also too strong.
 
-The more accurate description is:
+Loongson's current official portfolio includes desktop/general-purpose CPUs such as the 3A6000 and 3B6000. Moore Threads publicly sells the MTT S80 gaming GPU and continues maintaining Windows/DirectX compatibility and its driver stack.
 
-> **Substitution capability can expand, while system closure still depends on software compatibility, professional workloads, and long-duration developer support.**
+These facts establish **real products and deployable domestic PC/graphics systems**.
+
+They do not establish:
+
+- mainstream consumer-PC shipment share approaching Intel/AMD/NVIDIA;
+- equivalent coverage of professional software / games;
+- equivalent performance-per-watt, driver maturity, developer ecosystem, or supply scale.
+
+The more accurate description is therefore:
+
+> **the segment is not empty; products and domestic ecosystems exist, while mainstream scale, compatibility, and system economics remain the closure barriers.**
 
 ## 4. Layer three: frontier AI is a system-level threshold
 
@@ -123,7 +152,7 @@ What they support is a narrower conclusion:
 
 Claims such as "capacity will double by 2027" or specific Phase-III monthly wafer output remain B/C-grade background unless they are disclosed directly by the company or another formal first-party source.
 
-### 6.2 HDD must not be hidden by progress in NAND
+### 6.3 HDD must not be hidden by progress in NAND
 
 AI data-center storage also includes nearline HDD.
 
@@ -249,6 +278,11 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 - SSE listing notice — listed 2026-07-27, ticker 688825: https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
 - TrendForce, 2026-06-12 — 1Q26 foundry revenue shares: https://www.trendforce.com/presscenter/news/20260612-13095.html
 - TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- Counterpoint 2026 Q1 smartphone AP-SoC shipment share — UNISOC 14%, HiSilicon 4%: https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly
+- Xinhua 2025-05-22 — Xiaomi XRing O1 entered mass production: https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
+- Reuters 2026-08-24 — XRing O1 powered >1M devices; O3 uses TSMC 3 nm with projected 200k–300k initial device shipments: https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+- Loongson official CPU product line — desktop/general-purpose products: https://www.loongson.cn/product/list?id=4
+- Moore Threads MTT S80 official product page: https://en.mthreads.com/product/S80
 - NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
 - CXMT 2025 prospectus / Omdia — 2025Q2 DRAM revenue share 3.97%, global #4: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
