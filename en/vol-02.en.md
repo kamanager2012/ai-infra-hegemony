@@ -101,7 +101,7 @@ Key financial anchors include:
 | Metric | Value |
 |---|---:|
 | FY26 non-GAAP free cash flow (NVIDIA definition) | **US$96.575B** |
-| FY26 operating income | **US$130.387B** |
+| FY26 GAAP operating income | **US$130.387B** |
 | FY27 Q2 revenue | **US$96.221B** |
 | FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP gross margin | **75.0%** |
@@ -182,3 +182,11 @@ That system-level framing is the starting point for the supply-chain analysis in
 ---
 
 Evidence grades and forward assumptions follow [Research Methodology and Evidence Grading](研究方法与证据分级.en.md), [Core Evidence Ledger](核心证据台账.en.md), and [Core Hypothesis Matrix](核心假设矩阵.en.md).
+
+## Key public sources for this volume
+
+- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 official results — Rubin full production / Q2 actuals: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
