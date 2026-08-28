@@ -64,7 +64,7 @@ An RFI, market inquiry, or news report cannot be rewritten as "the regulator has
 
 ## 5. 2026 cloud regulation shows the focus moving toward interoperability
 
-The European Commission continued a DMA cloud-computing market investigation in 2026.
+The European Commission continued a DMA cloud-computing market investigation in 2026.[^3]
 
 Public roundtables explicitly addressed cloud-service interoperability, financial conditions, and contractual conditions; the final report is planned for **May 2027**.[^3]
 
