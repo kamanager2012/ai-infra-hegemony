@@ -199,3 +199,10 @@ Advanced-manufacturing competition is moving from:
 toward:
 
 > **who can reliably obtain every scarce layer required to deliver the next frontier system?**
+
+## Key public sources
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report (Customer A/B): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
