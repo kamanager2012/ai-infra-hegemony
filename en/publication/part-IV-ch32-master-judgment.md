@@ -1,7 +1,5 @@
 # Part IV · Chapter 32: Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions
 
-> **Final publication-layer conclusion.** Recompiled from [Master Judgment](../总判.en.md) and [Macro Essay 01](../part2-01.en.md). This chapter does not reproduce every volume's data. It closes the book by unifying the evidence, mechanisms, scenarios, and falsification conditions. High-impact numerical anchors should be checked against the [Core Evidence Ledger](../核心证据台账.en.md) and [Core Source Index](../核心参考文献索引.en.md).
-
 ## 1. The book's research grammar is F → H → M → S → X
 
 Every strong judgment passes through five layers:
