@@ -1,7 +1,5 @@
 # Part II · Chapter 13: Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure
 
-> **Publication-layer chapter.** Based primarily on [Volume 26](../vol-26.en.md) and updated to the public state as of August 2026. This chapter separates model companies such as OpenAI and Anthropic from ordinary cloud tenants and analyzes how long-duration workload commitments affect data centers, custom silicon, HBM, packaging, and power.
-
 ## 1. Model companies are moving from compute tenants to Infrastructure Anchor Buyers
 
 The traditional relationship was:
