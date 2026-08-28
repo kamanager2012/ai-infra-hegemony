@@ -40,9 +40,9 @@ For 500 racks:
 500 × 120 kW = 60 MW
 ```
 
-That is IT load alone, before full facility overhead.
+This is **rack-level full-load scenario arithmetic**. It does not include full facility overhead and does not establish that any specific campus is already carrying a 60 MW or 100 MW live load.
 
-AI data centers have therefore entered an era of **100 MW-class local loads**.
+What it does establish is that hundreds of 120 kW-class racks can push local delivery requirements into the **tens-of-megawatts range**. A claim that a 100 MW-class campus is already operating requires separate project-level evidence and an energized-state check.
 
 ## 3. Microsoft / Constellation: approximately 835 MW tied to a restart PPA
 
@@ -70,9 +70,9 @@ The revised Talen/AWS PPA has a **full contract quantity up to 1,920 MW** throug
 
 The important status change is already known:
 
-> **the transition to the revised front-of-the-meter PPA occurred in April 2026, while power delivery continues to ramp toward full volume no later than 2032.**
+> **Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA occurred in April 2026. Its earlier 2025 10-K had expected full transition in spring 2027. April 2026 should therefore not be read as proof that every physical conversion or full power-delivery step was complete.**
 
-The monitoring question has therefore moved from “will the conversion happen?” to:
+The monitoring questions remain:
 
 - capacity ramp;
 - transmission delivery;
