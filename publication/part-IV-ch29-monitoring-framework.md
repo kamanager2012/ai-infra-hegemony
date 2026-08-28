@@ -227,6 +227,37 @@ utilization、market-clearing price、CapEx / commitments 与 accounting losses 
 
 dominant platform economics 强，但 alternative stacks 继续发展；scarce layers 仍紧但持续扩产；CapEx 高且 ROI 仍可支撑。
 
+## 12A. 可执行监测门槛：从“持续/显著”变成触发规则
+
+为了避免“长期”“明显”“大规模”只停留在形容词层，本报告给监测系统增加一套 **D 级 operational trigger policy**。它是研究更新规则，不是行业事实，也不是证券交易信号。
+
+**Table 29.4 — 核心变量的观察频率、持续期与情景触发规则**
+
+| 变量组 | 默认观察频率 | 默认持续期 | 触发规则 |
+|---|---|---|---|
+| Seller economics / forward commitments | quarterly | 2 consecutive quarters | commitments 或下一代供给承诺连续下降/取消，才记为趋势性 weakening；单季波动只记 observation |
+| HBM / DRAM allocation & pricing | monthly + quarterly | 3 monthly observations 或 2 quarters | allocation fulfillment、contract pricing、lead time 与 Absolute AI Capacity Gap 至少两项同向改善，才记为 supply-easing trend |
+| Advanced packaging | quarterly + event-driven | 2 quarters | 一手供应商连续两个季度不再把 packaging 描述为 growth constraint，且 B 级 lead-time / pricing 指标同步改善，才上调 S1 supply-elasticity 权重 |
+| Cloud system-stack substitution | quarterly + major launch/deployment | 2 reporting periods | production workload、external availability、migration cost / software maturity 中至少两项连续改善，才记为可执行 substitution |
+| Power / Time-to-Power | quarterly | 2 quarters | contracted / permitted MW 向 energized MW 的转化持续改善，并伴随部署等待时间下降，才记为 power bottleneck 缓解 |
+| Anchor Compute Buyer | event-driven + quarterly | 2 observations when recurring | 正式扩容/履约支持 S2/S3；大规模延期、重谈、取消只有与 utilization 或 financing signal 同向时才上调 S4 |
+| Capital clearing | quarterly | **2 consecutive quarters** | Accounting、Utilization/Revenue、Market Clearing、Forward Commitment **四类同时恶化**并持续两个季度，S4 才从 stress case 上调为主情景候选 |
+| Regulation | event-driven | legal-state transition | inquiry/RFI 不触发结构重估；formal proceeding / final remedy 只有实质改变 interface、tying、access 或 supply 条件时才改变 S1–S3 weighting |
+
+**Source:** 本报告 D 级 monitoring policy。  
+**Note:** “2 quarters / 3 months”是默认更新纪律，用于防止单点新闻改写长期判断；当某数据只有年度披露或事件型披露时，应使用最近两个可比 observation，而不是伪造季度数据。
+
+### 缺数据时的处理
+
+如果某一层无法得到同单位的 `AI_Effective_Demand` 与 `AI_Effective_Capacity`，该层 Absolute AI Capacity Gap 必须标记为 **not measurable from public data**。此时可以跟踪 Growth Gap、lead time、pricing、allocation fulfillment 等 proxy，但不能把 proxy 重新命名成绝对产能缺口。
+
+### Scenario weighting 的最低证据组合
+
+- **向 S1 显著移动**：Supply Elasticity、System Substitution、Buyer Optionality 三组中至少两组满足持续期规则；
+- **向 S3 显著移动**：Multi-layer Scarcity、Switching Cost、Forward Reservation 三组同时强化，并持续至少两个可比 observation；
+- **向 S4 显著移动**：沿用第24章硬门槛，四类 capital-clearing signal 同时恶化并持续两个季度；
+- **否则维持 S2 或仅做局部权重微调**，不因为单一 headline 改主情景。
+
 ## 13. 更新纪律
 
 一条新闻不应该重写全书。
