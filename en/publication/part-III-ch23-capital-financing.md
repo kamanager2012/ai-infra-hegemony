@@ -24,7 +24,7 @@ It is:
 
 NVIDIA combines high system margin, strong cash generation, and relatively low direct fixed-asset intensity.
 
-FY26 NVIDIA-defined non-GAAP free cash flow was **US$96.575B**. FY27 Q2 revenue was **US$96.221B**, Data Center **US$89.0B**, GAAP gross margin **75.0%**, and GAAP operating income **US$63.734B**.
+FY26 NVIDIA-defined non-GAAP free cash flow was **US$96.575B**.[^1] FY27 Q2 revenue was **US$96.221B**, Data Center **US$89.0B**, GAAP gross margin **75.0%**, and GAAP operating income **US$63.734B**.[^2]
 
 Hyperscalers, foundries, memory vendors, data-center operators, and power developers carry far more fixed assets.
 
@@ -52,7 +52,7 @@ The HBM boom can materially improve memory-vendor economics, but manufacturing p
 
 ## 5. 2026 introduced an independent Compute Financing Platform concept
 
-On August 10, 2026, NVIDIA announced independent compute-financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting the mobilization of **more than US$500B of third-party capital over time** for AI-infrastructure buildout.
+On August 10, 2026, NVIDIA announced independent compute-financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting the mobilization of **more than US$500B of third-party capital over time** for AI-infrastructure buildout.[^3]
 
 The important point is not that "US$500B has already been funded."
 
@@ -106,6 +106,8 @@ Without official project disclosures, this report does not use rumored holdings 
 
 ## 10. Duration matching is the core of financing quality
 
+**Table 23.1 — AI-infrastructure asset classes and primary financing risks**
+
 | Asset | Primary risk |
 |---|---|
 | GPU/server | technology refresh / residual value |
@@ -114,6 +116,9 @@ Without official project disclosures, this report does not use rumored holdings 
 | PPA | long obligation / demand risk |
 | Foundry | utilization / node transition |
 | HBM fab | memory cycle / generation timing |
+
+**Source:** Report asset-duration and financing-risk framework.  
+**Note:** The table classifies mechanisms; it does not imply identical financing structures, leverage, or contract terms across projects.
 
 The most dangerous structure is:
 
@@ -129,8 +134,8 @@ This can increase the available capital pool while distributing risk beyond one 
 
 The sustainability of the financing depends not on the headline target, but on utilization, cash yield, contract quality, and hardware residual value.
 
-## Key public sources
+## References
 
-- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA 2026-08-10 — AI compute financing platforms, >US$500B third-party-capital mobilization target: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^1]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” NVIDIA-defined non-GAAP free cash flow, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+[^2]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^3]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
