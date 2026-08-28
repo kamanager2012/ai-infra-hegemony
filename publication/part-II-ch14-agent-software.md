@@ -137,3 +137,10 @@ AI 正在把一部分 software 从低边际成本复制品变成实时消耗 com
 真正的分水岭是：
 
 > **谁能把模型调用转化成可重复、可验收、低失败率、可收费的业务结果。**
+
+## 关键证据导航
+
+- [第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md) — DeepSeek V2/V3、算法效率与 demand elasticity 的一手/技术来源。
+- [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) — cloud custom silicon、system TCO 与 compute-cost transmission。
+- [第20章：Value Capture Map](part-III-ch20-value-capture-map.md) — application-layer value capture、workflow monetization 与 infrastructure cost transmission。
+- [第25章：AI 与劳动市场](part-III-ch25-labor-market.md) — human review / responsibility constraint 对真实 automation economics 的边界。
