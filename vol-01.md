@@ -258,3 +258,8 @@ Intel 当时的优势主要集中在 CPU、x86 软件兼容和自有制造。
 ---
 
 本卷采用统一证据分级体系。公司一手披露、机构研究、卖方估计与本报告压力测试分别按 A/B/C/D 等级处理，具体定义见 [《研究方法与证据分级》](研究方法与证据分级.md) 与 [《核心证据台账》](核心证据台账.md)。
+
+## 本卷关键公开来源
+
+- TrendForce, HBM + RDIMM 2026 DRAM bit supply 51% / CSP memory CapEx： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
