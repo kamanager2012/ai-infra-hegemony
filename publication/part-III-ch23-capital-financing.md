@@ -56,7 +56,7 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 官方同时明确：相关 partnership **subject to execution of final agreements**。
 
-因此 >US$500B 只能作为 mobilization target，不能写成 committed / funded / deployed capital。
+因此 **>US$500B** 只能作为 mobilization target，不能写成 committed / funded / deployed capital。[^3]
 
 ## 6. Compute 为什么能被包装成 Infrastructure Asset
 
