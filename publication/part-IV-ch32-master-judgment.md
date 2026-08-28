@@ -82,6 +82,22 @@ AI/server demand 上升时，总 wafer、DRAM 或 packaging capacity 即使继�
 
 它也意味着“扩产”与“传统行业恢复宽松”不是同义词。
 
+## 5A. Two-Speed Semiconductor Economy：AI 正在改变“下一美元资本投向哪里”
+
+截至 2026 年，最值得关注的结构变化已经不只是某一季度谁获得更多 wafer，而是未来供给为了谁而建设。
+
+TSMC 2026 Q2 的 platform revenue mix 中，HPC 占 **66%**、Smartphone 占 **22%**；同季 advanced technologies（7 nm 及以下）占 wafer revenue **77%**。TSMC 同时把 2026 年 capital budget 上调至 **US$60B–64B**，主要投向 advanced process technologies，并继续投入 advanced packaging、testing 等。上述数字不能把 HPC 全部等同于 AI，也不能推出 Apple、高通或其他单一客户被“挤掉”；它们能够支持的更窄结论是：高增长 HPC/AI workload 正在显著影响先进制造的增量资本形成。来源：https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+memory 侧同样出现资源优先级变化。Samsung 2026 Q2 表示，在 limited capacity 下 Memory Business 重点满足 server products，并预计 2026 H2 server DRAM、eSSD、HBM demand 加速；SK hynix 2026-08-07 宣布 Yongin Y2 与 Cheongju M17 两个项目合计约 **KRW54T** 的中长期投资，分别扩展 DRAM 与 NAND 生产基础。来源：https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results ；https://news.skhynix.com/en/fab-facility-investment-2026/
+
+因此，本书把这一宏观状态定义为 **Two-Speed Semiconductor Economy**：
+
+> **AI Infrastructure Economy 的边际需求由少数高资本强度买方集中拉动，而 Traditional Device Economy 继续受到 BOM、零售价格弹性与换机周期约束；两者共享部分上游资源，却拥有不同的价格承受能力和资本形成能力。**
+
+这不是“消费电子被献祭”的事实判决。更准确的长期命题是：半导体产业的边际需求决定权正在增加对少数 hyperscaler、system-platform seller 与 Anchor Compute Buyer CapEx 的依赖，产业由 **Demand Diversification** 向更高程度的 **Capital Concentration** 移动。
+
+是否形成永久结构，取决于 AI Capacity Gap、NARC、utilization、pricing feedback 与未来扩产是否重新建立供需平衡。
+
 ## 6. 第五总判：Cloud Custom Silicon 是平台替代，同时也是上游资源竞争
 
 Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 已证明 hyperscaler 的反击不是裸片，而是第二类 system stack。
