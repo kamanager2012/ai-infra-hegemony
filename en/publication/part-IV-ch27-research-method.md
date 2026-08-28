@@ -1,7 +1,5 @@
 # Part IV · Chapter 27: Research Method and Evidence Architecture
 
-> **Publication-layer methodology chapter.** Based primarily on [Volume 18](../vol-18.en.md). This chapter defines the common grammar for facts, hypotheses, mechanisms, scenarios, falsification, and evidence grades so that financial, semiconductor, energy, regulatory, and labor-market material can enter one auditable framework.
-
 ## 1. AI-infrastructure research needs a unified evidence language
 
 AI infrastructure spans finance, semiconductors, memory, advanced packaging, cloud, power, regulation, and labor markets.
