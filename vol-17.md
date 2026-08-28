@@ -25,7 +25,7 @@ frontier AI system 依赖：
 
 其中任何一层失效，都可能成为系统交付上限。
 
-Micron 的 HBM3E ~3× wafer-supply trade ratio 说明 memory demand 会放大 DRAM wafer pressure。
+Micron FY24 Q3 prepared remarks 给出的口径是：**industrywide、相同 technology node、生产相同比特时，HBM3E 约需 DDR5 3× wafer supply**。它说明 HBM 会放大 DRAM wafer pressure，但不能写成“Micron 自家固定 3×”或跨节点常数。
 
 TSMC 对 advanced packaging tightness 的公开表述说明 packaging 不是“配套”，而是增长约束。
 
@@ -33,7 +33,7 @@ TSMC 对 advanced packaging tightness 的公开表述说明 packaging 不是“�
 
 ## 3. Power risk：硬件可交付但无法上电
 
-当 rack power 进入约 120 kW 级后，power 可能成为 semiconductor 之后的新瓶颈。
+GB200 NVL72-class rack 的公开产品功率约 **120 kW/rack**；这是一条产品级功率密度锚，不等于 campus 已形成同量级实时负荷。power 是否成为下一瓶颈仍取决于具体 interconnection、energization 与 utilization。
 
 主要风险包括：
 
@@ -224,3 +224,6 @@ power delay
 ## 本卷关键公开来源
 
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+
+
+- NVIDIA DGX GB200 hardware guide（~120 kW/rack）：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
