@@ -259,3 +259,7 @@ The value of risk analysis is not predicting the exact day a cycle breaks.
 It is defining in advance:
 
 > **which observable facts would force the original thesis to change.**
+
+## Key public sources for this volume
+
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
