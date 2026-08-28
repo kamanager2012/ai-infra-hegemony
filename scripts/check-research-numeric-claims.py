@@ -42,6 +42,7 @@ NON_FACT = re.compile(
     r"does.*not.*disclose|not disclose|not as|mechanically|机械|"
     r"absolute claim|绝对化|target|目标|threshold|阈值|formula|公式|"
     r"不适合|not suitable|same US\$1|同样 US\$1|"
+    r"fixed endpoints|not industry facts|headline|should not be restated|reconstruction|"
     r"if\b|如果|假如|本报告|本书|this report|the report",
     re.I,
 )
@@ -97,7 +98,9 @@ def inherited_list_lead(lines: list[str], i: int) -> str:
 
 def values(line: str) -> list[str]:
     line = re.sub(r"https?://\S+", "", line)
+    line = re.sub(r"\b(?:19|20)\d{2}\s*[–-]\s*(?:19|20)\d{2}\b", "", line)
     line = re.sub(r"\bN\d+\s+wafers?\b", "", line, flags=re.I)
+    line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+(?:chips?|systems?)\b", "", line, flags=re.I)
     return [m.group(0).strip() for m in STRONG_NUM.finditer(line)]
 
 def norm(value: str) -> str:
