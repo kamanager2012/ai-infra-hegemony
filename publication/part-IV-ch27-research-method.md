@@ -1,7 +1,5 @@
 # Part IV · 第27章：研究方法与证据架构
 
-> **出版层方法章。** 以 [vol-18](../vol-18.md) 为主源。本章定义全书统一的事实、假设、机制、情景、证伪与证据等级，使财务、半导体、能源、监管、劳动等不同维度的材料可以进入同一套可审计框架。
-
 ## 1. 为什么 AI Infrastructure 研究必须先统一证据语言
 
 AI infrastructure 同时跨越财务、semiconductor、memory、advanced packaging、cloud、power、regulation 与 labor market。不同领域的数字具有不同物理单位、会计口径、时间窗口和证据强度。
