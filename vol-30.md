@@ -30,7 +30,7 @@ AI investment 包含：
 - grid；
 - power contract。
 
-这些资产的经济寿命不同。
+这些资产的经济寿命与会计 useful life 不同。最新一手口径也并不统一：Microsoft FY26 servers/network equipment **2–6 年**；Alphabet 2025 一般 **6 年**；Meta 2025 servers/network assets **5–5.5 年**；Amazon 2025 servers/networking equipment **5–6 年**。各公司还会因技术变化调整估计寿命。
 
 因此，不能统一使用“4年直线折旧”估算整个 AI infrastructure。
 
@@ -148,7 +148,7 @@ power/data-center infrastructure 期限更长。
 
 ## 10. 2036 结构不能由 2026 折旧直接决定
 
-2026 的一轮 CapEx 最终会折旧完毕。
+2026 的一轮 CapEx 会按不同资产的 useful life、投入使用时点、减值与后续估计变更逐步进入折旧/摊销；不存在一个统一的“折旧完毕年份”。
 
 2036 的产业结构取决于：
 
@@ -194,3 +194,11 @@ AI infrastructure 也可能经历类似过程。
 - enterprise AI monetization 弱化。
 
 只有这些信号同时出现，S4 才从压力测试变成现实主情景。
+
+
+## 本卷关键公开来源
+
+- Microsoft FY26 10-K（servers/network equipment useful life 2–6 years）：https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+- Alphabet 2025 10-K（servers/network equipment generally 6 years）：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+- Meta 2025 10-K（servers/network assets 5–5.5 years）：https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+- Amazon 2025 10-K（servers/networking equipment 5–6 years；部分资产 2025 从6年改5年）：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
