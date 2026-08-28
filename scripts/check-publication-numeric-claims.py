@@ -34,7 +34,7 @@ NON_FACT = re.compile(
     r"not consumption|does not mean|不能|不允许|不是实际|不代表|不得|不采用|"
     r"target|目标|threshold|阈值|formula|公式|if\b|如果|假如|"
     r"this report|the report|本书|本报告|截至|as of|"
-    r"没有披露|未披露|does not disclose|not disclose|"
+    r"没有披露|未披露|不.*披露|does.*not.*disclose|not disclose|not as|"
     r"mechanically|机械|absolute claim|绝对化",
     re.I,
 )
@@ -132,6 +132,8 @@ def main() -> int:
 
             if re.match(r"^\d+[.)]\s", line):
                 continue
+            if re.match(r"^\*\*Table\s+\d", line, re.I):
+                continue
 
             vals = values(line)
             if not vals:
@@ -150,12 +152,20 @@ def main() -> int:
                 or re.search(r"https?://", lead)
                 or tables.get(i)
             )
+            blockquote_context = same_para
+            if line.startswith(">"):
+                blockquote_context = "\n".join(lines[max(0, i - 4): i + 1])
             arithmetic_block = line.startswith(">") and bool(
                 re.search(r"[=≈×÷]|\b(?:plus|minus|times|divided)\b", line, re.I)
             )
-            model_boundary = bool(NON_FACT.search(same_para) or arithmetic_block)
-            candidates.append((i, line, vals, explicit or model_boundary))
-            if explicit:
+            model_boundary = bool(
+                NON_FACT.search(same_para)
+                or NON_FACT.search(blockquote_context)
+                or arithmetic_block
+            )
+            covered = explicit or model_boundary
+            candidates.append((i, line, vals, covered))
+            if covered:
                 sourced_values.update(norm(v) for v in vals)
 
         for i, line, vals, covered in candidates:
