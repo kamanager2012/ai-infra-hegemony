@@ -45,7 +45,7 @@ NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 �
 | Meta | US$130–145B | Q2 guidance；含 finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
 
-**Source:** Microsoft FY26 Q4 earnings materials、Alphabet 2026 Q2 SEC Exhibit 99.1、Meta 2026 Q2 SEC Exhibit 99.1、Amazon 2026 Q2 Form 10-Q.[^5][^6][^7][^8]  
+**Source:** Microsoft FY26 Q4 earnings materials；Alphabet Q2 2026 company guidance as reported by Reuters（SEC Exhibit 99.1 separately supports Q2 actual results）；Meta 2026 Q2 SEC Exhibit 99.1；Amazon 2026 Q2 Form 10-Q.[^5][^6][^7][^8]  
 **Note:** expectation / guidance / TTM actual 的时间窗与会计口径不同，不构成可直接相加的统一 AI hardware CapEx。
 
 这些数字的时间窗和会计科目不同，**不能机械相加成统一 AI hardware CapEx**。历史情景中的 US$215B、US$670–750B 等统一总额如果缺乏可比口径，只能保留为旧压力测试，不进入事实层。
@@ -167,6 +167,6 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 [^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^5]: Microsoft, FY26 Q4 earnings / conference call, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-[^6]: Alphabet, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+[^6]: Alphabet, Q2 2026 earnings-call full-year CapEx guidance **US$195–205B**, company guidance reported by Reuters, 2026-07-22, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Alphabet SEC Exhibit 99.1 separately supports Q2 actual results, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 [^7]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 [^8]: Amazon.com, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
