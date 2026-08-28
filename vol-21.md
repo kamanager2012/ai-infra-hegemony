@@ -43,10 +43,10 @@ NVIDIA Data Center revenue 是卖方收入。
 
 | 指标 | 数值 |
 |---|---:|
-| FY26 Data Center revenue | **$193.737B** |
-| FY26 Free cash flow | **$96.575B** |
-| FY27 Q2 Data Center revenue | **$89.0B** |
-| FY27 Q2 GAAP operating income | **$63.734B** |
+| FY26 Data Center revenue | **US$193.737B** |
+| FY26 non-GAAP free cash flow（NVIDIA 定义） | **US$96.575B** |
+| FY27 Q2 Data Center revenue | **US$89.0B** |
+| FY27 Q2 GAAP operating income | **US$63.734B** |
 
 这说明 system platform 可以留下非常高比例的价值。
 
@@ -103,10 +103,10 @@ memory vendor 则处于：
 
 ## 4. Supply commitment 是跨层资金的重要连接点
 
-NVIDIA supply-related commitments：
+NVIDIA manufacturing, supply, and capacity commitments：
 
-- FY26 year-end：$95.2B
-- FY27 Q1：$119.0B
+- 2026-01-25：**US$95.2B**
+- 2026-04-26：**US$119B**
 
 它说明 system vendor 已经提前将未来现金需求转化为：
 
