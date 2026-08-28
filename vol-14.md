@@ -222,3 +222,4 @@ AI 时代真正的“赢家”不是某个行业，而是能够控制以下至�
 ## 本卷关键公开来源
 
 - NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- SK hynix FY25 official results（Operating margin 49%; HBM revenue more than doubled YoY）： https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
