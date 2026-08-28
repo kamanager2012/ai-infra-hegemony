@@ -63,9 +63,9 @@ The real change is that HPC has stronger pull on incremental advanced resources 
 
 ### 4.1 Cross-Market Resource Reordering: AI is changing the allocation balance across end markets
 
-TrendForce stated in April 2026 that AI demand had created bottlenecks in **3 nm–2 nm wafers and 2.5D/3D advanced packaging**, and that NVIDIA had moved early to secure large volumes of **4/3 nm wafer capacity, CoWoS, HBM, T-glass, substrates, PCBs, and SSDs**.
+TrendForce stated in April 2026 that AI demand had created bottlenecks in **3 nm–2 nm wafers and 2.5D/3D advanced packaging**, and that NVIDIA had moved early to secure large volumes of **4/3 nm wafer capacity, CoWoS, HBM, T-glass, substrates, PCBs, and SSDs**.[^8]
 
-Its June foundry research said TSMC **3 nm capacity remained severely constrained**. TrendForce also stated that foundries were dedicating a larger share of wafer capacity to AI-related products, materially changing the supply-demand balance for mature nodes as well.
+Its June foundry research said TSMC **3 nm capacity remained severely constrained**.[^9] TrendForce also stated that foundries were dedicating a larger share of wafer capacity to AI-related products, materially changing the supply-demand balance for mature nodes as well.[^10]
 
 This report therefore defines:
 
@@ -84,9 +84,9 @@ The evidence does **not** disclose how many wafers Apple, Qualcomm, AMD, or Inte
 
 ## 5. PCs face two simultaneous channels: memory and GPU / system pricing
 
-NVIDIA's FY26 10-K reported Gaming revenue up **41%** and said supply constraints were expected to remain a Gaming headwind into FY27 Q1 and beyond.
+NVIDIA's FY26 10-K reported Gaming revenue up **41%** and said supply constraints were expected to remain a Gaming headwind into FY27 Q1 and beyond.[^11]
 
-By FY27 Q1, the company's Edge Computing discussion also noted slower consumer-PC demand, partly because of **elevated memory and systems prices**.
+By FY27 Q1, the company's Edge Computing discussion also noted slower consumer-PC demand, partly because of **elevated memory and systems prices**.[^12]
 
 Two channels can therefore overlap:
 
@@ -111,7 +111,7 @@ AI-resource pressure is therefore more likely to appear first as an **upgrade ta
 
 In an extreme shortage, end-product vendors face more than rising ASPs. They can also face **insufficient allocation fulfillment**.
 
-TrendForce stated in March 2026 that PC OEMs / module makers with lower allocations had to procure incremental supply at higher prices. Its May smartphone research also described tighter full-year allocations and the need for brands to manage LTAs and inventory more carefully.
+TrendForce stated in March 2026 that PC OEMs / module makers with lower allocations had to procure incremental supply at higher prices.[^13] Its May smartphone research also described tighter full-year allocations and the need for brands to manage LTAs and inventory more carefully.
 
 The analysis therefore has to separate:
 
@@ -125,7 +125,7 @@ Spot/channel prices can show that consumers or system builders are under pressur
 
 They cannot be used to infer vendor contract ASPs or long-duration agreements.
 
-The publication layer therefore relies primarily on TrendForce contract-price research, vendor filings, and company commentary rather than channel anecdotes for its core conclusions.
+The report therefore relies primarily on institutional contract-price research, vendor filings, and company commentary rather than channel anecdotes for its core conclusions.
 
 ## 8. China consumer supply can relieve local pressure without proving HBM closure
 
@@ -139,7 +139,7 @@ Domestic substitution can therefore change smartphone / PC cost structures witho
 
 Automotive and industrial systems have longer qualification cycles, but that does not insulate them from AI-era product-mix reallocation.
 
-TrendForce stated in June 2026 that major memory suppliers were prioritizing HBM and advanced-layer 3D NAND, squeezing mature NOR Flash and SLC NAND capacity; cumulative 1H26 contract-price increases for both categories exceeded 100%. In July, TrendForce raised its 2H26 SLC NAND forecast to **+120–170% versus 1H26**, with automotive, industrial, and networking buyers among the affected customers.
+TrendForce stated in June 2026 that major memory suppliers were prioritizing HBM and advanced-layer 3D NAND, squeezing mature NOR Flash and SLC NAND capacity; cumulative 1H26 contract-price increases for both categories exceeded 100%.[^14] In July, TrendForce raised its 2H26 SLC NAND forecast to **+120–170% versus 1H26**, with automotive, industrial, and networking buyers among the affected customers.[^15]
 
 What can be supported is **structural shortage and price inflation in specific mature-memory categories**.
 
@@ -147,7 +147,7 @@ This report does not upgrade that evidence into unverified whole-vehicle claims 
 
 ## 9.1 Routers / Broadband: low-bargaining-power buyers show the damage more clearly
 
-Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.
+Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
 
 This is important because it shows that:
 
@@ -159,7 +159,7 @@ Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of 
 
 AI data-center storage is becoming a segmented market.
 
-TrendForce observed both severe nearline-HDD shortages and faster substitution toward high-capacity QLC nearline SSDs. At the same time, Seagate's FY26 results explicitly linked AI-driven data growth to stronger mass-capacity storage demand.
+TrendForce observed both severe nearline-HDD shortages and faster substitution toward high-capacity QLC nearline SSDs.[^17] At the same time, Seagate's FY26 results explicitly linked AI-driven data growth to stronger mass-capacity storage demand.[^18]
 
 A more accurate structure is:
 
