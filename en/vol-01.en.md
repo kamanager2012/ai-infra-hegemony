@@ -191,10 +191,13 @@ Intel's 1999 financials were approximately:
 
 | Metric | 1999 |
 |---|---:|
-| Revenue | **$29.389B** |
+| Net revenue | **US$29.389B** |
 | Gross margin | about **59.7%** |
-| Operating income | **$9.767B** |
-| Net income | **$7.314B** |
+| Operating income | **US$9.767B** |
+| Net income | **US$7.314B** |
+
+Public source: Intel Corporation 1999 Annual Report  
+https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-05/history-1999-annual-report.pdf
 
 Intel's advantage centered on CPUs, x86 software compatibility, and in-house manufacturing.
 
