@@ -9,14 +9,12 @@
 - Publication editorial hygiene sweep closed at **78/78 files / 0 release-marker or malformed-unit issues**.
 - Front matter now explicitly states **Pre-release Publication QA Edition**, target **v1.0.0 (not yet released)**, and defers the formal publication date until final proof/public release.
 - Added `scripts/proof_publication.py`, `scripts/check-publication-editorial.py`, `scripts/run-release-qa.sh`, and fresh `.github/workflows/release-qa.yml`.
-- GitHub Actions remains an external execution blocker: the fresh `Release QA v1` run `33192383757` registered successfully but failed before runner assignment with `steps: [] / runner_id: 0`; its job-log blob does not exist. The repository itself is private, non-archived, on `main`, and the connected GitHub app has admin/push access.
+- GitHub Actions remains an external execution blocker at the runner-assignment layer: the fresh enabled `Release QA v1` workflow triggers normally on `main`. Run `33193766876` was retried through the API (`run_attempt: 2`), and both attempts still failed before runner assignment with `steps: [] / runner_id: 0`; the job-log blob does not exist. This localizes the blocker to GitHub-hosted runner/account/platform scheduling rather than workflow enablement or repository-script execution.
 - Remaining release gates are verified PDF/EPUB build + machine proof, final human proofreading/lower-risk semantic sign-off, author COI confirmation, final publication-date lock, and public-release operations.
 
 ## 2026-08-28 publication and evidence QA
 
 > Publication QA and research retrieval/revision cutoff updated **2026-08-28**. The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
-
-## 2026-08-28 publication and evidence QA
 
 ### Publication-layer milestone
 
@@ -24,7 +22,7 @@
 - English Publication Layer now also contains **32/32 synchronized publication chapters** across the same four-part architecture.
 - English chapter generation is complete. Markdown/citation QA, bilingual structure/high-risk numeric regression, strict every-number source coverage, critical-link sweep, and current Publication Layer rights/quotation audit are complete; remaining work is verified PDF/EPUB build + proof, final human/semantic sign-off, author COI confirmation, and release operations.
 - `publication/README.md` and `出版结构.md` each resolve to **32 unique publication-chapter links**.
-- The 32-chapter first integration pass is complete; this is **not** a declaration that final publication QA is fully green. Evidence-chain, dead-link, source-depth, bilingual synchronization, and whole-book consistency checks continue.
+- The 32-chapter integration and content/evidence QA passes are complete; this is **not** yet a declaration of Publication Ready. Remaining gates are verified PDF/EPUB build + machine proof, final human proofreading/lower-risk semantic sign-off, author COI confirmation, final publication-date lock, and public-release operations.
 
 ### Core evidence correction — Micron HBM wafer trade ratio
 
