@@ -9,6 +9,7 @@ on:
       - "scripts/build_publication.py"
       - "scripts/publication-header.tex"
       - "scripts/check-materialized-publication.py"
+      - "scripts/proof_publication.py"
       - "dist/publication.zh.md"
       - "dist/publication.en.md"
       - ".github/workflows/publication-build.yml"
@@ -123,6 +124,10 @@ jobs:
           test "$(stat -c%s dist/ai-infrastructure-hegemony.zh.epub)" -gt 50000
           test "$(stat -c%s dist/ai-infrastructure-hegemony.en.epub)" -gt 50000
 
+      - name: Run final machine proof
+        run: |
+          python3 scripts/proof_publication.py
+
       - name: Upload publication artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -136,3 +141,4 @@ jobs:
             dist/ai-infrastructure-hegemony.en.epub
             dist/publication.zh.md
             dist/publication.en.md
+            dist/proof/**
