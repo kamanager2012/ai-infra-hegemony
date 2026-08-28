@@ -68,23 +68,19 @@ SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KR
 
 因此，AI Resource Gravity 不是无限的单向抽水机。长期 allocation 取决于不同产品的风险调整后单位稀缺资源回报、qualification、yield、generation transition 与客户合同结构。
 
-## 7. Rack-scale 需求只能做情景算术，不能伪装成 shipment
+## 7. Rack-scale 规格揭示 Memory Intensity，但不能替代 Shipment Data
 
-以 GB200 NVL72 **13.4 TB HBM3E/rack** 为产品规格锚，可做数量级压力测试：
+GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level material identity。[^1]
 
-**Table 5.1 — GB200 NVL72 rack 数量与 HBM3E 情景需求**
+它说明：当采购单位从单卡上移到 rack-scale system 后，memory demand 也必须按完整系统来理解。
 
-| 情景 rack 数 | HBM3E demand |
-|---:|---:|
-| 1,000 | 13.4 PB |
-| 10,000 | 134 PB |
-| 30,000 | 402 PB |
-| 50,000 | 670 PB |
+但如果没有公开 rack shipment / deployment count，就不能进一步推出行业实际 HBM consumption。
 
-**Source:** NVIDIA GB200 NVL72 official specification；本报告情景算术。[^1]  
-**Note:** rack count 为 D 级假设，表中 PB 数值不是实际 shipment 或 consumption。
+因此：
 
-这些都是 **D 级 scenario demand arithmetic**。NVIDIA 没有披露可直接用于这一乘算的全年 rack shipments，memory vendors 也没有披露与这些 rack 一一对应的 customer-level annual HBM bits，因此不得把 50,000 racks 或 670 PB 写成实际消费量。
+> **per-system HBM spec 可以用于理解 memory intensity；行业总需求仍必须由真实 shipment、customer demand 或 memory-vendor supply data 约束。**
+
+这比使用任意假设 rack 数去扩展成 PB 级“需求总量”更适合作为正式行业报告的量化边界。
 
 ## 8. HBM4 会提高跨层资本密度，但不能提前编出固定倍率
 
