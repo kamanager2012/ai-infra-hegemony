@@ -23,6 +23,10 @@
 - GAAP gross margin：**75.0%**；
 - Rubin：**full production**；
 - manufacturing, supply, and capacity commitments：2026-04-26 **US$119B**；2026-07-26 **US$279B**（Q2 10-Q，最新承诺主要关联 memory 与 manufacturing facilities）；
+
+主要来源：
+- NVIDIA FY27 Q2 official results（Data Center revenue / GAAP margin / Rubin）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 Form 10-Q（US$119B / US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - TSMC advanced-packaging tightness 仍限制客户增长；
 - hyperscaler capital spending 继续处于高位；
 - power agreements 已进入约 835 MW、up to 1,920 MW、up to 500 MWe 等量级，但这些是不同成熟度的合同/开发路径，不等于已上电 AI load。
