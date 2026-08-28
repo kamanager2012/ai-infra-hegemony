@@ -1,6 +1,6 @@
 # Release Notes — 2026-08-28
 
-> Publication QA updated **2026-08-28**; research retrieval/revision cutoff remains **2026-08-27**. The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
+> Publication QA and research retrieval/revision cutoff updated **2026-08-28**. The current research version is `main`. The root release page is English-first; the Chinese research corpus remains the source of truth for facts, evidence grades, and analytical scope. GitHub release `v0.1.0` remains an archival snapshot.
 
 ## English
 
