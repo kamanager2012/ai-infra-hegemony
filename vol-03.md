@@ -75,21 +75,21 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 
 ```text
 72 \text{GPU packages} ÷ 13.4 \text{packages/wafer}
-≈ 5.39 \text{CoWoS wafers/rack}
+≈ 5.37 \text{CoWoS wafers/rack}
 ```
 
 其中：
 
 - 72：官方 rack 配置；
 - 13.4 packages/wafer：几何工作假设；
-- 5.39：报告压力测试结果。
+- 5.37：报告压力测试结果。
 
 这个数字**不是 TSMC 官方 yield，也不是前道 logic wafer consumption**。
 
 因此绝不能使用：
 
 ```text
-15M \text{TSMC annual wafers} ÷ 5.39
+15M \text{TSMC annual wafers} ÷ 5.37
 ```
 
 来推导全球可生产多少 rack。TSMC 全年 wafer shipments 包含大量 smartphone、automotive、IoT 和 mature-node 产品，物理池完全不同。
