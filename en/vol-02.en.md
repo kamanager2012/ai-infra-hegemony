@@ -61,7 +61,7 @@ NVIDIA's platform control can be separated into four layers.
 
 The GPU remains the central compute unit, but the commercial product has moved from accelerator cards toward integrated systems.
 
-FY26 Data Center revenue was **US$193.737B**. Compute and networking are both material parts of the platform economics.
+FY26 Data Center revenue was **US$193.737B**. Compute and networking are both material parts of the platform economics. Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 
 ### 3.2 Interconnect
 
