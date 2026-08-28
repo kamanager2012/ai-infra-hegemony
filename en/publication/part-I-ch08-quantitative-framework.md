@@ -1,7 +1,5 @@
 # Part I · Chapter 8: Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade
 
-> **Publication-layer chapter.** Recompiled from [Volume 16](../vol-16.en.md) and [Volume 17](../vol-17.en.md). Volume 16 supplies the auditable quantitative framework; Volume 17 supplies the risk cascade. The objective is not to calculate one deterministic future, but to define which quantities can be combined, which units must remain separate, and how bottlenecks can rotate across compute, memory, packaging, power, and capital.
-
 ## 1. The purpose of quantification is not to manufacture false precision
 
 The most common quantitative error in AI-infrastructure research is to connect different physical pools, accounting categories, and evidence grades into one apparently complete but unauditable total model.
