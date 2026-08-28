@@ -42,9 +42,9 @@ Its demand can influence the cloud's capital plan.
 
 ## 3. OpenAI and Stargate
 
-Stargate's public ambition is to build very large-scale AI infrastructure in the United States over several years, with a stated target of up to **$500B**.
+Stargate's public ambition is to build very large-scale AI infrastructure in the United States over several years, with an original commitment of **US$500B / 10 GW**.
 
-OpenAI later disclosed expansion with Oracle and other partners pointing to more than **5 GW** of capacity under development.
+By October 2025, OpenAI disclosed **more than 8 GW of planned capacity** and **more than US$450B of planned investment over the next three years**. In June 2026, the **1 GW** Michigan Stargate campus broke ground.
 
 The strategic significance is:
 
@@ -58,9 +58,7 @@ But the states must remain separate:
 - energized capacity;
 - actual utilization.
 
-A $500B target is not $500B already spent.
-
-Likewise, capacity under development is not the same as live, highly utilized compute.
+A **US$500B commitment** or **>US$450B planned-investment figure** is not the same as cash already spent. Planned or under-construction capacity is not the same as energized, highly utilized compute.
 
 ## 4. Anthropic and AWS
 
@@ -68,7 +66,7 @@ Anthropic and AWS have developed a deep long-duration infrastructure relationshi
 
 Public materials provide unusually concrete anchors, including:
 
-- more than **$100B** of compute commitments over the coming decade;
+- more than **US$100B** of compute commitments over the coming decade;
 - the ability to reserve up to **5 GW** of AWS compute capacity;
 - large-scale Trainium deployment;
 - public use of more than **1M Trainium2 chips**;
