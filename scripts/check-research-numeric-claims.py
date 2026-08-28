@@ -46,6 +46,7 @@ NON_FACT = re.compile(
     r"absolute claim|绝对化|target|目标|threshold|阈值|formula|公式|"
     r"不适合|not suitable|same US\$1|同样 US\$1|"
     r"fixed endpoints|not industry facts|headline|should not be restated|reconstruction|"
+    r"未经一手披露验证|unverified|counterexample|反例|"
     r"if\b|如果|假如|本报告|本书|this report|the report",
     re.I,
 )
