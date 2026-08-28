@@ -220,3 +220,7 @@ power delay
 - structural regulatory remedy 落地。
 
 风险分析的价值不在于预测哪一天崩溃，而在于提前定义：**什么事实出现时，原判断必须改变。**
+
+## 本卷关键公开来源
+
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
