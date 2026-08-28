@@ -1,6 +1,6 @@
 # Publication Layer · 出版层总目录
 
-> 这里存放面向连续阅读的出版版正文。**中文版 32/32 章已完成第一轮专业出版编辑，并通过 Markdown 层结构/引用一致性 QA；英文版尚待按中文版重新同步。整体项目仍未标记为 Publication Ready。** 最终封版仍需完成中英逐章 regression、关键外链复扫、版权确认与 PDF/电子书导出 QA。
+> 这里存放面向连续阅读的正式出版正文。**中文与英文 Publication Layer 均已完成 32/32 章同步；中英文 Markdown QA 与逐章双语结构/高风险数值回归均已通过。整体项目仍未标记为 Publication Ready。** 最终封版还需完成关键外链复扫、第三方材料版权确认、PDF/电子书导出 QA 与最终 proofread。
 
 正式封版门禁见 [《出版封版标准》](../出版封版标准.md)；出版前置页见 [Front Matter](00-front-matter.md)；完整结构见 [《出版版结构》](../出版结构.md)。
 
@@ -50,8 +50,10 @@
 - **中文 Publication Layer：32/32 章完成结构整合与第一轮专业出版编辑。**
 - **中文 Markdown QA：PASS** — References 32/32、footnote 引用定义一致、正文裸 URL 清零、施工语气清零、标题层级无跳级、Table 编号/Source/Note 一致、常见单位大小写错误清零。
 - **中文 Front Matter：已补齐** — 报告定位/免责声明、正式目录、表格目录、缩写与核心术语表。
-- **英文 Publication Layer：待以当前中文版为唯一翻译源重新同步。**
-- **Publication Ready：尚未完成** — 仍需双语回归、关键外链复扫、第三方材料版权确认、PDF/电子书导出与最终 proofread。
+- **英文 Publication Layer：32/32 章已按当前中文版重新同步。**
+- **英文 Markdown QA：PASS** — References 32/32、footnote 定义/引用闭合、正文裸 URL 清零、施工语气清零、标题层级无跳级、Table 编号/Source/Note 一致、常见单位大小写错误清零。
+- **双语逐章回归：PASS** — 32/32 章 Table 编号集合、References 数量、数字章节序列一致；高风险货币/百分比/功率/容量/制程数值与单位集合已回归对齐。
+- **Publication Ready：尚未完成** — 剩余门禁为关键外链复扫、第三方材料版权确认、PDF/电子书导出 QA 与最终 proofread。
 - **32/32 章节结构与旧口径机械回归：已通过。**
 - **核心证据深链 QA：已完成第一轮。**
 
@@ -65,7 +67,7 @@
 - publication layer 内部“审稿/工作底稿/历史误写”类过程性语言回归清零；
 - NVIDIA / TSMC / SEC / TrendForce / Constellation / NRC / Anthropic / Microsoft / Intel / Qualcomm / OpenAI / U.S. Commerce / Stanford HAI / ILO 等核心来源完成一轮深链抽检。
 
-> `32/32` 仍不等于最终出版物已经封版。**中文版正文与引用格式已完成本轮 Markdown QA；下一步先按中文版同步英文 32 章，再进行全书关键外链、版权与 PDF/电子书导出 QA。**
+> `32/32` 仍不等于最终出版物已经封版。**中英文正文、引用格式与双语结构/高风险数值回归已经通过；下一步进入全书关键外链、版权与 PDF/电子书导出 QA。**
 
 ## 出版层编辑标准
 
