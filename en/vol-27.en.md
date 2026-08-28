@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-27.md](../vol-27.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume does not assume a universal SaaS gross-margin endpoint. It evaluates AI software through workflow-level variable cost and realized customer value.
+> Retrieval and revision cutoff: **2026-08-28**. This volume does not assume a universal SaaS gross-margin endpoint. It evaluates AI software through workflow-level variable cost and realized customer value.
 
 ## 1. AI software changes the traditional SaaS cost structure
 
