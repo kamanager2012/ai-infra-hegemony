@@ -30,7 +30,7 @@ NVIDIA 当前最强的优势来自把这些层组织成成熟的通用商业 sys
 
 本书使用 **Scarce-layer Value Capture** 描述更窄的机制：如果一个平台同时具备强现金流、长期订单、系统定义权、迁移成本和 supply orchestration，它更有能力提前承诺下一代稀缺资源，从而提高交付确定性。
 
-NVIDIA manufacturing, supply, and capacity commitments 已从 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**。这证明整体前置供应承诺显著扩大，但公开文件没有把 US$279B 拆分到 TSMC、CoWoS 或任何单一 HBM vendor，因此不能把它写成某家供应商的确定收入。
+NVIDIA manufacturing, supply, and capacity commitments 已从 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**。[^1]这证明整体前置供应承诺显著扩大，但公开文件没有把 US$279B 拆分到 TSMC、CoWoS 或任何单一 HBM vendor，因此不能把它写成某家供应商的确定收入。
 
 真正需要跟踪的变量不是历史 customer revenue share，而是：
 
@@ -56,15 +56,15 @@ NVIDIA manufacturing, supply, and capacity commitments 已从 2026-01-25 的 **U
 
 ### HBM
 
-Micron 一手披露：在 same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。前者是同-bit manufacturing trade ratio，后者是 2026E bit-supply forecast；两者都不能改写成 HBM market share 或 wafer share。
+Micron 一手披露：在 same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^2] TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^3]前者是同-bit manufacturing trade ratio，后者是 2026E bit-supply forecast；两者都不能改写成 HBM market share 或 wafer share。
 
 ### Advanced Packaging
 
-TSMC 已一手确认 advanced-packaging capacity tight，并在 2026 Q2 表示 packaging tightness 已限制客户增长。TSMC 没有公开 customer-level CoWoS allocation，因此 TrendForce 对 NVIDIA >60% CoWoS demand 的估计只能作为 B 级机构锚。
+TSMC 已一手确认 advanced-packaging capacity tight，并在 2026 Q2 表示 packaging tightness 已限制客户增长。[^4]TSMC 没有公开 customer-level CoWoS allocation，因此 TrendForce 对 NVIDIA >60% CoWoS demand 的估计只能作为 B 级机构锚。
 
 ### Power
 
-约 120 kW-class rack、Crane 约835 MW restart、Talen/AWS up to 1.92 GW revised PPA 和 Kairos/Google 的长期开发路径说明 power 已成为独立物理约束。但 Contracted、Permitted、Energized 和 Utilized MW 必须严格分开。
+约 120 kW-class rack、Crane 约835 MW restart、Talen/AWS up to 1.92 GW revised PPA 和 Kairos/Google 的长期开发路径说明 power 已成为独立物理约束。[^5]但 Contracted、Permitted、Energized 和 Utilized MW 必须严格分开。
 
 因此，一个 bottleneck 缓解后，另一个 bottleneck 可以上升。这就是 **Rolling Bottleneck Cascade**。
 
@@ -84,9 +84,9 @@ AI/server demand 上升时，总 wafer、DRAM 或 packaging capacity 即使继�
 
 截至 2026 年，最值得关注的结构变化已经不只是某一季度谁获得更多 wafer，而是未来供给为了谁而建设。
 
-TSMC 2026 Q2 的 platform revenue mix 中，HPC 占 **66%**、Smartphone 占 **22%**；同季 advanced technologies（7 nm 及以下）占 wafer revenue **77%**。TSMC 同时把 2026 年 capital budget 上调至 **US$60B–64B**，主要投向 advanced process technologies，并继续投入 advanced packaging、testing 等。上述数字不能把 HPC 全部等同于 AI，也不能推出 Apple、高通或其他单一客户被“挤掉”；它们能够支持的更窄结论是：高增长 HPC/AI workload 正在显著影响先进制造的增量资本形成。来源：https://investor.tsmc.com/english/quarterly-results/2026/q2
+TSMC 2026 Q2 的 platform revenue mix 中，HPC 占 **66%**、Smartphone 占 **22%**；同季 advanced technologies（7 nm 及以下）占 wafer revenue **77%**。TSMC 同时把 2026 年 capital budget 上调至 **US$60B–64B**，主要投向 advanced process technologies，并继续投入 advanced packaging、testing 等。上述数字不能把 HPC 全部等同于 AI，也不能推出 Apple、高通或其他单一客户被“挤掉”；它们能够支持的更窄结论是：高增长 HPC/AI workload 正在显著影响先进制造的增量资本形成。[^6]
 
-memory 侧同样出现资源优先级变化。Samsung 2026 Q2 表示，在 limited capacity 下 Memory Business 重点满足 server products，并预计 2026 H2 server DRAM、eSSD、HBM demand 加速；SK hynix 2026-08-07 宣布 Yongin Y2 与 Cheongju M17 两个项目合计约 **KRW54T** 的中长期投资，分别扩展 DRAM 与 NAND 生产基础。来源：https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results ；https://news.skhynix.com/en/fab-facility-investment-2026/
+memory 侧同样出现资源优先级变化。Samsung 2026 Q2 表示，在 limited capacity 下 Memory Business 重点满足 server products，并预计 2026 H2 server DRAM、eSSD、HBM demand 加速；[^7] SK hynix 2026-08-07 宣布 Yongin Y2 与 Cheongju M17 两个项目合计约 **KRW54T** 的中长期投资，分别扩展 DRAM 与 NAND 生产基础。[^8]
 
 因此，本书把这一宏观状态定义为 **Two-Speed Semiconductor Economy**：
 
@@ -98,7 +98,7 @@ memory 侧同样出现资源优先级变化。Samsung 2026 Q2 表示，在 limit
 
 ## 6. 第五总判：Cloud Custom Silicon 是平台替代，同时也是上游资源竞争
 
-Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 已证明 hyperscaler 的反击不是裸片，而是第二类 system stack。
+Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 已证明 hyperscaler 的反击不是裸片，而是第二类 system stack。[^9]
 
 这会同时产生：
 
@@ -109,7 +109,7 @@ Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 已证明 hypers
 
 ## 7. 第六总判：模型公司正在成为 Anchor Compute Buyer
 
-OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺显示，头部 model company 已不只是 cloud tenant。
+OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺显示，头部 model company 已不只是 cloud tenant。[^10]
 
 它们的长期需求可以：
 
@@ -129,13 +129,13 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺显示，头部 model
 - PC / workstation：替代能力扩大，但 software compatibility 和专业 workload 仍重要；
 - frontier AI：已经形成真实 accelerator/software parallel stack，但完整等价 system 仍需 advanced logic、HBM-class memory、advanced packaging、interconnect、compiler/runtime、frontier workload 和 power 同时规模化。
 
-CXMT 注册稿披露 DDR/LPDDR，但未披露 HBM product line。其招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，CXMT 全球份额约 **3.97%**、全球第四；因此“CXMT 已有 8% 全球 DRAM 份额”不进入事实层。
+CXMT 注册稿披露 DDR/LPDDR，但未披露 HBM product line。其招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，CXMT 全球份额约 **3.97%**、全球第四；[^11]因此“CXMT 已有 8% 全球 DRAM 份额”不进入事实层。
 
-Counterpoint Research 对 YMTC 的最新口径则是 **2026Q2 NAND shipment share 约14%、全球第三**；同一机构 2026Q1 的 **13%** 是 NAND revenue share。两者分母不同，不能拼成同一连续时间序列。
+Counterpoint Research 对 YMTC 的最新口径则是 **2026Q2 NAND shipment share 约14%、全球第三**；[^12] 同一机构 2026Q1 的 **13%** 是 NAND revenue share。[^13]两者分母不同，不能拼成同一连续时间序列。
 
 此外，domestic memory capacity growth 不等于 upstream manufacturing autonomy。关键 equipment、software/licensing、spare parts/field service 与 materials qualification 的连续性，仍决定新增产能能否 ramp、既有产线能否维持 yield、下一代工艺能否持续迭代。
 
-TrendForce 2026 Q1 的 SMIC 5.1% 是 foundry revenue share，不是 frontier-AI capability。
+TrendForce 2026 Q1 的 SMIC 5.1% 是 foundry revenue share，不是 frontier-AI capability。[^14]
 
 因此最准确的状态不是“已经全面追平”或“完全没有替代”，而是：
 
@@ -245,7 +245,7 @@ utilization、clearing price、CapEx / commitments 与 accounting losses 同步�
 
 > **预测可以错，证据边界不能乱；情景可以大胆，事实层必须保守；真正有价值的长期研究，不是一次猜中终局，而是知道什么事实出现时必须改变自己的判断。**
 
-## 核心证据与章节导航
+## 交叉引用
 
 - [核心证据台账](../核心证据台账.md)
 - [核心参考文献索引](../核心参考文献索引.md)
@@ -259,11 +259,19 @@ utilization、clearing price、CapEx / commitments 与 accounting losses 同步�
 - [Part III · Ch24 Capital Clearing](part-III-ch24-capital-clearing.md)
 - [Part IV · Ch31 Strategy & Endgame](part-IV-ch31-strategy-endgame.md)
 
-## 新增证据来源
+## References
 
-- TrendForce 2026-01-05 — CSP 锁定 capacity 后其他买家需接受更高价格以确保 allocation: https://www.trendforce.com/presscenter/news/20260105-12860.html
-- TrendForce 2026-03-31 — allocation fulfillment 较低的 OEM / module maker 需要以更高价格补货: https://www.trendforce.com/presscenter/news/20260331-12995.html
-- CXMT 招股书 / Omdia — 2025Q2 DRAM revenue share 3.97%、全球第四: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
-- Counterpoint Research 2026Q2 — YMTC NAND shipment share 14%、全球第三: https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-- ASML — EUV restricted / most advanced immersion DUV export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
-- ASML — updated restrictions include additional metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+[^1]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
+[^6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^7]: Samsung Electronics, 2Q26 Results, memory product prioritization and 2H26 demand outlook, https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results
+[^8]: SK hynix, 2026-08-07, Yongin Y2 and Cheongju M17 investment plan, https://news.skhynix.com/en/fab-facility-investment-2026/
+[^9]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^10]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
