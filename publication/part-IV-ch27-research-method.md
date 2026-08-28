@@ -198,7 +198,7 @@ Negative evidence 的作用是限制可确认事实，不是证明现实中绝�
 - 有 falsification condition；
 - technical unit 使用标准行业符号；
 - accounting / physical unit 不混用；
-- 正文无内部审稿、修订过程与自我辩护语气。
+- 正文不携带内部 revision metadata、过程性说明或自我辩护语气。
 
 这套方法不是为了让结论更保守，而是让情景可以更大胆，同时仍然可审计、可证伪、可更新。
 
