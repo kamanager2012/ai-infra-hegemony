@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-15.md](../vol-15.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The year 2036 is used as a long-range cross-section, not as a precise forecast point. This volume assigns no fixed market shares and no fixed scenario probabilities.
+> Retrieval and revision cutoff: **2026-08-28**. The year 2036 is used as a long-range cross-section, not as a precise forecast point. This volume assigns no fixed market shares and no fixed scenario probabilities.
 
 ## 1. 2036 is not a single-number forecast
 
