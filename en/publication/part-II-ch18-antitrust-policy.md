@@ -1,7 +1,5 @@
 # Part II · Chapter 18: Antitrust, Industrial Policy, and the Boundaries of AI Platform Power
 
-> **Publication-layer chapter.** Based primarily on [Volume 11](../vol-11.en.md) and updated to the public regulatory state as of 2026. This chapter does not predict fines or upgrade media "regulatory concern" into formal legal status. The variables that enter the scenario framework are **interface openness, tying restrictions, interoperability, supply rules, and structural / conduct remedies**.
-
 ## 1. System-stack power creates a new problem for traditional relevant-market analysis
 
 AI platform power can span accelerators, interconnect, compiler/runtime, rack reference architecture, deployment software, cloud channels, and adjacent model products.
