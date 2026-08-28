@@ -35,6 +35,7 @@ For the major cloud-service providers it tracks:
 
 - CapEx is estimated to rise sharply in 2026 and again in 2027;
 - DRAM + NAND are estimated at **47% of 2026 CapEx** and **68% in 2027**;
+- Source for the tracked-CSP institutional estimates: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - HBM + RDIMM are estimated at approximately **51% of 2026 DRAM bits**.
 
 These are institutional estimates, not company 10-K line items.
@@ -172,7 +173,7 @@ A PC can therefore be affected by the AI cycle without ever containing a frontie
 
 ## 8. Automotive moves on a slower qualification clock
 
-NVIDIA FY26 Automotive revenue was **$2.349B**.
+NVIDIA FY26 Automotive revenue was **$2.349B**. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26cfocommentary.htm
 
 Automotive demand is real and growing, but the industry has:
 
