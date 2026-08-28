@@ -1,6 +1,6 @@
 # The Age of AI Infrastructure Hegemony
 
-An industry research corpus with **40 stable volume modules + 8 macro essays**. The final publication edition reorganizes them into **four parts / approximately 32 integrated chapters** for continuous reading.
+An industry research corpus with **40 stable volume modules + 8 macro essays**. The English Publication Layer is now live: **Part I is synchronized at 9/9 chapters**, within a four-part / 32-chapter continuous-reading edition.
 
 The Chinese research corpus remains the source of truth: [中文主目录](../README.zh-CN.md). The repository root [README](../README.md) is the English-first release landing page.
 
@@ -33,10 +33,11 @@ An already-observed claim may enter **F — Fact** only if it is publicly verifi
 6. [Core Concepts and Model Index](核心概念与模型索引.en.md)
 7. [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
 8. [Mechanism Index](机制索引.en.md)
-9. [Publication Architecture — four parts / ~32 chapters](PUBLICATION_STRUCTURE.md)
-10. [X / social launch drafts](SHARE.md)
+9. [English Publication Layer — Part I 9/9](publication/README.md)
+10. [Publication Architecture — four parts / 32 chapters](PUBLICATION_STRUCTURE.md)
+11. [X / social launch drafts](SHARE.md)
 
-> **English research-layer status:** all 40 English volume modules and 8 macro essays have completed a repository-wide evidence/language pass. The publication layer is now being reorganized into a unified four-part reading structure; stable module IDs remain for traceability and bilingual synchronization.
+> **English publication-layer status:** Part I is synchronized at **9/9 chapters**; Parts II–IV remain in progress. The 40 English volume modules and 8 macro essays remain the stable research layer for traceability, evidence review, and bilingual synchronization.
 
 ## Research method
 
