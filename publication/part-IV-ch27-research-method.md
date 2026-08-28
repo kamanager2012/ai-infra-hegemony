@@ -91,6 +91,8 @@ Scenario 是多个 H / M 组合后的条件状态，而不是确定预测。
 
 ## 7. A / B / C / D Evidence Grade
 
+**Table 27.1 — 本报告证据等级体系**
+
 | 等级 | 定义 | 典型来源 |
 |---|---|---|
 | A | First-party / formal evidence | company filing、official product page、regulator、government、court、formal contract |
@@ -98,10 +100,13 @@ Scenario 是多个 H / M 组合后的条件状态，而不是确定预测。
 | C | Sell-side / supply-chain / media estimate | investment bank、channel、supply-chain source、media estimate |
 | D | Report model / stress test | geometry、arithmetic、sensitivity、scenario assumption |
 
+**Source:** 本报告研究方法。  
+**Note:** evidence grade 衡量来源强度，不等同于结论重要性；D 级模型可用于情景和 sensitivity，但不能冒充已发生事实。
+
 例子：
 
-- Micron HBM3E same-node/same-bits ≈ 3× DDR5 wafer supply：**A**；
-- TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计：**B**；
+- Micron HBM3E same-node/same-bits ≈ 3× DDR5 wafer supply：**A**；[^1]
+- TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计：**B**；[^2]
 - 卖方对某客户具体 CoWoS 月片数的估计：**C**；
 - 72 ÷ 13.4 ≈ **5.37 CoWoS wafers/rack** 的报告侧 geometry：**D**。
 
@@ -117,11 +122,11 @@ TSMC customer revenue share 不能直接变成 N2、3 nm、HPC 或 CoWoS physica
 
 ### Contracted MW ≠ Energized MW ≠ Utilized AI Load
 
-up-to-1.92-GW revised PPA 不能写成 1.92 GW active AI load。
+up-to-1.92-GW revised PPA 不能写成 1.92 GW active AI load。[^3]
 
 ### Product spec × hypothetical quantity ≠ shipment
 
-13.4 TB HBM3E/rack × 50,000 hypothetical racks 只能得到 D-grade scenario demand，不是 actual HBM shipment。
+13.4 TB HBM3E/rack × 50,000 hypothetical racks 只能得到 D-grade scenario demand，不是 actual HBM shipment。[^4]
 
 ### Engineering geometry ≠ fab yield
 
@@ -171,18 +176,18 @@ Negative evidence 的作用是限制可确认事实，不是证明现实中绝�
 
 这些模型用于组织因果关系，不替代原始事实。模型的正确性最终要由新的 F 与 X 检验。
 
-## 12. Publication-layer 去重原则
+## 12. 全书去重与交叉引用原则
 
-研究层可以保留多个独立卷用于证据回溯，出版层必须进一步满足：
+正式报告必须避免同一事实和机制在不同章节被反复重写：
 
-1. 一个事实表只有一个 canonical home；
-2. 一个机制只完整定义一次；
+1. 一个高影响事实表只保留一个主要位置；
+2. 一个机制只完整定义一次，后续章节通过交叉引用承接；
 3. 后续章节只新增 evidence、boundary、counterargument 或 falsification；
-4. macro essay 的独有公式和跨卷推演并入对应主章；
-5. source 跟随事实移动；
-6. 内部修订史不进入对外正文。
+4. 同一数字跨章使用时保持原始分母、时间窗和 evidence grade；
+5. source 跟随事实，不能因章节重组而丢失；
+6. 修订历史、编辑过程和版本施工信息不进入正式正文。
 
-因此 publication layer 不是 40 卷的机械合并，而是证据与论证重新归位。
+这样做的目的不是减少信息，而是让读者能够分清“第一次定义”“新增证据”和“跨章推论”。
 
 ## 13. 正式发布标准
 
@@ -200,10 +205,9 @@ Negative evidence 的作用是限制可确认事实，不是证明现实中绝�
 
 这套方法不是为了让结论更保守，而是让情景可以更大胆，同时仍然可审计、可证伪、可更新。
 
-## 关键公开来源
+## References
 
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- NVIDIA GB200 NVL72 product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- Talen 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- TrendForce, 2025 CoWoS demand structure: https://www.trendforce.com/research/download/RP250314ZJ
+[^1]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^2]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^4]: NVIDIA, “GB200 NVL72,” official product page, 13.4 TB HBM3E per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
