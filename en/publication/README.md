@@ -9,10 +9,10 @@ See also [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 - **Part I — System Power and Physical Scarcity: 9/9 chapters synchronized.**
 - **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
 - **Part III — Capital Cycles, Profit Pools, and External Transmission: 8/8 chapters synchronized.**
-- Part IV — Method, Scenarios, Monitoring, and Strategy: pending English publication synchronization.
-- **English Publication Layer: 26/32 chapters.**
+- **Part IV — Method, Scenarios, Monitoring, and Strategy: 6/6 chapters synchronized.**
+- **English Publication Layer: 32/32 chapters.**
 
-The Chinese Publication Layer remains the canonical publication source for chapter structure and factual scope while English chapter synchronization is in progress.
+The Chinese and English Publication Layers now share the same 32-chapter architecture. The Chinese edition remains the final source of truth for resolving any future bilingual discrepancy.
 
 ## Part I — System Power and Physical Scarcity
 
@@ -55,6 +55,17 @@ The Chinese Publication Layer remains the canonical publication source for chapt
 | 25 | [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md) | vol-38 |
 | 26 | [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md) | vol-39 |
 
+## Part IV — Method, Scenarios, Monitoring, and Strategy
+
+| Chapter | English publication chapter | Research-layer source |
+|---|---|---|
+| 27 | [Research Method and Evidence Architecture](part-IV-ch27-research-method.md) | vol-18 |
+| 28 | [2026–2036 Timeline and Conditional Milestones](part-IV-ch28-timeline-2026-2036.md) | vol-19 |
+| 29 | [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md) | vol-31 |
+| 30 | [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md) | vol-10 |
+| 31 | [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md) | vol-15 + vol-20 + vol-40 |
+| 32 | [Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions](part-IV-ch32-master-judgment.md) | Master Judgment + macro-01 |
+
 ## Editorial and evidence rules
 
 The English publication layer follows the same rules as the Chinese canonical publication layer:
@@ -70,6 +81,4 @@ The English publication layer follows the same rules as the Chinese canonical pu
 
 ## Current QA status
 
-Part I has completed the first English synchronization pass. It will continue to receive the same dead-link, deep-source, denominator, and cross-language regression applied to the Chinese publication layer.
-
-The next build target is **Part IV, Chapters 27–32**.
+All **32/32 English publication chapters** have completed the first synchronization pass. The remaining work is QA rather than chapter generation: dead-link rescans, deep-source verification, denominator checks, cross-language regression, and final PDF/e-book layout.
