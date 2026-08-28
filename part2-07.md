@@ -72,7 +72,8 @@ Q1 阶段，commitments 从 **US$95.2B** 加到 **US$119B**；到 2026-07-26，F
 
 因此，S4 资本硬着陆的领先信号不只是云厂砍 CapEx，还包括：
 - 模型公司长期容量承诺缩减、改期、重谈；
-- 5GW/10GW级项目实际爬坡落后；
+- 以公开的 **up to 5 GW**（Anthropic/AWS）与 **>10 GW secured capacity**（OpenAI Stargate）为代表的 multi-GW 项目，如果实际 energization / utilization 爬坡显著落后；
+  来源：https://www.anthropic.com/news/anthropic-amazon-compute?lang=us ；https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
 - 已签长期容量的利用率显著不足；
 - 上游预付款与卖方供应承诺同时放缓。
 
