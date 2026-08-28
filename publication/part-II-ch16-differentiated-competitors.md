@@ -1,7 +1,5 @@
 # Part II · 第16章：AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径
 
-> **出版层章节。** 以 [vol-33](../vol-33.md) 为主源。四家公司不是“反 NVIDIA 联盟”；它们分别从 data-center system、foundry/product dual clock、edge AI 与 vertically integrated device stack 改变竞争结构。
-
 ## 1. 不能把四家公司放进一个“传统芯片阵营”
 
 AMD、Intel、Qualcomm、Apple 的 compute layer、software、manufacturing access、workload、distribution 与 capital structure 都不同。
