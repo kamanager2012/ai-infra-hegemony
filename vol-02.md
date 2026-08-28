@@ -105,7 +105,7 @@ NVIDIA 的资源预订能力可由以下财务指标观察：
 | FY27 Q2 GAAP gross margin | **75.0%** |
 | FY27 Q2 GAAP operating income | **US$63.734B** |
 
-截至 2026-04-26，manufacturing, supply, and capacity commitments 已上升至 **US$119B**。
+截至 2026-07-26，manufacturing, supply, and capacity commitments 已上升至 **US$279B**，高于 2026-04-26 的 US$119B；Q2 10-Q 说明最新承诺主要涉及 memory 与 manufacturing facilities。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
 
 这些数字说明，平台利润可以被重新投入到下一代：
 
