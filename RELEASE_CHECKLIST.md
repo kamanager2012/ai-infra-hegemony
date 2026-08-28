@@ -26,7 +26,8 @@ This checklist separates research completion from publication operations. A chec
 - [x] Deterministic CI gate added at `scripts/check-required-sources.py` and wired into `.github/workflows/links.yml`; the combined gate covers **96/96** research files.
 - [x] Machine-readable high-risk claim ledgers exist for both languages with **32 verified records each**, identical `bilingual_id` sets, no duplicate claim IDs, and all referenced English research files present.
 - [x] Central stale-scope regression is clear for the known 9622.1 conversion error, current-only US$119B wording, outdated four-cloud guidance, 51% forecast-as-actual wording, and stale 100 kW rack framing.
-- [ ] Complete a full line-by-line public-source audit of **every historical numeric claim across all 40 volumes + 8 macro essays**. The targeted high-impact audit above is complete; this broader claim-by-claim audit remains a separate gate if required before public release.
+- [x] Complete deterministic **every-number source-coverage audit** across the bilingual research layer: Chinese **48/48** + English **48/48**. Final strict pass: **1,052 unit-bearing numeric candidates / 0 unresolved**.
+- [ ] Complete lower-risk **semantic claim-by-claim editorial verification** where required. The strict gate proves traceability / model-boundary identity; high-risk claims are separately semantically verified in the bilingual claim ledgers. Do not describe structural source coverage as proof that every lower-risk source supports every sentence verbatim.
 
 ## 2. Publication metadata
 
@@ -118,7 +119,8 @@ The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc43
 - [x] Reproducibility foundation: versioned D-grade model inputs and one-command recomputation script added.
 - [x] Claim-audit foundation: machine-readable claim-ledger schema and deterministic numeric-claim candidate extractor added.
 - [x] High-risk research-claim source coverage: bilingual 48 + 48 required-source regression passed; 32 + 32 verified high-risk ledger records committed.
-- [ ] Complete the **every-number** claim-by-claim source audit for all remaining historical numeric Facts beyond the deterministic high-risk rule set, including lower-risk figures that do not trigger the current source-regression patterns.
+- [x] Complete strict **every-number source-coverage** regression beyond the high-risk rule set: bilingual research layer **96/96**, **1,052 candidates / 0 unresolved**; formal Publication Layer **64/64**, **529 candidates / 0 unresolved**.
+- [ ] Complete any remaining lower-risk **semantic** claim-to-source verification required by final editorial sign-off; structural traceability and high-risk semantic verification are complete, but they are not the same assertion.
 - [ ] Obtain a green relative-link CI run after GitHub Actions becomes diagnosable; current Actions runs fail before exposing normal step/log detail.
 - [ ] Obtain green bilingual PDF/EPUB build and proof QA; the first Publication Build run failed before normal step/log detail was exposed.
 - [ ] Complete final critical external-link sweep / archival fallback policy.
@@ -139,5 +141,6 @@ The read-only publication audit benchmarked commit `38704ad23006f9417d7e561bdc43
 - [x] Mark social-release URLs as non-public while the repository remains private.
 - [x] Add direct public-source links to the most heavily reused NVIDIA / TSMC / Micron / TrendForce / DeepSeek / power anchors in core volumes and master judgments.
 - [x] Complete repository-wide **high-risk** per-chapter source-link coverage sweep: Chinese **48/48**, English **48/48**, enforced by CI.
-- [ ] Complete the broader **every-number historical-Fact** audit for lower-risk numeric claims not covered by the high-risk source-pattern gate before public release.
+- [x] Complete broader **every-number source-coverage** audit beyond the high-risk source-pattern gate: research **96/96 / 1,052 candidates / 0 unresolved**; Publication Layer **64/64 / 529 candidates / 0 unresolved**.
+- [ ] Complete remaining lower-risk **semantic** verification during final editorial sign-off where source meaning, denominator, or time-window still warrants human judgment.
 
