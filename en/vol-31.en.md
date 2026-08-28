@@ -338,7 +338,8 @@ It is that it keeps the report **continuously calibratable to reality**.
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 - SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — up to 1,920 MW; full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2026 Q2 10-Q — up to 1,920 MW; transition occurred in April 2026: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K — full transition expected in spring 2027; full-volume ramp no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — 50 MWe in 2030; up to 500 MWe by 2035: https://www.kairospower.com/google
 
 - TSMC 4Q24 Transcript — 2024 advanced packaging and testing >8%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
