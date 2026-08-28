@@ -150,7 +150,7 @@ In some cases, successful custom silicon can increase upstream competition by ad
 
 Advanced packaging can be a system bottleneck without becoming the industry's largest profit pool.
 
-TSMC has indicated that advanced-packaging margins remain below the company's overall average.
+TSMC's 2Q24 management commentary was more specific and time-bounded: advanced-packaging gross margin had historically been **well below** the corporate average and was **approaching** it, but had **not yet reached** the company average at that time. This should not be frozen into a timeless claim that advanced-packaging margins always remain below the corporate average. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf .
 
 A system platform can capture value through a different combination:
 
