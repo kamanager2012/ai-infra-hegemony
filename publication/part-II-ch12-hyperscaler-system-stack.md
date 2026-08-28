@@ -1,7 +1,5 @@
 # Part II · 第12章：Hyperscaler System-Stack Competition
 
-> **出版层章节。** 由研究模块 [vol-25](../vol-25.md) 与 [macro-04](../part2-04.md) 重编。NVIDIA 自身的系统栈见 Part I 第2章；资本清算见 Part III。这里只回答一个问题：**Google、AWS、Microsoft、Meta 是否正在从“自研芯片”升级成真正的第二类 system stack。**
-
 ## 1. 竞争已经从 ASIC vs GPU 升级为 System Stack vs System Stack
 
 把 Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 概括成“几颗 ASIC 挑战 GPU”，已经无法描述 2026 年的竞争状态。真正的竞争单位至少包含：accelerator、HBM、compiler/runtime、scale-up fabric、scale-out network、rack/pod、orchestration 与 production workload。
