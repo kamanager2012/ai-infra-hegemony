@@ -1,7 +1,5 @@
 # Part II · Chapter 14: Agent-Native Software and AI Software Unit Economics
 
-> **Publication-layer chapter.** Based primarily on [Volume 27](../vol-27.en.md). This chapter separates agent-native software from "traditional SaaS plus a model API." The core metric is not token price; it is **cost per successfully completed workflow**.
-
 ## 1. Agent-native software changes the cost structure
 
 Traditional SaaS typically has low software-replication cost, and seat growth does not necessarily increase variable compute linearly.
