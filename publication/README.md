@@ -17,6 +17,7 @@
 | Part III | [第20章：Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md) | 已完成第一版连续重编 | vol-14 + vol-21 |
 | Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已完成第一版连续重编 | vol-37 + macro-07 |
 | Part IV | [第31章：2036 终局与战略选择](part-IV-ch31-strategy-endgame.md) | 已完成第一版连续重编 | vol-15 + vol-20 + vol-40 |
+| Part IV | [第32章：总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md) | 已完成第一版连续重编 | 总判 + macro-01 |
 
 ## 出版层编辑标准
 
