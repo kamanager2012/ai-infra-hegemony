@@ -1,7 +1,5 @@
 # Part II · Chapter 11: NVIDIA's Expansion from Accelerator Vendor to AI Factory
 
-> **Publication-layer chapter.** Based primarily on [Volume 07](../vol-07.en.md). Part I Chapter 2 already explains NVIDIA's system-stack moat; this chapter focuses only on vertical expansion—how the system boundary extends from accelerators into networking, rack reference architecture, deployment software, cloud services, and Physical AI.
-
 ## 1. NVIDIA's expansion is not traditional IDM-style vertical integration
 
 NVIDIA does not control the system by owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
