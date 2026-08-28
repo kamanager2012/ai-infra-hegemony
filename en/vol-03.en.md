@@ -63,7 +63,7 @@ The value of the BOM is that it converts a rack scenario into a reproducible mat
 
 Micron disclosed that, at the same technology node and for the same number of bits, HBM3E requires roughly **3× the wafer supply of DDR5**.
 
-TrendForce estimates that **HBM + RDIMM account for approximately 51% of 2026 DRAM bits**.
+TrendForce **projects** that **HBM + RDIMM account for approximately 51% of 2026 DRAM bit supply**. This is a **2026E institutional forecast**, not an observed full-year actual.
 
 These two metrics are not interchangeable.
 
@@ -108,9 +108,9 @@ Those annual shipments include smartphones, automotive, IoT, mature-node product
 
 Consumer GPUs and Data Center accelerators share parts of the advanced manufacturing and memory system.
 
-NVIDIA has previously disclosed Gaming supply constraints.
+NVIDIA's FY26 10-K provides the defensible factual anchor: FY26 Gaming revenue increased **41%**, while the company expected **supply constraints to be a headwind to Gaming in FY27 Q1 and beyond**. This establishes Gaming-side supply pressure, but it does **not** prove that Data Center allocation was the sole or direct cause of those constraints. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm .
 
-That makes PC/gaming one of the earlier consumer markets in which allocation pressure can become visible.
+That makes PC/gaming one of the consumer markets in which residual-capacity pressure can become visible, while preserving the causal boundary.
 
 ### 5.2 General-purpose servers
 
@@ -124,11 +124,11 @@ They can absorb memory pressure even without using frontier accelerators.
 
 Smartphones remain TSMC's second-largest platform.
 
-TSMC's smartphone platform represented **29% of 2025 revenue**; separately, smartphone-platform revenue grew **11% year over year**. The 29% figure is revenue mix, while +11% is platform-revenue growth. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf .
+TSMC's Smartphone platform represented **29% of 2025 revenue**; separately, Smartphone-platform revenue grew **11% year over year**. The 29% figure is revenue mix, while +11% is platform-revenue growth. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf .
 
 AI has therefore not displaced smartphones.
 
-The structural change is that HPC is growing faster and is absorbing more of the incremental advanced-investment and packaging attention.
+The structural change is that HPC is growing faster and is absorbing more incremental advanced-capacity demand and packaging attention.
 
 ### 5.4 Automotive
 
@@ -187,7 +187,7 @@ That is different from being merely the recipient of residual global capacity.
 As of **August 2026**, the evidence supports several conclusions:
 
 - AI/HPC is a major driver of incremental advanced-semiconductor demand;
-- HBM and RDIMM are reshaping the DRAM supply mix;
+- HBM and RDIMM are reshaping the DRAM supply mix, with TrendForce's 51% figure serving as a 2026E forward anchor;
 - advanced packaging remains tight;
 - consumer markets remain large, but selected categories face residual-capacity pressure;
 - the pressure is **layered and selective**, not a universal claim that “AI has taken all chips.”
@@ -198,5 +198,7 @@ The important question is whether residual capacity continues to fall within mem
 
 ## Key public sources for this volume
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 4Q25 presentation — Smartphone 29% revenue mix; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
+- NVIDIA FY26 10-K — Gaming +41%; supply-constraint headwind expected in FY27 Q1 and beyond: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
