@@ -78,6 +78,12 @@ By 2026, model companies are also becoming infrastructure anchor customers.
 
 OpenAI's Stargate program began with a **US$500B / 10 GW** long-run commitment. By October 2025, OpenAI disclosed **more than 8 GW of planned capacity** and **more than US$450B of planned investment over three years**; the 1 GW Michigan campus broke ground in June 2026. Anthropic and AWS announced more than **US$100B** of AWS technology spending over ten years and reservation of up to **5 GW**.
 
+Primary sources:
+- OpenAI Stargate initial plan: https://openai.com/index/announcing-the-stargate-project/
+- OpenAI infrastructure update: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+- OpenAI Michigan campus: https://openai.com/index/stargate-michigan-data-center/
+- Anthropic/AWS compute commitment: https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+
 These commitments do not mean all capacity is already energized or utilized. They do show that the model layer can influence the financing and construction of cloud, chip, data-center, and power capacity.
 
 ```text
