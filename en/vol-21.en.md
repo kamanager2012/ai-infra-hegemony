@@ -51,10 +51,10 @@ Current anchors include:
 
 | Indicator | Value |
 |---|---:|
-| FY26 Data Center revenue | **$193.737B** |
-| FY26 free cash flow | **$96.575B** |
-| FY27 Q2 Data Center revenue | **$89.0B** |
-| FY27 Q2 GAAP operating income | **$63.734B** |
+| FY26 Data Center revenue | **US$193.737B** |
+| FY26 non-GAAP free cash flow (NVIDIA definition) | **US$96.575B** |
+| FY27 Q2 Data Center revenue | **US$89.0B** |
+| FY27 Q2 GAAP operating income | **US$63.734B** |
 
 These figures show that a system platform can retain a very large share of value while remaining relatively asset-light compared with foundries and data-center owners.
 
@@ -113,10 +113,10 @@ The report also tracks:
 
 ## 4. Supply commitments connect financial power to physical allocation
 
-NVIDIA's supply-related commitments were:
+NVIDIA's manufacturing, supply, and capacity commitments were:
 
-- **$95.2B** at FY26 year-end;
-- **$119.0B** at FY27 Q1.
+- **US$95.2B** as of 2026-01-25;
+- **US$119B** as of 2026-04-26.
 
 These commitments show that future cash demand is being translated into:
 
