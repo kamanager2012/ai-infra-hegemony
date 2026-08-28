@@ -37,7 +37,7 @@ memory 资源重分配可以写成一条清晰链条：
 
 这里的关键变量不是全球 DRAM 总产能，而是 AI/server demand 吸收之后，消费电子和其他传统 workload 实际能获得多少有效供给。
 
-因此，本书把 memory 层的核心指标定义为 **Non-AI Residual Capacity**，而不是简单用“DRAM 总产能增长”判断传统市场是否恢复宽松。
+因此，本报告把 memory 层的核心指标定义为 **Non-AI Residual Capacity**，而不是简单用“DRAM 总产能增长”判断传统市场是否恢复宽松。
 
 ## 5. SK hynix 的 FY25 财务显示 HBM 已经改变产品经济性
 
