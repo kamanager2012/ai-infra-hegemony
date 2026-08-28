@@ -220,3 +220,7 @@ AI infrastructure 正从科技公司内部投资，演变成：
 因此，未来 AI 资本周期的关键问题不是“还有多少钱愿意投”，而是：
 
 > **这些长期资本是否能够获得足够稳定的利用率和现金回报。**
+
+## 本卷关键公开来源
+
+- NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
