@@ -5,6 +5,8 @@
 - [Scope, Evidence Boundaries, Disclaimer, and Copyright](00-front-matter.md)
 - [List of Tables](02-list-of-tables.md)
 - [Abbreviations and Core Glossary](03-abbreviations-and-glossary.md)
+- [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
+- [Competitive Set, Substitution Paths, and Counter-Evidence Matrix](05-competitive-evidence-matrix.md)
 
 ## Part I — System Power and Physical Scarcity
 
