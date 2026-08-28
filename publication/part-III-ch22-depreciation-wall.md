@@ -53,7 +53,7 @@
 
 ## 5. CapEx 必须除以 Utilization，而不是只除以年份
 
-同样 US$100B investment，在 90% 与 30% utilization 下代表完全不同的经济结果。
+作为 **D 级 sensitivity example**，同样 **US$100B** investment 在 **90%** 与 **30%** utilization 下会代表完全不同的经济结果；US$100B、90% 和 30% 都是示例输入，不是行业 actual。
 
 因此必须同时看：
 
