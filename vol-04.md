@@ -29,7 +29,8 @@ TSMC 2025 年公开数据：
 - Smartphone platform：**29%**，platform revenue 同比 +11%
 - largest customer：**19% of annual revenue**
 - second-largest customer：**17%**
-- advanced packaging + testing：2024 年约 **8%**，2025 年略高于 **10%**
+- 2024 Q4 transcript：**advanced packaging and testing >8% of revenue**；
+- 2025 Q4 transcript（公司会后更正）：**advanced packaging slightly over 10% of revenue**。两年标签并不完全相同，因此不把 8%→10% 写成严格同口径时间序列。
 
 来源：
 - TSMC 2025 Annual Report
@@ -179,3 +180,6 @@ TSMC 的战略地位来自三个同时存在的事实：
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - TSMC 2025 20-F（annual largest / second-largest customer ranking）: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report（Customer A/B 2024→2025）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+
+- TSMC 4Q24 Transcript（advanced packaging and testing >8%）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
