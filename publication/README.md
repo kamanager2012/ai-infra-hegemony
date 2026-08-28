@@ -12,6 +12,7 @@
 | Part I | [第5章：HBM 与存储资源重构](part-I-ch05-hbm-memory.md) | 已完成第一版连续重编 | vol-05 + vol-23 |
 | Part I | [第6章：Advanced Packaging、CoWoS 与系统交付瓶颈](part-I-ch06-advanced-packaging.md) | 已完成第一版连续重编 | vol-24 + macro-03 |
 | Part I | [第7章：从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md) | 已完成第一版连续重编 | vol-13 + vol-35 + macro-06 |
+| Part II | [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) | 已完成第一版连续重编 | vol-25 + macro-04 |
 | Part II | [第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md) | 已完成第一版连续重编 | vol-12 + vol-29 + macro-08 |
 | Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已完成第一版连续重编 | vol-37 + macro-07 |
 
