@@ -1,7 +1,5 @@
 # Part II · Chapter 15: Physical AI and the Real Bottlenecks in Robotics
 
-> **Publication-layer chapter.** Based primarily on [Volume 28](../vol-28.en.md). This chapter treats Physical AI as a complete system spanning cloud training, edge inference/control, mechanical actuation, sensors, batteries, and manufacturing—not as "putting a large model inside a robot."
-
 ## 1. The competitive unit in robotics is also the system
 
 Physical AI has to solve perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
