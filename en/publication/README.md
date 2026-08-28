@@ -7,10 +7,10 @@ See also [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 ## Current build status
 
 - **Part I — System Power and Physical Scarcity: 9/9 chapters synchronized.**
-- Part II — Demand, Substitution, and the Second System Stack: pending English publication synchronization.
+- **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
 - Part III — Capital Cycles, Profit Pools, and External Transmission: pending English publication synchronization.
 - Part IV — Method, Scenarios, Monitoring, and Strategy: pending English publication synchronization.
-- **English Publication Layer: 9/32 chapters.**
+- **English Publication Layer: 18/32 chapters.**
 
 The Chinese Publication Layer remains the canonical publication source for chapter structure and factual scope while English chapter synchronization is in progress.
 
@@ -27,6 +27,20 @@ The Chinese Publication Layer remains the canonical publication source for chapt
 | 07 | [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md) | vol-13 + vol-35 + macro-06 |
 | 08 | [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md) | vol-16 + vol-17 |
 | 09 | [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md) | vol-34 |
+
+## Part II — Demand, Substitution, and the Second System Stack
+
+| Chapter | English publication chapter | Research-layer source |
+|---|---|---|
+| 10 | [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md) | vol-06 |
+| 11 | [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md) | vol-07 |
+| 12 | [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) | vol-25 + macro-04 |
+| 13 | [Anchor Compute Buyer Effect](part-II-ch13-anchor-compute-buyer.md) | vol-26 |
+| 14 | [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md) | vol-27 |
+| 15 | [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md) | vol-28 |
+| 16 | [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md) | vol-33 |
+| 17 | [China's Parallel Stack — From Product Substitution to Frontier System Closure](part-II-ch17-china-parallel-stack.md) | vol-12 + vol-29 + macro-08 |
+| 18 | [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md) | vol-11 |
 
 ## Editorial and evidence rules
 
@@ -45,4 +59,4 @@ The English publication layer follows the same rules as the Chinese canonical pu
 
 Part I has completed the first English synchronization pass. It will continue to receive the same dead-link, deep-source, denominator, and cross-language regression applied to the Chinese publication layer.
 
-The next build target is **Part II, Chapters 10–18**.
+The next build target is **Part III, Chapters 19–26**.
