@@ -1,0 +1,130 @@
+name: Publication Build
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "publication/**"
+      - "en/publication/**"
+      - "scripts/build_publication.py"
+      - "scripts/publication-header.tex"
+      - ".github/workflows/publication-build.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build bilingual PDF and EPUB
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install publication toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-latex-extra \
+            texlive-lang-chinese \
+            fonts-noto-cjk \
+            fonts-dejavu-core \
+            poppler-utils \
+            qpdf \
+            unzip
+
+      - name: Build combined Markdown sources
+        run: |
+          python3 scripts/build_publication.py
+          test -s dist/publication.zh.md
+          test -s dist/publication.en.md
+
+      - name: Build Chinese PDF
+        run: |
+          set -o pipefail
+          pandoc dist/publication.zh.md \
+            --from=markdown+pipe_tables+footnotes+raw_tex \
+            --toc --toc-depth=2 \
+            --pdf-engine=xelatex \
+            -V documentclass=report \
+            -V geometry:margin=22mm \
+            -V mainfont="Noto Serif CJK SC" \
+            -V sansfont="Noto Sans CJK SC" \
+            -V monofont="DejaVu Sans Mono" \
+            -V CJKmainfont="Noto Serif CJK SC" \
+            -H scripts/publication-header.tex \
+            -o dist/ai-infrastructure-hegemony.zh.pdf \
+            2>dist/zh-pdf.log
+
+      - name: Build English PDF
+        run: |
+          set -o pipefail
+          pandoc dist/publication.en.md \
+            --from=markdown+pipe_tables+footnotes+raw_tex \
+            --toc --toc-depth=2 \
+            --pdf-engine=xelatex \
+            -V documentclass=report \
+            -V geometry:margin=22mm \
+            -V mainfont="Noto Serif CJK SC" \
+            -V sansfont="Noto Sans CJK SC" \
+            -V monofont="DejaVu Sans Mono" \
+            -H scripts/publication-header.tex \
+            -o dist/ai-infrastructure-hegemony.en.pdf \
+            2>dist/en-pdf.log
+
+      - name: Build EPUB editions
+        run: |
+          pandoc dist/publication.zh.md \
+            --from=markdown+pipe_tables+footnotes+raw_tex \
+            --toc --toc-depth=2 \
+            -o dist/ai-infrastructure-hegemony.zh.epub
+          pandoc dist/publication.en.md \
+            --from=markdown+pipe_tables+footnotes+raw_tex \
+            --toc --toc-depth=2 \
+            -o dist/ai-infrastructure-hegemony.en.epub
+
+      - name: PDF structural QA
+        run: |
+          set -euo pipefail
+          for pdf in dist/ai-infrastructure-hegemony.zh.pdf dist/ai-infrastructure-hegemony.en.pdf; do
+            qpdf --check "$pdf"
+            test "$(stat -c%s "$pdf")" -gt 100000
+            pages="$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')"
+            test -n "$pages"
+            test "$pages" -ge 60
+            pdftotext "$pdf" "${pdf%.pdf}.txt"
+            grep -q "AI Resource Gravity" "${pdf%.pdf}.txt"
+            grep -q "Anchor Compute Buyer" "${pdf%.pdf}.txt"
+            grep -q "S4" "${pdf%.pdf}.txt"
+          done
+          if grep -Eiq "Missing character|Error producing PDF|font .* not found" dist/zh-pdf.log dist/en-pdf.log; then
+            echo "PDF renderer reported missing glyphs/fonts or a rendering error."
+            cat dist/zh-pdf.log dist/en-pdf.log
+            exit 1
+          fi
+
+      - name: EPUB structural QA
+        run: |
+          set -euo pipefail
+          unzip -t dist/ai-infrastructure-hegemony.zh.epub
+          unzip -t dist/ai-infrastructure-hegemony.en.epub
+          test "$(stat -c%s dist/ai-infrastructure-hegemony.zh.epub)" -gt 50000
+          test "$(stat -c%s dist/ai-infrastructure-hegemony.en.epub)" -gt 50000
+
+      - name: Upload publication artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: bilingual-publication
+          if-no-files-found: error
+          retention-days: 30
+          path: |
+            dist/ai-infrastructure-hegemony.zh.pdf
+            dist/ai-infrastructure-hegemony.en.pdf
+            dist/ai-infrastructure-hegemony.zh.epub
+            dist/ai-infrastructure-hegemony.en.epub
+            dist/publication.zh.md
+            dist/publication.en.md
