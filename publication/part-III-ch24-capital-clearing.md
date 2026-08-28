@@ -62,11 +62,59 @@ NVIDIA 是 system seller，hyperscaler 是 asset buyer。卖方可以在出货�
 
 ## 5. Algorithmic efficiency 既可能制造过剩，也可能延长周期
 
-如果相同 capability 所需 compute 快速下降，而 workload volume 没有同步增长，已部署 capacity 可能出现过剩；如果更低成本刺激了大量新 workload，则效率提升反而会增加总基础设施需求。
+如果相同 capability 所需 compute 快速下降，而 workload volume 没有同步增长，已部署 capacity 可能出现过剩；如果更低成本刺激大量新 workload，效率提升反而会增加总基础设施需求。
 
-所以正确关系不是“模型更高效 → GPU 必然过剩”，而是：
+本报告不再使用不可直接计算的“efficiency effect × demand elasticity”表达式，而把需求拆成两个可测量因子：
 
-**Net Infrastructure Demand = efficiency effect × demand elasticity**。
+```text
+Infrastructure_Demand_t
+= Unit_Resource_Intensity_t
+× Workload_Volume_t
+```
+
+因此相对于基准期 0：
+
+```text
+Infrastructure_Demand_t / Infrastructure_Demand_0
+=
+(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
+×
+(Workload_Volume_t / Workload_Volume_0)
+```
+
+`Unit_Resource_Intensity` 必须绑定明确工作单位，例如 GPU-hours / verified workflow、HBM bytes / token、kWh / completed job；`Workload_Volume` 则是同一期间完成的 workflow / token / job 数量。
+
+如果需要把价格变化与 workload volume 联系起来，可以另外引入常数弹性近似：
+
+```text
+Workload_Volume_t / Workload_Volume_0
+=
+(Effective_Price_t / Effective_Price_0)^(-ε)
+```
+
+其中 ε 是对**同一可比工作结果**的需求价格弹性。于是：
+
+```text
+Infrastructure_Demand_t / Infrastructure_Demand_0
+=
+(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
+×
+(Effective_Price_t / Effective_Price_0)^(-ε)
+```
+
+**Table 24.2 — 效率下降与需求弹性的 D 级敏感性示例**
+
+假设单位资源强度下降 40%（`URI_t / URI_0 = 0.60`），同一可验收 workflow 的有效价格下降 50%（`P_t / P_0 = 0.50`）：
+
+| 需求弹性 ε | Workload volume factor | Infrastructure demand factor | 相对基准 |
+|---:|---:|---:|---:|
+| 0.5 | 1.414× | 0.849× | -15.1% |
+| 1.0 | 2.000× | 1.200× | +20.0% |
+| 1.2 | 2.297× | 1.378× | +37.8% |
+| 1.5 | 2.828× | 1.697× | +69.7% |
+
+**Source:** 本报告 D 级 sensitivity model。  
+**Note:** 0.60、0.50 与 ε 均为示例假设，不代表当前行业 actual。该表只说明：同样的 efficiency gain，在不同需求弹性下可以导致基础设施需求下降或上升。
 
 模型价格战同理。token/API price 下跌只能证明单位价格变化，不能单独证明 total token volume、workflow adoption 和 infrastructure utilization 同步下降。
 
