@@ -198,27 +198,42 @@ If China develops sufficient scale across those advanced layers, it can instead 
 
 That is different from being merely the recipient of residual global capacity.
 
-## 7A. AI Capacity Gap
+## 7A. AI Capacity Gap and AI Capacity Growth Gap
 
-To avoid treating “strong AI demand” as equivalent to permanent scarcity, the report introduces **AI Capacity Gap**:
+To avoid treating “strong AI demand” as equivalent to permanent scarcity, the report separates the **current absolute shortfall** from the **direction in which that shortfall is changing**.
+
+### Absolute gap
 
 ```text
-AI_Capacity_Gap(t)
-= Growth(AI_Demand(t))
-- Growth(AI_Dedicated_or_Effective_Capacity(t))
+AI_Capacity_Gap_i(t)
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
 ```
 
-Capacity must be measured by physical layer. Advanced logic, HBM, advanced packaging, and power cannot be collapsed into one aggregate number.
+Capacity must be measured separately for advanced logic, HBM/DRAM, advanced packaging, networking, power, and other physical layers, using the same delivery window, qualification boundary, and physical unit.
 
-- **Gap > 0 across several layers:** incremental demand is outrunning incremental effective supply, increasing pressure toward S2 Baseline Concentration / S3 Resource Hegemony.
-- **Gap ≈ 0:** supply and demand are approaching balance, more consistent with controlled expansion between S1 and S2.
-- **Gap < 0:** this becomes an S4 Capital Hard Landing signal only when utilization, clearing prices, and forward commitments also weaken. A negative Gap by itself does not prove a hard landing.
+- **Absolute Gap > 0:** current deliverable supply is insufficient;
+- **Absolute Gap ≈ 0:** current supply and demand are near balance;
+- **Absolute Gap < 0:** current effective headroom exists.
 
-The metric reframes the forward question:
+### Growth gap
 
-> **Does AI-demand growth continue to exceed growth in AI-dedicated or AI-effective capacity?**
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
 
-AI Capacity Gap and Non-AI Residual Capacity are complementary. The former measures the incremental AI-side supply-demand gap; the latter measures how much effective supply remains for non-AI demand after priority allocation.
+The Growth Gap describes only the direction in which the absolute gap is changing. Even if the Growth Gap is zero, a starting point of demand 100 and capacity 80 still implies an absolute shortage of 20.
+
+- **Growth Gap > 0:** scarcity may widen, or headroom may erode;
+- **Growth Gap < 0:** scarcity may converge, or headroom may expand.
+
+The forward question is therefore split into two falsifiable questions:
+
+> **How much effective supply is AI currently short of in each physical layer, and is that absolute shortfall widening or converging?**
+
+AI Capacity Gap / Growth Gap and Non-AI Residual Capacity are complementary. The first two measure the AI-side current shortfall and its direction; NARC measures effective supply left for non-AI demand after priority allocation.
 
 ## 8. Current judgment
 
