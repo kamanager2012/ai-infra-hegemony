@@ -213,3 +213,7 @@ It is identifying three thresholds:
 3. **Does AI workload monetization cover the capital cost of the installed infrastructure base?**
 
 Those three thresholds will do more than any fixed calendar to determine whether the industry moves toward S1, S2, S3, or S4.
+
+## Key public sources for this volume
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
