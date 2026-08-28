@@ -1,7 +1,5 @@
 # Part I · Chapter 9: Global Semiconductor Supply Chains and Manufacturing Redundancy
 
-> **Publication-layer chapter.** Based primarily on [Volume 34](../vol-34.en.md), with factual boundaries reinforced by public material from ASML, TSMC, and CHIPS for America. This chapter does not use unverified equipment-price claims or unsupported materials-share tables. It focuses on why "building another fab" is not equivalent to replicating a complete leading-edge supply chain, and why strategic redundancy increases both resilience and cost.
-
 ## 1. Frontier AI depends on an industrial chain spanning companies and countries
 
 The physical supply chain of a frontier AI system includes at least:
