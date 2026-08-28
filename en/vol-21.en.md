@@ -2,6 +2,8 @@
 
 Chinese source edition: [vol-21.md](../vol-21.md)
 
+> **Publication role:** [Volume 14](vol-14.en.md) owns the Value Capture Map; this volume is the capital-flow companion focused on double counting, capital intensity, and upstream commitments. The integrated Chinese publication chapter is [Part III · Chapter 20](../publication/part-III-ch20-value-capture-map.md).
+
 > Retrieval and revision cutoff: **2026-08-27**. Capital-flow analysis must avoid counting the same dollar multiple times as hyperscaler CapEx, vendor revenue, foundry revenue, memory revenue, and infrastructure investment.
 
 ## 1. The same dollar cannot be counted three times
@@ -269,10 +271,8 @@ It is:
 
 ## Key public sources for this volume
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-
-## Key public sources
 
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
