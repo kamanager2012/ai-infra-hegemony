@@ -25,7 +25,7 @@ These indicate that companies themselves have reduced expectations for future ca
 
 One-quarter policy or inventory effects cannot automatically be upgraded into structural collapse.
 
-For example, H20-related charges affected NVIDIA FY26 results, but GAAP gross margin was **75.0% in FY26 Q4**, **74.9% in FY27 Q1**, and **75.0% in FY27 Q2**.
+For example, H20-related charges affected NVIDIA FY26 results, but GAAP gross margin was **75.0% in FY26 Q4**, **74.9% in FY27 Q1**, and **75.0% in FY27 Q2**.[^1][^2][^3]
 
 One-time charges and releases have to remain separate from long-run system economics.
 
@@ -67,7 +67,7 @@ Persistent resale discounts and shorter lead times are therefore more meaningful
 
 The next round of expansion depends on hyperscaler CapEx guidance, NVIDIA manufacturing/supply/capacity commitments, long-duration model-company compute contracts, and power commitments.
 
-NVIDIA's public commitment path rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and **US$279B** on 2026-07-26.
+NVIDIA's public commitment path rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and **US$279B** on 2026-07-26.[^4]
 
 The FY27 Q2 10-Q states that the latest commitments primarily relate to memory and manufacturing facilities required for data-center infrastructure systems.
 
@@ -79,12 +79,17 @@ There is no unified official "2026 AI hardware CapEx."
 
 Current public scale includes:
 
+**Table 24.1 — Public 2026 capital-spending metrics for the four major clouds**
+
 | Company | Current 2026 metric | Identity |
 |---|---:|---|
 | Microsoft | calendar-2026 reported CapEx expectation ~US$175B | expectation; underlying investment expectation unchanged after lease-classification adjustment |
 | Alphabet | US$195–205B | Q2 guidance |
 | Meta | US$130–145B | Q2 guidance; includes finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
+
+**Source:** Microsoft FY26 Q4 earnings materials, Alphabet 2026 Q2 SEC Exhibit 99.1, Meta 2026 Q2 SEC Exhibit 99.1, and Amazon 2026 Q2 Form 10-Q.[^5][^6][^7][^8]  
+**Note:** Expectation, guidance, and TTM actuals use different time windows and accounting treatments and do not form a directly additive AI-hardware CapEx total.
 
 The time windows and accounting categories differ.
 
@@ -170,19 +175,19 @@ As of August 2026, public evidence is still closer to:
 
 than to a confirmed AI-infrastructure bubble collapse.
 
-NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**, FY27 Q2 GAAP operating income **US$63.734B**, and supply/capacity commitments have risen to **US$279B** while hyperscalers continue to report very high infrastructure-spending plans.
+NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP operating income **US$63.734B**,[^3] and supply/capacity commitments have risen to **US$279B**[^4] while hyperscalers continue to report very high infrastructure-spending plans.
 
 This does not guarantee a soft landing.
 
 It only means that declaring capital clearing the dominant reality still requires synchronized evidence across utilization, clearing prices, accounting losses, and forward commitments.
 
-## Key public sources
+## References
 
-- NVIDIA FY26 official results — NVIDIA-defined non-GAAP FCF US$96.575B: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-- NVIDIA FY27 Q1 10-Q — GAAP gross margin 74.9%: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
-- NVIDIA FY27 Q2 official results — GAAP gross margin 75.0%, GAAP operating income US$63.734B: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q — US$279B manufacturing, supply, and capacity commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- Microsoft FY26 Q4 earnings / call: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-- Meta 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-- Amazon 2026 Q2 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^1]: NVIDIA, FY26 official results, NVIDIA-defined non-GAAP free cash flow and FY26 Q4 margin, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+[^2]: NVIDIA Corporation, FY27 Q1 Form 10-Q, GAAP gross margin 74.9%, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
+[^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: Microsoft, FY26 Q4 earnings / conference call, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+[^6]: Alphabet, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+[^7]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+[^8]: Amazon.com, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
