@@ -41,7 +41,7 @@ It is a **multi-layer integration risk**.
 
 ## 3. Power risk: hardware can exist but remain unusable
 
-GB200 NVL72-class public product documentation is roughly **120 kW per rack**. That is a product-level density anchor, not evidence that a campus is already carrying the corresponding live load; whether power becomes the next bottleneck depends on interconnection, energization, and utilization.
+GB200 NVL72-class public product documentation is roughly **120 kW per rack**. That is a product-level density anchor, not evidence that a campus is already carrying the corresponding live load; whether power becomes the next bottleneck depends on interconnection, energization, and utilization. Source: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 
 Relevant risks include:
 
