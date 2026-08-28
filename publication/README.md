@@ -17,8 +17,15 @@
 | Part I | [第7章：从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md) | 已完成第一版连续重编 | vol-13 + vol-35 + macro-06 |
 | Part I | [第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md) | 已完成第一版连续重编 | vol-16 + vol-17 |
 | Part I | [第9章：全球半导体供应链与制造冗余](part-I-ch09-semiconductor-redundancy.md) | 已完成第一版连续重编 | vol-34 |
+| Part II | [第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md) | 已完成第一版连续重编 | vol-06 |
+| Part II | [第11章：NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md) | 已完成第一版连续重编 | vol-07 |
 | Part II | [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) | 已完成第一版连续重编 | vol-25 + macro-04 |
+| Part II | [第13章：Anchor Compute Buyer Effect](part-II-ch13-anchor-compute-buyer.md) | 已完成第一版连续重编 | vol-26 |
+| Part II | [第14章：Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md) | 已完成第一版连续重编 | vol-27 |
+| Part II | [第15章：Physical AI 与机器人系统](part-II-ch15-physical-ai.md) | 已完成第一版连续重编 | vol-28 |
+| Part II | [第16章：AMD / Intel / Qualcomm / Apple 的差异化路径](part-II-ch16-differentiated-competitors.md) | 已完成第一版连续重编 | vol-33 |
 | Part II | [第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md) | 已完成第一版连续重编 | vol-12 + vol-29 + macro-08 |
+| Part II | [第18章：反垄断、产业政策与 AI 平台权力边界](part-II-ch18-antitrust-policy.md) | 已完成第一版连续重编 | vol-11 |
 | Part III | [第20章：Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md) | 已完成第一版连续重编 | vol-14 + vol-21 |
 | Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已完成第一版连续重编 | vol-37 + macro-07 |
 | Part IV | [第31章：2036 终局与战略选择](part-IV-ch31-strategy-endgame.md) | 已完成第一版连续重编 | vol-15 + vol-20 + vol-40 |
@@ -26,8 +33,9 @@
 
 ## 当前构建状态
 
-- **Part I — 系统权力与物理稀缺：9/9 章已生成第一版出版层正文。**
-- Part II、III、IV：继续按同一去重标准推进。
+- **Part I — 系统权力与物理稀缺：9/9。**
+- **Part II — 需求、替代与第二系统栈：9/9。**
+- Part III、IV：继续按同一去重标准推进。
 
 ## 出版层编辑标准
 
