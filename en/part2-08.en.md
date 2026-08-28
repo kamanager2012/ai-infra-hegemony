@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-08.md](../part2-08.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. China's consumer-computing supply, workstation stack, and frontier AI stack are evaluated separately. The 2036 framework uses S1–S4 conditional states rather than fixed subjective probabilities.
+> Retrieval and revision cutoff: **2026-08-28**. China's consumer-computing supply, workstation stack, and frontier AI stack are evaluated separately. The 2036 framework uses S1–S4 conditional states rather than fixed subjective probabilities.
 
 ## 1. The core question
 
