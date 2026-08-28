@@ -97,3 +97,4 @@ TrendForce 2026-06-12 官稿：2026 年一季度全球前十大代工合计营�
 - NVIDIA FY26 10-K（China Data Center effectively foreclosed 等风险披露）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 - TSMC 4Q25 Presentation（2025 HPC 58%、smartphone 29% 与平台增长）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 - DeepSeek-V3 Technical Report（pre-training 2.664M；full training 2.788M H800 GPU-hours）：https://arxiv.org/abs/2412.19437
+- TrendForce 2025 CoWoS demand structure（NVIDIA estimated >60%, B-grade institutional estimate）：https://www.trendforce.com/research/download/RP250314ZJ
