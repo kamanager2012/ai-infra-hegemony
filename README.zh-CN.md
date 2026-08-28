@@ -7,7 +7,7 @@
 
 > **中文版 Publication Layer 是双语事实、证据等级与分析口径的 canonical source；英文 Publication Layer 已按当前中文版重新同步，并保持同一套 F → H → M → S → X 架构。**
 
-> 中文与英文 Publication Layer 均为 **32/32 章**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。两版 Markdown 结构/引用 QA 与双语结构/高风险数值回归已经通过；**最终 Publication Ready 尚需关键外链复扫、第三方材料版权确认、PDF/电子书导出 QA 与最终 proofread。**
+> 中文与英文 Publication Layer 均为 **32/32 章**：Part I 9/9、Part II 9/9、Part III 8/8、Part IV 6/6。两版 Markdown 结构/引用 QA、双语结构/高风险数值回归、critical-link sweep 与当前 Publication Layer 版权/长引文审计均已通过；**最终 Publication Ready 现主要取决于 GitHub Actions 重新启用（或本地/WSL fallback 实跑）、双语 PDF/EPUB 实构建与 machine proof、最终人工 proofread/低风险语义复核、作者 COI 确认，以及最终发布日期/Release 操作。**
 
 本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-28**；本文不构成审计意见、投资建议或法律意见。
 
