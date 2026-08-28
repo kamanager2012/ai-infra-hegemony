@@ -93,7 +93,7 @@ For the latest research conclusions, always use `main`. The Chinese edition rema
 - NVIDIA FY27 Q2：营收 $96.221B、数据中心 $89.0B、GAAP 毛利率 75.0%，Rubin 进入 full production；
 - TSMC N2/N2P/A16 与 High-NA EUV明确解绑定；
 - Micron一手披露 HBM3E 在相同节点、相同比特下约需 DDR5 三倍 wafer supply；
-- Advanced packaging 证据重新分级：TSMC tightness 为 A 级事实，NVIDIA >60% CoWoS demand 为 B 级机构估计，5.39 CoWoS wafers/rack 为 D 级几何压力测试；
+- Advanced packaging 证据重新分级：TSMC tightness 为 A 级事实，NVIDIA >60% CoWoS demand 为 B 级机构估计，5.37 CoWoS wafers/rack 为 D 级几何压力测试；
 - 2026 年云厂竞争升级为系统栈竞争：Ironwood、Trainium3 UltraServer、MTIA等；
 - OpenAI Stargate、Anthropic/AWS被纳入 Anchor Compute Buyer 框架；
 - Microsoft / Constellation、Talen / AWS、Google / Kairos 的能源项目按合同容量、法律结构和上电状态重新拆分；
