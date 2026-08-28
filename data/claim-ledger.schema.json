@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kamanager2012/ai-infra-hegemony/data/claim-ledger.schema.json",
+  "title": "AI Infrastructure Hegemony Claim Ledger Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "language",
+    "source_file",
+    "claim_text",
+    "ontology",
+    "evidence_grade",
+    "value_identity",
+    "status"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bilingual_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "enum": [
+        "zh",
+        "en"
+      ]
+    },
+    "source_file": {
+      "type": "string",
+      "minLength": 1
+    },
+    "line": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ontology": {
+      "enum": [
+        "F",
+        "H",
+        "M",
+        "S",
+        "X"
+      ]
+    },
+    "evidence_grade": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "source_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}(?:-\\d{2}(?:-\\d{2})?)?$"
+    },
+    "observation_window": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "access_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "denominator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "value_identity": {
+      "enum": [
+        "actual",
+        "guidance",
+        "expectation",
+        "estimate",
+        "forecast",
+        "scenario",
+        "model",
+        "not_applicable"
+      ]
+    },
+    "status": {
+      "enum": [
+        "unreviewed",
+        "verified",
+        "downgraded",
+        "removed"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
