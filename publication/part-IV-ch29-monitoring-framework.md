@@ -32,7 +32,7 @@ AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry alloc
 **Source:** NVIDIA FY26 results、FY27 Q2 results 与 FY27 Q2 Form 10-Q.[^1][^2]  
 **Note:** company-defined non-GAAP FCF 与 GAAP metrics 必须保留各自口径；commitments 为 aggregate amount，未披露 supplier-level split。
 
-Supply / capacity commitments：
+Supply / capacity commitments：[^2]
 
 - 2026-01-25：US$95.2B；
 - 2026-04-26：US$119B；
@@ -40,7 +40,7 @@ Supply / capacity commitments：
 
 这组指标回答：system seller 是否仍拥有足够 cash generation 与 forward commitment ability 预订下一代 scarce resources。
 
-US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue。
+US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue。[^2]
 
 ## 3. Dashboard B — Foundry / Packaging
 
@@ -56,13 +56,13 @@ US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue�
 - smartphone platform：29%，YoY +11%；
 - largest / second-largest annual customer：19% / 17% revenue。
 
-另一匿名客户表才支持 2024→2025：Customer A 12%→19%，Customer B 22%→17%。两套披露不能拼成同一客户轨迹。
+另一匿名客户表才支持 2024→2025：Customer A 12%→19%，Customer B 22%→17%。[^7] 两套披露不能拼成同一客户轨迹。
 
 ### Packaging
 
-A-grade signal：TSMC 持续描述 packaging capacity tight / growth-limiting。
+A-grade signal：TSMC 持续描述 packaging capacity tight / growth-limiting。[^8]
 
-B-grade signal：TrendForce 估计 NVIDIA 占 2025 CoWoS demand >60%。
+B-grade signal：TrendForce 估计 NVIDIA 占 2025 CoWoS demand >60%。[^9]
 
 TSMC 未披露 customer-level CoWoS allocation。
 
@@ -113,9 +113,9 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 当前代表性项目：
 
-- Microsoft / Constellation：~835 MW restart PPA；
-- Talen / AWS：up to1.92GW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；
-- Google / Kairos：Hermes 2 up to50MWe in2030，fleet up to500MWe by2035。
+- Microsoft / Constellation：~835 MW restart PPA；[^10]
+- Talen / AWS：up to 1.92 GW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；[^11]
+- Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035。[^12]
 
 真正需要更新的是 ramp、energized MW、actual load 与 utilization。
 
@@ -274,3 +274,9 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^7]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+[^8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^9]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^11]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
