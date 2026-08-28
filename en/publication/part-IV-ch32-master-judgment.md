@@ -88,7 +88,7 @@ TrendForce's estimate that NVIDIA represented >60% of 2025 CoWoS demand therefor
 
 ### Power
 
-Approximately 120 kW-class racks, the ~835 MW Crane restart path, the Talen/AWS up-to-1.92-GW revised PPA, and the Kairos/Google long-duration development path show that power is an independent physical constraint.[^5]
+Approximately 120 kW-class racks, the ~835 MW Crane restart path, the Talen/AWS revised PPA of up to 1.92 GW, and the Kairos/Google long-duration development path show that power is an independent physical constraint.[^5]
 
 Contracted, Permitted, Energized, and Utilized MW must remain separate.
 
