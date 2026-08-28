@@ -1,7 +1,5 @@
 # Part III · Chapter 22: The Depreciation Wall and Duration Mismatch
 
-> **Publication-layer chapter.** Based primarily on [Volume 30](../vol-30.en.md). Chapter 19 covers CapEx expansion and Chapter 24 covers capital clearing. This chapter focuses on why different asset useful lives create a "depreciation wall" in AI infrastructure and why accounting depreciation and economic obsolescence are not the same thing.
-
 ## 1. The depreciation wall is not a fixed-dollar shock that must occur in one specific year
 
 A more accurate definition is:
