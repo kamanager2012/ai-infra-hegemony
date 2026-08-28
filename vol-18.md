@@ -155,11 +155,11 @@ TSMC largest customer 19% revenue share 不能写成 19% wafer share。
 
 ### Contracted MW → utilized compute
 
-1.92 GW PPA 不能写成 1.92 GW active AI load。
+**up to 1.92 GW** 的 Talen/AWS revised PPA 不能写成 1.92 GW active AI load。
 
 ### Product spec × hypothetical quantity → shipment
 
-13.4 TB/rack × 50,000 racks 只能是 scenario demand，不是实际 HBM shipment。
+若采用 GB200 NVL72 的 **13.4 TB HBM3E/rack** 产品规格，13.4 TB/rack × 50,000 racks 只能是 **scenario demand arithmetic**，不是实际 HBM shipment；50,000 racks 本身也必须保持为情景假设。
 
 ### Engineering geometry → fab yield
 
