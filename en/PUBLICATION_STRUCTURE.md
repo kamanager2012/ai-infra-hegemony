@@ -51,12 +51,14 @@ These layers are not simple duplicates, but presenting them as “40 volumes + 8
 
 ## Part IV — Method, Scenarios, Monitoring, and Strategy
 
-27. Research methodology and evidence architecture — vol-18  
-28. 2026–2036 timeline and milestones — vol-19  
-29. Core indicators and evidence monitoring — vol-31  
-30. S1–S4 standard scenarios — vol-10  
-31. 2036 endgame and strategic implications — vol-15 + vol-20 + vol-40  
-32. Master judgment — Master Judgment + macro-01  
+**Status: 6/6 English publication chapters synchronized.**
+
+27. [Research Method and Evidence Architecture](publication/part-IV-ch27-research-method.md) — vol-18  
+28. [2026–2036 Timeline and Conditional Milestones](publication/part-IV-ch28-timeline-2026-2036.md) — vol-19  
+29. [Core Metrics and Evidence-Monitoring Framework](publication/part-IV-ch29-monitoring-framework.md) — vol-31  
+30. [The Four Standard Scenarios — S1 to S4](publication/part-IV-ch30-scenarios.md) — vol-10  
+31. [The 2036 Endgame and Strategic Optionality](publication/part-IV-ch31-strategy-endgame.md) — vol-15 + vol-20 + vol-40  
+32. [Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions](publication/part-IV-ch32-master-judgment.md) — Master Judgment + macro-01  
 
 ## Editorial rules
 
@@ -75,4 +77,4 @@ The repository keeps two layers:
 - **Research layer:** 40 volumes + 8 macro essays for traceability, independent revision, and Git diffs.
 - **Publication layer:** approximately 32 chapters in four parts for continuous reading, PDF/e-book production, and public release.
 
-Existing volume numbers remain stable as research-layer IDs. English publication synchronization is now complete for Parts I–III and continues through Part IV.
+Existing volume numbers remain stable as research-layer IDs. English publication synchronization is now complete for **all four parts / 32 chapters**.
