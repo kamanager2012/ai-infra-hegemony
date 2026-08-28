@@ -32,6 +32,12 @@ AI investment 包含：
 
 这些资产的经济寿命与会计 useful life 不同。最新一手口径也并不统一：Microsoft FY26 servers/network equipment **2–6 年**；Alphabet 2025 一般 **6 年**；Meta 2025 servers/network assets **5–5.5 年**；Amazon 2025 servers/networking equipment **5–6 年**。各公司还会因技术变化调整估计寿命。
 
+主要来源：
+- Microsoft FY26 Form 10-K：https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+- Alphabet 2025 Form 10-K：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+- Meta 2025 Form 10-K：https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+- Amazon 2025 Form 10-K：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+
 因此，不能统一使用“4年直线折旧”估算整个 AI infrastructure。
 
 真正的风险是 duration mismatch：
