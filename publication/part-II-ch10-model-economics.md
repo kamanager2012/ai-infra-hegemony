@@ -1,104 +1,249 @@
 # Part II · 第10章：模型单位经济、算法效率与开源竞争
 
+## 1. 核心判断：模型公司不是脱离基础设施的纯软件生意
 
-## 1. 模型公司不是脱离基础设施的纯软件生意
+API、订阅和 agent service 的底层成本仍然由物理基础设施决定。
 
-API、订阅和 agent service 的底层变量成本包括 accelerator time、HBM bandwidth、KV cache、storage / retrieval、networking、third-party tools、human review、cloud margin 与 serving utilization。
+主要变量包括：
 
-因此，AI 软件无法简单沿用“新增用户几乎没有边际成本”的传统 SaaS 叙事。真正的单位是：
+- accelerator time；
+- HBM bandwidth / capacity；
+- KV cache；
+- storage / retrieval；
+- networking；
+- serving utilization；
+- model routing；
+- third-party tools；
+- human review。
 
-> **Revenue per completed workflow − total variable AI cost per completed workflow**
+因此，模型公司的经济性不能简单套用传统 SaaS 的“复制成本接近零”逻辑。
 
-## 2. Algorithmic efficiency 改变的是需求函数
+真正需要回答的是：
 
-DeepSeek-V3 一手披露：671B total parameters、37B activated parameters、14.8T pre-training tokens、2.664M H800 GPU-hours pre-training、2.788M H800 GPU-hours full formal training。[^1]
+> **每一单位可交付智能或可完成工作流，能够创造多少收入或生产率价值，又消耗多少真实基础设施成本。**
 
-按论文使用的 US$2/GPU-hour 假设，2.788M GPU-hours 对应约 **US$5.576M formal-training compute conversion**。这不是完整企业研发成本。
+---
 
-它证明的是：frontier capability 与硬件投入之间不是固定线性关系。architecture、sparsity、routing 和 memory design 可以显著改变单位 capability 所需资源。
+## 2. Algorithmic Efficiency 改变的是 Compute Demand Function
 
-## 3. MLA 说明 Memory Cost 可以被算法直接攻击
+DeepSeek-V3 一手披露：
 
-DeepSeek-V2 相对 DeepSeek 67B 报告约 **93.3% KV-cache reduction** 和约 **5.76× maximum generation throughput**。[^2]
+- 671B total parameters；
+- 37B activated parameters；
+- 14.8T pre-training tokens；
+- **2.664M H800 GPU-hours** pre-training；
+- **2.788M H800 GPU-hours** full formal training。[^1]
 
-这两个数字属于 V2，不属于 V3。
+论文同时采用 US$2/GPU-hour 的假设，因此 2.788M GPU-hours 对应约 **US$5.576M formal-training compute conversion**。
 
-其经济意义在于：同一 HBM capacity 可以承载更高并发，单位 token memory traffic 下降，serving utilization 提高。
+但这个数字不是完整企业研发成本。
 
-但更低单位成本不意味着总基础设施需求必然下降。如果 lower cost 刺激 token、agent 与 workflow volume 更快增长，总需求仍可上升。
+它不包含：
 
-## 4. 开源首先压缩模型层利润，不会自动压缩全部基础设施利润
+- failed runs；
+- research iteration；
+- data engineering；
+- payroll；
+- networking；
+- storage；
+- cluster depreciation；
+- post-training；
+- inference infrastructure。
 
-Open-source model 会提高 capability diffusion、private deployment 与 model switching option，并压低 API premium。
+这一案例真正说明的是：
 
-但模型层迁移速度通常快于底层 accelerator、HBM、network、packaging 和 data-center infrastructure 的迁移速度。
+> **frontier capability 与硬件投入之间不是固定线性关系。**
 
-所以可以出现：
+architecture、sparsity、routing 与 memory design 可以显著改变单位 capability 所需资源。
+
+---
+
+## 3. Memory Efficiency 可以直接改变 Serving Economics
+
+DeepSeek-V2 相对 DeepSeek 67B 报告约：
+
+- **93.3% KV-cache reduction**；
+- **5.76× maximum generation throughput**。[^2]
+
+这两个数字属于 DeepSeek-V2，不属于 V3。
+
+其产业意义不在于“某个模型更便宜”，而在于：
+
+> **算法可以直接攻击 memory traffic、cache requirement 与 serving concurrency，从而改变同一 HBM / accelerator 资产的有效产出。**
+
+因此，模型竞争不只发生在 benchmark capability，也发生在：
+
+- bytes/token；
+- active parameters；
+- cache；
+- routing；
+- utilization；
+- serving throughput。
+
+---
+
+## 4. Open Source 首先压缩 Model-Layer Rent，而不是自动压缩 Infrastructure Demand
+
+open-source model 会：
+
+- 提高 capability diffusion；
+- 增加 private deployment；
+- 提高 model switching option；
+- 降低 API premium；
+- 增强 buyer bargaining power。
+
+但模型层迁移速度通常快于：
+
+- accelerator；
+- HBM；
+- networking；
+- advanced packaging；
+- data-center power。
+
+因此完全可能出现：
 
 > **model price compression + infrastructure utilization growth**
 
-这也是为什么“API price 下跌”和“AI infrastructure demand 下跌”不能画等号。
+也就是说：
 
-## 5. GPU vs ASIC 的正确比较单位是 System TCO
+> **API price down ≠ infrastructure demand down**
 
-Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司和内部 workload 提供第二条 compute path。
+开源首先压缩的是模型能力本身的稀缺租金。
 
-真正要比较的不是 accelerator die price，而是：
+基础设施是否受压，要看单位资源需求下降是否快于 workload volume 增长。
+
+---
+
+## 5. GPU vs ASIC 的正确比较单位仍然是 System TCO
+
+Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hyperscaler internal workload 提供第二条 compute path。
+
+但真正应该比较的不是 accelerator die price，而是：
 
 - workload compatibility；
 - compiler/runtime maturity；
 - HBM / interconnect configuration；
 - cluster scaling；
 - debugging / porting cost；
+- failure recovery；
 - effective utilization。
 
-如果理论 chip cost 更低，但 migration、debug 或 utilization 更差，system TCO 未必更低。
+因此：
 
-## 6. AI Software Unit Economics
+> **cheaper chip ≠ cheaper production system**
 
-一个生产级 workflow 至少应计算：
+如果 theoretical chip cost 更低，但 migration、debug、reliability 或 utilization 更差，system TCO 未必更低。
 
-> **Contribution Margin = Revenue per workflow − inference − retrieval/storage − tools/APIs − retries − human review − compliance/operations**
+完整的 hyperscaler system-stack competition 见第12章。
 
-真正值得比较的指标包括：
+---
 
-- cost per successfully completed task；
-- gross margin after inference；
-- revenue / productivity value per workflow；
-- retention；
+## 6. 模型公司的单位经济应该从 Token Cost 上移到 Capability / Workflow Economics
+
+单纯 cost/token 越来越不足以解释商业价值。
+
+一个模型调用即使 token price 很低，如果：
+
+- retry 很高；
+- tool failure 很高；
+- human review 很高；
+- outcome 不稳定；
+
+真实经济性仍然可能很差。
+
+因此更有价值的指标是：
+
+- cost per successful task；
+- cost per verified workflow outcome；
+- gross margin after model serving；
+- revenue / productivity value per successful outcome；
 - retry / failure rate；
-- human review burden；
-- utilization of reserved compute。
+- reserved-compute utilization。
 
-## 7. Anchor Buyer 让模型公司反向影响基础设施
+模型公司最终出售的不是 token 本身，而是：
 
-超大模型公司已经开始通过 multi-year compute commitments、dedicated data-center projects 与 long-duration capacity reservation 影响 cloud / chip / power investment。
+> **可以被用户接受、可以进入业务流程、可以创造价值的有效智能输出。**
 
-这意味着模型公司不是永远只能被动接受 cloud price。达到足够规模后，它们本身可以成为基础设施资本形成的需求锚。
+Agent-native software 的完整 workflow economics 见第14章。
 
-但这也放大风险：如果 architecture efficiency 提高、revenue 增长不及预期或 workload 转移，长期 capacity commitment 会变成 utilization / duration risk。
+---
 
-## 8. Price Compression 与 Jevons-style Rebound
+## 7. Price Compression 与 Demand Rebound 可以同时成立
 
-算法效率和开源竞争会降低 unit intelligence cost。最终基础设施需求取决于：
+算法效率和开源竞争会降低 unit intelligence cost。
 
-> **Net Infrastructure Demand = Unit Resource Intensity × Total Workload Volume**
+总基础设施需求可以抽象为：
 
-如果 resource intensity 下降 50%，但 workload volume 增长 4×，总需求仍增长。
+> **Total Infrastructure Demand = Unit Resource Intensity × Total Workload Volume**
 
-所以长期判断必须观察真实 workload、utilization 和 business outcome，而不是只看训练成本、benchmark 或 token price。
+如果 resource intensity 下降，但 workload volume 增长得更快，总 demand 仍然会上升。
+
+例如，从机制上讲：
+
+- unit cost ↓；
+- adoption threshold ↓；
+- more workloads become economic；
+- token / agent / workflow volume ↑。
+
+因此，算法进步具有两种相反效应：
+
+1. **Efficiency Effect**：同一任务需要更少资源；
+2. **Rebound Effect**：更低成本刺激更多任务。
+
+哪一种占主导，不能靠直觉判断。
+
+---
+
+## 8. 模型层真正的长期竞争变量
+
+未来模型公司之间最重要的经济变量包括：
+
+### Capability per Unit Resource
+
+相同 compute / memory 能产生多少有效能力。
+
+### Serving Utilization
+
+已预留基础设施能否保持高利用率。
+
+### Model Portability
+
+客户能否在不同模型之间低成本切换。
+
+### Distribution
+
+谁拥有持续、低成本获取 workload 的渠道。
+
+### Monetization
+
+模型能力能否转化为真实收入或可衡量生产率。
+
+### Infrastructure Commitments
+
+长期 compute commitment 是否与真实 workload growth 匹配。
+
+最后一项会进一步进入 Anchor Compute Buyer 机制，详见第13章。
+
+---
 
 ## 9. 当前判断
 
 截至 2026 年，更稳健的状态是：
 
-- model layer price competition 与 capability diffusion 已经发生；
-- unit cost 持续下降；
-- open-source 提高 buyer bargaining power；
-- infrastructure demand 尚未因此进入确认下降周期；
-- large model companies 正通过长期 commitment 反向塑造 infrastructure buildout。
+- model-layer price competition 与 capability diffusion 已经发生；
+- unit intelligence cost 继续下降；
+- algorithmic efficiency 正在改变 compute / memory demand function；
+- open source 正在提高 buyer optionality；
+- 但 infrastructure demand 尚未因此进入确认下降周期；
+- 总需求越来越取决于 workload growth、utilization 与 monetization。
 
-因此，算法效率既可能成为基础设施需求的**打断器**，也可能成为总使用量的**放大器**。哪一种占主导，只能由 workload volume、utilization 与 unit economics 证明。
+因此：
+
+> **算法效率既可能成为基础设施需求的打断器，也可能通过降低成本成为使用量的放大器。**
+
+真正的分水岭不是 token price，而是：
+
+> **单位资源效率提升之后，新增 workflow volume 和经济价值是否增长得更快。**
 
 ## References
 
