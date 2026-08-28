@@ -85,6 +85,12 @@ The critical variable is not whether alternatives exist in demos.
 
 It is whether they operate reliably at production scale.
 
+### Key public sources
+- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
+
 ## 4. Phase III: 2031–2033 — geographic and industrial structure hardens
 
 If AI infrastructure keeps expanding, competition can move upward from product roadmaps into regional infrastructure systems.
