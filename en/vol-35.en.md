@@ -2,6 +2,8 @@
 
 Chinese source edition: [vol-35.md](../vol-35.md)
 
+> **Publication role:** [Volume 13](vol-13.en.md) explains why power becomes an independent AI-infrastructure quota. This volume is the project-evidence companion, comparing Crane, Talen/AWS, and Kairos/Google across Contracted, Permitted, Energized, and Utilized states.
+
 > Retrieval and revision cutoff: **2026-08-27**. This volume tracks power through five states: Announced, Contracted, Permitted, Energized, and Utilized. Nameplate or contracted capacity is never treated as live AI load.
 
 ## 1. Power must be analyzed by project state
@@ -22,27 +24,11 @@ This report uses five states:
 
 Only by separating those states can power be compared meaningfully with hardware shipments, CapEx, and workload utilization.
 
-## 2. 120 kW-class racks change data-center engineering
+## 2. Rack-power input anchor: scale arithmetic only
 
-NVIDIA-related rack documentation places GB200 NVL72 design power at roughly **120 kW per rack**.
+NVIDIA rack documentation places GB200 NVL72-class full-rack power at roughly **120 kW/rack**. This volume uses that figure only as a scale anchor; the liquid-cooling, busway, transformer, and high-density distribution implications are developed in [Volume 13](vol-13.en.md).
 
-At that density, the facility requires a different engineering envelope:
-
-- direct liquid cooling;
-- high-current busway;
-- larger transformers;
-- high-density distribution;
-- stronger cooling loops.
-
-For 500 racks:
-
-```text
-500 × 120 kW = 60 MW
-```
-
-This is **rack-level full-load scenario arithmetic**. It does not include full facility overhead and does not establish that any specific campus is already carrying a 60 MW or 100 MW live load.
-
-What it does establish is that hundreds of 120 kW-class racks can push local delivery requirements into the **tens-of-megawatts range**. A claim that a 100 MW-class campus is already operating requires separate project-level evidence and an energized-state check.
+**D-grade scenario arithmetic:** 500 × 120 kW = **60 MW of rack-level full-load power**. It is not evidence that a campus has deployed 500 racks, it excludes full facility overhead, and it does not establish that a 100 MW campus is operating.
 
 ## 3. Microsoft / Constellation: approximately 835 MW tied to a restart PPA
 
