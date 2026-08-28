@@ -25,10 +25,10 @@ TSMC 2026 Q2：
 
 同时，TSMC 披露：
 
-- advanced packaging + testing 2024 revenue share：约 8%
+- advanced packaging 2024 revenue share：约 **8%**（不得扩写为 packaging + testing）
 - 2025：略高于 10%
 
-TSMC 当前公开年报与法说材料主要以 **advanced packaging / testing 聚合口径**披露，没有提供可用于本报告的 CoWoS customer-level allocation 或完整 CoWoS 分项收入表。因此，本报告不能把聚合 advanced-packaging 数据进一步硬拆成 CoWoS 客户份额。
+TSMC 当前公开年报与法说材料没有提供可用于本报告的 CoWoS customer-level allocation 或完整 CoWoS 分项收入表。因此，本报告不能把公开的 advanced-packaging 数据进一步硬拆成 CoWoS 客户份额。
 
 因此：
 
@@ -52,7 +52,7 @@ TrendForce 对 2025 CoWoS demand 的估计显示 NVIDIA 占比超过 60%。
 
 ## 4. 5.39 CoWoS wafers/rack 属于 D 级压力测试
 
-本报告 geometry stress test：
+本报告 geometry stress test（其中 **13.4 packages/wafer 是 D 级几何假设，不是 TSMC disclosed yield**）：
 
 ```text
 72 	ext{packages}
@@ -71,7 +71,7 @@ TrendForce 对 2025 CoWoS demand 的估计显示 NVIDIA 占比超过 60%。
 - logic wafer demand；
 - real customer allocation。
 
-因此，5.39 不能与 TSMC annual ~15M wafer shipments 混用。
+因此，5.39 不能与 TSMC annual ~15M **12-inch-equivalent wafer shipments** 混用；两者分母不同。
 
 ## 5. 为什么 packaging 比 node 更容易成为短期配额
 
