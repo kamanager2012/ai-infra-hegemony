@@ -1,7 +1,5 @@
 # Part I · Chapter 1: Executive Summary and Core Judgments for the Next Decade
 
-> **Publication-layer entry chapter.** This chapter uses [Volume 01](../vol-01.en.md) as its factual base and links to the canonical publication chapters generated from the research layer. It provides only the factual anchors, core mechanisms, scenario framework, and falsification conditions needed to enter the book; later chapters carry the detailed engineering analysis.
-
 ## 1. One-sentence judgment
 
 > **The competitive unit in AI infrastructure has moved from the individual chip to the full system stack. Long-run value capture increasingly depends on who can coordinate multiple scarce layers—advanced logic, HBM, advanced packaging, interconnect, software, racks/data centers, and power—and convert those physical resources into highly utilized, portable, cash-generating workloads.**
