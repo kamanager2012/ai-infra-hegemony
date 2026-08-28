@@ -1,11 +1,11 @@
 # The Age of AI Infrastructure Hegemony
 ### AI基础设施霸权时代
 
-**40-volume industry research monograph + 8 macro essays**
+**Research corpus: 40 stable volume modules + 8 macro essays. Publication edition: four parts / ~32 integrated chapters.**
 
 > **English release landing page.** The complete Chinese edition remains the research source of truth: [中文版](README.zh-CN.md).
 
-[English](README.md) · [中文版](README.zh-CN.md) · [Research method](en/研究方法与证据分级.en.md) · [Release notes](RELEASE_NOTES.md)
+[English](README.md) · [中文版](README.zh-CN.md) · [Publication architecture](en/PUBLICATION_STRUCTURE.md) · [Research method](en/研究方法与证据分级.en.md) · [Release notes](RELEASE_NOTES.md)
 
 ---
 
@@ -26,7 +26,7 @@ The original report text is licensed under **Creative Commons Attribution-NonCom
 - **Total supply growth does not equal recovery for non-AI industries.** The report uses **Non-AI Residual Capacity** to separate effective supply, AI absorption, other priority demand, and the residual actually available to consumer and traditional markets.
 - **HBM has a measurable physical tradeoff.** Micron disclosed that, at the same technology node and for the same number of bits, HBM3E consumes approximately **3× the wafer supply of DDR5/D5**. This is a wafer-supply trade ratio—not a price multiple and not a universal constant for every generation. [Micron FY24 Q3 prepared remarks](https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564).
 - **Model companies are becoming Anchor Compute Buyers.** OpenAI's [Stargate](https://openai.com/index/announcing-the-stargate-project/) and Anthropic's [up-to-5-GW AWS agreement](https://www.anthropic.com/news/anthropic-amazon-compute?lang=us) show how long-duration model demand can shape cloud capacity, chips, data centers, power, and financing rather than merely rent existing infrastructure.
-- **Power is an independent physical constraint.** NVIDIA documents approximately **120 kW** rack power for GB200/GB300 NVL72-class systems ([NVIDIA DGX GB rack guide](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)); Constellation disclosed the Microsoft-linked Crane restart at approximately **835 MW** ([Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)); Talen's 2026 Q2 filing says the revised AWS PPA provides up to **1,920 MW** and transitioned in April 2026 ([SEC filing](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)); and Google/Kairos disclosed up to **500 MW** of new nuclear capacity ([Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)). These figures sit on different contract, construction, energization, and utilization clocks.
+- **Power is an independent physical constraint.** NVIDIA documents approximately **120 kW** rack power for GB200/GB300 NVL72-class systems ([NVIDIA DGX GB rack guide](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)); Constellation disclosed the Microsoft-linked Crane restart at approximately **835 MW** ([Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)); Talen's 2026 Q2 filing says the revised AWS PPA provides up to **1,920 MW** and states that the revised-PPA transition occurred in April 2026; that status is not treated as proof that every physical transition or delivery step was complete ([SEC filing](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)); and Google/Kairos disclosed up to **500 MW** of new nuclear capacity ([Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)). These figures sit on different contract, construction, energization, and utilization clocks.
 - **AI software economics must be measured as unit economics, not inherited SaaS margins.** Inference, retrieval/storage, tool/API calls, human review, and AI-specific cloud cost all matter.
 - **The future is modeled as states, not a single prophecy.** The formal endgame is **S1 Competitive Expansion, S2 Baseline Concentration, S3 Resource Hegemony, and S4 Capital Hard Landing**, driven by the H1–H17 variable system.
 
@@ -46,9 +46,10 @@ For this repository, an already-observed historical claim may enter **F — Fact
 8. [Volume 18 — Research Methodology and Evidence Architecture](en/vol-18.en.md)
 9. [Mechanism Index](en/机制索引.en.md)
 10. [English Edition Index](en/README.en.md)
-11. [X / social launch drafts](en/SHARE.md)
+11. [Publication Architecture — four parts / ~32 chapters](en/PUBLICATION_STRUCTURE.md)
+12. [X / social launch drafts](en/SHARE.md)
 
-All **40 English volumes + 8 English macro essays** have now completed a full repository-wide publication QA pass. High-risk legacy translations were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression. The current English corpus passes the targeted publication checks for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns. The English edition follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` corpus remains the source of truth for resolving bilingual discrepancies.
+All **40 English volume modules + 8 English macro essays** have completed a repository-wide evidence and text QA pass. They remain the stable research layer while the publication layer is being reorganized into a continuous four-part edition. High-risk legacy translations were structurally rebuilt against the current Chinese source structure; lower-risk chapters were retained after regression. The current English corpus passes the targeted publication checks for legacy workpaper language, stale FY27 Q2 outlook framing, old fixed scenario weights, malformed unit capitalization, hidden control characters, and incorrect Chinese-source link patterns. The English edition follows the same F→H→M→S→X ontology, A/B/C/D evidence grading, system-stack, Anchor Compute Buyer, Non-AI Residual Capacity, AI Software Unit Economics, layered China stack, FY27 Q2 actuals, and S1–S4 framework. The Chinese `main` corpus remains the source of truth for resolving bilingual discrepancies.
 
 ## Research method
 
@@ -70,7 +71,9 @@ The central problem is not a simple market-share monopoly. It is **scarce-layer 
 
 Long-duration orders and prepayments can reserve future supply. The key variable is therefore not gross worldwide semiconductor capacity, but how much **effective residual capacity** remains after AI and other priority demand absorb the increment. Cloud custom silicon can reduce NVIDIA's platform-profit share while simultaneously increasing competition for advanced logic, HBM, advanced packaging, and power. China's stack must be analyzed by layer rather than by one “domestic substitution” percentage. Power must be tracked separately from wafers, packaging, and memory. Regulatory investigations must not be written as complaints, remedies, or breakups before they exist.
 
-## 40-volume English edition
+## Research-module index: 40 English volumes
+
+> These volume numbers remain stable for evidence tracing, Git history, corrections, and bilingual synchronization. They are **not the final publication order**. For continuous reading, use the [Publication Architecture](en/PUBLICATION_STRUCTURE.md).
 
 - [Volume 01: Executive Summary and Core Judgments for the Next Decade](en/vol-01.en.md)
 - [Volume 02: NVIDIA Platform Dominance and the System-Stack Moat](en/vol-02.en.md)
@@ -113,7 +116,9 @@ Long-duration orders and prepayments can reserve future supply. The key variable
 - [Volume 39: Education and Talent Systems in the AI Era — From Model Use to Systems Engineering](en/vol-39.en.md)
 - [Volume 40: Final Strategic Synthesis — Individuals, Firms, Capital, and States](en/vol-40.en.md)
 
-## Eight macro essays — English
+## Macro research essays — integrated into the publication layer
+
+> These essays remain research and synthesis assets. The final publication edition will absorb their unique data, engineering analysis, and cross-volume arguments into the corresponding main chapters instead of appending a second long-form block after the 40 volumes.
 
 - [Macro Essay 1: The Means-of-Production Shift and the Overall Judgment](en/part2-01.en.md)
 - [Macro Essay 2: Platform Concentration and NVIDIA's Hardware–Software System Power](en/part2-02.en.md)
