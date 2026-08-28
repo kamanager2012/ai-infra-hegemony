@@ -26,15 +26,15 @@ AI 教育如果只教：
 
 ## 2. AI adoption 已经快于课程制度更新
 
-Stanford HAI 2026 AI Index 等资料显示，AI 工具在学生和教育场景中的采用速度很快。
-
-但课程体系、评价方式、教师训练和 institution policy 更新更慢。
+Stanford HAI 2026 AI Index 给出了更精确的现实锚：**4/5** 美国高中和大学生已经使用 AI 完成 schoolwork；但只有约一半 middle/high schools 有 AI policy，且只有 **6%** 教师认为这些 policy 清晰。与此同时，美国四年制大学 CS undergraduate enrollment 在 2024→2025 **下降 11%**，而 AI software-related master's graduates 在 2023→2024 **增长 17%**。
 
 因此出现：
 
 ```text
 Tool Adoption > Curriculum Update > Institutional Reform
 ```
+
+公开来源：https://hai.stanford.edu/ai-index/2026-ai-index-report/education
 
 教育改革不能停留在“允许不允许用 AI”。
 
