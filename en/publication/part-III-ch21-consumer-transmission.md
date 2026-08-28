@@ -35,7 +35,7 @@ For 2Q26, TrendForce estimated:[^4]
 - LPDDR4X solution ASP: **+70–75% QoQ**;
 - LPDDR5X: **+78–83% QoQ**.
 
-By 3Q26, the rate of increase had narrowed materially to approximately **+8–13% QoQ**.[^5]
+TrendForce's 2026-08-03 **3Q26 forecast** projected that the mobile-DRAM increase would narrow materially to approximately **+8–13% QoQ**.[^5]
 
 At the same time, TrendForce continued to state that suppliers were shifting capacity toward server / HBM applications.
 
