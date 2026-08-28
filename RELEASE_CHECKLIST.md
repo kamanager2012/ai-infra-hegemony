@@ -37,6 +37,8 @@ This checklist separates research completion from publication operations. A chec
 - [x] `RELEASE_NOTES.md` distinguishes the current `main` research state from the archival `v0.1.0` snapshot.
 - [x] `CONTRIBUTING.md` reflects the current bilingual publication state.
 - [x] X/social launch copy points to the English root landing page and the correct Chinese landing page.
+- [x] Front matter now states **Pre-release Publication QA Edition**, **Target version v1.0.0 (not yet released)**, and that the formal publication date is locked only after final PDF/EPUB proof and public release.
+- [ ] Lock the final v1.0.0 publication date in both language editions and the combined build metadata at the actual release commit.
 - [ ] Final repository description / About text set on GitHub.
 - [ ] Final public release tag created.
 
