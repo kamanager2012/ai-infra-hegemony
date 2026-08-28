@@ -87,6 +87,25 @@ HBM demand 上升
 
 这就是 **Non-AI Residual Capacity** 在 memory 行业中的具体形式。
 
+## 5A. 价格反馈：HBM 的资源虹吸不是无限单向过程
+
+资源重分配存在市场反馈，不应写成“H​BM 永远拥有最高单位 wafer 利润，因此 wafer 会无限向 HBM 转移”。
+
+TrendForce 在 2026-06-02 的研究中估算：由于 conventional DRAM 自 2025 年下半年起快速涨价，按 die size、yield 与 per-Gb pricing 推算的 **per-wafer revenue** 比较中，**DDR5 64GB RDIMM 在 2026 Q1 已超过 HBM**；其估算的 HBM profitability 也因此低于 DDR5 64GB RDIMM。来源：https://www.trendforce.com/presscenter/news/20260602-13074.html
+
+这属于 **B 级机构估算**，不是 Samsung、SK hynix 或 Micron 披露的产品级实际毛利率。但它揭示一个重要反馈机制：
+
+```text
+HBM / AI demand 上升
+→ conventional DRAM residual supply 收紧
+→ DDR5 / RDIMM price 上升
+→ conventional DRAM per-wafer economics 改善
+→ 继续向 HBM 转产的相对激励下降
+→ memory vendor 重新平衡 product mix
+```
+
+因此，AI Resource Gravity 不是无限的单向抽水机。价格、长期合同、qualification、yield、generation transition 与客户结构会共同决定 memory allocation。真正需要监控的是不同产品的**风险调整后单位稀缺资源回报**，而不是假设 HBM 永久拥有固定利润倍数。
+
 ## 6. Rack-scale demand 的数量级
 
 GB200 NVL72：
