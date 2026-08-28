@@ -1,13 +1,13 @@
 # AI基础设施霸权时代
 ### The Age of AI Infrastructure Hegemony
 
-行业深度研究专著，共四十卷，并附八篇宏观专题文章。
+行业深度研究专著。当前仓库保留 **40 个分卷研究模块 + 8 篇宏观专题**作为研究层；最终出版版按 **4 Part / 约32章**重新组织连续阅读结构，详见[《出版版结构》](出版结构.md)。
 
 [English release page](README.md) · [English edition index](en/README.en.md) · [Release notes](RELEASE_NOTES.md)
 
 > **中文 `main` 研究正文仍是事实、证据等级与分析口径的 source of truth；英文版作为对外发布主入口，与中文版本保持同一套 F → H → M → S → X 架构。**
 
-> 英文 **40 卷 + 8 篇宏观文章** 已完成全库出版 QA；高风险旧译稿已按中文当前结构重新编辑，低风险卷经回归后保留。英文发布页、卷标题、宏观文章标题与双语导航已同步。
+> 英文研究层 **40 卷 + 8 篇宏观文章** 已完成全库证据与文本 QA；当前进一步进行出版层重编。研究模块继续保留稳定编号，最终连续阅读版按统一 Part/Chapter 结构合并去重。
 
 本报告基于公开法定申报、公司官方材料、监管文件、正式合同披露与高质量机构研究。已经发生的内容按事实层处理，未来判断明确标注为假设、机制或情景。当前资料检索截止 **2026-08-27**；本文不构成审计意见、投资建议或法律意见。
 
@@ -23,7 +23,7 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 - **“总供给增长”不等于“非AI行业恢复供应”**：本报告用 Non-AI Residual Capacity 区分总供给、AI吸收和消费/传统行业真正拿到的残量。
 - **HBM 的物理代价已经有一手锚**：Micron 官方披露，在相同技术节点、生产相同比特时，HBM3E 大约需要 DDR5/D5 **3× wafer supply**；这不是售价倍数，也不是所有世代固定常数。[Micron FY24 Q3 Prepared Remarks](https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564)。
 - **模型公司正在从租户变成基础设施锚定买方**：OpenAI [Stargate](https://openai.com/index/announcing-the-stargate-project/) 与 Anthropic [最高 5 GW 的 AWS 新算力协议](https://www.anthropic.com/news/anthropic-amazon-compute?lang=us) 说明，长期模型需求正在反向塑造云、芯片、电力和融资。
-- **电力是独立于晶圆、封装、存储之外的另一条物理配额**：NVIDIA 官方文档给出 GB200/GB300 NVL72 级机柜约 **120 kW** 功率（[NVIDIA](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)）；Constellation/Microsoft Crane 重启项目约 **835 MW**（[Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)）；Talen 2026 Q2 文件确认 AWS 新版 PPA 最高 **1,920 MW = 1.92 GW**，并于 2026 年 4 月完成新版 PPA 切换（[SEC](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)）；Google/Kairos 公开协议最高 **500 MW**（[Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)）。合同容量、建设进度、上电容量和真实利用率必须分开。
+- **电力是独立于晶圆、封装、存储之外的另一条物理配额**：NVIDIA 官方文档给出 GB200/GB300 NVL72 级机柜约 **120 kW** 功率（[NVIDIA](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)）；Constellation/Microsoft Crane 重启项目约 **835 MW**（[Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)）；Talen 2026 Q2 文件确认 AWS 新版 PPA 最高 **1,920 MW = 1.92 GW**，2026 Q2 10-Q 记载 revised-PPA transition occurred in 2026 年 4 月；该状态不等同于全部物理转换或 full delivery 完成（[SEC](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)）；Google/Kairos 公开协议最高 **500 MW**（[Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)）。合同容量、建设进度、上电容量和真实利用率必须分开。
 - **消费电子已经出现可观察的内存价格传导**：TrendForce 公开跟踪显示，2026 Q1 conventional DRAM contract prices 约环比上涨 **93%–98%**；这是 **B 级机构数据**，不能写成厂商官方财报事实。[TrendForce](https://www.trendforce.com/presscenter/news/20260601-13070.html)。AI 软件则必须按推理、检索、工具、人审与 AI 云成本做单位经济，而不是预设固定行业毛利终局。
 - **未来结论不是单点预言**：全书用 S1 竞争性扩容、S2 基准集中、S3 资源霸权、S4 资本硬着陆四类状态，以及 H1–H17 变量持续更新。
 
@@ -47,7 +47,8 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 5. [核心参考文献索引](核心参考文献索引.md)
 6. [核心概念与模型索引](核心概念与模型索引.md)
 7. [核心假设矩阵（2026—2036）](核心假设矩阵.md)
-8. 按 [机制索引](机制索引.md) 跳
+8. [出版版结构：4 Part / 约32章](出版结构.md)
+9. 按 [机制索引](机制索引.md) 跳
 
 
 四云资本开支是全集团设备购置，不是「AI 硬件」分项，口径见 [四云 Capex 核对](四云Capex口径核对.md)。高影响命题的一手/机构来源见 [核心参考文献索引](核心参考文献索引.md)；外部公开研究用于方法校准和反方对照，见 [外部研究对照索引](外部研究对照索引.md)。
@@ -69,7 +70,9 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 
 核心不是简单份额垄断，而是**稀缺段的超额价值捕获与新增产能分配权**。预付款和长期订单可以提前锁下一代；增量正在向高性能计算倾斜。真正需要观察的不是全球总产能，而是 AI 吸收之后留给手机、电脑、传统服务器和其他行业的**有效残量**。中国栈必须分层讨论；云自研下一代公开规格仍大量依赖先进节点、先进封装和高带宽内存。电力是独立于芯片、封装、存储之外的另一条物理约束。反垄断调查在，起诉与拆分不能提前写成事实。
 
-## 四十卷
+## 研究模块索引：四十卷（稳定编号）
+
+> 以下卷号用于事实回溯、Git 历史、issue 纠错和双语镜像，**不是最终出版顺序**。连续阅读请按[出版版结构](出版结构.md)。
 
 - [第一卷：执行摘要与未来十年核心判断](vol-01.md)
 - [第二卷：NVIDIA 平台支配力与系统栈护城河](vol-02.md)
@@ -112,7 +115,9 @@ X / 社交媒体发布底稿见 [en/SHARE.md](en/SHARE.md)。版本变更见 [Re
 - [第三十九卷：AI 时代教育与人才体系——从模型使用到系统工程能力](vol-39.md)
 - [第四十卷：总战略结论——未来十年的个人、企业、资本与国家选择](vol-40.md)
 
-## 宏观八篇
+## 宏观专题索引：八篇（出版时并入主章节）
+
+> 八篇宏观专题保留为研究与交叉验证资产；最终出版物不在40卷之后重复追加整组长文，而是将其独有数据、公式与跨卷推演吸收到对应出版章节。
 
 - [第一篇：生产资料革命与总体判断](part2-01.md)
 - [第二篇：算力平台集中与 NVIDIA 软硬件系统权力深度拆解](part2-02.md)
