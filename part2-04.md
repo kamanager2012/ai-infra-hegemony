@@ -14,7 +14,7 @@
 
 历史压力测试写 2024 年四云 Capex $2,150 亿，年化硬件折旧 $450 亿–$550 亿。分项：亚马逊 $777 亿，Alphabet $525 亿，微软突破 $550 亿，Meta $309 亿。
 
-历史压力测试曾给出一组 2026 年压力测试表（研究假设，并非公司披露）：Amazon $2,000 亿（硬件 $1,300 亿 / 电与土建 $700 亿 / 年折旧约 $325 亿 / 需增量收入 >$450 亿）；Google $1,900 亿（$1,330 / $570 / ~$332 / >$420）；Microsoft $1,500 亿（$1,020 / $480 / ~$255 / >$380）；Meta $1,300 亿（$975 / $325 / ~$243 / >$300，主要靠广告）。合计硬件约 $4,625 亿，电与土建约 $2,075 亿，年折旧约 $1,155 亿，需全行业年化增量 AI 收入 $1,550 亿以上。对照当时企业端增量约 350–500 亿，缺口 600–800 亿。
+历史压力测试曾给出一组 2026 年压力测试表（研究假设，并非公司披露）：Amazon $2,000 亿（硬件 $1,300 亿 / 电与土建 $700 亿 / 年折旧约 $325 亿 / 需增量收入 >$450 亿）；Google $1,900 亿（$1,330 / $570 / ~$332 / >$420）；Microsoft $1,500 亿（$1,020 / $480 / ~$255 / >$380）；Meta $1,300 亿（$975 / $325 / ~$243 / >$300，主要靠广告）。合计硬件约 $4,625 亿，电与土建约 $2,075 亿，年折旧约 $1,155 亿，需全行业年化增量 AI 收入 $1,550 亿以上。若仍按该历史压力测试的“需全行业年化增量 AI 收入 1,550 亿美元以上”口径，对照当时企业端增量约 350–500 亿美元，算术缺口应为 **1,050–1,200 亿美元**。若改用 1,155 亿美元年折旧作为比较基准，则对应缺口才约为 **655–805 亿美元**；两种分母不得混用。
 
 历史压力测试另一条算式：Capex $7,500 亿 × 65% / 4 年 = $1,218.75 亿硬件折旧；电费运维 $0.08/kWh、PUE=1.2，约 $280 亿；保本需超过 $1,500 亿净回收。Token 矩阵把用量 +50% / +150% / +300% 与单价持平 / 跌 30% / 跌 50%（DeepSeek 效应）交叉，只有用量 +300% 且单价不崩，才写成「正常商业回报」。
 
@@ -36,7 +36,7 @@ DeepSeek-V3 一手训练锚：671B total parameters、37B activated parameters�
 
 Alphabet 日历年科目是 Purchases of property and equipment。Q4/全年 2025 Exhibit 99.1 写全年 $(91,447) 百万，对照 2024 年 $(52,535) 百万。出处：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm 。Q4 2025 业绩说明当时给 2026 年指引 **US$175–185B**；随后在 **2026-04-29 Q1 earnings call** 上调为 **US$180–190B**。到 2026 Q2，公司又进一步将 guidance 上调至 **US$195–205B**。三档都是 company guidance，不是 actual；旧区间只能作为带日期的历史节点，不能继续写成截至 2026 年 8 月的“当前口径”，也不能与另外三家不同截止日/科目的数字直接加总。
 
-Meta 主表用 Purchases of property and equipment；公司口头 capex 还加 Principal payments on finance leases。2025 全年设备购置 $(69,691) 百万，融资租赁本金 $(2,524) 百万，公司口径 $72.215 亿（稿上写 $72.22 billion）；2024 年设备 $37,256 百万 + 租赁 $1,969 百万 = $39.225 亿。出处：https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx 。核对文件采用的 2026 年指引是年报当时的 $115–$135 亿（含融资租赁本金）。之后官方 Outlook 上调并收窄：Q2 2026 写成 $130–$145 亿。上调是指引，不是已发生。
+Meta 主表用 Purchases of property and equipment；公司口头 capex 还加 Principal payments on finance leases。2025 全年设备购置 $(69,691) 百万，融资租赁本金 $(2,524) 百万，公司口径 **US$72.215B**（约 **722.15 亿美元**；公司稿写 US$72.22 billion）；2024 年设备 US$37.256B + 租赁 US$1.969B = **US$39.225B**。出处：https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx 。核对文件采用的 2026 年指引是年报当时的 $115–$135 亿（含融资租赁本金）。之后官方 Outlook 上调并收窄：Q2 2026 写成 $130–$145 亿。上调是指引，不是已发生。
 
 按可复加口径，2025 实际（微软仍是 FY2025，其余 CY2025）：设备购置、亚马逊净额、Meta 不加租赁，64,551 + 128,320 + 91,447 + 69,691 = $354,009 百万（约 $3,540 亿）；Meta 用公司口径则约 $3,565 亿。这已经不是 $2,150 亿。不能把 2024 混年汇总句和 2025 实际写成同一事实。截至 2026 年 8 月，Microsoft 在 2026-07-29 将 calendar-2026 报表口径 CapEx expectation 调整为约 **US$175B**（lease classification 改变；underlying investment expectation unchanged），Alphabet Q2 earnings-call guidance 为 **US$195–205B**，Meta Q2 guidance 为 **US$130–145B**（含 finance-lease principal），Amazon 截至 2026-06-30 的 TTM PPE net purchases actual 为 **US$169.007B**。四者规模继续抬升，但时间窗和会计科目仍不一致，因此不能直接复加成统一AI硬件总额。
 
