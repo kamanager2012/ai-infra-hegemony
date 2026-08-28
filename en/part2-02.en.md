@@ -32,6 +32,8 @@ NVIDIA's official GB200 NVL72 materials specify:
 - a **72-GPU NVLink domain**;
 - liquid-cooled rack-scale architecture.
 
+Source: NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+
 NVIDIA also describes the system as operating like a single massive GPU.
 
 The strategic implication is not one promotional performance multiple.
