@@ -4,7 +4,7 @@
 
 当 AI rack power density 进入约 **120 kW/rack** 级别后，data center 建设逻辑发生变化。
 
-约 500 个按 **120 kW/rack** 设计的 GB200 NVL72 rack，对应约 **60 MW 的 rack-level full-load power**。这里的 120 kW 是 NVIDIA 对整柜功耗的官方口径，包含 compute nodes 与 rack components（如 switches / interconnects），不能写成纯 IT compute load。来源：https://docs.nvidia.com/mission-control/docs/systems-administration-guide/2.0.0/prs/faq.html 。
+**D 级情景算术：**约 500 个按 **120 kW/rack** 设计的 GB200 NVL72 rack，对应约 **60 MW 的 rack-level full-load power**。该乘算只说明数量级压力，不代表实际已部署 500 柜或 60 MW 已上电。这里的 120 kW 是 NVIDIA 对整柜功耗的官方口径，包含 compute nodes 与 rack components（如 switches / interconnects），不能写成纯 IT compute load。来源：https://docs.nvidia.com/mission-control/docs/systems-administration-guide/2.0.0/prs/faq.html 。
 
 这意味着 AI infrastructure 的交付不再只取决于：
 
@@ -62,9 +62,9 @@ Microsoft 与 Constellation 的长期 PPA 对应约 **835 MW** 核电机组重�
 
 Talen/AWS 新版 PPA 最高可扩展至 **1.92 GW**。
 
-Talen 已确认 2026 年 4 月完成向新版 **front-of-the-meter** 结构转换。
+Talen 2026 Q2 10-Q 写明，向 revised AWS PPA 的 transition **occurred in April 2026**；较早的 2025 10-K 则曾描述为 spring 2026 开始 transitioning、**full transition expected in spring 2027**。因此，April 2026 应理解为 revised-PPA transition 状态更新，不能写成全部物理转换与供电交付已经完成。
 
-因此，未来关键变量不再是“是否会转换”，而是：
+后续关键变量仍是：
 
 - contract ramp；
 - energized MW；
@@ -73,9 +73,9 @@ Talen 已确认 2026 年 4 月完成向新版 **front-of-the-meter** 结构转�
 
 这也是报告在能源分析中最重要的状态更新之一。
 
-## 5. Google / Kairos：最高 500 MW 的 SMR 路线
+## 5. Google / Kairos：2030 首个 50 MWe、2035 fleet up to 500 MWe
 
-Google 与 Kairos 的开发协议目标合计最高约 **500 MW**。
+Google 与 Kairos 的公开路径是：**Hermes 2 up to 50 MWe in 2030**，随后 fleet **up to 500 MWe by 2035**。
 
 与既有核电站重启不同，SMR 属于更长期的供给路线。
 
@@ -137,7 +137,7 @@ packaging bottleneck 缓解
 
 AI data center 的核心约束通常是局部节点。
 
-全国发电装机充足，并不意味着某个园区可以在 18 个月内获得 100 MW。
+全国发电装机充足，并不意味着某个园区能够在任意给定的短期窗口内获得 **100 MW 级**可交付电力；具体 time-to-power 必须由当地 interconnection、变电站、输电和许可进度逐项目核验。
 
 真正重要的是：
 
@@ -152,7 +152,7 @@ AI data center 的核心约束通常是局部节点。
 
 ## 9. Power contract 与 hardware depreciation 的期限错配
 
-AI server 可能在数年内快速迭代，而大型 power infrastructure 可以持续 10–20 年以上。
+AI server 可能在数年内快速迭代，而大型 power infrastructure 与长期 PPA 的期限往往更长；例如 Microsoft / Constellation 的 Crane 安排公开为 **20 年 PPA**。
 
 因此存在 duration mismatch：
 
