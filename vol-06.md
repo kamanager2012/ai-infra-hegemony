@@ -22,13 +22,17 @@
 
 DeepSeek-V3 等架构的重要意义，不是证明“前沿模型已经不需要昂贵算力”，而是说明算法能够显著改变单位任务的 compute、memory 与 communication 需求。
 
-DeepSeek-V3 技术材料报告约：
+DeepSeek-V3 Technical Report 披露：
 
 - 671B total parameters；
 - 37B activated parameters；
-- 2.788M H800 GPU-hours for pre-training。
+- 14.8T pre-training tokens；
+- pre-training compute：**2.664M H800 GPU-hours**；
+- full training compute：**2.788M H800 GPU-hours**。
 
-若以 **US$2/GPU-hour** 进行报告侧租金换算，则约为 **US$5.576M**。这一数字属于技术报告中的 formal-training compute conversion，不等于 DeepSeek 实际完整现金支出，也不包括完整研发、数据、实验、失败训练和基础设施成本。
+若以论文采用的 **US$2/GPU-hour** 口径对 **full training 2.788M GPU-hours** 做租金换算，则约为 **US$5.576M**。这一数字属于论文侧 formal-training compute conversion，不等于 DeepSeek 实际完整现金支出，也不包括完整研发、数据、实验、失败训练和基础设施成本。
+
+来源：https://arxiv.org/abs/2412.19437
 
 这种案例真正说明的是：
 
@@ -41,6 +45,10 @@ DeepSeek-V3 技术材料报告约：
 自回归推理经常受到 memory bandwidth 与 KV cache 限制，而不只是 peak FLOPS 限制。
 
 Multi-head Latent Attention（MLA）等设计通过压缩 KV 表示，可以显著降低长上下文推理的 memory footprint。
+
+DeepSeek-V2 相对 DeepSeek 67B 报告了约 **93.3% KV-cache reduction** 与约 **5.76× maximum generation throughput**。这两个数字属于 **DeepSeek-V2**，不是 DeepSeek-V3 的独立实验结果。
+
+来源：https://github.com/deepseek-ai/DeepSeek-V2
 
 这类优化会产生三个直接结果：
 
@@ -157,4 +165,5 @@ Revenue per task > Total cost per task
 
 ## 本卷关键公开来源
 
-- DeepSeek-V3 Technical Report（2.788M H800 GPU-hours；报告侧 US$2/GPU-hour → US$5.576M formal-training compute conversion）： https://arxiv.org/abs/2412.19437
+- DeepSeek-V3 Technical Report（pre-training 2.664M H800 GPU-hours；full training 2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
+- DeepSeek-V2（93.3% KV-cache reduction；5.76× maximum generation throughput，relative to DeepSeek 67B）： https://github.com/deepseek-ai/DeepSeek-V2
