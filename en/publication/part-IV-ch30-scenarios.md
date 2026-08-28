@@ -126,6 +126,27 @@ S4 does not mean AI usage disappears.
 
 After capital clearing, cheaper compute can still stimulate new applications.
 
+## 5A. AI Capacity Gap: a cross-scenario diagnostic axis
+
+S1–S4 remain parallel conditional states. The report does not introduce a second scenario taxonomy. Instead, it adds a cross-scenario diagnostic variable:
+
+```text
+AI_Capacity_Gap_i(t)
+= Growth(AI_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
+
+where (i) is a physical layer such as advanced logic, HBM/DRAM, advanced packaging, networking, or power. Layer-level gaps can move in opposite directions, so they must not be collapsed prematurely into one “global AI capacity gap.”
+
+Interpretation:
+
+- **persistent Gap > 0 across several critical layers:** scarcity remains strong and relative weight shifts toward S2 / S3;
+- **critical-layer gaps converge toward zero while multi-sourcing and substitution improve:** relative weight shifts toward S1;
+- **Gap < 0 while utilization remains healthy:** supply is loosening, but this is not by itself S4;
+- **Gap < 0 + falling utilization + weaker clearing prices + shrinking commitments:** the combined evidence materially raises S4 weight.
+
+AI Capacity Gap must be read together with Non-AI Residual Capacity. The former asks how much incremental supply AI still lacks; the latter asks how much effective capacity remains for non-AI demand after priority allocation.
+
 ## 6. Five variable classes determine scenario structure
 
 ### Supply
