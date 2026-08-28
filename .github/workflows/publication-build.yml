@@ -8,6 +8,9 @@ on:
       - "en/publication/**"
       - "scripts/build_publication.py"
       - "scripts/publication-header.tex"
+      - "scripts/check-materialized-publication.py"
+      - "dist/publication.zh.md"
+      - "dist/publication.en.md"
       - ".github/workflows/publication-build.yml"
 
 permissions:
@@ -42,6 +45,11 @@ jobs:
           python3 scripts/build_publication.py
           test -s dist/publication.zh.md
           test -s dist/publication.en.md
+
+      - name: Validate committed materialized sources
+        run: |
+          python3 scripts/check-materialized-publication.py
+          git diff --exit-code -- dist/publication.zh.md dist/publication.en.md
 
       - name: Build Chinese PDF
         run: |
