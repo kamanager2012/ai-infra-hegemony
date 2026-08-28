@@ -24,7 +24,7 @@ That is the microeconomic mechanism behind an infrastructure bubble.
 
 Microsoft, Amazon, Alphabet, and Meta report different capital-spending categories and use different fiscal windows.
 
-On a mixed-year 2025 basis, comparable PPE/equipment purchases reached roughly **$354B** in aggregate scale.
+As a **D-grade mixed-window reconstruction**, comparable 2025 PPE/equipment purchases reached roughly **$354B** in aggregate scale; it is not a same-period jointly reported AI CapEx actual.
 
 That number is useful as evidence that buyer-side capital intensity has risen sharply.
 
@@ -40,9 +40,9 @@ The report therefore tracks the four companies individually.
 
 NVIDIA represents the seller side.
 
-FY26 free cash flow was **$96.575B**.
+FY26 free cash flow was **$96.575B**. Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 
-FY27 Q2 GAAP operating income was **$63.734B**, with Data Center revenue of **$89.0B** and GAAP gross margin of **75.0%**.
+FY27 Q2 GAAP operating income was **$63.734B**, with Data Center revenue of **$89.0B** and GAAP gross margin of **75.0%**. Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 
 The hyperscalers represent major buyer-side balance sheets.
 
@@ -76,7 +76,7 @@ Servers, buildings, grids, and power contracts do not share one useful life.
 
 NVIDIA's revenue and free cash flow should not be netted against hyperscaler PPE as though they were two sides of one consolidated statement.
 
-A useful first-party buyer-side anchor is Microsoft's FY25 **$34.153B** of depreciation, amortization, and other.
+A useful first-party buyer-side anchor is Microsoft's FY25 **$34.153B** of depreciation, amortization, and other. Source: https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm
 
 The report does not construct an unsupported four-cloud depreciation total from mixed accounting categories.
 
