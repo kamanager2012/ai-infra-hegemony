@@ -22,17 +22,17 @@
 
 ## 3. OpenAI Stargate：从 nominal commitment 到 secured / construction state
 
-OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。
+OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。[^1]
 
 随后官方把长期目标描述为到 2029 年确保 10 GW 美国 AI infrastructure。
 
-状态继续前移：OpenAI 在 **2026-04-29** 表示已**超过 10 GW secured-capacity milestone**，并称此前 90 天新增超过 3 GW；**2026-06-01**，Michigan 的 **1 GW The Barn** data-center campus 正式破土。
+状态继续前移：OpenAI 在 **2026-04-29** 表示已**超过 10 GW secured-capacity milestone**，并称此前 90 天新增超过 3 GW；[^2] **2026-06-01**，Michigan 的 **1 GW The Barn** data-center campus 正式破土。[^3]
 
 这些状态必须区分：commitment / secured capacity / construction / energized capacity / utilization。超过 10 GW secured 不等于 10 GW 已全部上电运行。
 
 ## 4. Anthropic / AWS：Anchor Workload 也能推动 Custom Silicon
 
-Anthropic 在 2026-04 官方披露：
+Anthropic 在 2026-04 官方披露：[^4]
 
 - 对 AWS technologies 的未来十年 commitment **>US$100B**；
 - 可获得 **up to 5 GW** capacity；
@@ -103,9 +103,9 @@ OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的
 
 这使 Anchor Buyer commitments 成为 S2/S3 expansion 与 S4 capital clearing 之间的重要 leading indicator。
 
-## 关键公开来源
+## References
 
-- OpenAI — Announcing The Stargate Project: https://openai.com/index/announcing-the-stargate-project/
-- OpenAI — Building the compute infrastructure for the Intelligence Age（2026-04-29；surpassed 10 GW milestone）: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
-- OpenAI — Michigan 1 GW The Barn groundbreaking（2026-06-01）: https://openai.com/index/stargate-michigan-data-center/
-- Anthropic / AWS — >US$100B over ten years; up to 5 GW; >1M Trainium2: https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^1]: OpenAI, “Announcing The Stargate Project,” 2025-01, https://openai.com/index/announcing-the-stargate-project/
+[^2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+[^3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
+[^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
