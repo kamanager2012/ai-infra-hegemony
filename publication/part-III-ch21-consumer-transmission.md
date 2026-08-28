@@ -67,6 +67,16 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 因此，AI resource pressure 更可能先表现为**升级税**：同样价格获得更慢的规格升级，或者相同规格需要更高 BOM。
 
+### 6.1 Supply Assurance 是独立变量
+
+在极端紧缺期，终端厂商面对的不只是 ASP 上升，还可能是 **allocation fulfillment 不足**。TrendForce 2026-03 指出，allocation 较低的 PC OEM / module maker 需要以更高价格从供应商或模组厂补货；2026-05 的 smartphone research 也指出 full-year allocation 收紧，品牌需要更谨慎地管理 LTA 与库存。
+
+因此，分析必须把：
+
+> **price pressure** 与 **quantity assurance**
+
+分开。价格可以上涨而 supply 仍然不足；愿意支付更高价格，也不保证能拿到计划所需数量。
+
 ## 7. Channel Price 只是温度计，Institutional Contract Price 更接近产业层
 
 渠道现货可以证明消费者/装机市场在某时点承受压力，但不能反推出 vendor contract ASP 或 long-duration agreements。
@@ -81,13 +91,37 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 因此，本地替代可以改变 smartphone / PC cost structure，却不会自动解除 frontier AI 的 HBM / advanced-packaging bottleneck。
 
-## 9. Automotive / Robotics 的成本结构必须独立分析
+## 9. Automotive / Industrial：成熟存储也会被高价值产品重排
 
-汽车具有更长 qualification cycle；机器人则依赖 actuator、reducer、sensor、battery 与 manufacturing。
+汽车与工业设备具有更长 qualification cycle，但这不意味着它们不受 AI 时代 product-mix 重排影响。
 
-它们不会与 smartphone/PC 以相同节奏承受冲击。
+TrendForce 2026-06 指出，主要 memory suppliers 把 capacity 继续向 HBM 与高层数 3D NAND 等高价值产品倾斜，挤压 NOR Flash 与 SLC NAND 的成熟产能；1H26 两类产品合约价累计涨幅均超过 100%。到 2026-07，TrendForce 又把 2H26 SLC NAND 相对 1H26 的涨幅预期提高到 **120–170%**，汽车、工业、networking 都是主要受影响客户。
 
-因此，本书不使用统一 consumer-BOM inflation 百分比，也不把某一机器人 BOM 模板当作跨行业事实。
+这里能确认的是**具体 mature-memory 品类的结构性短缺与涨价**，不能把它扩大成“所有车规存储涨180%”“单车成本增加7000–10000元”或“全年供应满足率不足50%”这类未经一手/机构来源闭合的整车结论。
+
+## 9.1 Routers / Broadband：低议价买家是更清晰的受害层
+
+Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。
+
+这条证据很重要，因为它说明：
+
+> **resource crowding-out 的损伤强度，与终端厂商的议价权和 supply assurance 高度相关。**
+
+大客户可以通过 LTA、规模采购和更强资产负债表缓冲冲击；低议价 OEM 更容易同时承受 higher price + lower allocation。
+
+## 9.2 HDD 与 SSD：不是单向“SSD 消灭 HDD”
+
+AI data-center storage 正在形成分层竞争。
+
+TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量 QLC nearline SSD 的替代加速；但 Seagate FY26 又明确表示，AI 产生的数据增长正在强化 mass-capacity storage demand。
+
+因此更准确的结构是：
+
+- latency / inference-sensitive workload 提高 SSD / QLC nearline SSD 的吸引力；
+- cold / mass-capacity storage 仍然给 HDD 带来真实需求；
+- HDD supply / HAMR ramp 本身也可能形成新的 storage bottleneck。
+
+所以不能写成“AI 数据中心正在让机械硬盘失去战略意义”。
 
 ## 10. 实体企业还有第二层 AI Adoption Cost
 
@@ -116,3 +150,9 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 - Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA FY27 Q1 CFO commentary — consumer PC demand tempered by elevated memory and systems prices: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
 - TSMC 4Q25 Presentation: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- TrendForce 2026-03-31 — lower allocation fulfillment forces buyers to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
+- TrendForce 2026-06-16 — NOR Flash / SLC NAND 1H26 contract-price increases >100%, mature-capacity squeeze: https://www.trendforce.com/presscenter/news/20260616-13102.html
+- TrendForce 2026-07-13 — SLC NAND 2H26 forecast +120–170% vs 1H26; automotive/industrial/networking exposure: https://www.trendforce.com/presscenter/news/20260713-13142.html
+- Counterpoint Research 2026-02-11 — broadband memory prices ~7×; router memory BOM >20% vs ~3%: https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
+- TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
+- Seagate FY26 results — AI/cloud data generation supports mass-capacity HDD demand: https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
