@@ -34,9 +34,9 @@ long-duration model demand
 
 ## 3. OpenAI Stargate
 
-OpenAI Stargate 的公开目标是未来数年在美国建设大规模 AI infrastructure，目标规模为 **US$500B / 10 GW**。
+OpenAI 在 2025-01 启动 Stargate 时宣布，计划在未来四年内在美国投资 **US$500B** 建设 AI infrastructure。随后官方把同一长期目标表述为到 2029 年确保 **10 GW** 美国 AI infrastructure。
 
-OpenAI 在 2025-10 进一步披露，Stargate 已达到 **>8 GW planned capacity**、**>US$450B planned investment over the next three years**；到 2026-06，Michigan 的 **1 GW** The Barn data-center campus 已正式破土。
+状态已经继续前移：2026-04-29，OpenAI 官方称 Stargate 已**超过 10 GW secured-capacity milestone**，且此前 90 天新增超过 3 GW；2026-06-01，Michigan 的 **1 GW** The Barn data-center campus 已正式破土。
 
 这类项目的战略意义在于：
 
@@ -191,4 +191,6 @@ Anchor Buyer model 也会放大风险。
 ## 本卷关键公开来源
 
 - Anthropic / AWS compute partnership（>US$100B over 10 years；up to 5 GW；>1M Trainium2）：https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-- OpenAI — Announcing The Stargate Project（US$500B / 10 GW long-run framework）：https://openai.com/index/announcing-the-stargate-project/
+- OpenAI — Announcing The Stargate Project（US$500B over four years）：https://openai.com/index/announcing-the-stargate-project/
+- OpenAI — Building the compute infrastructure for the Intelligence Age（2026-04-29；surpassed 10 GW milestone）：https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+- OpenAI — Building the infrastructure for the Intelligence Age in Michigan（2026-06-01；1 GW The Barn groundbreaking）：https://openai.com/index/stargate-michigan-data-center/
