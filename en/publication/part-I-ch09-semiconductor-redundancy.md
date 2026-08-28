@@ -16,7 +16,7 @@ Supply security for an accelerator designer is therefore not determined by chip 
 
 ## 2. ASML shows that equipment itself is a system-level capability
 
-ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. Its High-NA TWINSCAN EXE platform remained in customer qualification toward high-volume manufacturing.
+ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. Its High-NA TWINSCAN EXE platform remained in customer qualification toward high-volume manufacturing.[^1]
 
 ASML stated that by the end of 2025 customers had run more than **400,000 wafers** on High-NA systems while work continued toward high-volume-manufacturing qualification.[^1]
 
