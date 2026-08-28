@@ -112,7 +112,7 @@ Cloud pricing, however, embeds accelerator, memory, networking, data-center, and
 
 If hyperscaler custom stacks lower real system TCO, part of that benefit can transmit over time through instance or API pricing into the application layer.
 
-Infrastructure competition around TPU, Trainium, and other systems therefore affects software contribution margin as well as the chip market.
+Infrastructure competition around Google Ironwood TPU, AWS Trainium3, and other systems therefore affects software contribution margin as well as the chip market.[^1][^2]
 
 ## 9. Human review is an often-underestimated variable cost
 
@@ -150,9 +150,14 @@ The dividing line is:
 
 > **who can convert model calls into repeatable, verifiable, low-failure, monetizable business outcomes.**
 
-## Core evidence navigation
+## References
 
-- [Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md) — first-party / technical evidence for DeepSeek V2/V3, algorithmic efficiency, and demand elasticity.
-- [Chapter 12: Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) — cloud custom silicon, system TCO, and compute-cost transmission.
-- [Chapter 20: Value Capture Map](part-III-ch20-value-capture-map.md) — application-layer value capture, workflow monetization, and infrastructure-cost transmission.
-- [Chapter 25: AI and Labor Markets](part-III-ch25-labor-market.md) — human-review and responsibility constraints on real automation economics.
+[^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
+[^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+
+## Cross-references
+
+- [Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
+- [Chapter 12: Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
+- [Chapter 20: Value Capture Map](part-III-ch20-value-capture-map.md)
+- [Chapter 25: AI and Labor Markets](part-III-ch25-labor-market.md)
