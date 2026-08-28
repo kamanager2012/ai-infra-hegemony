@@ -31,7 +31,7 @@ A frontier AI system depends on several physical layers:
 
 Failure or tightness at any one layer can limit total system delivery.
 
-Micron's FY24 Q3 prepared remarks use an **industrywide, same-node, same-bits** scope: HBM3E requires roughly **3× the wafer supply of DDR5**. That shows how HBM can amplify DRAM wafer pressure, but it is not a fixed Micron-specific constant.
+Micron's FY24 Q2 prepared remarks use an **industrywide, same-node, same-bits** scope: HBM3E requires roughly **3× the wafer supply of DDR5**. That shows how HBM can amplify DRAM wafer pressure, but it is not a fixed Micron-specific constant.
 
 TSMC's first-party statements on advanced-packaging tightness show that packaging is not merely a supporting process; it can directly limit customer growth.
 
@@ -262,4 +262,4 @@ It is defining in advance:
 
 ## Key public sources for this volume
 
-- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
