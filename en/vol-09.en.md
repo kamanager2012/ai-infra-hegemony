@@ -23,7 +23,7 @@ The correct question is which non-AI products share the same scarce layer, and h
 
 Consumer GPUs and data-center accelerators share parts of the advanced manufacturing system.
 
-NVIDIA has publicly disclosed Gaming supply constraints in prior periods, showing that consumer GPU supply is not completely insulated from Data Center allocation.
+NVIDIA's FY26 10-K provides the more defensible factual anchor: FY26 Gaming revenue was **US$16.0B, up 41% YoY**, while management expected **Gaming supply constraints to remain a headwind in FY27 Q1 and beyond**. This establishes gaming-side supply pressure, but it does **not** establish that Data Center allocation was the sole or direct cause of those constraints. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm .
 
 PCs also face a second transmission path:
 
@@ -34,7 +34,7 @@ PCs also face a second transmission path:
 
 PCs can therefore face both:
 
-- GPU-allocation pressure;
+- GPU-side supply pressure;
 - memory-residual pressure.
 
 The impact may appear through availability, configuration, or pricing rather than an outright halt in shipments.
@@ -43,7 +43,7 @@ The impact may appear through availability, configuration, or pricing rather tha
 
 General servers do not necessarily use HBM, but they consume large amounts of DDR5 RDIMM.
 
-TrendForce estimates that **HBM + RDIMM represent approximately 51% of 2026 DRAM bits**.
+TrendForce estimates that **HBM + RDIMM represent approximately 51% of 2026 DRAM bit supply**. This is a **2026E institutional forecast**, not an observed full-year actual.
 
 That means general-server memory already sits inside a memory pool strongly shaped by AI and server demand.
 
@@ -175,4 +175,6 @@ Only if several of these weaken together should the transmission mechanism be up
 
 ## Key public sources for this volume
 
-- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- NVIDIA FY26 10-K — Gaming revenue and supply-constraint commentary: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply (forecast): https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TSMC 4Q25 presentation — smartphone platform 29% of revenue; +11% YoY platform-revenue growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
