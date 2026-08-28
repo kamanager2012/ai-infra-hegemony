@@ -1,7 +1,5 @@
 # Part II · 第18章：反垄断、产业政策与 AI 平台权力边界
 
-> **出版层章节。** 以 [vol-11](../vol-11.md) 为主源，并按 2026 年公开监管程序更新边界。本章不预测罚款，也不把媒体“监管关注”升级为正式法律状态；真正进入情景模型的是 **interface openness、tying restriction、interoperability、supply rules 与 structural / conduct remedy**。
-
 ## 1. System-stack power 给传统相关市场分析带来新难题
 
 AI platform 的力量可能同时分布在 accelerator、interconnect、compiler/runtime、rack reference architecture、deployment software、cloud channel 与 adjacent model products。
