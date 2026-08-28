@@ -5,7 +5,9 @@
 ### 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构
 
 **作者：** James（kamanager2012）  
-**版本：** Publication QA Edition  
+**版本状态：** Pre-release Publication QA Edition  
+**目标版本：** v1.0.0（尚未发布）  
+**正式发布日期：** 待最终 PDF/EPUB proof 与公开发布完成后锁定  
 **资料检索与修订截止：** 2026-08-28  
 **语言：** 中文主版 / English parallel edition
 
