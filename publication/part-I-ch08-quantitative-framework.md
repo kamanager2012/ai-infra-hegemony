@@ -72,7 +72,7 @@ GB200 NVL72 官方配置为：72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E、
 
 ## 6. HBM trade ratio 会放大 bit-demand 对 wafer input 的压力
 
-Micron FY24 Q3 prepared remarks 给出重要一手边界：在 **industrywide / same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。
+Micron FY24 Q2 prepared remarks 给出重要一手边界：在 **industrywide / same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。
 
 因此，bit demand 与 manufacturing input 不是一一对应。HBM bit share 上升时，对 DRAM wafer / cleanroom input 的压力可能高于 bit share 本身。
 
@@ -203,5 +203,5 @@ AI infrastructure 的瓶颈会轮换，而不是永久固定在同一层。
 - DeepSeek-V2: https://github.com/deepseek-ai/DeepSeek-V2
 - NVIDIA GB200 NVL72 product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 - NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Micron FY24 Q3 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
