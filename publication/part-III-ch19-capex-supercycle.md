@@ -26,7 +26,7 @@ Microsoft、Amazon、Alphabet、Meta 的 infrastructure spending 已处历史高
 **Source:** Microsoft FY26 Q4 earnings materials；Alphabet Q2 2026 company guidance as reported by Reuters（SEC Exhibit 99.1 separately supports Q2 actual results）；Meta 2026 Q2 SEC Exhibit 99.1；Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
 **Note:** 四家公司时间窗和会计口径不同，严禁机械相加为统一 AI hardware CapEx。
 
-这些数据足以证明 infrastructure investment 仍在高位扩张，但不能机械相加：三家是 guidance/expectation，Amazon 是 TTM actual，时间窗与科目都不同。
+这些公开口径共同表明 infrastructure investment 仍处高位，但不能机械相加：三家是 guidance/expectation，Amazon 是 TTM actual，时间窗与科目都不同。
 
 ## 3. 2025 mixed-window aggregate 只能作为 scale anchor
 
