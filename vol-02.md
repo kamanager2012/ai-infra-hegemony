@@ -59,7 +59,7 @@ NVIDIA 的平台控制力可以分成四层。
 
 GPU 仍然是核心计算单元，但产品形态已经从 accelerator card 上移到 integrated system。
 
-FY26 Data Center revenue 为 **US$193.737B**，其中 compute 与 networking 都已经构成重要收入来源。
+FY26 Data Center revenue 为 **US$193.737B**，其中 compute 与 networking 都已经构成重要收入来源。 来源：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 
 ### 3.2 Interconnect
 
