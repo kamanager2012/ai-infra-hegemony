@@ -124,7 +124,7 @@ They can absorb memory pressure even without using frontier accelerators.
 
 Smartphones remain TSMC's second-largest platform.
 
-TSMC's 2025 smartphone revenue share was approximately **29%**, and the platform still grew year over year.
+TSMC's smartphone platform represented **29% of 2025 revenue**; separately, smartphone-platform revenue grew **11% year over year**. The 29% figure is revenue mix, while +11% is platform-revenue growth. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf .
 
 AI has therefore not displaced smartphones.
 
