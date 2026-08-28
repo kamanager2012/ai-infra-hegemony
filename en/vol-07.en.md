@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-07.md](../vol-07.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. NVIDIA's vertical expansion is analyzed here as an expansion of system definition and interfaces, not as proof that every adjacent profit pool has already been internalized.
+> Retrieval and revision cutoff: **2026-08-28**. NVIDIA's vertical expansion is analyzed here as an expansion of system definition and interfaces, not as proof that every adjacent profit pool has already been internalized.
 
 ## 1. The direction of expansion: from accelerator vendor to system platform
 
