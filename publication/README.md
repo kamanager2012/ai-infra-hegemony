@@ -1,75 +1,83 @@
-# AI 行业研究报告 · 32 章总目录
+# AI 行业研究报告 · 中文版
 
-> 这里存放面向连续阅读的 32 章正式研究正文。中文与英文结构均已完成；后续只继续推进研究质量，包括事实语义核验、产业机制深化、章节去重、数据口径统一、反方证据与情景边界。
+## 《AI基础设施霸权时代》
 
-研究范围与证据边界见 [报告说明](00-front-matter.md)；完整结构见 [《研究结构》](../出版结构.md)。
+**研究主题：** 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构  
+**资料检索与修订截止：** 2026-08-28
 
-## 32 章研究结构
+本报告以 32 章连续正文分析 AI infrastructure 从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack 与长期产业结构的影响。
 
-| Part | 正式章节 | 状态 | 合并来源 |
-|---|---|---|---|
-| Part I | [第1章：执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md) | 已形成连续研究正文 | vol-01 |
-| Part I | [第2章：NVIDIA 系统栈与平台权力](part-I-ch02-nvidia-system-stack.md) | 已形成连续研究正文 | vol-02 + vol-32 + macro-02 |
-| Part I | [第3章：AI Resource Gravity 与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md) | 已形成连续研究正文 | vol-03 + vol-09 |
-| Part I | [第4章：TSMC、N2 与先进制造资源分配](part-I-ch04-tsmc-advanced-logic.md) | 已形成连续研究正文 | vol-04 |
-| Part I | [第5章：HBM 与存储资源重构](part-I-ch05-hbm-memory.md) | 已形成连续研究正文 | vol-05 + vol-23 |
-| Part I | [第6章：Advanced Packaging、CoWoS 与系统交付瓶颈](part-I-ch06-advanced-packaging.md) | 已形成连续研究正文 | vol-24 + macro-03 |
-| Part I | [第7章：从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md) | 已形成连续研究正文 | vol-13 + vol-35 + macro-06 |
-| Part I | [第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md) | 已形成连续研究正文 | vol-16 + vol-17 |
-| Part I | [第9章：全球半导体供应链与制造冗余](part-I-ch09-semiconductor-redundancy.md) | 已形成连续研究正文 | vol-34 |
-| Part II | [第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md) | 已形成连续研究正文 | vol-06 |
-| Part II | [第11章：NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md) | 已形成连续研究正文 | vol-07 |
-| Part II | [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) | 已形成连续研究正文 | vol-25 + macro-04 |
-| Part II | [第13章：Anchor Compute Buyer Effect](part-II-ch13-anchor-compute-buyer.md) | 已形成连续研究正文 | vol-26 |
-| Part II | [第14章：Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md) | 已形成连续研究正文 | vol-27 |
-| Part II | [第15章：Physical AI 与机器人系统](part-II-ch15-physical-ai.md) | 已形成连续研究正文 | vol-28 |
-| Part II | [第16章：AMD / Intel / Qualcomm / Apple 的差异化路径](part-II-ch16-differentiated-competitors.md) | 已形成连续研究正文 | vol-33 |
-| Part II | [第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md) | 已形成连续研究正文 | vol-12 + vol-29 + macro-08 |
-| Part II | [第18章：反垄断、产业政策与 AI 平台权力边界](part-II-ch18-antitrust-policy.md) | 已形成连续研究正文 | vol-11 |
-| Part III | [第19章：AI 基础设施 CapEx 超级周期](part-III-ch19-capex-supercycle.md) | 已形成连续研究正文 | vol-08 |
-| Part III | [第20章：Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md) | 已形成连续研究正文 | vol-14 + vol-21 |
-| Part III | [第21章：消费电子与实体经济的成本传导](part-III-ch21-consumer-transmission.md) | 已形成连续研究正文 | vol-22 + macro-05 |
-| Part III | [第22章：折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md) | 已形成连续研究正文 | vol-30 |
-| Part III | [第23章：AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md) | 已形成连续研究正文 | vol-36 |
-| Part III | [第24章：泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md) | 已形成连续研究正文 | vol-37 + macro-07 |
-| Part III | [第25章：AI 与劳动市场——Task-to-Job Translation](part-III-ch25-labor-market.md) | 已形成连续研究正文 | vol-38 |
-| Part III | [第26章：AI 时代教育与人才体系](part-III-ch26-education-talent.md) | 已形成连续研究正文 | vol-39 |
-| Part IV | [第27章：研究方法与证据架构](part-IV-ch27-research-method.md) | 已形成连续研究正文 | vol-18 |
-| Part IV | [第28章：2026–2036 时间线与阶段性里程碑](part-IV-ch28-timeline-2026-2036.md) | 已形成连续研究正文 | vol-19 |
-| Part IV | [第29章：核心指标与证据监测框架](part-IV-ch29-monitoring-framework.md) | 已形成连续研究正文 | vol-31 |
-| Part IV | [第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md) | 已形成连续研究正文 | vol-10 |
-| Part IV | [第31章：2036 终局与战略选择](part-IV-ch31-strategy-endgame.md) | 已形成连续研究正文 | vol-15 + vol-20 + vol-40 |
-| Part IV | [第32章：总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md) | 已形成连续研究正文 | 总判 + macro-01 |
+报告严格区分已经发生的事实、公司 guidance、机构 forecast、本报告 hypothesis / scenario 与 report-side calculation。研究范围、证据边界和免责声明见[报告说明](00-front-matter.md)。
 
-## 当前研究结构
+## 建议阅读路径
 
-- **Part I — 系统权力与物理稀缺：9/9。**
-- **Part II — 需求、替代与第二系统栈：9/9。**
-- **Part III — 资本周期、利润池与外部传导：8/8。**
-- **Part IV — 方法、情景、监测与战略：6/6。**
-- **中文 32 章研究正文：结构完整。**
-- **英文 32 章研究正文：与中文版保持同一研究结构。**
+如果只希望快速理解核心结论：
 
-> `32/32` 只表示研究结构完整，不代表内容无需继续深化。当前重点是提高每一章的研究密度、证据强度、产业逻辑和结论质量。
+1. [第1章：执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
+2. [第32章：总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md)
+3. [第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)
 
-## 研究正文编辑标准
+如果需要核验研究方法与证据边界：
 
-“完成合并”不是把多个 Markdown 文件拼起来，而必须同时满足：
+- [第27章：研究方法与证据架构](part-IV-ch27-research-method.md)
+- [研究透明度、局限性与纠错机制](04-research-transparency.md)
+- [核心证据台账](../核心证据台账.md)
+- [核心参考文献索引](../核心参考文献索引.md)
 
-1. 同一事实表只出现一次；
-2. 同一机制只完整定义一次；
-3. 深拆卷只贡献新增工程、数据、反方或证伪；
-4. 宏观篇只吸收独有公式、BOM、跨卷推演与边界，不重复整段主论证；
-5. 来源跟随事实进入正式章节；
-6. 对话流式短句在研究正文重组为连续段落；
-7. F/H/M/S/X 身份和 A/B/C/D 证据等级不能因合并丢失；
-8. 研究层卷号不改，确保历史链接、issue、引用和双语镜像稳定。
+---
 
-## 四部结构
+## Part I — 系统权力与物理稀缺
 
-- **Part I — 系统权力与物理稀缺**
-- **Part II — 需求、替代与第二系统栈**
-- **Part III — 资本周期、利润池与外部传导**
-- **Part IV — 方法、情景、监测与战略**
+1. [执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
+2. [NVIDIA 系统栈与平台权力](part-I-ch02-nvidia-system-stack.md)
+3. [AI Resource Gravity 与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+4. [TSMC、N2 与先进制造资源分配](part-I-ch04-tsmc-advanced-logic.md)
+5. [HBM 与存储资源重构](part-I-ch05-hbm-memory.md)
+6. [Advanced Packaging、CoWoS 与系统交付瓶颈](part-I-ch06-advanced-packaging.md)
+7. [从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md)
+8. [AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)
+9. [全球半导体供应链与制造冗余](part-I-ch09-semiconductor-redundancy.md)
 
-最终目标是形成约 32 个连续章节，而不是把 40 个研究卷与 8 篇宏观专题机械串联。
+## Part II — 需求、替代与第二系统栈
+
+10. [模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)
+11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
+12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
+13. [Anchor Compute Buyer Effect——模型公司如何重塑基础设施](part-II-ch13-anchor-compute-buyer.md)
+14. [Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
+15. [Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
+16. [AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](part-II-ch16-differentiated-competitors.md)
+17. [中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md)
+18. [反垄断、产业政策与 AI 平台权力边界](part-II-ch18-antitrust-policy.md)
+
+## Part III — 资本周期、利润池与外部传导
+
+19. [AI 基础设施 CapEx 超级周期](part-III-ch19-capex-supercycle.md)
+20. [Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md)
+21. [消费电子与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
+22. [折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md)
+23. [AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)
+24. [泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md)
+25. [AI 与劳动市场——Task-to-Job Translation](part-III-ch25-labor-market.md)
+26. [AI 时代教育与人才体系](part-III-ch26-education-talent.md)
+
+## Part IV — 方法、情景、监测与战略
+
+27. [研究方法与证据架构](part-IV-ch27-research-method.md)
+28. [2026–2036 时间线与阶段性里程碑](part-IV-ch28-timeline-2026-2036.md)
+29. [核心指标与证据监测框架](part-IV-ch29-monitoring-framework.md)
+30. [S1–S4 四类标准情景](part-IV-ch30-scenarios.md)
+31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
+32. [总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md)
+
+## 研究附录
+
+- [报告说明、证据边界与免责声明](00-front-matter.md)
+- [表格目录](02-list-of-tables.md)
+- [缩写与核心术语表](03-abbreviations-and-glossary.md)
+- [研究透明度、局限性与纠错机制](04-research-transparency.md)
+- [竞争集、替代路径与反方证据矩阵](05-competitive-evidence-matrix.md)
+- [核心证据台账](../核心证据台账.md)
+- [核心参考文献索引](../核心参考文献索引.md)
+- [核心概念与模型索引](../核心概念与模型索引.md)
+- [核心假设矩阵](../核心假设矩阵.md)
