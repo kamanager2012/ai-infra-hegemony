@@ -1,6 +1,5 @@
 # Part I · 第4章：TSMC、N2 与先进制造资源分配
 
-> **出版层章节。** 以 [vol-04](../vol-04.md) 为主源。Advanced Packaging 的独立物理池在 Ch06 展开；本章只讨论 leading-edge logic、客户披露口径和下一代增量资源分配。
 
 ## 1. 真正的竞争对象不是一个“2 nm wafer price”
 
