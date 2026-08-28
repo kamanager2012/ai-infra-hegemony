@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-05.md](../part2-05.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This essay tracks how AI/server demand transmits into smartphones, PCs, automotive, and robotics through shared upstream resources. Official, institutional, channel, and scenario evidence remain separate.
+> Retrieval and revision cutoff: **2026-08-28**. This essay tracks how AI/server demand transmits into smartphones, PCs, automotive, and robotics through shared upstream resources. Official, institutional, channel, and scenario evidence remain separate.
 
 ## 1. The core question
 
