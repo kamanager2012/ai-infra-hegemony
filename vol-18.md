@@ -233,3 +233,4 @@ CXMT 招股文件没有披露 HBM product line。
 ## 本卷关键公开来源
 
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TrendForce, 2025 CoWoS demand structure（NVIDIA estimated >60%, B-grade institutional estimate）： https://www.trendforce.com/research/download/RP250314ZJ
