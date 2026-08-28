@@ -4812,3 +4812,1687 @@ It will be the people who can understand systems, verify results, calculate econ
 ## References
 
 [^ch26-1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
+
+
+\newpage
+
+# Part IV · Chapter 27: Research Method and Evidence Architecture
+
+## 1. AI-infrastructure research needs a unified evidence language
+
+AI infrastructure spans finance, semiconductors, memory, advanced packaging, cloud, power, regulation, and labor markets.
+
+The numbers in these fields carry different physical units, accounting definitions, time windows, and evidence strengths.
+
+Without one common discipline, recurring errors include:
+
+- mixing company disclosures with institutional forecasts;
+- converting revenue share into wafer share;
+- rewriting contracted MW as energized / utilized load;
+- presenting engineering estimates as vendor disclosures;
+- treating guidance as actuals;
+- presenting future scenarios as current facts;
+- repeating one secondary-source number across chapters until it appears to become multi-source confirmation.
+
+This book therefore uses two complementary frameworks:
+
+> **F → H → M → S → X**
+
+and:
+
+> **A / B / C / D evidence grades**
+
+The first determines the identity of a claim; the second determines evidence strength.
+
+## 2. F — Fact
+
+A Fact must describe something that has already occurred and can be traced to a clear public source.
+
+Preferred sources include:
+
+- 10-K / 20-F / annual reports;
+- official earnings materials;
+- official product specifications;
+- regulator / government documents;
+- court filings;
+- formal contracts / official project disclosures.
+
+Fact does not mean "many media outlets reported the same thing."
+
+Multiple media reports citing the same origin do not create independent multi-source confirmation.
+
+## 3. H — Hypothesis
+
+A Hypothesis is a future input condition inferred from facts but not fully confirmed by reality.
+
+Example:
+
+> **If a system platform continues to combine stronger cash flow, long-duration orders, prepayment capacity, and roadmap certainty, its bargaining power for next-generation scarce capacity may increase.**
+
+That is not a fact contained in a company filing.
+
+It is a testable hypothesis that can later be checked against allocation, commitment, and delivery data.
+
+## 4. M — Mechanism
+
+A Mechanism must explain the intermediate variables connecting facts and future states.
+
+Example:
+
+> high system margin → higher cash generation → larger forward commitments → stronger capacity reservation → higher delivery certainty → stronger customer retention
+
+A mechanism cannot collapse into "it is strong, therefore it will become stronger."
+
+It has to identify what changes, how the constraint transmits, and which evidence would show that the chain has broken.
+
+## 5. S — Scenario
+
+A Scenario is a conditional state created by multiple hypotheses and mechanisms.
+
+The book uses four standard scenarios:
+
+- **S1 — Competitive Expansion**;
+- **S2 — Baseline Concentration**;
+- **S3 — Resource Hegemony**;
+- **S4 — Capital Hard Landing**.
+
+The objective is not to assign fixed world probabilities.
+
+It is to ask:
+
+> **If a set of observable conditions holds together, which structural state does the industry resemble most closely?**
+
+## 6. X — Falsification
+
+Every strong judgment requires reverse signals.
+
+For example, the thesis that scarce-layer value capture continues strengthening must be weakened if several of the following reverse persistently:
+
+- supply commitments fall;
+- advanced packaging stops being tight;
+- HBM / DRAM residual supply loosens materially;
+- cloud frontier workloads migrate at scale away from the dominant stack;
+- open interfaces materially reduce migration costs;
+- utilization and forward commitments weaken together.
+
+A long-run narrative without falsification conditions does not enter the book's formal judgment layer.
+
+## 7. A / B / C / D Evidence Grades
+
+**Table 27.1 — Evidence-grade system used in this report**
+
+| Grade | Definition | Typical source |
+|---|---|---|
+| A | First-party / formal evidence | filing, official product page, regulator, government, court, formal contract |
+| B | Institutional research | TrendForce, ILO, IMF, Stanford HAI, academic / industry research |
+| C | Sell-side / supply-chain / media estimate | investment bank, channel, supply-chain source, media estimate |
+| D | Report model / stress test | geometry, arithmetic, sensitivity, scenario assumption |
+
+**Source:** Report research method.  
+**Note:** Evidence grade measures source strength, not analytical importance. D-grade models can support scenarios and sensitivity analysis but cannot be presented as observed facts.
+
+Examples:
+
+- Micron HBM3E same-node/same-bits ≈ **3× DDR5 wafer supply**: **A**;[^ch27-1]
+- TrendForce estimate that NVIDIA represented >60% of 2025 CoWoS demand: **B**;[^ch27-2]
+- a sell-side estimate of one customer's monthly CoWoS wafer count: **C**;
+- 72 ÷ 13.4 ≈ **5.37 CoWoS wafers/rack** as report-side geometry: **D**.
+
+Repeating the same number across multiple chapters does not automatically upgrade its evidence grade.
+
+## 8. Dimensional consistency outranks narrative convenience
+
+The book prohibits the following conversions:
+
+### Revenue share ≠ wafer share
+
+TSMC customer revenue share cannot be converted directly into N2, 3 nm, HPC, or CoWoS physical share.
+
+### Contracted MW ≠ Energized MW ≠ Utilized AI Load
+
+An up-to-1.92-GW revised PPA cannot be rewritten as 1.92 GW of active AI load.[^ch27-3]
+
+### Product specification × hypothetical quantity ≠ shipment
+
+13.4 TB HBM3E/rack × 50,000 hypothetical racks creates D-grade scenario demand, not actual HBM shipment.[^ch27-4]
+
+### Engineering geometry ≠ fab yield
+
+5.37 CoWoS wafers/rack is a geometry stress test, not TSMC-disclosed yield.
+
+### Guidance / expectation ≠ actual
+
+Company guidance must retain its guidance identity and cannot be combined with another company's TTM actuals into a single "already occurred" total.
+
+## 9. The boundary of negative evidence
+
+"Not disclosed in this document" proves only that the document does not disclose it.
+
+For example, if CXMT's registration prospectus does not disclose an HBM product line, the supported statement is:
+
+> **The registration prospectus does not disclose an HBM product line.**
+
+It cannot be expanded into "the company has no HBM R&D."
+
+Negative evidence limits what can be confirmed. It does not prove absolute non-existence.
+
+## 10. Forecasts, guidance, and scenarios must retain time identity
+
+Institutional forecasts must preserve:
+
+- source identity;
+- publication date;
+- forecast window.
+
+For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must remain a **2026E institutional forecast**, not become a 2026 actual through repeated citation.
+
+Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estimates can only appear as explicitly conditioned assumptions.
+
+## 11. Where the book's core mechanism models fit
+
+The primary models include:
+
+- **AI Resource Gravity**;
+- **Scarce-layer Value Capture**;
+- **AHICR — Advanced/HPC Incremental Capacity Capture Ratio**;
+- **Non-AI Residual Capacity**;
+- **Cloud System-Stack Substitution**;
+- **Anchor Compute Buyer Effect**;
+- **Rolling Bottleneck Cascade**;
+- **AI Software Unit Economics**;
+- **Task-to-Job Translation Layer**.
+
+These models organize causal relationships.
+
+They do not replace source facts.
+
+Their validity must ultimately be tested by new F and X evidence.
+
+## 12. Full-report deduplication and cross-reference rules
+
+A formal report should not repeatedly rewrite the same facts and mechanisms across chapters.
+
+The publication rules are:
+
+1. one high-impact factual table has one primary location;
+2. a mechanism is fully defined once and later chapters inherit it through cross-reference;
+3. later chapters add only new evidence, boundaries, counterarguments, or falsification conditions;
+4. when one number appears across chapters, its original denominator, time window, and evidence grade remain unchanged;
+5. sources move with the claims they support;
+6. revision history, editorial process, and construction metadata do not enter public-facing text.
+
+The purpose is not to reduce information. It is to let readers distinguish first definition, incremental evidence, and cross-chapter inference.
+
+## 13. Formal release standard
+
+Each chapter should satisfy:
+
+- factual claims have sources;
+- forecasts / institutional numbers retain their identities;
+- sell-side estimates do not masquerade as first-party facts;
+- D-grade models state assumptions;
+- future claims are conditional;
+- falsification conditions exist;
+- technical units use standard notation;
+- accounting and physical units remain separate;
+- public text carries no internal revision metadata, process notes, or self-justification.
+
+This method does not exist to make scenarios timid.
+
+It allows scenarios to be bold while the fact layer remains auditable, falsifiable, and updateable.
+
+## References
+
+[^ch27-1]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^ch27-2]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^ch27-3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^ch27-4]: NVIDIA, “GB200 NVL72,” official product page, 13.4 TB HBM3E per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+
+
+\newpage
+
+# Part IV · Chapter 28: 2026–2036 Timeline and Conditional Milestones
+
+## 1. The timeline is a Conditional Milestone Map, not a year-by-year story
+
+The most common long-range error is to take technology roadmaps, capital plans, or power-project target dates and rewrite them as events that are guaranteed to occur.
+
+This book uses four observation windows:
+
+- **Phase I: 2026–2027**;
+- **Phase II: 2028–2030**;
+- **Phase III: 2031–2033**;
+- **Phase IV: 2034–2036**.
+
+The years are observation windows, not event guarantees.
+
+## 2. Phase I: 2026–2027 — System Race and Infrastructure Lock-in
+
+Current confirmed anchors include:[^ch28-1][^ch28-2][^ch28-3][^ch28-4][^ch28-5][^ch28-6]
+
+- NVIDIA FY27 Q2 Data Center revenue **US$89.0B**;
+- GAAP gross margin **75.0%**;
+- Rubin in **full production**;
+- manufacturing, supply, and capacity commitments rising from **US$119B** on 2026-04-26 to **US$279B** on 2026-07-26;
+- TSMC advanced-packaging tightness still limiting customer growth;[^ch28-7]
+- public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^ch28-8]
+- power projects at different states with scales around 835 MW, up to 1.92 GW, and up to 500 MWe;
+- TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
+
+The central question is:
+
+> **Does AI workload demand continue to grow faster than scarce-layer supply expansion?**
+
+Key milestones include:
+
+- Rubin volume deployment / customer adoption;
+- HBM4 ramp;
+- whether packaging expansion removes the growth constraint;
+- next-generation TPU / Trainium / Maia / MTIA production deployment;
+- actual delivery against Stargate / Anthropic and other Anchor Buyer commitments;
+- conversion of contracted power into energized / utilized MW;
+- whether system-seller commitments continue expanding.
+
+## 3. Phase II: 2028–2030 — Does substitution reach real scale?
+
+This window is more likely to determine the divergence between S1 and S2/S3.
+
+### Cloud System Stack
+
+Observe whether TPU, Trainium, Maia, and MTIA:
+
+- continue carrying large production workloads;
+- gain share in frontier training / high-value inference;
+- win more external customer adoption;
+- deliver stable utilization and system-TCO advantages.
+
+### Software Portability
+
+Observe whether open compiler/runtime, model formats, and network interfaces materially reduce CUDA / proprietary-stack migration cost.
+
+### Memory / Packaging
+
+Observe whether HBM supply enters sustained abundance, advanced packaging stops being described as a growth constraint, and new packaging architectures materially increase supply elasticity.
+
+### Power
+
+Observe how much headline contracted GW converts into energized and utilized capacity and whether Time-to-Power continues to shape site selection.
+
+## 4. Phase III: 2031–2033 — Geography and industrial structure begin to harden
+
+If AI infrastructure continues expanding, competition is likely to move further from product roadmaps toward regional system capability.
+
+The key questions are:
+
+- which regions combine **power + data centers + chip access + software / talent** most effectively;
+- whether China's parallel stack crosses multiple frontier-closure gates;
+- whether sovereign AI creates multiple regional system ecosystems;
+- whether supply chains remain cross-region complementary or become durably partitioned;
+- whether advanced-manufacturing redundancy creates real qualified second-source capability.
+
+More useful metrics in this phase include:
+
+- deployable compute;
+- system utilization;
+- energized power;
+- cross-stack portability;
+- regional supply resilience.
+
+## 5. Phase IV: 2034–2036 — Maturity, concentration, diffusion, or capital clearing
+
+By this observation window, four structural states should be easier to distinguish.
+
+### Competitive Expansion
+
+Multiple system stacks mature, migration cost falls, supply elasticity improves, and the market continues to expand with more distributed value capture.
+
+### Baseline Concentration
+
+A small number of dominant platforms and scarce-layer suppliers persist while credible substitution paths remain.
+
+### Resource Hegemony
+
+Coordination power across logic, HBM, packaging, software/interconnect, and power becomes more concentrated.
+
+### Capital Hard Landing
+
+Built infrastructure exceeds productive workload, shifting the industry from construction competition toward utilization, residual value, and cash-flow clearing.
+
+## 6. Future technology points that should not be hard-coded
+
+The timeline does not pre-set:
+
+- exact wafer prices;
+- exact future-node ASPs;
+- exact CoWoS wafers/month;
+- exact GW/rack counts;
+- exact company market shares.
+
+These variables depend heavily on yield, architecture, product mix, demand, regulation, and the capital cycle.
+
+The report records falsifiable conditions and milestones rather than treating distant target years as completed facts.
+
+## 7. Algorithmic milestones
+
+The long-run dashboard should track:
+
+- memory compression;
+- sparse architectures;
+- quantization;
+- inference scheduling;
+- model routing;
+- on-device capability;
+- workload orchestration.
+
+If unit resource intensity falls sharply but total workload volume grows faster, aggregate infrastructure demand can still increase.
+
+Algorithmic milestones therefore matter only when interpreted together with demand elasticity.
+
+## 8. Capital milestones
+
+Each phase should track:
+
+- hyperscaler CapEx;
+- D&A / useful-life changes;
+- seller supply commitments;
+- Anchor Buyer contracts;
+- utilization;
+- second-hand / lease prices;
+- enterprise AI monetization;
+- infrastructure financing terms.
+
+Technology and capital timelines have to be read together.
+
+## 9. Power milestones
+
+Power uses one state machine:
+
+> **Announced → Contracted → Permitted → Energized → Utilized**
+
+Crane, Talen/AWS, Kairos/Google, and similar projects must be updated by current state.
+
+Signing a contract cannot automatically mark AI power as online.
+
+In particular, the April-2026 revised-PPA transition status in Talen's 2026 Q2 10-Q does not prove that every physical transition or full-delivery step was completed.[^ch28-5]
+
+The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.[^ch28-5]
+
+## 10. Three thresholds that matter more than the calendar year
+
+The next decade is more likely to be decided by three thresholds than by one particular date:
+
+1. **Does system substitution cross the production frontier-workload threshold?**
+2. **Does scarce-layer supply cross a durable-abundance threshold?**
+3. **Does AI-workload monetization cross the capital-cost-coverage threshold?**
+
+Until all three are much clearer, 2036 should remain a conditional cross-section rather than a deterministic answer.
+
+## References
+
+[^ch28-1]: NVIDIA, FY27 Q2 official results, Data Center revenue, GAAP margin, and Rubin production status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^ch28-2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^ch28-3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^ch28-4]: Constellation, Crane Clean Energy Center / Microsoft PPA, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^ch28-5]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^ch28-6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
+[^ch28-7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^ch28-8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+
+
+\newpage
+
+# Part IV · Chapter 29: Core Metrics and Evidence-Monitoring Framework
+
+## 1. Long-run research has to be designed as an updateable system
+
+Seller economics, CapEx, HBM, packaging, foundry allocation, power, regulation, and system substitution all change quickly.
+
+The report's conclusions therefore have to be designed for continuous updating rather than being valid only on the publication date.
+
+Every update should answer only three questions:
+
+1. **Which fact changed?**
+2. **Which mechanism variable did it change?**
+3. **Is the change large enough to alter S1–S4 weighting?**
+
+## 2. Dashboard A — Seller Economics / Forward Reservation
+
+### NVIDIA current anchors
+
+**Table 29.1 — NVIDIA seller economics and forward-reservation baseline**
+
+| Metric | Current public value |
+|---|---:|
+| FY26 Revenue | US$215.938B |
+| FY26 Data Center | US$193.737B |
+| FY26 NVIDIA-defined non-GAAP FCF | US$96.575B |
+| FY27 Q2 Revenue | US$96.221B |
+| FY27 Q2 Data Center | US$89.0B |
+| FY27 Q2 GAAP gross margin | 75.0% |
+| FY27 Q2 GAAP operating income | US$63.734B |
+| Rubin | full production |
+
+**Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^ch29-1][^ch29-2]  
+**Note:** Company-defined non-GAAP FCF and GAAP metrics retain their respective identities; aggregate commitments have no disclosed supplier-level split.
+
+Supply / capacity commitments:[^ch29-2]
+
+- 2026-01-25: US$95.2B;
+- 2026-04-26: US$119B;
+- 2026-07-26: US$279B.
+
+These metrics ask whether the system seller still has enough cash generation and forward-commitment capacity to reserve next-generation scarce resources.
+
+The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^ch29-2]
+
+## 3. Dashboard B — Foundry / Packaging
+
+### TSMC 2025
+
+The following baseline is drawn from TSMC's 2025 Annual Report.[^ch29-3]
+
+- 12-inch-equivalent wafer shipments: ~15.0M;
+- annual capacity: >17M;
+- 3 nm / 5 nm / 7 nm wafer revenue: 24% / 36% / 14%;
+- ≤7 nm: 74%;
+- HPC platform: 58%, +48% YoY;
+- smartphone platform: 29%, +11% YoY;
+- largest / second-largest annual customer: 19% / 17% of revenue.
+
+A separate anonymized customer table supports only the 2024→2025 Customer A 12%→19% and Customer B 22%→17% trajectories.[^ch29-7]
+
+The two disclosure types cannot be merged into one customer history.
+
+### Packaging
+
+A-grade signal: TSMC continues to describe packaging capacity as tight / growth-limiting.[^ch29-8]
+
+B-grade signal: TrendForce estimates NVIDIA at >60% of 2025 CoWoS demand.[^ch29-9]
+
+TSMC does not disclose customer-level CoWoS allocation.
+
+## 4. Dashboard C — Memory
+
+### A-grade manufacturing anchor
+
+Micron: HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**; the FY25 10-K further confirms that HBM requires more wafers / cleanroom space.[^ch29-5]
+
+### B-grade forward structure
+
+TrendForce: **2026E HBM + RDIMM ≈51% of DRAM bit supply**.[^ch29-4]
+
+### Vendor economics
+
+SK hynix FY25:[^ch29-6]
+
+- Revenue KRW97.1467T;
+- Operating profit KRW47.2063T;
+- Operating margin 49%;
+- Net income KRW42.9479T;
+- HBM revenue more than doubled YoY.
+
+These indicators help test whether HBM product mix continues to absorb DRAM manufacturing input and whether conventional-DRAM residual capacity is loosening.
+
+## 5. Dashboard D — Hyperscaler CapEx
+
+For Microsoft, Amazon, Alphabet, and Meta, preserve separately:
+
+- accounting line item;
+- fiscal / calendar window;
+- actual vs. guidance / expectation;
+- finance-lease treatment;
+- AI/data-center-specific disclosure.
+
+The key question is not whether the total is a new record.
+
+It is whether new capital continues flowing into servers, networking, memory, custom silicon, data centers, and power.
+
+Non-comparable accounting definitions must not be mechanically added into an official AI-hardware CapEx total.
+
+## 6. Dashboard E — Power State Machine
+
+**Table 29.2 — Power project state machine**
+
+| State | Meaning |
+|---|---|
+| Announced | project / target announced |
+| Contracted | contract signed |
+| Permitted | key permits obtained |
+| Energized | actual power delivery |
+| Utilized | real sustained load |
+
+**Source:** Report power-state framework.  
+**Note:** The state machine prevents headline MW/GW, contract quantity, or project targets from being rewritten as active AI load.
+
+Representative current paths include:
+
+- Microsoft / Constellation: ~835 MW restart PPA;[^ch29-10]
+- Talen / AWS: up to 1.92 GW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^ch29-11]
+- Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035.[^ch29-12]
+
+The variables that need updating are ramp, energized MW, actual load, and utilization.
+
+## 7. Dashboard F — System-Stack Substitution
+
+For Google / AWS / Microsoft / Meta, track:
+
+- production workload share;
+- external availability;
+- compiler/runtime maturity;
+- large-cluster scaling;
+- migration cost;
+- utilization;
+- system TCO.
+
+A single-chip benchmark is not sufficient evidence of system substitution.
+
+## 8. Dashboard G — China's Parallel Stack
+
+Track each layer independently.
+
+### Logic
+
+Domestic accelerators, foundry scale, yield / volume disclosures.
+
+### Memory
+
+HBM-class products, qualification, volume production.
+
+### Packaging
+
+Advanced integration, yield, scale.
+
+### Software
+
+Compiler/runtime, framework compatibility, cluster utilization.
+
+### Deployment
+
+Frontier workloads, data-center power, real system scale.
+
+Frontier-system closure should be upgraded only when several closure gates improve together.
+
+## 9. Dashboard H — Regulation
+
+Use one legal-state machine:
+
+> inquiry / RFI → investigation → Statement of Objections / formal complaint → formal proceeding → final decision → remedy / fine
+
+Do not convert:
+
+- inquiry into "already sued";
+- statutory ceiling into "fine is imminent";
+- merger review into "monopoly already established."
+
+The variables capable of changing the scenario are interface openness, tying restrictions, access / supply remedies, and structural change.
+
+## 10. Dashboard I — Capital Clearing
+
+### Accounting
+
+Impairment, inventory write-down, accelerated depreciation, asset disposal.
+
+### Utilization / Revenue
+
+Compute utilization, AI-workflow revenue, revenue per deployed compute.
+
+### Market Clearing
+
+Used-system prices, cloud discounts, lease rates, delivery lead times.
+
+### Forward Commitment
+
+CapEx guidance, seller commitments, Anchor Buyer contracts, power contracts.
+
+S4 should move from stress test toward main scenario only when multiple signal groups deteriorate together.
+
+## 11. Evidence-grade quick rules
+
+**Table 29.3 — Default evidence grade for report updates**
+
+| Data type | Default grade |
+|---|---|
+| company filing / official product / government / court / formal contract | A |
+| institutional research | B |
+| sell-side / supply-chain / media estimate | C |
+| report geometry / stress test / hypothetical rack count | D |
+
+**Source:** Report evidence method (see Chapter 27).  
+**Note:** A default grade can move with source quality, but repeated citation does not upgrade it automatically.
+
+Every update preserves the original evidence grade.
+
+A newer number does not automatically become stronger evidence.
+
+## 12. Scenario-weighting update rules
+
+### Move toward S1
+
+System substitution expands, migration cost falls, HBM/packaging/power supply elasticity improves, and multi-buyer access to scarce resources strengthens.
+
+### Move toward S3
+
+Seller commitments keep expanding, multi-layer scarcity persists, switching costs rise, and powered capacity is locked for long periods by a small set of Anchor Buyers.
+
+### Move toward S4
+
+Utilization, market-clearing prices, CapEx / commitments, and accounting losses deteriorate together.
+
+### Remain in S2
+
+Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
+
+## 12A. Operational monitoring thresholds: converting “persistent/material/large-scale” into trigger rules
+
+To keep terms such as “persistent,” “material,” and “large-scale” from remaining qualitative adjectives, the report adds a **D-grade operational trigger policy**. These are research-update rules, not industry facts or trading signals.
+
+**Table 29.4 — Observation frequency, persistence, and scenario triggers for core variables**
+
+| Variable group | Default frequency | Default persistence | Trigger rule |
+|---|---|---|---|
+| Seller economics / forward commitments | quarterly | 2 consecutive quarters | commitments or next-generation supply reservations must decline/cancel in two consecutive quarters before being treated as trend weakening; one quarter is only an observation |
+| HBM / DRAM allocation & pricing | monthly + quarterly | 3 monthly observations or 2 quarters | at least two of allocation fulfillment, contract pricing, lead time, and Absolute AI Capacity Gap must improve together before supply easing is treated as a trend |
+| Advanced packaging | quarterly + event-driven | 2 quarters | first-party suppliers must cease describing packaging as a growth constraint for two quarters while B-grade lead-time/pricing indicators also ease before S1 supply-elasticity weight rises materially |
+| Cloud system-stack substitution | quarterly + major deployment events | 2 reporting periods | at least two of production workload, external availability, and migration-cost/software maturity must improve across two reporting periods before substitution is treated as executable |
+| Power / Time-to-Power | quarterly | 2 quarters | conversion from contracted/permitted MW toward energized MW must improve while deployment waiting time declines before the power bottleneck is treated as easing |
+| Anchor Compute Buyer | event-driven + quarterly | 2 observations when recurring | formal expansion/delivery supports S2/S3; major delays, renegotiations, or cancellations raise S4 only when utilization or financing signals weaken in the same direction |
+| Capital clearing | quarterly | **2 consecutive quarters** | Accounting, Utilization/Revenue, Market Clearing, and Forward Commitment must **all deteriorate together** for two quarters before S4 moves from stress case toward main-scenario candidate |
+| Regulation | event-driven | legal-state transition | inquiry/RFI does not trigger structural reweighting; formal proceeding/final remedy matters only when interface, tying, access, or supply conditions materially change |
+
+**Source:** Report D-grade monitoring policy.  
+**Note:** “2 quarters / 3 months” is a default update discipline designed to stop one news item from rewriting a long-run judgment. Where a series is annual or event-driven, use the latest two comparable observations rather than inventing quarterly data.
+
+### Handling missing data
+
+If a layer does not provide same-unit `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**. Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as proxies, but they cannot be renamed as an absolute capacity gap.
+
+### Minimum evidence combinations for scenario reweighting
+
+- **Material move toward S1:** at least two of Supply Elasticity, System Substitution, and Buyer Optionality satisfy their persistence rules;
+- **Material move toward S3:** Multi-layer Scarcity, Switching Cost, and Forward Reservation strengthen together for at least two comparable observations;
+- **Material move toward S4:** retain Chapter 24's hard gate—four capital-clearing signal classes deteriorate together for two consecutive quarters;
+- **Otherwise remain in S2 or make only local weighting adjustments**, rather than changing the main scenario on one headline.
+
+## 13. Update discipline
+
+One news item should not rewrite the entire book.
+
+Scenario weighting changes only when a new fact changes a core mechanism variable and crosses a pre-defined threshold.
+
+This keeps the report updateable without rewriting the industry narrative after every product launch, stock-price move, or rumor.
+
+## References
+
+[^ch29-1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics and Rubin status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^ch29-2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^ch29-3]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^ch29-4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^ch29-5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^ch29-6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^ch29-7]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+[^ch29-8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^ch29-9]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^ch29-10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^ch29-11]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^ch29-12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
+
+
+\newpage
+
+# Part IV · Chapter 30: The Four Standard Scenarios — S1 to S4
+
+## 1. Scenario analysis is not a point forecast
+
+This book does not assign one deterministic answer to 2030 or 2036, nor does it use a fixed probability table such as 40% / 30% / 15% / 15%.
+
+Scenario weighting depends on observable variables including:
+
+- advanced-capacity allocation;
+- HBM supply;
+- advanced packaging;
+- cloud system-stack substitution;
+- Anchor Buyer long-duration demand;
+- power / Time-to-Power;
+- software migration;
+- China's parallel stack;
+- regulation;
+- utilization;
+- CapEx / financing discipline.
+
+## 2. S1 — Competitive Expansion
+
+### Definition
+
+AI demand keeps growing, but supply expansion and alternative systems mature fast enough to reduce concentration.
+
+Typical conditions include:
+
+- leading-edge capacity expands with more qualified supply;
+- HBM supply elasticity improves;
+- advanced-packaging tightness eases materially;
+- cloud custom systems carry large production workloads;
+- open software / interfaces reduce migration cost;
+- energized power keeps pace with buildout;
+- multiple system stacks coexist in production over long periods.
+
+### Economic result
+
+The dominant platform can remain very large while buyer optionality and bargaining power improve.
+
+Scarcity premiums decline and value capture becomes more distributed.
+
+This is:
+
+> **market expands + concentration declines**
+
+not "AI infrastructure disappears."
+
+## 3. S2 — Baseline Concentration
+
+### Definition
+
+The current core trends continue:
+
+- AI demand remains high;
+- leading system-platform seller economics remain strong;
+- HBM / advanced packaging remain periodically tight;
+- cloud custom systems continue expanding without fully replacing frontier workloads;
+- power becomes an independent deployment constraint;
+- China's parallel stack keeps developing but frontier closure remains incomplete;
+- CapEx / forward commitments remain high.
+
+### Economic result
+
+The market continues expanding rapidly while value capture remains concentrated in a small number of system platforms and scarce-layer suppliers.
+
+As of August 2026, this is the **baseline state** that best matches the current evidence mix.
+
+It is not a fixed ten-year forecast.
+
+## 4. S3 — Resource Hegemony
+
+### Definition
+
+Demand growth continues to outrun substitution and supply expansion while multiple scarce layers remain concentrated at the same time.
+
+Typical conditions include:
+
+- advanced packaging stays structurally tight;
+- HBM manufacturing intensity / generation constraints persist;
+- leading-edge incremental capacity remains highly concentrated;
+- proprietary software / interconnect migration costs stay high;
+- cloud custom systems divert only part of the workload;
+- powered land / firm MW are locked for long periods by a small set of buyers;
+- Anchor Buyer and seller forward commitments continue expanding.
+
+### Mechanism
+
+> high profit → stronger commitments / prepayment → greater future resource reservation → higher delivery certainty → stronger installed base / workload retention
+
+This describes stronger system-level resource coordination.
+
+It is not a legal monopoly verdict.
+
+## 5. S4 — Capital Hard Landing
+
+### Definition
+
+AI workload demand, utilization, and monetization fail to cover a rapidly expanding capital base.
+
+Typical synchronized signals include:
+
+- token / workflow volume growth disappoints;
+- instance / lease prices fall rapidly;
+- utilization declines;
+- enterprise AI monetization remains weak;
+- hyperscaler CapEx guidance falls;
+- seller / Anchor Buyer commitments shrink or cancel;
+- used-hardware residual value declines quickly;
+- impairment / write-down rises.
+
+### Clearing order
+
+The first pressure usually appears in:
+
+- next-generation hardware orders;
+- inventory;
+- short-lived system residual value;
+- speculative / highly concentrated financing.
+
+If weakness persists, the pressure can move into semiconductor CapEx, data-center expansion, and power buildout.
+
+S4 does not mean AI usage disappears.
+
+After capital clearing, cheaper compute can still stimulate new applications.
+
+## 5.1 Comparative framework for the four standard scenarios
+
+**Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4**
+
+| Scenario | Core drivers | Primary industry outcome | Key reverse signal |
+|---|---|---|---|
+| S1 — Competitive Expansion | higher supply elasticity, multi-sourcing, and portability | more distributed value capture and greater buyer optionality | scarce-layer tightness strengthens again or migration costs rise |
+| S2 — Baseline Concentration | strong demand, strong leading platforms, substitution develops but remains incomplete | high growth and concentration coexist | supply/substitution improve materially or ROI/commitments deteriorate together |
+| S3 — Resource Hegemony | multi-layer scarcity + switching costs + forward reservation strengthen | incremental capacity becomes more concentrated and replication costs rise | capacity access broadens and open interfaces materially lower migration costs |
+| S4 — Capital Hard Landing | utilization / monetization falls short of the capital base | clearing prices, orders, CapEx, and asset values decline | utilization, clearing prices, and forward commitments recover |
+
+**Source:** Report S1–S4 scenario framework.  
+**Note:** The four scenarios are parallel conditional states. They do not carry fixed probabilities and are not inevitable sequential stages.
+
+## 5A. AI Capacity Gap: a cross-scenario diagnostic axis
+
+S1–S4 remain parallel conditional states; the report does not introduce a second scenario taxonomy. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
+
+### Absolute gap
+
+```text
+AI_Capacity_Gap_i(t)
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+Demand and capacity must be measured within the same physical layer, delivery window, and qualification/quality boundary. Units can include wafers/month, qualified package starts/month, bits/year, or MW.
+
+- **Absolute Gap > 0:** current deliverable supply is insufficient;
+- **Absolute Gap ≈ 0:** current supply and demand are near balance;
+- **Absolute Gap < 0:** current effective headroom exists.
+
+### Growth gap
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
+
+The Growth Gap is a same-period growth-rate difference and describes whether the absolute gap is more likely to widen or converge:
+
+- **Growth Gap > 0:** scarcity may widen, or existing headroom may be eroded;
+- **Growth Gap < 0:** scarcity may converge, or effective headroom may expand;
+- **Growth Gap = 0:** supply and demand are changing at the same rate; it does not mean no shortage exists.
+
+Therefore:
+
+- **Absolute Gap > 0 and Growth Gap > 0 across several critical layers:** scarcity is strengthening and relative weight shifts toward S2 / S3;
+- **Absolute Gap > 0 but Growth Gap < 0:** the layer remains short, but supply is catching up and S1 weight can rise;
+- **Absolute Gap < 0 with healthy utilization:** supply has headroom, but this is not S4 by itself;
+- **Absolute Gap < 0 + falling utilization + weaker clearing prices + shrinking commitments:** S4 weight rises materially.
+
+AI Capacity Gap / Growth Gap must be read together with Non-AI Residual Capacity. The first two ask how much AI currently lacks and how that gap is changing; NARC asks how much effective supply remains for non-AI demand after priority allocation.
+
+## 6. Five variable classes determine scenario structure
+
+### Supply
+
+Leading-edge wafers, HBM, advanced packaging, power.
+
+### Substitution
+
+Cloud custom systems, open compiler/runtime, alternative interconnect, China's parallel stack.
+
+### Demand
+
+Token/workflow volume, enterprise adoption, Anchor Buyer commitments, sovereign demand.
+
+### Finance
+
+Seller cash generation, hyperscaler CapEx, depreciation, utilization, financing cost, residual value.
+
+### Regulation / Geopolitics
+
+Export controls, antitrust remedies, interface openness, industrial policy, regional fragmentation.
+
+## 7. Anchor Compute Buyer is a new scenario variable
+
+Multi-year compute commitments from large model companies can influence infrastructure financing, custom silicon, power, and data-center buildout.
+
+If Anchor Buyer demand expands and converts into real utilization, S2/S3 weighting rises.
+
+If long-duration commitments are delayed, renegotiated, or underutilized at scale, S4 weighting rises.
+
+Model-company contracts therefore cannot be treated as ordinary cloud-customer spending.
+
+## 8. Observable signals from S2 toward S1
+
+- alternative system stacks scale in frontier / high-value production workloads;
+- HBM / packaging lead times decline sustainably;
+- access to advanced capacity becomes more distributed;
+- open software / interfaces reduce migration cost materially;
+- power expansion shortens Time-to-Power;
+- buyer multi-sourcing becomes normal production practice.
+
+## 9. Observable signals from S2 toward S3
+
+- seller forward commitments keep expanding rapidly;
+- HBM / packaging tightness persists across generations;
+- proprietary-system switching cost rises;
+- leading-edge incremental supply remains highly concentrated;
+- scarce power / powered land is locked by a small set of Anchor Buyers;
+- alternative stacks fail to create enough production-scale optionality.
+
+## 10. Observable signals from S2 toward S4
+
+- CapEx guidance declines repeatedly;
+- utilization falls;
+- seller / Anchor Buyer commitments cancel or shrink materially;
+- second-hand system clearing prices fall quickly;
+- cloud discounts / lease rates deteriorate;
+- impairment rises;
+- enterprise AI monetization remains persistently below depreciation / operating cost.
+
+## 11. Why S1, S2, S3, and S4 are not sequential stages
+
+They are parallel conditional states.
+
+One region can experience S3-style power scarcity while selected workloads already operate in S1-style multi-stack competition.
+
+Memory can temporarily loosen while packaging remains tight.
+
+Capital markets can clear locally while productive workloads continue to grow.
+
+Scenario weighting therefore describes **relative structure**, not one compulsory industry path.
+
+## 12. Current baseline
+
+As of August 2026, the report's baseline is:
+
+> **S2 — Baseline Concentration**
+
+because:
+
+- NVIDIA / leading-platform seller economics remain strong;[^ch30-1]
+- HBM and advanced packaging remain important bottlenecks;[^ch30-2][^ch30-3]
+- cloud custom systems are real competitors but have not shown comprehensive frontier-workload substitution;[^ch30-4]
+- infrastructure CapEx and forward commitments remain high;[^ch30-5]
+- power constraints are rising;[^ch30-6]
+- China's parallel stack has not reached equivalent closure across every frontier critical layer;
+- synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
+
+The baseline remains valid only while this evidence mix remains valid.
+
+## 13. Final use of the framework
+
+Future updates should not ask:
+
+> "Which ten-year prediction was proven correct?"
+
+They should ask:
+
+> **Which observable variables changed, and how should S1–S4 relative weighting adjust?**
+
+That keeps long-run judgment responsive to industrial evidence rather than dependent on a one-time bet.
+
+## References
+
+[^ch30-1]: NVIDIA, FY27 Q2 official results, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^ch30-2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^ch30-3]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^ch30-4]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^ch30-5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^ch30-6]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+
+## Cross-references
+
+- Chapter 29: Core Metrics and Evidence-Monitoring Framework
+- Chapter 32: Master Judgment
+- Core Hypothesis Matrix
+
+
+\newpage
+
+# Part IV · Chapter 31: The 2036 Endgame and Strategic Optionality
+
+## 1. 2036 is not a market-share forecast point
+
+This book does not predict one company's exact 2036 market share and does not assign fixed scenario probabilities.
+
+The purpose of 2036 is to extend today's mechanisms across a longer time scale and ask what industry structures become possible if observable variables persist.
+
+The competitive unit has moved from one chip toward a system stack that can include advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, racks/pods, data centers, power, capital, and sustainable workload demand.
+
+The long-run question is therefore:
+
+> **Will these layers become highly coordinated by a small number of platforms, or supplied by multiple interoperable systems?**
+
+## 2. Core structural variables and their source chapters
+
+**Table 31.1 — Core structural variables used in the long-run strategic judgment**
+
+| Structural variable | Source chapter |
+|---|---|
+| NVIDIA system stack / switching cost | Part I · Ch02 |
+| HBM / memory resource intensity | Part I · Ch05 |
+| Advanced Packaging / CoWoS | Part I · Ch06 |
+| Power / Time-to-Power | Part I · Ch07 |
+| Hyperscaler second system stack | Part II · Ch12 |
+| China frontier-system closure | Part II · Ch17 |
+| Value Capture Map | Part III · Ch20 |
+| Capital clearing / S4 signals | Part III · Ch24 |
+
+**Source:** Report chapter architecture.  
+**Note:** This chapter inherits facts and mechanisms established earlier rather than duplicating high-impact factual tables.
+
+The endgame chapter does not duplicate those financial tables and physical formulas.
+
+It uses the already-established variables for scenario and action analysis.
+
+## 3. S1 — Competitive Expansion: multiple system stacks coexist
+
+If supply elasticity improves across advanced manufacturing, HBM, packaging, and power while cloud custom systems, open compiler/runtime, and interoperability reduce migration costs materially, the industry moves closer to S1.
+
+A plausible structure includes:
+
+- NVIDIA remaining one of the major general-purpose platforms;
+- Google/AWS/Microsoft/Meta system stacks maturing across large workloads;
+- multiple buyers obtaining reliable access to leading-edge manufacturing;
+- open software / interfaces reducing cross-stack migration friction;
+- stronger system closure in China's parallel stack;
+- value capture spreading more broadly across cloud, specialized suppliers, and applications/workflows.
+
+S1 does not mean every hardware layer becomes a commodity.
+
+It means **substitution paths are real enough for buyers to exercise them.**
+
+## 4. S2 — Baseline Concentration: high concentration and continuous competition coexist
+
+S2 describes a market where a small number of large system platforms and scarce-layer suppliers retain strong value capture while cloud custom silicon, China's parallel stack, and open software continue exerting competitive pressure.
+
+This means:
+
+- general frontier workloads remain highly dependent on mature system platforms;
+- cloud in-house systems expand across internal workloads;
+- HBM / packaging / power continue to create cyclical physical constraints;
+- buyers maintain second-system options without immediately abandoning the primary stack;
+- upstream resource allocation reflects long-duration orders, cash flow, roadmap certainty, and supplier incentives to preserve customer diversity.
+
+As of August 2026, this remains the baseline state most consistent with current evidence.[^ch31-1][^ch31-2][^ch31-3]
+
+It is not an immutable ten-year prediction.
+
+## 5. S3 — Resource Hegemony: the barrier becomes replication of the full infrastructure stack
+
+S3 does not require one company to reach an exaggerated point market share.
+
+Its core condition is simultaneous concentration across several scarce layers:
+
+- leading-edge capacity;
+- HBM;
+- advanced packaging;
+- scale-up / software interfaces;
+- powered land / firm MW;
+- long-duration supply commitments.
+
+In this state, a challenger no longer needs only to design a faster accelerator.
+
+It needs to replicate manufacturing, memory, packaging, software, power, and a credible customer-migration path at the same time.
+
+Capital entry barriers rise sharply and Non-AI Residual Capacity can face greater pressure.
+
+## 6. S4 — Capital Hard Landing: capital clearing does not mean AI disappears
+
+If utilization, effective revenue, market-clearing prices, and forward commitments deteriorate together, the industry moves toward S4.
+
+Possible outcomes include:
+
+- falling hardware residual values;
+- slower next-generation orders;
+- hyperscaler / model-company commitments being delayed;
+- low utilization across long-duration data-center / power assets;
+- further compression in model/application margins;
+- materially cheaper access to excess compute.
+
+Capital clearing can coexist with technological diffusion.
+
+Historical infrastructure cycles show that:
+
+> **overbuild → asset-price decline → cheaper access → new applications**
+
+is one possible path.
+
+S4 can therefore shift competition from buildout toward utilization, workflow, and cash flow rather than simply ending AI adoption.
+
+## 7. Four long-run dividing lines
+
+By 2036, four questions matter more than any single market-share forecast:
+
+1. **Are system stacks interoperable?**
+2. **Are scarce manufacturing / memory / packaging resources sufficiently diversified?**
+3. **Does power / powered land remain a long-term quota?**
+4. **Do AI workloads produce enough cash flow to cover infrastructure and capital costs?**
+
+These determine switching costs, supply elasticity, deployment geography, and capital sustainability.
+
+## 8. Enterprise strategy: prove workflow economics before locking long-duration compute
+
+A disciplined sequence is:
+
+1. identify measurable real workflows;
+2. establish evaluation / verification;
+3. calculate cost per completed task and business value;
+4. preserve model / cloud / data portability;
+5. use longer compute commitments only after demand becomes sufficiently predictable.
+
+High-certainty workloads can justify longer reservations.
+
+Experimental or rapidly changing workloads should preserve flexible / multi-provider paths.
+
+The dangerous sequence is to reserve large long-duration capacity first and search for enough workloads later.
+
+## 9. Enterprise strategy: the primary stack can be concentrated, but the second path must be executable
+
+Portability does not require equal purchasing across all vendors.
+
+A stronger principle is:
+
+> **Optimize the primary stack for efficiency; optimize the second path for executability.**
+
+At minimum, preserve:
+
+- model portability;
+- data portability;
+- cloud portability;
+- accelerator / runtime optionality;
+- open interfaces;
+- workload benchmarks and cost observability.
+
+The second path exists to reduce single-point supply, pricing, policy, and migration risk.
+
+## 10. Capital strategy: classify the asset before discussing "AI valuation"
+
+At least four asset classes should remain separate:
+
+**Table 31.2 — Primary value sources and risks across AI-related asset classes**
+
+| Asset | Primary value | Primary risk |
+|---|---|---|
+| Platform | switching cost / system definition / ecosystem | substitution / regulation |
+| Manufacturing | scarcity / yield / technology / capacity | cycle / CapEx / utilization |
+| Infrastructure | powered land / grid / data center / duration | utilization / duration mismatch |
+| Application | workflow / distribution / data | commoditization / unit economics |
+
+**Source:** Report Value Capture / Duration framework.  
+**Note:** The classification is for strategic analysis and is not an investment rating or valuation recommendation.
+
+High CapEx can be an entry barrier and preparation for growth, or a source of future depreciation and stranded assets.
+
+Capital analysis therefore requires CapEx, utilization, revenue, FCF, forward commitments, and clearing prices together.
+
+## 11. Capital strategy: Duration Mismatch is more dangerous than a high valuation by itself
+
+Short-cycle compute demand can be matched against long-duration debt, PPAs, data-center shells, and transmission assets.
+
+If workload demand disappoints, these assets clear much more slowly than hardware inventory.
+
+The central question is:
+
+> **Does demand duration match asset duration?**
+
+Under high demand, long-duration assets can be a moat.
+
+Under S4, the same assets can become long-lived burdens.
+
+## 12. National strategy: the competitive unit is no longer one fab
+
+A complete frontier-AI industrial capability requires at least:
+
+- equipment / materials;
+- advanced logic;
+- HBM;
+- advanced packaging;
+- interconnect;
+- compiler/runtime;
+- data centers;
+- power / grid;
+- talent / production operations.
+
+Subsidizing one advanced fab therefore does not create system closure.
+
+Manufacturing, memory, packaging, software, and power have to be managed as one industrial strategy.
+
+## 13. National strategy: Power Policy has become Compute Policy
+
+High-power racks pull grid planning, generation, interconnection, substations, cooling, and permitting into technology competition.
+
+If chip supply expands while Time-to-Power does not improve, the result can be "hardware available, deployment delayed."
+
+A national AI-infrastructure strategy therefore has to manage:
+
+> **semiconductor clock + power-permitting clock + capital clock**
+
+at the same time.
+
+## 14. National strategy: interoperability is strategic optionality
+
+System resilience does not require rejecting the leading platform.
+
+It requires avoiding a state in which every critical layer depends on one irreplaceable entry point.
+
+Long-run policy should improve:
+
+- open compiler/runtime;
+- portable model / data formats;
+- interoperable networking;
+- multi-architecture engineering education;
+- cross-stack production benchmarking.
+
+The objective is not to equalize market share artificially.
+
+It is to make substitution executable when supply, policy, or pricing conditions change.
+
+## 15. China: the long-run issue is Frontier System Closure, not one localization percentage
+
+Whether China's parallel stack changes global resource structure does not depend on one localization ratio.
+
+It depends on whether advanced logic, HBM, packaging, interconnect, compiler/runtime, frontier workloads, and power reach verifiable scale together.
+
+Strong smartphone / consumer supply does not prove frontier-AI closure.
+
+Likewise, constraints in frontier AI do not erase China's industrial depth in consumer electronics, manufacturing, DRAM/NAND, and domestic workloads.
+
+If multiple closure gates are crossed, China can become a stronger second center of AI Resource Gravity.
+
+If several advanced layers remain unclosed, the parallel stack's primary value remains domestic resilience and partial workload substitution.
+
+## 16. Individual strategy: long-run value comes from responsibility for outcomes, not loyalty to one tool
+
+As models, IDEs, agents, and generation tools commoditize quickly, the most fragile career position is one whose value depends entirely on operating one specific tool.
+
+More durable capabilities include:
+
+- domain knowledge;
+- problem decomposition;
+- workflow / system design;
+- verification;
+- cross-stack portability;
+- responsibility for results, risk, and quality.
+
+As tools lower execution barriers, the ability to define problems, verify outputs, and own delivery becomes more important.
+
+## 17. Monitoring: what should force a change in judgment
+
+The next decade should be calibrated through public signals, including:
+
+- whether NVIDIA / major system-seller commitments continue rising or begin shrinking;
+- production workload share and migration costs for cloud custom stacks;
+- whether HBM / advanced-packaging tightness eases materially;
+- whether leading-edge capacity becomes more distributed;
+- whether energized MW / Time-to-Power improves;
+- whether Anchor Compute Buyer commitments convert into real delivery;
+- whether hyperscaler utilization / AI monetization covers the expanding capital base;
+- whether China's frontier-closure gates gain scaled first-party evidence;
+- whether regulation materially lowers interface / tying / switching barriers.
+
+If supply elasticity and interoperability rise together, weighting shifts toward S1.
+
+If multiple scarce layers and switching costs strengthen together, weighting shifts toward S3.
+
+If utilization, clearing prices, CapEx, and commitments weaken together, weighting shifts toward S4.
+
+## 18. Final strategic judgment
+
+As of August 2026, the most defensible overall description is:
+
+> **AI infrastructure remains in a phase where rapid expansion and high concentration coexist, while the competitive unit is moving from the individual chip toward the complete system stack and infrastructure.**
+
+This is neither a permanent-monopoly thesis nor a rapid-compute-commoditization thesis.
+
+The next decade will repeatedly redistribute power across system substitution, scarce-layer supply, Anchor Buyer demand, power, utilization, capital duration, and regulation.
+
+The common strategic principle can be compressed into one sentence:
+
+> **Do not bet on an unchangeable end-state; build options that remain executable when the end-state changes.**
+
+## References
+
+[^ch31-1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^ch31-2]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging supply constraint, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^ch31-3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+
+## Cross-references
+
+- Core Evidence Ledger
+- Core Source Index
+- Part I · Ch02 NVIDIA System Stack
+- Part I · Ch05 HBM
+- Part I · Ch06 Advanced Packaging
+- Part I · Ch07 Power
+- Part II · Ch12 Hyperscaler System Stack
+- Part II · Ch17 China Parallel Stack
+- Part III · Ch20 Value Capture Map
+- Part III · Ch24 Capital Clearing
+
+
+\newpage
+
+# Part IV · Chapter 32: Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions
+
+## 1. The book's research grammar is F → H → M → S → X
+
+Every strong judgment passes through five layers:
+
+- **F — Fact:** something that has occurred and can be publicly verified;
+- **H — Hypothesis:** a future input condition or stress-test assumption;
+- **M — Mechanism:** the causal transmission between facts and hypotheses;
+- **S — Scenario:** a future structural state created by several conditions;
+- **X — Falsification:** reverse signals strong enough to weaken, rewrite, or invalidate the original judgment.
+
+The purpose is to prevent an estimate from becoming "fact" merely because it is repeated across chapters, and to prevent long-run judgments from becoming unfalsifiable stories.
+
+## 2. First master judgment: the competitive unit has moved from the chip to the System Stack
+
+As of August 2026, AI-infrastructure competition cannot be described adequately through GPU share or one ASIC benchmark.
+
+The competitive unit can include advanced logic, HBM, advanced packaging, scale-up / scale-out interconnect, compiler/runtime, racks/pods, data centers, power, and workloads.
+
+NVIDIA's strongest current advantage is its ability to organize many of those layers into a mature commercial general-purpose system stack—not ownership of every physical resource.
+
+Google, AWS, Microsoft, and Meta have also moved from custom chips toward software, interconnect, rack/pod architecture, and captive workloads.
+
+The central competitive question is therefore:
+
+> **Who can continue delivering a complete system to real workloads with lower migration cost, higher utilization, and more reliable supply?**
+
+That is closer to the industrial source of power than "who has the fastest chip?"
+
+## 3. Second master judgment: value capture comes from Scarce Layers + Switching Costs, not simple market share
+
+High profit does not by itself prove monopoly.
+
+Customer revenue share does not automatically convert into wafer or CoWoS allocation.
+
+This book uses **Scarce-layer Value Capture** for a narrower mechanism: when a platform combines strong cash generation, long-duration orders, system-definition power, switching costs, and supply orchestration, it can improve its ability to make earlier commitments to next-generation scarce resources and increase delivery certainty.
+
+NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B on 2026-01-25** to **US$279B on 2026-07-26**.[^ch32-1]
+
+That proves a large increase in aggregate forward supply commitments.
+
+The filing does not split the US$279B across TSMC, CoWoS, or any one HBM supplier, so the amount cannot be rewritten as one supplier's future revenue.
+
+The key forward variable is:
+
+> **Incremental Scarce-Capacity Capture**
+
+—how much effective next-generation supply a platform repeatedly obtains across advanced logic, HBM, packaging, and other critical incremental resources.
+
+### 3.1 Quantity Assurance: in severe shortages, price is not the only clearing mechanism
+
+In a severe shortage, the market does not clear through price alone.
+
+Long-term agreements, customer credit, prepayments, purchase scale, and allocation fulfillment can determine whether a buyer receives enough volume at all.
+
+The report therefore separates:
+
+> **willingness-to-pay** from **quantity assurance**
+
+The systemic risk for secondary buyers is not merely a higher ASP.
+
+It is a fall in residual capacity far enough that a buyer cannot obtain sufficient, timely, sustainable supply even after accepting a higher price.
+
+This mechanism is more defensible than the absolute claim that one company has captured "100% of capacity."
+
+## 4. Third master judgment: HBM, Advanced Packaging, and Power are separate physical pools
+
+These constraints cannot be represented by one capacity number.
+
+### HBM
+
+Micron's first-party disclosure states that, on the same node and for the same number of bits, HBM3E requires approximately **3× the wafer supply of DDR5**.[^ch32-2]
+
+TrendForce forecasts HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.[^ch32-3]
+
+The first number is a same-bit manufacturing trade ratio; the second is a 2026E bit-supply forecast.
+
+Neither is an HBM market share or wafer share.
+
+### Advanced Packaging
+
+TSMC has confirmed advanced-packaging tightness and stated in 2Q26 that packaging tightness was limiting customer growth.[^ch32-4]
+
+TSMC does not disclose customer-level CoWoS allocation.
+
+TrendForce's estimate that NVIDIA represented >60% of 2025 CoWoS demand therefore remains a B-grade institutional anchor.[^ch32-15]
+
+### Power
+
+Approximately 120 kW-class racks, the ~835 MW Crane restart path, the Talen/AWS revised PPA of up to 1.92 GW, and the Kairos/Google long-duration development path show that power is an independent physical constraint.[^ch32-5]
+
+Contracted, Permitted, Energized, and Utilized MW must remain separate.
+
+One bottleneck can therefore ease while another rises.
+
+That is the **Rolling Bottleneck Cascade**.
+
+## 5. Fourth master judgment: Non-AI Residual Capacity explains more than total supply growth
+
+Even if total wafer, DRAM, or packaging capacity grows, the effective supply available to traditional end markets can still fall when AI/server and other priority demand absorb the incremental supply.
+
+This book defines:
+
+> **Non-AI Residual Capacity = total effective supply − AI / anchor-demand absorption − other priority high-value demand**
+
+This framework explains memory, consumer-GPU, and selected leading-edge allocation pressure without claiming that "AI takes every chip."
+
+It also explains why "capacity is expanding" and "traditional markets are becoming loose again" are not synonymous.
+
+## 5A. Two-Speed Semiconductor Economy: AI is changing where the next dollar of capital goes
+
+By 2026, the most important structural change is no longer only which buyer receives more wafers in the current quarter. It is **for which demand the next generation of supply is being built**.
+
+In TSMC's 2Q26 platform revenue mix, HPC represented **66%** and Smartphone **22%**; advanced technologies, defined as 7 nm and below, represented **77%** of wafer revenue. TSMC also raised its 2026 capital budget to **US$60B–64B**, with most spending directed toward advanced process technologies and continued investment in advanced packaging, testing, and related areas. HPC cannot be equated one-for-one with AI, and these figures do not prove that Apple, Qualcomm, or any specific customer was “crowded out.” The narrower supported conclusion is that high-growth HPC/AI workloads are materially influencing incremental advanced-manufacturing capital formation.[^ch32-6]
+
+The memory layer shows the same shift in priority. Samsung said in 2Q26 that, under limited capacity, its Memory Business focused primarily on server products and expected server DRAM, enterprise SSD, and HBM demand to accelerate in 2H26.[^ch32-7] On 2026-08-07, SK hynix announced approximately **KRW54T** of combined investment in Yongin Y2 and Cheongju M17 to expand its mid- to long-term DRAM and NAND production base.[^ch32-8]
+
+This report defines the resulting macro structure as **Two-Speed Semiconductor Economy**:
+
+> **The marginal demand of the AI Infrastructure Economy is increasingly pulled by a small number of capital-intensive buyers, while the Traditional Device Economy remains constrained by BOM discipline, retail price elasticity, and replacement cycles. The two economies share parts of the upstream supply chain but have different price tolerance and capital-formation power.**
+
+This is not a factual verdict that consumer electronics have been “sacrificed.” The stronger long-run proposition is that marginal semiconductor demand is becoming more dependent on the CapEx decisions of hyperscalers, system-platform sellers, and Anchor Compute Buyers—moving the industry from **Demand Diversification** toward greater **Capital Concentration**.
+
+Whether this becomes permanent depends on AI Capacity Gap, NARC, utilization, pricing feedback, and whether future expansion restores balance.
+
+## 6. Fifth master judgment: Cloud Custom Silicon is both platform substitution and upstream resource competition
+
+Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer about a naked ASIC.[^ch32-9]
+
+It is a second class of system stack.
+
+Two effects occur together:
+
+1. **Platform-profit diversion:** selected workloads stop paying the full economics of an external system platform;
+2. **Upstream resource competition:** those custom systems still need advanced logic, HBM, packaging, networking, and power.
+
+Successful custom silicon therefore does not automatically reduce upstream scarcity.
+
+The variables that determine stronger S1 Competitive Expansion are production workload share, migration cost, system utilization, and external adoption—not product-launch count.
+
+## 7. Sixth master judgment: model companies are becoming Anchor Compute Buyers
+
+OpenAI Stargate, Anthropic/AWS, and other long-duration infrastructure commitments show that large model companies are becoming more than ordinary cloud tenants.[^ch32-10]
+
+Long-duration demand can:
+
+> improve project-financing certainty → pull forward cloud / data-center / power / chip buildout → secure more reliable capacity → support larger workloads
+
+This is the **Anchor Compute Buyer Effect**.
+
+The same mechanism can amplify capital-cycle risk.
+
+If long-duration commitments are delayed, utilization disappoints, or monetization fails to cover the capital base, the certainty that supported buildout can turn into stranded-capacity / duration-mismatch risk.
+
+Model-company long-duration commitments therefore sit alongside hyperscaler CapEx and seller supply commitments as leading indicators.
+
+## 8. Seventh master judgment: China has a real Parallel Stack, but Frontier Closure must be validated layer by layer
+
+China's supply capability cannot be judged through one localization percentage.
+
+- smartphone / consumer computing: relatively strong parallel-supply foundations;
+- PC / workstation: substitution is expanding while software compatibility and professional workloads remain important;
+- frontier AI: a real accelerator/software parallel stack exists, but full equivalent closure still requires advanced logic, HBM-class memory, advanced packaging, interconnect, compiler/runtime, frontier workloads, and power at scale.
+
+CXMT's prospectus does not disclose an HBM product line.
+
+Its auditable Omdia-based **2025 Q2 DRAM revenue share is approximately 3.97%**, not an assumed 8%.[^ch32-11]
+
+Counterpoint places YMTC at **14% of Q2 2026 NAND shipments**,[^ch32-12] while its Q1 2026 13% metric is a revenue share;[^ch32-13] the denominators must remain separate.
+
+Domestic conventional-memory growth therefore increases resilience, but does not by itself prove frontier-HBM or full system closure.
+
+A second constraint sits upstream: equipment, software/licensing, spare parts, field service, and materials qualification affect whether manufacturing capacity can ramp and advance.
+
+The most accurate current state is:
+
+> **China has moved beyond the stage of having no alternative system, but public evidence does not yet show globally equivalent scaled closure across every frontier critical layer.**
+
+TrendForce's **5.1% SMIC figure for 1Q26 is a foundry revenue share**, not a frontier-AI capability measure.[^ch32-14]
+
+## 9. Eighth master judgment: the capital cycle is about Utilization and Duration, not CapEx size alone
+
+Cloud CapEx, system-vendor revenue, foundry revenue, memory revenue, and power investment cannot be added directly into one "global AI investment" number because the same dollar can appear on several ledgers along the supply chain.
+
+AI-infrastructure capital risk comes from different clocks:
+
+- short-cycle compute assets;
+- medium-cycle networking / data-center equipment;
+- long-cycle shells / grids / PPAs;
+- future workload revenue.
+
+The time scales do not match.
+
+A real bubble / hard-landing diagnosis therefore requires synchronized deterioration across:
+
+- Accounting;
+- Utilization / Revenue;
+- Market Clearing;
+- Forward Commitment.
+
+As of August 2026, public evidence is still more consistent with:
+
+> **high-intensity capital expansion + rising ROI pressure**
+
+than a confirmed industry-wide Capital Hard Landing.
+
+## 10. "Compute as a means of cognitive production" is a conditional proposition
+
+This book uses the phrase to describe a testable economic change, not to give models agency.
+
+The condition is whether an AI system can repeatedly complete verifiable workflows that previously required step-by-step human labor while covering its compute, energy, and capital costs.
+
+If it cannot do so reliably, compute remains primarily an assistance tool.
+
+If it can do so at scale and create measurable economic value, compute, memory, packaging, power, and the software stack become closer to productive infrastructure.
+
+The relevant unit is therefore:
+
+> **cost per verified workflow outcome + capital required to sustain it**
+
+rather than an abstract measure of "how intelligent the model is."
+
+## 11. Point estimates for 2030 / 2036 are not facts
+
+Exact future node prices, monthly packaging capacity, future HBM trade ratios, GW-scale campus counts, and trillion-dollar CapEx totals can only enter the analysis as explicitly labeled hypotheses / scenario inputs unless supported by current formal disclosures.
+
+The publication rules are:
+
+- undisclosed historical numbers do not enter F;
+- 2030/2036 point values remain H / D-grade scenario inputs unless later verified;
+- institutional forecasts retain source identity and time window;
+- company guidance does not become actuals;
+- repetition does not upgrade evidence grade.
+
+Long-run conclusions therefore depend on variables and mechanisms rather than one precise 2036 number.
+
+## 12. S1–S4 are conditional states, not an author's probability table
+
+### S1 — Competitive Expansion
+
+Supply elasticity rises, cloud/custom systems mature, interoperability lowers switching cost, and value capture becomes more distributed.
+
+### S2 — Baseline Concentration
+
+A small number of system platforms and scarce-layer suppliers retain strong economics while credible substitution paths continue developing.
+
+The current evidence mix most closely resembles this baseline.
+
+### S3 — Resource Hegemony
+
+Multiple scarce layers and switching costs strengthen together, requiring challengers to replicate a more complete infrastructure stack.
+
+### S4 — Capital Hard Landing
+
+Utilization, clearing prices, CapEx / commitments, and accounting losses deteriorate together, producing capital clearing.
+
+These states do not carry fixed world probabilities.
+
+Their relative weighting must change as public evidence changes.
+
+## 13. What should force the book to change its judgment
+
+High-value falsification signals include:
+
+- sustained declines or large cancellations in leading system-platform supply commitments;
+- advanced packaging no longer being described as a growth constraint;
+- HBM / DRAM residual supply loosening materially;
+- cloud custom systems creating large-scale, low-migration-cost substitution in frontier workloads;
+- open interfaces materially reducing CUDA / proprietary-fabric switching costs;
+- energized power expanding enough that Time-to-Power stops differentiating projects;
+- Anchor Compute Buyer commitments being delayed or underutilized at scale;
+- hyperscaler AI monetization persistently failing to cover the expanding capital base;
+- China's parallel stack gaining or losing scaled first-party evidence across multiple frontier closure gates;
+- formal regulatory remedies materially changing tying, interfaces, or market-entry conditions.
+
+If these signals contradict the current mechanisms, the report must change.
+
+They cannot be explained away by saying "the long-run story is still intact."
+
+## 14. Final master judgment
+
+As of August 2026, the book's core conclusion can be compressed into five statements:
+
+**First, the competitive unit in AI infrastructure has moved from the chip toward the system stack.**
+
+**Second, value capture is increasingly determined by scarce-layer access, switching costs, supply coordination, quantity assurance, and workflow monetization—not one market-share statistic.**
+
+**Third, HBM, advanced packaging, power, and capital duration are separate constraints that can rotate; cloud custom systems and China's parallel stack increase substitution paths without eliminating those physical constraints.**
+
+**Fourth, large model companies have become Anchor Compute Buyers capable of pulling infrastructure construction forward—and of amplifying duration risk if utilization disappoints.**
+
+**Fifth, the future is not one deterministic curve. S1–S4 weighting must be continuously updated from observable evidence on supply elasticity, system substitution, Anchor Buyer demand, utilization, power, regulation, and frontier-system closure.**
+
+The purpose of this research is therefore not to guess one inevitable 2036 outcome.
+
+It is to build an industrial-analysis framework that changes when the facts change.
+
+> **Forecasts may be wrong; evidence boundaries cannot be. Scenarios may be bold; the fact layer must remain disciplined. The most valuable long-run research is not a one-time prediction of the end-state, but knowing which facts would force the judgment to change.**
+
+## References
+
+[^ch32-1]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^ch32-2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^ch32-3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^ch32-4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^ch32-5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
+[^ch32-6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^ch32-7]: Samsung Electronics, 2Q26 Results, memory product prioritization and 2H26 demand outlook, https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results
+[^ch32-8]: SK hynix, 2026-08-07, Yongin Y2 and Cheongju M17 investment plan, https://news.skhynix.com/en/fab-facility-investment-2026/
+[^ch32-9]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^ch32-10]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^ch32-11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^ch32-12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^ch32-13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^ch32-14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+
+[^ch32-15]: TrendForce, 2025 CoWoS demand-structure research, NVIDIA estimated at >60% of 2025 CoWoS demand, https://www.trendforce.com/research/download/RP250314ZJ
+
+## Cross-references
+
+- Core Evidence Ledger
+- Core Source Index
+- Part I · Ch02 NVIDIA System Stack
+- Part I · Ch05 HBM
+- Part I · Ch06 Advanced Packaging
+- Part I · Ch07 Power
+- Part II · Ch12 Hyperscaler System Stack
+- Part II · Ch17 China Parallel Stack
+- Part III · Ch20 Value Capture Map
+- Part III · Ch24 Capital Clearing
+- Part IV · Ch31 Strategy & Endgame
