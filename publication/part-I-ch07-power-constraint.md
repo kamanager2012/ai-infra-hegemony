@@ -3,9 +3,9 @@
 
 ## 1. 电力为什么从运营成本变成基础设施配额
 
-当 rack-scale AI system 的整柜功耗进入约 **120 kW/rack** 量级，电力不再只是运行费用，而开始决定系统能否按期交付和利用。
+当 rack-scale AI system 的整柜功耗进入约 **120 kW/rack** 量级时，电力不再只是运行费用，而开始决定系统能否按期交付和利用。[^1]
 
-NVIDIA 官方 GB200/GB300 NVL72 级机柜文档给出约 **120 kW/rack** 的整柜功耗口径。[^1]用它做一个明确标注的 **D 级情景算术**：500 racks × 120 kW/rack = **60 MW rack-level full-load power**。
+NVIDIA 官方 GB200/GB300 NVL72 级机柜文档给出约 **120 kW/rack** 的整柜功耗口径。用它做一个明确标注的 **D 级情景算术**：500 racks × 120 kW/rack = **60 MW rack-level full-load power**。
 
 这只是数量级，不代表任何园区已经部署 500 柜，也不包含完整 facility overhead。它能说明的是：数百柜部署很快会把局部供电需求推到数十 MW 级，变电站、输电、许可、冷却和 firm power 因而进入交付链。
 
