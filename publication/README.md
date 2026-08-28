@@ -1,6 +1,6 @@
 # Publication Layer · 出版层总目录
 
-> 这里存放面向连续阅读的正式出版正文。**中文与英文 Publication Layer 均已完成 32/32 章同步；中英文 Markdown QA、逐章双语结构/高风险数值回归，以及研究层 96/96 required-source gate 均已通过。整体项目仍未标记为 Publication Ready。** critical-link sweep 与当前 Publication Layer 版权/长引文审计已关闭。剩余封版门禁为 GitHub Actions 重新启用（或执行本地/WSL fallback）、PDF/EPUB 实际导出与 machine proof、最终人工 proofread/低风险 semantic sign-off、作者 COI 确认，以及最终发布日期/公开仓库/Release 操作。
+> 这里存放面向连续阅读的正式出版正文。**中文与英文 Publication Layer 均已完成 32/32 章同步；中英文 Markdown QA、逐章双语结构/高风险数值回归，以及研究层 96/96 required-source gate 均已通过。整体项目仍未标记为 Publication Ready。** critical-link sweep 与当前 Publication Layer 版权/长引文审计已关闭。剩余封版门禁为已启用的 `Release QA v1` 获得 GitHub-hosted runner 分配（或执行本地/WSL fallback）、PDF/EPUB 实际导出与 machine proof、最终人工 proofread/低风险 semantic sign-off、作者 COI 确认，以及最终发布日期/公开仓库/Release 操作。
 
 正式封版门禁见 [《出版封版标准》](../出版封版标准.md)；出版前置页见 [Front Matter](00-front-matter.md)；完整结构见 [《出版版结构》](../出版结构.md)。
 
@@ -49,14 +49,14 @@
 - **Part IV — 方法、情景、监测与战略：6/6。**
 - **中文 Publication Layer：32/32 章完成结构整合与第一轮专业出版编辑。**
 - **中文 Markdown QA：PASS** — References 32/32、footnote 引用定义一致、正文裸 URL 清零、施工语气清零、标题层级无跳级、Table 编号/Source/Note 一致、常见单位大小写错误清零。
-- **中文 Front Matter：已补齐** — 报告定位/免责声明、正式目录、表格目录、缩写与核心术语表。
+- **中文 Front Matter：pre-release 内容完整** — 报告定位/免责声明、正式目录、表格目录、缩写与核心术语表均已具备；目标版本明确为 v1.0.0，正式发布日期仅在最终 proof 与实际发布时锁定。
 - **英文 Publication Layer：32/32 章已按当前中文版重新同步。**
 - **英文 Markdown QA：PASS** — References 32/32、footnote 定义/引用闭合、正文裸 URL 清零、施工语气清零、标题层级无跳级、Table 编号/Source/Note 一致、常见单位大小写错误清零。
 - **双语逐章回归：PASS** — 32/32 章 Table 编号集合、References 数量、数字章节序列一致；高风险货币/百分比/功率/容量/制程数值与单位集合已回归对齐。
 - **Research required-source gate：PASS** — 中文 48/48 + 英文 48/48，共 96/96 research files；高风险 claim ledger 中英文各 32 条且 bilingual_id 完全对齐。
 - **32/32 章节结构与旧口径机械回归：已通过。**
 - **核心证据深链 QA：已完成第一轮。**
-- **Publication Ready：尚未完成** — critical links 与当前 rights gate 已 PASS；剩余为 Actions re-enable（或本地/WSL fallback 实跑）、PDF/EPUB build + machine proof、最终人工 proofread/低风险 semantic sign-off、作者 COI、final release metadata 与公开仓库/Release 操作。
+- **Publication Ready：尚未完成** — critical links 与当前 rights gate 已 PASS；fresh enabled `Release QA v1` 已正常触发，但 attempt 1/2 均在 runner 分配前失败（`steps: [] / runner_id: 0`）。剩余为获得 runner assignment（或本地/WSL fallback 实跑）、PDF/EPUB build + machine proof、最终人工 proofread/低风险 semantic sign-off、作者 COI、final release metadata 与公开仓库/Release 操作。
 
 当前已完成的出版 QA 包括：
 
