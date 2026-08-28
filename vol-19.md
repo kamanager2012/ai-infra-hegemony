@@ -70,6 +70,12 @@
 - contracted GW 是否真正变成 energized GW；
 - powered land 是否仍然稀缺。
 
+### 本卷关键公开来源
+- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
+
 ## 4. Phase III：2031–2033 —— 地理与产业结构固化
 
 如果 AI infrastructure 继续扩大，到这一阶段竞争会从“产品路线”进一步上升到“区域基础设施体系”。
