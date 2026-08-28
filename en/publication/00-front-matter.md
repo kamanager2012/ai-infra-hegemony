@@ -46,6 +46,12 @@ Original report text is distributed under the repository LICENSE. Third-party ma
 
 ---
 
-**Executive Summary → Chapter 1**  
-**Research Method and Evidence Architecture → Chapter 27**  
-**Core References and Evidence Ledger → Appendices / References**
+## Reading Navigation
+
+- [Table of Contents](01-table-of-contents.md)
+- [List of Tables](02-list-of-tables.md)
+- [Abbreviations and Core Glossary](03-abbreviations-and-glossary.md)
+- [Executive Summary — Chapter 1](part-I-ch01-executive-summary.md)
+- [Research Method and Evidence Architecture — Chapter 27](part-IV-ch27-research-method.md)
+- [Core Evidence Ledger](../核心证据台账.en.md)
+- [Core Source Index](../核心参考文献索引.en.md)
