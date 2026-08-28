@@ -21,56 +21,19 @@ frontier AI system 至少同时依赖：
 
 因此，任何只讨论“模型榜单”或“芯片 benchmark”的产业判断都不完整。
 
-## 2. 当前最重要的五个结构事实
+## 2. 五个结构事实：本卷只引用，不再重复证明
 
-### 2.1 System sales unit 已经上移
+本卷是战略收束，不重新复制前文的财务表、HBM 物理推导、advanced-packaging 证据和 power 项目状态。五个事实锚的 canonical home 如下：
 
-GB200 NVL72 等产品把销售单位从 accelerator card 推向 rack-scale system。
+| 结构事实 | 当前判断 | 主证据位置 |
+|---|---|---|
+| System sales unit 上移 | 竞争单位已从 accelerator card 上移到 rack-scale system / system stack | [vol-02](vol-02.md) + [vol-32](vol-32.md) |
+| Scarce-layer value capture | 强 seller economics、长期承诺和供应协调构成资源预订能力，但不等于独占全部未来产能 | [vol-01](vol-01.md) + [核心证据台账](核心证据台账.md) |
+| Memory / packaging bottleneck | HBM wafer trade ratio、HBM/RDIMM 前向占比与 advanced-packaging tightness 构成独立物理约束 | [vol-05](vol-05.md) + [vol-24](vol-24.md) |
+| Cloud second system stack | Google/AWS/Microsoft/Meta 已从单颗自研芯片推进到 software + interconnect + rack/pod + workload | [vol-25](vol-25.md) |
+| Power quota | 约120 kW-class rack 与 835 MW / up to 1.92 GW / up to 500 MWe 项目路径显示 power 有独立合同、许可、上电与利用率时钟 | [vol-13](vol-13.md) + [vol-35](vol-35.md) |
 
-竞争因此转向：
-
-> system stack vs system stack。
-
-### 2.2 Scarce-layer value capture 已经形成
-
-NVIDIA FY27 Q2：
-
-- revenue：**US$96.221B**
-- Data Center：**US$89.0B**
-- GAAP gross margin：**75.0%**
-- GAAP operating income：**US$63.734B**
-
-高 seller economics 使长期资源预订成为现实竞争能力。
-
-### 2.3 Memory 与 packaging 是核心瓶颈
-
-Micron FY24 Q3 prepared remarks 的 **industrywide / same-node / same-bits** 口径为：HBM3E 约需 DDR5 **3× wafer supply**。这是有明确适用边界的一手公司披露，不把“~3×”脱离口径写成普适物理常数。
-
-TrendForce **预计** HBM + RDIMM 约占 **2026 DRAM bit supply 51%**；这是 2026E 机构预测，不是已实现实绩。
-
-TSMC 已明确表示 advanced packaging tightness 限制客户增长。
-
-### 2.4 Cloud 正在建立第二类 system stack
-
-Google、AWS、Microsoft、Meta 的自研路线已经从 chip 上升到：
-
-- software；
-- interconnect；
-- rack/pod；
-- internal workload。
-
-它们正在分流 platform profit，但仍竞争相同 upstream scarce resources。
-
-### 2.5 Power 已进入核心资源层
-
-约 **120 kW/rack** 的 GB200 NVL72-class rack，以及 835 MW / up to 1.92 GW / up to 500 MWe 等不同成熟度的 power project / contract 路径，使：
-
-- grid；
-- substation；
-- firm power；
-- PPA
-
-成为 AI infrastructure 的核心配额。
+因此，本卷后续只回答一个问题：**在这五个已经建立的结构事实之上，个人、企业、资本与国家应如何配置选择权，并用什么信号判断 S1–S4 的相对权重变化。**
 
 ## 3. 正式未来框架：S1–S4
 
