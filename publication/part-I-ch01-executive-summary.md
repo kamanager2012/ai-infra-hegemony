@@ -1,66 +1,89 @@
 # Part I · 第1章：执行摘要与未来十年核心判断
 
-## 1. 核心结论
+## 1. 执行判断：AI 正在重构产业资源配置，而不只是扩大算力市场
 
-> **AI infrastructure 的竞争单位已经从单颗芯片上移到完整 system stack。长期价值捕获越来越取决于谁能同时协调 advanced logic、HBM、advanced packaging、interconnect、software、rack/data center 与 power 等多个 scarce layers，并把这些物理资源转化为高利用率、可迁移、能够产生现金流的真实 workload。**
+截至 **2026 年 8 月 28 日**，AI 产业最重要的变化已经不再只是 GPU 销量增长，而是**全球先进半导体、存储、封装、数据中心、电力与资本的边际配置逻辑正在被重新排序**。
 
-这不是“永久垄断”判断，也不是对 2036 年市场份额的单点预测。本报告讨论的是一套正在变化的资源配置机制：当 AI/HPC workload 的支付能力、订单期限、预付款和资本回报显著高于传统终端时，新增资本与稀缺资源更容易向 AI infrastructure 倾斜；当供给扩张、系统替代、利用率或商业回报发生变化时，这一结构也会重新平衡。
+本报告的核心判断可以压缩为五点：
 
-截至 **2026 年 8 月 28 日**，公开事实更符合 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 保持强经济性，HBM、advanced packaging 与 power 等物理约束仍然重要，同时 hyperscaler custom systems、中国 parallel stack 与供给扩张继续提供真实替代路径。
+1. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
+2. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
+3. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 因此，总供给增长与 smartphone、PC、汽车、工业等市场继续承受价格或配置压力可以同时成立。
+4. **NVIDIA 的优势仍然很强，但竞争已经从“GPU vs ASIC”升级为“system stack vs system stack”。** Google、AWS、Microsoft、Meta 的 custom systems 正在形成第二类完整路线。
+5. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、utilization、power、capital discipline 与中国 parallel stack 的 frontier closure。
 
-## 2. 八个事实锚
+截至当前，公开事实更符合 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 保持强经济性，替代路线正在发展，但尚未消除 HBM、advanced packaging、power 与迁移成本等关键约束。
 
-### 2.1 NVIDIA 的商业交付单位已经上移到 rack-scale system
+---
 
-GB200 NVL72 官方规格包含 **72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E 与 17 TB LPDDR5X**。这说明高端 AI infrastructure 的采购与交付对象已经从 accelerator card 上移到 compute、memory、interconnect、software 与 rack architecture 的组合。[^1]
+## 2. 第一层变化：AI 基础设施已经从“芯片采购”变成“系统工程”
 
-### 2.2 NVIDIA 的 seller-side economics 仍处高位
+NVIDIA GB200 NVL72 官方规格包含 **72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E 与 17 TB LPDDR5X**。高端 AI infrastructure 的商业交付对象已经从 accelerator card 上移到 compute、memory、interconnect、software 与 rack architecture 的组合。[^1]
 
-NVIDIA FY27 Q2 披露 Revenue **US$96.221B**、Data Center revenue **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**；公司同时表示 Vera Rubin 已进入 full production。[^2]
+这一变化解释了为什么单颗芯片 benchmark 越来越不足以解释产业竞争。真正决定 system economics 的，是：
 
-### 2.3 Forward supply commitments 显著扩大
+- 单位 workload 的有效吞吐与成本；
+- software / runtime 的迁移成本；
+- memory 与 interconnect 的系统效率；
+- rack-level deployment 与 power density；
+- 供应链能否稳定获得 advanced logic、HBM 与 packaging；
+- 最终 utilization 是否足以覆盖资本成本。
 
-NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**。FY27 Q2 10-Q 说明，最新承诺主要涉及 data-center infrastructure systems 所需的 memory 与 manufacturing facilities，但没有披露 supplier-level split，因此不能把该总额直接分配给 TSMC、CoWoS 或任何单一 HBM vendor。[^3]
+NVIDIA FY27 Q2 披露 Revenue **US$96.221B**、Data Center revenue **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**，并表示 Vera Rubin 已进入 full production。[^2] 这些数据说明当前领先平台仍具有极强 seller-side economics，但高利润本身并不能证明永久垄断；真正需要判断的是这些利润能否持续转化为下一代 system、supply 与 installed-base 优势。
 
-### 2.4 TSMC 的需求结构已经明显向 HPC 倾斜
+与此同时，NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B**。[^3] 这说明前置供应承诺显著扩大，但公开文件没有披露 supplier-level split，因此不能把 US$279B 直接解释成 TSMC、CoWoS 或某一家 HBM supplier 的确定订单。
 
-TSMC 2025 年 HPC platform 占全年 net revenue **58%**，smartphone 占 **29%**；3 nm、5 nm、7 nm 分别占 wafer revenue **24% / 36% / 14%**。这些是 revenue mix，不是 customer-level wafer allocation，更不能直接换算成 CoWoS share。[^4]
+---
 
-2026 Q2，TSMC 的 HPC platform revenue 占季度营收 **66%**，smartphone 为 **22%**；同季 advanced technologies（7 nm 及以下）占 wafer revenue **77%**。这进一步显示 HPC 已成为先进制造增量需求的核心驱动力之一，但 HPC 仍不能与 AI 一一等同。[^5]
+## 3. 第二层变化：半导体正在形成 Two-Speed Semiconductor Economy
 
-### 2.5 HBM 已进入制造资源竞争层
+AI infrastructure 与传统终端仍然共享大量上游资源，但两类需求的经济属性已经明显分化。
 
-Micron 一手披露：在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。这是一项 wafer-supply trade ratio，不是售价倍数，也不是所有 HBM 世代固定不变的制造常数。[^6]
+AI/HPC 的典型特征是：
 
-TrendForce 预计 HBM + RDIMM 约占 **2026 年 DRAM bit supply 的 51%**。该数字是机构预测而非 full-year actual；与 Micron 的约 3× trade ratio 联合观察，可以解释为什么 AI/server memory 对 conventional DRAM residual supply 的影响可能大于 bit share 本身。[^7]
+- 更高的价格承受能力；
+- 更长的订单与 capacity-commitment 周期；
+- 更高的单机与单柜 BOM；
+- 更强的融资与预付款能力；
+- 对先进制程、HBM、advanced packaging 与 power 的集中需求。
 
-### 2.6 Advanced Packaging 已成为可验证的 growth constraint
+传统 smartphone、PC、汽车与工业终端则更受零售价格、BOM、换机周期和终端需求弹性约束。
 
-TSMC 在 4Q24 表示 advanced packaging capacity “very tight”，无法满足全部客户需求；在 2Q26 earnings call 中又明确表示 packaging capacity tightness 正在限制客户增长。TSMC 没有公开 customer-level CoWoS allocation，因此第三方对客户集中度的估计必须保留机构估计身份。[^8]
+TSMC 2025 年 HPC platform 占全年 net revenue **58%**，smartphone 占 **29%**；到 2026 Q2，HPC platform revenue 占季度营收 **66%**，smartphone 为 **22%**，advanced technologies（7 nm 及以下）占 wafer revenue **77%**。[^4][^5] 这些是 revenue mix，不能直接换算成 customer-level wafer allocation，但它们足以说明：HPC 已成为先进制造资本形成的重要边际驱动力之一。
 
-### 2.7 Power 已成为与 wafer、memory、packaging 并列的独立物理约束
+因此，本报告把这一结构称为 **Two-Speed Semiconductor Economy**：
 
-NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此同时，835 MW 级核电重启、最高 1.92 GW 的长期 PPA、以及面向 2030–2035 的数百 MW 级先进核电开发计划，显示 Time-to-Power、grid connection、substation、firm power 与 permitting 已进入 AI system delivery 的约束集合。Contracted、Permitted、Energized、Utilized MW 必须严格分开。[^9]
+> **AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，却具有不同的价格承受能力、订单期限与资本形成能力。真正改变产业的，不只是“谁买了更多芯片”，而是谁更能决定新增产能为了什么需求而建设。**
 
-### 2.8 Hyperscaler custom systems 已经形成真实第二路线
+---
 
-Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 300 均显示，hyperscaler 的竞争已经从“自研一颗 ASIC”上移到 accelerator、compiler/runtime、interconnect、rack/pod 与 captive workload 的 system-stack competition。[^10]
+## 4. 第三层变化：稀缺正在从单一芯片扩展为多个独立物理池
 
-这并不等于 NVIDIA 已被替代。真正需要观察的是这些系统承担多少 production workload、迁移成本是否下降、利用率是否可持续，以及它们是否仍竞争同一批 advanced logic、HBM、packaging 与 power。
+### 4.1 HBM：bit share 低估了制造资源占用
 
-## 3. 七个核心机制
+Micron 一手披露，在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^6]
 
-### 3.1 Scarce-layer Value Capture
+TrendForce 预计 HBM + RDIMM 约占 **2026 年 DRAM bit supply 的 51%**。[^7] 该数字是机构预测，不是 full-year actual。两条证据联合起来的重要含义不是“H​​BM 占了多少市场份额”，而是：
 
-当某个平台同时拥有高现金流、长期订单、system definition、switching cost 与 supply orchestration 能力时，它更有能力提前承诺下一代稀缺资源，从而提高交付确定性。高毛利率只是这一机制的结果之一，不等于法律意义上的 monopoly finding。
+> **高价值 AI/server memory 对制造资源的吸收强度，可能显著高于单纯 bit share 所显示的程度。**
 
-### 3.2 AI Resource Gravity
+### 4.2 Advanced Packaging：先进逻辑有产能并不等于系统能够交付
 
-当 AI/HPC workload 能提供更高风险调整后回报、更长期订单和更强利用率可见性时，资本与有效产能更容易向 advanced logic、HBM、advanced packaging、networking 与 power 等高价值层移动。
+TSMC 在 4Q24 表示 advanced packaging capacity “very tight”，2026 Q2 又明确表示 packaging tightness 正在限制客户增长。[^8]
 
-### 3.3 Non-AI Residual Capacity
+因此，先进节点 wafer capacity 与可交付 AI system capacity 不能画等号。即使某一层扩产，bottleneck 也可能转移到 packaging、memory、networking 或 power。
 
-传统行业面对的不是“全球总产能”，而是完成优先分配后仍然能够获得的有效残量：
+### 4.3 Power：从设备约束升级为基础设施约束
+
+NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此同时，835 MW 级核电重启、最高 1.92 GW 的长期 PPA，以及数百 MW 级长期电源开发计划，说明 Time-to-Power、grid connection、substation、firm power 与 permitting 已经进入 AI system delivery 的核心约束集合。[^9]
+
+分析中必须严格区分 **Contracted / Permitted / Energized / Utilized MW**。合同容量不能写成已经上电，更不能写成已经被有效 workload 使用。
+
+---
+
+## 5. 第四层变化：真正值得观察的是 Non-AI Residual Capacity，而不是总产能
+
+传统行业能够获得多少资源，不取决于全球总供给本身，而取决于优先需求吸收之后剩余多少有效供给：
 
 ```text
 NonAI_Residual(t)
@@ -69,107 +92,118 @@ NonAI_Residual(t)
 - Other_Priority_Demand(t)
 ```
 
-因此，“总供给增长”与“smartphone / PC 等传统终端仍然承受价格和配置压力”可以同时成立。
+这个框架能够解释一个看似矛盾的现象：
 
-### 3.4 Two-Speed Semiconductor Economy
+> **全球 wafer、DRAM 或 packaging capacity 可以继续增长，但 smartphone、PC、汽车或工业客户仍然可能面对更高价格、更低 allocation 或更慢规格升级。**
 
-AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，却具有不同的价格承受能力、合同期限、预付款结构、BOM 约束与终端价格弹性。
+因此，AI 对传统产业的影响通常不是“直接抢走全部产能”，而是通过 **product-mix reallocation、quantity assurance、pricing power 与 capital priority** 改变边际供给。
 
-核心变化不是“消费电子消失”，而是：
+这也是为什么低利润、低议价、短订单客户通常比大型 anchor buyer 更容易承受压力。
 
-> **AI/HPC 正在提高少数高资本强度买方对半导体边际需求和新增资本形成的影响力。**
+---
 
-### 3.5 AI Capacity Gap：绝对缺口与增长缺口必须分开
+## 6. 第五层变化：Hyperscaler 正在从芯片自研走向第二类 System Stack
 
-为了判断某一物理层**当前是否真的短缺**，本报告定义绝对缺口：
+Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 300 显示，hyperscaler 的竞争已经从“有没有自研 ASIC”上移到 accelerator、compiler/runtime、interconnect、rack/pod 与 captive workload 的 system-stack competition。[^10]
 
-```text
-AI_Capacity_Gap_i(t)
-= AI_Effective_Demand_i(t)
-- AI_Effective_Capacity_i(t)
-```
+这会产生两个同时存在、方向不同的效果：
 
-其中 \(i\) 分别代表 advanced logic、HBM/DRAM、advanced packaging、networking、power 等物理层。Demand 与 Capacity 必须使用**同一交付窗口、同一质量/认证边界和同一物理单位**，例如 wafers/month、qualified package starts/month、bits/year 或 MW。
+1. **Platform-profit diversion**：部分 workload 不再支付完整的外部平台 economics；
+2. **Upstream resource competition**：custom systems 自身仍然需要 advanced logic、HBM、packaging 与 power。
 
-- **Absolute Gap > 0**：当前存在可交付供给缺口；
-- **Absolute Gap ≈ 0**：当前供需接近平衡；
-- **Absolute Gap < 0**：当前存在有效余量。
+因此，“custom silicon 增长”并不自动意味着 NVIDIA 失去产业地位，也不自动意味着上游资源宽松。真正需要观察的是：
 
-为了判断短缺压力是在扩大还是收敛，再单独定义：
+- production workload share；
+- migration cost；
+- system utilization；
+- external adoption；
+- software portability；
+- 是否减少对同一批 scarce layers 的竞争。
 
-```text
-AI_Capacity_Growth_Gap_i(t)
-= Growth(AI_Effective_Demand_i(t))
-- Growth(AI_Effective_Capacity_i(t))
-```
+---
 
-Growth Gap 的单位是同一期间的增长率差（percentage points），它只描述**缺口变化方向**，不能替代绝对缺口：
+## 7. 中国：已经形成真实 Parallel Stack，但不能用一个“国产化率”判断
 
-- **Growth Gap > 0**：短缺可能扩大，或既有余量被侵蚀；
-- **Growth Gap < 0**：短缺可能收敛，或有效余量扩大；
-- **Growth Gap = 0**：只表示供需以相同速度变化，不表示当前没有短缺。
+中国已经形成持续发展的 accelerator/software parallel stack，并在 consumer computing、DRAM/NAND、部分通用计算与本土软件生态上形成更强的平行供给能力。[^11]
 
-因此，S4 Capital Hard Landing 的强信号不是“Growth Gap < 0”本身，而是 **Absolute Gap < 0 / excess capacity** 与 utilization、clearing price、forward commitments 同步恶化。
+但 frontier AI 的等价闭环需要多个层级同时成立：
 
-AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 是三类不同问题：前两者观察 AI 侧当前缺口及其变化方向，NARC 观察优先分配后非 AI 市场还能获得多少有效资源。
+- advanced logic；
+- HBM-class memory；
+- advanced packaging；
+- high-speed interconnect；
+- compiler/runtime；
+- frontier workload；
+- large-scale system operation；
+- power；
+- equipment / materials / software continuity。
 
-### 3.6 Cloud System-Stack Substitution
+因此，本报告既不采用“已经全面追平”，也不采用“完全没有替代能力”的极端叙述。
 
-Hyperscaler custom stack 可以同时产生两种方向相反但并存的效应：
+> **更准确的判断是：中国已经跨过“没有替代系统”的阶段，但公开证据尚不足以证明所有 frontier critical layers 都已经形成全球等价规模闭环。**
 
-1. **Platform-profit diversion**：部分 workload 不再支付完整外部平台 economics；
-2. **Upstream resource competition**：custom system 自身仍需要先进逻辑、HBM、packaging 与 power。
+这意味着中国 AI infrastructure 的核心问题不是“有没有一颗国产 GPU”，而是能否形成可持续、可规模化、可迭代的完整 system closure。
 
-因此，“更多 custom silicon”并不自动意味着上游物理稀缺缓解。
+---
 
-### 3.7 Anchor Compute Buyer Effect
+## 8. 资本周期：真正的风险不是 CapEx 大，而是资产久期与利用率错配
 
-大型 model company 的多年、十年级 compute commitment 可以提高基础设施项目的 revenue visibility 与融资确定性，推动 cloud、data center、power 与 semiconductor capacity 提前建设；反过来，如果 utilization 或 monetization 不足，长期承诺也会放大 duration-mismatch 与 stranded-capacity risk。
+Cloud CapEx、system-vendor revenue、foundry revenue、memory revenue 与 power/data-center investment 会在产业链不同账本中重复出现，因此不能机械相加成“全球 AI 总投入”。
 
-## 4. 中国必须按系统层级判断，而不能用一个“国产化率”概括
+AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 
-中国已经形成真实且持续发展的 accelerator/software parallel stack，并在 consumer computing、DRAM/NAND、部分通用计算与本土软件生态上形成更强的平行供给能力；但 frontier AI 的等价闭环仍需要 advanced logic、HBM-class memory、advanced packaging、high-speed interconnect、compiler/runtime、frontier workload 与 power 同时达到可验证规模。[^11]
+- accelerator / server：技术周期短；
+- network / cooling：中周期；
+- data-center shell：长周期；
+- grid / substation / generation：更长周期；
+- workload monetization：不确定且取决于真实业务采用。
 
-因此，本报告不采用“已经全面追平”或“完全没有替代能力”两种极端表述。更准确的状态是：
+因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 headline CapEx，而应同时观察：
 
-> **中国已经跨过“没有替代系统”的阶段，但公开证据尚不足以证明所有 frontier critical layers 都已经形成全球等价规模闭环。**
-
-## 5. 资本周期不能用一个 CapEx 总额判断
-
-Cloud CapEx、system-vendor revenue、foundry revenue、memory revenue 与 power/data-center investment 会在产业链不同账本中重复出现，因此不能机械相加为“全球 AI 总投入”。
-
-判断 **S4 — Capital Hard Landing** 必须至少同时观察四组信号：
-
-- **Accounting**：impairment、write-down、折旧压力；
-- **Utilization / Revenue**：有效利用率、单位收入、真实 monetization；
+- **Accounting**：impairment、write-down、accelerated depreciation；
+- **Utilization / Revenue**：有效利用率、单位收入、workflow monetization；
 - **Market Clearing**：lease rate、二手价格、lead time、inventory；
 - **Forward Commitment**：CapEx guidance、supply commitments、Anchor Buyer contracts。
 
-截至 2026 年 8 月，本报告判断公开事实更符合：
+截至 2026 年 8 月，公开事实更符合：
 
-> **高强度资本扩张 + ROI 压力上升**
+> **高强度资本扩张仍在持续，但对 utilization 与 monetization 的要求正在明显提高。**
 
-而不是已经确认的全行业 Capital Hard Landing。
+这与“全行业资本硬着陆已经发生”是两个不同判断。
 
-## 6. S1–S4：未来不是一条确定曲线
+---
+
+## 9. 2026–2036：未来由四种结构状态而不是一个单点预测描述
 
 **Table 1.1 — AI 基础设施四类标准情景**
 
 | 情景 | 核心结构 |
 |---|---|
-| S1 — Competitive Expansion | supply elasticity 与 interoperability 上升，多系统栈共存，value capture 更分散 |
+| S1 — Competitive Expansion | supply elasticity 与 interoperability 上升，多 system stack 共存，value capture 更分散 |
 | S2 — Baseline Concentration | 少数 system platform 与 scarce-layer supplier 保持强经济性，同时替代路线持续发展 |
-| S3 — Resource Hegemony | 多个 scarce layers 与 switching cost 同时强化，后来者必须复制更完整 infrastructure stack |
+| S3 — Resource Hegemony | 多个 scarce layers 与 switching cost 同时强化，后来者复制完整 infrastructure stack 的门槛上升 |
 | S4 — Capital Hard Landing | utilization、clearing price、CapEx/commitments 与 accounting losses 同步恶化 |
 
 **Source:** 本报告情景框架。  
-**Note:** S1–S4 是并列条件状态，不赋固定概率，也不被视为必然连续阶段。
+**Note:** S1–S4 是并列条件状态，不赋固定概率，也不是必然连续阶段。
 
-截至 2026 年 8 月，**S2 — Baseline Concentration** 是最接近当前事实组合的基准状态，但不是固定十年预测。
+截至 2026 年 8 月，**S2 — Baseline Concentration** 是最接近当前事实组合的基准状态。
 
-## 7. 什么事实会迫使本报告改判
+决定未来向哪一侧移动的核心变量不是一个“2036 市场份额预测”，而是：
 
-以下变化应显著降低 S2/S3 权重或迫使相关机制重估：
+- supply elasticity 是否改善；
+- HBM / packaging / power 是否继续构成跨代约束；
+- hyperscaler custom systems 是否承担更大比例的真实 production workload；
+- software migration cost 是否下降；
+- AI workload monetization 是否足以覆盖资本基数；
+- Anchor Compute Buyer commitments 是否兑现；
+- 中国 frontier-system closure 是否跨越更多关键层。
+
+---
+
+## 10. 哪些事实会迫使本报告改判
+
+以下变化应显著降低 S2/S3 的相对权重：
 
 - leading system-platform commitments 持续下降或大规模取消；
 - advanced packaging 不再被主要供应商描述为 growth constraint；
@@ -177,21 +211,26 @@ Cloud CapEx、system-vendor revenue、foundry revenue、memory revenue 与 power
 - cloud custom systems 在 frontier workload 上形成低迁移成本的大规模替代；
 - energized power 与 grid interconnection 大幅改善，Time-to-Power 不再造成项目差异；
 - Anchor Compute Buyer commitments 大规模改期或利用不足；
-- China frontier-system closure 在多个关键层获得规模化一手证据并显著提高替代能力；
+- China frontier-system closure 在多个关键层获得规模化一手证据；
 - formal regulatory remedy 实质性降低 proprietary-interface switching cost。
 
-反过来，如果 AI Capacity Gap 在多个物理层长期保持正值、NARC 持续下降、migration cost 仍高、forward commitments 继续扩张，则 S3 Resource Hegemony 的相对权重会上升。
+反过来，如果多个关键物理层持续短缺、Non-AI Residual Capacity 继续下降、migration cost 仍高、forward commitments 继续扩大，则 S3 — Resource Hegemony 的相对权重会上升。
 
-## 8. 本报告结构
+---
 
-本报告分为四部分：
+## 11. 阅读本报告时最重要的边界
 
-- **Part I — 系统权力与物理稀缺：** system stack、advanced logic、HBM、advanced packaging、power 与 manufacturing redundancy；
-- **Part II — 需求、替代与第二系统栈：** model economics、hyperscaler custom systems、Anchor Compute Buyers、China parallel stack 与竞争政策；
-- **Part III — 资本周期、利润池与外部传导：** CapEx、value capture、consumer transmission、depreciation、financing、capital clearing 与 labor；
-- **Part IV — 方法、情景、监测与战略：** evidence architecture、2026–2036 milestones、monitoring framework、S1–S4 与最终战略判断。
+本报告所有判断始终区分：
 
-读者如果只阅读一章，应以本章作为全书结论入口；如果需要核验任一高影响数字，应继续进入对应主题章与 References。
+- **Fact**：已经发生并可公开验证；
+- **Institutional Forecast**：机构预测；
+- **Company Guidance**：公司前瞻指引；
+- **Hypothesis / Scenario**：本报告条件假设；
+- **Model / Stress Test**：本报告计算与压力测试。
+
+未来判断可以明确，但不能伪装成已经发生的事实；历史事实必须保留时间、分母、单位与来源身份。
+
+如果只阅读一章，应以本章作为全书入口；如果需要理解任一结论的证据链、反方条件与量化边界，应继续进入对应主题章与 References。
 
 ## References
 
