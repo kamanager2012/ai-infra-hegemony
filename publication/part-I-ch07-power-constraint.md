@@ -5,7 +5,7 @@
 
 当 rack-scale AI system 的整柜功耗进入约 **120 kW/rack** 量级，电力不再只是运行费用，而开始决定系统能否按期交付和利用。
 
-NVIDIA 官方 GB200/GB300 NVL72 级机柜文档给出约 **120 kW/rack** 的整柜功耗口径。用它做一个明确标注的 **D 级情景算术**：500 racks × 120 kW/rack = **60 MW rack-level full-load power**。
+NVIDIA 官方 GB200/GB300 NVL72 级机柜文档给出约 **120 kW/rack** 的整柜功耗口径。[^1]用它做一个明确标注的 **D 级情景算术**：500 racks × 120 kW/rack = **60 MW rack-level full-load power**。
 
 这只是数量级，不代表任何园区已经部署 500 柜，也不包含完整 facility overhead。它能说明的是：数百柜部署很快会把局部供电需求推到数十 MW 级，变电站、输电、许可、冷却和 firm power 因而进入交付链。
 
@@ -21,13 +21,13 @@ NVIDIA 官方 GB200/GB300 NVL72 级机柜文档给出约 **120 kW/rack** 的整�
 
 ### 3.1 Microsoft / Constellation：约 835 MW 的存量核电重启
 
-Microsoft 与 Constellation 的 **20 年 PPA** 支持原 Three Mile Island Unit 1 以 Crane Clean Energy Center 名义重启，公开机组规模约 **835 MW**。这一案例说明 hyperscaler 开始用长期需求承诺支持大型电力资产重新进入供给。
+Microsoft 与 Constellation 的 **20 年 PPA** 支持原 Three Mile Island Unit 1 以 Crane Clean Energy Center 名义重启，公开机组规模约 **835 MW**。[^2]这一案例说明 hyperscaler 开始用长期需求承诺支持大型电力资产重新进入供给。
 
 但 835 MW 是项目/机组容量锚，不是 835 MW 已经实时送达 AI 数据中心。项目仍受监管、设备修复、重启执行、并网和商业运行时钟约束。Constellation 官方稿只说重启需要 significant investments，**没有披露 US$1.6B restart CapEx**；因此该数字不进入本章事实层。
 
 ### 3.2 Talen / AWS：up to 1,920 MW 的 revised PPA
 
-Talen/AWS revised PPA 的 full contract quantity **up to 1,920 MW**，合同延续至 2042。Talen 2026 Q2 10-Q 写明 transition to the revised AWS PPA **occurred in April 2026**；较早的 2025 10-K 又曾写 **full transition expected in spring 2027**。
+Talen/AWS revised PPA 的 full contract quantity **up to 1,920 MW**，合同延续至 2042。Talen 2026 Q2 10-Q 写明 transition to the revised AWS PPA **occurred in April 2026**；较早的 2025 10-K 又曾写 **full transition expected in spring 2027**。[^3][^4]
 
 因此 April 2026 可以作为 revised-PPA transition 的当前披露状态，**不能被解释成全部物理转换、输电改造和 full delivery 都已经完成**。后续真正需要追踪的是 capacity ramp、energized MW、AWS load 与 utilization。
 
@@ -35,7 +35,7 @@ Talen/AWS revised PPA 的 full contract quantity **up to 1,920 MW**，合同延�
 
 ### 3.3 Google / Kairos：2030 的 50 MWe 与 2035 的 500 MWe
 
-Google/Kairos 的公开时钟更长：**Hermes 2 up to 50 MWe in 2030**，随后 fleet **up to 500 MWe by 2035**。这更像长期 supply option、industrial learning path 和 capacity hedge，而不是 2026–2028 可以立刻调用的现货电力。
+Google/Kairos 的公开时钟更长：**Hermes 2 up to 50 MWe in 2030**，随后 fleet **up to 500 MWe by 2035**。[^5]这更像长期 supply option、industrial learning path 和 capacity hedge，而不是 2026–2028 可以立刻调用的现货电力。
 
 因此，SMR 对当前 AI 扩张的价值主要在未来选择权，不应被拿来抵消眼前的 interconnection / transformer / powered-site 约束。
 
@@ -43,17 +43,22 @@ Google/Kairos 的公开时钟更长：**Hermes 2 up to 50 MWe in 2030**，随后
 
 把约 835 MW、up to 1.92 GW 和 up to 500 MWe 机械相加，会得到一个名义规模，但不会得到一个可用的 AI-load 数字。
 
+**Table 7.1 — 三类 AI 电力项目的名义规模与交付状态**
+
 | 项目 | 名义规模 | 主要状态 |
 |---|---:|---|
 | Crane / Microsoft | ~835 MW | restart + regulatory process |
 | Talen / AWS | up to 1,920 MW | revised-PPA transition / ramp |
 | Kairos / Google | 50 MWe in 2030; up to 500 MWe by 2035 | long-duration development |
 
+**Source:** Constellation、Talen Energy、Kairos Power / Google.[^2][^3][^4][^5]  
+**Note:** 名义容量处于不同合同、许可、建设、上电与利用状态，严禁机械相加为 active AI load。
+
 这三条路径分别代表重启既有大电源、重构大用户与既有电源的商业/电网关系、以及建设下一代先进核电供给。技术成熟度、许可时钟和可利用时间完全不同。
 
 ## 5. Grid queue 是拥堵证据，不是“AI 缺电量”
 
-Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage interconnection queue 在 **2023 年末**接近 **2,600 GW** 的峰值；到 **2025 年末**约为 **2,061 GW**。
+Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage interconnection queue 在 **2023 年末**接近 **2,600 GW** 的峰值；到 **2025 年末**约为 **2,061 GW**。[^6]
 
 这个数字不能直接变成“美国缺 2,061 GW 数据中心电力”，因为 queue 主要包含 generation / storage 项目，也包括退出、重复或延迟项目。它能支持的结论更窄：**并网流程和 transmission buildout 可能跨越多年，time-to-power 是一个真实约束。**
 
@@ -83,12 +88,11 @@ AI server 的技术和经济寿命通常短于大型电力资产与长期 PPA。
 
 截至 2026 年 8 月，公开事实更支持：**power 已进入与 HBM、advanced packaging 并列的核心物理约束层，但尚不足以证明它已经压倒其他瓶颈、单独决定整个 AI 基础设施扩张速度。**
 
-## 关键公开来源
+## References
 
-- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Constellation / Microsoft Crane restart — 20-year PPA, ~835 MW: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- NRC — Crane / former Three Mile Island Unit 1 regulatory information: https://www.nrc.gov/info-finder/reactors/ccec
-- Talen 2026 Q2 10-Q — revised AWS PPA transition occurred in April 2026; up to 1,920 MW: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K — full transition expected spring 2027: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
-- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
-- Berkeley Lab, Queued Up 2026 — end-2025 active queue ~2,061 GW; end-2023 peak near 2,600 GW: https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
+[^1]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^2]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition and up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
+[^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
