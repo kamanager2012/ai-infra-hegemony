@@ -1,7 +1,5 @@
 # Part I · Chapter 6: Advanced Packaging, CoWoS, and the System-Delivery Bottleneck
 
-> **Publication-layer chapter.** Recompiled from [Volume 24](../vol-24.en.md) and [Macro Essay 03](../part2-03.en.md), while keeping the TSMC advanced-manufacturing denominators aligned with [Volume 04](../vol-04.en.md). This chapter focuses only on advanced packaging as a separate physical capacity pool: what has been confirmed by first-party evidence, what remains institutional estimation, and what is only report-side geometry stress testing.
-
 ## 1. Advanced packaging has become a system-delivery layer, not a supporting afterthought
 
 Frontier AI accelerators increasingly depend on multi-die integration, HBM, large interposers, and high-speed die-to-die connections. Advanced packaging is no longer merely a downstream step after chip fabrication. It has become:
