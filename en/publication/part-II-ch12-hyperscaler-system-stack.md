@@ -1,7 +1,5 @@
 # Part II · Chapter 12: Hyperscaler System-Stack Competition
 
-> **Publication-layer chapter.** Recompiled from [Volume 25](../vol-25.en.md) and [Macro Essay 04](../part2-04.en.md). NVIDIA's own system stack is covered in Part I Chapter 2; capital clearing belongs in Part III. This chapter asks one question: **Are Google, AWS, Microsoft, and Meta moving from "custom chips" toward a genuine second class of system stack?**
-
 ## 1. Competition has moved from ASIC vs. GPU to System Stack vs. System Stack
 
 Describing Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA as "a few ASICs challenging GPUs" no longer captures the 2026 competitive state.
