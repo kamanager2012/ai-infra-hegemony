@@ -1,7 +1,5 @@
 # Part II · Chapter 17: China's Parallel Stack — From Product Substitution to Frontier System Closure
 
-> **Publication-layer chapter.** Recompiled from [Volume 12](../vol-12.en.md), [Volume 29](../vol-29.en.md), and [Macro Essay 08](../part2-08.en.md). This chapter does not use one "domestic substitution rate" to judge China's AI supply capability. It separates consumer computing, general-purpose computing, and frontier AI systems into three different layers.
-
 ## 1. "It can run" and "it forms an equivalent system" are not the same standard
 
 Any discussion of China's AI stack becomes misleading if the layers are not separated first.
