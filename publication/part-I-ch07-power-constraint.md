@@ -125,7 +125,7 @@ Google / Kairos 的公开路径更长：
 | PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / future phased buildout from 2028 |
 
 **Source:** Constellation、Talen Energy、Kairos Power / Google、NVIDIA / SB Energy.[^2][^3][^4][^5][^7]  
-**Note:** 不同项目处于不同合同、建设、许可、上电与利用状态，不能机械相加为 active AI load。
+**Note:** 不同项目处于不同合同、建设、许可、上电与利用状态，且表中的 generation MW/GW、PPA capacity 与 IT-GW 不是同一物理量，不能机械相加为 active AI load。
 
 这些案例分别代表：
 
