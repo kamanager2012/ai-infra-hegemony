@@ -40,6 +40,18 @@ NVIDIA manufacturing, supply, and capacity commitments 已从 2026-01-25 的 **U
 
 即某个平台在下一代 advanced logic、HBM、packaging 和其他关键增量资源中能持续获得多少有效供给。
 
+### 3.1 Quantity Assurance：极端紧缺时，价格不是唯一清算机制
+
+在 severe shortage 中，真正决定买方能否持续生产的，不只是 willingness-to-pay，还包括 long-term agreement、credit quality、prepayment、purchase scale 与 allocation fulfillment。
+
+因此必须分开：
+
+> **willingness-to-pay ≠ guaranteed quantity**
+
+系统性风险不是“价格上涨”本身，而是 Non-AI Residual Capacity / non-anchor-buyer access 降到足够低，使次级买家即使接受更高报价，也无法获得足够、按时、可持续的交付量。
+
+这条机制比“某一家拿走100%产能”的绝对化说法更可审计。
+
 ## 4. 第三总判：HBM、Advanced Packaging 和 Power 是彼此独立的物理池
 
 这三个约束不能用同一个产能数字替代。
@@ -103,7 +115,13 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺显示，头部 model
 - PC / workstation：替代能力扩大，但 software compatibility 和专业 workload 仍重要；
 - frontier AI：已经形成真实 accelerator/software parallel stack，但完整等价 system 仍需 advanced logic、HBM-class memory、advanced packaging、interconnect、compiler/runtime、frontier workload 和 power 同时规模化。
 
-CXMT 2026-05-27 注册稿披露 DDR/LPDDR，但未披露 HBM product line；TrendForce 2026 Q1 的 SMIC 5.1% 是 foundry revenue share，不是 frontier-AI capability。
+CXMT 注册稿披露 DDR/LPDDR，但未披露 HBM product line。其招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，CXMT 全球份额约 **3.97%**、全球第四；因此“CXMT 已有 8% 全球 DRAM 份额”不进入事实层。
+
+Counterpoint Research 对 YMTC 的最新口径则是 **2026Q2 NAND shipment share 约14%、全球第三**；同一机构 2026Q1 的 **13%** 是 NAND revenue share。两者分母不同，不能拼成同一连续时间序列。
+
+此外，domestic memory capacity growth 不等于 upstream manufacturing autonomy。关键 equipment、software/licensing、spare parts/field service 与 materials qualification 的连续性，仍决定新增产能能否 ramp、既有产线能否维持 yield、下一代工艺能否持续迭代。
+
+TrendForce 2026 Q1 的 SMIC 5.1% 是 foundry revenue share，不是 frontier-AI capability。
 
 因此最准确的状态不是“已经全面追平”或“完全没有替代”，而是：
 
@@ -146,7 +164,7 @@ AI infrastructure 的资本风险来自：
 
 ## 11. 2030 / 2036 的单点价格和产能不是本书事实
 
-早期研究中曾使用 node price、CoWoS monthly capacity、HBM future trade ratio、GW-scale campus 和 trillion-dollar CapEx 等单点参数做压力测试。
+node price、CoWoS monthly capacity、HBM future trade ratio、GW-scale campus 与 trillion-dollar CapEx 等远期单点值，只能在明确标记的 scenario / stress-test 条件下使用。
 
 出版版统一规则是：
 
@@ -197,15 +215,17 @@ utilization、clearing price、CapEx / commitments 与 accounting losses 同步�
 
 ## 14. 最终总判
 
-截至 2026 年 8 月，本书的核心结论可以压缩为四句话：
+截至 2026 年 8 月，本书的核心结论可以压缩为五句话：
 
 **第一，AI infrastructure 的竞争单位已经从 chip 上移到 system stack。**
 
-**第二，真正决定价值捕获的是 scarce-layer control、switching cost、supply coordination 与 workflow monetization，而不是单一市场份额。**
+**第二，真正决定价值捕获的是 scarce-layer access、switching cost、supply coordination、quantity assurance 与 workflow monetization，而不是单一市场份额。**
 
 **第三，HBM、advanced packaging、power 和 capital duration 构成彼此独立、会轮换的约束，cloud custom systems 与 China parallel stack 正在增加替代路径，但尚未消除这些物理约束。**
 
-**第四，未来不是一条确定曲线。S1–S4 的相对权重必须由 supply elasticity、system substitution、Anchor Buyer demand、utilization、power、regulation 和 frontier-system closure 的公开事实持续更新。**
+**第四，大型 model companies 已经成为能够前置拉动基础设施建设的 Anchor Compute Buyers；同一机制也会在利用率不足时放大 duration risk。**
+
+**第五，未来不是一条确定曲线。S1–S4 的相对权重必须由 supply elasticity、system substitution、Anchor Buyer demand、utilization、power、regulation 和 frontier-system closure 的公开事实持续更新。**
 
 因此，这份研究的目标不是给出一个“2036 年必然结果”，而是建立一套能够随事实更新的工业分析框架。
 
@@ -224,3 +244,12 @@ utilization、clearing price、CapEx / commitments 与 accounting losses 同步�
 - [Part III · Ch20 Value Capture Map](part-III-ch20-value-capture-map.md)
 - [Part III · Ch24 Capital Clearing](part-III-ch24-capital-clearing.md)
 - [Part IV · Ch31 Strategy & Endgame](part-IV-ch31-strategy-endgame.md)
+
+## 新增证据来源
+
+- TrendForce 2026-01-05 — CSP 锁定 capacity 后其他买家需接受更高价格以确保 allocation: https://www.trendforce.com/presscenter/news/20260105-12860.html
+- TrendForce 2026-03-31 — allocation fulfillment 较低的 OEM / module maker 需要以更高价格补货: https://www.trendforce.com/presscenter/news/20260331-12995.html
+- CXMT 招股书 / Omdia — 2025Q2 DRAM revenue share 3.97%、全球第四: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+- Counterpoint Research 2026Q2 — YMTC NAND shipment share 14%、全球第三: https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+- ASML — EUV restricted / most advanced immersion DUV export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+- ASML — updated restrictions include additional metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
