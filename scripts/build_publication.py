@@ -58,14 +58,14 @@ def build(language: str, chapters: list[str]) -> str:
 title: "AI基础设施霸权时代"
 subtitle: "The Age of AI Infrastructure Hegemony"
 author: "James (kamanager2012)"
-date: "Research and revision cutoff: 2026-08-28"
+date: "Pre-release Publication QA Edition · Target v1.0.0 · Research/revision cutoff: 2026-08-28"
 lang: zh-CN
 ---
 """ if zh else """---
 title: "The Age of AI Infrastructure Hegemony"
 subtitle: "Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital"
 author: "James (kamanager2012)"
-date: "Research and revision cutoff: August 28, 2026"
+date: "Pre-release Publication QA Edition · Target v1.0.0 · Research/revision cutoff: August 28, 2026"
 lang: en-US
 ---
 """
