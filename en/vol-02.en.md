@@ -61,7 +61,7 @@ NVIDIA's platform control can be separated into four layers.
 
 The GPU remains the central compute unit, but the commercial product has moved from accelerator cards toward integrated systems.
 
-FY26 Data Center revenue was **$193.737B**. Compute and networking are both material parts of the platform economics.
+FY26 Data Center revenue was **US$193.737B**. Compute and networking are both material parts of the platform economics.
 
 ### 3.2 Interconnect
 
@@ -100,14 +100,14 @@ Key financial anchors include:
 
 | Metric | Value |
 |---|---:|
-| FY26 free cash flow | **$96.575B** |
-| FY26 operating income | **$130.387B** |
-| FY27 Q2 revenue | **$96.221B** |
-| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY26 non-GAAP free cash flow (NVIDIA definition) | **US$96.575B** |
+| FY26 operating income | **US$130.387B** |
+| FY27 Q2 revenue | **US$96.221B** |
+| FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP gross margin | **75.0%** |
-| FY27 Q2 GAAP operating income | **$63.734B** |
+| FY27 Q2 GAAP operating income | **US$63.734B** |
 
-Supply-related commitments reached **$119.0B** at FY27 Q1.
+Manufacturing, supply, and capacity commitments reached **US$119B** as of 2026-04-26.
 
 Strong platform economics can therefore be recycled into the next generation of:
 
