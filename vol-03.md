@@ -176,27 +176,42 @@ AI Resource Gravity 的核心不是“AI 需求最大”，而是**AI 订单具�
 
 反过来，中国如果在这些 advanced layers 上形成足够规模，则会产生第二个资源重力中心，而不是简单成为原有全球供应链的“剩余产能接收方”。
 
-## 7A. AI Capacity Gap：判断资源紧缺是在恶化、均衡还是反转
+## 7A. AI Capacity Gap 与 AI Capacity Growth Gap
 
-为了避免把“AI 需求很强”直接等同于“未来永远短缺”，本报告引入 **AI Capacity Gap**：
+为了避免把“AI 需求很强”直接等同于“未来永远短缺”，本报告把**当前绝对缺口**与**缺口变化方向**分开。
+
+### 绝对缺口
 
 ```text
-AI_Capacity_Gap(t)
-= Growth(AI_Demand(t))
-- Growth(AI_Dedicated_or_Effective_Capacity(t))
+AI_Capacity_Gap_i(t)
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
 ```
 
-这里的 capacity 必须按物理层分别计算，不能把 logic、HBM、advanced packaging 与 power 合并成一个总量。
+capacity 必须按 advanced logic、HBM/DRAM、advanced packaging、networking、power 等物理层分别计算，并使用相同交付窗口、qualification boundary 和物理单位。
 
-- **Gap > 0 且跨层持续**：新增需求快于新增有效供给，S2 Baseline Concentration / S3 Resource Hegemony 的压力上升；
-- **Gap ≈ 0**：供需逐步接近平衡，更接近 S1 Competitive Expansion 与 S2 之间的可控扩张；
-- **Gap < 0**：只有在 utilization、clearing price、forward commitments 等也同步走弱时，才构成 S4 Capital Hard Landing 风险；负 Gap 本身不等于资本硬着陆。
+- **Absolute Gap > 0**：当前存在可交付供给短缺；
+- **Absolute Gap ≈ 0**：当前供需接近平衡；
+- **Absolute Gap < 0**：当前存在有效余量。
 
-这个指标的作用，是把“AI 会不会继续抢资源”改写成一个可验证的问题：
+### 增长缺口
 
-> **AI demand growth 是否持续快于 AI-dedicated / AI-effective capacity growth？**
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
 
-它与 Non-AI Residual Capacity 是一组互补变量：AI Capacity Gap 描述 AI 侧新增供需缺口，NARC 描述同一资源池完成优先分配后，非 AI 市场还剩多少有效供给。
+Growth Gap 只描述绝对缺口的变化方向。即使 Growth Gap = 0，只要起点仍是 demand 100、capacity 80，现实仍然存在 20 的绝对缺口。
+
+- **Growth Gap > 0**：短缺可能扩大，或余量被侵蚀；
+- **Growth Gap < 0**：短缺可能收敛，或余量扩大。
+
+这个框架把“AI 会不会继续抢资源”改写成两个可验证问题：
+
+> **AI 当前在每个物理层到底缺多少有效供给？这个绝对缺口是在扩大还是收敛？**
+
+AI Capacity Gap / Growth Gap 与 Non-AI Residual Capacity 是互补变量：前两者描述 AI 侧当前缺口及变化方向，NARC 描述同一资源池完成优先分配后，非 AI 市场还剩多少有效供给。
 
 ## 8. 当前判断
 
