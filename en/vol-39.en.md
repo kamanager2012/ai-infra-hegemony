@@ -30,7 +30,7 @@ The educational object is therefore moving upward from a single AI tool toward t
 
 ## 2. AI adoption is moving faster than curriculum and institutional reform
 
-Stanford HAI's 2026 AI Index provides specific anchors: **four out of five** U.S. high-school and college students use AI for schoolwork; only about half of middle and high schools have AI policies, and just **6%** of teachers say those policies are clear. At U.S. four-year universities, CS undergraduate enrollment fell **11% from 2024 to 2025**, while master's graduates in AI software-related fields rose **17% from 2023 to 2024**.
+Stanford HAI's 2026 AI Index provides specific anchors: **four out of five** U.S. high-school and college students use AI for schoolwork; only about half of middle and high schools have AI policies, and the **6%** result is a **school-level survey result about teachers' assessment of policy clarity**; it should not be restated as “6% of teachers.” At U.S. four-year universities, CS undergraduate enrollment fell **11% from 2024 to 2025**, while master's graduates in AI software-related fields rose **17% from 2023 to 2024**.
 
 The structural gap can be summarized as:
 
