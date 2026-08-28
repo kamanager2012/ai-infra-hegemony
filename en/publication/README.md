@@ -1,6 +1,6 @@
 # English Publication Layer · The Age of AI Infrastructure Hegemony
 
-> This directory contains the continuous-reading English publication edition. **All 32/32 English chapters have been resynchronized from the current Chinese canonical edition. English Markdown QA and chapter-by-chapter bilingual structure/high-risk numeric regression have passed. The project is still not marked Publication Ready.**
+> This directory contains the continuous-reading English publication edition. **All 32/32 English chapters have been resynchronized from the current Chinese canonical edition. English Markdown QA, chapter-by-chapter bilingual structure/high-risk numeric regression, and the bilingual 96/96 research required-source gate have passed. The project is still not marked Publication Ready.**
 
 See the [English Front Matter](00-front-matter.md), the canonical [Publication Release Standard](../../出版封版标准.md), and [Publication Architecture](../PUBLICATION_STRUCTURE.md).
 
@@ -14,7 +14,8 @@ See the [English Front Matter](00-front-matter.md), the canonical [Publication R
 - **English Front Matter: complete** — scope/disclaimer, table of contents, list of tables, and abbreviations/core glossary.
 - **English Markdown QA: PASS** — References 32/32, footnote definitions/uses closed, no raw URLs in chapter bodies, no construction-language residue, no heading-level skips, Table/Source/Note consistency, and standard unit casing.
 - **Bilingual chapter regression: PASS** — 32/32 chapters match on Table-number sets, Reference counts, numeric section sequences, and high-risk currency/percentage/power/capacity/process numeric-unit sets.
-- **Publication Ready: not yet passed** — critical-link rescan, third-party copyright clearance, PDF/e-book export QA, and final proofreading remain mandatory.
+- **Research required-source gate: PASS** — Chinese 48/48 + English 48/48, for 96/96 research files total; the high-risk claim ledgers contain 32 aligned bilingual records per language.
+- **Publication Ready: not yet passed** — final critical-link rescan, actual PDF/EPUB export and rendering QA, final human proofreading, and public-repository/release operations remain mandatory.
 
 The Chinese and English Publication Layers now share the same 32-chapter architecture. The Chinese edition remains the final source of truth for resolving any future bilingual discrepancy.
 
@@ -85,4 +86,4 @@ The English publication layer follows the same rules as the Chinese canonical pu
 
 ## Current QA status
 
-All **32/32 English publication chapters** have been rebuilt against the current Chinese canonical edition, and English Markdown plus bilingual structure/high-risk numeric regression have passed. The remaining work is final-publication QA: critical-link rescans, copyright review, PDF/e-book export, and final proofreading.
+All **32/32 English publication chapters** have been rebuilt against the current Chinese canonical edition. English Markdown QA, bilingual structure/high-risk numeric regression, and the **96/96 research required-source regression** have passed. Remaining work is operational final-publication QA: critical-link rescans, actual PDF/EPUB export and render verification, final human proofreading, and release operations.
