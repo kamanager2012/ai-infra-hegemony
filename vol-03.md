@@ -32,11 +32,11 @@ GB200 NVL72 官方配置：
 如果 rack 出货量为 (R)，则仅内存需求就满足：
 
 ```text
-HBM = 13.4 	ext{TB} 	imes R
+HBM = 13.4 \text{TB} \times R
 ```
 
 ```text
-LPDDR = 17 	ext{TB} 	imes R
+LPDDR = 17 \text{TB} \times R
 ```
 
 因此：
@@ -58,7 +58,7 @@ Micron FY24 Q3 prepared remarks 明确披露：
 
 因此，HBM 对 DRAM 供给结构的影响不能只看 bit share。
 
-TrendForce 预计 2026 年 HBM + RDIMM 约占 DRAM bits 的 **51%**。如果高价值 HBM 同时需要更高 wafer supply，那么 conventional DRAM 的剩余供给受到的压力可能大于“51% bit share”这一数字本身。
+TrendForce **预计** HBM + RDIMM 约占 **2026 DRAM bit supply 的 51%**。这是 **2026E institutional forecast**，不是已经实现的 full-year actual。如果高价值 HBM 同时需要更高 wafer supply，那么 conventional DRAM 的剩余供给受到的压力可能大于“51% bit share”这一数字本身。
 
 这构成存储领域的 **Observed Crowding-out**：
 
@@ -74,8 +74,8 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 报告使用一个 D 级几何压力测试：
 
 ```text
-72 	ext{GPU packages} ÷ 13.4 	ext{packages/wafer}
-≈ 5.39 	ext{CoWoS wafers/rack}
+72 \text{GPU packages} ÷ 13.4 \text{packages/wafer}
+≈ 5.39 \text{CoWoS wafers/rack}
 ```
 
 其中：
@@ -89,7 +89,7 @@ Blackwell-class GPU 不是只依赖先进逻辑 wafer，还依赖 advanced packa
 因此绝不能使用：
 
 ```text
-15M 	ext{TSMC annual wafers} ÷ 5.39
+15M \text{TSMC annual wafers} ÷ 5.39
 ```
 
 来推导全球可生产多少 rack。TSMC 全年 wafer shipments 包含大量 smartphone、automotive、IoT 和 mature-node 产品，物理池完全不同。
@@ -106,11 +106,11 @@ General server 不一定需要 HBM，但会使用 DDR5 RDIMM。由于 RDIMM 本�
 
 ### 5.3 Smartphone
 
-Smartphone 仍是 TSMC 第二大 platform。TSMC 2025 smartphone revenue share 为 **29%**，同比仍增长。
+Smartphone 仍是 TSMC 第二大 platform。TSMC 2025 Smartphone platform 占全年 revenue **29%**；另一个独立指标是 platform revenue **同比增长 11%**。29% 是 revenue mix，+11% 是 YoY growth，不能混成一个口径。来源：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf 。
 
 因此，AI 并没有“挤掉手机”。
 
-更准确的变化是：HPC 增长速度明显更快，新增先进资本和先进封装资源更偏向 AI/HPC。
+更准确的变化是：HPC 增长速度明显更快，incremental advanced-capacity demand 与 advanced-packaging attention 更偏向 AI/HPC。
 
 ### 5.4 Automotive
 
@@ -164,8 +164,8 @@ AI Resource Gravity 的核心不是“AI 需求最大”，而是**AI 订单具�
 
 截至 2026 年 8 月，可以确认的是：
 
-- AI/HPC 已成为先进半导体增量需求的核心驱动力；
-- HBM/RDIMM 正在重塑 DRAM supply mix；
+- AI/HPC 已成为先进半导体增量需求的重要驱动力；
+- HBM/RDIMM 正在重塑 DRAM supply mix，而 TrendForce 的 51% 是 2026E 前向锚；
 - advanced packaging 仍处于紧张状态；
 - consumer market 并未消失，但部分品类开始承受 residual-capacity pressure；
 - 这种挤压具有**层级性和选择性**，不是“所有芯片都被 AI 抢走”。
@@ -174,5 +174,7 @@ AI Resource Gravity 的核心不是“AI 需求最大”，而是**AI 订单具�
 
 ## 本卷关键公开来源
 
-- TrendForce, HBM + RDIMM 2026 DRAM bit supply 51% / CSP memory CapEx： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 4Q25 presentation（Smartphone 29% revenue mix；+11% YoY platform-revenue growth）： https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf
+- NVIDIA FY26 10-K（Gaming +41%；FY27 Q1 and beyond supply-constraint headwind）： https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
