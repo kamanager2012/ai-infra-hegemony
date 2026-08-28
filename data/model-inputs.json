@@ -1,0 +1,35 @@
+{
+  "version": "2026-08-28",
+  "notes": "D-grade illustrative / geometry inputs. These are not shipment actuals unless explicitly stated.",
+  "models": {
+    "nvl72": {
+      "gpus_per_rack": 72,
+      "hbm_tb_per_rack": 13.4,
+      "lpddr_tb_per_rack": 17,
+      "rack_power_kw": 120,
+      "source_identity": "A-grade product specification inputs; scenario rack counts remain D-grade"
+    },
+    "cowos_geometry": {
+      "packages_per_wafer_assumption": 13.4,
+      "packages_per_rack": 72,
+      "source_identity": "D-grade report geometry; not TSMC yield"
+    },
+    "scenario_racks": [
+      1000,
+      10000,
+      30000,
+      50000
+    ],
+    "power_scenario_racks": 500,
+    "elasticity_sensitivity": {
+      "unit_resource_intensity_ratio": 0.6,
+      "effective_price_ratio": 0.5,
+      "elasticities": [
+        0.5,
+        1,
+        1.2,
+        1.5
+      ]
+    }
+  }
+}
