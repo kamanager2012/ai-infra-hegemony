@@ -60,7 +60,7 @@ AI-infrastructure spending includes assets with very different economic lives:
 - servers and networking: short-to-medium cycles;
 - data-center shells: long cycles;
 - substations and transmission: longer cycles;
-- nuclear and PPA commitments: potentially 10–20 years or more.
+- nuclear and PPA commitments: longer-duration assets/contracts; for example, Crane Clean Energy Center is backed by a **20-year PPA**. Source: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 
 This creates a central mismatch:
 
