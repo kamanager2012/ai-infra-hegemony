@@ -1,6 +1,5 @@
 # Part I · 第7章：从 120 kW Rack 到 GW 级电力约束
 
-> **出版层章节。** 由研究模块 [vol-13](../vol-13.md)、[vol-35](../vol-35.md) 与 [macro-06](../part2-06.md) 重编。本章统一把电力分析压缩为一条主线：**rack power density → project state → time-to-power → utilization / capital consequences**。
 
 ## 1. 电力为什么从运营成本变成基础设施配额
 
