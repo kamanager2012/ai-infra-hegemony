@@ -16,18 +16,25 @@ Microsoft、Amazon、Alphabet、Meta 的 AI/data-center 投资已经进入历史
 
 ## 2. 2025–2026 的资本扩张现实
 
-2025 混年口径下，Microsoft、Amazon、Alphabet、Meta 的 equipment/PPE purchase 已达到约 **$354B** 量级。
+2025 混年口径下，Microsoft、Amazon、Alphabet、Meta 的 equipment/PPE purchase 已达到约 **US$354B** 量级。这个合计本身是研究侧按不同公司公开科目复加的 mixed-window scale anchor，不是四家公司共同披露的统一“AI CapEx”指标。
 
 截至 2026 年 8 月，公开口径如下：
 
 | 公司 | 最新公开口径 |
 |---|---:|
-| Microsoft | Calendar-2026 reported CapEx expectation 约 **US$175B**（7/29 lease-classification adjustment 后；underlying investment expectation unchanged） |
+| Microsoft | Calendar-2026 reported CapEx expectation 约 **US$175B**（2026-07-29 lease-classification adjustment 后；underlying investment expectation unchanged） |
 | Alphabet | Q2 earnings-call CapEx guidance **US$195–205B** |
 | Meta | Q2 CapEx guidance **US$130–145B**（含 finance-lease principal） |
 | Amazon | 截至 2026-06-30，TTM PPE net purchases actual **US$169.007B** |
 
 这些数字的时间窗与会计科目不同，因此仅用于观察资本扩张方向，不作机械加总。
+
+尤其需要区分：
+
+- Microsoft / Alphabet / Meta 的表中值是 **guidance / expectation**；
+- Amazon 的 **US$169.007B** 是截至 2026-06-30 的 **TTM actual**；
+- Alphabet 2026 Q2 当季 actual CapEx 为 **US$44.9B**，与全年 guidance 是两套不同口径；
+- Microsoft 的约 US$175B 变化主要来自 future data-center leases 从 finance lease 向 operating lease 的分类变化，公司表示 underlying investment expectation 未因此下调。
 
 这些数字已经足以证明 AI infrastructure CapEx cycle 仍在扩张。
 
@@ -122,7 +129,7 @@ Hyperscaler 的现金则要同时承担：
 - third-party systems；
 - operations。
 
-因此，同样 $1 的现金，在两类公司中的“再生产对象”不同。
+因此，同样 US$1 的现金，在两类公司中的“再生产对象”不同。
 
 这解释了为什么一个 asset-light platform 可以用较少自有 fixed assets，影响远大于自己资产负债表规模的 manufacturing CapEx。
 
@@ -195,3 +202,10 @@ AI rack power density 上升之后，data-center buildout 不再只是服务器�
 > **超级周期仍在延续，但对 utilization、workflow monetization 与 next-generation ROI 的要求越来越高。**
 
 这正是 S2 Baseline Concentration 与 S4 Capital Hard Landing 之间最关键的分界。
+
+## 本卷关键公开来源
+
+- Microsoft FY26 Q4 earnings / earnings call（calendar-2026 reported CapEx expectation 约 US$175B，lease classification 调整；underlying investment expectation unchanged）：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+- Alphabet 2026 Q2 SEC Exhibit 99.1（Q2 actual CapEx US$44.9B）及 Q2 earnings-call guidance US$195–205B：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Meta 2026 Q2 SEC Exhibit 99.1（2026 CapEx guidance US$130–145B，含 finance-lease principal）：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+- Amazon 2026 Q2 Form 10-Q（TTM PPE net purchases actual US$169.007B；Q2 cash CapEx US$53.1B）：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
