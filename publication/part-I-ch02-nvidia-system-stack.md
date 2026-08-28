@@ -111,44 +111,25 @@ NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
 
 这也是为什么本报告把 **Scarce-layer Value Capture** 与“市场份额垄断”分开。系统平台可以拥有很强的组织和出价能力，但仍然受到外部物理供应弹性约束。
 
-## 7. 真正的反击是 Cloud System Stack，而不是单颗 ASIC
+## 7. 护城河的主要反向变量：第二套 Production-Grade System Stack
 
-Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 的战略意义，不在于“有另一颗芯片”，而在于 hyperscaler 同时拥有：[^5]
+NVIDIA system moat 的主要反向变量，不是“出现另一颗 ASIC”，而是竞争者能否形成另一套真正可用于生产的 system stack。
 
-- 自有大规模 workload；
-- cloud distribution；
-- data-center control；
-- internal compiler/runtime；
-- 自研 interconnect / rack/pod；
-- 针对较窄 workload 做系统级优化的能力。
+这要求替代路线同时改善：
 
-所以未来竞争不是：
+- production workload coverage；
+- compiler/runtime maturity；
+- scale-up / scale-out capability；
+- migration cost；
+- utilization；
+- deployment reliability；
+- HBM / packaging / power access。
 
-> NVIDIA GPU vs custom ASIC
+Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但其竞争强度应由真实 workload 与迁移成本衡量，而不是由产品发布数量衡量。完整分析见[第12章：Hyperscaler System-Stack Competition](../part-II-ch12-hyperscaler-system-stack.md)。
 
-而是：
+因此，本章只保留一个结论：
 
-> **NVIDIA system stack vs cloud system stack**
-
-这会同时产生两个方向相反但可以并存的效应：
-
-1. **Platform-profit diversion**：云自研系统减少部分对 NVIDIA 平台利润池的依赖；
-2. **Upstream resource competition**：自研系统本身仍会争夺先进逻辑、HBM、advanced packaging 和 power。
-
-因此，cloud custom silicon 的成功并不自动意味着上游物理稀缺缓解。
-
-## 8. 云系统需要达到什么程度才算真正削弱护城河
-
-判断 NVIDIA system moat 是否发生结构性削弱，不能靠新闻数量或单卡性能，而要看以下变量是否同时变化：
-
-- cloud system stack 是否进入 frontier training / high-value inference 的生产规模；
-- open software 是否显著降低 CUDA migration cost；
-- alternative scale-up fabric 是否达到 production-grade scale；
-- workload 在多套 system stack 间迁移时，工程成本与性能损失是否持续下降；
-- scarce upstream resources 是否不再明显支持 NVIDIA roadmap；
-- 大客户是否能够把真实 workload 分散到多套系统，而不是只做 benchmark 或内部窄场景试验。
-
-如果这些变化中的多项持续出现，NVIDIA 的平台权力会从“系统级定价权”逐步退回更可谈判的“集成优势”。如果迁移仍然昂贵，而平台内跨代升级继续保持低摩擦，则系统护城河仍然成立。
+> **如果客户能够以较低迁移成本把高价值 production workload 分散到多套 system stack，NVIDIA 的平台议价能力会下降；如果平台内跨代升级仍显著低于跨平台迁移成本，系统护城河仍然成立。**
 
 ## 9. 当前判断
 
@@ -166,4 +147,3 @@ Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 的战略意义�
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-[^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
