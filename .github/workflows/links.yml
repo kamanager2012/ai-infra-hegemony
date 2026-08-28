@@ -28,3 +28,6 @@ jobs:
 
       - name: Recompute versioned D-grade models
         run: python scripts/recompute_models.py
+
+      - name: Check materialized bilingual publication sources
+        run: python scripts/check-materialized-publication.py
