@@ -195,3 +195,8 @@ As of **August 2026**, the evidence supports several conclusions:
 The key forward variable is **Non-AI Residual Capacity**.
 
 The important question is whether residual capacity continues to fall within memory and packaging, and whether the pressure later spreads into a broader set of traditional end markets.
+
+## Key public sources for this volume
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
