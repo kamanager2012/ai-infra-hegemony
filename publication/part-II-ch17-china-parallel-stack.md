@@ -16,11 +16,11 @@
 
 smartphone 与部分 consumer computing 更容易形成完整国内链条，因为这一层可以依托本土 SoC、foundry、LPDDR/NAND、packaging、device manufacturing、operating system/application ecosystem 与大型国内需求。
 
-TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**，而 HPC 为 **58%**。这说明消费计算仍是重要市场，但 frontier AI 与 smartphone 已经在同一先进制造体系中竞争不同资源。
+TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**，而 HPC 为 **58%**。[^1]这说明消费计算仍是重要市场，但 frontier AI 与 smartphone 已经在同一先进制造体系中竞争不同资源。
 
 ### 2.1 “只有华为能规模量产国产手机 SoC”已经不符合 2026 的公开数据
 
-Counterpoint Research 的 2026Q1 global smartphone AP-SoC shipment share 显示：
+Counterpoint Research 的 2026Q1 global smartphone AP-SoC shipment share 显示：[^2]
 
 - UNISOC：**14%**；
 - HiSilicon：**4%**。
@@ -29,7 +29,7 @@ Counterpoint Research 的 2026Q1 global smartphone AP-SoC shipment share 显示�
 
 Huawei / HiSilicon 的独特优势更适合描述为：**高端自有终端 + 自研 SoC + 自有软件/生态的 vertical closed loop 更成熟**，而不是“唯一有量”。
 
-Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**，新一代 O3 继续采用 TSMC 3 nm，首发产品预计 200k–300k units。
+Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；[^3] Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**，新一代 O3 继续采用 TSMC 3 nm，首发产品预计 200k–300k units。[^4]
 
 这意味着“Xiaomi 只有20–30万片边角料、只是品牌秀”不能作为事实层。更准确的判断是：
 
@@ -45,7 +45,7 @@ PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专�
 
 “国产 PC CPU/GPU 是一片空白”同样过度。
 
-龙芯当前公开产品线包含面向 desktop/general-purpose 的 3A6000、3B6000 等 CPU；Moore Threads 公开销售 MTT S80 gaming GPU，并持续维护 Windows/DirectX 兼容与 driver stack。
+龙芯当前公开产品线包含面向 desktop/general-purpose 的 3A6000、3B6000 等 CPU；[^5] Moore Threads 公开销售 MTT S80 gaming GPU。[^6]
 
 这些事实证明**产品存在且能形成真实 PC/graphics deployment**。
 
@@ -92,7 +92,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ## 6. Memory 是最容易被“国产存储”总词掩盖的层
 
-长鑫科技 **2026-05-27 上交所注册稿**披露 DDR 与 LPDDR 产品。对注册稿全文检索 `HBM` 与“高带宽内存”均无命中，因此出版层只保留一个窄结论：
+长鑫科技 **2026-05-27 上交所注册稿**披露 DDR 与 LPDDR 产品。[^7]对注册稿全文检索 `HBM` 与“高带宽内存”均无命中，因此本报告只保留一个窄结论：
 
 > **该注册稿未披露 HBM 产品线。**
 
@@ -104,25 +104,25 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ### 6.1 普通 DRAM / NAND 与 Frontier HBM 不是同一供应链门槛
 
-长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；这足以确认中国 conventional DRAM / server DRAM 的真实供给能力已经显著增强。
+长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；[^8]这足以确认中国 conventional DRAM / server DRAM 的真实供给能力已经显著增强。
 
-长江存储官方则确认自身是 3D NAND IDM，Gen5 TLC X4-9060/X4-9070 已进入产品体系，Xtacking 4.0 已形成量产产品路径，并覆盖 raw NAND、embedded memory、client SSD 与 enterprise SSD。
+长江存储官方则确认自身是 3D NAND IDM，并披露 Gen5/Xtacking 4.0 相关产品体系以及 raw NAND、embedded memory、client SSD 与 enterprise SSD 产品线。[^9]
 
 这两条事实说明：
 
 > **consumer/general-purpose memory resilience 可以提高，而不需要先完成 frontier HBM closure。**
 
-普通 DRAM 与 NAND 的 memory-cell front-end manufacturing 并不等同于台积电 leading-edge logic foundry；但 HBM-class AI system 会重新引入 advanced logic / base logic die、advanced packaging 与 accelerator integration 等更高门槛。Micron 就曾公开披露 HBM4E 的 base logic die 与 TSMC 合作制造。
+普通 DRAM 与 NAND 的 memory-cell front-end manufacturing 并不等同于台积电 leading-edge logic foundry；但 HBM-class AI system 会重新引入 advanced logic / base logic die、advanced packaging 与 accelerator integration 等更高门槛。Micron 就曾公开披露 HBM4E 的 base logic die 与 TSMC 合作制造。[^10]
 
 所以“普通内存可以绕开台积电”与“frontier AI memory stack 不受台积电影响”是两个完全不同的命题。
 
 ### 6.2 国产 Memory Scale：必须区分 Revenue Share 与 Shipment Share
 
-长鑫招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四、中国第一。
+长鑫招股书引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四、中国第一。[^11]
 
 因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本书事实层。
 
-长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。
+长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；[^12] 同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。[^13]
 
 这两个数字不能拼成同一时间序列，因为分母不同。
 
@@ -142,7 +142,9 @@ AI data-center storage 还包含 nearline HDD。公开产业研究显示，全�
 
 ## 7. Foundry share 不能直接等同于 Frontier AI capability
 
-TrendForce 2026 Q1 foundry revenue share 约为：
+TrendForce 2026 Q1 foundry revenue share 约为：[^14]
+
+**Table 17.1 — 2026 Q1 全球 foundry revenue share（TrendForce）**
 
 | Foundry | Revenue share |
 |---|---:|
@@ -150,13 +152,16 @@ TrendForce 2026 Q1 foundry revenue share 约为：
 | Samsung Foundry (excluding System LSI) | 6.5% |
 | SMIC | 5.1% |
 
+**Source:** TrendForce, 2026-06-12.[^14]  
+**Note:** 该表为 foundry revenue share，不是 advanced-node yield、AI wafer capacity 或 frontier-system capability。
+
 这些是 foundry **revenue share**，不是先进节点良率、AI wafer capacity 或 frontier-system delivery capability。
 
 中国要形成 frontier AI parallel supply，不只需要 logic die，还需要 advanced packaging、substrate、HBM integration、yield、high-volume qualification 与 power。节点追赶是必要条件之一，不是完整系统本身。
 
 ## 8. Algorithmic efficiency 是重要非对称杠杆
 
-DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单位 capability 对硬件的需求。论文给出的 **pre-training 为 2.664M H800 GPU-hours**，完整正式训练为 **2.788M H800 GPU-hours**；按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练**，不等于完整研发成本。
+DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单位 capability 对硬件的需求。论文给出的 **pre-training 为 2.664M H800 GPU-hours**，完整正式训练为 **2.788M H800 GPU-hours**；[^15]按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练**，不等于完整研发成本。
 
 这一案例支持的机制是：在 supply-constrained environment 中，sparse architecture、memory efficiency、routing、quantization 与 scheduling 可以提高 effective compute productivity。
 
@@ -174,7 +179,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 出口限制在短期会提高先进硬件获取成本并降低 frontier cluster deployment speed；长期则会提高 domestic substitution incentive、local software/hardware integration 与 parallel ecosystem 的战略价值。
 
-更上游还要单独看 semiconductor manufacturing equipment / software / service。ASML 的公开说明确认：EUV 对中国已受限制，最先进 immersion DUV 需要出口许可，后续美国规则还扩大到部分 advanced manufacturing technology、metrology 与 software。
+更上游还要单独看 semiconductor manufacturing equipment / software / service。ASML 的公开说明确认：EUV 对中国已受限制，最先进 immersion DUV 需要出口许可，后续规则还扩大到部分 advanced manufacturing technology、metrology 与 software。[^16][^17]
 
 这不等于“国内所有 memory fab 会因为断供立刻停产”，但它说明：
 
@@ -218,26 +223,22 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 如果这些 gate 长期未跨越，则“有国内技术栈”仍不能升级为“frontier 等价替代”。
 
-## 关键公开来源
+## References
 
-- CXMT 2026-05-27 STAR Market registration prospectus (SSE): https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
-- SSE listing notice — listed 2026-07-27, ticker 688825: https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
-- TrendForce, 2026-06-12 — 1Q26 foundry revenue shares: https://www.trendforce.com/presscenter/news/20260612-13095.html
-- TSMC 4Q25 Presentation — HPC 58%, smartphone 29%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
-- Counterpoint 2026Q1 smartphone AP-SoC shipment share — UNISOC 14%, HiSilicon 4%: https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly
-- Xinhua 2025-05-22 — Xiaomi XRing O1 entered mass production: https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
-- Reuters 2026-08-24 — XRing O1 powered >1M devices; O3 uses TSMC 3 nm with projected 200k–300k initial device shipments: https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
-- Loongson official CPU product line — desktop/general-purpose products: https://www.loongson.cn/product/list?id=4
-- Moore Threads MTT S80 official product page: https://en.mthreads.com/product/S80
-- NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
-- DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
-- CXMT 2025 prospectus / Omdia — 2025Q2 DRAM revenue share 3.97%, global #4: https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
-- Counterpoint Research 2026Q2 — YMTC 14% NAND shipment share, global #3: https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-- Counterpoint Research 2026Q1 — YMTC 13% NAND revenue share: https://counterpointresearch.com/en/insights/global-nand-memory-market-share
-- CXMT official DDR5 product page — up to 8000 Mbps, 16Gb/24Gb, server/workstation/PC modules: https://www.cxmt.com/en/product.html
-- YMTC company profile / products — Gen5 Xtacking 4.0 3D NAND, enterprise/client/embedded storage: https://www.ymtc.com/en/aboutus.html
-- YMTC commercial 3D NAND product portfolio: https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
-- Micron investor material — HBM4E base logic die partnership with TSMC: https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
-- TrendForce 2025-09-15 — nearline HDD shortage and QLC SSD substitution: https://www.trendforce.com/presscenter/news/20250915-12714.html
-- ASML — EUV restricted; most advanced immersion DUV subject to export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
-- ASML — updated restrictions include metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+[^1]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, HPC 58%, smartphone 29%, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+[^2]: Counterpoint Research, 2026 Q1 smartphone AP-SoC shipment share, UNISOC 14%, HiSilicon 4%, https://counterpointresearch.com/en/insights/global-smartphone-apsoc-market-share-quarterly
+[^3]: Xinhua, 2025-05-22, Xiaomi XRing O1 entered mass production, https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
+[^4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+[^5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
+[^6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
+[^7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+[^8]: CXMT, official DDR5 product page, https://www.cxmt.com/en/product.html
+[^9]: YMTC, company profile and product portfolio, https://www.ymtc.com/en/aboutus.html ; https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
+[^10]: Micron Technology, investor material on HBM4E base logic die partnership with TSMC, https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
+[^11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, global #4, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
+[^16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+[^17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
