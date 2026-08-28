@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-30.md](../vol-30.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. The “depreciation wall” is a capital-return mechanism, not a claim that one fixed dollar shock must occur in one predetermined year.
+> Retrieval and revision cutoff: **2026-08-28**. The “depreciation wall” is a capital-return mechanism, not a claim that one fixed dollar shock must occur in one predetermined year.
 
 ## 1. Depreciation is a capital constraint, not a calendar forecast
 
