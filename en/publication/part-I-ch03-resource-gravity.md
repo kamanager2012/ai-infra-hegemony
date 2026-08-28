@@ -1,7 +1,5 @@
 # Part I · Chapter 3: AI Resource Gravity and Non-AI Residual Capacity
 
-> **Publication-layer chapter.** Recompiled from [Volume 03](../vol-03.en.md) and [Volume 09](../vol-09.en.md). The physical details of HBM and advanced packaging belong in Chapters 5 and 6. This chapter focuses on why resources are pulled toward AI/server demand and how that shift transmits into PCs, smartphones, general servers, and other non-AI markets.
-
 ## 1. "AI absorption" does not mean every semiconductor capacity pool is being drained
 
 AI infrastructure affects the supply chain unevenly. The resources most exposed to reprioritization are those shared with frontier AI and relatively inelastic in the short run:
