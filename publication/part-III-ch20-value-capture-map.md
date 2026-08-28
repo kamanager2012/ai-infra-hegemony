@@ -156,5 +156,5 @@ smartphone、PC、gaming 与 general server 仍然是大型市场。它们承受
 - TSMC 4Q25 Transcript — 2025 advanced packaging slightly over 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
 - TSMC 2Q26 Earnings Conference Transcript — packaging tightness limits customer growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 - SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-- Micron FY24 Q3 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
