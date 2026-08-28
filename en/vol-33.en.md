@@ -58,7 +58,7 @@ The reverse is also true.
 
 If HBM and packaging expand materially, AMD has more room to scale complete systems.
 
-AMD is therefore a useful example of **Non-Leading-Buyer Residual Capacity**: how much of the scarce increment remains available to a large competitor after the leading buyer absorbs its allocation.
+AMD is therefore a useful observation point for **Non-AI Residual Capacity / non-anchor-buyer access**: how much scarce incremental capacity remains available outside the dominant anchor-buyer path. This keeps the terminology aligned with the report-wide framework.
 
 ## 4. Intel: product recovery and foundry recovery run on different clocks
 
@@ -134,7 +134,7 @@ Its strategic power comes from workload placement across a vertically integrated
 
 ## 7. Apple is also a major buyer of leading-edge process capacity
 
-Apple has long been an important leading-edge foundry customer.
+Apple has long used leading-edge process technology, but this volume does not convert that fact into a specific customer ranking or share claim without first-party disclosure for the relevant year.
 
 Growth in AI/HPC demand therefore does not mean smartphone leading-edge logic automatically disappears.
 
@@ -165,9 +165,9 @@ Others attack cloud demand by moving inference to the edge.
 
 Intel can also affect supply diversity through foundry capability.
 
-## 9. Which paths can move S2 toward S1?
+## 9. Which developments can raise S1 relative to S2?
 
-Several developments could push **S2 Baseline Concentration** toward **S1 Competitive Expansion**:
+Several developments could raise the relative weight of **S1 Competitive Expansion** versus **S2 Baseline Concentration**. S1 and S2 are parallel conditional scenarios, not a required sequential path:
 
 - AMD scales a production-grade Data Center system stack;
 - Intel improves both foundry credibility and product competitiveness;
