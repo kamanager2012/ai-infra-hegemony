@@ -36,7 +36,7 @@ Customer revenue share does not automatically convert into wafer or CoWoS alloca
 
 This book uses **Scarce-layer Value Capture** for a narrower mechanism: when a platform combines strong cash generation, long-duration orders, system-definition power, switching costs, and supply orchestration, it can improve its ability to make earlier commitments to next-generation scarce resources and increase delivery certainty.
 
-NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B on 2026-01-25** to **US$279B on 2026-07-26**.
+NVIDIA's manufacturing, supply, and capacity commitments rose from **US$95.2B on 2026-01-25** to **US$279B on 2026-07-26**.[^1]
 
 That proves a large increase in aggregate forward supply commitments.
 
@@ -48,7 +48,7 @@ The key forward variable is:
 
 —how much effective next-generation supply a platform repeatedly obtains across advanced logic, HBM, packaging, and other critical incremental resources.
 
-## 4. Third master judgment: quantity assurance can matter more than spot price
+### 3.1 Quantity Assurance: in severe shortages, price is not the only clearing mechanism
 
 In a severe shortage, the market does not clear through price alone.
 
@@ -64,15 +64,15 @@ It is a fall in residual capacity far enough that a buyer cannot obtain sufficie
 
 This mechanism is more defensible than the absolute claim that one company has captured "100% of capacity."
 
-## 5. Fourth master judgment: HBM, Advanced Packaging, and Power are separate physical pools
+## 4. Third master judgment: HBM, Advanced Packaging, and Power are separate physical pools
 
 These constraints cannot be represented by one capacity number.
 
 ### HBM
 
-Micron's first-party disclosure states that, on the same node and for the same number of bits, HBM3E requires approximately **3× the wafer supply of DDR5**.
+Micron's first-party disclosure states that, on the same node and for the same number of bits, HBM3E requires approximately **3× the wafer supply of DDR5**.[^2]
 
-TrendForce forecasts HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
+TrendForce forecasts HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.[^3]
 
 The first number is a same-bit manufacturing trade ratio; the second is a 2026E bit-supply forecast.
 
@@ -80,7 +80,7 @@ Neither is an HBM market share or wafer share.
 
 ### Advanced Packaging
 
-TSMC has confirmed advanced-packaging tightness and stated in 2Q26 that packaging tightness was limiting customer growth.
+TSMC has confirmed advanced-packaging tightness and stated in 2Q26 that packaging tightness was limiting customer growth.[^4]
 
 TSMC does not disclose customer-level CoWoS allocation.
 
@@ -88,7 +88,7 @@ TrendForce's estimate that NVIDIA represented >60% of 2025 CoWoS demand therefor
 
 ### Power
 
-Approximately 120 kW-class racks, the ~835 MW Crane restart path, the Talen/AWS up-to-1.92-GW revised PPA, and the Kairos/Google long-duration development path show that power is an independent physical constraint.
+Approximately 120 kW-class racks, the ~835 MW Crane restart path, the Talen/AWS up-to-1.92-GW revised PPA, and the Kairos/Google long-duration development path show that power is an independent physical constraint.[^5]
 
 Contracted, Permitted, Energized, and Utilized MW must remain separate.
 
@@ -96,7 +96,7 @@ One bottleneck can therefore ease while another rises.
 
 That is the **Rolling Bottleneck Cascade**.
 
-## 6. Fifth master judgment: Non-AI Residual Capacity explains more than total supply growth
+## 5. Fourth master judgment: Non-AI Residual Capacity explains more than total supply growth
 
 Even if total wafer, DRAM, or packaging capacity grows, the effective supply available to traditional end markets can still fall when AI/server and other priority demand absorb the incremental supply.
 
@@ -108,13 +108,13 @@ This framework explains memory, consumer-GPU, and selected leading-edge allocati
 
 It also explains why "capacity is expanding" and "traditional markets are becoming loose again" are not synonymous.
 
-## 6A. Two-Speed Semiconductor Economy: AI is changing where the next dollar of capital goes
+## 5A. Two-Speed Semiconductor Economy: AI is changing where the next dollar of capital goes
 
 By 2026, the most important structural change is no longer only which buyer receives more wafers in the current quarter. It is **for which demand the next generation of supply is being built**.
 
-In TSMC's 2Q26 platform revenue mix, HPC represented **66%** and Smartphone **22%**; advanced technologies, defined as 7 nm and below, represented **77%** of wafer revenue. TSMC also raised its 2026 capital budget to **US$60B–64B**, with most spending directed toward advanced process technologies and continued investment in advanced packaging, testing, and related areas. HPC cannot be equated one-for-one with AI, and these figures do not prove that Apple, Qualcomm, or any specific customer was “crowded out.” The narrower supported conclusion is that high-growth HPC/AI workloads are materially influencing incremental advanced-manufacturing capital formation. Source: https://investor.tsmc.com/english/quarterly-results/2026/q2
+In TSMC's 2Q26 platform revenue mix, HPC represented **66%** and Smartphone **22%**; advanced technologies, defined as 7 nm and below, represented **77%** of wafer revenue. TSMC also raised its 2026 capital budget to **US$60B–64B**, with most spending directed toward advanced process technologies and continued investment in advanced packaging, testing, and related areas. HPC cannot be equated one-for-one with AI, and these figures do not prove that Apple, Qualcomm, or any specific customer was “crowded out.” The narrower supported conclusion is that high-growth HPC/AI workloads are materially influencing incremental advanced-manufacturing capital formation.[^6]
 
-The memory layer shows the same shift in priority. Samsung said in 2Q26 that, under limited capacity, its Memory Business focused primarily on server products and expected server DRAM, enterprise SSD, and HBM demand to accelerate in 2H26. On 2026-08-07, SK hynix announced approximately **KRW54T** of combined investment in Yongin Y2 and Cheongju M17 to expand its mid- to long-term DRAM and NAND production base. Sources: https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results ; https://news.skhynix.com/en/fab-facility-investment-2026/
+The memory layer shows the same shift in priority. Samsung said in 2Q26 that, under limited capacity, its Memory Business focused primarily on server products and expected server DRAM, enterprise SSD, and HBM demand to accelerate in 2H26.[^7] On 2026-08-07, SK hynix announced approximately **KRW54T** of combined investment in Yongin Y2 and Cheongju M17 to expand its mid- to long-term DRAM and NAND production base.[^8]
 
 This report defines the resulting macro structure as **Two-Speed Semiconductor Economy**:
 
@@ -124,9 +124,9 @@ This is not a factual verdict that consumer electronics have been “sacrificed.
 
 Whether this becomes permanent depends on AI Capacity Gap, NARC, utilization, pricing feedback, and whether future expansion restores balance.
 
-## 7. Sixth master judgment: Cloud Custom Silicon is both platform substitution and upstream resource competition
+## 6. Fifth master judgment: Cloud Custom Silicon is both platform substitution and upstream resource competition
 
-Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer about a naked ASIC.
+Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer about a naked ASIC.[^9]
 
 It is a second class of system stack.
 
@@ -139,9 +139,9 @@ Successful custom silicon therefore does not automatically reduce upstream scarc
 
 The variables that determine stronger S1 Competitive Expansion are production workload share, migration cost, system utilization, and external adoption—not product-launch count.
 
-## 8. Seventh master judgment: model companies are becoming Anchor Compute Buyers
+## 7. Sixth master judgment: model companies are becoming Anchor Compute Buyers
 
-OpenAI Stargate, Anthropic/AWS, and other long-duration infrastructure commitments show that large model companies are becoming more than ordinary cloud tenants.
+OpenAI Stargate, Anthropic/AWS, and other long-duration infrastructure commitments show that large model companies are becoming more than ordinary cloud tenants.[^10]
 
 Long-duration demand can:
 
@@ -155,7 +155,7 @@ If long-duration commitments are delayed, utilization disappoints, or monetizati
 
 Model-company long-duration commitments therefore sit alongside hyperscaler CapEx and seller supply commitments as leading indicators.
 
-## 9. Eighth master judgment: China has a real Parallel Stack, but Frontier Closure must be validated layer by layer
+## 8. Seventh master judgment: China has a real Parallel Stack, but Frontier Closure must be validated layer by layer
 
 China's supply capability cannot be judged through one localization percentage.
 
@@ -165,9 +165,9 @@ China's supply capability cannot be judged through one localization percentage.
 
 CXMT's prospectus does not disclose an HBM product line.
 
-Its auditable Omdia-based **2025 Q2 DRAM revenue share is approximately 3.97%**, not an assumed 8%.
+Its auditable Omdia-based **2025 Q2 DRAM revenue share is approximately 3.97%**, not an assumed 8%.[^11]
 
-Counterpoint places YMTC at **14% of Q2 2026 NAND shipments**, while its Q1 2026 13% metric is a revenue share; the denominators must remain separate.
+Counterpoint places YMTC at **14% of Q2 2026 NAND shipments**,[^12] while its Q1 2026 13% metric is a revenue share;[^13] the denominators must remain separate.
 
 Domestic conventional-memory growth therefore increases resilience, but does not by itself prove frontier-HBM or full system closure.
 
@@ -177,7 +177,9 @@ The most accurate current state is:
 
 > **China has moved beyond the stage of having no alternative system, but public evidence does not yet show globally equivalent scaled closure across every frontier critical layer.**
 
-## 10. Ninth master judgment: the capital cycle is about Utilization and Duration, not CapEx size alone
+TrendForce's **5.1% SMIC figure for 1Q26 is a foundry revenue share**, not a frontier-AI capability measure.[^14]
+
+## 9. Eighth master judgment: the capital cycle is about Utilization and Duration, not CapEx size alone
 
 Cloud CapEx, system-vendor revenue, foundry revenue, memory revenue, and power investment cannot be added directly into one "global AI investment" number because the same dollar can appear on several ledgers along the supply chain.
 
@@ -203,7 +205,7 @@ As of August 2026, public evidence is still more consistent with:
 
 than a confirmed industry-wide Capital Hard Landing.
 
-## 11. "Compute as a means of cognitive production" is a conditional proposition
+## 10. "Compute as a means of cognitive production" is a conditional proposition
 
 This book uses the phrase to describe a testable economic change, not to give models agency.
 
@@ -219,7 +221,7 @@ The relevant unit is therefore:
 
 rather than an abstract measure of "how intelligent the model is."
 
-## 12. Point estimates for 2030 / 2036 are not facts
+## 11. Point estimates for 2030 / 2036 are not facts
 
 Exact future node prices, monthly packaging capacity, future HBM trade ratios, GW-scale campus counts, and trillion-dollar CapEx totals can only enter the analysis as explicitly labeled hypotheses / scenario inputs unless supported by current formal disclosures.
 
@@ -233,7 +235,7 @@ The publication rules are:
 
 Long-run conclusions therefore depend on variables and mechanisms rather than one precise 2036 number.
 
-## 13. S1–S4 are conditional states, not an author's probability table
+## 12. S1–S4 are conditional states, not an author's probability table
 
 ### S1 — Competitive Expansion
 
@@ -257,7 +259,7 @@ These states do not carry fixed world probabilities.
 
 Their relative weighting must change as public evidence changes.
 
-## 14. What should force the book to change its judgment
+## 13. What should force the book to change its judgment
 
 High-value falsification signals include:
 
@@ -276,7 +278,7 @@ If these signals contradict the current mechanisms, the report must change.
 
 They cannot be explained away by saying "the long-run story is still intact."
 
-## 15. Final master judgment
+## 14. Final master judgment
 
 As of August 2026, the book's core conclusion can be compressed into five statements:
 
@@ -296,7 +298,24 @@ It is to build an industrial-analysis framework that changes when the facts chan
 
 > **Forecasts may be wrong; evidence boundaries cannot be. Scenarios may be bold; the fact layer must remain disciplined. The most valuable long-run research is not a one-time prediction of the end-state, but knowing which facts would force the judgment to change.**
 
-## Core evidence and chapter navigation
+## References
+
+[^1]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
+[^6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^7]: Samsung Electronics, 2Q26 Results, memory product prioritization and 2H26 demand outlook, https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results
+[^8]: SK hynix, 2026-08-07, Yongin Y2 and Cheongju M17 investment plan, https://news.skhynix.com/en/fab-facility-investment-2026/
+[^9]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^10]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^11]: CXMT 2025 prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+
+## Cross-references
 
 - [Core Evidence Ledger](../核心证据台账.en.md)
 - [Core Source Index](../核心参考文献索引.en.md)
