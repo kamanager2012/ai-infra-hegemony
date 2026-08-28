@@ -98,3 +98,20 @@ These values are ready for the final GitHub UI step.
 ## 7. Tooling boundary for the final publication step
 
 The connected GitHub write tools used in this preparation cycle can update repository files on `main`, but they do not currently expose repository-About/visibility mutation or GitHub Release/tag creation. Those remaining unchecked publication operations must therefore be performed through a GitHub interface that exposes those controls. Do not mark them complete until the public repository and `v1.0.0` release can be remotely verified.
+
+## Historical fact audit hard gate — 2026-08-28
+
+- [x] Correct TSMC customer-concentration logic: annual largest/second-largest rankings are **not** a same-customer time series; anonymized Customer A/B series is kept separate.
+- [x] Separate TSMC smartphone **29% revenue mix** from **+11% platform-revenue growth**.
+- [x] Preserve TrendForce **51% HBM + RDIMM** as a **2026E institutional forecast**, not an observed actual.
+- [x] Correct GB200/NVL72 **~120 kW/rack** to whole-rack / rack-level power; do not relabel it as compute-only IT load.
+- [x] Update NVIDIA manufacturing, supply, and capacity commitments through FY27 Q2: **US$95.2B → US$119B → US$279B**.
+- [x] Replace unsourced Gaming-supply wording with NVIDIA FY26 10-K / CFO language and preserve causal limits.
+- [x] Time-bound TSMC advanced-packaging margin commentary to the 2Q24 statement; do not freeze it into a timeless margin claim.
+- [x] Refresh current four-cloud 2026 public scopes: Microsoft ~**US$175B** reported expectation, Alphabet **US$195–205B** guidance, Meta **US$130–145B** guidance, Amazon TTM PPE net purchases actual **US$169.007B**.
+- [x] Separate DeepSeek-V2 **93.3% KV-cache reduction / 5.76× max generation throughput** from DeepSeek-V3 **2.788M H800 GPU-hours / US$5.576M formal-training compute conversion**.
+- [x] Restore missing English evidence: consumer-memory price moves, TSMC Customer A/B series, and English public-source ledger section.
+- [x] Mark social-release URLs as non-public while the repository remains private.
+- [x] Add direct public-source links to the most heavily reused NVIDIA / TSMC / Micron / TrendForce / DeepSeek / power anchors in core volumes and master judgments.
+- [ ] Complete a repository-wide per-chapter source-link coverage sweep for all remaining historical claims before public release.
+
