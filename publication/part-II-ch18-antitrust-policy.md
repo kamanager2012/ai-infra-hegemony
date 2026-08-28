@@ -58,7 +58,7 @@ EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 und
 
 ## 5. 2026 年 Cloud Regulation 说明监管重点正在上移到 Interoperability
 
-European Commission 2026 年仍在推进 DMA cloud-computing market investigation，公开 roundtables 明确讨论 cloud-service interoperability、financial conditions 与 contractual conditions；该 market investigation 的 final report 计划到 **May 2027**。[^3]
+European Commission 2026 年仍在推进 DMA cloud-computing market investigation。2026-07-01，Commission 已实际举行 stakeholder roundtable，讨论三组主题：cloud interoperability / technical features、financial conditions，以及 contractual / commercial practices；调查 final report 最迟计划在 **May 2027** 发布。[^3][^4]
 
 这说明监管关注点已经不只是传统价格，也包括跨服务技术互操作、合同与 switching conditions。
 
@@ -153,4 +153,5 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 [^1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
 [^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
-[^3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
+[^3]: European Commission / Digital Markets Act, cloud-computing market investigation and roundtable plan, final report due by May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
+[^4]: European Commission / Digital Markets Act, stakeholder roundtable on cloud computing services, 2026-07-01, https://digital-markets-act.ec.europa.eu/commission-hosted-stakeholder-roundtable-cloud-computing-services-under-digital-markets-act-2026-07-01_en
