@@ -32,7 +32,7 @@ They cannot be mechanically added because three are guidance / expectations whil
 
 ## 3. The 2025 mixed-window aggregate is only a scale anchor
 
-The research layer reconstructs a mixed-window 2025 scale of roughly **US$354B** from public PPE/equipment-purchase disclosures.
+A reconstruction from public PPE/equipment-purchase disclosures gives a mixed-window 2025 scale of roughly **US$354B**.
 
 Its role is only to show that the capital base has become extremely large.
 
