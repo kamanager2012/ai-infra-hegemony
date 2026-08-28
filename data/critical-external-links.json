@@ -133,5 +133,15 @@
       "url": "https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx",
       "final_url_contains": "SDNEA2024001"
     }
-  ]
+  ],
+  "last_manual_sweep": {
+    "date": "2026-08-28",
+    "method": "Direct reachability check against the curated critical-link manifest using public web retrieval; official fallback accepted only where explicitly declared.",
+    "result": "25/25 critical evidence items reachable under manifest policy",
+    "primary_direct": "24/25",
+    "fallback_used": [
+      "TSMC-2Q26-TRANSCRIPT"
+    ],
+    "note": "The encrypted TSMC 2Q26 transcript deep link remained unstable in public retrieval; the official TSMC 2026 Q2 Quarterly Results page was reachable and remains the declared fallback."
+  }
 }
