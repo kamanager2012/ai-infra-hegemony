@@ -1,7 +1,5 @@
 # Part IV · Chapter 28: 2026–2036 Timeline and Conditional Milestones
 
-> **Publication-layer timeline chapter.** Based primarily on [Volume 19](../vol-19.en.md). This chapter does not pre-write exact 2030/2036 market shares, node prices, monthly CoWoS capacity, or campus GW. It breaks the next decade into four observation windows and defines verifiable milestones capable of changing S1–S4 weighting.
-
 ## 1. The timeline is a Conditional Milestone Map, not a year-by-year story
 
 The most common long-range error is to take technology roadmaps, capital plans, or power-project target dates and rewrite them as events that are guaranteed to occur.
