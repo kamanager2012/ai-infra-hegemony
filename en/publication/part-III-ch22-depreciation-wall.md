@@ -12,12 +12,17 @@ The depreciation wall therefore has to be read together with utilization, revenu
 
 Current company disclosures show materially different server / network-equipment useful-life policies:
 
+**Table 22.1 — Major cloud server / network-equipment useful-life disclosures**
+
 | Company | Server / network-equipment useful-life disclosure |
 |---|---|
 | Microsoft FY26 | 2–6 years |
 | Alphabet 2025 | generally 6 years |
 | Meta 2025 | 5–5.5 years |
 | Amazon 2025 | 5–6 years; some assets changed from 6 years to 5 years in 2025 |
+
+**Source:** Microsoft FY26 Form 10-K, Alphabet 2025 Form 10-K, Meta 2025 Form 10-K, and Amazon 2025 Form 10-K.[^1][^2][^3][^4]  
+**Note:** Accounting useful life is not economic life. Asset categories and depreciation estimates are not mechanically comparable across companies.
 
 This is enough to show that one universal "four-year straight-line depreciation" assumption cannot be applied to the entire AI-infrastructure stack.
 
