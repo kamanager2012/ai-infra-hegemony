@@ -10,7 +10,7 @@ AMD、Intel、Qualcomm、Apple 的 compute layer、software、manufacturing acce
 
 ## 2. AMD：最直接的 Data Center System Challenger
 
-AMD Instinct 是最直接的 data-center accelerator alternatives 之一。
+AMD Instinct 是最直接的 data-center accelerator alternatives 之一，AMD 当前官方路线也已把 Instinct GPU、EPYC CPU、Pensando networking 与 ROCm 组织为 rack/system 级解决方案。[^1][^2]
 
 真正的门槛不只是 GPU design，而是：
 
@@ -35,7 +35,7 @@ AMD 与 NVIDIA 会竞争相同的 advanced logic、HBM 与 packaging。
 
 ## 4. Intel：Product Clock 与 Foundry Clock 是两条时间线
 
-Intel 同时承担 CPU/product competition、accelerator attempts、foundry strategy 与 domestic manufacturing policy。
+Intel 同时承担 CPU/product competition、accelerator attempts、foundry strategy 与 domestic manufacturing policy。Intel 2025 10-K 与 2026 VLSI Symposium 更新显示 Intel Foundry 仍在推进 external-foundry strategy，18A 已进入 production、18A-P 进入 risk production。[^3][^4]
 
 Product clock 需要在短周期交付 performance、software 与 customer adoption；foundry clock 则需要长期建立 process、yield、customer trust、packaging 与 high-volume execution。
 
@@ -43,7 +43,7 @@ Product clock 需要在短周期交付 performance、software 与 customer adopt
 
 ## 5. Qualcomm：从 Edge 改写 Cloud Demand
 
-Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 与 connectivity。
+Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 与 connectivity；公司 2026 年公开材料继续强调 Snapdragon X Series PC 上的本地 agentic AI 与 mobile on-device generative AI。[^5][^6]
 
 它不需要复制 NVL72 才能获取 AI value。
 
@@ -53,7 +53,7 @@ Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 
 
 ## 6. Apple：Vertical Consumer Stack 的力量在 Workload Placement
 
-Apple 的 silicon、OS、device、application ecosystem、distribution 与 installed base 高度垂直。
+Apple 的 silicon、OS、device、application ecosystem、distribution 与 installed base 高度垂直。Apple Intelligence 的公开架构同时使用 on-device processing 与 Private Cloud Compute，说明 workload placement 本身就是其 AI system design 的核心。[^7][^8]
 
 Apple 不是 frontier training system vendor，但它可以决定大量 consumer workload：哪些在 device 完成，哪些调用 private / public cloud。
 
@@ -69,12 +69,17 @@ Apple 长期使用 leading-edge processes，但在没有公司一手客户份额
 
 ## 8. 四家公司对主栈的影响来自不同方向
 
+**Table 16.1 — 四类差异化竞争路径**
+
 | 公司 | 主要竞争方向 |
 |---|---|
 | AMD | Data Center accelerator / system |
 | Intel | CPU + accelerator + foundry |
 | Qualcomm | edge / PC / mobile AI |
 | Apple | vertically integrated on-device AI / workload placement |
+
+**Source:** AMD、Intel、Qualcomm、Apple 官方产品与公司材料。[^1][^3][^5][^7]  
+**Note:** 表中为竞争路径分类，不表示四家公司处于相同市场或拥有可直接比较的 market share。
 
 NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 
@@ -96,13 +101,13 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 
 它们是否真正削弱 dominant system-stack economics，最终要看 production workload share、software portability、scarce-resource access 与 customer migration，而不是产品发布数量。
 
-## 关键公开来源
+## References
 
-- AMD Instinct / Helios official page — rack-scale solution integrating Instinct GPUs, EPYC CPUs, Pensando networking and ROCm: https://www.amd.com/en/products/accelerators/instinct.html
-- AMD ROCm 10, 2026-08-27 — production inference/training software path on AMD Instinct: https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html
-- Intel 2025 10-K — Intel Foundry, internal manufacturing base and external-foundry strategy: https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm
-- Intel Foundry, 2026-06 — Intel 18A in production; 18A-P in risk production: https://newsroom.intel.com/intel-foundry/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium
-- Qualcomm, 2026-08 — agentic AI applications running natively on Snapdragon X Series PCs: https://www.qualcomm.com/news/onq/2026/08/agentic-ai-apps-snapdragon-x-series
-- Qualcomm Mobile AI — on-device generative AI positioning: https://www.qualcomm.com/smartphones/features/mobile-ai
-- Apple Intelligence — on-device processing plus Private Cloud Compute for larger server-based models: https://www.apple.com/apple-intelligence/
-- Apple Private Cloud Compute security documentation: https://security.apple.com/documentation/private-cloud-compute/
+[^1]: AMD, Instinct / Helios official page, rack-scale solution integrating Instinct GPUs, EPYC CPUs, Pensando networking and ROCm, https://www.amd.com/en/products/accelerators/instinct.html
+[^2]: AMD, “ROCm 10: A Simpler Path to Production AI on AMD,” 2026-08-27, https://www.amd.com/en/blogs/2026/amd-rocm-10-a-simpler-path-to-production-ai-on-amd.html
+[^3]: Intel Corporation, 2025 Form 10-K, Intel Foundry and manufacturing strategy, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm
+[^4]: Intel Foundry, 2026-06 VLSI Symposium process milestones, 18A production and 18A-P risk production, https://newsroom.intel.com/intel-foundry/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium
+[^5]: Qualcomm, 2026-08, agentic AI applications on Snapdragon X Series PCs, https://www.qualcomm.com/news/onq/2026/08/agentic-ai-apps-snapdragon-x-series
+[^6]: Qualcomm, Mobile AI / on-device generative AI, https://www.qualcomm.com/smartphones/features/mobile-ai
+[^7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
+[^8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
