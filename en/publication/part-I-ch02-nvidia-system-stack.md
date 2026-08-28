@@ -1,7 +1,5 @@
 # Part I · Chapter 2: NVIDIA's System Stack and Platform Power
 
-> **Publication-layer chapter.** Recompiled from [Volume 02](../vol-02.en.md), [Volume 32](../vol-32.en.md), and [Macro Essay 02](../part2-02.en.md). The research modules remain the source layer for evidence tracing and Git diffs; this chapter keeps only the main argument and the engineering detail needed for continuous reading.
-
 ## 1. The competitive unit has moved from the GPU to the system stack
 
 NVIDIA's most important current advantage is no longer the point performance of one GPU generation. It is the ability to organize accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system. The official GB200 NVL72 specification makes the shift in sales unit explicit:
