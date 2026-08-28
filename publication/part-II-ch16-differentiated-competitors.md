@@ -65,7 +65,7 @@ Apple 长期使用 leading-edge processes，但在没有公司一手客户份额
 
 真正要看的是：leading-node launch scale 是否保持、AI/HPC 对 incremental capacity 的吸收是否加速，以及 device-AI strategy 是否改变 wafer / memory mix。
 
-这再次说明 historical revenue share 不能替代 AHICR。
+这再次说明 historical revenue share 不能替代对下一代 incremental scarce-capacity access 的逐层分析。
 
 ## 8. 四家公司对主栈的影响来自不同方向
 
