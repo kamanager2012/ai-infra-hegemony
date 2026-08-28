@@ -79,19 +79,39 @@ AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资�
 
 > **AI/HPC 正在提高少数高资本强度买方对半导体边际需求和新增资本形成的影响力。**
 
-### 3.5 AI Capacity Gap
+### 3.5 AI Capacity Gap：绝对缺口与增长缺口必须分开
 
-为了判断短缺是在强化、收敛还是向过剩反转，本报告按物理层观察：
+为了判断某一物理层**当前是否真的短缺**，本报告定义绝对缺口：
 
 ```text
 AI_Capacity_Gap_i(t)
-= Growth(AI_Demand_i(t))
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+其中 \(i\) 分别代表 advanced logic、HBM/DRAM、advanced packaging、networking、power 等物理层。Demand 与 Capacity 必须使用**同一交付窗口、同一质量/认证边界和同一物理单位**，例如 wafers/month、qualified package starts/month、bits/year 或 MW。
+
+- **Absolute Gap > 0**：当前存在可交付供给缺口；
+- **Absolute Gap ≈ 0**：当前供需接近平衡；
+- **Absolute Gap < 0**：当前存在有效余量。
+
+为了判断短缺压力是在扩大还是收敛，再单独定义：
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
 - Growth(AI_Effective_Capacity_i(t))
 ```
 
-其中 (i) 分别代表 advanced logic、HBM/DRAM、advanced packaging、networking、power 等物理层。
+Growth Gap 的单位是同一期间的增长率差（percentage points），它只描述**缺口变化方向**，不能替代绝对缺口：
 
-**Gap > 0** 表示 AI 新增需求快于新增有效供给；**Gap ≈ 0** 表示供需收敛；**Gap < 0** 只有在 utilization、clearing price 与 forward commitments 同步恶化时，才构成 S4 Capital Hard Landing 的强信号。
+- **Growth Gap > 0**：短缺可能扩大，或既有余量被侵蚀；
+- **Growth Gap < 0**：短缺可能收敛，或有效余量扩大；
+- **Growth Gap = 0**：只表示供需以相同速度变化，不表示当前没有短缺。
+
+因此，S4 Capital Hard Landing 的强信号不是“Growth Gap < 0”本身，而是 **Absolute Gap < 0 / excess capacity** 与 utilization、clearing price、forward commitments 同步恶化。
+
+AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 是三类不同问题：前两者观察 AI 侧当前缺口及其变化方向，NARC 观察优先分配后非 AI 市场还能获得多少有效资源。
 
 ### 3.6 Cloud System-Stack Substitution
 
