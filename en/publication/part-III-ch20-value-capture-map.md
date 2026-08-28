@@ -40,7 +40,7 @@ FY27 Q2:
 - Revenue **US$96.221B**;
 - Data Center revenue **US$89.0B**;
 - GAAP gross margin **75.0%**;
-- GAAP operating income **US$63.734B**.
+- GAAP operating income **US$63.734B**.[^1]
 
 The value in this layer is not only the accelerator die.
 
@@ -59,9 +59,9 @@ Foundry, HBM, advanced packaging, and power remain external boundaries.
 
 ## 4. Foundry / Advanced Packaging: heavy manufacturing can become the quantity gate
 
-TSMC's 2025 gross margin was **59.9%**, while HPC represented **58%** of annual revenue.
+TSMC's 2025 gross margin was **59.9%**, while HPC represented **58%** of annual revenue.[^2]
 
-The company-corrected 2025 wording was **advanced packaging slightly over 10% of revenue**, and in 2Q26 management said packaging tightness was limiting customer growth.
+The company-corrected 2025 wording was **advanced packaging slightly over 10% of revenue**,[^3] and in 2Q26 management said packaging tightness was limiting customer growth.[^4]
 
 This shows that manufacturing value has expanded from transistor scaling into system integration.
 
@@ -80,9 +80,9 @@ SK hynix reported FY25:
 - Revenue **KRW97.1467T**;
 - Operating profit **KRW47.2063T**;
 - Operating margin **49%**;
-- HBM revenue more than doubled year over year.
+- HBM revenue more than doubled year over year.[^5]
 
-Micron first-party evidence also shows that at the same node and same number of bits, HBM3E requires roughly **3× the wafer supply of DDR5**.
+Micron first-party evidence also shows that at the same node and same number of bits, HBM3E requires roughly **3× the wafer supply of DDR5**.[^6]
 
 HBM value capture therefore reflects a combination of bandwidth value, manufacturing-input density, stacking / qualification complexity, and short-run scarcity.
 
@@ -116,7 +116,7 @@ Their greatest risk is duration mismatch when long-duration infrastructure is bu
 
 ## 7. Supply commitments are the funding bridge between the system platform and manufacturing
 
-NVIDIA's manufacturing, supply, and capacity commitments rose from:
+NVIDIA's manufacturing, supply, and capacity commitments rose from:[^7]
 
 - **US$95.2B** on 2026-01-25;
 - **US$119B** on 2026-04-26;
@@ -134,7 +134,7 @@ This is an important dynamic of value capture:
 
 ## 8. Power / Powered Land: value comes from time scarcity, not electricity price alone
 
-At roughly **120 kW-class rack density**, data centers require stronger grid interconnection, substations, transformers, cooling, and firm generation.
+At roughly **120 kW-class rack density**,[^8] data centers require stronger grid interconnection, substations, transformers, cooling, and firm generation.
 
 Assets with powered land, existing interconnection, and executable permitting paths can capture meaningful **Time-to-Power** value.
 
@@ -222,13 +222,13 @@ It is:
 
 > **How much repeatable cash flow remains at each layer, how much non-substitutability is created, and how much long-duration risk remains on the balance sheet?**
 
-## Key public sources
+## References
 
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q — US$279B manufacturing, supply, and capacity commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 4Q25 Transcript — 2025 advanced packaging slightly over 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
-- TSMC 2Q26 Earnings Conference Transcript — packaging tightness limits customer growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
-- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-- Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^1]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: TSMC, 2025 Annual Report, gross margin and platform mix, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^3]: TSMC, 4Q25 Earnings Conference Transcript, advanced packaging slightly over 10% of 2025 revenue, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^6]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^8]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
