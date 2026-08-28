@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-07.md](../part2-07.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This essay treats the bubble question as a duration, utilization, and cash-flow problem. Earlier stress-test arithmetic is not promoted into reported financial fact.
+> Retrieval and revision cutoff: **2026-08-28**. This essay treats the bubble question as a duration, utilization, and cash-flow problem. Earlier stress-test arithmetic is not promoted into reported financial fact.
 
 ## 1. The core capital question
 
