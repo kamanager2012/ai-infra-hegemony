@@ -52,6 +52,8 @@ The DeepSeek-V3 technical report discloses:
 - **2.788M H800 GPU-hours**;
 - MLA compressed KV dimension **d_c = 512**.
 
+Source: DeepSeek-V3 Technical Report: https://arxiv.org/abs/2412.19437
+
 The DeepSeek-V2 technical report separately reports, relative to DeepSeek 67B:
 
 - KV-cache reduction of approximately **93.3%**;
