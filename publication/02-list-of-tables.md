@@ -25,6 +25,7 @@
 - [Table 22.1 — 主要 Cloud 公司 server / network equipment useful-life disclosure](part-III-ch22-depreciation-wall.md)
 - [Table 23.1 — AI infrastructure 资产类别与主要融资风险](part-III-ch23-capital-financing.md)
 - [Table 24.1 — 四大云厂 2026 年资本投入公开口径](part-III-ch24-capital-clearing.md)
+- [Table 24.2 — 效率下降与需求弹性的 D 级敏感性示例](part-III-ch24-capital-clearing.md)
 
 ## Part IV
 
