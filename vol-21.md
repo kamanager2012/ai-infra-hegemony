@@ -50,6 +50,10 @@ NVIDIA Data Center revenue 是卖方收入。
 | FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP operating income | **US$63.734B** |
 
+主要来源：
+- NVIDIA FY26 official results（FY26 Data Center revenue / FCF）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q2 official results（Q2 Data Center revenue / operating income）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+
 这说明 system platform 可以留下非常高比例的价值。
 
 ### 2.3 Foundry / packaging
@@ -65,6 +69,10 @@ TSMC 收入来自：
 - gross margin：**59.9%**
 - HPC platform：**58% of revenue**
 - 2025 advanced packaging：略高于 **10%**（4Q25 transcript 公司会后更正口径；2024 的 >8% 则是 distinct “advanced packaging and testing” 标签）
+
+主要来源：
+- TSMC 2025 Annual Report（gross margin / HPC platform）：https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
 
 TSMC 在系统中承担重资产制造，因此其资本强度与 NVIDIA 完全不同。
 
@@ -159,7 +167,7 @@ hyperscaler 同样拥有极强现金流，但资金用途更加分散。
 
 ## 6. HBM 把资金流从“芯片”扩展到 memory
 
-TrendForce 预计 2026 年 HBM + RDIMM 约占 DRAM bits **51%**。
+TrendForce 预计 2026 年 HBM + RDIMM 约占 DRAM bits **51%**。 来源：https://www.trendforce.com/presscenter/news/20260825-13198.html
 
 Micron FY24 Q3 的 **industrywide / same-node / same-bits** 口径显示，HBM3E 约需 DDR5 **3× wafer supply**，说明 HBM 对 manufacturing input 的消耗更高；该比例不是 Micron 自家固定常数。
 
@@ -176,7 +184,7 @@ Micron FY24 Q3 的 **industrywide / same-node / same-bits** 口径显示，HBM3E
 
 ## 7. Power 成为新的资本吸收层
 
-当 rack power 接近 120 kW，hyperscaler 必须提前投入：
+当 rack power 接近 **120 kW/rack** 量级时，hyperscaler 必须提前投入： 来源：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 
 - substation；
 - transformer；
