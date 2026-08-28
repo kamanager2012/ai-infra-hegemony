@@ -99,7 +99,7 @@ NVIDIA 的资源预订能力可由以下财务指标观察：
 | 指标 | 数值 |
 |---|---:|
 | FY26 non-GAAP free cash flow（NVIDIA 定义） | **US$96.575B** |
-| FY26 Operating income | **US$130.387B** |
+| FY26 GAAP operating income | **US$130.387B** |
 | FY27 Q2 Revenue | **US$96.221B** |
 | FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP gross margin | **75.0%** |
@@ -178,3 +178,12 @@ NVIDIA 的护城河最强处，不是任何单一硬件参数，而是系统栈�
 - 竞争焦点正在从“谁有更好的芯片”转向“谁能控制完整系统的成本、迁移、供给与利用率”。
 
 这也是后续所有供应链分析的起点。
+
+
+## 本卷关键公开来源
+
+- NVIDIA FY26 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 official results（Rubin full production / Q2 actuals）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q（US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- NVIDIA GB200 NVL72 official product page：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
