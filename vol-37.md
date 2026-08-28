@@ -200,4 +200,6 @@ S4 仍是必须认真监测的情景，但要成为主情景，需要看到：
 
 ## 本卷关键公开来源
 
-- NVIDIA FY27 Q2 official results（GAAP gross margin 75.0%）： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY26 official results / 10-K（H20 charges；FY26 Q4 GAAP gross margin 75.0%）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q1 10-Q（Q1 GAAP gross margin 74.9%）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
+- NVIDIA FY27 Q2 official results（Q2 GAAP gross margin 75.0%）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
