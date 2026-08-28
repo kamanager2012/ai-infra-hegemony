@@ -150,3 +150,7 @@ HBM 的战略价值来自三个同时存在的特征：
 所以 HBM 的长期价值不是“永远短缺”，而是：
 
 > **只要 frontier system 对 bandwidth 的增长快于 memory supply elasticity，HBM 就会继续拥有高战略价值。**
+
+## 本卷关键公开来源
+
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
