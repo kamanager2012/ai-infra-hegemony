@@ -7,6 +7,8 @@
 ### Publication-layer milestone
 
 - Chinese Publication Layer now contains **32/32 integrated chapters** across four parts: Part I 9/9, Part II 9/9, Part III 8/8, Part IV 6/6.
+- English Publication Layer now also contains **32/32 synchronized publication chapters** across the same four-part architecture.
+- English chapter generation is complete; remaining work is publication QA, evidence-link regression, bilingual consistency checks, and export/layout validation.
 - `publication/README.md` and `出版结构.md` each resolve to **32 unique publication-chapter links**.
 - The 32-chapter first integration pass is complete; this is **not** a declaration that final publication QA is fully green. Evidence-chain, dead-link, source-depth, bilingual synchronization, and whole-book consistency checks continue.
 
