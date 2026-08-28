@@ -1,7 +1,5 @@
 # Part II · 第14章：Agent-native Software 与 AI Software Unit Economics
 
-> **出版层章节。** 以 [vol-27](../vol-27.md) 为主源。本章把 agent software 从“传统 SaaS 加一个模型接口”中单独抽出，核心指标不是 token price，而是 **cost per successfully completed workflow**。
-
 ## 1. Agent-native Software 改写的是成本结构
 
 传统 SaaS 的典型特征是 software replication cost 低、seat 增长不一定线性增加 variable compute。
