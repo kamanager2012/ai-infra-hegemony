@@ -72,11 +72,11 @@ SK hynix FY25 官方数据：
 
 ## 5. 51% DRAM bit share 的含义
 
-TrendForce 机构研究显示，2026 年 HBM + RDIMM 约占 DRAM bits 的 **51%**。
+TrendForce **预计**，2026 年 HBM + RDIMM 约占 **DRAM bit supply 的 51%**。这是 **2026E institutional forecast**，不是已经实现的 full-year actual。
 
-这个数字不能理解成“51% DRAM 都是 HBM”。
+这个数字不能理解成“51% DRAM 都是 HBM”，也不能改写成 wafer share 或 revenue share。
 
-它表示 AI/server-related memory 已经占到 DRAM bit demand 的重要部分，而 HBM 的 wafer input 又高于同 bit DDR5。
+它表示 AI/server-related memory 在 TrendForce 的 2026 预测中已经占到 DRAM bit supply 的重要部分，而 HBM 的 wafer input 又高于同 bit DDR5。
 
 因此，供给压力可以沿以下路径传导：
 
@@ -148,7 +148,7 @@ YMTC 属于 NAND 体系，也不能被用来直接替代 HBM/DRAM 的供给约�
 截至 2026 年 8 月，存储行业已经出现三个结构性变化：
 
 1. HBM 成为高利润、高资本强度的核心产品；
-2. AI/server memory 对 DRAM bit demand 的占比显著提高；
+2. AI/server memory 对 DRAM 资源的吸收显著提高，TrendForce 的 2026E bit-supply 预测提供了可观察前向锚；
 3. HBM 的 wafer-supply trade ratio 放大了对 conventional DRAM residual capacity 的影响。
 
 未来真正决定存储市场是否继续向 AI 倾斜的指标包括：
@@ -165,5 +165,6 @@ HBM 已经从“GPU 边上的高端内存”上升为 AI 基础设施资源竞�
 
 ## 本卷关键公开来源
 
-- TrendForce, HBM + RDIMM 2026 DRAM bit supply 51% / CSP memory CapEx： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply；2026/2027 CSP memory CapEx forecast）： https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- SK hynix FY25 official results：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
