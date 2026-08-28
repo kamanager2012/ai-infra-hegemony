@@ -1,6 +1,6 @@
 # Publication Layer · 出版层总目录
 
-> 这里存放面向连续阅读的正式出版正文。**中文与英文 Publication Layer 均已完成 32/32 章同步；中英文 Markdown QA、逐章双语结构/高风险数值回归，以及研究层 96/96 required-source gate 均已通过。整体项目仍未标记为 Publication Ready。** 剩余封版门禁为关键外链最终复扫、PDF/EPUB 实际导出与渲染 QA、最终人工 proofread，以及公开仓库/Release 操作。
+> 这里存放面向连续阅读的正式出版正文。**中文与英文 Publication Layer 均已完成 32/32 章同步；中英文 Markdown QA、逐章双语结构/高风险数值回归，以及研究层 96/96 required-source gate 均已通过。整体项目仍未标记为 Publication Ready。** critical-link sweep 与当前 Publication Layer 版权/长引文审计已关闭。剩余封版门禁为 GitHub Actions 重新启用（或执行本地/WSL fallback）、PDF/EPUB 实际导出与 machine proof、最终人工 proofread/低风险 semantic sign-off、作者 COI 确认，以及最终发布日期/公开仓库/Release 操作。
 
 正式封版门禁见 [《出版封版标准》](../出版封版标准.md)；出版前置页见 [Front Matter](00-front-matter.md)；完整结构见 [《出版版结构》](../出版结构.md)。
 
@@ -56,7 +56,7 @@
 - **Research required-source gate：PASS** — 中文 48/48 + 英文 48/48，共 96/96 research files；高风险 claim ledger 中英文各 32 条且 bilingual_id 完全对齐。
 - **32/32 章节结构与旧口径机械回归：已通过。**
 - **核心证据深链 QA：已完成第一轮。**
-- **Publication Ready：尚未完成** — 剩余门禁为关键外链最终复扫、PDF/EPUB 实际导出与渲染 QA、最终人工 proofread，以及公开仓库/Release 操作。
+- **Publication Ready：尚未完成** — critical links 与当前 rights gate 已 PASS；剩余为 Actions re-enable（或本地/WSL fallback 实跑）、PDF/EPUB build + machine proof、最终人工 proofread/低风险 semantic sign-off、作者 COI、final release metadata 与公开仓库/Release 操作。
 
 当前已完成的出版 QA 包括：
 
@@ -68,7 +68,7 @@
 - publication layer 内部“审稿/工作底稿/历史误写”类过程性语言回归清零；
 - NVIDIA / TSMC / SEC / TrendForce / Constellation / NRC / Anthropic / Microsoft / Intel / Qualcomm / OpenAI / U.S. Commerce / Stanford HAI / ILO 等核心来源完成一轮深链抽检。
 
-> `32/32` 仍不等于最终出版物已经封版。**中英文正文、引用格式、双语结构/高风险数值回归，以及 96/96 research required-source gate 已通过；剩余工作集中在外链可用性、实际成品导出/渲染、人工 proofread 与发布操作。**
+> `32/32` 仍不等于最终出版物已经封版。**中英文正文、引用格式、双语结构/高风险数值回归、96/96 research required-source gate、critical links 与当前 rights gate 已通过；剩余工作集中在实际成品导出/machine proof、人工 proofread/低风险语义复核、作者 COI 与发布操作。**
 
 ## 出版层编辑标准
 
