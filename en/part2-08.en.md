@@ -70,9 +70,9 @@ The critical question is whether the stack can run large real workloads efficien
 
 ## 4. The public CXMT filing does not disclose an HBM product line
 
-CXMT's public filing discloses DDR and LPDDR product lines.
+CXMT's primary public anchor is the **27 May 2026 SSE registration prospectus**. It discloses DDR and LPDDR product lines; full-text searches for `HBM` and the Chinese term for high-bandwidth memory return no match. The narrow publication-level statement is therefore that the registration prospectus does **not** disclose an HBM product line.
 
-The filing does **not** disclose an HBM product line.
+The same prospectus separates project investment from planned offering proceeds: the three projects total **RMB34.5B** of investment but **RMB29.5B** of planned proceeds; the DRAM technology-upgrade project is **RMB18.0B total investment** but **RMB13.0B planned proceeds**. Those denominators must not be mixed.
 
 That evidence supports a narrow conclusion:
 
@@ -263,3 +263,14 @@ It creates:
 - stronger pressure for regional supply resilience.
 
 The 2036 outcome will depend on which of the seven closure gates are crossed and which global constraints—capital, power, packaging, memory, or regulation—become dominant first.
+
+
+## Key public sources for this essay
+
+- CXMT 27 May 2026 STAR Market registration prospectus (SSE): https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+- SSE listing notice — listed 27 July 2026, ticker 688825: https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
+- TrendForce, 12 June 2026 — 1Q26 foundry revenue shares (TSMC 72%, Samsung Foundry excluding System LSI 6.5%, SMIC 5.1%): https://www.trendforce.com/presscenter/news/20260612-13095.html
+- TrendForce, 25 August 2026 — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- NVIDIA FY26 10-K — China Data Center / export-control risk disclosures: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- TSMC 4Q25 Presentation — 2025 HPC 58%, smartphone 29%, platform growth: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- DeepSeek-V3 Technical Report — pre-training 2.664M; full training 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
