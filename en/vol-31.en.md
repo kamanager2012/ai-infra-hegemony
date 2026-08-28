@@ -78,7 +78,7 @@ Key public anchors include:
 - Smartphone platform: **29%** of revenue, with platform revenue up **11% YoY**;
 - 2025 largest customer: **19% of annual revenue**;
 - 2025 second-largest customer: **17%**;
-- advanced packaging + testing: slightly above **10%** of revenue.
+- advanced packaging: slightly above **10%**; do not broaden this into “packaging + testing” of revenue.
 
 **Customer-scope hard boundary:** annual largest / second-largest rankings are not a same-customer time series. A separate anonymized table provides the directly comparable 2024→2025 series: Customer A **12%→19%**, Customer B **22%→17%**. The two disclosure formats must not be stitched together into one customer's longitudinal trajectory.
 
@@ -168,7 +168,7 @@ Energy projects are tracked through five states:
 Current important projects include:
 
 - Microsoft / Constellation: approximately **835 MW** restart PPA;
-- Talen / AWS: revised-PPA full contract quantity **up to 1,920 MW**, transition occurred in **April 2026**, with power delivery ramping to full volume **no later than 2032**;
+- Talen / AWS: revised-PPA full contract quantity **up to 1,920 MW**. The 2026 Q2 10-Q states that the transition occurred in **April 2026**, while the 2025 10-K had expected full transition in **spring 2027**. April 2026 is not evidence that all physical delivery was complete;
 - Google / Kairos: Hermes 2 **up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**.
 
 The next variables are therefore:
