@@ -44,6 +44,7 @@ def front_body(text: str, heading: str) -> str:
     # Front-matter source contains title/byline metadata above a horizontal rule.
     parts = re.split(r"\n---\n", text, maxsplit=1)
     body = parts[1] if len(parts) == 2 else text
+    body = strip_local_md_links(body)
     return f"# {heading}\n\n" + body.strip() + "\n"
 
 def process(text: str, namespace: str) -> str:
