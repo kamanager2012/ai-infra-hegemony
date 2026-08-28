@@ -72,7 +72,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 任一单点突破都不足以自动形成等价系统。有 accelerator 但没有 HBM，有 hardware 但 migration cost 很高，有 cluster 但 utilization 与 interconnect scaling 不足，都可能使 system-level competitiveness 显著下降。
 
-因此，本书不使用“某颗芯片能运行模型”作为 frontier substitution 的充分条件。
+因此，本报告不使用“某颗芯片能运行模型”作为 frontier substitution 的充分条件。
 
 ## 5. Ascend / CANN 的战略意义在系统完整性，而不是单卡数字
 
@@ -120,7 +120,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 长鑫公开招股材料引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四。[^11]
 
-因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本书事实层。
+因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本报告事实层。
 
 长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；[^12] 同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。[^13]
 
@@ -191,7 +191,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 ## 11. 七个 Frontier System Closure Gate
 
-本书只有在以下七项都达到可验证规模时，才把“中国已经形成完整 frontier AI parallel stack”作为事实层判断：
+本报告只有在以下七项都达到可验证规模时，才把“中国已经形成完整 frontier AI parallel stack”作为事实层判断：
 
 1. advanced accelerator 可规模化交付；
 2. HBM-class memory 可规模化；
