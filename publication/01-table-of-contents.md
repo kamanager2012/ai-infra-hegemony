@@ -2,7 +2,7 @@
 
 ## Front Matter
 
-- [封面、报告定位、证据边界与免责声明](00-front-matter.md)
+- [报告说明、证据边界与免责声明](00-front-matter.md)
 - [表格目录](02-list-of-tables.md)
 - [缩写与核心术语表](03-abbreviations-and-glossary.md)
 - [研究透明度、局限性与纠错机制](04-research-transparency.md)
