@@ -266,3 +266,8 @@ The important question is not:
 It is:
 
 > **How much profit does the same capital leave at each layer, how much long-duration lock-in does it create, and how much repeatable cash flow does the resulting asset generate?**
+
+## Key public sources for this volume
+
+- TrendForce — 2026 HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
