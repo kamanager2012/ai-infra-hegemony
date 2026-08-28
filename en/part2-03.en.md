@@ -2,7 +2,7 @@
 
 Chinese source edition: [part2-03.md](../part2-03.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Advanced logic, advanced packaging, and HBM are different physical pools. Their metrics cannot be substituted for one another, and the shortest layer determines system delivery.
+> Retrieval and revision cutoff: **2026-08-28**. Advanced logic, advanced packaging, and HBM are different physical pools. Their metrics cannot be substituted for one another, and the shortest layer determines system delivery.
 
 ## 1. The core question
 
