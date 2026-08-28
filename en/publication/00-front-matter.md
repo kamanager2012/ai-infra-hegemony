@@ -51,6 +51,8 @@ Original report text is distributed under the repository LICENSE. Third-party ma
 - [Table of Contents](01-table-of-contents.md)
 - [List of Tables](02-list-of-tables.md)
 - [Abbreviations and Core Glossary](03-abbreviations-and-glossary.md)
+- [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
+- [Competitive Set, Substitution Paths, and Counter-Evidence Matrix](05-competitive-evidence-matrix.md)
 - [Executive Summary — Chapter 1](part-I-ch01-executive-summary.md)
 - [Research Method and Evidence Architecture — Chapter 27](part-IV-ch27-research-method.md)
 - [Core Evidence Ledger](../核心证据台账.en.md)
