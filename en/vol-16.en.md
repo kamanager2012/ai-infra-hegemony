@@ -249,3 +249,7 @@ The most reliable sequence is:
 The wrong sequence is to choose a large conclusion first and then backfill numbers until the model appears closed.
 
 Quantification is most useful when it shows exactly **which variable is observed, which one is assumed, and which missing disclosure prevents the next step from being treated as fact**.
+
+## Key public sources for this volume
+
+- DeepSeek-V3 Technical Report — 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
