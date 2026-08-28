@@ -29,7 +29,7 @@ STRONG_NUM = re.compile(
 )
 NON_FACT = re.compile(
     r"D[- ]?grade|D\s*级|scenario|情景|sensitivity|stress test|压力测试|"
-    r"geometry|几何|assumption|假设|arithmetic|算术|illustrative|示例|"
+    r"geometry|几何|assumption|assume|假设|假定|arithmetic|算术|illustrative|示例|"
     r"for example|例如|比如|cannot|must not|not actual|not shipment|"
     r"not consumption|does not mean|不能|不允许|不是实际|不代表|不得|不采用|"
     r"target|目标|threshold|阈值|formula|公式|if\b|如果|假如|"
