@@ -11,6 +11,8 @@ frontier AI system 同时需要 leading-edge logic、HBM、advanced packaging、
 
 ## 2. TSMC 2025 的事实底座
 
+**Table 4.1 — TSMC 2025 产能、技术与平台收入结构**
+
 | 指标 | 2025 |
 |---|---:|
 | 12-inch-equivalent wafer shipments | ~15.0M |
@@ -23,15 +25,18 @@ frontier AI system 同时需要 leading-edge logic、HBM、advanced packaging、
 | Smartphone platform | 29%; +11% YoY platform growth |
 | largest / second-largest customer | 19% / 17% of annual revenue |
 
+**Source:** TSMC 2025 Annual Report、2025 Form 20-F 与 4Q25 Presentation.[^1][^2][^3]  
+**Note:** platform share 与 node share 均为 revenue-based metrics；customer revenue share 不能换算为 wafer、node 或 CoWoS allocation。
+
 这些数字证明 HPC 已成为 TSMC 最大 platform，同时 TSMC 仍服务广泛客户。它们不支持“TSMC 已成为某一家客户专属 fab”。
 
 ## 3. Customer revenue share 不能换算成 wafer / node / CoWoS share
 
-2025 largest customer 19% 与 second-largest customer 17% 是**年度收入排名口径**。
+2025 largest customer 19% 与 second-largest customer 17% 是**年度收入排名口径**。[^2]
 
 它们不能换算成 N2 wafer share、3 nm wafer share、CoWoS share、HPC wafer share 或 physical wafer count。
 
-另一张匿名客户表才支持跨年比较：Customer A **12%→19%**、Customer B **22%→17%**（2024→2025）。annual largest/second-largest ranking 与 anonymized A/B series 回答不同问题，不能拼成同一客户的虚假轨迹。
+另一张匿名客户表才支持跨年比较：Customer A **12%→19%**、Customer B **22%→17%**（2024→2025）。[^4]annual largest/second-largest ranking 与 anonymized A/B series 回答不同问题，不能拼成同一客户的虚假轨迹。
 
 同样，HPC 58% 是 platform revenue share，不是 wafer shipment share。
 
@@ -68,7 +73,7 @@ AHICR 必须按 physical layer 分别看 logic、HBM、packaging、power，不�
 
 ## 7. Advanced Packaging 必须与 logic pool 分开
 
-TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoWoS allocation 未披露。TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计属于 B 级机构数据。
+TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoWoS allocation 未披露。[^5] TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计属于 B 级机构数据。[^6]
 
 5.37 CoWoS wafers/rack 是报告侧 D 级 geometry stress test，不是 TSMC yield，也不能拿 TSMC 全年 15M front-end wafer shipments 去除。
 
@@ -76,7 +81,7 @@ TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoW
 
 ## 8. Samsung / SMIC 的 foundry share 不能直接等同于 frontier substitution
 
-TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry **6.5%（excluding System LSI）**、SMIC **5.1%**。
+TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry **6.5%（excluding System LSI）**、SMIC **5.1%**。[^7]
 
 这些是 revenue share，不是 frontier-AI capacity share。形成第二套可替代 supply system 还要同时验证 node performance、yield、advanced packaging、HBM ecosystem、customer qualification 与 software/system integration。
 
@@ -88,12 +93,12 @@ TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 强�
 
 未来最关键的观察变量不是某一季 customer revenue share，而是：N2/N2P/A16 增量资源的客户结构、HBM / packaging supply、cloud custom silicon 的新增资源竞争，以及第二制造体系能否在 logic + packaging + memory 上形成组合替代。
 
-## 关键公开来源
+## References
 
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2025 20-F — annual customer rankings: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- TSMC 2025 consolidated report — Customer A/B series: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
-- TSMC 4Q24 Transcript: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
-- TSMC 4Q25 Transcript: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
-- TSMC 2Q26 Earnings Conference Transcript: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
-- TrendForce 1Q26 foundry revenue share: https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^1]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^2]: Taiwan Semiconductor Manufacturing Company Limited, 2025 Form 20-F, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+[^3]: TSMC, 4Q25 Presentation / 2025 full-year platform and technology mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+[^4]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+[^5]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^6]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^7]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
