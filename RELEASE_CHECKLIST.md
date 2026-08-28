@@ -103,6 +103,8 @@ These values are ready for the final GitHub UI step.
 >
 > This research is not an audit opinion, investment recommendation, or legal opinion.
 
+## 7. Tooling boundary for the final publication step
+
 **Local/WSL fallback while GitHub Actions is disabled**
 
 `bash scripts/run-release-qa.sh`
