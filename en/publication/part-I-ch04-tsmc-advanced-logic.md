@@ -1,7 +1,5 @@
 # Part I · Chapter 4: TSMC, N2, and Advanced-Manufacturing Resource Allocation
 
-> **Publication-layer chapter.** Based primarily on [Volume 04](../vol-04.en.md). Advanced Packaging is treated as a separate physical capacity pool in Chapter 6; this chapter focuses on leading-edge logic, customer-disclosure denominators, and the allocation of next-generation incremental resources.
-
 ## 1. The real competitive object is not a rumored "2 nm wafer price"
 
 A frontier AI system simultaneously requires leading-edge logic, HBM, advanced packaging, substrates, interconnect, and power. Node leadership is only one necessary condition for entering the next-generation system race.
