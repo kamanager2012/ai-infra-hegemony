@@ -1,5 +1,7 @@
 # 第十四卷：AI 基础设施价值捕获地图——谁获得利润，谁承担残量压力
 
+> **出版定位：**本卷负责定义 Value Capture Map 与各层价值捕获机制；[第二十一卷](vol-21.md)只负责资金如何在 buyer → platform → manufacturing / memory / power 之间流动，以及如何避免同一美元重复计算。最终连续出版版已合并为[第20章](publication/part-III-ch20-value-capture-map.md)。
+
 ## 1. “赢家与输家”不能按行业标签粗暴划分
 
 AI infrastructure 的价值重新分配不是“半导体赢、软件输”这么简单。
