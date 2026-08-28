@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-03.md](../vol-03.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. AI expansion does not absorb all semiconductor capacity. The relevant variable is the residual capacity left for non-AI demand inside the specific scarce layers that AI systems also consume.
+> Retrieval and revision cutoff: **2026-08-28**. AI expansion does not absorb all semiconductor capacity. The relevant variable is the residual capacity left for non-AI demand inside the specific scarce layers that AI systems also consume.
 
 ## 1. Where the “AI siphon” actually occurs
 
