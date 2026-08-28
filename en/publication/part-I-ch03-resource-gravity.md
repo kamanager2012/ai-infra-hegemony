@@ -25,6 +25,20 @@ The transmission chain is:
 
 This does not mean suppliers serve only the top buyer, nor that traditional markets stop receiving supply. It describes a change in the priority of **incremental** resources.
 
+### 2.1 Price is not the only clearing mechanism: Allocation Assurance matters more than spot price
+
+In an extreme shortage, the market does not clear through price alone. **Long-term agreements, customer credit, prepayments, purchasing scale, and allocation fulfillment** can determine first whether a buyer receives enough volume.
+
+TrendForce stated in January 2026 that as U.S. CSPs locked in capacity, other customers had to accept higher prices to secure supply allocations. In March 2026, it further noted that PC OEMs and module makers with lower allocation-fulfillment rates were forced to procure incremental supply at higher prices.
+
+Therefore:
+
+> **willingness-to-pay ≠ guaranteed quantity**
+
+The systemic risk is not only how much prices rise. It is whether residual capacity falls far enough that secondary buyers cannot obtain sufficient, timely, and sustainable supply even after accepting higher prices.
+
+This mechanism is more auditable than the absolute claim that one buyer has captured "100% of capacity."
+
 ## 3. Why Non-AI Residual Capacity matters more than gross capacity
 
 The effective supply available to traditional markets can be represented as:
@@ -121,3 +135,5 @@ The crowding-out thesis should be weakened if DDR/LPDDR pricing and supply becom
 - Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - TSMC 4Q25 Presentation — smartphone 29%, HPC 58%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- TrendForce 2026-01-05 — CSPs lock capacity, other buyers accept higher prices to secure allocation: https://www.trendforce.com/presscenter/news/20260105-12860.html
+- TrendForce 2026-03-31 — lower allocation fulfillment forces OEMs to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
