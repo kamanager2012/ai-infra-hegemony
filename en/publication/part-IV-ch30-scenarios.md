@@ -124,6 +124,20 @@ S4 does not mean AI usage disappears.
 
 After capital clearing, cheaper compute can still stimulate new applications.
 
+## 5.1 Comparative framework for the four standard scenarios
+
+**Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4**
+
+| Scenario | Core drivers | Primary industry outcome | Key reverse signal |
+|---|---|---|---|
+| S1 — Competitive Expansion | higher supply elasticity, multi-sourcing, and portability | more distributed value capture and greater buyer optionality | scarce-layer tightness strengthens again or migration costs rise |
+| S2 — Baseline Concentration | strong demand, strong leading platforms, substitution develops but remains incomplete | high growth and concentration coexist | supply/substitution improve materially or ROI/commitments deteriorate together |
+| S3 — Resource Hegemony | multi-layer scarcity + switching costs + forward reservation strengthen | incremental capacity becomes more concentrated and replication costs rise | capacity access broadens and open interfaces materially lower migration costs |
+| S4 — Capital Hard Landing | utilization / monetization falls short of the capital base | clearing prices, orders, CapEx, and asset values decline | utilization, clearing prices, and forward commitments recover |
+
+**Source:** Report S1–S4 scenario framework.  
+**Note:** The four scenarios are parallel conditional states. They do not carry fixed probabilities and are not inevitable sequential stages.
+
 ## 5A. AI Capacity Gap: a cross-scenario diagnostic axis
 
 S1–S4 remain parallel conditional states. The report does not introduce a second scenario taxonomy. Instead, it adds a cross-scenario diagnostic variable:
@@ -219,17 +233,17 @@ Scenario weighting therefore describes **relative structure**, not one compulsor
 
 ## 12. Current baseline
 
-As of August 2026, the formal baseline is:
+As of August 2026, the report's baseline is:
 
 > **S2 — Baseline Concentration**
 
 because:
 
-- NVIDIA / leading-platform seller economics remain strong;
-- HBM and advanced packaging remain important bottlenecks;
-- cloud custom systems are real competitors but have not shown comprehensive frontier-workload substitution;
-- infrastructure CapEx and forward commitments remain high;
-- power constraints are rising;
+- NVIDIA / leading-platform seller economics remain strong;[^1]
+- HBM and advanced packaging remain important bottlenecks;[^2][^3]
+- cloud custom systems are real competitors but have not shown comprehensive frontier-workload substitution;[^4]
+- infrastructure CapEx and forward commitments remain high;[^5]
+- power constraints are rising;[^6]
 - China's parallel stack has not reached equivalent closure across every frontier critical layer;
 - synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
 
@@ -247,7 +261,16 @@ They should ask:
 
 That keeps long-run judgment responsive to industrial evidence rather than dependent on a one-time bet.
 
-## Core monitoring navigation
+## References
+
+[^1]: NVIDIA, FY27 Q2 official results, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^3]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+[^4]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^6]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+
+## Cross-references
 
 - [Chapter 29: Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md)
 - [Chapter 32: Master Judgment](part-IV-ch32-master-judgment.md)
