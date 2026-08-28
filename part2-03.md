@@ -8,13 +8,13 @@
 
 ## 2. 基线判断与关键假设
 
-历史压力测试把三件上限写成一套价格和产能表。代工：台积电在 3nm/2nm 占顶级 AI 代工「约 95% 以上」（早期情景数字，机构收入份额不是这个口径，见下节）。2nm 引入 GAA 纳米片。单座 2nm 厂 200 亿～250 亿美元，High-NA 单台 3.8 亿美元（均为早期情景数字，年报未印）。报价表（历史压力测试，不是台积电价目）：7nm 10,000 美元，5nm 16,000 美元，3nm 20,000～22,000 美元，2nm 30,000～35,000 美元，A16 超过 40,000 美元。3nm 买家写成苹果 A18/M4、Blackwell、高通 8 Elite；2nm 被写成 Vera Rubin 与下一代苹果独占倾向——这是历史压力测试倾向，不是已公示独家合同。台积电 2024 官方基线为营收约 **US$90.08B**、CapEx 约 **US$29.76B**、3 nm 占晶圆营收 **18%**、全年毛利率 **56.1%**；HPC 已超过 smartphone。
+本篇不把市场流传的节点报价、单厂投资额或客户“独占”判断纳入事实层。包括“顶级 AI 代工约95%”“单座2nm厂US$20–25B”“High-NA单台US$380M”、7nm/5nm/3nm/2nm固定报价表，以及 Rubin/Apple 对2nm的排他性分配等，均缺乏可对应的一手官方分项，只能视为未确认的 D 级情景输入。可进入事实层的 2024 TSMC 基线为：Revenue 约 **US$90.08B**、CapEx 约 **US$29.76B**、3 nm 占 wafer revenue **18%**、全年 gross margin **56.1%**，且 HPC 已超过 smartphone。
 
-CoWoS 月产能（历史压力测试预计，台积电不分项）：2023 底 1.3 万片/月，2024 底 3.5 万，2025 底 7.5～8.0 万，2026 底 12.0～13.0 万，并预研 CoPoS。NVIDIA 锁 60% 以上；其余 AMD 约 14%、Broadcom 约 11%、苹果约 8%、初创约 7%（卖方口径，不是年报）。2023 年 H100 交期被写成长达 52 周。
+TSMC 年报与法说未披露可直接用于本篇的 CoWoS 官方月产能序列或 customer-level allocation。市场研究中的月产能轨迹和客户拆分属于卖方/机构估计，不能升级为 TSMC 一手事实。TrendForce 对 2025 年 NVIDIA CoWoS demand >60% 的估计在本报告中保留为 B 级机构锚；其他客户精确拆分不进入事实层。
 
 HBM资源消耗。Micron在FY24 Q3 prepared remarks中直接披露：在相同技术节点、生产相同比特时，HBM3E大约需要DDR5三倍wafer supply，并预计HBM4的trade ratio还会更高。历史压力测试曾用TSV面积、12层复合良率和“1200对400”示意图自行推导，这些推导不再承担证据功能。
 
-历史压力测试的复合良率公式和1200对400示意图不进事实层；**Micron约3× wafer supply披露进入A类一手事实**。TrendForce、海力士等机构/原厂数据继续按各自等级使用。
+自设复合良率公式和示意图不承担事实证据功能；**Micron 约3× wafer supply 披露属于 A 级一手事实**。TrendForce、SK hynix 等机构/原厂数据按各自证据等级使用。
 
 ## 3. 机制分析（物理 / 商业 / 地缘）
 
@@ -28,7 +28,7 @@ HBM资源消耗。Micron在FY24 Q3 prepared remarks中直接披露：在相同�
 
 封装加测试：4Q24 法说，Huang——公司不拆先进封装各段；2024 年先进封装加测试约占营收 8% 以上，2025 年将超过 10%。4Q25 法说会后更正：2025 年略超 10%，2024 年约 8%，2026 年展望 low-teens。可确认的是收入占比和「不拆 CoWoS」。不能钉月产能、全年封装片数、按客户分项。
 
-魏哲家可确认的原句，不是二次转述的 “sold out through 2026”。4Q24 法说：*today is all AI focused, and we have very tight capacity and cannot even meet customers' need*。2Q26 法说（2026-07-16）：*our packaging capacity is so tight that now it limits my customers' growth*；同场 *the majority is still CoWoS*。Focus Taiwan 2026-06-04 股东会稿全文没有 CoWoS，也没有 sold out。官方逐字稿里可确认的是：紧，不能满足，已经限制客户增长。二次转述那六个英文词不升格。
+可进入一手事实层的管理层表述来自 TSMC 正式逐字稿：4Q24 称相关 capacity *very tight*、无法满足全部客户需求；2Q26 明确表示 packaging capacity 已紧到 *limits my customers' growth*，并称 majority 仍是 CoWoS。公开一手材料不足以支持将 “sold out through 2026” 作为 TSMC 官方逐字表述，因此该说法不进入事实层。
 
 年报第五章把 CoWoS 写成把多颗 SoC 和 HBM 堆叠接到一起的 2.5D 服务。CoWoS-S（硅中介层、eDTC）已量产多年；3.5 倍光罩的 CoWoS-L 自 2024 年量产；5.5 倍光罩的 CoWoS-L 计划 2026 年完成认证；9.5 倍光罩仍在开发。2Q26 分析师问到 14 倍光罩路线图和玻璃基板，魏哲家只答多数仍是 CoWoS，替代方案还要大约一年才能和客户量产。光罩极限把大芯片切成双裸片再拼回，是封装需求的物理来源。Electronic Design / IEEE Spectrum 转述 B200 两颗各约 800 mm²、封装合计约 1600 mm²（记者几何句，不是 10-K）。H100 官方博客写 814 mm²。NVL72 产品页官方：72 颗 Blackwell GPU、36 颗 Grace、13.4 TB HBM3E、17 TB LPDDR5X。72 个 GPU 封装，是下面 5.39 的分子。
 
@@ -48,7 +48,7 @@ HBM资源消耗。Micron在FY24 Q3 prepared remarks中直接披露：在相同�
 
 原厂韩元和 51% bit 见[第五卷](vol-05.md)。本文只取：51% 是 bit 不是收入。RDIMM 已经算进这 51%，服务器常规 DDR5 不是另外一条河。云若把推理改堆 DDR5，抢的是已经在这半边的残量，加税，不是开出一条新河。约3×已由Micron一手披露，但不是每座工厂固定常数。
 
-Micron对HBM资源消耗有两层一手证据：10-K说明同样bit、同一节点下HBM需要更多晶圆和洁净室；FY24 Q3 prepared remarks进一步给出HBM3E约需DDR5三倍wafer supply，并预计HBM4 trade ratio更高。这里的“约3×”是行业级同bit trade ratio，不是售价倍数，也不是“一片HBM晶圆换三片DDR5晶圆”的工厂结算。历史压力测试的复合良率和1200对400示意图不再使用。
+Micron对HBM资源消耗有两层一手证据：10-K说明同样bit、同一节点下HBM需要更多晶圆和洁净室；FY24 Q3 prepared remarks进一步给出HBM3E约需DDR5三倍wafer supply，并预计HBM4 trade ratio更高。这里的“约3×”是行业级同bit trade ratio，不是售价倍数，也不是“一片HBM晶圆换三片DDR5晶圆”的工厂结算。未经厂商披露的复合良率和示意推导不作为证据。
 
 柜量乘规格见[第十六卷](vol-16.md)。残量在原厂账本上的样子见[第五卷](vol-05.md)：涨的是柜，不是手机电脑。
 
@@ -62,7 +62,7 @@ Micron对HBM资源消耗有两层一手证据：10-K说明同样bit、同一节�
 
 情景 C：N2 / A16 爬坡把制程报价再抬一档，中端买家退出首发队列，但封装仍然是数量闸门。2nm 没有单独营收行之前，不能把「锁死 2nm」写成已经发生。A16 的 Super Power Rail 是给 HPC 的，不是给手机的。手机继续锁 3nm / N2P 的另一条队。
 
-反方：把 TrendForce 72% 写成「顶级 AI 代工 95%」；把 13 万片/月写成 2026 年已实现；把 5.39 写进年报；把 83.5 万柜当成可建的柜数上限；把Micron约3×行业trade ratio写成所有工厂、所有世代恒定不变的“3:1定律”；把 “sold out through 2026” 当成魏哲家逐字。公式里的 0.95 和 0.90 是设定，不是某条产线的计量证书。
+需要排除的错误外推包括：把 foundry revenue share 改写成“顶级 AI 代工份额”；把卖方月产能预测写成已实现产能；把 5.39 写成 TSMC 官方 yield；把 83.5 万柜当作可建柜数上限；把 Micron 约3× industry trade ratio 写成所有工厂、所有世代恒定的“3:1 定律”；以及把未经一手确认的 “sold out through 2026” 当成管理层逐字。D 级公式中的良率或占比设定始终只是模型输入。
 
 可检验指标：台积电法说 3nm 收入占比是否还在 24% 之上、N2 何时单独成行；HPC 是否继续压过手机；当年 largest-customer share 是否仍在 19% 附近或继续变化；封装加测试是否从略超 10% 走到 low-teens；魏哲家是否还用 tight / cannot meet / limits growth；TrendForce 代工份额 72% / 6.5% / 5.1% 是否松动；海力士是否仍披露 HBM 收入同比大增、营业利润率是否还在 49% 附近；HBM+RDIMM 是否仍被写成过半 DRAM bit。CoWoS 月产能在台积电自己报出来之前，只当卖方跟踪。
 
@@ -78,7 +78,7 @@ HBM的宏观后果不依赖把约3×当作恒定常数。传统 DRAM 下行时�
 
 ## 5. 研究边界与未确认事项
 
-台积电 CoWoS 月产能、全年官方片数、按客户封装片数：年报和法说都没有。一片 CoWoS 出几颗 B200：没有官方数，5.39 是测算。魏哲家股东会逐字 “sold out through 2026”：打开的官方股东会稿里未见可核验的一手披露。2nm / N2P / A16 的营收占比：表里没有。报价 10,000～40,000 美元、单厂 200～250 亿美元、High-NA 3.8 亿美元：早期情景数字，本文未在年报里核对，不升格。Vera Rubin「独占」是历史压力测试倾向，不是已签署独家合同。卖方 100 万片、59.5～63 万片、9.3 万或 14 万片月：不是台积电分项，两家还不一致。HBM约3× wafer supply已有Micron一手披露；12层48.6%复合良率公式不是原厂官方，不使用。1200 对 400：示意图。海力士 FY25 不拆 DRAM / NAND 金额，不报 HBM 全年 bit。长鑫招股书全文 0 处 HBM，35 万片/月不是公告，本文不借用。本文读了台积电 2025 年报网站与股东信、4Q25 管理报告口径、4Q24 / 4Q25 / 2Q26 法说转述、TrendForce 两篇官稿、海力士 FY25 新闻稿；没有声称审计过 20-F 每一页，也没有打开摩根士丹利原 PDF。
+台积电 CoWoS 月产能、全年官方片数、按客户封装片数：年报和法说都没有。一片 CoWoS 出几颗 B200：没有官方数，5.39 是测算。魏哲家股东会逐字 “sold out through 2026”：打开的官方股东会稿里未见可核验的一手披露。2nm / N2P / A16 的营收占比：表里没有。报价 10,000～40,000 美元、单厂 200～250 亿美元、High-NA 3.8 亿美元：早期情景数字，本文未在年报里核对，不升格。Vera Rubin「独占」是历史压力测试倾向，不是已签署独家合同。卖方 100 万片、59.5～63 万片、9.3 万或 14 万片月：不是台积电分项，两家还不一致。HBM约3× wafer supply已有Micron一手披露；12层48.6%复合良率公式不是原厂官方，不使用。1200 对 400：示意图。海力士 FY25 不拆 DRAM / NAND 金额，不报 HBM 全年 bit。长鑫招股书全文 0 处 HBM，35 万片/月不是公告，本文不借用。本篇事实层主要依赖 TSMC 年报/20-F/季度逐字稿、TrendForce 公开研究、Micron 一手披露与 SK hynix 官方结果。卖方原始报告不可公开复核或口径互相冲突时，只作为低等级背景，不用于建立核心事实。
 
 ## 本篇关键公开来源
 
