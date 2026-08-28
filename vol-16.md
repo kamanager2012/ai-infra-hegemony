@@ -18,20 +18,13 @@ AI infrastructure 的量化分析最容易犯的错误，是把不同物理池�
 Roofline model 的基本关系：
 
 ```text
-Performance
-=
-minleft(
-Peak Compute,;
-Memory Bandwidth 	imes Arithmetic Intensity
-ight)
+Performance = min(Peak Compute, Memory Bandwidth × Arithmetic Intensity)
 ```
 
 临界算术强度：
 
 ```text
-I_{critical}
-=
-Peak Compute / Memory Bandwidth
+I_critical = Peak Compute / Memory Bandwidth
 ```
 
 当 workload 的 arithmetic intensity 低于临界值时，系统处于 memory-bound 区域。
@@ -42,12 +35,13 @@ Peak Compute / Memory Bandwidth
 
 ## 3. MLA：算法如何直接改变 memory demand
 
-DeepSeek-V3 技术报告披露：
+DeepSeek-V3 Technical Report 披露：
 
 - 671B total parameters；
 - 37B activated parameters；
 - 14.8T pre-training tokens；
-- 2.788M H800 GPU-hours；
+- pre-training compute：**2.664M H800 GPU-hours**；
+- full training compute：**2.788M H800 GPU-hours**；
 - MLA compressed KV dimension (d_c=512)。
 
 DeepSeek-V2 技术报告则明确给出相对 DeepSeek 67B：
@@ -57,6 +51,10 @@ DeepSeek-V2 技术报告则明确给出相对 DeepSeek 67B：
 
 这两个数字属于不同模型版本，不能混写。
 
+来源：
+- DeepSeek-V3：https://arxiv.org/abs/2412.19437
+- DeepSeek-V2：https://github.com/deepseek-ai/DeepSeek-V2
+
 其方法意义是：
 
 > algorithmic architecture 可以直接减少 bytes/token，从而改变同一 HBM capacity 下的并发与 serving cost。
@@ -65,12 +63,12 @@ DeepSeek-V2 技术报告则明确给出相对 DeepSeek 67B：
 
 ## 4. DeepSeek 的训练成本应该如何理解
 
-DeepSeek-V3 报告给出完整训练约 **2.788M H800 GPU-hours**。
+DeepSeek-V3 报告给出 **full training 2.788M H800 GPU-hours**；其中 **pre-training 为 2.664M H800 GPU-hours**。
 
-如果按报告侧假设的 **US$2/GPU-hour** 进行租金换算：
+如果按论文采用的 **US$2/GPU-hour** 口径对 full-training compute 做租金换算：
 
 ```text
-2.788M 	imes $2 ≈ US$5.576M
+2.788M × US$2 ≈ US$5.576M
 ```
 
 这不是企业完整现金成本。
@@ -86,7 +84,7 @@ DeepSeek-V3 报告给出完整训练约 **2.788M H800 GPU-hours**。
 - storage；
 - post-training ecosystem。
 
-因此，这个数字适合用于比较**有效训练计算量级**，不适合直接写成“训练一个 frontier model 只需要 US$5.6M”。
+因此，这个数字适合用于比较**formal full-training compute 量级**，不适合直接写成“训练一个 frontier model 只需要 US$5.576M”。
 
 ## 5. Rack-scale memory demand
 
@@ -100,14 +98,14 @@ GB200 NVL72 官方配置：
 因此：
 
 ```text
-HBM(R)=13.4 	ext{TB} 	imes R
+HBM(R) = 13.4 TB × R
 ```
 
 ```text
-LPDDR(R)=17 	ext{TB} 	imes R
+LPDDR(R) = 17 TB × R
 ```
 
-其中 (R) 是 rack 数。
+其中 R 是 rack 数。
 
 | Rack 数 | HBM3E | LPDDR5X |
 |---:|---:|---:|
@@ -120,40 +118,27 @@ LPDDR(R)=17 	ext{TB} 	imes R
 
 ## 6. HBM wafer-supply trade ratio
 
-Micron FY24 Q3 prepared remarks：
-
-```text
-HBM3E wafer supply
-≈
-3 	imes DDR5 wafer supply
-```
-
-条件是：
-
-- same technology node；
-- same number of bits。
+Micron FY24 Q3 prepared remarks 披露，**industry-wide**，HBM3E 在 same technology node、生产 same number of bits 时约需要 DDR5 **3× wafer supply**。
 
 因此，若 HBM bit demand 上升，DRAM wafer pressure 会被 trade ratio 放大。
 
-该比率属于 **A 级一手公司证据**，但不能机械外推到所有未来 HBM generation。
+该比率属于 **A 级一手公司披露的 industry-wide estimate / observation**，不是 Micron 单厂固定制造常数，也不能机械外推到所有未来 HBM generation。
 
 公开来源：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
 
 ## 7. Packaging geometry stress test
 
-报告采用 **5.39 CoWoS wafers/rack** 作为 D 级 geometry stress test。
+报告采用 **约 5.37 CoWoS wafers/rack** 作为 D 级 geometry stress test。
 
 其几何来源为：
 
 ```text
-72 	ext{packages}
-÷
-13.4 	ext{packages/wafer}
-≈
-5.39 	ext{wafers/rack}
+72 packages ÷ 13.4 packages/wafer ≈ 5.373 wafers/rack
 ```
 
-其中 13.4 packages/wafer 是几何假设，不是 TSMC 官方 yield。
+取两位小数为 **5.37**。
+
+其中 **13.4 packages/wafer 是报告几何工作假设**，不是 TSMC 官方 yield、官方 packages-per-wafer 指标，也不是一手历史事实。
 
 因此该模型只能用于：
 
@@ -207,12 +192,10 @@ Q2 10-Q 说明，US$279B 主要对应 data-center infrastructure systems 所需�
 
 ## 10. AHICR：增量先进产能捕获率
 
-报告引入：
-
-\`\`\`text
+```text
 AHICR = 某买方获得的新增先进 AI/HPC 资源
         / 全行业新增先进 AI/HPC 资源
-\`\`\`
+```
 
 这里的“资源”可以分别计算：
 
@@ -254,4 +237,8 @@ AI infrastructure 可以量化，但必须保持维度一致。
 
 ## 本卷关键公开来源
 
-- DeepSeek-V3 Technical Report（2.788M H800 GPU-hours）： https://arxiv.org/abs/2412.19437
+- DeepSeek-V3 Technical Report（pre-training 2.664M；full training 2.788M H800 GPU-hours）：https://arxiv.org/abs/2412.19437
+- DeepSeek-V2（93.3% KV-cache reduction；5.76× maximum generation throughput，relative to DeepSeek 67B）：https://github.com/deepseek-ai/DeepSeek-V2
+- NVIDIA GB200 NVL72 product page（72 GPU、36 Grace、13.4 TB HBM3E、17 TB LPDDR5X）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- Micron FY24 Q3 prepared remarks（industry-wide HBM3E ≈ 3× DDR5 wafer supply at same node / same bits）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- NVIDIA FY27 Q2 10-Q（US$279B commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
