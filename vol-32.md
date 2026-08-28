@@ -208,7 +208,7 @@ NVIDIA 的优势应该描述为**系统栈整合与跨代软件资产**，而不
 - alternative fabric 达到生产级 scale；
 - scarce upstream resource 不再优先支持 NVIDIA roadmap。
 
-只有这些变化出现，系统护城河才会发生结构性削弱。
+如果这些变化中的多项持续出现，并共同降低 migration cost、system TCO 与 production dependence，系统护城河才更可能发生结构性削弱；它们不是一组严格的必要充分条件。
 
 ## 本卷关键公开来源
 
