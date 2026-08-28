@@ -219,3 +219,7 @@ They are three variables in one economic equation:
 > **installed capital × utilization × unit price × workload growth**
 
 The long-run winner is the system that keeps **cost per effective unit of intelligence** falling while preserving productive demand and cash return.
+
+## Key public sources for this essay
+
+- DeepSeek-V3 Technical Report — 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
