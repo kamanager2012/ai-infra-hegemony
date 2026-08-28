@@ -24,15 +24,17 @@ These layers are not simple duplicates, but presenting them as “40 volumes + 8
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
-10. Model economics, algorithmic efficiency, and open source — vol-06  
-11. NVIDIA vertical expansion toward the AI Factory — vol-07  
-12. Hyperscaler System-Stack Competition — vol-25 + macro-04  
-13. Anchor Compute Buyer Effect — vol-26  
-14. Agent-native software and AI Software Unit Economics — vol-27  
-15. Physical AI and robotics — vol-28  
-16. AMD / Intel / Qualcomm / Apple — vol-33  
-17. China's Parallel Stack — vol-12 + vol-29 + macro-08  
-18. Antitrust, industrial policy, and platform-power boundaries — vol-11  
+**Status: 9/9 English publication chapters synchronized.**
+
+10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](publication/part-II-ch10-model-economics.md) — vol-06  
+11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](publication/part-II-ch11-nvidia-ai-factory.md) — vol-07  
+12. [Hyperscaler System-Stack Competition](publication/part-II-ch12-hyperscaler-system-stack.md) — vol-25 + macro-04  
+13. [Anchor Compute Buyer Effect](publication/part-II-ch13-anchor-compute-buyer.md) — vol-26  
+14. [Agent-Native Software and AI Software Unit Economics](publication/part-II-ch14-agent-software.md) — vol-27  
+15. [Physical AI and the Real Bottlenecks in Robotics](publication/part-II-ch15-physical-ai.md) — vol-28  
+16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](publication/part-II-ch16-differentiated-competitors.md) — vol-33  
+17. [China's Parallel Stack — From Product Substitution to Frontier System Closure](publication/part-II-ch17-china-parallel-stack.md) — vol-12 + vol-29 + macro-08  
+18. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](publication/part-II-ch18-antitrust-policy.md) — vol-11  
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
