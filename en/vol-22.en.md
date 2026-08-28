@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-22.md](../vol-22.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. This volume focuses on shared upstream constraints. It does not treat consumer electronics as directly competing for frontier training racks, and it does not convert channel prices or analyst SoC quotes into audited whole-device inflation.
+> Retrieval and revision cutoff: **2026-08-28**. This volume focuses on shared upstream constraints. It does not treat consumer electronics as directly competing for frontier training racks, and it does not convert channel prices or analyst SoC quotes into audited whole-device inflation.
 
 ## 1. AI affects consumer electronics first through memory residual capacity
 
