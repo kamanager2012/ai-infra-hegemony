@@ -45,9 +45,9 @@ FY27 Q2（截至 2026-07-26）进一步显示平台盈利能力仍处于高位�
 
 FY26 的 H20 相关减值并未改变当前平台利润结构。到 FY27 Q2，GAAP gross margin 已回到 75.0%。
 
-更重要的是资源承诺。NVIDIA manufacturing, supply, and capacity commitments 由 2026-01-25 的 **US$95.2B** 上升至 2026-04-26 的 **US$119B**。公司同时披露使用 prepaid manufacturing and capacity agreements，为当前及未来产品锁定制造与产能。
+更重要的是资源承诺。NVIDIA manufacturing, supply, and capacity commitments 由 2026-01-25 的 **US$95.2B** 上升至 2026-04-26 的 **US$119B**，并在 2026-07-26 进一步升至 **US$279B**。FY27 Q2 10-Q 说明，最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities，用于 current / future architectures 的长期需求。
 
-需要特别说明的是，公开文件并未将这 **US$119B** 拆分至 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此该数字只能说明 NVIDIA 的整体供应与产能承诺规模，不能直接视为任何单一供应商的收入。
+需要特别说明的是，公开文件并未将这 **US$279B** 拆分至 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此该数字只能说明 NVIDIA 的整体供应与产能承诺规模，不能直接视为任何单一供应商的收入。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
 
 ### 2.2 TSMC：先进制造与先进封装仍是核心物理约束
 
