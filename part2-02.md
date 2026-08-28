@@ -24,7 +24,7 @@ NVIDIA 的平台优势究竟来自单芯片性能，还是来自计算裸片、H
 
 技术博客（developer.nvidia.com，GB200 NVL72 文）把机械结构写开了。一颗 GB200 Superchip 是两颗 Blackwell 加一颗 Grace，NVLink-C2C 双向 900 GB/s，应用看到的是统一地址空间。计算托盘按 MGX：两颗 Grace、四颗 Blackwell，液冷冷板，PCIe Gen6，NVLink 电缆盒接口；单托盘写 80 petaflops AI、1.7 TB 快内存。整柜 18 个计算节点、9 个 NVLink 交换托盘，铜缆盒互连。NVL72 可以是单柜 72 卡（18 个双 Superchip 节点），也可以拆成两柜。第五代 NVLink 单 GPU 双向 1.8 TB/s，文中写超过 PCIe Gen5 的 14 倍。每个交换托盘 144 个 NVLink 口、每口 100 GB，九个托盘把 72 卡上各 18 个口全连上。博客把整柜写成 72 卡、30 TB 统一内存、130 TB/s 织物。30 TB 是 13.4 加 17 的量级，产品页把两池分开印，本文以产品页的 13.4 TB / 17 TB 为准。
 
-2024 年 3 月 18 日 newsroom（Blackwell 平台发布）把芯片和柜子一起宣布。Blackwell GPU 2,080 亿晶体管，台积电定制 4NP，两颗光罩极限晶粒用 10 TB/s 片间链路合成一颗逻辑 GPU。第五代 NVLink 单卡 1.8 TB/s，最多 576 卡。GB200 NVL72 是 36 颗 Superchip、72 GPU 加 36 CPU，带 BlueField-3。新闻稿把整柜写成「单一 GPU」，1.4 exaflops AI、30 TB 快内存。对 H100 推理最多 30 倍，成本与能耗最多降 25 倍。这些是发布会句子，带 up to，不是开箱测录。
+2024 年 3 月 18 日 newsroom（Blackwell 平台发布）把芯片和柜子一起宣布。Blackwell GPU 2,080 亿晶体管，台积电定制 4NP，两颗光罩极限晶粒用 10 TB/s 片间链路合成一颗逻辑 GPU。第五代 NVLink 单卡 1.8 TB/s，最多 576 卡。GB200 NVL72 是 36 颗 Superchip、72 GPU 加 36 CPU，带 BlueField-3。新闻稿把整柜写成「单一 GPU」，1.4 exaflops AI、30 TB 快内存。对 H100 推理最多 30 倍，成本与能耗最多降 25 倍。这些是发布会句子，带 up to，不是开箱测录。 来源：https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing
 
 公司账面和供应承诺见[第一卷](vol-01.md)。10-K 钉预付款，不拆柜价，也没有整柜出厂价。
 
