@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-33.md](../vol-33.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. AMD, Intel, Qualcomm, and Apple are not one “anti-NVIDIA alliance.” They attack different layers of the AI system and should be evaluated with different success criteria.
+> Retrieval and revision cutoff: **2026-08-28**. AMD, Intel, Qualcomm, and Apple are not one “anti-NVIDIA alliance.” They attack different layers of the AI system and should be evaluated with different success criteria.
 
 ## 1. Four companies, four different competitive positions
 
