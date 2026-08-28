@@ -232,7 +232,7 @@ CXMT 招股文件没有披露 HBM product line。
 
 ## 本卷关键公开来源
 
-- Micron FY24 Q2 event page：https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 Prepared Remarks：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Micron FY24 Q2 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - TSMC 2025 20-F（largest customer 19% revenue share）：https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - NVIDIA GB200 NVL72 official product page（13.4 TB HBM3E/rack）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
