@@ -59,11 +59,13 @@ NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ec
 
 它提高了平台资本效率，也把外部 supply elasticity 变成平台战略的一部分。
 
-## 7. Physical AI 是下一层系统延伸，但不能与 Data Center 当前利润混用
+## 7. Physical AI 是系统平台的外延，但不属于本章主证据链
 
-Automotive、robotics、simulation 与 edge deployment 延续相同逻辑：hardware architecture、runtime、simulation、developer tooling 与 model deployment 共同形成系统。
+Automotive、robotics、simulation 与 edge deployment 延续同一种 system-platform 逻辑：hardware、runtime、simulation、developer tooling 与 deployment 被组织成一套工作流。
 
-但“战略重要”不等于“当前收入已经与 Data Center 相同”。Physical AI 的价值必须独立看 design wins、deployment scale、revenue、reliability 与 ecosystem adoption。
+但 Physical AI 的产业门槛还包括 actuator、sensor、battery、safety、manufacturing 与 field reliability，不能由 Data Center 平台优势直接外推。
+
+因此，本章只把 Physical AI 视为 NVIDIA system architecture 的潜在外延；其独立产业逻辑见[第15章：Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)。
 
 ## 8. 纵向扩张的六个边界
 
