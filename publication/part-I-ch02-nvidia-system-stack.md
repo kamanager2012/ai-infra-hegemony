@@ -3,7 +3,9 @@
 
 ## 1. 竞争单位已经从 GPU 上移到系统栈
 
-NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，而是把 accelerator、HBM、scale-up fabric、compiler/runtime、libraries、rack architecture 与部署工具组织成一个可重复交付的系统。GB200 NVL72 的官方产品规格已经清楚显示这种销售单元上移：
+NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，而是把 accelerator、HBM、scale-up fabric、compiler/runtime、libraries、rack architecture 与部署工具组织成一个可重复交付的系统。GB200 NVL72 的官方产品规格已经清楚显示这种销售单元上移：[^1]
+
+**Table 2.1 — GB200 NVL72 的 rack-scale 系统结构**
 
 | 层 | 官方规格 / 结构 |
 |---|---|
@@ -14,6 +16,9 @@ NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，�
 | Scale-up domain | 72-GPU NVLink domain |
 | Rack | liquid-cooled rack-scale system |
 
+**Source:** NVIDIA GB200 NVL72 official product page.[^1]  
+**Note:** 该表描述官方系统规格，不代表实际出货量、利用率或客户部署规模。
+
 这改变了竞争的比较方式。单卡时代可以主要比较 FLOPS、显存和卡价；rack-scale 时代必须同时比较 memory hierarchy、scale-up/scale-out interconnect、compiler/runtime、distributed training stack、power/cooling、部署工具和 workload migration cost。
 
 因此，“更便宜的一颗 ASIC”并不自动等于“更便宜的一套生产级 AI system”。
@@ -22,7 +27,7 @@ NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，�
 
 frontier model training 的瓶颈并不只在单卡计算。tensor parallel、pipeline parallel、expert parallel 和 collective communication 会把性能越来越多地交给 bandwidth、topology、synchronization 与 collective implementation。
 
-NVLink/NVSwitch 的战略价值，是把 scale-up communication 设计为平台内部能力。GB200 NVL72 把 72 颗 GPU 组织在一个 NVLink domain 中；NVIDIA 当前产品页给出整柜 **130 TB/s aggregate NVLink bandwidth**。这并不能证明任何以太网方案天然无法替代，但它改变了替代问题：
+NVLink/NVSwitch 的战略价值，是把 scale-up communication 设计为平台内部能力。GB200 NVL72 把 72 颗 GPU 组织在一个 NVLink domain 中；NVIDIA 当前产品页给出整柜 **130 TB/s aggregate NVLink bandwidth**。[^1]这并不能证明任何以太网方案天然无法替代，但它改变了替代问题：
 
 > 竞争者必须替代的不是一颗 GPU，而是“计算 + 内存 + 域内互联 + 软件执行模型”这一整组生产能力。
 
@@ -69,6 +74,8 @@ PTX 的作用尤其重要：它提供稳定的 intermediate representation，使
 
 系统级优势如果能够产生高利润和高自由现金流，就会进一步影响供应链。当前最重要的公司层锚点不需要在多个章节反复铺开，只保留一组：
 
+**Table 2.2 — NVIDIA 当前 seller-side economics 与前置供应承诺**
+
 | 指标 | 当前公开值 |
 |---|---:|
 | FY26 Data Center revenue | US$193.737B |
@@ -79,7 +86,10 @@ PTX 的作用尤其重要：它提供稳定的 intermediate representation，使
 | FY27 Q2 GAAP operating income | US$63.734B |
 | 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
 
-FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
+**Source:** NVIDIA FY26 results, FY27 Q2 results and FY27 Q2 Form 10-Q.[^2][^3][^4]  
+**Note:** US$279B 为 aggregate manufacturing, supply and capacity commitments；公开文件未提供 supplier-level split。
+
+FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。[^4]公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
 
 这构成一个可检验的跨代强化机制：
 
@@ -103,7 +113,7 @@ NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
 
 ## 7. 真正的反击是 Cloud System Stack，而不是单颗 ASIC
 
-Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 的战略意义，不在于“有另一颗芯片”，而在于 hyperscaler 同时拥有：
+Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 的战略意义，不在于“有另一颗芯片”，而在于 hyperscaler 同时拥有：[^5]
 
 - 自有大规模 workload；
 - cloud distribution；
@@ -150,13 +160,10 @@ Google TPU/Ironwood、AWS Trainium、Microsoft Maia、Meta MTIA 的战略意义�
 
 这也是本书后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
 
-## 关键公开来源
+## References
 
-- NVIDIA GB200 NVL72 official product page: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- NVIDIA DGX GB200 hardware guide: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-- NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- CoreWeave, 2025-02-04, GB200 NVL72 general availability: https://investors.coreweave.com/news/news-details/2025/CoreWeave-First-Cloud-Provider-to-Announce-General-Availability-of-NVIDIA-GB200-NVL72-Instances/default.aspx
-- NVIDIA, 2025-04-28, OCI liquid-cooled GB200 NVL72 deployment: https://blogs.nvidia.com/blog/oracle-cloud-infrastructure-blackwell-gpus-agentic-ai-reasoning-models/
+[^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^2]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+[^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
