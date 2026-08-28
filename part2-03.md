@@ -12,7 +12,7 @@
 
 TSMC 年报与法说未披露可直接用于本篇的 CoWoS 官方月产能序列或 customer-level allocation。市场研究中的月产能轨迹和客户拆分属于卖方/机构估计，不能升级为 TSMC 一手事实。TrendForce 对 2025 年 NVIDIA CoWoS demand >60% 的估计在本报告中保留为 B 级机构锚；其他客户精确拆分不进入事实层。
 
-HBM资源消耗。Micron在FY24 Q3 prepared remarks中直接披露：在相同技术节点、生产相同比特时，HBM3E大约需要DDR5三倍wafer supply，并预计HBM4的trade ratio还会更高。历史压力测试曾用TSV面积、12层复合良率和“1200对400”示意图自行推导，这些推导不再承担证据功能。
+HBM资源消耗。Micron在FY24 Q2 prepared remarks中直接披露：在相同技术节点、生产相同比特时，HBM3E大约需要DDR5三倍wafer supply，并预计HBM4的trade ratio还会更高。历史压力测试曾用TSV面积、12层复合良率和“1200对400”示意图自行推导，这些推导不再承担证据功能。
 
 自设复合良率公式和示意图不承担事实证据功能；**Micron 约3× wafer supply 披露属于 A 级一手事实**。TrendForce、SK hynix 等机构/原厂数据按各自证据等级使用。
 
@@ -48,7 +48,7 @@ HBM资源消耗。Micron在FY24 Q3 prepared remarks中直接披露：在相同�
 
 原厂韩元和 51% bit 见[第五卷](vol-05.md)。本文只取：51% 是 bit 不是收入。RDIMM 已经算进这 51%，服务器常规 DDR5 不是另外一条河。云若把推理改堆 DDR5，抢的是已经在这半边的残量，加税，不是开出一条新河。约3×已由Micron一手披露，但不是每座工厂固定常数。
 
-Micron对HBM资源消耗有两层一手证据：10-K说明同样bit、同一节点下HBM需要更多晶圆和洁净室；FY24 Q3 prepared remarks进一步给出HBM3E约需DDR5三倍wafer supply，并预计HBM4 trade ratio更高。这里的“约3×”是行业级同bit trade ratio，不是售价倍数，也不是“一片HBM晶圆换三片DDR5晶圆”的工厂结算。未经厂商披露的复合良率和示意推导不作为证据。
+Micron对HBM资源消耗有两层一手证据：10-K说明同样bit、同一节点下HBM需要更多晶圆和洁净室；FY24 Q2 prepared remarks进一步给出HBM3E约需DDR5三倍wafer supply，并预计HBM4 trade ratio更高。这里的“约3×”是行业级同bit trade ratio，不是售价倍数，也不是“一片HBM晶圆换三片DDR5晶圆”的工厂结算。未经厂商披露的复合良率和示意推导不作为证据。
 
 柜量乘规格见[第十六卷](vol-16.md)。残量在原厂账本上的样子见[第五卷](vol-05.md)：涨的是柜，不是手机电脑。
 
@@ -83,4 +83,4 @@ HBM的宏观后果不依赖把约3×当作恒定常数。传统 DRAM 下行时�
 ## 本篇关键公开来源
 
 - TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
