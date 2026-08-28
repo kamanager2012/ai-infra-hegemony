@@ -45,6 +45,12 @@ TSMC's public 2025 disclosures include:
 - 4Q24 transcript: **advanced packaging and testing >8% of revenue**;
 - 4Q25 transcript (company-corrected wording): **advanced packaging slightly above 10% of 2025 revenue**. The labels are not identical, so 8%→10% should not be treated as a perfectly continuous like-for-like series.
 
+Primary sources:
+- TSMC 2025 Annual Report (wafer shipments/capacity and node/platform mix): https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 Form 20-F (annual largest / second-largest customer ranking): https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 4Q24 Transcript (>8% advanced packaging and testing): https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript (2025 advanced packaging slightly above 10%, company-corrected): https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+
 The source base includes TSMC's 2025 Annual Report, 4Q25 Management Report, and investor-conference materials.
 
 Two conclusions follow.
@@ -72,6 +78,8 @@ Equally important, **annual largest / second-largest rankings must not be stitch
 - Customer A: **12%→19%**;
 - Customer B: **22%→17%**.
 
+Source: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+
 It is therefore invalid to connect a prior year's “largest customer” percentage to the later Customer A percentage and explain the result as one customer's changing share. The two disclosures answer different questions and must remain separate.
 
 Different products also use different nodes, die sizes, wafer ASPs, and packaging intensity.
@@ -94,7 +102,7 @@ Those statements are more important than unverified monthly capacity narratives 
 
 TSMC does not publish a customer-level CoWoS split.
 
-TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand should therefore remain **B-grade institutional research**, not be presented as a TSMC allocation disclosure.
+TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand should therefore remain **B-grade institutional research**, not be presented as a TSMC allocation disclosure. Source: https://www.trendforce.com/research/download/RP250314ZJ
 
 ## 5. 5.37 wafers per rack is only a packaging stress test
 
@@ -166,6 +174,8 @@ TrendForce's 2026 Q1 foundry-revenue estimates were approximately:
 - TSMC: **72%**;
 - Samsung: **6.5%**;
 - SMIC: **5.1%**.
+
+Source: https://www.trendforce.com/presscenter/news/20260612-13095.html
 
 These are foundry revenue shares, not frontier-AI capacity shares.
 
