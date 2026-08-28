@@ -79,7 +79,7 @@ TSMC 的 19% 最大客户收入占比既不是 N2 wafer share，也不是 CoWoS 
 
 ### 2.3 HBM：AI 对存储供给的影响已经进入晶圆层
 
-Micron FY24 Q3 prepared remarks 提供了一条关键的一手物理锚：在相同 technology node、生产相同比特时，HBM3E 约需要 DDR5 **3× 的 wafer supply**。Micron FY25 10-K 又进一步确认，HBM 为生产相同比特需要更多 wafers 与 cleanroom space。
+Micron FY24 Q2 prepared remarks 提供了一条关键的一手物理锚：在相同 technology node、生产相同比特时，HBM3E 约需要 DDR5 **3× 的 wafer supply**。Micron FY25 10-K 又进一步确认，HBM 为生产相同比特需要更多 wafers 与 cleanroom space。
 
 因此，约 3× 应作为 **A 级公司一手证据**使用。它代表 HBM3E 相对 DDR5 的行业级 wafer-supply trade ratio，而不是每座 fab 固定不变的 MES 常数。
 
@@ -274,8 +274,8 @@ Intel 当时的优势主要集中在 CPU、x86 软件兼容和自有制造。
 - TSMC 2025 20-F（annual customer rankings）：https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report（Customer A/B）：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
 - TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 event page：https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
-- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 event page：https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Microsoft FY26 Q4 earnings / call：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
 - Alphabet 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 - Meta 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
