@@ -70,7 +70,7 @@ For 2025:
 
 - gross margin: **59.9%**;
 - HPC platform: **58% of revenue**;
-- advanced packaging: slightly above **10%**; do not broaden this into “packaging + testing.”
+- 2025 advanced packaging: slightly above **10%** under the company-corrected 4Q25 wording; the 2024 >8% disclosure used the distinct label “advanced packaging and testing.”
 
 TSMC carries heavy manufacturing CapEx and yield risk.
 
@@ -278,3 +278,5 @@ It is:
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 - TSMC 2025 consolidated report (Customer A/B): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+
+- TSMC 4Q25 Transcript — 2025 advanced packaging slightly above 10%, company-corrected: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
