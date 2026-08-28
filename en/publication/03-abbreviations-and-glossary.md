@@ -57,8 +57,8 @@ Effective supply available to non-AI markets after AI / Anchor Buyer demand and 
 ### Two-Speed Semiconductor Economy
 A structure in which the AI Infrastructure Economy and Traditional Device Economy share parts of the same upstream resource base but have different willingness to pay, contract duration, BOM constraints, and capital-formation power.
 
-### AI Capacity Gap
-The physical-layer difference between AI-demand growth and effective AI-capacity growth, used to assess whether scarcity is strengthening, converging, or reversing.
+### AI Capacity Gap / AI Capacity Growth Gap
+**AI Capacity Gap** is the absolute physical shortfall `AI effective demand − AI effective capacity` within the same layer and delivery window; **AI Capacity Growth Gap** is the difference between demand growth and effective-capacity growth and describes only the direction in which the gap is changing. The two are not interchangeable.
 
 ### AHICR
 Advanced/HPC Incremental Capacity Capture Ratio. Measures a buyer's capture of **incremental** advanced/HPC capacity in one physical layer; it is not a historical revenue-share metric.
