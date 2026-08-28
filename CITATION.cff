@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 title: "The Age of AI Infrastructure Hegemony"
-message: "Please cite this research using the preferred citation below / 如需引用本研究，请使用下方推荐引用格式。"
+message: "This CITATION.cff describes the versioned research repository as CFF type software, as required by CFF 1.2.0 top-level metadata; please cite the monograph using preferred-citation below / 顶层元数据描述可版本化研究仓库，正式专著引用请使用下方 preferred-citation。"
 type: software
 authors:
   - name: "James"
     alias: kamanager2012
-abstract: "A bilingual 40-volume industry research monograph with 8 macro essays on AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, software economics, labor, and the 2026–2036 industrial endgame."
+abstract: "A versioned bilingual research repository for the industry monograph The Age of AI Infrastructure Hegemony, including 40 research volumes, 8 macro essays, and a 32-chapter publication layer on AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, software economics, labor, and the 2026–2036 industrial endgame."
 repository-code: "https://github.com/kamanager2012/ai-infra-hegemony"
 url: "https://github.com/kamanager2012/ai-infra-hegemony"
 license: "CC-BY-NC-ND-4.0"
