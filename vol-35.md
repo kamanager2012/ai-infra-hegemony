@@ -218,3 +218,7 @@ AI chip 可以在数月内完成新一代迭代。
 但最有意义的指标不是“签了多少 GW”，而是：
 
 > **多少 MW 已获许可、实际送电，并被高利用率 AI workload 持续使用。**
+
+## 本卷关键公开来源
+
+- NVIDIA DGX GB200/NVL72 official hardware guide（~120 kW/rack）： https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
