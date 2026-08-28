@@ -1,0 +1,6 @@
+{
+  "version": "2026-08-28",
+  "scope": "publication/ and en/publication/ only",
+  "policy": "Every embedded image or other third-party media asset in the formal Publication Layer must have a rights record before release. The current Publication Layer intentionally embeds no third-party raster/vector figures; source data are presented as report-authored tables with citations.",
+  "assets": []
+}
