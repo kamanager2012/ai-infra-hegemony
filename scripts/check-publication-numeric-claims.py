@@ -23,9 +23,12 @@ FOOTNOTE_DEF = re.compile(r"^\[\^[^\]]+\]:")
 TABLE_SEPARATOR = re.compile(r"^\|(?:\s*:?-+:?\s*\|)+$")
 STRONG_NUM = re.compile(
     r"(?:US\$|RMB|KRW|\$)\s*\d[\d,.]*(?:\.\d+)?(?:\s*[BMTK])?"
+    r"|\d[\d,.]*(?:\.\d+)?\s*[KMBT]\b"
     r"|\d[\d,.]*(?:\.\d+)?\s*(?:%|×|x|kW|MW|GW|MWe|kWh|MWh|TWh|"
-    r"GB|TB|PB|Gb/s|Tb/s|Mbps|Gbps|nm|mm²|GPU-hours?|systems?|chips?|"
-    r"racks?|wafers?|years?|年)"
+    r"KB|MB|GB|TB|PB|Gb/s|Tb/s|Mbps|Gbps|nm|mm²|GPU-hours?|GPUs?|CPUs?|"
+    r"systems?|chips?|racks?|wafers?|servers?|units?|tokens?|parameters?|"
+    r"years?|months?|days?|亿美元|亿元|万美元|万元|美元|人民币|"
+    r"万片/月|片/月|万片|片|亿颗|万颗|颗|亿个|万个|个|台|柜|层|年|月|天)"
 )
 NON_FACT = re.compile(
     r"D[- ]?grade|D\s*级|scenario|情景|sensitivity|stress test|压力测试|"
@@ -35,7 +38,9 @@ NON_FACT = re.compile(
     r"target|目标|threshold|阈值|formula|公式|if\b|如果|假如|"
     r"this report|the report|本书|本报告|截至|as of|"
     r"没有披露|未披露|不.*披露|does.*not.*disclose|not disclose|not as|"
-    r"mechanically|机械|absolute claim|绝对化",
+    r"mechanically|机械|absolute claim|绝对化|fixed endpoints|"
+    r"not industry facts|headline|should not be restated|reconstruction|"
+    r"未经一手披露验证|unverified|counterexample|反例",
     re.I,
 )
 
@@ -90,7 +95,11 @@ def values(line: str) -> list[str]:
     # Process/product designators such as N2 wafers are names, not quantities.
     # Remove the designator phrase while preserving any real quantity later
     # in the same sentence (for example, "N2 ... 10,000 wafers").
+    line = re.sub(r"\b(?:19|20)\d{2}\s*[–-]\s*(?:19|20)\d{2}\b", "", line)
     line = re.sub(r"\bN\d+\s+wafers?\b", "", line, flags=re.I)
+    line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+(?:chips?|systems?)\b", "", line, flags=re.I)
+    line = re.sub(r"\b(?:DDR|LPDDR|HBM)\d+[A-Za-z0-9]*\s+wafers?\b", "", line, flags=re.I)
+    line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+racks?\b", "", line, flags=re.I)
     return [m.group(0).strip() for m in STRONG_NUM.finditer(line)]
 
 def norm(v: str) -> str:
@@ -138,7 +147,12 @@ def main() -> int:
             vals = values(line)
             if not vals:
                 continue
-            if all(re.fullmatch(r"\d{4}\s*年", v) for v in vals):
+            date_only = all(
+                re.fullmatch(r"(?:19|20)\d{2}\s*年|(?:1[0-2]|[1-9])\s*月|(?:3[01]|[12]\d|[1-9])\s*天", v)
+                for v in vals
+            )
+            node_only = all(v.lower().endswith("nm") for v in vals)
+            if date_only or node_only:
                 continue
 
             same_para = "\n".join(
