@@ -2,12 +2,18 @@
 title: "The Age of AI Infrastructure Hegemony"
 subtitle: "Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital"
 author: "James (kamanager2012)"
-date: "Research and revision cutoff: August 28, 2026"
+date: "Pre-release Publication QA Edition · Target v1.0.0 · Research/revision cutoff: August 28, 2026"
 lang: en-US
 ---
 
 
 # Scope, Evidence Boundaries, Disclaimer, and Copyright
+
+**Edition status:** Pre-release Publication QA Edition  
+**Target version:** v1.0.0 (not yet released)  
+**Publication date:** To be fixed only after final PDF/EPUB proof and public release  
+**Research and revision cutoff:** 28 August 2026  
+**Languages:** Chinese canonical edition / English parallel edition
 
 ## Scope
 
