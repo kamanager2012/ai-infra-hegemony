@@ -35,10 +35,10 @@ GB200 NVL72 等产品把销售单位从 accelerator card 推向 rack-scale syste
 
 NVIDIA FY27 Q2：
 
-- revenue：$96.221B
-- Data Center：$89.0B
-- GAAP gross margin：75.0%
-- GAAP operating income：$63.734B
+- revenue：**US$96.221B**
+- Data Center：**US$89.0B**
+- GAAP gross margin：**75.0%**
+- GAAP operating income：**US$63.734B**
 
 高 seller economics 使长期资源预订成为现实竞争能力。
 
@@ -46,7 +46,7 @@ NVIDIA FY27 Q2：
 
 Micron HBM3E ~3× DDR5 wafer-supply trade ratio 是 A 级事实。
 
-TrendForce HBM+RDIMM 约占 2026 DRAM bits 51%。
+TrendForce **预计** HBM + RDIMM 约占 **2026 DRAM bit supply 51%**；这是 2026E 机构预测，不是已实现实绩。
 
 TSMC 已明确表示 advanced packaging tightness 限制客户增长。
 
@@ -63,7 +63,7 @@ Google、AWS、Microsoft、Meta 的自研路线已经从 chip 上升到：
 
 ### 2.5 Power 已进入核心资源层
 
-120 kW-class rack 和 100 MW/GW-class campus 使：
+约 **120 kW/rack** 的 GB200 NVL72-class rack 与 100 MW/GW-class campus 使：
 
 - grid；
 - substation；
@@ -290,3 +290,5 @@ China parallel stack 正在扩展，但 frontier AI 完整闭环仍取决于多�
 - NVIDIA FY27 Q2 official results： https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- TSMC 2Q26 IR / transcript（advanced-packaging tightness limits customer growth）： https://investor.tsmc.com/english/quarterly-results/2026/q2
+- NVIDIA GB200/NVL72 rack power（~120 kW/rack）： https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
