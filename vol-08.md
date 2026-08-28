@@ -16,7 +16,7 @@ Microsoft、Amazon、Alphabet、Meta 的 AI/data-center 投资已经进入历史
 
 ## 2. 2025–2026 的资本扩张现实
 
-2025 混年口径下，Microsoft、Amazon、Alphabet、Meta 的 equipment/PPE purchase 已达到约 **US$354B** 量级。这个合计本身是研究侧按不同公司公开科目复加的 mixed-window scale anchor，不是四家公司共同披露的统一“AI CapEx”指标。
+2025 混年口径下，Microsoft、Amazon、Alphabet、Meta 的 equipment/PPE purchase 已达到约 **US$354B** 量级。这个合计是本报告按不同公司公开科目复加的 **D 级 mixed-window reconstruction / scale anchor**，不是四家公司共同披露的统一 actual，更不是统一“AI CapEx”指标。
 
 截至 2026 年 8 月，公开口径如下：
 
@@ -206,6 +206,7 @@ AI rack power density 上升之后，data-center buildout 不再只是服务器�
 ## 本卷关键公开来源
 
 - Microsoft FY26 Q4 earnings / earnings call（calendar-2026 reported CapEx expectation 约 US$175B，lease classification 调整；underlying investment expectation unchanged）：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-- Alphabet 2026 Q2 SEC Exhibit 99.1（Q2 actual CapEx US$44.9B）及 Q2 earnings-call guidance US$195–205B：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Alphabet 2026 Q2 SEC Exhibit 99.1（支撑 Q2 actual results / CapEx US$44.9B）：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Alphabet Q2 earnings-call full-year CapEx guidance US$195–205B（company guidance reported by Reuters）：https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/
 - Meta 2026 Q2 SEC Exhibit 99.1（2026 CapEx guidance US$130–145B，含 finance-lease principal）：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 - Amazon 2026 Q2 Form 10-Q（TTM PPE net purchases actual US$169.007B；Q2 cash CapEx US$53.1B）：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
