@@ -30,6 +30,22 @@ The most exposed layers include:
 
 The more useful analytical variable is therefore **Non-AI Residual Capacity**: the effective capacity left for non-AI products after higher-priority demand has absorbed the relevant increment.
 
+## 1A. Two-Speed Semiconductor Economy
+
+This report uses **Two-Speed Semiconductor Economy** to describe one macro consequence of AI Resource Gravity. It does not mean consumer electronics disappear. It means that two demand classes sharing upstream semiconductor resources are increasingly operating with different willingness to pay, expected capital returns, and expansion priorities.
+
+In 2Q26, TSMC reported that its HPC platform revenue rose **20% QoQ** and represented **66%** of quarterly revenue, while Smartphone platform revenue fell **4% QoQ** and represented **22%**. Advanced technologies, defined as 7 nm and below, represented **77%** of wafer revenue. These are TSMC revenue-mix metrics, not global wafer-allocation shares, and HPC must not be equated one-for-one with AI. Source: https://investor.tsmc.com/english/quarterly-results/2026/q2
+
+Capital formation matters even more than the current quarter's allocation. In its 2Q26 earnings call, TSMC raised its full-year 2026 capital budget to **US$60B–64B**, with approximately **70%–80%** allocated to advanced process technologies and approximately **10%–20%** to advanced packaging, testing, mask making, and other areas. TSMC cited continued structural AI/HPC demand as part of the expansion backdrop. The entire CapEx budget should not be attributed to AI, but the disclosure shows that high-growth workloads are influencing the next supply buildout.
+
+The key long-run question is therefore not only whether capacity exists today, but:
+
+> **For which long-duration demand is the next unit of capital, cleanroom, equipment, and advanced packaging capacity being built?**
+
+This raises the weight of infrastructure CapEx driven by a relatively small number of hyperscalers, system-platform sellers, and Anchor Compute Buyers inside an industry that historically depended on a more diversified mix of smartphone, PC, server, automotive, and industrial demand.
+
+Two-Speed Semiconductor Economy is a mechanism (M), not a factual claim that AI has permanently “sacrificed” consumer electronics. It must be tested through revenue mix, CapEx allocation, memory product mix, lead times, end-market BOMs, and Non-AI Residual Capacity.
+
 ## 2. Rack-scale systems turn demand into physical identities
 
 The official GB200 NVL72 configuration includes:
