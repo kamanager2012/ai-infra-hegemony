@@ -162,3 +162,8 @@ YMTC 属于 NAND 体系，也不能被用来直接替代 HBM/DRAM 的供给约�
 - 中国是否出现可验证规模的 HBM-class product。
 
 HBM 已经从“GPU 边上的高端内存”上升为 AI 基础设施资源竞争的核心层。
+
+## 本卷关键公开来源
+
+- TrendForce, HBM + RDIMM 2026 DRAM bit supply 51% / CSP memory CapEx： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
