@@ -2,12 +2,18 @@
 title: "AI基础设施霸权时代"
 subtitle: "The Age of AI Infrastructure Hegemony"
 author: "James (kamanager2012)"
-date: "Research and revision cutoff: 2026-08-28"
+date: "Pre-release Publication QA Edition · Target v1.0.0 · Research/revision cutoff: 2026-08-28"
 lang: zh-CN
 ---
 
 
 # 报告定位、证据边界与免责声明
+
+**版本状态：** Pre-release Publication QA Edition  
+**目标版本：** v1.0.0（尚未发布）  
+**正式发布日期：** 待最终 PDF/EPUB proof 与公开发布完成后锁定  
+**资料检索与修订截止：** 2026-08-28  
+**语言：** 中文主版 / English parallel edition
 
 ## 报告定位
 
