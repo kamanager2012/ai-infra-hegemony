@@ -71,7 +71,7 @@ Watch for:
 
 Forward commitments show whether the next investment cycle is still being funded.
 
-NVIDIA reported supply-related commitments of **$119.0B** at FY27 Q1. Those commitments are not proof of permanent scarcity, but they are evidence that the next round of supply was still being reserved at that point.
+NVIDIA's manufacturing, supply, and capacity commitments rose from **US$119B** as of 2026-04-26 to **US$279B** as of 2026-07-26. The FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities. They are not proof of permanent scarcity, but they are evidence that the next round of supply was still being reserved at that point. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
 
 ## 3. What qualifies as a Capital Hard Landing
 
@@ -229,7 +229,7 @@ The fact base still includes:
 - NVIDIA FY27 Q2 revenue of **$96.221B**;
 - Data Center revenue of **$89.0B**;
 - GAAP gross margin of **75.0%**;
-- FY27 Q1 supply-related commitments of **$119.0B**;
+- FY27 Q2 manufacturing, supply, and capacity commitments of **US$279B**;
 - continuing HBM and advanced-packaging constraints;
 - large hyperscaler infrastructure programs.
 
