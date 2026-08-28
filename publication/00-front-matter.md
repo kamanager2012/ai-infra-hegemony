@@ -48,6 +48,12 @@
 
 ---
 
-**Executive Summary → 第1章**  
-**研究方法与证据架构 → 第27章**  
-**核心参考文献与证据台账 → 附录 / References**
+## 阅读导航
+
+- [正式目录](01-table-of-contents.md)
+- [表格目录](02-list-of-tables.md)
+- [缩写与核心术语表](03-abbreviations-and-glossary.md)
+- [Executive Summary — 第1章](part-I-ch01-executive-summary.md)
+- [研究方法与证据架构 — 第27章](part-IV-ch27-research-method.md)
+- [核心证据台账](../核心证据台账.md)
+- [核心参考文献索引](../核心参考文献索引.md)
