@@ -103,7 +103,7 @@
 
 Micron 的 HBM3E ~3× wafer-supply trade ratio 表明，memory scaling 并不是免费的。
 
-如果 HBM4/HBM5 等世代继续提高 trade ratio，则 memory 可能长期保持 system bottleneck。
+Micron 已披露 HBM4 的 trade ratio 预计高于 HBM3E；**HBM5 尚无本报告可核的一手 trade-ratio 披露**。因此，只能把“后续世代若继续提高 trade ratio”作为条件情景，不能把 HBM4 的方向直接外推成 HBM5 事实。
 
 如果新 memory architecture、3D integration 或 algorithmic efficiency 显著降低 bandwidth requirement，则这一瓶颈可能弱化。
 
