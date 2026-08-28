@@ -40,6 +40,10 @@ Current core anchors:
 | FY27 Q2 GAAP operating income | **US$63.734B** |
 | Rubin | **full production** |
 
+Primary sources:
+- NVIDIA FY26 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+
 These indicators answer a strategic question:
 
 > **Does the system platform still generate enough profit and cash flow to reserve the next generation of scarce resources?**
@@ -55,6 +59,8 @@ NVIDIA reported manufacturing, supply, and capacity commitments of:
 - **US$95.2B** as of 2026-01-25;
 - **US$119B** as of 2026-04-26;
 - **US$279B** as of 2026-07-26.
+
+Source: NVIDIA FY27 Q2 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 Scope: the FY27 Q2 10-Q says the latest commitments are primarily tied to memory and manufacturing facilities. These remain aggregate commitments, not a disclosed single-supplier order.
 
@@ -80,6 +86,12 @@ Key public anchors include:
 - 2025 second-largest customer: **17%**;
 - 2025 advanced packaging: slightly above **10%** under the company-corrected 4Q25 wording; the 2024 >8% disclosure used the distinct label “advanced packaging and testing.”
 
+Primary sources:
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2025 Form 20-F (annual customer ranking): https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report (Customer A/B): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TSMC 4Q25 Transcript (advanced packaging): https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+
 **Customer-scope hard boundary:** annual largest / second-largest rankings are not a same-customer time series. A separate anonymized table provides the directly comparable 2024→2025 series: Customer A **12%→19%**, Customer B **22%→17%**. The two disclosure formats must not be stitched together into one customer's longitudinal trajectory.
 
 ### Packaging status
@@ -94,7 +106,7 @@ That makes packaging tightness **A-grade first-party evidence**.
 
 ### CoWoS demand allocation
 
-TrendForce's estimate that NVIDIA represented more than **60% of 2025 CoWoS demand** is **B-grade institutional research**.
+TrendForce's estimate that NVIDIA represented more than **60% of 2025 CoWoS demand** is **B-grade institutional research**. Source: https://www.trendforce.com/research/download/RP250314ZJ
 
 TSMC does not publish customer-level CoWoS allocation.
 
@@ -108,6 +120,8 @@ The core A-grade physical anchor is:
 
 > **HBM3E requires roughly 3× the wafer supply of DDR5 to produce the same number of bits at the same technology node.**
 
+Source: Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+
 Micron's FY25 10-K further confirms that HBM requires more wafers and cleanroom space for the same bit output.
 
 ### TrendForce
@@ -115,6 +129,8 @@ Micron's FY25 10-K further confirms that HBM requires more wafers and cleanroom 
 **2026E institutional forecast:**
 
 - HBM + RDIMM represent approximately **51% of DRAM bit supply**.
+
+Source: https://www.trendforce.com/presscenter/news/20260825-13198.html
 
 The 51% figure is a forecast bit share, not an observed full-year actual, wafer share, or revenue share.
 
@@ -129,6 +145,8 @@ FY25:
 - operating margin: **49%**;
 - net income: **KRW 42.9479T**;
 - HBM revenue: more than doubled year over year.
+
+Source: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 These indicators help determine whether the HBM product mix continues to support unusually strong memory-vendor economics.
 
