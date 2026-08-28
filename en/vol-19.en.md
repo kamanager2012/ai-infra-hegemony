@@ -26,7 +26,7 @@ The current factual base includes:
 - NVIDIA FY27 Q2 Data Center revenue: **$89.0B**;
 - GAAP gross margin: **75.0%**;
 - Rubin: **full production**;
-- supply-related commitments: **$119.0B** at FY27 Q1;
+- manufacturing, supply, and capacity commitments: **US$119B** as of 2026-04-26 and **US$279B** as of 2026-07-26; the Q2 filing says the latest amount is primarily tied to memory and manufacturing facilities;
 - TSMC advanced-packaging tightness still limiting customer growth;
 - HBM + RDIMM representing approximately **51% of 2026 DRAM bits**;
 - continued hyperscaler CapEx expansion;
@@ -43,7 +43,7 @@ Key milestones include:
 - advanced-packaging expansion;
 - next-generation cloud custom-silicon deployment;
 - actual energization of power projects;
-- whether supply commitments continue to rise.
+- whether supply commitments continue to rise. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm .
 
 ## 3. Phase II: 2028–2030 — does substitution reach scale?
 
