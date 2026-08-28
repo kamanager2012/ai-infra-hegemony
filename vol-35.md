@@ -28,7 +28,7 @@ NVIDIA 官方机柜文档给出的 GB200 NVL72 级整柜功耗约为 **120 kW/ra
 
 ## 3. Microsoft / Constellation：约 835 MW restart PPA
 
-Microsoft 与 Constellation 签署 20 年 PPA，支持重启原 Three Mile Island Unit 1，并更名为 Crane Clean Energy Center。
+Microsoft 与 Constellation 签署 20 年 PPA，支持重启原 Three Mile Island Unit 1，并更名为 Crane Clean Energy Center。 来源：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 
 公开项目容量约 **835 MW**。
 
