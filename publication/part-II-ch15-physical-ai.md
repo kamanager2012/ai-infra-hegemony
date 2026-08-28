@@ -140,5 +140,5 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 [^1]: NVIDIA Developer, Isaac platform, simulation/training and robotics workflow, https://developer.nvidia.com/isaac
 [^2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
-[^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://investors.micron.com/static-files/2354ecda-77a0-4ddd-8462-a631eb491356
+[^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Micron_Q3_26_Earnings_Deck.pdf
 [^4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
