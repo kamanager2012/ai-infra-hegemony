@@ -42,7 +42,7 @@ The architecture therefore tends toward:
 
 > **cloud-side heavy training + edge-side compressed inference and control**
 
-A robot cannot carry a rack-scale 100 kW-class environment on its body.
+A robot cannot carry a GB200 NVL72-style **~120 kW/rack** environment on its body. The ~120 kW figure is a whole-rack power figure, not compute-only IT load. Source: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html .
 
 Cloud compute and edge compute should be modeled as complementary layers rather than one hardware pool.
 
