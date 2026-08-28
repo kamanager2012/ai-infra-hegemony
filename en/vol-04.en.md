@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-04.md](../vol-04.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Advanced-manufacturing competition is not reduced here to one wafer quote or one customer-share number. The relevant object is access to the next increment of complete frontier-system resources.
+> Retrieval and revision cutoff: **2026-08-28**. Advanced-manufacturing competition is not reduced here to one wafer quote or one customer-share number. The relevant object is access to the next increment of complete frontier-system resources.
 
 ## 1. The real competition is not a “2 nm price”
 
