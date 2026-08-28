@@ -27,6 +27,10 @@ The scenario variables remain anchored to the [Core Hypothesis Matrix](核心假
 - GAAP gross margin: **75.0%**;
 - Rubin: **full production**;
 - manufacturing, supply, and capacity commitments: **US$119B** as of 2026-04-26 and **US$279B** as of 2026-07-26; the Q2 filing says the latest amount is primarily tied to memory and manufacturing facilities;
+
+Primary sources:
+- NVIDIA FY27 Q2 official results (Data Center revenue / GAAP margin / Rubin): https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 Form 10-Q (US$119B / US$279B commitment trajectory): https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - TSMC advanced-packaging tightness still limiting customer growth;
 - hyperscaler capital spending remains elevated;
 - power agreements have reached approximately 835 MW, up to 1,920 MW, and up to 500 MWe in projects at different maturity stages; these are not equivalent to energized AI load.
