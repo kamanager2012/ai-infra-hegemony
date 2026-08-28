@@ -159,7 +159,7 @@ powered land、grid、cooling、data center。
 
 ## 9. 国家：power 是 semiconductor policy 的一部分
 
-120 kW-class rack 与 100 MW/GW-class campus 使电力成为 compute policy 的组成部分。
+约 **120 kW/rack** 的 rack-level 产品功率，以及 835 MW restart PPA、up to 1.92 GW revised PPA、up to 500 MWe by 2035 等**不同成熟度的项目/合同路径**，使电力成为 compute policy 的组成部分。项目容量不能写成已上电 AI load。
 
 因此，产业政策需要把：
 
