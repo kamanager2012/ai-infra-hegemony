@@ -29,9 +29,12 @@ FOOTNOTE_DEF = re.compile(r"^\[\^[^\]]+\]:")
 TABLE_SEPARATOR = re.compile(r"^\|(?:\s*:?-+:?\s*\|)+$")
 STRONG_NUM = re.compile(
     r"(?:US\$|RMB|KRW|\$)\s*\d[\d,.]*(?:\.\d+)?(?:\s*[BMTK])?"
+    r"|\d[\d,.]*(?:\.\d+)?\s*[KMBT]\b"
     r"|\d[\d,.]*(?:\.\d+)?\s*(?:%|×|x|kW|MW|GW|MWe|kWh|MWh|TWh|"
-    r"KB|MB|GB|TB|PB|Gb/s|Tb/s|Mbps|Gbps|nm|mm²|GPU-hours?|"
-    r"systems?|chips?|racks?|wafers?|years?|months?|days?|年|月|天)"
+    r"KB|MB|GB|TB|PB|Gb/s|Tb/s|Mbps|Gbps|nm|mm²|GPU-hours?|GPUs?|CPUs?|"
+    r"systems?|chips?|racks?|wafers?|servers?|units?|tokens?|parameters?|"
+    r"years?|months?|days?|亿美元|亿元|万美元|万元|美元|人民币|"
+    r"万片/月|片/月|万片|片|亿颗|万颗|颗|亿个|万个|个|台|柜|层|年|月|天)"
 )
 NON_FACT = re.compile(
     r"D[- ]?grade|D\s*级|scenario|情景|sensitivity|stress test|压力测试|"
