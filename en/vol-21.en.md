@@ -70,7 +70,7 @@ For 2025:
 
 - gross margin: **59.9%**;
 - HPC platform: **58% of revenue**;
-- advanced packaging + testing: slightly above **10%**.
+- advanced packaging: slightly above **10%**; do not broaden this into “packaging + testing.”
 
 TSMC carries heavy manufacturing CapEx and yield risk.
 
@@ -171,7 +171,7 @@ A platform seller can often reserve upstream resources without carrying the full
 
 TrendForce estimates that HBM + RDIMM represent approximately **51% of 2026 DRAM bits**.
 
-Micron's roughly **3× HBM3E-versus-DDR5 wafer-supply trade ratio** shows that HBM also consumes more manufacturing input for the same delivered bit capacity.
+Micron's FY24 Q3 **industrywide / same-node / same-bits** disclosure puts HBM3E at roughly **3× the wafer supply of DDR5**, showing higher manufacturing-input intensity without turning that ratio into a Micron-specific constant.
 
 AI-infrastructure capital therefore increasingly flows into:
 
