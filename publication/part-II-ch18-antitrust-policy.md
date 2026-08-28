@@ -29,7 +29,7 @@ AI platform 的力量可能同时分布在 accelerator、interconnect、compiler
 - acquisition restriction；
 - structural separation。
 
-因此，本书不把“可能罚多少钱”当成平台权力的核心变量。
+因此，本报告不把“可能罚多少钱”当成平台权力的核心变量。
 
 ## 3. 10% Turnover Ceiling 不是未来罚款模型
 
@@ -41,7 +41,7 @@ EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 und
 
 违法是否成立、严重性、持续时间、相关销售、程序结果和 remedy 形式都会影响最终结果。
 
-所以 10% 只能表示法律工具强度，不能进入本书的公司盈利预测。
+所以 10% 只能表示法律工具强度，不能进入本报告的公司盈利预测。
 
 ## 4. 程序状态必须逐层读取
 
@@ -136,7 +136,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 ## 11. 当前判断
 
-截至 2026 年 8 月，监管已成为 AI system-platform 的重要外部变量，但本书不会把调查、market inquiry 或法定罚款 ceiling 写成已经发生的结构性改造。
+截至 2026 年 8 月，监管已成为 AI system-platform 的重要外部变量，但本报告不会把调查、market inquiry 或法定罚款 ceiling 写成已经发生的结构性改造。
 
 真正需要持续更新的是：
 
