@@ -108,7 +108,7 @@ The same discipline applies across jurisdictions.
 
 ## 5. A statutory 10% turnover ceiling is not a fine forecast
 
-A statutory percentage ceiling defines the maximum authority available under a legal framework.
+Under Article 23(2) of Regulation (EC) No 1/2003, the fine for each undertaking or association participating in an infringement must not exceed **10% of its total turnover in the preceding business year**. This is a statutory ceiling, not an expected fine.
 
 It should not be converted mechanically into:
 
@@ -121,7 +121,7 @@ and presented as an expected future liability.
 That would ignore several unresolved questions:
 
 - whether a violation is established;
-- the legal treatment of relevant versus total turnover;
+- fine-setting can consider the nature, gravity, duration, and relevant sales of the infringement, but the **10% statutory ceiling uses total turnover**;
 - whether the remedy is behavioral rather than monetary;
 - case timing;
 - whether a final decision is ever reached.
@@ -221,3 +221,8 @@ In the formal scenarios, regulation therefore acts differently:
 The key variable to update is **formal legal status and actual remedy**.
 
 News tone is not a substitute for either.
+
+
+## Key public sources for this volume
+
+- EUR-Lex — Regulation (EC) No 1/2003, Article 23(2), 10% total-turnover ceiling: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
