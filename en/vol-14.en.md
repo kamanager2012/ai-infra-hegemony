@@ -12,15 +12,23 @@ The report does not classify an industry as a “winner” merely because its re
 
 ### NVIDIA system platform
 
-NVIDIA FY27 Q2 revenue was **$96.221B**, Data Center revenue **$89.0B**, GAAP gross margin **75.0%**, and operating income **$63.734B**. This demonstrates exceptional seller-side value capture in the current system-stack cycle.
+NVIDIA FY27 Q2 revenue was **US$96.221B**, Data Center revenue **US$89.0B**, GAAP gross margin **75.0%**, and GAAP operating income **US$63.734B**. This demonstrates exceptional seller-side value capture in the current system-stack cycle.
+
+Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 
 ### TSMC and advanced manufacturing
 
-TSMC's 2025 HPC platform share was **58%**. Advanced packaging/testing contributed slightly above **10%** of revenue, while management repeatedly described packaging capacity as tight and capable of limiting customer growth. A smaller revenue layer can therefore still be a binding delivery constraint.
+TSMC's 2025 HPC platform share was **58% of revenue**. Advanced packaging/testing contributed slightly above **10% of revenue**, while management in 2026 Q2 described packaging capacity as tight enough to limit customer growth. A smaller revenue layer can therefore still be a binding delivery constraint.
+
+Sources:
+- https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- https://investor.tsmc.com/english/quarterly-results/2026/q2
 
 ### Memory
 
 Micron disclosed that HBM3E requires roughly **3× the wafer supply of DDR5** for the same node and bit capacity. SK hynix reported FY25 operating margin of **49%** and HBM revenue that more than doubled year over year. Higher resource intensity plus strong demand gives memory makers substantial bargaining power while the cycle remains tight.
+
+SK hynix source: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 ### Cloud capital
 
@@ -133,4 +141,7 @@ The durable conclusion is that **AI infrastructure redistributes value according
 ## Key public sources for this volume
 
 - NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 2026 Q2 IR / transcript — packaging tightness limiting customer growth: https://investor.tsmc.com/english/quarterly-results/2026/q2
 - Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
