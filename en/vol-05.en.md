@@ -104,6 +104,25 @@ Because HBM itself requires more wafer input per delivered bit than comparable D
 
 This is the memory-specific form of **Non-AI Residual Capacity**.
 
+## 5A. Price feedback: HBM crowding-out is not an unlimited one-way process
+
+Resource reallocation contains a market feedback loop. The report should not assume that HBM permanently delivers the highest return per wafer and therefore attracts an unlimited share of DRAM manufacturing input.
+
+TrendForce estimated on 2026-06-02 that, after the sharp rise in conventional-DRAM pricing since 2H25, **DDR5 64GB RDIMM overtook HBM in per-wafer revenue in 1Q26** under its die-size, yield, and per-Gb pricing model; TrendForce also estimated that HBM profitability fell below DDR5 64GB RDIMM. Source: https://www.trendforce.com/presscenter/news/20260602-13074.html
+
+This is a **B-grade institutional estimate**, not product-level realized gross margin disclosed by Samsung, SK hynix, or Micron. Its value is the feedback mechanism it reveals:
+
+```text
+higher HBM / AI demand
+→ tighter residual conventional-DRAM supply
+→ higher DDR5 / RDIMM pricing
+→ stronger conventional-DRAM per-wafer economics
+→ weaker relative incentive for further HBM reallocation
+→ memory vendors rebalance product mix
+```
+
+AI Resource Gravity is therefore not an unlimited one-way siphon. Pricing, long-term contracts, qualification, yield, generation transitions, and customer mix jointly determine allocation. The relevant variable is the **risk-adjusted return per unit of scarce manufacturing resource**, not a fixed assumption that HBM always carries a permanent profit multiple.
+
 ## 6. Rack-scale demand shows the order of magnitude
 
 GB200 NVL72 contains:
