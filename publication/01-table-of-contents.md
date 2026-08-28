@@ -5,6 +5,8 @@
 - [封面、报告定位、证据边界与免责声明](00-front-matter.md)
 - [表格目录](02-list-of-tables.md)
 - [缩写与核心术语表](03-abbreviations-and-glossary.md)
+- [研究透明度、局限性与纠错机制](04-research-transparency.md)
+- [竞争集、替代路径与反方证据矩阵](05-competitive-evidence-matrix.md)
 
 ## Part I — 系统权力与物理稀缺
 
