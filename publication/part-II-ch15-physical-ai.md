@@ -124,4 +124,6 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 ## 关键公开来源
 
-- NVIDIA DGX GB200 hardware guide — data-center rack power reference: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- NVIDIA Isaac official platform page — GR00T, simulation/training, Jetson Thor inference/control and DGX/OVX/AGX workflow layers: https://developer.nvidia.com/isaac
+- NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot — Jetson Thor onboard compute + Isaac GR00T open platform: https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
+- NVIDIA DGX GB200 hardware guide — data-center rack power reference used only for cloud-vs-edge physical contrast: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
