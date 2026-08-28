@@ -1,7 +1,5 @@
 # Part III · Chapter 19: The AI-Infrastructure CapEx Supercycle
 
-> **Publication-layer chapter.** Based primarily on [Volume 08](../vol-08.en.md). Capital-clearing criteria belong in Chapter 24; depreciation useful lives belong in Chapter 22. This chapter asks three questions: why AI-infrastructure CapEx is still expanding, why the four-cloud figures cannot be added directly into "AI hardware CapEx," and when the capital cycle shifts from expansion toward constraint.
-
 ## 1. CapEx size is not the only issue; denominator consistency comes first
 
 Microsoft, Amazon, Alphabet, and Meta are all spending at historically high infrastructure levels, but their fiscal periods, PPE definitions, finance-lease treatment, and net-purchase metrics are not identical.
