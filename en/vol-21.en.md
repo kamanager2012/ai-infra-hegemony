@@ -82,8 +82,13 @@ SK hynix, Samsung, and Micron capture AI demand through HBM and server memory.
 
 SK hynix FY25 reported:
 
+- revenue: **KRW 97.1467T**;
+- operating profit: **KRW 47.2063T**;
 - operating margin: **49%**;
-- HBM revenue: more than doubled year over year.
+- net income: **KRW 42.9479T**;
+- HBM revenue: **more than doubled year over year**.
+
+Public source: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 
 Memory has therefore become a major profit pool within the AI-infrastructure chain.
 
