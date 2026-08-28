@@ -30,7 +30,7 @@ The four major clouds use different:
 - lease treatment;
 - CapEx guidance conventions.
 
-On a mixed-year 2025 basis, comparable equipment/PPE purchases reached roughly **US$354B** in aggregate scale.
+As a **D-grade mixed-window reconstruction**, comparable 2025 equipment/PPE purchases reached roughly **US$354B** in aggregate scale; this is not a jointly reported same-period “AI CapEx” actual.
 
 By August 2026, company-specific public indicators include:
 
@@ -40,6 +40,12 @@ By August 2026, company-specific public indicators include:
 | Alphabet | Q2 earnings-call 2026 CapEx guidance **US$195–205B** |
 | Meta | Q2 2026 CapEx guidance **US$130–145B**, including finance-lease principal |
 | Amazon | TTM PPE net purchases actual **US$169.007B** through 2026-06-30 |
+
+Primary sources:
+- Microsoft FY26 Q4 earnings / call: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+- Alphabet Q2 2026 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Meta Q2 2026 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+- Amazon Q2 2026 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
 
 These numbers demonstrate continued capital expansion.
 
