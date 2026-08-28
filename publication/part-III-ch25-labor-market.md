@@ -1,7 +1,5 @@
 # Part III · 第25章：AI 与劳动市场——Task-to-Job Translation
 
-> **出版层章节。** 以 [vol-38](../vol-38.md) 为主源。劳动影响不能从 benchmark 直接跳到“岗位消失”。本章使用 **Task Exposure → Adoption Economics → Workflow Redesign → Responsibility Constraint → Employment/Wage Outcome** 的转换链。
-
 ## 1. AI 首先改变 Task，而不是职业名称
 
 一个职业通常由多种 task 组成，其中一部分可以被自动化，一部分被增强，一部分仍需要 physical presence、judgment、liability 或 trust。
