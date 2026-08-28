@@ -31,13 +31,13 @@ Current core anchors:
 
 | Indicator | Value |
 |---|---:|
-| FY26 revenue | **$215.938B** |
-| FY26 Data Center revenue | **$193.737B** |
-| FY26 free cash flow | **$96.575B** |
-| FY27 Q2 revenue | **$96.221B** |
-| FY27 Q2 Data Center revenue | **$89.0B** |
+| FY26 revenue | **US$215.938B** |
+| FY26 Data Center revenue | **US$193.737B** |
+| FY26 non-GAAP free cash flow (NVIDIA definition) | **US$96.575B** |
+| FY27 Q2 revenue | **US$96.221B** |
+| FY27 Q2 Data Center revenue | **US$89.0B** |
 | FY27 Q2 GAAP gross margin | **75.0%** |
-| FY27 Q2 GAAP operating income | **$63.734B** |
+| FY27 Q2 GAAP operating income | **US$63.734B** |
 | Rubin | **full production** |
 
 These indicators answer a strategic question:
@@ -50,10 +50,12 @@ They do show the financial ability to make large forward commitments.
 
 ### Supply commitments
 
-NVIDIA reported supply-related commitments of:
+NVIDIA reported manufacturing, supply, and capacity commitments of:
 
-- **$95.2B** at FY26 year-end;
-- **$119.0B** at FY27 Q1.
+- **US$95.2B** as of 2026-01-25;
+- **US$119B** as of 2026-04-26.
+
+Scope: these are aggregate commitments, not a disclosed single-supplier order.
 
 These commitments are useful as a forward proxy for resource reservation.
 
