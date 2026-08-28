@@ -228,5 +228,5 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 - NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - TrendForce 2026E memory structure: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 Prepared Remarks: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
