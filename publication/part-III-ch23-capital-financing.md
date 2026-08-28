@@ -58,7 +58,29 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 因此 **>US$500B** 只能作为 mobilization target，不能写成 committed / funded / deployed capital。[^3]
 
-## 6. Compute 为什么能被包装成 Infrastructure Asset
+## 6. Seller-Assisted Infrastructure Finance：平台开始用信用支持解决 LPS 瓶颈
+
+2026-08-17 的 PORTS-Pike 交易进一步说明，compute financing 正从“为 GPU 融资”扩展到 **land + power + shell**。NVIDIA 披露将为 SB Energy 的相关 LPS buildout 提供 credit support，并投资 **US$1.5B** 于 SB Energy；初始部署设计支持 **4.25 IT-GW**，OpenAI 为最终客户，SB Energy 建设、持有并运营 data center。[^4]
+
+这意味着 system-platform seller 的角色可能进一步扩展为：
+
+> **technology supplier + ecosystem coordinator + selective credit enhancer + infrastructure capital participant**
+
+这种结构可以解决 frontier AI lab 自身资产负债表不足以独立承销超大基础设施的问题，也可以把长期 customer demand 更早转化为 project finance。
+
+但它也引入新的风险：
+
+- seller balance sheet exposure；
+- customer concentration；
+- related ecosystem financing feedback；
+- long-duration lease / LPS commitment；
+- future hardware residual value 与 upgrade-cycle assumption。
+
+因此，seller-assisted financing 既可能加速供给形成，也可能提高 system-platform、anchor buyer 与 infrastructure developer 之间的风险耦合。
+
+---
+
+## 7. Compute 为什么能被包装成 Infrastructure Asset
 
 长期资本通常偏好 predictable cash flow、long contract、collateral 与 clear offtaker。
 
@@ -66,7 +88,7 @@ AI compute 正通过 long-term compute commitments、hyperscaler leases、PPA �
 
 如果 usage-linked revenue 与 customer transferability 足够稳定，compute asset 可以获得更接近 infrastructure financing 的资本来源。
 
-## 7. 但 Hardware Residual Value 仍是关键风险
+## 8. 但 Hardware Residual Value 仍是关键风险
 
 compute 与传统 infrastructure 最大差异之一，是 generation obsolescence 更快。
 
@@ -80,7 +102,7 @@ compute 与传统 infrastructure 最大差异之一，是 generation obsolescenc
 - asset 是否可在不同 customers/operators 之间转移；
 - leverage 是否建立在过度乐观的 terminal value 上。
 
-## 8. Anchor Buyer 可以降低融资风险，也提高 Customer Concentration
+## 9. Anchor Buyer 可以降低融资风险，也提高 Customer Concentration
 
 OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 project finance 更容易成立。
 
@@ -88,7 +110,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 因此，Anchor Buyer 既是融资条件，也是风险集中点。
 
-## 9. Sovereign Capital 的意义在 Strategic Capacity
+## 10. Sovereign Capital 的意义在 Strategic Capacity
 
 主权基金参与 AI infrastructure 的逻辑通常不仅是财务回报，也包括 domestic compute、data center、power、semiconductor manufacturing 与 strategic autonomy。
 
@@ -96,7 +118,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 没有官方项目披露时，本书不使用传闻持仓构造“主权资本已经全面入场”的结论。
 
-## 10. Duration Matching 是融资质量核心
+## 11. Duration Matching 是融资质量核心
 
 **Table 23.1 — AI infrastructure 资产类别与主要融资风险**
 
@@ -116,7 +138,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 > **short-duration demand assumption + long-duration debt / power / real-estate obligation**
 
-## 11. 当前判断
+## 12. 当前判断
 
 AI infrastructure 正从科技公司内部 CapEx 扩展为：
 
@@ -133,3 +155,4 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 [^1]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” NVIDIA-defined non-GAAP free cash flow, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^3]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^4]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, credit support, US$1.5B SB Energy investment, initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
