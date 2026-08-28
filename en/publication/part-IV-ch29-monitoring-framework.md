@@ -4,7 +4,7 @@
 
 Seller economics, CapEx, HBM, packaging, foundry allocation, power, regulation, and system substitution all change quickly.
 
-The publication layer therefore cannot be valid only on the publication date.
+The report's conclusions therefore have to be designed for continuous updating rather than being valid only on the publication date.
 
 Every update should answer only three questions:
 
@@ -16,6 +16,8 @@ Every update should answer only three questions:
 
 ### NVIDIA current anchors
 
+**Table 29.1 — NVIDIA seller economics and forward-reservation baseline**
+
 | Metric | Current public value |
 |---|---:|
 | FY26 Revenue | US$215.938B |
@@ -26,6 +28,9 @@ Every update should answer only three questions:
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
 | Rubin | full production |
+
+**Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^1][^2]  
+**Note:** Company-defined non-GAAP FCF and GAAP metrics retain their respective identities; aggregate commitments have no disclosed supplier-level split.
 
 Supply / capacity commitments:
 
@@ -40,6 +45,8 @@ The US$279B figure does not contain a supplier-level split and cannot be convert
 ## 3. Dashboard B — Foundry / Packaging
 
 ### TSMC 2025
+
+The following baseline is drawn from TSMC's 2025 Annual Report.[^3]
 
 - 12-inch-equivalent wafer shipments: ~15.0M;
 - annual capacity: >17M;
@@ -65,15 +72,15 @@ TSMC does not disclose customer-level CoWoS allocation.
 
 ### A-grade manufacturing anchor
 
-Micron: HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**; the FY25 10-K further confirms that HBM requires more wafers / cleanroom space.
+Micron: HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**; the FY25 10-K further confirms that HBM requires more wafers / cleanroom space.[^5]
 
 ### B-grade forward structure
 
-TrendForce: **2026E HBM + RDIMM ≈51% of DRAM bit supply**.
+TrendForce: **2026E HBM + RDIMM ≈51% of DRAM bit supply**.[^4]
 
 ### Vendor economics
 
-SK hynix FY25:
+SK hynix FY25:[^6]
 
 - Revenue KRW97.1467T;
 - Operating profit KRW47.2063T;
@@ -101,6 +108,8 @@ Non-comparable accounting definitions must not be mechanically added into an off
 
 ## 6. Dashboard E — Power State Machine
 
+**Table 29.2 — Power project state machine**
+
 | State | Meaning |
 |---|---|
 | Announced | project / target announced |
@@ -108,6 +117,9 @@ Non-comparable accounting definitions must not be mechanically added into an off
 | Permitted | key permits obtained |
 | Energized | actual power delivery |
 | Utilized | real sustained load |
+
+**Source:** Report power-state framework.  
+**Note:** The state machine prevents headline MW/GW, contract quantity, or project targets from being rewritten as active AI load.
 
 Representative current paths include:
 
@@ -193,12 +205,17 @@ S4 should move from stress test toward main scenario only when multiple signal g
 
 ## 11. Evidence-grade quick rules
 
+**Table 29.3 — Default evidence grade for report updates**
+
 | Data type | Default grade |
 |---|---|
 | company filing / official product / government / court / formal contract | A |
 | institutional research | B |
 | sell-side / supply-chain / media estimate | C |
 | report geometry / stress test / hypothetical rack count | D |
+
+**Source:** Report evidence method (see Chapter 27).  
+**Note:** A default grade can move with source quality, but repeated citation does not upgrade it automatically.
 
 Every update preserves the original evidence grade.
 
@@ -230,13 +247,11 @@ Scenario weighting changes only when a new fact changes a core mechanism variabl
 
 This keeps the report updateable without rewriting the industry narrative after every product launch, stock-price move, or rumor.
 
-## Core public-source navigation
+## References
 
-- [Core Evidence Ledger](../核心证据台账.en.md)
-- [Core Source Index](../核心参考文献索引.en.md)
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TrendForce 2026E memory structure: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-- SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+[^1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics and Rubin status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^3]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
+[^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
