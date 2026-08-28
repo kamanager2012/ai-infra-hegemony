@@ -10,11 +10,11 @@
 
 ## 2. 基线判断与关键假设
 
-密度方面，传统风冷机柜常见约 **5–10 kW**；GB200 NVL72 约 **120 kW**，已经进入直接液冷功率密度区间。500 个机柜、36,000 颗 GPU 的情景测算对应约 **60–80 MW** 瞬时功率，年用电量约 **0.6 TWh**。关于“铜缆相对光模块单柜节省 20 kW”的说法缺乏官方一手测量，因此不纳入事实层。部分电源架构参数属于早期工程情景，不作为本文核心证据。NVIDIA 机架用户指南披露的约 120 kW/rack 则可作为产品级功率密度参考。
+密度方面，GB200 NVL72 约 **120 kW/rack**，已经进入直接液冷功率密度区间。**D 级情景算术**：500 个机柜 × 120 kW/rack = **60 MW rack-level full-load power**；若机械假设全年 100% 满载，则为约 **0.526 TWh/年**。这不包含 facility overhead，也不能在没有额外工程假设时扩写成 80 MW。传统风冷机柜 5–10 kW、铜缆相对光模块单柜节省 20 kW 等数字缺乏本篇一手测量，不进入事实层。NVIDIA 机架用户指南披露的约 120 kW/rack 仅作为产品级功率密度参考。
 
-并网排队需要与 AI 负荷区分。历史情景参数曾使用 **2,600 GW** 级队列与多年并网周期，但队列同时包含发电、储能和其他项目，不能直接视为数据中心缺口。可确认的方向是：从申请到商业运行通常需要多年，而不是几个季度。
+并网排队需要与 AI 负荷区分。Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage interconnection queue 在 **2023 年末**曾接近 **2,600 GW**；到 **2025 年末**已降至约 **2,061 GW**。这些队列主要是发电与储能项目，不能直接视为数据中心电力缺口。可确认的是并网流程仍可能跨越多年，而不是把某个历史峰值机械换算成 AI 可用 MW。
 
-购电与核电项目必须拆成三种法律/物理结构。第一，Microsoft/Constellation：20 年PPA支持Crane重启，机组约835MW，Constellation披露重启资本开支约16亿美元，目标2028重新投入运行。第二，AWS/Talen：2024第一版围绕Cumulus/Susquehanna的安排曾以最高约960MW直连结构讨论；2025新版PPA把规模提高到最高1,920MW并改为表前供电，Talen后续SEC披露确认2026 年4月已完成向新版PPA切换。第三，Google/Kairos：主开发协议目标合计最高500MW，首个商业项目目标从2030附近开始。这里的MW是合同/项目容量，不是已上电机柜功率。
+购电与核电项目必须拆成三种法律/物理结构。第一，Microsoft/Constellation：20 年 PPA 支持 Crane 重启，机组约 **835 MW**；本篇不采用缺乏一手支撑的“重启资本开支约 US$1.6B”数字。第二，AWS/Talen：Cumulus 园区曾有约 **960 MW** 的名义规模，但这不能写成已获批的直连结构上限；2025 revised PPA 将 full contract quantity 提高至 **up to 1,920 MW** 并转向 front-of-the-meter。Talen 2026 Q2 10-Q 写明 transition to the revised AWS PPA **occurred in April 2026**；较早 2025 10-K 同时写明 full transition expected in **spring 2027**，而 full contract volume 仍按计划逐步 ramp，不能把 April 2026 写成全部物理交付完成。第三，Google/Kairos：Hermes 2 目标 **up to 50 MWe in 2030**，fleet **up to 500 MWe by 2035**。这些 MW/MWe 都是合同或开发路径，不是已上电 AI rack load。
 
 财务层面，历史情景参数曾使用四云混年 CapEx、电力与土建投入以及电费/PUE 假设进行压力测试。这些数字并非统一的 AI 硬件官方口径，也不能据此推导核电运营商与 NVIDIA 处于同一利润率区间。正式分析仅保留已披露的 CapEx、PPA、项目容量与利用率变量。
 
@@ -67,3 +67,9 @@ Kairos 路线目前可确认的是示范与开发进展，而不是大规模商�
 把核电写成绝对的政治正确或绝对的政治错误，都帮不了折旧模型。本文只要求三件事可核对：功率是否真正送出、年限是否长于四年、许可是否可执行。三类项目目前分别处于“签约重启、许可推进”“新版 front-of-the-meter PPA 已完成结构切换、容量继续爬坡”“远期 SMR 开发、示范向商业化推进”三个状态。它们不能直接加总为已经送达数据中心的实时 GW；能源分析必须按合同、许可、上电与利用率分别记录。
 
 由于缺乏可验证的上电失败率，本文不估算任何年度“因电力约束停柜”的台数或 GW 数量。**2,600 GW** 队列总量和三组购电容量均不能被直接用作“电力已经卡死 AI 扩张”的证据。电力已经进入核心约束层，但截至当前公开事实，它仍是与 HBM、先进封装并列的关键瓶颈之一，而不是已经压倒其他约束的唯一主导瓶颈。
+
+## 本篇补充公开来源
+
+- Berkeley Lab, Queued Up 2026（2025 年末 active queue 约 2,061 GW；2023 年末峰值接近 2,600 GW）：https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
+- Talen 2026 Q2 10-Q（revised AWS PPA transition occurred in April 2026；up to 1,920 MW）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K（spring 2026 开始 transitioning；full transition expected spring 2027）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
