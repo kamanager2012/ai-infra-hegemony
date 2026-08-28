@@ -25,8 +25,10 @@ TSMC 2026 Q2：
 
 同时，TSMC 披露：
 
-- advanced packaging 2024 revenue share：约 **8%**（不得扩写为 packaging + testing）
-- 2025：略高于 10%
+- 2024 Q4 transcript：**advanced packaging and testing >8% of revenue**；
+- 2025 Q4 transcript（公司会后更正）：**advanced packaging slightly over 10% of revenue**。
+
+两条披露的标签不同，因此不能把 2024 的“advanced packaging and testing”直接改写成“advanced packaging”，也不能把 8%→10% 当作严格同口径连续序列。
 
 TSMC 当前公开年报与法说材料没有提供可用于本报告的 CoWoS customer-level allocation 或完整 CoWoS 分项收入表。因此，本报告不能把公开的 advanced-packaging 数据进一步硬拆成 CoWoS 客户份额。
 
@@ -192,3 +194,6 @@ TSMC 2Q24 法说的更准确表述是：advanced packaging gross margin **过去
 ## 本卷关键公开来源
 
 - TrendForce, 2025 CoWoS demand structure（NVIDIA estimated >60%, B-grade institutional estimate）： https://www.trendforce.com/research/download/RP250314ZJ
+
+- TSMC 4Q24 Transcript（advanced packaging and testing >8%）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
