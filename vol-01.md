@@ -61,11 +61,11 @@ TSMC 2025 年公开数据包括：
 | 5 nm wafer revenue share | **36%** |
 | 7 nm wafer revenue share | **14%** |
 | ≤7 nm wafer revenue share | **74%** |
-| HPC platform share | **58%**，同比 +48% |
-| Smartphone platform share | **29%** |
+| HPC platform share | **58% of 2025 net revenue**；platform revenue YoY **+48%** |
+| Smartphone platform share | **29% of 2025 net revenue**；platform revenue YoY **+11%** |
 | Largest customer revenue share | **19%** |
 | Second-largest customer revenue share | **17%** |
-| Advanced packaging + testing | 2024 年约 **8%**；2025 年略高于 **10%** |
+| Back-end revenue disclosure | 2024：**advanced packaging and testing >8%**；2025：**advanced packaging slightly over 10%**（company-corrected；两年标签不完全同口径） |
 
 TSMC 管理层关于先进封装的公开表述，是判断供给约束的重要一手依据。2024 Q4，魏哲家称相关产能“very tight”，并表示无法满足全部客户需求；2026 Q2，又明确指出 packaging capacity 已经紧到限制客户增长。
 
@@ -261,12 +261,22 @@ Intel 当时的优势主要集中在 CPU、x86 软件兼容和自有制造。
 
 ## 本卷关键公开来源
 
-- TrendForce, HBM + RDIMM 2026 DRAM bit supply 51% / CSP memory CapEx： https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
-
-## 本篇关键公开来源
-
-- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-- TSMC 2025 Annual Report: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2025 20-F: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-- TSMC 2025 consolidated report（Customer A/B）: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- NVIDIA GB200 NVL72 official product page（36 Grace CPU、72 Blackwell GPU、13.4 TB HBM3E、17 TB LPDDR5X）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+- NVIDIA FY26 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY26 10-K：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- NVIDIA FY27 Q2 official results：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q（US$279B manufacturing, supply, and capacity commitments）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- TSMC 2025 Annual Report：https://investor.tsmc.com/static/annualReports/2025/english/index.html
+- TSMC 4Q25 Presentation（2025 platform mix / growth）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- TSMC 4Q24 Transcript（advanced packaging and testing >8%）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
+- TSMC 4Q25 Transcript（2025 advanced packaging slightly over 10%，company-corrected）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+- TSMC 2Q26 Earnings Conference Transcript（packaging capacity limits customers' growth）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- TSMC 2025 20-F（annual customer rankings）：https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
+- TSMC 2025 consolidated report（Customer A/B）：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Micron FY24 Q3 event page：https://investors.micron.com/events/event-details/microns-third-quarter-2024-financial-call
+- Micron FY24 Q3 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）：https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Microsoft FY26 Q4 earnings / call：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+- Alphabet 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Meta 2026 Q2 SEC Exhibit 99.1：https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+- Amazon 2026 Q2 Form 10-Q：https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
