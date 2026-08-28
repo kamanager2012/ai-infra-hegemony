@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-28.md](../vol-28.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. Physical AI is analyzed here as a complete electromechanical system. No universal robot BOM percentage is treated as an industry fact.
+> Retrieval and revision cutoff: **2026-08-28**. Physical AI is analyzed here as a complete electromechanical system. No universal robot BOM percentage is treated as an industry fact.
 
 ## 1. Physical AI is not “put a large model inside a robot”
 
