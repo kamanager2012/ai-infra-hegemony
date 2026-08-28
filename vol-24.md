@@ -52,7 +52,7 @@ TrendForce 对 2025 CoWoS demand 的估计显示 NVIDIA 占比超过 60%。
 
 > 说明 NVIDIA 对 CoWoS demand 的影响非常大，并用于 scenario analysis。
 
-## 4. 5.39 CoWoS wafers/rack 属于 D 级压力测试
+## 4. 5.37 CoWoS wafers/rack 属于 D 级压力测试
 
 本报告 geometry stress test（其中 **13.4 packages/wafer 是 D 级几何假设，不是 TSMC disclosed yield**）：
 
@@ -61,7 +61,7 @@ TrendForce 对 2025 CoWoS demand 的估计显示 NVIDIA 占比超过 60%。
 ÷
 13.4 	ext{packages/wafer}
 ≈
-5.39 	ext{CoWoS wafers/rack}
+5.37 	ext{CoWoS wafers/rack}
 ```
 
 该数字仅表示 rack-scale system 对 CoWoS 的潜在数量级压力。
@@ -73,7 +73,7 @@ TrendForce 对 2025 CoWoS demand 的估计显示 NVIDIA 占比超过 60%。
 - logic wafer demand；
 - real customer allocation。
 
-因此，5.39 不能与 TSMC annual ~15M **12-inch-equivalent wafer shipments** 混用；两者分母不同。
+因此，5.37 不能与 TSMC annual ~15M **12-inch-equivalent wafer shipments** 混用；两者分母不同。
 
 ## 5. 为什么 packaging 比 node 更容易成为短期配额
 
@@ -186,7 +186,7 @@ TSMC 2Q24 法说的更准确表述是：advanced packaging gross margin **过去
 - advanced packaging tightness 已被 TSMC 一手确认；
 - NVIDIA 对 CoWoS demand 的高影响力有机构研究支持；
 - customer-level share 仍未由 TSMC 披露；
-- 5.39 wafers/rack 只能用于 D 级压力测试；
+- 5.37 wafers/rack 只能用于 D 级压力测试；
 - cloud custom silicon 仍然在竞争相同 scarce upstream resources。
 
 因此，CoWoS 是 AI infrastructure 当前最重要的物理配额之一，但其真实 customer allocation 必须继续保持证据边界。
