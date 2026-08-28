@@ -34,7 +34,7 @@ Constellation's official release states that the restart requires significant in
 
 ### 3.2 Talen / AWS: a revised PPA of up to 1,920 MW
 
-The Talen/AWS revised PPA has a full contract quantity of **up to 1,920 MW** and runs through 2042.
+The Talen/AWS revised PPA has a full contract quantity of **up to 1,920 MW** and runs through 2042.[^3]
 
 Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. An earlier 2025 10-K had stated that **full transition was expected in spring 2027**.[^3][^4]
 
@@ -109,7 +109,7 @@ The reverse is also possible. If power infrastructure is built far ahead of work
 
 AI servers have shorter technological and economic lives than major power assets and long-duration PPAs.
 
-Crane involves a **20-year PPA**, while compute hardware will turn over much faster. This creates a classic duration mismatch:
+Crane involves a **20-year PPA**, while compute hardware will turn over much faster.[^2] This creates a classic duration mismatch:
 
 > **shorter-cycle compute asset vs. longer-cycle power / infrastructure asset**
 
