@@ -54,9 +54,7 @@ If high-value HBM demand keeps rising, the consumer market can face a tighter re
 
 Consumer GPUs and data-center accelerators share parts of the advanced manufacturing ecosystem.
 
-NVIDIA has previously disclosed supply constraints affecting Gaming products.
-
-That does not imply that every gaming card is displaced one-for-one by a data-center accelerator. It does show that consumer and data-center products can compete inside a common supply system.
+NVIDIA's FY26 10-K provides a narrower, verifiable statement: FY26 Gaming revenue increased **41%**, while the company expected **supply constraints to be a headwind to Gaming in FY27 Q1 and beyond**. That establishes a Gaming-side supply constraint, but it does **not** prove that the constraint was caused entirely by Data Center allocation. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm .
 
 ### 4.2 DDR5 and LPDDR supply
 
@@ -75,7 +73,7 @@ The exact size of each effect depends on vendor contracts and product mix and th
 
 ## 5. Smartphones remain a huge market; AI has not “eliminated” them
 
-TSMC's 2025 smartphone platform still represented approximately **29% of revenue** and continued to grow year over year.
+TSMC's smartphone platform represented **29% of 2025 revenue**; separately, smartphone-platform revenue grew **11% year over year**. The 29% figure is revenue mix, while +11% is platform-revenue growth. Source: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/bb5dd5e3537d7661e694fa2588e7a29f7c0410e6/4Q25%20Presentation%20%28E%29.pdf .
 
 The relevant structural change is not that smartphones disappeared.
 
