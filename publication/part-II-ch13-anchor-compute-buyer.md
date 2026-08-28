@@ -73,6 +73,25 @@ OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B
 
 这套状态机与第7章 Power 分析保持一致。
 
+### 3.1 PORTS-Pike：Anchor Demand 正在进一步进入 Land + Power + Shell 与信用支持层
+
+2026-08-17，NVIDIA 披露与 SB Energy 在 Ohio PORTS-Pike Technology Campus 的合作：NVIDIA 通过 credit support 锁定 land、power 与 shell（LPS）capacity，初始部署设计支持 **4.25 IT-GW** AI factory capacity；OpenAI 将作为客户，SB Energy 负责建设、持有并运营 data center，项目采用对 OpenAI 的 **20 年 lease**。NVIDIA 同时披露，项目计划容量预计从 **2028 年开始分阶段上线**。[^5]
+
+该项目的重要性不只是规模，而是交易结构发生了变化：
+
+> **Anchor model demand + system-platform credit support + infrastructure developer + long-duration lease**
+
+这说明 system seller 已开始参与解决 model-company balance-sheet / credit profile 与长期基础设施融资之间的缺口。
+
+但必须严格保留状态边界：
+
+- 4.25 IT-GW 是 initial deployment design capacity，不是 2026 已 energized load；
+- PORTS-Pike 的后续容量是 future buildout，不是当前 active compute；
+- 20 年 lease 提高 revenue visibility，也提高 customer concentration 与 duration risk；
+- land / power / shell 已被锁定，不等于最终 compute utilization 已经实现。
+
+NVIDIA 在 2026-08-26 FY27 Q2 earnings call 进一步表示，OpenAI 现有与计划中的 NVIDIA Compute commitments 合计约 **12 GW**。[^6] 这是 NVIDIA management commentary，应作为 platform-side demand visibility 读取，不能改写成 OpenAI 已有 12 GW energized capacity。
+
 ---
 
 ## 4. Anthropic / AWS：Anchor Workload 可以反向推动 Custom Silicon
@@ -297,3 +316,5 @@ OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的
 [^2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
 [^3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
 [^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, OpenAI existing and planned NVIDIA Compute commitments approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
