@@ -32,7 +32,7 @@ AI 层的稀缺集中在先进封装、HBM、scale-up/scale-out interconnect 与
 
 ### 3.2 长鑫招股书全文 0 处 HBM
 
-主出处为上交所 **2026-05-20 上会稿**；注册稿日期为 **2026-05-27**。对该文件全文检索 HBM / 高带宽内存，未见相关产品线披露。产品只写 DDR 系列、LPDDR 系列。2025 年主营：DDR 1,953,128.56 万元，占 31.87%；LPDDR 4,070,354.50 万元，占 66.43%；其他产品及服务 104,054.15 万元，占 1.70%；主营合计 6,127,537.21 万元。DDR 加 LPDDR 占主营 98.30%。没有 HBM 行。
+主出处统一改为上交所 **2026-05-27 招股说明书（注册稿）**；2026-05-20 是上会稿，不再作为本篇主锚。对注册稿全文检索 `HBM` / “高带宽内存”，均无命中，因此只写“注册稿未披露 HBM 产品线”。产品只写 DDR 系列、LPDDR 系列。2025 年主营：DDR 1,953,128.56 万元，占 31.87%；LPDDR 4,070,354.50 万元，占 66.43%；其他产品及服务 104,054.15 万元，占 1.70%；主营合计 6,127,537.21 万元。DDR 加 LPDDR 占主营 98.30%。没有 HBM 行。
 
 募投三项的**拟使用募集资金**分别为：存储器晶圆制造量产线技术升级改造 **75.00 亿元**、DRAM 存储器技术升级 **130.00 亿元**、动态随机存取存储器前瞻技术研究与开发 **90.00 亿元**，合计 **295.00 亿元**。其中第二项 **180.00 亿元是项目总投资**，不是拟投入募集资金；两种口径不得直接相加。前瞻项目原文写的是适配于未来先进 DRAM 的前瞻技术，建设周期写到 2026–2028 年。没有出现 HBM 二字。90 亿是 DRAM 前瞻篮子，不是单列的 HBM 产线。
 
@@ -87,3 +87,13 @@ TrendForce 2026-06-12 官稿：2026 年一季度全球前十大代工合计营�
 本文打开并引用：长鑫招股书产品表与募投、长存招股书层数与一季度利润、TrendForce 2026 年一季度代工官稿、TrendForce 2026-08-25 存储官稿、英伟达 FY26 10-K 对华数据中心句、台积电 2025 平台结构、海力士 / 三星 / 美光 FY25 原厂货币、四云各家现金流量表设备购置。21 财经转 SemiAnalysis 的产能展望只用来对照「招股书没写」，不把展望升格。
 
 尚未披露或缺乏统一一手证据的项目包括：昇腾出货、910C 对 NVL72 的对照实验、CANN 5% 改写的样本、中芯先进制程良率、长鑫月产能和 HBM 产能、长存 267 层和月产能万片、CoWoS 客户份额、High-NA 单价、2nm 厂投资、终局概率、需求下降 1000 倍、单厂 400 亿美元、垄断 80%。终局不是预报。
+
+## 本篇关键公开来源
+
+- 长鑫科技 2026-05-27 科创板招股说明书（注册稿，上交所）：https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
+- 上交所 2026-07-24 上市交易公告（2026-07-27 上市；688825）：https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
+- TrendForce 2026-06-12 — 1Q26 foundry revenue share（TSMC 72%、Samsung Foundry excluding System LSI 6.5%、SMIC 5.1%）：https://www.trendforce.com/presscenter/news/20260612-13095.html
+- TrendForce 2026-08-25 — 2026E HBM + RDIMM = 51% of DRAM bit supply：https://www.trendforce.com/presscenter/news/20260825-13198.html
+- NVIDIA FY26 10-K（China Data Center effectively foreclosed 等风险披露）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+- TSMC 4Q25 Presentation（2025 HPC 58%、smartphone 29% 与平台增长）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- DeepSeek-V3 Technical Report（pre-training 2.664M；full training 2.788M H800 GPU-hours）：https://arxiv.org/abs/2412.19437
