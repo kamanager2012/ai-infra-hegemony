@@ -17,16 +17,19 @@
 
 ## 2. Phase I：2026–2027 —— system race 与基础设施锁定
 
-当前已经确认的状态包括：
+### 已确认历史/当前事实
 
-- NVIDIA FY27 Q2 Data Center revenue：$89.0B；
-- GAAP gross margin：75.0%；
-- Rubin：full production；
+- NVIDIA FY27 Q2 Data Center revenue：**US$89.0B**；
+- GAAP gross margin：**75.0%**；
+- Rubin：**full production**；
 - manufacturing, supply, and capacity commitments：2026-04-26 **US$119B**；2026-07-26 **US$279B**（Q2 10-Q，最新承诺主要关联 memory 与 manufacturing facilities）；
-- TSMC packaging tightness 仍限制客户增长；
-- HBM + RDIMM 约占 2026 DRAM bits 的 51%；
-- cloud CapEx 继续扩大；
-- hyperscaler power contract 进入 835 MW、1.92 GW、500 MW 等级。
+- TSMC advanced-packaging tightness 仍限制客户增长；
+- hyperscaler capital spending 继续处于高位；
+- power agreements 已进入约 835 MW、up to 1,920 MW、up to 500 MWe 等量级，但这些是不同成熟度的合同/开发路径，不等于已上电 AI load。
+
+### 机构预测/前向锚
+
+- TrendForce **预计** HBM + RDIMM 约占 **2026 DRAM bit supply 51%**。这是 2026E institutional forecast，不是已实现 full-year actual。
 
 这一阶段的核心问题：
 
@@ -39,7 +42,7 @@
 - advanced packaging expansion；
 - cloud custom silicon 新一代部署；
 - power project actual energization；
-- supply commitments 是否继续增长。来源：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm 。
+- supply commitments 是否继续增长。
 
 ## 3. Phase II：2028–2030 —— substitution 是否形成规模
 
@@ -69,12 +72,6 @@
 
 - contracted GW 是否真正变成 energized GW；
 - powered land 是否仍然稀缺。
-
-### 本卷关键公开来源
-- NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
 
 ## 4. Phase III：2031–2033 —— 地理与产业结构固化
 
@@ -189,4 +186,9 @@ Crane、Talen/AWS、Kairos 等项目应持续按成熟度更新，而不能在�
 
 ## 本卷关键公开来源
 
-- TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
+- NVIDIA FY27 Q2 official results（Data Center US$89.0B、GAAP GM 75.0%、Rubin full production）：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q（manufacturing, supply, and capacity commitments US$279B）：https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- TrendForce（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
+- Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q — revised AWS PPA, up to 1,920 MW, ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
