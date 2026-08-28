@@ -18,7 +18,7 @@ Agent-native software 不同。一次任务可能触发 retrieval、reasoning、
 
 不同 agent 产品的 variable cost 取决于 model choice、context length、cache、retrieval、tool/API、failure/retry、human review、pricing model 与 task depth。
 
-因此，本书不使用“传统 SaaS 85% → AI SaaS 55%”这类固定路径作为事实。
+因此，本报告不使用“传统 SaaS 85% → AI SaaS 55%”这类固定路径作为事实。
 
 统一使用 **AI Software Unit Economics**。
 
