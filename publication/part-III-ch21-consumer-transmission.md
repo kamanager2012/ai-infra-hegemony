@@ -113,6 +113,6 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 - TrendForce 2026-05-14 — 2Q26 LPDDR4X +70–75% QoQ; LPDDR5X +78–83%: https://www.trendforce.com/presscenter/news/20260514-13044.html
 - TrendForce 2026-08-03 — 3Q26 mobile DRAM hikes narrow to 8–13%; server/HBM capacity shift remains: https://www.trendforce.com/research/download/RP260803NC
 - TrendForce 2026-08-25 — 2026E HBM + RDIMM 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q3 Prepared Remarks: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
+- Micron FY24 Q2 Prepared Remarks: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA FY27 Q1 CFO commentary — consumer PC demand tempered by elevated memory and systems prices: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27cfocommentary.htm
 - TSMC 4Q25 Presentation: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
