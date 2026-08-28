@@ -1,94 +1,136 @@
 # 研究透明度、局限性与纠错机制
 
-## 1. 作者与研究载体
+## 1. 研究定位
 
-本报告作者署名为 **James (kamanager2012)**。GitHub 仓库既是版本化研究载体，也是证据追踪、纠错、双语同步和出版构建的工作记录。
+本报告作者署名为 **James（kamanager2012）**。
 
-本文件不把“仓库可追踪”解释成“已经过外部同行评审”。
+GitHub 仓库用于保存版本化研究文本、来源索引、证据台账与修订记录。仓库的可追踪性有助于读者核对研究变化，但**不等于外部同行评审、审计鉴证或机构评级**。
 
-## 2. 外部评审状态
+本报告的资料检索与修订截止日为 **2026-08-28**。
 
-截至 2026-08-28，仓库**不声称已经完成正式独立同行评审、审计鉴证或机构评级**。
+---
 
-如果未来获得外部专家、学术机构、行业机构或法律/财务专业人士的正式审阅，应在此处记录：
+## 2. 外部评审边界
 
-- reviewer / institution（如允许披露）；
-- review scope；
-- review date；
-- 是否独立；
-- 重大修改项；
-- 尚未解决的异议。
+截至研究截止日，本报告不声称已经获得：
 
-没有记录的外部意见不能被写成“peer reviewed”。
+- 独立同行评审；
+- 审计鉴证；
+- 证券研究评级；
+- 法律意见；
+- 任何机构对全部结论的正式背书。
 
-## 3. Funding / Conflict of Interest
+如果某一章节引用外部专家、公司、监管机构或研究机构，其引用只支持相应事实或观点，不代表该机构认可本报告的全部结论。
 
-当前仓库**不作“无任何利益冲突”这一未经作者明确确认的声明**。
+---
 
-正式公开发布前，作者应补充一项明确声明，至少覆盖：
+## 3. 证据选择原则
 
-- 是否接受与 NVIDIA、TSMC、Samsung、SK hynix、Micron、AMD、Intel、Qualcomm、Apple、Google、Amazon、Microsoft、Meta、OpenAI、Anthropic，以及其他直接分析对象相关的资金、顾问费、商业合作或持仓影响；
-- 是否存在会实质影响来源选择或结论表达的商业关系；
-- 如无，明确写明“未发现需要披露的相关利益冲突”并由作者确认。
+本报告的主要来源优先级为：
 
-在该声明完成前，**Conflict-of-Interest Gate 保持 open**。
+1. 法定申报、监管 / 政府文件、正式合同；
+2. 公司官方 IR、product 与 technical materials；
+3. 高质量机构研究与学术研究；
+4. sell-side、supply-chain 与 media estimate；
+5. 本报告自己的 calculation、sensitivity 与 scenario。
 
-## 4. 证据选择原则与潜在偏差
+来源等级与命题身份分开处理。
 
-本报告优先级为：
+例如：
 
-1. 法定申报、监管/政府文件、正式合同；
-2. 公司官方 IR / product / technical materials；
-3. 高质量机构研究；
-4. sell-side / supply-chain / media estimate；
-5. 报告自身 D 级模型。
+- 公司 10-Q 中已经发生的财务数字可以进入 Fact；
+- 公司 guidance 必须保留 forward-looking identity；
+- 机构 forecast 必须保留机构名称与预测时间窗；
+- report-side calculation 必须明确假设和分母；
+- scenario 不能因为计算精确而升级成事实。
 
-这套顺序降低“二手报道反复引用后变成事实”的风险，但仍存在公开资料偏差：
+---
 
-- 公司更可能披露有利于投资者理解或战略叙事的资料；
-- customer-level allocation、yield、contract pricing、utilization 等核心变量经常不公开；
-- 中国与美国供应链的公开披露深度不对称；
-- 机构研究模型可能包含未公开假设；
-- 快速变化行业会产生明显的 publication-lag risk。
+## 4. 公开资料的结构性局限
 
-因此，“未公开披露”只支持“公开资料无法确认”，不自动证明“不存在”。
+AI infrastructure 的很多关键变量并不公开，包括：
 
-## 5. 研究局限
+- customer-level wafer allocation；
+- HBM customer mix；
+- CoWoS actual allocation；
+- process yield；
+- private contract pricing；
+- cluster utilization；
+- workload-level profitability；
+- future capacity reservation 的 supplier-level split。
 
-本报告不具备以下能力：
+因此，本报告坚持：
 
-- 对未公开合同、内部采购、真实 customer allocation 进行审计；
-- 从 revenue share 反推出 wafer / HBM / CoWoS physical share；
-- 从 contracted MW 反推出 energized / utilized AI load；
-- 证明未来 scenario 一定发生；
-- 用公开材料精确计算所有公司的 AI-specific ROI；
-- 把 40 卷、8 篇宏观专题和 32 章中的所有数字自动升级为已审计事实。
+> **公开资料无法确认，不等于现实中不存在；但缺乏公开证据的内容也不能被写成已确认事实。**
 
-截至 2026-08-28，strict every-number **source-coverage** 已覆盖中英文 research layer **96/96 files / 1,052 unit-bearing numeric candidates / 0 unresolved**，Publication Layer **64/64 chapters / 529 candidates / 0 unresolved**。这证明数字主张已具备来源锚、明确的模型/情景身份或可解释的反例边界；它**不等于**逐句外部审计鉴证，也不替代低风险 claim 在最终 editorial proof 阶段对 source meaning、denominator 与 time window 的人工 semantic sign-off。机器可读 schema、candidate extractor 与 high-risk claim ledger 共同用于降低漏审风险。
+公开资料还存在其他偏差：
 
-## 6. 纠错原则
+- 公司更倾向披露能够解释战略和财务表现的信息；
+- 不同国家和企业的披露深度不对称；
+- institution / supply-chain research 可能包含未公开假设；
+- 快速变化行业存在 publication-lag；
+- 同一变量可能因 shipment、revenue、capacity、bits、wafers 等不同分母产生看似矛盾的数字。
 
-发现高影响事实错误时，处理顺序为：
+---
 
-1. 定位 claim 与原始来源；
-2. 判断是 Fact 错误、denominator 错误、时间窗错误、forecast/actual 身份错误，还是翻译漂移；
-3. 修正中文 canonical publication；
-4. 同步英文 publication；
-5. 回归核心证据台账、核心参考文献索引、模型索引与相关研究卷；
-6. 在 Release Notes / Git history 保留可追踪变更；
-7. 如错误影响 scenario weighting，明确说明哪些判断需要重新加权。
+## 5. 本报告明确不能从公开数据直接推出什么
 
-不能用“长期逻辑仍然成立”回避已被证据否定的事实。
+除非存在足够直接的公开证据，本报告不做以下推导：
 
-## 7. 版本与截止日
+- revenue share → wafer share；
+- platform revenue mix → customer allocation；
+- HBM demand share → actual packaging allocation；
+- contracted / secured MW → energized / utilized AI load；
+- company-wide CapEx → AI-specific hardware CapEx；
+- model-training compute → full corporate R&D cost；
+- occupational exposure → unemployment rate；
+- consumer DRAM / NAND capability → frontier HBM closure；
+- foundry revenue share → frontier AI system capability。
 
-当前正式研究检索/修订截止日统一为 **2026-08-28**。
+这些边界是本报告因果推演的基础约束。
 
-发布后新增资料应进入下一版本，不应静默改写已经发布的历史版本。
+---
 
-## 8. 对外使用边界
+## 6. 反方证据与不确定性
 
-本报告是行业研究，不构成：
+研究结论只有在能够容纳反方证据时才有意义。
+
+因此，每个强判断都应至少回答：
+
+1. 当前证据支持什么；
+2. 当前证据不能支持什么；
+3. 哪些替代解释仍然成立；
+4. 哪些未来事实会迫使判断下调或改写。
+
+例如，“advanced packaging 是增长约束”必须能够在未来供应明显宽松、lead time 持续下降时被修改；“system-stack concentration 强”也必须能够在真实 production workload 大规模迁移到多套替代系统后被下调。
+
+---
+
+## 7. 纠错原则
+
+如果发现高影响事实错误，应按以下逻辑修正：
+
+1. 回到原始来源；
+2. 判断错误来自 fact、denominator、time window、forecast/actual identity、translation 还是 calculation；
+3. 修正受影响的事实表达；
+4. 检查依赖该事实的机制、情景和结论是否需要同步调整；
+5. 保留可追踪的历史修订记录。
+
+不能用“长期逻辑仍然成立”回避已经被证据否定的事实。
+
+---
+
+## 8. 时间边界
+
+本报告只把 **2026-08-28 及之前**能够获得并核验的资料纳入当前研究截面。
+
+研究截止日之后出现的新事实，应视为新的研究输入。它们可能强化、削弱或推翻当前判断，但不应被倒写成截止日前已经存在的事实。
+
+---
+
+## 9. 对外使用边界
+
+本报告用于产业研究与信息交流，不构成：
 
 - investment advice；
 - securities rating；
@@ -96,4 +138,8 @@
 - audit opinion；
 - guaranteed forecast。
 
-读者应把 Fact、institutional estimate、report model 与 scenario 分开读取。
+读者应始终区分：
+
+> **Fact / Company Guidance / Institutional Estimate / Report Calculation / Scenario**
+
+本报告的目标不是消除不确定性，而是让不确定性的来源、证据强度和可能改变结论的条件保持清楚。
