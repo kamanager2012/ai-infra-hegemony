@@ -1,7 +1,5 @@
 # Part III · 第23章：AI 基础设施资本市场与融资结构
 
-> **出版层章节。** 以 [vol-36](../vol-36.md) 为主源。本章不讨论科技股估值，而讨论 AI compute 如何从 corporate CapEx 扩展为可被 private capital、infrastructure capital 与 sovereign capital 承担的长期资产，以及谁最终承担 utilization 与 residual-value risk。
-
 ## 1. AI Capital Market 已跨越多种资产类别
 
 AI infrastructure 的资本体系已经不只包括 listed technology equity。
