@@ -22,7 +22,7 @@ large-scale simulation、policy training 与 foundation-model training 可以在
 
 > **cloud-side heavy training + edge-side compressed inference/control**
 
-data-center 的约 120 kW-class rack 与机器人本体的 W/Wh 级 power budget 属于完全不同的物理池。
+data-center 的约 **120 kW-class rack**[^4] 与机器人本体的 W/Wh 级 power budget 属于完全不同的物理池。
 
 ## 3. Robot BOM 不能套统一百分比模板
 
