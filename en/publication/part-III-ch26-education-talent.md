@@ -20,7 +20,7 @@ This mirrors the industrial shift from competition around one chip toward compet
 
 ## 2. AI adoption is moving faster than curriculum and policy
 
-The Stanford HAI 2026 AI Index Education chapter provides several clear signals:
+The Stanford HAI 2026 AI Index Education chapter provides several clear signals:[^1]
 
 - **4 out of 5** U.S. high-school and college students use AI for schoolwork;
 - only about half of middle/high schools have an AI policy;
@@ -155,7 +155,6 @@ The highest-value talent will not simply be the people who are best at calling m
 
 It will be the people who can understand systems, verify results, calculate economics, migrate across stacks, and take responsibility for real-world consequences.
 
-## Key public sources
+## References
 
-- Stanford HAI 2026 AI Index — Education: https://hai.stanford.edu/ai-index/2026-ai-index-report/education
-- Stanford HAI 2026 AI Index Report: https://hai.stanford.edu/ai-index/2026-ai-index-report
+[^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
