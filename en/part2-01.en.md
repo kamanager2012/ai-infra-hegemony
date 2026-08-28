@@ -36,7 +36,7 @@ Roughly 120 kW-class racks and several hundred-MW / GW-scale long-duration power
 
 ### 2.5 Capital and long-duration commitments are reserving future resources earlier
 
-NVIDIA manufacturing, supply, and capacity commitments rose from **US$95.2B** on 2026-01-25 to **US$279B** on 2026-07-26. Hyperscalers and model companies are also using long-duration compute, data-center, and power commitments to shape future supply. Public filings do not provide a supplier-level split, so these figures are evidence of aggregate forward commitment rather than a disclosed allocation to one foundry, packaging supplier, or HBM vendor.
+NVIDIA manufacturing, supply, and capacity commitments rose from **US$95.2B** on 2026-01-25 to **US$279B** on 2026-07-26. Hyperscalers and model companies are also using long-duration compute, data-center, and power commitments to shape future supply. Public filings do not provide a supplier-level split, so these figures are evidence of aggregate forward commitment rather than a disclosed allocation to one foundry, packaging supplier, or HBM vendor. Source: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 ## 3. The macro analysis uses five measurement axes
 
