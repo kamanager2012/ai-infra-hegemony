@@ -25,6 +25,20 @@ AI infrastructure 对供应链的影响具有强烈层级性。真正容易被�
 
 这不意味着供应商只服务第一名，也不意味着所有传统市场都被停止供货。它描述的是**边际新增资源的优先级变化**。
 
+### 2.1 价格不是唯一清算机制：Allocation Assurance 比 Spot Price 更关键
+
+在极端紧缺期，市场并不只通过涨价清算。**长期协议、客户信用、预付款、采购规模和供应商给出的 allocation fulfillment** 会先决定谁能拿到足够的量。
+
+TrendForce 2026-01 明确指出，美国 CSP 锁定 capacity 后，其他买家为了确保 supply allocation 被迫接受更高价格；2026-03 又指出，PC OEM / module maker 如果 allocation fulfillment 较低，只能从供应商或模组厂以更高价格补货。
+
+因此：
+
+> **willingness-to-pay ≠ guaranteed quantity**
+
+真正的系统性风险不是“价格涨了多少”，而是 residual capacity 低到使次级买家即使接受更高报价，也无法获得足够、按时、可持续的交付量。
+
+这比“某一家拿走100%产能”的绝对化说法更可验证，也更接近产业现实。
+
 ## 3. 为什么 Non-AI Residual Capacity 比总产能更重要
 
 传统市场真正获得的供给可以抽象为：
@@ -121,3 +135,5 @@ automotive 具有长 qualification cycle、高 reliability requirement 和大量
 - Micron FY24 Q2 Prepared Remarks — HBM3E ≈3× DDR5 wafer supply: https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - TrendForce — 2026E HBM + RDIMM = 51% of DRAM bit supply: https://www.trendforce.com/presscenter/news/20260825-13198.html
 - TSMC 4Q25 Presentation — smartphone 29%, HPC 58%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+- TrendForce 2026-01-05 — CSPs lock capacity, other buyers accept higher prices to secure allocation: https://www.trendforce.com/presscenter/news/20260105-12860.html
+- TrendForce 2026-03-31 — lower allocation fulfillment forces OEMs to procure at higher prices: https://www.trendforce.com/presscenter/news/20260331-12995.html
