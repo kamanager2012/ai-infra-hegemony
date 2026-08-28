@@ -4,7 +4,7 @@
 
 AI infrastructure 的资本开支已经进入极高水平，但投资规模本身不能证明泡沫。真正需要判断的是：资产建设速度、利用率、可实现现金流和残值之间是否持续脱节。
 
-因此，本书不使用一个 CapEx 总额、一个估值倍数或一次科技股回撤作为“泡沫已破”的证据。S4 Capital Hard Landing 需要多类产业信号同步恶化。
+因此，本报告不使用一个 CapEx 总额、一个估值倍数或一次科技股回撤作为“泡沫已破”的证据。S4 Capital Hard Landing 需要多类产业信号同步恶化。
 
 ## 2. 四类清算信号
 
@@ -112,7 +112,7 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 ## 8. 什么才叫 S4 Capital Hard Landing
 
-本书只有在以下四类变量出现同步恶化时，才把 S4 从压力测试上调为现实主情景：
+本报告只有在以下四类变量出现同步恶化时，才把 S4 从压力测试上调为现实主情景：
 
 1. **Accounting**：impairment / write-down / disposal 明显增加；
 2. **Utilization / Revenue**：利用率与有效 AI revenue 持续弱于资产扩张；
