@@ -6,7 +6,7 @@
 
 电力是否会成为 AI 基础设施扩张的主导瓶颈，是正式情景框架中的关键打断变量之一。即使 CoWoS 与 HBM 供给充足，如果机柜无法按期并网和上电，系统仍无法形成有效利用率。第三十五卷列过三份核电交易叙事。宏观层要问的不是「数据中心已经核电化」，而是：机柜功率密度进入 100 kW 级、园区进入 100 MW 级之后，并网许可和核电合约是不是已经变成与封装、高带宽内存并列的第三配额；小堆是本十年的供给，还是下一个十年的期权。
 
-当前判断是：电力约束已经成立，但尚未成为决定 AI 基础设施扩张速度的唯一主导因素。在缺乏统一的并网有效容量与上电失败率数据时，不能把“排队很长”直接写成“全美电力耗尽”，也不能把未核实的购电容量机械相加成已经可用的 AI 负荷。历史情景假设中的 **2,600 GW** 队列总量仍不进入本文 AI 可用功率事实层；三项代表性能源合同/项目则可按官方资料分级纳入：Microsoft/Constellation 20 年 PPA 对应约 **835 MW** 重启机组；Talen/AWS 新版 PPA 最高 **1.92 GW**，且 Talen 已确认 **2026 年 4 月**完成新版 front-of-the-meter 结构切换；Google/Kairos 主开发协议目标合计最高 **500 MW**。三者均不能等同于已实时送达 AI 机柜的可用功率。
+当前判断是：电力约束已经成立，但尚未成为决定 AI 基础设施扩张速度的唯一主导因素。在缺乏统一的并网有效容量与上电失败率数据时，不能把“排队很长”直接写成“全美电力耗尽”，也不能把未核实的购电容量机械相加成已经可用的 AI 负荷。历史情景假设中的 **2,600 GW** 队列总量仍不进入本文 AI 可用功率事实层；三项代表性能源合同/项目则可按官方资料分级纳入：Microsoft/Constellation 20 年 PPA 对应约 **835 MW** 重启机组；Talen/AWS revised PPA full contract quantity **up to 1.92 GW**，2026 Q2 10-Q 记载 transition occurred in **April 2026**，但较早 2025 10-K 又写 full transition expected in **spring 2027**，因此 April 2026 不能等同于全部物理转换或 full delivery 完成；Google/Kairos 公开时钟是 **Hermes 2 up to 50 MWe in 2030**、fleet **up to 500 MWe by 2035**。三者均不能等同于已实时送达 AI 机柜的可用功率。
 
 ## 2. 基线判断与关键假设
 
@@ -62,7 +62,7 @@ Kairos 路线目前可确认的是示范与开发进展，而不是大规模商�
 
 ## 5. 研究边界与未确认事项
 
-官方公开资料足以确认835MW级Crane重启、Susquehanna新版最高1,920MW PPA、Google/Kairos最高500MW开发目标；但合同文本细节、逐年上电曲线和实际负载利用率仍不完整。16亿美元应理解为Constellation披露的重启资本开支，不是微软PPA总对价。2,600 GW含非人工智能项目，未拆，不进事实层。每度八美分与电能利用效率一点二是假设。二零三零、二零三六功率是预测。中国、欧洲、印度电网不在实证里。核电运营商毛利率无单列。未经逐项一手校准的 rack-to-household、facility-overhead 与年用电类比不进入正式事实层；本篇仅保留已明确标为 D 级的 500×120 kW = 60 MW rack-level 算术。能源项目判断仅依据公开监管与公司材料，不将其等同于工程审计结论。
+官方公开资料足以确认835MW级Crane重启、Susquehanna新版最高1,920MW PPA、Google/Kairos最高500MW开发目标；但合同文本细节、逐年上电曲线和实际负载利用率仍不完整。Constellation 官方稿只写重启需要 significant investments，**没有披露 US$1.6B restart CapEx**；US$16B 是州 GDP 影响口径，也不能当成项目资本开支。2,600 GW含非人工智能项目，未拆，不进事实层。每度八美分与电能利用效率一点二是假设。二零三零、二零三六功率是预测。中国、欧洲、印度电网不在实证里。核电运营商毛利率无单列。未经逐项一手校准的 rack-to-household、facility-overhead 与年用电类比不进入正式事实层；本篇仅保留已明确标为 D 级的 500×120 kW = 60 MW rack-level 算术。能源项目判断仅依据公开监管与公司材料，不将其等同于工程审计结论。
 
 把核电写成绝对的政治正确或绝对的政治错误，都帮不了折旧模型。本文只要求三件事可核对：功率是否真正送出、年限是否长于四年、许可是否可执行。三类项目目前分别处于“签约重启、许可推进”“新版 front-of-the-meter PPA 已完成结构切换、容量继续爬坡”“远期 SMR 开发、示范向商业化推进”三个状态。它们不能直接加总为已经送达数据中心的实时 GW；能源分析必须按合同、许可、上电与利用率分别记录。
 
@@ -73,3 +73,12 @@ Kairos 路线目前可确认的是示范与开发进展，而不是大规模商�
 - Berkeley Lab, Queued Up 2026（2025 年末 active queue 约 2,061 GW；2023 年末峰值接近 2,600 GW）：https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
 - Talen 2026 Q2 10-Q（revised AWS PPA transition occurred in April 2026；up to 1,920 MW）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 - Talen 2025 10-K（spring 2026 开始 transitioning；full transition expected spring 2027）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+
+
+## 本篇关键公开来源
+
+- NVIDIA DGX GB200 hardware guide（~120 kW/rack）：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+- Constellation / Microsoft Crane restart（20-year PPA；约835 MW；significant investments）：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Talen 2026 Q2 10-Q（transition occurred April 2026；up to 1,920 MW）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+- Talen 2025 10-K（spring 2026 start；full transition expected spring 2027）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Kairos / Google（Hermes 2 up to 50 MWe in 2030；fleet up to 500 MWe by 2035）：https://www.kairospower.com/google
