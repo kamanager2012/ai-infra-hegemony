@@ -38,6 +38,11 @@ OpenAI 在 2025-01 启动 Stargate 时宣布，计划在未来四年内在美国
 
 状态已经继续前移：2026-04-29，OpenAI 官方称 Stargate 已**超过 10 GW secured-capacity milestone**，且此前 90 天新增超过 3 GW；2026-06-01，Michigan 的 **1 GW** The Barn data-center campus 已正式破土。
 
+主要来源：
+- Stargate initial US$500B four-year plan：https://openai.com/index/announcing-the-stargate-project/
+- 10 GW secured-capacity milestone / 2029 objective：https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
+- Michigan 1 GW The Barn groundbreaking：https://openai.com/index/stargate-michigan-data-center/
+
 这类项目的战略意义在于：
 
 > 模型需求被直接转化为 land、power、chips 和 data-center construction。
@@ -63,6 +68,8 @@ Anthropic 与 AWS 已形成长期深度基础设施关系。
 - 已大规模部署 Trainium；
 - Anthropic 已公开使用超过 **1M Trainium2 chips**；
 - 预计到 2026 年底形成接近 **1 GW** 的 Trainium2/3 capacity。
+
+来源：https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 
 这说明：
 
