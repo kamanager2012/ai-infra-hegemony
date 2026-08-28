@@ -113,17 +113,61 @@ Buyer-side ROI pressure also does not imply seller economics collapse in the sam
 
 ## 5. Algorithmic efficiency can create overcapacity—or extend the cycle
 
-If compute required for the same capability falls rapidly while workload volume does not rise, deployed capacity can become excessive.
+If compute required for the same capability falls rapidly while workload volume does not rise, deployed capacity can become excessive. If lower cost stimulates many new workloads, efficiency can instead increase total infrastructure demand.
 
-If lower cost stimulates many new workloads, efficiency can instead increase total infrastructure demand.
+The report therefore replaces the non-computable shorthand “efficiency effect × demand elasticity” with two measurable factors:
 
-The correct relationship is:
+```text
+Infrastructure_Demand_t
+= Unit_Resource_Intensity_t
+× Workload_Volume_t
+```
 
-> **Net Infrastructure Demand = efficiency effect × demand elasticity**
+Relative to a baseline period 0:
 
-The same logic applies to model-price competition.
+```text
+Infrastructure_Demand_t / Infrastructure_Demand_0
+=
+(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
+×
+(Workload_Volume_t / Workload_Volume_0)
+```
 
-Falling token/API prices prove a change in unit pricing. They do not by themselves prove that total token volume, workflow adoption, and infrastructure utilization are also declining.
+`Unit_Resource_Intensity` must be tied to a defined work unit, such as GPU-hours / verified workflow, HBM bytes / token, or kWh / completed job. `Workload_Volume` is the number of comparable workflows, tokens, or jobs completed over the same period.
+
+If the analysis also needs to connect price changes to workload volume, a constant-elasticity approximation can be introduced separately:
+
+```text
+Workload_Volume_t / Workload_Volume_0
+=
+(Effective_Price_t / Effective_Price_0)^(-ε)
+```
+
+where ε is the demand elasticity for the **same comparable verified outcome**. Then:
+
+```text
+Infrastructure_Demand_t / Infrastructure_Demand_0
+=
+(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
+×
+(Effective_Price_t / Effective_Price_0)^(-ε)
+```
+
+**Table 24.2 — D-grade sensitivity example for efficiency and demand elasticity**
+
+Assume unit resource intensity falls 40% (`URI_t / URI_0 = 0.60`) and the effective price of the same verified workflow falls 50% (`P_t / P_0 = 0.50`):
+
+| Demand elasticity ε | Workload volume factor | Infrastructure demand factor | Versus baseline |
+|---:|---:|---:|---:|
+| 0.5 | 1.414× | 0.849× | -15.1% |
+| 1.0 | 2.000× | 1.200× | +20.0% |
+| 1.2 | 2.297× | 1.378× | +37.8% |
+| 1.5 | 2.828× | 1.697× | +69.7% |
+
+**Source:** Report D-grade sensitivity model.  
+**Note:** 0.60, 0.50, and ε are illustrative assumptions, not current industry actuals. The table shows only that the same efficiency gain can reduce or increase infrastructure demand depending on demand elasticity.
+
+The same logic applies to model-price competition. Falling token/API prices prove a change in unit pricing; they do not by themselves prove that total token volume, workflow adoption, and infrastructure utilization are also declining.
 
 ## 6. Anchor Compute Buyers are now an additional leading indicator
 
