@@ -12,11 +12,11 @@ prompting、model calling 与基础 automation 很容易随工具进化而商品
 
 Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：[^1]
 
-- **4 out of 5** U.S. high-school and college students use AI for schoolwork；
-- 只有约一半 middle/high schools 有 AI policy；
-- **just 6% of teachers say those policies are clear**；
-- U.S. four-year university CS undergraduate enrollment 2024→2025 **下降 11%**；
-- AI software-related master's graduates 2023→2024 **增长 17%**。
+- **4 out of 5** U.S. high-school and college students use AI for schoolwork；[^1]
+- 只有约一半 middle/high schools 有 AI policy；[^1]
+- **just 6% of teachers say those policies are clear**；[^1]
+- U.S. four-year university CS undergraduate enrollment 2024→2025 **下降 11%**；[^1]
+- AI software-related master's graduates 2023→2024 **增长 17%**。[^1]
 
 这说明：
 
