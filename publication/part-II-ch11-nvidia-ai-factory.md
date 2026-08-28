@@ -43,7 +43,7 @@ NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center rea
 
 软件产品让 system platform 从 hardware purchase 延伸到 model serving、deployment、optimization、enterprise support 与 lifecycle management。
 
-在未披露独立软件收入之前，本书不把这些产品的贡献估算成固定“软件税”或单独利润池。
+在未披露独立软件收入之前，本报告不把这些产品的贡献估算成固定“软件税”或单独利润池。
 
 更准确的作用是：
 
