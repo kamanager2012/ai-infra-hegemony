@@ -139,7 +139,7 @@ SoC一百八十到一百九十美元、一百五十五美元、百分之二十�
 - TrendForce 2026-02-11（1Q26 8GB+256GB smartphone memory contract cost nearly +200% YoY）：https://www.trendforce.com/presscenter/news/20260211-12922.html
 - TrendForce 2026-05-14（2Q26 LPDDR4X +70–75% QoQ；LPDDR5X +78–83% QoQ）：https://www.trendforce.com/presscenter/news/20260514-13044.html
 - TrendForce 2026-08-25（2026E HBM + RDIMM = 51% of DRAM bit supply）：https://www.trendforce.com/presscenter/news/20260825-13198.html
-- Micron FY24 Q2 event page：https://investors.micron.com/events/event-details/microns-second-quarter-2024-financial-call
+- Micron FY24 Q2 Prepared Remarks：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Micron FY24 Q2 Prepared Remarks（HBM3E ≈3× DDR5 wafer supply）：https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - Micron FY25 10-K（CMBU US$3.792B→US$13.524B；MCBU US$11.667B→US$11.859B）：https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
 - SK hynix FY25 official results（operating margin 49%；HBM revenue more than doubled）：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
