@@ -2,7 +2,7 @@
 
 Chinese source edition: [vol-29.md](../vol-29.md)
 
-> Retrieval and revision cutoff: **2026-08-27**. “It can run” and “it is an equivalent system” are different standards. This volume evaluates substitution across performance, scale, portability, supply sustainability, and economics.
+> Retrieval and revision cutoff: **2026-08-28**. “It can run” and “it is an equivalent system” are different standards. This volume evaluates substitution across performance, scale, portability, supply sustainability, and economics.
 
 ## 1. Functional availability is not the same as system equivalence
 
