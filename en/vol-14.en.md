@@ -129,3 +129,8 @@ The map should be updated when the following change materially: NVIDIA Data Cent
 This volume does not treat NVIDIA Data Center revenue as “all global compute rent,” use one fixed consumer cost-inflation percentage, assume a permanent 85% → 55% software-margin path, convert customer revenue share into wafer allocation, or classify every nuclear/power asset as a guaranteed winner.
 
 The durable conclusion is that **AI infrastructure redistributes value according to scarcity, substitutability, capital duration, and workflow monetization. Revenue growth alone does not identify the winner; control of a scarce or difficult-to-substitute layer does.**
+
+## Key public sources for this volume
+
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- Micron FY24 Q3 prepared remarks — HBM3E ≈ 3× DDR5 wafer supply: https://investors.micron.com/static-files/4550f98c-1054-4847-a929-c17d520a0564
