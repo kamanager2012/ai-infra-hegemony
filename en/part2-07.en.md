@@ -237,3 +237,17 @@ The bubble question is ultimately:
 > **Has the industry built more long-duration infrastructure than economically productive workloads can support?**
 
 As of August 2026, the evidence still supports **capital expansion with rising ROI pressure**, not a confirmed full clearing.
+
+
+## Key public sources for this essay
+
+- DeepSeek-V3 Technical Report — full formal training 2.788M H800 GPU-hours: https://arxiv.org/abs/2412.19437
+- DeepSeek-V2 — 93.3% KV-cache reduction relative to DeepSeek 67B: https://github.com/deepseek-ai/DeepSeek-V2
+- NVIDIA FY26 official results — NVIDIA-defined non-GAAP FCF US$96.575B: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
+- NVIDIA FY27 Q2 official results: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- NVIDIA FY27 Q2 10-Q — US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- SK hynix FY25 official results — operating margin 49%; HBM revenue more than doubled: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
+- Microsoft FY26 Q4 earnings / call: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+- Alphabet 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Meta 2026 Q2 SEC Exhibit 99.1: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
+- Amazon 2026 Q2 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
