@@ -43,6 +43,26 @@ Even if two regions both contain fab buildings, their effective capacity will no
 
 This report therefore defines supply-chain independence as **system-level continuity**, not simply "a fab exists on the map."
 
+### 3.1 Upstream Continuity: equipment, software, spare parts, and field service are separate constraints
+
+The existence of a domestic fab does not automatically mean that capacity expansion is independent of external upstream supply.
+
+ASML's public export-control statements provide an auditable boundary:
+
+- sales of EUV systems to China are already restricted;
+- the most advanced immersion DUV systems require Dutch export licences;
+- the 2024 U.S. update expanded restrictions to additional advanced semiconductor-manufacturing technologies, including metrology and software.
+
+This does **not** support the claim that every Chinese fab would stop operating under a supply interruption. ASML itself notes that the controls focus on advanced technologies / specific fabs rather than every system.
+
+The variables that matter are:
+
+> **critical equipment availability + software/licensing + spare parts/field service + materials qualification**
+
+These variables determine whether new capacity can ramp on schedule, whether existing lines can sustain yield, and whether process generations can continue advancing.
+
+"Memory capacity is expanding" and "the memory supply chain is fully autonomous" are therefore different propositions.
+
 ## 4. Material qualification is an often-underestimated time cost
 
 Advanced nodes are highly sensitive to contamination, particles, uniformity, defect density, and long-term stability.
@@ -184,6 +204,8 @@ The semiconductor supply chain of the next decade is therefore more likely to co
 
 - ASML 2025 Annual Report: https://www.asml.com/en/investors/annual-report/2025
 - ASML 2025 Strategy & Stories — EUV / High-NA roadmap: https://www.asml.com/en/investors/annual-report/2025/strategy-and-stories
+- ASML — Dutch export controls: EUV already restricted; most advanced immersion DUV requires export licences: https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
+- ASML — 2024 updated U.S. restrictions include additional advanced manufacturing technologies, metrology and software: https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
 - TSMC 2025 Annual Report — Arizona/Japan/Germany/Taiwan footprint: https://investor.tsmc.com/static/annualReports/2025/english/index.html
 - U.S. Department of Commerce — TSMC Arizona CHIPS final award: https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
 - U.S. Department of Commerce — US$1.4B NAPMP advanced-packaging awards: https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
