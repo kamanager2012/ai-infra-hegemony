@@ -38,9 +38,9 @@ NVIDIA 相关 rack 文档给出的 GB200 NVL72 设计功率约 **120 kW/rack**�
 
 这里的 120 kW 是整柜功耗口径，包含 compute nodes 与 rack components，不能改写成纯 compute-only IT load。
 
-这只是 IT power，不包含完整 facility overhead。
+这是按整柜功率做的 **rack-level full-load scenario arithmetic**，不包含完整 facility overhead，也不等于某个园区已形成 60 MW 或 100 MW 实时负荷。
 
-因此，AI data center 已经进入 100 MW 级局部负荷时代。
+它能证明的是：数百个 120 kW-class rack 的部署会把局部供电需求推到**数十 MW 级**；要写“100 MW 级 campus 已形成”，必须另有具体项目的一手容量与 energized 状态。
 
 ## 3. Microsoft / Constellation：约 835 MW restart PPA
 
@@ -66,9 +66,9 @@ Talen 与 AWS 的 revised PPA full contract quantity 最高为 **1,920 MW**，�
 
 关键状态变化：
 
-> 向 revised front-of-the-meter PPA 的 transition 已于 **2026-04** 发生；但 power delivery 仍按合同逐步 ramp，**full volume 最晚 2032** 达成。
+> Talen 2026 Q2 10-Q 写明 transition to the revised AWS PPA **occurred in 2026-04**；较早 2025 10-K 则写过 **full transition expected in spring 2027**。因此 April 2026 不能等同于全部物理转换或 full power delivery 已完成。
 
-因此，分析重点已经从“能否完成转换”转向：
+分析重点仍是：
 
 - capacity ramp；
 - transmission delivery；
