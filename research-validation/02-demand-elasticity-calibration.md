@@ -730,10 +730,12 @@ The correct v0.6 execution status is:
 > **data path = closed**  
 > **authenticated raw-panel retrieval = succeeded**  
 > **target slugs = confirmed**  
-> **full-window censoring / treatment audit = pending raw-row ingestion**  
-> **coefficient = not estimated**
+> **full-window target coverage audit = passed (Terra/Luna/Sol 30/30 days)**  
+> **Sol Aug-17 short-window event elasticity = estimated (~-0.47 preferred specification)**  
+> **Terra/Luna causal coefficient = not identified from this Jul-30-start export**  
+> **structural E2/E3/E4 coefficient = not estimated**
 
-A successful authenticated export has now been obtained. The retrieved panel reports `as_of=2026-08-29T18:15:41Z`, covers `2026-07-30 → 2026-08-28`, contains 1,530 rows, and exposes only `date`, `model_permaslug`, and `total_tokens`. The confirmed target slugs are `openai/gpt-5.6-terra-20260709`, `openai/gpt-5.6-luna-20260709`, and `openai/gpt-5.6-sol-20260709`. On 2026-08-28 all three appear separately in the top-50. Full-window censoring and treatment-path audits still precede estimation.
+A successful authenticated export has now been obtained. The retrieved panel reports `as_of=2026-08-29T18:15:41Z`, covers `2026-07-30 → 2026-08-28`, contains 1,530 rows, and exposes only `date`, `model_permaslug`, and `total_tokens`. The confirmed target slugs are `openai/gpt-5.6-terra-20260709`, `openai/gpt-5.6-luna-20260709`, and `openai/gpt-5.6-sol-20260709`. On 2026-08-28 all three appear separately in the top-50. The subsequent full-window audit confirms all three targets are observable on **30/30 days**, so target-model top-50 censoring is closed for this panel. Sol's Aug-17 event is now estimated in §13B.10; Terra/Luna remain non-identified for the initial Jul-27/Jul-30 treatment because the export begins on Jul 30.
 
 This is a meaningful data-path closure, not an empirical estimate.
 
