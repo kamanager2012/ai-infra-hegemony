@@ -303,6 +303,19 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 但它的强度必须用 production workload share、迁移成本、利用率、外部 adoption 与上游资源依赖来衡量，而不是用产品发布数量衡量。
 
+## 13. 什么事实会迫使本章改判
+
+如果 cloud custom systems 长期只停留在小规模 internal workload，且出现以下情况，应下调 Cloud System-Stack Substitution 判断：
+
+- production utilization 低；
+- migration / debugging cost 持续高；
+- external customer adoption 弱；
+- multi-generation software compatibility 不足；
+- HBM / packaging / power access 并未改善；
+- hyperscaler 重新扩大对单一外部 platform 的依赖。
+
+反过来，真正支持 S1 的不是新芯片发布，而是 production workload share、TCO、portability 与 external adoption 同时改善。
+
 ## References
 
 [^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
