@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.1
+# P0-4 · Macro-Financial Transmission Layer v0.2
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -217,7 +217,110 @@ It is also:
 
 ---
 
-## 8. Macro-Financial Stress Matrix
+## 8. 2026 empirical transmission panel: from bank standards to AI infrastructure debt
+
+The 2026 data now allow the framework to move from generic macro variables into observable transmission.
+
+### 8.1 Bank credit is not uniformly tight — but AI exposure is already affecting credit allocation
+
+Federal Reserve SLOOS:
+
+- **January 2026:** banks reported tighter C&I standards on balance;
+- **April 2026:** C&I standards again tightened, and banks reported tighter standards across all queried categories of loans to nondepository financial institutions (NDFIs);
+- **July 2026:** C&I standards were basically unchanged, while current standards for many NDFI loan categories remained toward the tighter end of their historical ranges.
+
+The January survey added an unusually relevant AI-specific special question.
+
+Banks reported, on net:
+
+- greater willingness to approve loans to firms **benefiting from high AI exposure**;
+- lower willingness to approve loans to firms **adversely affected by high AI exposure**.
+
+This is direct evidence that AI is beginning to enter credit allocation not only through borrower growth, but through lenders' assessment of business-model exposure.
+
+The implication is:
+
+> **AI can simultaneously loosen financing for perceived winners and tighten it for perceived losers.**
+
+So “AI boom” does not imply a uniform reduction in cost of capital.
+
+### 8.2 Public credit remains open while risk migration grows
+
+The Federal Reserve May 2026 Financial Stability Report states:
+
+- corporate bond spreads remained low by historical standards;
+- overall business/household debt vulnerabilities remained moderate;
+- private credit had grown to roughly **US$1.4T**, about **10% of U.S. nonfinancial corporate debt** and roughly one-third of below-investment-grade debt excluding bank loans;
+- some nontraded BDCs experienced increased redemption pressure;
+- private-credit and AI risks were increasingly cited in market outreach.
+
+This supports the current baseline:
+
+> **no system-wide credit seizure, but more risk is being intermediated outside traditional bank balance sheets.**
+
+That is especially relevant to neoclouds, SPVs and data-center developers.
+
+### 8.3 CoreWeave: project finance has become a first-order AI-infrastructure variable
+
+CoreWeave's 2026 filings provide a concrete borrower-level case.
+
+As of **June 30, 2026**:
+
+- delayed-draw term loan facilities outstanding: about **US$13.6B**;
+- aggregate principal amount of notes outstanding: about **US$16.6B**;
+- delayed-draw facilities are collateralized by assets and pledged contractual cash flows, generally from investment-grade counterparties;
+- the company also uses OEM / software-license financing;
+- a revolver provided another **US$2.0B** of remaining capacity.
+
+A March 2026 financing announcement also disclosed an **US$8.5B** delayed-draw facility rated A3 / A(low), described as the first investment-grade rated financing of its type backed by HPC infrastructure and an associated customer contract.
+
+This demonstrates a real transmission chain:
+
+```text
+long-duration customer contract
+→ pledged contractual cash flow
+→ asset-level / non-recourse debt
+→ infrastructure construction
+→ deployed AI capacity
+```
+
+This is materially different from hyperscaler self-financing.
+
+### 8.4 Counterparty concentration can transmit through the stack
+
+Core Scientific provides the opposite side of the same chain.
+
+In its 2026 Q2 filing:
+
+- CoreWeave represented about **77% of total revenue** for the first half of 2026;
+- colocation revenue was entirely derived from CoreWeave;
+- the company explicitly states that financial results, liquidity and cash flows depend on CoreWeave's performance.
+
+Its investor materials further describe:
+
+- about **590 MW** of infrastructure tied to CoreWeave contracts;
+- revenues from those contracts flowing into a lockbox associated with **US$3.3B senior secured notes**.
+
+This creates a visible dependency graph:
+
+> **AI lab / end customer → CoreWeave contract → CoreWeave debt → Core Scientific lease/cash flow → Core Scientific debt**
+
+A weakening at the top of the chain can therefore propagate before any industry-wide impairment appears.
+
+### 8.5 What this changes in the S4 monitor
+
+The macro panel should now add four project-level quantities:
+
+1. **Contract-backed debt / total debt**;
+2. **single-customer or anchor-customer revenue concentration**;
+3. **debt service supported by pledged customer cash flows**;
+4. **supplier / sponsor / OEM financing share**.
+
+These variables make Demand Quality / Financing more operational.
+
+---
+
+## 9. Macro-Financial Stress Matrix
 
 | State | Risk-free / spreads | Lending / refinancing | Utilization / monetization | Interpretation |
 |---|---|---|---|---|
@@ -233,7 +336,7 @@ This prevents one common error:
 
 ---
 
-## 9. S4 integration rule
+## 10. S4 integration rule
 
 Macro-financial conditions should increase S4 weight only when at least one capital-market deterioration **transmits into a real project or buyer variable**, such as:
 
@@ -250,7 +353,7 @@ Rates/spreads without project transmission remain **context**, not S4 evidence.
 
 ---
 
-## 10. New forward-monitoring panel
+## 11. New forward-monitoring panel
 
 Phase II should maintain a quarterly panel:
 
@@ -262,7 +365,8 @@ Phase II should maintain a quarterly panel:
 | Private credit | fundraising, spreads where available, redemptions, covenant stress |
 | Equity | AI-infrastructure valuation / equity risk premium proxies |
 | Hyperscalers | operating cash flow, CapEx, net cash/debt, finance leases |
-| Neocloud / developers | debt, lease obligations, maturities, interest expense |
+| Neocloud / developers | debt, lease obligations, maturities, interest expense, contract-backed debt |
+| Counterparty chain | anchor-customer concentration, pledged cash flows, downstream landlord/developer exposure |
 | Project finance | leverage, maturity, guarantees, fixed/floating cost |
 | Supplier support | equity, guarantees, credit enhancement |
 | Clearing outcome | delay, cancel, renegotiate, impairment, asset sale |
@@ -271,7 +375,7 @@ The panel is valuable even when data are incomplete because missingness itself s
 
 ---
 
-## 11. Relationship to the five clearing signals
+## 12. Relationship to the five clearing signals
 
 Macro-financial variables do not become a sixth independent S4 signal.
 
@@ -285,7 +389,7 @@ This avoids double counting.
 
 ---
 
-## 12. Relationship to scenarios
+## 13. Relationship to scenarios
 
 ### S1 / S2 can survive higher rates when:
 - utilization and monetization remain strong;
@@ -309,7 +413,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 13. v0.1 conclusion
+## 14. v0.2 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -329,3 +433,7 @@ The next empirical task is to build the quarterly panel and attach financing str
 - Goldman Sachs, “The AI Investment Boom: When Will It Pay Off?”, 2026-06-02: https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-ai-investment-boom-when-will-it-pay-off
 - Goldman Sachs, “Why AI Companies May Invest More than $500 Billion in 2026”, 2025-12-18: https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026
 - Goldman Sachs, “What the Capex Boom Means for Stock Investors”, 2026: https://www.goldmansachs.com/insights/articles/what-the-capex-boom-means-for-stock-investors
+- CoreWeave, Q2 2026 Form 10-Q — delayed-draw term loans, notes, revolver and collateral structure: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
+- CoreWeave, 2026-03-31 — US$8.5B investment-grade GPU/HPC-backed financing facility: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex991.htm
+- Core Scientific, Q2 2026 Form 10-Q — CoreWeave customer concentration and counterparty dependence: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm
+- Core Scientific, Q2 2026 earnings materials — contract cash-flow lockbox and US$3.3B senior secured notes: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/q2fy26earningsdeck728am.htm
