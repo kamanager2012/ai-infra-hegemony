@@ -1,8 +1,10 @@
 # Contributing / 参与研究协作
 
-This repository welcomes factual corrections, source upgrades, mechanism challenges, counter-evidence, falsification signals, and translation improvements. Unsupported estimates must not be rewritten as confirmed facts.
+This repository welcomes factual corrections, source repairs/upgrades, mechanism challenges, counter-evidence, falsification signals, and translation corrections that restore bilingual factual or analytical parity. Unsupported estimates must not be rewritten as confirmed facts.
 
 The Chinese 32-chapter formal report on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
+
+**Formal-text freeze:** the 32-chapter bilingual report has been frozen since **2026-08-29**, with evidence/retrieval cutoff **2026-08-28**. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
 
 ## Start with these files
 
@@ -46,13 +48,13 @@ A strong counterargument looks like:
 
 ## Pull requests that are useful
 
-- write verified new facts back into the relevant chapter;
+- correct or restore verified facts that belong within the fixed retrieval cutoff;
 - correct dates, accounting definitions, units, denominators, or evidence grades;
-- add conditions and falsification signals to strong conclusions;
-- repair broken links, navigation, duplication, or translation;
+- correct missing or misstated conditions/falsification signals when the omission materially changes the conclusion;
+- repair broken links, navigation, duplication, or bilingual parity errors;
 - replace repeated cross-chapter numbers with a canonical source link;
 - add better primary or institutional sources;
-- keep English and Chinese research states synchronized.
+- keep English and Chinese research states synchronized without style-only post-freeze rewrites.
 
 ## Pull requests that should not be submitted
 
@@ -63,7 +65,9 @@ A strong counterargument looks like:
 - contracted power capacity written as already energized load;
 - different hyperscaler accounting categories added together as a single comparable “AI hardware CapEx” number;
 - stress-test outputs presented as inevitable 2030/2036 outcomes;
-- removal of counter-evidence or falsification conditions merely to strengthen the thesis.
+- removal of counter-evidence or falsification conditions merely to strengthen the thesis;
+- post-2026-08-28 evidence additions to the frozen formal chapters;
+- style-only rewrites, chapter expansion, framework redesign, or terminology renaming without a material-error basis.
 
 ## Evidence grades
 
