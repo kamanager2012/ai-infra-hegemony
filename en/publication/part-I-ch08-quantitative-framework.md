@@ -103,37 +103,23 @@ Bit demand and manufacturing input are therefore not one-to-one. As HBM bit shar
 
 The 3× figure is not a fixed Micron-fab MES constant and cannot be mechanically extrapolated into a permanent HBM4/HBM5 ratio.
 
-## 7. Packaging geometry can support sensitivity analysis, not shipment claims
+## 7. Packaging must be quantified in its own physical unit
 
-The report uses approximately **5.37 CoWoS wafers/rack** as a D-grade geometry stress test:
+Advanced-packaging analysis should use observable or source-bounded variables such as qualified capacity, lead time, allocation fulfillment, package starts, or supplier guidance.
 
-> **72 packages ÷ 13.4 packages/wafer ≈ 5.37 wafers/rack**
+The report does not use a synthetic "CoWoS wafers per rack" factor to infer shipments.
 
-The 13.4 packages/wafer denominator is a report-side geometry assumption, not a TSMC disclosed yield or packages-per-wafer metric.
-
-The 5.37 figure may therefore be used for:
-
-- packaging-demand order of magnitude;
-- scenario comparison;
-- bottleneck sensitivity.
-
-It cannot be used to divide TSMC annual front-end wafer shipments, infer actual Blackwell shipments, or derive customer allocation.
+Front-end wafers, back-end packaging capacity, HBM bits, and energized MW are different physical pools and must remain dimensionally separate.
 
 ## 8. Power must also be quantified with state and physical boundaries
 
 Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
 
-Using 500 racks as a scenario input, a **D-grade arithmetic calculation** is:
-
-> 500 racks × 120 kW = **60 MW of rack-level full-load power**
-
-This calculation does not include complete facility overhead and does not mean any specific campus has deployed 500 racks.
-
 Power must also retain its state identity:
 
-> Announced → Contracted → Permitted → Energized → Utilized
+> Announced → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized
 
-Contracted MW is not energized MW; energized MW is not highly utilized AI load.
+Contracted or secured capacity is not energized capacity; energized capacity is not highly utilized AI load. Generation MW/GW, PPA capacity, and IT-GW must also retain their distinct physical identities.
 
 ## 9. When shipment cannot be closed, Forward Commitment is more useful than an invented shipment model
 
@@ -149,22 +135,21 @@ The figure cannot identify how much goes to any individual supplier, but it is a
 
 When customer-level HBM bits, CoWoS allocation, and rack shipment are unavailable, forward commitments are more informative than "revenue divided by an invented rack price."
 
-## 10. AHICR: measure incremental capture separately for every scarce layer
+## 10. Measure incremental scarce-capacity access separately for every physical layer
 
-The report uses the **Advanced/HPC Incremental Capacity Capture Ratio (AHICR)**:
+The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into one composite "capture ratio."
 
-> **AHICR(layer) = incremental advanced AI/HPC resource captured by one buyer ÷ total industry increment in that physical layer**
+For each layer, track variables such as:
 
-AHICR must be observed separately for:
+- qualified supplier count;
+- lead time;
+- allocation fulfillment;
+- long-term agreements / prepayments;
+- delivery timing;
+- buyer credit quality;
+- supply elasticity.
 
-- advanced logic;
-- HBM;
-- advanced packaging;
-- power.
-
-These units cannot be added into one universal "resource ownership" percentage.
-
-The value of AHICR is to test whether next-generation incremental resources are increasingly captured by a small number of buyers—not to reinterpret historical revenue share as future allocation.
+A reliable percentage may be used only when customer-level allocation is observable for that specific physical pool.
 
 ## 11. Five risk classes should be separated before testing for cascade
 
