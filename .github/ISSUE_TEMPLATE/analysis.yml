@@ -1,5 +1,5 @@
 name: 机制 / 情景挑战
-description: 对假设、因果机制、情景推演或证伪条件提出反方
+description: 对既有假设、因果机制、情景推演或证伪条件提出反方；挑战不自动重开冻结正文
 title: "[机制] "
 labels: ["analysis"]
 body:
@@ -37,7 +37,7 @@ body:
     id: argument
     attributes:
       label: 反方逻辑
-      description: 最好写成“变量A变化 → 机制B失效 → 情景C应下调”的形式。
+      description: 最好写成“变量A变化 → 机制B失效 → 情景C应下调”的形式。若涉及正式正文修改，请说明为何属于重大实质性错误，而非风格性重写。
     validations:
       required: true
 
