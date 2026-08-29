@@ -8,7 +8,7 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 **Title scope:** “Hegemony” names the **risk state and structural question** investigated by the report; it does not claim that the industry had already entered S3 — Resource Hegemony by August 28, 2026. The current public-evidence mix remains closest to S2 — Baseline Concentration.
 
 **Retrieval and revision cutoff: August 28, 2026**  
-**Text status: frozen as of August 29, 2026.** After the freeze, only factual corrections, source-link repairs, citation-scope corrections, and material-error fixes are accepted; no stylistic rewrites, chapter expansion, or framework redesign.
+**Text status: refrozen on August 29, 2026 after a material-correction pass.** That pass addressed substantive research-scope issues—end-system reader framing, downstream Non-AI Residual Capacity exposure, China Production-Grade Gate language, the uncalibrated workflow criterion, scenario monitoring, and evidence boundaries—without changing the S1–S4 framework. After the refreeze, only factual corrections, source-link repairs, citation-scope corrections, and newly identified material errors are accepted; no cosmetic rewriting or unsupported chapter expansion.
 
 [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master Judgment](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
 
