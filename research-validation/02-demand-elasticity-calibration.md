@@ -794,7 +794,7 @@ The raw token ratio would imply:
 
 But that is not a defensible causal estimate because the entire OpenRouter-visible market expanded sharply over the same period.
 
-Preferred short-window specification:
+Benchmark adjusted short-window specification:
 
 `ln(SolTokens_t) = α + β·PostAug17_t + γ·ln(NonSolTokens_t) + δ·time_t + day-of-week FE + ε_t`
 
@@ -817,9 +817,22 @@ Window-end robustness using the same specification and Jul-30 start:
 | 2026-08-24 | **-0.478** | [-0.694, -0.263] |
 | 2026-08-28 | **-0.467** | [-0.691, -0.243] |
 
-The preferred estimate is unusually stable to the post-window endpoint in this sample.
+The benchmark estimate is unusually stable to the post-window endpoint in this sample.
 
 A pre-period diagnostic using `ln(SolTokens) ~ time + ln(NonSolTokens) + day-of-week FE` gives a residual time-trend coefficient near zero (`0.00033`, `p≈0.98`). This is supportive, but the pre-period has only 18 observations and should not be oversold as a definitive parallel-trends test.
+
+Identification caveat:
+
+`NonSolTokens_t` is a **market-normalization variable, not a guaranteed exogenous control**. If Sol's discount displaces competitor traffic, part of the treatment can mechanically enter the non-Sol series.
+
+Two alternative specifications that do not condition on contemporaneous non-Sol tokens give similar magnitudes:
+
+- `ln(SolTokens) ~ PostAug17 + time + day-of-week FE` → implied elasticity **-0.484**, approx. 95% CI **[-0.728, -0.239]**;
+- `ln(Sol market share) ~ PostAug17 + time + day-of-week FE` → implied elasticity **-0.430**, approx. 95% CI **[-0.661, -0.199]**.
+
+Therefore the defensible v0.8 statement is not “the causal elasticity equals -0.47.” It is:
+
+> **Across several short-window adjustments, the Sol Aug-17 event response clusters around roughly -0.43 to -0.55; strict structural causal identification remains unresolved.**
 
 Interpretation boundary:
 
@@ -829,7 +842,7 @@ Reasonable empirical reading:
 
 - raw quantity response is much larger than the market-adjusted effect;
 - a material Sol usage response remains after controlling for broad OpenRouter traffic growth and calendar trend;
-- the preferred event estimate is around **-0.47**, with adjusted-specification values clustering around roughly **-0.43 to -0.55**;
+- the benchmark event estimate is around **-0.47**, with adjusted-specification values clustering around roughly **-0.43 to -0.55**;
 - the result is materially below the naive raw `-1.40`, demonstrating why market expansion / composition must be controlled.
 
 ### 13B.11 Why Terra / Luna do not yet yield a clean causal coefficient from this export
