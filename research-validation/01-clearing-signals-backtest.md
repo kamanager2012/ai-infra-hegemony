@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.5
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.6
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -384,7 +384,59 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 9. v0.5 回测结论
+# 9. Case H — 2011–2013 Solar PV Manufacturing Overcapacity（独立资本清算）
+
+这个案例用于测试五信号是否只在 IT / GPU / oil & gas 中有效，还是能识别另一种典型的高 CapEx 制造周期：
+
+> **政策驱动需求 + 大规模上游扩产 → 产能过剩 → 价格清算 → 利用率下降 → 产能重组 / impairment → 融资压力。**
+
+公开材料显示：
+
+- 2011–2012 solar industry 出现明显 excess manufacturing capacity，module / wafer / polysilicon price 持续下跌；
+- Suntech 2012 investor material 显示 cell capacity utilization 一度约 **60%**，并把 annualized cell capacity 下调至约 **1.8 GW**；
+- First Solar 2012 manufacturing restructuring 取消 / 停止部分扩产项目，包含约 **US$127M** restructuring charges，其中约 **US$99.2M** 与停止 Vietnam 4-line plant 相关；
+- Applied Materials FY2012 Energy and Environmental Solutions segment 因 solar excess capacity 出现订单/收入大幅下降，并录得 impairment、inventory、restructuring charges；
+- 多家 solar manufacturers 披露 module ASP、polysilicon price、margin 与 inventory write-down 恶化；
+- 当期行业文件同时明确指出，credit-market contraction / project financing constraints 会导致项目取消、延期或缩减。
+
+这不是单一公司事故，而是跨 polysilicon / wafer / cell / module / equipment / project-finance 的 multi-segment clearing。
+
+## 9.1 信号回放
+
+| Signal | 当期可观测证据 | v0.6 |
+|---|---|---:|
+| Accounting | First Solar / Applied Materials / multiple manufacturers 出现 impairment、inventory write-down、restructuring | 2 |
+| Utilization / Revenue | Suntech cell utilization 约60%；solar-equipment orders / revenue 大幅下降 | 2 |
+| Market Clearing | polysilicon / wafer / module price 大幅下跌，部分价格跌破生产成本 | 2 |
+| Forward Commitment | First Solar 取消 Vietnam 扩产、idle production lines；industry capacity rationalization | 2 |
+| Demand Quality / Financing | project financing 收紧、项目取消/延期/缩减；部分厂商流动性与 going-concern 压力 | 2 |
+
+**研究侧结果：10/10，Segment Breadth = Multi-segment / system-wide manufacturing clearing。**
+
+## 9.2 Lead / lag
+
+- **First deterioration:** 2011 H2 — module / wafer / polysilicon pricing 加速下跌，oversupply 明显；
+- **Cross-confirmation:** 2012 H1 — utilization、pricing、capacity rationalization、project financing 同时恶化；
+- **Accounting confirmation:** 2012 reporting cycle — impairment / inventory / restructuring charges 大量出现；
+- **Trough / stabilization:** 2013–2014 — inventory rationalization、supply reduction 与 demand recovery 后部分价格 / margin 改善。
+
+这里再次出现同一模式：
+
+> **Market Clearing / Utilization 通常早于 Accounting。**
+
+## 9.3 对 Chapter 24 的意义
+
+这个案例强化三点：
+
+1. **五信号并非只适用于数字技术周期**：manufacturing overbuild + financing + residual-value clearing 在 solar PV 也成立；
+2. **Forward Commitment 应包含“取消扩产 / idle lines / capacity rationalization”**，不只看 CapEx guidance；
+3. **Demand Quality / Financing 需要保留项目融资层**：即使终端需求仍存在，融资收紧也会切断 project conversion，从而向上游制造传导。
+
+但仍不能把本案例升级为“统计验证”。它只是扩大 cross-industry external validity。
+
+---
+
+# 10. v0.6 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -395,6 +447,7 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 | 2001–2003 Semiconductor | 2 | 2 | 2 | 2 | N/A | Broad layer clearing* |
 | 2014–2016 Oil & Gas Upstream | 2 | 2 | 2 | 2 | 2 | Broad clearing |
 | 2018–2019 Hyperscale Cloud CapEx Digestion | 0 | 0 | 0 | 1 | 0 | No systemic clearing |
+| 2011–2013 Solar PV Manufacturing | 2 | 2 | 2 | 2 | 2 | Broad multi-segment clearing |
 
 当前结果说明：
 
@@ -406,7 +459,8 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 6. **相关样本不能重复计数**：2000–2002 telecom 与 2001–2003 semiconductor 属于同一宏观 episode 的不同 physical layers；
 7. **跨行业外部有效性得到初步支持**：2014–2016 oil & gas 在完全不同的产业机制下仍表现出五类资本清算信号的同步恶化；
 8. **新增独立负对照后，特异性得到进一步支持**：2018–2019 hyperscale cloud 显示单一公司 CapEx digestion 并不会在缺乏跨公司 revenue/utilization/clearing/financing 恶化时被升级为 S4；
-9. **目前仍不能称为“验证过的预测系统”**：已经有 7 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
+9. **第二个非传统 IT 资本周期进一步提高外部有效性**：solar PV manufacturing overcapacity 显示价格、利用率、扩产、融资和会计清算可以在完全不同产业结构下同步出现；
+10. **目前仍不能称为“验证过的预测系统”**：已经有 8 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
 
 因此，当前最准确的表述是：
 
@@ -414,11 +468,11 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 10. 下一步：P0-1 v0.6
+# 11. 下一步：P0-1 v0.7
 
 下一版继续增加**独立周期**与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
-1. 把 Case A–G 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough 四列；
+1. 把 Case A–H 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough 四列；
 2. 继续增加与科技无关的资本周期，优先寻找可同时观察 utilization、financing 与 residual-value 的行业；
 3. 对各 signal 统计 ordinal lead/lag，只报告方向与区间，不制造小样本显著性；
 4. 继续保持当前 proxy hierarchy、segment breadth 与 false-positive 规则冻结；
@@ -426,7 +480,7 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 11. Sources
+# 12. Sources
 
 ## 2000–2002 Internet / Telecom
 
@@ -521,3 +575,19 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
   https://www.sec.gov/Archives/edgar/data/1018724/000101872420000004/amzn-20191231x10k.htm
 - Facebook FY2019 Form 10-K — 2019 CapEx approximately US$15.1B versus US$13.9B in 2018; 2020 CapEx expected at US$17–19B:  
   https://www.sec.gov/Archives/edgar/data/1326801/000132680120000013/fb-12312019x10k.htm
+
+
+## 2011–2013 Solar PV Manufacturing
+
+- First Solar FY2012 Form 10-K — 2012 manufacturing restructuring, approximately US$127M charges, cancellation of Vietnam 4-line plant, idle/closed manufacturing capacity:  
+  https://www.sec.gov/Archives/edgar/data/1274494/000127449413000006/fslrdec1210k.htm
+- Suntech 2012 investor materials — industry cell capacity utilization around 60% and capacity rationalization / reduction:  
+  https://www.sec.gov/Archives/edgar/data/1342803/000110465912077662/a12-26837_1ex99d1.htm
+- Applied Materials FY2012 Form 10-K — solar excess manufacturing capacity, sharp equipment-demand decline, impairment / inventory / restructuring charges:  
+  https://www.sec.gov/Archives/edgar/data/6951/000000695112000018/amat10282012-10kdoc.htm
+- Solar-industry SEC filing — excess module capacity, polysilicon price down to approximately US$18/kg in 2012, below production cost in some markets:  
+  https://www.sec.gov/Archives/edgar/data/1594124/000104746914009214/a2222165z424b4.htm
+- JA Solar / industry filing — module ASP fell sharply into 2012; inventory write-downs followed market-price decline below carrying cost:  
+  https://www.sec.gov/Archives/edgar/data/1375877/000104746914000764/a2218242z424b5.htm
+- Solar financing disclosure — credit-market contraction and higher financing costs caused project cancellations, postponements, and scale-backs:  
+  https://www.sec.gov/Archives/edgar/data/1481513/000119312510120053/d424b4.htm
