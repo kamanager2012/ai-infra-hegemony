@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.4
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.5
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -333,7 +333,58 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 8. v0.4 回测结论
+# 8. Case G — 2018–2019 Hyperscale Cloud CapEx Digestion（独立负对照）
+
+这个案例用于测试一个常见误判：
+
+> **某一家 hyperscaler 的 CapEx 从极高增速转为持平/下降，是否足以判定 cloud infrastructure 进入系统性清算？**
+
+答案是否定的。
+
+2018 年 Alphabet 的资本开支从 2017 年约 **US$13.2B** 快速上升到约 **US$25.1B**；2019 年回落到约 **US$23.5B**。如果只看这一条 Forward Commitment，很容易把“高增速后的 digestion”误读成需求崩塌。
+
+但同期跨公司数据给出强反证：
+
+- Amazon AWS 2019 revenue **同比 +37%**，从 US$25.7B 增至 US$35.0B；
+- AWS net additions to property and equipment 从 2018 年约 **US$9.8B** 升至 2019 年约 **US$13.1B**；
+- Facebook 2019 CapEx 从 2018 年约 **US$13.9B** 升至约 **US$15.1B**，并预计 2020 年进一步达到 **US$17–19B**；
+- Google Cloud revenue 从 2018 年约 **US$5.84B** 增至 2019 年约 **US$8.92B**。
+
+因此，单一公司的 CapEx digestion 没有跨越到 Accounting、Utilization/Revenue、Market Clearing、Demand Quality/Financing 的同步恶化。
+
+## 8.1 信号回放
+
+| Signal | 当期可观测证据 | v0.5 |
+|---|---|---:|
+| Accounting | 未见与 cloud-capacity overbuild 对应的大规模 impairment / write-down | 0 |
+| Utilization / Revenue | AWS revenue +37%；Google Cloud revenue 继续高速增长 | 0 |
+| Market Clearing | 未见跨 hyperscaler 的 channel/inventory/resale clearing 证据 | 0 |
+| Forward Commitment | Alphabet CapEx 2019 较 2018 小幅回落，但 AWS asset additions 与 Facebook CapEx 继续增加 | 1 |
+| Demand Quality / Financing | hyperscaler operating cash flow 仍强，未见融资断裂传导 | 0 |
+
+**研究侧结果：1/10，Segment Breadth = Narrow / company-specific。判定为 No systemic clearing。**
+
+## 8.2 对 Chapter 24 的意义
+
+这个负对照把一条规则变得更硬：
+
+> **Forward Commitment 的单点恶化不能脱离 cross-company breadth 和 revenue/utilization 读取。**
+
+尤其在高增速资本周期里：
+
+- CapEx 从“翻倍”降到“持平”；
+- 某家公司调整建设时点；
+- 某个平台把资本从一种资产迁移到另一种资产；
+
+都可能只是 **digestion / mix shift / timing normalization**，而不是 S4。
+
+因此：
+
+> **CapEx growth deceleration ≠ CapEx contraction ≠ system-wide clearing。**
+
+---
+
+# 9. v0.5 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -343,6 +394,7 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 | 2008–2009 GFC / Enterprise IT | 0 | 2 | 1 | 2 | 2 | Broad clearing |
 | 2001–2003 Semiconductor | 2 | 2 | 2 | 2 | N/A | Broad layer clearing* |
 | 2014–2016 Oil & Gas Upstream | 2 | 2 | 2 | 2 | 2 | Broad clearing |
+| 2018–2019 Hyperscale Cloud CapEx Digestion | 0 | 0 | 0 | 1 | 0 | No systemic clearing |
 
 当前结果说明：
 
@@ -353,7 +405,8 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 5. **Accounting 不应成为硬门槛**：2008–2009 显示金融条件主导的系统性清算可以在卖方并无巨额 write-down 时发生；
 6. **相关样本不能重复计数**：2000–2002 telecom 与 2001–2003 semiconductor 属于同一宏观 episode 的不同 physical layers；
 7. **跨行业外部有效性得到初步支持**：2014–2016 oil & gas 在完全不同的产业机制下仍表现出五类资本清算信号的同步恶化；
-8. **目前仍不能称为“验证过的预测系统”**：已经有 6 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
+8. **新增独立负对照后，特异性得到进一步支持**：2018–2019 hyperscale cloud 显示单一公司 CapEx digestion 并不会在缺乏跨公司 revenue/utilization/clearing/financing 恶化时被升级为 S4；
+9. **目前仍不能称为“验证过的预测系统”**：已经有 7 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
 
 因此，当前最准确的表述是：
 
@@ -361,19 +414,19 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 9. 下一步：P0-1 v0.5
+# 10. 下一步：P0-1 v0.6
 
 下一版继续增加**独立周期**与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
-1. 增加一个**高 CapEx / 高估值但未形成 system-wide hard landing** 的独立负对照；
-2. 把 Case A–F 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough 四列；
+1. 把 Case A–G 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough 四列；
+2. 继续增加与科技无关的资本周期，优先寻找可同时观察 utilization、financing 与 residual-value 的行业；
 3. 对各 signal 统计 ordinal lead/lag，只报告方向与区间，不制造小样本显著性；
 4. 继续保持当前 proxy hierarchy、segment breadth 与 false-positive 规则冻结；
 5. 在样本明显扩充前，不优化 0/1/2 权重，不把任何阈值写回正式 Chapter 24。
 
 ---
 
-# 10. Sources
+# 11. Sources
 
 ## 2000–2002 Internet / Telecom
 
@@ -458,3 +511,13 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
   https://www.federalreserve.gov/newsevents/pressreleases/bcreg20151105a.htm
 - ConocoPhillips 2016 proxy / 2015 review — 2015 capital expenditures reduced 41% vs. 2014:  
   https://www.sec.gov/Archives/edgar/data/1163165/000104746916011624/a2227560zdef14a.htm
+
+
+## 2018–2019 Hyperscale Cloud CapEx Digestion
+
+- Alphabet FY2019 Form 10-K — total CapEx approximately US$25.1B in 2018 and US$23.5B in 2019; Google Cloud revenue US$5.84B in 2018 and US$8.92B in 2019:  
+  https://www.sec.gov/Archives/edgar/data/1652044/000165204420000008/goog10-k2019.htm
+- Amazon FY2019 Form 10-K — AWS sales +37% in 2019; AWS net additions to property and equipment increased from approximately US$9.8B to US$13.1B:  
+  https://www.sec.gov/Archives/edgar/data/1018724/000101872420000004/amzn-20191231x10k.htm
+- Facebook FY2019 Form 10-K — 2019 CapEx approximately US$15.1B versus US$13.9B in 2018; 2020 CapEx expected at US$17–19B:  
+  https://www.sec.gov/Archives/edgar/data/1326801/000132680120000013/fb-12312019x10k.htm
