@@ -32,10 +32,10 @@
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
 - **Decision Invariants**：v0.3；在 S1–S4 falsification 之后完成 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体 implementation-cost test；10 条 hard invariants 全部保留，但 Invariant 1 改为 decision-relevant verified outcome、Invariant 5 改为 stage-gate irreversible commitments，并明确 hard invariant ≠ high-cost action；
 - **China System-Stack Extension**：v0.1 已建立；补服务器/整机交付、Huawei full stack、上市公司证据地图、产业政策政治经济学，并把 design origin / foundry closure / autonomous closure 分开；
-- **Public-Proxy Scenario Dashboard**：v0.5；在 refinancing exposure / realized stress 分离基础上，Axis G 已新增 Seller / Sponsor Support protocol；支持强度上升只在独立资本、客户经济性与 refinancing 同时恶化时才成为 S4 amplifier；
-- **Financing Reflexivity Map**：v0.2；新增 2026 Support Taxonomy，把 seller equity、lease/payment guarantees、vendor/OEM finance、third-party capital mobilization 与 customer prepayment 分开，并固定 guarantee cap / support commitment ≠ funded CapEx ≠ independent demand；
+- **Public-Proxy Scenario Dashboard**：v0.6；新增 derived-layer ownership contract：Dashboard 只做 scenario aggregation，不再作为 04A/04B/04C/04D 的竞争性事实台账。Dashboard K 的 company/facility factual state 分别以 04B/04C 为准，Dashboard 只负责 cross-confirmation 与 S1–S4 relevance；
+- **Financing Reflexivity Map**：v0.3；继续保留 2026 Support Taxonomy 与 anti-double-counting，但新增 scope contract：`11` 只负责 financing taxonomy / causal graph / reflexivity diagnostic；facility state 归 04C，support activation / funded-loss state 归 04D，live clearing adjudication 归 01A；
 - **Non-AI End-System Supply Conditions**：v0.2；新增 Sony / Microsoft / Nintendo 三个 2025–2026 end-system response anchors，形成 quantity-assurance pressure、PC inventory/device-price transmission 与 cost-down absorption 的正反样本。
-- **Developer Distribution Chokepoint**：v0.1；由 2026-08-27 NVIDIA/Hugging Face reported transaction 触发，建立 model discovery / distribution / runtime / deployment 的 vertical-foreclosure 监测协议；当前只判定为潜在高影响纵向整合风险，不判定已完成 software monopoly。
+- **Developer Distribution Chokepoint**：v0.2；新增 transaction-status gate，严格分离 media-reported agreement / first-party definitive agreement / regulatory approval / legal closing / post-transaction conduct。2026-08-30 research-side status check 仍未在当前 first-party source set 验证 closing，因此继续只判定为潜在高影响纵向整合风险，不写成“已完成收购”或 software monopoly。
 
 ## 文件索引
 
@@ -70,5 +70,5 @@
 5. Decision Invariants actor-specific implementation-cost test 已完成；下一步只在真实案例出现时验证 implementation burden 是否与 L/M/H 分类一致，不再扩充 hard-invariant 数量；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 继续补 Non-AI end-system response panel：优先找第二个 console platform、更多 PC OEM、automotive/industrial 的一手 procurement / lead-time / margin / qualification evidence；必须同时保留 cost-down / inventory / substitution 反证；
-8. Developer Distribution Chokepoint 后续只跟踪交易正式状态、ranking/backend neutrality、multi-vendor parity、deployment friction、model-creator multi-homing 与监管 remedy；不把单一 UI/default 变化升级成 foreclosure。
+8. Developer Distribution Chokepoint 已建立 transaction-status gate；后续只有 first-party agreement/approval/closing 或真实 post-control conduct 才推进状态，并继续跟踪 ranking/backend neutrality、multi-vendor parity、deployment friction、model-creator multi-homing 与监管 remedy；
 9. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
