@@ -206,6 +206,7 @@ Core rule:
 - [Core Concepts and Model Index](en/核心概念与模型索引.en.md)
 - [Core Hypothesis Matrix](en/核心假设矩阵.en.md)
 - [Research Architecture](en/PUBLICATION_STRUCTURE.md)
+- [External Research Comparison Index](en/外部研究对照索引.en.md)
 
 ---
 
