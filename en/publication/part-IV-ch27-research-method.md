@@ -124,11 +124,13 @@ Repeating the same number across multiple chapters does not automatically upgrad
 
 ## 8. Dimensional consistency outranks narrative convenience
 
-The report prohibits the following conversions:
-
 ### Revenue share ≠ wafer share
 
 TSMC customer revenue share cannot be converted directly into N2, 3 nm, HPC, or CoWoS physical share.
+
+### Demand share ≠ allocation share
+
+An institutional estimate of one customer's demand share is not supplier-confirmed physical allocation.
 
 ### Contracted / Secured Capacity ≠ Energized Capacity ≠ Utilized AI Load
 
@@ -138,12 +140,39 @@ Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI 
 
 ### Product specification ≠ shipment
 
-A per-rack specification can describe system intensity, but it cannot be multiplied by an invented deployment count and presented as actual shipment or consumption.
+The GB200 NVL72 specification includes **13.4 TB of HBM3E per rack**.[^4]
+
+That is a system specification. Without a verified deployment count, it cannot be multiplied into an industry-wide actual HBM-consumption figure.
 
 ### Guidance / expectation ≠ actual
 
 Company guidance must retain its guidance identity and cannot be combined with another company's TTM actuals into a single "already occurred" total.
 
+### Physical Pool A ≠ Physical Pool B
+
+Front-end logic wafers, advanced-packaging capacity, HBM bits, and energized MW cannot be placed in one denominator merely because they serve the same AI system.
+
+### Production-Grade Parallel Stack ≠ Autonomous Frontier Closure
+
+A substitute system can operate real production workloads while still depending on some external equipment, materials, services, or upstream manufacturing.
+
+The report therefore asks separately:
+
+1. whether production-grade substitution exists;
+2. whether the system can continue scaling across generations when critical external inputs are constrained.
+
+### Seller-Assisted Financing ≠ Independent End Demand
+
+Seller equity, credit enhancement, LPS support, and compute-financing platforms can accelerate real infrastructure formation while changing the independence of the demand signal.
+
+Financing-quality analysis must therefore distinguish:
+
+- independently financed customer demand;
+- long-duration Anchor Buyer commitments;
+- third-party infrastructure capital;
+- supplier equity / credit support.
+
+---
 ## 9. The boundary of negative evidence
 
 "Not disclosed in this document" proves only that the document does not disclose it.
@@ -222,3 +251,4 @@ This is a research standard, not a software-release or artifact-packaging proces
 [^1]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^2]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^4]: NVIDIA, “GB200 NVL72,” official product page, 13.4 TB HBM3E per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
