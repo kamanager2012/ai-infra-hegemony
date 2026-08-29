@@ -10,14 +10,14 @@ GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞�
 **第二，AI 正在改变全球半导体“下一美元资本投向哪里”。**  
 高资本强度 AI/HPC 买方拥有更高的支付能力、更长的订单期限、更强的预付款与融资能力，因此正在提高自己对先进制程、HBM、先进封装、电力和数据中心增量资本形成的影响力。
 
-**第三，真正决定价值捕获的不是历史市场份额，而是对 incremental scarce capacity 的持续获取能力。**  
-能否锁定下一代先进逻辑、HBM、packaging、networking、power 与 system supply，比某一季度的收入份额更能解释长期产业权力。
+**第三，真正决定价值捕获的不是历史市场份额，而是对各关键稀缺层 incremental capacity 的持续可得性。**  
+真正需要逐层观察 advanced logic、HBM、packaging、networking、LPS/power 的 quantity assurance、delivery timing 与 supply elasticity，而不是把它们压缩成一个综合“资源捕获率”。
 
 **第四，Hyperscaler custom systems 与中国 parallel stack 正在增加替代路径，但并没有消除上游物理约束。**  
 第二类 system stack 的成长可以削弱外部平台利润，却仍然会竞争 advanced logic、HBM、packaging 与 power。
 
-**第五，AI 基础设施的主要风险已经从“有没有需求”转向“资本基数增长速度能否被真实 utilization 与 monetization 覆盖”。**  
-高 CapEx 本身既不是繁荣证明，也不是泡沫证明。只有 utilization、clearing price、forward commitments 与 accounting losses 同步恶化，才足以支持 Capital Hard Landing 判断。
+**第五，AI 基础设施的主要风险已经从“有没有需求”转向“资本基数增长速度能否被真实 utilization、monetization 与独立融资能力覆盖”。**  
+高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要 accounting、utilization/revenue、market clearing、forward commitments 与 demand-financing quality 多组信号广泛、持续并相互印证地恶化。
 
 **第六，未来十年不是一个单点预测，而是 supply elasticity、system substitution、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
 
@@ -35,7 +35,7 @@ NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95
 
 真正需要跟踪的不是历史 customer revenue share，而是：
 
-> **Incremental Scarce-Capacity Capture：一个平台在下一代 advanced logic、HBM、packaging、networking 与其他关键资源中，能够持续获得多少有效供给。**
+> **Layer-specific Incremental Scarce-Capacity Access：一个平台在下一代 advanced logic、HBM、packaging、networking、LPS/power 等关键物理层中，能否持续获得足够、稳定、可交付的有效供给。**
 
 在 severe shortage 中，价格也不是唯一清算机制。Long-term agreement、credit quality、prepayment、purchase scale 与 allocation fulfillment 都会影响 quantity assurance。
 
@@ -87,7 +87,7 @@ TSMC 已一手确认 advanced-packaging capacity tight，并在 2026 Q2 表示 p
 
 约 **120 kW-class rack**、Crane 约 **835 MW** restart、Talen/AWS up to **1.92 GW** revised PPA 与 Kairos/Google 长期电源开发路径说明，power 已成为独立物理约束。[^5]
 
-Contracted、Permitted、Energized、Utilized MW 必须严格区分。
+Contracted / Secured、Permitted、Construction / Transition、Energized、Utilized 必须严格区分；generation MW/GW、PPA capacity 与 IT-GW 也不能机械互换。
 
 因此，一个 bottleneck 缓解后，另一个 bottleneck 可以上升。这就是本报告所称的 **Rolling Bottleneck Cascade**。
 
@@ -168,11 +168,12 @@ CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场份额判断，但不能�
 
 foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 2026 Q1 的 SMIC **5.1%** 是 foundry revenue share，而不是先进 AI system closure 指标。[^14]
 
-因此，本报告对中国的判断是：
+因此，本报告对中国采用两级判断：
 
-> **中国已经跨过“没有替代系统”的阶段，但尚未有公开证据证明 advanced logic、HBM-class memory、advanced packaging、interconnect、compiler/runtime、frontier workload、equipment/material continuity 与 large-scale operation 等所有关键层都达到全球等价规模闭环。**
+> **Production-Grade Parallel Stack：**中国已经跨过“没有替代系统”的阶段，部分 stack 已进入真实 production deployment；  
+> **Autonomous Frontier Closure：**公开证据尚不足以证明 advanced manufacturing、HBM-class memory、advanced packaging、interconnect、compiler/runtime、equipment/material continuity 与跨代 infrastructure scaling 已全部形成自主、可持续闭环。
 
-未来真正需要跟踪的不是某一颗国产 GPU 的单点性能，而是整个 stack 能否持续迭代、扩大 production workload，并降低对不可替代外部关键层的依赖。
+未来真正需要跟踪的不是某一颗国产 GPU 的单点性能，而是 production workload 能否持续扩大，以及在关键外部供给受限时，整个 stack 能否跨代维持 performance、supply、power 与 economics。
 
 ---
 
@@ -188,12 +189,13 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 - grid / substation / generation：更长周期；
 - future workload revenue：不确定。
 
-因此，判断资本泡沫必须同时观察四类信号：
+因此，判断资本泡沫必须同时观察五类信号：
 
 - **Accounting**：impairment、write-down、accelerated depreciation；
 - **Utilization / Revenue**：deployed compute utilization、AI revenue、verified workflow output；
 - **Market Clearing**：lease rate、used-system price、delivery lead time、inventory；
-- **Forward Commitment**：CapEx guidance、supply commitments、compute contracts、power contracts。
+- **Forward Commitment**：CapEx guidance、supply commitments、compute contracts、power contracts；
+- **Demand Quality / Financing**：customer cash generation、third-party capital、supplier equity / credit enhancement 与 refinancing dependency。
 
 截至 2026 年 8 月，公开事实更符合：
 
@@ -239,7 +241,7 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 ### S4 — Capital Hard Landing
 
-utilization、clearing price、CapEx / commitments 与 accounting losses 同步恶化，资本进入清算。
+utilization、clearing price、CapEx / commitments、accounting losses 与 demand-financing quality 广泛恶化，资本进入清算。
 
 这四个状态不是必然顺序，也不赋固定概率。
 
@@ -253,7 +255,8 @@ utilization、clearing price、CapEx / commitments 与 accounting losses 同步�
 - utilization / monetization；
 - capital discipline；
 - regulation；
-- China frontier-system closure。
+- China production-grade parallel stack / autonomous frontier closure；
+- demand-financing quality / supplier-assisted financing。
 
 ---
 
@@ -269,7 +272,8 @@ utilization、clearing price、CapEx / commitments 与 accounting losses 同步�
 - energized power 快速扩张，Time-to-Power 不再形成项目差异；
 - Anchor Compute Buyer commitments 大规模改期或利用不足；
 - hyperscaler AI monetization 长期无法覆盖新增资本基数；
-- China parallel stack 的多个 frontier closure gates 获得或失去规模化一手证据；
+- China production-grade parallel stack 或 autonomous frontier closure 的多个 gate 获得或失去规模化一手证据；
+- supplier equity / credit support 持续上升，同时 independent customer financing 与 utilization 走弱；
 - 正式监管 remedy 实质性改变 tying、interface 或市场进入条件。
 
 如果这些事实与当前机制相反，本报告必须修改判断，而不能用“长期仍然成立”解释所有反例。
@@ -319,7 +323,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 当前最接近事实的状态仍然是 **S2 — Baseline Concentration**：领先平台和关键稀缺层保持强经济性，替代系统持续成长，但尚未形成足以消除 system-level concentration 与物理约束的全面替代。
 
-未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization、market clearing、forward commitments 与 accounting signals 同步恶化，则 S4 才真正成立。
+未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization、market clearing、forward commitments、accounting 与 demand-financing quality 广泛、持续地共同恶化，则 S4 才真正成立。
 
 > **预测可以错，证据边界不能乱；情景可以大胆，事实层必须保守。真正有价值的行业研究，不是一次猜中终局，而是知道哪些产业变量正在决定终局，以及什么事实出现时必须改变判断。**
 
