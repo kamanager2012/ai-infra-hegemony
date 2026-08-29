@@ -946,7 +946,7 @@ A study that measures an earlier stage must not be described as if it measured a
 
 ## 12C. Public Level-3 Workflow-ID Candidate Audit v0.6
 
-P0-3 下一步不是继续堆“AI 提升 X%”案例，而是检查公开数据能否真正满足：
+At the v0.6 candidate-audit stage, the next question was not to keep adding “AI improves X%” studies, but to test whether public data could satisfy:
 
 ```text
 workflow_id
@@ -1041,10 +1041,11 @@ This is not treated as “data unavailable, therefore assume ROI.”
 
 It is a measurement result.
 
-The next acceptable upgrade requires one of two things:
+After the v0.7 stop rule, the next acceptable upgrade requires one of three things:
 
-1. a public or auditable production dataset exposing the full join; or
-2. a first-party enterprise dataset constructed prospectively with the P0-3 schema.
+1. a public or auditable production dataset exposing the full same-`workflow_id` join;
+2. a first-party enterprise dataset constructed prospectively under §17; or
+3. a methodological result that materially changes verification, persistence, missingness/censoring, or causal attribution.
 
 Until then:
 
