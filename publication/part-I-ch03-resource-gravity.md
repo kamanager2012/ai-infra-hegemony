@@ -163,14 +163,27 @@ AI 对传统市场的传导强度取决于三个条件：
 
 拥有 LTA、规模采购、库存、强资产负债表和终端定价权的客户，更容易缓冲冲击。
 
-因此：
+因此，不能把所有整机放进同一个“被 AI 抢产能”漏斗。更准确的分层如下。
 
-- PC / server memory 暴露较高；
-- smartphone 的 memory 与 selected leading-edge exposure 较高；
-- automotive / industrial 的传导更慢、更选择性；
-- mature-node products 如果与 AI product-mix reallocation 发生间接竞争，也可能受到影响。
+**Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型**
 
-具体终端价格、配置和换机周期的传导详见第21章，本章只保留资源机制本身。
+| 整机 / 系统 | 主要共享或相邻上游 | 主要传导形态 | 公开证据允许推出 | 禁止推出 |
+|---|---|---|---|---|
+| Smartphone / PC | selected leading-edge SoC/GPU、LPDDR/DRAM、NAND、selected packaging | BOM、配置、升级税、换机周期、quantity assurance | 共享资源机会成本可以上升 | 行业消亡；某品牌被挤掉确定 wafer 数量 |
+| Router / broadband | consumer DRAM/NAND、低议价采购 | higher price + weaker allocation | 低议价客户可能同时承受价格和数量压力 | 所有终端都按同一倍数涨价 |
+| Automotive / industrial / production line | mature memory、MCU/analog、power、selected ADAS compute、packaging/test | 交期、认证、EOL/料号、供应连续性 | 长认证和长寿命降低快速换料能力；相邻 product-mix 可形成压力 | 汽车电子被 GPU/HBM 直接“吃掉” |
+| Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | 工业电子与 edge-AI 两类约束叠加 | 机器人可能同时暴露于工业电子与 AI compute 两侧 | 每台机器人都需要 frontier HBM；工厂因 AI 自动停产 |
+| Avionics / radar / space electronics | trusted/qualified logic、RF/power、rad-hard/rad-tolerant parts、special packaging/test | 小批量产线经济性、资格认证、可信 access、长寿命支持 | 商业高量市场可削弱小批量特殊需求的 bargaining power | 飞机、雷达、卫星因 HBM shortage 直接停摆 |
+| Naval / other long-life defense systems | long-life qualified electronics、power/communications、trusted supply、maintenance spares | EOL、供应商 longevity、small-volume economics | 长周期系统需要长期料号与可信供应保障 | 舰船/航母“缺 NVIDIA” |
+
+**Source:** 本报告第21章的 consumer/industrial transmission evidence；NXP / ST automotive longevity disclosures；U.S. GAO / DMEA trusted-microelectronics evidence；NASA/JPL space-radiation assurance materials。[^6][^7][^8][^9][^10]  
+**Note:** 表中后四类的 AI-era transmission 强度并不相同。尤其 defense / aerospace / space 的公开证据主要支持“低量、特殊、长寿命、可信供应在商业市场中的结构性弱势”，**不等于已经证明 AI/HPC 是某一具体项目成本或延期的直接原因**。
+
+这张表的核心不是扩大“受害者名单”，而是固定一条边界：
+
+> **Resource Gravity 是选择性的。越接近共享 advanced logic / memory / packaging，传导越直接；越依赖 trusted、long-life、RF/power、rad-hard 或 special-process capacity，传导越可能通过资本、设备、工程能力与供应商经济性间接发生。**
+
+具体终端价格、配置、换机周期与已观测案例详见第21章。
 
 ---
 
@@ -233,3 +246,10 @@ AI 对传统市场的传导强度取决于三个条件：
 [^3]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E wafer-supply trade ratio versus DDR5, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+
+
+[^6]: NXP Semiconductors, S32G Vehicle Network Processors, minimum 15-year product support under the Product Longevity program, https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32g-vehicle-network-processors%3AS32G-PROCESSORS
+[^7]: STMicroelectronics, 2025-09-08, selected SPC58 automotive MCUs extended to 20-year availability, https://newsroom.st.com/media-center/press-item.html/n4718.html
+[^8]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, low-volume unique defense needs and limited influence on commercial markets, https://www.gao.gov/products/gao-16-185t
+[^9]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, guaranteed access for typically low-volume U.S. Government needs, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
+[^10]: NASA/JPL, Space Radiation Effects on Integrated Circuits, special design/fabrication and radiation-hardening requirements, https://parts.jpl.nasa.gov/asic/Appendix.3.html
