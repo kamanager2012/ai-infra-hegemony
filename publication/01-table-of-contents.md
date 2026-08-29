@@ -15,7 +15,7 @@
 1. [第1章：执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
 2. [第3章：AI Resource Gravity 与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 3. [第21章：消费电子与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
-4. [第20章：Value Capture Map](part-III-ch20-value-capture-map.md#10-end-systems不是输掉-ai而是承受-residual-capacity-与-supply-assurance-pressure)
+4. [第20章：Value Capture Map（§10）](part-III-ch20-value-capture-map.md)
 5. [第32章：总判](part-IV-ch32-master-judgment.md)
 
 NVIDIA、Hyperscaler、中国 parallel stack 与情景章节是解释**为什么上游排队规则会变化**的机制背景；整机读者不需要先读完这些章节，才能理解 residual capacity、quantity assurance 与 upgrade tax。
