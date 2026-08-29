@@ -107,6 +107,36 @@ Merger control can prevent another critical intermediate layer from moving under
 
 These variables can all affect system-stack moats.
 
+## 7.5 Reported Hugging Face transaction: merger control shifts toward developer-distribution foreclosure
+
+On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of August 28, 2026, this report had not obtained a formal closing or merger-approval announcement from the parties, so it does not treat the transaction as completed.
+
+If the transaction ultimately closes, the competition-policy issue is not simply that NVIDIA would own another software company. A platform already spanning accelerators, CUDA/runtime, networking, and system architecture could also control a major **discovery / distribution / tooling / deployment gateway** for the open-model ecosystem.
+
+The merger-control question therefore becomes one of **vertical foreclosure**:
+
+> **Could upstream accelerator/runtime control plus downstream developer-distribution control raise entry and migration costs for competing runtimes and accelerators?**
+
+Relevant conduct variables include:
+
+- default ranking / recommendation bias toward owned runtimes or hardware;
+- higher friction for competing inference / deployment backends;
+- asymmetric treatment in benchmarks, model cards, optimization artifacts, or deployment tooling;
+- preferential API, metadata, download, hosting, or commercial terms;
+- bundling, exclusive integration, or self-preferencing;
+- whether competitors need mirrors / alternative registries merely to preserve comparable developer reach.
+
+### 7.5.1 Regulatory boundary
+
+The transaction report alone is not proof of illegality or monopoly:
+
+- many Hugging Face assets can be mirrored or redistributed;
+- open-weight model ownership does not automatically transfer to NVIDIA;
+- multi-homing and alternative registries can constrain platform control;
+- foreclosure must be shown through actual interface, ranking, access, contract, and switching-cost changes.
+
+The higher-value antitrust evidence would therefore be **verifiable self-preferencing + rising competitor migration cost + real developer/workload concentration**, not the acquisition price by itself.
+
 ## 8. Regulation cannot directly create physical capacity
 
 Regulation can lower switching costs.
@@ -183,3 +213,6 @@ Conversely, a headline fine is not what should increase regulatory weighting. Th
 [^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
 [^3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
 [^4]: European Commission / Digital Markets Act, stakeholder roundtable on cloud computing services, 2026-07-01, https://digital-markets-act.ec.europa.eu/commission-hosted-stakeholder-roundtable-cloud-computing-services-under-digital-markets-act-2026-07-01_en
+
+
+[^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
