@@ -20,7 +20,7 @@
 
 ---
 
-## 2. 2036 的四个真正分水岭
+## 2. 2036 的五个真正分水岭
 
 长期产业结构主要取决于四个问题。
 
@@ -58,6 +58,23 @@ AI workload 是否能够产生足够现金流覆盖：
 
 这是决定资本扩张最终可持续性的根本变量。
 
+### 2.5 Financing Independence / Demand Quality
+
+长期 compute demand 是由谁的资产负债表承担？
+
+需要区分：
+
+- independently financed customer demand；
+- long-duration Anchor Buyer commitment；
+- third-party infrastructure capital；
+- supplier equity / credit enhancement。
+
+如果 utilization 与 monetization 健康，seller-assisted financing 可以降低资本形成摩擦；如果 customer cash generation 走弱，而 supplier support 与 refinancing dependency 持续上升，则产业对少数 balance sheets 的依赖反而增强。
+
+因此，2036 的一个关键问题是：
+
+> **AI infrastructure 能否从“需要持续 seller / sponsor support 的扩张”演化成能够由独立 workload cash flow 和长期资本自我承销的资产体系。**
+
 S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)。
 
 ---
@@ -73,7 +90,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 - HBM / server memory 对制造资源的影响仍强；[^3]
 - cloud custom systems 已形成真实第二路线，但尚未证明全面替代 frontier workload；
 - power 已进入独立 physical constraint；
-- China parallel stack 持续发展，但 frontier closure 尚未在所有 critical layers 得到规模化证明；
+- China production-grade parallel stack 持续发展，但 autonomous frontier closure 尚未在所有 critical layers 得到规模化证明；
 - 全行业 Capital Hard Landing 的同步证据仍不足。
 
 这不是十年固定预测。
@@ -157,7 +174,10 @@ AI 相关资产至少可以分成四类：
 - forward commitments；
 - residual value；
 - asset duration；
-- customer concentration。
+- customer concentration；
+- third-party risk capital；
+- supplier equity / credit support；
+- refinancing dependency。
 
 ---
 
@@ -259,34 +279,32 @@ Power 不能再被当成数据中心建设完成后的运营问题。
 
 ---
 
-## 11. 中国：长期核心指标不是“国产化率”，而是 Frontier System Closure
+## 11. 中国：长期核心指标不是“国产化率”，而是两级 Closure
 
 China parallel stack 是否改变全球产业结构，不取决于一个总国产化率。
 
-真正需要分别验证：
+第一层应验证 **Production-Grade Parallel Stack**：
 
-- advanced logic；
-- HBM-class memory；
+- accelerator / compute；
+- HBM-class 或 equivalent memory subsystem；
 - advanced packaging；
 - high-speed interconnect；
 - compiler/runtime；
-- frontier production workload；
-- system utilization；
-- power；
-- upstream equipment / materials continuity。
+- production workload；
+- utilization / reliability / system economics。
 
-consumer / smartphone supply success 不能直接证明 frontier AI closure。
+第二层再验证 **Autonomous Frontier Closure**：
 
-同样，frontier AI advanced-layer constraint 也不能否定中国已经形成的 conventional memory、consumer computing、制造能力与大规模国内 workload。
+- advanced manufacturing continuity；
+- equipment / materials / software / service；
+- cross-generation process upgrade；
+- long-duration HBM / packaging / LPS / power / capital continuity。
 
-如果多个 closure gate 持续跨越，中国会形成更强的第二资源重力中心。
+consumer / smartphone supply success 不能直接证明 autonomous frontier closure。
 
-如果关键 advanced layers 长期未闭环，则 parallel stack 的主要价值更多体现为：
+但同样，存在进口依赖也不能否定已经形成的 production-grade substitution。
 
-- domestic resilience；
-- selected workload substitution；
-- bargaining power；
-- technology learning。
+如果 production-grade stack 持续扩大，中国会形成更强的第二资源重力中心；如果 upstream continuity 也跨代闭环，则其战略意义将从 domestic resilience / selected substitution 上升到更高程度的 autonomous frontier competition。
 
 ---
 
@@ -324,7 +342,8 @@ consumer / smartphone supply success 不能直接证明 frontier AI closure。
 - energized MW / Time-to-Power 是否改善；
 - Anchor Compute Buyer commitments 是否兑现；
 - AI monetization 是否覆盖资本基数；
-- China frontier-system closure 是否获得更多一手规模化证据；
+- China production-grade parallel stack / autonomous frontier closure 是否获得更多一手规模化证据；
+- supplier-assisted financing 是否仍由独立 workload cash flow、third-party capital 与高 utilization 支撑；
 - regulation 是否真实降低 interface / tying / switching barriers。
 
 这些变量的变化决定 S1–S4 的相对权重，而不是一个固定十年预测。
@@ -346,7 +365,7 @@ consumer / smartphone supply success 不能直接证明 frontier AI closure。
 - power；
 - Anchor Buyer demand；
 - workload monetization；
-- capital duration；
+- capital duration / financing quality；
 - regulation；
 - geopolitical redundancy；
 
@@ -361,6 +380,8 @@ consumer / smartphone supply success 不能直接证明 frontier AI closure。
 [^1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^2]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging supply constraint, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
+[^4]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^5]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
 ## 交叉引用
 
