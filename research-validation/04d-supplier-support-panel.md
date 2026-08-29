@@ -1,6 +1,6 @@
 # P0-4D · Supplier / Sponsor Support Panel v0.2
 
-> Extracted from P0-4 v0.17. Support is a risk-distribution layer, not an independent copy of end demand.
+> Initially extracted from P0-4 v0.17; the parent method is now v0.18. Support is a risk-distribution layer, not an independent copy of end demand.
 
 ## 11C. Supplier / Sponsor Support overlay
 
