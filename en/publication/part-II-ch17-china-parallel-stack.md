@@ -104,13 +104,13 @@ Because some specific Ascend/CANN performance and migration-efficiency figures c
 
 ## 6. Memory is the layer most easily hidden by the broad term "domestic memory"
 
-CXMT's **May 27, 2026 STAR Market registration prospectus** discloses DDR and LPDDR products.[^7]
+CXMT's **May 27, 2026 STAR Market registration prospectus** discloses DDR and LPDDR products. The company subsequently began trading on Shanghai's STAR Market on **July 27, 2026**.[^7][^18]
 
-Full-text searches of the prospectus for `HBM` and the Chinese term for high-bandwidth memory return no matches. This report therefore keeps one narrow conclusion:
+Full-text searches of the relevant public offering / registration materials for `HBM` and the Chinese term for high-bandwidth memory do not provide evidence sufficient to confirm a volume HBM product line. This report therefore keeps one narrow conclusion:
 
-> **The registration prospectus does not disclose an HBM product line.**
+> **Current public offering and product materials are insufficient to confirm a volume-deliverable HBM product line.**
 
-This does **not** prove that the company has no HBM R&D.
+This does **not** prove that the company has no HBM R&D. Listing changes the company's capital-market and financing state; it does not by itself cross the HBM, advanced-packaging, or frontier-system technical gates.
 
 To move HBM from possible R&D into frontier-system supply, the evidence would need to include official products, customer qualification, volume production, bandwidth/capacity, and packaging integration.
 
@@ -315,3 +315,4 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 [^15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
 [^16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
 [^17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology, and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
+[^18]: Shanghai Stock Exchange, listing announcement for CXMT (688825), 2026-07-24; trading commenced 2026-07-27, https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
