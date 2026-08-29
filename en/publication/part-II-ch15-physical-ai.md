@@ -100,6 +100,29 @@ What it supports is the mechanism:
 
 Robotics can therefore become both a new edge-memory demand pool and a new source of cloud retraining / storage demand.
 
+### 7.2 Robotics has a dual identity: an AI demand source and an industrial-electronics residual-pressure bearer
+
+Physical AI is not only a new source of AI-compute demand.
+
+A robot also depends on:
+
+- MCU / control electronics;
+- sensors;
+- motor-drive / power electronics;
+- industrial memory / storage;
+- edge accelerators;
+- networking.
+
+It can therefore face two upstream constraint sets at once:
+
+> **industrial-electronics supply pressure + edge-AI compute / memory pressure**
+
+This is why robotics deployment cannot be inferred from model capability alone. Even if cloud training and edge models improve rapidly, lead times and supply continuity in MCU, sensors, actuator electronics, qualified memory, or other industrial components can still constrain mass deployment.
+
+The reverse attribution error must also be avoided: an industrial-component shortage is not automatically caused by AI. Attribution still requires the shared-resource, product-mix, or allocation evidence defined in Chapters 3 and 21.
+
+---
+
 ## 8. The robot-side power wall is battery / thermal
 
 The data-center power bottleneck is grid / interconnection.
