@@ -44,7 +44,7 @@ Current status:
 | Original priority | Current state |
 |---|---|
 | Historical clearing backtest | protocol matured to v1.0; maintenance moved to prospective `01A` logging |
-| Demand-elasticity calibration | data path closed; **actual coefficient remains blocked by authenticated model-day extraction** |
+| Demand-elasticity calibration | authenticated 30-day raw panel successfully retrieved; target slugs confirmed; coefficient pending censoring / treatment / substitution audit |
 | Verified-workflow economics | public candidate audit complete; literature expansion frozen; §17 first-party Level-3 acquisition contract is authoritative |
 | Macro-financial transmission | parent method stabilized; 04A–04D now own maintainable credit / hyperscaler / facility / support states |
 | Geopolitical scenario layer | G1–G5 state system operational |
@@ -55,7 +55,7 @@ Therefore the remaining gap is no longer “build more framework.”
 
 It is:
 
-> **maintain real state transitions, obtain the still-missing P0-2 authenticated panel, and only reopen frozen formal chapters when new evidence crosses an explicit gate.**
+> **maintain real state transitions, complete the P0-2 panel audit / estimation from the retrieved raw rows, and only reopen frozen formal chapters when new evidence crosses an explicit gate.**
 
 Expanding upstream engineering prose or adding new research-side files without a new evidence-owner need would now reduce clarity rather than improve the research architecture.
 
