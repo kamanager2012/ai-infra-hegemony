@@ -128,11 +128,26 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 真正有防御力的 application layer 需要把模型能力转化成 proprietary workflow、data、distribution、retention 和 measurable business outcome。
 
-## 10. Consumer Electronics：不是“输掉 AI”，而是承受 residual-capacity pressure
+## 10. End Systems：不是“输掉 AI”，而是承受 residual-capacity 与 supply-assurance pressure
 
-smartphone、PC、gaming 与 general server 仍然是大型市场。它们承受的主要不是“被 AI 淘汰”，而是 shared upstream resources 的再分配：advanced logic allocation、DRAM residual supply、consumer-GPU availability 与 component pricing。
+smartphone、PC、automotive、industrial systems、robotics 与部分 high-reliability electronics 仍然是重要的终端和战略系统。它们承受的主要不是“被 AI 淘汰”，而是共享或相邻上游资源的再排序。
 
-所以这一层更准确的角色是 **residual-capacity pressure bearer**。当 AI/server demand 抢占高价值增量资源时，传统终端的升级节奏、配置和成本会发生变化。
+因此，整机层更准确的角色不是“AI 竞赛输家”，而是：
+
+> **residual-capacity / supply-assurance pressure bearer**
+
+这种压力分为不同物理路径：
+
+- smartphone / PC 更直接暴露于 selected leading-edge logic、DRAM/LPDDR/NAND、consumer GPU 与 selected packaging；
+- automotive / industrial 更受 mature memory、MCU/analog、power、qualification 与 long-life supply 影响；
+- robotics 同时连接 industrial electronics 与 edge/cloud AI；
+- defense / aerospace / space electronics 的核心约束更多是 trusted、qualified、low-volume、long-life、RF/power、rad-hard 与 special-process continuity，而不是直接争夺同一批 HBM。
+
+因此，不能给“整机层”排一个统一利润名次，也不能把所有下游压力归因于 AI。真正需要观察的是：
+
+> **shared-resource exposure + buyer power + qualification rigidity + supply assurance + product-mix reallocation**
+
+第3章定义资源机制，第21章讨论已经能够观测到的 price / configuration / longevity / allocation 传导。
 
 ## 11. Custom Silicon 会重画资金路径，但不一定减少上游需求
 
