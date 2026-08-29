@@ -30,6 +30,28 @@ frontier AI system 同时需要 leading-edge logic、HBM、advanced packaging、
 
 这些数字证明 HPC 已成为 TSMC 最大 platform，同时 TSMC 仍服务广泛客户。它们不支持“TSMC 已成为某一家客户专属 fab”。
 
+## 2A. 2026 Q2：先进制造的边际重心继续向 HPC 倾斜
+
+TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
+
+- HPC platform revenue mix：**66%**；
+- smartphone：**22%**；
+- advanced technologies（7 nm 及以下）占 wafer revenue：**77%**；
+- 2026 capital budget：**US$60B–64B**。
+
+这些仍然是 revenue mix / company CapEx，不是 AI wafer allocation。
+
+它们支持的更窄判断是：
+
+> **HPC 已经成为 TSMC 当前先进制造资本形成的核心边际需求之一，同时公司仍在显著提高先进制程与先进封装投入。**
+
+这强化了“下一美元资本投向哪里”的研究主线，但不能被改写成：
+
+- 66% wafer 都是 AI；
+- 77% advanced-technology revenue 都属于 NVIDIA；
+- US$60–64B CapEx 全部用于 AI；
+- smartphone 已失去 leading-edge access。
+
 ## 3. Customer revenue share 不能换算成 wafer / node / CoWoS share
 
 2025 largest customer 19% 与 second-largest customer 17% 是**年度收入排名口径**。[^2]
@@ -115,3 +137,4 @@ TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 领�
 [^5]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^6]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^7]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^8]: TSMC, 2Q26 Quarterly Results / Earnings Conference, platform mix, advanced-technology revenue mix and 2026 capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
