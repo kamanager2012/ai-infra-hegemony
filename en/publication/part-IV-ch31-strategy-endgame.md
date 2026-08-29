@@ -148,15 +148,15 @@ Experimental or rapidly changing workloads should preserve flexible / multi-prov
 
 The dangerous sequence is to reserve large long-duration capacity first and search for enough workloads later.
 
-## 5. Enterprise strategy: the primary stack can be concentrated, but the second path must be executable
+## 5. Enterprise strategy: price executable optionality; maintain a second path when its value exceeds carrying cost
 
 Portability does not require equal purchasing across all vendors.
 
 A stronger principle is:
 
-> **Optimize the primary stack for efficiency; optimize the second path for executability.**
+> **Optimize the primary stack for efficiency; price optionality explicitly, and maintain a production-like second path only when continuity / bargaining / recovery value exceeds its carrying cost.**
 
-At minimum, preserve:
+Even when a continuously maintained second production path is not justified, preserve the cheapest forms of reversibility available:
 
 - model portability;
 - data portability;
@@ -165,7 +165,7 @@ At minimum, preserve:
 - open interfaces;
 - workload benchmarks and cost observability.
 
-The second path exists to reduce single-point supply, pricing, policy, and migration risk.
+Where a second path is maintained, it exists to reduce single-point supply, pricing, policy, and migration risk. A low-criticality workload in an abundant / highly portable market may rationally rely on reconstructible optionality instead of carrying a permanently validated duplicate path.
 
 ## 5A. End-system companies: manage Quantity Assurance alongside price
 
