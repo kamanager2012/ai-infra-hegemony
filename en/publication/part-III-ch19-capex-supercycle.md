@@ -105,7 +105,7 @@ This report tracks:
 - **Forward Commitment:** CapEx guidance / supply commitments / compute contracts / power contracts;
 - **Demand Quality / Financing:** customer cash generation / third-party capital risk appetite / supplier equity and credit support / refinancing dependency.
 
-Only synchronized deterioration across several classes is sufficient to move from "ROI pressure" toward "Capital Hard Landing."
+Only broad, persistent deterioration across **multiple causally independent classes**, with cross-actor / cross-layer confirmation, is sufficient to move from "ROI pressure" toward "Capital Hard Landing." Accounting is confirmatory / severity evidence rather than a mandatory gate.
 
 ## 8. A second-order effect: successful capital expansion raises the future performance hurdle
 
@@ -133,7 +133,7 @@ As of August 2026, public data still supports:
 
 rather than a completed capital-clearing cycle.
 
-A real turn would require utilization, market clearing, forward commitments, accounting signals, and demand-financing quality to deteriorate together.
+A real turn would require multiple independent signal families across utilization/revenue, market clearing, forward commitments, demand-financing quality, and accounting to cross-confirm broad deterioration across actors/layers; Accounting strengthens severity when present but is not required.
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
 
