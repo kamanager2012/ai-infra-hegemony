@@ -567,9 +567,9 @@ Revised research-side timing label:
 
 ---
 
-# 10. A–H Unified Timing Matrix v0.8
+# 10. A–I Unified Timing Matrix v1.0
 
-为了减少跨案例叙事自由度，v0.7 将所有现有观察统一成同一时钟。
+为了减少跨案例叙事自由度，v1.0 将所有现有观察统一到同一 publication-time / causal-breadth 时钟。
 
 | Case | First deterioration | Cross-confirmation | Accounting confirmation | Trough / stabilization | Timing confidence |
 |---|---|---|---|---|---|
@@ -581,7 +581,6 @@ Revised research-side timing label:
 | F · 2014–2016 Oil & Gas Upstream | 2014 H2 | 2015 H1–H2 | 2015–2016 reporting | 2016 Q2–Q4 | High |
 | G · 2018–2019 Hyperscale Cloud Digestion | 2019 CapEx deceleration | **No systemic cross-confirmation** | None | N/A — negative control | High |
 | H · 2011–2013 Solar PV Manufacturing | 2011 mid-year / Q3 | 2011 Q3–Q4 | 2012 reporting cycle | late-2012 / early-2013 stabilization candidate；2014 equipment-layer recovery confirmed，full normalization not claimed | High / Medium–High |
-| I · 2019 Boeing 737 MAX / Commercial Aerospace | 2019 Mar–Apr | **No system-wide cross-confirmation** | Boeing-specific accounting confirmation Q2 2019 | N/A — negative control; pre-COVID system clearing never confirmed | High |
 | I · 2019 Boeing 737 MAX / Commercial Aerospace | 2019 Mar–Apr | **No system-wide cross-confirmation** | Boeing-specific accounting confirmation Q2 2019 | N/A — negative control; pre-COVID system clearing never confirmed | High |
 
 ### 10.1 目前能看出的 lead / lag
@@ -607,7 +606,7 @@ Revised research-side timing label:
 
 9 个 observations 仍然太少，而且 A/E 相关、B/C 都带 GPU exposure；G/I 是不同产业、不同机制的独立 negative controls。
 
-因此 v0.7 **不**：
+因此 v1.0 **不**：
 - 计算平均 lead time 后包装成“预测提前 X 个月”；
 - 做 p-value / regression；
 - 优化五信号权重；
@@ -620,7 +619,7 @@ Revised research-side timing label:
 
 ---
 
-# 11. v0.8 回测结论
+# 11. v1.0 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -632,7 +631,6 @@ Revised research-side timing label:
 | 2014–2016 Oil & Gas Upstream | 2 | 2 | 2 | 2 | 2 | Broad clearing |
 | 2018–2019 Hyperscale Cloud CapEx Digestion | 0 | 0 | 0 | 1 | 0 | No systemic clearing |
 | 2011–2013 Solar PV Manufacturing | 2 | 2 | 2 | 2 | 2 | Broad multi-segment clearing |
-| 2019 Boeing 737 MAX / Commercial Aerospace | 2 | 2 | N/A / idiosyncratic | 2 | 0 | Severe company/program disruption; **No system-wide clearing** |
 | 2019 Boeing 737 MAX / Commercial Aerospace | 2 | 2 | N/A / idiosyncratic | 2 | 0 | Severe company/program disruption; **No system-wide clearing** |
 
 当前结果说明：
@@ -655,13 +653,13 @@ Revised research-side timing label:
 
 ---
 
-# 12. Prospective Adjudication Protocol v0.8
+# 12. Prospective Adjudication Protocol v1.0
 
 历史回放真正需要解决的是 **look-ahead bias**。
 
 一个 2011 年发生、但 2012 年年报才明确披露的 impairment，不能被当作“2011 年实时已知信号”。
 
-因此，P0-1 从 v0.8 开始对每条证据同时记录两种时间：
+因此，P0-1 自 v0.8 起对每条证据同时记录两种时间；v1.0 继续冻结这一 anti-look-ahead 规则：
 
 ```text
 event_time
