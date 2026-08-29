@@ -269,6 +269,35 @@ Dashboard K uses three **scenario-aggregation** labels only. These do not replac
 
 These are **ordinal research states**, not calibrated S4 thresholds.
 
+### 6A.3A 04B → Dashboard K interpretation bridge
+
+`04B` maintains company-level descriptive states.
+
+Dashboard K consumes them, but there is **no deterministic one-to-one mapping**.
+
+| 04B company state | Typical Dashboard K implication | What is still required before escalation |
+|---|---|---|
+| **SELF-FUNDED EXPANSION** | normally K-A | check that demand breadth / utilization remain healthy |
+| **BALANCE-SHEET AMPLIFIED EXPANSION** | K-A or K-B | financing quality, persistence and 04C/04D cross-confirmation |
+| **CONCENTRATION-SENSITIVE EXPANSION** | usually K-B watch | evidence that concentration is worsening economics / financing, not merely large |
+| **RETRENCHMENT WATCH** | K-B | multi-company persistence + weaker monetization / financing |
+| **CLEARING CANDIDATE** | K-B or possible K-C | independent clearing/accounting + cross-actor breadth + 01A confirmation |
+
+Hard rule:
+
+> **04B CLEARING CANDIDATE does not automatically equal Dashboard K-C, and Dashboard K-C does not automatically equal system-wide S4.**
+
+The hierarchy is:
+
+```text
+company descriptive state (04B)
+→ scenario aggregation (Dashboard K)
+→ live cross-signal adjudication (01A)
+→ formal-report scenario weight only if the frozen-report boundary is explicitly reopened
+```
+
+This prevents state-label inflation across layers.
+
 ### 6A.4 Relationship to P0-1 historical timing
 
 P0-1 shows that Accounting often confirms rather than leads a long-duration capital clearing, while inventory-led corrections can produce near-synchronous Accounting and Market Clearing.
