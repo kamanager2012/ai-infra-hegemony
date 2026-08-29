@@ -100,10 +100,16 @@
     },
     {
       "id": "CXMT-PROSPECTUS",
-      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf",
-      "final_url_contains": "002170_20251230_B8QS.pdf",
-      "note": "Stable Shanghai Stock Exchange prospectus version; supports the cited 2025 Q2 Omdia 3.97% DRAM revenue-share metric and the RMB180B/RMB130B project/proceeds distinction.",
-      "retrieval_note": "The exact official SSE prospectus URL is indexed and text-retrievable in public web search, but direct open in the current web client was unstable during the 2026-08-29 audit."
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf",
+      "final_url_contains": "002170_20260527_23QQ.pdf",
+      "note": "Latest 2026-05-27 SSE registration prospectus is the primary evidence for product/fundraising/HBM-disclosure scope; the 2025-12-30 SSE prospectus is retained as an official fallback for public retrieval stability and the Omdia 3.97% DRAM revenue-share anchor.",
+      "retrieval_note": "The exact official SSE prospectus URL is indexed and text-retrievable in public web search, but direct open in the current web client was unstable during the 2026-08-29 audit.",
+      "fallback_urls": [
+        {
+          "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf",
+          "final_url_contains": "002170_20251230_B8QS.pdf"
+        }
+      ]
     },
     {
       "id": "COUNTERPOINT-YMTC",
@@ -205,17 +211,17 @@
   ],
   "last_manual_sweep": {
     "date": "2026-08-29",
-    "method": "Direct public-web open of all 37 primary URLs, supplemented only by exact-URL search-index retrieval when direct open failed.",
-    "result": "37/37 critical evidence sources remained retrievable under the audit policy: 36/37 opened directly; the CXMT Shanghai Stock Exchange prospectus was retrievable and text-indexed at the exact official SSE URL but direct open was unstable in the web client.",
-    "primary_direct": "36/37",
-    "indexed_exact_url": [
+    "method": "Fresh end-to-end audit of formal-report links, research-layer high-risk anchors, and the curated critical-link manifest. Official fallbacks are accepted only when institution and claim identity remain valid.",
+    "result": "37/37 critical evidence items remain usable under the manifest policy",
+    "primary_direct": "36/37 in direct public retrieval during this sweep",
+    "fallback_used": [
       "CXMT-PROSPECTUS"
     ],
     "repaired_or_repointed": [
       "TSMC-2Q26-TRANSCRIPT -> stable TSMC 2026 Q2 Quarterly Results page",
-      "CXMT-PROSPECTUS -> stable 2025-12-30 Shanghai Stock Exchange prospectus",
-      "UNESCO AI competency framework student/teacher pages -> stable official hub URLs"
+      "UNESCO AI competency framework student/teacher pages -> stable official hub URLs",
+      "CXMT-PROSPECTUS -> 2026-05-27 registration prospectus restored as primary; 2025-12-30 SSE prospectus retained as official fallback"
     ],
-    "note": "No high-impact claim lost source support. The SSE prospectus remains an official-source anchor but should be treated as a brittle direct-download URL."
+    "note": "No high-impact claim lost source support. Search indexing could retrieve the 2026-05-27 CXMT registration prospectus, while direct public fetch was intermittent; this is recorded as a fallback case rather than primary-direct success."
   }
 }
