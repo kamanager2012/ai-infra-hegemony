@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.7
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.8
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -737,43 +737,121 @@ A successful authenticated export has now been obtained. The retrieved panel rep
 
 This is a meaningful data-path closure, not an empirical estimate.
 
-### 13B.8 Weekly aggregation sanity check v0.7
+### 13B.8 Weekly / daily reconciliation v0.8
 
-A week-level aggregation of the retrieved daily rankings gives:
+The three completed weekly buckets reconcile **exactly** to the sum of the daily dataset:
 
-| Week starting Monday | Calendar coverage in export | Model rows represented in weekly aggregation | Total tokens | Normalized tokens/day |
-|---|---:|---:|---:|---:|
-| 2026-08-03 | 7 days | 51 | 69.05T | 9.86T/day |
-| 2026-08-10 | 7 days | 51 | 75.34T | 10.76T/day |
-| 2026-08-17 | 7 days | 51 | 93.38T | 13.34T/day |
-| 2026-08-24 | **5 days only, through Aug 28** | 51 | 96.90T | **19.38T/day** |
+| Week starting Monday | Weekly endpoint total | Sum of daily rows | Difference |
+|---|---:|---:|---:|
+| 2026-08-03 | 69.046537847932T | 69.046537847932T | 0 |
+| 2026-08-10 | 75.340581084831T | 75.340581084831T | 0 |
+| 2026-08-17 | 93.377524278867T | 93.377524278867T | 0 |
+| 2026-08-24 | 96.895737233486T | 86.478812994782T for Aug 24–28 daily rows | **+10.416924238704T** |
 
-The last row is a **partial week** and must never be compared mechanically with the prior full-week totals. Its normalized daily rate is descriptive only because model entry/exit and traffic composition changed sharply.
+The latest weekly bucket therefore **cannot be treated as a five-day Aug 24–28 total**, even though the exported daily window ends on Aug 28 and the week key is Aug 24. The bucket contains additional / differently cut off traffic that is not identified by the available fields.
 
-Latest partial-week target-model totals:
-- Luna: **6.14T** tokens (~6.3% of observed weekly total);
-- Sol: **1.52T** (~1.6%);
-- Terra: **520.89B** (~0.54%).
+Hard correction:
 
-A critical composition diagnostic is `stealth/ox-alpha`: it ranks #1 for the Aug-24 partial week with **15.68T** tokens (~16.2% of the observed weekly total), yet it is absent from the top-51 snapshot on Aug 28.
+> **Do not divide the 96.90T Aug-24 weekly bucket by five and call the result daily traffic.**
 
-This proves a methodological point:
+The earlier v0.7 normalization to 19.38T/day is withdrawn.
 
-> **one daily ranking snapshot is not a valid proxy for the event-window composition.**
+`stealth/ox-alpha` remains a useful composition diagnostic: its Aug-24 weekly bucket is **15.68T**, while it is absent from the Aug-28 top-51 snapshot. This reinforces the rule that a single daily ranking is not a proxy for the event-window composition.
 
-The panel must preserve model-day entry/exit, top-50 censoring, and within-week traffic concentration before estimating any treatment effect. Weekly totals can be used as a sanity check for market expansion, but not as a substitute for the model-day event study.
+### 13B.9 Full target-model coverage audit v0.8
+
+The 1,530-row daily export closes the top-50 censoring question for the three target models over the full 30-day retrieved window:
+
+| Model | Observed days / required days | Rank range | Censoring result |
+|---|---:|---:|---|
+| Terra | **30 / 30** | 15–30 | **PASS — no target-day censoring** |
+| Luna | **30 / 30** | 1–17 | **PASS — no target-day censoring** |
+| Sol | **30 / 30** | 11–32 | **PASS — no target-day censoring** |
+
+Therefore missing top-50 membership is **not** a source of bias for Terra/Luna/Sol in this Jul-30 → Aug-28 panel.
+
+Source-provenance checksum for the uploaded 30-day daily export:
+
+`SHA-256 = 6d7f3c39318f3668eac5cf247ef764635807a1c703764f00294edea8a476b2f2`
+
+### 13B.10 Sol Aug-17 50% discount — short-window event calibration v0.8
+
+OpenRouter's own event documentation states that Sol remained untreated through Aug 16 and received a **50% discount beginning Aug 17**.
+
+Raw daily panel comparison:
+
+| Metric | Jul 30–Aug 16 pre | Aug 17–28 post | Post / pre |
+|---|---:|---:|---:|
+| Sol tokens/day | **86.53B** | **227.53B** | **2.629×** |
+| Sol share of OpenRouter-visible tokens | **0.875%** | **1.524%** | **1.741×** |
+| Total OpenRouter-visible tokens/day | **9.739T** | **14.988T** | **1.539×** |
+
+The raw token ratio would imply:
+
+`ln(2.629) / ln(0.5) = -1.395`
+
+But that is not a defensible causal estimate because the entire OpenRouter-visible market expanded sharply over the same period.
+
+Preferred short-window specification:
+
+`ln(SolTokens_t) = α + β·PostAug17_t + γ·ln(NonSolTokens_t) + δ·time_t + day-of-week FE + ε_t`
+
+with HAC(3) standard errors.
+
+Full-window estimate:
+
+- `β = 0.3237`;
+- `SE_HAC(3) = 0.0793`;
+- implied Sol quantity level shift: `exp(β) = 1.382×`;
+- for a 50% price cut, event elasticity `β / ln(0.5) = **-0.467**`;
+- approximate 95% CI: **[-0.691, -0.243]**;
+- `p ≈ 4.45e-5`.
+
+Window-end robustness using the same specification and Jul-30 start:
+
+| Post-window end | Implied elasticity | Approx. 95% CI |
+|---|---:|---:|
+| 2026-08-20 | **-0.466** | [-0.710, -0.222] |
+| 2026-08-24 | **-0.478** | [-0.694, -0.263] |
+| 2026-08-28 | **-0.467** | [-0.691, -0.243] |
+
+The preferred estimate is unusually stable to the post-window endpoint in this sample.
+
+A pre-period diagnostic using `ln(SolTokens) ~ time + ln(NonSolTokens) + day-of-week FE` gives a residual time-trend coefficient near zero (`0.00033`, `p≈0.98`). This is supportive, but the pre-period has only 18 observations and should not be oversold as a definitive parallel-trends test.
+
+Interpretation boundary:
+
+> **The v0.8 coefficient is a short-window OpenRouter-visible Sol event elasticity, not a global model-demand elasticity, not E2/E3/E4 workflow elasticity, and not infrastructure-demand elasticity.**
+
+Reasonable empirical reading:
+
+- raw quantity response is much larger than the market-adjusted effect;
+- a material Sol usage response remains after controlling for broad OpenRouter traffic growth and calendar trend;
+- the preferred event estimate is around **-0.47**, with adjusted-specification values clustering around roughly **-0.43 to -0.55**;
+- the result is materially below the naive raw `-1.40`, demonstrating why market expansion / composition must be controlled.
+
+### 13B.11 Why Terra / Luna do not yet yield a clean causal coefficient from this export
+
+The raw export begins on **Jul 30**, after the Jul-27 OpenRouter program started and exactly when OpenAI changed Terra/Luna list prices. It therefore lacks the required model-day pre-period for the initial Terra/Luna treatment.
+
+The Aug-15 end of the OpenRouter discount is observable, but it is not a clean reverse experiment: user retention, composition changes, and rapidly rising platform traffic dominate the simple pre/post comparison. For example, Luna daily tokens are higher after the promotion even though its effective price doubled when the OpenRouter 50% program ended.
+
+Therefore:
+
+> **do not manufacture Terra/Luna own-price elasticity from the Jul-30 → Aug-28 export.**
+
+The official OpenRouter headline ratios remain descriptive evidence for the Jul-8 → Aug-20 wider window; the independently estimated v0.8 coefficient belongs only to the Sol Aug-17 event.
 
 ---
 
-## 15. P0-2 v0.7 worklist
+## 15. P0-2 v0.8 worklist
 
-1. obtain/reconstruct daily provider-model price and token panels for eligible events;
-2. ingest the retrieved 1,530-row export; build the Terra/Luna/Sol common-window panel and audit top-50 censoring before any estimation;
-3. separate **share displacement** from **net market token expansion**;
-4. test whether elasticity differs by workload category where usage labels are observable;
-5. report confidence intervals / robustness specifications;
-6. keep E3 separate until real VSWO datasets are populated;
-7. do not replace the D-grade sensitivity grid with -1.11 unless the estimand is explicitly E1.
+1. preserve the Sol Aug-17 event estimate as a **short-window platform-visible E1 calibration**, not a structural coefficient;
+2. obtain a machine-readable Jul-8 → Jul-29 pre-window before attempting an independent Terra/Luna price coefficient;
+3. continue separating **share displacement** from **net market token expansion**;
+4. test whether elasticity differs by workload category only where usage labels are observable;
+5. keep E2/E3/E4 separate until workload / VSWO datasets exist;
+6. do not replace the D-grade sensitivity grid with either -1.11 or the Sol -0.47 event estimate outside its stated estimand.
 
 ## Sources
 
