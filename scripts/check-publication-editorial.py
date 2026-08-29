@@ -55,7 +55,7 @@ def main() -> int:
             print(f"- {item}")
         return 1
 
-    print("Publication editorial gate PASS: no release-hygiene blockers detected.")
+    print("Publication editorial check PASS: no draft markers or unit-casing issues detected.")
     return 0
 
 
