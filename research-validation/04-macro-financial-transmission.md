@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.13
+# P0-4 · Macro-Financial Transmission Layer v0.14
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -1453,7 +1453,76 @@ Before assigning the Accounting signal to AI S4, identify:
 
 This rule should be applied to every mixed-business infrastructure company.
 
-### 11B.5 Borrower-level watch states
+### 11B.5 Standardized borrower maturity / pricing / concentration matrix
+
+The project-finance panel is now normalized into one update table.
+
+| Borrower / reference | Financing amount / structure | Pricing | Maturity / wall | Cash-flow / collateral support | Concentration / prepayment | Current research read |
+|---|---|---|---|---|---|---|
+| CoreWeave · 2026Q2 | ~US$13.6B DDTLs + ~US$16.6B notes outstanding; additional revolver capacity | multiple facilities; not harmonized into one rate | multiple maturities; no single maturity-wall identity used here | asset collateral + pledged contractual cash flows, generally from investment-grade counterparties | contract-backed financing is central | large financing scale; watch contract quality, leverage and refinancing rather than nominal debt alone |
+| Core Scientific · 2026Q2 | US$3.3B senior secured notes linked to colocation cash-flow structure | not harmonized in current panel | not reduced to one maturity metric in v0.1 | CoreWeave contract revenues feed a lockbox supporting debt | CoreWeave ~77% of H1 revenue; all colocation revenue from CoreWeave | high counterparty concentration; transmission risk if anchor cash flows weaken |
+| Nebius · Jul-2026 | ~US$775M first senior secured facility; separate corporate convertibles for broader expansion | SOFR + 2.50% on secured facility | Oct-2030 on secured facility | deployed GPUs + contracted cash flows from investment-grade customer | customer contract plus facility covers >100% of underlying deployment CapEx | financeable contract-backed expansion; future dependency on contract performance |
+| Applied Digital · FY2026 | US$2.35B 2030 secured notes + US$2.15B 2031 secured notes + US$450M convertibles + US$300M bridge + other debt | 9.25%, 6.75%, 2.75% on major disclosed notes; weighted-average term-loan rate ~7.1% | bridge Apr-2027; major notes 2030–31; ~US$4.19B principal scheduled FY31 | project / secured-note structure; DSCR covenant disclosed for hosting subsidiary | concentration should be monitored beside tenant / lease cash flows | highest explicit maturity-wall sensitivity in current five-borrower panel |
+| IREN · 2026 | Microsoft-linked ~US$3.6B GPU financing + ~US$2.8B additional GPU financings + convertibles / leases | ~6% Microsoft-linked; one large additional financing ~9% fixed | multiple facilities; no single maturity wall used yet | GPUs + customer-contract cash flows; customer prepayments reduce sponsor funding need | Microsoft prepayment ~US$1.9B; recent contracts prepay ~45–55% of associated GPU CapEx | strong contract-backed expansion, but financing price and counterparty quality differ materially across deployments |
+
+### 11B.5A Update fields
+
+Every future borrower update should capture the same minimum fields:
+
+1. **Reference date**
+2. **Gross debt / facility size**
+3. **Cash drawn vs committed-but-undrawn**
+4. **Fixed / floating pricing**
+5. **Maturity**
+6. **Collateral**
+7. **Pledged customer cash flow**
+8. **Customer concentration**
+9. **Prepayment / minimum payment**
+10. **Interest expense / capitalized interest**
+11. **Covenant / DSCR**
+12. **Refinancing / extension**
+13. **Project delivery state**
+14. **Impairment identity**
+
+Missing values remain N/A.
+
+Do not infer a value from another borrower merely to complete the matrix.
+
+### 11B.5B First cross-borrower lesson
+
+The current five-borrower panel already shows that “AI debt” is not one asset class.
+
+It contains at least:
+
+- investment-grade-customer-backed GPU facilities;
+- high-coupon project secured notes;
+- customer-prepayment structures;
+- corporate convertibles;
+- finance leases;
+- landlord / colocation cash-flow securitization;
+- bridge facilities.
+
+Therefore:
+
+> **gross debt / AI CapEx is too crude to function as an S4 metric.**
+
+A better financing-risk decomposition is:
+
+```text
+Refinancing Risk
+=
+Maturity Concentration
+× Funding-Cost Sensitivity
+× Contract / Customer Fragility
+× Residual-Value Risk
+× Delivery Risk
+```
+
+This is a conceptual multiplicative map, not an estimated formula.
+
+---
+
+### 11B.6 Borrower-level watch states
 
 For project-financed AI infrastructure, use:
 
@@ -1519,7 +1588,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.13 conclusion
+## 14. v0.14 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1527,7 +1596,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and the project-finance layer now extends beyond CoreWeave / Core Scientific to Nebius, Applied Digital, and IREN with distinct contract-backed, maturity-wall, prepayment, and GPU-financing structures. The next empirical task is to resolve the stable CMDI direct-file path and begin a standardized borrower maturity / interest / customer-concentration table.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and CoreWeave / Core Scientific / Nebius / Applied Digital / IREN now sit in one standardized borrower maturity / pricing / concentration matrix. The next empirical task is to resolve the stable CMDI direct-file path and begin filling interest expense, drawn-vs-committed balances, covenant / DSCR and refinancing changes on the standardized borrower fields.
 
 ## Sources
 
