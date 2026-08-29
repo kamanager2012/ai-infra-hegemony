@@ -62,6 +62,11 @@ AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资�
 ### AI Capacity Gap / AI Capacity Growth Gap
 **AI Capacity Gap** 是同一 physical layer、同一交付窗口下 `AI effective demand − AI effective capacity` 的绝对物理缺口；**AI Capacity Growth Gap** 是需求增长率与有效产能增长率之差，只描述缺口扩大/收敛方向。二者不得互换。不同 physical layer 必须分别计算，不能合并成一个综合“资源占有率”。
 
+### Incremental Scarce-Capacity Access
+用于判断不同 buyer 能否在 advanced logic、HBM/DRAM、advanced packaging、networking、LPS 与 energized power 等**各自物理层**持续获得足量、qualified、按时交付供给的框架。
+
+观察变量包括 qualified suppliers、lead time、allocation fulfillment、long-term agreements / prepayments、delivery schedule、buyer credit quality 与 supply elasticity。不同 physical pool 不压缩成一个跨层“综合占有率”。
+
 ### Cloud System-Stack Substitution
 hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/pod 与 captive workload 形成第二类生产级 system stack 的替代机制。
 
@@ -73,6 +78,21 @@ hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/p
 
 ### AI Software Unit Economics
 以 successfully completed workflow 为核心单位，计算 inference、retrieval/storage、tools/API、retry、human review 等真实变动成本。
+
+### Financing Reflexivity
+当 system seller 同时通过 equity investment、credit enhancement、LPS support 或 compute-financing coordination 加速 customer 与 infrastructure buildout 时形成的反馈机制。它不证明需求“虚假”，但会改变 demand independence、risk transfer 与 refinancing dependency 的判断。
+
+### Production-Grade Parallel Stack
+替代系统在真实 production workload 中已经形成可持续闭环，至少需要同时观察 accelerator / compute、memory subsystem、advanced packaging、interconnect、compiler/runtime、production workload，以及 utilization / reliability / economics。它不要求所有上游投入都已完全自主。
+
+### Autonomous Frontier Closure
+在关键外部输入受限时，系统仍能跨代扩张、升级与迭代的更高一级 closure。除 production-grade stack 外，还要求 advanced-manufacturing continuity、equipment / materials / software / service continuity，以及 HBM、packaging、power、LPS 与 capital formation 的跨代持续性。
+
+### Time-to-Power
+从 site / project 获得真实可交付电力条件所需的时间。必须与 headline generation capacity、PPA capacity、secured LPS 和 future IT-GW design capacity 区分。
+
+### Verified Workflow Output
+已经通过质量、责任或业务验收条件，可以被重复交付、计费或纳入真实生产流程的 AI-assisted workflow outcome。它是本报告连接 compute cost、enterprise adoption、cash flow 与 capital recovery 的需求侧闭环单位。
 
 ### Task-to-Job Translation
 Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome。用于避免把模型能力、职业暴露率或单个 task 自动化直接写成岗位消失率。
