@@ -1,84 +1,83 @@
-# English Research Edition · The Age of AI Infrastructure Hegemony
+# AI Industry Research Report · English Edition
 
-> This directory contains the continuous-reading English research edition. All 32/32 chapters follow the same analytical structure as the current Chinese canonical edition. Ongoing work focuses on research quality itself: factual semantics, industrial mechanisms, redundancy reduction, terminology, counter-evidence, and scenario boundaries.
+## The Age of AI Infrastructure Hegemony
 
-See the [English Report Scope and Evidence Boundaries](00-front-matter.md) and [Research Architecture](../PUBLICATION_STRUCTURE.md).
+**Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
+**Retrieval and revision cutoff:** August 28, 2026
 
-## Current research structure
+This 32-chapter report analyzes the shift from individual-accelerator competition toward system-stack competition and its consequences for advanced logic, HBM, advanced packaging, power, cloud architecture, capital formation, traditional end markets, China's parallel stack, and the long-run industrial structure.
 
-- **Part I — System Power and Physical Scarcity: 9/9 chapters synchronized.**
-- **Part II — Demand, Substitution, and the Second System Stack: 9/9 chapters synchronized.**
-- **Part III — Capital Cycles, Profit Pools, and External Transmission: 8/8 chapters synchronized.**
-- **Part IV — Method, Scenarios, Monitoring, and Strategy: 6/6 chapters synchronized.**
-- **English Publication Layer: 32/32 chapters synchronized to the current Chinese canonical edition.**
+The report keeps observed facts, company guidance, institutional forecasts, report-side calculations, hypotheses, and scenarios separate. See [Scope and Evidence Boundaries](00-front-matter.md).
 
-The Chinese and English Publication Layers now share the same 32-chapter architecture. The Chinese edition remains the final source of truth for resolving any future bilingual discrepancy.
+## Recommended reading paths
+
+For the core thesis:
+
+1. [Chapter 1 — Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
+2. [Chapter 32 — Master Judgment](part-IV-ch32-master-judgment.md)
+3. [Chapter 30 — The Four Standard Scenarios](part-IV-ch30-scenarios.md)
+
+For methodology and evidence discipline:
+
+- [Chapter 27 — Research Method and Evidence Architecture](part-IV-ch27-research-method.md)
+- [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
+- [Core Evidence Ledger](../核心证据台账.en.md)
+- [Core Source Index](../核心参考文献索引.en.md)
+
+---
 
 ## Part I — System Power and Physical Scarcity
 
-| Chapter | English publication chapter | Research-layer source |
-|---|---|---|
-| 01 | [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md) | vol-01 |
-| 02 | [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md) | vol-02 + vol-32 + macro-02 |
-| 03 | [AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md) | vol-03 + vol-09 |
-| 04 | [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md) | vol-04 |
-| 05 | [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md) | vol-05 + vol-23 |
-| 06 | [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md) | vol-24 + macro-03 |
-| 07 | [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md) | vol-13 + vol-35 + macro-06 |
-| 08 | [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md) | vol-16 + vol-17 |
-| 09 | [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md) | vol-34 |
+1. [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
+2. [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md)
+3. [AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md)
+5. [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md)
+6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md)
+7. [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md)
+8. [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)
+9. [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
-| Chapter | English publication chapter | Research-layer source |
-|---|---|---|
-| 10 | [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md) | vol-06 |
-| 11 | [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md) | vol-07 |
-| 12 | [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md) | vol-25 + macro-04 |
-| 13 | [Anchor Compute Buyer Effect](part-II-ch13-anchor-compute-buyer.md) | vol-26 |
-| 14 | [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md) | vol-27 |
-| 15 | [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md) | vol-28 |
-| 16 | [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md) | vol-33 |
-| 17 | [China's Parallel Stack — From Product Substitution to Frontier System Closure](part-II-ch17-china-parallel-stack.md) | vol-12 + vol-29 + macro-08 |
-| 18 | [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md) | vol-11 |
+10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
+11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md)
+12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
+13. [Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure](part-II-ch13-anchor-compute-buyer.md)
+14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
+15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
+16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
+17. [China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
+18. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md)
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
-| Chapter | English publication chapter | Research-layer source |
-|---|---|---|
-| 19 | [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md) | vol-08 |
-| 20 | [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md) | vol-14 + vol-21 |
-| 21 | [Cost Transmission into Consumer Electronics and the Real Economy](part-III-ch21-consumer-transmission.md) | vol-22 + macro-05 |
-| 22 | [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md) | vol-30 |
-| 23 | [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md) | vol-36 |
-| 24 | [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md) | vol-37 + macro-07 |
-| 25 | [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md) | vol-38 |
-| 26 | [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md) | vol-39 |
+19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
+20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
+21. [Cost Transmission into Consumer Electronics and the Real Economy](part-III-ch21-consumer-transmission.md)
+22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
+23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
+24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
+25. [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md)
+26. [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md)
 
 ## Part IV — Method, Scenarios, Monitoring, and Strategy
 
-| Chapter | English publication chapter | Research-layer source |
-|---|---|---|
-| 27 | [Research Method and Evidence Architecture](part-IV-ch27-research-method.md) | vol-18 |
-| 28 | [2026–2036 Timeline and Conditional Milestones](part-IV-ch28-timeline-2026-2036.md) | vol-19 |
-| 29 | [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md) | vol-31 |
-| 30 | [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md) | vol-10 |
-| 31 | [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md) | vol-15 + vol-20 + vol-40 |
-| 32 | [Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions](part-IV-ch32-master-judgment.md) | Master Judgment + macro-01 |
+27. [Research Method and Evidence Architecture](part-IV-ch27-research-method.md)
+28. [2026–2036 Timeline and Conditional Milestones](part-IV-ch28-timeline-2026-2036.md)
+29. [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md)
+30. [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md)
+31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
+32. [Master Judgment — The Industrial End-State of AI Infrastructure and the Conditions That Would Falsify It](part-IV-ch32-master-judgment.md)
 
-## Editorial and evidence rules
+## Research appendices
 
-The English publication layer follows the same rules as the Chinese canonical publication layer:
-
-1. One factual table has one canonical home.
-2. A mechanism is fully defined once; later chapters add evidence, boundaries, counterarguments, or falsification.
-3. First-party facts, institutional estimates, sell-side/supply-chain estimates, and report-side stress tests remain separate evidence grades.
-4. Revenue share is not wafer share; contracted MW is not energized MW; guidance is not actual performance.
-5. D-grade geometry and scenario arithmetic remain explicitly labeled.
-6. Sources move with the claims they support.
-7. Internal workpaper language and revision-process commentary do not enter publication text.
-8. Technical units retain standard notation: TB, GB, GHz, MHz, kW, MW, GW, MWh, TWh.
-
-## Current research status
-
-All **32/32 English research chapters** follow the current Chinese canonical research structure. Remaining work is substantive: strengthen source semantics, industrial mechanisms, counterarguments, scenario logic, and final editorial clarity.
+- [Scope and Evidence Boundaries](00-front-matter.md)
+- [List of Tables](02-list-of-tables.md)
+- [Abbreviations and Core Glossary](03-abbreviations-and-glossary.md)
+- [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
+- [Competitive Set, Substitution Paths, and Counter-Evidence Matrix](05-competitive-evidence-matrix.md)
+- [Core Evidence Ledger](../核心证据台账.en.md)
+- [Core Source Index](../核心参考文献索引.en.md)
+- [Core Concepts and Model Index](../核心概念与模型索引.en.md)
+- [Core Hypothesis Matrix](../核心假设矩阵.en.md)
