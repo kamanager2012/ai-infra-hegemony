@@ -377,6 +377,19 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 > **不要押注一个永远不变的终局；建立在终局变化时仍然可执行的选择权。**
 
+## 15. 什么事实会迫使本章改判
+
+长期战略选择应随以下变量改变：
+
+- multi-stack portability 是否从“备选”变成 production 常态；
+- scarce-layer supply 是否出现 durable abundance；
+- Time-to-Power 是否显著缩短；
+- workload monetization 是否能够独立覆盖 capital cost；
+- supplier-assisted financing 是否下降、独立长期资本是否上升；
+- China production-grade stack / autonomous closure 是否跨越更多关键层。
+
+因此，本章给出的不是固定十年终局，而是一组在这些变量变化时必须重新排序的战略优先级。
+
 ## References
 
 [^1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
