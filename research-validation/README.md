@@ -35,6 +35,7 @@
 - **Public-Proxy Scenario Dashboard**：v0.5；在 refinancing exposure / realized stress 分离基础上，Axis G 已新增 Seller / Sponsor Support protocol；支持强度上升只在独立资本、客户经济性与 refinancing 同时恶化时才成为 S4 amplifier；
 - **Financing Reflexivity Map**：v0.2；新增 2026 Support Taxonomy，把 seller equity、lease/payment guarantees、vendor/OEM finance、third-party capital mobilization 与 customer prepayment 分开，并固定 guarantee cap / support commitment ≠ funded CapEx ≠ independent demand；
 - **Non-AI End-System Supply Conditions**：v0.2；新增 Sony / Microsoft / Nintendo 三个 2025–2026 end-system response anchors，形成 quantity-assurance pressure、PC inventory/device-price transmission 与 cost-down absorption 的正反样本。
+- **Developer Distribution Chokepoint**：v0.1；由 2026-08-27 NVIDIA/Hugging Face reported transaction 触发，建立 model discovery / distribution / runtime / deployment 的 vertical-foreclosure 监测协议；当前只判定为潜在高影响纵向整合风险，不判定已完成 software monopoly。
 
 ## 文件索引
 
@@ -51,6 +52,7 @@
 - [10 · Minimum Public-Proxy Scenario Dashboard](10-public-proxy-scenario-dashboard.md)
 - [11 · Financing Reflexivity Map](11-financing-reflexivity-map.md)
 - [12 · Non-AI End-System Supply Conditions](12-non-ai-end-system-supply-conditions.md)
+- [13 · Developer Distribution Chokepoint](13-developer-distribution-chokepoint.md)
 
 ## 下一阶段
 
@@ -63,4 +65,5 @@
 5. Decision Invariants 下一步只验证 actor-specific implementation cost：检查 10 条 hard invariants 是否在 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体上都可操作；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 继续补 Non-AI end-system response panel：优先找第二个 console platform、更多 PC OEM、automotive/industrial 的一手 procurement / lead-time / margin / qualification evidence；必须同时保留 cost-down / inventory / substitution 反证；
-8. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
+8. Developer Distribution Chokepoint 后续只跟踪交易正式状态、ranking/backend neutrality、multi-vendor parity、deployment friction、model-creator multi-homing 与监管 remedy；不把单一 UI/default 变化升级成 foreclosure。
+9. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
