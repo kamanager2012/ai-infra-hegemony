@@ -112,7 +112,7 @@ NVIDIA does not directly manufacture every critical scarce layer. It still depen
 
 Strong platform power therefore does not make physical supply fully endogenous. A mismatch in TSMC capacity, HBM, advanced packaging, or power can constrain next-generation delivery.
 
-This is why the report separates **Scarce-layer Value Capture** from a simple market-share monopoly story. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
+This is why the report separates **Scarce-layer Value Capture** from a simple market-share monopoly framework. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
 
 ## 7. The real counterattack is a Cloud System Stack, not a single ASIC
 
