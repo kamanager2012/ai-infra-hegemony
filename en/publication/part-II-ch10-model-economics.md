@@ -12,7 +12,7 @@ The relevant unit is:
 
 ## 2. Algorithmic efficiency changes the demand function
 
-DeepSeek-V3 first-party disclosures include:[^1][^1]
+DeepSeek-V3 first-party disclosures include:[^1]
 
 - 671B total parameters;
 - 37B activated parameters;
@@ -28,7 +28,7 @@ The important implication is that frontier capability is not linearly fixed to h
 
 ## 3. MLA shows that memory cost can be attacked directly by algorithms
 
-DeepSeek-V2 reports, relative to DeepSeek 67B:[^2][^2]
+DeepSeek-V2 reports, relative to DeepSeek 67B:[^2]
 
 - approximately **93.3% KV-cache reduction**;
 - approximately **5.76× maximum generation throughput**.
@@ -38,6 +38,18 @@ These figures belong to V2, not V3.
 Their economic significance is that the same HBM capacity can support more concurrency, memory traffic per token can fall, and serving utilization can improve.
 
 Lower unit cost, however, does not guarantee lower aggregate infrastructure demand. If lower cost causes token, agent, and workflow volume to rise faster, total demand can still increase.
+
+## 3A. Price compression is observed, but it does not imply falling total compute demand
+
+Stanford AI Index 2025 provides a historical anchor: at the report's GPT-3.5-equivalent MMLU performance level, inference cost fell from about **US$20 per million tokens** in November 2022 to about **US$0.07 per million tokens** in October 2024—roughly a **280× decline**.[^3]
+
+That comparison depends on a specific benchmark, model set, and time window. It should not be rewritten as "all model prices fell 280×." What it does establish is narrower:
+
+> **The unit price of a benchmark-equivalent capability can compress rapidly; model-layer rent is not fixed.**
+
+Stanford AI Index 2026 also reports further convergence among leading models on Arena-style evaluations, shifting more competitive pressure toward cost, reliability, and domain-specific performance.[^4]
+
+This strengthens the chapter's core mechanism: **falling model prices and rising total infrastructure demand can coexist**. The decisive variables remain workload volume, resource intensity, and utilization.
 
 ## 4. Open source compresses model-layer profit first; it does not automatically compress all infrastructure profit
 
@@ -118,3 +130,5 @@ Algorithmic efficiency can become either a **demand interrupter** or a **usage m
 
 [^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
 [^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
+[^3]: Stanford HAI, “2025 AI Index Report — Research and Development,” inference-price comparison at a GPT-3.5-equivalent MMLU level, https://hai.stanford.edu/ai-index/2025-ai-index-report/research-and-development
+[^4]: Stanford HAI, “2026 AI Index Report — Technical Performance,” frontier-model performance convergence and the shift toward cost, reliability, and domain-specific competition, https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
