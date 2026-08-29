@@ -128,6 +128,16 @@ The current research cross-section includes information that could be obtained a
 
 Facts that appear after the research cutoff are new research inputs. They may strengthen, weaken, or overturn current judgments, but they should not be backdated into the August 28, 2026 evidence set or automatically inserted into the frozen formal text. They may enter a new research snapshot only if the formal-text freeze is explicitly reopened.
 
+**Post-freeze correction rule for pre-cutoff sources:** if a source or fact was already publicly available **on or before August 28, 2026**, but is re-retrieved or re-verified during an August 29 freeze correction, it may be used to correct or strengthen the same August 28 evidence snapshot only if:
+
+- no fact that first occurred after August 28 is introduced;
+- the source publication date / observation window remains within the cutoff;
+- the evidence ledger records the real access / correction date rather than backdating it;
+- Git history preserves the actual post-freeze correction;
+- the correction is not used as a pretext to strengthen an unrelated future scenario.
+
+The **evidence-event/source-availability cutoff** and the **post-freeze verification date** must therefore be recorded separately.
+
 ---
 
 ## 9. External-use boundary
