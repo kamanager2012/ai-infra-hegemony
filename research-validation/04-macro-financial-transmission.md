@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.5
+# P0-4 · Macro-Financial Transmission Layer v0.6
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -548,6 +548,92 @@ The relevant state variables are:
 - customer commitments;
 - refinancing need.
 
+### 10A.5 2022–2025 hyperscaler annual self-funding history
+
+The 2026Q2 cross-section is useful, but one quarter can mislead.
+
+Phase II therefore adds a first annual history using each company's own disclosed accounting identity.
+
+**Do not compare the CapEx columns as if they were one standardized denominator.**
+
+| Company | 2022 | 2023 | 2024 | 2025 | Read-through |
+|---|---|---|---|---|---|
+| Microsoft | OCF **US$89.0B**; PP&E additions **US$23.9B** | OCF **US$87.6B**; PP&E additions **US$28.1B** | OCF **US$118.5B**; PP&E additions **US$44.5B** | OCF **US$136.2B**; PP&E additions **US$64.6B** | OCF grew materially while infrastructure investment accelerated; debt issuance is available but operating self-funding remains large |
+| Alphabet | OCF **US$91.5B**; CapEx **US$31.5B** | OCF **US$101.7B**; CapEx **US$32.3B** | OCF **US$125.3B**; CapEx **US$52.5B** | OCF **US$164.7B**; CapEx **US$91.4B** | investment intensity rises faster after 2023; company still generates very large OCF while also using external debt/equity capacity |
+| Meta | OCF **US$50.5B**; PP&E **US$31.4B** (+ finance-lease principal **US$0.85B**) | OCF **US$71.1B**; PP&E **US$27.0B** (+ lease principal **US$1.06B**) | OCF **US$91.3B**; PP&E **US$37.3B** (+ lease principal **US$1.97B**) | OCF **US$115.8B**; PP&E **US$69.7B** (+ lease principal **US$2.52B**) | operating cash generation expanded, but AI/infrastructure investment and long-term debt / future lease commitments also expanded sharply |
+| Amazon | OCF **US$46.8B**; PP&E purchases **US$63.6B** | OCF **US$84.9B**; PP&E purchases **US$52.7B** | OCF **US$115.9B**; PP&E purchases **US$83.0B** | OCF **US$139.5B**; PP&E purchases **US$131.8B** | OCF recovered strongly after 2022, but infrastructure / PP&E intensity accelerated again and 2025 gross PP&E purchases approached annual OCF |
+
+### 10A.5A Definition controls
+
+The annual history is **not** a synthetic four-company cash-coverage league table.
+
+- **Microsoft:** uses cash-flow-statement additions to property and equipment; quarterly total CapEx can additionally include finance leases.
+- **Alphabet:** uses reported capital expenditures, primarily technical infrastructure in the current AI build cycle.
+- **Meta:** cash-flow-statement PP&E purchases are shown separately from finance-lease principal; Meta's headline CapEx guidance/results often include both.
+- **Amazon:** cash-flow statement reports gross PP&E purchases, while Amazon's free-cash-flow reconciliation uses PP&E net of asset-sale proceeds / incentives.
+
+Therefore:
+
+> **A cross-company ratio should not be calculated unless the denominator is explicitly harmonized.**
+
+The useful signal is the **trajectory within each company**.
+
+### 10A.5B What the annual panel shows
+
+The 2022–2025 history weakens two opposite narratives.
+
+**“The AI build is simply debt-funded.”**
+
+Not supported:
+- operating cash generation expanded substantially at all four platforms by 2025;
+- Microsoft, Alphabet, Meta and Amazon all retained very large internal funding capacity.
+
+**“Because OCF is large, financing structure no longer matters.”**
+
+Also not supported:
+- CapEx / infrastructure spend accelerated materially;
+- Meta increased long-term debt and accumulated large not-yet-commenced data-center / network lease obligations;
+- Alphabet explicitly uses debt/equity issuance alongside cash generation;
+- Microsoft uses finance leases for large data-center sites;
+- Amazon's 2025 PP&E investment increased much faster than its OCF and financing inflows turned positive.
+
+The correct interpretation is:
+
+> **the hyperscaler build remains fundamentally cash-generative, but the marginal infrastructure dollar is increasingly financed through a broader mix of retained cash, debt, equity, leases and long-duration contractual commitments.**
+
+That is not an S4 signal.
+
+It becomes an S4-relevant signal only if:
+- OCF growth weakens;
+- CapEx remains rigid;
+- external financing becomes more expensive / dilutive;
+- utilization or monetization weakens;
+- commitments cannot be resized.
+
+### 10A.5C A first self-funding stress variable
+
+Phase II can now define a non-ranking monitor:
+
+```text
+Self_Funding_Headroom
+=
+Operating Cash Flow
+-
+Comparable Cash Infrastructure / PP&E Spend
+```
+
+But this variable is valid **only within a company and within a stable accounting definition**.
+
+It must not be compared mechanically across firms.
+
+The direction is useful:
+
+- rising headroom → more internal capacity to absorb buildout;
+- falling headroom → greater sensitivity to debt/equity/lease amplification;
+- negative headroom → not automatically distress, but external financing / balance-sheet support becomes more economically relevant.
+
+---
+
 ### 10A.5 Financing structure now separates into three layers
 
 The panel should therefore track:
@@ -584,7 +670,7 @@ Still to backfill:
 - Chicago Fed NFCI Credit Subindex on a reproducible quarterly aggregation basis;
 - private-credit spreads / covenants where public;
 - AI-infrastructure equity risk-premium proxy;
-- historical hyperscaler operating cash flow / CapEx before the current 2026Q2 cross-section;
+- quarterly—not only annual—hyperscaler OCF / CapEx / debt-equity issuance on a stable within-company definition;
 - neocloud interest expense / maturities;
 - supplier-support / guarantee amount by quarter.
 
@@ -725,3 +811,17 @@ The quarterly macro backbone is now populated for 2022Q1–2026Q2. The next empi
 - Alphabet Q2 2026 earnings exhibit — ~US$49.6B net equity raise and US$20.3B senior-note proceeds: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 - Meta Q2 2026 results — OCF US$31.86B; CapEx US$31.08B; cash/securities US$90.26B; long-term debt US$83.66B: https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx
 - Amazon Q2 2026 Form 10-Q — OCF US$45.4B; cash CapEx US$53.1B; technology infrastructure / AWS investment: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+
+
+## Hyperscaler annual-history sources
+
+- Microsoft FY2024 cash flows — 2022–2024 OCF and PP&E additions: https://www.microsoft.com/en-us/investor/earnings/fy-2024-q4/cash-flows
+- Microsoft FY2025 annual report / cash flows — 2023–2025 OCF and PP&E additions: https://www.microsoft.com/investor/reports/ar25/
+- Alphabet 2024 Form 10-K — 2022–2024 OCF and CapEx: https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm
+- Alphabet 2025 Form 10-K / Q4 earnings — 2025 OCF US$164.7B; CapEx US$91.4B: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
+- Meta FY2022 results — 2022 OCF / PP&E / finance-lease principal: https://investor.atmeta.com/investor-news/press-release-details/2023/Meta-Reports-Fourth-Quarter-and-Full-Year-2022-Results/default.aspx
+- Meta FY2023 results — 2023 OCF / PP&E / finance-lease principal: https://investor.atmeta.com/investor-news/press-release-details/2024/Meta-Reports-Fourth-Quarter-and-Full-Year-2023-Results-Initiates-Quarterly-Dividend/default.aspx
+- Meta FY2024 results — 2024 OCF / PP&E / finance-lease principal: https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx
+- Meta FY2025 results / 10-K — 2025 OCF / PP&E / finance-lease principal and future lease obligations: https://www.sec.gov/Archives/edgar/data/1326801/000162828026025534/meta-12312025x10kars.htm
+- Amazon 2024 Form 10-K — 2022–2024 OCF / PP&E purchases: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm
+- Amazon 2025 Form 10-K — 2023–2025 OCF / PP&E purchases and FCF reconciliation: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
