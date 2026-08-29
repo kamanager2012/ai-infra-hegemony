@@ -543,9 +543,9 @@ A headroom decline is therefore a **trigger for decomposition**, not a distress 
 
 ---
 
-### 10A.5P Financing structure now separates into three layers
+### 10A.5P P0-4 financing structure separates into three layers
 
-The panel should therefore track:
+The broader P0-4 stack separates financing into:
 
 ```text
 Layer 1 — Operating self-funding
@@ -558,17 +558,23 @@ Layer 3 — Project / contract-backed amplification
   private credit / SPV / customer-contract-backed debt / supplier support
 ```
 
-Microsoft / Alphabet / Meta / Amazon primarily illuminate Layers 1–2.
+**04B owns Layers 1–2 only.**
 
-CoreWeave / Core Scientific illuminate Layer 3.
+Microsoft / Alphabet / Meta / Amazon provide the corporate evidence for those layers.
+
+Layer 3 is maintained through:
+- `04C` for project / contract-backed borrower financing;
+- `04D` for supplier / sponsor support.
+
+04B may use Layer-3 state only as cross-confirmation context.
 
 S4 risk rises when:
 - Layer 1 weakens;
 - Layer 2 becomes more expensive or dilutive;
-- Layer 3 becomes more concentrated or refinancing-dependent;
+- Layer-3 evidence from 04C/04D also deteriorates;
 - utilization / monetization weakens at the same time.
 
-This structure is more informative than a single “AI CapEx funded by cash or debt” binary.
+This structure is more informative than a single “AI CapEx funded by cash or debt” binary and preserves appendix ownership.
 
 ### 10A.5Q v0.2 maintenance boundary
 
