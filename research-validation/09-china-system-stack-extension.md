@@ -1,7 +1,37 @@
-# P1.5 · China System-Stack Extension v0.1
+# P1.5 · China System-Stack Extension v0.2
 
 > **Status:** Research-side extension; not part of the frozen 32-chapter formal report.  
 > **Goal:** close four structural gaps in Chapter 17 without weakening its existing two-level closure discipline: **server/system delivery, Huawei full-stack comparison, auditable public-company map, and semiconductor industrial-policy political economy**.
+
+## 0. Technical-closure ownership contract v0.2
+
+This file is the authoritative research-side owner for **China technical system-stack closure**.
+
+It owns evidence by layer for:
+- compute / accelerator;
+- memory / HBM;
+- foundry continuity;
+- packaging / interconnect;
+- server / rack / cluster integration;
+- runtime / compiler / framework migration;
+- production workload / utilization economics;
+- multi-generation supply continuity.
+
+It does **not** own:
+- geopolitical policy-state classification — `05` owns G1–G5;
+- global scenario aggregation — `10` owns S1–S4 relevance;
+- formal Chapter 17 wording — frozen unless explicitly reopened.
+
+Evidence hierarchy:
+
+1. audited filing / regulator / official technical source;
+2. first-party product / deployment evidence;
+3. high-quality independent secondary research;
+4. market-data relay used only when the primary dataset is not publicly accessible.
+
+Hard rule:
+
+> **A secondary relay can establish that a market estimate exists; it cannot by itself close a high-impact technical or market-share claim when a stronger source is required.**
 
 ## 1. Core correction
 
@@ -368,7 +398,7 @@ The same discipline applies to Xiaomi XRing, where the Reuters source used in th
 
 # 7. China stack should be scored by layer, not by nationality label
 
-A Phase II matrix should eventually use:
+The v0.2 authoritative layer matrix is:
 
 | Layer | Production-grade evidence | External dependency | Autonomous-closure state |
 |---|---|---|---|
@@ -391,7 +421,7 @@ This prevents two opposite errors:
 
 ---
 
-# 8. v0.1 conclusion
+# 8. v0.2 conclusion
 
 The missing China analysis is not another list of domestic chip companies.
 
