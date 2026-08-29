@@ -219,7 +219,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 例如，某些区域可能出现 S3-style power scarcity，同时某些 workload 已进入 S1-style multi-stack competition；memory 可能暂时进入宽松，而 packaging 仍 tight；capital market 可能局部清算，但 productive workload 继续增长。
 
-因此，全书用 scenario weighting 描述**相对结构**，不把产业强行塞进单一路径。
+因此，本报告用 scenario weighting 描述**相对结构**，不把产业强行塞进单一路径。
 
 ## 12. 当前基准
 
