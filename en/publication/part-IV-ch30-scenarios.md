@@ -111,6 +111,8 @@ Typical synchronized signals include:
 - customer cash generation weakens while supplier equity / credit support or refinancing dependency rises;
 - independent third-party risk capital becomes less willing to absorb exposure.
 
+These are **typical signal families, not a mandatory five-of-five gate**. S4 confirmation depends on cross-signal confirmation plus cross-actor / cross-layer causal breadth. Accounting impairment is confirmatory / severity evidence, not a prerequisite; financing-led or real-economy clearing can be confirmed before qualifying write-down evidence appears.
+
 ### Clearing order
 
 The first pressure usually appears in:
@@ -294,7 +296,7 @@ Scenarios are distinguished along the following axes rather than by any single a
 
 The same capital evidence (for example the **>US$500B** mobilization target, the **US$50B** frontier-lab investment, and **2 GW** of credit support)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
 
-Boundary case: if demand growth slows materially without triggering the five S4 signal groups, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
+Boundary case: if demand growth slows materially without producing sufficient cross-signal confirmation and causal breadth across multiple S4 signal families, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
 
 ## 12B. Calibration status: a public-proxy state machine, not a statistically calibrated classifier
 
