@@ -1,8 +1,8 @@
 # AI基础设施霸权时代
 
-## The Age of AI Infrastructure Hegemony
+**The Age of AI Infrastructure Hegemony**
 
-### 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构
+*全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构*
 
 **作者：** James（kamanager2012）  
 **资料检索与修订截止：** 2026-08-28  
