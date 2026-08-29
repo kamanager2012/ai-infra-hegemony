@@ -15,8 +15,11 @@
 | DDR5 | Double Data Rate 5 SDRAM | One conventional-DRAM product class |
 | RDIMM | Registered DIMM | Server memory; not equivalent to HBM |
 | LPDDR | Low-Power DDR | Used mainly in mobile/client systems and selected rack CPU memory |
+| GDDR | Graphics Double Data Rate memory | Common in gaming GPUs / game consoles; not treated as the same product pool as HBM |
 | NAND | NAND Flash | Different memory technology from DRAM/HBM |
 | eSSD | Enterprise SSD | Enterprise solid-state storage |
+| NVMe | Non-Volatile Memory Express | High-speed SSD interface / protocol; a product specification is not an industry-supply measure |
+| UFS | Universal Flash Storage | Mobile / embedded / selected game-console storage; analyzed separately from data-center SSD |
 | CoWoS | Chip-on-Wafer-on-Substrate | TSMC advanced-packaging family; customer allocation is not inferred from revenue share |
 | TSV | Through-Silicon Via | Important in HBM stacking / 3D integration |
 | CUDA | NVIDIA compute platform / programming ecosystem | Analyzed as a software switching-cost variable |
@@ -26,6 +29,8 @@
 | FCF | Free Cash Flow | Company-defined and GAAP/non-GAAP identities are preserved |
 | PPA | Power Purchase Agreement | Contracted capacity is not energized/utilized load |
 | PUE | Power Usage Effectiveness | Data-center efficiency metric |
+| LPS | Land, Power and Shell | Site land, power access, and building shell; secured LPS is not energized / utilized compute |
+| IT-GW | Gigawatts of IT load / IT capacity | Design capacity for IT equipment / AI factory load; not interchangeable with generation GW, PPA GW, or grid-delivered GW |
 | CSP | Cloud Service Provider | Hyperscalers are an important subset |
 | OEM | Original Equipment Manufacturer | End-device / system manufacturer |
 | ODM | Original Design Manufacturer | Design-and-manufacturing service provider |
@@ -53,6 +58,12 @@ Value capture arising in layers with low supply elasticity and difficult substit
 
 ### Non-AI Residual Capacity (NARC)
 Effective supply available to non-AI markets after AI / Anchor Buyer demand and other priority demand have been allocated.
+
+### Quantity Assurance
+Whether a buyer can obtain enough qualified supply on schedule within the relevant quality, generation, qualification, and delivery window. It is distinct from Price Pressure: **willingness to pay more does not guarantee planned quantity.**
+
+### Upgrade Tax
+An analytical term, not a tax category. It describes an end-system outcome in which higher upstream opportunity cost produces **slower specification improvement at the same price band, or a higher BOM / weaker subsidy for the same target specification**. It must not be generalized into uniform price inflation across all end markets.
 
 ### Two-Speed Semiconductor Economy
 A structure in which the AI Infrastructure Economy and Traditional Device Economy share parts of the same upstream resource base but have different willingness to pay, contract duration, BOM constraints, and capital-formation power.
