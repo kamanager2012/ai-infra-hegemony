@@ -11,7 +11,7 @@ GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞�
 高资本强度 AI/HPC 买方拥有更高的支付能力、更长的订单期限、更强的预付款与融资能力，因此正在提高自己对先进制程、HBM、先进封装、电力和数据中心增量资本形成的影响力。
 
 **第三，传统整机没有失去重要性；改变的是它们按旧规则从共享或相邻上游获得有效供给的确定性。**  
-smartphone、PC、汽车、工业设备、机器人以及高可靠长生命周期电子面对的不是同一种短缺，但都必须重新评估 residual capacity、quantity assurance、qualification rigidity 与 supplier product-mix。越接近 advanced logic / memory / selected packaging，传导越直接；越依赖 trusted / long-life / special-process supply，传导越需要通过供应连续性与 supplier economics 单独验证。
+smartphone、PC、game console、汽车、工业设备、机器人以及高可靠长生命周期电子面对的不是同一种短缺，但都必须重新评估 residual capacity、quantity assurance、qualification rigidity 与 supplier product-mix。越接近 advanced logic / memory / selected packaging，传导越直接；越依赖 trusted / long-life / special-process supply，传导越需要通过供应连续性与 supplier economics 单独验证。
 
 **第四，真正决定价值捕获的不是历史市场份额，而是对各关键稀缺层 incremental capacity 的持续可得性。**  
 真正需要逐层观察 advanced logic、HBM、packaging、networking、LPS/power 的 quantity assurance、delivery timing 与 supply elasticity，而不是把它们压缩成一个综合“资源捕获率”。
@@ -108,7 +108,7 @@ Contracted / Secured、Permitted、Construction / Transition、Energized、Utili
 这解释了为什么以下两件事可以同时发生：
 
 - 全球 wafer、DRAM、packaging capacity 继续扩张；
-- smartphone、PC、汽车或工业客户仍然承受更高价格、更低 allocation 或更慢规格升级。
+- smartphone、PC、game console、汽车或工业客户仍然承受更高价格、更低 allocation 或更慢规格升级。
 
 因此，AI 对传统产业的影响不应写成“AI 全面占用芯片供给”，而应写成：
 
@@ -385,7 +385,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization、market clearing、forward commitments、accounting 与 demand-financing quality 广泛、持续地共同恶化，则 S4 才真正成立。
 
-因此，这份报告最终不是在问“是不是只剩 AI 重要”。手机、电脑、汽车、工业设备、机器人以及航空航天、舰船、雷达等战略系统仍然重要。真正需要问的是：
+因此，这份报告最终不是在问“是不是只剩 AI 重要”。手机、电脑、游戏主机、汽车、工业设备、机器人以及航空航天等高可靠长生命周期系统仍然重要。真正需要问的是：
 
 > **这些仍然重要的整机，能不能按自己的 BOM、认证周期、产品寿命与成本约束，从已经被 AI/HPC 改写优先级的上游，持续拿到够用、够稳、付得起的资源。**
 
