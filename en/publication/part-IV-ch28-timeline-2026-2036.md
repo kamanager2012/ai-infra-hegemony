@@ -24,7 +24,8 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - TSMC advanced-packaging tightness still limiting customer growth;[^7]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
 - power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1,920 MW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
-- TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
+- TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**;
+- Sony's FY2026 hardware planning directly linking PS5 unit-sales / promotional flexibility to memory volume procurable at reasonable prices.[^10]
 
 The central question is:
 
@@ -38,7 +39,8 @@ Key milestones include:
 - next-generation TPU / Trainium / Maia / MTIA production deployment;
 - actual delivery against Stargate / Anthropic and other Anchor Buyer commitments;
 - conversion of contracted power into energized / utilized MW;
-- whether system-seller commitments continue expanding.
+- whether system-seller commitments continue expanding;
+- whether memory / storage pressure in directly exposed end systems such as smartphones, PCs, and game consoles continues to transmit into configuration, promotion, or hardware cadence—or begins to ease.
 
 ## 3. Phase II: 2028–2030 — Does substitution reach real scale?
 
@@ -61,6 +63,18 @@ Observe whether open compiler/runtime, model formats, and network interfaces mat
 
 Observe whether HBM supply enters sustained abundance, advanced packaging stops being described as a growth constraint, and new packaging architectures materially increase supply elasticity.
 
+### End-System Residual Pressure
+
+This phase should also test whether upstream expansion actually reaches end systems rather than stopping at supply headlines:
+
+- whether same-price smartphone / PC configuration progress resumes;
+- whether game-console memory procurement, promotion, and long-generation cost-down normalize;
+- whether automotive / industrial mature-memory, EOL, lead-time, and qualified-alternate conditions improve;
+- whether quantity-assurance gaps narrow;
+- whether supplier product mix rebalances.
+
+If upstream supply elasticity improves while these end-system proxies do not, growth in gross capacity has not yet translated into **effective non-AI residual supply**.
+
 ### Power / LPS
 
 Observe how much headline contracted / secured capacity converts into energized and utilized capacity and whether Time-to-Power continues to shape site selection.
@@ -77,7 +91,8 @@ The key questions are:
 - whether China's frontier parallel stack crosses more Production-Grade Gates and autonomous frontier closure crosses more upstream / infrastructure gates;
 - whether sovereign AI creates multiple regional system ecosystems;
 - whether supply chains remain cross-region complementary or become durably partitioned;
-- whether advanced-manufacturing redundancy creates real qualified second-source capability.
+- whether advanced-manufacturing redundancy creates real qualified second-source capability;
+- whether quantity assurance, qualified second-source options, and supplier longevity improve for long-lifecycle end systems—or harden into a structural upgrade tax.
 
 More useful metrics in this phase include:
 
@@ -93,19 +108,19 @@ By this observation window, four structural states should be easier to distingui
 
 ### Competitive Expansion
 
-Multiple system stacks mature, migration cost falls, supply elasticity improves, and the market continues to expand with more distributed value capture.
+Multiple system stacks mature, migration cost falls, supply elasticity improves, and the market continues to expand with more distributed value capture. On the end-system side, quantity assurance improves, same-price configuration progress resumes, and long-life supply continuity strengthens.
 
 ### Baseline Concentration
 
-A small number of dominant platforms and scarce-layer suppliers persist while credible substitution paths remain.
+A small number of dominant platforms and scarce-layer suppliers persist while credible substitution paths remain. End-system residual pressure remains selective rather than becoming one universal shortage.
 
 ### Resource Hegemony
 
-Coordination power across logic, HBM, packaging, software/interconnect, and power becomes more concentrated.
+Coordination power across logic, HBM, packaging, software/interconnect, and power becomes more concentrated. If executable second paths remain weak, quantity-assurance gaps and upgrade-tax risk can harden for low-bargaining-power and long-qualification end systems.
 
 ### Capital Hard Landing
 
-Built infrastructure exceeds productive workload, shifting the industry from construction competition toward utilization, residual value, and cash-flow clearing.
+Built infrastructure exceeds productive workload, shifting the industry from construction competition toward utilization, residual value, and cash-flow clearing. Some resources can flow back toward traditional end systems, while supplier retrenchment, inventory clearing, and specialized-capacity impairment can create a different supply-chain whiplash.
 
 ## 6. Future technology points that should not be hard-coded
 
@@ -192,3 +207,6 @@ Until these thresholds are much clearer, 2036 should remain a conditional cross-
 [^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
 [^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+
+[^10]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
