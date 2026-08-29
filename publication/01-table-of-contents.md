@@ -26,7 +26,7 @@
 11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
 12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyer Effect——模型公司如何重塑基础设施](part-II-ch13-anchor-compute-buyer.md)
-14. [Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
+14. [Agent-Native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
 16. [AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](part-II-ch16-differentiated-competitors.md)
 17. [中国 Parallel Stack：从 Production-Grade Substitution 到 Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
