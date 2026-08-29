@@ -1,4 +1,4 @@
-# P0-3 · Verified Workflow Economics v0.4
+# P0-3 · Verified Workflow Economics v0.5
 
 > **Status:** Research-side validation; not part of the frozen 32-chapter formal report.  
 > **Goal:** turn “cost per verified workflow outcome” from a conceptual statement into an auditable operating metric.
@@ -580,6 +580,142 @@ needed for Cost/VSWO.
 
 ---
 
+### 11.4 Mapping AI into Production — firm-performance bridge, but not a pure AI-access RCT
+
+Kim, Kim & Koning (2026) study **515 high-growth startups** in a field experiment focused on what they call the **mapping problem**: firms often fail not because AI lacks capability, but because they do not know where in the production process AI creates value.
+
+The treatment is important to classify correctly.
+
+Treated firms were shown how other firms had reorganized production around AI and were prompted to search more broadly for use cases. The experiment is therefore **not** a pure:
+
+> AI access vs. no AI access
+
+randomization.
+
+It is closer to:
+
+> **better AI-use-case mapping / organizational search vs. baseline discovery process.**
+
+Reported outcomes:
+
+- AI use cases discovered: **+44%**;
+- completed tasks: **+12%**;
+- probability of acquiring paying customers: **+18%**;
+- revenue: approximately **1.9×**;
+- external-capital demand: **-39.5%** relative to control;
+- labor demand: no proportional increase.
+
+This is valuable because it connects several layers that are usually observed separately:
+
+```text
+AI use-case discovery
+→ workflow deployment
+→ task completion
+→ paying customers
+→ revenue
+→ external-capital demand
+```
+
+That makes it the strongest current **firm-performance bridge** in the P0-3 ledger.
+
+But it still does not close Cost/VSWO because the public evidence used here does not expose:
+
+- model / inference cost by workflow;
+- human review / remediation minutes;
+- accepted-outcome persistence at workflow level;
+- workflow-specific revenue attribution;
+- implementation / observability cost.
+
+**Classification:** strong **organizational mapping + firm-performance causal anchor**, incomplete Cost/VSWO.
+
+### 11.5 Alibaba customer-service RCT — speed, subjective quality and objective persistence can diverge
+
+Ni et al. study a large-scale randomized field experiment in Alibaba after-sales customer service.
+
+Agents assigned AI access received AI-generated:
+- issue diagnoses;
+- proposed solutions;
+
+while retaining discretion to adopt, modify, or ignore them.
+
+The reported results show:
+
+- faster issue identification;
+- shorter chat duration;
+- improved customer ratings / lower dissatisfaction;
+- **no significant improvement in objective customer retrial rate**.
+
+The heterogeneity is especially important:
+
+- lower-performing agents improved the most;
+- top-performing agents showed little speed gain and could experience worse subjective and objective quality;
+- the paper links part of the deterioration to greater multitasking / longer shift-away time across concurrent chats.
+
+This creates an important VSWO rule:
+
+> **speed improvement and subjective quality improvement do not substitute for objective persistence / reopen measurement.**
+
+For customer service, a better acceptance identity is:
+
+```text
+Initial Resolution
++
+No Retrial / Reopen
++
+Quality Floor
+```
+
+—not chat duration alone.
+
+It also shows why AI routing may need to be heterogeneous:
+
+> **AI can be high-value for low-performing workers and neutral or harmful for already-high-performing workers in the same workflow.**
+
+Therefore firm-wide average ROI can hide worker / task segments with opposite treatment effects.
+
+**Classification:** strong **human-time + quality + persistence-counterexample**; still missing full AI cost and business-value ledger.
+
+### 11.6 Property-tax appeal RCT — completed action is still not final economic value
+
+Holz et al. (NBER, August 2026) recruited **645 households** in Dallas County.
+
+All households received personalized information and filing support; half also received an AI chatbot.
+
+Reported outcomes:
+
+- **78%** of households offered the chatbot initiated a conversation;
+- chatbot access increased filing an appeal **without a human agent by 9.1 percentage points**, from **41.4% to 50.5%**.
+
+This is useful because the observed endpoint is a real downstream action.
+
+But the public abstract does not establish:
+
+- whether the appeal succeeded;
+- realized tax savings;
+- total AI / platform cost;
+- household time cost;
+- later correction / dispute cost.
+
+So:
+
+> **action completion ≠ verified final economic outcome.**
+
+For this workflow, the denominator would need to progress through:
+
+```text
+eligible case
+→ appeal filed
+→ appeal accepted / adjudicated
+→ tax outcome
+→ net value after time / AI / professional cost
+```
+
+The study is therefore a clean example of why P0-3 must distinguish **workflow completion** from **economic realization**.
+
+**Classification:** strong **behavioral / action-completion causal anchor**, incomplete final-value and cost denominator.
+
+---
+
 ## 12. Updated evidence-completeness ledger
 
 | Study | Main strength | Completeness /10 | Missing decisive fields |
@@ -590,6 +726,9 @@ needed for Cost/VSWO.
 | Microsoft 66-firm RCT | longitudinal human-time telemetry + coordination constraint | ~5 | universal accepted outcome, AI cost, business value |
 | P&G innovation RCT | quality + team-structure substitution | ~5 | AI cost, downstream persistence/value |
 | Online-retail RCTs | randomized business-value outcome | ~6 | workflow-level AI/human cost and failure persistence |
+| Mapping AI into Production | organizational mapping → tasks / paying customers / revenue / capital demand | ~6 | workflow-level AI cost, review/remediation, persistence, workflow-specific value attribution |
+| Alibaba customer-service RCT | speed + subjective quality + objective retrial counterexample | ~6 | AI cost, full business-value attribution, long-run reopen economics |
+| Property-tax appeal RCT | real action completion without human agent | ~4 | final appeal success/value, AI cost, human time, persistence |
 | Cruces et al. education-gap RCT | assisted quality + unassisted follow-up persistence | ~5 | production cost, integration cost, business value, long-run persistence |
 
 The new studies strengthen one conclusion:
@@ -659,6 +798,149 @@ It still does not supply:
 - organization-level persistence.
 
 **Classification:** strong persistence / human-capital benchmark, incomplete Cost/VSWO.
+
+---
+
+## 12B. Workflow-ID closure protocol v0.1
+
+The empirical gap is now specific enough to define a **closure standard**.
+
+A dataset qualifies as a full VSWO economics panel only if one stable `workflow_id` can join five domains:
+
+### Domain A — Resource cost
+- model / inference cost;
+- retrieval / tool cost;
+- infrastructure / observability cost.
+
+### Domain B — Human labor
+- production minutes;
+- review minutes;
+- remediation minutes;
+- escalation minutes.
+
+### Domain C — Verification
+- acceptance result;
+- quality score;
+- severity-weighted error;
+- blinded / automated verifier where feasible.
+
+### Domain D — Persistence
+- reopen / retrial;
+- rollback;
+- later correction;
+- verification window.
+
+### Domain E — Business value
+- revenue / gross margin;
+- avoided cost;
+- customer retention;
+- accepted transaction value;
+- or another pre-specified economic endpoint.
+
+Minimum join identity:
+
+```text
+workflow_id
+→ treatment / model
+→ AI resource cost
+→ human time
+→ accepted outcome
+→ persistence outcome
+→ business value
+```
+
+### 12B.1 Three levels of empirical closure
+
+**Level 1 — Productivity closure**
+- human time;
+- accepted output;
+- quality.
+
+Supports:
+> does AI improve verified productivity?
+
+**Level 2 — Cost closure**
+- Level 1;
+- AI / tool / infra cost;
+- remediation cost.
+
+Supports:
+> does AI lower Cost per VSWO?
+
+**Level 3 — Economic closure**
+- Level 2;
+- persistence;
+- realized business value.
+
+Supports:
+> does AI create positive durable Workflow ROI?
+
+Current literature has multiple strong Level-1 cases and partial Level-2/3 components.
+
+The research set still lacks a public production dataset that cleanly satisfies all Level-3 fields at the same workflow ID.
+
+### 12B.2 Organizational mapping is a separate economic variable
+
+The 515-startup experiment adds a variable that the original Cost/VSWO schema understated:
+
+> **Use-Case Discovery / Mapping Cost**
+
+A firm may own a capable model and still fail to realize value because it has not identified:
+
+- which workflow;
+- which step;
+- which acceptance rule;
+- which human role;
+- which integration point
+
+should change.
+
+Therefore total adoption economics should be represented as:
+
+```text
+AI Transformation Cost
+=
+Mapping / Discovery Cost
++
+Integration Cost
++
+Workflow Operating Cost
++
+Verification / Remediation Cost
+```
+
+This prevents a narrow model-cost calculation from understating implementation economics.
+
+### 12B.3 Heterogeneous-treatment rule
+
+Alibaba and other field experiments show that average treatment effects can hide opposite segment effects.
+
+Every production workflow benchmark should therefore report, where statistically defensible:
+
+- baseline skill / experience;
+- workflow difficulty;
+- task novelty;
+- AI adoption intensity;
+- model / route;
+- human-review intensity.
+
+A positive average ROI does not imply every worker/task segment should use the same AI route.
+
+### 12B.4 Completion-to-value ladder
+
+P0-3 now distinguishes five nested outcomes:
+
+```text
+Output Produced
+→ Output Accepted
+→ Workflow Completed
+→ Outcome Persists
+→ Economic Value Realized
+```
+
+Each arrow is a possible failure point.
+
+A study that measures an earlier stage must not be described as if it measured a later stage.
 
 ---
 
@@ -768,7 +1050,7 @@ After v0.4 it has an operational definition, an evidence-completeness ledger, an
 
 > **all variable and human workflow costs divided by outputs that pass a fixed acceptance rule, with success rate, review burden, attempts, resource intensity and cycle time reported alongside.**
 
-The next step is to obtain datasets that join **cost + human time + verification + persistence + business value** at the workflow-ID level. Existing causal productivity studies are valuable anchors, but none of the first reviewed cases yet fills the complete Cost/VSWO denominator.
+The next step is no longer to accumulate generic productivity studies. It is to obtain or construct Level-3 datasets that join **AI/tool cost + human time + verification + persistence + realized business value** at the same workflow ID. The new firm-performance and customer-service evidence strengthens the bridge from task productivity to organizational value, but no public case in the current ledger yet closes the full Cost/VSWO + durable Workflow ROI denominator.
 
 ## Sources
 
@@ -782,3 +1064,8 @@ The next step is to obtain datasets that join **cost + human time + verification
 - Dell'Acqua, F. et al., **The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise**, NBER Working Paper 33641; published online in *Organization Science*, 2026: https://www.nber.org/papers/w33641
 - Fang, L.; Yuan, Z.; Zhang, K.; Donati, D.; Sarvary, M., **Generative AI and Firm Productivity: Field Experiments in Online Retail**, 2025/2026 working paper: https://business.columbia.edu/faculty/research/generative-ai-and-firm-productivity-field-experiments-online-retail
 - Cruces, G.; Fernández Meijide, D.; Galiani, S.; Gálvez, R. H.; Lombardi, M., **Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment**, NBER Working Paper 34851, revised May 2026: https://www.nber.org/papers/w34851
+
+
+- Kim, Kim & Koning, “Mapping AI into Production: A Field Experiment on Firm Performance,” INSEAD Working Paper 2026/20/STR, 2026: https://www.insead.edu/faculty-research/publications/working-papers/mapping-ai-production-a-field-experiment-firm
+- Ni et al., “Generative AI in Action: Field Experimental Evidence from Alibaba's Customer Service Operations,” revised 2026-07-31: https://arxiv.org/abs/2603.29888
+- Holz et al., “Taxpayer Behavior in the Age of AI: A Field Experiment on Property Tax Appeals,” NBER Working Paper 35632, 2026-08: https://www.nber.org/papers/w35632
