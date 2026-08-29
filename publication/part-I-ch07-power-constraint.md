@@ -25,7 +25,7 @@
 
 ---
 
-## 2. 电力分析必须使用状态机，而不能把 MW/GW headline 直接相加
+## 2. 电力分析必须使用状态机，而不能把公布的 MW/GW 容量直接相加
 
 AI power project 至少要区分：
 
@@ -40,7 +40,7 @@ AI power project 至少要区分：
 - secured capacity 不等于 energized capacity；
 - energized capacity 也不等于已经被高利用率 workload 占用。
 
-因此，AI power 研究最重要的不是把所有 MW/GW headline 加总，而是判断：
+因此，AI power 研究最重要的不是把所有已公布 MW/GW 容量加总，而是判断：
 
 > **多少容量、在什么地点、什么时间、以什么状态，能够真正服务当前或下一代 AI system。**
 
@@ -107,7 +107,7 @@ Google / Kairos 的公开路径更长：
 
 > **真正稀缺的不是孤立的电力合同，而是 land + power + shell 在可执行时间窗口内的组合。**
 
-因此，LPS secured capacity 比单纯 headline PPA 更接近 deployable-compute 的前置条件。
+因此，LPS secured capacity 比单一 PPA 容量数字更接近 deployable-compute 的前置条件。
 
 但 4.25 IT-GW 仍然是设计/规划容量，不是 2026 energized 或 utilized load。
 
@@ -276,7 +276,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 - energized capacity 增长持续快于 deployable compute demand；
 - regional power price / availability 不再显著影响 site selection。
 
-headline GW 增加本身不足以证明 power bottleneck 已解除，必须看到 state transition 与实际 utilization。
+公布的 GW 规模增加本身不足以证明 power bottleneck 已解除，必须看到 state transition 与实际 utilization。
 
 ## References
 
