@@ -1,4 +1,4 @@
-# Part II · 第17章：中国 Parallel Stack：从产品替代到 Frontier System Closure
+# Part II · 第17章：中国 Parallel Stack：从 Production-Grade Substitution 到 Autonomous Frontier Closure
 
 ## 1. “能运行”与“形成等价系统”不是同一个标准
 
