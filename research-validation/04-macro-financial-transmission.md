@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.16
+# P0-4 · Macro-Financial Transmission Layer v0.17
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -1715,6 +1715,67 @@ No fixed numeric trigger is assigned in v0.1.
 
 ---
 
+## 11C. Supplier / Sponsor Support overlay
+
+The project-finance layer now needs an explicit support overlay.
+
+Support is classified separately from borrower debt:
+
+| Support channel | Examples | What to monitor |
+|---|---|---|
+| Strategic equity | NVIDIA → CoreWeave | recipient liquidity, dilution, whether support substitutes for weaker independent capital |
+| Lease / payment guarantee | NVIDIA AI-cloud / LPS guarantees; AMD data-center lease guarantees | maximum exposure, activation conditions, step-down / termination terms |
+| Vendor / OEM financing | CoreWeave OEM/software financing; IREN Dell GPU leases | tenor, guarantee, residual value, dependence on vendor credit |
+| Third-party capital mobilization | seller-coordinated infrastructure financing platforms | actual third-party risk bearing vs announced capacity |
+| Customer prepayment | Microsoft / IREN; take-or-pay colocation | prepayment share, customer concentration, performance obligations |
+
+### 11C.1 Current rule
+
+Seller / sponsor support is **not** negative evidence by itself.
+
+It becomes S4-relevant only when:
+
+```text
+Support Dependence ↑
++
+Independent Capital Access ↓
++
+Customer / Workload Economics ↓
++
+Refinancing Terms Worsen
+```
+
+Likewise, a guarantee cap is not a funded cash loss.
+
+The overlay therefore records:
+
+- maximum support amount;
+- funded vs unfunded;
+- conditional vs currently effective;
+- guaranteed obligation identity;
+- who bears first loss;
+- whether support declines as project cash flow matures.
+
+### 11C.2 No-double-counting rule
+
+Do not sum:
+
+```text
+customer contract
++ debt raised against contract
++ seller equity
++ guarantee cap
++ customer prepayment
+```
+
+as independent demand.
+
+They are separate financing / risk-distribution layers around the same underlying infrastructure expectation.
+
+This overlay is maintained jointly with `11-financing-reflexivity-map.md`.
+
+---
+
 ## 12. Relationship to the five clearing signals
 
 Macro-financial variables do not become a sixth independent S4 signal.
@@ -1753,7 +1814,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.16 conclusion
+## 14. v0.17 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1761,7 +1822,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and the standardized borrower matrix now includes real pricing, maturity, covenant / DSCR, refinancing and contract-prepayment evidence across CoreWeave, Core Scientific, Nebius, Applied Digital and IREN. The next empirical task is to add supplier-support / guarantee amounts, track facility-level changes over time, and continue resolving the stable CMDI direct-file path.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; the standardized borrower matrix includes pricing, maturity, covenant / DSCR, refinancing and contract-prepayment evidence across five project-finance borrowers; and supplier / sponsor support is now tracked as a separate overlay rather than double-counted as demand. The next empirical task is to track facility-level changes over time and continue resolving the stable CMDI direct-file path.
 
 ## Sources
 
