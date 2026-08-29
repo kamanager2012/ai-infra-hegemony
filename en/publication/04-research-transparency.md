@@ -174,6 +174,28 @@ Governance boundaries:
 
 After this targeted supplement, the formal text was refrozen again.
 
+### 8C. August 30, 2026 definition-level S4 correction
+
+On August 30, 2026, the formal text was reopened only to correct a **definition-level inconsistency** identified by the Phase II historical clearing backtest.
+
+The historical replay showed that Accounting is a high-value confirmation / severity channel but **not a mandatory gate** for systemic capital clearing. Financing-led or real-economy clearing can be confirmed before qualifying impairment / write-down evidence appears, provided cross-signal confirmation and cross-actor / cross-layer causal breadth are strong enough.
+
+The correction was limited to the S4 / capital-clearing rule in:
+- Ch24 — Capital Clearing;
+- Ch29 — Monitoring Framework;
+- Ch30 — S1–S4 Scenarios;
+- Ch32 — Master Judgment;
+- corresponding publication-status metadata.
+
+The pass did **not** change:
+- the August 28, 2026 evidence cutoff;
+- the current S2 baseline judgment;
+- the four-scenario taxonomy;
+- any pre-cutoff factual observation;
+- the requirement for broad, persistent, causally independent confirmation before S4 is upgraded.
+
+The formal text was refrozen after this definition-level correction.
+
 ---
 
 
