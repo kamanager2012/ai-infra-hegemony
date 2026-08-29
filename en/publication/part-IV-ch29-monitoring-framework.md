@@ -119,16 +119,17 @@ Non-comparable accounting definitions must not be mechanically added into an off
 | Energized | actual power delivery |
 | Utilized | real sustained load |
 
-**Source:** Report power-state framework.  
-**Note:** The state machine prevents headline MW/GW, contract quantity, or project targets from being rewritten as active AI load.
+**Source:** Report power / LPS state framework.  
+**Note:** The state machine prevents headline MW/GW, secured IT-GW, contract quantity, or project targets from being rewritten as active AI load. Generation MW/GW, PPA capacity, and IT-GW must retain their distinct physical identities.
 
 Representative current paths include:
 
 - Microsoft / Constellation: ~835 MW restart PPA;[^10]
 - Talen / AWS: up to 1.92 GW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^11]
-- Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035.[^12]
+- Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035;[^12]
+- PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with planned delivery beginning in 2028.[^13]
 
-The variables that need updating are state transition, ramp, energized capacity, actual load, and utilization.
+The variables that need updating are each project's transition from secured / contracted into construction, energized capacity, actual load, and utilization—not headline capacity alone.
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate.
 
@@ -298,3 +299,4 @@ This keeps the report updateable without rewriting the industry narrative after 
 [^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 [^11]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
+[^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
