@@ -126,7 +126,7 @@ The report does not use "the long-run thesis still holds" as a reason to ignore 
 
 The current research cross-section includes information that could be obtained and verified **on or before August 28, 2026**.
 
-Facts that appear after the research cutoff are new research inputs. They may strengthen, weaken, or overturn current judgments, but they should not be backdated into the August 28, 2026 evidence set.
+Facts that appear after the research cutoff are new research inputs. They may strengthen, weaken, or overturn current judgments, but they should not be backdated into the August 28, 2026 evidence set or automatically inserted into the frozen formal text. They may enter a new research snapshot only if the formal-text freeze is explicitly reopened.
 
 ---
 
