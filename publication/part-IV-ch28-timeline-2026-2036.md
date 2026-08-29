@@ -74,7 +74,7 @@ PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它�
 需要观察：
 
 - 哪些地区形成 **power + data center + chip access + software / talent** 的组合优势；
-- China production-grade parallel stack 是否扩大，以及 autonomous frontier closure 是否跨过更多 upstream / infrastructure gates；
+- China frontier parallel stack 是否跨过更多 Production-Grade Gates，以及 autonomous frontier closure 是否跨过更多 upstream / infrastructure gates；
 - sovereign AI 是否形成多个 regional system ecosystems；
 - supply chain 是继续跨区域互补，还是长期分区；
 - advanced manufacturing redundancy 是否真正获得 qualified second-source capability。
