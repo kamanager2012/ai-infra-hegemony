@@ -133,7 +133,7 @@ Game consoles are a useful test case for Non-AI Residual Capacity because they d
 
 Current console specifications establish that boundary:
 
-- PlayStation 5 uses a custom AMD Zen 2 / RDNA 2 processor, **16 GB GDDR6**, and a custom SSD;[^24]
+- PlayStation 5 uses a custom AMD Zen 2 / RDNA-based processor, **16 GB GDDR6**, and a custom SSD;[^24]
 - Xbox Series X uses a custom Zen 2 / RDNA 2 processor, **16 GB GDDR6**, and **1–2 TB custom NVMe SSD**;[^25]
 - Nintendo Switch 2 uses a **custom NVIDIA processor** and **256 GB UFS storage**, with microSD Express expansion.[^26]
 
@@ -147,7 +147,7 @@ The more accurate relationship is:
 
 Sony stated in its FY2025 Q4 / FY2026 outlook that:
 
-- the PS5 installed base exceeded **93 million units** by March 2026;
+- cumulative PS5 unit sales exceeded **93 million units** by March 2026;
 - FY26 PS5 hardware sales would be based on the volume of memory it could procure at **reasonable prices**;
 - if conditions changed, it would manage profitability by adjusting **unit sales and promotional plans**.[^27]
 
@@ -179,7 +179,7 @@ Game consoles usually combine:
 - fixed memory / storage architectures;
 - platform economics in which software, network services, and content monetize a large installed base over time.
 
-Sony's 2026 disclosures reinforce that structure: a PS5 installed base of more than 93 million units supports software and network-services profit, while hardware volume still has to be balanced against memory procurement and total segment profitability.[^27]
+Sony's 2026 disclosures reinforce that structure: cumulative PS5 unit sales exceeded 93 million, and Sony said the expanded installed base contributed to stable software and network-services profit, while hardware volume still has to be balanced against memory procurement and total segment profitability.[^27]
 
 The risk therefore extends beyond one quarter of higher memory prices.
 
@@ -388,7 +388,7 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 [^23]: NASA/JPL, Space Radiation Effects on Integrated Circuits, https://parts.jpl.nasa.gov/asic/Appendix.3.html
 
 
-[^24]: PlayStation, PS5 official specifications, custom AMD Zen 2 / RDNA 2 processor, 16 GB GDDR6 and custom SSD, https://www.playstation.com/content/dam/global_pdc/en-gb/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en-gb.pdf
+[^24]: PlayStation, PS5 official specifications, custom AMD Zen 2 / RDNA-based processor, 16 GB GDDR6 and custom SSD, https://www.playstation.com/content/dam/global_pdc/en-gb/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en-gb.pdf
 [^25]: Xbox, Xbox Series X official technical specifications, custom Zen 2 / RDNA 2 processor, 16 GB GDDR6 and 1–2 TB custom NVMe SSD, https://www.xbox.com/en-US/consoles/xbox-series-x
 [^26]: Nintendo, Nintendo Switch 2 official technical specifications, custom NVIDIA processor and 256 GB UFS storage, https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/
 [^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware sales based on memory volume procurable at reasonable prices and flexible unit-sales / promotion management, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
