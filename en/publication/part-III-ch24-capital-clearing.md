@@ -10,7 +10,7 @@ This report therefore does not use one CapEx total, one valuation multiple, or o
 
 S4 Capital Hard Landing requires synchronized deterioration across multiple industrial signals.
 
-## 2. Four classes of clearing signals
+## 2. Five classes of clearing signals
 
 ### 2.1 Accounting
 
@@ -111,63 +111,32 @@ Strong seller margin does not prove healthy buyer-side ROI.
 
 Buyer-side ROI pressure also does not imply seller economics collapse in the same quarter.
 
-## 5. Algorithmic efficiency can create overcapacity—or extend the cycle
+## 5. Algorithmic efficiency matters relative to workload growth
 
-If compute required for the same capability falls rapidly while workload volume does not rise, deployed capacity can become excessive. If lower cost stimulates many new workloads, efficiency can instead increase total infrastructure demand.
-
-The report therefore replaces the non-computable shorthand “efficiency effect × demand elasticity” with two measurable factors:
+Infrastructure demand can be expressed at a high level as:
 
 ```text
-Infrastructure_Demand_t
-= Unit_Resource_Intensity_t
-× Workload_Volume_t
+Infrastructure Demand
+= Unit Resource Intensity
+× Workload Volume
 ```
 
-Relative to a baseline period 0:
+If unit resource intensity falls faster than workload volume rises, total infrastructure demand can decline.
 
-```text
-Infrastructure_Demand_t / Infrastructure_Demand_0
-=
-(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
-×
-(Workload_Volume_t / Workload_Volume_0)
-```
+If workload volume grows faster, total demand can continue increasing despite efficiency gains.
 
-`Unit_Resource_Intensity` must be tied to a defined work unit, such as GPU-hours / verified workflow, HBM bytes / token, or kWh / completed job. `Workload_Volume` is the number of comparable workflows, tokens, or jobs completed over the same period.
+The report therefore does not assign arbitrary demand-elasticity coefficients in the formal analysis.
 
-If the analysis also needs to connect price changes to workload volume, a constant-elasticity approximation can be introduced separately:
+The variables that matter are observable:
 
-```text
-Workload_Volume_t / Workload_Volume_0
-=
-(Effective_Price_t / Effective_Price_0)^(-ε)
-```
+- cost per verified workflow;
+- token / workflow volume;
+- deployed-compute utilization;
+- price / revenue per workload;
+- enterprise adoption;
+- infrastructure commitments.
 
-where ε is the demand elasticity for the **same comparable verified outcome**. Then:
-
-```text
-Infrastructure_Demand_t / Infrastructure_Demand_0
-=
-(Unit_Resource_Intensity_t / Unit_Resource_Intensity_0)
-×
-(Effective_Price_t / Effective_Price_0)^(-ε)
-```
-
-**Table 24.2 — D-grade sensitivity example for efficiency and demand elasticity**
-
-Assume unit resource intensity falls 40% (`URI_t / URI_0 = 0.60`) and the effective price of the same verified workflow falls 50% (`P_t / P_0 = 0.50`):
-
-| Demand elasticity ε | Workload volume factor | Infrastructure demand factor | Versus baseline |
-|---:|---:|---:|---:|
-| 0.5 | 1.414× | 0.849× | -15.1% |
-| 1.0 | 2.000× | 1.200× | +20.0% |
-| 1.2 | 2.297× | 1.378× | +37.8% |
-| 1.5 | 2.828× | 1.697× | +69.7% |
-
-**Source:** Report D-grade sensitivity model.  
-**Note:** 0.60, 0.50, and ε are illustrative assumptions, not current industry actuals. The table shows only that the same efficiency gain can reduce or increase infrastructure demand depending on demand elasticity.
-
-The same logic applies to model-price competition. Falling token/API prices prove a change in unit pricing; they do not by themselves prove that total token volume, workflow adoption, and infrastructure utilization are also declining.
+Lower model prices or higher algorithmic efficiency do not, by themselves, prove overcapacity.
 
 ## 6. Anchor Compute Buyers are now an additional leading indicator
 
@@ -186,7 +155,30 @@ They include:
 
 If those variables weaken alongside buyer utilization and market-clearing prices, the evidence for Capital Hard Landing strengthens materially.
 
-## 7. Clearing order follows asset duration
+## 7. Demand Quality: separate organic workload from supplier-assisted financing
+
+When a system seller also participates through customer equity investment, credit enhancement, LPS support, or infrastructure finance, seller-side order visibility cannot be treated as identical to independently financed end demand.
+
+This does not prove that the demand is artificial.
+
+The key question is:
+
+> **Can final workload monetization cover infrastructure cash cost and capital cost without requiring continually increasing supplier balance-sheet support?**
+
+S4 monitoring should therefore include:
+
+- customer operating cash flow / financing capacity;
+- supplier equity / credit support;
+- whether third-party capital bears independent risk;
+- asset transferability across customers;
+- Anchor Buyer utilization;
+- refinancing dependency.
+
+Healthy utilization can make seller-assisted financing an accelerator of real buildout.
+
+Weak utilization combined with rising supplier support should reduce the evidentiary weight of forward commitments.
+
+## 8. Clearing order follows asset duration
 
 Short-cycle assets clear first; long-cycle assets clear later.
 
@@ -200,18 +192,21 @@ Power plants, substations, and data-center shells do not disappear like GPU inve
 
 They can be repriced, sold, renegotiated, or become scarce again in the next concentration cycle.
 
-## 8. What qualifies as S4 Capital Hard Landing
+## 9. What qualifies as S4 Capital Hard Landing
 
-This report upgrades S4 from stress test to current main scenario only when all four classes deteriorate together:
+This report upgrades S4 from stress test to the current main scenario only when five groups show broad, persistent, mutually reinforcing deterioration:
 
 1. **Accounting:** impairment / write-down / disposal rises materially;
 2. **Utilization / Revenue:** utilization and effective AI revenue remain persistently weaker than asset expansion;
-3. **Market Clearing:** resale prices, lease prices, lead times, HBM/packaging clearing all loosen;
-4. **Forward Commitment:** CapEx guidance, seller commitments, Anchor Buyer contracts, and power commitments slow or cancel together.
+3. **Market Clearing:** resale prices, lease prices, lead times, and HBM/packaging clearing loosen materially;
+4. **Forward Commitment:** CapEx guidance, seller commitments, Anchor Buyer contracts, and power commitments slow, reschedule, or cancel;
+5. **Demand Quality / Financing:** customer cash generation weakens, supplier equity / credit support or refinancing dependency rises, and independent risk capital becomes less willing to absorb exposure.
 
-A stock-price decline, lower model prices, one quarter of margin volatility, or one historical stress test is not sufficient on its own.
+The five groups do not need to deteriorate in the same quarter because accounting, project finance, and market clearing operate on different clocks.
 
-## 9. Current judgment
+But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
+
+## 10. Current judgment
 
 As of August 2026, public evidence is still closer to:
 
