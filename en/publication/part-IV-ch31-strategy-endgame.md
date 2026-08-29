@@ -25,7 +25,7 @@ The long-run industry structure depends primarily on five questions.
 | Advanced Packaging / CoWoS | [Part I · Ch06](part-I-ch06-advanced-packaging.md) |
 | Power / Time-to-Power | [Part I · Ch07](part-I-ch07-power-constraint.md) |
 | Hyperscaler second system stack | [Part II · Ch12](part-II-ch12-hyperscaler-system-stack.md) |
-| China production-grade parallel stack / autonomous frontier closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
+| China frontier parallel stack / Production-Grade Gates / autonomous frontier closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
 | Value Capture Map | [Part III · Ch20](part-III-ch20-value-capture-map.md) |
 | Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
 
@@ -125,7 +125,7 @@ The main reasons are:
 - HBM / server memory continues to exert strong pressure on manufacturing resources;[^3]
 - cloud custom systems are a real second route but have not demonstrated comprehensive replacement of frontier workloads;
 - power has become an independent physical constraint;
-- China's Production-Grade Parallel Stack continues to develop, while Autonomous Frontier Closure has not been demonstrated at scale across all critical layers;
+- China's frontier parallel stack continues to iterate with partial production deployment, but under Chapter 17's seven Production-Grade Gates a complete production-grade frontier closure remains unconfirmed by public evidence;
 - synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
 
 This is not a fixed ten-year forecast.
@@ -166,6 +166,24 @@ At minimum, preserve:
 - workload benchmarks and cost observability.
 
 The second path exists to reduce single-point supply, pricing, policy, and migration risk.
+
+## 5A. End-system companies: manage Quantity Assurance alongside price
+
+For smartphones, PCs, vehicles, industrial equipment, robotics, and other long-lifecycle electronics, the low-regret response is not to predict that one supplier will remain constrained for a decade. It is to improve resilience to resource reprioritization.
+
+Three principles:
+
+1. **Manage price and Quantity Assurance together.** Unit price is not enough; track allocation fulfillment, lead time, LTAs, validated alternates, and recovery time.
+2. **Separate supply risk across product tiers.** Flagship / high-performance SKUs and cost-sensitive / long-life SKUs should not automatically depend on the identical scarce-resource path, or one high-end constraint can propagate across the whole portfolio.
+3. **Identify long-life part continuity early.** For components with long qualification cycles and high replacement costs, continuously assess whether suppliers still have the economics to maintain long-duration supply, packaging/test, tooling, and engineering support.
+
+This is not a recommendation to maximize inventory.
+
+The objective is:
+
+> **keep the end-product cadence from becoming fully subordinated to the resource clock of the tightest upstream demand pool.**
+
+---
 
 ## 6. Capital strategy: classify the asset before discussing "AI valuation"
 
