@@ -80,7 +80,7 @@ Cross-chapter reuse never upgrades an evidence grade automatically.
 
 ## Bilingual synchronization rule
 
-When a factual or analytical change is accepted into the Chinese source-of-truth corpus, the corresponding English chapter or framework file should be updated in the same research cycle. Translation may improve prose, but it must not change evidence strength, numerical definitions, scenario logic, or the F→H→M→S→X structure.
+After the formal-text freeze, when a permitted material correction or evidence repair is accepted into the Chinese source-of-truth corpus, the corresponding English chapter or framework file should be updated in the same research cycle. Bilingual synchronization should restore factual and analytical parity; it must not introduce style-only rewrites, post-cutoff evidence, changes in evidence strength, numerical definitions, scenario logic, or the F→H→M→S→X structure.
 
 ---
 
@@ -166,4 +166,4 @@ When a factual or analytical change is accepted into the Chinese source-of-truth
 
 ## 中英文同步规则
 
-中文 source of truth 接受事实或分析更新后，对应英文章节或框架文件应在同一研究周期同步。英文可以优化表达，但不得改变证据强度、数字口径、情景逻辑或 F→H→M→S→X 结构。
+正式正文冻结后，只有符合冻结规则的重大纠错或证据修复被中文 source of truth 接受时，对应英文章节或框架文件才应在同一研究周期同步。双语同步的目标是恢复事实与分析实质一致性，不得借同步之名进行风格性重写、引入截止日后的新证据，或改变证据强度、数字口径、情景逻辑与 F→H→M→S→X 结构。
