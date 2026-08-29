@@ -127,6 +127,97 @@ Two channels can therefore overlap:
 - consumer GPU / system availability;
 - DDR / LPDDR / system-memory cost.
 
+## 5A. Game consoles: fixed price bands, long generations, and memory / storage residual pressure
+
+Game consoles are a useful test case for Non-AI Residual Capacity because they do not directly compete with AI servers for the same accelerator, yet they remain materially exposed to **memory, storage, custom SoC/APU, and selected manufacturing / packaging resources**.
+
+Current console specifications establish that boundary:
+
+- PlayStation 5 uses a custom AMD Zen 2 / RDNA 2 processor, **16 GB GDDR6**, and a custom SSD;[^24]
+- Xbox Series X uses a custom Zen 2 / RDNA 2 processor, **16 GB GDDR6**, and **1–2 TB custom NVMe SSD**;[^25]
+- Nintendo Switch 2 uses a **custom NVIDIA processor** and **256 GB UFS storage**, with microSD Express expansion.[^26]
+
+These specifications do **not** imply that game consoles directly compete for HBM.
+
+The more accurate relationship is:
+
+> **console memory / storage / SoCs sit inside the same broader semiconductor and memory capital system as AI/server demand, while their specific product pools, packaging formats, and qualification paths remain different.**
+
+### 5A.1 Direct hardware-economics pressure is already observable in 2026
+
+Sony stated in its FY2025 Q4 / FY2026 outlook that:
+
+- the PS5 installed base exceeded **93 million units** by March 2026;
+- FY26 PS5 hardware sales would be based on the volume of memory it could procure at **reasonable prices**;
+- if conditions changed, it would manage profitability by adjusting **unit sales and promotional plans**.[^27]
+
+This is unusually strong first-party transmission evidence because it links:
+
+> **memory procurement → hardware volume / promotion → hardware profitability**
+
+TrendForce's December 2025 institutional outlook for the 2026 console market additionally estimated:
+
+- the 2026 global game-console shipment forecast was revised from **-3.5% YoY** to **-4.4% YoY**;
+- memory cost as a share of BOM for major consoles including PS5, Xbox Series X, and Switch 2 rose from around **15%** historically to roughly **23%–42%**;
+- hardware gross margins and promotional flexibility would therefore be pressured.[^28]
+
+This is a **B-grade institutional estimate**, not an audited Sony / Microsoft / Nintendo BOM.
+
+Combined with Sony's first-party procurement statement, the evidence supports a narrower conclusion:
+
+> **Game consoles are already an end-system case where memory residual pressure can affect shipment cadence, promotion capacity, and hardware margin.**
+
+### 5A.2 Why consoles can be more exposed than PCs to one generation's cost structure
+
+Game consoles usually combine:
+
+- long hardware generations;
+- relatively rigid price bands;
+- highly customized SoC/APU designs;
+- fixed memory / storage architectures;
+- platform economics in which software, network services, and content monetize a large installed base over time.
+
+Sony's 2026 disclosures reinforce that structure: a PS5 installed base of more than 93 million units supports software and network-services profit, while hardware volume still has to be balanced against memory procurement and total segment profitability.[^27]
+
+The risk therefore extends beyond one quarter of higher memory prices.
+
+If a new generation reaches architecture freeze / BOM freeze while memory, storage, or advanced-logic opportunity cost is elevated, the effect can persist through:
+
+- launch configuration;
+- SKU segmentation;
+- promotion cadence;
+- multi-year cost-down curves.
+
+That is the console version of an **upgrade tax**:
+
+> **the same price band buys a slower hardware-specification improvement, or the same target specification requires a higher BOM / weaker promotional subsidy.**
+
+### 5A.3 What the evidence does not support
+
+The report does not infer:
+
+- PlayStation / Xbox / Nintendo will be displaced by AI;
+- game consoles are “short HBM”;
+- NVIDIA / AI servers took a known number of wafers from a console maker;
+- the 2026 console shipment slowdown is entirely caused by AI;
+- the next console generation must be more expensive or delayed.
+
+Console demand also depends on:
+
+- generation timing;
+- game/content pipeline;
+- installed-base saturation;
+- retail pricing;
+- FX;
+- consumer demand;
+- product strategy.
+
+The most defensible judgment is therefore:
+
+> **Game consoles are not an obsolete side market in the AI era. They are long-generation, hardware-margin-sensitive platforms with meaningful memory/storage exposure; stronger AI/server memory demand forces a harder tradeoff among quantity assurance, BOM, promotion, and hardware cadence.**
+
+---
+
 ## 6. Price pressure usually changes configuration and replacement cycles before it stops production
 
 Common vendor responses include:
@@ -293,3 +384,10 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 [^21]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, https://www.gao.gov/products/gao-16-185t
 [^22]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
 [^23]: NASA/JPL, Space Radiation Effects on Integrated Circuits, https://parts.jpl.nasa.gov/asic/Appendix.3.html
+
+
+[^24]: PlayStation, PS5 official specifications, custom AMD Zen 2 / RDNA 2 processor, 16 GB GDDR6 and custom SSD, https://www.playstation.com/content/dam/global_pdc/en-gb/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en-gb.pdf
+[^25]: Xbox, Xbox Series X official technical specifications, custom Zen 2 / RDNA 2 processor, 16 GB GDDR6 and 1–2 TB custom NVMe SSD, https://www.xbox.com/en-US/consoles/xbox-series-x
+[^26]: Nintendo, Nintendo Switch 2 official technical specifications, custom NVIDIA processor and 256 GB UFS storage, https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/
+[^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware sales based on memory volume procurable at reasonable prices and flexible unit-sales / promotion management, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^28]: TrendForce, 2025-12-02, Memory Price Surge Squeezes Game Console Margins; 2026 Shipment Forecast Revised Downward, https://www.trendforce.com/presscenter/news/20251202-12811.html
