@@ -13,7 +13,7 @@ Capital-intensive AI/HPC buyers often offer greater willingness to pay, longer o
 **Third, long-run value capture depends less on historical market share than on sustained access to incremental scarce capacity at each physical layer.**  
 The correct question is not one cross-layer "capture ratio." It is whether a platform can repeatedly obtain enough qualified supply, at the right time, across advanced logic, HBM, packaging, networking, and LPS/power.
 
-**Fourth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
+**Fifth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
 A second system stack can divert platform profit while still competing for the same advanced logic, HBM, packaging, and power.
 
 **Fifth, the primary capital risk has shifted from "is there demand?" to "can utilization, monetization, and independent financing capacity grow fast enough to cover the expanding capital base?"**  
@@ -368,7 +368,7 @@ High-value falsification signals include:
 - energized power expanding enough that Time-to-Power stops differentiating projects;
 - Anchor Compute Buyer commitments being delayed or underutilized at scale;
 - hyperscaler AI monetization persistently failing to cover the expanding capital base;
-- China's production-grade parallel stack or autonomous frontier closure gaining or losing scaled first-party evidence across multiple gates;
+- China's frontier parallel stack gaining or losing scaled first-party evidence across multiple Production-Grade Gates, or autonomous frontier closure changing materially;
 - supplier equity / credit support rising while independent customer financing and utilization weaken;
 - formal regulatory remedies materially changing tying, interface, or market-entry conditions.
 
