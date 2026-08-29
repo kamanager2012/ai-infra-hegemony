@@ -189,19 +189,37 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 因此，export control 不是一个单向变量。它可能同时扩大短期性能/规模差距，并强化长期平行体系建设动机。最终结果取决于 R&D efficiency、capital allocation、ecosystem adoption 与 supply scaling，而不是政策本身自动决定。
 
-## 11. 七个 Frontier System Closure Gate
+## 11. 两级 Closure 标准：Production-Grade Parallel Stack 与 Autonomous Frontier Closure
 
-本报告只有在以下七项都达到可验证规模时，才把“中国已经形成完整 frontier AI parallel stack”作为事实层判断：
+此前如果把所有关键层都要求“国内完全闭环”之后，才承认存在 frontier parallel stack，会把两个不同问题混在一起：
 
-1. advanced accelerator 可规模化交付；
-2. HBM-class memory 可规模化；
-3. advanced packaging 可规模化；
-4. high-speed interconnect 可支撑大集群；
-5. compiler/runtime migration cost 可接受；
-6. frontier workload 能稳定运行；
-7. system cost / utilization / power 可持续。
+1. **Production-Grade Parallel Stack**：一套替代系统能否在真实生产环境中稳定运行；
+2. **Autonomous Frontier Closure**：这套系统能否在关键外部供给受限时仍持续扩张、升级和迭代。
 
-这七个 gate 的意义，是把“有没有国产产品”改成“能否形成 production-grade system”。任何一项长期缺失，都可能限制整体等价替代。
+第一层不要求所有器件、设备和材料都来自国内；第二层才要求更高程度的 upstream continuity。
+
+### 11.1 Production-Grade Parallel Stack 的七个 Gate
+
+1. accelerator / compute 可规模交付；
+2. HBM-class 或等价 memory subsystem 能满足目标 workload；
+3. advanced packaging / integration 可规模交付；
+4. high-speed scale-up / scale-out interconnect 可支撑目标集群；
+5. compiler/runtime 与 framework migration cost 可接受；
+6. frontier / high-value production workload 能稳定运行并形成持续反馈；
+7. system utilization、power、reliability 与 cost economics 可持续。
+
+满足这些条件，才可以把“有国产产品”升级为“存在 production-grade frontier parallel system”。
+
+### 11.2 Autonomous Frontier Closure 还需要两个额外 Gate
+
+8. **advanced manufacturing continuity**：advanced logic、关键 equipment、software、materials、spares、field service 与 process upgrade 能持续获得或替代；
+9. **infrastructure / capital continuity**：HBM、packaging、LPS/power 与长期资本能够支持多代规模扩张，而不是只完成一次性 cluster deployment。
+
+因此：
+
+> **production-grade substitution ≠ full technological autonomy**
+
+这一区分可以避免两个相反错误：既不能因为仍有进口依赖就否认真实替代系统，也不能因为系统已经能运行，就宣布所有 frontier critical layers 已经自主闭环。
 
 ## 12. 对全球资源竞争的真正影响
 
@@ -219,9 +237,11 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 - PC / workstation：替代能力扩大，但软件与专业 workload 兼容仍决定闭环程度；
 - frontier AI：已经存在真实、持续发展的 accelerator/software parallel stack，但 HBM、advanced packaging、interconnect、software migration、power 与 scale 仍需同时验证。
 
-如果未来出现以下一手信号，应上调 system-closure 判断：公开 HBM product/revenue line；可复核的大集群 utilization 与 frontier workload；advanced-packaging 规模化交付；多代 compiler/runtime 兼容；以及稳定、可持续的 system economics。
+如果未来出现以下一手信号，应上调 **production-grade parallel stack** 判断：公开 HBM-class / equivalent memory subsystem、可复核的大集群 utilization 与 frontier workload、advanced-packaging 规模化交付、多代 compiler/runtime 兼容，以及稳定 system economics。
 
-如果这些 gate 长期未跨越，则“有国内技术栈”仍不能升级为“frontier 等价替代”。
+若同时出现 equipment/material/service continuity、关键制造工艺持续升级和多代基础设施扩张能力，才应进一步上调 **autonomous frontier closure** 判断。
+
+反过来，如果 production workload 仍需要高迁移成本、关键 memory/packaging 不能规模化，或 upstream continuity 长期无法跨代维持，则不应把“有国内技术栈”升级成完整 frontier closure。
 
 ## References
 
