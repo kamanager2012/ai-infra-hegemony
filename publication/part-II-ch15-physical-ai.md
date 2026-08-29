@@ -111,6 +111,38 @@ mass production 不行。
 
 因此 Physical AI 的产业拐点必须由 manufacturing / deployment data 证明，而不能由演示视频证明。
 
+## 9A. Physical AI 的商业临界点不是“能完成任务”，而是 Capital Payback
+
+机器人从 demo 进入 production 后，真正需要比较的不是单次任务成功率，而是：
+
+```text
+Economic Output
+≈ Useful Tasks per Hour
+× Uptime
+× Deployment Scale
+- Energy
+- Maintenance
+- Human Supervision
+- Financing / Depreciation
+```
+
+因此，一台机器人即使技术上可以完成某项工作，如果：
+
+- utilization 低；
+- downtime 高；
+- maintenance interval 短；
+- human supervision 仍重；
+- replacement / component failure 快；
+- upfront CapEx 过高；
+
+仍然可能无法形成可持续 ROI。
+
+这使 Physical AI 与 data-center AI 共享一个资本规律：
+
+> **能力必须最终通过 utilization 与现金流证明。**
+
+区别只是 data-center 的 bottleneck 更多在 compute / HBM / power，机器人则多出 actuator、battery、mechanical reliability、field service 与 safety。
+
 ## 10. 中国在 Physical AI 上的能力结构与 Frontier AI 不同
 
 Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-electronics supply chain 与 system integration。
@@ -134,7 +166,7 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 机器人革命的真正竞争不是“谁模型 benchmark 最好”，而是：
 
-> **谁能把 AI capability 转化成可靠、低成本、可量产、可维护的物理工作。**
+> **谁能把 AI capability 转化成可靠、低成本、可量产、可维护，而且能够以足够高 utilization 回收资本的物理工作。**
 
 ## References
 
