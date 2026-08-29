@@ -25,8 +25,8 @@
 
 - **P0-1 Historical Clearing Backtest**：v0.7；已恢复 2008–2009 GFC / Enterprise IT 详细案例，把 Case A–H 统一到 first-deterioration / cross-confirmation / accounting-confirmation / trough timing matrix，并进一步收紧 A/B/C/H 的 source-level timing；新增反例显示 inventory-led clearing 中 Accounting 可以与 Market Clearing 几乎同步，因此只能说“多数长周期案例里 Accounting 更常滞后”，不能写成固定顺序；
 - **P0-2 AI Demand Elasticity Calibration**：v0.4；除 preferred E1≈-1.11、multi-homing 与 ε/σ_task 边界外，已审计 GPT-5.6 discount event 的公开数据可得性：事件窗口和聚合响应可见，但无可下载 daily raw panel，因此冻结为 Tier B descriptive event-study candidate，不制造回归系数；
-- **P0-3 Verified Workflow Economics**：v0.4；在企业 RCT ledger 上新增 1,174 人 randomized problem-solving + non-AI follow-up，开始把 assisted output 与 persistence / retained human capability 分开；完整 Cost/VSWO 仍缺 cost + human time + verification + persistence + business value 同 workflow_id 联结；
-- **P0-4 Macro-Financial Transmission**：v0.17；五家 project-finance borrowers 已补齐更细的 pricing / maturity / drawn-undrawn / interest / DSCR / refinancing evidence，并新增 Supplier / Sponsor Support overlay，将 strategic equity、guarantee、vendor/OEM finance、third-party capital mobilization、customer prepayment 与独立终端需求分开；
+- **P0-3 Verified Workflow Economics**：v0.5；新增 515 家 startup 的 Mapping AI into Production firm-performance bridge、Alibaba customer-service persistence counterexample 与 property-tax action-completion case，并把闭环固定为 Productivity → Cost → Economic 三层；完整 Level-3 仍要求同一 workflow_id 联结 AI/tool cost + human time + verification + persistence + realized business value；
+- **P0-4 Macro-Financial Transmission**：v0.18；方法层已与可维护数据层分离：04A public-credit/macros、04B hyperscaler quarterly capital intensity、04C project-finance borrowers、04D supplier/sponsor support；主文件只保留 transmission logic 与 S4 cross-confirmation rules；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
@@ -44,6 +44,10 @@
 - [02 · Demand Elasticity Calibration](02-demand-elasticity-calibration.md)
 - [03 · Verified Workflow Economics](03-verified-workflow-economics.md)
 - [04 · Macro-Financial Transmission](04-macro-financial-transmission.md)
+  - [04A · Public Credit & Macro-Financial Panel](04a-public-credit-panel.md)
+  - [04B · Hyperscaler Quarterly Capital-Intensity Panel](04b-hyperscaler-quarterly-panel.md)
+  - [04C · AI Infrastructure Project-Finance Borrower Panel](04c-project-finance-borrower-panel.md)
+  - [04D · Supplier / Sponsor Support Panel](04d-supplier-support-panel.md)
 - [05 · Geopolitical Scenario Layer](05-geopolitical-scenario-layer.md)
 - [06 · Conditional Timeline](06-conditional-timeline.md)
 - [07 · Downstream Empirical Chains](07-downstream-empirical-chains.md)
@@ -60,8 +64,8 @@
 
 1. P0-1 下一步只继续压 Medium-confidence trough / stabilization 边界，并在新增样本时优先找与科技无关、可观测 utilization + financing + residual-value 的周期；
 2. P0-2 先寻找 machine-readable OpenRouter daily export / reproducible historical panel；没有原始日度数据就不做 event-time point estimate，继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
-3. P0-3 优先寻找能够在同一 workflow_id 下连接 AI cost + human time + verification + persistence + business value 的生产数据，并区分 rented capability 与 retained capability；
-4. P0-4 下一步继续解析 NY Fed CMDI stable direct-file path，并开始按统一 borrower / support fields 维护 facility-level changes over time；优先补项目级 monetization / delivery / support drawdown 与 guarantee activation state；
+3. P0-3 下一步只追 Level-3 Economic Closure：同一 workflow_id 下连接 AI/tool cost + human time + verification + persistence + realized business value；同时把 use-case mapping/discovery cost 纳入 adoption economics；
+4. P0-4 下一步在 04A–04D 附录中维护数据，不再扩张主方法文件；继续解析 NY Fed CMDI stable direct-file path，并优先补 facility-level changes、project monetization/delivery、support drawdown 与 guarantee activation state；
 5. Decision Invariants 下一步只验证 actor-specific implementation cost：检查 10 条 hard invariants 是否在 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体上都可操作；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 继续补 Non-AI end-system response panel：优先找第二个 console platform、更多 PC OEM、automotive/industrial 的一手 procurement / lead-time / margin / qualification evidence；必须同时保留 cost-down / inventory / substitution 反证；
