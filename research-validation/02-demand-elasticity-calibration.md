@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.6
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.7
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -737,9 +737,35 @@ A successful authenticated export has now been obtained. The retrieved panel rep
 
 This is a meaningful data-path closure, not an empirical estimate.
 
+### 13B.8 Weekly aggregation sanity check v0.7
+
+A week-level aggregation of the retrieved daily rankings gives:
+
+| Week starting Monday | Calendar coverage in export | Model rows represented in weekly aggregation | Total tokens | Normalized tokens/day |
+|---|---:|---:|---:|---:|
+| 2026-08-03 | 7 days | 51 | 69.05T | 9.86T/day |
+| 2026-08-10 | 7 days | 51 | 75.34T | 10.76T/day |
+| 2026-08-17 | 7 days | 51 | 93.38T | 13.34T/day |
+| 2026-08-24 | **5 days only, through Aug 28** | 51 | 96.90T | **19.38T/day** |
+
+The last row is a **partial week** and must never be compared mechanically with the prior full-week totals. Its normalized daily rate is descriptive only because model entry/exit and traffic composition changed sharply.
+
+Latest partial-week target-model totals:
+- Luna: **6.14T** tokens (~6.3% of observed weekly total);
+- Sol: **1.52T** (~1.6%);
+- Terra: **520.89B** (~0.54%).
+
+A critical composition diagnostic is `stealth/ox-alpha`: it ranks #1 for the Aug-24 partial week with **15.68T** tokens (~16.2% of the observed weekly total), yet it is absent from the top-51 snapshot on Aug 28.
+
+This proves a methodological point:
+
+> **one daily ranking snapshot is not a valid proxy for the event-window composition.**
+
+The panel must preserve model-day entry/exit, top-50 censoring, and within-week traffic concentration before estimating any treatment effect. Weekly totals can be used as a sanity check for market expansion, but not as a substitute for the model-day event study.
+
 ---
 
-## 15. P0-2 v0.6 worklist
+## 15. P0-2 v0.7 worklist
 
 1. obtain/reconstruct daily provider-model price and token panels for eligible events;
 2. ingest the retrieved 1,530-row export; build the Terra/Luna/Sol common-window panel and audit top-50 censoring before any estimation;
