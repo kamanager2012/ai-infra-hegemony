@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.2
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.3
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -205,7 +205,57 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 
 ---
 
-# 6. v0.1 回测结论
+# 6. Case E — 2001–2003 Semiconductor Downcycle
+
+这个案例与 Case A（Internet/Telecom）发生在同一大周期，因此**不能当作独立宏观事件重复计数**。它的价值是检验：当冲击进入半导体这一更靠上的物理层时，五信号是否仍能识别出 inventory、utilization、pricing 与 capacity commitment 的同步清算。
+
+## 6.1 信号回放
+
+| Signal | 当期可观测证据 | v0.3 |
+|---|---|---:|
+| Accounting | Micron 2001 年对 semiconductor-memory inventory 计提约 **US$727M** write-down，2002 年再计提约 **US$376M**；Intel 2001 年 flash-memory 业务也受到更高 inventory write-down 与 factory under-utilization 拖累 | 2 |
+| Utilization / Revenue | 美国 semiconductor/electronic-component capacity utilization 从 2000-07 约 **93.2%** 降至 2001-11 约 **58.8%**；行业 2001 sales 同比下滑超过 30% | 2 |
+| Market Clearing | Micron 2001 ASP 同比约 **-60%**、2002 再约 **-53%**；客户 inventory-reduction programs 与 excess manufacturing capacity 形成持续 pricing pressure | 2 |
+| Forward Commitment | STMicroelectronics 披露因需求与利用率大幅下滑而关闭/选择性停产部分 wafer fabs；Fed 同期下修 semiconductor/computer manufacturers 的 capacity-growth estimate | 2 |
+| Demand Quality / Financing | 本轮主要由 end-demand collapse、inventory correction 与 excess capacity 驱动；缺少与 2001 telecom 同等强度、可独立识别的 financing-stress 证据 | N/A |
+
+**研究侧结果：8/8 observable points；四类实体信号均为 2。判定为 Broad semiconductor clearing。**
+
+## 6.2 Timing
+
+- **2000 H2**：semiconductor utilization 从高位开始下滑；
+- **2001 H1**：利用率、订单、库存和 pricing 已出现跨信号恶化；
+- **2001 H2**：利用率跌至约 60%，公司开始 plant closure / selective shutdown / inventory write-down；
+- **2002**：行业 sales 低位徘徊，Micron ASP 再大幅下降并继续库存减值；
+- **2003**：利用率逐步恢复到 70%–80% 区间，行业开始进入更清晰的复苏阶段。
+
+因此本案例的信号顺序更接近：
+
+> **Utilization / Market Clearing → Accounting / Capacity Retrenchment → Recovery**
+
+而不是“Accounting 最先报警”。
+
+## 6.3 对 Chapter 24 的意义
+
+这一层回测强化三个结论：
+
+1. **Market Clearing 与 Utilization 是半导体资本周期的重要领先/同步信号**；  
+2. **Accounting 主要负责确认损失已经进入财务报表，不负责最早预警**；  
+3. **Demand Quality / Financing 不是每次物理产业清算都必须可观测**。由 inventory / end-demand / excess capacity 驱动的行业清算，仍可能在没有显著融资断裂证据时成立。
+
+### 6.4 样本相关性警告
+
+Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
+
+所以后续如果计算“命中率”，必须：
+
+- 把它们视为**一个宏观 episode 下的两个 layer observations**；
+- 不能简单写成“两个独立历史危机都验证成功”；
+- 需要继续增加不相关周期，才能提高外部有效性。
+
+---
+
+# 7. v0.3 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -213,6 +263,7 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 | 2018–2019 Crypto/GPU | 2 | 2 | 2 | 2 | N/A | Strong partial / segment clearing |
 | 2022–2023 GPU + Cloud optimization | 2 | 1 | 2 | 1 | 0 | Partial / no system-wide S4 |
 | 2008–2009 GFC / Enterprise IT | 0 | 2 | 1 | 2 | 2 | Broad clearing |
+| 2001–2003 Semiconductor | 2 | 2 | 2 | 2 | N/A | Broad layer clearing* |
 
 当前结果说明：
 
@@ -221,20 +272,21 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 3. **需要增加 Segment Breadth 维度**：否则 2018 与 2022 的局部 GPU 清算容易被升级为系统性清算；
 4. **Demand Quality / Financing 的历史可观测性不稳定**：2001 很强，2018 很难按当前定义观测。这意味着第五信号在不同产业结构中需要 proxy hierarchy，而不能假装始终有同样的数据；
 5. **Accounting 不应成为硬门槛**：2008–2009 显示金融条件主导的系统性清算可以在卖方并无巨额 write-down 时发生；
-6. **目前仍不能称为“验证过的预测系统”**：样本只有 4 个，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
+6. **相关样本不能重复计数**：2000–2002 telecom 与 2001–2003 semiconductor 属于同一宏观 episode 的不同 physical layers；
+7. **目前仍不能称为“验证过的预测系统”**：已经有 5 个 layer/cycle observations，但宏观独立 episode 更少，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
 
 因此，当前最准确的表述是：
 
-> **Chapter 24 五信号系统已完成第一轮 retrospective falsification check；它没有在三个已知历史状态上出现明显逻辑失效，但仍未达到统计验证或前瞻验证标准。**
+> **Chapter 24 五信号系统已完成第一轮 retrospective falsification check；它在当前历史样本中尚未出现明显逻辑失效，并已暴露出 Accounting 非硬门槛、Segment Breadth 与样本相关性等重要限制，但仍未达到统计验证或前瞻验证标准。**
 
 ---
 
-# 8. 下一步：P0-1 v0.3
+# 8. 下一步：P0-1 v0.4
 
-下一版只增加样本与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
+下一版继续增加**独立周期**与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
-1. **2007–2009 Global Financial Crisis / data-center & enterprise IT** — 检验金融冲击主导的 clearing；
-2. **2014–2016 commodity / datacenter-adjacent capex slowdown** 或其他可观察资本周期 — 检验非科技泡沫型清算；
+1. **2014–2016 commodity / datacenter-adjacent capex slowdown** 或其他独立资本周期 — 检验非科技泡沫型清算；
+2. 至少加入一个“高估值/高 CapEx 但最终没有 system-wide hard landing”的额外负对照；
 3. 为每个信号建立 **proxy hierarchy**：A 级一手指标 > B 级机构指标 > C 级市场代理；
 4. 记录 **first-deterioration date / confirmation date / trough date**，估计不同信号的领先/滞后关系；
 5. 至少加入一个“看起来很危险但最后没有 hard landing”的额外负对照；
@@ -293,3 +345,17 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
   https://www.federalreserve.gov/monetarypolicy/mpr_20090721_part2_accessible.htm
 - Cisco Systems FY2009 Annual Report — FY2009 revenue -9%, product revenue approximately -12% amid reduced enterprise/service-provider spending; inventory and purchase-commitment provisions:  
   https://www.cisco.com/assets/cdc_content_elements/docs/annualreports/media/2009-ar.pdf
+
+
+## 2001–2003 Semiconductor Downcycle
+
+- Federal Reserve G.17, 2001-05-14 — high-technology capacity utilization fell for the ninth consecutive month; semiconductor/computer capacity growth estimates revised downward:  
+  https://www.federalreserve.gov/releases/g17/20010514/
+- Federal Reserve / FRED, semiconductor and electronic-component capacity-utilization series — utilization fell from roughly 93% in mid-2000 to roughly 60% by late 2001, then recovered through 2003:  
+  https://fred.stlouisfed.org/data/CAPUTLG3344S
+- Micron Technology FY2002 Form 10-K — semiconductor-memory ASP declined approximately 60% in 2001 and 53% in 2002; inventory write-downs approximately US$727M in 2001 and US$376M in 2002:  
+  https://www.sec.gov/Archives/edgar/data/723125/000091205702038669/a2091284z10-k.htm
+- Intel 2001 Annual Report — flash-memory results hurt by lower volume, decreased factory capacity utilization and higher inventory write-downs:  
+  https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-05/history-2001-annual-report.pdf
+- STMicroelectronics 2001 Form 20-F — 2001 semiconductor TAM down approximately 32%; customer inventory reductions drove lower utilization and fab closures/selective shutdowns:  
+  https://www.sec.gov/Archives/edgar/data/932787/000102140802007666/d20f.htm
