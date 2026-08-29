@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.1
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.2
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -41,6 +41,62 @@ Chapter 24 的五类信号：
 - **No systemic clearing**：信号明显分化，关键需求/利用率或未来承诺仍有强反证。
 
 这只是防止事后自由解释的校准工具；阈值本身仍为 D 级，必须经过更多历史样本与未来 prospective runs 才能升级。
+
+### 2.2 Proxy hierarchy：每类信号先看什么
+
+为避免未来每次遇到数据缺口就临时换指标，固定如下 proxy hierarchy。后续案例必须优先使用更高层级；只有高层级不可得时才下沉。
+
+| Signal | Tier 1：优先证据 | Tier 2：次级证据 | Tier 3：仅作辅助 |
+|---|---|---|---|
+| Accounting | 10-K/10-Q/年报中的 impairment、inventory provision、write-down、asset disposal、accelerated depreciation | 公司正式 earnings materials / CFO commentary | 媒体转述、分析师估计 |
+| Utilization / Revenue | 公司披露的 utilization、segment revenue、revenue per deployed asset、已部署容量 monetization | 出货/订单/usage 的机构统计 | 单一渠道调查、股价 |
+| Market Clearing | 官方/公司披露的 channel inventory、pricing program、lead time、resale/lease clearing | 高质量行业价格与库存数据库 | 二手平台零散报价 |
+| Forward Commitment | CapEx guidance、采购/供给承诺、合同容量、项目延期/取消的一手披露 | 监管文件、项目融资文件、机构汇总 | 市场传闻 |
+| Demand Quality / Financing | 客户现金流、债务/信用条件、正式融资、supplier credit/equity support、refinancing | Fed/央行/监管信用环境与高质量机构融资数据 | 估值、风险偏好等间接代理 |
+
+**硬规则：**
+- 股价、估值和媒体情绪不能独立把任何一类信号从 0 提升到 2；
+- 同一公司同一份披露里的多句话，原则上仍算**一个证据源**，不能伪装成多源确认；
+- “价格下降”若来自技术代际进步而非库存/利用率失衡，不能直接记作 Market Clearing 恶化；
+- “CapEx 下调”若同时明确说明只是项目时点迁移、架构切换或非目标资产削减，最多记 1，除非后续出现取消/重谈/利用率同步恶化。
+
+### 2.3 Segment breadth：防止局部清算误报系统性 S4
+
+每个案例除五类信号外，再记录一个不计入 10 分总分的 **Segment Breadth**：
+
+- **Narrow**：主要集中在单一需求源、产品代际或一个下游；
+- **Multi-segment**：至少两个关键子市场同步恶化；
+- **System-wide**：上游供给、核心买方、资本承诺和融资条件跨层同步恶化。
+
+若 Segment Breadth = Narrow，即使可观测信号全部为 2，也不得直接标记 system-wide S4。
+
+### 2.4 Lead / lag 记录规则
+
+后续每个案例都记录三个时间点：
+
+1. **First deterioration date**：首次出现可信、当时可观察的恶化；
+2. **Cross-confirmation date**：至少三个不同信号类别开始相互印证；
+3. **Accounting confirmation date**：正式 write-down / impairment / annual-statistical confirmation 出现。
+
+由此计算：
+
+- Market Clearing 相对 Accounting 的领先期；
+- Forward Commitment 相对 Accounting 的领先/滞后期；
+- 从首次恶化到跨信号确认需要多久。
+
+历史资料无法精确到月时，只记录 quarter / half-year，不伪造精度。
+
+### 2.5 False-positive constraint
+
+任何候选 S4 必须主动搜索至少一条反证：
+
+- 核心 segment revenue / utilization 仍扩张；
+- forward commitment 只是延期而非取消；
+- 资本开支从 legacy/non-AI 资产迁移到新架构，而非总需求崩塌；
+- inventory clearing 由产品换代而非终端需求断裂解释；
+- financing tightening 尚未传导到实际项目取消。
+
+若存在强反证，必须在表格中显式记录，不能只放进脚注。
 
 ---
 
@@ -157,7 +213,7 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 | 2018–2019 Crypto/GPU | 2 | 2 | 2 | 2 | N/A | Strong partial / segment clearing |
 | 2022–2023 GPU + Cloud optimization | 2 | 1 | 2 | 1 | 0 | Partial / no system-wide S4 |
 
-第一版结果说明：
+当前结果说明：
 
 1. **五信号具有基本 face validity**：它能把 2001 的系统性资本清算与 2022–2023 的局部库存清算区分开；
 2. **Accounting 不是领先指标**：它通常用于确认，而 Market Clearing / Forward Commitment 更早；
@@ -171,9 +227,9 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 
 ---
 
-# 7. 下一步：P0-1 v0.2
+# 7. 下一步：P0-1 v0.3
 
-下一版不再增加文字解释，而增加样本和可重复性：
+下一版只增加样本与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
 1. **2007–2009 Global Financial Crisis / data-center & enterprise IT** — 检验金融冲击主导的 clearing；
 2. **2014–2016 commodity / datacenter-adjacent capex slowdown** 或其他可观察资本周期 — 检验非科技泡沫型清算；
