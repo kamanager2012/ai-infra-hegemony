@@ -130,7 +130,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 ## 10. End Systems：不是“输掉 AI”，而是承受 residual-capacity 与 supply-assurance pressure
 
-smartphone、PC、automotive、industrial systems、robotics 与部分 high-reliability electronics 仍然是重要的终端和战略系统。它们承受的主要不是“被 AI 淘汰”，而是共享或相邻上游资源的再排序。
+smartphone、PC、game consoles、automotive、industrial systems、robotics 与部分 high-reliability electronics 仍然是重要的终端和战略系统。它们承受的主要不是“被 AI 淘汰”，而是共享或相邻上游资源的再排序。
 
 因此，整机层更准确的角色不是“AI 竞赛输家”，而是：
 
@@ -139,6 +139,7 @@ smartphone、PC、automotive、industrial systems、robotics 与部分 high-reli
 这种压力分为不同物理路径：
 
 - smartphone / PC 更直接暴露于 selected leading-edge logic、DRAM/LPDDR/NAND、consumer GPU 与 selected packaging；
+- game consoles 暴露于 custom SoC/APU、GDDR/DRAM、NAND/SSD 与 long-generation hardware economics，memory procurement 可以直接传导到 promotion、unit volume 与 hardware margin；
 - automotive / industrial 更受 mature memory、MCU/analog、power、qualification 与 long-life supply 影响；
 - robotics 同时连接 industrial electronics 与 edge/cloud AI；
 - defense / aerospace / space electronics 的核心约束更多是 trusted、qualified、low-volume、long-life、RF/power、rad-hard 与 special-process continuity，而不是直接争夺同一批 HBM。
