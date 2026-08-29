@@ -1,8 +1,8 @@
-# P0-4A · Public Credit & Macro-Financial Panel v0.2
+# P0-4A · Public Credit & Macro-Financial Panel v0.3
 
-> Extracted from P0-4 v0.17 to keep the method file maintainable. This appendix preserves the reproducible macro/public-credit data layer; interpretation rules remain governed by `04-macro-financial-transmission.md`.
+> Initially extracted from P0-4 v0.17 to keep the method file maintainable. The parent method is now v0.18. This appendix preserves the reproducible macro/public-credit data layer; interpretation rules remain governed by `04-macro-financial-transmission.md`.
 
-## 10A. 2022–2026 quarterly macro-financial panel v0.1
+## 10A. 2022–2026 quarterly macro-financial panel v0.2
 
 The first reproducible quarterly backbone is now populated with four variables:
 
@@ -11,13 +11,20 @@ The first reproducible quarterly backbone is now populated with four variables:
 - **SLOOS standards:** net percentage of domestic banks tightening C&I standards for large / middle-market firms;
 - **SLOOS demand:** net percentage reporting stronger C&I demand from large / middle-market firms.
 
-Important frequency rule:
+Important temporal-identity rule:
 
-> **Fed Funds / 10Y are monthly averages from the quarter-ending month. SLOOS uses the survey-quarter label and generally describes changes over the preceding three months.**
+- **Fed Funds / 10Y** use the calendar quarter and the quarter-ending month's average;
+- **SLOOS / FRED** observations use the survey-release quarter label, while the survey questions generally describe changes over the preceding three months.
 
-The table therefore aligns monitoring windows; it does **not** claim same-day observation.
+Therefore the row label below is a **monitoring label**, not proof that all four variables describe the exact same economic quarter.
 
-| Quarter | Fed Funds % | 10Y % | SLOOS tightening % | SLOOS stronger demand % | Macro reading |
+Example:
+- FRED `DRTSCILM/DRSDCILM = Q2 2026` corresponds to the spring survey vintage and reports **8.1 / 4.8**;
+- the **July 2026 SLOOS**, released on 2026-08-03 and describing lending changes over 2026Q2, appears in FRED as **Q3 2026** and reports **0.0 / 16.1**.
+
+This distinction is mandatory for prospective use.
+
+| Monitoring label | Fed Funds % | 10Y % | SLOOS tightening % | SLOOS stronger demand % | Macro reading |
 |---|---:|---:|---:|---:|---|
 | 2022Q1 | 0.20 | 2.13 | -14.5 | 21.7 | easy bank standards, strong demand; hiking cycle begins |
 | 2022Q2 | 1.21 | 3.14 | -1.5 | 12.3 | rates rise sharply; standards near neutral |
@@ -37,6 +44,21 @@ The table therefore aligns monitoring windows; it does **not** claim same-day ob
 | 2025Q4 | 3.72 | 4.14 | 6.5 | 11.5 | policy easing with improving demand |
 | 2026Q1 | 3.64 | 4.25 | 5.3 | 16.1 | aggregate bank credit no longer crisis-tight; demand positive |
 | 2026Q2 | 3.63 | 4.47 | 8.1 | 4.8 | modest tightening persists while long rates remain elevated |
+
+### 10A.0A Latest SLOOS release bridge — published 2026-08-03
+
+The latest completed SLOOS release must be carried separately because 2026Q3 is not yet a completed rates quarter.
+
+| Publication date | FRED survey label | Economic period described | DRTSCILM | DRSDCILM | Read-through |
+|---|---|---|---:|---:|---|
+| 2026-08-03 | **2026Q3** | predominantly **2026Q2** lending changes | **0.0%** | **16.1%** | domestic C&I standards were basically unchanged on net while demand from large / middle-market firms strengthened |
+
+This is stronger contrary evidence against an economy-wide credit seizure than the prior spring-vintage 8.1 / 4.8 observation.
+
+It does **not** prove easy financing for AI infrastructure borrowers:
+- SLOOS is aggregate bank-credit evidence;
+- NDFI / private-credit conditions can differ;
+- borrower-specific spreads, covenants, concentration and refinancing still require 04C-level evidence.
 
 **Sources:** Federal Reserve / FRED series FEDFUNDS, GS10, DRTSCILM and DRSDCILM.
 
