@@ -44,7 +44,7 @@ Current status:
 | Original priority | Current state |
 |---|---|
 | Historical clearing backtest | protocol matured to v1.0; maintenance moved to prospective `01A` logging |
-| Demand-elasticity calibration | authenticated 30-day raw panel successfully retrieved; target slugs confirmed; coefficient pending censoring / treatment / substitution audit |
+| Demand-elasticity calibration | 30-day target coverage audit passed; Sol Aug-17 short-window OpenRouter-visible event elasticity estimated at ~-0.47 in the preferred adjusted specification; Terra/Luna initial treatment and structural E2/E3/E4 elasticity remain unresolved |
 | Verified-workflow economics | public candidate audit complete; literature expansion frozen; §17 first-party Level-3 acquisition contract is authoritative |
 | Macro-financial transmission | parent method stabilized; 04A–04D now own maintainable credit / hyperscaler / facility / support states |
 | Geopolitical scenario layer | G1–G5 state system operational |
