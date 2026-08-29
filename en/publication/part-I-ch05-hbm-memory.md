@@ -67,23 +67,17 @@ This is B-grade institutional estimation, not product-level realized gross-margi
 
 AI Resource Gravity is therefore not an infinitely one-way pump. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
 
-## 7. Rack-scale demand can support scenario arithmetic, not fake shipment estimates
+## 7. Rack-scale specifications reveal memory intensity, not industry shipment demand
 
-Using the GB200 NVL72 product specification of **13.4 TB HBM3E/rack**[^1], we can run order-of-magnitude stress tests:
+GB200 NVL72's **13.4 TB of HBM3E per rack** is a useful system-level material identity.[^1]
 
-**Table 5.1 — GB200 NVL72 rack count and HBM3E scenario demand**
+It shows that once procurement moves from an accelerator card to a rack-scale system, memory intensity must also be evaluated at the system level.
 
-| Scenario rack count | HBM3E demand |
-|---:|---:|
-| 1,000 | 13.4 PB |
-| 10,000 | 134 PB |
-| 30,000 | 402 PB |
-| 50,000 | 670 PB |
+But without a public rack shipment or deployment count, the specification cannot be scaled into an industry PB-demand estimate.
 
-**Source:** NVIDIA GB200 NVL72 official specification; report scenario arithmetic.[^1]  
-**Note:** Rack count is a D-grade assumption. The PB figures are not actual shipments or consumption.
+Therefore:
 
-These are **D-grade scenario-demand calculations**. NVIDIA does not disclose annual rack shipments that can be multiplied directly by this specification, and memory vendors do not disclose customer-level annual HBM bits mapped one-for-one to these racks. Neither 50,000 racks nor 670 PB may therefore be presented as actual consumption.
+> **Per-system HBM specifications can describe memory intensity; industry demand still requires observed shipments, customer demand, or memory-vendor supply data.**
 
 ## 8. HBM4 increases cross-layer capital density without justifying a fabricated fixed multiple
 
