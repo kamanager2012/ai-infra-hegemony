@@ -11,7 +11,7 @@ The report's core judgment can be compressed into six points:
 3. **Traditional end markets face residual capacity, not gross global capacity.** Total supply can rise while smartphones, PCs, automotive, and industrial markets still face price, allocation, or configuration pressure.
 4. **NVIDIA remains exceptionally strong, but the competition is no longer GPU versus ASIC; it is system stack versus system stack.** Google, AWS, Microsoft, and Meta are building credible second-stack paths.
 5. **Infrastructure only completes the demand-side loop when it produces verifiable, repeatable, monetizable workflow outcomes.** Agent-native software, Physical AI, and enterprise automation ultimately have to convert compute into accepted economic output that can sustain utilization and capital recovery.
-6. **The future is neither a single continuation-of-boom story nor a single bubble-collapse story.** The 2026–2036 path will be determined by supply elasticity, system substitution, utilization, power, workload economics, capital discipline, financing quality, and the maturity of China's parallel stack.
+6. **The future is neither a single continuation-of-boom trajectory nor a single bubble-collapse trajectory.** The 2026–2036 path will be determined by supply elasticity, system substitution, utilization, power, workload economics, capital discipline, financing quality, and the maturity of China's parallel stack.
 
 The current public-evidence mix is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths continue to develop without yet eliminating HBM, advanced-packaging, power, and migration constraints.
 
