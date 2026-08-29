@@ -1,7 +1,25 @@
-# Phase II · Developer Distribution Chokepoint v0.2
+# Phase II · Developer Distribution Chokepoint v0.3
 
 > **Status:** Research-side validation layer; not a claim that software monopoly or foreclosure has already occurred.  
 > **Evidence-cutoff interaction:** the Reuters transaction report is dated 2026-08-27 and therefore falls inside the formal report's 2026-08-28 evidence snapshot. Any status check after 2026-08-28 remains research-side only unless the formal report is explicitly reopened.
+
+## 0. Ownership contract v0.3
+
+This file owns:
+- transaction-status gating for the NVIDIA/Hugging Face research trigger;
+- DDC-A / DDC-B / DDC-C distribution-conduct states;
+- ranking / backend / portability / multi-homing / deployment-friction evidence;
+- contrary evidence against foreclosure.
+
+It does **not** own:
+- antitrust liability or legal remedy conclusions;
+- S1–S4 aggregation — `10` owns scenario relevance;
+- live capital-clearing state — `01A` owns clearing adjudication;
+- formal-report wording — frozen unless explicitly reopened.
+
+Hard rule:
+
+> **A distribution/competition state may affect scenario persistence, but it cannot be promoted into a capital-clearing state or legal monopoly conclusion by this file alone.**
 
 ## 1. Trigger event
 
@@ -195,7 +213,7 @@ At each major Hugging Face / NVIDIA ownership or product update, record:
 
 Every supportive observation must be paired with counterevidence.
 
-## 10. Current v0.2 judgment
+## 10. Current v0.3 judgment
 
 Current evidence supports only:
 
