@@ -170,9 +170,17 @@ TSMC customer revenue share 不能直接变成：
 
 机构估计某客户需求占比，不等于供应商确认的实际 allocation。
 
-### Contracted MW ≠ Energized MW ≠ Utilized AI Load
+### Contracted / Secured Capacity ≠ Energized Capacity ≠ Utilized AI Load
 
-长期 PPA 或 secured capacity 不能直接写成 active AI load。[^3]
+长期 PPA、secured LPS 或 future IT-GW design capacity 不能直接写成 active AI load。[^3]
+
+同时必须区分：
+
+- generation MW/GW；
+- PPA capacity；
+- IT-GW；
+- energized facility load；
+- utilized AI load。
 
 ### Product Spec ≠ Industry Shipment
 
@@ -187,6 +195,28 @@ company guidance、expectation 与 TTM actual 必须保持各自身份。
 ### Physical Pool A ≠ Physical Pool B
 
 front-end logic wafer、advanced-packaging capacity、HBM bits 与 energized MW 不能因为都服务同一个 AI system 就被放进同一分母。
+
+### Production-Grade Parallel Stack ≠ Autonomous Frontier Closure
+
+一套替代系统可以在真实 production workload 中形成可用闭环，同时仍依赖部分外部 equipment、materials、services 或 upstream manufacturing。
+
+因此必须分别判断：
+
+1. **production-grade substitution 是否成立**；
+2. **关键外部供给受限后，系统是否仍能跨代扩张和迭代**。
+
+前者不能因为存在进口依赖就被否定；后者也不能因为系统已经能运行就被提前宣布完成。
+
+### Seller-Assisted Financing ≠ Independent End Demand
+
+seller equity、credit enhancement、LPS support 或 compute-financing platform 可以加速真实基础设施形成，但也会改变 demand signal 的独立性。
+
+因此融资质量分析必须区分：
+
+- independently financed customer demand；
+- long-duration Anchor Buyer commitments；
+- third-party infrastructure capital；
+- supplier equity / credit support。
 
 ---
 
@@ -240,7 +270,8 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 - **Anchor Compute Buyer Effect**；
 - **Rolling Bottleneck Cascade**；
 - **AI Software Unit Economics**；
-- **Task-to-Job Translation**。
+- **Task-to-Job Translation**；
+- **Financing Reflexivity**。
 
 这些概念只用于组织因果关系。
 
