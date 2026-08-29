@@ -44,7 +44,7 @@
 
 这一阶段更可能决定 S1 与 S2/S3 的分叉。
 
-### Cloud System Stack
+### Cloud System-Stack
 
 要看 TPU、Trainium、Maia、MTIA 是否：
 
