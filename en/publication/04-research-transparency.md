@@ -138,6 +138,20 @@ Facts that appear after the research cutoff are new research inputs. They may st
 
 The **evidence-event/source-availability cutoff** and the **post-freeze verification date** must therefore be recorded separately.
 
+### 8A. August 29, 2026 material-correction pass
+
+The formal text was **explicitly reopened once on August 29, 2026** to correct already identified material research issues, not for general expansion. The pass covered:
+
+- end-system / non-AI reader framing and residual-capacity exposure;
+- China frontier parallel-stack Production-Grade Gate language;
+- the “not yet empirically calibrated” identity of the verified-workflow criterion;
+- public-proxy S1–S4 monitoring and the end-system dashboard;
+- pre-cutoff source supplementation and evidence boundaries.
+
+The correction pass **did not add a fifth scenario, redefine S1–S4, promote S2 into S3, or backdate facts that first occurred after August 28 into the current evidence snapshot**.
+
+The formal text was refrozen after this material-correction pass.
+
 ---
 
 ## 9. External-use boundary
