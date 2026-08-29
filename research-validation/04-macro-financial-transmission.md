@@ -1001,9 +1001,9 @@ Only a multi-layer deterioration should raise S4 materially.
 
 ---
 
-### 10A.5O Quarterly expansion protocol
+### 10A.5O Quarterly maintenance protocol
 
-The Meta pilot defines the template for Microsoft / Alphabet / Amazon.
+All four hyperscaler pilots are now populated. The same protocol should be used for future quarterly maintenance.
 
 For each company:
 
@@ -1023,7 +1023,7 @@ A headroom decline is therefore a **trigger for decomposition**, not a distress 
 
 ---
 
-### 10A.5 Financing structure now separates into three layers
+### 10A.5P Financing structure now separates into three layers
 
 The panel should therefore track:
 
@@ -1050,7 +1050,7 @@ S4 risk rises when:
 
 This structure is more informative than a single “AI CapEx funded by cash or debt” binary.
 
-### 10A.3 What remains missing
+### 10A.5Q What remains missing
 
 The panel is deliberately incomplete.
 
@@ -1059,8 +1059,8 @@ Still to backfill:
 - Chicago Fed NFCI Credit Subindex on a reproducible quarterly aggregation basis;
 - private-credit spreads / covenants where public;
 - AI-infrastructure equity risk-premium proxy;
-- quarterly—not only annual—hyperscaler OCF / CapEx / debt-equity issuance on a stable within-company definition;
-- neocloud interest expense / maturities;
+- pre-2024 hyperscaler quarterly history only where it materially improves cycle calibration;
+- neocloud / project-finance interest expense, maturities and refinancing terms;
 - supplier-support / guarantee amount by quarter.
 
 Do not fill those columns using incompatible frequencies merely to make the table look complete.
