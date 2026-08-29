@@ -141,6 +141,18 @@ Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但�
 
 这也是本报告后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
 
+## 11. 什么事实会迫使本章改判
+
+如果以下信号持续出现，应下调 NVIDIA system-stack power 判断：
+
+- frontier / high-value production workload 大规模迁移到其他 stack；
+- CUDA/runtime migration cost 显著下降并在 production 中得到验证；
+- alternative interconnect / rack systems 获得广泛外部 adoption；
+- NVIDIA supply commitments 明显收缩，而竞争者 quantity assurance 改善；
+- seller-side margin / cash generation 与 installed-base retention 同步恶化。
+
+反过来，单一 custom-chip announcement、单季 market share 变化或理论 benchmark 优势，都不足以单独证明 system-stack moat 已经失效。
+
 ## References
 
 [^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
