@@ -40,7 +40,7 @@ The question is no longer whether students are using AI.
 
 It is whether institutions can verify that students understand, control, and take responsibility for AI-generated outcomes.
 
-## 2A. International competency frameworks are already moving beyond tool use
+### 2A. International competency frameworks are already moving beyond tool use
 
 UNESCO's AI Competency Framework for Students defines **12 competencies across four dimensions**: human-centred mindset, ethics of AI, AI techniques and applications, and AI system design, organized across Understand → Apply → Create.[^2]
 
