@@ -222,6 +222,40 @@ DeepSeek 等案例的训练成本、架构效率与单位智能经济学详见[�
 
 ---
 
+## 10A. 两级 Substitution：内部经济替代与外部生态替代
+
+Cloud custom system 的“成功”至少有两个不同层级。
+
+### Internal Economic Substitution
+
+只要 custom stack 在 hyperscaler 自有或 anchor workload 中：
+
+- 稳定运行；
+- utilization 足够高；
+- TCO 低于外购替代；
+- 能持续跨代迭代；
+
+就已经形成真实经济替代。
+
+这一层不要求复制 CUDA 的全部外部生态。
+
+### External Ecosystem Substitution
+
+如果要进一步削弱通用外部 platform economics，则还需要：
+
+- external customer adoption；
+- developer portability；
+- broader workload coverage；
+- low migration cost；
+- stable commercial support；
+- multi-generation compatibility。
+
+因此：
+
+> **internal success ≠ external ecosystem replacement**
+
+但 internal success 仍然足以改变 hyperscaler 的采购结构、议价能力和长期 platform-profit distribution。
+
 ## 11. 长期均衡更可能是 Workload Segmentation，而不是单方清场
 
 最现实的长期格局更可能是 workload segmentation。
