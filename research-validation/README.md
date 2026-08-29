@@ -23,5 +23,31 @@
 
 ## 当前状态
 
-- P0-1：进行中，已建立第一版历史回测；
-- P0-2～P2：待按优先级推进。
+- **P0-1 Historical Clearing Backtest**：v0.2 已完成首轮协议化回测；已包含 2000–2002 Internet/Telecom、2018–2019 Crypto/GPU、2022–2023 GPU/Cloud optimization、2008–2009 GFC/Enterprise IT，并固定 proxy hierarchy、segment breadth、lead/lag 与 false-positive constraints；
+- **P0-2 AI Demand Elasticity Calibration**：v0.1 已建立；将 ε*=0.737 明确为 D-grade geometry break-even，并拆分 E1 API / E2 workload / E3 verified workflow / E4 infrastructure elasticity；
+- **P0-3 Verified Workflow Economics**：v0.1 已建立；定义 Verified Successful Workflow Outcome（VSWO）、cost per VSWO、success rate、human review、retry、resource intensity 与 cycle time；
+- **P0-4 Macro-Financial Transmission**：v0.1 已建立；把 rates / spreads / SLOOS / WACC / project finance / refinancing 接入资本周期与 S4；
+- **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
+- **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
+- **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界。
+
+## 文件索引
+
+- [00 · External Reference Landscape](00-external-reference-landscape.md)
+- [01 · Clearing Signals Backtest](01-clearing-signals-backtest.md)
+- [02 · Demand Elasticity Calibration](02-demand-elasticity-calibration.md)
+- [03 · Verified Workflow Economics](03-verified-workflow-economics.md)
+- [04 · Macro-Financial Transmission](04-macro-financial-transmission.md)
+- [05 · Geopolitical Scenario Layer](05-geopolitical-scenario-layer.md)
+- [06 · Conditional Timeline](06-conditional-timeline.md)
+- [07 · Downstream Empirical Chains](07-downstream-empirical-chains.md)
+
+## 下一阶段
+
+优先继续深化而不是扩题：
+
+1. P0-1 增加样本与 first-deterioration / cross-confirmation / accounting-confirmation timing；
+2. P0-2 读取并复核 NBER estimation specification，建立可用 price-event catalog；
+3. P0-3 开始填充真实 workflow benchmark 表；
+4. P0-4 建季度 macro-financial panel，并映射主要 AI-infrastructure 项目的融资结构；
+5. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
