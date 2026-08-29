@@ -2,7 +2,7 @@
 
 ## 1. 核心判断：资本扩张仍在继续，但产业问题已经从“投多少”转向“这些资本能否被有效利用”
 
-截至 2026 年 8 月，Microsoft、Amazon、Alphabet、Meta 等 hyperscaler 的 infrastructure spending 仍处历史高位。真正重要的变化不是某一个 headline CapEx 数字，而是：
+截至 2026 年 8 月，Microsoft、Amazon、Alphabet、Meta 等 hyperscaler 的 infrastructure spending 仍处历史高位。真正重要的变化不是某一个 CapEx 绝对规模，而是：
 
 > **AI infrastructure 已经从短周期 server procurement，扩展为 advanced logic、HBM、network、data center、cooling、substation、grid connection 与 long-duration power contract 共同驱动的资本周期。**
 
