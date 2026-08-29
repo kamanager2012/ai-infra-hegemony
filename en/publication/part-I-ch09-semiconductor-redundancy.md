@@ -18,7 +18,7 @@ Supply security for an accelerator designer is therefore not determined by chip 
 
 ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. By the end of 2025, customers had run more than **400,000 wafers** on High-NA systems while qualification continued.[^1]
 
-On **July 15, 2026**, ASML announced the first High-NA EUV use in high-volume logic production on select Intel 18A layers for Panther Lake.[^8] That moves High-NA from a qualification-only story into an observed HVM production milestone, while still not implying that High-NA has become universal across leading-edge logic.
+On **July 15, 2026**, ASML announced the first High-NA EUV use in high-volume logic production on select Intel 18A layers for Panther Lake.[^8] That moves High-NA from a qualification-only phase into an observed HVM production milestone, while still not implying that High-NA has become universal across leading-edge logic.
 
 The strategic constraint in advanced lithography cannot therefore be captured by a single-machine price.
 
