@@ -1,6 +1,6 @@
 # Part IV · Chapter 28: 2026–2036 Timeline and Conditional Milestones
 
-## 1. The timeline is a Conditional Milestone Map, not a year-by-year story
+## 1. The timeline is a Conditional Milestone Map, not a year-by-year narrative
 
 The most common long-range error is to take technology roadmaps, capital plans, or power-project target dates and rewrite them as events that are guaranteed to occur.
 
