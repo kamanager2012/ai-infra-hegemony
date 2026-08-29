@@ -175,6 +175,19 @@ smartphone、PC、gaming 与 general server 仍然是大型市场。它们承受
 
 > **同一笔资本在每一层留下多少可重复现金流、形成多少不可替代性，又把多少长期风险留在资产负债表上。**
 
+## 14. 什么事实会迫使本章改判
+
+当前 value-capture map 应在以下变化下重估：
+
+- system portability 显著提高、switching cost 下行；
+- HBM / packaging / power scarcity premium 持续消失；
+- financing coordination 无法带来更低资本成本或更高 utilization；
+- supplier-assisted financing 开始造成明显 credit / impairment loss；
+- application-layer workflow economics 显著改善并形成更稳定利润池；
+- upstream manufacturing 的竞争格局出现真实 second source。
+
+value capture 不是永久排名，而是 scarcity、switching cost、capital intensity 与 risk transfer 的动态结果。
+
 ## References
 
 [^1]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
