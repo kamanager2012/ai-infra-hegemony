@@ -1,4 +1,4 @@
-# P0-3 · Verified Workflow Economics v0.2
+# P0-3 · Verified Workflow Economics v0.3
 
 > **Status:** Research-side validation; not part of the frozen 32-chapter formal report.  
 > **Goal:** turn “cost per verified workflow outcome” from a conceptual statement into an auditable operating metric.
@@ -472,7 +472,134 @@ at the same workflow ID.
 
 ---
 
-## 11. ROI layer
+## 11. New enterprise-field evidence
+
+### 11.1 Cross-industry Microsoft field experiment — time savings do not automatically change organization output
+
+Dillon, Jaffe, Immorlica & Stanton ran a six-month randomized field experiment across **66 firms and 7,137 knowledge workers**.
+
+Workers received an AI tool integrated into existing email, meeting and document workflows.
+
+Key result:
+
+- treated users who actually used the tool regularly spent about **two fewer hours per week on email** in the later half of the experiment;
+- working outside regular hours also fell;
+- documents appeared to be completed moderately faster;
+- but the study did **not** detect a broad shift in the quantity or composition of workers' tasks from individual-level AI provision.
+
+This adds a crucial workflow-economics constraint:
+
+> **individual time saving ≠ organization-level throughput gain**
+
+when coordination, meetings, approval chains or downstream bottlenecks do not change.
+
+Field coverage:
+
+| VSWO field | Available? | Comment |
+|---|---|---|
+| treatment/control | **yes** | randomized access |
+| human time | **strong** | email/document/working-time telemetry |
+| workflow output | partial | document completion and work-pattern changes |
+| verified quality | incomplete | not a universal task-acceptance rule |
+| model cost | incomplete | not a full Cost/VSWO denominator |
+| organizational throughput | **negative/limited evidence** | no broad task quantity/composition shift |
+| persistence | **moderate** | six-month field experiment |
+
+**Classification:** strong evidence for **coordination bottlenecks and time-vs-output separation**.
+
+### 11.2 P&G product innovation RCT — AI can substitute for some team-composition benefits
+
+Dell'Acqua et al. ran a preregistered field experiment with **776 professionals at Procter & Gamble** working on real product-innovation challenges.
+
+Participants were randomized across:
+- individual vs. team work;
+- AI vs. no-AI access.
+
+The central result is unusually relevant to workflow design:
+
+> **individuals with AI achieved performance comparable to teams without AI.**
+
+AI also improved performance across the product-innovation work and changed how expertise was combined.
+
+This does not prove that AI eliminates teams.
+
+It supports a narrower mechanism:
+
+> **for some knowledge workflows, AI can reduce the coordination/expertise-combination cost normally supplied by an additional human collaborator.**
+
+For VSWO economics this means the baseline must sometimes be:
+
+> one worker + AI
+
+versus:
+
+> two-worker team without AI
+
+—not merely one worker vs. one worker.
+
+Field coverage:
+
+| VSWO field | Available? | Comment |
+|---|---|---|
+| realistic accepted task | **strong** | real product-innovation challenges |
+| treatment/control | **yes** | preregistered randomized design |
+| quality/performance | **strong** | expert-rated task performance |
+| human-team structure | **yes** | individual/team comparison |
+| human time / labor units | partial | team composition observable, full labor-cost ledger incomplete |
+| AI variable cost | no | not a complete unit-cost estimate |
+| persistence / downstream commercialization | no | innovation output is not final market success |
+
+**Classification:** strong **quality + organizational-design benchmark**, incomplete Cost/VSWO.
+
+### 11.3 Online-retail randomized field experiments — business value is observable, cost ledger remains incomplete
+
+Fang et al. study GenAI deployment across **seven consumer-facing business workflows** on a large cross-border online-retail platform, involving millions of users and products.
+
+Across the experiments:
+
+- sales effects ranged from roughly **0% to 16.3%** depending on the workflow;
+- four applications produced positive effects;
+- the authors estimate about **US$5 annual incremental value per consumer** across those positive applications;
+- inputs and prices were held constant across experimental arms, allowing the authors to interpret positive sales effects as productivity improvements.
+
+This is especially useful because it moves closer to:
+
+> **observable business value**
+
+rather than only time saved or output volume.
+
+But it still does not publish the full:
+- inference cost;
+- integration cost;
+- human review/remediation cost;
+- failure persistence
+
+needed for Cost/VSWO.
+
+**Classification:** strong **business-value causal anchor**, incomplete workflow-cost denominator.
+
+---
+
+## 12. Updated evidence-completeness ledger
+
+| Study | Main strength | Completeness /10 | Missing decisive fields |
+|---|---|---:|---|
+| Customer-support rollout | accepted-outcome throughput + quality | ~5 | model/implementation/review cost, persistence |
+| METR early-2025 coding | real tasks + human time + negative control | ~5 | AI cost, decomposed review/remediation, business value |
+| CodeFuse | production-volume causal effect | ~3 | verified accepted outcome, full quality/cost |
+| Microsoft 66-firm RCT | longitudinal human-time telemetry + coordination constraint | ~5 | universal accepted outcome, AI cost, business value |
+| P&G innovation RCT | quality + team-structure substitution | ~5 | AI cost, downstream persistence/value |
+| Online-retail RCTs | randomized business-value outcome | ~6 | workflow-level AI/human cost and failure persistence |
+
+The new studies strengthen one conclusion:
+
+> **The literature is rapidly improving on either the numerator (business value / quality) or the denominator (human time), but still rarely joins value + AI cost + human cost + verified persistence at the same workflow ID.**
+
+This remains the missing measurement standard.
+
+---
+
+## 13. ROI layer
 
 If business value can be observed:
 
@@ -502,7 +629,7 @@ A time saving is not automatically cash savings.
 
 ---
 
-## 12. Link to demand elasticity
+## 14. Link to demand elasticity
 
 P0-2 and P0-3 connect through:
 
@@ -524,7 +651,7 @@ That is much closer to a genuine Jevons question than token-price elasticity.
 
 ---
 
-## 13. Link to infrastructure demand
+## 15. Link to infrastructure demand
 
 Once VSWO is observable:
 
@@ -546,7 +673,7 @@ The total can rise even while model unit cost and resource intensity fall.
 
 ---
 
-## 14. Phase II benchmark classes
+## 16. Phase II benchmark classes
 
 Start with four classes that have comparatively observable verification:
 
@@ -570,7 +697,7 @@ Do not start with sales revenue or strategy work, where attribution is too weak 
 
 ---
 
-## 15. Current conclusion
+## 17. Current conclusion
 
 The report’s prior phrase “cost per verified workflow outcome” is directionally correct but previously under-specified.
 
@@ -588,3 +715,6 @@ The next step is to obtain datasets that join **cost + human time + verification
 - Gambacorta, L.; Qiu, H.; Shan, S.; Rees, D. M., **Generative AI and labour productivity: A quasi experiment on coding**, *Journal of Financial Stability* 84, 2026: https://www.sciencedirect.com/science/article/pii/S1572308926000458
 - Anthropic, **Anthropic Economic Index: Economic primitives**, 2026-01-15: https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
 - Anthropic, **Anthropic Economic Index: Cadences**, 2026-06-26: https://www.anthropic.com/research/economic-index-june-2026-report
+- Dillon, E.; Jaffe, S.; Immorlica, N.; Stanton, C., **Shifting Work Patterns with Generative AI**, NBER Working Paper 33795, revised 2025: https://www.nber.org/papers/w33795
+- Dell'Acqua, F. et al., **The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise**, NBER Working Paper 33641; published online in *Organization Science*, 2026: https://www.nber.org/papers/w33641
+- Fang, L.; Yuan, Z.; Zhang, K.; Donati, D.; Sarvary, M., **Generative AI and Firm Productivity: Field Experiments in Online Retail**, 2025/2026 working paper: https://business.columbia.edu/faculty/research/generative-ai-and-firm-productivity-field-experiments-online-retail
