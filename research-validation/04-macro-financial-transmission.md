@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.9
+# P0-4 · Macro-Financial Transmission Layer v0.10
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -780,7 +780,117 @@ Without those, the current state is better described as **high-intensity expansi
 
 ---
 
-### 10A.5G Quarterly expansion protocol for the other hyperscalers
+### 10A.5G Quarterly pilot — Microsoft FY24Q1–FY26Q4
+
+Microsoft should retain its own fiscal-quarter labels.
+
+Its disclosures distinguish:
+
+- operating cash flow;
+- cash paid for PP&E;
+- total CapEx including finance leases;
+- free cash flow = OCF − cash PP&E.
+
+This is useful because **cash infrastructure spend and recognized CapEx can diverge materially**.
+
+| Microsoft fiscal quarter | OCF US$B | Cash PP&E US$B | Free cash flow US$B | Total CapEx incl. finance leases US$B |
+|---|---:|---:|---:|---:|
+| FY24Q1 | 30.6 | 9.9 | 20.7 | 11.2 |
+| FY24Q2 | 18.9 | 9.7 | 9.1 | 11.5 |
+| FY24Q3 | 31.9 | 11.0 | 21.0 | 14.0 |
+| FY24Q4 | 37.2 | 13.9 | 23.3 | 19.0 |
+| FY25Q1 | 34.2 | 14.9 | 19.3 | 20.0 |
+| FY25Q2 | 22.3 | 15.8 | 6.5 | 22.6 |
+| FY25Q3 | 37.0 | 16.7 | 20.3 | 21.4 |
+| FY25Q4 | 42.6 | 17.1 | 25.6 | 24.2 |
+| FY26Q1 | 45.1 | 19.4 | 25.7 | 34.9 |
+| FY26Q2 | 35.8 | 29.9 | 5.9 | 37.5 |
+| FY26Q3 | 46.7 | 30.9 | 15.8 | 31.9 |
+| FY26Q4 | 55.4 | 35.8 | 19.6 | 41.0 |
+
+### 10A.5H Why Microsoft needs two capital clocks
+
+For Microsoft:
+
+```text
+Cash self-funding clock
+=
+OCF - cash PP&E
+
+Recognized infrastructure-commitment clock
+=
+total CapEx including finance leases
+```
+
+These clocks can move differently.
+
+Examples:
+
+- FY26Q1 total CapEx was **US$34.9B**, but cash PP&E was **US$19.4B**; roughly US$11.1B of finance leases were primarily large data-center sites.
+- FY26Q2 total CapEx was **US$37.5B**, cash PP&E **US$29.9B**, and finance leases **US$6.7B**.
+- FY26Q3 total CapEx fell to **US$31.9B**, while cash PP&E stayed high at **US$30.9B** because finance-lease timing shifted.
+- FY26Q4 total CapEx rose to **US$41.0B**, cash PP&E **US$35.8B**, with finance leases **US$5.6B**.
+
+Therefore:
+
+> **cash FCF alone understates some long-duration infrastructure commitments, while total CapEx alone can overstate current-period cash drain.**
+
+Both clocks must be monitored.
+
+### 10A.5I Headroom compression is not enough: demand breadth matters
+
+Microsoft provides a useful demand-quality overlay.
+
+FY26Q2:
+- free cash flow compressed to about **US$5.9B**;
+- commercial RPO reached about **US$625B**;
+- approximately **45%** of RPO was from OpenAI.
+
+That means strong contracted demand coexisted with a meaningful concentration variable.
+
+By FY26Q4:
+- commercial RPO rose to about **US$678B**;
+- Microsoft stated that **all sequential commercial RPO growth was driven by customers outside frontier model companies**;
+- RPO growth excluding OpenAI was **25%**;
+- nearly **90% of full-year Microsoft Cloud revenue** came from customers outside frontier model companies.
+
+This is important counterevidence against a simple:
+
+> “frontier-model financing is the only demand engine”
+
+narrative.
+
+The S4 monitor should therefore pair:
+
+```text
+Self-funding headroom
++
+recognized CapEx
++
+customer concentration
++
+broad-customer RPO growth
+```
+
+A headroom squeeze with broadening contracted demand is structurally different from a headroom squeeze caused by weak monetization and shrinking commitments.
+
+### 10A.5J Cross-company lesson after Meta + Alphabet + Microsoft
+
+Three quarterly pilots now show why the same FCF signal can mean different things:
+
+| Pattern | Possible interpretation |
+|---|---|
+| FCF compresses + CapEx rises + demand broadens | high-intensity expansion |
+| FCF compresses + external financing rises + demand remains strong | balance-sheet amplification |
+| FCF compresses + customer concentration rises | financing / demand-quality sensitivity increases |
+| FCF compresses + utilization / bookings / RPO weaken | S4 weight rises |
+| FCF improves because CapEx is cut while demand weakens | not automatically recovery |
+
+Therefore the quarterly panel should never classify S4 from free cash flow alone.
+
+---
+
+### 10A.5K Quarterly expansion protocol for the other hyperscalers
 
 The Meta pilot defines the template for Microsoft / Alphabet / Amazon.
 
@@ -1067,7 +1177,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.9 conclusion
+## 14. v0.10 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1075,7 +1185,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler annual history spans 2022–2025; Meta and Alphabet now both have 2024Q1–2026Q2 quarter-level self-funding pilots; and the public-credit layer uses CMDI + NFCI Credit + SLOOS rather than a single proprietary spread series. The next empirical task is to resolve the stable CMDI direct-file path and replicate the quarterly protocol for Microsoft and Amazon.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler annual history spans 2022–2025; Meta, Alphabet, and Microsoft now have quarter-level self-funding pilots; and Microsoft adds a second capital clock separating cash PP&E from total CapEx including finance leases. The next empirical task is to resolve the stable CMDI direct-file path and build the Amazon quarterly pilot.
 
 ## Sources
 
@@ -1135,3 +1245,19 @@ The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler a
 - Alphabet Q4 2025 earnings call / release — OCF US$52.4B; CapEx US$27.9B; 2026 CapEx guide US$175–185B: https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx
 - Alphabet 2026Q1 Form 10-Q — OCF US$45.8B; CapEx US$35.7B; senior-note proceeds US$31.1B: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm
 - Alphabet 2026Q2 earnings exhibit — OCF US$39.1B; CapEx US$44.9B; FCF -US$5.9B; ~US$49.6B equity proceeds: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+
+
+## Microsoft quarterly-pilot sources
+
+- Microsoft FY24Q1 earnings call — OCF US$30.6B; cash PP&E US$9.9B; total CapEx US$11.2B: https://www.microsoft.com/en-us/investor/events/fy-2024/earnings-fy-2024-q1
+- Microsoft FY24Q2 earnings call — OCF US$18.9B; cash PP&E US$9.7B; total CapEx US$11.5B: https://www.microsoft.com/en-us/investor/events/fy-2024/earnings-fy-2024-q2
+- Microsoft FY24Q3 earnings call — OCF US$31.9B; cash PP&E US$11.0B; total CapEx US$14.0B: https://www.microsoft.com/en-us/investor/events/fy-2024/earnings-fy-2024-q3
+- Microsoft FY24Q4 earnings call — OCF US$37.2B; cash PP&E US$13.9B; total CapEx US$19.0B: https://www.microsoft.com/en-us/investor/events/fy-2024/earnings-fy-2024-q4
+- Microsoft FY25Q1 earnings call — OCF US$34.2B; cash PP&E US$14.9B; total CapEx US$20.0B: https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q1
+- Microsoft FY25Q2 earnings call — OCF US$22.3B; cash PP&E US$15.8B; total CapEx US$22.6B: https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q2
+- Microsoft FY25Q3 earnings call — OCF US$37.0B; cash PP&E US$16.7B; total CapEx US$21.4B: https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q3
+- Microsoft FY25Q4 earnings call — OCF US$42.6B; cash PP&E US$17.1B; total CapEx US$24.2B: https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4
+- Microsoft FY26Q1 earnings call — OCF US$45.1B; cash PP&E US$19.4B; total CapEx US$34.9B; finance leases US$11.1B: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q1
+- Microsoft FY26Q2 earnings call — OCF US$35.8B; cash PP&E US$29.9B; total CapEx US$37.5B; finance leases US$6.7B; ~45% of commercial RPO from OpenAI: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2
+- Microsoft FY26Q3 earnings call — OCF US$46.7B; cash PP&E US$30.9B; total CapEx US$31.9B; finance leases US$4.7B: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3
+- Microsoft FY26Q4 earnings call — OCF US$55.4B; cash PP&E US$35.8B; total CapEx US$41.0B; finance leases US$5.6B; RPO breadth outside frontier-model companies: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
