@@ -367,7 +367,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 但同样，存在进口依赖也不能否定已经形成的 production-grade substitution。
 
-如果 production-grade stack 持续扩大，中国会形成更强的第二资源重力中心；如果 upstream continuity 也跨代闭环，则其战略意义将从 domestic resilience / selected substitution 上升到更高程度的 autonomous frontier competition。
+如果 frontier parallel stack 持续跨过更多 Production-Grade Gates，中国会形成更强的第二资源重力中心；如果 upstream continuity 也跨代闭环，则其战略意义将从 domestic resilience / selected substitution 上升到更高程度的 autonomous frontier competition。
 
 ---
 
@@ -405,7 +405,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 - energized MW / Time-to-Power 是否改善；
 - Anchor Compute Buyer commitments 是否兑现；
 - AI monetization 是否覆盖资本基数；
-- China production-grade parallel stack / autonomous frontier closure 是否获得更多一手规模化证据；
+- China frontier parallel stack 的 Production-Grade Gates / autonomous frontier closure 是否获得更多一手规模化证据；
 - supplier-assisted financing 是否仍由独立 workload cash flow、third-party capital 与高 utilization 支撑；
 - regulation 是否真实降低 interface / tying / switching barriers。
 
@@ -447,7 +447,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 - Time-to-Power 是否显著缩短；
 - workload monetization 是否能够独立覆盖 capital cost；
 - supplier-assisted financing 是否下降、独立长期资本是否上升；
-- China production-grade stack / autonomous closure 是否跨越更多关键层。
+- China frontier parallel stack 的 Production-Grade Gates / autonomous closure 是否跨越更多关键层。
 
 因此，本章给出的不是固定十年终局，而是一组在这些变量变化时必须重新排序的战略优先级。
 
