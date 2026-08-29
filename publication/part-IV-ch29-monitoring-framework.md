@@ -115,7 +115,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 当前代表性项目：
 
 - Microsoft / Constellation：~835 MW restart PPA；[^10]
-- Talen / AWS：up to 1.92 GW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；[^11]
+- Talen / AWS：up to 1,920 MW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；[^11]
 - Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035；[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI：initial 4.25 IT-GW design capacity，属于 secured LPS / future phased buildout，计划从 2028 年开始分阶段上线。[^13]
 

@@ -51,7 +51,7 @@ Therefore:
 
 The competition can consequently move from "who is willing to pay more?" toward "who can secure stable quantities, delivery timing, and system-level priority?"
 
-The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^15][^16]
+The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^13][^14]
 
 The first figure is a capital-mobilization target, not deployed capital. The second is future design capacity, not energized load.
 
@@ -97,7 +97,7 @@ More leading-edge front-end wafer capacity therefore does not automatically prod
 
 ### Power and LPS
 
-Approximately **120 kW-class racks**, the approximately **835 MW** Crane restart, the Talen/AWS revised PPA with up to **1.92 GW** of contract quantity, and the Kairos/Google long-duration power-development path show that power has become an independent physical constraint.[^5]
+Approximately **120 kW-class racks**, the approximately **835 MW** Crane restart, the Talen/AWS revised PPA with up to **1,920 MW** of contract quantity, and the Kairos/Google long-duration power-development path show that power has become an independent physical constraint.[^5]
 
 The delivery state must remain explicit:
 
@@ -132,7 +132,7 @@ Lower-margin, lower-bargaining-power, shorter-duration buyers are generally more
 
 ## 6. Cloud custom silicon creates substitution and upstream competition at the same time
 
-Google Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer simply "internal ASIC versus external GPU." It is increasingly **system stack versus system stack**.[^9]
+Google Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer simply "internal ASIC versus external GPU." It is increasingly **system stack versus system stack**.[^7]
 
 This produces two effects that point in different directions:
 
@@ -159,7 +159,7 @@ If alternative systems remain constrained by the same scarce inputs and propriet
 
 ## 7. Model companies have become Anchor Compute Buyers
 
-OpenAI Stargate and Anthropic/AWS demonstrate that leading model companies are no longer simply cloud tenants.[^10]
+OpenAI Stargate and Anthropic/AWS demonstrate that leading model companies are no longer simply cloud tenants.[^8]
 
 Multi-year compute commitments can produce the following chain:
 
@@ -169,7 +169,7 @@ This is the **Anchor Compute Buyer Effect**.
 
 The same mechanism can amplify capital-cycle risk. If long-duration demand is rescheduled, utilization disappoints, or commercial revenue fails to cover infrastructure capital cost, the certainty that originally supported construction can become stranded-capacity and duration-mismatch risk.
 
-PORTS-Pike extends this model further. Anchor demand can now be combined with **platform credit support + infrastructure developer + long-duration lease** to form land, power, and shell ahead of delivered compute.[^16]
+PORTS-Pike extends this model further. Anchor demand can now be combined with **platform credit support + infrastructure developer + long-duration lease** to form land, power, and shell ahead of delivered compute.[^14]
 
 That structure can accelerate infrastructure formation while also increasing customer concentration and duration risk.
 
@@ -186,9 +186,9 @@ Current public evidence supports several distinct statements:
 - PC / workstation substitution is growing but remains sensitive to software compatibility and professional workloads;
 - a real accelerator/software parallel stack exists in frontier AI, but full autonomous closure is a separate question.
 
-CXMT disclosures support conclusions about DDR/LPDDR and DRAM market position, but do not prove HBM-class frontier closure. Counterpoint's YMTC shipment-share and revenue-share figures must also retain their different denominators.[^11][^12][^13]
+CXMT disclosures support conclusions about DDR/LPDDR and DRAM market position, but do not prove HBM-class frontier closure. Counterpoint's YMTC shipment-share and revenue-share figures must also retain their different denominators.[^9][^10][^11]
 
-Foundry revenue share is similarly not a frontier-AI capability measure. TrendForce's **5.1%** SMIC figure for 1Q26 is foundry revenue share, not proof of frontier-system closure.[^14]
+Foundry revenue share is similarly not a frontier-AI capability measure. TrendForce's **5.1%** SMIC figure for 1Q26 is foundry revenue share, not proof of frontier-system closure.[^12]
 
 The report therefore uses two levels.
 
@@ -461,11 +461,11 @@ If utilization, market clearing, forward commitments, accounting, and demand-fin
 [^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
 [^6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
-[^9]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^10]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^11]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
-[^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-[^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
-[^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
-[^15]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
-[^16]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^7]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^8]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^9]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^10]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^11]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx

@@ -74,7 +74,7 @@ This means leading-edge wafer capacity and deliverable AI-system capacity are no
 
 ### 4.3 Power: the constraint has moved from equipment to infrastructure
 
-NVIDIA's DGX GB200 hardware guide specifies rack power of approximately **120 kW**. At the same time, an approximately **835 MW** nuclear restart, a revised long-duration PPA with up to **1.92 GW** of contract quantity, and multi-hundred-megawatt advanced-nuclear development plans show that Time-to-Power, grid interconnection, substations, firm power, and permitting have become part of AI system delivery.[^9]
+NVIDIA's DGX GB200 hardware guide specifies rack power of approximately **120 kW**. At the same time, an approximately **835 MW** nuclear restart, a revised long-duration PPA with up to **1,920 MW** of contract quantity, and multi-hundred-megawatt advanced-nuclear development plans show that Time-to-Power, grid interconnection, substations, firm power, and permitting have become part of AI system delivery.[^9]
 
 Power analysis must distinguish:
 

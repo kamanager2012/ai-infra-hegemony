@@ -48,7 +48,7 @@ NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95
 
 这也是为什么产业竞争最终会从“谁愿意出更高价格”升级为“谁能够获得稳定数量、稳定交付和系统级优先级”。
 
-2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型长期资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^15][^16] 前者是 mobilization target、后者是 future design capacity，都不是已部署资本或已上电负载；但二者共同表明，领先 system platform 正开始把协调能力从芯片供应扩展到资本与物理基础设施。
+2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型长期资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^13][^14] 前者是 mobilization target、后者是 future design capacity，都不是已部署资本或已上电负载；但二者共同表明，领先 system platform 正开始把协调能力从芯片供应扩展到资本与物理基础设施。
 
 ---
 
@@ -88,7 +88,7 @@ TSMC 已一手确认 advanced-packaging capacity tight，并在 2026 Q2 表示 p
 
 ### Power
 
-约 **120 kW-class rack**、Crane 约 **835 MW** restart、Talen/AWS up to **1.92 GW** revised PPA 与 Kairos/Google 长期电源开发路径说明，power 已成为独立物理约束。[^5]
+约 **120 kW-class rack**、Crane 约 **835 MW** restart、Talen/AWS up to **1,920 MW** revised PPA 与 Kairos/Google 长期电源开发路径说明，power 已成为独立物理约束。[^5]
 
 Contracted / Secured、Permitted、Construction / Transition、Energized、Utilized 必须严格区分；generation MW/GW、PPA capacity 与 IT-GW 也不能机械互换。
 
@@ -117,7 +117,7 @@ Contracted / Secured、Permitted、Construction / Transition、Energized、Utili
 
 ## 6. Cloud Custom Silicon：平台替代与资源竞争同时发生
 
-Google Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 已证明，hyperscaler 的反击不是“自研一颗芯片”，而是形成第二类 system stack。[^9]
+Google Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 已证明，hyperscaler 的反击不是“自研一颗芯片”，而是形成第二类 system stack。[^7]
 
 这一趋势会同时产生两个方向不同的结果：
 
@@ -142,7 +142,7 @@ Google Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 已证明，hypers
 
 ## 7. Model Company 已经成为新的 Anchor Compute Buyer
 
-OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model company 已经不只是 cloud tenant。[^10]
+OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model company 已经不只是 cloud tenant。[^8]
 
 它们可以通过多年 compute commitments：
 
@@ -154,7 +154,7 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model
 
 因此，model-company long-duration commitment 已经成为与 hyperscaler CapEx、system-vendor supply commitments 同级的重要领先指标。
 
-PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^16] 这提高了基础设施形成速度，也同时增加 customer concentration 与 duration risk。
+PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^14] 这提高了基础设施形成速度，也同时增加 customer concentration 与 duration risk。
 
 ---
 
@@ -167,9 +167,9 @@ PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云�
 - PC / workstation：替代能力增长，但 software compatibility 与专业 workload 仍重要；
 - frontier AI：已经形成真实 accelerator/software parallel stack，但完整等价 system 仍需多个 critical layers 同时规模化。
 
-CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场份额判断，但不能自动推导 HBM-class frontier closure。Counterpoint 对 YMTC 的 shipment share 与 revenue share 也必须保持分母区分。[^11][^12][^13]
+CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场份额判断，但不能自动推导 HBM-class frontier closure。Counterpoint 对 YMTC 的 shipment share 与 revenue share 也必须保持分母区分。[^9][^10][^11]
 
-foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 2026 Q1 的 SMIC **5.1%** 是 foundry revenue share，而不是先进 AI system closure 指标。[^14]
+foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 2026 Q1 的 SMIC **5.1%** 是 foundry revenue share，而不是先进 AI system closure 指标。[^12]
 
 因此，本报告对中国采用两级判断：
 
@@ -410,11 +410,11 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 [^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
 [^6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
-[^9]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^10]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^11]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
-[^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-[^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
-[^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
-[^15]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
-[^16]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^7]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^8]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^9]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^10]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
+[^11]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
+[^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx

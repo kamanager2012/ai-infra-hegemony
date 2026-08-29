@@ -125,7 +125,7 @@ Non-comparable accounting definitions must not be mechanically added into an off
 Representative current paths include:
 
 - Microsoft / Constellation: ~835 MW restart PPA;[^10]
-- Talen / AWS: up to 1.92 GW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^11]
+- Talen / AWS: up to 1,920 MW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^11]
 - Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035;[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with planned delivery beginning in 2028.[^13]
 

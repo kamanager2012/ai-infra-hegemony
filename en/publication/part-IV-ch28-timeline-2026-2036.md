@@ -23,7 +23,7 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - manufacturing, supply, and capacity commitments rising from **US$119B** on 2026-04-26 to **US$279B** on 2026-07-26;
 - TSMC advanced-packaging tightness still limiting customer growth;[^7]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
-- power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1.92 GW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
+- power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1,920 MW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
 - TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
 
 The central question is:

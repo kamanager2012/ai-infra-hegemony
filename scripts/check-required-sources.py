@@ -40,7 +40,7 @@ COMMON_RULES = (
          rx(r"US\$193\.737B|US\$96\.575B|US\$215\.938B|\$193,737M"),
          ("fourth-quarter-and-fiscal-2026",)),
     Rule("NVIDIA FY27 Q2 seller economics",
-         rx(r"US\$96\.221B|US\$89\.0B|US\$63\.734B|890亿美元"),
+         rx(r"US\$96\.221B|US\$89\.0B|US\$63\.734B"),
          ("second-quarter-fiscal-2027",)),
     Rule("NVIDIA supply commitments",
          rx(r"(?=.*US\$279B)(?=.*commitment)"),

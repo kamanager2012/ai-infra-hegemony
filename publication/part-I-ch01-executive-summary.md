@@ -76,7 +76,7 @@ TSMC 在 4Q24 表示 advanced packaging capacity “very tight”，2026 Q2 又�
 
 ### 4.3 Power：从设备约束升级为基础设施约束
 
-NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此同时，835 MW 级核电重启、最高 1.92 GW 的长期 PPA，以及数百 MW 级长期电源开发计划，说明 Time-to-Power、grid connection、substation、firm power 与 permitting 已经进入 AI system delivery 的核心约束集合。[^9]
+NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此同时，835 MW 级核电重启、最高 1,920 MW 的长期 PPA，以及数百 MW 级长期电源开发计划，说明 Time-to-Power、grid connection、substation、firm power 与 permitting 已经进入 AI system delivery 的核心约束集合。[^9]
 
 分析中必须严格区分 **Contracted / Secured / Permitted / Construction / Energized / Utilized**。合同或 secured capacity 不能写成已经上电，更不能写成已经被有效 workload 使用。
 
