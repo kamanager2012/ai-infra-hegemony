@@ -1,7 +1,7 @@
 # Phase II · Non-AI End-System Supply Conditions v0.1
 
 > **Status:** Research-side downstream exposure map; not part of the frozen formal facts.  
-> **Purpose:** make the report's intended reader explicit: AI does not make smartphones, PCs, vehicles, factories, aviation, ships, radar, satellites or launch systems “unimportant.” The question is whether their electronics are now buying into a supply system whose capital allocation, contracting and margin priorities are being reset by AI/HPC.
+> **Purpose:** make the report's intended reader explicit: AI does not make smartphones, PCs, game consoles, vehicles, factories, robotics, aerospace, or other long-lifecycle high-reliability systems “unimportant.” The question is whether their electronics are now buying into a supply system whose capital allocation, contracting and margin priorities are being reset by AI/HPC.
 
 ## 1. First-principles statement
 
@@ -170,6 +170,7 @@ This is a supply-economics problem, not a claim that all strategic systems share
 | End system | Main upstream collision | Publicly visible signal | What can be inferred | What must not be inferred |
 |---|---|---|---|---|
 | Smartphone / PC | leading-edge SoC/GPU, LPDDR/DRAM/NAND, selected packaging | memory pricing, allocation, system prices, node mix | upgrade cost / configuration pressure can rise | smartphone/PC industry disappears |
+| Game console | custom SoC/APU, GDDR/DRAM, NAND/SSD, selected packaging/test | memory procurement, hardware margin, promotion, long-generation cost-down | quantity assurance and BOM can alter hardware cadence | console directly competes for HBM; next generation must be delayed/repriced |
 | Automotive | long-life MCU/analog/power + selected advanced ADAS compute + memory | product-longevity programs, BOM/memory pressure, long-term SiC supply agreements | redesign and supply-assurance cost matter | all automotive electronics directly competes with AI GPU capacity |
 | Industrial / factory automation | mature-node control, sensors, power, industrial memory + some edge AI | mature-memory pricing, supplier longevity, industrial component lead time | product-mix reallocation can hit BOM/availability | factories stop because AI took advanced wafers |
 | Robotics | industrial control + edge accelerator + cloud retraining | edge platform adoption, memory content, component availability | hybrid exposure to industrial and AI pools | every robot requires frontier HBM |
