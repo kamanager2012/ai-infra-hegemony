@@ -57,7 +57,7 @@ The current core trends continue:
 - HBM / advanced packaging remain periodically tight;
 - cloud custom systems continue expanding without fully replacing frontier workloads;
 - power becomes an independent deployment constraint;
-- China's production-grade parallel stack keeps developing while autonomous frontier closure remains incomplete across several critical upstream / infrastructure layers;
+- China's frontier parallel stack keeps iterating with partial production deployment, while a complete production-grade frontier closure remains unconfirmed by public evidence;
 - CapEx / forward commitments remain high.
 
 ### Economic result
@@ -277,7 +277,7 @@ because:
 - cloud custom systems are real competitors but have not shown comprehensive frontier-workload substitution;[^4]
 - infrastructure CapEx and forward commitments remain high;[^5]
 - power constraints are rising;[^6]
-- China has a real production-grade substitution path, while autonomous frontier closure remains unproven across all critical layers;
+- China has real frontier parallel alternatives and partial production deployment, but under Chapter 17's seven Production-Grade Gates a complete production-grade frontier closure remains unconfirmed by public evidence;
 - synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
 
 The baseline remains valid only while this evidence mix remains valid; the discrimination rules are in Section 12A.
@@ -293,6 +293,27 @@ Scenarios are distinguished along the following axes rather than by any single a
 The same capital evidence (for example the **>US$500B** mobilization target, the **US$50B** frontier-lab investment, and **2 GW** of credit support)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
 
 Boundary case: if demand growth slows materially without triggering the five S4 signal groups, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
+
+## 12B. Calibration status: a public-proxy state machine, not a statistically calibrated classifier
+
+As of the report cutoff, the S1–S4 discrimination axes are explicit, but there is **no statistically validated universal threshold, fixed observation window, or automatic state-switch rule**.
+
+Therefore:
+
+- one CapEx cut cannot independently trigger S4;
+- one packaging / HBM tightness signal cannot independently trigger S3;
+- one alternative-chip launch cannot independently trigger S1;
+- S2 cannot become a permanent default merely because most observations can still be narrated inside it.
+
+Changes in scenario weight require **several independent public proxies to move in the same direction across repeated observations**, while counterevidence and segment breadth remain explicit. Because disclosure frequencies differ across quarterly, semiannual, and annual data, this report does not force them into a false single observation window.
+
+In other words:
+
+> **The framework already specifies what to observe, but it does not pretend that “how much” and “for how long” have already been statistically calibrated.**
+
+Historical backtesting, lead/lag analysis, and threshold calibration belong to later empirical validation. Until then, S1–S4 should be read as an updateable structural discrimination framework, not a mechanical classifier.
+
+---
 
 ## 13. Final use of the framework
 
