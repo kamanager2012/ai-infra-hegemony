@@ -64,7 +64,7 @@ NVIDIA also states that the partnerships are **subject to execution of final agr
 
 The **>US$500B** figure therefore remains a mobilization target—not committed, funded, or deployed capital.[^3]
 
-## 6A. Seller-Assisted Infrastructure Finance and Financing Reflexivity
+## 6. Seller-Assisted Infrastructure Finance and Financing Reflexivity
 
 The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyond hardware into **land + power + shell (LPS)**. NVIDIA disclosed credit support for the LPS buildout, a **US$1.5B** investment in SB Energy, an initial **4.25 IT-GW** design capacity, and OpenAI as the end customer.[^4]
 
@@ -89,7 +89,7 @@ If utilization and monetization remain healthy, seller-assisted finance can acce
 
 If utilization weakens while supplier support and refinancing dependency keep rising, forward-demand signals become less independent.
 
-## 6. Why compute can be packaged as an infrastructure asset
+## 7. Why compute can be packaged as an infrastructure asset
 
 Long-duration capital generally prefers predictable cash flow, long contracts, collateral, and clear offtakers.
 
@@ -97,7 +97,7 @@ AI compute is attempting to create those characteristics through long-term compu
 
 If usage-linked revenue and customer transferability are stable enough, compute assets can attract financing structures closer to traditional infrastructure capital.
 
-## 7. Hardware residual value remains the core differentiator from traditional infrastructure
+## 8. Hardware residual value remains the core differentiator from traditional infrastructure
 
 Compute differs from many infrastructure assets because generation obsolescence is much faster.
 
@@ -111,7 +111,7 @@ A financing structure therefore has to answer:
 - whether the asset can move across customers/operators;
 - whether leverage depends on an overly optimistic terminal value.
 
-## 8. Anchor Buyers reduce financing risk while increasing customer concentration
+## 9. Anchor Buyers reduce financing risk while increasing customer concentration
 
 OpenAI, Anthropic, and other long-duration demand anchors improve revenue visibility and can make project finance easier.
 
@@ -119,7 +119,7 @@ But if project economics depend heavily on one model company, technology risk ca
 
 Anchor Buyers are therefore both a financing condition and a risk concentration point.
 
-## 9. Sovereign capital matters most when it builds strategic capacity
+## 10. Sovereign capital matters most when it builds strategic capacity
 
 Sovereign participation in AI infrastructure is often motivated by more than financial return.
 
@@ -129,7 +129,7 @@ The strategically important evidence is therefore direct participation in fabs, 
 
 Without official project disclosures, this report does not use rumored holdings to claim that sovereign capital has "fully entered" AI infrastructure.
 
-## 10. Duration matching is the core of financing quality
+## 11. Duration matching is the core of financing quality
 
 **Table 23.1 — AI-infrastructure asset classes and primary financing risks**
 
@@ -149,7 +149,7 @@ The most dangerous structure is:
 
 > **short-duration demand assumption + long-duration debt / power / real-estate obligation**
 
-## 11. Current judgment
+## 12. Current judgment
 
 AI infrastructure is expanding from internal technology-company CapEx into a long-duration asset system funded by:
 
@@ -158,6 +158,19 @@ AI infrastructure is expanding from internal technology-company CapEx into a lon
 This can increase the available capital pool while distributing risk beyond one corporate balance sheet.
 
 The sustainability of the financing depends not on the headline target, but on utilization, cash yield, contract quality, and hardware residual value.
+
+## 13. What evidence would force this chapter to change its judgment
+
+The thesis that compute is developing into a distinct infrastructure-finance asset class should be downgraded if:
+
+- third-party financing platforms fail to execute final agreements or deploy capital;
+- long-duration customer contracts are broadly renegotiated;
+- hardware residual value or asset transferability falls below financing assumptions;
+- refinancing dependency keeps rising;
+- supplier credit support increases while independent risk capital declines;
+- project cash yield cannot cover capital cost.
+
+Additional headline capital targets are not sufficient. The higher-quality confirmation is funded capital, delivered assets, utilization, and sustainable cash flow.
 
 ## References
 
