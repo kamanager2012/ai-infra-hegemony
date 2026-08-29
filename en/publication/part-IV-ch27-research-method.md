@@ -118,29 +118,27 @@ Examples:
 - Micron HBM3E same-node/same-bits ≈ **3× DDR5 wafer supply**: **A**;[^1]
 - TrendForce estimate that NVIDIA represented >60% of 2025 CoWoS demand: **B**;[^2]
 - a sell-side estimate of one customer's monthly CoWoS wafer count: **C**;
-- 72 ÷ 13.4 ≈ **5.37 CoWoS wafers/rack** as report-side geometry: **D**.
+- a report-side sensitivity or scenario input with explicit assumptions: **D**.
 
 Repeating the same number across multiple chapters does not automatically upgrade its evidence grade.
 
 ## 8. Dimensional consistency outranks narrative convenience
 
-The book prohibits the following conversions:
+The report prohibits the following conversions:
 
 ### Revenue share ≠ wafer share
 
 TSMC customer revenue share cannot be converted directly into N2, 3 nm, HPC, or CoWoS physical share.
 
-### Contracted MW ≠ Energized MW ≠ Utilized AI Load
+### Contracted / Secured Capacity ≠ Energized Capacity ≠ Utilized AI Load
 
-An up-to-1.92-GW revised PPA cannot be rewritten as 1.92 GW of active AI load.[^3]
+A long-duration PPA, secured LPS position, or future IT-GW design capacity cannot be rewritten as active AI load.[^3]
 
-### Product specification × hypothetical quantity ≠ shipment
+Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate physical identities.
 
-13.4 TB HBM3E/rack × 50,000 hypothetical racks creates D-grade scenario demand, not actual HBM shipment.[^4]
+### Product specification ≠ shipment
 
-### Engineering geometry ≠ fab yield
-
-5.37 CoWoS wafers/rack is a geometry stress test, not TSMC-disclosed yield.
+A per-rack specification can describe system intensity, but it cannot be multiplied by an invented deployment count and presented as actual shipment or consumption.
 
 ### Guidance / expectation ≠ actual
 
@@ -170,19 +168,20 @@ For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must rema
 
 Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estimates can only appear as explicitly conditioned assumptions.
 
-## 11. Where the book's core mechanism models fit
+## 11. Where the report's core mechanism models fit
 
 The primary models include:
 
 - **AI Resource Gravity**;
 - **Scarce-layer Value Capture**;
-- **AHICR — Advanced/HPC Incremental Capacity Capture Ratio**;
+- **Layer-specific Incremental Scarce-Capacity Access**;
 - **Non-AI Residual Capacity**;
 - **Cloud System-Stack Substitution**;
 - **Anchor Compute Buyer Effect**;
 - **Rolling Bottleneck Cascade**;
 - **AI Software Unit Economics**;
-- **Task-to-Job Translation Layer**.
+- **Task-to-Job Translation Layer**;
+- **Financing Reflexivity**.
 
 These models organize causal relationships.
 
@@ -205,23 +204,18 @@ The publication rules are:
 
 The purpose is not to reduce information. It is to let readers distinguish first definition, incremental evidence, and cross-chapter inference.
 
-## 13. Formal release standard
+## 13. Research-quality standard
 
-Each chapter should satisfy:
+A high-impact claim should be publication-ready as research only when:
 
-- factual claims have sources;
-- forecasts / institutional numbers retain their identities;
-- sell-side estimates do not masquerade as first-party facts;
-- D-grade models state assumptions;
-- future claims are conditional;
-- falsification conditions exist;
-- technical units use standard notation;
-- accounting and physical units remain separate;
-- public text carries no internal revision metadata, process notes, or self-justification.
+1. its factual identity is explicit;
+2. the denominator and unit are stable;
+3. observed fact, company guidance, institutional forecast, and report-side calculation are not mixed;
+4. the causal mechanism is stated;
+5. material counterevidence is represented;
+6. the claim has an observable condition that could force it to be revised.
 
-This method does not exist to make scenarios timid.
-
-It allows scenarios to be bold while the fact layer remains auditable, falsifiable, and updateable.
+This is a research standard, not a software-release or artifact-packaging process.
 
 ## References
 
