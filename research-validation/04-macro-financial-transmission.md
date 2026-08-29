@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.7
+# P0-4 · Macro-Financial Transmission Layer v0.8
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -634,6 +634,101 @@ The direction is useful:
 
 ---
 
+### 10A.5D Quarterly pilot — Meta 2024Q1–2026Q2
+
+Meta provides one of the cleanest public quarterly histories because its earnings materials report, for the same quarter:
+
+- operating cash flow;
+- purchases of property and equipment;
+- principal payments on finance leases;
+- company-defined free cash flow.
+
+That allows a within-company quarterly pilot without denominator reconstruction.
+
+| Quarter | OCF US$B | PP&E US$B | Finance-lease principal US$B | Company-defined CapEx US$B | Self-funding headroom / FCF US$B |
+|---|---:|---:|---:|---:|---:|
+| 2024Q1 | 19.246 | 6.400 | 0.315 | 6.715 | 12.531 |
+| 2024Q2 | 19.370 | 8.173 | 0.299 | 8.472 | 10.898 |
+| 2024Q3 | 24.724 | 8.258 | 0.944 | 9.202 | 15.522 |
+| 2024Q4 | 27.988 | 14.425 | 0.411 | 14.836 | 13.152 |
+| 2025Q1 | 24.026 | 12.941 | 0.751 | 13.692 | 10.334 |
+| 2025Q2 | 25.561 | 16.538 | 0.474 | 17.012 | 8.549 |
+| 2025Q3 | 29.999 | 18.829 | 0.545 | 19.374 | 10.625 |
+| 2025Q4 | 36.214 | 21.383 | 0.754 | 22.137 | 14.077 |
+| 2026Q1 | 32.226 | 18.997 | 0.843 | 19.840 | 12.386 |
+| 2026Q2 | 31.862 | 30.116 | 0.962 | 31.078 | 0.784 |
+
+**Identity rule:** for this Meta pilot only:
+
+```text
+Company-defined CapEx
+=
+PP&E purchases
++
+finance-lease principal
+```
+
+and:
+
+```text
+Self-funding headroom
+=
+OCF
+-
+Company-defined CapEx
+=
+Meta-reported FCF
+```
+
+### What the pilot shows
+
+The important signal is not that Meta's 2026Q2 free cash flow is “low.”
+
+The important signal is the **compression in headroom while investment is still being expanded**:
+
+- 2024Q1–2025Q4: quarterly headroom remains strongly positive;
+- 2026Q1: still US$12.4B;
+- 2026Q2: falls to only about **US$0.8B** as quarterly CapEx rises to about **US$31.1B**;
+- at the same time Meta raises 2026 CapEx guidance to **US$130–145B** and continues to expect 2026 operating income above 2025.
+
+This is **not S4 confirmation**.
+
+It is an example of a transition from:
+
+> **high internal cash generation + moderate infrastructure intensity**
+
+toward:
+
+> **high internal cash generation + much higher infrastructure intensity + greater relevance of balance-sheet / debt capacity**
+
+The correct monitor is therefore:
+
+> **Does self-funding headroom compress because infrastructure investment is accelerating into still-strong monetization, or because operating cash generation / utilization is deteriorating?**
+
+Those are economically opposite states.
+
+### 10A.5E Quarterly expansion protocol for the other hyperscalers
+
+The Meta pilot defines the template for Microsoft / Alphabet / Amazon.
+
+For each company:
+
+1. use the company's own stable quarter-level cash-flow identity;
+2. preserve fiscal-vs-calendar labels;
+3. separate cash PP&E from finance leases where disclosed;
+4. do not calculate a synthetic cross-company ratio unless the denominator is harmonized;
+5. flag quarters where OCF–comparable-infrastructure-spend compresses;
+6. then inspect whether the compression reflects:
+   - accelerated buildout;
+   - weaker OCF;
+   - external financing;
+   - asset acquisition;
+   - lease-financing changes.
+
+A headroom decline is therefore a **trigger for decomposition**, not a distress label.
+
+---
+
 ### 10A.5 Financing structure now separates into three layers
 
 The panel should therefore track:
@@ -746,6 +841,30 @@ Borrower/project transmission
 No single layer is allowed to stand in for the others.
 
 ### 10A.6B Reproducibility rule
+
+The New York Fed confirms that a downloadable CMDI data file exists and includes:
+
+- aggregate market CMDI;
+- investment-grade CMDI;
+- high-yield CMDI.
+
+However, the current public page exposes the download through a dynamic component, and the stable underlying file URL was **not resolved in this audit pass**.
+
+Therefore the repository records the state as:
+
+> **official downloadable data exists; stable direct-file URL not yet captured.**
+
+Until the direct path is reproducibly resolved:
+
+- cite the official CMDI product page;
+- do not invent a CSV/XLSX path;
+- do not hand-copy chart values;
+- do not digitize interactive graphics;
+- do not substitute ICE OAS observations for CMDI.
+
+This is a source-provenance limitation, not an evidence failure.
+
+
 
 The New York Fed states that a downloadable CMDI data file includes aggregate and rating-level values.
 
@@ -875,7 +994,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.7 conclusion
+## 14. v0.8 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -883,7 +1002,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler self-funding history now spans 2022–2025; and the public-credit layer has a reproducible design using CMDI + NFCI Credit + SLOOS rather than a single proprietary spread series. The next empirical task is to capture the CMDI downloadable data path and extend the within-company quarterly OCF / CapEx / financing panel.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler self-funding history spans 2022–2025; Meta now provides the first full 2024Q1–2026Q2 quarter-level OCF / CapEx pilot; and the public-credit layer uses CMDI + NFCI Credit + SLOOS rather than a single proprietary spread series. The next empirical task is to resolve the stable CMDI direct-file path and replicate the Meta quarterly protocol for Microsoft, Alphabet, and Amazon.
 
 ## Sources
 
