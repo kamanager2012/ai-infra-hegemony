@@ -7,9 +7,9 @@ This directory supports evidence traceability for **The Age of AI Infrastructure
 The repository contains two different layers that must not be confused:
 
 - **Historical research corpus:** 40 research volumes + 8 macro essays in Chinese, with English counterparts. These files are retained as source research and analytical working material.
-- **Formal publication layer:** 32 Chinese chapters + 32 English chapters under `publication/` and `en/publication/`. This is the reader-facing monograph.
+- **Formal report layer:** 32 Chinese chapters + 32 English chapters under `publication/` and `en/publication/`. This is the reader-facing monograph.
 
-The claim ledger and numeric-check scripts help prevent unsupported numbers, denominator drift, time-window drift, and forecast/actual identity errors from propagating from the research corpus into the formal publication.
+The claim ledger and numeric-check scripts help prevent unsupported numbers, denominator drift, time-window drift, and forecast/actual identity errors from propagating from the research corpus into the formal report.
 
 ## Current role
 
