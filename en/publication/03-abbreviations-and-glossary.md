@@ -80,6 +80,18 @@ A workflow-level cost framework incorporating inference, retrieval/storage, tool
 ### Financing Reflexivity
 The feedback mechanism created when a system seller also uses equity investment, credit enhancement, LPS support, or compute-financing coordination to accelerate customer and infrastructure buildout. It does not prove demand is artificial; it changes how demand independence, risk transfer, and refinancing dependence should be evaluated.
 
+### Production-Grade Parallel Stack
+A substitute system that can sustain real production workloads across accelerator / compute, memory subsystem, advanced packaging, interconnect, compiler/runtime, production workload, and utilization / reliability / economics. It does not require every upstream input to be fully autonomous.
+
+### Autonomous Frontier Closure
+A higher closure standard in which the system can continue scaling and iterating across generations when critical external inputs are constrained. In addition to a production-grade stack, it requires advanced-manufacturing continuity, equipment / materials / software / service continuity, and durable HBM, packaging, power, LPS, and capital formation.
+
+### Time-to-Power
+The time required for a site or project to obtain physically deliverable power. It must remain separate from headline generation capacity, PPA capacity, secured LPS, and future IT-GW design capacity.
+
+### Verified Workflow Output
+An AI-assisted workflow outcome that has passed the quality, responsibility, or business-acceptance conditions required for repeatable delivery, billing, or production use. It is the report's demand-side unit linking compute cost, enterprise adoption, cash flow, and capital recovery.
+
 ### Task-to-Job Translation
 Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome. Prevents technical exposure rates from being converted directly into job-loss rates.
 
