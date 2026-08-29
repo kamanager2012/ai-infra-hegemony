@@ -26,6 +26,25 @@ Consumer-DRAM pressure therefore cannot be judged from bit share alone.
 
 If high-value memory also requires more manufacturing input per bit, it can reduce the effective residual supply available to conventional DRAM.
 
+## 2A. Attribution boundary: not every price increase is caused by AI
+
+Even when AI/server demand is changing memory and advanced-node allocation, smartphone and PC component prices are also affected by:
+
+- supplier inventory policy;
+- conventional demand recovery or weakness;
+- wafer-start discipline;
+- product transitions;
+- FX;
+- channel inventory;
+- geopolitics / trade policy;
+- supplier-specific yield and product mix.
+
+The report therefore requires evidence of a **shared physical resource, product-mix reallocation, allocation change, or explicit supplier/institutional linkage** before attributing a traditional-market supply effect to AI.
+
+A higher memory price by itself proves a price cycle, not a single-cause AI mechanism.
+
+This is why later moderation in mobile-DRAM price growth is important counterevidence: resource pressure can be offset by inventory, end-market demand, supplier response, and price elasticity.
+
 ## 3. Smartphone memory has already experienced institutional contract-price shocks
 
 TrendForce's February 11, 2026 example for 1Q26 showed estimated contract prices for mainstream **8GB + 256GB** smartphone memory approaching **+200% year over year**.[^3]
