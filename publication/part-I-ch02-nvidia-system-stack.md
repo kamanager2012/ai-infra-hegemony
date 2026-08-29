@@ -125,7 +125,7 @@ NVIDIA system moat 的主要反向变量，不是“出现另一颗 ASIC”，�
 - deployment reliability；
 - HBM / packaging / power access。
 
-Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但其竞争强度应由真实 workload 与迁移成本衡量，而不是由产品发布数量衡量。完整分析见[第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)。
+Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但其竞争强度应由真实 workload 与迁移成本衡量，而不是由产品发布数量衡量。[^7]完整分析见[第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)。
 
 因此，本章只保留一个结论：
 
@@ -227,3 +227,4 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 
 [^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
 [^6]: Hugging Face official documentation: Hub, Models, Datasets, Spaces, Transformers and inference/deployment products, https://huggingface.co/docs
+[^7]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
