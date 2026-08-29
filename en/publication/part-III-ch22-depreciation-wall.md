@@ -93,6 +93,28 @@ But if an anchor buyer's revenue, financing, or architecture assumptions change,
 
 Customer concentration and contract duration therefore have to be analyzed together with useful life.
 
+## 9A. Financing structure can change where losses appear, not eliminate economic obsolescence
+
+AI infrastructure can increasingly be financed through:
+
+- operating leases;
+- project finance;
+- third-party infrastructure vehicles;
+- long-duration customer contracts;
+- supplier equity / credit enhancement.
+
+Those structures change where depreciation, lease expense, interest cost, and residual-value risk appear.
+
+They do not remove the underlying economic relationship:
+
+> **if a new system delivers materially lower cost per task, older assets can lose economic value even while they still function.**
+
+A lease can transfer ownership risk. Project finance can isolate part of the risk in an SPV. Seller credit can reduce financing friction.
+
+None of those structures makes technological obsolescence disappear.
+
+The important question is who ultimately bears residual-value risk and whether contracted cash flow is sufficient to cover it.
+
 ## 10. 2036 cannot be derived mechanically from one 2026 depreciation cycle
 
 Assets enter service on different dates, use different useful lives, and can experience impairment or changes in accounting estimates.
