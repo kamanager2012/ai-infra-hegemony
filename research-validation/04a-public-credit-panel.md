@@ -1,4 +1,4 @@
-# P0-4A · Public Credit & Macro-Financial Panel v0.1
+# P0-4A · Public Credit & Macro-Financial Panel v0.2
 
 > Extracted from P0-4 v0.17 to keep the method file maintainable. This appendix preserves the reproducible macro/public-credit data layer; interpretation rules remain governed by `04-macro-financial-transmission.md`.
 
@@ -185,46 +185,115 @@ Borrower/project transmission
 
 No single layer is allowed to stand in for the others.
 
-### 10A.6B Reproducibility rule
+### 10A.6B CMDI ingestion contract v0.2
 
-The New York Fed confirms that a downloadable CMDI data file exists and includes:
+The New York Fed confirms that the official CMDI product publishes a downloadable data file containing:
 
 - aggregate market CMDI;
 - investment-grade CMDI;
 - high-yield CMDI.
 
-However, the current public page exposes the download through a dynamic component, and the stable underlying file URL was **not resolved in this audit pass**.
+The public product page is stable:
 
-Therefore the repository records the state as:
+```text
+https://www.newyorkfed.org/research/policy/cmdi
+```
 
-> **official downloadable data exists; stable direct-file URL not yet captured.**
+The underlying download asset is exposed through a dynamic page component. A durable direct CSV/XLSX asset URL is **not treated as part of the source contract** unless the New York Fed itself publishes one as a documented endpoint.
 
-Until the direct path is reproducibly resolved:
+That changes the maintenance rule.
 
-- cite the official CMDI product page;
-- do not invent a CSV/XLSX path;
-- do not hand-copy chart values;
-- do not digitize interactive graphics;
-- do not substitute ICE OAS observations for CMDI.
+#### Human-reproducible retrieval path — CLOSED
 
-This is a source-provenance limitation, not an evidence failure.
+For a scheduled research update:
 
+1. open the official CMDI product page;
+2. use the official **Downloads** control;
+3. save the file exactly as delivered;
+4. record:
+   - retrieval timestamp;
+   - source page;
+   - original filename;
+   - file size;
+   - SHA-256;
+   - latest observation date;
+   - column names;
+5. parse only the delivered file;
+6. preserve the raw file outside the report text if the repository's source-license policy permits retention;
+7. update derived quarterly/monthly state tables from the parsed values.
 
+This is reproducible because the canonical source identity and retrieval action are stable even if the CDN / media asset URL changes.
 
-The New York Fed states that a downloadable CMDI data file includes aggregate and rating-level values.
+#### Fully unattended machine path — NOT YET CLOSED
 
-Phase II should ingest that file only through an explicit, reproducible data path.
+Phase II will **not**:
+- guess a hidden `.csv` / `.xlsx` media URL;
+- scrape chart pixels;
+- treat a transient CDN asset as a permanent API;
+- use a third-party mirror as the authoritative refresh path.
 
-Until that path is captured in the repository:
+If the New York Fed later exposes a documented API or stable direct-file endpoint, that endpoint can replace the interactive-download step.
 
-- do not hand-copy chart values;
-- do not digitize interactive graphics;
-- do not reconstruct a synthetic series from screenshots;
-- do not substitute ICE OAS observations for CMDI.
+Therefore the precise status is:
+
+> **canonical official retrieval path = closed**  
+> **unattended direct-file automation = unresolved / non-required for current research maintenance**
+
+This removes the earlier false binary of “direct URL found / data unusable.”
+
+### 10A.6B.1 Validation fixtures — independent check against accidental parser drift
+
+A reproducible ingestion process also needs known historical checkpoints.
+
+GAO-23-105629 publishes accessible data for Figure 5 using Federal Reserve Bank of New York CMDI data. It provides market / IG / HY weekly values for January 2019–August 2022.
+
+Three sparse fixtures are enough to detect:
+- column swaps;
+- date parsing errors;
+- percentage-vs-index rescaling;
+- accidental use of the wrong series.
+
+| Week ending | Market CMDI | IG CMDI | HY CMDI | Validation role |
+|---|---:|---:|---:|---|
+| 2019-04-26 | 0.10 | 0.14 | 0.15 | low-distress pre-COVID baseline |
+| 2020-03-20 | 0.46 | 0.51 | 0.56 | acute COVID market-dislocation checkpoint |
+| 2022-03-18 | 0.13 | 0.30 | 0.13 | rating-level divergence checkpoint |
+
+These values are **validation fixtures**, not the maintenance source.
+
+Hard rule:
+
+> **GAO can validate the parser; it does not replace the NY Fed as the authoritative ongoing CMDI source.**
+
+The parser should fail closed if:
+- expected Market / IG / HY columns are absent;
+- duplicate dates appear unexpectedly;
+- values are nonnumeric;
+- the latest observation predates the prior ingested version;
+- historical fixtures materially disagree without a documented NY Fed revision.
+
+### 10A.6B.2 Source-version record
+
+Every CMDI refresh should append one provenance row:
+
+| Field | Meaning |
+|---|---|
+| `retrieved_at` | retrieval timestamp |
+| `source_page` | canonical NY Fed CMDI page |
+| `source_filename` | filename delivered by NY Fed |
+| `sha256` | raw-file checksum |
+| `first_observation` | earliest date in delivered file |
+| `last_observation` | latest date in delivered file |
+| `row_count` | parsed observation rows |
+| `columns` | exact delivered column names |
+| `parser_version` | local parsing contract version |
+| `revision_note` | whether historical values changed vs prior snapshot |
+
+This makes revision history auditable without pretending the New York Fed guarantees a permanent CDN URL.
 
 For NFCI Credit, a small number of cited point observations may be used, but the repository will not dump long third-party-served observation histories merely because FRED exposes them.
 
-The goal is a **reproducible research state**, not maximum table density.
+The goal remains a **reproducible research state**, not maximum table density.
 
 ### 10A.6C Public-credit S4 rule
 
@@ -289,6 +358,7 @@ This will help answer whether stress is migrating from public/bank credit into p
 - FRED / Federal Reserve, DRTSCILM quarterly net C&I tightening standards: https://fred.stlouisfed.org/series/DRTSCILM
 - FRED / Federal Reserve, DRSDCILM quarterly net stronger C&I demand: https://fred.stlouisfed.org/series/DRSDCILM
 - Federal Reserve Bank of New York, Corporate Bond Market Distress Index (CMDI): https://www.newyorkfed.org/research/policy/cmdi
+- U.S. Government Accountability Office, GAO-23-105629, accessible Figure 5 data — independent historical validation fixture for Market / IG / HY CMDI, 2019–2022: https://www.gao.gov/assets/820/814275.pdf
 - Federal Reserve Bank of Chicago / FRED, NFCICREDIT: https://fred.stlouisfed.org/series/NFCICREDIT
 - ICE BofA US Corporate / High Yield OAS via FRED — external cross-check only; repository does not reproduce the licensed observation history: https://fred.stlouisfed.org/series/BAMLC0A0CM ; https://fred.stlouisfed.org/series/BAMLH0A0HYM2
 - Federal Reserve, January 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202601.htm
