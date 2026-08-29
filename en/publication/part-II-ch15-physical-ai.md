@@ -122,6 +122,38 @@ Scale thresholds include component yield, assembly time, field failure rate, mai
 
 The industrial inflection point for Physical AI therefore has to be demonstrated through manufacturing and deployment data, not demonstration videos.
 
+## 9A. The commercial threshold for Physical AI is Capital Payback, not merely task completion
+
+Once a robot moves from demo to production, the relevant economic test is not only whether it can complete a task.
+
+A minimal relationship is:
+
+```text
+Economic Output
+≈ Useful Tasks per Hour
+× Uptime
+× Deployment Scale
+- Energy
+- Maintenance
+- Human Supervision
+- Financing / Depreciation
+```
+
+A robot can therefore be technically capable and still fail to produce sustainable ROI if:
+
+- utilization is low;
+- downtime is high;
+- maintenance intervals are short;
+- human supervision remains intensive;
+- replacement / component failure is frequent;
+- upfront CapEx is too high.
+
+Physical AI and data-center AI therefore share one capital rule:
+
+> **capability must ultimately be validated through utilization and cash flow.**
+
+The difference is that data-center bottlenecks are concentrated more heavily in compute / HBM / power, while robotics adds actuators, batteries, mechanical reliability, field service, and safety.
+
 ## 10. China's capability structure in Physical AI differs from frontier AI
 
 Physical AI depends heavily on motors, batteries, sensors, manufacturing, consumer-electronics supply chains, and system integration.
@@ -132,7 +164,7 @@ China can therefore have stronger competitiveness in robot systems and mechanica
 
 This is a separate industrial path and should not be reduced to one "AI chip capability" metric.
 
-## 11. Value capture can be distributed across multiple physical layers
+## 11. Current judgment: value capture can be distributed across multiple physical layers
 
 Long-run value capture can appear simultaneously in:
 
@@ -147,7 +179,7 @@ The robotics revolution is not fundamentally a contest over which model tops a b
 
 It is a contest over:
 
-> **who can convert AI capability into reliable, low-cost, mass-producible, maintainable physical work.**
+> **who can convert AI capability into reliable, low-cost, mass-producible, maintainable physical work with sufficiently high utilization to recover capital.**
 
 ## References
 
