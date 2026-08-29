@@ -24,7 +24,7 @@
 ## 当前状态
 
 - **P0-1 Historical Clearing Backtest**：v0.7；已恢复 2008–2009 GFC / Enterprise IT 详细案例，把 Case A–H 统一到 first-deterioration / cross-confirmation / accounting-confirmation / trough timing matrix，并进一步收紧 A/B/C/H 的 source-level timing；新增反例显示 inventory-led clearing 中 Accounting 可以与 Market Clearing 几乎同步，因此只能说“多数长周期案例里 Accounting 更常滞后”，不能写成固定顺序；
-- **P0-2 AI Demand Elasticity Calibration**：v0.4；除 preferred E1≈-1.11、multi-homing 与 ε/σ_task 边界外，已审计 GPT-5.6 discount event 的公开数据可得性：事件窗口和聚合响应可见，但无可下载 daily raw panel，因此冻结为 Tier B descriptive event-study candidate，不制造回归系数；
+- **P0-2 AI Demand Elasticity Calibration**：v0.5；OpenRouter 已新增可复现 `GET /api/v1/datasets/rankings-daily` 数据路径，覆盖自 2025-01-01 起 daily top-50 model token totals + `other`；GPT-5.6 discount event 因此从 data-unavailable 升级为 data-accessible-but-not-yet-estimated，但必须先审计 Terra/Luna/Sol top-50 coverage、piecewise price path、tokenizer comparability 与 public-traffic boundary；
 - **P0-3 Verified Workflow Economics**：v0.5；新增 515 家 startup 的 Mapping AI into Production firm-performance bridge、Alibaba customer-service persistence counterexample 与 property-tax action-completion case，并把闭环固定为 Productivity → Cost → Economic 三层；完整 Level-3 仍要求同一 workflow_id 联结 AI/tool cost + human time + verification + persistence + realized business value；
 - **P0-4 Macro-Financial Transmission**：v0.18；方法层已与可维护数据层分离：04A public-credit/macros、04B hyperscaler quarterly capital intensity、04C project-finance borrowers、04D supplier/sponsor support；主文件只保留 transmission logic 与 S4 cross-confirmation rules；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
@@ -63,7 +63,7 @@
 优先继续深化而不是扩题：
 
 1. P0-1 下一步只继续压 Medium-confidence trough / stabilization 边界，并在新增样本时优先找与科技无关、可观测 utilization + financing + residual-value 的周期；
-2. P0-2 先寻找 machine-readable OpenRouter daily export / reproducible historical panel；没有原始日度数据就不做 event-time point estimate，继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
+2. P0-2 下一步直接按 OpenRouter Rankings Daily API 构建 Terra/Luna/Sol common-window model-day panel；先做 top-50 censoring / slug / `as_of` / price-path 审计，通过后才估 event-time effect，并继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
 3. P0-3 下一步只追 Level-3 Economic Closure：同一 workflow_id 下连接 AI/tool cost + human time + verification + persistence + realized business value；同时把 use-case mapping/discovery cost 纳入 adoption economics；
 4. P0-4 下一步在 04A–04D 附录中维护数据，不再扩张主方法文件；继续解析 NY Fed CMDI stable direct-file path，并优先补 facility-level changes、project monetization/delivery、support drawdown 与 guarantee activation state；
 5. Decision Invariants 下一步只验证 actor-specific implementation cost：检查 10 条 hard invariants 是否在 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体上都可操作；
