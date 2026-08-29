@@ -4,7 +4,7 @@
 
 **研究主题：** 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构  
 **资料检索与修订截止：** 2026-08-28  
-**正文状态：** 已于 2026-08-29 完成 material-correction pass，并在同日针对 2026-08-27 NVIDIA / Hugging Face pre-cutoff material event 定向补充后再次冻结；冻结后仅接受事实纠错、来源失效修复、引用口径修正与重大实质性错误修正。
+**正文状态：** 已于 2026-08-30 在一次严格限定范围的 S4 定义级修正后再次冻结。2026-08-28 evidence cutoff、当前 S2 baseline judgment 与四情景 taxonomy 均未改变；冻结后仍仅接受事实纠错、来源失效修复、引用口径修正与重大实质性错误修正。
 
 本报告以 32 章连续正文分析 AI 基础设施从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack、Agent-Native Software、Physical AI、劳动与人才体系，以及长期产业结构的影响。
 
