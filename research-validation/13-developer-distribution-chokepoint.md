@@ -1,7 +1,7 @@
-# Phase II · Developer Distribution Chokepoint v0.1
+# Phase II · Developer Distribution Chokepoint v0.2
 
 > **Status:** Research-side validation layer; not a claim that software monopoly or foreclosure has already occurred.  
-> **Evidence-cutoff interaction:** the transaction report is dated 2026-08-27 and therefore falls inside the formal report's 2026-08-28 evidence snapshot, but the transaction status remains media-reported rather than formally closed in the source set.
+> **Evidence-cutoff interaction:** the Reuters transaction report is dated 2026-08-27 and therefore falls inside the formal report's 2026-08-28 evidence snapshot. Any status check after 2026-08-28 remains research-side only unless the formal report is explicitly reopened.
 
 ## 1. Trigger event
 
@@ -13,9 +13,31 @@ This distinction is mandatory:
 
 ```text
 reported agreement
-≠ signed / approved / closed transaction
+≠ first-party verified definitive agreement
+≠ regulatory approval
+≠ closed transaction
 ≠ realized platform conduct
 ```
+
+### 1.1 Transaction-status gate v0.2
+
+As of the **2026-08-30 research-side status check**:
+
+| State | Evidence status | Research treatment |
+|---|---|---|
+| media-reported agreement | **Observed** — Reuters reported NVIDIA agreed to acquire Hugging Face for ~US$12.9B, citing The Information | valid trigger for vertical-integration monitoring |
+| first-party definitive-agreement announcement | **not verified in the current first-party source set** | do not upgrade transaction status |
+| regulatory approval / clearance | **not verified** | do not infer approval from agreement reporting |
+| legal closing / ownership transfer | **not verified** | do not write “NVIDIA owns Hugging Face” as a current fact |
+| post-transaction platform conduct | **not observable as ownership conduct until ownership/control is verified** | DDC-B/C cannot be inferred from pre-closing product behavior |
+
+A current-status check of NVIDIA's official newsroom did not surface a first-party acquisition/closing announcement in the reviewed source set.
+
+This is a **status-control result**, not proof that no private signed document exists.
+
+Hard rule:
+
+> **The ledger tracks what can be publicly verified, not what may exist privately.**
 
 ## 2. Why Hugging Face matters structurally
 
@@ -173,21 +195,22 @@ At each major Hugging Face / NVIDIA ownership or product update, record:
 
 Every supportive observation must be paired with counterevidence.
 
-## 10. Current v0.1 judgment
+## 10. Current v0.2 judgment
 
 Current evidence supports only:
 
-> **a reported vertical-integration event with potentially high strategic relevance because it could connect accelerator/runtime power to a major open-model developer-distribution gateway.**
+> **a media-reported acquisition agreement with potentially high strategic relevance because, if verified and completed, it could connect accelerator/runtime power to a major open-model developer-distribution gateway.**
 
 Current evidence does **not** establish:
 
 > **completed acquisition, realized self-preferencing, distribution foreclosure, or software monopoly.**
 
-That boundary should remain in place until post-transaction conduct can be observed.
+That boundary should remain in place until transaction status is first-party verified and, if control changes, post-transaction conduct can then be observed.
 
 ## Sources
 
 - Reuters, 2026-08-27, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports”: https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
+- NVIDIA Newsroom archive — first-party transaction-status cross-check; no acquisition/closing announcement identified in the source set reviewed for the 2026-08-30 research-side status gate: https://nvidianews.nvidia.com/news
 - Hugging Face official documentation: https://huggingface.co/docs
 - Hugging Face Hub documentation: https://huggingface.co/docs/hub/index
 - Hugging Face Transformers documentation: https://huggingface.co/docs/transformers/index
