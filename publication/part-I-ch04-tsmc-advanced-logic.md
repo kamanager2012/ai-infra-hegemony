@@ -128,6 +128,18 @@ TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 领�
 
 因此，先进制程的长期竞争核心不是一个“2 nm wafer price”，而是**下一代 system 所需多层资源能否在同一时间窗口内形成可交付组合。**
 
+## 10. 什么事实会迫使本章改判
+
+应下调 TSMC leading-edge strategic leverage 的信号包括：
+
+- 第二家 foundry 在同代节点实现可复核的大规模 external production；
+- customer qualification、yield、delivery 与 advanced packaging 能形成真实替代；
+- N2/N2P/A16 的 supply elasticity 明显快于需求增长；
+- advanced-packaging constraint 持续消失；
+- leading-edge workload 明显向其他制造体系迁移。
+
+仅有 foundry revenue share 上升、单个技术 demo 或政策补贴，不足以证明 frontier manufacturing 已形成等价 second source。
+
 ## References
 
 [^1]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
