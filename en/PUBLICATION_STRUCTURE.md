@@ -1,5 +1,7 @@
 # Research Architecture
 
+> **Structure status: frozen as of August 29, 2026; retrieval and revision cutoff: August 28, 2026.** The 32-chapter formal report is the reader-facing architecture; retained historical research files do not constitute a second formal edition.
+
 ## 1. Analytical purpose
 
 The report is organized as a continuous 32-chapter industry analysis.
