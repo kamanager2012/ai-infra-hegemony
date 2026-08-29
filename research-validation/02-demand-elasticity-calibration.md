@@ -776,6 +776,14 @@ Source-provenance checksum for the uploaded 30-day daily export:
 
 `SHA-256 = 6d7f3c39318f3668eac5cf247ef764635807a1c703764f00294edea8a476b2f2`
 
+Archived reproducibility assets:
+
+- [30-day daily rankings raw panel](data/openrouter-rankings-daily-2026-07-30_2026-08-28.csv);
+- [four-week weekly rankings raw panel](data/openrouter-rankings-weekly-2026-08-03_2026-08-24.csv);
+- [source / as-of / tokenizer / license note](data/openrouter-rankings-source-note-2026-08-29.txt).
+
+No API credential is stored in the repository.
+
 ### 13B.10 Sol Aug-17 50% discount — short-window event calibration v0.8
 
 OpenRouter's own event documentation states that Sol remained untreated through Aug 16 and received a **50% discount beginning Aug 17**.
