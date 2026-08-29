@@ -1,4 +1,4 @@
-# P0-4C · AI Infrastructure Project-Finance Borrower Panel v0.1
+# P0-4C · AI Infrastructure Project-Finance Borrower Panel v0.2
 
 > Extracted from P0-4 v0.17. The panel separates financing exposure from realized refinancing stress and keeps facility-level identity.
 
@@ -390,6 +390,140 @@ No fixed numeric trigger is assigned in v0.1.
 
 ---
 
+
+## 11B.7 Facility-Level Longitudinal State Ledger v0.2
+
+Borrower-level gross debt is no longer sufficient.
+
+The panel now records facility transitions as:
+
+```text
+Announced / Committed
+→ Closed
+→ Available
+→ Drawn
+→ Project Delivery
+→ Monetization
+→ Refinance / Amortize
+→ Stress / Cure / Exit
+```
+
+The point is to distinguish a financing commitment from:
+- actual borrowing;
+- physical project delivery;
+- revenue generation;
+- refinancing stress.
+
+### 11B.7A Current dated facility transitions
+
+| Borrower / facility | Earlier state | Latest observable state | Delivery / monetization linkage | Current research read |
+|---|---|---|---|---|
+| **CoreWeave DDTL 4.0** | March-2026: **US$8.5B** delayed-draw facility opened | 2026-06-30: about **US$2.9B drawn** — US$1.4B floating + US$1.5B fixed; draw window extends to 2027-06-30 | company-level demand remains strong, but public filing does not map each draw to a separately observed facility-level revenue stream | **Partial draw / expansion financing; not a stress event** |
+| **CoreWeave DDTL 5.0** | May-2026: **US$3.1B** delayed-draw facility | 2026-06-30 debt table carries about **US$1.101B** outstanding; amortization begins later in 2026 and expected final payment is May-2031 | facility-level utilization / customer cash flow is not separately disclosed in the public row used here | **Partially drawn; monitor draw pace + monetization + debt service** |
+| **CoreWeave DDTL 5.5** | no balance at 2026-06-30 | 2026-08-07: new **US$2.6B** delayed-draw facility, available through Dec-2026; SOFR loans at Term SOFR + **5.5%** | no draw / utilization evidence yet in the entry filing | **New financing capacity; high spread is a financing-quality variable, not realized stress by itself** |
+| **Core Scientific March-2026 Term Loan** | March-2026: **US$1.0B fully drawn** senior secured term loan | 2026-05-06: repaid and terminated using proceeds of **US$3.30B 7.75% senior secured notes due 2031**; no remaining term-loan obligation at 2026-06-30 | existing colocation revenue / customer concentration remain separate operating variables | **Refinancing completed; floating / short-term structure replaced rather than failed** |
+| **Applied Digital · ELN-02 / ELN-03 financing** | 2025: **US$2.35B 9.25% 2030 notes** issued to fund 100MW ELN-02 + 150MW ELN-03 and related costs | FY2026 filing: notes remain outstanding; issuer has project covenants and sponsor completion guarantee tied to lease commencement milestones | debt is directly connected to identified physical projects; sponsor must fund shortfall if available proceeds are insufficient for commencement | **Project-specific delivery risk is observable; guarantee existence ≠ guarantee activation** |
+| **Applied Digital · 2031 notes / bridge** | March-2026 2031 notes + May-2026 **US$300M** bridge | after FY-end the bridge was refinanced into longer-dated 2031 capital; DSCR covenants reported compliant at 2026-05-31 | project commencement / lease covenants provide a physical-state bridge | **Refinancing completed; covenant state currently contrary evidence to realized stress** |
+| **IREN · Microsoft-linked GPU financing** | early-2026 commitment structure | FY2026: approximately **US$3.6B** investment-grade GPU financing around 6%; together with customer prepayments, company says **96% of associated GPU CapEx** is funded | FY2026 AI Cloud Services revenue about **US$128.8M vs US$16.4M FY2025**; company targets cumulative IT delivery of ~0.3GW in 2026 and ~0.8GW in 2027 | **Financing → deployment → monetization bridge is forming; still requires contract/facility-level cash-flow follow-through** |
+| **Nebius · first secured facility** | no comparable secured-debt state in prior panel | July-2026: approximately **US$775M**, SOFR + 2.50%, Oct-2030 maturity, 1.15× DSCR covenant, GPU / investment-grade customer cash-flow collateral | Q2 materials show signed-contract and capacity growth, but the public evidence used here does not yet isolate cash flow attributable to this facility | **First secured-facility baseline established; longitudinal draw / DSCR path begins here** |
+
+### 11B.7B Draw ratio is a state variable, not demand
+
+For a delayed-draw facility:
+
+```text
+Draw Ratio
+=
+Drawn Principal
+/
+Committed Borrowing Capacity
+```
+
+This can show project funding progression.
+
+It cannot by itself prove:
+- workload utilization;
+- customer economics;
+- project profitability.
+
+For example, CoreWeave DDTL 4.0 moved from **US$8.5B available** to roughly **US$2.9B drawn** by 2026-06-30.
+
+That is a real financing-state transition.
+
+But the correct interpretation is:
+
+> **capital has moved from commitment toward deployment; monetization must still be tested independently.**
+
+### 11B.7C Monetization bridge
+
+The borrower panel now distinguishes:
+
+```text
+Financing Closure
+→ Physical Delivery
+→ Contract Availability
+→ Revenue Recognition
+→ Cash Conversion
+→ Debt Service
+```
+
+Evidence can enter at different points.
+
+IREN currently provides a useful partial bridge:
+- project / GPU financing is identified;
+- customer prepayments reduce equity funding need;
+- AI Cloud Services revenue is already scaling;
+- physical IT-capacity targets are stated.
+
+But even there:
+
+> **company-level AI revenue is not automatically facility-level debt-service coverage.**
+
+Future updates should connect:
+- the financed GPU / data-center tranche;
+- ready-for-service / delivery date;
+- recognized revenue;
+- customer cash receipt;
+- DSCR / interest coverage.
+
+### 11B.7D Facility-state stress protocol
+
+A facility is not moved to a stress state merely because:
+- coupon is high;
+- leverage is large;
+- a delayed-draw facility is only partly drawn;
+- a sponsor guarantee exists.
+
+Escalation requires an adverse state transition such as:
+
+```text
+Draw / construction progress stalls
++
+Delivery milestone slips
+or
+Customer commitment weakens
+or
+DSCR / covenant headroom deteriorates
+or
+Refinancing terms worsen / access fails
+```
+
+Conversely, successful refinancing, covenant compliance, project delivery and monetization are explicit contrary evidence.
+
+This makes the facility panel consistent with P0-1's reversible adjudication logic.
+
+---
+
+
+## Facility-level longitudinal sources added in v0.2
+
+- CoreWeave Q2 2026 Form 10-Q — DDTL 4.0 / 5.0 draw states, debt maturities, interest expense and subsequent DDTL 5.5 disclosure: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
+- CoreWeave 2026-08-07 Form 8-K — US$2.6B DDTL 5.5 facility and pricing: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm
+- CoreWeave Q2 2026 results — revenue backlog / customer commitments used only as company-level demand context, not facility-level monetization proof: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm
+- Core Scientific Q2 2026 Form 10-Q — US$1.0B term loan repayment / termination and US$3.30B 7.75% secured-note refinancing: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm
+- Applied Digital FY2026 Form 10-K — ELN-02 / ELN-03 project financing, completion guarantees, bridge / revolver / notes, DSCR state: https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm
+- IREN FY2026 results — Microsoft-linked GPU financing, customer-prepayment funding coverage, AI Cloud Services revenue and IT-capacity delivery targets: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm
+- Nebius Q2 2026 shareholder materials — first ~US$775M secured facility and operating / contract / capacity context: https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-2.htm
 
 ## Sources carried from parent register
 
