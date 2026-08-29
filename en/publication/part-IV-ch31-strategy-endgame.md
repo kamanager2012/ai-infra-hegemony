@@ -278,6 +278,87 @@ If the production-grade stack keeps expanding, China becomes a stronger second c
 
 If upstream continuity also closes across generations, the strategic meaning rises from domestic resilience / selected substitution toward a higher degree of autonomous frontier competition.
 
+## 12. Labor and talent: value moves from using a tool toward responsibility for outcomes
+
+Models, IDEs, agents, and generation tools can commoditize quickly.
+
+More durable capabilities therefore include:
+
+- domain knowledge;
+- problem decomposition;
+- system / workflow design;
+- verification;
+- cross-stack portability;
+- risk judgment;
+- responsibility for final outcomes.
+
+The industrial logic is the same:
+
+> **As execution cost falls, the value of defining the problem, composing the system, verifying the result, and owning the outcome rises.**
+
+The labor and education implications are developed in Chapters 25 and 26.
+
+---
+
+## 13. What evidence would change the strategic direction
+
+The most important update variables include:
+
+- whether major system-seller commitments keep expanding or begin to contract;
+- production workload share and migration cost for cloud custom stacks;
+- whether HBM / advanced-packaging tightness materially eases;
+- whether leading-edge capacity access becomes more distributed;
+- whether energized MW / Time-to-Power improves;
+- whether Anchor Compute Buyer commitments convert into real delivery;
+- whether AI monetization covers the expanding capital base;
+- whether China's Production-Grade Parallel Stack / Autonomous Frontier Closure gains more scaled first-party evidence;
+- whether supplier-assisted financing remains supported by independent workload cash flow, third-party capital, and high utilization;
+- whether regulation materially lowers interface / tying / switching barriers.
+
+These variables determine the relative weight of S1–S4 rather than a fixed ten-year forecast.
+
+---
+
+## 14. Final strategic judgment
+
+As of August 2026, AI infrastructure remains in a phase where:
+
+> **rapid expansion + high concentration + accelerating formation of substitute systems**
+
+coexist.
+
+The next decade is not primarily about guessing one permanent winner. It is about repeated redistribution of industrial power and capital returns across:
+
+- system substitution;
+- scarce-layer supply;
+- power;
+- Anchor Buyer demand;
+- workload monetization;
+- capital duration / financing quality;
+- regulation;
+- geopolitical redundancy.
+
+The common principle for enterprises, capital, and national strategy can be compressed into one sentence:
+
+> **Do not bet on an unchangeable end-state; build options that remain executable when the end-state changes.**
+
+---
+
+## 15. Falsification boundary: what would force this chapter to change
+
+Long-run strategic priorities should be re-ranked if:
+
+- multi-stack portability moves from a contingency option into normal production practice;
+- scarce-layer supply reaches durable abundance;
+- Time-to-Power shortens materially;
+- workload monetization independently covers capital cost;
+- supplier-assisted financing declines while independent long-duration capital rises;
+- China's Production-Grade Parallel Stack / Autonomous Frontier Closure crosses additional critical layers.
+
+This chapter does not offer a fixed ten-year end-state. It offers a set of strategic priorities that must change when these variables change.
+
+---
+
 ## Cross-references
 
 - [Chapter 25 — AI and Labor Markets](part-III-ch25-labor-market.md)
