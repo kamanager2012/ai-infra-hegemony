@@ -7,6 +7,7 @@
 - [Table 1.1 — AI 基础设施四类标准情景](part-I-ch01-executive-summary.md)
 - [Table 2.1 — GB200 NVL72 的 rack-scale 系统结构](part-I-ch02-nvidia-system-stack.md)
 - [Table 2.2 — NVIDIA 当前 seller-side economics 与前置供应承诺](part-I-ch02-nvidia-system-stack.md)
+- [Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 产能、技术与平台收入结构](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
 
@@ -28,6 +29,7 @@
 - [Table 29.1 — NVIDIA seller economics 与 forward-reservation 基线](part-IV-ch29-monitoring-framework.md)
 - [Table 29.2 — Power / LPS delivery state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — 更新时的默认 evidence grade](part-IV-ch29-monitoring-framework.md)
+- [Table 29.4 — End-system residual-pressure monitoring panel](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号](part-IV-ch30-scenarios.md)
 - [Table 31.1 — 长期战略判断使用的核心结构变量与来源章节](part-IV-ch31-strategy-endgame.md)
 - [Table 31.2 — AI 相关资产的主要价值来源与风险](part-IV-ch31-strategy-endgame.md)
