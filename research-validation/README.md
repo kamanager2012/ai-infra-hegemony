@@ -28,6 +28,7 @@ Primary / auditable evidence
         │
         ├─ 01  Historical clearing backtest
         ├─ 01A Live prospective adjudication
+        ├─ 02  Demand-elasticity empirical calibration (currently access-blocked)
         ├─ 03  Workflow-economics contract / Level-3 closure
         ├─ 04A Public-credit regime
         ├─ 04B Hyperscaler corporate capital state
