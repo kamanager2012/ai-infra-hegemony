@@ -189,7 +189,7 @@ A defensible application layer needs to convert model capability into proprietar
 
 ## 10. End Systems: not "losing to AI," but carrying residual-capacity and supply-assurance pressure
 
-Smartphones, PCs, automotive, industrial systems, robotics, and selected high-reliability electronics remain important end systems and strategic platforms.
+Smartphones, PCs, game consoles, automotive, industrial systems, robotics, and selected high-reliability electronics remain important end systems and strategic platforms.
 
 Their primary burden is not being “replaced by AI.” It is the reprioritization of shared or adjacent upstream resources.
 
@@ -200,6 +200,7 @@ A better description of the end-system layer is:
 The physical channels differ:
 
 - smartphones / PCs are more directly exposed to selected leading-edge logic, DRAM/LPDDR/NAND, consumer GPUs, and selected packaging;
+- game consoles are exposed through custom SoC/APU, GDDR/DRAM, NAND/SSD, and long-generation hardware economics, with memory procurement able to transmit into promotion, unit volume, and hardware margin;
 - automotive / industrial systems are more exposed to mature memory, MCU/analog, power, qualification, and long-life supply;
 - robotics connects industrial electronics with edge/cloud AI;
 - defense / aerospace / space electronics are more constrained by trusted, qualified, low-volume, long-life, RF/power, rad-hard, and special-process continuity than by direct competition for the same HBM pool.
