@@ -5,6 +5,8 @@
 
 A long-form industry research report on AI infrastructure, semiconductors, cloud systems, capital formation, and industrial strategy.
 
+**Title scope:** “Hegemony” names the **risk state and structural question** investigated by the report; it does not claim that the industry had already entered S3 — Resource Hegemony by August 28, 2026. The current public-evidence mix remains closest to S2 — Baseline Concentration.
+
 **Retrieval and revision cutoff: August 28, 2026**  
 **Text status: frozen as of August 29, 2026.** After the freeze, only factual corrections, source-link repairs, citation-scope corrections, and material-error fixes are accepted; no stylistic rewrites, chapter expansion, or framework redesign.
 
@@ -26,7 +28,7 @@ The report examines how that shift changes:
 - power, LPS, and Time-to-Power as deployment constraints;
 - model companies evolving from cloud tenants into Anchor Compute Buyers;
 - residual supply available to smartphones, PCs, automotive, and industrial markets;
-- China's production-grade parallel stack and autonomous frontier closure;
+- China's frontier parallel stack, Production-Grade Gates, and autonomous frontier closure;
 - AI-infrastructure CapEx, depreciation, financing, and capital clearing;
 - Agent-Native Software, Physical AI, labor, and talent systems;
 - conditional industrial states for 2026–2036.
@@ -127,7 +129,7 @@ The development matters because AI compute is increasingly being structured as a
 
 ### 8. China must be assessed through two levels of closure
 
-China has moved beyond the stage of having no substitute system, but two different questions must be kept separate.
+China has moved beyond the stage of having no substitute system, but the frontier layer must separate “a real parallel stack with partial production deployment exists” from “all seven Production-Grade Gates have closed.” On current public evidence, the latter **cannot yet be confirmed**.
 
 **Production-Grade Parallel Stack** asks whether a substitute system can run real production workloads across:
 
@@ -163,11 +165,11 @@ As of August 2026, the evidence mix is closest to **S2**:
 
 ### 10. Infrastructure ultimately needs a demand-side closure through verified workflow output
 
-The long-run value of AI infrastructure cannot be proven by GPU shipments, CapEx, or token volume alone. Agent-Native Software, Physical AI, and enterprise automation ultimately return to the same economic question:
+The long-run value of AI infrastructure cannot be proven by GPU shipments, CapEx, or token volume alone. The verified-workflow standard below is a **long-run economic criterion, not an empirically calibrated fact metric as of the evidence cutoff**. Public studies still rarely join AI cost, human time, verification, failure/retry, persistence, and business value on the same workflow denominator. Agent-Native Software, Physical AI, and enterprise automation ultimately return to the same economic question:
 
 > **How much Compute, Energy, Human Review, and Capital is required per verified workflow outcome, and can the resulting business value sustainably cover those costs?**
 
-Lower unit Compute cost therefore does not necessarily reduce total infrastructure demand. If lower prices unlock more economically viable workflows, total demand can continue to expand. Conversely, if infrastructure grows persistently faster than verified business output and cash flow, the risk of **S4 — Capital Hard Landing** rises structurally.
+Until that criterion is empirically calibrated, lower unit Compute cost should not be presumed to imply either lower total infrastructure demand or a Jevons-style increase in demand. If future evidence shows that lower cost unlocks more verified workflows, total demand can expand; conversely, if infrastructure grows persistently faster than verified business output and cash flow, the risk of **S4 — Capital Hard Landing** rises structurally.
 
 ---
 
