@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.15
+# P0-4 · Macro-Financial Transmission Layer v0.16
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -1463,7 +1463,7 @@ The project-finance panel is now normalized into one update table.
 | Core Scientific · 2026Q2 | US$3.3B senior secured notes + US$460M 2029 convertibles + US$625M 2031 convertibles; prior US$1.0B SOFR+2.50% term loan repaid May-2026 | 7.75% fixed on senior secured notes; 3.00% on 2029 convertibles; 0% stated on 2031 convertibles | no principal due 2026–2028 on current notes; US$649.8M due 2029 incl. secured-note amortization/convertibles; remaining secured notes largely thereafter | CoreWeave contract revenues feed a lockbox supporting debt; no variable-rate debt outstanding at Jun-2026 | CoreWeave ~77% of H1 revenue; Q2 interest incurred ~US$52.4M, interest expense after capitalization ~US$40.6M | refinancing action reduced floating-rate exposure, but concentration risk remains very high |
 | Nebius · Jul-2026 | ~US$775M first senior secured facility; separate corporate convertibles for broader expansion | SOFR + 2.50% on secured facility | Oct-2030 on secured facility | deployed GPUs + contracted cash flows from investment-grade customer | DSCR covenant 1.15× plus minimum-liquidity covenant; customer contract plus facility covers >100% of underlying deployment CapEx | financeable contract-backed expansion with explicit covenant discipline; future dependency on contract performance |
 | Applied Digital · FY2026 | US$2.35B 2030 secured notes + US$2.15B 2031 secured notes + US$450M convertibles + US$300M bridge + other debt | 9.25%, 6.75%, 2.75% on major notes; bridge: SOFR + 2.75%; weighted-average term-loan rate ~7.1% | bridge originally Apr-2027 but refinanced after year-end into 2031 notes; ~US$4.19B principal scheduled FY31 | project / secured-note structure; DSCR covenants disclosed and in compliance at May-2026 | FY26 gross interest expense ~US$85.3M; ~US$39.6M interest capitalized; net interest expense ~US$29.5M | maturity wall remains material, but successful bridge refinancing is counterevidence against near-term refinancing stress |
-| IREN · 2026 | Microsoft-linked ~US$3.6B GPU financing + ~US$2.8B additional GPU financings + convertibles / leases | ~6% Microsoft-linked; one large additional financing ~9% fixed | multiple facilities; no single maturity wall used yet | GPUs + customer-contract cash flows; customer prepayments reduce sponsor funding need | Microsoft prepayment ~US$1.9B; recent contracts prepay ~45–55% of associated GPU CapEx | strong contract-backed expansion, but financing price and counterparty quality differ materially across deployments |
+| IREN · 2026 | Microsoft-linked ~US$3.6B GPU financing + ~US$2.8B additional GPU financings + US$3.0B 1.00% 2033 convertibles + equipment leases | Microsoft-linked notes 5.96% / ~6%; one large additional financing ~9% fixed; convertibles 1.00% | Microsoft financing matures Dec-2031; convertibles Dec-2033; legacy GPU leases 24–36 months | GPUs + Microsoft contract cash flows; customer prepayments reduce sponsor funding need; parent guarantees on several equipment leases | Microsoft contract ~US$9.7B through 2031 with 20% tranche prepayments; recent contracts prepay ~45–55% of GPU CapEx | long-duration contract-backed expansion plus low-coupon corporate convertibles; financing quality differs sharply by customer/collateral structure |
 
 ### 11B.5A Update fields
 
@@ -1584,6 +1584,75 @@ The most important new distinction is:
 Realized stress requires adverse refinancing terms, failed access, covenant pressure, or project/economic deterioration.
 
 
+### 11B.5E IREN maturity / capital-stack completion
+
+IREN's Microsoft-linked financing moved from a commitment letter into executed financing in May 2026.
+
+The executed structure includes:
+
+- approximately **US$1.5B** delayed-draw term loan;
+- approximately **US$2.1B** senior notes at **5.96%**;
+- aggregate Microsoft-linked GPU financing of roughly **US$3.6B**;
+- availability in tranches through May 2027;
+- maturity on **December 31, 2031**;
+- GPU collateral and Microsoft-contract cash flows supporting the structure.
+
+At the customer-contract layer:
+
+- Microsoft contract value is approximately **US$9.7B through 2031**;
+- roughly **20% of each tranche's contract value** is prepaid before delivery and credited against later service fees.
+
+At the corporate layer:
+
+- IREN issued **US$3.0B** of **1.00% convertible senior notes due December 1, 2033** in May 2026;
+- additional GPU financings for non-investment-grade customer deployments include a large **9.0% fixed-rate** tranche;
+- older GPU equipment financings include 24–36 month leases with parent guarantees.
+
+This creates a layered capital stack:
+
+```text
+Customer prepayment
++
+GPU / contract-backed secured financing
++
+equipment leases
++
+corporate convertible debt
+```
+
+The financing should therefore be monitored by **layer**, not by one blended debt number.
+
+### 11B.5F Financing-quality dispersion inside one borrower
+
+IREN also shows that one borrower can contain very different financing quality.
+
+Microsoft-linked deployment:
+- investment-grade counterparty;
+- ~6% financing;
+- meaningful prepayment;
+- 2031 maturity.
+
+Other deployments:
+- non-investment-grade counterparties;
+- at least one large financing around **9% fixed**;
+- prepayments still reduce sponsor equity need.
+
+Therefore:
+
+> **borrower-level average financing cost can hide material project-level dispersion.**
+
+The correct S4 monitor is contract / facility specific:
+- counterparty quality;
+- pricing;
+- tenor;
+- prepayment;
+- collateral;
+- project delivery;
+- renewal / utilization.
+
+This is particularly important when one company spans hyperscaler and frontier-lab / startup customers.
+
+
 ### 11B.5B First cross-borrower lesson
 
 The current five-borrower panel already shows that “AI debt” is not one asset class.
@@ -1684,7 +1753,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.15 conclusion
+## 14. v0.16 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1692,7 +1761,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and the standardized borrower matrix now includes real drawn/undrawn liquidity, interest burden, covenant/DSCR and refinancing-state evidence for CoreWeave, Core Scientific, Nebius and Applied Digital. The next empirical task is to complete the same fields for IREN, add supplier-support / guarantee amounts, and continue resolving the stable CMDI direct-file path.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and the standardized borrower matrix now includes real pricing, maturity, covenant / DSCR, refinancing and contract-prepayment evidence across CoreWeave, Core Scientific, Nebius, Applied Digital and IREN. The next empirical task is to add supplier-support / guarantee amounts, track facility-level changes over time, and continue resolving the stable CMDI direct-file path.
 
 ## Sources
 
