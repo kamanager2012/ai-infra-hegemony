@@ -1,24 +1,29 @@
 # Claim Ledger and Numeric Audit
 
-This directory defines the machine-readable audit contract for historical and forward-looking quantitative claims.
+This directory supports evidence traceability for **The Age of AI Infrastructure Hegemony**. It is research/editorial tooling, not a software-release pipeline and not external audit assurance.
 
-## Current status
+## Scope
 
-**High-risk semantic audit infrastructure: active and CI-enforced. Strict every-number source coverage is complete; lower-risk sentence-level semantic sign-off remains a separate editorial task.**
+The repository contains two different layers that must not be confused:
 
-As of 2026-08-28:
+- **Historical research corpus:** 40 research volumes + 8 macro essays in Chinese, with English counterparts. These files are retained as source research and analytical working material.
+- **Formal publication layer:** 32 Chinese chapters + 32 English chapters under `publication/` and `en/publication/`. This is the reader-facing monograph.
 
-- Chinese research required-source regression: **48/48 files PASS** (40 volumes + 8 macro essays).
-- English research required-source regression: **48/48 files PASS**.
-- Combined deterministic high-risk required-source gate: **96/96 research files clear**.
-- Chinese high-risk ledger: **32 verified records**.
-- English high-risk ledger: **32 verified mirror records** using the same `bilingual_id` set.
-- Bilingual ledger integrity check: **32/32 bilingual IDs aligned; no duplicate claim IDs; no missing English source files**.
-- Retired historical stress-test numbers in macro essays 3/4 are explicitly excluded from the Fact layer unless rebound to current A/B-grade evidence.
-- Strict research-layer every-number source coverage: **96/96 files / 1,052 unit-bearing numeric candidates / 0 unresolved**.
-- Strict formal Publication Layer numeric source coverage: **64/64 chapters / 529 candidates / 0 unresolved**.
+The claim ledger and numeric-check scripts help prevent unsupported numbers, denominator drift, time-window drift, and forecast/actual identity errors from propagating from the research corpus into the formal publication.
 
-The schema, extractor, required-source regression, and strict numeric coverage gates establish deterministic traceability and explicit model/scenario/counterexample boundaries for detected numeric claims. They do **not** constitute sentence-by-sentence external audit assurance. High-risk claims are separately reviewed in the bilingual ledgers; lower-risk source meaning, denominator, and time-window semantics remain part of final editorial sign-off where judgment is still required.
+## Current role
+
+The repository includes deterministic local checks for numeric-source traceability and required-source patterns.
+
+They are **not enforced by GitHub Actions**. Human editorial judgment remains necessary for:
+
+- whether a source actually supports the sentence;
+- whether numerator and denominator match;
+- whether time windows are comparable;
+- whether guidance / expectation / estimate / forecast remains correctly labeled;
+- whether a number belongs to Fact, model, scenario, or counterexample material.
+
+Passing a script is therefore not equivalent to sentence-by-sentence audit assurance.
 
 ## Required record fields
 
@@ -34,37 +39,50 @@ The schema, extractor, required-source regression, and strict numeric coverage g
 - access date
 - review status and notes
 
-Schema: ../claim-ledger.schema.json
+Schema: `../claim-ledger.schema.json`
 
-## Deterministic regression gates
+## Local research checks
 
-Run:
+Run as needed:
 
-    python scripts/check-required-sources.py
-    python scripts/check-research-numeric-claims.py
-    python scripts/check-publication-numeric-claims.py
+```bash
+python scripts/check-required-sources.py
+python scripts/check-research-numeric-claims.py
+python scripts/check-publication-numeric-claims.py
+```
 
-`check-required-sources.py` checks paragraph-local high-risk claim patterns against required first-party or explicitly graded institutional source anchors across all **96** Chinese/English research files. The two strict numeric gates extend coverage across unit-bearing currency, percentages, power, storage/bandwidth, process, GPUs/CPUs, wafers, servers, tokens/parameters, and Chinese amount/count units in the research and formal publication layers. All three are enforced by `.github/workflows/links.yml`.
+The research-layer checker covers the retained historical corpus. The publication-layer checker covers the 64 formal bilingual chapters.
 
-## Candidate extraction
+Candidate extraction:
 
-Run:
-
-    python scripts/extract_numeric_claim_candidates.py --corpus all
+```bash
+python scripts/extract_numeric_claim_candidates.py --corpus all
+```
 
 Default output:
 
-    dist/numeric-claim-candidates.jsonl
+```text
+dist/numeric-claim-candidates.jsonl
+```
 
-The extractor is intentionally high-recall. A line containing a number is a candidate, not automatically one historical fact. URLs and References sections are excluded to reduce noise.
+The extractor is intentionally high-recall. A line containing a number is a candidate, not automatically a historical fact. URLs and References sections are excluded to reduce noise.
 
 ## Audited ledgers
 
 - `high-risk-research-claims.zh.jsonl`
 - `high-risk-research-claims.en.jsonl`
 
-The two ledgers share the same 32 `bilingual_id` values and preserve actual / guidance / expectation / estimate / forecast / model identities.
+The bilingual ledgers preserve actual / guidance / expectation / estimate / forecast / model identities and allow the same claim to be tracked across languages.
 
 ## Audit rule
 
-A candidate may be closed only as verified, downgraded, removed, or explicitly bounded as model/scenario/counterexample material. High-risk semantic verification and strict every-number source coverage are both closed as deterministic repository gates. The release checklist remains open only for lower-risk **semantic editorial sign-off** where a human still needs to judge whether source meaning, denominator, or time window exactly matches the sentence-level claim.
+A candidate may be closed only as:
+
+- verified;
+- downgraded;
+- removed; or
+- explicitly bounded as model / scenario / counterexample material.
+
+The governing principle is the same as the publication methodology:
+
+> **traceability is necessary, but semantic correctness still requires reading the source and the sentence together.**
