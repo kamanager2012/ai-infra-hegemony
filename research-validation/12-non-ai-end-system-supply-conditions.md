@@ -1,4 +1,4 @@
-# Phase II · Non-AI End-System Supply Conditions v0.1
+# Phase II · Non-AI End-System Supply Conditions v0.2
 
 > **Status:** Research-side downstream exposure map; not part of the frozen formal facts.  
 > **Purpose:** make the report's intended reader explicit: AI does not make smartphones, PCs, game consoles, vehicles, factories, robotics, aerospace, or other long-lifecycle high-reliability systems “unimportant.” The question is whether their electronics are now buying into a supply system whose capital allocation, contracting and margin priorities are being reset by AI/HPC.
@@ -207,6 +207,77 @@ This does not mean the supplier is making a political judgment that AI is “mor
 
 It means the allocation mechanism is economic unless policy creates a different protected channel.
 
+## 6A. 2025–2026 observed end-system transmission: three different outcomes
+
+The framework now has three useful public anchors that show why end-system exposure must be monitored as a **state variable**, not assumed from upstream scarcity alone.
+
+### Sony / PlayStation — quantity assurance reaches hardware planning
+
+Sony's FY2025 Q4 / FY2026 outlook states that FY26 PS5 hardware sales will be based on memory volume procurable at reasonable prices, with unit sales and promotional plans adjusted if needed to manage profitability.
+
+This supports a direct chain:
+
+> **memory procurement → hardware volume / promotion → hardware profitability**
+
+This is the strongest current console-side evidence that upstream memory conditions have crossed into an end-system operating decision.
+
+### Microsoft / PC ecosystem — memory pricing reaches OEM inventory and device pricing
+
+Microsoft's FY2026 disclosures provide a separate PC-side transmission path:
+
+- FY26 Q2: Windows OEM benefited from elevated inventory as OEM partners purchased ahead of expected memory-price increases;
+- FY26 Q3: OEM inventory continued to reflect increasing memory pricing;
+- FY26 Q4 outlook for FY27: higher component costs were expected to increase device pricing and weigh on PC demand.
+
+The defensible chain is:
+
+> **memory / component pricing → OEM inventory behavior → device pricing → PC demand**
+
+This is materially stronger than merely citing DRAM contract-price forecasts because an end-system platform operator is describing the downstream behavioral response.
+
+### Nintendo / Switch 2 — a useful counterexample
+
+Nintendo's November 2025 management Q&A acknowledged rising memory-module and other material costs but stated that, absent significant external changes, it did **not** then expect the recent cost increase to materially reduce Switch 2 hardware profitability because mass-production cost reductions could offset part of the pressure.
+
+That creates an important counterexample:
+
+> **component-cost pressure ≠ automatic margin compression**
+
+The transmission depends on:
+- inventory position;
+- procurement timing;
+- manufacturing learning / cost-down;
+- pricing;
+- product mix;
+- promotional strategy.
+
+This is exactly the kind of counterevidence the report needs to avoid turning Residual Capacity into a one-way story.
+
+### Research implication
+
+The three cases together imply:
+
+| Case | Upstream signal | Downstream response | Interpretation |
+|---|---|---|---|
+| Sony PS5 | memory quantity / price constraint | hardware volume + promotion management | quantity assurance is binding enough to enter planning |
+| Microsoft PC ecosystem | higher memory / component pricing | forward inventory + higher device pricing | cost pressure is transmitting into channel behavior and demand |
+| Nintendo Switch 2 | rising material / memory costs | profitability expected to remain broadly maintained | cost-down can absorb part of the shock |
+
+Therefore:
+
+> **End-system residual pressure should be measured through observed response functions, not inferred from upstream tightness alone.**
+
+The minimum response variables are:
+- inventory behavior;
+- configuration / SKU change;
+- promotion;
+- retail/device pricing;
+- hardware margin;
+- unit guidance;
+- replacement / upgrade cadence.
+
+---
+
 ## 7. The other side of the cycle: resource return can also hurt
 
 If AI workload economics fail to support the installed capital base, the same end systems can face a different problem:
@@ -232,9 +303,10 @@ So the report should fear both:
 
 ## 8. Link to formal Chapter 21
 
-Formal Chapter 21 already establishes the strongest evidenced transmission for:
+Formal Chapter 21 now establishes the strongest evidenced transmission for:
 - smartphone;
 - PC;
+- game console;
 - automotive/industrial memory;
 - broadband devices.
 
@@ -267,3 +339,10 @@ Until then, the formal conclusion should remain:
 - NASA JPL, **Space Radiation Effects on Integrated Circuits**: https://parts.jpl.nasa.gov/asic/Appendix.3.html
 - NASA TechPort, **Radiation Hardened High Speed Integrated Circuits Double Data Rate I/O for Extreme Operating Environments**, updated 2026: https://techport.nasa.gov/projects/93719
 - Infineon HiRel supply-longevity program for aerospace / military / defense applications: https://www.infineon.com/products/high-reliability/custom-services/supply-longevity
+
+
+- Microsoft FY26 Q2 earnings — OEM inventory purchased ahead of memory-price increases and PC-market sensitivity to higher memory pricing: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2
+- Microsoft FY26 Q3 More Personal Computing — OEM inventory behavior amid increasing memory pricing: https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/more-personal-computing-performance
+- Microsoft FY26 Q4 earnings — higher component costs expected to raise device pricing and weigh on PC demand: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
+- Sony FY2025 Q4 earnings speech / FY2026 outlook — PS5 hardware planning tied to memory procurement: https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+- Nintendo, FY ending March 2026 six-month results Q&A — rising component / memory costs but hardware profitability expected to remain broadly maintained through cost-down absent major external changes: https://www.nintendo.co.jp/ir/pdf/2025/251105_2e.pdf
