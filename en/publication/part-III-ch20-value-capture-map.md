@@ -19,7 +19,7 @@ Adding the headline numbers across layers creates serious double counting.
 
 This chapter therefore analyzes **where value is captured** and **where risk is carried**, rather than manufacturing an unauditable global profit-pool total.
 
-## 2. Value Capture depends on five dimensions
+## 2. Value Capture depends on six dimensions
 
 At minimum, the economics of a layer depend on:
 
@@ -131,6 +131,24 @@ But the filing does not disclose a supplier-level split, so it cannot be rewritt
 This is an important dynamic of value capture:
 
 > high seller cash flow can be converted earlier into next-generation wafer, memory, packaging, and component commitments.
+
+## 7A. Financing Coordination: capital organization is becoming a system-level capability
+
+The August 2026 financing developments add another layer to value capture.
+
+A leading system platform can potentially create value not only by organizing technology and supply, but by matching:
+
+> **long-duration workloads + LPS / compute assets + long-duration capital**
+
+This can reduce financing friction and accelerate Time-to-Capacity.
+
+But the same mechanism changes who bears risk.
+
+When a seller also provides equity, credit support, or infrastructure-financing coordination, some customer-concentration, duration, and residual-value risk can move back toward the platform.
+
+Therefore:
+
+> **financing power can become a moat, but only when analyzed together with risk transfer and workload monetization.**
 
 ## 8. Power / Powered Land: value comes from time scarcity, not electricity price alone
 
