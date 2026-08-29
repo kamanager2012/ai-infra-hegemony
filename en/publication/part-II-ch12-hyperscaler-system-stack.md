@@ -175,6 +175,38 @@ At least the following variables need to be observed together:
 
 Success on internal workloads can create real economics, but "full replacement of NVIDIA's external ecosystem" additionally requires evidence of cross-customer, cross-workload migration and production reliability.
 
+## 11A. Two levels of substitution: internal economics and external ecosystem
+
+Success for a cloud custom system has at least two distinct levels.
+
+### Internal Economic Substitution
+
+A custom stack already creates real economic substitution if, inside the hyperscaler's own or anchor workloads, it can:
+
+- run reliably;
+- sustain high utilization;
+- deliver lower TCO than the external alternative;
+- continue iterating across generations.
+
+This level does not require reproducing the entire CUDA external ecosystem.
+
+### External Ecosystem Substitution
+
+To weaken the economics of a general-purpose external platform more broadly, the system additionally needs:
+
+- external customer adoption;
+- developer portability;
+- broader workload coverage;
+- low migration cost;
+- stable commercial support;
+- multi-generation compatibility.
+
+Therefore:
+
+> **internal success ≠ external ecosystem replacement**
+
+Internal success can still materially change hyperscaler procurement, bargaining power, and long-run platform-profit distribution.
+
 ## 12. The long-run equilibrium is more likely to be workload segmentation
 
 The most realistic long-run structure may not be one side eliminating the other.
@@ -207,6 +239,19 @@ As of August 2026, the most defensible description is:
 - custom systems still compete heavily for advanced logic, HBM, advanced packaging, and power.
 
 **Cloud System-Stack Substitution is therefore one of the most important structural variables that could move S2 Baseline Concentration toward S1 Competitive Expansion**, but its strength must be measured through real workload share, migration cost, utilization, and upstream-resource dependence.
+
+## 14. Falsification boundary: what would force this chapter to change
+
+Cloud System-Stack Substitution should be downgraded if custom systems remain confined to small internal workloads and the following conditions persist:
+
+- production utilization remains low;
+- migration / debugging cost stays high;
+- external customer adoption remains weak;
+- multi-generation software compatibility remains insufficient;
+- HBM / packaging / power access does not improve;
+- hyperscalers increase dependence on one external platform again.
+
+The evidence that would genuinely support S1 is not another chip launch. It is simultaneous improvement in production workload share, TCO, portability, and external adoption.
 
 ## References
 
