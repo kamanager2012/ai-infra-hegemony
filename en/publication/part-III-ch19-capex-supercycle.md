@@ -30,17 +30,7 @@ Taken together, these public disclosures indicate that infrastructure investment
 
 They cannot be mechanically added because three are guidance / expectations while Amazon is TTM actual, and the accounting periods and categories differ.
 
-## 3. The 2025 mixed-window aggregate is only a scale anchor
-
-A reconstruction from public PPE/equipment-purchase disclosures gives a mixed-window 2025 scale of roughly **US$354B**. This is a **D-grade report reconstruction / scale anchor**, not a unified actual jointly disclosed by the four companies.
-
-Its role is only to show that the capital base has become extremely large.
-
-It is not a unified AI subtotal jointly disclosed by the four companies.
-
-If fulfillment assets, offices, networking, power, custom silicon, and third-party accelerators are all relabeled as "AI hardware," an accounting-classification problem gets disguised as an industrial fact.
-
-## 3A. Corporate CapEx is no longer the full denominator of AI-infrastructure capital formation
+## 2A. Corporate CapEx is no longer the full denominator of AI-infrastructure capital formation
 
 By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx.
 
@@ -59,7 +49,7 @@ Therefore:
 
 The new compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.
 
-## 4. Why CapEx creates long-duration lock-in
+## 3. Why CapEx creates long-duration lock-in
 
 AI infrastructure is not one server purchase.
 
@@ -73,7 +63,7 @@ It combines assets with very different durations:
 
 This creates a **duration mismatch** between technology iteration speed and infrastructure economic life.
 
-## 5. Sellers and buyers reproduce capital in different ways
+## 4. Sellers and buyers reproduce capital in different ways
 
 NVIDIA's cash generation is more directly linked to inventory, capacity reservation, supply commitments, and next-generation roadmaps.
 
@@ -85,7 +75,7 @@ It is:
 
 > **How directly can each dollar of capital improve next-generation scarce-resource access and productive utilization?**
 
-## 6. Power stretches the capital cycle from the Hardware Clock to the Infrastructure Clock
+## 5. Power stretches the capital cycle from the Hardware Clock to the Infrastructure Clock
 
 As rack density rises, expansion depends on more than server procurement.
 
@@ -95,7 +85,7 @@ The semiconductor clock and the power-permitting clock therefore become coupled.
 
 When chip supply improves but energized capacity remains insufficient, the bottleneck can shift from manufacturing toward Time-to-Power.
 
-## 7. The difference between a supercycle and a bubble is utilization
+## 6. The difference between a supercycle and a bubble is utilization
 
 High CapEx can represent high-return expansion or overbuild.
 
@@ -103,7 +93,7 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
-## 8. Five classes of leading capital-clearing signals
+## 7. Five classes of leading capital-clearing signals
 
 A CapEx-cycle turn cannot be judged from stock prices alone.
 
@@ -116,7 +106,7 @@ This report tracks:
 
 Only synchronized deterioration across several classes is sufficient to move from "ROI pressure" toward "Capital Hard Landing."
 
-## 8A. A second-order effect: successful capital expansion raises the future performance hurdle
+## 8. A second-order effect: successful capital expansion raises the future performance hurdle
 
 A distinctive feature of AI infrastructure is that the more successfully capital expands, the higher the next-stage performance hurdle becomes.
 
