@@ -2,7 +2,7 @@
 
 ## 1. 2036 is not a market-share forecast point
 
-This book does not predict one company's exact 2036 market share and does not assign fixed scenario probabilities.
+This report does not predict one company's exact 2036 market share and does not assign fixed scenario probabilities.
 
 The purpose of 2036 is to extend today's mechanisms across a longer time scale and ask what industry structures become possible if observable variables persist.
 
@@ -23,7 +23,7 @@ The long-run question is therefore:
 | Advanced Packaging / CoWoS | [Part I · Ch06](part-I-ch06-advanced-packaging.md) |
 | Power / Time-to-Power | [Part I · Ch07](part-I-ch07-power-constraint.md) |
 | Hyperscaler second system stack | [Part II · Ch12](part-II-ch12-hyperscaler-system-stack.md) |
-| China frontier-system closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
+| China production-grade parallel stack / autonomous frontier closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
 | Value Capture Map | [Part III · Ch20](part-III-ch20-value-capture-map.md) |
 | Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
 
@@ -44,7 +44,7 @@ A plausible structure includes:
 - Google/AWS/Microsoft/Meta system stacks maturing across large workloads;
 - multiple buyers obtaining reliable access to leading-edge manufacturing;
 - open software / interfaces reducing cross-stack migration friction;
-- stronger system closure in China's parallel stack;
+- a broader production-grade parallel stack in China, with progress toward autonomous frontier closure;
 - value capture spreading more broadly across cloud, specialized suppliers, and applications/workflows.
 
 S1 does not mean every hardware layer becomes a commodity.
@@ -88,7 +88,7 @@ Capital entry barriers rise sharply and Non-AI Residual Capacity can face greate
 
 ## 6. S4 — Capital Hard Landing: capital clearing does not mean AI disappears
 
-If utilization, effective revenue, market-clearing prices, and forward commitments deteriorate together, the industry moves toward S4.
+If accounting losses, utilization/revenue, market-clearing prices, forward commitments, and demand-financing quality deteriorate broadly and persistently, the industry moves toward S4.
 
 Possible outcomes include:
 
@@ -109,16 +109,17 @@ is one possible path.
 
 S4 can therefore shift competition from buildout toward utilization, workflow, and cash flow rather than simply ending AI adoption.
 
-## 7. Four long-run dividing lines
+## 7. Five long-run dividing lines
 
-By 2036, four questions matter more than any single market-share forecast:
+By 2036, five questions matter more than any single market-share forecast:
 
-1. **Are system stacks interoperable?**
-2. **Are scarce manufacturing / memory / packaging resources sufficiently diversified?**
-3. **Does power / powered land remain a long-term quota?**
-4. **Do AI workloads produce enough cash flow to cover infrastructure and capital costs?**
+1. **System portability:** can workloads move across system stacks at acceptable cost?
+2. **Scarce-layer supply elasticity:** can multiple buyers obtain qualified advanced logic, HBM, and packaging at scale?
+3. **Time-to-Power:** does powered land / grid connection remain a long-duration deployment quota?
+4. **Workload monetization:** do AI workloads generate enough cash flow to cover compute, operations, power, and capital cost?
+5. **Financing independence / demand quality:** can infrastructure be supported by independent workload cash flow and long-duration risk capital rather than continually increasing seller / sponsor support?
 
-These determine switching costs, supply elasticity, deployment geography, and capital sustainability.
+These determine switching costs, supply elasticity, deployment geography, capital sustainability, and the concentration of balance-sheet risk.
 
 ## 8. Enterprise strategy: prove workflow economics before locking long-duration compute
 
@@ -237,19 +238,34 @@ The objective is not to equalize market share artificially.
 
 It is to make substitution executable when supply, policy, or pricing conditions change.
 
-## 15. China: the long-run issue is Frontier System Closure, not one localization percentage
+## 15. China: the long-run issue is two-level closure, not one localization percentage
 
-Whether China's parallel stack changes global resource structure does not depend on one localization ratio.
+Whether China's parallel stack changes the global resource structure does not depend on one localization ratio.
 
-It depends on whether advanced logic, HBM, packaging, interconnect, compiler/runtime, frontier workloads, and power reach verifiable scale together.
+The first level is **Production-Grade Parallel Stack**:
 
-Strong smartphone / consumer supply does not prove frontier-AI closure.
+- accelerator / compute;
+- HBM-class or equivalent memory subsystem;
+- advanced packaging;
+- high-speed interconnect;
+- compiler/runtime;
+- production workload;
+- utilization / reliability / system economics.
 
-Likewise, constraints in frontier AI do not erase China's industrial depth in consumer electronics, manufacturing, DRAM/NAND, and domestic workloads.
+The second level is **Autonomous Frontier Closure**:
 
-If multiple closure gates are crossed, China can become a stronger second center of AI Resource Gravity.
+- advanced-manufacturing continuity;
+- equipment / materials / software / service;
+- cross-generation process upgrades;
+- long-duration HBM / packaging / LPS / power / capital continuity.
 
-If several advanced layers remain unclosed, the parallel stack's primary value remains domestic resilience and partial workload substitution.
+Consumer / smartphone supply-chain strength does not prove autonomous frontier closure.
+
+But import dependence also does not invalidate production-grade substitution that is already operating in real workloads.
+
+If the production-grade stack keeps expanding, China becomes a stronger second center of AI Resource Gravity.
+
+If upstream continuity also closes across generations, the strategic meaning rises from domestic resilience / selected substitution toward a higher degree of autonomous frontier competition.
 
 ## 16. Individual strategy: long-run value comes from responsibility for outcomes, not loyalty to one tool
 
@@ -266,7 +282,7 @@ More durable capabilities include:
 
 As tools lower execution barriers, the ability to define problems, verify outputs, and own delivery becomes more important.
 
-## 17. Monitoring: what should force a change in judgment
+## 17. What evidence should force a strategic re-rating
 
 The next decade should be calibrated through public signals, including:
 
@@ -277,14 +293,15 @@ The next decade should be calibrated through public signals, including:
 - whether energized MW / Time-to-Power improves;
 - whether Anchor Compute Buyer commitments convert into real delivery;
 - whether hyperscaler utilization / AI monetization covers the expanding capital base;
-- whether China's frontier-closure gates gain scaled first-party evidence;
+- whether China's production-grade parallel stack / autonomous frontier closure gains scaled first-party evidence;
+- whether supplier-assisted financing remains supported by independent workload cash flow, third-party capital, and high utilization;
 - whether regulation materially lowers interface / tying / switching barriers.
 
 If supply elasticity and interoperability rise together, weighting shifts toward S1.
 
 If multiple scarce layers and switching costs strengthen together, weighting shifts toward S3.
 
-If utilization, clearing prices, CapEx, and commitments weaken together, weighting shifts toward S4.
+If accounting, utilization/revenue, market clearing, forward commitments, and demand-financing quality weaken broadly and persistently, weighting shifts toward S4.
 
 ## 18. Final strategic judgment
 
