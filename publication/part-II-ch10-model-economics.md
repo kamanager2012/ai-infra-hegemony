@@ -34,7 +34,7 @@ DeepSeek-V3 一手披露：
 - **2.664M H800 GPU-hours** pre-training；
 - **2.788M H800 GPU-hours** full formal training。[^1]
 
-论文同时采用 US$2/GPU-hour 的假设，因此 2.788M GPU-hours 对应约 **US$5.576M formal-training compute conversion**。
+论文同时采用 **US$2/GPU-hour** 的假设；按这一论文假设做机械换算，**2.788M × US$2 = US$5.576M**。因此 US$5.576M 是基于论文参数的 **formal-training compute conversion / report-side arithmetic**，不是 DeepSeek 披露的完整企业研发成本。[^1]
 
 但这个数字不是完整企业研发成本。
 
