@@ -136,6 +136,20 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 因此，**evidence-event/source-availability cutoff** 与 **post-freeze verification date** 必须分开记录。
 
+### 8A. 2026-08-29 material-correction pass
+
+正式正文在 2026-08-29 曾被**明确重新开启一次**，用于修正已经识别出的重大实质性问题，而不是进行一般性扩写。修订范围包括：
+
+- 整机 / 非 AI 下游读者入口与 residual-capacity 暴露；
+- China frontier parallel stack 的 Production-Grade Gate 口径；
+- verified-workflow 判据的“未完成经验校准”身份；
+- S1–S4 的公开代理监测与 end-system dashboard；
+- pre-cutoff source 的补证与证据边界。
+
+该修订**没有新增第五情景、没有改变 S1–S4 定义、没有把 S2 升格成 S3，也没有把 2026-08-28 之后才发生的新事实倒写进当前 evidence snapshot**。
+
+完成这次 material-correction pass 后，正文重新冻结。
+
 ---
 
 ## 9. 对外使用边界
