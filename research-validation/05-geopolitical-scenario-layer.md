@@ -1,7 +1,32 @@
-# P1-1 · Geopolitical Scenario Layer v0.1
+# P1-1 · Geopolitical Scenario Layer v0.2
 
 > **Status:** Research-side scenario extension; not part of the frozen 32-chapter formal report.  
 > **Goal:** convert geopolitics from a background constraint into explicit, observable scenario variables that can change S1–S4 weights.
+
+## 0. Ownership contract v0.2
+
+This file owns:
+- G1–G5 geopolitical state definitions;
+- geopolitical event-to-physical-transmission logic;
+- geopolitical falsification / contrary-evidence rules.
+
+It does **not** own:
+- China technical-stack closure evidence — `09` is authoritative;
+- public-credit / project-finance state — `04A–04D` are authoritative;
+- S1–S4 dashboard aggregation — `10` is authoritative;
+- formal-report wording — frozen unless explicitly reopened.
+
+Dependency rule:
+
+```text
+observed geopolitical event
+→ 05 classifies G-state
+→ 09/04 validate physical or financial transmission where relevant
+→ 10 aggregates scenario relevance
+→ formal report only after explicit reopen
+```
+
+A policy headline without a physical / financial transmission path must remain a geopolitical context observation, not a scenario-state override.
 
 ## 1. Why the existing framework is incomplete
 
@@ -343,9 +368,9 @@ Quarterly / event-driven panel:
 
 ## 9. Relationship to the formal scenario system
 
-This geopolitical layer should eventually feed Chapter 30 through **explicit state variables**, not through a narrative paragraph.
+If the formal report is explicitly reopened, this geopolitical layer should feed Chapter 30 through **explicit state variables**, not through a narrative paragraph.
 
-Do not assign subjective probabilities in v0.1.
+Do not assign subjective probabilities in v0.2.
 
 The proper update process is:
 
@@ -359,7 +384,7 @@ Observed geopolitical change
 
 ---
 
-## 10. v0.1 conclusion
+## 10. v0.2 conclusion
 
 The report’s geopolitical weakness is not lack of geopolitical discussion.
 
