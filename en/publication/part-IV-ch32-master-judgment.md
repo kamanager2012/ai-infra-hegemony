@@ -2,7 +2,7 @@
 
 ## 1. Final industrial judgment
 
-As of **August 28, 2026**, the report's master judgment can be compressed into six points.
+As of **August 28, 2026**, the report's master judgment can be compressed into seven points.
 
 **First, the competitive unit in AI infrastructure has moved from the individual chip to the full system stack.**  
 GPU share, ASIC announcements, or a single benchmark no longer explain industrial power adequately. The relevant unit now includes advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads operating as a high-utilization commercial system.
@@ -19,8 +19,11 @@ A second system stack can divert platform profit while still competing for the s
 **Fifth, the primary capital risk has shifted from "is there demand?" to "can utilization, monetization, and independent financing capacity grow fast enough to cover the expanding capital base?"**  
 Headline CapEx is neither proof of a boom nor proof of a bubble. A Capital Hard Landing requires broad, persistent deterioration across accounting, utilization/revenue, market clearing, forward commitments, and demand-financing quality.
 
-**Sixth, the next decade is not one deterministic curve.**  
-The 2026–2036 outcome will be determined by supply elasticity, system substitution, capital discipline, power, financing quality, and the maturity of production-grade and autonomous parallel stacks.
+**Sixth, infrastructure expansion only completes the demand-side loop when it becomes verifiable, repeatable, monetizable workflow output.**  
+Agent-native software, Physical AI, and enterprise automation ultimately face the same economic test: how much compute, energy, human review, and capital are required per verified result, and whether the resulting business value can sustainably cover those costs. Lower unit compute cost does not imply lower total demand if cheaper intelligence unlocks more workflows.
+
+**Seventh, the next decade is not one deterministic curve.**  
+The 2026–2036 outcome will be determined by supply elasticity, system substitution, workload economics, capital discipline, power, financing quality, and the maturity of production-grade and autonomous parallel stacks.
 
 The central industrial question is therefore not "who wins the AI chip war?"
 
@@ -244,7 +247,57 @@ It means demand quality must distinguish:
 
 ---
 
-## 10. Compute becomes productive infrastructure only when economic output validates it
+## 10. From infrastructure to industrial productivity: the demand-side loop determines how far the decade-long cycle can run
+
+A report that stops at GPUs, HBM, CapEx, or data-center capacity is incomplete. Infrastructure is the supply side. The ten-year industrial cycle ultimately depends on whether these physical assets can move through software, enterprise workflows, and the physical world into verifiable economic output.
+
+### Agent-native software: unit economics moves from seats to verified workflow outcomes
+
+Traditional SaaS scales largely around accounts and seats. Agent-native software continuously consumes inference, retrieval, tools/APIs, retries, observability, and human review.
+
+The more relevant unit is therefore:
+
+> **cost per verified workflow outcome**
+
+Cheaper models and better routing can reduce resource intensity per attempt. But if lower prices unlock more users, longer agent loops, more tool calls, and previously uneconomic workflows, total compute demand can still expand.
+
+The software layer is therefore both a receiver of infrastructure cost and a source of demand elasticity for infrastructure.
+
+### Physical AI: from technical demonstration to capital payback
+
+Physical AI is also a systems problem: perception, control, actuation, batteries, sensors, manufacturing, field reliability, and cloud/edge infrastructure have to close together.
+
+The commercial threshold is not whether a robot can complete one task. It is whether:
+
+> **Useful Tasks × Uptime × Deployment Scale** can cover **Energy + Maintenance + Human Supervision + Depreciation + Financing**
+
+Physical AI can therefore become a new pool of compute, memory, storage, and cloud-workload demand, but only scaled utilization and capital recovery can validate its industrial value.
+
+### Labor markets: Task → Workflow → Job, not Exposure → Unemployment
+
+The labor transmission chain has to pass through:
+
+> **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
+
+Occupational exposure therefore cannot be converted directly into job-loss forecasts. More useful long-run indicators include junior/senior ratios, human-review burden, output per employee, exception rates, and organizational layers.
+
+### Talent systems: from model use toward system design and verification
+
+As model calling commoditizes, more durable capability moves toward workflow engineering, system engineering, cross-stack portability, verification, performance/cost measurement, and responsibility boundaries.
+
+The long-run talent divide is not merely who "uses AI." It is:
+
+> **who can organize AI into reliable, portable, measurable production systems and remain accountable for the result**
+
+Putting these layers together, the report's demand-side loop is:
+
+> **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
+
+If the front half of that chain expands persistently faster than the back half, S4 risk rises. If verified workflow output, utilization, and cash flow continue pulling new demand forward, S2/S3-style capital expansion can persist even as unit compute costs fall.
+
+---
+
+## 11. Compute becomes productive infrastructure only when economic output validates it
 
 The report uses the idea of compute becoming a productive input in an economic, testable sense—not as a technological slogan.
 
@@ -264,7 +317,7 @@ This is why model capability, infrastructure spend, utilization, and business re
 
 ---
 
-## 11. 2026–2036: four structural states, not one forecast number
+## 12. 2026–2036: four structural states, not one forecast number
 
 The report uses four parallel scenarios.
 
@@ -301,7 +354,7 @@ The variables that will determine the 2030/2036 structure include:
 
 ---
 
-## 12. What evidence would force the report to change its judgment
+## 13. What evidence would force the report to change its judgment
 
 High-value falsification signals include:
 
@@ -323,7 +376,7 @@ They cannot be explained away by saying the long-run story remains intact.
 
 ---
 
-## 13. Research grammar: every strong judgment must move from Fact to Falsification
+## 14. Research grammar: every strong judgment must move from Fact to Falsification
 
 The report uses five layers:
 
@@ -347,7 +400,7 @@ The fact layer must remain conservative.
 
 ---
 
-## 14. Final master judgment
+## 15. Final master judgment
 
 AI is driving an industrial restructuring deeper than a conventional GPU demand cycle.
 
@@ -359,6 +412,10 @@ It is changing:
 - the industrial role of hyperscalers and model companies;
 - the strategic value of power and data-center infrastructure;
 - the residual capacity available to traditional device markets;
+- the shift in Agent-native Software from seat economics toward verified-workflow economics;
+- the transition in Physical AI from technical demo toward utilization, reliability, and capital payback;
+- labor-market restructuring from task automation through workflow redesign;
+- the migration of talent value from "using models" toward workflow/system engineering and verification;
 - the strategic objective of China's parallel stack;
 - the dependence of global capital markets on AI workload monetization.
 
@@ -387,7 +444,11 @@ If utilization, market clearing, forward commitments, accounting, and demand-fin
 - [Part I · Ch06 Advanced Packaging](part-I-ch06-advanced-packaging.md)
 - [Part I · Ch07 Power](part-I-ch07-power-constraint.md)
 - [Part II · Ch12 Hyperscaler System Stack](part-II-ch12-hyperscaler-system-stack.md)
+- [Part II · Ch14 Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
+- [Part II · Ch15 Physical AI](part-II-ch15-physical-ai.md)
 - [Part II · Ch17 China Parallel Stack](part-II-ch17-china-parallel-stack.md)
+- [Part III · Ch25 AI and Labor Markets](part-III-ch25-labor-market.md)
+- [Part III · Ch26 Education and Talent Systems](part-III-ch26-education-talent.md)
 - [Part III · Ch20 Value Capture Map](part-III-ch20-value-capture-map.md)
 - [Part III · Ch24 Capital Clearing](part-III-ch24-capital-clearing.md)
 - [Part IV · Ch31 Strategy & Endgame](part-IV-ch31-strategy-endgame.md)
