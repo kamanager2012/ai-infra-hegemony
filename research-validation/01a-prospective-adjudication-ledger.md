@@ -1,4 +1,4 @@
-# P0-1A · Prospective Adjudication Ledger v0.1
+# P0-1A · Prospective Adjudication Ledger v0.2
 
 > **Status:** Research-side live logging layer; not part of the frozen 32-chapter formal report.  
 > **Purpose:** operationalize P0-1 v1.0 as a publication-time disciplined, causality-aware, reversible adjudication process.
@@ -96,9 +96,17 @@ Later independent evidence confirms that stabilization persisted at the same eco
 | AI26-003 | 2026-06-01 / 2026-08-27 | Demand Quality / Financing | IREN / GPU project finance + AI cloud | Microsoft-linked GPU financing about **US$3.65B** at blended 6.0%; with prepayments funds about **96% of associated US$5.81B GPU CapEx**. FY26 AI Cloud Services revenue **US$128.8M vs US$16.4M FY25**; first 50MW Microsoft deployment delivered; 2026 capacity described as largely sold out | non-investment-grade customer financings are more expensive; company-level revenue is not facility-level DSCR closure | financing is available and deployment/monetization is occurring | **NO CLEARING evidence; financing-quality WATCH** |
 | AI26-004 | 2026 Q2 / Aug filings | Demand Quality / Financing | CoreWeave / project finance | large DDTLs and notes remain available / drawn; additional 2026 financing capacity has been added | leverage and customer concentration remain high; facility draw does not prove utilization | financing channel is open rather than shut | **NO CLEARING evidence; refinancing/concentration WATCH** |
 | AI26-005 | 2026-07-26 / 2026-08-17 | Demand Quality / Financing | NVIDIA / seller-support layer | existing AI-cloud LPS guarantee exposure and new conditional PORTS-Pike support show seller balance sheet increasingly involved in infrastructure delivery | maximum guarantee cap ≠ effective exposure ≠ triggered obligation ≠ funded cash loss; support cannot be double-counted as demand | reflexivity / support-dependence vulnerability, not a clearing event | **WATCH — seller-support dependence** |
-| AI26-006 | 2026Q2 / July-2026 survey | Demand Quality / Financing | U.S. bank credit / macro | SLOOS shows only modest net C&I tightening while demand is positive; policy / long rates remain restrictive | public-credit market functioning still needs regular CMDI refresh; aggregate credit can miss borrower-specific stress | macro credit is selective, not seized | **NO CLEARING / WATCH — credit selectivity** |
+| AI26-006 | 2026-08-03 | Demand Quality / Financing | U.S. bank credit / macro | July 2026 SLOOS, shown in FRED as **2026Q3 survey label** but describing changes predominantly over **2026Q2**, reports **0.0%** net tightening for large/middle-market C&I standards and **16.1%** net stronger demand | aggregate bank credit can miss NDFI/private-credit and borrower-specific stress; long rates remain restrictive | latest bank-credit evidence is stronger contrary evidence against an economy-wide credit seizure | **NO CLEARING / WATCH — credit selectivity** |
 
 ## 4.2 Composite adjudication
+
+### 4.1A Temporal note added in v0.2
+
+SLOOS is now logged by **publication time + FRED survey label + economic period described** rather than by one ambiguous quarter field.
+
+This prevents a July/October/January survey release from being backfilled into the preceding economic quarter without preserving when the information actually became public.
+
+See `04a-public-credit-panel.md` v0.3 for the maintained macro-credit time identity.
 
 ### Current research state
 
