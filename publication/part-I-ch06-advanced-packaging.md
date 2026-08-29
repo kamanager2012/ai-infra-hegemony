@@ -82,7 +82,7 @@ advanced-packaging capacity 由 packaging flow、interposer / substrate、HBM in
 - packaging demand share 不能转换成 customer allocation；
 - HBM bits、logic wafers、package starts 与 energized MW 必须保留各自物理身份。
 
-这也是本报告拒绝把多个 scarce layer 压缩成一个“综合产能占有率”的原因。
+因此，本报告不将多个 scarce layer 压缩成一个“综合产能占有率”。
 
 ## 6. 为什么 Packaging 可能比 Node 更早成为“数量闸门”
 
