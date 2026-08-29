@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.11
+# P0-4 · Macro-Financial Transmission Layer v0.12
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -1250,6 +1250,83 @@ The panel is valuable even when data are incomplete because missingness itself s
 
 ---
 
+## 11A. Integration into Dashboard K
+
+The four hyperscaler pilots now feed the public-proxy scenario layer through **Dashboard K — Hyperscaler Capital-Cycle Transmission**.
+
+The integration rule is deliberately stricter than a free-cash-flow screen.
+
+For each hyperscaler / major infrastructure buyer, record six layers:
+
+1. **Headroom** — within-company OCF minus comparable cash infrastructure / PP&E spend;
+2. **Recognized Commitment** — total CapEx, finance leases, contracted capacity, or other long-duration commitments;
+3. **Financing Amplification** — debt, equity, leases, project finance, guarantees, supplier support;
+4. **Demand Breadth / Quality** — RPO, bookings, customer concentration, cloud demand, renewal breadth;
+5. **Monetization** — cloud / AI revenue growth, operating income, utilization / ROI proxies;
+6. **Clearing / Accounting** — project cuts, resale/discounting, impairments, accelerated depreciation, distressed refinancing.
+
+### 11A.1 S4 confirmation rule
+
+Do **not** raise S4 materially because one of the following occurs alone:
+
+- FCF turns negative;
+- debt issuance rises;
+- equity is issued;
+- finance leases rise;
+- CapEx reaches a record;
+- one anchor customer becomes large.
+
+Those are **state variables**, not conclusions.
+
+S4 weight rises only when a financing / headroom deterioration begins to align with:
+
+- weaker demand breadth or concentration deterioration;
+- weaker monetization / utilization;
+- forward-commitment cuts or economically driven rescheduling;
+- market clearing;
+- accounting / refinancing stress.
+
+Cross-company / cross-layer breadth strengthens the signal.
+
+### 11A.2 Current 2026 classification
+
+Using the current quarterly evidence:
+
+- **Meta:** headroom compression is visible, but investment and operating-income expectations remain expansionary;
+- **Alphabet:** negative quarterly FCF is accompanied by large external debt/equity capacity and continued infrastructure expansion;
+- **Microsoft:** large recognized CapEx / lease commitments coexist with broadening commercial RPO outside frontier-model companies;
+- **Amazon:** company-level cash headroom is negative in selected quarters, but the denominator mixes AWS and fulfillment investment and must be paired with AWS monetization.
+
+Therefore the current four-company state is:
+
+> **high-intensity expansion + increasing financing amplification, without cross-company S4 confirmation.**
+
+This is a research-side classification, not a formal-report scenario switch.
+
+### 11A.3 What would change the classification
+
+Upgrade toward S4 only if future quarters show a combination such as:
+
+```text
+headroom compression
++
+weaker cloud / AI monetization
++
+narrower / weaker bookings or RPO
++
+more expensive / fragile financing
++
+CapEx or project commitment cuts
++
+clearing / impairment evidence
+```
+
+The sequence need not be identical across firms.
+
+The requirement is **cross-confirmation**, not a fixed threshold count.
+
+---
+
 ## 12. Relationship to the five clearing signals
 
 Macro-financial variables do not become a sixth independent S4 signal.
@@ -1288,7 +1365,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.11 conclusion
+## 14. v0.12 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1296,7 +1373,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers now have quarter-level capital-intensity pilots with company-specific denominator controls; Microsoft separates cash PP&E from total CapEx, and Amazon explicitly carries an AWS-plus-fulfillment denominator warning. The next empirical task is to resolve the stable CMDI direct-file path and connect the four-company headroom / financing / demand-breadth variables into one S4 monitoring table.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers have quarter-level capital-intensity pilots with company-specific denominator controls; and those pilots now feed Dashboard K through a common six-layer S4 protocol covering headroom, recognized commitment, financing amplification, demand breadth, monetization, and clearing. The next empirical task is to resolve the stable CMDI direct-file path and extend project-level refinancing / maturity monitoring beyond CoreWeave / Core Scientific.
 
 ## Sources
 
