@@ -1,4 +1,4 @@
-# Phase II · AI Infrastructure Financing Reflexivity Map v0.1
+# Phase II · AI Infrastructure Financing Reflexivity Map v0.2
 
 > **Status:** Research-side capital-transmission map.  
 > **Purpose:** prevent seller revenue, seller investment, buyer commitments, third-party financing, and downstream infrastructure debt from being misread as independent confirmations of the same demand.
@@ -66,6 +66,110 @@ Anchor / end customer economics
 → Core Scientific colocation cash flow
 → Core Scientific debt service
 ```
+
+## 2A. 2026 support taxonomy — support is not one variable
+
+The 2026 evidence now requires seller / sponsor support to be split into at least five distinct forms.
+
+| Support type | Economic function | 2026 public example | What it can confirm | What it cannot confirm |
+|---|---|---|---|---|
+| Equity investment | absorbs residual equity risk / improves recipient liquidity | NVIDIA US$2.0B private placement into CoreWeave | seller is willing to place balance-sheet capital at risk | independent customer demand; project utilization |
+| Lease / payment guarantee | transfers defined default / payment risk to sponsor | NVIDIA land/power/shell guarantees; AMD data-center lease guarantees | sponsor credit is supporting infrastructure delivery | funded CapEx; realized cash loss; independent end demand |
+| Vendor / OEM financing | shifts timing / ownership of hardware cash outflow | Dell Financial Services GPU leases for IREN; CoreWeave OEM/software financing | asset acquisition can proceed with less day-one sponsor cash | workload ROI; contract quality |
+| Third-party capital mobilization | expands external risk-bearing capacity | NVIDIA infrastructure-financing platforms with institutional capital partners | ecosystem can access outside balance sheets | seller itself funded the announced amount |
+| Customer prepayment / minimum payment | lowers sponsor funding need and supports debtability | Microsoft / IREN tranche prepayments; take-or-pay colocation structures | contracted customer cash flow supports project finance | recurring operating cash flow already earned |
+
+The taxonomy matters because the same project can contain several forms simultaneously.
+
+Example:
+
+```text
+customer contract
+→ customer prepayment
+→ contract-backed GPU debt
+→ seller / sponsor equity
+→ infrastructure guarantee
+```
+
+Those are **risk-distribution layers**, not five independent demand sources.
+
+## 2B. Current scale anchors require denominator discipline
+
+### NVIDIA
+
+As of July 26, 2026, NVIDIA disclosed:
+- approximately **US$99B of equity investments**;
+- approximately **US$25B of equity investment commitments**.
+
+NVIDIA also disclosed guarantees for certain AI-cloud-partner land / power / shell lease obligations.
+
+In August 2026 it entered into phased credit-support arrangements for the PORTS-Pike campus in Ohio, with aggregate guarantee obligations **capped at US$105B**, subject to conditions and becoming effective as data centers reach ready-for-service states, with first service expected later in the decade.
+
+Hard denominator rule:
+
+> **US$105B is a maximum conditional guarantee exposure, not funded CapEx, not current cash outflow, and not a second copy of the OpenAI / SB Energy lease demand.**
+
+### AMD
+
+AMD disclosed:
+- data-center lease guarantees with maximum potential future payments of about **US$4.1B** as of June 27, 2026;
+- subsequent investment commitments of up to **US$5.0B**, subject to conditions;
+- additional long-term data-center lease commitments.
+
+Again:
+
+> guarantees / commitments measure **risk support and future obligation capacity**, not independent end-demand origin.
+
+### CoreWeave
+
+CoreWeave disclosed a January 2026 **US$2.0B NVIDIA private placement**.
+
+This belongs in **F3 Seller-Assisted Financing / ecosystem equity**.
+
+It must not be counted again as:
+- customer demand;
+- CoreWeave contract value;
+- NVIDIA product demand;
+- third-party project debt.
+
+## 2C. Support-adjusted demand identity
+
+A more disciplined conceptual identity is:
+
+```text
+Observed Infrastructure Funding
+=
+Independent Customer Cash
++
+Third-Party Risk Capital
++
+Seller / Sponsor Support
++
+Contract-Backed Leverage
+```
+
+but:
+
+```text
+Independent Demand Confirmation
+≠
+sum(all funding layers)
+```
+
+The research question is:
+
+> **how much of the capital stack would remain financeable if seller / sponsor support were removed?**
+
+This cannot yet be estimated as one empirical percentage.
+
+It can be monitored through:
+- guarantee dependence;
+- equity-support dependence;
+- customer prepayment dependence;
+- third-party refinancing terms;
+- utilization / monetization after deployment.
+
+---
 
 ## 3. Anti-double-counting rules
 
@@ -146,3 +250,10 @@ The discriminating variable is:
 - NVIDIA FY27 Q2 earnings-call transcript: https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 - CoreWeave Q2 2026 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
 - Core Scientific Q2 2026 Form 10-Q: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm
+
+
+- NVIDIA FY27 Q2 Form 10-Q — equity investments / commitments and PORTS-Pike guarantee structure: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- NVIDIA FY27 Q2 CFO commentary — existing AI-cloud-partner LPS guarantees and PORTS-Pike phased guarantee description: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm
+- CoreWeave 2026 Q2 Form 10-Q — NVIDIA US$2.0B January-2026 private placement: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
+- AMD 2026 Q2 Form 10-Q — US$4.1B data-center lease guarantees and subsequent up-to-US$5.0B investment commitments: https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
+- IREN 2025-12-31 filing — Dell Financial Services US$199.8M GPU lease and parent-guaranteed purchase obligations: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000015/iren-20251231.htm
