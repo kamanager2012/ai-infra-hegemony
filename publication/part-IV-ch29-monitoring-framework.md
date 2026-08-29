@@ -110,7 +110,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 | Utilized | 已形成真实、可持续 workload |
 
 **Source:** 本报告 power / LPS state framework。  
-**Note:** state machine 用于防止把 headline MW/GW、secured IT-GW、contract quantity 或 project target 写成 active AI load。Generation MW/GW、PPA capacity 与 IT-GW 必须保持各自物理身份。
+**Note:** state machine 用于防止把公开的 MW/GW 容量、secured IT-GW、contract quantity 或 project target 写成 active AI load。Generation MW/GW、PPA capacity 与 IT-GW 必须保持各自物理身份。
 
 当前代表性项目：
 
@@ -119,7 +119,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 - Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035；[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI：initial 4.25 IT-GW design capacity，属于 secured LPS / future phased buildout，计划从 2028 年开始分阶段上线。[^13]
 
-真正需要更新的是：每个项目从 secured / contracted 向 construction、energized、utilized 的实际转换速度，而不是 headline capacity 本身。
+真正需要更新的是：每个项目从 secured / contracted 向 construction、energized、utilized 的实际转换速度，而不是公布容量本身。
 
 ## 7. Dashboard F — System-Stack Substitution
 
@@ -250,7 +250,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 更合理的更新原则是：
 
-1. **同一变量至少需要可比的连续观察，而不是一次 headline；**
+1. **同一变量至少需要可比的连续观察，而不是单次公开数字；**
 2. **重要改判应有两个以上独立机制维度互相印证；**
 3. **公司一手披露优先于市场传闻；**
 4. **proxy 不能重新命名成无法直接测量的 physical quantity；**
@@ -266,7 +266,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 只有当新事实改变了核心机制变量，并得到足够独立证据支持，才修改 scenario weighting。
 
-这使报告能够长期更新，而不是在每次产品发布、股价波动或传闻后改写产业故事。
+这使报告能够长期更新，而不是在每次产品发布、股价波动或传闻后改写产业叙事。
 
 ## References
 
