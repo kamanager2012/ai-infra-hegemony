@@ -5,7 +5,8 @@
 
 A long-form industry research report on AI infrastructure, semiconductors, cloud systems, capital formation, and industrial strategy.
 
-**Retrieval and revision cutoff: August 28, 2026**
+**Retrieval and revision cutoff: August 28, 2026**  
+**Text status: frozen as of August 29, 2026.** After the freeze, only factual corrections, source-link repairs, citation-scope corrections, and material-error fixes are accepted; no stylistic rewrites, chapter expansion, or framework redesign.
 
 [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master Judgment](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
 
