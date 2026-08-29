@@ -191,7 +191,7 @@ They can be repriced, sold, renegotiated, or become scarce again in the next con
 
 ## 9. What qualifies as S4 Capital Hard Landing
 
-This report upgrades S4 from stress test to the current main scenario only when five groups show broad, persistent, mutually reinforcing deterioration:
+This report upgrades S4 from stress test to the current main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups below are monitoring families, not a five-of-five checklist:
 
 1. **Accounting:** impairment / write-down / disposal rises materially;
 2. **Utilization / Revenue:** utilization and effective AI revenue remain persistently weaker than asset expansion;
@@ -199,7 +199,7 @@ This report upgrades S4 from stress test to the current main scenario only when 
 4. **Forward Commitment:** CapEx guidance, seller commitments, Anchor Buyer contracts, and power commitments slow, reschedule, or cancel;
 5. **Demand Quality / Financing:** customer cash generation weakens, supplier equity / credit support or refinancing dependency rises, and independent risk capital becomes less willing to absorb exposure.
 
-The five groups do not need to deteriorate in the same quarter because accounting, project finance, and market clearing operate on different clocks.
+The five groups do not need to deteriorate in the same quarter because accounting, project finance, and market clearing operate on different clocks. **Accounting is confirmation / severity evidence, not a mandatory gate**: financing-led or real-economy clearing can be confirmed before qualifying impairment or write-down evidence appears.
 
 Judgment is cumulative: each signal updates at its own disclosure frequency per the principle in Chapter 29 §12A, without a single fixed threshold; S4 is upgraded only when several groups deteriorate persistently and in a mutually reinforcing way; when signals diverge, the baseline is maintained and the divergence is logged in the monitoring framework.
 
@@ -217,7 +217,7 @@ NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP ope
 
 This does not guarantee a soft landing.
 
-It only means that declaring capital clearing the dominant reality still requires synchronized evidence across utilization, clearing prices, accounting losses, and forward commitments.
+It only means that declaring capital clearing the dominant reality still requires **cross-signal confirmation plus cross-actor causal breadth** across real-economy, market-clearing, commitment, and financing evidence; accounting losses strengthen severity when they appear but are not required for confirmation.
 
 ## References
 
