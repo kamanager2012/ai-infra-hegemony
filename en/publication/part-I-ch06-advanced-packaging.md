@@ -59,7 +59,7 @@ Therefore:
 - packaging demand share cannot be converted into customer allocation;
 - rack specifications cannot be converted into actual shipments without observed deployment data.
 
-## 7. Why packaging can become the quantity gate before the node does
+## 6. Why packaging can become the quantity gate before the node does
 
 Leading-edge logic supply can grow through new fabs, process migration, and capacity expansion. Advanced packaging simultaneously depends on tools, interposers, substrates, testing, process flows, HBM integration, and qualification.
 
@@ -69,7 +69,7 @@ The result is:
 
 Advanced nodes are closer to an entry ticket into a frontier system; advanced packaging can become the quantity gate that determines how many complete systems are delivered. Both matter, but their physical units and expansion clocks are different.
 
-## 8. Incremental packaging access must be evaluated directly
+## 7. Incremental packaging access must be evaluated directly
 
 The forward question is not a synthetic cross-layer capture ratio.
 
@@ -84,7 +84,7 @@ It is whether competing buyers can obtain qualified advanced-packaging supply wi
 
 That evidence should be evaluated directly at the packaging layer.
 
-## 9. Cloud custom silicon does not automatically bypass packaging/HBM
+## 8. Cloud custom silicon does not automatically bypass packaging/HBM
 
 Google, AWS, Microsoft, and Meta custom accelerator systems can divert part of NVIDIA's platform profit, but their next-generation systems still rely heavily on advanced logic, HBM, and high-density integration.
 
@@ -95,7 +95,7 @@ Two effects can therefore coexist:
 
 More custom silicon does not automatically mean lower CoWoS/HBM pressure.
 
-## 10. Bottleneck location is not the same as profit location
+## 9. Bottleneck location is not the same as profit location
 
 Advanced packaging can be the system-delivery bottleneck without having the highest margin in the value chain. TSMC management stated in 2Q24 that advanced-packaging gross margin had historically been significantly below corporate average and was approaching, but had not yet reached, the company average.[^5]
 
@@ -108,13 +108,13 @@ Physical bottlenecks and profit pools therefore have to remain separate:
 
 This distinction is essential for AI-infrastructure value-capture analysis.
 
-## 11. Packaging is an independent gate for China's Production-Grade Parallel Stack
+## 10. Packaging is an independent gate for China's Production-Grade Parallel Stack
 
 A frontier AI parallel stack cannot be judged from logic nodes alone. Even if accelerator dies can be produced, insufficient advanced packaging, substrates, HBM integration, testing, or high-volume yield can still prevent stable delivery of large systems.
 
 "Domestic chip production" therefore cannot hide packaging as an independent physical layer. China system closure must validate logic, HBM, packaging, interconnect, software, and power separately.
 
-## 12. Current judgment and falsification
+## 11. Current judgment and falsification
 
 As of August 2026, the most defensible conclusions are:
 
