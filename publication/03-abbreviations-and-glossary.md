@@ -89,7 +89,7 @@ hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/p
 在关键外部输入受限时，系统仍能跨代扩张、升级与迭代的更高一级 closure。除 production-grade stack 外，还要求 advanced-manufacturing continuity、equipment / materials / software / service continuity，以及 HBM、packaging、power、LPS 与 capital formation 的跨代持续性。
 
 ### Time-to-Power
-从 site / project 获得真实可交付电力条件所需的时间。必须与 headline generation capacity、PPA capacity、secured LPS 和 future IT-GW design capacity 区分。
+从 site / project 获得真实可交付电力条件所需的时间。必须与公布的 generation capacity、PPA capacity、secured LPS 和 future IT-GW design capacity 区分。
 
 ### Verified Workflow Output
 已经通过质量、责任或业务验收条件，可以被重复交付、计费或纳入真实生产流程的 AI-assisted workflow outcome。它是本报告连接 compute cost、enterprise adoption、cash flow 与 capital recovery 的需求侧闭环单位。
