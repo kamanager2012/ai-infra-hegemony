@@ -26,7 +26,7 @@
 
 - [Table 27.1 — 本报告证据等级体系](part-IV-ch27-research-method.md)
 - [Table 29.1 — NVIDIA seller economics 与 forward-reservation 基线](part-IV-ch29-monitoring-framework.md)
-- [Table 29.2 — Power project state machine](part-IV-ch29-monitoring-framework.md)
+- [Table 29.2 — Power / LPS delivery state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — 更新时的默认 evidence grade](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号](part-IV-ch30-scenarios.md)
 - [Table 31.1 — AI 相关资产的主要价值来源与风险](part-IV-ch31-strategy-endgame.md)
