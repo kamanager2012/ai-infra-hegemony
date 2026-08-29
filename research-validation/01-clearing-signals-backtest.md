@@ -582,7 +582,6 @@ Revised research-side timing label:
 | G · 2018–2019 Hyperscale Cloud Digestion | 2019 CapEx deceleration | **No systemic cross-confirmation** | None | N/A — negative control | High |
 | H · 2011–2013 Solar PV Manufacturing | 2011 mid-year / Q3 | 2011 Q3–Q4 | 2012 reporting cycle | late-2012 / early-2013 stabilization candidate；2014 equipment-layer recovery confirmed，full normalization not claimed | High / Medium–High |
 | I · 2019 Boeing 737 MAX / Commercial Aerospace | 2019 Mar–Apr | **No system-wide cross-confirmation** | Boeing-specific accounting confirmation Q2 2019 | N/A — negative control; pre-COVID system clearing never confirmed | High |
-| I · 2019 Boeing 737 MAX / Commercial Aerospace | 2019 Mar–Apr | **No system-wide cross-confirmation** | Boeing-specific accounting confirmation Q2 2019 | N/A — negative control; pre-COVID system clearing never confirmed | High |
 
 ### 10.1 目前能看出的 lead / lag
 
@@ -632,7 +631,6 @@ Revised research-side timing label:
 | 2014–2016 Oil & Gas Upstream | 2 | 2 | 2 | 2 | 2 | Broad clearing |
 | 2018–2019 Hyperscale Cloud CapEx Digestion | 0 | 0 | 0 | 1 | 0 | No systemic clearing |
 | 2011–2013 Solar PV Manufacturing | 2 | 2 | 2 | 2 | 2 | Broad multi-segment clearing |
-| 2019 Boeing 737 MAX / Commercial Aerospace | 2 | 2 | N/A / idiosyncratic | 2 | 0 | Severe company/program disruption; **No system-wide clearing** |
 | 2019 Boeing 737 MAX / Commercial Aerospace | 2 | 2 | N/A / idiosyncratic | 2 | 0 | Severe company/program disruption; **No system-wide clearing** |
 
 当前结果说明：
