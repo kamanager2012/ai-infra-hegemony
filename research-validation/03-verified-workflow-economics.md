@@ -1,4 +1,4 @@
-# P0-3 · Verified Workflow Economics v0.6
+# P0-3 · Verified Workflow Economics v0.7
 
 > **Status:** Research-side validation; not part of the frozen 32-chapter formal report.  
 > **Goal:** turn “cost per verified workflow outcome” from a conceptual statement into an auditable operating metric.
@@ -1173,15 +1173,294 @@ Do not start with sales revenue or strategy work, where attribution is too weak 
 
 ---
 
-## 17. Current conclusion
+## 17. Prospective first-party Level-3 acquisition contract v0.7
+
+The public candidate audit is complete.
+
+P0-3 should therefore stop accumulating generic productivity studies unless a new study materially improves the same-workflow economic closure.
+
+The next valid empirical object is a **prospectively captured first-party workflow panel**.
+
+This is not a proprietary scoring framework. It is a data-acquisition contract whose purpose is to preserve auditable joins between cost, labor, verification, persistence and realized value.
+
+### 17.1 Unit of observation
+
+The primary key is:
+
+```text
+workflow_id
+```
+
+A workflow is one economically meaningful unit of work that has:
+- a defined start;
+- a defined acceptance rule;
+- a terminal state;
+- and, where applicable, a later persistence/value observation.
+
+Examples:
+- one support ticket;
+- one software issue / pull request;
+- one extraction job;
+- one research deliverable with a fixed acceptance rubric.
+
+Do not use:
+- one model call;
+- one chat turn;
+- one document token batch;
+- one employee-day
+
+as the Level-3 denominator unless that is genuinely the economic workflow being purchased.
+
+### 17.2 Minimum raw tables
+
+A production dataset should be joinable through `workflow_id` across six logical tables.
+
+#### A. Workflow identity
+
+| Field | Requirement |
+|---|---|
+| `workflow_id` | stable unique ID |
+| `workflow_type` | fixed taxonomy |
+| `created_at` | timestamp |
+| `closed_at` | timestamp / null if still open |
+| `treatment_state` | AI-assisted / baseline / routing variant |
+| `model_route` | actual model / policy used |
+| `difficulty_or_case_mix` | pre-treatment observable where available |
+| `owner_or_team_id` | pseudonymous stable operator/team key |
+
+#### B. AI / tool cost ledger
+
+| Field | Requirement |
+|---|---|
+| `model_calls` | actual calls |
+| `input_tokens` / `output_tokens` | where meaningful and available |
+| `inference_cost` | actual billed or internally allocated variable cost |
+| `tool_cost` | search / browser / code execution / external API variable cost |
+| `compute_or_runtime_cost` | non-model variable infrastructure cost where material |
+| `retry_count` | retries attributable to the same workflow |
+| `routing_overhead_cost` | orchestration / router cost where separately measurable |
+
+Hard rule:
+
+> **Do not substitute list-price × tokens for actual cost when contracted / cached / bundled pricing materially differs and actual allocation is available.**
+
+If actual allocation is unavailable, label the estimate explicitly.
+
+#### C. Human labor ledger
+
+| Field | Requirement |
+|---|---|
+| `execution_minutes` | direct human task time |
+| `review_minutes` | verification / approval time |
+| `remediation_minutes` | rework after failed verification |
+| `coordination_minutes` | handoff / escalation / specialist consultation where material |
+| `labor_cost_basis` | wage / loaded hourly cost / internal standard cost |
+| `human_cost` | derived from the disclosed basis |
+
+Do not hide review and remediation inside a generic “time saved” estimate.
+
+#### D. Verification ledger
+
+| Field | Requirement |
+|---|---|
+| `acceptance_rule_version` | frozen rubric / test version |
+| `acceptance_result` | pass / fail / partial where the workflow genuinely allows partial acceptance |
+| `quality_score` | optional, only if independently defined |
+| `failure_class` | reason for rejection |
+| `reviewer_id` | pseudonymous reviewer / automated verifier identity |
+| `verification_time` | timestamp |
+
+The acceptance rule must be defined **before** comparing workflow economics.
+
+Changing the rubric after observing AI performance creates denominator drift.
+
+#### E. Persistence ledger
+
+| Field | Requirement |
+|---|---|
+| `persistence_window` | workflow-relevant observation horizon |
+| `reopen` | ticket reopened / issue reactivated |
+| `rollback` | deployment reverted |
+| `defect_or_rework_event` | later failure attributable to the workflow |
+| `persistence_pass` | whether accepted output remained valid through the stated window |
+
+There is no universal persistence duration.
+
+It must match the workflow:
+- support may use reopen / repeat-contact windows;
+- software may use merge-to-production / rollback / defect windows;
+- extraction may use downstream audit;
+- analytical work may use claim-source audit / acceptance without later factual reversal.
+
+### 17.3 Realized-value ledger
+
+A Level-3 record additionally requires a business-value mapping.
+
+| Value type | Examples | Required discipline |
+|---|---|---|
+| direct revenue | incremental sale / retained revenue | workflow-level attribution or controlled estimate |
+| avoided labor | verified labor minutes no longer required | use loaded labor cost, not headline salary alone |
+| avoided external spend | contractor / BPO / vendor cost displaced | record actual avoided invoice / contract basis |
+| loss avoidance | prevented refund / error / outage / compliance cost | require documented counterfactual basis |
+| throughput value | additional accepted cases completed | monetize only if marginal throughput has economic value |
+| none observable | research / internal workflow with no defensible value mapping | keep Level 2; do not invent ROI |
+
+Hard rule:
+
+> **A workflow does not become Level 3 merely because management believes it is valuable.**
+
+If realized value cannot be linked or estimated on a documented causal / accounting basis, classification remains Level 2.
+
+### 17.4 Required closure identity
+
+For each accepted workflow:
+
+```text
+Workflow_Cost
+=
+AI / Tool / Runtime Cost
++
+Human Execution Cost
++
+Review Cost
++
+Remediation Cost
++
+Allocated Integration / Mapping Cost
+```
+
+Then:
+
+```text
+Cost_per_Persistent_Verified_Outcome
+=
+Σ Workflow_Cost
+/
+Σ Persistent Accepted Outcomes
+```
+
+And only when value is observable:
+
+```text
+Workflow_ROI
+=
+(Realized Business Value - Workflow_Cost)
+/
+Workflow_Cost
+```
+
+The denominator must use **persistent accepted outcomes**, not raw attempts or model generations.
+
+### 17.5 Integration / mapping-cost rule
+
+The Mapping-AI-into-Production evidence shows that organizational search and use-case mapping can be a real economic input.
+
+Therefore implementation cost must not disappear from ROI.
+
+For a prospective deployment, separately record:
+- workflow redesign;
+- integration engineering;
+- prompt / policy development;
+- evaluator construction;
+- data cleanup;
+- change management / training.
+
+These should be:
+- expensed directly when workflow-specific;
+- or allocated over an explicit expected / observed production volume when shared.
+
+Do not allocate them only to successful workflows after the fact.
+
+### 17.6 Missingness and censoring
+
+The dataset must distinguish:
+
+```text
+0
+≠
+not applicable
+≠
+not measured
+≠
+not yet observed
+```
+
+Examples:
+- no rollback is `0 / false`;
+- rollback not meaningful for a workflow is `N/A`;
+- rollback telemetry absent is `not measured`;
+- persistence window still open is `not yet observed`.
+
+This distinction is mandatory because treating unobserved persistence as “no failure” systematically inflates AI workflow economics.
+
+### 17.7 Baseline and case-mix discipline
+
+Where causal comparison is intended, preserve:
+- pre-treatment case-mix variables;
+- routing / assignment rule;
+- operator experience;
+- workflow difficulty;
+- time period;
+- baseline process definition.
+
+Preferred designs, depending on operational feasibility:
+- randomized rollout;
+- phased rollout;
+- matched contemporaneous controls;
+- within-workflow or within-team natural experiments.
+
+Do not compare:
+- easy AI-routed cases
+against
+- hard human-only cases
+
+and call the difference productivity.
+
+### 17.8 Minimum publishable output
+
+A Level-3 study should report at least:
+
+1. attempted workflows;
+2. accepted workflows;
+3. persistent accepted workflows;
+4. success / persistence rate;
+5. human minutes per persistent accepted workflow;
+6. AI/tool cost per persistent accepted workflow;
+7. review + remediation burden;
+8. total workflow cost;
+9. realized value where observable;
+10. case-mix / baseline design;
+11. missing-data / censoring policy;
+12. distribution, not only mean, for cost and cycle time.
+
+No universal ROI threshold is defined here.
+
+The purpose is to make the economics **auditable**, not to manufacture a pass/fail benchmark.
+
+### 17.9 P0-3 stop rule
+
+After v0.7:
+
+> **P0-3 literature expansion is frozen unless new evidence closes a field that the current evidence ledger cannot close.**
+
+Valid future upgrades are limited to:
+- a public same-`workflow_id` Level-3 dataset;
+- a first-party prospective dataset following this acquisition contract;
+- a methodological result that materially changes verification, persistence or causal attribution.
+
+Generic “AI saves X% time” studies no longer justify a version bump.
+
+---
+
+## 18. Current conclusion
 
 The report’s prior phrase “cost per verified workflow outcome” is directionally correct but previously under-specified.
 
-After v0.4 it has an operational definition, an evidence-completeness ledger, and a separate persistence / capability-retention dimension:
+After v0.7 it has an operational definition, an evidence-completeness ledger, a separate persistence / capability-retention dimension, and a prospective first-party Level-3 acquisition contract:
 
 > **all variable and human workflow costs divided by outputs that pass a fixed acceptance rule, with success rate, review burden, attempts, resource intensity and cycle time reported alongside.**
 
-The next step is no longer to accumulate generic productivity studies. It is to obtain or construct Level-3 datasets that join **AI/tool cost + human time + verification + persistence + realized business value** at the same workflow ID. The new firm-performance and customer-service evidence strengthens the bridge from task productivity to organizational value, but no public case in the current ledger yet closes the full Cost/VSWO + durable Workflow ROI denominator.
+The next step is no longer to accumulate generic productivity studies. P0-3 now has a stop rule: only a public same-`workflow_id` closure, a prospectively captured first-party dataset following §17, or a material methodological change to verification / persistence / attribution justifies further expansion. No public case in the current ledger yet closes the full Cost/VSWO + durable Workflow ROI denominator.
 
 ## Sources
 
