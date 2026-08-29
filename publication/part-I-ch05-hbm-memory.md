@@ -3,7 +3,9 @@
 
 ## 1. HBM 已从 GPU 配件变成系统级资源
 
-在 frontier AI system 中，HBM 同时影响模型容量、batch、context、并发、communication pattern 与 accelerator utilization。GB200 NVL72 官方配置包含 **13.4 TB HBM3E/rack**，[^1]说明采购单位上移到 rack scale 后，memory demand 也从“每颗 GPU 多少 GB”上移到“一个部署需要多少 PB”。
+在 frontier AI system 中，HBM 同时影响模型容量、batch、context、并发、communication pattern 与 accelerator utilization。GB200 NVL72 官方配置包含 **13.4 TB HBM3E/rack**。[^1] 这说明采购单位上移到 rack scale 后，memory intensity 必须从“每颗 GPU 多少 GB”上移到“每个 rack / cluster 的总 memory footprint”。
+
+只有在真实 shipment / deployment count 已知时，才能进一步讨论 fleet-level PB demand。
 
 因此 HBM 的产业影响不只发生在 accelerator BOM，还会传导到 DRAM wafer allocation、cleanroom space、advanced packaging、memory-vendor product mix 与 conventional DRAM residual supply。
 
