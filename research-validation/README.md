@@ -23,9 +23,9 @@
 
 ## 当前状态
 
-- **P0-1 Historical Clearing Backtest**：v0.2 已完成首轮协议化回测；已包含 2000–2002 Internet/Telecom、2018–2019 Crypto/GPU、2022–2023 GPU/Cloud optimization、2008–2009 GFC/Enterprise IT，并固定 proxy hierarchy、segment breadth、lead/lag 与 false-positive constraints；
-- **P0-2 AI Demand Elasticity Calibration**：v0.1 已建立；将 ε*=0.737 明确为 D-grade geometry break-even，并拆分 E1 API / E2 workload / E3 verified workflow / E4 infrastructure elasticity；
-- **P0-3 Verified Workflow Economics**：v0.1 已建立；定义 Verified Successful Workflow Outcome（VSWO）、cost per VSWO、success rate、human review、retry、resource intensity 与 cycle time；
+- **P0-1 Historical Clearing Backtest**：v0.4；已包含 6 个 layer/cycle observations，并新增 2014–2016 Oil & Gas 独立跨行业资本周期；固定 proxy hierarchy、segment breadth、lead/lag 与 false-positive constraints，且相关宏观 episode 不重复计数；
+- **P0-2 AI Demand Elasticity Calibration**：v0.2；将 ε*=0.737 明确为 D-grade geometry break-even；复核 NBER provider-model-day 识别式与 preferred E1≈-1.11，并加入 2026-08 GPT-5.6 discount event catalog；E1 / E2 / E3 / E4 继续严格分层；
+- **P0-3 Verified Workflow Economics**：v0.2；除 VSWO / Cost-per-VSWO 定义外，已建立 customer support / METR / CodeFuse evidence-completeness ledger，明确现有研究尚未完整覆盖 cost + human time + verification + persistence；
 - **P0-4 Macro-Financial Transmission**：v0.1 已建立；把 rates / spreads / SLOOS / WACC / project finance / refinancing 接入资本周期与 S4；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
@@ -50,9 +50,9 @@
 
 优先继续深化而不是扩题：
 
-1. P0-1 继续增加**独立周期**与 first-deterioration / cross-confirmation / accounting-confirmation timing；2001–2003 semiconductor 已作为同一 2000–2002 大周期下的独立 physical-layer observation 纳入，但不重复计算为独立宏观 episode；
-2. P0-2 读取并复核 NBER estimation specification，建立可用 price-event catalog；
-3. P0-3 开始填充真实 workflow benchmark 表；
+1. P0-1 增加一个独立负对照，并把 Case A–F 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough timing；
+2. P0-2 对 GPT-5.6 Terra/Luna/Sol 做 event-time 重估，分离 share displacement 与 net market expansion；
+3. P0-3 寻找能够在同一 workflow_id 下连接 cost + human time + verification + persistence 的真实数据；
 4. P0-4 建季度 macro-financial panel，并映射主要 AI-infrastructure 项目的融资结构；
 5. 对 Decision Invariants 做 cross-scenario falsification：凡是只在某一情景成立的原则降回 conditional strategy；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
