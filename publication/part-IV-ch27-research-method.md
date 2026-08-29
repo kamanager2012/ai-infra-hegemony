@@ -155,7 +155,7 @@ D 级模型可以用于情景分析，但不能被写成已经发生的产业事
 
 ---
 
-## 8. Dimensional Consistency：量纲比故事更优先
+## 8. Dimensional Consistency：量纲一致性优先于叙事
 
 ### Revenue Share ≠ Wafer Share
 
@@ -323,7 +323,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 - accounting / physical unit 不混用；
 - 关键分母明确；
 - 正文不携带 revision metadata、过程性编辑措辞或自我辩护语气；
-- 章节有明确产业问题，而不是数字堆砌；
+- 章节围绕明确产业问题展开，而不是简单罗列数字；
 - 结论能够回答“这对产业结构意味着什么”。
 
 这套方法不是为了让结论更保守。
