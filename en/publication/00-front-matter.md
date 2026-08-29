@@ -4,7 +4,7 @@
 
 **Author:** James (kamanager2012)  
 **Research and revision cutoff:** 28 August 2026  
-**Languages:** Chinese canonical edition / English parallel edition
+**Languages:** Chinese edition / English edition
 
 ---
 
