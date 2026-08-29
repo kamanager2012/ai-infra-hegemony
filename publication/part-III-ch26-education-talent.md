@@ -20,9 +20,23 @@ Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：[^1]
 
 这些数据共同说明工具采用速度明显快于制度适配，但它们本身并不证明 AI 已经改善学习结果。
 
+Stanford 同一章节还指出，全球已有 **90% 以上国家**在 primary 或 secondary education 提供 computer science，但正式 AI education 的普及更慢；中国和阿联酋已从 **2025–26 学年**开始推进 mandatory AI education。[^1] 这说明“是否进入课程”正在从学校层面的实验问题上移为国家教育体系问题。
+
 教育体系的核心问题已经从“学生有没有用 AI”转向：
 
 > **如何验证学生是否理解模型边界、能够设计 workflow、验证结果，并对最终输出负责。**
+
+### 2A. 国际框架已经从“会使用工具”上移到 Human Agency、Ethics 与 System Design
+
+UNESCO 的 AI Competency Framework for Students 定义 **12 项 competencies / 4 个维度**：human-centred mindset、ethics of AI、AI techniques and applications、AI system design，并采用 Understand → Apply → Create 的 progression。[^2]
+
+UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI foundations 外，还包括 human-centred mindset、ethics、AI pedagogy 与 AI for professional learning。[^3]
+
+这两套框架与本报告的产业判断具有同一方向：
+
+> **AI literacy 不能退化成 prompt 技巧；长期有效能力必须同时包含判断、责任、系统理解、应用设计与验证。**
+
+这也是为什么教育体系如果只教“如何调用当前最热门模型”，会很快被产品迭代淘汰；而 system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
 
 ## 3. 第一层：AI Literacy
 
@@ -123,3 +137,5 @@ AI 教育的核心变化不是简单“新增一个 AI 专业”，而是产业�
 ## References
 
 [^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
+[^2]: UNESCO, “AI competency framework for students,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-students
+[^3]: UNESCO, “AI competency framework for teachers,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-teachers
