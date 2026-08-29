@@ -1,4 +1,4 @@
-# P1.5 · China System-Stack Extension v0.2
+# P1.5 · China System-Stack Extension v0.3
 
 > **Status:** Research-side extension; not part of the frozen 32-chapter formal report.  
 > **Goal:** close four structural gaps in Chapter 17 without weakening its existing two-level closure discipline: **server/system delivery, Huawei full-stack comparison, auditable public-company map, and semiconductor industrial-policy political economy**.
@@ -91,15 +91,17 @@ into:
 
 ## 2.1 China accelerated-server market
 
-Public reports relaying IDC's **2025H1 China accelerated-server tracker** state:
+Public reports relaying IDC's proprietary **2025H1 China accelerated-server tracker** state:
 
 - the market reached roughly **US$16B** in 2025H1;
 - by vendor revenue, **Inspur, H3C and Lenovo** ranked top three and together accounted for nearly 50%;
 - by unit shipments, **Inspur, H3C and Ningchang** ranked top three and together accounted for roughly 43%.
 
-This supports:
+**Evidence grade:** secondary relay of a non-public IDC tracker. These figures are directional market-scale / vendor-mix evidence, not an independently reproduced market-share dataset.
 
-> **China has a commercially large domestic server-integration and system-delivery layer.**
+Taken together with first-party H3C / xFusion production-system evidence, this supports the narrower conclusion:
+
+> **public evidence is consistent with a commercially large domestic server-integration and system-delivery layer; the exact IDC market-size and share estimates remain secondary-source.**
 
 It does **not** support:
 
@@ -222,7 +224,7 @@ R&D / product
 
 Hygon is a listed high-end processor company with auditable financials.
 
-Its 2025 annual report reported approximately:
+Its 2025 audited financial statements / annual-report package reported approximately:
 
 - **RMB14.38B revenue**;
 - **+56.9% YoY**;
@@ -441,7 +443,7 @@ That is the correct level for treating China as a major 2026–2036 system varia
 - Huawei, 2026-07, Atlas 950 / Ascend 384 SuperPoD deployment and CANN open-source update: https://www.huawei.com/cn/news/2026/7/atlas-950-superpod
 - Huawei, 2025-09, SuperPoD / UnifiedBus / CANN strategy and >300 Atlas 900 A3 deployment: https://www.huawei.com/en/news/2025/9/hc-xu-keynote-speech
 - Huawei, MWC 2026 SuperPoD portfolio: https://www.huawei.com/en/news/2026/3/mwc-superpod-computing
-- Hygon 2025 annual-report data: https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12066610&stockid=688041
+- Hygon 2025 audited financial statements, Shanghai Stock Exchange: https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-08/688041_20260408_235E.pdf
 - Shanghai Stock Exchange, 2025 AI-chip annual-report summary including Cambricon: https://www.sse.com.cn/cpc/cpctheme/4th20thcpc/4th20thcpcgcxx/c/c_20260413_10815020.shtml
 - Shanghai Stock Exchange, Moore Threads 2026H1 summary: https://english.sse.com.cn/news/newsrelease/voice/c/c_20260811_10828576.shtml
 - Shanghai Stock Exchange, MetaX listing announcement: https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20251216_10801769.shtml
