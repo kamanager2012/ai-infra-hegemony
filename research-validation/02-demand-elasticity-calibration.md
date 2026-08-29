@@ -725,11 +725,15 @@ The previous conclusion:
 
 is now obsolete.
 
-The correct v0.5 conclusion is:
+The correct v0.5 execution status is:
 
-> **a reproducible public model-day quantity path now exists in principle; the GPT-5.6 event moves from data-unavailable to data-accessible-but-not-yet-estimated.**
+> **data path = closed**  
+> **actual Terra / Luna / Sol extraction = authentication blocked**  
+> **coefficient = not estimated**
 
-That is a meaningful improvement, but it is not yet an empirical coefficient.
+The Rankings Daily endpoint and required fields are documented, but requests require a valid OpenRouter API key. Phase II will not bypass authentication, infer hidden model-day values from charts, or manufacture a coefficient from aggregate pre/post ratios.
+
+This is a meaningful data-path closure, not an empirical estimate.
 
 ---
 
