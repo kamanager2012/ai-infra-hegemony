@@ -39,7 +39,7 @@ Their economic significance is that the same HBM capacity can support more concu
 
 Lower unit cost, however, does not guarantee lower aggregate infrastructure demand. If lower cost causes token, agent, and workflow volume to rise faster, total demand can still increase.
 
-## 3A. Price compression is observed, but it does not imply falling total compute demand
+### 3A. Price compression is observed, but it does not imply falling total compute demand
 
 Stanford AI Index 2025 provides a historical anchor: at the report's GPT-3.5-equivalent MMLU performance level, inference cost fell from about **US$20 per million tokens** in November 2022 to about **US$0.07 per million tokens** in October 2024—roughly a **280× decline**.[^3]
 
