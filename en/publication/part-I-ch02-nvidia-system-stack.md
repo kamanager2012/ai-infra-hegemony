@@ -161,7 +161,7 @@ It is:
 
 > **NVIDIA currently has the most mature commercial general-purpose AI system stack; hyperscalers have built a real second system-stack path, but the extent of substitution must be validated through production workloads, migration cost, utilization, and upstream resource dependence.**
 
-That is the starting point for the rest of the book's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
+That is the starting point for the report's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
 
 ## References
 
