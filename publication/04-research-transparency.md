@@ -172,16 +172,22 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 完成上述定向补充后，正式正文再次冻结。
 
-### 8C. 2026-08-30 S4 定义级修正
+### 8C. 2026-08-30 清算与 optionality 定义级修正
 
-2026-08-30，正式正文仅因 Phase II 历史清算回测发现的一处**定义级不一致**而再次定向开启。
+2026-08-30，正式正文仅因 Phase II validation 发现的**定义级不一致**而再次定向开启。
 
-历史回放证明：Accounting 是高价值 confirmation / severity channel，但**不是 system clearing 的 mandatory gate**。financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认，前提是 cross-signal confirmation 与 cross-actor / cross-layer causal breadth 已足够强。
+第一，历史清算回放证明：Accounting 是高价值 confirmation / severity channel，但**不是 system clearing 的 mandatory gate**。financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认，前提是 cross-signal confirmation 与 cross-actor / cross-layer causal breadth 已足够强。
 
-本次修正仅涉及：
+第二，Decision Invariants 的 falsification pass 证明：长期维护一套 production-like second path **不是普适 Hard Invariant**。更耐久的原则是显式给 executable optionality 定价，只有 continuity / bargaining / recovery value 高于 carrying cost 时才维护第二路径。
+
+本次修正仅涉及受影响的定义 / 策略口径：
+- Ch01 — Executive Summary；
+- Ch19 — CapEx Supercycle；
+- Ch22 — Depreciation Wall；
 - Ch24 — Capital Clearing；
 - Ch29 — Monitoring Framework；
 - Ch30 — S1–S4 Scenarios；
+- Ch31 — Strategic Optionality；
 - Ch32 — Master Judgment；
 - 对应的 publication-status metadata。
 
