@@ -104,7 +104,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ### 6.1 普通 DRAM / NAND 与 Frontier HBM 不是同一供应链门槛
 
-长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；[^8]这足以确认中国 conventional DRAM / server DRAM 的真实供给能力已经显著增强。
+长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；[^8]这确认的是产品规格能力，本身不构成出货规模证据；供给规模判断见 §6.2 的招股书 / Omdia 口径。
 
 长江存储官方则确认自身是 3D NAND IDM，并披露 Gen5/Xtacking 4.0 相关产品体系以及 raw NAND、embedded memory、client SSD 与 enterprise SSD 产品线。[^9]
 

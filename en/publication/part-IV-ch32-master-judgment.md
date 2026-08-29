@@ -169,6 +169,8 @@ This is the **Anchor Compute Buyer Effect**.
 
 The same mechanism can amplify capital-cycle risk. If long-duration demand is rescheduled, utilization disappoints, or commercial revenue fails to cover infrastructure capital cost, the certainty that originally supported construction can become stranded-capacity and duration-mismatch risk.
 
+Model-company long-duration commitments have therefore become a leading indicator on par with hyperscaler CapEx and system-vendor supply commitments; their time-leadership still needs to be verified across more full cycles.
+
 PORTS-Pike extends this model further. Anchor demand can now be combined with **platform credit support + infrastructure developer + long-duration lease** to form land, power, and shell ahead of delivered compute.[^14]
 
 That structure can accelerate infrastructure formation while also increasing customer concentration and duration risk.

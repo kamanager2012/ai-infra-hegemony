@@ -152,7 +152,7 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model
 
 但同一机制也会放大资本周期风险。如果长期需求承诺改期、利用率不足或商业收入无法覆盖基础设施资本成本，原本支持建设的确定性就可能转化为 stranded-capacity 与 duration-mismatch risk。
 
-因此，model-company long-duration commitment 已经成为与 hyperscaler CapEx、system-vendor supply commitments 同级的重要领先指标。
+因此，model-company long-duration commitment 已经成为与 hyperscaler CapEx、system-vendor supply commitments 同级的重要领先指标；其时间领先性仍需在更多完整周期中持续验证。
 
 PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^14] 这提高了基础设施形成速度，也同时增加 customer concentration 与 duration risk。
 

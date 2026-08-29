@@ -53,6 +53,8 @@ The state boundaries must remain explicit:
 
 On August 26, 2026, NVIDIA management further said on the FY27 Q2 earnings call that OpenAI's existing and planned NVIDIA Compute commitments total approximately **12 GW**.[^6] This is platform-side management commentary about demand visibility. It is not evidence that OpenAI already has 12 GW of energized capacity.
 
+The relationship between PORTS-Pike's **4.25 IT-GW** and OpenAI's previously disclosed **>10 GW secured capacity** is not stated in public materials; this report neither adds the two figures nor assumes a subordination relationship.
+
 ---
 
 ## 4. Anthropic / AWS: an anchor workload can also accelerate custom silicon
@@ -67,6 +69,14 @@ Anthropic disclosed in April 2026 that:[^4]
 Model-company demand can therefore become an important anchor workload for cloud custom silicon.
 
 The public disclosure establishes scale. It does not establish a "largest customer" ranking without a disclosed workload-share denominator.
+
+### 4.1 xAI / Colossus: the self-built infrastructure variant
+
+xAI is the case of a model company entering infrastructure construction directly. In September 2024, xAI brought the **Colossus** training cluster online in Memphis: approximately **100,000 H100 GPUs**, roughly three months from start to online, with announced plans to double to approximately 200,000 GPUs (50,000 H100 and 50,000 H200 additions).[^7] xAI organized the land, power, and cooling itself.
+
+This path is more direct than Stargate or Anthropic/AWS: rather than renting capacity through a cloud or a joint venture, the model company itself drove front-loaded capital formation in land, power, and chips. Anchor Buyers can therefore guide upstream capital formation through more than one mode — long-duration leased commitments and self-built buildouts can coexist.
+
+The xAI case is subject to the same state boundaries: Colossus going online is not full utilization, and an expansion plan is not installed capacity.
 
 ## 5. Anchor Buyers gain demand-side power, not ownership of the physical stack
 
@@ -186,11 +196,11 @@ The decisive question is:
 
 As of August 2026, large model companies constitute a distinct Anchor Buyer category inside AI infrastructure.
 
-OpenAI Stargate's secured-capacity and construction states, Anthropic/AWS's ten-year compute commitment and Trainium deployment, and PORTS-Pike's LPS/credit-support structure show that model workloads are now shaping:
+OpenAI Stargate's secured-capacity and construction states, Anthropic/AWS's ten-year compute commitment and Trainium deployment, xAI's self-built Colossus buildout, and PORTS-Pike's LPS/credit-support structure show that model workloads are now shaping:
 
 > **cloud architecture, custom silicon, data-center buildout, power procurement, and infrastructure finance**
 
-Anchor Buyer commitments are therefore a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**.
+Anchor Buyer commitments are therefore a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**. The time-leadership of this signal is supported so far by three documented cases (Stargate, Anthropic/AWS, and xAI Colossus) and must be re-verified across further full cycles.
 
 They can accelerate AI-infrastructure capital formation, but under weak utilization they can also amplify stranded-capacity and duration-mismatch risk.
 
@@ -214,3 +224,4 @@ Conversely, larger headline contract values or additional secured GW should not,
 [^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW, and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 [^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, initial 4.25 IT-GW design capacity, LPS credit support, 20-year OpenAI lease, and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, management commentary that OpenAI existing and planned NVIDIA Compute commitments total approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+[^7]: xAI / Elon Musk first-party statements on Colossus, as relayed by Tom's Hardware (2024-09-03), "xAI Colossus supercomputer with 100K H100 GPUs comes online — Musk lays out plans to double GPU count to 200K with 50K H100 and 50K H200," https://www.tomshardware.com/tech-industry/artificial-intelligence/xai-colossus-supercomputer-with-100k-h100-gpus-comes-online-musk-lays-out-plans-to-double-gpu-count-to-200k-with-50k-h100-and-50k-h200 ; Fortune (2024-09-03), "Elon Musk's just fired up 'Colossus'," https://www.fortune.com/2024/09/03/elon-musk-xai-nvidia-colossus/ . C-grade media relay of first-party statements; figures are xAI executive disclosures.

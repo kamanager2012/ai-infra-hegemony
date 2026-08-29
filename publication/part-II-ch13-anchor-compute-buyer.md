@@ -93,6 +93,8 @@ OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B
 
 NVIDIA 在 2026-08-26 FY27 Q2 earnings call 进一步表示，OpenAI 现有与计划中的 NVIDIA Compute commitments 合计约 **12 GW**。[^6] 这是 NVIDIA management commentary，应作为 platform-side demand visibility 读取，不能改写成 OpenAI 已有 12 GW energized capacity。
 
+PORTS-Pike 的 **4.25 IT-GW** 与 OpenAI 此前披露的 **>10 GW secured capacity** 之间的口径关系，公开材料未说明；本报告不将两者相加，也不假定其从属关系。
+
 ---
 
 ## 4. Anthropic / AWS：Anchor Workload 可以反向推动 Custom Silicon
@@ -111,6 +113,14 @@ Anthropic 2026-04 官方披露：[^4]
 > **large model workload → custom-silicon deployment → production feedback → system optimization → lower TCO → more anchor workload**
 
 因此，Anchor Buyer 与 Cloud System-Stack Substitution 不是两条彼此独立的机制，而是可以相互强化。
+
+### 4.1 xAI / Colossus：自建基础设施型的 Anchor Buyer
+
+xAI 是模型公司直接进入基础设施建设的案例。2024-09，xAI 在 Memphis 将 **Colossus** 训练集群投入运营：约 **100,000 颗 H100**，从开工到上线约 3 个月，并随即宣布计划翻倍至约 200,000 颗 GPU（新增 H100 与 H200 各约 50,000 颗）。[^7]该集群的土地、电力与冷却由 xAI 自行组织。
+
+xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud 或合资项目租用 capacity，而是作为 model company 直接驱动 land、power 与 chip 的前置资本形成。这说明 Anchor Buyer 对上游资本形成的引导并非单一模式——长期租用型 commitment 与自建型 buildout 可以并存。
+
+但 xAI 案例同样受状态边界约束：Colossus 上线不等于满负荷 utilization；扩产计划不等于已装机容量。
 
 ---
 
@@ -303,11 +313,11 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
 截至 2026 年 8 月，模型公司已经可以被视为 AI infrastructure 的独立 Anchor Buyer category。
 
-OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的十年 compute commitment 与 Trainium deployment，都说明：
+OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的十年 compute commitment 与 Trainium deployment、xAI Colossus 的自建 buildout，都说明：
 
 > **model workload 已经开始影响 cloud architecture、custom silicon、data-center buildout、power procurement 与基础设施融资。**
 
-因此，Anchor Buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。
+因此，Anchor Buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。其时间领先性目前由 Stargate、Anthropic/AWS 与 xAI Colossus 三个案例支持，仍需在后续完整周期中持续验证。
 
 它既可以加速 AI infrastructure 的资本形成，也可以在 utilization 不足时放大 stranded-capacity 与 duration-mismatch risk。
 
@@ -331,3 +341,4 @@ Anchor Compute Buyer Effect 应在以下情况下被下调：
 [^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 [^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, OpenAI existing and planned NVIDIA Compute commitments approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+[^7]: xAI / Elon Musk first-party statements on Colossus, as relayed by Tom's Hardware (2024-09-03), "xAI Colossus supercomputer with 100K H100 GPUs comes online — Musk lays out plans to double GPU count to 200K with 50K H100 and 50K H200," https://www.tomshardware.com/tech-industry/artificial-intelligence/xai-colossus-supercomputer-with-100k-h100-gpus-comes-online-musk-lays-out-plans-to-double-gpu-count-to-200k-with-50k-h100-and-50k-h200 ; Fortune (2024-09-03), "Elon Musk's just fired up 'Colossus'," https://www.fortune.com/2024/09/03/elon-musk-xai-nvidia-colossus/ 。C 级媒体转述，数字为 xAI 高管公开声明。
