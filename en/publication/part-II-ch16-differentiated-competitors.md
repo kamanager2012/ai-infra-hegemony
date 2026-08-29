@@ -37,11 +37,13 @@ AMD is therefore a useful observable for **non-anchor-buyer access / residual ca
 
 Intel simultaneously carries CPU/product competition, accelerator efforts, foundry strategy, and domestic-manufacturing policy. Intel's 2025 Form 10-K and its 2026 VLSI Symposium update show that Intel Foundry continues to pursue an external-foundry strategy, with 18A in production and 18A-P in risk production.[^3][^4]
 
+In July 2026, ASML and Intel also confirmed that High-NA EUV had entered real high-volume logic production on selected Intel 18A layers.[^9]
+
 The Product Clock requires short-cycle delivery of performance, software, and customer adoption.
 
 The Foundry Clock requires long-duration progress in process technology, yield, customer trust, packaging, and high-volume execution.
 
-Intel's recovery cannot therefore be proved by one product or one fab.
+Intel's recovery cannot therefore be proved by one product, one process milestone, or one fab. High-NA HVM is a meaningful manufacturing-execution signal, while external-foundry adoption, yield economics, and customer trust still require separate validation.
 
 ## 5. Qualcomm: changing cloud demand from the edge
 
@@ -113,3 +115,4 @@ Whether they materially weaken dominant system-stack economics depends on produc
 [^6]: Qualcomm, Mobile AI / on-device generative AI, https://www.qualcomm.com/smartphones/features/mobile-ai
 [^7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
 [^8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
+[^9]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
