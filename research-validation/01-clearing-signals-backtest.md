@@ -1103,9 +1103,11 @@ B/G 一正一负的初次 replay 给出两个有用结果：
 
 但它们已经比 retrospective 8/10、10/10 score 更接近真实使用条件。
 
-下一步仍按 v0.8 计划继续：
+**Historical note:** at the v0.8 stage, the next planned replays were:
 - Case D — financing-led GFC;
 - Case H — long-duration solar manufacturing overcapacity.
+
+Both were subsequently completed before v1.0. This note is retained only to preserve the protocol's development sequence; it is **not** a current worklist.
 
 ---
 
