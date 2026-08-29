@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Fail CI when high-risk research claims lose their required source anchors.
+"""Check that high-risk research claims retain their required source anchors.
 
-This is a deterministic regression gate, not a substitute for human fact review.
+This is a deterministic local regression check, not a substitute for human fact review.
 It uses paragraph-local claim patterns so unrelated numbers/names elsewhere in a
 file cannot satisfy a claim trigger.
 """
