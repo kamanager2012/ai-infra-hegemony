@@ -21,12 +21,6 @@
       "id": "TSMC-2Q26-TRANSCRIPT",
       "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
       "final_url_contains": "quarterly-results/2026/q2",
-      "fallback_urls": [
-        {
-          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
-          "final_url_contains": "quarterly-results/2026/q2"
-        }
-      ],
       "note": "Stable official Q2 results landing page used in the formal report; the previously used encrypted transcript PDF deep link was unstable in public retrieval."
     },
     {
@@ -108,7 +102,8 @@
       "id": "CXMT-PROSPECTUS",
       "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf",
       "final_url_contains": "002170_20251230_B8QS.pdf",
-      "note": "Stable Shanghai Stock Exchange prospectus version; supports the cited 2025 Q2 Omdia 3.97% DRAM revenue-share metric and the RMB180B/RMB130B project/proceeds distinction."
+      "note": "Stable Shanghai Stock Exchange prospectus version; supports the cited 2025 Q2 Omdia 3.97% DRAM revenue-share metric and the RMB180B/RMB130B project/proceeds distinction.",
+      "retrieval_note": "The exact official SSE prospectus URL is indexed and text-retrievable in public web search, but direct open in the current web client was unstable during the 2026-08-29 audit."
     },
     {
       "id": "COUNTERPOINT-YMTC",
@@ -210,14 +205,17 @@
   ],
   "last_manual_sweep": {
     "date": "2026-08-29",
-    "method": "Direct public-web retrieval of the curated critical-link manifest plus newly promoted high-impact sources. Stable official landing pages replaced brittle deep links where document identity and claim scope were unchanged.",
-    "result": "37/37 critical evidence items reachable under the current manifest policy",
-    "primary_direct": "37/37",
+    "method": "Direct public-web open of all 37 primary URLs, supplemented only by exact-URL search-index retrieval when direct open failed.",
+    "result": "37/37 critical evidence sources remained retrievable under the audit policy: 36/37 opened directly; the CXMT Shanghai Stock Exchange prospectus was retrievable and text-indexed at the exact official SSE URL but direct open was unstable in the web client.",
+    "primary_direct": "36/37",
+    "indexed_exact_url": [
+      "CXMT-PROSPECTUS"
+    ],
     "repaired_or_repointed": [
       "TSMC-2Q26-TRANSCRIPT -> stable TSMC 2026 Q2 Quarterly Results page",
       "CXMT-PROSPECTUS -> stable 2025-12-30 Shanghai Stock Exchange prospectus",
       "UNESCO AI competency framework student/teacher pages -> stable official hub URLs"
     ],
-    "note": "No high-impact claim lost its source support during the sweep."
+    "note": "No high-impact claim lost source support. The SSE prospectus remains an official-source anchor but should be treated as a brittle direct-download URL."
   }
 }
