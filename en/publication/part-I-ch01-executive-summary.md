@@ -183,7 +183,7 @@ AI infrastructure contains a clear **duration mismatch**:
 - grid / substation / generation: still longer cycle;
 - workload monetization: uncertain and dependent on real adoption.
 
-A move toward **S4 — Capital Hard Landing** therefore cannot be inferred from headline CapEx alone. The report requires deterioration across five signal groups:
+A move toward **S4 — Capital Hard Landing** therefore cannot be inferred from headline CapEx alone. The report monitors five signal families, but confirmation depends on **multiple causally independent families plus cross-actor / cross-layer breadth**, not a mandatory five-of-five checklist:
 
 - **Accounting:** impairment, write-downs, accelerated depreciation;
 - **Utilization / Revenue:** effective utilization, revenue per deployed capacity, workflow monetization;
@@ -212,7 +212,7 @@ This matters because the AI infrastructure cycle is beginning to extend beyond c
 | S1 — Competitive Expansion | supply elasticity and interoperability rise; multiple system stacks coexist; value capture becomes more distributed |
 | S2 — Baseline Concentration | a small number of system platforms and scarce-layer suppliers retain strong economics while substitution paths continue developing |
 | S3 — Resource Hegemony | several scarce layers and switching costs strengthen simultaneously; challengers face a higher cost of replicating the full infrastructure stack |
-| S4 — Capital Hard Landing | utilization, clearing prices, CapEx/commitments, accounting losses, and demand-financing quality deteriorate broadly |
+| S4 — Capital Hard Landing | multiple independent clearing-signal families deteriorate broadly across actors/layers; Accounting strengthens severity when present but is not a mandatory gate |
 
 **Source:** Report scenario framework.  
 **Note:** S1–S4 are parallel conditional states. They do not carry fixed probabilities and are not treated as inevitable sequential stages.
