@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.2
+# P0-4 · Macro-Financial Transmission Layer v0.3
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -231,18 +231,59 @@ Federal Reserve SLOOS:
 
 The January survey added an unusually relevant AI-specific special question.
 
-Banks reported, on net:
+The January special question provides an unusually concrete cross-section.
 
-- greater willingness to approve loans to firms **benefiting from high AI exposure**;
-- lower willingness to approve loans to firms **adversely affected by high AI exposure**.
+Among the **17 responding banks**:
 
-This is direct evidence that AI is beginning to enter credit allocation not only through borrower growth, but through lenders' assessment of business-model exposure.
+- for firms **benefiting from high AI exposure**, **35.3%** were more likely to approve C&I loans than in January 2025, while **64.7%** were about as likely and none were less likely;
+- for firms **adversely affected by high AI exposure**, **70.6%** were less likely to approve, **23.5%** were about as likely, and **5.9%** were more likely;
+- for firms with **little AI exposure**, **94.1%** reported no change in approval likelihood.
+
+These are survey responses, not realized loan-flow shares, and the sample is small.
+
+But they are direct evidence that AI is beginning to enter credit allocation not only through borrower growth, but through lenders' assessment of business-model exposure.
 
 The implication is:
 
 > **AI can simultaneously loosen financing for perceived winners and tighten it for perceived losers.**
 
 So “AI boom” does not imply a uniform reduction in cost of capital.
+
+### 8.1A A useful asymmetry: AI exposure is becoming a credit-screening variable
+
+The SLOOS result is more informative as an **asymmetry** than as a bullish macro signal.
+
+The same technology shock can produce:
+
+```text
+perceived AI beneficiary
+→ easier marginal credit approval
+
+perceived AI loser
+→ tighter marginal credit approval
+```
+
+while aggregate C&I standards remain tight or unchanged.
+
+This means Phase II should not model “AI” as one common financing factor.
+
+A more useful borrower panel is:
+
+| Borrower class | Operating exposure | Financing channel | Expected transmission |
+|---|---|---|---|
+| cash-rich hyperscaler | AI beneficiary | retained cash + public debt | weak bank-credit sensitivity |
+| neocloud / AI infra developer | AI beneficiary but capital intensive | project debt / private credit / contract-backed debt | high financing-structure sensitivity |
+| supplier | AI beneficiary | operating cash + customer commitments | working-capital / capacity-finance sensitivity |
+| traditional firm benefiting from AI | positive | C&I / public credit | potentially easier marginal approval |
+| firm judged adversely exposed to AI | negative | C&I / leveraged credit | potentially tighter approval / refinancing |
+
+The scenario implication is not “credit flows to AI.”
+
+It is:
+
+> **credit allocation is beginning to differentiate by perceived AI exposure, which can amplify the Two-Speed economy outside semiconductor allocation itself.**
+
+This should remain a macro-financial amplifier, not a new standalone S1–S4 signal.
 
 ### 8.2 Public credit remains open while risk migration grows
 
@@ -413,7 +454,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.2 conclusion
+## 14. v0.3 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
