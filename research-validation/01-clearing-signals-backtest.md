@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.9
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v1.0
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -581,6 +581,7 @@ Revised research-side timing label:
 | F · 2014–2016 Oil & Gas Upstream | 2014 H2 | 2015 H1–H2 | 2015–2016 reporting | 2016 Q2–Q4 | High |
 | G · 2018–2019 Hyperscale Cloud Digestion | 2019 CapEx deceleration | **No systemic cross-confirmation** | None | N/A — negative control | High |
 | H · 2011–2013 Solar PV Manufacturing | 2011 mid-year / Q3 | 2011 Q3–Q4 | 2012 reporting cycle | late-2012 / early-2013 stabilization candidate；2014 equipment-layer recovery confirmed，full normalization not claimed | High / Medium–High |
+| I · 2019 Boeing 737 MAX / Commercial Aerospace | 2019 Mar–Apr | **No system-wide cross-confirmation** | Boeing-specific accounting confirmation Q2 2019 | N/A — negative control; pre-COVID system clearing never confirmed | High |
 
 ### 10.1 目前能看出的 lead / lag
 
@@ -603,7 +604,7 @@ Revised research-side timing label:
 
 ### 10.2 暂时不能做的事情
 
-8 个 observations 仍然太少，而且 A/E 相关、B/C 都带 GPU exposure。
+9 个 observations 仍然太少，而且 A/E 相关、B/C 都带 GPU exposure；G/I 是不同产业、不同机制的独立 negative controls。
 
 因此 v0.7 **不**：
 - 计算平均 lead time 后包装成“预测提前 X 个月”；
@@ -630,6 +631,7 @@ Revised research-side timing label:
 | 2014–2016 Oil & Gas Upstream | 2 | 2 | 2 | 2 | 2 | Broad clearing |
 | 2018–2019 Hyperscale Cloud CapEx Digestion | 0 | 0 | 0 | 1 | 0 | No systemic clearing |
 | 2011–2013 Solar PV Manufacturing | 2 | 2 | 2 | 2 | 2 | Broad multi-segment clearing |
+| 2019 Boeing 737 MAX / Commercial Aerospace | 2 | 2 | N/A / idiosyncratic | 2 | 0 | Severe company/program disruption; **No system-wide clearing** |
 
 当前结果说明：
 
@@ -642,7 +644,8 @@ Revised research-side timing label:
 7. **跨行业外部有效性得到初步支持**：2014–2016 oil & gas 在完全不同的产业机制下仍表现出五类资本清算信号的同步恶化；
 8. **新增独立负对照后，特异性得到进一步支持**：2018–2019 hyperscale cloud 显示单一公司 CapEx digestion 并不会在缺乏跨公司 revenue/utilization/clearing/financing 恶化时被升级为 S4；
 9. **第二个非传统 IT 资本周期进一步提高外部有效性**：solar PV manufacturing overcapacity 显示价格、利用率、扩产、融资和会计清算可以在完全不同产业结构下同步出现；
-10. **目前仍不能称为“验证过的预测系统”**：已经有 8 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
+10. **目前仍不能称为“验证过的预测系统”**：已经有 9 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective statistical validation；
+11. **第二个独立 negative control 提高了 specificity 要求**：2019 Boeing 737 MAX 证明，即使一个 dominant supplier 出现 production cut、delivery collapse、large accounting charge 与 cash-flow deterioration，只要独立竞争者、end demand 与行业 backlog/production breadth 没有同步恶化，就不能升级成 system clearing。
 
 因此，当前最准确的表述是：
 
@@ -1308,6 +1311,155 @@ The next empirical improvement should be:
 
 ---
 
+## 12F. Prospective Replay 5 — Case I: 2019 Boeing 737 MAX / Commercial Aerospace Negative Control v1.0
+
+这个 negative control 与前面的 semiconductor / GPU / cloud 样本不同。
+
+它测试的是：
+
+> **dominant supplier / flagship-program failure 是否会被误判成整个资本密集型行业的 clearing。**
+
+2019 Boeing 自身出现了非常强的 clearing-like signals：
+- deliveries 暴跌；
+- 737 production rate 下调；
+- 大额 customer-concession / program charges；
+- cash-flow deterioration；
+- forward production / return-to-service uncertainty。
+
+但 shock origin 是：
+
+> **safety / certification / regulatory grounding**
+
+而不是：
+- passenger demand collapse；
+- airline financing collapse；
+- commercial-aircraft industry-wide overcapacity；
+- Airbus-side capacity cancellation。
+
+因此它是一个比“单一公司 CapEx digestion”更苛刻的 negative control。
+
+| Adjudication time | 当时已知证据 | 同期反证 | Breadth | Prospective state | 当时还不知道的后续信息 |
+|---|---|---|---|---|---|
+| 2019-04-05 / 2019-04-24 | Boeing 因 MAX grounding 把 737 monthly production rate 从 **52 → 42**；Q1 revenue约 US$22.9B、commercial backlog仍超过 5,600 aircraft；2019 guidance 暂停更新 | Boeing 明确维持 737 program employment；没有 passenger-demand collapse 证据；事件机制仍是 certification / return-to-service | 单一公司 / 单一 program，Forward Commitment + delivery disruption | **WATCH — Boeing/MAX-specific** | Q2 customer-concession charge；Airbus H1 production/demand strength |
+| 2019-07-18 / 2019-07-24 | Boeing 公布约 **US$5.61B** net customer-concession charge；737 program estimated production cost再增加约 **US$1.7B**；Q2 Commercial Airplanes operating margin约 **-104.7%**，deliveries明显下降 | Airbus H1 2019 commercial environment仍称 **robust**；deliveries **389 vs 303**、revenue +24%、2019 guidance维持；IATA June domestic/international passenger traffic仍增长 | Boeing Accounting + Utilization/Deliveries + Forward Commitment 很强，但 independent competitor + end-demand breadth 反向 | **CONFIRMED — Boeing/MAX program disruption; NO SYSTEM CLEARING** | Airbus FY2019 record deliveries/orders；Boeing全年损失扩大 |
+| 2019-10 / late-2019 | Boeing grounding持续，inventory / delivery / cash-flow压力没有消失；737 production outlook继续依赖 regulator return-to-service | Airbus production ramp / backlog仍强；global passenger demand slowed but remained positive；airline demand没有形成 system-wide cancellation wave | severe supplier-specific distress；system breadth仍不成立 | **NO SYSTEM CLEARING — negative control maintained** | 2019 full-year competitor/demand confirmation |
+| 2020-01 · FY2019 data available, before global COVID demand shock dominates | Boeing 2019 Commercial Airplanes deliveries **380 vs 806 (-53%)**；commercial-airplane revenue **US$32.3B vs US$57.5B (-44%)**；operating loss约 **US$6.66B**；company operating cash flow约 **-US$2.45B** | Airbus 2019 deliveries **863 (+8%)**，新订单 1,131 / net orders 768，backlog **7,482**；IATA 2019 global RPK仍 **+4.2%**，load factor创 82.6%新高 | cross-company / end-demand evidence直接反对 aerospace system clearing | **NEGATIVE CONTROL CONFIRMED / NO SYSTEM CLEARING** | 2020 COVID shock — deliberately excluded from this case |
+
+### 12F.1 Why this negative control is stronger than a simple company-specific CapEx miss
+
+Case G 的诱因是：
+
+> one hyperscaler's CapEx deceleration。
+
+Case I 更难。
+
+因为 Boeing 同时出现：
+- **Accounting**；
+- **Utilization / deliveries**；
+- **Forward Commitment / production cuts**；
+- **cash-flow deterioration**。
+
+如果协议只是数“坏信号有几个”，2019 Boeing 很容易被判成 broad clearing。
+
+但 prospective protocol 必须继续问：
+
+1. shock 是否来自 end-demand / capital-cycle mechanism？
+2. independent competitor 是否同步恶化？
+3. customer / passenger demand 是否同步崩塌？
+4. backlog / production breadth 是否跨公司转负？
+5. financing stress 是否扩散到行业？
+
+2019 的答案主要是否定的。
+
+因此：
+
+> **signal severity cannot substitute for causal breadth。**
+
+### 12F.2 Regulatory / operational shock rule
+
+Case I 新增一条 source-causality discipline：
+
+> **A regulatory, safety, cyber, operational or product-specific shutdown can create accounting + utilization + forward-commitment signals without constituting capital clearing.**
+
+这类 shock 必须额外区分：
+
+```text
+Demand destruction
+vs
+Supply interruption / regulatory suspension
+```
+
+如果：
+- independent end demand仍然存在；
+- competitors仍然扩产 / 交付；
+- backlog仍然强；
+- financing没有广泛断裂；
+
+则即使 focal company 的损失巨大，也只能确认：
+
+> **company / program disruption**
+
+不能直接确认：
+
+> **system clearing。**
+
+### 12F.3 COVID boundary
+
+本案例的 observation window 在 **2019 data / early-2020 publication** 截止。
+
+2020 COVID-19 之后 commercial aviation 确实进入完全不同的 system-wide demand shock。
+
+但那是：
+
+> **new causal episode**
+
+不能把 2020 后来的行业崩塌倒灌到 2019 MAX grounding，证明“2019 当时已经是 system clearing”。
+
+这正是 publication-time discipline 需要避免的 hindsight contamination。
+
+## 12G. Negative-Control Pair Result v1.0
+
+现在已有两个机制独立的 negative controls：
+
+| Negative control | Tempting false-positive signal | Why protocol rejects system clearing | De-escalation result |
+|---|---|---|---|
+| G · 2019 Hyperscale digestion | Alphabet CapEx sharp YoY decline | AWS / Facebook / cloud demand and investment remain strong | WATCH → NO CLEARING |
+| I · 2019 Boeing 737 MAX | production cut + delivery collapse + multi-billion accounting charge | Airbus production/orders + passenger demand + cross-industry backlog remain strong; shock is regulatory/program-specific | WATCH → company disruption confirmed / **NO SYSTEM CLEARING** |
+
+这两个 negative controls 共同固定一条更强规则：
+
+> **System clearing requires both cross-signal confirmation and cross-actor causal breadth。**
+
+它不能被以下任一项替代：
+- one company's CapEx cut；
+- one company's impairment；
+- one dominant supplier's production shutdown；
+- one flagship product's inventory / delivery disruption。
+
+P0-1 到 v1.0 的核心已经从“历史案例打分”升级为：
+
+> **publication-time disciplined, causality-aware, cross-actor confirmation protocol with reversible escalation and de-escalation。**
+
+这仍然不是统计 classifier。
+
+但它已经拥有：
+- positive clearing paths；
+- financing-led path；
+- manufacturing-overcapacity path；
+- inventory-led partial clearing；
+- recovery replay；
+- two independent negative controls。
+
+下一步优先级应从“继续堆 case”下降。
+
+真正更有价值的是：
+
+1. 把 v1.0 protocol 字段固化成可重复填充的 adjudication ledger；
+2. 对 future AI-infrastructure observations 做真正 prospective logging；
+3. 只有出现新的机制缺口时才增加历史案例。
+
+---
+
 # 13. Sources
 
 ## 2000–2002 Internet / Telecom
@@ -1469,3 +1621,16 @@ The next empirical improvement should be:
 - Applied Materials Q3 FY2014 Form 10-Q — solar equipment environment improved slightly while capital-equipment investment remained low: https://www.sec.gov/Archives/edgar/data/6951/000000695114000028/amat-form10xqq32014.htm
 - Applied Materials FY2014 Form 10-K — EES orders US$238M vs US$166M; sales US$279M vs US$173M; operating income US$15M vs loss US$433M; overcapacity still present: https://www.sec.gov/Archives/edgar/data/6951/000000695114000037/amat10262014-10kdoc.htm
 - IEA PVPS, *A Snapshot of Global PV 1992–2013* — contemporaneous end-market deployment context; used only as demand-layer evidence, not as manufacturing-recovery proof: https://iea-pvps.org/wp-content/uploads/2020/01/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2013_-_final_3.pdf
+
+
+## Independent negative-control sources added in v1.0
+
+- Boeing, 2019-04-05 — 737 monthly production rate temporarily reduced from 52 to 42 following MAX delivery pause: https://boeing.mediaroom.com/2019-04-05-Statement-from-Boeing-CEO-Dennis-Muilenburg-We-Own-Safety-737-MAX-Software-Production-and-Process-Update
+- Boeing Q1 2019 results, 2019-04-24 — revenue, operating cash flow, commercial backlog >5,600 aircraft and withdrawal of guidance pending MAX impact assessment: https://investors.boeing.com/investors/news/press-release-details/2019/Boeing-Reports-First-Quarter-Results/default.aspx
+- Boeing, 2019-07-18 — approximately US$5.61B net customer-concession charge and US$1.7B increase in estimated 737 production costs: https://investors.boeing.com/investors/news/press-release-details/2019/Boeing-to-Recognize-Charge-and-Increased-Costs-in-Second-Quarter-Due-to-737-MAX-Grounding/default.aspx
+- Boeing Q2 2019 results — severe Commercial Airplanes margin impact / lower deliveries, while backlog remained >5,500 aircraft: https://investors.boeing.com/investors/news/press-release-details/2019/Boeing-Reports-Second-Quarter-Results/default.aspx
+- Airbus H1 2019 results — robust commercial environment, 389 deliveries vs 303, consolidated revenue +24%, guidance maintained and backlog 7,276 aircraft: https://www.airbus.com/en/newsroom/press-releases/2019-07-airbus-reports-half-year-h1-2019-results
+- Airbus 2019 commercial performance — 863 deliveries (+8%), 1,131 gross / 768 net orders, backlog 7,482 aircraft: https://www.airbus.com/en/newsroom/press-releases/2020-01-airbus-delivers-strong-2019-commercial-aircraft-performance
+- IATA Air Passenger Market Analysis, June 2019 — passenger demand remained positive across major markets during the MAX grounding: https://www.iata.org/contentassets/08ea7f485007409d998575257c822ee9/passenger-analysis-jun-2019.pdf
+- IATA Air Passenger Market Analysis, December 2019 — 2019 global RPK +4.2%, capacity +3.4%, load factor record 82.6%: https://www.iata.org/en/iata-repository/publications/economic-reports/air-passenger-monthly---dec-2019/
+- Boeing FY2019 results, 2020-01-29 — Commercial Airplanes deliveries 380 vs 806, revenue US$32.255B vs US$57.499B, operating loss US$6.657B, commercial backlog >5,400 aircraft: https://investors.boeing.com/investors/news/press-release-details/2020/Boeing-Reports-Fourth-Quarter-Results/default.aspx
