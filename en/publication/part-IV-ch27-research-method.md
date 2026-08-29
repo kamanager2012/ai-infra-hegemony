@@ -71,7 +71,7 @@ It has to identify what changes, how the constraint transmits, and which evidenc
 
 A Scenario is a conditional state created by multiple hypotheses and mechanisms.
 
-The book uses four standard scenarios:
+The report uses four standard scenarios:
 
 - **S1 — Competitive Expansion**;
 - **S2 — Baseline Concentration**;
@@ -97,7 +97,7 @@ For example, the thesis that scarce-layer value capture continues strengthening 
 - open interfaces materially reduce migration costs;
 - utilization and forward commitments weaken together.
 
-A long-run narrative without falsification conditions does not enter the book's formal judgment layer.
+A long-run narrative without falsification conditions does not enter the report's formal judgment layer.
 
 ## 7. A / B / C / D Evidence Grades
 
@@ -222,4 +222,3 @@ This is a research standard, not a software-release or artifact-packaging proces
 [^1]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^2]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-[^4]: NVIDIA, “GB200 NVL72,” official product page, 13.4 TB HBM3E per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
