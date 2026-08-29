@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.10
+# P0-4 · Macro-Financial Transmission Layer v0.11
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -890,7 +890,118 @@ Therefore the quarterly panel should never classify S4 from free cash flow alone
 
 ---
 
-### 10A.5K Quarterly expansion protocol for the other hyperscalers
+### 10A.5K Quarterly pilot — Amazon 2024Q1–2026Q2
+
+Amazon's quarterly pilot requires a different denominator warning.
+
+Its disclosed **cash capital expenditures** primarily reflect:
+
+- technology infrastructure, the majority of which supports AWS growth;
+- fulfillment-network capacity.
+
+Therefore Amazon is a **company-level capital-intensity case**, not a pure AWS infrastructure denominator.
+
+Using Amazon's own quarter / YTD cash-capex disclosures:
+
+| Quarter | OCF US$B | Amazon cash CapEx US$B | Company-level cash headroom US$B |
+|---|---:|---:|---:|
+| 2024Q1 | 19.0 | 13.9 | 5.1 |
+| 2024Q2 | 25.3 | 16.4 | 8.9 |
+| 2024Q3 | 26.0 | 21.3 | 4.7 |
+| 2024Q4 | 45.7 | 26.1 | 19.6 |
+| 2025Q1 | 17.0 | 24.2 | **-7.2** |
+| 2025Q2 | 32.5 | 31.4 | 1.1 |
+| 2025Q3 | 35.5 | 34.2 | 1.3 |
+| 2025Q4 | 54.5 | 38.4 | 16.0 |
+| 2026Q1 | 26.0 | 43.2 | **-17.2** |
+| 2026Q2 | 45.4 | 53.1 | **-7.7** |
+
+**Derivation rule:** Q1 values are directly disclosed; Q2/Q3 are directly disclosed by quarter; Q4 and some Q1 cash-CapEx values are derived only from company-reported full-year / YTD cash-capex identities. Values are rounded to one decimal and should not be treated as higher-precision observations.
+
+### 10A.5L Amazon shows why company-level headroom needs business-mix controls
+
+Amazon differs from Meta / Alphabet / Microsoft in two ways.
+
+First, company cash CapEx is not an AI-only denominator.
+
+A large majority of technology-infrastructure investment supports AWS growth, but fulfillment-network expansion is also included.
+
+Second, Amazon's cash headroom is more volatile:
+
+- 2025Q1 turns negative;
+- 2025Q2–Q3 remain close to zero;
+- 2025Q4 widens again;
+- 2026Q1 falls to roughly **-US$17B**;
+- 2026Q2 remains negative at roughly **-US$8B**.
+
+This does **not** imply AWS distress.
+
+The correct decomposition is:
+
+```text
+Amazon company headroom
+=
+retail / marketplace / advertising / AWS operating cash generation
+-
+AWS-oriented technology infrastructure
+-
+fulfillment-network cash capital expenditure
+```
+
+Therefore a company-level headroom deterioration must be paired with:
+
+- AWS revenue / operating income;
+- AWS capacity / demand commentary;
+- fulfillment-network investment;
+- acquisition / strategic-investment cash uses;
+- debt issuance.
+
+### 10A.5M 2026 financing amplification is directly observable
+
+Amazon's 2026Q1 filing adds a clear Layer-2 financing signal:
+
+- Q1 2026 operating cash flow: about **US$26.0B**;
+- financing cash inflow: about **US$52.8B**;
+- proceeds from short-term and long-term debt: about **US$59.5B**;
+- cash investment of **US$15.0B** in OpenAI Series C Preferred Stock;
+- an additional **US$35.0B** equity commitment subject to conditions;
+- Amazon stated that it expected to undertake additional financing activities in 2026.
+
+This means the 2026 capital state cannot be described simply as:
+
+> “Amazon's infrastructure build is internally funded.”
+
+Nor can external financing be treated as evidence of weakness.
+
+The more precise identity is:
+
+> **strong operating cash generation + very high company-level CapEx + large strategic AI investment + material external financing.**
+
+### 10A.5N Four-hyperscaler quarterly monitor is now structurally complete
+
+Meta, Alphabet, Microsoft and Amazon now cover four distinct financing identities:
+
+| Company | Main quarterly strength | Main denominator warning |
+|---|---|---|
+| Meta | clean OCF + PP&E + finance-lease principal identity | headline CapEx includes lease principal |
+| Alphabet | clean OCF − CapEx FCF identity | 2026 external equity/debt amplification must be tracked separately |
+| Microsoft | cash PP&E and total CapEx including finance leases both disclosed | fiscal-quarter calendar; total CapEx and cash drain are different clocks |
+| Amazon | quarterly OCF + cash CapEx + financing flows | cash CapEx mixes AWS technology infrastructure with fulfillment network |
+
+The common S4 protocol can now be:
+
+1. **Headroom:** is within-company OCF minus comparable cash infrastructure spend compressing?
+2. **Commitment:** is total recognized / contracted infrastructure commitment still rising?
+3. **Financing:** is debt/equity/lease amplification rising?
+4. **Demand breadth:** are bookings / RPO / cloud revenue / customer concentration improving or worsening?
+5. **Monetization:** is cloud / AI operating economics weakening?
+6. **Clearing:** are projects delayed, commitments cut, assets impaired, or financing terms deteriorating?
+
+Only a multi-layer deterioration should raise S4 materially.
+
+---
+
+### 10A.5O Quarterly expansion protocol
 
 The Meta pilot defines the template for Microsoft / Alphabet / Amazon.
 
@@ -1177,7 +1288,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.10 conclusion
+## 14. v0.11 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1185,7 +1296,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler annual history spans 2022–2025; Meta, Alphabet, and Microsoft now have quarter-level self-funding pilots; and Microsoft adds a second capital clock separating cash PP&E from total CapEx including finance leases. The next empirical task is to resolve the stable CMDI direct-file path and build the Amazon quarterly pilot.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers now have quarter-level capital-intensity pilots with company-specific denominator controls; Microsoft separates cash PP&E from total CapEx, and Amazon explicitly carries an AWS-plus-fulfillment denominator warning. The next empirical task is to resolve the stable CMDI direct-file path and connect the four-company headroom / financing / demand-breadth variables into one S4 monitoring table.
 
 ## Sources
 
@@ -1261,3 +1372,17 @@ The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler a
 - Microsoft FY26Q2 earnings call — OCF US$35.8B; cash PP&E US$29.9B; total CapEx US$37.5B; finance leases US$6.7B; ~45% of commercial RPO from OpenAI: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2
 - Microsoft FY26Q3 earnings call — OCF US$46.7B; cash PP&E US$30.9B; total CapEx US$31.9B; finance leases US$4.7B: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3
 - Microsoft FY26Q4 earnings call — OCF US$55.4B; cash PP&E US$35.8B; total CapEx US$41.0B; finance leases US$5.6B; RPO breadth outside frontier-model companies: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
+
+
+## Amazon quarterly-pilot sources
+
+- Amazon 2024Q1 Form 10-Q — OCF US$19.0B; cash CapEx US$13.9B: https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm
+- Amazon 2024Q2 Form 10-Q — OCF US$25.3B; cash CapEx US$16.4B; H1 cash CapEx US$30.3B: https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm
+- Amazon 2024Q3 Form 10-Q — OCF US$26.0B; cash CapEx US$21.3B; 9M cash CapEx US$51.6B: https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm
+- Amazon 2024 Form 10-K — annual OCF US$115.9B; net PP&E / FCF denominator US$77.7B; Q4 derived from annual minus 9M: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm
+- Amazon 2025Q1 Form 10-Q — OCF US$17.0B; Q1 cash CapEx derived from H1 minus Q2 company cash-capex disclosure: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm
+- Amazon 2025Q2 Form 10-Q — OCF US$32.5B; cash CapEx US$31.4B; H1 cash CapEx US$55.6B: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm
+- Amazon 2025Q3 Form 10-Q — OCF US$35.5B; cash CapEx US$34.2B; 9M cash CapEx US$89.9B: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm
+- Amazon 2025 Q4 earnings exhibit / 10-K — annual OCF US$139.5B; net PP&E / FCF denominator about US$128.3B; Q4 derived from annual minus 9M: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm
+- Amazon 2026Q1 Form 10-Q — OCF US$26.0B; US$59.5B debt proceeds; US$15B OpenAI investment + US$35B conditional commitment: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm
+- Amazon 2026Q2 Form 10-Q — OCF US$45.4B; cash CapEx US$53.1B; H1 cash CapEx about US$96.3B: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
