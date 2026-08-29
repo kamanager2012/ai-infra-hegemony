@@ -110,7 +110,7 @@ HBM 与标准 commodity memory 的一个重要差别是 generation-specific qual
 
 更重要的是，RDIMM 本身已经被计入 TrendForce 的 AI/server memory 前向结构。于是从 HBM 向 DDR5 转移，更像是在同一个更宽 memory resource pool 中改变 cost/bandwidth tradeoff，而不是凭空创造一条完全独立的供给河流。
 
-## 11. 什么会削弱 HBM 的长期战略价值
+## 11. 当前判断与证伪边界
 
 HBM 的长期稀缺不是必然。以下变化会显著削弱当前机制：
 
