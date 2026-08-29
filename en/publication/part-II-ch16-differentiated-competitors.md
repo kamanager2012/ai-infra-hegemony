@@ -67,7 +67,7 @@ Apple has long used leading-edge process technology, but without first-party cus
 
 The important forward variables are whether leading-node launch scale remains strong, whether AI/HPC absorbs more incremental capacity, and whether device-AI strategy changes wafer / memory mix.
 
-Historical revenue share is again not a substitute for AHICR.
+Historical revenue share is not a substitute for layer-specific analysis of incremental scarce-capacity access.
 
 ## 8. The four companies pressure the dominant stack from different directions
 
