@@ -16,7 +16,7 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 
 ## What this report studies
 
-This report does not argue that “only AI matters.” Smartphones, PCs, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important. The core question is whether **non-AI end systems can still obtain enough, stable, affordable supply on their own BOM, qualification, lifecycle, and product cadence when AI/HPC demand reprioritizes shared or adjacent upstream resources through higher willingness to pay, longer commitments, and stronger capital formation.**
+This report does not argue that “only AI matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important. The core question is whether **non-AI end systems can still obtain enough, stable, affordable supply on their own BOM, qualification, lifecycle, and product cadence when AI/HPC demand reprioritizes shared or adjacent upstream resources through higher willingness to pay, longer commitments, and stronger capital formation.**
 
 AI competition is moving from "who has the faster accelerator" toward the full **system stack**:
 
@@ -29,7 +29,7 @@ The report examines how that shift changes:
 - where the next semiconductor and infrastructure capital dollar goes;
 - power, LPS, and Time-to-Power as deployment constraints;
 - model companies evolving from cloud tenants into Anchor Compute Buyers;
-- residual supply available to smartphones, PCs, automotive, and industrial markets;
+- residual supply available to smartphones, PCs, game consoles, automotive, and industrial markets;
 - China's frontier parallel stack, Production-Grade Gates, and autonomous frontier closure;
 - AI-infrastructure CapEx, depreciation, financing, and capital clearing;
 - Agent-Native Software, Physical AI, labor, and talent systems;
@@ -202,7 +202,7 @@ Core rule:
 
 ## Reading paths
 
-### End-system / consumer / automotive / industrial readers
+### End-system / consumer / game-console / automotive / industrial readers
 
 For a first pass, read:
 
