@@ -23,7 +23,7 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - manufacturing, supply, and capacity commitments rising from **US$119B** on 2026-04-26 to **US$279B** on 2026-07-26;
 - TSMC advanced-packaging tightness still limiting customer growth;[^7]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
-- power projects at different states with scales around 835 MW, up to 1.92 GW, and up to 500 MWe;
+- power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1.92 GW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
 - TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**.
 
 The central question is:
@@ -61,9 +61,11 @@ Observe whether open compiler/runtime, model formats, and network interfaces mat
 
 Observe whether HBM supply enters sustained abundance, advanced packaging stops being described as a growth constraint, and new packaging architectures materially increase supply elasticity.
 
-### Power
+### Power / LPS
 
-Observe how much headline contracted GW converts into energized and utilized capacity and whether Time-to-Power continues to shape site selection.
+Observe how much headline contracted / secured capacity converts into energized and utilized capacity and whether Time-to-Power continues to shape site selection.
+
+PORTS-Pike is publicly planned to begin phased delivery from **2028**, making it a useful Phase II test of whether secured LPS and future IT-GW design capacity actually become deployable compute rather than a Phase I operating-capacity claim.[^9]
 
 ## 4. Phase III: 2031–2033 — Geography and industrial structure begin to harden
 
@@ -189,3 +191,4 @@ Until these thresholds are much clearer, 2036 should remain a conditional cross-
 [^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
 [^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
