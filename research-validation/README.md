@@ -23,10 +23,10 @@
 
 ## 当前状态
 
-- **P0-1 Historical Clearing Backtest**：v0.4；已包含 6 个 layer/cycle observations，并新增 2014–2016 Oil & Gas 独立跨行业资本周期；固定 proxy hierarchy、segment breadth、lead/lag 与 false-positive constraints，且相关宏观 episode 不重复计数；
-- **P0-2 AI Demand Elasticity Calibration**：v0.2；将 ε*=0.737 明确为 D-grade geometry break-even；复核 NBER provider-model-day 识别式与 preferred E1≈-1.11，并加入 2026-08 GPT-5.6 discount event catalog；E1 / E2 / E3 / E4 继续严格分层；
-- **P0-3 Verified Workflow Economics**：v0.2；除 VSWO / Cost-per-VSWO 定义外，已建立 customer support / METR / CodeFuse evidence-completeness ledger，明确现有研究尚未完整覆盖 cost + human time + verification + persistence；
-- **P0-4 Macro-Financial Transmission**：v0.1 已建立；把 rates / spreads / SLOOS / WACC / project finance / refinancing 接入资本周期与 S4；
+- **P0-1 Historical Clearing Backtest**：v0.5；已包含 7 个 layer/cycle observations；新增 2018–2019 hyperscale cloud CapEx digestion 独立负对照，进一步验证“单点 CapEx 减速 ≠ system-wide clearing”；固定 proxy hierarchy、segment breadth、lead/lag 与 false-positive constraints；
+- **P0-2 AI Demand Elasticity Calibration**：v0.3；除 preferred E1≈-1.11 与 GPT-5.6 event catalog 外，新增 firm multi-homing / concentration 约束，并明确 ε（price-demand elasticity）与 σ_task（task substitution elasticity）不可混用；
+- **P0-3 Verified Workflow Economics**：v0.3；ledger 新增 66 firms / 7,137 knowledge workers、P&G 776 professionals、online-retail randomized field experiments；进一步区分 individual time saving、organization throughput、team-substitution 与 business value；
+- **P0-4 Macro-Financial Transmission**：v0.2；已把 2026 Fed SLOOS / Financial Stability Report 与 CoreWeave / Core Scientific 真实债务、合同现金流、客户集中度接入 project-level transmission chain；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
@@ -50,10 +50,10 @@
 
 优先继续深化而不是扩题：
 
-1. P0-1 增加一个独立负对照，并把 Case A–F 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough timing；
-2. P0-2 对 GPT-5.6 Terra/Luna/Sol 做 event-time 重估，分离 share displacement 与 net market expansion；
-3. P0-3 寻找能够在同一 workflow_id 下连接 cost + human time + verification + persistence 的真实数据；
-4. P0-4 建季度 macro-financial panel，并映射主要 AI-infrastructure 项目的融资结构；
+1. P0-1 把 Case A–G 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough timing，并继续增加跨行业独立周期；
+2. P0-2 对 GPT-5.6 Terra/Luna/Sol 做 event-time 重估，分离 provider/model substitution、share displacement 与 net workflow/market expansion；
+3. P0-3 优先寻找能够在同一 workflow_id 下连接 AI cost + human time + verification + persistence + business value 的真实数据；
+4. P0-4 建季度 macro-financial panel，继续映射 CoreWeave / Core Scientific / hyperscaler / supplier-supported projects 的融资结构、客户集中与 contract-backed debt；
 5. 对 Decision Invariants 做 cross-scenario falsification：凡是只在某一情景成立的原则降回 conditional strategy；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
