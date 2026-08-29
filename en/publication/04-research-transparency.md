@@ -174,16 +174,22 @@ Governance boundaries:
 
 After this targeted supplement, the formal text was refrozen again.
 
-### 8C. August 30, 2026 definition-level S4 correction
+### 8C. August 30, 2026 definition-level clearing and optionality correction
 
-On August 30, 2026, the formal text was reopened only to correct a **definition-level inconsistency** identified by the Phase II historical clearing backtest.
+On August 30, 2026, the formal text was reopened only to correct **definition-level inconsistencies** identified by Phase II validation.
 
-The historical replay showed that Accounting is a high-value confirmation / severity channel but **not a mandatory gate** for systemic capital clearing. Financing-led or real-economy clearing can be confirmed before qualifying impairment / write-down evidence appears, provided cross-signal confirmation and cross-actor / cross-layer causal breadth are strong enough.
+First, the historical clearing replay showed that Accounting is a high-value confirmation / severity channel but **not a mandatory gate** for systemic capital clearing. Financing-led or real-economy clearing can be confirmed before qualifying impairment / write-down evidence appears, provided cross-signal confirmation and cross-actor / cross-layer causal breadth are strong enough.
 
-The correction was limited to the S4 / capital-clearing rule in:
+Second, the decision-invariant falsification pass showed that continuously maintaining a production-like second path is **not a universal hard invariant**. The durable rule is to price executable optionality explicitly and maintain a second path only when continuity / bargaining / recovery value exceeds carrying cost.
+
+The correction was limited to the affected definitions / strategy language in:
+- Ch01 — Executive Summary;
+- Ch19 — CapEx Supercycle;
+- Ch22 — Depreciation Wall;
 - Ch24 — Capital Clearing;
 - Ch29 — Monitoring Framework;
 - Ch30 — S1–S4 Scenarios;
+- Ch31 — Strategic Optionality;
 - Ch32 — Master Judgment;
 - corresponding publication-status metadata.
 
