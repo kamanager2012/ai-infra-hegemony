@@ -28,7 +28,7 @@ TSMC 的公开表述已经足以确认 advanced-packaging tightness：[^1][^2]
 收入数据也说明其经济重要性上升，但年份口径必须保持原样：
 
 - 4Q24 transcript：**advanced packaging and testing >8% of revenue**；
-- 4Q25 transcript 公司更正口径：**advanced packaging slightly over 10% of 2025 revenue**。[^6]
+- 4Q25 transcript 公司更正口径：**advanced packaging slightly over 10% of 2025 revenue**。[^5]
 
 两者标签不同，因此不能把 >8% → >10% 直接当作严格同口径连续序列。
 
@@ -157,7 +157,7 @@ Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDI
 
 advanced packaging 可以是系统交付瓶颈，但不代表它一定拥有整个价值链最高 margin。
 
-TSMC 2Q24 管理层曾表示，advanced-packaging gross margin 过去显著低于 corporate average，当时正在接近但尚未达到公司平均。[^5]
+TSMC 2Q24 管理层曾表示，advanced-packaging gross margin 过去显著低于 corporate average，当时正在接近但尚未达到公司平均。[^4]
 
 因此：
 
@@ -222,5 +222,5 @@ frontier AI parallel stack 不能只用 logic node 判断。
 [^1]: TSMC, 4Q24 Earnings Conference Transcript, advanced packaging and testing >8% of revenue; capacity “very tight,” https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
 [^2]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^3]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
-[^5]: TSMC, 2Q24 Earnings Conference Transcript, advanced-packaging margin relative to corporate average, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
-[^6]: TSMC, 4Q25 Earnings Conference Transcript, corrected 2025 advanced-packaging revenue identity, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
+[^4]: TSMC, 2Q24 Earnings Conference Transcript, advanced-packaging margin relative to corporate average, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
+[^5]: TSMC, 4Q25 Earnings Conference Transcript, corrected 2025 advanced-packaging revenue identity, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf

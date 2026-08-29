@@ -180,9 +180,9 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 ---
 
-## 7. 四类领先清算信号
+## 7. 五类领先清算信号
 
-判断 Capital Hard Landing，必须至少同时观察四组变量。
+判断 Capital Hard Landing，必须至少同时观察五组变量。
 
 ### Accounting
 
@@ -213,6 +213,13 @@ rack density 提升后，新增 compute capacity 还依赖：
 - compute contracts；
 - power contracts；
 - Anchor Buyer commitments。
+
+### Demand Quality / Financing
+
+- customer cash generation；
+- third-party capital 的 risk premium 与 commitment 变化；
+- supplier equity / credit support 占比；
+- refinancing dependency。
 
 只有多类信号同步恶化，才足以把“ROI pressure”升级为 **S4 — Capital Hard Landing**。
 
@@ -252,7 +259,7 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 这还不是已经确认的全行业 Capital Hard Landing。
 
-真正的转折需要看到：**utilization、market clearing、forward commitments 与 accounting signals 同步转弱。**
+真正的转折需要看到：**utilization、market clearing、forward commitments、accounting signals 与 demand-financing quality 同步转弱。**
 
 ## 10. 什么事实会迫使本章改判
 

@@ -102,7 +102,8 @@ This report tracks:
 - **Accounting:** impairment / accelerated depreciation / write-down;
 - **Utilization / Revenue:** deployed-compute utilization / AI revenue;
 - **Market Clearing:** used-system prices / cloud discounts / delivery lead time;
-- **Forward Commitment:** CapEx guidance / supply commitments / compute contracts / power contracts.
+- **Forward Commitment:** CapEx guidance / supply commitments / compute contracts / power contracts;
+- **Demand Quality / Financing:** customer cash generation / third-party capital risk appetite / supplier equity and credit support / refinancing dependency.
 
 Only synchronized deterioration across several classes is sufficient to move from "ROI pressure" toward "Capital Hard Landing."
 
@@ -131,6 +132,8 @@ As of August 2026, public data still supports:
 > **CapEx supercycle continues + hurdle rate for utilization and monetization is rising**
 
 rather than a completed capital-clearing cycle.
+
+A real turn would require utilization, market clearing, forward commitments, accounting signals, and demand-financing quality to deteriorate together.
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
 
