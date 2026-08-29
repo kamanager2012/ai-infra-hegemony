@@ -1,17 +1,25 @@
 # Part I · 第1章：执行摘要与未来十年核心判断
 
-## 1. 执行判断：AI 正在重构产业资源配置，而不只是扩大算力市场
+## 1. 执行判断：仍然重要的整机，正在面对被 AI/HPC 改写的上游排队规则
 
-截至 **2026 年 8 月 28 日**，AI 产业最重要的变化已经不再只是 GPU 销量增长，而是**全球先进半导体、存储、封装、数据中心、电力与资本的边际配置逻辑正在被重新排序**。
+截至 **2026 年 8 月 28 日**，本报告研究的不是“AI 是否比手机、电脑、汽车、工业设备、机器人、航空航天或国防电子更重要”。这些整机与战略系统的重要性并没有因为 AI 上升而消失。
+
+真正变化的是：**它们所依赖的部分共享或相邻上游资源——先进逻辑、DRAM/LPDDR/NAND、先进封装、设备、工程能力、电力与长期资本——正在被更高支付能力、更长锁量周期和更强融资能力的 AI/HPC demand 重新定价、重新排序。**
+
+因此，传统整机面对的核心问题不是“全球还有没有芯片”，而是：
+
+> **在自己的 BOM、认证周期、产品寿命与价格约束下，还能否按计划拿到够用、够稳、付得起的上游资源。**
+
+这种暴露必须分层理解：smartphone / PC / 部分 ADAS 与 edge AI 更可能直接共享先进逻辑与存储；汽车、工控、产线更多通过成熟存储、MCU/模拟、功率器件和供应商 product-mix 受到相邻影响；航空、雷达、舰船、卫星、火箭等高可靠小批量系统的压力则更多来自 trusted/long-life/special-process capacity 的经济性、设备与人才，而不是“直接和 AI 服务器抢同一颗 GPU”。
 
 本报告的核心判断可以压缩为六点：
 
-1. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
-2. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
-3. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 因此，总供给增长与 smartphone、PC、汽车、工业等市场继续承受价格或配置压力可以同时成立。
+1. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 总供给增长与 smartphone、PC、汽车、工业等市场继续承受价格、quantity assurance 或配置压力可以同时成立。
+2. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
+3. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
 4. **NVIDIA 的优势仍然很强，但竞争已经从“GPU vs ASIC”升级为“system stack vs system stack”。** Google、AWS、Microsoft、Meta 的 custom systems 正在形成第二类完整路线。
-5. **基础设施的长期价值最终必须由可验证工作流产出完成需求侧闭环。** Agent-Native Software、Physical AI 与企业自动化能否把 Compute 转化为稳定、可验收、可收费的经济结果，将决定 utilization、monetization 与资本回收。
-6. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、utilization、power、capital discipline、workload economics 与中国 parallel stack 的 frontier closure。
+5. **基础设施的长期价值最终必须由可验证工作流产出完成需求侧闭环。** 这是长期经济判据，而不是截至本报告证据截止日已经完成经验校准的事实指标。
+6. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、utilization、power、capital discipline、workload economics 与中国 frontier parallel stack 的 closure 进度。
 
 截至当前，公开事实更符合 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 保持强经济性，替代路线正在发展，但尚未消除 HBM、advanced packaging、power 与迁移成本等关键约束。
 
@@ -145,7 +153,7 @@ Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 
 
 更准确的判断需要分成两个层级：
 
-> **中国已经跨过“没有替代系统”的阶段，正在形成 production-grade parallel stack；但公开证据尚不足以证明所有关键 upstream / infrastructure layers 都已经实现 autonomous frontier closure。**
+> **中国已经跨过“没有替代系统”的阶段，frontier parallel stack 已出现真实迭代与部分 production deployment；但按第17章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已经闭合，autonomous frontier closure 的门槛则更高。**
 
 前者回答“系统能不能在真实 production workload 中稳定运行”，后者回答“在关键外部供给受限时，能否跨代持续扩张和迭代”。
 
@@ -207,7 +215,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 - software migration cost 是否下降；
 - AI workload monetization 是否足以覆盖资本基数；
 - Anchor Compute Buyer commitments 是否兑现；
-- 中国 production-grade parallel stack 是否扩大，以及 autonomous frontier closure 是否跨越更多关键层；
+- 中国 frontier parallel stack 是否跨越更多 Production-Grade Gate，以及 autonomous frontier closure 是否获得更多关键层的一手证据；
 - supplier-assisted financing 是否仍由真实 utilization / monetization 支撑。
 
 ---
