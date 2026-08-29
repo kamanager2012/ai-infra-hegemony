@@ -1,6 +1,6 @@
 # Claim Ledger and Numeric Audit
 
-This directory supports evidence traceability for **The Age of AI Infrastructure Hegemony**. It is research/editorial tooling, not a software-release pipeline and not external audit assurance.
+This directory supports evidence traceability for **The Age of AI Infrastructure Hegemony**. It is research/editorial tooling and does not constitute external audit assurance.
 
 ## Scope
 
@@ -62,7 +62,7 @@ python scripts/extract_numeric_claim_candidates.py --corpus all
 Default output:
 
 ```text
-dist/numeric-claim-candidates.jsonl
+data/generated/numeric-claim-candidates.jsonl
 ```
 
 The extractor is intentionally high-recall. A line containing a number is a candidate, not automatically a historical fact. URLs and References sections are excluded to reduce noise.
