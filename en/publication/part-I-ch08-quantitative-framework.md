@@ -62,7 +62,7 @@ This is only a formal-training compute conversion. It excludes research iteratio
 
 The US$5.576M figure can therefore be used as a public training-run scale anchor, but not as "the full company cost of one frontier model."
 
-## 5. Rack-scale BOM can be quantified; rack shipment cannot be invented
+## 5. Rack-scale specifications quantify system intensity, not industry shipment demand
 
 The official GB200 NVL72 configuration is:[^3]
 
@@ -71,27 +71,15 @@ The official GB200 NVL72 configuration is:[^3]
 - 13.4 TB HBM3E;
 - 17 TB LPDDR5X.
 
-If a scenario contains R racks:
+These specifications are useful for describing the **material and memory intensity of one rack-scale system**.
 
-> **HBM(R) = 13.4 TB × R**
+They cannot be multiplied by an invented industry rack count and presented as actual HBM, LPDDR, packaging, or power demand.
 
-> **LPDDR(R) = 17 TB × R**
+Therefore:
 
-**Table 8.1 — NVL72 rack count and HBM/LPDDR scenario demand**
+> **per-system specification × observed deployment can support demand analysis; per-system specification × hypothetical deployment remains a scenario and should not be used as a factual industry total.**
 
-| Scenario rack count | HBM3E | LPDDR5X |
-|---:|---:|---:|
-| 1,000 | 13.4 PB | 17 PB |
-| 10,000 | 134 PB | 170 PB |
-| 30,000 | 402 PB | 510 PB |
-| 50,000 | 670 PB | 850 PB |
-
-**Source:** NVIDIA official GB200 NVL72 specification; report scenario arithmetic.[^3]  
-**Note:** Rack count is an assumed input; the PB values are not actual shipments or consumption.
-
-These are **D-grade scenario calculations**.
-
-NVIDIA does not disclose an annual NVL72 rack-shipment figure that can be multiplied by these specifications. It is therefore invalid to divide Data Center revenue by an invented rack ASP and propagate the resulting hypothetical rack count into "actual" HBM, CoWoS, or power consumption.
+Where shipment or deployment cannot be closed from public evidence, the formal report prefers seller commitments, vendor supply guidance, customer contracts, lead times, utilization, and other observable indicators over synthetic fleet-size arithmetic.
 
 ## 6. The HBM trade ratio amplifies bit-demand pressure on wafer input
 
