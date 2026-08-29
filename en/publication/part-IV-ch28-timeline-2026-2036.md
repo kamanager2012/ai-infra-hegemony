@@ -4,7 +4,7 @@
 
 The most common long-range error is to take technology roadmaps, capital plans, or power-project target dates and rewrite them as events that are guaranteed to occur.
 
-This book uses four observation windows:
+This report uses four observation windows:
 
 - **Phase I: 2026–2027**;
 - **Phase II: 2028–2030**;
@@ -72,7 +72,7 @@ If AI infrastructure continues expanding, competition is likely to move further 
 The key questions are:
 
 - which regions combine **power + data centers + chip access + software / talent** most effectively;
-- whether China's parallel stack crosses multiple frontier-closure gates;
+- whether China's production-grade parallel stack expands and autonomous frontier closure crosses more upstream / infrastructure gates;
 - whether sovereign AI creates multiple regional system ecosystems;
 - whether supply chains remain cross-region complementary or become durably partitioned;
 - whether advanced-manufacturing redundancy creates real qualified second-source capability.
@@ -146,33 +146,38 @@ Each phase should track:
 - utilization;
 - second-hand / lease prices;
 - enterprise AI monetization;
-- infrastructure financing terms.
+- infrastructure financing terms;
+- supplier equity / credit support;
+- refinancing dependency / third-party risk capital.
 
 Technology and capital timelines have to be read together.
 
 ## 9. Power milestones
 
-Power uses one state machine:
+Power / LPS uses one state machine:
 
-> **Announced → Contracted → Permitted → Energized → Utilized**
+> **Announced → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized**
 
-Crane, Talen/AWS, Kairos/Google, and similar projects must be updated by current state.
+Crane, Talen/AWS, Kairos/Google, PORTS-Pike, and similar projects must be updated by current state.
 
-Signing a contract cannot automatically mark AI power as online.
+Signing a contract, securing LPS, or announcing future design capacity cannot automatically mark AI power as online.
+
+Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
 In particular, the April-2026 revised-PPA transition status in Talen's 2026 Q2 10-Q does not prove that every physical transition or full-delivery step was completed.[^5]
 
 The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.[^5]
 
-## 10. Three thresholds that matter more than the calendar year
+## 10. Four thresholds that matter more than the calendar year
 
-The next decade is more likely to be decided by three thresholds than by one particular date:
+The next decade is more likely to be decided by four thresholds than by one particular date:
 
 1. **Does system substitution cross the production frontier-workload threshold?**
 2. **Does scarce-layer supply cross a durable-abundance threshold?**
 3. **Does AI-workload monetization cross the capital-cost-coverage threshold?**
+4. **Can infrastructure move from sponsor / seller-supported financing toward a more independent, sustainable long-duration capital structure?**
 
-Until all three are much clearer, 2036 should remain a conditional cross-section rather than a deterministic answer.
+Until these thresholds are much clearer, 2036 should remain a conditional cross-section rather than a deterministic answer.
 
 ## References
 
