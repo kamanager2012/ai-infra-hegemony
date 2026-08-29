@@ -311,6 +311,18 @@ OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的
 
 它既可以加速 AI infrastructure 的资本形成，也可以在 utilization 不足时放大 stranded-capacity 与 duration-mismatch risk。
 
+## 11. 什么事实会迫使本章改判
+
+Anchor Compute Buyer Effect 应在以下情况下被下调：
+
+- long-duration commitments 大规模改期、缩减或重谈；
+- secured capacity 长期无法转化为 energized / utilized capacity；
+- anchor workload utilization 持续不足；
+- model-company monetization 无法覆盖长期 infrastructure obligation；
+- project finance increasingly 依赖更强 seller support 而非 customer / third-party cash flow。
+
+相反，合同金额或 secured GW 继续增加，如果没有 delivery 与 utilization 验证，也不能单独强化本章结论。
+
 ## References
 
 [^1]: OpenAI, “Announcing The Stargate Project,” 2025-01, https://openai.com/index/announcing-the-stargate-project/
