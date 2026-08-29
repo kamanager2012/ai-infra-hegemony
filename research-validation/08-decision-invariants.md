@@ -3,6 +3,27 @@
 > **Status:** Research-side strategic layer; not part of the frozen 32-chapter formal report.  
 > **Goal:** identify low-regret principles that remain valid across S1–S4, rather than giving one strategy per scenario.
 
+## 0. Decision-rule ownership contract v0.3
+
+This file owns:
+- cross-scenario decision rules;
+- actor-specific implementation burden;
+- low-regret / falsification logic.
+
+It does **not** own:
+- evidence state;
+- scenario probability;
+- live clearing adjudication;
+- geopolitical / financing / technical-closure facts.
+
+Authoritative inputs come from the relevant evidence/state layers (`01A`, `03`, `04A–04D`, `05`, `09`, `10`, `12`, `13`).
+
+Hard rule:
+
+> **Decision invariants may tell an actor how to react to a state; they may not create or upgrade that state.**
+
+Formal Chapter 31 remains frozen unless explicitly reopened.
+
 ## 1. What counts as a decision invariant
 
 A decision invariant must satisfy all four conditions:
