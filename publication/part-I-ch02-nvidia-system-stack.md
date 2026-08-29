@@ -131,6 +131,52 @@ Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但�
 
 > **如果客户能够以较低迁移成本把高价值 production workload 分散到多套 system stack，NVIDIA 的平台议价能力会下降；如果平台内跨代升级仍显著低于跨平台迁移成本，系统护城河仍然成立。**
 
+## 7A. 报道中的 Hugging Face 交易：平台权力可能从 Runtime 延伸到 Developer Distribution
+
+2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^5]截至本报告证据截止日 **2026-08-28**，本报告未取得 NVIDIA 或 Hugging Face 对交易完成、交割条件或监管批准的正式公告，因此这里仅把它记录为 **reported transaction**，而不是已完成并表事实。
+
+Hugging Face 的战略意义并不只是“一个模型下载网站”。其官方产品体系覆盖 Model Hub、Datasets、Spaces、Transformers、Inference Providers / Endpoints 等开发者入口；它连接了模型发现、模型/数据分发、工具链调用、试用与部署。[^6]
+
+如果报道中的交易最终完成，NVIDIA 的平台边界就可能从：
+
+> **accelerator → CUDA/runtime → networking → rack/system**
+
+进一步延伸为：
+
+> **accelerator → CUDA/runtime → model discovery/distribution → deployment path**
+
+这构成一种新的潜在反馈机制：
+
+**hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand。**
+
+本报告把这一机制称为 **Developer Distribution Chokepoint**，但不会把它提前写成“软件垄断已经完成”。
+
+真正需要观察的不是 Hugging Face 是否仍然允许其他硬件存在，而是控制权变化后，以下“默认值”是否出现持续、可验证的 NVIDIA 倾斜：
+
+- model page / benchmark 对 NVIDIA runtime 的默认优先级；
+- inference / endpoint 的推荐 backend；
+- NVIDIA-optimized artifact、quantization、container 或 deployment path 的排序 / 可见度；
+- ROCm、XLA、CPU、其他 accelerator 的 first-class support 是否弱化；
+- 非 NVIDIA 平台的 migration friction 是否上升；
+- model creator 是否因分发、托管或商业激励而更优先发布 NVIDIA-optimized versions。
+
+这类风险与 CUDA lock-in 不完全相同。CUDA 的传统机制主要发生在 workload 已选择 NVIDIA 之后；Developer Distribution Chokepoint 则可能更早进入：
+
+> **模型发现 → 工具选择 → runtime 选择 → deployment → accelerator。**
+
+因此，它可能把平台锁定从“执行层”向“开发者入口层”前移。
+
+### 7A.1 反方边界
+
+即使交易最终完成，也不能自动推出完整软件 foreclosure：
+
+- open-weight model 可以多平台分发、mirror 或自托管；
+- Hugging Face 当前生态原本就是 multi-framework / multi-vendor；
+- model weights、open libraries 与 alternative hubs 具有一定可迁移性；
+- 竞争者可以通过独立 registry、runtime、cloud distribution 与 foundation governance 降低单点依赖。
+
+所以，本报告只在**默认排序、互操作、部署摩擦与真实 workload 分布**出现持续变化时，才提高这一机制的权重。
+
 ## 8. 什么才算 System Moat 真正被侵蚀
 
 不能用产品发布数量、单颗芯片 benchmark 或单季 market share 判断 system moat 是否失效。
@@ -178,3 +224,6 @@ Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但�
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
+[^6]: Hugging Face official documentation: Hub, Models, Datasets, Spaces, Transformers and inference/deployment products, https://huggingface.co/docs
