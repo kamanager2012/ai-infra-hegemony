@@ -24,13 +24,13 @@ The objective is not to produce one deterministic 2036 forecast. It is to build 
 
 ### Entry point for end-system and industrial-supply readers
 
-This report is not arguing that “only AI matters.” Smartphones, PCs, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important.
+This report is not arguing that “only AI matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important.
 
 The core question is:
 
 > **When AI/HPC demand with higher willingness to pay, longer capacity commitments, and stronger capital formation changes the priority of shared or adjacent upstream resources, can non-AI end systems still obtain enough, stable, affordable supply on their own BOM, qualification, lifecycle, and product cadence?**
 
-If you come from consumer electronics, automotive, industrial systems, robotics, or high-reliability supply chains, a useful first pass is:
+If you come from consumer electronics, game consoles, automotive, industrial systems, robotics, or high-reliability supply chains, a useful first pass is:
 
 **Ch01 → Ch03 → Ch21 → Ch20 §10 → Ch32**
 
