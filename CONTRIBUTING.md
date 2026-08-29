@@ -2,14 +2,14 @@
 
 This repository welcomes factual corrections, source upgrades, mechanism challenges, counter-evidence, falsification signals, and translation improvements. Unsupported estimates must not be rewritten as confirmed facts.
 
-The Chinese research corpus on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition has completed repository-wide publication QA and should remain synchronized with the same research state.
+The Chinese 32-chapter publication edition on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
 
 ## Start with these files
 
-- [Research Methodology and Evidence Grading](en/研究方法与证据分级.en.md)
+- [Research Method and Evidence Architecture](en/publication/part-IV-ch27-research-method.md)
 - [Core Evidence Ledger](en/核心证据台账.en.md)
 - [Core Source Index](en/核心参考文献索引.en.md)
-- [Master Judgment](en/总判.en.md)
+- [Master Judgment](en/publication/part-IV-ch32-master-judgment.md)
 - [Chinese source-of-truth landing page](README.zh-CN.md)
 
 The report uses one common analytical chain:
@@ -21,7 +21,7 @@ The report uses one common analytical chain:
 ### 1. Data / definition / source correction
 
 Please include:
-1. volume and section;
+1. chapter and section;
 2. current wording or number;
 3. what you believe is wrong;
 4. the primary or high-quality institutional source;
@@ -46,11 +46,11 @@ A strong counterargument looks like:
 
 ## Pull requests that are useful
 
-- write verified new facts back into the relevant volume;
+- write verified new facts back into the relevant chapter;
 - correct dates, accounting definitions, units, denominators, or evidence grades;
 - add conditions and falsification signals to strong conclusions;
 - repair broken links, navigation, duplication, or translation;
-- replace repeated cross-volume numbers with a canonical source link;
+- replace repeated cross-chapter numbers with a canonical source link;
 - add better primary or institutional sources;
 - keep English and Chinese research states synchronized.
 
@@ -72,7 +72,7 @@ A strong counterargument looks like:
 - **C** — sell-side, single-source supply-chain reporting, or media relay;
 - **D** — report hypotheses, models, calculations, and stress tests.
 
-Cross-volume reuse never upgrades an evidence grade automatically.
+Cross-chapter reuse never upgrades an evidence grade automatically.
 
 ## Bilingual synchronization rule
 
@@ -84,14 +84,14 @@ When a factual or analytical change is accepted into the Chinese source-of-truth
 
 这是《AI基础设施霸权时代》的研究协作规范。欢迎提交事实纠错、来源补充、机制挑战、反方证据、证伪信号与翻译改进；不接受把缺乏来源支持的数字写成已确认事实。
 
-中文 `main` 研究正文是事实、证据等级与分析范围的 source of truth。英文版已经完成全库出版 QA，后续应与中文研究状态同步维护。
+中文 `main` 的 32 章正式报告是事实、证据等级与分析范围的 source of truth。英文版应与同一研究状态同步维护。
 
 ## 先看这些文件
 
-- [研究方法与证据分级](研究方法与证据分级.md)
+- [研究方法与证据架构](publication/part-IV-ch27-research-method.md)
 - [核心证据台账](核心证据台账.md)
 - [核心参考文献索引](核心参考文献索引.md)
-- [总判](总判.md)
+- [最终总判](publication/part-IV-ch32-master-judgment.md)
 - [完整中文入口](README.zh-CN.md)
 
 全书统一使用：
@@ -103,7 +103,7 @@ When a factual or analytical change is accepted into the Chinese source-of-truth
 ### 1. 数字 / 口径 / 来源纠错
 
 请写清：
-1. 哪一卷、哪一段；
+1. 哪一章、哪一节或哪一段；
 2. 现在写的是什么；
 3. 你认为哪里错；
 4. 原始来源或高质量机构来源；
@@ -128,11 +128,11 @@ When a factual or analytical change is accepted into the Chinese source-of-truth
 
 ## 可以提的 PR
 
-- 把已经核准的新事实写回正文；
+- 把已经核准的新事实写回对应章节；
 - 修正时间、会计口径、单位、分母、来源等级；
 - 给强结论补成立条件和证伪条件；
 - 修复断链、目录、重复、翻译；
-- 把跨卷重复数字改成回链；
+- 把跨章重复数字改成回链；
 - 增加更高质量的一手或机构来源；
 - 同步中英文研究状态。
 
@@ -154,7 +154,7 @@ When a factual or analytical change is accepted into the Chinese source-of-truth
 - **C**：券商、单一供应链消息、媒体转述；
 - **D**：本报告假设、模型、计算与压力测试。
 
-跨卷引用不得自动升级等级。
+跨章引用不得自动升级等级。
 
 ## 中英文同步规则
 
