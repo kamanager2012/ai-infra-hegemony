@@ -163,6 +163,18 @@ It is:
 
 That is the starting point for the report's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
 
+## 10. Falsification boundary: what would force this chapter to change
+
+The judgment on NVIDIA's system-stack power should be downgraded if several signals persist together:
+
+- frontier / high-value production workloads migrate at scale to other stacks;
+- CUDA/runtime migration cost falls materially and is validated in production;
+- alternative interconnect / rack systems achieve broad external adoption;
+- NVIDIA supply commitments contract materially while competitors improve quantity assurance;
+- seller-side margin / cash generation and installed-base retention deteriorate together.
+
+A single custom-chip announcement, one-quarter market-share move, or theoretical benchmark advantage is not sufficient by itself to prove that the system-stack moat has failed.
+
 ## References
 
 [^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
