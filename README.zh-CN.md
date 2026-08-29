@@ -16,7 +16,7 @@
 
 ## 报告研究什么
 
-本报告不是在论证“只有 AI 重要”。手机、电脑、汽车、工业设备、机器人以及高可靠长生命周期电子仍然重要。核心问题是：**当 AI/HPC 以更高支付能力、更长锁量周期和更强资本形成能力改变部分共享或相邻上游的优先级时，非 AI 整机还能否按自己的 BOM、认证周期、产品寿命和价格约束，获得够用、够稳、付得起的资源。**
+本报告不是在论证“只有 AI 重要”。手机、电脑、游戏主机、汽车、工业设备、机器人以及高可靠长生命周期电子仍然重要。核心问题是：**当 AI/HPC 以更高支付能力、更长锁量周期和更强资本形成能力改变部分共享或相邻上游的优先级时，非 AI 整机还能否按自己的 BOM、认证周期、产品寿命和价格约束，获得够用、够稳、付得起的资源。**
 
 AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完整 **system stack**：
 
@@ -29,7 +29,7 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 - AI 对 semiconductor capital formation 的影响；
 - power / Time-to-Power 对 compute deployment 的约束；
 - model company 从 cloud tenant 向 Anchor Compute Buyer 演化；
-- smartphone、PC、automotive、industrial 等传统终端的 residual capacity；
+- smartphone、PC、game console、automotive、industrial 等传统终端的 residual capacity；
 - 中国 frontier parallel stack、Production-Grade Gates 与 autonomous frontier closure；
 - AI infrastructure CapEx、折旧、融资与资本清算；
 - Agent-Native Software、Physical AI、劳动市场与人才体系；
@@ -198,7 +198,7 @@ AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume �
 
 ## 阅读入口
 
-### 整机 / 消费电子 / 汽车 / 工业读者
+### 整机 / 消费电子 / 游戏主机 / 汽车 / 工业读者
 
 建议第一遍直接按：
 
