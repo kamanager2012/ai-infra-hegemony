@@ -1,6 +1,25 @@
-# P1-2 · Conditional Timeline Rewrite Map v0.1
+# P1-2 · Conditional Timeline Rewrite Map v0.2
 
 > **Status:** Research-side rewrite map; not part of the frozen formal report.  
+
+## 0. Derived-layer contract v0.2
+
+This file owns **conditional grammar and milestone dependency**, not underlying factual state.
+
+Authoritative inputs:
+- geopolitical state → `05`;
+- China technical closure → `09`;
+- macro/public/project financing → `04A–04D`;
+- scenario aggregation → `10`;
+- live clearing state → `01A`.
+
+Hard rule:
+
+> **A timeline milestone may reference an upstream state, but must not create, upgrade or duplicate that state.**
+
+Formal-report gate:
+
+> **No Chapter 28 rewrite occurs from this file unless the frozen formal report is explicitly reopened.**
 > **Goal:** prevent Chapter 28’s year windows from being read as a point forecast by expressing every major milestone as **condition → observable milestone → contrary signal**.
 
 ## 1. Rewrite rule
@@ -321,7 +340,7 @@ Example:
 
 ---
 
-## 9. v0.1 conclusion
+## 9. v0.2 conclusion
 
 The main issue with a ten-year timeline is not the use of dates.
 
