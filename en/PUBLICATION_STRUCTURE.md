@@ -7,13 +7,14 @@ The report is organized as a continuous 32-chapter industry analysis.
 Its core causal structure is:
 
 ```text
-Demand Power
-→ Physical Allocation
+Physical Supply
 → System Delivery
-→ Capital Formation
-→ Industry Transmission
-→ Utilization / Monetization
-→ Next-Cycle Capital Allocation
+→ Compute Cost and Availability
+→ Workflow Economics
+→ Verified Output
+→ Enterprise Adoption and Cash Flow
+→ Capital Recovery
+→ Second-Order Industrial Restructuring
 ```
 
 The structure is designed to keep company-specific evidence subordinate to the larger industrial mechanisms.
@@ -116,9 +117,11 @@ The report uses a limited set of recurring mechanisms:
 - Anchor Compute Buyer Effect;
 - Financing Reflexivity;
 - AI Software Unit Economics;
-- Task-to-Job Translation;
 - Production-Grade Parallel Stack;
-- Autonomous Frontier Closure.
+- Autonomous Frontier Closure;
+- Time-to-Power;
+- Verified Workflow Output;
+- Task-to-Job Translation.
 
 A concept is defined once and later chapters add evidence, boundaries, counterarguments, or falsification conditions rather than renaming the same mechanism.
 
