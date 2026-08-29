@@ -163,14 +163,27 @@ The harder the resource is to expand quickly, the stronger the short-run pressur
 
 Buyers with LTAs, purchasing scale, inventory, strong balance sheets, and end-market pricing power can absorb or delay the shock more effectively.
 
-As a result:
+These end systems should not be placed into one universal “AI took the chips” funnel.
 
-- PC / server memory exposure is relatively high;
-- smartphones have meaningful memory and selected leading-edge exposure;
-- automotive / industrial transmission is slower and more selective;
-- mature-node products can still be affected indirectly when supplier product mix shifts toward higher-value AI products.
+**Table 3.1 — Layered exposure of non-AI / Physical-AI end systems**
 
-Detailed transmission into terminal pricing, configuration, and replacement cycles belongs in [Chapter 21](part-III-ch21-consumer-transmission.md). This chapter retains only the resource-allocation mechanism.
+| End system | Main shared or adjacent upstream layers | Main transmission path | What can be inferred | What must not be inferred |
+|---|---|---|---|---|
+| Smartphone / PC | selected leading-edge SoC/GPU, LPDDR/DRAM, NAND, selected packaging | BOM, configuration, upgrade tax, replacement cycle, quantity assurance | opportunity cost of shared resources can rise | industry disappearance; a named customer losing a known wafer quantity |
+| Router / broadband | consumer DRAM/NAND, low bargaining power | higher price + weaker allocation | weaker buyers can face price and quantity pressure together | all end markets rise by the same multiple |
+| Automotive / industrial / production lines | mature memory, MCU/analog, power, selected ADAS compute, packaging/test | lead time, qualification, EOL/part number, supply continuity | long qualification and long lifecycles reduce rapid substitution; adjacent product-mix shifts can matter | automotive electronics are directly “consumed” by GPU/HBM demand |
+| Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | industrial-electronics and edge-AI constraints can stack | robots can be exposed to both industrial and AI-compute pools | every robot needs frontier HBM; factories stop because AI took GPUs |
+| Avionics / radar / space electronics | trusted/qualified logic, RF/power, rad-hard/rad-tolerant parts, special packaging/test | small-volume line economics, qualification, trusted access, long-lifecycle support | commercial high-volume markets can weaken small-volume special-demand bargaining power | aircraft, radar, or satellites are directly stopped by HBM shortage |
+| Naval / other long-life defense systems | long-life qualified electronics, power/communications, trusted supply, maintenance spares | EOL, supplier longevity, small-volume economics | long-lived systems need sustained part-number and trusted-supply continuity | naval platforms “need NVIDIA capacity” |
+
+**Source:** Chapter 21 consumer/industrial transmission evidence; NXP / ST automotive-longevity disclosures; U.S. GAO / DMEA trusted-microelectronics evidence; NASA/JPL space-radiation assurance materials.[^6][^7][^8][^9][^10]  
+**Note:** The AI-era transmission strength differs substantially across the later rows. For defense / aerospace / space, the public evidence primarily establishes the structural weakness of low-volume, special, long-life, trusted supply in a commercial market; it does **not** establish AI/HPC as the direct cause of a specific program's cost or delay.
+
+The key boundary is:
+
+> **Resource Gravity is selective. The closer an end system is to shared advanced logic / memory / packaging, the more direct the transmission. The more it depends on trusted, long-life, RF/power, rad-hard, or special-process capacity, the more likely the channel runs through capital, equipment, engineering capacity, and supplier economics.**
+
+Detailed transmission into pricing, configuration, replacement cycles, and observed examples belongs in [Chapter 21](part-III-ch21-consumer-transmission.md).
 
 ---
 
@@ -231,3 +244,10 @@ The most accurate formulation is therefore not “AI is taking every chip.” It
 [^3]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E wafer-supply trade ratio versus DDR5, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+
+
+[^6]: NXP Semiconductors, S32G Vehicle Network Processors, minimum 15-year product support under the Product Longevity program, https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32g-vehicle-network-processors%3AS32G-PROCESSORS
+[^7]: STMicroelectronics, 2025-09-08, selected SPC58 automotive MCUs extended to 20-year availability, https://newsroom.st.com/media-center/press-item.html/n4718.html
+[^8]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, low-volume unique defense needs and limited influence on commercial markets, https://www.gao.gov/products/gao-16-185t
+[^9]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, guaranteed access for typically low-volume U.S. Government needs, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
+[^10]: NASA/JPL, Space Radiation Effects on Integrated Circuits, special design/fabrication and radiation-hardening requirements, https://parts.jpl.nasa.gov/asic/Appendix.3.html
