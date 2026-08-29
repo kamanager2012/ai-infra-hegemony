@@ -254,7 +254,7 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 真正的转折需要看到：**utilization、market clearing、forward commitments 与 accounting signals 同步转弱。**
 
-## 9. 什么事实会迫使本章改判
+## 10. 什么事实会迫使本章改判
 
 应下调“资本扩张仍是主线”的判断，如果持续出现：
 
