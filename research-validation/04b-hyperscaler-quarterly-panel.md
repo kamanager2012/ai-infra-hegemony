@@ -1,6 +1,33 @@
-# P0-4B · Hyperscaler Quarterly Capital-Intensity Panel v0.1
+# P0-4B · Hyperscaler Quarterly Capital-Intensity Panel v0.2
 
 > Extracted from P0-4 v0.17. Company accounting identities remain intentionally non-harmonized where definitions differ.
+
+## Scope contract v0.2
+
+This appendix owns only the **hyperscaler corporate capital-intensity layer**.
+
+Its longitudinal state chain is:
+
+```text
+Operating self-funding
+→ Infrastructure commitment
+→ Corporate financing amplification
+→ Demand breadth
+→ Monetization
+→ Retrenchment / continued expansion
+```
+
+It does **not** own:
+- public-credit regime measurement — see `04a-public-credit-panel.md`;
+- facility-level project finance / DSCR / covenant / refinancing — see `04c-project-finance-borrower-panel.md`;
+- supplier / sponsor guarantees, prepayments and support activation — see `04d-supplier-support-panel.md`.
+
+Cross-file rule:
+
+> **04B may reference those layers as context, but must not maintain duplicate state tables for them.**
+
+The purpose of 04B is therefore not to answer whether an AI project can service a specific debt facility. It answers whether hyperscaler corporate cash generation, infrastructure commitment, balance-sheet financing and demand monetization are moving in a direction that increases or decreases macro-financial vulnerability.
+
 
 ### 10A.4 2026Q2 hyperscaler self-financing cross-section
 
@@ -543,20 +570,64 @@ S4 risk rises when:
 
 This structure is more informative than a single “AI CapEx funded by cash or debt” binary.
 
-### 10A.5Q What remains missing
+### 10A.5Q v0.2 maintenance boundary
 
-The panel is deliberately incomplete.
+The four-company quarterly monitor is now structurally complete for its intended layer.
 
-Still to backfill:
-- NY Fed CMDI / IG / HY segment state on a reproducible quarterly aggregation basis;
-- Chicago Fed NFCI Credit Subindex on a reproducible quarterly aggregation basis;
-- private-credit spreads / covenants where public;
-- AI-infrastructure equity risk-premium proxy;
-- pre-2024 hyperscaler quarterly history only where it materially improves cycle calibration;
-- neocloud / project-finance interest expense, maturities and refinancing terms;
-- supplier-support / guarantee amount by quarter.
+04B should continue to maintain only five within-company variables:
 
-Do not fill those columns using incompatible frequencies merely to make the table look complete.
+1. **Headroom**
+   - OCF minus the company's comparable cash infrastructure / PP&E spend;
+
+2. **Commitment**
+   - current CapEx plus disclosed lease / contracted infrastructure commitments where the accounting identity is clear;
+
+3. **Corporate financing**
+   - debt, equity and finance-lease amplification at the parent-company level;
+
+4. **Demand breadth**
+   - cloud revenue, RPO / bookings, customer concentration and evidence that demand is broadening or narrowing;
+
+5. **Monetization**
+   - whether cloud / AI revenue and operating economics are keeping pace with infrastructure intensity.
+
+The following items are **out of scope for 04B maintenance** because they now have dedicated appendices:
+
+| Topic | Authoritative appendix |
+|---|---|
+| CMDI / NFCI / SLOOS / macro-credit state | `04A` |
+| project-finance spreads, maturities, DSCR, covenant, refinancing | `04C` |
+| seller guarantees, prepayments, support activation / step-down | `04D` |
+
+Only two optional 04B extensions remain:
+
+- pre-2024 quarterly history **only if** it materially improves cycle calibration;
+- an AI-infrastructure equity-risk / valuation proxy **only if** it can be defined reproducibly without turning market-price volatility into a clearing signal.
+
+Do not add columns merely to make the panel look complete.
+
+### 10A.5R Hyperscaler longitudinal state labels v0.2
+
+For future quarterly maintenance, each company should receive one descriptive state label:
+
+- **SELF-FUNDED EXPANSION** — headroom strong; commitment rising; demand / monetization broad;
+- **BALANCE-SHEET AMPLIFIED EXPANSION** — headroom compressed or negative, but demand remains broad and external financing is available;
+- **CONCENTRATION-SENSITIVE EXPANSION** — current demand is strong but a material share depends on a small set of frontier-model / anchor customers;
+- **RETRENCHMENT WATCH** — commitments flatten / fall while demand or monetization weakens;
+- **CLEARING CANDIDATE** — commitment cuts + weak monetization + deteriorating financing begin to align.
+
+These are 04B descriptive states, not a standalone S1–S4 classifier.
+
+The escalation rule remains:
+
+> **negative headroom alone cannot produce RETRENCHMENT WATCH or CLEARING CANDIDATE.**
+
+A negative-headroom quarter must be decomposed into:
+- build acceleration;
+- operating-cash deterioration;
+- acquisition / strategic investment;
+- financing substitution;
+- or genuine demand weakness.
 
 ---
 
