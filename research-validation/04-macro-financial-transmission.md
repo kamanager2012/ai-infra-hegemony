@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.6
+# P0-4 · Macro-Financial Transmission Layer v0.7
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -678,6 +678,110 @@ Do not fill those columns using incompatible frequencies merely to make the tabl
 
 ---
 
+## 10A.6 Public-credit state layer: CMDI + NFCI Credit
+
+The public-credit layer now has an explicit two-indicator design.
+
+### A. NY Fed CMDI — market-functioning distress
+
+CMDI is a monthly summary of corporate-bond market functioning built from weekly primary- and secondary-market metrics, including:
+
+- issuance / primary pricing;
+- secondary pricing;
+- liquidity;
+- duration-matched / default-adjusted spread measures;
+- quoted-vs-traded pricing;
+- primary-vs-secondary pricing.
+
+The New York Fed also publishes rating-level readings for investment-grade and high-yield segments.
+
+Role in Phase II:
+
+> **CMDI answers whether corporate-bond-market functioning is becoming broadly distressed, not merely whether a spread moved.**
+
+This makes it a natural MF2 public-credit proxy and a useful cross-check against SLOOS.
+
+### B. Chicago Fed NFCI Credit — broad credit-condition direction
+
+The NFCI Credit Subindex isolates the credit component of the Chicago Fed National Financial Conditions Index.
+
+Interpretation rule:
+
+- **positive** → credit conditions tighter than the long-run average;
+- **negative** → credit conditions looser than the long-run average.
+
+The latest publicly visible observation reviewed in this pass, **2026-08-21**, was **-0.086**.
+
+That single point is not enough to claim “credit is easy.”
+
+It only says the broad credit subindex was modestly on the looser-than-average side at that date.
+
+### 10A.6A Why two public-credit indicators are better than one spread
+
+CMDI and NFCI Credit measure different things:
+
+| Indicator | Primary question | Best use |
+|---|---|---|
+| CMDI | is corporate-bond market functioning broadly distressed? | market-clearing / issuance / liquidity stress |
+| NFCI Credit | are aggregate credit conditions tighter or looser than historical average? | broad credit-state direction |
+| SLOOS | are banks tightening standards and is borrower demand changing? | non-price rationing / bank credit |
+| Project filings | can a specific AI borrower actually finance / refinance? | real transmission |
+
+The hierarchy becomes:
+
+```text
+Public market functioning
+    CMDI
+        ↓
+Broad credit state
+    NFCI Credit
+        ↓
+Bank rationing
+    SLOOS
+        ↓
+Borrower/project transmission
+    debt terms / maturities / covenant / issuance / cancellation
+```
+
+No single layer is allowed to stand in for the others.
+
+### 10A.6B Reproducibility rule
+
+The New York Fed states that a downloadable CMDI data file includes aggregate and rating-level values.
+
+Phase II should ingest that file only through an explicit, reproducible data path.
+
+Until that path is captured in the repository:
+
+- do not hand-copy chart values;
+- do not digitize interactive graphics;
+- do not reconstruct a synthetic series from screenshots;
+- do not substitute ICE OAS observations for CMDI.
+
+For NFCI Credit, a small number of cited point observations may be used, but the repository will not dump long third-party-served observation histories merely because FRED exposes them.
+
+The goal is a **reproducible research state**, not maximum table density.
+
+### 10A.6C Public-credit S4 rule
+
+Public-credit deterioration raises S4 weight only when at least two layers align:
+
+1. CMDI / public-market functioning deteriorates materially;
+2. NFCI Credit / SLOOS also tightens;
+3. and preferably one real AI borrower / project shows transmission:
+   - spread / coupon increase;
+   - shorter maturity;
+   - lower leverage;
+   - covenant tightening;
+   - refinancing difficulty;
+   - delay / cancellation.
+
+Therefore:
+
+> **credit-market stress without project transmission is context; project stress without broader credit deterioration is borrower-specific; both together are macro-financial S4 confirmation.**
+
+---
+
 ## 10B. New public monitoring instrument: private-credit direct-lending survey
 
 On **August 5, 2026**, the Federal Reserve Banks of New York and Dallas announced a pilot survey of the U.S. private-credit direct-lending market.
@@ -771,7 +875,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.5 conclusion
+## 14. v0.7 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -779,7 +883,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is now populated for 2022Q1–2026Q2. The next empirical task is to backfill consistent IG/HY credit-spread series and attach operating cash flow, CapEx, maturity and financing-support structure to the largest AI-infrastructure projects and buyers.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler self-funding history now spans 2022–2025; and the public-credit layer has a reproducible design using CMDI + NFCI Credit + SLOOS rather than a single proprietary spread series. The next empirical task is to capture the CMDI downloadable data path and extend the within-company quarterly OCF / CapEx / financing panel.
 
 ## Sources
 
