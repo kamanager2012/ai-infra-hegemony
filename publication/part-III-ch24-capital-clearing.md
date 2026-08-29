@@ -137,7 +137,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 ## 9. 什么才叫 S4 Capital Hard Landing
 
-本报告只有在以下五类变量出现广泛、持续且相互印证的恶化时，才把 S4 从压力测试上调为现实主情景：
+本报告只有在**多类因果独立的信号族**跨越不止一个主体或产业层，形成广泛、持续且相互印证的恶化时，才把 S4 从压力测试上调为现实主情景。下面五类是监测信号族，不是“五项必须全部满足”的 checklist：
 
 1. **Accounting**：impairment / write-down / disposal 明显增加；
 2. **Utilization / Revenue**：利用率与有效 AI revenue 持续弱于资产扩张；
@@ -145,7 +145,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 4. **Forward Commitment**：CapEx guidance、seller commitments、Anchor Buyer contracts 与 power commitments 明显放缓、改期或取消；
 5. **Demand Quality / Financing**：customer cash generation 走弱，supplier equity / credit support 或 refinancing dependency 上升，且第三方资本开始要求更高 risk premium 或缩减承诺。
 
-这里不要求五类信号在同一个季度同时出现，因为 accounting、project finance 与 market clearing 的时钟不同。
+这里不要求五类信号在同一个季度同时出现，因为 accounting、project finance 与 market clearing 的时钟不同。**Accounting 是 confirmation / severity evidence，不是 mandatory gate**：financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认。
 
 判定采用证据积累制：各信号按[第29章 §12A](part-IV-ch29-monitoring-framework.md)的披露频率原则逐期更新，不设统一固定阈值；只有多类信号在各自披露频率下持续恶化并相互印证时才上调 S4；信号方向分化时维持现状，并在监测框架中记录分歧。
 
@@ -159,7 +159,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 而不是已经确认的 AI-infrastructure bubble collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3] supply/capacity commitments 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
 
-这不证明未来一定软着陆。它只说明：**要宣布资本清算已经成为现实主线，还需要 utilization、clearing price、accounting losses 与 forward commitments 的同步证据。**
+这不证明未来一定软着陆。它只说明：**要宣布资本清算已经成为现实主线，仍需要 cross-signal confirmation + cross-actor causal breadth；utilization、market clearing、forward commitments 与 financing / real-economy evidence 必须形成独立交叉确认，Accounting 出现时用于强化严重度，但不是确认 S4 的必要条件。**
 
 ## References
 
