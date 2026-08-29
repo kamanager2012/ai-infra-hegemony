@@ -150,7 +150,30 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 完成这次 material-correction pass 后，正文重新冻结。
 
+### 8B. 2026-08-29 Developer Distribution material-event supplement
+
+2026-08-29，正式正文又被**定向重新开启一次**，原因不是一般扩写，而是核对并纳入一个发生在既定 evidence cutoff 之内的重大事件：2026-08-27 Reuters 转述 The Information 报道的 NVIDIA / Hugging Face reported acquisition。
+
+本次只修改与该事件直接相关的：
+
+- Ch02 NVIDIA system-stack / platform-power 边界；
+- Ch18 antitrust / vertical integration；
+- competitive-evidence matrix；
+- core evidence ledger / source index；
+- Phase II Developer Distribution Chokepoint validation。
+
+治理边界：
+
+- 交易状态保持为 **reported transaction**，不写成 completed acquisition；
+- 媒体交易报道保持 C-grade，Hugging Face 官方产品功能单独用 A-grade first-party docs 支撑；
+- 不把 Hugging Face ownership 自动写成 open-model IP ownership；
+- 不把 potential vertical foreclosure 自动写成 realized self-preferencing / software monopoly；
+- 不改变 S1–S4 定义与当前 S2 baseline judgment。
+
+完成上述定向补充后，正式正文再次冻结。
+
 ---
+
 
 ## 9. 对外使用边界
 
