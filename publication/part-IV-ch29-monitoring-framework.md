@@ -262,7 +262,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 ## 13. 更新纪律
 
-一条新闻不应该重写全书。
+一条新闻不应该重写本报告。
 
 只有当新事实改变了核心机制变量，并得到足够独立证据支持，才修改 scenario weighting。
 
