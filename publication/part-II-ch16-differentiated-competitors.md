@@ -43,6 +43,45 @@ Product clock 需要在短周期交付 performance、software 与 customer adopt
 
 因此，Intel 的复苏不能由一颗产品、一项 process milestone 或一座 fab 单独证明。High-NA HVM 是 manufacturing-execution 的重要正面信号，但 external foundry adoption、yield economics 与 customer trust 仍需独立验证。
 
+## 4A. 历史制度记忆：集中首先影响“谁决定节奏”，不等于“集中必然停滞”
+
+Intel 客户端 CPU 历史可以作为一个有边界的对照，但不能被写成“霸权必然挤牙膏”。
+
+Intel 自己在 2016–2017 年年度报告中披露，14nm 与下一代 10nm 的 process-technology cadence 正在拉长，公司计划在同一 node 上运行 multiple waves of products；2018 年又明确披露，10nm volume production 从原计划的 2018H2 延迟到 2019。[^10][^11]
+
+这说明的首先是：
+
+> **当一个技术/制造路线承担主要升级节奏时，process execution、architecture cadence 与客户换代节奏会更强地绑定在同一路线图上。**
+
+但这不能被反推为：
+
+> **“市场集中导致了 Intel 10nm 延迟。”**
+
+10nm 延迟有明确的 manufacturing / yield / implementation execution 因素，不能用市场结构代替工程因果。
+
+竞争恢复也没有简单发生为“Intel 内部突然加速”。AMD 在 **2017 年**推出第一代 Zen/Ryzen，重新建立高性能 x86 竞争；Apple 在 **2020 年**推出第一颗为 Mac 设计的 M1，开出另一条 vertically integrated client-compute path。[^12][^13]
+
+因此，这段历史更有价值的制度记忆是：
+
+> **当可执行第二系统很弱时，在位者对产业升级节奏拥有更大的定义权；当新的竞争真正出现，它往往通过另一套 architecture / manufacturing / system path 改写原有边界。**
+
+这与 2026 年 AI infrastructure 的相似处是 **migration cost 与 system definition**，而不是当前产品节奏：
+
+- Intel 客户端后期面对的是成熟市场与 process delay；
+- 2026 年 NVIDIA data-center stack 面对的是需求爆发、快速 roadmap 与 scarce-capacity allocation；
+- 前者更接近“升级节奏变薄”；
+- 后者当前更接近“想升级但资源、迁移和 quantity assurance 受限”。
+
+所以本报告**不把今天的 AI 紧缺称为“第二个 Intel 挤牙膏年代”**。
+
+真正需要观察的长期风险是：
+
+> **如果生产级第二 system stack 长期不能形成，那么今天由 scarce-layer access 与 migration cost 体现的“排队权”，未来可能进一步演变成由少数路线图决定“进步节奏”的权力。**
+
+反过来，如果 AMD、hyperscaler custom systems、open/runtime portability、China parallel alternatives 等形成可执行 production second path，则这一历史类比会失效或显著减弱。
+
+---
+
 ## 5. Qualcomm：从 Edge 改写 Cloud Demand
 
 Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 与 connectivity；公司 2026 年公开材料继续强调 Snapdragon X Series PC 上的本地 agentic AI 与 mobile on-device generative AI。[^5][^6]
@@ -114,3 +153,9 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 [^7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
 [^8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
 [^9]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
+
+
+[^10]: Intel Corporation, 2016 Form 10-K, lengthened utilization of 14nm and 10nm process technologies with multiple waves of products, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-17-000012/a10kdocument12312016q4.htm
+[^11]: Intel Corporation, 2018 Form 10-K, 10nm volume-production delay from 2H18 into 2019 and process-execution risks, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-19-000007/a12292018q4-10kdocument.htm
+[^12]: AMD, 2017-03-02, first Ryzen desktop processors based on the new Zen core architecture, https://www.amd.com/en/newsroom/press-releases/2017-3-2-amd-ryzen-tm-7-desktop-processors-featuring-recor.html
+[^13]: Apple, 2020-11-10, M1 as the first chip designed specifically for Mac, https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/
