@@ -63,6 +63,8 @@ dominant platform 仍然很大，但 buyer optionality 和 bargaining power 提�
 
 市场继续高速扩大，同时 value capture 集中在少数 system platforms 与 scarce-layer suppliers。
 
+对传统整机而言，S2 不是一个旁支背景：**高增长与高集中可以和 Non-AI Residual Capacity 偏紧、quantity assurance 分化、配置升级变慢或 upgrade tax 同期存在。** 这不等于所有整机都在衰退，而是说明增长的收益与资源压力可以同时分布在产业链不同位置。
+
 截至 2026 年 8 月，这是最接近当前事实组合的**基准状态**，不是十年固定预测。
 
 ## 4. S3 — Resource Hegemony / 资源霸权
