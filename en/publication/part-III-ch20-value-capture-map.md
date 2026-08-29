@@ -187,20 +187,30 @@ The correct framework is **AI Software Unit Economics**:
 
 A defensible application layer needs to convert model capability into proprietary workflows, data, distribution, retention, and measurable business outcomes.
 
-## 10. Consumer Electronics: not "losing to AI," but carrying residual-capacity pressure
+## 10. End Systems: not "losing to AI," but carrying residual-capacity and supply-assurance pressure
 
-Smartphones, PCs, gaming, and general servers remain large markets.
+Smartphones, PCs, automotive, industrial systems, robotics, and selected high-reliability electronics remain important end systems and strategic platforms.
 
-Their primary burden is not "being replaced by AI" but the reallocation of shared upstream resources:
+Their primary burden is not being “replaced by AI.” It is the reprioritization of shared or adjacent upstream resources.
 
-- advanced-logic allocation;
-- DRAM residual supply;
-- consumer-GPU availability;
-- component pricing.
+A better description of the end-system layer is:
 
-This layer is better described as a **residual-capacity pressure bearer**.
+> **residual-capacity / supply-assurance pressure bearer**
 
-As AI/server demand absorbs high-value incremental resources, traditional end markets can experience slower upgrades, changed configurations, and higher costs.
+The physical channels differ:
+
+- smartphones / PCs are more directly exposed to selected leading-edge logic, DRAM/LPDDR/NAND, consumer GPUs, and selected packaging;
+- automotive / industrial systems are more exposed to mature memory, MCU/analog, power, qualification, and long-life supply;
+- robotics connects industrial electronics with edge/cloud AI;
+- defense / aerospace / space electronics are more constrained by trusted, qualified, low-volume, long-life, RF/power, rad-hard, and special-process continuity than by direct competition for the same HBM pool.
+
+The end-system layer should therefore not receive one universal profit ranking, and not every downstream pressure should be attributed to AI.
+
+The more useful variables are:
+
+> **shared-resource exposure + buyer power + qualification rigidity + supply assurance + product-mix reallocation**
+
+Chapter 3 defines the resource mechanism; Chapter 21 develops the observed pricing, configuration, longevity, and allocation transmission.
 
 ## 11. Custom silicon redraws the flow of money without necessarily reducing upstream demand
 
