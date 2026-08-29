@@ -266,6 +266,18 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 
 > **Power 已经进入与 HBM、advanced packaging 并列的核心物理约束层，但公开证据尚不足以证明它已经单独成为整个 AI infrastructure 的唯一主导瓶颈。**
 
+## 12. 什么事实会迫使本章改判
+
+应下调 power / LPS 作为核心约束的判断，如果持续出现：
+
+- Time-to-Power 显著缩短；
+- secured / contracted projects 高比例、按期转化为 energized capacity；
+- transformer、substation、grid interconnection 与 cooling 不再形成主要 deployment delay；
+- energized capacity 增长持续快于 deployable compute demand；
+- regional power price / availability 不再显著影响 site selection。
+
+headline GW 增加本身不足以证明 power bottleneck 已解除，必须看到 state transition 与实际 utilization。
+
 ## References
 
 [^1]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
