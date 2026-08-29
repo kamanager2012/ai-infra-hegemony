@@ -14,6 +14,18 @@ Agent-native software 不同。一次任务可能触发 retrieval、reasoning、
 
 > **workflow execution**
 
+## 1A. 2026 Adoption Baseline：AI 已广泛进入企业，但 Agent Deployment 仍处早期
+
+Stanford AI Index 2026 汇总的组织调查显示，**88%** 的受访组织报告已经使用 AI，**70%** 报告至少一个业务功能使用 Generative AI；但 AI agent 在几乎所有业务功能中的 deployment 仍处于**个位数比例**。[^3]
+
+这组数据的意义不是给“Agent 经济”下一个固定渗透率结论，而是提供当前阶段定位：
+
+> **AI adoption 已广泛发生，但从 assistant / feature use 走向可长期运行的 autonomous or semi-autonomous workflow，仍处于早期扩散阶段。**
+
+因此，Agent-native Software 的十年判断必须同时处理两件事：一方面，潜在 workflow volume 很大；另一方面，production reliability、review burden、integration 与 unit economics 尚未被大规模证明。
+
+Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对话增加到更长时间运行的 agentic tasks，并观察到更高 Compute 消耗与更高估计工作价值之间存在相关性。[^4] 但该数据来自 Anthropic 自身产品使用样本，不能直接代表整个企业软件市场。
+
 ## 2. 不存在统一的“AI SaaS 毛利率终点”
 
 不同 agent 产品的 variable cost 取决于 model choice、context length、cache、retrieval、tool/API、failure/retry、human review、pricing model 与 task depth。
@@ -169,6 +181,8 @@ AI 正在把一部分 software 从低边际成本复制品变成实时消耗 com
 
 [^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
 [^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” organizational AI adoption, Generative AI use and early-stage agent deployment, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
+[^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, long-running agentic tasks and the relationship between compute use and estimated artifact value; first-party product sample, https://www.anthropic.com/research/economic-index-june-2026-report
 
 ## 交叉引用
 
