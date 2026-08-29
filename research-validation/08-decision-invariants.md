@@ -1,4 +1,4 @@
-# Phase II · Decision Invariants v0.2
+# Phase II · Decision Invariants v0.3
 
 > **Status:** Research-side strategic layer; not part of the frozen 32-chapter formal report.  
 > **Goal:** identify low-regret principles that remain valid across S1–S4, rather than giving one strategy per scenario.
@@ -24,11 +24,13 @@ Those are scenario-dependent choices.
 
 ---
 
-# 2. Invariant 1 — Optimize verified workflow economics, not model-unit price
+# 2. Invariant 1 — Verify economics at the decision-relevant outcome, not the input-unit price
 
-Across every scenario, the economic unit that matters is:
+Across every scenario, the economic unit must be the **decision-relevant verified outcome**, not an input-unit price.
 
-> **cost per verified successful workflow outcome**
+For an enterprise workflow, the preferred unit is:
+
+> **cost per verified successful workflow outcome (VSWO)**
 
 Why it survives S1–S4:
 
@@ -41,13 +43,13 @@ Decision rule:
 
 > Do not increase long-duration compute commitment faster than verified workflow demand and accepted-outcome economics can justify.
 
-Observable implementation:
-- VSWO count;
-- cost per VSWO;
-- human review minutes;
-- retry/remediation;
-- cycle time;
-- utilization.
+Observable implementation depends on actor:
+- enterprise/application buyer → VSWO, cost/VSWO, human review, retry/remediation, realized business value;
+- hyperscaler → workload utilization, contracted demand, cloud/AI monetization, contribution economics;
+- supplier → repeat/qualified end demand, customer concentration, cancellation/commitment quality;
+- infrastructure developer → contracted → energized → utilized capacity, tenant cash-flow coverage;
+- capital provider → DSCR, contracted cash flow, refinancing state, residual value;
+- policymaker → operational capacity, continuity, qualification and realized—not announced—industrial output.
 
 ---
 
@@ -135,9 +137,11 @@ This is especially important when short-lived compute demand is financed with lo
 
 ---
 
-# 6. Invariant 5 — Stage-gate physical capacity
+# 6. Invariant 5 — Stage-gate irreversible commitments
 
-For every major infrastructure commitment use:
+For every major irreversible commitment, release capital / organizational commitment against observable state transitions.
+
+For physical infrastructure use:
 
 > **Announced → Contracted/Secured → Permitted → Construction → Energized → Utilized**
 
@@ -407,10 +411,10 @@ The action “prefer transferability” is not.
 
 After falsification, the cleaner hard set is:
 
-1. **Measure verified workflow economics.**
+1. **Verify economics at the decision-relevant outcome.**
 2. **Match commitment duration to demand certainty.**
 3. **Separate asset clocks.**
-4. **Stage-gate physical capacity.**
+4. **Stage-gate irreversible commitments.**
 5. **Measure scarce layers separately.**
 6. **Separate buyer economics from seller economics.**
 7. **Separate financing quality / identity from financing quantity.**
@@ -429,68 +433,262 @@ A smaller invariant set is more credible because every item has survived an expl
 
 ---
 
-# 14. Actor map
+# 14. Actor-specific implementation-cost test v0.3
 
-## Enterprise / AI application buyer
+v0.3 asks a stricter question than cross-scenario falsification:
 
-Highest-value invariants:
-1. VSWO economics;
-2. executable second path;
-3. commitment-duration matching;
-4. trigger-based decisions.
+> **Can each hard invariant be implemented by the actor who is supposed to use it, at an identifiable operational cost?**
 
-## Model company / Anchor Compute Buyer
+A principle that is directionally true but has no observable owner, data field, review cadence, or decision consequence is only a **meta-principle**, not yet an operational invariant.
 
-Highest-value invariants:
-1. verified workload growth;
-2. commitment-duration matching;
-3. financing independence;
-4. power/compute state-gating;
-5. transferability.
+## 14.1 Implementation-cost scale
 
-## Hyperscaler
+The cost labels below measure **implementation burden**, not economic desirability.
 
-Highest-value invariants:
-1. buyer ROI separated from seller economics;
-2. portfolio of system stacks;
-3. utilization before next capital step;
-4. physical-layer bottleneck measurement;
-5. asset-clock matching.
+- **L — Low:** can usually be implemented with existing finance / procurement / operations data and a management review rule.
+- **M — Medium:** requires cross-functional data joins, new governance, periodic testing, or additional contractual / operational telemetry.
+- **H — High:** requires new qualification, duplicated capability, contractual data rights, capital re-architecture, or difficult external data collection.
 
-## Semiconductor / system supplier
+A high-cost invariant can remain hard if the **measurement / decision rule** is still mandatory. The invariant does not require buying every hedge.
 
-Highest-value invariants:
-1. track end-demand quality;
-2. avoid treating prepayment/financing support as identical to organic demand;
-3. preserve product/customer optionality;
-4. distinguish short-cycle clearing from structural demand loss.
+## 14.2 Six core actors
 
-## Data-center / power / infrastructure developer
+The test uses the six actors most relevant to the report's capital-allocation decisions:
 
-Highest-value invariants:
-1. state-gated capital release;
-2. duration matching;
-3. transferability;
-4. financing independence;
-5. customer concentration control.
+1. Enterprise / AI application buyer
+2. Hyperscaler / large platform buyer
+3. Semiconductor / system supplier
+4. Data-center / power / infrastructure developer
+5. Capital provider
+6. Policymaker
 
-## Capital provider
+A frontier-model company can be mapped onto one or more of these roles depending on the decision:
+- enterprise/workload owner;
+- hyperscale compute buyer;
+- infrastructure sponsor / borrower.
 
-Highest-value invariants:
-1. buyer economics;
-2. residual value;
-3. refinancing dependence;
-4. asset duration;
-5. independent third-party risk bearing.
+## 14.3 Ten-invariant × six-actor implementation matrix
 
-## Policymaker
+| Hard invariant | Enterprise | Hyperscaler | Supplier | Infra developer | Capital provider | Policymaker | Operational verdict |
+|---|---|---|---|---|---|---|---|
+| 1. Verify economics at decision-relevant outcome | **M** — VSWO + realized value | **M/H** — workload utilization + monetization + customer demand | **M/H** — end-demand quality often outside own boundary | **M** — contracted→utilized + tenant economics | **M** — DSCR / cash-flow coverage / residual value | **H** — realized industrial output / continuity across firms | **Hard, but actor-specific denominator required** |
+| 2. Match commitment duration to demand certainty | **L/M** | **M** | **M** | **M/H** | **M** | **M/H** | **Hard and directly operational** |
+| 3. Separate asset clocks | **L/M** | **H** | **M/H** | **H** | **M/H** | **H** | **Hard; data architecture burden can be high** |
+| 4. Stage-gate irreversible commitments | **L/M** | **M/H** | **M** | **H** | **M** | **M/H** | **Hard; physical-state version only when relevant** |
+| 5. Measure scarce layers separately | **M** | **H** | **H** | **M/H** | **H** | **H** | **Hard meta-relationship; implementation requires actor-specific layer map** |
+| 6. Separate buyer economics from seller economics | **M** | **M/H** | **H** | **M/H** | **M** | **H** | **Hard; external-side visibility is the main burden** |
+| 7. Separate financing identity/quality from quantity | **L/M** | **M** | **M** | **M/H** | **L/M** | **M/H** | **Hard and measurable** |
+| 8. Trigger decisions by state changes, not calendar dates | **L** | **L/M** | **L/M** | **L/M** | **L** | **M** | **Hard; lowest-cost invariant** |
+| 9. Price resilience rather than maximize redundancy | **M** | **H** | **M/H** | **H** | **M** | **H** | **Hard decision rule; actual redundancy remains conditional** |
+| 10. Attach falsification variables to major commitments | **L/M** | **M** | **M** | **M** | **L/M** | **M** | **Hard and broadly executable** |
 
-Highest-value invariants:
-1. system-level continuity rather than one-fab metrics;
-2. priced resilience;
-3. qualified second sources;
-4. power + semiconductor + capital clocks;
-5. avoid confusing announced capacity with operational capability.
+### 14.3A First result: none of the ten fails the actor test, but two need explicit actor-specific instantiation
+
+The test does **not** demote another invariant.
+
+However, it exposes two principles that are too abstract if left uninstantiated:
+
+1. **Invariant 1** cannot mean VSWO for every actor.  
+   It is now:
+   > verify economics at the actor's decision-relevant outcome.
+
+2. **Invariant 5** cannot mean every actor directly measures every wafer/HBM/packaging/power denominator.  
+   It means:
+   > build the layer map relevant to the commitment, preserve denominator identity, and identify which layer is currently binding.
+
+These are hard relationships, but their observables differ by actor.
+
+## 14.4 Actor implementation cards
+
+### 14.4.1 Enterprise / AI application buyer
+
+**Minimum operating set**
+
+| Invariant | Minimum implementation |
+|---|---|
+| Outcome economics | workflow_id, VSWO, human minutes, AI/tool cost, persistence, realized value where observable |
+| Duration matching | contract / reservation tenor tied to verified workflow demand horizon |
+| Asset clocks | separate model/API, software integration, hardware/cloud commitment and data-governance lives |
+| Stage-gating | pilot → verified production → scaled deployment; do not jump directly from demo to long-duration commitment |
+| Scarce layers | provider/model/runtime/data dependency map rather than semiconductor-layer reconstruction |
+| Buyer/seller economics | own ROI separately from vendor growth / benchmark claims |
+| Financing identity | distinguish normal Opex/CapEx from vendor credits / subsidized adoption |
+| State triggers | scale / cut based on VSWO, reopen, utilization and value thresholds |
+| Priced resilience | second provider / exportability only when continuity value exceeds carrying cost |
+| Falsification | predefine rollback / expansion triggers |
+
+**Main burden:** workflow telemetry and joining business value to technical usage.
+
+### 14.4.2 Hyperscaler / large platform buyer
+
+**Minimum operating set**
+
+- workload-level utilization and monetization by infrastructure cohort;
+- cash PP&E vs finance leases vs contracted capacity;
+- accelerator/network/shell/power asset clocks;
+- capacity state gates through energized/utilized;
+- HBM/packaging/network/power bottlenecks as separate denominators;
+- buyer ROI separately from seller/vendor economics;
+- debt/equity/lease/contract-backed financing identity;
+- RPO/bookings/customer-concentration state triggers;
+- priced multi-stack / geographic / power resilience;
+- explicit falsification around utilization, RPO, margin and capacity cuts.
+
+**Main burden:** cross-layer telemetry and organizational ownership across cloud, finance, procurement and infrastructure.
+
+### 14.4.3 Semiconductor / system supplier
+
+**Minimum operating set**
+
+- qualify end-demand quality rather than only orders / prepayments;
+- match capacity commitments to customer demand duration;
+- separate fab/tooling/packaging/inventory/product-cycle clocks;
+- stage capital release across qualification and capacity milestones;
+- keep wafer / packaging / memory / power / customer concentration denominators separate;
+- seller revenue/margin separately from customer utilization / ROI;
+- supplier equity / guarantees / financing support separately from organic demand;
+- trigger capacity changes from allocation, cancellation, lead-time and utilization states;
+- price customer/product/geographic resilience rather than maximize duplication;
+- define falsification variables for every major capacity commitment.
+
+**Main burden:** customer-side economic visibility. This is why supplier-assisted financing must not be mistaken for independent demand.
+
+### 14.4.4 Data-center / power / infrastructure developer
+
+**Minimum operating set**
+
+- contracted capacity must progress to energized and utilized capacity;
+- tenant demand duration must match lease / debt / power / land duration;
+- shell, electrical, cooling, GPU/server and grid clocks remain separate;
+- capital draw is stage-gated against permits, construction, power and tenant milestones;
+- power, networking, compute and customer concentration are separate bottlenecks;
+- landlord economics are separated from tenant workload economics;
+- sponsor support / guarantee / project debt / prepayment identities remain separate;
+- refinance and delivery triggers are state-based;
+- redundancy / alternative tenants are priced against carrying cost;
+- DSCR, customer renewal, construction delay and utilization are falsification variables.
+
+**Main burden:** long-duration commitments create the highest duration-mismatch and refinancing implementation cost.
+
+### 14.4.5 Capital provider
+
+**Minimum operating set**
+
+- underwrite cash-flow / DSCR / residual-value outcome rather than headline AI demand;
+- match debt maturity and amortization to contracted demand / asset life;
+- separate GPU, shell, power and contract clocks;
+- release capital against project milestones and collateral state;
+- model each collateral / supply / customer bottleneck separately;
+- distinguish borrower revenue from end-customer economics;
+- classify customer prepayment, sponsor equity, guarantees, debt and third-party risk capital separately;
+- use covenant / liquidity / refinancing states rather than calendar forecasts;
+- price collateral / guarantor / customer diversification rather than require maximal diversification;
+- define covenant, DSCR, utilization and refinancing falsification triggers at underwriting.
+
+**Main burden:** obtaining enough project/customer data rights to monitor after close.
+
+### 14.4.6 Policymaker
+
+**Minimum operating set**
+
+- measure realized production/continuity outcomes, not subsidy announcements;
+- match policy commitment duration to strategic need and technology cycle;
+- separate fab/equipment/material/HBM/packaging/power/workforce clocks;
+- stage public support against qualification, construction and operational milestones;
+- preserve denominator identity across capacity, revenue, wafers, bits, MW and utilization;
+- distinguish company revenue/market capitalization from buyer/system welfare;
+- separate private risk capital from guarantees/subsidies/state-supported finance;
+- trigger policy changes from operational state changes rather than target-year slogans;
+- price resilience against fiscal / efficiency cost;
+- attach sunset / scale-up / rollback criteria to major industrial-policy commitments.
+
+**Main burden:** cross-firm observability and political difficulty of stopping programs after sunk cost.
+
+## 14.5 Which invariants are cheapest and hardest to operationalize
+
+### Lowest implementation burden
+
+Across most actors:
+
+1. **State-triggered decisions**
+2. **Falsification variables beside commitments**
+3. **Commitment-duration matching**
+
+These mainly require governance discipline and explicit decision rules.
+
+### Highest implementation burden
+
+Across most actors:
+
+1. **Separate asset clocks**
+2. **Measure scarce layers separately**
+3. **Price resilience**
+4. **Separate buyer and seller economics**
+
+These often require:
+- cross-organization data;
+- third-party/customer information;
+- qualification/testing;
+- contractual rights;
+- capital or architecture changes.
+
+The implication is important:
+
+> **hard invariant does not mean cheap invariant.**
+
+A principle can be robust across scenarios while still being expensive to execute.
+
+## 14.6 Hard invariant vs hard action
+
+v0.3 clarifies one final distinction:
+
+> **the invariant is the decision rule, not the maximum-action version of that rule.**
+
+Examples:
+
+- Hard invariant: **price resilience**  
+  Conditional action: maintain two fully production-qualified stacks.
+
+- Hard invariant: **stage-gate commitment**  
+  Conditional action: stop a project at a specific gate.
+
+- Hard invariant: **measure financing quality**  
+  Conditional action: reject debt-funded demand.
+
+- Hard invariant: **measure transferability / residual-value sensitivity through asset clocks and resilience economics**  
+  Conditional action: choose the more portable asset.
+
+This prevents conditional strategies from re-entering the hard set through implementation language.
+
+## 14.7 v0.3 operational verdict
+
+After:
+1. cross-S1–S4 falsification; and
+2. six-actor implementation-cost testing,
+
+the ten hard invariants still survive.
+
+But the formulation is now cleaner:
+
+1. **Verify economics at the decision-relevant outcome.**
+2. **Match commitment duration to demand certainty.**
+3. **Separate asset clocks.**
+4. **Stage-gate irreversible commitments.**
+5. **Measure scarce layers separately.**
+6. **Separate buyer economics from seller economics.**
+7. **Separate financing identity / quality from quantity.**
+8. **Trigger decisions by state changes, not calendar dates.**
+9. **Price resilience rather than maximize redundancy.**
+10. **Attach falsification variables to major commitments.**
+
+Conditional strategies remain:
+- maintain an executable second path;
+- prefer independently financed demand;
+- prefer transferability over optimization.
+
+No additional invariant is promoted.
+
+No conditional strategy is promoted back into the hard set.
 
 ---
 
@@ -498,7 +696,7 @@ Highest-value invariants:
 
 | Decision | Invariant? | Why |
 |---|---|---|
-| Measure cost per VSWO | Yes | needed in every demand state |
+| Verify decision-relevant outcome economics | Yes | every actor needs a verified outcome denominator, though VSWO is enterprise-specific |
 | Preserve executable optionality | Conditional | option value can be positive while a continuously maintained second production path is not worth its carrying cost |
 | Match duration to demand certainty | Yes | protects both upside and downside |
 | Lock maximum capacity early | No | only rational under strong scarcity/demand certainty |
@@ -518,7 +716,7 @@ After cross-scenario falsification, the report’s most robust strategic conclus
 
 It is:
 
-> **organizations should maximize the quality of their future choices by tying irreversible commitments to verified demand, preserving executable alternatives, matching asset/financing duration to demand duration, and defining in advance the evidence that would force them to change course.**
+> **organizations should maximize the quality of future choices by tying irreversible commitments to verified economic outcomes, matching asset/financing duration to demand duration, pricing resilience and optionality explicitly, and defining in advance the evidence that would force them to change course.**
 
 This is stronger than a point forecast because it remains useful when the forecast is wrong.
 
@@ -532,4 +730,4 @@ Phase II now applies the stricter test explicitly:
 
 > **Which recommendations survive all four scenarios?**
 
-v0.2 reduces the hard set to ten principles. Executable second paths, self-financing preference, and transferability remain valuable, but only under observable cost / uncertainty / continuity conditions. Everything else remains conditional strategy.
+v0.3 keeps the hard set at ten after six-actor implementation-cost testing. Executable second paths, self-financing preference, and transferability remain valuable only under observable cost / uncertainty / continuity conditions. The actor test does not add new invariants; it makes the existing ten operational.
