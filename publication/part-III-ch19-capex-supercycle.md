@@ -41,6 +41,24 @@ Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purch
 
 ---
 
+## 2A. Corporate CapEx 已不再等于全部 AI Infrastructure Capital Formation
+
+到 2026 年 8 月，AI infrastructure 的资本形成已经开始明显超出 hyperscaler corporate CapEx：
+
+- operating lease / finance lease 可以改变 reported CapEx identity；
+- third-party infrastructure capital 可以由独立 vehicles 承接；
+- data-center developer 可以 build / own / operate，再通过长期 lease 回收；
+- seller 可以通过 equity / credit enhancement 支持项目；
+- PPA / generation / grid investment 可能出现在完全不同主体的资产负债表。
+
+因此：
+
+> **Hyperscaler CapEx 是重要观察变量，但已经不是 AI infrastructure capital formation 的完整分母。**
+
+这也是为什么 2026 年的新 compute-financing platform、PORTS-Pike LPS structure 与 Anchor Buyer long-duration contracts 必须单独进入资本分析。
+
+完整融资结构见[第23章：AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)。
+
 ## 3. CapEx 的真正结构：不同久期资产被绑定到同一 AI workload
 
 AI infrastructure 不是一次性的 server purchase，而是多个经济寿命完全不同的资产共同建设：
