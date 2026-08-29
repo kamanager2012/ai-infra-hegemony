@@ -255,7 +255,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 目前公开证据尚不足以证明这一第二个 frontier resource center 已经达到与全球主栈等价的完整规模。长鑫已经进入公开资本市场并扩大 conventional DRAM 产业化能力，但这不能替代 HBM-class memory、advanced packaging 与其他 frontier layers 的独立验证；SMIC 5.1% 也只是 foundry revenue share，而非 frontier capability。
 
-因此，当前更准确的状态是：**中国已经跨过“没有替代系统”的阶段，production-grade parallel stack 正在形成；但 autonomous frontier closure 尚未在所有关键 upstream 与 infrastructure layers 获得规模化公开证据。**
+因此，当前更准确的状态是：**中国已经跨过“没有替代系统”的阶段，frontier parallel stack 已出现真实迭代与部分 production deployment；但按本章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已经闭合。Autonomous Frontier Closure 的证据门槛更高，目前同样未满足。**
 
 ## 13. 当前判断与证伪条件
 
