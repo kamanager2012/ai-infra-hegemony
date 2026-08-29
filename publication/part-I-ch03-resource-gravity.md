@@ -133,7 +133,7 @@ TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^
 
 ## 7. Advanced Logic 与 Packaging：共享资源，但不是同一个物理池
 
-TSMC 2025 smartphone platform 占全年 net revenue **29%**，HPC 为 **58%**。[^6]
+TSMC 2025 smartphone platform 占全年 net revenue **29%**，HPC 为 **58%**。[^5]
 
 这说明 HPC 已成为最大的 revenue platform，但这些是收入结构，不是 customer-level wafer allocation。
 
@@ -232,4 +232,4 @@ AI 对传统市场的传导强度取决于三个条件：
 [^2]: TrendForce, 2026-03-31, allocation fulfillment and higher-price procurement by OEMs/module makers, https://www.trendforce.com/presscenter/news/20260331-12995.html
 [^3]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, HBM3E wafer-supply trade ratio versus DDR5, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
-[^6]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
+[^5]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
