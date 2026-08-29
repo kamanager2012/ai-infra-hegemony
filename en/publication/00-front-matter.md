@@ -22,6 +22,20 @@ The report separates:
 
 The objective is not to produce one deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be continuously tested against later public evidence. Facts emerging after **August 28, 2026** may be used to re-evaluate or falsify the framework or to initiate a new research cycle, but they do not automatically enter the frozen formal text or the report's evidence snapshot unless the text freeze is explicitly reopened.
 
+### Entry point for end-system and industrial-supply readers
+
+This report is not arguing that “only AI matters.” Smartphones, PCs, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important.
+
+The core question is:
+
+> **When AI/HPC demand with higher willingness to pay, longer capacity commitments, and stronger capital formation changes the priority of shared or adjacent upstream resources, can non-AI end systems still obtain enough, stable, affordable supply on their own BOM, qualification, lifecycle, and product cadence?**
+
+If you come from consumer electronics, automotive, industrial systems, robotics, or high-reliability supply chains, a useful first pass is:
+
+**Ch01 → Ch03 → Ch21 → Ch20 §10 → Ch32**
+
+NVIDIA's system stack, hyperscalers, China's parallel stack, and S1–S4 can be read on a second pass as mechanism background.
+
 ## Evidence boundary
 
 The report relies primarily on:
