@@ -108,6 +108,8 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 - impairment / write-down 上升；
 - customer financing capacity 走弱，同时 supplier equity / credit support 或 refinancing dependency 上升。
 
+这些是**典型信号族，不是 five-of-five mandatory gate**。S4 的确认依赖 cross-signal confirmation + cross-actor / cross-layer causal breadth。Accounting impairment 属于 confirmation / severity evidence，而不是 prerequisite；financing-led 或 real-economy clearing 可以在 qualifying write-down 出现之前被确认。
+
 ### 清算顺序
 
 首先承压通常是：
@@ -255,7 +257,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 同一批资本证据（如 **>US$500B** mobilization target、**US$50B** frontier-lab 投资、**2 GW** credit support）[^7][^8][^9]在代理信号健康时支持 S2/S3 的 infrastructure coordination，在代理信号广泛、持续恶化时支持 S4 权重上升；判别不依赖任何单点数据。
 
-边界情形：若需求增速显著放缓但不触发五类 S4 信号，则按 substitution 强度归属——替代规模化扩大则 S1 权重上升；scarce-layer 仍紧则归入 S2（此时"需求高"应读作"需求增速仍高于有效供给增速"）。
+边界情形：若需求增速显著放缓，但尚未在多类 S4 信号族之间形成足够的 cross-signal confirmation 与 causal breadth，则按 substitution 强度归属——替代规模化扩大则 S1 权重上升；scarce-layer 仍紧则归入 S2（此时"需求高"应读作"需求增速仍高于有效供给增速"）。
 
 ## 12B. 校准状态：这是公开代理状态机，不是已完成统计校准的分类器
 
