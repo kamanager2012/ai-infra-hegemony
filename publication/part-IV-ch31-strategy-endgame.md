@@ -62,6 +62,8 @@ AI workload 是否能够产生足够现金流覆盖：
 
 长期 compute demand 是由谁的资产负债表承担？
 
+2026 年 8 月的新结构已经显示，compute financing 正从单一 corporate CapEx 扩展到 third-party capital、LPS credit support 与 seller-assisted financing。[^4][^5]
+
 需要区分：
 
 - independently financed customer demand；
