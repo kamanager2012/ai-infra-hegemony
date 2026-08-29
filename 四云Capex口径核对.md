@@ -92,4 +92,4 @@ Meta 2025 公司口径：69,691 + 2,524 = 72,215（公司稿写 $72.22 billion�
 - Meta 2025 actual：https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
 
 
-> 2026 年最新口径的交叉检查见 [《核心证据台账》](核心证据台账.md) 与 [第八卷](vol-08.md)。
+> 2026 年最新口径的交叉检查见 [《核心证据台账》](核心证据台账.md) 与 [第19章：AI 基础设施 CapEx 超级周期](publication/part-III-ch19-capex-supercycle.md)。
