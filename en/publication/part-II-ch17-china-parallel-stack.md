@@ -304,7 +304,7 @@ The cited May 27, 2026 registration prospectus does not disclose an HBM product 
 
 The most accurate current state is therefore:
 
-> **China has moved beyond the stage of "no alternative system," but has not yet crossed the threshold of globally equivalent scaled closure across all critical layers.**
+> **China has moved beyond the stage of "no alternative system," and a real frontier parallel stack is iterating with partial production deployment. But under this chapter's seven Production-Grade Gates, public evidence is still insufficient to confirm that a complete production-grade frontier parallel stack has closed. Autonomous Frontier Closure remains a still higher and unproven threshold.**
 
 ## 13. Current judgment and falsification
 
