@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.8
+# P0-4 · Macro-Financial Transmission Layer v0.9
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -707,7 +707,80 @@ The correct monitor is therefore:
 
 Those are economically opposite states.
 
-### 10A.5E Quarterly expansion protocol for the other hyperscalers
+### 10A.5E Quarterly pilot — Alphabet 2024Q1–2026Q2
+
+Alphabet is the second clean quarterly case because its filings report quarter-specific:
+
+- operating cash flow;
+- capital expenditures;
+- company-defined free cash flow = OCF − CapEx.
+
+| Quarter | OCF US$B | CapEx US$B | Self-funding headroom / FCF US$B |
+|---|---:|---:|---:|
+| 2024Q1 | 28.8 | 12.0 | 16.8 |
+| 2024Q2 | 26.6 | 13.2 | 13.4 |
+| 2024Q3 | 30.7 | 13.1 | 17.6 |
+| 2024Q4 | 39.1 | 14.3 | 24.8 |
+| 2025Q1 | 36.2 | 17.2 | 19.0 |
+| 2025Q2 | 27.7 | 22.4 | 5.3 |
+| 2025Q3 | 48.4 | 24.0 | 24.4 |
+| 2025Q4 | 52.4 | 27.9 | 24.6 |
+| 2026Q1 | 45.8 | 35.7 | 10.1 |
+| 2026Q2 | 39.1 | 44.9 | **-5.9** |
+
+### What the Alphabet pilot shows
+
+The sequence is not monotonic.
+
+- 2024: headroom remains strongly positive while technical-infrastructure CapEx rises.
+- 2025Q2: headroom compresses sharply as CapEx steps up.
+- 2025H2: OCF rebounds strongly and headroom widens again.
+- 2026Q1: CapEx rises to roughly US$35.7B while headroom remains positive.
+- 2026Q2: CapEx reaches roughly **US$44.9B**, exceeding quarterly OCF of roughly **US$39.1B** and producing company-defined FCF of about **-US$5.9B**.
+
+At the same time:
+
+- Alphabet had guided 2026 CapEx to **US$175–185B**;
+- Q2 2026 financing included roughly **US$49.6B** of net equity proceeds explicitly available for general corporate purposes including scaling AI infrastructure / global compute;
+- Q1 2026 also included **US$31.1B** of senior-note net proceeds.
+
+This is a clean example of **Layer 1 self-funding compression being offset by Layer 2 balance-sheet amplification**.
+
+It is not, by itself, a distress event.
+
+### 10A.5F Meta vs Alphabet: same headroom signal, different financing state
+
+Both Meta and Alphabet show rapid 2026 infrastructure-intensity increases.
+
+But the signal must be decomposed:
+
+| 2026Q2 | Meta | Alphabet |
+|---|---:|---:|
+| OCF | US$31.9B | US$39.1B |
+| Company-comparable infrastructure CapEx | US$31.1B | US$44.9B |
+| Headroom / FCF | US$0.8B | **-US$5.9B** |
+| Balance-sheet financing observation | US$24.9B long-term debt issuance in Q2 | ~US$49.6B equity raise in Q2; US$31.1B senior notes in Q1 |
+
+The correct read is not:
+
+> “Alphabet is in worse shape than Meta.”
+
+The correct read is:
+
+> **both firms are moving from abundant self-funding headroom toward a regime where corporate financing structure becomes more relevant to marginal infrastructure expansion.**
+
+To turn this into S4 evidence, the panel would still need deterioration in:
+- cloud / AI monetization;
+- utilization;
+- financing terms;
+- forward commitments;
+- or asset impairment / retrenchment.
+
+Without those, the current state is better described as **high-intensity expansion with balance-sheet amplification**.
+
+---
+
+### 10A.5G Quarterly expansion protocol for the other hyperscalers
 
 The Meta pilot defines the template for Microsoft / Alphabet / Amazon.
 
@@ -994,7 +1067,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.8 conclusion
+## 14. v0.9 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1002,7 +1075,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler self-funding history spans 2022–2025; Meta now provides the first full 2024Q1–2026Q2 quarter-level OCF / CapEx pilot; and the public-credit layer uses CMDI + NFCI Credit + SLOOS rather than a single proprietary spread series. The next empirical task is to resolve the stable CMDI direct-file path and replicate the Meta quarterly protocol for Microsoft, Alphabet, and Amazon.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler annual history spans 2022–2025; Meta and Alphabet now both have 2024Q1–2026Q2 quarter-level self-funding pilots; and the public-credit layer uses CMDI + NFCI Credit + SLOOS rather than a single proprietary spread series. The next empirical task is to resolve the stable CMDI direct-file path and replicate the quarterly protocol for Microsoft and Amazon.
 
 ## Sources
 
@@ -1048,3 +1121,17 @@ The quarterly macro backbone is populated for 2022Q1–2026Q2; the hyperscaler s
 - Meta FY2025 results / 10-K — 2025 OCF / PP&E / finance-lease principal and future lease obligations: https://www.sec.gov/Archives/edgar/data/1326801/000162828026025534/meta-12312025x10kars.htm
 - Amazon 2024 Form 10-K — 2022–2024 OCF / PP&E purchases: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm
 - Amazon 2025 Form 10-K — 2023–2025 OCF / PP&E purchases and FCF reconciliation: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+
+
+## Alphabet quarterly-pilot sources
+
+- Alphabet 2024Q1 Form 10-Q — OCF US$28.8B; CapEx US$12.0B: https://www.sec.gov/Archives/edgar/data/1652044/000165204424000053/goog-20240331.htm
+- Alphabet 2024Q2 Form 10-Q — OCF US$26.6B; CapEx US$13.2B: https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm
+- Alphabet 2024Q3 Form 10-Q — OCF US$30.7B; CapEx US$13.1B: https://www.sec.gov/Archives/edgar/data/1652044/000165204424000118/goog-20240930.htm
+- Alphabet Q4 2024 earnings release — OCF US$39.1B; CapEx US$14.3B: https://abc.xyz/assets/a3/91/6d1950c148fa84c7d699abe05284/2024q4-alphabet-earnings-release.pdf
+- Alphabet 2025Q1 Form 10-Q — OCF US$36.2B; CapEx US$17.2B: https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm
+- Alphabet 2025Q2 Form 10-Q — OCF US$27.7B; CapEx US$22.4B: https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm
+- Alphabet 2025Q3 Form 10-Q — OCF US$48.4B; CapEx US$24.0B: https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm
+- Alphabet Q4 2025 earnings call / release — OCF US$52.4B; CapEx US$27.9B; 2026 CapEx guide US$175–185B: https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx
+- Alphabet 2026Q1 Form 10-Q — OCF US$45.8B; CapEx US$35.7B; senior-note proceeds US$31.1B: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm
+- Alphabet 2026Q2 earnings exhibit — OCF US$39.1B; CapEx US$44.9B; FCF -US$5.9B; ~US$49.6B equity proceeds: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
