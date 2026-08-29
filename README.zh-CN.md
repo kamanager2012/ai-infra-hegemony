@@ -5,7 +5,8 @@
 
 一份研究 AI 基础设施、半导体、云系统、资本形成与产业战略的长期行业报告。
 
-**资料检索与修订截止：2026-08-28**
+**资料检索与修订截止：2026-08-28**  
+**正文状态：已冻结（2026-08-29）**。冻结后仅接受事实纠错、来源失效修复、引用口径修正与重大实质性错误修正；不再进行风格性重写、章节扩张或框架改造。
 
 [开始阅读 32 章中文版](publication/README.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [最终总判](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
 
