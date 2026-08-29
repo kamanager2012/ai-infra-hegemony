@@ -62,14 +62,15 @@ OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B
 
 必须区分：
 
-> **Announced / Committed → Secured → Construction → Energized → Utilized**
+> **Announced / Committed → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized**
 
 因此：
 
 - US$500B 是长期计划，不是已投入 actual；
-- >10 GW secured 不等于 >10 GW 已经 energized；
+- >10 GW secured 不等于 >10 GW 已经 permitted、constructed 或 energized；
 - 1 GW groundbreaking 不等于 1 GW 已经 online；
-- energized capacity 也不等于满负荷 utilization。
+- energized capacity 也不等于满负荷 utilization；
+- IT-GW、PPA GW 与 generation GW 不能机械互换。
 
 这套状态机与第7章 Power 分析保持一致。
 
