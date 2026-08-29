@@ -74,7 +74,7 @@ If AI infrastructure continues expanding, competition is likely to move further 
 The key questions are:
 
 - which regions combine **power + data centers + chip access + software / talent** most effectively;
-- whether China's production-grade parallel stack expands and autonomous frontier closure crosses more upstream / infrastructure gates;
+- whether China's frontier parallel stack crosses more Production-Grade Gates and autonomous frontier closure crosses more upstream / infrastructure gates;
 - whether sovereign AI creates multiple regional system ecosystems;
 - whether supply chains remain cross-region complementary or become durably partitioned;
 - whether advanced-manufacturing redundancy creates real qualified second-source capability.
