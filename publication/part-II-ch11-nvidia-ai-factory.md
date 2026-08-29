@@ -59,6 +59,21 @@ NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ec
 
 它提高了平台资本效率，也把外部 supply elasticity 变成平台战略的一部分。
 
+## 6A. Asset-light 是相对概念，不等于零 Balance-Sheet Exposure
+
+2026 年 8 月的新交易结构表明，NVIDIA 的 supply orchestration 正在部分延伸到 infrastructure capital。
+
+- 公司宣布与大型长期资本提供方建立 compute-financing platforms，目标是随时间动员 **>US$500B third-party capital**；[^5]
+- PORTS-Pike 中，NVIDIA 为 land + power + shell buildout 提供 credit support，并投资 **US$1.5B** 于 SB Energy。[^6]
+
+因此，NVIDIA 仍然没有变成拥有所有 fab、data center 与 power assets 的传统重资产运营商，但“asset-light platform”也不能再理解为完全不承担 infrastructure financing risk。
+
+更准确的描述是：
+
+> **平台尽量让 fab / data center / power 资产留在外部主体，同时选择性使用 cash、equity、credit support 和 long-duration coordination 去加速关键基础设施形成。**
+
+这可以提高 Time-to-Capacity，也可能把 customer concentration、credit 与 duration risk 部分拉回平台自身。
+
 ## 7. Physical AI 是系统平台的外延，但不属于本章主证据链
 
 Automotive、robotics、simulation 与 edge deployment 延续同一种 system-platform 逻辑：hardware、runtime、simulation、developer tooling 与 deployment 被组织成一套工作流。
@@ -102,3 +117,5 @@ AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有�
 [^2]: NVIDIA, AI Foundation Models / NeMo, NVIDIA AI Foundry architecture, https://www.nvidia.com/en-us/ai-data-science/foundation-models/
 [^3]: NVIDIA, “Introducing NVIDIA DGX Cloud Lepton,” unified AI platform and compute marketplace, https://developer.nvidia.com/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/
 [^4]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Data Center, networking, platform and supply-chain disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and US$1.5B SB Energy investment, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
