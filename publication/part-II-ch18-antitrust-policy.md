@@ -97,6 +97,36 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 这些变量都会影响 system-stack moat。
 
+## 7.5 Hugging Face reported transaction：Merger Control 的新问题是 Developer Distribution Foreclosure
+
+2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^5]截至 2026-08-28，本报告未取得双方正式 closing / merger approval 公告，因此不把它写成已完成交易。
+
+如果交易最终完成，其竞争政策意义并不主要来自“又买了一家软件公司”，而在于一个已经拥有 accelerator、CUDA/runtime、networking 与 system stack 的平台，可能进一步控制开放模型生态中的重要 **discovery / distribution / tooling / deployment gateway**。
+
+这使 merger-control 问题从传统横向市场份额上移到 **vertical foreclosure**：
+
+> **上游 accelerator/runtime 控制 + 下游 developer-distribution gateway 控制，是否会提高竞争 runtime / accelerator 的进入和迁移成本？**
+
+需要观察的行为变量包括：
+
+- default ranking / recommendation 是否偏向自有 runtime / hardware；
+- inference / deployment 产品是否对竞争 backend 设置更高摩擦；
+- benchmark、model card、optimization artifact 是否存在不对称待遇；
+- API、metadata、download、hosting、commercial terms 是否给予自有生态优先；
+- 是否出现 bundling、exclusive integration 或自我优待；
+- 竞争平台是否需要建立 mirror / alternative registry 才能维持同等开发者触达。
+
+### 7.5.1 监管判断边界
+
+本报告不会因为交易报道本身就推定违法或 monopoly：
+
+- Hugging Face 资产具有一定可复制 / mirror 属性；
+- open-weight models 的产权并不因平台交易自动归 NVIDIA；
+- multi-homing 和 alternative registries 可以形成反制；
+- 是否存在 foreclosure，需要看实际接口、排序、访问、合同和 switching-cost 变化。
+
+因此，真正足以提高 antitrust 权重的不是“收购金额很大”，而是交易完成后出现**可验证的自我优待 + 竞争者迁移成本上升 + 实际开发者 / workload 分布向单一生态收敛**。
+
 ## 8. Regulation 无法直接创造 Physical Capacity
 
 监管可以降低 switching cost，但不能直接制造：
@@ -167,3 +197,6 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 [^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
 [^3]: European Commission / Digital Markets Act, cloud-computing market investigation and roundtable plan, final report due by May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
 [^4]: European Commission / Digital Markets Act, stakeholder roundtable on cloud computing services, 2026-07-01, https://digital-markets-act.ec.europa.eu/commission-hosted-stakeholder-roundtable-cloud-computing-services-under-digital-markets-act-2026-07-01_en
+
+
+[^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
