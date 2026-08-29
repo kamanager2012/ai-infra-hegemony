@@ -165,15 +165,15 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 
 ---
 
-## 5. 企业：主栈可以集中，但第二路径必须真实可执行
+## 5. 企业：给 executable optionality 定价；仅在期权价值超过 carrying cost 时维护第二路径
 
 portability 不意味着所有供应商平均采购。
 
 更有效的策略是：
 
-> **主栈追求效率，第二路径追求选择权。**
+> **主栈追求效率；对 optionality 显式定价，只有 continuity / bargaining / recovery value 高于 carrying cost 时，才持续维护 production-like second path。**
 
-第二路径至少应验证：
+即使不值得长期维持一套完整第二生产路径，也应尽量保留成本最低的 reversibility；若决定维护第二路径，则至少应验证：
 
 - model portability；
 - data portability；
@@ -184,7 +184,7 @@ portability 不意味着所有供应商平均采购。
 - cost observability；
 - operational recovery。
 
-如果第二路径只存在于采购 PPT，而没有真实 production validation，就不能提供有效 bargaining power 或 resilience。
+如果第二路径只存在于采购 PPT，而没有真实 production validation，就不能提供有效 bargaining power 或 resilience。反过来，在 supply abundant、switching cost 低、workload criticality 低的环境中，也不应为了“有第二路径”而承担高额持续 carrying cost。
 
 ---
 
