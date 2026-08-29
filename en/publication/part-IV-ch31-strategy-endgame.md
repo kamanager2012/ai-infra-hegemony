@@ -12,7 +12,9 @@ The long-run question is therefore:
 
 > **Will these layers become highly coordinated by a small number of platforms, or supplied by multiple interoperable systems?**
 
-## 2. Core structural variables and their source chapters
+## 2. Five long-run dividing lines
+
+The long-run industry structure depends primarily on five questions.
 
 **Table 31.1 — Core structural variables used in the long-run strategic judgment**
 
@@ -28,104 +30,109 @@ The long-run question is therefore:
 | Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
 
 **Source:** Report chapter architecture.  
-**Note:** This chapter inherits facts and mechanisms established earlier rather than duplicating high-impact factual tables.
+**Note:** This chapter inherits facts and mechanisms established earlier rather than duplicating high-impact factual tables and physical formulas.
 
-The endgame chapter does not duplicate those financial tables and physical formulas.
+### 2.1 System Portability
 
-It uses the already-established variables for scenario and action analysis.
+Can workloads move between system stacks at acceptable cost?
 
-## 3. S1 — Competitive Expansion: multiple system stacks coexist
+If compiler/runtime layers, model formats, networking, and orchestration become more open, buyer optionality rises.
 
-If supply elasticity improves across advanced manufacturing, HBM, packaging, and power while cloud custom systems, open compiler/runtime, and interoperability reduce migration costs materially, the industry moves closer to S1.
+If proprietary interfaces and platform-specific engineering deepen, switching cost becomes a larger industrial barrier.
 
-A plausible structure includes:
+### 2.2 Scarce-Layer Supply Elasticity
 
-- NVIDIA remaining one of the major general-purpose platforms;
-- Google/AWS/Microsoft/Meta system stacks maturing across large workloads;
-- multiple buyers obtaining reliable access to leading-edge manufacturing;
-- open software / interfaces reducing cross-stack migration friction;
-- a broader production-grade parallel stack in China, with progress toward autonomous frontier closure;
-- value capture spreading more broadly across cloud, specialized suppliers, and applications/workflows.
+Do advanced logic, HBM, and advanced packaging develop more qualified supply?
 
-S1 does not mean every hardware layer becomes a commodity.
+Higher supply elasticity reduces concentration pressure.
 
-It means **substitution paths are real enough for buyers to exercise them.**
+If several scarce layers remain tight at the same time, system platforms and large Anchor Buyers gain a stronger supply-coordination advantage.
 
-## 4. S2 — Baseline Concentration: high concentration and continuous competition coexist
+### 2.3 Time-to-Power
 
-S2 describes a market where a small number of large system platforms and scarce-layer suppliers retain strong value capture while cloud custom silicon, China's parallel stack, and open software continue exerting competitive pressure.
+Do powered land, grid connection, substations, and firm power remain deployment quotas?
 
-This means:
+If Time-to-Power stays long, AI competition becomes increasingly infrastructural and geographic.
 
-- general frontier workloads remain highly dependent on mature system platforms;
-- cloud in-house systems expand across internal workloads;
-- HBM / packaging / power continue to create cyclical physical constraints;
-- buyers maintain second-system options without immediately abandoning the primary stack;
-- upstream resource allocation reflects long-duration orders, cash flow, roadmap certainty, and supplier incentives to preserve customer diversity.
+### 2.4 Workload Monetization
 
-As of August 2026, this remains the baseline state most consistent with current evidence.[^1][^2][^3]
+Do AI workloads generate enough cash flow to cover:
 
-It is not an immutable ten-year prediction.
+- compute depreciation;
+- data-center cost;
+- power;
+- operations;
+- financing?
 
-## 5. S3 — Resource Hegemony: the barrier becomes replication of the full infrastructure stack
+This is the fundamental variable that determines whether capital expansion is economically sustainable.
 
-S3 does not require one company to reach an exaggerated point market share.
+### 2.5 Financing Independence / Demand Quality
 
-Its core condition is simultaneous concentration across several scarce layers:
+Whose balance sheet ultimately supports long-duration compute demand?
 
-- leading-edge capacity;
-- HBM;
-- advanced packaging;
-- scale-up / software interfaces;
-- powered land / firm MW;
-- long-duration supply commitments.
+By August 2026, compute financing had expanded beyond corporate CapEx into third-party capital, LPS credit support, and seller-assisted financing.[^4][^5]
 
-In this state, a challenger no longer needs only to design a faster accelerator.
+The report therefore separates:
 
-It needs to replicate manufacturing, memory, packaging, software, power, and a credible customer-migration path at the same time.
+- independently financed customer demand;
+- long-duration Anchor Buyer commitments;
+- third-party infrastructure capital;
+- supplier equity / credit enhancement.
 
-Capital entry barriers rise sharply and Non-AI Residual Capacity can face greater pressure.
+If utilization and monetization remain healthy, seller-assisted financing can reduce capital-formation friction. If customer cash generation weakens while supplier support and refinancing dependence rise, the system becomes more dependent on a small number of balance sheets.
 
-## 6. S4 — Capital Hard Landing: capital clearing does not mean AI disappears
+The long-run question is:
 
-If accounting losses, utilization/revenue, market-clearing prices, forward commitments, and demand-financing quality deteriorate broadly and persistently, the industry moves toward S4.
+> **Can AI infrastructure evolve from expansion that requires continuing seller / sponsor support into an asset system underwritten by independent workload cash flow and long-duration capital?**
 
-Possible outcomes include:
+The full S1–S4 definitions belong in [Chapter 30](part-IV-ch30-scenarios.md).
 
-- falling hardware residual values;
-- slower next-generation orders;
-- hyperscaler / model-company commitments being delayed;
-- low utilization across long-duration data-center / power assets;
-- further compression in model/application margins;
-- materially cheaper access to excess compute.
+### 2A. Four scenarios imply four different strategic actions
 
-Capital clearing can coexist with technological diffusion.
+Scenario analysis matters because it changes which options should be preserved today.
 
-Historical infrastructure cycles show that:
+**S1–S4 strategic crosswalk**
 
-> **overbuild → asset-price decline → cheaper access → new applications**
+| Scenario | Industry structure | Enterprise priority | Capital priority | National / industrial-policy priority |
+|---|---|---|---|---|
+| S1 — Competitive Expansion | multiple system stacks coexist; supply elasticity and portability improve | multi-stack execution; price/performance optimization | applications/workflows and differentiated suppliers | interoperability, competition, multi-sourcing |
+| S2 — Baseline Concentration | high growth and high concentration coexist while substitution paths mature | primary-stack efficiency + executable second path | system platforms / scarce layers, with strict duration discipline | expand key physical layers and reduce single points of dependence |
+| S3 — Resource Hegemony | multi-layer scarcity, quantity assurance, and switching cost strengthen together | secure supply / power early while maintaining migration readiness | premium on scarce-capacity access and coordination | frontier supply continuity, power, domestic / alternative stacks |
+| S4 — Capital Hard Landing | utilization, clearing, and financing quality deteriorate together | avoid excessive long-duration reservation; prioritize variable cost and cash flow | residual value, debt, refinancing, distressed assets | prevent inefficient projects from trapping power/capital; use cheaper compute to diffuse applications |
 
-is one possible path.
+**Source:** Report S1–S4 framework and this chapter's strategic synthesis.  
+**Note:** This is not an asset-allocation recommendation and does not imply every geography or layer occupies the same scenario simultaneously.
 
-S4 can therefore shift competition from buildout toward utilization, workflow, and cash flow rather than simply ending AI adoption.
+The strategic difference can be compressed further:
 
-## 7. Five long-run dividing lines
+- **S1:** optionality comes from portability;
+- **S2:** optionality comes from primary-stack efficiency + a real second path;
+- **S3:** optionality comes from early access to scarce capacity without complete lock-in to one stack;
+- **S4:** optionality comes from cash flow, variable-cost structure, and the ability to reallocate cheaper assets after clearing.
 
-By 2036, five questions matter more than any single market-share forecast:
+The objective is not to predict one permanent winner. It is:
 
-1. **System portability:** can workloads move across system stacks at acceptable cost?
-2. **Scarce-layer supply elasticity:** can multiple buyers obtain qualified advanced logic, HBM, and packaging at scale?
-3. **Time-to-Power:** does powered land / grid connection remain a long-duration deployment quota?
-4. **Workload monetization:** do AI workloads generate enough cash flow to cover compute, operations, power, and capital cost?
-5. **Financing independence / demand quality:** can infrastructure be supported by independent workload cash flow and long-duration risk capital rather than continually increasing seller / sponsor support?
+> **to keep an executable next move when the relative weight of S1–S4 changes.**
 
-This fifth dividing line is no longer hypothetical. In August 2026, NVIDIA announced compute-financing platforms targeting **more than US$500B of third-party capital mobilization over time**, while PORTS-Pike combined Anchor Buyer demand with seller credit support around initial **4.25 IT-GW** design capacity.[^4][^5]
+## 3. Current strategic baseline: high growth, high concentration, and real substitution paths coexist
 
-These disclosures are not equivalent to funded capital or energized load. They establish that financing structure itself has become a competitive variable.
+As of August 2026, the evidence mix remains closest to **S2 — Baseline Concentration**.
 
-These five dividing lines determine switching costs, supply elasticity, deployment geography, capital sustainability, and the concentration of balance-sheet risk.
+The main reasons are:
 
-## 8. Enterprise strategy: prove workflow economics before locking long-duration compute
+- leading system-platform economics remain strong;[^1]
+- advanced packaging remains a publicly confirmed growth constraint;[^2]
+- HBM / server memory continues to exert strong pressure on manufacturing resources;[^3]
+- cloud custom systems are a real second route but have not demonstrated comprehensive replacement of frontier workloads;
+- power has become an independent physical constraint;
+- China's Production-Grade Parallel Stack continues to develop, while Autonomous Frontier Closure has not been demonstrated at scale across all critical layers;
+- synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
+
+This is not a fixed ten-year forecast.
+
+It is the starting point for current strategic choices.
+
+## 4. Enterprise strategy: prove workflow economics before locking long-duration compute
 
 A disciplined sequence is:
 
@@ -141,7 +148,7 @@ Experimental or rapidly changing workloads should preserve flexible / multi-prov
 
 The dangerous sequence is to reserve large long-duration capacity first and search for enough workloads later.
 
-## 9. Enterprise strategy: the primary stack can be concentrated, but the second path must be executable
+## 5. Enterprise strategy: the primary stack can be concentrated, but the second path must be executable
 
 Portability does not require equal purchasing across all vendors.
 
@@ -160,7 +167,7 @@ At minimum, preserve:
 
 The second path exists to reduce single-point supply, pricing, policy, and migration risk.
 
-## 10. Capital strategy: classify the asset before discussing "AI valuation"
+## 6. Capital strategy: classify the asset before discussing "AI valuation"
 
 At least four asset classes should remain separate:
 
@@ -180,7 +187,7 @@ High CapEx can be an entry barrier and preparation for growth, or a source of fu
 
 Capital analysis therefore requires CapEx, utilization, revenue, FCF, forward commitments, and clearing prices together.
 
-## 11. Capital strategy: Duration Mismatch is more dangerous than a high valuation by itself
+## 7. Capital strategy: Duration Mismatch is more dangerous than a high valuation by itself
 
 Short-cycle compute demand can be matched against long-duration debt, PPAs, data-center shells, and transmission assets.
 
@@ -194,7 +201,7 @@ Under high demand, long-duration assets can be a moat.
 
 Under S4, the same assets can become long-lived burdens.
 
-## 12. National strategy: the competitive unit is no longer one fab
+## 8. National strategy: the competitive unit is no longer one fab
 
 A complete frontier-AI industrial capability requires at least:
 
@@ -212,7 +219,7 @@ Subsidizing one advanced fab therefore does not create system closure.
 
 Manufacturing, memory, packaging, software, and power have to be managed as one industrial strategy.
 
-## 13. National strategy: Power Policy has become Compute Policy
+## 9. National strategy: Power Policy has become Compute Policy
 
 High-power racks pull grid planning, generation, interconnection, substations, cooling, and permitting into technology competition.
 
@@ -224,7 +231,7 @@ A national AI-infrastructure strategy therefore has to manage:
 
 at the same time.
 
-## 14. National strategy: interoperability is strategic optionality
+## 10. National strategy: interoperability is strategic optionality
 
 System resilience does not require rejecting the leading platform.
 
@@ -242,7 +249,7 @@ The objective is not to equalize market share artificially.
 
 It is to make substitution executable when supply, policy, or pricing conditions change.
 
-## 15. China: the long-run issue is two-level closure, not one localization percentage
+## 11. China: the long-run issue is two-level closure, not one localization percentage
 
 Whether China's parallel stack changes the global resource structure does not depend on one localization ratio.
 
@@ -271,55 +278,12 @@ If the production-grade stack keeps expanding, China becomes a stronger second c
 
 If upstream continuity also closes across generations, the strategic meaning rises from domestic resilience / selected substitution toward a higher degree of autonomous frontier competition.
 
-## 16. Individual strategy: long-run value comes from responsibility for outcomes, not loyalty to one tool
+## Cross-references
 
-As models, IDEs, agents, and generation tools commoditize quickly, the most fragile career position is one whose value depends entirely on operating one specific tool.
-
-More durable capabilities include:
-
-- domain knowledge;
-- problem decomposition;
-- workflow / system design;
-- verification;
-- cross-stack portability;
-- responsibility for results, risk, and quality.
-
-As tools lower execution barriers, the ability to define problems, verify outputs, and own delivery becomes more important.
-
-## 17. What evidence should force a strategic re-rating
-
-The next decade should be calibrated through public signals, including:
-
-- whether NVIDIA / major system-seller commitments continue rising or begin shrinking;
-- production workload share and migration costs for cloud custom stacks;
-- whether HBM / advanced-packaging tightness eases materially;
-- whether leading-edge capacity becomes more distributed;
-- whether energized MW / Time-to-Power improves;
-- whether Anchor Compute Buyer commitments convert into real delivery;
-- whether hyperscaler utilization / AI monetization covers the expanding capital base;
-- whether China's production-grade parallel stack / autonomous frontier closure gains scaled first-party evidence;
-- whether supplier-assisted financing remains supported by independent workload cash flow, third-party capital, and high utilization;
-- whether regulation materially lowers interface / tying / switching barriers.
-
-If supply elasticity and interoperability rise together, weighting shifts toward S1.
-
-If multiple scarce layers and switching costs strengthen together, weighting shifts toward S3.
-
-If accounting, utilization/revenue, market clearing, forward commitments, and demand-financing quality weaken broadly and persistently, weighting shifts toward S4.
-
-## 18. Final strategic judgment
-
-As of August 2026, the most defensible overall description is:
-
-> **AI infrastructure remains in a phase where rapid expansion and high concentration coexist, while the competitive unit is moving from the individual chip toward the complete system stack and infrastructure.**
-
-This is neither a permanent-monopoly thesis nor a rapid-compute-commoditization thesis.
-
-The next decade will repeatedly redistribute power across system substitution, scarce-layer supply, Anchor Buyer demand, power, utilization, capital duration, and regulation.
-
-The common strategic principle can be compressed into one sentence:
-
-> **Do not bet on an unchangeable end-state; build options that remain executable when the end-state changes.**
+- [Chapter 25 — AI and Labor Markets](part-III-ch25-labor-market.md)
+- [Chapter 26 — Education and Talent Systems](part-III-ch26-education-talent.md)
+- [Chapter 30 — The Four Standard Scenarios](part-IV-ch30-scenarios.md)
+- [Chapter 32 — Master Judgment](part-IV-ch32-master-judgment.md)
 
 ## References
 
@@ -328,16 +292,3 @@ The common strategic principle can be compressed into one sentence:
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^5]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
-
-## Cross-references
-
-- [Core Evidence Ledger](../核心证据台账.en.md)
-- [Core Source Index](../核心参考文献索引.en.md)
-- [Part I · Ch02 NVIDIA System Stack](part-I-ch02-nvidia-system-stack.md)
-- [Part I · Ch05 HBM](part-I-ch05-hbm-memory.md)
-- [Part I · Ch06 Advanced Packaging](part-I-ch06-advanced-packaging.md)
-- [Part I · Ch07 Power](part-I-ch07-power-constraint.md)
-- [Part II · Ch12 Hyperscaler System Stack](part-II-ch12-hyperscaler-system-stack.md)
-- [Part II · Ch17 China Parallel Stack](part-II-ch17-china-parallel-stack.md)
-- [Part III · Ch20 Value Capture Map](part-III-ch20-value-capture-map.md)
-- [Part III · Ch24 Capital Clearing](part-III-ch24-capital-clearing.md)
