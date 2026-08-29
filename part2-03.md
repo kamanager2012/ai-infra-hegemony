@@ -88,5 +88,5 @@ HBM的宏观后果不依赖把约3×当作恒定常数。传统 DRAM 下行时�
 - TrendForce（2026 HBM + RDIMM = 51% of DRAM bit supply）： https://www.trendforce.com/presscenter/news/20260825-13198.html
 - Micron FY24 Q2 Prepared Remarks（HBM3E ≈ 3× DDR5 wafer supply）： https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 - NVIDIA GB200 NVL72 official product page（72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E、17 TB LPDDR5X）：https://www.nvidia.com/en-us/data-center/gb200-nvl72/
-- TSMC 2Q26 Earnings Conference Transcript（packaging capacity limits customers' growth）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- TSMC 2Q26 Earnings Conference Transcript（packaging capacity limits customers' growth）：https://investor.tsmc.com/english/quarterly-results/2026/q2
 - TrendForce 2025 CoWoS demand structure（NVIDIA estimated >60%, B-grade institutional estimate）：https://www.trendforce.com/research/download/RP250314ZJ
