@@ -43,6 +43,33 @@ TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^
 
 ---
 
+## 2A. Attribution Boundary：价格上涨不能全部归因于 AI
+
+即使 AI/server demand 正在改变 memory 与 advanced-node resource allocation，也不能把 smartphone / PC component price 的全部变化都归因于 AI。
+
+终端价格同时受到：
+
+- supplier inventory policy；
+- conventional demand recovery / weakness；
+- wafer starts 与 capacity discipline；
+- product-transition timing；
+- FX；
+- channel inventory；
+- geopolitics / trade policy；
+- supplier-specific yield 与 product mix；
+
+等因素影响。
+
+因此，本报告对“AI 传导”的证据要求是：
+
+> **必须看到 shared physical resource、supplier product-mix reallocation、allocation / quantity-assurance 变化或公司/机构明确把 AI/server demand 与传统市场供给压力联系起来。**
+
+单独出现“memory price 上涨”只能证明价格周期，不足以证明全部涨幅由 AI 导致。
+
+同样，3Q26 mobile DRAM 涨幅预期已经显著低于 2Q26，说明 inventory、终端承受能力与供给调整能够部分抵消 AI Resource Gravity。
+
+所以第21章讨论的是**边际传导机制**，不是一个“AI 解释所有消费电子通胀”的单因果模型。
+
 ## 3. Smartphone：最先体现为 BOM 与配置压力，而不是市场消失
 
 TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smartphone memory estimated contract prices 同比接近 **+200%**。[^3]
