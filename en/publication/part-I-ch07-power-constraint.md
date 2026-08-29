@@ -14,11 +14,13 @@ The critical physical layers of AI infrastructure therefore extend beyond wafers
 
 ## 2. Power analysis requires a state machine, not headline-GW addition
 
-Power projects should be separated into at least five states:
+Power / LPS projects should be separated into six states:
 
-> **Announced → Contracted → Permitted → Energized → Utilized**
+> **Announced → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized**
 
-A 1 GW PPA cannot be rewritten as "1 GW of AI compute online." A 500 MW development target cannot be converted directly into an active rack count. The real economic value of a project depends on how far it has advanced from announcement toward high-utilization delivery—not on the maximum MW/GW in a headline.
+A 1 GW PPA cannot be rewritten as "1 GW of AI compute online." A secured LPS position or future IT-GW design capacity cannot be treated as energized load, and a 500 MW development target cannot be converted directly into an active rack count. The real economic value of a project depends on how far it has advanced from announcement toward high-utilization delivery—not on the maximum MW/GW in a headline.
+
+Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
 ## 3. Three representative paths operate on very different clocks
 
