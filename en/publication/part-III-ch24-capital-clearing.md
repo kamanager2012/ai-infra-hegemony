@@ -73,30 +73,25 @@ The FY27 Q2 10-Q states that the latest commitments primarily relate to memory a
 
 The current trajectory looks more like continued forward resource reservation than broad cancellation.
 
-## 3. Four-cloud CapEx has to remain company-specific and accounting-specific
+## 3. Chapter 19 owns the CapEx denominator; this chapter tracks whether direction reverses
 
-There is no unified official "2026 AI hardware CapEx."
+The four major hyperscalers do not report CapEx / PPE / finance-lease investment on one identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
 
-Current public scale includes:
+This chapter does not repeat the four-cloud CapEx table.
 
-**Table 24.1 — Public 2026 capital-spending metrics for the four major clouds**
+For capital clearing, the higher-value signals are directional:
 
-| Company | Current 2026 metric | Identity |
-|---|---:|---|
-| Microsoft | calendar-2026 reported CapEx expectation ~US$175B | expectation; underlying investment expectation unchanged after lease-classification adjustment |
-| Alphabet | US$195–205B | Q2 guidance |
-| Meta | US$130–145B | Q2 guidance; includes finance-lease principal |
-| Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
+- whether guidance is cut across multiple periods;
+- whether investment mix moves from expansion toward maintenance;
+- whether project timing is deferred;
+- whether long-duration commitments are renegotiated;
+- whether utilization of deployed assets falls at the same time.
 
-**Source:** Microsoft FY26 Q4 earnings materials; Alphabet Q2 2026 company guidance as reported by Reuters (SEC Exhibit 99.1 separately supports Q2 actual results); Meta 2026 Q2 SEC Exhibit 99.1; and Amazon 2026 Q2 Form 10-Q.[^5][^6][^7][^8]  
-**Note:** Expectation, guidance, and TTM actuals use different time windows and accounting treatments and do not form a directly additive AI-hardware CapEx total.
+Therefore:
 
-The time windows and accounting categories differ.
+> **Bubble detection does not require one global AI-CapEx total. It requires evidence that capital expansion, utilization, and forward commitments are beginning to diverge systematically.**
 
-They cannot be mechanically added into one AI-hardware CapEx number.
-
-Historical scenario totals such as US$215B or US$670–750B remain stress-test artifacts unless the accounting denominator is made comparable.
-
+See [Chapter 19 — The AI Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md).
 ## 4. Sellers and buyers operate on different capital clocks
 
 NVIDIA is a system seller. Hyperscalers are asset buyers.
@@ -158,6 +153,8 @@ If those variables weaken alongside buyer utilization and market-clearing prices
 ## 7. Demand Quality: separate organic workload from supplier-assisted financing
 
 When a system seller also participates through customer equity investment, credit enhancement, LPS support, or infrastructure finance, seller-side order visibility cannot be treated as identical to independently financed end demand.
+
+NVIDIA's August 2026 disclosures now provide concrete examples: the company is supporting a **>US$500B third-party-capital mobilization target**, providing LPS credit support around PORTS-Pike, and discussing large frontier-lab investments plus selective credit enhancement.[^5][^6][^7]
 
 This does not prove that the demand is artificial.
 
@@ -226,7 +223,6 @@ It only means that declaring capital clearing the dominant reality still require
 [^2]: NVIDIA Corporation, FY27 Q1 Form 10-Q, GAAP gross margin 74.9%, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
 [^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-[^5]: Microsoft, FY26 Q4 earnings / conference call, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
-[^6]: Alphabet, Q2 2026 earnings-call full-year CapEx guidance **US$195–205B**, company guidance reported by Reuters, 2026-07-22, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Alphabet SEC Exhibit 99.1 separately supports Q2 actual results, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
-[^7]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
-[^8]: Amazon.com, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, land-power-shell credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^7]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
