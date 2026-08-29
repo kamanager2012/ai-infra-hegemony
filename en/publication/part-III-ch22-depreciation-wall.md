@@ -131,7 +131,7 @@ As of August 2026, the more accurate state is:
 
 rather than a confirmed broad impairment cycle.
 
-The combination that would make the depreciation wall dangerous is sustained utilization decline, rapid residual-value erosion, lower CapEx guidance, shrinking commitments, and rising impairment at the same time.
+The depreciation wall becomes materially more dangerous when sustained utilization decline, rapid residual-value erosion, lower CapEx / commitment signals, and financing stress cross-confirm across actors/layers. Rising impairment strengthens the severity diagnosis when it appears, but formal accounting loss is not a mandatory gate.
 
 ## References
 
