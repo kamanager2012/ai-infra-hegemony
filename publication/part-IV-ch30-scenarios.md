@@ -147,7 +147,7 @@ AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 的定义�
 
 详细计算边界见[第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)。
 
-## 6. 五类决定情景的变量
+## 6. 六类决定情景的变量
 
 ### Supply
 
@@ -161,9 +161,13 @@ cloud custom systems、open compiler/runtime、alternative interconnect、China 
 
 token/workflow volume、enterprise adoption、Anchor Buyer commitments、sovereign demand。
 
-### Finance
+### Capital / Monetization
 
-seller cash generation、hyperscaler CapEx、third-party infrastructure capital、Anchor Buyer contract quality、supplier equity / credit support、depreciation、utilization、financing cost、residual value。
+seller cash generation、hyperscaler CapEx、depreciation、utilization、workload revenue、residual value。
+
+### Financing Quality
+
+Anchor Buyer credit quality、third-party risk capital、supplier equity / credit support、refinancing dependency、asset transferability。
 
 ### Regulation / Geopolitics
 
