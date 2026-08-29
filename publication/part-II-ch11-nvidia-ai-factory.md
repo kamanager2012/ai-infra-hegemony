@@ -82,7 +82,7 @@ Automotive、robotics、simulation 与 edge deployment 延续同一种 system-pl
 
 因此，本章只把 Physical AI 视为 NVIDIA system architecture 的潜在外延；其独立产业逻辑见[第15章：Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)。
 
-## 8. 纵向扩张的六个边界
+## 8. 纵向扩张的七个边界
 
 NVIDIA 的系统扩张并非没有制衡：
 
