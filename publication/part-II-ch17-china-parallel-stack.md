@@ -37,6 +37,34 @@ Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入
 
 UNISOC 则代表另一种 commercial loop：它在大众/入门与 entry-5G 市场拥有更大的 shipment scale，但不能据此外推为 premium flagship system equivalence。
 
+### 2.2 Design Origin ≠ Manufacturing Closure：UNISOC / Xiaomi 必须继续追到 Foundry
+
+这里还必须增加一个供应链口径约束：
+
+> **“国产设计”不等于“制造自主”，shipment share 也不能替代 foundry continuity。**
+
+UNISOC 是 fabless 设计公司。其公开产品资料能够确认多款当前 5G SoC 使用 **6nm EUV**；其中 UNISOC 官方 M6870 产品页更直接标注为 **TSMC 6nm EUV**。[^19] UNISOC / Spreadtrum 与 TSMC 的代工合作也有长期一手记录：TSMC 2011 年即披露 Spreadtrum 40nm baseband 在其 Fab 12 进入 initial production。[^20]
+
+但本报告不把这些证据进一步扩写成“UNISOC 全部产品均由 TSMC 生产”。例如，T9100 官方页面确认的是 **6nm process**，并未在该产品页直接披露 foundry identity。[^21] 因此，当前能够安全写下的判断是：
+
+> **UNISOC 的 14% smartphone AP-SoC shipment share 证明了真实商业设计与出货规模，但不能证明 domestic foundry closure；其公开产品与历史供应链证据显示 TSMC 是重要 manufacturing dependency，foundry continuity 必须作为独立 gate 评估。**
+
+Xiaomi XRing 的情况更直接：本章已经引用的 Reuters 来源明确指出其量产与 TSMC 制造合作。[^4] 因此，Xiaomi 的自研 SoC 同样属于“design capability 已成立，但 manufacturing autonomy 不能由此推出”的案例。
+
+这一修正也改变了消费计算层的判别方式。未来任何“国产 SoC 份额”都至少需要拆成：
+
+1. **design origin**；
+2. **foundry identity / process continuity**；
+3. **packaging / memory dependency**；
+4. **是否受外部许可、服务或设备规则影响**；
+5. **multi-generation manufacturing continuity**。
+
+美国 BIS 2025-01 的 foundry due-diligence rule 确实扩大了 front-end foundry / packaging 对**特定 advanced-computing IC** 的许可与尽调要求，并引入 Approved / Authorized IC Designer 机制；规则中的 advanced-node 定义包含 16/14nm 及以下或 non-planar logic。[^22] 但这不能简化成“所有 16/14nm 以下、由中国公司设计的 smartphone SoC 一律需要许可”。是否触发许可取决于 EAR 分类、性能/晶体管等规则条件、设计者身份、目的地与交易结构。
+
+所以对 UNISOC / Xiaomi 最准确的风险表述是：
+
+> **外部 foundry dependence 提高了供应链连续性与政策暴露度，但不能在没有逐产品 EAR classification / licensing evidence 的情况下，把这种依赖直接写成已发生或必然发生的断供。**
+
 因此，消费端的平行供给能力应被评价为一个独立层级，而不是拿来证明或否定 frontier AI closure。
 
 ## 3. 第二层：PC / workstation 的难点更多在软件兼容与性能规模
@@ -264,3 +292,9 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 [^17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
 
 [^18]: Shanghai Stock Exchange, listing announcement for CXMT (688825), 2026-07-24; trading commenced 2026-07-27, https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
+
+
+[^19]: UNISOC, M6870 official product page, explicitly listing TSMC 6nm EUV, https://www.unisoc.com/en/solution/IDMetaverseUS/M6870
+[^20]: TSMC / Spreadtrum, 2011-01-27, first commercialized 40nm TD-SCDMA baseband processor produced at TSMC Fab 12, https://pr.tsmc.com/english/news/1655
+[^21]: UNISOC, T9100 official product page, 6nm process specification; the page does not itself identify the foundry, https://www.unisoc.com/en/product/SmartPhoneUS/T9100
+[^22]: U.S. Bureau of Industry and Security, 2025-01-15, foundry due-diligence / advanced-computing IC controls and Approved / Authorized IC Designer framework, https://www.bis.gov/press-release/commerce-strengthens-restrictions-advanced-computing-semiconductors-enhance-foundry-due-diligence-prevent
