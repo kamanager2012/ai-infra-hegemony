@@ -107,7 +107,7 @@ Contracted / Secured、Permitted、Construction / Transition、Energized、Utili
 - 全球 wafer、DRAM、packaging capacity 继续扩张；
 - smartphone、PC、汽车或工业客户仍然承受更高价格、更低 allocation 或更慢规格升级。
 
-因此，AI 对传统产业的影响不应写成“AI 抢走所有芯片”，而应写成：
+因此，AI 对传统产业的影响不应写成“AI 全面占用芯片供给”，而应写成：
 
 > **高价值需求改变 product mix、capital priority 与 quantity assurance，从而重新定义非 AI 市场可获得的有效残量。**
 
@@ -180,7 +180,7 @@ foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 
 
 ---
 
-## 9. 资本周期：真正的分水岭是 Utilization，而不是 CapEx headline
+## 9. 资本周期：真正的分水岭是 Utilization，而不是 CapEx 绝对规模
 
 Cloud CapEx、system-vendor revenue、foundry revenue、memory revenue 与 power investment 不能直接相加成“全球 AI 总投入”，因为同一美元会在产业链不同账本重复出现。
 
