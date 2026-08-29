@@ -36,7 +36,7 @@ def main():
                     status, final_url = fetch(url)
                     if status not in {200, 206}:
                         raise RuntimeError(f"HTTP {status}")
-                    if needle and needle not in final_url:
+                    if needle and needle.lower() not in final_url.lower():
                         raise RuntimeError(f"redirected to unexpected URL: {final_url}")
                     print(f"PASS {item['id']} via {route}: {status} {final_url}")
                     last = None
@@ -52,7 +52,7 @@ def main():
             failures.append((item["id"], item["url"], str(last)))
             print(f"FAIL {item['id']}: {last}")
 
-    print(f"checked {len(data[\"links\"])} critical external links; failures={len(failures)}")
+    print(f"checked {len(data['links'])} critical external links; failures={len(failures)}")
     if failures:
         for ident, url, err in failures:
             print(f"  {ident}: {url} :: {err}")

@@ -100,6 +100,8 @@ def values(line: str) -> list[str]:
     line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+(?:chips?|systems?)\b", "", line, flags=re.I)
     line = re.sub(r"\b(?:DDR|LPDDR|HBM)\d+[A-Za-z0-9]*\s+wafers?\b", "", line, flags=re.I)
     line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*\d+\s+racks?\b", "", line, flags=re.I)
+    # Model-size designators ("DeepSeek 67B") are names, not quantities.
+    line = re.sub(r"\b[A-Za-z][A-Za-z0-9_-]*(?:[\s-]+)\d+(?:\.\d+)?[KMBT]\b", "", line)
     return [m.group(0).strip() for m in STRONG_NUM.finditer(line)]
 
 def norm(v: str) -> str:
@@ -175,6 +177,7 @@ def main() -> int:
             model_boundary = bool(
                 NON_FACT.search(same_para)
                 or NON_FACT.search(blockquote_context)
+                or NON_FACT.search(lead)
                 or arithmetic_block
             )
             covered = explicit or model_boundary

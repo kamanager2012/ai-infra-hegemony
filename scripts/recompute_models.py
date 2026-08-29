@@ -27,7 +27,7 @@ def main():
         print(f"  {racks:>6,} racks -> HBM {hbm_pb:.1f} PB; LPDDR {lpddr_pb:.1f} PB")
 
     power_mw = nvl["rack_power_kw"] * m["power_scenario_racks"] / 1000.0
-    print(f"Rack-level full-load power: {m[\"power_scenario_racks\"]} racks -> {power_mw:.1f} MW")
+    print(f"Rack-level full-load power: {m['power_scenario_racks']} racks -> {power_mw:.1f} MW")
     assert math.isclose(power_mw, 60.0)
 
     s = m["elasticity_sensitivity"]
