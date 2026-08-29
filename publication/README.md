@@ -5,7 +5,7 @@
 **研究主题：** 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构  
 **资料检索与修订截止：** 2026-08-28
 
-本报告以 32 章连续正文分析 AI 基础设施从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack、Agent-native Software、Physical AI、劳动与人才体系，以及长期产业结构的影响。
+本报告以 32 章连续正文分析 AI 基础设施从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack、Agent-Native Software、Physical AI、劳动与人才体系，以及长期产业结构的影响。
 
 报告严格区分已经发生的事实、公司 guidance、机构 forecast、本报告 hypothesis / scenario 与 report-side calculation。研究范围、证据边界和免责声明见[报告说明](00-front-matter.md)。
 
@@ -44,7 +44,7 @@
 11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
 12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyer Effect——模型公司如何重塑基础设施](part-II-ch13-anchor-compute-buyer.md)
-14. [Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
+14. [Agent-Native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
 16. [AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](part-II-ch16-differentiated-competitors.md)
 17. [中国 Parallel Stack：从 Production-Grade Substitution 到 Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
