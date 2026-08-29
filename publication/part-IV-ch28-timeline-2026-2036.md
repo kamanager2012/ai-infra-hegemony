@@ -1,6 +1,6 @@
 # Part IV · 第28章：2026–2036 时间线与阶段性里程碑
 
-## 1. 时间线是 Conditional Milestone Map，不是年份故事
+## 1. 时间线是 Conditional Milestone Map，不是按年份编排的叙事
 
 未来十年最容易出现的错误，是把技术 roadmap、capital plan 和 power project 的目标年份写成“必然发生”。
 
@@ -63,7 +63,7 @@
 
 ### Power / LPS
 
-要看 headline contracted / secured capacity 有多少真正转化为 energized、utilized capacity，以及 Time-to-Power 是否仍决定 site selection。
+要看已公布的 contracted / secured capacity 有多少真正转化为 energized、utilized capacity，以及 Time-to-Power 是否仍决定 site selection。
 
 PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它是 Phase II 检验“secured LPS 是否真正变成 deployable compute”的重要观察点，而不是 Phase I 的已运行容量。[^9]
 
