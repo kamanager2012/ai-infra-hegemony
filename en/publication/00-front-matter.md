@@ -3,7 +3,7 @@
 ### Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital
 
 **Author:** James (kamanager2012)  
-**Research and revision cutoff:** 28 August 2026  
+**Retrieval and revision cutoff:** August 28, 2026  
 **Languages:** Chinese edition / English edition
 
 ---
