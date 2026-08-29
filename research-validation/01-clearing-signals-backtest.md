@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.3
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.4
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -255,7 +255,85 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 7. v0.3 回测结论
+# 7. Case F — 2014–2016 Oil & Gas Upstream Capital Clearing
+
+这个案例是当前样本中最重要的**跨行业独立资本周期**。它不是互联网、半导体或 GPU 周期，但具有与 AI infrastructure 高度可比的资本结构特征：
+
+- 高前置 CapEx；
+- 长资产久期；
+- 项目经济性依赖利用率 / commodity price / cash flow；
+- 大量外部融资；
+- 资产残值与再融资在下行期迅速恶化。
+
+因此它用于检验五信号框架是否具有跨行业资本周期的外部有效性，而不是只会解释科技行业。
+
+## 7.1 信号回放
+
+| Signal | 当期可观测证据 | v0.4 |
+|---|---|---:|
+| Accounting | Halliburton 2015 因能源市场下行记录约 **US$2.2B impairments and other charges**；Apache 2015 总 impairments 约 **US$9.47B**，主要来自油气资产与设施减值 | 2 |
+| Utilization / Revenue | 美国 land rig count 从 2014-11 高点到 2015-12 下降约 **64%**；Halliburton 2015 revenue **同比 -28%**；2016 年美国平均 rig count 较 2014-11 峰值接近 **-75%** | 2 |
+| Market Clearing | Halliburton 明确披露 services industry 出现 widespread pricing pressure；offshore drillers 同期披露 dayrate / utilization 下滑并触发 fleet impairment | 2 |
+| Forward Commitment | EIA 记录美国 mining/exploration investment **2015 年下降约 35%**；ConocoPhillips 2015 CapEx 较 2014 **下降 41%**；Chevron/Exxon 等同步压低后续投资计划 | 2 |
+| Demand Quality / Financing | EIA 记录低油价压缩 operating cash flow、企业削减 CapEx 并更多依赖 debt/equity；Fed SLOOS 显示银行收紧 oil & gas underwriting / credit lines，监管机构记录 oil & gas classified commitments 明显上升 | 2 |
+
+**研究侧结果：10/10，Segment Breadth = Multi-segment / industry-wide，判定为 Broad clearing。**
+
+## 7.2 Timing
+
+- **2014 H2** — oil price 进入快速下跌，first deterioration 首先出现在 commodity clearing；
+- **2014 Q4–2015 Q1** — rig count、service activity 与 CapEx plans 开始快速下修；
+- **2015 Q2** — Fed SLOOS 已记录银行针对 oil & gas borrower 收紧 underwriting / credit lines，融资压力开始与产业活动相互印证；
+- **2015 H2** — debt service / cash-flow pressure、service pricing、rig utilization、CapEx reductions 形成广泛 cross-confirmation；
+- **2015–2016 financial reporting** — 大规模 impairments / idle-equipment write-downs 完成 accounting confirmation；
+- **2016 Q2** — U.S. oil rig count 触及本轮低点后开始恢复，Halliburton 后续披露也将 2016 视为最深行业下行阶段并观察到复苏信号。
+
+研究侧时间标签：
+
+| Timing field | Case F |
+|---|---|
+| First deterioration | 2014 H2 |
+| Cross-confirmation | 2015 H1–H2 |
+| Accounting confirmation | 2015–2016 reporting cycle |
+| Trough / stabilization | 2016 Q2–Q4 |
+
+## 7.3 对 Chapter 24 的意义
+
+这一案例给五信号体系增加了三个重要约束。
+
+### A. 框架不应依赖“技术泡沫”叙事
+
+这里没有 GPU 代际替换，也没有软件迁移问题。
+
+真正发生的是：
+
+> **price / cash flow collapse → utilization/activity decline → CapEx cuts → financing deterioration → impairment**
+
+五信号仍然能够工作，说明它更接近一个资本清算框架，而不是某一轮科技泡沫的专用解释。
+
+### B. Demand Quality / Financing 可以成为中段放大器
+
+油气周期表明，融资通常不是最先发生的信号，但会把原始需求/价格冲击放大成：
+
+- credit-line reduction；
+- underwriting tightening；
+- debt-service burden；
+- distressed refinancing；
+- 更快的 CapEx retrenchment。
+
+这与 P0-4 Macro-Financial Transmission 的方向一致。
+
+### C. 低价格既可以是 clearing signal，也可以成为后续复苏条件
+
+价格暴跌在本轮首先摧毁 marginal project economics，但低成本、成本削减和资产清算随后又帮助供需重新平衡。
+
+因此：
+
+> **价格下降的含义必须结合 utilization、forward commitment 与 financing state 读取，不能机械等同于永久需求破坏。**
+
+---
+
+# 8. v0.4 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -264,6 +342,7 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 | 2022–2023 GPU + Cloud optimization | 2 | 1 | 2 | 1 | 0 | Partial / no system-wide S4 |
 | 2008–2009 GFC / Enterprise IT | 0 | 2 | 1 | 2 | 2 | Broad clearing |
 | 2001–2003 Semiconductor | 2 | 2 | 2 | 2 | N/A | Broad layer clearing* |
+| 2014–2016 Oil & Gas Upstream | 2 | 2 | 2 | 2 | 2 | Broad clearing |
 
 当前结果说明：
 
@@ -273,7 +352,8 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 4. **Demand Quality / Financing 的历史可观测性不稳定**：2001 很强，2018 很难按当前定义观测。这意味着第五信号在不同产业结构中需要 proxy hierarchy，而不能假装始终有同样的数据；
 5. **Accounting 不应成为硬门槛**：2008–2009 显示金融条件主导的系统性清算可以在卖方并无巨额 write-down 时发生；
 6. **相关样本不能重复计数**：2000–2002 telecom 与 2001–2003 semiconductor 属于同一宏观 episode 的不同 physical layers；
-7. **目前仍不能称为“验证过的预测系统”**：已经有 5 个 layer/cycle observations，但宏观独立 episode 更少，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
+7. **跨行业外部有效性得到初步支持**：2014–2016 oil & gas 在完全不同的产业机制下仍表现出五类资本清算信号的同步恶化；
+8. **目前仍不能称为“验证过的预测系统”**：已经有 6 个 layer/cycle observations，但独立宏观 episode 仍然有限，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
 
 因此，当前最准确的表述是：
 
@@ -281,20 +361,19 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 8. 下一步：P0-1 v0.4
+# 9. 下一步：P0-1 v0.5
 
 下一版继续增加**独立周期**与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
-1. **2014–2016 commodity / datacenter-adjacent capex slowdown** 或其他独立资本周期 — 检验非科技泡沫型清算；
-2. 至少加入一个“高估值/高 CapEx 但最终没有 system-wide hard landing”的额外负对照；
-3. 为每个信号建立 **proxy hierarchy**：A 级一手指标 > B 级机构指标 > C 级市场代理；
-4. 记录 **first-deterioration date / confirmation date / trough date**，估计不同信号的领先/滞后关系；
-5. 至少加入一个“看起来很危险但最后没有 hard landing”的额外负对照；
-6. 在样本扩充前，不优化 0/1/2 的权重，不把任何阈值写回正式 Chapter 24。
+1. 增加一个**高 CapEx / 高估值但未形成 system-wide hard landing** 的独立负对照；
+2. 把 Case A–F 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough 四列；
+3. 对各 signal 统计 ordinal lead/lag，只报告方向与区间，不制造小样本显著性；
+4. 继续保持当前 proxy hierarchy、segment breadth 与 false-positive 规则冻结；
+5. 在样本明显扩充前，不优化 0/1/2 权重，不把任何阈值写回正式 Chapter 24。
 
 ---
 
-# 9. Sources
+# 10. Sources
 
 ## 2000–2002 Internet / Telecom
 
@@ -359,3 +438,23 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
   https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-05/history-2001-annual-report.pdf
 - STMicroelectronics 2001 Form 20-F — 2001 semiconductor TAM down approximately 32%; customer inventory reductions drove lower utilization and fab closures/selective shutdowns:  
   https://www.sec.gov/Archives/edgar/data/932787/000102140802007666/d20f.htm
+
+
+## 2014–2016 Oil & Gas Upstream
+
+- Halliburton FY2015 Form 10-K — U.S. land rig count down approximately 64% from Nov. 2014 peak through Dec. 2015, 2015 revenue -28%, widespread pricing pressure, and approximately US$2.2B impairments / other charges:  
+  https://www.sec.gov/Archives/edgar/data/45012/000004501216000272/hal_12312015-10k.htm
+- Halliburton FY2016 Form 10-K — 2016 described as the sharpest/deepest industry decline; average U.S. rig count nearly 75% below Nov. 2014 peak, with recovery signals later in 2016:  
+  https://www.sec.gov/Archives/edgar/data/45012/000004501217000047/hal_12312016-10k.htm
+- Apache FY2016 Form 10-K — 2014–2016 impairment table, including approximately US$9.47B total impairments in 2015:  
+  https://www.sec.gov/Archives/edgar/data/6769/000167337917000004/apa10-k2016.htm
+- U.S. EIA, 2016-03-04 — U.S. mining/exploration investment declined about 35% in 2015 and companies planned further CapEx reductions:  
+  https://www.eia.gov/todayinenergy/detail.php?id=24912
+- U.S. EIA, 2015-09-18 — low oil prices reduced operating cash flow; producers cut CapEx, raised debt/equity, and debt service consumed a larger share of cash flow:  
+  https://www.eia.gov/todayinenergy/detail.php?id=22992
+- Federal Reserve SLOOS, April 2015 — banks expected oil/gas loan quality to deteriorate and reported tighter underwriting, reduced credit lines and additional collateral requirements:  
+  https://www.federalreserve.gov/boarddocs/snloansurvey/201505/default.htm
+- Federal Reserve / FDIC / OCC Shared National Credits review, 2015-11-05 — sharp increase in classified oil/gas commitments following the commodity-price collapse:  
+  https://www.federalreserve.gov/newsevents/pressreleases/bcreg20151105a.htm
+- ConocoPhillips 2016 proxy / 2015 review — 2015 capital expenditures reduced 41% vs. 2014:  
+  https://www.sec.gov/Archives/edgar/data/1163165/000104746916011624/a2227560zdef14a.htm
