@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.12
+# P0-4 · Macro-Financial Transmission Layer v0.13
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -1327,6 +1327,160 @@ The requirement is **cross-confirmation**, not a fixed threshold count.
 
 ---
 
+## 11B. Project-finance borrower panel v0.1 — beyond CoreWeave
+
+CoreWeave / Core Scientific are no longer the only project-finance chain in the research layer.
+
+Three additional borrowers now provide different financing identities.
+
+| Borrower | Financing structure | Maturity / pricing / coverage | What it demonstrates | What must not be inferred |
+|---|---|---|---|---|
+| Nebius | GPU-infrastructure / contracted-cash-flow senior secured debt + corporate convertibles | first secured facility ~US$775M, SOFR + 2.50%, matures 2030; together with customer cash flows covers >100% of underlying GPU CapEx | investment-grade customer contracts can be transformed directly into asset-backed debt capacity | secured financing proves utilization; debt growth proves distress |
+| Applied Digital | senior secured notes + convertible debt + bridge / term facilities | US$2.35B 9.25% notes due 2030; US$2.15B 6.75% notes due 2031; US$300M bridge due 2027; weighted-average term-loan rate ~7.1%; ~US$4.19B principal scheduled in FY31 | maturity concentration and coupon structure make refinancing / completion risk materially more important than for cash-rich hyperscalers | higher coupon alone means project failure |
+| IREN | customer prepayments + convertible notes + GPU leasing + GPU financing | Microsoft-linked ~US$3.6B GPU financing around 6%; separate ~US$2.8B GPU financings including 9% fixed-rate financing; prepayments cover a meaningful share of GPU CapEx | customer contracts / prepayments can materially reduce equity funding need, while borrower risk varies by counterparty quality and financing price | customer prepayment is organic cash flow; all impairment is AI clearing |
+
+### 11B.1 Nebius — contract-backed debt as repeatable growth framework
+
+In July 2026 Nebius entered its first senior secured facility of approximately **US$775M**.
+
+The facility:
+- is backed by deployed GPU infrastructure;
+- is supported by contracted cash flows from an investment-grade customer;
+- bears interest at **SOFR + 2.50%**;
+- matures **October 31, 2030**;
+- together with the customer cash-flow structure, covers more than 100% of the capital expenditure required for the underlying GPU deployment.
+
+Nebius subsequently continued to use corporate convertible-note financing for broader data-center / GPU expansion.
+
+Research implication:
+
+> **contract quality can be converted into financing capacity before the infrastructure has generated a long public operating history.**
+
+That is a financing-strength signal.
+
+It also creates a future dependency:
+
+> **contract performance → pledged cash flow → debt service.**
+
+### 11B.2 Applied Digital — maturity wall and coupon sensitivity
+
+Applied Digital's FY2026 filing shows a more maturity-sensitive structure.
+
+As of May 31, 2026, major debt included:
+
+- **US$2.35B** 9.25% senior secured notes due December 2030;
+- **US$2.15B** 6.75% senior secured notes due March 2031;
+- **US$450M** 2.75% convertible notes due June 2030;
+- **US$300M** bridge facility due April 2027;
+- additional term / other debt.
+
+The filing reports:
+- weighted-average term-loan interest rate around **7.1%**;
+- remaining principal payments of about **US$4.19B in FY31**.
+
+This creates a clear MF6 / maturity-wall monitor.
+
+The S4-relevant variables are not the coupon in isolation.
+
+They are:
+
+```text
+construction / lease cash flow
++
+debt-service coverage
++
+refinancing terms
++
+maturity concentration
++
+project delivery
+```
+
+A refinancing problem becomes system evidence only if it coincides with weaker project economics / demand and extends beyond one borrower.
+
+### 11B.3 IREN — prepayment + GPU financing + counterparty-quality differentiation
+
+IREN provides a different structure.
+
+By early 2026 it had assembled financing across:
+- customer prepayments;
+- convertible notes;
+- GPU leasing;
+- GPU financing.
+
+For its Microsoft-linked deployment:
+- GPU financing was approximately **US$3.6B**;
+- reported pricing was about / below **6%**;
+- together with a **US$1.9B Microsoft prepayment**, the structure was expected to cover roughly **95%** of associated GPU CapEx.
+
+By August 2026 IREN also described:
+- approximately **US$2.8B** of additional GPU financings for other customer deployments;
+- a large financing tranche at around **9% fixed**;
+- customer prepayments covering roughly **45–55%** of GPU CapEx in recent contracts.
+
+This shows why project finance must classify **counterparty and contract quality**, not just financing amount.
+
+A useful monitor is:
+
+```text
+Net sponsor funding need
+=
+GPU / infrastructure CapEx
+-
+customer prepayment
+-
+asset-backed / GPU financing
+```
+
+but this is not the same as project profitability.
+
+### 11B.4 Accounting-identity warning from IREN
+
+IREN's FY26 results also include a strong accounting counterexample.
+
+The company reported large non-cash impairments primarily associated with **decommissioning Bitcoin-mining hardware while sites were converted toward AI Cloud growth**.
+
+Therefore:
+
+> **an impairment inside an AI-transitioning company is not automatically an AI-infrastructure clearing signal.**
+
+Before assigning the Accounting signal to AI S4, identify:
+
+- which asset was impaired;
+- which business generated the impairment;
+- whether the impaired asset is legacy / displaced by AI or is itself AI infrastructure;
+- whether the loss reflects demand clearing, technology migration, or strategic conversion.
+
+This rule should be applied to every mixed-business infrastructure company.
+
+### 11B.5 Borrower-level watch states
+
+For project-financed AI infrastructure, use:
+
+**PF-A — Contract-backed expansion**
+- long-duration contracts / prepayments;
+- financing closes on acceptable terms;
+- project delivery progresses;
+- customer concentration may be high, but counterparty quality / cash flow is strong.
+
+**PF-B — Financing sensitivity**
+- coupons / leverage / maturity dependence rise;
+- sponsor funding need increases;
+- bridge / refinancing reliance grows;
+- delivery and demand remain intact.
+
+**PF-C — Refinancing / clearing stress**
+- financing terms deteriorate materially;
+- maturity extension becomes necessary;
+- covenant / DSCR pressure appears;
+- contract quality weakens;
+- project delivery slows or cancels;
+- asset impairment / distressed sale follows.
+
+No fixed numeric trigger is assigned in v0.1.
+
+---
+
 ## 12. Relationship to the five clearing signals
 
 Macro-financial variables do not become a sixth independent S4 signal.
@@ -1365,7 +1519,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.12 conclusion
+## 14. v0.13 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1373,7 +1527,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers have quarter-level capital-intensity pilots with company-specific denominator controls; and those pilots now feed Dashboard K through a common six-layer S4 protocol covering headroom, recognized commitment, financing amplification, demand breadth, monetization, and clearing. The next empirical task is to resolve the stable CMDI direct-file path and extend project-level refinancing / maturity monitoring beyond CoreWeave / Core Scientific.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and the project-finance layer now extends beyond CoreWeave / Core Scientific to Nebius, Applied Digital, and IREN with distinct contract-backed, maturity-wall, prepayment, and GPU-financing structures. The next empirical task is to resolve the stable CMDI direct-file path and begin a standardized borrower maturity / interest / customer-concentration table.
 
 ## Sources
 
@@ -1463,3 +1617,13 @@ The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hypersca
 - Amazon 2025 Q4 earnings exhibit / 10-K — annual OCF US$139.5B; net PP&E / FCF denominator about US$128.3B; Q4 derived from annual minus 9M: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm
 - Amazon 2026Q1 Form 10-Q — OCF US$26.0B; US$59.5B debt proceeds; US$15B OpenAI investment + US$35B conditional commitment: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm
 - Amazon 2026Q2 Form 10-Q — OCF US$45.4B; cash CapEx US$53.1B; H1 cash CapEx about US$96.3B: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+
+
+## Project-finance borrower sources added in v0.13
+
+- Nebius, 2026-07-17 — ~US$775M first senior secured facility, SOFR + 2.50%, October-2030 maturity, backed by deployed GPUs and investment-grade customer contracted cash flows: https://nebius.com/newsroom/nebius-raises-775-million-in-first-secured-debt-financing-to-accelerate-global-buildout
+- Nebius Q2 2026 filing — secured-facility identity and collateral structure: https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d2.htm
+- Applied Digital FY2026 Form 10-K — debt stack, weighted-average rate and principal-payment schedule: https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm
+- IREN, 2026-02-05 — Microsoft GPU financing / prepayment structure: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000014/a991irenreportsq2fy26res.htm
+- IREN Q3 FY26 filing — binding ~US$3.6B GPU financing commitment backed by Microsoft-related GPUs / cash flows: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/iren-20260331.htm
+- IREN FY26 results, 2026-08-27 — additional GPU financings, customer prepayments and legacy Bitcoin-mining impairment identity: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm
