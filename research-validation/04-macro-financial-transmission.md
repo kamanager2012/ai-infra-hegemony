@@ -592,6 +592,39 @@ Do not fill those columns using incompatible frequencies merely to make the tabl
 
 ---
 
+## 10B. New public monitoring instrument: private-credit direct-lending survey
+
+On **August 5, 2026**, the Federal Reserve Banks of New York and Dallas announced a pilot survey of the U.S. private-credit direct-lending market.
+
+The announcement matters because it directly addresses one of the largest visibility gaps in this research layer:
+
+- the U.S. direct-lending market is estimated by the Fed announcement at more than **US$1.3T**;
+- visibility into new private-credit lending activity is materially weaker than in public bond markets;
+- the survey is intended to cover credit availability, lending standards and market evolution;
+- borrower size will be segmented into upper-middle, middle and lower-middle market categories;
+- launch is expected after **2026Q3**;
+- first aggregate findings are expected in **2027Q1**.
+
+No result exists yet.
+
+Therefore this is not evidence that private credit is tightening or easing.
+
+It is a **future observability upgrade**.
+
+Once published, Phase II should map the survey into:
+
+> **MF3 Lending Standards / Credit Availability**
+
+and compare it with:
+- bank SLOOS;
+- NY Fed CMDI;
+- CoreWeave / project-level financing terms;
+- refinancing / covenant changes.
+
+This will help answer whether stress is migrating from public/bank credit into private-credit channels rather than disappearing.
+
+---
+
 ## 11. New forward-monitoring panel
 
 Phase II should maintain a quarterly panel:
