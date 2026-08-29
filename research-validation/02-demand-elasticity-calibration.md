@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.5
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.6
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -566,7 +566,7 @@ Do not manufacture an elasticity point estimate from the charts.
 
 ---
 
-## 13B. OpenRouter Rankings Daily API — data-access status reopened
+## 13B. OpenRouter Rankings Daily API — data-access status closed
 
 OpenRouter now documents a public-data API endpoint:
 
@@ -725,13 +725,15 @@ The previous conclusion:
 
 is now obsolete.
 
-The correct v0.5 execution status is:
+The correct v0.6 execution status is:
 
 > **data path = closed**  
-> **actual Terra / Luna / Sol extraction = authentication blocked**  
+> **authenticated raw-panel retrieval = succeeded**  
+> **target slugs = confirmed**  
+> **full-window censoring / treatment audit = pending raw-row ingestion**  
 > **coefficient = not estimated**
 
-The Rankings Daily endpoint and required fields are documented, but requests require a valid OpenRouter API key. Phase II will not bypass authentication, infer hidden model-day values from charts, or manufacture a coefficient from aggregate pre/post ratios.
+A successful authenticated export has now been obtained. The retrieved panel reports `as_of=2026-08-29T18:15:41Z`, covers `2026-07-30 → 2026-08-28`, contains 1,530 rows, and exposes only `date`, `model_permaslug`, and `total_tokens`. The confirmed target slugs are `openai/gpt-5.6-terra-20260709`, `openai/gpt-5.6-luna-20260709`, and `openai/gpt-5.6-sol-20260709`. On 2026-08-28 all three appear separately in the top-50. Full-window censoring and treatment-path audits still precede estimation.
 
 This is a meaningful data-path closure, not an empirical estimate.
 
@@ -740,7 +742,7 @@ This is a meaningful data-path closure, not an empirical estimate.
 ## 15. P0-2 v0.6 worklist
 
 1. obtain/reconstruct daily provider-model price and token panels for eligible events;
-2. use the documented Rankings Daily API to build the Terra/Luna/Sol common-window panel; audit top-50 censoring before any estimation;
+2. ingest the retrieved 1,530-row export; build the Terra/Luna/Sol common-window panel and audit top-50 censoring before any estimation;
 3. separate **share displacement** from **net market token expansion**;
 4. test whether elasticity differs by workload category where usage labels are observable;
 5. report confidence intervals / robustness specifications;
