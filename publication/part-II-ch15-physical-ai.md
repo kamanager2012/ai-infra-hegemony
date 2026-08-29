@@ -153,7 +153,7 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 这是独立产业路径，不应被一个“AI 芯片能力”指标覆盖。
 
-## 11. Value Capture 可能分布在多个物理层
+## 11. 当前判断：Value Capture 可能分布在多个物理层
 
 长期 value capture 可能同时出现在：
 
