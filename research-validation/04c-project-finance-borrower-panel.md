@@ -1,6 +1,6 @@
 # P0-4C · AI Infrastructure Project-Finance Borrower Panel v0.2
 
-> Extracted from P0-4 v0.17. The panel separates financing exposure from realized refinancing stress and keeps facility-level identity.
+> Initially extracted from P0-4 v0.17; the parent method is now v0.18. The panel separates financing exposure from realized refinancing stress and keeps facility-level identity.
 
 ## 11B. Project-finance borrower panel v0.1 — beyond CoreWeave
 
