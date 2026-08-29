@@ -46,6 +46,22 @@ A strong counterargument looks like:
 
 > If variable A changes, mechanism B no longer holds; scenario C should therefore be weakened.
 
+## Local validation
+
+Before submitting a PR, run the local gates that must stay green:
+
+```bash
+python3 scripts/check-links.py
+python3 scripts/check-publication-editorial.py
+python3 scripts/check-publication-numeric-claims.py
+python3 scripts/check-publication-rights.py
+python3 scripts/check-required-sources.py
+python3 scripts/check-research-numeric-claims.py
+python3 scripts/recompute_models.py
+```
+
+`scripts/check-external-links.py` verifies the critical external evidence URLs against the live web. Some publishers block automated access (SEC EDGAR and openai.com return HTTP 403 to datacenter IPs), so run it from an environment where those sites are reachable, and treat 403/5xx responses as a signal for browser verification rather than automatically as dead links.
+
 ## Pull requests that are useful
 
 - correct or restore verified facts that belong within the fixed retrieval cutoff;
@@ -131,6 +147,22 @@ After the formal-text freeze, when a permitted material correction or evidence r
 最有价值的反方不是“我不同意”，而是：
 
 > 在变量 A 改变后，机制 B 不再成立，因此情景 C 应下调。
+
+## 本地验证
+
+提交 PR 前，请运行以下保持绿色的本地门禁：
+
+```bash
+python3 scripts/check-links.py
+python3 scripts/check-publication-editorial.py
+python3 scripts/check-publication-numeric-claims.py
+python3 scripts/check-publication-rights.py
+python3 scripts/check-required-sources.py
+python3 scripts/check-research-numeric-claims.py
+python3 scripts/recompute_models.py
+```
+
+`scripts/check-external-links.py` 用于对关键外部证据 URL 做联网验证。部分发布方会拦截自动访问（SEC EDGAR 与 openai.com 对数据中心 IP 返回 HTTP 403），因此请在能访问这些站点的环境中运行，并把 403/5xx 视为需要浏览器复核的信号，而不是直接判定为死链。
 
 ## 可以提的 PR
 
