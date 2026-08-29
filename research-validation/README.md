@@ -74,7 +74,7 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - **Public-Proxy Scenario Dashboard**：v0.6；新增 derived-layer ownership contract：Dashboard 只做 scenario aggregation，不再作为 04A/04B/04C/04D 的竞争性事实台账。Dashboard K 的 company/facility factual state 分别以 04B/04C 为准，Dashboard 只负责 cross-confirmation 与 S1–S4 relevance；
 - **Financing Reflexivity Map**：v0.3；继续保留 2026 Support Taxonomy 与 anti-double-counting，但新增 scope contract：`11` 只负责 financing taxonomy / causal graph / reflexivity diagnostic；facility state 归 04C，support activation / funded-loss state 归 04D，live clearing adjudication 归 01A；
 - **Non-AI End-System Supply Conditions**：v0.3；固定为 downstream response-evidence layer：只维护真实 procurement / BOM-margin / lead-time-EOL / qualification / cadence / substitution response，不再把 upstream AI/HPC tightness 本身当作 realized downstream transmission；Chapter 21 继续受 formal-expansion gate 约束。
-- **Developer Distribution Chokepoint**：v0.2；新增 transaction-status gate，严格分离 media-reported agreement / first-party definitive agreement / regulatory approval / legal closing / post-transaction conduct。2026-08-30 research-side status check 仍未在当前 first-party source set 验证 closing，因此继续只判定为潜在高影响纵向整合风险，不写成“已完成收购”或 software monopoly。
+- **Developer Distribution Chokepoint**：v0.3；在 transaction-status gate 基础上新增 ownership contract：13 只负责 transaction gating 与 DDC-A/B/C distribution-conduct state，`10` 负责 scenario relevance，`01A` 负责 clearing adjudication；不得由本文件单独升级成法律 monopoly/foreclosure 结论或 capital-clearing state。
 
 ## 文件索引
 
