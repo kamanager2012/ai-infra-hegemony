@@ -68,7 +68,7 @@ The **>US$500B** figure therefore remains a mobilization target—not committed,
 
 The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyond hardware into **land + power + shell (LPS)**. NVIDIA disclosed credit support for the LPS buildout, a **US$1.5B** investment in SB Energy, an initial **4.25 IT-GW** design capacity, and OpenAI as the end customer.[^4]
 
-NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested close to **US$50B** in frontier AI labs and discussed selective credit enhancement for part of frontier-lab infrastructure buildout.[^5]
+NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested close to **US$50B** in frontier AI labs and discussed selective credit enhancement providing close to **2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
 These disclosures create a new analytical mechanism:
 

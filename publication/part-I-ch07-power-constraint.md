@@ -74,7 +74,7 @@ Talen/AWS revised PPA 的 full contract quantity 为 **up to 1,920 MW**，合同
 因此，April 2026 可以作为 revised-PPA transition 的最新公司披露状态，但不能扩写成：
 
 - 全部物理改造已完成；
-- 全部 1.92 GW 已经 delivered；
+- 全部 1,920 MW 已经 delivered；
 - 全部 capacity 已被 AWS workload 高利用率使用。
 
 这一案例说明，商业合同可以提前锁定长期资源，但物理交付仍有独立时钟。

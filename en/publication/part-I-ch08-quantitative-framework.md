@@ -31,22 +31,16 @@ This is why HBM, interconnect, and compute have to be analyzed as one system rat
 
 ## 3. Algorithmic architecture changes the demand function without deleting physical constraints
 
-First-party anchors from the DeepSeek-V3 Technical Report include:[^1]
+Algorithm and architecture choices can change:
 
-- 671B total parameters;
-- 37B activated parameters;
-- 14.8T pre-training tokens;
-- **2.664M H800 GPU-hours for pre-training**;
-- **2.788M H800 GPU-hours for full formal training**.
+- activated compute;
+- bytes/token;
+- KV-cache requirements;
+- communication patterns;
+- batch / concurrency;
+- serving efficiency.
 
-DeepSeek-V2 separately reports, relative to DeepSeek 67B:[^2]
-
-- approximately **93.3% KV-cache reduction**;
-- approximately **5.76× maximum generation throughput**.
-
-These results belong to different model versions and must not be mixed.
-
-Their shared methodological implication is that architecture can change bytes/token, activated compute, communication patterns, and serving concurrency. It therefore changes the demand function for HBM, networking, and compute.
+Public cases such as DeepSeek-V3 / V2 show that architecture improvements can significantly change the unit resources required for a given capability.[^1][^2]
 
 But a changed demand function does not eliminate physical constraints. Whether higher efficiency reduces aggregate infrastructure demand still depends on workload volume and demand elasticity.
 
