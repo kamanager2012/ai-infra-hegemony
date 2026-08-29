@@ -29,6 +29,28 @@ The core question in advanced manufacturing is therefore not a market-rumored wa
 
 These figures show that HPC became TSMC's largest platform while TSMC continued to serve a broad customer base. They do not support the claim that TSMC has become a dedicated fab for any one customer.
 
+## 2A. 2Q26: the marginal center of advanced manufacturing continues to tilt toward HPC
+
+TSMC's official 2Q26 results provide a current cross-section:[^8]
+
+- HPC platform revenue mix: **66%**;
+- smartphone: **22%**;
+- advanced technologies at 7 nm and below: **77% of wafer revenue**;
+- 2026 capital budget: **US$60B–64B**.
+
+These remain revenue-mix and company-CapEx measures, not AI wafer allocation.
+
+They support a narrower conclusion:
+
+> **HPC has become one of the central marginal demand drivers of TSMC's advanced-manufacturing capital formation, while the company continues to raise investment in advanced processes and advanced packaging.**
+
+This strengthens the report's "where does the next capital dollar go?" thesis, but it does not support claims that:
+
+- 66% of wafers are AI;
+- 77% of advanced-technology revenue belongs to NVIDIA;
+- all US$60–64B of CapEx is AI-specific;
+- smartphones have lost leading-edge access.
+
 ## 3. Customer revenue share cannot be converted into wafer / node / CoWoS share
 
 The 2025 largest-customer share of 19% and second-largest-customer share of 17% are **annual-revenue ranking disclosures**.[^2]
@@ -100,6 +122,18 @@ TSMC's strategic position rests on three conditions that currently coexist: stro
 
 The key forward variables are not one quarter's customer revenue shares, but the customer structure of N2/N2P/A16 incremental resources, HBM / packaging supply, competition from cloud custom silicon for new capacity, and whether a second manufacturing system can produce a combined logic + packaging + memory alternative.
 
+## 10. What evidence would force this chapter to change its judgment
+
+Signals that should reduce TSMC's leading-edge strategic leverage include:
+
+- a second foundry achieving independently verifiable, large-scale external production at the same-generation node;
+- customer qualification, yield, delivery, and advanced packaging combining into a real substitute;
+- N2/N2P/A16 supply elasticity improving materially faster than demand growth;
+- advanced-packaging constraints disappearing on a sustained basis;
+- leading-edge workloads migrating materially toward another manufacturing system.
+
+Higher foundry revenue share alone, a single technology demonstration, or policy subsidies are not sufficient to establish an equivalent frontier-manufacturing second source.
+
 ## References
 
 [^1]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
@@ -109,3 +143,4 @@ The key forward variables are not one quarter's customer revenue shares, but the
 [^5]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^6]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^7]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
+[^8]: TSMC, 2Q26 Quarterly Results / Earnings Conference, platform mix, advanced-technology revenue mix, and 2026 capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
