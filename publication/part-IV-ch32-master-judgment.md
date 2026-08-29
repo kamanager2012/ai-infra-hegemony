@@ -20,7 +20,7 @@ GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞�
 高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要 accounting、utilization/revenue、market clearing、forward commitments 与 demand-financing quality 多组信号广泛、持续并相互印证地恶化。
 
 **第六，基础设施扩张只有转化为可验证、可收费、可重复的工作流产出，才完成需求侧闭环。**  
-Agent-Native Software、Physical AI 与企业自动化最终都要回答同一个问题：单位可验证结果需要多少 Compute、Energy、Human Review 与 Capital，所创造的业务价值能否持续覆盖这些成本。单位 Compute 成本下降不等于总需求下降；如果更低成本释放更多工作流，基础设施使用量仍可能继续增长。
+这是一项**长期经济判据，而不是截至 2026-08-28 已完成经验校准的事实指标**。公开研究仍难在同一 workflow denominator 下完整连接 Compute、Energy、Human Review、Failure/Retry、Capital 与持续业务价值。Agent-Native Software、Physical AI 与企业自动化最终都要回答这一问题；在该判据未完成校准前，单位 Compute 成本下降既不能被默认解释为总需求下降，也不能被默认解释为 Jevons 式总需求上升。
 
 **第七，未来十年不是一个单点预测，而是 supply elasticity、system substitution、workload economics、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
 
@@ -173,8 +173,8 @@ foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 
 
 因此，本报告对中国采用两级判断：
 
-> **Production-Grade Parallel Stack：**中国已经跨过“没有替代系统”的阶段，部分 stack 已进入真实 production deployment；  
-> **Autonomous Frontier Closure：**公开证据尚不足以证明 advanced manufacturing、HBM-class memory、advanced packaging、interconnect、compiler/runtime、equipment/material continuity 与跨代 infrastructure scaling 已全部形成自主、可持续闭环。
+> **Frontier Parallel Stack（未完全闭合）：**中国已经跨过“没有替代系统”的阶段，部分层已进入真实 production deployment；但按第17章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已闭合。  
+> **Autonomous Frontier Closure：**公开证据更不足以证明 advanced manufacturing、HBM-class memory、advanced packaging、interconnect、compiler/runtime、equipment/material continuity 与跨代 infrastructure scaling 已全部形成自主、可持续闭环。
 
 未来真正需要跟踪的不是某一颗国产 GPU 的单点性能，而是 production workload 能否持续扩大，以及在关键外部供给受限时，整个 stack 能否跨代维持 performance、supply、power 与 economics。
 
