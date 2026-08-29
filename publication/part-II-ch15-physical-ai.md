@@ -91,6 +91,29 @@ Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必
 
 所以机器人可能同时成为 edge memory 的新需求池和 cloud retraining / storage 的新需求源。
 
+### 7.2 机器人具有双重身份：AI 需求方，也是工业电子的残量承压方
+
+Physical AI 不只是新的 AI compute demand。
+
+机器人本体同时依赖：
+
+- MCU / control electronics；
+- sensors；
+- motor drive / power electronics；
+- industrial memory / storage；
+- edge accelerator；
+- networking。
+
+因此它可能同时受到两类上游约束：
+
+> **industrial-electronics supply pressure + edge-AI compute / memory pressure**
+
+这也是为什么机器人不能只按“AI 模型能力”判断产业速度。即使 cloud training 与 edge model 进步很快，MCU、sensor、actuator electronics、qualified memory 或其他工业器件的交期与供应连续性仍可能限制 mass deployment。
+
+反过来，也不能把任何工业器件短缺都归因于 AI。具体归因仍需满足第3、21章的 shared-resource / product-mix / allocation evidence 要求。
+
+---
+
 ## 8. 机器人侧的 Power Wall 是 Battery / Thermal
 
 data center 的 power bottleneck 是 grid / interconnection；机器人侧则是 battery energy density、runtime、charging、thermal 与 peak actuator demand。作为量纲对照，NVIDIA DGX GB200 rack 的官方功耗约为 120 kW，但该数据只用于说明 cloud 与 edge 属于不同物理池。[^4]
