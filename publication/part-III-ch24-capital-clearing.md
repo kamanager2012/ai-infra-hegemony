@@ -147,6 +147,8 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 这里不要求五类信号在同一个季度同时出现，因为 accounting、project finance 与 market clearing 的时钟不同。
 
+判定采用证据积累制：各信号按[第29章 §12A](part-IV-ch29-monitoring-framework.md)的披露频率原则逐期更新，不设统一固定阈值；只有多类信号在各自披露频率下持续恶化并相互印证时才上调 S4；信号方向分化时维持现状，并在监测框架中记录分歧。
+
 但如果只有一个维度恶化，例如股价下跌、模型价格下降、某一季毛利波动或 seller support 增加，而 utilization 与 monetization 仍然健康，都不足以单独证明 S4。
 
 ## 10. 当前判断

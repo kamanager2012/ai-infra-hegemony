@@ -241,7 +241,19 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - China 已形成真实 production-grade substitution 路径，但 autonomous frontier closure 尚未在所有 critical layers 得到规模化证明；
 - 全行业 Capital Hard Landing 的同步证据尚不足。
 
-这条 baseline 只在上述事实组合继续成立时有效。
+这条 baseline 只在上述事实组合继续成立时有效；判别方法见 §12A。
+
+## 12A. 判别规则：S1–S4 之间如何用公开证据区分
+
+情景之间按以下判别轴区分，而不是用单一总量指标：
+
+- **S1 ↔ S2**：替代系统在 frontier / high-value production workload 中的规模化程度，以及 HBM / packaging lead time 是否持续下降；
+- **S2 ↔ S3**：scarce-layer allocation 的集中度变化方向、seller forward commitments 增速、proprietary switching cost 与 powered-land 锁定程度；
+- **S3 ↔ S4**：utilization / monetization 与资本基数之比——该变量不公开披露，因此使用公开代理：clearing price（二手系统价、lease rate、cloud discount）、commitments 增速、seller equity / credit support 占比、third-party capital 的 risk premium 与 refinancing dependency。
+
+同一批资本证据（如 **>US$500B** mobilization target、**US$50B** frontier-lab 投资、**2 GW** credit support）[^7][^8][^9]在代理信号健康时支持 S2/S3 的 infrastructure coordination，在代理信号广泛、持续恶化时支持 S4 权重上升；判别不依赖任何单点数据。
+
+边界情形：若需求增速显著放缓但不触发五类 S4 信号，则按 substitution 强度归属——替代规模化扩大则 S1 权重上升；scarce-layer 仍紧则归入 S2（此时"需求高"应读作"需求增速仍高于有效供给增速"）。
 
 ## 13. Scenario Framework 的最终用途
 
@@ -265,6 +277,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 [^6]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 
 ## 交叉引用
 

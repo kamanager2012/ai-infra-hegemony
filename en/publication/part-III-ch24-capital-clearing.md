@@ -201,6 +201,8 @@ This report upgrades S4 from stress test to the current main scenario only when 
 
 The five groups do not need to deteriorate in the same quarter because accounting, project finance, and market clearing operate on different clocks.
 
+Judgment is cumulative: each signal updates at its own disclosure frequency per the principle in Chapter 29 §12A, without a single fixed threshold; S4 is upgraded only when several groups deteriorate persistently and in a mutually reinforcing way; when signals diverge, the baseline is maintained and the divergence is logged in the monitoring framework.
+
 But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 
 ## 10. Current judgment

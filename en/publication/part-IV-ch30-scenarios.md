@@ -280,7 +280,19 @@ because:
 - China has a real production-grade substitution path, while autonomous frontier closure remains unproven across all critical layers;
 - synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
 
-The baseline remains valid only while this evidence mix remains valid.
+The baseline remains valid only while this evidence mix remains valid; the discrimination rules are in Section 12A.
+
+## 12A. Discrimination rules: how public evidence distinguishes S1–S4
+
+Scenarios are distinguished along the following axes rather than by any single aggregate metric:
+
+- **S1 ↔ S2:** the degree to which alternative systems scale in frontier / high-value production workloads, and whether HBM / packaging lead times keep falling;
+- **S2 ↔ S3:** the direction of allocation concentration at scarce layers, the growth rate of seller forward commitments, proprietary switching costs, and the degree of powered-land lockup;
+- **S3 ↔ S4:** the ratio of utilization / monetization to the capital base — not publicly disclosed, so judged through public proxies: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, the share of seller equity / credit support, third-party capital risk premia, and refinancing dependency.
+
+The same capital evidence (for example the **>US$500B** mobilization target, the **US$50B** frontier-lab investment, and **2 GW** of credit support)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
+
+Boundary case: if demand growth slows materially without triggering the five S4 signal groups, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
 
 ## 13. Final use of the framework
 
@@ -304,6 +316,7 @@ That keeps long-run judgment responsive to industrial evidence rather than depen
 [^6]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 
 ## Cross-references
 
