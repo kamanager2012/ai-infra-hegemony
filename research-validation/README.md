@@ -21,6 +21,45 @@
 - 未完成验证前，不把结果写回 32 章正式正文；
 - 若未来需要重开正文，必须明确记录重开原因、影响章节与证据边界。
 
+## Research Authority Graph
+
+```text
+Primary / auditable evidence
+        │
+        ├─ 01  Historical clearing backtest
+        ├─ 01A Live prospective adjudication
+        ├─ 03  Workflow-economics contract / Level-3 closure
+        ├─ 04A Public-credit regime
+        ├─ 04B Hyperscaler corporate capital state
+        ├─ 04C Facility / project-finance state
+        ├─ 04D Seller / sponsor support state
+        ├─ 05  Geopolitical G-state classification
+        ├─ 07  Downstream Labor / Education / Physical-AI evidence chains
+        ├─ 09  China technical system-stack closure
+        ├─ 12  Non-AI end-system response evidence
+        └─ 13  Developer-distribution / vertical-foreclosure evidence
+                 │
+                 ├─ 11 Financing taxonomy / causal double-counting map
+                 ├─ 10 Scenario aggregation / S1–S4 relevance
+                 ├─ 06 Conditional timeline grammar
+                 └─ 08 Cross-scenario decision rules
+                          │
+                          ▼
+                 Formal 32-chapter report
+                 only after explicit reopen
+```
+
+Authority rules:
+
+1. **Evidence/state layers own facts.** Derived layers may summarize or interpret but must not create a competing raw-state ledger.
+2. **`10` owns scenario aggregation, not underlying facts.**
+3. **`06` owns conditional timeline grammar, not milestone truth.**
+4. **`08` owns decision rules, not scenario state.**
+5. **`11` owns financing taxonomy / anti-double-counting, while `04C/04D` own borrower/support states.**
+6. **Formal-report text remains frozen unless a specific evidence-backed defect or explicit reopen is recorded.**
+
+This graph is the maintenance contract for Phase II. New files should not be added if their role can be expressed as an existing evidence owner, taxonomy layer, aggregation layer, or decision layer.
+
 ## 当前状态
 
 - **P0-1 Historical Clearing Backtest**：v1.0；在 B/D/G/H 四路径 + Solar recovery replay 之后，新增第二个真正独立 negative control：2019 Boeing 737 MAX / commercial aerospace。结果证明 dominant supplier 即使同时出现 production cut + delivery collapse + large accounting charge，只要 independent competitor、end demand 与行业 breadth 不同步恶化，也不能升级成 system clearing。v1.0 因此新增 **signal severity cannot substitute for causal breadth** 与 regulatory/operational-shock boundary；同时新增 `01A` live prospective adjudication ledger，开始对 2026 AI infrastructure 做真正 publication-time logging；
