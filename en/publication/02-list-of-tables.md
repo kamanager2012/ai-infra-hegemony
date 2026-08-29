@@ -7,6 +7,7 @@
 - [Table 1.1 — Four standard AI-infrastructure scenarios](part-I-ch01-executive-summary.md)
 - [Table 2.1 — GB200 NVL72 rack-scale system structure](part-I-ch02-nvidia-system-stack.md)
 - [Table 2.2 — NVIDIA seller-side economics and forward supply commitments](part-I-ch02-nvidia-system-stack.md)
+- [Table 3.1 — Layered exposure of non-AI / Physical-AI end systems](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 capacity, technology, and platform-revenue structure](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — Representative AI power / LPS pathways](part-I-ch07-power-constraint.md)
 
@@ -28,6 +29,7 @@
 - [Table 29.1 — NVIDIA seller economics and forward-reservation baseline](part-IV-ch29-monitoring-framework.md)
 - [Table 29.2 — Power project state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — Default evidence grade for report updates](part-IV-ch29-monitoring-framework.md)
+- [Table 29.4 — End-system residual-pressure monitoring panel](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4](part-IV-ch30-scenarios.md)
 - [Table 31.1 — Core structural variables used in the long-run strategic judgment](part-IV-ch31-strategy-endgame.md)
 - [Table 31.2 — Primary value sources and risks across AI-related asset classes](part-IV-ch31-strategy-endgame.md)
