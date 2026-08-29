@@ -435,6 +435,14 @@ If multiple scarce layers and switching costs strengthen simultaneously, S3 gain
 
 If utilization, market clearing, forward commitments, accounting, and demand-financing quality deteriorate broadly and persistently, S4 becomes the dominant interpretation.
 
+The report's final question is therefore not whether “only AI still matters.” Smartphones, PCs, vehicles, industrial equipment, robotics, aerospace, naval, radar, and other strategic systems remain important. The relevant question is:
+
+> **Can those still-important end systems continue to obtain enough, stable, affordable electronics on their own BOM, qualification, lifecycle, and cost constraints from an upstream system whose priorities are being rewritten by AI/HPC?**
+
+The dimensional boundary remains essential. Smartphones, PCs, and selected edge/ADAS systems can directly share advanced logic, memory, or selected packaging with AI. Vehicles, industrial control, and factory systems are more often exposed through adjacent product mix and long qualification cycles. Aerospace, defense, and space electronics often face a different problem: the economics and continuity of trusted, long-life, low-volume, special-process supply, equipment, and engineering talent — not direct competition for HBM.
+
+That is the industrial meaning of the “AI Infrastructure Hegemony” risk: **other end systems do not become unimportant; rather, importance itself no longer guarantees upstream priority.**
+
 > **Forecasts may be wrong; evidence boundaries cannot be. Scenarios may be bold; the fact layer must remain disciplined. The most valuable long-run industry research is not a one-time guess at the end-state, but knowing which variables are deciding the end-state—and what facts would force the judgment to change.**
 
 ## Cross-references
