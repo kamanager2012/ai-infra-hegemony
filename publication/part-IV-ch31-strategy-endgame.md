@@ -79,6 +79,33 @@ AI workload 是否能够产生足够现金流覆盖：
 
 S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)。
 
+### 2A. 四类情景对应四种不同的战略动作
+
+情景分析的价值不是给未来贴标签，而是改变今天应该保留什么选择权。
+
+**Table 31.1 — S1–S4 的战略含义**
+
+| 情景 | 产业结构 | 企业重点 | 资本重点 | 国家/产业政策重点 |
+|---|---|---|---|---|
+| S1 — Competitive Expansion | 多 system stack 共存，供给弹性与 portability 提高 | multi-stack execution、价格与性能优化 | application/workflow 与差异化供应商 | interoperability、竞争与多源供给 |
+| S2 — Baseline Concentration | 高增长与高集中并存，替代路线持续发展 | 主栈效率 + 可执行第二路径 | system platform、scarce layers，同时严控 duration | 扩容关键物理层并降低单点依赖 |
+| S3 — Resource Hegemony | 多层 scarcity、quantity assurance、switching cost 同时强化 | 提前锁 supply / power，同时提高迁移准备度 | scarce-capacity access 与协调能力溢价上升 | frontier supply continuity、power、国产/替代 stack |
+| S4 — Capital Hard Landing | utilization、clearing、financing quality 同步恶化 | 避免长期过量 reservation，优先可变成本与现金流 | residual value、债务、refinancing、distressed assets | 防止低效项目长期占用电力/资本，利用低价算力扩散应用 |
+
+**Source:** 本报告 S1–S4 framework 与本章战略推导。  
+**Note:** 该表不是资产配置建议，也不表示所有地区和产业层会同步处于同一情景。
+
+四种状态的核心差异可以进一步压缩为：
+
+- **S1：** 选择权来自 portability；
+- **S2：** 选择权来自“主栈效率 + 第二路径”；
+- **S3：** 选择权来自提前获得 scarce capacity，同时避免被单一 stack 完全锁定；
+- **S4：** 选择权来自现金流、可变成本结构和在清算后重新配置低价资产的能力。
+
+因此，长期战略不是预测一个赢家，而是：
+
+> **让组织在 S1–S4 权重变化时，仍然有可以真正执行的下一步。**
+
 ---
 
 ## 3. 当前战略基准：高增长、高集中、替代路径同时存在
