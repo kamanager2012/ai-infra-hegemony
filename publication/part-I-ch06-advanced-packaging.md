@@ -142,7 +142,7 @@ Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDI
 
 ---
 
-## 8. Packaging 也是 China Frontier System Closure 的独立 Gate
+## 8. Packaging 是 China Production-Grade Parallel Stack 的独立 Gate
 
 frontier AI parallel stack 不能只用 logic node 判断。
 
@@ -157,9 +157,11 @@ frontier AI parallel stack 不能只用 logic node 判断。
 
 仍然无法稳定交付大规模 production system。
 
-因此，“有国产 accelerator”与“形成完整 frontier system”不是同一个命题。
+因此，“有国产 accelerator”与“形成 production-grade frontier system”不是同一个命题。
 
-China parallel stack 必须把 logic、HBM、packaging、interconnect、software 与 power 分层验证。
+在 **Production-Grade Parallel Stack** 层，必须验证 packaging 是否能支撑真实 workload 的规模化交付；在更高一层的 **Autonomous Frontier Closure** 中，还需要继续验证 packaging equipment、materials、service、process upgrade 与跨代 capacity expansion 的 continuity。
+
+这两个层级不能混写。
 
 ---
 
