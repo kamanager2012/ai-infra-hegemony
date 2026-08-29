@@ -142,9 +142,13 @@ Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 
 
 因此，本报告既不采用“已经全面追平”，也不采用“完全没有替代能力”的极端叙述。
 
-> **更准确的判断是：中国已经跨过“没有替代系统”的阶段，但公开证据尚不足以证明所有 frontier critical layers 都已经形成全球等价规模闭环。**
+更准确的判断需要分成两个层级：
 
-这意味着中国 AI infrastructure 的核心问题不是“有没有一颗国产 GPU”，而是能否形成可持续、可规模化、可迭代的完整 system closure。
+> **中国已经跨过“没有替代系统”的阶段，正在形成 production-grade parallel stack；但公开证据尚不足以证明所有关键 upstream / infrastructure layers 都已经实现 autonomous frontier closure。**
+
+前者回答“系统能不能在真实 production workload 中稳定运行”，后者回答“在关键外部供给受限时，能否跨代持续扩张和迭代”。
+
+因此，中国 AI infrastructure 的核心问题不再只是“有没有一颗国产 GPU”，而是 production-grade system、upstream manufacturing continuity 与 multi-generation scaling 能否同时成立。
 
 ---
 
@@ -160,12 +164,13 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 - grid / substation / generation：更长周期；
 - workload monetization：不确定且取决于真实业务采用。
 
-因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 headline CapEx，而应同时观察：
+因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 headline CapEx，而应同时观察五类信号：
 
 - **Accounting**：impairment、write-down、accelerated depreciation；
 - **Utilization / Revenue**：有效利用率、单位收入、workflow monetization；
 - **Market Clearing**：lease rate、二手价格、lead time、inventory；
-- **Forward Commitment**：CapEx guidance、supply commitments、Anchor Buyer contracts。
+- **Forward Commitment**：CapEx guidance、supply commitments、Anchor Buyer contracts；
+- **Demand Quality / Financing**：customer cash generation、third-party risk capital、supplier equity / credit support 与 refinancing dependency。
 
 截至 2026 年 8 月，公开事实更符合：
 
@@ -186,7 +191,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 | S1 — Competitive Expansion | supply elasticity 与 interoperability 上升，多 system stack 共存，value capture 更分散 |
 | S2 — Baseline Concentration | 少数 system platform 与 scarce-layer supplier 保持强经济性，同时替代路线持续发展 |
 | S3 — Resource Hegemony | 多个 scarce layers 与 switching cost 同时强化，后来者复制完整 infrastructure stack 的门槛上升 |
-| S4 — Capital Hard Landing | utilization、clearing price、CapEx/commitments 与 accounting losses 同步恶化 |
+| S4 — Capital Hard Landing | utilization、clearing price、CapEx/commitments、accounting losses 与 demand-financing quality 同步恶化 |
 
 **Source:** 本报告情景框架。  
 **Note:** S1–S4 是并列条件状态，不赋固定概率，也不是必然连续阶段。
@@ -201,7 +206,8 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 - software migration cost 是否下降；
 - AI workload monetization 是否足以覆盖资本基数；
 - Anchor Compute Buyer commitments 是否兑现；
-- 中国 frontier-system closure 是否跨越更多关键层。
+- 中国 production-grade parallel stack 是否扩大，以及 autonomous frontier closure 是否跨越更多关键层；
+- supplier-assisted financing 是否仍由真实 utilization / monetization 支撑。
 
 ---
 
