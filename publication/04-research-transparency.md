@@ -172,6 +172,28 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 完成上述定向补充后，正式正文再次冻结。
 
+### 8C. 2026-08-30 S4 定义级修正
+
+2026-08-30，正式正文仅因 Phase II 历史清算回测发现的一处**定义级不一致**而再次定向开启。
+
+历史回放证明：Accounting 是高价值 confirmation / severity channel，但**不是 system clearing 的 mandatory gate**。financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认，前提是 cross-signal confirmation 与 cross-actor / cross-layer causal breadth 已足够强。
+
+本次修正仅涉及：
+- Ch24 — Capital Clearing；
+- Ch29 — Monitoring Framework；
+- Ch30 — S1–S4 Scenarios；
+- Ch32 — Master Judgment；
+- 对应的 publication-status metadata。
+
+本次修正**没有改变**：
+- 2026-08-28 evidence cutoff；
+- 当前 S2 baseline judgment；
+- 四情景 taxonomy；
+- 任何截止日前事实；
+- S4 必须依赖广泛、持续、因果独立交叉确认的总体要求。
+
+完成该定义级修正后，正式正文再次冻结。
+
 ---
 
 
