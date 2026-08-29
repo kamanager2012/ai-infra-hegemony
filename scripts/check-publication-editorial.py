@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Editorial preflight for the formal bilingual Publication Layer.
+"""Local editorial checker for the formal bilingual 32-chapter report.
 
-Narrow release gate for publication hygiene. It intentionally checks only
-release-marker residue and malformed unit casing; link/media checks live in
-their dedicated gates.
+Checks draft-marker residue and malformed unit casing. Link and media checks
+remain separate local research/editorial checks.
 """
 from __future__ import annotations
 
@@ -50,7 +49,7 @@ def main() -> int:
 
     print(f"publication editorial files checked: {checked}")
     if failures:
-        print(f"Publication editorial gate FAILED: {len(failures)} issue(s)")
+        print(f"Publication editorial check FAILED: {len(failures)} issue(s)")
         for item in failures:
             print(f"- {item}")
         return 1
