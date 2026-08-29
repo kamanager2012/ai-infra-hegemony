@@ -193,7 +193,11 @@ used-system price、cloud discount、lease rate、delivery lead time。
 
 CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts。
 
-只有多组信号同步恶化，S4 才从 stress test 升级为主情景。
+### Demand Quality / Financing
+
+customer cash generation、third-party capital risk-taking、supplier equity / credit enhancement、refinancing dependency、asset transferability。
+
+只有多组信号广泛、持续并相互印证地恶化，S4 才从 stress test 升级为主情景。
 
 ## 11. Evidence-grade 快速规则
 
@@ -223,7 +227,7 @@ seller commitments 继续扩大、多层 scarcity 持续、switching cost 上升
 
 ### 向 S4 移动
 
-utilization、market-clearing price、CapEx / commitments 与 accounting losses 同步恶化。
+utilization、market-clearing price、CapEx / commitments、accounting losses 与 demand-financing quality 同步恶化。
 
 ### 留在 S2
 
@@ -252,7 +256,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 4. **proxy 不能重新命名成无法直接测量的 physical quantity；**
 5. **如果公开数据不足，应明确标记 not measurable，而不是用假设补齐。**
 
-例如，向 S4 移动不能只依赖一家公司 CapEx 下调，而应看到 utilization、market clearing、forward commitments 与 accounting signals 出现共同恶化。
+例如，向 S4 移动不能只依赖一家公司 CapEx 下调，而应看到 utilization、market clearing、forward commitments、accounting 与 demand-financing quality 出现共同恶化。
 
 向 S1 移动也不能只依赖一个新 accelerator launch，而应看到真实 production workload、迁移成本和 supply elasticity 同时改善。
 
