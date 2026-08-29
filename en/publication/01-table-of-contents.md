@@ -8,6 +8,18 @@
 - [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
 - [Competitive Set, Substitution Paths, and Counter-Evidence Matrix](05-competitive-evidence-matrix.md)
 
+## If you come from end systems / consumer electronics / automotive / industrial / high-reliability electronics
+
+Recommended first pass:
+
+1. [Chapter 1 — Executive Summary](part-I-ch01-executive-summary.md)
+2. [Chapter 3 — AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [Chapter 21 — Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
+4. [Chapter 20 — Value Capture Map (§10)](part-III-ch20-value-capture-map.md)
+5. [Chapter 32 — Master Judgment](part-IV-ch32-master-judgment.md)
+
+NVIDIA, hyperscalers, China's parallel stack, and the scenario chapters explain **why upstream allocation rules change**. End-system readers do not need to finish those chapters before understanding residual capacity, quantity assurance, or upgrade tax.
+
 ## Part I — System Power and Physical Scarcity
 
 1. [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
@@ -36,7 +48,7 @@
 
 19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
-21. [Cost Transmission into Consumer Electronics and the Real Economy](part-III-ch21-consumer-transmission.md)
+21. [Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
 24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
