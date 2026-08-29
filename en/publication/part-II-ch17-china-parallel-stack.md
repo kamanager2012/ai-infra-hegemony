@@ -43,6 +43,34 @@ A better judgment is:
 
 UNISOC represents a different commercial loop: much larger shipment scale in mass-market / entry-5G devices without proving premium-flagship system equivalence.
 
+### 2.2 Design Origin ≠ Manufacturing Closure: UNISOC / Xiaomi must be traced through the foundry layer
+
+One additional supply-chain discipline is required here:
+
+> **"Domestic design" does not mean "manufacturing autonomy," and shipment share cannot substitute for foundry continuity.**
+
+UNISOC is a fabless IC-design company. Its public product materials confirm that multiple current 5G SoCs use **6nm EUV**; the official M6870 page goes further and explicitly identifies **TSMC 6nm EUV**.[^19] UNISOC / Spreadtrum also has a long first-party manufacturing history with TSMC: in 2011, TSMC disclosed that a Spreadtrum 40nm baseband processor had entered initial production at TSMC Fab 12.[^20]
+
+This report does **not** extend those observations into the stronger claim that "all UNISOC products are manufactured by TSMC." The T9100 official page, for example, confirms a **6nm process** but does not itself identify the foundry.[^21] The safe conclusion is therefore:
+
+> **UNISOC's 14% smartphone AP-SoC shipment share proves real commercial design and shipment scale, but it does not prove domestic foundry closure. Public product and historical supply-chain evidence show TSMC is an important manufacturing dependency, so foundry continuity must be evaluated as a separate gate.**
+
+The Xiaomi XRing case is more direct: the Reuters source already cited in this chapter explicitly reports TSMC manufacturing cooperation.[^4] Xiaomi's in-house SoC program is therefore also a case where design capability is real but manufacturing autonomy cannot be inferred from the design origin.
+
+This changes the consumer-computing test. Any future "domestic SoC share" should be decomposed into at least:
+
+1. **design origin**;
+2. **foundry identity / process continuity**;
+3. **packaging / memory dependency**;
+4. **exposure to external licensing, service, or equipment rules**;
+5. **multi-generation manufacturing continuity**.
+
+The January 2025 U.S. BIS foundry due-diligence rule did broaden licensing and due-diligence requirements for front-end foundries / packaging companies handling **certain advanced-computing ICs**, and introduced the Approved / Authorized IC Designer framework; the relevant advanced-node definition includes 16/14nm-and-below or non-planar logic.[^22] But this cannot be simplified into "all PRC-designed smartphone SoCs below 16/14nm automatically require a license." Applicability depends on EAR classification, performance/transistor-count conditions, designer status, destination, and transaction structure.
+
+The defensible risk statement for UNISOC / Xiaomi is therefore:
+
+> **External-foundry dependence increases supply-continuity and policy exposure, but without product-specific EAR classification and licensing evidence it cannot be rewritten as an already-occurring or inevitable cutoff.**
+
 Consumer parallel-supply capability should therefore be evaluated as its own layer—not used as proof for or against frontier-AI closure.
 
 ## 3. Layer two: PCs / workstations are constrained more by software compatibility and scale
@@ -316,3 +344,9 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 [^16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
 [^17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology, and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
 [^18]: Shanghai Stock Exchange, listing announcement for CXMT (688825), 2026-07-24; trading commenced 2026-07-27, https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
+
+
+[^19]: UNISOC, M6870 official product page, explicitly listing TSMC 6nm EUV, https://www.unisoc.com/en/solution/IDMetaverseUS/M6870
+[^20]: TSMC / Spreadtrum, 2011-01-27, first commercialized 40nm TD-SCDMA baseband processor produced at TSMC Fab 12, https://pr.tsmc.com/english/news/1655
+[^21]: UNISOC, T9100 official product page, 6nm process specification; the page does not itself identify the foundry, https://www.unisoc.com/en/product/SmartPhoneUS/T9100
+[^22]: U.S. Bureau of Industry and Security, 2025-01-15, foundry due-diligence / advanced-computing IC controls and Approved / Authorized IC Designer framework, https://www.bis.gov/press-release/commerce-strengthens-restrictions-advanced-computing-semiconductors-enhance-foundry-due-diligence-prevent
