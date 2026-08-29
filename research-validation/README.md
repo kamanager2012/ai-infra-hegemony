@@ -30,7 +30,8 @@
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
-- **Decision Invariants**：v0.1 已建立；从 Chapter 31 的条件化战略中提炼跨 S1–S4 都成立的低后悔决策原则。
+- **Decision Invariants**：v0.1 已建立；从 Chapter 31 的条件化战略中提炼跨 S1–S4 都成立的低后悔决策原则；
+- **China System-Stack Extension**：v0.1 已建立；补服务器/整机交付、Huawei full stack、上市公司证据地图、产业政策政治经济学，并把 design origin / foundry closure / autonomous closure 分开。
 
 ## 文件索引
 
@@ -43,6 +44,7 @@
 - [06 · Conditional Timeline](06-conditional-timeline.md)
 - [07 · Downstream Empirical Chains](07-downstream-empirical-chains.md)
 - [08 · Decision Invariants](08-decision-invariants.md)
+- [09 · China System-Stack Extension](09-china-system-stack-extension.md)
 
 ## 下一阶段
 
@@ -53,4 +55,5 @@
 3. P0-3 开始填充真实 workflow benchmark 表；
 4. P0-4 建季度 macro-financial panel，并映射主要 AI-infrastructure 项目的融资结构；
 5. 对 Decision Invariants 做 cross-scenario falsification：凡是只在某一情景成立的原则降回 conditional strategy；
-6. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
+6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
+7. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
