@@ -11,7 +11,7 @@ AI infrastructure 的同一笔支出可能同时出现在：
 - packaging revenue；
 - data-center / power investment。
 
-这些并不是六笔互相独立的钱。买方购入一套 system，卖方确认 revenue；卖方再向 foundry、memory 和 components 采购；cloud 同时建设机房和电力。把各层 headline number 直接相加，会发生严重 double counting。
+这些并不是六笔互相独立的钱。买方购入一套 system，卖方确认 revenue；卖方再向 foundry、memory 和 components 采购；cloud 同时建设机房和电力。把各层公开规模数字直接相加，会发生严重 double counting。
 
 因此，本章只分析**价值捕获位置**和**风险承担位置**，不制造一个不可审计的全球总利润池。
 
