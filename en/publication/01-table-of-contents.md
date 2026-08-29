@@ -8,7 +8,7 @@
 - [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
 - [Competitive Set, Substitution Paths, and Counter-Evidence Matrix](05-competitive-evidence-matrix.md)
 
-## If you come from end systems / consumer electronics / automotive / industrial / high-reliability electronics
+## If you come from end systems / consumer electronics / game consoles / automotive / industrial / high-reliability electronics
 
 Recommended first pass:
 
