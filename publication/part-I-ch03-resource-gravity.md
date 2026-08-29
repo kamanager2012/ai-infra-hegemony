@@ -170,13 +170,14 @@ AI 对传统市场的传导强度取决于三个条件：
 | 整机 / 系统 | 主要共享或相邻上游 | 主要传导形态 | 公开证据允许推出 | 禁止推出 |
 |---|---|---|---|---|
 | Smartphone / PC | selected leading-edge SoC/GPU、LPDDR/DRAM、NAND、selected packaging | BOM、配置、升级税、换机周期、quantity assurance | 共享资源机会成本可以上升 | 行业消亡；某品牌被挤掉确定 wafer 数量 |
+| Game console | custom SoC/APU、GDDR/DRAM、NAND/SSD、selected packaging/test | BOM、promotion、hardware margin、长世代 cost-down、quantity assurance | memory procurement 可以影响硬件销量、促销与盈利节奏 | 主机直接抢 HBM；AI 抢走某厂确定 wafer 数量；下一代必然涨价/延期 |
 | Router / broadband | consumer DRAM/NAND、低议价采购 | higher price + weaker allocation | 低议价客户可能同时承受价格和数量压力 | 所有终端都按同一倍数涨价 |
 | Automotive / industrial / production line | mature memory、MCU/analog、power、selected ADAS compute、packaging/test | 交期、认证、EOL/料号、供应连续性 | 长认证和长寿命降低快速换料能力；相邻 product-mix 可形成压力 | 汽车电子被 GPU/HBM 直接“吃掉” |
 | Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | 工业电子与 edge-AI 两类约束叠加 | 机器人可能同时暴露于工业电子与 AI compute 两侧 | 每台机器人都需要 frontier HBM；工厂因 AI 自动停产 |
 | Avionics / radar / space electronics | trusted/qualified logic、RF/power、rad-hard/rad-tolerant parts、special packaging/test | 小批量产线经济性、资格认证、可信 access、长寿命支持 | 商业高量市场可削弱小批量特殊需求的 bargaining power | 飞机、雷达、卫星因 HBM shortage 直接停摆 |
 | Naval / other long-life defense systems | long-life qualified electronics、power/communications、trusted supply、maintenance spares | EOL、供应商 longevity、small-volume economics | 长周期系统需要长期料号与可信供应保障 | 舰船/航母“缺 NVIDIA” |
 
-**Source:** 本报告第21章的 consumer/industrial transmission evidence；NXP / ST automotive longevity disclosures；U.S. GAO / DMEA trusted-microelectronics evidence；NASA/JPL space-radiation assurance materials。[^6][^7][^8][^9][^10]  
+**Source:** 本报告第21章的 smartphone / PC / game-console / consumer / industrial transmission evidence；NXP / ST automotive longevity disclosures；U.S. GAO / DMEA trusted-microelectronics evidence；NASA/JPL space-radiation assurance materials。[^6][^7][^8][^9][^10]  
 **Note:** 表中后四类的 AI-era transmission 强度并不相同。尤其 defense / aerospace / space 的公开证据主要支持“低量、特殊、长寿命、可信供应在商业市场中的结构性弱势”，**不等于已经证明 AI/HPC 是某一具体项目成本或延期的直接原因**。
 
 这张表的核心不是扩大“受害者名单”，而是固定一条边界：
