@@ -2,7 +2,7 @@
 
 ## 1. 核心判断：AI 对传统终端的影响不是“全面占用芯片供给”，而是改变边际资源配置
 
-Consumer electronics 并不直接采购训练集群，但 smartphone、PC、router、汽车与工业设备会与 AI/server systems 共享部分上游资源，包括：
+传统整机并不都直接采购训练集群，但 smartphone、PC、router、汽车、工业设备、机器人以及部分高可靠电子，会以**不同强度**与 AI/server systems 共享同一批或相邻的上游资源。越接近 advanced logic / memory / selected packaging，传导越直接；越依赖 long-life、trusted、RF/power、rad-hard 或 special-process capacity，传导越可能通过资本、设备、工程能力与供应商经济性间接发生。典型共享或相邻资源包括：
 
 - DRAM / LPDDR wafer input；
 - selected leading-edge logic；
@@ -123,6 +123,19 @@ Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 
 ---
 
+## 4A. Routers / Broadband：低议价客户更能体现资源重排的损伤机制
+
+Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。[^16]
+
+这组数据的重要意义不在于“所有终端都涨七倍”，而在于它揭示一个产业机制：
+
+> **Resource crowding-out 的损伤强度，与终端厂商的议价权、库存能力和 supply assurance 高度相关。**
+
+大型客户可以通过 LTA、规模采购与更强资产负债表缓冲冲击；低议价 OEM 更容易同时承受 higher price + lower allocation。
+
+
+---
+
 ## 5. Cross-Market Resource Reordering：AI 正在打破多终端资源配置的旧平衡
 
 TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D advanced packaging** bottleneck，并称 NVIDIA 较早预先锁定大量 **4/3 nm wafer capacity、CoWoS、HBM、T-glass、substrates、PCB 与 SSD** 等资源。[^8]
@@ -224,17 +237,53 @@ TrendForce 2026-06 指出，主要 memory suppliers 继续把 capacity 向 HBM �
 
 这些都需要独立的一手或高质量机构证据。
 
+车规电子还多一层 **qualification / product-longevity rigidity**。NXP 对 S32G vehicle network processors 给出至少 **15 年** product support；STMicroelectronics 2025 年把部分 SPC58 automotive MCU 的 availability 从 15 年延长到 **20 年**，部分料号至少供应至 2038–2041。[^19][^20]
+
+这类一手证据说明：
+
+> **汽车电子的难点不仅是“今天贵不贵”，还包括一旦完成认证后，料号能否在整个平台生命周期内继续获得稳定供应。**
+
+因此，MCU、analog、power semiconductor 与多数车规器件并不和 AI server 直接争夺同一物理池；但 supplier CapEx、packaging/test capacity、engineering priority 与 product-longevity economics 仍可能受到更高回报市场的间接影响。没有项目级证据时，本报告不把这种相邻资源压力写成“AI 已导致某车型缺芯”。
+
+### 8.1 产线与工业自动化：伤点在交期、替换成本与停线风险，不在训练卡
+
+PLC、servo control、industrial PC、sensor、MCU、analog/power 与 industrial memory 的共同特点，是：
+
+- qualification / validation 周期长；
+- embedded software 与 hardware BOM 绑定；
+- 替换器件需要重新测试；
+- 很多设备要求多年维护与备件支持。
+
+因此，对 production line / industrial automation 来说，上游压力更可能表现为：
+
+> **lead time 延长 → redesign / requalification 成本上升 → spare-part / maintenance 风险增加**
+
+而不是“工厂买不到训练 GPU”。
+
+这一机制与本章第2A节的归因边界完全一致：**某一工业器件涨价或交期延长，不足以单独证明原因就是 AI。** 只有看到 shared-resource exposure、supplier product-mix shift、capacity/engineering reallocation 或供应商明确归因，才可升级为 AI-era transmission evidence。
+
+### 8.2 航空、航天与国防电子：公开证据支持“小批量高认证的结构性弱势”，不支持“直接抢 HBM”
+
+这类系统与 smartphone / PC 的物理暴露不同。
+
+U.S. GAO 对 trusted defense microelectronics 的公开研究指出，商业微电子市场主要面向高量、短生命周期需求，而国防需求往往低量、特殊，对商业市场的影响力较弱；DMEA Trusted Foundry / Trusted Supplier 体系本身就是为了给通常低量的政府需求保留可信 advanced microelectronics access。[^21][^22]
+
+NASA/JPL 对 space electronics 的资料则强调，空间辐射环境会使部分 IC 需要特殊设计、制造、screening 与 radiation assurance。[^23]
+
+因此，最严谨的 AI-era 判断只能写到：
+
+> **当商业半导体资本、设备与工程能力进一步围绕高量高回报市场优化时，小批量、高可靠、长寿命、可信或特殊工艺需求的维持成本可能上升。**
+
+目前公开证据**不足以**进一步写成：
+
+- 航空或航天项目因为 HBM 被订光而延期；
+- radar / naval systems 与 AI server 直接争夺同一 GPU pool；
+- AI 已造成这类项目某个确定百分比的成本上涨或供应满足率下降。
+
+这些都需要项目级、供应商级或政府采购级证据。
+
 ---
 
-## 9. Routers / Broadband：低议价客户更能体现资源重排的损伤机制
-
-Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。[^16]
-
-这组数据的重要意义不在于“所有终端都涨七倍”，而在于它揭示一个产业机制：
-
-> **Resource crowding-out 的损伤强度，与终端厂商的议价权、库存能力和 supply assurance 高度相关。**
-
-大型客户可以通过 LTA、规模采购与更强资产负债表缓冲冲击；低议价 OEM 更容易同时承受 higher price + lower allocation。
 
 ---
 
@@ -297,7 +346,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 截至 2026 年 8 月，证据支持：
 
-> **AI infrastructure 已经通过 memory、shared leading-edge resources、allocation priority 与 system pricing，把部分成本压力传导到消费电子和其他传统终端。**
+> **AI infrastructure 已经通过 memory、shared leading-edge resources、allocation priority 与 system pricing，把部分成本压力传导到消费电子、汽车/工业以及其他传统整机；越远离共享 advanced layers，传导越需要通过供应连续性、product-mix 与 supplier economics 单独验证。**
 
 但这种传导不是统一、永久、单方向的。
 
@@ -336,3 +385,10 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 [^16]: Counterpoint Research, 2026-02-11, broadband memory-price surge and router BOM impact, https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
 [^17]: TrendForce, 2025-09-15, nearline HDD shortage and QLC SSD substitution, https://www.trendforce.com/presscenter/news/20250915-12714.html
 [^18]: Seagate Technology, FY26 results, AI/cloud data generation and mass-capacity storage demand, https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
+
+
+[^19]: NXP Semiconductors, S32G Vehicle Network Processors, minimum 15-year product support under the Product Longevity program, https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32g-vehicle-network-processors%3AS32G-PROCESSORS
+[^20]: STMicroelectronics, 2025-09-08, selected SPC58 automotive MCUs extended to 20-year availability, https://newsroom.st.com/media-center/press-item.html/n4718.html
+[^21]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, https://www.gao.gov/products/gao-16-185t
+[^22]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
+[^23]: NASA/JPL, Space Radiation Effects on Integrated Circuits, https://parts.jpl.nasa.gov/asic/Appendix.3.html
