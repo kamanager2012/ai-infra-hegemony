@@ -34,6 +34,27 @@ These states must remain separate:
 
 More than 10 GW secured does not mean more than 10 GW is already energized and operating.
 
+### 3.1 PORTS-Pike: Anchor demand is moving into Land + Power + Shell and credit support
+
+On August 17, 2026, NVIDIA disclosed its role in the PORTS-Pike Technology Campus with SB Energy in Ohio. NVIDIA is providing credit support to secure land, power, and shell (LPS) capacity; the initial deployment is designed for **4.25 IT-GW** of AI-factory capacity. OpenAI is the customer, while SB Energy will build, own, and operate the data center under a **20-year lease** to OpenAI. Phased capacity is planned to begin coming online in **2028**.[^5]
+
+The significance is not only the scale. The transaction structure has changed:
+
+> **Anchor model demand + system-platform credit support + infrastructure developer + long-duration lease**
+
+This shows a system seller participating directly in the bridge between a model company's demand/credit profile and long-duration physical-infrastructure finance.
+
+The state boundaries must remain explicit:
+
+- 4.25 IT-GW is initial deployment **design capacity**, not 2026 energized load;
+- future PORTS-Pike capacity is buildout, not current active compute;
+- a 20-year lease improves revenue visibility but also raises customer-concentration and duration risk;
+- secured land / power / shell does not prove final compute utilization.
+
+On August 26, 2026, NVIDIA management further said on the FY27 Q2 earnings call that OpenAI's existing and planned NVIDIA Compute commitments total approximately **12 GW**.[^6] This is platform-side management commentary about demand visibility. It is not evidence that OpenAI already has 12 GW of energized capacity.
+
+---
+
 ## 4. Anthropic / AWS: an anchor workload can also accelerate custom silicon
 
 Anthropic disclosed in April 2026 that:[^4]
@@ -80,32 +101,110 @@ Anchor Buyer Demand is therefore a dynamic demand function, not a fixed exponent
 
 ## 8. How Anchor Buyer demand propagates through the supply chain
 
-Large-scale model demand can transmit through:
+Large-scale model demand can propagate across the full chain:
 
-> model demand → cloud CapEx / custom silicon → accelerator/HBM/packaging → data-center power → grid/generation
+> **model demand → cloud CapEx / custom silicon → accelerator / HBM / packaging → data center → power → grid / generation**
 
-AI-infrastructure analysis therefore has to look beyond hyperscaler CapEx and system-vendor commitments and track model-company long-duration contracts as an independent variable.
+AI-infrastructure analysis therefore has to look beyond:
 
-## 9. Risk: Anchor Buyers can also amplify stranded-capacity risk
+- NVIDIA revenue;
+- hyperscaler CapEx;
+- foundry / memory CapEx.
 
-If model-company revenue, financing, workload growth, or architecture assumptions reverse, long-duration infrastructure commitments can become low-utilization assets.
+It must also track independently:
 
-The variables that matter include:
-
-- cancellation / rescheduling;
-- take-or-pay / minimum commitments;
+- model-company long-duration contracts;
+- secured capacity;
+- project construction;
 - utilization;
-- project financing;
-- customer concentration;
-- power and data-center delivery state.
+- commitment rescheduling.
 
-## 10. Current judgment
+If Anchor Buyer commitments keep expanding and are absorbed by real workloads, the capital-formation force behind S2/S3 strengthens.
+
+If commitments are delayed, reduced, renegotiated, or underutilized, S4 risk rises.
+
+---
+
+## 9. Risk: Customer Concentration + Duration Mismatch
+
+Anchor Buyers improve financing certainty, but they also concentrate risk.
+
+If a large infrastructure project depends on a small number of model-company workloads, capital recovery becomes more exposed to those customers' future:
+
+- revenue;
+- financing;
+- technical roadmap;
+- workload growth;
+- contract performance.
+
+At the same time, AI hardware has a relatively short technology cycle while:
+
+- data-center shells;
+- power contracts;
+- grid interconnections;
+- generation assets
+
+have much longer economic lives.
+
+That creates a structural mismatch:
+
+> **shorter-cycle AI workload / compute technology vs longer-cycle infrastructure obligation**
+
+If the model-company growth thesis fails, a long-duration commitment can move from a financing anchor to a stranded-capacity risk.
+
+---
+
+## 10. What to monitor to determine whether Anchor Buyers are strengthening
+
+### Strengthening signals
+
+- long-duration compute commitments continue to expand;
+- secured capacity grows;
+- dedicated campus / power projects move into construction;
+- custom silicon receives more anchor workloads;
+- utilization and workload revenue grow together;
+- commitments are renewed or extended.
+
+### Weakening signals
+
+- project rescheduling;
+- commitment renegotiation;
+- cancellation;
+- utilization below plan;
+- model-company financing or revenue pressure;
+- capacity delivery materially outrunning workload growth.
+
+Headline commitment is therefore not the endpoint.
+
+The decisive question is:
+
+> **Does long-duration demand ultimately convert into high-utilization, monetizable production workload?**
+
+---
+
+## 11. Current judgment
 
 As of August 2026, large model companies constitute a distinct Anchor Buyer category inside AI infrastructure.
 
-OpenAI Stargate's secured-capacity and construction states, together with Anthropic/AWS's ten-year compute commitment and Trainium deployment, show that model workloads are shaping data-center, power, and custom-silicon buildout.
+OpenAI Stargate's secured-capacity and construction states, Anthropic/AWS's ten-year compute commitment and Trainium deployment, and PORTS-Pike's LPS/credit-support structure show that model workloads are now shaping:
 
-Anchor Buyer commitments are therefore an important leading indicator between S2/S3 expansion and S4 capital clearing.
+> **cloud architecture, custom silicon, data-center buildout, power procurement, and infrastructure finance**
+
+Anchor Buyer commitments are therefore a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**.
+
+They can accelerate AI-infrastructure capital formation, but under weak utilization they can also amplify stranded-capacity and duration-mismatch risk.
+
+## 12. What evidence would force this chapter to change its judgment
+
+The Anchor Compute Buyer Effect should be downgraded if:
+
+- long-duration commitments are broadly delayed, reduced, or renegotiated;
+- secured capacity fails for extended periods to become energized / utilized capacity;
+- anchor-workload utilization remains persistently weak;
+- model-company monetization cannot cover long-duration infrastructure obligations;
+- project finance becomes increasingly dependent on stronger seller support rather than customer / third-party cash flow.
+
+Conversely, larger headline contract values or additional secured GW should not, by themselves, strengthen this chapter's thesis without delivery and utilization evidence.
 
 ## References
 
@@ -113,3 +212,5 @@ Anchor Buyer commitments are therefore an important leading indicator between S2
 [^2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
 [^3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
 [^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW, and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, initial 4.25 IT-GW design capacity, LPS credit support, 20-year OpenAI lease, and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, management commentary that OpenAI existing and planned NVIDIA Compute commitments total approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
