@@ -121,7 +121,7 @@ In high-demand scenarios, long-duration power access can be a moat. In S4 Capita
 
 Power contracts therefore need to be evaluated through duration, ramp, take-or-pay / cancellation terms, project execution, utilization, and residual value.
 
-## 9. What evidence would show that power has become the dominant bottleneck
+## 9. Current judgment: when would power become the dominant bottleneck?
 
 Power should be upgraded from "one of the core constraints" to "the dominant constraint" only if several signals appear together:
 
@@ -135,6 +135,18 @@ Power should be upgraded from "one of the core constraints" to "the dominant con
 As of August 2026, public evidence supports a narrower conclusion:
 
 > **Power has joined HBM and advanced packaging as a core physical constraint, but the evidence is not yet sufficient to show that power alone dominates the entire AI-infrastructure expansion rate.**
+
+## 10. Falsification boundary: what would force this chapter to change
+
+The judgment that power / LPS is a core AI-infrastructure constraint should be downgraded if the following conditions persist:
+
+- Time-to-Power shortens materially;
+- secured / contracted projects convert into energized capacity at high and predictable rates;
+- transformers, substations, grid interconnection, and cooling stop causing major deployment delays;
+- energized capacity grows persistently faster than deployable compute demand;
+- regional power price / availability stops materially affecting site selection.
+
+Headline GW growth alone is not sufficient evidence that the power bottleneck has disappeared. The relevant test is the speed of state transition into energized capacity and actual utilization.
 
 ## References
 
