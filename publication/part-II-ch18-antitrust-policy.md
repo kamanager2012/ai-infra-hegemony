@@ -149,6 +149,18 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 只有这些正式事件，才足以改变 system-stack scenario weighting。
 
+## 12. 什么事实会迫使本章改判
+
+监管对 system-stack competition 的重要性应在以下情况下被下调：
+
+- investigation 长期未进入正式 proceedings；
+- final decision 不涉及 interoperability、tying、access 或 migration；
+- remedy 存在但 production switching cost 没有实质下降；
+- physical scarcity 继续主导 buyer constraint；
+- market structure 变化主要来自技术替代而非监管。
+
+反过来，真正足以提高监管权重的不是 headline fine，而是 binding remedy 改变接口、供给或跨栈迁移条件。
+
 ## References
 
 [^1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
