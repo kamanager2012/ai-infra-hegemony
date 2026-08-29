@@ -6,8 +6,8 @@ body:
   - type: input
     id: target
     attributes:
-      label: 挑战哪一卷 / 哪个模型
-      placeholder: vol-04 / AHICR / S3资源霸权 / Anchor Compute Buyer Effect
+      label: 挑战哪一章 / 哪个模型
+      placeholder: 第4章 / 第17章 / S3资源霸权 / Anchor Compute Buyer Effect
     validations:
       required: true
 
