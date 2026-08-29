@@ -1,17 +1,25 @@
 # Part I · Chapter 1: Executive Summary and Core Judgments for the Next Decade
 
-## 1. Executive judgment: AI is reallocating industrial resources, not merely expanding the compute market
+## 1. Executive judgment: important end systems now face upstream allocation rules being rewritten by AI/HPC
 
-As of **August 28, 2026**, the most important change in AI is no longer simply the growth of GPU shipments. The more consequential shift is that the **marginal allocation of advanced semiconductors, memory, packaging, data centers, power, and capital is being reordered around AI infrastructure**.
+As of **August 28, 2026**, this report is not arguing that AI is “more important” than smartphones, PCs, vehicles, industrial equipment, robotics, aerospace, or defense electronics. Those end systems and strategic platforms remain important.
+
+What has changed is that **some of the shared or adjacent upstream resources they depend on — advanced logic, DRAM/LPDDR/NAND, advanced packaging, equipment, engineering capacity, power, and long-duration capital — are increasingly being repriced and reordered by AI/HPC demand with higher willingness to pay, longer capacity commitments, and stronger financing capacity.**
+
+The relevant downstream question is therefore not whether the world still has semiconductors. It is:
+
+> **Can each end system still obtain enough, stable, affordable supply on its own BOM, qualification, lifecycle, and product cadence?**
+
+Exposure must remain layered. Smartphones, PCs, selected ADAS and edge-AI systems can directly overlap with advanced logic and memory. Automotive, industrial control, and factory systems are often affected through mature memory, MCU/analog, power electronics, and supplier product mix. Aerospace, radar, naval, satellite, and launch systems are more often exposed through the economics of trusted, long-life, special-process, low-volume capacity, equipment, and engineering talent — not because they directly compete for the same AI accelerator.
 
 The report's core judgment can be compressed into six points:
 
-1. **The competitive unit has moved from the individual chip to the full system stack.** Competitiveness now depends on whether advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads can operate as a stable system.
-2. **AI/HPC is changing where the next dollar of capital goes.** When AI workloads offer greater willingness to pay, longer order duration, stronger financing capacity, and higher expected returns, incremental capital and scarce resources are more likely to move toward AI infrastructure.
-3. **Traditional end markets face residual capacity, not gross global capacity.** Total supply can rise while smartphones, PCs, automotive, and industrial markets still face price, allocation, or configuration pressure.
+1. **Traditional end markets face residual capacity, not gross global capacity.** Total supply can rise while smartphones, PCs, automotive, and industrial markets still face price, quantity-assurance, or configuration pressure.
+2. **The competitive unit has moved from the individual chip to the full system stack.** Competitiveness now depends on whether advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads can operate as a stable system.
+3. **AI/HPC is changing where the next dollar of capital goes.** When AI workloads offer greater willingness to pay, longer order duration, stronger financing capacity, and higher expected returns, incremental capital and scarce resources are more likely to move toward AI infrastructure.
 4. **NVIDIA remains exceptionally strong, but the competition is no longer GPU versus ASIC; it is system stack versus system stack.** Google, AWS, Microsoft, and Meta are building credible second-stack paths.
-5. **Infrastructure only completes the demand-side loop when it produces verifiable, repeatable, monetizable workflow outcomes.** Agent-native software, Physical AI, and enterprise automation ultimately have to convert compute into accepted economic output that can sustain utilization and capital recovery.
-6. **The future is neither a single continuation-of-boom trajectory nor a single bubble-collapse trajectory.** The 2026–2036 path will be determined by supply elasticity, system substitution, utilization, power, workload economics, capital discipline, financing quality, and the maturity of China's parallel stack.
+5. **Infrastructure only completes the demand-side loop when it produces verifiable, repeatable, monetizable workflow outcomes.** This is a long-run economic criterion, not a fully calibrated empirical fact metric as of the report cutoff.
+6. **The future is neither a single continuation-of-boom trajectory nor a single bubble-collapse trajectory.** The 2026–2036 path will be determined by supply elasticity, system substitution, utilization, power, workload economics, capital discipline, financing quality, and the maturity of China's frontier parallel stack.
 
 The current public-evidence mix is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths continue to develop without yet eliminating HBM, advanced-packaging, power, and migration constraints.
 
@@ -159,7 +167,7 @@ That requires additional evidence on:
 - cross-generation process upgrades;
 - sustained HBM / packaging / LPS / power / capital formation.
 
-The report therefore rejects both extremes. Import dependence does not mean there is no production-grade parallel stack. Conversely, a system that can run production workloads does not prove autonomous frontier closure.
+The report therefore rejects both extremes. China has moved beyond the stage of “no alternative system,” and a real frontier parallel stack is iterating with partial production deployment. But under Chapter 17's seven Production-Grade Gates, public evidence is still insufficient to confirm that a complete production-grade frontier parallel stack has closed. Autonomous Frontier Closure remains a higher threshold.
 
 ---
 
