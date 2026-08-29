@@ -1,7 +1,30 @@
-# Phase II · Non-AI End-System Supply Conditions v0.2
+# Phase II · Non-AI End-System Supply Conditions v0.3
 
 > **Status:** Research-side downstream exposure map; not part of the frozen formal facts.  
 > **Purpose:** make the report's intended reader explicit: AI does not make smartphones, PCs, game consoles, vehicles, factories, robotics, aerospace, or other long-lifecycle high-reliability systems “unimportant.” The question is whether their electronics are now buying into a supply system whose capital allocation, contracting and margin priorities are being reset by AI/HPC.
+
+## 0. Response-evidence ownership contract v0.3
+
+This file owns **observed non-AI end-system responses** to shared-resource conditions.
+
+It may record:
+- procurement / volume-assurance changes;
+- BOM / margin response;
+- lead-time / EOL / qualification effects;
+- product cadence / promotion changes;
+- substitution / cost-down counterevidence.
+
+It does **not** own upstream scarcity state itself.
+
+Upstream tightness must come from the relevant semiconductor / memory / packaging / supply evidence. This file asks only:
+
+> **Did the end system actually change behavior because of that upstream condition?**
+
+Hard anti-attribution rule:
+
+> **Upstream AI/HPC tightness without an observed downstream response is exposure, not realized transmission.**
+
+Formal Chapter 21 remains frozen unless a new response chain meets §9 and the report is explicitly reopened.
 
 ## 1. First-principles statement
 
@@ -316,7 +339,7 @@ This research-side extension adds the missing boundary:
 
 This prevents the report from turning “Cross-Market Resource Reordering” into a universal claim.
 
-## 9. What evidence would justify formal expansion
+## 9. Formal-expansion gate v0.3
 
 Before aircraft / naval / radar / satellite / launch systems are added to the frozen formal chapter as AI-affected sectors, require at least one of:
 
