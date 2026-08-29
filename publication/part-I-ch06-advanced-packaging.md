@@ -72,7 +72,19 @@ Demand concentration 与 actual allocation 是两个不同问题。
 
 ---
 
-## 5. 为什么 Packaging 可能比 Node 更早成为“数量闸门”
+## 5. Packaging Capacity 必须保持为独立 Physical Pool
+
+advanced-packaging capacity 由 packaging flow、interposer / substrate、HBM integration、tool capacity、testing、yield 与 qualification 共同决定，不能与 TSMC front-end wafer capacity 互换。
+
+因此：
+
+- front-end logic wafers 不能除以一个 packaging geometry factor 后直接推导 rack output；
+- packaging demand share 不能转换成 customer allocation；
+- HBM bits、logic wafers、package starts 与 energized MW 必须保留各自物理身份。
+
+这也是本报告拒绝把多个 scarce layer 压缩成一个“综合产能占有率”的原因。
+
+## 6. 为什么 Packaging 可能比 Node 更早成为“数量闸门”
 
 leading-edge logic 的扩产路径主要围绕：
 
@@ -102,27 +114,26 @@ advanced packaging 则同时依赖：
 
 ---
 
-## 6. Bottleneck Location 不等于 Profit Location
+## 7. Incremental Packaging Access 必须直接测量
 
-advanced packaging 可以是系统交付瓶颈，但不代表它一定拥有整个价值链最高 margin。
+前瞻问题不是构造一个跨层 capture ratio，而是竞争 buyer 能否持续获得 qualified advanced-packaging supply。
 
-TSMC 2Q24 管理层曾表示，advanced-packaging gross margin 过去显著低于 corporate average，当时正在接近但尚未达到公司平均。[^5]
+应直接观察：
+
+- lead time；
+- allocation fulfillment；
+- delivery stability；
+- supplier diversification；
+- generation transition；
+- integration yield。
+
+只有 packaging layer 自身存在可核验 customer-level allocation 时，才使用该层的份额数据。
 
 因此：
 
-> **bottleneck location ≠ profit location**
+> **packaging access 必须在 packaging 自己的物理池中判断，不能由 foundry revenue share、HBM demand share 或 system revenue 反推。**
 
-这是 AI infrastructure 价值链分析中非常重要的区分。
-
-- packaging 可能决定“能不能交付”；
-- HBM 可能决定 memory bandwidth 与 system configuration；
-- system platform 则可能通过 software、interconnect、integration 与 switching cost 捕获更高 system-level economics。
-
-物理稀缺与利润捕获不能自动画等号。
-
----
-
-## 7. Cloud Custom Silicon 不会自动绕开 Packaging
+## 8. Cloud Custom Silicon 不会自动绕开 Packaging
 
 Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDIA platform profit，但它们自身仍需要：
 
@@ -142,7 +153,27 @@ Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDI
 
 ---
 
-## 8. Packaging 是 China Production-Grade Parallel Stack 的独立 Gate
+## 9. Bottleneck Location 不等于 Profit Location
+
+advanced packaging 可以是系统交付瓶颈，但不代表它一定拥有整个价值链最高 margin。
+
+TSMC 2Q24 管理层曾表示，advanced-packaging gross margin 过去显著低于 corporate average，当时正在接近但尚未达到公司平均。[^5]
+
+因此：
+
+> **bottleneck location ≠ profit location**
+
+这是 AI infrastructure 价值链分析中非常重要的区分。
+
+- packaging 可能决定“能不能交付”；
+- HBM 可能决定 memory bandwidth 与 system configuration；
+- system platform 则可能通过 software、interconnect、integration 与 switching cost 捕获更高 system-level economics。
+
+物理稀缺与利润捕获不能自动画等号。
+
+---
+
+## 10. Packaging 是 China Production-Grade Parallel Stack 的独立 Gate
 
 frontier AI parallel stack 不能只用 logic node 判断。
 
@@ -165,7 +196,7 @@ frontier AI parallel stack 不能只用 logic node 判断。
 
 ---
 
-## 9. 当前判断与证伪条件
+## 11. 当前判断与证伪条件
 
 截至 2026 年 8 月，最稳健的结论是：
 
