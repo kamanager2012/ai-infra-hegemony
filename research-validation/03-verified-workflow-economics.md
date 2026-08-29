@@ -1053,7 +1053,13 @@ Until then:
 - aggregate business-value studies can support organization-level economic claims;
 - **none may be relabeled as workflow-level durable ROI without the join.**
 
-### 12C.4 Minimum Level-3 acquisition schema
+### 12C.4 Minimum Level-3 acquisition schema — bridge to §17
+
+This candidate-audit section records the minimum field groups that motivated the full prospective contract.
+
+> **For any new first-party collection, §17 is authoritative.**
+
+The table below is a compact audit bridge, not a second competing schema.
 
 A future dataset should expose at minimum:
 
