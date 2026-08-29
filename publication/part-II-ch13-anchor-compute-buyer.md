@@ -110,7 +110,7 @@ Anthropic 2026-04 官方披露：[^4]
 
 > **large model workload → custom-silicon deployment → production feedback → system optimization → lower TCO → more anchor workload**
 
-因此，Anchor Buyer 与 Cloud System-Stack Substitution 不是两条独立故事，而是可以相互强化。
+因此，Anchor Buyer 与 Cloud System-Stack Substitution 不是两条彼此独立的机制，而是可以相互强化。
 
 ---
 
@@ -291,7 +291,7 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 - model-company financing / revenue 压力；
 - capacity delivery 明显领先于 workload growth。
 
-因此，Headline commitment 本身不是终点。
+因此，公开承诺本身不是终点。
 
 真正重要的是：
 
