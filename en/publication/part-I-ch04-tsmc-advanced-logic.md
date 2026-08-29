@@ -52,15 +52,23 @@ N2 matters for more than transistor density. Competitors care about:
 
 Access to a node does not automatically create a system victory. If memory, packaging, interconnect, or power are missing, complete-system delivery remains constrained.
 
-## 5. AHICR is more useful for future allocation than historical revenue share
+## 5. Layer-specific Incremental Scarce-Capacity Access is more useful than a composite capture ratio
 
-This report uses the **Advanced/HPC Incremental Capacity Capture Ratio (AHICR)** to analyze next-generation incremental resources:
+The report does not use one cross-layer percentage to summarize access to advanced logic, HBM, packaging, networking, and power.
 
-> AHICR = incremental advanced AI/HPC resources captured by one buyer ÷ total industry increment in the corresponding resource
+Those are different physical pools and must be evaluated separately.
 
-AHICR must be evaluated separately by physical layer—logic, HBM, packaging, and power. Different units cannot be added into one composite share.
+The relevant questions are:
 
-50/60/70/80% are only D-grade scenario levels used to study nonlinear residual-capacity effects. They are not disclosed current customer shares.
+- how many qualified suppliers exist;
+- whether buyers receive planned quantities on time;
+- lead time and allocation fulfillment;
+- long-term agreements / prepayments;
+- delivery schedules;
+- buyer credit quality;
+- supply elasticity.
+
+If reliable customer-level allocation data becomes available for one physical layer, a percentage can be used for that layer. It cannot be extended into a full-stack "resource capture share."
 
 ## 6. TSMC allocation is not driven by one variable
 
@@ -74,7 +82,7 @@ A more defensible mechanism is that order scale, credit, prepayment, and roadmap
 
 TSMC first-party material confirms advanced-packaging tightness, but customer-level CoWoS allocation is not disclosed.[^5] TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is B-grade institutional evidence.[^6]
 
-The report-side **5.37 CoWoS wafers/rack** figure is a D-grade geometry stress test, not a TSMC yield figure, and it cannot be used to divide TSMC's roughly 15M annual front-end wafer shipments.
+No report-side packaging-geometry ratio is used in the formal analysis to infer rack output or customer allocation. Front-end logic wafers and back-end advanced-packaging capacity are different physical pools and cannot be divided into one another.
 
 This is why "leading-edge logic available" and "complete AI system deliverable" are different questions.
 
