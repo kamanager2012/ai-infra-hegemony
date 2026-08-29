@@ -3,7 +3,7 @@
 
 **全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构**
 
-一份面向 AI infrastructure、semiconductor、cloud、capital 与产业战略的长期行业研究报告。
+一份研究 AI 基础设施、半导体、云系统、资本形成与产业战略的长期行业报告。
 
 **资料检索与修订截止：2026-08-28**
 
@@ -29,6 +29,12 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 - AI infrastructure CapEx、折旧、融资与资本清算；
 - Agent-native Software、Physical AI、劳动市场与人才体系；
 - 2026–2036 的条件化产业情景。
+
+这些主题并不是彼此独立的章节集合，而是同一条产业传导链上的不同环节：
+
+> **物理供给 → System Stack 交付 → Compute 成本与可用性 → Workflow Economics → 企业采用与现金流 → 资本回收 → 劳动、人才与 Physical AI 的二阶重构**
+
+这条传导链也是本报告判断未来十年的主轴：基础设施扩张只有最终转化为可验证、可收费、可持续的真实工作流产出，才会形成长期经济闭环。
 
 ---
 
@@ -149,6 +155,14 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 截至 2026 年 8 月，公开事实组合最接近 **S2**：
 
 > 高增长、高集中与真实替代路径同时存在。
+
+### 10. 基础设施最终必须由“可验证工作流产出”完成需求侧闭环
+
+AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。Agent-native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
+
+> **单位可验证工作流结果需要多少 Compute、Energy、Human Review 与 Capital，产生的业务价值能否持续覆盖这些成本。**
+
+因此，单位 Compute 成本下降并不必然导致基础设施需求下降；如果更低成本释放出更多可自动化工作流，总需求反而可能继续扩张。反过来，如果基础设施增长长期快于可验证业务产出与现金流，S4 — Capital Hard Landing 的风险才会系统性上升。
 
 ---
 
