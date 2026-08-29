@@ -124,42 +124,24 @@ Higher CapEx can support NVIDIA shipments while also accelerating systems design
 
 The four-cloud CapEx numbers cannot be compared directly with NVIDIA revenue to construct an "AI compute tax rate."
 
-## 9. DeepSeek represents another type of competition: public algorithmic cost reduction
+## 9. Algorithmic efficiency is an independent variable, not part of the custom-silicon evidence chain
 
-Cloud custom silicon is a form of **private cost reduction**: Google, AWS, Microsoft, or Meta optimize their own system economics and keep most of the benefit inside their platforms.
+Algorithmic and architectural efficiency directly affects system demand, but it is a different competitive axis from hyperscaler custom silicon.
 
-The algorithmic / architectural efficiency represented by DeepSeek is closer to **public cost reduction**. If an architecture materially lowers compute or memory requirements for training or serving, other developers can adopt similar ideas and alter the market-wide unit cost of intelligence.
+Efficiency can:
 
-The auditable DeepSeek-V3 first-party anchors are:[^6]
+- reduce compute / memory required for the same workload;
+- lower serving cost;
+- increase hardware utilization;
+- stimulate additional token / workflow demand.
 
-- 671B total parameters;
-- 37B activated parameters;
-- 14.8T pre-training tokens;
-- **2.664M H800 GPU-hours** for pre-training;
-- **2.788M H800 GPU-hours** for full formal training.
+Efficiency gains can therefore reduce unit hardware demand while increasing aggregate infrastructure demand through demand elasticity.
 
-Using the paper's US$2/GPU-hour assumption, **US$5.576M corresponds to the full formal-training compute conversion**, not full R&D cost.
+DeepSeek training-cost, architecture-efficiency, and unit-intelligence economics are analyzed in [Chapter 10](part-II-ch10-model-economics.md). This chapter does not repeat GPU-hours or KV-cache figures, so the same evidence has one canonical home.
 
-A separate DeepSeek-V2 result reports **93.3% KV-cache reduction** and **5.76× maximum generation throughput** relative to DeepSeek 67B.[^7]
+---
 
-V2 and V3 must not be combined into a single model result.
-
-## 10. Algorithmic cost reduction does not automatically eliminate infrastructure demand
-
-Architecture efficiency can reduce bytes/token, training compute, or serving cost, but aggregate infrastructure demand still depends on demand elasticity: how much workload volume expands after unit cost falls.
-
-DeepSeek-style efficiency can therefore affect hyperscalers in two directions:
-
-- reduce the hardware required for the same workload;
-- stimulate larger token / workflow volume through lower prices and broader applications.
-
-The correct question is not "efficiency rose, so CapEx should fall."
-
-It is:
-
-> **After unit workload cost falls, do total effective workload, utilization, and revenue still cover the installed capital base?**
-
-## 11. What would count as real System-Stack Substitution
+## 10. What would count as real System-Stack Substitution
 
 Single-chip benchmarks are not enough.
 
@@ -171,13 +153,22 @@ At least the following variables need to be observed together:
 4. acceptable workload-migration cost;
 5. sustainable HBM / packaging / power supply;
 6. stable rack/pod deployment;
-7. significant real workload share.
+7. significant production workload share.
 
-Success on internal workloads can create real economics, but "full replacement of NVIDIA's external ecosystem" additionally requires evidence of cross-customer, cross-workload migration and production reliability.
+Success on internal workloads can already create real economic substitution.
 
-## 11A. Two levels of substitution: internal economics and external ecosystem
+But broader erosion of an external general-purpose platform additionally requires:
 
-Success for a cloud custom system has at least two distinct levels.
+- cross-customer portability;
+- cross-workload reliability;
+- external developer adoption;
+- persistently lower migration cost.
+
+---
+
+## 10A. Two levels of substitution: internal economics and external ecosystem
+
+A cloud custom system can succeed at two distinct levels.
 
 ### Internal Economic Substitution
 
@@ -192,7 +183,7 @@ This level does not require reproducing the entire CUDA external ecosystem.
 
 ### External Ecosystem Substitution
 
-To weaken the economics of a general-purpose external platform more broadly, the system additionally needs:
+To weaken a general-purpose external platform more broadly, the system additionally needs:
 
 - external customer adoption;
 - developer portability;
@@ -207,40 +198,48 @@ Therefore:
 
 Internal success can still materially change hyperscaler procurement, bargaining power, and long-run platform-profit distribution.
 
-## 12. The long-run equilibrium is more likely to be workload segmentation
+## 11. The long-run equilibrium is more likely to be workload segmentation
 
 The most realistic long-run structure may not be one side eliminating the other.
 
 A more plausible equilibrium is workload segmentation.
 
-**Areas where NVIDIA can remain stronger:**
+### Areas where NVIDIA can remain stronger
 
 - general-purpose frontier training;
 - broad external developer ecosystems;
-- heterogeneous enterprise workloads.
+- heterogeneous enterprise workloads;
+- workload portability across customers.
 
-**Areas where hyperscaler custom stacks can be stronger:**
+### Areas where hyperscaler custom stacks can be stronger
 
 - massive internal workloads;
 - repeatable architecture;
-- vertically optimized training/inference;
-- cloud-specific TCO optimization.
+- vertically optimized training / inference;
+- cloud-specific TCO optimization;
+- captive distribution.
 
-The boundary will move with software maturity, interconnect, memory supply, workload structure, and migration cost.
+The boundary will move with software maturity, memory supply, interconnect, workload structure, and migration cost.
 
-## 13. Current judgment
+---
+
+## 12. Current judgment
 
 As of August 2026, the most defensible description is:
 
 - cloud custom silicon is already a real competitive force;
 - the competitive unit has moved from custom chip to complete system stack;
-- hyperscalers are attacking software, interconnect, rack/pod, and workload layers rather than only the accelerator die;
+- hyperscalers are attacking accelerator, software, interconnect, rack/pod, and workload economics together;
 - frontier training and the broad external ecosystem have not been shown to have systematically moved away from NVIDIA;
 - custom systems still compete heavily for advanced logic, HBM, advanced packaging, and power.
 
-**Cloud System-Stack Substitution is therefore one of the most important structural variables that could move S2 Baseline Concentration toward S1 Competitive Expansion**, but its strength must be measured through real workload share, migration cost, utilization, and upstream-resource dependence.
+Therefore:
 
-## 14. Falsification boundary: what would force this chapter to change
+> **Cloud System-Stack Substitution is one of the structural variables most capable of moving S2 — Baseline Concentration toward S1 — Competitive Expansion.**
+
+Its strength must be measured through production workload share, migration cost, utilization, external adoption, and upstream-resource dependence—not product-launch count.
+
+## 13. Falsification boundary: what would force this chapter to change
 
 Cloud System-Stack Substitution should be downgraded if custom systems remain confined to small internal workloads and the following conditions persist:
 
@@ -260,5 +259,3 @@ The evidence that would genuinely support S1 is not another chip launch. It is s
 [^3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 [^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
 [^5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^6]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
-[^7]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
