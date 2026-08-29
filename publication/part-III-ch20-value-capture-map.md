@@ -15,7 +15,7 @@ AI infrastructure 的同一笔支出可能同时出现在：
 
 因此，本章只分析**价值捕获位置**和**风险承担位置**，不制造一个不可审计的全球总利润池。
 
-## 2. Value Capture 由五个维度决定
+## 2. Value Capture 由六个维度决定
 
 判断一层产业能留下多少利润，至少要同时看：
 
@@ -23,7 +23,8 @@ AI infrastructure 的同一笔支出可能同时出现在：
 2. **Switching cost**：客户迁移到替代方案的工程/组织成本；
 3. **Capital intensity**：维持增长需要投入多少固定资本；
 4. **Duration**：收入、资产寿命和合同期限是否匹配；
-5. **Distribution / workflow control**：是否拥有客户、数据和真实业务入口。
+5. **Distribution / workflow control**：是否拥有客户、数据和真实业务入口；
+6. **Financing / risk-transfer capacity**：是否能够降低项目资本成本、提高 revenue visibility，并把 residual-value / duration risk 转移给愿意承担它的资本。
 
 因此，高 revenue share 不自动等于最高 value capture，高 gross margin 也不能跨商业模式直接比较。
 
@@ -84,6 +85,31 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 这也是 value capture 的重要动态：高 seller cash flow 可以更早变成下一代 wafer、memory、packaging 和 component commitments。
 
+## 7A. Financing Coordination：信用与资本组织能力正在成为新的系统层能力
+
+2026 年 8 月的两项披露说明，system-platform coordination 已经从 supply commitments 延伸到 infrastructure finance：
+
+- NVIDIA 与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 宣布建立 compute-financing platforms，目标是随时间动员 **>US$500B third-party capital**；相关合作仍 subject to final agreements。[^9]
+- PORTS-Pike 中，NVIDIA 为 land + power + shell 提供 credit support，并投资 **US$1.5B** 于 SB Energy；OpenAI 为客户，SB Energy build / own / operate data center。[^10]
+
+这意味着 value capture 不再只取决于“谁控制技术”和“谁控制物理稀缺”，还取决于：
+
+> **谁能够把长期 workload、基础设施资产与长期资本匹配起来，并降低项目的 financing friction。**
+
+但融资协调能力同时会改变风险承担位置。
+
+如果 seller 通过 equity / credit support 帮助客户和基础设施项目融资，则：
+
+- project formation 加快；
+- seller 对 future workload 的影响力上升；
+- customer concentration 与 financing reflexivity 也上升。
+
+因此：
+
+> **financing power 既可能是新的 moat，也可能把过去留在 buyer / developer 端的部分 duration risk 拉回 system platform balance sheet。**
+
+完整机制见第23、24章。
+
 ## 8. Power / Powered Land：价值来自时间稀缺，而不是单纯电价
 
 当 rack power 进入约 **120 kW-class**，[^8]数据中心需要更强的 grid connection、substation、transformer、cooling 与 firm generation。拥有 powered land、existing interconnection 和可执行许可路径的资产会获得明显 **Time-to-Power** 价值。
@@ -135,12 +161,15 @@ smartphone、PC、gaming 与 general server 仍然是大型市场。它们承受
 
 ## 13. 当前判断
 
-截至 2026 年 8 月，AI infrastructure 的高质量 value capture 主要出现在两类位置：
+截至 2026 年 8 月，AI infrastructure 的高质量 value capture 主要出现在三类位置：
 
 1. **能够组织多个稀缺层并制造 switching cost 的 system platform；**
-2. **短期供给弹性低、进入壁垒高的 HBM / leading-edge manufacturing / advanced packaging / powered infrastructure。**
+2. **短期供给弹性低、进入壁垒高的 HBM / leading-edge manufacturing / advanced packaging / powered infrastructure；**
+3. **能够把长期 workload、LPS / compute assets 与长期资本组织起来的 financing / coordination layer。**
 
-而最大资产风险则更多留在需要提前建设大规模 infrastructure 的 buyer 端。应用层是否形成长期利润池，取决于 workflow economics 和 distribution。
+但第三类的 value capture 与 risk transfer 必须一起看：如果 platform 同时提供 equity / credit support，它获得更多 infrastructure influence 的同时，也可能重新吸收部分 customer / duration / residual-value risk。
+
+应用层是否形成长期利润池，仍取决于 workflow economics 和 distribution。
 
 因此，真正应该问的不是“AI 一共花了多少钱”，而是：
 
@@ -156,3 +185,5 @@ smartphone、PC、gaming 与 general server 仍然是大型市场。它们承受
 [^6]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^8]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^9]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^10]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
