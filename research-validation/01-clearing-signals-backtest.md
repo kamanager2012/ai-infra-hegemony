@@ -1106,6 +1106,140 @@ B/G 一正一负的初次 replay 给出两个有用结果：
 
 ---
 
+## 12C. Prospective Replay 3 — Case D: 2008–2009 GFC / Enterprise IT
+
+Case D 检验一个最重要的反例：
+
+> **如果 shock 从 credit / financing 先进入，是否需要等待 seller impairment 才能确认 clearing？**
+
+答案仍然是否定的。
+
+| Adjudication time | 当时已知证据 | 同期反证 | Breadth | Prospective state | 当时还不知道的后续信息 |
+|---|---|---|---|---|---|
+| 2008-07 | Federal Reserve 已公开：business fixed investment 自 2007Q4 明显失速；sales / profits / credit conditions 恶化；部分企业推迟或放弃 capital expansion；E&S Q1 持平且 Q2 indicators 指向下降；银行显著收紧 C&I standards / spreads | corporate profits虽下降但仍高于历史周期低点；部分 financing markets在 Q2 有阶段性改善 | 宏观、多行业、Financing + Forward Commitment | **CANDIDATE — broad macro/business** | 2008Q4 / 2009Q1 E&S collapse；Cisco FY2009 decline |
+| 2009-02 | Fed 已确认 E&S 2008Q3约 -7.5% annualized、Q4约 **-28%**；2008H2 IT investment约 **-12.5%**；sales / production / profits 下滑并伴随 credit reduced / more expensive | 尚无 2001 telecom 式大规模 enterprise-IT accounting write-down | Financing + Utilization/Investment + Forward Commitment 跨宏观层确认 | **CONFIRMED — broad systemic clearing** | 2009Q1 E&S约 -34%；2009H2 recovery |
+| 2009-07 | Fed 确认 2009Q1 E&S约 **-34%** annualized；credit 对许多 borrowers仍 tight，但 capital-spending declines “may be abating”，business financing conditions有所改善 | deterioration速度开始下降 | broad macro，leading deterioration停止恶化 | **STABILIZATION CANDIDATE** | H2 E&S / IT actual recovery |
+| 2010-02 | Fed 已公开：E&S 在 2008及2009H1持续下降后，于 **2009H2 开始扩张**；IT capital在年末加速，部分企业金融条件改善 | nonresidential structures仍弱，劳动力市场仍差 | 多项 business-investment / finance reversal | **RECOVERY CONFIRMED — business E&S / IT scope** | N/A |
+
+### 12C.1 Prospective lesson
+
+Case D 是 v0.8 对 Accounting gate 最强的 falsification。
+
+在 **2009-02** 的实时信息集里，已经可以确认：
+
+- credit conditions恶化；
+- investment demand collapse；
+- IT / E&S broad decline；
+- sales / profits deterioration。
+
+即使没有 seller-side giant impairment，也不应继续停留在 WATCH。
+
+因此：
+
+> **Accounting 是 severity / confirmation channel，但不是必要条件。**
+
+另一个重要点是：
+
+> **2009-07 只能叫 Stabilization Candidate。**
+
+真正的 recovery 需要到 2010-02，等 2009H2 E&S / IT rebound 被后续数据确认。
+
+这避免把“declines may be abating”直接写成“已经触底”。
+
+## 12D. Prospective Replay 4 — Case H: 2011–2013 Solar PV Manufacturing Overcapacity
+
+Solar 是 long-duration manufacturing overcapacity case，用来检验 protocol 是否能在 Accounting 大规模确认之前识别：
+
+> oversupply → price clearing → project-finance difficulty → capacity deferral / restructuring。
+
+| Adjudication time | 当时已知证据 | 同期反证 | Breadth | Prospective state | 当时还不知道的后续信息 |
+|---|---|---|---|---|---|
+| 2011 Q3 filing window | 一家 solar-equipment supplier 已公开描述：worldwide panel overcapacity + inventory；project financing “very challenging”；panel prices 已连续数季下降；客户推迟新技术投资；预计 Q4 solar-panel-equipment revenue继续下降 | 2011H1仍非常强，9M solar sales同比仍增长；该来源本身不是全行业统计 | Market Clearing + Financing + Forward Commitment，但 actor independence有限 | **CANDIDATE — industry mechanism, breadth not yet fully confirmed** | 2012 First Solar / Applied Materials restructuring；Suntech utilization/capacity cuts |
+| 2012 H1 | Applied Materials 已公开：solar PV first-half environment = excess manufacturing capacity relative to end demand；customers defer new-capacity purchases；5月宣布 EES restructuring。First Solar 也已批准调整计划产能 / global footprint | Applied 当时 impairment test first step仍显示 fair value高于 carrying value，说明 hard accounting distress尚未完全同步 | 多公司；capacity deferral + restructuring + clearing | **CONFIRMED — multi-actor manufacturing clearing** | 2012H2 goodwill impairment / deeper utilization cuts |
+| 2012 H2 | First Solar 取消 Vietnam 4-line plant并产生约 US$99M相关 impairment；Applied FY2012 solar segment orders / sales大降、inventory charges、restructuring，并录得 US$421M goodwill impairment；Suntech材料显示 cell utilization约60%、annualized cell capacity降至约1.8GW | 终端 solar demand 并未消失；部分公司/技术路线表现不同 | Accounting + Utilization + Forward Commitment + Market Clearing 多主体确认 | **CONFIRMED — severity broadens** | 何时真正 trough / sustainable recovery 尚需未来数据 |
+| late-2012 / early-2013 | Applied 披露 Q4 FY2012 new orders从前一季度极低水平 **+86%**，但仍明确称 excess manufacturing capacity持续 | 仍有 impairment / weak sales / excess capacity | deterioration可能停止加速，但 recovery breadth不足 | **STABILIZATION CANDIDATE** | 2013–2014 recovery强度与持续性 |
+
+### 12D.1 Prospective lesson
+
+Solar replay 比 retrospective 10/10 score 更有价值的地方在于：
+
+**2011 Q3**
+- price clearing；
+- project financing difficulty；
+- capacity/inventory overhang；
+- forward revenue weakness
+
+已经足以形成 **CANDIDATE**。
+
+但因为 early evidence 对 independent actor breadth 仍有限，不应直接写成：
+
+> system-wide confirmed clearing。
+
+到 **2012 H1**，Applied Materials + First Solar 等独立公司开始同时进行 capacity deferral / restructuring，才升级为：
+
+> **CONFIRMED。**
+
+Accounting 大额 impairment 在之后继续加强 severity，但不是首次确认时点。
+
+### 12D.2 Trough discipline
+
+Solar 的 historical matrix 仍保留：
+
+> 2013–2014 trough / stabilization
+
+作为 ex-post research range。
+
+但当前 prospective replay **不把 2013 或 2014 某一时点硬编码成实时 trough**。
+
+现阶段只确认：
+
+> late-2012 / early-2013 出现 **Stabilization Candidate**。
+
+如要升级 RECOVERY CONFIRMED，需要再做 2013–2014 contemporaneous source replay，而不是引用后来的回顾性“行业已复苏”叙事。
+
+## 12E. Four-path prospective validation result v0.8
+
+B / D / G / H 四个 case 已覆盖四种不同 shock-entry path：
+
+| Case | Shock entry | First prospective escalation | Final prospective read | Main protocol test |
+|---|---|---|---|---|
+| B · Crypto/GPU | inventory / channel | WATCH Nov-2018 → CANDIDATE Jan-2019 | segment/company clearing, then recovery | prevents backdating and system overreach |
+| D · GFC/Enterprise IT | financing / macro demand | CANDIDATE Jul-2008 | broad clearing by Feb-2009 | Accounting not mandatory |
+| G · Hyperscale digestion | one-buyer CapEx deceleration | WATCH only | negative control / no system clearing | contrary evidence must de-escalate |
+| H · Solar manufacturing | oversupply / price / project finance | CANDIDATE 2011Q3 | broad manufacturing clearing by 2012H1 | market/financing signals can lead accounting |
+
+### 12E.1 What survives the prospective test
+
+The strongest version of P0-1 is now:
+
+> **Five-signal framework = publication-time disciplined cross-signal confirmation protocol。**
+
+Not:
+
+> five equal weights + fixed threshold.
+
+The protocol must be able to do all four:
+
+1. **delay** a clearing call when early evidence is narrow;
+2. **confirm** clearing without waiting for Accounting when financing / real-economy breadth is strong;
+3. **de-escalate** when contrary cross-company evidence appears;
+4. **separate** Stabilization Candidate from ex-post trough / Recovery Confirmed.
+
+### 12E.2 What is still not proven
+
+Even after four-path prospective replay, P0-1 is **not**:
+
+- a statistically validated classifier;
+- a calibrated probability model;
+- a universal early-warning lead-time estimator;
+- proof that the same signal ordering will hold in AI infrastructure.
+
+The next empirical improvement should be:
+
+> **source-by-source prospective replay of 2013–2014 Solar recovery and one additional truly independent negative control—not more score fitting。**
+
+---
+
 # 13. Sources
 
 ## 2000–2002 Internet / Telecom
@@ -1245,3 +1379,16 @@ B/G 一正一负的初次 replay 给出两个有用结果：
 - Amazon 2019 Form 10-K — AWS revenue US$35.026B vs US$25.655B; AWS PP&E additions US$13.058B vs US$9.783B: https://www.sec.gov/Archives/edgar/data/1018724/000101872420000004/amzn-20191231x10k.htm
 - Facebook 2019 Q1 Form 10-Q — continued infrastructure investment; 2019 CapEx outlook US$17–19B: https://www.sec.gov/Archives/edgar/data/1326801/000132680119000037/fb-03312019x10q.htm
 - Facebook 2019 Form 10-K — 2019 PP&E purchases US$15.10B vs US$13.92B in 2018; 2020 CapEx outlook US$17–19B: https://www.sec.gov/Archives/edgar/data/1326801/000132680120000013/fb-12312019x10k.htm
+
+
+## Prospective D/H source register added in v0.8
+
+- Federal Reserve, July 15, 2008 Monetary Policy Report — business fixed-investment slowdown, tightened credit, postponed/abandoned expansion plans: https://www.federalreserve.gov/monetarypolicy/mpr_20080715_part2.htm
+- Federal Reserve, Feb 24, 2009 Monetary Policy Report — E&S -7.5% Q3 / -28% Q4 annualized; H2 IT investment -12.5%; reduced / higher-cost credit: https://www.federalreserve.gov/monetarypolicy/mpr_20090224_part2.htm
+- Federal Reserve, July 21, 2009 Monetary Policy Report — Q1 E&S -34%, credit still tight, declines may be abating: https://www.federalreserve.gov/monetarypolicy/mpr_20090721_part2.htm
+- Federal Reserve, Feb 24, 2010 Monetary Policy Report — E&S began expanding in H2 2009; IT capital accelerated: https://www.federalreserve.gov/monetarypolicy/mpr_20100224_part2.htm
+- Advanced Energy Industries Q3 2011 Form 10-Q — worldwide panel overcapacity/inventory, difficult project financing, multi-quarter panel-price decline and customer investment pause: https://www.sec.gov/Archives/edgar/data/927003/000095012311096521/c23205e10vq.htm
+- Applied Materials Q2 FY2012 Form 10-Q — first-half solar excess manufacturing capacity, deferred capacity purchases, May-2012 restructuring: https://www.sec.gov/Archives/edgar/data/6951/000144530512001872/amat-042912x10qxdoc.htm
+- First Solar 2012 filing — Feb-2012 capacity restructuring; Vietnam 4-line plant cancellation / impairment: https://www.sec.gov/Archives/edgar/data/1274494/000127449412000048/fslrsep1210qdraft.htm
+- Applied Materials FY2012 Form 10-K — solar excess capacity, lower orders/sales, US$421M goodwill impairment, inventory/restructuring charges: https://www.sec.gov/Archives/edgar/data/6951/000000695112000018/amat10282012-10kdoc.htm
+- Suntech 2012 investor filing — cell utilization ~60% and annualized cell capacity reduced to ~1.8GW: https://www.sec.gov/Archives/edgar/data/1342803/000110465912077662/a12-26837_1ex99d1.htm
