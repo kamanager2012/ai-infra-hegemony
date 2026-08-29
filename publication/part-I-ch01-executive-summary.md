@@ -173,7 +173,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 - grid / substation / generation：更长周期；
 - workload monetization：不确定且取决于真实业务采用。
 
-因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 CapEx 绝对规模，而应同时观察五类信号：
+因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 CapEx 绝对规模。本报告持续观察五类信号族，但确认 S4 依赖**多类因果独立信号 + cross-actor / cross-layer breadth**，不是 five-of-five checklist：
 
 - **Accounting**：impairment、write-down、accelerated depreciation；
 - **Utilization / Revenue**：有效利用率、单位收入、workflow monetization；
@@ -200,7 +200,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 | S1 — Competitive Expansion | supply elasticity 与 interoperability 上升，多 system stack 共存，value capture 更分散 |
 | S2 — Baseline Concentration | 少数 system platform 与 scarce-layer supplier 保持强经济性，同时替代路线持续发展 |
 | S3 — Resource Hegemony | 多个 scarce layers 与 switching cost 同时强化，后来者复制完整 infrastructure stack 的门槛上升 |
-| S4 — Capital Hard Landing | utilization、clearing price、CapEx/commitments、accounting losses 与 demand-financing quality 同步恶化 |
+| S4 — Capital Hard Landing | 多类独立 clearing-signal families 跨主体/层级广泛恶化；Accounting 出现时强化严重度，但不是 mandatory gate |
 
 **Source:** 本报告情景框架。  
 **Note:** S1–S4 是并列条件状态，不赋固定概率，也不是必然连续阶段。
