@@ -8,7 +8,7 @@
 - [Table 2.1 — GB200 NVL72 rack-scale system structure](part-I-ch02-nvidia-system-stack.md)
 - [Table 2.2 — NVIDIA seller-side economics and forward supply commitments](part-I-ch02-nvidia-system-stack.md)
 - [Table 4.1 — TSMC 2025 capacity, technology, and platform-revenue structure](part-I-ch04-tsmc-advanced-logic.md)
-- [Table 7.1 — Nominal scale and delivery state of three AI-power pathways](part-I-ch07-power-constraint.md)
+- [Table 7.1 — Representative AI power / LPS pathways](part-I-ch07-power-constraint.md)
 
 ## Part II
 
