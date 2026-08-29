@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.14
+# P0-4 · Macro-Financial Transmission Layer v0.15
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -1459,10 +1459,10 @@ The project-finance panel is now normalized into one update table.
 
 | Borrower / reference | Financing amount / structure | Pricing | Maturity / wall | Cash-flow / collateral support | Concentration / prepayment | Current research read |
 |---|---|---|---|---|---|---|
-| CoreWeave · 2026Q2 | ~US$13.6B DDTLs + ~US$16.6B notes outstanding; additional revolver capacity | multiple facilities; not harmonized into one rate | multiple maturities; no single maturity-wall identity used here | asset collateral + pledged contractual cash flows, generally from investment-grade counterparties | contract-backed financing is central | large financing scale; watch contract quality, leverage and refinancing rather than nominal debt alone |
-| Core Scientific · 2026Q2 | US$3.3B senior secured notes linked to colocation cash-flow structure | not harmonized in current panel | not reduced to one maturity metric in v0.1 | CoreWeave contract revenues feed a lockbox supporting debt | CoreWeave ~77% of H1 revenue; all colocation revenue from CoreWeave | high counterparty concentration; transmission risk if anchor cash flows weaken |
-| Nebius · Jul-2026 | ~US$775M first senior secured facility; separate corporate convertibles for broader expansion | SOFR + 2.50% on secured facility | Oct-2030 on secured facility | deployed GPUs + contracted cash flows from investment-grade customer | customer contract plus facility covers >100% of underlying deployment CapEx | financeable contract-backed expansion; future dependency on contract performance |
-| Applied Digital · FY2026 | US$2.35B 2030 secured notes + US$2.15B 2031 secured notes + US$450M convertibles + US$300M bridge + other debt | 9.25%, 6.75%, 2.75% on major disclosed notes; weighted-average term-loan rate ~7.1% | bridge Apr-2027; major notes 2030–31; ~US$4.19B principal scheduled FY31 | project / secured-note structure; DSCR covenant disclosed for hosting subsidiary | concentration should be monitored beside tenant / lease cash flows | highest explicit maturity-wall sensitivity in current five-borrower panel |
+| CoreWeave · 2026Q2 | ~US$13.6B DDTLs + ~US$16.6B notes outstanding; ~US$10.0B availability under existing facilities | DDTL 4.0 floating: SOFR + 2.25%; DDTL 5.0: SOFR + 4.50%; Apr-2026 senior notes: 9.75% | Q1 debt schedule: ~US$6.1B remainder-2026, US$5.7B 2027, US$3.8B 2028, US$2.9B 2029, US$2.3B 2030; DDTL 4.0 matures Mar-2032; DDTL 5.0 final payment May/Nov-2031 depending facility terms | asset collateral + pledged contractual cash flows; several SPV structures; DDTL 4.0 largely non-recourse | Q1 2026 total debt interest expense ~US$427M after capitalization; all disclosed DDTL covenants in compliance at Jun-2026 | very large financing scale plus near-term principal load; still financeable, but refinancing and customer-contract quality are first-order variables |
+| Core Scientific · 2026Q2 | US$3.3B senior secured notes + US$460M 2029 convertibles + US$625M 2031 convertibles; prior US$1.0B SOFR+2.50% term loan repaid May-2026 | 7.75% fixed on senior secured notes; 3.00% on 2029 convertibles; 0% stated on 2031 convertibles | no principal due 2026–2028 on current notes; US$649.8M due 2029 incl. secured-note amortization/convertibles; remaining secured notes largely thereafter | CoreWeave contract revenues feed a lockbox supporting debt; no variable-rate debt outstanding at Jun-2026 | CoreWeave ~77% of H1 revenue; Q2 interest incurred ~US$52.4M, interest expense after capitalization ~US$40.6M | refinancing action reduced floating-rate exposure, but concentration risk remains very high |
+| Nebius · Jul-2026 | ~US$775M first senior secured facility; separate corporate convertibles for broader expansion | SOFR + 2.50% on secured facility | Oct-2030 on secured facility | deployed GPUs + contracted cash flows from investment-grade customer | DSCR covenant 1.15× plus minimum-liquidity covenant; customer contract plus facility covers >100% of underlying deployment CapEx | financeable contract-backed expansion with explicit covenant discipline; future dependency on contract performance |
+| Applied Digital · FY2026 | US$2.35B 2030 secured notes + US$2.15B 2031 secured notes + US$450M convertibles + US$300M bridge + other debt | 9.25%, 6.75%, 2.75% on major notes; bridge: SOFR + 2.75%; weighted-average term-loan rate ~7.1% | bridge originally Apr-2027 but refinanced after year-end into 2031 notes; ~US$4.19B principal scheduled FY31 | project / secured-note structure; DSCR covenants disclosed and in compliance at May-2026 | FY26 gross interest expense ~US$85.3M; ~US$39.6M interest capitalized; net interest expense ~US$29.5M | maturity wall remains material, but successful bridge refinancing is counterevidence against near-term refinancing stress |
 | IREN · 2026 | Microsoft-linked ~US$3.6B GPU financing + ~US$2.8B additional GPU financings + convertibles / leases | ~6% Microsoft-linked; one large additional financing ~9% fixed | multiple facilities; no single maturity wall used yet | GPUs + customer-contract cash flows; customer prepayments reduce sponsor funding need | Microsoft prepayment ~US$1.9B; recent contracts prepay ~45–55% of associated GPU CapEx | strong contract-backed expansion, but financing price and counterparty quality differ materially across deployments |
 
 ### 11B.5A Update fields
@@ -1487,6 +1487,102 @@ Every future borrower update should capture the same minimum fields:
 Missing values remain N/A.
 
 Do not infer a value from another borrower merely to complete the matrix.
+
+### 11B.5C Refinancing-state refresh — drawn, pricing, covenant and rollover
+
+The standardized borrower panel now contains enough hard data to distinguish **financing scale** from **refinancing state**.
+
+#### CoreWeave
+
+CoreWeave's 2026 filings show:
+
+- March 31, 2026 total debt of about **US$25.1B**;
+- future principal payments of about **US$6.1B** for the remainder of 2026 and **US$5.7B** in 2027;
+- Q1 contractual interest expense of about **US$483M**, with about **US$97M** capitalized and total reported debt interest expense about **US$427M**;
+- DDTL 4.0 floating-rate pricing at **SOFR + 2.25%**, maturity March 2032;
+- DDTL 5.0 pricing at **SOFR + 4.50%**, with a 0.50% undrawn fee;
+- as of June 30, 2026, about **US$10.0B** availability under existing facilities;
+- disclosed compliance with DDTL covenants as of June 30, 2026.
+
+This is not a simple distress profile.
+
+It is:
+
+> **high leverage + high interest burden + substantial near-term principal + still-large undrawn committed liquidity + covenant compliance.**
+
+The S4-relevant change would be deterioration in refinancing terms, draw availability, covenant headroom, or customer-contract performance.
+
+#### Core Scientific
+
+Core Scientific provides an actual refinancing-state transition rather than merely a debt snapshot:
+
+- a fully drawn **US$1.0B** term loan at Term SOFR + 2.50% was repaid and terminated in May 2026;
+- proceeds from **US$3.3B 7.75% senior secured notes due 2031** replaced that floating-rate exposure;
+- as of June 30, 2026 the company reported **no variable-rate debt outstanding**;
+- Q2 interest incurred was about **US$52.4M**, with about **US$11.7M** capitalized and reported interest expense about **US$40.6M**.
+
+This is a useful counterexample:
+
+> **large debt can coexist with an improvement in refinancing / rate-risk structure.**
+
+Debt quantity alone would miss that.
+
+#### Nebius
+
+Nebius's July 2026 secured facility adds a clean covenant datapoint:
+
+- approximately **US$775M** facility;
+- **SOFR + 2.50%**;
+- maturity October 2030;
+- **1.15× DSCR covenant**;
+- minimum-liquidity covenant;
+- GPU assets + investment-grade customer contractual cash flows.
+
+That makes DSCR a directly observable project-finance state variable rather than a conceptual placeholder.
+
+#### Applied Digital
+
+Applied Digital's FY2026 filing adds both an interest-cost and refinancing counterexample:
+
+- FY26 gross interest expense about **US$85.3M**;
+- about **US$39.6M** of interest capitalized;
+- net interest expense about **US$29.5M**;
+- the US$300M bridge facility carried **SOFR + 2.75%** and originally matured April 2027;
+- after fiscal year-end, the bridge was refinanced with long-term 2031 notes;
+- disclosed DSCR covenants were in compliance at May 31, 2026.
+
+Therefore:
+
+> **a near-term maturity is a risk state; successful refinancing is contrary evidence and must be recorded symmetrically.**
+
+### 11B.5D New borrower-state fields that now become mandatory
+
+The borrower table should no longer stop at gross debt.
+
+For every borrower, the minimum quarterly / filing-date update now requires:
+
+```text
+Gross Debt
+Drawn Debt
+Undrawn Committed Liquidity
+Cash Interest / Interest Incurred
+Capitalized Interest
+Fixed vs Floating
+Next 24M Principal
+Weighted / Facility Pricing
+DSCR / Covenant State
+Refinancing Completed / Pending
+Customer Concentration
+Pledged Customer Cash Flow
+Project Delivery State
+```
+
+The most important new distinction is:
+
+> **scheduled maturity risk ≠ realized refinancing stress.**
+
+Realized stress requires adverse refinancing terms, failed access, covenant pressure, or project/economic deterioration.
+
 
 ### 11B.5B First cross-borrower lesson
 
@@ -1588,7 +1684,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.14 conclusion
+## 14. v0.15 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -1596,7 +1692,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and CoreWeave / Core Scientific / Nebius / Applied Digital / IREN now sit in one standardized borrower maturity / pricing / concentration matrix. The next empirical task is to resolve the stable CMDI direct-file path and begin filling interest expense, drawn-vs-committed balances, covenant / DSCR and refinancing changes on the standardized borrower fields.
+The quarterly macro backbone is populated for 2022Q1–2026Q2; all four hyperscalers feed Dashboard K through a common six-layer S4 protocol; and the standardized borrower matrix now includes real drawn/undrawn liquidity, interest burden, covenant/DSCR and refinancing-state evidence for CoreWeave, Core Scientific, Nebius and Applied Digital. The next empirical task is to complete the same fields for IREN, add supplier-support / guarantee amounts, and continue resolving the stable CMDI direct-file path.
 
 ## Sources
 
