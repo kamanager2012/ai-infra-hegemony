@@ -382,6 +382,14 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization、market clearing、forward commitments、accounting 与 demand-financing quality 广泛、持续地共同恶化，则 S4 才真正成立。
 
+因此，这份报告最终不是在问“是不是只剩 AI 重要”。手机、电脑、汽车、工业设备、机器人以及航空航天、舰船、雷达等战略系统仍然重要。真正需要问的是：
+
+> **这些仍然重要的整机，能不能按自己的 BOM、认证周期、产品寿命与成本约束，从已经被 AI/HPC 改写优先级的上游，持续拿到够用、够稳、付得起的资源。**
+
+这里同样必须保持量纲纪律：smartphone / PC / 部分 edge/ADAS 可以与 AI 直接共享 advanced logic、memory 或 selected packaging；汽车、工控与产线更多承受相邻 product-mix 与 long-qualification pressure；航空、国防与航天电子的核心风险常是 trusted / long-life / low-volume / special-process supply 的经济性、设备与人才连续性，而不是“直接和 AI 服务器抢 HBM”。
+
+这也是“AI Infrastructure Hegemony”真正需要警惕的产业含义：**不是其他整机失去重要性，而是“重要”本身不再保证上游优先级。**
+
 > **预测可以错，证据边界不能乱；情景可以大胆，事实层必须保守。真正有价值的行业研究，不是一次猜中终局，而是知道哪些产业变量正在决定终局，以及什么事实出现时必须改变判断。**
 
 ## 交叉引用
