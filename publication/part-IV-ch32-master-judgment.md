@@ -20,7 +20,7 @@ smartphone、PC、game console、汽车、工业设备、机器人以及高可�
 第二类 system stack 的成长可以削弱外部平台利润，却仍然会竞争 advanced logic、HBM、packaging 与 power。
 
 **第六，AI 基础设施的主要风险已经从“有没有需求”转向“资本基数增长速度能否被真实 utilization、monetization 与独立融资能力覆盖”。**  
-高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要 accounting、utilization/revenue、market clearing、forward commitments 与 demand-financing quality 多组信号广泛、持续并相互印证地恶化。
+高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要**多类因果独立信号形成 cross-signal confirmation，并跨主体/层级形成 causal breadth**。Accounting losses 是高价值 confirmation / severity evidence，但不是 mandatory gate。
 
 **第七，基础设施扩张只有转化为可验证、可收费、可重复的工作流产出，才完成需求侧闭环。**  
 这是一项**长期经济判据，而不是截至 2026-08-28 已完成经验校准的事实指标**。公开研究仍难在同一 workflow denominator 下完整连接 Compute、Energy、Human Review、Failure/Retry、Capital 与持续业务价值。Agent-Native Software、Physical AI 与企业自动化最终都要回答这一问题；在该判据未完成校准前，单位 Compute 成本下降既不能被默认解释为总需求下降，也不能被默认解释为 Jevons 式总需求上升。
@@ -203,6 +203,8 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 - **Forward Commitment**：CapEx guidance、supply commitments、compute contracts、power contracts；
 - **Demand Quality / Financing**：customer cash generation、third-party capital、supplier equity / credit enhancement 与 refinancing dependency。
 
+这五类是 **monitoring families，而不是 five-of-five checklist**。financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认，前提是独立信号族与 causal breadth 已足够强，且不存在更强的替代解释。
+
 截至 2026 年 8 月，公开事实更符合：
 
 > **高强度资本扩张仍在继续，但 ROI 门槛和 monetization 压力正在上升。**
@@ -297,7 +299,7 @@ AI 对劳动的传导必须至少经过：
 
 ### S4 — Capital Hard Landing
 
-utilization、clearing price、CapEx / commitments、accounting losses 与 demand-financing quality 广泛恶化，资本进入清算。
+多类因果独立的信号族跨主体/层级广泛、持续恶化，且至少包含一个 real-economy / market-clearing / commitment 信号；Accounting losses 出现时强化严重度，但不是确认 S4 的必要条件。
 
 这四个状态不是必然顺序，也不赋固定概率。
 
@@ -383,7 +385,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 当前最接近事实的状态仍然是 **S2 — Baseline Concentration**：领先平台和关键稀缺层保持强经济性，替代系统持续成长，但尚未形成足以消除 system-level concentration 与物理约束的全面替代。
 
-未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization、market clearing、forward commitments、accounting 与 demand-financing quality 广泛、持续地共同恶化，则 S4 才真正成立。
+未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization/revenue、market clearing、forward commitments、financing quality 与 accounting 中的多类独立信号跨主体/层级形成广泛、持续的交叉确认，则 S4 才真正成立；Accounting 是 confirmation channel，而不是硬门槛。
 
 因此，这份报告最终不是在问“是不是只剩 AI 重要”。手机、电脑、游戏主机、汽车、工业设备、机器人以及航空航天等高可靠长生命周期系统仍然重要。真正需要问的是：
 
