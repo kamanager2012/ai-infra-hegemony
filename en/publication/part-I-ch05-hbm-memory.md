@@ -105,7 +105,7 @@ Some inference workloads can trade bandwidth for lower-cost DDR/LPDDR, but front
 
 More importantly, RDIMM is already included in TrendForce's forward AI/server memory structure. Shifting some workloads from HBM toward DDR5 therefore changes the cost/bandwidth tradeoff inside a broader shared memory-resource pool rather than creating a completely independent supply river.
 
-## 11. What would weaken HBM's long-run strategic value
+## 11. Current judgment and falsification boundary
 
 HBM scarcity is not inevitable. The current mechanism would weaken materially if:
 
