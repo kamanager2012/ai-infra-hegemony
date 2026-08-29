@@ -20,7 +20,7 @@ GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞�
 高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要 accounting、utilization/revenue、market clearing、forward commitments 与 demand-financing quality 多组信号广泛、持续并相互印证地恶化。
 
 **第六，基础设施扩张只有转化为可验证、可收费、可重复的工作流产出，才完成需求侧闭环。**  
-Agent-native Software、Physical AI 与企业自动化最终都要回答同一个问题：单位可验证结果需要多少 Compute、Energy、Human Review 与 Capital，所创造的业务价值能否持续覆盖这些成本。单位 Compute 成本下降不等于总需求下降；如果更低成本释放更多工作流，基础设施使用量仍可能继续增长。
+Agent-Native Software、Physical AI 与企业自动化最终都要回答同一个问题：单位可验证结果需要多少 Compute、Energy、Human Review 与 Capital，所创造的业务价值能否持续覆盖这些成本。单位 Compute 成本下降不等于总需求下降；如果更低成本释放更多工作流，基础设施使用量仍可能继续增长。
 
 **第七，未来十年不是一个单点预测，而是 supply elasticity、system substitution、workload economics、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
 
@@ -212,9 +212,9 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 如果只观察 GPU、HBM、CapEx 或数据中心容量，本报告仍然是不完整的。基础设施只是供给侧；十年产业周期能否成立，最终取决于这些物理资产能否穿过软件、企业流程与实体世界，转化为可验证的经济产出。
 
-### Agent-native Software：单位经济从“席位”上移到“工作流结果”
+### Agent-Native Software：单位经济从“席位”上移到“工作流结果”
 
-传统 SaaS 更接近按 account / seat 扩张，而 Agent-native Software 会持续消耗 inference、retrieval、tool/API、retry、observability 与 human review。
+传统 SaaS 更接近按 account / seat 扩张，而 Agent-Native Software 会持续消耗 inference、retrieval、tool/API、retry、observability 与 human review。
 
 因此，软件层真正应比较的不是单纯 token price，而是：
 
@@ -367,7 +367,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 - hyperscaler 与 model company 的产业角色；
 - power 与 data-center infrastructure 的战略价值；
 - traditional device markets 可获得的 residual capacity；
-- Agent-native Software 从 seat economics 向 verified-workflow economics 的迁移；
+- Agent-Native Software 从 seat economics 向 verified-workflow economics 的迁移；
 - Physical AI 从技术 demo 向 utilization、reliability 与 capital payback 的跨越；
 - 劳动市场从 task automation 到 workflow redesign 的结构性重组；
 - 人才体系从“会使用模型”向 workflow / system engineering 与 verification 的迁移；
@@ -393,7 +393,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 - [第6章：Advanced Packaging](part-I-ch06-advanced-packaging.md)
 - [第7章：Power](part-I-ch07-power-constraint.md)
 - [第12章：Hyperscaler System Stack](part-II-ch12-hyperscaler-system-stack.md)
-- [第14章：Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
+- [第14章：Agent-Native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
 - [第15章：Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
 - [第17章：中国 Parallel Stack](part-II-ch17-china-parallel-stack.md)
 - [第25章：AI 与劳动市场](part-III-ch25-labor-market.md)
