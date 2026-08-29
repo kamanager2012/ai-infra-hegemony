@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.4
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.5
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -506,7 +506,7 @@ The evidence now supports a stronger statement than v0.1:
 
 ## 13A. GPT-5.6 event-study data-access audit
 
-The OpenRouter August 25 post now exposes enough methodology to define the event cleanly, but not enough public raw data to estimate a defensible daily causal coefficient.
+The OpenRouter August 25 post exposed enough methodology to define the event cleanly. A later OpenRouter data-product update materially changes the data-access conclusion: OpenRouter now documents a machine-readable daily rankings dataset API that can provide model-day token totals back to 2025-01-01.
 
 Publicly visible:
 - Pre window: **Jul 8–Jul 26**;
@@ -521,7 +521,7 @@ Publicly visible:
 - post-period daily Terra/Luna token volume averaged **1.38×** the program-period level;
 - Sol averaged **79.1B tokens/day** during the Terra/Luna program versus **71.2B/day** pre-period.
 
-The page does **not** surface a downloadable daily raw-price / raw-token panel.
+The original event page itself did not surface a downloadable daily raw-price / raw-token panel. That page-level limitation is no longer equivalent to platform-level data unavailability because OpenRouter now documents a separate daily rankings dataset API.
 
 Therefore Phase II should not:
 - digitize chart pixels into fake daily observations;
@@ -532,7 +532,7 @@ Therefore Phase II should not:
 
 The current identification status is:
 
-> **Tier B event-study candidate with strong descriptive response, but insufficient public raw data for a reproducible daily regression.**
+> **Tier B event-study candidate with a now-documented reproducible daily token-data path; causal estimation still requires coverage verification, price-path reconstruction, and event-window controls.**
 
 ### What can still be measured without fake precision
 
@@ -560,16 +560,183 @@ It is not yet a measure of:
 
 Until a machine-readable daily series becomes public or a reproducible data export is available:
 
-> **freeze the GPT-5.6 event at descriptive / event-catalog status.**
+> **reopen the GPT-5.6 event for reproducible model-day panel construction, but do not estimate a structural coefficient until the coverage and treatment-path checks below pass.**
 
 Do not manufacture an elasticity point estimate from the charts.
 
 ---
 
-## 15. P0-2 v0.5 worklist
+## 13B. OpenRouter Rankings Daily API — data-access status reopened
+
+OpenRouter now documents a public-data API endpoint:
+
+```text
+GET /api/v1/datasets/rankings-daily
+```
+
+with:
+- `start_date` / `end_date` UTC query parameters;
+- coverage beginning **2025-01-01**;
+- up to the top **50 public models per day** by token volume;
+- one aggregated `other` row per day for all models outside the top 50;
+- `total_tokens = prompt_tokens + completion_tokens`;
+- stable `model_permaslug` identifiers;
+- a dataset `as_of` timestamp / version;
+- authentication via a valid OpenRouter API key.
+
+OpenRouter states that the rankings dataset is reusable with attribution under **CC BY 4.0**.
+
+This is a material upgrade from the previous audit.
+
+### 13B.1 What the API can support
+
+If Terra, Luna, and Sol each appear in the top-50 rows for the necessary dates, Phase II can construct:
+
+```text
+date
+model_permaslug
+total_tokens
+treatment_state
+effective_price_state
+event_time
+```
+
+for the Jul–Aug 2026 discount episode.
+
+That is enough to move from headline pre/post ratios toward a reproducible model-day event panel.
+
+### 13B.2 Top-50 censoring rule
+
+The API does **not** provide every model separately.
+
+Models outside the daily top 50 are pooled into `other`.
+
+Therefore:
+
+> **A target model that drops outside the top 50 on a date becomes interval-censored / unidentified at model level for that date.**
+
+Do not:
+- allocate part of `other` back to the model;
+- interpolate a hidden model value;
+- treat missing top-50 membership as zero usage.
+
+Coverage audit must be the first step.
+
+For every target model:
+
+```text
+Coverage Rate
+=
+days with model-specific row
+/
+required event-window days
+```
+
+If coverage is incomplete, the event design must either:
+- shorten the window to common observed dates;
+- use a different aggregation;
+- or remain descriptive.
+
+### 13B.3 Token-comparability rule
+
+OpenRouter explicitly warns that token counts come from each upstream provider's tokenizer.
+
+Therefore:
+- within-model time-series comparisons are much cleaner;
+- cross-model raw-token level comparisons are not perfectly cardinal;
+- model-share calculations across providers remain platform traffic shares, not standardized compute units.
+
+This matters especially for:
+
+```text
+Terra vs Luna vs Sol
+```
+
+if their tokenizer / reasoning-token accounting differs.
+
+Prefer:
+- within-model percentage change;
+- model-specific event coefficients;
+- share-of-platform traffic with caveats.
+
+Do not interpret one model's token as physically equivalent to another model's token.
+
+### 13B.4 Public-traffic boundary
+
+OpenRouter rankings measure:
+- traffic routed through OpenRouter;
+- public-ranking-eligible activity.
+
+They do **not** measure:
+- provider-direct API traffic;
+- all enterprise private traffic;
+- the full global model market.
+
+OpenRouter's rankings documentation states that private/hidden requests are excluded before public aggregation.
+
+Therefore:
+
+> **the estimand is OpenRouter-visible adoption / substitution, not global demand elasticity.**
+
+### 13B.5 Price-path reconstruction remains separate
+
+The daily token API solves the quantity side.
+
+It does not by itself provide a historical daily transaction-price panel.
+
+For the GPT-5.6 event, treatment reconstruction should use the documented event schedule:
+
+```text
+Pre
+→ Jul-27 program discount begins
+→ Jul-30 Terra/Luna list-price reset changes effective treatment intensity
+→ Aug-15 program ends
+→ Aug-17 Sol receives its own discount
+```
+
+So treatment is piecewise, not one constant percentage.
+
+No regression should code the whole program as one binary treatment without sensitivity checks.
+
+### 13B.6 Minimum reproducible event-study protocol
+
+Before estimating anything:
+
+1. resolve exact Terra/Luna/Sol permanent slugs;
+2. query the complete common window;
+3. audit top-50 coverage by model/day;
+4. preserve `as_of` and dataset version;
+5. encode the documented piecewise price/treatment path;
+6. limit Sol as untreated control to dates before its own Aug-17 treatment;
+7. report raw token levels and within-model indexed values;
+8. test pre-trends;
+9. separate:
+   - own-price response;
+   - within-OpenAI substitution;
+   - competitor displacement;
+   - total OpenRouter traffic change;
+10. do not map the resulting coefficient directly into E3/E4 verified-workflow or infrastructure elasticity.
+
+### 13B.7 Revised status
+
+The previous conclusion:
+
+> "no reproducible daily panel exists"
+
+is now obsolete.
+
+The correct v0.5 conclusion is:
+
+> **a reproducible public model-day quantity path now exists in principle; the GPT-5.6 event moves from data-unavailable to data-accessible-but-not-yet-estimated.**
+
+That is a meaningful improvement, but it is not yet an empirical coefficient.
+
+---
+
+## 15. P0-2 v0.6 worklist
 
 1. obtain/reconstruct daily provider-model price and token panels for eligible events;
-2. estimate Terra/Luna/Sol with event-time controls rather than headline pre/post ratios;
+2. use the documented Rankings Daily API to build the Terra/Luna/Sol common-window panel; audit top-50 censoring before any estimation;
 3. separate **share displacement** from **net market token expansion**;
 4. test whether elasticity differs by workload category where usage labels are observable;
 5. report confidence intervals / robustness specifications;
@@ -585,3 +752,9 @@ Do not manufacture an elasticity point estimate from the charts.
 - Demirer et al., author-hosted working-paper version, empirical strategy / provider-model-day specification: https://andreyfradkin.com/assets/LLM_Demand_12_12_2025.pdf
 - OpenRouter, **GPT 5.6 Discounts & Jevons Paradox**, 2026-08-25: https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/
 - Anthropic, **Economic Index: Economic primitives**, 2026-01-15: https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
+
+
+- OpenRouter, “Daily token totals for top 50 models” API documentation: https://openrouter.ai/docs/api/api-reference/datasets/get-rankings-daily
+- OpenRouter Data — datasets API / research data program: https://openrouter.ai/data
+- OpenRouter Rankings methodology and CC BY 4.0 reuse notice: https://openrouter.ai/rankings
+- OpenRouter Activity Export documentation — account/org CSV export is separate from the public rankings dataset: https://openrouter.ai/docs/cookbook/administration/activity-export
