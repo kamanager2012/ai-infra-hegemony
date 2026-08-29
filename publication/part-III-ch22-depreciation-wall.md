@@ -144,7 +144,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 而不是已经确认的大规模 impairment cycle。
 
-折旧墙真正需要警惕的组合是：utilization 下滑、residual value 快速下降、CapEx / lease / project commitments 收缩、refinancing 条件恶化和 impairment 增加相互印证。
+折旧墙真正需要警惕的是：utilization 下滑、residual value 快速下降、CapEx / lease / project commitments 收缩与 refinancing 条件恶化等多类独立信号跨主体/层级相互印证。impairment 出现时会强化严重度判断，但正式 accounting loss 不是 mandatory gate。
 
 ## References
 
