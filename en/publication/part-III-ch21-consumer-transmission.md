@@ -151,6 +151,8 @@ Sony stated in its FY2025 Q4 / FY2026 outlook that:
 - FY26 PS5 hardware sales would be based on the volume of memory it could procure at **reasonable prices**;
 - if conditions changed, it would manage profitability by adjusting **unit sales and promotional plans**.[^27]
 
+Sony's FY2025 Form 20-F also identifies global memory-semiconductor price increases and supply shortages since the second half of FY2025 as a business risk, and notes that shortages or delayed shipments of critical or custom components can reduce or suspend production where supplier or production capacity is limited.[^29]
+
 This is unusually strong first-party transmission evidence because it links:
 
 > **memory procurement → hardware volume / promotion → hardware profitability**
@@ -316,7 +318,7 @@ Public evidence does **not** support stronger claims such as:
 Those would require program-level, supplier-level, or government-procurement evidence.
 
 
-## 9.2 HDD and SSD: not a one-way "SSD fully replaces HDD" thesis
+## 10. HDD and SSD: not a one-way "SSD fully replaces HDD" thesis
 
 AI data-center storage is becoming a segmented market.
 
@@ -330,7 +332,7 @@ A more accurate structure is:
 
 AI data centers therefore do not make HDD strategically irrelevant by default.
 
-## 10. Real-economy firms face a second layer of AI Adoption Cost
+## 11. Real-economy firms face a second layer of AI Adoption Cost
 
 Manufacturers and other operating businesses also pay for:
 
@@ -347,7 +349,7 @@ The relevant equation is therefore:
 
 This is why cheaper AI models do not automatically produce higher ROI for operating companies.
 
-## 11. Current judgment
+## 12. Current judgment
 
 As of August 2026, the evidence supports:
 
@@ -391,3 +393,6 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 [^26]: Nintendo, Nintendo Switch 2 official technical specifications, custom NVIDIA processor and 256 GB UFS storage, https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/
 [^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware sales based on memory volume procurable at reasonable prices and flexible unit-sales / promotion management, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
 [^28]: TrendForce, 2025-12-02, Memory Price Surge Squeezes Game Console Margins; 2026 Shipment Forecast Revised Downward, https://www.trendforce.com/presscenter/news/20251202-12811.html
+
+
+[^29]: Sony Group, FY2025 Form 20-F, global memory-semiconductor price increases / shortages and component-capacity risk, https://www.sony.com/en/SonyInfo/IR/library/FY2025_20F_PDF.pdf
