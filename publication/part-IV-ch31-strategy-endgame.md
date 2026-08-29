@@ -33,7 +33,7 @@
 | Advanced Packaging / CoWoS | [Part I · Ch06](part-I-ch06-advanced-packaging.md) |
 | Power / Time-to-Power | [Part I · Ch07](part-I-ch07-power-constraint.md) |
 | Hyperscaler second system stack | [Part II · Ch12](part-II-ch12-hyperscaler-system-stack.md) |
-| China production-grade parallel stack / autonomous frontier closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
+| China frontier parallel stack / Production-Grade Gates / autonomous frontier closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
 | Value Capture Map | [Part III · Ch20](part-III-ch20-value-capture-map.md) |
 | Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
 
@@ -135,7 +135,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 - HBM / server memory 对制造资源的影响仍强；[^3]
 - cloud custom systems 已形成真实第二路线，但尚未证明全面替代 frontier workload；
 - power 已进入独立 physical constraint；
-- China production-grade parallel stack 持续发展，但 autonomous frontier closure 尚未在所有 critical layers 得到规模化证明；
+- China frontier parallel stack 持续迭代并出现部分 production deployment，但按第17章七个 Production-Grade Gate，完整 production-grade frontier closure 尚未由公开证据确认；
 - 全行业 Capital Hard Landing 的同步证据仍不足。
 
 这不是十年固定预测。
@@ -185,6 +185,24 @@ portability 不意味着所有供应商平均采购。
 - operational recovery。
 
 如果第二路径只存在于采购 PPT，而没有真实 production validation，就不能提供有效 bargaining power 或 resilience。
+
+---
+
+## 5A. 整机企业：把 Quantity Assurance 与价格放在同一张采购表里
+
+对 smartphone、PC、汽车、工业设备、机器人和其他长生命周期电子，低后悔动作不是预测某个供应商十年后一定短缺，而是提高对资源重排的承受力。
+
+三个原则：
+
+1. **价格与 Quantity Assurance 同级管理。** 不能只问 unit price，也要问 allocation fulfillment、lead time、LTA、替代料验证状态与恢复时间。
+2. **隔离不同产品层级的供应风险。** flagship / high-performance SKU 与 cost-sensitive / long-life SKU 不应默认依赖完全相同的 scarce-resource path；否则一次高端资源冲击会放大到整个产品线。
+3. **提前识别 long-life part continuity。** 对认证周期长、替换成本高的料号，要持续判断供应商是否仍有经济动力维持长期供货、封测、工具与工程支持。
+
+这些不是“囤货越多越好”。
+
+真正目标是：
+
+> **让整机产品周期不必完全服从上游最紧张客户的资源时钟。**
 
 ---
 
