@@ -99,6 +99,31 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - [12 · Non-AI End-System Supply Conditions](12-non-ai-end-system-supply-conditions.md)
 - [13 · Developer Distribution Chokepoint](13-developer-distribution-chokepoint.md)
 
+## Phase II Final Adjudication — 2026-08-30
+
+Phase II validation has now been adjudicated against the frozen 32-chapter publication text.
+
+| Validation layer | Formal-text decision | Adjudication |
+|---|---|---|
+| P0-1 Historical Clearing Backtest | **MATERIAL FIX APPLIED** | Historical replay proved Accounting is confirmation / severity evidence, not a mandatory S4 gate. The correction was propagated to Ch01 / Ch19 / Ch22 / Ch24 / Ch29 / Ch30 / Ch32 in both languages. |
+| P0-2 Demand Elasticity | **NO FORMAL CHANGE** | Raw OpenRouter panel retrieval has succeeded, but full censoring / treatment / substitution audit and coefficient estimation are not complete. No unestimated coefficient enters the formal report. |
+| P0-3 Verified Workflow Economics | **NO FORMAL CHANGE** | Formal chapters already identify verified-workflow economics as a long-run criterion that is not yet empirically calibrated. |
+| P0-4 Macro-Financial Transmission | **NO FORMAL CHANGE** | 04A–04D improve research-side state maintenance; post-cutoff SLOOS / financing updates remain outside the August 28 formal evidence snapshot. |
+| 05 Geopolitical Scenario Layer | **NO FORMAL CHANGE** | Formal scenario language already remains conditional and does not convert policy headlines into physical-state facts. |
+| 06 Conditional Timeline | **NO FORMAL CHANGE** | Ch28 already functions as a conditional milestone map rather than a deterministic calendar forecast. |
+| 07 Downstream Empirical Chains | **NO FORMAL CHANGE** | Ch15 / Ch25 / Ch26 already preserve capability → deployment → persistent outcome boundaries. |
+| 08 Decision Invariants | **MATERIAL STRATEGY FIX APPLIED** | Ch31 previously overstated a continuously maintained executable second path as a universal rule. It now prices executable optionality and maintains a second path only when continuity / bargaining / recovery value exceeds carrying cost. |
+| 09 China System-Stack Extension | **NO FORMAL CHANGE** | Ch17 already separates production-grade substitution, manufacturing closure, and autonomous frontier closure; later source-quality upgrades remain research-side. |
+| 10 Scenario Dashboard / 11 Financing Reflexivity | **NO FORMAL CHANGE** | Formal S1–S4 / financing-reflexivity language is consistent after the S4 breadth correction; derived research layers do not own new facts. |
+| 12 Non-AI End-System Conditions | **NO FORMAL CHANGE** | Ch21 already requires observed downstream response and preserves alternative explanations / cost-down / substitution counterevidence. |
+| 13 Developer Distribution Chokepoint | **NO FORMAL CHANGE** | Ch18 already classifies the Hugging Face item as a reported transaction, not a completed acquisition or realized foreclosure. |
+
+Final publication-state result:
+
+> **The August 28, 2026 evidence cutoff is unchanged. The current S2 — Baseline Concentration judgment is unchanged. The four-scenario taxonomy is unchanged. The formal report has been refrozen after correcting only the validated definition / strategy defects above.**
+
+After this adjudication, Phase II moves from framework construction to **state-transition maintenance and unresolved empirical estimation only**.
+
 ## 下一阶段
 
 优先继续深化而不是扩题：
