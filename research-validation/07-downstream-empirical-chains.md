@@ -1,7 +1,26 @@
-# P2 · Downstream Empirical Chains v0.1
+# P2 · Downstream Empirical Chains v0.2
 
 > **Status:** Research-side evidence map; not part of the frozen formal report.  
 > **Goal:** strengthen Labor (Ch25), Education (Ch26), and Physical AI (Ch15) without pretending that the evidence is as mature as semiconductors, memory, packaging, power, or CapEx.
+
+## 0. Domain-evidence ownership contract v0.2
+
+This file owns:
+- downstream domain-specific evidence chains;
+- domain-specific persistence / scale questions;
+- evidence gaps for Labor / Education / Physical AI.
+
+It does **not** own the generic workflow-economics denominator.
+
+Authoritative rule:
+
+> **P0-3 §17 is the authoritative workflow-economics acquisition contract.**
+
+07 may add domain-specific fields such as retained mastery, safety intervention, uptime or delayed employment outcomes, but it must not redefine Cost/VSWO, persistence, missingness or Workflow ROI.
+
+Formal-report gate:
+
+> **Downstream evidence can justify a formal chapter update only after the relevant chain closes beyond capability/demo evidence and the frozen report is explicitly reopened.**
 
 ## 1. Common rule: a downstream claim needs a chain, not a demo
 
@@ -272,7 +291,7 @@ Prioritize:
 
 # 7. Relationship to Verified Workflow Economics
 
-All three downstream domains should reuse P0-3.
+All three downstream domains must reuse P0-3; §17 is authoritative for the common economic denominator.
 
 ### Labor
 ```text
@@ -304,7 +323,7 @@ This gives the whole report one downstream economic language.
 
 ---
 
-# 8. v0.1 conclusion
+# 8. v0.2 conclusion
 
 The downstream chapters do not need more confident prose.
 
@@ -316,6 +335,8 @@ The correct upgrade is:
 > to “AI changes verified outcome Y at cost Z, persists for period T, and changes organization/system behavior through observable mechanism M.”
 
 Until that chain exists, uncertainty should remain explicit.
+
+**v0.2 stop rule:** generic capability demos, benchmark gains, or additional productivity percentages do not justify a version bump unless they close a currently missing downstream link: adoption, verified outcome, persistence, organizational transmission, or economic/social consequence.
 
 ## Sources
 
