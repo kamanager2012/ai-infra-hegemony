@@ -1,0 +1,268 @@
+# Phase II · Non-AI End-System Supply Conditions v0.1
+
+> **Status:** Research-side downstream exposure map; not part of the frozen formal facts.  
+> **Purpose:** make the report's intended reader explicit: AI does not make smartphones, PCs, vehicles, factories, aviation, ships, radar, satellites or launch systems “unimportant.” The question is whether their electronics are now buying into a supply system whose capital allocation, contracting and margin priorities are being reset by AI/HPC.
+
+## 1. First-principles statement
+
+The report's downstream thesis should not be:
+
+> **AI matters more than every other industrial system.**
+
+It should be:
+
+> **important end systems do not receive semiconductor capacity because they are important; they receive it through specific foundry, memory, packaging, qualification, contracting and financing relationships. When AI/HPC demand changes the economics of those upstream layers, non-AI end systems can face higher opportunity cost, longer lead times, slower upgrades or weaker supply assurance even when their social or strategic importance is unchanged.**
+
+The correct variable is therefore not “importance.”
+
+It is:
+
+> **shared-resource exposure × supplier economics × qualification rigidity × contract duration × supply assurance.**
+
+## 2. Four exposure classes
+
+### Class I — Direct competition for advanced shared layers
+
+Examples:
+- flagship smartphones;
+- high-end PCs / workstations;
+- selected automotive ADAS / domain controllers;
+- edge AI systems;
+- high-end robotics compute.
+
+Potentially shared layers:
+- selected leading-edge logic;
+- LPDDR / DRAM / NAND;
+- advanced packaging in some designs;
+- high-end substrate / test / engineering capacity.
+
+Evidence can support:
+> AI/HPC can raise the opportunity cost of these shared layers.
+
+Evidence cannot automatically support:
+> AI physically removed a specific number of wafers from a named non-AI customer.
+
+### Class II — Adjacent competition through supplier product mix
+
+Examples:
+- mainstream automotive electronics;
+- industrial control;
+- factory automation;
+- power electronics;
+- routers / broadband devices;
+- robot actuator/control electronics.
+
+These often rely heavily on:
+- mature-node MCU / analog;
+- NOR / SLC NAND;
+- power semiconductors;
+- sensors;
+- long-lived qualified components.
+
+The transmission mechanism is often indirect:
+
+> supplier capital / equipment / engineering / memory product mix shifts toward higher-return AI/server products → mature or long-life lines receive less incremental attention → price, availability and redesign risk rise.
+
+This is not the same as “the car competes for an H100.”
+
+### Class III — High-reliability / defense / aerospace small-volume electronics
+
+Examples:
+- avionics;
+- naval electronics;
+- radar and electronic systems;
+- satellites;
+- launch vehicles;
+- other high-reliability government systems.
+
+These systems often require:
+- trusted supply;
+- radiation tolerance for space;
+- long lifecycle;
+- special qualification;
+- low-volume production;
+- dedicated packaging/test or screening;
+- process continuity.
+
+GAO has explicitly noted a structural mismatch: commercial microelectronics are optimized for high-volume, short-life-cycle markets, while U.S. defense requirements are often low-volume, unique and have little influence on the commercial market. DMEA maintains Trusted Foundry access specifically to guarantee advanced trusted services for typically low-volume government needs.
+
+NASA/JPL likewise documents that space electronics often require special radiation-hardening design/fabrication and mission-specific reliability assurance.
+
+The defensible AI-era mechanism is therefore:
+
+> **commercial AI can worsen the economics of preserving small-volume, long-life, special-process supply even when those systems do not directly use HBM or frontier AI accelerators.**
+
+Do **not** write:
+- “ships cannot be built because NVIDIA took the chips”;
+- “radar competes directly with HBM3E”;
+- “satellites are blocked by AI wafers.”
+
+### Class IV — Physical AI / robotics: hybrid exposure
+
+Robots and automated production systems straddle two worlds:
+
+**mechanical / industrial side**
+- MCU;
+- sensor;
+- actuator;
+- power electronics;
+- motor control;
+- industrial memory.
+
+**AI / edge-compute side**
+- edge accelerator;
+- high-bandwidth memory in some higher-end systems;
+- cloud simulation / training / fleet analytics.
+
+They can therefore be exposed simultaneously to:
+- industrial-electronics supply conditions;
+- AI-edge compute allocation;
+- cloud-side retraining demand.
+
+This makes Physical AI the downstream category with the clearest future overlap between traditional industrial electronics and AI-system economics.
+
+## 3. Why qualification rigidity matters
+
+Automotive evidence makes the point directly.
+
+NXP's S32G vehicle processors carry a **minimum 15-year product-support commitment** through its Product Longevity program.
+
+STMicroelectronics extended selected SPC58 automotive MCUs to a **20-year availability commitment**, with some lines available into 2038–2041.
+
+This means automotive customers optimize not only for unit price and peak performance, but for:
+
+- qualification continuity;
+- long-term supply;
+- functional safety;
+- redesign avoidance;
+- platform lifetime.
+
+Therefore:
+
+> **a traditional customer can be economically important and still be less flexible than an AI buyer when a supplier reallocates capital or capacity.**
+
+## 4. Why high-reliability systems are structurally different
+
+DMEA's Trusted Foundry program exists to provide guaranteed access to advanced trusted microelectronics for **typically low-volume U.S. Government needs**, including prototype and production services.
+
+GAO's defense-microelectronics work highlights:
+
+- rising leading-edge manufacturing capital costs;
+- commercial focus on high-volume markets;
+- short commercial product life cycles;
+- low-volume / unique defense requirements;
+- weak defense influence on commercial market allocation.
+
+NASA/JPL adds a different constraint:
+
+- radiation environment can require special IC design and fabrication;
+- mission electronics must retain function over mission life;
+- qualification and radiation assurance are part of the supply problem.
+
+The correct structural concern is:
+
+> **small-volume strategic electronics can become more expensive to sustain when the commercial semiconductor system optimizes around higher-volume, higher-return AI and consumer/server demand.**
+
+This is a supply-economics problem, not a claim that all strategic systems share one physical semiconductor pool.
+
+## 5. End-system exposure matrix
+
+| End system | Main upstream collision | Publicly visible signal | What can be inferred | What must not be inferred |
+|---|---|---|---|---|
+| Smartphone / PC | leading-edge SoC/GPU, LPDDR/DRAM/NAND, selected packaging | memory pricing, allocation, system prices, node mix | upgrade cost / configuration pressure can rise | smartphone/PC industry disappears |
+| Automotive | long-life MCU/analog/power + selected advanced ADAS compute + memory | product-longevity programs, BOM/memory pressure, long-term SiC supply agreements | redesign and supply-assurance cost matter | all automotive electronics directly competes with AI GPU capacity |
+| Industrial / factory automation | mature-node control, sensors, power, industrial memory + some edge AI | mature-memory pricing, supplier longevity, industrial component lead time | product-mix reallocation can hit BOM/availability | factories stop because AI took advanced wafers |
+| Robotics | industrial control + edge accelerator + cloud retraining | edge platform adoption, memory content, component availability | hybrid exposure to industrial and AI pools | every robot requires frontier HBM |
+| Aviation / high-reliability electronics | trusted / qualified / long-life logic, analog, RF, power, packaging/test | trusted supplier access, product longevity, qualification capacity | small-volume supply economics can worsen | aviation directly competes for AI racks |
+| Radar / defense electronics | trusted microelectronics, RF/power, special qualification, some advanced processing | DMEA/GAO trusted-supply indicators | low-volume strategic demand can lose commercial influence | radar shortage = HBM shortage |
+| Satellite / launch electronics | rad-hard / rad-tolerant logic, memory, power, special test | NASA/JPL radiation assurance and parts-supply indicators | special-process continuity matters | space hardware is blocked by AI memory alone |
+| Naval / long-life platforms | long-life qualified electronics, power, communications, maintenance spares | longevity / trusted-supply / obsolescence indicators | EOL and sustainment risk can rise | a naval platform “needs NVIDIA capacity” |
+
+## 6. Allocation is not a moral ranking
+
+One strategic message should be explicit:
+
+> **Semiconductor allocation does not follow social importance.**
+
+Suppliers respond to:
+- gross margin;
+- volume;
+- contract visibility;
+- prepayment;
+- qualification cost;
+- opportunity cost;
+- capital intensity;
+- strategic policy;
+- customer credit.
+
+Therefore a strategically important but low-volume customer can face worse economics than a commercial AI buyer with:
+- longer commitments;
+- higher willingness to pay;
+- financing support;
+- larger volume;
+- faster capital payback.
+
+This does not mean the supplier is making a political judgment that AI is “more important.”
+
+It means the allocation mechanism is economic unless policy creates a different protected channel.
+
+## 7. The other side of the cycle: resource return can also hurt
+
+If AI workload economics fail to support the installed capital base, the same end systems can face a different problem:
+
+> **resource reflow after clearing.**
+
+Potential effects:
+- memory and accelerator prices fall;
+- specialized AI capacity is impaired;
+- supplier CapEx is cut;
+- equipment orders are canceled;
+- the industry enters inventory and depreciation clearing.
+
+Traditional electronics may regain some purchasing power, but supplier retrenchment can also damage:
+- long-life line support;
+- small-volume specialty capacity;
+- supplier balance sheets;
+- engineering continuity.
+
+So the report should fear both:
+- **crowding during expansion**, and
+- **industrial whiplash during clearing**.
+
+## 8. Link to formal Chapter 21
+
+Formal Chapter 21 already establishes the strongest evidenced transmission for:
+- smartphone;
+- PC;
+- automotive/industrial memory;
+- broadband devices.
+
+This research-side extension adds the missing boundary:
+
+> **the further an end system moves from shared advanced logic / memory into trusted, long-life, rad-hard, RF/power or other special-process electronics, the more indirect the AI crowding mechanism becomes.**
+
+This prevents the report from turning “Cross-Market Resource Reordering” into a universal claim.
+
+## 9. What evidence would justify formal expansion
+
+Before aircraft / naval / radar / satellite / launch systems are added to the frozen formal chapter as AI-affected sectors, require at least one of:
+
+1. supplier or government disclosure linking commercial capacity/equipment allocation to strategic-system access;
+2. lead-time / EOL / trusted-capacity evidence showing deterioration during the AI capital cycle;
+3. project-level evidence of cost/schedule impact traceable to shared semiconductor/packaging/test resources;
+4. measurable competition for engineering, equipment or specialty-fab capacity.
+
+Until then, the formal conclusion should remain:
+
+> **risk mechanism identified; direct AI-attribution not yet established.**
+
+## 10. Sources
+
+- NXP S32G vehicle network processors — minimum 15 years of support: https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32g-vehicle-network-processors%3AS32G-PROCESSORS
+- STMicroelectronics, 2025-09-08 — selected SPC58 automotive MCUs extended to 20-year availability: https://newsroom.st.com/media-center/press-item.html/n4718.html
+- U.S. GAO, **Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain**, 2015: https://www.gao.gov/products/gao-16-185t
+- U.S. DMEA Trusted Access Program Office — Trusted Foundry / Trusted Supplier Program: https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
+- U.S. GAO, **Defense Industrial Base: Actions Needed to Address Risks Posed by Dependence on Foreign Suppliers**, 2025: https://files.gao.gov/reports/GAO-25-107283/index.html
+- NASA JPL, **Space Radiation Effects on Integrated Circuits**: https://parts.jpl.nasa.gov/asic/Appendix.3.html
+- NASA TechPort, **Radiation Hardened High Speed Integrated Circuits Double Data Rate I/O for Extreme Operating Environments**, updated 2026: https://techport.nasa.gov/projects/93719
+- Infineon HiRel supply-longevity program for aerospace / military / defense applications: https://www.infineon.com/products/high-reliability/custom-services/supply-longevity
