@@ -17,7 +17,15 @@
 
 ## 2. ASML 说明设备本身也是 system-level capability
 
-ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；其 High-NA TWINSCAN EXE 平台仍在进入高量产前的客户验证阶段。ASML 表示，到 2025 年末客户已在 High-NA systems 上运行超过 400,000 wafers，并继续推进系统向 high-volume manufacturing qualification。[^1]
+ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；截至 2025 年末，High-NA TWINSCAN EXE 仍主要处在客户 qualification 与 production-readiness 推进阶段。[^1]
+
+但状态已经在 2026 年进一步前移。2026-07-15，ASML 与 Intel Foundry 官方确认：Intel 已在 **Intel 18A 的特定 layers** 上 dual-qualify High-NA EUV，并使用 High-NA 生产部分 Panther Lake / Intel Core Ultra Series 3 产品；这些产品已经进入 high-volume manufacturing，并以与 NXE platform 匹配的 yield 出货。[^8]
+
+这条证据支持的是：
+
+> **High-NA EUV 已经进入真实 high-volume logic production environment。**
+
+它不能推出所有 Intel 18A layers 都依赖 High-NA，也不能推出 TSMC N2 已经采用 High-NA。
 
 这说明先进光刻的战略约束不是一个“单台机器报价”就能描述。真正重要的是：
 
@@ -70,18 +78,66 @@ advanced node 对 contamination、particle、uniformity、defect density 与 lon
 
 ## 5. TSMC 的地理扩张证明“冗余正在发生”，也证明核心集群不会瞬间复制
 
-TSMC 2025 Annual Report 显示：[^4]
+TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 
-- Arizona 第一座 fab 已在 **4Q24** 进入 4 nm volume production；
-- 第二座 Arizona fab 计划生产 3 nm 及更先进技术；
-- 2025 年第三座 Arizona fab 已开始建设，并宣布后续更多 fabs、advanced-packaging facilities 与 R&D expansion；
-- 日本 Kumamoto 第一座 fab 在 2024 年末进入量产，第二座 fab 规划包含 3 nm；
+- Arizona 第一座 fab 已在 **4Q24** 进入 N4 high-volume production；
+- 第二座 fab 的 fab structure 已完成，目标在 **2027H2** 进入 N3 volume production；
+- 第三座 fab 已于 2025 开工，规划 N2 / A16，目标在本十年末进入 volume production；
+- 第四座 fab 与首座 advanced-packaging facility 已在 2026 年进入前期建设；
+- 当前 Arizona 规划已扩展到 **six logic fabs + two advanced-packaging facilities + R&D center**；
+- Japan Kumamoto 第一座 fab 在 2024 年末进入量产，第二座 fab 规划包含 3 nm；
 - Germany Dresden 项目面向 automotive / industrial specialty technologies；
-- Taiwan 仍持续建设 Hsinchu / Kaohsiung 2 nm，并继续投入 leading-edge 与 advanced-packaging facilities。
+- Taiwan 仍持续建设 2 nm 及更先进节点，并扩张 advanced packaging。
 
-这说明 geographic diversification 是真实趋势，但不是“Taiwan cluster 一夜复制到海外”。
+这说明 geographic diversification 是真实趋势，而且正在从单一 logic fab 扩展到 packaging 与 R&D。
+
+但它仍不是“Taiwan cluster 一夜复制到海外”。
 
 不同地区承担的 node、product mix、packaging、workforce、supplier density 与 power/water 条件仍不同。
+
+## 5A. 三种冗余必须分开：Geographic、Supplier、Technology
+
+“美国有 TSMC fab”主要提高的是 **geographic redundancy**。
+
+它并不自动等于：
+
+- foundry supplier redundancy；
+- EDA / equipment redundancy；
+- HBM supplier redundancy；
+- packaging supplier redundancy；
+- design portability。
+
+因此至少要区分三类 resilience：
+
+### Geographic Redundancy
+
+同一技术/供应商在多个地区拥有制造能力。
+
+它降低单一区域中断风险，但仍可能依赖同一公司、同一 process ecosystem 或同一关键设备体系。
+
+### Supplier Redundancy
+
+同一 workload / design 可以在两个或更多 qualified suppliers 之间切换。
+
+这要求：
+
+- process portability；
+- design requalification；
+- packaging compatibility；
+- yield / reliability validation；
+- software / firmware adaptation。
+
+它比“同一供应商跨地区扩产”更难。
+
+### Technology Redundancy
+
+即使某一种设备、process 或 architecture 受限，仍存在另一条可达到可接受 performance / cost 的技术路径。
+
+因此：
+
+> **geographic diversification ≠ true second source ≠ technology independence**
+
+对 frontier AI supply security，真正高价值的是三种冗余能够同时提高，而不是只看 fab 地图是否变得更分散。
 
 ## 6. 政府补贴的作用是降低冗余建设成本，而不是创造即时独立
 
@@ -181,7 +237,9 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 截至 2026 年，公开事实支持一个相对清晰的方向：
 
 - core leading-edge technologies 仍高度集中；
-- geographic redundancy 正在加速；
+- High-NA EUV 已从 qualification 推进到真实 HVM logic production；
+- geographic redundancy 正在加速，并开始覆盖 logic + packaging + R&D；
+- supplier redundancy 的提升速度明显慢于 geographic redundancy；
 - government participation 明显提高；
 - advanced packaging 已被单独列为政策与投资对象；
 - 冗余提高 resilience，同时提高资本与运营成本；
@@ -198,3 +256,5 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 [^5]: U.S. Department of Commerce, TSMC Arizona CHIPS final award, 2024-11, https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
 [^6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
+[^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
+[^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
