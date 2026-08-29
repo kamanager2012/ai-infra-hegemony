@@ -4,13 +4,14 @@
 
 截至 **2026 年 8 月 28 日**，AI 产业最重要的变化已经不再只是 GPU 销量增长，而是**全球先进半导体、存储、封装、数据中心、电力与资本的边际配置逻辑正在被重新排序**。
 
-本报告的核心判断可以压缩为五点：
+本报告的核心判断可以压缩为六点：
 
 1. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
 2. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
 3. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 因此，总供给增长与 smartphone、PC、汽车、工业等市场继续承受价格或配置压力可以同时成立。
 4. **NVIDIA 的优势仍然很强，但竞争已经从“GPU vs ASIC”升级为“system stack vs system stack”。** Google、AWS、Microsoft、Meta 的 custom systems 正在形成第二类完整路线。
-5. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、utilization、power、capital discipline 与中国 parallel stack 的 frontier closure。
+5. **基础设施的长期价值最终必须由可验证工作流产出完成需求侧闭环。** Agent-native Software、Physical AI 与企业自动化能否把 Compute 转化为稳定、可验收、可收费的经济结果，将决定 utilization、monetization 与资本回收。
+6. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、utilization、power、capital discipline、workload economics 与中国 parallel stack 的 frontier closure。
 
 截至当前，公开事实更符合 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 保持强经济性，替代路线正在发展，但尚未消除 HBM、advanced packaging、power 与迁移成本等关键约束。
 
