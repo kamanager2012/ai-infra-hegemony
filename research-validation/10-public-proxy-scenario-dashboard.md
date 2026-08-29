@@ -1,7 +1,33 @@
-# Phase II · Minimum Public-Proxy Scenario Dashboard v0.5
+# Phase II · Minimum Public-Proxy Scenario Dashboard v0.6
 
 > **Status:** Research-side calibration layer; not part of the frozen formal facts.  
 > **Purpose:** turn S1–S4 from a narrative scenario set into an updateable public-proxy state machine without inventing precision that public data cannot support.
+
+## 0. Derived-layer ownership contract v0.6
+
+This dashboard is a **consumer / aggregation layer**, not the authoritative owner of underlying evidence ledgers.
+
+For the financing-related axes:
+
+| Dashboard input | Authoritative evidence owner |
+|---|---|
+| public-credit regime / CMDI / SLOOS | `04A` |
+| hyperscaler corporate headroom / commitment / monetization | `04B` |
+| facility-level project finance / DSCR / refinancing | `04C` |
+| seller / sponsor support activation / step-down | `04D` |
+| financing double-counting / reflexivity taxonomy | `11` |
+| live clearing adjudication | `01A` |
+
+The dashboard may:
+- summarize;
+- cross-confirm;
+- map evidence into scenario relevance.
+
+It must **not** maintain a competing raw-state ledger.
+
+Hard rule:
+
+> **When a Dashboard K description conflicts with 04B/04C/04D, the underlying appendix owns the factual state; Dashboard K owns only the scenario interpretation.**
 
 ## 1. Why this dashboard exists
 
@@ -161,7 +187,7 @@ Refinancing Terms Worsen
 
 ## 6A. Dashboard K — Hyperscaler Capital-Cycle Transmission
 
-The four hyperscaler quarterly pilots in P0-4 can now be converted into one S4 monitoring protocol.
+The four hyperscaler quarterly pilots in `04B` feed Dashboard K as a derived S4 monitoring protocol. `04B` remains authoritative for company-level factual state.
 
 The dashboard does **not** compare firms by a common synthetic CapEx ratio because the accounting identities differ.
 
@@ -217,7 +243,7 @@ It exists to demonstrate the protocol:
 
 ### 6A.3 Cross-confirmation states for Dashboard K
 
-Use three research-side labels only:
+Dashboard K uses three **scenario-aggregation** labels only. These do not replace the company-level descriptive states maintained in `04B`:
 
 **K-A — Expansion / absorption**
 - headroom may compress;
@@ -265,7 +291,7 @@ The key is **cross-signal confirmation and breadth**, not a fixed clock.
 
 ## 6B. Dashboard K borrower extension — project-financed infrastructure
 
-Dashboard K now distinguishes cash-rich hyperscalers from project-financed / neocloud infrastructure.
+Dashboard K also consumes the facility-state evidence maintained in `04C` to distinguish cash-rich hyperscalers from project-financed / neocloud infrastructure.
 
 The latter requires an additional borrower layer:
 
@@ -297,7 +323,7 @@ This is the project-finance equivalent of the hyperscaler six-layer protocol.
 
 ### 6B.2 Refinancing exposure vs realized refinancing stress
 
-Dashboard K now separates two states that must not be conflated.
+`04C` owns the facility facts; Dashboard K only separates two scenario-relevant concepts that must not be conflated.
 
 **Refinancing exposure**
 - large debt balance;
@@ -334,7 +360,7 @@ Therefore:
 
 ### 6B.3 Current research-side borrower state
 
-Current public evidence across CoreWeave, Core Scientific, Nebius, Applied Digital and IREN shows a rapid expansion of financing structures, but not one uniform stress state.
+The latest facility states recorded in `04C` show rapid expansion of financing structures across CoreWeave, Core Scientific, Nebius, Applied Digital and IREN, but not one uniform stress state.
 
 - some facilities are supported by investment-grade customer contracts and long-duration pledged cash flows;
 - some borrowers carry materially higher coupons / concentrated maturities;
