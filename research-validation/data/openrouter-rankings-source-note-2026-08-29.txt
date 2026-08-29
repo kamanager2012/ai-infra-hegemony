@@ -1,0 +1,6 @@
+Source: OpenRouter (openrouter.ai/rankings)
+日榜 as_of: 2026-08-29T18:15:41.402Z  window 2026-07-30 → 2026-08-28
+周榜 as_of: 2026-08-29T18:18:37.192Z  window 2026-07-30 → 2026-08-28
+周榜 date 是 ISO 周的周一；最新一周 2026-08-24 覆盖到 8-28，不满整周。
+token = prompt_tokens + completion_tokens，不同厂牌分词器不可直接横比。
+Licensed under CC BY 4.0。
