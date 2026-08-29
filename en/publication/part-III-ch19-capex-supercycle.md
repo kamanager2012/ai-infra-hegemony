@@ -116,6 +116,24 @@ This report tracks:
 
 Only synchronized deterioration across several classes is sufficient to move from "ROI pressure" toward "Capital Hard Landing."
 
+## 8A. A second-order effect: successful capital expansion raises the future performance hurdle
+
+A distinctive feature of AI infrastructure is that the more successfully capital expands, the higher the next-stage performance hurdle becomes.
+
+The mechanism is:
+
+> **larger installed capital base → higher depreciation and operating cost → higher required utilization → higher monetization requirement**
+
+AI demand can therefore continue growing while returns on incremental capital still fall if the capital base grows faster than demand.
+
+The more useful long-run question is not simply whether AI demand is growing. It is:
+
+> **Is AI-demand growth sufficient to cover AI-capital-base growth?**
+
+That gap helps determine whether the capital cycle continues expanding, normalizes, or moves toward clearing.
+
+---
+
 ## 9. Current judgment
 
 As of August 2026, public data still supports:
@@ -125,6 +143,19 @@ As of August 2026, public data still supports:
 rather than a completed capital-clearing cycle.
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
+
+## 10. What evidence would force this chapter to change its judgment
+
+The thesis that capital expansion remains the dominant regime should be downgraded if the following persist:
+
+- hyperscaler underlying investment expectations decline across multiple reporting periods;
+- data-center / power project cancellations or deferrals rise materially;
+- seller supply commitments contract;
+- third-party infrastructure-capital risk appetite weakens;
+- utilization and monetization lag incremental capital;
+- financing costs or refinancing pressure rise materially.
+
+A single company's accounting reclassification or one quarter of CapEx volatility is not sufficient to establish that the supercycle has ended.
 
 ## References
 
