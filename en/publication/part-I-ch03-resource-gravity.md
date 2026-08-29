@@ -170,7 +170,7 @@ As a result:
 - automotive / industrial transmission is slower and more selective;
 - mature-node products can still be affected indirectly when supplier product mix shifts toward higher-value AI products.
 
-Detailed transmission into terminal pricing, configuration, and replacement cycles belongs in [Chapter 21](../part-III-ch21-consumer-transmission.md). This chapter retains only the resource-allocation mechanism.
+Detailed transmission into terminal pricing, configuration, and replacement cycles belongs in [Chapter 21](part-III-ch21-consumer-transmission.md). This chapter retains only the resource-allocation mechanism.
 
 ---
 
