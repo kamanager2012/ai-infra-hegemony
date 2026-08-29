@@ -16,9 +16,9 @@ Supply security for an accelerator designer is therefore not determined by chip 
 
 ## 2. ASML shows that equipment itself is a system-level capability
 
-ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. Its High-NA TWINSCAN EXE platform remained in customer qualification toward high-volume manufacturing.[^1]
+ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. By the end of 2025, customers had run more than **400,000 wafers** on High-NA systems while qualification continued.[^1]
 
-ASML stated that by the end of 2025 customers had run more than **400,000 wafers** on High-NA systems while work continued toward high-volume-manufacturing qualification.[^1]
+On **July 15, 2026**, ASML announced the first High-NA EUV use in high-volume logic production on select Intel 18A layers for Panther Lake.[^8] That moves High-NA from a qualification-only story into an observed HVM production milestone, while still not implying that High-NA has become universal across leading-edge logic.
 
 The strategic constraint in advanced lithography cannot therefore be captured by a single-machine price.
 
@@ -73,19 +73,66 @@ The relevant materials constraint is therefore not an unsupported market-share s
 
 ## 5. TSMC's geographic expansion shows that redundancy is real—and that the core cluster cannot be copied instantly
 
-TSMC's 2025 Annual Report shows:[^4]
+TSMC's 2025 Annual Report and 2026 Arizona updates show:[^4][^9]
 
-- the first Arizona fab entered **4 nm volume production in 4Q24**;
-- the second Arizona fab is planned for 3 nm and more advanced technologies;
-- construction of the third Arizona fab began in 2025, alongside announced plans for additional fabs, advanced-packaging facilities, and R&D expansion;
+- the first Arizona fab entered N4 high-volume production in **4Q24**;
+- the second Arizona fab structure is complete and targets **3 nm volume production in 2H27**;
+- construction of the third Arizona fab began in 2025, with N2 / A16 planned and volume production targeted around the end of this decade;
+- a fourth fab and the first advanced-packaging facility entered early construction activity in 2026;
+- the current Arizona plan has expanded to **six logic fabs + two advanced-packaging facilities + an R&D center**;
 - the first Kumamoto fab in Japan entered volume production by the end of 2024, while the second fab plan includes 3 nm;
 - the Dresden project in Germany targets automotive / industrial specialty technologies;
-- Taiwan continued building Hsinchu / Kaohsiung 2 nm capacity and investing in leading-edge and advanced-packaging facilities.
+- Taiwan continues building 2 nm and more advanced capacity together with advanced packaging.
 
-Geographic diversification is therefore a real trend. It is not the same as reproducing the Taiwan cluster overnight.
+Geographic diversification is therefore a real trend, and it is extending from logic fabs into packaging and R&D.
+
+It is still not the same as reproducing the Taiwan cluster overnight.
 
 Different regions continue to differ in node mix, product mix, packaging, workforce, supplier density, and power/water conditions.
 
+## 5A. Three kinds of redundancy must remain separate: Geographic, Supplier, and Technology
+
+A TSMC fab in another country mainly increases **geographic redundancy**.
+
+It does not automatically create:
+
+- foundry supplier redundancy;
+- EDA / equipment redundancy;
+- HBM supplier redundancy;
+- packaging supplier redundancy;
+- design portability.
+
+At least three forms of resilience therefore need to be separated.
+
+### Geographic Redundancy
+
+The same technology / supplier operates manufacturing capacity across multiple regions.
+
+This reduces single-region disruption risk while potentially retaining dependence on the same company, process ecosystem, or key equipment base.
+
+### Supplier Redundancy
+
+The same workload / design can move between two or more qualified suppliers.
+
+That requires:
+
+- process portability;
+- design requalification;
+- packaging compatibility;
+- yield / reliability validation;
+- software / firmware adaptation.
+
+This is materially harder than geographic expansion by the same supplier.
+
+### Technology Redundancy
+
+If one equipment class, process, or architecture is constrained, another technical path can still deliver acceptable performance / cost.
+
+Therefore:
+
+> **geographic diversification ≠ true second source ≠ technology independence**
+
+For frontier-AI supply security, the highest-value resilience comes from improving all three forms of redundancy rather than merely making the fab map more geographically distributed.
 ## 6. Government subsidies reduce the cost of redundancy; they do not create instant independence
 
 The U.S. Department of Commerce final CHIPS award for TSMC Arizona includes up to **US$6.6B of direct funding** supporting three leading-edge fabs. Final NAPMP advanced-packaging awards total **US$1.4B**, while Amkor's Arizona advanced-packaging/test facility received up to **US$407M of direct funding**.[^5][^6][^7]
@@ -188,14 +235,15 @@ The real competition is therefore not which country produces every input domesti
 As of 2026, public evidence supports a relatively clear direction:
 
 - core leading-edge technologies remain highly concentrated;
-- geographic redundancy is accelerating;
+- High-NA EUV has moved from qualification into real HVM logic production;
+- geographic redundancy is accelerating and increasingly covers logic + packaging + R&D;
+- supplier redundancy is improving more slowly than geographic redundancy;
 - government participation has increased materially;
 - advanced packaging is now an explicit policy and investment object;
 - redundancy raises resilience while also raising capital and operating cost;
 - overseas fab expansion still needs time to reproduce supplier, workforce, packaging, and infrastructure ecosystems.
 
 The semiconductor supply chain of the next decade is therefore more likely to consist of **highly concentrated core technologies + greater regional redundancy + higher strategic inventories + greater public-capital participation** than to return quickly to a fully dispersed and fully substitutable global market.
-
 ## References
 
 [^1]: ASML, 2025 Annual Report and Strategy & Stories, EUV / High-NA roadmap and system shipments, https://www.asml.com/en/investors/annual-report/2025
@@ -205,3 +253,5 @@ The semiconductor supply chain of the next decade is therefore more likely to co
 [^5]: U.S. Department of Commerce, TSMC Arizona CHIPS final award, 2024-11, https://www.commerce.gov/news/press-releases/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc
 [^6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
+[^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
+[^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
