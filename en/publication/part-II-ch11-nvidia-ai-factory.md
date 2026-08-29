@@ -59,6 +59,21 @@ The structure is:
 
 This raises platform capital efficiency and turns external supply elasticity into part of platform strategy.
 
+## 6A. Asset-light is a relative description, not zero balance-sheet exposure
+
+Transaction structures disclosed in August 2026 show NVIDIA's supply orchestration extending partly into infrastructure capital.
+
+- The company announced compute-financing platforms with large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**.[^5]
+- In PORTS-Pike, NVIDIA is providing credit support for land + power + shell buildout and investing **US$1.5B** in SB Energy.[^6]
+
+NVIDIA has not become a traditional heavy-asset operator that owns every fab, data center, and power asset. But "asset-light platform" can no longer be interpreted as zero infrastructure-financing exposure.
+
+A more precise description is:
+
+> **The platform seeks to keep fabs, data centers, and power assets on external balance sheets while selectively using cash, equity, credit support, and long-duration coordination to accelerate formation of critical infrastructure.**
+
+That can improve Time-to-Capacity, but it can also pull customer-concentration, credit, and duration risk partly back onto the platform.
+
 ## 7. Physical AI is the next system extension, but it cannot be mixed with current Data Center profit
 
 Automotive, robotics, simulation, and edge deployment follow the same system logic: hardware architecture, runtime, simulation, developer tooling, and model deployment form a combined platform.
@@ -103,3 +118,5 @@ The next question is whether system definition can continue to translate into lo
 [^2]: NVIDIA, AI Foundation Models / NeMo, NVIDIA AI Foundry architecture, https://www.nvidia.com/en-us/ai-data-science/foundation-models/
 [^3]: NVIDIA, “Introducing NVIDIA DGX Cloud Lepton,” unified AI platform and compute marketplace, https://developer.nvidia.com/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/
 [^4]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Data Center, networking, platform, and supply-chain disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and US$1.5B SB Energy investment, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
