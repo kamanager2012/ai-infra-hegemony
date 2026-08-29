@@ -22,7 +22,7 @@ AI infrastructure 同时跨越财务、semiconductor、memory、advanced packagi
 - future scenario 被写成 current fact；
 - 同一个二手数字在多个章节重复后，被误认为 multi-source confirmation。
 
-因此，全书使用两套互补框架：
+因此，本报告使用两套互补框架：
 
 > **F → H → M → S → X**
 
@@ -259,7 +259,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 
 ## 11. 本报告核心分析概念
 
-全书保留以下主要概念：
+本报告保留以下主要概念：
 
 - **AI Resource Gravity**；
 - **Scarce-layer Value Capture**；
