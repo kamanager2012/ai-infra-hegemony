@@ -5,7 +5,7 @@
 **研究主题：** 全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构  
 **资料检索与修订截止：** 2026-08-28
 
-本报告以 32 章连续正文分析 AI infrastructure 从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack 与长期产业结构的影响。
+本报告以 32 章连续正文分析 AI 基础设施从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack、Agent-native Software、Physical AI、劳动与人才体系，以及长期产业结构的影响。
 
 报告严格区分已经发生的事实、公司 guidance、机构 forecast、本报告 hypothesis / scenario 与 report-side calculation。研究范围、证据边界和免责声明见[报告说明](00-front-matter.md)。
 
