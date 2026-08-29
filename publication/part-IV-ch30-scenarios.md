@@ -6,7 +6,7 @@
 
 情景由以下变量共同决定：
 
-- advanced-capacity allocation；
+- layer-specific scarce-capacity access；
 - HBM supply；
 - advanced packaging；
 - cloud system-stack substitution；
@@ -16,7 +16,8 @@
 - China parallel stack；
 - regulation；
 - utilization；
-- CapEx / financing discipline。
+- CapEx / financing discipline；
+- demand financing quality / supplier-assisted financing。
 
 ## 2. S1 — Competitive Expansion / 竞争性扩容
 
@@ -74,11 +75,12 @@ demand growth 持续快于 substitution 与 supply expansion，多个 scarce lay
 
 - advanced packaging 长期供不应求；
 - HBM manufacturing intensity / generation constraint 持续；
-- leading-edge incremental capacity 高度集中；
+- advanced logic、HBM、packaging、LPS/power 等多个关键层的 quantity assurance / delivery access 持续向少数买方集中；
 - proprietary software / interconnect migration cost 仍高；
 - cloud custom systems 只能局部分流；
 - powered land / firm MW 被少数大型 buyers 长期锁定；
-- Anchor Buyer 与 seller forward commitments 持续扩大。
+- Anchor Buyer 与 seller forward commitments 持续扩大；
+- infrastructure finance 能持续吸收长期资本，且 workload monetization 足以支撑相关承诺。
 
 ### 机制
 
@@ -101,7 +103,8 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 - hyperscaler CapEx guidance 下调；
 - seller / Anchor Buyer commitments 缩减或取消；
 - used hardware residual value 快速下跌；
-- impairment / write-down 上升。
+- impairment / write-down 上升；
+- customer financing capacity 走弱，同时 supplier equity / credit support 或 refinancing dependency 上升。
 
 ### 清算顺序
 
@@ -124,8 +127,8 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 |---|---|---|---|
 | S1 — Competitive Expansion | supply elasticity、multi-sourcing、portability 上升 | value capture 更分散，buyer optionality 提高 | scarce-layer tightness 重新强化、migration cost 回升 |
 | S2 — Baseline Concentration | demand 强、dominant platforms 强、替代持续但不完全 | 高增长与集中并存 | supply/substitution 明显改善或 ROI/commitments 同步恶化 |
-| S3 — Resource Hegemony | 多层 scarcity + switching cost + forward reservation 强化 | incremental capacity 更集中，后来者复制成本提高 | capacity access 分散、open interfaces 显著降低迁移成本 |
-| S4 — Capital Hard Landing | utilization / monetization 弱于资本基数 | clearing、orders、CapEx 与资产价值下行 | utilization、clearing price 和 forward commitments 恢复 |
+| S3 — Resource Hegemony | 多层 scarcity + switching cost + forward reservation / financing coordination 强化 | layer-specific capacity access 更集中，后来者复制成本提高 | capacity access 分散、open interfaces 显著降低迁移成本 |
+| S4 — Capital Hard Landing | utilization / monetization 弱于资本基数，且 demand financing quality 恶化 | clearing、orders、CapEx 与资产价值下行，refinancing pressure 上升 | utilization、clearing price、financing independence 和 forward commitments 恢复 |
 
 **Source:** 本报告 S1–S4 scenario framework。  
 **Note:** 四类情景是并列条件状态，不赋固定概率，也不是必然连续阶段。
@@ -160,21 +163,26 @@ token/workflow volume、enterprise adoption、Anchor Buyer commitments、soverei
 
 ### Finance
 
-seller cash generation、hyperscaler CapEx、depreciation、utilization、financing cost、residual value。
+seller cash generation、hyperscaler CapEx、third-party infrastructure capital、Anchor Buyer contract quality、supplier equity / credit support、depreciation、utilization、financing cost、residual value。
 
 ### Regulation / Geopolitics
 
 export control、antitrust remedy、interface openness、industrial policy、regional fragmentation。
 
-## 7. Anchor Compute Buyer 是新的情景变量
+## 7. Anchor Compute Buyer 与 Financing Reflexivity 是新的情景变量
 
 大型 model companies 的多年 compute commitments 已经可以影响 infrastructure financing、custom silicon、power 与 data-center buildout。
 
-如果 Anchor Buyer Demand 持续扩大并兑现 utilization，S2/S3 权重提高。
+但 2026 年的新变化是，system seller 也开始通过 equity、credit enhancement、LPS support 与 compute-financing platforms 参与资本形成。[^7][^8]
 
-如果长期 commitments 大规模改期、重谈或利用不足，S4 权重明显提高。
+因此需要同时观察两个方向：
 
-所以 model-company contracts 不能再被当作普通 cloud customer spending。
+- **健康扩张**：Anchor Buyer demand、third-party capital、seller support 与真实 utilization / monetization 同步增长；
+- **融资反身性恶化**：customer cash generation 走弱，但 seller equity / credit support 与 refinancing dependency 持续上升。
+
+前者可以强化 S2/S3 的 infrastructure coordination；后者则提高 S4 风险。
+
+所以 model-company contracts 与 seller-supported financing 都不能被当作普通 cloud customer spending。
 
 ## 8. S2 → S1 的可观察信号
 
@@ -190,7 +198,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - seller forward commitments 持续快速扩大；
 - HBM / packaging tightness 跨代持续；
 - proprietary system switching cost 上升；
-- leading-edge incremental supply 持续高集中；
+- 多个关键 scarce layers 的 quantity assurance / delivery access 持续向少数买方集中；
 - scarce power / powered land 被少数 anchor buyers 长期锁定；
 - alternative stacks 无法在 production scale 形成足够选择权。
 
@@ -202,7 +210,8 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - second-hand system clearing price 快速下跌；
 - cloud discounts / lease rates 明显恶化；
 - impairment 增加；
-- enterprise AI monetization 长期弱于 depreciation / operating cost。
+- enterprise AI monetization 长期弱于 depreciation / operating cost；
+- supplier equity / credit support 占比上升，而独立 customer financing / third-party risk-taking 走弱。
 
 ## 11. 为什么 S1、S2、S3、S4 不是顺序阶段
 
@@ -225,7 +234,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - cloud custom systems 已形成真实竞争，但尚未证明全面替代 frontier workload；[^4]
 - infrastructure CapEx 与 forward commitments 仍高；[^5]
 - power constraint 上升；[^6]
-- China parallel stack 尚未在所有 frontier critical layers 形成等价闭环；
+- China 已形成真实 production-grade substitution 路径，但 autonomous frontier closure 尚未在所有 critical layers 得到规模化证明；
 - 全行业 Capital Hard Landing 的同步证据尚不足。
 
 这条 baseline 只在上述事实组合继续成立时有效。
@@ -250,6 +259,8 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 [^4]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 [^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^6]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
 ## 交叉引用
 
