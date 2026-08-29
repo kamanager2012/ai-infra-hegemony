@@ -4,13 +4,14 @@
 
 As of **August 28, 2026**, the most important change in AI is no longer simply the growth of GPU shipments. The more consequential shift is that the **marginal allocation of advanced semiconductors, memory, packaging, data centers, power, and capital is being reordered around AI infrastructure**.
 
-The report's core judgment can be compressed into five points:
+The report's core judgment can be compressed into six points:
 
 1. **The competitive unit has moved from the individual chip to the full system stack.** Competitiveness now depends on whether advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads can operate as a stable system.
 2. **AI/HPC is changing where the next dollar of capital goes.** When AI workloads offer greater willingness to pay, longer order duration, stronger financing capacity, and higher expected returns, incremental capital and scarce resources are more likely to move toward AI infrastructure.
 3. **Traditional end markets face residual capacity, not gross global capacity.** Total supply can rise while smartphones, PCs, automotive, and industrial markets still face price, allocation, or configuration pressure.
 4. **NVIDIA remains exceptionally strong, but the competition is no longer GPU versus ASIC; it is system stack versus system stack.** Google, AWS, Microsoft, and Meta are building credible second-stack paths.
-5. **The future is neither a single continuation-of-boom story nor a single bubble-collapse story.** The 2026–2036 path will be determined by supply elasticity, system substitution, utilization, power, capital discipline, financing quality, and the maturity of China's parallel stack.
+5. **Infrastructure only completes the demand-side loop when it produces verifiable, repeatable, monetizable workflow outcomes.** Agent-native software, Physical AI, and enterprise automation ultimately have to convert compute into accepted economic output that can sustain utilization and capital recovery.
+6. **The future is neither a single continuation-of-boom story nor a single bubble-collapse story.** The 2026–2036 path will be determined by supply elasticity, system substitution, utilization, power, workload economics, capital discipline, financing quality, and the maturity of China's parallel stack.
 
 The current public-evidence mix is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths continue to develop without yet eliminating HBM, advanced-packaging, power, and migration constraints.
 
