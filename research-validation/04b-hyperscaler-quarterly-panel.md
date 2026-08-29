@@ -1,6 +1,6 @@
 # P0-4B · Hyperscaler Quarterly Capital-Intensity Panel v0.2
 
-> Extracted from P0-4 v0.17. Company accounting identities remain intentionally non-harmonized where definitions differ.
+> Initially extracted from P0-4 v0.17; the parent method is now v0.18. Company accounting identities remain intentionally non-harmonized where definitions differ.
 
 ## Scope contract v0.2
 
