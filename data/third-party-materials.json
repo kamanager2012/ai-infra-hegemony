@@ -1,15 +1,15 @@
 {
   "version": "2026-08-28",
   "scope": "publication/ and en/publication/ only",
-  "policy": "Every embedded image or other third-party media asset in the formal Publication Layer must have a rights record before release. The current Publication Layer intentionally embeds no third-party raster/vector figures; source data are presented as report-authored tables with citations.",
+  "policy": "Every embedded image or other third-party media asset included in the formal 32-chapter report must have an explicit rights/provenance record. The current report intentionally embeds no third-party raster/vector figures; source data are presented as report-authored tables with citations.",
   "assets": [],
-  "last_publication_rights_audit": {
+  "last_rights_review": {
     "date": "2026-08-28",
-    "publication_files_checked": 78,
+    "files_checked": 78,
     "embedded_third_party_media": 0,
     "long_inline_quoted_passages_over_25_words": 0,
-    "long_blockquotes_reviewed": "All >25-word Markdown blockquotes in the formal Publication Layer were reviewed as report-authored analytical callouts/mechanism summaries, not reproduced third-party prose.",
-    "result": "PASS for current formal Publication Layer",
-    "boundary": "Any future embedded third-party image, figure, iframe, or long reproduced quotation must reopen the rights gate and add an explicit rights/provenance record."
+    "long_blockquotes_reviewed": "Markdown blockquotes over 25 words were reviewed as report-authored analytical callouts/mechanism summaries rather than reproduced third-party prose.",
+    "result": "No embedded third-party media identified in the current formal report.",
+    "boundary": "Any future embedded third-party image, figure, iframe, or long reproduced quotation requires a fresh rights/provenance review before it is included in the formal report."
   }
 }
