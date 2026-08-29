@@ -29,7 +29,8 @@
 - **P0-4 Macro-Financial Transmission**：v0.1 已建立；把 rates / spreads / SLOOS / WACC / project finance / refinancing 接入资本周期与 S4；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
-- **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界。
+- **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
+- **Decision Invariants**：v0.1 已建立；从 Chapter 31 的条件化战略中提炼跨 S1–S4 都成立的低后悔决策原则。
 
 ## 文件索引
 
@@ -41,13 +42,15 @@
 - [05 · Geopolitical Scenario Layer](05-geopolitical-scenario-layer.md)
 - [06 · Conditional Timeline](06-conditional-timeline.md)
 - [07 · Downstream Empirical Chains](07-downstream-empirical-chains.md)
+- [08 · Decision Invariants](08-decision-invariants.md)
 
 ## 下一阶段
 
 优先继续深化而不是扩题：
 
-1. P0-1 增加样本与 first-deterioration / cross-confirmation / accounting-confirmation timing；
+1. P0-1 继续增加**独立周期**与 first-deterioration / cross-confirmation / accounting-confirmation timing；2001–2003 semiconductor 已作为同一 2000–2002 大周期下的独立 physical-layer observation 纳入，但不重复计算为独立宏观 episode；
 2. P0-2 读取并复核 NBER estimation specification，建立可用 price-event catalog；
 3. P0-3 开始填充真实 workflow benchmark 表；
 4. P0-4 建季度 macro-financial panel，并映射主要 AI-infrastructure 项目的融资结构；
-5. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
+5. 对 Decision Invariants 做 cross-scenario falsification：凡是只在某一情景成立的原则降回 conditional strategy；
+6. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
