@@ -74,7 +74,7 @@ PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它�
 需要观察：
 
 - 哪些地区形成 **power + data center + chip access + software / talent** 的组合优势；
-- China parallel stack 是否跨过多个 frontier closure gates；
+- China production-grade parallel stack 是否扩大，以及 autonomous frontier closure 是否跨过更多 upstream / infrastructure gates；
 - sovereign AI 是否形成多个 regional system ecosystems；
 - supply chain 是继续跨区域互补，还是长期分区；
 - advanced manufacturing redundancy 是否真正获得 qualified second-source capability。
@@ -148,29 +148,32 @@ logic、HBM、packaging、software / interconnect 与 power 的协调能力进�
 - utilization；
 - second-hand / lease price；
 - enterprise AI monetization；
-- infrastructure financing terms。
+- infrastructure financing terms；
+- supplier equity / credit support；
+- refinancing dependency / third-party risk capital。
 
 技术 timeline 与 capital timeline 必须在同一表中读取。
 
 ## 9. Power Milestones
 
-power 统一使用：
+power / LPS 统一使用：
 
-> **Announced → Contracted → Permitted → Energized → Utilized**
+> **Announced → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized**
 
-Crane、Talen/AWS、Kairos/Google 等项目都必须按当前 state 更新，不能在合同签署时直接标记为 AI power online。
+Crane、Talen/AWS、Kairos/Google、PORTS-Pike 等项目都必须按当前 state 更新，不能在合同签署、LPS secured 或 design-capacity 公布时直接标记为 AI power online。Generation MW/GW、PPA capacity 与 IT-GW 也不能机械互换。
 
 尤其 Talen 2026 Q2 10-Q 的 April-2026 revised-PPA transition 状态，不等于全部物理转换或 full delivery 已完成；较早 2025 10-K 的 spring-2027 full-transition expectation 与 no-later-than-2032 ramp 仍提供物理时钟背景。[^5]
 
-## 10. 三个决定未来结构的临界点
+## 10. 四个决定未来结构的临界点
 
-未来十年真正决定 S1–S4 的不是某一个年份，而是三个 threshold：
+未来十年真正决定 S1–S4 的不是某一个年份，而是四个 threshold：
 
 1. **System substitution 是否跨过 production frontier-workload threshold；**
 2. **Scarce-layer supply 是否跨过 durable-abundance threshold；**
-3. **AI workload monetization 是否跨过 capital-cost coverage threshold。**
+3. **AI workload monetization 是否跨过 capital-cost coverage threshold；**
+4. **基础设施是否能够从 sponsor / seller-supported financing 过渡到更独立、可持续的 long-duration capital structure。**
 
-只要这三个临界点没有同时明朗，2036 就应继续被视为条件截面，而不是确定答案。
+只要这些临界点没有同时明朗，2036 就应继续被视为条件截面，而不是确定答案。
 
 ## References
 
