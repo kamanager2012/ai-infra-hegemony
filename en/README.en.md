@@ -1,117 +1,246 @@
 # The Age of AI Infrastructure Hegemony
 
-An industry research corpus with **40 stable volume modules + 8 macro essays**. The English Publication Layer is now synchronized at **32/32 chapters** across all four parts: Part I 9/9, Part II 9/9, Part III 8/8, and Part IV 6/6.
+**Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital**
 
-The Chinese research corpus remains the source of truth: [中文主目录](../README.zh-CN.md). The repository root [README](../README.md) is the English-first release landing page.
+A long-form industry research report on AI infrastructure, semiconductors, cloud systems, capital formation, and industrial strategy.
 
-**Research rule:** facts must be sourced; forecasts remain labeled as hypotheses, mechanisms, scenarios, or stress tests. Revenue share is not wafer share. Contracted MW is not energized load. Guidance is not actual performance.
+**Retrieval and revision cutoff: August 28, 2026**
 
-**Retrieval and revision cutoff: 2026-08-28.** The repository is in private publication-preparation mode. Original report text is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. Commercial use is not permitted; redistribution is limited to unadapted material under the license terms with attribution, and adapted or derivative versions may not be shared. See [LICENSE](../LICENSE).
+[Read the 32-chapter English report](publication/README.md) · [Executive Summary](publication/part-I-ch01-executive-summary.md) · [Master Judgment](publication/part-IV-ch32-master-judgment.md) · [中文](../README.zh-CN.md)
+
+---
+
+## What this report studies
+
+AI competition is moving from "who has the faster accelerator" toward the full **system stack**:
+
+> **advanced logic + HBM + advanced packaging + interconnect + compiler/runtime + rack/data center + power + capital + workload**
+
+The report examines how that shift changes:
+
+- competition between NVIDIA and hyperscaler custom systems;
+- resource allocation across TSMC, HBM, and advanced packaging;
+- where the next semiconductor and infrastructure capital dollar goes;
+- power, LPS, and Time-to-Power as deployment constraints;
+- model companies evolving from cloud tenants into Anchor Compute Buyers;
+- residual supply available to smartphones, PCs, automotive, and industrial markets;
+- China's production-grade parallel stack and autonomous frontier closure;
+- AI-infrastructure CapEx, depreciation, financing, and capital clearing;
+- Agent-Native Software, Physical AI, labor, and talent systems;
+- conditional industrial states for 2026–2036.
+
+---
 
 ## Core findings
 
-- **Competition is moving from chips to system stacks.** The relevant unit now includes advanced logic, HBM, advanced packaging, scale-up/scale-out interconnect, compilers/runtimes, racks/pods, data centers, and power.
-- **NVIDIA remains exceptionally strong, but the counterfactual is no longer “one GPU versus one ASIC die.”** Official FY27 Q2 results report **US$96,221 million = US$96.221 billion** of revenue, **US$89.0 billion** of Data Center revenue, **75.0%** GAAP gross margin, and **US$63.734 billion** of GAAP operating income; Vera Rubin was in full production. [NVIDIA official FY27 Q2 results](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx). Hyperscaler system-stack evidence includes Google [Ironwood](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/), AWS [Trn3 UltraServers / Trainium3](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/), Microsoft [Maia 200](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/), and Meta [MTIA 300](https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/).
-- **Total supply growth does not equal recovery for non-AI industries.** The report tracks **Non-AI Residual Capacity** after AI and other priority demand absorb the increment.
-- **HBM has a first-party physical tradeoff.** Micron disclosed that HBM3E requires roughly **3× the wafer supply of DDR5/D5** at the same technology node and bit capacity. This is a wafer-supply trade ratio, not a price multiple. [Micron FY24 Q2 prepared remarks](https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf).
-- **Model companies can become Anchor Compute Buyers.** OpenAI [Stargate](https://openai.com/index/announcing-the-stargate-project/) and Anthropic's [up-to-5-GW AWS agreement](https://www.anthropic.com/news/anthropic-amazon-compute?lang=us) show how long-duration model demand can influence chips, data centers, power, cloud capacity, and financing.
-- **Power is an independent physical constraint.** Public anchors include approximately **120 kW** GB200/GB300 NVL72 rack power ([NVIDIA](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html)), approximately **835 MW** for the Constellation/Microsoft Crane restart ([Constellation](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs)), up to **1,920 MW** in the revised Talen/AWS PPA with the 2026 Q2 filing stating that the revised-PPA transition occurred in April 2026; that status is not treated as proof that every physical transition or delivery step was complete ([SEC](https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm)), and up to **500 MW** in the Google/Kairos agreement ([Google](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/)). Contracted MW is not energized or utilized load.
-- **AI software must be analyzed through unit economics rather than inherited SaaS-margin assumptions.** Inference, retrieval/storage, tools/APIs, human review, and AI-specific cloud cost all matter.
-- **The future is modeled as states rather than one prophecy:** **S1 Competitive Expansion, S2 Baseline Concentration, S3 Resource Hegemony, S4 Capital Hard Landing**.
+### 1. The competitive unit has moved from the chip to the system stack
 
-### Historical fact gate
+NVIDIA's current advantage cannot be explained by GPU benchmarks or market share alone.
 
-An already-observed claim may enter **F — Fact** only if it is publicly verifiable. Financial figures must retain period, accounting basis, original units, and denominators. Conversions must be mechanically checkable: **US$96.221B = US$96,221M**. Preserve the source unit when it is already clear instead of introducing unnecessary localized conversions. If a historical number lacks a public source, it must be removed or downgraded from F. Institutional estimates must retain the institution name and evidence grade. Forward-looking values are permitted only when explicitly labeled as hypotheses, model outputs, stress tests, or scenarios.
+Competition now spans compute, memory, interconnect, software, rack architecture, data centers, and power. Google Ironwood, AWS Trainium3, Microsoft Maia, Meta MTIA, and AMD Instinct/ROCm are also moving toward fuller system stacks.
 
-## Start here
+The long-run question is not:
 
-1. [Master Judgment](总判.en.md)
-2. [Volume 01 — Executive Summary and Core Judgments for the Next Decade](vol-01.en.md)
-3. [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
-4. [Core Evidence Ledger](核心证据台账.en.md)
-5. [Core Source Index](核心参考文献索引.en.md)
-6. [Core Concepts and Model Index](核心概念与模型索引.en.md)
-7. [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
-8. [Mechanism Index](机制索引.en.md)
-9. [English Publication Layer — 32/32 chapters](publication/README.md)
-10. [Publication Architecture — four parts / 32 chapters](PUBLICATION_STRUCTURE.md)
-11. [X / social launch drafts](SHARE.md)
+> Who owns the fastest chip?
 
-> **English publication-layer status:** all **32/32 publication chapters** are synchronized across four parts. The 40 English volume modules and 8 macro essays remain the stable research layer for traceability, evidence review, and bilingual synchronization. Final publication work now focuses on dead-link rescans, deep-source verification, denominator consistency, cross-language regression, and PDF/e-book layout.
+It is:
+
+> **Who can continuously deliver complete systems to real workloads with lower migration cost, high utilization, and reliable supply?**
+
+### 2. AI is changing where the next semiconductor capital dollar goes
+
+TSMC's 2Q26 HPC platform represented **66%** of revenue, while advanced technologies at 7 nm and below represented **77%** of wafer revenue. These are revenue-mix measures, not AI wafer share, but they show that HPC has become one of the central marginal drivers of advanced-manufacturing capital formation.
+
+The report describes this as a **Two-Speed Semiconductor Economy**:
+
+> The AI Infrastructure Economy and the Traditional Device Economy share upstream resources, but differ in willingness to pay, order duration, prepayment capacity, and the ability to induce new capital formation.
+
+### 3. Total supply growth does not mean traditional industries receive more supply
+
+The report uses **Non-AI Residual Capacity**:
+
+```text
+NonAI_Residual
+= Effective_Supply
+- AI_Absorption
+- Other_Priority_Demand
+```
+
+Global wafer, DRAM, or packaging capacity can rise while smartphones, PCs, automotive, and industrial buyers still face higher prices, weaker allocation, or slower configuration upgrades.
+
+### 4. HBM manufacturing intensity cannot be inferred from bit share alone
+
+Micron disclosed that, under **same technology node / same number of bits** conditions, HBM3E requires approximately **3× the wafer supply of DDR5**.
+
+This is a manufacturing-input trade ratio, not a price multiple and not a permanent constant for every HBM generation.
+
+TrendForce's estimate that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply** remains a **2026E institutional forecast**, not a full-year actual.
+
+### 5. Advanced Packaging and Power are independent constraints
+
+TSMC has explicitly stated that advanced-packaging tightness can limit customer growth.
+
+High-density AI systems also push scarcity into:
+
+- powered land;
+- grid interconnection;
+- substations;
+- cooling;
+- firm power;
+- permitting.
+
+The 2026-08-17 PORTS-Pike project extends this further into **land + power + shell (LPS)**. NVIDIA disclosed credit support for an initial **4.25 IT-GW** design capacity with OpenAI as the customer, with phased delivery planned from 2028.
+
+The report strictly separates:
+
+> **secured / contracted capacity ≠ energized capacity ≠ utilized AI load**
+
+and also:
+
+> **IT-GW ≠ generation GW ≠ PPA capacity**
+
+### 6. Model companies are becoming Anchor Compute Buyers
+
+OpenAI Stargate and Anthropic/AWS show that leading model companies are no longer simply renting whatever cloud capacity already exists.
+
+Long-duration model demand can create:
+
+> **revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
+
+The same mechanism can also raise customer-concentration and duration risk.
+
+### 7. Capital competition is expanding beyond corporate CapEx
+
+On 2026-08-10, NVIDIA announced AI compute-infrastructure financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting **more than US$500B of third-party capital mobilization over time**.
+
+This is a mobilization target, not funded, committed, or deployed capital.
+
+The development matters because AI compute is increasingly being structured as a long-duration infrastructure-finance asset, not merely purchased through hyperscaler corporate CapEx.
+
+### 8. China must be assessed through two levels of closure
+
+China has moved beyond the stage of having no substitute system, but two different questions must be kept separate.
+
+**Production-Grade Parallel Stack** asks whether a substitute system can run real production workloads across:
+
+- accelerator / compute;
+- HBM-class or equivalent memory subsystem;
+- advanced packaging;
+- high-speed interconnect;
+- compiler/runtime;
+- production workload;
+- utilization, reliability, and economics.
+
+**Autonomous Frontier Closure** asks whether the stack can continue scaling across generations when critical external inputs are constrained, which additionally requires:
+
+- advanced-manufacturing continuity;
+- equipment / materials / software / service;
+- cross-generation process upgrades;
+- durable HBM / packaging / LPS / power / capital formation.
+
+Import dependence does not mean there is no production-grade parallel stack. Conversely, production deployment does not prove autonomous frontier closure.
+
+### 9. The current evidence mix is closest to S2 — Baseline Concentration
+
+The report uses four conditional states rather than one 2036 point forecast:
+
+- **S1 — Competitive Expansion**
+- **S2 — Baseline Concentration**
+- **S3 — Resource Hegemony**
+- **S4 — Capital Hard Landing**
+
+As of August 2026, the evidence mix is closest to **S2**:
+
+> **high growth, high concentration, and credible substitution paths coexist.**
+
+---
 
 ## Research method
 
-The report uses one causal and evidentiary chain:
+The report uses:
 
-**F — Fact → H — Hypothesis → M — Mechanism → S — Scenario → X — Falsification**
+> **F → H → M → S → X**
 
-Evidence grades are kept separate from scenario confidence. First-party evidence, institutional research, supply-chain estimates, and report-side stress tests are not collapsed into one confidence level.
+- **F — Fact:** observed and publicly verifiable;
+- **H — Hypothesis:** a future input condition;
+- **M — Mechanism:** the causal transmission between variables;
+- **S — Scenario:** a future state created by a set of conditions;
+- **X — Falsification:** evidence strong enough to force the judgment to change.
 
-## Research-module index: forty stable volumes
+Evidence is also separated into:
 
-> These numbers are stable research IDs, not the final publication order. Use [PUBLICATION_STRUCTURE.md](PUBLICATION_STRUCTURE.md) for continuous reading.
+- **A:** first-party / formal evidence;
+- **B:** institutional / academic research;
+- **C:** sell-side / supply-chain / media estimate;
+- **D:** report-side calculation / sensitivity / scenario input.
 
-1. [Executive Summary and Core Judgments for the Next Decade](vol-01.en.md)
-2. [NVIDIA Platform Dominance and the System-Stack Moat](vol-02.en.md)
-3. [AI Resource Gravity and Non-AI Residual Capacity](vol-03.en.md)
-4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](vol-04.en.md)
-5. [HBM, the Memory War, and AI Supply-Chain Restructuring](vol-05.en.md)
-6. [Model-Company Unit Economics, Algorithmic Efficiency, and Open-Source Competition](vol-06.en.md)
-7. [NVIDIA Vertical Expansion and AI Factory Control](vol-07.en.md)
-8. [The AI-Infrastructure Supercycle, CapEx, and Depreciation Pressure](vol-08.en.md)
-9. [Transmission from AI Infrastructure into the Physical Supply Chain](vol-09.en.md)
-10. [Four Standard AI-Infrastructure Scenarios for the Next Decade](vol-10.en.md)
-11. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](vol-11.en.md)
-12. [U.S.–China AI Supply-Chain Competition and China's Parallel Stack](vol-12.en.md)
-13. [The AI Energy War — From 120 kW Racks to GW-Scale Power Commitments](vol-13.en.md)
-14. [AI Infrastructure Value-Capture Map — Who Captures Profit and Who Bears Residual Pressure](vol-14.en.md)
-15. [The 2036 AI-Infrastructure Endgame — System Stacks, Resources, and Power](vol-15.en.md)
-16. [Quantitative Framework for AI Infrastructure — Compute, Memory, Packaging, and Capacity](vol-16.en.md)
-17. [Ultimate Risks in AI Infrastructure — Physical, Capital, Substitution, and Institutional Constraints](vol-17.en.md)
-18. [Research Methodology and Evidence Architecture](vol-18.en.md)
-19. [2026–2036 AI-Infrastructure Timeline and Milestones](vol-19.en.md)
-20. [Strategic Implications — How Firms, Capital, and States Should Respond](vol-20.en.md)
-21. [AI-Infrastructure Capital Flows and Profit-Pool Structure](vol-21.en.md)
-22. [Consumer Electronics — DRAM Residual Capacity, PCs, and Smartphone Cost Transmission](vol-22.en.md)
-23. [HBM4, Logic Base Dies, and Memory Capital Density](vol-23.en.md)
-24. [Advanced Packaging, CoWoS, and AI-System Delivery Bottlenecks](vol-24.en.md)
-25. [Hyperscaler System-Stack Competition](vol-25.en.md)
-26. [Model Companies, Anchor Compute Buyers, and Infrastructure Co-Build](vol-26.en.md)
-27. [Agent-Native Software and AI Software Unit Economics](vol-27.en.md)
-28. [Physical AI and the Real Bottlenecks in Robotics](vol-28.en.md)
-29. [System-Level Assessment of China's Frontier AI Parallel Stack](vol-29.en.md)
-30. [The Depreciation Wall, Capital Clearing, and Long-Run Industry Structure](vol-30.en.md)
-31. [Core Indicators and Evidence-Monitoring Framework](vol-31.en.md)
-32. [NVIDIA Full-Stack Architecture — GPU, NVLink, CUDA/PTX, and Rack-Scale Systems](vol-32.en.md)
-33. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](vol-33.en.md)
-34. [Restructuring the Global Semiconductor Supply Chain — Equipment, Materials, Manufacturing, and Geopolitical Redundancy](vol-34.en.md)
-35. [AI Power Constraints — 835 MW, 1.92 GW, and 500 MW Across Three Delivery Paths](vol-35.en.md)
-36. [AI Infrastructure Capital Markets — Asset Duration, Financing Structure, and Sovereign Capital](vol-36.en.md)
-37. [AI Infrastructure Bubble Detection and Market-Clearing Framework](vol-37.en.md)
-38. [AI and Labor Markets — From Task Exposure to Job Restructuring](vol-38.en.md)
-39. [Education and Talent Systems in the AI Era — From Model Use to Systems Engineering](vol-39.en.md)
-40. [Final Strategic Synthesis — Individuals, Firms, Capital, and States](vol-40.en.md)
+Core rule:
 
-## Macro research essays — integrated into the publication layer
+> **Observed facts must be accurate. Future analysis can be bold, but its conditions, denominators, evidence identity, and falsification criteria must remain explicit.**
 
-> These remain synthesis assets. Their unique evidence, formulas, and cross-volume arguments will be merged into the corresponding publication chapters rather than appended as a second long-form block.
+---
 
-1. [Macro Essay 1: The Means-of-Production Shift and the Overall Judgment](part2-01.en.md)
-2. [Macro Essay 2: Platform Concentration and NVIDIA's Hardware–Software System Power](part2-02.en.md)
-3. [Macro Essay 3: Physical Manufacturing Limits and the Global Semiconductor Supply Contest](part2-03.en.md)
-4. [Macro Essay 4: Hyperscaler CapEx, System-Stack Counterattack, and DeepSeek's Architecture-Driven Cost Reduction](part2-04.en.md)
-5. [Macro Essay 5: Resource Reallocation and Cost Transmission into Consumer Electronics and the Real Economy](part2-05.en.md)
-6. [Macro Essay 6: The Energy War and Physical Grid Constraints](part2-06.en.md)
-7. [Macro Essay 7: The Capital Supercycle, Bubble Mechanisms, and Extreme Stress Tests](part2-07.en.md)
-8. [Macro Essay 8: U.S.–China Compute Competition and the 2036 Endgame Decision Tree](part2-08.en.md)
+## Reading paths
 
-## Core research infrastructure
+### Fastest path
 
-- [Research Methodology and Evidence Grading](研究方法与证据分级.en.md)
+1. [Chapter 1 — Executive Summary](publication/part-I-ch01-executive-summary.md)
+2. [Chapter 32 — Master Judgment](publication/part-IV-ch32-master-judgment.md)
+3. [Chapter 30 — S1–S4 Scenarios](publication/part-IV-ch30-scenarios.md)
+
+### Full report
+
+- [32-chapter English report](publication/README.md)
+- [Scope and Evidence Boundaries](publication/00-front-matter.md)
+- [List of Tables](publication/02-list-of-tables.md)
+- [Abbreviations and Core Glossary](publication/03-abbreviations-and-glossary.md)
+- [Research Transparency, Limitations, and Correction Policy](publication/04-research-transparency.md)
+- [Competitive Set, Substitution Paths, and Counter-Evidence Matrix](publication/05-competitive-evidence-matrix.md)
+
+### Evidence and methodology
+
+- [Chapter 27 — Research Method and Evidence Architecture](publication/part-IV-ch27-research-method.md)
 - [Core Evidence Ledger](核心证据台账.en.md)
 - [Core Source Index](核心参考文献索引.en.md)
 - [Core Concepts and Model Index](核心概念与模型索引.en.md)
-- [Core Hypothesis Matrix (2026–2036)](核心假设矩阵.en.md)
-- [Mechanism Index](机制索引.en.md)
+- [Core Hypothesis Matrix](核心假设矩阵.en.md)
 
-For the latest research conclusions, use `main`.
+---
+
+## Evidence boundaries that must not be crossed
+
+Unless direct evidence exists, the report does not infer:
+
+- revenue share → wafer share;
+- customer revenue → CoWoS allocation;
+- HBM demand share → actual packaging allocation;
+- contracted / secured capacity → energized / utilized load;
+- IT-GW → generation GW;
+- company-wide CapEx → AI hardware CapEx;
+- model-training compute → full corporate R&D cost;
+- occupational exposure → unemployment;
+- conventional DRAM / NAND capability → HBM closure;
+- production-grade substitution → autonomous frontier closure;
+- foundry revenue share → frontier-AI capability.
+
+Facts that appear after the research cutoff are new research inputs. They are not retroactively treated as facts that were already known by August 28, 2026.
+
+---
+
+## Disclaimer
+
+This report is for industry research and information exchange. It does not constitute:
+
+- investment advice;
+- a securities rating;
+- legal advice;
+- an audit opinion;
+- a guaranteed forecast or trading recommendation.
+
+Future judgments can change as technology, demand, capital, regulation, geopolitics, and supply evolve.
+
+## Copyright and citation
+
+Original research text is governed by the repository [LICENSE](../LICENSE). Third-party material remains subject to the rights and licenses of its respective owners.
+
+Citation metadata is available in [CITATION.cff](../CITATION.cff).
