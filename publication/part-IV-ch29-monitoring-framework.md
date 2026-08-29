@@ -199,6 +199,56 @@ customer cash generation、third-party capital risk-taking、supplier equity / c
 
 只有多组信号广泛、持续并相互印证地恶化，S4 才从 stress test 升级为主情景。
 
+## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
+
+如果报告的主问题是“重要整机还能不能按自己的产品节奏拿到资源”，监测系统就不能只看 seller economics、HBM、packaging 与 power。
+
+**Table 29.4 — End-system residual-pressure monitoring panel**
+
+| 整机 / 系统 | 主要公开代理 | 需要回答的问题 | 禁止直接推出 |
+|---|---|---|---|
+| Smartphone / PC | memory contract price、system ASP、allocation fulfillment、configuration change、replacement cycle | 同价位规格是否变慢；quantity assurance 是否分化 | AI 导致全部涨幅；某品牌少拿确定 wafer 数量 |
+| Game console | memory procurement、hardware unit plan、promotion、hardware margin、memory/storage BOM、generation cadence | memory / storage pressure 是否改变销量、促销、SKU 与多年 cost-down | 主机直接抢 HBM；下一代一定涨价/延期 |
+| Automotive / industrial | mature-memory price、EOL、lead time、qualified alternates、product-longevity commitment | 长认证 / 长寿命是否把供应压力放大成 redesign / continuity risk | 汽车器件与 AI GPU 属同一物理池 |
+| Robotics / Physical AI | industrial-electronics lead time + edge accelerator / memory availability | industrial 与 AI-edge 两类约束是否同时出现 | 每台机器人都需要 frontier HBM |
+| High-reliability / aerospace / space | trusted access、EOL、qualification capacity、special-process continuity | 小批量、长寿命、特殊工艺供应经济性是否恶化 | AI 已造成某项目确定延期 / 涨幅 |
+
+**Source:** 第3章分层暴露框架、第21章整机传导与 Sony / TrendForce game-console evidence。[^14][^15]  
+**Note:** end-system dashboard 的作用不是把所有终端变成同一 shortage index，而是分开观察 **shared-resource exposure、buyer power、qualification rigidity 与 quantity assurance**。只有当上游资源证据和下游结果证据能够沿同一 transmission chain 对上，才升级 AI-era attribution。
+
+### 代表性一手锚：Game Console
+
+Sony FY2025 Q4 / FY2026 outlook 已明确把 PS5 FY26 hardware sales 与可按合理价格获得的 memory volume 联系，并表示可以通过 unit sales / promotional plans 调整 hardware profitability。[^14]
+
+这使 game console 成为当前最干净的 end-system monitoring anchor 之一：
+
+> **memory procurement → hardware volume / promotion → profitability**
+
+TrendForce 对 2026 console shipment / memory-BOM 的估计只能作为 B 级数量范围，不能覆盖 Sony 一手口径。[^15]
+
+### Dashboard J 的更新方向
+
+**Residual pressure 强化：**
+
+- memory / storage / component contract price 上升；
+- allocation fulfillment 下降；
+- promotion / configuration / SKU 被迫调整；
+- long-life part EOL / lead-time 风险增加；
+- end-system vendor 明确把采购数量、价格或 supply assurance 与硬件节奏联系起来。
+
+**Residual pressure 减弱：**
+
+- allocation fulfillment 改善；
+- contract price / lead time 持续回落；
+- same-price configuration 恢复提升；
+- long-life supply continuity 改善；
+- supplier product mix 更均衡；
+- second-source qualification 扩大。
+
+这个 Dashboard 不独立决定 S1–S4，但可以检验：
+
+> **上游 scarcity / concentration 是否真的传导成整机世界的 upgrade tax 与 supply-assurance pressure。**
+
 ## 11. Evidence-grade 快速规则
 
 **Table 29.3 — 更新时的默认 evidence grade**
@@ -284,3 +334,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 [^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 
 [^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+
+[^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^15]: TrendForce, 2025-12-02, 2026 game-console shipment forecast and estimated console memory-cost share of BOM, B-grade institutional forecast, https://www.trendforce.com/presscenter/news/20251202-12811.html
