@@ -371,10 +371,7 @@ NASA/JPL 对 space electronics 的资料则强调，空间辐射环境会使部�
 
 ---
 
-
----
-
-## 10. China Consumer Supply 可以缓冲部分本地压力，但不能外推为 Frontier HBM Closure
+## 9. China Consumer Supply 可以缓冲部分本地压力，但不能外推为 Frontier HBM Closure
 
 中国在 DDR、LPDDR、NAND、smartphone manufacturing 与终端 supply chain 的能力扩张，可以提高本地 consumer residual capacity。
 
@@ -393,7 +390,7 @@ NASA/JPL 对 space electronics 的资料则强调，空间辐射环境会使部�
 
 ---
 
-## 11. HDD 与 SSD：AI Storage 不是单一路线替代
+## 10. HDD 与 SSD：AI Storage 不是单一路线替代
 
 AI data-center storage 正在形成分层竞争。
 
@@ -409,7 +406,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 ---
 
-## 12. 实体企业还面临第二层 AI Adoption Cost
+## 11. 实体企业还面临第二层 AI Adoption Cost
 
 传统企业不仅承受上游硬件成本，还要为使用 AI 支付另一组成本：
 
@@ -429,7 +426,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 ---
 
-## 13. 当前判断
+## 12. 当前判断
 
 截至 2026 年 8 月，证据支持：
 
