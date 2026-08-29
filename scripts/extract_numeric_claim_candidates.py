@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract deterministic numeric-claim candidates for publication audit.
+"""Extract deterministic numeric-claim candidates for research/editorial review.
 
 The extractor is high-recall but distinguishes source-covered facts, D-grade
 models, and unresolved numeric prose. It does not itself verify a claim.
@@ -13,7 +13,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "dist" / "numeric-claim-candidates.jsonl"
+DEFAULT_OUT = ROOT / "data" / "generated" / "numeric-claim-candidates.jsonl"
 
 NUMERIC = re.compile(
     r"(?:US\$|RMB|KRW|\$)?\s*\d[\d,.]*(?:\.\d+)?"
