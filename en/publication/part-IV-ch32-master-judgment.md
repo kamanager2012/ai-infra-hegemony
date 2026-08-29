@@ -435,7 +435,7 @@ If multiple scarce layers and switching costs strengthen simultaneously, S3 gain
 
 If utilization, market clearing, forward commitments, accounting, and demand-financing quality deteriorate broadly and persistently, S4 becomes the dominant interpretation.
 
-The report's final question is therefore not whether “only AI still matters.” Smartphones, PCs, vehicles, industrial equipment, robotics, aerospace, naval, radar, and other strategic systems remain important. The relevant question is:
+The report's final question is therefore not whether “only AI still matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, and other long-lifecycle high-reliability systems remain important. The relevant question is:
 
 > **Can those still-important end systems continue to obtain enough, stable, affordable electronics on their own BOM, qualification, lifecycle, and cost constraints from an upstream system whose priorities are being rewritten by AI/HPC?**
 
