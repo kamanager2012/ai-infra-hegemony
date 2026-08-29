@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Publication-layer numeric source-coverage gate.
+"""Formal-report numeric source-coverage check.
 
-Audits the 32 Chinese + 32 English formal publication chapters. It detects
+Audits the 32 Chinese + 32 English formal report chapters. It detects
 unit-bearing numeric fact candidates and requires a citation/source anchor,
 a sourced table, an explicit model/scenario boundary, or a previously sourced
 repetition in the same chapter.
 
-This is a structural publication gate. It does not replace semantic fact review.
+This is a structural research/editorial check. It does not replace semantic fact review.
 """
 from __future__ import annotations
 
