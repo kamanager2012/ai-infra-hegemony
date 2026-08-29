@@ -2,7 +2,7 @@
 
 ## 1. Scenario analysis is not a point forecast
 
-This book does not assign one deterministic answer to 2030 or 2036, nor does it use a fixed probability table such as 40% / 30% / 15% / 15%.
+This report does not assign one deterministic answer to 2030 or 2036, nor does it use a fixed probability table such as 40% / 30% / 15% / 15%.
 
 Scenario weighting depends on observable variables including:
 
@@ -57,7 +57,7 @@ The current core trends continue:
 - HBM / advanced packaging remain periodically tight;
 - cloud custom systems continue expanding without fully replacing frontier workloads;
 - power becomes an independent deployment constraint;
-- China's parallel stack keeps developing but frontier closure remains incomplete;
+- China's production-grade parallel stack keeps developing while autonomous frontier closure remains incomplete across several critical upstream / infrastructure layers;
 - CapEx / forward commitments remain high.
 
 ### Economic result
@@ -100,14 +100,14 @@ AI workload demand, utilization, and monetization fail to cover a rapidly expand
 
 Typical synchronized signals include:
 
-- token / workflow volume growth disappoints;
-- instance / lease prices fall rapidly;
-- utilization declines;
+- utilization and effective AI revenue fall behind the installed capital base;
+- instance / lease prices and secondary-market values weaken;
 - enterprise AI monetization remains weak;
 - hyperscaler CapEx guidance falls;
-- seller / Anchor Buyer commitments shrink or cancel;
-- used-hardware residual value declines quickly;
-- impairment / write-down rises.
+- seller / Anchor Buyer commitments shrink, reschedule, or cancel;
+- impairment / write-down rises;
+- customer cash generation weakens while supplier equity / credit support or refinancing dependency rises;
+- independent third-party risk capital becomes less willing to absorb exposure.
 
 ### Clearing order
 
@@ -133,7 +133,7 @@ After capital clearing, cheaper compute can still stimulate new applications.
 | S1 — Competitive Expansion | higher supply elasticity, multi-sourcing, and portability | more distributed value capture and greater buyer optionality | scarce-layer tightness strengthens again or migration costs rise |
 | S2 — Baseline Concentration | strong demand, strong leading platforms, substitution develops but remains incomplete | high growth and concentration coexist | supply/substitution improve materially or ROI/commitments deteriorate together |
 | S3 — Resource Hegemony | multi-layer scarcity + switching costs + forward reservation strengthen | incremental capacity becomes more concentrated and replication costs rise | capacity access broadens and open interfaces materially lower migration costs |
-| S4 — Capital Hard Landing | utilization / monetization falls short of the capital base | clearing prices, orders, CapEx, and asset values decline | utilization, clearing prices, and forward commitments recover |
+| S4 — Capital Hard Landing | utilization / monetization and demand-financing quality fall short of the capital base | clearing prices, orders, CapEx, asset values, and financing quality weaken | utilization, clearing prices, independent financing, and forward commitments recover |
 
 **Source:** Report S1–S4 scenario framework.  
 **Note:** The four scenarios are parallel conditional states. They do not carry fixed probabilities and are not inevitable sequential stages.
@@ -179,7 +179,7 @@ Therefore:
 
 AI Capacity Gap / Growth Gap must be read together with Non-AI Residual Capacity. The first two ask how much AI currently lacks and how that gap is changing; NARC asks how much effective supply remains for non-AI demand after priority allocation.
 
-## 6. Five variable classes determine scenario structure
+## 6. Six variable classes determine scenario structure
 
 ### Supply
 
@@ -193,15 +193,19 @@ Cloud custom systems, open compiler/runtime, alternative interconnect, China's p
 
 Token/workflow volume, enterprise adoption, Anchor Buyer commitments, sovereign demand.
 
-### Finance
+### Capital / Monetization
 
-Seller cash generation, hyperscaler CapEx, depreciation, utilization, financing cost, residual value.
+Seller cash generation, hyperscaler CapEx, depreciation, utilization, workload revenue, residual value.
+
+### Financing Quality
+
+Anchor Buyer credit quality, third-party risk capital, supplier equity / credit support, refinancing dependency, asset transferability.
 
 ### Regulation / Geopolitics
 
 Export controls, antitrust remedies, interface openness, industrial policy, regional fragmentation.
 
-## 7. Anchor Compute Buyer is a new scenario variable
+## 7. Anchor Compute Buyer and Financing Reflexivity are scenario variables
 
 Multi-year compute commitments from large model companies can influence infrastructure financing, custom silicon, power, and data-center buildout.
 
@@ -210,6 +214,12 @@ If Anchor Buyer demand expands and converts into real utilization, S2/S3 weighti
 If long-duration commitments are delayed, renegotiated, or underutilized at scale, S4 weighting rises.
 
 Model-company contracts therefore cannot be treated as ordinary cloud-customer spending.
+
+Seller-assisted financing can strengthen infrastructure formation when it is supported by real utilization, monetization, and independent capital.
+
+It becomes an S4 risk amplifier when customer cash generation weakens while supplier equity / credit support and refinancing dependency keep increasing.
+
+The report therefore distinguishes Anchor Buyer demand from **Financing Reflexivity** rather than treating every financing-supported order as either fully organic or automatically artificial.
 
 ## 8. Observable signals from S2 toward S1
 
@@ -237,7 +247,8 @@ Model-company contracts therefore cannot be treated as ordinary cloud-customer s
 - second-hand system clearing prices fall quickly;
 - cloud discounts / lease rates deteriorate;
 - impairment rises;
-- enterprise AI monetization remains persistently below depreciation / operating cost.
+- enterprise AI monetization remains persistently below depreciation / operating cost;
+- supplier equity / credit support rises while independent customer financing / third-party risk-taking weakens.
 
 ## 11. Why S1, S2, S3, and S4 are not sequential stages
 
@@ -264,7 +275,7 @@ because:
 - cloud custom systems are real competitors but have not shown comprehensive frontier-workload substitution;[^4]
 - infrastructure CapEx and forward commitments remain high;[^5]
 - power constraints are rising;[^6]
-- China's parallel stack has not reached equivalent closure across every frontier critical layer;
+- China has a real production-grade substitution path, while autonomous frontier closure remains unproven across all critical layers;
 - synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
 
 The baseline remains valid only while this evidence mix remains valid.
