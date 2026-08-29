@@ -80,6 +80,18 @@ DeepSeek-V2 相对 DeepSeek 67B 报告约：
 - utilization；
 - serving throughput。
 
+### 3A. Price Compression 已经发生，但不能直接推出总 Compute 需求下降
+
+Stanford AI Index 2025 给出一个历史量化锚：达到其所定义 GPT-3.5 等效 MMLU 水平的模型查询成本，从 2022 年 11 月约 **US$20 / million tokens** 降至 2024 年 10 月约 **US$0.07 / million tokens**，约下降 **280×**。[^3]
+
+这个比较依赖特定 benchmark、时间窗口与模型集合，不能写成“所有模型价格都下降 280×”。但它足以证明：
+
+> **单位能力价格可以快速压缩，model-layer rent 并不是固定不变。**
+
+到 Stanford AI Index 2026，头部模型在 Arena 类评价中的表现进一步收敛，竞争压力因此更多转向 cost、reliability 与 domain-specific performance。[^4]
+
+这强化了本章的核心机制：**单位模型价格下降与总基础设施需求增长可以同时发生**。真正决定总需求的仍然是 workload volume、resource intensity 与 utilization 的乘积。
+
 ---
 
 ## 4. Open Source 首先压缩 Model-Layer Rent，而不是自动压缩 Infrastructure Demand
@@ -249,3 +261,5 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 [^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
 [^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
+[^3]: Stanford HAI, “2025 AI Index Report — Research and Development,” inference-price comparison for a GPT-3.5-equivalent MMLU level, https://hai.stanford.edu/ai-index/2025-ai-index-report/research-and-development
+[^4]: Stanford HAI, “2026 AI Index Report — Technical Performance,” frontier-model performance convergence and the shift toward cost, reliability and domain-specific competition, https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
