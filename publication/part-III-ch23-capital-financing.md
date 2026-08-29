@@ -176,7 +176,7 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 
 这会扩大可获得资本规模，也会把 risk distribution 从单一 corporate balance sheet 扩散到更广的金融体系。
 
-最终决定这类融资是否可持续的，不是 headline target，而是 utilization、cash yield、contract quality 与 hardware residual value。
+最终决定这类融资是否可持续的，不是公布的资本目标，而是 utilization、cash yield、contract quality 与 hardware residual value。
 
 ## 13. 什么事实会迫使本章改判
 
@@ -189,7 +189,7 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 - seller credit support 比重上升而 independent risk capital 下降；
 - project cash yield 无法覆盖 capital cost。
 
-反过来，更多 headline capital target 并不足够；真正需要的是 funded capital、delivered assets、utilization 与可持续 cash flow。
+反过来，更多公开资本目标并不足够；真正需要的是 funded capital、delivered assets、utilization 与可持续 cash flow。
 
 ## References
 
