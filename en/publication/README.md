@@ -81,3 +81,4 @@ For methodology and evidence discipline:
 - [Core Source Index](../核心参考文献索引.en.md)
 - [Core Concepts and Model Index](../核心概念与模型索引.en.md)
 - [Core Hypothesis Matrix](../核心假设矩阵.en.md)
+- [External Research Comparison Index](../外部研究对照索引.en.md)
