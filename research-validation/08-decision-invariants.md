@@ -86,9 +86,9 @@ The primary stack can be highly concentrated for efficiency.
 
 **v0.2 status:** this is no longer a hard invariant. The invariant is to **price executable optionality**; continuously maintaining a second production path is conditional on continuity / bargaining / recovery value exceeding carrying cost.
 
-The invariant is not “split spend evenly.”
+The conditional strategy is not “split spend evenly.”
 
-It is:
+When the option value justifies the carrying cost, the operational form is:
 
 > **maintain at least one second path that has been tested in production or production-like conditions.**
 
