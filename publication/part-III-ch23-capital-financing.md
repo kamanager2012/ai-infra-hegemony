@@ -178,6 +178,19 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 
 最终决定这类融资是否可持续的，不是 headline target，而是 utilization、cash yield、contract quality 与 hardware residual value。
 
+## 13. 什么事实会迫使本章改判
+
+应下调“compute 正在形成独立 infrastructure-finance asset class”的判断，如果：
+
+- third-party financing platforms 无法完成 final agreements 或实际部署；
+- long-duration customer contracts 大量重谈；
+- hardware residual value / transferability 低于融资假设；
+- refinancing 依赖持续提高；
+- seller credit support 比重上升而 independent risk capital 下降；
+- project cash yield 无法覆盖 capital cost。
+
+反过来，更多 headline capital target 并不足够；真正需要的是 funded capital、delivered assets、utilization 与可持续 cash flow。
+
 ## References
 
 [^1]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” NVIDIA-defined non-GAAP free cash flow, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
