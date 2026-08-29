@@ -55,7 +55,7 @@ For methodology and evidence discipline:
 
 19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
-21. [Cost Transmission into Consumer Electronics and the Real Economy](part-III-ch21-consumer-transmission.md)
+21. [Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
 24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
