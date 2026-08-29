@@ -28,7 +28,7 @@ Primary / auditable evidence
         │
         ├─ 01  Historical clearing backtest
         ├─ 01A Live prospective adjudication
-        ├─ 02  Demand-elasticity empirical calibration (raw panel retrieved; coefficient pending)
+        ├─ 02  Demand-elasticity empirical calibration (Sol event estimated; structural coefficient unresolved)
         ├─ 03  Workflow-economics contract / Level-3 closure
         ├─ 04A Public-credit regime
         ├─ 04B Hyperscaler corporate capital state
@@ -64,7 +64,7 @@ This graph is the maintenance contract for Phase II. New files should not be add
 ## 当前状态
 
 - **P0-1 Historical Clearing Backtest**：v1.0；在 B/D/G/H 四路径 + Solar recovery replay 之后，新增第二个真正独立 negative control：2019 Boeing 737 MAX / commercial aerospace。结果证明 dominant supplier 即使同时出现 production cut + delivery collapse + large accounting charge，只要 independent competitor、end demand 与行业 breadth 不同步恶化，也不能升级成 system clearing。v1.0 因此新增 **signal severity cannot substitute for causal breadth** 与 regulatory/operational-shock boundary；同时 `01A` 已升 v0.2，live prospective adjudication ledger 开始对 2026 AI infrastructure 做真正 publication-time logging，并新增 SLOOS `publication_time + survey label + economic period` 时间身份，避免季度错配；
-- **P0-2 AI Demand Elasticity Calibration**：v0.7；OpenRouter `rankings-daily` 已成功返回真实 raw panel：`as_of=2026-08-29T18:15:41Z`，窗口 `2026-07-30 → 2026-08-28`，共 **1,530 行**，字段为 `date / model_permaslug / total_tokens`；Terra/Luna/Sol permanent slugs 已确认，2026-08-28 三者均在 top-50 单独可见。**authentication blocker 已解除**；新增 weekly aggregation sanity check：8/03、8/10、8/17 三个完整周分别为 69.05T / 75.34T / 93.38T tokens，8/24 周仅覆盖 5 天已达 96.90T；`stealth/ox-alpha` 周榜 15.68T 但 8/28 日榜不在 top-51，证明单日截面不能替代 model-day panel。下一步只剩 full-window censoring、piecewise treatment 与 substitution audit，**coefficient 仍未估计**；
+- **P0-2 AI Demand Elasticity Calibration**：v0.8；30 天 raw panel 已完成目标覆盖审计，Terra/Luna/Sol 均为 **30/30 days observed**，rank 最差分别 30 / 17 / 32，因此 target-model top-50 censoring 已关闭。Sol 2026-08-17 50% discount 的 preferred short-window event specification（控制 non-Sol market growth、linear trend、day-of-week，HAC(3)）给出约 **-0.47** 的 OpenRouter-visible E1 event elasticity，95% CI 约 **[-0.69, -0.24]**；raw pre/post `-1.40` 被证明会明显混入平台整体增长。Terra/Luna 因 raw export 从 7/30 才开始，不能独立识别 7/27/7/30 初始 treatment。另发现周榜最新 bucket 与 8/24–8/28 日榜合计相差 **10.4169T**，因此撤销此前 `96.90T / 5 days` 的错误 normalization；**structural E2/E3/E4 coefficient 仍未估计**；
 - **P0-3 Verified Workflow Economics**：v0.7；public Level-3 candidate audit 已完成，并新增 prospective first-party acquisition contract：固定 `workflow_id` 主键，分离 AI/tool/runtime cost、human execution/review/remediation、verification、persistence 与 realized-value ledger，同时明确 `0 ≠ N/A ≠ not measured ≠ not yet observed`。新增 stop rule：以后只有公开 same-`workflow_id` Level-3 closure、一手前瞻数据，或真正改变 verification / persistence / causal attribution 的方法学结果才允许升级；generic productivity studies 不再触发版本升级；
 - **P0-4 Macro-Financial Transmission**：方法主文件继续保持 v0.18，不扩张；四个数据附录职责已收口。04A v0.3 负责 public-credit regime 与 CMDI canonical retrieval/provenance，并修正 SLOOS survey-label / economic-period 时间语义；04B v0.2 只负责 hyperscaler `Headroom → Commitment → Corporate Financing → Demand Breadth → Monetization`，并新增 longitudinal descriptive states；04C v0.2 负责 facility-level delivery / monetization / DSCR / refinancing；04D v0.2 负责 support activation / step-down。跨附录只引用，不重复维护状态表；
 - **P1 Geopolitical Scenario Layer**：v0.2；新增 ownership contract：05 只负责 G1–G5 geopolitical state definitions 与 event→physical/financial transmission；China technical closure 以 09 为准，scenario aggregation 以 10 为准，正式 Chapter 30 只有显式 reopen 后才可吸收；
@@ -106,7 +106,7 @@ Phase II validation has now been adjudicated against the frozen 32-chapter publi
 | Validation layer | Formal-text decision | Adjudication |
 |---|---|---|
 | P0-1 Historical Clearing Backtest | **MATERIAL FIX APPLIED** | Historical replay proved Accounting is confirmation / severity evidence, not a mandatory S4 gate. The correction was propagated to Ch01 / Ch19 / Ch22 / Ch24 / Ch29 / Ch30 / Ch32 in both languages. |
-| P0-2 Demand Elasticity | **NO FORMAL CHANGE** | Raw OpenRouter panel retrieval has succeeded, but full censoring / treatment / substitution audit and coefficient estimation are not complete. No unestimated coefficient enters the formal report. |
+| P0-2 Demand Elasticity | **NO FORMAL CHANGE** | The Sol Aug-17 short-window OpenRouter-visible E1 event elasticity is now estimated at roughly **-0.47** in the preferred adjusted specification, but this is a single-model/platform event and does not identify workflow or infrastructure elasticity. Formal Ch14/Ch24 already preserve that distinction, so no scenario parameter is replaced. |
 | P0-3 Verified Workflow Economics | **NO FORMAL CHANGE** | Formal chapters already identify verified-workflow economics as a long-run criterion that is not yet empirically calibrated. |
 | P0-4 Macro-Financial Transmission | **NO FORMAL CHANGE** | 04A–04D improve research-side state maintenance; post-cutoff SLOOS / financing updates remain outside the August 28 formal evidence snapshot. |
 | 05 Geopolitical Scenario Layer | **NO FORMAL CHANGE** | Formal scenario language already remains conditional and does not convert policy headlines into physical-state facts. |
