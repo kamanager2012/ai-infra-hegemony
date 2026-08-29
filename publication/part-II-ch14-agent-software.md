@@ -1,6 +1,6 @@
-# Part II · 第14章：Agent-native Software 与 AI Software Unit Economics
+# Part II · 第14章：Agent-Native Software 与 AI Software Unit Economics
 
-## 1. Agent-native Software 改写的是成本结构
+## 1. Agent-Native Software 改写的是成本结构
 
 传统 SaaS 的典型特征是 software replication cost 低、seat 增长不一定线性增加 variable compute。
 
@@ -22,7 +22,7 @@ Stanford AI Index 2026 汇总的组织调查显示，**88%** 的受访组织报�
 
 > **AI adoption 已广泛发生，但从 assistant / feature use 走向可长期运行的 autonomous or semi-autonomous workflow，仍处于早期扩散阶段。**
 
-因此，Agent-native Software 的十年判断必须同时处理两件事：一方面，潜在 workflow volume 很大；另一方面，production reliability、review burden、integration 与 unit economics 尚未被大规模证明。
+因此，Agent-Native Software 的十年判断必须同时处理两件事：一方面，潜在 workflow volume 很大；另一方面，production reliability、review burden、integration 与 unit economics 尚未被大规模证明。
 
 Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对话增加到更长时间运行的 agentic tasks，并观察到更高 Compute 消耗与更高估计工作价值之间存在相关性。[^4] 但该数据来自 Anthropic 自身产品使用样本，不能直接代表整个企业软件市场。
 
@@ -153,7 +153,7 @@ Total AI Infrastructure Demand
 
 而不是只统计 AI usage 或 generated tokens。
 
-## 10. Agent-native Software 的高质量利润来自哪里
+## 10. Agent-Native Software 的高质量利润来自哪里
 
 长期更有机会形成高质量 economics 的产品通常具备：
 
