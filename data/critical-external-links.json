@@ -18,7 +18,7 @@
       "final_url_contains": "annualReports/2025/english"
     },
     {
-      "id": "TSMC-2Q26-TRANSCRIPT",
+      "id": "TSMC-2Q26-RESULTS",
       "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
       "final_url_contains": "quarterly-results/2026/q2",
       "note": "Stable official Q2 results landing page used in the formal report; the previously used encrypted transcript PDF deep link was unstable in public retrieval."
