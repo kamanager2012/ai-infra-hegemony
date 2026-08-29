@@ -56,7 +56,7 @@ dominant platform 仍然很大，但 buyer optionality 和 bargaining power 提�
 - HBM / advanced packaging 仍周期性 tight；
 - cloud custom systems 继续扩大但未全面替代 frontier workload；
 - power 进入独立部署约束；
-- China parallel stack 持续扩展但 frontier closure 未完全完成；
+- China frontier parallel stack 持续迭代并出现部分 production deployment，但完整 production-grade closure 尚未由公开证据确认；
 - CapEx / forward commitments 仍高。
 
 ### 经济结果
@@ -238,7 +238,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - cloud custom systems 已形成真实竞争，但尚未证明全面替代 frontier workload；[^4]
 - infrastructure CapEx 与 forward commitments 仍高；[^5]
 - power constraint 上升；[^6]
-- China 已形成真实 production-grade substitution 路径，但 autonomous frontier closure 尚未在所有 critical layers 得到规模化证明；
+- China 已形成真实 frontier parallel alternatives 与部分 production deployment，但按第17章七个 Production-Grade Gate，完整 production-grade frontier closure 尚未由公开证据确认；
 - 全行业 Capital Hard Landing 的同步证据尚不足。
 
 这条 baseline 只在上述事实组合继续成立时有效；判别方法见 §12A。
@@ -254,6 +254,27 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 同一批资本证据（如 **>US$500B** mobilization target、**US$50B** frontier-lab 投资、**2 GW** credit support）[^7][^8][^9]在代理信号健康时支持 S2/S3 的 infrastructure coordination，在代理信号广泛、持续恶化时支持 S4 权重上升；判别不依赖任何单点数据。
 
 边界情形：若需求增速显著放缓但不触发五类 S4 信号，则按 substitution 强度归属——替代规模化扩大则 S1 权重上升；scarce-layer 仍紧则归入 S2（此时"需求高"应读作"需求增速仍高于有效供给增速"）。
+
+## 12B. 校准状态：这是公开代理状态机，不是已完成统计校准的分类器
+
+截至本报告证据截止日，S1–S4 的判别轴已经明确，但**尚不存在经统计验证的统一数值阈值、固定观察窗口或自动切换规则**。
+
+因此：
+
+- 单一 CapEx 下调不能独立触发 S4；
+- 单一 packaging / HBM tightness 不能独立触发 S3；
+- 单一 alternative-chip launch 不能独立触发 S1；
+- S2 也不能因为“多数变量仍可解释”为默认永久状态。
+
+情景权重的变化必须来自**多个相互独立的公开代理在连续观察中形成同方向证据**，同时显式记录反证与 segment breadth。不同数据具有季度、半年或年度披露频率，本报告不人为把它们压成一个伪精确统一窗口。
+
+换言之：
+
+> **当前框架已经规定“看什么”，但还没有把“变化多少、持续多久”伪装成已验证阈值。**
+
+历史回测、lead/lag 与阈值校准属于后续 empirical-validation 工作；在其完成前，S1–S4 应被理解为可更新的结构判别框架，而不是机械分类模型。
+
+---
 
 ## 13. Scenario Framework 的最终用途
 
