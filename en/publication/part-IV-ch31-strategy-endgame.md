@@ -169,7 +169,7 @@ The second path exists to reduce single-point supply, pricing, policy, and migra
 
 ## 5A. End-system companies: manage Quantity Assurance alongside price
 
-For smartphones, PCs, vehicles, industrial equipment, robotics, and other long-lifecycle electronics, the low-regret response is not to predict that one supplier will remain constrained for a decade. It is to improve resilience to resource reprioritization.
+For smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and other long-lifecycle electronics, the low-regret response is not to predict that one supplier will remain constrained for a decade. It is to improve resilience to resource reprioritization.
 
 Three principles:
 
