@@ -1,8 +1,12 @@
-# Part III · Chapter 21: Cost Transmission into Consumer Electronics and the Real Economy
+# Part III · Chapter 21: Cost Transmission into Consumer Electronics, End Systems, and the Real Economy
 
-## 1. Consumer electronics do not buy training racks, but they share upstream resources
+## 1. Core judgment: AI changes marginal resource allocation rather than “absorbing all chip supply”
 
-Consumer products and AI/server systems share several upstream layers:
+Traditional end systems do not all purchase training racks. Smartphones, PCs, routers, vehicles, industrial equipment, robotics, and selected high-reliability electronics overlap with AI/server systems at **different intensities**.
+
+The closer the overlap is to advanced logic, memory, or selected packaging, the more direct the transmission. The more the system depends on long-life, trusted, RF/power, rad-hard, or other special-process capacity, the more likely the channel runs indirectly through capital, equipment, engineering capacity, and supplier economics.
+
+Shared or adjacent layers include:
 
 - DRAM / LPDDR wafer input;
 - selected leading-edge logic;
@@ -79,6 +83,17 @@ Counterpoint's H1 2026 data provides a more direct view of the pressure:[^7]
 The result is **segmentation and restructuring rather than uniform collapse**: entry/mid-range devices are more exposed to memory/BOM pressure, premium/GenAI devices are relatively more resilient, and lower-cost SoC paths can gain share.
 
 The real change is that HPC has stronger pull on incremental advanced resources and memory economics tilts more toward server/HBM, making flagship BOM, memory configuration, and mid-range node strategy more exposed to upstream constraints.
+
+## 4A. Routers / Broadband: low-bargaining-power buyers show the damage more clearly
+
+Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
+
+This is important because it shows that:
+
+> **the severity of resource crowding-out is strongly related to bargaining power and supply assurance.**
+
+Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of the shock. Smaller OEMs are more exposed to the combination of higher prices and lower allocations.
+
 
 ### 4.1 Cross-Market Resource Reordering: AI is changing the allocation balance across end markets
 
@@ -164,15 +179,51 @@ What can be supported is **structural shortage and price inflation in specific m
 
 This report does not upgrade that evidence into unverified whole-vehicle claims such as "all automotive memory +180%," "RMB7,000–10,000 added memory cost per vehicle," or "annual supply fulfillment below 50%."
 
-## 9.1 Routers / Broadband: low-bargaining-power buyers show the damage more clearly
+Automotive electronics also carry **qualification and product-longevity rigidity**. NXP gives S32G vehicle network processors a minimum **15-year** support commitment, while STMicroelectronics extended selected SPC58 automotive MCUs to **20-year availability**, with some part families supported into 2038–2041.[^19][^20]
 
-Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
+These first-party disclosures establish a different kind of constraint:
 
-This is important because it shows that:
+> **For automotive electronics, the problem is not only today's component price; it is whether a qualified part remains supportable across a platform lifecycle.**
 
-> **the severity of resource crowding-out is strongly related to bargaining power and supply assurance.**
+MCUs, analog components, power semiconductors, and most automotive electronics do not directly compete for the same physical pool as AI servers. But supplier CapEx, packaging/test capacity, engineering priority, and long-life product economics can still be influenced by higher-return markets. Without project-level evidence, this report does not rewrite that adjacent pressure as “AI caused a specific vehicle shortage.”
 
-Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of the shock. Smaller OEMs are more exposed to the combination of higher prices and lower allocations.
+### 9.1 Production lines and industrial automation: the risk is lead time, redesign, and downtime—not training accelerators
+
+PLC, servo control, industrial PCs, sensors, MCU/analog/power components, and industrial memory often share four properties:
+
+- long qualification / validation cycles;
+- embedded-software and hardware-BOM coupling;
+- component substitution requires revalidation;
+- installed equipment may need many years of maintenance and spare-part support.
+
+The likely transmission is therefore:
+
+> **longer lead time → redesign / requalification cost → spare-part / maintenance risk**
+
+rather than “the factory cannot buy a training GPU.”
+
+The attribution rule from Section 2A still applies. A price increase or lead-time extension in one industrial component is not enough to prove AI causation. Stronger attribution requires shared-resource exposure, supplier product-mix shift, capacity/engineering reallocation, or explicit supplier/institutional evidence.
+
+### 9.2 Aerospace, space, and defense electronics: public evidence supports structural low-volume weakness, not direct HBM competition
+
+These systems have a different exposure profile from smartphones and PCs.
+
+U.S. GAO work on trusted defense microelectronics notes that commercial microelectronics markets are oriented toward high-volume, shorter-lifecycle demand, while government defense requirements are often low-volume, unique, and have limited influence on commercial market allocation. The DMEA Trusted Foundry / Trusted Supplier framework exists in part to preserve trusted access for typically low-volume government needs.[^21][^22]
+
+NASA/JPL materials on space electronics add another boundary: radiation environments can require special IC design, fabrication, screening, and assurance.[^23]
+
+The defensible AI-era mechanism is therefore limited to:
+
+> **As commercial semiconductor capital, equipment, and engineering capacity optimize around higher-volume and higher-return markets, maintaining low-volume, high-reliability, long-life, trusted, or special-process supply can become more difficult or expensive.**
+
+Public evidence does **not** support stronger claims such as:
+
+- aerospace or space programs being delayed because HBM is sold out;
+- radar or naval electronics directly competing for the same AI accelerator pool;
+- a specific percentage cost increase or supply-fulfillment loss caused by AI.
+
+Those would require program-level, supplier-level, or government-procurement evidence.
+
 
 ## 9.2 HDD and SSD: not a one-way "SSD fully replaces HDD" thesis
 
@@ -209,7 +260,7 @@ This is why cheaper AI models do not automatically produce higher ROI for operat
 
 As of August 2026, the evidence supports:
 
-> **AI infrastructure has transmitted part of its cost pressure into consumer electronics through memory, consumer-system pricing, and shared leading-edge resources; the transmission is selective, cyclical, and sensitive to inventory, demand, and capacity allocation.**
+> **AI infrastructure has transmitted part of its cost pressure into consumer electronics, automotive/industrial systems, and other end systems through memory, shared leading-edge resources, allocation priority, and system pricing; the further an end system sits from those shared advanced layers, the more the transmission must be validated through supply continuity, product mix, and supplier economics.**
 
 This is not "consumer electronics being eliminated by AI."
 
@@ -235,3 +286,10 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 [^16]: Counterpoint Research, 2026-02-11, broadband memory-price surge and router BOM impact, https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
 [^17]: TrendForce, 2025-09-15, nearline HDD shortage and QLC SSD substitution, https://www.trendforce.com/presscenter/news/20250915-12714.html
 [^18]: Seagate Technology, FY26 results, AI/cloud data generation and mass-capacity storage demand, https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx
+
+
+[^19]: NXP Semiconductors, S32G Vehicle Network Processors, minimum 15-year product support under the Product Longevity program, https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32g-vehicle-network-processors%3AS32G-PROCESSORS
+[^20]: STMicroelectronics, 2025-09-08, selected SPC58 automotive MCUs extended to 20-year availability, https://newsroom.st.com/media-center/press-item.html/n4718.html
+[^21]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, https://www.gao.gov/products/gao-16-185t
+[^22]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
+[^23]: NASA/JPL, Space Radiation Effects on Integrated Circuits, https://parts.jpl.nasa.gov/asic/Appendix.3.html
