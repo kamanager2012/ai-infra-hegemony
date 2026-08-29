@@ -159,7 +159,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 - physical scarcity 继续主导 buyer constraint；
 - market structure 变化主要来自技术替代而非监管。
 
-反过来，真正足以提高监管权重的不是 headline fine，而是 binding remedy 改变接口、供给或跨栈迁移条件。
+反过来，真正足以提高监管权重的不是罚款金额本身，而是 binding remedy 改变接口、供给或跨栈迁移条件。
 
 ## References
 
