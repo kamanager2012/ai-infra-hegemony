@@ -279,7 +279,7 @@ Therefore it can improve the **measurement schema** without completing unit econ
 
 ## 7. Minimum viable benchmark table
 
-Every Phase II workflow case should eventually populate:
+When the required fields are observable, every Phase II workflow case should populate:
 
 | Field | Baseline | AI-assisted |
 |---|---:|---:|
