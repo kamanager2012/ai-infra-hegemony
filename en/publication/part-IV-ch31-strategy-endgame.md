@@ -329,7 +329,7 @@ The most important update variables include:
 - whether energized MW / Time-to-Power improves;
 - whether Anchor Compute Buyer commitments convert into real delivery;
 - whether AI monetization covers the expanding capital base;
-- whether China's Production-Grade Parallel Stack / Autonomous Frontier Closure gains more scaled first-party evidence;
+- whether China's frontier parallel stack gains more scaled first-party evidence across the Production-Grade Gates / Autonomous Frontier Closure;
 - whether supplier-assisted financing remains supported by independent workload cash flow, third-party capital, and high utilization;
 - whether regulation materially lowers interface / tying / switching barriers.
 
@@ -371,7 +371,7 @@ Long-run strategic priorities should be re-ranked if:
 - Time-to-Power shortens materially;
 - workload monetization independently covers capital cost;
 - supplier-assisted financing declines while independent long-duration capital rises;
-- China's Production-Grade Parallel Stack / Autonomous Frontier Closure crosses additional critical layers.
+- China's frontier parallel stack crosses additional Production-Grade Gates / Autonomous Frontier Closure critical layers.
 
 This chapter does not offer a fixed ten-year end-state. It offers a set of strategic priorities that must change when these variables change.
 
