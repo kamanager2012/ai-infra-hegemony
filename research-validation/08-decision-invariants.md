@@ -51,9 +51,11 @@ Observable implementation:
 
 ---
 
-# 3. Invariant 2 — Preserve an executable second path
+# 3. Candidate 2 — Preserve an executable second path（v0.2：降为 Conditional Strategy）
 
 The primary stack can be highly concentrated for efficiency.
+
+**v0.2 status:** this is no longer a hard invariant. The invariant is to **price executable optionality**; continuously maintaining a second production path is conditional on continuity / bargaining / recovery value exceeding carrying cost.
 
 The invariant is not “split spend evenly.”
 
@@ -192,7 +194,7 @@ Do not use high seller margin as proof of healthy buyer-side return.
 
 ---
 
-# 9. Invariant 8 — Financing quality matters as much as financing quantity
+# 9. Invariant 8 — Separate financing identity / quality from financing quantity
 
 More capital is not automatically stronger demand.
 
@@ -205,9 +207,11 @@ Always distinguish:
 - credit enhancement;
 - refinancing dependency.
 
-The invariant:
+The hard invariant:
 
-> **prefer demand that can increasingly finance itself from independent workload cash flow over demand that requires rising sponsor/supplier support.**
+> **separate independent workload economics from financing amplification, and identify who ultimately bears the loss.**
+
+The older preference for self-financing demand is retained only as a conditional warning when sponsor/supplier support rises while utilization, monetization, refinancing terms, or third-party risk appetite deteriorate.
 
 Why it survives S1–S4:
 - healthy financing improves expansion in S1–S3;
@@ -288,7 +292,7 @@ This is the operational use of F→H→M→S→X.
 
 ---
 
-# 13. Invariant 12 — Prefer transferability over perfect optimization when uncertainty is high
+# 13. Candidate 12 — Prefer transferability over perfect optimization（v0.2：降为 Conditional Strategy）
 
 When uncertainty is high, an asset/system that is slightly less optimized but:
 - portable;
@@ -301,9 +305,11 @@ can have higher strategic value.
 
 When uncertainty is low and demand is durable, optimization can dominate.
 
-The invariant:
+The hard relationship is:
 
-> **the value of transferability rises with uncertainty and duration.**
+> **the value of transferability rises with uncertainty, commitment duration, and residual-value risk.**
+
+The action “prefer transferability” remains conditional rather than invariant.
 
 This applies to:
 - compute contracts;
