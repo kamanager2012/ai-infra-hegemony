@@ -99,7 +99,89 @@ The report does not use a synthetic "CoWoS wafers per rack" factor to infer ship
 
 Front-end wafers, back-end packaging capacity, HBM bits, and energized MW are different physical pools and must remain dimensionally separate.
 
-## 8. Power must also be quantified with state and physical boundaries
+## 8. AI Capacity Gap: first ask whether effective supply is short now
+
+For each physical layer (i), define:
+
+```text
+AI_Capacity_Gap_i(t)
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
+
+The layer (i) can separately represent:
+
+- advanced logic;
+- HBM / DRAM;
+- advanced packaging;
+- networking;
+- power.
+
+Demand and capacity must use the same:
+
+- physical layer;
+- delivery window;
+- qualification / quality boundary;
+- physical unit.
+
+Examples include wafers/month, qualified package starts/month, bits/year, and MW.
+
+Interpretation:
+
+- **Gap > 0:** current effective supply is insufficient;
+- **Gap ≈ 0:** the market is near balance;
+- **Gap < 0:** effective slack exists.
+
+---
+
+## 9. Capacity Growth Gap describes direction, not the current shortage
+
+Define:
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i)
+- Growth(AI_Effective_Capacity_i)
+```
+
+It answers:
+
+> **Is the current supply-demand gap more likely to widen or narrow?**
+
+- **Growth Gap > 0:** shortage pressure may intensify, or existing slack may shrink;
+- **Growth Gap < 0:** supply is catching up and shortage pressure may ease;
+- **Growth Gap = 0:** demand and capacity are growing at the same rate; it does not mean the current gap is zero.
+
+Therefore:
+
+> **Absolute Gap and Growth Gap must be read together.**
+
+A market can still be short while supply is catching up rapidly, or still have slack while faster demand growth is eroding that slack.
+
+---
+
+## 10. Non-AI Residual Capacity answers a different question
+
+AI Capacity Gap measures the AI side.
+
+Traditional markets require a separate residual-access measure:
+
+```text
+NonAI_Residual(t)
+= Effective_Supply(t)
+- AI_Server_Absorption(t)
+- Other_Priority_Demand(t)
+```
+
+It asks:
+
+> **After AI and other priority demand absorb supply, how much effective capacity remains available to non-AI markets?**
+
+AI Capacity Gap, AI Capacity Growth Gap, and Non-AI Residual Capacity are therefore not interchangeable. The first two describe AI-side balance and direction; the third describes residual access for traditional markets.
+
+---
+
+## 11. Power must also be quantified with state and physical boundaries
 
 Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
 
@@ -109,7 +191,7 @@ Power must also retain its state identity:
 
 Contracted or secured capacity is not energized capacity; energized capacity is not highly utilized AI load. Generation MW/GW, PPA capacity, and IT-GW must also retain their distinct physical identities.
 
-## 9. When shipment cannot be closed, Forward Commitment is more useful than an invented shipment model
+## 12. When shipment cannot be closed, Forward Commitment is more useful than an invented shipment model
 
 NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as follows:[^6]
 
@@ -123,7 +205,7 @@ The figure cannot identify how much goes to any individual supplier, but it is a
 
 When customer-level HBM bits, CoWoS allocation, and rack shipment are unavailable, forward commitments are more informative than "revenue divided by an invented rack price."
 
-## 10. Measure incremental scarce-capacity access separately for every physical layer
+## 13. Measure incremental scarce-capacity access separately for every physical layer
 
 The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into one composite "capture ratio."
 
@@ -139,7 +221,7 @@ For each layer, track variables such as:
 
 A reliable percentage may be used only when customer-level allocation is observable for that specific physical pool.
 
-## 11. Five risk classes should be separated before testing for cascade
+## 14. Five risk classes should be separated before testing for cascade
 
 System risk in AI infrastructure can be divided into:
 
@@ -151,7 +233,7 @@ System risk in AI infrastructure can be divided into:
 
 One risk does not equal an industry-wide crisis. The more dangerous state is when several clocks begin to reinforce one another.
 
-## 12. Rolling Bottleneck Cascade
+## 15. Rolling Bottleneck Cascade
 
 AI-infrastructure bottlenecks rotate rather than remaining permanently fixed at one layer.
 
@@ -167,7 +249,7 @@ This is the **Rolling Bottleneck Cascade**.
 
 It explains why easing HBM does not prove that AI infrastructure has no constraints, and why power becoming a bottleneck does not mean semiconductor constraints have disappeared permanently.
 
-## 13. Capital return must place all duration clocks into one equation
+## 16. Capital return must place all duration clocks into one equation
 
 A minimal economic relationship is:
 
@@ -177,7 +259,7 @@ The core risk is duration mismatch: hardware can turn over rapidly while data-ce
 
 A technically functional system can therefore produce weak capital returns if utilization is low or long-duration obligations are excessive.
 
-## 14. Quantitative guardrails
+## 17. Quantitative guardrails
 
 The full report maintains the following hard boundaries:
 
@@ -193,7 +275,7 @@ The full report maintains the following hard boundaries:
 - institutional forecast ≠ company actual;
 - one physical pool ≠ another physical pool.
 
-## 15. The most reliable quantitative sequence
+## 18. The most reliable quantitative sequence
 
 The report follows this sequence:
 
