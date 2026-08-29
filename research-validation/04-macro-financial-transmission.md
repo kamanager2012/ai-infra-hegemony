@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.4
+# P0-4 · Macro-Financial Transmission Layer v0.5
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -472,15 +472,119 @@ This produces a more precise interpretation:
 
 That is closer to a Two-Speed financing regime than to an economy-wide credit seizure.
 
+### 10A.3 Public-credit proxy rule: observable is not the same as republishable
+
+The initial worklist called for a quarterly IG / HY OAS backfill.
+
+A source-governance audit changes that plan.
+
+The commonly used ICE BofA OAS series surfaced through FRED are third-party licensed data. FRED's series notes explicitly state that the underlying ICE index data are proprietary and restrict redistribution of the top-level observations.
+
+Therefore Phase II will **not** copy a historical IG / HY OAS time series into this repository merely because it is viewable online.
+
+Instead:
+
+- ICE BofA IG / HY OAS remain **external cross-check variables**;
+- the reproducible public panel uses Federal Reserve-produced / Federal Reserve Bank research indicators where possible;
+- source-license identity is now part of the data-quality protocol.
+
+Preferred public credit-state proxies:
+
+1. **NY Fed Corporate Bond Market Distress Index (CMDI)**  
+   - combines primary issuance/pricing, secondary-market pricing/liquidity, and relative traded/nontraded bond pricing;
+   - provides aggregate as well as investment-grade / high-yield segment readings;
+   - is specifically designed to identify widespread corporate-bond-market distress.
+
+2. **Chicago Fed NFCI Credit Subindex**  
+   - weekly credit-conditions subindex;
+   - positive values indicate tighter-than-average credit conditions; negative values indicate looser-than-average conditions.
+
+This changes the research objective from:
+
+> “republish an IG/HY spread table”
+
+to:
+
+> **maintain a legally reproducible public-credit state panel, while using proprietary spread indices only as external validation.**
+
+The distinction matters for a publication-grade repository.
+
+### 10A.4 2026Q2 hyperscaler self-financing cross-section
+
+A second financing layer is now observable directly from company filings / earnings disclosures.
+
+The comparison must keep each company's CapEx definition intact rather than forcing one false common denominator.
+
+| Company / period | Operating cash flow | CapEx / infrastructure spend | External financing / balance-sheet observation | Research interpretation |
+|---|---:|---:|---|---|
+| Microsoft FY26 Q4 | US$55.4B | US$41.0B total CapEx; cash paid for PP&E US$35.8B; ~2/3 short-lived assets | finance leases US$5.6B, mainly large data-center sites | OCF still exceeds current-quarter investment, but leases and long-lived sites remain a material financing layer |
+| Alphabet 2026Q2 | US$39.1B | US$44.9B CapEx, primarily technical infrastructure | ~US$49.6B net equity raise + US$20.3B senior notes in Q2 | even a cash-rich platform can combine internal cash generation with large external capital raises when infrastructure intensity jumps |
+| Meta 2026Q2 | US$31.86B | US$31.08B CapEx including finance-lease principal | US$90.26B cash/securities; US$83.66B long-term debt | current-quarter OCF and CapEx are nearly matched; self-financing capacity exists, but balance-sheet leverage is no longer irrelevant |
+| Amazon 2026Q2 | US$45.4B | US$53.1B cash CapEx; majority supports technology infrastructure / AWS growth | TTM FCF -US$7.6B; PP&E purchases rose sharply YoY | infrastructure growth can outrun current-quarter OCF even while AWS operating income remains strong |
+
+**Definition warning:** these rows are **not** one harmonized accounting ratio.
+
+- Microsoft total CapEx includes finance-lease effects while separately reporting cash PP&E;
+- Meta CapEx includes principal payments on finance leases;
+- Amazon reports cash capital expenditures;
+- Alphabet reports conventional CapEx.
+
+Therefore Phase II does **not** rank companies by a synthetic “OCF/CapEx league table.”
+
+The robust result is directional:
+
+> **hyperscaler AI infrastructure is still supported by very large operating cash flows, but external equity, public debt, finance leases and negative/near-zero free-cash-flow outcomes are becoming more visible as infrastructure intensity rises.**
+
+This weakens two simplistic statements at once:
+
+- “hyperscalers are self-funded, therefore financing does not matter”;
+- “external financing proves AI demand is weak.”
+
+The relevant state variables are:
+- operating cash generation;
+- cash vs non-cash / lease CapEx;
+- incremental debt/equity issuance;
+- asset life;
+- customer commitments;
+- refinancing need.
+
+### 10A.5 Financing structure now separates into three layers
+
+The panel should therefore track:
+
+```text
+Layer 1 — Operating self-funding
+  OCF / retained cash generation
+
+Layer 2 — Corporate balance-sheet amplification
+  public debt / equity / finance leases
+
+Layer 3 — Project / contract-backed amplification
+  private credit / SPV / customer-contract-backed debt / supplier support
+```
+
+Microsoft / Alphabet / Meta / Amazon primarily illuminate Layers 1–2.
+
+CoreWeave / Core Scientific illuminate Layer 3.
+
+S4 risk rises when:
+- Layer 1 weakens;
+- Layer 2 becomes more expensive or dilutive;
+- Layer 3 becomes more concentrated or refinancing-dependent;
+- utilization / monetization weakens at the same time.
+
+This structure is more informative than a single “AI CapEx funded by cash or debt” binary.
+
 ### 10A.3 What remains missing
 
 The panel is deliberately incomplete.
 
 Still to backfill:
-- IG / HY OAS on a consistent quarterly aggregation basis;
+- NY Fed CMDI / IG / HY segment state on a reproducible quarterly aggregation basis;
+- Chicago Fed NFCI Credit Subindex on a reproducible quarterly aggregation basis;
 - private-credit spreads / covenants where public;
 - AI-infrastructure equity risk-premium proxy;
-- hyperscaler operating cash flow / CapEx in the same quarter table;
+- historical hyperscaler operating cash flow / CapEx before the current 2026Q2 cross-section;
 - neocloud interest expense / maturities;
 - supplier-support / guarantee amount by quarter.
 
@@ -495,7 +599,7 @@ Phase II should maintain a quarterly panel:
 | Layer | Metric |
 |---|---|
 | Rates | policy rate, 2Y, 10Y, term premium |
-| Public credit | IG / HY yields and spreads |
+| Public credit | NY Fed CMDI / rating-level CMDI; ICE IG/HY OAS as external cross-check only |
 | Bank credit | SLOOS standards and C&I demand |
 | Private credit | fundraising, spreads where available, redemptions, covenant stress |
 | Equity | AI-infrastructure valuation / equity risk premium proxies |
@@ -548,7 +652,7 @@ So the macro layer changes **scenario weights through transmission**, not throug
 
 ---
 
-## 14. v0.3 conclusion
+## 14. v0.5 conclusion
 
 The capital-cycle framework no longer treats “interest rates” as a side note.
 
@@ -564,6 +668,9 @@ The quarterly macro backbone is now populated for 2022Q1–2026Q2. The next empi
 - FRED / Federal Reserve, GS10 monthly 10-year Treasury constant maturity: https://fred.stlouisfed.org/series/GS10
 - FRED / Federal Reserve, DRTSCILM quarterly net C&I tightening standards: https://fred.stlouisfed.org/series/DRTSCILM
 - FRED / Federal Reserve, DRSDCILM quarterly net stronger C&I demand: https://fred.stlouisfed.org/series/DRSDCILM
+- Federal Reserve Bank of New York, Corporate Bond Market Distress Index (CMDI): https://www.newyorkfed.org/research/policy/cmdi
+- Federal Reserve Bank of Chicago / FRED, NFCICREDIT: https://fred.stlouisfed.org/series/NFCICREDIT
+- ICE BofA US Corporate / High Yield OAS via FRED — external cross-check only; repository does not reproduce the licensed observation history: https://fred.stlouisfed.org/series/BAMLC0A0CM ; https://fred.stlouisfed.org/series/BAMLH0A0HYM2
 - Federal Reserve, January 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202601.htm
 - Federal Reserve, April 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202604.htm
 - Federal Reserve, July 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202607.htm
@@ -576,3 +683,12 @@ The quarterly macro backbone is now populated for 2022Q1–2026Q2. The next empi
 - CoreWeave, 2026-03-31 — US$8.5B investment-grade GPU/HPC-backed financing facility: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/ex991.htm
 - Core Scientific, Q2 2026 Form 10-Q — CoreWeave customer concentration and counterparty dependence: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm
 - Core Scientific, Q2 2026 earnings materials — contract cash-flow lockbox and US$3.3B senior secured notes: https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/q2fy26earningsdeck728am.htm
+
+
+## Hyperscaler 2026Q2 / FY26Q4 financing sources
+
+- Microsoft FY2026 Q4 earnings — OCF US$55.4B; total CapEx US$41B; cash PP&E US$35.8B; finance leases US$5.6B: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
+- Alphabet Q2 2026 Form 10-Q — OCF US$39.1B; CapEx US$44.9B: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm
+- Alphabet Q2 2026 earnings exhibit — ~US$49.6B net equity raise and US$20.3B senior-note proceeds: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+- Meta Q2 2026 results — OCF US$31.86B; CapEx US$31.08B; cash/securities US$90.26B; long-term debt US$83.66B: https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx
+- Amazon Q2 2026 Form 10-Q — OCF US$45.4B; cash CapEx US$53.1B; technology infrastructure / AWS investment: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
