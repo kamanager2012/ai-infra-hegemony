@@ -31,7 +31,10 @@
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
 - **Decision Invariants**：v0.1 已建立；从 Chapter 31 的条件化战略中提炼跨 S1–S4 都成立的低后悔决策原则；
-- **China System-Stack Extension**：v0.1 已建立；补服务器/整机交付、Huawei full stack、上市公司证据地图、产业政策政治经济学，并把 design origin / foundry closure / autonomous closure 分开。
+- **China System-Stack Extension**：v0.1 已建立；补服务器/整机交付、Huawei full stack、上市公司证据地图、产业政策政治经济学，并把 design origin / foundry closure / autonomous closure 分开；
+- **Public-Proxy Scenario Dashboard**：v0.1 已建立；把 S1–S4 的 latent variables 映射到公开代理、反证、breadth 与 persistence，不制造伪阈值；
+- **Financing Reflexivity Map**：v0.1 已建立；拆分 end-demand origin、seller support、contract-backed leverage 与 downstream balance-sheet transmission，防止把同一需求链重复当成多源确认；
+- **Non-AI End-System Supply Conditions**：v0.1 已建立；把 smartphone/PC、automotive/industrial、robotics、defense/aerospace/space 分成直接共享、相邻重配与高可靠小批量三类暴露。
 
 ## 文件索引
 
@@ -45,6 +48,9 @@
 - [07 · Downstream Empirical Chains](07-downstream-empirical-chains.md)
 - [08 · Decision Invariants](08-decision-invariants.md)
 - [09 · China System-Stack Extension](09-china-system-stack-extension.md)
+- [10 · Minimum Public-Proxy Scenario Dashboard](10-public-proxy-scenario-dashboard.md)
+- [11 · Financing Reflexivity Map](11-financing-reflexivity-map.md)
+- [12 · Non-AI End-System Supply Conditions](12-non-ai-end-system-supply-conditions.md)
 
 ## 下一阶段
 
@@ -56,4 +62,5 @@
 4. P0-4 建季度 macro-financial panel，继续映射 CoreWeave / Core Scientific / hyperscaler / supplier-supported projects 的融资结构、客户集中与 contract-backed debt；
 5. 对 Decision Invariants 做 cross-scenario falsification：凡是只在某一情景成立的原则降回 conditional strategy；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
-7. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
+7. 继续补 Non-AI end-system exposure 的可审计证据，尤其是 automotive qualification、industrial longevity、trusted/space electronics 的供应连续性；只有当 AI-era transmission 能被直接观测时，才考虑把相应行业扩入正式第21章；
+8. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
