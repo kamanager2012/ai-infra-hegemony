@@ -66,7 +66,7 @@ An RFI, market inquiry, or news report cannot be rewritten as "the regulator has
 
 The European Commission continued a DMA cloud-computing market investigation in 2026.[^3]
 
-Public roundtables explicitly addressed cloud-service interoperability, financial conditions, and contractual conditions; the final report is planned for **May 2027**.[^3]
+On **July 1, 2026**, the Commission held a stakeholder roundtable covering cloud interoperability / technical features, financial conditions, and contractual / commercial practices. The final report is planned for **May 2027**.[^3][^4]
 
 Regulatory attention is therefore moving beyond price toward technical interoperability, contract terms, and switching conditions.
 
@@ -165,8 +165,21 @@ The events that need continuous monitoring are:
 
 Only these formal events are strong enough to change system-stack scenario weighting.
 
+## 12. What evidence would force this chapter to change its judgment
+
+The importance of regulation to system-stack competition should be downgraded if:
+
+- investigations do not progress toward formal proceedings;
+- final decisions do not address interoperability, tying, access, or migration;
+- remedies exist on paper but production switching costs do not materially fall;
+- physical scarcity remains the dominant buyer constraint;
+- market-structure change is driven mainly by technical substitution rather than regulation.
+
+Conversely, a headline fine is not what should increase regulatory weighting. The higher-value evidence is a binding remedy that changes interfaces, access conditions, or cross-stack migration economics.
+
 ## References
 
 [^1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
 [^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
 [^3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
+[^4]: European Commission / Digital Markets Act, stakeholder roundtable on cloud computing services, 2026-07-01, https://digital-markets-act.ec.europa.eu/commission-hosted-stakeholder-roundtable-cloud-computing-services-under-digital-markets-act-2026-07-01_en
