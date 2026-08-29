@@ -372,7 +372,7 @@ High-value falsification signals include:
 
 If these signals contradict the current mechanisms, the report must change.
 
-They cannot be explained away by saying the long-run story remains intact.
+They cannot be explained away by saying the long-run thesis remains intact.
 
 ---
 
