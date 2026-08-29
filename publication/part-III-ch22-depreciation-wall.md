@@ -95,6 +95,39 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 因此 customer concentration 与 contract duration 必须与 useful life 一起看。
 
+## 9A. Financing Structure 可以改变损失确认位置，但不能消除 Economic Obsolescence
+
+2026 年以后，越来越多 AI infrastructure 可能通过：
+
+- operating lease；
+- project finance；
+- third-party infrastructure vehicle；
+- long-duration customer contract；
+- supplier equity / credit enhancement；
+
+来融资。
+
+这会改变 depreciation、interest、lease expense、residual-value risk 出现在哪一家公司的报表里。
+
+但它不会改变一条基本关系：
+
+> **如果新一代 system 的 cost per task 显著更低，旧资产的 economic value 仍会下降。**
+
+因此：
+
+- lease 可以把 ownership risk 转移给 lessor；
+- project finance 可以把部分 risk 隔离到 SPV；
+- seller credit 可以降低前期 financing friction；
+- long-term contract 可以提高 revenue visibility；
+
+但这些结构都不能让技术过时本身消失。
+
+真正需要问的是：
+
+> **谁最终持有 residual-value risk，以及合同现金流是否足以覆盖这项风险。**
+
+这也是为什么“reported CapEx 较低”或“资产不在 hyperscaler balance sheet”不能自动解释为 infrastructure risk 已经下降。
+
 ## 10. 2036 不能由 2026 一轮折旧直接推出
 
 不同资产在不同日期投入使用、采用不同 useful life，还可能发生 impairment 或 estimate change。
@@ -111,7 +144,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 而不是已经确认的大规模 impairment cycle。
 
-折旧墙真正需要警惕的组合是：utilization 下滑、residual value 快速下降、CapEx guidance 下调、commitments 收缩和 impairment 增加同时出现。
+折旧墙真正需要警惕的组合是：utilization 下滑、residual value 快速下降、CapEx / lease / project commitments 收缩、refinancing 条件恶化和 impairment 增加相互印证。
 
 ## References
 
