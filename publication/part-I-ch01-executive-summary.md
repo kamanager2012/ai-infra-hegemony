@@ -2,7 +2,7 @@
 
 ## 1. 执行判断：仍然重要的整机，正在面对被 AI/HPC 改写的上游排队规则
 
-截至 **2026 年 8 月 28 日**，本报告研究的不是“AI 是否比手机、电脑、汽车、工业设备、机器人、航空航天或国防电子更重要”。这些整机与战略系统的重要性并没有因为 AI 上升而消失。
+截至 **2026 年 8 月 28 日**，本报告研究的不是“AI 是否比手机、电脑、游戏主机、汽车、工业设备、机器人、航空航天或高可靠电子更重要”。这些整机与战略系统的重要性并没有因为 AI 上升而消失。
 
 真正变化的是：**它们所依赖的部分共享或相邻上游资源——先进逻辑、DRAM/LPDDR/NAND、先进封装、设备、工程能力、电力与长期资本——正在被更高支付能力、更长锁量周期和更强融资能力的 AI/HPC demand 重新定价、重新排序。**
 
@@ -14,7 +14,7 @@
 
 本报告的核心判断可以压缩为六点：
 
-1. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 总供给增长与 smartphone、PC、汽车、工业等市场继续承受价格、quantity assurance 或配置压力可以同时成立。
+1. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 总供给增长与 smartphone、PC、game console、汽车、工业等市场继续承受价格、quantity assurance 或配置压力可以同时成立。
 2. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
 3. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
 4. **NVIDIA 的优势仍然很强，但竞争已经从“GPU vs ASIC”升级为“system stack vs system stack”。** Google、AWS、Microsoft、Meta 的 custom systems 正在形成第二类完整路线。
@@ -56,7 +56,7 @@ AI/HPC 的典型特征是：
 - 更强的融资与预付款能力；
 - 对先进制程、HBM、advanced packaging 与 power 的集中需求。
 
-传统 smartphone、PC、汽车与工业终端则更受零售价格、BOM、换机周期和终端需求弹性约束。
+传统 smartphone、PC、game console、汽车与工业终端则更受零售价格、BOM、换机周期和终端需求弹性约束。
 
 TSMC 2025 年 HPC platform 占全年 net revenue **58%**，smartphone 占 **29%**；到 2026 Q2，HPC platform revenue 占季度营收 **66%**，smartphone 为 **22%**，advanced technologies（7 nm 及以下）占 wafer revenue **77%**。[^4][^5] 这些是 revenue mix，不能直接换算成 customer-level wafer allocation，但它们足以说明：HPC 已成为先进制造资本形成的重要边际驱动力之一。
 
@@ -105,7 +105,7 @@ NonAI_Residual(t)
 
 这个框架能够解释一个看似矛盾的现象：
 
-> **全球 wafer、DRAM 或 packaging capacity 可以继续增长，但 smartphone、PC、汽车或工业客户仍然可能面对更高价格、更低 allocation 或更慢规格升级。**
+> **全球 wafer、DRAM 或 packaging capacity 可以继续增长，但 smartphone、PC、game console、汽车或工业客户仍然可能面对更高价格、更低 allocation 或更慢规格升级。**
 
 因此，AI 对传统产业的影响通常不是“直接全面占用产能”，而是通过 **product-mix reallocation、quantity assurance、pricing power 与 capital priority** 改变边际供给。
 
