@@ -26,7 +26,7 @@
 - **P0-1 Historical Clearing Backtest**：v0.7；已恢复 2008–2009 GFC / Enterprise IT 详细案例，把 Case A–H 统一到 first-deterioration / cross-confirmation / accounting-confirmation / trough timing matrix，并进一步收紧 A/B/C/H 的 source-level timing；新增反例显示 inventory-led clearing 中 Accounting 可以与 Market Clearing 几乎同步，因此只能说“多数长周期案例里 Accounting 更常滞后”，不能写成固定顺序；
 - **P0-2 AI Demand Elasticity Calibration**：v0.4；除 preferred E1≈-1.11、multi-homing 与 ε/σ_task 边界外，已审计 GPT-5.6 discount event 的公开数据可得性：事件窗口和聚合响应可见，但无可下载 daily raw panel，因此冻结为 Tier B descriptive event-study candidate，不制造回归系数；
 - **P0-3 Verified Workflow Economics**：v0.4；在企业 RCT ledger 上新增 1,174 人 randomized problem-solving + non-AI follow-up，开始把 assisted output 与 persistence / retained human capability 分开；完整 Cost/VSWO 仍缺 cost + human time + verification + persistence + business value 同 workflow_id 联结；
-- **P0-4 Macro-Financial Transmission**：v0.9；Meta 与 Alphabet 均已完成 2024Q1–2026Q2 quarter-level self-funding pilot；两者 2026Q2 headroom 明显压缩，但同时出现更强 debt/equity balance-sheet amplification，当前应读作 high-intensity expansion 而非 S4；CMDI official downloadable file 仍记录为 stable direct-file URL 未解析的 provenance limitation；
+- **P0-4 Macro-Financial Transmission**：v0.10；Meta、Alphabet、Microsoft 均已建立 quarter-level self-funding pilot；Microsoft 进一步拆出 cash PP&E 与 total CapEx including finance leases 两个 capital clocks，并把 FY26Q2 OpenAI RPO concentration 与 FY26Q4 non-frontier-customer RPO broadening 接入 Demand Quality；CMDI stable direct-file URL 仍未解析；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
@@ -59,7 +59,7 @@
 1. P0-1 下一步只继续压 Medium-confidence trough / stabilization 边界，并在新增样本时优先找与科技无关、可观测 utilization + financing + residual-value 的周期；
 2. P0-2 先寻找 machine-readable OpenRouter daily export / reproducible historical panel；没有原始日度数据就不做 event-time point estimate，继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
 3. P0-3 优先寻找能够在同一 workflow_id 下连接 AI cost + human time + verification + persistence + business value 的生产数据，并区分 rented capability 与 retained capability；
-4. P0-4 下一步继续解析 NY Fed CMDI stable direct-file path，并把 Microsoft / Amazon 展开成稳定口径季度表；随后接入 neocloud interest expense / maturities 与 supplier-support amounts；
+4. P0-4 下一步继续解析 NY Fed CMDI stable direct-file path，并完成 Amazon quarter-level pilot；随后把 Meta/Alphabet/Microsoft/Amazon 的 headroom + financing + demand-breadth 指标统一接入 S4 monitoring panel，再接 neocloud interest expense / maturities 与 supplier-support amounts；
 5. Decision Invariants 下一步只验证 actor-specific implementation cost：检查 10 条 hard invariants 是否在 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体上都可操作；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 继续补 Non-AI end-system response panel：优先找第二个 console platform、更多 PC OEM、automotive/industrial 的一手 procurement / lead-time / margin / qualification evidence；必须同时保留 cost-down / inventory / substitution 反证；
