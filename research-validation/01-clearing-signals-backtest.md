@@ -124,7 +124,7 @@ Chapter 24 的五类信号：
 
 - **2000 Q4**：Fed 已观察到高科技投资增速突然减速，但 telecom equipment 仍未全面转负；
 - **2001-03**：高 telecom inventories + 企业削减资本开支 + Cisco 宣布成本削减；
-- **2001-04**：Cisco 正式披露需求突然下滑、Q3 revenue 预计环比约 -30%，并形成巨额库存 provision；
+- **2001-04**：Cisco 正式披露需求突然下滑、Q3 revenue 预计环比约 -30%；其 FY2001 年报随后确认 fiscal Q3 已记录约 **US$2.25B** excess-inventory charge，全年 inventory/purchase-commitment provision 共 **US$2.77B**；
 - **2001 H2**：carrier 融资约束、过剩网络容量、破产和资本开支削减广泛出现；
 - **2002 early**：Fed 确认 2001 communications equipment investment 已下降超过 30%，且 excess capacity 继续压制需求。
 
@@ -158,7 +158,29 @@ Chapter 24 的五类信号：
 
 FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%。因此，如果只看 Q4 Gaming 和 channel inventory，会把“crypto/Gaming 子市场清算”错误升级为整个 NVIDIA 平台或整个加速计算产业崩盘。
 
-### 4.3 对 Chapter 24 的意义
+## 4.3 Timing tightening
+
+Source-level timing now supports a narrower sequence:
+
+- **2018 Aug (FY2019 Q2):** NVIDIA still reported record platform revenues; this is a strong contrary signal against dating systemic clearing too early;
+- **2018 Nov (FY2019 Q3):** NVIDIA publicly identified **excess channel inventory post the cryptocurrency boom**;
+- **2019 Jan 28:** Q4 revenue guidance was cut from US$2.70B to US$2.20B; NVIDIA said it had delayed planned production ramps to let channel inventory clear;
+- **FY2019 Q3–Q4 reporting:** inventory / component charges confirmed the accounting impact;
+- **2019 H1:** channel inventory was expected to normalize over roughly one to two quarters.
+
+Research-side timing label:
+
+| Timing field | Case B |
+|---|---|
+| First public deterioration | 2018 Q4 / Nov-2018 disclosure |
+| Cross-confirmation | 2019 Jan |
+| Accounting confirmation | FY2019 Q3–Q4 |
+| Trough / stabilization | 2019 H1 |
+| Confidence | Medium–High |
+
+The August 2018 all-platform record quarter matters because it prevents backdating the clearing signal merely because crypto demand had already started falling.
+
+### 4.4 对 Chapter 24 的意义
 
 这一案例暴露出一个必须写进未来判定协议的限制：
 
@@ -266,6 +288,33 @@ Case D 固定一条规则：
 真正需要的是：
 
 > **不同 shock-entry path 下，多类独立信号形成足够广的 cross-confirmation。**
+
+## 5.3 Timing tightening
+
+Case C is useful because Accounting did **not** materially lag Market Clearing.
+
+On **2022-08-08**, NVIDIA disclosed:
+- total revenue approximately US$6.70B versus US$8.10B outlook;
+- Gaming revenue -44% q/q;
+- lower sell-in following reduced channel-partner sales;
+- pricing programs with channel partners;
+- approximately **US$1.32B** of inventory / related charges based on revised demand expectations.
+
+The finalized Q2 FY2023 release on **2022-08-24** then said OEMs / channel partners would continue reducing inventory into Q3, while Data Center was expected to grow sequentially.
+
+Research-side timing label:
+
+| Timing field | Case C |
+|---|---|
+| First public deterioration | 2022 Aug 8 |
+| Cross-confirmation | 2022 Aug 8–24, but only at segment level |
+| Accounting confirmation | 2022 Aug — nearly synchronous with clearing |
+| Trough / stabilization | 2022 H2–2023 H1; AI/Data Center side reversed earlier than Gaming |
+| Confidence | High for first signal; Medium for trough |
+
+This is an important counterexample to an overly simple timing rule:
+
+> **Accounting often lags in long-duration capital cycles, but inventory-led clearing can produce accounting confirmation almost immediately.**
 
 ---
 
@@ -488,6 +537,24 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 > **Market Clearing / Utilization 通常早于 Accounting。**
 
+## 9.2A Timing tightening
+
+Additional source-level evidence narrows the start of the solar clearing:
+
+- one 2011 equipment supplier reported a **mid-year deterioration** in LED & Solar orders, with orders slowing sharply in **Q3–Q4 2011** after a Q2 peak;
+- a 2011 solar-industry filing described worldwide panel overcapacity and inventory, difficult project financing, and panel prices that had already been declining for several quarters by **2011 Q3**;
+- 2012 filings then supplied the stronger utilization / capacity-rationalization / impairment confirmation.
+
+Revised research-side timing label:
+
+| Timing field | Case H |
+|---|---|
+| First deterioration | 2011 mid-year / Q3 |
+| Cross-confirmation | 2011 Q3–Q4 |
+| Accounting confirmation | 2012 reporting cycle |
+| Trough / stabilization | 2013–2014 |
+| Confidence | High for first deterioration; Medium–High for trough |
+
 ## 9.3 对 Chapter 24 的意义
 
 这个案例强化三点：
@@ -506,21 +573,22 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 | Case | First deterioration | Cross-confirmation | Accounting confirmation | Trough / stabilization | Timing confidence |
 |---|---|---|---|---|---|
-| A · 2000–2002 Internet/Telecom | 2000 Q4 | 2001 Mar–Apr | 2001 Apr / FY2001 | 2002 H1–H2，恢复边界较模糊 | Medium–High |
-| B · 2018–2019 Crypto/GPU | 2018 H2 | 2018 Q4–2019 Jan | FY2019 Q3–Q4 | 2019 H1 | Medium |
-| C · 2022–2023 GPU + Cloud Optimization | 2022 Q2 | 2022 Q3–Q4，但 system breadth 不成立 | FY2023 reporting cycle | 2022 H2–2023 H1；AI side 随后快速反转 | Medium |
+| A · 2000–2002 Internet/Telecom | 2000 Q4 | 2001 Mar–Apr | FY2001 Q3 (Apr-2001 charge), annual confirmation later | 2002 H1–H2，恢复边界较模糊 | High for confirmation; Medium for trough |
+| B · 2018–2019 Crypto/GPU | 2018 Q4 / Nov disclosure | 2019 Jan | FY2019 Q3–Q4 | 2019 H1 | Medium–High |
+| C · 2022–2023 GPU + Cloud Optimization | 2022 Aug 8 | 2022 Aug 8–24，但 system breadth 不成立 | 2022 Aug，inventory charge 几乎同步 | 2022 H2–2023 H1；AI side 更早反转 | High for first signal; Medium for trough |
 | D · 2008–2009 GFC / Enterprise IT | 2007 Q4–2008 H1 | 2008 Q4 | **No qualifying hard accounting signal** | 2009 H1 trough / H2 stabilization | High |
 | E · 2001–2003 Semiconductor | 2000 H2 | 2001 H1 | 2001 H2–2002 | 2003 recovery | High |
 | F · 2014–2016 Oil & Gas Upstream | 2014 H2 | 2015 H1–H2 | 2015–2016 reporting | 2016 Q2–Q4 | High |
 | G · 2018–2019 Hyperscale Cloud Digestion | 2019 CapEx deceleration | **No systemic cross-confirmation** | None | N/A — negative control | High |
-| H · 2011–2013 Solar PV Manufacturing | 2011 H2 | 2012 H1 | 2012 reporting cycle | 2013–2014 | Medium–High |
+| H · 2011–2013 Solar PV Manufacturing | 2011 mid-year / Q3 | 2011 Q3–Q4 | 2012 reporting cycle | 2013–2014 | High / Medium–High |
 
 ### 10.1 目前能看出的 lead / lag
 
 在当前小样本中，最稳定的方向不是某个精确月数，而是：
 
-1. **Market Clearing / Utilization 往往早于或同步于 Accounting。**
-   - Semiconductor、Oil & Gas、Solar 最明显。
+1. **Market Clearing / Utilization 往往早于或同步于 Accounting，但不是固定顺序。**
+   - Semiconductor、Oil & Gas、Solar 最明显；
+   - 2022 NVIDIA inventory-led correction 中，inventory charge 与 pricing/channel-clearing 几乎同步出现。
 2. **Forward Commitment 常在 Accounting 之前恶化。**
    - Telecom、GFC、Oil & Gas、Solar 都出现先削减 / 推迟资本承诺，再由财务报表确认。
 3. **Financing 的位置取决于 shock-entry path。**
@@ -705,3 +773,15 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
   https://www.sec.gov/Archives/edgar/data/1375877/000104746914000764/a2218242z424b5.htm
 - Solar financing disclosure — credit-market contraction and higher financing costs caused project cancellations, postponements, and scale-backs:  
   https://www.sec.gov/Archives/edgar/data/1481513/000119312510120053/d424b4.htm
+
+
+## Timing-tightening sources added in v0.7
+
+- Cisco FY2001 Annual Report — fiscal Q3 excess inventory charge US$2.25B; FY2001 inventory / purchase-commitment provision US$2.77B: https://www.cisco.com/c/dam/en_us/about/ac49/ac20/downloads/annualreport/ar2001/pdf/AR.pdf
+- NVIDIA 2018 Q2 FY2019 results — record platform revenues in August 2018, used as contrary evidence against backdating the crypto clearing: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2019
+- NVIDIA 2018 Q3 FY2019 results — excess channel inventory post crypto boom publicly identified: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2019
+- NVIDIA 2019-01-28 shareholder letter / guidance update — production-ramp delay and 1–2 quarter channel-inventory depletion expectation: https://www.sec.gov/Archives/edgar/data/1045810/000104581019000004/shareholderletter.htm
+- NVIDIA 2022-08-08 preliminary Q2 FY2023 results — Gaming -44% q/q, channel pricing programs and ~US$1.32B inventory-related charges disclosed together: https://nvidianews.nvidia.com/news/nvidia-announces-preliminary-financial-resultsfor-second-quarter-fiscal-2023
+- NVIDIA 2022-08-24 Q2 FY2023 results — ongoing OEM/channel inventory reduction into Q3 with Data Center growth counterevidence: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2023
+- 2011 solar-equipment filing — mid-year deterioration, Q3–Q4 order slowdown after Q2 peak: https://www.sec.gov/Archives/edgar/data/103145/000104746913010200/a2217194z10-k.htm
+- 2011 solar-industry filing — worldwide panel overcapacity/inventory, difficult project financing, multi-quarter panel-price decline by Q3 2011: https://www.sec.gov/Archives/edgar/data/927003/000095012311096521/c23205e10vq.htm
