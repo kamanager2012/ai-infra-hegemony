@@ -1,4 +1,4 @@
-# Part II · Chapter 17: China's Parallel Stack — From Product Substitution to Frontier System Closure
+# Part II · Chapter 17: China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure
 
 ## 1. "It can run" and "it forms an equivalent system" are not the same standard
 
@@ -227,21 +227,42 @@ It can widen short-term performance/scale gaps while strengthening the long-run 
 
 The final outcome depends on R&D efficiency, capital allocation, ecosystem adoption, and supply scaling—not policy alone.
 
-## 11. Seven Frontier System Closure Gates
+## 11. Two levels of closure: Production-Grade Parallel Stack and Autonomous Frontier Closure
 
-This report treats "China has formed a complete frontier-AI parallel stack" as fact only when all seven gates reach verifiable scale:
+Treating "production substitution" and "full autonomy" as one threshold creates two opposite analytical errors.
 
-1. advanced accelerators can be delivered at scale;
-2. HBM-class memory can be delivered at scale;
-3. advanced packaging can be delivered at scale;
-4. high-speed interconnect can support large clusters;
-5. compiler/runtime migration cost is acceptable;
-6. frontier workloads can run stably;
-7. system cost / utilization / power are sustainable.
+The report therefore separates them.
 
-These gates change the question from "Does a domestic product exist?" to "Can a production-grade system be sustained?"
+### 11.1 Production-Grade Parallel Stack
 
-A persistent weakness in any one gate can limit system-level equivalent substitution.
+A substitute system should be considered production-grade only when the following can operate at verifiable scale:
+
+1. accelerator / compute delivery;
+2. HBM-class or equivalent memory subsystem;
+3. advanced packaging / integration;
+4. high-speed scale-up / scale-out interconnect;
+5. compiler/runtime with acceptable migration cost;
+6. frontier or high-value production workloads with sustained feedback;
+7. system utilization, reliability, power, and economics.
+
+This standard asks whether the system works commercially in real workloads.
+
+It does **not** require every component, tool, or material to be domestic.
+
+### 11.2 Autonomous Frontier Closure
+
+A higher standard applies when the question is whether the stack can continue scaling and advancing when critical external inputs are constrained.
+
+That additionally requires:
+
+8. **advanced-manufacturing continuity:** equipment, software, materials, spares, field service, and process upgrades remain available or substitutable;
+9. **infrastructure / capital continuity:** HBM, packaging, LPS/power, and long-duration capital can support multi-generation expansion.
+
+Therefore:
+
+> **production-grade substitution ≠ full technological autonomy**
+
+Import dependence does not prove that no production-grade parallel stack exists. Conversely, successful production deployment does not prove autonomous frontier closure.
 
 ## 12. The real effect on global resource competition
 
