@@ -412,7 +412,7 @@ It is changing:
 - the industrial role of hyperscalers and model companies;
 - the strategic value of power and data-center infrastructure;
 - the residual capacity available to traditional device markets;
-- the shift in Agent-native Software from seat economics toward verified-workflow economics;
+- the shift in Agent-Native Software from seat economics toward verified-workflow economics;
 - the transition in Physical AI from technical demo toward utilization, reliability, and capital payback;
 - labor-market restructuring from task automation through workflow redesign;
 - the migration of talent value from "using models" toward workflow/system engineering and verification;
