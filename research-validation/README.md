@@ -23,10 +23,10 @@
 
 ## 当前状态
 
-- **P0-1 Historical Clearing Backtest**：v0.8；Prospective Adjudication Protocol 已完成首轮四路径 replay：B crypto/GPU（inventory-led）、D GFC/Enterprise IT（financing-led）、G hyperscale digestion（negative control）、H solar overcapacity（manufacturing-led）；结果显示协议能延迟过早 clearing call、允许无 Accounting 的 broad confirmation、被反证降级，并把 Stabilization Candidate 与 ex-post trough 分开；
+- **P0-1 Historical Clearing Backtest**：v0.9；在 B/D/G/H 四路径 prospective replay 之后，已补完 2013–2014 Solar recovery contemporaneous replay；新增对称规则 **Recovery confirmation inherits the same layer / breadth discipline as clearing**：2013 只能维持 Stabilization Candidate，直到 2014 equipment orders + sales + operating economics 同向改善后才升级 equipment-supplier-layer Recovery Confirmed，同时明确不等于 full industry normalization；
 - **P0-2 AI Demand Elasticity Calibration**：v0.5；OpenRouter 已新增可复现 `GET /api/v1/datasets/rankings-daily` 数据路径，覆盖自 2025-01-01 起 daily top-50 model token totals + `other`；GPT-5.6 discount event 因此从 data-unavailable 升级为 data-accessible-but-not-yet-estimated，但必须先审计 Terra/Luna/Sol top-50 coverage、piecewise price path、tokenizer comparability 与 public-traffic boundary；
-- **P0-3 Verified Workflow Economics**：v0.5；新增 515 家 startup 的 Mapping AI into Production firm-performance bridge、Alibaba customer-service persistence counterexample 与 property-tax action-completion case，并把闭环固定为 Productivity → Cost → Economic 三层；完整 Level-3 仍要求同一 workflow_id 联结 AI/tool cost + human time + verification + persistence + realized business value；
-- **P0-4 Macro-Financial Transmission**：v0.18；方法层已与可维护数据层分离：04A public-credit/macros、04B hyperscaler quarterly capital intensity、04C project-finance borrowers、04D supplier/sponsor support；主文件只保留 transmission logic 与 S4 cross-confirmation rules；
+- **P0-3 Verified Workflow Economics**：v0.6；完成 public Level-3 workflow-ID candidate audit。METR 246 个 OSS issue 是目前最接近公开 task-ID telemetry 的样本，可联结 treatment + implementation time + 部分 review-to-merge time，但仍缺同 ID 的 AI cost / durable persistence / realized business value；Klarna 则公开约 US$40M annualized savings 但只有 aggregate economics。结论保持严格：**跨研究拼接 ≠ workflow-ID closure，目前仍没有在同一 workflow_id 完整关闭 Level-3 的公开生产数据集**；
+- **P0-4 Macro-Financial Transmission**：方法主文件继续保持 v0.18，不扩张；数据层继续推进。04C 已升 v0.2，新增 facility-level longitudinal state ledger（committed → drawn → delivery → monetization → refinance/stress）；04D 已升 v0.2，新增 support activation ledger，严格分离 maximum exposure / effective exposure / triggered obligation / funded cash loss；
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
@@ -62,10 +62,10 @@
 
 优先继续深化而不是扩题：
 
-1. P0-1 四路径 prospective replay 已完成；下一步不拟合 score，优先补 2013–2014 Solar recovery 的 contemporaneous replay，并再找 1 个真正独立 negative control 验证 de-escalation；
+1. P0-1 Solar recovery contemporaneous replay 已完成；下一步仍不拟合 score，优先找 **1 个真正独立 negative control** 验证 de-escalation，并继续测试 recovery 是否能在其他资本周期保持同层级 / 同广度纪律；
 2. P0-2 下一步直接按 OpenRouter Rankings Daily API 构建 Terra/Luna/Sol common-window model-day panel；先做 top-50 censoring / slug / `as_of` / price-path 审计，通过后才估 event-time effect，并继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
-3. P0-3 下一步只追 Level-3 Economic Closure：同一 workflow_id 下连接 AI/tool cost + human time + verification + persistence + realized business value；同时把 use-case mapping/discovery cost 纳入 adoption economics；
-4. P0-4 下一步在 04A–04D 附录中维护数据，不再扩张主方法文件；继续解析 NY Fed CMDI stable direct-file path，并优先补 facility-level changes、project monetization/delivery、support drawdown 与 guarantee activation state；
+3. P0-3 public candidate audit 已完成但 Level-3 仍未关闭；下一步只接受两类升级：公开/可审计的同一 workflow_id 全链数据，或按当前 schema 前瞻构造的一手企业数据；继续禁止把 task-level time 与另一个组织的 aggregate savings 拼成虚假 ROI；
+4. P0-4 继续只维护 04A–04D 数据附录，不扩张主方法文件；04C/04D 已建立 facility/support 状态机，下一步按季度追 draw ratio、ready-for-service / commencement、facility-level monetization、DSCR/covenant、refinancing、guarantee phase activation / step-down；04A 继续解析 NY Fed CMDI stable direct-file path，04B 继续维护 hyperscaler capital-intensity panel；
 5. Decision Invariants actor-specific implementation-cost test 已完成；下一步只在真实案例出现时验证 implementation burden 是否与 L/M/H 分类一致，不再扩充 hard-invariant 数量；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 继续补 Non-AI end-system response panel：优先找第二个 console platform、更多 PC OEM、automotive/industrial 的一手 procurement / lead-time / margin / qualification evidence；必须同时保留 cost-down / inventory / substitution 反证；
