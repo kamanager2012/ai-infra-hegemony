@@ -6,7 +6,7 @@ AI infrastructure 的资本开支已经进入极高水平，但投资规模本�
 
 因此，本报告不使用一个 CapEx 总额、一个估值倍数或一次科技股回撤作为“泡沫已破”的证据。S4 Capital Hard Landing 需要多类产业信号同步恶化。
 
-## 2. 四类清算信号
+## 2. 五类清算信号
 
 ### 2.1 Accounting
 
@@ -137,14 +137,17 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 ## 9. 什么才叫 S4 Capital Hard Landing
 
-本报告只有在以下四类变量出现同步恶化时，才把 S4 从压力测试上调为现实主情景：
+本报告只有在以下五类变量出现广泛、持续且相互印证的恶化时，才把 S4 从压力测试上调为现实主情景：
 
 1. **Accounting**：impairment / write-down / disposal 明显增加；
 2. **Utilization / Revenue**：利用率与有效 AI revenue 持续弱于资产扩张；
 3. **Market Clearing**：二手价格、租赁价格、交期、HBM/packaging clearing 同步转松；
-4. **Forward Commitment**：CapEx guidance、seller commitments、Anchor Buyer contracts 与 power commitments 同时放缓或取消。
+4. **Forward Commitment**：CapEx guidance、seller commitments、Anchor Buyer contracts 与 power commitments 明显放缓、改期或取消；
+5. **Demand Quality / Financing**：customer cash generation 走弱，supplier equity / credit support 或 refinancing dependency 上升，且第三方资本开始要求更高 risk premium 或缩减承诺。
 
-股价下跌、模型价格下降、某一季毛利波动或一个历史压力测试不满足，都不足以单独证明 S4。
+这里不要求五类信号在同一个季度同时出现，因为 accounting、project finance 与 market clearing 的时钟不同。
+
+但如果只有一个维度恶化，例如股价下跌、模型价格下降、某一季毛利波动或 seller support 增加，而 utilization 与 monetization 仍然健康，都不足以单独证明 S4。
 
 ## 10. 当前判断
 
