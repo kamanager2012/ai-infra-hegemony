@@ -20,7 +20,7 @@ The report separates:
 - conditional future states (S — Scenario);
 - observable reverse signals that would force judgments to change (X — Falsification).
 
-The objective is not to produce one deterministic 2036 forecast. It is to build an industrial-analysis framework that can be updated as public evidence changes.
+The objective is not to produce one deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be continuously tested against later public evidence. Facts emerging after **August 28, 2026** may be used to re-evaluate or falsify the framework or to initiate a new research cycle, but they do not automatically enter the frozen formal text or the report's evidence snapshot unless the text freeze is explicitly reopened.
 
 ## Evidence boundary
 
