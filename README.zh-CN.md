@@ -27,7 +27,7 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 - smartphone、PC、automotive、industrial 等传统终端的 residual capacity；
 - 中国 production-grade parallel stack 与 autonomous frontier closure；
 - AI infrastructure CapEx、折旧、融资与资本清算；
-- Agent-native Software、Physical AI、劳动市场与人才体系；
+- Agent-Native Software、Physical AI、劳动市场与人才体系；
 - 2026–2036 的条件化产业情景。
 
 这些主题并不是彼此独立的章节集合，而是同一条产业传导链上的不同环节：
@@ -158,7 +158,7 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 
 ### 10. 基础设施最终必须由“可验证工作流产出”完成需求侧闭环
 
-AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。Agent-native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
+AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。Agent-Native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
 
 > **单位可验证工作流结果需要多少 Compute、Energy、Human Review 与 Capital，产生的业务价值能否持续覆盖这些成本。**
 
