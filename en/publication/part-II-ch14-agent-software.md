@@ -14,6 +14,18 @@ toward:
 
 > **workflow execution**
 
+## 1A. 2026 adoption baseline: AI is widespread, but agent deployment remains early
+
+Stanford AI Index 2026 reports that **88%** of surveyed organizations say they use AI and **70%** use Generative AI in at least one business function. Yet AI-agent deployment remains in the **single digits across nearly all business functions**.[^3]
+
+The correct reading is not a fixed penetration forecast. It is a stage-of-market distinction:
+
+> **Broad AI adoption has already occurred, while production-grade autonomous or semi-autonomous workflow deployment is still early.**
+
+That creates a large potential workflow pool, but production reliability, review burden, integration cost, and unit economics have not yet been proven at the same scale.
+
+Anthropic's June 2026 Economic Index also reports that its product usage has shifted toward more long-running agentic tasks and that higher compute use is associated with higher estimated artifact value.[^4] Because this is first-party product telemetry, it should not be treated as representative of the entire enterprise-software market.
+
 ## 2. There is no universal end-state for "AI SaaS gross margin"
 
 Variable cost differs by product and depends on model choice, context length, caching, retrieval, tools/APIs, failure/retry rates, human review, pricing model, and task depth.
@@ -154,6 +166,8 @@ The dividing line is:
 
 [^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
 [^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” organizational AI adoption, Generative AI use, and early-stage agent deployment, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
+[^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, long-running agentic tasks and the relationship between compute use and estimated artifact value; first-party product sample, https://www.anthropic.com/research/economic-index-june-2026-report
 
 ## Cross-references
 
