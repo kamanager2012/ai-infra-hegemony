@@ -64,6 +64,8 @@ The current core trends continue:
 
 The market continues expanding rapidly while value capture remains concentrated in a small number of system platforms and scarce-layer suppliers.
 
+For traditional end systems, S2 is not merely background: **high growth and high concentration can coexist with tighter Non-AI Residual Capacity, differentiated quantity assurance, slower configuration upgrades, or an upgrade tax.** This does not mean every end market is shrinking; it means the benefits of growth and the burden of resource pressure can sit at different points in the value chain.
+
 As of August 2026, this is the **baseline state** that best matches the current evidence mix.
 
 It is not a fixed ten-year forecast.
