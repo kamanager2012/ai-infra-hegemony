@@ -24,6 +24,22 @@
 
 长期产业结构主要取决于五个问题。
 
+**Table 31.1 — 长期战略判断使用的核心结构变量与来源章节**
+
+| 核心结构变量 | 来源章节 |
+|---|---|
+| NVIDIA system stack / switching cost | [Part I · Ch02](part-I-ch02-nvidia-system-stack.md) |
+| HBM / memory resource intensity | [Part I · Ch05](part-I-ch05-hbm-memory.md) |
+| Advanced Packaging / CoWoS | [Part I · Ch06](part-I-ch06-advanced-packaging.md) |
+| Power / Time-to-Power | [Part I · Ch07](part-I-ch07-power-constraint.md) |
+| Hyperscaler second system stack | [Part II · Ch12](part-II-ch12-hyperscaler-system-stack.md) |
+| China production-grade parallel stack / autonomous frontier closure | [Part II · Ch17](part-II-ch17-china-parallel-stack.md) |
+| Value Capture Map | [Part III · Ch20](part-III-ch20-value-capture-map.md) |
+| Capital clearing / S4 signals | [Part III · Ch24](part-III-ch24-capital-clearing.md) |
+
+**Source:** 本报告章节架构。  
+**Note:** 本章继承前文已经建立的事实与机制，不重复高影响数字表和物理公式。
+
 ### 2.1 System Portability
 
 不同 system stack 之间的 workload 能否以可接受成本迁移？
@@ -176,7 +192,7 @@ portability 不意味着所有供应商平均采购。
 
 AI 相关资产至少可以分成四类：
 
-**Table 31.1 — AI 相关资产的主要价值来源与风险**
+**Table 31.2 — AI 相关资产的主要价值来源与风险**
 
 | 资产 | 主要价值来源 | 主要风险 |
 |---|---|---|
