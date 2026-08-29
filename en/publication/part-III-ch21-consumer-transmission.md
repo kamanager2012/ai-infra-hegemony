@@ -10,7 +10,7 @@ Consumer products and AI/server systems share several upstream layers:
 - power-management components;
 - selected packaging.
 
-The transmission mechanism is therefore not "AI takes every chip."
+The transmission mechanism is therefore not "AI absorbs all chip supply."
 
 It is:
 
@@ -174,7 +174,7 @@ This is important because it shows that:
 
 Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of the shock. Smaller OEMs are more exposed to the combination of higher prices and lower allocations.
 
-## 9.2 HDD and SSD: not a one-way "SSD kills HDD" story
+## 9.2 HDD and SSD: not a one-way "SSD fully replaces HDD" thesis
 
 AI data-center storage is becoming a segmented market.
 
