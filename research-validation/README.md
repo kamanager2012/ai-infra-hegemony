@@ -30,7 +30,7 @@
 - **P1 Geopolitical Scenario Layer**：v0.1 已建立；新增 G1–G5：Taiwan continuity、export-control regime、allied coordination、China autonomous closure、bloc fragmentation；
 - **P1 Conditional Timeline**：v0.1 已建立；把 2026–2036 时间线改造成 condition → milestone → contrary signal 的 research-side rewrite map；
 - **P2 Downstream Empirical Chains**：v0.1 已建立；固定 Labor / Education / Physical AI 的最低实证链与证据边界；
-- **Decision Invariants**：v0.2；已完成 S1–S4 cross-scenario falsification，将 hard set 从 12 个候选压缩为 10 条；“持续维护第二生产路径”“偏好自融资需求”“优先 transferability”降为 conditional strategy；
+- **Decision Invariants**：v0.3；在 S1–S4 falsification 之后完成 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体 implementation-cost test；10 条 hard invariants 全部保留，但 Invariant 1 改为 decision-relevant verified outcome、Invariant 5 改为 stage-gate irreversible commitments，并明确 hard invariant ≠ high-cost action；
 - **China System-Stack Extension**：v0.1 已建立；补服务器/整机交付、Huawei full stack、上市公司证据地图、产业政策政治经济学，并把 design origin / foundry closure / autonomous closure 分开；
 - **Public-Proxy Scenario Dashboard**：v0.5；在 refinancing exposure / realized stress 分离基础上，Axis G 已新增 Seller / Sponsor Support protocol；支持强度上升只在独立资本、客户经济性与 refinancing 同时恶化时才成为 S4 amplifier；
 - **Financing Reflexivity Map**：v0.2；新增 2026 Support Taxonomy，把 seller equity、lease/payment guarantees、vendor/OEM finance、third-party capital mobilization 与 customer prepayment 分开，并固定 guarantee cap / support commitment ≠ funded CapEx ≠ independent demand；
@@ -66,7 +66,7 @@
 2. P0-2 下一步直接按 OpenRouter Rankings Daily API 构建 Terra/Luna/Sol common-window model-day panel；先做 top-50 censoring / slug / `as_of` / price-path 审计，通过后才估 event-time effect，并继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
 3. P0-3 下一步只追 Level-3 Economic Closure：同一 workflow_id 下连接 AI/tool cost + human time + verification + persistence + realized business value；同时把 use-case mapping/discovery cost 纳入 adoption economics；
 4. P0-4 下一步在 04A–04D 附录中维护数据，不再扩张主方法文件；继续解析 NY Fed CMDI stable direct-file path，并优先补 facility-level changes、project monetization/delivery、support drawdown 与 guarantee activation state；
-5. Decision Invariants 下一步只验证 actor-specific implementation cost：检查 10 条 hard invariants 是否在 enterprise / hyperscaler / supplier / infrastructure developer / capital provider / policymaker 六类主体上都可操作；
+5. Decision Invariants actor-specific implementation-cost test 已完成；下一步只在真实案例出现时验证 implementation burden 是否与 L/M/H 分类一致，不再扩充 hard-invariant 数量；
 6. China extension 继续补 server-vendor / accelerator / foundry / policy 的可审计矩阵；已确认的重大口径错误才按冻结规则同步回正式 ch17；
 7. 继续补 Non-AI end-system response panel：优先找第二个 console platform、更多 PC OEM、automotive/industrial 的一手 procurement / lead-time / margin / qualification evidence；必须同时保留 cost-down / inventory / substitution 反证；
 8. Developer Distribution Chokepoint 后续只跟踪交易正式状态、ranking/backend neutrality、multi-vendor parity、deployment friction、model-creator multi-homing 与监管 remedy；不把单一 UI/default 变化升级成 foreclosure。
