@@ -12,7 +12,7 @@
 
 ## 报告定位
 
-本报告是一份关于 AI infrastructure、semiconductors、memory、advanced packaging、hyperscaler system stacks、power、capital、Agent-native Software、Physical AI、劳动与人才体系，以及产业结构变化的长期行业研究。正文共 32 章。
+本报告是一份关于 AI infrastructure、semiconductors、memory、advanced packaging、hyperscaler system stacks、power、capital、Agent-Native Software、Physical AI、劳动与人才体系，以及产业结构变化的长期行业研究。正文共 32 章。
 
 报告区分：
 
