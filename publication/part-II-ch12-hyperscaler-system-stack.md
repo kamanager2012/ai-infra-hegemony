@@ -180,7 +180,7 @@ CapEx 上升既可能支持 NVIDIA 出货，也可能同时加速 NVIDIA 的替�
 
 ---
 
-## 9. Algorithmic Efficiency 是独立变量，不应塞进 Custom Silicon 章节
+## 9. Algorithmic Efficiency 是独立变量，不应与 Custom Silicon 归入同一分析轴
 
 算法与架构效率会直接影响 system demand，但它与 hyperscaler custom silicon 是不同竞争轴。
 
@@ -256,7 +256,7 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 但 internal success 仍然足以改变 hyperscaler 的采购结构、议价能力和长期 platform-profit distribution。
 
-## 11. 长期均衡更可能是 Workload Segmentation，而不是单方清场
+## 11. 长期均衡更可能是 Workload Segmentation，而不是单方全面替代
 
 最现实的长期格局更可能是 workload segmentation。
 
