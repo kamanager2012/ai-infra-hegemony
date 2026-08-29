@@ -140,6 +140,52 @@ This can produce two effects that point in opposite directions yet coexist:
 
 Successful cloud custom silicon does not automatically relieve upstream physical scarcity.
 
+## 7A. Reported Hugging Face transaction: platform power may extend from runtime into developer distribution
+
+On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of this report's evidence cutoff on **August 28, 2026**, this report had not obtained a formal NVIDIA or Hugging Face announcement confirming closing, final transaction conditions, or regulatory approval. It is therefore recorded as a **reported transaction**, not as a completed consolidation fact.
+
+Hugging Face is strategically relevant because it is not merely a model-download website. Its official product surface spans the Hub, models, datasets, Spaces, Transformers, and inference/deployment products, connecting model discovery, asset distribution, tooling, evaluation, and deployment.[^6]
+
+If the reported transaction ultimately closes, NVIDIA's platform boundary could extend from:
+
+> **accelerator → CUDA/runtime → networking → rack/system**
+
+toward:
+
+> **accelerator → CUDA/runtime → model discovery/distribution → deployment path**
+
+That creates a potential reinforcing loop:
+
+**hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand.**
+
+This report calls the mechanism a **Developer Distribution Chokepoint**, but does not pre-label it as completed software monopoly.
+
+The key question is not whether non-NVIDIA hardware remains technically present on Hugging Face. It is whether ownership changes lead to persistent and measurable bias in the platform's defaults:
+
+- default model-page / benchmark emphasis toward NVIDIA runtimes;
+- preferred inference / endpoint backends;
+- ranking or visibility of NVIDIA-optimized artifacts, quantization paths, containers, or deployment flows;
+- weakening first-class support for ROCm, XLA, CPU, or other accelerators;
+- rising migration friction away from NVIDIA;
+- stronger commercial incentives for model creators to publish NVIDIA-optimized variants first.
+
+This risk is distinct from conventional CUDA lock-in. CUDA lock-in mainly operates after a workload has selected the NVIDIA execution environment. A developer-distribution chokepoint can act earlier:
+
+> **model discovery → tool selection → runtime selection → deployment → accelerator.**
+
+It can therefore move platform lock-in upstream into the developer funnel.
+
+### 7A.1 Counter-boundaries
+
+Even if the transaction closes, full software foreclosure would not automatically follow:
+
+- open-weight models can be mirrored, self-hosted, or distributed across multiple registries;
+- Hugging Face has historically operated as a multi-framework / multi-vendor ecosystem;
+- model weights, open libraries, and alternative hubs preserve some portability;
+- competitors can reduce single-point dependence through independent registries, runtimes, cloud distribution, and neutral-foundation governance.
+
+The mechanism should gain weight only if **ranking, interoperability, deployment friction, and real workload distribution** change persistently.
+
 ## 8. What would count as genuine erosion of the moat
 
 The NVIDIA system moat should not be judged from product-launch count or single-chip performance. The structure weakens only if several of the following variables move together:
@@ -182,3 +228,7 @@ A single custom-chip announcement, one-quarter market-share move, or theoretical
 [^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+
+
+[^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
+[^6]: Hugging Face official documentation for Hub, models, datasets, Spaces, Transformers, and inference/deployment products, https://huggingface.co/docs
