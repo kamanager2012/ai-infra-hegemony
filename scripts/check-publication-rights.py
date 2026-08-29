@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail when Publication Layer embedded media lacks an explicit rights record."""
+"""Check that embedded media in the formal bilingual report has an explicit rights record."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -44,7 +44,7 @@ def main() -> int:
         return 1
 
     print(
-        "publication media rights gate PASS: "
+        "publication media rights check PASS: "
         f"embedded assets={len(found)}, manifest entries={len(allowed)}"
     )
     return 0
