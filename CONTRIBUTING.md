@@ -2,7 +2,7 @@
 
 This repository welcomes factual corrections, source upgrades, mechanism challenges, counter-evidence, falsification signals, and translation improvements. Unsupported estimates must not be rewritten as confirmed facts.
 
-The Chinese 32-chapter publication edition on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
+The Chinese 32-chapter formal report on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
 
 ## Start with these files
 
