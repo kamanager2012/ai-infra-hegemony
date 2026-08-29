@@ -1,4 +1,4 @@
-# Phase II · Decision Invariants v0.1
+# Phase II · Decision Invariants v0.2
 
 > **Status:** Research-side strategic layer; not part of the frozen 32-chapter formal report.  
 > **Goal:** identify low-regret principles that remain valid across S1–S4, rather than giving one strategy per scenario.
@@ -314,6 +314,115 @@ This applies to:
 
 ---
 
+# 13A. Cross-S1–S4 falsification test
+
+v0.2 applies the file's own standard literally:
+
+> **if a recommendation fails in any scenario, it is not a hard invariant.**
+
+The result is stricter than v0.1.
+
+| Principle | S1 | S2 | S3 | S4 | v0.2 classification |
+|---|---|---|---|---|---|
+| Measure verified workflow economics | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Maintain a production-like second path | Conditional | Pass | Pass | Conditional | **Demote** |
+| Match commitment duration to demand certainty | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Separate asset clocks | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Stage-gate physical capacity | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Measure scarce layers separately | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Separate buyer economics from seller economics | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Classify financing quality separately from quantity | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Prefer independently self-funded demand | Conditional | Usually | Usually | Conditional | **Demote preference** |
+| Trigger by state changes, not calendar dates | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Price resilience rather than maximize redundancy | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Keep falsification variables beside commitments | Pass | Pass | Pass | Pass | **Hard invariant** |
+| Prefer transferability over optimization | Conditional | Conditional | Usually | Usually | **Demote** |
+
+## 13A.1 Why executable second path is not a hard invariant
+
+The underlying value is **optionality**, not necessarily a permanently maintained second production stack.
+
+In S1:
+- supply may be abundant;
+- switching cost may be low;
+- standardized interfaces may make fallback cheap to recreate;
+- a low-criticality workload may not justify continuous duplicate validation.
+
+In S4:
+- maintaining two full paths can destroy economics when utilization is weak.
+
+Therefore the hard principle becomes:
+
+> **Price the value of executable optionality; maintain a second path only when continuity / bargaining / recovery value exceeds carrying cost.**
+
+This is consistent with Invariant 10's priced-resilience logic.
+
+## 13A.2 Why “prefer self-financing demand” is too strong
+
+Financing **identity and loss absorption** must always be measured.
+
+But a project does not become low quality merely because it uses:
+- external equity;
+- project debt;
+- infrastructure funds;
+- private credit.
+
+A young but economically sound infrastructure asset may rationally use outside capital.
+
+The hard invariant is therefore:
+
+> **separate independent workload economics from financing amplification and identify who absorbs losses.**
+
+The conditional warning is:
+
+> rising sponsor / supplier support becomes negative evidence only when utilization, monetization, refinancing terms, or independent third-party risk appetite also deteriorate.
+
+## 13A.3 Why transferability is a conditional strategy
+
+Transferability has option value, but perfect portability is not free.
+
+In a stable S1 or S2 workload with:
+- high utilization;
+- durable demand;
+- low migration risk;
+- strong asset-specific efficiency;
+
+a highly optimized non-transferable design can be economically superior.
+
+The robust relationship is:
+
+> **the value of transferability rises with uncertainty, commitment duration, and residual-value risk.**
+
+That relationship is invariant.
+
+The action “prefer transferability” is not.
+
+## 13A.4 v0.2 hard-invariant set
+
+After falsification, the cleaner hard set is:
+
+1. **Measure verified workflow economics.**
+2. **Match commitment duration to demand certainty.**
+3. **Separate asset clocks.**
+4. **Stage-gate physical capacity.**
+5. **Measure scarce layers separately.**
+6. **Separate buyer economics from seller economics.**
+7. **Separate financing quality / identity from financing quantity.**
+8. **Trigger decisions by state changes, not calendar dates.**
+9. **Price resilience rather than maximize redundancy.**
+10. **Attach falsification variables to major commitments.**
+
+Conditional strategies:
+- maintain an executable second path;
+- prefer independently financed demand;
+- prefer transferability over optimization.
+
+This reduction is a feature, not a loss.
+
+A smaller invariant set is more credible because every item has survived an explicit contrary-state test.
+
+---
+
 # 14. Actor map
 
 ## Enterprise / AI application buyer
@@ -384,7 +493,7 @@ Highest-value invariants:
 | Decision | Invariant? | Why |
 |---|---|---|
 | Measure cost per VSWO | Yes | needed in every demand state |
-| Preserve executable optionality | Yes | value changes, but never becomes zero |
+| Preserve executable optionality | Conditional | option value can be positive while a continuously maintained second production path is not worth its carrying cost |
 | Match duration to demand certainty | Yes | protects both upside and downside |
 | Lock maximum capacity early | No | only rational under strong scarcity/demand certainty |
 | Always multi-source equally | No | can destroy efficiency |
@@ -397,7 +506,7 @@ Highest-value invariants:
 
 # 16. The highest-level decision judgment
 
-The report’s most robust strategic conclusion is not:
+After cross-scenario falsification, the report’s most robust strategic conclusion is not:
 
 > who wins AI infrastructure.
 
@@ -413,10 +522,8 @@ This is stronger than a point forecast because it remains useful when the foreca
 
 Chapter 31 already contains several of these principles in scenario-specific form.
 
-Phase II adds one stricter test:
+Phase II now applies the stricter test explicitly:
 
 > **Which recommendations survive all four scenarios?**
 
-Only those should be promoted to “decision invariants.”
-
-Everything else remains conditional strategy.
+v0.2 reduces the hard set to ten principles. Executable second paths, self-financing preference, and transferability remain valuable, but only under observable cost / uncertainty / continuity conditions. Everything else remains conditional strategy.
