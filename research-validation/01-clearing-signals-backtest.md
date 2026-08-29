@@ -212,14 +212,16 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 | 2000–2002 Internet/Telecom | 2 | 2 | 2 | 2 | 2 | Broad clearing |
 | 2018–2019 Crypto/GPU | 2 | 2 | 2 | 2 | N/A | Strong partial / segment clearing |
 | 2022–2023 GPU + Cloud optimization | 2 | 1 | 2 | 1 | 0 | Partial / no system-wide S4 |
+| 2008–2009 GFC / Enterprise IT | 0 | 2 | 1 | 2 | 2 | Broad clearing |
 
 当前结果说明：
 
-1. **五信号具有基本 face validity**：它能把 2001 的系统性资本清算与 2022–2023 的局部库存清算区分开；
+1. **五信号具有基本 face validity**：它能把 2001、2008–2009 的系统性资本清算与 2018、2022–2023 的局部/子市场清算区分开；
 2. **Accounting 不是领先指标**：它通常用于确认，而 Market Clearing / Forward Commitment 更早；
 3. **需要增加 Segment Breadth 维度**：否则 2018 与 2022 的局部 GPU 清算容易被升级为系统性清算；
 4. **Demand Quality / Financing 的历史可观测性不稳定**：2001 很强，2018 很难按当前定义观测。这意味着第五信号在不同产业结构中需要 proxy hierarchy，而不能假装始终有同样的数据；
-5. **目前仍不能称为“验证过的预测系统”**：样本只有 3 个，且两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
+5. **Accounting 不应成为硬门槛**：2008–2009 显示金融条件主导的系统性清算可以在卖方并无巨额 write-down 时发生；
+6. **目前仍不能称为“验证过的预测系统”**：样本只有 4 个，其中两个案例与 NVIDIA/GPU 有关；不存在盲测，也没有 prospective validation。
 
 因此，当前最准确的表述是：
 
@@ -227,7 +229,7 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 
 ---
 
-# 7. 下一步：P0-1 v0.3
+# 8. 下一步：P0-1 v0.3
 
 下一版只增加样本与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
@@ -240,7 +242,7 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 
 ---
 
-# 8. Sources
+# 9. Sources
 
 ## 2000–2002 Internet / Telecom
 
@@ -280,3 +282,14 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
   https://investor.atmeta.com/investor-news/press-release-details/2023/Meta-Reports-Second-Quarter-2023-Results/default.aspx
 - Meta 2023 Q3 results — preliminary 2024 CapEx US$30–35B, with growth driven by AI/non-AI servers and data-center construction:  
   https://investor.atmeta.com/investor-news/press-release-details/2023/Meta-Reports-Third-Quarter-2023-Results/default.aspx
+
+## 2008–2009 Global Financial Crisis / Enterprise IT
+
+- Federal Reserve, Monetary Policy Report, 2009-02-24 — Q4 2008 equipment/software investment collapse; reduced credit availability and higher cost of credit; IT investment contraction:  
+  https://www.federalreserve.gov/monetarypolicy/mpr_20090224_part2.htm
+- Federal Reserve, Monetary Policy Report, 2009-07-21 — 2009 Q1 equipment/software investment about -34% annualized; high-tech capital spending more than -20% annualized; credit availability remained tight:  
+  https://www.federalreserve.gov/monetarypolicy/mpr_20090721_part2.htm
+- Federal Reserve, accessible Figure 13/14 — high-tech investment and business-inventory liquidation series for 2008–2009:  
+  https://www.federalreserve.gov/monetarypolicy/mpr_20090721_part2_accessible.htm
+- Cisco Systems FY2009 Annual Report — FY2009 revenue -9%, product revenue approximately -12% amid reduced enterprise/service-provider spending; inventory and purchase-commitment provisions:  
+  https://www.cisco.com/assets/cdc_content_elements/docs/annualreports/media/2009-ar.pdf
