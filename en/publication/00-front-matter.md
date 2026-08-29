@@ -10,7 +10,7 @@
 
 ## Scope
 
-This report is a long-form industry study of AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, software economics, and structural industrial change.
+This report is a 32-chapter long-form industry study of AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, Agent-Native Software, Physical AI, labor and talent systems, and structural industrial change.
 
 The report separates:
 
