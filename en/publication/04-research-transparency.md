@@ -152,7 +152,30 @@ The correction pass **did not add a fifth scenario, redefine S1–S4, promote S2
 
 The formal text was refrozen after this material-correction pass.
 
+### 8B. August 29, 2026 Developer Distribution material-event supplement
+
+On August 29, 2026, the formal text was **reopened in a narrowly scoped second pass** to incorporate a material event that occurred inside the existing evidence cutoff: the August 27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face acquisition.
+
+The pass was limited to:
+
+- Ch02 NVIDIA system-stack / platform-power boundaries;
+- Ch18 antitrust / vertical integration;
+- the competitive-evidence matrix;
+- the core evidence ledger / source index;
+- the Phase II Developer Distribution Chokepoint validation layer.
+
+Governance boundaries:
+
+- transaction status remains **reported transaction**, not completed acquisition;
+- the media transaction report remains C-grade while Hugging Face platform-function facts are supported separately by A-grade first-party documentation;
+- Hugging Face ownership is not treated as ownership of open-model IP;
+- potential vertical foreclosure is not treated as realized self-preferencing or completed software monopoly;
+- the S1–S4 definitions and current S2 baseline judgment are unchanged.
+
+After this targeted supplement, the formal text was refrozen again.
+
 ---
+
 
 ## 9. External-use boundary
 
