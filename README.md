@@ -30,6 +30,12 @@ The report examines how that shift changes:
 - Agent-Native Software, Physical AI, labor, and talent systems;
 - conditional industrial states for 2026–2036.
 
+These are not separate topic silos. They form one industrial transmission chain:
+
+> **Physical Supply → System Delivery → Compute Cost and Availability → Workflow Economics → Enterprise Adoption and Cash Flow → Capital Recovery → Second-Order Restructuring of Labor, Talent, and Physical AI**
+
+This is also the report's core framework for the next decade: infrastructure expansion becomes economically durable only when it is converted into verifiable, monetizable, repeatable workflow output.
+
 ---
 
 ## Core findings
@@ -153,6 +159,14 @@ The report uses four conditional states rather than one 2036 point forecast:
 As of August 2026, the evidence mix is closest to **S2**:
 
 > **high growth, high concentration, and credible substitution paths coexist.**
+
+### 10. Infrastructure ultimately needs a demand-side closure through verified workflow output
+
+The long-run value of AI infrastructure cannot be proven by GPU shipments, CapEx, or token volume alone. Agent-Native Software, Physical AI, and enterprise automation ultimately return to the same economic question:
+
+> **How much Compute, Energy, Human Review, and Capital is required per verified workflow outcome, and can the resulting business value sustainably cover those costs?**
+
+Lower unit Compute cost therefore does not necessarily reduce total infrastructure demand. If lower prices unlock more economically viable workflows, total demand can continue to expand. Conversely, if infrastructure grows persistently faster than verified business output and cash flow, the risk of **S4 — Capital Hard Landing** rises structurally.
 
 ---
 
