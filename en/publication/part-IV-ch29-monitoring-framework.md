@@ -213,6 +213,56 @@ Customer cash generation, third-party risk capital, supplier equity / credit sup
 
 S4 should move from stress test toward main scenario only when the five signal groups show broad, persistent, mutually reinforcing deterioration.
 
+## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
+
+If the report's downstream question is whether important end systems can still obtain enough, stable, affordable resources on their own product cadence, the monitoring framework cannot stop at seller economics, HBM, packaging, and power.
+
+**Table 29.4 — End-system residual-pressure monitoring panel**
+
+| End system | Main public proxies | Question to answer | Must not be inferred |
+|---|---|---|---|
+| Smartphone / PC | memory contract price, system ASP, allocation fulfillment, configuration change, replacement cycle | is same-price specification progress slowing; is quantity assurance diverging? | AI caused the full price increase; a named buyer lost a known wafer quantity |
+| Game console | memory procurement, hardware unit plan, promotion, hardware margin, memory/storage BOM, generation cadence | is memory/storage pressure changing volume, promotion, SKU, or multi-year cost-down? | direct HBM competition; next generation must be delayed/repriced |
+| Automotive / industrial | mature-memory price, EOL, lead time, qualified alternates, product-longevity commitments | do long qualification and long lifecycles amplify supply pressure into redesign / continuity risk? | automotive components and AI GPUs share one physical pool |
+| Robotics / Physical AI | industrial-electronics lead time + edge-accelerator / memory availability | are industrial and AI-edge constraints appearing together? | every robot requires frontier HBM |
+| High-reliability / aerospace / space | trusted access, EOL, qualification capacity, special-process continuity | is the economics of low-volume, long-life, special-process supply deteriorating? | AI caused a specific program delay / cost increase |
+
+**Source:** Chapter 3 layered-exposure framework, Chapter 21 end-system transmission, and Sony / TrendForce game-console evidence.[^14][^15]  
+**Note:** This is not a universal shortage index. It tracks **shared-resource exposure, buyer power, qualification rigidity, and quantity assurance** separately. AI-era attribution is strengthened only when upstream resource evidence and downstream outcome evidence align on the same transmission chain.
+
+### Representative first-party anchor: game consoles
+
+Sony's FY2025 Q4 / FY2026 outlook explicitly links FY26 PS5 hardware sales to memory volume procurable at reasonable prices and states that unit sales / promotional plans can be adjusted to manage hardware profitability.[^14]
+
+That creates one of the cleanest current end-system monitoring chains:
+
+> **memory procurement → hardware volume / promotion → profitability**
+
+TrendForce's 2026 console-shipment / memory-BOM estimates remain B-grade quantitative context and do not override Sony's first-party identity.[^15]
+
+### Dashboard J update direction
+
+**Residual pressure strengthening:**
+
+- memory / storage / component contract prices rise;
+- allocation fulfillment deteriorates;
+- promotion / configuration / SKU plans are adjusted;
+- long-life part EOL / lead-time risk rises;
+- end-system vendors explicitly link procurement quantity, price, or supply assurance to hardware cadence.
+
+**Residual pressure weakening:**
+
+- allocation fulfillment improves;
+- contract price / lead time declines persist;
+- same-price configuration progress resumes;
+- long-life supply continuity improves;
+- supplier product mix rebalances;
+- qualified second-source options expand.
+
+Dashboard J does not independently determine S1–S4. It tests whether:
+
+> **upstream scarcity / concentration is actually transmitting into end-system upgrade tax and supply-assurance pressure.**
+
 ## 11. Evidence-grade quick rules
 
 **Table 29.3 — Default evidence grade for report updates**
