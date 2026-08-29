@@ -33,15 +33,15 @@ AMD 与 NVIDIA 会竞争相同的 advanced logic、HBM 与 packaging。
 
 反过来，如果 HBM/packaging supply elasticity 提高，AMD system expansion 的约束会下降。
 
-这使 AMD 成为观察 **non-anchor-buyer access / Non-AI-and-non-leading residual capacity** 的重要对象，但本报告不为它另造新的核心术语。
+这使 AMD 成为观察**第二买方能否稳定获得 advanced logic、HBM 与 packaging quantity assurance**的重要对象。这里不再另造 residual-capacity 术语，直接使用 layer-specific scarce-capacity access。
 
 ## 4. Intel：Product Clock 与 Foundry Clock 是两条时间线
 
-Intel 同时承担 CPU/product competition、accelerator attempts、foundry strategy 与 domestic manufacturing policy。Intel 2025 10-K 与 2026 VLSI Symposium 更新显示 Intel Foundry 仍在推进 external-foundry strategy，18A 已进入 production、18A-P 进入 risk production。[^3][^4]
+Intel 同时承担 CPU/product competition、accelerator attempts、foundry strategy 与 domestic manufacturing policy。Intel 2025 10-K 与 2026 VLSI Symposium 更新显示 Intel Foundry 仍在推进 external-foundry strategy，18A 已进入 production、18A-P 进入 risk production。[^3][^4] 2026-07 ASML / Intel 又确认 High-NA EUV 已在 Intel 18A 的特定 layers 上进入真实 high-volume logic production。[^9]
 
 Product clock 需要在短周期交付 performance、software 与 customer adoption；foundry clock 则需要长期建立 process、yield、customer trust、packaging 与 high-volume execution。
 
-因此，Intel 的复苏不能由一颗产品或一座 fab 单独证明。
+因此，Intel 的复苏不能由一颗产品、一项 process milestone 或一座 fab 单独证明。High-NA HVM 是 manufacturing-execution 的重要正面信号，但 external foundry adoption、yield economics 与 customer trust 仍需独立验证。
 
 ## 5. Qualcomm：从 Edge 改写 Cloud Demand
 
@@ -113,3 +113,4 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 [^6]: Qualcomm, Mobile AI / on-device generative AI, https://www.qualcomm.com/smartphones/features/mobile-ai
 [^7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
 [^8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
+[^9]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
