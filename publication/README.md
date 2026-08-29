@@ -47,7 +47,7 @@
 14. [Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
 16. [AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](part-II-ch16-differentiated-competitors.md)
-17. [中国 Parallel Stack：从产品替代到 Frontier System Closure](part-II-ch17-china-parallel-stack.md)
+17. [中国 Parallel Stack：从 Production-Grade Substitution 到 Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
 18. [反垄断、产业政策与 AI 平台权力边界](part-II-ch18-antitrust-policy.md)
 
 ## Part III — 资本周期、利润池与外部传导
