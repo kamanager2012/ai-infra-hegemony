@@ -15,8 +15,11 @@
 | DDR5 | Double Data Rate 5 SDRAM | conventional DRAM 的一种 |
 | RDIMM | Registered DIMM | server memory；不等于 HBM |
 | LPDDR | Low-Power DDR | 主要用于 mobile / client / selected rack CPU memory |
+| GDDR | Graphics Double Data Rate memory | 常用于 gaming GPU / game console；不与 HBM 视为同一产品池 |
 | NAND | NAND Flash | 与 DRAM/HBM 属不同 memory technology |
 | eSSD | Enterprise SSD | 企业级固态存储 |
+| NVMe | Non-Volatile Memory Express | 高速 SSD interface / protocol；产品规格不等于行业供给 |
+| UFS | Universal Flash Storage | mobile / embedded / selected game-console storage；与 data-center SSD 分开分析 |
 | CoWoS | Chip-on-Wafer-on-Substrate | TSMC advanced-packaging family；customer allocation 不由 revenue share推导 |
 | TSV | Through-Silicon Via | HBM stacking / 3D integration 的关键工艺之一 |
 | CUDA | NVIDIA compute platform / programming ecosystem | 作为 software switching-cost 变量分析 |
@@ -55,6 +58,12 @@
 
 ### Non-AI Residual Capacity（NARC）
 完成 AI / anchor demand 与其他优先需求分配后，非 AI 市场真正可获得的有效残余供给。
+
+### Quantity Assurance
+买方在给定质量、认证、代际与交付窗口内，能否按计划获得足够数量的有效供给。它与 Price Pressure 分开：**愿意付更高价格，不等于一定能拿到计划数量。**
+
+### Upgrade Tax
+不是税务概念，而是终端层的分析术语：当上游资源机会成本上升时，消费者或整机厂可能出现**同价位规格提升变慢，或同一目标规格需要更高 BOM / 更弱补贴**的结果。不得把它理解为所有终端统一涨价。
 
 ### Two-Speed Semiconductor Economy
 AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，但价格承受能力、合同期限、BOM 约束与资本形成能力不同，导致新增资源配置速度分化。
