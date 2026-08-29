@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.2
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.3
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -419,7 +419,75 @@ Therefore the event is classified:
 
 ---
 
-## 12. Updated calibration map
+## 12. Two additional boundary results
+
+### 12.1 Multi-homing does not imply persistent multi-model demand
+
+The NBER market study adds an important interpretation constraint.
+
+It finds that:
+
+- more than half of firms rely on a **single model** in a given month;
+- the share of firms using multiple models rose from roughly **25% to 50%** between mid-2023 and mid-2025;
+- among multi-homers, most still allocate **more than 90%** of usage to one model.
+
+This means observed cross-model switching can represent:
+
+> **experimentation / evaluation**
+
+rather than:
+
+> **stable workload substitution across several production models.**
+
+For elasticity work, this matters because a price cut can produce a large provider/model share response even when the firm's underlying production workflow volume barely changes.
+
+So future event studies should separate:
+
+1. **provider substitution**;
+2. **model substitution**;
+3. **new workflow creation**;
+4. **higher intensity on existing workflows**.
+
+Only (3) and part of (4) are direct candidates for E3/E4 expansion.
+
+### 12.2 Do not confuse demand elasticity with task-substitution elasticity
+
+Anthropic's January 2026 Economic Index uses a **task elasticity of substitution** in its macro-productivity aggregation.
+
+Illustrative values such as:
+
+- σ = 0.5;
+- σ = 1;
+- σ = 1.5
+
+change how easily gains on AI-accelerated tasks can substitute for bottleneck tasks.
+
+That parameter answers:
+
+> **Can work reallocate across tasks when some tasks become much faster?**
+
+It does **not** answer:
+
+> **How much more AI is demanded when inference price falls?**
+
+This is a separate economic object from E1–E4 price/demand elasticities.
+
+The report must therefore reserve notation carefully:
+
+- **ε** → price / demand elasticity;
+- **σ_task** → elasticity of substitution across tasks.
+
+This avoids a serious symbol collision: both can be “greater than one” while describing entirely different mechanisms.
+
+Anthropic also shows why this distinction matters empirically: adjusting task-level speedups for success rates materially reduces implied aggregate productivity gains, and complementary bottleneck tasks can reduce them further.
+
+That supports a broader Phase II rule:
+
+> **price response, task substitution, task success and workflow creation must remain separate layers.**
+
+---
+
+## 13. Updated calibration map
 
 | Parameter | Current status | Evidence level |
 |---|---|---|
@@ -436,7 +504,7 @@ The evidence now supports a stronger statement than v0.1:
 
 ---
 
-## 13. P0-2 v0.3 worklist
+## 14. P0-2 v0.4 worklist
 
 1. obtain/reconstruct daily provider-model price and token panels for eligible events;
 2. estimate Terra/Luna/Sol with event-time controls rather than headline pre/post ratios;
@@ -448,8 +516,10 @@ The evidence now supports a stronger statement than v0.1:
 
 ## Sources
 
-- Demirer, M.; Fradkin, A.; Tadelis, N.; Peng, S., **The Emerging Market for Intelligence: Pricing, Supply, and Demand for LLMs**, NBER Working Paper 34608, Dec. 2025: https://www.nber.org/papers/w34608
+- Demirer, M.; Fradkin, A.; Tadelis, N.; Peng, S., **The Emerging Market for Intelligence: Pricing, Supply, and Demand for LLMs**, NBER Working Paper 34608, Dec. 2025 (revised 2026): https://www.nber.org/papers/w34608
+- Demirer, M.; Fradkin, A.; Tadelis, N., **The Emerging Market for Intelligence: How Firms Buy and Sell AI**, *Journal of Economic Perspectives* 40(3), 2026: https://pubs.aeaweb.org/doi/10.1257/jep.20261506
 - Aubakirova, M. et al., **State of AI: An Empirical 100 Trillion Token Study with OpenRouter**, OpenRouter / a16z, Dec. 2025: https://openrouter.ai/state-of-ai/
 - OpenRouter empirical data program: https://openrouter.ai/data
 - Demirer et al., author-hosted working-paper version, empirical strategy / provider-model-day specification: https://andreyfradkin.com/assets/LLM_Demand_12_12_2025.pdf
 - OpenRouter, **GPT 5.6 Discounts & Jevons Paradox**, 2026-08-25: https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/
+- Anthropic, **Economic Index: Economic primitives**, 2026-01-15: https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
