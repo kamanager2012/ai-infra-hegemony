@@ -2,7 +2,7 @@
 
 ## 1. 最终产业判断
 
-截至 **2026 年 8 月 28 日**，本报告对未来十年 AI 产业结构的最终判断可以压缩为七点：
+截至 **2026 年 8 月 28 日**，本报告对未来十年 AI 产业结构的最终判断可以压缩为八点：
 
 **第一，AI 基础设施的竞争单位已经从单颗芯片上移到完整 system stack。**  
 GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞争力的是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成高利用率、低迁移成本、可持续交付的完整闭环。
@@ -10,19 +10,22 @@ GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞�
 **第二，AI 正在改变全球半导体“下一美元资本投向哪里”。**  
 高资本强度 AI/HPC 买方拥有更高的支付能力、更长的订单期限、更强的预付款与融资能力，因此正在提高自己对先进制程、HBM、先进封装、电力和数据中心增量资本形成的影响力。
 
-**第三，真正决定价值捕获的不是历史市场份额，而是对各关键稀缺层 incremental capacity 的持续可得性。**  
+**第三，传统整机没有失去重要性；改变的是它们按旧规则从共享或相邻上游获得有效供给的确定性。**  
+smartphone、PC、汽车、工业设备、机器人以及高可靠长生命周期电子面对的不是同一种短缺，但都必须重新评估 residual capacity、quantity assurance、qualification rigidity 与 supplier product-mix。越接近 advanced logic / memory / selected packaging，传导越直接；越依赖 trusted / long-life / special-process supply，传导越需要通过供应连续性与 supplier economics 单独验证。
+
+**第四，真正决定价值捕获的不是历史市场份额，而是对各关键稀缺层 incremental capacity 的持续可得性。**  
 真正需要逐层观察 advanced logic、HBM、packaging、networking、LPS/power 的 quantity assurance、delivery timing 与 supply elasticity，而不是把它们压缩成一个综合“资源捕获率”。
 
-**第四，Hyperscaler custom systems 与中国 parallel stack 正在增加替代路径，但并没有消除上游物理约束。**  
+**第五，Hyperscaler custom systems 与中国 parallel stack 正在增加替代路径，但并没有消除上游物理约束。**  
 第二类 system stack 的成长可以削弱外部平台利润，却仍然会竞争 advanced logic、HBM、packaging 与 power。
 
-**第五，AI 基础设施的主要风险已经从“有没有需求”转向“资本基数增长速度能否被真实 utilization、monetization 与独立融资能力覆盖”。**  
+**第六，AI 基础设施的主要风险已经从“有没有需求”转向“资本基数增长速度能否被真实 utilization、monetization 与独立融资能力覆盖”。**  
 高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要 accounting、utilization/revenue、market clearing、forward commitments 与 demand-financing quality 多组信号广泛、持续并相互印证地恶化。
 
-**第六，基础设施扩张只有转化为可验证、可收费、可重复的工作流产出，才完成需求侧闭环。**  
+**第七，基础设施扩张只有转化为可验证、可收费、可重复的工作流产出，才完成需求侧闭环。**  
 这是一项**长期经济判据，而不是截至 2026-08-28 已完成经验校准的事实指标**。公开研究仍难在同一 workflow denominator 下完整连接 Compute、Energy、Human Review、Failure/Retry、Capital 与持续业务价值。Agent-Native Software、Physical AI 与企业自动化最终都要回答这一问题；在该判据未完成校准前，单位 Compute 成本下降既不能被默认解释为总需求下降，也不能被默认解释为 Jevons 式总需求上升。
 
-**第七，未来十年不是一个单点预测，而是 supply elasticity、system substitution、workload economics、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
+**第八，未来十年不是一个单点预测，而是 supply elasticity、system substitution、workload economics、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
 
 因此，本报告的真正主题不是“谁会赢得 AI 芯片战争”，而是：
 
@@ -308,7 +311,7 @@ utilization、clearing price、CapEx / commitments、accounting losses 与 deman
 - utilization / monetization；
 - capital discipline；
 - regulation；
-- China production-grade parallel stack / autonomous frontier closure；
+- China frontier parallel stack / Production-Grade Gates / autonomous frontier closure；
 - demand-financing quality / supplier-assisted financing。
 
 ---
@@ -325,7 +328,7 @@ utilization、clearing price、CapEx / commitments、accounting losses 与 deman
 - energized power 快速扩张，Time-to-Power 不再形成项目差异；
 - Anchor Compute Buyer commitments 大规模改期或利用不足；
 - hyperscaler AI monetization 长期无法覆盖新增资本基数；
-- China production-grade parallel stack 或 autonomous frontier closure 的多个 gate 获得或失去规模化一手证据；
+- China frontier parallel stack 的多个 Production-Grade Gate 或 autonomous frontier closure 获得或失去规模化一手证据；
 - supplier equity / credit support 持续上升，同时 independent customer financing 与 utilization 走弱；
 - 正式监管 remedy 实质性改变 tying、interface 或市场进入条件。
 
