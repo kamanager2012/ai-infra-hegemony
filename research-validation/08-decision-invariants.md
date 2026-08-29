@@ -12,6 +12,12 @@ A decision invariant must satisfy all four conditions:
 3. **No hidden point forecast** — it does not require knowing the 2030/2036 winner in advance;
 4. **Reversibility / optionality** — it reduces the cost of being wrong when the scenario changes.
 
+Canonical numbering rule:
+
+> **The hard-invariant number refers only to the final ten-item hard set.**
+
+Historical candidates that were demoted during v0.2 falsification are labeled **Conditional Strategy A/B** and do not consume hard-invariant numbers. Section numbers are retained only for document structure.
+
 An invariant is not:
 
 - “buy more GPUs”;
@@ -24,7 +30,7 @@ Those are scenario-dependent choices.
 
 ---
 
-# 2. Invariant 1 — Verify economics at the decision-relevant outcome, not the input-unit price
+# 2. Hard Invariant 1 — Verify economics at the decision-relevant outcome, not the input-unit price
 
 Across every scenario, the economic unit must be the **decision-relevant verified outcome**, not an input-unit price.
 
@@ -53,7 +59,7 @@ Observable implementation depends on actor:
 
 ---
 
-# 3. Candidate 2 — Preserve an executable second path（v0.2：降为 Conditional Strategy）
+# 3. Conditional Strategy A — Preserve an executable second path
 
 The primary stack can be highly concentrated for efficiency.
 
@@ -84,7 +90,7 @@ A second path that exists only in procurement slides is not optionality.
 
 ---
 
-# 4. Invariant 3 — Match commitment duration to demand certainty
+# 4. Hard Invariant 2 — Match commitment duration to demand certainty
 
 The report’s most durable capital principle is:
 
@@ -113,7 +119,7 @@ The invariant is **duration matching**, not “always stay flexible.”
 
 ---
 
-# 5. Invariant 4 — Separate asset clocks
+# 5. Hard Invariant 3 — Separate asset clocks
 
 AI infrastructure contains different economic lives:
 
@@ -137,7 +143,7 @@ This is especially important when short-lived compute demand is financed with lo
 
 ---
 
-# 6. Invariant 5 — Stage-gate irreversible commitments
+# 6. Hard Invariant 4 — Stage-gate irreversible commitments
 
 For every major irreversible commitment, release capital / organizational commitment against observable state transitions.
 
@@ -156,7 +162,7 @@ Capital should be released against state transitions where possible.
 
 ---
 
-# 7. Invariant 6 — Measure scarce layers separately
+# 7. Hard Invariant 5 — Measure scarce layers separately
 
 Do not infer:
 
@@ -179,7 +185,7 @@ Decision consequence:
 
 ---
 
-# 8. Invariant 7 — Track buyer economics separately from seller economics
+# 8. Hard Invariant 6 — Track buyer economics separately from seller economics
 
 A seller can recognize strong revenue while the buyer carries years of utilization and depreciation risk.
 
@@ -198,7 +204,7 @@ Do not use high seller margin as proof of healthy buyer-side return.
 
 ---
 
-# 9. Invariant 8 — Separate financing identity / quality from financing quantity
+# 9. Hard Invariant 7 — Separate financing identity / quality from financing quantity
 
 More capital is not automatically stronger demand.
 
@@ -223,7 +229,7 @@ Why it survives S1–S4:
 
 ---
 
-# 10. Invariant 9 — Trigger decisions by state changes, not calendar dates
+# 10. Hard Invariant 8 — Trigger decisions by state changes, not calendar dates
 
 Do not act because “it is 2030.”
 
@@ -245,7 +251,7 @@ This is the operational form of the report’s conditional timeline.
 
 ---
 
-# 11. Invariant 10 — Build resilience where the cost of failure justifies it
+# 11. Hard Invariant 9 — Build resilience where the cost of failure justifies it
 
 Redundancy is not automatically efficient.
 
@@ -270,7 +276,7 @@ The invariant is **priced resilience**, not maximal redundancy.
 
 ---
 
-# 12. Invariant 11 — Keep falsification variables next to every major commitment
+# 12. Hard Invariant 10 — Keep falsification variables next to every major commitment
 
 Every strategic commitment should define, before deployment:
 
@@ -296,7 +302,7 @@ This is the operational use of F→H→M→S→X.
 
 ---
 
-# 13. Candidate 12 — Prefer transferability over perfect optimization（v0.2：降为 Conditional Strategy）
+# 13. Conditional Strategy B — Prefer transferability over perfect optimization
 
 When uncertainty is high, an asset/system that is slightly less optimized but:
 - portable;
@@ -365,7 +371,7 @@ Therefore the hard principle becomes:
 
 > **Price the value of executable optionality; maintain a second path only when continuity / bargaining / recovery value exceeds carrying cost.**
 
-This is consistent with Invariant 10's priced-resilience logic.
+This is consistent with Hard Invariant 9's priced-resilience logic.
 
 ## 13A.2 Why “prefer self-financing demand” is too strong
 
