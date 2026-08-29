@@ -40,6 +40,25 @@ It is not a unified AI subtotal jointly disclosed by the four companies.
 
 If fulfillment assets, offices, networking, power, custom silicon, and third-party accelerators are all relabeled as "AI hardware," an accounting-classification problem gets disguised as an industrial fact.
 
+## 3A. Corporate CapEx is no longer the full denominator of AI-infrastructure capital formation
+
+By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx.
+
+Relevant structures now include:
+
+- operating and finance leases;
+- third-party infrastructure vehicles;
+- developer-owned data centers;
+- seller equity / credit support;
+- long-duration Anchor Buyer contracts;
+- power and grid investment carried on separate balance sheets.
+
+Therefore:
+
+> **Hyperscaler CapEx remains a critical indicator, but it is no longer the complete denominator of AI-infrastructure capital formation.**
+
+The new compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.
+
 ## 4. Why CapEx creates long-duration lock-in
 
 AI infrastructure is not one server purchase.
@@ -84,7 +103,7 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
-## 8. Four classes of leading capital-clearing signals
+## 8. Five classes of leading capital-clearing signals
 
 A CapEx-cycle turn cannot be judged from stock prices alone.
 
