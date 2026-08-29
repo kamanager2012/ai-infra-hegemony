@@ -29,7 +29,7 @@
 14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
 16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
-17. [China's Parallel Stack — From Product Substitution to Frontier System Closure](part-II-ch17-china-parallel-stack.md)
+17. [China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
 18. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md)
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
