@@ -603,7 +603,7 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-P0-4 now separates method from maintainable evidence panels: public credit/macros (04A), hyperscaler capital intensity (04B), project-finance borrowers (04C), and supplier/sponsor support (04D). The parent file retains only the transmission logic and S4 cross-confirmation rules. The next empirical task is to maintain facility-level changes over time, resolve the stable CMDI direct-file path, and connect project delivery/monetization evidence to refinancing-state changes.
+P0-4 now separates method from maintainable evidence panels: public credit/macros (04A), hyperscaler capital intensity (04B), project-finance borrowers (04C), and supplier/sponsor support (04D). The parent file retains only the transmission logic and S4 cross-confirmation rules. 04A now owns the canonical CMDI retrieval / provenance contract; 04B owns hyperscaler corporate capital-intensity state; 04C owns facility-level delivery / monetization / refinancing transitions; and 04D owns support activation / step-down. The remaining empirical task is maintenance of real state transitions over time, not expansion of the parent method file.
 
 ## Sources
 
