@@ -4,10 +4,10 @@ title: "[纠错] "
 labels: ["fact"]
 body:
   - type: input
-    id: volume
+    id: chapter
     attributes:
-      label: 哪一卷或哪一篇
-      placeholder: vol-24 / part2-03 / 总判 / 核心证据台账
+      label: 哪一章或哪一节
+      placeholder: 第24章 / 第32章 / 核心证据台账 / 核心参考文献索引
     validations:
       required: true
 
