@@ -126,6 +126,16 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 研究截止日之后出现的新事实，应视为新的研究输入。它们可能强化、削弱或推翻当前判断，但不应被倒写成截止日前已经存在的事实，也不会自动进入当前冻结的正式正文；只有在明确重新开启正文修订后，才可作为新的研究截面处理。
 
+**冻结后纠错的 pre-cutoff source 规则：**如果某一来源或事实在 **2026-08-28 及之前已经公开可得**，但在 2026-08-29 的冻结纠错 / 补证过程中才被重新检索或核验，则可以用于修正或补强同一 2026-08-28 evidence snapshot，前提是：
+
+- 不引入 2026-08-28 之后才发生的新事实；
+- source publication / observation window 仍落在 cutoff 之内；
+- evidence ledger 记录真实 access / correction date，不伪写成 2026-08-28；
+- Git history 保留实际 post-freeze correction 记录；
+- 不借“补证”名义重写未来情景或扩大结论强度。
+
+因此，**evidence-event/source-availability cutoff** 与 **post-freeze verification date** 必须分开记录。
+
 ---
 
 ## 9. 对外使用边界
