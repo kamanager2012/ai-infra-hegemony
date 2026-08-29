@@ -47,33 +47,17 @@ The evidence grade must remain **B — institutional estimate**. The figure is u
 
 The correct use is: **highly concentrated demand has a real institutional anchor, while actual allocation still awaits first-party disclosure.**
 
-## 5. 5.37 CoWoS wafers/rack is a D-grade geometry stress test
+## 5. Packaging capacity must remain a separate physical pool
 
-This report uses an order-of-magnitude geometry model:
+The formal report does not use a report-side "CoWoS wafers per rack" geometry factor to infer industry rack capacity.
 
-72 GPU packages ÷ approximately 13.4 packages/wafer ≈ **5.37 CoWoS wafers/rack**. The 72-GPU input comes from NVIDIA's official NVL72 specification.[^4]
+Advanced-packaging capacity depends on packaging flow, interposer/substrate constraints, HBM integration, tool capacity, testing, yield, and qualification. It is not interchangeable with TSMC's front-end 12-inch-equivalent wafer shipments.
 
-The inputs are:
+Therefore:
 
-- 72 GPUs from the official NVL72 specification;[^4]
-- ~13.4 packages/wafer as a report-side geometry assumption;
-- therefore, 5.37 as a **D-grade stress test**.
-
-It is **not** TSMC disclosed yield, actual wafer starts, logic-wafer demand, or customer allocation.
-
-This distinction matters because advanced-packaging wafers and TSMC's annual 12-inch-equivalent wafer shipments are not the same physical capacity pool.
-
-## 6. Why total foundry wafer shipments cannot be divided by 5.37
-
-TSMC shipped roughly **15.0M 12-inch-equivalent wafers** in 2025 across smartphones, HPC, automotive, IoT, mature nodes, and many other front-end products.[^7] The 5.37 figure is a report-side geometry stress test for **CoWoS packaging wafers per rack**.
-
-The following calculation is physically invalid:
-
-> total annual fab wafer shipments ÷ 5.37 = number of AI racks producible
-
-It mixes the front-end logic wafer pool with the back-end advanced-packaging pool. Any resulting six-figure or million-rack number is not a fact about system-delivery capacity.
-
-Likewise, front-end logic wafers/rack and back-end CoWoS wafers/rack cannot be added into one "TSMC wafers consumed per rack" metric. They sit in different manufacturing stages and capacity pools.
+- front-end logic wafers cannot be divided by a packaging-geometry factor to infer rack output;
+- packaging demand share cannot be converted into customer allocation;
+- rack specifications cannot be converted into actual shipments without observed deployment data.
 
 ## 7. Why packaging can become the quantity gate before the node does
 
@@ -85,27 +69,20 @@ The result is:
 
 Advanced nodes are closer to an entry ticket into a frontier system; advanced packaging can become the quantity gate that determines how many complete systems are delivered. Both matter, but their physical units and expansion clocks are different.
 
-## 8. Incremental Capacity Capture should be modeled as scenarios, not fabricated current shares
+## 8. Incremental packaging access must be evaluated directly
 
-If incremental packaging capacity is C and one platform captures a share s, the residual increment available to other buyers is:
+The forward question is not a synthetic cross-layer capture ratio.
 
-> **Residual = (1 − s) × C**
+It is whether competing buyers can obtain qualified advanced-packaging supply with acceptable:
 
-**Table 6.1 — Residual sensitivity under incremental packaging-capacity capture**
+- lead time;
+- allocation fulfillment;
+- delivery stability;
+- supplier diversification;
+- generation transition;
+- integration yield.
 
-| Assumed capture rate | Residual for other buyers |
-|---:|---:|
-| 50% | 50% |
-| 60% | 40% |
-| 70% | 30% |
-| 80% | 20% |
-
-**Source:** Report D-grade scenario model.  
-**Note:** Capture rates are not current TSMC customer-allocation facts; they are sensitivity inputs for studying concentration of incremental resources.
-
-These 50/60/70/80% values are **D-grade scenario levels**, not TSMC's current customer allocation.
-
-The model's purpose is to show nonlinearity: if a leading buyer consistently captures a larger share of **incremental** resources, the capacity left for second- and third-tier buyers can contract quickly even while total industry packaging capacity continues to grow.
+That evidence should be evaluated directly at the packaging layer.
 
 ## 9. Cloud custom silicon does not automatically bypass packaging/HBM
 
@@ -131,7 +108,7 @@ Physical bottlenecks and profit pools therefore have to remain separate:
 
 This distinction is essential for AI-infrastructure value-capture analysis.
 
-## 11. Packaging is also an independent closure gate for China's Parallel Stack
+## 11. Packaging is an independent gate for China's Production-Grade Parallel Stack
 
 A frontier AI parallel stack cannot be judged from logic nodes alone. Even if accelerator dies can be produced, insufficient advanced packaging, substrates, HBM integration, testing, or high-volume yield can still prevent stable delivery of large systems.
 
