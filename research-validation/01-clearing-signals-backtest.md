@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.7
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.9
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -580,7 +580,7 @@ Revised research-side timing label:
 | E · 2001–2003 Semiconductor | 2000 H2 | 2001 H1 | 2001 H2–2002 | 2003 recovery | High |
 | F · 2014–2016 Oil & Gas Upstream | 2014 H2 | 2015 H1–H2 | 2015–2016 reporting | 2016 Q2–Q4 | High |
 | G · 2018–2019 Hyperscale Cloud Digestion | 2019 CapEx deceleration | **No systemic cross-confirmation** | None | N/A — negative control | High |
-| H · 2011–2013 Solar PV Manufacturing | 2011 mid-year / Q3 | 2011 Q3–Q4 | 2012 reporting cycle | 2013–2014 | High / Medium–High |
+| H · 2011–2013 Solar PV Manufacturing | 2011 mid-year / Q3 | 2011 Q3–Q4 | 2012 reporting cycle | late-2012 / early-2013 stabilization candidate；2014 equipment-layer recovery confirmed，full normalization not claimed | High / Medium–High |
 
 ### 10.1 目前能看出的 lead / lag
 
@@ -1197,6 +1197,74 @@ Solar 的 historical matrix 仍保留：
 
 如要升级 RECOVERY CONFIRMED，需要再做 2013–2014 contemporaneous source replay，而不是引用后来的回顾性“行业已复苏”叙事。
 
+## 12D.3 Solar Recovery Contemporaneous Replay — 2013–2014 v0.9
+
+前一轮只把 late-2012 / early-2013 标成 **STABILIZATION CANDIDATE**。这一轮继续按 publication-time discipline 回放恢复段，避免把后来的“2013–2014 行业复苏”结论倒写回当时。
+
+| Adjudication time | 当时已知证据 | 同期反证 | Breadth / layer | Prospective state | 当时还不知道的后续信息 |
+|---|---|---|---|---|---|
+| 2013-12-04 · Applied Materials FY2013 filing | Solar end-demand 仍被描述为 robust；EES book-to-bill 从 FY2012 的 0.5 改善到约 1.0，说明订单不再继续坍塌 | 设备资本开支仍 depressed；global PV production capacity 仍超过 anticipated demand；FY2013 EES new orders **US$166M vs US$195M (-15%)**，net sales **US$173M vs US$425M (-59%)**，segment operating loss约 **US$433M** | end-demand 改善，但 manufacturing-equipment layer 仍弱 | **STABILIZATION CANDIDATE — NOT recovery confirmed** | 2014 年设备订单/销售与盈利是否持续改善 |
+| 2014-02-12 · Applied Materials Q1 FY2014 filing | EES operating loss缩小至约 **US$11M**；book-to-bill约 1.0 | 公司仍明确写：capital-equipment investment depressed、continued excess manufacturing capacity、tightened access to capital；new orders **US$40M**，同比 -41%；net sales **US$40M**，同比 -13% | 单一设备供应商；盈利恶化速度放缓但订单/销售仍低 | **STABILIZATION CANDIDATE** | 2014 H2 是否形成持续订单、销售和盈利恢复 |
+| 2014 Q3 filing window | Applied Materials 已公开：solar equipment environment 在 FY2014 前九个月较上年 **improved slightly**；end-market demand 持续增长 | global PV production capacity 仍超过 anticipated demand；capital-equipment investment 仍低 | demand layer 已明确恢复；equipment layer 只出现温和改善 | **STABILIZATION CANDIDATE — recovery hypothesis strengthened** | FY2014 全年订单、销售、经营利润能否共同确认 |
+| 2014 FY results / 10-K | EES new orders约 **US$238M vs US$166M (+43%)**；net sales约 **US$279M vs US$173M (+61%)**；segment operating income约 **US$15M vs -US$433M**，从巨亏转正 | 公司仍称 global capacity exceeded anticipated demand；Q4 orders / sales 又有 sequential weakness，因此不能写成全行业完全正常化 | 同一 manufacturing-equipment layer 的 orders + sales + operating result 同向改善 | **RECOVERY CONFIRMED — solar-equipment supplier layer; NOT full industry normalization** | 更长期的行业扩产周期与企业分化 |
+
+### 12D.3A Recovery must close at the same economic layer
+
+Solar recovery replay 新增一条硬规则：
+
+> **Recovery confirmation inherits the same layer and breadth discipline as clearing confirmation.**
+
+因此：
+
+```text
+End-demand installation growth
+≠
+manufacturing-capital recovery
+```
+
+终端装机增长可以成为：
+- continued-collapse hypothesis 的反证；
+- manufacturing stabilization 的必要背景；
+
+但不能单独把制造设备层从 **STABILIZATION CANDIDATE** 升成 **RECOVERY CONFIRMED**。
+
+对 Case H，真正完成 recovery closure 的证据更接近：
+
+```text
+end demand holds / grows
++
+equipment orders rebuild
++
+equipment sales rebuild
++
+operating economics improve
+```
+
+而不是只引用后来统计到的装机量。
+
+### 12D.3B Prospective result
+
+这次回放把原来模糊的：
+
+> **2013–2014 trough / recovery**
+
+拆成了两个可实时判定状态：
+
+1. **2013 → STABILIZATION CANDIDATE**
+   - 需求层改善；
+   - equipment book-to-bill / loss trajectory 改善；
+   - 但设备投资、订单和销售仍不足以确认恢复。
+
+2. **2014 full-year information → RECOVERY CONFIRMED at the equipment-supplier layer**
+   - orders、sales、operating result 同向改善；
+   - 但 excess capacity 仍存在，所以不宣布 “industry normalized”。
+
+这进一步验证了 prospective protocol 的对称性：
+
+> **不能用未来 trough 倒写 clearing，也不能用未来行业复苏叙事倒写 recovery。**
+
+---
+
 ## 12E. Four-path prospective validation result v0.8
 
 B / D / G / H 四个 case 已覆盖四种不同 shock-entry path：
@@ -1236,7 +1304,7 @@ Even after four-path prospective replay, P0-1 is **not**:
 
 The next empirical improvement should be:
 
-> **source-by-source prospective replay of 2013–2014 Solar recovery and one additional truly independent negative control—not more score fitting。**
+> **one additional truly independent negative control and continued cross-cycle recovery testing—not more score fitting。**
 
 ---
 
@@ -1392,3 +1460,12 @@ The next empirical improvement should be:
 - First Solar 2012 filing — Feb-2012 capacity restructuring; Vietnam 4-line plant cancellation / impairment: https://www.sec.gov/Archives/edgar/data/1274494/000127449412000048/fslrsep1210qdraft.htm
 - Applied Materials FY2012 Form 10-K — solar excess capacity, lower orders/sales, US$421M goodwill impairment, inventory/restructuring charges: https://www.sec.gov/Archives/edgar/data/6951/000000695112000018/amat10282012-10kdoc.htm
 - Suntech 2012 investor filing — cell utilization ~60% and annualized cell capacity reduced to ~1.8GW: https://www.sec.gov/Archives/edgar/data/1342803/000110465912077662/a12-26837_1ex99d1.htm
+
+
+## Solar recovery source register added in v0.9
+
+- Applied Materials FY2013 Form 10-K — robust PV end-demand but depressed capital-equipment investment; EES orders / sales / operating-loss state: https://www.sec.gov/Archives/edgar/data/6951/000000695113000044/amat10272013-10kdoc.htm
+- Applied Materials Q1 FY2014 Form 10-Q — continued excess manufacturing capacity, tightened capital access, deferred equipment purchases; EES orders / sales / loss: https://www.sec.gov/Archives/edgar/data/6951/000000695114000007/amat-form10xqq12014.htm
+- Applied Materials Q3 FY2014 Form 10-Q — solar equipment environment improved slightly while capital-equipment investment remained low: https://www.sec.gov/Archives/edgar/data/6951/000000695114000028/amat-form10xqq32014.htm
+- Applied Materials FY2014 Form 10-K — EES orders US$238M vs US$166M; sales US$279M vs US$173M; operating income US$15M vs loss US$433M; overcapacity still present: https://www.sec.gov/Archives/edgar/data/6951/000000695114000037/amat10262014-10kdoc.htm
+- IEA PVPS, *A Snapshot of Global PV 1992–2013* — contemporaneous end-market deployment context; used only as demand-layer evidence, not as manufacturing-recovery proof: https://iea-pvps.org/wp-content/uploads/2020/01/PVPS_report_-_A_Snapshot_of_Global_PV_-_1992-2013_-_final_3.pdf
