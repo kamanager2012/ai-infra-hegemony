@@ -131,6 +131,25 @@ Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但�
 
 > **如果客户能够以较低迁移成本把高价值 production workload 分散到多套 system stack，NVIDIA 的平台议价能力会下降；如果平台内跨代升级仍显著低于跨平台迁移成本，系统护城河仍然成立。**
 
+## 8. 什么才算 System Moat 真正被侵蚀
+
+不能用产品发布数量、单颗芯片 benchmark 或单季 market share 判断 system moat 是否失效。
+
+更有意义的是观察多个变量是否同时变化：
+
+- cloud system stack 在 frontier training / high-value inference 上达到 production scale；
+- open software 显著降低 CUDA migration cost；
+- alternative scale-up fabric 达到 production-grade scale；
+- multi-stack migration 的 engineering cost 与 performance loss 持续下降；
+- scarce upstream resources 不再明显偏向 NVIDIA roadmap；
+- major customers 把真实 workload 分散到多套系统，而不只是运行 benchmark 或窄场景 internal test。
+
+如果这些变化持续成立，NVIDIA 的平台权力可能从“system-level pricing power”下移为更可议价的“integration advantage”。
+
+如果跨平台迁移仍昂贵，而平台内部跨代升级继续保持低摩擦，system moat 仍然成立。
+
+---
+
 ## 9. 当前判断
 
 截至 2026 年 8 月，最准确的描述不是“GPU 竞争已经结束”，也不是“云 ASIC 已经替代 NVIDIA”。
@@ -141,7 +160,7 @@ Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但�
 
 这也是本报告后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
 
-## 11. 什么事实会迫使本章改判
+## 10. 什么事实会迫使本章改判
 
 如果以下信号持续出现，应下调 NVIDIA system-stack power 判断：
 
