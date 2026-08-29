@@ -1,5 +1,5 @@
 name: 数字 / 口径 / 来源纠错
-description: 正文中的数字、时间、来源、会计口径、单位或证据等级不对
+description: 冻结正文中的数字、时间、来源、会计口径、单位、引用范围或证据等级需要纠错；不用于加入截止日后的新事实
 title: "[纠错] "
 labels: ["fact"]
 body:
@@ -31,7 +31,7 @@ body:
     id: source
     attributes:
       label: 原始来源 / 高质量机构来源
-      description: 优先SEC、年报、IR、官方产品页、监管/法院文件、技术报告；也接受方法透明的高质量机构研究。请附链接。
+      description: 优先SEC、年报、IR、官方产品页、监管/法院文件、技术报告；也接受方法透明的高质量机构研究。请附链接。若涉及正式正文，来源应支持 2026-08-28 截止日前已存在的事实，或仅用于修复同一 claim identity 的失效链接；不要用截止日后的新事实扩写冻结正文。
     validations:
       required: true
 
