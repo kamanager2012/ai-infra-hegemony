@@ -344,7 +344,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ## 13. Quantitative Guardrails
 
-全书量化必须遵守以下边界：
+本报告量化必须遵守以下边界：
 
 - revenue share ≠ wafer share；
 - platform revenue share ≠ physical shipment share；
