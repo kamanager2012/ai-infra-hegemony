@@ -1,6 +1,6 @@
 # Part III · 第21章：消费电子与实体经济的成本传导
 
-## 1. 核心判断：AI 对传统终端的影响不是“抢走所有芯片”，而是改变边际资源配置
+## 1. 核心判断：AI 对传统终端的影响不是“全面占用芯片供给”，而是改变边际资源配置
 
 Consumer electronics 并不直接采购训练集群，但 smartphone、PC、router、汽车与工业设备会与 AI/server systems 共享部分上游资源，包括：
 
@@ -133,7 +133,7 @@ TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D
 
 > **Cross-Market Resource Reordering：当 AI/server workload 提供更高预期回报、更强订单确定性和更长期资源承诺时，多个原本服务不同终端市场的增量资源会被重新排序。**
 
-这不是“过去大家平均分产能、现在某一家拿走全部产能”。
+这不是“过去各类客户平均分配产能、现在某一客户获得全部产能”。
 
 它支持的结论是：
 
