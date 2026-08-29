@@ -54,22 +54,31 @@ This is better understood as a long-duration supply option, industrial-learning 
 
 The near-term value of SMRs therefore lies mainly in future optionality; they should not be used to erase today's interconnection, transformer, and powered-site constraints.
 
-## 4. These three projects cannot be added into "3.255 GW of active AI power"
+### 3.4 PORTS-Pike / NVIDIA / SB Energy / OpenAI: secured LPS with initial 4.25 IT-GW design capacity
 
-Mechanically adding approximately 835 MW, up to 1.92 GW, and up to 500 MWe produces a nominal total but not a usable AI-load number.
+On **August 17, 2026**, NVIDIA disclosed a different infrastructure structure at the PORTS-Pike Technology Campus: NVIDIA is providing credit support for land, power, and shell buildout with SB Energy; the initial deployment is designed to support **4.25 IT-GW**; OpenAI will use the site; and SB Energy will build, own, and operate the data center.[^7]
 
-**Table 7.1 — Nominal scale and delivery state of three AI-power pathways**
+Planned capacity is expected to come online in phases beginning in **2028**.
+
+This makes secured LPS a more direct precursor to deployable compute than a generic headline PPA. But **4.25 IT-GW is still design / planned capacity, not 2026 energized or utilized AI load**.
+
+## 4. Different Power / LPS projects cannot be added into one "active AI power" number
+
+The project numbers above do not share one physical identity. Generation MW/MWe, PPA capacity, and IT-GW design capacity sit at different layers and cannot be added into one active AI-load figure.
+
+**Table 7.1 — Representative AI power / LPS pathways**
 
 | Project | Nominal scale | Primary status |
 |---|---:|---|
 | Crane / Microsoft | ~835 MW | restart + regulatory process |
 | Talen / AWS | up to 1,920 MW | revised-PPA transition / ramp |
 | Kairos / Google | 50 MWe in 2030; up to 500 MWe by 2035 | long-duration development |
+| PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / future phased buildout from 2028 |
 
-**Source:** Constellation, Talen Energy, and Kairos Power / Google.[^2][^3][^4][^5]  
-**Note:** The nominal capacities sit at different contract, permitting, construction, energization, and utilization states and must not be mechanically added into active AI load.
+**Source:** Constellation, Talen Energy, Kairos Power / Google, and NVIDIA.[^2][^3][^4][^5][^7]  
+**Note:** Generation MW/MWe, PPA capacity, and IT-GW design capacity are different physical quantities. Their contract, permitting, construction, energization, and utilization states must remain separate.
 
-The three paths represent restarting an existing large generator, restructuring the commercial/grid relationship between a large load and existing generation, and developing next-generation nuclear supply. Their technology maturity, permitting clocks, and utilization dates are not comparable.
+These pathways represent different infrastructure mechanisms: restarting an existing large generator, restructuring a large-load PPA, developing next-generation nuclear supply, and securing land + power + shell for future AI-factory buildout. Their maturity, units, clocks, and utilization dates are not directly comparable.
 
 ## 5. Grid queues are evidence of congestion, not a measure of "AI power shortage"
 
@@ -156,3 +165,4 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
+[^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
