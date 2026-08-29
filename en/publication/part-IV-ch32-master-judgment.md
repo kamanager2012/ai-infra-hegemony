@@ -13,11 +13,11 @@ Capital-intensive AI/HPC buyers often offer greater willingness to pay, longer o
 **Third, long-run value capture depends less on historical market share than on sustained access to incremental scarce capacity at each physical layer.**  
 The correct question is not one cross-layer "capture ratio." It is whether a platform can repeatedly obtain enough qualified supply, at the right time, across advanced logic, HBM, packaging, networking, and LPS/power.
 
-**Fifth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
+**Fourth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
 A second system stack can divert platform profit while still competing for the same advanced logic, HBM, packaging, and power.
 
 **Fifth, the primary capital risk has shifted from "is there demand?" to "can utilization, monetization, and independent financing capacity grow fast enough to cover the expanding capital base?"**  
-Headline CapEx is neither proof of a boom nor proof of a bubble. A Capital Hard Landing requires broad, persistent deterioration across accounting, utilization/revenue, market clearing, forward commitments, and demand-financing quality.
+Headline CapEx is neither proof of a boom nor proof of a bubble. A Capital Hard Landing requires **cross-signal confirmation plus cross-actor / cross-layer causal breadth across multiple independent signal families**. Accounting losses are high-value confirmation / severity evidence, but they are not a mandatory gate.
 
 **Sixth, infrastructure expansion only completes the demand-side loop when it becomes verifiable, repeatable, monetizable workflow output.**  
 Agent-native software, Physical AI, and enterprise automation ultimately face the same economic test: how much compute, energy, human review, and capital are required per verified result, and whether the resulting business value can sustainably cover those costs. Lower unit compute cost does not imply lower total demand if cheaper intelligence unlocks more workflows.
@@ -228,6 +228,8 @@ The report therefore uses five groups of capital-clearing signals:
 - **Forward Commitment:** CapEx guidance, supply commitments, compute contracts, power contracts;
 - **Demand Quality / Financing:** customer cash generation, third-party capital, supplier equity / credit enhancement, refinancing dependency.
 
+These are **monitoring families, not a five-of-five checklist**. Financing-led or real-economy clearing can be confirmed before qualifying impairment / write-down evidence appears, provided independent signal families and causal breadth are strong enough and alternative explanations do not dominate.
+
 As of August 2026, public evidence remains more consistent with:
 
 > **continued high-intensity capital expansion, with rising ROI and monetization pressure**
@@ -337,7 +339,7 @@ Multiple scarce layers, quantity assurance, and switching costs strengthen toget
 
 ### S4 — Capital Hard Landing
 
-Utilization, clearing prices, CapEx/commitments, accounting losses, and demand-financing quality deteriorate broadly and persistently.
+Multiple causally independent signal families deteriorate broadly and persistently across actors/layers, with at least one real-economy / market-clearing / commitment signal present. Accounting losses strengthen severity when present but are not required.
 
 These states are not sequential stages and do not carry fixed probabilities.
 
@@ -433,7 +435,7 @@ If supply elasticity, system portability, and multi-sourcing improve materially,
 
 If multiple scarce layers and switching costs strengthen simultaneously, S3 gains weight.
 
-If utilization, market clearing, forward commitments, accounting, and demand-financing quality deteriorate broadly and persistently, S4 becomes the dominant interpretation.
+If multiple causally independent signal families across utilization/revenue, market clearing, forward commitments, financing quality, and accounting cross-confirm broad and persistent deterioration across actors/layers, S4 becomes the dominant interpretation; Accounting is confirmatory rather than mandatory.
 
 The report's final question is therefore not whether “only AI still matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, and other long-lifecycle high-reliability systems remain important. The relevant question is:
 
