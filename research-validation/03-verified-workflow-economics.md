@@ -1,4 +1,4 @@
-# P0-3 · Verified Workflow Economics v0.3
+# P0-3 · Verified Workflow Economics v0.4
 
 > **Status:** Research-side validation; not part of the frozen 32-chapter formal report.  
 > **Goal:** turn “cost per verified workflow outcome” from a conceptual statement into an auditable operating metric.
@@ -590,12 +590,75 @@ needed for Cost/VSWO.
 | Microsoft 66-firm RCT | longitudinal human-time telemetry + coordination constraint | ~5 | universal accepted outcome, AI cost, business value |
 | P&G innovation RCT | quality + team-structure substitution | ~5 | AI cost, downstream persistence/value |
 | Online-retail RCTs | randomized business-value outcome | ~6 | workflow-level AI/human cost and failure persistence |
+| Cruces et al. education-gap RCT | assisted quality + unassisted follow-up persistence | ~5 | production cost, integration cost, business value, long-run persistence |
 
 The new studies strengthen one conclusion:
 
 > **The literature is rapidly improving on either the numerator (business value / quality) or the denominator (human time), but still rarely joins value + AI cost + human cost + verified persistence at the same workflow ID.**
 
 This remains the missing measurement standard.
+
+---
+
+## 12A. Persistence / skill-transfer evidence: assisted output is not the whole outcome
+
+Cruces et al. (NBER WP 34851, 2026) add a useful dimension that most enterprise studies do not measure.
+
+Design:
+- **1,174 adults aged 25–45**;
+- randomized AI vs. no-AI access;
+- incentivized workplace-style business problem-solving task;
+- followed by a **non-AI-assisted follow-up module**.
+
+Main findings:
+- AI improved task performance for all participants;
+- the higher- vs. lower-education performance gap fell from **0.548 SD** without AI to **0.139 SD** with AI;
+- once AI was removed, treated participants did **not** perform worse than controls;
+- lower-education participants retained part of the gain, although a sizable gap re-emerged;
+- follow-up performance was stronger when intensive AI use was combined with sustained user effort.
+
+This is important for VSWO economics because it separates two different assets:
+
+1. **assisted workflow output**;
+2. **human capability that remains after the tool is removed**.
+
+The report should therefore add a persistence companion metric when the workflow has learning / capability value:
+
+```text
+Persistence_Retention
+=
+Unassisted Follow-up Performance
+/
+AI-assisted Performance Gain
+```
+
+This ratio is conceptual until a task-specific denominator is defined.
+
+The more important rule is:
+
+> **A high AI-assisted success rate does not tell us whether the organization is accumulating capability, merely renting capability, or doing both.**
+
+This matters differently by workflow:
+- customer support may care mostly about current verified throughput;
+- coding / engineering may care about review and maintainability;
+- education / training may care directly about retained human capability;
+- safety-critical analytical work may require both accepted output and retained operator understanding.
+
+### Evidence-completeness impact
+
+This study strengthens:
+- treatment/control;
+- verified task performance;
+- a short persistence / transfer check.
+
+It still does not supply:
+- production AI cost;
+- workflow integration cost;
+- downstream business value;
+- long-run reopen / rollback;
+- organization-level persistence.
+
+**Classification:** strong persistence / human-capital benchmark, incomplete Cost/VSWO.
 
 ---
 
@@ -701,11 +764,11 @@ Do not start with sales revenue or strategy work, where attribution is too weak 
 
 The report’s prior phrase “cost per verified workflow outcome” is directionally correct but previously under-specified.
 
-After v0.2 it has both an operational definition and a first evidence-completeness ledger:
+After v0.4 it has an operational definition, an evidence-completeness ledger, and a separate persistence / capability-retention dimension:
 
 > **all variable and human workflow costs divided by outputs that pass a fixed acceptance rule, with success rate, review burden, attempts, resource intensity and cycle time reported alongside.**
 
-The next step is to obtain datasets that join **cost + human time + verification + persistence** at the workflow-ID level. Existing causal productivity studies are valuable anchors, but none of the first reviewed cases yet fills the complete Cost/VSWO denominator.
+The next step is to obtain datasets that join **cost + human time + verification + persistence + business value** at the workflow-ID level. Existing causal productivity studies are valuable anchors, but none of the first reviewed cases yet fills the complete Cost/VSWO denominator.
 
 ## Sources
 
@@ -718,3 +781,4 @@ The next step is to obtain datasets that join **cost + human time + verification
 - Dillon, E.; Jaffe, S.; Immorlica, N.; Stanton, C., **Shifting Work Patterns with Generative AI**, NBER Working Paper 33795, revised 2025: https://www.nber.org/papers/w33795
 - Dell'Acqua, F. et al., **The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise**, NBER Working Paper 33641; published online in *Organization Science*, 2026: https://www.nber.org/papers/w33641
 - Fang, L.; Yuan, Z.; Zhang, K.; Donati, D.; Sarvary, M., **Generative AI and Firm Productivity: Field Experiments in Online Retail**, 2025/2026 working paper: https://business.columbia.edu/faculty/research/generative-ai-and-firm-productivity-field-experiments-online-retail
+- Cruces, G.; Fernández Meijide, D.; Galiani, S.; Gálvez, R. H.; Lombardi, M., **Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment**, NBER Working Paper 34851, revised May 2026: https://www.nber.org/papers/w34851
