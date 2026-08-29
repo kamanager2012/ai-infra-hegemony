@@ -3,7 +3,8 @@
 ## The Age of AI Infrastructure Hegemony
 
 **Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
-**Retrieval and revision cutoff:** August 28, 2026
+**Retrieval and revision cutoff:** August 28, 2026  
+**Text status:** frozen as of August 29, 2026; post-freeze changes are limited to factual corrections, source-link repairs, citation-scope corrections, and material-error fixes.
 
 This 32-chapter report analyzes the shift from individual-accelerator competition toward system-stack competition and its consequences for advanced logic, HBM, advanced packaging, power, cloud architecture, capital formation, traditional end markets, China's parallel stack, Agent-Native Software, Physical AI, labor and talent systems, and the long-run industrial structure.
 
