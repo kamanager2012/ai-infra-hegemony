@@ -680,6 +680,20 @@ Prospective replay 只允许使用：
 
 这些是 **research adjudication labels**，不是 S1–S4 新情景，也不是统计分类器。
 
+### NO CLEARING — 当前证据不支持 clearing
+
+适用于：
+- 没有可信 clearing signal；
+- 单点恶化被更强的同时期反证抵消；
+- breadth 明显不足；
+- 经济活动仍显示扩张 / 正常吸收。
+
+这是负对照必须允许的正式状态。
+
+> **协议必须允许“不升级”。**
+
+否则 prospective replay 会天然产生 false positive。
+
 ### WATCH — 单点恶化 / 尚未形成跨信号确认
 
 可以包括：
@@ -999,6 +1013,99 @@ Only after the prospective protocol survives those distinct shock types should P
 
 ---
 
+## 12A. Prospective Replay 1 — Case B: 2018–2019 Crypto / GPU Channel Unwind
+
+这个 replay 只使用当时已经发布的信息，不允许把 FY2019 10-K 或后续恢复数据倒灌到更早判断。
+
+| Adjudication time | 当时已知证据 | 同期反证 | Breadth | Prospective state | 当时还不知道的后续信息 |
+|---|---|---|---|---|---|
+| 2018-08-16 | NVIDIA FY19 Q2 revenue US$3.12B，YoY +40%；官方称 Datacenter、Gaming、Professional Visualization、Automotive **全部创纪录** | 多平台仍同步扩张 | 单公司，多平台扩张 | **NO CLEARING** | 11 月 excess channel inventory 披露 |
+| 2018-11-15 | NVIDIA 首次明确披露 post-crypto **excess channel inventory**，near-term results 受影响 | Q3 total revenue仍 YoY +21%；Datacenter / Pro Viz / Automotive 仍创纪录 | 单公司、主要是 Gaming/channel | **WATCH** | 2019-01 guidance cut；FY19 Q4 revenue collapse |
+| 2019-01-28 | Q4 revenue guidance US$2.70B → **US$2.20B**；公司确认延后 production ramps 以消化库存；同时 Gaming / Datacenter 低于预期、China macro demand 恶化 | channel inventory depletion 本身仍大体按原计划推进 | 单公司，但 Market Clearing + Forward Commitment + broader demand weakness 开始叠加 | **CANDIDATE — company/segment scope** | 2 月实际 Q4 数字和 accounting charge；5–8 月恢复 |
+| 2019-02-14 | Q4 revenue约 US$2.21B，QoQ -31%；Gaming / Data Center 明显下滑；库存/component accounting impact得到确认 | FY2019 全年 revenue / Data Center 仍显著增长，系统级 breadth 不足 | NVIDIA 内部多 signal；跨行业 breadth 仍弱 | **CONFIRMED — segment/company clearing, NOT system-wide** | 5 月 sequential stabilization；8 月更明确 recovery |
+| 2019-05-16 | Q1 FY20 revenue QoQ +1%；公司称 Gaming returned to growth，Q2 revenue guide约 US$2.55B | YoY revenue仍 -31%；hyperscale demand仍有 near-term pause | 公司内 leading indicators停止恶化 | **STABILIZATION CANDIDATE** | 8 月跨平台 sequential growth |
+| 2019-08-15 | Q2 FY20 revenue QoQ +16%；公司称 platforms sequential growth | YoY仍低于前一年高基数 | 公司/平台恢复 breadth 增强 | **RECOVERY CONFIRMED — company/segment scope** | 后续更长周期恢复 |
+
+### 12A.1 What the prospective replay changes
+
+如果只做 retrospective score，2018–2019 Case B 看起来很容易被写成：
+
+> “2018 H2 已经进入 clearing。”
+
+publication-time replay 说明这太早。
+
+**2018-08-16** 的正确实时判断反而是：
+
+> **NO CLEARING：所有主要平台仍创纪录。**
+
+到 **2018-11-15**，虽然 excess inventory 已经公开，但强反证仍存在，因此只能升到：
+
+> **WATCH。**
+
+真正足以形成 CANDIDATE 的时间点更接近 **2019-01-28**，因为这时：
+- guidance 被再次大幅下修；
+- production ramp 延后；
+- channel clearing 持续；
+- Gaming / Datacenter demand weakness 扩大。
+
+即便到 2019-02，也只能确认：
+
+> **segment/company clearing，不能升级成 whole accelerated-compute system clearing。**
+
+这验证了 breadth rule 的必要性。
+
+## 12B. Prospective Replay 2 — Case G: 2019 Hyperscale Cloud CapEx Digestion Negative Control
+
+Case G 用来检验协议能否拒绝一个很诱人的错误叙事：
+
+> “Alphabet CapEx 从高位回落 = hyperscale cloud clearing。”
+
+| Adjudication time | 当时已知证据 | 同期反证 | Breadth | Prospective state | 当时还不知道的后续信息 |
+|---|---|---|---|---|---|
+| 2019 Apr | Alphabet Q1 CapEx约 **US$4.64B**，低于 2018Q1约 US$7.30B；可以形成 company-specific digestion hypothesis | Alphabet revenue仍 +17%；OCF约 US$12.0B；公司称流动性足以覆盖未来 CapEx。AWS Q1 sales **+41%**；Facebook仍预计 2019 CapEx约 **US$17–19B** | 只有 Alphabet 一个 Forward Commitment-style signal；跨公司反证很强 | **WATCH → NO CLEARING** | 年度 Alphabet CapEx最终小幅回落；AWS/Facebook全年投资继续增长 |
+| 2019 Jul | Alphabet Q2 CapEx约 **US$6.13B**，反而高于 2018Q2约 US$5.48B；H1累计仍低于上年 | AWS Q2 sales **+37%**；Google继续在 Cloud大量招聘；Facebook H1仍持续投资 data centers / servers / network | cross-company breadth进一步反对 clearing | **NO CLEARING** | 2019全年 AWS asset additions / Facebook CapEx继续上升 |
+| 2020 Feb（2019 annual results available） | Alphabet 2019 total CapEx约 **US$23.5B**，低于 2018约 US$25.1B | AWS 2019 revenue **+37%**、AWS PP&E additions约 US$13.1B vs 9.8B；Facebook 2019 PP&E spend约 US$15.1B vs 13.9B，并继续计划更高 2020 CapEx；Google Cloud revenue继续增长 | 多家公司、多真实经济变量均反对系统 clearing | **NEGATIVE CONTROL CONFIRMED / NO SYSTEM CLEARING** | N/A |
+
+### 12B.1 What the negative-control replay proves
+
+如果协议只看：
+
+> CapEx growth deceleration
+
+那么 2019 Alphabet 很容易产生 false positive。
+
+prospective replay 迫使判断同时看到：
+
+- Alphabet 自身 revenue / OCF；
+- AWS usage / revenue；
+- Facebook infrastructure commitment；
+- cross-company capital breadth。
+
+因此 2019Q1 更合理的状态不是 CANDIDATE，而是：
+
+> **company-specific WATCH，随后被独立反证压回 NO CLEARING。**
+
+这说明：
+
+> **协议不仅要能升级，也必须能被反证降级。**
+
+### 12B.2 First prospective validation result
+
+B/G 一正一负的初次 replay 给出两个有用结果：
+
+1. **Case B:** protocol delays the clearing call until evidence breadth actually increases, preventing backdating.
+2. **Case G:** protocol rejects a false system-wide clearing narrative even when one large buyer's CapEx has clearly decelerated.
+
+这两个结果还不能称为 prospective statistical validation。
+
+但它们已经比 retrospective 8/10、10/10 score 更接近真实使用条件。
+
+下一步仍按 v0.8 计划继续：
+- Case D — financing-led GFC;
+- Case H — long-duration solar manufacturing overcapacity.
+
+---
+
 # 13. Sources
 
 ## 2000–2002 Internet / Telecom
@@ -1122,3 +1229,19 @@ Only after the prospective protocol survives those distinct shock types should P
 - NVIDIA 2022-08-24 Q2 FY2023 results — ongoing OEM/channel inventory reduction into Q3 with Data Center growth counterevidence: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2023
 - 2011 solar-equipment filing — mid-year deterioration, Q3–Q4 order slowdown after Q2 peak: https://www.sec.gov/Archives/edgar/data/103145/000104746913010200/a2217194z10-k.htm
 - 2011 solar-industry filing — worldwide panel overcapacity/inventory, difficult project financing, multi-quarter panel-price decline by Q3 2011: https://www.sec.gov/Archives/edgar/data/927003/000095012311096521/c23205e10vq.htm
+
+
+## Prospective-replay sources added in v0.8
+
+- NVIDIA FY2019 Q2 results, 2018-08-16 — record revenue across Datacenter, Gaming, Professional Visualization and Automotive: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2019
+- NVIDIA FY2019 Q3 results, 2018-11-15 — excess channel inventory post crypto boom disclosed: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2019-6747552
+- NVIDIA guidance update, 2019-01-28 — Q4 guidance US$2.70B → US$2.20B; production ramps delayed to deplete excess channel inventory: https://www.sec.gov/Archives/edgar/data/1045810/000104581019000004/shareholderletter.htm
+- NVIDIA FY2020 Q1 results — May 16, 2019, sequential stabilization / gaming growth resumed: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2020
+- NVIDIA FY2020 Q2 results — Aug 15, 2019, sequential growth across platforms: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2020
+- Alphabet 2019 Q1 Form 10-Q — Q1 CapEx US$4.638B vs US$7.299B prior year; revenue +17%; OCF US$12.0B; liquidity statement: https://www.sec.gov/Archives/edgar/data/1652044/000165204419000015/goog10-qq12019.htm
+- Alphabet 2019 Q2 Form 10-Q — Q2 CapEx US$6.126B vs US$5.477B prior year; H1 CapEx US$10.764B vs US$12.776B: https://www.sec.gov/Archives/edgar/data/1652044/000165204419000023/goog10-qq22019.htm
+- Amazon 2019 Q1 Form 10-Q — AWS sales +41% YoY: https://www.sec.gov/Archives/edgar/data/1018724/000101872419000043/amzn-2019331x10q.htm
+- Amazon 2019 Q2 Form 10-Q — AWS sales +37% YoY: https://www.sec.gov/Archives/edgar/data/1018724/000101872419000071/amzn-2019630x10q.htm
+- Amazon 2019 Form 10-K — AWS revenue US$35.026B vs US$25.655B; AWS PP&E additions US$13.058B vs US$9.783B: https://www.sec.gov/Archives/edgar/data/1018724/000101872420000004/amzn-20191231x10k.htm
+- Facebook 2019 Q1 Form 10-Q — continued infrastructure investment; 2019 CapEx outlook US$17–19B: https://www.sec.gov/Archives/edgar/data/1326801/000132680119000037/fb-03312019x10q.htm
+- Facebook 2019 Form 10-K — 2019 PP&E purchases US$15.10B vs US$13.92B in 2018; 2020 CapEx outlook US$17–19B: https://www.sec.gov/Archives/edgar/data/1326801/000132680120000013/fb-12312019x10k.htm
