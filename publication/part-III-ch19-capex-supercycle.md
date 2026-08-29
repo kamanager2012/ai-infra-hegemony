@@ -254,6 +254,19 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 真正的转折需要看到：**utilization、market clearing、forward commitments 与 accounting signals 同步转弱。**
 
+## 9. 什么事实会迫使本章改判
+
+应下调“资本扩张仍是主线”的判断，如果持续出现：
+
+- hyperscaler underlying investment expectation 连续下降；
+- data-center / power project cancellation 或 deferral 明显增加；
+- seller supply commitments 收缩；
+- third-party infrastructure capital risk appetite 下降；
+- utilization 与 monetization 弱于新增资本；
+- financing cost / refinancing pressure 明显上升。
+
+单家公司 accounting reclassification 或单季 CapEx 波动，不足以证明超级周期已经结束。
+
 ## References
 
 [^1]: Microsoft, FY26 Q4 earnings / conference call, calendar-2026 reported CapEx expectation, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
