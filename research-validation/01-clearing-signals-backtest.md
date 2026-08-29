@@ -1,4 +1,4 @@
-# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.6
+# P0-1 · Chapter 24 五类资本清算信号历史回测 v0.7
 
 > **状态：Research-side validation，非正式正文。**  
 > 目的：检验 Chapter 24 的五类信号能否区分“系统性资本清算”“局部行业清算”和“强烈库存调整但未进入系统性 S4”。  
@@ -202,6 +202,70 @@ FY2019 全年 NVIDIA revenue 仍同比增长 21%，Data Center 全年增长 52%�
 - Demand Quality / Financing 没有出现系统性断裂。
 
 因此该框架在这个负对照上**没有必然误报 S4**。
+
+---
+
+# 5A. Case D — 2008–2009 GFC / Enterprise IT（融资主导型系统清算）
+
+这个案例此前保留在汇总表，但详细案例段落缺失。v0.7 将其恢复，因为它检验一个关键问题：
+
+> **如果冲击首先从金融条件进入，是否必须等到卖方出现巨额 impairment 才能确认资本清算？**
+
+答案是否定的。
+
+Federal Reserve 当期材料显示：
+
+- **2008 H1**：企业销售、利润与信用条件已经恶化，一些公司推迟或放弃资本扩张；
+- **2008 Q4**：real equipment & software investment 年化下降约 **28%**；
+- **2008 H2**：real IT investment 年化平均下降约 **12.5%**；
+- **2009 Q1**：real equipment & software investment 再以约 **34% annualized** 下滑；
+- 信用可得性对许多企业仍然偏紧，融资成本上升；
+- Cisco FY2009 revenue **同比 -9%**，product revenue 约 **-12%**，主要受 enterprise / service-provider spending 减少影响。
+
+但 Cisco 并没有出现 2001 telecom bust 那种同等级的巨额 inventory / asset impairment。
+
+这使 Case D 成为一个重要反例：
+
+> **真实的系统性资本清算可以由 Financing + Forward Commitment + Utilization/Revenue 主导，而 Accounting 保持弱或滞后。**
+
+## 5A.1 信号回放
+
+| Signal | 当期可观测证据 | v0.7 |
+|---|---|---:|
+| Accounting | 未观察到与 2001 telecom 同等级、可作为系统确认的 enterprise-IT seller write-down | 0 |
+| Utilization / Revenue | 2008Q4 E&S 约 -28% annualized；2009Q1 约 -34%；2008H2 IT investment 约 -12.5% annualized；Cisco FY2009 revenue -9% | 2 |
+| Market Clearing | broad business inventory liquidation 明显，但 enterprise-IT-specific resale / channel clearing 证据较弱 | 1 |
+| Forward Commitment | 2008 年中已出现企业推迟/放弃 expansion；2008Q4–2009H1 investment collapse | 2 |
+| Demand Quality / Financing | credit availability reduced / cost increased；2009H1 对许多 borrower 仍然 tight | 2 |
+
+**研究侧结果：7/10，Segment Breadth = Broad / macro-systemic。判定为 Broad clearing。**
+
+## 5A.2 Timing
+
+- **First deterioration:** 2007 Q4–2008 H1 — sales / profits / credit conditions deteriorate，扩张计划开始推迟；
+- **Cross-confirmation:** 2008 Q4 — investment、IT spending、credit 与企业需求同步恶化；
+- **Accounting confirmation:** **No qualifying hard accounting confirmation** — 这是本案例的核心特征，而不是数据遗漏；
+- **Trough / stabilization:** 2009 H1 trough；2009 H2 equipment/software 与 IT spending 开始恢复。
+
+## 5A.3 对 Chapter 24 的意义
+
+Case D 固定一条规则：
+
+> **Accounting 是确认渠道之一，不是 S4 的硬门槛。**
+
+如果：
+- credit conditions 显著恶化；
+- forward investment collapse；
+- utilization/revenue 广泛下滑；
+- segment breadth 足够广；
+
+即使卖方没有出现巨额 impairment，资本清算仍然可以成立。
+
+这也说明五信号不是“五票全中才算”。
+
+真正需要的是：
+
+> **不同 shock-entry path 下，多类独立信号形成足够广的 cross-confirmation。**
 
 ---
 
@@ -436,7 +500,57 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 10. v0.6 回测结论
+# 10. A–H Unified Timing Matrix v0.7
+
+为了减少跨案例叙事自由度，v0.7 将所有现有观察统一成同一时钟。
+
+| Case | First deterioration | Cross-confirmation | Accounting confirmation | Trough / stabilization | Timing confidence |
+|---|---|---|---|---|---|
+| A · 2000–2002 Internet/Telecom | 2000 Q4 | 2001 Mar–Apr | 2001 Apr / FY2001 | 2002 H1–H2，恢复边界较模糊 | Medium–High |
+| B · 2018–2019 Crypto/GPU | 2018 H2 | 2018 Q4–2019 Jan | FY2019 Q3–Q4 | 2019 H1 | Medium |
+| C · 2022–2023 GPU + Cloud Optimization | 2022 Q2 | 2022 Q3–Q4，但 system breadth 不成立 | FY2023 reporting cycle | 2022 H2–2023 H1；AI side 随后快速反转 | Medium |
+| D · 2008–2009 GFC / Enterprise IT | 2007 Q4–2008 H1 | 2008 Q4 | **No qualifying hard accounting signal** | 2009 H1 trough / H2 stabilization | High |
+| E · 2001–2003 Semiconductor | 2000 H2 | 2001 H1 | 2001 H2–2002 | 2003 recovery | High |
+| F · 2014–2016 Oil & Gas Upstream | 2014 H2 | 2015 H1–H2 | 2015–2016 reporting | 2016 Q2–Q4 | High |
+| G · 2018–2019 Hyperscale Cloud Digestion | 2019 CapEx deceleration | **No systemic cross-confirmation** | None | N/A — negative control | High |
+| H · 2011–2013 Solar PV Manufacturing | 2011 H2 | 2012 H1 | 2012 reporting cycle | 2013–2014 | Medium–High |
+
+### 10.1 目前能看出的 lead / lag
+
+在当前小样本中，最稳定的方向不是某个精确月数，而是：
+
+1. **Market Clearing / Utilization 往往早于或同步于 Accounting。**
+   - Semiconductor、Oil & Gas、Solar 最明显。
+2. **Forward Commitment 常在 Accounting 之前恶化。**
+   - Telecom、GFC、Oil & Gas、Solar 都出现先削减 / 推迟资本承诺，再由财务报表确认。
+3. **Financing 的位置取决于 shock-entry path。**
+   - GFC：Financing 是前导变量；
+   - Oil & Gas：Financing 是中段放大器；
+   - Semiconductor / Crypto：Financing 不一定可观测或不是必要条件。
+4. **Accounting 的缺失不能自动否定系统性 clearing。**
+   - Case D 是最重要反例。
+5. **“Cross-confirmation 未发生”本身也是结果。**
+   - Case G 证明 CapEx digestion 可以停留在单点，而不进入系统清算；
+   - Case C 证明强 inventory/accounting 信号也可以因 Data Center / AI 反证而止于 partial clearing。
+
+### 10.2 暂时不能做的事情
+
+8 个 observations 仍然太少，而且 A/E 相关、B/C 都带 GPU exposure。
+
+因此 v0.7 **不**：
+- 计算平均 lead time 后包装成“预测提前 X 个月”；
+- 做 p-value / regression；
+- 优化五信号权重；
+- 把“Accounting 通常滞后”写成固定因果定律；
+- 把 Case A 与 E 当两个独立危机提高 hit rate。
+
+当前最稳妥的经验结论是：
+
+> **五信号框架的价值更像“跨信号确认协议”，而不是一个固定阈值计分器。Market Clearing、Utilization 与 Forward Commitment 更适合作为前置观察层，Accounting 更适合作为常见但非必需的后验确认层；Financing 的领先性取决于冲击从哪里进入。**
+
+---
+
+# 11. v0.7 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -468,19 +582,19 @@ Case A 与 Case E 共享 2000–2002 大周期和终端需求冲击。
 
 ---
 
-# 11. 下一步：P0-1 v0.7
+# 12. 下一步：P0-1 v0.8
 
 下一版继续增加**独立周期**与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
 
-1. 把 Case A–H 全部统一填入 first-deterioration / cross-confirmation / accounting-confirmation / trough 四列；
-2. 继续增加与科技无关的资本周期，优先寻找可同时观察 utilization、financing 与 residual-value 的行业；
-3. 对各 signal 统计 ordinal lead/lag，只报告方向与区间，不制造小样本显著性；
+1. 继续增加与科技无关的资本周期，优先寻找可同时观察 utilization、financing 与 residual-value 的行业；
+2. 对 timing confidence 为 Medium 的 Case A/B/C/H 继续做 source-level timing tightening；
+3. 只报告 ordinal lead/lag 方向与区间，不制造小样本显著性；
 4. 继续保持当前 proxy hierarchy、segment breadth 与 false-positive 规则冻结；
 5. 在样本明显扩充前，不优化 0/1/2 权重，不把任何阈值写回正式 Chapter 24。
 
 ---
 
-# 12. Sources
+# 13. Sources
 
 ## 2000–2002 Internet / Telecom
 
