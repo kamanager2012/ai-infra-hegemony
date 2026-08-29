@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.3
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.4
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -504,7 +504,69 @@ The evidence now supports a stronger statement than v0.1:
 
 ---
 
-## 14. P0-2 v0.4 worklist
+## 13A. GPT-5.6 event-study data-access audit
+
+The OpenRouter August 25 post now exposes enough methodology to define the event cleanly, but not enough public raw data to estimate a defensible daily causal coefficient.
+
+Publicly visible:
+- Pre window: **Jul 8–Jul 26**;
+- Program: **Jul 27–Aug 14**;
+- Post: **Aug 15–Aug 20**;
+- Jul 30 additional OpenAI list-price cuts changed effective treatment intensity;
+- Sol is usable as a control only through **Aug 16**;
+- Terra/Luna daily token usage rose **5.6× / 13.8×** versus pre-period daily averages;
+- Terra/Luna token share rose **0.7% → 7.8%**;
+- competitor labs lost **5.3 share points** and other OpenAI models lost **1.9 points**;
+- roughly **32%** of program users had some post-program usage;
+- post-period daily Terra/Luna token volume averaged **1.38×** the program-period level;
+- Sol averaged **79.1B tokens/day** during the Terra/Luna program versus **71.2B/day** pre-period.
+
+The page does **not** surface a downloadable daily raw-price / raw-token panel.
+
+Therefore Phase II should not:
+- digitize chart pixels into fake daily observations;
+- compute a single `log(volume ratio) / log(price ratio)` coefficient;
+- treat Jul 27–Aug 14 as one constant treatment price;
+- use Sol as an untreated control after Aug 16;
+- interpret the 5.6× / 13.8× headline as net market expansion.
+
+The current identification status is:
+
+> **Tier B event-study candidate with strong descriptive response, but insufficient public raw data for a reproducible daily regression.**
+
+### What can still be measured without fake precision
+
+Even without raw daily data, the public aggregates allow a decomposition of the observed share gain:
+
+```text
+Terra/Luna share gain = +7.1 points
+  ├─ competitors: -5.3 points
+  └─ other OpenAI: -1.9 points
+```
+
+Rounding explains the 0.1-point difference.
+
+This implies that roughly three quarters of the observed share gain came from **outside the OpenAI family**.
+
+That is evidence of substantial **substitution / displacement**.
+
+It is not yet a measure of:
+- net new workflows;
+- total-market token elasticity;
+- E3 verified-workflow elasticity;
+- E4 infrastructure elasticity.
+
+### v0.4 rule
+
+Until a machine-readable daily series becomes public or a reproducible data export is available:
+
+> **freeze the GPT-5.6 event at descriptive / event-catalog status.**
+
+Do not manufacture an elasticity point estimate from the charts.
+
+---
+
+## 15. P0-2 v0.5 worklist
 
 1. obtain/reconstruct daily provider-model price and token panels for eligible events;
 2. estimate Terra/Luna/Sol with event-time controls rather than headline pre/post ratios;
