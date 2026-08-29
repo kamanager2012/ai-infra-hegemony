@@ -1,4 +1,4 @@
-# P0-3 · Verified Workflow Economics v0.5
+# P0-3 · Verified Workflow Economics v0.6
 
 > **Status:** Research-side validation; not part of the frozen 32-chapter formal report.  
 > **Goal:** turn “cost per verified workflow outcome” from a conceptual statement into an auditable operating metric.
@@ -944,6 +944,137 @@ A study that measures an earlier stage must not be described as if it measured a
 
 ---
 
+## 12C. Public Level-3 Workflow-ID Candidate Audit v0.6
+
+P0-3 下一步不是继续堆“AI 提升 X%”案例，而是检查公开数据能否真正满足：
+
+```text
+workflow_id
+→ AI/tool cost
+→ human time
+→ verification
+→ persistence
+→ realized business value
+```
+
+本轮优先审计了最接近闭环的公开候选。
+
+| Candidate | Stable workflow / task ID | AI / tool cost at same ID | Human time | Verification / accepted output | Persistence | Realized business value | Closure verdict |
+|---|---|---|---|---|---|---|---|
+| **METR experienced OSS developers** | **Yes** — public `issue_id` for 246 valid completed issues | **No** | **Strong** — `initial_implementation_time`；部分样本还有 `post_review_implementation_time` 到 merge | **Partial/Strong** — real issue → PR review → merge path，且数据只保留 valid completed issues | **No durable rollback / regression window in public dataset** | **No** | **Closest public workflow-ID productivity panel; Level 1, not Level 3** |
+| **Brynjolfsson–Li–Raymond customer support** | underlying conversation / agent records exist in study, but no public workflow-ID panel used here | **No** | **Strong at operational-data level** — issues resolved/hour | **Strong outcome-style** — resolved issues + customer sentiment | **Partial** — employee retention / learning are worker-level, not per-case reopen persistence | **No workflow-specific realized value** | **Strong production productivity anchor; not public Level 3** |
+| **Klarna AI Assistant** | company operates millions of customer conversations, but public disclosure does not expose a joinable conversation-level panel | **No workflow-level tool-cost ledger** | aggregate equivalence / efficiency only | aggregate service metrics | public disclosures do not expose conversation-level reopen/persistence join | **Yes at aggregate level** — company disclosed about **US$40M annualized savings** | **Economic closure at aggregate program level, not workflow-ID Level 3** |
+| **Online-retail randomized field experiments** | experiment/workflow units exist | **No full public cost ledger** | partial / workflow dependent | **Strong** randomized customer/business outcomes | incomplete | **Strong causal sales/value outcome** | **Value-side bridge; not Level 3** |
+| **Mapping AI into Production** | firm-level experimental unit, not accepted-output workflow ID | **No** | incomplete | tasks / paying-customer outcomes | incomplete | revenue / capital-demand outcomes at firm level | **Firm-economic bridge; not workflow-ID Level 3** |
+
+### 12C.1 Why METR is the strongest public workflow-ID candidate so far
+
+The released METR dataset exposes:
+
+- `dev_id`;
+- `issue_id` for **246** completed issues;
+- `ai_treatment`;
+- pre-randomization expected completion time;
+- `initial_implementation_time` to pull request;
+- for part of the sample, `post_review_implementation_time` until merge.
+
+This is materially better than an aggregate productivity headline because a stable task identity can connect treatment and human-time telemetry.
+
+It also supplies a useful **negative ROI direction** at the productivity layer: the core regression reports about **18.8% more completion time with AI** in this setting.
+
+But P0-3 must not overstate what the public panel contains.
+
+The same `issue_id` does **not** publicly join:
+
+- actual model / inference spend;
+- tool-call / retrieval cost;
+- reviewer minutes as a complete separate cost field;
+- post-merge rollback / production incident window;
+- revenue, avoided cost, customer value, or other realized business endpoint.
+
+Therefore:
+
+> **public task identity ≠ full economic closure.**
+
+METR is a high-quality Level-1 panel, not a Level-3 panel.
+
+### 12C.2 Why aggregate economics cannot be spliced onto task-level telemetry
+
+Klarna provides the opposite side of the evidence gap.
+
+Its public financial communication says the AI Assistant had engaged millions of customers and was expected to deliver roughly **US$40M of annualized savings**.
+
+That is valuable realized-economics evidence.
+
+But public disclosures do not provide a row such as:
+
+```text
+conversation_id
+→ model/tool cost
+→ human minutes
+→ resolution accepted
+→ no reopen
+→ attributed savings / margin
+```
+
+Therefore P0-3 explicitly prohibits this construction:
+
+```text
+METR task-level time
++
+Klarna aggregate savings
+=
+"complete AI workflow ROI"
+```
+
+Those measurements come from different organizations, workflows, populations, cost structures, and economic endpoints.
+
+> **Cross-study component assembly is not workflow-ID closure.**
+
+### 12C.3 Level-3 public-data status after the audit
+
+Current status remains:
+
+> **No verified public production dataset in the P0-3 evidence set closes all Level-3 fields at one workflow ID.**
+
+This is not treated as “data unavailable, therefore assume ROI.”
+
+It is a measurement result.
+
+The next acceptable upgrade requires one of two things:
+
+1. a public or auditable production dataset exposing the full join; or
+2. a first-party enterprise dataset constructed prospectively with the P0-3 schema.
+
+Until then:
+
+- Level-1 studies can support verified-productivity claims;
+- partial Level-2 evidence can support bounded cost claims;
+- aggregate business-value studies can support organization-level economic claims;
+- **none may be relabeled as workflow-level durable ROI without the join.**
+
+### 12C.4 Minimum Level-3 acquisition schema
+
+A future dataset should expose at minimum:
+
+| Field group | Required columns |
+|---|---|
+| Identity | `workflow_id`, workflow class, timestamp, treatment/model/version |
+| AI cost | input/output usage, inference cost, tool/API cost, infra allocation |
+| Human cost | production, review, remediation, escalation minutes |
+| Verification | accepted/rejected, quality score, verifier, severity |
+| Persistence | reopen/rollback/correction, verification window |
+| Economic value | revenue, gross margin, avoided cash cost, retained customer value, or prespecified business endpoint |
+| Mapping / integration | workflow discovery allocation, integration/observability allocation where material |
+
+The hard requirement is not that every value be perfectly precise.
+
+It is:
+
+> **all material fields must resolve to the same workflow identity or to a documented allocation rule.**
+
+---
+
 ## 13. ROI layer
 
 If business value can be observed:
@@ -1069,3 +1200,11 @@ The next step is no longer to accumulate generic productivity studies. It is to 
 - Kim, Kim & Koning, “Mapping AI into Production: A Field Experiment on Firm Performance,” INSEAD Working Paper 2026/20/STR, 2026: https://www.insead.edu/faculty-research/publications/working-papers/mapping-ai-production-a-field-experiment-firm
 - Ni et al., “Generative AI in Action: Field Experimental Evidence from Alibaba's Customer Service Operations,” revised 2026-07-31: https://arxiv.org/abs/2603.29888
 - Holz et al., “Taxpayer Behavior in the Age of AI: A Field Experiment on Property Tax Appeals,” NBER Working Paper 35632, 2026-08: https://www.nber.org/papers/w35632
+
+
+## Level-3 candidate-audit sources added in v0.6
+
+- METR public replication repository — anonymized `data_complete.csv`, stable `issue_id`, treatment, implementation time and partial post-review-to-merge time: https://github.com/METR/Measuring-Early-2025-AI-on-Exp-OSS-Devs
+- METR study paper / announcement — 16 experienced developers, 246 tasks, early-2025 AI access increased completion time by about 19% in the study setting: https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf
+- NBER Working Paper 31161, *Generative AI at Work* — 5,179 support agents; productivity +14% on average with heterogeneous effects: https://www.nber.org/papers/w31161
+- Klarna 2024 results — AI Assistant customer scale and approximately US$40M annualized savings at the program level: https://investors.klarna.com/News--Events/news/news-details/2024/Klarna-Announces-Profitable-Start-to-2024-as-It-Sets-the-Stage-for-a-Year-of-Innovation-and-Growth/default.aspx
