@@ -311,7 +311,7 @@ OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的
 
 它既可以加速 AI infrastructure 的资本形成，也可以在 utilization 不足时放大 stranded-capacity 与 duration-mismatch risk。
 
-## 11. 什么事实会迫使本章改判
+## 12. 什么事实会迫使本章改判
 
 Anchor Compute Buyer Effect 应在以下情况下被下调：
 
