@@ -185,6 +185,93 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 ---
 
+## 6A. 游戏主机：固定价格带、长世代与 Memory / Storage Residual Pressure
+
+游戏主机是一个很适合检验 Non-AI Residual Capacity 的整机行业。它与 AI server 并不直接争夺同一颗 accelerator，却真实暴露于 **memory、storage、custom SoC/APU 与部分制造/封测资源**。
+
+当前主机规格能够说明这种物理暴露的边界：
+
+- PlayStation 5 使用 custom AMD Zen 2 / RDNA-based processor、**16 GB GDDR6** 与 custom SSD；[^24]
+- Xbox Series X 使用 custom Zen 2 / RDNA 2 processor、**16 GB GDDR6** 与 **1–2 TB custom NVMe SSD**；[^25]
+- Nintendo Switch 2 使用 **custom NVIDIA processor** 与 **256 GB UFS storage**。[^26]
+
+这些规格**不能**推出“游戏主机直接与 HBM 抢同一物理池”。
+
+更准确的关系是：
+
+> **console memory / storage / SoC 与 AI/server demand 位于同一个更大的 semiconductor / memory capital system 中，但具体产品池、封装形式与 qualification path 并不相同。**
+
+### 6A.1 2026 年已经出现直接的 hardware-economics 压力
+
+Sony 在 FY2025 Q4 / FY2026 outlook 中明确表示：
+
+- 截至 2026 年 3 月，PS5 cumulative unit sales 已超过 **93 million**；
+- FY26 PS5 hardware sales 将以公司能够按**合理价格采购到的 memory volume**为基础；
+- 如果条件变化，公司将通过调整 **unit sales 与 promotional plans** 管理 hardware profitability。[^27]
+
+这是一条强一手传导证据，因为它把：
+
+> **memory procurement → hardware volume / promotion → hardware profitability**
+
+直接连在一起。
+
+Sony 2026 年 20-F 还把自 2025H2 以来的全球 memory semiconductor 涨价与 supply shortage 列为 G&NS 等业务风险，并明确提到 custom parts、limited production capacity 等条件可能导致生产下降或中断。[^29]
+
+TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
+
+- 2026 global game-console shipment forecast 从原先 **-3.5% YoY** 下修到 **-4.4% YoY**；
+- 主要主机的 memory cost 占 BOM 比例，从过去约 **15%** 上升到大约 **23%–42%**；
+- hardware gross margin 与传统促销空间因此承压。[^28]
+
+这属于 **B 级 institutional estimate**，不能升级成 Sony / Microsoft / Nintendo 已审计的实际 BOM。
+
+但与 Sony 一手采购口径结合后，可以支持一个更窄、更硬的结论：
+
+> **游戏主机已经成为 memory residual pressure 可以直接影响出货节奏、促销能力与 hardware margin 的整机案例。**
+
+### 6A.2 为什么游戏主机容易把一季压力变成一个世代的成本问题
+
+游戏主机通常具有：
+
+- 长 hardware generation；
+- 相对刚性的 retail price band；
+- 高度定制的 SoC/APU；
+- 固定 memory / storage architecture；
+- 依赖 installed base 扩大后由 software / network / content monetization 回收平台价值。
+
+因此，风险不只是一季 memory price 上升。
+
+如果一个新世代在 architecture freeze / BOM freeze 时遇到更高的 memory、storage 或 advanced-logic opportunity cost，影响可能通过：
+
+- launch configuration；
+- SKU segmentation；
+- promotion cadence；
+- multi-year cost-down curve；
+
+持续更久。
+
+这就是游戏主机版本的 **upgrade tax**：
+
+> **同一价格带下，硬件规格提升变慢；或同一目标规格需要更高 BOM / 更弱促销补贴。**
+
+### 6A.3 归因边界
+
+本报告不从上述证据推出：
+
+- PlayStation / Xbox / Nintendo 会被 AI 淘汰；
+- 游戏主机“缺的是 HBM”；
+- NVIDIA / AI server 抢走了某家主机厂确定数量的 wafer；
+- 2026 游戏主机出货下滑全部由 AI 导致；
+- 下一代主机一定涨价或延期。
+
+主机市场还同时受 generation cycle、content pipeline、installed-base saturation、retail pricing、FX、consumer demand 与 product strategy 影响。
+
+因此，更准确的产业判断是：
+
+> **游戏主机不是 AI 时代的边缘行业，而是一个长世代、hardware-margin 敏感、memory/storage 暴露较高的整机平台；AI/server memory demand 越强，它越需要在 quantity assurance、BOM、promotion 与 hardware cadence 之间做新的权衡。**
+
+---
+
 ## 7. Supply Assurance 是与价格同等重要的变量
 
 在 severe shortage 中，终端企业面对的不只是 ASP 上涨，还可能面对 allocation fulfillment 不足。
@@ -392,3 +479,11 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 [^21]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, https://www.gao.gov/products/gao-16-185t
 [^22]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
 [^23]: NASA/JPL, Space Radiation Effects on Integrated Circuits, https://parts.jpl.nasa.gov/asic/Appendix.3.html
+
+
+[^24]: PlayStation, PS5 official specifications, custom AMD Zen 2 / RDNA-based processor, 16 GB GDDR6 and custom SSD, https://www.playstation.com/content/dam/global_pdc/en-gb/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en-gb.pdf
+[^25]: Xbox, Xbox Series X official technical specifications, custom Zen 2 / RDNA 2 processor, 16 GB GDDR6 and 1–2 TB custom NVMe SSD, https://www.xbox.com/en-US/consoles/xbox-series-x
+[^26]: Nintendo, Nintendo Switch 2 official technical specifications, custom NVIDIA processor and 256 GB UFS storage, https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/
+[^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 cumulative sales above 93 million and FY26 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^28]: TrendForce, 2025-12-02, Memory Price Surge Squeezes Game Console Margins; 2026 Shipment Forecast Revised Downward, https://www.trendforce.com/presscenter/news/20251202-12811.html
+[^29]: Sony Group, FY2025 Form 20-F, global memory-semiconductor price increases / shortages and component-capacity risk, https://www.sony.com/en/SonyInfo/IR/library/FY2025_20F_PDF.pdf
