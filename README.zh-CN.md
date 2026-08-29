@@ -16,6 +16,8 @@
 
 ## 报告研究什么
 
+本报告不是在论证“只有 AI 重要”。手机、电脑、汽车、工业设备、机器人以及高可靠长生命周期电子仍然重要。核心问题是：**当 AI/HPC 以更高支付能力、更长锁量周期和更强资本形成能力改变部分共享或相邻上游的优先级时，非 AI 整机还能否按自己的 BOM、认证周期、产品寿命和价格约束，获得够用、够稳、付得起的资源。**
+
 AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完整 **system stack**：
 
 > **advanced logic + HBM + advanced packaging + interconnect + compiler/runtime + rack/data center + power + capital + workload**
@@ -195,6 +197,14 @@ AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume �
 ---
 
 ## 阅读入口
+
+### 整机 / 消费电子 / 汽车 / 工业读者
+
+建议第一遍直接按：
+
+**Ch01 → Ch03 → Ch21 → Ch20 §10 → Ch32**
+
+这条路径先解释 residual capacity、quantity assurance、upgrade tax 与整机传导；NVIDIA、Hyperscaler、中国 parallel stack 与 S1–S4 可在第二遍作为机制背景阅读。
 
 ### 快速阅读
 
