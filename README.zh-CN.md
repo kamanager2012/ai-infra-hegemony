@@ -8,7 +8,7 @@
 **标题口径：**“霸权 / Hegemony”是本报告研究的**风险状态与结构命题**，不表示截至 2026-08-28 已经进入 S3 — Resource Hegemony。当前公开证据组合仍最接近 S2 — Baseline Concentration。
 
 **资料检索与修订截止：2026-08-28**  
-**正文状态：已于 2026-08-29 完成 material-correction pass 后重新冻结。** 本轮仅处理影响研究含义的实质性问题，包括整机读者入口、Non-AI Residual Capacity 的下游暴露、China Production-Grade Gate 口径、未校准 workflow 判据、scenario monitoring 与证据边界；未改变 S1–S4 框架。重新冻结后，仅接受事实纠错、来源失效修复、引用口径修正与新的重大实质性错误修正，不再进行美容式重写或无证据的章节扩张。
+**正文状态：已于 2026-08-29 完成 material-correction pass，并在同日针对 2026-08-27 的 NVIDIA / Hugging Face pre-cutoff material event 做定向补充后再次冻结。** 两次修订均未改变 S1–S4 定义或当前 S2 baseline judgment；Hugging Face 交易状态仍保留为 reported transaction，而非 completed acquisition。再次冻结后，仅接受事实纠错、来源失效修复、引用口径修正与新的重大实质性错误修正，不再进行美容式重写或无证据的章节扩张。
 
 [开始阅读 32 章中文版](publication/README.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [最终总判](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
 
