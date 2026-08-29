@@ -16,6 +16,22 @@ IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-e
 
 这些都是 occupational / employment exposure，不是“同等比例任务会被自动化”，更不是同等比例岗位消失。
 
+### 2A. 2026 已出现局部就业信号，但不能外推成全经济失业结论
+
+Stanford AI Index 2026 汇总的美国数据指出，**22–25 岁 software developers 的就业较 2024 年下降接近 20%**；同时，其组织调查中约三分之一受访者预计未来一年 AI 会减少 workforce，但整体就业数据尚未显示同等规模的广泛岗位损失。[^3]
+
+这条证据必须窄读：
+
+- 它是特定国家、年龄组与职业的观察；
+- 它可能同时受 hiring cycle、宏观环境、毕业生供给与企业组织调整影响；
+- 它不能被直接改写成“AI 已导致软件工程岗位下降 20%”或“全行业将下降 20%”。
+
+Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号：更偏 automation 使用方式的受访者，往往预期 AI 在未来 12 个月能够承担更多工作任务。[^4] 但 Anthropic 明确说明该调查并不代表总体人口，computer/mathematical 与 management occupations 在样本中明显过度代表。
+
+因此，2026 年更稳健的结论仍然是：
+
+> **局部 hiring-pipeline 与 early-career 信号已经出现，但 task exposure → workflow adoption → employment outcome 的传导仍需继续观察。**
+
 ## 3. Task-to-Job Translation：从模型能力到就业结果至少要跨五层
 
 本报告使用以下传导链：
@@ -124,3 +140,5 @@ agent-native workflow 可能减少部分 coordination work。
 
 [^1]: International Labour Organization, “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, 2025, https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
 [^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” early-career software-developer employment and employer workforce expectations, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
+[^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, reported and anticipated task exposure by Claude users; survey explicitly not representative of the general population, https://www.anthropic.com/research/economic-index-june-2026-report
