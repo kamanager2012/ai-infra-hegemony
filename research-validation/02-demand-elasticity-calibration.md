@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.1
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.2
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -270,17 +270,186 @@ It is a corrected parameter map:
 
 ---
 
-## 9. P0-2 v0.2 worklist
+## 9. NBER identification audit
 
-1. Inspect the NBER paper’s estimation specification, sample construction and uncertainty range;
-2. build a model-day / provider-day **price-event catalog**;
-3. reject events contaminated by model-generation/capability changes;
-4. search for repeated same-model price variation, including time-of-day or provider-level price differences where quantity is observable;
-5. estimate E1 first;
-6. do not attempt E3 until P0-3 defines “verified workflow outcome” operationally.
+The working paper's preferred OpenRouter specification is materially stronger than the abstract alone suggests.
+
+At the provider-model-day level, the paper estimates approximately:
+
+```text
+log(Q_imt)
+=
+β1 log(Price_imt)
++ β2 log(Throughput_imt)
++ β3 log(Latency_imt)
++ β4 log(Context_imt)
++ Date×Model FE
++ Provider×Model FE
++ error
+```
+
+where:
+
+- (Q_{imt}) = daily total tokens for provider (i), model (m), date (t);
+- Price = prompt-token price;
+- Throughput = tokens/second;
+- Latency = time-to-first-token;
+- Context = maximum context window.
+
+The preferred specification uses **32,539 provider-model-day observations** and identifies price sensitivity from variation **within the same model**, including:
+
+1. provider entry / exit for the same model;
+2. price changes by existing providers.
+
+Because closed-source models generally lack comparable within-model provider-price variation, this estimation sample is centered on **open-source models**.
+
+The reported progression is informative:
+
+| Specification | Price coefficient |
+|---|---:|
+| date FE, limited quality controls | about **-0.55** |
+| + model FE | about **-1.08** |
+| + provider×model FE and date×model FE | about **-1.11** |
+
+The preferred estimate is therefore approximately:
+
+> **E1 provider-model short-run own-price elasticity ≈ -1.11**
+
+### 9.1 Why -1.11 is not the report's universal ε
+
+This estimate is much better identified than a cross-sectional price/usage slope, but four boundaries remain.
+
+1. **Provider substitution is included.** A cheaper provider can gain tokens from another provider serving the *same model* without increasing model-level or market-level compute by the same amount.
+2. **OpenRouter routing is endogenous to price and quality.** Users can pin providers, but OpenRouter can also route requests using price and other provider characteristics. The paper controls for throughput, latency, context and fixed effects, but routing still complicates a pure end-user demand interpretation.
+3. **The estimation sample is mainly open-source models.** External validity to proprietary flagship APIs is not automatic.
+4. **It is short-run.** New workflows, organizational adoption and budget reallocation can take months or years.
+
+Therefore the correct identity is:
+
+> **-1.11 = a strong external anchor for E1 provider-model short-run elasticity, not E2/E3/E4 and not a 2026–2036 long-run Jevons parameter.**
+
+---
+
+## 10. 2026 GPT-5.6 discount program: a new event-study candidate
+
+OpenRouter published a useful post-cutoff natural-experiment-like event on **2026-08-25**.
+
+### 10.1 Event design
+
+The three GPT-5.6 models launched on July 9, 2026.
+
+OpenRouter reports:
+
+- **Pre:** Jul 8–Jul 26;
+- **Program:** Jul 27–Aug 14;
+- **Post:** Aug 15–Aug 20.
+
+Terra and Luna received large discounts beginning Jul 27.
+
+On Jul 30, OpenAI also reduced list prices:
+- Luna list price: **-80%**;
+- Terra list price: **-20%**;
+
+on top of OpenRouter's 50% discount, making effective discounts from Jul 30 roughly:
+- Luna: **90%**;
+- Terra: **60%**.
+
+Sol remained at list price through Aug 16 and therefore acts as an approximate within-family control before receiving its own 50% discount on Aug 17.
+
+### 10.2 Observed quantity response
+
+OpenRouter reports:
+
+| Model | Discount state | Program token volume vs. pre |
+|---|---|---:|
+| Terra | discounted | **5.6×** |
+| Luna | discounted | **13.8×** |
+| Sol | not discounted through Aug 16 | **1.11×** |
+
+Terra + Luna combined token share rose from **0.7% to 7.8%** of OpenRouter tokens.
+
+OpenRouter further reports that roughly three-quarters of the share gain came from competitors outside the OpenAI family, while some came from other OpenAI models.
+
+About **32%** of customers who tried Terra/Luna during the program had some usage in the short post-program window.
+
+### 10.3 Why this is stronger than the 100T cross-section
+
+This event holds model identity largely fixed.
+
+It therefore avoids the worst problem in:
+
+> cheaper model A vs. expensive model B
+
+cross-sectional comparisons.
+
+The untreated Sol path also provides a useful contemporaneous control before Aug 17.
+
+### 10.4 Why it still cannot yield one clean structural ε
+
+Do **not** calculate:
+
+> elasticity = log(5.6) / log(price change)
+
+or the equivalent for Luna and label it causal.
+
+The program contains several contaminations:
+
+- Terra/Luna list prices changed again on Jul 30, so the treatment price is not constant;
+- models had launched only shortly before the experiment;
+- OpenRouter routing can react to price;
+- competitor displacement is substantial, so own-model growth is not equal to market expansion;
+- the post-program window in the published analysis is only six days;
+- Sol itself becomes treated on Aug 17.
+
+Therefore the event is classified:
+
+> **Tier B event-study candidate — highly informative for price response and substitution, insufficient for a single structural E1/E4 coefficient without daily panel re-estimation.**
+
+---
+
+## 11. Price-event catalog v0.1
+
+| Event / dataset | Same model? | Quantity panel? | Control / FE? | Main contamination | Status |
+|---|---|---|---|---|---|
+| NBER OpenRouter provider variation, 2025 | Yes | Yes | provider×model + date×model FE | routing / provider substitution | **Best current E1 anchor** |
+| GPT-5.6 Terra/Luna discount, Jul–Aug 2026 | Yes | Yes | Sol approximate control | mid-program price reset, routing, substitution | **Tier B candidate** |
+| GPT-5.6 Sol 50% discount from Aug 17, 2026 | Yes | Yes | short pre-period / family comparison | very short published post-window | **Tier B provisional** |
+| OpenRouter 100T cost-vs-usage cross-section | No | aggregate/cross-sectional | No causal control | quality/task/provider segmentation | **Tier C descriptive only** |
+| New-model launch price comparisons | Usually no | sometimes | weak | capability + context + distribution change | **Reject for structural ε** |
+
+---
+
+## 12. Updated calibration map
+
+| Parameter | Current status | Evidence level |
+|---|---|---|
+| ε* = 0.73697 break-even | mathematically identified for current D-grade scenario | D / geometry |
+| E1 provider-model short-run elasticity | preferred external estimate about **-1.11** | empirical / quasi-experimental anchor |
+| E1 proprietary flagship event response | GPT-5.6 discounts show very large token response, coefficient not yet identified | Tier B event candidate |
+| E2 workload-category elasticity | not identified | open |
+| E3 verified-workflow elasticity | operational denominator now defined in P0-3, coefficient not identified | open |
+| E4 infrastructure-demand elasticity | not identified | open |
+
+The evidence now supports a stronger statement than v0.1:
+
+> **Short-run API/provider demand can be approximately unit elastic or slightly elastic in well-identified settings, and very large same-model discounts can trigger large token reallocations. But neither result establishes that total AI infrastructure demand has elasticity above one, because provider/model substitution and workflow creation are different mechanisms.**
+
+---
+
+## 13. P0-2 v0.3 worklist
+
+1. obtain/reconstruct daily provider-model price and token panels for eligible events;
+2. estimate Terra/Luna/Sol with event-time controls rather than headline pre/post ratios;
+3. separate **share displacement** from **net market token expansion**;
+4. test whether elasticity differs by workload category where usage labels are observable;
+5. report confidence intervals / robustness specifications;
+6. keep E3 separate until real VSWO datasets are populated;
+7. do not replace the D-grade sensitivity grid with -1.11 unless the estimand is explicitly E1.
 
 ## Sources
 
 - Demirer, M.; Fradkin, A.; Tadelis, N.; Peng, S., **The Emerging Market for Intelligence: Pricing, Supply, and Demand for LLMs**, NBER Working Paper 34608, Dec. 2025: https://www.nber.org/papers/w34608
 - Aubakirova, M. et al., **State of AI: An Empirical 100 Trillion Token Study with OpenRouter**, OpenRouter / a16z, Dec. 2025: https://openrouter.ai/state-of-ai/
 - OpenRouter empirical data program: https://openrouter.ai/data
+- Demirer et al., author-hosted working-paper version, empirical strategy / provider-model-day specification: https://andreyfradkin.com/assets/LLM_Demand_12_12_2025.pdf
+- OpenRouter, **GPT 5.6 Discounts & Jevons Paradox**, 2026-08-25: https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/
