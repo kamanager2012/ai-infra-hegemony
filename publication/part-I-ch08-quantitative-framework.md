@@ -80,7 +80,21 @@ DeepSeek-V3 / V2 等公开案例说明，architecture improvement 可以显著�
 
 ---
 
-## 4. System Spec 可以用于 Material Identity，但不能凭空制造 Shipment
+## 4. Formal Training Compute Conversion 不能等同于完整 R&D Cost
+
+DeepSeek-V3 Technical Report 披露 full formal training 使用 **2.788M H800 GPU-hours**，并使用 **US$2/GPU-hour** 的租赁成本假设。[^1]
+
+因此可以得到一个明确标记为 **D 级算术换算**的结果：
+
+> **2.788M × US$2 ≈ US$5.576M**
+
+这个数字只代表 formal-training compute conversion，不包含 research iteration、failed runs、data engineering、engineering payroll、cluster depreciation、networking、storage 与 post-training ecosystem。
+
+因此，US$5.576M 可以作为公开训练运行规模的量化锚，但不能写成“一个 frontier model 的完整公司研发成本”。
+
+---
+
+## 5. System Spec 可以用于 Material Identity，但不能凭空制造 Shipment
 
 GB200 NVL72 官方规格包括：
 
@@ -111,7 +125,7 @@ GB200 NVL72 官方规格包括：
 
 ---
 
-## 5. HBM：Bit Demand 与 Manufacturing Input 不是一一对应
+## 6. HBM：Bit Demand 与 Manufacturing Input 不是一一对应
 
 Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
@@ -133,7 +147,23 @@ Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
 ---
 
-## 6. AI Capacity Gap：先判断“现在缺不缺”，再判断“缺口在扩大还是收敛”
+## 7. Advanced Packaging 必须使用自己的物理单位
+
+advanced-packaging 分析应优先使用可观察或有来源边界的变量，例如：
+
+- qualified capacity；
+- lead time；
+- allocation fulfillment；
+- package starts；
+- supplier guidance。
+
+本报告不使用合成的“CoWoS wafers per rack”系数反推实际 shipment。
+
+front-end wafers、back-end packaging capacity、HBM bits 与 energized MW 属于不同 physical pools，必须保持量纲分离。
+
+---
+
+## 8. AI Capacity Gap：先判断“现在缺不缺”，再判断“缺口在扩大还是收敛”
 
 对每个物理层 (i)，定义：
 
@@ -173,7 +203,7 @@ Demand 与 Capacity 必须使用：
 
 ---
 
-## 7. Capacity Growth Gap：只描述方向，不能代替当前缺口
+## 9. Capacity Growth Gap：只描述方向，不能代替当前缺口
 
 再定义：
 
@@ -199,7 +229,7 @@ AI_Capacity_Growth_Gap_i(t)
 
 ---
 
-## 8. Non-AI Residual Capacity 回答的是另一类问题
+## 10. Non-AI Residual Capacity 回答的是另一类问题
 
 AI Capacity Gap 观察 AI 侧。
 
@@ -228,7 +258,7 @@ NonAI_Residual(t)
 
 ---
 
-## 9. Power 必须同时保留 Physical Quantity 与 Delivery State
+## 11. Power 必须同时保留 Physical Quantity 与 Delivery State
 
 约 **120 kW/rack** 可以作为 rack-level power-density input。[^5]
 
@@ -259,7 +289,7 @@ NonAI_Residual(t)
 
 ---
 
-## 10. Forward Commitment 是 Supply Reservation Intensity 的 Proxy，而不是 Shipment
+## 12. Forward Commitment 是 Supply Reservation Intensity 的 Proxy，而不是 Shipment
 
 NVIDIA manufacturing, supply and capacity commitments 的公开轨迹为：[^6]
 
@@ -288,7 +318,39 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 ---
 
-## 11. Rolling Bottleneck Cascade：约束会在不同物理层之间迁移
+## 13. Incremental Scarce-Capacity Access 必须按物理层分别测量
+
+本报告不把 advanced logic、HBM、advanced packaging、networking 与 power 压缩成一个综合“capture ratio”。
+
+每个 physical layer 分别观察：
+
+- qualified supplier count；
+- lead time；
+- allocation fulfillment；
+- long-term agreements / prepayments；
+- delivery timing；
+- buyer credit quality；
+- supply elasticity。
+
+只有当某一具体 physical pool 的 customer-level allocation 可观察时，才使用可审计的百分比。
+
+---
+
+## 14. 先拆开五类风险，再判断是否形成 Cascade
+
+AI infrastructure 的 system risk 至少分成五类：
+
+1. **Physical bottleneck：** logic / HBM / packaging / interconnect；
+2. **Power bottleneck：** grid / substation / permit / cooling；
+3. **Capital / utilization risk：** asset utilization 无法覆盖 depreciation、power、operations 与 financing；
+4. **System-substitution risk：** cloud custom stacks / open software 改变 platform economics；
+5. **Regulatory / geopolitical risk：** export controls、supply interruption、interface remedies 与 regional fragmentation。
+
+单一风险不等于全行业危机。更危险的状态是多个时钟开始相互强化。
+
+---
+
+## 15. Rolling Bottleneck Cascade：约束会在不同物理层之间迁移
 
 AI infrastructure 没有一个永久固定的唯一瓶颈。
 
@@ -318,7 +380,7 @@ AI infrastructure 没有一个永久固定的唯一瓶颈。
 
 ---
 
-## 12. Capital Return 必须把不同现金时钟放进同一经济框架
+## 16. Capital Return 必须把不同现金时钟放进同一经济框架
 
 AI infrastructure 的最基本经济关系可以写成：
 
@@ -342,7 +404,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 13. Quantitative Guardrails
+## 17. Quantitative Guardrails
 
 本报告量化必须遵守以下边界：
 
@@ -362,7 +424,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 14. 最可靠的量化顺序
+## 18. 最可靠的量化顺序
 
 本报告采用：
 
