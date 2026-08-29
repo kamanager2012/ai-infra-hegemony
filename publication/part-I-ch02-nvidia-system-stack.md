@@ -125,7 +125,7 @@ NVIDIA system moat 的主要反向变量，不是“出现另一颗 ASIC”，�
 - deployment reliability；
 - HBM / packaging / power access。
 
-Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但其竞争强度应由真实 workload 与迁移成本衡量，而不是由产品发布数量衡量。完整分析见[第12章：Hyperscaler System-Stack Competition](../part-II-ch12-hyperscaler-system-stack.md)。
+Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但其竞争强度应由真实 workload 与迁移成本衡量，而不是由产品发布数量衡量。完整分析见[第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)。
 
 因此，本章只保留一个结论：
 
