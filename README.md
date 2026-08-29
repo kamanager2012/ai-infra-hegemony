@@ -16,6 +16,8 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 
 ## What this report studies
 
+This report does not argue that “only AI matters.” Smartphones, PCs, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important. The core question is whether **non-AI end systems can still obtain enough, stable, affordable supply on their own BOM, qualification, lifecycle, and product cadence when AI/HPC demand reprioritizes shared or adjacent upstream resources through higher willingness to pay, longer commitments, and stronger capital formation.**
+
 AI competition is moving from "who has the faster accelerator" toward the full **system stack**:
 
 > **advanced logic + HBM + advanced packaging + interconnect + compiler/runtime + rack/data center + power + capital + workload**
@@ -199,6 +201,14 @@ Core rule:
 ---
 
 ## Reading paths
+
+### End-system / consumer / automotive / industrial readers
+
+For a first pass, read:
+
+**Ch01 → Ch03 → Ch21 → Ch20 §10 → Ch32**
+
+That path explains residual capacity, quantity assurance, upgrade tax, and end-system transmission first. NVIDIA, hyperscalers, China's parallel stack, and S1–S4 can be read on the second pass as mechanism background.
 
 ### Fastest path
 
