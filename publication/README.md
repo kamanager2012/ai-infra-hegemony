@@ -55,7 +55,7 @@
 
 19. [AI 基础设施 CapEx 超级周期](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md)
-21. [消费电子与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
+21. [消费电子、整机工业与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
 22. [折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)
 24. [泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md)
