@@ -2,7 +2,7 @@
 
 ## 1. Executive judgment: important end systems now face upstream allocation rules being rewritten by AI/HPC
 
-As of **August 28, 2026**, this report is not arguing that AI is “more important” than smartphones, PCs, vehicles, industrial equipment, robotics, aerospace, or defense electronics. Those end systems and strategic platforms remain important.
+As of **August 28, 2026**, this report is not arguing that AI is “more important” than smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, or high-reliability electronics. Those end systems and strategic platforms remain important.
 
 What has changed is that **some of the shared or adjacent upstream resources they depend on — advanced logic, DRAM/LPDDR/NAND, advanced packaging, equipment, engineering capacity, power, and long-duration capital — are increasingly being repriced and reordered by AI/HPC demand with higher willingness to pay, longer capacity commitments, and stronger financing capacity.**
 
@@ -14,7 +14,7 @@ Exposure must remain layered. Smartphones, PCs, selected ADAS and edge-AI system
 
 The report's core judgment can be compressed into six points:
 
-1. **Traditional end markets face residual capacity, not gross global capacity.** Total supply can rise while smartphones, PCs, automotive, and industrial markets still face price, quantity-assurance, or configuration pressure.
+1. **Traditional end markets face residual capacity, not gross global capacity.** Total supply can rise while smartphones, PCs, game consoles, automotive, and industrial markets still face price, quantity-assurance, or configuration pressure.
 2. **The competitive unit has moved from the individual chip to the full system stack.** Competitiveness now depends on whether advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads can operate as a stable system.
 3. **AI/HPC is changing where the next dollar of capital goes.** When AI workloads offer greater willingness to pay, longer order duration, stronger financing capacity, and higher expected returns, incremental capital and scarce resources are more likely to move toward AI infrastructure.
 4. **NVIDIA remains exceptionally strong, but the competition is no longer GPU versus ASIC; it is system stack versus system stack.** Google, AWS, Microsoft, and Meta are building credible second-stack paths.
