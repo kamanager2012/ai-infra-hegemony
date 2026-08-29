@@ -99,7 +99,7 @@ NonAI_Residual(t)
 
 > **全球 wafer、DRAM 或 packaging capacity 可以继续增长，但 smartphone、PC、汽车或工业客户仍然可能面对更高价格、更低 allocation 或更慢规格升级。**
 
-因此，AI 对传统产业的影响通常不是“直接抢走全部产能”，而是通过 **product-mix reallocation、quantity assurance、pricing power 与 capital priority** 改变边际供给。
+因此，AI 对传统产业的影响通常不是“直接全面占用产能”，而是通过 **product-mix reallocation、quantity assurance、pricing power 与 capital priority** 改变边际供给。
 
 这也是为什么低利润、低议价、短订单客户通常比大型 anchor buyer 更容易承受压力。
 
@@ -165,7 +165,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 - grid / substation / generation：更长周期；
 - workload monetization：不确定且取决于真实业务采用。
 
-因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 headline CapEx，而应同时观察五类信号：
+因此，判断是否进入 **S4 — Capital Hard Landing**，不能只看 CapEx 绝对规模，而应同时观察五类信号：
 
 - **Accounting**：impairment、write-down、accelerated depreciation；
 - **Utilization / Revenue**：有效利用率、单位收入、workflow monetization；
