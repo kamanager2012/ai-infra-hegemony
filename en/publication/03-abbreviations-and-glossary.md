@@ -60,8 +60,10 @@ A structure in which the AI Infrastructure Economy and Traditional Device Econom
 ### AI Capacity Gap / AI Capacity Growth Gap
 **AI Capacity Gap** is the absolute physical shortfall `AI effective demand − AI effective capacity` within the same layer and delivery window; **AI Capacity Growth Gap** is the difference between demand growth and effective-capacity growth and describes only the direction in which the gap is changing. The two are not interchangeable.
 
-### AHICR
-Advanced/HPC Incremental Capacity Capture Ratio. Measures a buyer's capture of **incremental** advanced/HPC capacity in one physical layer; it is not a historical revenue-share metric.
+### Incremental Scarce-Capacity Access
+A layer-specific framework for evaluating whether different buyers can repeatedly obtain sufficient, qualified, and timely supply in advanced logic, HBM/DRAM, advanced packaging, networking, LPS, and energized power.
+
+It is measured through variables such as qualified suppliers, lead time, allocation fulfillment, long-term agreements/prepayments, delivery schedules, buyer credit quality, and supply elasticity. The report does not compress different physical pools into one synthetic cross-layer percentage.
 
 ### Cloud System-Stack Substitution
 The mechanism by which hyperscalers combine custom accelerators, interconnect, compiler/runtime, racks/pods, and captive workloads into a second production-grade system stack.
@@ -75,15 +77,18 @@ The dynamic rotation of the binding constraint across logic, HBM, advanced packa
 ### AI Software Unit Economics
 A workflow-level cost framework incorporating inference, retrieval/storage, tools/APIs, retries, human review, and other variable AI costs.
 
+### Financing Reflexivity
+The feedback mechanism created when a system seller also uses equity investment, credit enhancement, LPS support, or compute-financing coordination to accelerate customer and infrastructure buildout. It does not prove demand is artificial; it changes how demand independence, risk transfer, and refinancing dependence should be evaluated.
+
 ### Task-to-Job Translation
-Task Exposure → Adoption Economics → Workflow Redesign → Responsibility Constraint → Employment / Wage Outcome. Prevents technical exposure rates from being converted directly into job-loss rates.
+Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome. Prevents technical exposure rates from being converted directly into job-loss rates.
 
 ## Scenario terminology
 
 - **S1 — Competitive Expansion:** higher supply elasticity, multi-sourcing, and portability distribute value capture more broadly.
 - **S2 — Baseline Concentration:** a small number of system platforms / scarce-layer suppliers retain strong economics while real substitution paths continue developing.
 - **S3 — Resource Hegemony:** multiple scarce layers and switching costs strengthen together, materially raising the cost of replicating the full infrastructure stack.
-- **S4 — Capital Hard Landing:** utilization, clearing prices, forward commitments, and accounting losses deteriorate together, producing capital clearing.
+- **S4 — Capital Hard Landing:** accounting losses, utilization/revenue, market clearing, forward commitments, and demand-financing quality deteriorate broadly and persistently, producing capital clearing.
 
 ## Evidence identity
 
