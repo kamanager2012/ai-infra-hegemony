@@ -113,8 +113,9 @@ Non-comparable accounting definitions must not be mechanically added into an off
 | State | Meaning |
 |---|---|
 | Announced | project / target announced |
-| Contracted | contract signed |
+| Contracted / Secured | contract signed or land/power/shell capacity secured |
 | Permitted | key permits obtained |
+| Construction / Transition | physical buildout or contractual transition underway |
 | Energized | actual power delivery |
 | Utilized | real sustained load |
 
@@ -127,7 +128,9 @@ Representative current paths include:
 - Talen / AWS: up to 1.92 GW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^11]
 - Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035.[^12]
 
-The variables that need updating are ramp, energized MW, actual load, and utilization.
+The variables that need updating are state transition, ramp, energized capacity, actual load, and utilization.
+
+Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate.
 
 ## 7. Dashboard F — System-Stack Substitution
 
@@ -145,29 +148,31 @@ A single-chip benchmark is not sufficient evidence of system substitution.
 
 ## 8. Dashboard G — China's Parallel Stack
 
-Track each layer independently.
+Track two different levels rather than one localization rate.
 
-### Logic
+### Production-Grade Parallel Stack
 
-Domestic accelerators, foundry scale, yield / volume disclosures.
+Track:
 
-### Memory
+- accelerator / compute delivery;
+- HBM-class or equivalent memory subsystem;
+- advanced packaging / integration;
+- high-speed interconnect;
+- compiler/runtime;
+- production workload;
+- utilization, reliability, and economics.
 
-HBM-class products, qualification, volume production.
+### Autonomous Frontier Closure
 
-### Packaging
+Then separately track:
 
-Advanced integration, yield, scale.
+- advanced-manufacturing continuity;
+- equipment / materials / software / service;
+- cross-generation process upgrades;
+- HBM / packaging / LPS / power continuity;
+- long-duration capital and multi-generation scaling.
 
-### Software
-
-Compiler/runtime, framework compatibility, cluster utilization.
-
-### Deployment
-
-Frontier workloads, data-center power, real system scale.
-
-Frontier-system closure should be upgraded only when several closure gates improve together.
+Production deployment can strengthen the first level without proving the second.
 
 ## 9. Dashboard H — Regulation
 
@@ -201,7 +206,11 @@ Used-system prices, cloud discounts, lease rates, delivery lead times.
 
 CapEx guidance, seller commitments, Anchor Buyer contracts, power contracts.
 
-S4 should move from stress test toward main scenario only when multiple signal groups deteriorate together.
+### Demand Quality / Financing
+
+Customer cash generation, third-party risk capital, supplier equity / credit support, refinancing dependency, asset transferability, and Anchor Buyer utilization.
+
+S4 should move from stress test toward main scenario only when the five signal groups show broad, persistent, mutually reinforcing deterioration.
 
 ## 11. Evidence-grade quick rules
 
@@ -233,48 +242,45 @@ Seller commitments keep expanding, multi-layer scarcity persists, switching cost
 
 ### Move toward S4
 
-Utilization, market-clearing prices, CapEx / commitments, and accounting losses deteriorate together.
+Accounting losses, utilization/revenue, market-clearing prices, forward commitments, and demand-financing quality deteriorate together.
 
 ### Remain in S2
 
 Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
 
-## 12A. Operational monitoring thresholds: converting “persistent/material/large-scale” into trigger rules
+## 12A. Monitoring discipline: materiality and persistence must follow the variable's own clock
 
-To keep terms such as “persistent,” “material,” and “large-scale” from remaining qualitative adjectives, the report adds a **D-grade operational trigger policy**. These are research-update rules, not industry facts or trading signals.
+The report does **not** impose one universal rule such as "two quarters" or "three months" across all variables.
 
-**Table 29.4 — Observation frequency, persistence, and scenario triggers for core variables**
+That would create false precision because semiconductor allocation, memory pricing, power projects, regulatory proceedings, customer contracts, and accounting losses update on different clocks.
 
-| Variable group | Default frequency | Default persistence | Trigger rule |
-|---|---|---|---|
-| Seller economics / forward commitments | quarterly | 2 consecutive quarters | commitments or next-generation supply reservations must decline/cancel in two consecutive quarters before being treated as trend weakening; one quarter is only an observation |
-| HBM / DRAM allocation & pricing | monthly + quarterly | 3 monthly observations or 2 quarters | at least two of allocation fulfillment, contract pricing, lead time, and Absolute AI Capacity Gap must improve together before supply easing is treated as a trend |
-| Advanced packaging | quarterly + event-driven | 2 quarters | first-party suppliers must cease describing packaging as a growth constraint for two quarters while B-grade lead-time/pricing indicators also ease before S1 supply-elasticity weight rises materially |
-| Cloud system-stack substitution | quarterly + major deployment events | 2 reporting periods | at least two of production workload, external availability, and migration-cost/software maturity must improve across two reporting periods before substitution is treated as executable |
-| Power / Time-to-Power | quarterly | 2 quarters | conversion from contracted/permitted MW toward energized MW must improve while deployment waiting time declines before the power bottleneck is treated as easing |
-| Anchor Compute Buyer | event-driven + quarterly | 2 observations when recurring | formal expansion/delivery supports S2/S3; major delays, renegotiations, or cancellations raise S4 only when utilization or financing signals weaken in the same direction |
-| Capital clearing | quarterly | **2 consecutive quarters** | Accounting, Utilization/Revenue, Market Clearing, and Forward Commitment must **all deteriorate together** for two quarters before S4 moves from stress case toward main-scenario candidate |
-| Regulation | event-driven | legal-state transition | inquiry/RFI does not trigger structural reweighting; formal proceeding/final remedy matters only when interface, tying, access, or supply conditions materially change |
+Instead, every monitoring variable should specify:
 
-**Source:** Report D-grade monitoring policy.  
-**Note:** “2 quarters / 3 months” is a default update discipline designed to stop one news item from rewriting a long-run judgment. Where a series is annual or event-driven, use the latest two comparable observations rather than inventing quarterly data.
+1. **source cadence** — quarterly filing, monthly pricing series, event-driven contract, annual capacity disclosure, etc.;
+2. **physical / economic clock** — hardware, fab, data center, grid, contract, or accounting;
+3. **comparable baseline** — same denominator, same unit, same evidence identity;
+4. **materiality** — large enough to change the relevant mechanism rather than merely create headline volatility;
+5. **persistence / confirmation** — supported by comparable follow-up evidence appropriate to that variable;
+6. **cross-signal confirmation** — especially for S4, where one weak metric is insufficient.
 
 ### Handling missing data
 
-If a layer does not provide same-unit `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**. Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as proxies, but they cannot be renamed as an absolute capacity gap.
+If a layer does not provide same-unit `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**.
 
-### Minimum evidence combinations for scenario reweighting
+Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as proxies, but they cannot be renamed as an absolute capacity gap.
 
-- **Material move toward S1:** at least two of Supply Elasticity, System Substitution, and Buyer Optionality satisfy their persistence rules;
-- **Material move toward S3:** Multi-layer Scarcity, Switching Cost, and Forward Reservation strengthen together for at least two comparable observations;
-- **Material move toward S4:** retain Chapter 24's hard gate—four capital-clearing signal classes deteriorate together for two consecutive quarters;
-- **Otherwise remain in S2 or make only local weighting adjustments**, rather than changing the main scenario on one headline.
+### Scenario reweighting
+
+- **Toward S1:** supply elasticity, system substitution, buyer optionality, and portability improve in mutually reinforcing ways;
+- **Toward S3:** multi-layer scarcity, switching cost, quantity assurance concentration, and forward reservation strengthen together;
+- **Toward S4:** Accounting, Utilization/Revenue, Market Clearing, Forward Commitment, and Demand Quality/Financing deteriorate broadly and persistently;
+- **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
 
 ## 13. Update discipline
 
-One news item should not rewrite the entire book.
+One news item should not rewrite the entire report.
 
-Scenario weighting changes only when a new fact changes a core mechanism variable and crosses a pre-defined threshold.
+Scenario weighting changes only when new evidence changes a core mechanism variable with materiality and persistence appropriate to that variable's own reporting and asset clock.
 
 This keeps the report updateable without rewriting the industry narrative after every product launch, stock-price move, or rumor.
 
