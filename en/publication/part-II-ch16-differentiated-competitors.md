@@ -45,6 +45,41 @@ The Foundry Clock requires long-duration progress in process technology, yield, 
 
 Intel's recovery cannot therefore be proved by one product, one process milestone, or one fab. High-NA HVM is a meaningful manufacturing-execution signal, while external-foundry adoption, yield economics, and customer trust still require separate validation.
 
+## 4A. Historical institutional memory: concentration changes who controls cadence; it does not imply inevitable stagnation
+
+Intel's client-CPU history is useful only as a bounded comparison. It should not be rewritten as “dominance automatically causes toothpaste-style stagnation.”
+
+Intel's own 2016–2017 annual reports disclosed a lengthening process-technology cadence across 14nm and 10nm, with multiple product waves planned on the same node. Its 2018 Form 10-K then stated that 10nm volume production had been delayed from the second half of 2018 into 2019.[^10][^11]
+
+The defensible lesson is:
+
+> **When one technical/manufacturing path carries most of the upgrade cadence, process execution, architecture cadence, and customer replacement timing become more tightly coupled to that roadmap.**
+
+It does **not** prove that market concentration caused Intel's 10nm delay. The filing itself identifies manufacturing, yield, and implementation challenges; engineering causality cannot be replaced with a market-structure story.
+
+Competition also returned through new paths rather than simply making the incumbent's roadmap accelerate internally. AMD launched the first Zen-based Ryzen desktop processors in **2017**; Apple launched M1 in **2020** as the first chip designed specifically for Mac, creating a different vertically integrated client-compute path.[^12][^13]
+
+The useful institutional memory is therefore:
+
+> **When an executable second system is weak, the incumbent has greater power to define upgrade cadence. When real competition returns, it often arrives through a different architecture / manufacturing / system path.**
+
+The analogy to 2026 AI infrastructure is about **migration cost and system definition**, not today's product cadence:
+
+- late Intel client computing combined a mature market with process delay;
+- the 2026 NVIDIA data-center stack combines explosive demand, rapid roadmaps, and scarce-capacity allocation;
+- the former is closer to “thin upgrade cadence”;
+- the latter is currently closer to “buyers want the next generation but face migration and quantity-assurance constraints.”
+
+This report therefore does **not** call current AI scarcity “another Intel toothpaste era.”
+
+The longer-run risk is narrower:
+
+> **If production-grade second system stacks fail to emerge for many years, today's control over scarce-layer access and migration could eventually become greater control over the cadence of progress itself.**
+
+If AMD, hyperscaler custom systems, open/runtime portability, China's parallel alternatives, or other production-grade second paths scale materially, the historical analogy weakens.
+
+---
+
 ## 5. Qualcomm: changing cloud demand from the edge
 
 Qualcomm's relative strengths are closer to smartphones, PCs, edge AI, low-power compute, and connectivity. Its 2026 materials continue to emphasize local agentic AI on Snapdragon X Series PCs and on-device generative AI on mobile platforms.[^5][^6]
@@ -116,3 +151,9 @@ Whether they materially weaken dominant system-stack economics depends on produc
 [^7]: Apple, Apple Intelligence, on-device processing and Private Cloud Compute, https://www.apple.com/apple-intelligence/
 [^8]: Apple Security Research, Private Cloud Compute security documentation, https://security.apple.com/documentation/private-cloud-compute/
 [^9]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
+
+
+[^10]: Intel Corporation, 2016 Form 10-K, lengthened utilization of 14nm and 10nm process technologies with multiple waves of products, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-17-000012/a10kdocument12312016q4.htm
+[^11]: Intel Corporation, 2018 Form 10-K, 10nm volume-production delay from 2H18 into 2019 and process-execution risks, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-19-000007/a12292018q4-10kdocument.htm
+[^12]: AMD, 2017-03-02, first Ryzen desktop processors based on the new Zen core architecture, https://www.amd.com/en/newsroom/press-releases/2017-3-2-amd-ryzen-tm-7-desktop-processors-featuring-recor.html
+[^13]: Apple, 2020-11-10, M1 as the first chip designed specifically for Mac, https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/
