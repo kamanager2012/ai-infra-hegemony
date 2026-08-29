@@ -211,7 +211,7 @@ CapEx guidance, seller commitments, Anchor Buyer contracts, power contracts.
 
 Customer cash generation, third-party risk capital, supplier equity / credit support, refinancing dependency, asset transferability, and Anchor Buyer utilization.
 
-S4 should move from stress test toward main scenario only when the five signal groups show broad, persistent, mutually reinforcing deterioration.
+S4 should move from stress test toward the main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups are monitoring families, not a mandatory five-of-five gate; Accounting is confirmation / severity evidence, not a prerequisite.
 
 ## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
 
@@ -293,7 +293,7 @@ Seller commitments keep expanding, multi-layer scarcity persists, switching cost
 
 ### Move toward S4
 
-Accounting losses, utilization/revenue, market-clearing prices, forward commitments, and demand-financing quality deteriorate together.
+Multiple independent families among utilization/revenue, market clearing, forward commitments, demand-financing quality, and accounting deterioration cross-confirm one another with sufficient causal breadth. Accounting strengthens severity when present but is not required.
 
 ### Remain in S2
 
@@ -324,7 +324,7 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 
 - **Toward S1:** supply elasticity, system substitution, buyer optionality, and portability improve in mutually reinforcing ways;
 - **Toward S3:** multi-layer scarcity, switching cost, quantity assurance concentration, and forward reservation strengthen together;
-- **Toward S4:** Accounting, Utilization/Revenue, Market Clearing, Forward Commitment, and Demand Quality/Financing deteriorate broadly and persistently;
+- **Toward S4:** multiple causally independent signal families deteriorate broadly and persistently across actors/layers; at least one real-economy / market / commitment signal must be present, while Accounting is confirmatory rather than mandatory;
 - **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
 
 ## 13. Update discipline
