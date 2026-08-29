@@ -8,6 +8,18 @@
 - [研究透明度、局限性与纠错机制](04-research-transparency.md)
 - [竞争集、替代路径与反方证据矩阵](05-competitive-evidence-matrix.md)
 
+## 如果你来自整机 / 消费电子 / 汽车 / 工业 / 高可靠电子
+
+建议第一遍按这条路径阅读：
+
+1. [第1章：执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
+2. [第3章：AI Resource Gravity 与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [第21章：消费电子与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
+4. [第20章：Value Capture Map](part-III-ch20-value-capture-map.md#10-end-systems不是输掉-ai而是承受-residual-capacity-与-supply-assurance-pressure)
+5. [第32章：总判](part-IV-ch32-master-judgment.md)
+
+NVIDIA、Hyperscaler、中国 parallel stack 与情景章节是解释**为什么上游排队规则会变化**的机制背景；整机读者不需要先读完这些章节，才能理解 residual capacity、quantity assurance 与 upgrade tax。
+
 ## Part I — 系统权力与物理稀缺
 
 1. [执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
@@ -36,7 +48,7 @@
 
 19. [AI 基础设施 CapEx 超级周期](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md)
-21. [消费电子与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
+21. [消费电子、整机工业与实体经济的成本传导](part-III-ch21-consumer-transmission.md)
 22. [折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)
 24. [泡沫识别、资本清算与 S4](part-III-ch24-capital-clearing.md)
