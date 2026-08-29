@@ -100,6 +100,35 @@ open-source model 提高 model portability，压低 API premium，也增加 priv
 
 因此，Google Ironwood TPU、AWS Trainium3 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。[^1][^2]
 
+## 8A. Workflow Elasticity：单位成本下降不等于总基础设施需求下降
+
+Agent software 把模型调用转化成 workflow execution 后，总基础设施需求可以近似拆成：
+
+```text
+Total AI Infrastructure Demand
+≈ Workflow Count
+× Attempts per Workflow
+× Resource Intensity per Attempt
+```
+
+因此，模型更便宜或 routing 更高效只会降低其中一部分。
+
+如果更低价格带来：
+
+- 更多用户；
+- 更长 agent loop；
+- 更多 tool calls；
+- 更高 retry / exploration depth；
+- 更多过去不经济的 workflow 被自动化；
+
+那么总 compute / memory / network demand 仍然可能上升。
+
+所以 software layer 对 infrastructure 的真正反馈变量不是“API 单价”，而是：
+
+> **cost per verified workflow × demand elasticity**
+
+这也是为什么 agent adoption 既可能压低 model-layer margin，又可能扩大 cloud / accelerator / memory 的总使用量。
+
 ## 9. Human Review 是经常被低估的变量成本
 
 在 legal、finance、enterprise operations 等高风险 workflow 中，human review 可能长期存在。
@@ -134,7 +163,7 @@ AI 正在把一部分 software 从低边际成本复制品变成实时消耗 com
 
 真正的分水岭是：
 
-> **谁能把模型调用转化成可重复、可验收、低失败率、可收费的业务结果。**
+> **谁能把模型调用转化成可重复、可验收、低失败率、可收费的业务结果，同时把 workflow demand growth 控制在可持续的 unit economics 内。**
 
 ## References
 
