@@ -309,7 +309,7 @@ Confirmed only when:
 
 ## 7. Geopolitical conditions added to the timeline
 
-Chapter 28 should eventually incorporate the G1–G5 states from Phase II:
+If the frozen formal report is explicitly reopened, any Chapter 28 revision should incorporate the G1–G5 states from Phase II:
 
 - Taiwan continuity;
 - export-control regime;
