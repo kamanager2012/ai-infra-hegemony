@@ -243,7 +243,7 @@ NonAI_Residual(t)
 ### Delivery State
 
 - Announced；
-- Contracted；
+- Contracted / Secured；
 - Permitted；
 - Construction / Transition；
 - Energized；
@@ -251,7 +251,9 @@ NonAI_Residual(t)
 
 因此：
 
-> **contracted MW ≠ energized MW ≠ utilized AI load**
+> **contracted / secured capacity ≠ energized capacity ≠ utilized AI load**
+
+同时，generation MW/GW、PPA capacity 与 IT-GW 必须保持各自物理身份，不能因为都服务 AI project 就直接相加。
 
 一个正确的 power model 必须同时说明“多少”和“处于什么状态”。
 
