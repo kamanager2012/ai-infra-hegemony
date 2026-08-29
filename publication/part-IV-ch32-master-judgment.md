@@ -2,9 +2,9 @@
 
 ## 1. 最终产业判断
 
-截至 **2026 年 8 月 28 日**，本报告对 AI 基础设施与全球半导体产业的最终判断可以压缩为六点：
+截至 **2026 年 8 月 28 日**，本报告对未来十年 AI 产业结构的最终判断可以压缩为七点：
 
-**第一，AI infrastructure 的竞争单位已经从单颗芯片上移到完整 system stack。**  
+**第一，AI 基础设施的竞争单位已经从单颗芯片上移到完整 system stack。**  
 GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞争力的是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成高利用率、低迁移成本、可持续交付的完整闭环。
 
 **第二，AI 正在改变全球半导体“下一美元资本投向哪里”。**  
@@ -19,7 +19,10 @@ GPU、ASIC 或单一 benchmark 已不足以解释产业权力。真正决定竞�
 **第五，AI 基础设施的主要风险已经从“有没有需求”转向“资本基数增长速度能否被真实 utilization、monetization 与独立融资能力覆盖”。**  
 高 CapEx 本身既不是繁荣证明，也不是泡沫证明。Capital Hard Landing 需要 accounting、utilization/revenue、market clearing、forward commitments 与 demand-financing quality 多组信号广泛、持续并相互印证地恶化。
 
-**第六，未来十年不是一个单点预测，而是 supply elasticity、system substitution、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
+**第六，基础设施扩张只有转化为可验证、可收费、可重复的工作流产出，才完成需求侧闭环。**  
+Agent-native Software、Physical AI 与企业自动化最终都要回答同一个问题：单位可验证结果需要多少 Compute、Energy、Human Review 与 Capital，所创造的业务价值能否持续覆盖这些成本。单位 Compute 成本下降不等于总需求下降；如果更低成本释放更多工作流，基础设施使用量仍可能继续增长。
+
+**第七，未来十年不是一个单点预测，而是 supply elasticity、system substitution、workload economics、capital discipline、power 与 frontier-system closure 共同决定的条件状态。**
 
 因此，本报告的真正主题不是“谁会赢得 AI 芯片战争”，而是：
 
@@ -205,7 +208,57 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 ---
 
-## 10. “算力成为认知生产资料”必须用经济结果验证
+## 10. 从基础设施到产业生产率：需求侧闭环决定十年周期能走多远
+
+如果只观察 GPU、HBM、CapEx 或数据中心容量，本报告仍然是不完整的。基础设施只是供给侧；十年产业周期能否成立，最终取决于这些物理资产能否穿过软件、企业流程与实体世界，转化为可验证的经济产出。
+
+### Agent-native Software：单位经济从“席位”上移到“工作流结果”
+
+传统 SaaS 更接近按 account / seat 扩张，而 Agent-native Software 会持续消耗 inference、retrieval、tool/API、retry、observability 与 human review。
+
+因此，软件层真正应比较的不是单纯 token price，而是：
+
+> **cost per verified workflow outcome**
+
+模型更便宜、routing 更高效，可以降低单次资源消耗；但如果同时释放更多用户、更多 agent loop、更多工具调用和更多此前不经济的自动化工作流，总 Compute 需求仍可能扩大。
+
+这意味着软件层既是基础设施成本的承接者，也是未来基础设施需求弹性的来源。
+
+### Physical AI：从“能演示”到“能回收资本”
+
+机器人与 Physical AI 的竞争同样不是单一模型能力，而是 perception、control、actuation、battery、sensor、manufacturing、field reliability 与 cloud/edge system 的共同闭合。
+
+真正的商业临界点不是“机器人能否完成一次任务”，而是：
+
+> **Useful Tasks × Uptime × Deployment Scale 是否足以覆盖 Energy、Maintenance、Human Supervision、Depreciation 与 Financing。**
+
+因此，Physical AI 可能成为新的 Compute、Memory、Storage 与 Cloud Workload 需求池，但只有规模化 utilization 与资本回收能够证明其产业价值。
+
+### 劳动市场：Task → Workflow → Job，而不是 Exposure → Unemployment
+
+AI 对劳动的传导必须至少经过：
+
+> **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
+
+所以 occupational exposure 不能直接换算成岗位消失。更值得长期观察的是 junior/senior 结构、human-review ratio、output per employee、exception rate 与组织层级变化。
+
+### 人才体系：从“会调用模型”转向“能设计并验证系统”
+
+当基础模型调用逐渐商品化，更耐久的能力将向 workflow engineering、system engineering、cross-stack portability、verification、performance/cost measurement 与责任边界迁移。
+
+因此，未来十年的人才分化不会只发生在“会不会 AI”，而会发生在：
+
+> **能否把 AI 组织成可靠、可迁移、可度量、可承担责任的生产系统。**
+
+把四条链合在一起，本报告的需求侧闭环可以写成：
+
+> **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
+
+如果前半段扩张长期快于后半段，S4 风险上升；如果可验证工作流产出、利用率和现金流持续拉动新增需求，即使单位 Compute 成本持续下降，S2/S3 型资本扩张仍可能延续。
+
+---
+
+## 11. “算力成为认知生产资料”必须用经济结果验证
 
 本报告使用“生产资料化”描述一种可检验的经济变化，而不是技术神话。
 
@@ -223,7 +276,7 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 ---
 
-## 11. 2026–2036：四类结构状态而不是一个预测数字
+## 12. 2026–2036：四类结构状态而不是一个预测数字
 
 本报告使用四类并列情景：
 
@@ -260,7 +313,7 @@ utilization、clearing price、CapEx / commitments、accounting losses 与 deman
 
 ---
 
-## 12. 哪些事实会迫使本报告改判
+## 13. 哪些事实会迫使本报告改判
 
 以下信号具有高证伪价值：
 
@@ -280,7 +333,7 @@ utilization、clearing price、CapEx / commitments、accounting losses 与 deman
 
 ---
 
-## 13. 研究语法：强判断必须能从 Fact 走到 Falsification
+## 14. 研究语法：强判断必须能从 Fact 走到 Falsification
 
 本报告所有强判断都必须经过五层：
 
@@ -302,7 +355,7 @@ utilization、clearing price、CapEx / commitments、accounting losses 与 deman
 
 ---
 
-## 14. 最终总判
+## 15. 最终总判
 
 AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
@@ -314,6 +367,10 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 - hyperscaler 与 model company 的产业角色；
 - power 与 data-center infrastructure 的战略价值；
 - traditional device markets 可获得的 residual capacity；
+- Agent-native Software 从 seat economics 向 verified-workflow economics 的迁移；
+- Physical AI 从技术 demo 向 utilization、reliability 与 capital payback 的跨越；
+- 劳动市场从 task automation 到 workflow redesign 的结构性重组；
+- 人才体系从“会使用模型”向 workflow / system engineering 与 verification 的迁移；
 - 中国 parallel stack 的战略目标；
 - 全球资本市场对 AI workload monetization 的依赖程度。
 
@@ -336,7 +393,11 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 - [第6章：Advanced Packaging](part-I-ch06-advanced-packaging.md)
 - [第7章：Power](part-I-ch07-power-constraint.md)
 - [第12章：Hyperscaler System Stack](part-II-ch12-hyperscaler-system-stack.md)
+- [第14章：Agent-native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
+- [第15章：Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
 - [第17章：中国 Parallel Stack](part-II-ch17-china-parallel-stack.md)
+- [第25章：AI 与劳动市场](part-III-ch25-labor-market.md)
+- [第26章：AI 时代教育与人才体系](part-III-ch26-education-talent.md)
 - [第20章：Value Capture Map](part-III-ch20-value-capture-map.md)
 - [第24章：Capital Clearing](part-III-ch24-capital-clearing.md)
 - [第31章：2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
