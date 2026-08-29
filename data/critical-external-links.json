@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-28",
-  "policy": "Critical evidence links. Primary HTTP 200/206 is preferred; curated official fallback URLs may satisfy reachability when a document deep link is unstable or bot-blocked. Redirect destinations remain constrained.",
+  "version": "2026-08-29",
+  "policy": "Critical evidence links for the frozen formal report. Stable first-party or high-quality institutional landing pages are preferred over brittle document deep links. A link is accepted only when the institution, document identity, and claim scope remain unchanged.",
   "links": [
     {
       "id": "NV-FY27-Q2",
@@ -19,14 +19,15 @@
     },
     {
       "id": "TSMC-2Q26-TRANSCRIPT",
-      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf",
-      "final_url_contains": "TSMC%202Q26%20Transcript.pdf",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+      "final_url_contains": "quarterly-results/2026/q2",
       "fallback_urls": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
           "final_url_contains": "quarterly-results/2026/q2"
         }
-      ]
+      ],
+      "note": "Stable official Q2 results landing page used in the formal report; the previously used encrypted transcript PDF deep link was unstable in public retrieval."
     },
     {
       "id": "MICRON-HBM-3X",
@@ -105,8 +106,9 @@
     },
     {
       "id": "CXMT-PROSPECTUS",
-      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf",
-      "final_url_contains": "002170_20260527_23QQ.pdf"
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf",
+      "final_url_contains": "002170_20251230_B8QS.pdf",
+      "note": "Stable Shanghai Stock Exchange prospectus version; supports the cited 2025 Q2 Omdia 3.97% DRAM revenue-share metric and the RMB180B/RMB130B project/proceeds distinction."
     },
     {
       "id": "COUNTERPOINT-YMTC",
@@ -132,16 +134,90 @@
       "id": "IMF-GENAI-WORK",
       "url": "https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx",
       "final_url_contains": "SDNEA2024001"
+    },
+    {
+      "id": "NV-FINANCE-500B",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
+      "final_url_contains": "NVIDIA-Partners-With-Apollo",
+      "note": "Official 2026-08-10 financing-platform announcement."
+    },
+    {
+      "id": "NV-PORTS-PIKE",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx",
+      "final_url_contains": "NVIDIA-Guarantees-SB-Energys-PORTS-Pike",
+      "note": "Official 2026-08-17 LPS / 4.25 IT-GW / OpenAI customer announcement."
+    },
+    {
+      "id": "NV-Q2-FY27-CALL",
+      "url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
+      "final_url_contains": "TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call",
+      "note": "Official earnings-call transcript used for seller-assisted financing evidence."
+    },
+    {
+      "id": "OPENAI-SECURED-10GW",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/",
+      "final_url_contains": "building-the-compute-infrastructure-for-the-intelligence-age",
+      "note": "Official 2026-04-29 secured-capacity milestone update."
+    },
+    {
+      "id": "OPENAI-MICHIGAN",
+      "url": "https://openai.com/index/stargate-michigan-data-center/",
+      "final_url_contains": "stargate-michigan-data-center",
+      "note": "Official Michigan Stargate construction-stage update."
+    },
+    {
+      "id": "DEEPSEEK-V3",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "final_url_contains": "2412.19437",
+      "note": "DeepSeek-V3 Technical Report."
+    },
+    {
+      "id": "STANFORD-AI-INDEX-ECONOMY",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
+      "final_url_contains": "2026-ai-index-report/economy",
+      "note": "2026 AI Index economy/adoption/labor evidence."
+    },
+    {
+      "id": "STANFORD-AI-INDEX-RD-2025",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/research-and-development",
+      "final_url_contains": "2025-ai-index-report/research-and-development",
+      "note": "2025 AI Index inference-price evidence."
+    },
+    {
+      "id": "STANFORD-AI-INDEX-TECH-2026",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance",
+      "final_url_contains": "2026-ai-index-report/technical-performance",
+      "note": "2026 AI Index technical-performance convergence evidence."
+    },
+    {
+      "id": "ANTHROPIC-CADENCES",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "final_url_contains": "economic-index-june-2026-report",
+      "note": "Anthropic Economic Index June 2026 / Cadences."
+    },
+    {
+      "id": "UNESCO-AI-STUDENTS",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66903",
+      "final_url_contains": "ai-competency-framework-students",
+      "note": "Stable UNESCO official publication page; replaces the less stable bare article path."
+    },
+    {
+      "id": "UNESCO-AI-TEACHERS",
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers?hub=779",
+      "final_url_contains": "ai-competency-framework-teachers",
+      "note": "Stable UNESCO official publication page; replaces the less stable bare article path."
     }
   ],
   "last_manual_sweep": {
-    "date": "2026-08-28",
-    "method": "Direct reachability check against the curated critical-link manifest using public web retrieval; official fallback accepted only where explicitly declared.",
-    "result": "25/25 critical evidence items reachable under manifest policy",
-    "primary_direct": "24/25",
-    "fallback_used": [
-      "TSMC-2Q26-TRANSCRIPT"
+    "date": "2026-08-29",
+    "method": "Direct public-web retrieval of the curated critical-link manifest plus newly promoted high-impact sources. Stable official landing pages replaced brittle deep links where document identity and claim scope were unchanged.",
+    "result": "37/37 critical evidence items reachable under the current manifest policy",
+    "primary_direct": "37/37",
+    "repaired_or_repointed": [
+      "TSMC-2Q26-TRANSCRIPT -> stable TSMC 2026 Q2 Quarterly Results page",
+      "CXMT-PROSPECTUS -> stable 2025-12-30 Shanghai Stock Exchange prospectus",
+      "UNESCO AI competency framework student/teacher pages -> stable official hub URLs"
     ],
-    "note": "The encrypted TSMC 2Q26 transcript deep link remained unstable in public retrieval; the official TSMC 2026 Q2 Quarterly Results page was reachable and remains the declared fallback."
+    "note": "No high-impact claim lost its source support during the sweep."
   }
 }
