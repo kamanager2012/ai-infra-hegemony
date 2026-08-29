@@ -32,9 +32,25 @@ The pattern is:
 
 > **Tool Adoption > Curriculum Update > Institutional Reform**
 
+The same Stanford chapter also reports that **more than 90% of countries** now offer computer science in primary or secondary education, while formal AI education has spread more slowly; China and the United Arab Emirates moved to mandatory AI education beginning with the **2025–26 school year**.[^1]
+
+This moves the question from isolated school experimentation toward national education-system design.
+
 The question is no longer whether students are using AI.
 
 It is whether institutions can verify that students understand, control, and take responsibility for AI-generated outcomes.
+
+## 2A. International competency frameworks are already moving beyond tool use
+
+UNESCO's AI Competency Framework for Students defines **12 competencies across four dimensions**: human-centred mindset, ethics of AI, AI techniques and applications, and AI system design, organized across Understand → Apply → Create.[^2]
+
+UNESCO's teacher framework defines **15 competencies across five dimensions**, adding AI pedagogy and AI for professional learning to human-centred, ethics, and foundations/application capabilities.[^3]
+
+The direction is consistent with this report's industrial thesis:
+
+> **AI literacy cannot collapse into prompt technique. Durable capability includes judgment, responsibility, system understanding, application design, and verification.**
+
+A curriculum centered only on the current popular model will age quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
 
 ## 3. Layer one: AI Literacy
 
@@ -158,3 +174,5 @@ It will be the people who can understand systems, verify results, calculate econ
 ## References
 
 [^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
+[^2]: UNESCO, “AI competency framework for students,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-students
+[^3]: UNESCO, “AI competency framework for teachers,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-teachers
