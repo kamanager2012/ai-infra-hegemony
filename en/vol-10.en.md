@@ -40,7 +40,7 @@ Current anchors include:
 
 Primary sources:
 - TSMC 2025 Annual Report / platform mix: https://investor.tsmc.com/static/annualReports/2025/english/index.html
-- TSMC 2Q26 transcript / packaging tightness: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- TSMC 2Q26 transcript / packaging tightness: https://investor.tsmc.com/english/quarterly-results/2026/q2
 - NVIDIA FY27 Q2 Form 10-Q / US$279B commitments: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - NVIDIA FY27 Q2 official results / revenue, Data Center, margin, operating income: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 - hyperscaler system stacks continuing to develop across Google Ironwood, AWS Trainium3 UltraServer, Microsoft Maia, and Meta MTIA;
@@ -196,4 +196,4 @@ Evidence that should shift weight toward **S4**:
 This volume does not assign fixed 2036 probabilities, treat former fixed scenario weights as calibrated forecasts, equate total CapEx with AI hardware CapEx, or treat a single algorithmic breakthrough as proof of 1000× industry-wide compute-demand reduction.
 
 The purpose of S1–S4 is to create a **falsifiable industrial state machine**. The reader should be able to update the scenario map as evidence changes rather than defend a prophecy written years earlier.
-- TSMC 2Q26 Earnings Conference Transcript (packaging capacity limits customers' growth): https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+- TSMC 2Q26 Earnings Conference Transcript (packaging capacity limits customers' growth): https://investor.tsmc.com/english/quarterly-results/2026/q2
