@@ -1,4 +1,4 @@
-# Phase II · Minimum Public-Proxy Scenario Dashboard v0.2
+# Phase II · Minimum Public-Proxy Scenario Dashboard v0.3
 
 > **Status:** Research-side calibration layer; not part of the frozen formal facts.  
 > **Purpose:** turn S1–S4 from a narrative scenario set into an updateable public-proxy state machine without inventing precision that public data cannot support.
@@ -212,6 +212,55 @@ Demand / monetization
 but the order is not mandatory.
 
 The key is **cross-signal confirmation and breadth**, not a fixed clock.
+
+---
+
+## 6B. Dashboard K borrower extension — project-financed infrastructure
+
+Dashboard K now distinguishes cash-rich hyperscalers from project-financed / neocloud infrastructure.
+
+The latter requires an additional borrower layer:
+
+| Variable | Why it matters | Current public examples |
+|---|---|---|
+| Contract-backed debt | turns customer credit quality into financing capacity | CoreWeave, Nebius, IREN |
+| Customer prepayment / minimum payment | reduces sponsor equity need but can concentrate dependency | IREN |
+| Coupon / floating-rate exposure | determines sensitivity to public/private credit conditions | Nebius SOFR-linked; Applied Digital fixed-rate secured notes |
+| Maturity concentration | converts valuation risk into refinancing risk | Applied Digital FY31 maturity concentration |
+| Bridge / short-dated debt | increases near-term refinancing dependence | Applied Digital bridge facility |
+| Asset collateral | determines lender recovery / residual-value sensitivity | GPU / infrastructure-backed facilities |
+| Customer concentration | can strengthen financeability and increase single-name dependency at the same time | CoreWeave/Core Scientific chains |
+| Asset-identity of impairment | prevents false S4 classification | IREN legacy Bitcoin-mining hardware impairment |
+
+### 6B.1 Borrower-level S4 rule
+
+A leveraged AI-infrastructure borrower is **not** S4 simply because:
+- debt is large;
+- coupons are high;
+- customer prepayments are used;
+- GPUs are collateral;
+- one customer is important.
+
+S4 evidence strengthens when:
+
+> **financing dependence + weaker contract / customer economics + maturity/refinancing pressure + delivery/utilization weakness begin to cross-confirm.**
+
+This is the project-finance equivalent of the hyperscaler six-layer protocol.
+
+### 6B.2 Current research-side borrower state
+
+Current public evidence across CoreWeave, Nebius, Applied Digital and IREN shows a rapid expansion of financing structures, but not one uniform stress state.
+
+- some facilities are supported by investment-grade customer contracts and long-duration pledged cash flows;
+- some borrowers carry materially higher coupons / concentrated maturities;
+- customer prepayments materially reduce sponsor funding need in some GPU deployments;
+- supplier / financing structure is increasingly part of how physical AI capacity is brought online.
+
+Therefore:
+
+> **financing amplification is observable; system-wide refinancing stress is not established.**
+
+The monitoring task is now to detect the transition from **financeable leverage** to **fragile leverage**, not to treat leverage itself as the event.
 
 ---
 
