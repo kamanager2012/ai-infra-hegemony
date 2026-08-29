@@ -29,4 +29,5 @@
 - [Table 29.2 — Power / LPS delivery state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — 更新时的默认 evidence grade](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号](part-IV-ch30-scenarios.md)
-- [Table 31.1 — AI 相关资产的主要价值来源与风险](part-IV-ch31-strategy-endgame.md)
+- [Table 31.1 — 长期战略判断使用的核心结构变量与来源章节](part-IV-ch31-strategy-endgame.md)
+- [Table 31.2 — AI 相关资产的主要价值来源与风险](part-IV-ch31-strategy-endgame.md)
