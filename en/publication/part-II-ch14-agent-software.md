@@ -126,6 +126,35 @@ If hyperscaler custom stacks lower real system TCO, part of that benefit can tra
 
 Infrastructure competition around Google Ironwood TPU, AWS Trainium3, and other systems therefore affects software contribution margin as well as the chip market.[^1][^2]
 
+## 8A. Workflow Elasticity: lower unit cost does not imply lower total infrastructure demand
+
+Once agent software turns model calls into workflow execution, aggregate infrastructure demand can be approximated as:
+
+```text
+Total AI Infrastructure Demand
+≈ Workflow Count
+× Attempts per Workflow
+× Resource Intensity per Attempt
+```
+
+Lower model prices or more efficient routing reduce only part of this expression.
+
+If lower cost also produces:
+
+- more users;
+- longer agent loops;
+- more tool calls;
+- deeper retry / exploration;
+- automation of workflows that were previously uneconomic;
+
+then total compute / memory / network demand can still rise.
+
+The software layer's feedback into infrastructure is therefore better summarized as:
+
+> **cost per verified workflow × demand elasticity**
+
+This is why agent adoption can compress model-layer margin while still expanding aggregate use of cloud, accelerators, memory, and networking.
+
 ## 9. Human review is an often-underestimated variable cost
 
 In high-risk workflows such as legal, finance, and enterprise operations, human review may remain necessary for a long time.
@@ -160,7 +189,7 @@ This can compress some traditional software margins, but it does not imply that 
 
 The dividing line is:
 
-> **who can convert model calls into repeatable, verifiable, low-failure, monetizable business outcomes.**
+> **who can convert model calls into repeatable, verifiable, low-failure, monetizable business outcomes while keeping workflow-demand growth inside sustainable unit economics.**
 
 ## References
 
