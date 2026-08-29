@@ -1,4 +1,4 @@
-# Phase II · Minimum Public-Proxy Scenario Dashboard v0.4
+# Phase II · Minimum Public-Proxy Scenario Dashboard v0.5
 
 > **Status:** Research-side calibration layer; not part of the frozen formal facts.  
 > **Purpose:** turn S1–S4 from a narrative scenario set into an updateable public-proxy state machine without inventing precision that public data cannot support.
@@ -110,6 +110,54 @@ Historical Phase II backtesting will determine whether a more quantitative trigg
 | Hyperscaler capital cycle |  |  |  |  |  |  |  |
 
 The blank cells are intentional: missingness must remain visible.
+
+## 6.1 Axis G protocol — Seller / Sponsor Support
+
+Axis G is now split into explicit support types.
+
+| Support type | Proxy | S4 relevance |
+|---|---|---|
+| Equity support | seller / sponsor private placements or strategic equity | raises reflexivity risk only when recipient economics / independent capital access weaken |
+| Guarantees | lease, land/power/shell, payment or project guarantees | measures risk transfer; becomes negative when guarantee dependence rises while project economics weaken |
+| Vendor / OEM finance | hardware leases, OEM/software-license financing | can accelerate deployment; negative only when independent funding capacity deteriorates |
+| Capital mobilization | third-party infrastructure funds / private capital | generally counterevidence to pure seller circularity if third-party risk-bearing is real |
+| Customer prepayment | upfront / minimum-payment contract cash | strengthens financeability but increases contract / customer dependence |
+
+### 6.1A Hard no-double-count rule
+
+For any one project:
+
+> **contract value + debt raised against contract + seller equity + guarantee cap + customer prepayment must not be added together as “total demand.”**
+
+They are different balance-sheet expressions of the same underlying infrastructure / workload expectation.
+
+### 6.1B Current 2026 seller-support state
+
+Current public evidence shows substantial support capacity:
+- NVIDIA strategic equity and guarantee exposure;
+- AMD lease guarantees / investment commitments;
+- NVIDIA equity participation in CoreWeave;
+- OEM / GPU financing across neocloud deployments.
+
+But the current correct classification is:
+
+> **support intensity is rising; support dependence has not yet been shown to replace weakening end demand at system scale.**
+
+Therefore Axis G remains an **S4 risk amplifier**, not an S4 trigger.
+
+It should move meaningfully toward S4 only when:
+
+```text
+Seller / Sponsor Support ↑
++
+Independent Third-Party Capital ↓
++
+Customer Cash Generation / Monetization ↓
++
+Refinancing Terms Worsen
+```
+
+---
 
 ## 6A. Dashboard K — Hyperscaler Capital-Cycle Transmission
 
