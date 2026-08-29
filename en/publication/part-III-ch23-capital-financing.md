@@ -64,6 +64,31 @@ NVIDIA also states that the partnerships are **subject to execution of final agr
 
 The **>US$500B** figure therefore remains a mobilization target—not committed, funded, or deployed capital.[^3]
 
+## 6A. Seller-Assisted Infrastructure Finance and Financing Reflexivity
+
+The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyond hardware into **land + power + shell (LPS)**. NVIDIA disclosed credit support for the LPS buildout, a **US$1.5B** investment in SB Energy, an initial **4.25 IT-GW** design capacity, and OpenAI as the end customer.[^4]
+
+NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested close to **US$50B** in frontier AI labs and discussed selective credit enhancement for part of frontier-lab infrastructure buildout.[^5]
+
+These disclosures create a new analytical mechanism:
+
+> **platform cash generation → equity / credit support → infrastructure financing improves → Anchor Buyer capacity expands → platform-system demand expands**
+
+This is **Financing Reflexivity**.
+
+It does not prove that demand is artificial.
+
+It means demand quality should distinguish:
+
+1. independently financed end demand;
+2. long-duration customer commitments;
+3. third-party infrastructure finance;
+4. supplier equity / credit enhancement.
+
+If utilization and monetization remain healthy, seller-assisted finance can accelerate real infrastructure formation.
+
+If utilization weakens while supplier support and refinancing dependency keep rising, forward-demand signals become less independent.
+
 ## 6. Why compute can be packaged as an infrastructure asset
 
 Long-duration capital generally prefers predictable cash flow, long contracts, collateral, and clear offtakers.
@@ -139,3 +164,5 @@ The sustainability of the financing depends not on the headline target, but on u
 [^1]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” NVIDIA-defined non-GAAP free cash flow, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^3]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^4]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment, initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^5]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
