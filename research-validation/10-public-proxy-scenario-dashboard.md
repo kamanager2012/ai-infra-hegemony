@@ -1,4 +1,4 @@
-# Phase II · Minimum Public-Proxy Scenario Dashboard v0.3
+# Phase II · Minimum Public-Proxy Scenario Dashboard v0.4
 
 > **Status:** Research-side calibration layer; not part of the frozen formal facts.  
 > **Purpose:** turn S1–S4 from a narrative scenario set into an updateable public-proxy state machine without inventing precision that public data cannot support.
@@ -226,7 +226,7 @@ The latter requires an additional borrower layer:
 | Contract-backed debt | turns customer credit quality into financing capacity | CoreWeave, Nebius, IREN |
 | Customer prepayment / minimum payment | reduces sponsor equity need but can concentrate dependency | IREN |
 | Coupon / floating-rate exposure | determines sensitivity to public/private credit conditions | Nebius SOFR-linked; Applied Digital fixed-rate secured notes |
-| Maturity concentration | converts valuation risk into refinancing risk | Applied Digital FY31 maturity concentration |
+| Maturity concentration | creates refinancing exposure, but not realized stress by itself | CoreWeave near-term principal load; Applied Digital FY31 wall |
 | Bridge / short-dated debt | increases near-term refinancing dependence | Applied Digital bridge facility |
 | Asset collateral | determines lender recovery / residual-value sensitivity | GPU / infrastructure-backed facilities |
 | Customer concentration | can strengthen financeability and increase single-name dependency at the same time | CoreWeave/Core Scientific chains |
@@ -247,9 +247,46 @@ S4 evidence strengthens when:
 
 This is the project-finance equivalent of the hyperscaler six-layer protocol.
 
-### 6B.2 Current research-side borrower state
+### 6B.2 Refinancing exposure vs realized refinancing stress
 
-Current public evidence across CoreWeave, Nebius, Applied Digital and IREN shows a rapid expansion of financing structures, but not one uniform stress state.
+Dashboard K now separates two states that must not be conflated.
+
+**Refinancing exposure**
+- large debt balance;
+- near-term maturity;
+- floating-rate debt;
+- bridge financing;
+- concentrated maturity wall;
+- high coupon;
+- customer concentration.
+
+These variables raise sensitivity.
+
+They do **not** prove distress.
+
+**Realized refinancing stress**
+- committed liquidity disappears or draw availability falls;
+- refinancing fails, is materially delayed, or closes on much worse terms;
+- maturity is extended under pressure;
+- covenant / DSCR headroom deteriorates or breaches;
+- required collateral / guarantee burden rises materially;
+- project delivery slows because financing cannot close;
+- asset sale / impairment / distressed restructuring follows.
+
+Current counterexamples matter:
+
+- Core Scientific replaced a SOFR-linked US$1.0B term loan with long-duration fixed-rate 7.75% secured notes;
+- Applied Digital refinanced its short bridge after fiscal year-end into longer-dated 2031 notes;
+- Nebius disclosed a 1.15× DSCR covenant on a 2030 contract-backed facility;
+- CoreWeave still reported substantial undrawn committed liquidity and covenant compliance at June 2026.
+
+Therefore:
+
+> **maturity wall = exposure; adverse rollover = event.**
+
+### 6B.3 Current research-side borrower state
+
+Current public evidence across CoreWeave, Core Scientific, Nebius, Applied Digital and IREN shows a rapid expansion of financing structures, but not one uniform stress state.
 
 - some facilities are supported by investment-grade customer contracts and long-duration pledged cash flows;
 - some borrowers carry materially higher coupons / concentrated maturities;
