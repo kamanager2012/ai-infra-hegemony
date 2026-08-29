@@ -1,4 +1,4 @@
-# P0-4 · Macro-Financial Transmission Layer v0.3
+# P0-4 · Macro-Financial Transmission Layer v0.4
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** make interest rates, credit conditions, valuation, financing structure and refinancing explicit state variables in the AI-infrastructure capital cycle.
@@ -394,6 +394,100 @@ Rates/spreads without project transmission remain **context**, not S4 evidence.
 
 ---
 
+## 10A. 2022–2026 quarterly macro-financial panel v0.1
+
+The first reproducible quarterly backbone is now populated with four variables:
+
+- **Fed Funds:** effective federal funds rate, quarter-ending month average;
+- **10Y:** 10-year Treasury constant-maturity yield, quarter-ending month average;
+- **SLOOS standards:** net percentage of domestic banks tightening C&I standards for large / middle-market firms;
+- **SLOOS demand:** net percentage reporting stronger C&I demand from large / middle-market firms.
+
+Important frequency rule:
+
+> **Fed Funds / 10Y are monthly averages from the quarter-ending month. SLOOS uses the survey-quarter label and generally describes changes over the preceding three months.**
+
+The table therefore aligns monitoring windows; it does **not** claim same-day observation.
+
+| Quarter | Fed Funds % | 10Y % | SLOOS tightening % | SLOOS stronger demand % | Macro reading |
+|---|---:|---:|---:|---:|---|
+| 2022Q1 | 0.20 | 2.13 | -14.5 | 21.7 | easy bank standards, strong demand; hiking cycle begins |
+| 2022Q2 | 1.21 | 3.14 | -1.5 | 12.3 | rates rise sharply; standards near neutral |
+| 2022Q3 | 2.56 | 3.52 | 24.2 | 24.2 | tightening begins while reported demand remains positive |
+| 2022Q4 | 4.10 | 3.62 | 39.1 | -8.8 | monetary tightening and bank standards now align; demand turns weaker |
+| 2023Q1 | 4.65 | 3.66 | 44.8 | -31.3 | tighter credit + weaker demand |
+| 2023Q2 | 5.08 | 3.75 | 46.0 | -55.6 | peak broad credit restraint in this panel |
+| 2023Q3 | 5.33 | 4.38 | 50.8 | -51.6 | standards remain very tight; long rates rise |
+| 2023Q4 | 5.33 | 4.02 | 33.9 | -30.5 | still restrictive, but standards begin easing from peak |
+| 2024Q1 | 5.33 | 4.21 | 14.5 | -25.0 | policy rate high; bank tightening materially less severe |
+| 2024Q2 | 5.33 | 4.31 | 15.6 | -26.6 | restrictive but no renewed broad tightening wave |
+| 2024Q3 | 5.13 | 3.72 | 7.9 | 0.0 | rates begin easing; C&I demand stabilizes |
+| 2024Q4 | 4.48 | 4.39 | 0.0 | -21.3 | standards neutral on net; long yield rebounds |
+| 2025Q1 | 4.33 | 4.28 | 6.2 | 9.4 | mild tightening, positive demand |
+| 2025Q2 | 4.33 | 4.38 | 18.5 | -20.3 | bank standards tighten again despite stable policy rate |
+| 2025Q3 | 4.22 | 4.12 | 9.5 | -28.6 | credit still selective; demand weak |
+| 2025Q4 | 3.72 | 4.14 | 6.5 | 11.5 | policy easing with improving demand |
+| 2026Q1 | 3.64 | 4.25 | 5.3 | 16.1 | aggregate bank credit no longer crisis-tight; demand positive |
+| 2026Q2 | 3.63 | 4.47 | 8.1 | 4.8 | modest tightening persists while long rates remain elevated |
+
+**Sources:** Federal Reserve / FRED series FEDFUNDS, GS10, DRTSCILM and DRSDCILM.
+
+### 10A.1 What the panel already falsifies
+
+This backbone rejects two simplistic narratives.
+
+**Narrative A — “Higher rates automatically cause AI hard landing.”**
+
+False in the observed 2023–2026 window:
+- rates remained high;
+- C&I standards were restrictive;
+- yet AI infrastructure commitments and project financing continued expanding.
+
+Therefore higher rates alone remain **MF context**, not S4 confirmation.
+
+**Narrative B — “Policy easing means financing stress is gone.”**
+
+Also false:
+- Fed Funds fell from the 2023–2024 peak;
+- but long yields remained around / above 4%;
+- SLOOS standards repeatedly stayed positive;
+- private-credit / NDFI conditions remained selective.
+
+So financing conditions are multidimensional.
+
+### 10A.2 AI-specific overlay
+
+The aggregate panel must be read beside AI-specific financing evidence:
+
+| Window | AI-specific observation | Interpretation |
+|---|---|---|
+| 2025Q4 / Jan-2026 survey | 35.3% of 17 responding banks more willing to approve firms benefiting from high AI exposure; 70.6% less willing for firms adversely affected | AI exposure enters credit screening as a two-speed allocator |
+| 2026Q1 | CoreWeave announces US$8.5B investment-grade delayed-draw term-loan facility backed by HPC infrastructure / customer contract | long-duration customer contracts are being transformed into debt capacity |
+| 2026Q2 | CoreWeave reports ~US$13.6B DDTLs and ~US$16.6B notes outstanding; contractual cash flows are pledged in parts of the structure | financing quantity has scaled; contract quality / concentration become first-order variables |
+| 2026Q2 | Core Scientific reports CoreWeave ~77% of H1 revenue, with contract cash flows supporting a debt lockbox structure | counterparty risk can propagate downstream before aggregate credit markets seize |
+
+This produces a more precise interpretation:
+
+> **2022–2023 was a broad macro-credit tightening cycle; by 2025–2026 the aggregate system is less uniformly restrictive, while AI-linked capital allocation becomes more borrower- and contract-specific.**
+
+That is closer to a Two-Speed financing regime than to an economy-wide credit seizure.
+
+### 10A.3 What remains missing
+
+The panel is deliberately incomplete.
+
+Still to backfill:
+- IG / HY OAS on a consistent quarterly aggregation basis;
+- private-credit spreads / covenants where public;
+- AI-infrastructure equity risk-premium proxy;
+- hyperscaler operating cash flow / CapEx in the same quarter table;
+- neocloud interest expense / maturities;
+- supplier-support / guarantee amount by quarter.
+
+Do not fill those columns using incompatible frequencies merely to make the table look complete.
+
+---
+
 ## 11. New forward-monitoring panel
 
 Phase II should maintain a quarterly panel:
@@ -462,10 +556,14 @@ It now has a falsifiable transmission chain:
 
 > **macro rate / credit shock → financing terms → project hurdle rate → capital commitment → real buildout / delay / cancellation → later accounting recognition**
 
-The next empirical task is to build the quarterly panel and attach financing structure to the largest AI-infrastructure projects and buyers.
+The quarterly macro backbone is now populated for 2022Q1–2026Q2. The next empirical task is to backfill consistent IG/HY credit-spread series and attach operating cash flow, CapEx, maturity and financing-support structure to the largest AI-infrastructure projects and buyers.
 
 ## Sources
 
+- FRED / Federal Reserve, FEDFUNDS monthly effective federal funds rate: https://fred.stlouisfed.org/series/FEDFUNDS
+- FRED / Federal Reserve, GS10 monthly 10-year Treasury constant maturity: https://fred.stlouisfed.org/series/GS10
+- FRED / Federal Reserve, DRTSCILM quarterly net C&I tightening standards: https://fred.stlouisfed.org/series/DRTSCILM
+- FRED / Federal Reserve, DRSDCILM quarterly net stronger C&I demand: https://fred.stlouisfed.org/series/DRSDCILM
 - Federal Reserve, January 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202601.htm
 - Federal Reserve, April 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202604.htm
 - Federal Reserve, July 2026 SLOOS: https://www.federalreserve.gov/data/sloos/sloos-202607.htm
