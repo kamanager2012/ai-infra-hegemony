@@ -25,7 +25,7 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 - power / Time-to-Power 对 compute deployment 的约束；
 - model company 从 cloud tenant 向 Anchor Compute Buyer 演化；
 - smartphone、PC、automotive、industrial 等传统终端的 residual capacity；
-- 中国 parallel stack 与 frontier system closure；
+- 中国 production-grade parallel stack 与 autonomous frontier closure；
 - AI infrastructure CapEx、折旧、融资与资本清算；
 - Agent-native Software、Physical AI、劳动市场与人才体系；
 - 2026–2036 的条件化产业情景。
@@ -114,21 +114,28 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 
 它说明 compute 正被尝试组织成更接近长期 infrastructure asset 的融资对象。
 
-### 8. 中国已经形成真实 Parallel Stack，但 Frontier Closure 必须逐层验证
+### 8. 中国判断必须分成两级：Production-Grade Parallel Stack 与 Autonomous Frontier Closure
 
-中国已经跨过“没有替代系统”的阶段，但 frontier AI 等价闭环仍需要分别验证：
+中国已经跨过“没有替代系统”的阶段，但必须区分两个不同问题。
 
-- advanced logic；
-- HBM-class memory；
+**Production-Grade Parallel Stack** 关注：
+
+- accelerator / compute；
+- HBM-class 或 equivalent memory subsystem；
 - advanced packaging；
 - high-speed interconnect；
 - compiler/runtime；
-- frontier production workload；
-- system utilization；
-- power；
-- upstream equipment / materials continuity。
+- frontier / high-value production workload；
+- system utilization、reliability 与 economics。
 
-consumer DRAM / NAND、smartphone SoC 或 foundry revenue share 的增长，都不能单独证明完整 frontier-system closure。
+**Autonomous Frontier Closure** 则进一步关注：
+
+- advanced manufacturing continuity；
+- equipment / materials / software / service；
+- cross-generation process upgrade；
+- HBM / packaging / LPS / power / capital 的跨代持续性。
+
+因此，存在进口依赖不等于“没有 production-grade parallel stack”；同样，系统已经能运行也不等于 autonomous frontier closure 已完成。
 
 ### 9. 当前最接近 S2 — Baseline Concentration
 
@@ -211,6 +218,7 @@ consumer DRAM / NAND、smartphone SoC 或 foundry revenue share 的增长，都�
 - model training compute → full R&D cost；
 - occupational exposure → unemployment；
 - conventional DRAM / NAND capability → HBM closure；
+- production-grade substitution → autonomous frontier closure；
 - foundry revenue share → frontier AI capability。
 
 研究截止日后的新事实应视为新的研究输入，而不能倒写成 2026-08-28 前已经发生。
