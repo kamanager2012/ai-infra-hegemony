@@ -1,7 +1,30 @@
-# Phase II · AI Infrastructure Financing Reflexivity Map v0.2
+# Phase II · AI Infrastructure Financing Reflexivity Map v0.3
 
 > **Status:** Research-side capital-transmission map.  
 > **Purpose:** prevent seller revenue, seller investment, buyer commitments, third-party financing, and downstream infrastructure debt from being misread as independent confirmations of the same demand.
+
+## 0. Scope contract v0.3
+
+This file owns:
+- financing taxonomy;
+- causal graph;
+- anti-double-counting rules;
+- reflexivity diagnostics.
+
+It does **not** own quarterly guarantee / support activation states.
+
+Authoritative ownership:
+
+```text
+11 = what kind of financing/support is this, and how can it be double-counted?
+04C = what state is the borrower/facility in?
+04D = what state is the guarantee/support obligation in?
+01A = does the combined evidence change the live clearing adjudication?
+```
+
+Therefore a new guarantee should not cause four parallel state tables.
+
+`11` classifies it; `04D` tracks its activation / funded-loss state; `01A` uses it only if it changes the clearing evidence.
 
 ## 1. The core problem
 
