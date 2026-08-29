@@ -567,7 +567,7 @@ Revised research-side timing label:
 
 ---
 
-# 10. A–H Unified Timing Matrix v0.7
+# 10. A–H Unified Timing Matrix v0.8
 
 为了减少跨案例叙事自由度，v0.7 将所有现有观察统一成同一时钟。
 
@@ -618,7 +618,7 @@ Revised research-side timing label:
 
 ---
 
-# 11. v0.7 回测结论
+# 11. v0.8 回测结论
 
 | 历史案例 | Accounting | Util./Revenue | Clearing | Forward | Demand Quality | 研究侧判定 |
 |---|---:|---:|---:|---:|---:|---|
@@ -650,15 +650,352 @@ Revised research-side timing label:
 
 ---
 
-# 12. 下一步：P0-1 v0.8
+# 12. Prospective Adjudication Protocol v0.8
 
-下一版继续增加**独立周期**与 timing 数据，不再改变本版的 proxy / breadth / false-positive 规则：
+历史回放真正需要解决的是 **look-ahead bias**。
 
-1. 继续增加与科技无关的资本周期，优先寻找可同时观察 utilization、financing 与 residual-value 的行业；
-2. 对 timing confidence 为 Medium 的 Case A/B/C/H 继续做 source-level timing tightening；
-3. 只报告 ordinal lead/lag 方向与区间，不制造小样本显著性；
-4. 继续保持当前 proxy hierarchy、segment breadth 与 false-positive 规则冻结；
-5. 在样本明显扩充前，不优化 0/1/2 权重，不把任何阈值写回正式 Chapter 24。
+一个 2011 年发生、但 2012 年年报才明确披露的 impairment，不能被当作“2011 年实时已知信号”。
+
+因此，P0-1 从 v0.8 开始对每条证据同时记录两种时间：
+
+```text
+event_time
+=
+经济事件实际发生的时期
+
+publication_time
+=
+外部观察者首次能够合理获得该证据的时间
+```
+
+Prospective replay 只允许使用：
+
+> **publication_time ≤ adjudication_time**
+
+的证据。
+
+后续年报、诉讼材料、回顾性管理层解释可以用于 ex-post 验证，但不能倒灌到 earlier decision state。
+
+## 12.1 Prospective research states
+
+这些是 **research adjudication labels**，不是 S1–S4 新情景，也不是统计分类器。
+
+### WATCH — 单点恶化 / 尚未形成跨信号确认
+
+可以包括：
+- 一家公司 guidance cut；
+- 一个细分库存问题；
+- 单一价格暴跌；
+- 单一融资收紧；
+- 单一 impairment。
+
+要求：
+
+> 不把单点恶化升级成 system clearing。
+
+### CANDIDATE — 多信号开始交叉确认
+
+至少需要：
+- 一个真实经济/资本信号：
+  - Utilization / Revenue；
+  - Market Clearing；
+  - Forward Commitment；
+- 加上至少一个独立信号族；
+- 并且不能完全由同一公司、同一会计披露或同一底层事件重复计算。
+
+这只是**最低证据地板**，不是校准阈值。
+
+### CONFIRMED — 跨主体 / 跨层的 clearing 已形成
+
+必须同时看到：
+- breadth 不再是单一公司 idiosyncratic event；
+- 至少一个 quantity / utilization / clearing / commitment 信号持续；
+- Accounting、Financing 或第二个真实经济信号形成后续确认；
+- 主要反方解释不足以解释全部证据。
+
+不要求 Accounting 一定出现。
+
+2008–2009 GFC 已证明：
+
+> **Accounting absence ≠ no systemic clearing。**
+
+2022 NVIDIA case 又证明：
+
+> **Accounting can be nearly synchronous in inventory-led clearing。**
+
+因此 CONFIRMED 依赖 cross-signal breadth，而不是固定信号顺序。
+
+### STABILIZATION CANDIDATE — 恶化速度停止，但不能实时宣布 trough
+
+Prospective research **禁止实时写“已经触底”**。
+
+当以下现象开始出现时，只能标：
+
+> **Stabilization Candidate**
+
+例如：
+- inventory decline stops accelerating；
+- utilization stops falling；
+- cancellation / capex cuts stop worsening；
+- financing terms stop deteriorating；
+- clearing price stops making new lows。
+
+### RECOVERY CONFIRMED — 后续数据证明 stabilization 不是短暂反弹
+
+需要后续独立观测确认，例如：
+- utilization / revenue recovery；
+- inventory normalization；
+- forward commitment rebuild；
+- financing / credit reopening；
+- sustained pricing normalization。
+
+P0-1 不规定“连续两个季度”之类统一阈值，因为不同产业的观测频率不同。
+
+## 12.2 Trough / stabilization anti-look-ahead rule
+
+历史案例表中的：
+
+> trough / stabilization
+
+必须拆成两个概念。
+
+**Trough**
+- 是 ex-post local minimum；
+- 只有得到未来数据后才能确认；
+- 不属于真正的实时决策变量。
+
+**Stabilization Candidate**
+- 是 prospective label；
+- 表示 leading deterioration has stopped worsening；
+- 可以之后被撤销。
+
+因此以后不再问：
+
+> “当时能否准确知道这是最低点？”
+
+而是问：
+
+> **“当时是否已有足够证据停止继续升级 clearing severity，或开始测试恢复假设？”**
+
+这比事后预测最低点更符合真实决策。
+
+## 12.3 Source-time ledger
+
+每一条 prospective evidence 必须具备：
+
+| Field | Required meaning |
+|---|---|
+| case_id | A–H / future case |
+| signal_family | Accounting / Utilization-Revenue / Market Clearing / Forward Commitment / Demand Quality-Financing |
+| event_time | underlying economic period |
+| publication_time | first externally observable date |
+| source_identity | filing / IR / regulator / market data / institutional source |
+| actor / layer | company / industry / bank / capital market / supply layer |
+| observation | what was actually observed |
+| contrary_signal | same-period evidence against clearing |
+| status_at_time | WATCH / CANDIDATE / CONFIRMED / STABILIZATION CANDIDATE / RECOVERY CONFIRMED |
+| revision_reason | why state changed later |
+
+Hard rule:
+
+> **one underlying event cannot create multiple independent confirmations merely because it appears in several documents。**
+
+For example:
+- a guidance cut;
+- the 10-Q repeating that guidance cut;
+- a media article quoting the 10-Q
+
+remain one evidence origin unless they add genuinely independent information.
+
+## 12.4 Breadth protocol
+
+Systemic clearing requires breadth.
+
+Breadth can come from:
+
+- multiple firms;
+- multiple customer groups;
+- multiple financing channels;
+- multiple supply-chain layers;
+- industry utilization + project/capacity decisions;
+- market clearing + lender behavior.
+
+But breadth must preserve causal independence.
+
+Examples:
+
+**Strong breadth**
+```text
+supplier utilization ↓
++
+customer orders / CapEx ↓
++
+secondary clearing price ↓
++
+bank/project credit tightens
+```
+
+**Weak breadth**
+```text
+one company revenue ↓
++
+same company gross margin ↓
++
+same company inventory charge
+```
+
+The second group can be severe company distress without system clearing.
+
+## 12.5 Accounting rule
+
+Accounting is now explicitly classified as:
+
+> **confirmation / severity evidence, not mandatory gate。**
+
+Possible timing states:
+
+1. **lagging accounting**
+   - semiconductor / solar / oil-capital cycles;
+
+2. **near-synchronous accounting**
+   - inventory-led GPU/channel correction;
+
+3. **no qualifying hard accounting**
+   - financing-led systemic contraction such as the GFC enterprise-IT case.
+
+This removes a hidden bias in the original five-signal score.
+
+## 12.6 Financing rule
+
+Financing is not always leading.
+
+Its timing depends on shock entry:
+
+- **GFC:** financing can lead;
+- **Oil & Gas:** financing can amplify after commodity/commitment deterioration;
+- **Semiconductor / GPU inventory:** financing may be secondary or unobservable.
+
+Therefore:
+
+> **absence of financing stress cannot veto a real clearing event。**
+
+Likewise:
+
+> **higher rates / spreads without project or demand transmission remain macro context, not clearing confirmation。**
+
+This keeps P0-1 consistent with P0-4.
+
+## 12.7 Prospective replay procedure for Cases A–H
+
+For each historical case:
+
+1. choose a sequence of adjudication dates using the information frequency actually available at the time;
+2. hide every source published after that adjudication date;
+3. assign WATCH / CANDIDATE / CONFIRMED / STABILIZATION CANDIDATE;
+4. record contrary evidence;
+5. advance one information period;
+6. update state only when new independent evidence arrives;
+7. compare the first prospective state change with the ex-post historical timing matrix.
+
+Do **not** optimize the protocol separately for each case.
+
+The same information discipline must also preserve:
+- Case G as a genuine negative control if breadth never forms;
+- Case C as partial/segment clearing rather than forced system clearing;
+- A/E dependency warning because the internet/telecom and semiconductor episodes are economically linked.
+
+## 12.8 Prospective evaluation metrics
+
+Given only eight historical observations, P0-1 will **not** report p-values, ROC curves or optimized classifier weights.
+
+It can still report descriptive process metrics:
+
+### Adjudication latency
+
+```text
+Latency
+=
+first CONFIRMED publication_time
+-
+first credible deterioration publication_time
+```
+
+Use a range when evidence timing is only quarterly / semiannual.
+
+### Candidate resolution
+
+For every CANDIDATE:
+
+```text
+Candidate
+→ Confirmed
+or
+→ Retracted / Segment-only
+```
+
+This is more informative than pretending the current sample estimates a stable false-positive rate.
+
+### Evidence breadth
+
+Record:
+- number of independent actors;
+- number of independent signal families;
+- number of economic layers.
+
+Do not sum them into one fitted score yet.
+
+### Revision count
+
+How many times did the adjudication state change?
+
+Frequent reversals may indicate:
+- noisy signals;
+- weak breadth;
+- protocol instability.
+
+## 12.9 v0.8 prospective output table
+
+Future replay should use:
+
+| adjudication date | known evidence | contrary evidence | breadth | research state | why state changed | unavailable-at-the-time evidence |
+|---|---|---|---|---|---|---|
+|  |  |  |  | WATCH / CANDIDATE / CONFIRMED / STABILIZATION CANDIDATE / RECOVERY CONFIRMED |  |  |
+
+The final column is essential.
+
+It makes look-ahead contamination visible.
+
+## 12.10 What v0.8 changes in the interpretation of the five-signal framework
+
+The five signals should no longer be read as:
+
+> **five equally weighted boxes whose sum mechanically identifies S4。**
+
+The better interpretation is:
+
+> **a cross-signal confirmation protocol with explicit publication-time discipline, breadth requirements, contrary evidence, and reversible adjudication states。**
+
+This is the main methodological upgrade from retrospective pattern matching to prospective usefulness.
+
+## 12.11 Next empirical step
+
+Do **not** add Case I yet.
+
+First replay at least:
+- Case B (crypto/GPU);
+- Case D (GFC/enterprise IT);
+- Case G (hyperscale digestion negative control);
+- Case H (solar)
+
+using only contemporaneously published information.
+
+That four-case subset deliberately includes:
+- inventory-led;
+- financing-led;
+- negative control;
+- long-duration manufacturing overcapacity.
+
+Only after the prospective protocol survives those distinct shock types should P0-1 expand the historical sample.
 
 ---
 
