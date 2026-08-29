@@ -20,6 +20,22 @@ These are occupational / employment exposure measures.
 
 They are not "the same percentage of tasks will be automated," and they are not equivalent to the same percentage of jobs disappearing.
 
+## 2A. 2026 shows localized labor signals, not a general unemployment verdict
+
+Stanford AI Index 2026 reports that U.S. employment for **software developers aged 22–25 fell by nearly 20% from 2024**, while roughly one-third of surveyed organizations expect AI to reduce workforce over the following year. At the same time, broad employment data have not shown job losses on the same scale across the economy.[^3]
+
+This evidence has to be read narrowly:
+
+- it refers to a specific country, age cohort, and occupation;
+- hiring cycles, macro conditions, graduate supply, and organizational restructuring can also affect the observed change;
+- it does not establish that AI alone caused a 20% decline.
+
+Anthropic's June 2026 Economic Index provides a different early signal: respondents who use Claude in more automated ways tend to anticipate that AI will be able to perform a larger share of their tasks over the next 12 months.[^4] Anthropic explicitly notes that the survey is not representative of the general population and over-represents computer/mathematical and management occupations.
+
+The defensible 2026 judgment remains:
+
+> **Localized hiring-pipeline and early-career signals are visible, but the translation from task exposure to workflow adoption to employment outcome is still unfolding.**
+
 ## 3. Adoption Economics is the first gate between technical capability and substitution
 
 Firms have stronger substitution incentives only when:
@@ -128,3 +144,5 @@ Any framework that converts an exposure percentage directly into an unemployment
 
 [^1]: International Labour Organization, “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, 2025, https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
 [^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” early-career software-developer employment and employer workforce expectations, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
+[^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, reported and anticipated task exposure among Claude users; survey explicitly not representative of the general population, https://www.anthropic.com/research/economic-index-june-2026-report
