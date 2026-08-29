@@ -142,9 +142,9 @@ Successful cloud custom silicon does not automatically relieve upstream physical
 
 ## 7A. Reported Hugging Face transaction: platform power may extend from runtime into developer distribution
 
-On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of this report's evidence cutoff on **August 28, 2026**, this report had not obtained a formal NVIDIA or Hugging Face announcement confirming closing, final transaction conditions, or regulatory approval. It is therefore recorded as a **reported transaction**, not as a completed consolidation fact.
+On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^6] As of this report's evidence cutoff on **August 28, 2026**, this report had not obtained a formal NVIDIA or Hugging Face announcement confirming closing, final transaction conditions, or regulatory approval. It is therefore recorded as a **reported transaction**, not as a completed consolidation fact.
 
-Hugging Face is strategically relevant because it is not merely a model-download website. Its official product surface spans the Hub, models, datasets, Spaces, Transformers, and inference/deployment products, connecting model discovery, asset distribution, tooling, evaluation, and deployment.[^6]
+Hugging Face is strategically relevant because it is not merely a model-download website. Its official product surface spans the Hub, models, datasets, Spaces, Transformers, and inference/deployment products, connecting model discovery, asset distribution, tooling, evaluation, and deployment.[^7]
 
 If the reported transaction ultimately closes, NVIDIA's platform boundary could extend from:
 
@@ -230,5 +230,5 @@ A single custom-chip announcement, one-quarter market-share move, or theoretical
 [^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 
 
-[^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
-[^6]: Hugging Face official documentation for Hub, models, datasets, Spaces, Transformers, and inference/deployment products, https://huggingface.co/docs
+[^6]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
+[^7]: Hugging Face official documentation for Hub, models, datasets, Spaces, Transformers, and inference/deployment products, https://huggingface.co/docs
