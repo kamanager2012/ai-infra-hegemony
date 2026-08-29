@@ -104,7 +104,7 @@ Because some specific Ascend/CANN performance and migration-efficiency figures c
 
 ## 6. Memory is the layer most easily hidden by the broad term "domestic memory"
 
-CXMT's **December 30, 2025 Shanghai Stock Exchange prospectus** discloses DDR and LPDDR products. The company subsequently began trading on Shanghai's STAR Market on **July 27, 2026**.[^7][^18]
+CXMT's **May 27, 2026 STAR Market registration prospectus** discloses DDR and LPDDR products. The company subsequently began trading on Shanghai's STAR Market on **July 27, 2026**.[^7][^18]
 
 Full-text searches of the relevant public offering / registration materials for `HBM` and the Chinese term for high-bandwidth memory do not provide evidence sufficient to confirm a volume HBM product line. This report therefore keeps one narrow conclusion:
 
@@ -272,7 +272,7 @@ It will create a second large resource-gravity center, adding new foundry demand
 
 Current public evidence is not sufficient to show that this second frontier resource center has already reached equivalent full-stack scale.
 
-The cited Shanghai Stock Exchange prospectus does not disclose an HBM product line. SMIC's 5.1% figure is foundry revenue share rather than frontier capability. Multiple non-silicon layers still require independent validation.
+The cited May 27, 2026 registration prospectus does not disclose an HBM product line. SMIC's 5.1% figure is foundry revenue share rather than frontier capability. Multiple non-silicon layers still require independent validation.
 
 The most accurate current state is therefore:
 
@@ -304,7 +304,7 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 [^4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
 [^5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
 [^6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
-[^7]: CXMT, prospectus, 2025-12-30, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf ; earlier prospectus / stable fallback, 2025-12-30, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
 [^8]: CXMT, official DDR5 product page, https://www.cxmt.com/en/product.html
 [^9]: YMTC, company profile and product portfolio, https://www.ymtc.com/en/aboutus.html ; https://www.ymtc.com/en/buslist.html?cat=35%3Fcat%3D35
 [^10]: Micron Technology, investor material on HBM4E base logic die partnership with TSMC, https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
