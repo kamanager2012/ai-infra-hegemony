@@ -197,7 +197,7 @@ CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts�
 
 customer cash generation、third-party capital risk-taking、supplier equity / credit enhancement、refinancing dependency、asset transferability。
 
-只有多组信号广泛、持续并相互印证地恶化，S4 才从 stress test 升级为主情景。
+只有**多类因果独立的信号族**跨主体/层级形成广泛、持续且相互印证的恶化，S4 才从 stress test 升级为主情景。五类信号是 monitoring families，不是“五项必须全部满足”的硬门槛；Accounting 是 confirmation / severity evidence，不是 prerequisite。
 
 ## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
 
@@ -277,7 +277,7 @@ seller commitments 继续扩大、多层 scarcity 持续、switching cost 上升
 
 ### 向 S4 移动
 
-utilization、market-clearing price、CapEx / commitments、accounting losses 与 demand-financing quality 同步恶化。
+utilization / revenue、market clearing、forward commitments、demand-financing quality 与 accounting 等多类独立信号形成 cross-confirmation，并具备足够 causal breadth；Accounting 出现时强化严重度，但不是必要条件。
 
 ### 留在 S2
 
@@ -306,7 +306,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 4. **proxy 不能重新命名成无法直接测量的 physical quantity；**
 5. **如果公开数据不足，应明确标记 not measurable，而不是用假设补齐。**
 
-例如，向 S4 移动不能只依赖一家公司 CapEx 下调，而应看到 utilization、market clearing、forward commitments、accounting 与 demand-financing quality 出现共同恶化。
+例如，向 S4 移动不能只依赖一家公司 CapEx 下调，而应看到至少一个 real-economy / market / commitment 信号与其他独立信号族跨主体/层级形成共同恶化；Accounting 可用于确认和衡量严重度，但不能被设成 mandatory gate。
 
 向 S1 移动也不能只依赖一个新 accelerator launch，而应看到真实 production workload、迁移成本和 supply elasticity 同时改善。
 
