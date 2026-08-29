@@ -5,6 +5,8 @@
 
 一份研究 AI 基础设施、半导体、云系统、资本形成与产业战略的长期行业报告。
 
+**标题口径：**“霸权 / Hegemony”是本报告研究的**风险状态与结构命题**，不表示截至 2026-08-28 已经进入 S3 — Resource Hegemony。当前公开证据组合仍最接近 S2 — Baseline Concentration。
+
 **资料检索与修订截止：2026-08-28**  
 **正文状态：已冻结（2026-08-29）**。冻结后仅接受事实纠错、来源失效修复、引用口径修正与重大实质性错误修正；不再进行风格性重写、章节扩张或框架改造。
 
@@ -26,7 +28,7 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 - power / Time-to-Power 对 compute deployment 的约束；
 - model company 从 cloud tenant 向 Anchor Compute Buyer 演化；
 - smartphone、PC、automotive、industrial 等传统终端的 residual capacity；
-- 中国 production-grade parallel stack 与 autonomous frontier closure；
+- 中国 frontier parallel stack、Production-Grade Gates 与 autonomous frontier closure；
 - AI infrastructure CapEx、折旧、融资与资本清算；
 - Agent-Native Software、Physical AI、劳动市场与人才体系；
 - 2026–2036 的条件化产业情景。
@@ -123,7 +125,7 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 
 ### 8. 中国判断必须分成两级：Production-Grade Parallel Stack 与 Autonomous Frontier Closure
 
-中国已经跨过“没有替代系统”的阶段，但必须区分两个不同问题。
+中国已经跨过“没有替代系统”的阶段，但 frontier 层必须区分“存在真实平行栈与部分 production deployment”和“七个 Production-Grade Gate 已经闭合”两个不同问题。按本报告现有公开证据，后者**尚不能确认**。
 
 **Production-Grade Parallel Stack** 关注：
 
@@ -159,11 +161,11 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 
 ### 10. 基础设施最终必须由“可验证工作流产出”完成需求侧闭环
 
-AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。Agent-Native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
+AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。下面的 verified-workflow 标准是**长期经济判据，不是截至证据截止日已经完成经验校准的事实指标**。公开研究仍很少在同一 workflow denominator 下同时连接 AI cost、human time、verification、failure/retry、persistence 与 business value。Agent-Native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
 
 > **单位可验证工作流结果需要多少 Compute、Energy、Human Review 与 Capital，产生的业务价值能否持续覆盖这些成本。**
 
-因此，单位 Compute 成本下降并不必然导致基础设施需求下降；如果更低成本释放出更多可自动化工作流，总需求反而可能继续扩张。反过来，如果基础设施增长长期快于可验证业务产出与现金流，S4 — Capital Hard Landing 的风险才会系统性上升。
+因此，在该判据完成经验校准之前，单位 Compute 成本下降既不能被默认解释为基础设施总需求下降，也不能被默认解释为 Jevons 式总需求上升。若未来证据显示更低成本确实释放更多可验证工作流，总需求可以扩张；反过来，如果基础设施增长长期快于可验证业务产出与现金流，S4 — Capital Hard Landing 的风险才会系统性上升。
 
 ---
 
