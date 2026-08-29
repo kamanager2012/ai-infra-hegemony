@@ -28,6 +28,7 @@ At minimum, the economics of a layer depend on:
 3. **Capital intensity:** fixed capital required to sustain growth;
 4. **Duration:** whether revenue, asset lives, and contract periods align;
 5. **Distribution / workflow control:** whether the layer controls customers, data, and real business entry points.
+6. **Financing / risk-transfer capacity:** whether the layer can reduce project financing friction, improve revenue visibility, and transfer residual-value / duration risk to capital willing to hold it.
 
 High revenue share does not automatically mean highest value capture, and gross margins cannot be compared across fundamentally different business models without context.
 
@@ -134,9 +135,12 @@ This is an important dynamic of value capture:
 
 ## 7A. Financing Coordination: capital organization is becoming a system-level capability
 
-The August 2026 financing developments add another layer to value capture.
+Two August 2026 disclosures show system-platform coordination extending from supply commitments into infrastructure finance:
 
-A leading system platform can potentially create value not only by organizing technology and supply, but by matching:
+- NVIDIA and Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR announced compute-financing platforms targeting **more than US$500B of third-party capital mobilization over time**; the arrangements remain subject to final agreements.[^9]
+- In PORTS-Pike, NVIDIA is providing credit support for land + power + shell and investing **US$1.5B** in SB Energy; OpenAI is the customer and SB Energy will build / own / operate the data center.[^10]
+
+A leading system platform can therefore create value not only by organizing technology and supply, but by matching:
 
 > **long-duration workloads + LPS / compute assets + long-duration capital**
 
@@ -149,6 +153,8 @@ When a seller also provides equity, credit support, or infrastructure-financing 
 Therefore:
 
 > **financing power can become a moat, but only when analyzed together with risk transfer and workload monetization.**
+
+The full financing and clearing mechanisms are developed in Chapters 23 and 24.
 
 ## 8. Power / Powered Land: value comes from time scarcity, not electricity price alone
 
@@ -225,20 +231,34 @@ This is more robust than assigning a permanent ranking to system platforms, HBM,
 
 ## 13. Current judgment
 
-As of August 2026, high-quality value capture in AI infrastructure is concentrated mainly in two categories:
+As of August 2026, high-quality value capture in AI infrastructure is concentrated mainly in three categories:
 
 1. **system platforms that coordinate multiple scarce layers and create switching costs;**
-2. **scarce physical layers with low short-run supply elasticity and high entry barriers, including HBM, leading-edge manufacturing, advanced packaging, and powered infrastructure.**
+2. **scarce physical layers with low short-run supply elasticity and high entry barriers, including HBM, leading-edge manufacturing, advanced packaging, and powered infrastructure;**
+3. **financing / coordination layers that can match long-duration workloads, LPS / compute assets, and long-duration capital.**
 
-The largest asset risks remain more concentrated on buyers that have to build infrastructure ahead of demand.
+The third category must be analyzed together with risk transfer. If a platform provides equity or credit support, it may gain more infrastructure influence while also reabsorbing part of customer, duration, or residual-value risk.
 
-Whether applications develop a durable profit pool depends on workflow economics and distribution.
+Whether applications develop a durable profit pool still depends on workflow economics and distribution.
 
 The right question is therefore not "How much money is AI spending in total?"
 
 It is:
 
 > **How much repeatable cash flow remains at each layer, how much non-substitutability is created, and how much long-duration risk remains on the balance sheet?**
+
+## 14. What evidence would force this chapter to change its judgment
+
+The current value-capture map should be reweighted if:
+
+- system portability improves materially and switching costs fall;
+- HBM / packaging / power scarcity premiums disappear on a sustained basis;
+- financing coordination fails to lower capital cost or improve utilization;
+- supplier-assisted financing begins generating material credit or impairment losses;
+- application-layer workflow economics improve enough to create more durable profit pools;
+- upstream manufacturing develops a genuine qualified second source.
+
+Value capture is not a permanent ranking. It is the dynamic result of scarcity, switching cost, capital intensity, duration, distribution, and risk transfer.
 
 ## References
 
@@ -250,3 +270,5 @@ It is:
 [^6]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^8]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^9]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^10]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment, and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
