@@ -36,7 +36,7 @@ UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI f
 
 > **AI literacy 不能退化成 prompt 技巧；长期有效能力必须同时包含判断、责任、系统理解、应用设计与验证。**
 
-这也是为什么教育体系如果只教“如何调用当前最热门模型”，会很快被产品迭代淘汰；而 system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
+因此，如果 curriculum 只围绕当前 dominant model 或 tool，很快就会过时；system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
 
 ## 3. Layer One：AI Literacy
 
@@ -116,23 +116,15 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 ## 12. Current Read
 
-AI 教育的核心变化不是简单“新增一个 AI 专业”，而是产业能力结构正在改变教育的有效训练目标。
+教育体系的核心变化不是“再增加一个 AI major”。
 
-在模型调用越来越商品化的情况下，长期更有区分度的能力更可能来自：
+更重要的是：
 
-- domain knowledge；
-- workflow / system design；
-- verification；
-- performance / cost measurement；
-- cross-stack portability；
-- physical / regulatory constraints；
-- responsibility。
+> **让 AI 成为技术与专业教育中的 systems capability，同时把 verification、portability 与 responsibility 提升为核心学习目标。**
 
-因此：
+最耐久的人才优势不会仅仅来自“最会调用模型”。
 
-> **AI literacy 是底层能力，workflow engineering 是应用层能力，system engineering 与 verification 则是把 AI 转化为现实生产力的关键能力。**
-
-这与本报告的产业主线一致：竞争单位从单一模型或芯片上移到完整 system 后，人才评价也需要从“会使用工具”上移到“能设计、验证并对系统结果负责”。
+它来自理解 system、验证结果、评估 economics、跨 stack 迁移，以及对现实结果承担责任的能力。
 
 ## References
 
