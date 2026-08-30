@@ -4,13 +4,13 @@
 
 As of **August 28, 2026**, the public evidence is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths are expanding without yet removing HBM, advanced-packaging, power, or migration constraints.
 
-The central question is not whether AI makes other industries unimportant. It is whether AI/HPC changes the priority of shared or adjacent upstream resources enough that other end systems can no longer obtain **qualified supply, on time, on terms compatible with their BOM, lifecycle, and product cadence**.
+The central question is not whether AI makes other industries unimportant, but whether AI/HPC changes the priority of shared or adjacent upstream resources enough that other end systems can no longer obtain **qualified supply, on time, and on terms compatible with their BOM, lifecycle, and product cadence**.
 
 The analysis therefore follows allocation through the full system stack:
 
 > **advanced logic → HBM → advanced packaging → interconnect → runtime → rack/data center → power/LPS → capital → production workload**
 
-The long-run issue is not chip share alone. It is who can repeatedly assemble the complete stack, finance it, secure the constrained layers, and convert installed capacity into productive workloads.
+The long-run issue is therefore not chip share alone, but who can repeatedly assemble the complete stack, finance it, secure the constrained layers, and convert installed capacity into productive workloads.
 
 ### Eight load-bearing judgments
 
@@ -63,7 +63,7 @@ A single weak quarter, one project delay, one price move, or one competitor anno
 
 ## 4. Decision-use map for professional readers
 
-There is no universal action implied by the framework. Different readers should watch different denominators.
+The framework does not imply a universal action. Different readers should watch different denominators.
 
 **Table 1.3 — Decision-use map**
 
