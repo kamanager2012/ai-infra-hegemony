@@ -1,6 +1,6 @@
-# Part IV · 第30章：Scenario Discrimination——S1 到 S4
+# Part IV · 第30章：Scenario Framework——Discriminating S1 to S4
 
-## 1. Scenario 的作用是 Discrimination，不是 Storytelling
+## 1. Scenario 是 Decision State，不是 Narrative
 
 本报告不为 2030 或 2036 给出唯一答案，也不为 S1–S4 配置固定概率。
 
@@ -238,7 +238,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - enterprise AI monetization 长期弱于 depreciation / operating cost；
 - supplier equity / credit support 占比上升，而独立 customer financing / third-party risk-taking 走弱。
 
-## 11. Scenario 是 State，不是 Stage
+## 11. 这些是 State，不是 Stage
 
 它们是并列条件状态。
 
