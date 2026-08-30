@@ -122,7 +122,7 @@ HBM 的长期稀缺不是必然。以下变化会显著削弱当前机制：
 
 因此，长期判断不是“HBM 永远短缺”，而是：
 
-> **只要 frontier-system bandwidth demand 增长快于 HBM supply elasticity，且每 bit 制造投入仍显著高于 conventional DRAM，HBM 就会继续作为 AI infrastructure 的核心 scarce layer。**
+> **只要 frontier-system bandwidth demand 增长快于 HBM supply elasticity，且每 bit 制造投入仍显著高于 conventional DRAM，HBM 很可能继续作为 AI infrastructure 的核心 scarce layer。**
 
 ## References
 
