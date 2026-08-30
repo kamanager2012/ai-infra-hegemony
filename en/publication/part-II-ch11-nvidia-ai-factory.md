@@ -1,16 +1,16 @@
 # Part II · Chapter 11: NVIDIA's System-Orchestration Strategy Beyond the Accelerator
 
-## 1. NVIDIA is extending control through orchestration, not fab ownership
+## 1. NVIDIA extends control through orchestration, not ownership
 
-NVIDIA does not control the system by owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
+NVIDIA's control does not come from owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
 
-Its expansion is better described as:
+Its operating model is better described as:
 
-> **interface control + reference architecture + software/runtime + supply orchestration**
+> **interface control + reference architecture + software/runtime + supply orchestration + financing coordination**
 
 The system boundary now spans GPU / CPU, NVLink / NVSwitch, networking, rack-scale design, liquid-cooling requirements, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^1][^2][^3]
 
-## 2. The rack-scale sales unit changes the role of OEMs and ODMs
+## 2. Rack-scale reference architecture changes OEM / ODM economics
 
 In the accelerator-card era, OEMs had wide latitude to define server architecture around the GPU.
 
@@ -18,7 +18,7 @@ At rack scale, power delivery, cooling, fabric, cable topology, firmware, rack l
 
 This does not mean Dell, HPE, Lenovo, ODMs, or other integrators lose product capability. It means the system-platform owner exerts stronger constraints over whole-system design and qualification.
 
-## 3. Networking has become part of the compute platform
+## 3. Networking is part of the compute platform
 
 Large-model training and inference increasingly depend on multi-GPU scaling and collective communication.
 
@@ -26,7 +26,7 @@ When accelerators, NVLink/NVSwitch, InfiniBand/Ethernet networking, and the soft
 
 Platform competition therefore moves from "GPU + arbitrary network" toward a more integrated AI Factory architecture.
 
-## 4. DGX Cloud is primarily a platform extension
+## 4. DGX Cloud is a platform-extension channel
 
 Without a separately disclosed large-scale revenue line, DGX Cloud should not be presented as a second business that has already replaced hyperscalers.
 
@@ -39,7 +39,7 @@ Its more defensible strategic functions are:
 
 DGX Cloud is therefore better understood as a platform extension and reference-deployment channel.
 
-## 5. AI Enterprise / NIM / NeMo primarily deepen deployment integration and migration cost
+## 5. Software deepens integration and migration cost
 
 Software products extend the system platform from hardware purchase into model serving, deployment, optimization, enterprise support, and lifecycle management.
 
@@ -49,7 +49,7 @@ The more accurate strategic effect is:
 
 > **lower deployment friction inside the platform and higher migration friction outside it.**
 
-## 6. Why asset-light orchestration matters
+## 6. Asset-light orchestration raises capital efficiency
 
 NVIDIA leaves much of the manufacturing CapEx with TSMC, memory vendors, the packaging ecosystem, and infrastructure providers while influencing their expansion through long-duration commitments, prepayments, roadmap coordination, and volume certainty. NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^4]
 
@@ -59,7 +59,7 @@ The structure is:
 
 This raises platform capital efficiency and turns external supply elasticity into part of platform strategy.
 
-## 6A. Asset-light is a relative description, not zero balance-sheet exposure
+## 6A. Asset-light does not mean zero balance-sheet exposure
 
 Transaction structures disclosed in August 2026 show NVIDIA's supply orchestration extending partly into infrastructure capital.
 
@@ -74,7 +74,7 @@ A more precise description is:
 
 That can improve Time-to-Capacity, but it can also pull customer-concentration, credit, and duration risk partly back onto the platform.
 
-## 7. Physical AI is the next system extension, but it cannot be mixed with current Data Center profit
+## 7. Physical AI is an extension path, not current Data Center economics
 
 Automotive, robotics, simulation, and edge deployment follow the same system logic: hardware architecture, runtime, simulation, developer tooling, and model deployment form a combined platform.
 
@@ -82,7 +82,7 @@ But "strategically important" does not mean "already contributing Data Center-sc
 
 Physical AI has to be evaluated independently through design wins, deployment scale, revenue, reliability, and ecosystem adoption.
 
-## 8. Seven boundaries to vertical expansion
+## 8. Boundaries to vertical expansion
 
 NVIDIA's system expansion faces real counterforces:
 
@@ -104,7 +104,7 @@ It is better understood as a design philosophy in which compute, memory, network
 
 Its industrial importance is that the sales unit, qualification process, supply commitments, and data-center engineering are pulled into one coordinated roadmap.
 
-## 10. Current view
+## 10. Current read
 
 As of 2026, the clearest change is that NVIDIA has moved materially from accelerator vendor toward system-platform / AI-Factory architecture.
 
