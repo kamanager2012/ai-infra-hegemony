@@ -6,6 +6,7 @@
 
 - [Table 1.1 — 八个承重判断与章节映射](part-I-ch01-executive-summary.md)
 - [Table 1.2 — Scenario Reweighting Signals](part-I-ch01-executive-summary.md)
+- [Table 1.3 — Decision-Use Map](part-I-ch01-executive-summary.md)
 - [Table 2.1 — GB200 NVL72 的 rack-scale 系统结构](part-I-ch02-nvidia-system-stack.md)
 - [Table 2.2 — NVIDIA 当前 seller-side economics 与前置供应承诺](part-I-ch02-nvidia-system-stack.md)
 - [Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型](part-I-ch03-resource-gravity.md)

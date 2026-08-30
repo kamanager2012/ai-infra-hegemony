@@ -61,7 +61,26 @@
 
 ---
 
-## 4. 如何阅读这份报告
+## 4. Professional Decision-Use Map
+
+本报告不输出一个适用于所有人的统一动作。不同专业读者真正需要盯的是不同 denominator。
+
+**Table 1.3 — Decision-Use Map**
+
+| Reader / Decision Context | Primary Variables | 本框架可支持什么 | 不能单独决定什么 |
+|---|---|---|---|
+| Semiconductor / memory / packaging procurement | residual qualified supply、lead time、allocation fulfillment、LTA/prepayment、supplier diversification | quantity assurance、sourcing risk、qualification timing、configuration pressure | supplier 未披露时的精确 customer allocation |
+| AI platform / cloud strategy | production-workload share、migration cost、utilization、TCO、software portability、scarce-layer dependence | alternative system stack 是否正在成为真实 production substitute | 不能从一次 accelerator benchmark 推出完整 system leadership |
+| Data-center / power development | secured → permitted → construction → energized、Time-to-Power、LPS、interconnection | delivery risk 比较与 project sequencing | 不能从 announced / contracted GW 推出 usable AI load |
+| Infrastructure finance / capital allocation | asset duration、utilization、market clearing、forward commitment、refinancing dependency、customer cash generation | capital formation 是否得到 demand quality 与 clearing 验证 | 不能只凭 CapEx 规模判断“泡沫 / 非泡沫” |
+| Consumer electronics / automotive / industrial planning | BOM exposure、product-mix reallocation、quantity assurance、qualification rigidity、Non-AI Residual Capacity | 判断 AI 上游重定价从哪里传导到 end-system cost / cadence | 不能把所有 component price move 都归因于 AI |
+| China / alternative-stack assessment | Production-Grade Gates、frontier workload、system economics、manufacturing continuity、multi-generation closure | 区分真实 production substitution 与 autonomous frontier closure | 不能从单颗国产 component 或单次 benchmark 推出 frontier closure |
+
+因此，这份报告的用途不是让所有读者接受同一个结论，而是让**相关 denominator、mechanism 与 reverse signal 在决策之前变得明确**。
+
+---
+
+## 5. 如何阅读这份报告
 
 本章只承担**入口**功能，不再承担第二份 Master View。完整综合裁决保留在第32章。
 
@@ -77,7 +96,7 @@
 
 ---
 
-## 5. Executive Conclusion
+## 6. Executive Conclusion
 
 当前最有解释力的判断既不是“AI 赢、其他行业输”，也不是“只要总供给扩张，一切都会自动缓解”。
 
