@@ -1,8 +1,8 @@
 # Part IV · Chapter 31: Strategic Implications Under Alternative AI-Infrastructure States
 
-## 1. The strategic problem is preserving executable optionality
+## 1. Strategy is about preserving executable optionality
 
-This chapter does not treat 2036 as a point estimate. It uses the report's four structural states to ask which strategic options remain valuable when the relative weight of concentration, substitution, scarcity, and capital clearing changes.
+This chapter does not optimize for one 2036 forecast. It asks which options remain valuable when concentration, substitution, scarcity, and capital clearing move in different directions.
 
 The competitive unit is already a system stack spanning advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, racks/pods, data centers, power, capital, and sustainable workload demand.
 
@@ -12,7 +12,7 @@ The strategic question is therefore:
 
 This reframes strategy away from predicting one permanent winner and toward maintaining executable options under changing system conditions.
 
-## 2. Five structural variables drive the strategic choice set
+## 2. Five structural variables define the strategic choice set
 
 The long-run industry structure depends primarily on five questions.
 
@@ -114,7 +114,7 @@ The objective is not to predict one permanent winner. It is:
 
 > **to keep an executable next move when the relative weight of S1–S4 changes.**
 
-## 3. Current baseline: S2 requires efficiency plus optionality
+## 3. Under S2, efficiency is not enough; optionality matters
 
 As of August 2026, the evidence mix remains closest to **S2 — Baseline Concentration**.
 
@@ -167,7 +167,7 @@ Even when a continuously maintained second production path is not justified, pre
 
 Where a second path is maintained, it exists to reduce single-point supply, pricing, policy, and migration risk. A low-criticality workload in an abundant / highly portable market may rationally rely on reconstructible optionality instead of carrying a permanently validated duplicate path.
 
-## 5A. End-system companies: manage Quantity Assurance alongside price
+## 5A. End-system companies: manage Quantity Assurance, not price alone
 
 For smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and other long-lifecycle electronics, the low-regret response is not to predict that one supplier will remain constrained for a decade. It is to improve resilience to resource reprioritization.
 
@@ -185,7 +185,7 @@ The objective is:
 
 ---
 
-## 6. Capital: classify the asset before discussing valuation
+## 6. Capital: classify the asset before valuation
 
 At least four asset classes should remain separate:
 
@@ -219,7 +219,7 @@ Under high demand, long-duration assets can be a moat.
 
 Under S4, the same assets can become long-lived burdens.
 
-## 8. Industrial policy: the competitive unit is no longer one fab
+## 8. Industrial policy: the competitive unit is the system, not one fab
 
 A complete frontier-AI industrial capability requires at least:
 
@@ -237,7 +237,7 @@ Subsidizing one advanced fab therefore does not create system closure.
 
 Manufacturing, memory, packaging, software, and power have to be managed as one industrial strategy.
 
-## 9. Industrial policy: power policy has become compute policy
+## 9. Industrial policy: power policy is now compute policy
 
 High-power racks pull grid planning, generation, interconnection, substations, cooling, and permitting into technology competition.
 
@@ -249,7 +249,7 @@ A national AI-infrastructure strategy therefore has to manage:
 
 at the same time.
 
-## 10. Industrial policy: interoperability creates strategic optionality
+## 10. Industrial policy: interoperability creates optionality
 
 System resilience does not require rejecting the leading platform.
 
@@ -267,7 +267,7 @@ The objective is not to equalize market share artificially.
 
 It is to make substitution executable when supply, policy, or pricing conditions change.
 
-## 11. China: the long-run issue is two-level closure, not one localization percentage
+## 11. China: the long-run issue is two-level closure
 
 Whether China's parallel stack changes the global resource structure does not depend on one localization ratio.
 
@@ -296,7 +296,7 @@ If the production-grade stack keeps expanding, China becomes a stronger second c
 
 If upstream continuity also closes across generations, the strategic meaning rises from domestic resilience / selected substitution toward a higher degree of autonomous frontier competition.
 
-## 12. Labor and talent: value moves from using a tool toward responsibility for outcomes
+## 12. Labor and talent: value moves toward responsibility for outcomes
 
 Models, IDEs, agents, and generation tools can commoditize quickly.
 
@@ -318,7 +318,7 @@ The labor and education implications are developed in Chapters 25 and 26.
 
 ---
 
-## 13. What would change the strategic priorities
+## 13. What would change strategic priorities
 
 The most important update variables include:
 
