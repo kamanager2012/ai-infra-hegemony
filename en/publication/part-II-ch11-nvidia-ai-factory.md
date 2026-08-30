@@ -104,7 +104,7 @@ It is better understood as a design philosophy in which compute, memory, network
 
 Its industrial importance is that the sales unit, qualification process, supply commitments, and data-center engineering are pulled into one coordinated roadmap.
 
-## 10. Current judgment
+## 10. Current view
 
 As of 2026, the clearest change is that NVIDIA has moved materially from accelerator vendor toward system-platform / AI-Factory architecture.
 
