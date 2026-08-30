@@ -1,26 +1,20 @@
-# Part IV · 第31章：2036 终局与战略选择
+# Part IV · 第31章：不同 AI Infrastructure State 下的战略含义
 
-## 1. 2036 不是市场份额预测点，而是战略时间尺度
+## 1. 战略问题不是预测终局，而是保留 Executable Optionality
 
-本报告不预测 2036 年某家公司拥有多少市场份额，也不为 S1–S4 分配固定概率。
+本章不把 2036 当成 point estimate，而是使用 S1–S4 四种 structural state 判断：当 concentration、substitution、scarcity 与 capital clearing 的相对权重变化时，哪些战略能力仍然有价值。
 
-2036 的意义是把当前机制拉到更长时间尺度，回答一个更重要的问题：
+当前竞争单位已经是 system stack，覆盖 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power、capital 与 sustainable workload demand。
 
-> **当 compute、memory、packaging、software、power 与 capital 继续演化十年后，产业的选择权会变多还是变少？**
+因此，战略问题不是预测一个永久赢家，而是：
 
-竞争单位已经从单颗芯片上移到 system stack。
+> **哪些能力能够在 S1–S4 之间保持 bargaining power、continuity 与 capital flexibility，而不是只适配今天的 S2 baseline？**
 
-因此，长期竞争不再只是：
-
-> 谁拥有更快 accelerator
-
-而是：
-
-> **谁能够持续获得关键物理资源、组织完整系统、降低迁移成本，并把基础设施转化为高利用率 workload。**
+这使长期战略从“押注终局”转向“保留在状态变化后仍可执行的选择权”。
 
 ---
 
-## 2. 2036 的五个真正分水岭
+## 2. 五个 Structural Variable 决定战略 Choice Set
 
 长期产业结构主要取决于五个问题。
 
@@ -95,7 +89,7 @@ AI workload 是否能够产生足够现金流覆盖：
 
 S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)。
 
-### 2A. 四类情景对应四种不同的战略动作
+### 2A. 同一资产或能力在 S1–S4 下的价值不同
 
 情景分析的价值不是给未来贴标签，而是改变今天应该保留什么选择权。
 
@@ -124,7 +118,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 
 ---
 
-## 3. 当前战略基准：高增长、高集中、替代路径同时存在
+## 3. Current Baseline：S2 要求 Efficiency + Optionality
 
 截至 2026 年 8 月，当前事实组合仍最接近 **S2 — Baseline Concentration**。
 
@@ -144,7 +138,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 
 ---
 
-## 4. 企业：先证明 Workflow Economics，再锁长期 Compute
+## 4. Enterprise：先证明 Workflow Economics，再延长 Duration
 
 企业部署 AI 的合理顺序是：
 
@@ -165,7 +159,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 
 ---
 
-## 5. 企业：给 executable optionality 定价；仅在期权价值超过 carrying cost 时维护第二路径
+## 5. Enterprise：对 Optionality 显式定价
 
 portability 不意味着所有供应商平均采购。
 
@@ -206,7 +200,7 @@ portability 不意味着所有供应商平均采购。
 
 ---
 
-## 6. 资本：必须先区分资产类型，再谈“AI 估值”
+## 6. Capital：先区分 Asset Class，再讨论 Valuation
 
 AI 相关资产至少可以分成四类：
 
@@ -244,7 +238,7 @@ AI 相关资产至少可以分成四类：
 
 ---
 
-## 7. 资本：最大结构风险是 Duration Mismatch
+## 7. Capital：Duration Mismatch 是结构性风险
 
 AI infrastructure 同时包含：
 
@@ -269,7 +263,7 @@ AI infrastructure 同时包含：
 
 ---
 
-## 8. 国家：竞争单位已经不是一座 Fab
+## 8. Industrial Policy：竞争单位已经不是一座 Fab
 
 完整 frontier AI industrial capability 至少需要：
 
@@ -294,7 +288,7 @@ AI infrastructure 同时包含：
 
 ---
 
-## 9. 国家：Power Policy 已经成为 Compute Policy
+## 9. Industrial Policy：Power Policy 已经成为 Compute Policy
 
 高功率 AI system 已经把：
 
@@ -320,7 +314,7 @@ Power 不能再被当成数据中心建设完成后的运营问题。
 
 ---
 
-## 10. 国家：Interoperability 是战略选择权，而不是平均市场份额
+## 10. Industrial Policy：Interoperability 创造 Strategic Optionality
 
 系统韧性并不要求拒绝领先平台。
 
@@ -393,7 +387,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 ---
 
-## 13. 什么事实会改变战略方向
+## 13. 什么事实会改变 Strategic Priorities
 
 未来最重要的更新变量包括：
 
@@ -413,7 +407,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 ---
 
-## 14. 最终战略判断
+## 14. Strategic Bottom Line
 
 截至 2026 年 8 月，AI infrastructure 仍处在：
 
@@ -438,7 +432,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 > **不要押注一个永远不变的终局；建立在终局变化时仍然可执行的选择权。**
 
-## 15. 什么事实会迫使本章改判
+## 15. Falsification Boundary
 
 长期战略选择应随以下变量改变：
 
