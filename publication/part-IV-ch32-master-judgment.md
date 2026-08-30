@@ -195,7 +195,7 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 - grid / substation / generation：更长周期；
 - future workload revenue：不确定。
 
-因此，判断资本泡沫必须同时观察五类信号：
+因此，本报告持续观察五类 capital-clearing signal families；它们共同构成监测面板，但确认 S4 **不要求五类信号同时恶化**：
 
 - **Accounting**：impairment、write-down、accelerated depreciation；
 - **Utilization / Revenue**：deployed compute utilization、AI revenue、verified workflow output；
