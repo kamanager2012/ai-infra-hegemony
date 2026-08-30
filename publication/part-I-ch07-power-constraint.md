@@ -2,7 +2,7 @@
 
 ## 1. Power 的核心问题是 Deployable Capacity，不是 Electricity Price
 
-当 rack-scale AI system 进入约 **120 kW/rack** 时，power 不再只是 OpEx，而开始直接约束系统能否按计划部署和利用。[^1]
+当 rack-scale AI system 进入约 **120 kW/rack** 时，power 已经不只是 OpEx input，而成为 deployment gate。[^1]
 
 一个 D-grade stress conversion 可以显示量级：
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 2. Power 必须使用 Delivery-State Model，而不是 Headline-GW Arithmetic
+## 2. Power 必须使用 Delivery-State Model
 
 AI power project 至少要区分：
 
@@ -180,7 +180,7 @@ Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage inter
 
 ---
 
-## 7. Semiconductor Supply 缓解后，Power 可以成为下一个 Bottleneck
+## 7. Semiconductor Supply 缓解后，Power 可以成为 Binding Constraint
 
 AI infrastructure 没有一个永久固定的唯一瓶颈。
 
@@ -200,7 +200,7 @@ AI infrastructure 没有一个永久固定的唯一瓶颈。
 
 ---
 
-## 8. Power Contract 与 Compute Asset 运行在不同 Duration Clock
+## 8. Power Contract 与 Compute Asset 运行在不同 Clock
 
 AI server 的技术迭代周期通常远短于：
 
@@ -242,7 +242,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 
 ---
 
-## 9. Power 何时成为 Dominant Constraint？
+## 9. Power 何时成为 Binding Constraint？
 
 需要看到多项同步证据，例如：
 
