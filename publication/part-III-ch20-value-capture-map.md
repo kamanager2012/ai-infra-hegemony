@@ -57,7 +57,7 @@ TSMC 2025 gross margin 为 **59.9%**，HPC platform 占全年 revenue **58%**。
 
 SK hynix FY25 官方结果为 Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**，HBM revenue 同比超过一倍。[^5]
 
-Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^6]这使 HBM 的 value capture 同时来自 bandwidth value、制造投入密度、stacking/qualification 与短期 supply scarcity。
+Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^6] 这使 HBM 的 value capture 同时来自 bandwidth value、制造投入密度、stacking/qualification 与短期 supply scarcity。
 
 但 memory 仍具有明显周期性。如果 HBM capacity 超前扩张、generation mismatch 上升或 demand 增速下降，利润可以快速回吐。因此，memory 更接近**高壁垒的制造稀缺周期**，不是永久平台租金。
 
