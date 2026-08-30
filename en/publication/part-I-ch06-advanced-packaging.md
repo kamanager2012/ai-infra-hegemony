@@ -1,8 +1,8 @@
 # Part I · Chapter 6: Advanced Packaging — The Quantity Gate Between Wafers and Deliverable Systems
 
-## 1. The packaging question is system output, not front-end wafer output
+## 1. Packaging is the quantity gate between wafers and systems
 
-A frontier accelerator is not a deliverable system when the logic die leaves the fab. Multi-die integration, HBM, interposers, substrates, testing, yield, and qualification still have to close.
+A frontier accelerator is not commercially deliverable when the logic die leaves the fab. Multi-die integration, HBM, interposers, substrates, testing, yield, and qualification still have to close within the same delivery window.
 
 Advanced packaging therefore acts as a **quantity gate**:
 
@@ -10,7 +10,7 @@ Advanced packaging therefore acts as a **quantity gate**:
 
 The relevant industrial variable is not only how many leading-edge wafers can be fabricated, but how many qualified systems can pass through the packaging/integration layer in the same delivery window.
 
-## 2. TSMC has confirmed tightness; revenue labels still require denominator discipline
+## 2. Tightness is first-party observable; revenue labels still need denominator discipline
 
 TSMC's public statements are sufficient to establish advanced-packaging tightness:[^1][^2]
 
@@ -37,7 +37,7 @@ Two questions therefore have to remain separate:
 
 Annual customer revenue share, wafer revenue share, and CoWoS customer share are not interchangeable.
 
-## 4. Demand concentration is observable only through B-grade institutional estimates
+## 4. Demand concentration is observable only through institutional estimates
 
 TrendForce's research on 2025 CoWoS demand identifies NVIDIA as the largest demand customer and estimates its demand share at **more than 60%**.[^3]
 
@@ -71,7 +71,7 @@ The result is:
 
 Advanced nodes are closer to an entry ticket into a frontier system; advanced packaging can become the quantity gate that determines how many complete systems are delivered. Both matter, but their physical units and expansion clocks are different.
 
-## 7. Incremental packaging access must be measured at the packaging layer
+## 7. Incremental access must be measured at the packaging layer
 
 The forward question is not a synthetic cross-layer capture ratio.
 
@@ -86,7 +86,7 @@ It is whether competing buyers can obtain qualified advanced-packaging supply wi
 
 That evidence should be evaluated directly at the packaging layer.
 
-## 8. Second stacks do not automatically escape packaging/HBM
+## 8. Second stacks do not automatically escape packaging / HBM
 
 Google, AWS, Microsoft, and Meta custom accelerator systems can divert part of NVIDIA's platform profit, but their next-generation systems still rely heavily on advanced logic, HBM, and high-density integration.
 
@@ -110,7 +110,7 @@ Physical bottlenecks and profit pools therefore have to remain separate:
 
 This distinction is essential for AI-infrastructure value-capture analysis.
 
-## 10. Packaging is an independent China closure gate
+## 10. Packaging is an independent China-closure gate
 
 A frontier AI parallel stack cannot be judged from logic nodes alone. Even if accelerator dies can be produced, insufficient advanced packaging, substrates, HBM integration, testing, or high-volume yield can still prevent stable delivery of large systems.
 
