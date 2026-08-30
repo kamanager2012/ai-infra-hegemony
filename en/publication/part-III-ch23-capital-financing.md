@@ -20,7 +20,7 @@ It is:
 
 > **Which type of capital is taking which duration, cash-flow, and residual-value risk?**
 
-## 1A. Capital is profit-seeking: five lenses explain why money keeps moving
+## 1A. Capital allocation: five lenses for risk-adjusted return
 
 Financing complexity is not, by itself, evidence of a bubble. Capital moves toward the highest expected **risk-adjusted return** available under its mandate, while different capital providers can prefer very different places in the same stack.
 
@@ -36,7 +36,7 @@ These five lenses operate as a feedback loop, not a guaranteed staircase:
 
 > **large opportunity set → primary / strategic capital → capability and scale → stronger market position → operating profit / FCF → lower or more flexible capital cost → more capacity to invest**
 
-The loop can reinforce a winner when the underlying cash flows validate it. It can also reverse quickly when monetization, market position, or financing conditions weaken.
+The loop can reinforce leading positions when the underlying cash flows validate them. It can also reverse quickly when monetization, market position, or financing conditions weaken.
 
 This is why the report should not interpret private credit, SPVs, infrastructure funds, or seller-assisted finance as automatically “late-cycle.” The correct question is whether the structure **improves risk-adjusted return by matching duration and allocating risk**, or merely hides weak economics behind refinancing and support.
 
@@ -113,7 +113,7 @@ The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyo
 
 NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested close to **US$50B** in frontier AI labs and discussed selective credit enhancement providing close to **2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
-These disclosures create a new analytical mechanism:
+These disclosures support a distinct analytical mechanism:
 
 > **platform cash generation → equity / credit support → infrastructure financing improves → Anchor Buyer capacity expands → platform-system demand expands**
 
@@ -194,7 +194,7 @@ The most dangerous structure is:
 
 ## 12. Current read
 
-AI infrastructure is expanding from internal technology-company CapEx into a long-duration asset system funded by:
+AI infrastructure is expanding beyond internal technology-company CapEx into a long-duration asset system funded by:
 
 > **technology capital + infrastructure capital + private capital + sovereign capital**
 
