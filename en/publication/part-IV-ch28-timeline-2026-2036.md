@@ -20,7 +20,7 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**;
 - GAAP gross margin **75.0%**;
 - Rubin in **full production**;
-- manufacturing, supply, and capacity commitments rising from **US$119B** on 2026-04-26 to **US$279B** on 2026-07-26;
+- manufacturing, supply, and capacity commitments rising from **US$95.2B** on 2026-01-25 → **US$119B** on 2026-04-26 → **US$279B** on 2026-07-26;
 - TSMC advanced-packaging tightness still limiting customer growth;[^7]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
 - power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1,920 MW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
