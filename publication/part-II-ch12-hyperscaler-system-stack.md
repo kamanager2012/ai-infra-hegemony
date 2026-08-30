@@ -1,8 +1,8 @@
 # Part II · 第12章：第二类 System Stack——Hyperscaler Substitution 如何真正成立
 
-## 1. Substitution 是 Economic Test，不是 Chip Announcement
+## 1. 真正的 Test 是 Workload Substitution，不是 Chip Availability
 
-现在真正的问题已经不是 hyperscaler 能不能设计 ASIC，而是 alternative stack 能否**以可接受的 TCO、migration cost、reliability 与 scale 承载 production workload**。
+战略问题已经不是 hyperscaler 能不能设计 ASIC，而是 alternative stack 能否**以可接受的 TCO、migration cost、reliability 与 scale 吸收 production workload，并且跨代持续成立**。
 
 因此，Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 必须按 system stack 判断：
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 2. Captive Workload 是 Hyperscaler 的 Structural Advantage
+## 2. Captive Workload 是真正的 Structural Advantage
 
 四大云与普通 chip startup 最大的结构差异在于，它们同时拥有：
 
@@ -65,7 +65,7 @@ Google 的真正竞争单元是：
 
 ---
 
-## 4. AWS：Trainium 是 Silicon + Software + Server Architecture
+## 4. AWS：Trainium 是 System，不是 Component
 
 AWS Trainium 同样已经从 accelerator 向 system 发展。
 
@@ -90,7 +90,7 @@ AWS 的一个额外优势是 Anchor Workload。Anthropic 与 AWS 的长期 compu
 
 ---
 
-## 5. Microsoft：Maia 只有在 Azure-Scale Economics 闭合时才有意义
+## 5. Microsoft：Maia 只有在 Azure-Scale Economics 闭合时才成立
 
 Microsoft Maia 200 的合理评价标准，不是第一天支持所有 workload，而是能否在 Azure / Microsoft 内部足够大的 workload 上形成稳定成本优势。[^4]
 
@@ -109,7 +109,7 @@ Microsoft Maia 200 的合理评价标准，不是第一天支持所有 workload�
 
 ---
 
-## 6. Meta：Specialization 不需要 Full Generality 也能形成替代
+## 6. Meta：Specialization 不需要 Generality 也能形成替代
 
 Meta 拥有超大 recommendation、ranking 与 generative-AI workload。
 
@@ -123,9 +123,9 @@ MTIA 300 的核心逻辑不是先成为 general-purpose accelerator，而是围�
 
 ---
 
-## 7. Substitution 同时产生 Profit Diversion 与 Upstream Competition
+## 7. Substitution 会先改变 Platform Economics，再改变 Upstream Scarcity
 
-### 7.1 Platform-Profit Diversion
+### 7.1 Platform-Rent Diversion
 
 自研系统可以：
 
@@ -134,7 +134,7 @@ MTIA 300 的核心逻辑不是先成为 general-purpose accelerator，而是围�
 - 增强采购议价；
 - 把更多 economics 留在 cloud platform 内部。
 
-### 7.2 Upstream Resource Competition
+### 7.2 Upstream Scarcity 可以继续存在
 
 但下一代 custom system 仍需要：
 
@@ -152,7 +152,7 @@ MTIA 300 的核心逻辑不是先成为 general-purpose accelerator，而是围�
 
 ---
 
-## 8. Cloud CapEx 不是 NVIDIA Revenue 的 Proxy
+## 8. Cloud CapEx 不是 NVIDIA-Revenue Proxy
 
 hyperscaler CapEx 同时覆盖：
 
@@ -176,7 +176,7 @@ CapEx 上升既可能支持 NVIDIA 出货，也可能同时加速 NVIDIA 的替�
 
 ---
 
-## 9. Algorithmic Efficiency 是独立的 Substitution Variable
+## 9. Algorithmic Efficiency 是独立 Axis
 
 算法与架构效率会直接影响 system demand，但它与 hyperscaler custom silicon 是不同竞争轴。
 
@@ -193,7 +193,7 @@ DeepSeek 等案例的训练成本、架构效率与单位智能经济学详见[�
 
 ---
 
-## 10. 什么情况下才算 System-Stack Substitution 真正成立
+## 10. Real Substitution 的 Evidence Standard
 
 单颗芯片 benchmark 不够。
 
@@ -218,7 +218,7 @@ DeepSeek 等案例的训练成本、架构效率与单位智能经济学详见[�
 
 ---
 
-## 10A. 两级 Substitution：内部经济替代与外部生态替代
+## 10A. 两级 Threshold：Internal Economics 与 External Ecosystem
 
 Cloud custom system 的“成功”至少有两个不同层级。
 
@@ -287,7 +287,7 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 ---
 
-## 12. Current View
+## 12. Current Read
 
 截至 2026 年 8 月，最稳健的描述是：
 
@@ -303,7 +303,7 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 但它的强度必须用 production workload share、迁移成本、利用率、外部 adoption 与上游资源依赖来衡量，而不是用产品发布数量衡量。
 
-## 13. 什么事实会迫使本章改判
+## 13. 什么事实会改变当前判断
 
 如果 cloud custom systems 长期只停留在小规模 internal workload，且出现以下情况，应下调 Cloud System-Stack Substitution 判断：
 
