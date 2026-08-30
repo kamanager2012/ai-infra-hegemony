@@ -1,10 +1,8 @@
 # Part III · 第20章：AI Infrastructure Stack 的 Value Capture 与 Risk Bearing
 
-## 1. Value Capture 与 Risk Bearing 必须分开映射
+## 1. Value Capture 与 Risk Bearing 是两张不同的 Map
 
-同一美元 AI infrastructure spending 可以在产业链不同位置表现为 hyperscaler CapEx、system-vendor revenue、foundry revenue、memory revenue、packaging revenue 与 data-center / power investment。
-
-这些不是互相独立的六笔钱。
+同一美元 AI infrastructure spending 可以在产业链不同位置表现为 hyperscaler CapEx、system-vendor revenue、foundry revenue、memory revenue、packaging revenue 与 data-center / power investment。它们是同一资本流在不同账本上的 accounting view，不是互相独立的多笔资金。
 
 因此真正需要回答的不是“全球利润池到底多大”，而是：
 
@@ -12,7 +10,7 @@
 
 本章把 value capture 与 risk bearing 分开分析，避免 double counting，也避免固定 winner / loser ranking。
 
-## 2. 六个变量决定 Value Capture
+## 2. 六个变量决定 Economic Rent
 
 判断一层产业能留下多少利润，至少要同时看：
 
@@ -58,7 +56,7 @@ Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需
 
 但 memory 仍具有明显周期性。如果 HBM capacity 超前扩张、generation mismatch 上升或 demand 增速下降，利润可以快速回吐。因此，memory 更接近**高壁垒的制造稀缺周期**，不是永久平台租金。
 
-## 6. Hyperscaler 同时拥有 Distribution Power 与 Asset-Duration Risk
+## 6. Hyperscaler 同时拥有 Distribution Power 与 Duration Risk
 
 Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal workload、customer base、custom silicon 和 data-center scale。这让它们有能力把一部分 platform economics 内部化。
 
@@ -125,7 +123,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 真正有防御力的 application layer 需要把模型能力转化成 proprietary workflow、data、distribution、retention 和 measurable business outcome。
 
-## 10. End Systems 承担 Residual-Capacity 与 Quantity-Assurance Pressure
+## 10. End Systems 吸收 Residual-Capacity 与 Quantity-Assurance Pressure
 
 smartphone、PC、game consoles、automotive、industrial systems、robotics 与部分 high-reliability electronics 仍然是重要的终端和战略系统。它们承受的主要不是“被 AI 淘汰”，而是共享或相邻上游资源的再排序。
 
@@ -147,7 +145,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 第3章定义资源机制，第21章讨论已经能够观测到的 price / configuration / longevity / allocation 传导。
 
-## 11. Custom Silicon 重新分配 Platform Rent，但不一定降低 Upstream Demand
+## 11. Custom Silicon 会先重新分配 Platform Rent，再影响 Upstream Demand
 
 传统路径可以近似写成：
 
