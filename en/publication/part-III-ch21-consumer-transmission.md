@@ -70,9 +70,9 @@ Counterpoint's H1 2026 data provides a more direct view of the pressure:[^7]
 
 - global smartphone SoC shipments: **-15% YoY**;
 - MediaTek and Qualcomm shipments: both **down more than 25% YoY**;
-- Q2 2026 smartphone memory prices: **up more than 300% YoY**;
+- Q2 2026 smartphone memory prices: **up about 300% YoY**;
 - GenAI smartphone SoC shipments: **+24% YoY**;
-- UNISOC continued gaining in cost-sensitive segments.
+- UNISOC gained market share in the period; the cited source does not attribute that gain specifically to a low-cost segment.
 
 The result is **segmentation and restructuring rather than uniform collapse**: entry/mid-range devices are more exposed to memory/BOM pressure, premium/GenAI devices are relatively more resilient, and lower-cost SoC paths can gain share.
 
@@ -97,7 +97,7 @@ The more defensible three-layer structure is:
 - **Mid-range:** has the hardest time preserving price band, memory/storage configuration, and the annual performance narrative at the same time; platform life extends and replacement cycles lengthen.
 - **Entry:** when BOM inflation breaks the price ceiling, the outcome may be fewer SKUs, lower-cost platforms, refurbished/used substitution, or exit from the price band rather than a proportional price increase.
 
-Gartner's February 2026 outlook points in the same direction: it expects PC lifetimes by year-end 2026 to extend by roughly **15% for business buyers** and **20% for consumers**, and argues that the sub-US$500 entry PC segment could become economically unviable by 2028.[^32] This remains a **B-grade institutional forecast**, not an observed terminal state.
+Gartner's February 2026 outlook points in the same direction: it expects PC lifetimes by year-end 2026 to extend by roughly **15% for business buyers** and **20% for consumers**, and forecasts that the **sub-US$500 entry-level PC segment will disappear by 2028**.[^32] This remains a **B-grade institutional forecast**, not an observed terminal state.
 
 The correct interpretation is therefore not that all end-system specifications freeze together, but that:
 
@@ -105,7 +105,7 @@ The correct interpretation is therefore not that all end-system specifications f
 
 ## 4B. Routers / broadband: bargaining power changes the transmission severity
 
-Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
+Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year—roughly the same order of magnitude described in its headline as a **sevenfold** surge for broadband-device memory. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
 
 This is important because it shows that:
 
@@ -144,16 +144,16 @@ Two channels can therefore overlap:
 - consumer GPU / system availability;
 - DDR / LPDDR / system-memory cost.
 
-IDC's June 2026 PC outlook forecasts global PC shipments down **11.3% YoY** in 2026 while PC ASP rises **18.3%**, and says it does not expect meaningful relief from the memory shortage before the end of 2027.[^31] This is still a forecast, not a guaranteed future path, but it reinforces the same operating problem: vendors must manage higher system cost, weaker unit demand, and a harder-to-sustain full product portfolio at the same time.
+IDC's June 2026 PC outlook forecasts global PC shipments down **11.3% YoY** in 2026 while PC ASP rises **17%**, and says it does not expect meaningful relief from the memory shortage before the end of 2027.[^31] This is still a forecast, not a guaranteed future path, but it reinforces the same operating problem: vendors must manage higher system cost, weaker unit demand, and a harder-to-sustain full product portfolio at the same time.
 
 ## 6A. Vendor Operating-Model Adaptation: vendors cannot simply wait for users to delay replacement
 
 Consumers can postpone a purchase. Device vendors still carry annual product planning, channel inventory, tooling and R&D amortization, minimum procurement scale, retail commitments, and market-share targets. The same shortage that appears as “I will upgrade later” to the user can force a **break in the vendor's previous operating model**.
 
-The mainstream consumer-electronics model of the last decade implicitly relied on several conditions:
+The following is a **report-side operating-model heuristic**, not a sourced historical time series for the entire consumer-electronics industry. The mainstream consumer-electronics model has often relied on a combination of:
 
 - advanced-node capability diffusing down the stack;
-- DRAM / NAND unit cost declining over time;
+- declining memory/storage cost over long periods;
 - mid-range volume absorbing fixed R&D, tooling, and channel cost;
 - entry products covering price bands and share;
 - flagship products carrying brand, ASP, and technical narrative.
@@ -219,7 +219,8 @@ This is unusually strong first-party transmission evidence because it links:
 TrendForce's December 2025 institutional outlook for the 2026 console market additionally estimated:
 
 - the 2026 global game-console shipment forecast was revised from **-3.5% YoY** to **-4.4% YoY**;
-- memory cost as a share of BOM for major consoles including PS5, Xbox Series X, and Switch 2 rose from around **15%** historically to roughly **23%–42%**;
+- for **Switch 2**, memory was estimated at roughly **21%–23% of hardware cost** in 2026;
+- for **Sony and Microsoft consoles**, memory cost was estimated to rise to **more than 35% of BOM** in 2026;
 - hardware gross margins and promotional flexibility would therefore be pressured.[^28]
 
 This is a **B-grade institutional estimate**, not an audited Sony / Microsoft / Nintendo BOM.
@@ -369,7 +370,7 @@ The attribution rule from Section 2A still applies. A price increase or lead-tim
 
 These systems have a different exposure profile from smartphones and PCs.
 
-U.S. GAO work on trusted defense microelectronics notes that commercial microelectronics markets are oriented toward high-volume, shorter-lifecycle demand, while government defense requirements are often low-volume, unique, and have limited influence on commercial market allocation. The DMEA Trusted Foundry / Trusted Supplier framework exists in part to preserve trusted access for typically low-volume government needs.[^21][^22]
+A **2015 U.S. GAO assessment** documented the structural mismatch between high-volume commercial microelectronics markets and low-volume, unique defense requirements with limited influence on commercial allocation.[^21] It is used here as historical structural evidence, not as a 2026 market snapshot. The current DMEA Trusted Foundry / Trusted Supplier framework independently shows that preserving trusted access for typically low-volume government needs remains an active institutional requirement.[^22]
 
 NASA/JPL materials on space electronics add another boundary: radiation environments can require special IC design, fabrication, screening, and assurance.[^23]
 
