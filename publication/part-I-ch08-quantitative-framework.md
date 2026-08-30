@@ -1,25 +1,23 @@
-# Part I · 第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade
+# Part I · 第8章：Quantification Boundaries——什么能量化、什么不能、为什么
 
-## 1. 核心原则：量化的目标不是将所有数字压缩进单一总模型
+## 1. Quantification 首先要解决 Denominator Closure
 
-AI infrastructure 最容易出现的分析错误，是把不同物理池、不同会计科目、不同时间窗口和不同证据等级的数字串成一个看似完整的总量模型。
+量化的第一步不是给出 point estimate，而是判断 numerator、denominator、physical unit、delivery window 与 evidence identity 是否真的可以闭合。
 
-本报告只允许能够保持量纲和证据身份的量化进入主链。
+AI infrastructure 最危险的量化错误，是把 front-end wafer、HBM bits、package starts、energized MW、accounting CapEx 与 seller commitments 串成一个看似完整、实际不可审计的 synthetic total。
 
-核心原则是：
+因此，本报告只允许四类量化进入主链：
 
-> **先确认物理对象和分母，再做计算；无法公开闭合的变量保留为参数，不用“合理猜测”补齐。**
+1. **compute / memory intensity**；
+2. **rack-scale material / power intensity**；
+3. **layer-specific stress test**；
+4. **capacity / commitment / utilization indicator**。
 
-量化主要服务四类问题：
-
-1. workload 对 compute / memory / interconnect 的需求强度；
-2. system spec 如何转化成 material / power requirement；
-3. 某一 scarce layer 是否存在有效供给缺口；
-4. bottleneck、utilization 与 capital return 如何随时间变化。
+如果公开 denominator 不能闭合，变量就保留为 parameter 或 proxy。**不会为了让模型“看起来完整”而用一个 point estimate 填空。**
 
 ---
 
-## 2. Roofline：为什么不能只用 FLOPS 衡量 AI System
+## 2. Roofline：Peak FLOPS 不是 Workload Denominator
 
 Roofline model 的基本关系是：
 
@@ -49,7 +47,7 @@ Roofline model 的基本关系是：
 
 ---
 
-## 3. Algorithmic Efficiency 会改变需求函数，但不会自动删除物理约束
+## 3. Algorithmic Efficiency 改变 Resource Intensity，不改变 Measurement Discipline
 
 算法与架构可以改变：
 
@@ -80,7 +78,7 @@ DeepSeek-V3 / V2 等公开案例说明，architecture improvement 可以显著�
 
 ---
 
-## 4. Formal Training Compute Conversion 不能等同于完整 R&D Cost
+## 4. Training-Run Arithmetic 不等于 Company R&D Cost
 
 DeepSeek-V3 Technical Report 披露 full formal training 使用 **2.788M H800 GPU-hours**，并使用 **US$2/GPU-hour** 的租赁成本假设。[^1]
 
@@ -94,7 +92,7 @@ DeepSeek-V3 Technical Report 披露 full formal training 使用 **2.788M H800 GP
 
 ---
 
-## 5. System Spec 可以用于 Material Identity，但不能凭空制造 Shipment
+## 5. System Spec 可以支持 Intensity Analysis，不能反推 Fleet Size
 
 GB200 NVL72 官方规格包括：
 
@@ -125,7 +123,7 @@ GB200 NVL72 官方规格包括：
 
 ---
 
-## 6. HBM：Bit Demand 与 Manufacturing Input 不是一一对应
+## 6. HBM：Bit Demand 与 Wafer Input 是两个 Denominator
 
 Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
@@ -147,7 +145,7 @@ Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
 ---
 
-## 7. Advanced Packaging 必须使用自己的物理单位
+## 7. Advanced Packaging 必须保留自己的 Physical Unit
 
 advanced-packaging 分析应优先使用可观察或有来源边界的变量，例如：
 
@@ -163,7 +161,7 @@ front-end wafers、back-end packaging capacity、HBM bits 与 energized MW 属�
 
 ---
 
-## 8. AI Capacity Gap：先判断“现在缺不缺”，再判断“缺口在扩大还是收敛”
+## 8. Absolute Capacity Gap：这一层现在是否 Short？
 
 对每个物理层 (i)，定义：
 
@@ -203,7 +201,7 @@ Demand 与 Capacity 必须使用：
 
 ---
 
-## 9. Capacity Growth Gap：只描述方向，不能代替当前缺口
+## 9. Capacity Growth Gap：Imbalance 在扩大还是收敛？
 
 再定义：
 
@@ -229,7 +227,7 @@ AI_Capacity_Growth_Gap_i(t)
 
 ---
 
-## 10. Non-AI Residual Capacity 回答的是另一类问题
+## 10. Non-AI Residual Capacity 是另一种 Denominator
 
 AI Capacity Gap 观察 AI 侧。
 
@@ -258,7 +256,7 @@ NonAI_Residual(t)
 
 ---
 
-## 11. Power 必须同时保留 Physical Quantity 与 Delivery State
+## 11. Power 必须同时保留 Quantity 与 Delivery State
 
 约 **120 kW/rack** 可以作为 rack-level power-density input。[^5]
 
@@ -303,7 +301,7 @@ NonAI_Residual(t)
 
 ---
 
-## 12. Forward Commitment 是 Supply Reservation Intensity 的 Proxy，而不是 Shipment
+## 12. Shipment 不可观察时，使用有边界的 Forward Indicator
 
 NVIDIA manufacturing, supply and capacity commitments 的公开轨迹为：[^6]
 
@@ -332,7 +330,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 ---
 
-## 13. Incremental Scarce-Capacity Access 必须按物理层分别测量
+## 13. Scarce-Capacity Access 必须 Layer-Specific
 
 本报告不把 advanced logic、HBM、advanced packaging、networking 与 power 压缩成一个综合“capture ratio”。
 
@@ -368,7 +366,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 ---
 
-## 14. 先拆开五类风险，再判断是否形成 Cascade
+## 14. 先拆开 Risk Class，再判断 Cascade
 
 AI infrastructure 的 system risk 至少分成五类：
 
@@ -382,7 +380,7 @@ AI infrastructure 的 system risk 至少分成五类：
 
 ---
 
-## 15. Rolling Bottleneck Cascade：约束会在不同物理层之间迁移
+## 15. Rolling Bottleneck Cascade 是 State Transition，不是 Shortage Slogan
 
 AI infrastructure 没有一个永久固定的唯一瓶颈。
 
@@ -412,7 +410,7 @@ AI infrastructure 没有一个永久固定的唯一瓶颈。
 
 ---
 
-## 16. Capital Return 必须把不同现金时钟放进同一经济框架
+## 16. Capital Return 必须统一不同 Asset Clock
 
 AI infrastructure 的最基本经济关系可以写成：
 
@@ -456,7 +454,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 18. 最可靠的量化顺序
+## 18. Preferred Quantitative Workflow
 
 本报告采用：
 
