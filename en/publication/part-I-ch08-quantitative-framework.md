@@ -54,9 +54,9 @@ A clearly labeled **D-grade arithmetic conversion** is therefore:
 
 > **2.788M × US$2 ≈ US$5.576M**
 
-This is only a formal-training compute conversion. It excludes research iteration, failed runs, data engineering, engineering payroll, cluster depreciation, networking, storage, and the post-training ecosystem.
+This is only a formal-training compute conversion. The 2.788M total already includes the paper's formal pre-training, context-extension, and post-training compute categories. The paper explicitly excludes prior research and ablation experiments; broader enterprise costs such as data engineering, engineering payroll, owned-cluster depreciation, networking/storage infrastructure, and the wider post-training / deployment organization are not established by this conversion.[^1]
 
-The US$5.576M figure can therefore be used as a public training-run scale anchor, but not as "the full company cost of one frontier model."
+The US$5.576M figure can therefore be used as a public formal-training compute anchor, but not as "the full company cost of one frontier model."
 
 ## 5. System specs support intensity analysis, not deployment inference
 
@@ -179,7 +179,7 @@ AI Capacity Gap, AI Capacity Growth Gap, and Non-AI Residual Capacity are theref
 
 ## 11. Power needs both physical quantity and delivery state
 
-Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
+Approximately **120 kW of rack power consumption for an NVIDIA DGX GB rack-scale system** can be used as a bounded rack-level power input.[^5]
 
 Power must also retain its state identity:
 
@@ -196,20 +196,20 @@ Contracted or secured capacity is not energized capacity; energized capacity is 
 | HBM3E | 13.4 TB / rack | ≈111.7 TB |
 | LPDDR5X | 17 TB / rack | ≈141.7 TB |
 
-**Source:** NVIDIA GB200 NVL72 official specification and DGX GB200 Hardware Guide.[^3][^5]  
+**Source:** NVIDIA GB200 NVL72 official specification and DGX GB Rack Scale Systems User Guide.[^3][^5]  
 **Note:** This is a **D-grade mechanical intensity conversion**. It answers only: “if 1 MW of rack IT load were composed entirely of this rack configuration, what would the hardware intensity be?” It is **not** a shipment, deployment, energized-facility, or industry-demand estimate, and it excludes PUE, network/storage, power-conversion, redundancy, and facility overhead.
 
 This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
 
 ## 12. When shipment volumes are unobservable, use bounded forward indicators
 
-NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as follows:[^6]
+NVIDIA's disclosed manufacturing / supply / capacity commitment family progressed across three reporting dates:[^6]
 
 - 2026-01-25: **US$95.2B**;
 - 2026-04-26: **US$119B**;
 - 2026-07-26: **US$279B**.
 
-The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems.
+The FY26 Form 10-K supports the January figure; the FY27 Q2 Form 10-Q supports the April / July sequence and states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems. The underlying mix and duration are not identical across reporting dates, so this is a forward-reservation indicator rather than a homogeneous time series.
 
 The disclosure cannot identify how much goes to any individual supplier, but it provides an observable proxy for future resource-reservation intensity.
 
@@ -362,7 +362,7 @@ This discipline does not require conservative scenarios. It allows scenarios to 
 [^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
 [^3]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 [^4]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-[^5]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-[^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^6]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^7]: TrendForce, 2026-06-02, HBM wafer-input and bit-supply shares for 2025–2027, https://www.trendforce.com/presscenter/news/20260602-13074.html
 [^8]: TrendForce, 2026-07-30, 2026 DRAM sufficiency ratio estimate of approximately -1% to -2%, https://www.trendforce.com/presscenter/news/20260730-13158.html
