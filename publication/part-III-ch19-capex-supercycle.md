@@ -273,21 +273,15 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 截至 2026 年 8 月，公开数据仍更支持：
 
-> **AI infrastructure CapEx supercycle continues, while the hurdle rate for utilization and monetization is rising.**
-
-也就是说：
-
-- 资本扩张仍然真实；
-- 供给与基础设施建设仍在推进；
-- 但资本基数增大正在提高对 utilization、workflow revenue 与长期 demand visibility 的要求。
+截至 2026 年 8 月，公开数据仍更支持一种 **capital formation 保持高位、同时 utilization 与 monetization hurdle 继续上升** 的高投资状态，而不是已经完成 capital clearing 的周期。
 
 这还不是已经确认的全行业 Capital Hard Landing。
 
-真正的转折需要看到：**utilization/revenue、market clearing、forward commitments、demand-financing quality 与 accounting 中的多类独立信号跨主体/层级形成广泛、持续的交叉确认；Accounting 出现时强化严重度，但不是必要条件。**
+真正的转折需要看到 utilization/revenue、market clearing、forward commitments、demand-financing quality 与 accounting 等多类独立 signal families 跨主体、跨层级确认广泛恶化。Accounting 出现时会提高 severity assessment，但不是 mandatory gate。
 
 ## 10. 什么事实会改变当前判断
 
-应下调“资本扩张仍是主线”的判断，如果持续出现：
+如果以下变化持续出现，应下调“capital expansion 仍是 dominant regime”的判断：
 
 - hyperscaler underlying investment expectation 连续下降；
 - data-center / power project cancellation 或 deferral 明显增加；
