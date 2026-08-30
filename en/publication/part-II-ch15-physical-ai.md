@@ -200,9 +200,9 @@ Long-run value capture can appear simultaneously in:
 - manufacturing / integration;
 - cloud simulation / training infrastructure.
 
-The robotics revolution is not fundamentally a contest over which model tops a benchmark.
+Long-run robotics competition is not fundamentally a contest over which model tops a benchmark.
 
-It is a contest over:
+The industrial test is:
 
 > **who can convert AI capability into reliable, low-cost, mass-producible, maintainable physical work with sufficiently high utilization to recover capital.**
 
