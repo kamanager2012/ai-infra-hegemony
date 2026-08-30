@@ -46,7 +46,7 @@
 
   const copy = {
     zh:{
-      heroTitle:"AI基础设施霸权时代：2026–2036",
+      heroTitle:"AI基础设施霸权时代：2026–2036产业前瞻研究报告",
       heroSubtitle:"全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构",
       heroSummary:"一份以事实、机制、情景与可证伪标准为核心的长期行业研究报告。研究 AI 从单颗 accelerator 竞争上移到完整 system stack 后，如何改变上游资源配置、资本形成、传统终端与未来十年的产业结构。",
       start:"开始阅读",master:"直接看总判",print:"打印 / 保存 PDF",
@@ -61,7 +61,7 @@
       ]
     },
     en:{
-      heroTitle:"The Age of AI Infrastructure Hegemony: 2026–2036",
+      heroTitle:"The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report",
       heroSubtitle:"Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital",
       heroSummary:"A long-form industry research report built around facts, mechanisms, scenarios, and falsification criteria. It examines how the shift from individual accelerators to complete system stacks changes upstream resource allocation, capital formation, traditional end markets, and the industrial structure of the next decade.",
       start:"Read the report",master:"Go to Master Judgment",print:"Print / Save PDF",
@@ -356,7 +356,7 @@
       }
     }
     $("printBody").innerHTML = sections.join("\n");
-    document.title = (lang === "en" ? "The Age of AI Infrastructure Hegemony: 2026–2036" : "AI基础设施霸权时代：2026–2036") + " — 2026 Edition";
+    document.title = (lang === "en" ? "The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report" : "AI基础设施霸权时代：2026–2036产业前瞻研究报告") + " — 2026 Edition";
   }
 
   function toggleLanguage() {
@@ -404,7 +404,7 @@
     document.body.classList.remove("chapter-mode");
     $("readerView").classList.add("hidden");
     $("printView").classList.add("hidden");
-    document.title = (lang === "en" ? "The Age of AI Infrastructure Hegemony: 2026–2036" : "AI基础设施霸权时代：2026–2036") + " — 2026 Research Report";
+    document.title = (lang === "en" ? "The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report" : "AI基础设施霸权时代：2026–2036产业前瞻研究报告") + " — 2026 Research Report";
   }
 
   init();
