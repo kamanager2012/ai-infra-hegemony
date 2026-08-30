@@ -1,6 +1,6 @@
 # Part II · Chapter 11: NVIDIA's System-Orchestration Strategy Beyond Accelerators
 
-## 1. NVIDIA extends control through orchestration, not ownership
+## 1. NVIDIA extends platform power through orchestration, not ownership
 
 NVIDIA's leverage does not depend on owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
 
