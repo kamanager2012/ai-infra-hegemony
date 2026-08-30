@@ -1,6 +1,6 @@
-# Part IV · 第29章：Monitoring Dashboard——State Variables、Inflection Tests 与 Scenario Reweighting
+# Part IV · 第29章：Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting
 
-## 1. Monitoring Problem：哪些 State Variables 真正足以改变判断？
+## 1. 只跟踪真正能够改变判断的 State Variables
 
 长期研究只有在后续事实能够改变结论时才有价值。
 
@@ -331,7 +331,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 这五项都不使用人为统一的“8 个季度”“30%–40%”之类硬阈值。只有在**同口径连续观察 + 两个以上独立机制维度互相印证**时，才足以推动 S1–S4 的实质重权重。
 
-## 13. Update Protocol
+## 13. Governed Update Protocol
 
 一条新闻不应该重写本报告。
 
