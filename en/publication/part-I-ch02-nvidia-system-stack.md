@@ -18,9 +18,9 @@ NVIDIA's most important advantage is no longer the standalone performance of a s
 **Source:** NVIDIA GB200 NVL72 official product page.[^1]  
 **Note:** The table reports the official system specification; it does not represent shipment volume, utilization, or customer deployment scale.
 
-This changes how competition must be measured. In the add-in-card era, FLOPS, memory capacity, and card price could dominate the comparison. At rack scale, the comparison has to include memory hierarchy, scale-up/scale-out interconnect, compiler/runtime, distributed-training software, power/cooling, deployment tooling, and workload-migration cost.
+This changes how competition must be measured. In the add-in-card era, FLOPS, memory capacity, and card price could dominate the comparison. At rack scale, the comparison must include memory hierarchy, scale-up/scale-out interconnect, compiler/runtime, distributed-training software, power/cooling, deployment tooling, and workload-migration cost.
 
-A cheaper ASIC die therefore does not automatically imply a cheaper production AI system.
+A cheaper ASIC die therefore does not by itself imply a cheaper production AI system.
 
 ![Figure 1 — The competitive unit is the system stack](figures/fig-01-system-stack.svg)
 
@@ -146,7 +146,7 @@ That shift can produce two effects that pull in opposite directions and still co
 1. **Platform-profit diversion:** in-house cloud systems reduce dependence on part of NVIDIA's platform profit pool;
 2. **Upstream resource competition:** those systems still compete for advanced logic, HBM, advanced packaging, and power.
 
-Successful cloud custom silicon does not automatically relieve upstream physical scarcity.
+Successful cloud custom silicon does not by itself relieve upstream physical scarcity.
 
 ## 7A. Reported Hugging Face transaction: platform power may extend from runtime into developer distribution
 
