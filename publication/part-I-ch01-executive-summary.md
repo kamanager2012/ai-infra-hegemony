@@ -27,6 +27,9 @@
 | **7. Capital risk 本质上是 utilization、monetization 与 financing quality 问题。** | 高 CapEx 既不是长期需求成立的证明，也不是泡沫成立的证明。真正需要观察的是 utilization、market clearing、customer cash generation 与 financing quality 能否支撑资产基数。2026 年 NVIDIA 的 financing-platform 公告说明 capital formation 已开始超出 corporate CapEx。[^7] | Ch19、Ch22–Ch24 |
 | **8. 2026–2036 路径是条件化的。** | supply elasticity、substitution、algorithmic efficiency、workload growth、power、financing quality 与 system closure 都可能推动产业从 S2 转向 S1、S3 或 S4。 | Ch29–Ch32 |
 
+**Source：** 本报告 synthesis；各行 factual anchor 已在表内引用，并在对应章节展开。  
+**Note：** 本表是综合映射，不是独立 evidence source；在执行摘要中重复不会提高任何底层证据的 evidence grade。
+
 ---
 
 ## 2. 当前证据能够证明什么，不能证明什么
@@ -57,6 +60,9 @@
 | **向 S3 — Resource Hegemony 移动** | 多个独立 physical layer 持续紧张；低优先级买家的 residual capacity 恶化；switching cost 维持高位；long-duration commitment 与协调式 supply access 继续扩张 |
 | **向 S4 — Capital Hard Landing 移动** | utilization/revenue、market clearing、forward commitment、demand quality/financing 等多类独立信号跨主体或层级广泛恶化；出现 impairment 时会强化严重度，但不是 mandatory gate |
 
+**Source：** 本报告 S1–S4 scenario 与 monitoring framework，见第 29–30 章。  
+**Note：** 这些是条件化 reweighting signals，不是固定 probability、统一数字阈值或确定性 transition sequence。
+
 单个弱季度、一次项目延期、一个价格波动或一家竞争者发布新品，都不足以改写长期结构判断。
 
 ---
@@ -75,6 +81,9 @@
 | Infrastructure finance / capital allocation | asset duration、utilization、market clearing、forward commitment、refinancing dependency、customer cash generation | capital formation 是否得到 demand quality 与 clearing 验证 | 不能只凭 CapEx 规模判断“泡沫 / 非泡沫” |
 | Consumer electronics / automotive / industrial planning | BOM exposure、product-mix reallocation、quantity assurance、qualification rigidity、Non-AI Residual Capacity | 判断 AI 上游重定价从哪里传导到 end-system cost / cadence | 不能把所有 component price move 都归因于 AI |
 | China / alternative-stack assessment | Production-Grade Gates、frontier workload、system economics、manufacturing continuity、multi-generation closure | 区分真实 production substitution 与 autonomous frontier closure | 不能从单颗国产 component 或单次 benchmark 推出 frontier closure |
+
+**Source：** 本报告 decision-use framework，来自第 3–8、12–24、27–32 章的 analytical modules 与 evidence boundaries。  
+**Note：** 本表用于 reader orientation，不构成投资、采购、法律或运营建议。
 
 因此，这份报告的用途不是让所有读者接受同一个结论，而是让**相关 denominator、mechanism 与 reverse signal 在决策之前变得明确**。
 
