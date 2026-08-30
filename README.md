@@ -1,7 +1,7 @@
-# AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
-### AI基础设施格局重塑：2026–2036产业前瞻研究报告
+# AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
+### AI基础设施格局重塑：2026–2036结构性产业展望
 
-**Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital**
+**How the AI Compute Buildout Is Reallocating Semiconductors, Memory, Advanced Packaging, Power, Capital, and End-Market Capacity**
 
 A long-form industry research report on AI infrastructure, semiconductors, cloud systems, capital formation, and industrial strategy.
 
