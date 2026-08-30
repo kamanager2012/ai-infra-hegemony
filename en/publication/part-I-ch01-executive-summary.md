@@ -4,7 +4,7 @@
 
 As of **August 28, 2026**, the public evidence is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths are expanding without yet removing HBM, advanced-packaging, power, or migration constraints.
 
-The report's central question is not whether AI makes other industries unimportant. It is whether AI/HPC changes the priority of shared or adjacent upstream resources enough that other end systems can no longer obtain **qualified supply, on time, on terms compatible with their BOM, lifecycle, and product cadence**.
+The central question is not whether AI makes other industries unimportant. It is whether AI/HPC changes the priority of shared or adjacent upstream resources enough that other end systems can no longer obtain **qualified supply, on time, on terms compatible with their BOM, lifecycle, and product cadence**.
 
 The analysis therefore follows allocation through the full system stack:
 
@@ -20,7 +20,7 @@ The long-run issue is not chip share alone. It is who can repeatedly assemble th
 |---|---|---|
 | **1. The competitive unit is the system stack.** | Frontier delivery increasingly depends on compute, memory, interconnect, software, rack architecture, power, and workload economics together. NVIDIA's GB200 NVL72 is itself a rack-scale system, not a standalone accelerator.[^1] | Ch02, Ch12 |
 | **2. AI/HPC is changing the marginal destination of capital.** | The important variable is not only who consumes today's capacity, but which demand pool increasingly determines what new capacity gets built. TSMC's 2Q26 mix—HPC **66%** of revenue and 7 nm-and-below **77%** of wafer revenue—shows the economic weight of advanced-compute demand without proving customer-level wafer allocation.[^2] | Ch03, Ch09, Ch19 |
-| **3. Gross supply can rise while effective supply for other end markets worsens.** | Traditional industries consume residual, qualified, economically usable supply—not global capacity headlines. The report therefore tracks **Non-AI Residual Capacity** rather than assuming aggregate expansion benefits every buyer equally. | Ch03, Ch21 |
+| **3. Gross supply can rise while effective supply for other end markets worsens.** | Traditional industries consume residual, qualified, economically usable supply—not global capacity headlines. The analysis therefore tracks **Non-AI Residual Capacity** rather than assuming aggregate expansion benefits every buyer equally. | Ch03, Ch21 |
 | **4. Scarcity must be measured layer by layer.** | HBM, advanced packaging, networking, land/power/shell, and energized power are different physical pools with different denominators. Micron's same-node/same-bit HBM3E disclosure and TSMC's packaging comments show why one aggregate "AI capacity" number is misleading.[^3][^4] | Ch04–Ch08 |
 | **5. Substitution can weaken platform economics without automatically relieving upstream scarcity.** | Hyperscaler custom stacks can divert workloads from external platforms while still consuming advanced logic, HBM, packaging, networking, and power.[^5] | Ch12–Ch16 |
 | **6. China requires two separate closure tests.** | A production-grade parallel stack is not the same as autonomous frontier closure across generations under constrained external inputs. Public evidence supports real parallel-stack progress but does not justify collapsing those two thresholds.[^6] | Ch17 |
@@ -31,7 +31,7 @@ The long-run issue is not chip share alone. It is who can repeatedly assemble th
 
 ## 2. What current evidence does — and does not — establish
 
-The report makes several distinctions that are more important than any single forecast.
+Several distinctions are more important than any single forecast.
 
 - **Revenue mix is not wafer allocation.** TSMC platform revenue can show economic direction without proving which customer received which wafer volume.
 - **DRAM bit share is not manufacturing-input share.** HBM intensity must be evaluated using the relevant wafer/process denominator, not bits alone.
@@ -41,7 +41,7 @@ The report makes several distinctions that are more important than any single fo
 - **CapEx is not a bubble metric.** S4 requires deterioration across multiple causally independent clearing-signal families and actors/layers, not a large spending number.
 - **A current S2 baseline is not a ten-year point forecast.** S1–S4 are conditional states, not a predetermined sequence and not fixed probabilities.
 
-These boundaries are deliberate. The report permits strong forward judgments, but not denominator drift, time-identity drift, or promotion of forecasts into facts.
+These boundaries are deliberate. Strong forward judgments are permitted, but denominator drift, time-identity drift, and promotion of forecasts into facts are not.
 
 ---
 
@@ -63,7 +63,7 @@ A single weak quarter, one project delay, one price move, or one competitor anno
 
 ## 4. Decision-use map for professional readers
 
-The report is not designed to produce one universal action. Different readers should watch different denominators.
+There is no universal action implied by the framework. Different readers should watch different denominators.
 
 **Table 1.3 — Decision-use map**
 
@@ -76,7 +76,7 @@ The report is not designed to produce one universal action. Different readers sh
 | Consumer-electronics / automotive / industrial planning | BOM exposure, product-mix reallocation, quantity assurance, qualification rigidity, Non-AI Residual Capacity | identifying where AI-driven upstream repricing can reach end-system cost or cadence | attributing every component price move to AI |
 | China / alternative-stack assessment | Production-Grade Gates, frontier workload, system economics, manufacturing continuity, multi-generation closure | separating real production substitution from autonomous frontier closure | inferring frontier closure from one domestic component or one benchmark |
 
-The point of the report is therefore not to make every reader adopt the same conclusion. It is to make the **relevant denominator, mechanism, and reverse signal explicit before a decision is made**.
+The objective is not to make every reader adopt the same conclusion. It is to make the **relevant denominator, mechanism, and reverse signal explicit before a decision is made**.
 
 ---
 
@@ -104,7 +104,7 @@ It is:
 
 > **AI/HPC is reprioritizing multiple layers of the infrastructure stack. The decisive variables are residual qualified supply, system-level substitution, bottleneck migration, power/LPS delivery, capital quality, and the ability to convert installed compute into productive workloads.**
 
-That combination currently supports **S2 — Baseline Concentration**. The report should move away from S2 only when those underlying variables move.
+That combination currently supports **S2 — Baseline Concentration**. S2 should be reconsidered only when those underlying variables move.
 
 ## References
 
