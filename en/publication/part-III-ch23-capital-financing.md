@@ -1,4 +1,4 @@
-# Part III · Chapter 23: AI-Infrastructure Capital Markets and Financing Structure
+# Part III · Chapter 23: AI Infrastructure Capital Markets and Financing Structure
 
 ## 1. AI infrastructure is financed across multiple asset classes
 
