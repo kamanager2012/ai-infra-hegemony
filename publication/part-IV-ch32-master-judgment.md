@@ -290,6 +290,10 @@ AI 对劳动的传导必须至少经过：
 
 > **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
 
+![图 10 — Verified workflow output 构成 demand-side closure](figures/fig-10-verified-workflow-loop.svg)
+
+**图 10 Note：** 本报告 economic framework。“verified workflow output”是 long-run economic criterion，不是截至 evidence cutoff 已完成 empirical calibration 的 fact metric；它用于把 infrastructure cost 与可验证产出、utilization、cash flow、capital recovery 接在同一条链上。
+
 如果前半段扩张长期快于后半段，S4 风险上升；如果可验证工作流产出、利用率和现金流持续拉动新增需求，即使单位 Compute 成本持续下降，S2/S3 型资本扩张仍可能延续。
 
 ---
