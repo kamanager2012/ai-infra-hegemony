@@ -1,4 +1,4 @@
-# Part III · Chapter 19: AI Infrastructure Capital Formation — Duration Mismatch, Utilization, and Demand Duration
+# Part III · Chapter 19: AI Infrastructure Capital Formation — Utilization, Commitments, and Duration Risk
 
 ## 1. Capital formation has to be read by owner, asset life, and workload
 
