@@ -20,3 +20,14 @@ This directory contains publication-layer figures for the English canonical edit
 - **Figure 6 — S1–S4 scenario map** — report scenario framework; S2 highlighted as the August 2026 evidence baseline.
 
 The next figure tranche should prioritize advanced-logic mix, capital-financing structure, bottleneck migration, and the verified-workflow demand-closure loop only where the underlying denominators remain publication-safe.
+
+## Second figure tranche
+
+- **Figure 7 — TSMC 2Q26 demand and technology mix** — first-party actuals with two explicitly separate denominators.
+- **Figure 8 — Rolling Bottleneck Cascade** — report causal framework for bottleneck migration.
+- **Figure 9 — Anchor demand and Financing Reflexivity** — report financing framework.
+- **Figure 10 — Demand-side closure through verified workflow output** — report economic-closure framework.
+- **Figure 11 — Production-Grade Parallel Stack vs. Autonomous Frontier Closure** — report closure-test framework.
+
+The 11-figure core set is intended to cover the report's load-bearing analytical spine rather than illustrate every chapter.
+
