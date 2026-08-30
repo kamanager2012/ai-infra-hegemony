@@ -156,17 +156,44 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 
 ## 5A. Capacity Gap 是 Diagnostic Axis，不是第五种 Scenario
 
-AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 的定义和量纲规则已经在第8章完整给出，本章不再重复公式。
+S1–S4 仍然是并列条件状态；本报告不增加第二套 scenario taxonomy。为了把“这一层今天是否短缺”与“压力是在扩大还是收敛”分开，使用两个互补指标。
 
-在情景分析中，它们只承担诊断作用：
+### Absolute Gap
 
-- **AI Capacity Gap 持续为正且供给追赶不足**：S2 / S3 权重上升；
-- **AI 仍短缺但 supply elasticity 明显改善**：S1 权重上升；
-- **出现有效余量但 utilization 仍健康**：不等于 S4；
-- **有效余量扩大，同时 utilization、clearing price 与 commitments 恶化**：S4 权重上升；
-- **Non-AI Residual Capacity 继续下降**：说明 AI / priority demand 的资源吸收仍在向传统市场传导。
+```text
+AI_Capacity_Gap_i(t)
+= AI_Effective_Demand_i(t)
+- AI_Effective_Capacity_i(t)
+```
 
-详细计算边界见[第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)。
+Demand 与 capacity 必须位于同一 physical layer、delivery window 与 qualification / quality boundary。单位可以是 wafers/month、qualified package starts/month、bits/year 或 MW。
+
+- **Absolute Gap > 0：** 当前可交付供给不足；
+- **Absolute Gap ≈ 0：** 当前供需接近平衡；
+- **Absolute Gap < 0：** 当前存在 effective headroom。
+
+### Growth Gap
+
+```text
+AI_Capacity_Growth_Gap_i(t)
+= Growth(AI_Effective_Demand_i(t))
+- Growth(AI_Effective_Capacity_i(t))
+```
+
+Growth Gap 是同一时期的增长率差，用来判断 absolute gap 更可能扩大还是收敛：
+
+- **Growth Gap > 0：** scarcity 可能扩大，或既有 headroom 被侵蚀；
+- **Growth Gap < 0：** scarcity 可能收敛，或 effective headroom 扩大；
+- **Growth Gap = 0：** 供需以相同速度变化；不代表不存在 shortage。
+
+因此：
+
+- **多个关键层同时出现 Absolute Gap > 0 且 Growth Gap > 0：** scarcity 正在强化，权重向 S2 / S3 移动；
+- **Absolute Gap > 0 但 Growth Gap < 0：** 当前仍短缺，但 supply 正在追赶，S1 权重可以上升；
+- **Absolute Gap < 0 且 utilization 健康：** 供给存在 headroom，但这本身不是 S4；
+- **Absolute Gap < 0 + utilization 下降 + clearing price 走弱 + commitments 收缩：** S4 权重显著上升。
+
+AI Capacity Gap / Growth Gap 必须与 Non-AI Residual Capacity 一起读取。前两者回答 AI 当前缺多少、缺口如何变化；NARC 回答 priority allocation 之后还剩多少 effective supply 给 non-AI demand。
 
 ## 6. 六类变量用于 Scenario Discrimination
 
