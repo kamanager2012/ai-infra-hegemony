@@ -36,8 +36,8 @@
     {n:28,part:4,file:"part-IV-ch28-timeline-2026-2036.md",zh:"2026–2036 时间线与阶段性里程碑",en:"2026–2036 Timeline and Conditional Milestones"},
     {n:29,part:4,file:"part-IV-ch29-monitoring-framework.md",zh:"Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting",en:"Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting"},
     {n:30,part:4,file:"part-IV-ch30-scenarios.md",zh:"Scenario Framework——Discriminating S1 to S4",en:"Scenario Framework — Discriminating S1 to S4"},
-    {n:31,part:4,file:"part-IV-ch31-strategy-endgame.md",zh:"2036 终局与战略选择",en:"The 2036 Endgame and Strategic Optionality"},
-    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",zh:"Master View——什么决定 AI Infrastructure Power，什么事实会改变判断",en:"Master View — What Determines AI Infrastructure Power, and What Would Change the View"}
+    {n:31,part:4,file:"part-IV-ch31-strategy-endgame.md",zh:"2036 终局与战略选择权",en:"The 2036 Endgame and Strategic Optionality"},
+    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",zh:"Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断",en:"Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View"}
   ];
 
   const partNames = {
