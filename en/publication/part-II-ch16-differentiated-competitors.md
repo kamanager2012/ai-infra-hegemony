@@ -4,7 +4,7 @@
 
 AMD, Intel, Qualcomm, and Apple compete at different layers of the system stack and operate with different manufacturing access, workload bases, distribution channels, and capital structures.
 
-The useful question is not whether they form one anti-NVIDIA bloc. It is:
+The useful question is not whether they form a single anti-NVIDIA bloc, but:
 
 > **Which source of system-stack power can each company realistically erode?**
 
@@ -43,7 +43,7 @@ The Product Clock requires short-cycle delivery of performance, software, and cu
 
 The Foundry Clock requires long-duration progress in process technology, yield, customer trust, packaging, and high-volume execution.
 
-Intel's recovery cannot therefore be proved by one product, one process milestone, or one fab. High-NA HVM is a meaningful manufacturing-execution signal, while external-foundry adoption, yield economics, and customer trust still require separate validation.
+Intel's recovery cannot therefore be established by a single product, process milestone, or fab. High-NA HVM is a meaningful manufacturing-execution signal, while external-foundry adoption, yield economics, and customer trust still require separate validation.
 
 ## 4A. Historical memory: concentration changes cadence control, not engineering causality
 
@@ -63,7 +63,7 @@ The useful institutional memory is therefore:
 
 > **When an executable second system is weak, the incumbent has greater power to define upgrade cadence. When real competition returns, it often arrives through a different architecture / manufacturing / system path.**
 
-The analogy to 2026 AI infrastructure is about **migration cost and system definition**, not today's product cadence:
+The analogy to 2026 AI infrastructure concerns **migration cost and system definition**, not today's product cadence:
 
 - late Intel client computing combined a mature market with process delay;
 - the 2026 NVIDIA data-center stack combines explosive demand, rapid roadmaps, and scarce-capacity allocation;
@@ -94,7 +94,7 @@ Qualcomm's primary effect on AI infrastructure is therefore **demand-function re
 
 Apple vertically integrates silicon, operating systems, devices, application ecosystems, distribution, and a massive installed base. Apple Intelligence publicly combines on-device processing with Private Cloud Compute, making workload placement a core part of its AI system design.[^7][^8]
 
-Apple is not a frontier-training system vendor, but it can influence where large volumes of consumer workloads execute: on device, in private cloud, or in public cloud.
+Apple is not a frontier-training system vendor, but it can influence where large volumes of consumer workloads execute: on-device, in private cloud, or in public cloud.
 
 If on-device capability improves rapidly, Apple becomes an important platform variable affecting cloud-inference intensity.
 
@@ -120,7 +120,7 @@ Historical revenue share is not a substitute for layer-specific analysis of incr
 **Source:** AMD, Intel, Qualcomm, and Apple official company/product materials.[^1][^3][^5][^7]  
 **Note:** The table classifies competitive paths; it does not imply that the four companies operate in the same market or have directly comparable market shares.
 
-NVIDIA therefore faces competitive pressure across multiple layers rather than from one unified opponent.
+NVIDIA therefore faces competitive pressure across multiple layers rather than from a single unified opponent.
 
 ## 9. What would raise S1 weight
 
