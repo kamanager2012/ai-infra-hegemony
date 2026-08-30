@@ -178,7 +178,7 @@ Regulation is therefore not a one-direction "negative for the platform" variable
 
 Its structural effect depends on whether binding remedies actually reach migration, bundling, and access.
 
-## 11. Current judgment
+## 11. Current view
 
 As of August 2026, regulation is an important external variable for AI system platforms.
 
