@@ -137,29 +137,31 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 ## 8. Dashboard G — China Closure Tests
 
-分别监测：
+这里不再用一个“国产化率”概括，而是分别跟踪两个层级。
 
-### Logic
+### Production-Grade Parallel Stack
 
-domestic accelerator、foundry scale、yield / volume disclosure。
+跟踪：
 
-### Memory
+- accelerator / compute delivery；
+- HBM-class 或等价 memory subsystem；
+- advanced packaging / integration；
+- high-speed interconnect；
+- compiler/runtime；
+- production workload；
+- utilization、reliability 与 economics。
 
-HBM-class product、qualification、volume production。
+### Autonomous Frontier Closure
 
-### Packaging
+然后另行跟踪：
 
-advanced integration、yield、scale。
+- advanced-manufacturing continuity；
+- equipment / materials / software / service；
+- cross-generation process upgrades；
+- HBM / packaging / LPS / power continuity；
+- long-duration capital 与 multi-generation scaling。
 
-### Software
-
-compiler/runtime、framework compatibility、cluster utilization。
-
-### Deployment
-
-frontier workload、data-center power、real system scale。
-
-只有多个 closure gates 同时改善，才上调 frontier-system closure。
+Production deployment 可以强化第一层判断，但不能据此证明第二层已经闭合。
 
 ## 9. Dashboard H — Regulatory State
 
@@ -285,32 +287,33 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 ## 12A. Materiality 与 Persistence 必须服从各变量的 Clock
 
-情景权重的变化应依赖**多组独立信号的持续一致方向**，而不是人为规定所有变量都必须满足相同的“两个季度 / 三个月”规则。
+本报告不对所有变量套用统一的“两季度”或“三个月”规则。
 
-不同产业层拥有不同披露频率：
+那会制造 false precision，因为 semiconductor allocation、memory pricing、power project、regulatory proceeding、customer contract 与 accounting loss 运行在不同时间尺度上。
 
-- seller economics 通常按季度；
-- memory pricing 可以按月；
-- foundry / packaging 更多依赖季度和事件披露；
-- power project 可能跨多年；
-- regulation 依赖法律程序节点；
-- China frontier-system closure 往往依赖产品、量产、qualification 等离散事件。
+每一个 monitoring variable 都应明确：
 
-因此，本报告不为所有变量设置统一时间阈值。
+1. **source cadence** — quarterly filing、monthly pricing series、event-driven contract、annual capacity disclosure 等；
+2. **physical / economic clock** — hardware、fab、data center、grid、contract 或 accounting；
+3. **comparable baseline** — 相同 denominator、unit 与 evidence identity；
+4. **materiality** — 变化必须足以改变相关 mechanism，而不是只制造 headline volatility；
+5. **persistence / confirmation** — 由适合该变量时钟的可比后续证据确认；
+6. **cross-signal confirmation** — 尤其是 S4，单一弱指标不足以改判。
 
-更合理的更新原则是：
+**Mechanism-break override：** breadth requirement 约束的是**系统级 scenario adjudication**，不是给底层 mechanism 提供“必须等多信号才承认反例”的保护。如果一条高质量 observation 在相同 denominator 与 time identity 下直接击穿某个 mechanism 的必要前提，该 mechanism 必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定的是整个 S1–S4 state 是否改变，不能被用来忽略已经失效的前提。
 
-1. **同一变量至少需要可比的连续观察，而不是单次公开数字；**
-2. **重要改判应有两个以上独立机制维度互相印证；**
-3. **公司一手披露优先于市场传闻；**
-4. **proxy 不能重新命名成无法直接测量的 physical quantity；**
-5. **如果公开数据不足，应明确标记 not measurable，而不是用假设补齐。**
+### Handling missing data
 
-**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+如果某一层没有 same-unit 的 `AI_Effective_Demand` 与 `AI_Effective_Capacity`，其 Absolute AI Capacity Gap 必须标记为 **not measurable from public data**。
 
-例如，向 S4 移动不能只依赖一家公司 CapEx 下调，而应看到至少一个 real-economy / market / commitment 信号与其他独立信号族跨主体/层级形成共同恶化；Accounting 可用于确认和衡量严重度，但不能被设成 mandatory gate。
+Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy 跟踪，但不能被重新命名为 absolute capacity gap。
 
-向 S1 移动也不能只依赖一个新 accelerator launch，而应看到真实 production workload、迁移成本和 supply elasticity 同时改善。
+### Scenario reweighting
+
+- **Toward S1：** supply elasticity、system substitution、buyer optionality 与 portability 以互相强化的方式改善；
+- **Toward S3：** multi-layer scarcity、switching cost、quantity-assurance concentration 与 forward reservation 同时强化；
+- **Toward S4：** 多个因果独立 signal families 跨主体/层级广泛、持续恶化；至少包含一个 real-economy / market / commitment signal，Accounting 是 confirmation channel 而不是 mandatory gate；
+- **Otherwise：** 保持 S2 baseline，或只做局部 weighting adjustment，不因为单一 headline 改变主情景。
 
 ## 12B. 五个 Headline Inflection Tests
 
