@@ -1,8 +1,8 @@
 # Part II · 第16章：AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径
 
-## 1. Competitor 正在攻击 Stack 的不同 Layer
+## 1. Competitor 在 Stack 的不同 Layer 展开竞争
 
-AMD、Intel、Qualcomm、Apple 攻击的是 system stack 的不同 layer，同时拥有不同的 manufacturing access、workload base、distribution channel 与 capital structure。
+AMD、Intel、Qualcomm 与 Apple 在 system stack 的不同 layer 竞争，同时拥有不同的 manufacturing access、workload base、distribution channel 与 capital structure。
 
 真正的问题不是它们是否组成“反 NVIDIA 联盟”，而是：
 
