@@ -1,16 +1,16 @@
 # Part II · Chapter 15: Physical AI and the Real Bottlenecks in Robotics
 
-## 1. The competitive unit in robotics is also the system
+## 1. Robotics is a system-closure problem
 
-Physical AI has to solve perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
+Physical AI has to close perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
 
-A robot's productive value therefore cannot be judged from the AI model or edge TOPS alone.
+A robot's productive value therefore cannot be inferred from model capability or edge TOPS alone.
 
 A complete system has to close:
 
 > **model capability × sensor quality × control latency × actuator reliability × energy efficiency × manufacturing economics**
 
-## 2. Cloud training and edge control sit under different physical constraints
+## 2. Cloud training and edge control live in different physical regimes
 
 Large-scale simulation, policy training, and foundation-model training can run in data centers.
 
@@ -22,7 +22,7 @@ Many Physical AI systems therefore naturally follow:
 
 A roughly 120 kW-class data-center rack and a robot's W/Wh-level power budget belong to completely different physical pools.[^4]
 
-## 3. Robot BOM cannot be fixed by a universal percentage template
+## 3. Robot BOM is form-factor specific
 
 Humanoids, AMRs, industrial arms, autonomous vehicles, and drones have very different actuator, reducer, sensor, compute, and battery cost structures.
 
@@ -30,7 +30,7 @@ This report therefore does not treat fixed templates such as "actuators 35% / se
 
 The real task is to identify the **scarce component** for each robot form factor.
 
-## 4. Actuators and reducers can be harder to commoditize than compute
+## 4. Mechanical precision can remain scarce after compute commoditizes
 
 The software narrative can easily understate mechanical bottlenecks such as:
 
@@ -46,7 +46,7 @@ The industry can therefore reach a state where:
 
 > **compute gets cheaper while high-precision mechanical components remain system bottlenecks.**
 
-## 5. Sensor quality determines whether model capability becomes reliable control
+## 5. Sensor quality determines whether model capability becomes control
 
 Robotic systems may require cameras, depth sensing, force/torque sensors, tactile sensors, IMUs, encoders, and other feedback channels.
 
@@ -54,7 +54,7 @@ Model capability becomes stable control only when calibration, latency, robustne
 
 The strategic value of the sensor stack is therefore not just BOM share. It is closed-loop reliability.
 
-## 6. The strategic position of the edge platform
+## 6. Edge-platform advantage is workload-specific
 
 NVIDIA Jetson Thor, Qualcomm, and other edge accelerators compete across:[^1][^2]
 
@@ -67,7 +67,7 @@ An edge system does not need to replicate data-center rack architecture.
 
 But a platform that spans cloud training, simulation, and edge deployment can create cross-layer cloud-to-robot ecosystem lock-in.
 
-## 7. Physical deployment can generate more cloud workload in reverse
+## 7. Physical deployment can create more cloud workload
 
 Even if one robot uses modest edge compute, a large fleet continuously generates:
 
@@ -84,7 +84,7 @@ The feedback loop can be:
 
 Robot adoption therefore does not necessarily reduce data-center demand. It can create new training and inference workloads.
 
-### 7.1 The robot itself can become a new memory / storage demand pool
+### 7.1 The robot becomes a new memory / storage demand pool
 
 Micron's June 24, 2026 investor presentation provides a useful quantitative anchor that must retain its identity as a **company forward-looking view**:[^3]
 
@@ -100,7 +100,7 @@ What it supports is the mechanism:
 
 Robotics can therefore become both a new edge-memory demand pool and a new source of cloud retraining / storage demand.
 
-### 7.2 Robotics has a dual identity: an AI demand source and an industrial-electronics residual-pressure bearer
+### 7.2 Robotics is both an AI demand source and an industrial-electronics demand pool
 
 Physical AI is not only a new source of AI-compute demand.
 
@@ -135,7 +135,7 @@ Physical AI should therefore be evaluated through:
 
 alongside continuous runtime, recharge time, thermal headroom, maintenance intervals, and field reliability—not TOPS alone.
 
-## 9. The real threshold from demo to mass production is manufacturing
+## 9. The mass-production threshold is manufacturing
 
 A demo can tolerate expensive parts, manual calibration, low yield, and frequent maintenance.
 
@@ -145,7 +145,7 @@ Scale thresholds include component yield, assembly time, field failure rate, mai
 
 The industrial inflection point for Physical AI therefore has to be demonstrated through manufacturing and deployment data, not demonstration videos.
 
-## 9A. The commercial threshold for Physical AI is Capital Payback, not merely task completion
+## 9A. The commercial threshold is capital payback
 
 Once a robot moves from demo to production, the relevant economic test is not only whether it can complete a task.
 
@@ -177,7 +177,7 @@ Physical AI and data-center AI therefore share one capital rule:
 
 The difference is that data-center bottlenecks are concentrated more heavily in compute / HBM / power, while robotics adds actuators, batteries, mechanical reliability, field service, and safety.
 
-## 10. China's capability structure in Physical AI differs from frontier AI
+## 10. China's Physical-AI stack differs from its frontier-AI stack
 
 Physical AI depends heavily on motors, batteries, sensors, manufacturing, consumer-electronics supply chains, and system integration.
 
@@ -187,7 +187,7 @@ China can therefore have stronger competitiveness in robot systems and mechanica
 
 This is a separate industrial path and should not be reduced to one "AI chip capability" metric.
 
-## 11. Current view: value capture can be distributed across multiple physical layers
+## 11. Current read
 
 Long-run value capture can appear simultaneously in:
 
