@@ -160,7 +160,7 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 - 非 NVIDIA 平台的 migration friction 是否上升；
 - model creator 是否因分发、托管或商业激励而更优先发布 NVIDIA-optimized versions。
 
-这类风险与 CUDA lock-in 不完全相同。CUDA 的传统机制主要发生在 workload 已选择 NVIDIA 之后；Developer Distribution Chokepoint 则可能更早进入：
+这类风险与 CUDA lock-in 不完全相同。CUDA 的传统机制主要发生在 workload 已选择 NVIDIA 之后；developer-distribution risk 则可能更早进入：
 
 > **模型发现 → 工具选择 → runtime 选择 → deployment → accelerator。**
 
