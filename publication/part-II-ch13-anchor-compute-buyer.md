@@ -181,7 +181,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 长期 compute demand 会被两组相反力量同时影响。
 
-### 降低单位需求的因素
+**降低单位需求的因素**
 
 - algorithmic efficiency；
 - quantization；
@@ -191,7 +191,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 - lower bytes/token；
 - faster hardware。
 
-### 扩大总需求的因素
+**扩大总需求的因素**
 
 - model capability expansion；
 - inference adoption；
