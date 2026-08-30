@@ -1,42 +1,29 @@
-# Part IV · Chapter 32: Master Judgment — The Industrial End-State of AI Infrastructure and the Conditions That Would Falsify It
+# Part IV · Chapter 32: Master View — What Determines AI Infrastructure Power, and What Would Change the View
 
-## 1. Final industrial judgment
+## 1. Current baseline and load-bearing judgments
 
-As of **August 28, 2026**, the report's master judgment can be compressed into eight points.
+**Current baseline (evidence cutoff: August 28, 2026): S2 — Baseline Concentration.**
 
-**First, the competitive unit in AI infrastructure has moved from the individual chip to the full system stack.**  
-GPU share, ASIC announcements, or a single benchmark no longer explain industrial power adequately. The relevant unit now includes advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads operating as a high-utilization commercial system.
+The industry is not in a state of uncontested resource hegemony, nor is it in broad capital clearing. A small number of system platforms and scarce-layer suppliers retain strong economics; credible alternatives are developing, but they have not yet removed the physical, software, financing, and migration constraints that sustain concentration.
 
-**Second, AI is changing where the next dollar of semiconductor and infrastructure capital goes.**  
-Capital-intensive AI/HPC buyers often offer greater willingness to pay, longer order duration, stronger prepayment and financing capacity, and better demand visibility. That gives them increasing influence over the formation of incremental advanced-logic, HBM, packaging, data-center, and power capacity.
+The report's master view rests on eight judgments:
 
-**Third, traditional end systems have not become unimportant; what has changed is the certainty with which they can obtain effective supply from shared or adjacent upstream layers under the old rules.**  
-Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics do not face one identical shortage mechanism. They must be evaluated separately through residual capacity, quantity assurance, qualification rigidity, and supplier product mix. Transmission is more direct where end systems share advanced logic, memory, or selected packaging with AI; for trusted / long-life / special-process supply, the mechanism must instead be demonstrated through continuity and supplier economics.
+1. **The competitive unit is the system stack, not the accelerator.** Advanced logic, HBM, advanced packaging, interconnect, runtime, rack/pod architecture, power, and production workloads have to close together.
+2. **AI/HPC is changing the marginal destination of semiconductor and infrastructure capital.** The question is increasingly which demand pool determines what the next unit of capacity is built for.
+3. **Traditional end systems face residual supply, not gross supply.** Their economics depend on qualified availability, quantity assurance, product mix, and lifecycle constraints after priority demand is allocated.
+4. **Scarce-capacity access must be evaluated by physical layer.** Historical share cannot substitute for qualified access to incremental logic, HBM, packaging, networking, and energized power.
+5. **Substitution can reduce platform rent before it removes upstream scarcity.** Hyperscaler custom stacks and China's parallel stack can carry real workloads while still depending on many of the same scarce inputs.
+6. **Capital risk is a utilization, monetization, and financing-quality problem.** CapEx, supply commitments, and seller-assisted financing are leading signals; none proves healthy independent end demand by itself.
+7. **Long-run demand is validated at the workflow level.** AI inherits a large digital installed base, but infrastructure investment only earns its way through utilization, verified output, and cash flow.
+8. **The 2026–2036 path is conditional.** Supply response, algorithmic efficiency, second-stack adoption, China stack closure, power delivery, financing quality, and capital clearing can move the industry toward S1, S3, or S4.
 
-**Fourth, long-run value capture depends less on historical market share than on sustained access to incremental scarce capacity at each physical layer.**  
-The correct question is not one cross-layer "capture ratio." It is whether a platform can repeatedly obtain enough qualified supply, at the right time, across advanced logic, HBM, packaging, networking, and LPS/power.
+The central question is therefore:
 
-**Fifth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
-A second system stack can divert platform profit while still competing for the same advanced logic, HBM, packaging, and power.
+> **Who can secure qualified scarce inputs, organize them into a production system, and convert that capital base into durable workload economics?**
 
-**Sixth, the primary capital risk has shifted from "is there demand?" to "can utilization, monetization, and independent financing capacity grow fast enough to cover the expanding capital base?"**  
-Headline CapEx is neither proof of a boom nor proof of a bubble. A Capital Hard Landing requires **cross-signal confirmation plus cross-actor / cross-layer causal breadth across multiple independent signal families**. Accounting losses are high-value confirmation / severity evidence, but they are not a mandatory gate.
+That question is deliberately broader than "who wins the AI chip war?" and narrower than a claim that one company or country already controls the entire infrastructure stack.
 
-**Seventh, infrastructure expansion only completes the demand-side loop when it becomes verifiable, repeatable, monetizable workflow output.**  
-This is a **long-run economic criterion, not an empirically calibrated fact metric as of the August 28, 2026 evidence cutoff**. Public studies still rarely join compute, energy, human review, failure/retry, capital, persistence, and realized business value on the same workflow denominator. Agent-native software, Physical AI, and enterprise automation ultimately face the same economic test.
-
-**Eighth, the next decade is not one deterministic curve.**  
-The 2026–2036 outcome will be determined by supply elasticity, system substitution, workload economics, capital discipline, power, financing quality, and the maturity of production-grade and autonomous parallel stacks.
-
-The central industrial question is therefore not "who wins the AI chip war?"
-
-It is:
-
-> **Who can secure critical scarce layers, organize them into a coherent system stack, and convert capital-intensive physical resources into verifiable, sustainable economic output?**
-
----
-
-## 2. Industrial power has moved from chip performance to system coordination
+## 2. System coordination is the relevant form of industrial power
 
 NVIDIA's current advantage is not ownership of every physical input. It is the ability to organize GPUs, CPUs, HBM, NVLink, CUDA/runtime, rack-scale architecture, supply-chain commitments, and large workloads into a mature general-purpose commercial system.
 
@@ -62,7 +49,7 @@ Together they show that leading system-platform coordination is beginning to ext
 
 ---
 
-## 3. AI is creating a Two-Speed Semiconductor Economy
+## 3. Marginal capital formation is shifting toward AI/HPC
 
 One of the most important structural changes in 2026 is that marginal advanced-manufacturing and memory demand is becoming increasingly dependent on AI/HPC.
 
@@ -84,7 +71,7 @@ Consumer electronics do not disappear. The structural change is that marginal-de
 
 ---
 
-## 4. Physical scarcity is not one bottleneck; it is a rotating set of scarce pools
+## 4. Bottlenecks rotate across independent physical pools
 
 AI-system delivery depends on several independent physical layers.
 
@@ -112,7 +99,7 @@ When one bottleneck eases, another can become dominant. This is the report's **R
 
 ---
 
-## 5. Non-AI Residual Capacity is the key variable for understanding pressure on traditional industries
+## 5. Residual capacity is the downstream denominator
 
 Traditional end markets do not face gross worldwide supply. They face effective supply after priority demand has absorbed its share:
 
@@ -133,7 +120,7 @@ Lower-margin, lower-bargaining-power, shorter-duration buyers are generally more
 
 ---
 
-## 6. Cloud custom silicon creates substitution and upstream competition at the same time
+## 6. Second stacks reduce platform rent before they eliminate scarcity
 
 Google Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer simply "internal ASIC versus external GPU." It is increasingly **system stack versus system stack**.[^7]
 
@@ -160,7 +147,7 @@ If alternative systems remain constrained by the same scarce inputs and propriet
 
 ---
 
-## 7. Model companies have become Anchor Compute Buyers
+## 7. Anchor Compute Buyers now influence infrastructure formation
 
 OpenAI Stargate and Anthropic/AWS demonstrate that leading model companies are no longer simply cloud tenants.[^8]
 
@@ -180,7 +167,7 @@ That structure can accelerate infrastructure formation while also increasing cus
 
 ---
 
-## 8. China must be evaluated through two levels of closure
+## 8. China must be evaluated through two closure tests
 
 China's supply position cannot be reduced to one localization rate.
 
@@ -211,7 +198,7 @@ It is whether production workloads continue expanding and whether the full stack
 
 ---
 
-## 9. Capital-cycle risk is a utilization and financing-quality problem, not a headline CapEx problem
+## 9. Capital-cycle risk lives in utilization and financing quality
 
 Cloud CapEx, system-vendor revenue, foundry revenue, memory revenue, and power investment cannot be mechanically added into one "global AI investment" number because the same economic flow appears on different ledgers.
 
@@ -254,11 +241,11 @@ It means demand quality must distinguish:
 
 ---
 
-## 10. From infrastructure to industrial productivity: the demand-side loop determines how far the decade-long cycle can run
+## 10. Demand duration depends on workflow penetration and economic output
 
 A report that stops at GPUs, HBM, CapEx, or data-center capacity is incomplete. Infrastructure is the supply side. The ten-year industrial cycle ultimately depends on whether these physical assets can move through software, enterprise workflows, and the physical world into verifiable economic output.
 
-### AI Inheritance Effect: the digital assets of the IT era form AI's installed base
+### AI Inheritance Effect: IT is the installed base
 
 Long-run AI diffusion does not require rebuilding the digital world from zero. Decades of information technology have already created software, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and traceable workflows. In highly digitized organizations, AI can act as an intelligence / automation layer on top of that installed base.
 
@@ -270,7 +257,7 @@ This expands the long-run infrastructure thesis beyond "models keep getting larg
 
 The boundary remains essential. Marginal Digital → AI deployment friction can be much lower than Industrial → Digital transformation, but it is not zero. Data quality, integration, security, governance, responsibility, reliability, human review, and unit economics still determine whether adoption moves from feature use into production automation.
 
-### Agent-native software: unit economics moves from seats to verified workflow outcomes
+### Agent-native software: the unit shifts from seats to verified outcomes
 
 Traditional SaaS scales largely around accounts and seats. Agent-native software continuously consumes inference, retrieval, tools/APIs, retries, observability, and human review.
 
@@ -282,7 +269,7 @@ Cheaper models and better routing can reduce resource intensity per attempt. But
 
 The software layer is therefore both a receiver of infrastructure cost and a source of demand elasticity for infrastructure.
 
-### Physical AI: from technical demonstration to capital payback
+### Physical AI: deployment has to clear a capital-payback test
 
 Physical AI is also a systems problem: perception, control, actuation, batteries, sensors, manufacturing, field reliability, and cloud/edge infrastructure have to close together.
 
@@ -292,7 +279,7 @@ The commercial threshold is not whether a robot can complete one task. It is whe
 
 Physical AI can therefore become a new pool of compute, memory, storage, and cloud-workload demand, but only scaled utilization and capital recovery can validate its industrial value.
 
-### Labor markets: Task → Workflow → Job, not Exposure → Unemployment
+### Labor: Task → Workflow → Job
 
 The labor transmission chain has to pass through:
 
@@ -300,7 +287,7 @@ The labor transmission chain has to pass through:
 
 Occupational exposure therefore cannot be converted directly into job-loss forecasts. More useful long-run indicators include junior/senior ratios, human-review burden, output per employee, exception rates, and organizational layers.
 
-### Talent systems: from model use toward system design and verification
+### Talent: system design and verification matter more than model access
 
 As model calling commoditizes, more durable capability moves toward workflow engineering, system engineering, cross-stack portability, verification, performance/cost measurement, and responsibility boundaries.
 
@@ -316,7 +303,7 @@ If the front half of that chain expands persistently faster than the back half, 
 
 ---
 
-## 11. Compute becomes productive infrastructure only when economic output validates it
+## 11. Compute is productive infrastructure only when output validates the capital
 
 The report uses the idea of compute becoming a productive input in an economic, testable sense—not as a technological slogan.
 
@@ -336,7 +323,7 @@ This is why model capability, infrastructure spend, utilization, and business re
 
 ---
 
-## 12. 2026–2036: four structural states, not one forecast number
+## 12. Four structural states
 
 The report uses four parallel scenarios.
 
@@ -373,7 +360,7 @@ The variables that will determine the 2030/2036 structure include:
 
 ---
 
-## 13. What evidence would force the report to change its judgment
+## 13. What would change the view
 
 High-value falsification signals include:
 
@@ -395,7 +382,7 @@ They cannot be explained away by saying the long-run thesis remains intact.
 
 ---
 
-## 14. Research grammar: every strong judgment must move from Fact to Falsification
+## 14. Research discipline: Fact → Hypothesis → Mechanism → Scenario → Falsification
 
 The report uses five layers:
 
@@ -419,7 +406,7 @@ The fact layer must remain conservative.
 
 ---
 
-## 15. Final master judgment
+## 15. Bottom line
 
 AI is driving an industrial restructuring deeper than a conventional GPU demand cycle.
 
