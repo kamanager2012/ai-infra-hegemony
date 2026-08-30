@@ -91,31 +91,59 @@
     return "?lang=" + language + "&print=1";
   }
 
-  function repoBlob(language, path) {
-    const base = language === "en" ? "en/publication/" : "publication/";
-    return "https://github.com/" + REPO + "/blob/" + BRANCH + "/" + base + path;
+  const bundleCache = new Map();
+  const publicDocuments = new Set([
+    "00-front-matter.md",
+    "02-list-of-tables.md",
+    "03-abbreviations-and-glossary.md",
+    "04-research-transparency.md",
+    "05-competitive-evidence-matrix.md",
+    "核心证据台账.md",
+    "核心参考文献索引.md",
+    "核心概念与模型索引.md",
+    "核心假设矩阵.md",
+    "外部研究对照索引.md"
+  ]);
+
+  async function fetchJson(url) {
+    if (!bundleCache.has(url)) {
+      bundleCache.set(url, fetch(url, {cache:"no-store"}).then(res => {
+        if (!res.ok) throw new Error("HTTP " + res.status + " for " + url);
+        return res.json();
+      }));
+    }
+    return bundleCache.get(url);
   }
 
-  function rawSources(language, file) {
-    const base = language === "en" ? "en/publication/" : "publication/";
-    return [
-      "../" + base + file,
-      "https://raw.githubusercontent.com/" + REPO + "/" + BRANCH + "/" + base + file
-    ];
+  async function fetchChapter(language, chapter) {
+    const bundle = await fetchJson("./content/" + language + "/part-" + chapter.part + ".json");
+    const md = bundle && bundle.chapters && bundle.chapters[String(chapter.n)];
+    if (typeof md !== "string") throw new Error("Chapter missing from public snapshot.");
+    return md;
   }
 
-  async function fetchMarkdown(language, file) {
-    const errors = [];
-    for (const url of rawSources(language, file)) {
-      try {
-        const res = await fetch(url, {cache:"no-store"});
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        return await res.text();
-      } catch (err) {
-        errors.push(String(err));
+  async function fetchDocument(language, key) {
+    const normalized = normalizeDocumentKey(key);
+    const files = ["appendices-publication.json", "appendices-research.json"];
+    for (const file of files) {
+      const bundle = await fetchJson("./content/" + language + "/" + file);
+      if (bundle && bundle.documents && typeof bundle.documents[normalized] === "string") {
+        return bundle.documents[normalized];
       }
     }
-    throw new Error(errors.join(" | "));
+    throw new Error("Document missing from public snapshot.");
+  }
+
+  function normalizeDocumentKey(value) {
+    return decodeURIComponent(String(value || ""))
+      .split("#")[0]
+      .replace(/^\.\//, "")
+      .replace(/^\.\.\//, "")
+      .replace(/\.en\.md$/i, ".md");
+  }
+
+  function documentUrl(key, language = lang) {
+    return "?lang=" + language + "&doc=" + encodeURIComponent(normalizeDocumentKey(key));
   }
 
   function renderMarkdown(md) {
@@ -138,24 +166,27 @@
       }
       if (href.startsWith("#") || href.startsWith("mailto:")) return;
 
+      const fragment = href.includes("#") ? "#" + href.split("#").slice(1).join("#") : "";
       const clean = href.split("#")[0].replace(/^\.\//, "");
       if (fileMap.has(clean)) {
-        const c = fileMap.get(clean);
-        a.href = chapterUrl(c.n, language) + (href.includes("#") ? "#" + href.split("#").slice(1).join("#") : "");
+        const chapter = fileMap.get(clean);
+        a.href = chapterUrl(chapter.n, language) + fragment;
+        return;
+      }
+
+      const docKey = normalizeDocumentKey(clean);
+      if (publicDocuments.has(docKey)) {
+        a.href = documentUrl(docKey, language) + fragment;
         return;
       }
 
       if (clean.endsWith(".md")) {
-        const base = language === "en" ? "en/publication/" : "publication/";
-        let path = clean;
-        if (clean.startsWith("../")) {
-          path = (language === "en" ? "en/" : "") + clean.replace(/^\.\.\//, "");
-        } else {
-          path = base + clean;
-        }
-        a.href = "https://github.com/" + REPO + "/blob/" + BRANCH + "/" + path;
-        a.target = "_blank";
-        a.rel = "noreferrer";
+        a.removeAttribute("href");
+        a.removeAttribute("target");
+        a.removeAttribute("rel");
+        a.title = language === "en"
+          ? "This internal research file is not part of the public publication snapshot."
+          : "该内部研究文件不属于公开出版快照。";
       }
     });
   }
@@ -245,15 +276,46 @@
 
     $("readerBody").innerHTML = '<div class="loading">Loading report…</div>';
     try {
-      const md = await fetchMarkdown(lang, c.file);
+      const md = await fetchChapter(lang, c);
       $("readerBody").innerHTML = renderMarkdown(md);
       rewriteLinks($("readerBody"), lang);
       document.title = "CH " + String(c.n).padStart(2,"0") + " — " + c[lang] + " | AI Infrastructure Hegemony";
     } catch (err) {
       $("readerBody").innerHTML =
         '<h1>' + escapeHtml(c[lang]) + '</h1>' +
-        '<p>Unable to load the chapter from the current hosting context.</p>' +
-        '<p><a target="_blank" rel="noreferrer" href="' + repoBlob(lang, c.file) + '">Open this chapter in the research repository →</a></p>';
+        '<p>' + (lang === "en"
+          ? "This chapter is unavailable in the current public snapshot."
+          : "本章当前未包含在公开出版快照中。") + '</p>';
+    }
+  }
+
+  async function showDocument(key) {
+    document.body.classList.add("chapter-mode");
+    $("homeView").classList.add("hidden");
+    $("thesisView").classList.add("hidden");
+    $("indexView").classList.add("hidden");
+    $("printView").classList.add("hidden");
+    $("readerView").classList.remove("hidden");
+
+    const normalized = normalizeDocumentKey(key);
+    $("readerPart").textContent = lang === "en" ? "PUBLIC RESEARCH APPENDIX" : "公开研究附录";
+    $("readerChapterLabel").textContent = normalized.replace(/\.md$/i, "");
+    buildChapterIndex($("readerChapterList"), true);
+    $("prevChapter").textContent = "";
+    $("nextChapter").textContent = "";
+    $("readerBody").innerHTML = '<div class="loading">Loading document…</div>';
+
+    try {
+      const md = await fetchDocument(lang, normalized);
+      $("readerBody").innerHTML = renderMarkdown(md);
+      rewriteLinks($("readerBody"), lang);
+      document.title = normalized.replace(/\.md$/i, "") + " | AI Infrastructure Hegemony";
+    } catch (err) {
+      $("readerBody").innerHTML =
+        '<h1>' + escapeHtml(normalized.replace(/\.md$/i, "")) + '</h1>' +
+        '<p>' + (lang === "en"
+          ? "This document is not included in the public publication snapshot."
+          : "该文档未包含在公开出版快照中。") + '</p>';
     }
   }
 
@@ -269,7 +331,7 @@
     const sections = [];
     for (const c of chapters) {
       try {
-        const md = await fetchMarkdown(lang, c.file);
+        const md = await fetchChapter(lang, c);
         const wrap = document.createElement("section");
         wrap.className = "print-chapter";
         wrap.dataset.chapter = String(c.n);
@@ -279,8 +341,7 @@
       } catch (err) {
         sections.push(
           '<section class="print-chapter"><h1>CH ' + String(c.n).padStart(2,"0") + ' — ' + escapeHtml(c[lang]) + '</h1>' +
-          '<p>Chapter could not be loaded in this hosting context. Source: ' +
-          '<a href="' + repoBlob(lang,c.file) + '">' + repoBlob(lang,c.file) + '</a></p></section>'
+          '<p>' + (lang === "en" ? "Chapter unavailable in the public snapshot." : "本章未包含在公开出版快照中。") + '</p></section>'
         );
       }
     }
@@ -323,6 +384,10 @@
     }
     if (params.has("chapter")) {
       await showReader(chapterNo);
+      return;
+    }
+    if (params.has("doc")) {
+      await showDocument(params.get("doc"));
       return;
     }
 
