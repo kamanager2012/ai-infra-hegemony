@@ -15,7 +15,7 @@ The claim ledger and numeric-check scripts help prevent unsupported numbers, den
 
 The repository includes deterministic local checks for numeric-source traceability and required-source patterns.
 
-They are **not enforced by GitHub Actions**. Human editorial judgment remains necessary for:
+They are **not automated acceptance gates**. Human editorial judgment remains necessary for:
 
 - whether a source actually supports the sentence;
 - whether numerator and denominator match;
