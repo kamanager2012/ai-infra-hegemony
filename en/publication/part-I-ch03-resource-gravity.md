@@ -13,7 +13,7 @@ The most exposed resources are those that are both **shared with AI/HPC demand a
 - selected power-management components;
 - data-center power.
 
-The report uses **AI Resource Gravity** as shorthand for this allocation mechanism, not as a separate empirical law:
+The report uses **resource reallocation pressure** as shorthand for this mechanism; it is not treated as a separate empirical law:
 
 > **When AI/server workloads offer higher risk-adjusted returns, longer order duration, stronger payment certainty, and better expected utilization, constrained supply and the next unit of capital tend to move toward that demand.**
 
@@ -34,7 +34,7 @@ The mechanism requires several conditions:
 - AI/server customers can offer longer orders, prepayments, or greater purchasing certainty;
 - suppliers expect higher risk-adjusted returns from the higher-value demand.
 
-AI Resource Gravity is therefore not simply “a higher price.” It is a repricing of the **opportunity cost of the next unit of scarce resource**.
+The mechanism is therefore not simply “a higher price.” It is a repricing of the **opportunity cost of the next unit of scarce resource**.
 
 ---
 
@@ -89,7 +89,7 @@ The relevant question is **how much effective residual supply those end markets 
 
 ## 5. Reallocation changes capital formation, not just current supply
 
-The long-run effect of AI Resource Gravity extends beyond current allocation into the next round of capital formation.
+The long-run effect of resource reallocation extends beyond current allocation into the next round of capital formation.
 
 The AI Infrastructure Economy and Traditional Device Economy share parts of the same advanced-logic, memory, packaging, and power-management resource base, but they differ in:
 
@@ -104,7 +104,7 @@ Suppliers are therefore deciding not only “who receives more capacity today,�
 
 > **which product class offers the higher risk-adjusted return on the next dollar of CapEx.**
 
-This report calls that structure the **Two-Speed Semiconductor Economy**.
+The report uses **two-speed semiconductor economics** as shorthand for that divergence.
 
 It is not a claim that consumer electronics are permanently sacrificed. It means **AI/HPC is gaining greater influence over marginal semiconductor capital formation**.
 
@@ -145,7 +145,7 @@ Leading-edge logic and advanced packaging must also remain separate:
 - packaging tightness does not imply equal customer allocation;
 - customer revenue share cannot be converted into wafer share or CoWoS share.
 
-AI Resource Gravity therefore cannot be summarized by one synthetic “AI share of global capacity.” It is a set of allocation shifts across different layers with different physical units.
+Resource reallocation therefore cannot be summarized by one synthetic “AI share of global capacity.” It is a set of allocation shifts across different layers with different physical units.
 
 ---
 
