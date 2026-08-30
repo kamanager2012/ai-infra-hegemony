@@ -4,7 +4,7 @@
 
 AI platform power can span accelerators, interconnect, compiler/runtime, rack reference architecture, deployment software, cloud channels, and adjacent model products.
 
-Competitive pressure in each component market does not automatically eliminate system-level power when one platform still coordinates several critical interfaces and switching costs.
+Competitive pressure in each component market does not by itself eliminate system-level power when one platform still coordinates several critical interfaces and switching costs.
 
 The regulatory question therefore extends beyond a single market-share number:
 
@@ -131,7 +131,7 @@ Relevant conduct variables include:
 The transaction report alone is not proof of illegality or monopoly:
 
 - many Hugging Face assets can be mirrored or redistributed;
-- open-weight model ownership does not automatically transfer to NVIDIA;
+- open-weight model ownership does not by itself transfer to NVIDIA;
 - multi-homing and alternative registries can constrain platform control;
 - foreclosure must be shown through actual interface, ranking, access, contract, and switching-cost changes.
 
@@ -154,9 +154,9 @@ Legal competition and physical supply must remain separate analytical models.
 
 ## 9. China-stack effects remain layer-specific
 
-U.S. or European competition policy toward an AI platform does not automatically resolve China's frontier-AI constraints in advanced logic, HBM, packaging, interconnect, and production software.
+U.S. or European competition policy toward an AI platform does not by itself resolve China's frontier-AI constraints in advanced logic, HBM, packaging, interconnect, and production software.
 
-Likewise, stronger domestic system capability in China does not automatically change U.S. or European antitrust analysis.
+Likewise, stronger domestic system capability in China does not by itself change U.S. or European antitrust analysis.
 
 The two can influence strategic bargaining and policy, but they are not substitutes for one another.
 
