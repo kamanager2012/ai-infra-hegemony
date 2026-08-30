@@ -1,31 +1,22 @@
-# Part I · 第7章：从 120 kW Rack 到 GW 级电力约束
+# Part I · 第7章：Time-to-Power——从 Rack Density 到 Deployable AI Capacity
 
-## 1. 核心判断：Power 已从运营成本升级为 AI System Delivery 的独立约束
+## 1. Power 的核心问题是 Deployable Capacity，不是 Electricity Price
 
-当 rack-scale AI system 的整柜功耗进入约 **120 kW/rack** 量级时，电力不再只是 OpEx，而开始直接影响系统能否按期部署、上电和利用。[^1]
+当 rack-scale AI system 进入约 **120 kW/rack** 时，power 不再只是 OpEx，而开始直接约束系统能否按计划部署和利用。[^1]
 
-这意味着 AI infrastructure 的关键物理层不再只有：
+一个 D-grade stress conversion 可以显示量级：
 
-- advanced logic；
-- HBM；
-- advanced packaging；
+> 500 racks × 120 kW/rack = **60 MW rack-level full-load power**
 
-还包括：
+这不是任何具体 campus 的部署事实，也不包含 facility overhead。它说明数百个高密度 rack 会迅速把 **powered land、grid interconnection、substation、transformer、cooling、firm generation 与 permitting** 拉进同一交付链。
 
-- powered land；
-- grid interconnection；
-- substation / transformer capacity；
-- firm MW；
-- cooling；
-- permitting。
+因此真正需要观察的是：
 
-因此，完整 AI system 的交付问题已经从“有没有芯片”扩展为：
-
-> **有没有可以在同一时间窗口内真正上电并高利用率运行的完整基础设施。**
+> **Time-to-Power：一个项目从决策、资源锁定到真正 energized、并可被 workload 使用，需要多长时间。**
 
 ---
 
-## 2. 电力分析必须使用状态机，而不能把公布的 MW/GW 容量直接相加
+## 2. Power 必须使用 Delivery-State Model，而不是 Headline-GW Arithmetic
 
 AI power project 至少要区分：
 
@@ -46,7 +37,7 @@ AI power project 至少要区分：
 
 ---
 
-## 3. 三类代表性路径处在完全不同的交付时钟
+## 3. 代表性项目位于不同 Delivery Clock
 
 ### 3.1 Microsoft / Constellation：存量大型电源重启
 
@@ -113,7 +104,7 @@ Google / Kairos 的公开路径更长：
 
 ---
 
-## 4. 不同 Power / LPS Project 不能机械合并成“已运行 AI 电力”
+## 4. Project Capacity 不能合并成 Active AI Load
 
 **Table 7.1 — 代表性 AI 电力 / LPS 路径**
 
@@ -138,7 +129,7 @@ Google / Kairos 的公开路径更长：
 
 ---
 
-## 5. Grid Queue 证明的是 Time-to-Power 风险，不是“AI 缺多少电”
+## 5. Grid Queue 衡量 Friction，不衡量 AI Demand
 
 Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage interconnection queue 在 **2023 年末**接近 **2,600 GW** 峰值，到 **2025 年末**约为 **2,061 GW**。[^6]
 
@@ -160,7 +151,7 @@ Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage inter
 
 ---
 
-## 6. Time-to-Power 正在成为与 Chip Roadmap 并列的竞争变量
+## 6. Time-to-Power 已经成为 System-Competition Variable
 
 先进芯片可以按季度甚至更快迭代，但：
 
@@ -189,7 +180,7 @@ Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage inter
 
 ---
 
-## 7. Power 与 Semiconductor Bottleneck 会发生轮换
+## 7. Semiconductor Supply 缓解后，Power 可以成为下一个 Bottleneck
 
 AI infrastructure 没有一个永久固定的唯一瓶颈。
 
@@ -209,7 +200,7 @@ AI infrastructure 没有一个永久固定的唯一瓶颈。
 
 ---
 
-## 8. Power Contract 与 Compute Asset 存在明显 Duration Mismatch
+## 8. Power Contract 与 Compute Asset 运行在不同 Duration Clock
 
 AI server 的技术迭代周期通常远短于：
 
@@ -251,7 +242,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 
 ---
 
-## 9. 当前判断：Power 何时从“核心约束之一”升级为“主导约束”
+## 9. Power 何时成为 Dominant Constraint？
 
 需要看到多项同步证据，例如：
 
@@ -266,7 +257,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 
 > **Power 已经进入与 HBM、advanced packaging 并列的核心物理约束层，但公开证据尚不足以证明它已经单独成为整个 AI infrastructure 的唯一主导瓶颈。**
 
-## 10. 证伪边界：什么事实会迫使本章改判
+## 10. 什么事实会改变当前判断
 
 应下调 power / LPS 作为核心约束的判断，如果持续出现：
 
