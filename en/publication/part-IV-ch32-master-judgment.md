@@ -12,7 +12,7 @@ Not yet. A small number of system platforms, especially NVIDIA, combine strong s
 
 ### Test B — Has AI/HPC resource absorption already forced structural exit across traditional end markets?
 
-Only partially. Non-AI Residual Capacity, Quantity Assurance, and product-mix pressure are visible in smartphones, PCs, game consoles, and other end systems. The evidence supports **repricing, configuration changes, product-mix polarization, and longer replacement cycles**; it does not yet establish terminal decline across the smartphone, PC, gaming, or other end-market ecosystems.
+Only partially. [Chapter 21](part-III-ch21-consumer-transmission.md) documents the downstream evidence and attribution boundaries. The evidence supports **repricing, configuration changes, product-mix polarization, and longer replacement cycles** in selected end systems; it does not establish terminal decline across the smartphone, PC, gaming, or other end-market ecosystems.
 
 ### Test C — Is the second stack already strong enough to break concentration?
 
@@ -36,7 +36,7 @@ The Master View therefore answers a different question from Chapter 1:
 
 NVIDIA's current advantage is not ownership of every physical input. It is the ability to organize GPUs, CPUs, HBM, NVLink, CUDA/runtime, rack-scale architecture, supply-chain commitments, and large workloads into a mature general-purpose commercial system.
 
-NVIDIA's manufacturing, supply, and capacity commitments increased from **US$95.2B** on January 25, 2026 to **US$279B** on July 26, 2026.[^1] The filing does not disclose a supplier-level split, so the aggregate cannot be treated as confirmed revenue for TSMC, CoWoS, or any single HBM vendor.
+NVIDIA's disclosed aggregate manufacturing / supply / capacity commitments rose across three reporting dates: **US$95.2B** on January 25, 2026, **US$119B** on April 26, and **US$279B** on July 26.[^1] The underlying mix and duration are not identical across reporting dates, and the filings do not disclose a supplier-level split; the sequence therefore indicates rising forward reservation intensity, not confirmed revenue for TSMC, CoWoS, or any single HBM vendor.
 
 The correct long-run metric is:
 
@@ -187,9 +187,9 @@ Current public evidence supports several distinct statements:
 - PC / workstation substitution is growing but remains sensitive to software compatibility and professional workloads;
 - a real accelerator/software parallel stack exists in frontier AI, but full autonomous closure is a separate question.
 
-CXMT disclosures support conclusions about DDR/LPDDR and DRAM market position, but do not prove HBM-class frontier closure. Counterpoint's YMTC shipment-share and revenue-share figures must also retain their different denominators.[^9][^10][^11]
+CXMT disclosures support conclusions about DDR/LPDDR and DRAM market position, but do not prove HBM-class frontier closure. The May 2026 registration prospectus, citing Omdia, reports approximately **7.67%** global DRAM revenue share for CXMT in 2025 Q4, while Counterpoint reports roughly **14%** NAND shipment share for YMTC in 2026 Q2.[^9][^10] These are different companies, periods, and denominators and must not be combined into a single localization metric.
 
-Foundry revenue share is similarly not a frontier-AI capability measure. TrendForce's **5.1%** SMIC figure for 1Q26 is foundry revenue share, not proof of frontier-system closure.[^12]
+Foundry revenue share is similarly not a frontier-AI capability measure. TrendForce's **5.1%** SMIC figure for 1Q26 is a revenue share among the global Top-10 foundries tracked in that analysis, not proof of frontier-system closure.[^12]
 
 Two closure levels are therefore required.
 
@@ -485,17 +485,16 @@ That is the industrial meaning of the **system-level resource concentration risk
 
 ## References
 
-[^1]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of January 25, 2026, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of July 26, 2026, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
-[^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
 [^6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^7]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 [^8]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^9]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^9]: CXMT, STAR Market registration prospectus, 2026-05-27, citing Omdia for 2025 Q4 global DRAM revenue share of approximately 7.67%, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
 [^10]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-[^11]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 [^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
