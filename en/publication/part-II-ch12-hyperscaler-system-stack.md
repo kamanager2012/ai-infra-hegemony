@@ -1,8 +1,8 @@
 # Part II · Chapter 12: The Second System Stack — How Hyperscaler Substitution Actually Works
 
-## 1. Substitution is an economic test, not a chip announcement
+## 1. The test is workload substitution, not chip availability
 
-The relevant question is no longer whether a hyperscaler can design an ASIC. It is whether an alternative stack can **carry production workload at acceptable TCO, migration cost, reliability, and scale**.
+The strategic question is not whether a hyperscaler can design an ASIC. It is whether an alternative stack can **absorb production workload at an acceptable TCO, migration cost, reliability, and scale — and keep doing so across generations**.
 
 Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore have to be evaluated as system stacks:
 
@@ -17,7 +17,7 @@ Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore have to be eva
 
 The report uses **Cloud System-Stack Substitution** as shorthand for this economic substitution test. A benchmark win is not enough. The stack has to survive production utilization, software friction, and workload-specific system economics.
 
-## 2. Captive workload is the hyperscaler's structural advantage
+## 2. Captive workload is the structural advantage
 
 The structural difference between the major clouds and an ordinary chip startup is that hyperscalers simultaneously possess:
 
@@ -49,7 +49,7 @@ Google's competitive unit is therefore:
 
 If this system continuously lowers total cost of ownership for selected training or inference workloads, it can divert part of NVIDIA's platform profit even without becoming the universal development platform for the entire industry.
 
-## 4. AWS: Trainium is a silicon + software + server architecture
+## 4. AWS: Trainium is a system, not a component
 
 AWS Trainium has likewise moved from accelerator toward system.
 
@@ -61,7 +61,7 @@ But "having an anchor workload" is not the same as replacing NVIDIA's external e
 
 The variables that still need to be tested include large-cluster scaling, utilization, software maturity, migration cost, and external-customer adoption.
 
-## 5. Microsoft: Maia only matters if Azure-scale economics close
+## 5. Microsoft: Maia matters only if Azure-scale economics close
 
 The correct standard for Microsoft Maia 200 is not whether it supports every model on day one.[^4]
 
@@ -80,7 +80,7 @@ If those conditions hold across a large enough captive workload, Maia can divert
 
 Becoming a general external substitute would require lower migration cost and a wider ecosystem.
 
-## 6. Meta: specialization can substitute without full generality
+## 6. Meta: specialization can substitute without generality
 
 Meta operates very large recommendation, ranking, and generative-AI workloads.
 
@@ -92,13 +92,13 @@ The economic objective is:
 
 MTIA does not need to beat general-purpose GPUs across every workload to create value.
 
-## 7. Substitution creates profit diversion and upstream competition at the same time
+## 7. Substitution changes platform economics before it changes upstream scarcity
 
-### 7.1 Platform-profit diversion
+### 7.1 Platform-rent diversion
 
 In-house systems can reduce external accelerator purchases, lower dependence on an external software/platform stack, improve procurement bargaining power, and keep more economics inside the cloud platform.
 
-### 7.2 Upstream resource competition
+### 7.2 Upstream scarcity can persist
 
 Next-generation custom systems still need advanced logic, HBM, advanced packaging, networking, and power.
 
@@ -110,7 +110,7 @@ The combined result is:
 
 The two effects are not contradictory.
 
-## 8. Cloud CapEx is not a proxy for NVIDIA revenue
+## 8. Cloud CapEx is not an NVIDIA-revenue proxy
 
 Hyperscaler CapEx includes custom silicon, third-party accelerators, networking, memory, data centers, power, offices, fulfillment assets, and other categories. Fiscal periods, PPE definitions, and lease accounting also differ across companies.
 
@@ -122,7 +122,7 @@ Higher CapEx can support NVIDIA shipments while also accelerating systems design
 
 The four-cloud CapEx numbers cannot be compared directly with NVIDIA revenue to construct an "AI compute tax rate."
 
-## 9. Algorithmic efficiency is a separate substitution variable
+## 9. Algorithmic efficiency is a separate axis
 
 Algorithmic and architectural efficiency directly affects system demand, but it is a different competitive axis from hyperscaler custom silicon.
 
@@ -139,7 +139,7 @@ DeepSeek training-cost, architecture-efficiency, and unit-intelligence economics
 
 ---
 
-## 10. What qualifies as real system-stack substitution
+## 10. Evidence standard for real substitution
 
 Single-chip benchmarks are not enough.
 
@@ -164,7 +164,7 @@ But broader erosion of an external general-purpose platform additionally require
 
 ---
 
-## 10A. Two substitution thresholds: internal economics and external ecosystem
+## 10A. Two thresholds: internal economics and external ecosystem
 
 A cloud custom system can succeed at two distinct levels.
 
@@ -225,7 +225,7 @@ The boundary will move with software maturity, memory supply, interconnect, work
 
 ---
 
-## 12. Current view
+## 12. Current read
 
 As of August 2026, the most defensible description is:
 
