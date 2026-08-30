@@ -1,27 +1,36 @@
 # Part IV · 第32章：Master View——什么决定 AI Infrastructure Power，什么事实会改变判断
 
-## 1. Current Baseline 与承重判断
+## 1. Current Baseline：S2 是综合裁决，不是第二份执行摘要
 
 **当前基准（evidence cutoff：2026-08-28）：S2 — Baseline Concentration。**
 
-当前产业既不能被描述为已经进入无可争议的 Resource Hegemony，也不能被描述为已经发生广泛 Capital Clearing。少数 system platform 与 scarce-layer supplier 仍保持强经济性；真实替代路线正在成长，但尚未消除支撑集中度的物理、软件、融资与 migration constraints。
+第1章已经用八个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个最终裁决测试，并说明为什么当前仍停留在 S2。
 
-本报告的总判建立在八个承重判断上：
+### Test A — System Power 是否已经转化为不可替代的多层控制？
 
-1. **竞争单位是 system stack，不是 accelerator。** advanced logic、HBM、advanced packaging、interconnect、runtime、rack/pod、power 与 production workload 必须共同闭合。
-2. **AI/HPC 正在改变 semiconductor 与 infrastructure capital 的边际去向。** 越来越重要的问题是：下一单位 capacity 为哪一类 demand 建设。
-3. **传统整机面对的是 residual supply，而不是 gross supply。** 其经济性取决于 priority allocation 之后还能获得多少 qualified supply、quantity assurance 与适合自身 lifecycle 的 product mix。
-4. **Scarce-capacity access 必须按 physical layer 判断。** 历史 market share 不能替代对 incremental logic、HBM、packaging、networking 与 energized power 的真实可得性。
-5. **Substitution 可以先削弱 platform rent，再缓解上游 scarcity。** Hyperscaler custom stack 与中国 parallel stack 可以承载真实 workload，同时仍依赖大量相同 scarce inputs。
-6. **资本风险本质上是 utilization、monetization 与 financing quality 问题。** CapEx、supply commitments 与 seller-assisted financing 都是领先信号，但任何单一指标都不能证明 independent end demand 健康。
-7. **长期需求最终要在 workflow 层验证。** AI 可以继承庞大的 digital installed base，但 infrastructure investment 必须通过 utilization、verified output 与 cash flow 完成资本回收。
-8. **2026–2036 的路径是条件化的。** supply response、algorithmic efficiency、second-stack adoption、中国 stack closure、power delivery、financing quality 与 capital clearing 都可能推动产业转向 S1、S3 或 S4。
+尚未。少数 system platform，尤其 NVIDIA，拥有强 system coordination、软件迁移成本、供应承诺和资本形成能力，但其交付仍依赖外部 foundry、HBM、advanced packaging、networking 与 power。平台权力很强，不等于已经控制全部 physical layer。
 
-因此，真正的产业问题是：
+### Test B — AI/HPC 的资源吸收是否已经造成传统终端的结构性退出？
 
-> **谁能够持续获得 qualified scarce inputs，把它们组织成 production system，并把不断扩大的 capital base 转化为可持续 workload economics？**
+部分成立，但不能全行业化。Non-AI Residual Capacity、Quantity Assurance 与 product-mix pressure 已经在 smartphone、PC、game console 等终端出现；但证据目前支持的是**价格、配置、产品组合和换代周期重构**，不是手机、PC、游戏等完整需求产业已经进入终局。
 
-这比“谁赢得 AI 芯片战争”更完整，也比“某一家企业或某个国家已经控制全部基础设施”更克制。
+### Test C — Second Stack 是否已经足以打破集中度？
+
+也尚未。Hyperscaler custom systems 与中国 parallel stack 已经证明真实 substitution path 存在；但 production workload、migration cost、HBM/packaging/power access、multi-generation manufacturing continuity 仍决定这种替代能否从“可运行”升级为“可持续改写产业结构”。
+
+### Test D — Capital Formation 是否已经进入系统性清算？
+
+尚未。高 CapEx、US$279B aggregate supply commitments、seller-assisted financing 与 >US$500B third-party-capital mobilization target 都提高了未来 clearing 的重要性，但当前不能由支出规模本身推出泡沫或硬着陆。S4 仍要求 utilization、market clearing、forward commitment、demand quality / financing 等独立信号出现广泛、持续且因果一致的恶化。
+
+四个测试合在一起，当前最符合：
+
+> **高增长 + 高集中 + 真实替代 + 仍未发生广泛资本清算。**
+
+这就是 **S2 — Baseline Concentration**。
+
+因此，本章真正要回答的不是第1章已经回答过的“报告有哪些核心发现”，而是：
+
+> **哪些机制仍在支撑 S2，哪些反向事实足以让这些机制失效，并迫使总判转向 S1、S3 或 S4？**
 
 ## 2. System Coordination 才是相关的 Industrial Power
 
