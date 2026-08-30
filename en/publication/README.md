@@ -1,6 +1,6 @@
 # AI Industry Research Report · English Edition
 
-## AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
+## AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
 
 **Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
 **Evidence cutoff:** August 28, 2026  
