@@ -269,6 +269,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 - **Cloud System-Stack Substitution**；
 - **Anchor Compute Buyer Effect**；
 - **Rolling Bottleneck Cascade**；
+- **AI Inheritance Effect**；
 - **AI Software Unit Economics**；
 - **Task-to-Job Translation**；
 - **Financing Reflexivity**。
