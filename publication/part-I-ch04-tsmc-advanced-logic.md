@@ -47,7 +47,7 @@ TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
 
 > **HPC 已经成为 TSMC 当前先进制造资本形成的核心边际需求之一，同时公司仍在显著提高先进制程与先进封装投入。**
 
-这强化了“下一美元资本投向哪里”的研究主线，但不能被改写成：
+这强化了对“下一美元资本流向哪里”的关注，但不能被改写成：
 
 - 66% wafer 都是 AI；
 - 77% advanced-technology revenue 都属于 NVIDIA；
@@ -79,19 +79,21 @@ N2 的意义不只是 transistor density。竞争者真正关心：
 
 ## 5. Scarce-Capacity Access 必须保持 Layer-Specific
 
-历史 revenue share 只能说明过去收入集中度，不能直接回答下一代资源如何分配。对 N2/N2P/A16 更有价值的问题是：**哪些客户能够在量产初期持续获得足够、稳定、经过验证的增量供给。**
+本报告不使用一个跨层百分比来概括 advanced logic、HBM、packaging、networking 与 power 的 access。
 
-但这种分析必须逐层进行。advanced logic、HBM、advanced packaging 与 power 使用不同物理单位、不同供应商和不同扩产时钟，因此不应被压缩成一个综合“资源捕获率”。
+它们是不同 physical pool，必须分别判断。
 
-更稳健的跟踪方式是分别观察：
+真正相关的问题包括：
 
-- leading-edge node 的量产节奏与客户需求强度；
-- HBM qualification 与 supply；
-- advanced-packaging capacity；
-- system delivery 与 utilization；
-- 客户长期承诺、预付款与 roadmap visibility。
+- qualified supplier 有多少；
+- buyer 是否能按计划、按时获得数量；
+- lead time 与 allocation fulfillment；
+- long-term agreement / prepayment；
+- delivery schedule；
+- buyer credit quality；
+- supply elasticity。
 
-这比用 50/60/70/80% 的假设比例模拟“不同客户获得多少未来产能”更适合作为正文分析。
+如果未来某一个 physical layer 出现可靠的 customer-level allocation data，可以在该层使用 percentage；但不能把这个比例外推成 full-stack “resource capture share”。
 
 ## 6. Allocation 是 Multi-Variable，不是 Rank-Deterministic
 
@@ -119,16 +121,9 @@ TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry
 
 ## 9. Current Read
 
-TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 领先、HPC 已成为最大 platform、advanced packaging 仍是公开确认的增长约束。
+TSMC 当前的 strategic position 建立在三个同时存在的条件上：strong leading-edge logic、HPC 已成为最大 platform、advanced packaging 仍是公开确认的 growth constraint。
 
-但这并不意味着 TSMC 已成为某一家 AI 客户的“专属 fab”。对未来最有解释力的变量不是某一季 customer revenue share，而是：
-
-- N2/N2P/A16 的量产节奏与有效供给；
-- 大型 AI 与 cloud-custom-system 客户对新增 leading-edge capacity 的需求强度；
-- HBM / packaging 是否同步扩张；
-- 第二制造体系能否在 logic + memory + packaging 上形成组合替代。
-
-因此，先进制程的长期竞争核心不是一个“2 nm wafer price”，而是**下一代 system 所需多层资源能否在同一时间窗口内形成可交付组合。**
+真正需要前瞻观察的，不是一季度 customer revenue share，而是：谁能够获得 incremental N2/N2P/A16-class capacity、HBM 与 packaging supply 如何变化、cloud custom silicon 如何竞争新增 capacity，以及第二套 manufacturing system 能否形成可信的 logic + packaging + memory alternative。
 
 ## 10. 什么事实会改变当前判断
 
