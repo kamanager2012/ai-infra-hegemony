@@ -28,11 +28,11 @@ Stanford AI Index 2026 汇总的组织调查显示，**88%** 的受访组织报�
 
 Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对话增加到更长时间运行的 agentic tasks，并观察到更高 Compute 消耗与更高估计工作价值之间存在相关性。[^4] 但该数据来自 Anthropic 自身产品使用样本，不能直接代表整个企业软件市场。
 
-## 1B. AI Inheritance Effect：IT 就是 AI 的 Installed Base
+## 1B. AI inheritance：IT 就是 AI 的 Installed Base
 
 工业企业从纯物理流程走向信息化，通常需要补齐 sensor、network、database、software、identity、process digitization 与人员流程。已经完成较高程度信息化的企业则不同：ERP、CRM、MES、CAD/PLM、database、cloud、API、digital document、source code、identity/access 与 workflow logs 已经构成可复用的数字底座。
 
-本报告把这种**AI 可以在既有数字资产与工作流之上叠加 intelligence layer，而不必重新建设完整数字基础设施**的结构优势定义为 **AI Inheritance Effect**。
+本报告用 **AI inheritance** 作为这种结构优势的简写：AI 可以在既有数字资产与工作流之上叠加 intelligence layer，而不必重新建设完整数字基础设施。
 
 其需求传导可以写成：
 
@@ -40,7 +40,7 @@ Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对�
 
 它意味着 AI 基础设施的长期需求不只取决于单个模型是否继续放大，也取决于**有多少既有数字工作流开始调用 AI，以及每个 workflow 从 assistant feature 走向 semi-autonomous / autonomous execution 的深度**。
 
-这一机制与 Algorithmic Efficiency 并不矛盾：
+这一机制与 algorithmic efficiency 并不矛盾：
 
 - 单次任务所需 compute / memory 可以持续下降；
 - 但可经济使用 AI 的 workflow 数量可以扩大；
