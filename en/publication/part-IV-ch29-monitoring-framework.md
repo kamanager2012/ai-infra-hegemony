@@ -10,7 +10,7 @@ The monitoring framework therefore tracks **state variables, transition rates, a
 2. **Which mechanism variable did that change?**
 3. **Is the move material and persistent enough to reweight S1–S4?**
 
-This is a governed research-update process, not an automated trading model. The purpose of the dashboard is to prevent one headline, one forecast revision, or one accounting event from being mistaken for a structural regime change.
+This is a structured research-update process, not an automated trading model. The purpose of the dashboard is to prevent one headline, one forecast revision, or one accounting event from being mistaken for a structural regime change.
 
 ## 2. Dashboard A — Seller economics / forward reservation
 
@@ -314,7 +314,7 @@ Instead, every monitoring variable should specify:
 5. **persistence / confirmation** — supported by comparable follow-up evidence appropriate to that variable;
 6. **cross-signal confirmation** — especially for S4, where one weak metric is insufficient.
 
-**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+**Mechanism-break override:** breadth requirements govern **system-level scenario classification**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
 
 ### Handling missing data
 
@@ -350,7 +350,7 @@ For readers who want a fast way to judge whether the long-run structure is chang
 
 These five tests deliberately avoid arbitrary universal rules such as “eight quarters” or “30%–40%.” A material scenario reweighting requires **comparable continuous observation plus confirmation from at least two independent mechanism dimensions**.
 
-## 13. Governed update protocol
+## 13. Evidence-update protocol
 
 No single news item should trigger a full-report reclassification.
 
