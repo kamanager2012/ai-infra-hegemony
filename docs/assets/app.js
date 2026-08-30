@@ -139,6 +139,9 @@
       .split("#")[0]
       .replace(/^\.\//, "")
       .replace(/^\.\.\//, "")
+      .replace(/^en\/publication\//, "")
+      .replace(/^publication\//, "")
+      .replace(/^en\//, "")
       .replace(/\.en\.md$/i, ".md");
   }
 
@@ -168,8 +171,14 @@
 
       const fragment = href.includes("#") ? "#" + href.split("#").slice(1).join("#") : "";
       const clean = href.split("#")[0].replace(/^\.\//, "");
-      if (fileMap.has(clean)) {
-        const chapter = fileMap.get(clean);
+      const chapterKey = clean
+        .replace(/^\.\.\//, "")
+        .replace(/^en\/publication\//, "")
+        .replace(/^publication\//, "")
+        .replace(/^en\//, "")
+        .replace(/\.en\.md$/i, ".md");
+      if (fileMap.has(chapterKey)) {
+        const chapter = fileMap.get(chapterKey);
         a.href = chapterUrl(chapter.n, language) + fragment;
         return;
       }
