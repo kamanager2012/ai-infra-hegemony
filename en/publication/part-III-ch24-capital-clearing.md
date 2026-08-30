@@ -1,20 +1,20 @@
-# Part III · Chapter 24: Bubble Identification, Capital Clearing, and S4
+# Part III · Chapter 24: Capital Clearing — Lead Indicators, Demand Quality, and S4
 
-## 1. Large CapEx does not by itself prove a bubble
+## 1. The adjudication problem: when does high investment become capital clearing?
 
-AI-infrastructure capital spending is extremely high, but investment size alone cannot prove a bubble.
+Large AI-infrastructure investment is not itself evidence of a bubble, and high seller margins are not evidence that buyer-side economics are healthy.
 
-The relevant question is whether asset buildout persistently outruns utilization, realizable cash flow, and residual value.
+The relevant test is whether **asset formation begins to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**.
 
-This report therefore does not use one CapEx total, one valuation multiple, or one technology-stock drawdown as evidence that the bubble has already burst.
+This chapter therefore does not ask whether AI valuations are high. It asks when the evidence is strong enough to move the scenario framework from S2-style expansion toward **S4 — Capital Hard Landing**.
 
-S4 Capital Hard Landing requires synchronized deterioration across multiple industrial signals.
+One CapEx total, one valuation multiple, one stock drawdown, or one impairment is not sufficient. The decision depends on lead indicators, cross-signal confirmation, and causal breadth.
 
-## 2. Five classes of clearing signals
+## 2. Lead and lag indicators of clearing
 
 These signal families operate on different lead/lag clocks. **Market Clearing, Utilization / Revenue, Forward Commitment, and Demand Quality / Financing can deteriorate before financial statements recognize losses; Accounting is usually a lagging confirmation / severity signal.** The framework therefore does not wait for impairment before increasing S4 weight.
 
-### 2.1 Accounting
+### 2.1 Accounting: lagging confirmation
 
 The slowest but hardest evidence comes from formal recognition:
 
@@ -31,7 +31,7 @@ For example, H20-related charges affected NVIDIA FY26 results, but GAAP gross ma
 
 One-time charges and releases have to remain separate from long-run system economics.
 
-### 2.2 Utilization / Revenue
+### 2.2 Utilization / Revenue: the operating test
 
 The capital cycle ultimately has to be paid for by effective workloads.
 
@@ -47,7 +47,7 @@ It is:
 
 > **the asset base keeps growing while cash-generating effective workload does not grow with it.**
 
-### 2.3 Market Clearing
+### 2.3 Market Clearing: the earliest price signal
 
 Markets often show easing before financial statements.
 
@@ -65,7 +65,7 @@ If a new generation rapidly displaces an older one, economic depreciation can mo
 
 Persistent resale discounts and shorter lead times are therefore more meaningful signs of de-stocking than a stock-market drawdown alone.
 
-### 2.4 Forward Commitment
+### 2.4 Forward Commitment: the next-cycle signal
 
 The next round of expansion depends on hyperscaler CapEx guidance, NVIDIA manufacturing/supply/capacity commitments, long-duration model-company compute contracts, and power commitments.
 
@@ -77,7 +77,7 @@ The current trajectory looks more like continued forward resource reservation th
 
 **That statement only rejects the claim that broad cancellation has already occurred; it does not establish healthy independent end demand, healthy buyer ROI, or high financing quality.** Forward commitments must be read together with Section 7 on Demand Quality / Supplier-Assisted Financing.
 
-## 3. Chapter 19 owns the CapEx denominator; this chapter tracks whether direction reverses
+## 3. The signal is divergence, not a synthetic global CapEx total
 
 The four major hyperscalers do not report CapEx / PPE / finance-lease investment on one identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
 
@@ -96,7 +96,7 @@ Therefore:
 > **Bubble detection does not require one global AI-CapEx total. It requires evidence that capital expansion, utilization, and forward commitments are beginning to diverge systematically.**
 
 See [Chapter 19 — The AI Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md).
-## 4. Sellers and buyers operate on different capital clocks
+## 4. Seller economics and buyer ROI clear on different clocks
 
 NVIDIA is a system seller. Hyperscalers are asset buyers.
 
@@ -110,7 +110,7 @@ Strong seller margin does not prove healthy buyer-side ROI.
 
 Buyer-side ROI pressure also does not imply seller economics collapse in the same quarter.
 
-## 5. Algorithmic efficiency matters relative to workload growth
+## 5. Efficiency only matters relative to workload growth
 
 Infrastructure demand can be expressed at a high level as:
 
@@ -137,7 +137,7 @@ The variables that matter are observable:
 
 Lower model prices or higher algorithmic efficiency do not, by themselves, prove overcapacity.
 
-## 6. Anchor Compute Buyers are now an additional leading indicator
+## 6. Anchor Compute Buyers add a new leading indicator
 
 OpenAI Stargate, Anthropic/AWS, and other long-duration capacity commitments raise model companies from ordinary tenants into infrastructure Anchor Buyers.
 
@@ -154,7 +154,7 @@ They include:
 
 If those variables weaken alongside buyer utilization and market-clearing prices, the evidence for Capital Hard Landing strengthens materially.
 
-## 7. Demand Quality: separate organic workload from supplier-assisted financing
+## 7. Demand Quality: distinguish independent demand from supplier-assisted financing
 
 When a system seller also participates through customer equity investment, credit enhancement, LPS support, or infrastructure finance, seller-side order visibility cannot be treated as identical to independently financed end demand.
 
@@ -179,7 +179,7 @@ Healthy utilization can make seller-assisted financing an accelerator of real bu
 
 Weak utilization combined with rising supplier support should reduce the evidentiary weight of forward commitments.
 
-## 8. Clearing order follows asset duration
+## 8. Clearing propagates by asset duration
 
 Short-cycle assets clear first; long-cycle assets clear later.
 
@@ -193,7 +193,7 @@ Power plants, substations, and data-center shells do not disappear like GPU inve
 
 They can be repriced, sold, renegotiated, or become scarce again in the next concentration cycle.
 
-## 9. What qualifies as S4 Capital Hard Landing
+## 9. S4 adjudication rule
 
 This report upgrades S4 from stress test to the current main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups below are monitoring families, not a five-of-five checklist:
 
@@ -209,7 +209,7 @@ Judgment is cumulative: each signal updates at its own disclosure frequency per 
 
 But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 
-## 10. Current judgment
+## 10. Current read
 
 As of August 2026, public evidence is still closer to:
 
