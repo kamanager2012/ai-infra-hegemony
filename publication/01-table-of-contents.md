@@ -36,7 +36,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 - **Core industrial mechanisms：** Ch03–Ch08、Ch12–Ch13、Ch17、Ch19–Ch20、Ch24——构成资源配置、system substitution、capital formation 与 clearing 的主要因果主链。
 - **Supporting industry modules：** Ch02、Ch09–Ch11、Ch16、Ch18、Ch21–Ch23——用于深化具体公司、供应链环节、政策边界、下游传导或融资结构。
 - **Demand-side / second-order extensions：** Ch14–Ch15、Ch25–Ch26——检验基础设施 economics 如何进一步传导到 software workflow、Physical AI、劳动与人才体系；这些章节不能独立决定 S1–S4。
-- **Method and adjudication：** Ch27–Ch31——负责证据规则、monitoring、scenario、milestone 与 strategic optionality，不等于又增加一个 physical bottleneck。
+- **Method and evaluation：** Ch27–Ch31——负责证据规则、monitoring、scenario、milestone 与 strategic optionality，不等于又增加一个 physical bottleneck。
 
 这种分层是刻意的：**覆盖可以很广，但本报告不假装所有主题深度相同，也不把所有章节当成同等承重证据。**
 
