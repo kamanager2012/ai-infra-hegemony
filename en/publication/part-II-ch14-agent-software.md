@@ -8,7 +8,7 @@ Traditional SaaS can often add seats without proportional variable compute. Agen
 
 A single workflow may trigger retrieval, reasoning, multiple model calls, tool invocation, browser/action execution, retries, and human review.
 
-The cost unit therefore shifts from:
+The cost unit shifts from:
 
 > **account / seat**
 
@@ -38,14 +38,14 @@ The demand transmission is:
 
 > **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume → Infrastructure Demand**
 
-Long-run AI-infrastructure demand therefore does not depend only on whether individual models keep scaling upward. It also depends on **how many existing digital workflows begin invoking AI and how deeply each workflow moves from assistant features toward semi-autonomous or autonomous execution**.
+Long-run AI-infrastructure demand does not depend only on whether individual models keep scaling upward. It also depends on **how many existing digital workflows begin invoking AI and how deeply each workflow moves from assistant features toward semi-autonomous or autonomous execution**.
 
 This mechanism is compatible with algorithmic efficiency:
 
 - compute / memory required per task can keep falling;
 - the number of workflows for which AI becomes economical can expand;
 - execution frequency and agent depth inside each workflow can rise;
-- aggregate infrastructure demand therefore depends on whether **unit resource intensity falls faster or slower than workflow penetration and execution volume rise**.
+- aggregate infrastructure demand depends on whether **unit resource intensity falls faster or slower than workflow penetration and execution volume rise**.
 
 ### Boundary: lower Digital → AI friction does not mean zero-friction deployment
 
@@ -63,7 +63,7 @@ Existing digital infrastructure can reduce marginal deployment friction, but pro
 
 Physical AI and industrial processes that are not yet digitized still require sensorization, control integration, qualification, safety engineering, and field modification.
 
-The more defensible statement is therefore:
+A more defensible statement is:
 
 > **Relative to Industrial → Digital transformation, highly digitized organizations generally face lower marginal transformation cost when moving from Digital → AI. AI can inherit the IT installed base, but it cannot skip production integration or responsibility constraints.**
 
@@ -71,7 +71,7 @@ The more defensible statement is therefore:
 
 Variable cost differs by product and depends on model choice, context length, caching, retrieval, tools/APIs, failure/retry rates, human review, pricing model, and task depth.
 
-This report therefore does not treat a fixed path such as "traditional SaaS 85% → AI SaaS 55%" as fact.
+A fixed path such as "traditional SaaS 85% → AI SaaS 55%" is not treated as fact.
 
 It uses **AI Software Unit Economics** instead.
 
@@ -104,7 +104,7 @@ A deeper agent looks more like:
 
 As loop depth grows, compute, tool usage, and the failure surface all expand.
 
-Agent products therefore have to optimize:
+Agent products have to optimize:
 
 - task success;
 - loop length;
@@ -119,7 +119,7 @@ Seat pricing can remain effective for summarization, autocomplete, and shallow-a
 
 If one seat can launch research, coding, support, sales, and operations workflows with very different depths, compute variance becomes much larger.
 
-Long-run pricing can therefore shift toward combinations of:
+Long-run pricing can shift toward combinations of:
 
 - usage;
 - credits;
@@ -146,7 +146,7 @@ Routing is a dynamic allocation problem across quality, latency, cost, and failu
 
 Open-source models increase portability, pressure API premiums, expand private deployment, and improve buyer bargaining power.
 
-Model capability itself therefore becomes harder to preserve as permanent software margin.
+Model capability itself becomes harder to preserve as permanent software margin.
 
 More durable value can move toward:
 
@@ -165,7 +165,7 @@ Cloud pricing, however, embeds accelerator, memory, networking, data-center, and
 
 If hyperscaler custom stacks lower real system TCO, part of that benefit can transmit over time through instance or API pricing into the application layer.
 
-Infrastructure competition around Google Ironwood TPU, AWS Trainium3, and other systems therefore affects software contribution margin as well as the chip market.[^1][^2]
+Infrastructure competition around Google Ironwood TPU, AWS Trainium3, and other systems affects software contribution margin as well as the chip market.[^1][^2]
 
 ## 8A. Workflow elasticity: lower unit cost does not imply lower total demand
 
@@ -190,7 +190,7 @@ If lower cost also produces:
 
 then total compute / memory / network demand can still rise.
 
-The software layer's feedback into infrastructure is therefore better summarized as:
+The software layer's feedback into infrastructure is better summarized as:
 
 > **cost per verified workflow × demand elasticity**
 
@@ -220,7 +220,7 @@ Products with stronger long-run economics are more likely to combine:
 - measurable customer ROI;
 - the ability to route across models and providers.
 
-Software competition is therefore moving from feature competition toward **workflow economics competition**.
+Software competition is moving from feature competition toward **workflow economics competition**.
 
 ## 11. Current read
 
