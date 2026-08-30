@@ -1,10 +1,10 @@
 # Part IV · 第32章：Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断
 
-## 1. Current Baseline：S2 是综合裁决，不是第二份执行摘要
+## 1. Current Baseline：S2 是综合判断，不是第二份执行摘要
 
 **当前基准（evidence cutoff：2026-08-28）：S2 — Baseline Concentration。**
 
-第1章已经用八个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个最终裁决测试，并说明为什么当前仍停留在 S2。
+第1章已经用八个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个 evaluation tests，并说明为什么当前仍停留在 S2。
 
 ### Test A — System Power 是否已经转化为不可替代的多层控制？
 
@@ -379,7 +379,7 @@ AI 对劳动的传导必须至少经过：
 - **S — Scenario**：多个条件组合形成的未来状态；
 - **X — Falsification**：足以迫使原判断下调、重写或失效的反向信号。
 
-**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+**Mechanism-break override：** breadth 要求约束的是**系统级 scenario classification**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
 
 这套结构的作用不是增加术语，而是防止：
 
