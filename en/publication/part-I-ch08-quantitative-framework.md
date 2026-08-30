@@ -1,6 +1,6 @@
-# Part I · Chapter 8: Quantification Boundaries — What Can Be Measured, What Cannot, and Why
+# Part I · Chapter 8: Quantitative Framework — Denominator Closure, Stress Tests, and Public-Data Limits
 
-## 1. Quantification starts with denominator closure
+## 1. Start with denominator closure
 
 The first quantitative task is not to produce a point estimate. It is to determine whether the numerator, denominator, physical unit, delivery window, and evidence identity can actually be closed.
 
@@ -287,7 +287,7 @@ The core risk is duration mismatch: hardware can turn over rapidly while data-ce
 
 A technically functional system can therefore produce weak capital returns if utilization is low or long-duration obligations are excessive.
 
-## 17. Quantitative guardrails
+## 17. Guardrails against false precision
 
 The full report maintains the following hard boundaries:
 
@@ -303,7 +303,7 @@ The full report maintains the following hard boundaries:
 - institutional forecast ≠ company actual;
 - one physical pool ≠ another physical pool.
 
-## 18. Preferred quantitative workflow
+## 18. Preferred research workflow
 
 The report follows this sequence:
 
