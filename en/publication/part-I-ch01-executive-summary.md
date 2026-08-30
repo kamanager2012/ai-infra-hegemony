@@ -1,33 +1,31 @@
-# Part I · Chapter 1: Executive Summary and Core Judgments for the Next Decade
+# Part I · Chapter 1: Executive Summary
 
-## 1. Executive judgment: important end systems now face upstream allocation rules being rewritten by AI/HPC
+## 1. Baseline: allocation is the problem, not gross supply
 
-As of **August 28, 2026**, this report is not arguing that AI is “more important” than smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, or high-reliability electronics. Those end systems and strategic platforms remain important.
+As of **August 28, 2026**, the public evidence is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths continue to develop without yet removing HBM, advanced-packaging, power, or migration constraints.
 
-What has changed is that **some of the shared or adjacent upstream resources they depend on — advanced logic, DRAM/LPDDR/NAND, advanced packaging, equipment, engineering capacity, power, and long-duration capital — are increasingly being repriced and reordered by AI/HPC demand with higher willingness to pay, longer capacity commitments, and stronger financing capacity.**
+The report's central claim is narrower than its title. AI does not need to make smartphones, PCs, vehicles, industrial systems, aerospace, or other strategic end markets “unimportant” in order to change their economics. It only needs to change the priority attached to shared or adjacent upstream resources.
 
-The relevant downstream question is therefore not whether the world still has semiconductors. It is:
+AI/HPC demand increasingly combines **higher willingness to pay, longer capacity commitments, stronger financing capacity, and greater influence over the next unit of capital formation**. The practical downstream question is therefore:
 
-> **Can each end system still obtain enough, stable, affordable supply on its own BOM, qualification, lifecycle, and product cadence?**
+> **Can each end system still obtain enough qualified supply, on time, at an economics compatible with its BOM, lifecycle, and product cadence?**
 
-Exposure must remain layered. Smartphones, PCs, selected ADAS and edge-AI systems can directly overlap with advanced logic and memory. Automotive, industrial control, and factory systems are often affected through mature memory, MCU/analog, power electronics, and supplier product mix. Aerospace, radar, naval, satellite, and launch systems are more often exposed through the economics of trusted, long-life, special-process, low-volume capacity, equipment, and engineering talent — not because they directly compete for the same AI accelerator.
+Exposure is layer-specific. Smartphones, PCs, selected ADAS, and edge-AI systems can overlap directly with advanced logic and memory. Automotive and industrial systems are often affected through mature memory, MCU/analog, power electronics, qualification cycles, and supplier product mix. Aerospace and other long-life, low-volume systems are more exposed to trusted capacity, special processes, equipment, and engineering continuity than to direct competition for an AI accelerator.
 
-The report's core judgment can be compressed into eight points:
+Eight judgments carry the report:
 
-1. **The competitive unit has moved from the individual chip to the full system stack.** Competitiveness now depends on whether advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads can operate as a stable system.
-2. **AI/HPC is changing where the next dollar of capital goes.** When AI workloads offer greater willingness to pay, longer order duration, stronger financing capacity, and higher expected returns, incremental capital and scarce resources are more likely to move toward AI infrastructure.
-3. **Traditional end systems have not become unimportant; what has changed is the certainty with which they can obtain effective upstream supply.** Gross supply can rise while smartphones, PCs, game consoles, automotive, and industrial markets still face residual-capacity, quantity-assurance, pricing, or configuration pressure.
-4. **Long-run value capture depends less on historical market share than on sustained access to incremental scarce capacity at each physical layer.** Advanced logic, HBM, packaging, networking, and LPS/power must be evaluated layer by layer rather than compressed into one cross-layer capture ratio.
-5. **Hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not automatically remove upstream physical constraints.** A second system stack can divert external platform profit while still competing for advanced logic, HBM, packaging, and power.
-6. **Capital risk is shifting from "is there demand?" to "can real utilization, monetization, and more independent financing capacity cover the expanding capital base?"** High CapEx is neither proof of a boom nor proof of a bubble.
-7. **Infrastructure only completes the demand-side loop when it produces verifiable, repeatable, monetizable workflow outcomes.** This is a long-run economic criterion, not a fully calibrated empirical fact metric as of the report cutoff.
-8. **The future is neither a single continuation-of-boom trajectory nor a single bubble-collapse trajectory.** The 2026–2036 path will be determined jointly by supply elasticity, system substitution, workload economics, capital discipline, power, financing quality, and frontier-system closure.
-
-The current public-evidence mix is most consistent with **S2 — Baseline Concentration**: a small number of system platforms and scarce-layer suppliers retain strong economics, while credible substitution paths continue to develop without yet eliminating HBM, advanced-packaging, power, and migration constraints.
+1. **The competitive unit is the system stack.** Advanced logic, HBM, packaging, interconnect, runtime, rack/pod architecture, power, and production workloads now determine system economics together.
+2. **AI/HPC is changing the marginal destination of capital.** The relevant question is not only who buys the most chips, but which demand pool increasingly determines what new capacity is built for.
+3. **Gross supply can rise while effective supply for traditional end markets worsens.** Residual capacity, quantity assurance, configuration, and price matter more than global capacity headlines.
+4. **Scarce-capacity access must be measured layer by layer.** Historical market share is less informative than sustained access to qualified incremental logic, HBM, packaging, networking, and energized power.
+5. **Substitution can weaken platform economics without removing physical constraints.** Hyperscaler custom stacks and China's parallel stack can divert workloads while still competing for many of the same upstream resources.
+6. **Capital risk is now a utilization, monetization, and financing-quality problem.** High CapEx is neither proof of durable demand nor proof of a bubble.
+7. **Infrastructure demand is validated only when it closes through productive workflows.** The relevant long-run unit is verifiable economic output, not installed compute alone.
+8. **The 2026–2036 path is conditional.** Supply elasticity, system substitution, algorithmic efficiency, workload growth, power, financing quality, and frontier-system closure can move the industry toward S1, S3, or S4 rather than leaving it permanently in S2.
 
 ---
 
-## 2. First structural shift: AI infrastructure has moved from chip procurement to system engineering
+## 2. The unit of competition is the system stack
 
 NVIDIA's official GB200 NVL72 specification includes **72 Blackwell GPUs, 36 Grace CPUs, 13.4 TB of HBM3E, and 17 TB of LPDDR5X**. The commercial delivery unit for frontier AI has therefore moved from the accelerator card toward a combined compute, memory, interconnect, software, and rack architecture.[^1]
 
@@ -46,7 +44,7 @@ At the same time, NVIDIA's manufacturing, supply, and capacity commitments incre
 
 ---
 
-## 3. Second structural shift: a Two-Speed Semiconductor Economy is emerging
+## 3. AI is changing the marginal economics of semiconductor capacity
 
 AI infrastructure and traditional devices still share significant upstream resources, but their economic characteristics are diverging.
 
@@ -68,21 +66,21 @@ The report describes this structure as a **Two-Speed Semiconductor Economy**:
 
 ---
 
-## 4. Third structural shift: scarcity has expanded from one chip to several independent physical pools
+## 4. Scarcity sits in several independent physical pools
 
-### 4.1 HBM: bit share understates manufacturing-resource intensity
+### 4.1 HBM: bit share understates manufacturing input
 
 Micron disclosed that, under **same technology node / same number of bits** conditions, HBM3E requires approximately **3× the wafer supply of DDR5**.[^6]
 
 TrendForce forecasts that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply**.[^7] That is an institutional forecast, not a full-year actual. The important implication is not a single "HBM market share" number, but that high-value AI/server memory can absorb more manufacturing input than bit share alone suggests.
 
-### 4.2 Advanced Packaging: more leading-edge wafers do not automatically mean more deliverable AI systems
+### 4.2 Advanced packaging: front-end wafers are not deliverable systems
 
 TSMC said in 4Q24 that advanced-packaging capacity was "very tight" and stated in 2Q26 that packaging tightness was limiting customer growth.[^8]
 
 This means leading-edge wafer capacity and deliverable AI-system capacity are not the same thing. Once one bottleneck eases, the constraint can rotate to packaging, memory, networking, or power.
 
-### 4.3 Power: the constraint has moved from equipment to infrastructure
+### 4.3 Power: delivery state matters as much as nameplate capacity
 
 NVIDIA's DGX GB200 hardware guide specifies rack power of approximately **120 kW**. At the same time, an approximately **835 MW** nuclear restart, a revised long-duration PPA with up to **1,920 MW** of contract quantity, and multi-hundred-megawatt advanced-nuclear development plans show that Time-to-Power, grid interconnection, substations, firm power, and permitting have become part of AI system delivery.[^9]
 
@@ -96,7 +94,7 @@ The 2026-08-17 PORTS-Pike project pushes this logic one level further. NVIDIA di
 
 ---
 
-## 5. Fourth structural shift: Non-AI Residual Capacity matters more than gross capacity
+## 5. Residual capacity—not gross capacity—is the downstream variable
 
 Traditional industries do not consume "global capacity" in the abstract. They consume what remains after priority demand has absorbed effective supply:
 
@@ -118,7 +116,7 @@ Lower-margin, lower-bargaining-power, short-duration buyers are generally more e
 
 ---
 
-## 6. Fifth structural shift: hyperscalers are moving from custom chips to second system stacks
+## 6. Hyperscalers are building second system stacks
 
 Google Ironwood, AWS Trainium3 UltraServers, Microsoft Maia 200, and Meta MTIA 300 show that hyperscaler competition has moved beyond whether a company has an internal ASIC. The unit of competition now includes accelerators, compiler/runtime, interconnect, rack/pod architecture, and captive workloads.[^10]
 
@@ -140,7 +138,7 @@ The variables that matter are:
 
 ---
 
-## 7. China: the correct framework is two-stage closure, not one localization rate
+## 7. China requires two closure tests
 
 China has built a real and continuously developing accelerator/software parallel stack, while also expanding domestic capability in consumer computing, DRAM/NAND, selected general-purpose computing, and software ecosystems.[^11]
 
@@ -173,7 +171,7 @@ The report therefore rejects both extremes. China has moved beyond the stage of 
 
 ---
 
-## 8. The capital cycle: the key risk is duration mismatch and financing quality, not headline CapEx
+## 8. Capital risk is a duration-and-financing problem
 
 Cloud CapEx, system-vendor revenue, foundry revenue, memory revenue, and power/data-center investment appear on different ledgers along the same supply chain. They cannot be mechanically added into one "global AI investment" number.
 
@@ -205,7 +203,7 @@ This matters because the AI infrastructure cycle is beginning to extend beyond c
 
 ---
 
-## 9. 2026–2036: four structural states, not one point forecast
+## 9. Four structural states
 
 **Table 1.1 — Four standard AI-infrastructure scenarios**
 
@@ -234,7 +232,7 @@ The variables that will move the system away from S2 are not a single 2036 marke
 
 ---
 
-## 10. What evidence would force the report to change its judgment
+## 10. What would change the view
 
 The following developments should materially reduce S2/S3 weight or force the underlying mechanisms to be re-evaluated:
 
@@ -252,7 +250,7 @@ Conversely, if multiple physical layers remain tight, Non-AI Residual Capacity c
 
 ---
 
-## 11. The evidence boundaries that matter most
+## 11. Evidence boundaries
 
 The report keeps the following categories separate:
 
