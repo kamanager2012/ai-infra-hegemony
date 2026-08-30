@@ -29,9 +29,9 @@ The report separates:
 
 ### Language and editorial architecture
 
-The **English edition is the canonical analytical text**. New claims, mechanism definitions, denominator choices, evidence boundaries, and scenario language should be resolved in English first because the primary evidence base—filings, earnings materials, product documentation, technical papers, contracts, and industry terminology—is predominantly English.
+The **English edition is the sole canonical analytical text**. New claims, mechanism definitions, denominator choices, evidence boundaries, scenario language, section order, and falsification logic are resolved in English first because the primary evidence base—filings, earnings materials, product documentation, technical papers, contracts, and industry terminology—is predominantly English.
 
-The Chinese edition is a **professional parallel edition**, not a sentence-by-sentence translation. It must preserve the same facts, evidence identity, mechanism, denominator, and falsification logic while using Chinese research prose where that improves clarity. Standard industry terms such as HBM, CoWoS, CapEx, TCO, utilization, qualification, system stack, scale-up / scale-out, and workload may remain in English when translation would reduce precision.
+The Chinese edition is the **professional Chinese translation of the English canonical text**, not an independent analytical edition. Chinese syntax may be localized and standard industry terms such as HBM, CoWoS, CapEx, TCO, utilization, qualification, system stack, scale-up / scale-out, and workload may remain in English when that preserves precision. The translation must not independently add, remove, reorder, or redefine claims, mechanisms, denominators, evidence identities, scenarios, falsification boundaries, or section hierarchy. Any substantive revision is made in English first and then translated into Chinese.
 
 Editorial rule:
 
