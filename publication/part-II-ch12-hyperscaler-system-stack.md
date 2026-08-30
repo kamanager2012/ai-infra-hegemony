@@ -287,7 +287,7 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 ---
 
-## 12. Current Read
+## 12. Current View
 
 截至 2026 年 8 月，最稳健的描述是：
 
