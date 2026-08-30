@@ -1,6 +1,6 @@
-# AI基础设施霸权时代：2026–2036
+# AI基础设施霸权时代：2026–2036产业前瞻研究报告
 
-**The Age of AI Infrastructure Hegemony: 2026–2036**
+**The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report**
 
 *全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构*
 
