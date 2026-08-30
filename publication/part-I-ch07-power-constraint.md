@@ -200,6 +200,10 @@ AI infrastructure 没有一个永久固定的唯一瓶颈。
 
 > HBM / advanced packaging tight → hardware delivery受限 → 制造扩产后更多 racks 到场 → power / interconnection 成为下一瓶颈 → deployment / utilization 受限
 
+![图 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)
+
+**图 8 Note：** 本报告 causal framework。该链条是 schematic，不是确定性 sequence；cycle 可以从其他 layer 开始，overbuild 也可能把问题从 scarcity 反向推向 low utilization 与弱回报。
+
 也可能反过来：
 
 > power / data-center capacity 提前建设 → workload 或 hardware delivery 不足 → utilization 下降 → capital return 恶化
