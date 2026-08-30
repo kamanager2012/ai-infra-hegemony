@@ -27,3 +27,24 @@
 ## 出版说明
 
 这些 Figure 属于 publication layer，不重新打开已经冻结的 32 章研究逻辑。未来任何需要新增 denominator、新 estimate 或新 factual claim 的 quantitative figure，都必须作为新的研究输入处理，而不是以“编辑性插图”的名义直接加入。
+
+7. [图 7 — TSMC 2026 Q2 demand 与 technology mix](figures/fig-07-tsmc-2q26-mix.svg)  
+   **类型：** first-party actual data，保留两个独立 denominator。**主要分析位置：** 第 4 章。  
+   **Boundary：** HPC 66% 与 smartphone 22% 是 total revenue 的 platform share；7 nm 及以下 77% 是 wafer revenue 的 technology share；均不是 customer-level wafer allocation。
+
+8. [图 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)  
+   **类型：** report framework。**主要分析位置：** 第 6–8、19、24、30 章。  
+   **Boundary：** causal schematic，不是确定性 sequence 或 timing forecast。
+
+9. [图 9 — Anchor demand 与 Financing Reflexivity](figures/fig-09-financing-reflexivity.svg)  
+   **类型：** report financing framework。**主要分析位置：** 第 13、23、24 章。  
+   **Boundary：** seller-assisted financing 既不能自动判定为健康，也不能自动判定为 artificial；必须结合 utilization、monetization、independent risk capital 与 refinancing conditions。
+
+10. [图 10 — Verified workflow output 构成 demand-side closure](figures/fig-10-verified-workflow-loop.svg)  
+    **类型：** report economic framework。**主要分析位置：** 第 14、19、24、32 章。  
+    **Boundary：** verified workflow output 是 long-run economic criterion，不是截至 evidence cutoff 已完成 empirical calibration 的 fact metric。
+
+11. [图 11 — Production-Grade Parallel Stack 与 Autonomous Frontier Closure](figures/fig-11-china-closure-gates.svg)  
+    **类型：** report closure-test framework。**主要分析位置：** 第 17、32 章。  
+    **Boundary：** production-grade substitution ≠ full technological autonomy；存在 import dependence 也不等于不存在 production-grade parallel stack。
+
