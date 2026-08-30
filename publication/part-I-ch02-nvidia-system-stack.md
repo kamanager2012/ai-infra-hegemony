@@ -23,6 +23,10 @@ NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，�
 
 因此，“更便宜的一颗 ASIC”并不自动等于“更便宜的一套生产级 AI system”。
 
+![图 1 — 竞争单位已经从 Chip 上移到 System Stack](figures/fig-01-system-stack.svg)
+
+**图 1 Note：** 本报告 framework；用于概括本章与第 8、12、19、32 章形成的分析单元，不是 market-share estimate，也不表示任何一家企业控制全部层级。
+
 ## 2. NVLink / NVSwitch 把 Scale-Up Communication 内部化
 
 frontier model training 的瓶颈并不只在单卡计算。tensor parallel、pipeline parallel、expert parallel 和 collective communication 会把性能越来越多地交给 bandwidth、topology、synchronization 与 collective implementation。
@@ -90,6 +94,10 @@ PTX 的作用尤其重要：它提供稳定的 intermediate representation，使
 **Note:** US$279B 为 aggregate manufacturing, supply and capacity commitments；公开文件未提供 supplier-level split。
 
 FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。[^4]公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
+
+![图 4 — NVIDIA 2026 年 manufacturing / supply / capacity commitments](figures/fig-04-nvidia-forward-commitments.svg)
+
+**图 4 Note：** first-party filing data。图中保留 company-level aggregate commitment 边界，不把承诺拆分为任何单一 supplier allocation，也不把 commitment 改写成 realized supplier revenue 或 delivered capacity。
 
 这构成一个可检验的跨代强化机制：
 
