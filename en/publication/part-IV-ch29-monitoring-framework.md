@@ -21,22 +21,24 @@ This is a structured research-update process, not an automated trading model. Th
 | Metric | Current public value |
 |---|---:|
 | FY26 Revenue | US$215.938B |
-| FY26 Data Center | US$193.737B |
+| FY26 Data Center | US$193.7B |
 | FY26 NVIDIA-defined non-GAAP FCF | US$96.575B |
 | FY27 Q2 Revenue | US$96.221B |
 | FY27 Q2 Data Center | US$89.0B |
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
-| Rubin | full production |
+| Rubin | ramping / in production; production shipments began Q3 FY27 |
 
 **Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^1][^2]  
 **Note:** Company-defined non-GAAP FCF and GAAP metrics retain their respective identities; aggregate commitments have no disclosed supplier-level split.
 
-Supply / capacity commitments:[^2]
+Manufacturing / supply / capacity commitment family:[^2]
 
 - 2026-01-25: US$95.2B;
 - 2026-04-26: US$119B;
 - 2026-07-26: US$279B.
+
+The underlying mix and duration are not identical across reporting dates, so the sequence is used as a forward-reservation indicator rather than a homogeneous maturity-matched time series.
 
 These metrics test whether the system seller still has sufficient cash generation and forward-commitment capacity to reserve next-generation scarce resources.
 
@@ -46,7 +48,7 @@ The US$279B figure does not contain a supplier-level split and cannot be convert
 
 ### TSMC 2025
 
-The following baseline is drawn from TSMC's 2025 Annual Report.[^3]
+The following baseline combines TSMC's 2025 Annual Report with its 4Q25 presentation / earnings materials.[^3][^16]
 
 - 12-inch-equivalent wafer shipments: ~15.0M;
 - annual capacity: >17M;
@@ -56,7 +58,7 @@ The following baseline is drawn from TSMC's 2025 Annual Report.[^3]
 - smartphone platform: 29%, +11% YoY;
 - largest / second-largest annual customer: 19% / 17% of revenue.
 
-A separate anonymized customer table supports only the 2024→2025 Customer A 12%→19% and Customer B 22%→17% trajectories.[^7]
+A separate anonymized customer table in TSMC's annual-report materials supports only the 2024→2025 Customer A 12%→19% and Customer B 22%→17% trajectories.[^3]
 
 The two disclosure types cannot be merged into one customer history.
 
@@ -125,7 +127,7 @@ Non-comparable accounting definitions must not be mechanically added into an off
 Representative current paths include:
 
 - Microsoft / Constellation: ~835 MW restart PPA;[^10]
-- Talen / AWS: up to 1,920 MW revised PPA; April-2026 transition status must not be rewritten as full physical delivery complete;[^11]
+- Talen / AWS: up to 1,920 MW revised PPA; the spring-2026 transition plan / subsequent 2026 Q2 status must not be rewritten as full physical delivery complete;[^11]
 - Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035;[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with planned delivery beginning in 2028.[^13]
 
@@ -360,14 +362,14 @@ This keeps the report updateable without reclassifying the industry after every 
 
 ## References
 
-[^1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics and Rubin status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027 ; Vera Rubin full-production announcement, https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory ; FY27 Q2 Form 10-Q, production shipments began Q3 FY27, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^2]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^3]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf ; Micron Technology, FY25 Form 10-K, HBM requires more wafers / cleanroom space for the same bits at the same technology node, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
 [^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-[^7]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
-[^8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^7]: TSMC, 2025 annual-report customer-disclosure materials; see [^3].
+[^8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^9]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 [^11]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
@@ -377,3 +379,4 @@ This keeps the report updateable without reclassifying the industry after every 
 
 [^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
 [^15]: TrendForce, 2025-12-02, 2026 game-console shipment forecast and estimated console memory-cost share of BOM, B-grade institutional forecast, https://www.trendforce.com/presscenter/news/20251202-12811.html
+[^16]: TSMC, 4Q25 Presentation / Earnings Conference, 5 nm / 7 nm 2025 technology mix and HPC / smartphone YoY platform growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf ; https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
