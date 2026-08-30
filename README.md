@@ -5,7 +5,7 @@
 
 A long-form industry research report on AI infrastructure, semiconductors, cloud systems, capital formation, and industrial strategy.
 
-Canonical research language: **English**. The Chinese edition is a professional parallel edition, not a sentence-by-sentence translation.
+Canonical research language: **English**. The Chinese edition is the authorized professional Chinese translation of the English canonical analytical text. Chinese syntax may be localized and standard industry terms may remain in English, but the Chinese edition must not independently add, remove, reorder, or redefine claims, mechanisms, denominators, evidence identities, scenario states, falsification boundaries, or section hierarchy. Any substantive revision is resolved in English first and then translated into Chinese.
 
 
 **Evidence cutoff:** August 28, 2026  
