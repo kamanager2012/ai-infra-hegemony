@@ -1,16 +1,16 @@
 # Part I · Chapter 4: Advanced Logic Allocation — TSMC, N2, and the Next Unit of Qualified Capacity
 
-## 1. The unit of analysis is qualified incremental capacity, not a wafer-price headline
+## 1. The unit of analysis is qualified incremental capacity
 
-Leading-edge logic is necessary but not sufficient for frontier AI. A production system still has to close HBM, packaging, interconnect, power, and software around the node.
+Leading-edge logic is necessary but not sufficient for frontier AI. The relevant variable is not “who has access to an advanced node?” but **who can secure qualified incremental capacity at the required volume and timing while HBM, packaging, interconnect, power, and software are ready to convert that wafer output into a production system**.
 
 The advanced-manufacturing question is therefore:
 
-> **Who can secure enough qualified N2/N2P/A16-class capacity, at the right time, while the rest of the system stack is also ready?**
+> **Who can repeatedly secure enough qualified N2/N2P/A16-class capacity, on schedule, without another layer becoming the binding constraint?**
 
 A rumored wafer price does not answer that question. Volume, qualification, delivery timing, roadmap continuity, and cross-layer readiness do.
 
-## 2. TSMC baseline: capacity, technology mix, and platform mix
+## 2. TSMC baseline: capacity, node mix, platform mix
 
 **Table 4.1 — TSMC 2025 capacity, technology, and platform-revenue structure**
 
@@ -63,7 +63,7 @@ A different anonymized customer table supports year-over-year comparison: Custom
 
 Likewise, HPC at 58% is a platform revenue share, not a wafer-shipment share.
 
-## 4. N2 matters through launch access and delivery scale
+## 4. N2 matters through launch access, scale, and continuity
 
 N2 matters for more than transistor density. Competitors care about:
 
@@ -76,7 +76,7 @@ N2 matters for more than transistor density. Competitors care about:
 
 Access to a node does not automatically create a system victory. If memory, packaging, interconnect, or power are missing, complete-system delivery remains constrained.
 
-## 5. Scarce-capacity access must remain layer-specific
+## 5. Scarce-capacity access remains layer-specific
 
 The report does not use one cross-layer percentage to summarize access to advanced logic, HBM, packaging, networking, and power.
 
@@ -94,7 +94,7 @@ The relevant questions are:
 
 If reliable customer-level allocation data becomes available for one physical layer, a percentage can be used for that layer. It cannot be extended into a full-stack "resource capture share."
 
-## 6. Allocation is multi-variable, not customer-rank deterministic
+## 6. Allocation is multi-variable, not rank-deterministic
 
 Advanced-capacity allocation is more likely to reflect a combination of price, committed volume, contract duration, prepayment, credit quality, utilization certainty, roadmap stability, customer diversification, and geopolitical risk.
 
@@ -110,7 +110,7 @@ No report-side packaging-geometry ratio is used in the formal analysis to infer 
 
 This is why "leading-edge logic available" and "complete AI system deliverable" are different questions.
 
-## 8. Foundry revenue share is not frontier substitution
+## 8. Foundry share is not frontier-system substitution
 
 TrendForce estimates 1Q26 foundry revenue shares at roughly **72% for TSMC**, **6.5% for Samsung Foundry (excluding System LSI)**, and **5.1% for SMIC**.[^7]
 
