@@ -35,7 +35,7 @@ The size of a possible fine is therefore not treated as the central platform-pow
 
 ## 3. The 10% turnover ceiling is not a fine forecast
 
-Article 23(2) of EU Regulation (EC) No 1/2003 provides that certain fines shall not exceed **10% of the undertaking's total turnover in the preceding business year**.[^1]
+Article 23(2) of **Council Regulation (EC) No 1/2003 of 16 December 2002** provides that certain fines shall not exceed **10% of the undertaking's total turnover in the preceding business year**.[^1]
 
 This is a statutory ceiling.
 
@@ -49,16 +49,16 @@ The 10% figure therefore indicates the strength of the legal tool; it does not e
 
 ## 4. Regulatory procedure must be read by legal state
 
-The EU's Article 102 procedure provides a useful state machine:[^2]
+The European Commission's Article 102 materials describe the main procedural tools and legal states. This report compresses them into a **simplified monitoring map**, not an official six-step sequence:[^2]
 
 1. complaint / ex officio investigation;
-2. request for information;
-3. formal investigation / market-definition and dominance assessment;
-4. Statement of Objections;
-5. prohibition / commitment decision;
-6. fine / remedy.
+2. information gathering, market definition, and dominance / conduct assessment;
+3. Statement of Objections, where issued;
+4. commitment or prohibition decision;
+5. fine and/or remedy, where applicable;
+6. judicial review, where pursued.
 
-Each stage has a different legal meaning.
+These states can overlap or be skipped depending on the case; they should not be read as a mandatory linear process.
 
 An RFI, market inquiry, or news report cannot be rewritten as "the regulator has already found a violation."
 
@@ -109,7 +109,7 @@ These variables can all affect system-stack moats.
 
 ## 7.5 Reported Hugging Face transaction: merger control may extend to developer-distribution foreclosure risk
 
-On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of August 28, 2026, no formal closing or merger-approval announcement from the parties had been obtained, so the transaction is not treated as completed.
+Reuters reported on August 27, 2026 (in an Aug. 26-datelined story), citing The Information, that NVIDIA had agreed to acquire Hugging Face for **US$12.9B**.[^5] No first-party NVIDIA or Hugging Face transaction announcement was identified at the report's August 28 evidence cutoff. The report therefore treats this as a **reported transaction**, not as a first-party-confirmed or completed acquisition.
 
 If the transaction ultimately closes, the competition-policy issue is not simply that NVIDIA would own another software company. A platform already spanning accelerators, CUDA/runtime, networking, and system architecture could also control a major **discovery / distribution / tooling / deployment gateway** for the open-model ecosystem.
 
