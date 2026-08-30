@@ -133,15 +133,15 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 如果 utilization 走弱，同时 supplier support 比重不断上升，则 forward commitments 的信号质量应下调。
 
-### 7A. Financing Reflexivity 需要 Adjudication Matrix，而不是 Synthetic Ratio
+### 7A. Financing Reflexivity 需要 Evidence Matrix，而不是 Synthetic Ratio
 
-公开披露通常无法在同一个 denominator 下同时给出 supplier equity、guarantee、third-party debt、customer equity 与 total project financing。因此，本报告**不制造一个统一的“supplier-support ratio”**，而是沿三个可观察维度裁决 Financing Reflexivity：
+公开披露通常无法在同一个 denominator 下同时给出 supplier equity、guarantee、third-party debt、customer equity 与 total project financing。因此，本报告**不制造一个统一的“supplier-support ratio”**，而是沿三个可观察维度评估 Financing Reflexivity：
 
 1. **utilization / monetization direction**；
 2. **independent risk-capital willingness**；
 3. **supplier equity / credit-support direction**。
 
-### Table 24.1 — Financing Reflexivity Adjudication Matrix
+### Table 24.1 — Financing Reflexivity Evidence Matrix
 
 | Utilization / monetization | Independent risk capital | Supplier support | Interpretation | 对 S4 evidence 的影响 |
 |---|---|---|---|---|
@@ -150,7 +150,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 | weakening | risk appetite / refinancing terms 恶化 | materially rising | supplier support 可能让 order visibility 强于 end economics | 强化 Demand Quality / Financing family |
 | utilization 与 clearing 同步偏弱 | independent capital 撤出或要求大幅 repricing | support 仍无法恢复 execution / cash flow | 从融资加速转向 capital clearing | 与其他 signal family 交叉确认时构成强 S4 evidence |
 
-**Source:** 本章融资结构上的 report adjudication framework.[^5][^6][^7]  
+**Source:** 本章融资结构上的 report evidence framework.[^5][^6][^7]  
 **Note:** 任何一行都不能由单一披露触发，需要看时间方向与 cross-signal confirmation。若未来某个具体项目公开了 same-denominator financing stack，可以计算 project-level ratio；在此之前，matrix 比 synthetic percentage 更可审计。
 
 实际判据是：
@@ -165,7 +165,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 因此，S4 可能持续多年，而不是一个季度完成。电厂、变电设施和数据中心壳体不会像 GPU 库存一样快速消失，它们可能降价、换主人、重谈合同，或者在下一轮集中化中重新成为稀缺资产。
 
-## 9. S4 Adjudication Rule
+## 9. S4 Decision Rule
 
 本报告只有在**多类因果独立的信号族**跨越不止一个主体或产业层，形成广泛、持续且相互印证的恶化时，才把 S4 从压力测试上调为现实主情景。下面五类是监测信号族，不是“五项必须全部满足”的 checklist：
 
