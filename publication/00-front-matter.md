@@ -7,7 +7,8 @@
 **作者：** James（kamanager2012）  
 **资料检索与修订截止：** 2026-08-28  
 **分析与情景时域：** 2026–2036  
-**语言：** 中文主版 / English parallel edition
+**Canonical research language：** English  
+**中文版本：** Professional parallel edition
 
 ---
 
@@ -22,6 +23,16 @@
 - 因果传导机制（M — Mechanism）；
 - 条件化未来状态（S — Scenario）；
 - 足以迫使判断改变的反向信号（X — Falsification）。
+
+### 语言与编辑架构
+
+本报告后续采用 **English-first research workflow**：新增强判断、机制定义、分母选择、证据边界和 scenario language，先在英文 canonical analytical text 中完成，再形成中文专业平行版。
+
+中文版不是逐句翻译。它必须与英文版保持**事实、证据身份、机制、分母与 falsification logic 对等**，但允许使用更符合中文专业研究习惯的句法。HBM、CoWoS、CapEx、TCO、utilization、qualification、system stack、scale-up / scale-out、workload 等行业术语，在保留英文更精确时不强制汉化。
+
+编辑原则：
+
+> **Simplify navigation, not analysis。降低入口摩擦，不降低研究复杂度；不解释目标专业读者本应掌握的基础概念，只解释容易被混淆的分母、量纲、证据身份与因果边界。**
 
 研究目标不是给出单一的“2036 年预测”，而是建立一套可被后续公开事实持续检验的产业分析框架。**2026-08-28** 之后出现的新事实可用于重新评估、证伪或发起下一轮研究，但不会自动写入当前冻结的正式正文或倒写进本报告证据截面；除非明确重新开启正文修订。
 
