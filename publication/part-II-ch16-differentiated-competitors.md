@@ -1,12 +1,12 @@
 # Part II · 第16章：AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径
 
-## 1. 不能把四家公司放进一个“传统芯片阵营”
+## 1. Competitor 正在攻击 Stack 的不同 Layer
 
-AMD、Intel、Qualcomm、Apple 的 compute layer、software、manufacturing access、workload、distribution 与 capital structure 都不同。
+AMD、Intel、Qualcomm、Apple 攻击的是 system stack 的不同 layer，同时拥有不同的 manufacturing access、workload base、distribution channel 与 capital structure。
 
-因此，正确问题不是谁“联合挑战 NVIDIA”，而是：
+真正的问题不是它们是否组成“反 NVIDIA 联盟”，而是：
 
-> **每家公司正在攻击 system-stack dominance 的哪一个层级？**
+> **每家公司能够现实削弱哪一种 system-stack power？**
 
 ## 2. AMD：最直接的 Data Center System Challenger
 
@@ -25,7 +25,7 @@ AMD 在 2026-08-27 发布 ROCm 10，并把 ROCm.AI 推向 general availability�
 
 因此 AMD 的竞争单位也已经从 chip 上移到 system。
 
-## 3. AMD 同样暴露于 Scarce-resource Access
+## 3. AMD 同样暴露于 Scarce-Capacity Access
 
 AMD 与 NVIDIA 会竞争相同的 advanced logic、HBM 与 packaging。
 
@@ -35,7 +35,7 @@ AMD 与 NVIDIA 会竞争相同的 advanced logic、HBM 与 packaging。
 
 这使 AMD 成为观察**第二买方能否稳定获得 advanced logic、HBM 与 packaging quantity assurance**的重要对象。这里不再另造 residual-capacity 术语，直接使用 layer-specific scarce-capacity access。
 
-## 4. Intel：Product Clock 与 Foundry Clock 是两条时间线
+## 4. Intel：Product Clock 与 Foundry Clock 运行在不同时间线
 
 Intel 同时承担 CPU/product competition、accelerator attempts、foundry strategy 与 domestic manufacturing policy。Intel 2025 10-K 与 2026 VLSI Symposium 更新显示 Intel Foundry 仍在推进 external-foundry strategy，18A 已进入 production、18A-P 进入 risk production。[^3][^4] 2026-07 ASML / Intel 又确认 High-NA EUV 已在 Intel 18A 的特定 layers 上进入真实 high-volume logic production。[^9]
 
@@ -43,7 +43,7 @@ Product clock 需要在短周期交付 performance、software 与 customer adopt
 
 因此，Intel 的复苏不能由一颗产品、一项 process milestone 或一座 fab 单独证明。High-NA HVM 是 manufacturing-execution 的重要正面信号，但 external foundry adoption、yield economics 与 customer trust 仍需独立验证。
 
-## 4A. 历史制度记忆：集中首先影响“谁决定节奏”，不等于“集中必然停滞”
+## 4A. Historical Memory：Concentration 改变 Cadence Control，不等于改变 Engineering Causality
 
 Intel 客户端 CPU 历史可以作为一个有边界的对照，但不能被写成“霸权必然挤牙膏”。
 
@@ -82,7 +82,7 @@ Intel 自己在 2016–2017 年年度报告中披露，14nm 与下一代 10nm �
 
 ---
 
-## 5. Qualcomm：从 Edge 改写 Cloud Demand
+## 5. Qualcomm：Edge Substitution 会改变 Cloud Demand
 
 Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 与 connectivity；公司 2026 年公开材料继续强调 Snapdragon X Series PC 上的本地 agentic AI 与 mobile on-device generative AI。[^5][^6]
 
@@ -92,7 +92,7 @@ Qualcomm 的相对优势更接近 smartphone、PC、edge AI、low-power compute 
 
 因此 Qualcomm 对 AI infrastructure 的影响主要是**需求函数重构**，而不是直接替代 frontier training system。
 
-## 6. Apple：Vertical Consumer Stack 的力量在 Workload Placement
+## 6. Apple：Vertical Integration 改变 Workload Placement
 
 Apple 的 silicon、OS、device、application ecosystem、distribution 与 installed base 高度垂直。Apple Intelligence 的公开架构同时使用 on-device processing 与 Private Cloud Compute，说明 workload placement 本身就是其 AI system design 的核心。[^7][^8]
 
@@ -100,7 +100,7 @@ Apple 不是 frontier training system vendor，但它可以决定大量 consumer
 
 如果端侧 capability 快速提高，Apple 会成为影响 cloud inference intensity 的重要平台变量。
 
-## 7. Apple 是 Leading-edge User，但不制造未经披露的客户排名
+## 7. Leading-Edge Access 不支持虚构 Customer Ranking
 
 Apple 长期使用 leading-edge processes，但在没有公司一手客户份额/排名披露时，本报告不把某一具体年份的“第一/第二大客户”身份作为事实。
 
@@ -108,7 +108,7 @@ Apple 长期使用 leading-edge processes，但在没有公司一手客户份额
 
 这再次说明 historical revenue share 不能替代对下一代 incremental scarce-capacity access 的逐层分析。
 
-## 8. 四家公司对主栈的影响来自不同方向
+## 8. Competitive Pressure 是 Multi-Directional
 
 **Table 16.1 — 四类差异化竞争路径**
 
@@ -124,7 +124,7 @@ Apple 长期使用 leading-edge processes，但在没有公司一手客户份额
 
 NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 
-## 9. 哪些变化会提高 S1 Competitive Expansion 的权重
+## 9. 什么变化会提高 S1 Weight
 
 - AMD 在 production system stack 上规模化；
 - Intel foundry 与 product execution 同时改善，增加 manufacturing/system diversity；
@@ -134,7 +134,7 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 
 这些变化可以共同提高 S1 相对 S2 的权重，但 S1/S2 是并列条件情景，不是必然连续阶段。
 
-## 10. 当前判断
+## 10. Current Read
 
 传统芯片巨头没有消失，也没有形成统一联盟。
 
