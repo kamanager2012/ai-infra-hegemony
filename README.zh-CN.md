@@ -8,8 +8,9 @@
 **Canonical research language：English。** 中文版为 professional parallel edition，保持事实、分母、机制与证伪逻辑对等，不做逐句机械翻译。
 
 
-**资料检索与修订截止：2026-08-28**  
-**正文状态：已于 2026-08-30 在定义级修正、双语 parity 修复及一次明确重开的 English-first editorial restructuring 后再次冻结。** 2026-08-28 evidence cutoff 不变。本轮 English-first 改造只调整语言治理、论证顺序、章节标题/入口与中英专业对等，没有引入 cutoff 后事实、没有改动已核定分母与 evidence grade，也没有改变当前 S2 baseline judgment 或 S1–S4 taxonomy。再次冻结后，正式正文恢复为仅接受事实纠错、来源失效修复、引用口径修正、双语实质一致性修复与重大错误修复，除非再次明确重开。
+**Evidence cutoff：** 2026-08-28  
+**Edition revision：** 2026-08-30  
+本版研究判断只使用 cutoff 前可获得的证据。cutoff 后的本版编辑仅用于纠错、证据边界修复、双语一致性与论证结构调整；完整修订记录单独保留。
 
 [网页版源码](docs/) · [开始阅读 32 章中文版](publication/README.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
 

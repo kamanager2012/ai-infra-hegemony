@@ -8,8 +8,9 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 Canonical research language: **English**. The Chinese edition is a professional parallel edition, not a sentence-by-sentence translation.
 
 
-**Retrieval and revision cutoff: August 28, 2026**  
-**Text status: refrozen on August 30, 2026 after definition-level corrections, bilingual parity repair, and an explicitly reopened English-first editorial restructuring pass.** The August 28 evidence cutoff remains unchanged. The editorial pass changed language governance, argument order, chapter labels, and professional bilingual presentation without introducing post-cutoff facts, changing validated denominators, altering evidence grades, or changing the current S2 baseline / S1–S4 taxonomy. Post-freeze changes again revert to factual corrections, source-link repairs, citation-scope corrections, bilingual substantive-parity fixes, and material-error fixes unless the freeze is explicitly reopened.
+**Evidence cutoff:** August 28, 2026  
+**Edition revision:** August 30, 2026  
+Research claims use evidence available by the cutoff. Later edits in this edition are limited to corrections, evidence-boundary repairs, bilingual parity, and editorial restructuring; the revision history is documented separately.
 
 [Web edition source](docs/) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master View](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
 

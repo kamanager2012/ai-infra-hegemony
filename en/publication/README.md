@@ -3,8 +3,9 @@
 ## AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
 
 **Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
-**Retrieval and revision cutoff:** August 28, 2026  
-**Text status:** refrozen as of August 30, 2026 after narrowly scoped definition-level corrections and a bilingual Chapter 32 Master-Judgment parity repair. The August 28 evidence cutoff, current S2 baseline judgment, and four-scenario taxonomy are unchanged; post-freeze changes remain limited to factual corrections, source-link repairs, citation-scope corrections, and material-error fixes.
+**Evidence cutoff:** August 28, 2026  
+**Edition revision:** August 30, 2026  
+Claims in this edition use evidence available by the cutoff; later edits are correctional or editorial and are documented in the research-transparency record.
 
 This 32-chapter report analyzes the shift from individual-accelerator competition toward system-stack competition and its consequences for advanced logic, HBM, advanced packaging, power, cloud architecture, capital formation, traditional end markets, China's parallel stack, Agent-Native Software, Physical AI, labor and talent systems, and the long-run industrial structure.
 

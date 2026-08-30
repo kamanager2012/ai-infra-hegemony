@@ -8,7 +8,7 @@ The GitHub repository stores versioned research text, source indexes, evidence l
 
 **Retrieval and revision cutoff: August 28, 2026.**
 
-**Date interpretation:** the evidence cutoff and text-freeze dates are governance markers for the research snapshot. They define which facts may enter this edition and when general revision stops; the interval between those dates **does not represent the duration of the underlying research, evidence accumulation, or review process**.
+**Date interpretation:** the **evidence cutoff** determines which observed facts and external materials may support this edition. The **edition revision date** records when the current text was last materially edited. Detailed correction history remains available below and in Git history; these dates do not imply external review or audit status.
 
 ---
 
