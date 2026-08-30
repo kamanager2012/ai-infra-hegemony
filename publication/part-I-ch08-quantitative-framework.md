@@ -262,13 +262,13 @@ NonAI_Residual(t)
 
 但 system power 计算必须同时保留两个维度：
 
-### Physical Quantity
+**Physical Quantity**
 
 - kW；
 - MW；
 - GW。
 
-### Delivery State
+**Delivery State**
 
 - Announced；
 - Contracted / Secured；
