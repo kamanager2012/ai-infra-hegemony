@@ -152,19 +152,15 @@ That gap helps determine whether the capital cycle continues expanding, normaliz
 
 ## 9. Current read
 
-As of August 2026, public data still supports:
+As of August 2026, public data still supports a high-investment regime in which **capital formation remains elevated while the utilization and monetization hurdle continues to rise**, rather than a completed capital-clearing cycle.
 
-> **CapEx supercycle continues + hurdle rate for utilization and monetization is rising**
-
-rather than a completed capital-clearing cycle.
-
-A real turn would require multiple independent signal families across utilization/revenue, market clearing, forward commitments, demand-financing quality, and accounting to cross-confirm broad deterioration across actors/layers; Accounting strengthens severity when present but is not required.
+A real turn would require multiple independent signal families across utilization/revenue, market clearing, forward commitments, demand-financing quality, and accounting to confirm broad deterioration across actors and layers. Accounting strengthens the severity assessment when present, but it is not a mandatory gate.
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
 
 ## 10. What would change the view
 
-The thesis that capital expansion remains the dominant regime should be downgraded if the following persist:
+The view that capital expansion remains the dominant regime should be downgraded if the following persist:
 
 - hyperscaler underlying investment expectations decline across multiple reporting periods;
 - data-center / power project cancellations or deferrals rise materially;
