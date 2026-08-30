@@ -2,15 +2,17 @@
 
 ## 1. Scenarios are conditional states, not narratives
 
-The framework does not assign one deterministic 2030 or 2036 outcome, and it does not attach fixed probabilities to S1–S4.
+The framework does not prescribe a single deterministic 2030 or 2036 outcome, nor does it attach fixed probabilities to S1–S4.
 
-Its purpose is operational: **given the evidence now, which structural state best fits the system, which variables discriminate the alternatives, and what observations would force a reweighting?**
+Its purpose is operational: **given the current evidence, which structural state best fits the system, which variables discriminate among the alternatives, and what observations would force a reweighting?**
 
-Scenario weighting therefore depends on state variables that can be monitored:
+The scenario map below summarizes the framework qualitatively.
 
 ![Figure 6 — S1–S4 scenario map](figures/fig-06-s1-s4-scenario-map.svg)
 
 **Figure 6 note:** Qualitative report framework. Positions are schematic rather than calibrated scores; S1–S4 are parallel conditional states with no fixed probabilities.
+
+Scenario weighting depends on state variables that can be monitored:
 
 - layer-specific scarce-capacity access;
 - HBM / advanced-packaging supply;
@@ -27,7 +29,7 @@ Scenario weighting therefore depends on state variables that can be monitored:
 
 ### Structural condition
 
-AI demand keeps growing, but supply expansion and alternative systems mature fast enough to reduce concentration.
+AI demand continues to grow, but supply expansion and alternative systems mature fast enough to reduce concentration.
 
 Typical conditions include:
 
@@ -72,7 +74,7 @@ If supply growth persistently exceeds demand growth across several scarce layers
 
 ### Definition
 
-The current core trends continue:
+The current core trends persist:
 
 - AI demand remains high;
 - leading system-platform seller economics remain strong;
@@ -129,7 +131,7 @@ Typical synchronized signals include:
 - enterprise AI monetization remains weak;
 - hyperscaler CapEx guidance falls;
 - seller / Anchor Buyer commitments shrink, reschedule, or cancel;
-- impairment / write-down rises;
+- impairments / write-downs rise;
 - customer cash generation weakens while supplier equity / credit support or refinancing dependency rises;
 - independent third-party risk capital becomes less willing to absorb exposure.
 
@@ -166,7 +168,7 @@ After capital clearing, cheaper compute can still stimulate new applications.
 
 ## 5A. Capacity Gap is a diagnostic axis, not a fifth scenario
 
-S1–S4 remain parallel conditional states; no second scenario taxonomy is introduced. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
+S1–S4 remain parallel conditional states; no second scenario taxonomy is introduced. To separate “is the layer short today?” from “is the pressure widening or converging?”, the framework uses two complementary metrics.
 
 ### Absolute gap
 
@@ -241,13 +243,13 @@ If Anchor Buyer demand expands and converts into real utilization, S2/S3 weighti
 
 If long-duration commitments are delayed, renegotiated, or underutilized at scale, S4 weighting rises.
 
-Model-company contracts therefore cannot be treated as ordinary cloud-customer spending.
+Model-company contracts therefore should not be treated as ordinary cloud-customer spending.
 
 Seller-assisted financing can strengthen infrastructure formation when it is supported by real utilization, monetization, and independent capital.
 
 It becomes an S4 risk amplifier when customer cash generation weakens while supplier equity / credit support and refinancing dependency keep increasing.
 
-Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity** rather than treating every financing-supported order as either fully organic or automatically artificial.
+Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity**, rather than treating every financing-supported order as either fully organic or automatically artificial.
 
 ## 8. Signals that move S2 toward S1
 
