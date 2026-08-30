@@ -20,7 +20,7 @@ Not yet. Hyperscaler custom systems and China's parallel stack establish that re
 
 ### Test D — Has capital formation entered broad systemic clearing?
 
-Not yet. High CapEx, **US$279B** of aggregate supply commitments, seller-assisted financing, and a **>US$500B** third-party-capital mobilization target all raise the importance of future clearing. None allows the report to infer a bubble or hard landing from spending scale alone. S4 still requires broad, persistent, causally coherent deterioration across independent signals such as utilization, market clearing, forward commitments, and demand quality / financing.
+Not yet. High CapEx, **US$279B** of aggregate supply commitments, seller-assisted financing, and a **>US$500B** third-party-capital mobilization target all raise the importance of future clearing. None supports inferring a bubble or hard landing from spending scale alone. S4 still requires broad, persistent, causally coherent deterioration across independent signals such as utilization, market clearing, forward commitments, and demand quality / financing.
 
 Taken together, the four tests describe:
 
@@ -30,7 +30,7 @@ That is **S2 — Baseline Concentration**.
 
 The Master View therefore answers a different question from Chapter 1:
 
-> **Which mechanisms still sustain S2, which reverse facts would break those mechanisms, and what would force the report toward S1, S3, or S4?**
+> **Which mechanisms still sustain S2, which reverse facts would break those mechanisms, and what would force a shift toward S1, S3, or S4?**
 
 ## 2. System coordination is the relevant form of industrial power
 
@@ -104,7 +104,7 @@ The delivery state must remain explicit:
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load are different physical quantities.
 
-When one bottleneck eases, another can become dominant. This is the report's **Rolling Bottleneck Cascade**.
+When one bottleneck eases, another can become dominant. This is the **Rolling Bottleneck Cascade**.
 
 ---
 
@@ -191,7 +191,7 @@ CXMT disclosures support conclusions about DDR/LPDDR and DRAM market position, b
 
 Foundry revenue share is similarly not a frontier-AI capability measure. TrendForce's **5.1%** SMIC figure for 1Q26 is foundry revenue share, not proof of frontier-system closure.[^12]
 
-The report therefore uses two levels.
+Two closure levels are therefore required.
 
 ### Production-Grade Parallel Stack
 
@@ -219,7 +219,7 @@ AI infrastructure combines assets with very different durations:
 - grid / substation / generation: still longer duration;
 - future workload revenue: uncertain.
 
-The report therefore uses five groups of capital-clearing signals:
+Five groups of capital-clearing signals are used:
 
 - **Accounting:** impairment, write-downs, accelerated depreciation;
 - **Utilization / Revenue:** deployed-compute utilization, AI revenue, verified workflow output;
@@ -306,7 +306,7 @@ The long-run talent divide is not merely who "uses AI." It is:
 
 > **who can organize AI into reliable, portable, measurable production systems and remain accountable for the result**
 
-Putting these layers together, the report's demand-side loop is:
+Putting these layers together, the demand-side loop is:
 
 > **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
 
@@ -316,7 +316,7 @@ If the front half of that chain expands persistently faster than the back half, 
 
 ## 11. Compute is productive infrastructure only when output validates the capital
 
-The report uses the idea of compute becoming a productive input in an economic, testable sense—not as a technological slogan.
+Compute becomes a productive input only in an economic, testable sense—not as a technological slogan.
 
 The relevant standard is:
 
@@ -336,7 +336,7 @@ This is why model capability, infrastructure spend, utilization, and business re
 
 ## 12. Four structural states
 
-The report uses four parallel scenarios.
+Four parallel scenarios structure the long-run judgment.
 
 ### S1 — Competitive Expansion
 
@@ -387,7 +387,7 @@ High-value falsification signals include:
 - supplier equity / credit support rising while independent customer financing and utilization weaken;
 - formal regulatory remedies materially changing tying, interface, or market-entry conditions.
 
-If these signals contradict the current mechanisms, the report must change.
+If these signals contradict the current mechanisms, the judgment must change.
 
 They cannot be explained away by saying the long-run thesis remains intact.
 
@@ -395,7 +395,7 @@ They cannot be explained away by saying the long-run thesis remains intact.
 
 ## 14. Research discipline: Fact → Hypothesis → Mechanism → Scenario → Falsification
 
-The report uses five layers:
+Five analytical layers govern the judgment:
 
 - **F — Fact:** observed and publicly verifiable;
 - **H — Hypothesis:** a future input condition or stress-test assumption;
@@ -451,7 +451,7 @@ If multiple scarce layers and switching costs strengthen simultaneously, S3 gain
 
 If multiple causally independent signal families across utilization/revenue, market clearing, forward commitments, financing quality, and accounting cross-confirm broad and persistent deterioration across actors/layers, S4 becomes the dominant interpretation; Accounting is confirmatory rather than mandatory.
 
-The report's final question is therefore not whether “only AI still matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, and other long-lifecycle high-reliability systems remain important. The relevant question is:
+The final question is therefore not whether “only AI still matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, and other long-lifecycle high-reliability systems remain important. The relevant question is:
 
 > **Can those still-important end systems continue to obtain enough, stable, affordable electronics on their own BOM, qualification, lifecycle, and cost constraints from an upstream system whose priorities are being rewritten by AI/HPC?**
 
