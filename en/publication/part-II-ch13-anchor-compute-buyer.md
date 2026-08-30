@@ -2,7 +2,7 @@
 
 ## 1. Frontier model demand can pull infrastructure forward
 
-At small scale, a model company is a compute tenant. At frontier scale, durable demand can become a financing input for chips, data centers, land, and power.
+At smaller scale, a model company is primarily a compute tenant. At frontier scale, durable demand can become a financing input for chips, data centers, land, and power.
 
 The relationship changes from:
 
@@ -40,7 +40,7 @@ More than 10 GW secured does not mean more than 10 GW is already energized and o
 
 On August 17, 2026, NVIDIA disclosed its role in the PORTS-Pike Technology Campus with SB Energy in Ohio. NVIDIA is providing credit support to secure land, power, and shell (LPS) capacity; the initial deployment is designed for **4.25 IT-GW** of AI-factory capacity. OpenAI is the customer, while SB Energy will build, own, and operate the data center under a **20-year lease** to OpenAI. Phased capacity is planned to begin coming online in **2028**.[^5]
 
-The significance is not only the scale. The transaction structure has changed:
+The significance lies not only in scale; the transaction structure has also changed:
 
 > **Anchor model demand + system-platform credit support + infrastructure developer + long-duration lease**
 
@@ -117,7 +117,7 @@ Large-scale model demand can propagate across the full chain:
 
 > **model demand → cloud CapEx / custom silicon → accelerator / HBM / packaging → data center → power → grid / generation**
 
-AI-infrastructure analysis has to look beyond:
+AI-infrastructure analysis must look beyond:
 
 - NVIDIA revenue;
 - hyperscaler CapEx;
@@ -186,7 +186,7 @@ If the model-company growth thesis fails, a long-duration commitment can move fr
 - model-company financing or revenue pressure;
 - capacity delivery materially outrunning workload growth.
 
-Headline commitment is not the endpoint of the analysis.
+A headline commitment is not the endpoint of the analysis.
 
 The decisive question is:
 
@@ -196,7 +196,7 @@ The decisive question is:
 
 ## 11. Current read
 
-As of August 2026, large model companies constitute a distinct Anchor Buyer category inside AI infrastructure.
+As of August 2026, large model companies constitute a distinct Anchor Buyer category within AI infrastructure.
 
 OpenAI Stargate's secured-capacity and construction milestones, Anthropic/AWS's ten-year compute commitment and Trainium deployment, xAI's self-built Colossus buildout, and PORTS-Pike's LPS/credit-support structure show that model workloads are now shaping:
 
