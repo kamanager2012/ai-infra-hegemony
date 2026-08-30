@@ -5,7 +5,7 @@
 
 HBM 不应只被当成另一条 GPU BOM line 来分析。在 frontier system 中，它同时影响 model capacity、batching、context length、concurrency、communication 与 accelerator utilization；当采购单位上移到 rack / cluster，memory manufacturing intensity 就成为 system-level capacity constraint。
 
-真正的产业问题不只是“需要多少 HBM bits”，而是：
+真正的产业问题比“需要多少 HBM bits”更广，具体是：
 
 > **每一单位高价值 memory 要吸收多少 wafer input、cleanroom space、packaging capacity、qualification effort 与 capital，以及 conventional DRAM 最终剩下多少 effective supply。**
 
@@ -60,7 +60,7 @@ SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KR
 - generation timing；
 - high-volume manufacturing stability。
 
-公开一手资料不足以支持一张完全同口径、可审计的三厂精确 HBM market-share 表，因此本报告不把媒体或卖方估算升级为公司官方份额。
+公开一手资料不足以支持一张完全同口径、可审计的三厂精确 HBM market-share 表，因此媒体或卖方估算不能被升级为公司官方份额。
 
 ### 6.1 Price Feedback 限制单向 Scarcity Narrative
 
@@ -70,7 +70,7 @@ SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KR
 
 > HBM/AI demand 上升 → conventional DRAM residual supply 收紧 → DDR5/RDIMM price 上升 → conventional DRAM per-wafer economics 改善 → 继续向 HBM 转产的相对激励下降 → memory vendor 重新平衡 product mix。
 
-因此，resource reallocation 不是无限的单向过程。长期 allocation 取决于不同产品的 risk-adjusted return per scarce manufacturing input、qualification、yield、generation transition 与 customer-contract structure。
+resource reallocation 不是无限的单向过程。长期 allocation 取决于不同产品的 risk-adjusted return per scarce manufacturing input、qualification、yield、generation transition 与 customer-contract structure。
 
 ## 7. Rack Spec 只说明 Intensity，不代表 Industry Demand
 
@@ -80,7 +80,7 @@ GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level materi
 
 但如果没有公开 rack shipment / deployment count，就不能进一步推出行业实际 HBM consumption。
 
-因此：
+边界是：
 
 > **per-system HBM spec 可以用于理解 memory intensity；行业总需求仍必须由真实 shipment、customer demand 或 memory-vendor supply data 约束。**
 
@@ -98,7 +98,7 @@ GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level materi
 
 HBM 与标准 commodity memory 的一个重要差别是 generation-specific qualification。产品代际推进快、与具体 accelerator generation 强绑定、qualification 周期长、obsolete risk 高。
 
-因此可以同时出现：
+由此可以出现：
 
 > **旧一代 HBM 出现供给宽松，而下一代 frontier HBM 仍然短缺。**
 
@@ -108,7 +108,7 @@ HBM 与标准 commodity memory 的一个重要差别是 generation-specific qual
 
 部分 inference workload 可以用更多 DDR/LPDDR 换取较低单位 memory cost，但 frontier inference 仍受 KV cache、long context、large batch、MoE routing、low-latency serving 与 multi-accelerator communication 影响。
 
-更重要的是，RDIMM 本身已经被计入 TrendForce 的 AI/server memory 前向结构。因此，从 HBM 向 DDR5 转移，是在更宽的 shared memory-resource pool 内改变 cost/bandwidth tradeoff，而不是创造一个独立 supply base。
+更重要的是，RDIMM 本身已经被计入 TrendForce 的 AI/server memory 前向结构。从 HBM 向 DDR5 转移，是在更宽的 shared memory-resource pool 内改变 cost/bandwidth tradeoff，而不是创造一个独立 supply base。
 
 ## 11. Current Read 与 Falsification
 
