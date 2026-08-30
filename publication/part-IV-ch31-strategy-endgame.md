@@ -445,6 +445,13 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 因此，本章给出的不是固定十年终局，而是一组在这些变量变化时必须重新排序的战略优先级。
 
+## 交叉引用
+
+- [第25章：AI 与劳动市场](part-III-ch25-labor-market.md)
+- [第26章：AI 时代教育与人才体系](part-III-ch26-education-talent.md)
+- [第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)
+- [第32章：总判](part-IV-ch32-master-judgment.md)
+
 ## References
 
 [^1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
@@ -452,10 +459,3 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^5]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
-
-## 交叉引用
-
-- [第25章：AI 与劳动市场](part-III-ch25-labor-market.md)
-- [第26章：AI 时代教育与人才体系](part-III-ch26-education-talent.md)
-- [第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)
-- [第32章：总判](part-IV-ch32-master-judgment.md)
