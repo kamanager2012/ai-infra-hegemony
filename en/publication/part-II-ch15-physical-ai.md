@@ -6,7 +6,7 @@
 
 Physical AI has to close perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
 
-A robot's productive value therefore cannot be inferred from model capability or edge TOPS alone.
+A robot's productive value cannot be inferred from model capability or edge TOPS alone.
 
 A complete system has to close:
 
@@ -18,7 +18,7 @@ Large-scale simulation, policy training, and foundation-model training can run i
 
 Real-time control is constrained by latency, thermals, battery, sensor loops, and safety deadlines.
 
-Many Physical AI systems therefore naturally follow:
+Many Physical AI systems naturally follow:
 
 > **cloud-side heavy training + edge-side compressed inference/control**
 
@@ -28,7 +28,7 @@ A roughly 120 kW-class data-center rack and a robot's W/Wh-level power budget be
 
 Humanoids, AMRs, industrial arms, autonomous vehicles, and drones have very different actuator, reducer, sensor, compute, and battery cost structures.
 
-This report therefore does not treat fixed templates such as "actuators 35% / sensors 20% / compute 25%" as industry fact.
+Fixed templates such as "actuators 35% / sensors 20% / compute 25%" are not treated as industry fact.
 
 The real task is to identify the **scarce component** for each robot form factor.
 
@@ -44,7 +44,7 @@ The software narrative can easily understate mechanical bottlenecks such as:
 
 The key variables include durability, backlash, repeatability, noise, yield, maintenance, and cost.
 
-The industry can therefore reach a state where:
+The industry can reach a state where:
 
 > **compute gets cheaper while high-precision mechanical components remain system bottlenecks.**
 
@@ -54,7 +54,7 @@ Robotic systems may require cameras, depth sensing, force/torque sensors, tactil
 
 Model capability becomes stable control only when calibration, latency, robustness, and failure detection are strong enough.
 
-The strategic value of the sensor stack is therefore not just BOM share. It is closed-loop reliability.
+The strategic value of the sensor stack is not just BOM share. It is closed-loop reliability.
 
 ## 6. Edge-platform advantage is workload-specific
 
@@ -84,7 +84,7 @@ The feedback loop can be:
 
 > **physical deployment → data generation → retraining → more cloud compute**
 
-Robot adoption therefore does not necessarily reduce data-center demand. It can create new training and inference workloads.
+Robot adoption does not necessarily reduce data-center demand. It can create new training and inference workloads.
 
 ### 7.1 The robot becomes a new memory / storage demand pool
 
@@ -100,7 +100,7 @@ What it supports is the mechanism:
 
 > **Physical AI commercial scale ↑ → edge memory/storage content ↑ + fleet-generated cloud workload ↑**
 
-Robotics can therefore become both a new edge-memory demand pool and a new source of cloud retraining / storage demand.
+Robotics can become both a new edge-memory demand pool and a new source of cloud retraining / storage demand.
 
 ### 7.2 Robotics is both an AI demand source and an industrial-electronics demand pool
 
@@ -115,7 +115,7 @@ A robot also depends on:
 - edge accelerators;
 - networking.
 
-It can therefore face two upstream constraint sets at once:
+It can face two upstream constraint sets at once:
 
 > **industrial-electronics supply pressure + edge-AI compute / memory pressure**
 
@@ -131,7 +131,7 @@ The data-center power bottleneck is grid / interconnection.
 
 The robot-side bottleneck is battery energy density, runtime, charging, thermal constraints, and peak actuator demand.
 
-Physical AI should therefore be evaluated through:
+Physical AI should be evaluated through:
 
 > **Useful task output / Wh**
 
@@ -145,7 +145,7 @@ Mass production cannot.
 
 Scale thresholds include component yield, assembly time, field failure rate, maintenance interval, supply-chain stability, and unit economics.
 
-The industrial inflection point for Physical AI therefore has to be demonstrated through manufacturing and deployment data, not demonstration videos.
+The industrial inflection point for Physical AI has to be demonstrated through manufacturing and deployment data, not demonstration videos.
 
 ## 9A. The commercial threshold is capital payback
 
@@ -164,7 +164,7 @@ Economic Output
 - Financing / Depreciation
 ```
 
-A robot can therefore be technically capable and still fail to produce sustainable ROI if:
+A robot can be technically capable and still fail to produce sustainable ROI if:
 
 - utilization is low;
 - downtime is high;
@@ -173,7 +173,7 @@ A robot can therefore be technically capable and still fail to produce sustainab
 - replacement / component failure is frequent;
 - upfront CapEx is too high.
 
-Physical AI and data-center AI therefore share one capital rule:
+Physical AI and data-center AI share one capital rule:
 
 > **capability must ultimately be validated through utilization and cash flow.**
 
@@ -185,7 +185,7 @@ Physical AI depends heavily on motors, batteries, sensors, manufacturing, consum
 
 Those layers do not perfectly overlap with the HBM / advanced-packaging / leading-edge compute closure required for frontier AI infrastructure.
 
-China can therefore have stronger competitiveness in robot systems and mechanical supply chains than in some frontier-AI infrastructure layers.
+China can have stronger competitiveness in robot systems and mechanical supply chains than in some frontier-AI infrastructure layers.
 
 This is a separate industrial path and should not be reduced to one "AI chip capability" metric.
 
