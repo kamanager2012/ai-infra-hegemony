@@ -2,9 +2,9 @@
 
 ## 1. The memory question is manufacturing intensity, not bit demand alone
 
-HBM should not be analyzed as a GPU BOM line. In frontier systems it affects model capacity, batching, context length, concurrency, communication, and accelerator utilization; at rack scale, its manufacturing intensity becomes a system-level capacity constraint.
+HBM should not be treated as just another GPU BOM line. In frontier systems it affects model capacity, batching, context length, concurrency, communication, and accelerator utilization; at rack scale, its manufacturing intensity becomes a system-level capacity constraint.
 
-The industrial question is therefore not just "how many HBM bits are demanded?" It is:
+The industrial question is therefore not simply "how many HBM bits are demanded?" It is:
 
 > **How much wafer input, cleanroom space, packaging capacity, qualification effort, and capital does each unit of high-value memory absorb, and what residual supply remains for conventional DRAM?**
 
@@ -107,7 +107,7 @@ Oversupply in one generation does not automatically solve qualification, yield, 
 
 Some inference workloads can trade bandwidth for lower-cost DDR/LPDDR, but frontier inference still faces KV-cache, long-context, large-batch, MoE-routing, low-latency serving, and multi-accelerator communication constraints.
 
-More importantly, RDIMM is already included in TrendForce's forward AI/server memory structure. Shifting some workloads from HBM toward DDR5 therefore changes the cost/bandwidth tradeoff inside a broader shared memory-resource pool rather than creating a completely independent supply river.
+More importantly, RDIMM is already included in TrendForce's forward AI/server memory structure. Shifting some workloads from HBM toward DDR5 therefore changes the cost/bandwidth tradeoff inside a broader shared memory-resource pool rather than creating an independent supply base.
 
 ## 11. Current read and falsification
 
@@ -119,7 +119,7 @@ HBM scarcity is not inevitable. The current mechanism would weaken materially if
 - stacking, yield, logic-base, and advanced-packaging supply elasticity rises sharply;
 - conventional DRAM and HBM manufacturing resources become much more decoupled.
 
-The long-run claim is therefore not "HBM will always be scarce." It is:
+The long-run claim is not that "HBM will always be scarce." It is:
 
 > **As long as frontier-system bandwidth demand grows faster than HBM supply elasticity and manufacturing input per bit remains materially above conventional DRAM, HBM will remain a core scarce layer of AI infrastructure.**
 
