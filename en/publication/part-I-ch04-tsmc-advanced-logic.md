@@ -4,7 +4,7 @@
 
 Leading-edge logic is necessary but not sufficient for frontier AI. The relevant variable is not “who has access to an advanced node?” but **who can secure qualified incremental capacity at the required volume and timing while HBM, packaging, interconnect, power, and software are ready to convert that wafer output into a production system**.
 
-The relevant advanced-manufacturing question is therefore:
+The advanced-manufacturing question is therefore:
 
 > **Who can repeatedly secure enough qualified N2/N2P/A16-class capacity, on schedule, without another layer becoming the binding constraint?**
 
@@ -46,7 +46,7 @@ They support a narrower conclusion:
 
 > **HPC has become one of the central marginal demand drivers of TSMC's advanced-manufacturing capital formation, while the company continues to raise investment in advanced processes and advanced packaging.**
 
-This strengthens the report's focus on the destination of the next capital dollar, but it does not support claims that:
+This strengthens the report's focus on the destination of the next marginal capital dollar, but it does not support claims that:
 
 - 66% of wafers are AI;
 - 77% of advanced-technology revenue belongs to NVIDIA;
@@ -74,11 +74,11 @@ N2 matters for more than transistor density. Competitors care about:
 - system-level performance conversion;
 - roadmap continuity.
 
-Access to a node does not automatically create a system victory. If memory, packaging, interconnect, or power are missing, complete-system delivery remains constrained.
+Access to a node does not by itself confer a system-level advantage. If memory, packaging, interconnect, or power are missing, complete-system delivery remains constrained.
 
 ## 5. Scarce-capacity access remains layer-specific
 
-The report does not use one cross-layer percentage to summarize access to advanced logic, HBM, packaging, networking, and power.
+The report does not use a single cross-layer percentage to summarize access to advanced logic, HBM, packaging, networking, and power.
 
 Those are different physical pools and must be evaluated separately.
 
@@ -98,7 +98,7 @@ If reliable customer-level allocation data becomes available for one physical la
 
 Advanced-capacity allocation is more likely to reflect a combination of price, committed volume, contract duration, prepayment, credit quality, utilization certainty, roadmap stability, customer diversification, and geopolitical risk.
 
-The deterministic claim that "the number-one customer gets all the best resources" is therefore not supportable.
+The claim that "the number-one customer gets all the best resources" is therefore not supportable.
 
 A more defensible mechanism is that order scale, credit, prepayment, and roadmap certainty increase a buyer's bargaining power over incremental resources, while suppliers retain incentives to diversify customers, protect long-run bargaining power, and manage geopolitical risk.
 
@@ -134,7 +134,7 @@ Signals that should reduce TSMC's leading-edge strategic leverage include:
 - advanced-packaging constraints disappearing on a sustained basis;
 - leading-edge workloads migrating materially toward another manufacturing system.
 
-Higher foundry revenue share alone, a single technology demonstration, or policy subsidies are not sufficient to establish an equivalent frontier-manufacturing second source.
+A higher foundry revenue share alone, a single technology demonstration, or policy subsidies are not sufficient to establish an equivalent frontier-manufacturing second source.
 
 ## References
 
