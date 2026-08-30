@@ -64,21 +64,21 @@
       ]
     },
     en:{
-      heroKicker:"INDUSTRY OUTLOOK RESEARCH REPORT · 32 CHAPTERS · BILINGUAL",
-      heroTitle:"The Age of AI Infrastructure Hegemony",
-      heroSubtitle:"2026–2036: How Compute Reshapes Chips, Memory, Power, Capital, and the Global Industrial Order",
+      heroKicker:"AI INFRASTRUCTURE · SEMICONDUCTORS · POWER · CAPITAL",
+      heroTitle:"AI Buyers Are Repricing the Stack",
+      heroSubtitle:"A 2026–2036 framework for who gets advanced logic, HBM, packaging, power — and what is left for everyone else.",
       formalTitle:"The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report",
       formalSubtitle:"Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital",
-      heroSummary:"A long-form industry research report built around facts, mechanisms, scenarios, and falsification criteria. It examines how the shift from individual accelerators to complete system stacks changes upstream resource allocation, capital formation, traditional end markets, and the industrial structure of the next decade.",
-      start:"Read the report",master:"Go to Master Judgment",print:"Print / Save PDF",
-      indexTitle:"Formal 32-Chapter Edition",indexNote:"For the fastest path, read Ch01 → Ch32 → Ch30, then enter the full report by topic.",
+      heroSummary:"The core question is no longer which accelerator is fastest. It is which system stacks can secure scarce capacity, turn it into production workloads, and keep the economics working as supply expands, algorithms improve, and alternative stacks mature.",
+      start:"Start with the thesis",master:"Read the master judgment",print:"Print / Save PDF",
+      indexTitle:"Research map",indexNote:"Start with Ch03 Residual Capacity, Ch12 the Second System Stack, Ch17 China Parallel Stack, or Ch30 the scenario framework.",
       back:"Report home",copyLink:"Copy chapter link",copied:"Copied",printChapter:"Print chapter",
       prev:"Previous",next:"Next",
       thesis:[
-        ["The competitive unit has moved upward","Competition now spans advanced logic, HBM, advanced packaging, interconnect, runtime, rack architecture, power, capital, and workload — not the accelerator alone."],
-        ["More total supply does not guarantee more residual supply","Non-AI Residual Capacity tracks how AI/HPC can reprioritize shared or adjacent upstream resources even while total capacity expands."],
-        ["Physical bottlenecks migrate","Advanced logic, HBM, CoWoS, interconnect, power, LPS, and capital form a Rolling Bottleneck Cascade rather than a single permanent constraint."],
-        ["Long-run judgments must be falsifiable","Facts, hypotheses, mechanisms, scenarios, and falsification are separated so that bold forecasts still have explicit evidence identity, denominators, and reversal conditions."]
+        ["System stack, not a chip war","The competitive unit is advanced logic + HBM + packaging + interconnect + runtime + rack + power + capital + workload — not the accelerator alone."],
+        ["More supply can still mean less for everyone else","Non-AI Residual Capacity asks what phones, PCs, vehicles, and industrial systems can actually obtain after priority demand is allocated."],
+        ["Bottlenecks move — and can reverse","HBM, packaging, networking, power, and capital can become binding in sequence; a shortage at one layer can later flip into headroom or oversupply."],
+        ["The thesis has to survive substitution","Hyperscaler custom stacks, China’s parallel stack, supply expansion, algorithmic efficiency, and capital clearing are explicit paths that can weaken the baseline."]
       ]
     }
   };
