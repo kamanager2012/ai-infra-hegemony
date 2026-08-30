@@ -46,6 +46,10 @@ They support a narrower conclusion:
 
 > **HPC has become one of the central marginal demand drivers of TSMC's advanced-manufacturing capital formation, while the company continues to raise investment in advanced processes and advanced packaging.**
 
+![Figure 7 — TSMC 2Q26 demand and technology mix](figures/fig-07-tsmc-2q26-mix.svg)
+
+**Figure 7 note:** TSMC first-party actuals with separate denominators. HPC 66% and smartphone 22% are platform shares of total revenue; 7 nm and below 77% is a technology share of wafer revenue. None is customer-level wafer allocation.
+
 This strengthens the report's focus on the destination of the next marginal capital dollar, but it does not support claims that:
 
 - 66% of wafers are AI;
