@@ -112,7 +112,7 @@ This converts the efficiency question into an observable capital test:
 - how workload shifts across hardware generations;
 - whether older-system utilization / lease rates / resale values fall faster than accounting depreciation.
 
-Algorithmic progress is therefore neither automatically bullish nor bearish for infrastructure. It is a **capital-recovery variable** whose sign depends on workload growth and generation-level allocation.
+Algorithmic progress is therefore neither automatically expansionary nor contractionary for infrastructure demand. It is a **capital-recovery variable** whose effect depends on workload growth and generation-level allocation.
 
 ---
 
@@ -164,11 +164,7 @@ The 2036 structure depends on the second and third rounds of buildout, workload 
 
 ## 11. Current read
 
-As of August 2026, the more accurate state is:
-
-> **CapEx expansion + rising duration / utilization risk**
-
-rather than a confirmed broad impairment cycle.
+As of August 2026, the more accurate interpretation is that **CapEx expansion remains active while duration and utilization risk are rising**, rather than that a broad impairment cycle has already begun.
 
 The depreciation wall becomes materially more dangerous when sustained utilization decline, rapid residual-value erosion, lower CapEx / commitment signals, and financing stress cross-confirm across actors/layers. Rising impairment strengthens the severity diagnosis when it appears, but formal accounting loss is not a mandatory gate.
 
