@@ -177,7 +177,7 @@ Power / LPS uses one state machine:
 
 Crane, Talen/AWS, Kairos/Google, PORTS-Pike, and similar projects must be updated by current state.
 
-Signing a contract, securing LPS, or announcing future design capacity cannot automatically mark AI power as online.
+Signing a contract, securing LPS, or announcing future design capacity cannot by itself establish that AI power is online.
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
