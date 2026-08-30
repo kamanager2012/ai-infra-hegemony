@@ -27,6 +27,9 @@ The long-run issue is therefore not chip share alone, but who can repeatedly ass
 | **7. Capital risk is a utilization, monetization, and financing-quality problem.** | High CapEx is neither proof of durable demand nor proof of a bubble. The relevant question is whether utilization, market clearing, customer cash generation, and financing quality can validate the asset base. NVIDIA's 2026 financing-platform announcement shows capital formation moving beyond corporate CapEx into long-duration infrastructure finance.[^7] | Ch19, Ch22–Ch24 |
 | **8. The 2026–2036 path is conditional.** | Supply elasticity, substitution, algorithmic efficiency, workload growth, power, financing quality, and system closure can move the industry toward S1, S3, or S4 rather than leaving it permanently in S2. | Ch29–Ch32 |
 
+**Source:** Report synthesis; row-level factual anchors are cited inline and developed in the mapped chapters.  
+**Note:** This table is a synthesis map, not an independent evidence source; repetition here does not upgrade the evidence grade of any underlying claim.
+
 ---
 
 ## 2. What current evidence does — and does not — establish
@@ -57,6 +60,9 @@ The current baseline should move only when the mechanism changes, not when a sin
 | **Toward S3 — Resource Hegemony** | persistent tightness across several independent physical layers; worsening residual capacity for lower-priority buyers; high switching costs; continued expansion of long-duration commitments and coordinated supply access |
 | **Toward S4 — Capital Hard Landing** | broad deterioration across utilization/revenue, market clearing, forward commitments, and demand-quality/financing signals across multiple actors or layers; accounting impairment strengthens severity when present but is not a mandatory gate |
 
+**Source:** Report S1–S4 scenario and monitoring framework; see Chapters 29–30.  
+**Note:** These are conditional reweighting signals, not fixed probabilities, universal numeric thresholds, or a deterministic transition sequence.
+
 A single weak quarter, one project delay, one price move, or one competitor announcement is not enough to reclassify the long-run state.
 
 ---
@@ -75,6 +81,9 @@ The framework does not imply a universal action. Different readers should watch 
 | Infrastructure finance / capital allocation | asset duration, utilization, market clearing, forward commitments, refinancing dependency, customer cash generation | whether capital formation is being validated by demand quality and clearing | “bubble / no bubble” from CapEx size alone |
 | Consumer-electronics / automotive / industrial planning | BOM exposure, product-mix reallocation, quantity assurance, qualification rigidity, Non-AI Residual Capacity | identifying where AI-driven upstream repricing can reach end-system cost or cadence | attributing every component price move to AI |
 | China / alternative-stack assessment | Production-Grade Gates, frontier workload, system economics, manufacturing continuity, multi-generation closure | separating real production substitution from autonomous frontier closure | inferring frontier closure from one domestic component or one benchmark |
+
+**Source:** Report decision-use framework derived from the analytical modules and evidence boundaries in Chapters 3–8, 12–24, and 27–32.  
+**Note:** This is a reader-orientation map, not investment, procurement, legal, or operational advice.
 
 The objective is not to make every reader adopt the same conclusion. It is to make the **relevant denominator, mechanism, and reverse signal explicit before a decision is made**.
 
