@@ -1,25 +1,18 @@
-# Part III · Chapter 20: Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing
+# Part III · Chapter 20: Value Capture and Risk Bearing Across the AI Infrastructure Stack
 
-## 1. The same dollar cannot be counted repeatedly across the supply chain
+## 1. Value capture and risk bearing have to be mapped separately
 
-The same AI-infrastructure spending can appear as:
+One dollar of AI-infrastructure spending can appear as hyperscaler CapEx, system-vendor revenue, foundry revenue, memory revenue, packaging revenue, and data-center / power investment at different points in the chain.
 
-- hyperscaler CapEx;
-- system-vendor revenue;
-- foundry revenue;
-- memory-vendor revenue;
-- packaging revenue;
-- data-center / power investment.
+Those are not independent dollars.
 
-These are not six independent dollars.
+The correct analytical problem is therefore not "how large is the total profit pool?" It is:
 
-A buyer purchases a system and the seller recognizes revenue. The seller then buys foundry, memory, and component inputs. The cloud provider also builds data-center and power infrastructure.
+> **Which layer captures economic rent, which layer carries asset risk, and how does that balance change when scarcity, switching cost, utilization, or financing conditions move?**
 
-Adding the headline numbers across layers creates serious double counting.
+This chapter maps value capture and risk bearing separately to avoid both double counting and simplistic winner/loser rankings.
 
-This chapter therefore analyzes **where value is captured** and **where risk is carried**, rather than manufacturing an unauditable global profit-pool total.
-
-## 2. Value Capture depends on six dimensions
+## 2. Six variables determine value capture
 
 At minimum, the economics of a layer depend on:
 
@@ -32,7 +25,7 @@ At minimum, the economics of a layer depend on:
 
 High revenue share does not automatically mean highest value capture, and gross margins cannot be compared across fundamentally different business models without context.
 
-## 3. System Platform: organizing multiple scarce layers into one high-value product
+## 3. System platforms monetize coordination and switching cost
 
 NVIDIA is currently the clearest system-platform example.
 
@@ -58,7 +51,7 @@ But a system platform still does not own every physical input.
 
 Foundry, HBM, advanced packaging, and power remain external boundaries.
 
-## 4. Foundry / Advanced Packaging: heavy manufacturing can become the quantity gate
+## 4. Foundry / packaging can control quantity without controlling the highest margin
 
 TSMC's 2025 gross margin was **59.9%**, while HPC represented **58%** of annual revenue.[^2]
 
@@ -74,7 +67,7 @@ A manufacturing layer can be a physical bottleneck without owning the highest ma
 
 > **bottleneck location ≠ profit location**
 
-## 5. HBM / Memory: manufacturing intensity and product cycles create scarcity profit
+## 5. Memory captures scarcity rent but remains cyclical
 
 SK hynix reported FY25:
 
@@ -93,7 +86,7 @@ If HBM capacity expands ahead of demand, generation mismatch grows, or demand sl
 
 Memory is therefore better understood as a **high-barrier manufacturing scarcity cycle** than as permanent platform rent.
 
-## 6. Hyperscalers: strong distribution paired with large asset risk
+## 6. Hyperscalers combine distribution power with asset-duration risk
 
 Microsoft, Amazon, Alphabet, and Meta combine cloud distribution, internal workloads, customer bases, custom silicon, and data-center scale.
 
@@ -115,7 +108,7 @@ Their strongest assets are distribution + workload + capital.
 
 Their greatest risk is duration mismatch when long-duration infrastructure is built before workflow revenue materializes.
 
-## 7. Supply commitments are the funding bridge between the system platform and manufacturing
+## 7. Supply commitments connect platform cash flow to manufacturing capacity
 
 NVIDIA's manufacturing, supply, and capacity commitments rose from:[^7]
 
@@ -133,7 +126,7 @@ This is an important dynamic of value capture:
 
 > high seller cash flow can be converted earlier into next-generation wafer, memory, packaging, and component commitments.
 
-## 7A. Financing Coordination: capital organization is becoming a system-level capability
+## 7A. Financing coordination is becoming a system capability
 
 Two August 2026 disclosures show system-platform coordination extending from supply commitments into infrastructure finance:
 
@@ -156,7 +149,7 @@ Therefore:
 
 The full financing and clearing mechanisms are developed in Chapters 23 and 24.
 
-## 8. Power / Powered Land: value comes from time scarcity, not electricity price alone
+## 8. Powered land captures Time-to-Power scarcity
 
 At roughly **120 kW-class rack density**,[^8] data centers require stronger grid interconnection, substations, transformers, cooling, and firm generation.
 
@@ -173,7 +166,7 @@ Power can therefore be a scarce layer, but its economics have to be evaluated to
 
 A long-duration PPA can be a hedge or moat in high-demand scenarios and a long-duration obligation in S4.
 
-## 9. Model / Application: long-run profit depends on workflow, not the model alone
+## 9. Model / application value depends on workflow economics
 
 Model companies and AI applications own model capability, APIs, user distribution, and workflow entry points.
 
@@ -187,7 +180,7 @@ The correct framework is **AI Software Unit Economics**:
 
 A defensible application layer needs to convert model capability into proprietary workflows, data, distribution, retention, and measurable business outcomes.
 
-## 10. End Systems: not "losing to AI," but carrying residual-capacity and supply-assurance pressure
+## 10. End systems carry residual-capacity and quantity-assurance pressure
 
 Smartphones, PCs, game consoles, automotive, industrial systems, robotics, and selected high-reliability electronics remain important end systems and strategic platforms.
 
@@ -213,7 +206,7 @@ The more useful variables are:
 
 Chapter 3 defines the resource mechanism; Chapter 21 develops the observed pricing, configuration, longevity, and allocation transmission.
 
-## 11. Custom silicon redraws the flow of money without necessarily reducing upstream demand
+## 11. Custom silicon redistributes platform rent without necessarily reducing upstream demand
 
 A simplified traditional path is:
 
@@ -229,7 +222,7 @@ It does not necessarily reduce total demand for advanced logic, HBM, packaging, 
 
 System-stack substitution is therefore both a profit-allocation variable and an upstream-resource competition variable.
 
-## 12. Use a Scenario Map, not a permanent "winner ranking"
+## 12. Value capture is scenario-dependent
 
 Value capture changes by scenario:
 
@@ -240,7 +233,7 @@ Value capture changes by scenario:
 
 This is more robust than assigning a permanent ranking to system platforms, HBM, foundries, clouds, and applications.
 
-## 13. Current judgment
+## 13. Current read
 
 As of August 2026, high-quality value capture in AI infrastructure is concentrated mainly in three categories:
 
@@ -258,7 +251,7 @@ It is:
 
 > **How much repeatable cash flow remains at each layer, how much non-substitutability is created, and how much long-duration risk remains on the balance sheet?**
 
-## 14. What evidence would force this chapter to change its judgment
+## 14. What would change the view
 
 The current value-capture map should be reweighted if:
 
