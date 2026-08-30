@@ -24,6 +24,10 @@ A 1 GW PPA cannot be rewritten as "1 GW of AI compute online." A secured LPS pos
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
+![Figure 5 — Power / LPS delivery-state model](figures/fig-05-power-state-machine.svg)
+
+**Figure 5 note:** Report framework. State identity and physical-unit identity must both be preserved; project nameplate values cannot be summed into active AI load unless the underlying denominators match.
+
 ## 3. Representative projects sit on different delivery clocks
 
 ### 3.1 Microsoft / Constellation: restarting an existing ~835 MW nuclear asset
