@@ -217,7 +217,7 @@ S4 should move from stress test toward the main scenario only when **multiple ca
 
 If the report's downstream question is whether important end systems can still obtain enough, stable, affordable resources on their own product cadence, the monitoring framework cannot stop at seller economics, HBM, packaging, and power.
 
-**Table 29.4 — End-system residual-pressure monitoring panel**
+**Table 29.3 — End-system residual-pressure monitoring panel**
 
 | End system | Main public proxies | Question to answer | Must not be inferred |
 |---|---|---|---|
@@ -265,7 +265,7 @@ Dashboard J does not independently determine S1–S4. It tests whether:
 
 ## 11. Evidence-grade quick rules
 
-**Table 29.3 — Default evidence grade for report updates**
+**Table 29.4 — Default evidence grade for report updates**
 
 | Data type | Default grade |
 |---|---|
