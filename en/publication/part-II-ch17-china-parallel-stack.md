@@ -28,16 +28,11 @@ TSMC's 2025 platform mix still shows smartphone at **29%** of annual platform re
 
 ### 2.1 Shipment scale is broader than one vendor
 
-Counterpoint Research's 2026 Q1 global smartphone AP-SoC shipment shares show:[^2]
+Commercial substitution is broader than one vendor.
 
-- UNISOC: **14%**;
-- HiSilicon: **4%**.
+Huawei / HiSilicon has the more mature **premium in-house device + SoC + software/ecosystem vertical loop**, while UNISOC and Xiaomi represent separate domestic design and product paths. The evidence should therefore be read as evidence of multiple commercial design loops, not as a single comparable market-share series.
 
-If commercial scale is measured by actual smartphone-SoC shipments, domestic supply is therefore not limited to Huawei.
-
-A more defensible distinction for Huawei / HiSilicon is that its **premium in-house device + SoC + software/ecosystem vertical loop is more mature**, not that it is the only domestic vendor with shipment scale.
-
-Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^3] Reuters reported in August 2026 that O1 had powered **more than 1M devices**, while the next-generation O3 continues on TSMC 3 nm with projected initial device shipments of 200k–300k units.[^4]
+Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^3] Reuters reported in August 2026 that O1 had powered **more than 1M devices**. The same Reuters report, citing people familiar with the matter, said the next-generation O3 was planned for TSMC 3 nm; one source said shipments for an initial foldable-phone application were targeted at **200k–300k units**.[^4]
 
 The claim that Xiaomi has only "200k–300k scraps of capacity," or that the program is merely a branding exercise, therefore does not enter the fact layer.
 
@@ -45,7 +40,7 @@ A better judgment is:
 
 > **Xiaomi has achieved real production deployment, while multi-generation scale, modem/system integration, foundry dependency, and sustained shipment share still require validation.**
 
-UNISOC represents a different commercial loop: much larger shipment scale in mass-market / entry-5G devices without proving premium-flagship system equivalence.
+UNISOC represents a different commercial loop in mass-market and 5G device silicon without proving premium-flagship system equivalence.
 
 ### 2.2 Design origin is not manufacturing closure
 
@@ -53,11 +48,11 @@ One additional supply-chain discipline is required here:
 
 > **"Domestic design" does not mean "manufacturing autonomy," and shipment share cannot substitute for foundry continuity.**
 
-UNISOC is a fabless IC-design company. Its public product materials confirm that multiple current 5G SoCs use **6nm EUV**; the official M6870 page goes further and explicitly identifies **TSMC 6nm EUV**.[^19] UNISOC / Spreadtrum also has a long first-party manufacturing history with TSMC: in 2011, TSMC disclosed that a Spreadtrum 40nm baseband processor had entered initial production at TSMC Fab 12.[^20]
+UNISOC is a fabless IC-design company. Its public materials support a narrower manufacturing statement than a blanket "6 nm EUV smartphone SoC" claim: the M6870 high-end display / VR platform explicitly identifies **TSMC 6 nm EUV**, while the T9100 smartphone SoC specifies a **6 nm process** but does not identify the foundry or state that the process is EUV.[^19][^21] UNISOC / Spreadtrum also has a long first-party manufacturing history with TSMC: in 2011, TSMC disclosed that a Spreadtrum 40 nm baseband processor had entered initial production at TSMC Fab 12.[^20]
 
-Those observations do **not** support the stronger claim that "all UNISOC products are manufactured by TSMC." The T9100 official page, for example, confirms a **6nm process** but does not itself identify the foundry.[^21] The safe conclusion is therefore:
+Those observations do **not** support the stronger claim that "all UNISOC products are manufactured by TSMC." The safe conclusion is therefore:
 
-> **UNISOC's 14% smartphone AP-SoC shipment share proves real commercial design and shipment scale, but it does not prove domestic foundry closure. Public product and historical supply-chain evidence show TSMC is an important manufacturing dependency, so foundry continuity must be evaluated as a separate gate.**
+> **UNISOC demonstrates real commercial design capability, but public product evidence does not establish domestic foundry closure. Foundry identity and continuity must be evaluated as a separate gate.**
 
 The Xiaomi XRing case is more direct: the Reuters source already cited in this chapter explicitly reports TSMC manufacturing cooperation.[^4] Xiaomi's in-house SoC program is therefore also a case where design capability is real but manufacturing autonomy cannot be inferred from the design origin.
 
@@ -69,7 +64,7 @@ This changes the consumer-computing test. Any future "domestic SoC share" should
 4. **exposure to external licensing, service, or equipment rules**;
 5. **multi-generation manufacturing continuity**.
 
-The January 2025 U.S. BIS foundry due-diligence rule did broaden licensing and due-diligence requirements for front-end foundries / packaging companies handling **certain advanced-computing ICs**, and introduced the Approved / Authorized IC Designer framework; the relevant advanced-node definition includes 16/14nm-and-below or non-planar logic.[^22] But this cannot be simplified into "all PRC-designed smartphone SoCs below 16/14nm automatically require a license." Applicability depends on EAR classification, performance/transistor-count conditions, designer status, destination, and transaction structure.
+The January 2025 U.S. BIS foundry due-diligence rule broadened licensing and due-diligence requirements for front-end foundries / packaging companies handling **certain advanced-computing ICs**, and introduced the Approved / Authorized IC Designer framework. The rule uses 16/14 nm-or-below or non-planar logic among the conditions relevant to its presumption framework for certain advanced logic ICs.[^22] This cannot be simplified into "all PRC-designed smartphone SoCs below 16/14 nm automatically require a license." Applicability depends on EAR classification, performance/transistor-count conditions, designer status, destination, and transaction structure.
 
 The defensible risk statement for UNISOC / Xiaomi is therefore:
 
@@ -152,7 +147,7 @@ DDR/LPDDR supply expansion and HBM-class memory closure therefore must remain se
 
 ### 6.1 Conventional DRAM / NAND can improve before HBM closure
 
-CXMT's current official product page discloses DDR5 chips up to **8000 Mbps**, with 16Gb/24Gb densities and server/workstation/PC module coverage including RDIMM/MRDIMM.[^8]
+CXMT's current official product page discloses DDR5 chips up to **8000 Mbps**, with 16Gb/24Gb densities and multiple form factors serving server, workstation, PC, and other computing uses.[^8]
 
 YMTC officially describes itself as a 3D NAND IDM and discloses its Gen5/Xtacking 4.0 product path together with raw NAND, embedded memory, client SSD, and enterprise SSD portfolios.[^9]
 
@@ -162,21 +157,21 @@ These facts support a narrower conclusion:
 
 Front-end manufacturing for conventional DRAM and NAND is not the same physical pool as TSMC leading-edge logic foundry capacity.
 
-But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packaging, and accelerator-integration dependencies. Micron, for example, has publicly disclosed a TSMC partnership for manufacturing HBM4E base logic dies.[^10]
+But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packaging, and accelerator-integration dependencies.
 
 "Conventional memory can bypass TSMC logic foundry" and "the frontier AI memory stack is independent of TSMC" are therefore different propositions.
 
 ### 6.2 Revenue share and shipment share are different denominators
 
-CXMT's prospectus, citing Omdia, provides an auditable metric: based on **2025 Q2 DRAM revenue**, CXMT held approximately **3.97% global share**, ranking fourth globally and first in China.[^11]
+CXMT's later May 27, 2026 registration prospectus, citing Omdia, reports that based on **2025 Q4 DRAM revenue**, CXMT held approximately **7.67% global share**, ranking fourth globally and first in China.[^7]
 
-The claim that "CXMT already has 8% of global DRAM" therefore does not enter the fact layer.
+The earlier prospectus reported **3.97%** for 2025 Q2.[^11] The two observations are the same revenue-share denominator at different dates and should be presented as a dated progression rather than as competing "current" figures.
 
-YMTC's latest institutional metric uses a different denominator. Counterpoint Research's Q2 2026 Memory & Storage Tracker places YMTC at roughly **14% of NAND shipments**, ranking third globally.[^12] The same research firm's Q1 2026 **13%** figure is a NAND **revenue share**.[^13]
+YMTC's latest institutional metric uses a different denominator. Counterpoint Research's Q2 2026 Memory & Storage Tracker places YMTC at roughly **14% of NAND shipments**, ranking third globally.[^12]
 
-Those two percentages cannot be turned into one continuous time series because their denominators differ.
+Shipment share should not be treated as a revenue-share series or used to infer pricing power without a matching denominator.
 
-What they support is a narrower conclusion:
+What the available evidence supports is a narrower conclusion:
 
 > **China's conventional DRAM / NAND presence in global supply has risen materially, but share growth does not by itself prove HBM, leading-edge logic, or frontier-system closure.**
 
@@ -186,9 +181,7 @@ Claims such as "capacity will double by 2027" or specific Phase-III monthly wafe
 
 AI data-center storage also includes nearline HDD.
 
-Public industry research shows that global nearline / mass-capacity HDD supply remains highly concentrated in Seagate, Western Digital, and Toshiba.
-
-Stronger domestic NAND / SSD capability therefore cannot be rewritten as "the entire storage stack is domestically closed."
+Stronger domestic NAND / SSD capability therefore cannot be rewritten as "the entire storage stack is domestically closed," because data-center storage also includes non-NAND media and workload-specific storage tiers.
 
 AI has also not simply eliminated HDD. Mass-capacity / cold-storage demand remains real, while QLC nearline SSD is accelerating substitution for selected workloads.
 
@@ -205,7 +198,7 @@ TrendForce's 1Q26 foundry revenue-share estimates are approximately:[^14]
 | SMIC | 5.1% |
 
 **Source:** TrendForce, 2026-06-12.[^14]  
-**Note:** These are foundry revenue shares, not advanced-node yield, AI wafer capacity, or frontier-system capability.
+**Note:** These are revenue shares among the global Top-10 foundries tracked by TrendForce, not advanced-node yield, AI wafer capacity, or frontier-system capability.
 
 These are foundry **revenue shares**, not advanced-node yield, AI wafer capacity, or frontier-system delivery capability.
 
@@ -278,7 +271,7 @@ Long-run progress should therefore be evaluated from production workload scale a
 
 Export restrictions raise the near-term cost of acquiring advanced hardware and can slow frontier-cluster deployment.
 
-A separate upstream issue is semiconductor-manufacturing equipment, software, and service. ASML's public statements confirm that EUV sales to China are restricted, the most advanced immersion DUV systems require export licences, and later controls expanded to additional advanced manufacturing technologies, including metrology and software.[^16][^17]
+A separate upstream issue is semiconductor-manufacturing equipment, software, and service. ASML's public statements confirm that EUV-system sales are already restricted and that the most advanced immersion DUV systems require export licences under Dutch controls; later U.S./Dutch restrictions also expanded controls affecting additional semiconductor-manufacturing equipment, metrology, and software.[^16][^17]
 
 This does not mean every domestic memory fab would immediately stop operating under a disruption.
 
