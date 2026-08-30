@@ -335,9 +335,9 @@ Import dependence does not prove that no production-grade parallel stack exists.
 
 ## 12. Why partial closure already matters globally
 
-If China's parallel stack scales simultaneously in advanced logic, HBM, packaging, interconnect, and software, it will do more than replace imports.
+If China's parallel stack scales simultaneously in advanced logic, HBM, packaging, interconnect, and software, it could do more than replace imports.
 
-It will create a second large resource-gravity center, adding new foundry demand, memory demand, packaging demand, power demand, and long-duration capital commitments to regional and global resource allocation.
+It could create a second large resource-allocation center, adding foundry, memory, packaging, power, and long-duration capital demand to regional and global resource allocation.
 
 Current public evidence is not sufficient to show that this second frontier resource center has already reached equivalent full-stack scale.
 
