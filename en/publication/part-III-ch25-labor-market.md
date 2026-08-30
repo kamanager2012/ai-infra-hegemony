@@ -36,7 +36,24 @@ The defensible 2026 judgment remains:
 
 > **Localized hiring-pipeline and early-career signals are visible, but the translation from task exposure to workflow adoption to employment outcome is still unfolding.**
 
-## 3. Adoption Economics is the first gate between technical capability and substitution
+## 3. Task-to-Job Translation requires multiple layers between model capability and labor outcomes
+
+This report uses the following transmission chain:
+
+> **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
+
+The importance of this chain is that any layer can interrupt a direct extrapolation from better model capability to fewer jobs.
+
+For example:
+
+- a model being able to perform a task does not mean the firm's workflow has been redesigned;
+- a workflow being automatable does not mean error, compliance, review, and responsibility costs are low enough;
+- compression of one task does not imply disappearance of the whole occupation;
+- higher output per employee can show up as demand expansion rather than headcount reduction.
+
+Employment forecasting should therefore begin with tasks and workflows rather than jump directly from benchmark performance to job counts.
+
+## 4. Adoption Economics is the first gate between technical capability and substitution
 
 Firms have stronger substitution incentives only when:
 
@@ -46,7 +63,7 @@ Benchmark improvement therefore does not automatically translate into employment
 
 Reliability, latency, security, integration, and legal responsibility all alter adoption economics.
 
-## 4. The most exposed tasks are digital, repeatable, and evaluable
+## 5. The most exposed tasks are digital, repeatable, and evaluable
 
 Examples include:
 
@@ -61,7 +78,7 @@ These tasks have digital inputs/outputs and relatively clear evaluation criteria
 
 Task compression can still appear as higher output per worker rather than immediate elimination of the job.
 
-## 5. Responsibility constraints preserve substantial human-in-the-loop work
+## 6. Responsibility constraints preserve substantial human-in-the-loop work
 
 Medical sign-off, engineering sign-off, field maintenance, nuclear operations, complex negotiation, and care work are constrained by liability, physical presence, licensing, and trust.
 
@@ -69,7 +86,7 @@ AI can change preparation, analysis, and documentation while final responsibilit
 
 Human review is therefore both a software cost and a labor-market boundary.
 
-## 6. The entry-level ladder is one of the most important structural variables
+## 7. The entry-level ladder is one of the most important structural variables
 
 Even if total employment does not fall sharply in the short run, traditional entry-level tasks in junior analysis, junior coding, entry-level support, and routine research can be compressed first.
 
@@ -81,7 +98,7 @@ If junior tasks are heavily automated, firms and education systems have to redes
 
 This can be more important than one universal unemployment forecast.
 
-## 7. Wage outcomes can diverge rather than fall uniformly
+## 8. Wage outcomes can diverge rather than fall uniformly
 
 AI can increase leverage for high-skill workers while lowering the value of routine tasks and raising the premium on system, operator, and verification skills.
 
@@ -93,13 +110,13 @@ Possible outcomes include:
 
 Labor outcomes are therefore more likely to be structurally divergent than to produce the same wage decline across all knowledge workers.
 
-## 8. Physical AI can create a second wave, but more slowly
+## 9. Physical AI can create a second wave, but more slowly
 
 Automation in warehouses, manufacturing, logistics, inspection, and maintenance has to cross hardware cost, reliability, safety, maintenance, and regulatory thresholds.
 
 The labor translation of Physical AI is therefore usually slower and more capital-intensive than purely digital workflow automation.
 
-## 9. AI infrastructure also creates new skill demand
+## 10. AI infrastructure also creates new skill demand
 
 AI expansion simultaneously increases demand for:
 
@@ -114,7 +131,7 @@ AI expansion simultaneously increases demand for:
 
 Labor-market change is therefore a reallocation process, not a one-direction reduction in jobs.
 
-## 10. Whether organizations become thinner depends on review burden and task volume
+## 11. Whether organizations become thinner depends on review burden and task volume
 
 Agent-native workflows can reduce some coordination work.
 
@@ -128,7 +145,7 @@ More useful observables include:
 - revenue per employee;
 - human-review ratio.
 
-## 11. Current judgment
+## 12. Current judgment
 
 As of 2026, there is enough evidence to conclude that AI is restructuring tasks.
 
