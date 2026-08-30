@@ -1,6 +1,6 @@
-# Part III · Chapter 19: AI Infrastructure Capital Formation, Duration Mismatch, and the Utilization Test
+# Part III · Chapter 19: AI Infrastructure Capital Formation — Duration Mismatch, Utilization, and Demand Duration
 
-## 1. The question is capital formation, not one headline CapEx total
+## 1. The capital-cycle question is not one headline CapEx total
 
 The industry is clearly in a high-investment regime. The harder question is **what capital is being formed, on whose balance sheet, over what economic life, and whether productive workload is growing fast enough to carry it**.
 
@@ -95,7 +95,7 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
-## 6A. Demand duration: AI inherits a global digital installed base
+## 6A. Demand duration: AI inherits an installed base rather than starting from zero
 
 If AI-infrastructure demand came only from frontier-model scaling, major algorithmic efficiency gains, model compression, or one large supply expansion could shorten the capital cycle materially.
 
@@ -150,7 +150,7 @@ That gap helps determine whether the capital cycle continues expanding, normaliz
 
 ---
 
-## 9. Current read
+## 9. Current view
 
 As of August 2026, public data still supports:
 
