@@ -31,7 +31,7 @@ Measures that can directly alter system economics include:
 - acquisition restrictions;
 - structural separation.
 
-This report therefore does not treat the size of a possible fine as the central platform-power variable.
+The size of a possible fine is therefore not treated as the central platform-power variable.
 
 ## 3. The 10% turnover ceiling is not a fine forecast
 
@@ -45,7 +45,7 @@ It is not:
 
 Liability, seriousness, duration, relevant sales, procedural outcome, and remedy design all matter.
 
-The 10% figure therefore indicates the strength of the legal tool. It does not enter this report's earnings model.
+The 10% figure therefore indicates the strength of the legal tool. It does not enter the earnings model.
 
 ## 4. Regulatory procedure must be read by legal state
 
@@ -109,7 +109,7 @@ These variables can all affect system-stack moats.
 
 ## 7.5 Reported Hugging Face transaction: merger control may extend to developer-distribution foreclosure risk
 
-On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of August 28, 2026, this report had not obtained a formal closing or merger-approval announcement from the parties, so it does not treat the transaction as completed.
+On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of August 28, 2026, no formal closing or merger-approval announcement from the parties had been obtained, so the transaction is not treated as completed.
 
 If the transaction ultimately closes, the competition-policy issue is not simply that NVIDIA would own another software company. A platform already spanning accelerators, CUDA/runtime, networking, and system architecture could also control a major **discovery / distribution / tooling / deployment gateway** for the open-model ecosystem.
 
@@ -182,7 +182,7 @@ Its structural effect depends on whether binding remedies actually reach migrati
 
 As of August 2026, regulation is an important external variable for AI system platforms.
 
-This report does not treat an investigation, market inquiry, or statutory fine ceiling as proof that structural reform has already occurred.
+An investigation, market inquiry, or statutory fine ceiling is not treated as proof that structural reform has already occurred.
 
 The events that need continuous monitoring are:
 
