@@ -104,7 +104,7 @@ More useful metrics in this phase include:
 
 ## 5. Phase IV: 2034–2036 — maturity, diffusion, concentration, or clearing
 
-By this observation window, four structural states should be easier to distinguish.
+By this observation window, the four structural states should be easier to distinguish empirically.
 
 ### Competitive Expansion
 
@@ -116,7 +116,7 @@ A small number of dominant platforms and scarce-layer suppliers persist while cr
 
 ### Resource Hegemony
 
-Coordination power across logic, HBM, packaging, software/interconnect, and power becomes more concentrated. If executable second paths remain weak, quantity-assurance gaps and upgrade-tax risk can harden for low-bargaining-power and long-qualification end systems.
+Coordination power across logic, HBM, packaging, software/interconnect, and power becomes more concentrated. If executable second paths remain weak, quantity-assurance gaps and upgrade pressure can harden for low-bargaining-power and long-qualification end systems.
 
 ### Capital Hard Landing
 
@@ -194,7 +194,7 @@ The next decade is more likely to be decided by four thresholds than by one part
 3. **Does AI-workload monetization cross the capital-cost-coverage threshold?**
 4. **Can infrastructure move from sponsor / seller-supported financing toward a more independent, sustainable long-duration capital structure?**
 
-Until these thresholds are much clearer, 2036 should remain a conditional cross-section rather than a deterministic answer.
+Until these thresholds are materially clearer, 2036 should remain a conditional cross-section rather than a deterministic endpoint.
 
 ## References
 
