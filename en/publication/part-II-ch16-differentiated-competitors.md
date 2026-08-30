@@ -1,12 +1,12 @@
 # Part II · Chapter 16: AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths
 
-## 1. The four companies should not be collapsed into one "traditional semiconductor camp"
+## 1. Competitors attack different layers of the stack
 
-AMD, Intel, Qualcomm, and Apple differ in compute layer, software, manufacturing access, workload mix, distribution, and capital structure.
+AMD, Intel, Qualcomm, and Apple attack different layers of the system stack and operate with different manufacturing access, workload bases, distribution channels, and capital structures.
 
-The correct question is therefore not who will "join forces against NVIDIA," but:
+The useful question is not whether they form one anti-NVIDIA bloc. It is:
 
-> **Which layer of system-stack dominance is each company attacking?**
+> **Which source of system-stack power can each company realistically erode?**
 
 ## 2. AMD: the most direct data-center system challenger
 
@@ -23,7 +23,7 @@ The real threshold is not GPU design alone. It also includes:
 
 AMD's competitive unit has therefore also moved from chip to system.
 
-## 3. AMD is exposed to the same scarce-resource access problem
+## 3. AMD is exposed to the same scarce-capacity access problem
 
 AMD and NVIDIA compete for many of the same advanced-logic, HBM, and packaging resources.
 
@@ -33,7 +33,7 @@ If HBM / packaging supply elasticity rises, the constraints on AMD system expans
 
 AMD is therefore a useful observable for **non-anchor-buyer access / residual capacity outside the leading buyer**, without requiring a new bespoke core concept.
 
-## 4. Intel: Product Clock and Foundry Clock run on different timelines
+## 4. Intel: product clock and foundry clock run on different timelines
 
 Intel simultaneously carries CPU/product competition, accelerator efforts, foundry strategy, and domestic-manufacturing policy. Intel's 2025 Form 10-K and its 2026 VLSI Symposium update show that Intel Foundry continues to pursue an external-foundry strategy, with 18A in production and 18A-P in risk production.[^3][^4]
 
@@ -45,7 +45,7 @@ The Foundry Clock requires long-duration progress in process technology, yield, 
 
 Intel's recovery cannot therefore be proved by one product, one process milestone, or one fab. High-NA HVM is a meaningful manufacturing-execution signal, while external-foundry adoption, yield economics, and customer trust still require separate validation.
 
-## 4A. Historical institutional memory: concentration changes who controls cadence; it does not imply inevitable stagnation
+## 4A. Historical memory: concentration changes cadence control, not engineering causality
 
 Intel's client-CPU history is useful only as a bounded comparison. It should not be rewritten as “dominance automatically causes toothpaste-style stagnation.”
 
@@ -80,7 +80,7 @@ If AMD, hyperscaler custom systems, open/runtime portability, China's parallel a
 
 ---
 
-## 5. Qualcomm: changing cloud demand from the edge
+## 5. Qualcomm: edge substitution changes cloud demand
 
 Qualcomm's relative strengths are closer to smartphones, PCs, edge AI, low-power compute, and connectivity. Its 2026 materials continue to emphasize local agentic AI on Snapdragon X Series PCs and on-device generative AI on mobile platforms.[^5][^6]
 
@@ -90,7 +90,7 @@ If on-device model capability, memory efficiency, and local inference continue i
 
 Qualcomm's primary effect on AI infrastructure is therefore **demand-function restructuring**, not direct substitution for frontier training systems.
 
-## 6. Apple: the power of a vertical consumer stack lies in workload placement
+## 6. Apple: vertical integration changes workload placement
 
 Apple vertically integrates silicon, operating systems, devices, application ecosystems, distribution, and a massive installed base. Apple Intelligence publicly combines on-device processing with Private Cloud Compute, making workload placement a core part of its AI system design.[^7][^8]
 
@@ -98,7 +98,7 @@ Apple is not a frontier-training system vendor, but it can influence where large
 
 If on-device capability improves rapidly, Apple becomes an important platform variable affecting cloud-inference intensity.
 
-## 7. Apple is a leading-edge user, but this report does not invent customer rankings
+## 7. Leading-edge access does not justify invented customer rankings
 
 Apple has long used leading-edge process technology, but without first-party customer-share or ranking disclosures, this report does not treat a specific-year "largest/second-largest customer" identity as fact.
 
@@ -106,7 +106,7 @@ The important forward variables are whether leading-node launch scale remains st
 
 Historical revenue share is not a substitute for layer-specific analysis of incremental scarce-capacity access.
 
-## 8. The four companies pressure the dominant stack from different directions
+## 8. Competitive pressure is multi-directional
 
 **Table 16.1 — Four differentiated competitive paths**
 
@@ -122,7 +122,7 @@ Historical revenue share is not a substitute for layer-specific analysis of incr
 
 NVIDIA therefore faces multi-layer erosion rather than one unified opponent.
 
-## 9. What would raise the weight of S1 Competitive Expansion
+## 9. What would raise S1 weight
 
 - AMD scales a production system stack;
 - Intel improves foundry and product execution together, increasing manufacturing/system diversity;
@@ -132,7 +132,7 @@ NVIDIA therefore faces multi-layer erosion rather than one unified opponent.
 
 These changes can raise S1 relative to S2, but S1 and S2 are parallel conditional states rather than sequential stages.
 
-## 10. Current view
+## 10. Current read
 
 The incumbent semiconductor companies have neither disappeared nor formed a unified alliance.
 
