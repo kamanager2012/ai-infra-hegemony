@@ -1,6 +1,6 @@
 # Web Edition
 
-This directory contains the zero-build web reader for **The Age of AI Infrastructure Hegemony: 2026–2036**.
+This directory contains the zero-build web reader for **The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report**.
 
 ## Publishing model
 
