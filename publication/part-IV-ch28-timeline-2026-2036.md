@@ -1,8 +1,8 @@
 # Part IV · 第28章：2026–2036 时间线与阶段性里程碑
 
-## 1. 时间线是 Conditional Milestone Map，不是按年份编排的叙事
+## 1. Timeline 是 Conditional Milestone Map，不是 Forecast Calendar
 
-未来十年最容易出现的错误，是把技术 roadmap、capital plan 和 power project 的目标年份写成“必然发生”。
+长期时间线最容易失真的地方，是把 technology roadmap、capital plan 或 project target date 当成 guaranteed event。因此，本章把年份当作 **observation window**，而不是 deterministic milestone。
 
 本报告把时间线分成：
 
@@ -13,7 +13,7 @@
 
 年份是观察窗口，不是事件保证。
 
-## 2. Phase I：2026–2027 — System Race 与 Infrastructure Lock-in
+## 2. Phase I：2026–2027 — System Race 与 Infrastructure Lock-In
 
 当前已经确认的主要锚包括：[^1][^2][^3][^4][^5][^6]
 
@@ -42,7 +42,7 @@
 - system-seller commitments 是否继续增长；
 - smartphone / PC / game console 等直接暴露整机的 memory / storage pressure，是继续转化为 configuration / promotion / hardware-cadence pressure，还是开始缓解。
 
-## 3. Phase II：2028–2030 — Substitution 是否真正形成规模
+## 3. Phase II：2028–2030 — Substitution 是否达到 Production Scale
 
 这一阶段更可能决定 S1 与 S2/S3 的分叉。
 
@@ -81,7 +81,7 @@
 
 PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它是 Phase II 检验“secured LPS 是否真正变成 deployable compute”的重要观察点，而不是 Phase I 的已运行容量。[^9]
 
-## 4. Phase III：2031–2033 — 地理与产业结构可能开始固化
+## 4. Phase III：2031–2033 — Geography 与 Industrial Structure 可能固化
 
 如果 AI infrastructure 持续扩大，到这一阶段竞争会进一步从产品路线转向 regional system capability。
 
@@ -102,7 +102,7 @@ PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它�
 - cross-stack portability；
 - regional supply resilience。
 
-## 5. Phase IV：2034–2036 — 成熟、集中、分散或资本清算
+## 5. Phase IV：2034–2036 — Maturity、Diffusion、Concentration 或 Clearing
 
 到这一观察窗口，四类结构会更容易区分：
 
@@ -122,7 +122,7 @@ logic、HBM、packaging、software / interconnect 与 power 的协调能力进�
 
 已建基础设施相对 workload 过剩，产业从建设竞赛转向利用率、残值与现金流清算。部分资源可能回吐给传统整机，但 supplier retrenchment、库存清算与专用产能折旧也可能造成新的 supply-chain whiplash。
 
-## 6. 不应预写死的未来技术节点
+## 6. Technology Milestone 不应被 Hard-Code
 
 时间线不预设：
 
@@ -179,7 +179,7 @@ Crane、Talen/AWS、Kairos/Google、PORTS-Pike 等项目都必须按当前 state
 
 尤其 Talen 2026 Q2 10-Q 的 April-2026 revised-PPA transition 状态，不等于全部物理转换或 full delivery 已完成；较早 2025 10-K 的 spring-2027 full-transition expectation 与 no-later-than-2032 ramp 仍提供物理时钟背景。[^5]
 
-## 10. 四个决定未来结构的临界点
+## 10. 四个 Threshold 比 Calendar Year 更重要
 
 未来十年真正决定 S1–S4 的不是某一个年份，而是四个 threshold：
 
