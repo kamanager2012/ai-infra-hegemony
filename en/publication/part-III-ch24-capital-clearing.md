@@ -1,6 +1,6 @@
-# Part III · Chapter 24: Capital Clearing — Lead Indicators, Demand Quality, and S4
+# Part III · Chapter 24: Capital Clearing — Lead Indicators, Demand Quality, and the S4 Test
 
-## 1. The adjudication problem: when does high investment become capital clearing?
+## 1. When does expansion become capital clearing?
 
 Large AI-infrastructure investment is not itself evidence of a bubble, and high seller margins are not evidence that buyer-side economics are healthy.
 
@@ -10,7 +10,7 @@ This chapter therefore does not ask whether AI valuations are high. It asks when
 
 One CapEx total, one valuation multiple, one stock drawdown, or one impairment is not sufficient. The decision depends on lead indicators, cross-signal confirmation, and causal breadth.
 
-## 2. Lead and lag indicators of clearing
+## 2. Clearing signals operate on different clocks
 
 These signal families operate on different lead/lag clocks. **Market Clearing, Utilization / Revenue, Forward Commitment, and Demand Quality / Financing can deteriorate before financial statements recognize losses; Accounting is usually a lagging confirmation / severity signal.** The framework therefore does not wait for impairment before increasing S4 weight.
 
@@ -209,7 +209,7 @@ Judgment is cumulative: each signal updates at its own disclosure frequency per 
 
 But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 
-## 10. Current read
+## 10. Current view
 
 As of August 2026, public evidence is still closer to:
 
