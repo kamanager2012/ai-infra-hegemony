@@ -210,6 +210,21 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 这与“全行业 Capital Hard Landing 已经发生”不是同一个判断。
 
+这里还必须补充一个资本市场边界：**market cap 不是现金，但资本市场估值与 cost of capital 会改变企业可以执行的融资、并购、预付款和基础设施支持选项。** 因此，股票市值属于资本能力变量，不属于直接的 physical-capacity 或 realized-profit 分母。
+
+最新融资结构还增加了一个变量：**Financing Reflexivity**。
+
+当 system seller 同时提供 equity、credit enhancement、LPS support 或 compute-financing coordination 时，seller-side demand visibility 会与 customer / infrastructure developer 的融资条件变得更加相关。
+
+这不意味着 demand 是“假的”。
+
+它意味着 demand quality 必须区分：
+
+1. independently financed end demand；
+2. long-duration Anchor Buyer commitments；
+3. third-party infrastructure capital；
+4. supplier equity / credit support。
+
 ---
 
 ## 10. Demand Duration 取决于 Workflow Penetration 与 Economic Output
