@@ -36,7 +36,7 @@ The 32 chapters do **not** carry equal evidentiary weight. Their roles are:
 - **Core industrial mechanisms:** Ch03–Ch08, Ch12–Ch13, Ch17, Ch19–Ch20, Ch24 — the main causal spine for resource allocation, system substitution, capital formation, and clearing.
 - **Supporting industry modules:** Ch02, Ch09–Ch11, Ch16, Ch18, Ch21–Ch23 — deepen specific firms, supply-chain segments, policy boundaries, downstream transmission, or financing structure.
 - **Demand-side / second-order extensions:** Ch14–Ch15, Ch25–Ch26 — test how infrastructure economics may propagate into software workflows, Physical AI, labor, and talent systems; these chapters do not independently determine S1–S4.
-- **Method and adjudication:** Ch27–Ch31 — define evidence rules, monitoring, scenarios, milestones, and strategic optionality rather than adding another physical bottleneck.
+- **Method and evaluation:** Ch27–Ch31 — define evidence rules, monitoring, scenarios, milestones, and strategic optionality rather than adding another physical bottleneck.
 
 This hierarchy is deliberate: **coverage is broad, but the report does not pretend every topic is researched at the same depth or is equally load-bearing.**
 
