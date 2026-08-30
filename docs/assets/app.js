@@ -86,7 +86,7 @@
 
   const $ = (id) => document.getElementById(id);
   const params = new URLSearchParams(location.search);
-  let lang = params.get("lang") === "en" ? "en" : "zh";
+  let lang = params.get("lang") === "zh" ? "zh" : "en";
   const chapterNo = Math.min(32, Math.max(1, Number(params.get("chapter") || 0)));
   const printMode = params.get("print") === "1";
 
@@ -159,7 +159,7 @@
 
   function renderMarkdown(md) {
     if (!window.marked || !window.DOMPurify) {
-      throw new Error("Markdown renderer failed to load.");
+      return '<pre class="raw-markdown">' + escapeHtml(md) + '</pre>';
     }
     marked.setOptions({gfm:true, breaks:false});
     return DOMPurify.sanitize(marked.parse(md), {ADD_ATTR:["target","rel"]});
@@ -232,9 +232,26 @@
     $("printTitle").textContent = t.formalTitle;
     $("printSubtitle").textContent = t.formalSubtitle;
 
-    document.querySelectorAll(".thesis-grid article").forEach((card, i) => {
+    document.querySelectorAll("#thesisView article").forEach((card, i) => {
       card.querySelector("h2").textContent = t.thesis[i][0];
       card.querySelector("p").textContent = t.thesis[i][1];
+    });
+
+    const evidence = lang === "en" ? [
+      ["TSMC · 2Q26","66% / 77%","HPC was 66% of revenue; 7 nm and below were 77% of wafer revenue. Revenue mix is not customer wafer allocation."],
+      ["HBM · 2026E","≈3×","Micron: same-node / same-bits HBM3E requires ≈3× the wafer supply of DDR5. TrendForce separately estimates HBM wafer input at ~22% (top-three-supplier scope) and HBM bit supply at ~9%; the two scopes are not formally divided."],
+      ["LPS · PORTS-Pike","4.25 IT-GW","Initial design capacity planned for phased delivery from 2028. Design / secured capacity is not energized or utilized AI load."],
+      ["FINANCE · 2026-08",">US$500B","Third-party-capital mobilization target over time. It is not capital already funded, committed, or deployed."]
+    ] : [
+      ["TSMC · 2Q26","66% / 77%","HPC 占 revenue 66%；7 nm 及以下占 wafer revenue 77%。这是 revenue mix，不是 customer wafer allocation。"],
+      ["HBM · 2026E","≈3×","Micron same-node / same-bits HBM3E ≈3× DDR5 wafer supply；TrendForce 另估 HBM wafer input（前三大供应商口径）约 22%、HBM bit supply 约 9%，两者 scope 不完全一致，不正式相除。"],
+      ["LPS · PORTS-Pike","4.25 IT-GW","初始 design capacity，计划自 2028 分阶段交付；design / secured capacity 不等于 energized 或 utilized AI load。"],
+      ["FINANCE · 2026-08",">US$500B","third-party-capital mobilization target；不是已经 funded、committed 或 deployed 的资本。"]
+    ];
+    document.querySelectorAll("#evidenceSnapshot article").forEach((card, i) => {
+      card.querySelector("span").textContent = evidence[i][0];
+      card.querySelector("h2").textContent = evidence[i][1];
+      card.querySelector("p").textContent = evidence[i][2];
     });
   }
 
