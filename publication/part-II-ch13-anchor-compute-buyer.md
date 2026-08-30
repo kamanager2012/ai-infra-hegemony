@@ -116,7 +116,7 @@ Anthropic 2026-04 官方披露：[^4]
 
 ### 4.1 xAI / Colossus：自建基础设施型的 Anchor Buyer
 
-xAI 是模型公司直接进入基础设施建设的案例。2024-09，xAI 在 Memphis 将 **Colossus** 训练集群投入运营：约 **100,000 颗 H100**，从开工到上线约 3 个月，并随即宣布计划翻倍至约 200,000 颗 GPU（新增 H100 与 H200 各约 50,000 颗）。[^7]该集群的土地、电力与冷却由 xAI 自行组织。
+xAI 是模型公司直接进入基础设施建设的案例。xAI 在 2024-12 的一手更新中披露，**Colossus** 使用 **100,000 颗 NVIDIA Hopper GPU**，并在 **122 天**内达到 fully operational；公司同时表示计划把集群扩展到合计 **200,000 颗 Hopper GPU**。[^7]这一案例能够直接证明的是：模型公司开始自行组织大规模 compute infrastructure，而不再只依赖既有 cloud capacity。
 
 xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud 或合资项目租用 capacity，而是作为 model company 直接驱动 land、power 与 chip 的前置资本形成。这说明 Anchor Buyer 对上游资本形成的引导并非单一模式——长期租用型 commitment 与自建型 buildout 可以并存。
 
@@ -341,4 +341,4 @@ Anchor Compute Buyer Effect 应在以下情况下被下调：
 [^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 [^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, OpenAI existing and planned NVIDIA Compute commitments approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
-[^7]: xAI / Elon Musk first-party statements on Colossus, as relayed by Tom's Hardware (2024-09-03), "xAI Colossus supercomputer with 100K H100 GPUs comes online — Musk lays out plans to double GPU count to 200K with 50K H100 and 50K H200," https://www.tomshardware.com/tech-industry/artificial-intelligence/xai-colossus-supercomputer-with-100k-h100-gpus-comes-online-musk-lays-out-plans-to-double-gpu-count-to-200k-with-50k-h100-and-50k-h200 ; Fortune (2024-09-03), "Elon Musk's just fired up 'Colossus'," https://www.fortune.com/2024/09/03/elon-musk-xai-nvidia-colossus/ 。C 级媒体转述，数字为 xAI 高管公开声明。
+[^7]: xAI, “xAI raises $6B Series C,” 2024-12-23，一手披露 Colossus 使用 100,000 颗 NVIDIA Hopper GPU、122 天达到 fully operational，并计划扩展到合计 200,000 颗 Hopper GPU，https://x.ai/news/series-c
