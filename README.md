@@ -10,7 +10,7 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 **Retrieval and revision cutoff: August 28, 2026**  
 **Text status: refrozen on August 30, 2026 after narrowly scoped definition-level corrections and a bilingual Master-Judgment parity repair.** The August 28 evidence cutoff remains unchanged. The clearing correction removes an unintended Accounting hard gate; the strategy correction makes a continuously maintained second production path conditional on option value exceeding carrying cost. The current S2 baseline judgment and four-scenario taxonomy are unchanged. Post-freeze changes remain limited to factual corrections, source-link repairs, citation-scope corrections, and material-error fixes; no cosmetic rewriting or unsupported chapter expansion.
 
-[Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master Judgment](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
+[Web edition source](docs/) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master Judgment](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
 
 ---
 
