@@ -87,7 +87,7 @@ This chapter is the **entry point**, not a second full synthesis. Chapter 32 is 
 Recommended paths:
 
 - **Fastest decision path:** Ch01 → Ch32 → Ch30
-- **Resource allocation / traditional end markets:** Ch03 → Ch08–Ch10 → Ch21 → Ch32
+- **Resource allocation / traditional end markets:** Ch03 → Ch04–Ch08 → Ch21 → Ch32
 - **Platform and substitution competition:** Ch02 → Ch12–Ch17 → Ch32
 - **Capital formation and clearing:** Ch19 → Ch22–Ch24 → Ch32
 - **Method, monitoring, and falsification:** Ch27 → Ch29 → Ch30 → Ch32
