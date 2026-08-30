@@ -1,8 +1,8 @@
 # Part II · Chapter 16: AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths
 
-## 1. Competitors attack different layers of the stack
+## 1. Competitors contest different layers of the stack
 
-AMD, Intel, Qualcomm, and Apple attack different layers of the system stack and operate with different manufacturing access, workload bases, distribution channels, and capital structures.
+AMD, Intel, Qualcomm, and Apple compete at different layers of the system stack and operate with different manufacturing access, workload bases, distribution channels, and capital structures.
 
 The useful question is not whether they form one anti-NVIDIA bloc. It is:
 
@@ -120,7 +120,7 @@ Historical revenue share is not a substitute for layer-specific analysis of incr
 **Source:** AMD, Intel, Qualcomm, and Apple official company/product materials.[^1][^3][^5][^7]  
 **Note:** The table classifies competitive paths; it does not imply that the four companies operate in the same market or have directly comparable market shares.
 
-NVIDIA therefore faces multi-layer erosion rather than one unified opponent.
+NVIDIA therefore faces competitive pressure across multiple layers rather than from one unified opponent.
 
 ## 9. What would raise S1 weight
 
