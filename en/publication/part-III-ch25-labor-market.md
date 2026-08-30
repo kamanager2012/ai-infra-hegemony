@@ -4,7 +4,7 @@
 
 ## 1. AI changes tasks before job structures
 
-Jobs are bundles of tasks, and those tasks differ in automation cost, review burden, liability, physical presence, and trust.
+Jobs are bundles of tasks, and those tasks differ in automation cost, review burden, liability, physical presence, and trust.[^1]
 
 The analytical starting point is task and workflow exposure—not direct job-loss extrapolation.
 
@@ -12,7 +12,7 @@ The analytical starting point is task and workflow exposure—not direct job-los
 
 ILO and IMF research both require a separation between occupational exposure and actual adoption, job redesign, and employment outcomes.
 
-ILO's 2025 refined index estimates that roughly **one in four jobs worldwide has some GenAI exposure**, while emphasizing that transformation is more likely than simple redundancy.[^1]
+ILO's 2025 refined index estimates that roughly **one in four workers worldwide is in an occupation with some GenAI exposure**, while emphasizing that transformation is more likely than simple redundancy.[^1]
 
 The IMF framework estimates around **40% of global employment** and about **60% of advanced-economy employment** as exposed to AI.[^2]
 
@@ -35,6 +35,8 @@ Anthropic's June 2026 Economic Index provides a different early signal: responde
 The defensible 2026 judgment remains:
 
 > **Localized hiring-pipeline and early-career signals are visible, but the translation from task exposure to workflow adoption to employment outcome is still unfolding.**
+
+**Scope note:** Sections 3–11 are report-side transmission mechanisms, illustrative task / occupation examples, and monitoring recommendations derived from the exposure evidence above and the report's broader workflow framework. They are not presented as externally validated universal causal laws or as quantified employment forecasts.
 
 ## 3. Task-to-Job Translation requires multiple gates
 
@@ -147,7 +149,7 @@ More useful observables include:
 
 ## 12. Current read
 
-As of 2026, there is enough evidence to conclude that AI is restructuring tasks.
+As of 2026, the cited evidence supports the narrower conclusion that AI exposure and task-level use are already affecting parts of workflow design and hiring pipelines.
 
 There is not enough cross-country evidence to support a universal "economy-wide job disappearance rate."
 
@@ -159,7 +161,7 @@ Any framework that converts an exposure percentage directly into an unemployment
 
 ## References
 
-[^1]: International Labour Organization, “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, 2025, https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
-[^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+[^1]: International Labour Organization, Gmyrek et al., “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, May 2025, https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf
+[^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note SDN/2024/001, January 2024, https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf
 [^3]: Stanford HAI, “2026 AI Index Report — Economy,” early-career software-developer employment and employer workforce expectations, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, reported and anticipated task exposure among Claude users; survey explicitly not representative of the general population, https://www.anthropic.com/research/economic-index-june-2026-report
