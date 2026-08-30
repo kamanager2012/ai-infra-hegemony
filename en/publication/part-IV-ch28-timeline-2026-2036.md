@@ -81,7 +81,7 @@ Observe how much headline contracted / secured capacity converts into energized 
 
 PORTS-Pike is publicly planned to begin phased delivery from **2028**, making it a useful Phase II test of whether secured LPS and future IT-GW design capacity actually become deployable compute rather than a Phase I operating-capacity claim.[^9]
 
-## 4. Phase III: 2031–2033 — Geography and industrial structure begin to harden
+## 4. Phase III: 2031–2033 — Geography and industrial structure may begin to harden
 
 If AI infrastructure continues expanding, competition is likely to move further from product roadmaps toward regional system capability.
 
