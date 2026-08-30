@@ -327,6 +327,27 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 - **Toward S4:** multiple causally independent signal families deteriorate broadly and persistently across actors/layers; at least one real-economy / market / commitment signal must be present, while Accounting is confirmatory rather than mandatory;
 - **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
 
+## 12B. Five headline inflection tests for the next decade
+
+For readers who want a fast way to judge whether the long-run structure is changing, Dashboards A–J can be compressed into five headline tests. These are not a new model and they do not impose one universal numeric threshold.
+
+1. **Is Non-AI Residual Capacity / Quantity Assurance improving or deteriorating persistently?**  
+   Track contract prices, allocation fulfillment, lead times, configuration, promotion, and qualified alternates across smartphones, PCs, game consoles, automotive / industrial systems, rather than relying on gross global wafer or memory capacity.
+
+2. **Has a second System Stack crossed a real production-workload threshold?**  
+   Track production-workload share, external availability, migration cost, utilization, and system TCO for Google / AWS / Microsoft / Meta custom systems. A single accelerator benchmark or product launch does not establish system-level substitution.
+
+3. **Is China's Parallel Stack improving both production-grade economics and autonomous closure?**  
+   Track real workloads, unit economics, software/runtime, and cluster utilization alongside advanced logic, HBM-class memory, advanced packaging, and equipment / materials / service continuity. A usable production system and a self-sustaining multi-generation frontier stack remain separate tests.
+
+4. **Can utilization, monetization, and independent financing capacity cover the expanding capital base?**  
+   Track revenue / utilization, used-system and lease clearing, forward commitments, customer cash generation, third-party risk capital, supplier support, and refinancing dependency. Duration mismatch becomes more dangerous when technical asset life is shorter than financing duration.
+
+5. **Does Power / LPS actually convert from secured to energized and utilized?**  
+   The key metric is not headline GW. It is the conversion speed from Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized, and whether Time-to-Power continues to create material delivery differences.
+
+These five tests deliberately avoid arbitrary universal rules such as “eight quarters” or “30%–40%.” A material scenario reweighting requires **comparable continuous observation plus confirmation from at least two independent mechanism dimensions**.
+
 ## 13. Update discipline
 
 One news item should not rewrite the entire report.
