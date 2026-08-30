@@ -24,7 +24,7 @@ They are not "the same percentage of tasks will be automated," and they are not 
 
 Stanford AI Index 2026 reports that U.S. employment for **software developers aged 22–25 fell by nearly 20% from 2024**, while roughly one-third of surveyed organizations expect AI to reduce workforce over the following year. At the same time, broad employment data have not shown job losses on the same scale across the economy.[^3]
 
-This evidence has to be read narrowly:
+This evidence must be read narrowly:
 
 - it refers to a specific country, age cohort, and occupation;
 - hiring cycles, macro conditions, graduate supply, and organizational restructuring can also affect the observed change;
@@ -94,7 +94,7 @@ A conventional career ladder often looks like:
 
 > junior work → experience accumulation → senior judgment
 
-If junior tasks are heavily automated, firms and education systems have to redesign how new workers accumulate experience.
+If junior tasks are heavily automated, firms and education systems must redesign how new workers accumulate experience.
 
 This structural effect can matter more than a single economy-wide unemployment forecast.
 
@@ -112,7 +112,7 @@ Labor outcomes are more likely to diverge structurally than to produce the same 
 
 ## 9. Physical AI can create a slower second wave
 
-Automation in warehouses, manufacturing, logistics, inspection, and maintenance has to cross hardware cost, reliability, safety, maintenance, and regulatory thresholds.
+Automation in warehouses, manufacturing, logistics, inspection, and maintenance must cross hardware-cost, reliability, safety, maintenance, and regulatory thresholds.
 
 The labor translation of Physical AI is usually slower and more capital-intensive than purely digital workflow automation.
 
@@ -129,7 +129,7 @@ AI expansion simultaneously increases demand for:
 - safety/compliance roles;
 - model-infrastructure roles.
 
-Labor-market change is better understood as reallocation than as a one-direction reduction in employment.
+Labor-market change is better understood as reallocation than as a one-directional reduction in employment.
 
 ## 11. Organization shape depends on review burden and task volume
 
@@ -149,7 +149,7 @@ More useful observables include:
 
 As of 2026, there is enough evidence to conclude that AI is restructuring tasks.
 
-There is not enough cross-country evidence to support one universal "economy-wide job disappearance rate."
+There is not enough cross-country evidence to support a universal "economy-wide job disappearance rate."
 
 The correct sequence remains:
 
