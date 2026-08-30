@@ -15,7 +15,7 @@ Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore have to be eva
 - orchestration;
 - production workload.
 
-The report uses **Cloud System-Stack Substitution** as shorthand for this economic substitution test. A benchmark win is not enough. The stack has to survive production utilization, software friction, and workload-specific system economics.
+The report treats **cloud system-stack substitution** as an economic substitution test, not a separate theory. A benchmark win is not enough. The stack has to survive production utilization, software friction, and workload-specific system economics.
 
 ## 2. Captive workload is the structural advantage
 
@@ -198,9 +198,9 @@ Internal success can still materially change hyperscaler procurement, bargaining
 
 ## 11. The likely equilibrium is workload segmentation
 
-The most realistic long-run structure may not be one side eliminating the other.
+The most plausible long-run structure is not necessarily one side eliminating the other.
 
-A more plausible equilibrium is workload segmentation.
+A more plausible equilibrium is **workload segmentation**.
 
 That segmentation also has to distinguish **training topology** from **inference topology**. Frontier training is typically more sensitive to large-scale collective communication, scale-up / scale-out fabrics, and synchronization efficiency. Inference is more workload-dependent, with memory capacity / bandwidth, latency, batching, power efficiency, and cost per token often carrying greater weight. At the same time, inference does not mean networking becomes irrelevant: Google Ironwood still integrates a 9,216-chip pod with dedicated ICI, while Microsoft states that Maia 200 scales over standard Ethernet to clusters of up to 6,144 accelerators.[^1][^4]
 
