@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kamanager2012.github.io/ai-infra-hegemony/sitemap.xml
