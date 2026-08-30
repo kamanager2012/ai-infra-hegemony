@@ -4,7 +4,7 @@
 
 ## 1. Durable talent advantage comes from system understanding, not tool familiarity
 
-Prompting, model calls, and basic automation can commoditize quickly. Durable advantage comes from understanding how models, software, compute, data, power, economics, and responsibility interact in a production system.
+This report treats prompting, model calls, and basic automation as capabilities with relatively low barriers to diffusion. The more durable advantage is expected to come from understanding how models, software, compute, data, power, economics, and responsibility interact in a production system.
 
 The more durable capability stack includes:
 
@@ -22,21 +22,23 @@ This mirrors the industrial shift from competition around a single chip toward c
 
 ## 2. Adoption is moving faster than curriculum and policy
 
-The Stanford HAI 2026 AI Index Education chapter provides several clear signals:[^1]
+The Stanford HAI 2026 AI Index Education chapter summarizes several adoption and education-system indicators:[^1]
 
-- **4 out of 5** U.S. high-school and college students use AI for schoolwork;[^1]
-- only about half of middle/high schools have an AI policy;[^1]
-- **just 6% of teachers say those policies are clear**;[^1]
-- U.S. four-year university CS undergraduate enrollment fell **11% from 2024 to 2025**;[^1]
-- AI software-related master's graduates grew **17% from 2023 to 2024**.[^1]
+- roughly **4 out of 5** U.S. high-school and college students use AI for schoolwork;
+- about half of middle/high schools have an AI-use policy;
+- the Stanford summary reports that only **6%** of teachers describe their schools as having clear, comprehensive AI policies;
+- the Stanford summary reports an **11%** decline in U.S. four-year university CS undergraduate enrollment from 2024 to 2025;
+- AI software-related master's graduates grew **17% from 2023 to 2024**.
+
+These figures come from different underlying studies, populations, and definitions. They are directional indicators, not one internally consistent time series or survey denominator.
 
 The pattern is:
 
 > **Tool Adoption > Curriculum Update > Institutional Reform**
 
-The same Stanford chapter also reports that **more than 90% of countries** now offer computer science in primary or secondary education, while formal AI education has spread more slowly; China and the United Arab Emirates moved to mandatory AI education beginning with the **2025–26 school year**.[^1]
+The same Stanford chapter reports that **more than 90% of countries** now offer computer science in primary or secondary education, while formal AI education has spread more slowly.[^1] The United Arab Emirates introduced a national mandatory AI curriculum for government schools beginning in the **2025–26 school year**. In China, national policy direction is being accompanied by provincial / municipal curriculum mandates and pilots rather than one uniform nationwide classroom implementation date.
 
-This moves the question from isolated school experimentation toward national education-system design.
+This moves the question from isolated school experimentation toward education-system design at national and subnational levels.
 
 The question is no longer whether students are using AI.
 
@@ -46,13 +48,15 @@ It is whether institutions can verify that students understand, control, and tak
 
 UNESCO's AI Competency Framework for Students defines **12 competencies across four dimensions**: human-centred mindset, ethics of AI, AI techniques and applications, and AI system design, organized across Understand → Apply → Create.[^2]
 
-UNESCO's teacher framework defines **15 competencies across five dimensions**, adding AI pedagogy and AI for professional learning to human-centred, ethics, and foundations/application capabilities.[^3]
+UNESCO's teacher framework defines **15 competencies across five dimensions**: human-centred mindset, ethics of AI, AI foundations and applications, AI pedagogy, and AI for professional learning.[^3]
 
 The direction is consistent with the broader industrial thesis:
 
 > **AI literacy cannot collapse into prompt technique. Durable capability includes judgment, responsibility, system understanding, application design, and verification.**
 
 A curriculum centered on the currently dominant model or tool is likely to become obsolete quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
+
+**Scope note:** Sections 3–11 are report recommendations derived from the industrial framework and cited competency models. They are not presented as externally validated causal findings about one optimal curriculum.
 
 ## 3. Layer one: AI literacy
 
