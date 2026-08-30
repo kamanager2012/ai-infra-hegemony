@@ -325,19 +325,19 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 - cloud custom silicon 已经成为实质竞争力量；
 - 竞争单位已经从自研芯片上移到完整 system stack；
-- hyperscaler 正在同时攻击 accelerator、software、interconnect、rack/pod 与 workload economics；
+- hyperscaler 正在 accelerator、software、interconnect、rack/pod 与 workload economics 多层同时竞争；
 - frontier training 与广泛外部生态仍未证明已经系统性脱离 NVIDIA；
 - custom systems 仍大量竞争 advanced logic、HBM、advanced packaging 与 power。
 
 因此：
 
-> **Cloud System-Stack Substitution 是最可能把 S2 — Baseline Concentration 推向 S1 — Competitive Expansion 的结构变量之一。**
+> **cloud system-stack substitution 是最可能把 S2 — Baseline Concentration 推向 S1 — Competitive Expansion 的结构变量之一。**
 
 但它的强度必须用 production workload share、迁移成本、利用率、外部 adoption 与上游资源依赖来衡量，而不是用产品发布数量衡量。
 
 ## 13. 什么事实会改变当前判断
 
-如果 cloud custom systems 长期只停留在小规模 internal workload，且出现以下情况，应下调 Cloud System-Stack Substitution 判断：
+如果 cloud custom systems 长期只停留在小规模 internal workload，且出现以下情况，应下调 cloud system-stack substitution 判断：
 
 - production utilization 低；
 - migration / debugging cost 持续高；
