@@ -175,6 +175,8 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 - [Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 产能、技术与平台收入结构](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
+- [Table 8.1 — NVL72 Rack-to-MW D 级强度换算](part-I-ch08-quantitative-framework.md)
+- [Table 8.2 — 2026 Public-Data Quantification Readiness by Layer](part-I-ch08-quantitative-framework.md)
 
 ## Part II
 
@@ -191,6 +193,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 ## Part IV
 
 - [Table 27.1 — 本报告证据等级体系](part-IV-ch27-research-method.md)
+- [Table 27.2 — 核心概念层级](part-IV-ch27-research-method.md)
 - [Table 29.1 — NVIDIA seller economics 与 forward-reservation 基线](part-IV-ch29-monitoring-framework.md)
 - [Table 29.2 — Power / LPS delivery state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — End-system residual-pressure monitoring panel](part-IV-ch29-monitoring-framework.md)
@@ -2475,6 +2478,20 @@ NonAI_Residual(t)
 
 一个正确的 power model 必须同时说明“多少”和“处于什么状态”。
 
+### Table 8.1 — NVL72 Rack-to-MW D 级强度换算
+
+| 项目 | 官方 / 已知输入 | 1 MW rack IT load 的机械换算 |
+|---|---:|---:|
+| Rack power | ≈120 kW / rack | ≈8.33 racks |
+| GPU | 72 / rack | ≈600 GPUs |
+| HBM3E | 13.4 TB / rack | ≈111.7 TB |
+| LPDDR5X | 17 TB / rack | ≈141.7 TB |
+
+**Source:** NVIDIA GB200 NVL72 official specification and DGX GB200 Hardware Guide.[^3][^5]  
+**Note:** 该表是 **D 级机械强度换算**，仅回答“如果 1 MW IT rack load 全部由该 rack configuration 构成，物料强度是多少”。它**不是 shipment、deployment、energized-facility capacity 或全行业需求估计**，且不包含 PUE、network/storage、power-conversion、redundancy 与 facility overhead。
+
+这类换算的价值在于把 system spec 变成可审计的 engineering intensity，同时保留“spec ≠ deployment”的边界。
+
 ---
 
 ## 12. Forward Commitment 是 Supply Reservation Intensity 的 Proxy，而不是 Shipment
@@ -2521,6 +2538,24 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 - supply elasticity。
 
 只有当某一具体 physical pool 的 customer-level allocation 可观察时，才使用可审计的百分比。
+
+### Table 8.2 — 2026 Public-Data Quantification Readiness by Layer
+
+| Physical layer | 当前公开可观察输入 | Absolute Gap 能否闭合 | 2026 更可靠的输出 |
+|---|---|---|---|
+| Advanced logic | node / platform revenue mix、CapEx、supplier guidance、部分 roadmap | **不能**：缺 customer-level qualified wafer demand / allocation | direction、access proxy、node mix；不造 wafer-share gap |
+| HBM / DRAM | vendor supply guidance、same-bits wafer trade ratio、institutional bit forecast | **部分可量化，不能闭合全球 gap**：缺 customer-level bits / wafer allocation | manufacturing intensity、tightness、product-mix shift |
+| Advanced packaging | supplier guidance、tightness statement、部分 institutional demand estimate | **不能**：缺统一 qualified package-start denominator 与 customer allocation | lead time、qualification、allocation proxy |
+| Networking | system spec、公开 topology / deployment、vendor product data | **部分**：缺统一 workload-level topology / utilization denominator | workload-specific bandwidth / latency / TCO |
+| Power / LPS | project-level contracted / secured / permitted / construction / energized states | **项目级部分可闭合，全球不能** | Time-to-Power、state conversion、project delivery gap |
+| Capital / Utilization | CapEx、supply commitments、financing structure、部分 revenue disclosure | **资本基数可观察，真实 utilization 不完全公开** | capital-base growth vs utilization / monetization proxy |
+
+**Source:** 本报告根据公开证据可闭合程度整理。  
+**Note:** “不能闭合”不是数据空白的借口，而是明确指出**缺失的分母是什么**。未来只有当 demand 与 capacity 在同一 physical unit、delivery window 与 qualification boundary 下同时可观察时，才把该层升级为可审计的 Absolute Gap。
+
+这张表给出 Ch08 的量化边界：
+
+&gt; **能算的，明确计算；只能部分闭合的，明确 proxy；分母缺失的，不用 point estimate 填空。**
 
 ---
 
@@ -7216,20 +7251,22 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 
 ## 11. 本报告核心分析概念
 
-本报告保留以下主要概念：
+为避免把“命名数量”误当成“理论数量”，本报告把分析语言分成两层：**承重核心机制**与**辅助描述 / 测量语言**。
 
-- **AI Resource Gravity**；
-- **Scarce-layer Value Capture**；
-- **Non-AI Residual Capacity**；
-- **Two-Speed Semiconductor Economy**；
-- **AI Capacity Gap / AI Capacity Growth Gap**；
-- **Cloud System-Stack Substitution**；
-- **Anchor Compute Buyer Effect**；
-- **Rolling Bottleneck Cascade**；
-- **AI Inheritance Effect**；
-- **AI Software Unit Economics**；
-- **Task-to-Job Translation**；
-- **Financing Reflexivity**。
+### Table 27.2 — 核心概念层级
+
+| 层级 | 概念 | 在主链中的作用 |
+|---|---|---|
+| 承重核心 | **Non-AI Residual Capacity** | 解释优先分配后传统整机真正可获得的有效供给 |
+| 承重核心 | **Layer-specific Incremental Scarce-Capacity Access** | 按 logic / HBM / packaging / networking / power 分层判断新增稀缺资源可得性 |
+| 承重核心 | **Rolling Bottleneck Cascade** | 解释约束如何在不同物理层迁移、缓解或反转 |
+| 承重核心 | **Cloud System-Stack Substitution + Parallel-Stack Closure Boundary** | 区分第二系统栈的真实替代能力，以及 production-grade substitution 与 autonomous frontier closure |
+| 承重核心 | **Financing Reflexivity** | 判断订单、资本形成与 seller-assisted financing 之间的反馈和需求独立性 |
+| 承重核心 | **AI Inheritance Effect** | 解释 IT installed base 如何扩张 AI workflow penetration 与长期需求池 |
+| 辅助描述 / 测量 | AI Resource Gravity、Scarce-layer Value Capture、Two-Speed Semiconductor Economy、Anchor Compute Buyer Effect、AI Capacity Gap / Growth Gap、AI Software Unit Economics、Task-to-Job Translation | 用于描述方向、分层测量或延伸传导，不单独构成新的“总理论” |
+
+**Source:** 本报告研究方法。  
+**Note:** 辅助术语可以很重要，但其作用是提高因果表达和量纲清晰度；不能因为有独立名称，就被视为已经得到独立实证验证的理论。
 
 这些概念只用于组织因果关系。
 
