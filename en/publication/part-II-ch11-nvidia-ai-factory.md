@@ -8,15 +8,13 @@ Its strategy is better described as:
 
 > **interface control + reference architecture + software/runtime + supply orchestration + financing coordination**
 
-The system boundary now spans GPU / CPU, NVLink / NVSwitch, networking, rack-scale design, liquid-cooling requirements, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^1][^2][^3]
+The system boundary now spans GPU / CPU, NVLink and switching, networking, rack-scale systems, liquid-cooling architecture, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^1][^2][^3][^4]
 
 ## 2. Rack-scale reference architecture changes OEM / ODM economics
 
-In the accelerator-card era, OEMs had wide latitude to define server architecture around the GPU.
+At rack scale, NVIDIA's disclosed system architecture couples accelerators, switching, networking, power/cooling, and software more tightly than a standalone add-in accelerator product.[^4]
 
-At rack scale, power delivery, cooling, fabric, cable topology, firmware, rack layout, and software validation are more tightly coupled to the reference architecture.
-
-This does not imply that Dell, HPE, Lenovo, ODMs, or other integrators lose product capability. It means the system-platform owner exerts stronger constraints over whole-system design and qualification.
+The report's inference is that this narrows some degrees of freedom in whole-system design and qualification for OEMs / ODMs. That does not imply that Dell, HPE, Lenovo, ODMs, or other integrators lose product capability.
 
 ## 3. Networking is part of the compute platform
 
@@ -24,20 +22,13 @@ Large-model training and inference increasingly depend on multi-GPU scaling and 
 
 When accelerators, NVLink/NVSwitch, InfiniBand/Ethernet networking, and the software communication stack are co-designed, the network stops being merely an external component and becomes part of system performance and switching cost.
 
-Platform competition therefore moves from "GPU + arbitrary network" toward a more integrated AI Factory architecture.
+Analytically, this shifts competition away from a standalone-accelerator comparison toward a more integrated AI Factory architecture.
 
 ## 4. DGX Cloud is a platform-extension channel
 
 Without a separately disclosed large-scale revenue line, DGX Cloud should not be presented as a second business that has already replaced hyperscalers.
 
-Its more defensible strategic functions are:
-
-1. demonstrating the complete NVIDIA architecture;
-2. collecting real workload / deployment feedback;
-3. lowering the initial adoption barrier for the full stack;
-4. increasing NVIDIA's channel and bargaining options relative to hyperscalers.
-
-DGX Cloud is therefore better understood as a platform extension and reference-deployment channel.
+DGX Cloud / Lepton provides a controlled channel for exposing NVIDIA software, infrastructure services, and a compute marketplace across external capacity.[^3] In this report, it is therefore treated as a **platform-extension and deployment channel**, not as evidence of a separately disclosed hyperscaler-scale revenue business.
 
 ## 5. Software deepens integration and migration cost
 
@@ -45,17 +36,19 @@ Software products extend the system platform from hardware purchase into model s
 
 Until independent software revenue is disclosed, this report does not estimate a fixed "software tax" or separate software profit pool.
 
-The more accurate strategic effect is:
+The report treats the strategic mechanism as:
 
-> **lower deployment friction inside the platform and higher migration friction outside it.**
+> **lower deployment friction inside the platform can increase the relative cost of moving production workloads outside it.**
+
+This is an analytical switching-cost mechanism, not a separately disclosed NVIDIA migration-cost metric.
 
 ## 6. Asset-light orchestration raises capital efficiency
 
-NVIDIA leaves much of the manufacturing CapEx with TSMC, memory vendors, the packaging ecosystem, and infrastructure providers while influencing their expansion through long-duration commitments, prepayments, roadmap coordination, and volume certainty. NVIDIA's FY26 Form 10-K provides a company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^4]
+NVIDIA leaves much of the manufacturing CapEx with external foundries, memory vendors, packaging partners, and infrastructure providers while using long-duration commitments and prepayments to support future supply access. NVIDIA's FY26 Form 10-K provides the company-level factual anchor for this supply-orchestration model through its manufacturing, supply, and capacity commitments.[^4]
 
 The structure is:
 
-> system definition / cash generation stays with the platform → heavy manufacturing CapEx stays with suppliers → the platform uses orders and commitments to reserve future resources
+> system definition / cash generation stays with the platform → heavy manufacturing CapEx stays with suppliers → orders, prepayments, and commitments support future resource access
 
 This raises platform capital efficiency and turns external supply elasticity into part of platform strategy.
 
