@@ -12,9 +12,12 @@
 - [Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 产能、技术与平台收入结构](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
+- [Table 7.2 — 与 Time-to-Power 直接相关的 Grid Delivery Frictions](part-I-ch07-power-constraint.md)
 - [Table 8.1 — NVL72 Rack-to-MW D 级强度换算](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 Public-Data Quantification Readiness by Layer](part-I-ch08-quantitative-framework.md)
 - [Table 8.3 — 2026 Public-Data Gap / Intensity Ledger](part-I-ch08-quantitative-framework.md)
+- [Table 8.4 — 2026 年可计算锚点 vs 尚未闭合的 Denominator](part-I-ch08-quantitative-framework.md)
+- [Table 9.1 — 影响 Production Continuity 的 Manufacturing-Control Layers](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II
 
@@ -27,6 +30,7 @@
 - [Table 19.1 — 四大云厂 2026 年公开资本投入口径](part-III-ch19-capex-supercycle.md)
 - [Table 22.1 — 主要 Cloud 公司 server / network equipment useful-life disclosure](part-III-ch22-depreciation-wall.md)
 - [Table 23.1 — AI infrastructure 资产类别与主要融资风险](part-III-ch23-capital-financing.md)
+- [Table 24.1 — Financing Reflexivity Adjudication Matrix](part-III-ch24-capital-clearing.md)
 
 ## Part IV
 
