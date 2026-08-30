@@ -13,10 +13,10 @@
 Recommended first pass:
 
 1. [Chapter 1 — Executive Summary](part-I-ch01-executive-summary.md)
-2. [Chapter 3 — AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
-3. [Chapter 21 — Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
+2. [Chapter 3 — AI Resource Reallocation and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [Chapter 21 — How AI Reprices Consumer Electronics and Other End Systems](part-III-ch21-consumer-transmission.md)
 4. [Chapter 20 — Value Capture Map (§10)](part-III-ch20-value-capture-map.md)
-5. [Chapter 32 — Master Judgment](part-IV-ch32-master-judgment.md)
+5. [Chapter 32 — Master View: What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
 NVIDIA, hyperscalers, China's parallel stack, and the scenario chapters explain **why upstream allocation rules change**. End-system readers do not need to finish those chapters before understanding residual capacity, quantity assurance, or upgrade tax.
 
