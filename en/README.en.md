@@ -1,4 +1,4 @@
-# AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
+# AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
 
 This file is retained as a compatibility entry for older repository links.
 
