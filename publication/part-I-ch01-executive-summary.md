@@ -57,7 +57,7 @@
 | **向 S3 — Resource Hegemony 移动** | 多个独立 physical layer 持续紧张；低优先级买家的 residual capacity 恶化；switching cost 维持高位；long-duration commitment 与协调式 supply access 继续扩张 |
 | **向 S4 — Capital Hard Landing 移动** | utilization/revenue、market clearing、forward commitment、demand quality/financing 等多类独立信号跨主体或层级广泛恶化；出现 impairment 时会强化严重度，但不是 mandatory gate |
 
-单个弱季度、一次项目延期、一个价格波动或一家竞争者发布新品，都不足以裁决未来十年。
+单个弱季度、一次项目延期、一个价格波动或一家竞争者发布新品，都不足以改写长期结构判断。
 
 ---
 
@@ -82,7 +82,7 @@
 
 ## 5. 如何阅读这份报告
 
-本章只承担**入口**功能，不再承担第二份 Master View。完整综合裁决保留在第32章。
+本章只承担**入口**功能，不再承担第二份 Master View。完整综合判断保留在第32章。
 
 推荐阅读路径：
 
