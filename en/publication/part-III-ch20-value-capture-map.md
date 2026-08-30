@@ -2,7 +2,7 @@
 
 ## 1. Value capture and risk bearing are different maps
 
-One dollar of AI-infrastructure spending can appear as hyperscaler CapEx, system-vendor revenue, foundry revenue, memory revenue, packaging revenue, and data-center / power investment at different points in the chain. Those are accounting views of the same capital flow, not independent dollars.
+A single dollar of AI-infrastructure spending can appear as hyperscaler CapEx, system-vendor revenue, foundry revenue, memory revenue, packaging revenue, and data-center / power investment at different points in the chain. Those are accounting views of the same capital flow, not independent dollars.
 
 The correct analytical problem is therefore not "how large is the total profit pool?" It is:
 
@@ -21,7 +21,7 @@ At minimum, the economics of a layer depend on:
 5. **Distribution / workflow control:** whether the layer controls customers, data, and real business entry points.
 6. **Financing / risk-transfer capacity:** whether the layer can reduce project financing friction, improve revenue visibility, and transfer residual-value / duration risk to capital willing to hold it.
 
-High revenue share does not automatically mean highest value capture, and gross margins cannot be compared across fundamentally different business models without context.
+High revenue share does not by itself imply the highest value capture, and gross margins cannot be compared across fundamentally different business models without context.
 
 ## 2A. Operating value capture and capital-market valuation run on different clocks
 
@@ -58,7 +58,7 @@ FY27 Q2:
 - GAAP gross margin **75.0%**;
 - GAAP operating income **US$63.734B**.[^1]
 
-The value in this layer is not only the accelerator die.
+The value in this layer does not come from the accelerator die alone.
 
 It comes from integrating compute, HBM, interconnect, software/runtime, rack architecture, and deployment tooling.
 
@@ -69,7 +69,7 @@ A system platform can:
 - use strong cash generation to support next-generation supply commitments;
 - coordinate roadmaps so customers can upgrade across generations with lower friction.
 
-But a system platform still does not own every physical input.
+A system platform, however, still does not own every physical input.
 
 Foundry, HBM, advanced packaging, and power remain external boundaries.
 
@@ -184,7 +184,7 @@ This layer has a distinctive profile:
 - long permitting cycles;
 - contracts that often outlive a compute generation.
 
-Power can therefore be a scarce layer, but its economics have to be evaluated together with utilization and contract duration.
+Power can therefore be a scarce layer, but its economics must be evaluated together with utilization and contract duration.
 
 A long-duration PPA can be a hedge or moat in high-demand scenarios and a long-duration obligation in S4.
 
@@ -216,7 +216,7 @@ For end systems, the relevant exposure is **residual capacity and supply assuran
 - robotics connects industrial electronics with edge/cloud AI;
 - defense / aerospace / space electronics are more constrained by trusted, qualified, low-volume, long-life, RF/power, rad-hard, and special-process continuity than by direct competition for the same HBM pool.
 
-The end-system layer should therefore not receive one universal profit ranking, and not every downstream pressure should be attributed to AI.
+The end-system layer should therefore not receive a single universal profit ranking, and not every downstream pressure should be attributed to AI.
 
 The more useful variables are:
 
@@ -263,7 +263,7 @@ The third category must be analyzed together with risk transfer. If a platform p
 
 Whether applications develop a durable profit pool still depends on workflow economics and distribution.
 
-The right question is therefore not "How much money is AI spending in total?"
+The right question is therefore not "How much money is being spent on AI in total?"
 
 It is:
 
