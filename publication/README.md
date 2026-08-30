@@ -11,7 +11,7 @@
 
 报告严格区分已经发生的事实、公司 guidance、机构 forecast、本报告 hypothesis / scenario 与 report-side calculation。研究范围、证据边界和免责声明见[报告说明](00-front-matter.md)。
 
-**Canonical research language：English。** 中文版为专业平行版，保持事实、分母、机制与 falsification boundary 对等，不要求逐句翻译。
+**Canonical research language：English。** 中文版是英文 canonical analytical text 的专业中文译本。中文可采用自然的专业研究句法并保留必要英文行业术语，但不得独立新增、删除、重排或重定义论点、机制、分母、证据身份、scenario、falsification boundary 与章节层级。任何实质性修订先在英文版完成，再同步翻译到中文版。
 
 ## 建议阅读路径
 
