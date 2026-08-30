@@ -1,4 +1,4 @@
-# Part IV · 第31章：2036 终局与战略选择权
+# Part IV · 第31章：不同 AI 基础设施状态下的战略含义
 
 ## 1. Strategy 的核心是保留 Executable Optionality
 
