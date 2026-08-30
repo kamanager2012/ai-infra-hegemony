@@ -261,19 +261,19 @@ As of August 2026, the most defensible description is:
 
 - cloud custom silicon is already a real competitive force;
 - the competitive unit has moved from custom chip to complete system stack;
-- hyperscalers are attacking accelerator, software, interconnect, rack/pod, and workload economics together;
+- hyperscalers are competing across accelerator, software, interconnect, rack/pod, and workload economics together;
 - frontier training and the broad external ecosystem have not been shown to have systematically moved away from NVIDIA;
 - custom systems still compete heavily for advanced logic, HBM, advanced packaging, and power.
 
 Therefore:
 
-> **Cloud System-Stack Substitution is one of the structural variables most capable of moving S2 — Baseline Concentration toward S1 — Competitive Expansion.**
+> **cloud system-stack substitution is one of the structural variables most capable of moving S2 — Baseline Concentration toward S1 — Competitive Expansion.**
 
 Its strength must be measured through production workload share, migration cost, utilization, external adoption, and upstream-resource dependence—not product-launch count.
 
 ## 13. What would change the view
 
-Cloud System-Stack Substitution should be downgraded if custom systems remain confined to small internal workloads and the following conditions persist:
+The cloud system-stack substitution thesis should be downgraded if custom systems remain confined to small internal workloads and the following conditions persist:
 
 - production utilization remains low;
 - migration / debugging cost stays high;
