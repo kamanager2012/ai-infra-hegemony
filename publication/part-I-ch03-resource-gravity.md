@@ -1,40 +1,38 @@
 # Part I · 第3章：AI 资源重配与 Non-AI Residual Capacity
 
-## 1. 核心判断：AI 改变的首先是边际资源优先级，而不是“全面占用产能”
+## 1. 核心判断：绝对短缺出现之前，资源优先级就可能改变
 
-AI infrastructure 对供应链的影响具有明显层级性。真正容易被重新排序的，是与 frontier AI 共享、同时又具有较低短期供给弹性的资源：
+AI 不需要“拿走全部产能”，也足以改变半导体与基础设施 economics。资源重配首先发生在边际。
+
+最暴露的是同时满足两个条件的资源：**与 AI/HPC demand 共享，而且短期内难以快速扩张**。
 
 - advanced logic；
 - HBM / selected DRAM；
 - advanced packaging；
-- high-end substrate / networking；
+- high-end substrates / networking；
 - selected power-management components；
 - data-center power。
 
-本报告把这种高价值 AI/server demand 对资本与有效供给的吸引定义为 **AI Resource Gravity**。
+本报告用 **resource reallocation pressure** 作为这一机制的简写，而不是把它定义成独立的经验定律：
 
-它描述的不是“所有半导体都被 AI 抽走”，而是：
+> **当 AI/server workload 提供更高 risk-adjusted return、更长 order duration、更强 payment certainty 与更好的 expected utilization 时，有限供给与下一单位资本会更倾向于流向这一需求池。**
 
-> **当 AI/server workload 的风险调整后回报、订单期限、付款确定性和利用率预期高于其他需求时，新增资本与有限供给会更倾向于优先满足这一需求池。**
+因此，真正的分析对象是**下一单位 qualified scarce capacity 的 opportunity cost**，而不是声称 AI 在物理上消耗所有 semiconductor category。
 
----
+## 2. 机制：下一单位稀缺资源的 Opportunity Cost
 
-## 2. 资源重配的经济机制
-
-资源重排可以写成一条更接近产业现实的链条：
+资源重配可以写成：
 
 > **high-value AI/server demand → higher expected return → product-mix / capacity-allocation shift → lower residual capacity for lower-priority demand**
 
 这条机制成立需要几个条件：
 
-- 资源在短期内不能快速扩产；
-- 不同终端共享同一物理池或资本池；
-- AI/server 客户愿意提供更长订单、预付款或更高采购确定性；
-- 供应商认为高价值需求具有更高风险调整后回报。
+- capacity 在短期内不能快速扩张；
+- 不同终端共享某个 physical pool 或 capital pool；
+- AI/server customer 能提供更长订单、prepayment 或更高 purchasing certainty；
+- supplier 预期高价值 demand 能提供更高 risk-adjusted return。
 
-因此，AI Resource Gravity 的本质不是“价格更高”本身，而是**供应商对下一单位资源的机会成本重新排序**。
-
----
+因此，这一机制不只是“价格更高”，而是**下一单位稀缺资源的 opportunity cost 被重新定价**。
 
 ## 3. 价格不是唯一清算机制：Quantity Assurance 同样重要
 
@@ -85,28 +83,26 @@ NonAI_Residual(t)
 
 ---
 
-## 5. Two-Speed Semiconductor Economy：AI 还在改变“下一美元资本投向哪里”
+## 5. 资源重配会改变 Capital Formation，而不只是当期供给
 
-AI Resource Gravity 的长期影响不止是当期 allocation，还会改变下一轮资本形成。
+资源重配的长期影响会从当前 allocation 延伸到下一轮 capital formation。
 
-AI Infrastructure Economy 与 Traditional Device Economy 共享部分 advanced logic、memory、packaging 与 power-management resources，但两类需求具有不同的：
+AI Infrastructure Economy 与 Traditional Device Economy 共享部分 advanced logic、memory、packaging 与 power-management resource base，但两类需求在以下方面不同：
 
-- willingness-to-pay；
+- willingness to pay；
 - contract duration；
 - prepayment structure；
 - utilization visibility；
 - BOM sensitivity；
 - end-market price elasticity。
 
-因此，供应商面对的已经不只是“今天给谁多分一点产能”，而是：
+因此，supplier 决定的不只是“今天谁拿到更多产能”，还包括：
 
-> **未来新增一美元 CapEx，投向哪一类产品能够获得更高风险调整后回报。**
+> **下一美元 CapEx 投向哪类产品，能够获得更高 risk-adjusted return。**
 
-本报告把这一结构称为 **Two-Speed Semiconductor Economy**。
+本报告用 **two-speed semiconductor economics** 作为这一分化的简写。
 
-它不是“消费电子被永久牺牲”的结论，而是说明：**AI/HPC 正在提高自己对半导体边际资本形成的影响力。**
-
----
+它不是“消费电子会被永久牺牲”的判断，而是说明：**AI/HPC 对 semiconductor marginal capital formation 的影响力正在提高。**
 
 ## 6. Memory 是目前最清晰的实证路径
 
@@ -143,7 +139,7 @@ TSMC 2025 smartphone platform 占全年 net revenue **29%**，HPC 为 **58%**。
 - packaging tight，也不等于所有客户 allocation 相同；
 - customer revenue share 不能换算成 wafer share 或 CoWoS share。
 
-所以 AI Resource Gravity 不是一个可以用单一“AI 占全球产能百分比”描述的现象，而是一组跨层、不同物理单位的 allocation shift。
+因此，resource reallocation 不能被压缩成一个 synthetic “AI share of global capacity”；它是一组发生在不同 physical layer、使用不同物理单位的 allocation shift。
 
 ---
 
