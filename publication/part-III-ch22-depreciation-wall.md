@@ -112,7 +112,7 @@ V1 / V0 = I0 / I1
 - workload 在不同 hardware generation 之间的迁移速度；
 - 旧系统 utilization / lease rate / resale value 是否比 accounting depreciation 更快恶化。
 
-因此，Algorithmic Efficiency 既不是天然利多，也不是天然利空。它首先是一个**资本回收变量**；最终方向取决于 workload growth 与 generation-level allocation。
+因此，algorithmic progress 对 infrastructure demand 既不是天然 expansionary，也不是天然 contractionary。它首先是一个**capital-recovery variable**；最终影响取决于 workload growth 与 generation-level allocation。
 
 ---
 
@@ -175,11 +175,7 @@ V1 / V0 = I0 / I1
 
 ## 11. Current Read
 
-截至 2026 年 8 月，更准确的状态是：
-
-> **CapEx expansion + rising duration / utilization risk**
-
-而不是已经确认的大规模 impairment cycle。
+截至 2026 年 8 月，更准确的解释是：**CapEx expansion 仍在继续，同时 duration 与 utilization risk 正在上升**，而不是已经进入广泛 impairment cycle。
 
 折旧墙真正需要警惕的是：utilization 下滑、residual value 快速下降、CapEx / lease / project commitments 收缩与 refinancing 条件恶化等多类独立信号跨主体/层级相互印证。impairment 出现时会强化严重度判断，但正式 accounting loss 不是 mandatory gate。
 
