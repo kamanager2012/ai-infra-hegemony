@@ -200,6 +200,18 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 完成该定义级修正后，正式正文再次冻结。
 
+### 8D. 2026-08-30 Ch32 双语 Master Judgment 一致性修正
+
+随后进行的双语 parity audit 发现：中文版 Ch32 开头将最终总判压缩为**八点**，而英文版只有七点，原因是英文开头遗漏了“传统整机仍然重要，但从共享或相邻上游获得有效供给的确定性发生变化”这一核心判断。
+
+因此只对英文 Ch32 做了双语实质一致性修复：补回缺失的第三点，并将后续编号恢复为八点。该修正属于 **translation / analytical-parity repair only**：
+- 没有加入新证据；
+- 没有修改中文版 source of truth 的任何判断；
+- 2026-08-28 evidence cutoff 不变；
+- 当前 S2 baseline judgment 与 S1–S4 taxonomy 不变。
+
+完成该双语一致性修复后，正式正文再次冻结。
+
 ---
 
 
