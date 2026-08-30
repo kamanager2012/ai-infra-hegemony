@@ -202,6 +202,18 @@ The pass did **not** change:
 
 The formal text was refrozen after this definition-level correction.
 
+### 8D. August 30, 2026 bilingual Master-Judgment parity correction
+
+A subsequent bilingual parity audit found that the Chinese Chapter 32 opening summarized the master judgment in **eight points**, while the English Chapter 32 contained only seven because the end-system / residual-capacity judgment had been omitted from the English opening sequence.
+
+The English Chapter 32 was corrected to restore that missing third point and renumber the remaining judgments to eight. This was a **translation / analytical-parity repair only**:
+- no new evidence was added;
+- no Chinese source-of-truth claim was changed;
+- the August 28 evidence cutoff remained unchanged;
+- the S2 baseline judgment and S1–S4 taxonomy remained unchanged.
+
+The formal text was refrozen again after this bilingual-parity repair.
+
 ---
 
 
