@@ -10,7 +10,7 @@
 2. **它改变了哪一个 mechanism variable？**
 3. **这种变化是否足够 material、persistent，并足以 reweight S1–S4？**
 
-这是 governed research-update process，不是自动交易模型。Dashboard 的作用，是防止一条 headline、一次 forecast revision 或一次 accounting event 被误读为 structural regime change。
+这是 structured research-update process，不是自动交易模型。Dashboard 的作用，是防止一条 headline、一次 forecast revision 或一次 accounting event 被误读为 structural regime change。
 
 ## 2. Dashboard A — Seller Economics / Forward Reservation
 
@@ -300,7 +300,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 5. **persistence / confirmation** — 由适合该变量时钟的可比后续证据确认；
 6. **cross-signal confirmation** — 尤其是 S4，单一弱指标不足以改判。
 
-**Mechanism-break override：** breadth requirement 约束的是**系统级 scenario adjudication**，不是给底层 mechanism 提供“必须等多信号才承认反例”的保护。如果一条高质量 observation 在相同 denominator 与 time identity 下直接击穿某个 mechanism 的必要前提，该 mechanism 必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定的是整个 S1–S4 state 是否改变，不能被用来忽略已经失效的前提。
+**Mechanism-break override：** breadth requirement 约束的是**系统级 scenario classification**，不是给底层 mechanism 提供“必须等多信号才承认反例”的保护。如果一条高质量 observation 在相同 denominator 与 time identity 下直接击穿某个 mechanism 的必要前提，该 mechanism 必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定的是整个 S1–S4 state 是否改变，不能被用来忽略已经失效的前提。
 
 ### Handling missing data
 
@@ -336,7 +336,7 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 
 这五项都不使用人为统一的“8 个季度”“30%–40%”之类硬阈值。只有在**同口径连续观察 + 两个以上独立机制维度互相印证**时，才足以推动 S1–S4 的实质重权重。
 
-## 13. Governed Update Protocol
+## 13. Evidence-Update Protocol
 
 任何单一新闻都不应触发整份报告的重新分类。
 
