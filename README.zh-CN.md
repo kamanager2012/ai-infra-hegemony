@@ -8,7 +8,7 @@
 **标题口径：**“霸权 / Hegemony”是本报告研究的**风险状态与结构命题**，不表示截至 2026-08-28 已经进入 S3 — Resource Hegemony。当前公开证据组合仍最接近 S2 — Baseline Concentration。
 
 **资料检索与修订截止：2026-08-28**  
-**正文状态：已于 2026-08-30 在严格限定范围的 S4 清算规则与 executable-optionality 策略定义级修正后再次冻结。** 2026-08-28 evidence cutoff 不变。清算修正移除了此前隐含的 Accounting hard gate；策略修正明确长期维护第二生产路径取决于 option value 是否高于 carrying cost。当前 S2 baseline judgment 与四情景 taxonomy 均未改变。冻结后仍仅接受事实纠错、来源失效修复、引用口径修正与重大实质性错误修正，不进行美容式重写或无证据扩张。
+**正文状态：已于 2026-08-30 在严格限定范围的定义级修正与 Ch32 双语 Master Judgment 一致性修复后再次冻结。** 2026-08-28 evidence cutoff 不变。清算修正移除了此前隐含的 Accounting hard gate；策略修正明确长期维护第二生产路径取决于 option value 是否高于 carrying cost。当前 S2 baseline judgment 与四情景 taxonomy 均未改变。冻结后仍仅接受事实纠错、来源失效修复、引用口径修正与重大实质性错误修正，不进行美容式重写或无证据扩张。
 
 [开始阅读 32 章中文版](publication/README.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [最终总判](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
 
