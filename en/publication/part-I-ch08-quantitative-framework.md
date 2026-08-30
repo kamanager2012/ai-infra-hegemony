@@ -1,10 +1,10 @@
-# Part I · Chapter 8: Quantitative Framework — Denominator Closure, Stress Tests, and Public-Data Limits
+# Part I · Chapter 8: Quantitative Framework — What Can Be Measured, What Cannot, and Why
 
-## 1. Start with denominator closure
+## 1. Quantification starts with denominator closure
 
-The first quantitative task is not to produce a point estimate. It is to determine whether the numerator, denominator, physical unit, delivery window, and evidence identity can actually be closed.
+The first quantitative question is not “what is the number?” It is **whether a defensible number exists at all**.
 
-AI-infrastructure research becomes unreliable when front-end wafers, HBM bits, package starts, energized MW, accounting CapEx, and seller commitments are connected into one synthetic total without preserving their dimensions.
+A metric is admissible only when numerator, denominator, physical unit, delivery window, qualification boundary, and evidence identity can be made consistent. Front-end wafers, HBM bits, package starts, energized MW, accounting CapEx, and seller commitments are not interchangeable components of one synthetic total.
 
 The report therefore permits four quantitative classes in the main argument:
 
@@ -15,7 +15,7 @@ The report therefore permits four quantitative classes in the main argument:
 
 If a public denominator cannot be closed, the variable remains a parameter or proxy. The report does not fill the gap with a point estimate simply to make the model look complete.
 
-## 2. Roofline: peak FLOPS is not a workload denominator
+## 2. Peak FLOPS is not a workload denominator
 
 The core Roofline relationship is:
 
@@ -31,7 +31,7 @@ Autoregressive inference repeatedly reads model state, KV cache, routing, and ac
 
 This is why HBM, interconnect, and compute have to be analyzed as one system rather than interpreting frontier inference from peak compute alone.
 
-## 3. Algorithmic efficiency changes resource intensity, not the measurement discipline
+## 3. Efficiency changes the demand function, not the measurement standard
 
 Algorithm and architecture choices can change:
 
@@ -46,7 +46,7 @@ Public cases such as DeepSeek-V3 / V2 show that architecture improvements can si
 
 But a changed demand function does not eliminate physical constraints. Whether higher efficiency reduces aggregate infrastructure demand still depends on workload volume and demand elasticity.
 
-## 4. Training-run arithmetic is not company R&D cost
+## 4. Training-run arithmetic is a bounded cost conversion
 
 DeepSeek-V3 reports **2.788M H800 GPU-hours** for full formal training, and the paper uses a **US$2/GPU-hour** rental-cost assumption.[^1]
 
@@ -58,7 +58,7 @@ This is only a formal-training compute conversion. It excludes research iteratio
 
 The US$5.576M figure can therefore be used as a public training-run scale anchor, but not as "the full company cost of one frontier model."
 
-## 5. System specifications support intensity analysis, not fleet-size inference
+## 5. System specs support intensity analysis, not deployment inference
 
 The official GB200 NVL72 configuration is:[^3]
 
@@ -77,7 +77,7 @@ Therefore:
 
 Where shipment or deployment cannot be closed from public evidence, the formal report prefers seller commitments, vendor supply guidance, customer contracts, lead times, utilization, and other observable indicators over synthetic fleet-size arithmetic.
 
-## 6. HBM: bit demand and wafer input are different denominators
+## 6. HBM: bits and wafer input are different denominators
 
 Micron FY24 Q2 prepared remarks provide an important first-party boundary:
 
@@ -87,7 +87,7 @@ Bit demand and manufacturing input are therefore not one-to-one. As HBM bit shar
 
 The 3× figure is not a fixed Micron-fab MES constant and cannot be mechanically extrapolated into a permanent HBM4/HBM5 ratio.
 
-## 7. Advanced packaging requires its own physical unit
+## 7. Advanced packaging requires a separate physical denominator
 
 Advanced-packaging analysis should use observable or source-bounded variables such as qualified capacity, lead time, allocation fulfillment, package starts, or supplier guidance.
 
@@ -95,7 +95,7 @@ The report does not use a synthetic "CoWoS wafers per rack" factor to infer ship
 
 Front-end wafers, back-end packaging capacity, HBM bits, and energized MW are different physical pools and must remain dimensionally separate.
 
-## 8. Absolute Capacity Gap: is the layer short now?
+## 8. Absolute Capacity Gap: current balance
 
 For each physical layer (i), define:
 
@@ -130,7 +130,7 @@ Interpretation:
 
 ---
 
-## 9. Capacity Growth Gap: is the imbalance widening or closing?
+## 9. Capacity Growth Gap: direction of travel
 
 Define:
 
@@ -156,7 +156,7 @@ A market can still be short while supply is catching up rapidly, or still have s
 
 ---
 
-## 10. Non-AI Residual Capacity is a different denominator
+## 10. Non-AI Residual Capacity answers a different question
 
 AI Capacity Gap measures the AI side.
 
@@ -177,7 +177,7 @@ AI Capacity Gap, AI Capacity Growth Gap, and Non-AI Residual Capacity are theref
 
 ---
 
-## 11. Power requires both quantity and delivery state
+## 11. Power needs both physical quantity and delivery state
 
 Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
 
@@ -215,7 +215,7 @@ The figure cannot identify how much goes to any individual supplier, but it is a
 
 When customer-level HBM bits, CoWoS allocation, and rack shipment are unavailable, forward commitments are more informative than "revenue divided by an invented rack price."
 
-## 13. Scarce-capacity access must remain layer-specific
+## 13. Scarce-capacity access remains layer-specific
 
 The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into one composite "capture ratio."
 
@@ -261,7 +261,7 @@ System risk in AI infrastructure can be divided into:
 
 One risk does not equal an industry-wide crisis. The more dangerous state is when several clocks begin to reinforce one another.
 
-## 15. Rolling Bottleneck Cascade is a state transition, not a shortage slogan
+## 15. Rolling Bottleneck Cascade is a state-transition model
 
 AI-infrastructure bottlenecks rotate rather than remaining permanently fixed at one layer.
 
@@ -277,7 +277,7 @@ This is the **Rolling Bottleneck Cascade**.
 
 It explains why easing HBM does not prove that AI infrastructure has no constraints, and why power becoming a bottleneck does not mean semiconductor constraints have disappeared permanently.
 
-## 16. Capital return has to reconcile different asset clocks
+## 16. Capital returns have to reconcile different asset clocks
 
 A minimal economic relationship is:
 
@@ -287,7 +287,7 @@ The core risk is duration mismatch: hardware can turn over rapidly while data-ce
 
 A technically functional system can therefore produce weak capital returns if utilization is low or long-duration obligations are excessive.
 
-## 17. Guardrails against false precision
+## 17. False-precision guardrails
 
 The full report maintains the following hard boundaries:
 
@@ -303,7 +303,7 @@ The full report maintains the following hard boundaries:
 - institutional forecast ≠ company actual;
 - one physical pool ≠ another physical pool.
 
-## 18. Preferred research workflow
+## 18. Preferred quantitative workflow
 
 The report follows this sequence:
 
