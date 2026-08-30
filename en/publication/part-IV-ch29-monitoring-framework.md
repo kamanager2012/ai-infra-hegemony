@@ -1,6 +1,6 @@
-# Part IV · Chapter 29: Monitoring Dashboard — State Variables, Inflection Tests, and Scenario Reweighting
+# Part IV · Chapter 29: Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting
 
-## 1. The monitoring problem: which state variables can actually change the view?
+## 1. Track variables that can change the view
 
 A long-horizon report is useful only if later evidence can change its conclusions.
 
@@ -348,7 +348,7 @@ For readers who want a fast way to judge whether the long-run structure is chang
 
 These five tests deliberately avoid arbitrary universal rules such as “eight quarters” or “30%–40%.” A material scenario reweighting requires **comparable continuous observation plus confirmation from at least two independent mechanism dimensions**.
 
-## 13. Update protocol
+## 13. Governed update protocol
 
 One news item should not rewrite the entire report.
 
