@@ -1,10 +1,10 @@
 # Part IV · 第30章：Scenario Framework——Discriminating S1 to S4
 
-## 1. Scenario 是 Decision State，不是 Narrative
+## 1. Scenario 是 Adjudication State，不是 Narrative
 
 本报告不为 2030 或 2036 给出唯一答案，也不为 S1–S4 配置固定概率。
 
-Scenario framework 的作用更窄：**在当前证据下，哪一种 structural state 最符合事实；哪些 observable changes 会迫使判断迁移？**
+Scenario framework 的作用是 operational adjudication：**当前哪一种 structural state 最符合证据、哪些变量能够区分替代情景、什么 observation 会迫使 scenario weight 发生迁移？**
 
 因此，scenario weighting 依赖可持续监测的 state variables：
 
@@ -84,7 +84,7 @@ Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短�
 
 截至 2026 年 8 月，这是最接近当前事实组合的**基准状态**，不是十年固定预测。
 
-## 4. S3 — Resource Hegemony：Multi-Layer Concentration 自我强化
+## 4. S3 — Resource Hegemony：Multi-Layer Concentration 进入自我强化
 
 ### 定义
 
@@ -168,7 +168,7 @@ AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 的定义�
 
 详细计算边界见[第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)。
 
-## 6. 六类变量决定 Scenario Discrimination
+## 6. 六类变量用于 Scenario Discrimination
 
 ### Supply
 
