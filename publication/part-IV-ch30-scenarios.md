@@ -1,10 +1,10 @@
 # Part IV · 第30章：Scenario Framework——Discriminating S1 to S4
 
-## 1. Scenario 是 Adjudication State，不是 Narrative
+## 1. Scenario 是 Conditional State，不是 Narrative
 
-本报告不为 2030 或 2036 给出唯一答案，也不为 S1–S4 配置固定概率。
+该框架不为 2030 或 2036 给出唯一答案，也不为 S1–S4 配置固定概率。
 
-Scenario framework 的作用是 operational adjudication：**当前哪一种 structural state 最符合证据、哪些变量能够区分替代情景、什么 observation 会迫使 scenario weight 发生迁移？**
+Scenario framework 的作用是 operational classification：**当前哪一种 structural state 最符合证据、哪些变量能够区分替代情景、什么 observation 会迫使 scenario weight 发生迁移？**
 
 因此，scenario weighting 依赖可持续监测的 state variables：
 
@@ -105,7 +105,7 @@ demand growth 持续快于 substitution 与 supply expansion，多个 scarce lay
 
 > high profit → stronger commitments / prepayment → greater future resource reservation → higher delivery certainty → stronger installed base / workload retention
 
-它描述的是 system-level resource coordination 强化，不是法律意义上的 monopoly verdict。
+它描述的是 system-level resource coordination 强化，不是法律意义上的 monopoly finding。
 
 ## 5. S4 — Capital Hard Landing：Capital Formation 跑赢 Productive Demand
 
@@ -316,7 +316,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 情景权重的变化必须来自**多个相互独立的公开代理在连续观察中形成同方向证据**，同时显式记录反证与 segment breadth。不同数据具有季度、半年或年度披露频率，不人为把它们压成一个伪精确统一窗口。
 
-**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+**Mechanism-break override：** breadth 要求约束的是**系统级 scenario classification**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
 
 换言之：
 
