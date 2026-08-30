@@ -725,7 +725,7 @@ The previous conclusion:
 
 is now obsolete.
 
-The correct v0.6 execution status is:
+The current v0.8 execution status is:
 
 > **data path = closed**  
 > **authenticated raw-panel retrieval = succeeded**  
