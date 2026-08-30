@@ -28,11 +28,11 @@ That creates a large potential workflow pool, but production reliability, review
 
 Anthropic's June 2026 Economic Index also reports that its product usage has shifted toward more long-running agentic tasks and that higher compute use is associated with higher estimated artifact value.[^4] Because this is first-party product telemetry, it should not be treated as representative of the entire enterprise-software market.
 
-## 1B. AI Inheritance Effect: IT is the installed base
+## 1B. AI inheritance: IT is the installed base
 
 Moving a physical industrial process into the digital domain usually requires sensors, networks, databases, software, identity systems, process digitization, and organizational change. A highly digitized organization starts from a different position: ERP, CRM, MES, CAD/PLM, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and workflow logs already form a reusable digital substrate.
 
-This report defines the structural advantage created when **AI can add an intelligence layer on top of existing digital assets and workflows without rebuilding the full digital foundation** as the **AI Inheritance Effect**.
+The report uses **AI inheritance** as shorthand for the structural advantage created when AI can add an intelligence layer on top of existing digital assets and workflows without rebuilding the full digital foundation.
 
 The demand transmission is:
 
@@ -40,7 +40,7 @@ The demand transmission is:
 
 Long-run AI-infrastructure demand therefore does not depend only on whether individual models keep scaling upward. It also depends on **how many existing digital workflows begin invoking AI and how deeply each workflow moves from assistant features toward semi-autonomous or autonomous execution**.
 
-This mechanism is compatible with Algorithmic Efficiency:
+This mechanism is compatible with algorithmic efficiency:
 
 - compute / memory required per task can keep falling;
 - the number of workflows for which AI becomes economical can expand;
