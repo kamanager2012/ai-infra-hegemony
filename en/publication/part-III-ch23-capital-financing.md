@@ -1,10 +1,10 @@
 # Part III · Chapter 23: AI-Infrastructure Capital Markets and Financing Structure
 
-## 1. The AI capital market now spans multiple asset classes
+## 1. AI infrastructure is financed across multiple asset classes
 
-AI-infrastructure capital is no longer limited to listed technology equity.
+AI-infrastructure finance now spans equity, private infrastructure, project finance, power, long-duration compute contracts, and private credit.
 
-It now includes:
+The relevant capital stack includes:
 
 - semiconductor manufacturing;
 - private infrastructure;
@@ -20,7 +20,7 @@ It is:
 
 > **Which type of capital is taking which duration, cash-flow, and residual-value risk?**
 
-## 2. Asset-light platforms and heavy infrastructure should not be valued with the same logic
+## 2. Asset-light platforms and heavy infrastructure carry different return structures
 
 NVIDIA combines high system margin, strong cash generation, and relatively low direct fixed-asset intensity.
 
@@ -30,7 +30,7 @@ Hyperscalers, foundries, memory vendors, data-center operators, and power develo
 
 The same revenue growth therefore has different capital-return implications across platform and infrastructure layers.
 
-## 3. Hyperscaler risk comes from multiple asset clocks stacked together
+## 3. Hyperscaler risk stacks multiple asset clocks
 
 Cloud CapEx goes into servers, custom silicon, networking, buildings, cooling, power, and land.
 
@@ -50,7 +50,7 @@ Their returns depend on utilization, product mix, technology leadership, custome
 
 The HBM boom can materially improve memory-vendor economics, but manufacturing profit remains more exposed to cycle and utilization than system-platform economics.
 
-## 5. 2026 introduced an independent Compute Financing Platform concept
+## 5. Compute is becoming a separately financed infrastructure asset
 
 On August 10, 2026, NVIDIA announced independent compute-financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting the mobilization of **more than US$500B of third-party capital over time** for AI-infrastructure buildout.[^3]
 
@@ -64,7 +64,7 @@ NVIDIA also states that the partnerships are **subject to execution of final agr
 
 The **>US$500B** figure therefore remains a mobilization target—not committed, funded, or deployed capital.[^3]
 
-## 6. Seller-Assisted Infrastructure Finance and Financing Reflexivity
+## 6. Seller-assisted finance creates Financing Reflexivity
 
 The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyond hardware into **land + power + shell (LPS)**. NVIDIA disclosed credit support for the LPS buildout, a **US$1.5B** investment in SB Energy, an initial **4.25 IT-GW** design capacity, and OpenAI as the end customer.[^4]
 
@@ -89,7 +89,7 @@ If utilization and monetization remain healthy, seller-assisted finance can acce
 
 If utilization weakens while supplier support and refinancing dependency keep rising, forward-demand signals become less independent.
 
-## 7. Why compute can be packaged as an infrastructure asset
+## 7. Why compute can be financed as infrastructure
 
 Long-duration capital generally prefers predictable cash flow, long contracts, collateral, and clear offtakers.
 
@@ -97,7 +97,7 @@ AI compute is attempting to create those characteristics through long-term compu
 
 If usage-linked revenue and customer transferability are stable enough, compute assets can attract financing structures closer to traditional infrastructure capital.
 
-## 8. Hardware residual value remains the core differentiator from traditional infrastructure
+## 8. Hardware residual value differentiates compute from traditional infrastructure
 
 Compute differs from many infrastructure assets because generation obsolescence is much faster.
 
@@ -111,7 +111,7 @@ A financing structure therefore has to answer:
 - whether the asset can move across customers/operators;
 - whether leverage depends on an overly optimistic terminal value.
 
-## 9. Anchor Buyers reduce financing risk while increasing customer concentration
+## 9. Anchor Buyers reduce financing risk while increasing concentration
 
 OpenAI, Anthropic, and other long-duration demand anchors improve revenue visibility and can make project finance easier.
 
@@ -119,7 +119,7 @@ But if project economics depend heavily on one model company, technology risk ca
 
 Anchor Buyers are therefore both a financing condition and a risk concentration point.
 
-## 10. Sovereign capital matters most when it builds strategic capacity
+## 10. Sovereign capital matters when it builds strategic capacity
 
 Sovereign participation in AI infrastructure is often motivated by more than financial return.
 
@@ -129,7 +129,7 @@ The strategically important evidence is therefore direct participation in fabs, 
 
 Without official project disclosures, this report does not use rumored holdings to claim that sovereign capital has "fully entered" AI infrastructure.
 
-## 11. Duration matching is the core of financing quality
+## 11. Duration matching is the core financing-quality test
 
 **Table 23.1 — AI-infrastructure asset classes and primary financing risks**
 
@@ -149,7 +149,7 @@ The most dangerous structure is:
 
 > **short-duration demand assumption + long-duration debt / power / real-estate obligation**
 
-## 12. Current view
+## 12. Current read
 
 AI infrastructure is expanding from internal technology-company CapEx into a long-duration asset system funded by:
 
@@ -159,7 +159,7 @@ This can increase the available capital pool while distributing risk beyond one 
 
 The sustainability of the financing depends not on the headline target, but on utilization, cash yield, contract quality, and hardware residual value.
 
-## 13. What evidence would force this chapter to change its judgment
+## 13. What would change the view
 
 The thesis that compute is developing into a distinct infrastructure-finance asset class should be downgraded if:
 
