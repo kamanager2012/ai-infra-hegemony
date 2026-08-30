@@ -304,7 +304,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 ## 12. 为什么 Partial Closure 已经影响全球竞争
 
-如果中国 parallel stack 在 advanced logic、HBM、packaging、interconnect 与 software 上同时规模化，它不会只是“替代进口”，还会形成第二个大型资源重力中心：新的 foundry demand、memory demand、packaging demand、power demand 与长期资本承诺会进入全球/区域资源分配。
+如果中国 parallel stack 在 advanced logic、HBM、packaging、interconnect 与 software 上同时规模化，它可能不只是“替代进口”，还可能形成第二个大型 resource-allocation center：新的 foundry、memory、packaging、power 与长期资本需求将进入全球/区域资源分配。
 
 目前公开证据尚不足以证明这一第二个 frontier resource center 已经达到与全球主栈等价的完整规模。长鑫已经进入公开资本市场并扩大 conventional DRAM 产业化能力，但这不能替代 HBM-class memory、advanced packaging 与其他 frontier layers 的独立验证；SMIC 5.1% 也只是 foundry revenue share，而非 frontier capability。
 
