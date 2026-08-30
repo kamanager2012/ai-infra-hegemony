@@ -240,6 +240,7 @@ That path explains residual capacity, quantity assurance, upgrade tax, and end-s
 
 - [32-chapter English report](en/publication/README.md)
 - [Scope and Evidence Boundaries](en/publication/00-front-matter.md)
+- [List of Figures](en/publication/01-list-of-figures.md)
 - [List of Tables](en/publication/02-list-of-tables.md)
 - [Abbreviations and Core Glossary](en/publication/03-abbreviations-and-glossary.md)
 - [Research Transparency, Limitations, and Correction Policy](en/publication/04-research-transparency.md)
