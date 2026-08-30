@@ -72,7 +72,7 @@ They support the narrower conclusion that:
 
 Memory shows the same structural shift. Micron disclosed that, under same-node / same-bit conditions, HBM3E requires approximately **3× the wafer supply of DDR5**.[^2] TrendForce forecasts that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply**.[^3]
 
-The report describes this structure as a **Two-Speed Semiconductor Economy**:
+This divergence can be described as **two-speed semiconductor economics**:
 
 > **The AI Infrastructure Economy and the Traditional Device Economy share upstream resources but differ in willingness to pay, order duration, prepayment capacity, BOM constraints, and the ability to induce new capital formation.**
 
@@ -164,7 +164,7 @@ Multi-year compute commitments can produce the following chain:
 
 > **higher revenue visibility → greater financing certainty → earlier cloud / data-center / power / chip buildout → more stable capacity → larger workloads**
 
-This is the **Anchor Compute Buyer Effect**.
+This is the **anchor-buyer mechanism**.
 
 The same mechanism can amplify capital-cycle risk. If long-duration demand is rescheduled, utilization disappoints, or commercial revenue fails to cover infrastructure capital cost, the certainty that originally supported construction can become stranded-capacity and duration-mismatch risk.
 
@@ -256,7 +256,7 @@ It means demand quality must distinguish:
 
 A report that stops at GPUs, HBM, CapEx, or data-center capacity is incomplete. Infrastructure is the supply side. The ten-year industrial cycle ultimately depends on whether these physical assets can move through software, enterprise workflows, and the physical world into verifiable economic output.
 
-### AI Inheritance Effect: IT is the installed base
+### AI inheritance: IT is the installed base
 
 Long-run AI diffusion does not require rebuilding the digital world from zero. Decades of information technology have already created software, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and traceable workflows. In highly digitized organizations, AI can act as an intelligence / automation layer on top of that installed base.
 
