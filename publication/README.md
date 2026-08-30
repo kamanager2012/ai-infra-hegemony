@@ -10,12 +10,14 @@
 
 报告严格区分已经发生的事实、公司 guidance、机构 forecast、本报告 hypothesis / scenario 与 report-side calculation。研究范围、证据边界和免责声明见[报告说明](00-front-matter.md)。
 
+**Canonical research language：English。** 中文版为专业平行版，保持事实、分母、机制与 falsification boundary 对等，不要求逐句翻译。
+
 ## 建议阅读路径
 
 如果只希望快速理解核心结论：
 
-1. [第1章：执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
-2. [第32章：总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md)
+1. [第1章：执行摘要](part-I-ch01-executive-summary.md)
+2. [第32章：Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 3. [第30章：S1–S4 四类标准情景](part-IV-ch30-scenarios.md)
 
 如果需要核验研究方法与证据边界：
@@ -29,9 +31,9 @@
 
 ## Part I — 系统权力与物理稀缺
 
-1. [执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
+1. [执行摘要](part-I-ch01-executive-summary.md)
 2. [NVIDIA 系统栈与平台权力](part-I-ch02-nvidia-system-stack.md)
-3. [AI Resource Gravity 与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [AI 资源重配与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 4. [TSMC、N2 与先进制造资源分配](part-I-ch04-tsmc-advanced-logic.md)
 5. [HBM 与存储资源重构](part-I-ch05-hbm-memory.md)
 6. [Advanced Packaging、CoWoS 与系统交付瓶颈](part-I-ch06-advanced-packaging.md)
@@ -69,7 +71,7 @@
 29. [核心指标与证据监测框架](part-IV-ch29-monitoring-framework.md)
 30. [S1–S4 四类标准情景](part-IV-ch30-scenarios.md)
 31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
-32. [总判——从事实、机制到可证伪的长期判断](part-IV-ch32-master-judgment.md)
+32. [Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 ## 研究附录
 
