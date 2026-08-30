@@ -42,6 +42,27 @@ This is why the report should not interpret private credit, SPVs, infrastructure
 
 ---
 
+## 1B. Historical analogies require contract-level evidence
+
+Vendor assistance, SPVs, private credit, or off-balance-sheet structures can resemble features seen in previous infrastructure cycles. That resemblance is not enough to classify the current AI buildout as a replay of the telecom bubble or the 2008 securitization cycle.
+
+A defensible historical comparison would require evidence on:
+
+- leverage and loan-to-value;
+- covenant quality and recourse;
+- take-or-pay / minimum-revenue obligations;
+- residual-value guarantees or repurchase commitments;
+- senior / junior loss allocation;
+- refinancing dependence;
+- default / restructuring behavior;
+- transferability and secondary-market liquidity of the underlying assets.
+
+Without those contract-level variables, the analogy remains a **research heuristic**, not a formal report conclusion.
+
+The report therefore uses financing structure to ask **who owns the downside and whether cash yield covers capital cost**, not to infer systemic fragility from the presence of SPVs or private credit alone.
+
+---
+
 ## 2. Asset-light platforms and heavy infrastructure carry different return structures
 
 NVIDIA combines high system margin, strong cash generation, and relatively low direct fixed-asset intensity.
