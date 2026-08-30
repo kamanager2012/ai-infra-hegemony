@@ -204,6 +204,10 @@ The most realistic long-run structure may not be one side eliminating the other.
 
 A more plausible equilibrium is workload segmentation.
 
+That segmentation also has to distinguish **training topology** from **inference topology**. Frontier training is typically more sensitive to large-scale collective communication, scale-up / scale-out fabrics, and synchronization efficiency. Inference is more workload-dependent, with memory capacity / bandwidth, latency, batching, power efficiency, and cost per token often carrying greater weight. At the same time, inference does not mean networking becomes irrelevant: Google Ironwood still integrates a 9,216-chip pod with dedicated ICI, while Microsoft states that Maia 200 scales over standard Ethernet to clusters of up to 6,144 accelerators.[^1][^4]
+
+The report therefore does not generalize frontier-training interconnect barriers to all inference workloads, nor does it assume that custom silicon / Ethernet makes large-scale inference network-insensitive. The correct comparison is **memory, network, latency, utilization, and TCO for the specific workload topology**.
+
 ### Areas where NVIDIA can remain stronger
 
 - general-purpose frontier training;
