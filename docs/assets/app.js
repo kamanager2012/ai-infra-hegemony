@@ -5,9 +5,9 @@
   const BRANCH = "main";
 
   const chapters = [
-    {n:1,part:1,file:"part-I-ch01-executive-summary.md",zh:"执行摘要与未来十年核心判断",en:"Executive Summary and Core Judgments for the Next Decade"},
+    {n:1,part:1,file:"part-I-ch01-executive-summary.md",zh:"执行摘要",en:"Executive Summary"},
     {n:2,part:1,file:"part-I-ch02-nvidia-system-stack.md",zh:"NVIDIA 系统栈与平台权力",en:"NVIDIA's System Stack and Platform Power"},
-    {n:3,part:1,file:"part-I-ch03-resource-gravity.md",zh:"AI Resource Gravity 与 Non-AI Residual Capacity",en:"AI Resource Gravity and Non-AI Residual Capacity"},
+    {n:3,part:1,file:"part-I-ch03-resource-gravity.md",zh:"AI 资源重配与 Non-AI Residual Capacity",en:"AI Resource Reallocation and Non-AI Residual Capacity"},
     {n:4,part:1,file:"part-I-ch04-tsmc-advanced-logic.md",zh:"TSMC、N2 与先进制造资源分配",en:"TSMC, N2, and Advanced-Manufacturing Resource Allocation"},
     {n:5,part:1,file:"part-I-ch05-hbm-memory.md",zh:"HBM 与存储资源重构",en:"HBM and the Restructuring of Memory Resources"},
     {n:6,part:1,file:"part-I-ch06-advanced-packaging.md",zh:"Advanced Packaging、CoWoS 与系统交付瓶颈",en:"Advanced Packaging, CoWoS, and the System-Delivery Bottleneck"},
@@ -25,7 +25,7 @@
     {n:18,part:2,file:"part-II-ch18-antitrust-policy.md",zh:"反垄断、产业政策与 AI 平台权力边界",en:"Antitrust, Industrial Policy, and the Boundaries of AI Platform Power"},
     {n:19,part:3,file:"part-III-ch19-capex-supercycle.md",zh:"AI 基础设施 CapEx 超级周期",en:"The AI-Infrastructure CapEx Supercycle"},
     {n:20,part:3,file:"part-III-ch20-value-capture-map.md",zh:"Value Capture Map——资金流、利润池与风险承担",en:"Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing"},
-    {n:21,part:3,file:"part-III-ch21-consumer-transmission.md",zh:"消费电子、整机工业与实体经济的成本传导",en:"Cost Transmission into Consumer Electronics, End Systems, and the Real Economy"},
+    {n:21,part:3,file:"part-III-ch21-consumer-transmission.md",zh:"AI 如何重定价消费电子与其他终端系统",en:"How AI Reprices Consumer Electronics and Other End Systems"},
     {n:22,part:3,file:"part-III-ch22-depreciation-wall.md",zh:"折旧墙与 Duration Mismatch",en:"The Depreciation Wall and Duration Mismatch"},
     {n:23,part:3,file:"part-III-ch23-capital-financing.md",zh:"AI 基础设施资本市场与融资结构",en:"AI-Infrastructure Capital Markets and Financing Structure"},
     {n:24,part:3,file:"part-III-ch24-capital-clearing.md",zh:"泡沫识别、资本清算与 S4",en:"Bubble Identification, Capital Clearing, and S4"},
@@ -36,7 +36,7 @@
     {n:29,part:4,file:"part-IV-ch29-monitoring-framework.md",zh:"核心指标与证据监测框架",en:"Core Metrics and Evidence-Monitoring Framework"},
     {n:30,part:4,file:"part-IV-ch30-scenarios.md",zh:"S1–S4 四类标准情景",en:"The Four Standard Scenarios — S1 to S4"},
     {n:31,part:4,file:"part-IV-ch31-strategy-endgame.md",zh:"2036 终局与战略选择",en:"The 2036 Endgame and Strategic Optionality"},
-    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",zh:"总判——从事实、机制到可证伪的长期判断",en:"Master Judgment — The Industrial End-State of AI Infrastructure and the Conditions That Would Falsify It"}
+    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",zh:"Master View——什么决定 AI Infrastructure Power，什么事实会改变判断",en:"Master View — What Determines AI Infrastructure Power, and What Would Change the View"}
   ];
 
   const partNames = {
