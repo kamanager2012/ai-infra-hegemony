@@ -1,40 +1,44 @@
-# Part III · 第24章：泡沫识别、资本清算与 S4
+# Part III · 第24章：Capital Clearing——Lead Indicators、Demand Quality 与 S4
 
-## 1. CapEx 很大，不等于泡沫
+## 1. Adjudication Problem：高投资什么时候才转化为 Capital Clearing？
 
-AI infrastructure 的资本开支已经进入极高水平，但投资规模本身不能证明泡沫。真正需要判断的是：资产建设速度、利用率、可实现现金流和残值之间是否持续脱节。
+AI infrastructure 的高投资本身不能证明泡沫；同样，seller margin 很高，也不能证明 buyer-side economics 健康。
 
-因此，本报告不使用一个 CapEx 总额、一个估值倍数或一次科技股回撤作为“泡沫已破”的证据。S4 Capital Hard Landing 需要多类产业信号同步恶化。
+真正需要判断的是：**asset formation 是否开始持续快于 utilization、realizable cash flow、financing independence 与 residual value，而且这种背离是否跨越多个主体与产业层。**
 
-## 2. 五类清算信号
+因此，本章不回答“AI 估值是不是太高”，而回答：什么证据组合足以让情景框架从 S2 式扩张上调到 **S4 — Capital Hard Landing**。
+
+一个 CapEx 总额、一个估值倍数、一次股价回撤或一次 impairment 都不够。真正的判定依赖 lead indicators、cross-signal confirmation 与 causal breadth。
+
+## 2. Capital Clearing 的 Lead / Lag Indicators
 
 这五类信号具有不同的 lead / lag 结构：**Market Clearing、Utilization / Revenue、Forward Commitment 与 Demand Quality / Financing 可以先于财报确认转弱；Accounting 通常是滞后的 confirmation / severity signal。** 因此，本报告不等待 impairment 才允许提高 S4 权重。
 
-### 2.1 Accounting
+### 2.1 Accounting：Lagging Confirmation
 
 最慢但最硬的信号来自账面确认：impairment、inventory write-down、accelerated depreciation、asset disposal。它们说明企业已经承认原先预期的未来现金流或残值不足。
 
 单季政策/库存项目不能自动升级成结构性崩溃。例如 NVIDIA FY26 的 H20-related charges 影响过利润，但 FY26 Q4 GAAP gross margin 已为 **75.0%**，FY27 Q1 为 **74.9%**，FY27 Q2 维持 **75.0%**。[^1][^2][^3]一次性 charge / release 与长期 system economics 必须分开。
 
-### 2.2 Utilization / Revenue
+### 2.2 Utilization / Revenue：Operating Test
 
 资本周期最终要由有效 workload 付账。需要观察 compute utilization、revenue per deployed system、enterprise AI revenue 与 workflow monetization。
 
 如果 utilization 高，巨额 CapEx 可以继续产生现金回报；如果大量资产长期低利用，折旧会先于收入形成压力。真正危险的不是“机器很多”，而是：**资产越来越多，而能够产生现金流的有效 workload 没有同步增长。**
 
-### 2.3 Market Clearing
+### 2.3 Market Clearing：最早的 Price Signal
 
 市场往往早于财报反映松动。重要指标包括 used accelerator / system price、lease rate、cloud instance discount、delivery lead time、HBM price、advanced-packaging availability 与 resale liquidity。
 
 如果新一代硬件快速替代旧一代，economic depreciation 会快于 accounting depreciation。持续的二手价格折让和交期缩短，比单一股价回撤更接近真实去库存。
 
-### 2.4 Forward Commitment
+### 2.4 Forward Commitment：Next-Cycle Signal
 
 下一轮扩张是否继续，要看 hyperscaler CapEx guidance、NVIDIA manufacturing/supply/capacity commitments、long-duration model-company compute contracts 与 power commitments。
 
 NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。**这一结论只否定“广泛撤单已经发生”，并不证明独立终端需求健康、buyer ROI 健康或融资质量高。** Forward commitments 的证据权重必须与本章第7节 Demand Quality / Supplier-Assisted Financing 一起读取。
 
-## 3. CapEx 基数由第19章负责，本章只观察“方向是否反转”
+## 3. 真正的信号是 Divergence，不是合成的 Global CapEx Total
 
 四大 hyperscaler 的 CapEx / PPE / finance-lease 口径并不一致，因此完整资本基数和会计边界已经在第19章单独处理。
 
@@ -54,7 +58,7 @@ NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 �
 
 详见[第19章：AI 基础设施 CapEx 超级周期](part-III-ch19-capex-supercycle.md)。
 
-## 4. Seller 与 Buyer 的资本时钟不同
+## 4. Seller Economics 与 Buyer ROI 在不同 Clock 上清算
 
 NVIDIA 是 system seller，hyperscaler 是 asset buyer。卖方可以在出货时先确认收入和利润，买方则在之后多年承担服务器、机房、网络、电力和长期合同的利用率与折旧风险。
 
@@ -64,7 +68,7 @@ NVIDIA 是 system seller，hyperscaler 是 asset buyer。卖方可以在出货�
 
 这解释了为什么 seller margin 仍高，并不能证明 buyer-side ROI 一定健康；同样，buyer ROI 出现压力，也不意味着 seller economics 当季就会崩塌。
 
-## 5. Algorithmic Efficiency：关键不是效率本身，而是效率与 Workload Growth 的相对速度
+## 5. Efficiency 只有相对于 Workload Growth 才有意义
 
 算法效率可以让同一工作结果需要更少 compute / memory，也可能通过降价和可用性提升刺激更多 workload。
 
@@ -91,7 +95,7 @@ Infrastructure Demand
 
 所以模型价格下降或算法效率提升，都不能单独证明 overcapacity。
 
-## 6. Anchor Compute Buyer 已成为新的领先指标
+## 6. Anchor Compute Buyer 增加了新的 Leading Indicator
 
 OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租户上升为基础设施 anchor buyer。它们可以提高项目融资确定性，让数据中心、电力、芯片和内存提前建设。
 
@@ -104,7 +108,7 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 如果这些变量与 buyer utilization、市场清算价格一起转弱，资本硬着陆的证据强度会明显上升。
 
-## 7. Demand Quality：必须区分 Organic Workload 与 Supplier-Assisted Financing
+## 7. Demand Quality：必须区分 Independent Demand 与 Supplier-Assisted Financing
 
 当 system seller 同时参与客户 equity investment、credit enhancement、LPS support 或 infrastructure financing 时，seller-side order visibility 不能完全等同于独立终端需求强度。
 
@@ -129,7 +133,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 如果 utilization 走弱，同时 supplier support 比重不断上升，则 forward commitments 的信号质量应下调。
 
-## 8. 清算顺序具有资产久期
+## 8. Capital Clearing 按 Asset Duration 传播
 
 短周期资产先清算，长周期资产后清算。典型顺序更接近：
 
@@ -137,7 +141,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 因此，S4 可能持续多年，而不是一个季度完成。电厂、变电设施和数据中心壳体不会像 GPU 库存一样快速消失，它们可能降价、换主人、重谈合同，或者在下一轮集中化中重新成为稀缺资产。
 
-## 9. 什么才叫 S4 Capital Hard Landing
+## 9. S4 Adjudication Rule
 
 本报告只有在**多类因果独立的信号族**跨越不止一个主体或产业层，形成广泛、持续且相互印证的恶化时，才把 S4 从压力测试上调为现实主情景。下面五类是监测信号族，不是“五项必须全部满足”的 checklist：
 
@@ -153,7 +157,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 但如果只有一个维度恶化，例如股价下跌、模型价格下降、某一季毛利波动或 seller support 增加，而 utilization 与 monetization 仍然健康，都不足以单独证明 S4。
 
-## 10. 当前判断
+## 10. Current Read
 
 截至 2026 年 8 月，公开事实更接近：
 
