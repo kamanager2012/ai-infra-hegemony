@@ -39,7 +39,7 @@ High-NA matters primarily as a process-roadmap and industrial-maturity path, not
 
 Leading-edge manufacturing depends on equipment installation, spare parts, software, process recipes, materials, metrology, and long-duration field service.
 
-Even if two regions both contain fab buildings, their effective capacity will not be equivalent if supplier density, engineering talent, qualification cycles, tool service, and material stability differ.
+Even if two regions both contain fab buildings, their effective capacity need not be equivalent when supplier density, engineering talent, qualification cycles, tool service, and material stability differ.
 
 This report therefore defines supply-chain independence as **system-level continuity**, not simply "a fab exists on the map."
 
