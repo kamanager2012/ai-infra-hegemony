@@ -20,6 +20,14 @@ Recommended first pass:
 
 NVIDIA, hyperscalers, China's parallel stack, and the scenario chapters explain **why upstream allocation rules change**. End-system readers do not need to finish those chapters before understanding residual capacity, quantity assurance, or upgrade tax.
 
+## Core research spine
+
+For readers focused specifically on how AI infrastructure restructures resources, system stacks, and capital, the load-bearing path is:
+
+**Ch01 → Ch03 → Ch04 → Ch05 → Ch06 → Ch07 → Ch08 → Ch12 → Ch13 → Ch17 → Ch19 → Ch20 → Ch24 → Ch29 → Ch30 → Ch32**
+
+Ch25–Ch26 (labor and education) are **second-order transmission / extended-impact chapters**. They examine how infrastructure change can propagate into labor and talent systems, but they are not load-bearing inputs to the S1–S4 scenario framework.
+
 ## Part I — System Power and Physical Scarcity
 
 1. [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
