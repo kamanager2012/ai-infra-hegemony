@@ -16,7 +16,7 @@ In the accelerator-card era, OEMs had wide latitude to define server architectur
 
 At rack scale, power delivery, cooling, fabric, cable topology, firmware, rack layout, and software validation are more tightly coupled to the reference architecture.
 
-This does not mean Dell, HPE, Lenovo, ODMs, or other integrators lose product capability. It means the system-platform owner exerts stronger constraints over whole-system design and qualification.
+This does not imply that Dell, HPE, Lenovo, ODMs, or other integrators lose product capability. It means the system-platform owner exerts stronger constraints over whole-system design and qualification.
 
 ## 3. Networking is part of the compute platform
 
@@ -61,12 +61,12 @@ This raises platform capital efficiency and turns external supply elasticity int
 
 ## 6A. Asset-light does not mean zero balance-sheet exposure
 
-Transaction structures disclosed in August 2026 show NVIDIA's supply orchestration extending partly into infrastructure capital.
+Transactions disclosed in August 2026 show NVIDIA's supply orchestration extending partly into infrastructure capital.
 
 - The company announced compute-financing platforms with large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**.[^5]
 - In PORTS-Pike, NVIDIA is providing credit support for land + power + shell buildout and investing **US$1.5B** in SB Energy.[^6]
 
-NVIDIA has not become a traditional heavy-asset operator that owns every fab, data center, and power asset. But "asset-light platform" can no longer be interpreted as zero infrastructure-financing exposure.
+NVIDIA has not become a traditional heavy-asset operator that owns every fab, data center, and power asset. But an "asset-light platform" can no longer be interpreted as having zero infrastructure-financing exposure.
 
 A more precise description is:
 
@@ -80,7 +80,7 @@ Automotive, robotics, simulation, and edge deployment follow the same system log
 
 But "strategically important" does not mean "already contributing Data Center-scale revenue."
 
-Physical AI has to be evaluated independently through design wins, deployment scale, revenue, reliability, and ecosystem adoption.
+Physical AI must be evaluated independently through design wins, deployment scale, revenue, reliability, and ecosystem adoption.
 
 ## 8. Boundaries to vertical expansion
 
