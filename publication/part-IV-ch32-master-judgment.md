@@ -94,7 +94,7 @@ TSMC 已一手确认 advanced-packaging capacity tight，并在 2026 Q2 表示 p
 
 Contracted / Secured、Permitted、Construction / Transition、Energized、Utilized 必须严格区分；generation MW/GW、PPA capacity 与 IT-GW 也不能机械互换。
 
-因此，一个 bottleneck 缓解后，另一个 bottleneck 可以上升。这就是本报告所称的 **Rolling Bottleneck Cascade**。
+因此，一个 bottleneck 缓解后，另一个 bottleneck 可以上升。这就是 **Rolling Bottleneck Cascade**。
 
 ---
 
@@ -173,7 +173,7 @@ CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场份额判断，但不能�
 
 foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 2026 Q1 的 SMIC **5.1%** 是 foundry revenue share，而不是先进 AI system closure 指标。[^12]
 
-因此，本报告对中国采用两级判断。
+因此，需要采用两级 closure 判断。
 
 ### Production-Grade Parallel Stack
 
@@ -199,7 +199,7 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 - grid / substation / generation：更长周期；
 - future workload revenue：不确定。
 
-因此，本报告持续观察五类 capital-clearing signal families；它们共同构成监测面板，但确认 S4 **不要求五类信号同时恶化**：
+因此，五类 capital-clearing signal families 共同构成监测面板，但确认 S4 **不要求五类信号同时恶化**：
 
 - **Accounting**：impairment、write-down、accelerated depreciation；
 - **Utilization / Revenue**：deployed compute utilization、AI revenue、verified workflow output；
@@ -365,13 +365,13 @@ AI 对劳动的传导必须至少经过：
 - supplier equity / credit support 持续上升，同时 independent customer financing 与 utilization 走弱；
 - 正式监管 remedy 实质性改变 tying、interface 或市场进入条件。
 
-如果这些事实与当前机制相反，本报告必须修改判断，而不能用“长期仍然成立”解释所有反例。
+如果这些事实与当前机制相反，判断必须修改，而不能用“长期仍然成立”解释所有反例。
 
 ---
 
 ## 14. Research Discipline：Fact → Hypothesis → Mechanism → Scenario → Falsification
 
-本报告所有强判断都必须经过五层：
+所有强判断都必须经过五层：
 
 - **F — Fact**：已经发生并可公开核验的事实；
 - **H — Hypothesis**：未来输入条件或压力测试假设；
