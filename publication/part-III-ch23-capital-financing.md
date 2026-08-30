@@ -18,7 +18,7 @@ AI infrastructure finance 已经覆盖 equity、private infrastructure、project
 
 > **哪一种资本承担哪一种久期、现金流和 residual-value risk。**
 
-## 1A. 资本是趋利的：五个观察维度解释资金为什么继续流入
+## 1A. Capital Allocation：观察 Risk-Adjusted Return 的五个维度
 
 融资结构变复杂，本身不能被写成泡沫证据。资本在各自 mandate 下追求的是更高的**风险调整后回报（Risk-Adjusted Return）**，而不同类型资本会主动选择 AI value chain 中完全不同的位置。
 
@@ -34,7 +34,7 @@ AI infrastructure finance 已经覆盖 equity、private infrastructure、project
 
 > **更大 opportunity set → 一级 / 战略资本 → capability 与 scale → 更强 market position → profit / FCF → 更低或更灵活的 capital cost → 更强再投资能力**
 
-当底层 cash flow 能够验证这条链时，资本会强化领先者；当 monetization、market position 或 financing condition 变化时，这条链也可以快速反向。
+当底层 cash flow 能够验证这条链时，资本会强化领先地位；当 monetization、market position 或 financing condition 变化时，这条链也可以快速反向。
 
 这也是为什么 private credit、SPV、infrastructure fund 或 seller-assisted financing 不能被自动写成“晚周期危险信号”。真正的问题是：
 
@@ -109,53 +109,28 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 ## 6. Seller-Assisted Finance 形成 Financing Reflexivity
 
-2026-08-17 的 PORTS-Pike 交易进一步说明，compute financing 正从“为 GPU 融资”扩展到 **land + power + shell**。NVIDIA 披露将为 SB Energy 的相关 LPS buildout 提供 credit support，并投资 **US$1.5B** 于 SB Energy；初始部署设计支持 **4.25 IT-GW**，OpenAI 为最终客户，SB Energy 建设、持有并运营 data center。[^4]
+2026-08-17 的 PORTS-Pike structure 说明，compute financing 可以从 hardware 延伸到 **land + power + shell (LPS)**。NVIDIA 披露了对 LPS buildout 的 credit support、对 SB Energy 的 **US$1.5B** 投资、初始 **4.25 IT-GW** design capacity，以及 OpenAI 作为 end customer。[^4]
 
-这意味着 system-platform seller 的角色可能进一步扩展为：
+NVIDIA FY27 Q2 earnings call 又提供了一条 company-level signal：管理层表示公司已向 frontier AI labs 投资接近 **US$50B**，并讨论了 selective credit enhancement，为另一家 frontier lab 的 infrastructure buildout 提供接近 **2 GW of compute**。[^5]
 
-> **technology supplier + ecosystem coordinator + selective credit enhancer + infrastructure capital participant**
+这些披露支持一个独立分析机制：
 
-这种结构可以解决 frontier AI lab 自身资产负债表不足以独立承销超大基础设施的问题，也可以把长期 customer demand 更早转化为 project finance。
+> **platform cash generation → equity / credit support → infrastructure financing improves → Anchor Buyer capacity expands → platform-system demand expands**
 
-但它也引入新的风险：
+这就是 **Financing Reflexivity**。
 
-- seller balance sheet exposure；
-- customer concentration；
-- related ecosystem financing feedback；
-- long-duration lease / LPS commitment；
-- future hardware residual value 与 upgrade-cycle assumption。
+它不证明 demand 是 artificial。
 
-因此，seller-assisted financing 既可能加速供给形成，也可能提高 system-platform、anchor buyer 与 infrastructure developer 之间的风险耦合。
+它意味着 demand quality 必须区分：
 
-**Supplier-Assisted Demand 与 Financing Reflexivity 必须单独观察**
+1. independently financed end demand；
+2. long-duration customer commitments；
+3. third-party infrastructure finance；
+4. supplier equity / credit enhancement。
 
-NVIDIA 在 2026-08-26 FY27 Q2 earnings call 中进一步披露，公司已向 frontier AI labs 投资接近 **US$50B**，并表示还会对另一家 frontier lab 提供接近 **2 GW compute** 的 selective credit enhancement。[^5]
+如果 utilization 与 monetization 保持健康，seller-assisted finance 可以加快真实基础设施形成。
 
-这些属于 NVIDIA management commentary，应保留其公司披露身份。
-
-它们说明一个新的资本机制正在形成：
-
-> **platform cash generation → equity / credit support → infrastructure financing improves → anchor customer capacity expands → platform system demand expands**
-
-这条链条可以真实加速基础设施形成，因为其中仍然存在长期客户、独立基础设施开发商和外部资本。
-
-但它也会产生 **financing reflexivity**：
-
-- seller revenue 与 seller-supported customer expansion 的相关性提高；
-- end-demand signal 与 financing support 更难完全分开；
-- customer concentration risk 增强；
-- 如果 monetization 不足，信用支持和资产风险可能沿链条反向传导。
-
-因此，评估 AI infrastructure demand quality 时，应区分：
-
-1. **independently financed end demand**；
-2. **long-duration customer commitments**；
-3. **third-party infrastructure finance**；
-4. **supplier equity / credit enhancement**。
-
-这四类需求都可能真实，但其风险承担结构不同。
-
----
+如果 utilization 走弱，而 supplier support 与 refinancing dependency 持续上升，forward-demand signal 的独立性就会下降。
 
 ## 7. Compute 为什么可以按 Infrastructure 融资
 
@@ -217,7 +192,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 ## 12. Current Read
 
-AI infrastructure 正从科技公司内部 CapEx 扩展为：
+AI infrastructure 正从科技公司内部 CapEx 进一步扩展为：
 
 > **technology capital + infrastructure capital + private capital + sovereign capital**
 
