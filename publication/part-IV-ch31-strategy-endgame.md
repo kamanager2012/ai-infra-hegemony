@@ -409,11 +409,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 ## 14. Strategic Bottom Line
 
-截至 2026 年 8 月，AI infrastructure 仍处在：
-
-> **高速扩张 + 高集中 + 替代系统加速形成**
-
-同时存在的阶段。
+截至 2026 年 8 月，AI infrastructure 仍处在**高速扩张、高集中与替代系统加速形成同时存在**的阶段。
 
 未来十年的真正竞争，不是简单判断“谁会赢”，而是持续围绕：
 
@@ -428,7 +424,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 重新分配产业权力和资本回报。
 
-对企业、资本和国家，最重要的共同原则可以压缩成一句：
+对企业、capital allocation 与 industrial policy，可以得到一个共同的战略原则：
 
 > **不要押注一个永远不变的终局；建立在终局变化时仍然可执行的选择权。**
 
