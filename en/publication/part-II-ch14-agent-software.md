@@ -2,9 +2,9 @@
 
 > **Role in the report — demand-side validation module.** This chapter tests whether installed AI infrastructure can convert into repeatable, monetizable workflows. It informs demand duration and utilization, but it is not direct evidence of scarce-layer allocation and does not independently determine S1–S4.
 
-## 1. The unit of software economics moves from seat to workflow
+## 1. The unit of software economics shifts from seat to workflow
 
-Traditional SaaS can often add seats without proportional variable compute. Agent-native software cannot assume that cost structure.
+Traditional SaaS can often add seats without proportional increases in variable compute. Agent-native software cannot assume the same cost structure.
 
 A single workflow may trigger retrieval, reasoning, multiple model calls, tool invocation, browser/action execution, retries, and human review.
 
@@ -20,7 +20,7 @@ toward:
 
 Stanford AI Index 2026 reports that **88%** of surveyed organizations say they use AI and **70%** use Generative AI in at least one business function. Yet AI-agent deployment remains in the **single digits across nearly all business functions**.[^3]
 
-The correct reading is not a fixed penetration forecast. It is a stage-of-market distinction:
+The correct reading is not a fixed penetration forecast, but a stage-of-market distinction:
 
 > **Broad AI adoption has already occurred, while production-grade autonomous or semi-autonomous workflow deployment is still early.**
 
@@ -73,7 +73,7 @@ Variable cost differs by product and depends on model choice, context length, ca
 
 A fixed path such as "traditional SaaS 85% → AI SaaS 55%" is not treated as fact.
 
-It uses **AI Software Unit Economics** instead.
+The report uses **AI Software Unit Economics** instead.
 
 ## 3. Core unit-economics identity
 
@@ -104,7 +104,7 @@ A deeper agent looks more like:
 
 As loop depth grows, compute, tool usage, and the failure surface all expand.
 
-Agent products have to optimize:
+Agent products must optimize:
 
 - task success;
 - loop length;
@@ -131,7 +131,7 @@ This does not imply that seat pricing disappears. It means agent depth weakens t
 
 ## 6. Multi-model routing becomes infrastructure
 
-Sending every task to the most expensive model directly damages unit economics.
+Sending every task to the most expensive model directly weakens unit economics.
 
 A more efficient system design can use:
 
@@ -190,7 +190,7 @@ If lower cost also produces:
 
 then total compute / memory / network demand can still rise.
 
-The software layer's feedback into infrastructure is better summarized as:
+The software layer's feedback into infrastructure is therefore better summarized as:
 
 > **cost per verified workflow × demand elasticity**
 
