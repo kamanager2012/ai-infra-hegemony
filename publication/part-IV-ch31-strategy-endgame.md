@@ -1,8 +1,8 @@
 # Part IV · 第31章：不同 AI Infrastructure State 下的战略含义
 
-## 1. 战略问题不是预测终局，而是保留 Executable Optionality
+## 1. Strategy 的核心是保留 Executable Optionality
 
-本章不把 2036 当成 point estimate，而是使用 S1–S4 四种 structural state 判断：当 concentration、substitution、scarcity 与 capital clearing 的相对权重变化时，哪些战略能力仍然有价值。
+本章不针对一个 2036 point forecast 做最优化，而是判断：当 concentration、substitution、scarcity 与 capital clearing 向不同方向变化时，哪些选择仍然保持价值。
 
 当前竞争单位已经是 system stack，覆盖 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power、capital 与 sustainable workload demand。
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 2. 五个 Structural Variable 决定战略 Choice Set
+## 2. 五个 Structural Variable 定义 Strategic Choice Set
 
 长期产业结构主要取决于五个问题。
 
@@ -118,7 +118,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 
 ---
 
-## 3. Current Baseline：S2 要求 Efficiency + Optionality
+## 3. 在 S2 下，Efficiency 不够，Optionality 同样重要
 
 截至 2026 年 8 月，当前事实组合仍最接近 **S2 — Baseline Concentration**。
 
@@ -182,7 +182,7 @@ portability 不意味着所有供应商平均采购。
 
 ---
 
-## 5A. 整机企业：把 Quantity Assurance 与价格放在同一张采购表里
+## 5A. End-System Company：必须同时管理 Quantity Assurance 与 Price
 
 对 smartphone、PC、game console、汽车、工业设备、机器人和其他长生命周期电子，低后悔动作不是预测某个供应商十年后一定短缺，而是提高对资源重排的承受力。
 
@@ -263,7 +263,7 @@ AI infrastructure 同时包含：
 
 ---
 
-## 8. Industrial Policy：竞争单位已经不是一座 Fab
+## 8. Industrial Policy：竞争单位是 System，不是一座 Fab
 
 完整 frontier AI industrial capability 至少需要：
 
@@ -288,7 +288,7 @@ AI infrastructure 同时包含：
 
 ---
 
-## 9. Industrial Policy：Power Policy 已经成为 Compute Policy
+## 9. Industrial Policy：Power Policy 就是 Compute Policy
 
 高功率 AI system 已经把：
 
@@ -314,7 +314,7 @@ Power 不能再被当成数据中心建设完成后的运营问题。
 
 ---
 
-## 10. Industrial Policy：Interoperability 创造 Strategic Optionality
+## 10. Industrial Policy：Interoperability 创造 Optionality
 
 系统韧性并不要求拒绝领先平台。
 
@@ -336,7 +336,7 @@ Power 不能再被当成数据中心建设完成后的运营问题。
 
 ---
 
-## 11. 中国：长期核心指标不是“国产化率”，而是两级 Closure
+## 11. 中国：长期问题是 Two-Level Closure
 
 China parallel stack 是否改变全球产业结构，不取决于一个总国产化率。
 
@@ -365,7 +365,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 ---
 
-## 12. 劳动与人才：价值从“会用工具”转向“能对结果负责”
+## 12. Labor / Talent：价值向 Outcome Responsibility 迁移
 
 模型、IDE、agent 与生成工具会快速商品化。
 
@@ -387,7 +387,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 
 ---
 
-## 13. 什么事实会改变 Strategic Priorities
+## 13. 什么事实会改变 Strategic Priority
 
 未来最重要的更新变量包括：
 
