@@ -26,6 +26,45 @@ That creates a large potential workflow pool, but production reliability, review
 
 Anthropic's June 2026 Economic Index also reports that its product usage has shifted toward more long-running agentic tasks and that higher compute use is associated with higher estimated artifact value.[^4] Because this is first-party product telemetry, it should not be treated as representative of the entire enterprise-software market.
 
+## 1B. AI Inheritance Effect: AI inherits decades of Information Technology installed base
+
+Moving a physical industrial process into the digital domain usually requires sensors, networks, databases, software, identity systems, process digitization, and organizational change. A highly digitized organization starts from a different position: ERP, CRM, MES, CAD/PLM, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and workflow logs already form a reusable digital substrate.
+
+This report defines the structural advantage created when **AI can add an intelligence layer on top of existing digital assets and workflows without rebuilding the full digital foundation** as the **AI Inheritance Effect**.
+
+The demand transmission is:
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume → Infrastructure Demand**
+
+Long-run AI-infrastructure demand therefore does not depend only on whether individual models keep scaling upward. It also depends on **how many existing digital workflows begin invoking AI and how deeply each workflow moves from assistant features toward semi-autonomous or autonomous execution**.
+
+This mechanism is compatible with Algorithmic Efficiency:
+
+- compute / memory required per task can keep falling;
+- the number of workflows for which AI becomes economical can expand;
+- execution frequency and agent depth inside each workflow can rise;
+- aggregate infrastructure demand therefore depends on whether **unit resource intensity falls faster or slower than workflow penetration and execution volume rise**.
+
+### Boundary: lower Digital → AI friction does not mean zero-friction deployment
+
+Existing digital infrastructure can reduce marginal deployment friction, but production-grade AI can still be constrained by:
+
+- data quality / access;
+- legacy integration;
+- identity / permission;
+- security / privacy;
+- compliance / responsibility;
+- workflow redesign;
+- reliability / observability;
+- human review;
+- unit economics.
+
+Physical AI and industrial processes that are not yet digitized still require sensorization, control integration, qualification, safety engineering, and field modification.
+
+The more defensible statement is therefore:
+
+> **Relative to Industrial → Digital transformation, highly digitized organizations generally face lower marginal transformation cost when moving from Digital → AI. AI can inherit the IT installed base, but it cannot skip production integration or responsibility constraints.**
+
 ## 2. There is no universal end-state for "AI SaaS gross margin"
 
 Variable cost differs by product and depends on model choice, context length, caching, retrieval, tools/APIs, failure/retry rates, human review, pricing model, and task depth.
