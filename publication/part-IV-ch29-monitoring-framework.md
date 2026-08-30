@@ -203,7 +203,7 @@ customer cash generation、third-party capital risk-taking、supplier equity / c
 
 如果报告的主问题是“重要整机还能不能按自己的产品节奏拿到资源”，监测系统就不能只看 seller economics、HBM、packaging 与 power。
 
-**Table 29.4 — End-system residual-pressure monitoring panel**
+**Table 29.3 — End-system residual-pressure monitoring panel**
 
 | 整机 / 系统 | 主要公开代理 | 需要回答的问题 | 禁止直接推出 |
 |---|---|---|---|
@@ -251,7 +251,7 @@ TrendForce 对 2026 console shipment / memory-BOM 的估计只能作为 B 级数
 
 ## 11. Evidence-grade 快速规则
 
-**Table 29.3 — 更新时的默认 evidence grade**
+**Table 29.4 — 更新时的默认 evidence grade**
 
 | 数据类型 | 默认等级 |
 |---|---|
