@@ -2,7 +2,7 @@
 
 ## 1. Strategy is about preserving executable optionality
 
-This chapter does not optimize for one 2036 forecast. It asks which options remain valuable when concentration, substitution, scarcity, and capital clearing move in different directions.
+This chapter does not optimize for a single 2036 forecast. It asks which options remain valuable when concentration, substitution, scarcity, and capital clearing move in different directions.
 
 The competitive unit is already a system stack spanning advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, racks/pods, data centers, power, capital, and sustainable workload demand.
 
@@ -10,11 +10,11 @@ The strategic question is therefore:
 
 > **Which capabilities preserve bargaining power, continuity, and capital flexibility across S1–S4 rather than only under today's S2 baseline?**
 
-This reframes strategy away from predicting one permanent winner and toward maintaining executable options under changing system conditions.
+This reframes strategy away from predicting a permanent winner and toward maintaining executable options under changing system conditions.
 
 ## 2. Five structural variables define the strategic choice set
 
-The long-run industry structure depends primarily on five questions.
+The long-run industry structure depends on a small set of recurring questions.
 
 **Table 31.1 — Core structural variables used in the long-run strategic judgment**
 
@@ -50,7 +50,7 @@ If several scarce layers remain tight at the same time, system platforms and lar
 
 ### 2.3 Time-to-Power
 
-Do powered land, grid connection, substations, and firm power remain deployment quotas?
+Do powered land, grid connections, substations, and firm power remain binding deployment constraints?
 
 If Time-to-Power stays long, AI competition becomes increasingly infrastructural and geographic.
 
@@ -64,7 +64,7 @@ Do AI workloads generate enough cash flow to cover:
 - operations;
 - financing?
 
-This is the fundamental variable that determines whether capital expansion is economically sustainable.
+This is the fundamental variable determining whether capital expansion is economically sustainable.
 
 ### 2.5 Financing Independence / Demand Quality
 
@@ -110,7 +110,7 @@ The strategic difference can be compressed further:
 - **S3:** optionality comes from early access to scarce capacity without complete lock-in to one stack;
 - **S4:** optionality comes from cash flow, variable-cost structure, and the ability to reallocate cheaper assets after clearing.
 
-The objective is not to predict one permanent winner. It is:
+The objective is not to predict a permanent winner. It is:
 
 > **to keep an executable next move when the relative weight of S1–S4 changes.**
 
@@ -146,7 +146,7 @@ High-certainty workloads can justify longer reservations.
 
 Experimental or rapidly changing workloads should preserve flexible / multi-provider paths.
 
-The dangerous sequence is to reserve large long-duration capacity first and search for enough workloads later.
+The higher-risk sequence is to reserve large, long-duration capacity first and search for sufficient workloads later.
 
 ## 5. Enterprise: price optionality explicitly
 
@@ -177,7 +177,7 @@ Three principles:
 2. **Separate supply risk across product tiers.** Flagship / high-performance SKUs and cost-sensitive / long-life SKUs should not automatically depend on the identical scarce-resource path, or one high-end constraint can propagate across the whole portfolio.
 3. **Identify long-life part continuity early.** For components with long qualification cycles and high replacement costs, continuously assess whether suppliers still have the economics to maintain long-duration supply, packaging/test, tooling, and engineering support.
 
-This is not a recommendation to maximize inventory.
+This is not a recommendation to maximize inventory holdings.
 
 The objective is:
 
@@ -243,7 +243,7 @@ High-power racks pull grid planning, generation, interconnection, substations, c
 
 If chip supply expands while Time-to-Power does not improve, the result can be "hardware available, deployment delayed."
 
-A national AI-infrastructure strategy therefore has to manage:
+A national AI-infrastructure strategy therefore must manage:
 
 > **semiconductor clock + power-permitting clock + capital clock**
 
