@@ -169,7 +169,7 @@ The harder the resource is to expand quickly, the stronger the short-run pressur
 
 Buyers with LTAs, purchasing scale, inventory, strong balance sheets, and end-market pricing power can absorb or delay the shock more effectively.
 
-These end systems should not be placed into one universal “AI took the chips” funnel.
+These end systems should not be placed into a universal “AI took the chips” funnel.
 
 **Table 3.1 — Layered exposure of non-AI / Physical-AI end systems**
 
