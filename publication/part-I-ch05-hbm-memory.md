@@ -3,13 +3,13 @@
 
 ## 1. Memory 的核心问题是 Manufacturing Intensity，不只是 Bit Demand
 
-HBM 不应再被当成单纯 GPU BOM line 分析。在 frontier system 中，它同时影响 model capacity、batching、context length、concurrency、communication 与 accelerator utilization；当采购单位上移到 rack / cluster，memory manufacturing intensity 就成为 system-level capacity constraint。
+HBM 不应只被当成另一条 GPU BOM line 来分析。在 frontier system 中，它同时影响 model capacity、batching、context length、concurrency、communication 与 accelerator utilization；当采购单位上移到 rack / cluster，memory manufacturing intensity 就成为 system-level capacity constraint。
 
-真正的产业问题不是“需要多少 HBM bits”，而是：
+真正的产业问题不只是“需要多少 HBM bits”，而是：
 
 > **每一单位高价值 memory 要吸收多少 wafer input、cleanroom space、packaging capacity、qualification effort 与 capital，以及 conventional DRAM 最终剩下多少 effective supply。**
 
-只有在真实 shipment / deployment count 已知时，才能继续推 fleet-level demand。所以即使 aggregate DRAM bit capacity 继续增长，HBM 仍可能重定价整个 memory system。
+这也是为什么即使 aggregate DRAM bit capacity 继续增长，HBM 仍可能重定价更广泛的 memory system。
 
 ## 2. Micron 的约 3× 是 First-Party Manufacturing Anchor
 
@@ -70,7 +70,7 @@ SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KR
 
 > HBM/AI demand 上升 → conventional DRAM residual supply 收紧 → DDR5/RDIMM price 上升 → conventional DRAM per-wafer economics 改善 → 继续向 HBM 转产的相对激励下降 → memory vendor 重新平衡 product mix。
 
-因此，AI Resource Gravity 不是无限的单向抽水机。长期 allocation 取决于不同产品的风险调整后单位稀缺资源回报、qualification、yield、generation transition 与客户合同结构。
+因此，resource reallocation 不是无限的单向过程。长期 allocation 取决于不同产品的 risk-adjusted return per scarce manufacturing input、qualification、yield、generation transition 与 customer-contract structure。
 
 ## 7. Rack Spec 只说明 Intensity，不代表 Industry Demand
 
@@ -83,8 +83,6 @@ GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level materi
 因此：
 
 > **per-system HBM spec 可以用于理解 memory intensity；行业总需求仍必须由真实 shipment、customer demand 或 memory-vendor supply data 约束。**
-
-这比使用任意假设 rack 数去扩展成 PB 级“需求总量”更适合作为正式行业报告的量化边界。
 
 ## 8. HBM4 提高 Cross-Layer Capital Density，但没有固定公开 Multiplier
 
@@ -110,7 +108,7 @@ HBM 与标准 commodity memory 的一个重要差别是 generation-specific qual
 
 部分 inference workload 可以用更多 DDR/LPDDR 换取较低单位 memory cost，但 frontier inference 仍受 KV cache、long context、large batch、MoE routing、low-latency serving 与 multi-accelerator communication 影响。
 
-更重要的是，RDIMM 本身已经被计入 TrendForce 的 AI/server memory 前向结构。于是从 HBM 向 DDR5 转移，更像是在同一个更宽 memory resource pool 中改变 cost/bandwidth tradeoff，而不是凭空创造一条完全独立的供给河流。
+更重要的是，RDIMM 本身已经被计入 TrendForce 的 AI/server memory 前向结构。因此，从 HBM 向 DDR5 转移，是在更宽的 shared memory-resource pool 内改变 cost/bandwidth tradeoff，而不是创造一个独立 supply base。
 
 ## 11. Current Read 与 Falsification
 
