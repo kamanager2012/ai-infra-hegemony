@@ -24,11 +24,11 @@ Model-company demand has become an upstream signal for capital formation, not me
 
 ## 3. OpenAI / Stargate: delivery state matters more than headline scale
 
-OpenAI announced Stargate in January 2025, with a plan to invest **US$500B over four years** in U.S. AI infrastructure.[^1]
+OpenAI announced Stargate in January 2025. The Stargate Project was described as a new company intending to invest **US$500B over four years** in U.S. AI infrastructure; that figure should not be read as an OpenAI-only funding commitment.[^1]
 
 The long-run objective was later described as securing **10 GW** of U.S. AI infrastructure by 2029.[^2]
 
-The status moved further forward in 2026. On **April 29, 2026**, OpenAI said Stargate had **surpassed the 10 GW secured-capacity milestone** and had added more than 3 GW in the prior 90 days.[^2] On **June 1, 2026**, the **1 GW The Barn** data-center campus in Michigan broke ground.[^3]
+The status moved further forward in 2026. On **April 29, 2026**, OpenAI said Stargate had **surpassed the 10 GW secured-capacity milestone** and had added more than 3 GW in the prior 90 days.[^2] On **June 1, 2026**, the **1 GW The Barn** data-center campus in Michigan broke ground.[^3] OpenAI's announcement does not further specify whether that 1 GW figure is IT load, total facility load, generation capacity, or another power identity, so this report does not convert it into any of those denominators.
 
 These states must remain separate:
 
