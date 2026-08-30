@@ -30,36 +30,36 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 
 ## Part I — System Power and Physical Scarcity
 
-1. [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
+1. [Executive Summary](part-I-ch01-executive-summary.md)
 2. [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md)
-3. [AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [AI Resource Reallocation and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md)
 5. [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md)
 6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md)
 7. [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md)
-8. [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)
+8. [Quantification Boundaries — What Can Be Measured, What Cannot, and Why](part-I-ch08-quantitative-framework.md)
 9. [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
 10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
 11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md)
-12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
+12. [The Second System Stack — Hyperscaler Substitution Economics](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
 16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
-17. [China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
+17. [China's Parallel Stack — Production-Grade Substitution vs. Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
 18. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md)
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
-19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
+19. [AI Infrastructure Capital Formation, Duration Mismatch, and the Utilization Test](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
-21. [Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
+21. [How AI Reprices Consumer Electronics and Other End Systems](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
-24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
+24. [Capital Clearing — Lead Indicators, Demand Quality, and S4](part-III-ch24-capital-clearing.md)
 25. [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md)
 26. [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md)
 
@@ -67,10 +67,10 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 
 27. [Research Method and Evidence Architecture](part-IV-ch27-research-method.md)
 28. [2026–2036 Timeline and Conditional Milestones](part-IV-ch28-timeline-2026-2036.md)
-29. [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md)
-30. [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md)
+29. [Monitoring Dashboard — State Variables, Inflection Tests, and Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
+30. [Scenario Discrimination — S1 to S4](part-IV-ch30-scenarios.md)
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
-32. [Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions](part-IV-ch32-master-judgment.md)
+32. [Master View — What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
 ## Research Appendices
 
