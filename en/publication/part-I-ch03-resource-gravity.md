@@ -4,7 +4,7 @@
 
 AI does not need to “take all capacity” to change semiconductor and infrastructure economics. Reallocation starts at the margin.
 
-The most exposed resources are those that are both **shared with AI/HPC demand and slow to expand**:
+The report screens the following resource families for exposure when they are both **shared with AI/HPC demand and slow to expand**:
 
 - advanced logic;
 - HBM / selected DRAM;
@@ -12,6 +12,8 @@ The most exposed resources are those that are both **shared with AI/HPC demand a
 - high-end substrates / networking;
 - selected power-management components;
 - data-center power.
+
+This list is a **report-side exposure taxonomy**, not a claim that one external source ranks all six as the industry's empirically "most exposed" resources.
 
 The report uses **resource reallocation pressure** as shorthand for this mechanism; it is not treated as a separate empirical law:
 
@@ -110,7 +112,7 @@ Suppliers are therefore deciding not only “who receives more capacity today,�
 
 The report uses **two-speed semiconductor economics** as shorthand for that divergence.
 
-It is not a claim that consumer electronics are permanently sacrificed. It means **AI/HPC is gaining greater influence over marginal semiconductor capital formation**.
+It is not a claim that consumer electronics are permanently sacrificed. The report treats the current evidence as **consistent with AI/HPC gaining greater influence over marginal semiconductor capital formation**, but public disclosures do not provide one complete time series that allocates semiconductor CapEx by end-demand pool.
 
 ---
 
@@ -120,9 +122,9 @@ Micron disclosed that, under **same technology node / same number of bits** cond
 
 TrendForce forecasts HBM + RDIMM at approximately **51% of 2026 DRAM bit supply**.[^4]
 
-Together, these two anchors show:
+These two anchors describe **different denominators** and should not be combined into one ratio. Micron's disclosure establishes a same-node / same-bits HBM3E wafer-input trade ratio, while TrendForce's 51% forecast combines HBM and RDIMM at the DRAM-bit-supply level.
 
-> **The manufacturing-resource intensity of high-value AI/server memory can exceed what bit share alone implies.**
+Read together, they are directionally consistent with the report's view that server-memory demand can absorb manufacturing resources more intensively than a simple aggregate bit-share headline suggests, but they do **not** quantify one unified manufacturing-intensity multiplier.
 
 The memory-layer transmission mechanism is therefore:
 
@@ -175,11 +177,11 @@ These end systems should not be placed into a universal “AI took the chips” 
 
 | End system | Main shared or adjacent upstream layers | Main transmission path | What can be inferred | What must not be inferred |
 |---|---|---|---|---|
-| Smartphone / PC | selected leading-edge SoC/GPU, LPDDR/DRAM, NAND, selected packaging | BOM, configuration, upgrade tax, replacement cycle, quantity assurance | opportunity cost of shared resources can rise | industry disappearance; a named customer losing a known wafer quantity |
-| Game console | custom SoC/APU, GDDR/DRAM, NAND/SSD, selected packaging/test | BOM, promotion, hardware margin, long-generation cost-down, quantity assurance | memory procurement can affect hardware volume, promotion, and profit cadence | direct HBM competition; known wafers taken by AI; next generation must be delayed or repriced |
-| Router / broadband | consumer DRAM/NAND, low bargaining power | higher price + weaker allocation | weaker buyers can face price and quantity pressure together | all end markets rise by the same multiple |
+| Smartphone / PC | selected leading-edge SoC/GPU, LPDDR/DRAM, NAND, selected packaging | BOM, configuration, upgrade tax, replacement cycle, quantity assurance | observed memory / system-price pressure can raise the opportunity cost of shared resources[^11] | industry disappearance; a named customer losing a known wafer quantity |
+| Game console | custom SoC/APU, GDDR/DRAM, NAND/SSD, selected packaging/test | BOM, promotion, hardware margin, long-generation cost-down, quantity assurance | Sony links memory procurement to hardware volume / promotion / profitability; TrendForce separately forecasts console-margin pressure[^12] | direct HBM competition; known wafers taken by AI; next generation must be delayed or repriced |
+| Router / broadband | consumer DRAM/NAND, low bargaining power | higher price + weaker allocation | Counterpoint documents severe router / gateway memory-price and BOM pressure; quantity pressure remains buyer-specific[^13] | all end markets rise by the same multiple |
 | Automotive / industrial / production lines | mature memory, MCU/analog, power, selected ADAS compute, packaging/test | lead time, qualification, EOL/part number, supply continuity | long qualification and long lifecycles reduce rapid substitution; adjacent product-mix shifts can matter | automotive electronics are directly “consumed” by GPU/HBM demand |
-| Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | industrial-electronics and edge-AI constraints can stack | robots can be exposed to both industrial and AI-compute pools | every robot needs frontier HBM; factories stop because AI took GPUs |
+| Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | industrial-electronics and edge-AI constraints can stack | **report-side system-exposure classification**; see Chapter 15 for the separate physical-AI evidence base | every robot needs frontier HBM; factories stop because AI took GPUs |
 | Avionics / radar / space electronics | trusted/qualified logic, RF/power, rad-hard/rad-tolerant parts, special packaging/test | small-volume line economics, qualification, trusted access, long-lifecycle support | commercial high-volume markets can weaken small-volume special-demand bargaining power | aircraft, radar, or satellites are directly stopped by HBM shortage |
 | Naval / other long-life defense systems | long-life qualified electronics, power/communications, trusted supply, maintenance spares | EOL, supplier longevity, small-volume economics | long-lived systems need sustained part-number and trusted-supply continuity | naval platforms “need NVIDIA capacity” |
 
@@ -234,9 +236,11 @@ Signals of **weakening** include:
 
 ## 11. Current read
 
-As of August 2026, public evidence is more consistent with:
+As of August 2026, the report's synthesis of the cited allocation, memory, and platform-mix evidence is more consistent with:
 
-> **resource reallocation pressure materially affecting selected shared scarce layers and changing the resource environment for traditional end markets through Non-AI Residual Capacity and quantity assurance.**
+> **resource reallocation pressure affecting selected shared scarce layers and changing the resource environment for traditional end markets through Non-AI Residual Capacity and quantity assurance.**
+
+This is a **cross-source analytical judgment**, not a directly measured layer-by-layer Non-AI Residual Capacity series.
 
 The process remains selective and dynamic, and it is subject to price feedback, supply expansion, and substitution.
 
@@ -258,3 +262,6 @@ The most accurate formulation is therefore not “AI is taking every chip.” It
 [^8]: U.S. GAO, 2015, Trusted Defense Microelectronics: Future Access and Capabilities Are Uncertain, low-volume unique defense needs and limited influence on commercial markets, https://www.gao.gov/products/gao-16-185t
 [^9]: U.S. DMEA Trusted Access Program Office, Trusted Foundry / Trusted Supplier Program, guaranteed access for typically low-volume U.S. Government needs, https://www.acq.osd.mil/asds/dmea/tapo/trusted-supplier-programs.html
 [^10]: NASA/JPL, Space Radiation Effects on Integrated Circuits, special design/fabrication and radiation-hardening requirements, https://parts.jpl.nasa.gov/asic/Appendix.3.html
+[^11]: IDC, 2026-06-02, PC shipment / ASP / memory-shortage outlook, https://www.idc.com/resource-center/blog/pc-market-enters-volatile-territory-as-memory-shortage-persists-through-2027/ ; IDC, 2026-08-26, smartphone shipment / ASP / low-end viability outlook, https://www.idc.com/resource-center/blog/smartphone-shipments-set-for-record-16-7-drop-in-2026-as-the-memory-crisis-hits-full-force/
+[^12]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, memory procurement linked to PS5 hardware sales, promotion, and profitability, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; TrendForce, 2025-12-02, game-console memory-cost / margin outlook, https://www.trendforce.com/presscenter/news/20251202-12811.html
+[^13]: Counterpoint Research, 2026-02-11, broadband memory-price surge and router BOM impact, https://counterpointresearch.com/en/insights/7times-memory-price-surge-threatens-telcos-broadband-router-set-topbox-supply
