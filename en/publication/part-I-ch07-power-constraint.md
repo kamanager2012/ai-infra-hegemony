@@ -2,7 +2,7 @@
 
 ## 1. The power question is deployable capacity, not electricity price
 
-At roughly **120 kW/rack**, power is no longer just an operating-cost input. It becomes a deployment gate.[^1]
+An NVIDIA DGX GB rack-scale system has approximately **120 kW of rack power consumption**; at that density, power is no longer just an operating-cost input. It becomes a deployment gate.[^1]
 
 A D-grade stress conversion makes the scale visible:
 
@@ -52,9 +52,9 @@ The relevant forward indicators are the capacity ramp, energized MW, AWS load, a
 
 This case shows that regulation and commercial structure can change the delivery path for power without making large-scale AI electricity demand disappear.
 
-### 3.3 Google / Kairos: 50 MWe in 2030 and up to 500 MWe by 2035
+### 3.3 Google / Kairos: up to 50 MWe starting in 2030 and up to 500 MWe by 2035
 
-The Google/Kairos public timeline is much longer: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet of **up to 500 MWe by 2035**.[^5]
+The Google/Kairos public timeline is much longer: the program is planned to start with **Hermes 2 in 2030, delivering up to 50 MWe**, followed by a fleet of **up to 500 MWe by 2035**.[^5]
 
 This is better understood as a long-duration supply option, an industrial-learning path, and a capacity hedge—not as near-term power available to AI campuses in 2026–2028.
 
@@ -187,13 +187,13 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 
 ## References
 
-[^1]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-[^2]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+[^1]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^2]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html
 [^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition and up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
-[^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
-[^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^6]: Lawrence Berkeley National Laboratory, “Queued Up: 2026 Edition,” active U.S. generation/storage interconnection queue, https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf
+[^7]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and phased buildout, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
 
 [^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
 [^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary
