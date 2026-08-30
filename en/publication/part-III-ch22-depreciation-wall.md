@@ -101,7 +101,7 @@ The break-even condition for keeping aggregate resource demand unchanged is:
 V1 / V0 = I0 / I1
 ```
 
-This is an identity, not a forecast. If a hypothetical architecture reduces comparable resource intensity by **90%** ((I1/I0 = 0.1)), workload volume would have to rise **10×** merely to keep aggregate resource demand unchanged. The report does **not** claim that a 90% efficiency gain or a 10× workload increase will occur; the example is a D-grade sensitivity check.
+This is an identity, not a forecast. If a hypothetical architecture reduces comparable resource intensity by **90%** ((I1/I0 = 0.1)), workload volume would need to rise **10×** merely to keep aggregate resource demand unchanged. The report does **not** claim that a 90% efficiency gain or a 10× workload increase will occur; the example is a D-grade sensitivity check.
 
 For existing assets, the hurdle is stricter than aggregate break-even. New workload can migrate disproportionately toward newer systems with better cost per task, memory efficiency, power efficiency, or software support. Aggregate compute demand can remain flat or even grow while an older generation's utilization and residual value deteriorate.
 
