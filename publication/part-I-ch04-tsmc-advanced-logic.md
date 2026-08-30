@@ -47,6 +47,10 @@ TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
 
 > **HPC 已经成为 TSMC 当前先进制造资本形成的核心边际需求之一，同时公司仍在显著提高先进制程与先进封装投入。**
 
+![图 7 — TSMC 2026 Q2 demand 与 technology mix](figures/fig-07-tsmc-2q26-mix.svg)
+
+**图 7 Note：** TSMC first-party actuals，两个 panel 保留不同 denominator。HPC 66% 与 smartphone 22% 是 total revenue 的 platform share；7 nm 及以下 77% 是 wafer revenue 的 technology share；均不是 customer-level wafer allocation。
+
 这强化了对“下一美元资本流向哪里”的关注，但不能被改写成：
 
 - 66% wafer 都是 AI；
