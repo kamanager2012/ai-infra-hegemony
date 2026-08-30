@@ -2,7 +2,7 @@
 
 ## 1. Packaging is the quantity gate between wafers and systems
 
-A frontier accelerator is not commercially deliverable when the logic die leaves the fab. Multi-die integration, HBM, interposers, substrates, testing, yield, and qualification still have to close within the same delivery window.
+A frontier accelerator is not commercially deliverable when the logic die leaves the fab. Multi-die integration, HBM, interposers, substrates, testing, yield, and qualification must still close within the same delivery window.
 
 Advanced packaging therefore acts as a **quantity gate**:
 
