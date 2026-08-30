@@ -3,7 +3,7 @@
 
 ## 1. Resilience 本质上是 System-Continuity Problem
 
-Frontier AI 的 supply security 不能被压缩成“某地有一座 fab”或“某颗芯片由本国公司设计”。真正需要测试的是：**整个工业链在关键 disruption 下，能否继续生产、qualification、service 与跨代扩张。**
+Frontier AI 的 supply security 不是一张 fab 地图，也不是 chip designer 的国籍表。真正需要测试的是：**整个工业链在关键 disruption 下，能否继续生产、qualification、service、repair 与跨代扩张。**
 
 一套 frontier AI system 的 physical supply chain 至少涉及：
 
@@ -17,7 +17,7 @@ Frontier AI 的 supply security 不能被压缩成“某地有一座 fab”或�
 
 因此，accelerator designer 的 supply security 不是由 chip design 单独决定，而取决于多层工业能力是否同时可用。
 
-## 2. ASML 说明设备本身也是 system-level capability
+## 2. Equipment 本身就是 System-Level Capability
 
 ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；截至 2025 年末，High-NA TWINSCAN EXE 仍主要处在客户 qualification 与 production-readiness 推进阶段。[^1]
 
@@ -40,7 +40,7 @@ ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；
 
 所以 High-NA 的关键意义是下一代 process roadmap 与工业化成熟度，而不是媒体上的单机价格。
 
-## 3. 一座 fab 不能脱离 supplier ecosystem 独立存在
+## 3. Fab 不能脱离 Supplier Ecosystem 独立存在
 
 leading-edge manufacturing 依赖设备安装、备件、软件、process recipe、materials、metrology 与长期 field service。
 
@@ -48,7 +48,7 @@ leading-edge manufacturing 依赖设备安装、备件、软件、process recipe
 
 因此，本报告把 supply-chain independence 定义为 **system-level continuity**，而不是“地图上有一个 fab”。
 
-### 3.1 Upstream Continuity：设备、软件、备件和服务本身就是独立约束
+### 3.1 Upstream Continuity 由多个独立约束组成
 
 “国内有 fab”也不能自动推出“扩产不再受外部供给影响”。
 
@@ -68,7 +68,7 @@ ASML 的公开出口管制说明给出了一个可审计边界：[^2][^3]
 
 所以“存储产能扩张”与“存储供应链完全自主”也是两个不同命题。
 
-## 4. Material Qualification 是经常被低估的时间成本
+## 4. Material Qualification 是 Hidden Time Cost
 
 advanced node 对 contamination、particle、uniformity、defect density 与 long-term stability 极为敏感。
 
@@ -78,7 +78,7 @@ advanced node 对 contamination、particle、uniformity、defect density 与 lon
 
 > **qualified alternative supplier 是否存在，以及切换需要多长时间。**
 
-## 5. TSMC 的地理扩张证明“冗余正在发生”，也证明核心集群不会瞬间复制
+## 5. Geographic Redundancy 正在发生，但 Cluster Replication 很慢
 
 TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 
@@ -97,7 +97,7 @@ TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 
 不同地区承担的 node、product mix、packaging、workforce、supplier density 与 power/water 条件仍不同。
 
-## 5A. 三种冗余必须分开：Geographic、Supplier、Technology
+## 5A. Geographic、Supplier 与 Technology Redundancy 必须分开
 
 “美国有 TSMC fab”主要提高的是 **geographic redundancy**。
 
@@ -141,7 +141,7 @@ TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 
 对 frontier AI supply security，真正高价值的是三种冗余能够同时提高，而不是只看 fab 地图是否变得更分散。
 
-## 6. 政府补贴的作用是降低冗余建设成本，而不是创造即时独立
+## 6. Subsidy 降低 Redundancy Cost，但不会创造即时独立
 
 美国 Department of Commerce 对 TSMC Arizona 的 CHIPS final award 包括 up to **US$6.6B direct funding**，支持三座 leading-edge fabs；对 advanced packaging 的 NAPMP final awards 合计 **US$1.4B**，另对 Amkor Arizona advanced-packaging/test facility 提供 up to **US$407M** direct funding。[^5][^6][^7]
 
@@ -151,7 +151,7 @@ TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 
 但补贴无法立即复制 decades of yield learning、supplier qualification 与 engineering density。subsidy 可以加快 capacity formation，却不是 instant supply-chain independence。
 
-## 7. 冗余为什么天然提高成本
+## 7. Redundancy 天然带来 Efficiency Cost
 
 更高 resilience 往往要求：
 
@@ -181,7 +181,7 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 因此，AI infrastructure cycle 与 industrial-policy cycle 已经发生明显叠加。
 
-## 9. Geographic Redundancy 不等于所有层都本地化
+## 9. Geographic Redundancy 不等于 Full Localization
 
 一套区域 supply stack 需要分别验证：
 
@@ -207,7 +207,7 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 单点产品存在不是 system closure；真实替代需要在生产规模、稳定性与长期 service 上达到可持续水平。
 
-## 11. 地缘分化可能让全球总投资上升而单一体系效率下降
+## 11. Fragmentation 可以提高总投资，同时降低单一体系效率
 
 如果全球形成两套或多套相对独立的 semiconductor / AI system ecosystems，可能出现：
 
@@ -220,7 +220,7 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 因此，地缘 fragmentation 不一定意味着全球 semiconductor CapEx 下降，反而可能意味着**更多重复建设、较低单一体系利用效率与更高 resilience**。
 
-## 12. 什么才算真正的 Supply-Chain Resilience
+## 12. Supply-Chain Resilience 的 Evidence Standard
 
 本报告不把“完全自主”设为唯一目标。更现实的指标是：
 
