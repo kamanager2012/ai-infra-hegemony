@@ -45,7 +45,7 @@ Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对�
 - 单次任务所需 compute / memory 可以持续下降；
 - 但可经济使用 AI 的 workflow 数量可以扩大；
 - 同一 workflow 的调用频率与 agent depth 也可以上升；
-- 因此总 infrastructure demand 取决于 **unit resource intensity 的下降速度** 与 **workflow penetration / execution volume 的上升速度** 谁更快。
+- aggregate infrastructure demand 取决于 **unit resource intensity 的下降速度** 与 **workflow penetration / execution volume 的上升速度** 谁更快。
 
 ### 边界：Digital → AI 的摩擦显著降低，不等于“升级障碍为 0”
 
@@ -63,7 +63,7 @@ Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对�
 
 而尚未数字化的 Physical AI / industrial process 仍需要 sensorization、control integration、qualification、safety 与现场改造。
 
-因此，更稳健的判断是：
+更稳健的判断是：
 
 > **相对 Industrial → Digital，已经高度信息化的组织通常具有更低的 Digital → AI 边际改造成本；AI 的扩散可以继承 IT 时代的 installed base，但不能跳过生产级集成与责任约束。**
 
@@ -71,7 +71,7 @@ Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对�
 
 不同 agent 产品的 variable cost 取决于 model choice、context length、cache、retrieval、tool/API、failure/retry、human review、pricing model 与 task depth。
 
-因此，本报告不使用“传统 SaaS 85% → AI SaaS 55%”这类固定路径作为事实。
+“传统 SaaS 85% → AI SaaS 55%”这类固定路径不作为事实使用。
 
 统一使用 **AI Software Unit Economics**。
 
@@ -98,7 +98,7 @@ Variable AI cost 至少包括：
 
 深层 agent 更接近：plan → retrieve → reason → tool call → inspect → retry → finalize。
 
-loop depth 增加时，compute、tool usage 和 failure surface 一起上升。因此 agent 产品必须同时优化：
+loop depth 增加时，compute、tool usage 和 failure surface 一起上升。Agent 产品必须同时优化：
 
 - task success；
 - loop length；
@@ -113,7 +113,7 @@ loop depth 增加时，compute、tool usage 和 failure surface 一起上升。�
 
 如果一个 seat 可以运行 research、coding、support、sales、operations 等大量不同深度 workflow，compute variance 会显著扩大。
 
-因此更常见的长期定价组合可能是 usage、credits、workflow、outcome 或 hybrid pricing。
+更常见的长期定价组合可能是 usage、credits、workflow、outcome 或 hybrid pricing。
 
 这不是说 seat pricing 会消失，而是 agent depth 会让纯 seat 与真实 variable cost 的相关性下降。
 
@@ -134,7 +134,7 @@ routing 本质上是在质量、latency、cost 和 failure probability 之间动
 
 open-source model 提高 model portability，压低 API premium，也增加 private deployment 与 buyer bargaining power。
 
-因此，model capability 本身越来越难成为永久软件 margin。
+model capability 本身越来越难成为永久软件 margin。
 
 更稳定的价值来源可能转向：
 
@@ -151,7 +151,7 @@ open-source model 提高 model portability，压低 API premium，也增加 priv
 
 如果 hyperscaler custom stack 能降低真实 system TCO，长期可能通过 instance/API price 向 application layer 传导。
 
-因此，Google Ironwood TPU、AWS Trainium3 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。[^1][^2]
+Google Ironwood TPU、AWS Trainium3 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。[^1][^2]
 
 ## 8A. Workflow Elasticity：Unit Cost 下降不等于 Total Demand 下降
 
@@ -176,7 +176,7 @@ Total AI Infrastructure Demand
 
 那么总 compute / memory / network demand 仍然可能上升。
 
-所以 software layer 对 infrastructure 的真正反馈变量不是“API 单价”，而是：
+software layer 对 infrastructure 的反馈更适合概括为：
 
 > **cost per verified workflow × demand elasticity**
 
