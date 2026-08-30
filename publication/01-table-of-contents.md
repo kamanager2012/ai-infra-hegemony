@@ -16,7 +16,7 @@
 2. [第3章：AI 资源重配与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 3. [第21章：AI 如何重定价消费电子与其他终端系统](part-III-ch21-consumer-transmission.md)
 4. [第20章：Value Capture Map（§10）](part-III-ch20-value-capture-map.md)
-5. [第32章：Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
+5. [第32章：Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 NVIDIA、Hyperscaler、中国 parallel stack 与情景章节是解释**为什么上游排队规则会变化**的机制背景；整机读者不需要先读完这些章节，才能理解 residual capacity、quantity assurance 与 upgrade tax。
 
@@ -82,7 +82,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 29. [Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
 30. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
-32. [Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
+32. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 ## 研究附录
 
