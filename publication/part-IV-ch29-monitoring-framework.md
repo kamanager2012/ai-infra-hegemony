@@ -1,20 +1,18 @@
-# Part IV · 第29章：核心指标与证据监测框架
+# Part IV · 第29章：Monitoring Dashboard——State Variables、Inflection Tests 与 Scenario Reweighting
 
-## 1. 长期研究必须设计成可更新系统
+## 1. Monitoring Problem：哪些 State Variables 真正足以改变判断？
 
-AI infrastructure 的 seller economics、CapEx、HBM、packaging、foundry allocation、power、regulation 与 system substitution 都快速变化。
+长期研究只有在后续事实能够改变结论时才有价值。
 
-因此，本报告的结论必须设计成可持续更新，而不是只在发布日期成立。
+因此，本章监测的是 **state variables，而不是新闻数量**。每一个新观察必须回答三个问题：
 
-这里的“可更新系统”指**有治理规则的研究更新流程**：新事实进入后，重新判断事实身份、机制变量与情景权重。它**不是**自动数据管线，也不声称正文已通过台账 ID / H 编号实现机械绑定或自动重算。
+1. **Fact layer 到底发生了什么变化？**
+2. **它改变了哪一个 mechanism variable？**
+3. **这种变化是否足够 material、persistent，并足以 reweight S1–S4？**
 
-每次更新只回答三件事：
+这是 governed research-update process，不是自动交易模型。Dashboard 的作用，是防止一条 headline、一次 forecast revision 或一次 accounting event 被误读为 structural regime change。
 
-1. **哪个事实改变了？**
-2. **它改变了哪个机制变量？**
-3. **它是否足以改变 S1–S4 的相对权重？**
-
-## 2. Dashboard A — Seller Economics / Forward Reservation
+## 2. Dashboard A — Seller Economics 与 Forward Reservation
 
 ### NVIDIA 当前锚
 
@@ -44,7 +42,7 @@ Supply / capacity commitments：[^2]
 
 US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue。[^2]
 
-## 3. Dashboard B — Foundry / Packaging
+## 3. Dashboard B — Foundry 与 Packaging
 
 ### TSMC 2025
 
@@ -84,7 +82,7 @@ SK hynix FY25：Revenue KRW97.1467T、Operating profit KRW47.2063T、Operating m
 
 这组指标用于判断 HBM product mix 是否继续吸收 DRAM manufacturing input，以及 conventional DRAM residual capacity 是否松动。
 
-## 5. Dashboard D — Hyperscaler CapEx
+## 5. Dashboard D — Capital Formation
 
 Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
@@ -98,7 +96,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 不同口径不得机械相加成 official AI hardware CapEx。
 
-## 6. Dashboard E — Power State Machine
+## 6. Dashboard E — Power Delivery State
 
 **Table 29.2 — Power / LPS delivery state machine**
 
@@ -123,7 +121,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 真正需要更新的是：每个项目从 secured / contracted 向 construction、energized、utilized 的实际转换速度，而不是公布容量本身。
 
-## 7. Dashboard F — System-Stack Substitution
+## 7. Dashboard F — Second-Stack Substitution
 
 对 Google / AWS / Microsoft / Meta，分别跟踪：
 
@@ -137,7 +135,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 单颗 chip benchmark 不是充分替代指标。
 
-## 8. Dashboard G — China Parallel Stack
+## 8. Dashboard G — China Closure Tests
 
 分别监测：
 
@@ -163,7 +161,7 @@ frontier workload、data-center power、real system scale。
 
 只有多个 closure gates 同时改善，才上调 frontier-system closure。
 
-## 9. Dashboard H — Regulation
+## 9. Dashboard H — Regulatory State
 
 法律状态机统一记录：
 
@@ -177,7 +175,7 @@ frontier workload、data-center power、real system scale。
 
 真正改变 scenario 的变量是 interface openness、tying restriction、access / supply remedy 与 structural change。
 
-## 10. Dashboard I — Capital Clearing
+## 10. Dashboard I — Capital Clearing 与 Demand Quality
 
 ### Accounting
 
@@ -201,7 +199,7 @@ customer cash generation、third-party capital risk-taking、supplier equity / c
 
 只有**多类因果独立的信号族**跨主体/层级形成广泛、持续且相互印证的恶化，S4 才从 stress test 升级为主情景。五类信号是 monitoring families，不是“五项必须全部满足”的硬门槛；Accounting 是 confirmation / severity evidence，不是 prerequisite。
 
-## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
+## 10A. Dashboard J — End-System Residual Pressure
 
 如果报告的主问题是“重要整机还能不能按自己的产品节奏拿到资源”，监测系统就不能只看 seller economics、HBM、packaging 与 power。
 
@@ -251,7 +249,7 @@ TrendForce 对 2026 console shipment / memory-BOM 的估计只能作为 B 级数
 
 > **上游 scarcity / concentration 是否真的传导成整机世界的 upgrade tax 与 supply-assurance pressure。**
 
-## 11. Evidence-grade 快速规则
+## 11. Evidence-Weighting Rules
 
 **Table 29.4 — 更新时的默认 evidence grade**
 
@@ -267,7 +265,7 @@ TrendForce 对 2026 console shipment / memory-BOM 的估计只能作为 B 级数
 
 任何更新都必须保持原始等级；数字更新不等于证据等级自动提升。
 
-## 12. Scenario Weighting 的更新规则
+## 12. Scenario Reweighting Rules
 
 ### 向 S1 移动
 
@@ -285,7 +283,7 @@ utilization / revenue、market clearing、forward commitments、demand-financing
 
 dominant platform economics 强，但 alternative stacks 继续发展；scarce layers 仍紧但持续扩产；CapEx 高且 ROI 仍可支撑。
 
-## 12A. 证据阈值原则：避免用单点新闻改变长期判断
+## 12A. Materiality 与 Persistence 必须服从各变量自己的 Clock
 
 情景权重的变化应依赖**多组独立信号的持续一致方向**，而不是人为规定所有变量都必须满足相同的“两个季度 / 三个月”规则。
 
@@ -312,7 +310,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 向 S1 移动也不能只依赖一个新 accelerator launch，而应看到真实 production workload、迁移成本和 supply elasticity 同时改善。
 
-## 12B. 五个最值得长期盯住的产业拐点
+## 12B. 五个 Headline Inflection Tests
 
 为了让读者快速判断长期结构是否正在改变，可以把前述 Dashboard A–J 压缩成五个 headline tests。它们不是新的模型，也不是统一数值阈值，而是对现有监测框架的读者版摘要。
 
@@ -333,7 +331,7 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 这五项都不使用人为统一的“8 个季度”“30%–40%”之类硬阈值。只有在**同口径连续观察 + 两个以上独立机制维度互相印证**时，才足以推动 S1–S4 的实质重权重。
 
-## 13. 更新纪律
+## 13. Update Protocol
 
 一条新闻不应该重写本报告。
 
