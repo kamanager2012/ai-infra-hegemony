@@ -18,7 +18,7 @@ The more durable capability stack includes:
 - economics;
 - responsibility.
 
-This mirrors the industrial shift from competition around one chip toward competition around the system stack.
+This mirrors the industrial shift from competition around a single chip toward competition around the system stack.
 
 ## 2. Adoption is moving faster than curriculum and policy
 
@@ -88,7 +88,7 @@ This forms the application layer of AI engineering.
 
 Frontier AI requires accelerators, HBM, networking, distributed computing, compiler/runtime, data centers, and power.
 
-Top-tier AI engineering education therefore has to cross:
+Top-tier AI engineering education therefore must cross:
 
 > **computer science + computer architecture + systems/networking + infrastructure economics**
 
@@ -109,7 +109,7 @@ Future curricula therefore need more cross-layer labs, real performance/cost mea
 
 ## 7. Multi-stack capability is a strategic skill
 
-Engineers should not learn only one proprietary stack.
+Engineers should not learn only a single proprietary stack.
 
 Higher-value capability includes understanding:
 
@@ -135,7 +135,7 @@ AI data-center buildout makes electrical distribution, power engineering, liquid
 
 "AI talent" therefore cannot be measured only by the number of ML engineers.
 
-## 10. Entry-level education has to adapt to task compression
+## 10. Entry-level education must adapt to task compression
 
 If drafting, routine coding, and basic research are increasingly performed by agents, students need earlier exposure to:
 
@@ -147,7 +147,7 @@ If drafting, routine coding, and basic research are increasingly performed by ag
 
 Otherwise, education risks continuing to invest heavily in the tasks most likely to be automated first.
 
-## 11. Assessment has to measure verification and responsibility
+## 11. Assessment must measure verification and responsibility
 
 A stronger project-based assessment should require students to explain:
 
@@ -163,7 +163,7 @@ That is closer to real industrial capability than simply banning AI tools.
 
 ## 12. Current read
 
-The central educational change is not "create another AI major."
+The central educational change is not simply to "create another AI major."
 
 It is:
 
