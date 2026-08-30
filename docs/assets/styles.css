@@ -227,8 +227,15 @@ button{font:inherit}
 }
 @media print{
   body{background:white;color:black;font-family:Georgia,"Times New Roman","Songti SC","SimSun",serif}
-  .topline,.site-header,.site-footer,.reader,.hero,.thesis-grid,.report-index{display:none!important}
+  .topline,.site-header,.site-footer,.hero,.thesis-grid,.report-index{display:none!important}
+  .reader{display:none!important}
   .print-view{display:block!important;max-width:none;margin:0;padding:0}
+  body.chapter-mode .print-view{display:none!important}
+  body.chapter-mode .reader{display:block!important;max-width:none;margin:0;padding:0}
+  body.chapter-mode .reader-nav,
+  body.chapter-mode .reader-toolbar,
+  body.chapter-mode .chapter-pager{display:none!important}
+  body.chapter-mode .reader-content{max-width:none;margin:0}
   .print-cover{min-height:95vh;border:0;color:black}
   .print-cover h1{font-size:48pt}
   .print-cover p{color:#333}
