@@ -338,11 +338,11 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 
 ## 13. Governed Update Protocol
 
-一条新闻不应该重写本报告。
+任何单一新闻都不应触发整份报告的重新分类。
 
 只有当新事实改变了核心机制变量，并得到足够独立证据支持，才修改 scenario weighting。
 
-这使报告能够长期更新，而不是在每次产品发布、股价波动或传闻后改写产业叙事。
+这使报告能够长期更新，而不是在每次产品发布、股价波动或传闻后重新判定整个产业状态。
 
 ## References
 
