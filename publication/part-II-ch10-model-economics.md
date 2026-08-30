@@ -1,8 +1,8 @@
 # Part II · 第10章：模型单位经济、算法效率与开源竞争
 
-## 1. 核心判断：模型公司不是脱离基础设施的纯软件生意
+## 1. Model Economics 不能脱离 Infrastructure Economics
 
-API、订阅和 agent service 的底层成本仍然由物理基础设施决定。
+API、subscription 与 agent service 都建立在真实 variable-cost stack 之上，而不是接近零边际成本的软件复制。
 
 主要变量包括：
 
@@ -24,7 +24,7 @@ API、订阅和 agent service 的底层成本仍然由物理基础设施决定�
 
 ---
 
-## 2. Algorithmic Efficiency 改变的是 Compute Demand Function
+## 2. Algorithmic Efficiency 改变的是 Demand Function
 
 DeepSeek-V3 一手披露：
 
@@ -58,7 +58,7 @@ architecture、sparsity、routing 与 memory design 可以显著改变单位 cap
 
 ---
 
-## 3. Memory Efficiency 可以直接改变 Serving Economics
+## 3. Algorithm 可以直接攻击 Memory Cost
 
 DeepSeek-V2 相对 DeepSeek 67B 报告约：
 
@@ -80,7 +80,7 @@ DeepSeek-V2 相对 DeepSeek 67B 报告约：
 - utilization；
 - serving throughput。
 
-### 3A. Price Compression 已经发生，但不能直接推出总 Compute 需求下降
+### 3A. Price Compression 不能直接推出 Aggregate Compute Demand 下降
 
 Stanford AI Index 2025 给出一个历史量化锚：达到其所定义 GPT-3.5 等效 MMLU 水平的模型查询成本，从 2022 年 11 月约 **US$20 / million tokens** 降至 2024 年 10 月约 **US$0.07 / million tokens**，约下降 **280×**。[^3]
 
@@ -94,7 +94,7 @@ Stanford AI Index 2025 给出一个历史量化锚：达到其所定义 GPT-3.5 
 
 ---
 
-## 4. Open Source 首先压缩 Model-Layer Rent，而不是自动压缩 Infrastructure Demand
+## 4. Open Source 先压缩 Model-Layer Rent，再影响 Infrastructure Rent
 
 open-source model 会：
 
@@ -126,7 +126,7 @@ open-source model 会：
 
 ---
 
-## 5. GPU vs ASIC 的正确比较单位仍然是 System TCO
+## 5. GPU vs ASIC 必须按 System TCO 比较
 
 Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hyperscaler internal workload 提供第二条 compute path。
 
@@ -150,7 +150,7 @@ Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hypers
 
 ---
 
-## 6. 模型公司的单位经济应该从 Token Cost 上移到 Capability / Workflow Economics
+## 6. AI Software Unit Economics
 
 单纯 cost/token 越来越不足以解释商业价值。
 
@@ -180,7 +180,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 7. Anchor Buyer 让模型公司反向影响基础设施资本形成
+## 7. Anchor Buyer 让 Model Company 反向塑造 Infrastructure Formation
 
 最大的模型公司正通过多年 compute commitments、dedicated data-center projects 与长期 capacity reservation 影响 cloud、chip 与 power investment。
 
@@ -192,7 +192,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 8. Price Compression 与 Demand Rebound 可以同时成立
+## 8. Price Compression 与 Rebound 可以同时成立
 
 算法效率和开源竞争会降低 unit intelligence cost。
 
@@ -220,7 +220,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 9. 模型层真正的长期竞争变量
+## 9. Model Layer 的 Long-Run Competitive Variables
 
 未来模型公司之间最重要的经济变量包括：
 
@@ -252,7 +252,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 10. 当前判断
+## 10. Current Read
 
 截至 2026 年，更稳健的状态是：
 
