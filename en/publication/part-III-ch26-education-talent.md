@@ -48,7 +48,7 @@ UNESCO's AI Competency Framework for Students defines **12 competencies across f
 
 UNESCO's teacher framework defines **15 competencies across five dimensions**, adding AI pedagogy and AI for professional learning to human-centred, ethics, and foundations/application capabilities.[^3]
 
-The direction is consistent with this report's industrial thesis:
+The direction is consistent with the broader industrial thesis:
 
 > **AI literacy cannot collapse into prompt technique. Durable capability includes judgment, responsibility, system understanding, application design, and verification.**
 
