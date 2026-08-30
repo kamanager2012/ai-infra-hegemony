@@ -1,4 +1,35 @@
+# Public reading and search indexing are allowed.
+# Model-training / corpus-building crawlers listed below are disallowed.
+# These crawler directives supplement, but do not replace, the repository LICENSE
+# and the Rights & Permissions notice.
+
 User-agent: *
 Allow: /
+
+# OpenAI: keep ChatGPT search discovery available; opt out of training crawl.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic: keep search and user-directed retrieval available; block training crawl.
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Google Search remains covered by the general Allow rule above.
+# Google-Extended is the separate control token for Gemini training/grounding use.
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl corpus collection.
+User-agent: CCBot
+Disallow: /
 
 Sitemap: https://kamanager2012.github.io/ai-infra-hegemony/sitemap.xml
