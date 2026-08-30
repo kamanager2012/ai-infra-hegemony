@@ -413,9 +413,7 @@ The purpose is to prevent:
 - contracted capacity from becoming energized load;
 - a D-grade stress test from becoming a deterministic 2030/2036 outcome.
 
-Future judgments can be bold.
-
-The fact layer must remain conservative.
+The scenario range can remain wide, but the fact layer must remain conservative.
 
 ---
 
@@ -439,7 +437,7 @@ It is changing:
 - the strategic objective of China's parallel stack;
 - the dependence of global capital markets on AI workload monetization.
 
-The resulting competition is not simply a chip war.
+The resulting competition cannot be reduced to a chip war.
 
 It is:
 
@@ -461,7 +459,7 @@ The dimensional boundary remains essential. Smartphones, PCs, and selected edge/
 
 That is the industrial meaning of the **system-level resource concentration risk**: **other end systems do not become unimportant; rather, importance itself no longer guarantees upstream priority.**
 
-> **Forecasts may be wrong; evidence boundaries cannot be. Scenarios may be bold; the fact layer must remain disciplined. The most valuable long-run industry research is not a one-time guess at the end-state, but knowing which variables are deciding the end-state—and what facts would force the judgment to change.**
+> **Long-run industry research is most useful when it identifies the variables determining the end-state, preserves the evidence boundaries around those variables, and states which future facts would force the judgment to change.**
 
 ## Cross-references
 
