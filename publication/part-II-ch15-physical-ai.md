@@ -6,7 +6,7 @@
 
 Physical AI 必须同时闭合 perception、planning、control、actuation、power、safety 与 mechanical reliability。
 
-因此，一台机器人能否形成生产力，不能从 AI model capability 或 edge TOPS 单独推出。
+一台机器人能否形成生产力，不能从 AI model capability 或 edge TOPS 单独推出。
 
 完整系统至少要把：
 
@@ -20,7 +20,7 @@ large-scale simulation、policy training 与 foundation-model training 可以在
 
 实时 control 则受到 latency、thermal、battery、sensor loop 与 safety deadline 约束。
 
-所以很多 Physical AI 系统天然呈现：
+很多 Physical AI 系统天然呈现：
 
 > **cloud-side heavy training + edge-side compressed inference/control**
 
@@ -30,7 +30,7 @@ data-center 的约 **120 kW-class rack**[^4] 与机器人本体的 W/Wh 级 powe
 
 humanoid、AMR、industrial arm、autonomous vehicle、drone 的 actuator、reducer、sensor、compute 与 battery 成本结构差异巨大。
 
-因此，本报告不采用固定“执行器35% / 传感器20% / 计算25%”之类行业模板。
+固定“执行器35% / 传感器20% / 计算25%”之类模板不作为行业事实。
 
 真正需要识别的是不同机器人形态中的 **scarce component**。
 
@@ -50,7 +50,7 @@ robot system 需要 camera、depth、force/torque、tactile、IMU、encoder 等�
 
 模型能力只有在 calibration、latency、robustness 与 failure detection 足够好时，才能转化成稳定 control。
 
-因此 sensor stack 的价值不只是 BOM，而是 closed-loop reliability。
+sensor stack 的价值不只是 BOM，而是 closed-loop reliability。
 
 ## 6. Edge-Platform Advantage 是 Workload-Specific
 
@@ -71,7 +71,7 @@ edge system 不需要复制 data-center rack architecture。
 - fleet analytics；
 - model updates。
 
-因此可形成：
+由此可以形成：
 
 > **physical deployment → data generation → retraining → more cloud compute**
 
@@ -91,7 +91,7 @@ Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必
 
 > **Physical AI commercial scale ↑ → edge memory/storage content ↑ + fleet-generated cloud workload ↑**
 
-所以机器人可能同时成为 edge memory 的新需求池和 cloud retraining / storage 的新需求源。
+机器人可能同时成为 edge memory 的新需求池和 cloud retraining / storage 的新需求源。
 
 ### 7.2 Robotics 同时是 AI Demand Source 与 Industrial-Electronics Demand Pool
 
@@ -106,7 +106,7 @@ Physical AI 不只是新的 AI compute demand。
 - edge accelerator；
 - networking。
 
-因此它可能同时受到两类上游约束：
+它可能同时受到两类上游约束：
 
 > **industrial-electronics supply pressure + edge-AI compute / memory pressure**
 
@@ -120,7 +120,7 @@ Physical AI 不只是新的 AI compute demand。
 
 data center 的 power bottleneck 是 grid / interconnection；机器人侧则是 battery energy density、runtime、charging、thermal 与 peak actuator demand。作为量纲对照，NVIDIA DGX GB200 rack 的官方功耗约为 120 kW，但该数据只用于说明 cloud 与 edge 属于不同物理池。[^4]
 
-因此 Physical AI 应比较：
+Physical AI 应比较：
 
 > **Useful task output / Wh**
 
@@ -134,7 +134,7 @@ mass production 不行。
 
 规模化临界点包括 component yield、assembly time、field failure rate、maintenance interval、supply-chain stability 与 unit economics。
 
-因此 Physical AI 的产业拐点必须由 manufacturing / deployment data 证明，而不能由演示视频证明。
+Physical AI 的产业拐点必须由 manufacturing / deployment data 证明，而不能由演示视频证明。
 
 ## 9A. Commercial Threshold 是 Capital Payback
 
@@ -151,7 +151,7 @@ Economic Output
 - Financing / Depreciation
 ```
 
-因此，一台机器人即使技术上可以完成某项工作，如果：
+一台机器人即使技术上可以完成某项工作，如果：
 
 - utilization 低；
 - downtime 高；
@@ -174,7 +174,7 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 这些层与 frontier AI 的 HBM / advanced-packaging / leading-edge compute 闭环并不完全重合。
 
-所以中国在机器人整机和机械供应链上的竞争力，可以与其在 frontier AI infrastructure advanced layers 的状态不同。
+中国在机器人整机和机械供应链上的竞争力，可以与其在 frontier AI infrastructure advanced layers 的状态不同。
 
 这是独立产业路径，不应被一个“AI 芯片能力”指标覆盖。
 
