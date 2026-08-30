@@ -158,7 +158,7 @@ That creates a potential reinforcing loop:
 
 **hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand.**
 
-This report calls the mechanism a **Developer Distribution Chokepoint**, but does not pre-label it as completed software monopoly.
+This report treats it as a **developer-distribution / vertical-foreclosure risk** to monitor, not as a new load-bearing theory, and does not pre-label it as completed software monopoly.
 
 The key question is not whether non-NVIDIA hardware remains technically present on Hugging Face. It is whether ownership changes lead to persistent and measurable bias in the platform's defaults:
 
@@ -169,7 +169,7 @@ The key question is not whether non-NVIDIA hardware remains technically present 
 - rising migration friction away from NVIDIA;
 - stronger commercial incentives for model creators to publish NVIDIA-optimized variants first.
 
-This risk is distinct from conventional CUDA lock-in. CUDA lock-in mainly operates after a workload has selected the NVIDIA execution environment. A developer-distribution chokepoint can act earlier:
+This risk is distinct from conventional CUDA lock-in. CUDA lock-in mainly operates after a workload has selected the NVIDIA execution environment. A distribution-gateway risk can act earlier:
 
 > **model discovery → tool selection → runtime selection → deployment → accelerator.**
 
