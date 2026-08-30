@@ -301,7 +301,7 @@ Dominant-platform economics stay strong while alternative stacks continue develo
 
 ## 12A. Materiality and persistence follow each variable's clock
 
-The report does **not** impose one universal rule such as "two quarters" or "three months" across all variables.
+The report does **not** impose a universal rule such as "two quarters" or "three months" across all variables.
 
 That would create false precision because semiconductor allocation, memory pricing, power projects, regulatory proceedings, customer contracts, and accounting losses update on different clocks.
 
@@ -331,7 +331,7 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 
 ## 12B. Five headline inflection tests
 
-For readers who want a fast way to judge whether the long-run structure is changing, Dashboards A–J can be compressed into five headline tests. These are not a new model and they do not impose one universal numeric threshold.
+For readers who want a fast way to judge whether the long-run structure is changing, Dashboards A–J can be compressed into five headline tests. These are not a new model and they do not impose a universal numeric threshold.
 
 1. **Is Non-AI Residual Capacity / Quantity Assurance improving or deteriorating persistently?**  
    Track contract prices, allocation fulfillment, lead times, configuration, promotion, and qualified alternates across smartphones, PCs, game consoles, automotive / industrial systems, rather than relying on gross global wafer or memory capacity.
