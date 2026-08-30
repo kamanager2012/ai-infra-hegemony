@@ -81,7 +81,9 @@ NVIDIA system stack、Hyperscaler、中国 parallel stack 与 S1–S4 可在第�
 
 ## 阅读导航
 
+- [Research Brief](RESEARCH_BRIEF.md)
 - [报告目录](01-table-of-contents.md)
+- [图表目录](01-list-of-figures.md)
 - [表格目录](02-list-of-tables.md)
 - [缩写与核心术语表](03-abbreviations-and-glossary.md)
 - [研究透明度、局限性与纠错机制](04-research-transparency.md)
