@@ -125,7 +125,7 @@ TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^
 但必须保留边界：
 
 - 3× 是 same node / same bits 的 wafer-supply trade ratio；
-- 51% 包含 HBM + RDIMM；
+- 51%（2026E）包含 HBM + RDIMM；
 - 51% 是 2026E forecast；
 - 两者都不能直接改写为 HBM wafer share。
 
