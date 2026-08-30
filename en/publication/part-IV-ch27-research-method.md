@@ -6,7 +6,7 @@ AI-infrastructure research crosses finance, semiconductors, memory, packaging, c
 
 The first methodological task is therefore to preserve **claim identity, physical unit, time identity, and evidence strength** before building a narrative.
 
-Without one common discipline, recurring errors include:
+Without a common discipline, recurring errors include:
 
 - mixing company disclosures with institutional forecasts;
 - converting revenue share into wafer share;
@@ -39,7 +39,7 @@ Preferred sources include:
 - court filings;
 - formal contracts / official project disclosures.
 
-Fact does not mean "many media outlets reported the same thing."
+A fact is not established merely because "many media outlets reported the same thing."
 
 Multiple media reports citing the same origin do not create independent multi-source confirmation.
 
@@ -78,7 +78,7 @@ Four standard scenarios structure the analysis:
 - **S3 — Resource Hegemony**;
 - **S4 — Capital Hard Landing**.
 
-The objective is not to assign fixed world probabilities.
+The objective is not to assign fixed probabilities to future world states.
 
 It is to ask:
 
@@ -88,7 +88,7 @@ It is to ask:
 
 Every strong judgment requires reverse signals.
 
-For example, the thesis that scarce-layer value capture continues strengthening must be weakened if several of the following reverse persistently:
+For example, the thesis that scarce-layer value capture continues strengthening must be weakened if several of the following reverse signals persist:
 
 - supply commitments fall;
 - advanced packaging stops being tight;
