@@ -47,21 +47,21 @@
 
   const copy = {
     zh:{
-      heroKicker:"产业前瞻研究报告 · 32章 · 中英双语",
-      heroTitle:"AI基础设施格局重塑",
-      heroSubtitle:"2026–2036：算力如何重塑芯片、存储、电力、资本与全球产业秩序",
+      heroKicker:"AI 基础设施 · 半导体 · 电力 · 资本",
+      heroTitle:"AI 买家正在重新定价整个系统栈",
+      heroSubtitle:"2026–2036：谁能获得先进逻辑、HBM、封装与电力——以及其他产业还能获得多少剩余供给。",
       formalTitle:"AI基础设施格局重塑：2026–2036结构性产业展望",
       formalSubtitle:"AI 算力扩张如何重配半导体、存储、先进封装、电力、资本与终端产能",
-      heroSummary:"一份以事实、机制、情景与可证伪标准为核心的长期行业研究报告。研究 AI 从单颗 accelerator 竞争上移到完整 system stack 后，如何改变上游资源配置、资本形成、传统终端与未来十年的产业结构。",
-      start:"开始阅读",master:"直接看总判",print:"打印 / 保存 PDF",
-      indexTitle:"32 章正式版",indexNote:"推荐先读 Ch01 → Ch32 → Ch30，再按主题进入完整章节。",
+      heroSummary:"核心问题不再是哪颗 accelerator 最快，而是哪套 system stack 能锁定稀缺产能、把它转化为 production workload，并在供给扩张、算法效率提升和替代栈成熟时仍维持经济性。",
+      start:"从核心论点开始",master:"阅读总判",print:"打印 / 保存 PDF",
+      indexTitle:"研究地图",indexNote:"可从 Ch03 残余产能、Ch12 第二系统栈、Ch17 中国平行栈或 Ch21 消费电子传导进入。",
       back:"报告首页",copyLink:"复制章节链接",copied:"已复制",printChapter:"打印本章",
       prev:"上一章",next:"下一章",
       thesis:[
-        ["竞争单元已经上移","竞争不再只发生在 accelerator，而是 advanced logic、HBM、advanced packaging、interconnect、runtime、rack、power、capital 与 workload 的完整系统栈。"],
-        ["供给增长不等于传统产业获得更多资源","报告用 Non-AI Residual Capacity 描述 AI/HPC 对共享或相邻上游资源优先级的结构性重排。"],
-        ["物理瓶颈会滚动迁移","先进制程、HBM、CoWoS、互联、电力、LPS 与资本并非单点约束，而是 Rolling Bottleneck Cascade。"],
-        ["长期判断必须可证伪","事实、假设、机制、情景与 falsification 分层处理；未来判断可以大胆，但证据身份、分母和触发条件必须明确。"]
+        ["系统栈，而不是芯片战争","竞争单位是 advanced logic + HBM + packaging + interconnect + runtime + rack + power + capital + workload，而不是单颗 accelerator。"],
+        ["总供给增加，其他产业仍可能拿得更少","Non-AI Residual Capacity 关注 priority demand 分配之后，手机、PC、汽车和工业系统实际还能获得多少有效供给。"],
+        ["瓶颈会迁移，也会反转","HBM、packaging、networking、power 与 capital 可以依次成为 binding constraint；某一层的短缺之后也可能反转为 headroom 或 oversupply。"],
+        ["核心判断必须经受替代路线检验","Hyperscaler custom stack、中国 parallel stack、供给扩张、algorithmic efficiency 与 capital clearing 都是能够削弱当前 baseline 的明确路径。"]
       ]
     },
     en:{
