@@ -33,10 +33,10 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 1. [Executive Summary](part-I-ch01-executive-summary.md)
 2. [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md)
 3. [AI Resource Reallocation and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
-4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md)
-5. [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md)
-6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md)
-7. [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md)
+4. [Advanced Logic Allocation — TSMC, N2, and the Next Unit of Qualified Capacity](part-I-ch04-tsmc-advanced-logic.md)
+5. [HBM Economics — Manufacturing Intensity, Residual Capacity, and Memory Scarcity](part-I-ch05-hbm-memory.md)
+6. [Advanced Packaging — The Quantity Gate Between Wafers and Deliverable Systems](part-I-ch06-advanced-packaging.md)
+7. [Time-to-Power — From Rack Density to Deployable AI Capacity](part-I-ch07-power-constraint.md)
 8. [Quantification Boundaries — What Can Be Measured, What Cannot, and Why](part-I-ch08-quantitative-framework.md)
 9. [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md)
 
@@ -45,7 +45,7 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
 11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md)
 12. [The Second System Stack — Hyperscaler Substitution Economics](part-II-ch12-hyperscaler-system-stack.md)
-13. [Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure](part-II-ch13-anchor-compute-buyer.md)
+13. [Anchor Compute Buyers — How Long-Duration Demand Pulls Infrastructure Forward](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
 16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
@@ -55,7 +55,7 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
 19. [AI Infrastructure Capital Formation, Duration Mismatch, and the Utilization Test](part-III-ch19-capex-supercycle.md)
-20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
+20. [Value Capture and Risk Bearing Across the AI Infrastructure Stack](part-III-ch20-value-capture-map.md)
 21. [How AI Reprices Consumer Electronics and Other End Systems](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
