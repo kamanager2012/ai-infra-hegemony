@@ -396,7 +396,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 这里同样必须保持量纲纪律：smartphone / PC / 部分 edge/ADAS 可以与 AI 直接共享 advanced logic、memory 或 selected packaging；汽车、工控与产线更多承受相邻 product-mix 与 long-qualification pressure；航空、国防与航天电子的核心风险常是 trusted / long-life / low-volume / special-process supply 的经济性、设备与人才连续性，而不是“直接和 AI 服务器抢 HBM”。
 
-这也是“AI Infrastructure Hegemony”真正需要警惕的产业含义：**不是其他整机失去重要性，而是“重要”本身不再保证上游优先级。**
+这也是**系统级资源集中风险**真正需要警惕的产业含义：**不是其他整机失去重要性，而是“重要”本身不再保证上游优先级。**
 
 > **预测可以错，证据边界不能乱；情景可以大胆，事实层必须保守。真正有价值的行业研究，不是一次猜中终局，而是知道哪些产业变量正在决定终局，以及什么事实出现时必须改变判断。**
 
