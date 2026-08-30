@@ -1,4 +1,4 @@
-# Part IV · 第32章：Master View——什么决定 AI Infrastructure Power，什么事实会改变判断
+# Part IV · 第32章：Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断
 
 ## 1. Current Baseline：S2 是综合裁决，不是第二份执行摘要
 
@@ -12,7 +12,7 @@
 
 ### Test B — AI/HPC 的资源吸收是否已经造成传统终端的结构性退出？
 
-部分成立，但不能全行业化。Non-AI Residual Capacity、Quantity Assurance 与 product-mix pressure 已经在 smartphone、PC、game console 等终端出现；但证据目前支持的是**价格、配置、产品组合和换代周期重构**，不是手机、PC、游戏等完整需求产业已经进入终局。
+部分成立，但不能全行业化。Non-AI Residual Capacity、Quantity Assurance 与 product-mix pressure 已经在 smartphone、PC、game console 等终端出现；但证据目前支持的是**价格、配置、产品组合和换代周期重构**，还不能证明 smartphone、PC、gaming 或其他完整终端生态已经进入结构性终局。
 
 ### Test C — Second Stack 是否已经足以打破集中度？
 
@@ -48,7 +48,7 @@ NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95
 
 > **willingness-to-pay ≠ guaranteed quantity**
 
-这也是为什么产业竞争最终会从“谁愿意出更高价格”升级为“谁能够获得稳定数量、稳定交付和系统级优先级”。
+因此，产业竞争可以从“谁愿意出更高价格”转向“谁能够获得稳定数量、稳定交付和系统级优先级”。
 
 2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型长期资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^13][^14] 前者是 mobilization target、后者是 future design capacity，都不是已部署资本或已上电负载；但二者共同表明，领先 system platform 正开始把协调能力从芯片供应扩展到资本与物理基础设施。
 
@@ -56,7 +56,7 @@ NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95
 
 ## 3. Marginal Capital Formation 正在向 AI/HPC 倾斜
 
-截至 2026 年，最重要的结构变化之一，是先进制造和存储资本的边际需求正在更加依赖 AI/HPC。
+截至 2026 年，最重要的结构变化之一，是先进制造与存储的边际经济性正越来越受到 AI/HPC demand 驱动。
 
 TSMC 2026 Q2 的 platform revenue mix 中，HPC 占 **66%**、smartphone 占 **22%**；advanced technologies（7 nm 及以下）占 wafer revenue **77%**。TSMC 同期把 2026 年 capital budget 提高至 **US$60B–64B**，主要投向先进制程，并继续投入 advanced packaging、testing 等。[^6]
 
@@ -70,7 +70,7 @@ memory 侧也出现相同方向。Micron 一手披露，在 same node / same bit
 
 > **AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，却具有不同的价格承受能力、订单期限、预付款能力、BOM 约束与资本形成能力。**
 
-这不意味着消费电子消失，而意味着半导体产业的**边际需求决定权**正在更加集中于 hyperscaler、system-platform seller 与 Anchor Compute Buyer。
+这不意味着消费电子消失，而意味着**塑造边际投资方向的能力**正更多转向 hyperscaler、system-platform seller 与 Anchor Compute Buyer。
 
 ---
 
