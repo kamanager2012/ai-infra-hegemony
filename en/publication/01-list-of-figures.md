@@ -27,3 +27,24 @@
 ## Publication note
 
 These figures are part of the publication layer. They do not reopen the frozen 32-chapter research logic. Any future quantitative figure that requires a new denominator, new estimate, or new factual claim must be treated as new research rather than as editorial illustration.
+
+7. [Figure 7 — TSMC 2Q26 demand and technology mix](figures/fig-07-tsmc-2q26-mix.svg)  
+   **Type:** first-party actual data with separate denominators. **Primary analytical home:** Ch04.  
+   **Boundary:** HPC 66% and smartphone 22% are shares of total revenue; 7 nm and below 77% is a share of wafer revenue. None is customer-level wafer allocation.
+
+8. [Figure 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)  
+   **Type:** report framework. **Primary analytical homes:** Ch06–Ch08, Ch19, Ch24, Ch30.  
+   **Boundary:** causal schematic, not a deterministic sequence or timing forecast.
+
+9. [Figure 9 — Anchor demand and Financing Reflexivity](figures/fig-09-financing-reflexivity.svg)  
+   **Type:** report financing framework. **Primary analytical homes:** Ch13, Ch23, Ch24.  
+   **Boundary:** seller-assisted financing is neither automatically healthy nor artificial; interpretation depends on utilization, monetization, independent risk capital, and refinancing conditions.
+
+10. [Figure 10 — Demand-side closure through verified workflow output](figures/fig-10-verified-workflow-loop.svg)  
+    **Type:** report economic framework. **Primary analytical homes:** Ch14, Ch19, Ch24, Ch32.  
+    **Boundary:** verified workflow output is a long-run economic criterion, not an empirically calibrated fact metric as of the evidence cutoff.
+
+11. [Figure 11 — Production-Grade Parallel Stack vs. Autonomous Frontier Closure](figures/fig-11-china-closure-gates.svg)  
+    **Type:** report closure-test framework. **Primary analytical homes:** Ch17, Ch32.  
+    **Boundary:** production-grade substitution ≠ full technological autonomy; import dependence also does not prove absence of a production-grade parallel stack.
+
