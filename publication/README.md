@@ -71,7 +71,7 @@
 28. [2026–2036 时间线与阶段性里程碑](part-IV-ch28-timeline-2026-2036.md)
 29. [Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
 30. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
-31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
+31. [2036 终局与战略选择权](part-IV-ch31-strategy-endgame.md)
 32. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 ## 研究附录
