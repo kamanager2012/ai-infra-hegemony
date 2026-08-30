@@ -193,7 +193,7 @@ Institutional forecasts must preserve:
 - publication date;
 - forecast window.
 
-For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must remain a **2026E institutional forecast**, not become a 2026 actual through repeated citation.
+For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must remain a **2026E institutional forecast**, not become a 2026 actual through repeated citation.[^5]
 
 Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estimates can only appear as explicitly conditioned assumptions.
 
@@ -256,3 +256,4 @@ This is a research standard, not a software-release or artifact-packaging proces
 [^2]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 [^4]: NVIDIA, “GB200 NVL72,” official product page, 13.4 TB HBM3E per rack, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+[^5]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
