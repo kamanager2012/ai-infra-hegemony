@@ -92,7 +92,7 @@ The important point is not simply HBM market share. It is manufacturing-resource
 
 TSMC has explicitly stated that advanced-packaging capacity is tight and that packaging tightness has constrained customer growth.[^4]
 
-More leading-edge front-end wafer capacity therefore does not automatically produce proportionally more deliverable AI systems.
+More leading-edge front-end wafer capacity therefore does not by itself produce proportionally more deliverable AI systems.
 
 ### Power and LPS
 
@@ -138,7 +138,7 @@ This produces two effects that point in different directions:
 1. **Platform-profit diversion:** some workloads no longer pay the full economics of an external platform.
 2. **Upstream resource competition:** custom systems still require advanced logic, HBM, packaging, networking, and power.
 
-Custom-silicon success therefore does not automatically mean upstream scarcity disappears.
+Custom-silicon success therefore does not by itself mean upstream scarcity disappears.
 
 The long-run variables that matter are:
 
@@ -280,9 +280,9 @@ Cheaper models and better routing can reduce resource intensity per attempt. But
 
 The software layer is therefore both a receiver of infrastructure cost and a source of demand elasticity for infrastructure.
 
-### Physical AI: deployment has to clear a capital-payback test
+### Physical AI: deployment must clear a capital-payback test
 
-Physical AI is also a systems problem: perception, control, actuation, batteries, sensors, manufacturing, field reliability, and cloud/edge infrastructure have to close together.
+Physical AI is also a systems problem: perception, control, actuation, batteries, sensors, manufacturing, field reliability, and cloud/edge infrastructure must close together.
 
 The commercial threshold is not whether a robot can complete one task. It is whether:
 
@@ -292,7 +292,7 @@ Physical AI can therefore become a new pool of compute, memory, storage, and clo
 
 ### Labor: Task → Workflow → Job
 
-The labor transmission chain has to pass through:
+The labor transmission chain must pass through:
 
 > **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
 
