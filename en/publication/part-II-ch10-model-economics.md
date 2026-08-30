@@ -1,10 +1,10 @@
 # Part II · Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition
 
-## 1. Model companies are not pure software businesses detached from infrastructure
+## 1. Model economics cannot be separated from infrastructure economics
 
-The variable cost underneath APIs, subscriptions, and agent services includes accelerator time, HBM bandwidth, KV cache, storage / retrieval, networking, third-party tools, human review, cloud margin, and serving utilization.
+APIs, subscriptions, and agent services sit on top of a real variable-cost stack: accelerator time, HBM bandwidth, KV cache, storage / retrieval, networking, third-party tools, human review, cloud margin, and serving utilization.
 
-AI software therefore cannot simply inherit the traditional SaaS narrative that an incremental user carries almost no marginal cost.
+AI software therefore cannot be analyzed with a near-zero-marginal-cost SaaS assumption by default.
 
 The relevant unit is:
 
@@ -26,7 +26,7 @@ That is not full enterprise R&D cost.
 
 The important implication is that frontier capability is not linearly fixed to hardware input. Architecture, sparsity, routing, and memory design can materially change the resources required per unit of capability.
 
-## 3. MLA shows that memory cost can be attacked directly by algorithms
+## 3. Algorithms can attack memory cost directly
 
 DeepSeek-V2 reports, relative to DeepSeek 67B:[^2]
 
@@ -39,7 +39,7 @@ Their economic significance is that the same HBM capacity can support more concu
 
 Lower unit cost, however, does not guarantee lower aggregate infrastructure demand. If lower cost causes token, agent, and workflow volume to rise faster, total demand can still increase.
 
-### 3A. Price compression is observed, but it does not imply falling total compute demand
+### 3A. Price compression does not imply falling aggregate compute demand
 
 Stanford AI Index 2025 provides a historical anchor: at the report's GPT-3.5-equivalent MMLU performance level, inference cost fell from about **US$20 per million tokens** in November 2022 to about **US$0.07 per million tokens** in October 2024—roughly a **280× decline**.[^3]
 
@@ -51,7 +51,7 @@ Stanford AI Index 2026 also reports further convergence among leading models on 
 
 This strengthens the chapter's core mechanism: **falling model prices and rising total infrastructure demand can coexist**. The decisive variables remain workload volume, resource intensity, and utilization.
 
-## 4. Open source compresses model-layer profit first; it does not automatically compress all infrastructure profit
+## 4. Open source compresses model-layer rent before infrastructure rent
 
 Open-source models increase capability diffusion, private deployment, and model-switching options while pressuring API premiums.
 
@@ -63,7 +63,7 @@ The market can therefore experience:
 
 This is why falling API prices are not equivalent to falling AI-infrastructure demand.
 
-## 5. The correct GPU-vs-ASIC comparison unit is System TCO
+## 5. GPU vs. ASIC should be compared at System TCO
 
 Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA create alternative compute paths for internal workloads and model companies.
 
@@ -78,7 +78,7 @@ The comparison should not focus on accelerator-die price alone. It must include:
 
 A theoretically cheaper chip can still produce a higher system TCO if migration, debugging, or utilization are materially worse.
 
-## 6. AI Software Unit Economics
+## 6. AI software unit economics
 
 A production workflow should at minimum include:
 
@@ -94,7 +94,7 @@ The metrics that matter include:
 - human-review burden;
 - utilization of reserved compute.
 
-## 7. Anchor Buyers let model companies influence infrastructure in reverse
+## 7. Anchor Buyers let model companies shape infrastructure formation
 
 The largest model companies increasingly influence cloud, chip, and power investment through multi-year compute commitments, dedicated data-center projects, and long-duration capacity reservations.
 
@@ -102,7 +102,7 @@ A model company is therefore not permanently limited to passively accepting clou
 
 The same mechanism amplifies risk. If architecture efficiency rises, revenue underperforms, or workloads migrate elsewhere, long-duration capacity commitments can turn into utilization and duration risk.
 
-## 8. Price compression and the Jevons-style rebound
+## 8. Price compression and rebound
 
 Algorithmic efficiency and open-source competition reduce the unit cost of intelligence.
 
@@ -116,7 +116,7 @@ Long-run analysis therefore has to observe real workload, utilization, and busin
 
 Chapter 14 adds a third mechanism: the **AI Inheritance Effect**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
 
-## 9. The long-run competitive variables at the model layer
+## 9. Long-run competitive variables at the model layer
 
 The most important economic variables for model companies include:
 
@@ -146,7 +146,7 @@ Whether long-duration compute commitments remain aligned with real workload grow
 
 The final variable links directly to the Anchor Compute Buyer mechanism developed in Chapter 13.
 
-## 10. Current view
+## 10. Current read
 
 As of 2026, a more defensible description is:
 
