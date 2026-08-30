@@ -119,6 +119,10 @@ NVIDIA FY27 Q2 earnings call 又提供了一条 company-level signal：管理层
 
 这就是 **Financing Reflexivity**。
 
+![图 9 — Anchor demand 与 Financing Reflexivity](figures/fig-09-financing-reflexivity.svg)
+
+**图 9 Note：** 本报告 financing framework。seller-assisted financing 既不能自动判定为健康，也不能自动判定为 artificial；其证据意义取决于 utilization、monetization、independent risk-capital willingness 与 refinancing conditions。
+
 它不证明 demand 是 artificial。
 
 它意味着 demand quality 必须区分：
