@@ -52,7 +52,7 @@ The direction is consistent with this report's industrial thesis:
 
 > **AI literacy cannot collapse into prompt technique. Durable capability includes judgment, responsibility, system understanding, application design, and verification.**
 
-A curriculum centered only on the current popular model will age quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
+A curriculum centered on the currently dominant model or tool will become obsolete quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
 
 ## 3. Layer one: AI literacy
 
@@ -169,9 +169,9 @@ It is:
 
 > **make AI a systems capability across technical and professional education while raising verification, portability, and responsibility into core learning objectives.**
 
-The highest-value talent will not simply be the people who are best at calling models.
+The most durable talent advantage will not come simply from being best at calling models.
 
-It will be the people who can understand systems, verify results, calculate economics, migrate across stacks, and take responsibility for real-world consequences.
+It will come from the ability to understand systems, verify results, evaluate economics, migrate across stacks, and take responsibility for real-world consequences.
 
 ## References
 
