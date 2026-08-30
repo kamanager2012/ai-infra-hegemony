@@ -204,9 +204,12 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 - [Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 产能、技术与平台收入结构](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
+- [Table 7.2 — 与 Time-to-Power 直接相关的 Grid Delivery Frictions](part-I-ch07-power-constraint.md)
 - [Table 8.1 — NVL72 Rack-to-MW D 级强度换算](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 Public-Data Quantification Readiness by Layer](part-I-ch08-quantitative-framework.md)
 - [Table 8.3 — 2026 Public-Data Gap / Intensity Ledger](part-I-ch08-quantitative-framework.md)
+- [Table 8.4 — 2026 年可计算锚点 vs 尚未闭合的 Denominator](part-I-ch08-quantitative-framework.md)
+- [Table 9.1 — 影响 Production Continuity 的 Manufacturing-Control Layers](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II
 
@@ -219,6 +222,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 - [Table 19.1 — 四大云厂 2026 年公开资本投入口径](part-III-ch19-capex-supercycle.md)
 - [Table 22.1 — 主要 Cloud 公司 server / network equipment useful-life disclosure](part-III-ch22-depreciation-wall.md)
 - [Table 23.1 — AI infrastructure 资产类别与主要融资风险](part-III-ch23-capital-financing.md)
+- [Table 24.1 — Financing Reflexivity Adjudication Matrix](part-III-ch24-capital-clearing.md)
 
 ## Part IV
 
@@ -1924,6 +1928,24 @@ Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage inter
 
 ---
 
+### 5A. Grid Delivery 还存在独立的 Equipment-Procurement Clock
+
+Time-to-Power 不只受发电项目与 interconnection 约束，也受电网设备自身的供应链约束。IEA 指出，在 advanced economies，新 transmission line 往往需要 **4–8 年**；关键电网部件的等待时间近年也明显拉长。[^8] 另一份 IEA transmission supply-chain 研究给出的典型采购期为：**cable 约 2–3 年**、**large power transformer 最长约 4 年**，两者平均 lead time 自 2021 年以来接近翻倍。[^9]
+
+### Table 7.2 — 与 Time-to-Power 直接相关的 Grid Delivery Frictions
+
+| Constraint | 公开机构锚点 | 正确解释 |
+|---|---|---|
+| New transmission | advanced economies 约 4–8 年 | broad grid-build clock，不是单个 AI data-center 的固定交付期 |
+| Cables | 采购约 2–3 年 | transmission / interconnection 交付链中的 component constraint |
+| Large power transformers | 采购最长约 4 年 | 可能拖延 substation / grid delivery 的设备瓶颈 |
+| Interconnection queue | 多年 study + 高 withdrawal rate | friction indicator，不是 AI unmet demand 的直接数量 |
+
+**Source:** IEA 与 Lawrence Berkeley National Laboratory.[^6][^8][^9]  
+**Note:** 上述数字属于 grid-system / equipment-supply anchor，不代表所有 AI campus 都面对相同 lead time。它们支持的更窄结论是：energized capacity 取决于 **permitting + interconnection + equipment procurement + construction**，不能由 generation nameplate 单独决定。
+
+这也进一步收紧 delivery-state boundary：一个项目即使已经有 land、PPA 和 financing plan，仍可能因为 transformer、cable、substation 或 grid-connection path 未闭合而无法按期 energized。
+
 ## 6. Time-to-Power 已经成为 System-Competition Variable
 
 先进芯片可以按季度甚至更快迭代，但：
@@ -2051,6 +2073,9 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
 [^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
+[^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary
 
 
 ---
@@ -2443,9 +2468,26 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 今后升级这张 ledger 的标准是：
 
-&gt; **全球 gap 暂时算不出来可以接受；已经能够闭合的量却不计算，不可以。**
+&gt; **只有 denominator 闭合时才计算；否则保留最强的 bounded institutional signal，并明确哪些量仍不可测。**
 
 只有当某一层出现 same-unit demand/capacity pair，或出现可审计的 institutional balance metric，才把它升级为更强 quantitative output；否则继续明确记录缺失 denominator，而不是用 point estimate 填空。
+
+---
+
+### Table 8.4 — 2026 年可计算锚点 vs 尚未闭合的 Denominator
+
+| Observable | 可审计算法 / bounded read | Evidence identity | 仍不能证明什么 |
+|---|---|---|---|
+| DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | 基于论文租赁假设的 D-grade arithmetic | 完整 R&amp;D / company / model-program cost |
+| GB200 NVL72 rack intensity | 按 120 kW/rack，1 MW rack IT load ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | 基于官方规格的 D-grade mechanical conversion | shipment、energized fleet size、industry demand |
+| Micron HBM3E manufacturing trade ratio | same node / same bits 下约需 **3×** DDR5 wafer supply | A-grade first-party physical anchor | 永久 HBM4/HBM5 比例或全球 wafer-allocation share |
+| NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B，机械上约为 January level 的 **2.93×**，即约 **+193%** | A-grade filing values 上的 D-grade arithmetic | supplier-specific allocation、shipment、utilization、independent end-demand quality |
+| Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1%~-2%** | B-grade institutional forecast | HBM-specific shortage 或 customer allocation |
+
+**Source:** DeepSeek、NVIDIA、Micron、TrendForce.[^1][^3][^4][^6][^8]  
+**Note:** 表中允许不同 evidence grade 并列，只因为每一行的 **evidence identity 都被显式标注**。机械换算不会提升原始证据等级。目的不是制造“大模型”，而是让读者看到：denominator 闭合的地方，本报告确实计算；不闭合的地方，不把局部结果扩写成更大的事实。
+
+这就是本报告的 quantitative standard：**少量闭合、可审计的计算，比由不兼容量纲拼出来的大一统模型更有价值。**
 
 ---
 
@@ -2632,6 +2674,26 @@ ASML 的公开出口管制说明给出了一个可审计边界：[^2][^3]
 这些上游变量决定新增产能能否按计划 ramp、既有产线能否长期维持 yield，以及下一代工艺能否持续迭代。
 
 所以“存储产能扩张”与“存储供应链完全自主”也是两个不同命题。
+
+### 3.2 Process Control 是独立设备层，不是 Lithography 的脚注
+
+Lithography 只是 manufacturing-control stack 的一部分。KLA FY2026 Form 10-K 把 inspection、metrology、data analytics、reticle / mask control、chemistry / materials quality control 与 advanced-packaging process control 明确放在从 R&amp;D 到 volume production 的生产链中；同时指出 2 nm 等 leading-edge transition 会提高 process-control intensity。[^10]
+
+### Table 9.1 — 影响 Production Continuity 的 Manufacturing-Control Layers
+
+| Layer | Production role | 为什么会形成 continuity constraint |
+|---|---|---|
+| Lithography | patterning / critical-dimension formation | tool availability、imaging、overlay、service、qualification |
+| Inspection / metrology | defect detection、dimensional control、yield learning | 决定 process 能否 ramp 并维持 target yield |
+| Reticle / mask control | pattern-source quality assurance | 缺陷可能跨大量 wafer 放大 |
+| Deposition / etch | film formation 与 material removal | recipe stability 与 tool availability 是制程代际输入 |
+| Chemical / materials quality control | contamination / composition / incoming-material control | qualified materials 必须在长周期量产中保持稳定 |
+| Advanced-packaging process control | substrate / package inspection 与 yield management | packaging complexity 可以形成独立 HVM constraint |
+
+**Source:** ASML 与 KLA first-party disclosures.[^1][^10]  
+**Note:** 该表识别的是生产所需的 manufacturing-control functions，不代表某一家 vendor 垄断全部类别，也不把 vendor revenue share 转换成 physical capacity share。
+
+这会改变 resilience 的判断方式：一个地区即使获得 leading-edge lithography，也仍可能因为 inspection、metrology、reticle control、materials quality、etch/deposition、packaging control 或 field service 无法在规模化生产中闭合，而存在 production-continuity risk。
 
 ## 4. Material Qualification 是 Hidden Time Cost
 
@@ -2825,6 +2887,8 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
 [^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
 [^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
+
+[^10]: KLA Corporation, FY2026 Form 10-K, semiconductor process control, inspection, metrology, reticle/mask, chemistry/materials quality control, advanced packaging, and 2 nm process-control intensity, https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000027/klac-20260630.htm
 
 
 ---
@@ -6533,6 +6597,30 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 &gt;US$
 
 如果 utilization 走弱，同时 supplier support 比重不断上升，则 forward commitments 的信号质量应下调。
 
+### 7A. Financing Reflexivity 需要 Adjudication Matrix，而不是 Synthetic Ratio
+
+公开披露通常无法在同一个 denominator 下同时给出 supplier equity、guarantee、third-party debt、customer equity 与 total project financing。因此，本报告**不制造一个统一的“supplier-support ratio”**，而是沿三个可观察维度裁决 Financing Reflexivity：
+
+1. **utilization / monetization direction**；
+2. **independent risk-capital willingness**；
+3. **supplier equity / credit-support direction**。
+
+### Table 24.1 — Financing Reflexivity Adjudication Matrix
+
+| Utilization / monetization | Independent risk capital | Supplier support | Interpretation | 对 S4 evidence 的影响 |
+|---|---|---|---|---|
+| improving / strong | broad 且独立定价 | 相对作用稳定或下降 | financing 加速 productive buildout | 弱化 Financing-family S4 evidence |
+| healthy，但新规模尚未证明 | 仍可获得，但结构化程度上升 | rising | reflexivity watch；commitments 仍有信息量，但独立性下降 | modestly downweight Forward Commitment |
+| weakening | risk appetite / refinancing terms 恶化 | materially rising | supplier support 可能让 order visibility 强于 end economics | 强化 Demand Quality / Financing family |
+| utilization 与 clearing 同步偏弱 | independent capital 撤出或要求大幅 repricing | support 仍无法恢复 execution / cash flow | 从融资加速转向 capital clearing | 与其他 signal family 交叉确认时构成强 S4 evidence |
+
+**Source:** 本章融资结构上的 report adjudication framework.[^5][^6][^7]  
+**Note:** 任何一行都不能由单一披露触发，需要看时间方向与 cross-signal confirmation。若未来某个具体项目公开了 same-denominator financing stack，可以计算 project-level ratio；在此之前，matrix 比 synthetic percentage 更可审计。
+
+实际判据是：
+
+&gt; **supplier support 本身不是 bearish signal；supplier support 上升，同时 utilization、monetization、independent risk appetite 与 market clearing 走弱，才构成 reflexive stress condition。**
+
 ## 8. Capital Clearing 按 Asset Duration 传播
 
 短周期资产先清算，长周期资产后清算。典型顺序更接近：
@@ -6576,6 +6664,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 &gt;US$
 [^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and &gt;US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, land-power-shell credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^7]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+
 
 ---
 
