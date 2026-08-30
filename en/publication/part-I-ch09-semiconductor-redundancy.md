@@ -2,7 +2,7 @@
 
 ## 1. Resilience is a system-continuity problem
 
-Frontier AI supply security cannot be reduced to the location of one fab or the nationality of one chip designer. The relevant test is whether the full industrial chain can keep producing, qualifying, servicing, and scaling through disruption.
+Frontier-AI supply security is not a map of fabs or corporate nationalities. The relevant test is whether the industrial chain can **keep producing, qualifying, servicing, repairing, and scaling through disruption**.
 
 The physical supply chain of a frontier AI system includes at least:
 
@@ -16,7 +16,7 @@ The physical supply chain of a frontier AI system includes at least:
 
 Supply security for an accelerator designer is therefore not determined by chip design alone. Multiple industrial layers must be simultaneously available.
 
-## 2. ASML shows that equipment itself is a system-level capability
+## 2. Equipment is itself a system-level capability
 
 ASML's 2025 Annual Report reports **48 EUV lithography systems sold** during the year. By the end of 2025, customers had run more than **400,000 wafers** on High-NA systems while qualification continued.[^1]
 
@@ -35,7 +35,7 @@ The relevant variables are:
 
 High-NA matters primarily as a process-roadmap and industrial-maturity path, not as a media-reported price tag.
 
-## 3. A fab cannot exist independently of its supplier ecosystem
+## 3. A fab is not independent of its supplier ecosystem
 
 Leading-edge manufacturing depends on equipment installation, spare parts, software, process recipes, materials, metrology, and long-duration field service.
 
@@ -43,7 +43,7 @@ Even if two regions both contain fab buildings, their effective capacity will no
 
 This report therefore defines supply-chain independence as **system-level continuity**, not simply "a fab exists on the map."
 
-### 3.1 Upstream Continuity: equipment, software, spare parts, and field service are separate constraints
+### 3.1 Upstream continuity has multiple independent constraints
 
 The existence of a domestic fab does not automatically mean that capacity expansion is independent of external upstream supply.
 
@@ -63,7 +63,7 @@ These variables determine whether new capacity can ramp on schedule, whether exi
 
 "Memory capacity is expanding" and "the memory supply chain is fully autonomous" are therefore different propositions.
 
-## 4. Material qualification is an often-underestimated time cost
+## 4. Material qualification is a hidden time cost
 
 Advanced nodes are highly sensitive to contamination, particles, uniformity, defect density, and long-term stability.
 
@@ -73,7 +73,7 @@ The relevant materials constraint is therefore not an unsupported market-share s
 
 > **Does a qualified alternative supplier exist, and how long would switching take?**
 
-## 5. TSMC's geographic expansion shows that redundancy is real—and that the core cluster cannot be copied instantly
+## 5. Geographic redundancy is real, but cluster replication is slow
 
 TSMC's 2025 Annual Report and 2026 Arizona updates show:[^4][^9]
 
@@ -92,7 +92,7 @@ It is still not the same as reproducing the Taiwan cluster overnight.
 
 Different regions continue to differ in node mix, product mix, packaging, workforce, supplier density, and power/water conditions.
 
-## 5A. Three kinds of redundancy must remain separate: Geographic, Supplier, and Technology
+## 5A. Geographic, supplier, and technology redundancy are different
 
 A TSMC fab in another country mainly increases **geographic redundancy**.
 
@@ -135,7 +135,7 @@ Therefore:
 > **geographic diversification ≠ true second source ≠ technology independence**
 
 For frontier-AI supply security, the highest-value resilience comes from improving all three forms of redundancy rather than merely making the fab map more geographically distributed.
-## 6. Government subsidies reduce the cost of redundancy; they do not create instant independence
+## 6. Subsidies reduce redundancy cost; they do not create instant independence
 
 The U.S. Department of Commerce final CHIPS award for TSMC Arizona includes up to **US$6.6B of direct funding** supporting three leading-edge fabs. Final NAPMP advanced-packaging awards total **US$1.4B**, while Amkor's Arizona advanced-packaging/test facility received up to **US$407M of direct funding**.[^5][^6][^7]
 
@@ -145,7 +145,7 @@ These programs directly support a broader conclusion:
 
 Subsidies cannot instantly reproduce decades of yield learning, supplier qualification, and engineering density. They can accelerate capacity formation, but they are not equivalent to immediate supply-chain independence.
 
-## 7. Why redundancy inherently costs more
+## 7. Redundancy carries an efficiency cost
 
 Greater resilience often requires:
 
@@ -175,7 +175,7 @@ TSMC's 2025 Annual Report links Arizona expansion to strong multi-year AI-relate
 
 The AI-infrastructure cycle and industrial-policy cycle are therefore increasingly overlapping.
 
-## 9. Geographic redundancy does not mean every layer is localized
+## 9. Geographic redundancy is not full localization
 
 A regional supply stack has to be tested across:
 
@@ -193,7 +193,7 @@ Localizing one layer reduces dependency in that layer only. It does not automati
 
 This is why the frontier-system resilience of China, the United States, Europe, or Japan cannot be summarized with one localization percentage.
 
-## 10. China localization and Western reshoring face the same system problem
+## 10. China localization and Western reshoring face the same systems problem
 
 China's localization of equipment, materials, foundry, memory, and packaging and the U.S./European/Japanese reshoring or friend-shoring programs pursue different strategic objectives.
 
@@ -203,7 +203,7 @@ They nevertheless face the same engineering requirement:
 
 The existence of one product is not system closure. Real substitution must be sustainable at production scale, reliability, and long-duration service.
 
-## 11. Geopolitical fragmentation can increase global investment while lowering single-system efficiency
+## 11. Fragmentation can raise investment while lowering system efficiency
 
 If the world develops two or more relatively separate semiconductor / AI system ecosystems, the result can include:
 
@@ -216,7 +216,7 @@ If the world develops two or more relatively separate semiconductor / AI system 
 
 Fragmentation does not necessarily reduce global semiconductor CapEx. It can instead produce **more duplicated construction, lower utilization efficiency inside each individual system, and greater resilience**.
 
-## 12. What qualifies as real supply-chain resilience
+## 12. Evidence standard for supply-chain resilience
 
 This report does not define complete self-sufficiency as the only valid objective.
 
