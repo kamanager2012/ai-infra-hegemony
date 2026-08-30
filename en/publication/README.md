@@ -11,7 +11,7 @@ This 32-chapter report analyzes the shift from individual-accelerator competitio
 
 The report keeps observed facts, company guidance, institutional forecasts, report-side calculations, hypotheses, and scenarios separate. See [Scope and Evidence Boundaries](00-front-matter.md).
 
-**Canonical research language:** English. The Chinese edition is a professional parallel edition that preserves facts, denominators, mechanism logic, and falsification boundaries without requiring sentence-level translation.
+**Canonical research language:** English. The Chinese edition is the professional Chinese translation of this canonical analytical text. Chinese syntax may be localized and standard industry terms may remain in English, but the translation must not independently add, remove, reorder, or redefine claims, mechanisms, denominators, evidence identities, scenario states, falsification boundaries, or section hierarchy. Any substantive revision is resolved in English first and then translated into Chinese.
 
 ## Recommended reading paths
 
