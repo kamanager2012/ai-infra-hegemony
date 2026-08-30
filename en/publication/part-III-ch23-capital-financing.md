@@ -20,6 +20,28 @@ It is:
 
 > **Which type of capital is taking which duration, cash-flow, and residual-value risk?**
 
+## 1A. Capital is profit-seeking: five lenses explain why money keeps moving
+
+Financing complexity is not, by itself, evidence of a bubble. Capital moves toward the highest expected **risk-adjusted return** available under its mandate, while different capital providers can prefer very different places in the same stack.
+
+For AI infrastructure, five lenses should be kept separate:
+
+1. **Market size / opportunity set (TAM).** A larger credible pool of future cash flows can justify more capital formation, but TAM is an opportunity boundary—not realized revenue, utilization, or cash flow.
+2. **Primary / pre-IPO / strategic capital.** Venture, private, sovereign, and strategic equity reveal willingness to fund option value before mature cash flows exist. They can also be used to secure customers, distribution, supply, or ecosystem position, so they are not pure passive valuation signals.
+3. **Market position.** Switching costs, distribution, scarce-resource access, customer concentration, and bargaining power determine the economic rent investors expect a company or layer to retain.
+4. **Realized operating economics.** Revenue growth, gross / operating margin, free cash flow, unit economics, and cash conversion test whether the market-position story is actually monetizing.
+5. **Public-market valuation and cost of capital.** Market capitalization, equity multiples, debt spreads, and financing access affect the ability to issue equity/debt, fund acquisitions, retain talent, prepay suppliers, and support infrastructure projects. Market cap is not cash, and a high valuation does not prove future profitability; it changes the financing option set.
+
+These five lenses operate as a feedback loop, not a guaranteed staircase:
+
+> **large opportunity set → primary / strategic capital → capability and scale → stronger market position → operating profit / FCF → lower or more flexible capital cost → more capacity to invest**
+
+The loop can reinforce a winner when the underlying cash flows validate it. It can also reverse quickly when monetization, market position, or financing conditions weaken.
+
+This is why the report should not interpret private credit, SPVs, infrastructure funds, or seller-assisted finance as automatically “late-cycle.” The correct question is whether the structure **improves risk-adjusted return by matching duration and allocating risk**, or merely hides weak economics behind refinancing and support.
+
+---
+
 ## 2. Asset-light platforms and heavy infrastructure carry different return structures
 
 NVIDIA combines high system margin, strong cash generation, and relatively low direct fixed-asset intensity.
