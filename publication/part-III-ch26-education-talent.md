@@ -1,14 +1,12 @@
 # Part III · 第26章：AI 时代教育与人才体系
 
-## 1. 教育目标正在从“会用 AI”上移到“理解系统”
+## 1. Durable Talent Advantage 来自 System Understanding，不是 Tool Familiarity
 
-prompting、model calling 与基础 automation 很容易随工具进化而商品化。
-
-更耐久的能力包括 model、data、compute、memory、software、network、power、economics 与 responsibility 的跨层理解。
+prompting、model calling 与基础 automation 很容易商品化。更耐久的竞争力来自对 model、data、compute、memory、software、network、power、economics 与 responsibility 如何在 production system 中共同作用的理解。
 
 这与产业竞争从 single chip 上移到 system stack 是同一变化。
 
-## 2. AI Adoption 已经快于 Curriculum / Policy
+## 2. Adoption 正在快于 Curriculum / Policy
 
 Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：[^1]
 
@@ -26,7 +24,7 @@ Stanford 同一章节还指出，全球已有 **90% 以上国家**在 primary �
 
 > **如何验证学生是否理解模型边界、能够设计 workflow、验证结果，并对最终输出负责。**
 
-### 2A. 国际框架已经从“会使用工具”上移到 Human Agency、Ethics 与 System Design
+### 2A. International Framework 已经从 Tool Use 上移
 
 UNESCO 的 AI Competency Framework for Students 定义 **12 项 competencies / 4 个维度**：human-centred mindset、ethics of AI、AI techniques and applications、AI system design，并采用 Understand → Apply → Create 的 progression。[^2]
 
@@ -38,13 +36,13 @@ UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI f
 
 这也是为什么教育体系如果只教“如何调用当前最热门模型”，会很快被产品迭代淘汰；而 system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
 
-## 3. 第一层：AI Literacy
+## 3. Layer One：AI Literacy
 
 所有专业都需要理解 model limitation、hallucination、source verification、privacy、data leakage、bias 与 responsible use。
 
 它更接近新的基础数字素养，而不是 AI 专业学生的选修技能。
 
-## 4. 第二层：AI Workflow Engineering
+## 4. Layer Two：Workflow Engineering
 
 大量岗位不需要训练 foundation model，却需要：
 
@@ -58,7 +56,7 @@ UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI f
 
 这构成应用层 AI engineering。
 
-## 5. 第三层：System Engineering
+## 5. Layer Three：System Engineering
 
 frontier AI 需要 accelerator、HBM、network、distributed computing、compiler/runtime、data center 与 power。
 
@@ -68,13 +66,13 @@ frontier AI 需要 accelerator、HBM、network、distributed computing、compile
 
 纯模型课程无法覆盖真实产业约束。
 
-## 6. Hardware 与 Software 不能继续完全分科
+## 6. Hardware 与 Software 不能继续完全分离
 
 例如 inference optimization 可能同时涉及 quantization、kernel、HBM bandwidth、interconnect、batching 与 power。
 
 所以未来 curriculum 更需要跨层实验、真实 performance/cost measurement 与 system debugging。
 
-## 7. Multi-stack Capability 是战略技能
+## 7. Multi-Stack Capability 是 Strategic Skill
 
 工程师不应只会一套 proprietary stack。
 
@@ -82,25 +80,25 @@ frontier AI 需要 accelerator、HBM、network、distributed computing、compile
 
 教育目标不是“站队”，而是建立 portability。
 
-## 8. Physical AI 需要新的跨学科组合
+## 8. Physical AI 需要不同的 Interdisciplinary Stack
 
 robotics / Physical AI 同时需要 control、mechanics、sensor、embedded compute、AI 与 safety。
 
 如果 Physical AI 从 demo 扩大到 production deployment，对能够把 model capability 与 physical-world reliability、safety、manufacturing economics 连接起来的 system engineer 的需求会提高。
 
-## 9. Power / Cooling / Operations 也属于 AI 人才体系
+## 9. Power / Cooling / Operations 属于 Talent Stack
 
 AI data-center buildout 让 electrical distribution、power engineering、liquid cooling、networking 与 operations 成为 AI infrastructure 的组成部分。
 
 因此“AI 人才”不能只统计 ML engineer。
 
-## 10. Entry-level Education 必须适应 Routine-task Automation
+## 10. Entry-Level Education 必须适应 Task Compression
 
 如果 drafting、routine coding、basic research 等入门任务被 agent 大量完成，学生需要更早接触 system debugging、verification、architecture、real-world project 与 responsibility。
 
 否则学校会继续把大量训练时间投入最容易被自动化的 task。
 
-## 11. Assessment 也必须改变
+## 11. Assessment 必须测量 Verification 与 Responsibility
 
 更合理的 project-based assessment 应要求学生同时解释：
 
@@ -114,7 +112,7 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 这比禁止 AI 工具更接近真实产业能力评价。
 
-## 12. 当前判断
+## 12. Current Read
 
 AI 教育的核心变化不是简单“新增一个 AI 专业”，而是产业能力结构正在改变教育的有效训练目标。
 
