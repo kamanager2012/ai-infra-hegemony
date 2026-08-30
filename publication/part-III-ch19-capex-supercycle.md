@@ -81,7 +81,7 @@ AI infrastructure 不是一次性的 server purchase，而是多个经济寿命�
 
 ---
 
-## 4. Seller 与 Buyer 承担不同 Capital Risk
+## 4. Seller Economics 与 Buyer ROI 在不同 Clock 上清算
 
 NVIDIA、memory supplier、foundry 与 hyperscaler 都在“增加资本投入”，但它们的资本再生产对象并不相同。
 
