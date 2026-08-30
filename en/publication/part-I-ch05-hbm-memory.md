@@ -8,7 +8,7 @@ The industrial question is broader than "how many HBM bits are demanded?" It is:
 
 > **How much wafer input, cleanroom space, packaging capacity, qualification effort, and capital does each unit of high-value memory absorb, and what residual supply remains for conventional DRAM?**
 
-That is why HBM can reprice the broader memory system even when aggregate DRAM bit capacity continues to grow.
+That is why HBM can reprice the broader memory system **even if** aggregate DRAM bit capacity continues to grow.
 
 ## 2. Micron's ~3× disclosure is the first-party manufacturing anchor
 
