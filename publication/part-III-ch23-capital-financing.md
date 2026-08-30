@@ -1,10 +1,10 @@
 # Part III · 第23章：AI 基础设施资本市场与融资结构
 
-## 1. AI Capital Market 已跨越多种资产类别
+## 1. AI Infrastructure 已经跨多种 Asset Class 融资
 
-AI infrastructure 的资本体系已经不只包括 listed technology equity。
+AI infrastructure finance 已经覆盖 equity、private infrastructure、project finance、power、long-duration compute contracts 与 private credit。
 
-它同时覆盖：
+当前 capital stack 包括：
 
 - semiconductor manufacturing；
 - private infrastructure；
@@ -18,7 +18,7 @@ AI infrastructure 的资本体系已经不只包括 listed technology equity。
 
 > **哪一种资本承担哪一种久期、现金流和 residual-value risk。**
 
-## 2. Asset-light Platform 与 Heavy Infrastructure 不能用同一估值逻辑
+## 2. Asset-Light Platform 与 Heavy Infrastructure 具有不同 Return Structure
 
 NVIDIA 的典型特征是 high system margin、strong cash generation 与相对较低直接 fixed-asset intensity。
 
@@ -28,7 +28,7 @@ FY26 NVIDIA-defined non-GAAP free cash flow 为 **US$96.575B**；[^1] FY27 Q2 Re
 
 所以同样 revenue growth，在 platform 与 infrastructure 层的 capital return 含义完全不同。
 
-## 3. Hyperscaler 风险来自多资产叠加
+## 3. Hyperscaler Risk 叠加多个 Asset Clock
 
 cloud CapEx 同时进入 servers、custom silicon、network、buildings、cooling、power 和 land。
 
@@ -46,7 +46,7 @@ TSMC、SK hynix、Micron 等制造商承担 fab、equipment、cleanroom、proces
 
 HBM boom 可以显著改善 memory-vendor economics，但制造利润仍比 system-platform economics 更受 cycle 与 utilization 影响。
 
-## 5. 2026 年出现了独立 Compute Financing Platform
+## 5. Compute 正变成可独立融资的 Infrastructure Asset
 
 NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立独立 compute financing platforms，目标是**随时间动员超过 US$500B third-party capital**用于 AI infrastructure buildout。[^3]
 
@@ -58,7 +58,7 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 因此 **>US$500B** 只能作为 mobilization target，不能写成 committed / funded / deployed capital。[^3]
 
-## 6. Seller-Assisted Infrastructure Finance：平台开始用信用支持解决 LPS 瓶颈
+## 6. Seller-Assisted Finance 形成 Financing Reflexivity
 
 2026-08-17 的 PORTS-Pike 交易进一步说明，compute financing 正从“为 GPU 融资”扩展到 **land + power + shell**。NVIDIA 披露将为 SB Energy 的相关 LPS buildout 提供 credit support，并投资 **US$1.5B** 于 SB Energy；初始部署设计支持 **4.25 IT-GW**，OpenAI 为最终客户，SB Energy 建设、持有并运营 data center。[^4]
 
@@ -108,7 +108,7 @@ NVIDIA 在 2026-08-26 FY27 Q2 earnings call 中进一步披露，公司已向 fr
 
 ---
 
-## 7. Compute 为什么能被包装成 Infrastructure Asset
+## 7. Compute 为什么可以按 Infrastructure 融资
 
 长期资本通常偏好 predictable cash flow、long contract、collateral 与 clear offtaker。
 
@@ -116,7 +116,7 @@ AI compute 正通过 long-term compute commitments、hyperscaler leases、PPA �
 
 如果 usage-linked revenue 与 customer transferability 足够稳定，compute asset 可以获得更接近 infrastructure financing 的资本来源。
 
-## 8. 但 Hardware Residual Value 仍是关键风险
+## 8. Hardware Residual Value 是与传统 Infrastructure 的关键区别
 
 compute 与传统 infrastructure 最大差异之一，是 generation obsolescence 更快。
 
@@ -130,7 +130,7 @@ compute 与传统 infrastructure 最大差异之一，是 generation obsolescenc
 - asset 是否可在不同 customers/operators 之间转移；
 - leverage 是否建立在过度乐观的 terminal value 上。
 
-## 9. Anchor Buyer 可以降低融资风险，也提高 Customer Concentration
+## 9. Anchor Buyer 降低 Financing Risk，同时提高 Concentration
 
 OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 project finance 更容易成立。
 
@@ -138,7 +138,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 因此，Anchor Buyer 既是融资条件，也是风险集中点。
 
-## 10. Sovereign Capital 的意义在 Strategic Capacity
+## 10. Sovereign Capital 的意义在于 Strategic Capacity
 
 主权基金参与 AI infrastructure 的逻辑通常不仅是财务回报，也包括 domestic compute、data center、power、semiconductor manufacturing 与 strategic autonomy。
 
@@ -146,7 +146,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 没有官方项目披露时，本报告不使用传闻持仓构造“主权资本已经全面入场”的结论。
 
-## 11. Duration Matching 是融资质量核心
+## 11. Duration Matching 是 Financing-Quality Core Test
 
 **Table 23.1 — AI infrastructure 资产类别与主要融资风险**
 
@@ -166,7 +166,7 @@ OpenAI、Anthropic 等 long-duration demand 提供 revenue visibility，使 proj
 
 > **short-duration demand assumption + long-duration debt / power / real-estate obligation**
 
-## 12. 当前判断
+## 12. Current Read
 
 AI infrastructure 正从科技公司内部 CapEx 扩展为：
 
@@ -178,7 +178,7 @@ AI infrastructure 正从科技公司内部 CapEx 扩展为：
 
 最终决定这类融资是否可持续的，不是公布的资本目标，而是 utilization、cash yield、contract quality 与 hardware residual value。
 
-## 13. 什么事实会迫使本章改判
+## 13. 什么事实会改变当前判断
 
 应下调“compute 正在形成独立 infrastructure-finance asset class”的判断，如果：
 
