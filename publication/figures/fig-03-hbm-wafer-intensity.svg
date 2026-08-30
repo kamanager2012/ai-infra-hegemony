@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">图 3 — HBM3E 相对 DDR5 的 wafer-supply intensity</title><desc id="desc">以 DDR5 为 1，Micron 同口径披露下 HBM3E 约为 3，比较边界为 same technology node 和 same number of bits。</desc>
+<rect width="1400" height="760" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#111}.t{font-size:40px;font-weight:700}.s{font-size:23px;fill:#444}.lab{font-size:28px;font-weight:700}.v{font-size:34px;font-weight:700}.n{font-size:18px;fill:#555}.bar{fill:#444}.axis{stroke:#222;stroke-width:2}</style>
+<text x="75" y="70" class="t">HBM3E 每 bit 需要显著更多 wafer supply</text>
+<text x="75" y="110" class="s">Relative wafer-supply index；边界：same technology node / same number of bits</text>
+<line x1="180" y1="590" x2="1250" y2="590" class="axis"/>
+<rect x="300" y="430" width="260" height="160" class="bar"/><text x="430" y="630" class="lab" text-anchor="middle">DDR5</text><text x="430" y="405" class="v" text-anchor="middle">1.0×</text>
+<rect x="820" y="110" width="260" height="480" class="bar"/><text x="950" y="630" class="lab" text-anchor="middle">HBM3E</text><text x="950" y="88" class="v" text-anchor="middle">≈3.0×</text>
+<text x="700" y="682" class="n" text-anchor="middle">Source：Micron Technology，FY24 Q2 Prepared Remarks（2024-03-20）。</text>
+<text x="700" y="712" class="n" text-anchor="middle">Boundary：这是 physical wafer-supply trade ratio；不是价格倍数，也不是所有 HBM generation 的永久常数。</text>
+</svg>
