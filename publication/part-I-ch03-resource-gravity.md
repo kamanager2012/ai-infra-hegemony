@@ -194,7 +194,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 > **AI allocation 上升 → non-AI residual supply 收紧 → non-AI price / margin 上升 → supplier rebalancing incentive 增强**
 
-同样，如果 AI workload monetization 下降、utilization 下滑或 supply elasticity 快速改善，AI Resource Gravity 也会减弱。
+同样，如果 AI workload monetization 下降、utilization 下滑或 supply elasticity 快速改善，resource reallocation pressure 也会减弱。
 
 因此，它不是“AI 永远抽走所有资源”的永久定律，而是一个**动态资本配置机制**。
 
@@ -228,7 +228,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 截至 2026 年 8 月，公开证据更支持：
 
-> **AI Resource Gravity 正在真实影响部分 shared scarce layers，并通过 Non-AI Residual Capacity 与 quantity assurance 改变传统终端的资源环境。**
+> **resource reallocation pressure 正在真实影响部分 shared scarce layers，并通过 Non-AI Residual Capacity 与 quantity assurance 改变传统终端的资源环境。**
 
 但这一过程是选择性的、动态的，也会受到价格反馈、扩产和替代系统影响。
 
