@@ -77,6 +77,7 @@ For methodology and evidence discipline:
 ## Research appendices
 
 - [Scope and Evidence Boundaries](00-front-matter.md)
+- [List of Figures](01-list-of-figures.md)
 - [List of Tables](02-list-of-tables.md)
 - [Abbreviations and Core Glossary](03-abbreviations-and-glossary.md)
 - [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
