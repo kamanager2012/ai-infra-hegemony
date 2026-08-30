@@ -20,7 +20,7 @@
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**；
 - GAAP gross margin **75.0%**；
 - Rubin **full production**；
-- manufacturing, supply, and capacity commitments 由 2026-04-26 **US$119B** 升至 2026-07-26 **US$279B**；
+- manufacturing, supply, and capacity commitments 由 2026-01-25 **US$95.2B** → 2026-04-26 **US$119B** → 2026-07-26 **US$279B**；
 - TSMC advanced-packaging tightness 仍限制 customer growth；[^7]
 - 四大云厂公开资本投入指标仍处高位，但必须保留各自 actual / guidance / expectation 身份；[^8]
 - power / LPS project 已出现约 835 MW、up to 1,920 MW、up to 500 MWe，以及 PORTS-Pike initial 4.25 IT-GW design capacity 等不同成熟度路径；[^9]
