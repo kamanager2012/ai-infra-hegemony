@@ -1,8 +1,8 @@
 # Part I · 第6章：Advanced Packaging——Wafer 与 Deliverable System 之间的 Quantity Gate
 
-## 1. Packaging 的核心问题是 System Output，不是 Front-End Wafer Output
+## 1. Packaging 是 Wafer 与 System 之间的 Quantity Gate
 
-frontier accelerator 在 logic die 离开 fab 时还不是 deliverable system。multi-die integration、HBM、interposer、substrate、testing、yield 与 qualification 仍必须共同闭合。
+frontier accelerator 在 logic die 离开 fab 时还不是 commercial deliverable system。multi-die integration、HBM、interposer、substrate、testing、yield 与 qualification 必须在同一 delivery window 内共同闭合。
 
 因此，advanced packaging 本质上是一个 **quantity gate**：
 
@@ -12,7 +12,7 @@ frontier accelerator 在 logic die 离开 fab 时还不是 deliverable system。
 
 ---
 
-## 2. TSMC 已确认 Tightness，但 Revenue Label 仍需 Denominator Discipline
+## 2. Tightness 已有 First-Party Evidence，Revenue Label 仍需 Denominator Discipline
 
 TSMC 的公开表述已经足以确认 advanced-packaging tightness：[^1][^2]
 
@@ -50,7 +50,7 @@ TSMC 公开资料可以支持：
 
 ---
 
-## 4. Demand Concentration 目前主要来自 B-Grade Institutional Estimate
+## 4. Demand Concentration 目前仍主要来自 Institutional Estimate
 
 TrendForce 对 2025 CoWoS demand 的研究将 NVIDIA 列为最大需求客户，并估计其需求占比 **超过 60%**。[^3]
 
@@ -110,7 +110,7 @@ advanced packaging 则同时依赖：
 
 ---
 
-## 7. Incremental Packaging Access 必须在 Packaging Layer 直接测量
+## 7. Incremental Access 必须在 Packaging Layer 直接测量
 
 前瞻问题不是构造一个跨层 capture ratio，而是竞争 buyer 能否持续获得 qualified advanced-packaging supply。
 
@@ -169,7 +169,7 @@ TSMC 2Q24 管理层曾表示，advanced-packaging gross margin 过去显著低�
 
 ---
 
-## 10. Packaging 是 China Closure 的独立 Gate
+## 10. Packaging 是 China-Closure 的独立 Gate
 
 frontier AI parallel stack 不能只用 logic node 判断。
 
