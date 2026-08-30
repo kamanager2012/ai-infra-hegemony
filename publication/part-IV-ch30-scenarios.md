@@ -1,4 +1,4 @@
-# Part IV · 第30章：Scenario Framework——Discriminating S1 to S4
+# Part IV · 第30章：Scenario Framework——S1–S4 判别
 
 ## 1. Scenario 是 Conditional State，不是 Narrative
 
