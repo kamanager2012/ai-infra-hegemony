@@ -258,6 +258,18 @@ It means demand quality must distinguish:
 
 A report that stops at GPUs, HBM, CapEx, or data-center capacity is incomplete. Infrastructure is the supply side. The ten-year industrial cycle ultimately depends on whether these physical assets can move through software, enterprise workflows, and the physical world into verifiable economic output.
 
+### AI Inheritance Effect: the digital assets of the IT era form AI's installed base
+
+Long-run AI diffusion does not require rebuilding the digital world from zero. Decades of information technology have already created software, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and traceable workflows. In highly digitized organizations, AI can act as an intelligence / automation layer on top of that installed base.
+
+The demand side therefore contains an additional diffusion path:
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume**
+
+This expands the long-run infrastructure thesis beyond "models keep getting larger" toward "more existing digital workflows become AI workloads."
+
+The boundary remains essential. Marginal Digital → AI deployment friction can be much lower than Industrial → Digital transformation, but it is not zero. Data quality, integration, security, governance, responsibility, reliability, human review, and unit economics still determine whether adoption moves from feature use into production automation.
+
 ### Agent-native software: unit economics moves from seats to verified workflow outcomes
 
 Traditional SaaS scales largely around accounts and seats. Agent-native software continuously consumes inference, retrieval, tools/APIs, retries, observability, and human review.
@@ -419,6 +431,7 @@ It is changing:
 - the industrial role of hyperscalers and model companies;
 - the strategic value of power and data-center infrastructure;
 - the residual capacity available to traditional device markets;
+- the speed and depth at which the global digital installed base is converted into AI-enabled workflows;
 - the shift in Agent-Native Software from seat economics toward verified-workflow economics;
 - the transition in Physical AI from technical demo toward utilization, reliability, and capital payback;
 - labor-market restructuring from task automation through workflow redesign;
