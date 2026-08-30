@@ -1,5 +1,5 @@
 # The Age of AI Infrastructure Hegemony: 2026–2036
-### AI基础设施霸权时代
+### AI基础设施霸权时代：2026–2036
 
 **Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital**
 
