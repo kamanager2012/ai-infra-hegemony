@@ -19,8 +19,8 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**;
 - GAAP gross margin **75.0%**;
-- Rubin in **full production**;
-- manufacturing, supply, and capacity commitments rising from **US$95.2B** on 2026-01-25 → **US$119B** on 2026-04-26 → **US$279B** on 2026-07-26;
+- NVIDIA described Vera Rubin as **ramping into full production**; the FY27 Q2 Form 10-Q separately states that production shipments began in Q3 FY27;[^1]
+- the disclosed manufacturing / supply / capacity commitment family rising from **US$95.2B** on 2026-01-25 → **US$119B** on 2026-04-26 → **US$279B** on 2026-07-26, while the underlying mix and duration are not identical across reporting dates;
 - TSMC advanced-packaging tightness still limiting customer growth;[^7]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
 - power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1,920 MW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
@@ -181,7 +181,7 @@ Signing a contract, securing LPS, or announcing future design capacity cannot by
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
-In particular, the April-2026 revised-PPA transition status in Talen's 2026 Q2 10-Q does not prove that every physical transition or full-delivery step was completed.[^5]
+In particular, the **spring-2026 transition plan and subsequent 2026 Q2 status** for the Talen/AWS revised PPA do not prove that every physical transition or full-delivery step was completed.[^5]
 
 The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.[^5]
 
@@ -198,13 +198,13 @@ Until these thresholds are materially clearer, 2036 should remain a conditional 
 
 ## References
 
-[^1]: NVIDIA, FY27 Q2 official results, Data Center revenue, GAAP margin, and Rubin production status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: NVIDIA, Vera Rubin full-production announcement, 2026-05-31, https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory ; NVIDIA FY27 Q2 official results, Data Center revenue and GAAP margin, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027 ; FY27 Q2 Form 10-Q, Vera Rubin production shipments began in Q3 FY27, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^2]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: Constellation, Crane Clean Energy Center / Microsoft PPA, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 [^5]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
-[^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
 [^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
