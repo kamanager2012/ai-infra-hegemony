@@ -201,7 +201,7 @@ Public disclosures rarely provide a same-denominator measure of supplier equity,
 
 The practical rule is:
 
-> **supplier support is not bearish by itself; supplier support rising while utilization, monetization, independent risk appetite, and market clearing weaken is the reflexive stress condition.**
+> **supplier support is not a negative signal by itself; the reflexive stress condition is rising supplier support alongside weakening utilization, monetization, independent risk appetite, and market clearing.**
 
 ## 8. Clearing propagates through the asset-duration stack
 
@@ -235,17 +235,13 @@ But one weak signal—a stock-price decline, lower model prices, a single-quarte
 
 ## 10. Current read
 
-As of August 2026, public evidence is still closer to:
-
-> **high-intensity capital expansion + rising ROI pressure**
-
-than to a confirmed AI-infrastructure bubble collapse.
+As of August 2026, public evidence remains more consistent with **high-intensity capital expansion under rising ROI pressure** than with a confirmed AI-infrastructure capital collapse.
 
 NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP operating income **US$63.734B**,[^3] and supply/capacity commitments have risen to **US$279B**[^4] while hyperscalers continue to report very high infrastructure-spending plans.
 
 This does not guarantee a soft landing.
 
-It only means that declaring capital clearing the dominant reality still requires **cross-signal confirmation plus cross-actor causal breadth** across real-economy, market-clearing, commitment, and financing evidence; accounting losses strengthen severity when they appear but are not required for confirmation.
+It means only that capital clearing should not be treated as the dominant regime without **cross-signal confirmation and cross-actor causal breadth** across real-economy, market-clearing, commitment, and financing evidence. Accounting losses strengthen the severity assessment when they appear but are not required for confirmation.
 
 ## References
 
