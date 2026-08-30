@@ -187,6 +187,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
 - [Table 8.1 — NVL72 Rack-to-MW D 级强度换算](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 Public-Data Quantification Readiness by Layer](part-I-ch08-quantitative-framework.md)
+- [Table 8.3 — 2026 Auditable Gap / Intensity Ledger](part-I-ch08-quantitative-framework.md)
 
 ## Part II
 
@@ -2380,6 +2381,32 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 ---
 
+## 13A. 2026 Quantitative Gap Ledger：能往前算的一层，就不能永远停在“不可量化”
+
+上面的 readiness table 不能变成长期拒绝量化的借口。只要公开输入已经具备可用 denominator，本报告就应把有边界的量算出来，并把仍然缺失的部分单独列明。
+
+### Table 8.3 — 2026 Auditable Gap / Intensity Ledger
+
+| Layer / Metric | Cutoff 前公开输入 | 本报告计算 / 机构 balance | 状态 | 边界 |
+|---|---|---|---|---|
+| HBM manufacturing intensity | TrendForce 预计 HBM 约占 **2026 DRAM wafer input 的 22%**、约占 **DRAM bit supply 的 9%**[^7] | `22% / 9% ≈ 2.44×` normalized wafer-input-per-bit index | **可量化 intensity；B 级输入上的 D 级计算** | 不是 HBM absolute supply gap；也不等同于 Micron same-node / same-bits 的 ~3× |
+| Aggregate DRAM balance | TrendForce 预计 **2026 DRAM sufficiency ratio 约 −1% 到 −2%**[^8] | 机构 balance range 指向轻度 aggregate deficit | **B 级 institutional forecast** | 不是 HBM-specific gap；底层 demand/capacity volume 与 customer allocation 未公开 |
+| Advanced logic | node mix、CapEx、supplier guidance | 缺同单位 AI qualified demand / qualified capacity | **Absolute Gap 不可测** | revenue mix 不能换算成 wafer allocation |
+| Advanced packaging | supplier tightness statement 与部分 capacity estimate | 缺同一可审计来源下的 qualified package-start demand/capacity pair | **正式 Absolute Gap 不可测** | 媒体 / investor gap estimate 在 methodology 与 denominator 未闭合前保持 C 级 |
+| Networking | product topology 与 system spec | 只能做 workload-specific engineering ratio | **部分可量化** | 缺统一 deployment / utilization denominator |
+| Power / LPS | project-level secured / permitted / construction / energized state | 只能做 project delivery-state tracking | **项目级部分可量化** | IT-GW、generation GW、PPA MW、energized load、utilized load 仍是不同量 |
+
+**Source:** TrendForce institutional estimates + 本报告计算。[^7][^8]  
+**Calculation note:** **2.44×** 是刻意收窄的指标：用 TrendForce 2026E 的 HBM wafer-input share 除以 HBM bit-supply share。它是同一机构 forecast 内部的 normalized manufacturing-intensity indicator，不代表每颗 HBM die 都固定消耗 conventional DRAM 的 2.44× wafer。Micron 的约 **3×** same-node / same-bits HBM3E-to-DDR5 披露仍是更强的一手 physical anchor。[^4]
+
+今后升级这张 ledger 的标准是：
+
+&gt; **全球 gap 暂时算不出来可以接受；已经能够闭合的量却不计算，不可以。**
+
+只有当某一层出现 same-unit demand/capacity pair，或出现可审计的 institutional balance metric，才把它升级为更强 quantitative output；否则继续明确记录缺失 denominator，而不是用 point estimate 填空。
+
+---
+
 ## 14. 先拆开 Risk Class，再判断 Cascade
 
 AI infrastructure 的 system risk 至少分成五类：
@@ -2488,6 +2515,8 @@ AI infrastructure 的最基本经济关系可以写成：
 [^4]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^5]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 [^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^7]: TrendForce, 2026-06-02, HBM wafer-input and bit-supply shares for 2025–2027, https://www.trendforce.com/presscenter/news/20260602-13074.html
+[^8]: TrendForce, 2026-07-30, 2026 DRAM sufficiency ratio estimate of approximately -1% to -2%, https://www.trendforce.com/presscenter/news/20260730-13158.html
 
 
 ---

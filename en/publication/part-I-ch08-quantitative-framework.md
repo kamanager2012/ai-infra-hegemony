@@ -249,6 +249,32 @@ The quantitative rule is therefore:
 
 > **Calculate what can be closed; use explicit proxies where closure is partial; do not fill a missing denominator with a point estimate.**
 
+## 13A. 2026 quantitative gap ledger: one layer can already be pushed further
+
+The readiness table above should not become a permanent excuse for non-quantification. Where public inputs share a usable denominator, the report should calculate the bounded quantity and show exactly what remains unclosed.
+
+### Table 8.3 — 2026 auditable gap / intensity ledger
+
+| Layer / metric | Public input at the cutoff | Report-side calculation or institutional balance | Status | Boundary |
+|---|---|---|---|---|
+| HBM manufacturing intensity | TrendForce estimates HBM at **~22% of 2026 DRAM wafer input** and **~9% of DRAM bit supply**[^7] | `22% / 9% ≈ 2.44×` normalized wafer-input-per-bit index | **Quantified intensity; D-grade calculation on B-grade inputs** | not an absolute HBM supply gap; not identical to Micron's same-node / same-bits ~3× disclosure |
+| Aggregate DRAM balance | TrendForce estimates a **~−1% to −2% 2026 DRAM sufficiency ratio**[^8] | institutional balance range indicates a modest aggregate deficit | **B-grade institutional forecast** | not HBM-specific; underlying demand/capacity volumes and customer allocation are not public |
+| Advanced logic | node mix, CapEx, supplier guidance | no same-unit AI qualified-demand / qualified-capacity pair | **Not measurable as Absolute Gap** | revenue mix cannot be converted into wafer allocation |
+| Advanced packaging | supplier tightness statements and partial capacity estimates | no unified qualified package-start demand/capacity pair in one auditable source | **Not measurable as formal Absolute Gap** | media / investor gap estimates remain C-grade unless methodology and denominator close |
+| Networking | product topology and system specifications | workload-specific engineering ratios only | **Partial** | no unified deployment/utilization denominator |
+| Power / LPS | project-level secured / permitted / construction / energized states | project delivery-state tracking only | **Partial at project level** | IT-GW, generation GW, PPA MW, energized load, and utilized load remain different quantities |
+
+**Source:** TrendForce institutional estimates plus report-side arithmetic.[^7][^8]  
+**Calculation note:** the **2.44×** figure is deliberately narrow. It divides TrendForce's 2026E HBM wafer-input share by its HBM bit-supply share. It is a normalized manufacturing-intensity indicator inside the same institutional forecast, not a claim that every HBM die uses exactly 2.44× the wafers of every conventional-DRAM die. Micron's approximately **3×** same-node / same-bits HBM3E-to-DDR5 disclosure remains the stronger first-party physical anchor.[^4]
+
+This is the standard for future upgrades to the ledger:
+
+> **A missing global gap is acceptable; an uncomputed quantity that can already be closed is not.**
+
+The next quantitative upgrade should occur only when a layer gains a same-unit demand/capacity pair or an auditable institutional balance metric. Until then, the ledger records the missing denominator rather than manufacturing one.
+
+---
+
 ## 14. Separate risk classes before testing for cascade
 
 System risk in AI infrastructure can be divided into:
@@ -321,3 +347,5 @@ This discipline does not require conservative scenarios. It allows scenarios to 
 [^4]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^5]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 [^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^7]: TrendForce, 2026-06-02, HBM wafer-input and bit-supply shares for 2025–2027, https://www.trendforce.com/presscenter/news/20260602-13074.html
+[^8]: TrendForce, 2026-07-30, 2026 DRAM sufficiency ratio estimate of approximately -1% to -2%, https://www.trendforce.com/presscenter/news/20260730-13158.html
