@@ -85,6 +85,9 @@ hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/p
 ### Rolling Bottleneck Cascade
 瓶颈在 logic、HBM、advanced packaging、networking、power、utilization 等层之间轮换的动态过程。
 
+### AI Inheritance Effect
+AI 在既有 software、database、cloud、API、digital document、source code、identity/access 与 workflow 等数字资产之上叠加 intelligence / automation layer 的机制。它意味着高度信息化组织通常具有更低的 Digital → AI 边际改造摩擦，但**不表示部署障碍为 0**；data quality、integration、security、governance、responsibility、reliability、human review 与 unit economics 仍然决定 production adoption。
+
 ### AI Software Unit Economics
 以 successfully completed workflow 为核心单位，计算 inference、retrieval/storage、tools/API、retry、human review 等真实变动成本。
 
