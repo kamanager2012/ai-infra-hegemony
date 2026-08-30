@@ -1,10 +1,10 @@
-# Part II · Chapter 11: NVIDIA's System-Orchestration Strategy Beyond the Accelerator
+# Part II · Chapter 11: NVIDIA's System-Orchestration Strategy Beyond Accelerators
 
 ## 1. NVIDIA extends control through orchestration, not ownership
 
-NVIDIA's control does not come from owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
+NVIDIA's leverage does not depend on owning leading-edge fabs, HBM fabs, or the full data-center real-estate stack.
 
-Its operating model is better described as:
+Its strategy is better described as:
 
 > **interface control + reference architecture + software/runtime + supply orchestration + financing coordination**
 
@@ -106,7 +106,7 @@ Its industrial importance is that the sales unit, qualification process, supply 
 
 ## 10. Current read
 
-As of 2026, the clearest change is that NVIDIA has moved materially from accelerator vendor toward system-platform / AI-Factory architecture.
+As of 2026, the clearest change is that NVIDIA has moved materially beyond the accelerator-vendor role toward a system-platform / AI-Factory architecture.
 
 "Vertical expansion" and "the industry is fully controlled by one platform" remain different propositions.
 
