@@ -93,6 +93,29 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
+## 6A. Demand duration: AI is layered onto a global digital installed base rather than starting from zero
+
+If AI-infrastructure demand came only from frontier-model scaling, major algorithmic efficiency gains, model compression, or one large supply expansion could shorten the capital cycle materially.
+
+But the demand pool also contains another transmission path:
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume → Infrastructure Demand**
+
+Decades of IT investment have already converted large parts of enterprise activity into software, databases, APIs, digital documents, identity systems, and networked workflows. AI can add understanding, generation, prediction, decision, and execution capabilities on top of those existing digital processes without repeating the entire transformation from physical activity to digitization.
+
+The duration of AI-infrastructure demand therefore cannot be judged only by asking how many GPUs the next model generation requires. It also depends on:
+
+- the enterprise digital-workflow base;
+- AI penetration;
+- the depth of assistant → agent / automation;
+- execution frequency;
+- cost per verified workflow;
+- production reliability and human-review burden.
+
+This is why **large efficiency gains and long-run growth in aggregate infrastructure demand can coexist**: lower resource intensity per task can be offset or exceeded by broader workflow penetration, higher execution frequency, or deeper agent loops.
+
+This mechanism is not a guarantee of permanent demand. If AI fails to produce sufficiently low-cost, reliable, verifiable workflow output, the digital installed base remains potential TAM rather than realized utilization or cash flow.
+
 ## 7. Five classes of leading capital-clearing signals
 
 A CapEx-cycle turn cannot be judged from stock prices alone.
