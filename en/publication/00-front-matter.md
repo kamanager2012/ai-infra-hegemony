@@ -7,7 +7,7 @@
 **Edition revision:** August 30, 2026  
 **Analysis and scenario horizon:** 2026–2036  
 **Canonical research language:** English  
-**Parallel professional edition:** Chinese
+**Professional Chinese translation:** Chinese
 
 ---
 
