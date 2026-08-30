@@ -4,7 +4,7 @@
 
 HBM should not be treated as just another GPU BOM line. In frontier systems it affects model capacity, batching, context length, concurrency, communication, and accelerator utilization; at rack scale, its manufacturing intensity becomes a system-level capacity constraint.
 
-The industrial question is therefore not simply "how many HBM bits are demanded?" It is:
+The industrial question is broader than "how many HBM bits are demanded?" It is:
 
 > **How much wafer input, cleanroom space, packaging capacity, qualification effort, and capital does each unit of high-value memory absorb, and what residual supply remains for conventional DRAM?**
 
@@ -59,7 +59,7 @@ High-end HBM supply is concentrated primarily among SK hynix, Samsung, and Micro
 - generation timing;
 - high-volume manufacturing stability.
 
-Public first-party material is insufficient to construct a fully comparable and auditable three-vendor HBM market-share table. This report therefore does not upgrade media or sell-side estimates into company-official share data.
+Public first-party material is insufficient to construct a fully comparable and auditable three-vendor HBM market-share table. Media or sell-side estimates are therefore not upgraded into company-official share data.
 
 ### 6.1 Price feedback limits one-way scarcity narratives
 
@@ -69,7 +69,7 @@ This is B-grade institutional estimation, not product-level realized gross-margi
 
 > HBM/AI demand rises → conventional-DRAM residual supply tightens → DDR5/RDIMM prices rise → conventional-DRAM per-wafer economics improve → the relative incentive for further HBM conversion declines → memory vendors rebalance product mix.
 
-Resource reallocation is therefore not an infinitely one-way process. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
+Resource reallocation is not an infinitely one-way process. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
 
 ## 7. Rack specs show intensity, not industry demand
 
@@ -79,7 +79,7 @@ It shows that once procurement moves from an accelerator card to a rack-scale sy
 
 But without a public rack shipment or deployment count, the specification cannot be scaled into an industry PB-demand estimate.
 
-Therefore:
+The boundary is:
 
 > **Per-system HBM specifications can describe memory intensity; industry demand still requires observed shipments, customer demand, or memory-vendor supply data.**
 
@@ -91,13 +91,13 @@ If logic base dies use more advanced processes, the memory bottleneck extends fu
 
 **HBM vendor → logic base die → advanced foundry → advanced packaging → accelerator qualification**
 
-HBM can therefore evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Before vendors formally disclose the data, however, HBM3E's ~3× ratio cannot be mechanically rewritten as 4× or 5× for HBM4, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
+HBM can evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Before vendors formally disclose the data, however, HBM3E's ~3× ratio cannot be mechanically rewritten as 4× or 5× for HBM4, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
 
 ## 9. HBM does not clear like a standard commodity-memory cycle
 
 One important difference between HBM and standard commodity memory is generation-specific qualification. Product generations move quickly, they are closely tied to accelerator generations, qualification cycles are long, and obsolescence risk is higher.
 
-The industry can therefore experience:
+This can produce:
 
 > **looser supply in an older HBM generation while the next frontier generation remains constrained.**
 
@@ -107,7 +107,7 @@ Oversupply in one generation does not automatically solve qualification, yield, 
 
 Some inference workloads can trade bandwidth for lower-cost DDR/LPDDR, but frontier inference still faces KV-cache, long-context, large-batch, MoE-routing, low-latency serving, and multi-accelerator communication constraints.
 
-More importantly, RDIMM is already included in TrendForce's forward AI/server memory structure. Shifting some workloads from HBM toward DDR5 therefore changes the cost/bandwidth tradeoff inside a broader shared memory-resource pool rather than creating an independent supply base.
+More importantly, RDIMM is already included in TrendForce's forward AI/server memory structure. Shifting some workloads from HBM toward DDR5 changes the cost/bandwidth tradeoff inside a broader shared memory-resource pool instead of creating an independent supply base.
 
 ## 11. Current read and falsification
 
