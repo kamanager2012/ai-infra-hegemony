@@ -1,10 +1,10 @@
 # Part II · Chapter 14: Agent-Native Software and AI Software Unit Economics
 
-## 1. Agent-native software changes the cost structure
+## 1. The unit of software economics moves from seat to workflow
 
-Traditional SaaS typically has low software-replication cost, and seat growth does not necessarily increase variable compute linearly.
+Traditional SaaS can often add seats without proportional variable compute. Agent-native software cannot assume that cost structure.
 
-Agent-native software is different. A single task may trigger retrieval, reasoning, multiple model calls, tool invocation, browser/action execution, retries, and human review.
+A single workflow may trigger retrieval, reasoning, multiple model calls, tool invocation, browser/action execution, retries, and human review.
 
 The cost unit therefore shifts from:
 
@@ -14,7 +14,7 @@ toward:
 
 > **workflow execution**
 
-## 1A. 2026 adoption baseline: AI is widespread, but agent deployment remains early
+## 1A. 2026 baseline: AI is broad; agent deployment is still early
 
 Stanford AI Index 2026 reports that **88%** of surveyed organizations say they use AI and **70%** use Generative AI in at least one business function. Yet AI-agent deployment remains in the **single digits across nearly all business functions**.[^3]
 
@@ -26,7 +26,7 @@ That creates a large potential workflow pool, but production reliability, review
 
 Anthropic's June 2026 Economic Index also reports that its product usage has shifted toward more long-running agentic tasks and that higher compute use is associated with higher estimated artifact value.[^4] Because this is first-party product telemetry, it should not be treated as representative of the entire enterprise-software market.
 
-## 1B. AI Inheritance Effect: AI inherits decades of Information Technology installed base
+## 1B. AI Inheritance Effect: IT is the installed base
 
 Moving a physical industrial process into the digital domain usually requires sensors, networks, databases, software, identity systems, process digitization, and organizational change. A highly digitized organization starts from a different position: ERP, CRM, MES, CAD/PLM, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and workflow logs already form a reusable digital substrate.
 
@@ -65,7 +65,7 @@ The more defensible statement is therefore:
 
 > **Relative to Industrial → Digital transformation, highly digitized organizations generally face lower marginal transformation cost when moving from Digital → AI. AI can inherit the IT installed base, but it cannot skip production integration or responsibility constraints.**
 
-## 2. There is no universal end-state for "AI SaaS gross margin"
+## 2. There is no universal AI-software margin structure
 
 Variable cost differs by product and depends on model choice, context length, caching, retrieval, tools/APIs, failure/retry rates, human review, pricing model, and task depth.
 
@@ -73,7 +73,7 @@ This report therefore does not treat a fixed path such as "traditional SaaS 85% 
 
 It uses **AI Software Unit Economics** instead.
 
-## 3. Core unit-economics formula
+## 3. Core unit-economics identity
 
 A production workflow can be approximated as:
 
@@ -90,7 +90,7 @@ Variable AI cost includes at least:
 
 The optimization target is **cost per successfully completed workflow**, not merely cost per token.
 
-## 4. Agent depth determines the cost curve
+## 4. Agent depth changes the cost curve
 
 A shallow assistant may look like:
 
@@ -111,7 +111,7 @@ Agent products therefore have to optimize:
 - tool reliability;
 - failure / retry rate.
 
-## 5. Why seat pricing comes under pressure
+## 5. Seat pricing comes under pressure
 
 Seat pricing can remain effective for summarization, autocomplete, and shallow-assistant products.
 
@@ -127,7 +127,7 @@ Long-run pricing can therefore shift toward combinations of:
 
 This does not imply that seat pricing disappears. It means agent depth weakens the correlation between a seat and real variable cost.
 
-## 6. Multi-model routing becomes a foundational software capability
+## 6. Multi-model routing becomes infrastructure
 
 Sending every task to the most expensive model directly damages unit economics.
 
@@ -140,7 +140,7 @@ A more efficient system design can use:
 
 Routing is a dynamic allocation problem across quality, latency, cost, and failure probability.
 
-## 7. Open source can move profit from "model capability" toward workflow and distribution
+## 7. Open source can move profit toward workflow and distribution
 
 Open-source models increase portability, pressure API premiums, expand private deployment, and improve buyer bargaining power.
 
@@ -155,7 +155,7 @@ More durable value can move toward:
 - trust / compliance;
 - measurable outcomes.
 
-## 8. Cloud System-Stack Competition can transmit into application cost
+## 8. System-stack competition can transmit into application cost
 
 Software companies usually do not purchase HBM, CoWoS, or grid capacity directly.
 
@@ -165,7 +165,7 @@ If hyperscaler custom stacks lower real system TCO, part of that benefit can tra
 
 Infrastructure competition around Google Ironwood TPU, AWS Trainium3, and other systems therefore affects software contribution margin as well as the chip market.[^1][^2]
 
-## 8A. Workflow Elasticity: lower unit cost does not imply lower total infrastructure demand
+## 8A. Workflow elasticity: lower unit cost does not imply lower total demand
 
 Once agent software turns model calls into workflow execution, aggregate infrastructure demand can be approximated as:
 
@@ -194,7 +194,7 @@ The software layer's feedback into infrastructure is therefore better summarized
 
 This is why agent adoption can compress model-layer margin while still expanding aggregate use of cloud, accelerators, memory, and networking.
 
-## 9. Human review is an often-underestimated variable cost
+## 9. Human review is a variable-cost line
 
 In high-risk workflows such as legal, finance, and enterprise operations, human review may remain necessary for a long time.
 
@@ -206,7 +206,7 @@ True automation ROI should include:
 
 rather than measuring AI usage or generated tokens alone.
 
-## 10. Where high-quality profit in agent-native software can come from
+## 10. Sources of durable software profit
 
 Products with stronger long-run economics are more likely to combine:
 
@@ -220,7 +220,7 @@ Products with stronger long-run economics are more likely to combine:
 
 Software competition is therefore moving from feature competition toward **workflow economics competition**.
 
-## 11. Current view
+## 11. Current read
 
 AI is moving part of software from low-marginal-cost replication toward real-time compute-consuming workflow systems.
 
