@@ -6,6 +6,8 @@ Seller economics, CapEx, HBM, packaging, foundry allocation, power, regulation, 
 
 The report's conclusions therefore have to be designed for continuous updating rather than being valid only on the publication date.
 
+Here, an “updateable system” means a **governed research-update process**: new evidence is reclassified by evidence identity, mapped to the affected mechanism, and then assessed for scenario-weight implications. It is **not** an automated data pipeline, and the report does not claim that ledger IDs or hypothesis numbers mechanically bind the prose or trigger automatic recalculation.
+
 Every update should answer only three questions:
 
 1. **Which fact changed?**
