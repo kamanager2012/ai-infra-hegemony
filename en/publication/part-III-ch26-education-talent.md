@@ -1,10 +1,10 @@
 # Part III · Chapter 26: Education and Talent Systems in the AI Era
 
-## 1. The educational objective is moving from "using AI" toward "understanding systems"
+## 1. Durable talent advantage comes from system understanding, not tool familiarity
 
-Prompting, model calls, and basic automation can commoditize quickly as tools improve.
+Prompting, model calls, and basic automation can commoditize quickly. Durable advantage comes from understanding how models, software, compute, data, power, economics, and responsibility interact in a production system.
 
-More durable capabilities include cross-layer understanding of:
+The more durable capability stack includes:
 
 - models;
 - data;
@@ -18,7 +18,7 @@ More durable capabilities include cross-layer understanding of:
 
 This mirrors the industrial shift from competition around one chip toward competition around the system stack.
 
-## 2. AI adoption is moving faster than curriculum and policy
+## 2. Adoption is moving faster than curriculum and policy
 
 The Stanford HAI 2026 AI Index Education chapter provides several clear signals:[^1]
 
@@ -40,7 +40,7 @@ The question is no longer whether students are using AI.
 
 It is whether institutions can verify that students understand, control, and take responsibility for AI-generated outcomes.
 
-### 2A. International competency frameworks are already moving beyond tool use
+### 2A. International frameworks are already moving beyond tool use
 
 UNESCO's AI Competency Framework for Students defines **12 competencies across four dimensions**: human-centred mindset, ethics of AI, AI techniques and applications, and AI system design, organized across Understand → Apply → Create.[^2]
 
@@ -52,7 +52,7 @@ The direction is consistent with this report's industrial thesis:
 
 A curriculum centered only on the current popular model will age quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
 
-## 3. Layer one: AI Literacy
+## 3. Layer one: AI literacy
 
 All disciplines need a basic understanding of:
 
@@ -66,7 +66,7 @@ All disciplines need a basic understanding of:
 
 AI literacy is becoming a general digital competency rather than an elective skill for AI specialists.
 
-## 4. Layer two: AI Workflow Engineering
+## 4. Layer two: workflow engineering
 
 Many roles do not require training a foundation model.
 
@@ -82,7 +82,7 @@ They do require:
 
 This forms the application layer of AI engineering.
 
-## 5. Layer three: System Engineering
+## 5. Layer three: system engineering
 
 Frontier AI requires accelerators, HBM, networking, distributed computing, compiler/runtime, data centers, and power.
 
@@ -92,7 +92,7 @@ Top-tier AI engineering education therefore has to cross:
 
 Model-only coursework cannot capture real industrial constraints.
 
-## 6. Hardware and software should not remain completely separated
+## 6. Hardware and software cannot remain fully separated
 
 Inference optimization can simultaneously involve:
 
@@ -121,19 +121,19 @@ and being able to migrate workloads across systems.
 
 The educational goal is portability, not platform loyalty.
 
-## 8. Physical AI requires a new interdisciplinary combination
+## 8. Physical AI requires a different interdisciplinary stack
 
 Robotics / Physical AI combines control, mechanics, sensing, embedded compute, AI, and safety.
 
 A scarce future skill will be the ability to connect model capability with physical-world reliability.
 
-## 9. Power / cooling / operations also belong inside the AI talent system
+## 9. Power / cooling / operations belong inside the talent stack
 
 AI data-center buildout makes electrical distribution, power engineering, liquid cooling, networking, and operations part of AI infrastructure.
 
 "AI talent" therefore cannot be measured only by the number of ML engineers.
 
-## 10. Entry-level education has to adapt to routine-task automation
+## 10. Entry-level education has to adapt to task compression
 
 If drafting, routine coding, and basic research are increasingly performed by agents, students need earlier exposure to:
 
@@ -145,7 +145,7 @@ If drafting, routine coding, and basic research are increasingly performed by ag
 
 Otherwise, education will continue investing heavily in the tasks most likely to be automated first.
 
-## 11. Assessment also has to change
+## 11. Assessment has to measure verification and responsibility
 
 A stronger project-based assessment should require students to explain:
 
@@ -159,7 +159,7 @@ A stronger project-based assessment should require students to explain:
 
 That is closer to real industrial capability than simply banning AI tools.
 
-## 12. Current judgment
+## 12. Current read
 
 The central educational change is not "create another AI major."
 
