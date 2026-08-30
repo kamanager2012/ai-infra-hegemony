@@ -77,6 +77,7 @@
 ## 研究附录
 
 - [报告说明、证据边界与免责声明](00-front-matter.md)
+- [图表目录](01-list-of-figures.md)
 - [表格目录](02-list-of-tables.md)
 - [缩写与核心术语表](03-abbreviations-and-glossary.md)
 - [研究透明度、局限性与纠错机制](04-research-transparency.md)
