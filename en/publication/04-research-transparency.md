@@ -216,6 +216,35 @@ The English Chapter 32 was corrected to restore that missing third point and ren
 
 The formal text was refrozen again after this bilingual-parity repair.
 
+### 8E. August 30, 2026 English-first editorial restructuring pass
+
+The formal text was then **explicitly reopened once for language and analytical architecture**, not for a new evidence cycle.
+
+The research workflow was changed to:
+
+> **Evidence → English canonical analytical text → technical review → Chinese professional parallel edition**
+
+The editorial pass was limited to:
+
+- making English the canonical research language and Chinese the professional parallel edition;
+- recasting Ch01, Ch03, Ch17, Ch21, and Ch32 around thesis / baseline / denominator / mechanism / boundary / falsification logic;
+- aligning the Chinese counterparts to the same analytical structure without sentence-level translation;
+- updating chapter titles, tables of contents, READMEs, website chapter labels, and static full-text entry points;
+- preserving all accepted facts, evidence grades, denominators, citations, the S1–S4 taxonomy, and the current S2 baseline.
+
+The pass did **not**:
+- introduce facts that first occurred after the August 28 evidence cutoff;
+- upgrade any evidence grade;
+- alter validated numerical definitions or denominators;
+- promote S2 into S3;
+- reduce technical density for general-reader accessibility.
+
+The editorial rule is:
+
+> **Simplify navigation, not analysis.**
+
+The formal text was refrozen again after this English-first editorial restructuring.
+
 ---
 
 
