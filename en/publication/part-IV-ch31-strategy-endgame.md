@@ -339,11 +339,7 @@ These variables determine the relative weight of S1–S4 rather than a fixed ten
 
 ## 14. Strategic bottom line
 
-As of August 2026, AI infrastructure remains in a phase where:
-
-> **rapid expansion + high concentration + accelerating formation of substitute systems**
-
-coexist.
+As of August 2026, AI infrastructure remains in a phase of **rapid expansion, high concentration, and accelerating formation of substitute systems**.
 
 The next decade is not primarily about guessing one permanent winner. It is about repeated redistribution of industrial power and capital returns across:
 
@@ -356,7 +352,7 @@ The next decade is not primarily about guessing one permanent winner. It is abou
 - regulation;
 - geopolitical redundancy.
 
-The common principle for enterprises, capital, and national strategy can be compressed into one sentence:
+A common strategic principle follows across enterprises, capital allocation, and industrial policy:
 
 > **Do not bet on an unchangeable end-state; build options that remain executable when the end-state changes.**
 
