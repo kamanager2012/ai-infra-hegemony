@@ -23,6 +23,10 @@ Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technol
 
 但它**不能**被改写成 HBM 售价是 DDR5 的 3×，也不能当作每座 fab、每一代 HBM 都固定不变的“3:1 定律”。Micron 对 HBM4 的公开表述只是 trade ratio 预计进一步上升；具体 HBM4/HBM4E 数值仍需未来 vendor disclosure。
 
+![图 3 — HBM3E 相对 DDR5 的 wafer-supply intensity](figures/fig-03-hbm-wafer-intensity.svg)
+
+**图 3 Note：** Micron first-party physical trade ratio，适用边界为 same technology node / same number of bits。该 relative index 不是价格倍数，也不能机械外推到后续 HBM generation。
+
 ## 3. 51% Forecast 使用的是不同 Denominator
 
 TrendForce **预计**，2026 年 **HBM + RDIMM 合计约占 DRAM bit supply 的 51%**。[^4]这是一条 B 级机构前向预测，必须同时保留三个边界：
