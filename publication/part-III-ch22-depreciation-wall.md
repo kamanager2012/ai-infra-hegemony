@@ -6,7 +6,7 @@
 
 > **当 hardware refresh / economic obsolescence 快于 workload monetization 时，installed asset base 开始压缩 return，并改变下一轮 capital formation。**
 
-所以折旧墙必须与 utilization、revenue、residual value 和 next-generation investment 一起看。
+折旧墙必须与 utilization、revenue、residual value 和 next-generation investment 一起看。
 
 ## 2. Major Cloud 的 Accounting Useful Life 并不统一
 
@@ -34,7 +34,7 @@
 
 反过来，一座 data-center shell、substation 或 PPA 的经济寿命往往远长于一代 accelerator。
 
-因此 AI infrastructure 的根本错配是：
+AI infrastructure 的根本错配是：
 
 > **short-cycle compute vs long-cycle physical infrastructure**
 
@@ -55,7 +55,7 @@
 
 同样规模的基础设施投资，在高利用率和低利用率条件下会产生完全不同的资本回报。
 
-因此必须同时观察：
+分析必须同时观察：
 
 > **Revenue / Deployed Compute**
 
@@ -77,7 +77,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 如果新 architecture 能用更少 HBM、compute 或 communication 完成相同 workload，旧系统即使物理可运行，也可能在 cost per task 上迅速失去竞争力。
 
-因此，软件/模型创新会直接改变 hardware economic life。
+软件/模型创新会直接改变 hardware economic life。
 
 ### 7A. Efficiency–Utilization Break-Even：效率提升必须与 Workload Growth 一起闭合
 
@@ -103,7 +103,7 @@ V1 / V0 = I0 / I1
 
 这只是数学恒等式，不是预测。举例说，如果一个**假设性**架构让可比 workload 的资源强度下降 **90%** ((I1/I0 = 0.1))，那么 workload volume 需要增长 **10×**，才能仅仅维持 aggregate resource demand 不变。本报告不预测“90% 效率提升”或“10× workload 一定发生”；这个例子只是 D 级 sensitivity check。
 
-对旧一代资产而言，门槛甚至比 aggregate break-even 更高。新增 workload 可能优先迁移到 cost per task、memory efficiency、power efficiency 或 software support 更好的新系统。因此，即使全行业 compute demand 持平甚至增长，旧 generation 的 utilization 与 residual value 仍可能下降。
+对旧一代资产而言，门槛甚至比 aggregate break-even 更高。新增 workload 可能优先迁移到 cost per task、memory efficiency、power efficiency 或 software support 更好的新系统。即使全行业 compute demand 持平甚至增长，旧 generation 的 utilization 与 residual value 仍可能下降。
 
 所以效率冲击应转化为四个可观察资本变量：
 
@@ -112,7 +112,7 @@ V1 / V0 = I0 / I1
 - workload 在不同 hardware generation 之间的迁移速度；
 - 旧系统 utilization / lease rate / resale value 是否比 accounting depreciation 更快恶化。
 
-因此，algorithmic progress 对 infrastructure demand 既不是天然 expansionary，也不是天然 contractionary。它首先是一个**capital-recovery variable**；最终影响取决于 workload growth 与 generation-level allocation。
+algorithmic progress 对 infrastructure demand 既不是天然 expansionary，也不是天然 contractionary。它首先是一个**capital-recovery variable**；最终影响取决于 workload growth 与 generation-level allocation。
 
 ---
 
@@ -122,7 +122,7 @@ V1 / V0 = I0 / I1
 
 在 S4 中，同一个 PPA、substation 或 data-center shell 则可能变成长久期低利用率负担。
 
-所以资产价值取决于 demand duration，而不是“电力资产永远安全”。
+资产价值取决于 demand duration，而不是“电力资产永远安全”。
 
 ## 9. Anchor Buyer 降低 Financing Risk，同时集中 Demand Risk
 
@@ -130,7 +130,7 @@ V1 / V0 = I0 / I1
 
 但如果 anchor buyer 的 revenue、financing 或 architecture assumptions 变化，take-or-pay、renegotiation 与 stranded-capacity risk 会集中爆发。
 
-因此 customer concentration 与 contract duration 必须与 useful life 一起看。
+customer concentration 与 contract duration 必须与 useful life 一起看。
 
 ## 9A. Financing Structure 可以移动 Loss，但不能消除它
 
