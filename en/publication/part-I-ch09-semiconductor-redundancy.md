@@ -14,7 +14,7 @@ The physical supply chain of a frontier AI system includes at least:
 - testing;
 - data-center power / cooling.
 
-Supply security for an accelerator designer is therefore not determined by chip design alone. Multiple industrial layers must be simultaneously available.
+Supply security for an accelerator designer is therefore not determined by chip design alone; multiple industrial layers must be available simultaneously.
 
 ## 2. Equipment is itself a system-level capability
 
@@ -41,11 +41,11 @@ Leading-edge manufacturing depends on equipment installation, spare parts, softw
 
 Even if two regions both contain fab buildings, their effective capacity need not be equivalent when supplier density, engineering talent, qualification cycles, tool service, and material stability differ.
 
-This report therefore defines supply-chain independence as **system-level continuity**, not simply "a fab exists on the map."
+This report therefore defines supply-chain independence as **system-level continuity**, not simply as "a fab exists on the map."
 
 ### 3.1 Upstream continuity has multiple independent constraints
 
-The existence of a domestic fab does not automatically mean that capacity expansion is independent of external upstream supply.
+The existence of a domestic fab does not by itself mean that capacity expansion is independent of external upstream supply.
 
 ASML's public export-control statements provide an auditable boundary:[^2][^3]
 
@@ -108,13 +108,13 @@ TSMC's 2025 Annual Report and 2026 Arizona updates show:[^4][^9]
 
 Geographic diversification is therefore a real trend, and it is extending from logic fabs into packaging and R&D.
 
-It is still not the same as reproducing the Taiwan cluster overnight.
+It is still not equivalent to reproducing the Taiwan cluster overnight.
 
 Different regions continue to differ in node mix, product mix, packaging, workforce, supplier density, and power/water conditions.
 
 ## 5A. Geographic, supplier, and technology redundancy are different
 
-A TSMC fab in another country mainly increases **geographic redundancy**.
+A TSMC fab in another country primarily increases **geographic redundancy**.
 
 It does not automatically create:
 
@@ -155,6 +155,7 @@ Therefore:
 > **geographic diversification ≠ true second source ≠ technology independence**
 
 For frontier-AI supply security, the highest-value resilience comes from improving all three forms of redundancy rather than merely making the fab map more geographically distributed.
+
 ## 6. Subsidies reduce redundancy cost; they do not create instant independence
 
 The U.S. Department of Commerce final CHIPS award for TSMC Arizona includes up to **US$6.6B of direct funding** supporting three leading-edge fabs. Final NAPMP advanced-packaging awards total **US$1.4B**, while Amkor's Arizona advanced-packaging/test facility received up to **US$407M of direct funding**.[^5][^6][^7]
@@ -221,7 +222,7 @@ They nevertheless face the same engineering requirement:
 
 > **performance + yield + scale + qualification + cost must all work at the same time.**
 
-The existence of one product is not system closure. Real substitution must be sustainable at production scale, reliability, and long-duration service.
+The existence of a single product is not system closure. Real substitution must be sustainable at production scale, reliability, and long-duration service.
 
 ## 11. Fragmentation can raise investment while lowering system efficiency
 
