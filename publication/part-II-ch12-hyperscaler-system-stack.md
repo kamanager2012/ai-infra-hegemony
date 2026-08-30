@@ -260,6 +260,10 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 最现实的长期格局更可能是 workload segmentation。
 
+这种 segmentation 还必须区分 **training topology** 与 **inference topology**。Frontier training 通常更敏感于大规模 collective communication、scale-up / scale-out fabric 与同步效率；inference 的瓶颈则更依赖 workload 形态，memory capacity / bandwidth、latency、batching、power efficiency 与 cost per token 的权重可以更高。与此同时，inference 并不等于“网络不重要”：Google Ironwood 仍把 9,216-chip pod 与专用 ICI 作为系统的一部分，Microsoft Maia 200 则明确以标准 Ethernet 扩展至最高 6,144 accelerators。[^1][^4]
+
+因此，不能把 frontier-training 的互联壁垒机械外推到全部 inference，也不能因为 inference 更适合 custom silicon / Ethernet，就反过来假设大规模 inference 不需要系统级互联。真正需要比较的是**具体 workload topology 下的 memory、network、latency、utilization 与 TCO**。
+
 ### NVIDIA 更强的区域
 
 - general-purpose frontier training；
