@@ -79,6 +79,43 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 因此，软件/模型创新会直接改变 hardware economic life。
 
+### 7A. Efficiency–Utilization Break-Even：效率提升必须与 Workload Growth 一起闭合
+
+算法效率与资本回收之间的张力，可以在不预设需求弹性的情况下写成一个最简单的恒等式：
+
+```text
+Infrastructure Demand = Unit Resource Intensity × Workload Volume
+```
+
+因此：
+
+```text
+D1 / D0 = (I1 / I0) × (V1 / V0)
+```
+
+其中 (I) 表示可比 workload 的单位资源强度，(V) 表示 workload volume。
+
+要让 aggregate resource demand 保持不变，break-even 条件是：
+
+```text
+V1 / V0 = I0 / I1
+```
+
+这只是数学恒等式，不是预测。举例说，如果一个**假设性**架构让可比 workload 的资源强度下降 **90%** ((I1/I0 = 0.1))，那么 workload volume 需要增长 **10×**，才能仅仅维持 aggregate resource demand 不变。本报告不预测“90% 效率提升”或“10× workload 一定发生”；这个例子只是 D 级 sensitivity check。
+
+对旧一代资产而言，门槛甚至比 aggregate break-even 更高。新增 workload 可能优先迁移到 cost per task、memory efficiency、power efficiency 或 software support 更好的新系统。因此，即使全行业 compute demand 持平甚至增长，旧 generation 的 utilization 与 residual value 仍可能下降。
+
+所以效率冲击应转化为四个可观察资本变量：
+
+- cost per verified workload 下降速度；
+- total workload volume 增长速度；
+- workload 在不同 hardware generation 之间的迁移速度；
+- 旧系统 utilization / lease rate / resale value 是否比 accounting depreciation 更快恶化。
+
+因此，Algorithmic Efficiency 既不是天然利多，也不是天然利空。它首先是一个**资本回收变量**；最终方向取决于 workload growth 与 generation-level allocation。
+
+---
+
 ## 8. Power Asset 具有相反的 Duration Profile
 
 在 S2/S3 高需求环境中，long-duration power / grid asset 可能成为 scarce moat。
