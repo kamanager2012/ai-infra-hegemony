@@ -1,10 +1,10 @@
 # Part IV · Chapter 29: Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting
 
-## 1. Track variables that can change the view
+## 1. Monitor variables that can actually change the view
 
-A long-horizon report is useful only if later evidence can change its conclusions.
+A long-horizon view is useful only if later evidence can force it to change.
 
-The monitoring framework therefore tracks **state variables**, not news volume. Each new observation has to answer three questions:
+The monitoring framework therefore tracks **state variables, transition rates, and evidence quality — not news volume**. Each new observation has to answer three questions:
 
 1. **What changed in the fact layer?**
 2. **Which mechanism variable did that change?**
@@ -12,7 +12,7 @@ The monitoring framework therefore tracks **state variables**, not news volume. 
 
 This is a governed research-update process, not an automated trading model. The purpose of the dashboard is to prevent one headline, one forecast revision, or one accounting event from being mistaken for a structural regime change.
 
-## 2. Dashboard A — Seller Economics and Forward Reservation
+## 2. Dashboard A — Seller economics / forward reservation
 
 ### NVIDIA current anchors
 
@@ -42,7 +42,7 @@ These metrics ask whether the system seller still has enough cash generation and
 
 The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
 
-## 3. Dashboard B — Foundry and Packaging
+## 3. Dashboard B — Foundry / packaging
 
 ### TSMC 2025
 
@@ -90,7 +90,7 @@ SK hynix FY25:[^6]
 
 These indicators help test whether HBM product mix continues to absorb DRAM manufacturing input and whether conventional-DRAM residual capacity is loosening.
 
-## 5. Dashboard D — Capital Formation
+## 5. Dashboard D — Capital formation
 
 For Microsoft, Amazon, Alphabet, and Meta, preserve separately:
 
@@ -106,7 +106,7 @@ It is whether new capital continues flowing into servers, networking, memory, cu
 
 Non-comparable accounting definitions must not be mechanically added into an official AI-hardware CapEx total.
 
-## 6. Dashboard E — Power Delivery State
+## 6. Dashboard E — Power delivery state
 
 **Table 29.2 — Power project state machine**
 
@@ -133,7 +133,7 @@ The variables that need updating are each project's transition from secured / co
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate.
 
-## 7. Dashboard F — Second-Stack Substitution
+## 7. Dashboard F — Second-stack substitution
 
 For Google / AWS / Microsoft / Meta, track:
 
@@ -147,7 +147,7 @@ For Google / AWS / Microsoft / Meta, track:
 
 A single-chip benchmark is not sufficient evidence of system substitution.
 
-## 8. Dashboard G — China Closure Tests
+## 8. Dashboard G — China closure tests
 
 Track two different levels rather than one localization rate.
 
@@ -175,7 +175,7 @@ Then separately track:
 
 Production deployment can strengthen the first level without proving the second.
 
-## 9. Dashboard H — Regulatory State
+## 9. Dashboard H — Regulatory state
 
 Use one legal-state machine:
 
@@ -189,7 +189,7 @@ Do not convert:
 
 The variables capable of changing the scenario are interface openness, tying restrictions, access / supply remedies, and structural change.
 
-## 10. Dashboard I — Capital Clearing and Demand Quality
+## 10. Dashboard I — Capital clearing / demand quality
 
 ### Accounting
 
@@ -213,7 +213,7 @@ Customer cash generation, third-party risk capital, supplier equity / credit sup
 
 S4 should move from stress test toward the main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups are monitoring families, not a mandatory five-of-five gate; Accounting is confirmation / severity evidence, not a prerequisite.
 
-## 10A. Dashboard J — End-System Residual Pressure
+## 10A. Dashboard J — End-system residual pressure
 
 If the report's downstream question is whether important end systems can still obtain enough, stable, affordable resources on their own product cadence, the monitoring framework cannot stop at seller economics, HBM, packaging, and power.
 
@@ -281,7 +281,7 @@ Every update preserves the original evidence grade.
 
 A newer number does not automatically become stronger evidence.
 
-## 12. Scenario reweighting rules
+## 12. Scenario-reweighting rules
 
 ### Move toward S1
 
@@ -299,7 +299,7 @@ Multiple independent families among utilization/revenue, market clearing, forwar
 
 Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
 
-## 12A. Materiality and persistence follow each variable's own clock
+## 12A. Materiality and persistence follow each variable's clock
 
 The report does **not** impose one universal rule such as "two quarters" or "three months" across all variables.
 
