@@ -334,7 +334,7 @@ Compute 只有在经济上可检验的意义上，才能被视为 productive inp
 
 这四个状态不是必然顺序，也不赋固定概率。
 
-真正决定 2030/2036 产业结构的是：
+最可能塑造 2030/2036 产业结构的变量包括：
 
 - supply elasticity；
 - HBM / packaging / power tightness；
