@@ -4,11 +4,11 @@
 
 Large AI-infrastructure investment is not evidence of a bubble by itself, and high seller margins are not evidence of healthy buyer economics.
 
-The S4 test begins when **asset formation starts to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**. The key is not one weak metric; it is a consistent divergence between capital formation and productive demand.
+The S4 test begins when **asset formation starts to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**. The key is not a single weak metric, but a consistent divergence between capital formation and productive demand.
 
 This chapter therefore does not ask whether AI valuations are high. It asks when the evidence is strong enough to move the scenario framework from S2-style expansion toward **S4 — Capital Hard Landing**.
 
-One CapEx total, one valuation multiple, one stock drawdown, or one impairment is not sufficient. The decision depends on lead indicators, cross-signal confirmation, and causal breadth.
+A single CapEx total, valuation multiple, stock drawdown, or impairment is not sufficient. The decision depends on lead indicators, cross-signal confirmation, and causal breadth.
 
 ## 2. Clearing signals run on different clocks
 
@@ -25,15 +25,15 @@ The slowest but hardest evidence comes from formal recognition:
 
 These indicate that companies themselves have reduced expectations for future cash flow or residual value.
 
-One-quarter policy or inventory effects cannot automatically be upgraded into structural collapse.
+One-quarter policy or inventory effects cannot by themselves be upgraded into structural collapse.
 
 For example, H20-related charges affected NVIDIA FY26 results, but GAAP gross margin was **75.0% in FY26 Q4**, **74.9% in FY27 Q1**, and **75.0% in FY27 Q2**.[^1][^2][^3]
 
-One-time charges and releases have to remain separate from long-run system economics.
+One-time charges and releases must remain separate from long-run system economics.
 
 ### 2.2 Utilization / Revenue: the operating test
 
-The capital cycle ultimately has to be paid for by effective workloads.
+The capital cycle ultimately must be supported by effective workloads.
 
 The key variables are compute utilization, revenue per deployed system, enterprise AI revenue, and workflow monetization.
 
@@ -79,7 +79,7 @@ The current trajectory looks more like continued forward resource reservation th
 
 ## 3. The signal is divergence, not a synthetic global total
 
-The four major hyperscalers do not report CapEx / PPE / finance-lease investment on one identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
+The four major hyperscalers do not report CapEx / PPE / finance-lease investment on a single identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
 
 This chapter does not repeat the four-cloud CapEx table.
 
@@ -93,7 +93,7 @@ For capital clearing, the higher-value signals are directional:
 
 Therefore:
 
-> **Bubble detection does not require one global AI-CapEx total. It requires evidence that capital expansion, utilization, and forward commitments are beginning to diverge systematically.**
+> **Bubble detection does not require a single global AI-CapEx total. It requires evidence that capital expansion, utilization, and forward commitments are beginning to diverge systematically.**
 
 See [Chapter 19 — The AI Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md).
 ## 4. Seller economics and buyer ROI clear on different clocks
@@ -160,7 +160,7 @@ When a system seller also participates through customer equity investment, credi
 
 NVIDIA's August 2026 disclosures now provide concrete examples: the company is supporting a **>US$500B third-party-capital mobilization target**, providing LPS credit support around PORTS-Pike, and discussing large frontier-lab investments plus selective credit enhancement.[^5][^6][^7]
 
-This does not prove that the demand is artificial.
+This does not, by itself, prove that the demand is artificial.
 
 The key question is:
 
@@ -181,7 +181,7 @@ Weak utilization combined with rising supplier support should reduce the evident
 
 ### 7A. Financing Reflexivity needs an evidence matrix, not a synthetic ratio
 
-Public disclosures rarely provide a same-denominator measure of supplier equity, guarantees, third-party debt, customer equity, and total project financing. The report therefore does **not** manufacture a single "supplier-support ratio." Instead, Financing Reflexivity is evaluated across three observable dimensions:
+Public disclosures rarely provide a same-denominator measure spanning supplier equity, guarantees, third-party debt, customer equity, and total project financing. The report therefore does **not** manufacture a single "supplier-support ratio." Instead, Financing Reflexivity is evaluated across three observable dimensions:
 
 1. **utilization / monetization direction**;
 2. **independent risk-capital willingness**;
@@ -231,7 +231,7 @@ The five groups do not need to deteriorate in the same quarter because accountin
 
 Judgment is cumulative: each signal updates at its own disclosure frequency per the principle in Chapter 29 §12A, without a single fixed threshold; S4 is upgraded only when several groups deteriorate persistently and in a mutually reinforcing way; when signals diverge, the baseline is maintained and the divergence is logged in the monitoring framework.
 
-But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
+But a single weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 
 ## 10. Current read
 
