@@ -42,7 +42,7 @@ Algorithm and architecture choices can change:
 - batch / concurrency;
 - serving efficiency.
 
-Public cases such as DeepSeek-V3 / V2 show that architecture improvements can significantly change the unit resources required for a given capability.[^1][^2]
+Public cases such as DeepSeek-V3 / V2 show that architecture improvements can significantly change training and serving resource requirements, although the cited sources do not define one universal "resource per capability" metric.[^1][^2]
 
 But a changed demand function does not eliminate physical constraints. Whether higher efficiency reduces aggregate infrastructure demand still depends on workload volume and demand elasticity.
 
@@ -187,9 +187,9 @@ Power must also retain its state identity:
 
 Contracted or secured capacity is not energized capacity; energized capacity is not highly utilized AI load. Generation MW/GW, PPA capacity, and IT-GW must also retain their distinct physical identities.
 
-### Table 8.1 — NVL72 rack-to-MW D-grade intensity conversion
+### Table 8.1 — NVL72 rack-power-to-hardware D-grade intensity conversion
 
-| Item | Official / known input | Mechanical conversion at 1 MW of rack IT load |
+| Item | Official / known input | Mechanical conversion at 1 MW of aggregate rack power draw |
 |---|---:|---:|
 | Rack power | ≈120 kW / rack | ≈8.33 racks |
 | GPU | 72 / rack | ≈600 GPUs |
@@ -197,7 +197,7 @@ Contracted or secured capacity is not energized capacity; energized capacity is 
 | LPDDR5X | 17 TB / rack | ≈141.7 TB |
 
 **Source:** NVIDIA GB200 NVL72 official specification and DGX GB Rack Scale Systems User Guide.[^3][^5]  
-**Note:** This is a **D-grade mechanical intensity conversion**. It answers only: “if 1 MW of rack IT load were composed entirely of this rack configuration, what would the hardware intensity be?” It is **not** a shipment, deployment, energized-facility, or industry-demand estimate, and it excludes PUE, network/storage, power-conversion, redundancy, and facility overhead.
+**Note:** This is a **D-grade mechanical intensity conversion**. It answers only: “if 1 MW of aggregate rack-level input power were composed entirely of this rack configuration, what would the hardware intensity be?” It is **not** a shipment, deployment, facility-IT-load, energized-facility, or industry-demand estimate, and it excludes PUE, network/storage, power-conversion, redundancy, and facility overhead.
 
 This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
 
@@ -257,7 +257,7 @@ The readiness table above should not become a permanent excuse for leaving publi
 
 | Layer / metric | Public input at the cutoff | Bounded output | Status | Boundary |
 |---|---|---|---|---|
-| HBM manufacturing intensity | TrendForce estimates HBM wafer input **among the top three suppliers** at ~**22%** of total DRAM wafer input in 2026, while HBM bit supply is expected at ~**9%** of total DRAM bit supply[^7] | read jointly with Micron's same-node / same-bits **≈3×** physical trade ratio | **B-grade institutional intensity signal** | the two TrendForce percentages are not scope-identical enough to support a formal 22/9 intensity ratio; not an absolute HBM supply gap |
+| HBM manufacturing intensity | TrendForce estimates that **by end-2026**, HBM wafer input **among the top three suppliers** will reach ~**22%** of total DRAM wafer input, while HBM bit supply will reach ~**9%** of total DRAM bit supply[^7] | read jointly with Micron's same-node / same-bits **≈3×** physical trade ratio | **B-grade institutional intensity signal** | the two TrendForce percentages are not scope-identical enough to support a formal 22/9 intensity ratio; not an absolute HBM supply gap |
 | Aggregate DRAM balance | TrendForce estimates a **~−1% to −2% 2026 DRAM sufficiency ratio**[^8] | institutional balance range indicates a modest aggregate deficit | **B-grade institutional forecast** | not HBM-specific; underlying demand/capacity volumes and customer allocation are not public |
 | Advanced logic | node mix, CapEx, supplier guidance | no same-unit AI qualified-demand / qualified-capacity pair | **Not measurable as Absolute Gap** | revenue mix cannot be converted into wafer allocation |
 | Advanced packaging | supplier tightness statements and partial capacity estimates | no unified qualified package-start demand/capacity pair in one auditable source | **Not measurable as formal Absolute Gap** | media / investor gap estimates remain C-grade unless methodology and denominator close |
@@ -280,8 +280,8 @@ The next quantitative upgrade should occur only when a layer gains a same-unit d
 | Observable | Auditable calculation / bounded read | Evidence identity | What it still cannot prove |
 |---|---|---|---|
 | DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | D-grade arithmetic on a paper-stated rental assumption | total R&D / company / model-program cost |
-| GB200 NVL72 rack intensity | at 120 kW/rack, 1 MW rack IT load ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | D-grade mechanical conversion from official system specs | shipments, energized fleet size, industry demand |
-| Micron HBM3E manufacturing trade ratio | same node / same bits requires approximately **3×** DDR5 wafer supply | A-grade first-party physical anchor | a permanent HBM4/HBM5 ratio or global wafer-allocation share |
+| GB200 NVL72 rack intensity | at 120 kW/rack, 1 MW aggregate rack power draw ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | D-grade mechanical conversion from official system specs | shipments, facility IT load, energized fleet size, industry demand |
+| Micron HBM3E manufacturing trade ratio | Micron discloses an **industrywide** same-node / same-bits ratio of approximately **3×** DDR5 wafer supply | A-grade first-party disclosure of an industrywide physical trade ratio | a Micron-fab-specific MES ratio, a permanent HBM4/HBM5 ratio, or global wafer-allocation share |
 | NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B = approximately **2.93×** the January level, or **+193%** mechanically | D-grade arithmetic on A-grade filing values | supplier-specific allocation, shipments, utilization, independent end-demand quality |
 | Aggregate DRAM balance | 2026 sufficiency ratio approximately **−1% to −2%** | B-grade institutional forecast | HBM-specific shortage or customer allocation |
 
@@ -359,10 +359,10 @@ This discipline does not require conservative scenarios. It allows scenarios to 
 ## References
 
 [^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
-[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
+[^2]: DeepSeek-AI, “DeepSeek-V2,” technical report, https://arxiv.org/abs/2405.04434 ; official repository, https://github.com/deepseek-ai/DeepSeek-V2
 [^3]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 [^4]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^5]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 [^6]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-[^7]: TrendForce, 2026-06-02, HBM wafer-input and bit-supply shares for 2025–2027, https://www.trendforce.com/presscenter/news/20260602-13074.html
+[^7]: TrendForce, 2026-06-02, year-end HBM wafer-input and bit-supply share estimates for 2025–2027, https://www.trendforce.com/presscenter/news/20260602-13074.html
 [^8]: TrendForce, 2026-07-30, 2026 DRAM sufficiency ratio estimate of approximately -1% to -2%, https://www.trendforce.com/presscenter/news/20260730-13158.html
