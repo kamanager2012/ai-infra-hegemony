@@ -287,6 +287,38 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 ---
 
+## 11A. System-Orchestration Rent 取决于 Workload Topology
+
+通用 system orchestrator 的经济价值并不会在所有 workload 上保持同一强度。
+
+在高度同步的 frontier training 中，大规模 collective communication、scale-up fabric、failure recovery 与 cluster-wide software coordination 的系统复杂度很高，用户愿意为“确定性交付”支付更高 system premium。
+
+当 production workload 中 inference 或较窄 fine-tuning 的比重提高时，一部分 workload 可能变得：
+
+- 更容易拆分和并行；
+- 更受 memory / latency / power 约束，而不是 collective communication 约束；
+- 更适合 vertically optimized captive system；
+- 更看重 cost per token / verified outcome，而不是最大通用性。
+
+这会削弱某些 workload 对“通用 training-oriented coordination stack”的超额支付，并提高 hyperscaler custom system 的相对价值。
+
+但本报告不接受“inference 占比超过 80%，orchestration rent 就崩塌”这种固定阈值。公开证据不足以支持统一 80% cutoff；而且大规模 inference 本身仍可能高度依赖 memory system、networking、scheduling、reliability 与 fleet orchestration。
+
+因此真正需要监测的是：
+
+- production workload 中 training / inference 的占比（仅在可披露时）；
+- custom silicon 在 captive production workload 中的真实份额；
+- alternative stack 的 cost per token / cost per verified workload；
+- 不同 workload topology 的 memory / network intensity；
+- migration cost 与 software portability；
+- external customer adoption 与 captive internal use 的差异。
+
+战略问题不是“推理会不会杀死系统协调”，而是：
+
+> **当 workload topology 改变后，哪些 coordination layer 仍然稀缺、仍然能够持续变现？**
+
+---
+
 ## 12. Current Read
 
 截至 2026 年 8 月，最稳健的描述是：
