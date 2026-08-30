@@ -1,31 +1,22 @@
-# Part II · 第13章：Anchor Compute Buyer Effect——模型公司如何重塑基础设施
+# Part II · 第13章：Anchor Compute Buyers——Long-Duration Demand 如何提前拉动 Infrastructure
 
-## 1. 核心判断：头部模型公司正在从“算力租户”升级为基础设施资本形成的锚定买方
+## 1. Demand-Side Shift：Model Company 开始提前拉动 Infrastructure
 
-传统关系更接近：
+在较小规模下，model company 是 compute tenant；到了 frontier scale，long-duration demand 本身可以成为 capital formation 的输入。
 
-> model company → rent cloud compute
+关系因此从：
 
-但超大模型公司的关系正在演化为：
+> model company → rent existing compute
 
-> **model-company demand ↔ cloud / data-center / power / chip buildout**
+逐步转向：
 
-当模型公司通过 multi-year compute commitments、dedicated campuses、chip selection、capacity reservation 与长期 cloud agreement 提供更高 revenue visibility 时，它们已经不只是“购买现成算力”。
+> **model-company commitment → revenue visibility → financing certainty → earlier cloud / data-center / power / chip buildout**
 
-它们开始影响：
-
-- data-center investment timing；
-- cloud custom-silicon roadmap；
-- accelerator / HBM / packaging reservation；
-- power procurement；
-- project financing；
-- infrastructure geography。
-
-因此，本报告把这类需求定义为 **Anchor Compute Buyer**。
+真正需要判断的不是 model company 是否“拥有整个 stack”，而是它的 demand 是否足够大、足够长期，从而改变上游 capacity 被 financing、reservation 与 buildout 的时间。
 
 ---
 
-## 2. Anchor Compute Buyer Effect 的核心机制
+## 2. Mechanism：Demand Certainty 成为 Capital-Formation Input
 
 传导链可以写成：
 
@@ -47,7 +38,7 @@
 
 ---
 
-## 3. OpenAI Stargate：必须严格区分 Commitment、Secured、Construction 与 Energized
+## 3. OpenAI / Stargate：Status 比 Headline Scale 更重要
 
 OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。[^1]
 
@@ -74,7 +65,7 @@ OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B
 
 这套状态机与第7章 Power 分析保持一致。
 
-### 3.1 PORTS-Pike：Anchor Demand 正在进一步进入 Land + Power + Shell 与信用支持层
+### 3.1 PORTS-Pike：Anchor Demand 已进入 LPS 与 Credit Support
 
 2026-08-17，NVIDIA 披露与 SB Energy 在 Ohio PORTS-Pike Technology Campus 的合作：NVIDIA 通过 credit support 锁定 land、power 与 shell（LPS）capacity，初始部署设计支持 **4.25 IT-GW** AI factory capacity；OpenAI 将作为客户，SB Energy 负责建设、持有并运营 data center，项目采用对 OpenAI 的 **20 年 lease**。NVIDIA 同时披露，项目计划容量预计从 **2028 年开始分阶段上线**。[^5]
 
@@ -97,7 +88,7 @@ PORTS-Pike 的 **4.25 IT-GW** 与 OpenAI 此前披露的 **>10 GW secured capaci
 
 ---
 
-## 4. Anthropic / AWS：Anchor Workload 可以反向推动 Custom Silicon
+## 4. Anthropic / AWS：Anchor Workload 可以加速 Second Stack
 
 Anthropic 2026-04 官方披露：[^4]
 
@@ -114,7 +105,7 @@ Anthropic 2026-04 官方披露：[^4]
 
 因此，Anchor Buyer 与 Cloud System-Stack Substitution 不是两条彼此独立的机制，而是可以相互强化。
 
-### 4.1 xAI / Colossus：自建基础设施型的 Anchor Buyer
+### 4.1 xAI / Colossus：Self-Built Variant
 
 xAI 是模型公司直接进入基础设施建设的案例。xAI 在 2024-12 的一手更新中披露，**Colossus** 使用 **100,000 颗 NVIDIA Hopper GPU**，并在 **122 天**内达到 fully operational；公司同时表示计划把集群扩展到合计 **200,000 颗 Hopper GPU**。[^7]这一案例能够直接证明的是：模型公司开始自行组织大规模 compute infrastructure，而不再只依赖既有 cloud capacity。
 
@@ -124,7 +115,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 ---
 
-## 5. Anchor Buyer 增强的是 Demand-Side Coordination Power，而不是完整物理所有权
+## 5. Anchor Buyer 增强的是 Coordination Power，不是 Supply-Chain Ownership
 
 模型公司可以影响：
 
@@ -155,7 +146,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 ---
 
-## 6. 长期 Compute Commitment 也会提高 Switching Cost
+## 6. Long-Duration Commitment 会形成 Switching Cost
 
 模型公司采购的不是一张 accelerator card，而是一套完整 system：
 
@@ -186,7 +177,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 ---
 
-## 7. Anchor Buyer Demand 不是固定指数增长函数
+## 7. Anchor Demand 取决于 Efficiency 与 Workload Growth
 
 长期 compute demand 会被两组相反力量同时影响。
 
@@ -226,7 +217,7 @@ Anchor Buyer Demand 不能用简单“每年固定翻倍”外推。
 
 ---
 
-## 8. Anchor Buyer 如何沿产业链传导
+## 8. Anchor Demand 沿完整 Infrastructure Chain 传播
 
 大规模模型需求可以沿完整产业链传播：
 
@@ -252,7 +243,7 @@ Anchor Buyer Demand 不能用简单“每年固定翻倍”外推。
 
 ---
 
-## 9. Anchor Buyer 的最大风险：Customer Concentration + Duration Mismatch
+## 9. Risk：Customer Concentration 与 Duration Mismatch
 
 Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
@@ -281,7 +272,7 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
 ---
 
-## 10. 判断 Anchor Buyer 是否正在强化，应看什么
+## 10. Monitoring Anchor Buyer Strength
 
 ### 强化信号
 
@@ -309,7 +300,7 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
 ---
 
-## 11. 当前判断
+## 11. Current Read
 
 截至 2026 年 8 月，模型公司已经可以被视为 AI infrastructure 的独立 Anchor Buyer category。
 
@@ -321,7 +312,7 @@ OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的
 
 它既可以加速 AI infrastructure 的资本形成，也可以在 utilization 不足时放大 stranded-capacity 与 duration-mismatch risk。
 
-## 12. 什么事实会迫使本章改判
+## 12. 什么事实会改变当前判断
 
 Anchor Compute Buyer Effect 应在以下情况下被下调：
 
