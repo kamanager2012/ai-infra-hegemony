@@ -4,13 +4,13 @@
 
 China's technology position cannot be represented by a single localization rate.
 
-Three distinct questions have to remain separate:
+Three distinct questions must remain separate:
 
 1. **Can domestic consumer-computing systems ship at meaningful scale?**
 2. **Can PC / workstation systems sustain software compatibility, performance, and commercial scale?**
 3. **Can a frontier AI stack operate production workloads and continue advancing when critical external inputs are constrained?**
 
-Evidence from one threshold does not close another. A strong smartphone supply chain is not proof of frontier-AI closure; frontier-AI constraints are not proof that China lacks semiconductor substitution capacity.
+Evidence from one threshold does not close the others. A strong smartphone supply chain is not proof of frontier-AI closure; frontier-AI constraints are not proof that China lacks semiconductor substitution capacity.
 
 For frontier AI, two separate tests are required:
 
@@ -35,11 +35,11 @@ Counterpoint Research's 2026 Q1 global smartphone AP-SoC shipment shares show:[^
 
 If commercial scale is measured by actual smartphone-SoC shipments, domestic supply is therefore not limited to Huawei.
 
-Huawei / HiSilicon's more defensible distinction is that its **premium in-house device + SoC + software/ecosystem vertical loop is more mature**, not that it is the only domestic vendor with shipment scale.
+A more defensible distinction for Huawei / HiSilicon is that its **premium in-house device + SoC + software/ecosystem vertical loop is more mature**, not that it is the only domestic vendor with shipment scale.
 
 Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^3] Reuters reported in August 2026 that O1 had powered **more than 1M devices**, while the next-generation O3 continues on TSMC 3 nm with projected initial device shipments of 200k–300k units.[^4]
 
-The claim that Xiaomi has only "200k–300k scraps of capacity" or that the program is merely a branding exercise therefore does not enter the fact layer.
+The claim that Xiaomi has only "200k–300k scraps of capacity," or that the program is merely a branding exercise, therefore does not enter the fact layer.
 
 A better judgment is:
 
@@ -148,7 +148,7 @@ To move HBM from possible R&D into frontier-system supply, the evidence would ne
 
 The same prospectus also requires strict separation between project investment and planned offering proceeds. For the DRAM technology-upgrade project, **RMB18.0B total investment** and **RMB13.0B planned offering proceeds** are different denominators.[^7]
 
-DDR/LPDDR supply expansion and HBM-class memory closure therefore have to remain separate.
+DDR/LPDDR supply expansion and HBM-class memory closure therefore must remain separate.
 
 ### 6.1 Conventional DRAM / NAND can improve before HBM closure
 
@@ -211,7 +211,7 @@ These are foundry **revenue shares**, not advanced-node yield, AI wafer capacity
 
 A frontier AI parallel supply stack requires more than logic dies. It also needs advanced packaging, substrates, HBM integration, yield, high-volume qualification, and power.
 
-Node progress is one necessary condition, not the whole system.
+Node progress is a necessary condition, not the whole system.
 
 ## 8. Algorithmic efficiency can relax hardware constraints without closing the stack
 
@@ -221,7 +221,7 @@ The paper reports **2.664M H800 GPU-hours for pre-training** and **2.788M H800 G
 
 The supported mechanism is that in a supply-constrained environment, sparse architecture, memory efficiency, routing, quantization, and scheduling can improve effective compute productivity.
 
-It does not support the claim that physical supply no longer matters, nor that any constrained system can automatically reproduce the same economics.
+It does not support the claim that physical supply no longer matters, nor that any constrained system can reproduce the same economics automatically.
 
 Algorithmic efficiency is a lever—not a substitute for HBM, packaging, interconnect, and power.
 
@@ -290,7 +290,7 @@ Whether new capacity can ramp, process generations can advance, and installed to
 
 Over the longer run, the same restrictions increase the incentive for domestic substitution, local hardware/software integration, and parallel-ecosystem development.
 
-Export control is therefore not a one-direction variable.
+Export control is therefore not a one-directional variable.
 
 It can widen short-term performance/scale gaps while strengthening the long-run incentive to build a parallel system.
 
@@ -298,7 +298,7 @@ The final outcome depends on R&D efficiency, capital allocation, ecosystem adopt
 
 ## 11. Two closure tests
 
-Treating "production substitution" and "full autonomy" as one threshold creates two opposite analytical errors.
+Treating "production substitution" and "full autonomy" as a single threshold creates two opposite analytical errors.
 
 They should therefore be separated.
 
