@@ -14,7 +14,7 @@ The relevant industrial variable is not only how many leading-edge wafers can be
 
 TSMC's public statements are sufficient to establish advanced-packaging tightness:[^1][^2]
 
-- 4Q24: management described relevant capacity as **very tight** and unable to satisfy all customer demand;
+- 4Q24: management described **CoWoS capacity** as **very tight** and unable to satisfy all customer demand;
 - 2Q26: management stated more directly that packaging capacity was **so tight that now it limits my customers' growth**.
 
 Revenue disclosures must retain their original year-specific labels:
@@ -88,7 +88,7 @@ That evidence must be evaluated directly at the packaging layer.
 
 ## 8. Second stacks do not automatically escape packaging / HBM
 
-Google, AWS, Microsoft, and Meta custom accelerator systems can divert part of NVIDIA's platform profit, but their next-generation systems still rely heavily on advanced logic, HBM, and high-density integration.
+As documented in [Chapter 12](part-II-ch12-hyperscaler-system-stack.md), Google, AWS, Microsoft, and Meta are building custom accelerator systems. The report's mechanism is that such systems can divert workloads from an external platform while still consuming advanced logic, high-bandwidth memory, packaging/integration, networking, and power.
 
 Two effects can therefore coexist:
 
@@ -99,7 +99,7 @@ More custom silicon does not by itself imply lower CoWoS/HBM pressure.
 
 ## 9. Bottleneck location and profit location are different questions
 
-Advanced packaging can be the system-delivery bottleneck without having the highest margin in the value chain. TSMC management stated in 2Q24 that advanced-packaging gross margin had historically been significantly below corporate average and was approaching, but had not yet reached, the company average.[^4]
+Advanced packaging can be the system-delivery bottleneck without having the highest margin in the value chain. TSMC management stated in 2Q24 that advanced-packaging gross margin had historically been significantly below corporate average and was **approaching** the company average.[^4]
 
 Physical bottlenecks and profit pools therefore must remain separate:
 
@@ -134,7 +134,7 @@ That judgment should be weakened if TSMC stops describing packaging as a growth 
 ## References
 
 [^1]: TSMC, 4Q24 Earnings Conference Transcript, advanced packaging and testing >8% of revenue; capacity “very tight,” https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf
-[^2]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^2]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^3]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^4]: TSMC, 2Q24 Earnings Conference Transcript, advanced-packaging margin relative to corporate average, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2024-08/5122725a56670882d777a8e8bfe0ed247cc55330/TSMC%202Q24%20Transcript.pdf
 [^5]: TSMC, 4Q25 Earnings Conference Transcript, corrected 2025 advanced-packaging revenue identity, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
