@@ -2,7 +2,7 @@
 
 ## 1. Transmission, not displacement
 
-AI does not have to consume the same chips as a smartphone, router, console, vehicle, or industrial controller in order to change that end system's economics.
+AI does not need to consume the same chips as a smartphone, router, console, vehicle, or industrial controller in order to change that end system's economics.
 
 The relevant question is **where the two demand pools overlap, directly or indirectly**.
 
@@ -12,7 +12,7 @@ The transmission chain is:
 
 > **AI/server product mix rises → allocation priority changes in shared or adjacent resource pools → Non-AI Residual Capacity and Quantity Assurance change → price / configuration / volume adjust → Product-Mix Polarization → Vendor Operating-Model Adaptation**
 
-This chapter therefore tests **transmission and attribution**. It does not assume that every component-price increase is caused by AI, and it does not require literal one-for-one competition for the same device.
+This chapter therefore tests **transmission and attribution**. It does not assume that every component-price increase is caused by AI, nor does it require literal one-for-one competition for the same device.
 
 ## 2. Memory is the cleanest observed transmission layer
 
@@ -56,7 +56,7 @@ TrendForce's 2026-08-03 **3Q26 forecast** projected that the mobile-DRAM increas
 
 At the same time, TrendForce continued to state that suppliers were shifting capacity toward server / HBM applications.
 
-The more accurate interpretation is therefore:
+A more accurate interpretation is therefore:
 
 > **structural residual pressure remains, but the rate of price increase does not accelerate forever.**
 
@@ -89,7 +89,7 @@ IDC's August 26, 2026 smartphone outlook forecasts:[^30]
 - total market value still increasing **6.3%** to roughly **US$613B**;
 - the sub-US$100 smartphone segment, which still shipped about **173 million units** in 2025, facing severe viability pressure as low-end Android vendors reduce low-price models and move product mix upward.
 
-The key implication is that **unit contraction and revenue resilience can coexist**. The industry does not have to decline uniformly; vendors can sacrifice volume while defending mix, ASP, and margin.
+The key implication is that **unit contraction and revenue resilience can coexist**. The industry does not need to decline uniformly; vendors can sacrifice volume while defending mix, ASP, and margin.
 
 The more defensible three-layer structure is:
 
@@ -99,7 +99,7 @@ The more defensible three-layer structure is:
 
 Gartner's February 2026 outlook points in the same direction: it expects PC lifetimes by year-end 2026 to extend by roughly **15% for business buyers** and **20% for consumers**, and argues that the sub-US$500 entry PC segment could become economically unviable by 2028.[^32] This remains a **B-grade institutional forecast**, not an observed terminal state.
 
-The correct interpretation is therefore not that all end-system specifications freeze together:
+The correct interpretation is therefore not that all end-system specifications freeze together, but that:
 
 > **premium devices can keep advancing at higher prices and smaller volumes; mid-range devices absorb the constraint through slower upgrades and longer lives; entry tiers carry the highest exit risk.**
 
@@ -168,7 +168,7 @@ When memory, advanced logic, and adjacent manufacturing resources are repriced o
 
 Sony already provides a strong first-party example: its FY26 PS5 hardware planning explicitly links memory procurement at reasonable prices to unit sales, promotional plans, and hardware profitability.[^27] IDC and Gartner forecasts for smartphones and PCs show the same broader combination of **higher ASP + lower units + premiumization + longer replacement cycles**.[^30][^31][^32]
 
-The vendor problem is therefore not whether consumers can tolerate slower upgrades. It is:
+The vendor problem is therefore not whether consumers can tolerate slower upgrades, but:
 
 > **How does a company built around annual hardware improvement and scale expansion continue to cover fixed cost, channels, and product cadence after scarce upstream resources are repriced under a different return structure?**
 
@@ -305,7 +305,7 @@ The ability to absorb the shock depends on:
 - supplier relationships;
 - end-market pricing power.
 
-This is why the same memory shortage can damage a premium global brand and a smaller OEM very differently.
+This is why the same memory shortage can affect a premium global brand and a smaller OEM very differently.
 
 ### 7A. Hardware constraint raises the value of software efficiency, but does not automatically make software lean
 
