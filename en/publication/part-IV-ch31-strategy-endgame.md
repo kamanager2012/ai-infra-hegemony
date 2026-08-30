@@ -70,7 +70,7 @@ This is the fundamental variable determining whether capital expansion is econom
 
 Whose balance sheet ultimately supports long-duration compute demand?
 
-By August 2026, compute financing had expanded beyond corporate CapEx into third-party capital, LPS credit support, and seller-assisted financing.[^4][^5]
+By August 2026, compute financing had expanded beyond corporate CapEx into third-party capital and LPS credit support.[^4][^5] This report classifies the supplier equity / credit-support element of such structures as **seller-assisted financing**; that is a report-side analytical label, not wording used in the underlying NVIDIA releases.
 
 The report therefore separates:
 
@@ -85,7 +85,7 @@ The long-run question is:
 
 > **Can AI infrastructure evolve from expansion that requires continuing seller / sponsor support into an asset system underwritten by independent workload cash flow and long-duration capital?**
 
-The full S1–S4 definitions belong in [Chapter 30](part-IV-ch30-scenarios.md).
+The full S1–S4 definitions belong in [Chapter 30 — Scenario Framework: S1–S4](part-IV-ch30-scenarios.md).
 
 ### 2A. The same asset or capability changes value across S1–S4
 
@@ -123,9 +123,9 @@ The main reasons are:
 - leading system-platform economics remain strong;[^1]
 - advanced packaging remains a publicly confirmed growth constraint;[^2]
 - HBM / server memory continues to exert strong pressure on manufacturing resources;[^3]
-- cloud custom systems are a real second route but have not demonstrated comprehensive replacement of frontier workloads;
-- power has become an independent physical constraint;
-- China's frontier parallel stack continues to iterate with partial production deployment, but under Chapter 17's seven Production-Grade Gates a complete production-grade frontier closure remains unconfirmed by public evidence;
+- cloud custom systems are a real second route, but [Chapter 12](part-II-ch12-hyperscaler-system-stack.md) does not establish comprehensive replacement of frontier workloads;
+- power is treated as an independent physical constraint under the delivery-state framework in [Chapter 7](part-I-ch07-power-constraint.md);
+- China's frontier parallel stack continues to iterate with partial production deployment; [Chapter 17](part-II-ch17-china-parallel-stack.md) separates seven **Production-Grade Gates** from the additional continuity tests required for **Autonomous Frontier Closure**, and public evidence does not establish completion of either full test;
 - synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
 
 This is not a fixed ten-year forecast.
@@ -375,15 +375,15 @@ This chapter does not offer a fixed ten-year end-state. It offers a set of strat
 
 ## Cross-references
 
-- [Chapter 25 — AI and Labor Markets](part-III-ch25-labor-market.md)
-- [Chapter 26 — Education and Talent Systems](part-III-ch26-education-talent.md)
-- [Chapter 30 — The Four Standard Scenarios](part-IV-ch30-scenarios.md)
-- [Chapter 32 — Master Judgment](part-IV-ch32-master-judgment.md)
+- [Chapter 25 — AI and Labor Markets: The Task-to-Job Translation Layer](part-III-ch25-labor-market.md)
+- [Chapter 26 — Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md)
+- [Chapter 30 — Scenario Framework: S1–S4](part-IV-ch30-scenarios.md)
+- [Chapter 32 — Master View](part-IV-ch32-master-judgment.md)
 
 ## References
 
 [^1]: NVIDIA, FY27 Q2 official results, current system-platform economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^2]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging supply constraint, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^2]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging supply constraint, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^5]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
