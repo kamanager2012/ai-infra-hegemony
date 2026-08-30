@@ -120,36 +120,36 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 
 ## Part I — System Power and Physical Scarcity
 
-1. [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
+1. [Executive Summary](part-I-ch01-executive-summary.md)
 2. [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md)
-3. [AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [AI Resource Reallocation and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md)
 5. [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md)
 6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md)
 7. [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md)
-8. [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)
+8. [Quantification Boundaries — What Can Be Measured, What Cannot, and Why](part-I-ch08-quantitative-framework.md)
 9. [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
 10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
 11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md)
-12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
+12. [The Second System Stack — Hyperscaler Substitution Economics](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
 16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
-17. [China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
+17. [China's Parallel Stack — Production-Grade Substitution vs. Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
 18. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md)
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
-19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
+19. [AI Infrastructure Capital Formation, Duration Mismatch, and the Utilization Test](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
-21. [Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
+21. [How AI Reprices Consumer Electronics and Other End Systems](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
-24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
+24. [Capital Clearing — Lead Indicators, Demand Quality, and S4](part-III-ch24-capital-clearing.md)
 25. [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md)
 26. [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md)
 
@@ -157,10 +157,10 @@ Ch25–Ch26 (labor and education) are **second-order transmission / extended-imp
 
 27. [Research Method and Evidence Architecture](part-IV-ch27-research-method.md)
 28. [2026–2036 Timeline and Conditional Milestones](part-IV-ch28-timeline-2026-2036.md)
-29. [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md)
-30. [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md)
+29. [Monitoring Dashboard — State Variables, Inflection Tests, and Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
+30. [Scenario Discrimination — S1 to S4](part-IV-ch30-scenarios.md)
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
-32. [Master Judgment — From Facts and Mechanisms to Falsifiable Long-Run Conclusions](part-IV-ch32-master-judgment.md)
+32. [Master View — What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
 ## Research Appendices
 
@@ -1992,22 +1992,24 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 
 ---
 
-# Part I · Chapter 8: Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade
+# Part I · Chapter 8: Quantification Boundaries — What Can Be Measured, What Cannot, and Why
 
-## 1. The purpose of quantification is not to manufacture false precision
+## 1. Quantification starts with denominator closure
 
-The most common quantitative error in AI-infrastructure research is to connect different physical pools, accounting categories, and evidence grades into one apparently complete but unauditable total model.
+The first quantitative task is not to produce a point estimate. It is to determine whether the numerator, denominator, physical unit, delivery window, and evidence identity can actually be closed.
 
-This report allows four classes of quantitative work into the main argument:
+AI-infrastructure research becomes unreliable when front-end wafers, HBM bits, package starts, energized MW, accounting CapEx, and seller commitments are connected into one synthetic total without preserving their dimensions.
+
+The report therefore permits four quantitative classes in the main argument:
 
 1. **Compute / memory intensity**;
-2. **Rack-scale material demand**;
-3. **Explicit packaging / power stress tests**;
+2. **Rack-scale material or power intensity**;
+3. **Layer-specific stress tests**;
 4. **Capacity / commitment / utilization indicators**.
 
-Any link that cannot be closed with public data remains a parameter rather than being filled with an invented point estimate.
+If a public denominator cannot be closed, the variable remains a parameter or proxy. The report does not fill the gap with a point estimate simply to make the model look complete.
 
-## 2. Roofline: why frontier inference cannot be compared through FLOPS alone
+## 2. Roofline: peak FLOPS is not a workload denominator
 
 The core Roofline relationship is:
 
@@ -2023,7 +2025,7 @@ Autoregressive inference repeatedly reads model state, KV cache, routing, and ac
 
 This is why HBM, interconnect, and compute have to be analyzed as one system rather than interpreting frontier inference from peak compute alone.
 
-## 3. Algorithmic architecture changes the demand function without deleting physical constraints
+## 3. Algorithmic efficiency changes resource intensity, not the measurement discipline
 
 Algorithm and architecture choices can change:
 
@@ -2038,7 +2040,7 @@ Public cases such as DeepSeek-V3 / V2 show that architecture improvements can si
 
 But a changed demand function does not eliminate physical constraints. Whether higher efficiency reduces aggregate infrastructure demand still depends on workload volume and demand elasticity.
 
-## 4. Formal-training compute conversion is not full R&amp;D cost
+## 4. Training-run arithmetic is not company R&amp;D cost
 
 DeepSeek-V3 reports **2.788M H800 GPU-hours** for full formal training, and the paper uses a **US$2/GPU-hour** rental-cost assumption.[^1]
 
@@ -2050,7 +2052,7 @@ This is only a formal-training compute conversion. It excludes research iteratio
 
 The US$5.576M figure can therefore be used as a public training-run scale anchor, but not as "the full company cost of one frontier model."
 
-## 5. Rack-scale specifications quantify system intensity, not industry shipment demand
+## 5. System specifications support intensity analysis, not fleet-size inference
 
 The official GB200 NVL72 configuration is:[^3]
 
@@ -2069,7 +2071,7 @@ Therefore:
 
 Where shipment or deployment cannot be closed from public evidence, the formal report prefers seller commitments, vendor supply guidance, customer contracts, lead times, utilization, and other observable indicators over synthetic fleet-size arithmetic.
 
-## 6. The HBM trade ratio amplifies bit-demand pressure on wafer input
+## 6. HBM: bit demand and wafer input are different denominators
 
 Micron FY24 Q2 prepared remarks provide an important first-party boundary:
 
@@ -2079,7 +2081,7 @@ Bit demand and manufacturing input are therefore not one-to-one. As HBM bit shar
 
 The 3× figure is not a fixed Micron-fab MES constant and cannot be mechanically extrapolated into a permanent HBM4/HBM5 ratio.
 
-## 7. Packaging must be quantified in its own physical unit
+## 7. Advanced packaging requires its own physical unit
 
 Advanced-packaging analysis should use observable or source-bounded variables such as qualified capacity, lead time, allocation fulfillment, package starts, or supplier guidance.
 
@@ -2087,7 +2089,7 @@ The report does not use a synthetic "CoWoS wafers per rack" factor to infer ship
 
 Front-end wafers, back-end packaging capacity, HBM bits, and energized MW are different physical pools and must remain dimensionally separate.
 
-## 8. AI Capacity Gap: first ask whether effective supply is short now
+## 8. Absolute Capacity Gap: is the layer short now?
 
 For each physical layer (i), define:
 
@@ -2122,7 +2124,7 @@ Interpretation:
 
 ---
 
-## 9. Capacity Growth Gap describes direction, not the current shortage
+## 9. Capacity Growth Gap: is the imbalance widening or closing?
 
 Define:
 
@@ -2148,7 +2150,7 @@ A market can still be short while supply is catching up rapidly, or still have s
 
 ---
 
-## 10. Non-AI Residual Capacity answers a different question
+## 10. Non-AI Residual Capacity is a different denominator
 
 AI Capacity Gap measures the AI side.
 
@@ -2169,7 +2171,7 @@ AI Capacity Gap, AI Capacity Growth Gap, and Non-AI Residual Capacity are theref
 
 ---
 
-## 11. Power must also be quantified with state and physical boundaries
+## 11. Power requires both quantity and delivery state
 
 Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
 
@@ -2193,7 +2195,7 @@ Contracted or secured capacity is not energized capacity; energized capacity is 
 
 This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
 
-## 12. When shipment cannot be closed, Forward Commitment is more useful than an invented shipment model
+## 12. When shipment is unobservable, use bounded forward indicators
 
 NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as follows:[^6]
 
@@ -2207,7 +2209,7 @@ The figure cannot identify how much goes to any individual supplier, but it is a
 
 When customer-level HBM bits, CoWoS allocation, and rack shipment are unavailable, forward commitments are more informative than "revenue divided by an invented rack price."
 
-## 13. Measure incremental scarce-capacity access separately for every physical layer
+## 13. Scarce-capacity access must remain layer-specific
 
 The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into one composite "capture ratio."
 
@@ -2241,7 +2243,7 @@ The quantitative rule is therefore:
 
 &gt; **Calculate what can be closed; use explicit proxies where closure is partial; do not fill a missing denominator with a point estimate.**
 
-## 14. Five risk classes should be separated before testing for cascade
+## 14. Separate risk classes before testing for cascade
 
 System risk in AI infrastructure can be divided into:
 
@@ -2253,7 +2255,7 @@ System risk in AI infrastructure can be divided into:
 
 One risk does not equal an industry-wide crisis. The more dangerous state is when several clocks begin to reinforce one another.
 
-## 15. Rolling Bottleneck Cascade
+## 15. Rolling Bottleneck Cascade is a state transition, not a shortage slogan
 
 AI-infrastructure bottlenecks rotate rather than remaining permanently fixed at one layer.
 
@@ -2269,7 +2271,7 @@ This is the **Rolling Bottleneck Cascade**.
 
 It explains why easing HBM does not prove that AI infrastructure has no constraints, and why power becoming a bottleneck does not mean semiconductor constraints have disappeared permanently.
 
-## 16. Capital return must place all duration clocks into one equation
+## 16. Capital return has to reconcile different asset clocks
 
 A minimal economic relationship is:
 
@@ -2295,7 +2297,7 @@ The full report maintains the following hard boundaries:
 - institutional forecast ≠ company actual;
 - one physical pool ≠ another physical pool.
 
-## 18. The most reliable quantitative sequence
+## 18. Preferred quantitative workflow
 
 The report follows this sequence:
 
@@ -2874,16 +2876,16 @@ The next question is whether system definition can continue to translate into lo
 
 ---
 
-# Part II · Chapter 12: Hyperscaler System-Stack Competition
+# Part II · Chapter 12: The Second System Stack — Hyperscaler Substitution Economics
 
-## 1. Competition has moved from ASIC vs. GPU to System Stack vs. System Stack
+## 1. The substitution test is economic, not architectural
 
-Describing Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA as "a few ASICs challenging GPUs" no longer captures the 2026 competitive state.
+The relevant question is no longer whether a hyperscaler can design an ASIC. It is whether an alternative stack can **carry production workload at acceptable TCO, migration cost, reliability, and scale**.
 
-The relevant unit includes at least:
+Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore have to be evaluated as system stacks:
 
 - accelerator;
-- HBM;
+- HBM / memory subsystem;
 - compiler/runtime;
 - scale-up fabric;
 - scale-out network;
@@ -2891,11 +2893,9 @@ The relevant unit includes at least:
 - orchestration;
 - production workload.
 
-This report uses **Cloud System-Stack Substitution** to describe the change.
+The report uses **Cloud System-Stack Substitution** as shorthand for this economic substitution test. A benchmark win is not enough. The stack has to survive production utilization, software friction, and workload-specific system economics.
 
-The metric is not a single-chip benchmark. It is whether an alternative system can deliver sufficiently low TCO, acceptable migration cost, and stable large-scale utilization on real workloads.
-
-## 2. The hyperscaler's unique advantage: it is its own first large customer
+## 2. Captive workload is the hyperscaler's structural advantage
 
 The structural difference between the major clouds and an ordinary chip startup is that hyperscalers simultaneously possess:
 
@@ -2915,7 +2915,7 @@ That produces a powerful learning loop:
 
 &gt; **internal workload → production feedback → system optimization → lower TCO → more internal workload**
 
-## 3. Google: TPU is already a combination of chip, software, interconnect, and pod
+## 3. Google: TPU is already a system stack
 
 Google's TPU path spans multiple generations.
 
@@ -2927,7 +2927,7 @@ Google's competitive unit is therefore:
 
 If this system continuously lowers total cost of ownership for selected training or inference workloads, it can divert part of NVIDIA's platform profit even without becoming the universal development platform for the entire industry.
 
-## 4. AWS: Trainium combines silicon, Neuron, and UltraServer
+## 4. AWS: Trainium is a silicon + software + server architecture
 
 AWS Trainium has likewise moved from accelerator toward system.
 
@@ -2939,7 +2939,7 @@ But "having an anchor workload" is not the same as replacing NVIDIA's external e
 
 The variables that still need to be tested include large-cluster scaling, utilization, software maturity, migration cost, and external-customer adoption.
 
-## 5. Microsoft: Maia's value depends on scaled Azure deployment, not copying all of CUDA
+## 5. Microsoft: Maia only matters if Azure-scale economics close
 
 The correct standard for Microsoft Maia 200 is not whether it supports every model on day one.[^4]
 
@@ -2958,7 +2958,7 @@ If those conditions hold across a large enough captive workload, Maia can divert
 
 Becoming a general external substitute would require lower migration cost and a wider ecosystem.
 
-## 6. Meta: MTIA shows that narrow-workload specialization can be a valid route
+## 6. Meta: specialization can substitute without full generality
 
 Meta operates very large recommendation, ranking, and generative-AI workloads.
 
@@ -2970,7 +2970,7 @@ The economic objective is:
 
 MTIA does not need to beat general-purpose GPUs across every workload to create value.
 
-## 7. Cloud custom systems create two simultaneous effects on NVIDIA
+## 7. Substitution creates profit diversion and upstream competition at the same time
 
 ### 7.1 Platform-profit diversion
 
@@ -2988,7 +2988,7 @@ The combined result is:
 
 The two effects are not contradictory.
 
-## 8. Cloud CapEx is not synonymous with NVIDIA revenue
+## 8. Cloud CapEx is not a proxy for NVIDIA revenue
 
 Hyperscaler CapEx includes custom silicon, third-party accelerators, networking, memory, data centers, power, offices, fulfillment assets, and other categories. Fiscal periods, PPE definitions, and lease accounting also differ across companies.
 
@@ -3000,7 +3000,7 @@ Higher CapEx can support NVIDIA shipments while also accelerating systems design
 
 The four-cloud CapEx numbers cannot be compared directly with NVIDIA revenue to construct an "AI compute tax rate."
 
-## 9. Algorithmic efficiency is an independent variable, not part of the custom-silicon evidence chain
+## 9. Algorithmic efficiency is a separate substitution variable
 
 Algorithmic and architectural efficiency directly affects system demand, but it is a different competitive axis from hyperscaler custom silicon.
 
@@ -3017,7 +3017,7 @@ DeepSeek training-cost, architecture-efficiency, and unit-intelligence economics
 
 ---
 
-## 10. What would count as real System-Stack Substitution
+## 10. What counts as real system-stack substitution
 
 Single-chip benchmarks are not enough.
 
@@ -3042,7 +3042,7 @@ But broader erosion of an external general-purpose platform additionally require
 
 ---
 
-## 10A. Two levels of substitution: internal economics and external ecosystem
+## 10A. Two substitution thresholds: internal economics and external ecosystem
 
 A cloud custom system can succeed at two distinct levels.
 
@@ -3074,7 +3074,7 @@ Therefore:
 
 Internal success can still materially change hyperscaler procurement, bargaining power, and long-run platform-profit distribution.
 
-## 11. The long-run equilibrium is more likely to be workload segmentation
+## 11. The likely equilibrium is workload segmentation
 
 The most realistic long-run structure may not be one side eliminating the other.
 
@@ -3103,7 +3103,7 @@ The boundary will move with software maturity, memory supply, interconnect, work
 
 ---
 
-## 12. Current judgment
+## 12. Current read
 
 As of August 2026, the most defensible description is:
 
@@ -3119,7 +3119,7 @@ Therefore:
 
 Its strength must be measured through production workload share, migration cost, utilization, external adoption, and upstream-resource dependence—not product-launch count.
 
-## 13. Falsification boundary: what would force this chapter to change
+## 13. What would change the view
 
 Cloud System-Stack Substitution should be downgraded if custom systems remain confined to small internal workloads and the following conditions persist:
 
@@ -4584,21 +4584,23 @@ Conversely, a headline fine is not what should increase regulatory weighting. Th
 
 ---
 
-# Part III · Chapter 19: The AI-Infrastructure CapEx Supercycle
+# Part III · Chapter 19: AI Infrastructure Capital Formation, Duration Mismatch, and the Utilization Test
 
-## 1. CapEx size is not the only issue; denominator consistency comes first
+## 1. The question is capital formation, not one headline CapEx total
 
-Microsoft, Amazon, Alphabet, and Meta are all spending at historically high infrastructure levels, but their fiscal periods, PPE definitions, finance-lease treatment, and net-purchase metrics are not identical.
+The industry is clearly in a high-investment regime. The harder question is **what capital is being formed, on whose balance sheet, over what economic life, and whether productive workload is growing fast enough to carry it**.
 
-This report preserves three separations:
+Microsoft, Amazon, Alphabet, and Meta do not report one comparable "AI CapEx" measure. Their fiscal periods, PPE definitions, lease treatment, and net-purchase metrics differ.
 
-1. company-wide CapEx vs. AI-specific CapEx;
+Three separations are mandatory:
+
+1. company-wide CapEx vs. AI-specific investment;
 2. IT equipment vs. data-center / power infrastructure;
-3. actual CapEx vs. guidance / expectation.
+3. actual investment vs. guidance / expectation.
 
-There is therefore no official "four-cloud AI hardware CapEx" that can be obtained simply by adding the companies' headline numbers.
+The analysis therefore starts from denominator identity, then moves to duration mismatch and utilization. A mechanically summed "four-cloud AI hardware CapEx" would obscure all three.
 
-## 2. Current 2026 capital-expansion anchors
+## 2. Public 2026 capital anchors
 
 **Table 19.1 — Public 2026 capital-spending metrics for the four major clouds**
 
@@ -4616,7 +4618,7 @@ Taken together, these public disclosures indicate that infrastructure investment
 
 They cannot be mechanically added because three are guidance / expectations while Amazon is TTM actual, and the accounting periods and categories differ.
 
-## 2A. Corporate CapEx is no longer the full denominator of AI-infrastructure capital formation
+## 2A. Corporate CapEx is only one funding channel
 
 By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx.
 
@@ -4635,7 +4637,7 @@ Therefore:
 
 The new compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.
 
-## 3. Why CapEx creates long-duration lock-in
+## 3. Duration mismatch is the core balance-sheet risk
 
 AI infrastructure is not one server purchase.
 
@@ -4649,7 +4651,7 @@ It combines assets with very different durations:
 
 This creates a **duration mismatch** between technology iteration speed and infrastructure economic life.
 
-## 4. Sellers and buyers reproduce capital in different ways
+## 4. Sellers and buyers carry different capital risks
 
 NVIDIA's cash generation is more directly linked to inventory, capacity reservation, supply commitments, and next-generation roadmaps.
 
@@ -4661,7 +4663,7 @@ It is:
 
 &gt; **How directly can each dollar of capital improve next-generation scarce-resource access and productive utilization?**
 
-## 5. Power stretches the capital cycle from the Hardware Clock to the Infrastructure Clock
+## 5. Power couples the hardware clock to the infrastructure clock
 
 As rack density rises, expansion depends on more than server procurement.
 
@@ -4671,7 +4673,7 @@ The semiconductor clock and the power-permitting clock therefore become coupled.
 
 When chip supply improves but energized capacity remains insufficient, the bottleneck can shift from manufacturing toward Time-to-Power.
 
-## 6. The difference between a supercycle and a bubble is utilization
+## 6. Utilization is the first economic test of the capital cycle
 
 High CapEx can represent high-return expansion or overbuild.
 
@@ -4679,7 +4681,7 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
-## 6A. Demand duration: AI is layered onto a global digital installed base rather than starting from zero
+## 6A. Demand duration: AI inherits a global digital installed base
 
 If AI-infrastructure demand came only from frontier-model scaling, major algorithmic efficiency gains, model compression, or one large supply expansion could shorten the capital cycle materially.
 
@@ -4702,7 +4704,7 @@ This is why **large efficiency gains and long-run growth in aggregate infrastruc
 
 This mechanism is not a guarantee of permanent demand. If AI fails to produce sufficiently low-cost, reliable, verifiable workflow output, the digital installed base remains potential TAM rather than realized utilization or cash flow.
 
-## 7. Five classes of leading capital-clearing signals
+## 7. Leading signals of capital-cycle reversal
 
 A CapEx-cycle turn cannot be judged from stock prices alone.
 
@@ -4716,7 +4718,7 @@ This report tracks:
 
 Only broad, persistent deterioration across **multiple causally independent classes**, with cross-actor / cross-layer confirmation, is sufficient to move from "ROI pressure" toward "Capital Hard Landing." Accounting is confirmatory / severity evidence rather than a mandatory gate.
 
-## 8. A second-order effect: successful capital expansion raises the future performance hurdle
+## 8. A larger capital base raises the next performance hurdle
 
 A distinctive feature of AI infrastructure is that the more successfully capital expands, the higher the next-stage performance hurdle becomes.
 
@@ -4734,7 +4736,7 @@ That gap helps determine whether the capital cycle continues expanding, normaliz
 
 ---
 
-## 9. Current judgment
+## 9. Current read
 
 As of August 2026, public data still supports:
 
@@ -4746,7 +4748,7 @@ A real turn would require multiple independent signal families across utilizatio
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
 
-## 10. What evidence would force this chapter to change its judgment
+## 10. What would change the view
 
 The thesis that capital expansion remains the dominant regime should be downgraded if the following persist:
 
@@ -5784,23 +5786,23 @@ Additional headline capital targets are not sufficient. The higher-quality confi
 
 ---
 
-# Part III · Chapter 24: Bubble Identification, Capital Clearing, and S4
+# Part III · Chapter 24: Capital Clearing — Lead Indicators, Demand Quality, and S4
 
-## 1. Large CapEx does not by itself prove a bubble
+## 1. The adjudication problem: when does high investment become capital clearing?
 
-AI-infrastructure capital spending is extremely high, but investment size alone cannot prove a bubble.
+Large AI-infrastructure investment is not itself evidence of a bubble, and high seller margins are not evidence that buyer-side economics are healthy.
 
-The relevant question is whether asset buildout persistently outruns utilization, realizable cash flow, and residual value.
+The relevant test is whether **asset formation begins to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**.
 
-This report therefore does not use one CapEx total, one valuation multiple, or one technology-stock drawdown as evidence that the bubble has already burst.
+This chapter therefore does not ask whether AI valuations are high. It asks when the evidence is strong enough to move the scenario framework from S2-style expansion toward **S4 — Capital Hard Landing**.
 
-S4 Capital Hard Landing requires synchronized deterioration across multiple industrial signals.
+One CapEx total, one valuation multiple, one stock drawdown, or one impairment is not sufficient. The decision depends on lead indicators, cross-signal confirmation, and causal breadth.
 
-## 2. Five classes of clearing signals
+## 2. Lead and lag indicators of clearing
 
 These signal families operate on different lead/lag clocks. **Market Clearing, Utilization / Revenue, Forward Commitment, and Demand Quality / Financing can deteriorate before financial statements recognize losses; Accounting is usually a lagging confirmation / severity signal.** The framework therefore does not wait for impairment before increasing S4 weight.
 
-### 2.1 Accounting
+### 2.1 Accounting: lagging confirmation
 
 The slowest but hardest evidence comes from formal recognition:
 
@@ -5817,7 +5819,7 @@ For example, H20-related charges affected NVIDIA FY26 results, but GAAP gross ma
 
 One-time charges and releases have to remain separate from long-run system economics.
 
-### 2.2 Utilization / Revenue
+### 2.2 Utilization / Revenue: the operating test
 
 The capital cycle ultimately has to be paid for by effective workloads.
 
@@ -5833,7 +5835,7 @@ It is:
 
 &gt; **the asset base keeps growing while cash-generating effective workload does not grow with it.**
 
-### 2.3 Market Clearing
+### 2.3 Market Clearing: the earliest price signal
 
 Markets often show easing before financial statements.
 
@@ -5851,7 +5853,7 @@ If a new generation rapidly displaces an older one, economic depreciation can mo
 
 Persistent resale discounts and shorter lead times are therefore more meaningful signs of de-stocking than a stock-market drawdown alone.
 
-### 2.4 Forward Commitment
+### 2.4 Forward Commitment: the next-cycle signal
 
 The next round of expansion depends on hyperscaler CapEx guidance, NVIDIA manufacturing/supply/capacity commitments, long-duration model-company compute contracts, and power commitments.
 
@@ -5863,7 +5865,7 @@ The current trajectory looks more like continued forward resource reservation th
 
 **That statement only rejects the claim that broad cancellation has already occurred; it does not establish healthy independent end demand, healthy buyer ROI, or high financing quality.** Forward commitments must be read together with Section 7 on Demand Quality / Supplier-Assisted Financing.
 
-## 3. Chapter 19 owns the CapEx denominator; this chapter tracks whether direction reverses
+## 3. The signal is divergence, not a synthetic global CapEx total
 
 The four major hyperscalers do not report CapEx / PPE / finance-lease investment on one identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
 
@@ -5882,7 +5884,7 @@ Therefore:
 &gt; **Bubble detection does not require one global AI-CapEx total. It requires evidence that capital expansion, utilization, and forward commitments are beginning to diverge systematically.**
 
 See [Chapter 19 — The AI Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md).
-## 4. Sellers and buyers operate on different capital clocks
+## 4. Seller economics and buyer ROI clear on different clocks
 
 NVIDIA is a system seller. Hyperscalers are asset buyers.
 
@@ -5896,7 +5898,7 @@ Strong seller margin does not prove healthy buyer-side ROI.
 
 Buyer-side ROI pressure also does not imply seller economics collapse in the same quarter.
 
-## 5. Algorithmic efficiency matters relative to workload growth
+## 5. Efficiency only matters relative to workload growth
 
 Infrastructure demand can be expressed at a high level as:
 
@@ -5923,7 +5925,7 @@ The variables that matter are observable:
 
 Lower model prices or higher algorithmic efficiency do not, by themselves, prove overcapacity.
 
-## 6. Anchor Compute Buyers are now an additional leading indicator
+## 6. Anchor Compute Buyers add a new leading indicator
 
 OpenAI Stargate, Anthropic/AWS, and other long-duration capacity commitments raise model companies from ordinary tenants into infrastructure Anchor Buyers.
 
@@ -5940,7 +5942,7 @@ They include:
 
 If those variables weaken alongside buyer utilization and market-clearing prices, the evidence for Capital Hard Landing strengthens materially.
 
-## 7. Demand Quality: separate organic workload from supplier-assisted financing
+## 7. Demand Quality: distinguish independent demand from supplier-assisted financing
 
 When a system seller also participates through customer equity investment, credit enhancement, LPS support, or infrastructure finance, seller-side order visibility cannot be treated as identical to independently financed end demand.
 
@@ -5965,7 +5967,7 @@ Healthy utilization can make seller-assisted financing an accelerator of real bu
 
 Weak utilization combined with rising supplier support should reduce the evidentiary weight of forward commitments.
 
-## 8. Clearing order follows asset duration
+## 8. Clearing propagates by asset duration
 
 Short-cycle assets clear first; long-cycle assets clear later.
 
@@ -5979,7 +5981,7 @@ Power plants, substations, and data-center shells do not disappear like GPU inve
 
 They can be repriced, sold, renegotiated, or become scarce again in the next concentration cycle.
 
-## 9. What qualifies as S4 Capital Hard Landing
+## 9. S4 adjudication rule
 
 This report upgrades S4 from stress test to the current main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups below are monitoring families, not a five-of-five checklist:
 
@@ -5995,7 +5997,7 @@ Judgment is cumulative: each signal updates at its own disclosure frequency per 
 
 But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 
-## 10. Current judgment
+## 10. Current read
 
 As of August 2026, public evidence is still closer to:
 
@@ -6851,23 +6853,21 @@ Until these thresholds are much clearer, 2036 should remain a conditional cross-
 
 ---
 
-# Part IV · Chapter 29: Core Metrics and Evidence-Monitoring Framework
+# Part IV · Chapter 29: Monitoring Dashboard — State Variables, Inflection Tests, and Scenario Reweighting
 
-## 1. Long-run research has to be designed as an updateable system
+## 1. The monitoring problem: which state variables can actually change the view?
 
-Seller economics, CapEx, HBM, packaging, foundry allocation, power, regulation, and system substitution all change quickly.
+A long-horizon report is useful only if later evidence can change its conclusions.
 
-The report's conclusions therefore have to be designed for continuous updating rather than being valid only on the publication date.
+The monitoring framework therefore tracks **state variables**, not news volume. Each new observation has to answer three questions:
 
-Here, an “updateable system” means a **governed research-update process**: new evidence is reclassified by evidence identity, mapped to the affected mechanism, and then assessed for scenario-weight implications. It is **not** an automated data pipeline, and the report does not claim that ledger IDs or hypothesis numbers mechanically bind the prose or trigger automatic recalculation.
+1. **What changed in the fact layer?**
+2. **Which mechanism variable did that change?**
+3. **Is the move material and persistent enough to reweight S1–S4?**
 
-Every update should answer only three questions:
+This is a governed research-update process, not an automated trading model. The purpose of the dashboard is to prevent one headline, one forecast revision, or one accounting event from being mistaken for a structural regime change.
 
-1. **Which fact changed?**
-2. **Which mechanism variable did it change?**
-3. **Is the change large enough to alter S1–S4 weighting?**
-
-## 2. Dashboard A — Seller Economics / Forward Reservation
+## 2. Dashboard A — Seller Economics and Forward Reservation
 
 ### NVIDIA current anchors
 
@@ -6897,7 +6897,7 @@ These metrics ask whether the system seller still has enough cash generation and
 
 The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
 
-## 3. Dashboard B — Foundry / Packaging
+## 3. Dashboard B — Foundry and Packaging
 
 ### TSMC 2025
 
@@ -6945,7 +6945,7 @@ SK hynix FY25:[^6]
 
 These indicators help test whether HBM product mix continues to absorb DRAM manufacturing input and whether conventional-DRAM residual capacity is loosening.
 
-## 5. Dashboard D — Hyperscaler CapEx
+## 5. Dashboard D — Capital Formation
 
 For Microsoft, Amazon, Alphabet, and Meta, preserve separately:
 
@@ -6961,7 +6961,7 @@ It is whether new capital continues flowing into servers, networking, memory, cu
 
 Non-comparable accounting definitions must not be mechanically added into an official AI-hardware CapEx total.
 
-## 6. Dashboard E — Power State Machine
+## 6. Dashboard E — Power Delivery State
 
 **Table 29.2 — Power project state machine**
 
@@ -6988,7 +6988,7 @@ The variables that need updating are each project's transition from secured / co
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate.
 
-## 7. Dashboard F — System-Stack Substitution
+## 7. Dashboard F — Second-Stack Substitution
 
 For Google / AWS / Microsoft / Meta, track:
 
@@ -7002,7 +7002,7 @@ For Google / AWS / Microsoft / Meta, track:
 
 A single-chip benchmark is not sufficient evidence of system substitution.
 
-## 8. Dashboard G — China's Parallel Stack
+## 8. Dashboard G — China Closure Tests
 
 Track two different levels rather than one localization rate.
 
@@ -7030,7 +7030,7 @@ Then separately track:
 
 Production deployment can strengthen the first level without proving the second.
 
-## 9. Dashboard H — Regulation
+## 9. Dashboard H — Regulatory State
 
 Use one legal-state machine:
 
@@ -7044,7 +7044,7 @@ Do not convert:
 
 The variables capable of changing the scenario are interface openness, tying restrictions, access / supply remedies, and structural change.
 
-## 10. Dashboard I — Capital Clearing
+## 10. Dashboard I — Capital Clearing and Demand Quality
 
 ### Accounting
 
@@ -7068,7 +7068,7 @@ Customer cash generation, third-party risk capital, supplier equity / credit sup
 
 S4 should move from stress test toward the main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups are monitoring families, not a mandatory five-of-five gate; Accounting is confirmation / severity evidence, not a prerequisite.
 
-## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
+## 10A. Dashboard J — End-System Residual Pressure
 
 If the report's downstream question is whether important end systems can still obtain enough, stable, affordable resources on their own product cadence, the monitoring framework cannot stop at seller economics, HBM, packaging, and power.
 
@@ -7118,7 +7118,7 @@ Dashboard J does not independently determine S1–S4. It tests whether:
 
 &gt; **upstream scarcity / concentration is actually transmitting into end-system upgrade tax and supply-assurance pressure.**
 
-## 11. Evidence-grade quick rules
+## 11. Evidence-weighting rules
 
 **Table 29.4 — Default evidence grade for report updates**
 
@@ -7136,7 +7136,7 @@ Every update preserves the original evidence grade.
 
 A newer number does not automatically become stronger evidence.
 
-## 12. Scenario-weighting update rules
+## 12. Scenario reweighting rules
 
 ### Move toward S1
 
@@ -7154,7 +7154,7 @@ Multiple independent families among utilization/revenue, market clearing, forwar
 
 Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
 
-## 12A. Monitoring discipline: materiality and persistence must follow the variable's own clock
+## 12A. Materiality and persistence follow each variable's own clock
 
 The report does **not** impose one universal rule such as "two quarters" or "three months" across all variables.
 
@@ -7182,7 +7182,7 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 - **Toward S4:** multiple causally independent signal families deteriorate broadly and persistently across actors/layers; at least one real-economy / market / commitment signal must be present, while Accounting is confirmatory rather than mandatory;
 - **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
 
-## 12B. Five headline inflection tests for the next decade
+## 12B. Five headline inflection tests
 
 For readers who want a fast way to judge whether the long-run structure is changing, Dashboards A–J can be compressed into five headline tests. These are not a new model and they do not impose one universal numeric threshold.
 
@@ -7203,7 +7203,7 @@ For readers who want a fast way to judge whether the long-run structure is chang
 
 These five tests deliberately avoid arbitrary universal rules such as “eight quarters” or “30%–40%.” A material scenario reweighting requires **comparable continuous observation plus confirmation from at least two independent mechanism dimensions**.
 
-## 13. Update discipline
+## 13. Update protocol
 
 One news item should not rewrite the entire report.
 
@@ -7234,29 +7234,30 @@ This keeps the report updateable without rewriting the industry narrative after 
 
 ---
 
-# Part IV · Chapter 30: The Four Standard Scenarios — S1 to S4
+# Part IV · Chapter 30: Scenario Discrimination — S1 to S4
 
-## 1. Scenario analysis is not a point forecast
+## 1. The purpose of scenarios is discrimination, not storytelling
 
-This report does not assign one deterministic answer to 2030 or 2036, nor does it use a fixed probability table such as 40% / 30% / 15% / 15%.
+The framework does not assign one deterministic 2030 or 2036 outcome, and it does not attach fixed probabilities to S1–S4.
 
-Scenario weighting depends on observable variables including:
+Its purpose is narrower: **given the current evidence, which structural state best fits the system, and what observable changes would move that judgment?**
 
-- advanced-capacity allocation;
-- HBM supply;
-- advanced packaging;
-- cloud system-stack substitution;
-- Anchor Buyer long-duration demand;
-- power / Time-to-Power;
+Scenario weighting therefore depends on state variables that can be monitored:
+
+- layer-specific scarce-capacity access;
+- HBM / advanced-packaging supply;
+- second-stack substitution;
+- Anchor Buyer commitments;
+- power delivery / Time-to-Power;
 - software migration;
-- China's parallel stack;
-- regulation;
-- utilization;
-- CapEx / financing discipline.
+- China closure tests;
+- utilization / monetization;
+- financing quality;
+- regulation / geopolitics.
 
-## 2. S1 — Competitive Expansion
+## 2. S1 — Competitive Expansion: supply and substitution outrun concentration
 
-### Definition
+### Structural condition
 
 AI demand keeps growing, but supply expansion and alternative systems mature fast enough to reduce concentration.
 
@@ -7282,7 +7283,7 @@ This is:
 
 not "AI infrastructure disappears."
 
-### 2A. Supply-Response Overshoot: long construction lags can also create reversal
+### 2A. Supply-response overshoot can accelerate S1
 
 The Rolling Bottleneck Cascade does not imply that the same scarce layer remains short for a decade. Fabs, memory, and packaging all have long construction and qualification cycles. **High prices and high margins can induce several suppliers to expand at the same time; if effective output arrives in a similar window while demand growth decelerates, a layer can move rapidly from shortage to headroom or even oversupply.**
 
@@ -7299,7 +7300,7 @@ The report therefore does not extrapolate 2024–2026 HBM / packaging tightness 
 
 If supply growth persistently exceeds demand growth across several scarce layers while lead times and scarcity premiums decline, S1 weight should rise materially. If that easing is accompanied by weakening utilization and clearing prices, S4 weight can rise as well.
 
-## 3. S2 — Baseline Concentration
+## 3. S2 — Baseline Concentration: growth and concentration coexist
 
 ### Definition
 
@@ -7323,7 +7324,7 @@ As of August 2026, this is the **baseline state** that best matches the current 
 
 It is not a fixed ten-year forecast.
 
-## 4. S3 — Resource Hegemony
+## 4. S3 — Resource Hegemony: multi-layer concentration reinforces itself
 
 ### Definition
 
@@ -7339,7 +7340,7 @@ Typical conditions include:
 - powered land / firm MW are locked for long periods by a small set of buyers;
 - Anchor Buyer and seller forward commitments continue expanding.
 
-### Mechanism
+### Reinforcement mechanism
 
 &gt; high profit → stronger commitments / prepayment → greater future resource reservation → higher delivery certainty → stronger installed base / workload retention
 
@@ -7347,7 +7348,7 @@ This describes stronger system-level resource coordination.
 
 It is not a legal monopoly verdict.
 
-## 5. S4 — Capital Hard Landing
+## 5. S4 — Capital Hard Landing: capital formation outruns productive demand
 
 ### Definition
 
@@ -7381,7 +7382,7 @@ S4 does not mean AI usage disappears.
 
 After capital clearing, cheaper compute can still stimulate new applications.
 
-## 5.1 Comparative framework for the four standard scenarios
+## 5.1 Comparative scenario matrix
 
 **Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4**
 
@@ -7395,7 +7396,7 @@ After capital clearing, cheaper compute can still stimulate new applications.
 **Source:** Report S1–S4 scenario framework.  
 **Note:** The four scenarios are parallel conditional states. They do not carry fixed probabilities and are not inevitable sequential stages.
 
-## 5A. AI Capacity Gap: a cross-scenario diagnostic axis
+## 5A. Capacity Gap is a diagnostic axis, not a fifth scenario
 
 S1–S4 remain parallel conditional states; the report does not introduce a second scenario taxonomy. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
 
@@ -7436,7 +7437,7 @@ Therefore:
 
 AI Capacity Gap / Growth Gap must be read together with Non-AI Residual Capacity. The first two ask how much AI currently lacks and how that gap is changing; NARC asks how much effective supply remains for non-AI demand after priority allocation.
 
-## 6. Six variable classes determine scenario structure
+## 6. Six variable classes drive scenario discrimination
 
 ### Supply
 
@@ -7462,7 +7463,7 @@ Anchor Buyer credit quality, third-party risk capital, supplier equity / credit 
 
 Export controls, antitrust remedies, interface openness, industrial policy, regional fragmentation.
 
-## 7. Anchor Compute Buyer and Financing Reflexivity are scenario variables
+## 7. Anchor Buyers and financing quality can amplify either expansion or clearing
 
 Multi-year compute commitments from large model companies can influence infrastructure financing, custom silicon, power, and data-center buildout.
 
@@ -7480,7 +7481,7 @@ It becomes an S4 risk amplifier when customer cash generation weakens while supp
 
 The report therefore distinguishes Anchor Buyer demand from **Financing Reflexivity** rather than treating every financing-supported order as either fully organic or automatically artificial.
 
-## 8. Observable signals from S2 toward S1
+## 8. Signals that move S2 toward S1
 
 - alternative system stacks scale in frontier / high-value production workloads;
 - HBM / packaging lead times decline sustainably;
@@ -7489,7 +7490,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - power expansion shortens Time-to-Power;
 - buyer multi-sourcing becomes normal production practice.
 
-## 9. Observable signals from S2 toward S3
+## 9. Signals that move S2 toward S3
 
 - seller forward commitments keep expanding rapidly;
 - HBM / packaging tightness persists across generations;
@@ -7498,7 +7499,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - scarce power / powered land is locked by a small set of Anchor Buyers;
 - alternative stacks fail to create enough production-scale optionality.
 
-## 10. Observable signals from S2 toward S4
+## 10. Signals that move S2 toward S4
 
 - CapEx guidance declines repeatedly;
 - utilization falls;
@@ -7509,7 +7510,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - enterprise AI monetization remains persistently below depreciation / operating cost;
 - supplier equity / credit support rises while independent customer financing / third-party risk-taking weakens.
 
-## 11. Why S1, S2, S3, and S4 are not sequential stages
+## 11. The scenarios are states, not stages
 
 They are parallel conditional states.
 
@@ -7521,7 +7522,7 @@ Capital markets can clear locally while productive workloads continue to grow.
 
 Scenario weighting therefore describes **relative structure**, not one compulsory industry path.
 
-## 12. Current baseline
+## 12. Current baseline: S2
 
 As of August 2026, the report's baseline is:
 
@@ -7539,7 +7540,7 @@ because:
 
 The baseline remains valid only while this evidence mix remains valid; the discrimination rules are in Section 12A.
 
-## 12A. Discrimination rules: how public evidence distinguishes S1–S4
+## 12A. Discrimination rules
 
 Scenarios are distinguished along the following axes rather than by any single aggregate metric:
 
@@ -7551,7 +7552,7 @@ The same capital evidence (for example the **&gt;US$500B** mobilization target, 
 
 Boundary case: if demand growth slows materially without producing sufficient cross-signal confirmation and causal breadth across multiple S4 signal families, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
 
-## 12B. Calibration status: a public-proxy state machine, not a statistically calibrated classifier
+## 12B. Calibration status
 
 As of the report cutoff, the S1–S4 discrimination axes are explicit, but there is **no statistically validated universal threshold, fixed observation window, or automatic state-switch rule**.
 
@@ -7572,7 +7573,7 @@ Historical backtesting, lead/lag analysis, and threshold calibration belong to l
 
 ---
 
-## 13. Final use of the framework
+## 13. How to use the framework
 
 Future updates should not ask:
 
