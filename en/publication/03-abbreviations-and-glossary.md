@@ -85,6 +85,9 @@ The mechanism by which long-duration compute commitments from large model compan
 ### Rolling Bottleneck Cascade
 The dynamic rotation of the binding constraint across logic, HBM, advanced packaging, networking, power, utilization, and related layers.
 
+### AI Inheritance Effect
+The mechanism by which AI adds an intelligence / automation layer on top of an existing digital installed base of software, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and workflows. Highly digitized organizations can therefore face lower marginal Digital → AI deployment friction, but **not zero friction**: data quality, integration, security, governance, responsibility, reliability, human review, and unit economics still determine production adoption.
+
 ### AI Software Unit Economics
 A workflow-level cost framework incorporating inference, retrieval/storage, tools/APIs, retries, human review, and other variable AI costs.
 
