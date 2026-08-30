@@ -72,6 +72,10 @@ NonAI_Residual(t)
 
 如果 total effective supply 增长，但 AI/server absorption 增长得更快，Non-AI Residual Capacity 仍然可能下降。
 
+![图 2 — Non-AI Residual Capacity](figures/fig-02-narc-mechanism.svg)
+
+**图 2 Note：** 本报告 analytical definition。任何实际应用都必须保留 layer-specific physical denominator；wafer、HBM bits、package starts 与 energized MW 不能合并成一个总量。
+
 因此，判断 smartphone、PC、general server、automotive 或 industrial 是否恢复宽松，不能只看：
 
 - 全球 wafer capacity；
