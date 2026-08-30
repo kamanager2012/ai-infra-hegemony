@@ -26,7 +26,7 @@ That is not full enterprise R&D cost.
 
 The important implication is that frontier capability is not linearly fixed to hardware input. Architecture, sparsity, routing, and memory design can materially change the resources required per unit of capability.
 
-## 3. Algorithms can attack memory cost directly
+## 3. Algorithms can reduce memory cost directly
 
 DeepSeek-V2 reports, relative to DeepSeek 67B:[^2]
 
