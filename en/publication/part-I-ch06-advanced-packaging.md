@@ -30,7 +30,7 @@ TSMC public material supports the following: advanced packaging is tight, CoWoS 
 
 TSMC does not disclose an auditable customer-level CoWoS allocation table for this report, nor does it provide an official CoWoS share by customer.
 
-Two questions therefore have to remain separate:
+Two questions therefore must remain separate:
 
 - **A-grade fact:** packaging / CoWoS tightness;
 - **not disclosed:** exactly how much CoWoS capacity each customer receives.
@@ -84,7 +84,7 @@ It is whether competing buyers can obtain qualified advanced-packaging supply wi
 - generation transition;
 - integration yield.
 
-That evidence should be evaluated directly at the packaging layer.
+That evidence must be evaluated directly at the packaging layer.
 
 ## 8. Second stacks do not automatically escape packaging / HBM
 
@@ -95,13 +95,13 @@ Two effects can therefore coexist:
 1. **platform substitution:** in-house cloud systems reduce dependence on the full NVIDIA platform;
 2. **upstream competition:** those same systems increase demand for the same advanced manufacturing, HBM, and packaging resources.
 
-More custom silicon does not automatically mean lower CoWoS/HBM pressure.
+More custom silicon does not by itself imply lower CoWoS/HBM pressure.
 
 ## 9. Bottleneck location and profit location are different questions
 
 Advanced packaging can be the system-delivery bottleneck without having the highest margin in the value chain. TSMC management stated in 2Q24 that advanced-packaging gross margin had historically been significantly below corporate average and was approaching, but had not yet reached, the company average.[^4]
 
-Physical bottlenecks and profit pools therefore have to remain separate:
+Physical bottlenecks and profit pools therefore must remain separate:
 
 - packaging may determine **whether the system can be delivered**;
 - the system platform can still capture stronger economics through software, interconnect, integration, and customer switching costs.
