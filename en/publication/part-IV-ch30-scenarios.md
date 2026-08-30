@@ -310,7 +310,7 @@ Scenarios are distinguished along the following axes rather than by any single a
 
 - **S1 ↔ S2:** the degree to which alternative systems scale in frontier / high-value production workloads, and whether HBM / packaging lead times keep falling;
 - **S2 ↔ S3:** the direction of allocation concentration at scarce layers, the growth rate of seller forward commitments, proprietary switching costs, and the degree of powered-land lockup;
-- **S3 ↔ S4:** the ratio of utilization / monetization to the capital base — not publicly disclosed, so judged through public proxies: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, the share of seller equity / credit support, third-party capital risk premia, and refinancing dependency.
+- **S3 ↔ S4:** the relationship between utilization / monetization and the capital base. Because no comparable industry-wide ratio is publicly disclosed, the report uses public proxies: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, seller equity / credit support, third-party capital risk premia, and refinancing dependency.
 
 The same capital evidence (for example the **>US$500B** mobilization target, the **US$50B** frontier-lab investment, and **2 GW** of credit support)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
 
@@ -349,7 +349,7 @@ They should ask:
 
 > **Which observable variables changed, and how should S1–S4 relative weighting adjust?**
 
-That keeps long-run judgment responsive to industrial evidence rather than dependent on a one-time bet.
+That keeps long-run judgment responsive to industrial evidence rather than tied to a one-time endpoint forecast.
 
 ## References
 
