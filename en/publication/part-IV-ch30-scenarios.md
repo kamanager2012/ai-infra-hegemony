@@ -1,6 +1,6 @@
 # Part IV · Chapter 30: Scenario Framework — Discriminating S1 to S4
 
-## 1. Scenarios are adjudication states, not stories
+## 1. Scenarios are conditional states, not narratives
 
 The framework does not assign one deterministic 2030 or 2036 outcome, and it does not attach fixed probabilities to S1–S4.
 
@@ -110,7 +110,7 @@ Typical conditions include:
 
 This describes stronger system-level resource coordination.
 
-It is not a legal monopoly verdict.
+It is not a legal finding of monopoly.
 
 ## 5. S4 — Capital Hard Landing: capital formation outruns productive demand
 
@@ -329,7 +329,7 @@ Therefore:
 
 Changes in scenario weight require **several independent public proxies to move in the same direction across repeated observations**, while counterevidence and segment breadth remain explicit. Because disclosure frequencies differ across quarterly, semiannual, and annual data, the framework does not force them into a false single observation window.
 
-**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+**Mechanism-break override:** breadth requirements govern **system-level scenario classification**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
 
 In other words:
 
