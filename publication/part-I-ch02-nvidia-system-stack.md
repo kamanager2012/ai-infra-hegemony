@@ -111,71 +111,77 @@ NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
 
 这也是为什么本报告把 **Scarce-layer Value Capture** 与“市场份额垄断”分开。系统平台可以拥有很强的组织和出价能力，但仍然受到外部物理供应弹性约束。
 
-## 7. 真正的 Counterattack 是第二套 Production-Grade System Stack
+## 7. 真正的竞争挑战是第二套 System Stack
 
-NVIDIA system moat 的主要反向变量，不是“出现另一颗 ASIC”，而是竞争者能否形成另一套真正可用于生产的 system stack。
+Google TPU / Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 的战略意义，不只是“又出现了一颗芯片”。[^5] Hyperscaler 同时拥有：
 
-这要求替代路线同时改善：
+- captive large-scale workloads；
+- cloud distribution；
+- 对 data-center infrastructure 的控制；
+- internal compiler/runtime software；
+- 自研 interconnect 与 rack/pod design；
+- 在 system level 围绕更窄 workload 做优化的能力。
 
-- production workload coverage；
-- compiler/runtime maturity；
-- scale-up / scale-out capability；
-- migration cost；
-- utilization；
-- deployment reliability；
-- HBM / packaging / power access。
+因此，真正的竞争框架不是：
 
-Google、AWS、Microsoft、Meta 已经形成真实的 system-stack 路线，但其竞争强度应由真实 workload 与迁移成本衡量，而不是由产品发布数量衡量。[^7]完整分析见[第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)。
+> NVIDIA GPU vs. custom ASIC
 
-因此，本章只保留一个结论：
+而是：
 
-> **如果客户能够以较低迁移成本把高价值 production workload 分散到多套 system stack，NVIDIA 的平台议价能力会下降；如果平台内跨代升级仍显著低于跨平台迁移成本，系统护城河仍然成立。**
+> **NVIDIA system stack vs. cloud system stack**
+
+这种变化可以同时产生两个方向相反、却并不矛盾的结果：
+
+1. **Platform-profit diversion：** 云厂商自研系统降低对 NVIDIA 部分 platform profit pool 的依赖；
+2. **Upstream resource competition：** 这些系统仍然需要 advanced logic、HBM、advanced packaging 与 power。
+
+因此，cloud custom silicon 成功，并不自动意味着上游 physical scarcity 被解除。
 
 ## 7A. 报道中的 Hugging Face 交易：平台权力可能从 Runtime 延伸到 Developer Distribution
 
-2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^5]截至本报告证据截止日 **2026-08-28**，本报告未取得 NVIDIA 或 Hugging Face 对交易完成、交割条件或监管批准的正式公告，因此这里仅把它记录为 **reported transaction**，而不是已完成并表事实。
+2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^6]截至本报告 evidence cutoff **2026-08-28**，本报告未取得 NVIDIA 或 Hugging Face 关于 closing、最终交易条件或监管批准的正式公告，因此仅把它记录为 **reported transaction**，而不是已经完成的 consolidation fact。
 
-Hugging Face 的战略意义并不只是“一个模型下载网站”。其官方产品体系覆盖 Model Hub、Datasets、Spaces、Transformers、Inference Providers / Endpoints 等开发者入口；它连接了模型发现、模型/数据分发、工具链调用、试用与部署。[^6]
+Hugging Face 的战略意义不只是“模型下载网站”。其官方产品覆盖 Hub、models、datasets、Spaces、Transformers 以及 inference/deployment products，把 model discovery、asset distribution、tooling、evaluation 与 deployment 连接在同一开发者入口中。[^7]
 
-如果报道中的交易最终完成，NVIDIA 的平台边界就可能从：
+如果报道中的交易最终完成，NVIDIA 的平台边界可能从：
 
 > **accelerator → CUDA/runtime → networking → rack/system**
 
-进一步延伸为：
+进一步延伸到：
 
 > **accelerator → CUDA/runtime → model discovery/distribution → deployment path**
 
-这构成一种新的潜在反馈机制：
+这可能形成一条强化链：
 
 **hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand。**
 
-本报告把它作为 **developer-distribution / vertical-foreclosure risk** 的监测项，而不是新的承重理论名；更不会把它提前写成“软件垄断已经完成”。
+本报告把它作为 **developer-distribution / vertical-foreclosure risk** 的监测项，而不是新的承重理论；也不会预先把它写成已经完成的软件 foreclosure。
 
-真正需要观察的不是 Hugging Face 是否仍然允许其他硬件存在，而是控制权变化后，以下“默认值”是否出现持续、可验证的 NVIDIA 倾斜：
+真正需要观察的，不是 Hugging Face 上是否仍然技术性地存在 non-NVIDIA hardware，而是 ownership 变化之后，平台默认路径是否出现持续、可测量的 NVIDIA 倾斜：
 
-- model page / benchmark 对 NVIDIA runtime 的默认优先级；
-- inference / endpoint 的推荐 backend；
-- NVIDIA-optimized artifact、quantization、container 或 deployment path 的排序 / 可见度；
-- ROCm、XLA、CPU、其他 accelerator 的 first-class support 是否弱化；
-- 非 NVIDIA 平台的 migration friction 是否上升；
-- model creator 是否因分发、托管或商业激励而更优先发布 NVIDIA-optimized versions。
+- model page / benchmark 是否默认更强调 NVIDIA runtime；
+- inference / endpoint 是否优先推荐特定 backend；
+- NVIDIA-optimized artifact、quantization path、container 或 deployment flow 的排序 / 可见度是否上升；
+- ROCm、XLA、CPU 或其他 accelerator 的 first-class support 是否弱化；
+- 离开 NVIDIA 的 migration friction 是否上升；
+- model creator 是否因商业激励而更优先发布 NVIDIA-optimized variant。
 
-这类风险与 CUDA lock-in 不完全相同。CUDA 的传统机制主要发生在 workload 已选择 NVIDIA 之后；developer-distribution risk 则可能更早进入：
+这类风险与传统 CUDA lock-in 不完全相同。CUDA lock-in 主要发生在 workload 已经选择 NVIDIA execution environment 之后；distribution-layer foreclosure risk 可以更早发生：
 
-> **模型发现 → 工具选择 → runtime 选择 → deployment → accelerator。**
+> **model discovery → tool selection → runtime selection → deployment → accelerator。**
 
-因此，它可能把平台锁定从“执行层”向“开发者入口层”前移。
+因此，它可能把 platform lock-in 前移到 developer funnel。
 
-### 7A.1 反方边界
+### 7A.1 Counter-boundaries
 
-即使交易最终完成，也不能自动推出完整软件 foreclosure：
+即使交易最终完成，也不能自动推出完整 software foreclosure：
 
-- open-weight model 可以多平台分发、mirror 或自托管；
-- Hugging Face 当前生态原本就是 multi-framework / multi-vendor；
-- model weights、open libraries 与 alternative hubs 具有一定可迁移性；
-- 竞争者可以通过独立 registry、runtime、cloud distribution 与 foundation governance 降低单点依赖。
+- open-weight models 可以 mirror、自托管或分发到多个 registry；
+- Hugging Face 历来是 multi-framework / multi-vendor ecosystem；
+- model weights、open libraries 与 alternative hubs 保留一定 portability；
+- 竞争者可以通过 independent registries、runtimes、cloud distribution 与 neutral-foundation governance 降低单点依赖。
 
-所以，本报告只在**默认排序、互操作、部署摩擦与真实 workload 分布**出现持续变化时，才提高这一机制的权重。
+只有当 **ranking、interoperability、deployment friction 与真实 workload distribution** 持续发生变化时，才应提高这一机制的权重。
 
 ## 8. Moat Erosion 的 Evidence Standard
 
@@ -224,7 +230,6 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-
-[^5]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
-[^6]: Hugging Face official documentation: Hub, Models, Datasets, Spaces, Transformers and inference/deployment products, https://huggingface.co/docs
-[^7]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^6]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
+[^7]: Hugging Face official documentation for Hub, models, datasets, Spaces, Transformers, and inference/deployment products, https://huggingface.co/docs
