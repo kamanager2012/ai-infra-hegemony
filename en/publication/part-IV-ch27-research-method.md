@@ -1,10 +1,10 @@
 # Part IV · Chapter 27: Research Method and Evidence Architecture
 
-## 1. AI-infrastructure research needs a unified evidence language
+## 1. Research quality starts with claim identity and denominator discipline
 
-AI infrastructure spans finance, semiconductors, memory, advanced packaging, cloud, power, regulation, and labor markets.
+AI-infrastructure research crosses finance, semiconductors, memory, packaging, cloud, power, regulation, and labor. Those fields do not share one denominator, one clock, or one evidence standard.
 
-The numbers in these fields carry different physical units, accounting definitions, time windows, and evidence strengths.
+The first methodological task is therefore to preserve **claim identity, physical unit, time identity, and evidence strength** before building a narrative.
 
 Without one common discipline, recurring errors include:
 
@@ -99,7 +99,7 @@ For example, the thesis that scarce-layer value capture continues strengthening 
 
 A long-run narrative without falsification conditions does not enter the report's formal judgment layer.
 
-## 7. A / B / C / D Evidence Grades
+## 7. A / B / C / D evidence grades
 
 **Table 27.1 — Evidence-grade system used in this report**
 
@@ -173,7 +173,7 @@ Financing-quality analysis must therefore distinguish:
 - supplier equity / credit support.
 
 ---
-## 9. The boundary of negative evidence
+## 9. Negative evidence has a boundary
 
 "Not disclosed in this document" proves only that the document does not disclose it.
 
@@ -197,7 +197,7 @@ For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must rema
 
 Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estimates can only appear as explicitly conditioned assumptions.
 
-## 11. Where the report's core mechanism models fit
+## 11. Concept hierarchy: load-bearing mechanisms vs. supporting language
 
 To avoid treating every named term as a separate theory, the report distinguishes **load-bearing mechanisms** from **supporting descriptive / measurement language**.
 
@@ -222,7 +222,7 @@ They do not replace source facts.
 
 Their validity must ultimately be tested by new F and X evidence.
 
-## 12. Full-report deduplication and cross-reference rules
+## 12. Deduplication and canonical-home rules
 
 A formal report should not repeatedly rewrite the same facts and mechanisms across chapters.
 
