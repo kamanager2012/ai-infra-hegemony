@@ -151,7 +151,7 @@ TSMC 2025 smartphone platform 占全年 net revenue **29%**，HPC 为 **58%**。
 
 AI 对传统市场的传导强度取决于三个条件：
 
-### Shared-resource exposure
+### Shared-resource overlap
 
 与 AI 共用的物理资源越多，暴露越高。
 
@@ -159,7 +159,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 资源越难快速扩产，短期压力越强。
 
-### Buyer power
+### Buyer bargaining power
 
 拥有 LTA、规模采购、库存、强资产负债表和终端定价权的客户，更容易缓冲冲击。
 
@@ -208,7 +208,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 应同时观察以下信号：
 
-### 强化
+**强化信号**
 
 - AI/server forward commitments 扩大；
 - HBM / advanced packaging tightness 跨代持续；
@@ -217,7 +217,7 @@ AI 对传统市场的传导强度取决于三个条件：
 - quantity assurance 差距扩大；
 - 新增 CapEx 更明显地围绕 AI/HPC 建设。
 
-### 减弱
+**减弱信号**
 
 - supply elasticity 明显提高；
 - traditional-product economics 回升并推动资本重新平衡；
