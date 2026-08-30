@@ -103,7 +103,7 @@ Anthropic 2026-04 官方披露：[^4]
 
 > **large model workload → custom-silicon deployment → production feedback → system optimization → lower TCO → more anchor workload**
 
-因此，Anchor Buyer 与 Cloud System-Stack Substitution 不是两条彼此独立的机制，而是可以相互强化。
+因此，Anchor Buyer 与 cloud system-stack substitution 不是两条彼此独立的机制，而是可以相互强化。
 
 ### 4.1 xAI / Colossus：Self-Built Variant
 
