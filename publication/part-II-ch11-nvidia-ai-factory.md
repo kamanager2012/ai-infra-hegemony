@@ -1,10 +1,10 @@
-# Part II · 第11章：NVIDIA 从 Accelerator Vendor 向 System Orchestration 扩张
+# Part II · 第11章：NVIDIA 的 System-Orchestration Strategy：超越 Accelerator
 
 ## 1. NVIDIA 通过 Orchestration 扩张，而不是 Ownership
 
-NVIDIA 的控制力并不来自拥有 leading-edge fabs、HBM fabs 或整个 data-center real estate。
+NVIDIA 的 leverage 并不依赖于拥有 leading-edge fabs、HBM fabs 或整个 data-center real-estate stack。
 
-它的 operating model 更接近：
+它的 strategy 更接近：
 
 > **interface control + reference architecture + software/runtime + supply orchestration + financing coordination**
 
@@ -106,7 +106,7 @@ AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有�
 
 ## 10. Current Read
 
-截至 2026 年，最确定的变化是 NVIDIA 已经明显从 accelerator vendor 向 system-platform / AI-Factory architecture 扩张。
+截至 2026 年，最明确的变化是 NVIDIA 已经明显超越 accelerator-vendor role，向 system-platform / AI-Factory architecture 扩张。
 
 但“纵向扩张”与“产业完全被一个平台控制”仍是两个不同命题。下一阶段真正需要观察的是：system definition 能否继续转化成长期 workload、supply commitments 和低迁移成本的跨代客户留存。
 
