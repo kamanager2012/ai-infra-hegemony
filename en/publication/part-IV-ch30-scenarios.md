@@ -1,4 +1,4 @@
-# Part IV · Chapter 30: Scenario Framework — Discriminating S1 to S4
+# Part IV · Chapter 30: Scenario Framework — Distinguishing S1–S4
 
 ## 1. Scenarios are conditional states, not narratives
 
