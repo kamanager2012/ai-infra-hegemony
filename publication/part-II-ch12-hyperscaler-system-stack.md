@@ -15,7 +15,7 @@
 - orchestration；
 - production workload。
 
-本报告把这一判别称为 **Cloud System-Stack Substitution**。Benchmark win 不够；只有 production utilization、software friction 与 workload-specific system economics 同时过关，才构成真实替代。
+本报告把 **cloud system-stack substitution** 作为 economic substitution test，而不是独立理论。Benchmark win 不够；只有 production utilization、software friction 与 workload-specific system economics 同时过关，才构成真实替代。
 
 ---
 
@@ -252,9 +252,9 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 但 internal success 仍然足以改变 hyperscaler 的采购结构、议价能力和长期 platform-profit distribution。
 
-## 11. 长期均衡更可能是 Workload Segmentation，而不是单方全面替代
+## 11. 更可能的长期均衡是 Workload Segmentation
 
-最现实的长期格局更可能是 workload segmentation。
+长期格局并不必然以一方消灭另一方告终；更合理的均衡是 **workload segmentation**。
 
 这种 segmentation 还必须区分 **training topology** 与 **inference topology**。Frontier training 通常更敏感于大规模 collective communication、scale-up / scale-out fabric 与同步效率；inference 的瓶颈则更依赖 workload 形态，memory capacity / bandwidth、latency、batching、power efficiency 与 cost per token 的权重可以更高。与此同时，inference 并不等于“网络不重要”：Google Ironwood 仍把 9,216-chip pod 与专用 ICI 作为系统的一部分，Microsoft Maia 200 则明确以标准 Ethernet 扩展至最高 6,144 accelerators。[^1][^4]
 
