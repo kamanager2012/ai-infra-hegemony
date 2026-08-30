@@ -49,7 +49,7 @@ dominant platform 仍然很大，但 buyer optionality 和 bargaining power 提�
 
 Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短缺。Fab、memory 与 packaging 都具有较长建设 / qualification 周期，**当前高价格与高利润会刺激多家供应商同时扩产；当这些项目在相近窗口释放有效产出，而 demand growth 同时放缓时，某一层可以从 shortage 很快转向 headroom，甚至 oversupply。**
 
-截至本报告 cutoff，公开前瞻已经显示这种**分层而非统一**的供给响应：TrendForce 2026-07-30 预计 2027 年 DRAM 仍偏紧，但 NAND Flash 在新增产能与 bit-output 增长作用下可能于 **2H27** 转向更宽松供需结构；其同时判断部分新增 DRAM 产能的显著 output contribution 要到 **2028** 才体现。[^10]
+截至 evidence cutoff，公开前瞻已经显示这种**分层而非统一**的供给响应：TrendForce 2026-07-30 预计 2027 年 DRAM 仍偏紧，但 NAND Flash 在新增产能与 bit-output 增长作用下可能于 **2H27** 转向更宽松供需结构；其同时判断部分新增 DRAM 产能的显著 output contribution 要到 **2028** 才体现。[^10]
 
 因此，不把 2024–2026 的 HBM / packaging tightness 静态外推为十年永久短缺。真正需要观察的是每一层的：
 
@@ -271,11 +271,11 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 例如，某些区域可能出现 S3-style power scarcity，同时某些 workload 已进入 S1-style multi-stack competition；memory 可能暂时进入宽松，而 packaging 仍 tight；capital market 可能局部清算，但 productive workload 继续增长。
 
-因此，本报告用 scenario weighting 描述**相对结构**，不将产业演化简化为单一路径。
+因此，scenario weighting 用来描述**相对结构**，而不是把产业演化简化为单一路径。
 
 ## 12. Current Baseline：S2
 
-截至 2026 年 8 月，本报告的 baseline 是：
+截至 2026 年 8 月，baseline 是：
 
 > **S2 — Baseline Concentration**
 
@@ -305,7 +305,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 ## 12B. Calibration Status
 
-截至本报告证据截止日，S1–S4 的判别轴已经明确，但**尚不存在经统计验证的统一数值阈值、固定观察窗口或自动切换规则**。
+截至 evidence cutoff，S1–S4 的判别轴已经明确，但**尚不存在经统计验证的统一数值阈值、固定观察窗口或自动切换规则**。
 
 因此：
 
