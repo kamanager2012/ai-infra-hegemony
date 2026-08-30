@@ -1,4 +1,4 @@
-# The Age of AI Infrastructure Hegemony
+# The Age of AI Infrastructure Hegemony: 2026–2036
 
 This file is retained as a compatibility entry for older repository links.
 
