@@ -1,19 +1,21 @@
-# Part I · Chapter 8: Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade
+# Part I · Chapter 8: Quantification Boundaries — What Can Be Measured, What Cannot, and Why
 
-## 1. The purpose of quantification is not to manufacture false precision
+## 1. Quantification starts with denominator closure
 
-The most common quantitative error in AI-infrastructure research is to connect different physical pools, accounting categories, and evidence grades into one apparently complete but unauditable total model.
+The first quantitative task is not to produce a point estimate. It is to determine whether the numerator, denominator, physical unit, delivery window, and evidence identity can actually be closed.
 
-This report allows four classes of quantitative work into the main argument:
+AI-infrastructure research becomes unreliable when front-end wafers, HBM bits, package starts, energized MW, accounting CapEx, and seller commitments are connected into one synthetic total without preserving their dimensions.
+
+The report therefore permits four quantitative classes in the main argument:
 
 1. **Compute / memory intensity**;
-2. **Rack-scale material demand**;
-3. **Explicit packaging / power stress tests**;
+2. **Rack-scale material or power intensity**;
+3. **Layer-specific stress tests**;
 4. **Capacity / commitment / utilization indicators**.
 
-Any link that cannot be closed with public data remains a parameter rather than being filled with an invented point estimate.
+If a public denominator cannot be closed, the variable remains a parameter or proxy. The report does not fill the gap with a point estimate simply to make the model look complete.
 
-## 2. Roofline: why frontier inference cannot be compared through FLOPS alone
+## 2. Roofline: peak FLOPS is not a workload denominator
 
 The core Roofline relationship is:
 
@@ -29,7 +31,7 @@ Autoregressive inference repeatedly reads model state, KV cache, routing, and ac
 
 This is why HBM, interconnect, and compute have to be analyzed as one system rather than interpreting frontier inference from peak compute alone.
 
-## 3. Algorithmic architecture changes the demand function without deleting physical constraints
+## 3. Algorithmic efficiency changes resource intensity, not the measurement discipline
 
 Algorithm and architecture choices can change:
 
@@ -44,7 +46,7 @@ Public cases such as DeepSeek-V3 / V2 show that architecture improvements can si
 
 But a changed demand function does not eliminate physical constraints. Whether higher efficiency reduces aggregate infrastructure demand still depends on workload volume and demand elasticity.
 
-## 4. Formal-training compute conversion is not full R&D cost
+## 4. Training-run arithmetic is not company R&D cost
 
 DeepSeek-V3 reports **2.788M H800 GPU-hours** for full formal training, and the paper uses a **US$2/GPU-hour** rental-cost assumption.[^1]
 
@@ -56,7 +58,7 @@ This is only a formal-training compute conversion. It excludes research iteratio
 
 The US$5.576M figure can therefore be used as a public training-run scale anchor, but not as "the full company cost of one frontier model."
 
-## 5. Rack-scale specifications quantify system intensity, not industry shipment demand
+## 5. System specifications support intensity analysis, not fleet-size inference
 
 The official GB200 NVL72 configuration is:[^3]
 
@@ -75,7 +77,7 @@ Therefore:
 
 Where shipment or deployment cannot be closed from public evidence, the formal report prefers seller commitments, vendor supply guidance, customer contracts, lead times, utilization, and other observable indicators over synthetic fleet-size arithmetic.
 
-## 6. The HBM trade ratio amplifies bit-demand pressure on wafer input
+## 6. HBM: bit demand and wafer input are different denominators
 
 Micron FY24 Q2 prepared remarks provide an important first-party boundary:
 
@@ -85,7 +87,7 @@ Bit demand and manufacturing input are therefore not one-to-one. As HBM bit shar
 
 The 3× figure is not a fixed Micron-fab MES constant and cannot be mechanically extrapolated into a permanent HBM4/HBM5 ratio.
 
-## 7. Packaging must be quantified in its own physical unit
+## 7. Advanced packaging requires its own physical unit
 
 Advanced-packaging analysis should use observable or source-bounded variables such as qualified capacity, lead time, allocation fulfillment, package starts, or supplier guidance.
 
@@ -93,7 +95,7 @@ The report does not use a synthetic "CoWoS wafers per rack" factor to infer ship
 
 Front-end wafers, back-end packaging capacity, HBM bits, and energized MW are different physical pools and must remain dimensionally separate.
 
-## 8. AI Capacity Gap: first ask whether effective supply is short now
+## 8. Absolute Capacity Gap: is the layer short now?
 
 For each physical layer (i), define:
 
@@ -128,7 +130,7 @@ Interpretation:
 
 ---
 
-## 9. Capacity Growth Gap describes direction, not the current shortage
+## 9. Capacity Growth Gap: is the imbalance widening or closing?
 
 Define:
 
@@ -154,7 +156,7 @@ A market can still be short while supply is catching up rapidly, or still have s
 
 ---
 
-## 10. Non-AI Residual Capacity answers a different question
+## 10. Non-AI Residual Capacity is a different denominator
 
 AI Capacity Gap measures the AI side.
 
@@ -175,7 +177,7 @@ AI Capacity Gap, AI Capacity Growth Gap, and Non-AI Residual Capacity are theref
 
 ---
 
-## 11. Power must also be quantified with state and physical boundaries
+## 11. Power requires both quantity and delivery state
 
 Approximately **120 kW/rack** can be used as a rack-level power-density input.[^5]
 
@@ -199,7 +201,7 @@ Contracted or secured capacity is not energized capacity; energized capacity is 
 
 This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
 
-## 12. When shipment cannot be closed, Forward Commitment is more useful than an invented shipment model
+## 12. When shipment is unobservable, use bounded forward indicators
 
 NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as follows:[^6]
 
@@ -213,7 +215,7 @@ The figure cannot identify how much goes to any individual supplier, but it is a
 
 When customer-level HBM bits, CoWoS allocation, and rack shipment are unavailable, forward commitments are more informative than "revenue divided by an invented rack price."
 
-## 13. Measure incremental scarce-capacity access separately for every physical layer
+## 13. Scarce-capacity access must remain layer-specific
 
 The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into one composite "capture ratio."
 
@@ -247,7 +249,7 @@ The quantitative rule is therefore:
 
 > **Calculate what can be closed; use explicit proxies where closure is partial; do not fill a missing denominator with a point estimate.**
 
-## 14. Five risk classes should be separated before testing for cascade
+## 14. Separate risk classes before testing for cascade
 
 System risk in AI infrastructure can be divided into:
 
@@ -259,7 +261,7 @@ System risk in AI infrastructure can be divided into:
 
 One risk does not equal an industry-wide crisis. The more dangerous state is when several clocks begin to reinforce one another.
 
-## 15. Rolling Bottleneck Cascade
+## 15. Rolling Bottleneck Cascade is a state transition, not a shortage slogan
 
 AI-infrastructure bottlenecks rotate rather than remaining permanently fixed at one layer.
 
@@ -275,7 +277,7 @@ This is the **Rolling Bottleneck Cascade**.
 
 It explains why easing HBM does not prove that AI infrastructure has no constraints, and why power becoming a bottleneck does not mean semiconductor constraints have disappeared permanently.
 
-## 16. Capital return must place all duration clocks into one equation
+## 16. Capital return has to reconcile different asset clocks
 
 A minimal economic relationship is:
 
@@ -301,7 +303,7 @@ The full report maintains the following hard boundaries:
 - institutional forecast ≠ company actual;
 - one physical pool ≠ another physical pool.
 
-## 18. The most reliable quantitative sequence
+## 18. Preferred quantitative workflow
 
 The report follows this sequence:
 
