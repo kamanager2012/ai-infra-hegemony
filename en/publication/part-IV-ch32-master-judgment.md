@@ -1,27 +1,36 @@
 # Part IV · Chapter 32: Master View — What Determines AI Infrastructure Power, and What Would Change the View
 
-## 1. Current baseline and load-bearing judgments
+## 1. Current baseline: S2 is the synthesis, not a second executive summary
 
 **Current baseline (evidence cutoff: August 28, 2026): S2 — Baseline Concentration.**
 
-The industry is not in a state of uncontested resource hegemony, nor is it in broad capital clearing. A small number of system platforms and scarce-layer suppliers retain strong economics; credible alternatives are developing, but they have not yet removed the physical, software, financing, and migration constraints that sustain concentration.
+Chapter 1 already provides the report's eight load-bearing findings as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four adjudication tests and explains why the current state remains S2.
 
-The report's master view rests on eight judgments:
+### Test A — Has system power become irreplaceable multi-layer control?
 
-1. **The competitive unit is the system stack, not the accelerator.** Advanced logic, HBM, advanced packaging, interconnect, runtime, rack/pod architecture, power, and production workloads have to close together.
-2. **AI/HPC is changing the marginal destination of semiconductor and infrastructure capital.** The question is increasingly which demand pool determines what the next unit of capacity is built for.
-3. **Traditional end systems face residual supply, not gross supply.** Their economics depend on qualified availability, quantity assurance, product mix, and lifecycle constraints after priority demand is allocated.
-4. **Scarce-capacity access must be evaluated by physical layer.** Historical share cannot substitute for qualified access to incremental logic, HBM, packaging, networking, and energized power.
-5. **Substitution can reduce platform rent before it removes upstream scarcity.** Hyperscaler custom stacks and China's parallel stack can carry real workloads while still depending on many of the same scarce inputs.
-6. **Capital risk is a utilization, monetization, and financing-quality problem.** CapEx, supply commitments, and seller-assisted financing are leading signals; none proves healthy independent end demand by itself.
-7. **Long-run demand is validated at the workflow level.** AI inherits a large digital installed base, but infrastructure investment only earns its way through utilization, verified output, and cash flow.
-8. **The 2026–2036 path is conditional.** Supply response, algorithmic efficiency, second-stack adoption, China stack closure, power delivery, financing quality, and capital clearing can move the industry toward S1, S3, or S4.
+Not yet. A small number of system platforms, especially NVIDIA, combine strong system coordination, software switching costs, supply commitments, and capital formation capacity. But delivery still depends on external foundry, HBM, advanced packaging, networking, and power. Strong platform power is not the same as control of every physical layer.
 
-The central question is therefore:
+### Test B — Has AI/HPC resource absorption already forced structural exit across traditional end markets?
 
-> **Who can secure qualified scarce inputs, organize them into a production system, and convert that capital base into durable workload economics?**
+Only partially. Non-AI Residual Capacity, Quantity Assurance, and product-mix pressure are visible in smartphones, PCs, game consoles, and other end systems. The evidence supports **repricing, configuration changes, product-mix polarization, and longer replacement cycles**; it does not yet establish terminal decline across smartphones, PCs, gaming, or other complete demand industries.
 
-That question is deliberately broader than "who wins the AI chip war?" and narrower than a claim that one company or country already controls the entire infrastructure stack.
+### Test C — Is the second stack already strong enough to break concentration?
+
+Not yet. Hyperscaler custom systems and China's parallel stack establish that real substitution paths exist. But production-workload share, migration cost, HBM/packaging/power access, and multi-generation manufacturing continuity still determine whether substitution moves from “can run” to “can durably change industry structure.”
+
+### Test D — Has capital formation entered broad systemic clearing?
+
+Not yet. High CapEx, **US$279B** of aggregate supply commitments, seller-assisted financing, and a **>US$500B** third-party-capital mobilization target all raise the importance of future clearing. None allows the report to infer a bubble or hard landing from spending scale alone. S4 still requires broad, persistent, causally coherent deterioration across independent signals such as utilization, market clearing, forward commitments, and demand quality / financing.
+
+Taken together, the four tests describe:
+
+> **high growth + high concentration + real substitution + no broad capital clearing yet.**
+
+That is **S2 — Baseline Concentration**.
+
+The Master View therefore answers a different question from Chapter 1:
+
+> **Which mechanisms still sustain S2, which reverse facts would break those mechanisms, and what would force the report toward S1, S3, or S4?**
 
 ## 2. System coordination is the relevant form of industrial power
 
