@@ -1,4 +1,4 @@
-# The Age of AI Infrastructure Hegemony: 2026–2036
+# The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report
 
 This file is retained as a compatibility entry for older repository links.
 
