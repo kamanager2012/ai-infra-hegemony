@@ -6,7 +6,7 @@
 
 Jobs are bundles of tasks, and those tasks differ in automation cost, review burden, liability, physical presence, and trust.
 
-The analytical starting point is therefore task and workflow exposure — not direct job-loss extrapolation.
+The analytical starting point is task and workflow exposure—not direct job-loss extrapolation.
 
 ## 2. Exposure is not an employment outcome
 
@@ -51,7 +51,7 @@ For example:
 - compression of one task does not imply disappearance of the whole occupation;
 - higher output per employee can show up as demand expansion rather than headcount reduction.
 
-Employment analysis should therefore begin with tasks and workflows rather than jump directly from benchmark performance to job counts.
+Employment analysis should begin with tasks and workflows instead of jumping directly from benchmark performance to job counts.
 
 ## 4. Adoption economics is the first substitution gate
 
@@ -59,7 +59,7 @@ Firms have stronger substitution incentives only when:
 
 > **AI cost + review + error + compliance + integration < human cost / value alternative**
 
-Benchmark improvement therefore does not automatically translate into employment change.
+Benchmark improvement does not automatically translate into employment change.
 
 Reliability, latency, security, integration, and legal responsibility all alter adoption economics.
 
@@ -84,7 +84,7 @@ Medical sign-off, engineering sign-off, field maintenance, nuclear operations, c
 
 AI can change preparation, analysis, and documentation while final responsibility remains with a human.
 
-Human review is therefore both a software cost and a labor-market boundary.
+Human review is both a software cost and a labor-market boundary.
 
 ## 7. The entry-level ladder is a key structural variable
 
@@ -108,13 +108,13 @@ Possible outcomes include:
 - contraction in middle routine roles;
 - stronger demand for physical / system technical roles.
 
-Labor outcomes are therefore more likely to be structurally divergent than to produce the same wage decline across all knowledge workers.
+Labor outcomes are more likely to diverge structurally than to produce the same wage decline across all knowledge workers.
 
 ## 9. Physical AI can create a slower second wave
 
 Automation in warehouses, manufacturing, logistics, inspection, and maintenance has to cross hardware cost, reliability, safety, maintenance, and regulatory thresholds.
 
-The labor translation of Physical AI is therefore usually slower and more capital-intensive than purely digital workflow automation.
+The labor translation of Physical AI is usually slower and more capital-intensive than purely digital workflow automation.
 
 ## 10. AI infrastructure creates new skill demand
 
@@ -129,7 +129,7 @@ AI expansion simultaneously increases demand for:
 - safety/compliance roles;
 - model-infrastructure roles.
 
-Labor-market change is therefore better understood as reallocation than as a one-direction reduction in employment.
+Labor-market change is better understood as reallocation than as a one-direction reduction in employment.
 
 ## 11. Organization shape depends on review burden and task volume
 
