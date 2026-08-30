@@ -1,10 +1,10 @@
 # Part IV · Chapter 29: Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting
 
-## 1. Monitor variables that can actually change the view
+## 1. Monitor variables that can change the view
 
 A long-horizon view is useful only if later evidence can force it to change.
 
-The monitoring framework therefore tracks **state variables, transition rates, and evidence quality — not news volume**. Each new observation has to answer three questions:
+The monitoring framework therefore tracks **state variables, transition rates, and evidence quality — not news volume**. Each new observation must answer three questions:
 
 1. **What changed in the fact layer?**
 2. **Which mechanism variable did that change?**
@@ -38,7 +38,7 @@ Supply / capacity commitments:[^2]
 - 2026-04-26: US$119B;
 - 2026-07-26: US$279B.
 
-These metrics ask whether the system seller still has enough cash generation and forward-commitment capacity to reserve next-generation scarce resources.
+These metrics test whether the system seller still has sufficient cash generation and forward-commitment capacity to reserve next-generation scarce resources.
 
 The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
 
@@ -129,7 +129,7 @@ Representative current paths include:
 - Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035;[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with planned delivery beginning in 2028.[^13]
 
-The variables that need updating are each project's transition from secured / contracted into construction, energized capacity, actual load, and utilization—not headline capacity alone.
+The variables to update are each project's transition from secured / contracted status into construction, energized capacity, actual load, and utilization—not headline capacity alone.
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate.
 
@@ -277,9 +277,9 @@ Dashboard J does not independently determine S1–S4. It tests whether:
 **Source:** Report evidence method (see Chapter 27).  
 **Note:** A default grade can move with source quality, but repeated citation does not upgrade it automatically.
 
-Every update preserves the original evidence grade.
+Every update must preserve the original evidence grade.
 
-A newer number does not automatically become stronger evidence.
+A newer number is not automatically stronger evidence.
 
 ## 12. Scenario-reweighting rules
 
@@ -352,7 +352,7 @@ These five tests deliberately avoid arbitrary universal rules such as “eight q
 
 ## 13. Evidence-update protocol
 
-No single news item should trigger a full-report reclassification.
+No single news item should trigger reclassification of the full report.
 
 Scenario weighting changes only when new evidence changes a core mechanism variable with materiality and persistence appropriate to that variable's own reporting and asset clock.
 
