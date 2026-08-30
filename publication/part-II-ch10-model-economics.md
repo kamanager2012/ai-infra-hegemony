@@ -180,7 +180,19 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 7. Price Compression 与 Demand Rebound 可以同时成立
+## 7. Anchor Buyer 让模型公司反向影响基础设施资本形成
+
+最大的模型公司正通过多年 compute commitments、dedicated data-center projects 与长期 capacity reservation 影响 cloud、chip 与 power investment。
+
+因此，模型公司并不永远只是被动接受 cloud pricing 的软件买方。规模足够大时，它可以成为基础设施资本形成的 demand anchor。
+
+同一机制也会放大风险：如果 architecture efficiency 提高、收入不及预期或 workload 迁移，长期 capacity commitments 会转化为 utilization 与 duration risk。
+
+这一机制在第13章 **Anchor Compute Buyer Effect** 中展开。
+
+---
+
+## 8. Price Compression 与 Demand Rebound 可以同时成立
 
 算法效率和开源竞争会降低 unit intelligence cost。
 
@@ -206,7 +218,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 8. 模型层真正的长期竞争变量
+## 9. 模型层真正的长期竞争变量
 
 未来模型公司之间最重要的经济变量包括：
 
@@ -238,7 +250,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ---
 
-## 9. 当前判断
+## 10. 当前判断
 
 截至 2026 年，更稳健的状态是：
 
