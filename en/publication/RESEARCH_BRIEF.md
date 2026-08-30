@@ -14,7 +14,7 @@
 
 The AI infrastructure cycle is no longer best understood as a contest over the fastest accelerator.
 
-The relevant competitive unit has moved toward the complete production system:
+The relevant competitive unit has shifted toward the complete production system:
 
 > **advanced logic + HBM + advanced packaging + interconnect + compiler/runtime + rack/data center + power/LPS + capital + production workload**
 
@@ -44,7 +44,7 @@ The relevant competitive test is therefore:
 
 > **Can an alternative stack deliver production workloads with acceptable migration cost, utilization, reliability, supply assurance, and total economics?**
 
-A cheaper die or a stronger isolated benchmark is not sufficient by itself.
+Neither a cheaper die nor a stronger isolated benchmark is sufficient by itself.
 
 ### 1.2 AI/HPC is changing the marginal destination of capital
 
@@ -55,7 +55,7 @@ The report describes the resulting structure as a **Two-Speed Semiconductor Econ
 - AI infrastructure demand can carry high willingness to pay, long commitments, prepayment capacity, and strong capital formation;
 - traditional end systems remain important but may operate with lower bidding power, longer qualification clocks, and tighter BOM constraints.
 
-The key variable is therefore not only current capacity. It is **which demand pool is increasingly able to induce the next increment of capacity.**
+The key variable is therefore not current capacity alone, but **which demand pool is increasingly able to induce the next increment of capacity.**
 
 ### 1.3 Gross supply and residual access are different variables
 
@@ -72,7 +72,7 @@ NonAI_Residual
 
 ![Figure 2 — Non-AI Residual Capacity](figures/fig-02-narc-mechanism.svg)
 
-NARC is not one universal percentage. It must be evaluated separately for each physical pool and qualification boundary.
+NARC is not a single universal percentage. It must be evaluated separately for each physical pool and qualification boundary.
 
 ---
 
@@ -108,7 +108,7 @@ The report keeps HBM bits, DRAM wafer input, packaging capacity, and rack deploy
 
 ## 3. Forward commitments have become an industrial signal
 
-When direct customer-level HBM, packaging, or rack allocation is unavailable, forward commitments provide a more defensible indicator of resource-reservation intensity than invented fleet arithmetic.
+When direct customer-level HBM, packaging, or rack allocation is unavailable, forward commitments provide a more defensible indicator of resource-reservation intensity than assumption-driven fleet arithmetic.
 
 NVIDIA's disclosed manufacturing, supply, and capacity commitments rose from:
 
@@ -130,7 +130,7 @@ This mechanism is self-reinforcing only while utilization, customer demand, fina
 
 ## 4. Power has become part of compute delivery
 
-Power should not be analyzed only as an electricity-price input.
+Power should not be analyzed merely as an electricity-price input.
 
 At modern rack densities, the limiting variable becomes **Time-to-Power**: how long it takes to move from project intent to energized, usable capacity for a real workload.
 
@@ -160,7 +160,7 @@ The report calls this the **Anchor Compute Buyer Effect**:
 
 > **long-duration workload demand → revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
 
-This can strengthen the buildout when demand is real and utilization follows.
+This can strengthen the buildout when demand is durable and utilization follows.
 
 It can also increase concentration, duration mismatch, and financing correlation.
 
@@ -173,7 +173,7 @@ The report therefore distinguishes among:
 3. third-party infrastructure capital;
 4. supplier equity / credit support.
 
-Large CapEx alone does not prove either durability or a bubble.
+Large CapEx alone does not by itself establish either durable demand or a bubble.
 
 The relevant question is whether the capital base is validated by **utilization, revenue, market clearing, customer cash generation, financing quality, and verified workflow output.**
 
@@ -183,7 +183,7 @@ The relevant question is whether the capital base is validated by **utilization,
 
 The report does not argue that smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, or other long-lifecycle systems become irrelevant.
 
-The industrial risk is different:
+The industrial risk lies elsewhere:
 
 > **importance to end users does not automatically guarantee priority in upstream capital allocation.**
 
@@ -286,7 +286,7 @@ The highest-value reverse signals include:
 - new first-party evidence materially changing China's Production-Grade Gates or autonomous frontier closure;
 - regulatory remedies materially changing interface access, tying, or entry conditions.
 
-The framework is designed so that evidence can move the conclusion.
+The framework is designed so that new evidence can change the conclusion.
 
 ---
 
@@ -331,6 +331,6 @@ They are:
 - whether long-duration commitments and financing structures convert into utilization;
 - whether installed compute produces verified workflow output and durable cash flow.
 
-The current evidence supports **S2 — Baseline Concentration**, not permanent monopoly, not automatic competitive diffusion, and not a confirmed capital hard landing.
+The current evidence supports **S2 — Baseline Concentration**; it does not support a conclusion of permanent monopoly, automatic competitive diffusion, or a confirmed capital hard landing.
 
 For the complete evidence, denominators, counterarguments, and falsification boundaries, read the [32-chapter canonical English report](README.md), the [List of Figures](01-list-of-figures.md), and the [Core Evidence Ledger](../核心证据台账.en.md).
