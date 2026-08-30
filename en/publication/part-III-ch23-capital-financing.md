@@ -65,7 +65,7 @@ The report therefore uses financing structure to ask **who owns the downside and
 
 ## 2. Asset-light platforms and heavy infrastructure carry different return structures
 
-NVIDIA combines high system margin, strong cash generation, and relatively low direct fixed-asset intensity.
+NVIDIA combines high gross margin and strong cash generation with an externalized manufacturing model documented in its Form 10-K.[^6]
 
 FY26 NVIDIA-defined non-GAAP free cash flow was **US$96.575B**.[^1] FY27 Q2 revenue was **US$96.221B**, Data Center **US$89.0B**, GAAP gross margin **75.0%**, and GAAP operating income **US$63.734B**.[^2]
 
@@ -109,7 +109,7 @@ The **>US$500B** figure therefore remains a mobilization target—not committed,
 
 The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyond hardware into **land + power + shell (LPS)**. NVIDIA disclosed credit support for the LPS buildout, a **US$1.5B** investment in SB Energy, an initial **4.25 IT-GW** design capacity, and OpenAI as the end customer.[^4]
 
-NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested close to **US$50B** in frontier AI labs and discussed selective credit enhancement providing close to **2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
+NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested **nearly US$50B** in frontier AI labs and discussed selective credit enhancement for **nearly 2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
 These disclosures support a distinct analytical mechanism:
 
@@ -158,7 +158,7 @@ A financing structure therefore must answer:
 
 ## 9. Anchor Buyers reduce financing risk while increasing concentration
 
-OpenAI, Anthropic, and other long-duration demand anchors improve revenue visibility and can make project finance easier.
+OpenAI and other long-duration demand anchors can improve revenue visibility and make project finance easier.
 
 But if project economics depend heavily on a single model company, technology risk can turn into customer-concentration / utilization risk.
 
@@ -224,3 +224,4 @@ Additional headline capital targets are not sufficient. The higher-quality confi
 [^3]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^4]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment, initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^5]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+[^6]: NVIDIA Corporation, FY26 Form 10-K, external foundry / memory / packaging manufacturing model and supply commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
