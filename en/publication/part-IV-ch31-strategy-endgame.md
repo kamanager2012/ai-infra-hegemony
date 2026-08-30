@@ -1,18 +1,18 @@
-# Part IV · Chapter 31: The 2036 Endgame and Strategic Optionality
+# Part IV · Chapter 31: Strategic Implications Under Alternative AI-Infrastructure States
 
-## 1. 2036 is not a market-share forecast point
+## 1. The strategic problem is preserving executable optionality
 
-This report does not predict one company's exact 2036 market share and does not assign fixed scenario probabilities.
+This chapter does not treat 2036 as a point estimate. It uses the report's four structural states to ask which strategic options remain valuable when the relative weight of concentration, substitution, scarcity, and capital clearing changes.
 
-The purpose of 2036 is to extend today's mechanisms across a longer time scale and ask what industry structures become possible if observable variables persist.
+The competitive unit is already a system stack spanning advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, racks/pods, data centers, power, capital, and sustainable workload demand.
 
-The competitive unit has moved from one chip toward a system stack that can include advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, racks/pods, data centers, power, capital, and sustainable workload demand.
+The strategic question is therefore:
 
-The long-run question is therefore:
+> **Which capabilities preserve bargaining power, continuity, and capital flexibility across S1–S4 rather than only under today's S2 baseline?**
 
-> **Will these layers become highly coordinated by a small number of platforms, or supplied by multiple interoperable systems?**
+This reframes strategy away from predicting one permanent winner and toward maintaining executable options under changing system conditions.
 
-## 2. Five long-run dividing lines
+## 2. Five structural variables drive the strategic choice set
 
 The long-run industry structure depends primarily on five questions.
 
@@ -87,7 +87,7 @@ The long-run question is:
 
 The full S1–S4 definitions belong in [Chapter 30](part-IV-ch30-scenarios.md).
 
-### 2A. Four scenarios imply four different strategic actions
+### 2A. The same asset or capability changes value across S1–S4
 
 Scenario analysis matters because it changes which options should be preserved today.
 
@@ -114,7 +114,7 @@ The objective is not to predict one permanent winner. It is:
 
 > **to keep an executable next move when the relative weight of S1–S4 changes.**
 
-## 3. Current strategic baseline: high growth, high concentration, and real substitution paths coexist
+## 3. Current baseline: S2 requires efficiency plus optionality
 
 As of August 2026, the evidence mix remains closest to **S2 — Baseline Concentration**.
 
@@ -132,7 +132,7 @@ This is not a fixed ten-year forecast.
 
 It is the starting point for current strategic choices.
 
-## 4. Enterprise strategy: prove workflow economics before locking long-duration compute
+## 4. Enterprise: prove workflow economics before extending duration
 
 A disciplined sequence is:
 
@@ -148,7 +148,7 @@ Experimental or rapidly changing workloads should preserve flexible / multi-prov
 
 The dangerous sequence is to reserve large long-duration capacity first and search for enough workloads later.
 
-## 5. Enterprise strategy: price executable optionality; maintain a second path when its value exceeds carrying cost
+## 5. Enterprise: price optionality explicitly
 
 Portability does not require equal purchasing across all vendors.
 
@@ -185,7 +185,7 @@ The objective is:
 
 ---
 
-## 6. Capital strategy: classify the asset before discussing "AI valuation"
+## 6. Capital: classify the asset before discussing valuation
 
 At least four asset classes should remain separate:
 
@@ -205,7 +205,7 @@ High CapEx can be an entry barrier and preparation for growth, or a source of fu
 
 Capital analysis therefore requires CapEx, utilization, revenue, FCF, forward commitments, and clearing prices together.
 
-## 7. Capital strategy: Duration Mismatch is more dangerous than a high valuation by itself
+## 7. Capital: duration mismatch is the structural risk
 
 Short-cycle compute demand can be matched against long-duration debt, PPAs, data-center shells, and transmission assets.
 
@@ -219,7 +219,7 @@ Under high demand, long-duration assets can be a moat.
 
 Under S4, the same assets can become long-lived burdens.
 
-## 8. National strategy: the competitive unit is no longer one fab
+## 8. Industrial policy: the competitive unit is no longer one fab
 
 A complete frontier-AI industrial capability requires at least:
 
@@ -237,7 +237,7 @@ Subsidizing one advanced fab therefore does not create system closure.
 
 Manufacturing, memory, packaging, software, and power have to be managed as one industrial strategy.
 
-## 9. National strategy: Power Policy has become Compute Policy
+## 9. Industrial policy: power policy has become compute policy
 
 High-power racks pull grid planning, generation, interconnection, substations, cooling, and permitting into technology competition.
 
@@ -249,7 +249,7 @@ A national AI-infrastructure strategy therefore has to manage:
 
 at the same time.
 
-## 10. National strategy: interoperability is strategic optionality
+## 10. Industrial policy: interoperability creates strategic optionality
 
 System resilience does not require rejecting the leading platform.
 
@@ -318,7 +318,7 @@ The labor and education implications are developed in Chapters 25 and 26.
 
 ---
 
-## 13. What evidence would change the strategic direction
+## 13. What would change the strategic priorities
 
 The most important update variables include:
 
@@ -337,7 +337,7 @@ These variables determine the relative weight of S1–S4 rather than a fixed ten
 
 ---
 
-## 14. Final strategic judgment
+## 14. Strategic bottom line
 
 As of August 2026, AI infrastructure remains in a phase where:
 
@@ -362,7 +362,7 @@ The common principle for enterprises, capital, and national strategy can be comp
 
 ---
 
-## 15. Falsification boundary: what would force this chapter to change
+## 15. Falsification boundary
 
 Long-run strategic priorities should be re-ranked if:
 
