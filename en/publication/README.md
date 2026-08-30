@@ -5,7 +5,7 @@
 **Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
 **Evidence cutoff:** August 28, 2026  
 **Edition revision:** August 30, 2026  
-Claims in this edition use evidence available by the cutoff; later edits are correctional or editorial and are documented in the research-transparency record.
+Claims in this edition use evidence available by the cutoff; later edits are limited to corrections or editorial changes and are documented in the research-transparency record.
 
 This 32-chapter report analyzes the shift from individual-accelerator competition toward system-stack competition and its consequences for advanced logic, HBM, advanced packaging, power, cloud architecture, capital formation, traditional end markets, China's parallel stack, Agent-Native Software, Physical AI, labor and talent systems, and the long-run industrial structure.
 
@@ -17,11 +17,10 @@ The report keeps observed facts, company guidance, institutional forecasts, repo
 
 For the core thesis:
 
-- [Research Brief](RESEARCH_BRIEF.md)
-
-1. [Executive Summary](part-I-ch01-executive-summary.md)
-2. [Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View](part-IV-ch32-master-judgment.md)
-3. [Scenario Framework — Discriminating S1 to S4](part-IV-ch30-scenarios.md)
+1. [Research Brief](RESEARCH_BRIEF.md)
+2. [Executive Summary](part-I-ch01-executive-summary.md)
+3. [Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View](part-IV-ch32-master-judgment.md)
+4. [Scenario Framework — Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 
 For methodology and evidence discipline:
 
