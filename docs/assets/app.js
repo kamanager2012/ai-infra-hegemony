@@ -94,6 +94,7 @@
   const bundleCache = new Map();
   const publicDocuments = new Set([
     "00-front-matter.md",
+    "01-table-of-contents.md",
     "02-list-of-tables.md",
     "03-abbreviations-and-glossary.md",
     "04-research-transparency.md",
