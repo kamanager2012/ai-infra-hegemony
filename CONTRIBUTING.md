@@ -4,7 +4,7 @@ This repository welcomes factual corrections, source repairs/upgrades, mechanism
 
 The Chinese 32-chapter formal report on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
 
-**Formal-text freeze:** the 32-chapter bilingual report was most recently refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The August 30 pass was limited to validated definition-level corrections and did not change the S2 baseline judgment or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
+**Formal-text freeze:** the 32-chapter bilingual report was most recently refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The August 30 pass was limited to validated definition-level corrections plus a bilingual Chapter 32 parity repair and did not change the S2 baseline judgment or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
 
 ## Start with these files
 
@@ -90,7 +90,7 @@ After the formal-text freeze, when a permitted material correction or evidence r
 
 中文 `main` 的 32 章正式报告是事实、证据等级与分析范围的 source of truth。英文版应与同一研究状态同步维护。
 
-**正式正文冻结：**32 章中英文正式报告最近一次于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。8 月 30 日只处理已经验证的定义级问题，没有改变当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
+**正式正文冻结：**32 章中英文正式报告最近一次于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。8 月 30 日只处理已经验证的定义级问题与 Ch32 双语实质一致性修复，没有改变当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
 
 ## 先看这些文件
 
