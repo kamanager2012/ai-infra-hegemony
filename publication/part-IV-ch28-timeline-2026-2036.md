@@ -104,7 +104,7 @@ PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它�
 
 ## 5. Phase IV：2034–2036 — Maturity、Diffusion、Concentration 或 Clearing
 
-到这一观察窗口，四类结构会更容易区分：
+到这一观察窗口，四类结构在实证上应更容易区分：
 
 ### Competitive Expansion
 
@@ -116,7 +116,7 @@ PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它�
 
 ### Resource Hegemony
 
-logic、HBM、packaging、software / interconnect 与 power 的协调能力进一步集中。若 second path 长期不足，低议价和长认证整机的 quantity-assurance gap 与 upgrade-tax risk 进一步固化。
+logic、HBM、packaging、software / interconnect 与 power 的协调能力进一步集中。若 executable second path 长期不足，低议价和长认证整机的 quantity-assurance gap 与 upgrade pressure 可能进一步固化。
 
 ### Capital Hard Landing
 
@@ -188,7 +188,7 @@ Crane、Talen/AWS、Kairos/Google、PORTS-Pike 等项目都必须按当前 state
 3. **AI workload monetization 是否跨过 capital-cost coverage threshold；**
 4. **基础设施是否能够从 sponsor / seller-supported financing 过渡到更独立、可持续的 long-duration capital structure。**
 
-只要这些临界点没有同时明朗，2036 就应继续被视为条件截面，而不是确定答案。
+只要这些 threshold 还没有实质性明朗，2036 就应继续被视为 conditional cross-section，而不是 deterministic endpoint。
 
 ## References
 
