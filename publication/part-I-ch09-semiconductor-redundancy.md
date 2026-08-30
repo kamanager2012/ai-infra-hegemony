@@ -3,7 +3,7 @@
 
 ## 1. Resilience 本质上是 System-Continuity Problem
 
-Frontier AI 的 supply security 不是一张 fab 地图，也不是 chip designer 的国籍表。真正需要测试的是：**整个工业链在关键 disruption 下，能否继续生产、qualification、service、repair 与跨代扩张。**
+Frontier AI 的 supply security 不能从一张 fab 地图或相关企业的国籍直接推断。真正需要测试的是：**整个工业链在关键 disruption 下，能否继续生产、qualification、service、repair 与跨代扩张。**
 
 一套 frontier AI system 的 physical supply chain 至少涉及：
 
@@ -191,7 +191,7 @@ TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 
 > **higher-cost strategic redundancy**
 
-这不是效率失败，而是安全目标改变后的成本函数变化。
+这不只是 efficiency loss，而是在不同 security objective 下运行的另一套 cost function。
 
 ## 8. AI demand 会加速这种地理重构
 
