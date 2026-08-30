@@ -45,6 +45,24 @@ This is also the report's core framework for the next decade: infrastructure exp
 
 ---
 
+## 2026 load-bearing evidence snapshot
+
+This table is intentionally narrow: it shows the public observations and report-side calculations that currently carry the most analytical weight, together with the denominator boundary that prevents overclaiming.
+
+| Signal | 2026 observation / calculation | Evidence identity | Boundary |
+|---|---|---|---|
+| TSMC demand mix | HPC **66%** of 2Q26 revenue; 7 nm and below **77%** of wafer revenue | first-party actual | revenue mix ≠ customer wafer allocation |
+| HBM manufacturing intensity | Micron: HBM3E requires **≈3× wafer supply** vs. DDR5 at the same node / same bits | first-party physical trade ratio | not a price multiple; not a permanent ratio for every HBM generation |
+| HBM normalized intensity | TrendForce 2026E: HBM ≈**22% of DRAM wafer input** and ≈**9% of DRAM bit supply** → **22/9 ≈ 2.44×** normalized wafer-input-per-bit index | B-grade forecast + D-grade report calculation | not an absolute HBM supply gap; not interchangeable with Micron's same-node test |
+| Aggregate DRAM balance | 2026 sufficiency ratio estimated at roughly **−1% to −2%** | B-grade institutional forecast | aggregate DRAM, not HBM-specific |
+| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments: **US$95.2B → US$279B** from Jan. 25 to Jul. 26, 2026 | first-party filing | aggregate commitments; no supplier-level split |
+| LPS / power coordination | PORTS-Pike initial **4.25 IT-GW design capacity**, phased delivery planned from 2028 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |
+| Infrastructure finance | **>US$500B** third-party-capital mobilization target announced by NVIDIA and financial partners | first-party target | target ≠ funded / committed / deployed capital |
+
+For the full denominator audit and calculations, see [Chapter 8 — Quantitative Framework](en/publication/part-I-ch08-quantitative-framework.md).
+
+---
+
 ## Core findings
 
 ### 1. The competitive unit has moved from the chip to the system stack

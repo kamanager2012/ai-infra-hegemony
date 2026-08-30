@@ -45,6 +45,24 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 
 ---
 
+## 2026 承重证据快照
+
+这张表刻意保持窄口径：只列当前最承重的公开观察与本报告计算，同时把 denominator / evidence identity 写在同一行，避免数字离开边界后被过度解释。
+
+| Signal | 2026 observation / calculation | Evidence identity | Boundary |
+|---|---|---|---|
+| TSMC demand mix | 2026 Q2 HPC 占 revenue **66%**；7 nm 及以下占 wafer revenue **77%** | first-party actual | revenue mix ≠ customer wafer allocation |
+| HBM manufacturing intensity | Micron：same node / same bits 下 HBM3E 约需 DDR5 **3× wafer supply** | first-party physical trade ratio | 不是售价倍数；不是所有 HBM generation 的永久比例 |
+| HBM normalized intensity | TrendForce 2026E：HBM 约占 **22% DRAM wafer input**、约占 **9% DRAM bit supply** → **22/9 ≈ 2.44×** normalized wafer-input-per-bit index | B 级 forecast + D 级本报告计算 | 不是 HBM absolute supply gap；不能与 Micron same-node test 混用 |
+| Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1% 到 −2%** | B 级 institutional forecast | 是 aggregate DRAM，不是 HBM-specific |
+| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B** | first-party filing | aggregate commitments；没有 supplier-level split |
+| LPS / power coordination | PORTS-Pike 初始 **4.25 IT-GW design capacity**，计划自 2028 分阶段交付 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |
+| Infrastructure finance | NVIDIA 与金融机构公布 **>US$500B** third-party-capital mobilization target | first-party target | target ≠ funded / committed / deployed capital |
+
+完整 denominator audit 与计算见[第8章：Quantitative Framework](publication/part-I-ch08-quantitative-framework.md)。
+
+---
+
 ## 核心判断
 
 ### 1. 竞争单位已经从 Chip 上移到 System Stack
