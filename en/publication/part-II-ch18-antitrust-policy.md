@@ -6,7 +6,7 @@ AI platform power can span accelerators, interconnect, compiler/runtime, rack re
 
 Competitive pressure in each component market does not automatically eliminate system-level power when one platform still coordinates several critical interfaces and switching costs.
 
-The regulatory question therefore extends beyond one market-share number:
+The regulatory question therefore extends beyond a single market-share number:
 
 > **Do cross-layer interfaces, bundling, migration costs, and supply coordination create exclusionary effects together?**
 
@@ -45,7 +45,7 @@ It is not:
 
 Liability, seriousness, duration, relevant sales, procedural outcome, and remedy design all matter.
 
-The 10% figure therefore indicates the strength of the legal tool. It does not enter the earnings model.
+The 10% figure therefore indicates the strength of the legal tool; it does not enter the earnings model.
 
 ## 4. Regulatory procedure must be read by legal state
 
@@ -150,7 +150,7 @@ It cannot directly manufacture:
 
 Even highly effective interface remedies can therefore coexist with continuing physical scarcity.
 
-Legal competition and physical supply have to remain separate analytical models.
+Legal competition and physical supply must remain separate analytical models.
 
 ## 9. China-stack effects remain layer-specific
 
@@ -174,7 +174,7 @@ The two can influence strategic bargaining and policy, but they are not substitu
 **Source:** Report scenario framework; EU competition and DMA procedures as regulatory-mechanism background.[^2][^3]  
 **Note:** The table maps mechanisms. It does not imply a final infringement finding or remedy against any specific AI platform.
 
-Regulation is therefore not a one-direction "negative for the platform" variable.
+Regulation is therefore not a one-directional "negative for the platform" variable.
 
 Its structural effect depends on whether binding remedies actually reach migration, bundling, and access.
 
@@ -184,7 +184,7 @@ As of August 2026, regulation is an important external variable for AI system pl
 
 An investigation, market inquiry, or statutory fine ceiling is not treated as proof that structural reform has already occurred.
 
-The events that need continuous monitoring are:
+The events that require continuous monitoring are:
 
 - formal proceedings;
 - Statement of Objections or equivalent formal complaint;
@@ -205,7 +205,7 @@ The importance of regulation to system-stack competition should be downgraded if
 - physical scarcity remains the dominant buyer constraint;
 - market-structure change is driven mainly by technical substitution rather than regulation.
 
-Conversely, a headline fine should not increase regulatory weighting by itself. The higher-value evidence is a binding remedy that changes interfaces, access conditions, or cross-stack migration economics.
+Conversely, a headline fine should not by itself increase regulatory weighting. The higher-value evidence is a binding remedy that changes interfaces, access conditions, or cross-stack migration economics.
 
 ## References
 
