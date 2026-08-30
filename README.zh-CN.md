@@ -5,6 +5,8 @@
 
 一份研究 AI 基础设施、半导体、云系统、资本形成与产业战略的长期行业报告。
 
+**Canonical research language：English。** 中文版为 professional parallel edition，保持事实、分母、机制与证伪逻辑对等，不做逐句机械翻译。
+
 **标题口径：**“霸权 / Hegemony”是本报告研究的**风险状态与结构命题**，不表示截至 2026-08-28 已经进入 S3 — Resource Hegemony。当前公开证据组合仍最接近 S2 — Baseline Concentration。
 
 **资料检索与修订截止：2026-08-28**  
@@ -208,8 +210,8 @@ AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume �
 
 ### 快速阅读
 
-1. [第1章：执行摘要与未来十年核心判断](publication/part-I-ch01-executive-summary.md)
-2. [第32章：总判——从事实、机制到可证伪的长期判断](publication/part-IV-ch32-master-judgment.md)
+1. [第1章：执行摘要](publication/part-I-ch01-executive-summary.md)
+2. [第32章：Master View](publication/part-IV-ch32-master-judgment.md)
 3. [第30章：S1–S4 四类标准情景](publication/part-IV-ch30-scenarios.md)
 
 ### 完整报告
