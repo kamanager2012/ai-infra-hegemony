@@ -8,6 +8,10 @@ Its purpose is operational: **given the evidence now, which structural state bes
 
 Scenario weighting therefore depends on state variables that can be monitored:
 
+![Figure 6 — S1–S4 scenario map](figures/fig-06-s1-s4-scenario-map.svg)
+
+**Figure 6 note:** Qualitative report framework. Positions are schematic rather than calibrated scores; S1–S4 are parallel conditional states with no fixed probabilities.
+
 - layer-specific scarce-capacity access;
 - HBM / advanced-packaging supply;
 - second-stack substitution;
