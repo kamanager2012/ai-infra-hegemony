@@ -178,6 +178,29 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 > **新增资本的增长速度，是否长期快于可验证 workload 与现金流的增长速度。**
 
+## 6A. Demand Duration：AI 不是从零开始铺设，而是在全球数字 Installed Base 上叠加
+
+如果 AI 基础设施的需求只来自 frontier-model scaling，那么算法效率、模型压缩或一次供给扩张都可能显著缩短资本周期。
+
+但现实需求池还包含另一条传导：
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume → Infrastructure Demand**
+
+过去几十年的 IT 投资已经把大量企业活动转化为 software、database、API、digital document、identity system 与 networked workflow。AI 可以在这些既有数字流程上增加理解、生成、预测、决策与执行能力，而不需要重新完成一次完整的“从物理流程到数字化”的基础建设。
+
+因此，AI infrastructure 的 duration 不能只用“下一代模型需要多少 GPU”来判断，还要观察：
+
+- enterprise digital-workflow base；
+- AI penetration rate；
+- assistant → agent / automation 的深度；
+- execution frequency；
+- cost per verified workflow；
+- production reliability 与 human-review burden。
+
+这也是为什么**算法效率大幅提高与总基础设施需求长期增长可以同时成立**：单位任务资源下降可以被更广的 workflow penetration、更多执行频次或更深 agent loop 抵消甚至超过。
+
+但这一机制不是永久需求保证。若 AI 无法形成足够低成本、可靠、可验证的 workflow output，Digital Installed Base 只代表潜在 TAM，不代表真实 utilization 或 cash flow。
+
 ---
 
 ## 7. 五类领先清算信号
