@@ -12,7 +12,7 @@ frontier accelerator 在 logic die 离开 fab 时还不是 commercial deliverabl
 
 ---
 
-## 2. Tightness 已有 First-Party Evidence，Revenue Label 仍需 Denominator Discipline
+## 2. First-Party Evidence 已确认 Tightness，Revenue Label 仍需 Denominator Discipline
 
 TSMC 的公开表述已经足以确认 advanced-packaging tightness：[^1][^2]
 
@@ -26,11 +26,11 @@ TSMC 的公开表述已经足以确认 advanced-packaging tightness：[^1][^2]
 - 4Q24 transcript：**advanced packaging and testing >8% of revenue**；
 - 4Q25 transcript 公司更正口径：**advanced packaging slightly over 10% of 2025 revenue**。[^5]
 
-两者标签不同，因此不能把 >8% → >10% 直接当作严格同口径连续序列。
+两者标签不同，因此 >8% 与 >10% 不能被当作严格同口径连续序列。
 
 ---
 
-## 3. Tightness 可观察，Customer Allocation 未公开
+## 3. Customer Allocation 仍未公开
 
 TSMC 公开资料可以支持：
 
