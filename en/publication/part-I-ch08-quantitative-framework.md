@@ -13,7 +13,7 @@ The report therefore permits four quantitative classes in the main argument:
 3. **Layer-specific stress tests**;
 4. **Capacity / commitment / utilization indicators**.
 
-If a public denominator cannot be closed, the variable remains a parameter or proxy. The report does not fill the gap with a point estimate simply to make the model look complete.
+If a public denominator cannot be closed, the variable remains a parameter or proxy. The report does not insert a point estimate merely to create the appearance of completeness.
 
 ## 2. Peak FLOPS is not a workload denominator
 
@@ -213,7 +213,7 @@ The FY27 Q2 10-Q states that the latest commitments are primarily associated wit
 
 The figure cannot identify how much goes to any individual supplier, but it is an observable proxy for future resource-reservation intensity.
 
-When customer-level HBM bits, CoWoS allocation, and rack shipment are unavailable, forward commitments are more informative than "revenue divided by an invented rack price."
+When customer-level HBM bits, CoWoS allocation, and rack shipments are unavailable, forward commitments are more informative than synthetic fleet arithmetic built from an assumed rack price.
 
 ## 13. Scarce-capacity access remains layer-specific
 
