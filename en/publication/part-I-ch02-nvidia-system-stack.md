@@ -2,7 +2,7 @@
 
 ## 1. NVIDIA's moat is a system-stack moat
 
-NVIDIA's most important advantage is no longer the point performance of one GPU generation. It is the ability to turn accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system with low in-platform migration friction. The official GB200 NVL72 specification makes the shift in sales unit explicit:[^1]
+NVIDIA's most important advantage is no longer the standalone performance of a single GPU generation. It is the ability to turn accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system with low in-platform migration friction. The official GB200 NVL72 specification makes the shift in the commercial unit of delivery explicit:[^1]
 
 **Table 2.1 — GB200 NVL72 rack-scale system structure**
 
@@ -73,7 +73,7 @@ This is where chip-only benchmarks most easily understate system power. The fart
 
 ## 5. Platform profit can become next-generation reservation power
 
-If system-level advantage produces high profit and free cash flow, it can influence the supply chain. The company-level anchors needed here are limited to one set:
+If system-level advantage produces high profit and free cash flow, it can influence the supply chain. The relevant company-level anchors are straightforward:
 
 **Table 2.2 — NVIDIA seller-side economics and forward supply commitments**
 
@@ -114,7 +114,7 @@ Strong platform power therefore does not make physical supply fully endogenous. 
 
 This is why the report separates **Scarce-layer Value Capture** from a simple market-share monopoly framework. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
 
-## 7. The relevant counterattack is a second system stack
+## 7. The relevant competitive challenge is a second system stack
 
 The strategic significance of Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA is not merely the existence of another chip.[^5] Hyperscalers also possess:
 
@@ -125,7 +125,7 @@ The strategic significance of Google TPU/Ironwood, AWS Trainium, Microsoft Maia,
 - in-house interconnect and rack/pod design;
 - the ability to optimize a narrower workload at system level.
 
-The future competition is therefore not:
+The competitive frame is therefore not:
 
 > NVIDIA GPU vs. custom ASIC
 
@@ -133,7 +133,7 @@ but:
 
 > **NVIDIA system stack vs. cloud system stack**
 
-This can produce two effects that point in opposite directions yet coexist:
+That shift can produce two effects that pull in opposite directions and still coexist:
 
 1. **Platform-profit diversion:** in-house cloud systems reduce dependence on part of NVIDIA's platform profit pool;
 2. **Upstream resource competition:** those systems still compete for advanced logic, HBM, advanced packaging, and power.
@@ -169,7 +169,7 @@ The key question is not whether non-NVIDIA hardware remains technically present 
 - rising migration friction away from NVIDIA;
 - stronger commercial incentives for model creators to publish NVIDIA-optimized variants first.
 
-This risk is distinct from conventional CUDA lock-in. CUDA lock-in mainly operates after a workload has selected the NVIDIA execution environment. A distribution-gateway risk can act earlier:
+This risk is distinct from conventional CUDA lock-in. CUDA lock-in mainly operates after a workload has selected the NVIDIA execution environment. A distribution-layer foreclosure risk can emerge earlier:
 
 > **model discovery → tool selection → runtime selection → deployment → accelerator.**
 
