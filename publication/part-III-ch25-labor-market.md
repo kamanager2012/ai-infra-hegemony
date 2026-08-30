@@ -1,12 +1,12 @@
 # Part III · 第25章：AI 与劳动市场——Task-to-Job Translation
 
-## 1. AI 首先改变 Task，而不是职业名称
+## 1. AI 首先改变 Task，再改变 Job Structure
 
-一个职业通常由多种 task 组成，其中一部分可以被自动化，一部分被增强，一部分仍需要 physical presence、judgment、liability 或 trust。
+Job 是多个 task 的组合，而不同 task 的 automation cost、review burden、liability、physical presence 与 trust 要求并不相同。
 
-因此，最可靠的起点是 task exposure，而不是直接预测 job loss。
+因此，分析起点应该是 task / workflow exposure，而不是直接从模型能力外推 job loss。
 
-## 2. Exposure 不等于 Unemployment
+## 2. Exposure 不是 Employment Outcome
 
 ILO 与 IMF 的公开研究都要求把 occupational exposure 与实际 adoption、job redesign 和 employment outcome 分开。
 
@@ -16,7 +16,7 @@ IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-e
 
 这些都是 occupational / employment exposure，不是“同等比例任务会被自动化”，更不是同等比例岗位消失。
 
-### 2A. 2026 已出现局部就业信号，但不能外推成全经济失业结论
+### 2A. 2026 出现 Localized Signal，但不是 General Labor-Market Verdict
 
 Stanford AI Index 2026 汇总的美国数据指出，**22–25 岁 software developers 的就业较 2024 年下降接近 20%**；同时，其组织调查中约三分之一受访者预计未来一年 AI 会减少 workforce，但整体就业数据尚未显示同等规模的广泛岗位损失。[^3]
 
@@ -32,7 +32,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 
 > **局部 hiring-pipeline 与 early-career 信号已经出现，但 task exposure → workflow adoption → employment outcome 的传导仍需继续观察。**
 
-## 3. Task-to-Job Translation：从模型能力到就业结果至少要跨五层
+## 3. Task-to-Job Translation 必须跨过多个 Gate
 
 本报告使用以下传导链：
 
@@ -49,7 +49,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 
 因此，就业预测必须从 task 和 workflow 开始，而不能从 benchmark 直接跳到 job count。
 
-## 4. Adoption Economics 是技术能力到替代之间的第一道门
+## 4. Adoption Economics 是第一道 Substitution Gate
 
 企业只有在：
 
@@ -61,7 +61,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 
 reliability、latency、security、integration 与 legal responsibility 都会改变 adoption。
 
-## 5. 最容易被重构的是 Digital / Repeatable / Evaluable Tasks
+## 5. Exposure 最高的是 Digital / Repeatable / Evaluable Tasks
 
 例如 drafting、summarization、classification、routine coding、standard support 与 research assistance。
 
@@ -69,7 +69,7 @@ reliability、latency、security、integration 与 legal responsibility 都会�
 
 但“任务被压缩”仍可能表现为同一岗位产出提高，而不是岗位立即取消。
 
-## 6. Responsibility Constraint 会保留大量 Human-in-the-loop
+## 6. Responsibility Constraint 会保留 Human Review
 
 medical sign-off、engineering sign-off、field maintenance、nuclear operations、complex negotiation、care work 等任务受到 liability、physical presence、licensing 与 trust 约束。
 
@@ -77,7 +77,7 @@ AI 可能改变 preparation / analysis / documentation，但最后责任仍可�
 
 因此 human review 既是软件成本，也是劳动转换的重要边界。
 
-## 7. Entry-level Ladder 是最值得观察的结构变化
+## 7. Entry-Level Ladder 是关键 Structural Variable
 
 即使 total employment 短期没有明显下降，junior analyst、junior coder、entry-level support、routine research 等传统入门任务可能先被压缩。
 
@@ -89,7 +89,7 @@ AI 可能改变 preparation / analysis / documentation，但最后责任仍可�
 
 这可能比一个统一“失业率预测”更重要。
 
-## 8. Wage Outcome 可能出现分化，而不是统一下降
+## 8. Wage Outcome 更可能出现分化
 
 AI 可以提高 high-skill worker leverage，同时降低 routine task value，也可能增加 system/operator/verification skill premium。
 
@@ -97,19 +97,19 @@ AI 可以提高 high-skill worker leverage，同时降低 routine task value，�
 
 劳动结果更可能是结构分化，而不是所有 knowledge workers 工资同步下降。
 
-## 9. Physical AI 的劳动传导通常更慢、更资本密集
+## 9. Physical AI 可能形成更慢的第二波传导
 
 warehouse、manufacturing、logistics、inspection、maintenance 等 physical tasks 的自动化还要跨过 hardware cost、reliability、safety、maintenance 与 regulation。
 
 因此 Physical AI 的 labor translation 通常比纯 digital workflow 更慢、更资本密集。
 
-## 10. AI Infrastructure 本身也创造新技能需求
+## 10. AI Infrastructure 本身创造新 Skill Demand
 
 AI expansion 同时增加 data-center technician、liquid-cooling engineer、power engineer、semiconductor process engineer、advanced-packaging engineer、network engineer、safety/compliance 与 model-infrastructure roles。
 
 所以劳动变化是 reallocation，不是单向“AI 减少工作”。
 
-## 11. 企业组织是否变薄，要看 Review 与 Task Volume
+## 11. Organization Shape 取决于 Review Burden 与 Task Volume
 
 agent-native workflow 可能减少部分 coordination work。
 
@@ -126,7 +126,7 @@ agent-native workflow 可能减少部分 coordination work。
 
 这些变量比“某行业被 AI 替代百分比”更接近真实组织变化。
 
-## 12. 当前判断
+## 12. Current Read
 
 截至 2026 年，已有足够证据说明 AI 正在重构任务，但没有足够跨国证据支持一个统一“全经济岗位消失率”。
 
