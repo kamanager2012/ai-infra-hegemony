@@ -2,27 +2,13 @@
 
 ## 1. Model Economics 不能脱离 Infrastructure Economics
 
-API、subscription 与 agent service 都建立在真实 variable-cost stack 之上，而不是接近零边际成本的软件复制。
+API、subscription 与 agent service 都建立在真实 variable-cost stack 之上：accelerator time、HBM bandwidth、KV cache、storage / retrieval、networking、third-party tools、human review、cloud margin 与 serving utilization。
 
-主要变量包括：
+因此，AI software 不应默认按 near-zero-marginal-cost SaaS 建模。
 
-- accelerator time；
-- HBM bandwidth / capacity；
-- KV cache；
-- storage / retrieval；
-- networking；
-- serving utilization；
-- model routing；
-- third-party tools；
-- human review。
+真正相关的单位是：
 
-因此，模型公司的经济性不能简单套用传统 SaaS 的“复制成本接近零”逻辑。
-
-真正需要回答的是：
-
-> **每一单位可交付智能或可完成工作流，能够创造多少收入或生产率价值，又消耗多少真实基础设施成本。**
-
----
+> **Revenue per completed workflow − total variable AI cost per completed workflow**
 
 ## 2. Algorithmic Efficiency 改变的是 Demand Function
 
@@ -96,13 +82,7 @@ Stanford AI Index 2025 给出一个历史量化锚：达到其所定义 GPT-3.5 
 
 ## 4. Open Source 先压缩 Model-Layer Rent，再影响 Infrastructure Rent
 
-open-source model 会：
-
-- 提高 capability diffusion；
-- 增加 private deployment；
-- 提高 model switching option；
-- 降低 API premium；
-- 增强 buyer bargaining power。
+open-source model 会扩大 capability diffusion、private deployment 与 model-switching option，同时压低 API premium。
 
 但模型层迁移速度通常快于：
 
@@ -188,7 +168,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 同一机制也会放大风险：如果 architecture efficiency 提高、收入不及预期或 workload 迁移，长期 capacity commitments 会转化为 utilization 与 duration risk。
 
-这一机制在第13章 **Anchor Compute Buyer Effect** 中展开。
+这一机制在第13章的 anchor-buyer analysis 中展开。
 
 ---
 
