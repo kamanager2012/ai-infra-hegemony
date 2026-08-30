@@ -1,21 +1,18 @@
-# Part III · 第20章：Value Capture Map——资金流、利润池与风险承担
+# Part III · 第20章：AI Infrastructure Stack 的 Value Capture 与 Risk Bearing
 
-## 1. 同一美元不能在产业链上重复计算
+## 1. Value Capture 与 Risk Bearing 必须分开映射
 
-AI infrastructure 的同一笔支出可能同时出现在：
+同一美元 AI infrastructure spending 可以在产业链不同位置表现为 hyperscaler CapEx、system-vendor revenue、foundry revenue、memory revenue、packaging revenue 与 data-center / power investment。
 
-- hyperscaler CapEx；
-- system-vendor revenue；
-- foundry revenue；
-- memory-vendor revenue；
-- packaging revenue；
-- data-center / power investment。
+这些不是互相独立的六笔钱。
 
-这些并不是六笔互相独立的钱。买方购入一套 system，卖方确认 revenue；卖方再向 foundry、memory 和 components 采购；cloud 同时建设机房和电力。把各层公开规模数字直接相加，会发生严重 double counting。
+因此真正需要回答的不是“全球利润池到底多大”，而是：
 
-因此，本章只分析**价值捕获位置**和**风险承担位置**，不制造一个不可审计的全球总利润池。
+> **哪一层捕获 economic rent，哪一层承担 asset risk；当 scarcity、switching cost、utilization 或 financing condition 改变时，两者如何重新分配？**
 
-## 2. Value Capture 由六个维度决定
+本章把 value capture 与 risk bearing 分开分析，避免 double counting，也避免固定 winner / loser ranking。
+
+## 2. 六个变量决定 Value Capture
 
 判断一层产业能留下多少利润，至少要同时看：
 
@@ -28,7 +25,7 @@ AI infrastructure 的同一笔支出可能同时出现在：
 
 因此，高 revenue share 不自动等于最高 value capture，高 gross margin 也不能跨商业模式直接比较。
 
-## 3. System Platform：把多个 scarce layer 组织成一套高价值产品
+## 3. System Platform 通过 Coordination 与 Switching Cost 变现
 
 NVIDIA 是当前最清晰的 system-platform 案例。FY27 Q2：Revenue **US$96.221B**、Data Center revenue **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**。[^1]
 
@@ -41,7 +38,7 @@ NVIDIA 是当前最清晰的 system-platform 案例。FY27 Q2：Revenue **US$96.
 
 但 system platform 也不拥有所有物理投入。foundry、HBM、advanced packaging 和 power 仍是外部边界。
 
-## 4. Foundry / Advanced Packaging：重资产制造可以成为数量闸门
+## 4. Foundry / Packaging 可以控制 Quantity，但不一定拥有最高 Margin
 
 TSMC 2025 gross margin 为 **59.9%**，HPC platform 占全年 revenue **58%**。[^2] 2025 的公司更正口径为 **advanced packaging slightly over 10% of revenue**，[^3] 而 2026 Q2 管理层进一步表示 packaging tightness 已经限制客户增长。[^4]
 
@@ -53,7 +50,7 @@ TSMC 2025 gross margin 为 **59.9%**，HPC platform 占全年 revenue **58%**。
 
 所以一个制造层可以成为物理 bottleneck，却不必拥有全产业最高 margin；**bottleneck location ≠ profit location**。
 
-## 5. HBM / Memory：高制造投入与产品周期共同创造稀缺利润
+## 5. Memory 捕获 Scarcity Rent，但仍然具有周期性
 
 SK hynix FY25 官方结果为 Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**，HBM revenue 同比超过一倍。[^5]
 
@@ -61,7 +58,7 @@ Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需
 
 但 memory 仍具有明显周期性。如果 HBM capacity 超前扩张、generation mismatch 上升或 demand 增速下降，利润可以快速回吐。因此，memory 更接近**高壁垒的制造稀缺周期**，不是永久平台租金。
 
-## 6. Hyperscaler：既拥有 distribution，也承担最大资产风险之一
+## 6. Hyperscaler 同时拥有 Distribution Power 与 Asset-Duration Risk
 
 Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal workload、customer base、custom silicon 和 data-center scale。这让它们有能力把一部分 platform economics 内部化。
 
@@ -77,7 +74,7 @@ Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal 
 
 所以 hyperscaler 不能简单归为“赢家”或“输家”。它们最强的资产是 distribution + workload + capital；最危险的资产是长期 infrastructure 先建设、workflow revenue 后兑现所形成的 duration mismatch。
 
-## 7. Supply commitments 是 system platform 与 manufacturing 之间的资金桥
+## 7. Supply Commitments 把 Platform Cash Flow 连接到 Manufacturing Capacity
 
 NVIDIA manufacturing, supply, and capacity commitments 从 2026-01-25 的 **US$95.2B** 上升到 2026-04-26 的 **US$119B**，再到 2026-07-26 的 **US$279B**。[^7]
 
@@ -85,7 +82,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 这也是 value capture 的重要动态：高 seller cash flow 可以更早变成下一代 wafer、memory、packaging 和 component commitments。
 
-## 7A. Financing Coordination：信用与资本组织能力正在成为新的系统层能力
+## 7A. Financing Coordination 正成为 System Capability
 
 2026 年 8 月的两项披露说明，system-platform coordination 已经从 supply commitments 延伸到 infrastructure finance：
 
@@ -110,7 +107,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 完整机制见第23、24章。
 
-## 8. Power / Powered Land：价值来自时间稀缺，而不是单纯电价
+## 8. Powered Land 捕获 Time-to-Power Scarcity
 
 当 rack power 进入约 **120 kW-class**，[^8]数据中心需要更强的 grid connection、substation、transformer、cooling 与 firm generation。拥有 powered land、existing interconnection 和可执行许可路径的资产会获得明显 **Time-to-Power** 价值。
 
@@ -118,7 +115,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 因此 power 可以成为 scarce layer，但其经济性必须与 utilization 和合同久期一起分析。长期 PPA 在高需求情景中是 hedge / moat，在 S4 中也可能成为 long-duration obligation。
 
-## 9. Model / Application：长期利润取决于 Workflow，而不是模型本身
+## 9. Model / Application 的价值取决于 Workflow Economics
 
 模型公司与 AI software 拥有 model capability、API、user distribution 和 workflow 入口，但也面对 open-source competition、inference/retrieval/tool cost、cloud bargaining 与快速价格压缩。
 
@@ -128,7 +125,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 真正有防御力的 application layer 需要把模型能力转化成 proprietary workflow、data、distribution、retention 和 measurable business outcome。
 
-## 10. End Systems：不是“输掉 AI”，而是承受 residual-capacity 与 supply-assurance pressure
+## 10. End Systems 承担 Residual-Capacity 与 Quantity-Assurance Pressure
 
 smartphone、PC、game consoles、automotive、industrial systems、robotics 与部分 high-reliability electronics 仍然是重要的终端和战略系统。它们承受的主要不是“被 AI 淘汰”，而是共享或相邻上游资源的再排序。
 
@@ -150,7 +147,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 第3章定义资源机制，第21章讨论已经能够观测到的 price / configuration / longevity / allocation 传导。
 
-## 11. Custom Silicon 会重画资金路径，但不一定减少上游需求
+## 11. Custom Silicon 重新分配 Platform Rent，但不一定降低 Upstream Demand
 
 传统路径可以近似写成：
 
@@ -164,7 +161,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 因此，system-stack substitution 既是利润分配变量，也是上游资源竞争变量。
 
-## 12. 不使用固定“赢家排名”，而使用 Scenario Map
+## 12. Value Capture 取决于 Scenario
 
 不同情景会改变 value capture：
 
@@ -175,7 +172,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 这比给 system platform、HBM、foundry、cloud、application 排一个永久名次更可靠。
 
-## 13. 当前判断
+## 13. Current Read
 
 截至 2026 年 8 月，AI infrastructure 的高质量 value capture 主要出现在三类位置：
 
@@ -191,7 +188,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 > **同一笔资本在每一层留下多少可重复现金流、形成多少不可替代性，又把多少长期风险留在资产负债表上。**
 
-## 14. 什么事实会迫使本章改判
+## 14. 什么事实会改变当前判断
 
 当前 value-capture map 应在以下变化下重估：
 
