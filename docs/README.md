@@ -5,17 +5,18 @@ This directory contains the zero-build web reader for **The Age of AI Infrastruc
 ## Publishing model
 
 - **Website**: reader-facing primary entry.
-- **Formal Markdown report**: source of truth under `publication/` and `en/publication/`.
-- **GitHub repository**: research, evidence, methodology, citation history, and corrections.
-- **PDF**: generated from the website's full-report print mode; it does not maintain a second body-text source.
+- **Formal Markdown report**: private source of truth under `publication/` and `en/publication/`.
+- **Public snapshot bundles**: frozen reader-facing copies under `docs/content/`; the website reads only these files at runtime.
+- **Private GitHub repository**: source research, evidence, methodology, citation history, historical drafts, scripts, and corrections.
+- **PDF**: generated from the same public frozen snapshot; it does not maintain a second manually edited body-text source.
 
 ## Hosting
 
 The site is plain HTML/CSS/JavaScript. No Node.js, framework, GitHub Actions, or build pipeline is required.
 
-For GitHub Pages, use the repository's `main /docs` directory as the Pages source. The reader first tries same-repository Markdown paths and then falls back to the public raw GitHub Markdown URLs.
+For GitHub Pages, use the repository's `main /docs` directory as the Pages source. The reader never fetches `publication/`, `en/publication/`, or `raw.githubusercontent.com` at runtime. A private source repository can therefore remain private while the selected `docs/` publication snapshot is served by a compatible static host / Pages configuration.
 
-Because the repository may be private during pre-publication work, the raw-GitHub fallback becomes publicly usable after the repository is made public. The same `docs/` directory can also be hosted by any static host that serves the repository tree.
+Only reader-facing publication material should be copied into `docs/content/`. Historical `vol-*`, legacy `part2-*`, internal audit files, scripts, and unpublished research material remain outside the public snapshot.
 
 ## Reader routes
 
@@ -29,3 +30,7 @@ Because the repository may be private during pre-publication work, the raw-GitHu
 ## Freeze discipline
 
 The website does not duplicate or rewrite research conclusions. It renders the frozen 32-chapter publication Markdown directly. Post-freeze changes remain limited to factual corrections, source-link repairs, citation-scope corrections, and material-error fixes.
+
+## Rights
+
+Original research material is **All Rights Reserved**. The public web summary is in [`rights.html`](rights.html); the repository `LICENSE` file is authoritative for the source repository.
