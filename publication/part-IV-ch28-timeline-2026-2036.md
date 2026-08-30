@@ -81,7 +81,7 @@
 
 PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它是 Phase II 检验“secured LPS 是否真正变成 deployable compute”的重要观察点，而不是 Phase I 的已运行容量。[^9]
 
-## 4. Phase III：2031–2033 — 地理与产业结构开始固化
+## 4. Phase III：2031–2033 — 地理与产业结构可能开始固化
 
 如果 AI infrastructure 持续扩大，到这一阶段竞争会进一步从产品路线转向 regional system capability。
 
