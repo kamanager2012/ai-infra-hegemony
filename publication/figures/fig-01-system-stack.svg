@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<title id="title">图 1 — 竞争单位已经从 Chip 上移到 System Stack</title>
+<desc id="desc">九个相互连接的层级，从 advanced logic 到 production workload，展示本报告的 system-stack competition 框架。</desc>
+<rect width="1600" height="620" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#111}.t{font-size:42px;font-weight:700}.s{font-size:24px;fill:#444}.box{fill:#f7f7f7;stroke:#222;stroke-width:2}.b{font-size:24px;font-weight:700}.n{font-size:18px;fill:#555}.a{stroke:#333;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<text x="80" y="70" class="t">竞争单位已经从 Chip 上移到 System Stack</text>
+<text x="80" y="112" class="s">Frontier delivery 依赖物理、软件、基础设施、资本与 workload 多层协同。</text>
+<g transform="translate(60 190)">
+<rect class="box" x="0" y="0" rx="16" width="150" height="120"/><text class="b" x="75" y="48" text-anchor="middle">Advanced</text><text class="b" x="75" y="78" text-anchor="middle">logic</text>
+<rect class="box" x="175" y="0" rx="16" width="130" height="120"/><text class="b" x="240" y="63" text-anchor="middle">HBM</text>
+<rect class="box" x="330" y="0" rx="16" width="170" height="120"/><text class="b" x="415" y="48" text-anchor="middle">Advanced</text><text class="b" x="415" y="78" text-anchor="middle">packaging</text>
+<rect class="box" x="525" y="0" rx="16" width="150" height="120"/><text class="b" x="600" y="63" text-anchor="middle">Interconnect</text>
+<rect class="box" x="700" y="0" rx="16" width="170" height="120"/><text class="b" x="785" y="48" text-anchor="middle">Compiler /</text><text class="b" x="785" y="78" text-anchor="middle">runtime</text>
+<rect class="box" x="895" y="0" rx="16" width="170" height="120"/><text class="b" x="980" y="48" text-anchor="middle">Rack / data</text><text class="b" x="980" y="78" text-anchor="middle">center</text>
+<rect class="box" x="1090" y="0" rx="16" width="130" height="120"/><text class="b" x="1155" y="63" text-anchor="middle">Power</text>
+<rect class="box" x="1245" y="0" rx="16" width="130" height="120"/><text class="b" x="1310" y="63" text-anchor="middle">Capital</text>
+<rect class="box" x="1400" y="0" rx="16" width="140" height="120"/><text class="b" x="1470" y="48" text-anchor="middle">Production</text><text class="b" x="1470" y="78" text-anchor="middle">workload</text>
+<line class="a" x1="150" y1="60" x2="170" y2="60"/><line class="a" x1="305" y1="60" x2="325" y2="60"/><line class="a" x1="500" y1="60" x2="520" y2="60"/><line class="a" x1="675" y1="60" x2="695" y2="60"/><line class="a" x1="870" y1="60" x2="890" y2="60"/><line class="a" x1="1065" y1="60" x2="1085" y2="60"/><line class="a" x1="1220" y1="60" x2="1240" y2="60"/><line class="a" x1="1375" y1="60" x2="1395" y2="60"/>
+</g>
+<text x="80" y="400" class="s">分析含义：challenger 必须替代足够多的完整 production system，才能实质改变 workload economics、migration cost、utilization 与 delivery reliability。</text>
+<line x1="80" y1="455" x2="1520" y2="455" stroke="#bbb"/>
+<text x="80" y="500" class="n">Source：本报告框架；主要见第 2、8、12、19、32 章。</text>
+<text x="80" y="532" class="n">Boundary：这是分析架构，不是 market-share estimate，也不表示任何一家企业控制全部层级。</text>
+</svg>
