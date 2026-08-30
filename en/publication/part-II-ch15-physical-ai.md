@@ -4,11 +4,11 @@
 
 ## 1. Robotics is a system-closure problem
 
-Physical AI has to close perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
+Physical AI must close perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
 
 A robot's productive value cannot be inferred from model capability or edge TOPS alone.
 
-A complete system has to close:
+A complete system must close:
 
 > **model capability × sensor quality × control latency × actuator reliability × energy efficiency × manufacturing economics**
 
@@ -30,7 +30,7 @@ Humanoids, AMRs, industrial arms, autonomous vehicles, and drones have very diff
 
 Fixed templates such as "actuators 35% / sensors 20% / compute 25%" are not treated as industry fact.
 
-The real task is to identify the **scarce component** for each robot form factor.
+The analytical task is to identify the **scarce component** for each robot form factor.
 
 ## 4. Mechanical precision can remain scarce after compute commoditizes
 
@@ -145,7 +145,7 @@ Mass production cannot.
 
 Scale thresholds include component yield, assembly time, field failure rate, maintenance interval, supply-chain stability, and unit economics.
 
-The industrial inflection point for Physical AI has to be demonstrated through manufacturing and deployment data, not demonstration videos.
+The industrial inflection point for Physical AI must be demonstrated through manufacturing and deployment data, not demonstration videos.
 
 ## 9A. The commercial threshold is capital payback
 
@@ -173,7 +173,7 @@ A robot can be technically capable and still fail to produce sustainable ROI if:
 - replacement / component failure is frequent;
 - upfront CapEx is too high.
 
-Physical AI and data-center AI share one capital rule:
+Physical AI and data-center AI share the same capital rule:
 
 > **capability must ultimately be validated through utilization and cash flow.**
 
@@ -187,7 +187,7 @@ Those layers do not perfectly overlap with the HBM / advanced-packaging / leadin
 
 China can have stronger competitiveness in robot systems and mechanical supply chains than in some frontier-AI infrastructure layers.
 
-This is a separate industrial path and should not be reduced to one "AI chip capability" metric.
+This is a separate industrial path and should not be reduced to a single "AI chip capability" metric.
 
 ## 11. Current read
 
