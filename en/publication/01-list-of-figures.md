@@ -1,6 +1,6 @@
 # List of Figures
 
-> Figure numbering follows the publication sequence rather than chapter numbering for the first core figure set. Quantitative figures preserve the same evidence identity, denominator boundary, and time identity as the main text.
+> Figure numbering follows the publication sequence rather than chapter numbering for the core figure set. Quantitative figures preserve the same evidence identity, denominator boundary, and time identity as the main text.
 
 1. [Figure 1 — The competitive unit is the system stack](figures/fig-01-system-stack.svg)  
    **Type:** report framework. **Primary analytical homes:** Ch02, Ch12, Ch32.
@@ -24,10 +24,6 @@
    **Type:** report scenario framework. **Primary analytical home:** Ch30.  
    **Boundary:** scenarios are parallel conditional states with no fixed probabilities; S2 is highlighted only as the August 2026 evidence baseline.
 
-## Publication note
-
-These figures are part of the publication layer. They do not reopen the frozen 32-chapter research logic. Any future quantitative figure that requires a new denominator, new estimate, or new factual claim must be treated as new research rather than as editorial illustration.
-
 7. [Figure 7 — TSMC 2Q26 demand and technology mix](figures/fig-07-tsmc-2q26-mix.svg)  
    **Type:** first-party actual data with separate denominators. **Primary analytical home:** Ch04.  
    **Boundary:** HPC 66% and smartphone 22% are shares of total revenue; 7 nm and below 77% is a share of wafer revenue. None is customer-level wafer allocation.
@@ -48,3 +44,6 @@ These figures are part of the publication layer. They do not reopen the frozen 3
     **Type:** report closure-test framework. **Primary analytical homes:** Ch17, Ch32.  
     **Boundary:** production-grade substitution ≠ full technological autonomy; import dependence also does not prove absence of a production-grade parallel stack.
 
+## Publication note
+
+These figures are part of the publication layer. They do not reopen the frozen 32-chapter research logic. Any future quantitative figure that requires a new denominator, new estimate, or new factual claim must be treated as new research rather than as editorial illustration.
