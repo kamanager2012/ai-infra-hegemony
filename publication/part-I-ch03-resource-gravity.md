@@ -1,4 +1,4 @@
-# Part I · 第3章：AI Resource Gravity 与 Non-AI Residual Capacity
+# Part I · 第3章：AI 资源重配与 Non-AI Residual Capacity
 
 ## 1. 核心判断：AI 改变的首先是边际资源优先级，而不是“全面占用产能”
 
@@ -188,7 +188,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 ---
 
-## 9. Resource Gravity 不是无限单向过程
+## 9. 资源重配是条件机制，不是单向定律
 
 资源重排存在自我修复机制。
 
@@ -228,7 +228,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 ---
 
-## 11. 当前判断
+## 11. Current Read
 
 截至 2026 年 8 月，公开证据更支持：
 
