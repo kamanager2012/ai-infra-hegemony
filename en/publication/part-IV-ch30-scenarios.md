@@ -46,6 +46,23 @@ This is:
 
 not "AI infrastructure disappears."
 
+### 2A. Supply-Response Overshoot: long construction lags can also create reversal
+
+The Rolling Bottleneck Cascade does not imply that the same scarce layer remains short for a decade. Fabs, memory, and packaging all have long construction and qualification cycles. **High prices and high margins can induce several suppliers to expand at the same time; if effective output arrives in a similar window while demand growth decelerates, a layer can move rapidly from shortage to headroom or even oversupply.**
+
+Public forward evidence at the report cutoff already shows this response can be **layer-specific rather than uniform**. TrendForce on July 30, 2026 expected DRAM to remain tight in 2027 while NAND Flash could move toward a looser supply-demand structure in **2H27** as new capacity and bit-output growth arrive; it also expected meaningful output contribution from some new DRAM capacity to emerge only in **2028**.[^10]
+
+The report therefore does not extrapolate 2024–2026 HBM / packaging tightness into permanent ten-year scarcity. The variables to monitor by layer are:
+
+- effective capacity ramp;
+- qualification / yield;
+- demand-growth deceleration;
+- lead time / clearing price;
+- utilization;
+- product-mix reversal.
+
+If supply growth persistently exceeds demand growth across several scarce layers while lead times and scarcity premiums decline, S1 weight should rise materially. If that easing is accompanied by weakening utilization and clearing prices, S4 weight can rise as well.
+
 ## 3. S2 — Baseline Concentration
 
 ### Definition
@@ -342,6 +359,8 @@ That keeps long-run judgment responsive to industrial evidence rather than depen
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+
+[^10]: TrendForce, 2026-07-30, “Diverging Memory Market Outlook in 2027 as DRAM Supply Remains Tight While NAND Flash Supply Conditions Ease,” https://www.trendforce.com/presscenter/news/20260730-13158.html
 
 ## Cross-references
 
