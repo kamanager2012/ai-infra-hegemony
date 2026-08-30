@@ -1,22 +1,18 @@
-# Part I · 第6章：Advanced Packaging、CoWoS 与系统交付瓶颈
+# Part I · 第6章：Advanced Packaging——Wafer 与 Deliverable System 之间的 Quantity Gate
 
-## 1. 核心判断：Advanced Packaging 已从“后段工序”升级为系统交付层
+## 1. Packaging 的核心问题是 System Output，不是 Front-End Wafer Output
 
-frontier AI accelerator 越来越依赖 multi-die integration、HBM、large interposer 与 high-speed die-to-die connection。
+frontier accelerator 在 logic die 离开 fab 时还不是 deliverable system。multi-die integration、HBM、interposer、substrate、testing、yield 与 qualification 仍必须共同闭合。
 
-因此，advanced packaging 不再只是芯片完成前道制造后的配套环节，而是：
+因此，advanced packaging 本质上是一个 **quantity gate**：
 
-> **决定一个 frontier AI system 能否按计划、按数量交付的独立制造层。**
+> **front-end logic available ≠ complete AI system deliverable**
 
-这解释了一个重要现象：
-
-> **leading-edge logic capacity 增加，并不必然等于可交付 AI system capacity 同比例增加。**
-
-如果 HBM integration、interposer、substrate、testing 或 packaging capacity 不足，前道逻辑晶圆已经完成，完整系统仍可能无法按期交付。
+真正需要观察的不只是 leading-edge wafer 能生产多少，而是在同一 delivery window 中，有多少 qualified system 能通过 packaging / integration layer 完成交付。
 
 ---
 
-## 2. TSMC 已经一手确认 Advanced Packaging Tightness
+## 2. TSMC 已确认 Tightness，但 Revenue Label 仍需 Denominator Discipline
 
 TSMC 的公开表述已经足以确认 advanced-packaging tightness：[^1][^2]
 
@@ -34,7 +30,7 @@ TSMC 的公开表述已经足以确认 advanced-packaging tightness：[^1][^2]
 
 ---
 
-## 3. Tightness 是事实，Customer Allocation 不是公开事实
+## 3. Tightness 可观察，Customer Allocation 未公开
 
 TSMC 公开资料可以支持：
 
@@ -54,7 +50,7 @@ TSMC 公开资料可以支持：
 
 ---
 
-## 4. NVIDIA 高 CoWoS Demand Concentration 有机构证据，但不能升级成官方 Allocation
+## 4. Demand Concentration 目前主要来自 B-Grade Institutional Estimate
 
 TrendForce 对 2025 CoWoS demand 的研究将 NVIDIA 列为最大需求客户，并估计其需求占比 **超过 60%**。[^3]
 
@@ -72,7 +68,7 @@ Demand concentration 与 actual allocation 是两个不同问题。
 
 ---
 
-## 5. Packaging Capacity 必须保持为独立 Physical Pool
+## 5. Packaging 是独立 Physical Denominator
 
 advanced-packaging capacity 由 packaging flow、interposer / substrate、HBM integration、tool capacity、testing、yield 与 qualification 共同决定，不能与 TSMC front-end wafer capacity 互换。
 
@@ -84,7 +80,7 @@ advanced-packaging capacity 由 packaging flow、interposer / substrate、HBM in
 
 因此，本报告不将多个 scarce layer 压缩成一个“综合产能占有率”。
 
-## 6. 为什么 Packaging 可能比 Node 更早成为“数量闸门”
+## 6. Packaging 可以先于 Front-End Logic 成为 Binding Constraint
 
 leading-edge logic 的扩产路径主要围绕：
 
@@ -114,7 +110,7 @@ advanced packaging 则同时依赖：
 
 ---
 
-## 7. Incremental Packaging Access 必须直接测量
+## 7. Incremental Packaging Access 必须在 Packaging Layer 直接测量
 
 前瞻问题不是构造一个跨层 capture ratio，而是竞争 buyer 能否持续获得 qualified advanced-packaging supply。
 
@@ -133,7 +129,7 @@ advanced packaging 则同时依赖：
 
 > **packaging access 必须在 packaging 自己的物理池中判断，不能由 foundry revenue share、HBM demand share 或 system revenue 反推。**
 
-## 8. Cloud Custom Silicon 不会自动绕开 Packaging
+## 8. Second Stack 不会自动逃离 Packaging / HBM
 
 Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDIA platform profit，但它们自身仍需要：
 
@@ -153,7 +149,7 @@ Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDI
 
 ---
 
-## 9. Bottleneck Location 不等于 Profit Location
+## 9. Bottleneck Location 与 Profit Location 是两个问题
 
 advanced packaging 可以是系统交付瓶颈，但不代表它一定拥有整个价值链最高 margin。
 
@@ -173,7 +169,7 @@ TSMC 2Q24 管理层曾表示，advanced-packaging gross margin 过去显著低�
 
 ---
 
-## 10. Packaging 是 China Production-Grade Parallel Stack 的独立 Gate
+## 10. Packaging 是 China Closure 的独立 Gate
 
 frontier AI parallel stack 不能只用 logic node 判断。
 
@@ -196,7 +192,7 @@ frontier AI parallel stack 不能只用 logic node 判断。
 
 ---
 
-## 11. 当前判断与证伪条件
+## 11. Current Read 与 Falsification
 
 截至 2026 年 8 月，最稳健的结论是：
 
