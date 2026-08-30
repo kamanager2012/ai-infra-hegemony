@@ -1,8 +1,8 @@
 # Part IV · Chapter 28: 2026–2036 Timeline and Conditional Milestones
 
-## 1. The timeline is a Conditional Milestone Map, not a year-by-year narrative
+## 1. The timeline is a conditional milestone map, not a forecast calendar
 
-The most common long-range error is to take technology roadmaps, capital plans, or power-project target dates and rewrite them as events that are guaranteed to occur.
+A long-range timeline becomes misleading when roadmap dates, capital plans, or project targets are treated as guaranteed future events. This chapter therefore uses time windows as **observation intervals**, not deterministic milestones.
 
 This report uses four observation windows:
 
@@ -13,7 +13,7 @@ This report uses four observation windows:
 
 The years are observation windows, not event guarantees.
 
-## 2. Phase I: 2026–2027 — System Race and Infrastructure Lock-in
+## 2. Phase I: 2026–2027 — system race and infrastructure lock-in
 
 Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 
@@ -42,7 +42,7 @@ Key milestones include:
 - whether system-seller commitments continue expanding;
 - whether memory / storage pressure in directly exposed end systems such as smartphones, PCs, and game consoles continues to transmit into configuration, promotion, or hardware cadence—or begins to ease.
 
-## 3. Phase II: 2028–2030 — Does substitution reach real scale?
+## 3. Phase II: 2028–2030 — does substitution reach production scale?
 
 This window is more likely to determine the divergence between S1 and S2/S3.
 
@@ -81,7 +81,7 @@ Observe how much headline contracted / secured capacity converts into energized 
 
 PORTS-Pike is publicly planned to begin phased delivery from **2028**, making it a useful Phase II test of whether secured LPS and future IT-GW design capacity actually become deployable compute rather than a Phase I operating-capacity claim.[^9]
 
-## 4. Phase III: 2031–2033 — Geography and industrial structure may begin to harden
+## 4. Phase III: 2031–2033 — geography and industrial structure may harden
 
 If AI infrastructure continues expanding, competition is likely to move further from product roadmaps toward regional system capability.
 
@@ -102,7 +102,7 @@ More useful metrics in this phase include:
 - cross-stack portability;
 - regional supply resilience.
 
-## 5. Phase IV: 2034–2036 — Maturity, concentration, diffusion, or capital clearing
+## 5. Phase IV: 2034–2036 — maturity, diffusion, concentration, or clearing
 
 By this observation window, four structural states should be easier to distinguish.
 
@@ -122,7 +122,7 @@ Coordination power across logic, HBM, packaging, software/interconnect, and powe
 
 Built infrastructure exceeds productive workload, shifting the industry from construction competition toward utilization, residual value, and cash-flow clearing. Some resources can flow back toward traditional end systems, while supplier retrenchment, inventory clearing, and specialized-capacity impairment can create a different supply-chain whiplash.
 
-## 6. Future technology points that should not be hard-coded
+## 6. Technology milestones should not be hard-coded
 
 The timeline does not pre-set:
 
@@ -185,7 +185,7 @@ In particular, the April-2026 revised-PPA transition status in Talen's 2026 Q2 1
 
 The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.[^5]
 
-## 10. Four thresholds that matter more than the calendar year
+## 10. Four thresholds matter more than the calendar year
 
 The next decade is more likely to be decided by four thresholds than by one particular date:
 
