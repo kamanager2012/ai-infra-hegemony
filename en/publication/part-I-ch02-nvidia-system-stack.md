@@ -1,8 +1,8 @@
 # Part I · Chapter 2: NVIDIA's System Stack and Platform Power
 
-## 1. The competitive unit has moved from the GPU to the system stack
+## 1. NVIDIA's moat is a system-stack moat
 
-NVIDIA's most important current advantage is no longer the point performance of one GPU generation. It is the ability to organize accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system. The official GB200 NVL72 specification makes the shift in sales unit explicit:[^1]
+NVIDIA's most important advantage is no longer the point performance of one GPU generation. It is the ability to turn accelerators, HBM, scale-up fabric, compiler/runtime, libraries, rack architecture, and deployment tooling into a repeatable production system with low in-platform migration friction. The official GB200 NVL72 specification makes the shift in sales unit explicit:[^1]
 
 **Table 2.1 — GB200 NVL72 rack-scale system structure**
 
@@ -22,7 +22,7 @@ This changes how competition must be measured. In the add-in-card era, FLOPS, me
 
 A cheaper ASIC die therefore does not automatically imply a cheaper production AI system.
 
-## 2. NVLink / NVSwitch: turning communication into an internal system capability
+## 2. NVLink / NVSwitch internalizes scale-up communication
 
 Frontier-model training is not limited by single-GPU compute alone. Tensor parallelism, pipeline parallelism, expert parallelism, and collective communication push performance toward bandwidth, topology, synchronization, and collective implementation.
 
@@ -34,7 +34,7 @@ That does not prove Ethernet-based alternatives are inherently incapable of subs
 
 For that reason, this report does not use unverified nanosecond-level latency comparisons or treat promotional benchmarks as independent measurements. The relevant evidence is production workload behavior: post-migration throughput, utilization, engineering cost, and reliability.
 
-## 3. CUDA / PTX: the moat is a cross-generation software asset
+## 3. CUDA / PTX is a cross-generation software asset
 
 CUDA's strategic value should not be reduced to an imaginary fixed "software tax" that does not appear in financial disclosures. It is better understood as a long-lived software asset:
 
@@ -55,7 +55,7 @@ That creates a cross-generation mechanism:
 
 This is why NVIDIA's advantage cannot be measured by one benchmark or proved by an undisclosed "CUDA margin."
 
-## 4. Rack-scale architecture extends switching costs into the data center
+## 4. Rack-scale architecture extends switching cost into physical infrastructure
 
 When the purchasing unit becomes the rack, migration costs extend from software into physical infrastructure. Customers build not only code, but also:
 
@@ -71,7 +71,7 @@ Changing one accelerator may be a procurement action. Changing a rack-scale syst
 
 This is where chip-only benchmarks most easily understate system power. The farther the system extends into racks, pods, and sites, the more challengers must prove deployment time, reliability, and total cost of ownership—not simply peak compute.
 
-## 5. Why platform profit can become next-generation resource-reservation power
+## 5. Platform profit can become next-generation reservation power
 
 If system-level advantage produces high profit and free cash flow, it can influence the supply chain. The company-level anchors needed here are limited to one set:
 
@@ -100,7 +100,7 @@ This creates a testable cross-generation reinforcing mechanism:
 
 It is not an automatic monopoly formula. Suppliers still optimize for customer diversification, credit quality, utilization, geopolitics, and long-run bargaining balance.
 
-## 6. NVIDIA's system power has clear physical boundaries
+## 6. System power has clear physical boundaries
 
 NVIDIA does not directly manufacture every critical scarce layer. It still depends on:
 
@@ -114,7 +114,7 @@ Strong platform power therefore does not make physical supply fully endogenous. 
 
 This is why the report separates **Scarce-layer Value Capture** from a simple market-share monopoly framework. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
 
-## 7. The real counterattack is a Cloud System Stack, not a single ASIC
+## 7. The relevant counterattack is a second system stack
 
 The strategic significance of Google TPU/Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA is not merely the existence of another chip.[^5] Hyperscalers also possess:
 
@@ -186,7 +186,7 @@ Even if the transaction closes, full software foreclosure would not automaticall
 
 The mechanism should gain weight only if **ranking, interoperability, deployment friction, and real workload distribution** change persistently.
 
-## 8. What would count as genuine erosion of the moat
+## 8. Evidence standard for moat erosion
 
 The NVIDIA system moat should not be judged from product-launch count or single-chip performance. The structure weakens only if several of the following variables move together:
 
@@ -199,7 +199,7 @@ The NVIDIA system moat should not be judged from product-launch count or single-
 
 If several of these changes persist, NVIDIA's platform power could move from "system-level pricing power" toward a more negotiable "integration advantage." If migration remains expensive while in-platform generational upgrades stay low-friction, the system moat remains intact.
 
-## 9. Current view
+## 9. Current read
 
 As of August 2026, the most accurate description is neither "GPU competition is over" nor "cloud ASICs have replaced NVIDIA."
 
@@ -209,7 +209,7 @@ It is:
 
 That is the starting point for the report's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
 
-## 10. Falsification boundary: what would force this chapter to change
+## 10. What would change the view
 
 The judgment on NVIDIA's system-stack power should be downgraded if several signals persist together:
 
