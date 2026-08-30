@@ -1,14 +1,12 @@
 # Part III · Chapter 25: AI and Labor Markets — The Task-to-Job Translation Layer
 
-## 1. AI changes tasks before it changes job titles
+## 1. AI changes tasks before job structures
 
-A job usually consists of many tasks.
+Jobs are bundles of tasks, and those tasks differ in automation cost, review burden, liability, physical presence, and trust.
 
-Some can be automated, some augmented, and some still require physical presence, judgment, liability, or trust.
+The analytical starting point is therefore task and workflow exposure — not direct job-loss extrapolation.
 
-The most reliable starting point is therefore task exposure rather than direct job-loss forecasting.
-
-## 2. Exposure is not unemployment
+## 2. Exposure is not an employment outcome
 
 ILO and IMF research both require a separation between occupational exposure and actual adoption, job redesign, and employment outcomes.
 
@@ -20,7 +18,7 @@ These are occupational / employment exposure measures.
 
 They are not "the same percentage of tasks will be automated," and they are not equivalent to the same percentage of jobs disappearing.
 
-## 2A. 2026 shows localized labor signals, not a general unemployment verdict
+## 2A. 2026 shows localized signals, not a general labor-market verdict
 
 Stanford AI Index 2026 reports that U.S. employment for **software developers aged 22–25 fell by nearly 20% from 2024**, while roughly one-third of surveyed organizations expect AI to reduce workforce over the following year. At the same time, broad employment data have not shown job losses on the same scale across the economy.[^3]
 
@@ -36,7 +34,7 @@ The defensible 2026 judgment remains:
 
 > **Localized hiring-pipeline and early-career signals are visible, but the translation from task exposure to workflow adoption to employment outcome is still unfolding.**
 
-## 3. Task-to-Job Translation requires multiple layers between model capability and labor outcomes
+## 3. Task-to-Job Translation requires multiple gates
 
 This report uses the following transmission chain:
 
@@ -53,7 +51,7 @@ For example:
 
 Employment forecasting should therefore begin with tasks and workflows rather than jump directly from benchmark performance to job counts.
 
-## 4. Adoption Economics is the first gate between technical capability and substitution
+## 4. Adoption economics is the first substitution gate
 
 Firms have stronger substitution incentives only when:
 
@@ -63,7 +61,7 @@ Benchmark improvement therefore does not automatically translate into employment
 
 Reliability, latency, security, integration, and legal responsibility all alter adoption economics.
 
-## 5. The most exposed tasks are digital, repeatable, and evaluable
+## 5. Exposure is highest where tasks are digital, repeatable, and evaluable
 
 Examples include:
 
@@ -78,7 +76,7 @@ These tasks have digital inputs/outputs and relatively clear evaluation criteria
 
 Task compression can still appear as higher output per worker rather than immediate elimination of the job.
 
-## 6. Responsibility constraints preserve substantial human-in-the-loop work
+## 6. Responsibility constraints preserve human review
 
 Medical sign-off, engineering sign-off, field maintenance, nuclear operations, complex negotiation, and care work are constrained by liability, physical presence, licensing, and trust.
 
@@ -86,7 +84,7 @@ AI can change preparation, analysis, and documentation while final responsibilit
 
 Human review is therefore both a software cost and a labor-market boundary.
 
-## 7. The entry-level ladder is one of the most important structural variables
+## 7. The entry-level ladder is a key structural variable
 
 Even if total employment does not fall sharply in the short run, traditional entry-level tasks in junior analysis, junior coding, entry-level support, and routine research can be compressed first.
 
@@ -98,7 +96,7 @@ If junior tasks are heavily automated, firms and education systems have to redes
 
 This can be more important than one universal unemployment forecast.
 
-## 8. Wage outcomes can diverge rather than fall uniformly
+## 8. Wage outcomes can diverge
 
 AI can increase leverage for high-skill workers while lowering the value of routine tasks and raising the premium on system, operator, and verification skills.
 
@@ -110,13 +108,13 @@ Possible outcomes include:
 
 Labor outcomes are therefore more likely to be structurally divergent than to produce the same wage decline across all knowledge workers.
 
-## 9. Physical AI can create a second wave, but more slowly
+## 9. Physical AI can create a slower second wave
 
 Automation in warehouses, manufacturing, logistics, inspection, and maintenance has to cross hardware cost, reliability, safety, maintenance, and regulatory thresholds.
 
 The labor translation of Physical AI is therefore usually slower and more capital-intensive than purely digital workflow automation.
 
-## 10. AI infrastructure also creates new skill demand
+## 10. AI infrastructure creates new skill demand
 
 AI expansion simultaneously increases demand for:
 
@@ -131,7 +129,7 @@ AI expansion simultaneously increases demand for:
 
 Labor-market change is therefore a reallocation process, not a one-direction reduction in jobs.
 
-## 11. Whether organizations become thinner depends on review burden and task volume
+## 11. Organization shape depends on review burden and task volume
 
 Agent-native workflows can reduce some coordination work.
 
@@ -145,7 +143,7 @@ More useful observables include:
 - revenue per employee;
 - human-review ratio.
 
-## 12. Current judgment
+## 12. Current read
 
 As of 2026, there is enough evidence to conclude that AI is restructuring tasks.
 
