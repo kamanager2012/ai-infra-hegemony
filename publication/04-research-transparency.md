@@ -157,7 +157,7 @@ Several material corrections made during 2026-08-29–30 remain analytically rel
 2. **China's frontier assessment was separated into Production-Grade Parallel Stack and Autonomous Frontier Closure.** A system that can run production workloads is not automatically an autonomous multi-generation frontier stack.
 3. **Capital-clearing adjudication was corrected.** Accounting impairment is a high-value confirmation / severity channel, not a mandatory gate. Direct falsification of a mechanism cannot be ignored merely because system-level cross-signal breadth has not yet accumulated.
 4. **Developer-distribution risk was added as a conditional mechanism.** The 2026-08-27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face agreement remains C-grade transaction evidence and is not treated as a completed acquisition or realized software foreclosure.
-5. **English-first canonical workflow and bilingual parity were formalized.** English is the canonical analytical layer; Chinese is a professional parallel edition. Facts, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
+5. **English-first canonical workflow and translation parity were formalized.** English is the sole canonical analytical layer; Chinese is the professional translation of that text, not an independent analytical edition. Claims, section order, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
 
 The report therefore preserves a simple public rule:
 
