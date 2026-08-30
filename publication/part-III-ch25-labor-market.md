@@ -18,7 +18,7 @@ IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-e
 
 这些都是 occupational / employment exposure，不是“同等比例任务会被自动化”，更不是同等比例岗位消失。
 
-### 2A. 2026 出现 Localized Signal，但不是 General Labor-Market Verdict
+## 2A. 2026 出现 Localized Signal，但不是 General Labor-Market Verdict
 
 Stanford AI Index 2026 汇总的美国数据指出，**22–25 岁 software developers 的就业较 2024 年下降接近 20%**；同时，其组织调查中约三分之一受访者预计未来一年 AI 会减少 workforce，但整体就业数据尚未显示同等规模的广泛岗位损失。[^3]
 
