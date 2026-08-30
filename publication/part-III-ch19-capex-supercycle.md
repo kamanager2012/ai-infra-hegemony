@@ -1,4 +1,4 @@
-# Part III · 第19章：AI Infrastructure Capital Formation——Duration Mismatch、Utilization 与 Demand Duration
+# Part III · 第19章：AI 基础设施资本形成——Utilization、Commitments 与 Duration Risk
 
 ## 1. Capital-Cycle Question 不是一个 Headline CapEx Total
 
