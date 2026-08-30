@@ -1,12 +1,16 @@
-# Part I · Chapter 5: HBM and the Restructuring of Memory Resources
+# Part I · Chapter 5: HBM Economics — Manufacturing Intensity, Residual Capacity, and Memory Scarcity
 
-## 1. HBM has moved from a GPU component to a system-level resource
+## 1. The memory question is manufacturing intensity, not only bit demand
 
-In frontier AI systems, HBM affects model capacity, batching, context length, concurrency, communication patterns, and accelerator utilization. The official GB200 NVL72 configuration includes **13.4 TB of HBM3E per rack**,[^1] showing that once the purchasing unit moves to rack scale, memory demand also moves from "GB per GPU" to "PB per deployment."
+HBM is no longer useful to analyze as a simple GPU BOM item. In frontier systems it affects model capacity, batching, context length, concurrency, communication, and accelerator utilization; at rack scale, memory demand becomes a system-level resource requirement.
 
-HBM therefore affects more than the accelerator BOM. It propagates into DRAM wafer allocation, cleanroom space, advanced packaging, memory-vendor product mix, and the residual supply of conventional DRAM.
+The industrial question is therefore not just "how many HBM bits are demanded?" It is:
 
-## 2. Micron's ~3× disclosure is the most important current first-party physical anchor
+> **How much wafer input, cleanroom space, packaging capacity, qualification effort, and capital does each unit of high-value memory absorb, and what residual supply remains for conventional DRAM?**
+
+That is why HBM can reprice the broader memory system even when aggregate DRAM bit capacity continues to grow.
+
+## 2. Micron's ~3× disclosure is the key first-party manufacturing anchor
 
 Micron's FY24 Q2 prepared remarks provide a clear boundary: at the **same technology node and for the same number of bits**, HBM3E requires approximately **3× the wafer supply of DDR5**.[^2] Micron's FY25 10-K further confirms that producing the same number of HBM bits requires more wafers and cleanroom space.[^3]
 
@@ -18,7 +22,7 @@ This evidence supports the following conclusions:
 
 It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an immutable "3:1 law" for every fab and every HBM generation. Micron's public statement on HBM4 is only that the trade ratio is expected to rise further; a specific HBM4/HBM4E ratio still requires future vendor disclosure.
 
-## 3. 51% is a 2026E DRAM bit-supply forecast, not HBM actuals
+## 3. The 51% figure is a forecast with a different denominator
 
 TrendForce **forecasts** that **HBM + RDIMM together will account for roughly 51% of 2026 DRAM bit supply**.[^4] This B-grade institutional forecast must retain three boundaries:
 
@@ -28,7 +32,7 @@ TrendForce **forecasts** that **HBM + RDIMM together will account for roughly 51
 
 Combined with Micron's same-bit wafer trade ratio, this creates a more important mechanism: **bit share does not fully capture manufacturing-input pressure.** When a high-value bit requires more wafer and cleanroom input, its impact on manufacturing resources can exceed its share of bits.
 
-## 4. How Non-AI Residual Capacity forms in memory
+## 4. Residual capacity is the downstream memory variable
 
 Memory reallocation can be expressed as a clear transmission chain:
 
@@ -38,13 +42,13 @@ The key variable is not total global DRAM capacity. It is the effective supply a
 
 This is why the report uses **Non-AI Residual Capacity** as the central memory metric rather than treating gross DRAM-capacity growth as proof that traditional markets have returned to abundance.
 
-## 5. SK hynix FY25 results show that HBM has changed product economics
+## 5. HBM has changed memory-vendor product economics
 
 SK hynix reported FY25 revenue of **KRW97.1467T**, operating profit of **KRW47.2063T**, operating margin of **49%**, and net income of **KRW42.9479T**, while stating that HBM revenue more than doubled year over year.[^5]
 
 These figures do not prove that HBM alone generated all profit, but they are sufficient to show that high-value memory product mix has materially improved memory-vendor economics. Conventional server memory remains important as well, reinforcing the point that HBM and DDR5/RDIMM are not fully isolated capital and manufacturing systems.
 
-## 6. HBM supply is concentrated, but this report does not invent a precise share table
+## 6. Supply is concentrated, but public denominators remain incomplete
 
 High-end HBM supply is concentrated primarily among SK hynix, Samsung, and Micron. The barriers are not just DRAM-fab CapEx. They also include:
 
@@ -57,7 +61,7 @@ High-end HBM supply is concentrated primarily among SK hynix, Samsung, and Micro
 
 Public first-party material is insufficient to construct a fully comparable and auditable three-vendor HBM market-share table. This report therefore does not upgrade media or sell-side estimates into company-official share data.
 
-### 6.1 Price feedback: HBM resource pull is not infinitely one-directional
+### 6.1 Price feedback limits one-way scarcity narratives
 
 Resource reallocation contains a price-feedback mechanism. TrendForce's June 2, 2026 model estimate found that after conventional DRAM prices rose sharply from the second half of 2025, **DDR5 64GB RDIMM per-wafer revenue exceeded HBM in 1Q26**; the same research estimated HBM profitability below that of DDR5 64GB RDIMM.[^6]
 
@@ -67,7 +71,7 @@ This is B-grade institutional estimation, not product-level realized gross-margi
 
 AI Resource Gravity is therefore not an infinitely one-way pump. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
 
-## 7. Rack-scale specifications reveal memory intensity, not industry shipment demand
+## 7. Rack specifications show intensity, not industry demand
 
 GB200 NVL72's **13.4 TB of HBM3E per rack** is a useful system-level material identity.[^1]
 
@@ -79,7 +83,7 @@ Therefore:
 
 > **Per-system HBM specifications can describe memory intensity; industry demand still requires observed shipments, customer demand, or memory-vendor supply data.**
 
-## 8. HBM4 increases cross-layer capital density without justifying a fabricated fixed multiple
+## 8. HBM4 raises cross-layer capital density without a fixed public multiplier
 
 The complexity of next-generation HBM comes not only from higher stack counts. It can also involve logic base dies, advanced foundry processes, packaging, testing, and qualification.
 
@@ -89,7 +93,7 @@ If logic base dies use more advanced processes, the memory bottleneck extends fu
 
 HBM can therefore evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Before vendors formally disclose the data, however, HBM3E's ~3× ratio cannot be mechanically rewritten as 4× or 5× for HBM4, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
 
-## 9. HBM's inventory properties differ from a standard commodity
+## 9. HBM clears differently from a standard commodity memory cycle
 
 One important difference between HBM and standard commodity memory is generation-specific qualification. Product generations move quickly, they are closely tied to accelerator generations, qualification cycles are long, and obsolescence risk is higher.
 
@@ -99,13 +103,13 @@ The industry can therefore experience:
 
 Oversupply in one generation does not automatically solve qualification, yield, and packaging constraints in the next.
 
-## 10. Moving inference toward DDR does not automatically escape the memory constraint
+## 10. Inference can shift the constraint without eliminating memory economics
 
 Some inference workloads can trade bandwidth for lower-cost DDR/LPDDR, but frontier inference still faces KV-cache, long-context, large-batch, MoE-routing, low-latency serving, and multi-accelerator communication constraints.
 
 More importantly, RDIMM is already included in TrendForce's forward AI/server memory structure. Shifting some workloads from HBM toward DDR5 therefore changes the cost/bandwidth tradeoff inside a broader shared memory-resource pool rather than creating a completely independent supply river.
 
-## 11. Current judgment and falsification boundary
+## 11. Current read and falsification
 
 HBM scarcity is not inevitable. The current mechanism would weaken materially if:
 
