@@ -16,7 +16,7 @@ Without one common discipline, recurring errors include:
 - presenting future scenarios as current facts;
 - repeating one secondary-source number across chapters until it appears to become multi-source confirmation.
 
-This book therefore uses two complementary frameworks:
+This report therefore uses two complementary frameworks:
 
 > **F → H → M → S → X**
 
@@ -208,10 +208,10 @@ To avoid treating every named term as a separate theory, the report distinguishe
 | Load-bearing | **Non-AI Residual Capacity** | Measures what effective supply remains available to traditional end systems after priority allocation |
 | Load-bearing | **Layer-specific Incremental Scarce-Capacity Access** | Tracks access to incremental scarce supply separately across logic / HBM / packaging / networking / power |
 | Load-bearing | **Rolling Bottleneck Cascade** | Explains how constraints migrate, ease, or reverse across physical layers |
-| Load-bearing | **Cloud System-Stack Substitution + Parallel-Stack Closure Boundary** | Separates real second-stack substitution from production-grade versus autonomous frontier closure |
+| Load-bearing | **Cloud system-stack substitution + parallel-stack closure boundary** | Separates real second-stack substitution from production-grade versus autonomous frontier closure |
 | Load-bearing | **Financing Reflexivity** | Tests feedback between orders, capital formation, seller-assisted financing, and demand independence |
-| Load-bearing | **AI Inheritance Effect** | Explains how the existing IT installed base expands workflow penetration and the long-duration demand pool |
-| Supporting / measurement | AI Resource Gravity, Scarce-layer Value Capture, Two-Speed Semiconductor Economy, Anchor Compute Buyer Effect, AI Capacity Gap / Growth Gap, AI Software Unit Economics, Task-to-Job Translation | Describes direction, measurement boundaries, or second-order transmission; these do not constitute separate grand theories |
+| Load-bearing | **AI inheritance** | Explains how the existing IT installed base expands workflow penetration and the long-duration demand pool |
+| Supporting / measurement | resource reallocation pressure, scarce-layer value capture, two-speed semiconductor economics, anchor-buyer mechanism, AI Capacity Gap / Growth Gap, AI Software Unit Economics, Task-to-Job Translation | Describes direction, measurement boundaries, or second-order transmission; these do not constitute separate grand theories |
 
 **Source:** Report research method.  
 **Note:** Supporting terms can still be analytically important. Their purpose is to make causal structure and denominators clearer, not to imply that naming a mechanism constitutes independent empirical validation.
