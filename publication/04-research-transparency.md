@@ -214,6 +214,33 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 完成该双语一致性修复后，正式正文再次冻结。
 
+### 8E. 2026-08-30 English-first editorial restructuring pass
+
+随后，正文因**语言与论证架构**被明确重新开启一次。该次修订的目的不是改变事实层，而是把正式研究生产顺序调整为：
+
+> **Evidence → English canonical analytical text → technical review → Chinese professional parallel edition**
+
+本次 editorial restructuring 的范围包括：
+
+- 明确 English 为 canonical research language，中文为 professional parallel edition；
+- 将 Ch01、Ch03、Ch17、Ch21、Ch32 的论证顺序改为 thesis / baseline / denominator / mechanism / boundary / falsification 优先；
+- 将中文对应章节同步为专业平行版，而不是逐句机械翻译；
+- 更新章节标题、目录、README、网站 chapter labels 与静态全文入口；
+- 保留已经成立的事实、证据等级、分母、引用、S1–S4 taxonomy 与 current S2 baseline。
+
+本次修订**没有**：
+- 引入 2026-08-28 之后才发生的新事实；
+- 提高任何 evidence grade；
+- 改写任何已核定数值或分母；
+- 把 S2 改成 S3；
+- 为了英文表达而降低专业技术密度。
+
+编辑原则被正式收敛为：
+
+> **Simplify navigation, not analysis.**
+
+完成该 English-first editorial restructuring 后，正式正文再次冻结。
+
 ---
 
 
