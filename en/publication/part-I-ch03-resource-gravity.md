@@ -125,7 +125,7 @@ The memory-layer transmission mechanism is therefore:
 The boundaries remain important:
 
 - 3× is a same-node / same-bits wafer-supply trade ratio;
-- 51% includes HBM + RDIMM;
+- 51% (2026E) includes HBM + RDIMM;
 - 51% is a 2026E forecast;
 - neither figure can be rewritten as HBM wafer share.
 
