@@ -23,6 +23,30 @@ At minimum, the economics of a layer depend on:
 
 High revenue share does not automatically mean highest value capture, and gross margins cannot be compared across fundamentally different business models without context.
 
+## 2A. Operating value capture and capital-market valuation run on different clocks
+
+A company can capture strong operating economics without receiving the highest valuation multiple, and it can receive a high market valuation before those economics are fully realized.
+
+The report therefore separates:
+
+- **operating value capture:** revenue, gross / operating profit, free cash flow, unit economics, and cash conversion;
+- **market position:** scarcity, switching cost, distribution, supply access, and bargaining power;
+- **capital-market valuation:** market capitalization, equity multiple, debt pricing, and financing flexibility.
+
+These layers interact but are not interchangeable.
+
+A stronger market position can support higher margins and cash flow. Stronger cash flow can then improve financing capacity. A higher market valuation can lower the effective cost of equity, increase acquisition currency, support employee compensation, and expand the option set for prepayments or strategic investments.
+
+But:
+
+> **market cap ≠ cash flow ≠ economic rent ≠ physical resource control**
+
+The feedback becomes strategically important only when valuation can be converted into executable financing capacity and the underlying operating economics remain credible.
+
+This is the bridge between the value-capture map in this chapter and the five-lens capital-allocation framework in Chapter 23.
+
+---
+
 ## 3. System platforms monetize coordination and switching cost
 
 NVIDIA is currently the clearest system-platform example.
