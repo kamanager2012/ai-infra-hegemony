@@ -185,6 +185,20 @@ Power must also retain its state identity:
 
 Contracted or secured capacity is not energized capacity; energized capacity is not highly utilized AI load. Generation MW/GW, PPA capacity, and IT-GW must also retain their distinct physical identities.
 
+### Table 8.1 — NVL72 rack-to-MW D-grade intensity conversion
+
+| Item | Official / known input | Mechanical conversion at 1 MW of rack IT load |
+|---|---:|---:|
+| Rack power | ≈120 kW / rack | ≈8.33 racks |
+| GPU | 72 / rack | ≈600 GPUs |
+| HBM3E | 13.4 TB / rack | ≈111.7 TB |
+| LPDDR5X | 17 TB / rack | ≈141.7 TB |
+
+**Source:** NVIDIA GB200 NVL72 official specification and DGX GB200 Hardware Guide.[^3][^5]  
+**Note:** This is a **D-grade mechanical intensity conversion**. It answers only: “if 1 MW of rack IT load were composed entirely of this rack configuration, what would the hardware intensity be?” It is **not** a shipment, deployment, energized-facility, or industry-demand estimate, and it excludes PUE, network/storage, power-conversion, redundancy, and facility overhead.
+
+This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
+
 ## 12. When shipment cannot be closed, Forward Commitment is more useful than an invented shipment model
 
 NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as follows:[^6]
@@ -214,6 +228,24 @@ For each layer, track variables such as:
 - supply elasticity.
 
 A reliable percentage may be used only when customer-level allocation is observable for that specific physical pool.
+
+### Table 8.2 — 2026 public-data quantification readiness by layer
+
+| Physical layer | Publicly observable inputs today | Can Absolute Gap be closed? | More defensible 2026 output |
+|---|---|---|---|
+| Advanced logic | node / platform revenue mix, CapEx, supplier guidance, selected roadmaps | **No**: customer-level qualified wafer demand / allocation is missing | direction, access proxies, node mix; no synthetic wafer-share gap |
+| HBM / DRAM | vendor supply guidance, same-bits wafer trade ratio, institutional bit forecasts | **Partly quantifiable, but no global gap closure**: customer-level bits / wafer allocation is missing | manufacturing intensity, tightness, product-mix shift |
+| Advanced packaging | supplier guidance, tightness statements, selected institutional demand estimates | **No**: no unified qualified package-start denominator or customer allocation | lead time, qualification, allocation proxies |
+| Networking | system specifications, public topology / deployment, vendor product data | **Partial**: no unified workload-level topology / utilization denominator | workload-specific bandwidth / latency / TCO |
+| Power / LPS | project-level contracted / secured / permitted / construction / energized states | **Partly at project level; not globally** | Time-to-Power, state conversion, project delivery gap |
+| Capital / Utilization | CapEx, supply commitments, financing structure, selected revenue disclosure | **Capital base is visible; real utilization is not broadly public** | capital-base growth versus utilization / monetization proxies |
+
+**Source:** Report synthesis based on the degree to which public evidence can close each denominator.  
+**Note:** “Not closed” is not an excuse for missing data. It identifies **which denominator is absent**. A layer should be upgraded to an auditable Absolute Gap only when demand and capacity are observable in the same physical unit, delivery window, and qualification boundary.
+
+The quantitative rule is therefore:
+
+> **Calculate what can be closed; use explicit proxies where closure is partial; do not fill a missing denominator with a point estimate.**
 
 ## 14. Five risk classes should be separated before testing for cascade
 
