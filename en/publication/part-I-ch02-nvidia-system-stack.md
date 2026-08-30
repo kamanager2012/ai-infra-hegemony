@@ -40,7 +40,7 @@ For that reason, unverified nanosecond-level latency comparisons are excluded, a
 
 ## 3. CUDA / PTX is a cross-generation software asset
 
-CUDA's strategic value should not be reduced to an imaginary fixed "software tax" that does not appear in financial disclosures. It is better understood as a long-lived software asset:
+CUDA's strategic value should not be reduced to an imaginary fixed "software tax" that does not appear in financial disclosures. NVIDIA's FY26 Form 10-K identifies CUDA as its parallel-computing platform, providing a first-party anchor for treating the software layer as part of the platform rather than as a separate disclosed margin line.[^8] It is better understood here as a long-lived software asset:
 
 - compiler and kernel ecosystem;
 - libraries;
@@ -51,7 +51,7 @@ CUDA's strategic value should not be reduced to an imaginary fixed "software tax
 - deployment tooling;
 - developer knowledge.
 
-PTX matters because it provides a relatively stable intermediate representation. Upper-layer software does not need to be rewritten from scratch every time the GPU generation changes. Hardware can move from Hopper to Blackwell to Rubin while a meaningful share of software assets remains reusable.
+PTX matters because NVIDIA documents PTX as a **stable ISA that spans multiple GPU generations**.[^9] Upper-layer software therefore does not need to be rewritten from scratch every time the GPU generation changes. Hardware can move from Hopper to Blackwell to Rubin while a meaningful share of software assets remains reusable.
 
 That creates a cross-generation mechanism:
 
@@ -86,13 +86,13 @@ If system-level advantage produces high profit and free cash flow, it can influe
 | FY26 Data Center revenue | US$193.737B |
 | FY26 NVIDIA-defined non-GAAP free cash flow | US$96.575B |
 | FY27 Q2 revenue | US$96.221B |
-| FY27 Q2 Data Center revenue | US$89.0B |
+| FY27 Q2 Data Center revenue | US$89.023B |
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
-| 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
+| 2026-07-26 supply and capacity commitments | US$279B |
 
-**Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^2][^3][^4]  
-**Note:** US$279B is the aggregate manufacturing, supply, and capacity commitment; public filings do not provide a supplier-level split.
+**Source:** NVIDIA FY26 results / FY26 Form 10-K, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^2][^3][^4][^8]  
+**Note:** US$279B is the FY27 Q2 filing's aggregate **supply and capacity** commitment. Public filings do not provide a supplier-level split.
 
 The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems.[^4] The filing does not split the US$279B across TSMC, CoWoS, SK hynix, Micron, Samsung, or any other individual supplier.
 
@@ -110,7 +110,7 @@ It is not an automatic monopoly formula. Suppliers still optimize for customer d
 
 ## 6. System power has clear physical boundaries
 
-NVIDIA does not directly manufacture every critical scarce layer. It still depends on:
+NVIDIA does not directly manufacture every critical scarce layer. Its FY26 Form 10-K describes a **fabless and contracting manufacturing strategy**, providing the first-party boundary for the external physical supply dependencies listed below.[^8] It still depends on:
 
 - leading-edge foundries;
 - HBM vendors;
@@ -234,9 +234,11 @@ A single custom-chip announcement, one-quarter market-share move, or theoretical
 [^1]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 [^2]: NVIDIA, “NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^3]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^4]: NVIDIA Corporation, Form 10-Q for quarter ended 2026-07-26, U.S. SEC, including FY27 Q2 Data Center revenue of US$89.023B and US$279B supply / capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 
 
 [^6]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
 [^7]: Hugging Face official documentation for Hub, models, datasets, Spaces, Transformers, and inference/deployment products, https://huggingface.co/docs
+[^8]: NVIDIA Corporation, FY26 Form 10-K, CUDA platform, fabless / contracting manufacturing strategy, and FY26 segment disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^9]: NVIDIA, PTX ISA documentation, PTX described as a stable ISA spanning multiple GPU generations, https://docs.nvidia.com/cuda/parallel-thread-execution/index.html
