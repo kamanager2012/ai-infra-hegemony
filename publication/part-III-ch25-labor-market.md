@@ -49,7 +49,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 - 单个 task 被压缩，不代表整个 occupation 消失；
 - 企业人均产出提高，也可能表现为需求扩张而不是 headcount 下降。
 
-因此，就业预测必须从 task 和 workflow 开始，而不能从 benchmark 直接跳到 job count。
+因此，employment analysis 必须从 task 和 workflow 开始，而不能从 benchmark 直接跳到 job count。
 
 ## 4. Adoption Economics 是第一道 Substitution Gate
 
@@ -89,7 +89,7 @@ AI 可能改变 preparation / analysis / documentation，但最后责任仍可�
 
 如果 junior tasks 大量自动化，企业和教育体系必须重新设计新人如何积累经验。
 
-这可能比一个统一“失业率预测”更重要。
+这种结构性影响可能比一个统一的 economy-wide unemployment forecast 更重要。
 
 ## 8. Wage Outcome 更可能出现分化
 
@@ -109,7 +109,7 @@ warehouse、manufacturing、logistics、inspection、maintenance 等 physical ta
 
 AI expansion 同时增加 data-center technician、liquid-cooling engineer、power engineer、semiconductor process engineer、advanced-packaging engineer、network engineer、safety/compliance 与 model-infrastructure roles。
 
-所以劳动变化是 reallocation，不是单向“AI 减少工作”。
+因此，labor-market change 更适合被理解为 reallocation，而不是单向 employment reduction。
 
 ## 11. Organization Shape 取决于 Review Burden 与 Task Volume
 
