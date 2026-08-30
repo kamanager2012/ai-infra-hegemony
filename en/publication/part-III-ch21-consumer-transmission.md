@@ -10,7 +10,7 @@ Direct overlap is strongest in advanced logic, DRAM / LPDDR, selected packaging,
 
 The transmission chain is:
 
-> **AI/server product mix rises → allocation priority changes in shared or adjacent resource pools → Non-AI Residual Capacity and Quantity Assurance change → BOM, configuration, promotion, volume, or replacement-cycle economics adjust**
+> **AI/server product mix rises → allocation priority changes in shared or adjacent resource pools → Non-AI Residual Capacity and Quantity Assurance change → price / configuration / volume adjust → Product-Mix Polarization → Vendor Operating-Model Adaptation**
 
 This chapter therefore tests **transmission and attribution**. It does not assume that every component-price increase is caused by AI, and it does not require literal one-for-one competition for the same device.
 
@@ -78,7 +78,32 @@ The result is **segmentation and restructuring rather than uniform collapse**: e
 
 The real change is that HPC has stronger pull on incremental advanced resources and memory economics tilts more toward server/HBM, making flagship BOM, memory configuration, and mid-range node strategy more exposed to upstream constraints.
 
-## 4A. Routers / broadband: bargaining power changes the transmission severity
+## 4A. Three product clocks: premium reprices and shrinks, mid-range stretches, entry exits
+
+Describing this as a uniform industry-wide freeze would still be too coarse. End-device vendors are operating on three different product clocks.
+
+IDC's August 26, 2026 smartphone outlook forecasts:[^30]
+
+- 2026 global smartphone shipments down **16.7% YoY**, to just above **1 billion units**;
+- average selling price rising to **US$581**, up **27.6% YoY**;
+- total market value still increasing **6.3%** to roughly **US$613B**;
+- the sub-US$100 smartphone segment, which still shipped about **173 million units** in 2025, facing severe viability pressure as low-end Android vendors reduce low-price models and move product mix upward.
+
+The key implication is that **unit contraction and revenue resilience can coexist**. The industry does not have to decline uniformly; vendors can sacrifice volume while defending mix, ASP, and margin.
+
+The more defensible three-layer structure is:
+
+- **Premium:** absorbs cost through higher ASP, financing, brand premium, and stronger supply leverage; technical progress continues, but volume does not have to expand.
+- **Mid-range:** has the hardest time preserving price band, memory/storage configuration, and the annual performance narrative at the same time; platform life extends and replacement cycles lengthen.
+- **Entry:** when BOM inflation breaks the price ceiling, the outcome may be fewer SKUs, lower-cost platforms, refurbished/used substitution, or exit from the price band rather than a proportional price increase.
+
+Gartner's February 2026 outlook points in the same direction: it expects PC lifetimes by year-end 2026 to extend by roughly **15% for business buyers** and **20% for consumers**, and argues that the sub-US$500 entry PC segment could become economically unviable by 2028.[^32] This remains a **B-grade institutional forecast**, not an observed terminal state.
+
+The correct interpretation is therefore not that all end-system specifications freeze together:
+
+> **premium devices can keep advancing at higher prices and smaller volumes; mid-range devices absorb the constraint through slower upgrades and longer lives; entry tiers carry the highest exit risk.**
+
+## 4B. Routers / broadband: bargaining power changes the transmission severity
 
 Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
 
@@ -121,7 +146,49 @@ Two channels can therefore overlap:
 - consumer GPU / system availability;
 - DDR / LPDDR / system-memory cost.
 
-## 5A. Game consoles: long generations make residual pressure persistent
+IDC's June 2026 PC outlook forecasts global PC shipments down **11.3% YoY** in 2026 while PC ASP rises **18.3%**, and says it does not expect meaningful relief from the memory shortage before the end of 2027.[^31] This is still a forecast, not a guaranteed future path, but it reinforces the same operating problem: vendors must manage higher system cost, weaker unit demand, and a harder-to-sustain full product portfolio at the same time.
+
+## 5A. Vendor Operating-Model Adaptation: vendors cannot simply wait for users to delay replacement
+
+Consumers can postpone a purchase. Device vendors still carry annual product planning, channel inventory, tooling and R&D amortization, minimum procurement scale, retail commitments, and market-share targets. The same shortage that appears as “I will upgrade later” to the user can appear as a **broken operating equation** to the vendor.
+
+The mainstream consumer-electronics model of the last decade implicitly relied on several conditions:
+
+- advanced-node capability diffusing down the stack;
+- DRAM / NAND unit cost declining over time;
+- mid-range volume absorbing fixed R&D, tooling, and channel cost;
+- entry products covering price bands and share;
+- flagship products carrying brand, ASP, and technical narrative.
+
+When memory, advanced logic, and adjacent manufacturing resources are repriced or reprioritized, those conditions cannot all be preserved. Vendor responses narrow to five broad choices:
+
+1. **Raise price:** defend margin, accept lower volume and weaker low-end share.
+2. **Reduce or freeze specification:** preserve a price band, weaken the annual upgrade case.
+3. **Cut SKUs and extend lifecycle:** open fewer new designs and amortize platforms longer.
+4. **Shift the product narrative:** move from compute/memory toward camera, display, battery, form factor, software, and services.
+5. **Exit selected price bands, regions, or product lines:** shrink the portfolio when low-margin SKUs no longer cover BOM and channel economics.
+
+Sony already provides a strong first-party example: its FY26 PS5 hardware planning explicitly links memory procurement at reasonable prices to unit sales, promotional plans, and hardware profitability.[^27] IDC and Gartner forecasts for smartphones and PCs show the same broader combination of **higher ASP + lower units + premiumization + longer replacement cycles**.[^30][^31][^32]
+
+The vendor problem is therefore not whether consumers can tolerate slower upgrades. It is:
+
+> **How does a company built around annual hardware improvement and scale expansion continue to cover fixed cost, channels, and product cadence after scarce upstream resources are repriced under a different return structure?**
+
+### 5A.1 Scale still matters, but it no longer guarantees marginal allocation priority
+
+The report does not assume that lower consumer volume automatically causes lower future allocation. Purchase scale, LTAs, prepayment, multi-sourcing, and supplier relationships still improve Quantity Assurance.
+
+But historical unit scale also cannot be treated as an automatic claim on the next unit of scarce capacity. A narrower mechanism is:
+
+> **When another buyer can offer higher willingness to pay, longer commitments, stronger prepayment, or higher supplier returns for the same or adjacent resource, the allocation value of traditional end-market scale can weaken at the margin.**
+
+This creates a feedback loop worth monitoring rather than assuming:
+
+> **Residual Capacity Compression → Price / Specification Adjustment → Longer Replacement Cycles → Lower Unit Volume → possible weakening of marginal allocation position → further Product-Mix Adjustment**
+
+Public evidence already supports the first half of this chain. Whether lower unit volume systematically weakens future allocation is still an **M — Mechanism / H — Hypothesis** that requires cross-cycle contract, allocation, wafer-start, and supplier-mix evidence.
+
+## 5B. Game consoles: long generations make residual pressure persistent
 
 Game consoles are a useful test case for Non-AI Residual Capacity because they do not directly compete with AI servers for the same accelerator, yet they remain materially exposed to **memory, storage, custom SoC/APU, and selected manufacturing / packaging resources**.
 
@@ -137,7 +204,7 @@ The more accurate relationship is:
 
 > **console memory / storage / SoCs sit inside the same broader semiconductor and memory capital system as AI/server demand, while their specific product pools, packaging formats, and qualification paths remain different.**
 
-### 5A.1 Hardware-economics pressure is directly observable
+### 5B.1 Hardware-economics pressure is directly observable
 
 Sony stated in its FY2025 Q4 / FY2026 outlook that:
 
@@ -163,7 +230,7 @@ Combined with Sony's first-party procurement statement, the evidence supports a 
 
 > **Game consoles are already an end-system case where memory residual pressure can affect shipment cadence, promotion capacity, and hardware margin.**
 
-### 5A.2 Why one cost shock can affect an entire console generation
+### 5B.2 Why one cost shock can affect an entire console generation
 
 Game consoles usually combine:
 
@@ -188,7 +255,7 @@ That is the console version of an **upgrade tax**:
 
 > **the same price band buys a slower hardware-specification improvement, or the same target specification requires a higher BOM / weaker promotional subsidy.**
 
-### 5A.3 Attribution boundary
+### 5B.3 Attribution boundary
 
 The report does not infer:
 
@@ -239,6 +306,25 @@ The analysis therefore has to separate:
 > **price pressure** from **quantity assurance**
 
 Prices can rise while supply remains insufficient. A willingness to pay more does not guarantee the quantity required by the production plan.
+
+### 6.2 Hardware constraint raises the value of software efficiency, but does not automatically make software lean
+
+Slower hardware improvement changes software optimization boundaries, but it does not imply that the software industry will universally become more efficient.
+
+When 8 GB memory, constrained storage, or prior-generation GPUs remain in the mainstream installed base for longer, software vendors can respond in at least four ways:
+
+1. **Local optimization:** lower memory footprint, package size, cold-start cost, and background activity.
+2. **Feature tiering:** use lightweight modes, on-demand loading, modular features, or different quality presets by memory/compute tier.
+3. **Cloud offload:** move models, indexing, rendering, or other heavy workloads to data centers; the endpoint becomes lighter while total system resource use does not necessarily fall.
+4. **Support cutoff:** raise minimum requirements or end support earlier, transferring compatibility cost to the installed base.
+
+Hardware constraint is therefore a **necessary pressure, not a sufficient condition** for software efficiency. Organizations still optimize across engineering cost, time to market, cloud cost, subscription revenue, and retention.
+
+This is especially important for AI software: consumer endpoints may be forced to economize on local memory while model serving, KV cache, retrieval, agent loops, and evaluation expand data-center resource use. A second transmission mechanism can therefore emerge:
+
+> **consumer hardware constraint → local convergence / cloud offload → higher dependence on remote compute → reinforcement of data-center demand**
+
+This chain is best treated as an **M — Mechanism**, not as a closed reflexive demand loop. A lighter local application does not imply lower total system resource intensity.
 
 ## 7. Use contract and allocation evidence before channel anecdotes
 
@@ -349,9 +435,21 @@ As of August 2026, the evidence supports:
 
 > **AI infrastructure has transmitted part of its cost pressure into consumer electronics, automotive/industrial systems, and other end systems through memory, shared leading-edge resources, allocation priority, and system pricing; the further an end system sits from those shared advanced layers, the more the transmission must be validated through supply continuity, product mix, and supplier economics.**
 
-This is not "consumer electronics being eliminated by AI."
+The defensible long-run conclusion is neither “AI eliminates consumer electronics” nor “all consumer hardware freezes uniformly.”
 
-It is a change in product configuration, upgrade speed, margin structure, and replacement cycles under a new regime of upstream resource competition.
+> **AI is raising the opportunity cost of selected upstream resources and translating that pressure into three different product clocks: premium reprices and shrinks while still advancing, mid-range stretches and slows, and entry tiers carry the highest exit risk.**
+
+At the vendor level, the sequence is:
+
+> **Residual Capacity Compression → Product-Mix Polarization → Vendor Operating-Model Adaptation**
+
+Price increases, specification cuts, SKU reduction, longer platform life, narrative shifts, and price-band exits already have observed or institutional support. Whether lower unit volume then weakens future marginal allocation remains a mechanism to be tested.
+
+At the software layer, hardware constraint raises the value of local efficiency, but cloud offload, feature tiering, and support cutoffs provide alternative escape routes. The report therefore does not assume a universal return to “lean software.”
+
+The final boundary is:
+
+> **As of 2026, the evidence supports erosion of the cheap mass-market upgrade model in consumer computing; it does not yet establish that smartphones, PCs, and gaming as complete demand and content industries have entered structural terminal decline.**
 
 ## References
 
@@ -390,3 +488,6 @@ It is a change in product configuration, upgrade speed, margin structure, and re
 
 
 [^29]: Sony Group, FY2025 Form 20-F, global memory-semiconductor price increases / shortages and component-capacity risk, https://www.sony.com/en/SonyInfo/IR/library/FY2025_20F_PDF.pdf
+[^30]: IDC, 2026-08-26, Smartphone Shipments Set for Record 16.7% Drop in 2026, as the Memory Crisis Hits Full Force, https://www.idc.com/resource-center/blog/smartphone-shipments-set-for-record-16-7-drop-in-2026-as-the-memory-crisis-hits-full-force/
+[^31]: IDC, 2026-06-02, PC Market Enters Volatile Territory as Memory Shortage Persists Through 2027, https://www.idc.com/resource-center/blog/pc-market-enters-volatile-territory-as-memory-shortage-persists-through-2027/
+[^32]: Gartner, 2026-02-26, Gartner Says Surging Memory Costs Will Reduce Global PC and Smartphone Shipments in 2026, https://www.gartner.com/en/newsroom/press-releases/2026-02-26-gartner-says-surging-memory-costs-will-reduce-global-pc-and-smartphone-shipments-in-2026
