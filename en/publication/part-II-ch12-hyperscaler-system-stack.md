@@ -225,6 +225,36 @@ The boundary will move with software maturity, memory supply, interconnect, work
 
 ---
 
+## 11A. System-orchestration rent is workload-topology dependent
+
+The value of a general-purpose system orchestrator is not constant across workload mix.
+
+For highly synchronized frontier training, large-scale collective communication, scale-up fabrics, failure recovery, and cluster-wide software coordination can command a high premium because system-level execution risk is expensive.
+
+As a larger share of production shifts toward inference or narrower fine-tuning workloads, some workloads can become:
+
+- more partitionable;
+- more latency / memory / power constrained than collective-communication constrained;
+- easier to place on vertically optimized captive systems;
+- more sensitive to cost per token / verified outcome than to maximum general-purpose flexibility.
+
+That can reduce the economic rent attached to one universal training-oriented coordination stack **for specific workloads** and increase the value of hyperscaler custom systems.
+
+But the report rejects a fixed threshold such as “inference exceeds 80%, therefore orchestration power collapses.” Public evidence does not support such a universal cutoff, and large-scale inference can still require substantial memory systems, networking, scheduling, reliability, and fleet orchestration.
+
+The relevant monitoring variables are therefore:
+
+- production workload mix by training / inference where disclosed;
+- custom-silicon share of captive production workloads;
+- cost per token / cost per verified workload on alternative stacks;
+- memory and network intensity by workload topology;
+- migration cost and software portability;
+- external-customer adoption versus captive internal use.
+
+The strategic question is not whether inference “kills” system coordination. It is **which coordination layers remain scarce and monetizable as workload topology changes.**
+
+---
+
 ## 12. Current read
 
 As of August 2026, the most defensible description is:
