@@ -12,7 +12,7 @@
 
 一个层级的证据不能替另一个层级完成 closure。smartphone supply chain 较强，不等于 frontier AI 已闭环；frontier AI 仍有约束，也不等于“中国没有半导体替代能力”。
 
-对于 frontier AI，本报告采用两个独立测试：
+对于 frontier AI，需要采用两个独立测试：
 
 > **Production-Grade Parallel Stack：** 系统能否在真实 workload 中同时满足 performance、scale、portability、supply continuity、reliability、utilization 与 economics？
 
@@ -53,7 +53,7 @@ UNISOC 则代表另一种 commercial loop：它在大众/入门与 entry-5G 市�
 
 UNISOC 是 fabless 设计公司。其公开产品资料能够确认多款当前 5G SoC 使用 **6nm EUV**；其中 UNISOC 官方 M6870 产品页更直接标注为 **TSMC 6nm EUV**。[^19] UNISOC / Spreadtrum 与 TSMC 的代工合作也有长期一手记录：TSMC 2011 年即披露 Spreadtrum 40nm baseband 在其 Fab 12 进入 initial production。[^20]
 
-但本报告不把这些证据进一步扩写成“UNISOC 全部产品均由 TSMC 生产”。例如，T9100 官方页面确认的是 **6nm process**，并未在该产品页直接披露 foundry identity。[^21] 因此，当前能够安全写下的判断是：
+但这些证据并不支持进一步扩写成“UNISOC 全部产品均由 TSMC 生产”。例如，T9100 官方页面确认的是 **6nm process**，并未在该产品页直接披露 foundry identity。[^21] 因此，当前能够安全写下的判断是：
 
 > **UNISOC 的 14% smartphone AP-SoC shipment share 证明了真实商业设计与出货规模，但不能证明 domestic foundry closure；其公开产品与历史供应链证据显示 TSMC 是重要 manufacturing dependency，foundry continuity 必须作为独立 gate 评估。**
 
@@ -108,7 +108,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 任一单点突破都不足以自动形成等价系统。有 accelerator 但没有 HBM，有 hardware 但 migration cost 很高，有 cluster 但 utilization 与 interconnect scaling 不足，都可能使 system-level competitiveness 显著下降。
 
-因此，本报告不使用“某颗芯片能运行模型”作为 frontier substitution 的充分条件。
+因此，“某颗芯片能运行模型”不能作为 frontier substitution 的充分条件。
 
 ## 5. Ascend / CANN 应按 System Completeness 而不是单卡 Peak Metric 判断
 
@@ -128,7 +128,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ## 6. Memory：Conventional Scale 与 Frontier HBM 是两个 Threshold
 
-长鑫科技的公开招股/注册材料披露 DDR 与 LPDDR 产品；公司随后已于 **2026-07-27** 在上交所科创板上市交易。[^7][^18] 对相关公开材料检索 `HBM` 与“高带宽内存”未见可用于确认量产产品线的披露，因此本报告只保留一个窄结论：
+长鑫科技的公开招股/注册材料披露 DDR 与 LPDDR 产品；公司随后已于 **2026-07-27** 在上交所科创板上市交易。[^7][^18] 对相关公开材料检索 `HBM` 与“高带宽内存”未见可用于确认量产产品线的披露，因此现有证据只支持一个窄结论：
 
 > **现有公开发行与产品材料不足以确认已形成可规模交付的 HBM 产品线。**
 
@@ -156,7 +156,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 长鑫公开招股材料引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四。[^11]
 
-因此，“长鑫已经有 8% 全球 DRAM 份额”不能作为本报告事实层。
+因此，“长鑫已经有 8% 全球 DRAM 份额”不能进入事实层。
 
 长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；[^12] 同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。[^13]
 
@@ -240,7 +240,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 > **System Engineering 能否把现有制造基础转化为有竞争力的 production-workload economics，而不是仅仅把瓶颈从 logic 移到 memory、packaging、networking、power、reliability 或 capital？**
 
-由于这些资源使用不同物理单位，本报告不把它们压成一个 synthetic “补偿分数”。更稳健的比较应分别观察 target workload 的 throughput / cost、power per verified output、qualified package availability、memory intensity、utilization 与 multi-generation continuity。
+由于这些资源使用不同物理单位，它们不能被压成一个 synthetic “补偿分数”。更稳健的比较应分别观察 target workload 的 throughput / cost、power per verified output、qualified package availability、memory intensity、utilization 与 multi-generation continuity。
 
 因此，工程补偿应被赋予更高权重，但边界必须保持清楚：
 
