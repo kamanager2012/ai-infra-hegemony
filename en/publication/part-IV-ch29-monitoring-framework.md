@@ -129,7 +129,7 @@ Representative current paths include:
 - Microsoft / Constellation: ~835 MW restart PPA;[^10]
 - Talen / AWS: up to 1,920 MW revised PPA; the spring-2026 transition plan / subsequent 2026 Q2 status must not be rewritten as full physical delivery complete;[^11]
 - Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035;[^12]
-- PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with planned delivery beginning in 2028.[^13]
+- PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with delivery planned to begin in **calendar 2028**; NVIDIA's Q2 filing describes the first phase as expected in **FY2029**.[^2][^13]
 
 The variables to update are each project's transition from secured / contracted status into construction, energized capacity, actual load, and utilization—not headline capacity alone.
 
