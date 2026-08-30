@@ -64,9 +64,11 @@ The relationship between PORTS-Pike's **4.25 IT-GW** and OpenAI's previously dis
 Anthropic disclosed in April 2026 that:[^4]
 
 - its future ten-year commitment to AWS technologies is **more than US$100B**;
-- it can access **up to 5 GW** of capacity;
+- it is securing **up to 5 GW of new compute capacity**;
 - it is already using **more than 1M Trainium2 chips**;
-- by the end of 2026 it expects close to **1 GW of Trainium2/3 capacity**.
+- by the end of 2026 it expects close to **1 GW of Trainium2/3 capacity** to be coming online.
+
+The nearly 1 GW end-2026 figure is a deployment milestone within the broader collaboration and should not be added to the up-to-5-GW figure as a separate capacity pool.
 
 Model-company demand can become an important anchor workload for cloud custom silicon.
 
@@ -222,8 +224,8 @@ Conversely, larger headline contract values or additional secured GW should not,
 
 [^1]: OpenAI, “Announcing The Stargate Project,” 2025-01, https://openai.com/index/announcing-the-stargate-project/
 [^2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
-[^3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
-[^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW, and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^3]: OpenAI, “Building the infrastructure for the Intelligence Age in Michigan,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
+[^4]: Anthropic, “Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute,” 2026-04-20, >US$100B over ten years, up to 5 GW of new compute capacity, and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
 [^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, initial 4.25 IT-GW design capacity, LPS credit support, 20-year OpenAI lease, and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, management commentary that OpenAI existing and planned NVIDIA Compute commitments total approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 [^7]: xAI, “xAI raises $6B Series C,” 2024-12-23, first-party disclosure that Colossus used 100,000 NVIDIA Hopper GPUs, became fully operational in 122 days, and was planned to double to a combined 200,000 Hopper GPUs, https://x.ai/news/series-c
