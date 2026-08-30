@@ -1,14 +1,16 @@
-# Part I · Chapter 4: TSMC, N2, and Advanced-Manufacturing Resource Allocation
+# Part I · Chapter 4: Advanced Logic Allocation — TSMC, N2, and the Next Unit of Qualified Capacity
 
-## 1. The real competitive object is not a rumored "2 nm wafer price"
+## 1. The unit of analysis is qualified incremental capacity, not a wafer-price headline
 
-A frontier AI system simultaneously requires leading-edge logic, HBM, advanced packaging, substrates, interconnect, and power. Node leadership is only one necessary condition for entering the next-generation system race.
+Leading-edge logic is necessary but not sufficient for frontier AI. A production system still has to close HBM, packaging, interconnect, power, and software around the node.
 
-The core question in advanced manufacturing is therefore not a market-rumored wafer quote. It is:
+The advanced-manufacturing question is therefore:
 
-> **Who can secure sufficient scale when N2/N2P/A16 and other next-generation resources enter volume production, while also matching memory, packaging, and system roadmaps?**
+> **Who can secure enough qualified N2/N2P/A16-class capacity, at the right time, while the rest of the system stack is also ready?**
 
-## 2. TSMC 2025 key facts
+A rumored wafer price does not answer that question. Volume, qualification, delivery timing, roadmap continuity, and cross-layer readiness do.
+
+## 2. TSMC baseline: capacity, technology mix, and platform mix
 
 **Table 4.1 — TSMC 2025 capacity, technology, and platform-revenue structure**
 
@@ -29,7 +31,7 @@ The core question in advanced manufacturing is therefore not a market-rumored wa
 
 These figures show that HPC became TSMC's largest platform while TSMC continued to serve a broad customer base. They do not support the claim that TSMC has become a dedicated fab for any one customer.
 
-## 2A. 2Q26: the marginal center of advanced manufacturing continues to tilt toward HPC
+## 2A. 2Q26: HPC remains a major marginal driver of advanced-manufacturing capital
 
 TSMC's official 2Q26 results provide a current cross-section:[^8]
 
@@ -51,7 +53,7 @@ This strengthens the report's "where does the next capital dollar go?" thesis, b
 - all US$60–64B of CapEx is AI-specific;
 - smartphones have lost leading-edge access.
 
-## 3. Customer revenue share cannot be converted into wafer / node / CoWoS share
+## 3. Revenue share is not an allocation denominator
 
 The 2025 largest-customer share of 19% and second-largest-customer share of 17% are **annual-revenue ranking disclosures**.[^2]
 
@@ -61,7 +63,7 @@ A different anonymized customer table supports year-over-year comparison: Custom
 
 Likewise, HPC at 58% is a platform revenue share, not a wafer-shipment share.
 
-## 4. N2's strategic value comes from incremental launch resources
+## 4. N2 matters through launch access and delivery scale
 
 N2 matters for more than transistor density. Competitors care about:
 
@@ -74,7 +76,7 @@ N2 matters for more than transistor density. Competitors care about:
 
 Access to a node does not automatically create a system victory. If memory, packaging, interconnect, or power are missing, complete-system delivery remains constrained.
 
-## 5. Layer-specific Incremental Scarce-Capacity Access is more useful than a composite capture ratio
+## 5. Scarce-capacity access must remain layer-specific
 
 The report does not use one cross-layer percentage to summarize access to advanced logic, HBM, packaging, networking, and power.
 
@@ -92,7 +94,7 @@ The relevant questions are:
 
 If reliable customer-level allocation data becomes available for one physical layer, a percentage can be used for that layer. It cannot be extended into a full-stack "resource capture share."
 
-## 6. TSMC allocation is not driven by one variable
+## 6. Allocation is multi-variable, not customer-rank deterministic
 
 Advanced-capacity allocation is more likely to reflect a combination of price, committed volume, contract duration, prepayment, credit quality, utilization certainty, roadmap stability, customer diversification, and geopolitical risk.
 
@@ -100,7 +102,7 @@ The deterministic claim that "the number-one customer gets all the best resource
 
 A more defensible mechanism is that order scale, credit, prepayment, and roadmap certainty increase a buyer's bargaining power over incremental resources, while suppliers retain incentives to diversify customers, protect long-run bargaining power, and manage geopolitical risk.
 
-## 7. Advanced Packaging must remain separate from the logic pool
+## 7. Packaging is a separate physical pool
 
 TSMC first-party material confirms advanced-packaging tightness, but customer-level CoWoS allocation is not disclosed.[^5] TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is B-grade institutional evidence.[^6]
 
@@ -108,7 +110,7 @@ No report-side packaging-geometry ratio is used in the formal analysis to infer 
 
 This is why "leading-edge logic available" and "complete AI system deliverable" are different questions.
 
-## 8. Samsung / SMIC foundry share is not equivalent to frontier substitution
+## 8. Foundry revenue share is not frontier substitution
 
 TrendForce estimates 1Q26 foundry revenue shares at roughly **72% for TSMC**, **6.5% for Samsung Foundry (excluding System LSI)**, and **5.1% for SMIC**.[^7]
 
@@ -116,13 +118,13 @@ These are revenue shares, not frontier-AI capacity shares. A second supply syste
 
 "Another foundry exists" and "a complete second frontier-AI supply stack exists" are therefore different propositions.
 
-## 9. Current judgment
+## 9. Current read
 
 TSMC's strategic position rests on three conditions that currently coexist: strong leading-edge logic, HPC as its largest platform, and advanced packaging as a publicly confirmed growth constraint.
 
 The key forward variables are not one quarter's customer revenue shares, but the customer structure of N2/N2P/A16 incremental resources, HBM / packaging supply, competition from cloud custom silicon for new capacity, and whether a second manufacturing system can produce a combined logic + packaging + memory alternative.
 
-## 10. What evidence would force this chapter to change its judgment
+## 10. What would change the view
 
 Signals that should reduce TSMC's leading-edge strategic leverage include:
 
