@@ -17,6 +17,8 @@
 
 如果只希望快速理解核心结论：
 
+- [Research Brief](RESEARCH_BRIEF.md)
+
 1. [执行摘要](part-I-ch01-executive-summary.md)
 2. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 3. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
