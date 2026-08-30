@@ -28,7 +28,7 @@ The report examines how that shift changes:
 
 - competition between NVIDIA and hyperscaler custom systems;
 - resource allocation across TSMC, HBM, and advanced packaging;
-- where the next semiconductor and infrastructure capital dollar goes;
+- where the next marginal semiconductor and infrastructure dollar is deployed;
 - power, LPS, and Time-to-Power as deployment constraints;
 - model companies evolving from cloud tenants into Anchor Compute Buyers;
 - residual supply available to smartphones, PCs, game consoles, automotive, and industrial markets;
@@ -81,7 +81,7 @@ It is:
 
 ### 2. AI is changing where the next semiconductor capital dollar goes
 
-TSMC's 2Q26 HPC platform represented **66%** of revenue, while advanced technologies at 7 nm and below represented **77%** of wafer revenue. These are revenue-mix measures, not AI wafer share, but they show that HPC has become one of the central marginal drivers of advanced-manufacturing capital formation.
+TSMC's HPC platform accounted for **66%** of 2Q26 revenue, while advanced technologies at 7 nm and below accounted for **77%** of wafer revenue. These are revenue-mix measures, not AI wafer share, but they show that HPC has become one of the central marginal drivers of advanced-manufacturing capital formation.
 
 The report describes this as a **Two-Speed Semiconductor Economy**:
 
@@ -108,7 +108,7 @@ This is a manufacturing-input trade ratio, not a price multiple and not a perman
 
 TrendForce's estimate that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply** remains a **2026E institutional forecast**, not a full-year actual.
 
-### 5. Advanced Packaging and Power are independent constraints
+### 5. Advanced packaging and power are independent constraints
 
 TSMC has explicitly stated that advanced-packaging tightness can limit customer growth.
 
@@ -133,7 +133,7 @@ and also:
 
 ### 6. Model companies are becoming Anchor Compute Buyers
 
-OpenAI Stargate and Anthropic/AWS show that leading model companies are no longer simply renting whatever cloud capacity already exists.
+OpenAI Stargate and the Anthropic/AWS relationship illustrate that leading model companies are no longer simply renting whatever cloud capacity already exists.
 
 Long-duration model demand can create:
 
@@ -147,11 +147,11 @@ On 2026-08-10, NVIDIA announced AI compute-infrastructure financing platforms wi
 
 This is a mobilization target, not funded, committed, or deployed capital.
 
-The development matters because AI compute is increasingly being structured as a long-duration infrastructure-finance asset, not merely purchased through hyperscaler corporate CapEx.
+This matters because AI compute is increasingly being structured as a long-duration infrastructure-finance asset, not merely purchased through hyperscaler corporate CapEx.
 
 ### 8. China must be assessed through two levels of closure
 
-China has moved beyond the stage of having no substitute system, but the frontier layer must separate “a real parallel stack with partial production deployment exists” from “all seven Production-Grade Gates have closed.” On current public evidence, the latter **cannot yet be confirmed**.
+China is no longer at the stage where no substitute system exists, but the frontier layer must still separate “a real parallel stack with partial production deployment exists” from “all seven Production-Grade Gates have closed.” On current public evidence, the latter **cannot yet be confirmed**.
 
 **Production-Grade Parallel Stack** asks whether a substitute system can run real production workloads across:
 
