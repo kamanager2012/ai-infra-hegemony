@@ -1,10 +1,10 @@
 # Part III · Chapter 19: AI Infrastructure Capital Formation — Utilization, Commitments, and Duration Risk
 
-## 1. Capital formation has to be read by owner, asset life, and workload
+## 1. Capital formation must be read by owner, asset life, and workload
 
-The industry is clearly in a high-investment regime. The useful question is not whether CapEx is “high.” It is **what asset is being created, who owns the risk, how long that asset is expected to earn, and whether productive workload is scaling fast enough to carry the capital base**.
+The industry is clearly in a high-investment regime. The useful question is not whether CapEx is “high,” but **what asset is being created, who owns the risk, how long that asset is expected to earn, and whether productive workload is scaling fast enough to carry the capital base**.
 
-Microsoft, Amazon, Alphabet, and Meta do not report one comparable "AI CapEx" measure. Their fiscal periods, PPE definitions, lease treatment, and net-purchase metrics differ.
+Microsoft, Amazon, Alphabet, and Meta do not report a single comparable "AI CapEx" measure. Their fiscal periods, PPE definitions, lease treatment, and net-purchase metrics differ.
 
 Three separations are mandatory:
 
@@ -53,7 +53,7 @@ The new compute-financing platforms and LPS structures should be analyzed in Cha
 
 ## 3. Duration mismatch is the core balance-sheet risk
 
-AI infrastructure is not one server purchase.
+AI infrastructure is not a single server purchase.
 
 It combines assets with very different durations:
 
@@ -69,7 +69,7 @@ This creates a **duration mismatch** between technology iteration speed and infr
 
 NVIDIA's cash generation is more directly linked to inventory, capacity reservation, supply commitments, and next-generation roadmaps.
 
-Hyperscaler capital has to cover land, buildings, power, networking, custom silicon, third-party systems, and operations.
+Hyperscaler capital must cover land, buildings, power, networking, custom silicon, third-party systems, and operations.
 
 The relevant comparison is not "who has more cash?"
 
@@ -156,7 +156,7 @@ As of August 2026, public data still supports a high-investment regime in which 
 
 A real turn would require multiple independent signal families across utilization/revenue, market clearing, forward commitments, demand-financing quality, and accounting to confirm broad deterioration across actors and layers. Accounting strengthens the severity assessment when present, but it is not a mandatory gate.
 
-The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
+The larger the installed capital base becomes, the more the next stage must prove real workflows, revenue, and utilization rather than rely on the assumption that "future demand will simply be larger."
 
 ## 10. What would change the view
 
