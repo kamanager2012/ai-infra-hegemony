@@ -447,7 +447,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 - [第26章：AI 时代教育与人才体系](part-III-ch26-education-talent.md)
 - [第20章：Value Capture Map](part-III-ch20-value-capture-map.md)
 - [第24章：Capital Clearing](part-III-ch24-capital-clearing.md)
-- [第31章：2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
+- [第31章：2036 终局与战略选择权](part-IV-ch31-strategy-endgame.md)
 
 ## References
 
