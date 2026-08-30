@@ -297,7 +297,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 - **S1 ↔ S2**：替代系统在 frontier / high-value production workload 中的规模化程度，以及 HBM / packaging lead time 是否持续下降；
 - **S2 ↔ S3**：scarce-layer allocation 的集中度变化方向、seller forward commitments 增速、proprietary switching cost 与 powered-land 锁定程度；
-- **S3 ↔ S4**：utilization / monetization 与资本基数之比——该变量不公开披露，因此使用公开代理：clearing price（二手系统价、lease rate、cloud discount）、commitments 增速、seller equity / credit support 占比、third-party capital 的 risk premium 与 refinancing dependency。
+- **S3 ↔ S4**：utilization / monetization 与 capital base 之间的关系。由于公开数据没有提供可比的 industry-wide ratio，本报告使用 public proxies：clearing price（二手系统价、lease rate、cloud discount）、commitment growth、seller equity / credit support、third-party capital risk premia 与 refinancing dependency。
 
 同一批资本证据（如 **>US$500B** mobilization target、**US$50B** frontier-lab 投资、**2 GW** credit support）[^7][^8][^9]在代理信号健康时支持 S2/S3 的 infrastructure coordination，在代理信号广泛、持续恶化时支持 S4 权重上升；判别不依赖任何单点数据。
 
@@ -336,7 +336,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 > **“哪些可观察变量改变了，S1–S4 的相对权重应如何调整？”**
 
-这使远期判断可以随产业事实更新，而不依赖一次性押注。
+这使远期判断能够随产业事实更新，而不是被一次性的 endpoint forecast 绑定。
 
 ## References
 
