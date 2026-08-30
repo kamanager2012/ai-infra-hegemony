@@ -1,26 +1,20 @@
-# Part III · Chapter 21: Cost Transmission into Consumer Electronics, End Systems, and the Real Economy
+# Part III · Chapter 21: How AI Reprices Consumer Electronics and Other End Systems
 
-## 1. Core judgment: AI changes marginal resource allocation rather than “absorbing all chip supply”
+## 1. Transmission, not displacement
 
-Traditional end systems do not all purchase training racks. Smartphones, PCs, routers, vehicles, industrial equipment, robotics, and selected high-reliability electronics overlap with AI/server systems at **different intensities**.
+AI does not have to consume the same chips as a smartphone, router, console, vehicle, or industrial controller in order to change that end system's economics.
 
-The closer the overlap is to advanced logic, memory, or selected packaging, the more direct the transmission. The more the system depends on long-life, trusted, RF/power, rad-hard, or other special-process capacity, the more likely the channel runs indirectly through capital, equipment, engineering capacity, and supplier economics.
+The relevant question is **where the two demand pools overlap, directly or indirectly**.
 
-Shared or adjacent layers include:
+Direct overlap is strongest in advanced logic, DRAM / LPDDR, selected packaging, workstation/consumer GPU resources, storage, and some power-management components. Indirect exposure is more important in long-life, trusted, RF/power, rad-hard, or other special-process systems, where capital allocation, equipment continuity, engineering capacity, qualification, and supplier economics matter more than direct competition for an AI accelerator.
 
-- DRAM / LPDDR wafer input;
-- selected leading-edge logic;
-- consumer GPU / workstation resources;
-- power-management components;
-- selected packaging.
+The transmission chain is:
 
-The transmission mechanism is therefore not "AI absorbs all chip supply."
+> **AI/server product mix rises → allocation priority changes in shared or adjacent resource pools → Non-AI Residual Capacity and Quantity Assurance change → BOM, configuration, promotion, volume, or replacement-cycle economics adjust**
 
-It is:
+This chapter therefore tests **transmission and attribution**. It does not assume that every component-price increase is caused by AI, and it does not require literal one-for-one competition for the same device.
 
-> **AI/server product mix rises → shared-resource residual capacity falls → consumer contract prices / configurations / replacement cycles come under pressure**
-
-## 2. HBM manufacturing intensity amplifies DRAM residual pressure
+## 2. Memory is the cleanest observed transmission layer
 
 Micron first-party evidence states that at the same node and same number of bits, HBM3E requires approximately **3× the wafer supply of DDR5**.[^1]
 
@@ -30,7 +24,7 @@ Consumer-DRAM pressure therefore cannot be judged from bit share alone.
 
 If high-value memory also requires more manufacturing input per bit, it can reduce the effective residual supply available to conventional DRAM.
 
-## 2A. Attribution boundary: not every price increase is caused by AI
+## 2A. Attribution test: price alone is not enough
 
 Even when AI/server demand is changing memory and advanced-node allocation, smartphone and PC component prices are also affected by:
 
@@ -49,7 +43,7 @@ A higher memory price by itself proves a price cycle, not a single-cause AI mech
 
 This is why later moderation in mobile-DRAM price growth is important counterevidence: resource pressure can be offset by inventory, end-market demand, supplier response, and price elasticity.
 
-## 3. Smartphone memory has already experienced institutional contract-price shocks
+## 3. Smartphones: the first adjustment appears in BOM and configuration
 
 TrendForce's February 11, 2026 example for 1Q26 showed estimated contract prices for mainstream **8GB + 256GB** smartphone memory approaching **+200% year over year**.[^3]
 
@@ -66,7 +60,7 @@ The more accurate interpretation is therefore:
 
 > **structural residual pressure remains, but the rate of price increase does not accelerate forever.**
 
-## 4. Smartphones remain a huge market; they have not been eliminated by AI
+## 4. Smartphones are segmenting, not disappearing
 
 TSMC's 2025 smartphone platform represented **29%** of annual net revenue and grew **11% year over year**.[^6]
 
@@ -84,7 +78,7 @@ The result is **segmentation and restructuring rather than uniform collapse**: e
 
 The real change is that HPC has stronger pull on incremental advanced resources and memory economics tilts more toward server/HBM, making flagship BOM, memory configuration, and mid-range node strategy more exposed to upstream constraints.
 
-## 4A. Routers / Broadband: low-bargaining-power buyers show the damage more clearly
+## 4A. Routers / broadband: bargaining power changes the transmission severity
 
 Counterpoint Research reported in February 2026 that consumer DRAM/NAND prices had risen by more than **600%** year over year, while memory prices for routers, gateways, and set-top boxes had risen almost **7×**. Memory's share of the BOM in low-to-mid-range routers increased from roughly **3%** to **more than 20%**.[^16]
 
@@ -95,7 +89,7 @@ This is important because it shows that:
 Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of the shock. Smaller OEMs are more exposed to the combination of higher prices and lower allocations.
 
 
-### 4.1 Cross-Market Resource Reordering: AI is changing the allocation balance across end markets
+### 4.1 Cross-market reordering: allocation logic is changing
 
 TrendForce stated in April 2026 that AI demand had created bottlenecks in **3 nm–2 nm wafers and 2.5D/3D advanced packaging**, and that NVIDIA had moved early to secure large volumes of **4/3 nm wafer capacity, CoWoS, HBM, T-glass, substrates, PCBs, and SSDs**.[^8]
 
@@ -116,7 +110,7 @@ What the evidence supports is:
 
 The evidence does **not** disclose how many wafers Apple, Qualcomm, AMD, or Intel individually lost, and it does not support a "100% capacity capture" claim.
 
-## 5. PCs face two simultaneous channels: memory and GPU / system pricing
+## 5. PCs: memory and system pricing can reinforce each other
 
 NVIDIA's FY26 10-K reported Gaming revenue up **41%** and said supply constraints were expected to remain a Gaming headwind into FY27 Q1 and beyond.[^11]
 
@@ -127,7 +121,7 @@ Two channels can therefore overlap:
 - consumer GPU / system availability;
 - DDR / LPDDR / system-memory cost.
 
-## 5A. Game consoles: fixed price bands, long generations, and memory / storage residual pressure
+## 5A. Game consoles: long generations make residual pressure persistent
 
 Game consoles are a useful test case for Non-AI Residual Capacity because they do not directly compete with AI servers for the same accelerator, yet they remain materially exposed to **memory, storage, custom SoC/APU, and selected manufacturing / packaging resources**.
 
@@ -143,7 +137,7 @@ The more accurate relationship is:
 
 > **console memory / storage / SoCs sit inside the same broader semiconductor and memory capital system as AI/server demand, while their specific product pools, packaging formats, and qualification paths remain different.**
 
-### 5A.1 Direct hardware-economics pressure is already observable in 2026
+### 5A.1 Hardware-economics pressure is directly observable
 
 Sony stated in its FY2025 Q4 / FY2026 outlook that:
 
@@ -169,7 +163,7 @@ Combined with Sony's first-party procurement statement, the evidence supports a 
 
 > **Game consoles are already an end-system case where memory residual pressure can affect shipment cadence, promotion capacity, and hardware margin.**
 
-### 5A.2 Why consoles can be more exposed than PCs to one generation's cost structure
+### 5A.2 Why one cost shock can affect an entire console generation
 
 Game consoles usually combine:
 
@@ -194,7 +188,7 @@ That is the console version of an **upgrade tax**:
 
 > **the same price band buys a slower hardware-specification improvement, or the same target specification requires a higher BOM / weaker promotional subsidy.**
 
-### 5A.3 What the evidence does not support
+### 5A.3 Attribution boundary
 
 The report does not infer:
 
@@ -220,7 +214,7 @@ The most defensible judgment is therefore:
 
 ---
 
-## 6. Price pressure usually changes configuration and replacement cycles before it stops production
+## 6. End systems usually adjust before production stops
 
 Common vendor responses include:
 
@@ -234,7 +228,7 @@ AI-resource pressure is therefore more likely to appear first as an **upgrade ta
 
 > the same price buys slower specification improvement, or the same specification requires a higher BOM.
 
-### 6.1 Supply Assurance is a separate variable
+### 6.1 Quantity Assurance is distinct from price
 
 In an extreme shortage, end-product vendors face more than rising ASPs. They can also face **insufficient allocation fulfillment**.
 
@@ -246,7 +240,7 @@ The analysis therefore has to separate:
 
 Prices can rise while supply remains insufficient. A willingness to pay more does not guarantee the quantity required by the production plan.
 
-## 7. Channel price is a thermometer; institutional contract price is closer to the industry layer
+## 7. Use contract and allocation evidence before channel anecdotes
 
 Spot/channel prices can show that consumers or system builders are under pressure at a specific moment.
 
@@ -254,7 +248,7 @@ They cannot be used to infer vendor contract ASPs or long-duration agreements.
 
 The report therefore relies primarily on institutional contract-price research, vendor filings, and company commentary rather than channel anecdotes for its core conclusions.
 
-## 8. China consumer supply can relieve local pressure without proving HBM closure
+## 8. Local substitution can relieve pressure without proving frontier closure
 
 China's growing capability in DDR, LPDDR, NAND, smartphone manufacturing, and terminal supply chains can improve local consumer residual capacity.
 
@@ -262,7 +256,7 @@ But consumer DRAM / NAND capability cannot be extrapolated automatically into HB
 
 Domestic substitution can therefore change smartphone / PC cost structures without eliminating the frontier AI bottlenecks in HBM and advanced packaging.
 
-## 9. Automotive / Industrial: mature memory can also be displaced by high-value product mix
+## 9. Automotive / industrial: qualification turns price pressure into continuity risk
 
 Automotive and industrial systems have longer qualification cycles, but that does not insulate them from AI-era product-mix reallocation.
 
@@ -280,7 +274,7 @@ These first-party disclosures establish a different kind of constraint:
 
 MCUs, analog components, power semiconductors, and most automotive electronics do not directly compete for the same physical pool as AI servers. But supplier CapEx, packaging/test capacity, engineering priority, and long-life product economics can still be influenced by higher-return markets. Without project-level evidence, this report does not rewrite that adjacent pressure as “AI caused a specific vehicle shortage.”
 
-### 9.1 Production lines and industrial automation: the risk is lead time, redesign, and downtime—not training accelerators
+### 9.1 Production lines: lead time, redesign, and downtime are the relevant channels
 
 PLC, servo control, industrial PCs, sensors, MCU/analog/power components, and industrial memory often share four properties:
 
@@ -297,7 +291,7 @@ rather than “the factory cannot buy a training GPU.”
 
 The attribution rule from Section 2A still applies. A price increase or lead-time extension in one industrial component is not enough to prove AI causation. Stronger attribution requires shared-resource exposure, supplier product-mix shift, capacity/engineering reallocation, or explicit supplier/institutional evidence.
 
-### 9.2 Aerospace, space, and defense electronics: public evidence supports structural low-volume weakness, not direct HBM competition
+### 9.2 Aerospace / defense: low-volume continuity is the relevant exposure
 
 These systems have a different exposure profile from smartphones and PCs.
 
@@ -318,7 +312,7 @@ Public evidence does **not** support stronger claims such as:
 Those would require program-level, supplier-level, or government-procurement evidence.
 
 
-## 10. HDD and SSD: not a one-way "SSD fully replaces HDD" thesis
+## 10. Storage: HDD and SSD remain workload-specific complements and substitutes
 
 AI data-center storage is becoming a segmented market.
 
@@ -332,7 +326,7 @@ A more accurate structure is:
 
 AI data centers therefore do not make HDD strategically irrelevant by default.
 
-## 11. Real-economy firms face a second layer of AI Adoption Cost
+## 11. Real-economy firms also face AI adoption cost
 
 Manufacturers and other operating businesses also pay for:
 
@@ -349,7 +343,7 @@ The relevant equation is therefore:
 
 This is why cheaper AI models do not automatically produce higher ROI for operating companies.
 
-## 12. Current judgment
+## 12. Current read
 
 As of August 2026, the evidence supports:
 
