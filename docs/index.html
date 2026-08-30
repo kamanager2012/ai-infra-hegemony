@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The Age of AI Infrastructure Hegemony — a 32-chapter bilingual industry research report on compute, semiconductors, HBM, advanced packaging, power and capital.">
+  <meta name="theme-color" content="#0b0d12">
+  <title>AI Infrastructure Hegemony — 2026 Research Report</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Home">
+      <span class="brand-mark">AIH</span>
+      <span class="brand-copy">
+        <strong>The Age of AI Infrastructure Hegemony</strong>
+        <small>2026 Industry Research Report</small>
+      </span>
+    </a>
+    <nav class="header-actions">
+      <button class="ghost" id="langToggle" type="button">EN</button>
+      <a class="ghost" href="https://github.com/kamanager2012/ai-infra-hegemony" target="_blank" rel="noreferrer">Research Repository</a>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section class="hero" id="homeView">
+      <div class="hero-kicker">2026 EDITION · 32 CHAPTERS · BILINGUAL</div>
+      <h1 id="heroTitle">AI基础设施霸权时代</h1>
+      <p class="hero-subtitle" id="heroSubtitle">全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构</p>
+      <p class="hero-summary" id="heroSummary">
+        一份以事实、机制、情景与可证伪标准为核心的长期行业研究报告。研究 AI 从单颗 accelerator 竞争上移到完整 system stack 后，如何改变上游资源配置、资本形成、传统终端与未来十年的产业结构。
+      </p>
+      <div class="hero-actions">
+        <a class="primary" id="startReading" href="?lang=zh&chapter=1">开始阅读</a>
+        <a class="secondary" id="masterJudgment" href="?lang=zh&chapter=32">直接看总判</a>
+        <a class="secondary" id="printReport" href="?lang=zh&print=1">打印 / 保存 PDF</a>
+      </div>
+
+      <div class="status-grid">
+        <div><span>Evidence cutoff</span><strong>2026-08-28</strong></div>
+        <div><span>Text status</span><strong>Frozen · 2026-08-30</strong></div>
+        <div><span>Current state</span><strong>S2 · Baseline Concentration</strong></div>
+        <div><span>License</span><strong>CC BY-NC-ND 4.0</strong></div>
+      </div>
+    </section>
+
+    <section class="thesis-grid" id="thesisView">
+      <article>
+        <span>01</span>
+        <h2>竞争单元已经上移</h2>
+        <p>竞争不再只发生在 accelerator，而是 advanced logic、HBM、advanced packaging、interconnect、runtime、rack、power、capital 与 workload 的完整系统栈。</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>供给增长不等于传统产业获得更多资源</h2>
+        <p>报告用 Non-AI Residual Capacity 描述 AI/HPC 对共享或相邻上游资源优先级的结构性重排。</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>物理瓶颈会滚动迁移</h2>
+        <p>先进制程、HBM、CoWoS、互联、电力、LPS 与资本并非单点约束，而是 Rolling Bottleneck Cascade。</p>
+      </article>
+      <article>
+        <span>04</span>
+        <h2>长期判断必须可证伪</h2>
+        <p>事实、假设、机制、情景与 falsification 分层处理；未来判断可以大胆，但证据身份、分母和触发条件必须明确。</p>
+      </article>
+    </section>
+
+    <section class="report-index" id="indexView">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">FULL REPORT</span>
+          <h2 id="indexTitle">32 章正式版</h2>
+        </div>
+        <p id="indexNote">推荐先读 Ch01 → Ch32 → Ch30，再按主题进入完整章节。</p>
+      </div>
+      <div id="chapterIndex"></div>
+    </section>
+
+    <section class="reader hidden" id="readerView">
+      <aside class="reader-nav">
+        <div class="reader-nav-head">
+          <a href="./" id="backHome">← <span>报告首页</span></a>
+          <button class="ghost small" id="readerLangToggle" type="button">EN</button>
+        </div>
+        <div id="readerChapterList"></div>
+      </aside>
+      <article class="reader-content">
+        <div class="reader-toolbar">
+          <div>
+            <span id="readerPart" class="eyebrow"></span>
+            <strong id="readerChapterLabel"></strong>
+          </div>
+          <div class="toolbar-actions">
+            <button class="ghost small" id="copyLink" type="button">复制章节链接</button>
+            <button class="ghost small" id="printChapter" type="button">打印本章</button>
+          </div>
+        </div>
+        <div id="readerBody" class="markdown-body">
+          <div class="loading">Loading report…</div>
+        </div>
+        <nav class="chapter-pager">
+          <a id="prevChapter" href="#"></a>
+          <a id="nextChapter" href="#"></a>
+        </nav>
+      </article>
+    </section>
+
+    <section class="print-view hidden" id="printView">
+      <div class="print-cover">
+        <span class="eyebrow">2026 EDITION</span>
+        <h1 id="printTitle">AI基础设施霸权时代</h1>
+        <p id="printSubtitle">全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构</p>
+        <div class="print-meta">
+          <span>Evidence cutoff: 2026-08-28</span>
+          <span>Frozen: 2026-08-30</span>
+          <span>32 chapters</span>
+        </div>
+      </div>
+      <div id="printBody" class="markdown-body print-body">
+        <div class="loading">Preparing print edition…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>The Age of AI Infrastructure Hegemony</strong>
+      <span>Industry research · 2026 edition</span>
+    </div>
+    <p>Original research text: CC BY-NC-ND 4.0. Third-party materials remain subject to their respective rights.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
