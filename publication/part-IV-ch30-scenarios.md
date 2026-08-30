@@ -51,7 +51,7 @@ Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短�
 
 截至本报告 cutoff，公开前瞻已经显示这种**分层而非统一**的供给响应：TrendForce 2026-07-30 预计 2027 年 DRAM 仍偏紧，但 NAND Flash 在新增产能与 bit-output 增长作用下可能于 **2H27** 转向更宽松供需结构；其同时判断部分新增 DRAM 产能的显著 output contribution 要到 **2028** 才体现。[^10]
 
-因此，本报告不把 2024–2026 的 HBM / packaging tightness 静态外推为十年永久短缺。真正需要观察的是每一层的：
+因此，不把 2024–2026 的 HBM / packaging tightness 静态外推为十年永久短缺。真正需要观察的是每一层的：
 
 - effective capacity ramp；
 - qualification / yield；
@@ -156,7 +156,7 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 
 ## 5A. Capacity Gap 是 Diagnostic Axis，不是第五种 Scenario
 
-S1–S4 仍然是并列条件状态；本报告不增加第二套 scenario taxonomy。为了把“这一层今天是否短缺”与“压力是在扩大还是收敛”分开，使用两个互补指标。
+S1–S4 仍然是并列条件状态；不另设第二套 scenario taxonomy。为了把“这一层今天是否短缺”与“压力是在扩大还是收敛”分开，使用两个互补指标。
 
 ### Absolute Gap
 
@@ -297,7 +297,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 - **S1 ↔ S2**：替代系统在 frontier / high-value production workload 中的规模化程度，以及 HBM / packaging lead time 是否持续下降；
 - **S2 ↔ S3**：scarce-layer allocation 的集中度变化方向、seller forward commitments 增速、proprietary switching cost 与 powered-land 锁定程度；
-- **S3 ↔ S4**：utilization / monetization 与 capital base 之间的关系。由于公开数据没有提供可比的 industry-wide ratio，本报告使用 public proxies：clearing price（二手系统价、lease rate、cloud discount）、commitment growth、seller equity / credit support、third-party capital risk premia 与 refinancing dependency。
+- **S3 ↔ S4**：utilization / monetization 与 capital base 之间的关系。由于公开数据没有提供可比的 industry-wide ratio，使用 public proxies：clearing price（二手系统价、lease rate、cloud discount）、commitment growth、seller equity / credit support、third-party capital risk premia 与 refinancing dependency。
 
 同一批资本证据（如 **>US$500B** mobilization target、**US$50B** frontier-lab 投资、**2 GW** credit support）[^7][^8][^9]在代理信号健康时支持 S2/S3 的 infrastructure coordination，在代理信号广泛、持续恶化时支持 S4 权重上升；判别不依赖任何单点数据。
 
@@ -314,7 +314,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - 单一 alternative-chip launch 不能独立触发 S1；
 - S2 也不能因为“多数变量仍可解释”为默认永久状态。
 
-情景权重的变化必须来自**多个相互独立的公开代理在连续观察中形成同方向证据**，同时显式记录反证与 segment breadth。不同数据具有季度、半年或年度披露频率，本报告不人为把它们压成一个伪精确统一窗口。
+情景权重的变化必须来自**多个相互独立的公开代理在连续观察中形成同方向证据**，同时显式记录反证与 segment breadth。不同数据具有季度、半年或年度披露频率，不人为把它们压成一个伪精确统一窗口。
 
 **Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
 
