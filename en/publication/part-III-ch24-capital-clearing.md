@@ -179,15 +179,15 @@ Healthy utilization can make seller-assisted financing an accelerator of real bu
 
 Weak utilization combined with rising supplier support should reduce the evidentiary weight of forward commitments.
 
-### 7A. Financing Reflexivity needs an adjudication matrix, not a synthetic ratio
+### 7A. Financing Reflexivity needs an evidence matrix, not a synthetic ratio
 
-Public disclosures rarely provide a same-denominator measure of supplier equity, guarantees, third-party debt, customer equity, and total project financing. The report therefore does **not** manufacture a single "supplier-support ratio." Instead it adjudicates Financing Reflexivity across three observable dimensions:
+Public disclosures rarely provide a same-denominator measure of supplier equity, guarantees, third-party debt, customer equity, and total project financing. The report therefore does **not** manufacture a single "supplier-support ratio." Instead, Financing Reflexivity is evaluated across three observable dimensions:
 
 1. **utilization / monetization direction**;
 2. **independent risk-capital willingness**;
 3. **supplier equity / credit-support direction**.
 
-### Table 24.1 — Financing Reflexivity adjudication matrix
+### Table 24.1 — Financing Reflexivity evidence matrix
 
 | Utilization / monetization | Independent risk capital | Supplier support | Interpretation | Effect on S4 evidence |
 |---|---|---|---|---|
@@ -196,7 +196,7 @@ Public disclosures rarely provide a same-denominator measure of supplier equity,
 | weakening | risk appetite / refinancing terms deteriorating | rising materially | supplier support may be sustaining order visibility faster than end economics | strengthens Demand Quality / Financing family |
 | weak across utilization and clearing | independent capital withdraws or requires major repricing | support cannot restore execution / cash flow | capital clearing rather than simple financing acceleration | strong S4 evidence when cross-confirmed by other families |
 
-**Source:** report adjudication framework applied to the financing structures described in this chapter.[^5][^6][^7]  
+**Source:** report evidence framework applied to the financing structures described in this chapter.[^5][^6][^7]  
 **Note:** No row is triggered by one disclosure alone. The matrix requires direction over time and cross-signal confirmation. If a same-denominator financing stack becomes public for a specific project, a project-level ratio can be calculated; until then, the matrix is more auditable than a synthetic percentage.
 
 The practical rule is:
@@ -217,7 +217,7 @@ Power plants, substations, and data-center shells do not disappear like GPU inve
 
 They can be repriced, sold, renegotiated, or become scarce again in the next concentration cycle.
 
-## 9. S4 adjudication rule
+## 9. S4 decision rule
 
 This report upgrades S4 from stress test to the current main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups below are monitoring families, not a five-of-five checklist:
 
