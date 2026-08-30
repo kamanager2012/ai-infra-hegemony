@@ -22,7 +22,7 @@ DeepSeek-V3 first-party disclosures include:[^1]
 
 Using the paper's US$2/GPU-hour assumption, 2.788M GPU-hours corresponds to approximately **US$5.576M of formal-training compute conversion**.
 
-That figure is not the full enterprise R&D cost.
+The 2.788M total includes the report's formal pre-training, context-extension, and post-training compute categories. The DeepSeek paper explicitly excludes prior research and ablation experiments from this cost figure; it should therefore not be read as the full enterprise R&D cost.[^1]
 
 The important implication is that frontier capability is not linearly fixed to hardware input. Architecture, sparsity, routing, and memory design can materially change the resources required per unit of capability.
 
