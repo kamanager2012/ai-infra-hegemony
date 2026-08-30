@@ -1,33 +1,31 @@
-# Part I · 第1章：执行摘要与未来十年核心判断
+# Part I · 第1章：执行摘要
 
-## 1. 执行判断：仍然重要的整机，正在面对被 AI/HPC 改写的上游排队规则
+## 1. 基准判断：问题是 Allocation，不是 Gross Supply
 
-截至 **2026 年 8 月 28 日**，本报告研究的不是“AI 是否比手机、电脑、游戏主机、汽车、工业设备、机器人、航空航天或高可靠电子更重要”。这些整机与战略系统的重要性并没有因为 AI 上升而消失。
+截至 **2026 年 8 月 28 日**，公开证据最接近 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 仍保持强经济性，同时真实替代路线持续发展，但尚未消除 HBM、advanced packaging、power 与 migration cost 等关键约束。
 
-真正变化的是：**它们所依赖的部分共享或相邻上游资源——先进逻辑、DRAM/LPDDR/NAND、先进封装、设备、工程能力、电力与长期资本——正在被更高支付能力、更长锁量周期和更强融资能力的 AI/HPC demand 重新定价、重新排序。**
+本报告的核心命题比标题更窄。AI 不需要让 smartphone、PC、汽车、工业设备、航空航天或其他战略整机“失去重要性”，也足以改变这些行业的经济条件。它只需要改变共享或相邻上游资源的优先级。
 
-因此，传统整机面对的核心问题不是“全球还有没有芯片”，而是：
+当前 AI/HPC demand 更常同时具备：**更高 willingness to pay、更长 capacity commitment、更强 financing capacity，以及对下一单位 capital formation 更大的影响力。** 因此，真正需要问的是：
 
-> **在自己的 BOM、认证周期、产品寿命与价格约束下，还能否按计划拿到够用、够稳、付得起的上游资源。**
+> **每类整机还能否在自己的 BOM、qualification、lifecycle 与 product cadence 下，持续获得足量、qualified、按时且经济上可承受的供给？**
 
-这种暴露必须分层理解：smartphone / PC / 部分 ADAS 与 edge AI 更可能直接共享先进逻辑与存储；汽车、工控、产线更多通过成熟存储、MCU/模拟、功率器件和供应商 product-mix 受到相邻影响；航空、雷达、舰船、卫星、火箭等高可靠小批量系统的压力则更多来自 trusted/long-life/special-process capacity 的经济性、设备与人才，而不是“直接和 AI 服务器抢同一颗 GPU”。
+这种暴露必须按 physical layer 拆开。smartphone、PC、部分 ADAS 与 edge AI 可以直接重叠 advanced logic 与 memory；汽车与工业系统更多通过成熟存储、MCU/analog、power electronics、qualification cycle 与 supplier product mix 承受传导；航空航天和其他长寿命、小批量系统则更依赖 trusted capacity、special process、equipment 与 engineering continuity，而不是直接和 AI accelerator 竞争。
 
-本报告的核心判断可以压缩为八点：
+本报告由八个承重判断组成：
 
-1. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
-2. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
-3. **传统终端没有失去重要性；改变的是其获得有效上游供给的确定性。** 总供给增长与 smartphone、PC、game console、汽车、工业等市场继续承受 residual-capacity、quantity-assurance、价格或配置压力可以同时成立。
-4. **真正决定长期 value capture 的不是历史市场份额，而是各关键稀缺层 incremental capacity 的持续可得性。** advanced logic、HBM、packaging、networking 与 LPS/power 必须逐层观察，不能压缩成一个综合“资源占有率”。
-5. **Hyperscaler custom systems 与中国 parallel stack 正在增加替代路径，但替代并不会自动消除上游物理约束。** 第二类 system stack 可以分流外部平台利润，却仍会竞争 advanced logic、HBM、packaging 与 power。
-6. **资本风险正在从“有没有需求”转向“资本基数能否被真实 utilization、monetization 与更独立的融资能力覆盖”。** 高 CapEx 本身既不是繁荣证明，也不是泡沫证明。
-7. **基础设施的长期价值最终必须由可验证、可收费、可重复的工作流产出完成需求侧闭环。** 这是长期经济判据，而不是截至本报告证据截止日已经完成经验校准的事实指标。
-8. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、workload economics、capital discipline、power、financing quality 与 frontier-system closure 的共同作用。
-
-截至当前，公开事实更符合 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 保持强经济性，替代路线正在发展，但尚未消除 HBM、advanced packaging、power 与迁移成本等关键约束。
+1. **竞争单位已经上移到 system stack。** advanced logic、HBM、packaging、interconnect、runtime、rack/pod、power 与 production workload 共同决定 system economics。
+2. **AI/HPC 正在改变新增资本的边际去向。** 真正重要的不只是“谁买更多芯片”，而是谁越来越能决定新增 capacity 为哪类 demand 建设。
+3. **Gross supply 增长并不保证传统整机的 effective supply 改善。** residual capacity、quantity assurance、配置与价格比全球总产能 headline 更重要。
+4. **Scarce-capacity access 必须逐层测量。** 相比历史 market share，更重要的是能否持续获得 qualified incremental logic、HBM、packaging、networking 与 energized power。
+5. **Substitution 可以削弱平台利润，却不自动解除物理约束。** Hyperscaler custom stack 与中国 parallel stack 可以分流 workload，但仍可能竞争大量相同上游资源。
+6. **资本风险已经转化为 utilization、monetization 与 financing quality 问题。** 高 CapEx 既不能证明需求一定健康，也不能单独证明泡沫。
+7. **Infrastructure demand 最终必须通过 productive workflow 得到验证。** 长期真正需要观察的是可验证经济产出，而不是 installed compute 本身。
+8. **2026–2036 的路径是条件化的。** supply elasticity、system substitution、algorithmic efficiency、workload growth、power、financing quality 与 frontier-system closure，都可能推动产业从 S2 转向 S1、S3 或 S4。
 
 ---
 
-## 2. 第一层变化：AI 基础设施已经从“芯片采购”变成“系统工程”
+## 2. 竞争单位已经上移到 System Stack
 
 NVIDIA GB200 NVL72 官方规格包含 **72 Blackwell GPU、36 Grace CPU、13.4 TB HBM3E 与 17 TB LPDDR5X**。高端 AI infrastructure 的商业交付对象已经从 accelerator card 上移到 compute、memory、interconnect、software 与 rack architecture 的组合。[^1]
 
@@ -46,7 +44,7 @@ NVIDIA FY27 Q2 披露 Revenue **US$96.221B**、Data Center revenue **US$89.0B**�
 
 ---
 
-## 3. 第二层变化：半导体正在形成 Two-Speed Semiconductor Economy
+## 3. AI 正在改变半导体 Capacity 的边际经济性
 
 AI infrastructure 与传统终端仍然共享大量上游资源，但两类需求的经济属性已经明显分化。
 
@@ -68,9 +66,9 @@ TSMC 2025 年 HPC platform 占全年 net revenue **58%**，smartphone 占 **29%*
 
 ---
 
-## 4. 第三层变化：稀缺正在从单一芯片扩展为多个独立物理池
+## 4. 稀缺分布在多个独立 Physical Pool
 
-### 4.1 HBM：bit share 低估了制造资源占用
+### 4.1 HBM：bit share 低估 manufacturing input
 
 Micron 一手披露，在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^6]
 
@@ -78,13 +76,13 @@ TrendForce 预计 HBM + RDIMM 约占 **2026 年 DRAM bit supply 的 51%**。[^7]
 
 > **高价值 AI/server memory 对制造资源的吸收强度，可能显著高于单纯 bit share 所显示的程度。**
 
-### 4.2 Advanced Packaging：先进逻辑有产能并不等于系统能够交付
+### 4.2 Advanced Packaging：front-end wafer 不等于 deliverable system
 
 TSMC 在 4Q24 表示 advanced packaging capacity “very tight”，2026 Q2 又明确表示 packaging tightness 正在限制客户增长。[^8]
 
 因此，先进节点 wafer capacity 与可交付 AI system capacity 不能画等号。即使某一层扩产，bottleneck 也可能转移到 packaging、memory、networking 或 power。
 
-### 4.3 Power：从设备约束升级为基础设施约束
+### 4.3 Power：delivery state 与 nameplate capacity 同样重要
 
 NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此同时，835 MW 级核电重启、最高 1,920 MW 的长期 PPA，以及数百 MW 级长期电源开发计划，说明 Time-to-Power、grid connection、substation、firm power 与 permitting 已经进入 AI system delivery 的核心约束集合。[^9]
 
@@ -94,7 +92,7 @@ NVIDIA DGX GB200 hardware guide 给出的 rack power 约为 **120 kW**。与此�
 
 ---
 
-## 5. 第四层变化：真正值得观察的是 Non-AI Residual Capacity，而不是总产能
+## 5. 下游真正需要观察的是 Residual Capacity，而不是 Gross Capacity
 
 传统行业能够获得多少资源，不取决于全球总供给本身，而取决于优先需求吸收之后剩余多少有效供给：
 
@@ -115,7 +113,7 @@ NonAI_Residual(t)
 
 ---
 
-## 6. 第五层变化：Hyperscaler 正在从芯片自研走向第二类 System Stack
+## 6. Hyperscaler 正在建设第二类 System Stack
 
 Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 300 显示，hyperscaler 的竞争已经从“有没有自研 ASIC”上移到 accelerator、compiler/runtime、interconnect、rack/pod 与 captive workload 的 system-stack competition。[^10]
 
@@ -135,7 +133,7 @@ Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 
 
 ---
 
-## 7. 中国：已经形成真实 Parallel Stack，但不能用一个“国产化率”判断
+## 7. 中国需要通过两级 Closure Test 判断
 
 中国已经形成持续发展的 accelerator/software parallel stack，并在 consumer computing、DRAM/NAND、部分通用计算与本土软件生态上形成更强的平行供给能力。[^11]
 
@@ -163,7 +161,7 @@ Google Ironwood、AWS Trainium3 UltraServers、Microsoft Maia 200 与 Meta MTIA 
 
 ---
 
-## 8. 资本周期：真正的风险不是 CapEx 大，而是资产久期与利用率错配
+## 8. 资本风险是 Duration 与 Financing 问题
 
 Cloud CapEx、system-vendor revenue、foundry revenue、memory revenue 与 power/data-center investment 会在产业链不同账本中重复出现，因此不能机械相加成“全球 AI 总投入”。
 
@@ -193,7 +191,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 
 ---
 
-## 9. 2026–2036：未来由四种结构状态而不是一个单点预测描述
+## 9. 四种结构状态
 
 **Table 1.1 — AI 基础设施四类标准情景**
 
@@ -222,7 +220,7 @@ AI infrastructure 的资本周期存在明显的 **duration mismatch**：
 
 ---
 
-## 10. 哪些事实会迫使本报告改判
+## 10. 什么事实会改变当前判断
 
 以下变化应显著降低 S2/S3 的相对权重：
 
