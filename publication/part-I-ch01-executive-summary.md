@@ -87,7 +87,7 @@
 推荐阅读路径：
 
 - **最快路径：** Ch01 → Ch32 → Ch30
-- **资源配置 / 传统终端：** Ch03 → Ch08–Ch10 → Ch21 → Ch32
+- **资源配置 / 传统终端：** Ch03 → Ch04–Ch08 → Ch21 → Ch32
 - **平台竞争 / substitution：** Ch02 → Ch12–Ch17 → Ch32
 - **资本形成 / clearing：** Ch19 → Ch22–Ch24 → Ch32
 - **方法、监测与 falsification：** Ch27 → Ch29 → Ch30 → Ch32
