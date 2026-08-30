@@ -216,6 +216,8 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 哪一种占主导，不能靠直觉判断。
 
+这里还要加入第14章定义的 **AI Inheritance Effect**：大量潜在 AI workload 并不是从零生成，而是建立在 ERP、CRM、database、cloud、API、digital documents、source code 与既有 workflow 之上的增量 overlay。于是 workload volume 的长期增长既来自“单个任务调用更多”，也来自**已有数字流程逐步进入 AI penetration**。这使总需求判断必须同时观察 unit efficiency、workflow penetration、automation depth 与 execution frequency。
+
 ---
 
 ## 9. 模型层真正的长期竞争变量
