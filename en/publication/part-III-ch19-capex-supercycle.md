@@ -1,8 +1,8 @@
 # Part III · Chapter 19: AI Infrastructure Capital Formation — Duration Mismatch, Utilization, and Demand Duration
 
-## 1. The capital-cycle question is not one headline CapEx total
+## 1. Capital formation has to be read by owner, asset life, and workload
 
-The industry is clearly in a high-investment regime. The harder question is **what capital is being formed, on whose balance sheet, over what economic life, and whether productive workload is growing fast enough to carry it**.
+The industry is clearly in a high-investment regime. The useful question is not whether CapEx is “high.” It is **what asset is being created, who owns the risk, how long that asset is expected to earn, and whether productive workload is scaling fast enough to carry the capital base**.
 
 Microsoft, Amazon, Alphabet, and Meta do not report one comparable "AI CapEx" measure. Their fiscal periods, PPE definitions, lease treatment, and net-purchase metrics differ.
 
@@ -14,7 +14,7 @@ Three separations are mandatory:
 
 The analysis therefore starts from denominator identity, then moves to duration mismatch and utilization. A mechanically summed "four-cloud AI hardware CapEx" would obscure all three.
 
-## 2. Public 2026 capital anchors
+## 2. 2026 public capital anchors
 
 **Table 19.1 — Public 2026 capital-spending metrics for the four major clouds**
 
@@ -65,7 +65,7 @@ It combines assets with very different durations:
 
 This creates a **duration mismatch** between technology iteration speed and infrastructure economic life.
 
-## 4. Sellers and buyers carry different capital risks
+## 4. Seller economics and buyer ROI clear on different clocks
 
 NVIDIA's cash generation is more directly linked to inventory, capacity reservation, supply commitments, and next-generation roadmaps.
 
@@ -77,7 +77,7 @@ It is:
 
 > **How directly can each dollar of capital improve next-generation scarce-resource access and productive utilization?**
 
-## 5. Power couples the hardware clock to the infrastructure clock
+## 5. Power couples short-lived compute to long-lived infrastructure
 
 As rack density rises, expansion depends on more than server procurement.
 
@@ -87,7 +87,7 @@ The semiconductor clock and the power-permitting clock therefore become coupled.
 
 When chip supply improves but energized capacity remains insufficient, the bottleneck can shift from manufacturing toward Time-to-Power.
 
-## 6. Utilization is the first economic test of the capital cycle
+## 6. Utilization is the first capital-cycle test
 
 High CapEx can represent high-return expansion or overbuild.
 
@@ -95,7 +95,7 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
-## 6A. Demand duration: AI inherits an installed base rather than starting from zero
+## 6A. Demand duration: AI inherits the digital installed base
 
 If AI-infrastructure demand came only from frontier-model scaling, major algorithmic efficiency gains, model compression, or one large supply expansion could shorten the capital cycle materially.
 
@@ -118,7 +118,7 @@ This is why **large efficiency gains and long-run growth in aggregate infrastruc
 
 This mechanism is not a guarantee of permanent demand. If AI fails to produce sufficiently low-cost, reliable, verifiable workflow output, the digital installed base remains potential TAM rather than realized utilization or cash flow.
 
-## 7. Leading signals of capital-cycle reversal
+## 7. Leading signals of reversal
 
 A CapEx-cycle turn cannot be judged from stock prices alone.
 
@@ -132,7 +132,7 @@ This report tracks:
 
 Only broad, persistent deterioration across **multiple causally independent classes**, with cross-actor / cross-layer confirmation, is sufficient to move from "ROI pressure" toward "Capital Hard Landing." Accounting is confirmatory / severity evidence rather than a mandatory gate.
 
-## 8. A larger capital base raises the next performance hurdle
+## 8. A larger capital base raises the hurdle rate for the next cycle
 
 A distinctive feature of AI infrastructure is that the more successfully capital expands, the higher the next-stage performance hurdle becomes.
 
@@ -150,7 +150,7 @@ That gap helps determine whether the capital cycle continues expanding, normaliz
 
 ---
 
-## 9. Current view
+## 9. Current read
 
 As of August 2026, public data still supports:
 
