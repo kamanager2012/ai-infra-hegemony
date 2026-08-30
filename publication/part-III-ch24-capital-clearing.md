@@ -8,6 +8,8 @@ AI infrastructure 的资本开支已经进入极高水平，但投资规模本�
 
 ## 2. 五类清算信号
 
+这五类信号具有不同的 lead / lag 结构：**Market Clearing、Utilization / Revenue、Forward Commitment 与 Demand Quality / Financing 可以先于财报确认转弱；Accounting 通常是滞后的 confirmation / severity signal。** 因此，本报告不等待 impairment 才允许提高 S4 权重。
+
 ### 2.1 Accounting
 
 最慢但最硬的信号来自账面确认：impairment、inventory write-down、accelerated depreciation、asset disposal。它们说明企业已经承认原先预期的未来现金流或残值不足。
@@ -30,7 +32,7 @@ AI infrastructure 的资本开支已经进入极高水平，但投资规模本�
 
 下一轮扩张是否继续，要看 hyperscaler CapEx guidance、NVIDIA manufacturing/supply/capacity commitments、long-duration model-company compute contracts 与 power commitments。
 
-NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。
+NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。**这一结论只否定“广泛撤单已经发生”，并不证明独立终端需求健康、buyer ROI 健康或融资质量高。** Forward commitments 的证据权重必须与本章第7节 Demand Quality / Supplier-Assisted Financing 一起读取。
 
 ## 3. CapEx 基数由第19章负责，本章只观察“方向是否反转”
 
