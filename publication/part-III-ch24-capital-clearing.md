@@ -1,6 +1,6 @@
-# Part III · 第24章：Capital Clearing——Lead Indicators、Demand Quality 与 S4
+# Part III · 第24章：Capital Clearing——Lead Indicators、Demand Quality 与 S4 Test
 
-## 1. Adjudication Problem：高投资什么时候才转化为 Capital Clearing？
+## 1. Expansion 什么时候转化为 Capital Clearing？
 
 AI infrastructure 的高投资本身不能证明泡沫；同样，seller margin 很高，也不能证明 buyer-side economics 健康。
 
@@ -10,7 +10,7 @@ AI infrastructure 的高投资本身不能证明泡沫；同样，seller margin 
 
 一个 CapEx 总额、一个估值倍数、一次股价回撤或一次 impairment 都不够。真正的判定依赖 lead indicators、cross-signal confirmation 与 causal breadth。
 
-## 2. Capital Clearing 的 Lead / Lag Indicators
+## 2. Clearing Signals 运行在不同 Clock 上
 
 这五类信号具有不同的 lead / lag 结构：**Market Clearing、Utilization / Revenue、Forward Commitment 与 Demand Quality / Financing 可以先于财报确认转弱；Accounting 通常是滞后的 confirmation / severity signal。** 因此，本报告不等待 impairment 才允许提高 S4 权重。
 
@@ -157,7 +157,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 但如果只有一个维度恶化，例如股价下跌、模型价格下降、某一季毛利波动或 seller support 增加，而 utilization 与 monetization 仍然健康，都不足以单独证明 S4。
 
-## 10. Current Read
+## 10. Current View
 
 截至 2026 年 8 月，公开事实更接近：
 
