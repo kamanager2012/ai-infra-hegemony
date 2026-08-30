@@ -4,7 +4,7 @@
 
 截至 **2026 年 8 月 28 日**，公开证据最接近 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 仍保持强经济性，真实替代路线也在扩张，但尚未解除 HBM、advanced packaging、power 与 migration cost 等关键约束。
 
-本报告真正研究的，不是“AI 会不会让其他行业失去重要性”，而是：当 AI/HPC 以更高 willingness to pay、更长 commitment、更强 financing capacity 改变共享或相邻上游的优先级后，其他整机还能否按自己的 **BOM、qualification、lifecycle 与 product cadence** 获得足量、qualified、按时且经济上可承受的供给。
+本报告真正研究的，不是“AI 会不会让其他行业失去重要性”，而是：AI/HPC 是否已经改变共享或相邻上游资源的优先级，使其他整机越来越难以**按时、以符合自身 BOM、qualification、lifecycle 与 product cadence 的条件获得 qualified supply**。
 
 因此，分析单位必须沿完整 system stack 展开：
 
@@ -21,7 +21,7 @@
 | **1. 竞争单位已经上移到 system stack。** | Frontier delivery 同时取决于 compute、memory、interconnect、software、rack architecture、power 与 workload economics。GB200 NVL72 本身就是 rack-scale system，而不是一张孤立 accelerator card。[^1] | Ch02、Ch12 |
 | **2. AI/HPC 正在改变新增资本的边际去向。** | 关键不只是“谁消耗今天的产能”，而是谁越来越能决定下一单位 capacity 为哪类 demand 建设。TSMC 2026 Q2 的 HPC revenue **66%** 与 7 nm 及以下 wafer revenue **77%** 说明 advanced-compute demand 的经济权重，但不能被换算成 customer-level wafer allocation。[^2] | Ch03、Ch09、Ch19 |
 | **3. Gross supply 增长并不保证其他整机的 effective supply 改善。** | 传统行业真正消费的是 residual、qualified、经济上可用的供给，而不是全球 capacity headline。因此本报告重点观察 **Non-AI Residual Capacity**。 | Ch03、Ch21 |
-| **4. Scarcity 必须按 physical layer 分开测量。** | HBM、advanced packaging、networking、land/power/shell 与 energized power 是不同资源池，不能塞进同一个 denominator。Micron 的 HBM3E manufacturing-input 披露与 TSMC 的 packaging tightness 说明 aggregate "AI capacity" 很容易误导。[^3][^4] | Ch08–Ch10 |
+| **4. Scarcity 必须按 physical layer 分开测量。** | HBM、advanced packaging、networking、land/power/shell 与 energized power 是不同资源池，不能塞进同一个 denominator。Micron 的 HBM3E manufacturing-input 披露与 TSMC 的 packaging tightness 说明 aggregate "AI capacity" 很容易误导。[^3][^4] | Ch04–Ch08 |
 | **5. Substitution 可以削弱平台 economics，但不会自动解除上游 scarcity。** | Hyperscaler custom stack 可以分流 workload，同时仍消耗 advanced logic、HBM、packaging、networking 与 power。[^5] | Ch12–Ch16 |
 | **6. 中国必须通过两级 Closure Test 判断。** | Production-grade parallel stack 与 autonomous frontier closure 是两个不同命题。公开证据支持真实 parallel-stack 进展，但不足以把两级门槛合并。[^6] | Ch17 |
 | **7. Capital risk 本质上是 utilization、monetization 与 financing quality 问题。** | 高 CapEx 既不是长期需求成立的证明，也不是泡沫成立的证明。真正需要观察的是 utilization、market clearing、customer cash generation 与 financing quality 能否支撑资产基数。2026 年 NVIDIA 的 financing-platform 公告说明 capital formation 已开始超出 corporate CapEx。[^7] | Ch19、Ch22–Ch24 |
