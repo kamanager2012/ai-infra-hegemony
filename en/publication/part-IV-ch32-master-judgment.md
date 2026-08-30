@@ -241,7 +241,7 @@ The latest financing structures add one more variable: **Financing Reflexivity**
 
 When a system seller provides equity, credit enhancement, LPS support, or compute-financing coordination, seller-side demand visibility becomes more correlated with the financing conditions of the customer and infrastructure developer.
 
-That does not make the demand "fake."
+That does not, by itself, make the demand artificial.
 
 It means demand quality must distinguish:
 
@@ -449,7 +449,7 @@ If supply elasticity, system portability, and multi-sourcing improve materially,
 
 If multiple scarce layers and switching costs strengthen simultaneously, S3 gains weight.
 
-If multiple causally independent signal families across utilization/revenue, market clearing, forward commitments, financing quality, and accounting cross-confirm broad and persistent deterioration across actors/layers, S4 becomes the dominant interpretation; Accounting is confirmatory rather than mandatory.
+If multiple causally independent signal families across utilization/revenue, market clearing, forward commitments, financing quality, and accounting cross-confirm broad and persistent deterioration across actors/layers, S4 becomes the dominant interpretation; accounting is confirmatory rather than mandatory.
 
 The final question is therefore not whether “only AI still matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, and other long-lifecycle high-reliability systems remain important. The relevant question is:
 
