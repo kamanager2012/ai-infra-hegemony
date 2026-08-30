@@ -1,33 +1,22 @@
-# Part III · 第21章：消费电子、整机工业与实体经济的成本传导
+# Part III · 第21章：AI 如何重定价消费电子与其他终端系统
 
-## 1. 核心判断：AI 对传统终端的影响不是“全面占用芯片供给”，而是改变边际资源配置
+## 1. 核心问题是 Transmission，不是 Displacement
 
-传统整机并不都直接采购训练集群，但 smartphone、PC、router、汽车、工业设备、机器人以及部分高可靠电子，会以**不同强度**与 AI/server systems 共享同一批或相邻的上游资源。越接近 advanced logic / memory / selected packaging，传导越直接；越依赖 long-life、trusted、RF/power、rad-hard 或 special-process capacity，传导越可能通过资本、设备、工程能力与供应商经济性间接发生。典型共享或相邻资源包括：
+AI 不需要和 smartphone、router、game console、汽车或工业控制器采购完全相同的芯片，也可以改变这些终端的经济条件。
 
-- DRAM / LPDDR wafer input；
-- selected leading-edge logic；
-- consumer GPU / workstation resources；
-- selected packaging；
-- power-management components；
-- storage capacity。
+真正需要判断的是：**两类 demand 在哪些 physical pool 直接重叠，又在哪些层通过资本、设备、工程能力、qualification 与 supplier economics 间接耦合。**
 
-因此，AI 对传统终端的主要传导链不是：
+直接重叠更常见于 advanced logic、DRAM / LPDDR、selected packaging、consumer/workstation GPU resources、storage 与部分 power-management components。对于 long-life、trusted、RF/power、rad-hard 或 special-process systems，真正重要的往往不是“直接抢同一颗 accelerator”，而是供应连续性与小批量 economics。
 
-> “AI 需求上升 → 消费电子没有芯片”
+因此，本章使用的传导链是：
 
-而是：
+> **AI/server product mix 上升 → shared / adjacent resource pool 的 allocation priority 改变 → Non-AI Residual Capacity 与 Quantity Assurance 改变 → BOM、configuration、promotion、volume 或 replacement-cycle economics 调整**
 
-> **AI/server product mix 上升 → shared-resource priority 改变 → Non-AI Residual Capacity 下降 → contract price / quantity assurance / configuration / replacement cycle 承压**
-
-这种传导具有三个特征：
-
-1. **选择性**：不是所有器件都同样受影响；
-2. **阶段性**：库存、需求与扩产会改变价格方向；
-3. **分层性**：低利润、低议价、短订单客户通常比大型 anchor buyer 承受更强压力。
+本章研究的是 **transmission + attribution**。它既不假设所有价格上涨都由 AI 导致，也不要求存在 literal one-for-one component competition 才承认产业传导。
 
 ---
 
-## 2. Memory 是当前最清晰的跨市场传导层
+## 2. Memory 是当前最清晰的 Transmission Layer
 
 Micron 一手披露，在 same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^1]
 
@@ -43,7 +32,7 @@ TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^
 
 ---
 
-## 2A. Attribution Boundary：价格上涨不能全部归因于 AI
+## 2A. Attribution Test：单独 Price 上涨不足以归因
 
 即使 AI/server demand 正在改变 memory 与 advanced-node resource allocation，也不能把 smartphone / PC component price 的全部变化都归因于 AI。
 
@@ -70,7 +59,7 @@ TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^
 
 所以第21章讨论的是**边际传导机制**，不是一个“AI 解释所有消费电子通胀”的单因果模型。
 
-## 3. Smartphone：最先体现为 BOM 与配置压力，而不是市场消失
+## 3. Smartphone：最先调整的是 BOM 与 Configuration
 
 TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smartphone memory estimated contract prices 同比接近 **+200%**。[^3]
 
@@ -91,7 +80,7 @@ TrendForce 2026-02-11 给出的 1Q26 例子显示，主流 **8GB + 256GB** smart
 
 ---
 
-## 4. Smartphone 正在发生分层重构，而不是统一衰退
+## 4. Smartphone 正在 Segmentation，而不是消失
 
 Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 
@@ -123,7 +112,7 @@ Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 
 ---
 
-## 4A. Routers / Broadband：低议价客户更能体现资源重排的损伤机制
+## 4A. Routers / Broadband：Buyer Power 决定传导强度
 
 Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。[^16]
 
@@ -136,7 +125,7 @@ Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上�
 
 ---
 
-## 5. Cross-Market Resource Reordering：AI 正在打破多终端资源配置的旧平衡
+## 5. Cross-Market Reordering：Allocation Logic 正在改变
 
 TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D advanced packaging** bottleneck，并称 NVIDIA 较早预先锁定大量 **4/3 nm wafer capacity、CoWoS、HBM、T-glass、substrates、PCB 与 SSD** 等资源。[^8]
 
@@ -159,7 +148,7 @@ TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D
 
 ---
 
-## 6. PC：Memory 与 GPU/System Price 形成双重传导
+## 6. PC：Memory 与 System Pricing 可以相互强化
 
 NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 supply constraints 会成为 FY27 Q1 及之后 Gaming 的 headwind。[^11]
 
@@ -185,7 +174,7 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 ---
 
-## 6A. 游戏主机：固定价格带、长世代与 Memory / Storage Residual Pressure
+## 6A. Game Console：长世代使 Residual Pressure 更持久
 
 游戏主机是一个很适合检验 Non-AI Residual Capacity 的整机行业。它与 AI server 并不直接争夺同一颗 accelerator，却真实暴露于 **memory、storage、custom SoC/APU 与部分制造/封测资源**。
 
@@ -201,7 +190,7 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 > **console memory / storage / SoC 与 AI/server demand 位于同一个更大的 semiconductor / memory capital system 中，但具体产品池、封装形式与 qualification path 并不相同。**
 
-### 6A.1 2026 年已经出现直接的 hardware-economics 压力
+### 6A.1 Hardware-Economics Pressure 已可直接观察
 
 Sony 在 FY2025 Q4 / FY2026 outlook 中明确表示：
 
@@ -229,7 +218,7 @@ TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
 
 > **游戏主机已经成为 memory residual pressure 可以直接影响出货节奏、促销能力与 hardware margin 的整机案例。**
 
-### 6A.2 为什么游戏主机容易把一季压力变成一个世代的成本问题
+### 6A.2 为什么一次 Cost Shock 可以影响整个 Console Generation
 
 游戏主机通常具有：
 
@@ -254,7 +243,7 @@ TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
 
 > **同一价格带下，硬件规格提升变慢；或同一目标规格需要更高 BOM / 更弱促销补贴。**
 
-### 6A.3 归因边界
+### 6A.3 Attribution Boundary
 
 本报告不从上述证据推出：
 
@@ -272,7 +261,7 @@ TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
 
 ---
 
-## 7. Supply Assurance 是与价格同等重要的变量
+## 7. Quantity Assurance 与 Price 是两个独立变量
 
 在 severe shortage 中，终端企业面对的不只是 ASP 上涨，还可能面对 allocation fulfillment 不足。
 
@@ -304,7 +293,7 @@ TrendForce 2026-03 指出，allocation 较低的 PC OEM / module maker 需要以
 
 ---
 
-## 8. Automotive / Industrial：成熟存储也会被高价值产品重排
+## 8. Automotive / Industrial：Qualification 会把价格压力放大成 Continuity Risk
 
 汽车与工业设备具有更长 qualification cycle，但这并不意味着它们与 AI 资源重配无关。
 
@@ -332,7 +321,7 @@ TrendForce 2026-06 指出，主要 memory suppliers 继续把 capacity 向 HBM �
 
 因此，MCU、analog、power semiconductor 与多数车规器件并不和 AI server 直接争夺同一物理池；但 supplier CapEx、packaging/test capacity、engineering priority 与 product-longevity economics 仍可能受到更高回报市场的间接影响。没有项目级证据时，本报告不把这种相邻资源压力写成“AI 已导致某车型缺芯”。
 
-### 8.1 产线与工业自动化：伤点在交期、替换成本与停线风险，不在训练卡
+### 8.1 Production Line：Lead Time、Redesign 与 Downtime 才是相关传导
 
 PLC、servo control、industrial PC、sensor、MCU、analog/power 与 industrial memory 的共同特点，是：
 
@@ -349,7 +338,7 @@ PLC、servo control、industrial PC、sensor、MCU、analog/power 与 industrial
 
 这一机制与本章第2A节的归因边界完全一致：**某一工业器件涨价或交期延长，不足以单独证明原因就是 AI。** 只有看到 shared-resource exposure、supplier product-mix shift、capacity/engineering reallocation 或供应商明确归因，才可升级为 AI-era transmission evidence。
 
-### 8.2 航空、航天与国防电子：公开证据支持“小批量高认证的结构性弱势”，不支持“直接抢 HBM”
+### 8.2 Aerospace / Defense：核心暴露是 Low-Volume Continuity
 
 这类系统与 smartphone / PC 的物理暴露不同。
 
@@ -371,7 +360,7 @@ NASA/JPL 对 space electronics 的资料则强调，空间辐射环境会使部�
 
 ---
 
-## 9. China Consumer Supply 可以缓冲部分本地压力，但不能外推为 Frontier HBM Closure
+## 9. Local Substitution 可以缓冲压力，但不能外推 Frontier Closure
 
 中国在 DDR、LPDDR、NAND、smartphone manufacturing 与终端 supply chain 的能力扩张，可以提高本地 consumer residual capacity。
 
@@ -390,7 +379,7 @@ NASA/JPL 对 space electronics 的资料则强调，空间辐射环境会使部�
 
 ---
 
-## 10. HDD 与 SSD：AI Storage 不是单一路线替代
+## 10. Storage：HDD 与 SSD 仍是 Workload-Specific 的替代与互补
 
 AI data-center storage 正在形成分层竞争。
 
@@ -406,7 +395,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 ---
 
-## 11. 实体企业还面临第二层 AI Adoption Cost
+## 11. 实体企业还面临 AI Adoption Cost
 
 传统企业不仅承受上游硬件成本，还要为使用 AI 支付另一组成本：
 
@@ -426,7 +415,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 ---
 
-## 12. 当前判断
+## 12. Current Read
 
 截至 2026 年 8 月，证据支持：
 
