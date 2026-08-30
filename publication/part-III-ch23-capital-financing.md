@@ -42,6 +42,31 @@ AI infrastructure finance 已经覆盖 equity、private infrastructure、project
 
 ---
 
+## 1B. 历史类比必须有 Contract-Level Evidence
+
+vendor assistance、SPV、private credit 或 off-balance-sheet structure，确实可能让人联想到历史上的其他 infrastructure cycle；但“看起来像”不足以把当前 AI buildout 定性成 2000 年电信泡沫或 2008 年 securitization cycle 的重演。
+
+要做严谨历史类比，至少需要看到：
+
+- leverage 与 loan-to-value；
+- covenant quality 与 recourse；
+- take-or-pay / minimum-revenue obligation；
+- residual-value guarantee 或 repurchase commitment；
+- senior / junior loss allocation；
+- refinancing dependency；
+- default / restructuring behavior；
+- 底层资产的 transferability 与 secondary-market liquidity。
+
+如果这些 contract-level 变量没有公开，历史类比只能作为**研究启发（research heuristic）**，不能升级成正式结论。
+
+所以本报告使用 financing structure 时真正问的是：
+
+> **下行风险最终由谁承担，现金收益能否覆盖 capital cost？**
+
+而不是仅仅因为出现 SPV 或 private credit，就推断系统性脆弱性已经形成。
+
+---
+
 ## 2. Asset-Light Platform 与 Heavy Infrastructure 具有不同 Return Structure
 
 NVIDIA 的典型特征是 high system margin、strong cash generation 与相对较低直接 fixed-asset intensity。
