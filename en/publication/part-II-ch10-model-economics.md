@@ -22,7 +22,7 @@ DeepSeek-V3 first-party disclosures include:[^1]
 
 Using the paper's US$2/GPU-hour assumption, 2.788M GPU-hours corresponds to approximately **US$5.576M of formal-training compute conversion**.
 
-That is not full enterprise R&D cost.
+That figure is not the full enterprise R&D cost.
 
 The important implication is that frontier capability is not linearly fixed to hardware input. Architecture, sparsity, routing, and memory design can materially change the resources required per unit of capability.
 
@@ -35,7 +35,7 @@ DeepSeek-V2 reports, relative to DeepSeek 67B:[^2]
 
 These figures belong to V2, not V3.
 
-Their economic significance is that the same HBM capacity can support more concurrency, memory traffic per token can fall, and serving utilization can improve.
+Their economic significance is that the same HBM capacity can support greater concurrency, memory traffic per token can fall, and serving utilization can improve.
 
 Lower unit cost, however, does not guarantee lower aggregate infrastructure demand. If lower cost causes token, agent, and workflow volume to rise faster, total demand can still increase.
 
@@ -80,7 +80,7 @@ A theoretically cheaper chip can still produce a higher system TCO if migration,
 
 ## 6. AI software unit economics
 
-A production workflow should at minimum include:
+At minimum, production-workflow economics should include:
 
 > **Contribution Margin = Revenue per workflow − inference − retrieval/storage − tools/APIs − retries − human review − compliance/operations**
 
@@ -112,7 +112,7 @@ Aggregate infrastructure demand depends on:
 
 If unit resource intensity falls 50% while workload volume grows 4×, total demand still increases.
 
-Long-run analysis therefore has to observe real workload, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
+Long-run analysis therefore must observe real workload, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
 
 Chapter 14 adds a third mechanism: **AI inheritance**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
 
@@ -148,7 +148,7 @@ The final variable links directly to the Anchor Compute Buyer mechanism develope
 
 ## 10. Current read
 
-As of 2026, a more defensible description is:
+As of 2026, the more defensible description is:
 
 - model-layer price competition and capability diffusion are real;
 - unit cost continues to fall;
