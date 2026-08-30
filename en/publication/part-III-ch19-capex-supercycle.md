@@ -1,18 +1,20 @@
-# Part III · Chapter 19: The AI-Infrastructure CapEx Supercycle
+# Part III · Chapter 19: AI Infrastructure Capital Formation, Duration Mismatch, and the Utilization Test
 
-## 1. CapEx size is not the only issue; denominator consistency comes first
+## 1. The question is capital formation, not one headline CapEx total
 
-Microsoft, Amazon, Alphabet, and Meta are all spending at historically high infrastructure levels, but their fiscal periods, PPE definitions, finance-lease treatment, and net-purchase metrics are not identical.
+The industry is clearly in a high-investment regime. The harder question is **what capital is being formed, on whose balance sheet, over what economic life, and whether productive workload is growing fast enough to carry it**.
 
-This report preserves three separations:
+Microsoft, Amazon, Alphabet, and Meta do not report one comparable "AI CapEx" measure. Their fiscal periods, PPE definitions, lease treatment, and net-purchase metrics differ.
 
-1. company-wide CapEx vs. AI-specific CapEx;
+Three separations are mandatory:
+
+1. company-wide CapEx vs. AI-specific investment;
 2. IT equipment vs. data-center / power infrastructure;
-3. actual CapEx vs. guidance / expectation.
+3. actual investment vs. guidance / expectation.
 
-There is therefore no official "four-cloud AI hardware CapEx" that can be obtained simply by adding the companies' headline numbers.
+The analysis therefore starts from denominator identity, then moves to duration mismatch and utilization. A mechanically summed "four-cloud AI hardware CapEx" would obscure all three.
 
-## 2. Current 2026 capital-expansion anchors
+## 2. Public 2026 capital anchors
 
 **Table 19.1 — Public 2026 capital-spending metrics for the four major clouds**
 
@@ -30,7 +32,7 @@ Taken together, these public disclosures indicate that infrastructure investment
 
 They cannot be mechanically added because three are guidance / expectations while Amazon is TTM actual, and the accounting periods and categories differ.
 
-## 2A. Corporate CapEx is no longer the full denominator of AI-infrastructure capital formation
+## 2A. Corporate CapEx is only one funding channel
 
 By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx.
 
@@ -49,7 +51,7 @@ Therefore:
 
 The new compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.
 
-## 3. Why CapEx creates long-duration lock-in
+## 3. Duration mismatch is the core balance-sheet risk
 
 AI infrastructure is not one server purchase.
 
@@ -63,7 +65,7 @@ It combines assets with very different durations:
 
 This creates a **duration mismatch** between technology iteration speed and infrastructure economic life.
 
-## 4. Sellers and buyers reproduce capital in different ways
+## 4. Sellers and buyers carry different capital risks
 
 NVIDIA's cash generation is more directly linked to inventory, capacity reservation, supply commitments, and next-generation roadmaps.
 
@@ -75,7 +77,7 @@ It is:
 
 > **How directly can each dollar of capital improve next-generation scarce-resource access and productive utilization?**
 
-## 5. Power stretches the capital cycle from the Hardware Clock to the Infrastructure Clock
+## 5. Power couples the hardware clock to the infrastructure clock
 
 As rack density rises, expansion depends on more than server procurement.
 
@@ -85,7 +87,7 @@ The semiconductor clock and the power-permitting clock therefore become coupled.
 
 When chip supply improves but energized capacity remains insufficient, the bottleneck can shift from manufacturing toward Time-to-Power.
 
-## 6. The difference between a supercycle and a bubble is utilization
+## 6. Utilization is the first economic test of the capital cycle
 
 High CapEx can represent high-return expansion or overbuild.
 
@@ -93,7 +95,7 @@ If utilization, revenue per deployed compute, workflow volume, and customer comm
 
 If low utilization, weak monetization, next-year guidance cuts, commitment cancellations, and falling residual values appear together, the same CapEx base becomes a capital burden.
 
-## 6A. Demand duration: AI is layered onto a global digital installed base rather than starting from zero
+## 6A. Demand duration: AI inherits a global digital installed base
 
 If AI-infrastructure demand came only from frontier-model scaling, major algorithmic efficiency gains, model compression, or one large supply expansion could shorten the capital cycle materially.
 
@@ -116,7 +118,7 @@ This is why **large efficiency gains and long-run growth in aggregate infrastruc
 
 This mechanism is not a guarantee of permanent demand. If AI fails to produce sufficiently low-cost, reliable, verifiable workflow output, the digital installed base remains potential TAM rather than realized utilization or cash flow.
 
-## 7. Five classes of leading capital-clearing signals
+## 7. Leading signals of capital-cycle reversal
 
 A CapEx-cycle turn cannot be judged from stock prices alone.
 
@@ -130,7 +132,7 @@ This report tracks:
 
 Only broad, persistent deterioration across **multiple causally independent classes**, with cross-actor / cross-layer confirmation, is sufficient to move from "ROI pressure" toward "Capital Hard Landing." Accounting is confirmatory / severity evidence rather than a mandatory gate.
 
-## 8. A second-order effect: successful capital expansion raises the future performance hurdle
+## 8. A larger capital base raises the next performance hurdle
 
 A distinctive feature of AI infrastructure is that the more successfully capital expands, the higher the next-stage performance hurdle becomes.
 
@@ -148,7 +150,7 @@ That gap helps determine whether the capital cycle continues expanding, normaliz
 
 ---
 
-## 9. Current judgment
+## 9. Current read
 
 As of August 2026, public data still supports:
 
@@ -160,7 +162,7 @@ A real turn would require multiple independent signal families across utilizatio
 
 The larger the installed capital base becomes, the more the next stage has to prove real workflows, revenue, and utilization rather than relying on the assumption that "future demand will simply be larger."
 
-## 10. What evidence would force this chapter to change its judgment
+## 10. What would change the view
 
 The thesis that capital expansion remains the dominant regime should be downgraded if the following persist:
 
