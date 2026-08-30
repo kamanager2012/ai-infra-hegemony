@@ -271,7 +271,7 @@ Future judgments can change as technology, demand, capital, regulation, geopolit
 
 ## Copyright and citation
 
-Original research text is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**. See the full legal text in [LICENSE](LICENSE). Third-party material remains subject to the rights and licenses of its respective owners.
+Original research text is **All Rights Reserved**. Public availability does not grant a general reuse license. See [LICENSE](LICENSE) for the rights reservation, permissions policy, and treatment of automated extraction / AI use. Third-party material remains subject to the rights and licenses of its respective owners.
 
 Citation metadata is available in [CITATION.cff](CITATION.cff).
 
