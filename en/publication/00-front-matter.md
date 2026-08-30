@@ -23,6 +23,8 @@ The report separates:
 
 The objective is not to produce one deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be continuously tested against later public evidence. Facts emerging after **August 28, 2026** may be used to re-evaluate or falsify the framework or to initiate a new research cycle, but they do not automatically enter the frozen formal text or the report's evidence snapshot unless the text freeze is explicitly reopened.
 
+**Title boundary:** “Hegemony” in the title names the report's **2026–2036 structural-risk hypothesis about concentration of system-level resource-coordination power**. It does not claim that the industry had already entered **S3 — Resource Hegemony** by the **August 28, 2026** evidence cutoff. The current baseline remains **S2 — Baseline Concentration**.
+
 ### Entry point for end-system and industrial-supply readers
 
 This report is not arguing that “only AI matters.” Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics remain important.
