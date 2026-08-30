@@ -39,7 +39,7 @@ AI power project 至少要区分：
 
 ## 3. 代表性项目位于不同 Delivery Clock
 
-### 3.1 Microsoft / Constellation：存量大型电源重启
+### 3.1 Microsoft / Constellation：重启约 835 MW 的存量核电资产
 
 Microsoft 与 Constellation 的 **20 年 PPA** 支持原 Three Mile Island Unit 1 以 Crane Clean Energy Center 名义重启，公开机组规模约 **835 MW**。[^2]
 
@@ -58,7 +58,7 @@ Microsoft 与 Constellation 的 **20 年 PPA** 支持原 Three Mile Island Unit 
 
 ---
 
-### 3.2 Talen / AWS：大负荷客户与既有电源的商业关系重构
+### 3.2 Talen / AWS：最高 1,920 MW 的 revised PPA
 
 Talen/AWS revised PPA 的 full contract quantity 为 **up to 1,920 MW**，合同延续至 2042。Talen 2026 Q2 10-Q 写明 revised-PPA transition **occurred in April 2026**；更早的 2025 Form 10-K 曾披露 full transition expected in spring 2027。[^3][^4]
 
@@ -72,7 +72,7 @@ Talen/AWS revised PPA 的 full contract quantity 为 **up to 1,920 MW**，合同
 
 ---
 
-### 3.3 Google / Kairos：长期 Supply Option
+### 3.3 Google / Kairos：2030 年 50 MWe、2035 年前最高 500 MWe
 
 Google / Kairos 的公开路径更长：
 
@@ -90,7 +90,7 @@ Google / Kairos 的公开路径更长：
 
 ---
 
-### 3.4 NVIDIA / SB Energy / OpenAI：从购电进一步走向 Land + Power + Shell 锁定
+### 3.4 PORTS-Pike / NVIDIA / SB Energy / OpenAI：secured LPS 与初始 4.25 IT-GW 设计容量
 
 2026-08-17，NVIDIA 披露 PORTS-Pike Technology Campus 的新结构：通过与 SB Energy 合作，NVIDIA 为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**；OpenAI 将使用该 site，SB Energy 建设、持有并运营 data center。项目计划容量预计从 **2028 年开始分阶段上线**。[^7]
 
@@ -231,7 +231,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 
 因此，长期电力承诺具有双重属性：
 
-### 高需求情景
+**高需求情景**
 
 它是：
 
@@ -240,7 +240,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 - financing support；
 - barrier to entry。
 
-### 低利用率 / S4 情景
+**低利用率 / S4 情景**
 
 它可能转化为：
 
