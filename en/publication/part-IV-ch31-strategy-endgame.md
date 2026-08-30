@@ -235,7 +235,7 @@ A complete frontier-AI industrial capability requires at least:
 
 Subsidizing one advanced fab therefore does not create system closure.
 
-Manufacturing, memory, packaging, software, and power have to be managed as one industrial strategy.
+Manufacturing, memory, packaging, software, and power must be managed as one industrial strategy.
 
 ## 9. Industrial policy: power policy is now compute policy
 
@@ -341,7 +341,7 @@ These variables determine the relative weight of S1–S4 rather than a fixed ten
 
 As of August 2026, AI infrastructure remains in a phase of **rapid expansion, high concentration, and accelerating formation of substitute systems**.
 
-The next decade is not primarily about guessing one permanent winner. It is about repeated redistribution of industrial power and capital returns across:
+The next decade is not primarily about guessing a permanent winner. It is about repeated redistribution of industrial power and capital returns across:
 
 - system substitution;
 - scarce-layer supply;
