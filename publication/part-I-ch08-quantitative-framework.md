@@ -1,10 +1,10 @@
-# Part I · 第8章：Quantitative Framework——Denominator Closure、Stress Test 与 Public-Data Limits
+# Part I · 第8章：Quantitative Framework——什么可以量化，什么不能，以及为什么
 
-## 1. 从 Denominator Closure 开始
+## 1. Quantification 必须从 Denominator Closure 开始
 
-量化的第一步不是给出 point estimate，而是判断 numerator、denominator、physical unit、delivery window 与 evidence identity 是否真的可以闭合。
+量化的第一问不是“数字是多少”，而是：**这个数字是否具备可审计的存在条件。**
 
-AI infrastructure 最危险的量化错误，是把 front-end wafer、HBM bits、package starts、energized MW、accounting CapEx 与 seller commitments 串成一个看似完整、实际不可审计的 synthetic total。
+只有 numerator、denominator、physical unit、delivery window、qualification boundary 与 evidence identity 能够一致闭合，point estimate 才有资格进入主链。front-end wafer、HBM bits、package starts、energized MW、accounting CapEx 与 seller commitments 不能被拼成一个 synthetic total。
 
 因此，本报告只允许四类量化进入主链：
 
@@ -17,7 +17,7 @@ AI infrastructure 最危险的量化错误，是把 front-end wafer、HBM bits�
 
 ---
 
-## 2. Roofline：Peak FLOPS 不是 Workload Denominator
+## 2. Peak FLOPS 不是 Workload Denominator
 
 Roofline model 的基本关系是：
 
@@ -47,7 +47,7 @@ Roofline model 的基本关系是：
 
 ---
 
-## 3. Algorithmic Efficiency 改变 Resource Intensity，不改变 Measurement Discipline
+## 3. Efficiency 改变 Demand Function，不改变 Measurement Standard
 
 算法与架构可以改变：
 
@@ -78,7 +78,7 @@ DeepSeek-V3 / V2 等公开案例说明，architecture improvement 可以显著�
 
 ---
 
-## 4. Training-Run Arithmetic 不等于 Company R&D Cost
+## 4. Training-Run Arithmetic 只是有边界的 Cost Conversion
 
 DeepSeek-V3 Technical Report 披露 full formal training 使用 **2.788M H800 GPU-hours**，并使用 **US$2/GPU-hour** 的租赁成本假设。[^1]
 
@@ -92,7 +92,7 @@ DeepSeek-V3 Technical Report 披露 full formal training 使用 **2.788M H800 GP
 
 ---
 
-## 5. System Spec 可以支持 Intensity Analysis，不能反推 Fleet Size
+## 5. System Spec 可以支持 Intensity Analysis，不能反推 Deployment
 
 GB200 NVL72 官方规格包括：
 
@@ -123,7 +123,7 @@ GB200 NVL72 官方规格包括：
 
 ---
 
-## 6. HBM：Bit Demand 与 Wafer Input 是两个 Denominator
+## 6. HBM：Bits 与 Wafer Input 是两个 Denominator
 
 Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
@@ -145,7 +145,7 @@ Micron FY24 Q2 prepared remarks 给出一个重要一手边界：
 
 ---
 
-## 7. Advanced Packaging 必须保留自己的 Physical Unit
+## 7. Advanced Packaging 必须使用独立 Physical Denominator
 
 advanced-packaging 分析应优先使用可观察或有来源边界的变量，例如：
 
@@ -161,7 +161,7 @@ front-end wafers、back-end packaging capacity、HBM bits 与 energized MW 属�
 
 ---
 
-## 8. Absolute Capacity Gap：这一层现在是否 Short？
+## 8. Absolute Capacity Gap：Current Balance
 
 对每个物理层 (i)，定义：
 
@@ -201,7 +201,7 @@ Demand 与 Capacity 必须使用：
 
 ---
 
-## 9. Capacity Growth Gap：Imbalance 在扩大还是收敛？
+## 9. Capacity Growth Gap：Direction of Travel
 
 再定义：
 
@@ -227,7 +227,7 @@ AI_Capacity_Growth_Gap_i(t)
 
 ---
 
-## 10. Non-AI Residual Capacity 是另一种 Denominator
+## 10. Non-AI Residual Capacity 回答的是另一个问题
 
 AI Capacity Gap 观察 AI 侧。
 
@@ -256,7 +256,7 @@ NonAI_Residual(t)
 
 ---
 
-## 11. Power 必须同时保留 Quantity 与 Delivery State
+## 11. Power 必须同时保留 Physical Quantity 与 Delivery State
 
 约 **120 kW/rack** 可以作为 rack-level power-density input。[^5]
 
@@ -380,7 +380,7 @@ AI infrastructure 的 system risk 至少分成五类：
 
 ---
 
-## 15. Rolling Bottleneck Cascade 是 State Transition，不是 Shortage Slogan
+## 15. Rolling Bottleneck Cascade 是 State-Transition Model
 
 AI infrastructure 没有一个永久固定的唯一瓶颈。
 
@@ -434,7 +434,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 17. 防止 False Precision 的 Guardrails
+## 17. False-Precision Guardrails
 
 本报告量化必须遵守以下边界：
 
@@ -454,7 +454,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 18. Preferred Research Workflow
+## 18. Preferred Quantitative Workflow
 
 本报告采用：
 
