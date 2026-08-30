@@ -110,7 +110,7 @@ Frontier AI requires multiple advanced layers to work simultaneously:
 - rack-scale deployment;
 - data-center power.
 
-A breakthrough in one layer does not automatically create an equivalent system.
+A breakthrough in one layer does not by itself create an equivalent system.
 
 An accelerator without HBM, hardware with very high migration cost, or a cluster with weak utilization/interconnect scaling can all produce materially weaker system economics.
 
