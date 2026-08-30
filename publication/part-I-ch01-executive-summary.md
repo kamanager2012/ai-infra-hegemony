@@ -12,14 +12,16 @@
 
 这种暴露必须分层理解：smartphone / PC / 部分 ADAS 与 edge AI 更可能直接共享先进逻辑与存储；汽车、工控、产线更多通过成熟存储、MCU/模拟、功率器件和供应商 product-mix 受到相邻影响；航空、雷达、舰船、卫星、火箭等高可靠小批量系统的压力则更多来自 trusted/long-life/special-process capacity 的经济性、设备与人才，而不是“直接和 AI 服务器抢同一颗 GPU”。
 
-本报告的核心判断可以压缩为六点：
+本报告的核心判断可以压缩为八点：
 
-1. **传统终端承受的不是“全球总产能”变化，而是优先分配后的 residual capacity。** 总供给增长与 smartphone、PC、game console、汽车、工业等市场继续承受价格、quantity assurance 或配置压力可以同时成立。
-2. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
-3. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
-4. **NVIDIA 的优势仍然很强，但竞争已经从“GPU vs ASIC”升级为“system stack vs system stack”。** Google、AWS、Microsoft、Meta 的 custom systems 正在形成第二类完整路线。
-5. **基础设施的长期价值最终必须由可验证工作流产出完成需求侧闭环。** 这是长期经济判据，而不是截至本报告证据截止日已经完成经验校准的事实指标。
-6. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、utilization、power、capital discipline、workload economics 与中国 frontier parallel stack 的 closure 进度。
+1. **竞争单位已经从单颗芯片上移到完整 system stack。** 决定竞争力的不再只是 accelerator 性能，而是 advanced logic、HBM、advanced packaging、interconnect、compiler/runtime、rack/pod、data center、power 与真实 workload 能否形成稳定闭环。
+2. **AI/HPC 正在改变“下一美元资本投向哪里”。** 当 AI workload 具有更高支付能力、更长订单周期和更强资本回报预期时，新增投资与稀缺资源更容易向 AI infrastructure 倾斜。
+3. **传统终端没有失去重要性；改变的是其获得有效上游供给的确定性。** 总供给增长与 smartphone、PC、game console、汽车、工业等市场继续承受 residual-capacity、quantity-assurance、价格或配置压力可以同时成立。
+4. **真正决定长期 value capture 的不是历史市场份额，而是各关键稀缺层 incremental capacity 的持续可得性。** advanced logic、HBM、packaging、networking 与 LPS/power 必须逐层观察，不能压缩成一个综合“资源占有率”。
+5. **Hyperscaler custom systems 与中国 parallel stack 正在增加替代路径，但替代并不会自动消除上游物理约束。** 第二类 system stack 可以分流外部平台利润，却仍会竞争 advanced logic、HBM、packaging 与 power。
+6. **资本风险正在从“有没有需求”转向“资本基数能否被真实 utilization、monetization 与更独立的融资能力覆盖”。** 高 CapEx 本身既不是繁荣证明，也不是泡沫证明。
+7. **基础设施的长期价值最终必须由可验证、可收费、可重复的工作流产出完成需求侧闭环。** 这是长期经济判据，而不是截至本报告证据截止日已经完成经验校准的事实指标。
+8. **未来并不是单一的“继续繁荣”或“泡沫破裂”。** 真正决定 2026–2036 产业路径的是 supply elasticity、system substitution、workload economics、capital discipline、power、financing quality 与 frontier-system closure 的共同作用。
 
 截至当前，公开事实更符合 **S2 — Baseline Concentration**：少数 system platform 与 scarce-layer supplier 保持强经济性，替代路线正在发展，但尚未消除 HBM、advanced packaging、power 与迁移成本等关键约束。
 
