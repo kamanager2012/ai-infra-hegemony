@@ -132,7 +132,7 @@ The 50 / 100 / 500 MW values are scenario-scale markers used to illustrate Time-
 
 ## 7. Power can become binding after semiconductor supply eases
 
-AI infrastructure does not have one permanent bottleneck.
+AI infrastructure does not have a single permanent bottleneck.
 
 One possible **Rolling Bottleneck Cascade** is:
 
