@@ -1,16 +1,16 @@
 # Part II · 第18章：反垄断、产业政策与 AI 平台权力边界
 
-## 1. System-stack power 给传统相关市场分析带来新难题
+## 1. System-Stack Power 让 Relevant-Market Analysis 更复杂
 
-AI platform 的力量可能同时分布在 accelerator、interconnect、compiler/runtime、rack reference architecture、deployment software、cloud channel 与 adjacent model products。
+AI platform power 可以同时分布在 accelerator、interconnect、compiler/runtime、rack reference architecture、deployment software、cloud channel 与 adjacent model products。
 
-于是可能出现：每个单独产品市场都存在竞争者，但多个关键接口由同一平台协调时，system-level switching cost 仍然很高。
+即使每个 component market 都存在竞争者，只要多个关键接口仍由同一平台协调并维持较高 switching cost，system-level power 就不一定消失。
 
 因此，监管真正需要理解的是：
 
 > **单一市场份额之外，跨层接口、bundling、migration cost 与 supply coordination 是否共同形成排他效果。**
 
-## 2. Fine 与 Remedy 必须分开
+## 2. Fine 与 Remedy 是两个不同 Economic Instrument
 
 罚款主要影响现金流；结构性或行为救济才可能改变竞争规则。
 
@@ -31,7 +31,7 @@ AI platform 的力量可能同时分布在 accelerator、interconnect、compiler
 
 因此，本报告不把“可能罚多少钱”当成平台权力的核心变量。
 
-## 3. 10% Turnover Ceiling 不是未来罚款模型
+## 3. 10% Turnover Ceiling 不是 Fine Forecast
 
 EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 undertaking 前一营业年度 total turnover 的 **10%**。[^1]
 
@@ -43,7 +43,7 @@ EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 und
 
 所以 10% 只能表示法律工具强度，不能进入本报告的公司盈利预测。
 
-## 4. 程序状态必须逐层读取
+## 4. Regulatory Procedure 必须按 Legal State 读取
 
 欧盟 Article 102 公开程序本身已经给出清晰状态机：[^2]
 
@@ -56,7 +56,7 @@ EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 und
 
 不同阶段的法律含义完全不同。RFI、market inquiry 或新闻报道不能直接写成“已经认定违法”。
 
-## 5. 2026 年 Cloud Regulation 说明监管重点正在上移到 Interoperability
+## 5. Cloud Regulation 正转向 Interoperability 与 Switching
 
 European Commission 2026 年仍在推进 DMA cloud-computing market investigation。2026-07-01，Commission 已实际举行 stakeholder roundtable，讨论三组主题：cloud interoperability / technical features、financial conditions，以及 contractual / commercial practices；调查 final report 最迟计划在 **May 2027** 发布。[^3][^4]
 
@@ -64,7 +64,7 @@ European Commission 2026 年仍在推进 DMA cloud-computing market investigatio
 
 这与 AI system-stack competition 高度相关：如果客户无法低成本迁移 workload，接口和合同本身可能成为竞争变量。
 
-## 6. Antitrust 与 Sovereign / Industrial Policy 不是同一个目标函数
+## 6. Antitrust 与 Industrial Policy 优化的是不同目标
 
 竞争政策关注 market access、tying、exclusion、interoperability 与 customer choice；产业/国家安全政策则关注 domestic compute、semiconductor capacity、export control、data sovereignty 与 strategic autonomy。
 
@@ -127,7 +127,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 因此，真正足以提高 antitrust 权重的不是“收购金额很大”，而是交易完成后出现**可验证的自我优待 + 竞争者迁移成本上升 + 实际开发者 / workload 分布向单一生态收敛**。
 
-## 8. Regulation 无法直接创造 Physical Capacity
+## 8. Regulation 不能直接创造 Physical Capacity
 
 监管可以降低 switching cost，但不能直接制造：
 
@@ -140,7 +140,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 法律竞争与物理供给必须在不同模型中分析。
 
-## 9. 对 China Parallel Stack 的影响也必须分层
+## 9. China-Stack Effect 仍必须 Layer-Specific
 
 美国或欧洲对某一 AI platform 的竞争政策，不会自动解决中国 frontier AI stack 的 advanced logic、HBM、packaging、interconnect 与 production software closure。
 
@@ -164,7 +164,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 所以监管不是固定“利空平台”的单向变量。它是否改变产业结构，取决于正式 remedy 是否真正触及迁移、bundling 与 access。
 
-## 11. 当前判断
+## 11. Current Read
 
 截至 2026 年 8 月，监管已成为 AI system-platform 的重要外部变量，但本报告不会把调查、market inquiry 或法定罚款 ceiling 写成已经发生的结构性改造。
 
@@ -179,7 +179,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 只有这些正式事件，才足以改变 system-stack scenario weighting。
 
-## 12. 什么事实会迫使本章改判
+## 12. 什么事实会改变当前判断
 
 监管对 system-stack competition 的重要性应在以下情况下被下调：
 
