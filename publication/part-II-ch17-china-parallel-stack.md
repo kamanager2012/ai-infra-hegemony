@@ -1,24 +1,32 @@
-# Part II · 第17章：中国 Parallel Stack：从 Production-Grade Substitution 到 Autonomous Frontier Closure
+# Part II · 第17章：中国 Parallel Stack：Production-Grade Substitution 与 Autonomous Frontier Closure
 
-## 1. “能运行”与“形成等价系统”不是同一个标准
+## 1. 首先必须拆开三个不同 Threshold
 
-讨论中国 AI stack，如果不先区分层级，结论会迅速失真。至少需要分成三层：
+中国技术能力不能被压缩成一个“国产化率”。
 
-1. **smartphone / consumer computing**；
-2. **PC / workstation / general computing**；
-3. **frontier AI system stack**。
+至少要分别回答三个问题：
 
-三层对 advanced logic、memory、packaging、software、interconnect 与 performance requirement 的要求完全不同。中国在 smartphone supply chain 上形成较强能力，不能自动外推为 frontier training system 已经闭环；反过来，frontier AI 的约束也不能被写成“中国半导体没有替代能力”。
+1. **consumer computing 能否形成有规模的商业替代？**
+2. **PC / workstation 能否同时跨过 software compatibility、performance 与 commercial scale？**
+3. **frontier AI stack 能否运行 production workload，并在关键外部输入受限时继续跨代扩张？**
 
-真正需要回答的是：一套系统能否在 **functional availability、performance、scale、software portability、supply sustainability 和 economics** 六个维度同时达到生产级可接受水平。
+一个层级的证据不能替另一个层级完成 closure。smartphone supply chain 较强，不等于 frontier AI 已闭环；frontier AI 仍有约束，也不等于“中国没有半导体替代能力”。
 
-## 2. 第一层：消费计算最容易形成平行供给
+对于 frontier AI，本报告采用两个独立测试：
+
+> **Production-Grade Parallel Stack：** 系统能否在真实 workload 中同时满足 performance、scale、portability、supply continuity、reliability、utilization 与 economics？
+
+> **Autonomous Frontier Closure：** 当关键外部 manufacturing、equipment、materials、software 或 service 受限时，系统能否继续跨代扩张和迭代？
+
+这一区分具有战略意义：**production-grade substitution 可以在 autonomous closure 尚未完成时，就已经产生真实产业与竞争影响。**
+
+## 2. Consumer Computing：商业替代可以先于 Manufacturing Autonomy
 
 smartphone 与部分 consumer computing 更容易形成完整国内链条，因为这一层可以依托本土 SoC、foundry、LPDDR/NAND、packaging、device manufacturing、operating system/application ecosystem 与大型国内需求。
 
 TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**，而 HPC 为 **58%**。[^1]这说明消费计算仍是重要市场，但 frontier AI 与 smartphone 已经在同一先进制造体系中竞争不同资源。
 
-### 2.1 “只有华为能规模量产国产手机 SoC”已经不符合 2026 的公开数据
+### 2.1 Shipment Scale 已经不是单一厂商问题
 
 Counterpoint Research 的 2026Q1 global smartphone AP-SoC shipment share 显示：[^2]
 
@@ -37,7 +45,7 @@ Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入
 
 UNISOC 则代表另一种 commercial loop：它在大众/入门与 entry-5G 市场拥有更大的 shipment scale，但不能据此外推为 premium flagship system equivalence。
 
-### 2.2 Design Origin ≠ Manufacturing Closure：UNISOC / Xiaomi 必须继续追到 Foundry
+### 2.2 Design Origin 不等于 Manufacturing Closure
 
 这里还必须增加一个供应链口径约束：
 
@@ -67,7 +75,7 @@ Xiaomi XRing 的情况更直接：本章已经引用的 Reuters 来源明确指�
 
 因此，消费端的平行供给能力应被评价为一个独立层级，而不是拿来证明或否定 frontier AI closure。
 
-## 3. 第二层：PC / workstation 的难点更多在软件兼容与性能规模
+## 3. PC / Workstation：Compatibility 与 Scale 才是 Binding Test
 
 PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专业软件、driver/tooling、desktop ecosystem 与 developer compatibility。硬件存在替代并不等于使用体验、性能和软件栈已经等价。
 
@@ -85,7 +93,7 @@ PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专�
 
 所以这一层最准确的描述是：**不是“空白”，而是存在产品与自主生态，但主流规模、兼容性和系统经济性仍是闭环门槛。**
 
-## 4. 第三层：Frontier AI 是系统级门槛
+## 4. Frontier AI 是 System-Closure Problem
 
 frontier AI 需要多个 advanced layer 同时成立：
 
@@ -102,7 +110,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 因此，本报告不使用“某颗芯片能运行模型”作为 frontier substitution 的充分条件。
 
-## 5. Ascend / CANN 的战略意义在系统完整性，而不是单卡数字
+## 5. Ascend / CANN 应按 System Completeness 而不是单卡 Peak Metric 判断
 
 国内 accelerator stack 的核心价值，不在某一代单卡 peak FLOPS，而在于是否形成 compiler/runtime、framework adaptation、distributed communication、deployment tooling 与 production workload 反馈的闭环。
 
@@ -118,7 +126,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 由于部分 Ascend/CANN 具体性能和迁移效率数字目前主要来自二手材料，本章不把未逐项核验的一手缺失参数写成已确认事实。
 
-## 6. Memory 是最容易被“国产存储”总词掩盖的层
+## 6. Memory：Conventional Scale 与 Frontier HBM 是两个 Threshold
 
 长鑫科技的公开招股/注册材料披露 DDR 与 LPDDR 产品；公司随后已于 **2026-07-27** 在上交所科创板上市交易。[^7][^18] 对相关公开材料检索 `HBM` 与“高带宽内存”未见可用于确认量产产品线的披露，因此本报告只保留一个窄结论：
 
@@ -130,7 +138,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 因此，DDR/LPDDR 供给增强与 HBM-class memory closure 必须分开分析。
 
-### 6.1 普通 DRAM / NAND 与 Frontier HBM 不是同一供应链门槛
+### 6.1 Conventional DRAM / NAND 可以先于 HBM Closure 改善
 
 长鑫官方当前产品页披露 DDR5 颗粒最高 **8000 Mbps**、16Gb/24Gb，并覆盖 RDIMM/MRDIMM 等 server/workstation/PC 模组；[^8]这确认的是产品规格能力，本身不构成出货规模证据；供给规模判断见 §6.2 的招股书 / Omdia 口径。
 
@@ -144,7 +152,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 所以“普通内存可以绕开台积电”与“frontier AI memory stack 不受台积电影响”是两个完全不同的命题。
 
-### 6.2 国产 Memory Scale：必须区分 Revenue Share 与 Shipment Share
+### 6.2 Revenue Share 与 Shipment Share 必须保持不同分母
 
 长鑫公开招股材料引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四。[^11]
 
@@ -160,7 +168,7 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 关于“2027 产能翻倍”“三期明确达到某个月产量”的说法，如果只来自其他公司的招股书转引、媒体或供应链估算，只能放在 B/C 级背景，不进入本章 A 级事实层。
 
-### 6.3 HDD 不能被 NAND 的国产进展掩盖
+### 6.3 Storage Resilience 不能只看 NAND
 
 AI data-center storage 还包含 nearline HDD。公开产业研究显示，全球 nearline / mass-capacity HDD 仍高度集中于 Seagate、Western Digital 与 Toshiba。
 
@@ -168,7 +176,7 @@ AI data-center storage 还包含 nearline HDD。公开产业研究显示，全�
 
 同时，AI 并没有简单淘汰 HDD：mass-capacity / cold-storage demand 仍然存在，只是 QLC nearline SSD 正在部分 workload 上加速替代。
 
-## 7. Foundry share 不能直接等同于 Frontier AI capability
+## 7. Foundry Revenue Share 不是 Frontier-AI Capability Metric
 
 TrendForce 2026 Q1 foundry revenue share 约为：[^14]
 
@@ -187,7 +195,7 @@ TrendForce 2026 Q1 foundry revenue share 约为：[^14]
 
 中国要形成 frontier AI parallel supply，不只需要 logic die，还需要 advanced packaging、substrate、HBM integration、yield、high-volume qualification 与 power。节点追赶是必要条件之一，不是完整系统本身。
 
-## 8. Algorithmic efficiency 是重要非对称杠杆
+## 8. Algorithmic Efficiency 可以缓解硬件约束，但不能替代 Stack Closure
 
 DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单位 capability 对硬件的需求。论文给出的 **pre-training 为 2.664M H800 GPU-hours**，完整正式训练为 **2.788M H800 GPU-hours**；[^15]按论文采用的 US$2/GPU-hour 假设，**US$5.576M 对应完整正式训练**，不等于完整研发成本。
 
@@ -195,7 +203,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 它不支持“物理供给已经不重要”，也不支持“任何受限系统都能复制同样成本”。算法效率是杠杆，不是对 HBM、packaging、interconnect 和 power 的替代品。
 
-## 9. Domestic workload 是平行系统迭代的重要条件
+## 9. Domestic Workload 构成 Parallel Stack 的 Iteration Loop
 
 一个 parallel stack 不必先征服全球 developer 才能产生价值。只要拥有足够大的内部 workload，就可以通过真实生产环境积累 compiler feedback、deployment experience、failure recovery、operator coverage 和 utilization 数据。
 
@@ -203,7 +211,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 因此，判断中国栈长期进展，不能只看 benchmark，还要看 production workload 的规模与持续性。
 
-## 10. Export Control：不只是“买不到 GPU”，还影响 Manufacturing Continuity
+## 10. Export Control 同时作用于 Manufacturing Continuity
 
 出口限制在短期会提高先进硬件获取成本并降低 frontier cluster deployment speed；长期则会提高 domestic substitution incentive、local software/hardware integration 与 parallel ecosystem 的战略价值。
 
@@ -217,7 +225,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 因此，export control 不是一个单向变量。它可能同时扩大短期性能/规模差距，并强化长期平行体系建设动机。最终结果取决于 R&D efficiency、capital allocation、ecosystem adoption 与 supply scaling，而不是政策本身自动决定。
 
-## 11. 两级 Closure 标准：Production-Grade Parallel Stack 与 Autonomous Frontier Closure
+## 11. 两级 Closure Test
 
 此前如果把所有关键层都要求“国内完全闭环”之后，才承认存在 frontier parallel stack，会把两个不同问题混在一起：
 
@@ -249,7 +257,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 这一区分可以避免两个相反错误：既不能因为仍有进口依赖就否认真实替代系统，也不能因为系统已经能运行，就宣布所有 frontier critical layers 已经自主闭环。
 
-## 12. 对全球资源竞争的真正影响
+## 12. 为什么 Partial Closure 已经影响全球竞争
 
 如果中国 parallel stack 在 advanced logic、HBM、packaging、interconnect 与 software 上同时规模化，它不会只是“替代进口”，还会形成第二个大型资源重力中心：新的 foundry demand、memory demand、packaging demand、power demand 与长期资本承诺会进入全球/区域资源分配。
 
@@ -257,7 +265,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 因此，当前更准确的状态是：**中国已经跨过“没有替代系统”的阶段，frontier parallel stack 已出现真实迭代与部分 production deployment；但按本章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已经闭合。Autonomous Frontier Closure 的证据门槛更高，目前同样未满足。**
 
-## 13. 当前判断与证伪条件
+## 13. Current Read 与 Falsification
 
 截至 2026 年 8 月：
 
