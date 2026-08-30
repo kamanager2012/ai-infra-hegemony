@@ -1,8 +1,8 @@
 # Part II · 第13章：Anchor Compute Buyers——Long-Duration Demand 如何提前拉动 Infrastructure
 
-## 1. Demand-Side Shift：Model Company 开始提前拉动 Infrastructure
+## 1. Frontier Model Demand 可以提前拉动 Infrastructure
 
-在较小规模下，model company 是 compute tenant；到了 frontier scale，long-duration demand 本身可以成为 capital formation 的输入。
+在较小规模下，model company 是 compute tenant；到了 frontier scale，durable demand 本身可以成为 chip、data center、land 与 power 的 financing input。
 
 关系因此从：
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 2. Mechanism：Demand Certainty 成为 Capital-Formation Input
+## 2. Demand Certainty 成为 Capital-Formation Input
 
 传导链可以写成：
 
@@ -38,7 +38,7 @@
 
 ---
 
-## 3. OpenAI / Stargate：Status 比 Headline Scale 更重要
+## 3. OpenAI / Stargate：Delivery State 比 Headline Scale 更重要
 
 OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B** 建设 AI infrastructure。[^1]
 
@@ -115,7 +115,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 ---
 
-## 5. Anchor Buyer 增强的是 Coordination Power，不是 Supply-Chain Ownership
+## 5. Anchor Buyer 获得的是 Coordination Power，不是 Ownership
 
 模型公司可以影响：
 
@@ -177,7 +177,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 ---
 
-## 7. Anchor Demand 取决于 Efficiency 与 Workload Growth
+## 7. Anchor Demand 最终仍取决于 Workload Economics
 
 长期 compute demand 会被两组相反力量同时影响。
 
@@ -217,7 +217,7 @@ Anchor Buyer Demand 不能用简单“每年固定翻倍”外推。
 
 ---
 
-## 8. Anchor Demand 沿完整 Infrastructure Chain 传播
+## 8. Anchor Demand 沿 Infrastructure Chain 传播
 
 大规模模型需求可以沿完整产业链传播：
 
@@ -243,7 +243,7 @@ Anchor Buyer Demand 不能用简单“每年固定翻倍”外推。
 
 ---
 
-## 9. Risk：Customer Concentration 与 Duration Mismatch
+## 9. Risk：Concentration 与 Duration Mismatch
 
 Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
@@ -272,7 +272,7 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
 ---
 
-## 10. Monitoring Anchor Buyer Strength
+## 10. Monitoring Anchor-Buyer Strength
 
 ### 强化信号
 
