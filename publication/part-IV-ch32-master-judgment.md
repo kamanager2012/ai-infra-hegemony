@@ -234,7 +234,7 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 ## 10. Demand Duration 取决于 Workflow Penetration 与 Economic Output
 
-如果只观察 GPU、HBM、CapEx 或数据中心容量，本报告仍然是不完整的。基础设施只是供给侧；十年产业周期能否成立，最终取决于这些物理资产能否穿过软件、企业流程与实体世界，转化为可验证的经济产出。
+如果只观察 GPU、HBM、CapEx 或数据中心容量，分析仍然是不完整的。基础设施只是供给侧；十年产业周期能否成立，最终取决于这些物理资产能否穿过软件、企业流程与实体世界，转化为可验证的经济产出。
 
 ### AI inheritance：IT 就是 AI 的 Installed Base
 
@@ -286,7 +286,7 @@ AI 对劳动的传导必须至少经过：
 
 > **能否把 AI 组织成可靠、可迁移、可度量、可承担责任的生产系统。**
 
-把四条链合在一起，本报告的需求侧闭环可以写成：
+把四条链合在一起，需求侧闭环可以写成：
 
 > **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
 
@@ -296,7 +296,7 @@ AI 对劳动的传导必须至少经过：
 
 ## 11. Compute 只有被 Economic Output 验证后才成为 Productive Infrastructure
 
-本报告使用“生产资料化”描述一种可检验的经济变化，而不是技术神话。
+Compute 只有在经济上可检验的意义上，才能被视为 productive input，而不是技术神话。
 
 判断标准不是模型“看起来多聪明”，而是：
 
@@ -314,7 +314,7 @@ AI 对劳动的传导必须至少经过：
 
 ## 12. 四种结构状态
 
-本报告使用四类并列情景：
+四类并列情景构成长周期判断框架：
 
 ### S1 — Competitive Expansion
 
