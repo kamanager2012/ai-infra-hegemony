@@ -52,7 +52,7 @@ The direction is consistent with the broader industrial thesis:
 
 > **AI literacy cannot collapse into prompt technique. Durable capability includes judgment, responsibility, system understanding, application design, and verification.**
 
-A curriculum centered on the currently dominant model or tool will become obsolete quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
+A curriculum centered on the currently dominant model or tool is likely to become obsolete quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
 
 ## 3. Layer one: AI literacy
 
@@ -127,7 +127,7 @@ The educational goal is portability, not platform loyalty.
 
 Robotics / Physical AI combines control, mechanics, sensing, embedded compute, AI, and safety.
 
-A scarce future skill will be the ability to connect model capability with physical-world reliability.
+A scarce future skill is likely to be the ability to connect model capability with physical-world reliability.
 
 ## 9. Power / cooling / operations belong inside the talent stack
 
@@ -145,7 +145,7 @@ If drafting, routine coding, and basic research are increasingly performed by ag
 - real-world projects;
 - responsibility.
 
-Otherwise, education will continue investing heavily in the tasks most likely to be automated first.
+Otherwise, education risks continuing to invest heavily in the tasks most likely to be automated first.
 
 ## 11. Assessment has to measure verification and responsibility
 
@@ -169,9 +169,9 @@ It is:
 
 > **make AI a systems capability across technical and professional education while raising verification, portability, and responsibility into core learning objectives.**
 
-The most durable talent advantage will not come simply from being best at calling models.
+The most durable talent advantage is unlikely to come simply from being best at calling models.
 
-It will come from the ability to understand systems, verify results, evaluate economics, migrate across stacks, and take responsibility for real-world consequences.
+It is more likely to come from the ability to understand systems, verify results, evaluate economics, migrate across stacks, and take responsibility for real-world consequences.
 
 ## References
 
