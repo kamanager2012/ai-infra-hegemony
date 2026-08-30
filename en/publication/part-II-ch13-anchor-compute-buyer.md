@@ -109,7 +109,7 @@ If architecture sharply lowers the compute required for the same capability, a m
 
 If lower unit cost stimulates workload volume even faster, long-duration commitments can continue to expand.
 
-Anchor Buyer Demand is therefore a dynamic demand function, not a fixed exponential curve.
+Anchor-buyer demand is therefore a dynamic demand function, not a fixed exponential curve.
 
 ## 8. Anchor demand propagates through the infrastructure chain
 
@@ -186,7 +186,7 @@ If the model-company growth thesis fails, a long-duration commitment can move fr
 - model-company financing or revenue pressure;
 - capacity delivery materially outrunning workload growth.
 
-Headline commitment is therefore not the endpoint.
+Headline commitment is therefore not the endpoint of the analysis.
 
 The decisive question is:
 
@@ -198,17 +198,17 @@ The decisive question is:
 
 As of August 2026, large model companies constitute a distinct Anchor Buyer category inside AI infrastructure.
 
-OpenAI Stargate's secured-capacity and construction states, Anthropic/AWS's ten-year compute commitment and Trainium deployment, xAI's self-built Colossus buildout, and PORTS-Pike's LPS/credit-support structure show that model workloads are now shaping:
+OpenAI Stargate's secured-capacity and construction milestones, Anthropic/AWS's ten-year compute commitment and Trainium deployment, xAI's self-built Colossus buildout, and PORTS-Pike's LPS/credit-support structure show that model workloads are now shaping:
 
 > **cloud architecture, custom silicon, data-center buildout, power procurement, and infrastructure finance**
 
-Anchor Buyer commitments are therefore a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**. The time-leadership of this signal is supported so far by three documented cases (Stargate, Anthropic/AWS, and xAI Colossus) and must be re-verified across further full cycles.
+Anchor-buyer commitments are therefore a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**. The leading-indicator value of this signal is supported so far by three documented cases (Stargate, Anthropic/AWS, and xAI Colossus) and must be re-tested across additional full cycles.
 
 They can accelerate AI-infrastructure capital formation, but under weak utilization they can also amplify stranded-capacity and duration-mismatch risk.
 
 ## 12. What would change the view
 
-The Anchor Compute Buyer Effect should be downgraded if:
+The anchor-buyer mechanism should be downgraded if:
 
 - long-duration commitments are broadly delayed, reduced, or renegotiated;
 - secured capacity fails for extended periods to become energized / utilized capacity;
