@@ -36,7 +36,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 
 ## 3. Task-to-Job Translation 必须跨过多个 Gate
 
-本报告使用以下传导链：
+劳动力市场的传导链是：
 
 > **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
 
