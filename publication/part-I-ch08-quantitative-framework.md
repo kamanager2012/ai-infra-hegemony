@@ -13,7 +13,7 @@
 3. **layer-specific stress test**；
 4. **capacity / commitment / utilization indicator**。
 
-如果公开 denominator 不能闭合，变量就保留为 parameter 或 proxy。**不会为了让模型“看起来完整”而用一个 point estimate 填空。**
+如果公开 denominator 不能闭合，变量就保留为 parameter 或 proxy。**不会仅仅为了制造“完整”的表象而塞入一个 point estimate。**
 
 ---
 
