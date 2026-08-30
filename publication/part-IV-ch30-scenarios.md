@@ -6,6 +6,12 @@
 
 Scenario framework 的作用是 operational classification：**当前哪一种 structural state 最符合证据、哪些变量能够区分替代情景、什么 observation 会迫使 scenario weight 发生迁移？**
 
+下图以定性方式压缩这一 scenario framework。
+
+![图 6 — S1–S4 scenario map](figures/fig-06-s1-s4-scenario-map.svg)
+
+**图 6 Note：** qualitative report framework。图中位置是 schematic discriminator，不是 calibrated score；S1–S4 是 parallel conditional states，不带固定 probability。
+
 因此，scenario weighting 依赖可持续监测的 state variables：
 
 - layer-specific scarce-capacity access；
