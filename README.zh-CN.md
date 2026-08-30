@@ -1,7 +1,7 @@
-# AI基础设施格局重塑：2026–2036产业前瞻研究报告
-### AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
+# AI基础设施格局重塑：2026–2036结构性产业展望
+### AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
 
-**全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构**
+**AI 算力扩张如何重配半导体、存储、先进封装、电力、资本与终端产能**
 
 一份研究 AI 基础设施、半导体、云系统、资本形成与产业战略的长期行业报告。
 
