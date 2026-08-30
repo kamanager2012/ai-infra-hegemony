@@ -65,7 +65,7 @@ This is why falling API prices are not equivalent to falling AI-infrastructure d
 
 ## 5. GPU vs. ASIC should be compared at System TCO
 
-Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA create alternative compute paths for internal workloads and model companies.
+Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA create alternative compute paths for internal workloads and model companies.[^5]
 
 The comparison should not focus on accelerator-die price alone. It must include:
 
@@ -76,7 +76,7 @@ The comparison should not focus on accelerator-die price alone. It must include:
 - debugging / porting cost;
 - effective utilization.
 
-A theoretically cheaper chip can still produce a higher system TCO if migration, debugging, or utilization are materially worse.
+A theoretically cheaper chip can still produce a higher system TCO if migration, debugging, or utilization are materially worse. This is a **report-side system-TCO mechanism**, not a claim that the cited vendors disclose one standardized cross-platform TCO comparison.
 
 ## 6. AI software unit economics
 
@@ -148,12 +148,12 @@ The final variable links directly to the Anchor Compute Buyer mechanism develope
 
 ## 10. Current read
 
-As of 2026, the more defensible description is:
+At the August 2026 evidence cutoff, the more defensible description from this chapter's cited evidence is:
 
 - model-layer price competition and capability diffusion are real;
-- unit cost continues to fall;
-- open source raises buyer bargaining power;
-- those changes have not translated into a confirmed decline in infrastructure demand;
+- benchmark-equivalent unit cost has fallen sharply in the cited historical series;
+- open-source availability increases model portability and buyer options;
+- **the sources cited in this chapter do not establish a confirmed decline in aggregate infrastructure demand as a consequence of those model-layer changes**;
 - large model companies are using long-duration commitments to shape infrastructure buildout.
 
 Algorithmic efficiency can become either a **demand interrupter** or a **usage multiplier** for infrastructure. Which effect dominates can only be determined through workload volume, utilization, and unit economics.
@@ -161,6 +161,8 @@ Algorithmic efficiency can become either a **demand interrupter** or a **usage m
 ## References
 
 [^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
-[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
+[^2]: DeepSeek-AI, “DeepSeek-V2,” technical report, MLA / KV-cache and throughput results, https://arxiv.org/abs/2405.04434 ; official repository, https://github.com/deepseek-ai/DeepSeek-V2
 [^3]: Stanford HAI, “2025 AI Index Report — Research and Development,” inference-price comparison at a GPT-3.5-equivalent MMLU level, https://hai.stanford.edu/ai-index/2025-ai-index-report/research-and-development
 [^4]: Stanford HAI, “2026 AI Index Report — Technical Performance,” frontier-model performance convergence and the shift toward cost, reliability, and domain-specific competition, https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
+
+[^5]: Google, Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, Amazon EC2 Trn3 UltraServers / Trainium3, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
