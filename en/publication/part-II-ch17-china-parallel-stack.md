@@ -1,28 +1,32 @@
-# Part II · Chapter 17: China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure
+# Part II · Chapter 17: China's Parallel Stack — Production-Grade Substitution vs. Autonomous Frontier Closure
 
-## 1. "It can run" and "it forms an equivalent system" are not the same standard
+## 1. The analytical error is collapsing three different thresholds into one
 
-Any discussion of China's AI stack becomes misleading if the layers are not separated first.
+China's technology position cannot be represented by a single localization rate.
 
-At minimum, the analysis should distinguish:
+Three distinct questions have to remain separate:
 
-1. **smartphone / consumer computing**;
-2. **PC / workstation / general computing**;
-3. **frontier AI system stack**.
+1. **Can domestic consumer-computing systems ship at meaningful scale?**
+2. **Can PC / workstation systems sustain software compatibility, performance, and commercial scale?**
+3. **Can a frontier AI stack operate production workloads and continue advancing when critical external inputs are constrained?**
 
-These layers have very different requirements for advanced logic, memory, packaging, software, interconnect, and performance.
+Evidence from one threshold does not close another. A strong smartphone supply chain is not proof of frontier-AI closure; frontier-AI constraints are not proof that China lacks semiconductor substitution capacity.
 
-China's strong smartphone supply chain cannot be extrapolated into proof that frontier-training systems are already closed. Conversely, frontier-AI constraints cannot be rewritten as "China has no semiconductor substitution capability."
+For frontier AI, this report uses two tests:
 
-The relevant test is whether a system reaches production-grade acceptability across **functional availability, performance, scale, software portability, supply sustainability, and economics** at the same time.
+> **Production-Grade Parallel Stack:** can the stack run real workloads with acceptable performance, scale, portability, supply continuity, reliability, utilization, and economics?
 
-## 2. Layer one: consumer computing is the easiest place to form parallel supply
+> **Autonomous Frontier Closure:** can that stack keep scaling across generations when critical external manufacturing, equipment, materials, software, or service inputs are constrained?
+
+The distinction is strategic. Production-grade substitution can become economically important before full autonomous closure exists.
+
+## 2. Consumer computing: commercial substitution can precede manufacturing autonomy
 
 Smartphones and parts of consumer computing can form a more complete domestic chain because they can draw on local SoCs, foundries, LPDDR/NAND, packaging, device manufacturing, operating-system/application ecosystems, and large domestic demand.
 
 TSMC's 2025 platform mix still shows smartphone at **29%** of annual platform revenue and HPC at **58%**.[^1]
 
-### 2.1 "Huawei is the only Chinese smartphone-SoC vendor with real scale" is no longer consistent with 2026 public data
+### 2.1 Shipment scale is broader than one vendor
 
 Counterpoint Research's 2026 Q1 global smartphone AP-SoC shipment shares show:[^2]
 
@@ -43,7 +47,7 @@ A better judgment is:
 
 UNISOC represents a different commercial loop: much larger shipment scale in mass-market / entry-5G devices without proving premium-flagship system equivalence.
 
-### 2.2 Design Origin ≠ Manufacturing Closure: UNISOC / Xiaomi must be traced through the foundry layer
+### 2.2 Design origin is not manufacturing closure
 
 One additional supply-chain discipline is required here:
 
@@ -73,7 +77,7 @@ The defensible risk statement for UNISOC / Xiaomi is therefore:
 
 Consumer parallel-supply capability should therefore be evaluated as its own layer—not used as proof for or against frontier-AI closure.
 
-## 3. Layer two: PCs / workstations are constrained more by software compatibility and scale
+## 3. PCs / workstations: compatibility and scale are the binding tests
 
 PCs, workstations, and general computing require CPU/GPU hardware, DDR5, professional software, drivers/tooling, desktop ecosystems, and developer compatibility.
 
@@ -93,7 +97,7 @@ The more accurate description is therefore:
 
 > **the segment is not empty; products and domestic ecosystems exist, while mainstream scale, compatibility, and system economics remain the closure barriers.**
 
-## 4. Layer three: frontier AI is a system-level threshold
+## 4. Frontier AI is a system-closure problem
 
 Frontier AI requires multiple advanced layers to work simultaneously:
 
@@ -112,7 +116,7 @@ An accelerator without HBM, hardware with very high migration cost, or a cluster
 
 This report therefore does not treat "one domestic chip can run a model" as sufficient evidence of frontier substitution.
 
-## 5. The strategic meaning of Ascend / CANN lies in system completeness, not one card's peak number
+## 5. Ascend / CANN should be judged by system completeness, not peak-card metrics
 
 The key value of a domestic accelerator stack is not the peak FLOPS of one generation.
 
@@ -130,7 +134,7 @@ The preferred observables include:
 
 Because some specific Ascend/CANN performance and migration-efficiency figures currently come primarily from secondary sources, this chapter does not upgrade unverified parameters into confirmed facts.
 
-## 6. Memory is the layer most easily hidden by the broad term "domestic memory"
+## 6. Memory: conventional scale and frontier HBM are different thresholds
 
 CXMT's **May 27, 2026 STAR Market registration prospectus** discloses DDR and LPDDR products. The company subsequently began trading on Shanghai's STAR Market on **July 27, 2026**.[^7][^18]
 
@@ -146,7 +150,7 @@ The same prospectus also requires strict separation between project investment a
 
 DDR/LPDDR supply expansion and HBM-class memory closure therefore have to remain separate.
 
-### 6.1 Conventional DRAM / NAND and frontier HBM are different supply-chain thresholds
+### 6.1 Conventional DRAM / NAND can improve before HBM closure
 
 CXMT's current official product page discloses DDR5 chips up to **8000 Mbps**, with 16Gb/24Gb densities and server/workstation/PC module coverage including RDIMM/MRDIMM.[^8]
 
@@ -162,7 +166,7 @@ But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packa
 
 "Conventional memory can bypass TSMC logic foundry" and "the frontier AI memory stack is independent of TSMC" are therefore different propositions.
 
-### 6.2 Domestic memory scale: revenue share and shipment share must remain separate
+### 6.2 Revenue share and shipment share are different denominators
 
 CXMT's prospectus, citing Omdia, provides an auditable metric: based on **2025 Q2 DRAM revenue**, CXMT held approximately **3.97% global share**, ranking fourth globally and first in China.[^11]
 
@@ -178,7 +182,7 @@ What they support is a narrower conclusion:
 
 Claims such as "capacity will double by 2027" or specific Phase-III monthly wafer output remain B/C-grade background unless they are disclosed directly by the company or another formal first-party source.
 
-### 6.3 HDD must not be hidden by progress in NAND
+### 6.3 Storage resilience is broader than NAND
 
 AI data-center storage also includes nearline HDD.
 
@@ -188,7 +192,7 @@ Stronger domestic NAND / SSD capability therefore cannot be rewritten as "the en
 
 AI has also not simply eliminated HDD. Mass-capacity / cold-storage demand remains real, while QLC nearline SSD is accelerating substitution for selected workloads.
 
-## 7. Foundry revenue share is not frontier-AI capability
+## 7. Foundry revenue share is not a frontier-AI capability metric
 
 TrendForce's 1Q26 foundry revenue-share estimates are approximately:[^14]
 
@@ -209,7 +213,7 @@ A frontier AI parallel supply stack requires more than logic dies. It also needs
 
 Node progress is one necessary condition, not the whole system.
 
-## 8. Algorithmic efficiency is an important asymmetric lever
+## 8. Algorithmic efficiency can relax hardware constraints without closing the stack
 
 The DeepSeek-V3 Technical Report shows that algorithmic and architectural design can materially lower the hardware required per unit of capability.
 
@@ -221,7 +225,7 @@ It does not support the claim that physical supply no longer matters, nor that a
 
 Algorithmic efficiency is a lever—not a substitute for HBM, packaging, interconnect, and power.
 
-## 9. Domestic workloads are an important condition for parallel-system iteration
+## 9. Domestic workloads create the iteration loop
 
 A parallel stack does not need to win the global developer ecosystem before it can create value.
 
@@ -233,7 +237,7 @@ The logic is similar to hyperscaler custom silicon:
 
 Long-run progress should therefore be evaluated from production workload scale and persistence—not benchmarks alone.
 
-## 10. Export controls affect manufacturing continuity as well as accelerator access
+## 10. Export controls reach manufacturing continuity, not only accelerator access
 
 Export restrictions raise the near-term cost of acquiring advanced hardware and can slow frontier-cluster deployment.
 
@@ -255,7 +259,7 @@ It can widen short-term performance/scale gaps while strengthening the long-run 
 
 The final outcome depends on R&D efficiency, capital allocation, ecosystem adoption, and supply scaling—not policy alone.
 
-## 11. Two levels of closure: Production-Grade Parallel Stack and Autonomous Frontier Closure
+## 11. Two closure tests
 
 Treating "production substitution" and "full autonomy" as one threshold creates two opposite analytical errors.
 
@@ -292,7 +296,7 @@ Therefore:
 
 Import dependence does not prove that no production-grade parallel stack exists. Conversely, successful production deployment does not prove autonomous frontier closure.
 
-## 12. The real effect on global resource competition
+## 12. Why partial closure already matters globally
 
 If China's parallel stack scales simultaneously in advanced logic, HBM, packaging, interconnect, and software, it will do more than replace imports.
 
@@ -306,7 +310,7 @@ The most accurate current state is therefore:
 
 > **China has moved beyond the stage of "no alternative system," and a real frontier parallel stack is iterating with partial production deployment. But under this chapter's seven Production-Grade Gates, public evidence is still insufficient to confirm that a complete production-grade frontier parallel stack has closed. Autonomous Frontier Closure remains a still higher and unproven threshold.**
 
-## 13. Current judgment and falsification
+## 13. Current read and falsification
 
 As of August 2026:
 
