@@ -1,7 +1,9 @@
-# Part I · 第9章：全球半导体供应链与制造冗余
+# Part I · 第9章：Semiconductor Supply-Chain Resilience——Equipment、Materials 与 Geographic Redundancy
 
 
-## 1. Frontier AI 背后是一条跨企业、跨国家的工业链
+## 1. Resilience 本质上是 System-Continuity Problem
+
+Frontier AI 的 supply security 不能被压缩成“某地有一座 fab”或“某颗芯片由本国公司设计”。真正需要测试的是：**整个工业链在关键 disruption 下，能否继续生产、qualification、service 与跨代扩张。**
 
 一套 frontier AI system 的 physical supply chain 至少涉及：
 
@@ -218,7 +220,7 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 因此，地缘 fragmentation 不一定意味着全球 semiconductor CapEx 下降，反而可能意味着**更多重复建设、较低单一体系利用效率与更高 resilience**。
 
-## 12. 什么才叫真正的 Supply-Chain Resilience
+## 12. 什么才算真正的 Supply-Chain Resilience
 
 本报告不把“完全自主”设为唯一目标。更现实的指标是：
 
@@ -232,7 +234,7 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 
 > **关键中断发生时，谁能以可接受成本维持最高的 system-level continuity。**
 
-## 13. 当前判断
+## 13. Current Read
 
 截至 2026 年，公开事实支持一个相对清晰的方向：
 
