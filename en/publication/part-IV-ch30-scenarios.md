@@ -53,7 +53,7 @@ The Rolling Bottleneck Cascade does not imply that the same scarce layer remains
 
 Public forward evidence at the report cutoff already shows this response can be **layer-specific rather than uniform**. TrendForce on July 30, 2026 expected DRAM to remain tight in 2027 while NAND Flash could move toward a looser supply-demand structure in **2H27** as new capacity and bit-output growth arrive; it also expected meaningful output contribution from some new DRAM capacity to emerge only in **2028**.[^10]
 
-The report therefore does not extrapolate 2024–2026 HBM / packaging tightness into permanent ten-year scarcity. The variables to monitor by layer are:
+Accordingly, 2024–2026 HBM / packaging tightness should not be extrapolated into permanent ten-year scarcity. The variables to monitor by layer are:
 
 - effective capacity ramp;
 - qualification / yield;
@@ -162,7 +162,7 @@ After capital clearing, cheaper compute can still stimulate new applications.
 
 ## 5A. Capacity Gap is a diagnostic axis, not a fifth scenario
 
-S1–S4 remain parallel conditional states; the report does not introduce a second scenario taxonomy. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
+S1–S4 remain parallel conditional states; no second scenario taxonomy is introduced. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
 
 ### Absolute gap
 
@@ -243,7 +243,7 @@ Seller-assisted financing can strengthen infrastructure formation when it is sup
 
 It becomes an S4 risk amplifier when customer cash generation weakens while supplier equity / credit support and refinancing dependency keep increasing.
 
-The report therefore distinguishes Anchor Buyer demand from **Financing Reflexivity** rather than treating every financing-supported order as either fully organic or automatically artificial.
+Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity** rather than treating every financing-supported order as either fully organic or automatically artificial.
 
 ## 8. Signals that move S2 toward S1
 
@@ -288,7 +288,7 @@ Scenario weighting therefore describes **relative structure**, not one compulsor
 
 ## 12. Current baseline: S2
 
-As of August 2026, the report's baseline is:
+As of August 2026, the baseline is:
 
 > **S2 — Baseline Concentration**
 
@@ -310,7 +310,7 @@ Scenarios are distinguished along the following axes rather than by any single a
 
 - **S1 ↔ S2:** the degree to which alternative systems scale in frontier / high-value production workloads, and whether HBM / packaging lead times keep falling;
 - **S2 ↔ S3:** the direction of allocation concentration at scarce layers, the growth rate of seller forward commitments, proprietary switching costs, and the degree of powered-land lockup;
-- **S3 ↔ S4:** the relationship between utilization / monetization and the capital base. Because no comparable industry-wide ratio is publicly disclosed, the report uses public proxies: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, seller equity / credit support, third-party capital risk premia, and refinancing dependency.
+- **S3 ↔ S4:** the relationship between utilization / monetization and the capital base. Because no comparable industry-wide ratio is publicly disclosed, public proxies are used: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, seller equity / credit support, third-party capital risk premia, and refinancing dependency.
 
 The same capital evidence (for example the **>US$500B** mobilization target, the **US$50B** frontier-lab investment, and **2 GW** of credit support)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
 
@@ -327,7 +327,7 @@ Therefore:
 - one alternative-chip launch cannot independently trigger S1;
 - S2 cannot become a permanent default merely because most observations can still be narrated inside it.
 
-Changes in scenario weight require **several independent public proxies to move in the same direction across repeated observations**, while counterevidence and segment breadth remain explicit. Because disclosure frequencies differ across quarterly, semiannual, and annual data, this report does not force them into a false single observation window.
+Changes in scenario weight require **several independent public proxies to move in the same direction across repeated observations**, while counterevidence and segment breadth remain explicit. Because disclosure frequencies differ across quarterly, semiannual, and annual data, the framework does not force them into a false single observation window.
 
 **Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
 
