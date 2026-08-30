@@ -14,7 +14,7 @@
 - [Table 7.1 — Representative AI power / LPS pathways](part-I-ch07-power-constraint.md)
 - [Table 8.1 — NVL72 rack-to-MW D-grade intensity conversion](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 public-data quantification readiness by layer](part-I-ch08-quantitative-framework.md)
-- [Table 8.3 — 2026 auditable gap / intensity ledger](part-I-ch08-quantitative-framework.md)
+- [Table 8.3 — 2026 public-data gap / intensity ledger](part-I-ch08-quantitative-framework.md)
 
 ## Part II
 

@@ -6,9 +6,9 @@ This directory contains the zero-build web reader for **AI Infrastructure Reorde
 
 - **Website**: reader-facing primary entry.
 - **Formal Markdown report**: private source of truth under `publication/` and `en/publication/`.
-- **Public snapshot bundles**: frozen reader-facing copies under `docs/content/`; the website reads only these files at runtime.
+- **Public edition bundles**: reader-facing copies under `docs/content/`; the website reads only these files at runtime.
 - **Private GitHub repository**: source research, evidence, methodology, citation history, historical drafts, scripts, and corrections.
-- **PDF**: generated from the same public frozen snapshot; it does not maintain a second manually edited body-text source.
+- **Print / PDF export**: the browser print view renders the same public edition bundle; there is no second manually edited body-text source.
 
 ## Hosting
 
@@ -16,7 +16,7 @@ The site is plain HTML/CSS/JavaScript. No Node.js, framework, GitHub Actions, or
 
 For GitHub Pages, use the repository's `main /docs` directory as the Pages source. The reader never fetches `publication/`, `en/publication/`, or `raw.githubusercontent.com` at runtime. A private source repository can therefore remain private while the selected `docs/` publication snapshot is served by a compatible static host / Pages configuration.
 
-Only reader-facing publication material should be copied into `docs/content/`. Historical `vol-*`, legacy `part2-*`, internal audit files, scripts, and unpublished research material remain outside the public snapshot.
+Only reader-facing publication material should be copied into `docs/content/`. Historical `vol-*`, legacy `part2-*`, internal audit files, scripts, and unpublished research material remain outside the public edition bundle.
 
 ## Reader routes
 
@@ -27,9 +27,9 @@ Only reader-facing publication material should be copied into `docs/content/`. H
 - Full Chinese print/PDF view: `/?lang=zh&print=1`
 - Full English print/PDF view: `/?lang=en&print=1`
 
-## Freeze discipline
+## Revision discipline
 
-The website does not duplicate or rewrite research conclusions. It renders the frozen 32-chapter publication Markdown directly. Post-freeze changes remain limited to factual corrections, source-link repairs, citation-scope corrections, and material-error fixes.
+The website does not create a second research narrative. It renders the 32-chapter publication content from `docs/content/`. Evidence cutoff and edition revision are separate: later edits may correct facts, source links, citation scope, bilingual parity, or editorial structure, but post-cutoff facts are not backdated into the edition's evidence set.
 
 ## Rights
 

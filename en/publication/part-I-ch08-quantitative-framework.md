@@ -249,13 +249,13 @@ The quantitative rule is therefore:
 
 > **Calculate what can be closed; use explicit proxies where closure is partial; do not fill a missing denominator with a point estimate.**
 
-## 13A. 2026 quantitative gap ledger: one layer can already be pushed further
+## 13A. 2026 public-data gap / intensity ledger
 
-The readiness table above should not become a permanent excuse for non-quantification. Where public inputs share a usable denominator, the report should calculate the bounded quantity and show exactly what remains unclosed.
+The readiness table above should not become a permanent excuse for leaving public evidence unstructured. Where a same-unit demand/capacity pair exists, the report should calculate it; where only an institutional balance or intensity signal exists, it should be recorded with its exact scope; where the denominator is missing, the output remains not measurable.
 
-### Table 8.3 — 2026 auditable gap / intensity ledger
+### Table 8.3 — 2026 public-data gap / intensity ledger
 
-| Layer / metric | Public input at the cutoff | Report-side calculation or institutional balance | Status | Boundary |
+| Layer / metric | Public input at the cutoff | Bounded output | Status | Boundary |
 |---|---|---|---|---|
 | HBM manufacturing intensity | TrendForce estimates HBM wafer input **among the top three suppliers** at ~**22%** of total DRAM wafer input in 2026, while HBM bit supply is expected at ~**9%** of total DRAM bit supply[^7] | read jointly with Micron's same-node / same-bits **≈3×** physical trade ratio | **B-grade institutional intensity signal** | the two TrendForce percentages are not scope-identical enough to support a formal 22/9 intensity ratio; not an absolute HBM supply gap |
 | Aggregate DRAM balance | TrendForce estimates a **~−1% to −2% 2026 DRAM sufficiency ratio**[^8] | institutional balance range indicates a modest aggregate deficit | **B-grade institutional forecast** | not HBM-specific; underlying demand/capacity volumes and customer allocation are not public |
@@ -264,12 +264,12 @@ The readiness table above should not become a permanent excuse for non-quantific
 | Networking | product topology and system specifications | workload-specific engineering ratios only | **Partial** | no unified deployment/utilization denominator |
 | Power / LPS | project-level secured / permitted / construction / energized states | project delivery-state tracking only | **Partial at project level** | IT-GW, generation GW, PPA MW, energized load, and utilized load remain different quantities |
 
-**Source:** TrendForce institutional estimates plus report-side arithmetic.[^7][^8]  
-**Denominator note:** TrendForce's two percentages should **not** be divided into a formal intensity ratio. The wafer-input statement is scoped to HBM wafer input **among the top three suppliers**, while the bit-supply statement is framed against total DRAM bit supply. They still point in the same direction—HBM absorbs a larger share of wafer input than its share of bits—but the clean comparable physical anchor remains Micron's approximately **3×** same-node / same-bits HBM3E-to-DDR5 disclosure.[^4]
+**Source:** TrendForce institutional estimates, read alongside Micron's first-party manufacturing-input anchor.[^4][^7][^8]  
+**Denominator note:** TrendForce's two percentages should **not** be divided into a formal intensity ratio. The wafer-input statement is scoped to HBM wafer input **among the top three suppliers**, while the bit-supply statement is framed against total DRAM bit supply. The pair is **consistent with** higher HBM manufacturing intensity, but the scope mismatch prevents a formal ratio or exact cross-share inference. The clean comparable physical anchor remains Micron's approximately **3×** same-node / same-bits HBM3E-to-DDR5 disclosure.[^4]
 
 This is the standard for future upgrades to the ledger:
 
-> **A missing global gap is acceptable; an uncomputed quantity that can already be closed is not.**
+> **Calculate only when the denominator closes; otherwise preserve the best bounded institutional signal and state what remains unmeasurable.**
 
 The next quantitative upgrade should occur only when a layer gains a same-unit demand/capacity pair or an auditable institutional balance metric. Until then, the ledger records the missing denominator rather than manufacturing one.
 

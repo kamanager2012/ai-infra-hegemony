@@ -366,13 +366,13 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 ---
 
-## 13A. 2026 Quantitative Gap Ledger：能往前算的一层，就不能永远停在“不可量化”
+## 13A. 2026 Public-Data Gap / Intensity Ledger
 
-上面的 readiness table 不能变成长期拒绝量化的借口。只要公开输入已经具备可用 denominator，本报告就应把有边界的量算出来，并把仍然缺失的部分单独列明。
+上面的 readiness table 不能变成长期拒绝结构化公开证据的借口。存在 same-unit demand/capacity pair 时就计算；只有 institutional balance / intensity signal 时就保留其精确 scope；缺 denominator 时则明确保持 not measurable。
 
-### Table 8.3 — 2026 Auditable Gap / Intensity Ledger
+### Table 8.3 — 2026 Public-Data Gap / Intensity Ledger
 
-| Layer / Metric | Cutoff 前公开输入 | 本报告计算 / 机构 balance | 状态 | 边界 |
+| Layer / Metric | Cutoff 前公开输入 | Bounded Output | 状态 | 边界 |
 |---|---|---|---|---|
 | HBM manufacturing intensity | TrendForce 预计 2026 年 HBM wafer input **在前三大供应商中**约占 total DRAM wafer input 的 **22%**，同时 HBM bit supply 预计约占 total DRAM bit supply 的 **9%**[^7] | 与 Micron same-node / same-bits **≈3×** physical trade ratio 联合读取 | **B 级 institutional intensity signal** | 两个 TrendForce 百分比的 scope 不完全一致，不能正式相除为 22/9 intensity ratio；也不是 HBM absolute supply gap |
 | Aggregate DRAM balance | TrendForce 预计 **2026 DRAM sufficiency ratio 约 −1% 到 −2%**[^8] | 机构 balance range 指向轻度 aggregate deficit | **B 级 institutional forecast** | 不是 HBM-specific gap；底层 demand/capacity volume 与 customer allocation 未公开 |
@@ -381,12 +381,12 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 | Networking | product topology 与 system spec | 只能做 workload-specific engineering ratio | **部分可量化** | 缺统一 deployment / utilization denominator |
 | Power / LPS | project-level secured / permitted / construction / energized state | 只能做 project delivery-state tracking | **项目级部分可量化** | IT-GW、generation GW、PPA MW、energized load、utilized load 仍是不同量 |
 
-**Source:** TrendForce institutional estimates + 本报告计算。[^7][^8]  
-**Denominator note：** TrendForce 的两个百分比**不能正式相除成 intensity ratio**。wafer-input 表述限定为前三大供应商中的 HBM wafer input，而 bit-supply 表述使用 total DRAM bit supply。两者仍共同指向同一个方向——HBM 对 wafer input 的吸收高于其 bit share——但真正同口径、可直接比较的 physical anchor 仍是 Micron approximately **3×** same-node / same-bits HBM3E-to-DDR5 披露。[^4]
+**Source:** TrendForce institutional estimates，并与 Micron first-party manufacturing-input anchor 联合读取。[^4][^7][^8]  
+**Denominator note：** TrendForce 的两个百分比**不能正式相除成 intensity ratio**。wafer-input 表述限定为前三大供应商中的 HBM wafer input，而 bit-supply 表述使用 total DRAM bit supply。两者与“HBM manufacturing intensity 更高”这一方向一致，但 scope mismatch 不允许正式计算 ratio，也不能做精确 cross-share inference。真正同口径、可直接比较的 physical anchor 仍是 Micron approximately **3×** same-node / same-bits HBM3E-to-DDR5 披露。[^4]
 
 今后升级这张 ledger 的标准是：
 
-> **全球 gap 暂时算不出来可以接受；已经能够闭合的量却不计算，不可以。**
+> **只有 denominator 闭合时才计算；否则保留最强的 bounded institutional signal，并明确哪些量仍不可测。**
 
 只有当某一层出现 same-unit demand/capacity pair，或出现可审计的 institutional balance metric，才把它升级为更强 quantitative output；否则继续明确记录缺失 denominator，而不是用 point estimate 填空。
 
