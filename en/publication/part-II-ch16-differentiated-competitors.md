@@ -132,7 +132,7 @@ NVIDIA therefore faces multi-layer erosion rather than one unified opponent.
 
 These changes can raise S1 relative to S2, but S1 and S2 are parallel conditional states rather than sequential stages.
 
-## 10. Current judgment
+## 10. Current view
 
 The incumbent semiconductor companies have neither disappeared nor formed a unified alliance.
 
