@@ -4,7 +4,7 @@
 
 在较小规模下，model company 是 compute tenant；到了 frontier scale，durable demand 本身可以成为 chip、data center、land 与 power 的 financing input。
 
-关系因此从：
+关系从：
 
 > model company → rent existing compute
 
@@ -34,7 +34,7 @@
 - 提前部署 custom silicon；
 - 提前配置项目融资。
 
-因此，模型公司正在成为上游资本形成的重要 leading indicator。
+model-company demand 已经成为上游 capital formation 的重要 signal。
 
 ---
 
@@ -134,7 +134,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 - transmission grid；
 - generation fleet。
 
-所以 Anchor Buyer 增强的是：
+Anchor Buyer 增强的是：
 
 > **demand-side bargaining + coordination + financing power**
 
@@ -292,7 +292,7 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 - model-company financing / revenue 压力；
 - capacity delivery 明显领先于 workload growth。
 
-因此，headline commitment 不是分析终点。
+headline commitment 不是分析终点。
 
 真正重要的是：
 
@@ -308,7 +308,7 @@ OpenAI Stargate 的 secured-capacity 与 construction milestones、Anthropic/AWS
 
 > **cloud architecture、custom silicon、data-center buildout、power procurement 与 infrastructure finance**
 
-因此，anchor-buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。这个信号的 leading-indicator value 目前由 Stargate、Anthropic/AWS 与 xAI Colossus 三个 documented cases 支持，仍需要在更多完整周期中重新检验。
+anchor-buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。这个信号的 leading-indicator value 目前由 Stargate、Anthropic/AWS 与 xAI Colossus 三个 documented cases 支持，仍需要在更多完整周期中重新检验。
 
 它们可以加速 AI-infrastructure capital formation；在 utilization 走弱时，也可能放大 stranded-capacity 与 duration-mismatch risk。
 
