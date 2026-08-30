@@ -18,6 +18,30 @@ AI infrastructure finance 已经覆盖 equity、private infrastructure、project
 
 > **哪一种资本承担哪一种久期、现金流和 residual-value risk。**
 
+## 1A. 资本是趋利的：五个观察维度解释资金为什么继续流入
+
+融资结构变复杂，本身不能被写成泡沫证据。资本在各自 mandate 下追求的是更高的**风险调整后回报（Risk-Adjusted Return）**，而不同类型资本会主动选择 AI value chain 中完全不同的位置。
+
+对 AI infrastructure，至少需要把五个维度分开观察：
+
+1. **市场规模 / Opportunity Set（TAM）。** 足够大的潜在现金流空间可以支持更大资本形成，但 TAM 只是机会边界，不是 realized revenue、utilization 或 cash flow。
+2. **一级市场 / Pre-IPO / Strategic Capital。** VC、private capital、sovereign capital 与 strategic equity 反映资本愿意在成熟现金流出现前为 option value 出资；战略投资还可能同时服务于 customer、distribution、supply 或 ecosystem position，因此不能把它当纯被动估值信号。
+3. **市场地位（Market Position）。** switching cost、distribution、scarce-resource access、customer concentration 与 bargaining power 决定资本预期某家公司或某一层能留下多少 economic rent。
+4. **销售利润与真实经营经济性。** revenue growth、gross / operating margin、free cash flow、unit economics 与 cash conversion 用来检验“市场地位”是否真正变现。
+5. **股票市值 / Public-Market Valuation / Cost of Capital。** market cap、equity multiple、debt spread 与融资可得性会改变企业发股、发债、并购、人才激励、供应链预付款与 infrastructure support 的能力。**Market cap 不是现金，高估值也不证明未来利润；它改变的是可执行融资选择集。**
+
+这五个维度可以形成反馈，但不是必然向上的阶梯：
+
+> **更大 opportunity set → 一级 / 战略资本 → capability 与 scale → 更强 market position → profit / FCF → 更低或更灵活的 capital cost → 更强再投资能力**
+
+当底层 cash flow 能够验证这条链时，资本会强化领先者；当 monetization、market position 或 financing condition 变化时，这条链也可以快速反向。
+
+这也是为什么 private credit、SPV、infrastructure fund 或 seller-assisted financing 不能被自动写成“晚周期危险信号”。真正的问题是：
+
+> **这些结构是在通过 duration matching 与 risk allocation 提高风险调整后回报，还是只是在用 refinancing / support 掩盖弱经济性？**
+
+---
+
 ## 2. Asset-Light Platform 与 Heavy Infrastructure 具有不同 Return Structure
 
 NVIDIA 的典型特征是 high system margin、strong cash generation 与相对较低直接 fixed-asset intensity。
