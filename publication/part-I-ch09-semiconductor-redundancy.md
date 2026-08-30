@@ -68,6 +68,26 @@ ASML 的公开出口管制说明给出了一个可审计边界：[^2][^3]
 
 所以“存储产能扩张”与“存储供应链完全自主”也是两个不同命题。
 
+### 3.2 Process Control 是独立设备层，不是 Lithography 的脚注
+
+Lithography 只是 manufacturing-control stack 的一部分。KLA FY2026 Form 10-K 把 inspection、metrology、data analytics、reticle / mask control、chemistry / materials quality control 与 advanced-packaging process control 明确放在从 R&D 到 volume production 的生产链中；同时指出 2 nm 等 leading-edge transition 会提高 process-control intensity。[^10]
+
+### Table 9.1 — 影响 Production Continuity 的 Manufacturing-Control Layers
+
+| Layer | Production role | 为什么会形成 continuity constraint |
+|---|---|---|
+| Lithography | patterning / critical-dimension formation | tool availability、imaging、overlay、service、qualification |
+| Inspection / metrology | defect detection、dimensional control、yield learning | 决定 process 能否 ramp 并维持 target yield |
+| Reticle / mask control | pattern-source quality assurance | 缺陷可能跨大量 wafer 放大 |
+| Deposition / etch | film formation 与 material removal | recipe stability 与 tool availability 是制程代际输入 |
+| Chemical / materials quality control | contamination / composition / incoming-material control | qualified materials 必须在长周期量产中保持稳定 |
+| Advanced-packaging process control | substrate / package inspection 与 yield management | packaging complexity 可以形成独立 HVM constraint |
+
+**Source:** ASML 与 KLA first-party disclosures.[^1][^10]  
+**Note:** 该表识别的是生产所需的 manufacturing-control functions，不代表某一家 vendor 垄断全部类别，也不把 vendor revenue share 转换成 physical capacity share。
+
+这会改变 resilience 的判断方式：一个地区即使获得 leading-edge lithography，也仍可能因为 inspection、metrology、reticle control、materials quality、etch/deposition、packaging control 或 field service 无法在规模化生产中闭合，而存在 production-continuity risk。
+
 ## 4. Material Qualification 是 Hidden Time Cost
 
 advanced node 对 contamination、particle、uniformity、defect density 与 long-term stability 极为敏感。
@@ -260,3 +280,5 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
 [^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
 [^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
+
+[^10]: KLA Corporation, FY2026 Form 10-K, semiconductor process control, inspection, metrology, reticle/mask, chemistry/materials quality control, advanced packaging, and 2 nm process-control intensity, https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000027/klac-20260630.htm

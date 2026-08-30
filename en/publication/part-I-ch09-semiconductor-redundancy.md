@@ -63,6 +63,26 @@ These variables determine whether new capacity can ramp on schedule, whether exi
 
 "Memory capacity is expanding" and "the memory supply chain is fully autonomous" are therefore different propositions.
 
+### 3.2 Process control is a separate equipment layer, not a footnote to lithography
+
+Lithography is only one part of the manufacturing-control stack. KLA's FY2026 Form 10-K describes inspection, metrology, data analytics, reticle / mask control, chemistry / materials quality control, and advanced-packaging process control as functions used from R&D through volume production; it also states that leading-edge transitions such as 2 nm increase process-control intensity.[^10]
+
+### Table 9.1 — Manufacturing-control layers that constrain production continuity
+
+| Layer | Production role | Why continuity matters |
+|---|---|---|
+| Lithography | patterning / critical-dimension formation | tool availability, imaging, overlay, service, qualification |
+| Inspection / metrology | defect detection, dimensional control, yield learning | determines whether a process can ramp and sustain target yield |
+| Reticle / mask control | pattern-source quality assurance | defects can propagate across large wafer volumes |
+| Deposition / etch | film formation and material removal | recipe stability and tool availability are process-generation inputs |
+| Chemical / materials quality control | contamination / composition / incoming-material control | qualified materials must remain stable across long production runs |
+| Advanced-packaging process control | substrate / package inspection and yield management | packaging complexity can become an independent HVM constraint |
+
+**Source:** ASML and KLA first-party disclosures.[^1][^10]  
+**Note:** This table identifies required manufacturing-control functions. It does **not** claim that one vendor monopolizes every category, nor does it convert vendor revenue share into physical capacity share.
+
+The resilience implication is important: a region can possess leading-edge lithography access and still face production-continuity risk if inspection, metrology, reticle control, materials quality, etch/deposition, packaging control, or field service cannot be qualified and sustained at scale.
+
 ## 4. Material qualification is a hidden time cost
 
 Advanced nodes are highly sensitive to contamination, particles, uniformity, defect density, and long-term stability.
@@ -257,3 +277,5 @@ The semiconductor supply chain of the next decade is therefore more likely to co
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
 [^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
 [^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
+
+[^10]: KLA Corporation, FY2026 Form 10-K, semiconductor process control, inspection, metrology, reticle/mask, chemistry/materials quality control, advanced packaging, and 2 nm process-control intensity, https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000027/klac-20260630.htm
