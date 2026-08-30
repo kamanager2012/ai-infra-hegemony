@@ -36,7 +36,7 @@ UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI f
 
 > **AI literacy 不能退化成 prompt 技巧；长期有效能力必须同时包含判断、责任、系统理解、应用设计与验证。**
 
-因此，如果 curriculum 只围绕当前 dominant model 或 tool，很快就会过时；system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
+因此，如果 curriculum 只围绕当前 dominant model 或 tool，很可能很快过时；system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
 
 ## 3. Layer One：AI Literacy
 
@@ -98,7 +98,7 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 如果 drafting、routine coding、basic research 等入门任务被 agent 大量完成，学生需要更早接触 system debugging、verification、architecture、real-world project 与 responsibility。
 
-否则学校会继续把大量训练时间投入最容易被自动化的 task。
+否则，教育体系可能继续把大量训练时间投入最容易被自动化的 task。
 
 ## 11. Assessment 必须测量 Verification 与 Responsibility
 
@@ -122,9 +122,9 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 > **让 AI 成为技术与专业教育中的 systems capability，同时把 verification、portability 与 responsibility 提升为核心学习目标。**
 
-最耐久的人才优势不会仅仅来自“最会调用模型”。
+最耐久的人才优势不太可能仅仅来自“最会调用模型”。
 
-它来自理解 system、验证结果、评估 economics、跨 stack 迁移，以及对现实结果承担责任的能力。
+它更可能来自理解 system、验证结果、评估 economics、跨 stack 迁移，以及对现实结果承担责任的能力。
 
 ## References
 
