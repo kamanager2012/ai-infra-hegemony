@@ -10,7 +10,7 @@ Advanced packaging therefore acts as a **quantity gate**:
 
 The relevant industrial variable is not only how many leading-edge wafers can be fabricated, but how many qualified systems can pass through the packaging/integration layer in the same delivery window.
 
-## 2. Tightness is first-party observable; revenue labels still need denominator discipline
+## 2. First-party evidence establishes tightness; revenue labels still need denominator discipline
 
 TSMC's public statements are sufficient to establish advanced-packaging tightness:[^1][^2]
 
@@ -22,9 +22,9 @@ Revenue disclosures must retain their original year-specific labels:
 - 4Q24 transcript: **advanced packaging and testing >8% of revenue**;
 - 4Q25 transcript, using the company's corrected wording: **advanced packaging slightly over 10% of 2025 revenue**.[^5]
 
-These labels are not perfectly identical. This report therefore does **not** treat >8% → >10% as a strict same-denominator time series, nor does it rewrite the 2025 "advanced packaging" figure back into "advanced packaging + testing."
+These labels are not perfectly identical. The >8% and >10% figures are therefore **not** treated as a strict same-denominator time series, nor is the 2025 "advanced packaging" figure rewritten back into "advanced packaging + testing."
 
-## 3. Tightness is observable; customer allocation is not
+## 3. Customer allocation remains undisclosed
 
 TSMC public material supports the following: advanced packaging is tight, CoWoS is an important part of that system, and packaging tightness is limiting customer growth.
 
