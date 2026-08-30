@@ -116,7 +116,7 @@ Different regions continue to differ in node mix, product mix, packaging, workfo
 
 A TSMC fab in another country primarily increases **geographic redundancy**.
 
-It does not automatically create:
+It does not by itself create:
 
 - foundry supplier redundancy;
 - EDA / equipment redundancy;
@@ -198,7 +198,7 @@ The AI-infrastructure cycle and industrial-policy cycle are therefore increasing
 
 ## 9. Geographic redundancy is not full localization
 
-A regional supply stack has to be tested across:
+A regional supply stack must be tested across:
 
 - equipment / service;
 - materials;
@@ -210,7 +210,7 @@ A regional supply stack has to be tested across:
 - workforce;
 - customer qualification.
 
-Localizing one layer reduces dependency in that layer only. It does not automatically close the other risks.
+Localizing one layer reduces dependency in that layer only. It does not by itself close the other risks.
 
 This is why the frontier-system resilience of China, the United States, Europe, or Japan cannot be summarized with one localization percentage.
 
