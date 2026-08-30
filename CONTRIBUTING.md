@@ -4,7 +4,7 @@ This repository welcomes factual corrections, source repairs/upgrades, mechanism
 
 The Chinese 32-chapter formal report on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
 
-**Formal-text freeze:** the 32-chapter bilingual report has been frozen since **2026-08-29**, with evidence/retrieval cutoff **2026-08-28**. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
+**Formal-text freeze:** the 32-chapter bilingual report was most recently refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The August 30 pass was limited to validated definition-level corrections and did not change the S2 baseline judgment or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
 
 ## Start with these files
 
@@ -45,22 +45,6 @@ A useful challenge identifies where the causal chain breaks:
 A strong counterargument looks like:
 
 > If variable A changes, mechanism B no longer holds; scenario C should therefore be weakened.
-
-## Local validation
-
-Before submitting a PR, run the local gates that must stay green:
-
-```bash
-python3 scripts/check-links.py
-python3 scripts/check-publication-editorial.py
-python3 scripts/check-publication-numeric-claims.py
-python3 scripts/check-publication-rights.py
-python3 scripts/check-required-sources.py
-python3 scripts/check-research-numeric-claims.py
-python3 scripts/recompute_models.py
-```
-
-`scripts/check-external-links.py` verifies the critical external evidence URLs against the live web. Some publishers block automated access (SEC EDGAR and openai.com return HTTP 403 to datacenter IPs), so run it from an environment where those sites are reachable, and treat 403/5xx responses as a signal for browser verification rather than automatically as dead links.
 
 ## Pull requests that are useful
 
@@ -106,7 +90,7 @@ After the formal-text freeze, when a permitted material correction or evidence r
 
 中文 `main` 的 32 章正式报告是事实、证据等级与分析范围的 source of truth。英文版应与同一研究状态同步维护。
 
-**正式正文冻结：**32 章中英文正式报告自 **2026-08-29** 起冻结，证据/检索截止日为 **2026-08-28**。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
+**正式正文冻结：**32 章中英文正式报告最近一次于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。8 月 30 日只处理已经验证的定义级问题，没有改变当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
 
 ## 先看这些文件
 
@@ -147,22 +131,6 @@ After the formal-text freeze, when a permitted material correction or evidence r
 最有价值的反方不是“我不同意”，而是：
 
 > 在变量 A 改变后，机制 B 不再成立，因此情景 C 应下调。
-
-## 本地验证
-
-提交 PR 前，请运行以下保持绿色的本地门禁：
-
-```bash
-python3 scripts/check-links.py
-python3 scripts/check-publication-editorial.py
-python3 scripts/check-publication-numeric-claims.py
-python3 scripts/check-publication-rights.py
-python3 scripts/check-required-sources.py
-python3 scripts/check-research-numeric-claims.py
-python3 scripts/recompute_models.py
-```
-
-`scripts/check-external-links.py` 用于对关键外部证据 URL 做联网验证。部分发布方会拦截自动访问（SEC EDGAR 与 openai.com 对数据中心 IP 返回 HTTP 403），因此请在能访问这些站点的环境中运行，并把 403/5xx 视为需要浏览器复核的信号，而不是直接判定为死链。
 
 ## 可以提的 PR
 
