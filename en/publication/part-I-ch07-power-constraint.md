@@ -78,7 +78,7 @@ The project numbers above do not share one physical identity. Generation MW/MWe,
 |---|---:|---|
 | Crane / Microsoft | ~835 MW | restart + regulatory process |
 | Talen / AWS | up to 1,920 MW | revised-PPA transition / ramp |
-| Kairos / Google | 50 MWe in 2030; up to 500 MWe by 2035 | long-duration development |
+| Kairos / Google | up to 50 MWe starting in 2030; up to 500 MWe by 2035 | long-duration development |
 | PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / future phased buildout from 2028 |
 
 **Source:** Constellation, Talen Energy, Kairos Power / Google, and NVIDIA.[^2][^3][^4][^5][^7]  
