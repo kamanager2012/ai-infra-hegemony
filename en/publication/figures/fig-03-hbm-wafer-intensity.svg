@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">Figure 3 — HBM3E wafer-supply intensity versus DDR5</title><desc id="desc">A relative-index bar chart showing DDR5 at one and HBM3E at approximately three under same-node and same-bits conditions from Micron's disclosure.</desc>
+<rect width="1400" height="760" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:40px;font-weight:700}.s{font-size:23px;fill:#444}.lab{font-size:28px;font-weight:700}.v{font-size:34px;font-weight:700}.n{font-size:18px;fill:#555}.bar{fill:#444}.axis{stroke:#222;stroke-width:2}</style>
+<text x="75" y="70" class="t">HBM3E uses materially more wafer supply per bit</text>
+<text x="75" y="110" class="s">Relative wafer-supply index under Micron's same technology node / same number of bits boundary</text>
+<line x1="180" y1="590" x2="1250" y2="590" class="axis"/>
+<rect x="300" y="430" width="260" height="160" class="bar"/><text x="430" y="630" class="lab" text-anchor="middle">DDR5</text><text x="430" y="405" class="v" text-anchor="middle">1.0×</text>
+<rect x="820" y="110" width="260" height="480" class="bar"/><text x="950" y="630" class="lab" text-anchor="middle">HBM3E</text><text x="950" y="88" class="v" text-anchor="middle">≈3.0×</text>
+<text x="700" y="682" class="n" text-anchor="middle">Source: Micron Technology, FY24 Q2 Prepared Remarks (2024-03-20).</text>
+<text x="700" y="712" class="n" text-anchor="middle">Boundary: physical wafer-supply trade ratio at the same node and same bits; not a price multiple and not a permanent ratio for every HBM generation.</text>
+</svg>
