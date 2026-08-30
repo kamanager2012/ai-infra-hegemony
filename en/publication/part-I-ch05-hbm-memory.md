@@ -22,6 +22,10 @@ This evidence supports the following conclusions:
 
 It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an immutable "3:1 law" for every fab and every HBM generation. Micron's public statement on HBM4 is only that the trade ratio is expected to rise further; a specific HBM4/HBM4E ratio still requires future vendor disclosure.
 
+![Figure 3 — HBM3E wafer-supply intensity versus DDR5](figures/fig-03-hbm-wafer-intensity.svg)
+
+**Figure 3 note:** Micron first-party physical trade ratio under the same-node / same-bits boundary. The relative index is not a price multiple and must not be extrapolated mechanically to later HBM generations.
+
 ## 3. The 51% forecast uses a different denominator
 
 TrendForce **forecasts** that **HBM + RDIMM together will account for roughly 51% of 2026 DRAM bit supply**.[^4] This B-grade institutional forecast must retain three boundaries:
