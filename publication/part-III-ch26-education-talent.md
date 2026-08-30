@@ -86,7 +86,7 @@ frontier AI 需要 accelerator、HBM、network、distributed computing、compile
 
 robotics / Physical AI 同时需要 control、mechanics、sensor、embedded compute、AI 与 safety。
 
-如果 Physical AI 从 demo 扩大到 production deployment，对能够把 model capability 与 physical-world reliability、safety、manufacturing economics 连接起来的 system engineer 的需求会提高。
+未来一种稀缺技能，很可能是把 model capability 与 physical-world reliability 连接起来的能力。
 
 ## 9. Power / Cooling / Operations 属于 Talent Stack
 
