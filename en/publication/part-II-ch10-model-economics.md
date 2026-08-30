@@ -146,7 +146,7 @@ Whether long-duration compute commitments remain aligned with real workload grow
 
 The final variable links directly to the Anchor Compute Buyer mechanism developed in Chapter 13.
 
-## 10. Current judgment
+## 10. Current view
 
 As of 2026, a more defensible description is:
 
