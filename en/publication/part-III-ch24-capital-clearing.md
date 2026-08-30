@@ -12,6 +12,8 @@ S4 Capital Hard Landing requires synchronized deterioration across multiple indu
 
 ## 2. Five classes of clearing signals
 
+These signal families operate on different lead/lag clocks. **Market Clearing, Utilization / Revenue, Forward Commitment, and Demand Quality / Financing can deteriorate before financial statements recognize losses; Accounting is usually a lagging confirmation / severity signal.** The framework therefore does not wait for impairment before increasing S4 weight.
+
 ### 2.1 Accounting
 
 The slowest but hardest evidence comes from formal recognition:
@@ -72,6 +74,8 @@ NVIDIA's public commitment path rose from **US$95.2B** on 2026-01-25 to **US$119
 The FY27 Q2 10-Q states that the latest commitments primarily relate to memory and manufacturing facilities required for data-center infrastructure systems.
 
 The current trajectory looks more like continued forward resource reservation than broad cancellation.
+
+**That statement only rejects the claim that broad cancellation has already occurred; it does not establish healthy independent end demand, healthy buyer ROI, or high financing quality.** Forward commitments must be read together with Section 7 on Demand Quality / Supplier-Assisted Financing.
 
 ## 3. Chapter 19 owns the CapEx denominator; this chapter tracks whether direction reverses
 
