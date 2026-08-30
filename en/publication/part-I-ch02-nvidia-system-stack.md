@@ -22,6 +22,10 @@ This changes how competition must be measured. In the add-in-card era, FLOPS, me
 
 A cheaper ASIC die therefore does not automatically imply a cheaper production AI system.
 
+![Figure 1 — The competitive unit is the system stack](figures/fig-01-system-stack.svg)
+
+**Figure 1 note:** Report framework. The figure summarizes the analytical unit developed across this chapter and Chapters 8, 12, 19, and 32; it is not a market-share estimate or a claim that one firm controls every layer.
+
 ## 2. NVLink / NVSwitch internalizes scale-up communication
 
 Frontier-model training is not limited by single-GPU compute alone. Tensor parallelism, pipeline parallelism, expert parallelism, and collective communication push performance toward bandwidth, topology, synchronization, and collective implementation.
