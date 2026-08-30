@@ -279,6 +279,10 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 第一层不要求所有器件、设备和材料都来自国内；第二层才要求更高程度的 upstream continuity。
 
+![图 11 — Production-Grade Parallel Stack 与 Autonomous Frontier Closure](figures/fig-11-china-closure-gates.svg)
+
+**图 11 Note：** 本报告 closure-test framework。Production-grade substitution 不要求每个 component 都来自国内；Autonomous Frontier Closure 进一步要求 critical external inputs 受限时仍具备跨 generation 的 manufacturing continuity 与 infrastructure / capital continuity。
+
 ### 11.1 Production-Grade Parallel Stack 的七个 Gate
 
 1. accelerator / compute 可规模交付；
