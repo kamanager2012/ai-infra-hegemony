@@ -356,7 +356,7 @@ Multiple causally independent signal families deteriorate broadly and persistent
 
 These states are not sequential stages and do not carry fixed probabilities.
 
-The variables that will determine the 2030/2036 structure include:
+The variables most likely to shape the 2030/2036 structure include:
 
 - supply elasticity;
 - HBM / packaging / power tightness;
