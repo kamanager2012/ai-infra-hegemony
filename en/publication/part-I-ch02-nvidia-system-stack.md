@@ -32,7 +32,7 @@ That does not prove Ethernet-based alternatives are inherently incapable of subs
 
 > A challenger must replace not one GPU, but the production capability created by **compute + memory + in-domain interconnect + the software execution model**.
 
-For that reason, this report does not use unverified nanosecond-level latency comparisons or treat promotional benchmarks as independent measurements. The relevant evidence is production workload behavior: post-migration throughput, utilization, engineering cost, and reliability.
+For that reason, unverified nanosecond-level latency comparisons are excluded, and promotional benchmarks are not treated as independent measurements. The relevant evidence is production workload behavior: post-migration throughput, utilization, engineering cost, and reliability.
 
 ## 3. CUDA / PTX is a cross-generation software asset
 
@@ -112,7 +112,7 @@ NVIDIA does not directly manufacture every critical scarce layer. It still depen
 
 Strong platform power therefore does not make physical supply fully endogenous. A mismatch in TSMC capacity, HBM, advanced packaging, or power can constrain next-generation delivery.
 
-This is why the report separates **Scarce-layer Value Capture** from a simple market-share monopoly framework. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
+This distinction separates **scarce-layer value capture** from a simple market-share monopoly framework. A system platform can have strong coordination and bidding power while remaining constrained by the supply elasticity of external physical layers.
 
 ## 7. The relevant competitive challenge is a second system stack
 
@@ -142,7 +142,7 @@ Successful cloud custom silicon does not automatically relieve upstream physical
 
 ## 7A. Reported Hugging Face transaction: platform power may extend from runtime into developer distribution
 
-On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^6] As of this report's evidence cutoff on **August 28, 2026**, this report had not obtained a formal NVIDIA or Hugging Face announcement confirming closing, final transaction conditions, or regulatory approval. It is therefore recorded as a **reported transaction**, not as a completed consolidation fact.
+On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^6] At the **August 28, 2026** evidence cutoff, no formal NVIDIA or Hugging Face announcement had confirmed closing, final transaction conditions, or regulatory approval. It is therefore recorded as a **reported transaction**, not as a completed consolidation fact.
 
 Hugging Face is strategically relevant because it is not merely a model-download website. Its official product surface spans the Hub, models, datasets, Spaces, Transformers, and inference/deployment products, connecting model discovery, asset distribution, tooling, evaluation, and deployment.[^7]
 
@@ -158,7 +158,7 @@ That creates a potential reinforcing loop:
 
 **hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand.**
 
-This report treats it as a **developer-distribution / vertical-foreclosure risk** to monitor, not as a new load-bearing theory, and does not pre-label it as completed software monopoly.
+It is therefore treated as a **developer-distribution / vertical-foreclosure risk** to monitor, not as a new load-bearing theory or as evidence of completed software monopoly.
 
 The key question is not whether non-NVIDIA hardware remains technically present on Hugging Face. It is whether ownership changes lead to persistent and measurable bias in the platform's defaults:
 
@@ -207,7 +207,7 @@ It is:
 
 > **NVIDIA currently has the most mature commercial general-purpose AI system stack; hyperscalers have built a real second system-stack path, but the extent of substitution must be validated through production workloads, migration cost, utilization, and upstream resource dependence.**
 
-That is the starting point for the report's analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
+That is the starting point for the analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
 
 ## 10. What would change the view
 
