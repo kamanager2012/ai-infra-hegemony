@@ -343,7 +343,7 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 [^15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
 [^16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
 [^17]: ASML, 2024 statement on updated export restrictions covering additional advanced manufacturing technologies, metrology, and software, https://www.asml.com/en/news/press-releases/2024/asml-expects-impact-of-updated-export-restrictions-to-fall-within-outlook-for-2025
-[^18]: Shanghai Stock Exchange, listing announcement for CXMT (688825), 2026-07-24; trading commenced 2026-07-27, https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
+[^18]: Shanghai Stock Exchange, listing announcement for CXMT (688825), 2026-07-24; trading commenced 2026-07-27, https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260724_10826610.shtml
 
 
 [^19]: UNISOC, M6870 official product page, explicitly listing TSMC 6nm EUV, https://www.unisoc.com/en/solution/IDMetaverseUS/M6870
