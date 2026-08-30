@@ -2,7 +2,7 @@
 
 ## 1. Resilience is a system-continuity problem
 
-Frontier-AI supply security is not a map of fabs or corporate nationalities. The relevant test is whether the industrial chain can **keep producing, qualifying, servicing, repairing, and scaling through disruption**.
+Frontier-AI supply security cannot be inferred from a map of fabs or the nationality of the firms involved. The relevant test is whether the industrial chain can **keep producing, qualifying, servicing, repairing, and scaling through disruption**.
 
 The physical supply chain of a frontier AI system includes at least:
 
@@ -185,7 +185,7 @@ toward:
 
 > **higher-cost strategic redundancy**
 
-This is not simply an efficiency failure. It is a changed cost function under a changed security objective.
+This is not simply an efficiency loss. It is a different cost function under a different security objective.
 
 ## 8. AI demand accelerates geographic restructuring
 
