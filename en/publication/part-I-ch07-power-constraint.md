@@ -1,18 +1,20 @@
-# Part I · Chapter 7: From 120 kW Racks to GW-Scale Power Constraints
+# Part I · Chapter 7: Time-to-Power — From Rack Density to Deployable AI Capacity
 
-## 1. Why power has moved from operating cost to infrastructure quota
+## 1. The power question is deployable capacity, not electricity price
 
-Once rack-scale AI systems reach roughly **120 kW/rack**, electricity is no longer merely an operating expense. It becomes a constraint on whether systems can be deployed and utilized on schedule.[^1]
+At roughly **120 kW/rack**, power stops behaving like a conventional operating-cost input and starts behaving like a deployment constraint.[^1]
 
-NVIDIA's official documentation for GB200/GB300 NVL72-class racks gives an approximately **120 kW/rack** full-rack power figure. A clearly labeled **D-grade scenario calculation** is therefore:
+A D-grade stress conversion makes the scale visible:
 
 > 500 racks × 120 kW/rack = **60 MW of rack-level full-load power**
 
-This is an order-of-magnitude calculation. It does not mean any specific campus has deployed 500 racks, and it does not include complete facility overhead. What it demonstrates is that deployments measured in hundreds of racks quickly create local loads measured in tens of MW, pulling substations, transmission, permitting, cooling, and firm generation into the delivery chain.
+This does not describe any specific campus and excludes facility overhead. It shows why hundreds of dense racks quickly pull **powered land, interconnection, substations, transformers, cooling, firm generation, and permitting** into the same delivery chain as chips and HBM.
 
-The critical physical layers of AI infrastructure therefore extend beyond wafers, HBM, and advanced packaging to include **powered land / grid interconnection / substations / firm MW / cooling**.
+The relevant industrial variable is therefore:
 
-## 2. Power analysis requires a state machine, not headline-GW addition
+> **Time-to-Power: how long it takes to move from project intent to energized, usable capacity for a real AI workload.**
+
+## 2. Power requires a delivery-state model, not headline-GW arithmetic
 
 Power / LPS projects should be separated into six states:
 
@@ -22,7 +24,7 @@ A 1 GW PPA cannot be rewritten as "1 GW of AI compute online." A secured LPS pos
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
-## 3. Three representative paths operate on very different clocks
+## 3. Representative projects sit on different delivery clocks
 
 ### 3.1 Microsoft / Constellation: restarting an existing ~835 MW nuclear asset
 
@@ -62,7 +64,7 @@ Planned capacity is expected to come online in phases beginning in **2028**.
 
 This makes secured LPS a more direct precursor to deployable compute than a generic headline PPA. But **4.25 IT-GW is still design / planned capacity, not 2026 energized or utilized AI load**.
 
-## 4. Different Power / LPS projects cannot be added into one "active AI power" number
+## 4. Project capacities cannot be summed into active AI load
 
 The project numbers above do not share one physical identity. Generation MW/MWe, PPA capacity, and IT-GW design capacity sit at different layers and cannot be added into one active AI-load figure.
 
@@ -80,7 +82,7 @@ The project numbers above do not share one physical identity. Generation MW/MWe,
 
 These pathways represent different infrastructure mechanisms: restarting an existing large generator, restructuring a large-load PPA, developing next-generation nuclear supply, and securing land + power + shell for future AI-factory buildout. Their maturity, units, clocks, and utilization dates are not directly comparable.
 
-## 5. Grid queues are evidence of congestion, not a measure of "AI power shortage"
+## 5. Grid queues measure friction, not AI demand
 
 Berkeley Lab's Queued Up data show that active U.S. generation/storage interconnection requests peaked near **2,600 GW at the end of 2023** and stood at approximately **2,061 GW at the end of 2025**.[^6]
 
@@ -90,7 +92,7 @@ The narrower supported conclusion is that **interconnection and transmission bui
 
 What matters for AI system delivery is how many MW a specific region can actually deliver inside a specific hardware-generation window—not the total GW sitting in a national queue.
 
-## 6. Time-to-Power is becoming a system-competition variable
+## 6. Time-to-Power is now a system-competition variable
 
 Advanced chips can advance on monthly and quarterly product clocks. Power infrastructure often advances on multi-year clocks.
 
@@ -106,7 +108,7 @@ Hyperscaler competition is therefore not only about who acquires more accelerato
 
 The 50 / 100 / 500 MW values are scenario-scale markers used to illustrate Time-to-Power; they are not disclosed project capacities.
 
-## 7. Power and semiconductor bottlenecks can rotate
+## 7. Power can become the next bottleneck after semiconductor supply eases
 
 AI infrastructure does not have one permanent bottleneck.
 
@@ -118,7 +120,7 @@ The reverse is also possible. If power infrastructure is built far ahead of work
 
 "Power is now a core constraint" and "power is not yet the sole dominant bottleneck" can therefore both be true.
 
-## 8. Power contracts and hardware operate on mismatched durations
+## 8. Power contracts and compute assets run on different duration clocks
 
 AI servers have shorter technological and economic lives than major power assets and long-duration PPAs.
 
@@ -130,7 +132,7 @@ In high-demand scenarios, long-duration power access can be a moat. In S4 Capita
 
 Power contracts therefore need to be evaluated through duration, ramp, take-or-pay / cancellation terms, project execution, utilization, and residual value.
 
-## 9. Current judgment: when would power become the dominant bottleneck?
+## 9. When does power become the dominant constraint?
 
 Power should be upgraded from "one of the core constraints" to "the dominant constraint" only if several signals appear together:
 
@@ -145,7 +147,7 @@ As of August 2026, public evidence supports a narrower conclusion:
 
 > **Power has joined HBM and advanced packaging as a core physical constraint, but the evidence is not yet sufficient to show that power alone dominates the entire AI-infrastructure expansion rate.**
 
-## 10. Falsification boundary: what would force this chapter to change
+## 10. What would change the view
 
 The judgment that power / LPS is a core AI-infrastructure constraint should be downgraded if the following conditions persist:
 
