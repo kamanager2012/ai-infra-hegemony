@@ -199,7 +199,7 @@ The NVIDIA system moat should not be judged from product-launch count or single-
 
 If several of these changes persist, NVIDIA's platform power could move from "system-level pricing power" toward a more negotiable "integration advantage." If migration remains expensive while in-platform generational upgrades stay low-friction, the system moat remains intact.
 
-## 9. Current judgment
+## 9. Current view
 
 As of August 2026, the most accurate description is neither "GPU competition is over" nor "cloud ASICs have replaced NVIDIA."
 
