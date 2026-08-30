@@ -1,6 +1,6 @@
-# Part III · 第19章：AI Infrastructure Capital Formation、Duration Mismatch 与 Utilization Test
+# Part III · 第19章：AI Infrastructure Capital Formation——Duration Mismatch、Utilization 与 Demand Duration
 
-## 1. 核心问题是 Capital Formation，不是一个 Headline CapEx 总额
+## 1. Capital-Cycle Question 不是一个 Headline CapEx Total
 
 当前产业显然处于高投资状态。真正需要回答的是：**这些资本形成了什么资产、由谁承担、经济寿命有多长，以及 productive workload 是否增长得足够快。**
 
