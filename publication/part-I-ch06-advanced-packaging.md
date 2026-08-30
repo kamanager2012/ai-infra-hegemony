@@ -64,7 +64,7 @@ TrendForce 对 2025 CoWoS demand 的研究将 NVIDIA 列为最大需求客户，
 - >60% 是 2026 actual；
 - NVIDIA 对 CoWoS 拥有排他权利。
 
-Demand concentration 与 actual allocation 是两个不同问题。
+更稳健的解释是：**高度集中的 demand 有真实 institutional anchor，但 actual allocation 仍需要 first-party disclosure。**
 
 ---
 
@@ -102,11 +102,9 @@ advanced packaging 则同时依赖：
 
 因此，完整 AI system 的交付需要多个环节同时成熟。
 
-这使 advanced packaging 更容易成为一种**数量闸门**：
+Leading-edge logic 只是 frontier system 的一个 prerequisite；advanced packaging 可以成为决定完整 systems 实际可交付数量的 **quantity gate**。两者都重要，但 physical unit 与 expansion clock 不同。
 
 > **有足够先进逻辑芯片，不代表能在同一时间窗口内组装出足够数量的完整 AI systems。**
-
-所以分析 AI system supply 时，不能把 front-end wafer capacity 与 back-end packaging capacity 放进同一个分母。
 
 ---
 
@@ -196,22 +194,16 @@ frontier AI parallel stack 不能只用 logic node 判断。
 
 截至 2026 年 8 月，最稳健的结论是：
 
-- TSMC 已一手确认 advanced-packaging tightness；
-- packaging tightness 已成为 customer growth constraint；
-- NVIDIA 高 CoWoS demand concentration 有 B 级机构锚；
-- customer-level actual allocation 仍未公开；
-- cloud custom systems 仍会竞争相同上游资源；
-- packaging 是独立于 leading-edge logic 的 frontier-system closure gate。
+- TSMC 已用 first-party evidence 确认 advanced-packaging tightness；
+- packaging tightness 已成为 customer-growth constraint；
+- TrendForce 为 NVIDIA 高度集中的 CoWoS demand 提供 B 级 institutional anchor；
+- TSMC 仍未披露 customer-level allocation；
+- cloud custom systems 仍然竞争相同的 upstream scarce resources；
+- packaging 仍是独立于 leading-edge logic 的 frontier-system closure gate。
 
-因此，advanced packaging 当前应被视为 AI infrastructure 的核心 scarce layer 之一。
+因此，在当前 AI-infrastructure baseline 中，advanced packaging 仍应被视为核心 scarce layer 之一。
 
-如果未来出现以下变化，本章判断应下调：
-
-- TSMC 不再把 packaging 描述为增长约束；
-- lead time 持续显著缩短；
-- capacity expansion 明显快于需求增长；
-- customer access 更分散；
-- HBM / substrate / packaging integration 的 supply elasticity 显著提高。
+如果 TSMC 不再把 packaging 描述为 growth constraint、lead time 明显下降、capacity expansion 持续快于 demand growth、customer access 更分散，同时 HBM/substrate/packaging-integration 的 supply elasticity 显著改善，本章判断应被下调。
 
 ## References
 
