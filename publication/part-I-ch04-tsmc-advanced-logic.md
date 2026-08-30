@@ -1,17 +1,17 @@
 # Part I · 第4章：Advanced Logic Allocation——TSMC、N2 与下一单位 Qualified Capacity
 
 
-## 1. 分析单位是 Qualified Incremental Capacity，不是 Wafer-Price Headline
+## 1. 分析单位是 Qualified Incremental Capacity
 
-leading-edge logic 是 frontier AI 的必要条件，但不是充分条件。真正的 production system 还必须同时闭合 HBM、packaging、interconnect、power 与 software。
+leading-edge logic 是 frontier AI 的必要条件，但不是充分条件。真正的变量不是“谁能拿到先进节点”，而是：**谁能在需要的时间和规模上持续获得 qualified incremental capacity，并让 HBM、packaging、interconnect、power 与 software 同步完成 system conversion。**
 
 因此先进制造真正需要回答的是：
 
-> **谁能在正确时间获得足够的 N2/N2P/A16-class qualified capacity，并同时让其余 system stack 准备就绪？**
+> **谁能持续、按期获得足够 N2/N2P/A16-class qualified capacity，并避免其他 physical layer 成为新的 binding constraint？**
 
 市场传闻中的 wafer price 回答不了这个问题。真正相关的是 volume、qualification、delivery timing、roadmap continuity 与 cross-layer readiness。
 
-## 2. TSMC Baseline：Capacity、Technology Mix 与 Platform Mix
+## 2. TSMC Baseline：Capacity、Node Mix 与 Platform Mix
 
 **Table 4.1 — TSMC 2025 产能、技术与平台收入结构**
 
@@ -64,7 +64,7 @@ TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
 
 同样，HPC 58% 是 platform revenue share，不是 wafer shipment share。
 
-## 4. N2 的战略价值来自 Launch Access 与 Delivery Scale
+## 4. N2 的战略价值来自 Launch Access、Scale 与 Continuity
 
 N2 的意义不只是 transistor density。竞争者真正关心：
 
@@ -93,7 +93,7 @@ N2 的意义不只是 transistor density。竞争者真正关心：
 
 这比用 50/60/70/80% 的假设比例模拟“不同客户获得多少未来产能”更适合作为正文分析。
 
-## 6. Allocation 是 Multi-Variable，不由 Customer Rank 决定
+## 6. Allocation 是 Multi-Variable，不是 Rank-Deterministic
 
 先进产能 allocation 更可能同时考虑：price、committed volume、contract duration、prepayment、credit quality、utilization certainty、roadmap stability、customer diversification 与 geopolitical risk。
 
@@ -109,7 +109,7 @@ TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoW
 
 这说明“leading-edge logic available”与“complete AI system deliverable”不是同一个问题。
 
-## 8. Foundry Revenue Share 不等于 Frontier Substitution
+## 8. Foundry Share 不等于 Frontier-System Substitution
 
 TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry **6.5%（excluding System LSI）**、SMIC **5.1%**。[^7]
 
