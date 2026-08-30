@@ -52,7 +52,7 @@ This case shows that regulation and commercial structure can change the delivery
 
 The Google/Kairos public timeline is much longer: **Hermes 2 up to 50 MWe in 2030**, followed by a fleet of **up to 500 MWe by 2035**.[^5]
 
-This is better understood as a long-duration supply option, industrial-learning path, and capacity hedge than as spot power that can be called on in 2026–2028.
+This is better understood as a long-duration supply option, an industrial-learning path, and a capacity hedge—not as near-term power available to AI campuses in 2026–2028.
 
 The near-term value of SMRs therefore lies mainly in future optionality; they should not be used to erase today's interconnection, transformer, and powered-site constraints.
 
@@ -120,7 +120,7 @@ That creates a variable comparable in importance to the chip roadmap:
 
 Projects with existing grid interconnection, powered land, substation / transformer capacity, firm generation, and executable permitting paths gain a timing advantage.
 
-Hyperscaler competition is therefore not only about who acquires more accelerators. It is also about an **illustrative deployment-scale question**:
+Hyperscaler competition is therefore not only about who acquires more accelerators. It is also about a **deployment-timing question at scale**:
 
 > **who can energize the next 50 MW / 100 MW / 500 MW of systems sooner.**
 
