@@ -1,4 +1,4 @@
-# Part IV · Chapter 32: Master View — What Determines AI Infrastructure Power, and What Would Change the View
+# Part IV · Chapter 32: Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View
 
 ## 1. Current baseline: S2 is the synthesis, not a second executive summary
 
@@ -12,7 +12,7 @@ Not yet. A small number of system platforms, especially NVIDIA, combine strong s
 
 ### Test B — Has AI/HPC resource absorption already forced structural exit across traditional end markets?
 
-Only partially. Non-AI Residual Capacity, Quantity Assurance, and product-mix pressure are visible in smartphones, PCs, game consoles, and other end systems. The evidence supports **repricing, configuration changes, product-mix polarization, and longer replacement cycles**; it does not yet establish terminal decline across smartphones, PCs, gaming, or other complete demand industries.
+Only partially. Non-AI Residual Capacity, Quantity Assurance, and product-mix pressure are visible in smartphones, PCs, game consoles, and other end systems. The evidence supports **repricing, configuration changes, product-mix polarization, and longer replacement cycles**; it does not yet establish terminal decline across the smartphone, PC, gaming, or other end-market ecosystems.
 
 ### Test C — Is the second stack already strong enough to break concentration?
 
@@ -48,7 +48,7 @@ Therefore:
 
 > **willingness to pay ≠ guaranteed quantity**
 
-The competition can consequently move from "who is willing to pay more?" toward "who can secure stable quantities, delivery timing, and system-level priority?"
+Competition can therefore shift from "who is willing to pay more?" toward "who can secure stable quantities, delivery timing, and system-level priority?"
 
 The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^13][^14]
 
@@ -60,7 +60,7 @@ Together they show that leading system-platform coordination is beginning to ext
 
 ## 3. Marginal capital formation is shifting toward AI/HPC
 
-One of the most important structural changes in 2026 is that marginal advanced-manufacturing and memory demand is becoming increasingly dependent on AI/HPC.
+One of the most important structural changes in 2026 is that the marginal economics of advanced manufacturing and memory are increasingly being driven by AI/HPC demand.
 
 In TSMC's 2Q26 platform revenue mix, HPC represented **66%** and smartphone **22%**. Advanced technologies at 7 nm and below represented **77%** of wafer revenue. TSMC also raised its 2026 capital budget to **US$60B–64B**, with continued investment in advanced processes, packaging, and testing.[^6]
 
@@ -76,7 +76,7 @@ The report describes this structure as a **Two-Speed Semiconductor Economy**:
 
 > **The AI Infrastructure Economy and the Traditional Device Economy share upstream resources but differ in willingness to pay, order duration, prepayment capacity, BOM constraints, and the ability to induce new capital formation.**
 
-Consumer electronics do not disappear. The structural change is that marginal-demand power is shifting toward hyperscalers, system-platform sellers, and Anchor Compute Buyers.
+Consumer electronics do not disappear. The structural change is that the ability to shape marginal investment is shifting toward hyperscalers, system-platform sellers, and Anchor Compute Buyers.
 
 ---
 
