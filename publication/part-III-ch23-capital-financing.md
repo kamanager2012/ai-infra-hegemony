@@ -127,7 +127,7 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 因此，seller-assisted financing 既可能加速供给形成，也可能提高 system-platform、anchor buyer 与 infrastructure developer 之间的风险耦合。
 
-### 6.1 Supplier-Assisted Demand 与 Financing Reflexivity 必须单独观察
+**Supplier-Assisted Demand 与 Financing Reflexivity 必须单独观察**
 
 NVIDIA 在 2026-08-26 FY27 Q2 earnings call 中进一步披露，公司已向 frontier AI labs 投资接近 **US$50B**，并表示还会对另一家 frontier lab 提供接近 **2 GW compute** 的 selective credit enhancement。[^5]
 
