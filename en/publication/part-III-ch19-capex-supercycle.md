@@ -25,7 +25,7 @@ The analysis starts from denominator identity, then moves to duration mismatch a
 | Meta | US$130–145B | Q2 guidance; includes finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
 
-**Source:** Microsoft FY26 Q4 earnings materials; Alphabet Q2 2026 company guidance as reported by Reuters (SEC Exhibit 99.1 separately supports Q2 actual results); Meta 2026 Q2 SEC Exhibit 99.1; and Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
+**Source:** Microsoft FY26 Q4 earnings conference call; Alphabet Q2 2026 company guidance as reported by Reuters (SEC Exhibit 99.1 separately supports Q2 actual results); Meta 2026 Q2 SEC Exhibit 99.1; and Amazon 2026 Q2 Form 10-Q.[^1][^2][^3][^4]  
 **Note:** Time windows and accounting treatments differ; the figures must not be mechanically added into a unified AI-hardware CapEx number.
 
 Taken together, these public disclosures indicate that infrastructure investment remains at elevated levels.
@@ -34,34 +34,35 @@ They cannot be mechanically added because three are guidance / expectations whil
 
 ## 2A. Corporate CapEx is only one funding channel
 
-By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx.
+By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx. NVIDIA announced memorandums of understanding with six large capital providers aimed at establishing independent compute-financing platforms and mobilizing **more than US$500B of third-party capital over time**.[^5] Separately, the PORTS-Pike structure combines secured land, power and shell (LPS), seller credit support, a **US$1.5B** NVIDIA investment in SB Energy, and a data center that SB Energy will build, own, and operate under a **20-year lease to OpenAI**.[^6]
 
-Relevant structures now include:
+These disclosures illustrate several financing channels that sit outside a simple hyperscaler-CapEx denominator:
 
 - operating and finance leases;
 - third-party infrastructure vehicles;
 - developer-owned data centers;
 - seller equity / credit support;
-- long-duration Anchor Buyer contracts;
+- long-duration customer / offtake contracts;
 - power and grid investment carried on separate balance sheets.
 
 The implication is:
 
 > **Hyperscaler CapEx remains a critical indicator, but it is no longer the complete denominator of AI-infrastructure capital formation.**
 
-The new compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.
+The announced compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.[^5][^6]
 
 ## 3. Duration mismatch is the core balance-sheet risk
 
 AI infrastructure is not a single server purchase.
 
-It combines assets with very different durations:
+It combines assets with very different duration clocks:
 
-- accelerators / servers: relatively short technology cycles;
-- networking: short-to-medium cycles;
-- data-center shells / cooling: long cycles;
-- substations / transmission: longer cycles;
-- long-duration PPAs / generation projects: potentially more than a decade.
+- accelerators / servers: relatively short technology-refresh cycles;
+- networking / cooling: intermediate infrastructure clocks;
+- data-center buildings: long-lived assets — Microsoft extended the estimated useful lives of its datacenters and office buildings from **15 to 25 years** effective at the start of FY27;[^1]
+- grid / generation / offtake: contract- and asset-specific, but often much longer-lived than compute — the Constellation / Microsoft Crane agreement, for example, is a **20-year PPA**.[^7]
+
+**Scope note:** These categories are duration classes, not universal useful-life assumptions for every operator or project.
 
 This creates a **duration mismatch** between technology iteration speed and infrastructure economic life.
 
@@ -173,7 +174,10 @@ A single company's accounting reclassification or one quarter of CapEx volatilit
 
 ## References
 
-[^1]: Microsoft, FY26 Q4 earnings / conference call, calendar-2026 reported CapEx expectation, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+[^1]: Microsoft, FY26 Q4 earnings conference call, 2026-07-29, calendar-2026 CapEx expectation of approximately US$175B and datacenter / office-building estimated useful lives extended from 15 to 25 years, https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 [^2]: Alphabet, Q2 2026 earnings-call full-year CapEx guidance **US$195–205B**, company guidance reported by Reuters, 2026-07-22, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Alphabet SEC Exhibit 99.1 separately supports Q2 actual results, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 [^3]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, FY2026 CapEx guidance including finance-lease principal, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 [^4]: Amazon.com, 2026 Q2 Form 10-Q, TTM purchases of property and equipment, net of proceeds and incentives, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+[^5]: NVIDIA, 2026-08-10, strategic partnerships / MOUs to establish independent compute-financing platforms and mobilize more than US$500B of third-party capital over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI: secured LPS, NVIDIA credit support, US$1.5B SB Energy investment, and 20-year OpenAI lease, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^7]: Constellation Energy, 2024-09-20, 20-year Microsoft power-purchase agreement for the Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
