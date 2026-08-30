@@ -81,7 +81,7 @@ Consumer parallel-supply capability should therefore be evaluated as its own lay
 
 PCs, workstations, and general computing require CPU/GPU hardware, DDR5, professional software, drivers/tooling, desktop ecosystems, and developer compatibility.
 
-The claim that domestic PC CPUs/GPUs are "blank" is also too strong.
+It is also inaccurate to describe the domestic PC CPU/GPU segment as "blank."
 
 Loongson's current official portfolio includes desktop/general-purpose CPUs such as the 3A6000 and 3B6000.[^5] Moore Threads publicly sells the MTT S80 gaming GPU.[^6]
 
@@ -93,9 +93,9 @@ They do not establish:
 - equivalent coverage of professional software / games;
 - equivalent performance-per-watt, driver maturity, developer ecosystem, or supply scale.
 
-The more accurate description is therefore:
+A more accurate description is:
 
-> **the segment is not empty; products and domestic ecosystems exist, while mainstream scale, compatibility, and system economics remain the closure barriers.**
+> **real products and domestic ecosystems exist, while mainstream scale, compatibility, and system economics remain the closure barriers.**
 
 ## 4. Frontier AI is a system-closure problem
 
