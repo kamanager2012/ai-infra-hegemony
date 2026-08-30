@@ -1,10 +1,10 @@
 # Part II · 第15章：Physical AI 与机器人系统的真正瓶颈
 
-## 1. 机器人竞争单位同样是 System
+## 1. Robotics 是 System-Closure Problem
 
-Physical AI 需要同时解决 perception、planning、control、actuation、power、safety 与 mechanical reliability。
+Physical AI 必须同时闭合 perception、planning、control、actuation、power、safety 与 mechanical reliability。
 
-所以一台机器人能否形成生产力，不能只由 AI model 或 edge TOPS 判断。
+因此，一台机器人能否形成生产力，不能从 AI model capability 或 edge TOPS 单独推出。
 
 完整系统至少要把：
 
@@ -12,7 +12,7 @@ Physical AI 需要同时解决 perception、planning、control、actuation、pow
 
 同时闭合。
 
-## 2. Cloud Training 与 Edge Control 是两套物理约束
+## 2. Cloud Training 与 Edge Control 属于不同 Physical Regime
 
 large-scale simulation、policy training 与 foundation-model training 可以在 data center 完成。
 
@@ -24,7 +24,7 @@ large-scale simulation、policy training 与 foundation-model training 可以在
 
 data-center 的约 **120 kW-class rack**[^4] 与机器人本体的 W/Wh 级 power budget 属于完全不同的物理池。
 
-## 3. Robot BOM 不能套统一百分比模板
+## 3. Robot BOM 必须按 Form Factor 判断
 
 humanoid、AMR、industrial arm、autonomous vehicle、drone 的 actuator、reducer、sensor、compute 与 battery 成本结构差异巨大。
 
@@ -32,7 +32,7 @@ humanoid、AMR、industrial arm、autonomous vehicle、drone 的 actuator、redu
 
 真正需要识别的是不同机器人形态中的 **scarce component**。
 
-## 4. Actuator / Reducer 可能比 Compute 更难商品化
+## 4. Compute 商品化之后，Mechanical Precision 仍可能稀缺
 
 Physical AI 最容易被软件叙事低估的，是 frameless torque motor、harmonic reducer、planetary roller screw、bearing 与 precision gearbox 等机械部件。
 
@@ -42,7 +42,7 @@ Physical AI 最容易被软件叙事低估的，是 frameless torque motor、har
 
 > **compute 更便宜，但高精度机械部件仍是系统瓶颈。**
 
-## 5. Sensor Quality 决定模型能否转化成可靠 Control
+## 5. Sensor Quality 决定 Model Capability 能否转化为 Control
 
 robot system 需要 camera、depth、force/torque、tactile、IMU、encoder 等多种 sensing。
 
@@ -50,7 +50,7 @@ robot system 需要 camera、depth、force/torque、tactile、IMU、encoder 等�
 
 因此 sensor stack 的价值不只是 BOM，而是 closed-loop reliability。
 
-## 6. Edge Platform 的战略位置
+## 6. Edge-Platform Advantage 是 Workload-Specific
 
 NVIDIA Jetson Thor、Qualcomm 与其他 edge accelerators 的竞争维度是 compute、software、power efficiency 与 developer ecosystem。NVIDIA Isaac/GR00T 将 simulation/training、robot model 与 Jetson Thor onboard compute 组织成跨 cloud-to-edge workflow。[^1][^2]
 
@@ -58,7 +58,7 @@ edge system 不需要复制 data-center rack architecture。
 
 但如果同一平台同时覆盖 cloud training / simulation / edge deployment，就可能形成 cloud-to-robot 的跨层 ecosystem lock-in。
 
-## 7. Physical Deployment 会反向制造更多 Cloud Workload
+## 7. Physical Deployment 会创造更多 Cloud Workload
 
 即使单台 robot 的 edge compute 很有限，大规模 fleet 会持续产生：
 
@@ -75,7 +75,7 @@ edge system 不需要复制 data-center rack architecture。
 
 机器人普及不一定减少 data-center demand，反而可能扩大新的训练/推理 workload。
 
-### 7.1 机器人本体也可能成为新的 Memory / Storage Demand Pool
+### 7.1 Robot 本体会成为新的 Memory / Storage Demand Pool
 
 Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必须保留“公司前瞻判断”身份的量化锚：[^3]
 
@@ -91,7 +91,7 @@ Micron 在 2026-06-24 investor presentation 中给出一个值得跟踪、但必
 
 所以机器人可能同时成为 edge memory 的新需求池和 cloud retraining / storage 的新需求源。
 
-### 7.2 机器人具有双重身份：AI 需求方，也是工业电子的残量承压方
+### 7.2 Robotics 同时是 AI Demand Source 与 Industrial-Electronics Demand Pool
 
 Physical AI 不只是新的 AI compute demand。
 
@@ -124,7 +124,7 @@ data center 的 power bottleneck 是 grid / interconnection；机器人侧则是
 
 以及 continuous runtime、recharge time、thermal headroom、maintenance interval 与 field reliability，而不是只比较 TOPS。
 
-## 9. Demo 到 Mass Production 的真正门槛是 Manufacturing
+## 9. Mass-Production Threshold 是 Manufacturing
 
 demo 可以容忍 expensive parts、manual calibration、low yield 和 frequent maintenance。
 
@@ -134,7 +134,7 @@ mass production 不行。
 
 因此 Physical AI 的产业拐点必须由 manufacturing / deployment data 证明，而不能由演示视频证明。
 
-## 9A. Physical AI 的商业临界点不是“能完成任务”，而是 Capital Payback
+## 9A. Commercial Threshold 是 Capital Payback
 
 机器人从 demo 进入 production 后，真正需要比较的不是单次任务成功率，而是：
 
@@ -166,7 +166,7 @@ Economic Output
 
 区别只是 data-center 的 bottleneck 更多在 compute / HBM / power，机器人则多出 actuator、battery、mechanical reliability、field service 与 safety。
 
-## 10. 中国在 Physical AI 上的能力结构与 Frontier AI 不同
+## 10. 中国 Physical-AI Stack 与 Frontier-AI Stack 不同
 
 Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-electronics supply chain 与 system integration。
 
@@ -176,7 +176,7 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 
 这是独立产业路径，不应被一个“AI 芯片能力”指标覆盖。
 
-## 11. 当前判断：Value Capture 可能分布在多个物理层
+## 11. Current Read
 
 长期 value capture 可能同时出现在：
 
