@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/kamanager2012/ai-infra-hegemony/data/claim-ledger.schema.json",
-  "title": "AI Infrastructure Hegemony Claim Ledger Record",
+  "title": "AI Infrastructure Reordering Claim Ledger Record",
   "type": "object",
   "additionalProperties": false,
   "required": [
