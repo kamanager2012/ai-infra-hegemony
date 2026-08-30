@@ -16,7 +16,7 @@ Without one common discipline, recurring errors include:
 - presenting future scenarios as current facts;
 - repeating one secondary-source number across chapters until it appears to become multi-source confirmation.
 
-This report therefore uses two complementary frameworks:
+Two complementary frameworks govern the analysis:
 
 > **F → H → M → S → X**
 
@@ -71,7 +71,7 @@ It has to identify what changes, how the constraint transmits, and which evidenc
 
 A Scenario is a conditional state created by multiple hypotheses and mechanisms.
 
-The report uses four standard scenarios:
+Four standard scenarios structure the analysis:
 
 - **S1 — Competitive Expansion**;
 - **S2 — Baseline Concentration**;
@@ -156,7 +156,7 @@ Front-end logic wafers, advanced-packaging capacity, HBM bits, and energized MW 
 
 A substitute system can operate real production workloads while still depending on some external equipment, materials, services, or upstream manufacturing.
 
-The report therefore asks separately:
+Two questions must therefore be kept separate:
 
 1. whether production-grade substitution exists;
 2. whether the system can continue scaling across generations when critical external inputs are constrained.
@@ -199,7 +199,7 @@ Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estima
 
 ## 11. Concept hierarchy: load-bearing mechanisms vs. supporting language
 
-To avoid treating every named term as a separate theory, the report distinguishes **load-bearing mechanisms** from **supporting descriptive / measurement language**.
+To avoid treating every named term as a separate theory, the framework distinguishes **load-bearing mechanisms** from **supporting descriptive / measurement language**.
 
 ### Table 27.2 — Concept hierarchy
 
