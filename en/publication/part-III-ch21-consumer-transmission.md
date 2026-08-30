@@ -120,9 +120,7 @@ TrendForce stated in April 2026 that AI demand had created bottlenecks in **3 nm
 
 Its June foundry research said TSMC **3 nm capacity remained severely constrained**.[^9] TrendForce also stated that foundries were dedicating a larger share of wafer capacity to AI-related products, materially changing the supply-demand balance for mature nodes as well.[^10]
 
-This report therefore defines:
-
-> **Cross-Market Resource Reordering = higher expected returns and stronger demand certainty in AI cause incremental resources that previously served multiple end markets to be reprioritized toward AI/server applications.**
+This is a case of **cross-market resource reordering**: higher expected returns and stronger demand certainty in AI can cause incremental resources that previously served multiple end markets to be reprioritized toward AI/server applications.
 
 This is not a claim that capacity used to be distributed evenly or that NVIDIA now receives everything.
 
@@ -150,7 +148,7 @@ IDC's June 2026 PC outlook forecasts global PC shipments down **11.3% YoY** in 2
 
 ## 6A. Vendor Operating-Model Adaptation: vendors cannot simply wait for users to delay replacement
 
-Consumers can postpone a purchase. Device vendors still carry annual product planning, channel inventory, tooling and R&D amortization, minimum procurement scale, retail commitments, and market-share targets. The same shortage that appears as “I will upgrade later” to the user can appear as a **broken operating equation** to the vendor.
+Consumers can postpone a purchase. Device vendors still carry annual product planning, channel inventory, tooling and R&D amortization, minimum procurement scale, retail commitments, and market-share targets. The same shortage that appears as “I will upgrade later” to the user can force a **break in the vendor's previous operating model**.
 
 The mainstream consumer-electronics model of the last decade implicitly relied on several conditions:
 
@@ -437,7 +435,7 @@ The defensible long-run conclusion is neither “AI eliminates consumer electron
 
 > **AI is raising the opportunity cost of selected upstream resources and translating that pressure into three different product clocks: premium reprices and shrinks while still advancing, mid-range stretches and slows, and entry tiers carry the highest exit risk.**
 
-At the vendor level, the sequence is:
+At the vendor level, the mechanism can be summarized as:
 
 > **Residual Capacity Compression → Product-Mix Polarization → Vendor Operating-Model Adaptation**
 
@@ -447,7 +445,7 @@ At the software layer, hardware constraint raises the value of local efficiency,
 
 The final boundary is:
 
-> **As of 2026, the evidence supports erosion of the cheap mass-market upgrade model in consumer computing; it does not yet establish that smartphones, PCs, and gaming as complete demand and content industries have entered structural terminal decline.**
+> **As of 2026, the evidence supports erosion of the cheap mass-market upgrade model in consumer computing; it does not yet establish structural terminal decline across the smartphone, PC, and gaming ecosystems.**
 
 ## References
 
