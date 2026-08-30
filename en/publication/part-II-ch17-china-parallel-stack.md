@@ -302,6 +302,10 @@ Treating "production substitution" and "full autonomy" as a single threshold cre
 
 They should therefore be separated.
 
+![Figure 11 — Production-Grade Parallel Stack vs. Autonomous Frontier Closure](figures/fig-11-china-closure-gates.svg)
+
+**Figure 11 note:** Report closure-test framework. Production-grade substitution does not require every component to be domestic; autonomous frontier closure adds multi-generation manufacturing and infrastructure/capital continuity under constrained external inputs.
+
 ### 11.1 Production-Grade Parallel Stack
 
 A substitute system should be considered production-grade only when the following can operate at verifiable scale:
