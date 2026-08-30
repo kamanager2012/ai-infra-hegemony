@@ -114,7 +114,7 @@ This is important because it shows that:
 Large buyers can use LTAs, scale, and stronger balance sheets to absorb part of the shock. Smaller OEMs are more exposed to the combination of higher prices and lower allocations.
 
 
-### 4.1 Cross-market reordering: allocation logic is changing
+## 5. Cross-market reordering: allocation logic is changing
 
 TrendForce stated in April 2026 that AI demand had created bottlenecks in **3 nm–2 nm wafers and 2.5D/3D advanced packaging**, and that NVIDIA had moved early to secure large volumes of **4/3 nm wafer capacity, CoWoS, HBM, T-glass, substrates, PCBs, and SSDs**.[^8]
 
@@ -135,7 +135,7 @@ What the evidence supports is:
 
 The evidence does **not** disclose how many wafers Apple, Qualcomm, AMD, or Intel individually lost, and it does not support a "100% capacity capture" claim.
 
-## 5. PCs: memory and system pricing can reinforce each other
+## 6. PCs: memory and system pricing can reinforce each other
 
 NVIDIA's FY26 10-K reported Gaming revenue up **41%** and said supply constraints were expected to remain a Gaming headwind into FY27 Q1 and beyond.[^11]
 
@@ -148,7 +148,7 @@ Two channels can therefore overlap:
 
 IDC's June 2026 PC outlook forecasts global PC shipments down **11.3% YoY** in 2026 while PC ASP rises **18.3%**, and says it does not expect meaningful relief from the memory shortage before the end of 2027.[^31] This is still a forecast, not a guaranteed future path, but it reinforces the same operating problem: vendors must manage higher system cost, weaker unit demand, and a harder-to-sustain full product portfolio at the same time.
 
-## 5A. Vendor Operating-Model Adaptation: vendors cannot simply wait for users to delay replacement
+## 6A. Vendor Operating-Model Adaptation: vendors cannot simply wait for users to delay replacement
 
 Consumers can postpone a purchase. Device vendors still carry annual product planning, channel inventory, tooling and R&D amortization, minimum procurement scale, retail commitments, and market-share targets. The same shortage that appears as “I will upgrade later” to the user can appear as a **broken operating equation** to the vendor.
 
@@ -174,7 +174,7 @@ The vendor problem is therefore not whether consumers can tolerate slower upgrad
 
 > **How does a company built around annual hardware improvement and scale expansion continue to cover fixed cost, channels, and product cadence after scarce upstream resources are repriced under a different return structure?**
 
-### 5A.1 Scale still matters, but it no longer guarantees marginal allocation priority
+### 6A.1 Scale still matters, but it no longer guarantees marginal allocation priority
 
 The report does not assume that lower consumer volume automatically causes lower future allocation. Purchase scale, LTAs, prepayment, multi-sourcing, and supplier relationships still improve Quantity Assurance.
 
@@ -188,7 +188,7 @@ This creates a feedback loop worth monitoring rather than assuming:
 
 Public evidence already supports the first half of this chain. Whether lower unit volume systematically weakens future allocation is still an **M — Mechanism / H — Hypothesis** that requires cross-cycle contract, allocation, wafer-start, and supplier-mix evidence.
 
-## 5B. Game consoles: long generations make residual pressure persistent
+## 6B. Game consoles: long generations make residual pressure persistent
 
 Game consoles are a useful test case for Non-AI Residual Capacity because they do not directly compete with AI servers for the same accelerator, yet they remain materially exposed to **memory, storage, custom SoC/APU, and selected manufacturing / packaging resources**.
 
@@ -204,7 +204,7 @@ The more accurate relationship is:
 
 > **console memory / storage / SoCs sit inside the same broader semiconductor and memory capital system as AI/server demand, while their specific product pools, packaging formats, and qualification paths remain different.**
 
-### 5B.1 Hardware-economics pressure is directly observable
+### 6B.1 Hardware-economics pressure is directly observable
 
 Sony stated in its FY2025 Q4 / FY2026 outlook that:
 
@@ -230,7 +230,7 @@ Combined with Sony's first-party procurement statement, the evidence supports a 
 
 > **Game consoles are already an end-system case where memory residual pressure can affect shipment cadence, promotion capacity, and hardware margin.**
 
-### 5B.2 Why one cost shock can affect an entire console generation
+### 6B.2 Why one cost shock can affect an entire console generation
 
 Game consoles usually combine:
 
@@ -255,7 +255,7 @@ That is the console version of an **upgrade tax**:
 
 > **the same price band buys a slower hardware-specification improvement, or the same target specification requires a higher BOM / weaker promotional subsidy.**
 
-### 5B.3 Attribution boundary
+### 6B.3 Attribution boundary
 
 The report does not infer:
 
@@ -281,33 +281,35 @@ The most defensible judgment is therefore:
 
 ---
 
-## 6. End systems usually adjust before production stops
+## 7. Quantity Assurance and Price are distinct variables
 
-Common vendor responses include:
+In a severe shortage, end-product vendors face more than rising ASPs. They can also face insufficient allocation fulfillment.
 
-1. raising prices;
-2. reducing or delaying memory configurations;
-3. extending mature-node usage;
-4. lengthening replacement cycles;
-5. signing longer-duration supply agreements.
+TrendForce stated in March 2026 that PC OEMs / module makers with lower allocations had to procure incremental supply at higher prices.[^13]
 
-AI-resource pressure is therefore more likely to appear first as an **upgrade tax**:
+The analysis therefore separates:
 
-> the same price buys slower specification improvement, or the same specification requires a higher BOM.
+> **Price Pressure**
 
-### 6.1 Quantity Assurance is distinct from price
+from
 
-In an extreme shortage, end-product vendors face more than rising ASPs. They can also face **insufficient allocation fulfillment**.
+> **Quantity Assurance**
 
-TrendForce stated in March 2026 that PC OEMs / module makers with lower allocations had to procure incremental supply at higher prices.[^13] Its May smartphone research also described tighter full-year allocations and the need for brands to manage LTAs and inventory more carefully.
+A willingness to pay more does not guarantee the quantity required by the production plan.
 
-The analysis therefore has to separate:
+The ability to absorb the shock depends on:
 
-> **price pressure** from **quantity assurance**
+- LTA coverage;
+- purchase scale;
+- balance-sheet strength;
+- inventory;
+- multi-sourcing;
+- supplier relationships;
+- end-market pricing power.
 
-Prices can rise while supply remains insufficient. A willingness to pay more does not guarantee the quantity required by the production plan.
+This is why the same memory shortage can damage a premium global brand and a smaller OEM very differently.
 
-### 6.2 Hardware constraint raises the value of software efficiency, but does not automatically make software lean
+### 7A. Hardware constraint raises the value of software efficiency, but does not automatically make software lean
 
 Slower hardware improvement changes software optimization boundaries, but it does not imply that the software industry will universally become more efficient.
 
@@ -326,23 +328,11 @@ This is especially important for AI software: consumer endpoints may be forced t
 
 This chain is best treated as an **M — Mechanism**, not as a closed reflexive demand loop. A lighter local application does not imply lower total system resource intensity.
 
-## 7. Use contract and allocation evidence before channel anecdotes
+For core claims, contract / allocation evidence, institutional contract-price research, vendor filings, and company commentary should take priority over channel anecdotes.
 
-Spot/channel prices can show that consumers or system builders are under pressure at a specific moment.
+---
 
-They cannot be used to infer vendor contract ASPs or long-duration agreements.
-
-The report therefore relies primarily on institutional contract-price research, vendor filings, and company commentary rather than channel anecdotes for its core conclusions.
-
-## 8. Local substitution can relieve pressure without proving frontier closure
-
-China's growing capability in DDR, LPDDR, NAND, smartphone manufacturing, and terminal supply chains can improve local consumer residual capacity.
-
-But consumer DRAM / NAND capability cannot be extrapolated automatically into HBM-class frontier-memory supply.
-
-Domestic substitution can therefore change smartphone / PC cost structures without eliminating the frontier AI bottlenecks in HBM and advanced packaging.
-
-## 9. Automotive / industrial: qualification turns price pressure into continuity risk
+## 8. Automotive / industrial: qualification turns price pressure into continuity risk
 
 Automotive and industrial systems have longer qualification cycles, but that does not insulate them from AI-era product-mix reallocation.
 
@@ -360,7 +350,7 @@ These first-party disclosures establish a different kind of constraint:
 
 MCUs, analog components, power semiconductors, and most automotive electronics do not directly compete for the same physical pool as AI servers. But supplier CapEx, packaging/test capacity, engineering priority, and long-life product economics can still be influenced by higher-return markets. Without project-level evidence, this report does not rewrite that adjacent pressure as “AI caused a specific vehicle shortage.”
 
-### 9.1 Production lines: lead time, redesign, and downtime are the relevant channels
+### 8.1 Production lines: lead time, redesign, and downtime are the relevant channels
 
 PLC, servo control, industrial PCs, sensors, MCU/analog/power components, and industrial memory often share four properties:
 
@@ -377,7 +367,7 @@ rather than “the factory cannot buy a training GPU.”
 
 The attribution rule from Section 2A still applies. A price increase or lead-time extension in one industrial component is not enough to prove AI causation. Stronger attribution requires shared-resource exposure, supplier product-mix shift, capacity/engineering reallocation, or explicit supplier/institutional evidence.
 
-### 9.2 Aerospace / defense: low-volume continuity is the relevant exposure
+### 8.2 Aerospace / defense: low-volume continuity is the relevant exposure
 
 These systems have a different exposure profile from smartphones and PCs.
 
@@ -397,6 +387,14 @@ Public evidence does **not** support stronger claims such as:
 
 Those would require program-level, supplier-level, or government-procurement evidence.
 
+
+## 9. Local substitution can relieve pressure without proving frontier closure
+
+China's growing capability in DDR, LPDDR, NAND, smartphone manufacturing, and terminal supply chains can improve local consumer residual capacity.
+
+But consumer DRAM / NAND capability cannot be extrapolated automatically into HBM-class frontier-memory supply.
+
+Domestic substitution can therefore change smartphone / PC cost structures without eliminating the frontier AI bottlenecks in HBM and advanced packaging.
 
 ## 10. Storage: HDD and SSD remain workload-specific complements and substitutes
 
