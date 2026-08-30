@@ -267,7 +267,7 @@ AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume �
 
 ## 版权与引用
 
-原创研究文本采用 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International（CC BY-NC-ND 4.0）**，完整法律文本见 [LICENSE](LICENSE)。第三方材料仍受其各自权利人和许可条件约束。
+原创研究文本采用 **All Rights Reserved（保留全部权利）**。公开可阅读不代表授予一般复制、改编、再分发、商业利用、批量抓取或 AI 训练/数据集使用许可；具体权利保留与许可规则见 [LICENSE](LICENSE)。第三方材料仍受其各自权利人和许可条件约束。
 
 引用信息见 [CITATION.cff](CITATION.cff)。
 
