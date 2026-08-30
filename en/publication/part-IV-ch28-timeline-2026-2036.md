@@ -11,7 +11,7 @@ This report uses four observation windows:
 - **Phase III: 2031–2033**;
 - **Phase IV: 2034–2036**.
 
-The years are observation windows, not event guarantees.
+These years are observation windows, not event guarantees.
 
 ## 2. Phase I: 2026–2027 — system race and infrastructure lock-in
 
@@ -44,7 +44,7 @@ Key milestones include:
 
 ## 3. Phase II: 2028–2030 — does substitution reach production scale?
 
-This window is more likely to determine the divergence between S1 and S2/S3.
+This window is likely to be especially important in determining the divergence between S1 and S2/S3.
 
 ### Cloud System Stack
 
@@ -112,7 +112,7 @@ Multiple system stacks mature, migration cost falls, supply elasticity improves,
 
 ### Baseline Concentration
 
-A small number of dominant platforms and scarce-layer suppliers persist while credible substitution paths remain. End-system residual pressure remains selective rather than becoming one universal shortage.
+A small number of dominant platforms and scarce-layer suppliers persist while credible substitution paths remain. End-system residual pressure remains selective rather than becoming a universal shortage.
 
 ### Resource Hegemony
 
@@ -167,7 +167,7 @@ Each phase should track:
 - supplier equity / credit support;
 - refinancing dependency / third-party risk capital.
 
-Technology and capital timelines have to be read together.
+Technology and capital timelines must be read together.
 
 ## 9. Power milestones
 
@@ -187,7 +187,7 @@ The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-tha
 
 ## 10. Four thresholds matter more than the calendar year
 
-The next decade is more likely to be decided by four thresholds than by one particular date:
+The next decade is more likely to be decided by four thresholds than by a single particular date:
 
 1. **Does system substitution cross the production frontier-workload threshold?**
 2. **Does scarce-layer supply cross a durable-abundance threshold?**
