@@ -235,6 +235,8 @@ As of August 2026, public evidence remains more consistent with:
 
 than with a confirmed industry-wide Capital Hard Landing.
 
+One capital-market boundary also matters: **market cap is not cash, but valuation and cost of capital change the financing, acquisition, prepayment, and infrastructure-support options a company can execute.** Market capitalization is therefore a capital-capability variable, not a direct denominator for physical capacity or realized operating profit.
+
 The latest financing structures add one more variable: **Financing Reflexivity**.
 
 When a system seller provides equity, credit enhancement, LPS support, or compute-financing coordination, seller-side demand visibility becomes more correlated with the financing conditions of the customer and infrastructure developer.
