@@ -6,7 +6,7 @@
 
 Job 是多个 task 的组合，而不同 task 的 automation cost、review burden、liability、physical presence 与 trust 要求并不相同。
 
-因此，分析起点应该是 task / workflow exposure，而不是直接从模型能力外推 job loss。
+分析起点应该是 task / workflow exposure，而不是直接从模型能力外推 job loss。
 
 ## 2. Exposure 不是 Employment Outcome
 
@@ -49,7 +49,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 - 单个 task 被压缩，不代表整个 occupation 消失；
 - 企业人均产出提高，也可能表现为需求扩张而不是 headcount 下降。
 
-因此，employment analysis 必须从 task 和 workflow 开始，而不能从 benchmark 直接跳到 job count。
+employment analysis 必须从 task 和 workflow 开始，而不能从 benchmark 直接跳到 job count。
 
 ## 4. Adoption Economics 是第一道 Substitution Gate
 
@@ -59,7 +59,7 @@ Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号�
 
 时，才有更强替代动机。
 
-所以 benchmark improvement 不自动转化为 employment change。
+benchmark improvement 不自动转化为 employment change。
 
 reliability、latency、security、integration 与 legal responsibility 都会改变 adoption。
 
@@ -77,7 +77,7 @@ medical sign-off、engineering sign-off、field maintenance、nuclear operations
 
 AI 可能改变 preparation / analysis / documentation，但最后责任仍可能由人承担。
 
-因此 human review 既是软件成本，也是劳动转换的重要边界。
+human review 既是软件成本，也是劳动转换的重要边界。
 
 ## 7. Entry-Level Ladder 是关键 Structural Variable
 
@@ -103,13 +103,13 @@ AI 可以提高 high-skill worker leverage，同时降低 routine task value，�
 
 warehouse、manufacturing、logistics、inspection、maintenance 等 physical tasks 的自动化还要跨过 hardware cost、reliability、safety、maintenance 与 regulation。
 
-因此 Physical AI 的 labor translation 通常比纯 digital workflow 更慢、更资本密集。
+Physical AI 的 labor translation 通常比纯 digital workflow 更慢、更资本密集。
 
 ## 10. AI Infrastructure 本身创造新 Skill Demand
 
 AI expansion 同时增加 data-center technician、liquid-cooling engineer、power engineer、semiconductor process engineer、advanced-packaging engineer、network engineer、safety/compliance 与 model-infrastructure roles。
 
-因此，labor-market change 更适合被理解为 reallocation，而不是单向 employment reduction。
+labor-market change 更适合被理解为 reallocation，而不是单向 employment reduction。
 
 ## 11. Organization Shape 取决于 Review Burden 与 Task Volume
 
