@@ -29,7 +29,7 @@ When workload arithmetic intensity falls below the critical threshold, the syste
 
 Autoregressive inference repeatedly reads model state, KV cache, routing, and activation data. Actual token throughput can therefore remain constrained by HBM bandwidth and memory movement even when accelerator peak FLOPS are very high.
 
-This is why HBM, interconnect, and compute have to be analyzed as one system rather than interpreting frontier inference from peak compute alone.
+This is why HBM, interconnect, and compute must be analyzed as one system rather than interpreting frontier inference from peak compute alone.
 
 ## 3. Efficiency changes the demand function, not the measurement standard
 
@@ -320,7 +320,7 @@ This is the **Rolling Bottleneck Cascade**.
 
 It explains why easing HBM does not prove that AI infrastructure has no constraints, and why power becoming a bottleneck does not mean semiconductor constraints have disappeared permanently.
 
-## 16. Capital returns have to reconcile different asset clocks
+## 16. Capital returns must reconcile different asset clocks
 
 A minimal economic relationship is:
 
