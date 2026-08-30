@@ -14,6 +14,8 @@ The long-run issue is not chip share alone. It is who can repeatedly assemble th
 
 ### Eight load-bearing judgments
 
+**Table 1.1 — Eight load-bearing judgments and chapter mapping**
+
 | Judgment | Why it matters | Developed in |
 |---|---|---|
 | **1. The competitive unit is the system stack.** | Frontier delivery increasingly depends on compute, memory, interconnect, software, rack architecture, power, and workload economics together. NVIDIA's GB200 NVL72 is itself a rack-scale system, not a standalone accelerator.[^1] | Ch02, Ch12 |
@@ -46,6 +48,8 @@ These boundaries are deliberate. The report permits strong forward judgments, bu
 ## 3. What would change the baseline
 
 The current baseline should move only when the mechanism changes, not when a single headline changes.
+
+**Table 1.2 — Scenario reweighting signals**
 
 | Direction | Evidence that would matter |
 |---|---|

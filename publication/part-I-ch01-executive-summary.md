@@ -14,6 +14,8 @@
 
 ### 八个承重判断
 
+**Table 1.1 — 八个承重判断与章节映射**
+
 | 判断 | 为什么重要 | 主要展开章节 |
 |---|---|---|
 | **1. 竞争单位已经上移到 system stack。** | Frontier delivery 同时取决于 compute、memory、interconnect、software、rack architecture、power 与 workload economics。GB200 NVL72 本身就是 rack-scale system，而不是一张孤立 accelerator card。[^1] | Ch02、Ch12 |
@@ -46,6 +48,8 @@
 ## 3. 什么会改变 Current Baseline
 
 真正的改判必须来自机制变化，而不是一条 headline。
+
+**Table 1.2 — Scenario Reweighting Signals**
 
 | 方向 | 需要看到的证据 |
 |---|---|

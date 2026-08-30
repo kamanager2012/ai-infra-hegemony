@@ -4,7 +4,8 @@
 
 ## Part I
 
-- [Table 1.1 — Four standard AI-infrastructure scenarios](part-I-ch01-executive-summary.md)
+- [Table 1.1 — Eight load-bearing judgments and chapter mapping](part-I-ch01-executive-summary.md)
+- [Table 1.2 — Scenario reweighting signals](part-I-ch01-executive-summary.md)
 - [Table 2.1 — GB200 NVL72 rack-scale system structure](part-I-ch02-nvidia-system-stack.md)
 - [Table 2.2 — NVIDIA seller-side economics and forward supply commitments](part-I-ch02-nvidia-system-stack.md)
 - [Table 3.1 — Layered exposure of non-AI / Physical-AI end systems](part-I-ch03-resource-gravity.md)
