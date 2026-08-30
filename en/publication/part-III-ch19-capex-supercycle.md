@@ -12,7 +12,7 @@ Three separations are mandatory:
 2. IT equipment vs. data-center / power infrastructure;
 3. actual investment vs. guidance / expectation.
 
-The analysis therefore starts from denominator identity, then moves to duration mismatch and utilization. A mechanically summed "four-cloud AI hardware CapEx" would obscure all three.
+The analysis starts from denominator identity, then moves to duration mismatch and utilization. A mechanically summed "four-cloud AI hardware CapEx" would obscure all three.
 
 ## 2. 2026 public capital anchors
 
@@ -45,7 +45,7 @@ Relevant structures now include:
 - long-duration Anchor Buyer contracts;
 - power and grid investment carried on separate balance sheets.
 
-Therefore:
+The implication is:
 
 > **Hyperscaler CapEx remains a critical indicator, but it is no longer the complete denominator of AI-infrastructure capital formation.**
 
@@ -71,7 +71,7 @@ NVIDIA's cash generation is more directly linked to inventory, capacity reservat
 
 Hyperscaler capital has to cover land, buildings, power, networking, custom silicon, third-party systems, and operations.
 
-The right comparison is therefore not "who has more cash?"
+The relevant comparison is not "who has more cash?"
 
 It is:
 
@@ -83,7 +83,7 @@ As rack density rises, expansion depends on more than server procurement.
 
 It increasingly depends on grid interconnection, substations, transformers, transmission, cooling, and long-duration power contracts.
 
-The semiconductor clock and the power-permitting clock therefore become coupled.
+The semiconductor clock and the power-permitting clock become coupled.
 
 When chip supply improves but energized capacity remains insufficient, the bottleneck can shift from manufacturing toward Time-to-Power.
 
@@ -105,7 +105,7 @@ But the demand pool also contains another transmission path:
 
 Decades of IT investment have already converted large parts of enterprise activity into software, databases, APIs, digital documents, identity systems, and networked workflows. AI can add understanding, generation, prediction, decision, and execution capabilities on top of those existing digital processes without repeating the entire transformation from physical activity to digitization.
 
-The duration of AI-infrastructure demand therefore cannot be judged only by asking how many GPUs the next model generation requires. It also depends on:
+The duration of AI-infrastructure demand cannot be judged only by asking how many GPUs the next model generation requires. It also depends on:
 
 - the enterprise digital-workflow base;
 - AI penetration;
@@ -140,9 +140,9 @@ The mechanism is:
 
 > **larger installed capital base → higher depreciation and operating cost → higher required utilization → higher monetization requirement**
 
-AI demand can therefore continue growing while returns on incremental capital still fall if the capital base grows faster than demand.
+AI demand can continue growing while returns on incremental capital still fall if the capital base grows faster than demand.
 
-The more useful long-run question is not simply whether AI demand is growing. It is:
+The more useful long-run question is broader than whether AI demand is growing:
 
 > **Is AI-demand growth sufficient to cover AI-capital-base growth?**
 
