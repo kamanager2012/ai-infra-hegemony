@@ -77,6 +77,45 @@ If a new architecture can perform the same workload with less HBM, compute, or c
 
 Software and model innovation can therefore change hardware economic life directly.
 
+### 7A. Efficiency–utilization break-even: the arithmetic has to close
+
+The tension between algorithmic efficiency and capital recovery can be written without assuming any particular demand elasticity.
+
+Let:
+
+```text
+Infrastructure Demand = Unit Resource Intensity × Workload Volume
+```
+
+Then:
+
+```text
+D1 / D0 = (I1 / I0) × (V1 / V0)
+```
+
+where (I) is resource intensity per comparable workload and (V) is workload volume.
+
+The break-even condition for keeping aggregate resource demand unchanged is therefore:
+
+```text
+V1 / V0 = I0 / I1
+```
+
+This is an identity, not a forecast. If a hypothetical architecture reduces comparable resource intensity by **90%** ((I1/I0 = 0.1)), workload volume would have to rise **10×** merely to keep aggregate resource demand unchanged. The report does **not** claim that a 90% efficiency gain or a 10× workload increase will occur; the example is a D-grade sensitivity check.
+
+For existing assets, the hurdle is stricter than aggregate break-even. New workload can migrate disproportionately toward newer systems with better cost per task, memory efficiency, power efficiency, or software support. Aggregate compute demand can therefore remain flat or even grow while an older generation's utilization and residual value deteriorate.
+
+This converts the efficiency question into an observable capital test:
+
+- how quickly comparable cost per verified workload falls;
+- how quickly total workload volume grows;
+- how workload shifts across hardware generations;
+- whether older-system utilization / lease rates / resale values fall faster than accounting depreciation.
+
+Algorithmic progress is therefore neither automatically bullish nor bearish for infrastructure. It is a **capital-recovery variable** whose sign depends on workload growth and generation-level allocation.
+
+---
+
 ## 8. Power assets carry the opposite duration profile
 
 In S2/S3 high-demand environments, long-duration power / grid assets can become scarce moats.
