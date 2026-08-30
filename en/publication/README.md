@@ -17,9 +17,9 @@ The report keeps observed facts, company guidance, institutional forecasts, repo
 
 For the core thesis:
 
-1. [Chapter 1 — Executive Summary](part-I-ch01-executive-summary.md)
-2. [Chapter 32 — Master View](part-IV-ch32-master-judgment.md)
-3. [Chapter 30 — The Four Standard Scenarios](part-IV-ch30-scenarios.md)
+1. [Executive Summary](part-I-ch01-executive-summary.md)
+2. [Master View — What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
+3. [Scenario Framework — Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 
 For methodology and evidence discipline:
 
@@ -35,19 +35,19 @@ For methodology and evidence discipline:
 1. [Executive Summary](part-I-ch01-executive-summary.md)
 2. [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md)
 3. [AI Resource Reallocation and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
-4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md)
-5. [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md)
-6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md)
-7. [From 120 kW Racks to GW-Scale Power Constraints](part-I-ch07-power-constraint.md)
-8. [Quantitative Framework for AI Infrastructure and the Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)
+4. [Advanced Logic Allocation — TSMC, N2, and the Next Unit of Qualified Capacity](part-I-ch04-tsmc-advanced-logic.md)
+5. [HBM Economics — Manufacturing Intensity, Residual Capacity, and Memory Scarcity](part-I-ch05-hbm-memory.md)
+6. [Advanced Packaging — The Quantity Gate Between Wafers and Deliverable Systems](part-I-ch06-advanced-packaging.md)
+7. [Time-to-Power — From Rack Density to Deployable AI Capacity](part-I-ch07-power-constraint.md)
+8. [Quantitative Framework — Denominator Closure, Stress Tests, and Public-Data Limits](part-I-ch08-quantitative-framework.md)
 9. [Global Semiconductor Supply Chains and Manufacturing Redundancy](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
 10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
 11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md)
-12. [Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
-13. [Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure](part-II-ch13-anchor-compute-buyer.md)
+12. [The Second System Stack — How Hyperscaler Substitution Actually Works](part-II-ch12-hyperscaler-system-stack.md)
+13. [Anchor Compute Buyers — How Long-Duration Demand Pulls Infrastructure Forward](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
 16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
@@ -56,12 +56,12 @@ For methodology and evidence discipline:
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
-19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
-20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
+19. [AI Infrastructure Capital Formation — Duration Mismatch, Utilization, and Demand Duration](part-III-ch19-capex-supercycle.md)
+20. [Value Capture and Risk Bearing Across the AI Infrastructure Stack](part-III-ch20-value-capture-map.md)
 21. [How AI Reprices Consumer Electronics and Other End Systems](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
-24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
+24. [Capital Clearing — Lead Indicators, Demand Quality, and the S4 Test](part-III-ch24-capital-clearing.md)
 25. [AI and Labor Markets — The Task-to-Job Translation Layer](part-III-ch25-labor-market.md)
 26. [Education and Talent Systems in the AI Era](part-III-ch26-education-talent.md)
 
@@ -69,8 +69,8 @@ For methodology and evidence discipline:
 
 27. [Research Method and Evidence Architecture](part-IV-ch27-research-method.md)
 28. [2026–2036 Timeline and Conditional Milestones](part-IV-ch28-timeline-2026-2036.md)
-29. [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md)
-30. [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md)
+29. [Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
+30. [Scenario Framework — Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
 32. [Master View — What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
