@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
+<title id="title">图 7 — TSMC 2026 Q2 demand 与 technology mix</title>
+<desc id="desc">两个 panel 保留不同 denominator：HPC 与 smartphone 占 total revenue 的比例，以及 7 nm 及以下占 wafer revenue 的比例。</desc>
+<rect width="1500" height="820" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#111}.t{font-size:40px;font-weight:700}.s{font-size:22px;fill:#444}.p{font-size:25px;font-weight:700}.lab{font-size:21px}.v{font-size:30px;font-weight:700}.n{font-size:18px;fill:#555}.bar{fill:#444}.axis{stroke:#222;stroke-width:2}.grid{stroke:#ddd;stroke-width:1}</style>
+<text x="70" y="68" class="t">TSMC 2026 Q2：HPC 主导 platform mix，advanced nodes 主导 wafer revenue</text>
+<text x="70" y="108" class="s">两个 panel 使用不同 denominator，不能合并成 customer-level wafer allocation。</text>
+<text x="170" y="175" class="p">A · Platform revenue mix</text>
+<line x1="170" y1="620" x2="700" y2="620" class="axis"/><line x1="170" y1="240" x2="170" y2="620" class="axis"/>
+<line x1="160" y1="335" x2="700" y2="335" class="grid"/><line x1="160" y1="430" x2="700" y2="430" class="grid"/><line x1="160" y1="525" x2="700" y2="525" class="grid"/>
+<rect class="bar" x="270" y="369" width="150" height="251"/><text x="345" y="340" class="v" text-anchor="middle">66%</text><text x="345" y="660" class="lab" text-anchor="middle">HPC</text>
+<rect class="bar" x="485" y="536" width="150" height="84"/><text x="560" y="507" class="v" text-anchor="middle">22%</text><text x="560" y="660" class="lab" text-anchor="middle">Smartphone</text>
+<text x="920" y="175" class="p">B · Wafer revenue by technology</text>
+<line x1="900" y1="620" x2="1360" y2="620" class="axis"/><line x1="900" y1="240" x2="900" y2="620" class="axis"/>
+<rect class="bar" x="1030" y="327" width="200" height="293"/><text x="1130" y="298" class="v" text-anchor="middle">77%</text><text x="1130" y="660" class="lab" text-anchor="middle">7 nm 及以下</text>
+<line x1="70" y1="710" x2="1430" y2="710" stroke="#bbb"/>
+<text x="70" y="750" class="n">Source：TSMC 2Q26 Quarterly Results / Earnings Conference。</text>
+<text x="70" y="780" class="n">Boundary：66% 与 22% 是 total revenue 的 platform share；77% 是 wafer revenue 的 technology share；均不是 customer-level wafer allocation。</text>
+</svg>
