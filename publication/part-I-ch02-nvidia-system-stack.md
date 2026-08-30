@@ -31,7 +31,7 @@ NVLink/NVSwitch 的战略价值，是把 scale-up communication 设计为平台�
 
 > 竞争者必须替代的不是一颗 GPU，而是“计算 + 内存 + 域内互联 + 软件执行模型”这一整组生产能力。
 
-因此，本报告不使用未经公开仪器验证的 ns 级延迟对比，也不把宣传性 benchmark 直接写成第三方实测结论。真正需要观察的是可复核的 production workload：迁移后吞吐、利用率、工程成本与可靠性是否仍有显著差距。
+因此，未经公开仪器验证的 ns 级延迟对比不进入正式证据层，宣传性 benchmark 也不被当作 independent measurement。真正需要观察的是可复核的 production workload：迁移后吞吐、利用率、工程成本与可靠性是否仍有显著差距。
 
 ## 3. CUDA / PTX 是 Cross-Generation Software Asset
 
@@ -109,7 +109,7 @@ NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
 
 因此，平台权力强并不意味着物理供给完全内生。TSMC、HBM、advanced packaging 和 power 中任一层失配，都可能成为下一代交付约束。
 
-这也是为什么本报告把 **Scarce-layer Value Capture** 与“市场份额垄断”分开。系统平台可以拥有很强的组织和出价能力，但仍然受到外部物理供应弹性约束。
+这一区分把 **scarce-layer value capture** 与“市场份额垄断”分开。系统平台可以拥有很强的组织和出价能力，但仍然受到外部物理供应弹性约束。
 
 ## 7. 真正的竞争挑战是第二套 System Stack
 
@@ -139,7 +139,7 @@ Google TPU / Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 的战略意
 
 ## 7A. 报道中的 Hugging Face 交易：平台权力可能从 Runtime 延伸到 Developer Distribution
 
-2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^6]截至本报告 evidence cutoff **2026-08-28**，本报告未取得 NVIDIA 或 Hugging Face 关于 closing、最终交易条件或监管批准的正式公告，因此仅把它记录为 **reported transaction**，而不是已经完成的 consolidation fact。
+2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^6]截至 **2026-08-28** evidence cutoff，尚无 NVIDIA 或 Hugging Face 的正式公告确认 closing、最终交易条件或监管批准，因此该事项仍记为 **reported transaction**，而不是已经完成的 consolidation fact。
 
 Hugging Face 的战略意义不只是“模型下载网站”。其官方产品覆盖 Hub、models、datasets、Spaces、Transformers 以及 inference/deployment products，把 model discovery、asset distribution、tooling、evaluation 与 deployment 连接在同一开发者入口中。[^7]
 
@@ -155,7 +155,7 @@ Hugging Face 的战略意义不只是“模型下载网站”。其官方产品�
 
 **hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand。**
 
-本报告把它作为 **developer-distribution / vertical-foreclosure risk** 的监测项，而不是新的承重理论；也不会预先把它写成已经完成的软件 foreclosure。
+因此，它只作为 **developer-distribution / vertical-foreclosure risk** 的监测项，不被升级成新的承重理论，也不被预先写成已经完成的软件 foreclosure。
 
 真正需要观察的，不是 Hugging Face 上是否仍然技术性地存在 non-NVIDIA hardware，而是 ownership 变化之后，平台默认路径是否出现持续、可测量的 NVIDIA 倾斜：
 
@@ -210,7 +210,7 @@ Hugging Face 的战略意义不只是“模型下载网站”。其官方产品�
 
 > **NVIDIA 当前拥有最成熟的商业化通用 AI system stack；hyperscaler 已经形成真实的第二条 system-stack 路线，但其替代程度必须用生产级 workload、迁移成本、利用率和上游资源依赖来验证。**
 
-这也是本报告后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
+这也是后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
 
 ## 10. 什么事实会改变当前判断
 
