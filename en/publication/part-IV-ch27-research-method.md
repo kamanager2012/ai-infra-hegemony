@@ -65,7 +65,7 @@ Example:
 
 A mechanism cannot collapse into "it is strong, therefore it will become stronger."
 
-It has to identify what changes, how the constraint transmits, and which evidence would show that the chain has broken.
+It must identify what changes, how the constraint transmits, and which evidence would show that the chain has broken.
 
 ## 5. S — Scenario
 
@@ -120,7 +120,7 @@ Examples:
 - a sell-side estimate of one customer's monthly CoWoS wafer count: **C**;
 - a report-side sensitivity or scenario input with explicit assumptions: **D**.
 
-Repeating the same number across multiple chapters does not automatically upgrade its evidence grade.
+Repeating the same number across multiple chapters does not by itself upgrade its evidence grade.
 
 ## 8. Dimensional consistency outranks narrative convenience
 
