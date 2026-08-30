@@ -226,6 +226,7 @@
   }
 
   async function showReader(n) {
+    document.body.classList.add("chapter-mode");
     $("homeView").classList.add("hidden");
     $("thesisView").classList.add("hidden");
     $("indexView").classList.add("hidden");
@@ -257,6 +258,7 @@
   }
 
   async function showPrintEdition() {
+    document.body.classList.remove("chapter-mode");
     $("homeView").classList.add("hidden");
     $("thesisView").classList.add("hidden");
     $("indexView").classList.add("hidden");
@@ -324,6 +326,7 @@
       return;
     }
 
+    document.body.classList.remove("chapter-mode");
     $("readerView").classList.add("hidden");
     $("printView").classList.add("hidden");
     document.title = (lang === "en" ? "The Age of AI Infrastructure Hegemony" : "AI基础设施霸权时代") + " — 2026 Research Report";
