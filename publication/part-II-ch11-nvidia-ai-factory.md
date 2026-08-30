@@ -1,6 +1,6 @@
-# Part II · 第11章：NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张
+# Part II · 第11章：NVIDIA 从 Accelerator Vendor 向 System Orchestration 扩张
 
-## 1. NVIDIA 的扩张方式不是传统 IDM 式纵向整合
+## 1. NVIDIA 通过 Orchestration 扩张，而不是通过 Fab Ownership 扩张
 
 NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center real estate 来控制系统。
 
@@ -96,7 +96,7 @@ NVIDIA 的系统扩张并非没有制衡：
 
 如果这些变量同时增强，NVIDIA 仍可能是最强 system platform，但 system definition 的议价能力会下降。
 
-## 9. “AI Factory” 的正确含义
+## 9. “AI Factory” 是 System-Design Concept，不是 Ownership Claim
 
 AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有权叙事。
 
