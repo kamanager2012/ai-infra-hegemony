@@ -32,7 +32,7 @@ UNESCO 的 AI Competency Framework for Students 定义 **12 项 competencies / 4
 
 UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI foundations 外，还包括 human-centred mindset、ethics、AI pedagogy 与 AI for professional learning。[^3]
 
-这两套框架与本报告的产业判断具有同一方向：
+这两套框架与更广泛的产业判断方向一致：
 
 > **AI literacy 不能退化成 prompt 技巧；长期有效能力必须同时包含判断、责任、系统理解、应用设计与验证。**
 
