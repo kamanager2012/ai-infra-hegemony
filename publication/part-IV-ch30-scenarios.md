@@ -1,27 +1,27 @@
-# Part IV · 第30章：S1–S4 四类标准情景
+# Part IV · 第30章：Scenario Discrimination——S1 到 S4
 
-## 1. Scenario Analysis 不是 Point Forecast
+## 1. Scenario 的作用是 Discrimination，不是 Storytelling
 
-本报告不为 2030 或 2036 给出一个唯一答案，也不使用固定 40% / 30% / 15% / 15% 之类权重。
+本报告不为 2030 或 2036 给出唯一答案，也不为 S1–S4 配置固定概率。
 
-情景由以下变量共同决定：
+Scenario framework 的作用更窄：**在当前证据下，哪一种 structural state 最符合事实；哪些 observable changes 会迫使判断迁移？**
+
+因此，scenario weighting 依赖可持续监测的 state variables：
 
 - layer-specific scarce-capacity access；
-- HBM supply；
-- advanced packaging；
-- cloud system-stack substitution；
-- Anchor Buyer long-duration demand；
-- power / Time-to-Power；
+- HBM / advanced-packaging supply；
+- second-stack substitution；
+- Anchor Buyer commitments；
+- power delivery / Time-to-Power；
 - software migration；
-- China parallel stack；
-- regulation；
-- utilization；
-- CapEx / financing discipline；
-- demand financing quality / supplier-assisted financing。
+- China closure tests；
+- utilization / monetization；
+- financing quality；
+- regulation / geopolitics。
 
-## 2. S1 — Competitive Expansion / 竞争性扩容
+## 2. S1 — Competitive Expansion：Supply 与 Substitution 跑赢 Concentration
 
-### 定义
+### Structural Condition
 
 AI demand 继续增长，但供给扩张与替代系统成熟速度足以降低 concentration。
 
@@ -35,7 +35,7 @@ AI demand 继续增长，但供给扩张与替代系统成熟速度足以降低 
 - power / energized capacity 跟上 buildout；
 - 多套 system stacks 在 production 中长期并存。
 
-### 经济结果
+### Economic Result
 
 dominant platform 仍然很大，但 buyer optionality 和 bargaining power 提高，scarcity premium 下行，value capture 更分散。
 
@@ -45,7 +45,7 @@ dominant platform 仍然很大，但 buyer optionality 和 bargaining power 提�
 
 而不是“AI infrastructure 消失”。
 
-### 2A. Supply-Response Overshoot：长建设周期也可能制造反向供给拐点
+### 2A. Supply-Response Overshoot 可以加速 S1
 
 Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短缺。Fab、memory 与 packaging 都具有较长建设 / qualification 周期，**当前高价格与高利润会刺激多家供应商同时扩产；当这些项目在相近窗口释放有效产出，而 demand growth 同时放缓时，某一层可以从 shortage 很快转向 headroom，甚至 oversupply。**
 
@@ -62,7 +62,7 @@ Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短�
 
 如果多个 scarce layers 的 supply growth 持续超过 demand growth、lead time 与 scarcity premium 同时下降，S1 权重应明显上升；如果同时伴随 utilization 与 clearing price 恶化，则还可能提高 S4 权重。
 
-## 3. S2 — Baseline Concentration / 基准集中
+## 3. S2 — Baseline Concentration：Growth 与 Concentration 共存
 
 ### 定义
 
@@ -84,7 +84,7 @@ Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短�
 
 截至 2026 年 8 月，这是最接近当前事实组合的**基准状态**，不是十年固定预测。
 
-## 4. S3 — Resource Hegemony / 资源霸权
+## 4. S3 — Resource Hegemony：Multi-Layer Concentration 自我强化
 
 ### 定义
 
@@ -101,13 +101,13 @@ demand growth 持续快于 substitution 与 supply expansion，多个 scarce lay
 - Anchor Buyer 与 seller forward commitments 持续扩大；
 - infrastructure finance 能持续吸收长期资本，且 workload monetization 足以支撑相关承诺。
 
-### 机制
+### Reinforcement Mechanism
 
 > high profit → stronger commitments / prepayment → greater future resource reservation → higher delivery certainty → stronger installed base / workload retention
 
 它描述的是 system-level resource coordination 强化，不是法律意义上的 monopoly verdict。
 
-## 5. S4 — Capital Hard Landing / 资本硬着陆
+## 5. S4 — Capital Hard Landing：Capital Formation 跑赢 Productive Demand
 
 ### 定义
 
@@ -127,7 +127,7 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 
 这些是**典型信号族，不是 five-of-five mandatory gate**。S4 的确认依赖 cross-signal confirmation + cross-actor / cross-layer causal breadth。Accounting impairment 属于 confirmation / severity evidence，而不是 prerequisite；financing-led 或 real-economy clearing 可以在 qualifying write-down 出现之前被确认。
 
-### 清算顺序
+### Clearing Order
 
 首先承压通常是：
 
@@ -140,7 +140,7 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 
 S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺激新的 application demand。
 
-## 5.1 四类标准情景的比较框架
+## 5.1 Comparative Scenario Matrix
 
 **Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号**
 
@@ -154,7 +154,7 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 **Source:** 本报告 S1–S4 scenario framework。  
 **Note:** 四类情景是并列条件状态，不赋固定概率，也不是必然连续阶段。
 
-## 5A. Capacity Gap 是诊断轴，不是第二套情景体系
+## 5A. Capacity Gap 是 Diagnostic Axis，不是第五种 Scenario
 
 AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 的定义和量纲规则已经在第8章完整给出，本章不再重复公式。
 
@@ -168,7 +168,7 @@ AI Capacity Gap、AI Capacity Growth Gap 与 Non-AI Residual Capacity 的定义�
 
 详细计算边界见[第8章：AI 基础设施量化框架与 Rolling Bottleneck Cascade](part-I-ch08-quantitative-framework.md)。
 
-## 6. 六类决定情景的变量
+## 6. 六类变量决定 Scenario Discrimination
 
 ### Supply
 
@@ -194,7 +194,7 @@ Anchor Buyer credit quality、third-party risk capital、supplier equity / credi
 
 export control、antitrust remedy、interface openness、industrial policy、regional fragmentation。
 
-## 7. Anchor Compute Buyer 与 Financing Reflexivity 是新的情景变量
+## 7. Anchor Buyer 与 Financing Quality 可以放大 Expansion 或 Clearing
 
 大型 model companies 的多年 compute commitments 已经可以影响 infrastructure financing、custom silicon、power 与 data-center buildout。
 
@@ -209,7 +209,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 所以 model-company contracts 与 seller-supported financing 都不能被当作普通 cloud customer spending。
 
-## 8. S2 → S1 的可观察信号
+## 8. 推动 S2 → S1 的 Signals
 
 - alternative system stacks 在 frontier / high-value production workload 中规模化；
 - HBM / packaging lead time 持续下降；
@@ -218,7 +218,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - power expansion 缩短 Time-to-Power；
 - buyer multi-sourcing 变成生产常态。
 
-## 9. S2 → S3 的可观察信号
+## 9. 推动 S2 → S3 的 Signals
 
 - seller forward commitments 持续快速扩大；
 - HBM / packaging tightness 跨代持续；
@@ -227,7 +227,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - scarce power / powered land 被少数 anchor buyers 长期锁定；
 - alternative stacks 无法在 production scale 形成足够选择权。
 
-## 10. S2 → S4 的可观察信号
+## 10. 推动 S2 → S4 的 Signals
 
 - CapEx guidance 连续下降；
 - utilization 下降；
@@ -238,7 +238,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - enterprise AI monetization 长期弱于 depreciation / operating cost；
 - supplier equity / credit support 占比上升，而独立 customer financing / third-party risk-taking 走弱。
 
-## 11. 为什么 S1、S2、S3、S4 不是顺序阶段
+## 11. Scenario 是 State，不是 Stage
 
 它们是并列条件状态。
 
@@ -246,7 +246,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 因此，本报告用 scenario weighting 描述**相对结构**，不将产业演化简化为单一路径。
 
-## 12. 当前基准
+## 12. Current Baseline：S2
 
 截至 2026 年 8 月，本报告的 baseline 是：
 
@@ -264,7 +264,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 这条 baseline 只在上述事实组合继续成立时有效；判别方法见 §12A。
 
-## 12A. 判别规则：S1–S4 之间如何用公开证据区分
+## 12A. Discrimination Rules
 
 情景之间按以下判别轴区分，而不是用单一总量指标：
 
@@ -276,7 +276,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 边界情形：若需求增速显著放缓，但尚未在多类 S4 信号族之间形成足够的 cross-signal confirmation 与 causal breadth，则按 substitution 强度归属——替代规模化扩大则 S1 权重上升；scarce-layer 仍紧则归入 S2（此时"需求高"应读作"需求增速仍高于有效供给增速"）。
 
-## 12B. 校准状态：这是公开代理状态机，不是已完成统计校准的分类器
+## 12B. Calibration Status
 
 截至本报告证据截止日，S1–S4 的判别轴已经明确，但**尚不存在经统计验证的统一数值阈值、固定观察窗口或自动切换规则**。
 
@@ -297,7 +297,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 ---
 
-## 13. Scenario Framework 的最终用途
+## 13. 如何使用这个 Framework
 
 未来每次更新时，不问：
 
