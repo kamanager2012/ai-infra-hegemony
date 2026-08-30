@@ -1,10 +1,10 @@
 # Part II · 第14章：Agent-Native Software 与 AI Software Unit Economics
 
-## 1. Agent-Native Software 改写的是成本结构
+## 1. Software Economics 的单位从 Seat 上移到 Workflow
 
-传统 SaaS 的典型特征是 software replication cost 低、seat 增长不一定线性增加 variable compute。
+传统 SaaS 可以在 seat 增长时不同比例增加 variable compute；Agent-native software 不能默认继承这种成本结构。
 
-Agent-native software 不同。一次任务可能触发 retrieval、reasoning、multiple model calls、tool invocation、browser/action execution、retry 与 human review。
+一次 workflow 可能触发 retrieval、reasoning、multiple model calls、tool invocation、browser/action execution、retry 与 human review。
 
 于是软件成本单位从：
 
@@ -14,7 +14,7 @@ Agent-native software 不同。一次任务可能触发 retrieval、reasoning、
 
 > **workflow execution**
 
-## 1A. 2026 Adoption Baseline：AI 已广泛进入企业，但 Agent Deployment 仍处早期
+## 1A. 2026 Baseline：AI 已广泛进入企业，Agent Deployment 仍处早期
 
 Stanford AI Index 2026 汇总的组织调查显示，**88%** 的受访组织报告已经使用 AI，**70%** 报告至少一个业务功能使用 Generative AI；但 AI agent 在几乎所有业务功能中的 deployment 仍处于**个位数比例**。[^3]
 
@@ -26,7 +26,7 @@ Stanford AI Index 2026 汇总的组织调查显示，**88%** 的受访组织报�
 
 Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对话增加到更长时间运行的 agentic tasks，并观察到更高 Compute 消耗与更高估计工作价值之间存在相关性。[^4] 但该数据来自 Anthropic 自身产品使用样本，不能直接代表整个企业软件市场。
 
-## 1B. AI Inheritance Effect：AI 继承的是几十年 Information Technology 的 Installed Base
+## 1B. AI Inheritance Effect：IT 就是 AI 的 Installed Base
 
 工业企业从纯物理流程走向信息化，通常需要补齐 sensor、network、database、software、identity、process digitization 与人员流程。已经完成较高程度信息化的企业则不同：ERP、CRM、MES、CAD/PLM、database、cloud、API、digital document、source code、identity/access 与 workflow logs 已经构成可复用的数字底座。
 
@@ -65,7 +65,7 @@ Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对�
 
 > **相对 Industrial → Digital，已经高度信息化的组织通常具有更低的 Digital → AI 边际改造成本；AI 的扩散可以继承 IT 时代的 installed base，但不能跳过生产级集成与责任约束。**
 
-## 2. 不存在统一的“AI SaaS 毛利率终点”
+## 2. 不存在统一的 AI-Software Margin Structure
 
 不同 agent 产品的 variable cost 取决于 model choice、context length、cache、retrieval、tool/API、failure/retry、human review、pricing model 与 task depth。
 
@@ -73,7 +73,7 @@ Anthropic 2026 Economic Index 也显示，其产品使用形态正在从短对�
 
 统一使用 **AI Software Unit Economics**。
 
-## 3. 核心单位经济公式
+## 3. Core Unit-Economics Identity
 
 生产级 workflow 可以近似写成：
 
@@ -90,7 +90,7 @@ Variable AI cost 至少包括：
 
 真正要优化的是 **cost per successfully completed workflow**，而不是单纯 cost per token。
 
-## 4. Agent Depth 决定成本曲线
+## 4. Agent Depth 改变 Cost Curve
 
 浅层 assistant 可能是 single prompt → single response。
 
@@ -105,7 +105,7 @@ loop depth 增加时，compute、tool usage 和 failure surface 一起上升。�
 - tool reliability；
 - failure / retry rate。
 
-## 5. Seat Pricing 为什么会受到挑战
+## 5. Seat Pricing 会受到挑战
 
 如果产品主要提供 summary、autocomplete 或 shallow assistant，seat pricing 仍然可行。
 
@@ -115,7 +115,7 @@ loop depth 增加时，compute、tool usage 和 failure surface 一起上升。�
 
 这不是说 seat pricing 会消失，而是 agent depth 会让纯 seat 与真实 variable cost 的相关性下降。
 
-## 6. Multi-model Routing 是新的基础软件能力
+## 6. Multi-Model Routing 正在变成 Infrastructure
 
 所有任务都调用最昂贵模型会直接破坏 unit economics。
 
@@ -128,7 +128,7 @@ loop depth 增加时，compute、tool usage 和 failure surface 一起上升。�
 
 routing 本质上是在质量、latency、cost 和 failure probability 之间动态分配资源。
 
-## 7. Open Source 会把利润从“模型能力”推向 Workflow / Distribution
+## 7. Open Source 会把 Profit 推向 Workflow / Distribution
 
 open-source model 提高 model portability，压低 API premium，也增加 private deployment 与 buyer bargaining power。
 
@@ -143,7 +143,7 @@ open-source model 提高 model portability，压低 API premium，也增加 priv
 - trust / compliance；
 - measurable outcome。
 
-## 8. Cloud System-Stack Competition 会向 Application 成本传导
+## 8. System-Stack Competition 会向 Application Cost 传导
 
 软件公司通常不会直接购买 HBM、CoWoS 或 grid capacity，但 cloud price 最终包含 accelerator、memory、network、data center 与 power。
 
@@ -151,7 +151,7 @@ open-source model 提高 model portability，压低 API premium，也增加 priv
 
 因此，Google Ironwood TPU、AWS Trainium3 等基础设施竞争不仅是芯片行业问题，也会影响 software contribution margin。[^1][^2]
 
-## 8A. Workflow Elasticity：单位成本下降不等于总基础设施需求下降
+## 8A. Workflow Elasticity：Unit Cost 下降不等于 Total Demand 下降
 
 Agent software 把模型调用转化成 workflow execution 后，总基础设施需求可以近似拆成：
 
@@ -180,7 +180,7 @@ Total AI Infrastructure Demand
 
 这也是为什么 agent adoption 既可能压低 model-layer margin，又可能扩大 cloud / accelerator / memory 的总使用量。
 
-## 9. Human Review 是经常被低估的变量成本
+## 9. Human Review 是 Variable-Cost Line
 
 在 legal、finance、enterprise operations 等高风险 workflow 中，human review 可能长期存在。
 
@@ -192,7 +192,7 @@ Total AI Infrastructure Demand
 
 而不是只统计 AI usage 或 generated tokens。
 
-## 10. Agent-Native Software 的高质量利润来自哪里
+## 10. Durable Software Profit 的来源
 
 长期更有机会形成高质量 economics 的产品通常具备：
 
@@ -206,7 +206,7 @@ Total AI Infrastructure Demand
 
 这意味着 software competition 正从 feature competition 上移到 **workflow economics competition**。
 
-## 11. 当前判断
+## 11. Current Read
 
 AI 正在把一部分 software 从低边际成本复制品变成实时消耗 compute 的工作流系统。
 
