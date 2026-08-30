@@ -41,7 +41,7 @@ That produces a powerful learning loop:
 
 Google's TPU path spans multiple generations.
 
-Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with XLA/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1]
+Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with Pathways runtime/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1]
 
 Google's competitive unit is therefore:
 
