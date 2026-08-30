@@ -85,7 +85,7 @@ AI infrastructure 不是一次性的 server purchase，而是多个经济寿命�
 
 NVIDIA、memory supplier、foundry 与 hyperscaler 都在“增加资本投入”，但它们的资本再生产对象并不相同。
 
-### System-platform seller
+**System-platform seller**
 
 现金流更直接用于：
 
@@ -98,7 +98,7 @@ NVIDIA、memory supplier、foundry 与 hyperscaler 都在“增加资本投入�
 
 其核心目标是提高下一代 scarce-resource access 与 system delivery certainty。
 
-### Hyperscaler / Anchor Buyer
+**Hyperscaler / Anchor Buyer**
 
 资本则需要覆盖：
 
@@ -148,7 +148,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 高 CapEx 可以有两种完全不同的含义。
 
-### 情形 A：高回报扩张
+**情形 A：高回报扩张**
 
 如果以下变量同步增长：
 
@@ -161,7 +161,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 那么大规模 CapEx 可以持续形成规模优势、供应优势与进入壁垒。
 
-### 情形 B：Overbuild
+**情形 B：Overbuild**
 
 如果同时出现：
 
@@ -208,21 +208,21 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 判断 Capital Hard Landing，应持续观察五类变量，但确认 S4 不要求 five-of-five 同时满足；关键是多类因果独立信号跨主体/层级形成广泛、持续的 cross-confirmation。
 
-### Accounting
+**Accounting**
 
 - impairment；
 - accelerated depreciation；
 - write-down；
 - asset-life assumption change。
 
-### Utilization / Revenue
+**Utilization / Revenue**
 
 - deployed compute utilization；
 - AI revenue；
 - cost per verified workflow；
 - revenue per unit of deployed infrastructure。
 
-### Market Clearing
+**Market Clearing**
 
 - used-system price；
 - cloud discount；
@@ -230,7 +230,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 - delivery lead time；
 - inventory。
 
-### Forward Commitment
+**Forward Commitment**
 
 - CapEx guidance；
 - supply commitments；
@@ -238,7 +238,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 - power contracts；
 - Anchor Buyer commitments。
 
-### Demand Quality / Financing
+**Demand Quality / Financing**
 
 - customer cash generation；
 - third-party capital 的 risk premium 与 commitment 变化；
