@@ -1,6 +1,6 @@
 {
-  "title": "The Age of AI Infrastructure Hegemony",
-  "title_zh": "AI基础设施霸权时代",
+  "title": "The Age of AI Infrastructure Hegemony: 2026–2036",
+  "title_zh": "AI基础设施霸权时代：2026–2036",
   "edition": "2026",
   "evidence_cutoff": "2026-08-28",
   "text_frozen": "2026-08-30",
@@ -12,5 +12,7 @@
   "chapters_per_language": 32,
   "public_appendices_per_language": 11,
   "rights": "All Rights Reserved",
-  "publication_model": "private-source-public-snapshot"
+  "publication_model": "private-source-public-snapshot",
+  "analysis_horizon": "2026–2036",
+  "baseline_year": 2026
 }
