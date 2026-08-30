@@ -310,6 +310,27 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 
 向 S1 移动也不能只依赖一个新 accelerator launch，而应看到真实 production workload、迁移成本和 supply elasticity 同时改善。
 
+## 12B. 五个最值得长期盯住的产业拐点
+
+为了让读者快速判断长期结构是否正在改变，可以把前述 Dashboard A–J 压缩成五个 headline tests。它们不是新的模型，也不是统一数值阈值，而是对现有监测框架的读者版摘要。
+
+1. **Non-AI Residual Capacity / Quantity Assurance 是否持续改善或恶化。**  
+   重点看 smartphone、PC、game console、automotive / industrial 等终端的 contract price、allocation fulfillment、lead time、configuration、promotion 与 qualified alternate，而不是只看全球总 wafer / memory capacity。
+
+2. **第二套 System Stack 是否跨过真实 production-workload 门槛。**  
+   重点看 Google / AWS / Microsoft / Meta custom systems 的 production workload share、external availability、migration cost、utilization 与 system TCO。单颗 accelerator benchmark 或一次发布不能证明系统级替代已经成立。
+
+3. **China Parallel Stack 是否同时改善 production-grade economics 与 autonomous closure。**  
+   既要看真实 workload、单位经济、software/runtime 与 cluster utilization，也要继续看 advanced logic、HBM-class memory、advanced packaging、equipment / materials / service continuity。可用系统与自主跨代闭环必须继续分开判断。
+
+4. **资本基数是否被 utilization、monetization 与独立融资能力覆盖。**  
+   重点看 revenue / utilization、used-system / lease clearing、forward commitments、customer cash generation、third-party risk capital、supplier support 与 refinancing dependency。技术资产寿命短于融资久期时，duration mismatch 会明显放大 S4 风险。
+
+5. **Power / LPS 是否真正从 secured 走到 energized / utilized。**  
+   重点不是 headline GW，而是项目从 Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized 的实际转换速度，以及 Time-to-Power 是否持续造成交付差异。
+
+这五项都不使用人为统一的“8 个季度”“30%–40%”之类硬阈值。只有在**同口径连续观察 + 两个以上独立机制维度互相印证**时，才足以推动 S1–S4 的实质重权重。
+
 ## 13. 更新纪律
 
 一条新闻不应该重写本报告。
