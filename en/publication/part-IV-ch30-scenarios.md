@@ -1,6 +1,6 @@
-# Part IV · Chapter 30: Scenario Discrimination — S1 to S4
+# Part IV · Chapter 30: Scenario Framework — Discriminating S1 to S4
 
-## 1. The purpose of scenarios is discrimination, not storytelling
+## 1. Scenarios are decision states, not narratives
 
 The framework does not assign one deterministic 2030 or 2036 outcome, and it does not attach fixed probabilities to S1–S4.
 
@@ -274,7 +274,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - enterprise AI monetization remains persistently below depreciation / operating cost;
 - supplier equity / credit support rises while independent customer financing / third-party risk-taking weakens.
 
-## 11. The scenarios are states, not stages
+## 11. These are states, not stages
 
 They are parallel conditional states.
 
