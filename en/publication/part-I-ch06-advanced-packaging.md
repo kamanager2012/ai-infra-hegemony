@@ -47,7 +47,7 @@ The evidence grade must remain **B — institutional estimate**. The figure is u
 - >60% being a 2026 actual;
 - NVIDIA possessing exclusive CoWoS rights.
 
-The correct use is: **highly concentrated demand has a real institutional anchor, while actual allocation still awaits first-party disclosure.**
+The defensible interpretation is: **highly concentrated demand has a real institutional anchor, while actual allocation still awaits first-party disclosure.**
 
 ## 5. Packaging is a separate physical denominator
 
@@ -69,7 +69,7 @@ The result is:
 
 > **logic wafer available ≠ system deliverable**
 
-Advanced nodes are closer to an entry ticket into a frontier system; advanced packaging can become the quantity gate that determines how many complete systems are delivered. Both matter, but their physical units and expansion clocks are different.
+Leading-edge logic is only one prerequisite for a frontier system. Advanced packaging can become the quantity gate that determines how many complete systems are delivered. Both matter, but their physical units and expansion clocks are different.
 
 ## 7. Incremental access must be measured at the packaging layer
 
@@ -121,12 +121,15 @@ A frontier AI parallel stack cannot be judged from logic nodes alone. Even if ac
 As of August 2026, the most defensible conclusions are:
 
 - TSMC has confirmed advanced-packaging tightness with first-party evidence;
+- packaging tightness has become a customer-growth constraint;
 - TrendForce provides a B-grade institutional anchor for highly concentrated NVIDIA CoWoS demand;
 - customer-level allocation remains undisclosed by TSMC;
-- 5.37 wafers/rack is only a D-grade geometry stress test;
-- custom silicon can still compete for the same upstream scarce resources.
+- cloud custom systems still compete for the same upstream scarce resources;
+- packaging remains an independent frontier-system closure gate, separate from leading-edge logic.
 
-The judgment that advanced packaging is a core scarce layer should be weakened if TSMC stops describing packaging as a growth constraint, lead times fall materially, customer-level allocation becomes more distributed, and HBM/packaging supply elasticity continues to improve.
+Advanced packaging should therefore remain one of the core scarce layers in the current AI-infrastructure baseline.
+
+That judgment should be weakened if TSMC stops describing packaging as a growth constraint, lead times fall materially, capacity expansion persistently outpaces demand growth, customer access becomes more distributed, and HBM/substrate/packaging-integration supply elasticity improves materially.
 
 ## References
 
