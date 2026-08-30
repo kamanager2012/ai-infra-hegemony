@@ -6,7 +6,7 @@ The relevant condition is:
 
 > **When hardware refresh / economic obsolescence runs faster than workload monetization, the installed asset base starts to compress returns and change the next round of capital formation.**
 
-The depreciation wall therefore has to be read together with utilization, revenue, residual value, and next-generation investment.
+The depreciation wall has to be read together with utilization, revenue, residual value, and next-generation investment.
 
 ## 2. Accounting useful lives differ across the major clouds
 
@@ -34,7 +34,7 @@ That is **economic obsolescence**.
 
 Conversely, a data-center shell, substation, or PPA often has a much longer economic life than one accelerator generation.
 
-The fundamental mismatch is therefore:
+The fundamental mismatch is:
 
 > **short-cycle compute vs. long-cycle physical infrastructure**
 
@@ -55,7 +55,7 @@ That is why a Capital Hard Landing is unlikely to complete in a single quarter.
 
 As a **D-grade sensitivity example**, the same **US$100B** investment has very different economics at **90%** utilization and **30%** utilization. US$100B, 90%, and 30% are illustrative inputs, not industry actuals.
 
-The analysis therefore has to include:
+The analysis has to include:
 
 > **Revenue / Deployed Compute**
 
@@ -75,7 +75,7 @@ That is why Chapter 24 treats Market Clearing as an independent S4 signal.
 
 If a new architecture can perform the same workload with less HBM, compute, or communication, an older system can lose competitiveness on cost per task even while it remains physically functional.
 
-Software and model innovation can therefore change hardware economic life directly.
+Software and model innovation can change hardware economic life directly.
 
 ### 7A. Efficiency–utilization break-even: the arithmetic has to close
 
@@ -95,7 +95,7 @@ D1 / D0 = (I1 / I0) × (V1 / V0)
 
 where (I) is resource intensity per comparable workload and (V) is workload volume.
 
-The break-even condition for keeping aggregate resource demand unchanged is therefore:
+The break-even condition for keeping aggregate resource demand unchanged is:
 
 ```text
 V1 / V0 = I0 / I1
@@ -103,7 +103,7 @@ V1 / V0 = I0 / I1
 
 This is an identity, not a forecast. If a hypothetical architecture reduces comparable resource intensity by **90%** ((I1/I0 = 0.1)), workload volume would have to rise **10×** merely to keep aggregate resource demand unchanged. The report does **not** claim that a 90% efficiency gain or a 10× workload increase will occur; the example is a D-grade sensitivity check.
 
-For existing assets, the hurdle is stricter than aggregate break-even. New workload can migrate disproportionately toward newer systems with better cost per task, memory efficiency, power efficiency, or software support. Aggregate compute demand can therefore remain flat or even grow while an older generation's utilization and residual value deteriorate.
+For existing assets, the hurdle is stricter than aggregate break-even. New workload can migrate disproportionately toward newer systems with better cost per task, memory efficiency, power efficiency, or software support. Aggregate compute demand can remain flat or even grow while an older generation's utilization and residual value deteriorate.
 
 This converts the efficiency question into an observable capital test:
 
@@ -112,7 +112,7 @@ This converts the efficiency question into an observable capital test:
 - how workload shifts across hardware generations;
 - whether older-system utilization / lease rates / resale values fall faster than accounting depreciation.
 
-Algorithmic progress is therefore neither automatically expansionary nor contractionary for infrastructure demand. It is a **capital-recovery variable** whose effect depends on workload growth and generation-level allocation.
+Algorithmic progress is neither automatically expansionary nor contractionary for infrastructure demand. It is a **capital-recovery variable** whose effect depends on workload growth and generation-level allocation.
 
 ---
 
@@ -122,7 +122,7 @@ In S2/S3 high-demand environments, long-duration power / grid assets can become 
 
 In S4, the same PPA, substation, or data-center shell can become a long-duration low-utilization burden.
 
-Asset value therefore depends on demand duration. "Power assets are always safe" is not a valid assumption.
+Asset value depends on demand duration. "Power assets are always safe" is not a valid assumption.
 
 ## 9. Anchor Buyers lower financing risk while concentrating demand risk
 
@@ -130,7 +130,7 @@ Long-duration model-company compute contracts improve revenue visibility and can
 
 But if an anchor buyer's revenue, financing, or architecture assumptions change, take-or-pay exposure, renegotiation, and stranded-capacity risk can become concentrated.
 
-Customer concentration and contract duration therefore have to be analyzed together with useful life.
+Customer concentration and contract duration have to be analyzed together with useful life.
 
 ## 9A. Financing structure can move losses without eliminating them
 
