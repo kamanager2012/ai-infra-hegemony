@@ -4,7 +4,7 @@
 
 **Current baseline (evidence cutoff: August 28, 2026): S2 — Baseline Concentration.**
 
-Chapter 1 already provides the report's eight load-bearing findings as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four adjudication tests and explains why the current state remains S2.
+Chapter 1 already provides the report's eight load-bearing findings as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four evaluation tests and explains why the current state remains S2.
 
 ### Test A — Has system power become irreplaceable multi-layer control?
 
@@ -403,7 +403,7 @@ Five analytical layers govern the judgment:
 - **S — Scenario:** a future structural state created by several conditions;
 - **X — Falsification:** reverse signals strong enough to weaken, rewrite, or invalidate the original judgment.
 
-**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+**Mechanism-break override:** breadth requirements govern **system-level scenario classification**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
 
 The purpose is to prevent:
 
