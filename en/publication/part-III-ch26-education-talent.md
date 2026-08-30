@@ -1,5 +1,7 @@
 # Part III · Chapter 26: Education and Talent Systems in the AI Era
 
+> **Role in the report — second-order talent-system module.** Education and skills indicators describe adaptation to the AI production system. They are downstream implications, not evidence that upstream infrastructure concentration or any S1–S4 state has been established.
+
 ## 1. Durable talent advantage comes from system understanding, not tool familiarity
 
 Prompting, model calls, and basic automation can commoditize quickly. Durable advantage comes from understanding how models, software, compute, data, power, economics, and responsibility interact in a production system.

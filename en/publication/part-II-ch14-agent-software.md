@@ -1,5 +1,7 @@
 # Part II · Chapter 14: Agent-Native Software and AI Software Unit Economics
 
+> **Role in the report — demand-side validation module.** This chapter tests whether installed AI infrastructure can convert into repeatable, monetizable workflows. It informs demand duration and utilization, but it is not direct evidence of scarce-layer allocation and does not independently determine S1–S4.
+
 ## 1. The unit of software economics moves from seat to workflow
 
 Traditional SaaS can often add seats without proportional variable compute. Agent-native software cannot assume that cost structure.

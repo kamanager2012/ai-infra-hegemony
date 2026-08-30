@@ -1,5 +1,7 @@
 # Part III · Chapter 25: AI and Labor Markets — The Task-to-Job Translation Layer
 
+> **Role in the report — second-order transmission module.** Labor-market evidence is used to examine downstream consequences of workflow adoption. It does not validate semiconductor scarcity, platform concentration, or capital clearing, and it does not independently move the S1–S4 baseline.
+
 ## 1. AI changes tasks before job structures
 
 Jobs are bundles of tasks, and those tasks differ in automation cost, review burden, liability, physical presence, and trust.

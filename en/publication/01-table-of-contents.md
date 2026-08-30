@@ -28,6 +28,18 @@ For readers focused specifically on how AI infrastructure restructures resources
 
 Ch25–Ch26 (labor and education) are **second-order transmission / extended-impact chapters**. They examine how infrastructure change can propagate into labor and talent systems, but they are not load-bearing inputs to the S1–S4 scenario framework.
 
+### Analytical weight of the 32 chapters
+
+The 32 chapters do **not** carry equal evidentiary weight. Their roles are:
+
+- **Synthesis:** Ch01, Ch32 — compress the judgment; they do not create independent evidence by repetition.
+- **Core industrial mechanisms:** Ch03–Ch08, Ch12–Ch13, Ch17, Ch19–Ch20, Ch24 — the main causal spine for resource allocation, system substitution, capital formation, and clearing.
+- **Supporting industry modules:** Ch02, Ch09–Ch11, Ch16, Ch18, Ch21–Ch23 — deepen specific firms, supply-chain segments, policy boundaries, downstream transmission, or financing structure.
+- **Demand-side / second-order extensions:** Ch14–Ch15, Ch25–Ch26 — test how infrastructure economics may propagate into software workflows, Physical AI, labor, and talent systems; these chapters do not independently determine S1–S4.
+- **Method and adjudication:** Ch27–Ch31 — define evidence rules, monitoring, scenarios, milestones, and strategic optionality rather than adding another physical bottleneck.
+
+This hierarchy is deliberate: **coverage is broad, but the report does not pretend every topic is researched at the same depth or is equally load-bearing.**
+
 ## Part I — System Power and Physical Scarcity
 
 1. [Executive Summary](part-I-ch01-executive-summary.md)

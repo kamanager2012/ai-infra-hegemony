@@ -28,6 +28,18 @@ NVIDIA、Hyperscaler、中国 parallel stack 与情景章节是解释**为什么
 
 Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，用于讨论 AI 基础设施变化如何进一步作用到劳动力与人才体系；它们不是 S1–S4 情景框架的核心承重输入。
 
+### 32 章的分析权重
+
+32 章并不具有相同 evidentiary weight，其职责分为：
+
+- **Synthesis：** Ch01、Ch32——负责压缩总判断，不因重复总结而产生新的独立证据。
+- **Core industrial mechanisms：** Ch03–Ch08、Ch12–Ch13、Ch17、Ch19–Ch20、Ch24——构成资源配置、system substitution、capital formation 与 clearing 的主要因果主链。
+- **Supporting industry modules：** Ch02、Ch09–Ch11、Ch16、Ch18、Ch21–Ch23——用于深化具体公司、供应链环节、政策边界、下游传导或融资结构。
+- **Demand-side / second-order extensions：** Ch14–Ch15、Ch25–Ch26——检验基础设施 economics 如何进一步传导到 software workflow、Physical AI、劳动与人才体系；这些章节不能独立决定 S1–S4。
+- **Method and adjudication：** Ch27–Ch31——负责证据规则、monitoring、scenario、milestone 与 strategic optionality，不等于又增加一个 physical bottleneck。
+
+这种分层是刻意的：**覆盖可以很广，但本报告不假装所有主题深度相同，也不把所有章节当成同等承重证据。**
+
 ## Part I — 系统权力与物理稀缺
 
 1. [执行摘要](part-I-ch01-executive-summary.md)

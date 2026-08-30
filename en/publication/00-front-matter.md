@@ -15,6 +15,8 @@
 
 This report is a 32-chapter long-form industry study of AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, Agent-Native Software, Physical AI, labor and talent systems, and structural industrial change.
 
+**Analytical hierarchy:** the report is broad by design, but the chapters do not carry equal evidentiary weight. Physical-resource allocation, system substitution, capital formation, and clearing form the load-bearing industrial spine. Agent-native software and Physical AI are demand-side extensions; labor and talent chapters are second-order transmission modules. The full role map is stated in the Table of Contents.
+
 The report separates:
 
 - observed and verifiable facts (F — Fact);

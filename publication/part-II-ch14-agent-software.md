@@ -1,5 +1,7 @@
 # Part II · 第14章：Agent-Native Software 与 AI Software Unit Economics
 
+> **本章角色——Demand-side validation module。** 本章检验 installed AI infrastructure 能否转化为可重复、可收费的 workflow，并影响 demand duration 与 utilization；但它不是 scarce-layer allocation 的直接证据，也不能独立决定 S1–S4。
+
 ## 1. Software Economics 的单位从 Seat 上移到 Workflow
 
 传统 SaaS 可以在 seat 增长时不同比例增加 variable compute；Agent-native software 不能默认继承这种成本结构。

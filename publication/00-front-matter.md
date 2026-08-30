@@ -17,6 +17,8 @@
 
 本报告是一份关于 AI infrastructure、semiconductors、memory、advanced packaging、hyperscaler system stacks、power、capital、Agent-Native Software、Physical AI、劳动与人才体系，以及产业结构变化的长期行业研究。正文共 32 章。
 
+**分析层级：** 本报告覆盖面较广，但 32 章并非同等 evidentiary weight。physical-resource allocation、system substitution、capital formation 与 clearing 构成承重产业主链；Agent-Native Software 与 Physical AI 属于 demand-side extension；劳动与人才章节属于 second-order transmission module。完整章节职责分层见目录。
+
 报告区分：
 
 - 已发生且可验证的事实（F — Fact）；

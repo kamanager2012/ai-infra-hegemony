@@ -1,5 +1,7 @@
 # Part III · 第26章：AI 时代教育与人才体系
 
+> **本章角色——Second-order talent-system module。** 教育与技能指标用于描述 AI production system 的适配过程，属于下游影响，不构成 upstream infrastructure concentration 或任何 S1–S4 状态已经成立的证据。
+
 ## 1. Durable Talent Advantage 来自 System Understanding，不是 Tool Familiarity
 
 prompting、model calling 与基础 automation 很容易商品化。更耐久的竞争力来自对 model、data、compute、memory、software、network、power、economics 与 responsibility 如何在 production system 中共同作用的理解。

@@ -1,5 +1,7 @@
 # Part III · 第25章：AI 与劳动市场——Task-to-Job Translation
 
+> **本章角色——Second-order transmission module。** 劳动力市场证据用于分析 workflow adoption 的下游影响；它不能反向证明 semiconductor scarcity、platform concentration 或 capital clearing，也不能独立推动 S1–S4 改判。
+
 ## 1. AI 首先改变 Task，再改变 Job Structure
 
 Job 是多个 task 的组合，而不同 task 的 automation cost、review burden、liability、physical presence 与 trust 要求并不相同。

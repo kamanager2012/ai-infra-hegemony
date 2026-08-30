@@ -1,5 +1,7 @@
 # Part II · 第15章：Physical AI 与机器人系统的真正瓶颈
 
+> **本章角色——Extended physical-economy module。** 本章研究一个 AI infrastructure、edge compute、power、safety 与 manufacturing economics 交汇的下游领域；不预设 robotics 已经是 frontier infrastructure scarcity 的主要驱动力，也不是当前 S2 baseline 的承重输入。
+
 ## 1. Robotics 是 System-Closure Problem
 
 Physical AI 必须同时闭合 perception、planning、control、actuation、power、safety 与 mechanical reliability。

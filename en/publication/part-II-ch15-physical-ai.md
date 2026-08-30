@@ -1,5 +1,7 @@
 # Part II · Chapter 15: Physical AI and the Real Bottlenecks in Robotics
 
+> **Role in the report — extended physical-economy module.** This chapter examines one downstream domain where AI infrastructure, edge compute, power, safety, and manufacturing economics interact. It does not assume robotics is already a primary driver of frontier-infrastructure scarcity and is not a load-bearing input to the current S2 baseline.
+
 ## 1. Robotics is a system-closure problem
 
 Physical AI has to close perception, planning, control, actuation, power, safety, and mechanical reliability at the same time.
