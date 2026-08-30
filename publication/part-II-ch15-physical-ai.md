@@ -189,7 +189,7 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 - manufacturing / integration；
 - cloud simulation / training infrastructure。
 
-机器人革命的真正竞争不是“谁模型 benchmark 最好”，而是：
+长期 robotics competition 的核心并不是“谁模型 benchmark 最好”。真正的产业检验是：
 
 > **谁能把 AI capability 转化成可靠、低成本、可量产、可维护，而且能够以足够高 utilization 回收资本的物理工作。**
 
