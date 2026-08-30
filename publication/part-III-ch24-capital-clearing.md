@@ -38,7 +38,7 @@ AI infrastructure 的高投资本身不能证明泡沫；同样，seller margin 
 
 NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。**这一结论只否定“广泛撤单已经发生”，并不证明独立终端需求健康、buyer ROI 健康或融资质量高。** Forward commitments 的证据权重必须与本章第7节 Demand Quality / Supplier-Assisted Financing 一起读取。
 
-## 3. 真正的信号是 Divergence，不是合成的 Global CapEx Total
+## 3. 真正的 Signal 是 Divergence，不是 Synthetic Global Total
 
 四大 hyperscaler 的 CapEx / PPE / finance-lease 口径并不一致，因此完整资本基数和会计边界已经在第19章单独处理。
 
@@ -95,7 +95,7 @@ Infrastructure Demand
 
 所以模型价格下降或算法效率提升，都不能单独证明 overcapacity。
 
-## 6. Anchor Compute Buyer 增加了新的 Leading Indicator
+## 6. Anchor Compute Buyer 增加新的 Leading Indicator
 
 OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租户上升为基础设施 anchor buyer。它们可以提高项目融资确定性，让数据中心、电力、芯片和内存提前建设。
 
@@ -108,7 +108,7 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 如果这些变量与 buyer utilization、市场清算价格一起转弱，资本硬着陆的证据强度会明显上升。
 
-## 7. Demand Quality：必须区分 Independent Demand 与 Supplier-Assisted Financing
+## 7. Demand Quality：区分 Independent Demand 与 Supplier-Assisted Financing
 
 当 system seller 同时参与客户 equity investment、credit enhancement、LPS support 或 infrastructure financing 时，seller-side order visibility 不能完全等同于独立终端需求强度。
 
