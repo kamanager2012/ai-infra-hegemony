@@ -2,7 +2,7 @@
 
 ## 1. Final industrial judgment
 
-As of **August 28, 2026**, the report's master judgment can be compressed into seven points.
+As of **August 28, 2026**, the report's master judgment can be compressed into eight points.
 
 **First, the competitive unit in AI infrastructure has moved from the individual chip to the full system stack.**  
 GPU share, ASIC announcements, or a single benchmark no longer explain industrial power adequately. The relevant unit now includes advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, rack/pod architecture, data centers, power, and real workloads operating as a high-utilization commercial system.
@@ -10,19 +10,22 @@ GPU share, ASIC announcements, or a single benchmark no longer explain industria
 **Second, AI is changing where the next dollar of semiconductor and infrastructure capital goes.**  
 Capital-intensive AI/HPC buyers often offer greater willingness to pay, longer order duration, stronger prepayment and financing capacity, and better demand visibility. That gives them increasing influence over the formation of incremental advanced-logic, HBM, packaging, data-center, and power capacity.
 
-**Third, long-run value capture depends less on historical market share than on sustained access to incremental scarce capacity at each physical layer.**  
+**Third, traditional end systems have not become unimportant; what has changed is the certainty with which they can obtain effective supply from shared or adjacent upstream layers under the old rules.**  
+Smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, and long-lifecycle high-reliability electronics do not face one identical shortage mechanism. They must be evaluated separately through residual capacity, quantity assurance, qualification rigidity, and supplier product mix. Transmission is more direct where end systems share advanced logic, memory, or selected packaging with AI; for trusted / long-life / special-process supply, the mechanism must instead be demonstrated through continuity and supplier economics.
+
+**Fourth, long-run value capture depends less on historical market share than on sustained access to incremental scarce capacity at each physical layer.**  
 The correct question is not one cross-layer "capture ratio." It is whether a platform can repeatedly obtain enough qualified supply, at the right time, across advanced logic, HBM, packaging, networking, and LPS/power.
 
-**Fourth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
+**Fifth, hyperscaler custom systems and China's parallel stack are creating real substitution paths, but substitution does not eliminate upstream physical constraints.**  
 A second system stack can divert platform profit while still competing for the same advanced logic, HBM, packaging, and power.
 
-**Fifth, the primary capital risk has shifted from "is there demand?" to "can utilization, monetization, and independent financing capacity grow fast enough to cover the expanding capital base?"**  
+**Sixth, the primary capital risk has shifted from "is there demand?" to "can utilization, monetization, and independent financing capacity grow fast enough to cover the expanding capital base?"**  
 Headline CapEx is neither proof of a boom nor proof of a bubble. A Capital Hard Landing requires **cross-signal confirmation plus cross-actor / cross-layer causal breadth across multiple independent signal families**. Accounting losses are high-value confirmation / severity evidence, but they are not a mandatory gate.
 
-**Sixth, infrastructure expansion only completes the demand-side loop when it becomes verifiable, repeatable, monetizable workflow output.**  
-Agent-native software, Physical AI, and enterprise automation ultimately face the same economic test: how much compute, energy, human review, and capital are required per verified result, and whether the resulting business value can sustainably cover those costs. Lower unit compute cost does not imply lower total demand if cheaper intelligence unlocks more workflows.
+**Seventh, infrastructure expansion only completes the demand-side loop when it becomes verifiable, repeatable, monetizable workflow output.**  
+This is a **long-run economic criterion, not an empirically calibrated fact metric as of the August 28, 2026 evidence cutoff**. Public studies still rarely join compute, energy, human review, failure/retry, capital, persistence, and realized business value on the same workflow denominator. Agent-native software, Physical AI, and enterprise automation ultimately face the same economic test.
 
-**Seventh, the next decade is not one deterministic curve.**  
+**Eighth, the next decade is not one deterministic curve.**  
 The 2026–2036 outcome will be determined by supply elasticity, system substitution, workload economics, capital discipline, power, financing quality, and the maturity of production-grade and autonomous parallel stacks.
 
 The central industrial question is therefore not "who wins the AI chip war?"
