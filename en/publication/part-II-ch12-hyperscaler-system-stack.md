@@ -221,7 +221,7 @@ The report therefore does not generalize frontier-training interconnect barriers
 - cloud-specific TCO optimization;
 - captive distribution.
 
-The boundary will move with software maturity, memory supply, interconnect, workload structure, and migration cost.
+The boundary depends on software maturity, memory supply, interconnect, workload structure, and migration cost.
 
 ---
 
