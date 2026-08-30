@@ -37,14 +37,14 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 5. [HBM Economics——Manufacturing Intensity、Residual Capacity 与 Memory Scarcity](part-I-ch05-hbm-memory.md)
 6. [Advanced Packaging——Wafer 与 Deliverable System 之间的 Quantity Gate](part-I-ch06-advanced-packaging.md)
 7. [Time-to-Power——从 Rack Density 到 Deployable AI Capacity](part-I-ch07-power-constraint.md)
-8. [Quantification Boundaries——什么能量化、什么不能、为什么](part-I-ch08-quantitative-framework.md)
+8. [Quantitative Framework——Denominator Closure、Stress Test 与 Public-Data Limits](part-I-ch08-quantitative-framework.md)
 9. [全球半导体供应链与制造冗余](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II — 需求、替代与第二系统栈
 
 10. [模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)
 11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
-12. [The Second System Stack——Hyperscaler Substitution Economics](part-II-ch12-hyperscaler-system-stack.md)
+12. [第二类 System Stack——Hyperscaler Substitution 如何真正成立](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyers——Long-Duration Demand 如何提前拉动 Infrastructure](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
@@ -54,12 +54,12 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 
 ## Part III — 资本周期、利润池与外部传导
 
-19. [AI Infrastructure Capital Formation、Duration Mismatch 与 Utilization Test](part-III-ch19-capex-supercycle.md)
+19. [AI Infrastructure Capital Formation——Duration Mismatch、Utilization 与 Demand Duration](part-III-ch19-capex-supercycle.md)
 20. [AI Infrastructure Stack 的 Value Capture 与 Risk Bearing](part-III-ch20-value-capture-map.md)
 21. [AI 如何重定价消费电子与其他终端系统](part-III-ch21-consumer-transmission.md)
 22. [折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)
-24. [Capital Clearing——Lead Indicators、Demand Quality 与 S4](part-III-ch24-capital-clearing.md)
+24. [Capital Clearing——Lead Indicators、Demand Quality 与 S4 Test](part-III-ch24-capital-clearing.md)
 25. [AI 与劳动市场——Task-to-Job Translation](part-III-ch25-labor-market.md)
 26. [AI 时代教育与人才体系](part-III-ch26-education-talent.md)
 
@@ -67,8 +67,8 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 
 27. [研究方法与证据架构](part-IV-ch27-research-method.md)
 28. [2026–2036 时间线与阶段性里程碑](part-IV-ch28-timeline-2026-2036.md)
-29. [Monitoring Dashboard——State Variables、Inflection Tests 与 Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
-30. [Scenario Discrimination——S1 到 S4](part-IV-ch30-scenarios.md)
+29. [Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
+30. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
 32. [Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
