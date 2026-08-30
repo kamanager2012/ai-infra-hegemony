@@ -71,7 +71,7 @@
       formalSubtitle:"Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital",
       heroSummary:"The core question is no longer which accelerator is fastest. It is which system stacks can secure scarce capacity, turn it into production workloads, and keep the economics working as supply expands, algorithms improve, and alternative stacks mature.",
       start:"Start with the thesis",master:"Read the master judgment",print:"Print / Save PDF",
-      indexTitle:"Research map",indexNote:"Start with Ch03 Residual Capacity, Ch12 the Second System Stack, Ch17 China Parallel Stack, or Ch30 the scenario framework.",
+      indexTitle:"Research map",indexNote:"Start with Ch03 Residual Capacity, Ch12 the Second System Stack, Ch17 China Parallel Stack, or Ch21 Consumer Transmission.",
       back:"Report home",copyLink:"Copy chapter link",copied:"Copied",printChapter:"Print chapter",
       prev:"Previous",next:"Next",
       thesis:[
