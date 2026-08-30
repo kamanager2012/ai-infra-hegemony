@@ -18,7 +18,7 @@
 如果只希望快速理解核心结论：
 
 1. [执行摘要](part-I-ch01-executive-summary.md)
-2. [Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
+2. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 3. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 
 如果需要核验研究方法与证据边界：
@@ -72,7 +72,7 @@
 29. [Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
 30. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 31. [2036 终局与战略选择](part-IV-ch31-strategy-endgame.md)
-32. [Master View——什么决定 AI Infrastructure Power，什么事实会改变判断](part-IV-ch32-master-judgment.md)
+32. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 ## 研究附录
 
