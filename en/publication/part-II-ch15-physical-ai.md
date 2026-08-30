@@ -22,7 +22,7 @@ Many Physical AI systems naturally follow:
 
 > **cloud-side heavy training + edge-side compressed inference/control**
 
-A roughly 120 kW-class data-center rack and a robot's W/Wh-level power budget belong to completely different physical pools.[^4]
+A roughly 120 kW-class DGX GB rack system and a robot's onboard power / energy budget belong to different physical pools.[^4]
 
 ## 3. Robot BOM is form-factor specific
 
@@ -34,15 +34,9 @@ The analytical task is to identify the **scarce component** for each robot form 
 
 ## 4. Mechanical precision can remain scarce after compute commoditizes
 
-The software narrative can easily understate mechanical bottlenecks such as:
+The software narrative can easily understate mechanical constraints. Illustrative engineering examples include frameless torque motors, harmonic reducers, planetary roller screws, bearings, and precision gearboxes.
 
-- frameless torque motors;
-- harmonic reducers;
-- planetary roller screws;
-- bearings;
-- precision gearboxes.
-
-The key variables include durability, backlash, repeatability, noise, yield, maintenance, and cost.
+**Scope note:** These examples are not presented as a sourced market-share or industry-wide bottleneck ranking. The report uses them to identify mechanical variables—durability, backlash, repeatability, noise, yield, maintenance, and cost—that can remain binding even when compute becomes cheaper.
 
 The industry can reach a state where:
 
@@ -58,7 +52,7 @@ The strategic value of the sensor stack is not just BOM share. It is closed-loop
 
 ## 6. Edge-platform advantage is workload-specific
 
-NVIDIA Jetson Thor, Qualcomm, and other edge accelerators compete across:[^1][^2]
+NVIDIA Jetson Thor and other edge-accelerator platforms compete across:[^1][^2]
 
 - compute;
 - software;
@@ -209,6 +203,6 @@ The industrial test is:
 ## References
 
 [^1]: NVIDIA Developer, Isaac platform, simulation/training and robotics workflow, https://developer.nvidia.com/isaac
-[^2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
+[^2]: NVIDIA, 2026-05-31, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 [^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Micron_Q3_26_Earnings_Deck.pdf
-[^4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^4]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
