@@ -105,7 +105,7 @@ This can produce:
 
 > **looser supply in an older HBM generation while the next frontier generation remains constrained.**
 
-Oversupply in one generation does not automatically solve qualification, yield, and packaging constraints in the next.
+Oversupply in one generation does not by itself solve qualification, yield, and packaging constraints in the next.
 
 ## 10. Inference can shift the bottleneck without eliminating memory economics
 
