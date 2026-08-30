@@ -46,8 +46,11 @@
 
   const copy = {
     zh:{
-      heroTitle:"AI基础设施霸权时代：2026–2036产业前瞻研究报告",
-      heroSubtitle:"全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构",
+      heroKicker:"产业前瞻研究报告 · 32章 · 中英双语",
+      heroTitle:"AI基础设施霸权时代",
+      heroSubtitle:"2026–2036：算力如何重塑芯片、存储、电力、资本与全球产业秩序",
+      formalTitle:"AI基础设施霸权时代：2026–2036产业前瞻研究报告",
+      formalSubtitle:"全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构",
       heroSummary:"一份以事实、机制、情景与可证伪标准为核心的长期行业研究报告。研究 AI 从单颗 accelerator 竞争上移到完整 system stack 后，如何改变上游资源配置、资本形成、传统终端与未来十年的产业结构。",
       start:"开始阅读",master:"直接看总判",print:"打印 / 保存 PDF",
       indexTitle:"32 章正式版",indexNote:"推荐先读 Ch01 → Ch32 → Ch30，再按主题进入完整章节。",
@@ -61,8 +64,11 @@
       ]
     },
     en:{
-      heroTitle:"The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report",
-      heroSubtitle:"Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital",
+      heroKicker:"INDUSTRY OUTLOOK RESEARCH REPORT · 32 CHAPTERS · BILINGUAL",
+      heroTitle:"The Age of AI Infrastructure Hegemony",
+      heroSubtitle:"2026–2036: How Compute Reshapes Chips, Memory, Power, Capital, and the Global Industrial Order",
+      formalTitle:"The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report",
+      formalSubtitle:"Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital",
       heroSummary:"A long-form industry research report built around facts, mechanisms, scenarios, and falsification criteria. It examines how the shift from individual accelerators to complete system stacks changes upstream resource allocation, capital formation, traditional end markets, and the industrial structure of the next decade.",
       start:"Read the report",master:"Go to Master Judgment",print:"Print / Save PDF",
       indexTitle:"Formal 32-Chapter Edition",indexNote:"For the fastest path, read Ch01 → Ch32 → Ch30, then enter the full report by topic.",
@@ -207,6 +213,7 @@
     $("langToggle").textContent = lang === "zh" ? "EN" : "中文";
     $("readerLangToggle").textContent = lang === "zh" ? "EN" : "中文";
 
+    $("heroKicker").textContent = t.heroKicker;
     $("heroTitle").textContent = t.heroTitle;
     $("heroSubtitle").textContent = t.heroSubtitle;
     $("heroSummary").textContent = t.heroSummary;
@@ -221,8 +228,8 @@
     $("backHome").querySelector("span").textContent = t.back;
     $("copyLink").textContent = t.copyLink;
     $("printChapter").textContent = t.printChapter;
-    $("printTitle").textContent = t.heroTitle;
-    $("printSubtitle").textContent = t.heroSubtitle;
+    $("printTitle").textContent = t.formalTitle;
+    $("printSubtitle").textContent = t.formalSubtitle;
 
     document.querySelectorAll(".thesis-grid article").forEach((card, i) => {
       card.querySelector("h2").textContent = t.thesis[i][0];
@@ -404,7 +411,9 @@
     document.body.classList.remove("chapter-mode");
     $("readerView").classList.add("hidden");
     $("printView").classList.add("hidden");
-    document.title = (lang === "en" ? "The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report" : "AI基础设施霸权时代：2026–2036产业前瞻研究报告") + " — 2026 Research Report";
+    document.title = lang === "en"
+      ? "The Age of AI Infrastructure Hegemony | 2026–2036 Industry Outlook Research Report"
+      : "AI基础设施霸权时代｜2026–2036产业前瞻研究报告";
   }
 
   init();
