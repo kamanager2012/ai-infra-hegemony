@@ -4,7 +4,7 @@
 
 At small scale, a model company is a compute tenant. At frontier scale, durable demand can become a financing input for chips, data centers, land, and power.
 
-The relationship therefore changes from:
+The relationship changes from:
 
 > model company → rent existing compute
 
@@ -20,7 +20,7 @@ The mechanism can be written as:
 
 > **long-duration model demand → infrastructure-financing certainty → earlier data-center/power buildout → earlier chip/HBM/packaging reservation → priority capacity for anchor workloads**
 
-Model-company demand has therefore become an upstream signal for capital formation, not merely a passive consequence of hyperscaler investment.
+Model-company demand has become an upstream signal for capital formation, not merely a passive consequence of hyperscaler investment.
 
 ## 3. OpenAI / Stargate: delivery state matters more than headline scale
 
@@ -68,15 +68,15 @@ Anthropic disclosed in April 2026 that:[^4]
 - it is already using **more than 1M Trainium2 chips**;
 - by the end of 2026 it expects close to **1 GW of Trainium2/3 capacity**.
 
-Model-company demand can therefore become an important anchor workload for cloud custom silicon.
+Model-company demand can become an important anchor workload for cloud custom silicon.
 
 The public disclosure establishes scale. It does not establish a "largest customer" ranking without a disclosed workload-share denominator.
 
 ### 4.1 xAI / Colossus: the self-built variant
 
-xAI is the case of a model company entering infrastructure construction directly. In its December 2024 first-party update, xAI said **Colossus** had become fully operational in **122 days** using **100,000 NVIDIA Hopper GPUs**, and that it planned to double the cluster to a combined **200,000 Hopper GPUs**.[^7] The case therefore shows a model company directly organizing large-scale compute infrastructure rather than relying only on pre-existing cloud capacity.
+xAI is the case of a model company entering infrastructure construction directly. In its December 2024 first-party update, xAI said **Colossus** had become fully operational in **122 days** using **100,000 NVIDIA Hopper GPUs**, and that it planned to double the cluster to a combined **200,000 Hopper GPUs**.[^7] The case shows a model company directly organizing large-scale compute infrastructure instead of relying only on pre-existing cloud capacity.
 
-This path is more direct than Stargate or Anthropic/AWS: rather than renting capacity through a cloud or a joint venture, the model company itself drove front-loaded capital formation in land, power, and chips. Anchor Buyers can therefore guide upstream capital formation through more than one mode — long-duration leased commitments and self-built buildouts can coexist.
+This path is more direct than Stargate or Anthropic/AWS: rather than renting capacity through a cloud or a joint venture, the model company itself drove front-loaded capital formation in land, power, and chips. Anchor Buyers can guide upstream capital formation through more than one mode: long-duration leased commitments and self-built buildouts can coexist.
 
 The xAI case is subject to the same state boundaries: Colossus going online is not full utilization, and an expansion plan is not installed capacity.
 
@@ -93,7 +93,7 @@ A model company can influence:
 
 But it does not normally own the leading-edge foundry, HBM fab, advanced-packaging fab, or transmission grid.
 
-Anchor Buyer power is therefore an increase in demand-side bargaining and coordination—not full supply-chain ownership.
+Anchor Buyer power is an increase in demand-side bargaining and coordination—not full supply-chain ownership.
 
 ## 6. Long-duration commitments create switching costs
 
@@ -109,7 +109,7 @@ If architecture sharply lowers the compute required for the same capability, a m
 
 If lower unit cost stimulates workload volume even faster, long-duration commitments can continue to expand.
 
-Anchor-buyer demand is therefore a dynamic demand function, not a fixed exponential curve.
+Anchor-buyer demand is a dynamic demand function, not a fixed exponential curve.
 
 ## 8. Anchor demand propagates through the infrastructure chain
 
@@ -117,7 +117,7 @@ Large-scale model demand can propagate across the full chain:
 
 > **model demand → cloud CapEx / custom silicon → accelerator / HBM / packaging → data center → power → grid / generation**
 
-AI-infrastructure analysis therefore has to look beyond:
+AI-infrastructure analysis has to look beyond:
 
 - NVIDIA revenue;
 - hyperscaler CapEx;
@@ -186,7 +186,7 @@ If the model-company growth thesis fails, a long-duration commitment can move fr
 - model-company financing or revenue pressure;
 - capacity delivery materially outrunning workload growth.
 
-Headline commitment is therefore not the endpoint of the analysis.
+Headline commitment is not the endpoint of the analysis.
 
 The decisive question is:
 
@@ -202,7 +202,7 @@ OpenAI Stargate's secured-capacity and construction milestones, Anthropic/AWS's 
 
 > **cloud architecture, custom silicon, data-center buildout, power procurement, and infrastructure finance**
 
-Anchor-buyer commitments are therefore a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**. The leading-indicator value of this signal is supported so far by three documented cases (Stargate, Anthropic/AWS, and xAI Colossus) and must be re-tested across additional full cycles.
+Anchor-buyer commitments are a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**. The leading-indicator value of this signal is supported so far by three documented cases (Stargate, Anthropic/AWS, and xAI Colossus) and must be re-tested across additional full cycles.
 
 They can accelerate AI-infrastructure capital formation, but under weak utilization they can also amplify stranded-capacity and duration-mismatch risk.
 
