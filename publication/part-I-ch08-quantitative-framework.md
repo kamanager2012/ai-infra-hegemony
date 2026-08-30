@@ -287,6 +287,20 @@ NonAI_Residual(t)
 
 一个正确的 power model 必须同时说明“多少”和“处于什么状态”。
 
+### Table 8.1 — NVL72 Rack-to-MW D 级强度换算
+
+| 项目 | 官方 / 已知输入 | 1 MW rack IT load 的机械换算 |
+|---|---:|---:|
+| Rack power | ≈120 kW / rack | ≈8.33 racks |
+| GPU | 72 / rack | ≈600 GPUs |
+| HBM3E | 13.4 TB / rack | ≈111.7 TB |
+| LPDDR5X | 17 TB / rack | ≈141.7 TB |
+
+**Source:** NVIDIA GB200 NVL72 official specification and DGX GB200 Hardware Guide.[^3][^5]  
+**Note:** 该表是 **D 级机械强度换算**，仅回答“如果 1 MW IT rack load 全部由该 rack configuration 构成，物料强度是多少”。它**不是 shipment、deployment、energized-facility capacity 或全行业需求估计**，且不包含 PUE、network/storage、power-conversion、redundancy 与 facility overhead。
+
+这类换算的价值在于把 system spec 变成可审计的 engineering intensity，同时保留“spec ≠ deployment”的边界。
+
 ---
 
 ## 12. Forward Commitment 是 Supply Reservation Intensity 的 Proxy，而不是 Shipment
@@ -333,6 +347,24 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 - supply elasticity。
 
 只有当某一具体 physical pool 的 customer-level allocation 可观察时，才使用可审计的百分比。
+
+### Table 8.2 — 2026 Public-Data Quantification Readiness by Layer
+
+| Physical layer | 当前公开可观察输入 | Absolute Gap 能否闭合 | 2026 更可靠的输出 |
+|---|---|---|---|
+| Advanced logic | node / platform revenue mix、CapEx、supplier guidance、部分 roadmap | **不能**：缺 customer-level qualified wafer demand / allocation | direction、access proxy、node mix；不造 wafer-share gap |
+| HBM / DRAM | vendor supply guidance、same-bits wafer trade ratio、institutional bit forecast | **部分可量化，不能闭合全球 gap**：缺 customer-level bits / wafer allocation | manufacturing intensity、tightness、product-mix shift |
+| Advanced packaging | supplier guidance、tightness statement、部分 institutional demand estimate | **不能**：缺统一 qualified package-start denominator 与 customer allocation | lead time、qualification、allocation proxy |
+| Networking | system spec、公开 topology / deployment、vendor product data | **部分**：缺统一 workload-level topology / utilization denominator | workload-specific bandwidth / latency / TCO |
+| Power / LPS | project-level contracted / secured / permitted / construction / energized states | **项目级部分可闭合，全球不能** | Time-to-Power、state conversion、project delivery gap |
+| Capital / Utilization | CapEx、supply commitments、financing structure、部分 revenue disclosure | **资本基数可观察，真实 utilization 不完全公开** | capital-base growth vs utilization / monetization proxy |
+
+**Source:** 本报告根据公开证据可闭合程度整理。  
+**Note:** “不能闭合”不是数据空白的借口，而是明确指出**缺失的分母是什么**。未来只有当 demand 与 capacity 在同一 physical unit、delivery window 与 qualification boundary 下同时可观察时，才把该层升级为可审计的 Absolute Gap。
+
+这张表给出 Ch08 的量化边界：
+
+> **能算的，明确计算；只能部分闭合的，明确 proxy；分母缺失的，不用 point estimate 填空。**
 
 ---
 
