@@ -33,10 +33,10 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 1. [执行摘要](part-I-ch01-executive-summary.md)
 2. [NVIDIA 系统栈与平台权力](part-I-ch02-nvidia-system-stack.md)
 3. [AI 资源重配与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
-4. [TSMC、N2 与先进制造资源分配](part-I-ch04-tsmc-advanced-logic.md)
-5. [HBM 与存储资源重构](part-I-ch05-hbm-memory.md)
-6. [Advanced Packaging、CoWoS 与系统交付瓶颈](part-I-ch06-advanced-packaging.md)
-7. [从 120 kW Rack 到 GW 级电力约束](part-I-ch07-power-constraint.md)
+4. [Advanced Logic Allocation——TSMC、N2 与下一单位 Qualified Capacity](part-I-ch04-tsmc-advanced-logic.md)
+5. [HBM Economics——Manufacturing Intensity、Residual Capacity 与 Memory Scarcity](part-I-ch05-hbm-memory.md)
+6. [Advanced Packaging——Wafer 与 Deliverable System 之间的 Quantity Gate](part-I-ch06-advanced-packaging.md)
+7. [Time-to-Power——从 Rack Density 到 Deployable AI Capacity](part-I-ch07-power-constraint.md)
 8. [Quantification Boundaries——什么能量化、什么不能、为什么](part-I-ch08-quantitative-framework.md)
 9. [全球半导体供应链与制造冗余](part-I-ch09-semiconductor-redundancy.md)
 
@@ -45,7 +45,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 10. [模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)
 11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
 12. [The Second System Stack——Hyperscaler Substitution Economics](part-II-ch12-hyperscaler-system-stack.md)
-13. [Anchor Compute Buyer Effect——模型公司如何重塑基础设施](part-II-ch13-anchor-compute-buyer.md)
+13. [Anchor Compute Buyers——Long-Duration Demand 如何提前拉动 Infrastructure](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)
 16. [AMD、Intel、Qualcomm 与 Apple 的差异化竞争路径](part-II-ch16-differentiated-competitors.md)
@@ -55,7 +55,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 ## Part III — 资本周期、利润池与外部传导
 
 19. [AI Infrastructure Capital Formation、Duration Mismatch 与 Utilization Test](part-III-ch19-capex-supercycle.md)
-20. [Value Capture Map——资金流、利润池与风险承担](part-III-ch20-value-capture-map.md)
+20. [AI Infrastructure Stack 的 Value Capture 与 Risk Bearing](part-III-ch20-value-capture-map.md)
 21. [AI 如何重定价消费电子与其他终端系统](part-III-ch21-consumer-transmission.md)
 22. [折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)
