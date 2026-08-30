@@ -31,9 +31,9 @@
 
 ### 语言与编辑架构
 
-本报告后续采用 **English-first research workflow**：新增强判断、机制定义、分母选择、证据边界和 scenario language，先在英文 canonical analytical text 中完成，再形成中文专业平行版。
+本报告采用 **English-first research workflow**。英文版是唯一 canonical analytical text：新增判断、机制定义、分母选择、证据边界、scenario language、章节顺序与 falsification logic 必须先在英文版完成。
 
-中文版不是逐句翻译。它必须与英文版保持**事实、证据身份、机制、分母与 falsification logic 对等**，但允许使用更符合中文专业研究习惯的句法。HBM、CoWoS、CapEx、TCO、utilization、qualification、system stack、scale-up / scale-out、workload 等行业术语，在保留英文更精确时不强制汉化。
+中文版是英文 canonical text 的**专业中文译本**，不是独立分析版本。中文可以采用更自然的专业研究句法，也可以在更精确时保留 HBM、CoWoS、CapEx、TCO、utilization、qualification、system stack、scale-up / scale-out、workload 等行业术语；但不得独立新增、删除、重排或重定义论点、机制、分母、证据身份、scenario、falsification boundary 与章节层级。任何实质性修订必须先改英文，再同步翻译中文。
 
 编辑原则：
 
