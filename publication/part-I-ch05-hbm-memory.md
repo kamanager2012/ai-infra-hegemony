@@ -3,7 +3,7 @@
 
 ## 1. Memory 的核心问题是 Manufacturing Intensity，不只是 Bit Demand
 
-HBM 已经不能被当成单纯 GPU BOM item 分析。在 frontier system 中，它同时影响 model capacity、batching、context length、concurrency、communication 与 accelerator utilization；当采购单位上移到 rack / cluster，memory demand 就成为 system-level resource requirement。
+HBM 不应再被当成单纯 GPU BOM line 分析。在 frontier system 中，它同时影响 model capacity、batching、context length、concurrency、communication 与 accelerator utilization；当采购单位上移到 rack / cluster，memory manufacturing intensity 就成为 system-level capacity constraint。
 
 真正的产业问题不是“需要多少 HBM bits”，而是：
 
@@ -11,7 +11,7 @@ HBM 已经不能被当成单纯 GPU BOM item 分析。在 frontier system 中，
 
 只有在真实 shipment / deployment count 已知时，才能继续推 fleet-level demand。所以即使 aggregate DRAM bit capacity 继续增长，HBM 仍可能重定价整个 memory system。
 
-## 2. Micron 的约 3× 是关键 First-Party Manufacturing Anchor
+## 2. Micron 的约 3× 是 First-Party Manufacturing Anchor
 
 Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^2] Micron FY25 10-K 又确认，生产相同比特的 HBM 需要更多 wafers 与 cleanroom space。[^3]
 
@@ -23,7 +23,7 @@ Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technol
 
 但它**不能**被改写成 HBM 售价是 DDR5 的 3×，也不能当作每座 fab、每一代 HBM 都固定不变的“3:1 定律”。Micron 对 HBM4 的公开表述只是 trade ratio 预计进一步上升；具体 HBM4/HBM4E 数值仍需未来 vendor disclosure。
 
-## 3. 51% 是 Forecast，而且使用不同 Denominator
+## 3. 51% Forecast 使用的是不同 Denominator
 
 TrendForce **预计**，2026 年 **HBM + RDIMM 合计约占 DRAM bit supply 的 51%**。[^4]这是一条 B 级机构前向预测，必须同时保留三个边界：
 
@@ -33,7 +33,7 @@ TrendForce **预计**，2026 年 **HBM + RDIMM 合计约占 DRAM bit supply 的 
 
 这条预测与 Micron 的同-bit wafer trade ratio 结合后，给出一个更重要的机制：**bit share 不能完整反映制造投入压力。** 当一部分高价值 bit 需要更多 wafer/cleanroom input 时，它对制造资源的吸收可能高于其 bit 占比。
 
-## 4. Residual Capacity 才是下游 Memory 变量
+## 4. Residual Capacity 才是下游 Denominator
 
 memory 资源重分配可以写成一条清晰链条：
 
@@ -43,13 +43,13 @@ memory 资源重分配可以写成一条清晰链条：
 
 因此，本报告把 memory 层的核心指标定义为 **Non-AI Residual Capacity**，而不是简单用“DRAM 总产能增长”判断传统市场是否恢复宽松。
 
-## 5. HBM 已经改变 Memory-Vendor Product Economics
+## 5. HBM 已经改变 Memory-Vendor Economics
 
 SK hynix FY25 官方结果为：Revenue **KRW 97.1467T**、Operating profit **KRW 47.2063T**、Operating margin **49%**、Net income **KRW 42.9479T**，且公司披露 HBM revenue 同比超过一倍。[^5]
 
 这些数据不能证明 HBM 单独贡献全部利润，但足以说明高价值 memory product mix 已显著改善 memory-vendor economics。与此同时，conventional server memory demand 仍然重要，这进一步说明 HBM 与 DDR5/RDIMM 并非完全隔离的资本和制造体系。
 
-## 6. Supply 高度集中，但公开 Denominator 仍不完整
+## 6. Supply 高度集中，但 Public Denominator 仍不完整
 
 高端 HBM 供给主要集中在 SK hynix、Samsung 与 Micron。真正的进入壁垒不仅是 DRAM fab CapEx，还包括：
 
@@ -96,7 +96,7 @@ GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level materi
 
 这意味着 HBM 可能从“memory bottleneck”演化为跨 memory/foundry/packaging 的 system bottleneck。但在 vendor 正式披露之前，不能把 HBM3E 的 ~3× 机械改成 HBM4 4×、5×，也不能把某一种 12-Hi / 16-Hi configuration 当成所有 HBM4 的统一量产规格。
 
-## 9. HBM 的 Clearing Mechanism 不同于标准 Commodity Memory Cycle
+## 9. HBM 不按标准 Commodity-Memory Cycle 清算
 
 HBM 与标准 commodity memory 的一个重要差别是 generation-specific qualification。产品代际推进快、与具体 accelerator generation 强绑定、qualification 周期长、obsolete risk 高。
 
@@ -106,7 +106,7 @@ HBM 与标准 commodity memory 的一个重要差别是 generation-specific qual
 
 一代产品的过剩不会自动解决下一代产品的 qualification、yield 与 packaging 约束。
 
-## 10. “推理转向 DDR”不会自动逃离 memory constraint
+## 10. Inference 可以转移 Bottleneck，但不会消除 Memory Economics
 
 部分 inference workload 可以用更多 DDR/LPDDR 换取较低单位 memory cost，但 frontier inference 仍受 KV cache、long context、large batch、MoE routing、low-latency serving 与 multi-accelerator communication 影响。
 
