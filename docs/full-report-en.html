@@ -202,9 +202,12 @@ This hierarchy is deliberate: **coverage is broad, but the report does not prete
 - [Table 3.1 — Layered exposure of non-AI / Physical-AI end systems](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 capacity, technology, and platform-revenue structure](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — Representative AI power / LPS pathways](part-I-ch07-power-constraint.md)
+- [Table 7.2 — Grid delivery frictions relevant to Time-to-Power](part-I-ch07-power-constraint.md)
 - [Table 8.1 — NVL72 rack-to-MW D-grade intensity conversion](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 public-data quantification readiness by layer](part-I-ch08-quantitative-framework.md)
 - [Table 8.3 — 2026 public-data gap / intensity ledger](part-I-ch08-quantitative-framework.md)
+- [Table 8.4 — 2026 computable anchors versus unclosed denominators](part-I-ch08-quantitative-framework.md)
+- [Table 9.1 — Manufacturing-control layers that constrain production continuity](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II
 
@@ -217,6 +220,7 @@ This hierarchy is deliberate: **coverage is broad, but the report does not prete
 - [Table 19.1 — Public 2026 capital-spending metrics for the four major clouds](part-III-ch19-capex-supercycle.md)
 - [Table 22.1 — Major cloud server / network-equipment useful-life disclosures](part-III-ch22-depreciation-wall.md)
 - [Table 23.1 — AI-infrastructure asset classes and primary financing risks](part-III-ch23-capital-financing.md)
+- [Table 24.1 — Financing Reflexivity adjudication matrix](part-III-ch24-capital-clearing.md)
 
 ## Part IV
 
@@ -1775,6 +1779,24 @@ The narrower supported conclusion is that **interconnection and transmission bui
 
 What matters for AI system delivery is how many MW a specific region can actually deliver inside a specific hardware-generation window—not the total GW sitting in a national queue.
 
+### 5A. Grid delivery has an equipment-procurement clock
+
+Time-to-Power is also constrained by the supply chain of the grid itself. The IEA reports that new transmission lines can take **four to eight years** in advanced economies, while procurement wait times for critical grid components have lengthened materially.[^8] A separate IEA transmission-supply-chain review reports typical procurement of **two to three years for cables** and **up to four years for large power transformers**, with average lead times for both almost doubling since 2021.[^9]
+
+### Table 7.2 — Grid delivery frictions relevant to Time-to-Power
+
+| Constraint | Public institutional anchor | Correct interpretation |
+|---|---|---|
+| New transmission | 4–8 years in advanced economies | broad grid-build clock; not a project-specific AI-data-center lead time |
+| Cables | 2–3 years procurement | component-supply constraint inside transmission / interconnection delivery |
+| Large power transformers | up to 4 years procurement | equipment bottleneck that can delay substation / grid delivery |
+| Interconnection queue | multi-year studies and high withdrawal rates | friction indicator; not a direct measure of unmet AI demand |
+
+**Source:** IEA and Lawrence Berkeley National Laboratory.[^6][^8][^9]  
+**Note:** These are grid-system and equipment-supply anchors, not a claim that every AI campus faces the same lead time. They strengthen the narrower conclusion that energized capacity is constrained by **permitting + interconnection + equipment procurement + construction**, not by generation nameplate alone.
+
+This also sharpens the delivery-state boundary: a project can have land, a PPA, and a financing plan while still lacking a timely transformer, cable, substation, or grid-connection path.
+
 ## 6. Time-to-Power is a system-competition variable
 
 Advanced chips can advance on monthly and quarterly product clocks. Power infrastructure often advances on multi-year clocks.
@@ -1851,6 +1873,9 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
 [^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
+[^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary
 
 
 ---
@@ -2126,9 +2151,26 @@ The readiness table above should not become a permanent excuse for leaving publi
 
 This is the standard for future upgrades to the ledger:
 
-&gt; **A missing global gap is acceptable; an uncomputed quantity that can already be closed is not.**
+&gt; **Calculate only when the denominator closes; otherwise preserve the best bounded institutional signal and state what remains unmeasurable.**
 
 The next quantitative upgrade should occur only when a layer gains a same-unit demand/capacity pair or an auditable institutional balance metric. Until then, the ledger records the missing denominator rather than manufacturing one.
+
+---
+
+### Table 8.4 — 2026 computable anchors versus unclosed denominators
+
+| Observable | Auditable calculation / bounded read | Evidence identity | What it still cannot prove |
+|---|---|---|---|
+| DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | D-grade arithmetic on a paper-stated rental assumption | total R&amp;D / company / model-program cost |
+| GB200 NVL72 rack intensity | at 120 kW/rack, 1 MW rack IT load ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | D-grade mechanical conversion from official system specs | shipments, energized fleet size, industry demand |
+| Micron HBM3E manufacturing trade ratio | same node / same bits requires approximately **3×** DDR5 wafer supply | A-grade first-party physical anchor | a permanent HBM4/HBM5 ratio or global wafer-allocation share |
+| NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B = approximately **2.93×** the January level, or **+193%** mechanically | D-grade arithmetic on A-grade filing values | supplier-specific allocation, shipments, utilization, independent end-demand quality |
+| Aggregate DRAM balance | 2026 sufficiency ratio approximately **−1% to −2%** | B-grade institutional forecast | HBM-specific shortage or customer allocation |
+
+**Source:** DeepSeek, NVIDIA, Micron, and TrendForce.[^1][^3][^4][^6][^8]  
+**Note:** The table deliberately mixes evidence grades only because the **identity of each row is explicit**. Mechanical arithmetic does not upgrade the underlying evidence. The purpose is to show that the framework produces auditable outputs where denominators close, while refusing to turn those outputs into broader claims they do not support.
+
+This is the quantitative standard for the report: **a small number of closed calculations is more valuable than a large model built from incompatible denominators.**
 
 ---
 
@@ -2274,6 +2316,26 @@ The variables that matter are:
 These variables determine whether new capacity can ramp on schedule, whether existing lines can sustain yield, and whether process generations can continue advancing.
 
 "Memory capacity is expanding" and "the memory supply chain is fully autonomous" are therefore different propositions.
+
+### 3.2 Process control is a separate equipment layer, not a footnote to lithography
+
+Lithography is only one part of the manufacturing-control stack. KLA's FY2026 Form 10-K describes inspection, metrology, data analytics, reticle / mask control, chemistry / materials quality control, and advanced-packaging process control as functions used from R&amp;D through volume production; it also states that leading-edge transitions such as 2 nm increase process-control intensity.[^10]
+
+### Table 9.1 — Manufacturing-control layers that constrain production continuity
+
+| Layer | Production role | Why continuity matters |
+|---|---|---|
+| Lithography | patterning / critical-dimension formation | tool availability, imaging, overlay, service, qualification |
+| Inspection / metrology | defect detection, dimensional control, yield learning | determines whether a process can ramp and sustain target yield |
+| Reticle / mask control | pattern-source quality assurance | defects can propagate across large wafer volumes |
+| Deposition / etch | film formation and material removal | recipe stability and tool availability are process-generation inputs |
+| Chemical / materials quality control | contamination / composition / incoming-material control | qualified materials must remain stable across long production runs |
+| Advanced-packaging process control | substrate / package inspection and yield management | packaging complexity can become an independent HVM constraint |
+
+**Source:** ASML and KLA first-party disclosures.[^1][^10]  
+**Note:** This table identifies required manufacturing-control functions. It does **not** claim that one vendor monopolizes every category, nor does it convert vendor revenue share into physical capacity share.
+
+The resilience implication is important: a region can possess leading-edge lithography access and still face production-continuity risk if inspection, metrology, reticle control, materials quality, etch/deposition, packaging control, or field service cannot be qualified and sustained at scale.
 
 ## 4. Material qualification is a hidden time cost
 
@@ -2469,6 +2531,8 @@ The semiconductor supply chain of the next decade is therefore more likely to co
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
 [^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
 [^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
+
+[^10]: KLA Corporation, FY2026 Form 10-K, semiconductor process control, inspection, metrology, reticle/mask, chemistry/materials quality control, advanced packaging, and 2 nm process-control intensity, https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000027/klac-20260630.htm
 
 
 ---
@@ -5856,6 +5920,30 @@ S4 monitoring should therefore include:
 Healthy utilization can make seller-assisted financing an accelerator of real buildout.
 
 Weak utilization combined with rising supplier support should reduce the evidentiary weight of forward commitments.
+
+### 7A. Financing Reflexivity needs an adjudication matrix, not a synthetic ratio
+
+Public disclosures rarely provide a same-denominator measure of supplier equity, guarantees, third-party debt, customer equity, and total project financing. The report therefore does **not** manufacture a single "supplier-support ratio." Instead it adjudicates Financing Reflexivity across three observable dimensions:
+
+1. **utilization / monetization direction**;
+2. **independent risk-capital willingness**;
+3. **supplier equity / credit-support direction**.
+
+### Table 24.1 — Financing Reflexivity adjudication matrix
+
+| Utilization / monetization | Independent risk capital | Supplier support | Interpretation | Effect on S4 evidence |
+|---|---|---|---|---|
+| improving / strong | broad and independently priced | stable or declining relative role | financing accelerates productive buildout | weakens Financing-family S4 evidence |
+| healthy but unproven at new scale | available but increasingly structured | rising | reflexivity watch; commitments remain informative but less independent | modestly downweight Forward Commitment |
+| weakening | risk appetite / refinancing terms deteriorating | rising materially | supplier support may be sustaining order visibility faster than end economics | strengthens Demand Quality / Financing family |
+| weak across utilization and clearing | independent capital withdraws or requires major repricing | support cannot restore execution / cash flow | capital clearing rather than simple financing acceleration | strong S4 evidence when cross-confirmed by other families |
+
+**Source:** report adjudication framework applied to the financing structures described in this chapter.[^5][^6][^7]  
+**Note:** No row is triggered by one disclosure alone. The matrix requires direction over time and cross-signal confirmation. If a same-denominator financing stack becomes public for a specific project, a project-level ratio can be calculated; until then, the matrix is more auditable than a synthetic percentage.
+
+The practical rule is:
+
+&gt; **supplier support is not bearish by itself; supplier support rising while utilization, monetization, independent risk appetite, and market clearing weaken is the reflexive stress condition.**
 
 ## 8. Clearing propagates through the asset-duration stack
 
