@@ -17,6 +17,8 @@ The report keeps observed facts, company guidance, institutional forecasts, repo
 
 For the core thesis:
 
+- [Research Brief](RESEARCH_BRIEF.md)
+
 1. [Executive Summary](part-I-ch01-executive-summary.md)
 2. [Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View](part-IV-ch32-master-judgment.md)
 3. [Scenario Framework — Discriminating S1 to S4](part-IV-ch30-scenarios.md)
