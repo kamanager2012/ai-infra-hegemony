@@ -1,20 +1,18 @@
-# Part IV · Chapter 29: Core Metrics and Evidence-Monitoring Framework
+# Part IV · Chapter 29: Monitoring Dashboard — State Variables, Inflection Tests, and Scenario Reweighting
 
-## 1. Long-run research has to be designed as an updateable system
+## 1. The monitoring problem: which state variables can actually change the view?
 
-Seller economics, CapEx, HBM, packaging, foundry allocation, power, regulation, and system substitution all change quickly.
+A long-horizon report is useful only if later evidence can change its conclusions.
 
-The report's conclusions therefore have to be designed for continuous updating rather than being valid only on the publication date.
+The monitoring framework therefore tracks **state variables**, not news volume. Each new observation has to answer three questions:
 
-Here, an “updateable system” means a **governed research-update process**: new evidence is reclassified by evidence identity, mapped to the affected mechanism, and then assessed for scenario-weight implications. It is **not** an automated data pipeline, and the report does not claim that ledger IDs or hypothesis numbers mechanically bind the prose or trigger automatic recalculation.
+1. **What changed in the fact layer?**
+2. **Which mechanism variable did that change?**
+3. **Is the move material and persistent enough to reweight S1–S4?**
 
-Every update should answer only three questions:
+This is a governed research-update process, not an automated trading model. The purpose of the dashboard is to prevent one headline, one forecast revision, or one accounting event from being mistaken for a structural regime change.
 
-1. **Which fact changed?**
-2. **Which mechanism variable did it change?**
-3. **Is the change large enough to alter S1–S4 weighting?**
-
-## 2. Dashboard A — Seller Economics / Forward Reservation
+## 2. Dashboard A — Seller Economics and Forward Reservation
 
 ### NVIDIA current anchors
 
@@ -44,7 +42,7 @@ These metrics ask whether the system seller still has enough cash generation and
 
 The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
 
-## 3. Dashboard B — Foundry / Packaging
+## 3. Dashboard B — Foundry and Packaging
 
 ### TSMC 2025
 
@@ -92,7 +90,7 @@ SK hynix FY25:[^6]
 
 These indicators help test whether HBM product mix continues to absorb DRAM manufacturing input and whether conventional-DRAM residual capacity is loosening.
 
-## 5. Dashboard D — Hyperscaler CapEx
+## 5. Dashboard D — Capital Formation
 
 For Microsoft, Amazon, Alphabet, and Meta, preserve separately:
 
@@ -108,7 +106,7 @@ It is whether new capital continues flowing into servers, networking, memory, cu
 
 Non-comparable accounting definitions must not be mechanically added into an official AI-hardware CapEx total.
 
-## 6. Dashboard E — Power State Machine
+## 6. Dashboard E — Power Delivery State
 
 **Table 29.2 — Power project state machine**
 
@@ -135,7 +133,7 @@ The variables that need updating are each project's transition from secured / co
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must remain separate.
 
-## 7. Dashboard F — System-Stack Substitution
+## 7. Dashboard F — Second-Stack Substitution
 
 For Google / AWS / Microsoft / Meta, track:
 
@@ -149,7 +147,7 @@ For Google / AWS / Microsoft / Meta, track:
 
 A single-chip benchmark is not sufficient evidence of system substitution.
 
-## 8. Dashboard G — China's Parallel Stack
+## 8. Dashboard G — China Closure Tests
 
 Track two different levels rather than one localization rate.
 
@@ -177,7 +175,7 @@ Then separately track:
 
 Production deployment can strengthen the first level without proving the second.
 
-## 9. Dashboard H — Regulation
+## 9. Dashboard H — Regulatory State
 
 Use one legal-state machine:
 
@@ -191,7 +189,7 @@ Do not convert:
 
 The variables capable of changing the scenario are interface openness, tying restrictions, access / supply remedies, and structural change.
 
-## 10. Dashboard I — Capital Clearing
+## 10. Dashboard I — Capital Clearing and Demand Quality
 
 ### Accounting
 
@@ -215,7 +213,7 @@ Customer cash generation, third-party risk capital, supplier equity / credit sup
 
 S4 should move from stress test toward the main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups are monitoring families, not a mandatory five-of-five gate; Accounting is confirmation / severity evidence, not a prerequisite.
 
-## 10A. Dashboard J — End-System Residual Pressure / Quantity Assurance
+## 10A. Dashboard J — End-System Residual Pressure
 
 If the report's downstream question is whether important end systems can still obtain enough, stable, affordable resources on their own product cadence, the monitoring framework cannot stop at seller economics, HBM, packaging, and power.
 
@@ -265,7 +263,7 @@ Dashboard J does not independently determine S1–S4. It tests whether:
 
 > **upstream scarcity / concentration is actually transmitting into end-system upgrade tax and supply-assurance pressure.**
 
-## 11. Evidence-grade quick rules
+## 11. Evidence-weighting rules
 
 **Table 29.4 — Default evidence grade for report updates**
 
@@ -283,7 +281,7 @@ Every update preserves the original evidence grade.
 
 A newer number does not automatically become stronger evidence.
 
-## 12. Scenario-weighting update rules
+## 12. Scenario reweighting rules
 
 ### Move toward S1
 
@@ -301,7 +299,7 @@ Multiple independent families among utilization/revenue, market clearing, forwar
 
 Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
 
-## 12A. Monitoring discipline: materiality and persistence must follow the variable's own clock
+## 12A. Materiality and persistence follow each variable's own clock
 
 The report does **not** impose one universal rule such as "two quarters" or "three months" across all variables.
 
@@ -329,7 +327,7 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 - **Toward S4:** multiple causally independent signal families deteriorate broadly and persistently across actors/layers; at least one real-economy / market / commitment signal must be present, while Accounting is confirmatory rather than mandatory;
 - **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
 
-## 12B. Five headline inflection tests for the next decade
+## 12B. Five headline inflection tests
 
 For readers who want a fast way to judge whether the long-run structure is changing, Dashboards A–J can be compressed into five headline tests. These are not a new model and they do not impose one universal numeric threshold.
 
@@ -350,7 +348,7 @@ For readers who want a fast way to judge whether the long-run structure is chang
 
 These five tests deliberately avoid arbitrary universal rules such as “eight quarters” or “30%–40%.” A material scenario reweighting requires **comparable continuous observation plus confirmation from at least two independent mechanism dimensions**.
 
-## 13. Update discipline
+## 13. Update protocol
 
 One news item should not rewrite the entire report.
 
