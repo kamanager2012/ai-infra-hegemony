@@ -10,6 +10,8 @@ Its strategy is better described as:
 
 The system boundary now spans GPU / CPU, NVLink and switching, networking, rack-scale systems, liquid-cooling architecture, CUDA/runtime, AI Enterprise, NIM / NeMo, DGX, and cloud-service extensions.[^1][^2][^3][^4]
 
+**Scope note:** Product, filing, and transaction facts are footnoted. Unfootnoted statements in the sections below are report-side mechanism interpretations of those disclosed architectures and contracts; they should not be read as NVIDIA management claims or independently measured switching-cost estimates.
+
 ## 2. Rack-scale reference architecture changes OEM / ODM economics
 
 At rack scale, NVIDIA's disclosed system architecture couples accelerators, switching, networking, power/cooling, and software more tightly than a standalone add-in accelerator product.[^4]
