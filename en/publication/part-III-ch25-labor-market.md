@@ -51,7 +51,7 @@ For example:
 - compression of one task does not imply disappearance of the whole occupation;
 - higher output per employee can show up as demand expansion rather than headcount reduction.
 
-Employment forecasting should therefore begin with tasks and workflows rather than jump directly from benchmark performance to job counts.
+Employment analysis should therefore begin with tasks and workflows rather than jump directly from benchmark performance to job counts.
 
 ## 4. Adoption economics is the first substitution gate
 
@@ -96,7 +96,7 @@ A conventional career ladder often looks like:
 
 If junior tasks are heavily automated, firms and education systems have to redesign how new workers accumulate experience.
 
-This can be more important than one universal unemployment forecast.
+This structural effect can matter more than a single economy-wide unemployment forecast.
 
 ## 8. Wage outcomes can diverge
 
@@ -129,7 +129,7 @@ AI expansion simultaneously increases demand for:
 - safety/compliance roles;
 - model-infrastructure roles.
 
-Labor-market change is therefore a reallocation process, not a one-direction reduction in jobs.
+Labor-market change is therefore better understood as reallocation than as a one-direction reduction in employment.
 
 ## 11. Organization shape depends on review burden and task volume
 
