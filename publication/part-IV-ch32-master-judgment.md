@@ -88,7 +88,7 @@ TSMC 已一手确认 advanced-packaging capacity tight，并在 2026 Q2 表示 p
 
 因此，先进节点 wafer capacity 增加，不代表 AI system capacity 同比例增加。
 
-### Power
+### Power and LPS
 
 约 **120 kW-class rack**、Crane 约 **835 MW** restart、Talen/AWS up to **1,920 MW** revised PPA 与 Kairos/Google 长期电源开发路径说明，power 已成为独立物理约束。[^5]
 
@@ -173,10 +173,15 @@ CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场份额判断，但不能�
 
 foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 2026 Q1 的 SMIC **5.1%** 是 foundry revenue share，而不是先进 AI system closure 指标。[^12]
 
-因此，本报告对中国采用两级判断：
+因此，本报告对中国采用两级判断。
 
-> **Frontier Parallel Stack（未完全闭合）：**中国已经跨过“没有替代系统”的阶段，部分层已进入真实 production deployment；但按第17章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已闭合。  
-> **Autonomous Frontier Closure：**公开证据更不足以证明 advanced manufacturing、HBM-class memory、advanced packaging、interconnect、compiler/runtime、equipment/material continuity 与跨代 infrastructure scaling 已全部形成自主、可持续闭环。
+### Production-Grade Parallel Stack
+
+中国已经跨过“没有替代系统”的阶段，部分层已进入真实 production deployment；但按第17章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已闭合。
+
+### Autonomous Frontier Closure
+
+公开证据更不足以证明 advanced manufacturing、HBM-class memory、advanced packaging、interconnect、compiler/runtime、equipment/material continuity 与跨代 infrastructure scaling 已全部形成自主、可持续闭环。
 
 未来真正需要跟踪的不是某一颗国产 GPU 的单点性能，而是 production workload 能否持续扩大，以及在关键外部供给受限时，整个 stack 能否跨代维持 performance、supply、power 与 economics。
 
