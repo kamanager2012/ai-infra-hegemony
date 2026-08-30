@@ -57,7 +57,7 @@ The current baseline should move only when the mechanism changes, not when a sin
 | **Toward S3 — Resource Hegemony** | persistent tightness across several independent physical layers; worsening residual capacity for lower-priority buyers; high switching costs; continued expansion of long-duration commitments and coordinated supply access |
 | **Toward S4 — Capital Hard Landing** | broad deterioration across utilization/revenue, market clearing, forward commitments, and demand-quality/financing signals across multiple actors or layers; accounting impairment strengthens severity when present but is not a mandatory gate |
 
-A single weak quarter, one project delay, one price move, or one competitor announcement is not enough to adjudicate the decade.
+A single weak quarter, one project delay, one price move, or one competitor announcement is not enough to reclassify the long-run state.
 
 ---
 
