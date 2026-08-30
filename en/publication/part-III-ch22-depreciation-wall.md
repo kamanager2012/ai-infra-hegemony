@@ -6,7 +6,7 @@ The relevant condition is:
 
 > **When hardware refresh / economic obsolescence runs faster than workload monetization, the installed asset base starts to compress returns and change the next round of capital formation.**
 
-The depreciation wall has to be read together with utilization, revenue, residual value, and next-generation investment.
+The depreciation wall must be read together with utilization, revenue, residual value, and next-generation investment.
 
 ## 2. Accounting useful lives differ across the major clouds
 
@@ -24,7 +24,7 @@ Current company disclosures show materially different server / network-equipment
 **Source:** Microsoft FY26 Form 10-K, Alphabet 2025 Form 10-K, Meta 2025 Form 10-K, and Amazon 2025 Form 10-K.[^1][^2][^3][^4]  
 **Note:** Accounting useful life is not economic life. Asset categories and depreciation estimates are not mechanically comparable across companies.
 
-This is enough to show that one universal "four-year straight-line depreciation" assumption cannot be applied to the entire AI-infrastructure stack.
+This is enough to show that a universal "four-year straight-line depreciation" assumption cannot be applied to the entire AI-infrastructure stack.
 
 ## 3. Accounting life is not economic life
 
@@ -51,11 +51,11 @@ The slowest assets to adjust are data-center shells, grid assets, generation, an
 
 That is why a Capital Hard Landing is unlikely to complete in a single quarter.
 
-## 5. CapEx has to be divided by utilization, not only by years
+## 5. CapEx must be evaluated against utilization, not only depreciation years
 
 As a **D-grade sensitivity example**, the same **US$100B** investment has very different economics at **90%** utilization and **30%** utilization. US$100B, 90%, and 30% are illustrative inputs, not industry actuals.
 
-The analysis has to include:
+The analysis must include:
 
 > **Revenue / Deployed Compute**
 
@@ -77,7 +77,7 @@ If a new architecture can perform the same workload with less HBM, compute, or c
 
 Software and model innovation can change hardware economic life directly.
 
-### 7A. Efficiency–utilization break-even: the arithmetic has to close
+### 7A. Efficiency–utilization break-even: the arithmetic must close
 
 The tension between algorithmic efficiency and capital recovery can be written without assuming any particular demand elasticity.
 
@@ -130,7 +130,7 @@ Long-duration model-company compute contracts improve revenue visibility and can
 
 But if an anchor buyer's revenue, financing, or architecture assumptions change, take-or-pay exposure, renegotiation, and stranded-capacity risk can become concentrated.
 
-Customer concentration and contract duration have to be analyzed together with useful life.
+Customer concentration and contract duration must be analyzed together with useful life.
 
 ## 9A. Financing structure can move losses without eliminating them
 
@@ -154,7 +154,7 @@ None of those structures makes technological obsolescence disappear.
 
 The important question is who ultimately bears residual-value risk and whether contracted cash flow is sufficient to cover it.
 
-## 10. One depreciation cycle cannot determine 2036
+## 10. A single depreciation cycle cannot determine 2036
 
 Assets enter service on different dates, use different useful lives, and can experience impairment or changes in accounting estimates.
 
