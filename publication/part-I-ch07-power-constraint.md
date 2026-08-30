@@ -33,6 +33,10 @@ AI power project 至少要区分：
 
 因此，AI power 研究最重要的不是把所有已公布 MW/GW 容量加总，而是判断：
 
+![图 5 — Power / LPS delivery-state model](figures/fig-05-power-state-machine.svg)
+
+**图 5 Note：** 本报告 power-delivery framework。必须同时保留 state identity 与 physical-unit identity；secured / contracted capacity ≠ energized capacity ≠ utilized AI load，且 IT-GW ≠ generation GW ≠ PPA capacity。
+
 > **多少容量、在什么地点、什么时间、以什么状态，能够真正服务当前或下一代 AI system。**
 
 ---
