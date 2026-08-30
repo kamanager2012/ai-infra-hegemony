@@ -1,6 +1,6 @@
-# Part I · 第8章：Quantification Boundaries——什么能量化、什么不能、为什么
+# Part I · 第8章：Quantitative Framework——Denominator Closure、Stress Test 与 Public-Data Limits
 
-## 1. Quantification 首先要解决 Denominator Closure
+## 1. 从 Denominator Closure 开始
 
 量化的第一步不是给出 point estimate，而是判断 numerator、denominator、physical unit、delivery window 与 evidence identity 是否真的可以闭合。
 
@@ -434,7 +434,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 17. Quantitative Guardrails
+## 17. 防止 False Precision 的 Guardrails
 
 本报告量化必须遵守以下边界：
 
@@ -454,7 +454,7 @@ AI infrastructure 的最基本经济关系可以写成：
 
 ---
 
-## 18. Preferred Quantitative Workflow
+## 18. Preferred Research Workflow
 
 本报告采用：
 
