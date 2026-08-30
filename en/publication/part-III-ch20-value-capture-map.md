@@ -43,7 +43,7 @@ But:
 
 The feedback becomes strategically important only when valuation can be converted into executable financing capacity and the underlying operating economics remain credible.
 
-This is the bridge between the value-capture map in this chapter and the five-lens capital-allocation framework in Chapter 23.
+This is the bridge between the value-capture map in this chapter and the **five-lens risk-adjusted-return framework** in Chapter 23.
 
 ---
 
@@ -110,9 +110,9 @@ Memory is therefore better understood as a **high-barrier manufacturing scarcity
 
 ## 6. Hyperscalers combine distribution power with duration risk
 
-Microsoft, Amazon, Alphabet, and Meta combine cloud distribution, internal workloads, customer bases, custom silicon, and data-center scale.
+As documented in [Chapter 12](part-II-ch12-hyperscaler-system-stack.md), the major hyperscalers combine cloud distribution, captive / customer workloads, custom-silicon programs, and data-center scale.
 
-That gives them the ability to internalize part of system-platform economics.
+For value-capture analysis, this gives them the ability to internalize part of system-platform economics without requiring this chapter to duplicate each product-level source.
 
 They also carry:
 
@@ -132,13 +132,13 @@ Their greatest risk is duration mismatch when long-duration infrastructure is bu
 
 ## 7. Supply commitments connect platform cash flow to manufacturing capacity
 
-NVIDIA's manufacturing, supply, and capacity commitments rose from:[^7]
+NVIDIA's disclosed manufacturing / supply / capacity commitment family increased across three reporting dates:[^7]
 
 - **US$95.2B** on 2026-01-25;
 - **US$119B** on 2026-04-26;
 - **US$279B** on 2026-07-26.
 
-The FY27 Q2 10-Q states that the latest commitments are primarily related to memory and manufacturing facilities needed for data-center infrastructure systems.
+The FY26 Form 10-K supports the January figure; the FY27 Q2 Form 10-Q supports the April / July sequence and states that the latest commitments are primarily related to memory and manufacturing facilities needed for data-center infrastructure systems. The underlying mix and duration are not identical across reporting dates, so this is a forward-reservation indicator rather than a perfectly homogeneous time series.
 
 The figure can therefore be used as a **financial proxy for future resource-locking intensity**.
 
@@ -173,7 +173,7 @@ The full financing and clearing mechanisms are developed in Chapters 23 and 24.
 
 ## 8. Powered land captures Time-to-Power scarcity
 
-At roughly **120 kW-class rack density**,[^8] data centers require stronger grid interconnection, substations, transformers, cooling, and firm generation.
+At approximately **120 kW of rack power consumption for an NVIDIA DGX GB rack-scale system**,[^8] data centers require stronger grid interconnection, substations, transformers, cooling, and firm generation.
 
 Assets with powered land, existing interconnection, and executable permitting paths can capture meaningful **Time-to-Power** value.
 
@@ -287,10 +287,10 @@ Value capture is not a permanent ranking. It is the dynamic result of scarcity, 
 [^1]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^2]: TSMC, 2025 Annual Report, gross margin and platform mix, https://investor.tsmc.com/static/annualReports/2025/english/index.html
 [^3]: TSMC, 4Q25 Earnings Conference Transcript, advanced packaging slightly over 10% of 2025 revenue, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
-[^4]: TSMC, 2Q26 Earnings Conference Transcript, packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf
 [^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 [^6]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-[^8]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+[^7]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^8]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 [^9]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^10]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment, and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
