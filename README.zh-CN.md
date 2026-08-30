@@ -5,7 +5,7 @@
 
 一份研究 AI 基础设施、半导体、云系统、资本形成与产业战略的长期行业报告。
 
-**Canonical research language：English。** 中文版为 professional parallel edition，保持事实、分母、机制与证伪逻辑对等，不做逐句机械翻译。
+**Canonical research language：English。** 英文版是唯一 canonical analytical text；中文版是英文版的专业中文译本。中文可以调整句法并保留 HBM、CoWoS、CapEx、TCO、utilization、system stack 等标准行业术语，但不得独立新增、删除、重排或重定义论点、机制、分母、证据身份、情景状态、证伪边界与章节层级。任何实质性修订必须先在英文版完成，再翻译到中文版。
 
 
 **Evidence cutoff：** 2026-08-28  
