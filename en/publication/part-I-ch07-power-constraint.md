@@ -92,6 +92,24 @@ The narrower supported conclusion is that **interconnection and transmission bui
 
 What matters for AI system delivery is how many MW a specific region can actually deliver inside a specific hardware-generation window—not the total GW sitting in a national queue.
 
+### 5A. Grid delivery has an equipment-procurement clock
+
+Time-to-Power is also constrained by the supply chain of the grid itself. The IEA reports that new transmission lines can take **four to eight years** in advanced economies, while procurement wait times for critical grid components have lengthened materially.[^8] A separate IEA transmission-supply-chain review reports typical procurement of **two to three years for cables** and **up to four years for large power transformers**, with average lead times for both almost doubling since 2021.[^9]
+
+### Table 7.2 — Grid delivery frictions relevant to Time-to-Power
+
+| Constraint | Public institutional anchor | Correct interpretation |
+|---|---|---|
+| New transmission | 4–8 years in advanced economies | broad grid-build clock; not a project-specific AI-data-center lead time |
+| Cables | 2–3 years procurement | component-supply constraint inside transmission / interconnection delivery |
+| Large power transformers | up to 4 years procurement | equipment bottleneck that can delay substation / grid delivery |
+| Interconnection queue | multi-year studies and high withdrawal rates | friction indicator; not a direct measure of unmet AI demand |
+
+**Source:** IEA and Lawrence Berkeley National Laboratory.[^6][^8][^9]  
+**Note:** These are grid-system and equipment-supply anchors, not a claim that every AI campus faces the same lead time. They strengthen the narrower conclusion that energized capacity is constrained by **permitting + interconnection + equipment procurement + construction**, not by generation nameplate alone.
+
+This also sharpens the delivery-state boundary: a project can have land, a PPA, and a financing plan while still lacking a timely transformer, cable, substation, or grid-connection path.
+
 ## 6. Time-to-Power is a system-competition variable
 
 Advanced chips can advance on monthly and quarterly product clocks. Power infrastructure often advances on multi-year clocks.
@@ -168,3 +186,6 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
 [^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
+[^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary

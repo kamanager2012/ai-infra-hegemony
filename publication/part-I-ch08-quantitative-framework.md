@@ -392,6 +392,23 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 ---
 
+### Table 8.4 — 2026 年可计算锚点 vs 尚未闭合的 Denominator
+
+| Observable | 可审计算法 / bounded read | Evidence identity | 仍不能证明什么 |
+|---|---|---|---|
+| DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | 基于论文租赁假设的 D-grade arithmetic | 完整 R&D / company / model-program cost |
+| GB200 NVL72 rack intensity | 按 120 kW/rack，1 MW rack IT load ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | 基于官方规格的 D-grade mechanical conversion | shipment、energized fleet size、industry demand |
+| Micron HBM3E manufacturing trade ratio | same node / same bits 下约需 **3×** DDR5 wafer supply | A-grade first-party physical anchor | 永久 HBM4/HBM5 比例或全球 wafer-allocation share |
+| NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B，机械上约为 January level 的 **2.93×**，即约 **+193%** | A-grade filing values 上的 D-grade arithmetic | supplier-specific allocation、shipment、utilization、independent end-demand quality |
+| Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1%~-2%** | B-grade institutional forecast | HBM-specific shortage 或 customer allocation |
+
+**Source:** DeepSeek、NVIDIA、Micron、TrendForce.[^1][^3][^4][^6][^8]  
+**Note:** 表中允许不同 evidence grade 并列，只因为每一行的 **evidence identity 都被显式标注**。机械换算不会提升原始证据等级。目的不是制造“大模型”，而是让读者看到：denominator 闭合的地方，本报告确实计算；不闭合的地方，不把局部结果扩写成更大的事实。
+
+这就是本报告的 quantitative standard：**少量闭合、可审计的计算，比由不兼容量纲拼出来的大一统模型更有价值。**
+
+---
+
 ## 14. 先拆开 Risk Class，再判断 Cascade
 
 AI infrastructure 的 system risk 至少分成五类：

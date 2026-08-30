@@ -275,6 +275,23 @@ The next quantitative upgrade should occur only when a layer gains a same-unit d
 
 ---
 
+### Table 8.4 — 2026 computable anchors versus unclosed denominators
+
+| Observable | Auditable calculation / bounded read | Evidence identity | What it still cannot prove |
+|---|---|---|---|
+| DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | D-grade arithmetic on a paper-stated rental assumption | total R&D / company / model-program cost |
+| GB200 NVL72 rack intensity | at 120 kW/rack, 1 MW rack IT load ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | D-grade mechanical conversion from official system specs | shipments, energized fleet size, industry demand |
+| Micron HBM3E manufacturing trade ratio | same node / same bits requires approximately **3×** DDR5 wafer supply | A-grade first-party physical anchor | a permanent HBM4/HBM5 ratio or global wafer-allocation share |
+| NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B = approximately **2.93×** the January level, or **+193%** mechanically | D-grade arithmetic on A-grade filing values | supplier-specific allocation, shipments, utilization, independent end-demand quality |
+| Aggregate DRAM balance | 2026 sufficiency ratio approximately **−1% to −2%** | B-grade institutional forecast | HBM-specific shortage or customer allocation |
+
+**Source:** DeepSeek, NVIDIA, Micron, and TrendForce.[^1][^3][^4][^6][^8]  
+**Note:** The table deliberately mixes evidence grades only because the **identity of each row is explicit**. Mechanical arithmetic does not upgrade the underlying evidence. The purpose is to show that the framework produces auditable outputs where denominators close, while refusing to turn those outputs into broader claims they do not support.
+
+This is the quantitative standard for the report: **a small number of closed calculations is more valuable than a large model built from incompatible denominators.**
+
+---
+
 ## 14. Separate risk classes before testing for cascade
 
 System risk in AI infrastructure can be divided into:

@@ -151,6 +151,24 @@ Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage inter
 
 ---
 
+### 5A. Grid Delivery 还存在独立的 Equipment-Procurement Clock
+
+Time-to-Power 不只受发电项目与 interconnection 约束，也受电网设备自身的供应链约束。IEA 指出，在 advanced economies，新 transmission line 往往需要 **4–8 年**；关键电网部件的等待时间近年也明显拉长。[^8] 另一份 IEA transmission supply-chain 研究给出的典型采购期为：**cable 约 2–3 年**、**large power transformer 最长约 4 年**，两者平均 lead time 自 2021 年以来接近翻倍。[^9]
+
+### Table 7.2 — 与 Time-to-Power 直接相关的 Grid Delivery Frictions
+
+| Constraint | 公开机构锚点 | 正确解释 |
+|---|---|---|
+| New transmission | advanced economies 约 4–8 年 | broad grid-build clock，不是单个 AI data-center 的固定交付期 |
+| Cables | 采购约 2–3 年 | transmission / interconnection 交付链中的 component constraint |
+| Large power transformers | 采购最长约 4 年 | 可能拖延 substation / grid delivery 的设备瓶颈 |
+| Interconnection queue | 多年 study + 高 withdrawal rate | friction indicator，不是 AI unmet demand 的直接数量 |
+
+**Source:** IEA 与 Lawrence Berkeley National Laboratory.[^6][^8][^9]  
+**Note:** 上述数字属于 grid-system / equipment-supply anchor，不代表所有 AI campus 都面对相同 lead time。它们支持的更窄结论是：energized capacity 取决于 **permitting + interconnection + equipment procurement + construction**，不能由 generation nameplate 单独决定。
+
+这也进一步收紧 delivery-state boundary：一个项目即使已经有 land、PPA 和 financing plan，仍可能因为 transformer、cable、substation 或 grid-connection path 未闭合而无法按期 energized。
+
 ## 6. Time-to-Power 已经成为 System-Competition Variable
 
 先进芯片可以按季度甚至更快迭代，但：
@@ -278,3 +296,6 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up” 2026 update, active interconnection queue, https://emp.lbl.gov/news/backlog-power-plants-seeking-transmission-grid-connection-eased-somewhat-2025-amidst
 [^7]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
+[^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary
