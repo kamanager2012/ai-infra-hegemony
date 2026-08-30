@@ -1,16 +1,16 @@
 # Part II · Chapter 18: Antitrust, Industrial Policy, and the Boundaries of AI Platform Power
 
-## 1. System-stack power creates a new problem for traditional relevant-market analysis
+## 1. System-stack power complicates relevant-market analysis
 
 AI platform power can span accelerators, interconnect, compiler/runtime, rack reference architecture, deployment software, cloud channels, and adjacent model products.
 
-Individual product markets can each contain competitors while system-level switching costs remain high because one platform coordinates several critical interfaces.
+Competitive pressure in each component market does not automatically eliminate system-level power when one platform still coordinates several critical interfaces and switching costs.
 
 The regulatory question therefore extends beyond one market-share number:
 
 > **Do cross-layer interfaces, bundling, migration costs, and supply coordination create exclusionary effects together?**
 
-## 2. Fines and remedies must remain separate
+## 2. Fines and remedies are different economic instruments
 
 A fine primarily affects cash flow.
 
@@ -33,7 +33,7 @@ Measures that can directly alter system economics include:
 
 This report therefore does not treat the size of a possible fine as the central platform-power variable.
 
-## 3. The 10% turnover ceiling is not a future-fine model
+## 3. The 10% turnover ceiling is not a fine forecast
 
 Article 23(2) of EU Regulation (EC) No 1/2003 provides that certain fines shall not exceed **10% of the undertaking's total turnover in the preceding business year**.[^1]
 
@@ -47,7 +47,7 @@ Liability, seriousness, duration, relevant sales, procedural outcome, and remedy
 
 The 10% figure therefore indicates the strength of the legal tool. It does not enter this report's earnings model.
 
-## 4. Regulatory procedure must be read stage by stage
+## 4. Regulatory procedure must be read by legal state
 
 The EU's Article 102 procedure provides a useful state machine:[^2]
 
@@ -62,7 +62,7 @@ Each stage has a different legal meaning.
 
 An RFI, market inquiry, or news report cannot be rewritten as "the regulator has already found a violation."
 
-## 5. 2026 cloud regulation shows the focus moving toward interoperability
+## 5. Cloud regulation is moving toward interoperability and switching
 
 The European Commission continued a DMA cloud-computing market investigation in 2026.[^3]
 
@@ -72,7 +72,7 @@ Regulatory attention is therefore moving beyond price toward technical interoper
 
 This is directly relevant to AI system-stack competition because interfaces and contracts become competitive variables when workloads cannot migrate at low cost.
 
-## 6. Antitrust and sovereign / industrial policy optimize different objectives
+## 6. Antitrust and industrial policy optimize different objectives
 
 Competition policy focuses on market access, tying, exclusion, interoperability, and customer choice.
 
@@ -137,7 +137,7 @@ The transaction report alone is not proof of illegality or monopoly:
 
 The higher-value antitrust evidence would therefore be **verifiable self-preferencing + rising competitor migration cost + real developer/workload concentration**, not the acquisition price by itself.
 
-## 8. Regulation cannot directly create physical capacity
+## 8. Regulation cannot create physical capacity directly
 
 Regulation can lower switching costs.
 
@@ -152,7 +152,7 @@ Even highly effective interface remedies can therefore coexist with continuing p
 
 Legal competition and physical supply have to remain separate analytical models.
 
-## 9. The impact on China's Parallel Stack must also remain layered
+## 9. China-stack effects remain layer-specific
 
 U.S. or European competition policy toward an AI platform does not automatically resolve China's frontier-AI constraints in advanced logic, HBM, packaging, interconnect, and production software.
 
@@ -178,7 +178,7 @@ Regulation is therefore not a one-direction "negative for the platform" variable
 
 Its structural effect depends on whether binding remedies actually reach migration, bundling, and access.
 
-## 11. Current view
+## 11. Current read
 
 As of August 2026, regulation is an important external variable for AI system platforms.
 
@@ -195,7 +195,7 @@ The events that need continuous monitoring are:
 
 Only these formal events are strong enough to change system-stack scenario weighting.
 
-## 12. What evidence would force this chapter to change its judgment
+## 12. What would change the view
 
 The importance of regulation to system-stack competition should be downgraded if:
 
