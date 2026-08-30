@@ -149,7 +149,7 @@ The most dangerous structure is:
 
 > **short-duration demand assumption + long-duration debt / power / real-estate obligation**
 
-## 12. Current judgment
+## 12. Current view
 
 AI infrastructure is expanding from internal technology-company CapEx into a long-duration asset system funded by:
 
