@@ -10,7 +10,7 @@ AI 不需要和 smartphone、router、game console、汽车或工业控制器采
 
 因此，本章使用的传导链是：
 
-> **AI/server product mix 上升 → shared / adjacent resource pool 的 allocation priority 改变 → Non-AI Residual Capacity 与 Quantity Assurance 改变 → BOM、configuration、promotion、volume 或 replacement-cycle economics 调整**
+> **AI/server product mix 上升 → shared / adjacent resource pool 的 allocation priority 改变 → Non-AI Residual Capacity 与 Quantity Assurance 改变 → price / configuration / volume 调整 → Product-Mix Polarization → Vendor Operating-Model Adaptation**
 
 本章研究的是 **transmission + attribution**。它既不假设所有价格上涨都由 AI 导致，也不要求存在 literal one-for-one component competition 才承认产业传导。
 
@@ -110,9 +110,34 @@ Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 
 > **提高高端资源的机会成本，并加剧不同价格带之间的配置分化。**
 
+### 4A. 三层产品时钟：顶部涨价缩量、腰部减配延寿、底部退出
+
+把这种分化写成“全行业原地踏步”仍然过粗。终端厂商面对的是三个不同的产品时钟，而不是统一冻结。
+
+IDC 2026-08-26 的最新 smartphone forecast 预计：[^30]
+
+- 2026 global smartphone shipments 同比 **-16.7%**，降至略高于 **1 billion units**；
+- average selling price 升至 **US$581**，同比 **+27.6%**；
+- total market value 仍预计同比 **+6.3%** 至约 **US$613B**；
+- 2025 年仍出货约 **173 million** 台的 sub-US$100 smartphone segment 面临显著生存压力，低端 Android 厂商正在削减低价型号并上移 product mix。
+
+这组数据非常重要，因为它说明 **unit contraction 与 revenue resilience 可以同时成立**。行业并非简单同步衰退，而是在重新分配量、价与规格。
+
+更准确的三层结构是：
+
+- **Premium：** 通过更高 ASP、融资方案、品牌溢价和更强 supply leverage 吸收成本，继续获得先进规格，但 volume 未必同步增长；
+- **Mid-range：** 最难同时守住 price band、memory/storage configuration 与年度性能叙事，因此更可能延长 platform life、减慢规格升级并拉长 replacement cycle；
+- **Entry：** 当 BOM inflation 超过价格带可承受范围时，结果可能不是同比例涨价，而是 SKU 减少、转向更低成本 platform、二手/翻新替代，甚至退出原有价格带。
+
+Gartner 2026-02 的 forecast 也把这种压力写到了 replacement cycle：其预计到 2026 年底，PC lifetime 对 business buyer 延长约 **15%**、consumer 延长约 **20%**，并判断 sub-US$500 entry-level PC segment 到 2028 年可能失去经济可行性。[^32] 这属于 **B 级 institutional forecast**，不是已经发生的终局事实，但可以作为产品分层风险的外部验证。
+
+因此，本报告不把“发展变慢”理解为所有终端参数同时冻结，而是：
+
+> **顶部继续获得技术进步但以更高价格和更小量实现；腰部通过减配与延寿吸收约束；底部首先承担退出风险。**
+
 ---
 
-## 4A. Routers / Broadband：Buyer Power 决定传导强度
+## 4B. Routers / Broadband：Buyer Power 决定传导强度
 
 Counterpoint Research 2026-02 报告称，consumer DRAM/NAND 一年内价格上涨超过 **600%**；router / gateway / set-top-box 等 broadband products 使用的 memory price 接近 **7×**，低中端 router 的 memory BOM 占比从约 **3%** 升至 **>20%**。[^16]
 
@@ -168,13 +193,55 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 而不是直接导致市场停产。
 
+IDC 2026-06 的 PC outlook 进一步预计，2026 global PC shipments 同比 **-11.3%**，PC ASP 同比 **+18.3%**，且在 2027 年底以前看不到 memory shortage 的实质性缓解。[^31] 这仍然是 forecast，不应写成未来已确定，但它强化了同一个方向：**厂家必须同时处理更高系统成本、更弱 unit demand 与更难维持的完整 product portfolio。**
+
 本报告把这种影响称为**升级税**：
 
 > **消费者可能以相同价格获得更慢的规格升级，或者为相同规格支付更高价格。**
 
+### 6A. Vendor Operating-Model Adaptation：厂家不能只“等用户延迟换机”
+
+消费者可以推迟一年购买，终端厂商却仍承担年度产品规划、渠道库存、模具与研发摊销、最低采购规模、零售任务和市场份额目标。因此，同一次 shortage 在用户端表现为“晚一点换”，在企业端可能表现为**原有经营方程失效**。
+
+过去十余年的主流消费电子经营模式隐含几个相互依赖的条件：
+
+- advanced-node capability 逐步向下扩散；
+- DRAM / NAND 单位成本长期下降；
+- mid-range volume 可以摊薄研发、模具与渠道固定成本；
+- entry products 负责覆盖价格带和市场份额；
+- flagship products 负责品牌、ASP 与技术叙事。
+
+当 memory、advanced logic 与相关制造资源的边际价格和 allocation priority 改变时，这些条件不再能够同时满足。厂商实际可采取的调整主要只有：
+
+1. **涨价：** 保住 margin，但接受 volume 与低端份额下降；
+2. **减配或冻结规格：** 守住 price band，但削弱年度升级理由；
+3. **缩 SKU、拉长生命周期：** 少开新模具、延长 platform amortization；
+4. **转移产品叙事：** 从 compute / memory 参数转向 camera、display、battery、form factor、software 与 services；
+5. **退出部分价格带、地区或产品线：** 当低毛利 SKU 已无法覆盖 BOM 与渠道成本时，直接收缩 portfolio。
+
+Sony 已经提供了一条很强的一手案例：FY26 PS5 hardware planning 明确把能够以合理价格采购到的 memory volume，与 unit sales、promotion plans 和 hardware profitability 连在一起。[^27] IDC 与 Gartner 对 smartphone / PC 的 2026 forecast 则显示，厂商正在面对 “higher ASP + lower units + premiumization + longer replacement cycle” 的组合。[^30][^31][^32]
+
+因此，厂家真正面对的不是“用户能不能忍受更慢升级”，而是：
+
+> **一家原本建立在年度硬件升级与规模扩张上的公司，如何在关键上游资源已经按照另一套回报率重新定价之后，继续覆盖自己的固定成本、渠道体系与产品更新机制。**
+
+#### 6A.1 规模优势仍然存在，但不再自动等于边际供给优先级
+
+本报告不采用“消费电子规模下降后一定拿到更少产能”这种闭环叙事。purchase scale、LTA、prepayment、multi-sourcing 与 supplier relationship 仍然可以显著提高 Quantity Assurance。
+
+但历史销量规模也不能再被自动视为边际 allocation priority。更严谨的机制是假设：
+
+> **当另一类客户能够为同一或相邻资源提供更高 willingness to pay、更长锁量周期、更强 prepayment 或更高 supplier return 时，传统终端的 unit scale 对下一单位 scarce capacity 的议价价值可能下降。**
+
+因此，需要持续监测下面这条反馈，而不是提前把它写成事实：
+
+> **Residual Capacity Compression → Price / Specification Adjustment → Longer Replacement Cycles → Lower Unit Volume → possible weakening of marginal allocation position → further Product-Mix Adjustment**
+
+公开证据已经较强支持前半段；“lower unit volume 是否进一步系统性削弱 future allocation position”仍属于 **M — Mechanism / H — Hypothesis**，必须由后续跨周期的 contract、allocation、wafer start 与 supplier mix 数据验证。
+
 ---
 
-## 6A. Game Console：长世代使 Residual Pressure 更持久
+## 6B. Game Console：长世代使 Residual Pressure 更持久
 
 游戏主机是一个很适合检验 Non-AI Residual Capacity 的整机行业。它与 AI server 并不直接争夺同一颗 accelerator，却真实暴露于 **memory、storage、custom SoC/APU 与部分制造/封测资源**。
 
@@ -190,7 +257,7 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 > **console memory / storage / SoC 与 AI/server demand 位于同一个更大的 semiconductor / memory capital system 中，但具体产品池、封装形式与 qualification path 并不相同。**
 
-### 6A.1 Hardware-Economics Pressure 已可直接观察
+### 6B.1 Hardware-Economics Pressure 已可直接观察
 
 Sony 在 FY2025 Q4 / FY2026 outlook 中明确表示：
 
@@ -218,7 +285,7 @@ TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
 
 > **游戏主机已经成为 memory residual pressure 可以直接影响出货节奏、促销能力与 hardware margin 的整机案例。**
 
-### 6A.2 为什么一次 Cost Shock 可以影响整个 Console Generation
+### 6B.2 为什么一次 Cost Shock 可以影响整个 Console Generation
 
 游戏主机通常具有：
 
@@ -243,7 +310,7 @@ TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
 
 > **同一价格带下，硬件规格提升变慢；或同一目标规格需要更高 BOM / 更弱促销补贴。**
 
-### 6A.3 Attribution Boundary
+### 6B.3 Attribution Boundary
 
 本报告不从上述证据推出：
 
@@ -290,6 +357,25 @@ TrendForce 2026-03 指出，allocation 较低的 PC OEM / module maker 需要以
 - end-market pricing power。
 
 这也是为什么同一个 memory shortage 对大型 premium brand 和中小 OEM 的损伤可以完全不同。
+
+### 7A. Hardware Constraint 会提高 Software Efficiency 的价值，但不会自动让软件“变瘦”
+
+硬件升级放缓会改变软件团队的优化边界，但不能从“设备变贵”直接推出“软件行业将普遍提高效率”。
+
+当 8 GB、有限 storage 或上一代 GPU 在更长时间内继续处于主流 installed base 时，软件厂商可能采用四类不同响应：
+
+1. **Local optimization：** 降低 memory footprint、package size、cold start、background activity，重新把低资源设备纳入 performance KPI；
+2. **Feature tiering：** 对不同 memory / compute tier 使用 lightweight mode、按需加载、可插拔功能或不同 quality preset；
+3. **Cloud offload：** 把模型、索引、rendering 或其他 heavy workload 移到 data center，本地设备变轻，但总资源消耗并未消失；
+4. **Support cutoff：** 提高 minimum requirement、提前结束旧设备支持，把兼容性成本直接转嫁给 installed base。
+
+因此，Hardware Constraint 对软件效率只是**必要压力，不是充分条件**。组织仍会在 engineering cost、time-to-market、cloud cost、subscription revenue 与 user retention 之间选择阻力最小的路径。
+
+这一点对 AI software 尤其重要：consumer endpoint 可能被迫节约 local memory，而 model serving、KV cache、retrieval、agent loop 与 evaluation 又继续扩大 data-center resource consumption。于是可能形成第二层传导：
+
+> **consumer hardware constraint → local software convergence / cloud offload → higher dependence on remote compute → reinforcement of data-center demand**
+
+目前这条链更适合作为 **M — Mechanism**，不能写成已经闭合的需求反身性。它提醒我们：**本地软件变轻，不等于整个系统的 resource intensity 下降。**
 
 ---
 
@@ -434,9 +520,21 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 - local substitution；
 - capacity expansion。
 
-因此，更准确的长期结论不是“AI 淘汰消费电子”，而是：
+因此，更准确的长期结论不是“AI 淘汰消费电子”，也不是“整个消费电子统一冻结”，而是：
 
-> **AI 正在提高传统终端获得上游资源的机会成本，并迫使不同终端重新调整配置、价格、库存和产品周期。**
+> **AI 正在提高传统终端获得部分上游资源的机会成本，并把压力转化为三层不同的产品时钟：顶部涨价缩量但继续升级，腰部减配延寿，底部首先承担退出风险。**
+
+在企业层面，这种分层进一步迫使厂商重写经营方程：
+
+> **Residual Capacity Compression → Product-Mix Polarization → Vendor Operating-Model Adaptation**
+
+其中，涨价、减配、缩 SKU、延长 platform life、转移创新叙事和退出价格带已经有现实或机构预测支持；“unit volume 下降进一步削弱 future marginal allocation position”仍属于待验证机制。
+
+在软件层面，hardware constraint 提高了 local efficiency 的价值，但厂商还可以通过 cloud offload、feature tiering 或 support cutoff 逃逸，因此不能把它写成“软件必然回归节俭”。
+
+这也是本章的最终边界：
+
+> **截至 2026 年，能够确认的是消费计算的廉价量产升级能力受到侵蚀；尚不能确认的是 smartphone、PC 与 gaming 作为完整需求与内容产业已经进入结构性终局。**
 
 ## References
 
@@ -473,3 +571,6 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 [^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 cumulative sales above 93 million and FY26 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
 [^28]: TrendForce, 2025-12-02, Memory Price Surge Squeezes Game Console Margins; 2026 Shipment Forecast Revised Downward, https://www.trendforce.com/presscenter/news/20251202-12811.html
 [^29]: Sony Group, FY2025 Form 20-F, global memory-semiconductor price increases / shortages and component-capacity risk, https://www.sony.com/en/SonyInfo/IR/library/FY2025_20F_PDF.pdf
+[^30]: IDC, 2026-08-26, Smartphone Shipments Set for Record 16.7% Drop in 2026, as the Memory Crisis Hits Full Force, https://www.idc.com/resource-center/blog/smartphone-shipments-set-for-record-16-7-drop-in-2026-as-the-memory-crisis-hits-full-force/
+[^31]: IDC, 2026-06-02, PC Market Enters Volatile Territory as Memory Shortage Persists Through 2027, https://www.idc.com/resource-center/blog/pc-market-enters-volatile-territory-as-memory-shortage-persists-through-2027/
+[^32]: Gartner, 2026-02-26, Gartner Says Surging Memory Costs Will Reduce Global PC and Smartphone Shipments in 2026, https://www.gartner.com/en/newsroom/press-releases/2026-02-26-gartner-says-surging-memory-costs-will-reduce-global-pc-and-smartphone-shipments-in-2026
