@@ -1,21 +1,22 @@
-# Part III · 第19章：AI 基础设施 CapEx 超级周期
+# Part III · 第19章：AI Infrastructure Capital Formation、Duration Mismatch 与 Utilization Test
 
-## 1. 核心判断：资本扩张仍在继续，但产业问题已经从“投多少”转向“这些资本能否被有效利用”
+## 1. 核心问题是 Capital Formation，不是一个 Headline CapEx 总额
 
-截至 2026 年 8 月，Microsoft、Amazon、Alphabet、Meta 等 hyperscaler 的 infrastructure spending 仍处历史高位。真正重要的变化不是某一个 CapEx 绝对规模，而是：
+当前产业显然处于高投资状态。真正需要回答的是：**这些资本形成了什么资产、由谁承担、经济寿命有多长，以及 productive workload 是否增长得足够快。**
 
-> **AI infrastructure 已经从短周期 server procurement，扩展为 advanced logic、HBM、network、data center、cooling、substation、grid connection 与 long-duration power contract 共同驱动的资本周期。**
+Microsoft、Amazon、Alphabet、Meta 并不存在一个完全可比的“AI CapEx”口径。其 fiscal period、PPE definition、lease treatment 与 net-purchase metric 均不同。
 
-这使产业面临两个同时存在的现实：
+因此必须先保留三个分离：
 
-1. **资本仍在扩张**：AI/HPC demand、model-company commitments 与 hyperscaler competition 继续推动大规模基础设施建设；
-2. **回报门槛正在提高**：资本基数越大，未来越需要真实 utilization、workflow volume 与 monetization 去证明投资可持续性。
+1. company-wide CapEx vs. AI-specific investment；
+2. IT equipment vs. data-center / power infrastructure；
+3. actual investment vs. guidance / expectation。
 
-因此，本章不把“高 CapEx”直接等同于繁荣，也不把“高 CapEx”直接等同于泡沫。
+本章的分析顺序因此是：**先确认 denominator identity，再判断 duration mismatch，最后用 utilization / monetization 检验资本周期是否成立。**
 
 ---
 
-## 2. 四大云厂的公开数字不能机械相加
+## 2. 2026 Public Capital Anchors
 
 Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purchases 与 guidance 定义并不一致。
 
@@ -41,7 +42,7 @@ Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purch
 
 ---
 
-## 2A. Corporate CapEx 已不再等于全部 AI Infrastructure Capital Formation
+## 2A. Corporate CapEx 只是 Capital Formation 的一个渠道
 
 到 2026 年 8 月，AI infrastructure 的资本形成已经开始明显超出 hyperscaler corporate CapEx：
 
@@ -59,7 +60,7 @@ Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purch
 
 完整融资结构见[第23章：AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)。
 
-## 3. CapEx 的真正结构：不同久期资产被绑定到同一 AI workload
+## 3. Duration Mismatch 才是核心 Balance-Sheet Risk
 
 AI infrastructure 不是一次性的 server purchase，而是多个经济寿命完全不同的资产共同建设：
 
@@ -80,7 +81,7 @@ AI infrastructure 不是一次性的 server purchase，而是多个经济寿命�
 
 ---
 
-## 4. Seller 与 Buyer 的资本作用不同
+## 4. Seller 与 Buyer 承担不同 Capital Risk
 
 NVIDIA、memory supplier、foundry 与 hyperscaler 都在“增加资本投入”，但它们的资本再生产对象并不相同。
 
@@ -117,7 +118,7 @@ NVIDIA、memory supplier、foundry 与 hyperscaler 都在“增加资本投入�
 
 ---
 
-## 5. Power 正把资本周期从 Semiconductor Clock 拉长到 Infrastructure Clock
+## 5. Power 把 Hardware Clock 与 Infrastructure Clock 耦合
 
 过去数据中心扩张主要受 server procurement 与 network deployment 影响；高密度 AI rack 使问题明显上移。
 
@@ -143,7 +144,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 ---
 
-## 6. 超级周期是否可持续，最终取决于 Utilization 与 Monetization
+## 6. Utilization 是 Capital Cycle 的第一道经济检验
 
 高 CapEx 可以有两种完全不同的含义。
 
@@ -178,7 +179,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 > **新增资本的增长速度，是否长期快于可验证 workload 与现金流的增长速度。**
 
-## 6A. Demand Duration：AI 不是从零开始铺设，而是在全球数字 Installed Base 上叠加
+## 6A. Demand Duration：AI 继承全球 Digital Installed Base
 
 如果 AI 基础设施的需求只来自 frontier-model scaling，那么算法效率、模型压缩或一次供给扩张都可能显著缩短资本周期。
 
@@ -203,7 +204,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 ---
 
-## 7. 五类领先清算信号
+## 7. Capital-Cycle Reversal 的领先信号
 
 判断 Capital Hard Landing，应持续观察五类变量，但确认 S4 不要求 five-of-five 同时满足；关键是多类因果独立信号跨主体/层级形成广泛、持续的 cross-confirmation。
 
@@ -250,7 +251,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 ---
 
-## 8. 资本周期的一个关键二阶效应：投资规模本身会提高未来业绩门槛
+## 8. 更大的 Capital Base 会提高下一阶段 Performance Hurdle
 
 AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的业绩门槛反而越高。
 
@@ -268,7 +269,7 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 ---
 
-## 9. 当前判断
+## 9. Current Read
 
 截至 2026 年 8 月，公开数据仍更支持：
 
@@ -284,7 +285,7 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 真正的转折需要看到：**utilization/revenue、market clearing、forward commitments、demand-financing quality 与 accounting 中的多类独立信号跨主体/层级形成广泛、持续的交叉确认；Accounting 出现时强化严重度，但不是必要条件。**
 
-## 10. 什么事实会迫使本章改判
+## 10. 什么事实会改变当前判断
 
 应下调“资本扩张仍是主线”的判断，如果持续出现：
 
