@@ -149,7 +149,7 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 
 **hardware installed base → CUDA/software assets → model/runtime optimization → developer default path → workload deployment → accelerator demand。**
 
-本报告把这一机制称为 **Developer Distribution Chokepoint**，但不会把它提前写成“软件垄断已经完成”。
+本报告把它作为 **developer-distribution / vertical-foreclosure risk** 的监测项，而不是新的承重理论名；更不会把它提前写成“软件垄断已经完成”。
 
 真正需要观察的不是 Hugging Face 是否仍然允许其他硬件存在，而是控制权变化后，以下“默认值”是否出现持续、可验证的 NVIDIA 倾斜：
 
