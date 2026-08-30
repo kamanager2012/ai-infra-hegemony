@@ -199,19 +199,22 @@ Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estima
 
 ## 11. Where the report's core mechanism models fit
 
-The primary models include:
+To avoid treating every named term as a separate theory, the report distinguishes **load-bearing mechanisms** from **supporting descriptive / measurement language**.
 
-- **AI Resource Gravity**;
-- **Scarce-layer Value Capture**;
-- **Layer-specific Incremental Scarce-Capacity Access**;
-- **Non-AI Residual Capacity**;
-- **Cloud System-Stack Substitution**;
-- **Anchor Compute Buyer Effect**;
-- **Rolling Bottleneck Cascade**;
-- **AI Inheritance Effect**;
-- **AI Software Unit Economics**;
-- **Task-to-Job Translation Layer**;
-- **Financing Reflexivity**.
+### Table 27.2 — Concept hierarchy
+
+| Layer | Concept | Role in the main causal chain |
+|---|---|---|
+| Load-bearing | **Non-AI Residual Capacity** | Measures what effective supply remains available to traditional end systems after priority allocation |
+| Load-bearing | **Layer-specific Incremental Scarce-Capacity Access** | Tracks access to incremental scarce supply separately across logic / HBM / packaging / networking / power |
+| Load-bearing | **Rolling Bottleneck Cascade** | Explains how constraints migrate, ease, or reverse across physical layers |
+| Load-bearing | **Cloud System-Stack Substitution + Parallel-Stack Closure Boundary** | Separates real second-stack substitution from production-grade versus autonomous frontier closure |
+| Load-bearing | **Financing Reflexivity** | Tests feedback between orders, capital formation, seller-assisted financing, and demand independence |
+| Load-bearing | **AI Inheritance Effect** | Explains how the existing IT installed base expands workflow penetration and the long-duration demand pool |
+| Supporting / measurement | AI Resource Gravity, Scarce-layer Value Capture, Two-Speed Semiconductor Economy, Anchor Compute Buyer Effect, AI Capacity Gap / Growth Gap, AI Software Unit Economics, Task-to-Job Translation | Describes direction, measurement boundaries, or second-order transmission; these do not constitute separate grand theories |
+
+**Source:** Report research method.  
+**Note:** Supporting terms can still be analytically important. Their purpose is to make causal structure and denominators clearer, not to imply that naming a mechanism constitutes independent empirical validation.
 
 These models organize causal relationships.
 
