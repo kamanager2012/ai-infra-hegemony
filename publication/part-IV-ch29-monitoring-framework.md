@@ -1,10 +1,10 @@
 # Part IV · 第29章：Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting
 
-## 1. 只跟踪真正能够改变判断的 State Variables
+## 1. 只监测真正能够改变判断的 State Variables
 
-长期研究只有在后续事实能够改变结论时才有价值。
+长期判断只有在后续事实能够迫使它改变时才有研究价值。
 
-因此，本章监测的是 **state variables，而不是新闻数量**。每一个新观察必须回答三个问题：
+因此，本章监测的是 **state variables、transition rate 与 evidence quality，而不是新闻数量**。每一个新观察必须回答三个问题：
 
 1. **Fact layer 到底发生了什么变化？**
 2. **它改变了哪一个 mechanism variable？**
@@ -12,7 +12,7 @@
 
 这是 governed research-update process，不是自动交易模型。Dashboard 的作用，是防止一条 headline、一次 forecast revision 或一次 accounting event 被误读为 structural regime change。
 
-## 2. Dashboard A — Seller Economics 与 Forward Reservation
+## 2. Dashboard A — Seller Economics / Forward Reservation
 
 ### NVIDIA 当前锚
 
@@ -42,7 +42,7 @@ Supply / capacity commitments：[^2]
 
 US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue。[^2]
 
-## 3. Dashboard B — Foundry 与 Packaging
+## 3. Dashboard B — Foundry / Packaging
 
 ### TSMC 2025
 
@@ -175,7 +175,7 @@ frontier workload、data-center power、real system scale。
 
 真正改变 scenario 的变量是 interface openness、tying restriction、access / supply remedy 与 structural change。
 
-## 10. Dashboard I — Capital Clearing 与 Demand Quality
+## 10. Dashboard I — Capital Clearing / Demand Quality
 
 ### Accounting
 
@@ -265,7 +265,7 @@ TrendForce 对 2026 console shipment / memory-BOM 的估计只能作为 B 级数
 
 任何更新都必须保持原始等级；数字更新不等于证据等级自动提升。
 
-## 12. Scenario Reweighting Rules
+## 12. Scenario-Reweighting Rules
 
 ### 向 S1 移动
 
@@ -283,7 +283,7 @@ utilization / revenue、market clearing、forward commitments、demand-financing
 
 dominant platform economics 强，但 alternative stacks 继续发展；scarce layers 仍紧但持续扩产；CapEx 高且 ROI 仍可支撑。
 
-## 12A. Materiality 与 Persistence 必须服从各变量自己的 Clock
+## 12A. Materiality 与 Persistence 必须服从各变量的 Clock
 
 情景权重的变化应依赖**多组独立信号的持续一致方向**，而不是人为规定所有变量都必须满足相同的“两个季度 / 三个月”规则。
 
