@@ -1,6 +1,8 @@
-# Part I · Chapter 9: Global Semiconductor Supply Chains and Manufacturing Redundancy
+# Part I · Chapter 9: Semiconductor Supply-Chain Resilience — Equipment, Materials, and Geographic Redundancy
 
-## 1. Frontier AI depends on an industrial chain spanning companies and countries
+## 1. Resilience is a system-continuity problem
+
+Frontier AI supply security cannot be reduced to the location of one fab or the nationality of one chip designer. The relevant test is whether the full industrial chain can keep producing, qualifying, servicing, and scaling through disruption.
 
 The physical supply chain of a frontier AI system includes at least:
 
@@ -214,7 +216,7 @@ If the world develops two or more relatively separate semiconductor / AI system 
 
 Fragmentation does not necessarily reduce global semiconductor CapEx. It can instead produce **more duplicated construction, lower utilization efficiency inside each individual system, and greater resilience**.
 
-## 12. What constitutes real Supply-Chain Resilience
+## 12. What qualifies as real supply-chain resilience
 
 This report does not define complete self-sufficiency as the only valid objective.
 
@@ -230,7 +232,7 @@ The real competition is therefore not which country produces every input domesti
 
 > **who can maintain the highest level of system continuity at an acceptable cost when a critical disruption occurs.**
 
-## 13. Current judgment
+## 13. Current read
 
 As of 2026, public evidence supports a relatively clear direction:
 
