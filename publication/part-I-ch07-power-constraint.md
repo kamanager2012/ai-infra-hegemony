@@ -74,21 +74,11 @@ Talen/AWS revised PPA 的 full contract quantity 为 **up to 1,920 MW**，合同
 
 ### 3.3 Google / Kairos：2030 年 50 MWe、2035 年前最高 500 MWe
 
-Google / Kairos 的公开路径更长：
+Google / Kairos 的公开时间线更长：**Hermes 2 最早在 2030 年达到 50 MWe，随后在 2035 年前形成最高 500 MWe 的 fleet。**[^5]
 
-- Hermes 2：**up to 50 MWe in 2030**；
-- fleet target：**up to 500 MWe by 2035**。[^5]
+这更适合被理解为长期 supply option、industrial-learning path 与 capacity hedge，而不是 2026–2028 可以直接供 AI campus 使用的 near-term power。
 
-这类 advanced-nuclear agreement 的主要价值是：
-
-- future supply option；
-- industrial learning；
-- long-duration hedge；
-- diversification of firm power。
-
-它不应被当成 2026–2028 的现货电力去抵消当前 interconnection、transformer 或 powered-site constraint。
-
----
+因此，SMR 在近期的主要价值是 future optionality；不能用它来抹掉今天仍然存在的 interconnection、transformer 与 powered-site constraint。
 
 ### 3.4 PORTS-Pike / NVIDIA / SB Energy / OpenAI：secured LPS 与初始 4.25 IT-GW 设计容量
 
