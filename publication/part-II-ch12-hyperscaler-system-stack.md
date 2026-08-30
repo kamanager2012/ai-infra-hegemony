@@ -1,6 +1,6 @@
-# Part II · 第12章：The Second System Stack——Hyperscaler Substitution Economics
+# Part II · 第12章：第二类 System Stack——Hyperscaler Substitution 如何真正成立
 
-## 1. Substitution Test 是 Economic，不是 Architectural
+## 1. Substitution 是 Economic Test，不是 Chip Announcement
 
 现在真正的问题已经不是 hyperscaler 能不能设计 ASIC，而是 alternative stack 能否**以可接受的 TCO、migration cost、reliability 与 scale 承载 production workload**。
 
