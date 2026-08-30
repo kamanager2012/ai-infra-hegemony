@@ -23,6 +23,30 @@
 
 因此，高 revenue share 不自动等于最高 value capture，高 gross margin 也不能跨商业模式直接比较。
 
+## 2A. 经营价值捕获与资本市场估值运行在不同 Clock
+
+一家企业可以已经形成很强的经营利润，却未必获得最高估值倍数；也可以先获得极高资本市场估值，而经营经济性尚未完全兑现。
+
+因此，本报告必须把三层分开：
+
+- **Operating Value Capture：** revenue、gross / operating profit、free cash flow、unit economics 与 cash conversion；
+- **Market Position：** scarcity、switching cost、distribution、supply access 与 bargaining power；
+- **Capital-Market Valuation：** market cap、equity multiple、debt pricing 与 financing flexibility。
+
+三者会互相影响，但不能互相替代。
+
+更强的市场地位可以支持 margin 与 cash flow；更强 cash flow 又能提高融资能力；更高 market valuation 则可能降低 equity financing friction、提高并购货币价值、强化人才激励，并扩大供应链预付款与 strategic investment 的可执行空间。
+
+但必须始终保留：
+
+> **market cap ≠ cash flow ≠ economic rent ≠ physical resource control**
+
+只有当估值能够被转化成真实 financing capacity，而且底层 operating economics 仍然可信时，这个反馈才真正具有产业战略意义。
+
+这也是本章 Value Capture Map 与第23章“五维资本观察框架”之间的连接点。
+
+---
+
 ## 3. System Platform 通过 Coordination 与 Switching Cost 变现
 
 NVIDIA 是当前最清晰的 system-platform 案例。FY27 Q2：Revenue **US$96.221B**、Data Center revenue **US$89.0B**、GAAP gross margin **75.0%**、GAAP operating income **US$63.734B**。[^1]
