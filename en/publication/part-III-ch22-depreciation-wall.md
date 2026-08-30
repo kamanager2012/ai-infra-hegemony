@@ -123,7 +123,7 @@ There is no single year in which "all 2026 CapEx finishes depreciating."
 
 The 2036 structure depends on the second and third rounds of buildout, workload growth, system substitution, power, China's parallel stack, and regulation—not a mechanical first-cycle accounting schedule.
 
-## 11. Current judgment
+## 11. Current view
 
 As of August 2026, the more accurate state is:
 
