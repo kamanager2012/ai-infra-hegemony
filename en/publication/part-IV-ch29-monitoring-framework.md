@@ -352,11 +352,11 @@ These five tests deliberately avoid arbitrary universal rules such as “eight q
 
 ## 13. Governed update protocol
 
-One news item should not rewrite the entire report.
+No single news item should trigger a full-report reclassification.
 
 Scenario weighting changes only when new evidence changes a core mechanism variable with materiality and persistence appropriate to that variable's own reporting and asset clock.
 
-This keeps the report updateable without rewriting the industry narrative after every product launch, stock-price move, or rumor.
+This keeps the report updateable without reclassifying the industry after every product launch, stock-price move, or rumor.
 
 ## References
 
