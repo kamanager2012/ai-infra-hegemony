@@ -69,7 +69,7 @@ This is B-grade institutional estimation, not product-level realized gross-margi
 
 > HBM/AI demand rises → conventional-DRAM residual supply tightens → DDR5/RDIMM prices rise → conventional-DRAM per-wafer economics improve → the relative incentive for further HBM conversion declines → memory vendors rebalance product mix.
 
-AI Resource Gravity is therefore not an infinitely one-way pump. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
+Resource reallocation is therefore not an infinitely one-way process. Long-run allocation depends on risk-adjusted return per scarce manufacturing input, qualification, yield, generation transitions, and customer-contract structure.
 
 ## 7. Rack specs show intensity, not industry demand
 
