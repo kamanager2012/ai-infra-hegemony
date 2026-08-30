@@ -132,7 +132,7 @@ After this adjudication, Phase II moves from framework construction to **state-t
 优先继续深化而不是扩题：
 
 1. P0-1 已完成第二个独立 negative control，并进入 live logging 阶段；下一步不再为了样本数量机械增加历史 case，优先维护 `01A`：只有真实新 publication-time evidence 触发 WATCH / CANDIDATE / CONFIRMED / de-escalation 时才更新；历史案例只在出现新的机制缺口时扩充；
-2. P0-2 下一步直接按 OpenRouter Rankings Daily API 构建 Terra/Luna/Sol common-window model-day panel；先做 top-50 censoring / slug / `as_of` / price-path 审计，通过后才估 event-time effect，并继续分离 provider/model substitution、share displacement 与 net workflow/market expansion；
+2. P0-2 的 30 天 Terra/Luna/Sol common-window panel、target-model censoring audit 与 Sol 8/17 short-window event calibration 已完成；下一步只在获得 **7/8–7/29 更早 machine-readable pre-window** 后尝试独立识别 Terra/Luna 初始 treatment，并继续把 provider/model substitution、share displacement 与 net market expansion 分开。E2/E3/E4 仍需真实 workload / verified-workflow / infrastructure denominator，不用 Sol 的单模型事件系数替代；
 3. P0-3 已升 v0.7 并冻结 literature expansion；下一步只接受公开/可审计 same-`workflow_id` Level-3 全链数据、按 §17 acquisition contract 前瞻构造的一手企业数据，或 material methodology change；继续禁止跨研究拼接 ROI；
 4. P0-4 继续只维护 04A–04D，不扩张主方法文件；04B 的 corporate-layer scope 已收口，不再重复 04A/04C/04D。后续按季度分别维护 public-credit regime、hyperscaler headroom/commitment/monetization、facility state、support activation；只有真实 state transition 才推动研究判断变化；
 5. Decision Invariants 结构已收口；不再扩充 hard-invariant 数量，也不再改 canonical 编号。后续只在真实实施案例出现时验证 L/M/H implementation burden；
