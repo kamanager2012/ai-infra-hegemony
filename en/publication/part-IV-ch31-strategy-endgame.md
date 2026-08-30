@@ -1,4 +1,4 @@
-# Part IV · Chapter 31: Strategic Implications Under Alternative AI-Infrastructure States
+# Part IV · Chapter 31: Strategic Implications Across Alternative AI Infrastructure States
 
 ## 1. Strategy is about preserving executable optionality
 
