@@ -1,6 +1,6 @@
 # Web Edition
 
-This directory contains the zero-build web reader for **AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report**.
+This directory contains the zero-build web reader for **AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook**.
 
 ## Publishing model
 
