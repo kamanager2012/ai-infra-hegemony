@@ -55,7 +55,7 @@ TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^
 
 单独出现“memory price 上涨”只能证明价格周期，不足以证明全部涨幅由 AI 导致。
 
-同样，3Q26 mobile DRAM 涨幅预期已经显著低于 2Q26，说明 inventory、终端承受能力与供给调整能够部分抵消 AI Resource Gravity。
+同样，3Q26 mobile DRAM 涨幅预期已经显著低于 2Q26，说明 inventory、终端承受能力与供给调整能够部分抵消 resource reallocation pressure。
 
 所以第21章讨论的是**边际传导机制**，不是一个“AI 解释所有消费电子通胀”的单因果模型。
 
