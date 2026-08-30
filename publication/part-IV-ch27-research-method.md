@@ -16,7 +16,7 @@ AI infrastructure research 横跨 finance、semiconductor、memory、packaging�
 - future scenario 被写成 current fact；
 - 同一个二手数字在多个章节重复后，被误认为 multi-source confirmation。
 
-因此，本报告使用两套互补框架：
+分析由两套互补框架共同约束：
 
 > **F → H → M → S → X**
 
@@ -94,7 +94,7 @@ Mechanism 要回答：
 
 ## 5. S — Scenario：条件状态，不是单点预测
 
-本报告采用四类标准情景：
+四类标准情景构成 scenario 分析：
 
 - **S1 — Competitive Expansion**；
 - **S2 — Baseline Concentration**；
@@ -120,7 +120,7 @@ Scenario 的作用不是给未来分配一个固定概率，而是回答：
 - migration cost 被 open interfaces 显著降低；
 - utilization 与 forward commitments 同时转弱。
 
-没有 falsification condition 的长期叙事，不进入本报告强结论。
+没有 falsification condition 的长期叙事，不进入正式强结论层。
 
 ---
 
