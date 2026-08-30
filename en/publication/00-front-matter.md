@@ -7,13 +7,13 @@
 **Edition revision:** August 30, 2026  
 **Analysis and scenario horizon:** 2026–2036  
 **Canonical research language:** English  
-**Professional Chinese translation:** Chinese
+**Professional Chinese edition:** available
 
 ---
 
 ## Scope
 
-> **Positioning boundary:** this report does not claim to be globally unique, the world's most comprehensive AI-infrastructure report, or the deepest source on every layer. Specialist systems such as power-market research, semiconductor supply-chain models, compute datasets, sell-side finance, and policy research can be materially stronger within their own domains. The report's contribution is the **cross-layer integration** of physical supply, system-stack competition, capital formation, downstream transmission, evidence identity, denominator discipline, and explicit falsification rules.
+> **Positioning boundary:** this report does not claim to be globally unique, the world's most comprehensive AI-infrastructure report, or the deepest source on every layer. Specialist research programs in power markets, semiconductor supply chains, compute datasets, sell-side finance, and policy can be materially stronger within their own domains. The report's contribution is the **cross-layer integration** of physical supply, system-stack competition, capital formation, downstream transmission, evidence identity, denominator discipline, and explicit falsification rules.
 
 This report is a 32-chapter long-form industry study of AI infrastructure, semiconductors, memory, advanced packaging, hyperscaler system stacks, power, capital, Agent-Native Software, Physical AI, labor and talent systems, and structural industrial change.
 
@@ -37,7 +37,7 @@ Editorial rule:
 
 > **Simplify navigation, not analysis. Do not explain what the target professional reader is expected to know; explain what is easy to mis-measure, mis-denominate, or infer incorrectly.**
 
-The objective is not to produce one deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be tested against later public evidence. Facts emerging after **August 28, 2026** belong to a later evidence cycle; they may be used to re-evaluate the framework, but they are not backdated into this edition's evidence set.
+The objective is not to produce a single deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be tested against later public evidence. Facts emerging after **August 28, 2026** belong to a later evidence cycle; they may be used to re-evaluate the framework, but they are not backdated into this edition's evidence set.
 
 
 ### Entry point for end-system and industrial-supply readers
@@ -79,7 +79,9 @@ Original report text is distributed under the repository LICENSE. Third-party ma
 
 ## Reading Navigation
 
+- [Research Brief](RESEARCH_BRIEF.md)
 - [Table of Contents](01-table-of-contents.md)
+- [List of Figures](01-list-of-figures.md)
 - [List of Tables](02-list-of-tables.md)
 - [Abbreviations and Core Glossary](03-abbreviations-and-glossary.md)
 - [Research Transparency, Limitations, and Correction Policy](04-research-transparency.md)
