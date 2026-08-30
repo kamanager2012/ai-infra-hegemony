@@ -1,0 +1,3 @@
+series,relative_wafer_supply_index,comparison_boundary,evidence_identity,source
+DDR5,1.0,"same technology node / same number of bits","first-party physical trade ratio","Micron Technology FY24 Q2 Prepared Remarks, 2024-03-20"
+HBM3E,3.0,"same technology node / same number of bits","first-party physical trade ratio","Micron Technology FY24 Q2 Prepared Remarks, 2024-03-20"
