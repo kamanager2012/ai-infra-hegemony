@@ -262,10 +262,10 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 | 承重核心 | **Non-AI Residual Capacity** | 解释优先分配后传统整机真正可获得的有效供给 |
 | 承重核心 | **Layer-specific Incremental Scarce-Capacity Access** | 按 logic / HBM / packaging / networking / power 分层判断新增稀缺资源可得性 |
 | 承重核心 | **Rolling Bottleneck Cascade** | 解释约束如何在不同物理层迁移、缓解或反转 |
-| 承重核心 | **Cloud System-Stack Substitution + Parallel-Stack Closure Boundary** | 区分第二系统栈的真实替代能力，以及 production-grade substitution 与 autonomous frontier closure |
+| 承重核心 | **Cloud system-stack substitution + parallel-stack closure boundary** | 区分第二系统栈的真实替代能力，以及 production-grade substitution 与 autonomous frontier closure |
 | 承重核心 | **Financing Reflexivity** | 判断订单、资本形成与 seller-assisted financing 之间的反馈和需求独立性 |
-| 承重核心 | **AI Inheritance Effect** | 解释 IT installed base 如何扩张 AI workflow penetration 与长期需求池 |
-| 辅助描述 / 测量 | AI Resource Gravity、Scarce-layer Value Capture、Two-Speed Semiconductor Economy、Anchor Compute Buyer Effect、AI Capacity Gap / Growth Gap、AI Software Unit Economics、Task-to-Job Translation | 用于描述方向、分层测量或延伸传导，不单独构成新的“总理论” |
+| 承重核心 | **AI inheritance** | 解释 IT installed base 如何扩张 AI workflow penetration 与长期需求池 |
+| 辅助描述 / 测量 | resource reallocation pressure、scarce-layer value capture、two-speed semiconductor economics、anchor-buyer mechanism、AI Capacity Gap / Growth Gap、AI Software Unit Economics、Task-to-Job Translation | 用于描述方向、分层测量或延伸传导，不单独构成新的“总理论” |
 
 **Source:** 本报告研究方法。  
 **Note:** 辅助术语可以很重要，但其作用是提高因果表达和量纲清晰度；不能因为有独立名称，就被视为已经得到独立实证验证的理论。
