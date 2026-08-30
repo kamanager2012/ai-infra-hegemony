@@ -204,7 +204,7 @@ xAI 的路径比 Stargate 与 Anthropic/AWS 更直接：它不是通过 cloud �
 
 > **unit compute demand can fall while total infrastructure demand rises**
 
-Anchor Buyer Demand 不能用简单“每年固定翻倍”外推。
+anchor-buyer demand 是动态 demand function，不能用固定指数曲线外推。
 
 真正需要跟踪的是：
 
@@ -292,7 +292,7 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 - model-company financing / revenue 压力；
 - capacity delivery 明显领先于 workload growth。
 
-因此，公开承诺本身不是终点。
+因此，headline commitment 不是分析终点。
 
 真正重要的是：
 
@@ -302,19 +302,19 @@ Anchor Buyer 能提高融资确定性，也会提高集中度风险。
 
 ## 11. Current Read
 
-截至 2026 年 8 月，模型公司已经可以被视为 AI infrastructure 的独立 Anchor Buyer category。
+截至 2026 年 8 月，大型 model companies 已经构成 AI infrastructure 中一个独立的 Anchor Buyer category。
 
-OpenAI Stargate 的 secured-capacity 与 construction 状态、Anthropic/AWS 的十年 compute commitment 与 Trainium deployment、xAI Colossus 的自建 buildout，都说明：
+OpenAI Stargate 的 secured-capacity 与 construction milestones、Anthropic/AWS 的十年 compute commitment 与 Trainium deployment、xAI 的 self-built Colossus buildout，以及 PORTS-Pike 的 LPS / credit-support structure，都表明 model workload 正在塑造：
 
-> **model workload 已经开始影响 cloud architecture、custom silicon、data-center buildout、power procurement 与基础设施融资。**
+> **cloud architecture、custom silicon、data-center buildout、power procurement 与 infrastructure finance**
 
-因此，Anchor Buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。其时间领先性目前由 Stargate、Anthropic/AWS 与 xAI Colossus 三个案例支持，仍需在后续完整周期中持续验证。
+因此，anchor-buyer commitments 是连接 **S2/S3 expansion** 与 **S4 capital clearing** 的关键 leading indicator。这个信号的 leading-indicator value 目前由 Stargate、Anthropic/AWS 与 xAI Colossus 三个 documented cases 支持，仍需要在更多完整周期中重新检验。
 
-它既可以加速 AI infrastructure 的资本形成，也可以在 utilization 不足时放大 stranded-capacity 与 duration-mismatch risk。
+它们可以加速 AI-infrastructure capital formation；在 utilization 走弱时，也可能放大 stranded-capacity 与 duration-mismatch risk。
 
 ## 12. 什么事实会改变当前判断
 
-Anchor Compute Buyer Effect 应在以下情况下被下调：
+anchor-buyer mechanism 应在以下情况下被下调：
 
 - long-duration commitments 大规模改期、缩减或重谈；
 - secured capacity 长期无法转化为 energized / utilized capacity；
