@@ -275,15 +275,13 @@ Cloud custom system 的“成功”至少有两个不同层级。
 - cloud-specific TCO optimization；
 - captive distribution。
 
-两者边界会随着：
+两者边界取决于：
 
 - software maturity；
 - memory supply；
 - interconnect；
 - workload structure；
-- migration cost；
-
-不断移动。
+- migration cost。
 
 ---
 
