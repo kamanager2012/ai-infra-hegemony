@@ -108,7 +108,7 @@ A more defensible mechanism is that order scale, credit, prepayment, and roadmap
 
 ## 7. Packaging is a separate physical pool
 
-TSMC first-party material confirms advanced-packaging tightness, but customer-level CoWoS allocation is not disclosed.[^5] TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is B-grade institutional evidence.[^6]
+TSMC first-party material confirms advanced-packaging tightness, but customer-level CoWoS allocation is not disclosed.[^5] TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is treated as **B-grade institutional evidence from a paid-report landing page, not supplier-confirmed physical allocation**.[^6]
 
 No report-side packaging-geometry ratio is used in the formal analysis to infer rack output or customer allocation. Front-end logic wafers and back-end advanced-packaging capacity are different physical pools and cannot be divided into one another.
 
@@ -116,9 +116,9 @@ This is why "leading-edge logic available" and "complete AI system deliverable" 
 
 ## 8. Foundry share is not frontier-system substitution
 
-TrendForce estimates 1Q26 foundry revenue shares at roughly **72% for TSMC**, **6.5% for Samsung Foundry (excluding System LSI)**, and **5.1% for SMIC**.[^7]
+TrendForce estimates 1Q26 revenue shares among the **global Top-10 foundries it tracks** at roughly **72% for TSMC**, **6.5% for Samsung Foundry (excluding System LSI)**, and **5.1% for SMIC**.[^7]
 
-These are revenue shares, not frontier-AI capacity shares. A second supply system capable of substitution must also prove node performance, yield, advanced packaging, the HBM ecosystem, customer qualification, and software/system integration.
+These are Top-10 foundry revenue shares, not frontier-AI capacity shares. A second supply system capable of substitution must also prove node performance, yield, advanced packaging, the HBM ecosystem, customer qualification, and software/system integration.
 
 "Another foundry exists" and "a complete second frontier-AI supply stack exists" are therefore different propositions.
 
@@ -146,7 +146,7 @@ A higher foundry revenue share alone, a single technology demonstration, or poli
 [^2]: Taiwan Semiconductor Manufacturing Company Limited, 2025 Form 20-F, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
 [^3]: TSMC, 4Q25 Presentation / 2025 full-year platform and technology mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 [^4]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
-[^5]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness, https://investor.tsmc.com/english/quarterly-results/2026/q2
-[^6]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
+[^5]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf
+[^6]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate; paid report landing page, not supplier-confirmed allocation, https://www.trendforce.com/research/download/RP250314ZJ
 [^7]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^8]: TSMC, 2Q26 Quarterly Results / Earnings Conference, platform mix, advanced-technology revenue mix, and 2026 capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
