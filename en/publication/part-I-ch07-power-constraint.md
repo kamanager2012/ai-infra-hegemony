@@ -2,7 +2,7 @@
 
 ## 1. The power question is deployable capacity, not electricity price
 
-At roughly **120 kW/rack**, power stops behaving like a conventional operating-cost input and starts behaving like a deployment constraint.[^1]
+At roughly **120 kW/rack**, power is no longer just an operating-cost input. It becomes a deployment gate.[^1]
 
 A D-grade stress conversion makes the scale visible:
 
@@ -14,7 +14,7 @@ The relevant industrial variable is therefore:
 
 > **Time-to-Power: how long it takes to move from project intent to energized, usable capacity for a real AI workload.**
 
-## 2. Power requires a delivery-state model, not headline-GW arithmetic
+## 2. Power requires a delivery-state model
 
 Power / LPS projects should be separated into six states:
 
@@ -92,7 +92,7 @@ The narrower supported conclusion is that **interconnection and transmission bui
 
 What matters for AI system delivery is how many MW a specific region can actually deliver inside a specific hardware-generation window—not the total GW sitting in a national queue.
 
-## 6. Time-to-Power is now a system-competition variable
+## 6. Time-to-Power is a system-competition variable
 
 Advanced chips can advance on monthly and quarterly product clocks. Power infrastructure often advances on multi-year clocks.
 
@@ -108,7 +108,7 @@ Hyperscaler competition is therefore not only about who acquires more accelerato
 
 The 50 / 100 / 500 MW values are scenario-scale markers used to illustrate Time-to-Power; they are not disclosed project capacities.
 
-## 7. Power can become the next bottleneck after semiconductor supply eases
+## 7. Power can become binding after semiconductor supply eases
 
 AI infrastructure does not have one permanent bottleneck.
 
@@ -120,7 +120,7 @@ The reverse is also possible. If power infrastructure is built far ahead of work
 
 "Power is now a core constraint" and "power is not yet the sole dominant bottleneck" can therefore both be true.
 
-## 8. Power contracts and compute assets run on different duration clocks
+## 8. Power contracts and compute assets run on different clocks
 
 AI servers have shorter technological and economic lives than major power assets and long-duration PPAs.
 
@@ -132,7 +132,7 @@ In high-demand scenarios, long-duration power access can be a moat. In S4 Capita
 
 Power contracts therefore need to be evaluated through duration, ramp, take-or-pay / cancellation terms, project execution, utilization, and residual value.
 
-## 9. When does power become the dominant constraint?
+## 9. When does power become the binding constraint?
 
 Power should be upgraded from "one of the core constraints" to "the dominant constraint" only if several signals appear together:
 
