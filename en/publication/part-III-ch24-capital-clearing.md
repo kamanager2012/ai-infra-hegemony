@@ -1,16 +1,16 @@
 # Part III · Chapter 24: Capital Clearing — Lead Indicators, Demand Quality, and the S4 Test
 
-## 1. When does expansion become capital clearing?
+## 1. The S4 question: when does expansion become clearing?
 
-Large AI-infrastructure investment is not itself evidence of a bubble, and high seller margins are not evidence that buyer-side economics are healthy.
+Large AI-infrastructure investment is not evidence of a bubble by itself, and high seller margins are not evidence of healthy buyer economics.
 
-The relevant test is whether **asset formation begins to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**.
+The S4 test begins when **asset formation starts to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**. The key is not one weak metric; it is a consistent divergence between capital formation and productive demand.
 
 This chapter therefore does not ask whether AI valuations are high. It asks when the evidence is strong enough to move the scenario framework from S2-style expansion toward **S4 — Capital Hard Landing**.
 
 One CapEx total, one valuation multiple, one stock drawdown, or one impairment is not sufficient. The decision depends on lead indicators, cross-signal confirmation, and causal breadth.
 
-## 2. Clearing signals operate on different clocks
+## 2. Clearing signals run on different clocks
 
 These signal families operate on different lead/lag clocks. **Market Clearing, Utilization / Revenue, Forward Commitment, and Demand Quality / Financing can deteriorate before financial statements recognize losses; Accounting is usually a lagging confirmation / severity signal.** The framework therefore does not wait for impairment before increasing S4 weight.
 
@@ -77,7 +77,7 @@ The current trajectory looks more like continued forward resource reservation th
 
 **That statement only rejects the claim that broad cancellation has already occurred; it does not establish healthy independent end demand, healthy buyer ROI, or high financing quality.** Forward commitments must be read together with Section 7 on Demand Quality / Supplier-Assisted Financing.
 
-## 3. The signal is divergence, not a synthetic global CapEx total
+## 3. The signal is divergence, not a synthetic global total
 
 The four major hyperscalers do not report CapEx / PPE / finance-lease investment on one identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
 
@@ -110,7 +110,7 @@ Strong seller margin does not prove healthy buyer-side ROI.
 
 Buyer-side ROI pressure also does not imply seller economics collapse in the same quarter.
 
-## 5. Efficiency only matters relative to workload growth
+## 5. Efficiency matters only relative to workload growth
 
 Infrastructure demand can be expressed at a high level as:
 
@@ -154,7 +154,7 @@ They include:
 
 If those variables weaken alongside buyer utilization and market-clearing prices, the evidence for Capital Hard Landing strengthens materially.
 
-## 7. Demand Quality: distinguish independent demand from supplier-assisted financing
+## 7. Demand quality: distinguish independent demand from supplier-assisted financing
 
 When a system seller also participates through customer equity investment, credit enhancement, LPS support, or infrastructure finance, seller-side order visibility cannot be treated as identical to independently financed end demand.
 
@@ -179,7 +179,7 @@ Healthy utilization can make seller-assisted financing an accelerator of real bu
 
 Weak utilization combined with rising supplier support should reduce the evidentiary weight of forward commitments.
 
-## 8. Clearing propagates by asset duration
+## 8. Clearing propagates through the asset-duration stack
 
 Short-cycle assets clear first; long-cycle assets clear later.
 
@@ -209,7 +209,7 @@ Judgment is cumulative: each signal updates at its own disclosure frequency per 
 
 But one weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 
-## 10. Current view
+## 10. Current read
 
 As of August 2026, public evidence is still closer to:
 
