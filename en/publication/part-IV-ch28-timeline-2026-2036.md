@@ -79,7 +79,7 @@ If upstream supply elasticity improves while these end-system proxies do not, gr
 
 Observe how much headline contracted / secured capacity converts into energized and utilized capacity and whether Time-to-Power continues to shape site selection.
 
-PORTS-Pike is publicly planned to begin phased delivery from **2028**, making it a useful Phase II test of whether secured LPS and future IT-GW design capacity actually become deployable compute rather than a Phase I operating-capacity claim.[^9]
+PORTS-Pike is publicly planned to begin phased delivery from **calendar 2028**; NVIDIA's FY27 Q2 Form 10-Q describes the first phase as expected in **fiscal 2029**.[^2][^9] These are compatible time identities. The project is therefore a useful Phase II test of whether secured LPS and future IT-GW design capacity actually become deployable compute rather than a Phase I operating-capacity claim.
 
 ## 4. Phase III: 2031–2033 — geography and industrial structure may harden
 
