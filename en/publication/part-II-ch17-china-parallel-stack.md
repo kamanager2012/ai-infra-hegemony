@@ -225,6 +225,43 @@ It does not support the claim that physical supply no longer matters, nor that a
 
 Algorithmic efficiency is a lever—not a substitute for HBM, packaging, interconnect, and power.
 
+## 8A. System engineering can compensate for manufacturing disadvantage, but the compensation has a cost
+
+A manufacturing-node disadvantage does not translate one-for-one into a system-output disadvantage.
+
+A constrained stack can partially compensate through:
+
+- sparsity, quantization, routing, and memory-efficiency gains;
+- larger numbers of dies / accelerators;
+- chiplet, board-level, or rack-level topology;
+- more aggressive compiler / runtime co-design;
+- workload-specific scheduling and communication optimization;
+- narrower specialization around captive workloads.
+
+This is a real competitive axis and prevents the report from treating process-node position as a deterministic system verdict.
+
+But compensation is not free. Using more devices, larger topologies, or more elaborate software can increase pressure on other denominators:
+
+- logic-wafer input;
+- package starts / integration complexity;
+- memory capacity and bandwidth;
+- interconnect and switch count;
+- power and cooling;
+- failure domains and operational complexity;
+- capital required per delivered workload.
+
+The correct test is therefore not “Which node is more advanced?” and not “Can software erase the node gap?”
+
+It is:
+
+> **Can system engineering convert the available manufacturing base into competitive production-workload economics without simply moving the bottleneck into memory, packaging, networking, power, reliability, or capital?**
+
+Because those inputs use different physical units, the report should not collapse them into one synthetic compensation score. It should compare bounded metrics such as throughput / cost per target workload, power per verified output, qualified package availability, memory intensity, utilization, and multi-generation continuity.
+
+This gives engineering compensation its proper role: **it can compress a hardware disadvantage; it does not remove the need for system closure.**
+
+---
+
 ## 9. Domestic workloads create the iteration loop
 
 A parallel stack does not need to win the global developer ecosystem before it can create value.
