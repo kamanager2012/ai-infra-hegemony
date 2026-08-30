@@ -66,7 +66,7 @@ TSMC 2026 Q2 的 platform revenue mix 中，HPC 占 **66%**、smartphone 占 **2
 
 memory 侧也出现相同方向。Micron 一手披露，在 same node / same bits 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。[^2] TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^3]
 
-因此，本报告把这一结构称为 **Two-Speed Semiconductor Economy**：
+因此，这一分化可以概括为 **two-speed semiconductor economics**：
 
 > **AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，却具有不同的价格承受能力、订单期限、预付款能力、BOM 约束与资本形成能力。**
 
@@ -150,7 +150,7 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model
 
 > **提高项目收入可见性 → 提升融资确定性 → 推动 cloud / data center / power / chip 提前建设 → 获得更稳定 capacity → 支撑更大 workload**
 
-这形成 **Anchor Compute Buyer Effect**。
+这就是 **anchor-buyer mechanism**。
 
 但同一机制也会放大资本周期风险。如果长期需求承诺改期、利用率不足或商业收入无法覆盖基础设施资本成本，原本支持建设的确定性就可能转化为 stranded-capacity 与 duration-mismatch risk。
 
@@ -236,7 +236,7 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 如果只观察 GPU、HBM、CapEx 或数据中心容量，本报告仍然是不完整的。基础设施只是供给侧；十年产业周期能否成立，最终取决于这些物理资产能否穿过软件、企业流程与实体世界，转化为可验证的经济产出。
 
-### AI Inheritance Effect：IT 就是 AI 的 Installed Base
+### AI inheritance：IT 就是 AI 的 Installed Base
 
 AI 的长期扩散不需要重新从零建设整个数字世界。过去几十年的 information technology 已经留下 software、database、cloud、API、digital documents、source code、identity/access 与可追踪 workflow。对已经高度信息化的组织，AI 更像在既有数字底座上增加 intelligence / automation layer。
 
