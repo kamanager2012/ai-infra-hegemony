@@ -50,8 +50,8 @@
       heroKicker:"产业前瞻研究报告 · 32章 · 中英双语",
       heroTitle:"AI基础设施格局重塑",
       heroSubtitle:"2026–2036：算力如何重塑芯片、存储、电力、资本与全球产业秩序",
-      formalTitle:"AI基础设施格局重塑：2026–2036产业前瞻研究报告",
-      formalSubtitle:"全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构",
+      formalTitle:"AI基础设施格局重塑：2026–2036结构性产业展望",
+      formalSubtitle:"AI 算力扩张如何重配半导体、存储、先进封装、电力、资本与终端产能",
       heroSummary:"一份以事实、机制、情景与可证伪标准为核心的长期行业研究报告。研究 AI 从单颗 accelerator 竞争上移到完整 system stack 后，如何改变上游资源配置、资本形成、传统终端与未来十年的产业结构。",
       start:"开始阅读",master:"直接看总判",print:"打印 / 保存 PDF",
       indexTitle:"32 章正式版",indexNote:"推荐先读 Ch01 → Ch32 → Ch30，再按主题进入完整章节。",
@@ -68,8 +68,8 @@
       heroKicker:"AI INFRASTRUCTURE · SEMICONDUCTORS · POWER · CAPITAL",
       heroTitle:"AI Buyers Are Repricing the Stack",
       heroSubtitle:"A 2026–2036 framework for who gets advanced logic, HBM, packaging, power — and what is left for everyone else.",
-      formalTitle:"AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report",
-      formalSubtitle:"Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital",
+      formalTitle:"AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook",
+      formalSubtitle:"How the AI Compute Buildout Is Reallocating Semiconductors, Memory, Advanced Packaging, Power, Capital, and End-Market Capacity",
       heroSummary:"The core question is no longer which accelerator is fastest. It is which system stacks can secure scarce capacity, turn it into production workloads, and keep the economics working as supply expands, algorithms improve, and alternative stacks mature.",
       start:"Start with the thesis",master:"Read the master judgment",print:"Print / Save PDF",
       indexTitle:"Research map",indexNote:"Start with Ch03 Residual Capacity, Ch12 the Second System Stack, Ch17 China Parallel Stack, or Ch21 Consumer Transmission.",
@@ -364,7 +364,7 @@
       }
     }
     $("printBody").innerHTML = sections.join("\n");
-    document.title = (lang === "en" ? "AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report" : "AI基础设施格局重塑：2026–2036产业前瞻研究报告") + " — 2026 Edition";
+    document.title = (lang === "en" ? "AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook" : "AI基础设施格局重塑：2026–2036结构性产业展望") + " — 2026 Edition";
   }
 
   function toggleLanguage() {
