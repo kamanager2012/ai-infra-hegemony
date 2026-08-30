@@ -1,4 +1,4 @@
-# The Age of AI Infrastructure Hegemony: 2026–2036
+# The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report
 
 ### Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital
 
