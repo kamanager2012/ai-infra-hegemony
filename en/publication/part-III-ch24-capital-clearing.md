@@ -27,7 +27,7 @@ These indicate that companies themselves have reduced expectations for future ca
 
 One-quarter policy or inventory effects cannot by themselves be upgraded into structural collapse.
 
-For example, H20-related charges affected NVIDIA FY26 results, but GAAP gross margin was **75.0% in FY26 Q4**, **74.9% in FY27 Q1**, and **75.0% in FY27 Q2**.[^1][^2][^3]
+For example, NVIDIA's FY26 Form 10-K records H20-related charges, including a **US$4.5B charge in FY26 Q1**; that accounting event should remain separate from the later gross-margin sequence.[^8] GAAP gross margin was **75.0% in FY26 Q4**, **74.9% in FY27 Q1**, and **75.0% in FY27 Q2**.[^1][^2][^3]
 
 One-time charges and releases must remain separate from long-run system economics.
 
@@ -69,7 +69,7 @@ Persistent resale discounts and shorter lead times are therefore more meaningful
 
 The next round of expansion depends on hyperscaler CapEx guidance, NVIDIA manufacturing/supply/capacity commitments, long-duration model-company compute contracts, and power commitments.
 
-NVIDIA's public commitment path rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and **US$279B** on 2026-07-26.[^4]
+NVIDIA's disclosed manufacturing / supply / capacity commitment family rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and **US$279B** on 2026-07-26.[^4] The underlying mix and duration are not identical across reporting dates, so the sequence is a forward-reservation indicator rather than a perfectly homogeneous time series.
 
 The FY27 Q2 10-Q states that the latest commitments primarily relate to memory and manufacturing facilities required for data-center infrastructure systems.
 
@@ -79,7 +79,7 @@ The current trajectory looks more like continued forward resource reservation th
 
 ## 3. The signal is divergence, not a synthetic global total
 
-The four major hyperscalers do not report CapEx / PPE / finance-lease investment on a single identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
+As reconstructed in [Chapter 19](part-III-ch19-capex-supercycle.md), the four major hyperscalers do not report CapEx / PPE / finance-lease investment on a single identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
 
 This chapter does not repeat the four-cloud CapEx table.
 
@@ -139,7 +139,7 @@ Lower model prices or higher algorithmic efficiency do not, by themselves, prove
 
 ## 6. Anchor Compute Buyers add a new leading indicator
 
-OpenAI Stargate, Anthropic/AWS, and other long-duration capacity commitments raise model companies from ordinary tenants into infrastructure Anchor Buyers.
+OpenAI Stargate and Anthropic/AWS provide current examples of long-duration model-company capacity commitments that can move model companies from ordinary tenants toward infrastructure Anchor Buyers.[^9][^10]
 
 They can improve project-financing certainty and pull forward data-center, power, chip, and memory construction.
 
@@ -158,7 +158,7 @@ If those variables weaken alongside buyer utilization and market-clearing prices
 
 When a system seller also participates through customer equity investment, credit enhancement, LPS support, or infrastructure finance, seller-side order visibility cannot be treated as identical to independently financed end demand.
 
-NVIDIA's August 2026 disclosures now provide concrete examples: the company is supporting a **>US$500B third-party-capital mobilization target**, providing LPS credit support around PORTS-Pike, and discussing large frontier-lab investments plus selective credit enhancement.[^5][^6][^7]
+NVIDIA's August 2026 disclosures now provide concrete examples: it **announced partnerships / MOUs aimed at mobilizing more than US$500B of third-party capital over time, subject to final agreements**, provided LPS credit support around PORTS-Pike, and discussed large frontier-lab investments plus selective credit enhancement.[^5][^6][^7]
 
 This does not, by itself, prove that the demand is artificial.
 
@@ -196,7 +196,7 @@ Public disclosures rarely provide a same-denominator measure spanning supplier e
 | weakening | risk appetite / refinancing terms deteriorating | rising materially | supplier support may be sustaining order visibility faster than end economics | strengthens Demand Quality / Financing family |
 | weak across utilization and clearing | independent capital withdraws or requires major repricing | support cannot restore execution / cash flow | capital clearing rather than simple financing acceleration | strong S4 evidence when cross-confirmed by other families |
 
-**Source:** report evidence framework applied to the financing structures described in this chapter.[^5][^6][^7]  
+**Source:** **report-side evidence matrix**. The cited external disclosures establish the underlying financing structures—third-party-capital platforms / MOUs, seller credit support, equity exposure, and selective credit enhancement—but they do **not** supply the four interpretation rows below.[^5][^6][^7]  
 **Note:** No row is triggered by one disclosure alone. The matrix requires direction over time and cross-signal confirmation. If a same-denominator financing stack becomes public for a specific project, a project-level ratio can be calculated; until then, the matrix is more auditable than a synthetic percentage.
 
 The practical rule is:
@@ -237,7 +237,7 @@ But a single weak signal—a stock-price decline, lower model prices, a single-q
 
 As of August 2026, public evidence remains more consistent with **high-intensity capital expansion under rising ROI pressure** than with a confirmed AI-infrastructure capital collapse.
 
-NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP operating income **US$63.734B**,[^3] and supply/capacity commitments have risen to **US$279B**[^4] while hyperscalers continue to report very high infrastructure-spending plans.
+NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP operating income **US$63.734B**,[^3] and supply/capacity commitments have risen to **US$279B**.[^4] At the same time, [Chapter 19](part-III-ch19-capex-supercycle.md) documents that major hyperscalers continue to guide or report very high infrastructure-investment levels, using non-identical accounting definitions.
 
 This does not guarantee a soft landing.
 
@@ -248,7 +248,10 @@ It means only that capital clearing should not be treated as the dominant regime
 [^1]: NVIDIA, FY26 official results, NVIDIA-defined non-GAAP free cash flow and FY26 Q4 margin, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
 [^2]: NVIDIA Corporation, FY27 Q1 Form 10-Q, GAAP gross margin 74.9%, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
 [^3]: NVIDIA, FY27 Q2 official results, GAAP gross margin 75.0% and GAAP operating income US$63.734B, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^4]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^4]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, land-power-shell credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^7]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+[^8]: NVIDIA Corporation, FY26 Form 10-K, H20-related charges including US$4.5B recorded in FY26 Q1, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^9]: OpenAI, “Announcing The Stargate Project,” 2025-01, long-duration U.S. AI-infrastructure buildout, https://openai.com/index/announcing-the-stargate-project/
+[^10]: Anthropic, “Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute,” 2026-04-20, >US$100B over ten years and up to 5 GW of new compute capacity, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
