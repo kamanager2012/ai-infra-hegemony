@@ -1,5 +1,5 @@
-# AI基础设施霸权时代：2026–2036产业前瞻研究报告
-### The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report
+# AI基础设施格局重塑：2026–2036产业前瞻研究报告
+### AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
 
 **全球算力、半导体、存储、先进封装、电力与资本配置的结构性重构**
 
@@ -7,7 +7,6 @@
 
 **Canonical research language：English。** 中文版为 professional parallel edition，保持事实、分母、机制与证伪逻辑对等，不做逐句机械翻译。
 
-**标题口径：**“霸权 / Hegemony”是本报告研究的**风险状态与结构命题**，不表示截至 2026-08-28 已经进入 S3 — Resource Hegemony。当前公开证据组合仍最接近 S2 — Baseline Concentration。
 
 **资料检索与修订截止：2026-08-28**  
 **正文状态：已于 2026-08-30 在定义级修正、双语 parity 修复及一次明确重开的 English-first editorial restructuring 后再次冻结。** 2026-08-28 evidence cutoff 不变。本轮 English-first 改造只调整语言治理、论证顺序、章节标题/入口与中英专业对等，没有引入 cutoff 后事实、没有改动已核定分母与 evidence grade，也没有改变当前 S2 baseline judgment 或 S1–S4 taxonomy。再次冻结后，正式正文恢复为仅接受事实纠错、来源失效修复、引用口径修正、双语实质一致性修复与重大错误修复，除非再次明确重开。

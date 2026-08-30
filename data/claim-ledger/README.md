@@ -1,6 +1,6 @@
 # Claim Ledger and Numeric Audit
 
-This directory supports evidence traceability for **The Age of AI Infrastructure Hegemony**. It is research/editorial tooling and does not constitute external audit assurance.
+This directory supports evidence traceability for **AI Infrastructure Reordering**. It is research/editorial tooling and does not constitute external audit assurance.
 
 ## Scope
 

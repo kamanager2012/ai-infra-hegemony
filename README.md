@@ -1,5 +1,5 @@
-# The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report
-### AI基础设施霸权时代：2026–2036产业前瞻研究报告
+# AI Infrastructure Reordering: 2026–2036 Industry Outlook Research Report
+### AI基础设施格局重塑：2026–2036产业前瞻研究报告
 
 **Structural Reallocation of Compute, Semiconductors, Memory, Advanced Packaging, Power, and Capital**
 
@@ -7,7 +7,6 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 
 Canonical research language: **English**. The Chinese edition is a professional parallel edition, not a sentence-by-sentence translation.
 
-**Title scope:** “Hegemony” names the **risk state and structural question** investigated by the report; it does not claim that the industry had already entered S3 — Resource Hegemony by August 28, 2026. The current public-evidence mix remains closest to S2 — Baseline Concentration.
 
 **Retrieval and revision cutoff: August 28, 2026**  
 **Text status: refrozen on August 30, 2026 after definition-level corrections, bilingual parity repair, and an explicitly reopened English-first editorial restructuring pass.** The August 28 evidence cutoff remains unchanged. The editorial pass changed language governance, argument order, chapter labels, and professional bilingual presentation without introducing post-cutoff facts, changing validated denominators, altering evidence grades, or changing the current S2 baseline / S1–S4 taxonomy. Post-freeze changes again revert to factual corrections, source-link repairs, citation-scope corrections, bilingual substantive-parity fixes, and material-error fixes unless the freeze is explicitly reopened.
