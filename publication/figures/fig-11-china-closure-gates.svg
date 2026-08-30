@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+<title id="title">图 11 — Production-Grade Parallel Stack 与 Autonomous Frontier Closure</title><desc id="desc">两层 closure test：七个 production-grade gates，以及 autonomous frontier closure 额外要求的两个 continuity gates。</desc>
+<rect width="1500" height="900" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#111}.t{font-size:39px;font-weight:700}.s{font-size:22px;fill:#444}.panel{fill:#fafafa;stroke:#222;stroke-width:2}.h{font-size:27px;font-weight:700}.b{font-size:21px}.n{font-size:18px;fill:#555}.a{stroke:#333;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<text x="70" y="68" class="t">中国 frontier stack 必须通过两个独立 closure test 评估</text>
+<text x="70" y="108" class="s">Production deployment 可以在 full multi-generation autonomy 成立之前就产生真实经济意义。</text>
+<rect class="panel" x="100" y="185" width="560" height="550" rx="18"/>
+<text x="380" y="240" class="h" text-anchor="middle">Production-Grade Parallel Stack</text>
+<text x="145" y="300" class="b">1. Accelerator / compute delivery</text>
+<text x="145" y="350" class="b">2. HBM-class 或 equivalent memory</text>
+<text x="145" y="400" class="b">3. Advanced packaging / integration</text>
+<text x="145" y="450" class="b">4. High-speed interconnect</text>
+<text x="145" y="500" class="b">5. Compiler / runtime + migration cost</text>
+<text x="145" y="550" class="b">6. Production workload + feedback</text>
+<text x="145" y="600" class="b">7. Utilization / reliability / economics</text>
+<text x="380" y="675" class="s" text-anchor="middle">问题：system 能否在可验证规模下 commercially work？</text>
+<line class="a" x1="670" y1="455" x2="810" y2="455"/>
+<rect class="panel" x="830" y="250" width="560" height="420" rx="18"/>
+<text x="1110" y="305" class="h" text-anchor="middle">Autonomous Frontier Closure</text>
+<text x="875" y="370" class="b">包含全部七个 production-grade gates，并额外要求：</text>
+<text x="875" y="435" class="b">8. Advanced-manufacturing continuity</text>
+<text x="905" y="475" class="n">equipment / software / materials / spares / service / process upgrades</text>
+<text x="875" y="545" class="b">9. Infrastructure / capital continuity</text>
+<text x="905" y="585" class="n">HBM / packaging / LPS / power / long-duration capital</text>
+<text x="1110" y="635" class="s" text-anchor="middle">问题：critical external inputs 受限时，stack 能否继续跨 generation scaling？</text>
+<line x1="70" y1="790" x2="1430" y2="790" stroke="#bbb"/>
+<text x="70" y="830" class="n">Source：本报告 framework；第 17、32 章。</text>
+<text x="70" y="860" class="n">Boundary：production-grade substitution ≠ full technological autonomy；存在 import dependence 也不等于不存在 production-grade parallel stack。</text>
+</svg>
