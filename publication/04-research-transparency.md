@@ -138,113 +138,34 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 因此，**evidence-event/source-availability cutoff** 与 **post-freeze verification date** 必须分开记录。
 
-### 8A. 2026-08-29 material-correction pass
+### 8A. Material revisions after the evidence cutoff
 
-正式正文在 2026-08-29 曾被**明确重新开启一次**，用于修正已经识别出的重大实质性问题，而不是进行一般性扩写。修订范围包括：
+The evidence cutoff and the revision date are different controls.
 
-- 整机 / 非 AI 下游读者入口与 residual-capacity 暴露；
-- China frontier parallel stack 的 Production-Grade Gate 口径；
-- verified-workflow 判据的“未完成经验校准”身份；
-- S1–S4 的公开代理监测与 end-system dashboard；
-- pre-cutoff source 的补证与证据边界。
+After 2026-08-28, the report was edited only when one of the following conditions applied:
 
-该修订**没有新增第五情景、没有改变 S1–S4 定义、没有把 S2 升格成 S3，也没有把 2026-08-28 之后才发生的新事实倒写进当前 evidence snapshot**。
+- a pre-cutoff fact, denominator, evidence identity, translation, or calculation required correction;
+- a definition-level inconsistency affected scenario adjudication or falsification;
+- bilingual analytical parity required repair;
+- reader-facing structure required editorial reorganization without changing the evidence set.
 
-完成这次 material-correction pass 后，正文重新冻结。
+These revisions did **not** authorize post-cutoff events to be backdated into the 2026-08-28 evidence snapshot.
 
-### 8B. 2026-08-29 Developer Distribution material-event supplement
+Several material corrections made during 2026-08-29–30 remain analytically relevant and are therefore disclosed here in compressed form:
 
-2026-08-29，正式正文又被**定向重新开启一次**，原因不是一般扩写，而是核对并纳入一个发生在既定 evidence cutoff 之内的重大事件：2026-08-27 Reuters 转述 The Information 报道的 NVIDIA / Hugging Face reported acquisition。
+1. **End-system / residual-capacity framing was strengthened.** Consumer electronics, game consoles, industrial systems, and other non-AI end markets are analyzed through shared-resource exposure, Quantity Assurance, and Non-AI Residual Capacity rather than a blanket “AI displaces everything” claim.
+2. **China's frontier assessment was separated into Production-Grade Parallel Stack and Autonomous Frontier Closure.** A system that can run production workloads is not automatically an autonomous multi-generation frontier stack.
+3. **Capital-clearing adjudication was corrected.** Accounting impairment is a high-value confirmation / severity channel, not a mandatory gate. Direct falsification of a mechanism cannot be ignored merely because system-level cross-signal breadth has not yet accumulated.
+4. **Developer-distribution risk was added as a conditional mechanism.** The 2026-08-27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face agreement remains C-grade transaction evidence and is not treated as a completed acquisition or realized software foreclosure.
+5. **English-first canonical workflow and bilingual parity were formalized.** English is the canonical analytical layer; Chinese is a professional parallel edition. Facts, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
 
-本次只修改与该事件直接相关的：
+The report therefore preserves a simple public rule:
 
-- Ch02 NVIDIA system-stack / platform-power 边界；
-- Ch18 antitrust / vertical integration；
-- competitive-evidence matrix；
-- core evidence ledger / source index；
-- Phase II Developer Distribution Chokepoint validation。
+> **Correct the research record when the evidence or definition is wrong; do not turn editorial history into a second research narrative.**
 
-治理边界：
-
-- 交易状态保持为 **reported transaction**，不写成 completed acquisition；
-- 媒体交易报道保持 C-grade，Hugging Face 官方产品功能单独用 A-grade first-party docs 支撑；
-- 不把 Hugging Face ownership 自动写成 open-model IP ownership；
-- 不把 potential vertical foreclosure 自动写成 realized self-preferencing / software monopoly；
-- 不改变 S1–S4 定义与当前 S2 baseline judgment。
-
-完成上述定向补充后，正式正文再次冻结。
-
-### 8C. 2026-08-30 清算与 optionality 定义级修正
-
-2026-08-30，正式正文仅因 Phase II validation 发现的**定义级不一致**而再次定向开启。
-
-第一，历史清算回放证明：Accounting 是高价值 confirmation / severity channel，但**不是 system clearing 的 mandatory gate**。financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认，前提是 cross-signal confirmation 与 cross-actor / cross-layer causal breadth 已足够强。
-
-**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
-
-第二，Decision Invariants 的 falsification pass 证明：长期维护一套 production-like second path **不是普适 Hard Invariant**。更耐久的原则是显式给 executable optionality 定价，只有 continuity / bargaining / recovery value 高于 carrying cost 时才维护第二路径。
-
-本次修正仅涉及受影响的定义 / 策略口径：
-- Ch01 — Executive Summary；
-- Ch19 — CapEx Supercycle；
-- Ch22 — Depreciation Wall；
-- Ch24 — Capital Clearing；
-- Ch29 — Monitoring Framework；
-- Ch30 — S1–S4 Scenarios；
-- Ch31 — Strategic Optionality；
-- Ch32 — Master Judgment；
-- 对应的 publication-status metadata。
-
-本次修正**没有改变**：
-- 2026-08-28 evidence cutoff；
-- 当前 S2 baseline judgment；
-- 四情景 taxonomy；
-- 任何截止日前事实；
-- S4 必须依赖广泛、持续、因果独立交叉确认的总体要求。
-
-完成该定义级修正后，正式正文再次冻结。
-
-### 8D. 2026-08-30 Ch32 双语 Master Judgment 一致性修正
-
-随后进行的双语 parity audit 发现：中文版 Ch32 开头将最终总判压缩为**八点**，而英文版只有七点，原因是英文开头遗漏了“传统整机仍然重要，但从共享或相邻上游获得有效供给的确定性发生变化”这一核心判断。
-
-因此只对英文 Ch32 做了双语实质一致性修复：补回缺失的第三点，并将后续编号恢复为八点。该修正属于 **translation / analytical-parity repair only**：
-- 没有加入新证据；
-- 没有修改中文版 source of truth 的任何判断；
-- 2026-08-28 evidence cutoff 不变；
-- 当前 S2 baseline judgment 与 S1–S4 taxonomy 不变。
-
-完成该双语一致性修复后，正式正文再次冻结。
-
-### 8E. 2026-08-30 English-first editorial restructuring pass
-
-随后，正文因**语言与论证架构**被明确重新开启一次。该次修订的目的不是改变事实层，而是把正式研究生产顺序调整为：
-
-> **Evidence → English canonical analytical text → technical review → Chinese professional parallel edition**
-
-本次 editorial restructuring 的范围包括：
-
-- 明确 English 为 canonical research language，中文为 professional parallel edition；
-- 将 Ch01、Ch03、Ch17、Ch21、Ch32 的论证顺序改为 thesis / baseline / denominator / mechanism / boundary / falsification 优先；
-- 将中文对应章节同步为专业平行版，而不是逐句机械翻译；
-- 更新章节标题、目录、README、网站 chapter labels 与静态全文入口；
-- 保留已经成立的事实、证据等级、分母、引用、S1–S4 taxonomy 与 current S2 baseline。
-
-本次修订**没有**：
-- 引入 2026-08-28 之后才发生的新事实；
-- 提高任何 evidence grade；
-- 改写任何已核定数值或分母；
-- 把 S2 改成 S3；
-- 为了英文表达而降低专业技术密度。
-
-编辑原则被正式收敛为：
-
-> **Simplify navigation, not analysis.**
-
-完成该 English-first editorial restructuring 后，正式正文再次冻结。
+Detailed file-by-file chronology remains available through repository history and research-side validation materials rather than being repeated in the reader-facing report.
 
 ---
-
 
 ## 9. 对外使用边界
 
