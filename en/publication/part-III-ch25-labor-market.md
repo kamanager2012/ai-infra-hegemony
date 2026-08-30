@@ -59,7 +59,7 @@ Firms have stronger substitution incentives only when:
 
 > **AI cost + review + error + compliance + integration < human cost / value alternative**
 
-Benchmark improvement does not automatically translate into employment change.
+Benchmark improvement does not by itself translate into employment change.
 
 Reliability, latency, security, integration, and legal responsibility all alter adoption economics.
 
