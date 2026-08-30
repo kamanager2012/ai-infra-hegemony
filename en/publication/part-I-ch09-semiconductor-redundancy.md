@@ -78,8 +78,8 @@ Lithography is only one part of the manufacturing-control stack. KLA's FY2026 Fo
 | Chemical / materials quality control | contamination / composition / incoming-material control | qualified materials must remain stable across long production runs |
 | Advanced-packaging process control | substrate / package inspection and yield management | packaging complexity can become an independent HVM constraint |
 
-**Source:** ASML and KLA first-party disclosures.[^1][^10]  
-**Note:** This table identifies required manufacturing-control functions. It does **not** claim that one vendor monopolizes every category, nor does it convert vendor revenue share into physical capacity share.
+**Source:** ASML first-party disclosure anchors the lithography layer; KLA first-party disclosure anchors inspection/metrology, reticle/mask, chemistry/materials quality, and advanced-packaging process control.[^1][^10]  
+**Note:** The deposition/etch row is a report-side manufacturing-control category rather than a product-layer attribution to ASML or KLA. The table identifies required functions; it does **not** claim that one vendor covers or monopolizes every category, nor does it convert vendor revenue share into physical capacity share.
 
 The resilience implication is important: a region can possess leading-edge lithography access and still face production-continuity risk if inspection, metrology, reticle control, materials quality, etch/deposition, packaging control, or field service cannot be qualified and sustained at scale.
 
