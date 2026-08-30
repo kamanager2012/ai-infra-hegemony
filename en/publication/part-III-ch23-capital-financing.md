@@ -99,8 +99,6 @@ On August 10, 2026, NVIDIA announced independent compute-financing platforms wit
 
 The important point is not that "US$500B has already been funded," but that:
 
-It is:
-
 > **compute is being organized as infrastructure that long-duration institutional capital can finance separately.**
 
 NVIDIA also states that the partnerships are **subject to execution of final agreements**.
@@ -118,6 +116,10 @@ These disclosures support a distinct analytical mechanism:
 > **platform cash generation → equity / credit support → infrastructure financing improves → Anchor Buyer capacity expands → platform-system demand expands**
 
 This is **Financing Reflexivity**.
+
+![Figure 9 — Anchor demand and Financing Reflexivity](figures/fig-09-financing-reflexivity.svg)
+
+**Figure 9 note:** Report financing framework. Seller-assisted financing is neither automatically healthy nor artificial; its evidentiary value depends on utilization, monetization, independent risk-capital willingness, and refinancing conditions.
 
 It does not, by itself, prove that demand is artificial.
 
