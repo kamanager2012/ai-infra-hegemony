@@ -138,6 +138,10 @@ One possible **Rolling Bottleneck Cascade** is:
 
 > HBM / advanced packaging tight → hardware delivery constrained → manufacturing supply expands → more racks reach sites → power / interconnection becomes binding → deployment and utilization slow → next-cycle hardware orders / commitments decelerate
 
+![Figure 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)
+
+**Figure 8 note:** Report causal framework. The sequence is schematic rather than deterministic; a cycle can begin in another layer, and overbuild can reverse the mechanism from scarcity toward weak utilization and returns.
+
 The reverse is also possible. If power infrastructure is built far ahead of workload demand, the problem can shift from scarcity to low utilization and weak capital returns.
 
 "Power is now a core constraint" and "power is not yet the sole dominant bottleneck" can therefore both be true.
