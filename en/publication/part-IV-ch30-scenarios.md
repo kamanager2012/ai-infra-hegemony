@@ -57,7 +57,7 @@ not "AI infrastructure disappears."
 
 The Rolling Bottleneck Cascade does not imply that the same scarce layer remains short for a decade. Fabs, memory, and packaging all have long construction and qualification cycles. **High prices and high margins can induce several suppliers to expand at the same time; if effective output arrives in a similar window while demand growth decelerates, a layer can move rapidly from shortage to headroom or even oversupply.**
 
-Public forward evidence at the report cutoff already shows this response can be **layer-specific rather than uniform**. TrendForce on July 30, 2026 expected DRAM to remain tight in 2027 while NAND Flash could move toward a looser supply-demand structure in **2H27** as new capacity and bit-output growth arrive; it also expected meaningful output contribution from some new DRAM capacity to emerge only in **2028**.[^10]
+Public forward evidence at the **August 28, 2026 evidence cutoff** already shows this response can be **layer-specific rather than uniform**. TrendForce on July 30, 2026 expected DRAM to remain tight in 2027 while NAND Flash could move toward a looser supply-demand structure in **2H27** as new capacity and bit-output growth arrive; it also expected meaningful output contribution from some new DRAM capacity to emerge only in **2028**.[^10]
 
 Accordingly, 2024–2026 HBM / packaging tightness should not be extrapolated into permanent ten-year scarcity. The variables to monitor by layer are:
 
@@ -301,12 +301,12 @@ As of August 2026, the baseline is:
 because:
 
 - NVIDIA / leading-platform seller economics remain strong;[^1]
-- HBM and advanced packaging remain important bottlenecks;[^2][^3]
-- cloud custom systems are real competitors but have not shown comprehensive frontier-workload substitution;[^4]
-- infrastructure CapEx and forward commitments remain high;[^5]
-- power constraints are rising;[^6]
+- HBM remains structurally resource-intensive, while advanced packaging remains a currently evidenced bottleneck;[^2][^3]
+- cloud custom systems are real alternative systems, while public product evidence alone does not establish comprehensive frontier-workload substitution;[^4]
+- seller forward supply / capacity commitments remain high;[^5]
+- power is a separate deployment constraint that must be monitored through rack density, grid/interconnection, and delivery-state evidence;[^6]
 - China has real frontier parallel alternatives and partial production deployment, but under Chapter 17's seven Production-Grade Gates a complete production-grade frontier closure remains unconfirmed by public evidence;
-- synchronized evidence of an industry-wide Capital Hard Landing remains insufficient.
+- within this report's monitoring framework, a cross-signal case for an industry-wide Capital Hard Landing has not yet been established.
 
 The baseline remains valid only while this evidence mix remains valid; the discrimination rules are in Section 12A.
 
@@ -318,13 +318,13 @@ Scenarios are distinguished along the following axes rather than by any single a
 - **S2 ↔ S3:** the direction of allocation concentration at scarce layers, the growth rate of seller forward commitments, proprietary switching costs, and the degree of powered-land lockup;
 - **S3 ↔ S4:** the relationship between utilization / monetization and the capital base. Because no comparable industry-wide ratio is publicly disclosed, public proxies are used: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, seller equity / credit support, third-party capital risk premia, and refinancing dependency.
 
-The same capital evidence (for example the **>US$500B** mobilization target, the **US$50B** frontier-lab investment, and **2 GW** of credit support)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
+The same capital evidence (for example the **>US$500B** mobilization target, **nearly US$50B** invested in frontier AI labs, and selective credit enhancement for **nearly 2 GW of compute**)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
 
 Boundary case: if demand growth slows materially without producing sufficient cross-signal confirmation and causal breadth across multiple S4 signal families, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
 
 ## 12B. Calibration status
 
-As of the report cutoff, the S1–S4 discrimination axes are explicit, but there is **no statistically validated universal threshold, fixed observation window, or automatic state-switch rule**.
+As of the **August 28, 2026 evidence cutoff**, the S1–S4 discrimination axes are explicit, but there is **no statistically validated universal threshold, fixed observation window, or automatic state-switch rule**.
 
 Therefore:
 
@@ -361,10 +361,10 @@ That keeps long-run judgment responsive to industrial evidence rather than tied 
 
 [^1]: NVIDIA, FY27 Q2 official results, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-[^3]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^3]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^4]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 [^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-[^6]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
+[^6]: NVIDIA, DGX GB200 Hardware Guide, rack power density, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, large-load / PPA transition context, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; International Energy Agency, Energy and AI — Executive summary, grid-connection and transmission constraints, https://www.iea.org/reports/energy-and-ai/executive-summary
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
