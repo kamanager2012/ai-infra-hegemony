@@ -5,7 +5,8 @@
 **Author:** James (kamanager2012)  
 **Retrieval and revision cutoff:** August 28, 2026  
 **Analysis and scenario horizon:** 2026–2036  
-**Languages:** Chinese edition / English edition
+**Canonical research language:** English  
+**Parallel professional edition:** Chinese
 
 ---
 
@@ -20,6 +21,16 @@ The report separates:
 - causal transmission mechanisms (M — Mechanism);
 - conditional future states (S — Scenario);
 - observable reverse signals that would force judgments to change (X — Falsification).
+
+### Language and editorial architecture
+
+The **English edition is the canonical analytical text**. New claims, mechanism definitions, denominator choices, evidence boundaries, and scenario language should be resolved in English first because the primary evidence base—filings, earnings materials, product documentation, technical papers, contracts, and industry terminology—is predominantly English.
+
+The Chinese edition is a **professional parallel edition**, not a sentence-by-sentence translation. It must preserve the same facts, evidence identity, mechanism, denominator, and falsification logic while using Chinese research prose where that improves clarity. Standard industry terms such as HBM, CoWoS, CapEx, TCO, utilization, qualification, system stack, scale-up / scale-out, and workload may remain in English when translation would reduce precision.
+
+Editorial rule:
+
+> **Simplify navigation, not analysis. Do not explain what the target professional reader is expected to know; explain what is easy to mis-measure, mis-denominate, or infer incorrectly.**
 
 The objective is not to produce one deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be continuously tested against later public evidence. Facts emerging after **August 28, 2026** may be used to re-evaluate or falsify the framework or to initiate a new research cycle, but they do not automatically enter the frozen formal text or the report's evidence snapshot unless the text freeze is explicitly reopened.
 
