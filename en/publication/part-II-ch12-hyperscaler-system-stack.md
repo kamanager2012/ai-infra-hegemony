@@ -1,6 +1,6 @@
-# Part II · Chapter 12: The Second System Stack — Hyperscaler Substitution Economics
+# Part II · Chapter 12: The Second System Stack — How Hyperscaler Substitution Actually Works
 
-## 1. The substitution test is economic, not architectural
+## 1. Substitution is an economic test, not a chip announcement
 
 The relevant question is no longer whether a hyperscaler can design an ASIC. It is whether an alternative stack can **carry production workload at acceptable TCO, migration cost, reliability, and scale**.
 
@@ -139,7 +139,7 @@ DeepSeek training-cost, architecture-efficiency, and unit-intelligence economics
 
 ---
 
-## 10. What counts as real system-stack substitution
+## 10. What qualifies as real system-stack substitution
 
 Single-chip benchmarks are not enough.
 
@@ -225,7 +225,7 @@ The boundary will move with software maturity, memory supply, interconnect, work
 
 ---
 
-## 12. Current read
+## 12. Current view
 
 As of August 2026, the most defensible description is:
 
