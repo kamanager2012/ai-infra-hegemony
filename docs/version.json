@@ -4,7 +4,6 @@
   "edition": "2026",
   "evidence_cutoff": "2026-08-28",
   "edition_revision": "2026-08-30",
-  "report_source_commit": "9997d81386c9e87e3120b55b3d438ce923ed3cb0",
   "languages": [
     "zh",
     "en"
