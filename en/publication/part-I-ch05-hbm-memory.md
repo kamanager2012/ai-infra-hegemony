@@ -121,7 +121,7 @@ HBM scarcity is not inevitable. The current mechanism would weaken materially if
 
 The long-run claim is not that "HBM will always be scarce." It is:
 
-> **As long as frontier-system bandwidth demand grows faster than HBM supply elasticity and manufacturing input per bit remains materially above conventional DRAM, HBM will remain a core scarce layer of AI infrastructure.**
+> **As long as frontier-system bandwidth demand grows faster than HBM supply elasticity and manufacturing input per bit remains materially above conventional DRAM, HBM is likely to remain a core scarce layer of AI infrastructure.**
 
 ## References
 
