@@ -93,7 +93,7 @@ The key implication is that **unit contraction and revenue resilience can coexis
 
 The more defensible three-layer structure is:
 
-- **Premium:** absorbs cost through higher ASP, financing, brand premium, and stronger supply leverage; technical progress continues, but volume does not have to expand.
+- **Premium:** absorbs cost through higher ASP, financing, brand premium, and stronger supply leverage; technical progress continues, but volume need not expand.
 - **Mid-range:** has the hardest time preserving price band, memory/storage configuration, and the annual performance narrative at the same time; platform life extends and replacement cycles lengthen.
 - **Entry:** when BOM inflation breaks the price ceiling, the outcome may be fewer SKUs, lower-cost platforms, refurbished/used substitution, or exit from the price band rather than a proportional price increase.
 
@@ -238,7 +238,7 @@ Game consoles usually combine:
 - fixed memory / storage architectures;
 - platform economics in which software, network services, and content monetize a large installed base over time.
 
-Sony's 2026 disclosures reinforce that structure: cumulative PS5 unit sales exceeded 93 million, and Sony said the expanded installed base contributed to stable software and network-services profit, while hardware volume still has to be balanced against memory procurement and total segment profitability.[^27]
+Sony's 2026 disclosures reinforce that structure: cumulative PS5 unit sales exceeded 93 million, and Sony said the expanded installed base contributed to stable software and network-services profit, while hardware volume still must be balanced against memory procurement and total segment profitability.[^27]
 
 The risk therefore extends beyond one quarter of higher memory prices.
 
@@ -307,7 +307,7 @@ The ability to absorb the shock depends on:
 
 This is why the same memory shortage can affect a premium global brand and a smaller OEM very differently.
 
-### 7A. Hardware constraint raises the value of software efficiency, but does not automatically make software lean
+### 7A. Hardware constraints raise the value of software efficiency, but do not by themselves make software lean
 
 Slower hardware improvement changes software optimization boundaries, but it does not imply that the software industry will universally become more efficient.
 
