@@ -125,7 +125,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 因此：
 
-> **financing power 既可能是新的 moat，也可能把过去留在 buyer / developer 端的部分 duration risk 拉回 system platform balance sheet。**
+> **financing coordination 可以强化 platform advantage，但必须与 risk transfer 和 workload monetization 一起判断。**
 
 完整机制见第23、24章。
 
@@ -151,11 +151,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 smartphone、PC、game consoles、automotive、industrial systems、robotics 与部分 high-reliability electronics 仍然是重要的终端和战略系统。它们承受的主要不是“被 AI 淘汰”，而是共享或相邻上游资源的再排序。
 
-因此，整机层更准确的角色不是“AI 竞赛输家”，而是：
-
-> **residual-capacity / supply-assurance pressure bearer**
-
-这种压力分为不同物理路径：
+对 end system，更相关的暴露变量是 **residual capacity 与 supply assurance**，而具体 physical channel 并不相同：
 
 - smartphone / PC 更直接暴露于 selected leading-edge logic、DRAM/LPDDR/NAND、consumer GPU 与 selected packaging；
 - game consoles 暴露于 custom SoC/APU、GDDR/DRAM、NAND/SSD 与 long-generation hardware economics，memory procurement 可以直接传导到 promotion、unit volume 与 hardware margin；
@@ -196,7 +192,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 ## 13. Current Read
 
-截至 2026 年 8 月，AI infrastructure 的高质量 value capture 主要出现在三类位置：
+截至 2026 年 8 月，AI infrastructure 中最有力的 durable value-capture evidence 主要集中在三类位置：
 
 1. **能够组织多个稀缺层并制造 switching cost 的 system platform；**
 2. **短期供给弹性低、进入壁垒高的 HBM / leading-edge manufacturing / advanced packaging / powered infrastructure；**
