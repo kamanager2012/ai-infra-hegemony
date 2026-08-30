@@ -2,7 +2,7 @@
 
 ## 1. Quantification starts with denominator closure
 
-The first quantitative question is not “what is the number?” It is **whether a defensible number exists at all**.
+The first quantitative question is not “what is the number?” but **whether a defensible number exists at all**.
 
 A metric is admissible only when numerator, denominator, physical unit, delivery window, qualification boundary, and evidence identity can be made consistent. Front-end wafers, HBM bits, package starts, energized MW, accounting CapEx, and seller commitments are not interchangeable components of one synthetic total.
 
@@ -201,7 +201,7 @@ Contracted or secured capacity is not energized capacity; energized capacity is 
 
 This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
 
-## 12. When shipment is unobservable, use bounded forward indicators
+## 12. When shipment volumes are unobservable, use bounded forward indicators
 
 NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as follows:[^6]
 
@@ -211,13 +211,13 @@ NVIDIA's disclosed manufacturing, supply, and capacity commitments progressed as
 
 The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems.
 
-The figure cannot identify how much goes to any individual supplier, but it is an observable proxy for future resource-reservation intensity.
+The disclosure cannot identify how much goes to any individual supplier, but it provides an observable proxy for future resource-reservation intensity.
 
-When customer-level HBM bits, CoWoS allocation, and rack shipments are unavailable, forward commitments are more informative than synthetic fleet arithmetic built from an assumed rack price.
+When customer-level HBM bits, CoWoS allocation, and rack shipments are unavailable, forward commitments are more informative than synthetic fleet arithmetic built on an assumed rack price.
 
 ## 13. Scarce-capacity access remains layer-specific
 
-The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into one composite "capture ratio."
+The report does not collapse advanced logic, HBM, advanced packaging, networking, and power into a single composite "capture ratio."
 
 For each layer, track variables such as:
 
