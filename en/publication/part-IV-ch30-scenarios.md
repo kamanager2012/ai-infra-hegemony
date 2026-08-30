@@ -1,26 +1,27 @@
-# Part IV · Chapter 30: The Four Standard Scenarios — S1 to S4
+# Part IV · Chapter 30: Scenario Discrimination — S1 to S4
 
-## 1. Scenario analysis is not a point forecast
+## 1. The purpose of scenarios is discrimination, not storytelling
 
-This report does not assign one deterministic answer to 2030 or 2036, nor does it use a fixed probability table such as 40% / 30% / 15% / 15%.
+The framework does not assign one deterministic 2030 or 2036 outcome, and it does not attach fixed probabilities to S1–S4.
 
-Scenario weighting depends on observable variables including:
+Its purpose is narrower: **given the current evidence, which structural state best fits the system, and what observable changes would move that judgment?**
 
-- advanced-capacity allocation;
-- HBM supply;
-- advanced packaging;
-- cloud system-stack substitution;
-- Anchor Buyer long-duration demand;
-- power / Time-to-Power;
+Scenario weighting therefore depends on state variables that can be monitored:
+
+- layer-specific scarce-capacity access;
+- HBM / advanced-packaging supply;
+- second-stack substitution;
+- Anchor Buyer commitments;
+- power delivery / Time-to-Power;
 - software migration;
-- China's parallel stack;
-- regulation;
-- utilization;
-- CapEx / financing discipline.
+- China closure tests;
+- utilization / monetization;
+- financing quality;
+- regulation / geopolitics.
 
-## 2. S1 — Competitive Expansion
+## 2. S1 — Competitive Expansion: supply and substitution outrun concentration
 
-### Definition
+### Structural condition
 
 AI demand keeps growing, but supply expansion and alternative systems mature fast enough to reduce concentration.
 
@@ -46,7 +47,7 @@ This is:
 
 not "AI infrastructure disappears."
 
-### 2A. Supply-Response Overshoot: long construction lags can also create reversal
+### 2A. Supply-response overshoot can accelerate S1
 
 The Rolling Bottleneck Cascade does not imply that the same scarce layer remains short for a decade. Fabs, memory, and packaging all have long construction and qualification cycles. **High prices and high margins can induce several suppliers to expand at the same time; if effective output arrives in a similar window while demand growth decelerates, a layer can move rapidly from shortage to headroom or even oversupply.**
 
@@ -63,7 +64,7 @@ The report therefore does not extrapolate 2024–2026 HBM / packaging tightness 
 
 If supply growth persistently exceeds demand growth across several scarce layers while lead times and scarcity premiums decline, S1 weight should rise materially. If that easing is accompanied by weakening utilization and clearing prices, S4 weight can rise as well.
 
-## 3. S2 — Baseline Concentration
+## 3. S2 — Baseline Concentration: growth and concentration coexist
 
 ### Definition
 
@@ -87,7 +88,7 @@ As of August 2026, this is the **baseline state** that best matches the current 
 
 It is not a fixed ten-year forecast.
 
-## 4. S3 — Resource Hegemony
+## 4. S3 — Resource Hegemony: multi-layer concentration reinforces itself
 
 ### Definition
 
@@ -103,7 +104,7 @@ Typical conditions include:
 - powered land / firm MW are locked for long periods by a small set of buyers;
 - Anchor Buyer and seller forward commitments continue expanding.
 
-### Mechanism
+### Reinforcement mechanism
 
 > high profit → stronger commitments / prepayment → greater future resource reservation → higher delivery certainty → stronger installed base / workload retention
 
@@ -111,7 +112,7 @@ This describes stronger system-level resource coordination.
 
 It is not a legal monopoly verdict.
 
-## 5. S4 — Capital Hard Landing
+## 5. S4 — Capital Hard Landing: capital formation outruns productive demand
 
 ### Definition
 
@@ -145,7 +146,7 @@ S4 does not mean AI usage disappears.
 
 After capital clearing, cheaper compute can still stimulate new applications.
 
-## 5.1 Comparative framework for the four standard scenarios
+## 5.1 Comparative scenario matrix
 
 **Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4**
 
@@ -159,7 +160,7 @@ After capital clearing, cheaper compute can still stimulate new applications.
 **Source:** Report S1–S4 scenario framework.  
 **Note:** The four scenarios are parallel conditional states. They do not carry fixed probabilities and are not inevitable sequential stages.
 
-## 5A. AI Capacity Gap: a cross-scenario diagnostic axis
+## 5A. Capacity Gap is a diagnostic axis, not a fifth scenario
 
 S1–S4 remain parallel conditional states; the report does not introduce a second scenario taxonomy. To separate “is the layer short today?” from “is the pressure widening or converging?”, it uses two complementary metrics.
 
@@ -200,7 +201,7 @@ Therefore:
 
 AI Capacity Gap / Growth Gap must be read together with Non-AI Residual Capacity. The first two ask how much AI currently lacks and how that gap is changing; NARC asks how much effective supply remains for non-AI demand after priority allocation.
 
-## 6. Six variable classes determine scenario structure
+## 6. Six variable classes drive scenario discrimination
 
 ### Supply
 
@@ -226,7 +227,7 @@ Anchor Buyer credit quality, third-party risk capital, supplier equity / credit 
 
 Export controls, antitrust remedies, interface openness, industrial policy, regional fragmentation.
 
-## 7. Anchor Compute Buyer and Financing Reflexivity are scenario variables
+## 7. Anchor Buyers and financing quality can amplify either expansion or clearing
 
 Multi-year compute commitments from large model companies can influence infrastructure financing, custom silicon, power, and data-center buildout.
 
@@ -244,7 +245,7 @@ It becomes an S4 risk amplifier when customer cash generation weakens while supp
 
 The report therefore distinguishes Anchor Buyer demand from **Financing Reflexivity** rather than treating every financing-supported order as either fully organic or automatically artificial.
 
-## 8. Observable signals from S2 toward S1
+## 8. Signals that move S2 toward S1
 
 - alternative system stacks scale in frontier / high-value production workloads;
 - HBM / packaging lead times decline sustainably;
@@ -253,7 +254,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - power expansion shortens Time-to-Power;
 - buyer multi-sourcing becomes normal production practice.
 
-## 9. Observable signals from S2 toward S3
+## 9. Signals that move S2 toward S3
 
 - seller forward commitments keep expanding rapidly;
 - HBM / packaging tightness persists across generations;
@@ -262,7 +263,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - scarce power / powered land is locked by a small set of Anchor Buyers;
 - alternative stacks fail to create enough production-scale optionality.
 
-## 10. Observable signals from S2 toward S4
+## 10. Signals that move S2 toward S4
 
 - CapEx guidance declines repeatedly;
 - utilization falls;
@@ -273,7 +274,7 @@ The report therefore distinguishes Anchor Buyer demand from **Financing Reflexiv
 - enterprise AI monetization remains persistently below depreciation / operating cost;
 - supplier equity / credit support rises while independent customer financing / third-party risk-taking weakens.
 
-## 11. Why S1, S2, S3, and S4 are not sequential stages
+## 11. The scenarios are states, not stages
 
 They are parallel conditional states.
 
@@ -285,7 +286,7 @@ Capital markets can clear locally while productive workloads continue to grow.
 
 Scenario weighting therefore describes **relative structure**, not one compulsory industry path.
 
-## 12. Current baseline
+## 12. Current baseline: S2
 
 As of August 2026, the report's baseline is:
 
@@ -303,7 +304,7 @@ because:
 
 The baseline remains valid only while this evidence mix remains valid; the discrimination rules are in Section 12A.
 
-## 12A. Discrimination rules: how public evidence distinguishes S1–S4
+## 12A. Discrimination rules
 
 Scenarios are distinguished along the following axes rather than by any single aggregate metric:
 
@@ -315,7 +316,7 @@ The same capital evidence (for example the **>US$500B** mobilization target, the
 
 Boundary case: if demand growth slows materially without producing sufficient cross-signal confirmation and causal breadth across multiple S4 signal families, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
 
-## 12B. Calibration status: a public-proxy state machine, not a statistically calibrated classifier
+## 12B. Calibration status
 
 As of the report cutoff, the S1–S4 discrimination axes are explicit, but there is **no statistically validated universal threshold, fixed observation window, or automatic state-switch rule**.
 
@@ -336,7 +337,7 @@ Historical backtesting, lead/lag analysis, and threshold calibration belong to l
 
 ---
 
-## 13. Final use of the framework
+## 13. How to use the framework
 
 Future updates should not ask:
 
