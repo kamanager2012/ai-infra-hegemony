@@ -1,14 +1,14 @@
 # Part III · 第22章：折旧墙与 Duration Mismatch
 
-## 1. 折旧墙不是某一年必然出现的固定美元冲击
+## 1. Depreciation Wall 是 Duration Mismatch，不是 Calendar Event
 
-更准确的定义是：
+真正需要观察的条件是：
 
-> **当 hardware refresh / economic obsolescence 快于 workload monetization 时，已形成资产成本开始压低资本回报，并改变下一轮 CapEx。**
+> **当 hardware refresh / economic obsolescence 快于 workload monetization 时，installed asset base 开始压缩 return，并改变下一轮 capital formation。**
 
 所以折旧墙必须与 utilization、revenue、residual value 和 next-generation investment 一起看。
 
-## 2. 四家主要 Cloud 的 Server Useful Life 并不统一
+## 2. Major Cloud 的 Accounting Useful Life 并不统一
 
 最新公司披露大致显示：
 
@@ -26,7 +26,7 @@
 
 这已经足以证明：不能用一个统一“4 年直线折旧”去估算整个 AI infrastructure。
 
-## 3. Accounting Useful Life 与 Economic Life 不相同
+## 3. Accounting Life 不等于 Economic Life
 
 一个 server 可能会计上还能继续折旧，但新 architecture、memory efficiency、software support 或 power efficiency 已使它在经济上失去竞争力。
 
@@ -38,7 +38,7 @@
 
 > **short-cycle compute vs long-cycle physical infrastructure**
 
-## 4. Demand 转弱时，清算有明确顺序
+## 4. Clearing 沿 Asset-Duration Stack 传播
 
 最先调整的通常是：
 
@@ -65,7 +65,7 @@
 
 真正决定“折旧墙”强度的是：**单位已部署资本能够持续产生多少有效 workload 与收入。**
 
-## 6. Market-clearing Price 是比财报更快的 Economic Depreciation 信号
+## 6. Market-Clearing Price 可以更早暴露 Economic Depreciation
 
 used accelerator / system price、cloud lease rate 与 delivery lead time 可以早于 impairment 反映 generation obsolescence 和 oversupply。
 
@@ -73,13 +73,13 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 这也是 Ch24 把 Market Clearing 单列为 S4 信号的原因。
 
-## 7. Algorithmic Efficiency 也会制造 Economic Obsolescence
+## 7. Algorithmic Efficiency 可以加速 Economic Obsolescence
 
 如果新 architecture 能用更少 HBM、compute 或 communication 完成相同 workload，旧系统即使物理可运行，也可能在 cost per task 上迅速失去竞争力。
 
 因此，软件/模型创新会直接改变 hardware economic life。
 
-## 8. Power Asset 的风险方向恰好相反
+## 8. Power Asset 具有相反的 Duration Profile
 
 在 S2/S3 高需求环境中，long-duration power / grid asset 可能成为 scarce moat。
 
@@ -87,7 +87,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 所以资产价值取决于 demand duration，而不是“电力资产永远安全”。
 
-## 9. Anchor Buyer 能降低融资风险，也会集中 Demand Risk
+## 9. Anchor Buyer 降低 Financing Risk，同时集中 Demand Risk
 
 长期 model-company compute contracts 提高 revenue visibility，使基础设施更容易融资。
 
@@ -95,7 +95,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 因此 customer concentration 与 contract duration 必须与 useful life 一起看。
 
-## 9A. Financing Structure 可以改变损失确认位置，但不能消除 Economic Obsolescence
+## 9A. Financing Structure 可以移动 Loss，但不能消除它
 
 2026 年以后，越来越多 AI infrastructure 可能通过：
 
@@ -128,7 +128,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 这也是为什么“reported CapEx 较低”或“资产不在 hyperscaler balance sheet”不能自动解释为 infrastructure risk 已经下降。
 
-## 10. 2036 不能由 2026 一轮折旧直接推出
+## 10. 一轮 Depreciation Cycle 不能决定 2036
 
 不同资产在不同日期投入使用、采用不同 useful life，还可能发生 impairment 或 estimate change。
 
@@ -136,7 +136,7 @@ used accelerator / system price、cloud lease rate 与 delivery lead time 可以
 
 2036 的产业结构取决于第二、第三轮 buildout、workload growth、system substitution、power、China parallel stack 与 regulation，而不是由第一轮会计折旧机械决定。
 
-## 11. 当前判断
+## 11. Current Read
 
 截至 2026 年 8 月，更准确的状态是：
 
