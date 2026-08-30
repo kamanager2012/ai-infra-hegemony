@@ -200,7 +200,7 @@ That can produce:
 
 > **AI allocation rises → non-AI residual supply tightens → non-AI price / margin rises → supplier rebalancing incentive strengthens**
 
-Likewise, if AI workload monetization weakens, utilization falls, or supply elasticity improves rapidly, AI Resource Gravity can weaken.
+Likewise, if AI workload monetization weakens, utilization falls, or supply elasticity improves rapidly, resource reallocation pressure can weaken.
 
 It is therefore not a permanent law that “AI always drains every resource.” It is a **dynamic capital-allocation mechanism**.
 
@@ -232,7 +232,7 @@ Signals of **weakening** include:
 
 As of August 2026, public evidence is more consistent with:
 
-> **AI Resource Gravity materially affecting selected shared scarce layers and changing the resource environment for traditional end markets through Non-AI Residual Capacity and quantity assurance.**
+> **resource reallocation pressure materially affecting selected shared scarce layers and changing the resource environment for traditional end markets through Non-AI Residual Capacity and quantity assurance.**
 
 The process remains selective and dynamic, and it is subject to price feedback, supply expansion, and substitution.
 
