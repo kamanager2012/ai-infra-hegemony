@@ -220,7 +220,7 @@ Products with stronger long-run economics are more likely to combine:
 
 Software competition is therefore moving from feature competition toward **workflow economics competition**.
 
-## 11. Current judgment
+## 11. Current view
 
 AI is moving part of software from low-marginal-cost replication toward real-time compute-consuming workflow systems.
 
