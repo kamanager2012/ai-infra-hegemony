@@ -1,10 +1,10 @@
 # Part IV · Chapter 30: Scenario Framework — Discriminating S1 to S4
 
-## 1. Scenarios are decision states, not narratives
+## 1. Scenarios are adjudication states, not stories
 
 The framework does not assign one deterministic 2030 or 2036 outcome, and it does not attach fixed probabilities to S1–S4.
 
-Its purpose is narrower: **given the current evidence, which structural state best fits the system, and what observable changes would move that judgment?**
+Its purpose is operational: **given the evidence now, which structural state best fits the system, which variables discriminate the alternatives, and what observations would force a reweighting?**
 
 Scenario weighting therefore depends on state variables that can be monitored:
 
@@ -88,7 +88,7 @@ As of August 2026, this is the **baseline state** that best matches the current 
 
 It is not a fixed ten-year forecast.
 
-## 4. S3 — Resource Hegemony: multi-layer concentration reinforces itself
+## 4. S3 — Resource Hegemony: multi-layer concentration becomes self-reinforcing
 
 ### Definition
 
@@ -201,7 +201,7 @@ Therefore:
 
 AI Capacity Gap / Growth Gap must be read together with Non-AI Residual Capacity. The first two ask how much AI currently lacks and how that gap is changing; NARC asks how much effective supply remains for non-AI demand after priority allocation.
 
-## 6. Six variable classes drive scenario discrimination
+## 6. Six variable classes discriminate the scenarios
 
 ### Supply
 
@@ -227,7 +227,7 @@ Anchor Buyer credit quality, third-party risk capital, supplier equity / credit 
 
 Export controls, antitrust remedies, interface openness, industrial policy, regional fragmentation.
 
-## 7. Anchor Buyers and financing quality can amplify either expansion or clearing
+## 7. Anchor Buyers and financing quality can amplify expansion or clearing
 
 Multi-year compute commitments from large model companies can influence infrastructure financing, custom silicon, power, and data-center buildout.
 
