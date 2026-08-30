@@ -1,15 +1,17 @@
-# Part I · 第4章：TSMC、N2 与先进制造资源分配
+# Part I · 第4章：Advanced Logic Allocation——TSMC、N2 与下一单位 Qualified Capacity
 
 
-## 1. 真正的竞争对象不是一个“2 nm wafer price”
+## 1. 分析单位是 Qualified Incremental Capacity，不是 Wafer-Price Headline
 
-frontier AI system 同时需要 leading-edge logic、HBM、advanced packaging、substrate、interconnect 与 power。node leadership 只是进入下一代 system 的必要条件之一。
+leading-edge logic 是 frontier AI 的必要条件，但不是充分条件。真正的 production system 还必须同时闭合 HBM、packaging、interconnect、power 与 software。
 
-所以先进制造竞争的核心不是某个市场传闻报价，而是：
+因此先进制造真正需要回答的是：
 
-> **谁能在 N2/N2P/A16 等下一代资源进入 volume production 时，稳定获得足够规模，并同时匹配 memory、packaging 与 system roadmap。**
+> **谁能在正确时间获得足够的 N2/N2P/A16-class qualified capacity，并同时让其余 system stack 准备就绪？**
 
-## 2. TSMC 2025 的关键事实
+市场传闻中的 wafer price 回答不了这个问题。真正相关的是 volume、qualification、delivery timing、roadmap continuity 与 cross-layer readiness。
+
+## 2. TSMC Baseline：Capacity、Technology Mix 与 Platform Mix
 
 **Table 4.1 — TSMC 2025 产能、技术与平台收入结构**
 
@@ -30,7 +32,7 @@ frontier AI system 同时需要 leading-edge logic、HBM、advanced packaging、
 
 这些数字证明 HPC 已成为 TSMC 最大 platform，同时 TSMC 仍服务广泛客户。它们不支持“TSMC 已成为某一家客户专属 fab”。
 
-## 2A. 2026 Q2：先进制造的边际重心继续向 HPC 倾斜
+## 2A. 2026 Q2：HPC 仍是 Advanced-Manufacturing Capital 的核心边际驱动之一
 
 TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
 
@@ -52,7 +54,7 @@ TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
 - US$60–64B CapEx 全部用于 AI；
 - smartphone 已失去 leading-edge access。
 
-## 3. Customer revenue share 不能换算成 wafer / node / CoWoS share
+## 3. Revenue Share 不是 Allocation Denominator
 
 2025 largest customer 19% 与 second-largest customer 17% 是**年度收入排名口径**。[^2]
 
@@ -62,7 +64,7 @@ TSMC 2026 Q2 官方结果进一步给出当前截面：[^8]
 
 同样，HPC 58% 是 platform revenue share，不是 wafer shipment share。
 
-## 4. N2 的战略价值来自“增量首发资源”
+## 4. N2 的战略价值来自 Launch Access 与 Delivery Scale
 
 N2 的意义不只是 transistor density。竞争者真正关心：
 
@@ -75,7 +77,7 @@ N2 的意义不只是 transistor density。竞争者真正关心：
 
 拿到某个 node 并不自动构成 system victory。如果 memory、packaging、interconnect 或 power 缺失，完整交付仍然受限。
 
-## 5. 真正值得跟踪的是 Incremental Capacity Access，而不是创造一个综合份额
+## 5. Scarce-Capacity Access 必须保持 Layer-Specific
 
 历史 revenue share 只能说明过去收入集中度，不能直接回答下一代资源如何分配。对 N2/N2P/A16 更有价值的问题是：**哪些客户能够在量产初期持续获得足够、稳定、经过验证的增量供给。**
 
@@ -91,7 +93,7 @@ N2 的意义不只是 transistor density。竞争者真正关心：
 
 这比用 50/60/70/80% 的假设比例模拟“不同客户获得多少未来产能”更适合作为正文分析。
 
-## 6. TSMC 的资源分配不是单变量决定
+## 6. Allocation 是 Multi-Variable，不由 Customer Rank 决定
 
 先进产能 allocation 更可能同时考虑：price、committed volume、contract duration、prepayment、credit quality、utilization certainty、roadmap stability、customer diversification 与 geopolitical risk。
 
@@ -99,7 +101,7 @@ N2 的意义不只是 transistor density。竞争者真正关心：
 
 更合理的机制是：订单规模、信用、预付款与 roadmap certainty 提高买方对新增资源的议价能力；供应商同时仍有客户多元化、长期议价权和地缘风险管理的动机。
 
-## 7. Advanced Packaging 必须与 logic pool 分开
+## 7. Packaging 是独立 Physical Pool
 
 TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoWoS allocation 未披露。[^5] TrendForce 对 NVIDIA 2025 CoWoS demand >60% 的估计属于 B 级机构数据。[^6]
 
@@ -107,7 +109,7 @@ TSMC 一手资料已确认 advanced-packaging tightness，但 customer-level CoW
 
 这说明“leading-edge logic available”与“complete AI system deliverable”不是同一个问题。
 
-## 8. Samsung / SMIC 的 foundry share 不能直接等同于 frontier substitution
+## 8. Foundry Revenue Share 不等于 Frontier Substitution
 
 TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry **6.5%（excluding System LSI）**、SMIC **5.1%**。[^7]
 
@@ -115,7 +117,7 @@ TrendForce 2026 Q1 foundry revenue share 约为：TSMC **72%**、Samsung Foundry
 
 因此，“有第二家 foundry”与“有完整第二套 frontier AI supply stack”是不同命题。
 
-## 9. 当前判断
+## 9. Current Read
 
 TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 领先、HPC 已成为最大 platform、advanced packaging 仍是公开确认的增长约束。
 
@@ -128,7 +130,7 @@ TSMC 的战略地位来自三个同时存在的条件：leading-edge logic 领�
 
 因此，先进制程的长期竞争核心不是一个“2 nm wafer price”，而是**下一代 system 所需多层资源能否在同一时间窗口内形成可交付组合。**
 
-## 10. 什么事实会迫使本章改判
+## 10. 什么事实会改变当前判断
 
 应下调 TSMC leading-edge strategic leverage 的信号包括：
 
