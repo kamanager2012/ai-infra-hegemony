@@ -53,7 +53,7 @@ This table is intentionally narrow: it shows the public observations and report-
 |---|---|---|---|
 | TSMC demand mix | HPC **66%** of 2Q26 revenue; 7 nm and below **77%** of wafer revenue | first-party actual | revenue mix ≠ customer wafer allocation |
 | HBM manufacturing intensity | Micron: HBM3E requires **≈3× wafer supply** vs. DDR5 at the same node / same bits | first-party physical trade ratio | not a price multiple; not a permanent ratio for every HBM generation |
-| HBM normalized intensity | TrendForce 2026E: HBM ≈**22% of DRAM wafer input** and ≈**9% of DRAM bit supply** → **22/9 ≈ 2.44×** normalized wafer-input-per-bit index | B-grade forecast + D-grade report calculation | not an absolute HBM supply gap; not interchangeable with Micron's same-node test |
+| HBM allocation intensity | TrendForce 2026E: HBM wafer input **among the top three suppliers** ≈**22%** of total DRAM wafer input; HBM bit supply ≈**9%** of total DRAM bit supply | B-grade institutional forecast | the scopes are not identical enough to divide 22% by 9%; use Micron's same-node / same-bits ≈3× as the comparable physical anchor |
 | Aggregate DRAM balance | 2026 sufficiency ratio estimated at roughly **−1% to −2%** | B-grade institutional forecast | aggregate DRAM, not HBM-specific |
 | Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments: **US$95.2B → US$279B** from Jan. 25 to Jul. 26, 2026 | first-party filing | aggregate commitments; no supplier-level split |
 | LPS / power coordination | PORTS-Pike initial **4.25 IT-GW design capacity**, phased delivery planned from 2028 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |

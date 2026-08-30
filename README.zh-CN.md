@@ -53,7 +53,7 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 |---|---|---|---|
 | TSMC demand mix | 2026 Q2 HPC 占 revenue **66%**；7 nm 及以下占 wafer revenue **77%** | first-party actual | revenue mix ≠ customer wafer allocation |
 | HBM manufacturing intensity | Micron：same node / same bits 下 HBM3E 约需 DDR5 **3× wafer supply** | first-party physical trade ratio | 不是售价倍数；不是所有 HBM generation 的永久比例 |
-| HBM normalized intensity | TrendForce 2026E：HBM 约占 **22% DRAM wafer input**、约占 **9% DRAM bit supply** → **22/9 ≈ 2.44×** normalized wafer-input-per-bit index | B 级 forecast + D 级本报告计算 | 不是 HBM absolute supply gap；不能与 Micron same-node test 混用 |
+| HBM allocation intensity | TrendForce 2026E：HBM wafer input **在前三大供应商中**约占 total DRAM wafer input 的 **22%**；HBM bit supply 约占 total DRAM bit supply 的 **9%** | B 级 institutional forecast | 两个 scope 不完全一致，不能把 22%/9% 正式相除；同口径 physical anchor 继续使用 Micron same-node / same-bits ≈3× |
 | Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1% 到 −2%** | B 级 institutional forecast | 是 aggregate DRAM，不是 HBM-specific |
 | Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B** | first-party filing | aggregate commitments；没有 supplier-level split |
 | LPS / power coordination | PORTS-Pike 初始 **4.25 IT-GW design capacity**，计划自 2028 分阶段交付 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |

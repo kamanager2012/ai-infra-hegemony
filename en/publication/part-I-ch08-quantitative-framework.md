@@ -257,7 +257,7 @@ The readiness table above should not become a permanent excuse for non-quantific
 
 | Layer / metric | Public input at the cutoff | Report-side calculation or institutional balance | Status | Boundary |
 |---|---|---|---|---|
-| HBM manufacturing intensity | TrendForce estimates HBM at **~22% of 2026 DRAM wafer input** and **~9% of DRAM bit supply**[^7] | `22% / 9% ≈ 2.44×` normalized wafer-input-per-bit index | **Quantified intensity; D-grade calculation on B-grade inputs** | not an absolute HBM supply gap; not identical to Micron's same-node / same-bits ~3× disclosure |
+| HBM manufacturing intensity | TrendForce estimates HBM wafer input **among the top three suppliers** at ~**22%** of total DRAM wafer input in 2026, while HBM bit supply is expected at ~**9%** of total DRAM bit supply[^7] | read jointly with Micron's same-node / same-bits **≈3×** physical trade ratio | **B-grade institutional intensity signal** | the two TrendForce percentages are not scope-identical enough to support a formal 22/9 intensity ratio; not an absolute HBM supply gap |
 | Aggregate DRAM balance | TrendForce estimates a **~−1% to −2% 2026 DRAM sufficiency ratio**[^8] | institutional balance range indicates a modest aggregate deficit | **B-grade institutional forecast** | not HBM-specific; underlying demand/capacity volumes and customer allocation are not public |
 | Advanced logic | node mix, CapEx, supplier guidance | no same-unit AI qualified-demand / qualified-capacity pair | **Not measurable as Absolute Gap** | revenue mix cannot be converted into wafer allocation |
 | Advanced packaging | supplier tightness statements and partial capacity estimates | no unified qualified package-start demand/capacity pair in one auditable source | **Not measurable as formal Absolute Gap** | media / investor gap estimates remain C-grade unless methodology and denominator close |
@@ -265,7 +265,7 @@ The readiness table above should not become a permanent excuse for non-quantific
 | Power / LPS | project-level secured / permitted / construction / energized states | project delivery-state tracking only | **Partial at project level** | IT-GW, generation GW, PPA MW, energized load, and utilized load remain different quantities |
 
 **Source:** TrendForce institutional estimates plus report-side arithmetic.[^7][^8]  
-**Calculation note:** the **2.44×** figure is deliberately narrow. It divides TrendForce's 2026E HBM wafer-input share by its HBM bit-supply share. It is a normalized manufacturing-intensity indicator inside the same institutional forecast, not a claim that every HBM die uses exactly 2.44× the wafers of every conventional-DRAM die. Micron's approximately **3×** same-node / same-bits HBM3E-to-DDR5 disclosure remains the stronger first-party physical anchor.[^4]
+**Denominator note:** TrendForce's two percentages should **not** be divided into a formal intensity ratio. The wafer-input statement is scoped to HBM wafer input **among the top three suppliers**, while the bit-supply statement is framed against total DRAM bit supply. They still point in the same direction—HBM absorbs a larger share of wafer input than its share of bits—but the clean comparable physical anchor remains Micron's approximately **3×** same-node / same-bits HBM3E-to-DDR5 disclosure.[^4]
 
 This is the standard for future upgrades to the ledger:
 

@@ -2431,7 +2431,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 
 | Layer / Metric | Cutoff 前公开输入 | 本报告计算 / 机构 balance | 状态 | 边界 |
 |---|---|---|---|---|
-| HBM manufacturing intensity | TrendForce 预计 HBM 约占 **2026 DRAM wafer input 的 22%**、约占 **DRAM bit supply 的 9%**[^7] | `22% / 9% ≈ 2.44×` normalized wafer-input-per-bit index | **可量化 intensity；B 级输入上的 D 级计算** | 不是 HBM absolute supply gap；也不等同于 Micron same-node / same-bits 的 ~3× |
+| HBM manufacturing intensity | TrendForce 预计 2026 年 HBM wafer input **在前三大供应商中**约占 total DRAM wafer input 的 **22%**，同时 HBM bit supply 预计约占 total DRAM bit supply 的 **9%**[^7] | 与 Micron same-node / same-bits **≈3×** physical trade ratio 联合读取 | **B 级 institutional intensity signal** | 两个 TrendForce 百分比的 scope 不完全一致，不能正式相除为 22/9 intensity ratio；也不是 HBM absolute supply gap |
 | Aggregate DRAM balance | TrendForce 预计 **2026 DRAM sufficiency ratio 约 −1% 到 −2%**[^8] | 机构 balance range 指向轻度 aggregate deficit | **B 级 institutional forecast** | 不是 HBM-specific gap；底层 demand/capacity volume 与 customer allocation 未公开 |
 | Advanced logic | node mix、CapEx、supplier guidance | 缺同单位 AI qualified demand / qualified capacity | **Absolute Gap 不可测** | revenue mix 不能换算成 wafer allocation |
 | Advanced packaging | supplier tightness statement 与部分 capacity estimate | 缺同一可审计来源下的 qualified package-start demand/capacity pair | **正式 Absolute Gap 不可测** | 媒体 / investor gap estimate 在 methodology 与 denominator 未闭合前保持 C 级 |
@@ -2439,7 +2439,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 | Power / LPS | project-level secured / permitted / construction / energized state | 只能做 project delivery-state tracking | **项目级部分可量化** | IT-GW、generation GW、PPA MW、energized load、utilized load 仍是不同量 |
 
 **Source:** TrendForce institutional estimates + 本报告计算。[^7][^8]  
-**Calculation note:** **2.44×** 是刻意收窄的指标：用 TrendForce 2026E 的 HBM wafer-input share 除以 HBM bit-supply share。它是同一机构 forecast 内部的 normalized manufacturing-intensity indicator，不代表每颗 HBM die 都固定消耗 conventional DRAM 的 2.44× wafer。Micron 的约 **3×** same-node / same-bits HBM3E-to-DDR5 披露仍是更强的一手 physical anchor。[^4]
+**Denominator note：** TrendForce 的两个百分比**不能正式相除成 intensity ratio**。wafer-input 表述限定为前三大供应商中的 HBM wafer input，而 bit-supply 表述使用 total DRAM bit supply。两者仍共同指向同一个方向——HBM 对 wafer input 的吸收高于其 bit share——但真正同口径、可直接比较的 physical anchor 仍是 Micron approximately **3×** same-node / same-bits HBM3E-to-DDR5 披露。[^4]
 
 今后升级这张 ledger 的标准是：
 
