@@ -50,8 +50,8 @@
 
 ## 本报告核心分析概念
 
-### AI Resource Gravity
-当 AI/HPC 需求具备更高支付能力、更长期订单和更强资本回报预期时，稀缺资本与物理资源向 AI/HPC 配置的机制。
+### Resource reallocation pressure
+当 AI/HPC 需求具备更高支付能力、更长期订单和更强资本回报预期时，稀缺资本与物理资源可能向 AI/HPC 重新配置。它只是机制 shorthand，不是独立经验定律。
 
 ### Scarce-layer Value Capture
 企业在供给弹性低、难替代的产业层通过 scarcity、switching cost 与 supply coordination 获取价值的机制。不是法律意义上的 monopoly finding。
@@ -65,8 +65,8 @@
 ### Upgrade Tax
 不是税务概念，而是终端层的分析术语：当上游资源机会成本上升时，消费者或整机厂可能出现**同价位规格提升变慢，或同一目标规格需要更高 BOM / 更弱补贴**的结果。不得把它理解为所有终端统一涨价。
 
-### Two-Speed Semiconductor Economy
-AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，但价格承受能力、合同期限、BOM 约束与资本形成能力不同，导致新增资源配置速度分化。
+### Two-speed semiconductor economics
+用于描述 AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源、但在价格承受能力、合同期限、BOM 约束与资本形成能力上存在差异，从而形成不同资源配置节奏。
 
 ### AI Capacity Gap / AI Capacity Growth Gap
 **AI Capacity Gap** 是同一 physical layer、同一交付窗口下 `AI effective demand − AI effective capacity` 的绝对物理缺口；**AI Capacity Growth Gap** 是需求增长率与有效产能增长率之差，只描述缺口扩大/收敛方向。二者不得互换。不同 physical layer 必须分别计算，不能合并成一个综合“资源占有率”。
@@ -76,17 +76,17 @@ AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资�
 
 观察变量包括 qualified suppliers、lead time、allocation fulfillment、long-term agreements / prepayments、delivery schedule、buyer credit quality 与 supply elasticity。不同 physical pool 不压缩成一个跨层“综合占有率”。
 
-### Cloud System-Stack Substitution
-hyperscaler 通过 custom accelerator、interconnect、compiler/runtime、rack/pod 与 captive workload 形成第二类生产级 system stack 的替代机制。
+### Cloud system-stack substitution
+用于检验 hyperscaler 能否通过 custom accelerator、interconnect、compiler/runtime、rack/pod 与 captive workload 形成 production-grade alternative system stack 的 economic substitution test。
 
-### Anchor Compute Buyer Effect
-大型 model company 的长期 compute commitment 反向影响 data center、power、chip、memory 与 project financing 的机制。
+### Anchor-buyer mechanism
+大型 model company 的长期 compute commitment 影响 data center、power、chip、memory 与 project financing buildout 的需求形成机制；它不是独立“总理论”。
 
 ### Rolling Bottleneck Cascade
 瓶颈在 logic、HBM、advanced packaging、networking、power、utilization 等层之间轮换的动态过程。
 
-### AI Inheritance Effect
-AI 在既有 software、database、cloud、API、digital document、source code、identity/access 与 workflow 等数字资产之上叠加 intelligence / automation layer 的机制。它意味着高度信息化组织通常具有更低的 Digital → AI 边际改造摩擦，但**不表示部署障碍为 0**；data quality、integration、security、governance、responsibility、reliability、human review 与 unit economics 仍然决定 production adoption。
+### AI inheritance
+AI 在既有 software、database、cloud、API、digital document、source code、identity/access 与 workflow 等数字资产之上叠加 intelligence / automation layer 的机制 shorthand。它意味着高度信息化组织通常具有更低的 Digital → AI 边际改造摩擦，但**不表示部署障碍为 0**；data quality、integration、security、governance、responsibility、reliability、human review 与 unit economics 仍然决定 production adoption。
 
 ### AI Software Unit Economics
 以 successfully completed workflow 为核心单位，计算 inference、retrieval/storage、tools/API、retry、human review 等真实变动成本。
