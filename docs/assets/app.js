@@ -102,7 +102,9 @@
   const publicDocuments = new Set([
     "00-front-matter.md",
     "01-table-of-contents.md",
+    "01-list-of-figures.md",
     "02-list-of-tables.md",
+    "RESEARCH_BRIEF.md",
     "03-abbreviations-and-glossary.md",
     "04-research-transparency.md",
     "05-competitive-evidence-matrix.md",
