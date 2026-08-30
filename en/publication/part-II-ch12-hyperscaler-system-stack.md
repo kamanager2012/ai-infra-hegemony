@@ -4,7 +4,7 @@
 
 The strategic question is not whether a hyperscaler can design an ASIC. It is whether an alternative stack can **absorb production workload at an acceptable TCO, migration cost, reliability, and scale — and keep doing so across generations**.
 
-Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore have to be evaluated as system stacks:
+Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore must be evaluated as system stacks:
 
 - accelerator;
 - HBM / memory subsystem;
@@ -15,7 +15,7 @@ Google TPU, AWS Trainium, Microsoft Maia, and Meta MTIA therefore have to be eva
 - orchestration;
 - production workload.
 
-The report treats **cloud system-stack substitution** as an economic substitution test, not a separate theory. A benchmark win is not enough. The stack has to survive production utilization, software friction, and workload-specific system economics.
+The report treats **cloud system-stack substitution** as an economic substitution test, not a separate theory. A benchmark win is not enough. The stack must survive production utilization, software friction, and workload-specific system economics.
 
 ## 2. Captive workload is the structural advantage
 
@@ -143,7 +143,7 @@ DeepSeek training-cost, architecture-efficiency, and unit-intelligence economics
 
 Single-chip benchmarks are not enough.
 
-At least the following variables need to be observed together:
+At least the following variables must be observed together:
 
 1. mature compiler/runtime;
 2. large-cluster scaling;
@@ -198,11 +198,11 @@ Internal success can still materially change hyperscaler procurement, bargaining
 
 ## 11. The likely equilibrium is workload segmentation
 
-The most plausible long-run structure is not necessarily one side eliminating the other.
+The long-run structure need not involve one side eliminating the other.
 
-A more plausible equilibrium is **workload segmentation**.
+A plausible equilibrium is **workload segmentation**.
 
-That segmentation also has to distinguish **training topology** from **inference topology**. Frontier training is typically more sensitive to large-scale collective communication, scale-up / scale-out fabrics, and synchronization efficiency. Inference is more workload-dependent, with memory capacity / bandwidth, latency, batching, power efficiency, and cost per token often carrying greater weight. At the same time, inference does not mean networking becomes irrelevant: Google Ironwood still integrates a 9,216-chip pod with dedicated ICI, while Microsoft states that Maia 200 scales over standard Ethernet to clusters of up to 6,144 accelerators.[^1][^4]
+That segmentation must also distinguish **training topology** from **inference topology**. Frontier training is typically more sensitive to large-scale collective communication, scale-up / scale-out fabrics, and synchronization efficiency. Inference is more workload-dependent, with memory capacity / bandwidth, latency, batching, power efficiency, and cost per token often carrying greater weight. At the same time, inference does not mean networking becomes irrelevant: Google Ironwood still integrates a 9,216-chip pod with dedicated ICI, while Microsoft states that Maia 200 scales over standard Ethernet to clusters of up to 6,144 accelerators.[^1][^4]
 
 The report therefore does not generalize frontier-training interconnect barriers to all inference workloads, nor does it assume that custom silicon / Ethernet makes large-scale inference network-insensitive. The correct comparison is **memory, network, latency, utilization, and TCO for the specific workload topology**.
 
@@ -238,7 +238,7 @@ As a larger share of production shifts toward inference or narrower fine-tuning 
 - easier to place on vertically optimized captive systems;
 - more sensitive to cost per token / verified outcome than to maximum general-purpose flexibility.
 
-That can reduce the economic rent attached to one universal training-oriented coordination stack **for specific workloads** and increase the value of hyperscaler custom systems.
+That can reduce the economic rent attached to a universal training-oriented coordination stack **for specific workloads** and increase the value of hyperscaler custom systems.
 
 But the report rejects a fixed threshold such as “inference exceeds 80%, therefore orchestration power collapses.” Public evidence does not support such a universal cutoff, and large-scale inference can still require substantial memory systems, networking, scheduling, reliability, and fleet orchestration.
 
