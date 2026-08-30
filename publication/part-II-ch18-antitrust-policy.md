@@ -97,7 +97,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 这些变量都会影响 system-stack moat。
 
-## 7.5 Hugging Face reported transaction：Merger Control 的新问题是 Developer Distribution Foreclosure
+## 7.5 Hugging Face reported transaction：Merger Control 可能延伸到 Developer-Distribution Foreclosure Risk
 
 2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^5]截至 2026-08-28，本报告未取得双方正式 closing / merger approval 公告，因此不把它写成已完成交易。
 
@@ -177,7 +177,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 - 是否有最终 decision；
 - remedy 是否真实降低 production migration cost。
 
-只有这些正式事件，才足以改变 system-stack scenario weighting。
+只有当法律程序或 remedy 具体到足以改变 interface、access condition 或 production migration economics 时，才应改变 system-stack scenario weighting。
 
 ## 12. 什么事实会改变当前判断
 
@@ -189,7 +189,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 - physical scarcity 继续主导 buyer constraint；
 - market structure 变化主要来自技术替代而非监管。
 
-反过来，真正足以提高监管权重的不是罚款金额本身，而是 binding remedy 改变接口、供给或跨栈迁移条件。
+反过来，headline fine 本身不应提高监管权重。真正高价值的证据，是 binding remedy 改变 interface、access condition 或 cross-stack migration economics。
 
 ## References
 
