@@ -10,12 +10,14 @@ This 32-chapter report analyzes the shift from individual-accelerator competitio
 
 The report keeps observed facts, company guidance, institutional forecasts, report-side calculations, hypotheses, and scenarios separate. See [Scope and Evidence Boundaries](00-front-matter.md).
 
+**Canonical research language:** English. The Chinese edition is a professional parallel edition that preserves facts, denominators, mechanism logic, and falsification boundaries without requiring sentence-level translation.
+
 ## Recommended reading paths
 
 For the core thesis:
 
-1. [Chapter 1 — Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
-2. [Chapter 32 — Master Judgment](part-IV-ch32-master-judgment.md)
+1. [Chapter 1 — Executive Summary](part-I-ch01-executive-summary.md)
+2. [Chapter 32 — Master View](part-IV-ch32-master-judgment.md)
 3. [Chapter 30 — The Four Standard Scenarios](part-IV-ch30-scenarios.md)
 
 For methodology and evidence discipline:
@@ -29,9 +31,9 @@ For methodology and evidence discipline:
 
 ## Part I — System Power and Physical Scarcity
 
-1. [Executive Summary and Core Judgments for the Next Decade](part-I-ch01-executive-summary.md)
+1. [Executive Summary](part-I-ch01-executive-summary.md)
 2. [NVIDIA's System Stack and Platform Power](part-I-ch02-nvidia-system-stack.md)
-3. [AI Resource Gravity and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
+3. [AI Resource Reallocation and Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 4. [TSMC, N2, and Advanced-Manufacturing Resource Allocation](part-I-ch04-tsmc-advanced-logic.md)
 5. [HBM and the Restructuring of Memory Resources](part-I-ch05-hbm-memory.md)
 6. [Advanced Packaging, CoWoS, and the System-Delivery Bottleneck](part-I-ch06-advanced-packaging.md)
@@ -48,14 +50,14 @@ For methodology and evidence discipline:
 14. [Agent-Native Software and AI Software Unit Economics](part-II-ch14-agent-software.md)
 15. [Physical AI and the Real Bottlenecks in Robotics](part-II-ch15-physical-ai.md)
 16. [AMD, Intel, Qualcomm, and Apple — Differentiated Competitive Paths](part-II-ch16-differentiated-competitors.md)
-17. [China's Parallel Stack — From Production-Grade Substitution to Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
+17. [China's Parallel Stack — Production-Grade Substitution vs. Autonomous Frontier Closure](part-II-ch17-china-parallel-stack.md)
 18. [Antitrust, Industrial Policy, and the Boundaries of AI Platform Power](part-II-ch18-antitrust-policy.md)
 
 ## Part III — Capital Cycles, Profit Pools, and External Transmission
 
 19. [The AI-Infrastructure CapEx Supercycle](part-III-ch19-capex-supercycle.md)
 20. [Value Capture Map — Capital Flows, Profit Pools, and Risk Bearing](part-III-ch20-value-capture-map.md)
-21. [Cost Transmission into Consumer Electronics, End Systems, and the Real Economy](part-III-ch21-consumer-transmission.md)
+21. [How AI Reprices Consumer Electronics and Other End Systems](part-III-ch21-consumer-transmission.md)
 22. [The Depreciation Wall and Duration Mismatch](part-III-ch22-depreciation-wall.md)
 23. [AI-Infrastructure Capital Markets and Financing Structure](part-III-ch23-capital-financing.md)
 24. [Bubble Identification, Capital Clearing, and S4](part-III-ch24-capital-clearing.md)
@@ -69,7 +71,7 @@ For methodology and evidence discipline:
 29. [Core Metrics and Evidence-Monitoring Framework](part-IV-ch29-monitoring-framework.md)
 30. [The Four Standard Scenarios — S1 to S4](part-IV-ch30-scenarios.md)
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
-32. [Master Judgment — The Industrial End-State of AI Infrastructure and the Conditions That Would Falsify It](part-IV-ch32-master-judgment.md)
+32. [Master View — What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
 ## Research appendices
 
