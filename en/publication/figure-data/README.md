@@ -19,3 +19,13 @@ Machine-readable inputs for quantitative publication figures.
 ## Reproducibility rule
 
 A numeric SVG must be regenerated from the corresponding CSV whenever an admitted value changes. Do not hand-edit a chart value without updating its machine-readable input and the underlying chapter evidence at the same time.
+
+## Figure 7 — TSMC 2Q26 demand and technology mix
+
+- File: `fig-07-tsmc-2q26-mix.csv`
+- Evidence identity: first-party actual data.
+- Source: TSMC 2Q26 Quarterly Results / Earnings Conference.
+- Boundary: the two panels intentionally preserve different denominators. HPC 66% and smartphone 22% are platform shares of total revenue; 7 nm and below 77% is a technology share of wafer revenue. These values must not be combined into customer-level wafer allocation.
+
+The SVG should preserve the panel separation whenever the source values are updated.
+
