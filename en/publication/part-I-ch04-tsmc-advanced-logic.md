@@ -4,7 +4,7 @@
 
 Leading-edge logic is necessary but not sufficient for frontier AI. The relevant variable is not “who has access to an advanced node?” but **who can secure qualified incremental capacity at the required volume and timing while HBM, packaging, interconnect, power, and software are ready to convert that wafer output into a production system**.
 
-The advanced-manufacturing question is therefore:
+The relevant advanced-manufacturing question is therefore:
 
 > **Who can repeatedly secure enough qualified N2/N2P/A16-class capacity, on schedule, without another layer becoming the binding constraint?**
 
@@ -46,7 +46,7 @@ They support a narrower conclusion:
 
 > **HPC has become one of the central marginal demand drivers of TSMC's advanced-manufacturing capital formation, while the company continues to raise investment in advanced processes and advanced packaging.**
 
-This strengthens the report's "where does the next capital dollar go?" thesis, but it does not support claims that:
+This strengthens the report's focus on the destination of the next capital dollar, but it does not support claims that:
 
 - 66% of wafers are AI;
 - 77% of advanced-technology revenue belongs to NVIDIA;
@@ -122,7 +122,7 @@ These are revenue shares, not frontier-AI capacity shares. A second supply syste
 
 TSMC's strategic position rests on three conditions that currently coexist: strong leading-edge logic, HPC as its largest platform, and advanced packaging as a publicly confirmed growth constraint.
 
-The key forward variables are not one quarter's customer revenue shares, but the customer structure of N2/N2P/A16 incremental resources, HBM / packaging supply, competition from cloud custom silicon for new capacity, and whether a second manufacturing system can produce a combined logic + packaging + memory alternative.
+The key forward variables are not one quarter's customer revenue shares, but who can secure incremental N2/N2P/A16-class capacity, how HBM and packaging supply evolve, how cloud custom silicon competes for new capacity, and whether a second manufacturing system can deliver a credible logic + packaging + memory alternative.
 
 ## 10. What would change the view
 
