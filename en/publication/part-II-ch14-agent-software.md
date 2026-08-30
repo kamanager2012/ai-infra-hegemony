@@ -18,7 +18,7 @@ toward:
 
 ## 1A. 2026 evidence baseline: broad AI use, early scaled-agent deployment
 
-Stanford AI Index 2026 summarizes organizational survey evidence collected in 2025: **88%** of surveyed organizations report **regular AI use in at least one business function**, while **79%** report regular Generative-AI use in at least one function.[^3] The underlying survey also shows that **scaled AI-agent use remains at or below roughly 10% in any given business function**, even though organization-level experimentation or scaling somewhere in the business is materially higher.[^3]
+Stanford AI Index 2026 summarizes organizational survey evidence collected in 2025: **88% of respondents say their organization uses AI in at least one business function**, while **79% say their organization regularly uses Generative AI in at least one function**.[^3] The underlying survey also shows that **scaled AI-agent use remains at or below roughly 10% in any given business function**, even though organization-level experimentation or scaling somewhere in the business is materially higher.[^3]
 
 The correct reading is not a fixed penetration forecast, but a stage-of-market distinction:
 
@@ -236,7 +236,7 @@ The dividing line is:
 
 [^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
 [^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
-[^3]: Stanford HAI, “2026 AI Index Report — Economy,” organizational AI adoption, Generative-AI use, and scaled-agent deployment; the chapter summarizes McKinsey's 2025 organizational survey, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” full Chapter 4 / Figure 4.3.1, based on McKinsey's 2025 organizational survey: 88% AI use and 79% regular Generative-AI use in at least one business function; the chapter-highlight webpage separately prints 70% for GenAI, so this report follows the full chapter figure/text rather than that inconsistent highlight, https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, long-running agentic tasks and the relationship between compute use and estimated artifact value; first-party product sample, https://www.anthropic.com/research/economic-index-june-2026-report
 
 ## Cross-references
