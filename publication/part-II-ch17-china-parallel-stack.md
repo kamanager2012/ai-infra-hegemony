@@ -203,6 +203,51 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 它不支持“物理供给已经不重要”，也不支持“任何受限系统都能复制同样成本”。算法效率是杠杆，不是对 HBM、packaging、interconnect 和 power 的替代品。
 
+## 8A. System Engineering 可以补偿 Manufacturing Disadvantage，但补偿本身有成本
+
+制造节点上的劣势，并不会一比一转化成 system-output 劣势。
+
+受限技术栈可以通过以下路径做部分补偿：
+
+- sparsity、quantization、routing 与 memory-efficiency；
+- 使用更多 die / accelerator；
+- chiplet、board-level、rack-level topology；
+- 更激进的 compiler / runtime co-design；
+- workload-specific scheduling 与 communication optimization；
+- 围绕 captive workload 做更窄的 specialization。
+
+这是一个真实竞争轴，因此不能把 process-node position 写成决定 system outcome 的唯一变量。
+
+但 compensation 不是免费的。更多 device、更大 topology 或更复杂软件会把压力转移到其他 denominator：
+
+- logic wafer input；
+- package starts / integration complexity；
+- memory capacity 与 bandwidth；
+- interconnect / switch count；
+- power 与 cooling；
+- failure domain 与 operations complexity；
+- 每单位 delivered workload 所需资本。
+
+所以真正的 Test 不是：
+
+> “谁的节点更先进？”
+
+也不是：
+
+> “软件能不能抹掉制程差距？”
+
+而是：
+
+> **System Engineering 能否把现有制造基础转化为有竞争力的 production-workload economics，而不是仅仅把瓶颈从 logic 移到 memory、packaging、networking、power、reliability 或 capital？**
+
+由于这些资源使用不同物理单位，本报告不把它们压成一个 synthetic “补偿分数”。更稳健的比较应分别观察 target workload 的 throughput / cost、power per verified output、qualified package availability、memory intensity、utilization 与 multi-generation continuity。
+
+因此，工程补偿应被赋予更高权重，但边界必须保持清楚：
+
+> **它可以压缩 hardware disadvantage，不能替代 system closure。**
+
+---
+
 ## 9. Domestic Workload 构成 Parallel Stack 的 Iteration Loop
 
 一个 parallel stack 不必先征服全球 developer 才能产生价值。只要拥有足够大的内部 workload，就可以通过真实生产环境积累 compiler feedback、deployment experience、failure recovery、operator coverage 和 utilization 数据。
