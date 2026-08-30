@@ -167,7 +167,7 @@ When a seller also provides equity, credit support, or infrastructure-financing 
 
 Therefore:
 
-> **financing power can become a moat, but only when analyzed together with risk transfer and workload monetization.**
+> **financing coordination can strengthen platform advantage, but only when analyzed together with risk transfer and workload monetization.**
 
 The full financing and clearing mechanisms are developed in Chapters 23 and 24.
 
@@ -208,11 +208,7 @@ Smartphones, PCs, game consoles, automotive, industrial systems, robotics, and s
 
 Their primary burden is not being “replaced by AI.” It is the reprioritization of shared or adjacent upstream resources.
 
-A better description of the end-system layer is:
-
-> **residual-capacity / supply-assurance pressure bearer**
-
-The physical channels differ:
+For end systems, the relevant exposure is **residual capacity and supply assurance**, and the physical channels differ:
 
 - smartphones / PCs are more directly exposed to selected leading-edge logic, DRAM/LPDDR/NAND, consumer GPUs, and selected packaging;
 - game consoles are exposed through custom SoC/APU, GDDR/DRAM, NAND/SSD, and long-generation hardware economics, with memory procurement able to transmit into promotion, unit volume, and hardware margin;
@@ -257,7 +253,7 @@ This is more robust than assigning a permanent ranking to system platforms, HBM,
 
 ## 13. Current read
 
-As of August 2026, high-quality value capture in AI infrastructure is concentrated mainly in three categories:
+As of August 2026, the strongest evidence of durable value capture in AI infrastructure is concentrated mainly in three categories:
 
 1. **system platforms that coordinate multiple scarce layers and create switching costs;**
 2. **scarce physical layers with low short-run supply elasticity and high entry barriers, including HBM, leading-edge manufacturing, advanced packaging, and powered infrastructure;**
