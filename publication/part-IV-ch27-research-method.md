@@ -1,16 +1,10 @@
 # Part IV · 第27章：研究方法与证据架构
 
-## 1. 为什么 AI Infrastructure 研究必须先统一证据语言
+## 1. Research Quality 从 Claim Identity 与 Denominator Discipline 开始
 
-AI infrastructure 同时跨越财务、semiconductor、memory、advanced packaging、cloud、power、regulation 与 labor market。
+AI infrastructure research 横跨 finance、semiconductor、memory、packaging、cloud、power、regulation 与 labor，而这些领域没有统一 denominator、clock 或 evidence standard。
 
-不同领域的数字具有不同：
-
-- 物理单位；
-- 会计口径；
-- 时间窗口；
-- 分母；
-- 证据强度。
+方法上的第一步不是先组织 narrative，而是先保留 **claim identity、physical unit、time identity 与 evidence strength**。
 
 如果没有统一规则，最常见的错误包括：
 
@@ -220,7 +214,7 @@ seller equity、credit enhancement、LPS support 或 compute-financing platform 
 
 ---
 
-## 9. Negative Evidence：只能限制可确认事实
+## 9. Negative Evidence 也有 Boundary
 
 “某份公开文件没有披露某项内容”只能证明：
 
@@ -257,7 +251,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 
 ---
 
-## 11. 本报告核心分析概念
+## 11. Concept Hierarchy：Load-Bearing Mechanism 与 Supporting Language
 
 为避免把“命名数量”误当成“理论数量”，本报告把分析语言分成两层：**承重核心机制**与**辅助描述 / 测量语言**。
 
@@ -287,7 +281,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 
 ---
 
-## 12. 去重与交叉引用原则
+## 12. Deduplication 与 Canonical-Home Rules
 
 正式研究正文避免同一事实和机制在不同章节被反复重写。
 
@@ -312,7 +306,7 @@ Negative evidence 的作用是限制事实层，不是证明现实中的绝对�
 
 ---
 
-## 13. 研究成稿质量标准
+## 13. Research-Quality Standard
 
 每一章至少应满足：
 
