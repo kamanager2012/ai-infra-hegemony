@@ -1,10 +1,8 @@
 # Part III · Chapter 20: Value Capture and Risk Bearing Across the AI Infrastructure Stack
 
-## 1. Value capture and risk bearing have to be mapped separately
+## 1. Value capture and risk bearing are different maps
 
-One dollar of AI-infrastructure spending can appear as hyperscaler CapEx, system-vendor revenue, foundry revenue, memory revenue, packaging revenue, and data-center / power investment at different points in the chain.
-
-Those are not independent dollars.
+One dollar of AI-infrastructure spending can appear as hyperscaler CapEx, system-vendor revenue, foundry revenue, memory revenue, packaging revenue, and data-center / power investment at different points in the chain. Those are accounting views of the same capital flow, not independent dollars.
 
 The correct analytical problem is therefore not "how large is the total profit pool?" It is:
 
@@ -12,7 +10,7 @@ The correct analytical problem is therefore not "how large is the total profit p
 
 This chapter maps value capture and risk bearing separately to avoid both double counting and simplistic winner/loser rankings.
 
-## 2. Six variables determine value capture
+## 2. Six variables determine economic rent
 
 At minimum, the economics of a layer depend on:
 
@@ -51,7 +49,7 @@ But a system platform still does not own every physical input.
 
 Foundry, HBM, advanced packaging, and power remain external boundaries.
 
-## 4. Foundry / packaging can control quantity without controlling the highest margin
+## 4. Foundry / packaging can control quantity without owning the highest margin
 
 TSMC's 2025 gross margin was **59.9%**, while HPC represented **58%** of annual revenue.[^2]
 
@@ -86,7 +84,7 @@ If HBM capacity expands ahead of demand, generation mismatch grows, or demand sl
 
 Memory is therefore better understood as a **high-barrier manufacturing scarcity cycle** than as permanent platform rent.
 
-## 6. Hyperscalers combine distribution power with asset-duration risk
+## 6. Hyperscalers combine distribution power with duration risk
 
 Microsoft, Amazon, Alphabet, and Meta combine cloud distribution, internal workloads, customer bases, custom silicon, and data-center scale.
 
@@ -180,7 +178,7 @@ The correct framework is **AI Software Unit Economics**:
 
 A defensible application layer needs to convert model capability into proprietary workflows, data, distribution, retention, and measurable business outcomes.
 
-## 10. End systems carry residual-capacity and quantity-assurance pressure
+## 10. End systems absorb residual-capacity and quantity-assurance pressure
 
 Smartphones, PCs, game consoles, automotive, industrial systems, robotics, and selected high-reliability electronics remain important end systems and strategic platforms.
 
@@ -206,7 +204,7 @@ The more useful variables are:
 
 Chapter 3 defines the resource mechanism; Chapter 21 develops the observed pricing, configuration, longevity, and allocation transmission.
 
-## 11. Custom silicon redistributes platform rent without necessarily reducing upstream demand
+## 11. Custom silicon redistributes platform rent before upstream demand
 
 A simplified traditional path is:
 
