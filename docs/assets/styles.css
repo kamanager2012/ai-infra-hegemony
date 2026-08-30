@@ -150,6 +150,11 @@ button{font:inherit}
 .reader-toolbar strong{font-size:13px}
 .toolbar-actions{display:flex;gap:8px}
 .loading{padding:60px 0;color:var(--muted)}
+.raw-markdown{
+  white-space:pre-wrap;word-break:break-word;overflow-wrap:anywhere;
+  padding:20px;border:1px solid var(--line);border-radius:10px;background:#0d1118;
+  color:#d8dee8;font:14px/1.7 ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace
+}
 
 .markdown-body{font-size:16px;color:#d8dee8}
 .markdown-body h1{
