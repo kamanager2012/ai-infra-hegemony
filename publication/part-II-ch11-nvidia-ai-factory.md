@@ -1,16 +1,16 @@
 # Part II · 第11章：NVIDIA 从 Accelerator Vendor 向 System Orchestration 扩张
 
-## 1. NVIDIA 通过 Orchestration 扩张，而不是通过 Fab Ownership 扩张
+## 1. NVIDIA 通过 Orchestration 扩张，而不是 Ownership
 
-NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center real estate 来控制系统。
+NVIDIA 的控制力并不来自拥有 leading-edge fabs、HBM fabs 或整个 data-center real estate。
 
-它的扩张更接近：
+它的 operating model 更接近：
 
-> **interface control + reference architecture + software/runtime + supply orchestration**
+> **interface control + reference architecture + software/runtime + supply orchestration + financing coordination**
 
 系统边界已经覆盖 GPU / CPU、NVLink / NVSwitch、networking、rack-scale design、liquid-cooling requirements、CUDA/runtime、AI Enterprise、NIM / NeMo、DGX 与 cloud-service extensions。[^1][^2][^3]
 
-## 2. Rack-scale sales unit 会重新定义 OEM / ODM 的角色
+## 2. Rack-Scale Reference Architecture 改变 OEM / ODM Economics
 
 在 accelerator-card 时代，OEM 可以围绕 GPU 定义大量 server architecture。
 
@@ -26,7 +26,7 @@ NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center rea
 
 所以平台竞争逐渐从“GPU + 任意网络”变成一套更统一的 AI Factory architecture。
 
-## 4. DGX Cloud 的价值主要在 Platform Extension
+## 4. DGX Cloud 是 Platform-Extension Channel
 
 在没有独立大规模收入分项的情况下，不应把 DGX Cloud 写成已经取代 hyperscaler 的第二主业。
 
@@ -39,7 +39,7 @@ NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center rea
 
 它更接近 platform extension 与 reference deployment channel。
 
-## 5. AI Enterprise / NIM / NeMo 的核心作用是强化部署与迁移成本
+## 5. Software 强化 Integration 与 Migration Cost
 
 软件产品让 system platform 从 hardware purchase 延伸到 model serving、deployment、optimization、enterprise support 与 lifecycle management。
 
@@ -49,7 +49,7 @@ NVIDIA 并不通过拥有 leading-edge fabs、HBM fabs 或整个 data-center rea
 
 > **降低 platform 内部部署摩擦，提高 platform 外部迁移成本。**
 
-## 6. Asset-light Orchestration 为什么重要
+## 6. Asset-Light Orchestration 提高 Capital Efficiency
 
 NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ecosystem 与 infrastructure providers，同时用 long-term commitments、prepayments、roadmap coordination 和 volume certainty 影响这些供应商扩产。FY26 10-K 的 manufacturing, supply and capacity commitments 为这一 supply-orchestration 模式提供了公司层事实锚。[^4]
 
@@ -59,7 +59,7 @@ NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ec
 
 它提高了平台资本效率，也把外部 supply elasticity 变成平台战略的一部分。
 
-## 6A. Asset-light 是相对概念，不等于零 Balance-Sheet Exposure
+## 6A. Asset-Light 不等于零 Balance-Sheet Exposure
 
 2026 年 8 月的新交易结构表明，NVIDIA 的 supply orchestration 正在部分延伸到 infrastructure capital。
 
@@ -74,7 +74,7 @@ NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ec
 
 这可以提高 Time-to-Capacity，也可能把 customer concentration、credit 与 duration risk 部分拉回平台自身。
 
-## 7. Physical AI 是系统平台的外延，但不属于本章主证据链
+## 7. Physical AI 是 Extension Path，不是当前 Data Center Economics
 
 Automotive、robotics、simulation 与 edge deployment 延续同一种 system-platform 逻辑：hardware、runtime、simulation、developer tooling 与 deployment 被组织成一套工作流。
 
@@ -82,7 +82,7 @@ Automotive、robotics、simulation 与 edge deployment 延续同一种 system-pl
 
 因此，本章只把 Physical AI 视为 NVIDIA system architecture 的潜在外延；其独立产业逻辑见[第15章：Physical AI 与机器人系统的真正瓶颈](part-II-ch15-physical-ai.md)。
 
-## 8. 纵向扩张的七个边界
+## 8. Vertical Expansion 的 Boundaries
 
 NVIDIA 的系统扩张并非没有制衡：
 
@@ -104,7 +104,7 @@ AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有�
 
 这一思想的产业影响在于销售单位、qualification、supply commitments 与 data-center engineering 都被拉进同一个 roadmap。
 
-## 10. 当前判断
+## 10. Current Read
 
 截至 2026 年，最确定的变化是 NVIDIA 已经明显从 accelerator vendor 向 system-platform / AI-Factory architecture 扩张。
 
