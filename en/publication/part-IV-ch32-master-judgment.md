@@ -310,6 +310,10 @@ Putting these layers together, the demand-side loop is:
 
 > **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
 
+![Figure 10 — Demand-side closure through verified workflow output](figures/fig-10-verified-workflow-loop.svg)
+
+**Figure 10 note:** Report economic framework. “Verified workflow output” is a long-run economic criterion, not an empirically calibrated fact metric as of the evidence cutoff; its purpose is to connect infrastructure cost to verifiable output, utilization, cash flow, and capital recovery.
+
 If the front half of that chain expands persistently faster than the back half, S4 risk rises. If verified workflow output, utilization, and cash flow continue pulling new demand forward, S2/S3-style capital expansion can persist even as unit compute costs fall.
 
 ---
