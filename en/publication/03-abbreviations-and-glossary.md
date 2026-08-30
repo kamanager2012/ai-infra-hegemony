@@ -50,8 +50,8 @@
 
 ## Core analytical concepts
 
-### AI Resource Gravity
-The mechanism by which higher willingness to pay, longer-duration orders, and stronger expected returns from AI/HPC pull scarce capital and physical resources toward AI/HPC uses.
+### Resource reallocation pressure
+Shorthand for the mechanism by which higher willingness to pay, longer-duration orders, and stronger expected returns from AI/HPC can redirect scarce capital and physical resources toward AI/HPC uses. It is descriptive mechanism language, not a separate empirical law.
 
 ### Scarce-layer Value Capture
 Value capture arising in layers with low supply elasticity and difficult substitution, strengthened by scarcity, switching costs, and supply coordination. It is not a legal monopoly finding.
@@ -65,8 +65,8 @@ Whether a buyer can obtain enough qualified supply on schedule within the releva
 ### Upgrade Tax
 An analytical term, not a tax category. It describes an end-system outcome in which higher upstream opportunity cost produces **slower specification improvement at the same price band, or a higher BOM / weaker subsidy for the same target specification**. It must not be generalized into uniform price inflation across all end markets.
 
-### Two-Speed Semiconductor Economy
-A structure in which the AI Infrastructure Economy and Traditional Device Economy share parts of the same upstream resource base but have different willingness to pay, contract duration, BOM constraints, and capital-formation power.
+### Two-speed semiconductor economics
+Descriptive shorthand for the divergence created when the AI Infrastructure Economy and Traditional Device Economy share parts of the same upstream resource base but differ in willingness to pay, contract duration, BOM constraints, and capital-formation power.
 
 ### AI Capacity Gap / AI Capacity Growth Gap
 **AI Capacity Gap** is the absolute physical shortfall `AI effective demand − AI effective capacity` within the same layer and delivery window; **AI Capacity Growth Gap** is the difference between demand growth and effective-capacity growth and describes only the direction in which the gap is changing. The two are not interchangeable.
@@ -76,17 +76,17 @@ A layer-specific framework for evaluating whether different buyers can repeatedl
 
 It is measured through variables such as qualified suppliers, lead time, allocation fulfillment, long-term agreements/prepayments, delivery schedules, buyer credit quality, and supply elasticity. The report does not compress different physical pools into one synthetic cross-layer percentage.
 
-### Cloud System-Stack Substitution
-The mechanism by which hyperscalers combine custom accelerators, interconnect, compiler/runtime, racks/pods, and captive workloads into a second production-grade system stack.
+### Cloud system-stack substitution
+An economic substitution test for whether hyperscalers can combine custom accelerators, interconnect, compiler/runtime, racks/pods, and captive workloads into a production-grade alternative system stack.
 
-### Anchor Compute Buyer Effect
-The mechanism by which long-duration compute commitments from large model companies influence data-center, power, chip, memory, and project-financing buildout.
+### Anchor-buyer mechanism
+The mechanism by which long-duration compute commitments from large model companies influence data-center, power, chip, memory, and project-financing buildout. It is a demand-formation mechanism, not a separate grand theory.
 
 ### Rolling Bottleneck Cascade
 The dynamic rotation of the binding constraint across logic, HBM, advanced packaging, networking, power, utilization, and related layers.
 
-### AI Inheritance Effect
-The mechanism by which AI adds an intelligence / automation layer on top of an existing digital installed base of software, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and workflows. Highly digitized organizations can therefore face lower marginal Digital → AI deployment friction, but **not zero friction**: data quality, integration, security, governance, responsibility, reliability, human review, and unit economics still determine production adoption.
+### AI inheritance
+Shorthand for the mechanism by which AI adds an intelligence / automation layer on top of an existing digital installed base of software, databases, cloud systems, APIs, digital documents, source code, identity/access systems, and workflows. Highly digitized organizations can therefore face lower marginal Digital → AI deployment friction, but **not zero friction**: data quality, integration, security, governance, responsibility, reliability, human review, and unit economics still determine production adoption.
 
 ### AI Software Unit Economics
 A workflow-level cost framework incorporating inference, retrieval/storage, tools/APIs, retries, human review, and other variable AI costs.
