@@ -187,7 +187,7 @@ China can therefore have stronger competitiveness in robot systems and mechanica
 
 This is a separate industrial path and should not be reduced to one "AI chip capability" metric.
 
-## 11. Current judgment: value capture can be distributed across multiple physical layers
+## 11. Current view: value capture can be distributed across multiple physical layers
 
 Long-run value capture can appear simultaneously in:
 
