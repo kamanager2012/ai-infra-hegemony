@@ -180,6 +180,8 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 第一，历史清算回放证明：Accounting 是高价值 confirmation / severity channel，但**不是 system clearing 的 mandatory gate**。financing-led 或 real-economy clearing 可以在 qualifying impairment / write-down 出现之前被确认，前提是 cross-signal confirmation 与 cross-actor / cross-layer causal breadth 已足够强。
 
+**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+
 第二，Decision Invariants 的 falsification pass 证明：长期维护一套 production-like second path **不是普适 Hard Invariant**。更耐久的原则是显式给 executable optionality 定价，只有 continuity / bargaining / recovery value 高于 carrying cost 时才维护第二路径。
 
 本次修正仅涉及受影响的定义 / 策略口径：

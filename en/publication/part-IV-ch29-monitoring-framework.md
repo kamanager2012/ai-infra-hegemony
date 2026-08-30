@@ -314,6 +314,8 @@ Instead, every monitoring variable should specify:
 5. **persistence / confirmation** — supported by comparable follow-up evidence appropriate to that variable;
 6. **cross-signal confirmation** — especially for S4, where one weak metric is insufficient.
 
+**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+
 ### Handling missing data
 
 If a layer does not provide same-unit `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**.

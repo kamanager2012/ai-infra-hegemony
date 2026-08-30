@@ -289,6 +289,8 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 情景权重的变化必须来自**多个相互独立的公开代理在连续观察中形成同方向证据**，同时显式记录反证与 segment breadth。不同数据具有季度、半年或年度披露频率，本报告不人为把它们压成一个伪精确统一窗口。
 
+**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+
 换言之：
 
 > **当前框架已经规定“看什么”，但还没有把“变化多少、持续多久”伪装成已验证阈值。**

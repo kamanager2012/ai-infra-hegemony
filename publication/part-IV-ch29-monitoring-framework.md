@@ -306,6 +306,8 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 4. **proxy 不能重新命名成无法直接测量的 physical quantity；**
 5. **如果公开数据不足，应明确标记 not measurable，而不是用假设补齐。**
 
+**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+
 例如，向 S4 移动不能只依赖一家公司 CapEx 下调，而应看到至少一个 real-economy / market / commitment 信号与其他独立信号族跨主体/层级形成共同恶化；Accounting 可用于确认和衡量严重度，但不能被设成 mandatory gate。
 
 向 S1 移动也不能只依赖一个新 accelerator launch，而应看到真实 production workload、迁移成本和 supply elasticity 同时改善。

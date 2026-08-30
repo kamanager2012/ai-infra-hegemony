@@ -329,6 +329,8 @@ Therefore:
 
 Changes in scenario weight require **several independent public proxies to move in the same direction across repeated observations**, while counterevidence and segment breadth remain explicit. Because disclosure frequencies differ across quarterly, semiannual, and annual data, this report does not force them into a false single observation window.
 
+**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+
 In other words:
 
 > **The framework already specifies what to observe, but it does not pretend that “how much” and “for how long” have already been statistically calibrated.**

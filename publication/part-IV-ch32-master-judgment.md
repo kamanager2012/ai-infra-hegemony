@@ -350,6 +350,8 @@ AI 对劳动的传导必须至少经过：
 - **S — Scenario**：多个条件组合形成的未来状态；
 - **X — Falsification**：足以迫使原判断下调、重写或失效的反向信号。
 
+**Mechanism-break override：** breadth 要求约束的是**系统级情景裁决**，不是给底层机制提供“必须等多信号才承认反例”的保护。如果一条高质量证据在同一 denominator、同一 time identity 下直接击穿某个机制的必要前提，该机制必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定是否改判整个 S1–S4 状态，但不能被用来忽略已经失效的前提。
+
 这套结构的作用不是增加术语，而是防止：
 
 - 机构 forecast 在多次引用后被写成 company fact；

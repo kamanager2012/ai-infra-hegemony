@@ -182,6 +182,8 @@ On August 30, 2026, the formal text was reopened only to correct **definition-le
 
 First, the historical clearing replay showed that Accounting is a high-value confirmation / severity channel but **not a mandatory gate** for systemic capital clearing. Financing-led or real-economy clearing can be confirmed before qualifying impairment / write-down evidence appears, provided cross-signal confirmation and cross-actor / cross-layer causal breadth are strong enough.
 
+**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+
 Second, the decision-invariant falsification pass showed that continuously maintaining a production-like second path is **not a universal hard invariant**. The durable rule is to price executable optionality explicitly and maintain a second path only when continuity / bargaining / recovery value exceeds carrying cost.
 
 The correction was limited to the affected definitions / strategy language in:

@@ -392,6 +392,8 @@ The report uses five layers:
 - **S — Scenario:** a future structural state created by several conditions;
 - **X — Falsification:** reverse signals strong enough to weaken, rewrite, or invalidate the original judgment.
 
+**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
+
 The purpose is to prevent:
 
 - an institutional forecast from becoming a company fact through repetition;
