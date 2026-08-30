@@ -20,6 +20,14 @@
 
 NVIDIA、Hyperscaler、中国 parallel stack 与情景章节是解释**为什么上游排队规则会变化**的机制背景；整机读者不需要先读完这些章节，才能理解 residual capacity、quantity assurance 与 upgrade tax。
 
+## 核心研究主线
+
+如果只想读“AI 基础设施如何重构资源、系统栈与资本”的承重主线，建议按：
+
+**Ch01 → Ch03 → Ch04 → Ch05 → Ch06 → Ch07 → Ch08 → Ch12 → Ch13 → Ch17 → Ch19 → Ch20 → Ch24 → Ch29 → Ch30 → Ch32**
+
+Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，用于讨论 AI 基础设施变化如何进一步作用到劳动力与人才体系；它们不是 S1–S4 情景框架的核心承重输入。
+
 ## Part I — 系统权力与物理稀缺
 
 1. [执行摘要与未来十年核心判断](part-I-ch01-executive-summary.md)
