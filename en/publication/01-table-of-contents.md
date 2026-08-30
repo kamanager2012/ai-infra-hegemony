@@ -82,7 +82,7 @@ This hierarchy is deliberate: **coverage is broad, but the report does not prete
 29. [Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
 30. [Scenario Framework — Discriminating S1 to S4](part-IV-ch30-scenarios.md)
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
-32. [Master View — What Determines AI Infrastructure Power, and What Would Change the View](part-IV-ch32-master-judgment.md)
+32. [Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
 ## Research Appendices
 
