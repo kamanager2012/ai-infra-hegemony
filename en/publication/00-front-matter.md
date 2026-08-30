@@ -4,7 +4,7 @@
 
 **Author:** James (kamanager2012)  
 **Evidence cutoff:** August 28, 2026  
-**Edition revision:** August 30, 2026  
+**Edition revision:** August 31, 2026  
 **Analysis and scenario horizon:** 2026–2036  
 **Canonical research language:** English  
 **Professional Chinese edition:** available
