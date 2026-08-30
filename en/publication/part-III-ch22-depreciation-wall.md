@@ -1,14 +1,14 @@
 # Part III · Chapter 22: The Depreciation Wall and Duration Mismatch
 
-## 1. The depreciation wall is not a fixed-dollar shock that must occur in one specific year
+## 1. The depreciation wall is a duration mismatch, not a calendar event
 
-A more accurate definition is:
+The relevant condition is:
 
-> **When hardware refresh / economic obsolescence runs faster than workload monetization, the cost of the installed asset base begins to reduce capital returns and alter the next round of CapEx.**
+> **When hardware refresh / economic obsolescence runs faster than workload monetization, the installed asset base starts to compress returns and change the next round of capital formation.**
 
 The depreciation wall therefore has to be read together with utilization, revenue, residual value, and next-generation investment.
 
-## 2. Server useful lives are not uniform across the four major clouds
+## 2. Accounting useful lives differ across the major clouds
 
 Current company disclosures show materially different server / network-equipment useful-life policies:
 
@@ -26,7 +26,7 @@ Current company disclosures show materially different server / network-equipment
 
 This is enough to show that one universal "four-year straight-line depreciation" assumption cannot be applied to the entire AI-infrastructure stack.
 
-## 3. Accounting useful life is not economic life
+## 3. Accounting life is not economic life
 
 A server can still be depreciating for accounting purposes even after a new architecture, better memory efficiency, newer software support, or better power efficiency makes it economically less competitive.
 
@@ -38,7 +38,7 @@ The fundamental mismatch is therefore:
 
 > **short-cycle compute vs. long-cycle physical infrastructure**
 
-## 4. When demand weakens, clearing tends to follow an order
+## 4. Clearing follows the asset-duration stack
 
 The first adjustments are usually:
 
@@ -63,7 +63,7 @@ and actual **Utilization**.
 
 A fixed depreciation period only describes the accounting expense schedule. It does not show whether the asset is generating enough cash flow.
 
-## 6. Market-clearing prices can signal economic depreciation faster than financial statements
+## 6. Market-clearing prices can reveal economic depreciation first
 
 Used accelerator / system prices, cloud lease rates, and delivery lead times can show generation obsolescence and oversupply before formal impairment appears.
 
@@ -71,13 +71,13 @@ If old-system residual value falls quickly when a new generation launches, buyer
 
 That is why Chapter 24 treats Market Clearing as an independent S4 signal.
 
-## 7. Algorithmic efficiency can also create economic obsolescence
+## 7. Algorithmic efficiency can accelerate economic obsolescence
 
 If a new architecture can perform the same workload with less HBM, compute, or communication, an older system can lose competitiveness on cost per task even while it remains physically functional.
 
 Software and model innovation can therefore change hardware economic life directly.
 
-## 8. Power assets have the opposite risk profile
+## 8. Power assets carry the opposite duration profile
 
 In S2/S3 high-demand environments, long-duration power / grid assets can become scarce moats.
 
@@ -85,7 +85,7 @@ In S4, the same PPA, substation, or data-center shell can become a long-duration
 
 Asset value therefore depends on demand duration. "Power assets are always safe" is not a valid assumption.
 
-## 9. Anchor Buyers can lower financing risk while concentrating demand risk
+## 9. Anchor Buyers lower financing risk while concentrating demand risk
 
 Long-duration model-company compute contracts improve revenue visibility and can make infrastructure easier to finance.
 
@@ -93,7 +93,7 @@ But if an anchor buyer's revenue, financing, or architecture assumptions change,
 
 Customer concentration and contract duration therefore have to be analyzed together with useful life.
 
-## 9A. Financing structure can change where losses appear, not eliminate economic obsolescence
+## 9A. Financing structure can move losses without eliminating them
 
 AI infrastructure can increasingly be financed through:
 
@@ -115,7 +115,7 @@ None of those structures makes technological obsolescence disappear.
 
 The important question is who ultimately bears residual-value risk and whether contracted cash flow is sufficient to cover it.
 
-## 10. 2036 cannot be derived mechanically from one 2026 depreciation cycle
+## 10. One depreciation cycle cannot determine 2036
 
 Assets enter service on different dates, use different useful lives, and can experience impairment or changes in accounting estimates.
 
@@ -123,7 +123,7 @@ There is no single year in which "all 2026 CapEx finishes depreciating."
 
 The 2036 structure depends on the second and third rounds of buildout, workload growth, system substitution, power, China's parallel stack, and regulation—not a mechanical first-cycle accounting schedule.
 
-## 11. Current view
+## 11. Current read
 
 As of August 2026, the more accurate state is:
 
