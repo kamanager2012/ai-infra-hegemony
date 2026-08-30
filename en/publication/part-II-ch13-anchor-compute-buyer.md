@@ -1,8 +1,8 @@
 # Part II · Chapter 13: Anchor Compute Buyers — How Long-Duration Demand Pulls Infrastructure Forward
 
-## 1. The demand-side shift: model companies can now pull infrastructure forward
+## 1. Frontier model demand can pull infrastructure forward
 
-At smaller scale, a model company is a compute tenant. At frontier scale, long-duration demand can become an input into capital formation.
+At small scale, a model company is a compute tenant. At frontier scale, durable demand can become a financing input for chips, data centers, land, and power.
 
 The relationship therefore changes from:
 
@@ -14,7 +14,7 @@ toward:
 
 The analytical question is not whether a model company "owns the stack." It is whether its demand is large and durable enough to change when upstream capacity gets financed, reserved, and built.
 
-## 2. Mechanism: demand certainty becomes a capital-formation input
+## 2. Demand certainty becomes a capital-formation input
 
 The mechanism can be written as:
 
@@ -22,7 +22,7 @@ The mechanism can be written as:
 
 Model-company demand has therefore become an upstream signal for capital formation, not merely a passive consequence of hyperscaler investment.
 
-## 3. OpenAI / Stargate: status matters more than headline scale
+## 3. OpenAI / Stargate: delivery state matters more than headline scale
 
 OpenAI announced Stargate in January 2025, with a plan to invest **US$500B over four years** in U.S. AI infrastructure.[^1]
 
@@ -80,7 +80,7 @@ This path is more direct than Stargate or Anthropic/AWS: rather than renting cap
 
 The xAI case is subject to the same state boundaries: Colossus going online is not full utilization, and an expansion plan is not installed capacity.
 
-## 5. Anchor Buyers gain coordination power, not supply-chain ownership
+## 5. Anchor Buyers gain coordination power, not ownership
 
 A model company can influence:
 
@@ -103,7 +103,7 @@ Migration can require kernel adaptation, distributed-training changes, performan
 
 That creates infrastructure switching costs and helps explain why exit costs from long-duration capacity commitments can be much higher than those of ordinary SaaS contracts.
 
-## 7. Anchor demand depends on efficiency and workload growth
+## 7. Anchor demand still depends on workload economics
 
 If architecture sharply lowers the compute required for the same capability, a model company can reduce long-duration capacity commitments, improve buyer bargaining power, and increase utilization risk for infrastructure providers.
 
@@ -111,7 +111,7 @@ If lower unit cost stimulates workload volume even faster, long-duration commitm
 
 Anchor Buyer Demand is therefore a dynamic demand function, not a fixed exponential curve.
 
-## 8. Anchor demand propagates through the full infrastructure chain
+## 8. Anchor demand propagates through the infrastructure chain
 
 Large-scale model demand can propagate across the full chain:
 
@@ -137,7 +137,7 @@ If commitments are delayed, reduced, renegotiated, or underutilized, S4 risk ris
 
 ---
 
-## 9. Risk: customer concentration and duration mismatch
+## 9. Risk: concentration and duration mismatch
 
 Anchor Buyers improve financing certainty, but they also concentrate risk.
 
@@ -166,7 +166,7 @@ If the model-company growth thesis fails, a long-duration commitment can move fr
 
 ---
 
-## 10. Monitoring the strength of Anchor Buyers
+## 10. Monitoring Anchor-Buyer strength
 
 ### Strengthening signals
 
