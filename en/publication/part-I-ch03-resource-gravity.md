@@ -76,6 +76,10 @@ This resolves a common analytical error:
 
 If total effective supply expands but AI/server absorption expands faster, Non-AI Residual Capacity can still decline.
 
+![Figure 2 — Non-AI Residual Capacity](figures/fig-02-narc-mechanism.svg)
+
+**Figure 2 note:** Report-side analytical definition. Each application still requires a layer-specific physical denominator; wafers, HBM bits, package starts, and energized MW must not be pooled.
+
 Evaluating whether smartphones, PCs, general servers, automotive, or industrial markets are returning to looser conditions therefore requires more than tracking:
 
 - global wafer capacity;
