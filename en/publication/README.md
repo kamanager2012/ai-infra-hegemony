@@ -1,6 +1,6 @@
 # AI Industry Research Report · English Edition
 
-## The Age of AI Infrastructure Hegemony: 2026–2036
+## The Age of AI Infrastructure Hegemony: 2026–2036 Industry Outlook Research Report
 
 **Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
 **Retrieval and revision cutoff:** August 28, 2026  
