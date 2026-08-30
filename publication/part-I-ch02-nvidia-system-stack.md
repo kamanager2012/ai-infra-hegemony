@@ -1,9 +1,9 @@
 # Part I · 第2章：NVIDIA 系统栈与平台权力
 
 
-## 1. 竞争单位已经从 GPU 上移到系统栈
+## 1. NVIDIA 的 Moat 是 System-Stack Moat
 
-NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，而是把 accelerator、HBM、scale-up fabric、compiler/runtime、libraries、rack architecture 与部署工具组织成一个可重复交付的系统。GB200 NVL72 的官方产品规格已经清楚显示这种销售单元上移：[^1]
+NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，而是把 accelerator、HBM、scale-up fabric、compiler/runtime、libraries、rack architecture 与 deployment tooling 组织成**低平台内迁移摩擦、可重复交付的 production system**。GB200 NVL72 的官方产品规格已经清楚显示这种销售单元上移：[^1]
 
 **Table 2.1 — GB200 NVL72 的 rack-scale 系统结构**
 
@@ -23,7 +23,7 @@ NVIDIA 当前最重要的竞争优势，不是某一代 GPU 的单点性能，�
 
 因此，“更便宜的一颗 ASIC”并不自动等于“更便宜的一套生产级 AI system”。
 
-## 2. NVLink / NVSwitch：把通信从外部网络问题变成系统内部能力
+## 2. NVLink / NVSwitch 把 Scale-Up Communication 内部化
 
 frontier model training 的瓶颈并不只在单卡计算。tensor parallel、pipeline parallel、expert parallel 和 collective communication 会把性能越来越多地交给 bandwidth、topology、synchronization 与 collective implementation。
 
@@ -33,7 +33,7 @@ NVLink/NVSwitch 的战略价值，是把 scale-up communication 设计为平台�
 
 因此，本报告不使用未经公开仪器验证的 ns 级延迟对比，也不把宣传性 benchmark 直接写成第三方实测结论。真正需要观察的是可复核的 production workload：迁移后吞吐、利用率、工程成本与可靠性是否仍有显著差距。
 
-## 3. CUDA / PTX：护城河不是“软件税”，而是跨代软件资产
+## 3. CUDA / PTX 是 Cross-Generation Software Asset
 
 CUDA 的战略价值不能被简化成一个不存在于财报中的固定“软件溢价”。它更接近长期积累的软件资产：
 
@@ -54,7 +54,7 @@ PTX 的作用尤其重要：它提供稳定的 intermediate representation，使
 
 它解释了为什么 NVIDIA 的优势不能只用一次 benchmark 测量，也不能用一个未经披露的“CUDA 毛利率”证明。
 
-## 4. Rack-scale architecture 把 switching cost 延伸到数据中心
+## 4. Rack-Scale Architecture 把 Switching Cost 延伸到 Physical Infrastructure
 
 当采购单位上移到 rack，迁移成本也从 software 延伸到 physical infrastructure。客户围绕特定系统建设的，不只是代码，还包括：
 
@@ -70,7 +70,7 @@ PTX 的作用尤其重要：它提供稳定的 intermediate representation，使
 
 这一点是 NVIDIA 系统权力最容易被“芯片 benchmark”低估的地方。系统越往 rack/pod 和园区层延伸，竞争者越需要在部署时间、可靠性和总拥有成本上证明替代，而不是只在峰值算力上接近。
 
-## 5. 平台利润为什么会转化为下一代资源预订能力
+## 5. Platform Profit 可以转化为 Next-Generation Reservation Power
 
 系统级优势如果能够产生高利润和高自由现金流，就会进一步影响供应链。当前最重要的公司层锚点不需要在多个章节反复铺开，只保留一组：
 
@@ -97,7 +97,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure sy
 
 它不是自动垄断公式。供应商仍会考虑客户多元化、信用、利用率、地缘政治和长期议价平衡。
 
-## 6. NVIDIA 的系统权力也有明确物理边界
+## 6. System Power 也有明确 Physical Boundary
 
 NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
 
@@ -111,7 +111,7 @@ NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
 
 这也是为什么本报告把 **Scarce-layer Value Capture** 与“市场份额垄断”分开。系统平台可以拥有很强的组织和出价能力，但仍然受到外部物理供应弹性约束。
 
-## 7. 护城河的主要反向变量：第二套 Production-Grade System Stack
+## 7. 真正的 Counterattack 是第二套 Production-Grade System Stack
 
 NVIDIA system moat 的主要反向变量，不是“出现另一颗 ASIC”，而是竞争者能否形成另一套真正可用于生产的 system stack。
 
@@ -177,7 +177,7 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 
 所以，本报告只在**默认排序、互操作、部署摩擦与真实 workload 分布**出现持续变化时，才提高这一机制的权重。
 
-## 8. 什么才算 System Moat 真正被侵蚀
+## 8. Moat Erosion 的 Evidence Standard
 
 不能用产品发布数量、单颗芯片 benchmark 或单季 market share 判断 system moat 是否失效。
 
@@ -196,7 +196,7 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 
 ---
 
-## 9. 当前判断
+## 9. Current Read
 
 截至 2026 年 8 月，最准确的描述不是“GPU 竞争已经结束”，也不是“云 ASIC 已经替代 NVIDIA”。
 
@@ -206,7 +206,7 @@ Hugging Face 的战略意义并不只是“一个模型下载网站”。其官�
 
 这也是本报告后续分析 TSMC、HBM、advanced packaging、power 与 capital cycle 的起点：真正的竞争单位已经从裸片上移到系统，而系统仍然受多个外部 scarce layer 共同约束。
 
-## 10. 什么事实会迫使本章改判
+## 10. 什么事实会改变当前判断
 
 如果以下信号持续出现，应下调 NVIDIA system-stack power 判断：
 
