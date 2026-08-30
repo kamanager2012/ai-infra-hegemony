@@ -98,6 +98,10 @@ The FY27 Q2 10-Q states that the latest commitments are primarily associated wit
 
 The number therefore demonstrates the scale of aggregate forward supply commitments; it is not evidence of any specific supplier's future revenue.
 
+![Figure 4 — NVIDIA manufacturing, supply, and capacity commitments in 2026](figures/fig-04-nvidia-forward-commitments.svg)
+
+**Figure 4 note:** First-party filing data. The chart preserves the aggregate company-level boundary; it does not allocate commitments to individual suppliers or convert them into realized supplier revenue or delivered capacity.
+
 This creates a testable cross-generation reinforcing mechanism:
 
 **high system profit → stronger supply commitments and resource reservation → greater delivery certainty → stronger customer retention → next-cycle system revenue.**
