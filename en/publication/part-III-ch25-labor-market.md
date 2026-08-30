@@ -38,7 +38,7 @@ The defensible 2026 judgment remains:
 
 ## 3. Task-to-Job Translation requires multiple gates
 
-This report uses the following transmission chain:
+The labor-market transmission chain is:
 
 > **Model Capability → Task Suitability → Workflow Redesign → Adoption Economics / Responsibility → Job Composition → Employment / Wage Outcome**
 
