@@ -77,7 +77,7 @@ The same revenue growth therefore has different capital-return implications acro
 
 Cloud CapEx goes into servers, custom silicon, networking, buildings, cooling, power, and land.
 
-Hyperscalers therefore have to manage several useful-life clocks at once.
+Hyperscalers therefore must manage several useful-life clocks at once.
 
 At high utilization, this CapEx can become a barrier.
 
@@ -97,7 +97,7 @@ The HBM boom can materially improve memory-vendor economics, but manufacturing p
 
 On August 10, 2026, NVIDIA announced independent compute-financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting the mobilization of **more than US$500B of third-party capital over time** for AI-infrastructure buildout.[^3]
 
-The important point is not that "US$500B has already been funded."
+The important point is not that "US$500B has already been funded," but that:
 
 It is:
 
@@ -119,7 +119,7 @@ These disclosures support a distinct analytical mechanism:
 
 This is **Financing Reflexivity**.
 
-It does not prove that demand is artificial.
+It does not, by itself, prove that demand is artificial.
 
 It means demand quality should distinguish:
 
@@ -146,7 +146,7 @@ Compute differs from many infrastructure assets because generation obsolescence 
 
 If a new accelerator / system lowers cost per task materially, older hardware can lose value quickly even while still functioning.
 
-A financing structure therefore has to answer:
+A financing structure therefore must answer:
 
 - who bears residual-value risk;
 - whether customer contracts cover depreciation;
@@ -158,7 +158,7 @@ A financing structure therefore has to answer:
 
 OpenAI, Anthropic, and other long-duration demand anchors improve revenue visibility and can make project finance easier.
 
-But if project economics depend heavily on one model company, technology risk can turn into customer-concentration / utilization risk.
+But if project economics depend heavily on a single model company, technology risk can turn into customer-concentration / utilization risk.
 
 Anchor Buyers are therefore both a financing condition and a risk concentration point.
 
@@ -198,9 +198,9 @@ AI infrastructure is expanding beyond internal technology-company CapEx into a l
 
 > **technology capital + infrastructure capital + private capital + sovereign capital**
 
-This can increase the available capital pool while distributing risk beyond one corporate balance sheet.
+This can expand the available capital pool while distributing risk beyond a single corporate balance sheet.
 
-The sustainability of the financing depends not on the headline target, but on utilization, cash yield, contract quality, and hardware residual value.
+Financing sustainability depends not on the headline target, but on utilization, cash yield, contract quality, and hardware residual value.
 
 ## 13. What would change the view
 
