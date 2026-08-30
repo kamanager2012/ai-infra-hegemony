@@ -155,7 +155,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 实际判据是：
 
-> **supplier support 本身不是 bearish signal；supplier support 上升，同时 utilization、monetization、independent risk appetite 与 market clearing 走弱，才构成 reflexive stress condition。**
+> **supplier support 本身不是 negative signal；真正的 reflexive stress condition，是 supplier support 上升的同时 utilization、monetization、independent risk appetite 与 market clearing 走弱。**
 
 ## 8. Capital Clearing 按 Asset Duration 传播
 
@@ -183,13 +183,9 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 ## 10. Current View
 
-截至 2026 年 8 月，公开事实更接近：
+截至 2026 年 8 月，公开事实仍更符合**高强度资本扩张处在不断上升的 ROI 压力之下**，而不是已经确认的 AI-infrastructure capital collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3] supply/capacity commitments 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
 
-> **高强度资本扩张 + ROI 压力上升**
-
-而不是已经确认的 AI-infrastructure bubble collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3] supply/capacity commitments 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
-
-这不证明未来一定软着陆。它只说明：**要宣布资本清算已经成为现实主线，仍需要 cross-signal confirmation + cross-actor causal breadth；utilization、market clearing、forward commitments 与 financing / real-economy evidence 必须形成独立交叉确认，Accounting 出现时用于强化严重度，但不是确认 S4 的必要条件。**
+这不证明未来一定软着陆。它只说明：在缺少 real-economy、market-clearing、commitment 与 financing evidence 的 **cross-signal confirmation 和 cross-actor causal breadth** 时，不能把 capital clearing 当作 dominant regime。Accounting loss 出现时会强化 severity assessment，但不是确认 S4 的必要条件。
 
 ## References
 
