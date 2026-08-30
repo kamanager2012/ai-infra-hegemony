@@ -12,7 +12,7 @@ Microsoft、Amazon、Alphabet、Meta 并不存在一个完全可比的“AI CapE
 2. IT equipment vs. data-center / power infrastructure；
 3. actual investment vs. guidance / expectation。
 
-本章的分析顺序因此是：**先确认 denominator identity，再判断 duration mismatch，最后用 utilization / monetization 检验资本周期是否成立。**
+本章分析顺序是：**先确认 denominator identity，再判断 duration mismatch，最后用 utilization / monetization 检验资本周期是否成立。**
 
 ---
 
@@ -112,7 +112,7 @@ NVIDIA、memory supplier、foundry 与 hyperscaler 都在“增加资本投入�
 - operations；
 - long-duration contracts。
 
-因此，比较“谁投得更多”意义有限。更有价值的问题是：
+更相关的比较不是“谁投得更多”，而是：
 
 > **每一美元资本能否提高 productive utilization、降低单位 workload 成本，并改善下一代资源获取能力。**
 
@@ -133,7 +133,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 - firm power；
 - long-duration generation contract。
 
-因此，AI infrastructure 同时运行两套时钟：
+semiconductor clock 与 power-permitting clock 由此耦合：
 
 1. **Semiconductor Clock**：芯片、HBM、packaging 快速迭代；
 2. **Infrastructure Clock**：电网、建筑、电源项目建设周期更长。
@@ -189,7 +189,7 @@ rack density 提升后，新增 compute capacity 还依赖：
 
 过去几十年的 IT 投资已经把大量企业活动转化为 software、database、API、digital document、identity system 与 networked workflow。AI 可以在这些既有数字流程上增加理解、生成、预测、决策与执行能力，而不需要重新完成一次完整的“从物理流程到数字化”的基础建设。
 
-因此，AI infrastructure 的 duration 不能只用“下一代模型需要多少 GPU”来判断，还要观察：
+AI infrastructure 的 duration 不能只用“下一代模型需要多少 GPU”来判断，还要观察：
 
 - enterprise digital-workflow base；
 - AI penetration rate；
@@ -261,7 +261,7 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 这意味着即使 AI demand 继续增长，只要增长速度低于资本基数增长速度，单位资本回报仍可能下降。
 
-所以未来最值得追踪的不是“AI 需求是否增长”，而是：
+更有价值的长期问题不只是“AI 需求是否增长”，而是：
 
 > **AI demand growth 是否足以覆盖 AI capital-base growth。**
 
