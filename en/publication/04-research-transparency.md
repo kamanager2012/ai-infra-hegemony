@@ -140,115 +140,34 @@ Facts that appear after the research cutoff are new research inputs. They may st
 
 The **evidence-event/source-availability cutoff** and the **post-freeze verification date** must therefore be recorded separately.
 
-### 8A. August 29, 2026 material-correction pass
+### 8A. Material revisions after the evidence cutoff
 
-The formal text was **explicitly reopened once on August 29, 2026** to correct already identified material research issues, not for general expansion. The pass covered:
+The evidence cutoff and the revision date are separate controls.
 
-- end-system / non-AI reader framing and residual-capacity exposure;
-- China frontier parallel-stack Production-Grade Gate language;
-- the “not yet empirically calibrated” identity of the verified-workflow criterion;
-- public-proxy S1–S4 monitoring and the end-system dashboard;
-- pre-cutoff source supplementation and evidence boundaries.
+After August 28, 2026, the report was edited only when one of the following conditions applied:
 
-The correction pass **did not add a fifth scenario, redefine S1–S4, promote S2 into S3, or backdate facts that first occurred after August 28 into the current evidence snapshot**.
+- a pre-cutoff fact, denominator, evidence identity, translation, or calculation required correction;
+- a definition-level inconsistency affected scenario adjudication or falsification;
+- bilingual analytical parity required repair;
+- reader-facing structure required editorial reorganization without changing the evidence set.
 
-The formal text was refrozen after this material-correction pass.
+These revisions did **not** authorize post-cutoff events to be backdated into the August 28 evidence snapshot.
 
-### 8B. August 29, 2026 Developer Distribution material-event supplement
+Several material corrections made during August 29–30 remain analytically relevant and are therefore disclosed here in compressed form:
 
-On August 29, 2026, the formal text was **reopened in a narrowly scoped second pass** to incorporate a material event that occurred inside the existing evidence cutoff: the August 27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face acquisition.
+1. **End-system / residual-capacity framing was strengthened.** Consumer electronics, game consoles, industrial systems, and other non-AI end markets are analyzed through shared-resource exposure, Quantity Assurance, and Non-AI Residual Capacity rather than a blanket “AI displaces everything” claim.
+2. **China's frontier assessment was separated into Production-Grade Parallel Stack and Autonomous Frontier Closure.** A system that can run production workloads is not automatically an autonomous multi-generation frontier stack.
+3. **Capital-clearing adjudication was corrected.** Accounting impairment is a high-value confirmation / severity channel, not a mandatory gate. Direct falsification of a mechanism cannot be ignored merely because system-level cross-signal breadth has not yet accumulated.
+4. **Developer-distribution risk was added as a conditional mechanism.** The August 27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face agreement remains C-grade transaction evidence and is not treated as a completed acquisition or realized software foreclosure.
+5. **English-first canonical workflow and bilingual parity were formalized.** English is the canonical analytical layer; Chinese is a professional parallel edition. Facts, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
 
-The pass was limited to:
+The public rule is therefore simple:
 
-- Ch02 NVIDIA system-stack / platform-power boundaries;
-- Ch18 antitrust / vertical integration;
-- the competitive-evidence matrix;
-- the core evidence ledger / source index;
-- the Phase II Developer Distribution Chokepoint validation layer.
+> **Correct the research record when the evidence or definition is wrong; do not turn editorial history into a second research narrative.**
 
-Governance boundaries:
-
-- transaction status remains **reported transaction**, not completed acquisition;
-- the media transaction report remains C-grade while Hugging Face platform-function facts are supported separately by A-grade first-party documentation;
-- Hugging Face ownership is not treated as ownership of open-model IP;
-- potential vertical foreclosure is not treated as realized self-preferencing or completed software monopoly;
-- the S1–S4 definitions and current S2 baseline judgment are unchanged.
-
-After this targeted supplement, the formal text was refrozen again.
-
-### 8C. August 30, 2026 definition-level clearing and optionality correction
-
-On August 30, 2026, the formal text was reopened only to correct **definition-level inconsistencies** identified by Phase II validation.
-
-First, the historical clearing replay showed that Accounting is a high-value confirmation / severity channel but **not a mandatory gate** for systemic capital clearing. Financing-led or real-economy clearing can be confirmed before qualifying impairment / write-down evidence appears, provided cross-signal confirmation and cross-actor / cross-layer causal breadth are strong enough.
-
-**Mechanism-break override:** breadth requirements govern **system-level scenario adjudication**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
-
-Second, the decision-invariant falsification pass showed that continuously maintaining a production-like second path is **not a universal hard invariant**. The durable rule is to price executable optionality explicitly and maintain a second path only when continuity / bargaining / recovery value exceeds carrying cost.
-
-The correction was limited to the affected definitions / strategy language in:
-- Ch01 — Executive Summary;
-- Ch19 — CapEx Supercycle;
-- Ch22 — Depreciation Wall;
-- Ch24 — Capital Clearing;
-- Ch29 — Monitoring Framework;
-- Ch30 — S1–S4 Scenarios;
-- Ch31 — Strategic Optionality;
-- Ch32 — Master Judgment;
-- corresponding publication-status metadata.
-
-The pass did **not** change:
-- the August 28, 2026 evidence cutoff;
-- the current S2 baseline judgment;
-- the four-scenario taxonomy;
-- any pre-cutoff factual observation;
-- the requirement for broad, persistent, causally independent confirmation before S4 is upgraded.
-
-The formal text was refrozen after this definition-level correction.
-
-### 8D. August 30, 2026 bilingual Master-Judgment parity correction
-
-A subsequent bilingual parity audit found that the Chinese Chapter 32 opening summarized the master judgment in **eight points**, while the English Chapter 32 contained only seven because the end-system / residual-capacity judgment had been omitted from the English opening sequence.
-
-The English Chapter 32 was corrected to restore that missing third point and renumber the remaining judgments to eight. This was a **translation / analytical-parity repair only**:
-- no new evidence was added;
-- no Chinese source-of-truth claim was changed;
-- the August 28 evidence cutoff remained unchanged;
-- the S2 baseline judgment and S1–S4 taxonomy remained unchanged.
-
-The formal text was refrozen again after this bilingual-parity repair.
-
-### 8E. August 30, 2026 English-first editorial restructuring pass
-
-The formal text was then **explicitly reopened once for language and analytical architecture**, not for a new evidence cycle.
-
-The research workflow was changed to:
-
-> **Evidence → English canonical analytical text → technical review → Chinese professional parallel edition**
-
-The editorial pass was limited to:
-
-- making English the canonical research language and Chinese the professional parallel edition;
-- recasting Ch01, Ch03, Ch17, Ch21, and Ch32 around thesis / baseline / denominator / mechanism / boundary / falsification logic;
-- aligning the Chinese counterparts to the same analytical structure without sentence-level translation;
-- updating chapter titles, tables of contents, READMEs, website chapter labels, and static full-text entry points;
-- preserving all accepted facts, evidence grades, denominators, citations, the S1–S4 taxonomy, and the current S2 baseline.
-
-The pass did **not**:
-- introduce facts that first occurred after the August 28 evidence cutoff;
-- upgrade any evidence grade;
-- alter validated numerical definitions or denominators;
-- promote S2 into S3;
-- reduce technical density for general-reader accessibility.
-
-The editorial rule is:
-
-> **Simplify navigation, not analysis.**
-
-The formal text was refrozen again after this English-first editorial restructuring.
+Detailed file-by-file chronology remains available through repository history and research-side validation materials rather than being repeated in the reader-facing report.
 
 ---
-
 
 ## 9. External-use boundary
 
