@@ -107,7 +107,7 @@ Merger control can prevent another critical intermediate layer from moving under
 
 These variables can all affect system-stack moats.
 
-## 7.5 Reported Hugging Face transaction: merger control shifts toward developer-distribution foreclosure
+## 7.5 Reported Hugging Face transaction: merger control may extend to developer-distribution foreclosure risk
 
 On August 27, 2026, Reuters, citing The Information, reported that NVIDIA had agreed to acquire Hugging Face for approximately **US$12.9B**.[^5] As of August 28, 2026, this report had not obtained a formal closing or merger-approval announcement from the parties, so it does not treat the transaction as completed.
 
@@ -193,7 +193,7 @@ The events that need continuous monitoring are:
 - final decisions;
 - whether remedies actually reduce production migration cost.
 
-Only these formal events are strong enough to change system-stack scenario weighting.
+Scenario weighting should change only when the legal process or remedy is sufficiently concrete to alter interfaces, access conditions, or production migration economics.
 
 ## 12. What would change the view
 
@@ -205,7 +205,7 @@ The importance of regulation to system-stack competition should be downgraded if
 - physical scarcity remains the dominant buyer constraint;
 - market-structure change is driven mainly by technical substitution rather than regulation.
 
-Conversely, a headline fine is not what should increase regulatory weighting. The higher-value evidence is a binding remedy that changes interfaces, access conditions, or cross-stack migration economics.
+Conversely, a headline fine should not increase regulatory weighting by itself. The higher-value evidence is a binding remedy that changes interfaces, access conditions, or cross-stack migration economics.
 
 ## References
 
