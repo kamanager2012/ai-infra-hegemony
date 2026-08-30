@@ -4,7 +4,7 @@
 
 APIs, subscriptions, and agent services sit on top of a real variable-cost stack: accelerator time, HBM bandwidth, KV cache, storage / retrieval, networking, third-party tools, human review, cloud margin, and serving utilization.
 
-AI software therefore cannot be analyzed with a near-zero-marginal-cost SaaS assumption by default.
+AI software should therefore not be modeled by default as near-zero-marginal-cost SaaS.
 
 The relevant unit is:
 
@@ -53,7 +53,7 @@ This strengthens the chapter's core mechanism: **falling model prices and rising
 
 ## 4. Open source compresses model-layer rent before infrastructure rent
 
-Open-source models increase capability diffusion, private deployment, and model-switching options while pressuring API premiums.
+Open-source models broaden capability diffusion, private deployment, and model-switching options while putting pressure on API premiums.
 
 Model-layer switching generally happens faster than replacement of accelerators, HBM, networking, packaging, or data-center infrastructure.
 
@@ -153,7 +153,7 @@ As of 2026, a more defensible description is:
 - model-layer price competition and capability diffusion are real;
 - unit cost continues to fall;
 - open source raises buyer bargaining power;
-- infrastructure demand has not therefore entered a confirmed decline cycle;
+- those changes have not translated into a confirmed decline in infrastructure demand;
 - large model companies are using long-duration commitments to shape infrastructure buildout.
 
 Algorithmic efficiency can become either a **demand interrupter** or a **usage multiplier** for infrastructure. Which effect dominates can only be determined through workload volume, utilization, and unit economics.
