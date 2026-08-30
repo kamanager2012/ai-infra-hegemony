@@ -156,9 +156,7 @@ TrendForce 2026-04 指出，AI demand 已造成 **3 nm–2 nm wafers 与 2.5D/3D
 
 2026-06 的 foundry research 又指出 TSMC **3 nm capacity remains severely constrained**；[^9] 同月 TrendForce 进一步指出，foundries 正把更多 wafer capacity 转向 AI-related products。[^10]
 
-本报告把这一变化定义为：
-
-> **Cross-Market Resource Reordering：当 AI/server workload 提供更高预期回报、更强订单确定性和更长期资源承诺时，多个原本服务不同终端市场的增量资源会被重新排序。**
+这属于 **cross-market resource reordering**：当 AI/server workload 提供更高 expected return 与更强 demand certainty 时，原本服务多个终端市场的 incremental resources 可能被重新排序到 AI/server application。
 
 这不是“过去各类客户平均分配产能、现在某一客户获得全部产能”。
 
@@ -201,7 +199,7 @@ IDC 2026-06 的 PC outlook 进一步预计，2026 global PC shipments 同比 **-
 
 ## 6A. Vendor Operating-Model Adaptation：厂家不能只“等用户延迟换机”
 
-消费者可以推迟一年购买，终端厂商却仍承担年度产品规划、渠道库存、模具与研发摊销、最低采购规模、零售任务和市场份额目标。因此，同一次 shortage 在用户端表现为“晚一点换”，在企业端可能表现为**原有经营方程失效**。
+消费者可以推迟一年购买，终端厂商却仍承担年度产品规划、渠道库存、模具与研发摊销、最低采购规模、零售任务和市场份额目标。因此，同一次 shortage 在用户端表现为“晚一点换”，在企业端可能迫使**原有 operating model 发生断裂**。
 
 过去十余年的主流消费电子经营模式隐含几个相互依赖的条件：
 
@@ -524,7 +522,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 > **AI 正在提高传统终端获得部分上游资源的机会成本，并把压力转化为三层不同的产品时钟：顶部涨价缩量但继续升级，腰部减配延寿，底部首先承担退出风险。**
 
-在企业层面，这种分层进一步迫使厂商重写经营方程：
+在企业层面，这一机制可以概括为：
 
 > **Residual Capacity Compression → Product-Mix Polarization → Vendor Operating-Model Adaptation**
 
@@ -534,7 +532,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 
 这也是本章的最终边界：
 
-> **截至 2026 年，能够确认的是消费计算的廉价量产升级能力受到侵蚀；尚不能确认的是 smartphone、PC 与 gaming 作为完整需求与内容产业已经进入结构性终局。**
+> **截至 2026 年，能够确认的是消费计算的廉价量产升级能力受到侵蚀；尚不能确认 smartphone、PC 与 gaming 生态已经进入结构性终局。**
 
 ## References
 
