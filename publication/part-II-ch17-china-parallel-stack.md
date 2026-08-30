@@ -79,7 +79,7 @@ Xiaomi XRing 的情况更直接：本章已经引用的 Reuters 来源明确指�
 
 PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专业软件、driver/tooling、desktop ecosystem 与 developer compatibility。硬件存在替代并不等于使用体验、性能和软件栈已经等价。
 
-“国产 PC CPU/GPU 是一片空白”同样过度。
+把国产 PC CPU/GPU segment 描述成“一片空白”同样不准确。
 
 龙芯当前公开产品线包含面向 desktop/general-purpose 的 3A6000、3B6000 等 CPU；[^5] Moore Threads 公开销售 MTT S80 gaming GPU。[^6]
 
@@ -91,7 +91,7 @@ PC、workstation 与 general computing 需要同时解决 CPU/GPU、DDR5、专�
 - professional software / game compatibility 已达到同等级覆盖；
 - performance/watt、driver maturity、developer ecosystem 与 supply scale 已全面等价。
 
-所以这一层最准确的描述是：**不是“空白”，而是存在产品与自主生态，但主流规模、兼容性和系统经济性仍是闭环门槛。**
+更准确的描述是：**真实产品与国内生态已经存在，但主流规模、兼容性和系统经济性仍然是 closure barriers。**
 
 ## 4. Frontier AI 是 System-Closure Problem
 
