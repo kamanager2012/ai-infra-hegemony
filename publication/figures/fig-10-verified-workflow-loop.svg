@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+<title id="title">图 10 — Verified workflow output 构成 demand-side closure</title><desc id="desc">产业闭环从 Physical Infrastructure 到 System Delivery、Workflow Economics、Verified Output、Adoption / Cash Flow、Utilization 与 Capital Reinvestment。</desc>
+<rect width="1600" height="720" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#111}.t{font-size:40px;font-weight:700}.s{font-size:22px;fill:#444}.box{fill:#f7f7f7;stroke:#222;stroke-width:2}.b{font-size:22px;font-weight:700}.n{font-size:18px;fill:#555}.a{stroke:#333;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<text x="70" y="68" class="t">只有 Compute 转化为可验证经济产出，Infrastructure Demand 才真正闭环</text>
+<text x="70" y="108" class="s">长期验证标准不是 GPU shipment 或 token volume 本身，而是 workflow 能否持续验证 utilization、revenue 与 capital recovery。</text>
+<g transform="translate(70 225)">
+<rect class="box" x="0" y="0" width="190" height="115" rx="15"/><text class="b" x="95" y="48" text-anchor="middle">Physical</text><text class="b" x="95" y="78" text-anchor="middle">infrastructure</text>
+<rect class="box" x="220" y="0" width="190" height="115" rx="15"/><text class="b" x="315" y="48" text-anchor="middle">System</text><text class="b" x="315" y="78" text-anchor="middle">delivery</text>
+<rect class="box" x="440" y="0" width="190" height="115" rx="15"/><text class="b" x="535" y="48" text-anchor="middle">Workflow</text><text class="b" x="535" y="78" text-anchor="middle">economics</text>
+<rect class="box" x="660" y="0" width="190" height="115" rx="15"/><text class="b" x="755" y="48" text-anchor="middle">Verified</text><text class="b" x="755" y="78" text-anchor="middle">output</text>
+<rect class="box" x="880" y="0" width="190" height="115" rx="15"/><text class="b" x="975" y="48" text-anchor="middle">Adoption /</text><text class="b" x="975" y="78" text-anchor="middle">cash flow</text>
+<rect class="box" x="1100" y="0" width="190" height="115" rx="15"/><text class="b" x="1195" y="63" text-anchor="middle">Utilization</text>
+<rect class="box" x="1320" y="0" width="190" height="115" rx="15"/><text class="b" x="1415" y="48" text-anchor="middle">Capital</text><text class="b" x="1415" y="78" text-anchor="middle">reinvestment</text>
+<line class="a" x1="190" y1="58" x2="215" y2="58"/><line class="a" x1="410" y1="58" x2="435" y2="58"/><line class="a" x1="630" y1="58" x2="655" y2="58"/><line class="a" x1="850" y1="58" x2="875" y2="58"/><line class="a" x1="1070" y1="58" x2="1095" y2="58"/><line class="a" x1="1290" y1="58" x2="1315" y2="58"/>
+</g>
+<path d="M1485 365 C1485 540 200 570 165 355" fill="none" class="a"/>
+<text x="800" y="500" class="s" text-anchor="middle">核心经济问题：cost per verified workflow outcome + sustaining capital requirement</text>
+<line x1="70" y1="570" x2="1530" y2="570" stroke="#bbb"/>
+<text x="70" y="612" class="n">Source：本报告 framework；第 14、19、24、32 章。</text>
+<text x="70" y="644" class="n">Boundary：“verified workflow output”是 long-run economic criterion，不是截至 2026-08-28 已完成 empirical calibration 的 fact metric。</text>
+</svg>
