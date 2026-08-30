@@ -1,8 +1,10 @@
-# Part I · Chapter 3: AI Resource Gravity and Non-AI Residual Capacity
+# Part I · Chapter 3: AI Resource Reallocation and Non-AI Residual Capacity
 
-## 1. Core judgment: AI changes marginal resource priority before it “takes all capacity”
+## 1. The claim: priority can change before absolute shortage appears
 
-AI infrastructure affects the supply chain unevenly. The resources most exposed to reprioritization are those shared with frontier AI and relatively inelastic in the short run:
+AI does not need to “take all capacity” to change semiconductor and infrastructure economics. Reallocation starts at the margin.
+
+The most exposed resources are those that are both **shared with AI/HPC demand and slow to expand**:
 
 - advanced logic;
 - HBM / selected DRAM;
@@ -11,15 +13,15 @@ AI infrastructure affects the supply chain unevenly. The resources most exposed 
 - selected power-management components;
 - data-center power.
 
-This report defines the pull that high-value AI/server demand exerts on capital and effective supply as **AI Resource Gravity**.
+The report uses **AI Resource Gravity** as shorthand for this allocation mechanism, not as a separate empirical law:
 
-It does not mean “AI takes all semiconductors.” It means:
+> **When AI/server workloads offer higher risk-adjusted returns, longer order duration, stronger payment certainty, and better expected utilization, constrained supply and the next unit of capital tend to move toward that demand.**
 
-> **When the risk-adjusted return, order duration, payment certainty, and expected utilization of AI/server workloads exceed those of other demand pools, incremental capital and constrained supply tend to move toward that demand.**
+The analytical object is therefore the **opportunity cost of the next qualified unit of scarce capacity**, not a claim that AI physically consumes every semiconductor category.
 
 ---
 
-## 2. The economics of Resource Gravity
+## 2. Mechanism: the opportunity cost of the next scarce unit
 
 Resource reallocation can be described as:
 
@@ -36,7 +38,7 @@ AI Resource Gravity is therefore not simply “a higher price.” It is a repric
 
 ---
 
-## 3. Price is not the only clearing mechanism: Quantity Assurance matters too
+## 3. Markets clear through allocation as well as price
 
 During severe shortages, markets do not clear through spot price alone.
 
@@ -57,7 +59,7 @@ For traditional end markets, the second variable can matter more than short-term
 
 ---
 
-## 4. Non-AI Residual Capacity: traditional end markets face residual supply, not global gross supply
+## 4. Residual capacity is the downstream denominator
 
 Effective supply available to traditional markets can be represented as:
 
@@ -85,7 +87,7 @@ The relevant question is **how much effective residual supply those end markets 
 
 ---
 
-## 5. Two-Speed Semiconductor Economy: AI also changes where the next capital dollar goes
+## 5. Reallocation changes capital formation, not just current supply
 
 The long-run effect of AI Resource Gravity extends beyond current allocation into the next round of capital formation.
 
@@ -108,7 +110,7 @@ It is not a claim that consumer electronics are permanently sacrificed. It means
 
 ---
 
-## 6. Memory is currently the clearest observed path
+## 6. Memory is the cleanest observed transmission path
 
 Micron disclosed that, under **same technology node / same number of bits** conditions, HBM3E requires approximately **3× the wafer supply of DDR5**.[^3]
 
@@ -131,7 +133,7 @@ The boundaries remain important:
 
 ---
 
-## 7. Advanced logic and packaging share demand pressure but are not one physical pool
+## 7. Logic and packaging must remain separate denominators
 
 TSMC's 2025 smartphone platform represented **29%** of annual net revenue, while HPC represented **58%**.[^5]
 
@@ -147,11 +149,11 @@ AI Resource Gravity therefore cannot be summarized by one synthetic “AI share 
 
 ---
 
-## 8. Why pressure differs across traditional industries
+## 8. Transmission depends on overlap, supply elasticity, and buyer power
 
 Transmission into traditional markets depends on three conditions.
 
-### Shared-resource exposure
+### Shared-resource overlap
 
 The more an end market shares physical inputs with AI, the higher its exposure.
 
@@ -159,7 +161,7 @@ The more an end market shares physical inputs with AI, the higher its exposure.
 
 The harder the resource is to expand quickly, the stronger the short-run pressure.
 
-### Buyer power
+### Buyer bargaining power
 
 Buyers with LTAs, purchasing scale, inventory, strong balance sheets, and end-market pricing power can absorb or delay the shock more effectively.
 
@@ -188,7 +190,7 @@ Detailed transmission into pricing, configuration, replacement cycles, and obser
 
 ---
 
-## 9. Resource Gravity is not an infinite one-way process
+## 9. Reallocation is conditional, not a one-way law
 
 Resource reallocation contains a self-correcting mechanism.
 
@@ -204,7 +206,7 @@ It is therefore not a permanent law that “AI always drains every resource.” 
 
 ---
 
-## 10. How to tell whether Resource Gravity is strengthening or weakening
+## 10. Observable signs of strengthening or weakening
 
 Signals of **strengthening** include:
 
@@ -226,7 +228,7 @@ Signals of **weakening** include:
 
 ---
 
-## 11. Current judgment
+## 11. Current read
 
 As of August 2026, public evidence is more consistent with:
 
