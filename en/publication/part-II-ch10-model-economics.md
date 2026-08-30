@@ -114,7 +114,37 @@ If unit resource intensity falls 50% while workload volume grows 4×, total dema
 
 Long-run analysis therefore has to observe real workload, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
 
-## 9. Current judgment
+## 9. The long-run competitive variables at the model layer
+
+The most important economic variables for model companies include:
+
+### Capability per Unit Resource
+
+How much useful capability can be produced from a given amount of compute and memory.
+
+### Serving Utilization
+
+Whether reserved infrastructure can sustain high utilization.
+
+### Model Portability
+
+Whether customers can switch between models at low cost.
+
+### Distribution
+
+Who can acquire and retain workloads at low marginal distribution cost.
+
+### Monetization
+
+Whether model capability converts into durable revenue or measurable productivity value.
+
+### Infrastructure Commitments
+
+Whether long-duration compute commitments remain aligned with real workload growth.
+
+The final variable links directly to the Anchor Compute Buyer mechanism developed in Chapter 13.
+
+## 10. Current judgment
 
 As of 2026, a more defensible description is:
 
