@@ -92,7 +92,7 @@ Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 
 这意味着同一轮上游压力会产生不同结果：
 
-### Entry / Mid-range
+**Entry / Mid-range**
 
 对 memory/BOM inflation 更敏感，品牌更可能通过：
 
@@ -102,7 +102,7 @@ Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 - 延长换机周期；
 - 转向更低成本 SoC / component combination。
 
-### Premium / GenAI segment
+**Premium / GenAI segment**
 
 更高 ASP 与更强产品差异化可以吸收部分 BOM pressure，因此对资源涨价的耐受度更高。
 
@@ -225,7 +225,7 @@ Sony 已经提供了一条很强的一手案例：FY26 PS5 hardware planning 明
 
 > **一家原本建立在年度硬件升级与规模扩张上的公司，如何在关键上游资源已经按照另一套回报率重新定价之后，继续覆盖自己的固定成本、渠道体系与产品更新机制。**
 
-#### 6A.1 规模优势仍然存在，但不再自动等于边际供给优先级
+### 6A.1 规模仍然重要，但不再保证边际供给优先级
 
 本报告不采用“消费电子规模下降后一定拿到更少产能”这种闭环叙事。purchase scale、LTA、prepayment、multi-sourcing 与 supplier relationship 仍然可以显著提高 Quantity Assurance。
 
