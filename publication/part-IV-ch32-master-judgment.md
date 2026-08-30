@@ -217,6 +217,18 @@ AI infrastructure 的资本风险来自不同久期资产之间的错配：
 
 如果只观察 GPU、HBM、CapEx 或数据中心容量，本报告仍然是不完整的。基础设施只是供给侧；十年产业周期能否成立，最终取决于这些物理资产能否穿过软件、企业流程与实体世界，转化为可验证的经济产出。
 
+### AI Inheritance Effect：IT 时代的数字资产构成 AI 的 Installed Base
+
+AI 的长期扩散不需要重新从零建设整个数字世界。过去几十年的 information technology 已经留下 software、database、cloud、API、digital documents、source code、identity/access 与可追踪 workflow。对已经高度信息化的组织，AI 更像在既有数字底座上增加 intelligence / automation layer。
+
+因此，需求侧还有一条重要扩散链：
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume**
+
+这使 AI 基础设施的长期需求驱动从单纯“模型越来越大”扩展到“越来越多既有数字流程成为 AI workload”。
+
+边界同样重要：Digital → AI 的边际部署摩擦可以显著低于 Industrial → Digital，但并不等于零。data quality、integration、security、governance、responsibility、reliability、human review 与 unit economics 仍然决定 adoption 能否从 feature use 进入 production automation。
+
 ### Agent-Native Software：单位经济从“席位”上移到“工作流结果”
 
 传统 SaaS 更接近按 account / seat 扩张，而 Agent-Native Software 会持续消耗 inference、retrieval、tool/API、retry、observability 与 human review。
@@ -372,6 +384,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 - hyperscaler 与 model company 的产业角色；
 - power 与 data-center infrastructure 的战略价值；
 - traditional device markets 可获得的 residual capacity；
+- 全球既有 digital installed base 被逐步转化为 AI-enabled workflow 的速度与深度；
 - Agent-Native Software 从 seat economics 向 verified-workflow economics 的迁移；
 - Physical AI 从技术 demo 向 utilization、reliability 与 capital payback 的跨越；
 - 劳动市场从 task automation 到 workflow redesign 的结构性重组；
