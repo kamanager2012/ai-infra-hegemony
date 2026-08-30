@@ -10,6 +10,8 @@
 - [Table 3.1 — Non-AI / Physical-AI 整机的上游暴露类型](part-I-ch03-resource-gravity.md)
 - [Table 4.1 — TSMC 2025 产能、技术与平台收入结构](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
+- [Table 8.1 — NVL72 Rack-to-MW D 级强度换算](part-I-ch08-quantitative-framework.md)
+- [Table 8.2 — 2026 Public-Data Quantification Readiness by Layer](part-I-ch08-quantitative-framework.md)
 
 ## Part II
 
@@ -26,6 +28,7 @@
 ## Part IV
 
 - [Table 27.1 — 本报告证据等级体系](part-IV-ch27-research-method.md)
+- [Table 27.2 — 核心概念层级](part-IV-ch27-research-method.md)
 - [Table 29.1 — NVIDIA seller economics 与 forward-reservation 基线](part-IV-ch29-monitoring-framework.md)
 - [Table 29.2 — Power / LPS delivery state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — End-system residual-pressure monitoring panel](part-IV-ch29-monitoring-framework.md)
