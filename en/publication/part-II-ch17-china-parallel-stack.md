@@ -12,7 +12,7 @@ Three distinct questions have to remain separate:
 
 Evidence from one threshold does not close another. A strong smartphone supply chain is not proof of frontier-AI closure; frontier-AI constraints are not proof that China lacks semiconductor substitution capacity.
 
-For frontier AI, this report uses two tests:
+For frontier AI, two separate tests are required:
 
 > **Production-Grade Parallel Stack:** can the stack run real workloads with acceptable performance, scale, portability, supply continuity, reliability, utilization, and economics?
 
@@ -55,7 +55,7 @@ One additional supply-chain discipline is required here:
 
 UNISOC is a fabless IC-design company. Its public product materials confirm that multiple current 5G SoCs use **6nm EUV**; the official M6870 page goes further and explicitly identifies **TSMC 6nm EUV**.[^19] UNISOC / Spreadtrum also has a long first-party manufacturing history with TSMC: in 2011, TSMC disclosed that a Spreadtrum 40nm baseband processor had entered initial production at TSMC Fab 12.[^20]
 
-This report does **not** extend those observations into the stronger claim that "all UNISOC products are manufactured by TSMC." The T9100 official page, for example, confirms a **6nm process** but does not itself identify the foundry.[^21] The safe conclusion is therefore:
+Those observations do **not** support the stronger claim that "all UNISOC products are manufactured by TSMC." The T9100 official page, for example, confirms a **6nm process** but does not itself identify the foundry.[^21] The safe conclusion is therefore:
 
 > **UNISOC's 14% smartphone AP-SoC shipment share proves real commercial design and shipment scale, but it does not prove domestic foundry closure. Public product and historical supply-chain evidence show TSMC is an important manufacturing dependency, so foundry continuity must be evaluated as a separate gate.**
 
@@ -114,7 +114,7 @@ A breakthrough in one layer does not automatically create an equivalent system.
 
 An accelerator without HBM, hardware with very high migration cost, or a cluster with weak utilization/interconnect scaling can all produce materially weaker system economics.
 
-This report therefore does not treat "one domestic chip can run a model" as sufficient evidence of frontier substitution.
+A domestic chip being able to run a model is therefore not sufficient evidence of frontier substitution.
 
 ## 5. Ascend / CANN should be judged by system completeness, not peak-card metrics
 
@@ -138,7 +138,7 @@ Because some specific Ascend/CANN performance and migration-efficiency figures c
 
 CXMT's **May 27, 2026 STAR Market registration prospectus** discloses DDR and LPDDR products. The company subsequently began trading on Shanghai's STAR Market on **July 27, 2026**.[^7][^18]
 
-Full-text searches of the relevant public offering / registration materials for `HBM` and the Chinese term for high-bandwidth memory do not provide evidence sufficient to confirm a volume HBM product line. This report therefore keeps one narrow conclusion:
+Full-text searches of the relevant public offering / registration materials for `HBM` and the Chinese term for high-bandwidth memory do not provide evidence sufficient to confirm a volume HBM product line. The evidence therefore supports only a narrow conclusion:
 
 > **Current public offering and product materials are insufficient to confirm a volume-deliverable HBM product line.**
 
@@ -170,7 +170,7 @@ But HBM-class AI systems can reintroduce advanced-logic/base-die, advanced-packa
 
 CXMT's prospectus, citing Omdia, provides an auditable metric: based on **2025 Q2 DRAM revenue**, CXMT held approximately **3.97% global share**, ranking fourth globally and first in China.[^11]
 
-The claim that "CXMT already has 8% of global DRAM" therefore does not enter this report's fact layer.
+The claim that "CXMT already has 8% of global DRAM" therefore does not enter the fact layer.
 
 YMTC's latest institutional metric uses a different denominator. Counterpoint Research's Q2 2026 Memory & Storage Tracker places YMTC at roughly **14% of NAND shipments**, ranking third globally.[^12] The same research firm's Q1 2026 **13%** figure is a NAND **revenue share**.[^13]
 
@@ -238,7 +238,7 @@ A constrained stack can partially compensate through:
 - workload-specific scheduling and communication optimization;
 - narrower specialization around captive workloads.
 
-This is a real competitive axis and prevents the report from treating process-node position as a deterministic system verdict.
+This is a real competitive axis and prevents process-node position from being treated as a deterministic system verdict.
 
 But compensation is not free. Using more devices, larger topologies, or more elaborate software can increase pressure on other denominators:
 
@@ -256,7 +256,7 @@ It is:
 
 > **Can system engineering convert the available manufacturing base into competitive production-workload economics without simply moving the bottleneck into memory, packaging, networking, power, reliability, or capital?**
 
-Because those inputs use different physical units, the report should not collapse them into one synthetic compensation score. It should compare bounded metrics such as throughput / cost per target workload, power per verified output, qualified package availability, memory intensity, utilization, and multi-generation continuity.
+Because those inputs use different physical units, they should not be collapsed into one synthetic compensation score. The relevant comparison uses bounded metrics such as throughput / cost per target workload, power per verified output, qualified package availability, memory intensity, utilization, and multi-generation continuity.
 
 This gives engineering compensation its proper role: **it can compress a hardware disadvantage; it does not remove the need for system closure.**
 
@@ -300,7 +300,7 @@ The final outcome depends on R&D efficiency, capital allocation, ecosystem adopt
 
 Treating "production substitution" and "full autonomy" as one threshold creates two opposite analytical errors.
 
-The report therefore separates them.
+They should therefore be separated.
 
 ### 11.1 Production-Grade Parallel Stack
 
