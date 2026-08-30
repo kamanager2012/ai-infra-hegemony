@@ -45,6 +45,23 @@ dominant platform 仍然很大，但 buyer optionality 和 bargaining power 提�
 
 而不是“AI infrastructure 消失”。
 
+### 2A. Supply-Response Overshoot：长建设周期也可能制造反向供给拐点
+
+Rolling Bottleneck Cascade 不意味着同一稀缺层会连续十年保持短缺。Fab、memory 与 packaging 都具有较长建设 / qualification 周期，**当前高价格与高利润会刺激多家供应商同时扩产；当这些项目在相近窗口释放有效产出，而 demand growth 同时放缓时，某一层可以从 shortage 很快转向 headroom，甚至 oversupply。**
+
+截至本报告 cutoff，公开前瞻已经显示这种**分层而非统一**的供给响应：TrendForce 2026-07-30 预计 2027 年 DRAM 仍偏紧，但 NAND Flash 在新增产能与 bit-output 增长作用下可能于 **2H27** 转向更宽松供需结构；其同时判断部分新增 DRAM 产能的显著 output contribution 要到 **2028** 才体现。[^10]
+
+因此，本报告不把 2024–2026 的 HBM / packaging tightness 静态外推为十年永久短缺。真正需要观察的是每一层的：
+
+- effective capacity ramp；
+- qualification / yield；
+- demand-growth deceleration；
+- lead time / clearing price；
+- utilization；
+- product-mix reversal。
+
+如果多个 scarce layers 的 supply growth 持续超过 demand growth、lead time 与 scarcity premium 同时下降，S1 权重应明显上升；如果同时伴随 utilization 与 clearing price 恶化，则还可能提高 S4 权重。
+
 ## 3. S2 — Baseline Concentration / 基准集中
 
 ### 定义
@@ -303,6 +320,8 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+
+[^10]: TrendForce, 2026-07-30, “Diverging Memory Market Outlook in 2027 as DRAM Supply Remains Tight While NAND Flash Supply Conditions Ease,” https://www.trendforce.com/presscenter/news/20260730-13158.html
 
 ## 交叉引用
 
