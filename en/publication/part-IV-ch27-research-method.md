@@ -208,6 +208,7 @@ The primary models include:
 - **Cloud System-Stack Substitution**;
 - **Anchor Compute Buyer Effect**;
 - **Rolling Bottleneck Cascade**;
+- **AI Inheritance Effect**;
 - **AI Software Unit Economics**;
 - **Task-to-Job Translation Layer**;
 - **Financing Reflexivity**.
