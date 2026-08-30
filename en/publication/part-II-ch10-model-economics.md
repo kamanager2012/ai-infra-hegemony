@@ -114,7 +114,7 @@ If unit resource intensity falls 50% while workload volume grows 4×, total dema
 
 Long-run analysis therefore has to observe real workload, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
 
-Chapter 14 adds a third mechanism: the **AI Inheritance Effect**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
+Chapter 14 adds a third mechanism: **AI inheritance**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
 
 ## 9. Long-run competitive variables at the model layer
 
