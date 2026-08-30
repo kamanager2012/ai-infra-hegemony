@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+<title id="title">图 5 — Power / LPS delivery-state model</title><desc id="desc">六个连续状态：Announced、Contracted or Secured、Permitted、Construction or Transition、Energized、Utilized。</desc>
+<rect width="1600" height="650" fill="white"/>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#111}.t{font-size:42px;font-weight:700}.s{font-size:24px;fill:#444}.box{fill:#f7f7f7;stroke:#222;stroke-width:2}.b{font-size:23px;font-weight:700}.n{font-size:18px;fill:#555}.a{stroke:#333;stroke-width:4;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L0,8 L11,4 z" fill="#333"/></marker></defs>
+<text x="75" y="72" class="t">Power / LPS 必须按 delivery state 跟踪</text>
+<text x="75" y="114" class="s">Headline MW/GW 只有穿过完整交付链，才可能成为可用的 AI capacity。</text>
+<g transform="translate(70 220)">
+<rect class="box" x="0" y="0" rx="16" width="210" height="110"/><text class="b" x="105" y="66" text-anchor="middle">Announced</text>
+<rect class="box" x="250" y="0" rx="16" width="230" height="110"/><text class="b" x="365" y="48" text-anchor="middle">Contracted /</text><text class="b" x="365" y="78" text-anchor="middle">Secured</text>
+<rect class="box" x="520" y="0" rx="16" width="200" height="110"/><text class="b" x="620" y="66" text-anchor="middle">Permitted</text>
+<rect class="box" x="760" y="0" rx="16" width="250" height="110"/><text class="b" x="885" y="48" text-anchor="middle">Construction /</text><text class="b" x="885" y="78" text-anchor="middle">Transition</text>
+<rect class="box" x="1050" y="0" rx="16" width="200" height="110"/><text class="b" x="1150" y="66" text-anchor="middle">Energized</text>
+<rect class="box" x="1290" y="0" rx="16" width="200" height="110"/><text class="b" x="1390" y="66" text-anchor="middle">Utilized</text>
+<line class="a" x1="210" y1="55" x2="245" y2="55"/><line class="a" x1="480" y1="55" x2="515" y2="55"/><line class="a" x1="720" y1="55" x2="755" y2="55"/><line class="a" x1="1010" y1="55" x2="1045" y2="55"/><line class="a" x1="1250" y1="55" x2="1285" y2="55"/>
+</g>
+<text x="800" y="430" class="s" text-anchor="middle">secured / contracted capacity ≠ energized capacity ≠ utilized AI load</text>
+<text x="800" y="475" class="s" text-anchor="middle">IT-GW ≠ generation GW ≠ PPA capacity</text>
+<line x1="75" y1="525" x2="1525" y2="525" stroke="#bbb"/>
+<text x="75" y="568" class="n">Source：本报告 power-delivery framework；主要见第 7、8、29、32 章。</text>
+<text x="75" y="600" class="n">Boundary：必须同时保留 state identity 与 physical-unit identity；不同 denominator 的项目值不得相加成 active AI load。</text>
+</svg>
