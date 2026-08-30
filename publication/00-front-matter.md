@@ -9,7 +9,7 @@
 **Edition revision：** 2026-08-30  
 **分析与情景时域：** 2026–2036  
 **Canonical research language：** English  
-**中文版本：** Professional parallel edition
+**中文版本：** Professional Chinese translation
 
 ---
 
