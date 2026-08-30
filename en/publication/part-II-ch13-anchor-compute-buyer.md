@@ -1,18 +1,20 @@
-# Part II · Chapter 13: Anchor Compute Buyer Effect — How Model Companies Reshape Infrastructure
+# Part II · Chapter 13: Anchor Compute Buyers — How Long-Duration Demand Pulls Infrastructure Forward
 
-## 1. Model companies are moving from compute tenants to Infrastructure Anchor Buyers
+## 1. The demand-side shift: model companies can now pull infrastructure forward
 
-The traditional relationship was:
+At smaller scale, a model company is a compute tenant. At frontier scale, long-duration demand can become an input into capital formation.
 
-> model company → rent cloud compute
+The relationship therefore changes from:
 
-At the largest scale, it is changing toward:
+> model company → rent existing compute
 
-> **model-company demand ↔ cloud / data-center / power buildout**
+toward:
 
-Multi-year compute commitments, dedicated campuses, chip selection, and capacity reservation give infrastructure providers greater revenue visibility.
+> **model-company commitment → revenue visibility → financing certainty → earlier cloud / data-center / power / chip buildout**
 
-## 2. Anchor Compute Buyer Effect
+The analytical question is not whether a model company "owns the stack." It is whether its demand is large and durable enough to change when upstream capacity gets financed, reserved, and built.
+
+## 2. Mechanism: demand certainty becomes a capital-formation input
 
 The mechanism can be written as:
 
@@ -20,7 +22,7 @@ The mechanism can be written as:
 
 Model-company demand has therefore become an upstream signal for capital formation, not merely a passive consequence of hyperscaler investment.
 
-## 3. OpenAI Stargate: from nominal commitment to secured / construction state
+## 3. OpenAI / Stargate: status matters more than headline scale
 
 OpenAI announced Stargate in January 2025, with a plan to invest **US$500B over four years** in U.S. AI infrastructure.[^1]
 
@@ -34,7 +36,7 @@ These states must remain separate:
 
 More than 10 GW secured does not mean more than 10 GW is already energized and operating.
 
-### 3.1 PORTS-Pike: Anchor demand is moving into Land + Power + Shell and credit support
+### 3.1 PORTS-Pike: anchor demand now reaches LPS and credit support
 
 On August 17, 2026, NVIDIA disclosed its role in the PORTS-Pike Technology Campus with SB Energy in Ohio. NVIDIA is providing credit support to secure land, power, and shell (LPS) capacity; the initial deployment is designed for **4.25 IT-GW** of AI-factory capacity. OpenAI is the customer, while SB Energy will build, own, and operate the data center under a **20-year lease** to OpenAI. Phased capacity is planned to begin coming online in **2028**.[^5]
 
@@ -57,7 +59,7 @@ The relationship between PORTS-Pike's **4.25 IT-GW** and OpenAI's previously dis
 
 ---
 
-## 4. Anthropic / AWS: an anchor workload can also accelerate custom silicon
+## 4. Anthropic / AWS: anchor workload can accelerate a second stack
 
 Anthropic disclosed in April 2026 that:[^4]
 
@@ -70,7 +72,7 @@ Model-company demand can therefore become an important anchor workload for cloud
 
 The public disclosure establishes scale. It does not establish a "largest customer" ranking without a disclosed workload-share denominator.
 
-### 4.1 xAI / Colossus: the self-built infrastructure variant
+### 4.1 xAI / Colossus: the self-built variant
 
 xAI is the case of a model company entering infrastructure construction directly. In its December 2024 first-party update, xAI said **Colossus** had become fully operational in **122 days** using **100,000 NVIDIA Hopper GPUs**, and that it planned to double the cluster to a combined **200,000 Hopper GPUs**.[^7] The case therefore shows a model company directly organizing large-scale compute infrastructure rather than relying only on pre-existing cloud capacity.
 
@@ -78,7 +80,7 @@ This path is more direct than Stargate or Anthropic/AWS: rather than renting cap
 
 The xAI case is subject to the same state boundaries: Colossus going online is not full utilization, and an expansion plan is not installed capacity.
 
-## 5. Anchor Buyers gain demand-side power, not ownership of the physical stack
+## 5. Anchor Buyers gain coordination power, not supply-chain ownership
 
 A model company can influence:
 
@@ -93,7 +95,7 @@ But it does not normally own the leading-edge foundry, HBM fab, advanced-packagi
 
 Anchor Buyer power is therefore an increase in demand-side bargaining and coordination—not full supply-chain ownership.
 
-## 6. Why changing clouds is not merely changing the bill
+## 6. Long-duration commitments create switching costs
 
 A model company chooses a full system composed of accelerator, HBM, interconnect, compiler/runtime, scheduler, rack/pod, and cloud operations.
 
@@ -101,7 +103,7 @@ Migration can require kernel adaptation, distributed-training changes, performan
 
 That creates infrastructure switching costs and helps explain why exit costs from long-duration capacity commitments can be much higher than those of ordinary SaaS contracts.
 
-## 7. Algorithmic efficiency directly changes Anchor Demand
+## 7. Anchor demand depends on efficiency and workload growth
 
 If architecture sharply lowers the compute required for the same capability, a model company can reduce long-duration capacity commitments, improve buyer bargaining power, and increase utilization risk for infrastructure providers.
 
@@ -109,7 +111,7 @@ If lower unit cost stimulates workload volume even faster, long-duration commitm
 
 Anchor Buyer Demand is therefore a dynamic demand function, not a fixed exponential curve.
 
-## 8. How Anchor Buyer demand propagates through the supply chain
+## 8. Anchor demand propagates through the full infrastructure chain
 
 Large-scale model demand can propagate across the full chain:
 
@@ -135,7 +137,7 @@ If commitments are delayed, reduced, renegotiated, or underutilized, S4 risk ris
 
 ---
 
-## 9. Risk: Customer Concentration + Duration Mismatch
+## 9. Risk: customer concentration and duration mismatch
 
 Anchor Buyers improve financing certainty, but they also concentrate risk.
 
@@ -164,7 +166,7 @@ If the model-company growth thesis fails, a long-duration commitment can move fr
 
 ---
 
-## 10. What to monitor to determine whether Anchor Buyers are strengthening
+## 10. Monitoring the strength of Anchor Buyers
 
 ### Strengthening signals
 
@@ -192,7 +194,7 @@ The decisive question is:
 
 ---
 
-## 11. Current judgment
+## 11. Current read
 
 As of August 2026, large model companies constitute a distinct Anchor Buyer category inside AI infrastructure.
 
@@ -204,7 +206,7 @@ Anchor Buyer commitments are therefore a key leading indicator connecting **S2/S
 
 They can accelerate AI-infrastructure capital formation, but under weak utilization they can also amplify stranded-capacity and duration-mismatch risk.
 
-## 12. What evidence would force this chapter to change its judgment
+## 12. What would change the view
 
 The Anchor Compute Buyer Effect should be downgraded if:
 
