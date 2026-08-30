@@ -10,7 +10,7 @@ The useful question is not whether they form a single anti-NVIDIA bloc, but:
 
 ## 2. AMD: the most direct data-center system challenger
 
-AMD Instinct is one of the most direct alternatives in data-center acceleration. AMD's current official roadmap also organizes Instinct GPUs, EPYC CPUs, Pensando networking, and ROCm into rack/system-level solutions.[^1][^2]
+AMD Instinct is one of the most direct alternatives in data-center acceleration. AMD's current official roadmap also organizes Instinct GPUs, EPYC CPUs, Pensando networking, and ROCm into rack/system-level solutions.[^1][^2] AMD's August 2026 newsroom release separately states that **ROCm.AI is now generally available with ROCm 10**.[^14]
 
 The real threshold is not GPU design alone. It also includes:
 
@@ -25,9 +25,9 @@ AMD's competitive unit has therefore also moved from chip to system.
 
 ## 3. AMD is exposed to the same scarce-capacity access problem
 
-AMD and NVIDIA compete for many of the same advanced-logic, HBM, and packaging resources.
+The report treats AMD and NVIDIA as **structurally exposed to overlapping advanced-logic, HBM, and packaging supply pools**, but the public sources cited here do not disclose customer-level allocation shares for AMD.
 
-When NVIDIA demand is exceptionally strong, AMD's challenge is not only market share. It is also access to incremental scarce capacity.
+When NVIDIA demand is exceptionally strong, AMD's access to incremental scarce capacity is therefore a **report-side mechanism to monitor**, not a documented claim that AMD has already lost a quantified amount of wafers, HBM, or packaging capacity.
 
 If HBM / packaging supply elasticity rises, the constraints on AMD system expansion fall.
 
@@ -35,7 +35,7 @@ AMD is therefore a useful observable for **non-anchor-buyer access / residual ca
 
 ## 4. Intel: product clock and foundry clock run on different timelines
 
-Intel simultaneously carries CPU/product competition, accelerator efforts, foundry strategy, and domestic-manufacturing policy. Intel's 2025 Form 10-K and its 2026 VLSI Symposium update show that Intel Foundry continues to pursue an external-foundry strategy, with 18A in production and 18A-P in risk production.[^3][^4]
+Intel simultaneously carries CPU/product competition, accelerator efforts, foundry strategy, and domestic-manufacturing policy. Intel's 2025 Form 10-K shows Intel Foundry continuing to pursue an external-foundry strategy and states that Intel 18A entered high-volume production in 2025.[^3] Intel's June 2026 VLSI Symposium update separately states that **18A-P has entered risk production**.[^4]
 
 In July 2026, ASML and Intel also confirmed that High-NA EUV had entered real high-volume logic production on selected Intel 18A layers.[^9]
 
@@ -49,7 +49,7 @@ Intel's recovery cannot therefore be established by a single product, process mi
 
 Intel's client-CPU history is useful only as a bounded comparison. It should not be rewritten as “dominance automatically causes toothpaste-style stagnation.”
 
-Intel's own 2016–2017 annual reports disclosed a lengthening process-technology cadence across 14nm and 10nm, with multiple product waves planned on the same node. Its 2018 Form 10-K then stated that 10nm volume production had been delayed from the second half of 2018 into 2019.[^10][^11]
+Intel's **2016 Form 10-K, filed in 2017**, disclosed a lengthening process-technology cadence across 14nm and 10nm, with multiple product waves planned on the same node. Its 2018 Form 10-K then stated that 10nm volume production had been delayed from the second half of 2018 into 2019.[^10][^11]
 
 The defensible lesson is:
 
@@ -94,15 +94,15 @@ Qualcomm's primary effect on AI infrastructure is therefore **demand-function re
 
 Apple vertically integrates silicon, operating systems, devices, application ecosystems, distribution, and a massive installed base. Apple Intelligence publicly combines on-device processing with Private Cloud Compute, making workload placement a core part of its AI system design.[^7][^8]
 
-Apple is not a frontier-training system vendor, but it can influence where large volumes of consumer workloads execute: on-device, in private cloud, or in public cloud.
+Apple is not a frontier-training system vendor, but Apple Intelligence can influence where consumer workloads execute between **on-device processing and Apple's Private Cloud Compute**.[^7][^8] The cited architecture materials do not establish a separate public-cloud placement path for Apple Intelligence.
 
 If on-device capability improves rapidly, Apple becomes an important platform variable affecting cloud-inference intensity.
 
 ## 7. Leading-edge access does not justify invented customer rankings
 
-Apple has long used leading-edge process technology, but without first-party customer-share or ranking disclosures, this report does not treat a specific-year "largest/second-largest customer" identity as fact.
+Without first-party customer-share or ranking disclosures, this report does not treat a specific-year Apple "largest/second-largest foundry customer" identity as fact.
 
-The important forward variables are whether leading-node launch scale remains strong, whether AI/HPC absorbs more incremental capacity, and whether device-AI strategy changes wafer / memory mix.
+The important forward variables are whether Apple continues to obtain advanced-node launch capacity at the scale required by its product roadmap, whether AI/HPC absorbs more incremental capacity, and whether device-AI strategy changes wafer / memory mix. The first of those variables must be assessed from product / process disclosures rather than inferred from anonymized customer rankings.
 
 Historical revenue share is not a substitute for layer-specific analysis of incremental scarce-capacity access.
 
@@ -157,3 +157,4 @@ Whether they materially weaken dominant system-stack economics depends on produc
 [^11]: Intel Corporation, 2018 Form 10-K, 10nm volume-production delay from 2H18 into 2019 and process-execution risks, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-19-000007/a12292018q4-10kdocument.htm
 [^12]: AMD, 2017-03-02, first Ryzen desktop processors based on the new Zen core architecture, https://www.amd.com/en/newsroom/press-releases/2017-3-2-amd-ryzen-tm-7-desktop-processors-featuring-recor.html
 [^13]: Apple, 2020-11-10, M1 as the first chip designed specifically for Mac, https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/
+[^14]: AMD Newsroom, 2026-08-27, ROCm.AI generally available with ROCm 10, https://newsroom.amd.com/news/rocm-10-software-ai-native-developer-experiences/
