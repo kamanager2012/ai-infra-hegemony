@@ -432,8 +432,8 @@
     $("readerView").classList.add("hidden");
     $("printView").classList.add("hidden");
     document.title = lang === "en"
-      ? "AI Infrastructure Reordering | 2026–2036 Industry Outlook Research Report"
-      : "AI基础设施格局重塑｜2026–2036产业前瞻研究报告";
+      ? "AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook"
+      : "AI基础设施格局重塑：2026–2036结构性产业展望";
   }
 
   init();
