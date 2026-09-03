@@ -108,7 +108,7 @@ open-source model 会扩大 capability diffusion、private deployment 与 model-
 
 ## 5. GPU vs ASIC 必须按 System TCO 比较
 
-Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hyperscaler internal workload 提供第二条 compute path。
+Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hyperscaler internal workload 提供第二条 compute path。[^5]
 
 但真正应该比较的不是 accelerator die price，而是：
 
@@ -257,3 +257,5 @@ Agent-native software 的完整 workflow economics 见第14章。
 [^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
 [^3]: Stanford HAI, “2025 AI Index Report — Research and Development,” inference-price comparison for a GPT-3.5-equivalent MMLU level, https://hai.stanford.edu/ai-index/2025-ai-index-report/research-and-development
 [^4]: Stanford HAI, “2026 AI Index Report — Technical Performance,” frontier-model performance convergence and the shift toward cost, reliability and domain-specific competition, https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
+
+[^5]: Google, Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, Amazon EC2 Trn3 UltraServers / Trainium3, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/

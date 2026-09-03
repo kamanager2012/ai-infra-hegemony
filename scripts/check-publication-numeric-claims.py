@@ -39,7 +39,7 @@ NON_FACT = re.compile(
     r"this report|the report|本书|本报告|截至|as of|"
     r"没有披露|未披露|不.*披露|does.*not.*disclose|not disclose|not as|"
     r"mechanically|机械|absolute claim|绝对化|fixed endpoints|"
-    r"not industry facts|headline|should not be restated|reconstruction|"
+    r"not industry facts|not treated as fact|not used as fact|不作为事实|不视为事实|"\n    r"scenario[- ]scale|scale markers?|情景尺度|尺度标记|headline|should not be restated|reconstruction|"
     r"未经一手披露验证|unverified|counterexample|反例",
     re.I,
 )

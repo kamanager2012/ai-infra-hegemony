@@ -39,7 +39,7 @@ NVLink/NVSwitch 的战略价值，是把 scale-up communication 设计为平台�
 
 ## 3. CUDA / PTX 是 Cross-Generation Software Asset
 
-CUDA 的战略价值不能被简化成一个不存在于财报中的固定“软件溢价”。它更接近长期积累的软件资产：
+CUDA 的战略价值不能被简化成一个不存在于财报中的固定“软件溢价”。NVIDIA FY26 Form 10-K 将 CUDA 明确列为 parallel-computing platform，为把 software layer 视为平台组成部分、而不是独立披露的 margin line 提供一手锚点。[^8] 它更接近长期积累的软件资产：
 
 - compiler 与 kernel ecosystem；
 - libraries；
@@ -50,7 +50,7 @@ CUDA 的战略价值不能被简化成一个不存在于财报中的固定“软
 - deployment tooling；
 - developer knowledge。
 
-PTX 的作用尤其重要：它提供稳定的 intermediate representation，使上层软件不必在每一代 GPU 变化时完全重写。硬件路线可以从 Hopper 进入 Blackwell、再进入 Rubin，而相当一部分上层软件资产可以继续复用。
+PTX 的作用尤其重要：NVIDIA 官方将 PTX 描述为跨多代 GPU 的 **stable ISA**。[^9] 因此，上层软件不必在每一代 GPU 变化时完全重写；硬件路线可以从 Hopper 进入 Blackwell、再进入 Rubin，而相当一部分上层软件资产可以继续复用。
 
 这形成一种跨代机制：
 
@@ -90,7 +90,7 @@ PTX 的作用尤其重要：它提供稳定的 intermediate representation，使
 | FY27 Q2 GAAP operating income | US$63.734B |
 | 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
 
-**Source:** NVIDIA FY26 results, FY27 Q2 results and FY27 Q2 Form 10-Q.[^2][^3][^4]  
+**Source:** NVIDIA FY26 results / FY26 Form 10-K、FY27 Q2 results 与 FY27 Q2 Form 10-Q.[^2][^3][^4][^8]  
 **Note:** US$279B 为 aggregate manufacturing, supply and capacity commitments；公开文件未提供 supplier-level split。
 
 FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。[^4]公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
@@ -107,7 +107,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure sy
 
 ## 6. System Power 也有明确 Physical Boundary
 
-NVIDIA 并不直接制造所有关键稀缺层。它仍依赖：
+NVIDIA 并不直接制造所有关键稀缺层。FY26 Form 10-K 明确描述其采用 **fabless / contracting manufacturing strategy**，这为以下外部物理供应依赖提供一手边界。[^8] 它仍依赖：
 
 - leading-edge foundry；
 - HBM vendors；
@@ -241,3 +241,6 @@ Hugging Face 的战略意义不只是“模型下载网站”。其官方产品�
 [^5]: Google, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, “Maia 200,” https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta, “MTIA 300,” https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 [^6]: Reuters, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports,” 2026-08-27, https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
 [^7]: Hugging Face official documentation for Hub, models, datasets, Spaces, Transformers, and inference/deployment products, https://huggingface.co/docs
+
+[^8]: NVIDIA Corporation, FY26 Form 10-K, CUDA platform, fabless / contracting manufacturing strategy, and FY26 segment disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+[^9]: NVIDIA, PTX ISA documentation, PTX described as a stable ISA spanning multiple GPU generations, https://docs.nvidia.com/cuda/parallel-thread-execution/index.html

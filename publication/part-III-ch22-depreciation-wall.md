@@ -128,6 +128,8 @@ algorithmic progress 对 infrastructure demand 既不是天然 expansionary，�
 
 长期 model-company compute contracts 提高 revenue visibility，使基础设施更容易融资。
 
+OpenAI Stargate、Anthropic/AWS 的 long-duration compute collaboration，以及 PORTS-Pike 内嵌的 **20-year OpenAI lease**，都是本章所指这类 contract structure 的当前例子。[^5][^6][^7]
+
 但如果 anchor buyer 的 revenue、financing 或 architecture assumptions 变化，take-or-pay、renegotiation 与 stranded-capacity risk 会集中爆发。
 
 customer concentration 与 contract duration 必须与 useful life 一起看。
@@ -140,7 +142,7 @@ customer concentration 与 contract duration 必须与 useful life 一起看。
 - project finance；
 - third-party infrastructure vehicle；
 - long-duration customer contract；
-- supplier equity / credit enhancement；
+- supplier equity / credit enhancement。[^8][^9][^10]
 
 来融资。
 
@@ -185,3 +187,10 @@ customer concentration 与 contract duration 必须与 useful life 一起看。
 [^2]: Alphabet Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm
 [^3]: Meta Platforms, Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
 [^4]: Amazon.com, Inc., 2025 Form 10-K, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+
+[^5]: OpenAI, “Announcing The Stargate Project,” 2025-01, long-duration U.S. AI-infrastructure buildout, https://openai.com/index/announcing-the-stargate-project/
+[^6]: Anthropic, “Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute,” 2026-04-20, >US$100B over ten years and up to 5 GW of new compute capacity, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+[^7]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, including a 20-year OpenAI lease, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^8]: Microsoft, FY26 Q4 earnings conference call, operating-lease / CapEx classification change and approximately US$175B calendar-2026 CapEx expectation, https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
+[^9]: NVIDIA, 2026-08-10, announced compute-financing partnerships / MOUs targeting more than US$500B of third-party capital mobilization over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^10]: NVIDIA, 2026-08-17, PORTS-Pike seller credit support / equity / long-duration customer structure, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx

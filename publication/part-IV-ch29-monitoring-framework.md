@@ -46,7 +46,7 @@ US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue�
 
 ### TSMC 2025
 
-以下基线来自 TSMC 2025 Annual Report。[^3]
+以下基线结合 TSMC 2025 Annual Report 与 4Q25 presentation / earnings materials。[^3][^16]
 
 - 12-inch-equivalent wafer shipments：~15.0M；
 - annual capacity：>17M；
@@ -56,7 +56,7 @@ US$279B 不具有 supplier-level split，不能拆成 TSMC / HBM vendor revenue�
 - smartphone platform：29%，YoY +11%；
 - largest / second-largest annual customer：19% / 17% revenue。
 
-另一匿名客户表才支持 2024→2025：Customer A 12%→19%，Customer B 22%→17%。[^7] 两套披露不能拼成同一客户轨迹。
+另一匿名客户表才支持 2024→2025：Customer A 12%→19%，Customer B 22%→17%。[^3] 两套披露不能拼成同一客户轨迹。
 
 ### Packaging
 
@@ -352,7 +352,6 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf ; Micron Technology, FY25 Form 10-K, HBM requires more wafers / cleanroom space for the same bits at the same technology node, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
 [^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
-[^7]: TSMC, 2025 Consolidated Report, anonymized Customer A/B revenue series, https://www.sec.gov/Archives/edgar/data/1046179/000104617926000024/a2025q4consolidatedreport-.htm
 [^8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^9]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
 [^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
@@ -364,3 +363,5 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 
 [^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
 [^15]: TrendForce, 2025-12-02, 2026 game-console shipment forecast and estimated console memory-cost share of BOM, B-grade institutional forecast, https://www.trendforce.com/presscenter/news/20251202-12811.html
+
+[^16]: TSMC, 4Q25 Presentation / Earnings Conference, 5 nm / 7 nm 2025 technology mix and HPC / smartphone YoY platform growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf ; https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf

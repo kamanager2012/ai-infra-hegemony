@@ -21,7 +21,7 @@ AMD Instinct 是最直接的 data-center accelerator alternatives 之一，AMD �
 - system reference architecture；
 - customer migration / production support。
 
-AMD 在 2026-08-27 发布 ROCm 10，并把 ROCm.AI 推向 general availability，官方定位明确强调从 Instinct infrastructure access 到 production inference / training 的迁移、validated frameworks/containers、communication libraries 与 developer workflow。[^2] 这说明 AMD 当前最关键的竞争动作之一，已经从“补齐软件功能”上移到**降低 production migration friction**。
+AMD 在 2026-08-27 发布 ROCm 10，并把 ROCm.AI 推向 general availability，官方定位明确强调从 Instinct infrastructure access 到 production inference / training 的迁移、validated frameworks/containers、communication libraries 与 developer workflow。[^14] 这说明 AMD 当前最关键的竞争动作之一，已经从“补齐软件功能”上移到**降低 production migration friction**。
 
 因此 AMD 的竞争单位也已经从 chip 上移到 system。
 
@@ -159,3 +159,5 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 [^11]: Intel Corporation, 2018 Form 10-K, 10nm volume-production delay from 2H18 into 2019 and process-execution risks, https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-19-000007/a12292018q4-10kdocument.htm
 [^12]: AMD, 2017-03-02, first Ryzen desktop processors based on the new Zen core architecture, https://www.amd.com/en/newsroom/press-releases/2017-3-2-amd-ryzen-tm-7-desktop-processors-featuring-recor.html
 [^13]: Apple, 2020-11-10, M1 as the first chip designed specifically for Mac, https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/
+
+[^14]: AMD Newsroom, 2026-08-27, ROCm.AI generally available with ROCm 10, https://newsroom.amd.com/news/rocm-10-software-ai-native-developer-experiences/

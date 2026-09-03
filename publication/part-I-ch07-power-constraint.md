@@ -188,6 +188,12 @@ Time-to-Power 不只受发电项目与 interconnection 约束，也受电网设�
 - executable permitting path；
 - cooling infrastructure。
 
+Hyperscaler competition 因此不只是“谁拿到更多 accelerator”，还包括一个大规模 deployment-timing 问题：
+
+> **谁能更快把下一批 50 MW / 100 MW / 500 MW system 推进到 energized。**
+
+这里的 **50 / 100 / 500 MW 只是用于说明 Time-to-Power 的 scenario-scale markers，不是任何已披露项目容量。**
+
 因此，拥有 accelerator 不代表拥有 deployable compute。
 
 ---

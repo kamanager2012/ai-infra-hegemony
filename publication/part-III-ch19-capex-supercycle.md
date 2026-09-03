@@ -52,11 +52,13 @@ Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purch
 - seller 可以通过 equity / credit enhancement 支持项目；
 - PPA / generation / grid investment 可能出现在完全不同主体的资产负债表。
 
+到 2026 年 8 月，AI infrastructure capital formation 已经超出 hyperscaler corporate CapEx。NVIDIA 宣布与六家大型资本提供方签署 MOU，目标是建立独立 compute-financing platforms，并在未来动员 **超过 US$500B 的 third-party capital**。[^5] 另一个 PORTS-Pike structure 则把 secured land / power / shell（LPS）、seller credit support、NVIDIA 对 SB Energy 的 **US$1.5B** investment，以及由 SB Energy build / own / operate、并以 **20-year lease** 租给 OpenAI 的 data center 组合起来。[^6]
+
 因此：
 
 > **Hyperscaler CapEx 是重要观察变量，但已经不是 AI infrastructure capital formation 的完整分母。**
 
-这也是为什么 2026 年的新 compute-financing platform、PORTS-Pike LPS structure 与 Anchor Buyer long-duration contracts 必须单独进入资本分析。
+这也是为什么 2026 年的新 compute-financing platform、PORTS-Pike LPS structure 与 Anchor Buyer long-duration contracts 必须单独进入资本分析。[^5][^6]
 
 完整融资结构见[第23章：AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)。
 
@@ -66,9 +68,9 @@ AI infrastructure 不是一次性的 server purchase，而是多个经济寿命�
 
 - **accelerator / server**：技术迭代快，经济寿命相对短；
 - **network / switching / cooling**：中周期；
-- **data-center shell / mechanical systems**：长周期；
+- **data-center building / shell / mechanical systems**：长周期；Microsoft 自 FY27 起把 datacenter 与 office building 的 estimated useful life 从 **15 年延长到 25 年**。[^1]
 - **substation / transmission / grid connection**：更长周期；
-- **PPA / generation projects**：可跨越十年以上；
+- **grid / generation / offtake**：contract / asset-specific，通常明显长于 compute；例如 Constellation / Microsoft Crane agreement 是 **20-year PPA**。[^7]
 - **future workload revenue**：不确定，取决于真实客户采用和 monetization。
 
 因此，AI infrastructure 的核心资本风险不是简单“花钱太多”，而是：
@@ -294,7 +296,11 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 
 ## References
 
-[^1]: Microsoft, FY26 Q4 earnings / conference call, calendar-2026 reported CapEx expectation, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+[^1]: Microsoft, FY26 Q4 earnings conference call, 2026-07-29, calendar-2026 CapEx expectation of approximately US$175B and datacenter / office-building estimated useful lives extended from 15 to 25 years, https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 [^2]: Alphabet, Q2 2026 earnings-call full-year CapEx guidance **US$195–205B**, company guidance reported by Reuters, 2026-07-22, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Alphabet SEC Exhibit 99.1 separately supports Q2 actual results, https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
 [^3]: Meta Platforms, 2026 Q2 SEC Exhibit 99.1, FY2026 CapEx guidance including finance-lease principal, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm
 [^4]: Amazon.com, 2026 Q2 Form 10-Q, TTM purchases of property and equipment, net of proceeds and incentives, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+
+[^5]: NVIDIA, 2026-08-10, strategic partnerships / MOUs to establish independent compute-financing platforms and mobilize more than US$500B of third-party capital over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+[^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI: secured LPS, NVIDIA credit support, US$1.5B SB Energy investment, and 20-year OpenAI lease, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^7]: Constellation Energy, 2024-09-20, 20-year Microsoft power-purchase agreement for the Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
