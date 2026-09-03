@@ -1,0 +1,117 @@
+% Publication typography layer. Research Markdown remains the source of truth.
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{etoolbox}
+\usepackage{ragged2e}
+\usepackage{footmisc}
+\usepackage{needspace}
+
+\definecolor{ReportNavy}{HTML}{14243A}
+\definecolor{ReportBlue}{HTML}{245A83}
+\definecolor{ReportText}{HTML}{171A1F}
+\definecolor{ReportMuted}{HTML}{5E6670}
+\definecolor{ReportRule}{HTML}{A8B0B8}
+\definecolor{ReportTable}{HTML}{F3F5F7}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=ReportNavy,
+  urlcolor=ReportBlue,
+  citecolor=ReportNavy,
+  pdfborder={0 0 0}
+}
+\urlstyle{same}
+
+\setcounter{secnumdepth}{-1}
+\setcounter{tocdepth}{2}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.46em}
+\setlength{\emergencystretch}{2.5em}
+\raggedbottom
+
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+
+\setlist[itemize]{leftmargin=1.45em,itemsep=0.15em,topsep=0.35em}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=0.15em,topsep=0.35em}
+
+\titleformat{\part}[display]
+  {\sffamily\color{ReportNavy}}
+  {\fontsize{10}{12}\selectfont\MakeUppercase{Research Report}}
+  {8pt}
+  {\bfseries\fontsize{30}{34}\selectfont}
+  [\vspace{5mm}\color{ReportRule}\titlerule]
+\titlespacing*{\part}{0pt}{22mm}{12mm}
+
+\titleformat{\chapter}[display]
+  {\sffamily\color{ReportNavy}}
+  {}
+  {0pt}
+  {\bfseries\fontsize{24}{29}\selectfont}
+  [\vspace{4mm}\color{ReportRule}\titlerule]
+\titlespacing*{\chapter}{0pt}{-8mm}{9mm}
+
+\titleformat{\section}
+  {\sffamily\bfseries\fontsize{14}{18}\selectfont\color{ReportNavy}}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{5mm}{2mm}
+
+\titleformat{\subsection}
+  {\sffamily\bfseries\fontsize{11.5}{14}\selectfont\color{ReportText}}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{4mm}{1.5mm}
+
+\titleformat{\subsubsection}
+  {\sffamily\bfseries\fontsize{10.5}{13}\selectfont\color{ReportText}}
+  {}{0pt}{}
+\titlespacing*{\subsubsection}{0pt}{3mm}{1mm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\sffamily\footnotesize\color{ReportMuted}AI Infrastructure Reordering, 2026--2036}
+\fancyhead[RO]{\sffamily\footnotesize\color{ReportMuted}Structural Industry Outlook}
+\fancyfoot[LE,RO]{\sffamily\footnotesize\color{ReportMuted}\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[LE,RO]{\sffamily\footnotesize\color{ReportMuted}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\captionsetup{
+  font=small,
+  labelfont={sf,bf},
+  textfont={rm},
+  labelsep=period,
+  justification=raggedright,
+  singlelinecheck=false,
+  skip=7pt
+}
+
+\AtBeginEnvironment{longtable}{\small\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.16}}
+\AtBeginEnvironment{table}{\small}
+\AtBeginEnvironment{quote}{\small\color{ReportMuted}\itshape}
+
+\renewcommand{\footnotelayout}{\footnotesize\raggedright}
+\setlength{\footnotesep}{0.55em}
+
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.82}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+}
