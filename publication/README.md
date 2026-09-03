@@ -46,7 +46,7 @@
 
 ## Part II — 需求、替代与第二系统栈
 
-10. [模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)
+10. [模型单位经济、算法效率与开放模型竞争](part-II-ch10-model-economics.md)
 11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
 12. [第二类 System Stack——Hyperscaler Substitution 如何真正成立](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyers——Long-Duration Demand 如何提前拉动 Infrastructure](part-II-ch13-anchor-compute-buyer.md)
