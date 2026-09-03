@@ -222,7 +222,7 @@ They nevertheless face the same engineering requirement:
 
 > **performance + yield + scale + qualification + cost must all work at the same time.**
 
-The existence of a single product is not system closure. Real substitution must be sustainable at production scale, reliability, and long-duration service.
+The existence of a single product is not system closure. Real substitution must be sustainable at production scale, with acceptable reliability and long-duration service continuity.
 
 ## 11. Fragmentation can raise investment while lowering system efficiency
 
@@ -235,7 +235,7 @@ If the world develops two or more relatively separate semiconductor / AI system 
 - lower cross-region fungibility;
 - more policy-driven capacity.
 
-Fragmentation does not necessarily reduce global semiconductor CapEx. It can instead produce **more duplicated construction, lower utilization efficiency inside each individual system, and greater resilience**.
+Fragmentation does not necessarily reduce global semiconductor CapEx. It can instead produce **more duplicated construction, lower utilization efficiency within each regional system, and greater resilience**.
 
 ## 12. Evidence standard for supply-chain resilience
 
