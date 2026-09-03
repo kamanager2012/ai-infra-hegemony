@@ -143,7 +143,7 @@ The boundaries remain important:
 
 TSMC's 2025 smartphone platform represented **29%** of annual net revenue, while HPC represented **58%**.[^5]
 
-That establishes HPC as the largest revenue platform, but these are revenue-mix measures—not customer-level wafer allocation.
+This establishes HPC as TSMC's largest revenue platform, but these remain revenue-mix measures—not customer-level wafer allocation.
 
 Leading-edge logic and advanced packaging must also remain separate:
 
@@ -242,7 +242,7 @@ As of August 2026, the report's synthesis of the cited allocation, memory, and p
 
 This is a **cross-source analytical judgment**, not a directly measured layer-by-layer Non-AI Residual Capacity series.
 
-The process remains selective and dynamic, and it is subject to price feedback, supply expansion, and substitution.
+The process remains selective and dynamic, subject to price feedback, supply expansion, and substitution.
 
 The most accurate formulation is therefore not “AI is taking every chip.” It is:
 
