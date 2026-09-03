@@ -48,7 +48,7 @@ Neither a cheaper die nor a stronger isolated benchmark is sufficient by itself.
 
 ### 1.2 AI/HPC is changing the marginal destination of capital
 
-TSMC reported that HPC represented **66% of 2Q26 revenue**, while 7 nm and below represented **77% of wafer revenue**. These measures do not prove customer-level wafer allocation, but they show the economic weight of advanced-compute demand in the foundry mix.
+TSMC reported that HPC represented **66% of 2Q26 revenue**, while 7 nm and below represented **77% of wafer revenue**.[^rb1] These measures do not prove customer-level wafer allocation, but they show the economic weight of advanced-compute demand in the foundry mix.
 
 The report describes the resulting structure as a **Two-Speed Semiconductor Economy**:
 
@@ -90,7 +90,7 @@ This matters because capital, procurement, and industrial strategy can be wrong 
 
 ### HBM illustrates why denominator discipline matters
 
-Micron disclosed that under a **same technology node / same number of bits** comparison, HBM3E requires approximately **3× the wafer supply of DDR5**.
+Micron disclosed that under a **same technology node / same number of bits** comparison, HBM3E requires approximately **3× the wafer supply of DDR5**.[^rb2]
 
 ![Figure 3 — HBM3E wafer-supply intensity versus DDR5](figures/fig-03-hbm-wafer-intensity.svg)
 
@@ -110,7 +110,7 @@ The report keeps HBM bits, DRAM wafer input, packaging capacity, and rack deploy
 
 When direct customer-level HBM, packaging, or rack allocation is unavailable, forward commitments provide a more defensible indicator of resource-reservation intensity than assumption-driven fleet arithmetic.
 
-NVIDIA's disclosed manufacturing, supply, and capacity commitments rose from:
+NVIDIA's disclosed manufacturing, supply, and capacity commitments rose from:[^rb3]
 
 - **US$95.2B** on January 25, 2026;
 - **US$119B** on April 26, 2026;
@@ -146,7 +146,7 @@ and:
 
 > **IT-GW ≠ generation GW ≠ PPA capacity**
 
-The PORTS-Pike structure is analytically important because it shows land, power, shell, credit support, and model-company demand being coordinated earlier in the infrastructure cycle. But its initial **4.25 IT-GW design capacity** remains planned future capacity, not current utilized AI load.
+The PORTS-Pike structure is analytically important because it shows land, power, shell, credit support, and model-company demand being coordinated earlier in the infrastructure cycle. But its initial **4.25 IT-GW design capacity** remains planned future capacity, not current utilized AI load.[^rb4]
 
 The industrial advantage is therefore not simply “having power.” It is being able to move qualified projects through permitting, interconnection, equipment procurement, construction, energization, and utilization inside the relevant hardware-generation window.
 
@@ -334,3 +334,11 @@ They are:
 The current evidence supports **S2 — Baseline Concentration**; it does not support a conclusion of permanent monopoly, automatic competitive diffusion, or a confirmed capital hard landing.
 
 For the complete evidence, denominators, counterarguments, and falsification boundaries, read the [32-chapter canonical English report](README.md), the [List of Figures](01-list-of-figures.md), and the [Core Evidence Ledger](../核心证据台账.en.md).
+
+
+## Source anchors
+
+[^rb1]: TSMC, 2Q26 Management Report, HPC 66%, smartphone 22%, and 7 nm-and-below technology mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf
+[^rb2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply intensity versus DDR5 at the same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^rb3]: NVIDIA Corporation, FY26 Form 10-K and FY27 Q2 Form 10-Q, aggregate manufacturing / supply / capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^rb4]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and phased buildout, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
