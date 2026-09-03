@@ -106,7 +106,7 @@ AI Infrastructure Economy 与 Traditional Device Economy 共享部分 advanced l
 
 本报告用 **two-speed semiconductor economics** 作为这一分化的简写。
 
-它不是“消费电子会被永久牺牲”的判断，而是说明：**AI/HPC 对 semiconductor marginal capital formation 的影响力正在提高。**
+它不是“消费电子会被永久牺牲”的判断。更准确地说，**当前证据与 AI/HPC 对 semiconductor marginal capital formation 的边际影响力上升这一机制方向一致**；但公开披露并不存在一条能够按 end-demand pool 完整分配 semiconductor CapEx 的 time series。
 
 ## 6. Memory 是目前最清晰的实证路径
 
@@ -114,7 +114,7 @@ Micron 一手披露，在 same node / same bits 条件下，HBM3E 约需要 DDR5
 
 TrendForce 预计 2026 年 HBM + RDIMM 合计约占 DRAM bit supply **51%**。[^4]
 
-这两条证据共同说明：
+这两条不同 denominator 的证据放在一起，只能说明它们**方向上与 server-memory demand 更高制造资源占用这一机制一致**；不能据此构造统一 manufacturing-intensity multiplier：
 
 > **高价值 AI/server memory 对制造资源的吸收强度，可能高于单纯 bit share 所显示的程度。**
 
@@ -232,9 +232,11 @@ AI 对传统市场的传导强度取决于三个条件：
 
 截至 2026 年 8 月，公开证据更支持：
 
-> **resource reallocation pressure 正在真实影响部分 shared scarce layers，并通过 Non-AI Residual Capacity 与 quantity assurance 改变传统终端的资源环境。**
+> **resource reallocation pressure 更符合当前证据所支持的解释：它正在影响部分 shared scarce layers，并通过 Non-AI Residual Capacity 与 quantity assurance 改变传统终端的资源环境。**
 
-但这一过程是选择性的、动态的，也会受到价格反馈、扩产和替代系统影响。
+这是一个 **cross-source analytical judgment**，不是已经直接测得的 layer-by-layer Non-AI Residual Capacity time series。
+
+这一过程仍然是选择性的、动态的，也会受到价格反馈、扩产和替代系统影响。
 
 因此，更准确的表述不是“AI 全面占用芯片供给”，而是：
 
