@@ -1,15 +1,16 @@
-# Phase II · Developer Distribution Chokepoint v0.4
+# Phase II · Developer Distribution Chokepoint v0.5
 
 > **Status:** Research-side validation layer; not a claim that software monopoly or foreclosure has already occurred.  
 > **Evidence-cutoff interaction:** the Reuters transaction report is dated 2026-08-27 and therefore falls inside the formal report's 2026-08-28 evidence snapshot. Any status check after 2026-08-28 remains research-side only unless the formal report is explicitly reopened.
 
-## 0. Ownership contract v0.3
+## 0. Ownership contract v0.5
 
 This file owns:
 - transaction-status gating for the NVIDIA/Hugging Face research trigger;
 - DDC-A / DDC-B / DDC-C distribution-conduct states;
 - ranking / backend / portability / multi-homing / deployment-friction evidence;
-- contrary evidence against foreclosure.
+- contrary evidence against foreclosure;
+- adjacent **Model Production Gravity** evidence only where it directly changes the developer-distribution mechanism.
 
 It does **not** own:
 - antitrust liability or legal remedy conclusions;
@@ -100,6 +101,169 @@ NVIDIA installed base
 ```
 
 The loop is a hypothesis until observable conduct and workload outcomes support it.
+
+## 3A. Adjacent mechanism — Model Production Gravity v0.5
+
+The Hugging Face trigger concerns **distribution**.
+
+A separate but adjacent pre-cutoff development concerns NVIDIA's potential influence over **open-model production capability**.
+
+Media reports in August 2026 described a Poolside / NVIDIA transaction structure involving:
+- approximately **US$6B** for a non-exclusive license to Poolside's model-development technology / Model Factory;
+- approximately **US$1B** of NVIDIA equity investment;
+- transfer / hiring of more than 100 Poolside personnel into NVIDIA-linked model work, including Nemotron.
+
+The current research source set does **not** contain a first-party NVIDIA or Poolside transaction announcement confirming all of those commercial terms.
+
+Therefore the transaction identity remains:
+
+> **C-grade media-reported license / investment / talent-transfer structure.**
+
+It must not be rewritten as:
+- NVIDIA acquired Poolside;
+- NVIDIA owns Poolside's Model Factory;
+- Poolside ceased to exist independently;
+- NVIDIA obtained exclusive control of Poolside technology.
+
+### 3A.1 First-party capability anchor: Poolside Model Factory
+
+Poolside's **May 25, 2026 Laguna M.1 / XS.2 Technical Report** provides first-party evidence for what the relevant capability actually is.
+
+Poolside describes its Model Factory as a tightly integrated system combining:
+
+```text
+versioned data
++
+training
++
+evaluation
++
+inference
+```
+
+to turn model development into an industrial process.
+
+That matters because the strategic object is not merely one model checkpoint.
+
+It is a **repeatable model-production system**.
+
+The report also states that Laguna models were trained end-to-end inside this Model Factory, and that Laguna XS.2 weights were released under Apache 2.0.
+
+### 3A.2 NVIDIA first-party open-model anchor
+
+NVIDIA's own August 11, 2026 materials show that Nemotron is already being developed as an open / customizable model family for agentic workloads.
+
+Nemotron 3.5 Lightning:
+- is a 30B-parameter MoE model with 3B active parameters;
+- is positioned for high-volume, long-running agentic execution;
+- ships with open/customizable weights, training data / recipes and NVIDIA optimization tooling;
+- is distributed through NVIDIA channels and Hugging Face.
+
+Therefore the relevant strategic question is no longer only:
+
+> "Does NVIDIA have CUDA?"
+
+It is increasingly:
+
+> **How much of the model-production → distribution → deployment chain becomes economically coordinated around NVIDIA?**
+
+### 3A.3 Model Production Gravity mechanism
+
+The adjacent loop is:
+
+```text
+Compute / CUDA installed base
+→ model-production tooling + training infrastructure
+→ model talent / training recipes / evaluation systems
+→ NVIDIA open-model family
+→ distribution through major model hubs
+→ NVIDIA-optimized deployment
+→ accelerator demand
+```
+
+This report calls the upstream mechanism:
+
+> **Model Production Gravity (MPG)**
+
+MPG is distinct from DDC:
+
+- **MPG** asks whether model-creation capability, tooling, talent and production systems increasingly gravitate toward NVIDIA.
+- **DDC** asks whether a distribution gateway changes developer choice through ranking, defaults, economics or deployment friction.
+
+They can reinforce each other, but neither proves the other.
+
+### 3A.4 Combined vertical-loop hypothesis
+
+If both mechanisms strengthen, the possible stack becomes:
+
+```text
+GPU / networking / systems
+→ CUDA / NeMo / runtime
+→ model-production capability
+→ NVIDIA open models
+→ major model distribution gateway
+→ inference / deployment
+→ GPU demand
+```
+
+This would be strategically more important than CUDA lock-in alone because it could influence both:
+
+1. **what models get built / optimized**, and
+2. **how developers discover and deploy them**.
+
+But current evidence supports only the **possibility of a reinforcing vertical loop**, not completed control.
+
+### 3A.5 Minimum MPG observables
+
+| Variable | Strengthens MPG | Contrary evidence |
+|---|---|---|
+| Model-production technology control | exclusive or effectively exclusive access to important training/eval systems | non-exclusive licensing; independent continued development |
+| Talent concentration | sustained transfer of model-training teams into NVIDIA | independent teams remain viable / expand elsewhere |
+| Training-recipe dependence | NVIDIA tooling becomes required for competitive open models | recipes remain portable across training stacks |
+| Model-family production cadence | NVIDIA open-model releases accelerate materially | broad independent open-model ecosystem remains competitive |
+| Hardware coupling | model training / quantization / serving artifacts become NVIDIA-specific by default | models remain efficiently portable to competing accelerators |
+| Distribution coupling | NVIDIA-produced models receive preferential placement / tooling | neutral multi-homing and equal discoverability persist |
+| Economic bundling | compute credits / hosting / tooling / distribution are bundled | independent pricing and provider choice remain viable |
+
+### 3A.6 Hard boundary: open models can strengthen NVIDIA without constituting foreclosure
+
+NVIDIA can rationally invest in permissive/open models because wider open-model adoption can increase accelerator demand.
+
+That alone is not anticompetitive.
+
+MPG becomes a competition concern only if the economic path changes from:
+
+> **better open-model capability creates more competition**
+
+toward:
+
+> **model production becomes practically dependent on NVIDIA-controlled tooling, talent, financing or hardware, while competing production paths become materially less viable.**
+
+The distinction is essential.
+
+### 3A.7 Relationship to the Poolside media reports
+
+The reported Poolside structure is strategically notable precisely because it is described as a **license / investment / talent** arrangement rather than a conventional full acquisition.
+
+If verified, that could allow NVIDIA to absorb important capability without necessarily buying the whole company.
+
+Research implication:
+
+> **vertical concentration should track control of capability, talent and dependency — not only legal ownership.**
+
+But because the commercial terms remain media-reported in the current source set, they do not change a formal concentration state by themselves.
+
+### 3A.8 Current MPG state
+
+Current evidence supports:
+
+> **MPG-WATCH — NVIDIA has a first-party open-model strategy and media reports describe a potentially material Poolside model-production license/talent relationship, but exclusive control, dependency, or foreclosure are not established.**
+
+This MPG-WATCH label is an **adjacent research state**, not DDC-B.
+
+The DDC state remains separately adjudicated below.
+
+---
 
 ## 4. Minimum observable variables
 
@@ -278,15 +442,17 @@ At each major Hugging Face / NVIDIA ownership or product update, record:
 
 Every supportive observation must be paired with counterevidence.
 
-## 10. Current v0.4 judgment
+## 10. Current v0.5 judgment
 
-Current evidence supports only:
+Current evidence supports two distinct WATCH-level mechanisms:
 
-> **a media-reported acquisition agreement with potentially high strategic relevance because, if verified and completed, it could connect accelerator/runtime power to a major open-model developer-distribution gateway.**
+> **DDC:** a media-reported Hugging Face acquisition agreement with potentially high strategic relevance because, if verified and completed, it could connect accelerator/runtime power to a major open-model developer-distribution gateway.
+
+> **MPG:** a first-party NVIDIA open-model strategy plus media-reported Poolside model-production licensing / investment / talent-transfer arrangements that could strengthen NVIDIA's upstream model-production capability.
 
 Current evidence does **not** establish:
 
-> **completed acquisition, realized self-preferencing, distribution foreclosure, or software monopoly.**
+> **completed Hugging Face acquisition, realized self-preferencing, Poolside acquisition, exclusive model-production control, distribution foreclosure, or software monopoly.**
 
 That boundary should remain in place until transaction status is first-party verified and, if control changes, post-transaction conduct can then be observed.
 
@@ -297,3 +463,10 @@ That boundary should remain in place until transaction status is first-party ver
 - Hugging Face official documentation: https://huggingface.co/docs
 - Hugging Face Hub documentation: https://huggingface.co/docs/hub/index
 - Hugging Face Transformers documentation: https://huggingface.co/docs/transformers/index
+
+
+- Poolside Team, “Laguna M.1/XS.2 Technical Report,” 2026-05-25 — first-party Model Factory capability anchor: https://poolside.ai/assets/laguna/laguna-m1-xs2-technical-report.pdf
+- The Information, 2026-08-20 — media report on approximately US$6B NVIDIA licensing arrangement with Poolside; C-grade transaction evidence: https://www.theinformation.com/briefings/nvidia-pay-6-billion-license-software-ai-startup-poolside
+- Forbes, 2026-08-24 — secondary report on reported Poolside licensing/investment/personnel structure; corroborative only, not first-party: https://www.forbes.com/sites/jonmarkman/2026/08/24/nvidia-pays-poolside-6b-to-license-its-model-factory-and-109-workers/
+- NVIDIA, 2026-08-11, Nemotron 3.5 Lightning / NeMo Switchyard — first-party open-model strategy anchor: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/
+- NVIDIA Nemotron 3.5 Lightning training recipe — first-party reproducible training/deployment tooling: https://docs.nvidia.com/nemotron/nightly/nemotron/lightning35/README.html
