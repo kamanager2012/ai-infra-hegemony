@@ -75,7 +75,7 @@ Changing one accelerator may be a procurement action. Changing a rack-scale syst
 
 This is where chip-only benchmarks most easily understate system power. The farther the system extends into racks, pods, and sites, the more challengers must prove deployment time, reliability, and total cost of ownership—not simply peak compute.
 
-## 5. Platform profit can become next-generation reservation power
+## 5. Platform profits can become next-generation reservation power
 
 If system-level advantage produces high profit and free cash flow, it can influence the supply chain. The relevant company-level anchors are straightforward:
 
@@ -213,7 +213,7 @@ As of August 2026, the most accurate description is neither "GPU competition is 
 
 It is:
 
-> **NVIDIA currently has the most mature commercial general-purpose AI system stack; hyperscalers have built a real second system-stack path, but the extent of substitution must be validated through production workloads, migration cost, utilization, and upstream resource dependence.**
+> **NVIDIA currently has the most mature commercial general-purpose AI system stack; hyperscalers have established a real second system-stack path, but the extent of substitution must be validated through production workloads, migration cost, utilization, and upstream resource dependence.**
 
 That is the starting point for the analysis of TSMC, HBM, advanced packaging, power, and the capital cycle. The competitive unit has moved from the die to the system, and the system remains constrained by multiple external scarce layers.
 
@@ -227,7 +227,7 @@ The judgment on NVIDIA's system-stack power should be downgraded if several sign
 - NVIDIA supply commitments contract materially while competitors improve quantity assurance;
 - seller-side margin / cash generation and installed-base retention deteriorate together.
 
-A single custom-chip announcement, one-quarter market-share move, or theoretical benchmark advantage is not sufficient by itself to prove that the system-stack moat has failed.
+A single custom-chip announcement, one-quarter market-share move, or theoretical benchmark advantage is not sufficient to prove that the system-stack moat has failed.
 
 ## References
 
