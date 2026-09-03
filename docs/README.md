@@ -1,36 +1,58 @@
 # Web Edition
 
-This directory contains the zero-build web reader for **AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook**.
+This directory contains the zero-build primary web edition for **AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook**.
 
 ## Publishing model
 
-- **Website**: reader-facing primary entry.
-- **Formal Markdown report**: private source of truth under `publication/` and `en/publication/`.
-- **Public edition bundles**: reader-facing copies under `docs/content/`; the website reads only these files at runtime.
-- **Private GitHub repository**: source research, evidence, methodology, citation history, historical drafts, scripts, and corrections.
-- **Print / PDF export**: the browser print view renders the same public edition bundle; there is no second manually edited body-text source.
+- **Website**: primary reader-facing publication surface.
+- **Formal Markdown report**: private source of truth under `en/publication/` and `publication/`.
+- **Public edition bundles**: reader-facing snapshots under `docs/content/`; the website reads only these files at runtime.
+- **Core figures**: canonical English SVG assets mirrored under `docs/figures/` for public web rendering.
+- **Private GitHub repository**: source research, evidence architecture, source indexes, historical drafts, scripts, and corrections.
+- **PDF / print**: paused as a secondary publication surface. It is not a primary website route and does not define the research text.
 
 ## Hosting
 
-The site is plain HTML/CSS/JavaScript. No Node.js, framework, GitHub Actions, or build pipeline is required.
+The site is plain HTML/CSS/JavaScript. No Node.js framework, GitHub Actions, application CI, or release pipeline is required.
 
-For GitHub Pages, use the repository's `main /docs` directory as the Pages source. The reader never fetches `publication/`, `en/publication/`, or `raw.githubusercontent.com` at runtime. A private source repository can therefore remain private while the selected `docs/` publication snapshot is served by a compatible static host / Pages configuration.
+For GitHub Pages, use the repository's `main /docs` directory as the Pages source. The reader never fetches `publication/`, `en/publication/`, or private repository paths at runtime.
 
-Only reader-facing publication material should be copied into `docs/content/`. Historical `vol-*`, legacy `part2-*`, internal audit files, scripts, and unpublished research material remain outside the public edition bundle.
+Only reader-facing publication material is copied into `docs/content/`. Historical `vol-*`, legacy `part2-*`, internal scripts, and unpublished research material remain outside the public snapshot.
 
 ## Reader routes
 
-- Chinese home: `/?lang=zh`
 - English home: `/?lang=en`
-- Chapter example: `/?lang=zh&chapter=17`
+- Chinese home: `/?lang=zh`
 - English chapter example: `/?lang=en&chapter=17`
-- Full Chinese print/PDF view: `/?lang=zh&print=1`
-- Full English print/PDF view: `/?lang=en&print=1`
+- Chinese chapter example: `/?lang=zh&chapter=17`
+- Research Brief: `/?lang=en&doc=RESEARCH_BRIEF.md`
+- Evidence Ledger: `/?lang=en&doc=核心证据台账.md`
+
+Legacy `en.html` and `full-report-*.html` URLs are compatibility redirects to the current interactive web edition. They are not independent full-text sources.
+
+## Reader architecture
+
+The website presents the same publication snapshot through:
+
+- formal report landing page;
+- decision-oriented reading paths;
+- load-bearing evidence summary with denominator boundaries;
+- 32-chapter searchable research map;
+- three-column desktop reader: chapter navigation / article / section navigation;
+- mobile chapter drawer;
+- responsive tables;
+- canonical SVG figures;
+- rendered footnotes with back-links;
+- publication and audit-companion library.
+
+The website does not create a second research narrative.
 
 ## Revision discipline
 
-The website does not create a second research narrative. It renders the 32-chapter publication content from `docs/content/`. Evidence cutoff and edition revision are separate: later edits may correct facts, source links, citation scope, bilingual parity, or editorial structure, but post-cutoff facts are not backdated into the edition's evidence set.
+English is the canonical analytical edition. A substantive change is resolved in English first and then synchronized to Chinese. The web bundles are publication snapshots of those canonical files.
+
+Evidence cutoff and edition revision remain distinct: facts after **2026-08-28** are not backdated into this evidence cycle. Later changes in this edition are limited to corrections, evidence-boundary repair, bilingual parity, and editorial / web-presentation work.
 
 ## Rights
 
-Original research material is **All Rights Reserved**. The public web summary is in [`rights.html`](rights.html); the repository `LICENSE` file is authoritative for the source repository.
+Original research material is **All Rights Reserved**. The public reader summary is in [`rights.html`](rights.html); the repository `LICENSE` remains authoritative for the source repository.
