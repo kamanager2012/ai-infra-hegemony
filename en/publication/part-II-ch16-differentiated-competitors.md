@@ -12,6 +12,10 @@ The useful question is not whether they form a single anti-NVIDIA bloc, but:
 
 AMD Instinct is one of the most direct alternatives in data-center acceleration. AMD's current official roadmap also organizes Instinct GPUs, EPYC CPUs, Pensando networking, and ROCm into rack/system-level solutions.[^1][^2] AMD's August 2026 newsroom release separately states that **ROCm.AI is now generally available with ROCm 10**.[^14]
 
+By the report's August 28, 2026 evidence cutoff, the AMD system story had moved beyond roadmap-only evidence. At Advancing AI 2026, AMD said **Helios rackscale solutions were in production** for gigawatt-scale deployments.[^15] Meta and AMD announced a definitive multi-year, multi-generation agreement for **up to 6 GW** of AMD Instinct systems, with shipments supporting the first gigawatt scheduled to begin in **2H26**.[^16] Anthropic and AMD separately announced **up to 2 GW** of MI450 / Helios deployment, with the first gigawatt beginning in **1H27**.[^17] Microsoft also announced plans to deploy Helios on Azure for frontier-model inference.[^18]
+
+These disclosures materially strengthen the evidence that AMD has crossed from a chip roadmap into a **production-bound rack-scale system path**. They still do not establish measured production-workload share, realized utilization, external ecosystem parity, or CUDA-scale migration economics. AMD also describes Helios as a **reference design / rackscale solution rather than a single AMD product for sale**, so deployment should be evaluated through OEM/ODM systems and customer rollouts rather than product-launch count.[^15]
+
 The real threshold is not GPU design alone. It also includes:
 
 - ROCm / software maturity;
@@ -158,3 +162,8 @@ Whether they materially weaken dominant system-stack economics depends on produc
 [^12]: AMD, 2017-03-02, first Ryzen desktop processors based on the new Zen core architecture, https://www.amd.com/en/newsroom/press-releases/2017-3-2-amd-ryzen-tm-7-desktop-processors-featuring-recor.html
 [^13]: Apple, 2020-11-10, M1 as the first chip designed specifically for Mac, https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/
 [^14]: AMD Newsroom, 2026-08-27, ROCm.AI generally available with ROCm 10, https://newsroom.amd.com/news/rocm-10-software-ai-native-developer-experiences/
+
+[^15]: AMD, Advancing AI 2026 / Helios official materials, 2026-07-23/28, Helios rackscale solutions described as in production for gigawatt-scale deployments; AMD also describes Helios as a reference design / rackscale solution rather than a single product for sale, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://www.amd.com/en/products/rackscale-solutions/helios.html
+[^16]: AMD and Meta, 2026-02-24, definitive multi-year / multi-generation agreement for up to 6 GW of AMD Instinct GPUs, with shipments supporting the first gigawatt scheduled to begin in 2H26, https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/
+[^17]: AMD and Anthropic, 2026-07-22, strategic partnership for up to 2 GW of AMD Instinct MI450 / Helios deployments, with first-gigawatt deployment beginning in 1H27, https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/
+[^18]: AMD and Microsoft, 2026-07-20, Microsoft to deploy AMD Helios at scale on Azure for frontier-model inference, https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership

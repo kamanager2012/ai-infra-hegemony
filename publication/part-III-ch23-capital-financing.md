@@ -119,6 +119,10 @@ FY27 Q2 Form 10-Q 进一步给出风险侧边界：相关 guarantees 覆盖约 *
 
 同样必须保持 denominator discipline：**US$4.1B 是 maximum guarantee exposure，不是 funded CapEx，不是当前 realized loss，也不能当成 independently financed end demand。** AMD 这条一手披露的重要性在于，它说明 sponsor / supplier credit support 已经开始成为一种行业融资结构，而不是某一家公司的孤立特例。
 
+AMD 2026-07-22 与 Anthropic 的协议又增加了第二种 financing mode：AMD 承诺对 Anthropic 进行 **up to US$5B strategic equity investment**，同时 Anthropic 承诺部署 **up to 2 GW** AMD Instinct MI450 / Helios capacity，首个 1 GW 从 1H27 开始。[^9] 这里的 US$5B 是 maximum strategic-investment commitment，不是 infrastructure CapEx、revenue，也不代表全额已经支付；2 GW 是 deployment commitment，不是 utilized load。
+
+把这两条放在一起，AMD 已经展示出 **lease guarantee + strategic equity + anchor-demand commitment** 的 supplier-assisted financing 组合。也就是说，这个机制明显超出 NVIDIA 单一公司的融资结构，但每一种 instrument 的 denominator 与 risk transfer 都必须分别处理。
+
 NVIDIA FY27 Q2 earnings call 又提供了一条 company-level signal：管理层表示公司已向 frontier AI labs 投资接近 **US$50B**，并讨论了 selective credit enhancement，为另一家 frontier lab 的 infrastructure buildout 提供接近 **2 GW of compute**。[^5]
 
 这些披露支持一个独立分析机制：
@@ -240,3 +244,5 @@ AI infrastructure 正从科技公司内部 CapEx 进一步扩展为：
 [^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and first service expected beginning in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^8]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
+
+[^9]: AMD and Anthropic, 2026-07-22, up to US$5B AMD strategic equity investment in Anthropic alongside up to 2 GW of AMD Instinct MI450 / Helios deployment, first gigawatt beginning in 1H27, https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/

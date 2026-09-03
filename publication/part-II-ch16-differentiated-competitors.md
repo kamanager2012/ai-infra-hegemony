@@ -12,6 +12,10 @@ AMD、Intel、Qualcomm 与 Apple 在 system stack 的不同 layer 竞争，同�
 
 AMD Instinct 是最直接的 data-center accelerator alternatives 之一，AMD 当前官方路线也已把 Instinct GPU、EPYC CPU、Pensando networking 与 ROCm 组织为 rack/system 级解决方案。[^1][^2]
 
+到本报告 2026-08-28 evidence cutoff，AMD 的 system evidence 已经不再停留在 roadmap。Advancing AI 2026 上，AMD 表示 **Helios rackscale solutions 已进入 production**，面向 gigawatt-scale deployment。[^15] Meta 与 AMD 已签署 definitive multi-year / multi-generation agreement，规模 **up to 6 GW**，首个 1 GW 所需 shipments 计划从 **2H26** 开始；[^16] Anthropic 与 AMD 另行宣布 **up to 2 GW** MI450 / Helios deployment，首个 1 GW 从 **1H27** 开始；[^17] Microsoft 也已宣布在 Azure 部署 Helios，用于 frontier-model inference。[^18]
+
+这些一手披露明显提高了“AMD 已从 chip roadmap 跨入 **production-bound rack-scale system path**”的证据强度。但它们仍不能证明 measured production-workload share、realized utilization、external ecosystem parity 或 CUDA 级 migration economics。AMD 自己也把 Helios 定义为 **reference design / rackscale solution，而不是单一 AMD 自售产品**，所以真正的替代能力仍应按 OEM/ODM system 与 customer rollout 验证，而不是按 launch count 判断。[^15]
+
 真正的门槛不只是 GPU design，而是：
 
 - ROCm / software maturity；
@@ -161,3 +165,8 @@ NVIDIA 面对的是多层侵蚀，而不是一个统一对手。
 [^13]: Apple, 2020-11-10, M1 as the first chip designed specifically for Mac, https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/
 
 [^14]: AMD Newsroom, 2026-08-27, ROCm.AI generally available with ROCm 10, https://newsroom.amd.com/news/rocm-10-software-ai-native-developer-experiences/
+
+[^15]: AMD, Advancing AI 2026 / Helios official materials, 2026-07-23/28, Helios rackscale solutions described as in production for gigawatt-scale deployments; AMD also describes Helios as a reference design / rackscale solution rather than a single product for sale, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://www.amd.com/en/products/rackscale-solutions/helios.html
+[^16]: AMD and Meta, 2026-02-24, definitive multi-year / multi-generation agreement for up to 6 GW of AMD Instinct GPUs, with shipments supporting the first gigawatt scheduled to begin in 2H26, https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/
+[^17]: AMD and Anthropic, 2026-07-22, strategic partnership for up to 2 GW of AMD Instinct MI450 / Helios deployments, with first-gigawatt deployment beginning in 1H27, https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/
+[^18]: AMD and Microsoft, 2026-07-20, Microsoft to deploy AMD Helios at scale on Azure for frontier-model inference, https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership

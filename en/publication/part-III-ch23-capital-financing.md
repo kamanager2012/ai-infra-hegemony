@@ -117,6 +117,10 @@ This mechanism is **not unique to NVIDIA**. AMD's Q2 2026 Form 10-Q disclosed **
 
 The same denominator discipline applies: **US$4.1B is maximum guarantee exposure, not funded CapEx, not a current realized loss, and not evidence of independently financed end demand.** The AMD disclosure matters because it shows that sponsor / supplier credit support is becoming an industry financing structure rather than a company-specific anomaly.
 
+AMD's July 22, 2026 Anthropic agreement adds a second financing mode: AMD committed to make a **strategic equity investment of up to US$5B** in Anthropic while Anthropic committed to deploy **up to 2 GW** of AMD Instinct MI450 / Helios capacity, with first-gigawatt deployment beginning in 1H27.[^9] The equity figure is a maximum strategic-investment commitment, not infrastructure CapEx, revenue, or proof that the full amount has already been funded; the 2 GW figure is a deployment commitment, not utilized load.
+
+Taken together, AMD's lease guarantees and Anthropic equity commitment show that **supplier-assisted financing can combine credit support, strategic equity, and anchor-demand commitments**. The mechanism is therefore broader than NVIDIA's financing structures, even though each instrument carries a different denominator and risk transfer.
+
 NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested **nearly US$50B** in frontier AI labs and discussed selective credit enhancement for **nearly 2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
 These disclosures support a distinct analytical mechanism:
@@ -237,3 +241,5 @@ Additional headline capital targets are not sufficient. The higher-quality confi
 [^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and first service expected beginning in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^8]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
+
+[^9]: AMD and Anthropic, 2026-07-22, up to US$5B AMD strategic equity investment in Anthropic alongside up to 2 GW of AMD Instinct MI450 / Helios deployment, first gigawatt beginning in 1H27, https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/
