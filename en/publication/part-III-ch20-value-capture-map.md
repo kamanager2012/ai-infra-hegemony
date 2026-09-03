@@ -194,7 +194,7 @@ A long-duration PPA can be a hedge or moat in high-demand scenarios and a long-d
 
 Model companies and AI applications own model capability, APIs, user distribution, and workflow entry points.
 
-They also face open-source competition, inference/retrieval/tool costs, cloud bargaining, and rapid price compression.
+They also face open-model / open-weight competition, inference/retrieval/tool costs, cloud bargaining, and rapid price compression.
 
 Traditional SaaS margins cannot simply be transferred onto AI applications.
 
