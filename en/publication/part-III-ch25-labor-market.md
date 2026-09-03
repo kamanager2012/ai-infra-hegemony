@@ -30,6 +30,12 @@ This evidence must be read narrowly:
 - hiring cycles, macro conditions, graduate supply, and organizational restructuring can also affect the observed change;
 - it does not establish that AI alone caused a 20% decline.
 
+A more direct August 12, 2026 update from the Stanford Digital Economy Lab uses high-frequency ADP payroll data covering millions of U.S. workers through June 2026.[^5] It reports that employment among workers aged **22–25 in highly AI-exposed occupations stands about 19% below where it would be if it had kept pace with less-exposed peers**. Experienced workers show no comparable gap. The divergence appears to operate primarily through **reduced hiring rather than increased separations**, and the authors find no evidence of widespread economy-wide job displacement.[^5]
+
+This is a broader age-by-exposure comparison than the software-developer series summarized by the AI Index above; the two denominators should not be treated as the same statistic.
+
+The authors explicitly characterize the payroll patterns as **early descriptive indicators rather than causal estimates**. The result therefore strengthens the hiring-pipeline mechanism without proving that AI alone caused the employment divergence.
+
 Anthropic's June 2026 Economic Index provides a different early signal: respondents who use Claude in more automated ways tend to anticipate that AI will be able to perform a larger share of their tasks over the next 12 months.[^4] Anthropic explicitly notes that the survey is not representative of the general population and over-represents computer/mathematical and management occupations.
 
 The defensible 2026 judgment remains:
@@ -149,9 +155,9 @@ More useful observables include:
 
 ## 12. Current read
 
-As of 2026, the cited evidence supports the narrower conclusion that AI exposure and task-level use are already affecting parts of workflow design and hiring pipelines.
+As of 2026, the cited evidence supports the narrower conclusion that AI exposure and task-level use are already affecting parts of workflow design and that measurable early-career hiring-pipeline divergence is visible in highly exposed occupations.
 
-There is not enough cross-country evidence to support a universal "economy-wide job disappearance rate."
+There is still not enough evidence to attribute that divergence entirely to AI or to support a universal "economy-wide job disappearance rate."
 
 The correct sequence remains:
 
@@ -165,3 +171,6 @@ Any framework that converts an exposure percentage directly into an unemployment
 [^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note SDN/2024/001, January 2024, https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf
 [^3]: Stanford HAI, “2026 AI Index Report — Economy,” early-career software-developer employment and employer workforce expectations, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, reported and anticipated task exposure among Claude users; survey explicitly not representative of the general population, https://www.anthropic.com/research/economic-index-june-2026-report
+
+
+[^5]: Erik Brynjolfsson, Bharat Chandar, and Ruyu Chen, “Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence,” Stanford Digital Economy Lab, revised 2026-08-12; ADP payroll data through June 2026. The authors explicitly describe the results as early descriptive indicators rather than causal estimates, https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/
