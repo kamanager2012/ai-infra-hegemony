@@ -88,7 +88,7 @@ Micron's June 24, 2026 investor presentation provides a useful quantitative anch
 - Micron states that humanoid robots carry roughly **10×** the memory content of an average L2+ vehicle;
 - the company expects a sustained, multi-decade robotics memory-demand cycle to begin in the latter part of this decade.
 
-This is not industry-wide actual shipment data and it does not establish a universal "hundreds of GB of DRAM + several TB of SSD per robot" configuration.
+This is not industry-wide actual shipment data, nor does it establish a universal "hundreds of GB of DRAM + several TB of SSD per robot" configuration.
 
 What it supports is the mechanism:
 
@@ -113,7 +113,7 @@ It can face two upstream constraint sets at once:
 
 > **industrial-electronics supply pressure + edge-AI compute / memory pressure**
 
-This is why robotics deployment cannot be inferred from model capability alone. Even if cloud training and edge models improve rapidly, lead times and supply continuity in MCU, sensors, actuator electronics, qualified memory, or other industrial components can still constrain mass deployment.
+This is why robotics deployment cannot be inferred from model capability alone. Even if cloud training and edge models improve rapidly, lead times and supply continuity in MCUs, sensors, actuator electronics, qualified memory, or other industrial components can still constrain mass deployment.
 
 The reverse attribution error must also be avoided: an industrial-component shortage is not automatically caused by AI. Attribution still requires the shared-resource, product-mix, or allocation evidence defined in Chapters 3 and 21.
 
@@ -179,7 +179,7 @@ By the 2026-08-28 evidence cutoff, the production evidence had moved beyond demo
 
 **BMW / Figure 02.** BMW reports that Figure 02 operated at Plant Spartanburg over roughly ten months, working 10-hour shifts Monday–Friday, accumulating about **1,250 operating hours**, moving more than **90,000 components**, and contributing to production of more than **30,000 BMW X3 vehicles**.[^5] BMW also disclosed that production integration required safety and infrastructure changes, including additional barriers / partitions, improved 5G coverage, early involvement of occupational-safety and production-IT teams, and standardized integration into the BMW Smart Robotics ecosystem.[^5]
 
-This is strong evidence that a frontier humanoid can move from a demonstration into a repeated, real production workflow.
+This is strong evidence that a frontier humanoid can move from a demonstration into a repeated production workflow in a real factory setting.
 
 It is **not** yet a full production-economics proof because the public evidence does not disclose:
 
@@ -199,11 +199,11 @@ This closes a different part of the chain:
 
 But it is evidence for **AI-enhanced mature warehouse robotics**, not proof that humanoid/general-purpose robots already have equivalent economics. A 10% travel-time improvement also cannot be converted mechanically into a 10% labor-cost or total-cost reduction.
 
-**GXO / Digit.** GXO's 2024 multi-year Robots-as-a-Service agreement with Agility Robotics moved Digit from a proof-of-concept into a commercial live-warehouse deployment, where robots unload totes from AMRs and place them onto conveyors.[^7] That provides independent customer-side evidence of commercial deployment identity, but the public customer disclosure still does not provide the uptime / intervention / TCO fields needed for full ROI closure.
+**GXO / Digit.** GXO's 2024 multi-year Robots-as-a-Service agreement with Agility Robotics moved Digit from a proof-of-concept into a live commercial warehouse deployment, where robots unload totes from AMRs and place them onto conveyors.[^7] That provides independent customer-side evidence of commercial deployment identity, but the public customer disclosure still does not provide the uptime / intervention / TCO fields needed for full ROI closure.
 
 The evidence boundary is therefore now more precise:
 
-> **Narrow production-grade Physical AI is real. Broad reliability, safety, TCO, and fleet-economics closure is not yet publicly demonstrated at the same standard.**
+> **Narrow production-grade Physical AI is real. Broad reliability, safety, TCO, and fleet-economics closure is not yet publicly demonstrated to the same standard.**
 
 ## 10. China's Physical-AI stack differs from its frontier-AI stack
 
