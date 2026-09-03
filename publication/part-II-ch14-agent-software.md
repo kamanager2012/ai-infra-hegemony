@@ -132,9 +132,9 @@ loop depth 增加时，compute、tool usage 和 failure surface 一起上升。A
 
 routing 本质上是在质量、latency、cost 和 failure probability 之间动态分配资源。
 
-## 7. Open Source 会把 Profit 推向 Workflow / Distribution
+## 7. Open Model 会把 Profit 推向 Workflow / Distribution
 
-open-source model 提高 model portability，压低 API premium，也增加 private deployment 与 buyer bargaining power。
+open-model 与 open-weight availability 提高 model portability，压低 API premium，也增加 private deployment 与 buyer bargaining power。
 
 model capability 本身越来越难成为永久软件 margin。
 
@@ -229,7 +229,7 @@ AI 正在把一部分 software 从低边际成本复制品变成实时消耗 com
 
 ## 交叉引用
 
-- [第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)
+- [第10章：模型单位经济、算法效率与开放模型竞争](part-II-ch10-model-economics.md)
 - [第12章：Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
 - [第20章：Value Capture Map](part-III-ch20-value-capture-map.md)
 - [第25章：AI 与劳动市场](part-III-ch25-labor-market.md)
