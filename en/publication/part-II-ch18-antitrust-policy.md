@@ -64,7 +64,7 @@ An RFI, market inquiry, or news report cannot be rewritten as "the regulator has
 
 ## 5. Cloud regulation is moving toward interoperability and switching
 
-The European Commission continued a DMA cloud-computing market investigation in 2026.[^3]
+The European Commission continued a **sector-wide Article 19 DMA market investigation into cloud computing** in 2026.[^3] This is a fact-finding exercise on whether existing DMA obligations are effective in cloud markets; it is **distinct from the separate potential-designation investigations involving AWS and Azure and is not an infringement finding against a named cloud provider**.
 
 On **July 1, 2026**, the Commission held a stakeholder roundtable covering cloud interoperability / technical features, financial conditions, and contractual / commercial practices. The final report is planned for **May 2027**.[^3][^4]
 
@@ -211,7 +211,7 @@ Conversely, a headline fine should not by itself increase regulatory weighting. 
 
 [^1]: EUR-Lex, Regulation (EC) No 1/2003, Article 23(2), https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32003R0001
 [^2]: European Commission, Article 102 investigation procedure, https://competition-policy.ec.europa.eu/antitrust-and-cartels/procedures/article-102-investigations_en
-[^3]: European Commission / Digital Markets Act, 2026 cloud-computing market-investigation roundtables, final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
+[^3]: European Commission / Digital Markets Act, sector-wide Article 19 cloud-computing market investigation / fact-finding exercise on the effectiveness of DMA obligations in cloud markets; distinct from separate potential-designation investigations involving AWS and Azure; final report due May 2027, https://digital-markets-act.ec.europa.eu/roundtables-cloud-computing-services-2026-05-13_en
 [^4]: European Commission / Digital Markets Act, stakeholder roundtable on cloud computing services, 2026-07-01, https://digital-markets-act.ec.europa.eu/commission-hosted-stakeholder-roundtable-cloud-computing-services-under-digital-markets-act-2026-07-01_en
 
 
