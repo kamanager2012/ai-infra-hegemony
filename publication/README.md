@@ -4,7 +4,7 @@
 
 **研究主题：** AI 算力扩张如何重配半导体、存储、先进封装、电力、资本与终端产能  
 **Evidence cutoff：** 2026-08-28  
-**Edition revision：** 2026-08-30  
+**Edition revision：** 2026-08-31  
 本版判断仅使用 cutoff 前可获得的证据；之后的修改属于纠错或编辑性调整，并在 research-transparency 记录中保留。
 
 本报告以 32 章连续正文分析 AI 基础设施从单颗 accelerator 竞争向 system-stack competition 演化后，对 advanced logic、HBM、advanced packaging、power、cloud architecture、资本形成、传统终端、中国 parallel stack、Agent-Native Software、Physical AI、劳动与人才体系，以及长期产业结构的影响。
