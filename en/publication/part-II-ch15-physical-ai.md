@@ -173,6 +173,38 @@ Physical AI and data-center AI share the same capital rule:
 
 The difference is that data-center bottlenecks are concentrated more heavily in compute / HBM / power, while robotics adds actuators, batteries, mechanical reliability, field service, and safety.
 
+## 9B. Production-grade evidence now exists — but full economic closure does not
+
+By the 2026-08-28 evidence cutoff, the production evidence had moved beyond demos in several important but narrow cases.
+
+**BMW / Figure 02.** BMW reports that Figure 02 operated at Plant Spartanburg over roughly ten months, working 10-hour shifts Monday–Friday, accumulating about **1,250 operating hours**, moving more than **90,000 components**, and contributing to production of more than **30,000 BMW X3 vehicles**.[^5] BMW also disclosed that production integration required safety and infrastructure changes, including additional barriers / partitions, improved 5G coverage, early involvement of occupational-safety and production-IT teams, and standardized integration into the BMW Smart Robotics ecosystem.[^5]
+
+This is strong evidence that a frontier humanoid can move from a demonstration into a repeated, real production workflow.
+
+It is **not** yet a full production-economics proof because the public evidence does not disclose:
+
+- intervention / takeover rate;
+- uptime / availability;
+- maintenance labor and parts;
+- safety incidents per operating hour;
+- human-equivalent cycle-time comparison;
+- all-in TCO or payback;
+- independently verified fleet economics across multiple customer factories.
+
+**Amazon / DeepFleet.** Amazon reported a robotics fleet of more than **one million robots across 300+ facilities** and introduced DeepFleet, a generative-AI foundation model used to coordinate robot movement across that mature fleet. Amazon reports roughly **10% improvement in robot travel-time efficiency**.[^6]
+
+This closes a different part of the chain:
+
+> **AI model → large physical fleet → multi-site deployment → measured process-efficiency change.**
+
+But it is evidence for **AI-enhanced mature warehouse robotics**, not proof that humanoid/general-purpose robots already have equivalent economics. A 10% travel-time improvement also cannot be converted mechanically into a 10% labor-cost or total-cost reduction.
+
+**GXO / Digit.** GXO's 2024 multi-year Robots-as-a-Service agreement with Agility Robotics moved Digit from a proof-of-concept into a commercial live-warehouse deployment, where robots unload totes from AMRs and place them onto conveyors.[^7] That provides independent customer-side evidence of commercial deployment identity, but the public customer disclosure still does not provide the uptime / intervention / TCO fields needed for full ROI closure.
+
+The evidence boundary is therefore now more precise:
+
+> **Narrow production-grade Physical AI is real. Broad reliability, safety, TCO, and fleet-economics closure is not yet publicly demonstrated at the same standard.**
+
 ## 10. China's Physical-AI stack differs from its frontier-AI stack
 
 Physical AI depends heavily on motors, batteries, sensors, manufacturing, consumer-electronics supply chains, and system integration.
@@ -206,3 +238,8 @@ The industrial test is:
 [^2]: NVIDIA, 2026-05-31, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 [^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Micron_Q3_26_Earnings_Deck.pdf
 [^4]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+
+
+[^5]: BMW Group, “BMW Group introduces humanoid robots – a first in Germany,” 2026-03-09; includes Figure 02 Spartanburg production results and integration lessons, https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html
+[^6]: Amazon, “Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot,” 2025-06-30, https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model
+[^7]: GXO Logistics, “GXO signs industry-first multi-year agreement with Agility Robotics,” 2024-06-27, https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/
