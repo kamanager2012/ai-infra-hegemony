@@ -22,18 +22,16 @@ DeepSeek-V3 一手披露：
 
 论文同时采用 **US$2/GPU-hour** 的假设；按这一论文假设做机械换算，**2.788M × US$2 = US$5.576M**。因此 US$5.576M 是基于论文参数的 **formal-training compute conversion / report-side arithmetic**，不是 DeepSeek 披露的完整企业研发成本。[^1]
 
-但这个数字不是完整企业研发成本。
+2.788M H800 GPU-hours **包含 formal pre-training、context extension 与 post-training compute**。DeepSeek 论文明确说明，这一 compute figure **排除了 prior research 与 ablation experiments**，因此不能被理解成完整 enterprise R&D cost。[^1]
 
-它不包含：
+完整企业研发成本还会包含论文未覆盖或未按该 compute figure 计入的项目，例如：
 
-- failed runs；
-- research iteration；
+- prior research / ablation experiments；
 - data engineering；
 - payroll；
 - networking；
 - storage；
 - cluster depreciation；
-- post-training；
 - inference infrastructure。
 
 这一案例真正说明的是：
