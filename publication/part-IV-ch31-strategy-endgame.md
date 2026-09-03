@@ -101,7 +101,7 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 |---|---|---|---|---|
 | S1 — Competitive Expansion | 多 system stack 共存，供给弹性与 portability 提高 | multi-stack execution、价格与性能优化 | application/workflow 与差异化供应商 | interoperability、竞争与多源供给 |
 | S2 — Baseline Concentration | 高增长与高集中并存，替代路线持续发展 | 主栈效率 + 可执行第二路径 | system platform、scarce layers，同时严控 duration | 扩容关键物理层并降低单点依赖 |
-| S3 — Resource Hegemony | 多层 scarcity、quantity assurance、switching cost 同时强化 | 提前锁 supply / power，同时提高迁移准备度 | scarce-capacity access 与协调能力溢价上升 | frontier supply continuity、power、国产/替代 stack |
+| S3 — Resource Hegemony | 多层 scarcity、quantity assurance / delivery access 集中、switching cost 与 financing coordination 同时强化，且 monetization 足以支撑 long-duration commitments | 提前锁 supply / power，同时提高迁移准备度 | scarce-capacity access 与协调能力溢价上升，同时显式监测 financing quality | frontier supply continuity、power、国产/替代 stack |
 | S4 — Capital Hard Landing | utilization、clearing、financing quality 同步恶化 | 避免长期过量 reservation，优先可变成本与现金流 | residual value、债务、refinancing、distressed assets | 防止低效项目长期占用电力/资本，利用低价算力扩散应用 |
 
 **Source:** 本报告 S1–S4 framework 与本章战略推导。  
