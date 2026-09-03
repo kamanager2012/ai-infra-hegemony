@@ -52,7 +52,7 @@ Hyperscaler alternative 的战略意义也在这里。Google、AWS、Microsoft�
 
 ### 1.2 AI/HPC 正在改变“下一单位资本投向哪里”
 
-TSMC 披露，2026 Q2 HPC 占 revenue **66%**，7 nm 及以下占 wafer revenue **77%**。
+TSMC 披露，2026 Q2 HPC 占 revenue **66%**，7 nm 及以下占 wafer revenue **77%**。[^rb1]
 
 这些指标不能推出 customer-level wafer allocation，但足以说明 advanced-compute demand 在 foundry economic mix 中的权重。
 
@@ -98,7 +98,7 @@ NARC 不是一个 universal percentage。它必须在每一个独立 physical po
 
 ### HBM 正好说明 denominator discipline 为什么重要
 
-Micron 披露，在 **same technology node / same number of bits** 条件下，HBM3E 大约需要 DDR5 **3× wafer supply**。
+Micron 披露，在 **same technology node / same number of bits** 条件下，HBM3E 大约需要 DDR5 **3× wafer supply**。[^rb2]
 
 ![图 3 — HBM3E 相对 DDR5 的 wafer-supply intensity](figures/fig-03-hbm-wafer-intensity.svg)
 
@@ -118,7 +118,7 @@ Micron 披露，在 **same technology node / same number of bits** 条件下，H
 
 当 customer-level HBM、packaging 或 rack allocation 无法从公开资料直接观察时，forward commitment 比“假设一个 fleet size 再机械相乘”更有证据价值。
 
-NVIDIA 披露的 manufacturing / supply / capacity commitments：
+NVIDIA 披露的 manufacturing / supply / capacity commitments：[^rb3]
 
 - 2026-01-25：**US$95.2B**
 - 2026-04-26：**US$119B**
@@ -158,7 +158,7 @@ Power 不能只作为 electricity-price input 分析。
 
 PORTS-Pike 的重要性不在于“已经有 4.25 GW AI load”，而在于它显示 land、power、shell、credit support 与 model-company demand 正在更早地被联合协调。
 
-但其 initial **4.25 IT-GW design capacity** 仍然是 planned future capacity，不是 2026 年已经 energized 或 utilized 的 load。
+但其 initial **4.25 IT-GW design capacity** 仍然是 planned future capacity，不是 2026 年已经 energized 或 utilized 的 load。[^rb4]
 
 因此，真正的 industrial advantage 不是“谁买了更多 power”，而是：
 
@@ -356,3 +356,11 @@ Evidence 同时分为：
 它不是 permanent monopoly，不是自动 competitive diffusion，也不是已经被证实的 Capital Hard Landing。
 
 完整 evidence、denominator、counterargument 与 falsification boundary，见[32 章中文版](README.md)、[图表目录](01-list-of-figures.md)与[核心证据台账](../核心证据台账.md)。
+
+
+## Source anchors
+
+[^rb1]: TSMC，2Q26 Management Report，HPC 66%、smartphone 22% 与 7 nm 及以下 technology mix，https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf
+[^rb2]: Micron Technology，FY24 Q2 Prepared Remarks，same node / same bits 条件下 HBM3E 相对 DDR5 的 wafer-supply intensity，https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
+[^rb3]: NVIDIA Corporation，FY26 Form 10-K 与 FY27 Q2 Form 10-Q，aggregate manufacturing / supply / capacity commitments，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^rb4]: NVIDIA / SB Energy，PORTS-Pike Exhibit 99.1，2026-08-17，initial 4.25 IT-GW design capacity 与 phased buildout，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
