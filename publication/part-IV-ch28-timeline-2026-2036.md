@@ -25,7 +25,7 @@
 - 四大云厂公开资本投入指标仍处高位，但必须保留各自 actual / guidance / expectation 身份；[^8]
 - power / LPS project 已出现约 835 MW、up to 1,920 MW、up to 500 MWe，以及 PORTS-Pike initial 4.25 IT-GW design capacity 等不同成熟度路径；[^9]
 - TrendForce **预计** HBM + RDIMM 约占 2026 DRAM bit supply **51%**；
-- Sony FY2026 hardware planning 已把 PS5 unit-sales / promotion flexibility 与可按合理价格获得的 memory volume 直接联系。[^10]
+- Sony FY2026 hardware planning 已把 PS5 unit-sales / promotion flexibility 与可按合理价格获得 memory 直接联系；但同日 earnings Q&A 也明确 **FY26 所需 memory volume 已经 secured**，pricing 已在一定程度上达成协议。[^10]
 
 这个阶段的核心问题是：
 
@@ -203,4 +203,4 @@ Crane、Talen/AWS、Kairos/Google、PORTS-Pike 等项目都必须按当前 state
 [^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
 
-[^10]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^10]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf

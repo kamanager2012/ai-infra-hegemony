@@ -209,12 +209,15 @@ Sony stated in its FY2025 Q4 / FY2026 outlook that:
 - cumulative PS5 unit sales exceeded **93 million units** by March 2026;
 - FY26 PS5 hardware sales would be based on the volume of memory it could procure at **reasonable prices**;
 - if conditions changed, it would manage profitability by adjusting **unit sales and promotional plans**.[^27]
+- in the same earnings Q&A, Sony said it had **already secured the memory volumes necessary for FY26**, with pricing agreed to a certain extent.[^27]
 
 Sony's FY2025 Form 20-F also identifies global memory-semiconductor price increases and supply shortages since the second half of FY2025 as a business risk, and notes that shortages or delayed shipments of critical or custom components can reduce or suspend production where supplier or production capacity is limited.[^29]
 
 This is unusually strong first-party transmission evidence because it links:
 
 > **memory procurement → hardware volume / promotion → hardware profitability**
+
+The counterevidence matters: **Sony's disclosed FY26 state is not an unresolved PS5 quantity shortfall.** The transmission mechanism is currently expressed through procurement cost, pricing / promotion flexibility, and future supply conditions rather than evidence that FY26 required volume remains unsecured.
 
 TrendForce's December 2025 institutional outlook for the 2026 console market additionally estimated:
 
@@ -480,7 +483,7 @@ The final boundary is:
 [^24]: PlayStation, PS5 official specifications, custom AMD Zen 2 / RDNA-based processor, 16 GB GDDR6 and custom SSD, https://www.playstation.com/content/dam/global_pdc/en-gb/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en-gb.pdf
 [^25]: Xbox, Xbox Series X official technical specifications, custom Zen 2 / RDNA 2 processor, 16 GB GDDR6 and 1–2 TB custom NVMe SSD, https://www.xbox.com/en-US/consoles/xbox-series-x
 [^26]: Nintendo, Nintendo Switch 2 official technical specifications, custom NVIDIA processor and 256 GB UFS storage, https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/
-[^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware sales based on memory volume procurable at reasonable prices and flexible unit-sales / promotion management, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware sales based on memory volume procurable at reasonable prices and flexible unit-sales / promotion management, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
 [^28]: TrendForce, 2025-12-02, Memory Price Surge Squeezes Game Console Margins; 2026 Shipment Forecast Revised Downward, https://www.trendforce.com/presscenter/news/20251202-12811.html
 
 

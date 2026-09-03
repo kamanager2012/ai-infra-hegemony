@@ -199,7 +199,7 @@ CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts�
 
 ### Demand Quality / Financing
 
-customer cash generation、third-party capital risk-taking、supplier equity / credit enhancement、refinancing dependency、asset transferability。
+customer cash generation、third-party capital risk-taking、supplier equity / credit enhancement、refinancing dependency、asset transferability、Anchor Buyer utilization。
 
 只有**多类因果独立的信号族**跨主体/层级形成广泛、持续且相互印证的恶化，S4 才从 stress test 升级为主情景。五类信号是 monitoring families，不是“五项必须全部满足”的硬门槛；Accounting 是 confirmation / severity evidence，不是 prerequisite。
 
@@ -223,6 +223,8 @@ customer cash generation、third-party capital risk-taking、supplier equity / c
 ### 代表性一手锚：Game Console
 
 Sony FY2025 Q4 / FY2026 outlook 已明确把 PS5 FY26 hardware sales 与可按合理价格获得的 memory volume 联系，并表示可以通过 unit sales / promotional plans 调整 hardware profitability。[^14]
+
+同日 earnings Q&A 又明确表示，Sony **FY26 所需的 memory volume 已经 secured**，pricing 也已在一定程度上达成协议。[^14] 因此当前 monitoring read 应是 **cost / promotion / future-supply pressure，而不是 FY26 PS5 quantity shortfall 仍未解决**。
 
 这使 game console 成为当前最干净的 end-system monitoring anchor 之一：
 
@@ -363,7 +365,7 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 [^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
 
-[^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
 [^15]: TrendForce, 2025-12-02, 2026 game-console shipment forecast and estimated console memory-cost share of BOM, B-grade institutional forecast, https://www.trendforce.com/presscenter/news/20251202-12811.html
 
 [^16]: TSMC, 4Q25 Presentation / Earnings Conference, 5 nm / 7 nm 2025 technology mix and HPC / smartphone YoY platform growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf ; https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf

@@ -25,7 +25,7 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
 - power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1,920 MW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
 - TrendForce **forecasting** HBM + RDIMM at roughly **51% of 2026 DRAM bit supply**;
-- Sony's FY2026 hardware planning directly linking PS5 unit-sales / promotional flexibility to memory volume procurable at reasonable prices.[^10]
+- Sony's FY2026 hardware planning directly linking PS5 unit-sales / promotional flexibility to memory procurement at reasonable prices, while the same earnings Q&A states that **the memory volumes necessary for FY26 had already been secured** and pricing agreed to a certain extent.[^10]
 
 The central question is:
 
@@ -209,4 +209,4 @@ Until these thresholds are materially clearer, 2036 should remain a conditional 
 [^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
 
-[^10]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^10]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf

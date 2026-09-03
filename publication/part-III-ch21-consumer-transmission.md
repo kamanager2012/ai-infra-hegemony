@@ -262,12 +262,15 @@ Sony 在 FY2025 Q4 / FY2026 outlook 中明确表示：
 - 截至 2026 年 3 月，PS5 cumulative unit sales 已超过 **93 million**；
 - FY26 PS5 hardware sales 将以公司能够按**合理价格采购到的 memory volume**为基础；
 - 如果条件变化，公司将通过调整 **unit sales 与 promotional plans** 管理 hardware profitability。[^27]
+- 同日 earnings Q&A 中，Sony 又明确表示 **FY26 所需的 memory volume 已经 secured**，pricing 也已在一定程度上达成协议。[^27]
 
 这是一条强一手传导证据，因为它把：
 
 > **memory procurement → hardware volume / promotion → hardware profitability**
 
 直接连在一起。
+
+这个 counterevidence 必须保留：**Sony 当前披露的 FY26 状态并不是 PS5 所需 memory quantity 仍未解决。** 当前 transmission 更准确地体现在 procurement cost、pricing / promotion flexibility 与未来 supply condition，而不是“FY26 必需 volume 仍没有锁定”。
 
 Sony 2026 年 20-F 还把自 2025H2 以来的全球 memory semiconductor 涨价与 supply shortage 列为 G&NS 等业务风险，并明确提到 custom parts、limited production capacity 等条件可能导致生产下降或中断。[^29]
 
@@ -566,7 +569,7 @@ TrendForce 2025–2026 同时观察到 nearline HDD supply shortage 与高容量
 [^24]: PlayStation, PS5 official specifications, custom AMD Zen 2 / RDNA-based processor, 16 GB GDDR6 and custom SSD, https://www.playstation.com/content/dam/global_pdc/en-gb/corporate/support/manuals/ps5-docs/2100ab/CFI-21XX_PS5_Instruction_Manual_Web%24en-gb.pdf
 [^25]: Xbox, Xbox Series X official technical specifications, custom Zen 2 / RDNA 2 processor, 16 GB GDDR6 and 1–2 TB custom NVMe SSD, https://www.xbox.com/en-US/consoles/xbox-series-x
 [^26]: Nintendo, Nintendo Switch 2 official technical specifications, custom NVIDIA processor and 256 GB UFS storage, https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/
-[^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 cumulative sales above 93 million and FY26 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^27]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 cumulative sales above 93 million and FY26 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
 [^28]: TrendForce, 2025-12-02, Memory Price Surge Squeezes Game Console Margins; 2026 Shipment Forecast Revised Downward, https://www.trendforce.com/presscenter/news/20251202-12811.html
 [^29]: Sony Group, FY2025 Form 20-F, global memory-semiconductor price increases / shortages and component-capacity risk, https://www.sony.com/en/SonyInfo/IR/library/FY2025_20F_PDF.pdf
 [^30]: IDC, 2026-08-26, Smartphone Shipments Set for Record 16.7% Drop in 2026, as the Memory Crisis Hits Full Force, https://www.idc.com/resource-center/blog/smartphone-shipments-set-for-record-16-7-drop-in-2026-as-the-memory-crisis-hits-full-force/

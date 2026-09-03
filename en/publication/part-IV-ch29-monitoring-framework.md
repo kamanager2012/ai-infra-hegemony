@@ -236,6 +236,8 @@ If the report's downstream question is whether important end systems can still o
 
 Sony's FY2025 Q4 / FY2026 outlook explicitly links FY26 PS5 hardware sales to memory volume procurable at reasonable prices and states that unit sales / promotional plans can be adjusted to manage hardware profitability.[^14]
 
+The same earnings Q&A states that Sony had **already secured the memory volumes necessary for FY26** and had agreed pricing to a certain extent.[^14] The current monitoring read is therefore **cost / promotion / future-supply pressure, not an unresolved FY26 PS5 quantity shortfall**.
+
 That creates one of the cleanest current end-system monitoring chains:
 
 > **memory procurement → hardware volume / promotion → profitability**
@@ -376,6 +378,6 @@ This keeps the report updateable without reclassifying the industry after every 
 [^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
 
-[^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
+[^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
 [^15]: TrendForce, 2025-12-02, 2026 game-console shipment forecast and estimated console memory-cost share of BOM, B-grade institutional forecast, https://www.trendforce.com/presscenter/news/20251202-12811.html
 [^16]: TSMC, 4Q25 Presentation / Earnings Conference, 5 nm / 7 nm 2025 technology mix and HPC / smartphone YoY platform growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf ; https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
