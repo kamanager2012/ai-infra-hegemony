@@ -66,7 +66,7 @@ The near-term value of SMRs therefore lies mainly in future optionality; they sh
 
 On **August 17, 2026**, NVIDIA disclosed a different infrastructure structure at the PORTS-Pike Technology Campus: NVIDIA is providing credit support for land, power, and shell buildout with SB Energy; the initial deployment is designed to support **4.25 IT-GW**; OpenAI will use the site; and SB Energy will build, own, and operate the data center.[^7]
 
-Planned capacity is expected to come online in phases beginning in **2028**.
+The August 17 announcement described phased capacity beginning in **calendar 2028**. NVIDIA's later FY27 Q2 Form 10-Q states that the first guarantee/service phase is expected in **fiscal 2029**; those time identities are compatible and should not be treated as separate delivery milestones.
 
 This makes secured LPS a more direct precursor to deployable compute than a generic headline PPA. But **4.25 IT-GW is still design / planned capacity, not 2026 energized or utilized AI load**.
 
@@ -81,7 +81,7 @@ The project numbers above do not share one physical identity. Generation MW/MWe,
 | Crane / Microsoft | ~835 MW | restart + regulatory process |
 | Talen / AWS | up to 1,920 MW | revised-PPA transition / ramp |
 | Kairos / Google | up to 50 MWe starting in 2030; up to 500 MWe by 2035 | long-duration development |
-| PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / future phased buildout from 2028 |
+| PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / announcement-stage phased buildout from calendar 2028; first guarantee/service phase expected in fiscal 2029 |
 
 **Source:** Constellation, Talen Energy, Kairos Power / Google, and NVIDIA.[^2][^3][^4][^5][^7]  
 **Note:** Generation MW/MWe, PPA capacity, and IT-GW design capacity are different physical quantities. Their contract, permitting, construction, energization, and utilization states must remain separate.
@@ -195,7 +195,7 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up: 2026 Edition,” active U.S. generation/storage interconnection queue, https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf
-[^7]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and phased buildout, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
+[^7]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and announcement-stage phased buildout from calendar 2028, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm ; NVIDIA Corporation, FY27 Q2 Form 10-Q, guarantees phasing in across nine data centers with the first expected in fiscal 2029 and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
 [^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary
