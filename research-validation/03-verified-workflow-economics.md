@@ -957,7 +957,7 @@ workflow_id
 → realized business value
 ```
 
-本轮优先审计了最接近闭环的公开候选。
+This pass prioritizes the public candidates closest to full workflow-economic closure.
 
 | Candidate | Stable workflow / task ID | AI / tool cost at same ID | Human time | Verification / accepted output | Persistence | Realized business value | Closure verdict |
 |---|---|---|---|---|---|---|---|
