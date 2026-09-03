@@ -114,6 +114,8 @@ OpenAI Stargate、Anthropic/AWS 等长期容量承诺使模型公司从普通租
 
 NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500B third-party capital mobilization，另一方面在 PORTS-Pike 提供 LPS credit support，并在 FY27 Q2 earnings call 中披露对 frontier AI labs 的大规模投资与 selective credit enhancement。[^5][^6][^7]
 
+后续 filing 又补上 denominator boundary。NVIDIA FY27 Q2 Form 10-Q 对 PORTS-Pike lease guarantees 的 aggregate obligations 设定 **US$105B** 上限，覆盖约 **4.25 GW IT load** 的 leases。[^11] AMD Q2 2026 Form 10-Q 独立披露，与部分 commercial-partner data-center lease obligations 相关 guarantees 的 **maximum gross exposure 为 US$4.1B**。[^12] 两者都是 maximum guarantee exposure，不是 funded CapEx 或 independently financed end demand。cross-vendor evidence 因此把 Financing Reflexivity 从单一 supplier 案例扩展为行业结构，但这些数字仍不能加总。
+
 这并不证明需求是“虚假的”。
 
 真正需要追踪的是：
@@ -150,7 +152,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 | weakening | risk appetite / refinancing terms 恶化 | materially rising | supplier support 可能让 order visibility 强于 end economics | 强化 Demand Quality / Financing family |
 | utilization 与 clearing 同步偏弱 | independent capital 撤出或要求大幅 repricing | support 仍无法恢复 execution / cash flow | 从融资加速转向 capital clearing | 与其他 signal family 交叉确认时构成强 S4 evidence |
 
-**Source:** 本章融资结构上的 report evidence framework.[^5][^6][^7]  
+**Source:** 本章融资结构上的 report evidence framework；外部披露建立的是 third-party-capital platforms / MOUs、seller credit support、guarantee exposure、equity exposure 与 selective credit enhancement，不直接给出 matrix 的四种 interpretation row。[^5][^6][^7][^11][^12]  
 **Note:** 任何一行都不能由单一披露触发，需要看时间方向与 cross-signal confirmation。若未来某个具体项目公开了 same-denominator financing stack，可以计算 project-level ratio；在此之前，matrix 比 synthetic percentage 更可审计。
 
 实际判据是：
@@ -183,7 +185,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 ## 10. Current View
 
-截至 2026 年 8 月，公开事实仍更符合**高强度资本扩张处在不断上升的 ROI 压力之下**，而不是已经确认的 AI-infrastructure capital collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3] supply/capacity commitments 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
+截至 2026 年 8 月，公开事实仍更符合**高强度资本扩张处在不断上升的 ROI 压力之下**，而不是已经确认的 AI-infrastructure capital collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3]披露的 **forward supply / capacity commitment family** 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
 
 这不证明未来一定软着陆。它只说明：在缺少 real-economy、market-clearing、commitment 与 financing evidence 的 **cross-signal confirmation 和 cross-actor causal breadth** 时，不能把 capital clearing 当作 dominant regime。Accounting loss 出现时会强化 severity assessment，但不是确认 S4 的必要条件。
 
@@ -199,3 +201,7 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 [^8]: NVIDIA Corporation, FY26 Form 10-K, H20-related charges including US$4.5B recorded in FY26 Q1, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 [^9]: OpenAI, “Announcing The Stargate Project,” 2025-01, long-duration U.S. AI-infrastructure buildout, https://openai.com/index/announcing-the-stargate-project/
 [^10]: Anthropic, “Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute,” 2026-04-20, >US$100B over ten years and up to 5 GW of new compute capacity, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
