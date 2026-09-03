@@ -56,7 +56,7 @@ This hierarchy is deliberate: **coverage is broad, but the report does not prete
 
 ## Part II — Demand, Substitution, and the Second System Stack
 
-10. [Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
+10. [Model Unit Economics, Algorithmic Efficiency, and Open-Model Competition](part-II-ch10-model-economics.md)
 11. [NVIDIA's Expansion from Accelerator Vendor to AI Factory](part-II-ch11-nvidia-ai-factory.md)
 12. [The Second System Stack — How Hyperscaler Substitution Actually Works](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyers — How Long-Duration Demand Pulls Infrastructure Forward](part-II-ch13-anchor-compute-buyer.md)
