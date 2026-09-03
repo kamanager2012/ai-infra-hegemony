@@ -154,7 +154,7 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 |---|---|---|---|
 | S1 — Competitive Expansion | supply elasticity、multi-sourcing、portability 上升 | value capture 更分散，buyer optionality 提高 | scarce-layer tightness 重新强化、migration cost 回升 |
 | S2 — Baseline Concentration | demand 强、dominant platforms 强、替代持续但不完全 | 高增长与集中并存 | supply/substitution 明显改善或 ROI/commitments 同步恶化 |
-| S3 — Resource Hegemony | 多层 scarcity + switching cost + forward reservation / financing coordination 强化 | layer-specific capacity access 更集中，后来者复制成本提高 | capacity access 分散、open interfaces 显著降低迁移成本 |
+| S3 — Resource Hegemony | 多层 scarcity + quantity assurance / delivery access 集中 + switching cost + financing coordination 同时强化，且 monetization 足以支撑 long-duration commitments | scarce-capacity access 更集中，后来者复制成本提高 | capacity access 分散、financing dependence 下降、open interfaces 显著降低迁移成本 |
 | S4 — Capital Hard Landing | utilization / monetization 弱于资本基数，且 demand financing quality 恶化 | clearing、orders、CapEx 与资产价值下行，refinancing pressure 上升 | utilization、clearing price、financing independence 和 forward commitments 恢复 |
 
 **Source:** 本报告 S1–S4 scenario framework。  
