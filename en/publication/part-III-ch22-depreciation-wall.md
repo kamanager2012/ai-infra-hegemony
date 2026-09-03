@@ -141,6 +141,8 @@ By August 2026, public disclosures show AI-infrastructure formation using or pla
 - long-duration customer contracts;
 - supplier equity / credit enhancement.[^8][^9][^10]
 
+The risk-transfer layer is now observable across more than one supplier. NVIDIA's FY27 Q2 Form 10-Q caps aggregate obligations under PORTS-Pike lease guarantees at **US$105B** across leases covering approximately **4.25 GW of IT load**, while AMD's Q2 2026 Form 10-Q reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^11][^12] Both figures are maximum guarantee exposures, not funded CapEx, current cash outflow, or realized loss; they therefore cannot be added mechanically to infrastructure investment totals.
+
 This is a **structure inventory**, not a time-series claim that every category is increasing at the same rate across the industry.
 
 Those structures change where depreciation, lease expense, interest cost, and residual-value risk appear.
@@ -181,3 +183,7 @@ The depreciation wall becomes materially more dangerous when sustained utilizati
 [^8]: Microsoft, FY26 Q4 earnings conference call, operating-lease / CapEx classification change and approximately US$175B calendar-2026 CapEx expectation, https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 [^9]: NVIDIA, 2026-08-10, announced compute-financing partnerships / MOUs targeting more than US$500B of third-party capital mobilization over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^10]: NVIDIA, 2026-08-17, PORTS-Pike seller credit support / equity / long-duration customer structure, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
