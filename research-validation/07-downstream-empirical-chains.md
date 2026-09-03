@@ -1,4 +1,4 @@
-# P2 · Downstream Empirical Chains v0.2
+# P2 · Downstream Empirical Chains v0.3
 
 > **Status:** Research-side evidence map; not part of the frozen formal report.  
 > **Goal:** strengthen Labor (Ch25), Education (Ch26), and Physical AI (Ch15) without pretending that the evidence is as mature as semiconductors, memory, packaging, power, or CapEx.
@@ -228,9 +228,178 @@ A case should provide:
 
 A demo video or benchmark score cannot fill these fields.
 
-### Why Physical AI remains the weakest downstream chapter
+### Production-grade Physical AI evidence added in v0.3
 
-Most frontier Physical AI announcements still emphasize:
+The evidence base is now strong enough to separate three different production states instead of treating all "Physical AI" as one category.
+
+#### A. AI-enhanced mature robotics fleet — Amazon DeepFleet
+
+Amazon reported in June 2025 that its robotics fleet had reached more than **1 million robots across more than 300 facilities**.
+
+The same first-party release introduced **DeepFleet**, which Amazon describes as a generative-AI foundation model coordinating robot movement across its fulfillment network.
+
+Reported process effect:
+
+- robot travel time / fleet movement efficiency improved by about **10%**;
+- the objective is reduced congestion, faster processing and lower operating cost.
+
+This is unusually important because the chain is no longer:
+
+```text
+AI model
+→ demo robot
+```
+
+It is:
+
+```text
+AI model
+→ existing physical fleet
+→ multi-site deployment
+→ measured process-efficiency change
+```
+
+But the denominator must remain precise.
+
+This is evidence for:
+
+> **AI-enhanced mature warehouse robotics at fleet scale.**
+
+It is **not** evidence that:
+- humanoid robots already have the same production economics;
+- every robot in the one-million fleet runs one identical foundation-model control stack;
+- 10% travel-time improvement equals 10% labor or total-cost reduction;
+- the improvement is independently audited.
+
+#### B. Frontier humanoid on a live automotive production line — BMW / Figure 02
+
+BMW's 2026 first-party materials provide one of the strongest current production-grade humanoid observations.
+
+BMW reports that Figure 02 at Plant Spartanburg:
+
+- operated over roughly **10 months**;
+- worked **10-hour shifts, Monday–Friday**;
+- accumulated about **1,250 operating hours**;
+- moved more than **90,000 components**;
+- contributed to production of more than **30,000 BMW X3 vehicles**;
+- performed repeatable sheet-metal positioning tasks with millimetre-level precision.
+
+This crosses several arrows in the Physical-AI evidence chain:
+
+```text
+capability
+→ realistic task success
+→ repeated shift operation
+→ real production-line contribution
+```
+
+BMW also disclosed integration lessons that matter for production economics:
+
+- revised safety concepts with additional barriers / partitions;
+- improved 5G coverage;
+- early involvement of production IT, occupational safety, production-process management and shop-floor logistics;
+- integration into BMW's Smart Robotics ecosystem through standardized interfaces.
+
+That is evidence that:
+
+> **deployment cost is not robot hardware alone; safety, connectivity, production IT and process integration are part of the operating system around the robot.**
+
+However, the public materials still do **not** provide:
+
+- task-level intervention / takeover rate;
+- uptime percentage;
+- MTBF / maintenance burden;
+- safety incidents per operating hour;
+- human-equivalent throughput denominator;
+- TCO / payback period;
+- unit labor-cost substitution;
+- fleet economics across multiple independent factories.
+
+Therefore the BMW/Figure case is:
+
+> **strong production-workflow evidence, partial reliability / integration evidence, incomplete unit-economics evidence.**
+
+#### C. Commercial humanoid logistics deployment — GXO / Agility Digit
+
+GXO first-party evidence shows a progression from:
+- proof-of-concept pilot in 2023;
+- to a **multi-year Robots-as-a-Service commercial agreement** in 2024;
+- to Digit robots operating in a live SPANX fulfillment environment alongside existing AMRs.
+
+The production task is concrete:
+
+> unloading totes from AMRs and placing them onto conveyors for downstream pack-out.
+
+Agility later reported:
+- more than **100,000 totes** moved at the GXO Flowery Branch deployment;
+- one-year full-time deployment milestone;
+- more than **65,000 aggregate operating hours** across deployment commitments at nine customer facilities.
+
+Evidence identity matters:
+
+- the commercial agreement / live-warehouse deployment is supported by **GXO first-party disclosure**;
+- the 100,000-tote and 65,000-hour figures are **Agility vendor-reported operational claims** and should not be promoted to independent customer-audited metrics.
+
+The case supports:
+
+```text
+pilot
+→ commercial contract
+→ repeated live workflow
+→ customer expansion intent
+```
+
+It still does not publicly close:
+
+```text
+intervention rate
++ uptime
++ safety denominator
++ TCO
++ labor substitution
++ independently verified ROI
+```
+
+#### D. New evidence hierarchy for Physical AI
+
+| Evidence state | Example | Current confidence |
+|---|---|---|
+| AI model on mature robot fleet with measured process effect | Amazon DeepFleet | **Strong for fleet-scale process effect; not humanoid/generalist** |
+| Frontier humanoid repeated live production workflow | BMW / Figure 02 | **Strong workflow deployment; partial reliability/integration; weak economics** |
+| Commercial humanoid RaaS + repeated logistics workflow | GXO / Digit | **Strong commercial/deployment identity; vendor-heavy operating metrics** |
+| Multi-customer fleet-hour claims | Agility 65k+ hours / nine facilities | **Directional vendor evidence; requires customer / audited denominators for stronger inference** |
+| Humanoid demo / pilot announcement without operating denominator | many frontier announcements | **Insufficient for production-economics claim** |
+
+### Physical-AI measurement gap after v0.3
+
+The weakest part of the chain has moved.
+
+Previously the gap was:
+
+> **Can frontier Physical AI operate repeatedly in a real production environment?**
+
+BMW / Figure and GXO / Digit now provide evidence that the answer is **yes for narrow production tasks**.
+
+The remaining high-value gap is now:
+
+> **Can those deployments demonstrate reliable, safe, economically superior operation at fleet scale?**
+
+The next decisive fields are:
+
+1. intervention / takeover per operating hour;
+2. uptime / availability;
+3. maintenance labor / parts;
+4. safety incident and near-miss denominator;
+5. cycle-time / units-per-hour comparison;
+6. energy consumption;
+7. all-in TCO / RaaS cost;
+8. human-equivalent labor and supervision cost;
+9. renewal / expansion based on measured ROI;
+10. same metrics across multiple independent customer sites.
+
+### Why Physical AI remains an incomplete downstream chain
+
+v0.3 materially strengthens the production-workflow layer, but most frontier Physical AI announcements still emphasize:
 - capability;
 - generalized policies;
 - demos;
@@ -240,7 +409,7 @@ The report needs **production economics**, not more showcase examples.
 
 Therefore the honest conclusion remains:
 
-> Physical AI has very large upside, but the causal chain from model capability to reliable, economical, scaled physical deployment is still incompletely observed.
+> Physical AI now has credible evidence of narrow production-grade deployments and, in mature warehouse robotics, AI-enhanced fleet-scale efficiency. What remains incompletely observed is the transition from repeated real-world task execution to independently verified reliability, safety, TCO and broad fleet economics.
 
 ---
 
@@ -252,7 +421,7 @@ Therefore the honest conclusion remains:
 | Software engineering | mixed, improving evidence | moderate | weak | weak |
 | Education | several RCT anchors | moderate | weak | weak |
 | Industrial robotics | mature deployment stats | strong for traditional robotics | strong in selected industries | strong historical evidence |
-| Frontier Physical AI | capability/pilot evidence | weak/moderate | weak | very weak |
+| Frontier Physical AI | capability + several real production deployments | **moderate/strong for narrow tasks** | **partial** | very weak |
 
 This table is intentionally asymmetric.
 
@@ -346,3 +515,13 @@ Until that chain exists, uncertainty should remain explicit.
 - Kestin, G. et al., **AI tutoring outperforms in-class active learning**, *Scientific Reports* 2025: https://doi.org/10.1038/s41598-025-97652-6
 - Wang, R. E. et al., **Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise**, 2025: https://doi.org/10.26300/81nh-8262
 - International Federation of Robotics, **World Robotics 2025**: https://ifr.org/worldrobotics/report-2025
+
+
+## Physical-AI production sources added in v0.3
+
+- BMW Group, 2026, Figure 02 / Spartanburg production deployment — ~1,250 operating hours, 90,000+ components, 30,000+ X3 vehicles, shift operation and integration/safety lessons: https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html
+- BMW Group press release, 2026-02-27 — standardized-interface integration and production/safety context: https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time
+- GXO, 2024-06-27 — multi-year Digit RaaS agreement and live warehouse task identity: https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/
+- Agility Robotics — Digit 100,000+ tote milestone at GXO; vendor-reported operational metric: https://www.agilityrobotics.com/content/digit-moves-over-100k-totes
+- Agility Robotics, 2026 — 65,000+ operating hours across deployment commitments at nine customer facilities; vendor-reported aggregate: https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi
+- Amazon, 2025-06-30 — one-million-robot fleet across 300+ facilities and DeepFleet ~10% robot-travel-time improvement: https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model
