@@ -2,10 +2,10 @@
 -- It changes presentation, not research content.
 
 local part_titles = {
-  ["1"]  = "Part I\\System Power and Physical Scarcity",
-  ["10"] = "Part II\\Demand, Substitution, and the Second System Stack",
-  ["19"] = "Part III\\Capital Cycles, Profit Pools, and External Transmission",
-  ["27"] = "Part IV\\Method, Scenarios, Monitoring, and Strategy"
+  ["1"]  = "Part I -- System Power and Physical Scarcity",
+  ["10"] = "Part II -- Demand, Substitution, and the Second System Stack",
+  ["19"] = "Part III -- Capital Cycles, Profit Pools, and External Transmission",
+  ["27"] = "Part IV -- Method, Scenarios, Monitoring, and Strategy"
 }
 
 local report_title = "AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook"
