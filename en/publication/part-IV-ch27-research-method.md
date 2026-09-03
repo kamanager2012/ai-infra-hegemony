@@ -146,7 +146,7 @@ That is a system specification. Without a verified deployment count, it cannot b
 
 ### Guidance / expectation ≠ actual
 
-Company guidance must retain its guidance identity and cannot be combined with another company's TTM actuals into a single "already occurred" total.
+Company guidance must retain its guidance identity and cannot be combined with another company's TTM actuals into a single total presented as already realized.
 
 ### Physical Pool A ≠ Physical Pool B
 
@@ -183,7 +183,7 @@ For example, if CXMT's registration prospectus does not disclose an HBM product 
 
 It cannot be expanded into "the company has no HBM R&D."
 
-Negative evidence limits what can be confirmed. It does not prove absolute non-existence.
+Negative evidence limits what can be confirmed; it does not prove non-existence.
 
 ## 10. Forecasts, guidance, and scenarios must retain time identity
 
@@ -193,7 +193,7 @@ Institutional forecasts must preserve:
 - publication date;
 - forecast window.
 
-For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must remain a **2026E institutional forecast**, not become a 2026 actual through repeated citation.[^5]
+For example, TrendForce's "HBM + RDIMM ≈51% of 2026 DRAM bit supply" must remain a **2026E institutional forecast**, rather than becoming a 2026 actual through repeated citation.[^5]
 
 Likewise, 2030/2036 node prices, monthly packaging capacity, or GW campus estimates can only appear as explicitly conditioned assumptions.
 
