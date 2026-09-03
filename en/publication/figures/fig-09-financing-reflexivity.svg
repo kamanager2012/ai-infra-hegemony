@@ -14,8 +14,8 @@
 <line class="a" x1="390" y1="297" x2="825" y2="370"/><line class="a" x1="390" y1="492" x2="825" y2="425"/><line class="a" x1="765" y1="397" x2="835" y2="397"/><line class="a" x1="1140" y1="375" x2="1205" y2="315"/><line class="a" x1="1355" y1="360" x2="1355" y2="420"/>
 <path d="M1215 492 C1020 670 520 670 330 565" fill="none" class="a"/>
 <text x="775" y="665" class="s" text-anchor="middle">Healthy loop: real utilization validates capital. Stress loop: seller support rises while utilization and independent risk appetite weaken.</text>
-<text x="775" y="710" class="n" text-anchor="middle">First-party risk anchors: NVIDIA PORTS-Pike ≤US$105B conditional guarantee exposure; AMD ≤US$4.1B gross lease-guarantee exposure.</text>
+<text x="775" y="710" class="n" text-anchor="middle">First-party risk anchors: NVIDIA PORTS-Pike max US$105B conditional guarantee exposure; AMD max US$4.1B gross lease-guarantee exposure.</text>
 <line x1="70" y1="715" x2="1480" y2="715" stroke="#bbb"/>
-<text x="70" y="752" class="n">Source: Report framework; Chapters 13, 23, and 24.</text>
+<text x="70" y="752" class="n">Source: Report framework, Chapters 13, 23, and 24; risk anchors from NVIDIA FY27 Q2 and AMD Q2 2026 Forms 10-Q.</text>
 <text x="70" y="782" class="n">Boundary: guarantee exposures are maximum risk amounts, not funded CapEx or additive demand totals; financing quality depends on utilization, monetization, independent risk capital, and refinancing conditions.</text>
 </svg>
