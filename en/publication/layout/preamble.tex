@@ -15,6 +15,7 @@
 \usepackage{ragged2e}
 \usepackage{footmisc}
 \usepackage{needspace}
+\usepackage{pdflscape}
 
 \definecolor{ReportNavy}{HTML}{14243A}
 \definecolor{ReportBlue}{HTML}{245A83}
@@ -61,7 +62,7 @@
 \setlist[enumerate]{leftmargin=1.55em,itemsep=0.15em,topsep=0.35em}
 
 \titleformat{\part}[display]
-  {\sffamily\color{ReportNavy}}
+  {\sffamily\raggedright\color{ReportNavy}}
   {\fontsize{10}{12}\selectfont\MakeUppercase{Research Report}}
   {8pt}
   {\bfseries\fontsize{30}{34}\selectfont}
@@ -69,7 +70,7 @@
 \titlespacing*{\part}{0pt}{22mm}{12mm}
 
 \titleformat{\chapter}[display]
-  {\sffamily\color{ReportNavy}}
+  {\sffamily\raggedright\color{ReportNavy}}
   {}
   {0pt}
   {\bfseries\fontsize{24}{29}\selectfont}
@@ -77,17 +78,17 @@
 \titlespacing*{\chapter}{0pt}{-8mm}{9mm}
 
 \titleformat{\section}
-  {\sffamily\bfseries\fontsize{14}{18}\selectfont\color{ReportNavy}}
+  {\sffamily\bfseries\raggedright\fontsize{14}{18}\selectfont\color{ReportNavy}}
   {}{0pt}{}
 \titlespacing*{\section}{0pt}{5mm}{2mm}
 
 \titleformat{\subsection}
-  {\sffamily\bfseries\fontsize{11.5}{14}\selectfont\color{ReportText}}
+  {\sffamily\bfseries\raggedright\fontsize{11.5}{14}\selectfont\color{ReportText}}
   {}{0pt}{}
 \titlespacing*{\subsection}{0pt}{4mm}{1.5mm}
 
 \titleformat{\subsubsection}
-  {\sffamily\bfseries\fontsize{10.5}{13}\selectfont\color{ReportText}}
+  {\sffamily\bfseries\raggedright\fontsize{10.5}{13}\selectfont\color{ReportText}}
   {}{0pt}{}
 \titlespacing*{\subsubsection}{0pt}{3mm}{1mm}
 
