@@ -12,7 +12,7 @@ Job 是多个 task 的组合，而不同 task 的 automation cost、review burde
 
 ILO 与 IMF 的公开研究都要求把 occupational exposure 与实际 adoption、job redesign 和 employment outcome 分开。
 
-ILO 2025 的 refined index 估计全球约**四分之一岗位存在某种 GenAI exposure**，同时强调 transformation 比简单 redundancy 更可能是主要结果。[^1]
+ILO 2025 的 refined index 估计，全球约**四分之一劳动者处于具有某种 GenAI exposure 的职业中**，同时强调 transformation 比简单 redundancy 更可能是主要结果。[^1]
 
 IMF 的全球框架则估计约 **40% global employment**、约 **60% advanced-economy employment** exposed to AI。[^2]
 
