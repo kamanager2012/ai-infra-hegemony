@@ -126,7 +126,7 @@ Asset value depends on demand duration. "Power assets are always safe" is not a 
 
 ## 9. Anchor Buyers lower financing risk while concentrating demand risk
 
-Long-duration model-company compute contracts can improve revenue visibility and financing certainty. OpenAI's Stargate capacity program, Anthropic/AWS's long-duration compute collaboration, and the 20-year OpenAI lease embedded in PORTS-Pike are current examples of the contract structures this chapter is referring to.[^5][^6][^7]
+Long-duration model-company compute contracts can improve revenue visibility and financing certainty. OpenAI's Stargate capacity program, Anthropic/AWS's long-duration compute collaboration, and the 20-year OpenAI lease embedded in PORTS-Pike are current examples of the contract structures discussed here.[^5][^6][^7]
 
 But if an anchor buyer's revenue, financing, or architecture assumptions change, take-or-pay exposure, renegotiation, and stranded-capacity risk can become concentrated.
 
@@ -145,7 +145,7 @@ The risk-transfer layer is now observable across more than one supplier. NVIDIA'
 
 This is a **structure inventory**, not a time-series claim that every category is increasing at the same rate across the industry.
 
-Those structures change where depreciation, lease expense, interest cost, and residual-value risk appear.
+Those structures change where depreciation, lease expense, interest cost, and residual-value risk are recognized or borne.
 
 They do not remove the underlying economic relationship:
 
@@ -167,7 +167,7 @@ The 2036 structure depends on the second and third rounds of buildout, workload 
 
 ## 11. Current read
 
-As of August 2026, [Chapter 19](part-III-ch19-capex-supercycle.md) still documents **active high-intensity CapEx expansion**. This chapter therefore treats **duration mismatch as a live capital-recovery risk**, while the public evidence cited here does **not** establish a broad deterioration in deployed-compute utilization or a broad AI-infrastructure impairment cycle.
+As of August 2026, [Chapter 19](part-III-ch19-capex-supercycle.md) still documents **active high-intensity CapEx expansion**. This chapter therefore treats **duration mismatch as a live capital-recovery risk**, while the public evidence cited here does **not** establish either broad deterioration in deployed-compute utilization or a broad AI-infrastructure impairment cycle.
 
 The depreciation wall becomes materially more dangerous when sustained utilization decline, rapid residual-value erosion, lower CapEx / commitment signals, and financing stress cross-confirm across actors/layers. Rising impairment strengthens the severity diagnosis when it appears, but formal accounting loss is not a mandatory gate.
 
