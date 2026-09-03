@@ -54,11 +54,15 @@ Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purch
 
 到 2026 年 8 月，AI infrastructure capital formation 已经超出 hyperscaler corporate CapEx。NVIDIA 宣布与六家大型资本提供方签署 MOU，目标是建立独立 compute-financing platforms，并在未来动员 **超过 US$500B 的 third-party capital**。[^5] 另一个 PORTS-Pike structure 则把 secured land / power / shell（LPS）、seller credit support、NVIDIA 对 SB Energy 的 **US$1.5B** investment，以及由 SB Energy build / own / operate、并以 **20-year lease** 租给 OpenAI 的 data center 组合起来。[^6]
 
+风险侧 disclosure 同样重要。NVIDIA FY27 Q2 Form 10-Q 对相关 PORTS-Pike lease guarantees 的 aggregate obligations 设定 **US$105B** 上限，覆盖约 **4.25 GW IT load** 的 leases；guarantees 随九座 data centers 进入 service 分阶段生效，第一阶段预计在 **FY2029** 开始，并随着 OpenAI 履行 lease payments 而下降。[^8] **US$105B 是 maximum conditional guarantee exposure，不是 funded CapEx、当前 cash outflow，也不能与底层 lease demand 再加总一次。**
+
+AMD 提供了独立 cross-vendor check。其 Q2 2026 Form 10-Q 披露，与部分 commercial-partner data-center lease obligations 相关 guarantees 的 **maximum gross exposure 为 US$4.1B**，期限最长 15 年。[^9] 该数字同样是 maximum guarantee exposure，不是 funded CapEx 或 realized loss。两份 filing 合在一起说明 supplier / sponsor credit support 已经是行业融资结构，而不是单一公司异常。
+
 因此：
 
 > **Hyperscaler CapEx 是重要观察变量，但已经不是 AI infrastructure capital formation 的完整分母。**
 
-这也是为什么 2026 年的新 compute-financing platform、PORTS-Pike LPS structure 与 Anchor Buyer long-duration contracts 必须单独进入资本分析。[^5][^6]
+这也是为什么 2026 年的新 compute-financing platform、PORTS-Pike LPS structure、supplier-side guarantee exposure 与 Anchor Buyer long-duration contracts 必须单独进入资本分析。[^5][^6][^8][^9]
 
 完整融资结构见[第23章：AI 基础设施资本市场与融资结构](part-III-ch23-capital-financing.md)。
 
@@ -304,3 +308,7 @@ AI 基础设施的特殊之处在于：资本扩张越成功，下一阶段的�
 [^5]: NVIDIA, 2026-08-10, strategic partnerships / MOUs to establish independent compute-financing platforms and mobilize more than US$500B of third-party capital over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI: secured LPS, NVIDIA credit support, US$1.5B SB Energy investment, and 20-year OpenAI lease, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^7]: Constellation Energy, 2024-09-20, 20-year Microsoft power-purchase agreement for the Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+
+[^8]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^9]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
