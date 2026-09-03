@@ -41,7 +41,7 @@ That produces a powerful learning loop:
 
 Google's TPU path spans multiple generations.
 
-Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with Pathways runtime/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1]
+Ironwood further moves the product definition toward large pod/system scale, combining custom accelerators with Pathways runtime/software, high-bandwidth interconnect, HBM, and Google Cloud workloads.[^1] By **March 31, 2026**, Google Cloud's TPU release notes marked **TPU7x / Ironwood generally available**, moving the evidence beyond product announcement into external cloud availability.[^1]
 
 Google's competitive unit is therefore:
 
@@ -53,7 +53,7 @@ If this system continuously lowers total cost of ownership for selected training
 
 AWS Trainium has likewise moved from accelerator toward system.
 
-Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.[^2]
+Trainium3 UltraServers, the Neuron software stack, AWS networking/data-center deployment, and large cloud workloads together form an alternative system.[^2] AWS announced **general availability of EC2 Trn3 UltraServers** on December 2, 2025, so this stack is not merely a roadmap artifact.[^2]
 
 AWS also benefits from long-duration anchor demand. Anthropic has publicly deepened its compute relationship with AWS, giving Trainium a large workload base on which to iterate system economics.[^3]
 
@@ -63,7 +63,7 @@ The variables that still need to be tested include large-cluster scaling, utiliz
 
 ## 5. Microsoft: Maia matters only if Azure-scale economics close
 
-The correct standard for Microsoft Maia 200 is not whether it supports every model on day one.[^4]
+The correct standard for Microsoft Maia 200 is not whether it supports every model on day one.[^4] Microsoft states that Maia 200 is **already deployed in its US Central datacenter region**, with US West 3 next, and will serve workloads including OpenAI's GPT-5.2 models, Microsoft Foundry, Microsoft 365 Copilot, and internal synthetic-data / reinforcement-learning pipelines.[^4] That is first-party deployment evidence, not an audited disclosure of fleet-wide utilization, workload share, or realized TCO.
 
 It is whether Maia can create a stable cost advantage on a sufficiently large Azure / Microsoft internal workload.
 
@@ -84,7 +84,7 @@ Becoming a general external substitute would require lower migration cost and a 
 
 Meta operates very large recommendation, ranking, and generative-AI workloads.
 
-MTIA 300's logic is not to become a general-purpose accelerator first.[^5] It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution.
+MTIA 300's logic is not to become a general-purpose accelerator first.[^5] It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution. Meta's August 2026 engineering disclosure includes a **"Performance in Production"** result on a **150-billion-parameter production recommendation model running across 40 accelerators**.[^5] This is meaningful production-workload evidence, while the reported performance comparison remains vendor-reported rather than an external audit.
 
 The economic objective is:
 
@@ -260,8 +260,10 @@ The strategic question is not whether inference “kills” system coordination.
 As of August 2026, the most defensible description is:
 
 - cloud custom silicon is already a real competitive force;
+- the evidence is no longer launch-only: Ironwood / TPU7x and Trn3 UltraServers are generally available, Maia 200 is deployed, and MTIA 300 has vendor-reported production-workload evidence;
 - the competitive unit has moved from custom chip to complete system stack;
 - hyperscalers are competing across accelerator, software, interconnect, rack/pod, and workload economics together;
+- comparable public data on production-workload share, utilization, migration cost, and realized TCO remain incomplete;
 - frontier training and the broad external ecosystem have not been shown to have systematically moved away from NVIDIA;
 - custom systems still compete heavily for advanced logic, HBM, advanced packaging, and power.
 
@@ -286,8 +288,8 @@ The evidence that would genuinely support S1 is not another chip launch. It is s
 
 ## References
 
-[^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
-[^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^1]: Google Cloud, “Ironwood TPU,” system architecture and 9,216-chip pod context, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; Google Cloud TPU release notes, 2026-03-31, TPU7x / Ironwood generally available, https://docs.cloud.google.com/tpu/docs/release-notes
+[^2]: Amazon Web Services, 2025-12-02, general availability of Amazon EC2 Trn3 UltraServers powered by Trainium3, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
 [^3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
-[^5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, Maia 200 deployed in US Central with additional regions planned and named Microsoft/OpenAI workloads, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
+[^5]: Meta Engineering, “MTIA 300,” 2026-08-24, production-recommendation workload evidence and system/network co-design, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/

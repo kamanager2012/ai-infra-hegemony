@@ -45,7 +45,7 @@
 
 ## 3. Google：TPU 已经是 System Stack
 
-Google TPU 路线已经跨越多代。Ironwood 继续把产品定义上移到 large-scale pod / system。[^1]
+Google TPU 路线已经跨越多代。Ironwood 继续把产品定义上移到 large-scale pod / system。[^1] 到 **2026-03-31**，Google Cloud TPU release notes 已把 **TPU7x / Ironwood 标为 generally available**，因此这里已经不是单纯 product announcement，而是 external cloud availability。[^1]
 
 Google 的真正竞争单元是：
 
@@ -69,7 +69,7 @@ Google 的真正竞争单元是：
 
 AWS Trainium 同样已经从 accelerator 向 system 发展。
 
-Trainium3 UltraServers、Neuron software stack、AWS networking、data-center deployment 与 cloud workload 共同构成完整路线。[^2]
+Trainium3 UltraServers、Neuron software stack、AWS networking、data-center deployment 与 cloud workload 共同构成完整路线。[^2] AWS 已在 2025-12-02 宣布 **EC2 Trn3 UltraServers general availability**，所以这条路径不是 roadmap-only。[^2]
 
 AWS 的一个额外优势是 Anchor Workload。Anthropic 与 AWS 的长期 compute relationship 为 Trainium 提供了持续的大规模生产反馈。[^3]
 
@@ -92,7 +92,7 @@ AWS 的一个额外优势是 Anchor Workload。Anthropic 与 AWS 的长期 compu
 
 ## 5. Microsoft：Maia 只有在 Azure-Scale Economics 闭合时才成立
 
-Microsoft Maia 200 的合理评价标准，不是第一天支持所有 workload，而是能否在 Azure / Microsoft 内部足够大的 workload 上形成稳定成本优势。[^4]
+Microsoft Maia 200 的合理评价标准，不是第一天支持所有 workload，而是能否在 Azure / Microsoft 内部足够大的 workload 上形成稳定成本优势。[^4] Microsoft 已明确 Maia 200 **部署在 US Central datacenter region**，US West 3 随后跟进，并将服务 GPT-5.2、Microsoft Foundry、Microsoft 365 Copilot 以及内部 synthetic-data / reinforcement-learning workload。[^4] 这是 first-party deployment evidence，但不是 fleet-wide utilization、production-workload share 或 realized TCO 的审计数据。
 
 决定 Maia 长期竞争力的变量包括：
 
@@ -113,7 +113,7 @@ Microsoft Maia 200 的合理评价标准，不是第一天支持所有 workload�
 
 Meta 拥有超大 recommendation、ranking 与 generative-AI workload。
 
-MTIA 300 的核心逻辑不是先成为 general-purpose accelerator，而是围绕最重要的内部 workload 做 specialization，并逐步把 silicon、software、networking 与 rack deployment 组织成 custom full-stack solution。[^5]
+MTIA 300 的核心逻辑不是先成为 general-purpose accelerator，而是围绕最重要的内部 workload 做 specialization，并逐步把 silicon、software、networking 与 rack deployment 组织成 custom full-stack solution。[^5] Meta 2026-08 的工程披露已经给出 **“Performance in Production”** 证据：一个 **150B-parameter production recommendation model** 在 40 accelerators 上运行。[^5] 这说明 MTIA 300 已不是 demo-only，但其中性能比较仍属于 vendor-reported evidence，不是外部审计。
 
 这条路线的经济目标是：
 
@@ -322,8 +322,10 @@ Cloud custom system 的“成功”至少有两个不同层级。
 截至 2026 年 8 月，最稳健的描述是：
 
 - cloud custom silicon 已经成为实质竞争力量；
+- 证据已经不再是 launch-only：Ironwood / TPU7x 与 Trn3 UltraServers 已 GA，Maia 200 已部署，MTIA 300 已有 vendor-reported production-workload evidence；
 - 竞争单位已经从自研芯片上移到完整 system stack；
 - hyperscaler 正在 accelerator、software、interconnect、rack/pod 与 workload economics 多层同时竞争；
+- production-workload share、utilization、migration cost 与 realized TCO 的可比公开数据仍不完整；
 - frontier training 与广泛外部生态仍未证明已经系统性脱离 NVIDIA；
 - custom systems 仍大量竞争 advanced logic、HBM、advanced packaging 与 power。
 
@@ -348,8 +350,8 @@ Cloud custom system 的“成功”至少有两个不同层级。
 
 ## References
 
-[^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
-[^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
+[^1]: Google Cloud, “Ironwood TPU,” system architecture and 9,216-chip pod context, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; Google Cloud TPU release notes, 2026-03-31, TPU7x / Ironwood generally available, https://docs.cloud.google.com/tpu/docs/release-notes
+[^2]: Amazon Web Services, 2025-12-02, general availability of Amazon EC2 Trn3 UltraServers powered by Trainium3, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
 [^3]: Anthropic, “Anthropic and Amazon expand collaboration,” long-duration AWS compute commitment, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
-[^5]: Meta Engineering, “MTIA 300,” 2026-08-24, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
+[^4]: Microsoft, “Maia 200: the AI accelerator built for inference,” 2026-01-26, Maia 200 deployed in US Central with additional regions planned and named Microsoft/OpenAI workloads, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/
+[^5]: Meta Engineering, “MTIA 300,” 2026-08-24, production-recommendation workload evidence and system/network co-design, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
