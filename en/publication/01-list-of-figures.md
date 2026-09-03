@@ -12,9 +12,9 @@
    **Type:** first-party physical trade ratio. **Source:** Micron FY24 Q2 Prepared Remarks.  
    **Boundary:** same technology node / same number of bits; ≈3× wafer supply is not a price multiple and not a permanent constant for every HBM generation.
 
-4. [Figure 4 — NVIDIA manufacturing, supply, and capacity commitments in 2026](figures/fig-04-nvidia-forward-commitments.svg)  
+4. [Figure 4 — NVIDIA forward supply / capacity commitment family in 2026](figures/fig-04-nvidia-forward-commitments.svg)  
    **Type:** first-party filing data. **Values:** US$95.2B (Jan 25), US$119B (Apr 26), US$279B (Jul 26).  
-   **Boundary:** aggregate commitments; no supplier-level split; commitment is not realized supplier revenue or delivered capacity.
+   **Boundary:** reporting labels, mix, and duration are not identical across dates; no supplier-level split; commitment is not realized supplier revenue or delivered capacity.
 
 5. [Figure 5 — Power / LPS delivery-state model](figures/fig-05-power-state-machine.svg)  
    **Type:** report framework. **Primary analytical homes:** Ch07, Ch08, Ch29, Ch32.  

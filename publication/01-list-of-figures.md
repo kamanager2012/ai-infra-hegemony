@@ -12,9 +12,9 @@
    **类型：** first-party physical trade ratio。**Source：** Micron FY24 Q2 Prepared Remarks。  
    **Boundary：** same technology node / same number of bits；≈3× wafer supply 不是价格倍数，也不是所有 HBM generation 的永久常数。
 
-4. [图 4 — NVIDIA 2026 年 manufacturing / supply / capacity commitments](figures/fig-04-nvidia-forward-commitments.svg)  
+4. [图 4 — NVIDIA 2026 年 forward supply / capacity commitment family](figures/fig-04-nvidia-forward-commitments.svg)  
    **类型：** first-party filing data。**数值：** US$95.2B（2026-01-25）、US$119B（2026-04-26）、US$279B（2026-07-26）。  
-   **Boundary：** aggregate commitments；没有 supplier-level split；commitment 不等于 realized supplier revenue 或 delivered capacity。
+   **Boundary：** 各报告时点的 disclosure label、mix 与 duration 并不完全相同；没有 supplier-level split；commitment 不等于 realized supplier revenue 或 delivered capacity。
 
 5. [图 5 — Power / LPS delivery-state model](figures/fig-05-power-state-machine.svg)  
    **类型：** report framework。**主要分析位置：** 第 7、8、29、32 章。  

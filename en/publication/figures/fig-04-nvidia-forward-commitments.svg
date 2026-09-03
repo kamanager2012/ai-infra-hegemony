@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
-<title id="title">Figure 4 — NVIDIA manufacturing, supply, and capacity commitments in 2026</title><desc id="desc">A three-bar chart showing 95.2 billion dollars on January 25, 119 billion on April 26, and 279 billion on July 26, 2026.</desc>
+<title id="title">Figure 4 — NVIDIA forward supply / capacity commitment family in 2026</title><desc id="desc">A three-bar chart of three disclosed forward-commitment points: 95.2 billion dollars on January 25, 119 billion on April 26, and 279 billion on July 26, 2026. Reporting labels, mix, and duration are not identical across dates.</desc>
 <rect width="1500" height="820" fill="white"/>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:40px;font-weight:700}.s{font-size:23px;fill:#444}.lab{font-size:23px;font-weight:700}.v{font-size:31px;font-weight:700}.n{font-size:18px;fill:#555}.bar{fill:#444}.axis{stroke:#222;stroke-width:2}.tick{font-size:18px;fill:#555}</style>
 <text x="75" y="68" class="t">Forward resource reservation intensified sharply in 2026</text>
-<text x="75" y="108" class="s">NVIDIA manufacturing, supply, and capacity commitments (US$B)</text>
+<text x="75" y="108" class="s">NVIDIA forward supply / capacity commitment family (US$B)</text>
 <line x1="165" y1="650" x2="1370" y2="650" class="axis"/>
 <line x1="165" y1="170" x2="165" y2="650" class="axis"/>
 <text x="135" y="655" class="tick" text-anchor="end">0</text><text x="135" y="495" class="tick" text-anchor="end">100</text><text x="135" y="335" class="tick" text-anchor="end">200</text><text x="135" y="175" class="tick" text-anchor="end">300</text>

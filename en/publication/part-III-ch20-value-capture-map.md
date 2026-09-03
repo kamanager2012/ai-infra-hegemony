@@ -132,7 +132,7 @@ Their greatest risk is duration mismatch when long-duration infrastructure is bu
 
 ## 7. Supply commitments connect platform cash flow to manufacturing capacity
 
-NVIDIA's disclosed manufacturing / supply / capacity commitment family increased across three reporting dates:[^7]
+NVIDIA's disclosed **forward supply / capacity commitment family** increased across three reporting dates:[^7]
 
 - **US$95.2B** on 2026-01-25;
 - **US$119B** on 2026-04-26;

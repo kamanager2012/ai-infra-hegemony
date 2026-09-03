@@ -15,7 +15,7 @@ This directory contains publication-layer figures for the English canonical edit
 - **Figure 1 — The competitive unit is the system stack** — report framework.
 - **Figure 2 — Non-AI Residual Capacity (NARC)** — report-side analytical definition.
 - **Figure 3 — HBM3E wafer-supply intensity versus DDR5** — Micron first-party physical trade ratio.
-- **Figure 4 — NVIDIA manufacturing, supply, and capacity commitments in 2026** — first-party filings.
+- **Figure 4 — NVIDIA forward supply / capacity commitment family in 2026** — first-party filings.
 - **Figure 5 — Power / LPS delivery-state model** — report framework preserving state and unit identity.
 - **Figure 6 — S1–S4 scenario map** — report scenario framework; S2 highlighted as the August 2026 evidence baseline.
 

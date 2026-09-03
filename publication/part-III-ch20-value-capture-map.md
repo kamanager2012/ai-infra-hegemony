@@ -98,7 +98,7 @@ Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal 
 
 ## 7. Supply Commitments 把 Platform Cash Flow 连接到 Manufacturing Capacity
 
-NVIDIA manufacturing, supply, and capacity commitments 从 2026-01-25 的 **US$95.2B** 上升到 2026-04-26 的 **US$119B**，再到 2026-07-26 的 **US$279B**。[^7]
+NVIDIA 披露的 **forward supply / capacity commitment family** 从 2026-01-25 的 **US$95.2B** 上升到 2026-04-26 的 **US$119B**，再到 2026-07-26 的 **US$279B**。[^7]
 
 FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。它可以作为**未来资源锁定强度的财务 proxy**，但公开文件没有 supplier-level split，因此不能写成 TSMC、SK hynix、Micron 或任何单一供应商“已经收到多少”。
 

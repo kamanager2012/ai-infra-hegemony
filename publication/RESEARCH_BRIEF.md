@@ -118,11 +118,13 @@ Micron 披露，在 **same technology node / same number of bits** 条件下，H
 
 当 customer-level HBM、packaging 或 rack allocation 无法从公开资料直接观察时，forward commitment 比“假设一个 fleet size 再机械相乘”更有证据价值。
 
-NVIDIA 披露的 manufacturing / supply / capacity commitments：[^rb3]
+NVIDIA 披露的 **forward supply / capacity commitment family** 在多个报告时点上升：[^rb3]
 
 - 2026-01-25：**US$95.2B**
 - 2026-04-26：**US$119B**
 - 2026-07-26：**US$279B**
+
+各报告时点的 disclosure label、底层 mix 与 duration 并不完全相同：FY26 Form 10-K 使用 **manufacturing, supply, and capacity commitments**，FY27 Q2 Form 10-Q 使用 **supply and capacity commitments**。因此，这一序列只能作为 forward-reservation indicator，不能当作完全同质的 accounting time series。
 
 ![图 4 — NVIDIA 2026 年 forward commitments](figures/fig-04-nvidia-forward-commitments.svg)
 
@@ -179,6 +181,8 @@ PORTS-Pike 的分析意义在于：land、power、shell、credit support 与 mod
 2026 年出现的 infrastructure-finance structure 又增加了第二个机制：**Financing Reflexivity**。
 
 Seller equity、credit enhancement、infrastructure support 与 third-party capital 可以加速建设，但也会使 demand quality 更依赖 financing structure。
+
+PORTS-Pike 把这个规模与边界具体化：NVIDIA FY27 Q2 Form 10-Q 对 initial 约 **4.25 GW IT-load** lease structure 的 aggregate guarantee obligations 设定 **US$105B** 上限，并随 data centers 进入 service 分阶段生效。它是 maximum conditional credit exposure，**不是 funded CapEx，也不是当前 cash outflow**。[^rb5]
 
 因此，本报告区分：
 
@@ -362,3 +366,5 @@ Evidence 同时分为：
 [^rb2]: Micron Technology，FY24 Q2 Prepared Remarks，same node / same bits 条件下 HBM3E 相对 DDR5 的 wafer-supply intensity，https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^rb3]: NVIDIA Corporation，FY26 Form 10-K 与 FY27 Q2 Form 10-Q，aggregate manufacturing / supply / capacity commitments，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^rb4]: NVIDIA / SB Energy，PORTS-Pike Exhibit 99.1，2026-08-17，initial 4.25 IT-GW design capacity 与 phased buildout，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
+
+[^rb5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased service expected to begin in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm

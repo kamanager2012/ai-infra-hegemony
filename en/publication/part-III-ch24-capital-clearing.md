@@ -67,9 +67,9 @@ Persistent resale discounts and shorter lead times are therefore more meaningful
 
 ### 2.4 Forward Commitment: the next-cycle signal
 
-The next round of expansion depends on hyperscaler CapEx guidance, NVIDIA manufacturing/supply/capacity commitments, long-duration model-company compute contracts, and power commitments.
+The next round of expansion depends on hyperscaler CapEx guidance, NVIDIA forward supply / capacity commitments, long-duration model-company compute contracts, and power commitments.
 
-NVIDIA's disclosed manufacturing / supply / capacity commitment family rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and **US$279B** on 2026-07-26.[^4] The underlying mix and duration are not identical across reporting dates, so the sequence is a forward-reservation indicator rather than a perfectly homogeneous time series.
+NVIDIA's disclosed forward supply / capacity commitment family rose from **US$95.2B** on 2026-01-25 to **US$119B** on 2026-04-26 and **US$279B** on 2026-07-26.[^4] The underlying mix and duration are not identical across reporting dates, so the sequence is a forward-reservation indicator rather than a perfectly homogeneous time series.
 
 The FY27 Q2 10-Q states that the latest commitments primarily relate to memory and manufacturing facilities required for data-center infrastructure systems.
 

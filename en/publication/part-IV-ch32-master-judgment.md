@@ -36,7 +36,7 @@ The Master View therefore answers a different question from Chapter 1:
 
 NVIDIA's current advantage is not ownership of every physical input. It is the ability to organize GPUs, CPUs, HBM, NVLink, CUDA/runtime, rack-scale architecture, supply-chain commitments, and large workloads into a mature general-purpose commercial system.
 
-NVIDIA's disclosed aggregate manufacturing / supply / capacity commitments rose across three reporting dates: **US$95.2B** on January 25, 2026, **US$119B** on April 26, and **US$279B** on July 26.[^1] The underlying mix and duration are not identical across reporting dates, and the filings do not disclose a supplier-level split; the sequence therefore indicates rising forward reservation intensity, not confirmed revenue for TSMC, CoWoS, or any single HBM vendor.
+NVIDIA's disclosed aggregate **forward supply / capacity commitment family** rose across three reporting dates: **US$95.2B** on January 25, 2026, **US$119B** on April 26, and **US$279B** on July 26.[^1] The underlying mix and duration are not identical across reporting dates, and the filings do not disclose a supplier-level split; the sequence therefore indicates rising forward reservation intensity, not confirmed revenue for TSMC, CoWoS, or any single HBM vendor.
 
 The correct long-run metric is:
 

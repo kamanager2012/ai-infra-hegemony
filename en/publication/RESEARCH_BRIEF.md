@@ -110,11 +110,13 @@ The report keeps HBM bits, DRAM wafer input, packaging capacity, and rack deploy
 
 When direct customer-level HBM, packaging, or rack allocation is unavailable, forward commitments provide a more defensible indicator of resource-reservation intensity than assumption-driven fleet arithmetic.
 
-NVIDIA's disclosed manufacturing, supply, and capacity commitments rose from:[^rb3]
+NVIDIA's disclosed **forward supply / capacity commitment family** rose across reporting dates from:[^rb3]
 
 - **US$95.2B** on January 25, 2026;
 - **US$119B** on April 26, 2026;
 - **US$279B** on July 26, 2026.
+
+The reporting label, mix, and duration are not identical across dates: the FY26 Form 10-K uses **manufacturing, supply, and capacity commitments**, while the FY27 Q2 Form 10-Q reports **supply and capacity commitments**. The sequence is therefore a forward-reservation indicator, not a homogeneous accounting time series.
 
 ![Figure 4 — NVIDIA forward commitments in 2026](figures/fig-04-nvidia-forward-commitments.svg)
 
@@ -165,6 +167,8 @@ This can strengthen the buildout when demand is durable and utilization follows.
 It can also increase concentration, duration mismatch, and financing correlation.
 
 The 2026 infrastructure-finance layer adds a second mechanism: **Financing Reflexivity**. Seller equity, credit enhancement, infrastructure support, and third-party capital can accelerate deployment, but they also make demand quality more dependent on financing structure.
+
+PORTS-Pike makes the scale and boundary concrete: NVIDIA's FY27 Q2 Form 10-Q caps aggregate guarantee obligations at **US$105B** for the initial approximately **4.25 GW IT-load** lease structure, with phased activation as data centers enter service. This is maximum conditional credit exposure, **not funded CapEx or current cash outflow**.[^rb5]
 
 The report therefore distinguishes among:
 
@@ -340,5 +344,7 @@ For the complete evidence, denominators, counterarguments, and falsification bou
 
 [^rb1]: TSMC, 2Q26 Management Report, HPC 66%, smartphone 22%, and 7 nm-and-below technology mix, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf
 [^rb2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply intensity versus DDR5 at the same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-[^rb3]: NVIDIA Corporation, FY26 Form 10-K and FY27 Q2 Form 10-Q, aggregate manufacturing / supply / capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^rb3]: NVIDIA Corporation, FY26 Form 10-K and FY27 Q2 Form 10-Q, forward supply / capacity commitment family across non-identical reporting labels and durations, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^rb4]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and phased buildout, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
+
+[^rb5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased service expected to begin in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm

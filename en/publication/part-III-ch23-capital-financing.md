@@ -109,6 +109,10 @@ The **>US$500B** figure therefore remains a mobilization target—not committed,
 
 The 2026-08-17 PORTS-Pike structure shows that compute financing can extend beyond hardware into **land + power + shell (LPS)**. NVIDIA disclosed credit support for the LPS buildout, a **US$1.5B** investment in SB Energy, an initial **4.25 IT-GW** design capacity, and OpenAI as the end customer.[^4]
 
+The FY27 Q2 Form 10-Q adds the risk-side boundary: the guarantees cover leases for approximately **4.25 GW of IT load**, aggregate obligations are capped at **US$105B**, and each guarantee generally becomes effective as the applicable lease commences / ready-for-service conditions are satisfied across nine data centers, with first service expected to begin in **FY2029**. Exposure declines as OpenAI makes lease payments.[^7]
+
+**US$105B is a maximum conditional guarantee exposure — not funded CapEx, not a current cash outflow, and not a second copy of the underlying OpenAI / SB Energy lease demand.**
+
 NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested **nearly US$50B** in frontier AI labs and discussed selective credit enhancement for **nearly 2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
 These disclosures support a distinct analytical mechanism:
@@ -225,3 +229,5 @@ Additional headline capital targets are not sufficient. The higher-quality confi
 [^4]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment, initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^5]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment and selective credit-enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 [^6]: NVIDIA Corporation, FY26 Form 10-K, external foundry / memory / packaging manufacturing model and supply commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and first service expected beginning in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm

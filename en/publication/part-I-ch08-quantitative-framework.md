@@ -282,7 +282,7 @@ The next quantitative upgrade should occur only when a layer gains a same-unit d
 | DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | D-grade arithmetic on a paper-stated rental assumption | total R&D / company / model-program cost |
 | GB200 NVL72 rack intensity | at 120 kW/rack, 1 MW aggregate rack power draw ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | D-grade mechanical conversion from official system specs | shipments, facility IT load, energized fleet size, industry demand |
 | Micron HBM3E manufacturing trade ratio | Micron discloses an **industrywide** same-node / same-bits ratio of approximately **3×** DDR5 wafer supply | A-grade first-party disclosure of an industrywide physical trade ratio | a Micron-fab-specific MES ratio, a permanent HBM4/HBM5 ratio, or global wafer-allocation share |
-| NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B = approximately **2.93×** the January level, or **+193%** mechanically | D-grade arithmetic on A-grade filing values | supplier-specific allocation, shipments, utilization, independent end-demand quality |
+| NVIDIA forward supply / capacity commitment family | US$95.2B → US$279B = approximately **2.93×** the January level, or **+193%** mechanically | D-grade arithmetic on A-grade filing values | supplier-specific allocation, shipments, utilization, independent end-demand quality |
 | Aggregate DRAM balance | 2026 sufficiency ratio approximately **−1% to −2%** | B-grade institutional forecast | HBM-specific shortage or customer allocation |
 
 **Source:** DeepSeek, NVIDIA, Micron, and TrendForce.[^1][^3][^4][^6][^8]  

@@ -34,9 +34,9 @@ AI infrastructure 的高投资本身不能证明泡沫；同样，seller margin 
 
 ### 2.4 Forward Commitment：Next-Cycle Signal
 
-下一轮扩张是否继续，要看 hyperscaler CapEx guidance、NVIDIA manufacturing/supply/capacity commitments、long-duration model-company compute contracts 与 power commitments。
+下一轮扩张是否继续，要看 hyperscaler CapEx guidance、NVIDIA forward supply / capacity commitments、long-duration model-company compute contracts 与 power commitments。
 
-NVIDIA commitments 的公开轨迹由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4]FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。**这一结论只否定“广泛撤单已经发生”，并不证明独立终端需求健康、buyer ROI 健康或融资质量高。** Forward commitments 的证据权重必须与本章第7节 Demand Quality / Supplier-Assisted Financing 一起读取。
+NVIDIA 披露的 **forward supply / capacity commitment family** 由 2026-01-25 的 **US$95.2B**、2026-04-26 的 **US$119B** 上升到 2026-07-26 的 **US$279B**。[^4] 各报告时点底层 mix 与 duration 并不完全相同，因此该序列只作为 forward-reservation indicator，而不是完全同质的 time series。FY27 Q2 10-Q 说明最新承诺主要关联 data-center infrastructure systems 所需的 memory 与 manufacturing facilities。当前轨迹更像继续前置锁资源，而不是已经进入普遍撤单。**这一结论只否定“广泛撤单已经发生”，并不证明独立终端需求健康、buyer ROI 健康或融资质量高。** Forward commitments 的证据权重必须与本章第7节 Demand Quality / Supplier-Assisted Financing 一起读取。
 
 ## 3. 真正的 Signal 是 Divergence，不是 Synthetic Global Total
 

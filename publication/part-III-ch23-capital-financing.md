@@ -111,6 +111,10 @@ NVIDIA 2026-08-10 官方宣布，与 Apollo、BlackRock、Blackstone、Brookfiel
 
 2026-08-17 的 PORTS-Pike structure 说明，compute financing 可以从 hardware 延伸到 **land + power + shell (LPS)**。NVIDIA 披露了对 LPS buildout 的 credit support、对 SB Energy 的 **US$1.5B** 投资、初始 **4.25 IT-GW** design capacity，以及 OpenAI 作为 end customer。[^4]
 
+FY27 Q2 Form 10-Q 进一步给出风险侧边界：相关 guarantees 覆盖约 **4.25 GW IT load** 的 leases，aggregate obligations 上限为 **US$105B**；每一阶段 guarantee 通常要等对应 lease commencement / ready-for-service 条件满足后才生效，九个 data centers 分阶段进入 service，首批预计从 **FY2029** 开始。随着 OpenAI 履行 lease payments，NVIDIA exposure 会下降。[^7]
+
+**US$105B 是 maximum conditional guarantee exposure，不是 funded CapEx，不是当前 cash outflow，也不能与底层 OpenAI / SB Energy lease demand 再重复计算一次。**
+
 NVIDIA FY27 Q2 earnings call 又提供了一条 company-level signal：管理层表示公司已向 frontier AI labs 投资接近 **US$50B**，并讨论了 selective credit enhancement，为另一家 frontier lab 的 infrastructure buildout 提供接近 **2 GW of compute**。[^5]
 
 这些披露支持一个独立分析机制：
@@ -228,3 +232,5 @@ AI infrastructure 正从科技公司内部 CapEx 进一步扩展为：
 [^5]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investments and selective credit enhancement commentary, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 
 [^6]: NVIDIA Corporation, FY26 Form 10-K, external foundry / memory / packaging manufacturing model and supply commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and first service expected beginning in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm

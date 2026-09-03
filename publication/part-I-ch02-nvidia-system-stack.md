@@ -88,16 +88,16 @@ PTX 的作用尤其重要：NVIDIA 官方将 PTX 描述为跨多代 GPU 的 **st
 | FY27 Q2 Data Center revenue | US$89.023B |
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
-| 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |
+| 2026-07-26 supply and capacity commitments | US$279B |
 
 **Source:** NVIDIA FY26 results / FY26 Form 10-K、FY27 Q2 results 与 FY27 Q2 Form 10-Q.[^2][^3][^4][^8]  
-**Note:** US$279B 为 aggregate manufacturing, supply and capacity commitments；公开文件未提供 supplier-level split。
+**Note:** US$279B 为 FY27 Q2 10-Q 披露的 aggregate **supply and capacity commitments**；公开文件未提供 supplier-level split。
 
 FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。[^4]公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
 
-![图 4 — NVIDIA 2026 年 manufacturing / supply / capacity commitments](figures/fig-04-nvidia-forward-commitments.svg)
+![图 4 — NVIDIA 2026 年 forward supply / capacity commitment family](figures/fig-04-nvidia-forward-commitments.svg)
 
-**图 4 Note：** first-party filing data。图中保留 company-level aggregate commitment 边界，不把承诺拆分为任何单一 supplier allocation，也不把 commitment 改写成 realized supplier revenue 或 delivered capacity。
+**图 4 Note：** first-party filing data。三个报告时点的 disclosure label、底层 mix 与 duration 并不完全相同，因此该图表示 forward supply / capacity commitment family，而不是完全同质的 accounting time series。图中继续保留 company-level aggregate boundary，不拆分任何单一 supplier allocation，也不把 commitment 改写成 realized supplier revenue 或 delivered capacity。
 
 这构成一个可检验的跨代强化机制：
 

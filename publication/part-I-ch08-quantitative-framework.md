@@ -303,7 +303,7 @@ NonAI_Residual(t)
 
 ## 12. Shipment 不可观察时，使用有边界的 Forward Indicator
 
-NVIDIA manufacturing, supply and capacity commitments 的公开轨迹为：[^6]
+NVIDIA 披露的 forward supply / capacity commitment family 公开轨迹为：[^6]
 
 - 2026-01-25：**US$95.2B**；
 - 2026-04-26：**US$119B**；
@@ -399,7 +399,7 @@ FY27 Q2 10-Q 说明，最新 commitments 主要涉及 data-center infrastructure
 | DeepSeek-V3 formal training | 2.788M H800 GPU-hours × US$2 ≈ **US$5.576M** | 基于论文租赁假设的 D-grade arithmetic | 完整 R&D / company / model-program cost |
 | GB200 NVL72 rack intensity | 按 120 kW/rack，1 MW rack IT load ≈ **8.33 racks / 600 GPUs / 111.7 TB HBM3E** | 基于官方规格的 D-grade mechanical conversion | shipment、energized fleet size、industry demand |
 | Micron HBM3E manufacturing trade ratio | same node / same bits 下约需 **3×** DDR5 wafer supply | A-grade first-party physical anchor | 永久 HBM4/HBM5 比例或全球 wafer-allocation share |
-| NVIDIA manufacturing / supply / capacity commitments | US$95.2B → US$279B，机械上约为 January level 的 **2.93×**，即约 **+193%** | A-grade filing values 上的 D-grade arithmetic | supplier-specific allocation、shipment、utilization、independent end-demand quality |
+| NVIDIA forward supply / capacity commitment family | US$95.2B → US$279B，机械上约为 January level 的 **2.93×**，即约 **+193%** | A-grade filing values 上的 D-grade arithmetic | supplier-specific allocation、shipment、utilization、independent end-demand quality |
 | Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1%~-2%** | B-grade institutional forecast | HBM-specific shortage 或 customer allocation |
 
 **Source:** DeepSeek、NVIDIA、Micron、TrendForce.[^1][^3][^4][^6][^8]  

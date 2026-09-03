@@ -36,7 +36,7 @@
 
 NVIDIA 当前最强的优势，不是“拥有所有物理资源”，而是能够把 GPU、CPU、HBM、NVLink、CUDA/runtime、rack-scale architecture、供应链与大规模 workload 组织成成熟的通用商业系统。
 
-NVIDIA 披露的 aggregate manufacturing / supply / capacity commitments 在三个报告时点连续上升：2026-01-25 为 **US$95.2B**、2026-04-26 为 **US$119B**、2026-07-26 为 **US$279B**。[^1] 各报告期底层 mix 与 duration 并不完全相同，且文件没有披露 supplier-level split；因此，这一序列可以支持“forward reservation intensity 上升”，不能被改写成 TSMC、CoWoS 或某一家 HBM vendor 的确定收入。
+NVIDIA 披露的 aggregate **forward supply / capacity commitment family** 在三个报告时点连续上升：2026-01-25 为 **US$95.2B**、2026-04-26 为 **US$119B**、2026-07-26 为 **US$279B**。[^1] 各报告期底层 mix 与 duration 并不完全相同，且文件没有披露 supplier-level split；因此，这一序列可以支持“forward reservation intensity 上升”，不能被改写成 TSMC、CoWoS 或某一家 HBM vendor 的确定收入。
 
 真正需要跟踪的不是历史 customer revenue share，而是：
 
