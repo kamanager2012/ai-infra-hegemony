@@ -36,6 +36,10 @@ They cannot be mechanically added because three are guidance / expectations whil
 
 By August 2026, AI-infrastructure capital formation had expanded beyond hyperscaler corporate CapEx. NVIDIA announced memorandums of understanding with six large capital providers aimed at establishing independent compute-financing platforms and mobilizing **more than US$500B of third-party capital over time**.[^5] Separately, the PORTS-Pike structure combines secured land, power and shell (LPS), seller credit support, a **US$1.5B** NVIDIA investment in SB Energy, and a data center that SB Energy will build, own, and operate under a **20-year lease to OpenAI**.[^6]
 
+The risk-side disclosures are equally important. NVIDIA's FY27 Q2 Form 10-Q caps aggregate obligations under the associated PORTS-Pike lease guarantees at **US$105B** across leases covering approximately **4.25 GW of IT load**; the guarantees phase in as nine data centers enter service, with the first phase expected in **FY2029**, and exposure declines as OpenAI fulfills lease payments.[^8] **US$105B is maximum conditional guarantee exposure, not funded CapEx, current cash outflow, or an additive copy of the underlying lease demand.**
+
+AMD provides an independent cross-vendor check. Its Q2 2026 Form 10-Q reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years.[^9] That figure is likewise maximum guarantee exposure, not funded CapEx or a realized loss. Together, the two filings show that supplier / sponsor credit support is an emerging industry financing structure rather than a single-company anomaly.
+
 These disclosures illustrate several financing channels that sit outside a simple hyperscaler-CapEx denominator:
 
 - operating and finance leases;
@@ -49,7 +53,7 @@ The implication is:
 
 > **Hyperscaler CapEx remains a critical indicator, but it is no longer the complete denominator of AI-infrastructure capital formation.**
 
-The announced compute-financing platforms and LPS structures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.[^5][^6]
+The announced compute-financing platforms, LPS structures, and supplier-side guarantee exposures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.[^5][^6][^8][^9]
 
 ## 3. Duration mismatch is the core balance-sheet risk
 
@@ -181,3 +185,7 @@ A single company's accounting reclassification or one quarter of CapEx volatilit
 [^5]: NVIDIA, 2026-08-10, strategic partnerships / MOUs to establish independent compute-financing platforms and mobilize more than US$500B of third-party capital over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI: secured LPS, NVIDIA credit support, US$1.5B SB Energy investment, and 20-year OpenAI lease, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^7]: Constellation Energy, 2024-09-20, 20-year Microsoft power-purchase agreement for the Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+
+[^8]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^9]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
