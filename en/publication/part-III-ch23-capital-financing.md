@@ -113,6 +113,10 @@ The FY27 Q2 Form 10-Q adds the risk-side boundary: the guarantees cover leases f
 
 **US$105B is a maximum conditional guarantee exposure — not funded CapEx, not a current cash outflow, and not a second copy of the underlying OpenAI / SB Energy lease demand.**
 
+This mechanism is **not unique to NVIDIA**. AMD's Q2 2026 Form 10-Q disclosed **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms of up to **15 years**. AMD states that the guarantees typically become payable upon a commercial partner's default and that exposure declines as contractual lease payments are made.[^8]
+
+The same denominator discipline applies: **US$4.1B is maximum guarantee exposure, not funded CapEx, not a current realized loss, and not evidence of independently financed end demand.** The AMD disclosure matters because it shows that sponsor / supplier credit support is becoming an industry financing structure rather than a company-specific anomaly.
+
 NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested **nearly US$50B** in frontier AI labs and discussed selective credit enhancement for **nearly 2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
 These disclosures support a distinct analytical mechanism:
@@ -231,3 +235,5 @@ Additional headline capital targets are not sufficient. The higher-quality confi
 [^6]: NVIDIA Corporation, FY26 Form 10-K, external foundry / memory / packaging manufacturing model and supply commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 
 [^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and first service expected beginning in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^8]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm

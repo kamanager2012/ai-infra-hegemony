@@ -115,6 +115,10 @@ FY27 Q2 Form 10-Q 进一步给出风险侧边界：相关 guarantees 覆盖约 *
 
 **US$105B 是 maximum conditional guarantee exposure，不是 funded CapEx，不是当前 cash outflow，也不能与底层 OpenAI / SB Energy lease demand 再重复计算一次。**
 
+这个机制**并非 NVIDIA 独有**。AMD Q2 2026 Form 10-Q 披露，公司针对部分 commercial-partner data-center lease obligations 提供 guarantees，期限最长 **15 年**，截至 2026-06-27 的 **maximum gross exposure 为 US$4.1B**。AMD 同时说明，这些 guarantees 通常在 commercial partner default 时触发，且随着 contractual lease payments 履行，exposure 会逐步下降。[^8]
+
+同样必须保持 denominator discipline：**US$4.1B 是 maximum guarantee exposure，不是 funded CapEx，不是当前 realized loss，也不能当成 independently financed end demand。** AMD 这条一手披露的重要性在于，它说明 sponsor / supplier credit support 已经开始成为一种行业融资结构，而不是某一家公司的孤立特例。
+
 NVIDIA FY27 Q2 earnings call 又提供了一条 company-level signal：管理层表示公司已向 frontier AI labs 投资接近 **US$50B**，并讨论了 selective credit enhancement，为另一家 frontier lab 的 infrastructure buildout 提供接近 **2 GW of compute**。[^5]
 
 这些披露支持一个独立分析机制：
@@ -234,3 +238,5 @@ AI infrastructure 正从科技公司内部 CapEx 进一步扩展为：
 [^6]: NVIDIA Corporation, FY26 Form 10-K, external foundry / memory / packaging manufacturing model and supply commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 
 [^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and first service expected beginning in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^8]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
