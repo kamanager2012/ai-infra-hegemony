@@ -231,7 +231,11 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 大型 model companies 的多年 compute commitments 已经可以影响 infrastructure financing、custom silicon、power 与 data-center buildout。
 
-2026 年的 financing layer 已经有 first-party disclosure：NVIDIA 公布的 compute-financing platforms 目标是随时间动员 **超过 US$500B third-party capital**，PORTS-Pike 又在 initial **4.25 IT-GW design capacity** 周围加入 seller credit support。[^7][^8]
+2026 年的 financing layer 已经有 first-party disclosure：NVIDIA 公布的 compute-financing platforms 目标是随时间动员 **超过 US$500B third-party capital**，而 PORTS-Pike 则把 seller credit support 与 initial **4.25 IT-GW design capacity** 结合起来。[^7][^8] NVIDIA FY27 Q2 Form 10-Q 进一步披露，相关 SB Energy lease guarantees 的 aggregate obligations 上限为 **US$105B**；这些 guarantees 通常随着对应 lease 分阶段开始而生效，在特定 tenant default 情形下触发，并随着 lease payments 履行而下降。[^11] **US$105B 是 maximum conditional guarantee exposure，不是 funded CapEx，不是当前 cash outflow，也不能再与底层 lease demand 加总一次。**
+
+Financing Reflexivity 也已不再是 NVIDIA 独有。AMD Q2 2026 Form 10-Q 披露，公司针对部分 commercial-partner data-center lease obligations 提供 guarantees，期限最长 15 年，**maximum gross exposure 为 US$4.1B**；AMD 同时说明，这些 guarantees 通常在 commercial partner default 时触发，且 exposure 会随着 contractual lease payments 履行而下降。[^12] **US$4.1B 同样是 maximum guarantee exposure，不是 funded CapEx，也不是 realized loss。**
+
+这组 cross-vendor evidence 使该机制从单一公司案例扩展为行业融资结构，同时仍必须把不同 instrument 的 denominator 与 risk transfer 分开处理。
 
 因此需要同时观察两个方向：
 
@@ -305,7 +309,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 - **S2 ↔ S3**：scarce-layer allocation 的集中度变化方向、seller forward commitments 增速、proprietary switching cost 与 powered-land 锁定程度；
 - **S3 ↔ S4**：utilization / monetization 与 capital base 之间的关系。由于公开数据没有提供可比的 industry-wide ratio，使用 public proxies：clearing price（二手系统价、lease rate、cloud discount）、commitment growth、seller equity / credit support、third-party capital risk premia 与 refinancing dependency。
 
-同一批资本证据（如 **>US$500B** mobilization target、**US$50B** frontier-lab 投资、**2 GW** credit support）[^7][^8][^9]在代理信号健康时支持 S2/S3 的 infrastructure coordination，在代理信号广泛、持续恶化时支持 S4 权重上升；判别不依赖任何单点数据。
+同一批资本证据现在已经跨越 third-party mobilization 与多家 supplier-assisted support：包括 **>US$500B** third-party-capital mobilization target、**US$105B** PORTS-Pike maximum conditional guarantee exposure、AMD **US$4.1B** commercial-partner data-center lease-guarantee maximum gross exposure、接近 **US$50B** 的 frontier AI lab 投资，以及接近 **2 GW of compute** 的 selective credit enhancement。[^7][^11][^12][^9]这些数字的 denominator 不同，不能加总成一个资本总额。在代理信号健康时，它们支持 S2/S3 的 infrastructure coordination；在代理信号广泛、持续恶化时，则提高 S4 权重。判别不依赖任何单点数据。
 
 边界情形：若需求增速显著放缓，但尚未在多类 S4 信号族之间形成足够的 cross-signal confirmation 与 causal breadth，则按 substitution 强度归属——替代规模化扩大则 S1 权重上升；scarce-layer 仍紧则归入 S2（此时"需求高"应读作"需求增速仍高于有效供给增速"）。
 
@@ -350,13 +354,17 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 [^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^3]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^4]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, US$279B aggregate supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^6]: NVIDIA, DGX GB200 Hardware Guide, rack power density, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, large-load / PPA transition context, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; International Energy Agency, Energy and AI — Executive summary, grid-connection and transmission constraints, https://www.iea.org/reports/energy-and-ai/executive-summary
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 
 [^10]: TrendForce, 2026-07-30, “Diverging Memory Market Outlook in 2027 as DRAM Supply Remains Tight While NAND Flash Supply Conditions Ease,” https://www.trendforce.com/presscenter/news/20260730-13158.html
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, SB Energy / PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and exposure declining as lease payments are made, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
 
 ## 交叉引用
 
