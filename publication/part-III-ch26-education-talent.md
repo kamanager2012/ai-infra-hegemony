@@ -38,6 +38,39 @@ UNESCO 的教师框架则定义 **15 项 competencies / 5 个维度**，除 AI f
 
 因此，如果 curriculum 只围绕当前 dominant model 或 tool，很可能很快过时；system design、verification、domain reasoning 与 responsibility 更具有跨模型、跨平台的持续性。
 
+### 2B. School-Scale Learning Evidence 已出现，但 Engagement / Retention 仍是约束
+
+2026 年 8 月的两项 randomized field studies 把教育证据从 adoption / policy 明显推进了一层：它们观察的是 repeated school use 与 delayed learning，而不是一次性 AI-assisted performance。
+
+**Khanmigo 两年 school experiment。** Oreopoulos 与 Low 在 **18 所 Tennessee middle schools** 做了两年 cluster randomized trial，assigned students 在既有 daily remedial mathematics sessions 中使用 Khan Academy + Khanmigo。[^4] assignment 让 math achievement 每学期提高约 **1.3 national percentile ranks**，折算一个学年约 **0.06–0.08 SD**；如果按 full-year active participation 计算，implied effect 约 **0.14 SD**。[^4]
+
+但这不能被写成“给学生 AI tutor 就自动提高学习”。研究中的 gains 与没有 AI assistance 的 Khan Academy practice 接近，而真实 Khanmigo engagement 很有限：虽然 **96%** 学生至少尝试过一次，但 median student 只在约三分之一 practice days 给 Khanmigo 发消息，并且在出现错误的 exercise sessions 中只有约 **17%** 真正使用它。[^4]
+
+所以实际约束更接近：
+
+> **access → engagement → instructional workflow → learning outcome**
+
+而不是 model availability 本身。
+
+**NUMI mastery experiment。** 另一项 randomized experiment 覆盖 **6,000+ middle-school students**，同时随机分配 AI vs computer-assisted-learning support，以及 mastery vs non-mastery progression。[^5] 一周后，学生完成覆盖 practiced / unpracticed material 的 delayed assessment。[^5]
+
+在 practice 阶段，AI 对 error recovery 有明确帮助：学生犯错后，next attempt 更容易答对，恢复到正确答案所需 attempts 更少；但整体 progress 更慢、attempted questions 更少。[^5] delayed-learning evidence 明显弱于 immediate assistance，而且更依赖 AI 是否被嵌入 mastery workflow；较积极的 delayed results 主要集中在 practiced material，而不是 broad transfer。[^5]
+
+因此需要固定一个新的边界：
+
+> **immediate AI-assisted correctness ≠ broad delayed retention / transfer。**
+
+教育证据链现在已经从 adoption-only 推进到：
+
+> **repeated school deployment → measurable learning effect → partial delayed-retention evidence。**
+
+但同等级公开证据仍缺：
+- broad transfer across topics；
+- teacher workload / organizational redesign；
+- all-in implementation / support cost；
+- persistent multi-year learning；
+- heterogeneous schools 下的 system-scale economics。
+
 ## 3. Layer One：AI Literacy
 
 所有专业都需要理解 model limitation、hallucination、source verification、privacy、data leakage、bias 与 responsible use。
@@ -116,7 +149,7 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 ## 12. Current Read
 
-教育体系的核心变化不是“再增加一个 AI major”。
+现有证据已经说明，AI-enabled tutoring 可以在真实学校环境产生 measurable learning gains，但 access 本身不够，engagement、instructional design、retention 与 implementation 仍是硬约束。因此，教育体系的核心变化不是“再增加一个 AI major”。
 
 更重要的是：
 
@@ -131,3 +164,7 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 [^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
 [^2]: UNESCO, “AI competency framework for students,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66903
 [^3]: UNESCO, “AI competency framework for teachers,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-teachers?hub=779
+
+
+[^4]: Philip Oreopoulos and Nina Low, “One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment,” NBER Working Paper 35620, August 2026, https://www.nber.org/papers/w35620
+[^5]: Philip Oreopoulos, Michael Liut, Alp Sungu, Nina Low, “Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment,” NBER Working Paper 35621, August 2026, https://www.nber.org/papers/w35621
