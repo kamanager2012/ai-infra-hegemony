@@ -82,12 +82,14 @@ AI infrastructure 的很多关键变量并不公开，包括：
 - revenue share → wafer share；
 - platform revenue mix → customer allocation；
 - HBM demand share → actual packaging allocation；
-- contracted / secured MW → energized / utilized AI load；
+- contracted / secured capacity → energized / utilized AI load；
+- IT-GW → generation GW；
 - company-wide CapEx → AI-specific hardware CapEx；
 - model-training compute → full corporate R&D cost；
 - occupational exposure → unemployment rate；
-- consumer DRAM / NAND capability → frontier HBM closure；
-- foundry revenue share → frontier AI system capability。
+- conventional DRAM / NAND capability → frontier HBM closure；
+- production-grade substitution → autonomous frontier closure；
+- foundry revenue share → frontier-AI system capability。
 
 这些边界是本报告因果推演的基础约束。
 
@@ -138,34 +140,34 @@ AI infrastructure 的很多关键变量并不公开，包括：
 
 因此，**evidence-event/source-availability cutoff** 与 **post-freeze verification date** 必须分开记录。
 
-### 8A. Material revisions after the evidence cutoff
+### 8A. 证据截止日之后的实质修订
 
-The evidence cutoff and the revision date are different controls.
+Evidence cutoff 与 revision date 是两个独立控制项。
 
-After 2026-08-28, the report was edited only when one of the following conditions applied:
+2026-08-28 之后，只有在以下情形之一成立时，才允许修改报告：
 
-- a pre-cutoff fact, denominator, evidence identity, translation, or calculation required correction;
-- a definition-level inconsistency affected scenario classification or falsification;
-- bilingual analytical parity required repair;
-- reader-facing structure required editorial reorganization without changing the evidence set.
+- cutoff 前的事实、分母、证据身份、翻译或计算需要纠正；
+- definition-level inconsistency 影响 scenario classification 或 falsification；
+- 双语分析 parity 需要修复；
+- 在不改变 evidence set 的前提下，需要对面向读者的结构进行编辑性重组。
 
-These revisions did **not** authorize post-cutoff events to be backdated into the 2026-08-28 evidence snapshot.
+这些修订**不授权**把 cutoff 后才发生的事件倒写进 2026-08-28 evidence snapshot。
 
-Several material corrections made during 2026-08-29–09-03 remain analytically relevant and are therefore disclosed here in compressed form:
+2026-08-29 至 2026-09-03 期间完成的若干实质纠错仍具有分析意义，因此在此压缩披露：
 
-1. **End-system / residual-capacity framing was strengthened.** Consumer electronics, game consoles, industrial systems, and other non-AI end markets are analyzed through shared-resource exposure, Quantity Assurance, and Non-AI Residual Capacity rather than a blanket “AI displaces everything” claim.
-2. **China's frontier assessment was separated into Production-Grade Parallel Stack and Autonomous Frontier Closure.** A system that can run production workloads is not automatically an autonomous multi-generation frontier stack.
-3. **Capital-clearing decision logic was corrected.** Accounting impairment is a high-value confirmation / severity channel, not a mandatory gate. Direct falsification of a mechanism cannot be ignored merely because system-level cross-signal breadth has not yet accumulated.
-4. **Developer-distribution risk was added as a conditional mechanism.** The 2026-08-27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face agreement remains C-grade transaction evidence and is not treated as a completed acquisition or realized software foreclosure.
-5. **Strategy optionality language was corrected.** Chapter 31 no longer treats a continuously maintained executable second production path as universally optimal. The hard rule is to price executable optionality / resilience against carrying cost; maintaining a second production path remains conditional on continuity, bargaining, recovery and switching value exceeding that cost.
-6. **Downstream evidence boundary 已修复。** Chapter 15 补入 cutoff 前 BMW/Figure 02、Amazon DeepFleet 与 GXO/Digit 的 production evidence，同时继续保留 intervention、uptime、safety、TCO 与 broad fleet economics 缺口；Chapter 25 改用 Stanford/ADP direct revision 区分 reduced hiring 与 separations，并明确保持 descriptive / non-causal identity；Chapter 26 补入 cutoff 前 Khanmigo school-scale RCT 与 NUMI delayed-assessment RCT，同时继续保留 engagement、transfer、teacher workload、implementation cost 与长期 system outcome 的不确定性。
-7. **English-first canonical workflow and translation parity were formalized.** English is the sole canonical analytical layer；Chinese 是该文本的专业翻译，而不是独立分析版本。 Claims, section order, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
+1. **强化 end-system / residual-capacity 框架。** Consumer electronics、game consoles、industrial systems 与其他 non-AI end markets 统一通过 shared-resource exposure、Quantity Assurance 与 Non-AI Residual Capacity 分析，而不是笼统表述为“AI 挤压一切”。
+2. **将中国 frontier assessment 拆分为 Production-Grade Parallel Stack 与 Autonomous Frontier Closure。** 能够运行 production workload 的系统，不自动等于已经形成自主、可跨代延续的 frontier stack。
+3. **纠正 capital-clearing decision logic。** Accounting impairment 属于高价值 confirmation / severity channel，而不是 S4 的强制 gate；即使 system-level cross-signal breadth 尚未积累，只要某一机制已被直接证伪，也不能忽略。
+4. **将 developer-distribution risk 纳入条件性机制。** 2026-08-27 Reuters 援引 The Information 报道的 NVIDIA / Hugging Face 交易仍属于 C-grade transaction evidence，不得写成已完成收购，也不得写成已经实现 software foreclosure。
+5. **纠正 strategy optionality 表述。** Chapter 31 不再把“持续维护一条可执行的第二生产路径”写成普遍最优策略。硬规则是把 executable optionality / resilience 的价值与 carrying cost 一并定价；只有 continuity、bargaining、recovery 与 switching value 高于该成本时，维护第二生产路径才成立。
+6. **修复 downstream evidence boundaries。** Chapter 15 纳入 cutoff 前 BMW/Figure 02、Amazon DeepFleet 与 GXO/Digit 的 production evidence，同时继续保留 intervention、uptime、safety、TCO 与 broad fleet economics 的证据缺口；Chapter 25 改用 Stanford/ADP direct revision 区分 reduced hiring 与 separations，并保持 descriptive / non-causal identity；Chapter 26 纳入 cutoff 前 Khanmigo school-scale RCT 与 NUMI delayed-assessment RCT，同时继续保留 engagement、transfer、teacher workload、implementation cost 与 long-run system effects 的未决边界。
+7. **正式固定 English-first canonical workflow 与 translation parity。** English 是唯一 canonical analytical layer；中文版只是该文本的专业翻译，不是独立分析版本。Claims、section order、evidence grades、denominators、mechanisms、scenario identities 与 falsification boundaries 必须保持等价。
 
-The report therefore preserves a simple public rule:
+对外规则因此很简单：
 
-> **Correct the research record when the evidence or definition is wrong; do not turn editorial history into a second research narrative.**
+> **证据或定义错误时就纠正研究记录；不要把编辑历史变成第二套研究叙事。**
 
-Detailed file-by-file chronology remains available through repository history and research-side validation materials rather than being repeated in the reader-facing report.
+逐文件的详细修订历史保留在 repository history 与 research-side validation materials 中，不在面向读者的正式报告里重复展开。
 
 ---
 
