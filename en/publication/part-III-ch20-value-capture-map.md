@@ -150,10 +150,12 @@ This is an important dynamic of value capture:
 
 ## 7A. Financing coordination is becoming a system capability
 
-Two August 2026 disclosures show system-platform coordination extending from supply commitments into infrastructure finance:
+August 2026 announcements and Q2 filings show system-platform coordination extending from supply commitments into infrastructure finance:
 
 - NVIDIA and Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR announced compute-financing platforms targeting **more than US$500B of third-party capital mobilization over time**; the arrangements remain subject to final agreements.[^9]
 - In PORTS-Pike, NVIDIA is providing credit support for land + power + shell and investing **US$1.5B** in SB Energy; OpenAI is the customer and SB Energy will build / own / operate the data center.[^10]
+- NVIDIA's FY27 Q2 Form 10-Q caps aggregate obligations under the associated PORTS-Pike lease guarantees at **US$105B** across leases covering approximately **4.25 GW of IT load**.[^11] This is maximum conditional guarantee exposure, not funded CapEx, current cash outflow, or independently financed end demand.
+- AMD's Q2 2026 Form 10-Q independently reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^12] This is likewise maximum guarantee exposure rather than funded CapEx or realized loss.
 
 A leading system platform can therefore create value not only by organizing technology and supply, but by matching:
 
@@ -163,7 +165,7 @@ This can reduce financing friction and accelerate Time-to-Capacity.
 
 But the same mechanism changes who bears risk.
 
-When a seller also provides equity, credit support, or infrastructure-financing coordination, some customer-concentration, duration, and residual-value risk can move back toward the platform.
+When a seller also provides equity, credit support, or infrastructure-financing coordination, some customer-concentration, duration, and residual-value risk can move back toward the platform. The cross-vendor guarantee disclosures show that this risk-transfer mechanism is broader than one supplier, while the different instruments remain non-additive.
 
 Therefore:
 
@@ -246,7 +248,7 @@ Value capture changes by scenario:
 
 - **S1 Competitive Expansion:** custom stacks, open software, and supply expansion reduce platform rents and distribute value more broadly;
 - **S2 Baseline Concentration:** system platforms and scarce manufacturing retain strong value capture while cloud investment remains high;
-- **S3 Resource Hegemony:** logic/HBM/packaging/power concentrate further and scarce-layer owners plus the dominant system platform gain stronger bargaining power;
+- **S3 Resource Hegemony:** quantity assurance / delivery access across multiple scarce layers, switching costs, and financing coordination strengthen together while workload monetization remains sufficient to support the associated commitments;
 - **S4 Capital Hard Landing:** buyer utilization and commitments fall, long-duration infrastructure experiences duration/ROI stress first, and upstream profit later transmits downward.
 
 This is more robust than assigning a permanent ranking to system platforms, HBM, foundries, clouds, and applications.
@@ -294,3 +296,7 @@ Value capture is not a permanent ranking. It is the dynamic result of scarcity, 
 [^8]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 [^9]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^10]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment, and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
