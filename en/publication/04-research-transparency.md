@@ -153,13 +153,14 @@ After August 28, 2026, the report was edited only when one of the following cond
 
 These revisions did **not** authorize post-cutoff events to be backdated into the August 28 evidence snapshot.
 
-Several material corrections made during August 29–30 remain analytically relevant and are therefore disclosed here in compressed form:
+Several material corrections made during August 29–31 remain analytically relevant and are therefore disclosed here in compressed form:
 
 1. **End-system / residual-capacity framing was strengthened.** Consumer electronics, game consoles, industrial systems, and other non-AI end markets are analyzed through shared-resource exposure, Quantity Assurance, and Non-AI Residual Capacity rather than a blanket “AI displaces everything” claim.
 2. **China's frontier assessment was separated into Production-Grade Parallel Stack and Autonomous Frontier Closure.** A system that can run production workloads is not automatically an autonomous multi-generation frontier stack.
 3. **Capital-clearing decision logic was corrected.** Accounting impairment is a high-value confirmation / severity channel, not a mandatory gate. Direct falsification of a mechanism cannot be ignored merely because system-level cross-signal breadth has not yet accumulated.
 4. **Developer-distribution risk was added as a conditional mechanism.** The August 27 Reuters report, citing The Information, concerning a reported NVIDIA / Hugging Face agreement remains C-grade transaction evidence and is not treated as a completed acquisition or realized software foreclosure.
-5. **English-first canonical workflow and translation parity were formalized.** English is the sole canonical analytical layer; Chinese is the professional translation of that text, not an independent analytical edition. Claims, section order, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
+5. **Strategy optionality language was corrected.** Chapter 31 no longer treats a continuously maintained executable second production path as universally optimal. The hard rule is to price executable optionality / resilience against carrying cost; maintaining a second production path remains conditional on continuity, bargaining, recovery, and switching value exceeding that cost.
+6. **English-first canonical workflow and translation parity were formalized.** English is the sole canonical analytical layer; Chinese is the professional translation of that text, not an independent analytical edition. Claims, section order, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
 
 The public rule is therefore simple:
 
