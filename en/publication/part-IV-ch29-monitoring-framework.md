@@ -293,7 +293,7 @@ System substitution expands, migration cost falls, HBM/packaging/power supply el
 
 ### Move toward S3
 
-Seller commitments keep expanding, multi-layer scarcity persists, switching costs rise, and powered capacity is locked for long periods by a small set of Anchor Buyers.
+Seller commitments keep expanding, multi-layer scarcity persists, quantity assurance / delivery access becomes more concentrated, switching costs rise, and financing coordination strengthens while workload monetization remains sufficient to support the associated commitments.
 
 ### Move toward S4
 
@@ -329,7 +329,7 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 ### Scenario reweighting
 
 - **Toward S1:** supply elasticity, system substitution, buyer optionality, and portability improve in mutually reinforcing ways;
-- **Toward S3:** multi-layer scarcity, switching cost, quantity assurance concentration, and forward reservation strengthen together;
+- **Toward S3:** multi-layer scarcity, quantity assurance / delivery access concentration, switching costs, forward reservation, and financing coordination strengthen together while workload monetization remains sufficient to support the associated commitments;
 - **Toward S4:** multiple causally independent signal families deteriorate broadly and persistently across actors/layers; at least one real-economy / market / commitment signal must be present, while Accounting is confirmatory rather than mandatory;
 - **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
 
@@ -375,7 +375,7 @@ This keeps the report updateable without reclassifying the industry after every 
 [^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Constellation Q3 2024 results, approximately US$1.6B of cash from operations estimated for restart capital expenditures and 2028 in-service estimate, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2024-results
 [^11]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition occurred in April 2026 and full contract quantity up to 1,920 MW, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Talen Energy 2025 Form 10-K, superseded prior spring-2027 transition expectation and original delivery-ramp context to full volume no later than 2032, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
-[^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and announcement-stage phased online plan beginning in calendar 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx ; NVIDIA Corporation, FY27 Q2 Form 10-Q, first guarantee/service phase expected in FY2029 across the phased nine-data-center structure, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 
 [^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
