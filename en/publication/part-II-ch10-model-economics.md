@@ -1,4 +1,4 @@
-# Part II · Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition
+# Part II · Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Model Competition
 
 ## 1. Model economics cannot be separated from infrastructure economics
 
@@ -51,9 +51,11 @@ Stanford AI Index 2026 also reports further convergence among leading models on 
 
 This strengthens the chapter's core mechanism: **falling model prices and rising total infrastructure demand can coexist**. The decisive variables remain workload volume, resource intensity, and utilization.
 
-## 4. Open source compresses model-layer rent before infrastructure rent
+## 4. Open models compress model-layer rent before infrastructure rent
 
-Open-source models broaden capability diffusion, private deployment, and model-switching options while putting pressure on API premiums.
+Open-model and open-weight availability broaden capability diffusion, private deployment, and model-switching options while putting pressure on API premiums.
+
+**Terminology boundary:** this report uses **open-model** as the broader category and **open-weight** when model weights are available. Open-weight availability does not, by itself, establish open-source licensing or unrestricted downstream rights.
 
 Model-layer switching generally happens faster than replacement of accelerators, HBM, networking, packaging, or data-center infrastructure.
 
@@ -104,7 +106,7 @@ The same mechanism amplifies risk. If architecture efficiency rises, revenue und
 
 ## 8. Price compression and rebound
 
-Algorithmic efficiency and open-source competition reduce the unit cost of intelligence.
+Algorithmic efficiency and open-model competition reduce the unit cost of intelligence.
 
 Aggregate infrastructure demand depends on:
 
@@ -152,7 +154,7 @@ At the August 2026 evidence cutoff, the more defensible description from this ch
 
 - model-layer price competition and capability diffusion are real;
 - benchmark-equivalent unit cost has fallen sharply in the cited historical series;
-- open-source availability increases model portability and buyer options;
+- open-model / open-weight availability increases model portability and buyer options;
 - **the sources cited in this chapter do not establish a confirmed decline in aggregate infrastructure demand as a consequence of those model-layer changes**;
 - large model companies are using long-duration commitments to shape infrastructure buildout.
 
