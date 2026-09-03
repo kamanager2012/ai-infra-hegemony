@@ -12,7 +12,7 @@
 
 ### Test B — AI/HPC 的资源吸收是否已经造成传统终端的结构性退出？
 
-部分成立，但不能全行业化。Non-AI Residual Capacity、Quantity Assurance 与 product-mix pressure 已经在 smartphone、PC、game console 等终端出现；但证据目前支持的是**价格、配置、产品组合和换代周期重构**，还不能证明 smartphone、PC、gaming 或其他完整终端生态已经进入结构性终局。
+部分成立。[第21章](part-III-ch21-consumer-transmission.md)集中记录下游证据与 attribution boundary。当前证据支持**部分终端的价格、配置、产品组合和换代周期重构**，但不能证明 smartphone、PC、gaming 或其他完整终端生态已经进入结构性终局。
 
 ### Test C — Second Stack 是否已经足以打破集中度？
 
@@ -36,7 +36,7 @@
 
 NVIDIA 当前最强的优势，不是“拥有所有物理资源”，而是能够把 GPU、CPU、HBM、NVLink、CUDA/runtime、rack-scale architecture、供应链与大规模 workload 组织成成熟的通用商业系统。
 
-NVIDIA manufacturing, supply and capacity commitments 从 2026-01-25 的 **US$95.2B** 上升到 2026-07-26 的 **US$279B**。[^1] 这一数据说明前置供应承诺显著扩大，但公开文件没有披露 supplier-level split，因此不能把 US$279B 直接解释为 TSMC、CoWoS 或某一家 HBM vendor 的确定收入。
+NVIDIA 披露的 aggregate manufacturing / supply / capacity commitments 在三个报告时点连续上升：2026-01-25 为 **US$95.2B**、2026-04-26 为 **US$119B**、2026-07-26 为 **US$279B**。[^1] 各报告期底层 mix 与 duration 并不完全相同，且文件没有披露 supplier-level split；因此，这一序列可以支持“forward reservation intensity 上升”，不能被改写成 TSMC、CoWoS 或某一家 HBM vendor 的确定收入。
 
 真正需要跟踪的不是历史 customer revenue share，而是：
 
@@ -169,9 +169,9 @@ PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云�
 - PC / workstation：替代能力增长，但 software compatibility 与专业 workload 仍重要；
 - frontier AI：已经形成真实 accelerator/software parallel stack，但完整等价 system 仍需多个 critical layers 同时规模化。
 
-CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场份额判断，但不能自动推导 HBM-class frontier closure。Counterpoint 对 YMTC 的 shipment share 与 revenue share 也必须保持分母区分。[^9][^10][^11]
+CXMT 公开材料可以支持 DDR/LPDDR 与 DRAM 市场位置判断，但不能自动推导 HBM-class frontier closure。2026-05-27 的科创板注册稿引用 Omdia：CXMT 2025 Q4 全球 DRAM revenue share 约 **7.67%**；Counterpoint 则给出 YMTC 2026 Q2 NAND shipment share 约 **14%**。[^9][^10] 两者属于不同公司、不同时间与不同 denominator，不能合并成一个“国产化率”指标。
 
-foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 2026 Q1 的 SMIC **5.1%** 是 foundry revenue share，而不是先进 AI system closure 指标。[^12]
+foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 对 2026 Q1 的分析中，SMIC **5.1%** 是其跟踪的全球 Top-10 foundries 口径下的 revenue share，而不是先进 AI system closure 指标。[^12]
 
 因此，需要采用两级 closure 判断。
 
@@ -455,17 +455,16 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 ## References
 
-[^1]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: NVIDIA Corporation, FY26 Form 10-K, 2026-01-25 manufacturing / supply / capacity commitments US$95.2B, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, prior-quarter US$119B and 2026-07-26 US$279B, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
-[^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^5]: NVIDIA, DGX GB200 Hardware Guide, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Constellation, Crane Clean Energy Center, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Talen Energy, 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Kairos Power / Google, https://www.kairospower.com/google
 [^6]: TSMC, 2Q26 Quarterly Results and Earnings Conference, platform mix and capital budget, https://investor.tsmc.com/english/quarterly-results/2026/q2
 [^7]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
 [^8]: OpenAI, Stargate infrastructure disclosures, https://openai.com/index/announcing-the-stargate-project/ ; Anthropic, AWS compute collaboration, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^9]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
+[^9]: CXMT, 科创板注册稿，2026-05-27；引 Omdia：2025 Q4 全球 DRAM revenue share 约 7.67%，https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf
 [^10]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-[^11]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 [^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
