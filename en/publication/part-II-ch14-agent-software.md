@@ -18,7 +18,7 @@ toward:
 
 ## 1A. 2026 evidence baseline: broad AI use, early scaled-agent deployment
 
-Stanford AI Index 2026 summarizes organizational survey evidence collected in 2025: **88% of respondents say their organization uses AI in at least one business function**, while **79% say their organization regularly uses Generative AI in at least one function**.[^3] The same chapter shows that **scaled AI-agent use remains in the single digits across nearly all business functions in the cross-function aggregate**, while specific industry/function pairs can be materially higher: in the technology sector, scaled use reaches **24% in software engineering, 22% in IT, and 21% in service operations**.[^3]
+Stanford AI Index 2026 summarizes organizational survey evidence collected in 2025: **88% of respondents say their organization uses AI in at least one business function**, while **79% say their organization regularly uses Generative AI in at least one function**.[^3] The same chapter shows that **scaled AI-agent use remains in the single digits for the cross-function aggregate across nearly all business functions**, while specific industry/function pairs can be materially higher: in the technology sector, scaled use reaches **24% in software engineering, 22% in IT, and 21% in service operations**.[^3]
 
 The underlying survey evidence is **self-reported**. Stanford explicitly says these results should be viewed as **directional rather than comprehensive**; they measure reported organizational use and deployment stage, not independently observed production telemetry or verified workflow utilization.
 
@@ -26,7 +26,7 @@ The correct reading is not a fixed penetration forecast, but a stage-of-market d
 
 > **Broad AI adoption has already occurred, while production-grade autonomous or semi-autonomous workflow deployment is still early.**
 
-That creates a large potential workflow pool, but production reliability, review burden, integration cost, and unit economics have not yet been proven at the same scale.
+That creates a large potential workflow pool, but production reliability, review burden, integration cost, and unit economics have not yet been demonstrated at the same scale.
 
 Anthropic's June 2026 Economic Index also reports that its product usage has shifted toward more long-running agentic tasks and that higher compute use is associated with higher estimated artifact value.[^4] Because this is first-party product telemetry, it should not be treated as representative of the entire enterprise-software market.
 
@@ -228,7 +228,7 @@ Software competition is moving from feature competition toward **workflow econom
 
 AI is moving part of software from low-marginal-cost replication toward real-time compute-consuming workflow systems.
 
-This can compress some traditional software margins, but it does not imply that all software becomes a low-margin business.
+This can compress some traditional software margins, but it does not imply that all software becomes low-margin.
 
 The dividing line is:
 
