@@ -48,9 +48,9 @@ They support a narrower conclusion:
 
 ![Figure 7 — TSMC 2Q26 demand and technology mix](figures/fig-07-tsmc-2q26-mix.svg)
 
-**Figure 7 note:** TSMC first-party actuals with separate denominators. HPC 66% and smartphone 22% are platform shares of total revenue; 7 nm and below 77% is a technology share of wafer revenue. None is customer-level wafer allocation.
+**Figure 7 note:** TSMC first-party actuals with separate denominators. HPC at 66% and smartphone at 22% are platform shares of total revenue; 7 nm and below at 77% is a technology share of wafer revenue. None of these measures represents customer-level wafer allocation.
 
-This strengthens the report's focus on the destination of the next marginal capital dollar, but it does not support claims that:
+This strengthens the report's focus on where the next marginal capital dollar is directed, but it does not support claims that:
 
 - 66% of wafers are AI;
 - 77% of advanced-technology revenue belongs to NVIDIA;
@@ -96,7 +96,7 @@ The relevant questions are:
 - buyer credit quality;
 - supply elasticity.
 
-If reliable customer-level allocation data becomes available for one physical layer, a percentage can be used for that layer. It cannot be extended into a full-stack "resource capture share."
+If reliable customer-level allocation data becomes available for one physical layer, an allocation percentage can be used for that layer. It cannot be extended into a full-stack "resource capture share."
 
 ## 6. Allocation is multi-variable, not rank-deterministic
 
@@ -108,7 +108,7 @@ A more defensible mechanism is that order scale, credit, prepayment, and roadmap
 
 ## 7. Packaging is a separate physical pool
 
-TSMC first-party material confirms advanced-packaging tightness, but customer-level CoWoS allocation is not disclosed.[^5] TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is treated as **B-grade institutional evidence from a paid-report landing page, not supplier-confirmed physical allocation**.[^6]
+TSMC's first-party materials confirm advanced-packaging tightness, but customer-level CoWoS allocation is not disclosed.[^5] TrendForce's estimate that NVIDIA represented more than 60% of 2025 CoWoS demand is treated as **B-grade institutional evidence from a paid-report landing page, not supplier-confirmed physical allocation**.[^6]
 
 No report-side packaging-geometry ratio is used in the formal analysis to infer rack output or customer allocation. Front-end logic wafers and back-end advanced-packaging capacity are different physical pools and cannot be divided into one another.
 
