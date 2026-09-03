@@ -1,9 +1,9 @@
-# Phase II · Developer Distribution Chokepoint v0.5
+# Phase II · Developer Distribution Chokepoint v0.6
 
 > **Status:** Research-side validation layer; not a claim that software monopoly or foreclosure has already occurred.  
 > **Evidence-cutoff interaction:** the Reuters transaction report is dated 2026-08-27 and therefore falls inside the formal report's 2026-08-28 evidence snapshot. Any status check after 2026-08-28 remains research-side only unless the formal report is explicitly reopened.
 
-## 0. Ownership contract v0.5
+## 0. Ownership contract v0.6
 
 This file owns:
 - transaction-status gating for the NVIDIA/Hugging Face research trigger;
@@ -265,6 +265,231 @@ The DDC state remains separately adjudicated below.
 
 ---
 
+## 3B. Capability Absorption Without Acquisition (CAWA) v0.6
+
+The Poolside line suggests a broader mechanism that should not be reduced to model-production gravity.
+
+NVIDIA can potentially absorb economically important capability through:
+
+```text
+non-exclusive technology license
++
+key-personnel transfer
++
+product integration
++
+ecosystem certification / distribution
+```
+
+without acquiring the underlying company.
+
+This research pattern is called:
+
+> **Capability Absorption Without Acquisition (CAWA)**
+
+CAWA is not automatically anticompetitive.
+
+It is a control / dependency question:
+
+> **How much practical capability moves into the platform even when legal ownership of the source company does not?**
+
+### 3B.1 First-party positive case — Groq
+
+Groq provides a substantially stronger evidence anchor than the Poolside media reports.
+
+On **December 24, 2025**, Groq officially announced:
+
+- a **non-exclusive licensing agreement** with NVIDIA for Groq inference technology;
+- Groq founder **Jonathan Ross**;
+- Groq president **Sunny Madra**;
+- and other Groq team members
+
+would join NVIDIA to help advance and scale the licensed technology.
+
+Groq simultaneously stated that:
+
+- Groq would continue operating as an **independent company**;
+- GroqCloud would continue operating.
+
+This is a clean first-party example of:
+
+> **technology capability + key people transfer without corporate acquisition.**
+
+### 3B.2 Capability moved from license into NVIDIA product stack
+
+The case is stronger because the licensed capability did not remain an abstract agreement.
+
+On **August 24, 2026**, NVIDIA officially announced **NVIDIA Groq 3 LPX** in full production as an extension of the Vera Rubin platform.
+
+That creates an observable sequence:
+
+```text
+Groq independent technology
+→ non-exclusive NVIDIA license
+→ founder / senior-team transfer
+→ NVIDIA product integration
+→ Vera Rubin system-stack deployment
+```
+
+This is first-party evidence that legal ownership is not the only relevant measure of platform capability accumulation.
+
+### 3B.3 Groq remains a counterexample to “absorption = destruction”
+
+The same case also provides mandatory contrary evidence.
+
+Groq:
+- remained an independent legal company;
+- continued GroqCloud;
+- raised new growth capital in 2026;
+- joined NVIDIA Cloud Partner while continuing to operate its own cloud business.
+
+Therefore the case does **not** support:
+
+> NVIDIA acquired Groq and eliminated the competitor.
+
+A more precise statement is:
+
+> **NVIDIA internalized licensed inference capability and key personnel while the source company continued operating independently.**
+
+That distinction matters for competition analysis.
+
+### 3B.4 Poolside as a second, lower-confidence candidate
+
+The Poolside evidence is structurally similar but weaker in transaction verification.
+
+Current evidence stack:
+
+**A-grade capability evidence**
+- Poolside first-party technical report confirms the Model Factory as an integrated model-development system.
+
+**C-grade transaction evidence**
+- media reports describe a large non-exclusive NVIDIA license;
+- NVIDIA investment;
+- movement of substantial Poolside personnel into NVIDIA/Nemotron work.
+
+Until first-party transaction confirmation is available:
+
+> **Poolside is a CAWA candidate, not a first-party closed case.**
+
+### 3B.5 CAWA observables
+
+| Variable | Stronger capability absorption | Contrary evidence |
+|---|---|---|
+| License scope | broad rights to commercially important technology | narrow / non-core license |
+| Exclusivity | exclusive or effectively exclusive rights | genuinely non-exclusive rights with active third-party use |
+| Key-person dependency | founders / core research or engineering team move | source company retains comparable core team |
+| Product integration | technology becomes named platform component | license remains unused / peripheral |
+| Source-company viability | independent roadmap weakens materially after transfer | company raises capital, ships product, grows independently |
+| Ecosystem coupling | source company becomes dependent on NVIDIA certification / compute / distribution | multi-vendor commercial path remains viable |
+| Repeat pattern | similar license+talent structures occur across multiple capability layers | isolated one-off transaction |
+| Substitution impact | rival capability becomes harder to access outside NVIDIA | technology remains broadly licensable / competitive alternatives expand |
+
+### 3B.6 CAWA is different from M&A
+
+Traditional merger analysis starts from:
+
+> who owns the company?
+
+CAWA requires an additional question:
+
+> **who controls or internalizes the economically important capability after licensing and personnel movement?**
+
+This matters in fast-moving AI markets where:
+- talent is highly concentrated;
+- software / model-production systems are portable;
+- IP can be licensed rather than purchased;
+- integration speed can matter more than legal ownership.
+
+The correct denominator is therefore not:
+
+> number of acquired startups.
+
+It is closer to:
+
+> **capability concentration after transaction / licensing / talent flows.**
+
+### 3B.7 CAWA and antitrust boundary
+
+CAWA does not itself prove foreclosure.
+
+Competition concern rises if several elements align:
+
+```text
+critical capability licensed / internalized
++
+core personnel migrate
++
+NVIDIA product stack integrates capability
++
+source-company or rival access weakens
++
+repeat pattern across multiple layers
+```
+
+Groq currently confirms the first three elements strongly.
+
+It does **not** establish that Groq or other rivals lost market access.
+
+Poolside may provide a second cross-layer example, but transaction confirmation is weaker.
+
+### 3B.8 Relationship among the three mechanisms
+
+Keep the mechanisms separate:
+
+**CAWA**
+> How does NVIDIA internalize third-party capabilities without buying the legal entity?
+
+**MPG**
+> Are model-production systems / talent / recipes concentrating around NVIDIA?
+
+**DDC**
+> Does model distribution / deployment control change developer choice?
+
+Potential combined loop:
+
+```text
+CAWA
+→ more internal model / inference capability
+→ MPG strengthens
+→ NVIDIA open-model / inference stack improves
+→ DDC becomes more valuable if distribution control is obtained
+→ more workloads flow into NVIDIA deployment paths
+```
+
+This is a hypothesis chain, not a current foreclosure finding.
+
+### 3B.9 Current CAWA state
+
+Current research state:
+
+> **CAWA-OBSERVED**
+
+Reason:
+- Groq provides first-party confirmation of non-exclusive technology licensing + key-person transfer + subsequent NVIDIA product integration.
+
+But:
+
+> **CAWA-OBSERVED ≠ CAWA-FORECLOSURE.**
+
+No evidence threshold for foreclosure has been met.
+
+### 3B.10 Formal-report reopen gate
+
+Groq / Poolside are both **pre-2026-08-28 events**, but Phase II does not automatically reopen formal Ch02/Ch11.
+
+Current adjudication:
+
+> **HOLD — research-side mechanism materially strengthens the evidence for platform capability accumulation, but does not contradict the formal report's existing system-stack thesis or change the S2 baseline.**
+
+Formal reopening becomes justified only if one of these occurs:
+
+1. CAWA repeats across enough independent layers to become a defining NVIDIA strategy rather than isolated transactions;
+2. capability access outside NVIDIA demonstrably deteriorates;
+3. formal text contains a materially false implication that legal acquisition is required for platform integration;
+4. the combined CAWA + MPG + DDC loop changes the competition judgment.
+
+---
+
 ## 4. Minimum observable variables
 
 | Variable | Supportive evidence | Contrary evidence |
@@ -442,13 +667,15 @@ At each major Hugging Face / NVIDIA ownership or product update, record:
 
 Every supportive observation must be paired with counterevidence.
 
-## 10. Current v0.5 judgment
+## 10. Current v0.6 judgment
 
-Current evidence supports two distinct WATCH-level mechanisms:
+Current evidence supports three distinct mechanisms with different evidence status:
 
 > **DDC:** a media-reported Hugging Face acquisition agreement with potentially high strategic relevance because, if verified and completed, it could connect accelerator/runtime power to a major open-model developer-distribution gateway.
 
 > **MPG:** a first-party NVIDIA open-model strategy plus media-reported Poolside model-production licensing / investment / talent-transfer arrangements that could strengthen NVIDIA's upstream model-production capability.
+
+> **CAWA:** first-party Groq evidence confirms that NVIDIA can internalize important inference technology and key personnel through a non-exclusive license while the source company remains legally independent; this is capability absorption, not proof of foreclosure.
 
 Current evidence does **not** establish:
 
@@ -470,3 +697,9 @@ That boundary should remain in place until transaction status is first-party ver
 - Forbes, 2026-08-24 — secondary report on reported Poolside licensing/investment/personnel structure; corroborative only, not first-party: https://www.forbes.com/sites/jonmarkman/2026/08/24/nvidia-pays-poolside-6b-to-license-its-model-factory-and-109-workers/
 - NVIDIA, 2026-08-11, Nemotron 3.5 Lightning / NeMo Switchyard — first-party open-model strategy anchor: https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/
 - NVIDIA Nemotron 3.5 Lightning training recipe — first-party reproducible training/deployment tooling: https://docs.nvidia.com/nemotron/nightly/nemotron/lightning35/README.html
+
+
+- Groq, 2025-12-24, “Groq and Nvidia Enter Non-Exclusive Inference Technology Licensing Agreement to Accelerate AI Inference at Global Scale” — first-party confirmation of non-exclusive technology license, founder/president/team transfer, and continued Groq independence: https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale
+- Groq, 2026-06-22, growth-capital announcement — first-party contrary evidence that Groq continued operating and financing independently after the NVIDIA license: https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business
+- Groq, 2026-08-12, NVIDIA Cloud Partner announcement — first-party evidence of deepened ecosystem integration after the licensing agreement: https://groq.com/newsroom/groq-becomes-an-nvidia-cloud-partner
+- NVIDIA, 2026-08-24, “NVIDIA Groq 3 LPX Now in Full Production” — first-party evidence that licensed Groq capability became an integrated Vera Rubin platform component: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Groq-3-LPX-Now-in-Full-Production-With-World-Class-Speed-for-Agentic-AI/default.aspx
