@@ -1,4 +1,4 @@
-# Phase II · Developer Distribution Chokepoint v0.3
+# Phase II · Developer Distribution Chokepoint v0.4
 
 > **Status:** Research-side validation layer; not a claim that software monopoly or foreclosure has already occurred.  
 > **Evidence-cutoff interaction:** the Reuters transaction report is dated 2026-08-27 and therefore falls inside the formal report's 2026-08-28 evidence snapshot. Any status check after 2026-08-28 remains research-side only unless the formal report is explicitly reopened.
@@ -37,9 +37,9 @@ reported agreement
 ≠ realized platform conduct
 ```
 
-### 1.1 Transaction-status gate v0.2
+### 1.1 Transaction-status gate v0.4
 
-As of the **2026-08-30 research-side status check**:
+As of the **2026-09-03 research-side status check**:
 
 | State | Evidence status | Research treatment |
 |---|---|---|
@@ -49,7 +49,7 @@ As of the **2026-08-30 research-side status check**:
 | legal closing / ownership transfer | **not verified** | do not write “NVIDIA owns Hugging Face” as a current fact |
 | post-transaction platform conduct | **not observable as ownership conduct until ownership/control is verified** | DDC-B/C cannot be inferred from pre-closing product behavior |
 
-A current-status check of NVIDIA's official newsroom did not surface a first-party acquisition/closing announcement in the reviewed source set.
+A fresh 2026-09-03 check of NVIDIA Newsroom / Investor Relations and Hugging Face's official blog did not surface a first-party definitive-agreement, regulatory-clearance, or closing announcement in the reviewed source set.
 
 This is a **status-control result**, not proof that no private signed document exists.
 
@@ -114,6 +114,71 @@ The loop is a hypothesis until observable conduct and workload outcomes support 
 | Model-creator behavior | important creators publish NVIDIA-optimized variants first/exclusively | creators multi-home and publish equivalent variants |
 | Workload distribution | production open-model workloads concentrate further on NVIDIA because of the distribution path | production deployment remains multi-vendor |
 | Alternative hubs | competitors are forced to build mirrors / registries to preserve reach | alternative distribution remains optional rather than defensive |
+
+## 4A. Pre-control / unverified-control neutrality baseline v0.4
+
+A useful foreclosure test requires a **before-state**.
+
+As of 2026-09-03, transaction control is still not first-party verified in the research source set. Therefore current Hugging Face product behavior must be recorded as:
+
+> **baseline platform conduct — not post-acquisition conduct.**
+
+### 4A.1 Local / heterogeneous-device path
+
+On **2026-09-02**, Hugging Face published `@huggingface/kernels`, describing more than 200 WebGPU kernels intended to make browser/local inference fast across **many different devices and browser implementations**.
+
+Research interpretation:
+
+- this is contrary evidence against an already-realized NVIDIA-only execution narrowing;
+- WebGPU/local execution preserves a route that is not conceptually tied to one CUDA cloud backend;
+- but because ownership/control is not verified, this cannot be credited to or blamed on NVIDIA post-transaction governance.
+
+### 4A.2 Multi-provider inference baseline
+
+Hugging Face's official Inference Providers architecture continues to expose multiple serverless providers through Hub model pages and SDKs.
+
+The baseline provider architecture includes non-NVIDIA-owned providers and is designed around provider choice rather than one mandatory backend.
+
+This establishes a future comparison point for:
+
+- provider count;
+- provider-selection defaults;
+- default ordering / recommendation;
+- SDK parity;
+- model availability by provider;
+- pricing / credit treatment;
+- NVIDIA-linked vs non-NVIDIA-linked backend visibility.
+
+### 4A.3 Baseline rule
+
+If control is later verified, DDC monitoring should compare future conduct against this dated baseline.
+
+Do not ask only:
+
+> "Are alternative providers still technically present?"
+
+Ask:
+
+> **Did their default visibility, feature parity, economics, or deployment friction deteriorate relative to the pre-control baseline?**
+
+This makes self-preferencing testable.
+
+### 4A.4 Current DDC state
+
+Given:
+- no first-party verified control transfer;
+- continuing heterogeneous-device / local-runtime work;
+- continuing multi-provider inference architecture;
+
+the research state remains:
+
+> **DDC-A / transaction-status WATCH — potential vertical-integration risk, no realized foreclosure evidence.**
+
+DDC-A here does **not** mean the reported transaction is economically unimportant.
+
+It means the conduct threshold for DDC-B has not been met.
+
+---
 
 ## 5. Three research states
 
@@ -213,7 +278,7 @@ At each major Hugging Face / NVIDIA ownership or product update, record:
 
 Every supportive observation must be paired with counterevidence.
 
-## 10. Current v0.3 judgment
+## 10. Current v0.4 judgment
 
 Current evidence supports only:
 
@@ -228,7 +293,7 @@ That boundary should remain in place until transaction status is first-party ver
 ## Sources
 
 - Reuters, 2026-08-27, “Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports”: https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/
-- NVIDIA Newsroom archive — first-party transaction-status cross-check; no acquisition/closing announcement identified in the source set reviewed for the 2026-08-30 research-side status gate: https://nvidianews.nvidia.com/news
+- NVIDIA Newsroom / Investor Relations — first-party transaction-status cross-check; no definitive-agreement / closing announcement identified in the source set reviewed for the 2026-09-03 research-side status gate: https://nvidianews.nvidia.com/news ; https://investor.nvidia.com/news-and-events/news-and-events/default.aspx
 - Hugging Face official documentation: https://huggingface.co/docs
 - Hugging Face Hub documentation: https://huggingface.co/docs/hub/index
 - Hugging Face Transformers documentation: https://huggingface.co/docs/transformers/index
