@@ -10,7 +10,7 @@ Three distinct questions must remain separate:
 2. **Can PC / workstation systems sustain software compatibility, performance, and commercial scale?**
 3. **Can a frontier AI stack operate production workloads and continue advancing when critical external inputs are constrained?**
 
-Evidence from one threshold does not close the others. A strong smartphone supply chain is not proof of frontier-AI closure; frontier-AI constraints are not proof that China lacks semiconductor substitution capacity.
+Evidence at one threshold does not close the others. A strong smartphone supply chain is not proof of frontier-AI closure; frontier-AI constraints are not proof that China lacks semiconductor substitution capacity.
 
 For frontier AI, two separate tests are required:
 
@@ -30,7 +30,7 @@ TSMC's 2025 platform mix still shows smartphone at **29%** of annual platform re
 
 Commercial substitution is broader than one vendor.
 
-Huawei / HiSilicon has the more mature **premium in-house device + SoC + software/ecosystem vertical loop**, while UNISOC and Xiaomi represent separate domestic design and product paths. The evidence should therefore be read as evidence of multiple commercial design loops, not as a single comparable market-share series.
+Huawei / HiSilicon has the more mature **premium in-house device + SoC + software/ecosystem vertical integration loop**, while UNISOC and Xiaomi represent separate domestic design and product paths. The evidence should therefore be read as evidence of multiple commercial design loops, not as a single comparable market-share series.
 
 Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^3] Reuters reported on August 24, 2026 that Xiaomi said cumulative shipments of **devices powered by O1 had surpassed 1M units**. On the same date Xiaomi unveiled XRing O3 and, according to Xiaomi, **O3 had already entered mass production**. Reuters separately cited two people familiar with the matter saying TSMC would manufacture O3 on **3 nm**; Xiaomi and TSMC did not confirm the foundry/process details to Reuters. One source said an initial flagship-foldable application targeted **200k–300k shipments**.[^4]
 
@@ -183,7 +183,7 @@ AI data-center storage also includes nearline HDD.
 
 Stronger domestic NAND / SSD capability therefore cannot be rewritten as "the entire storage stack is domestically closed," because data-center storage also includes non-NAND media and workload-specific storage tiers.
 
-AI has also not simply eliminated HDD. Mass-capacity / cold-storage demand remains real, while QLC nearline SSD is accelerating substitution for selected workloads.
+AI demand has not simply eliminated HDD demand. Mass-capacity / cold-storage demand remains real, while QLC nearline SSD is accelerating substitution for selected workloads.
 
 ## 7. Foundry revenue share is not a frontier-AI capability metric
 
