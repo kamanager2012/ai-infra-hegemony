@@ -32,7 +32,7 @@ Commercial substitution is broader than one vendor.
 
 Huawei / HiSilicon has the more mature **premium in-house device + SoC + software/ecosystem vertical loop**, while UNISOC and Xiaomi represent separate domestic design and product paths. The evidence should therefore be read as evidence of multiple commercial design loops, not as a single comparable market-share series.
 
-Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^3] Reuters reported in August 2026 that O1 had powered **more than 1M devices**. The same Reuters report, citing people familiar with the matter, said the next-generation O3 was planned for TSMC 3 nm; one source said shipments for an initial foldable-phone application were targeted at **200k–300k units**.[^4]
+Xiaomi has also moved beyond a pure demonstration stage. Xinhua reported in May 2025 that XRing O1 had entered mass production in the Xiaomi 15S Pro and Pad 7 Ultra.[^3] Reuters reported on August 24, 2026 that Xiaomi said cumulative shipments of **devices powered by O1 had surpassed 1M units**. On the same date Xiaomi unveiled XRing O3 and, according to Xiaomi, **O3 had already entered mass production**. Reuters separately cited two people familiar with the matter saying TSMC would manufacture O3 on **3 nm**; Xiaomi and TSMC did not confirm the foundry/process details to Reuters. One source said an initial flagship-foldable application targeted **200k–300k shipments**.[^4]
 
 The claim that Xiaomi has only "200k–300k scraps of capacity," or that the program is merely a branding exercise, therefore does not enter the fact layer.
 
@@ -366,7 +366,7 @@ If these gates remain uncrossed, "a domestic technology stack exists" cannot be 
 
 [^1]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, HPC 58%, smartphone 29%, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 [^3]: Xinhua, 2025-05-22, Xiaomi XRing O1 entered mass production, https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
-[^4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+[^4]: Reuters, 2026-08-24, Xiaomi O1 device scale, O3 unveiling / mass-production status, and source-reported TSMC 3 nm manufacturing / shipment target, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
 [^5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
 [^6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
 [^7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf ; earlier prospectus / stable fallback, 2025-12-30, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf

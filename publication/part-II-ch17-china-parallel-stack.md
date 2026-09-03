@@ -32,7 +32,7 @@ TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**�
 
 Huawei / HiSilicon 的独特优势更适合描述为：**高端自有终端 + 自研 SoC + 自有软件/生态的 vertical closed loop 更成熟**，而不是“唯一有量”。
 
-Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；[^3] Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**。同一报道援引知情人士称，下一代 O3 **计划**采用 TSMC 3 nm；其中一名来源称，首个 foldable-phone application 的 shipment target 为 **200k–300k units**。[^4]
+Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；[^3] Reuters 2026-08-24 又报道，小米表示搭载 O1 的累计**设备出货已超过 1M units**。同日小米正式发布 XRing O3，并据小米表述，**O3 已进入 mass production**。Reuters 另外援引两名知情人士称 O3 将由 TSMC 采用 **3 nm** 制造；对 foundry/process 细节，小米与 TSMC 当时均未向 Reuters 确认。其中一名来源称，首个 flagship-foldable application 的 shipment target 为 **200k–300k units**。[^4]
 
 这意味着“Xiaomi 只有20–30万片边角料、只是品牌秀”不能作为事实层。更准确的判断是：
 
@@ -331,7 +331,7 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 [^1]: TSMC, 4Q25 Presentation / 2025 full-year platform mix, HPC 58%, smartphone 29%, https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-01/2506fec872e6b99dc5391618ff38e3cd51ade2dd/4Q25%20Presentation%20%28E%29_WoG.pdf
 [^3]: Xinhua, 2025-05-22, Xiaomi XRing O1 entered mass production, https://english.news.cn/20250522/bca3bd53dab946d88696b0fb1625231d/c.html
-[^4]: Reuters, 2026-08-24, XRing O1 device scale and O3 production plan, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
+[^4]: Reuters, 2026-08-24, Xiaomi O1 device scale, O3 unveiling / mass-production status, and source-reported TSMC 3 nm manufacturing / shipment target, https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/
 [^5]: Loongson, official CPU product line, https://www.loongson.cn/product/list?id=4
 [^6]: Moore Threads, MTT S80 official product page, https://en.mthreads.com/product/S80
 [^7]: CXMT, STAR Market registration prospectus, 2026-05-27, Shanghai Stock Exchange, https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf ; earlier prospectus / stable fallback, 2025-12-30, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
