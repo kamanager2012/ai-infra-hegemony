@@ -1,9 +1,9 @@
-# Phase II · Non-AI End-System Supply Conditions v0.3
+# Phase II · Non-AI End-System Supply Conditions v0.4
 
 > **Status:** Research-side downstream exposure map; not part of the frozen formal facts.  
 > **Purpose:** make the report's intended reader explicit: AI does not make smartphones, PCs, game consoles, vehicles, factories, robotics, aerospace, or other long-lifecycle high-reliability systems “unimportant.” The question is whether their electronics are now buying into a supply system whose capital allocation, contracting and margin priorities are being reset by AI/HPC.
 
-## 0. Response-evidence ownership contract v0.3
+## 0. Response-evidence ownership contract v0.4
 
 This file owns **observed non-AI end-system responses** to shared-resource conditions.
 
@@ -301,6 +301,111 @@ The minimum response variables are:
 
 ---
 
+## 6B. Automotive / industrial attribution gate — 2026 supplier-side counterevidence
+
+The automotive / industrial chain remains **exposure-rich but response-poor**.
+
+Current first-party semiconductor evidence does not support a simple claim that AI/HPC has already crowded automotive / industrial customers out of supply.
+
+### NXP — end-market recovery rather than obvious shortage transmission
+
+NXP Q2 2026 reported:
+
+- Automotive revenue **US$1.938B**, +12% YoY and +9% sequentially;
+- Industrial & IoT revenue **US$755M**, +38% YoY and +20% sequentially;
+- channel inventory at **11 weeks**, unchanged from Q1 and above 9 weeks in Q2 2025.
+
+This is supplier-side evidence of healthy / recovering non-AI demand.
+
+It does **not** prove that every automotive or industrial customer has abundant supply.
+
+But it is contrary evidence against:
+
+> **AI demand has already produced a broad automotive / industrial semiconductor shortage.**
+
+### Infineon — AI growth and automotive recovery can coexist
+
+Infineon's 2026 disclosures show two things at the same time:
+
+- AI data-center power solutions are a major / leading growth driver;
+- Automotive order intake is improving.
+
+Infineon's €5B Dresden Smart Power Fab is explicitly positioned to serve applications spanning:
+- AI data-center power;
+- automotive;
+- industrial / grid / renewable applications;
+
+and the company says capacity ramp can be accelerated when market opportunities require it.
+
+This matters because the resource-reordering mechanism is not one-way.
+
+A shared or adjacent supplier can respond to high-return AI demand through:
+
+> **capacity expansion / faster ramp**
+
+rather than only:
+
+> **reallocation away from automotive / industrial.**
+
+Therefore the downstream model must retain supply elasticity.
+
+### STMicroelectronics — tightness exists, but attribution remains unresolved
+
+ST's Q2 2026 first-party release reports:
+
+- higher demand and strong bookings across end markets;
+- improved visibility;
+- signs of tight supply in several product categories;
+- distribution inventory below its standard target;
+- strong AI-data-center demand as an important forward growth driver.
+
+This is useful because it shows that:
+
+> **tight supply and AI growth can coexist inside a diversified semiconductor supplier.**
+
+But it still does not establish:
+
+> **the tight product categories are tight because AI displaced automotive / industrial supply.**
+
+That causal step requires product / capacity / customer linkage.
+
+### 6B.1 New automotive / industrial response rule
+
+For automotive / industrial, upgrade from **Exposure** to **Realized Transmission** only when at least one downstream actor discloses a behavioral response such as:
+
+- production / unit guidance changed because qualified semiconductor supply was unavailable;
+- component price / availability forced BOM or vehicle / equipment pricing changes;
+- qualification of a second source was accelerated because incumbent supply assurance deteriorated;
+- redesign / EOL / line-transfer cost rose;
+- lead time affected customer delivery;
+- inventory was built specifically to protect against semiconductor / memory supply risk.
+
+Supplier-side tightness alone is insufficient.
+
+### 6B.2 Counterevidence must be recorded symmetrically
+
+The response ledger must also record:
+
+- supplier capacity expansion;
+- order / revenue recovery in automotive / industrial;
+- inventory normalization;
+- improved lead time;
+- successful second sourcing;
+- cost-down;
+- product redesign that absorbs pressure.
+
+Therefore:
+
+> **AI/HPC resource reordering is a mechanism to test, not a universal attribution label.**
+
+Current 2026 automotive / industrial research-side state:
+
+> **shared-resource exposure = credible; broad realized AI-attributed downstream pressure = not established.**
+
+No formal Chapter 21 expansion is justified by these supplier observations alone.
+
+---
+
 ## 7. The other side of the cycle: resource return can also hurt
 
 If AI workload economics fail to support the installed capital base, the same end systems can face a different problem:
@@ -339,9 +444,9 @@ This research-side extension adds the missing boundary:
 
 This prevents the report from turning “Cross-Market Resource Reordering” into a universal claim.
 
-## 9. Formal-expansion gate v0.3
+## 9. Formal-expansion gate v0.4
 
-Before aircraft / naval / radar / satellite / launch systems are added to the frozen formal chapter as AI-affected sectors, require at least one of:
+Before automotive / industrial supplier-side tightness is upgraded into a new AI-attributed formal response claim—or before aircraft / naval / radar / satellite / launch systems are added to the frozen formal chapter as AI-affected sectors—require at least one of:
 
 1. supplier or government disclosure linking commercial capacity/equipment allocation to strategic-system access;
 2. lead-time / EOL / trusted-capacity evidence showing deterioration during the AI capital cycle;
@@ -369,3 +474,11 @@ Until then, the formal conclusion should remain:
 - Microsoft FY26 Q4 earnings — higher component costs expected to raise device pricing and weigh on PC demand: https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 - Sony FY2025 Q4 earnings speech / FY2026 outlook — PS5 hardware planning tied to memory procurement: https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf
 - Nintendo, FY ending March 2026 six-month results Q&A — rising component / memory costs but hardware profitability expected to remain broadly maintained through cost-down absent major external changes: https://www.nintendo.co.jp/ir/pdf/2025/251105_2e.pdf
+
+
+## Automotive / industrial counterevidence sources added in v0.4
+
+- NXP Q2 2026 — automotive / industrial recovery and channel inventory: https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-second-quarter-2026-results/
+- Infineon Q3 FY2026 — AI data-center demand strong while automotive orders also improve: https://www.infineon.com/press-release/2026/infpr202608-125
+- Infineon Dresden Smart Power Fab, 2026-07-02 — €5B capacity serving power / analog / mixed-signal applications across AI data centers, automotive and industrial markets, with accelerated ramp optionality: https://www.infineon.com/press-release/2026/ifxpr202607-117
+- STMicroelectronics Q2 2026 — strong bookings, selected supply tightness, distribution inventory below target, AI-data-center growth: https://newsroom.st.com/media-center/press-item.html/c3403.html
