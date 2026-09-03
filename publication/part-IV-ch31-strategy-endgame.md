@@ -72,7 +72,9 @@ AI workload 是否能够产生足够现金流覆盖：
 
 长期 compute demand 是由谁的资产负债表承担？
 
-2026 年 8 月的新结构已经显示，compute financing 正从单一 corporate CapEx 扩展到 third-party capital、LPS credit support 与 seller-assisted financing。[^4][^5]
+截至 2026 年 8 月，compute financing 已经从单一 corporate CapEx 扩展到 third-party capital 与 LPS credit support。[^4][^5] 一手 filing 进一步说明，supplier-side guarantees 也并非单一公司现象：NVIDIA 的 PORTS-Pike guarantees aggregate obligations 上限为 **US$105B**，AMD 则披露与部分 commercial-partner data-center lease obligations 相关 guarantees 的 **maximum gross exposure 为 US$4.1B**。[^6][^7] 这两个数字都是 maximum guarantee exposure，不是 funded CapEx，也不能与底层 demand 加总。
+
+本报告把这类结构中的 supplier equity / credit-support 要素归类为 **seller-assisted financing**；这是本报告的分析标签，不是底层 release 或 filing 使用的原始措辞。
 
 需要区分：
 
@@ -229,6 +231,7 @@ AI 相关资产至少可以分成四类：
 - utilization；
 - FCF；
 - forward commitments；
+- clearing prices；
 - residual value；
 - asset duration；
 - customer concentration；
@@ -304,11 +307,11 @@ AI infrastructure 同时包含：
 
 如果 semiconductor supply 增长，而 Time-to-Power 不改善，就会形成：
 
-> **hardware available + deployment unavailable**
+> **hardware available + deployment delayed**
 
 因此，国家 AI infrastructure strategy 必须同时处理：
 
-> **semiconductor clock + power clock + capital clock**
+> **semiconductor clock + power-permitting clock + capital clock**
 
 Power 不能再被当成数据中心建设完成后的运营问题。
 
@@ -395,7 +398,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 - cloud custom stacks 的 production workload share；
 - migration cost 是否下降；
 - HBM / advanced-packaging tightness 是否缓解；
-- leading-edge capacity access 是否更分散；
+- 多个关键 scarce layers 的 quantity assurance / delivery access 是否变得更分散；
 - energized MW / Time-to-Power 是否改善；
 - Anchor Compute Buyer commitments 是否兑现；
 - AI monetization 是否覆盖资本基数；
@@ -455,3 +458,7 @@ consumer / smartphone supply success 不能直接证明 autonomous frontier clos
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^5]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, SB Energy / PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, and exposure declining as lease payments are made, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^7]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
