@@ -79,9 +79,9 @@ Cloud CapEx goes into servers, custom silicon, networking, buildings, cooling, p
 
 Hyperscalers therefore must manage several useful-life clocks at once.
 
-At high utilization, this CapEx can become a barrier.
+At high utilization, this CapEx can become an entry barrier.
 
-At low utilization, D&A, free cash flow, and residual-value pressure can appear quickly.
+At low utilization, D&A burden, free-cash-flow pressure, and residual-value pressure can appear quickly.
 
 The relevant variables include growth, D&A, FCF, utilization, AI monetization, and next-year CapEx.
 
@@ -115,11 +115,11 @@ The FY27 Q2 Form 10-Q adds the risk-side boundary: the guarantees cover leases f
 
 This mechanism is **not unique to NVIDIA**. AMD's Q2 2026 Form 10-Q disclosed **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms of up to **15 years**. AMD states that the guarantees typically become payable upon a commercial partner's default and that exposure declines as contractual lease payments are made.[^8]
 
-The same denominator discipline applies: **US$4.1B is maximum guarantee exposure, not funded CapEx, not a current realized loss, and not evidence of independently financed end demand.** The AMD disclosure matters because it shows that sponsor / supplier credit support is becoming an industry financing structure rather than a company-specific anomaly.
+The same denominator discipline applies: **US$4.1B is maximum guarantee exposure, not funded CapEx, not a realized loss, and not evidence of independently financed end demand.** The AMD disclosure matters because it shows that sponsor / supplier credit support is becoming an industry financing structure rather than a company-specific anomaly.
 
 AMD's July 22, 2026 Anthropic agreement adds a second financing mode: AMD committed to make a **strategic equity investment of up to US$5B** in Anthropic while Anthropic committed to deploy **up to 2 GW** of AMD Instinct MI450 / Helios capacity, with first-gigawatt deployment beginning in 1H27.[^9] The equity figure is a maximum strategic-investment commitment, not infrastructure CapEx, revenue, or proof that the full amount has already been funded; the 2 GW figure is a deployment commitment, not utilized load.
 
-Taken together, AMD's lease guarantees and Anthropic equity commitment show that **supplier-assisted financing can combine credit support, strategic equity, and anchor-demand commitments**. The mechanism is therefore broader than NVIDIA's financing structures, even though each instrument carries a different denominator and risk transfer.
+Taken together, AMD's lease guarantees and Anthropic equity commitment show that **supplier-assisted financing can combine credit support, strategic equity, and anchor-demand commitments**. The mechanism is therefore broader than NVIDIA's financing structures, even though each instrument carries a different denominator and transfers risk differently.
 
 NVIDIA's FY27 Q2 earnings call added another company-level signal: management said the company had invested **nearly US$50B** in frontier AI labs and discussed selective credit enhancement for **nearly 2 GW of compute** for another frontier lab's infrastructure buildout.[^5]
 
