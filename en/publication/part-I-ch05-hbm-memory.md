@@ -20,7 +20,7 @@ This evidence supports the following conclusions:
 - HBM expansion places greater pressure on DRAM wafer / cleanroom input;
 - effective residual capacity for conventional DRAM can face stronger pressure.
 
-It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an immutable "3:1 law" for every fab and every HBM generation. Micron's FY25 Q2 prepared remarks add a forward-looking generation boundary: the company expects the trade ratio to rise with HBM4 and to rise again with HBM4E, where it expects the ratio to **exceed 4:1**.[^7] That is a vendor expectation, not a realized industrywide production ratio.
+It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an immutable "3:1 law" for every fab and every HBM generation. Micron's FY25 Q2 prepared remarks add a forward-looking generation boundary: the company expects the trade ratio to rise with HBM4 and again with HBM4E, with HBM4E expected to **exceed 4:1**.[^7] That is a vendor expectation, not a realized industry-wide production ratio.
 
 ![Figure 3 — HBM3E wafer-supply intensity versus DDR5](figures/fig-03-hbm-wafer-intensity.svg)
 
@@ -52,7 +52,7 @@ SK hynix reported FY25 revenue of **KRW97.1467T**, operating profit of **KRW47.2
 
 These figures do not prove that HBM alone generated all profit, but they are sufficient to show that high-value memory product mix has materially improved memory-vendor economics. Conventional server memory remains important as well, reinforcing the point that HBM and DDR5/RDIMM are not fully isolated capital and manufacturing systems.
 
-## 6. Supply is concentrated; the public denominator is incomplete
+## 6. Supply is concentrated, but the public allocation denominator is incomplete
 
 High-end HBM supply is concentrated primarily among SK hynix, Samsung, and Micron. The barriers are not just DRAM-fab CapEx. They also include:
 
@@ -95,7 +95,7 @@ If logic base dies use more advanced processes, the memory bottleneck extends fu
 
 **HBM vendor → logic base die → advanced foundry → advanced packaging → accelerator qualification**
 
-HBM can evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Micron has already disclosed that it expects the trade ratio to rise with HBM4 and for HBM4E to **exceed 4:1**.[^7] That forward-looking disclosure still cannot be rewritten as "HBM4 is already 4×" or as a realized industrywide ratio, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
+HBM can evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Micron has already disclosed that it expects the trade ratio to rise with HBM4 and expects HBM4E to **exceed 4:1**.[^7] That forward-looking disclosure still cannot be rewritten as "HBM4 is already 4×" or as a realized industry-wide ratio, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
 
 ## 9. HBM does not clear like a standard commodity-memory cycle
 
