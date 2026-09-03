@@ -66,7 +66,7 @@ TSMC's 2025 smartphone platform represented **29%** of annual net revenue and gr
 
 AI/HPC growth therefore does not imply that smartphone demand disappeared.
 
-Counterpoint's H1 2026 data provides a more direct view of the pressure:[^7]
+Counterpoint's H1 2026 data provide a more direct view of the pressure:[^7]
 
 - global smartphone SoC shipments: **-15% YoY**;
 - MediaTek and Qualcomm shipments: both **down more than 25% YoY**;
@@ -166,7 +166,7 @@ When memory, advanced logic, and adjacent manufacturing resources are repriced o
 4. **Shift the product narrative:** move from compute/memory toward camera, display, battery, form factor, software, and services.
 5. **Exit selected price bands, regions, or product lines:** shrink the portfolio when low-margin SKUs no longer cover BOM and channel economics.
 
-Sony already provides a strong first-party example: its FY26 PS5 hardware planning explicitly links memory procurement at reasonable prices to unit sales, promotional plans, and hardware profitability.[^27] IDC and Gartner forecasts for smartphones and PCs show the same broader combination of **higher ASP + lower units + premiumization + longer replacement cycles**.[^30][^31][^32]
+Sony already provides a strong first-party example: its FY26 PS5 hardware planning explicitly links memory procurement at reasonable prices to unit sales, promotional plans, and hardware profitability.[^27] IDC and Gartner forecasts for smartphones and PCs show the same broader pattern of **higher ASP + lower units + premiumization + longer replacement cycles**.[^30][^31][^32]
 
 The vendor problem is therefore not whether consumers can tolerate slower upgrades, but:
 
@@ -242,7 +242,7 @@ Game consoles usually combine:
 - fixed memory / storage architectures;
 - platform economics in which software, network services, and content monetize a large installed base over time.
 
-Sony's 2026 disclosures reinforce that structure: cumulative PS5 unit sales exceeded 93 million, and Sony said the expanded installed base contributed to stable software and network-services profit, while hardware volume still must be balanced against memory procurement and total segment profitability.[^27]
+Sony's 2026 disclosures reinforce that structure: cumulative PS5 unit sales exceeded 93 million, and Sony said the expanded installed base contributed to stable software and network-services profit, while hardware volume must still be balanced against memory procurement and total segment profitability.[^27]
 
 The risk therefore extends beyond one quarter of higher memory prices.
 
@@ -445,11 +445,11 @@ At the vendor level, the mechanism can be summarized as:
 
 Price increases, specification cuts, SKU reduction, longer platform life, narrative shifts, and price-band exits already have observed or institutional support. Whether lower unit volume then weakens future marginal allocation remains a mechanism to be tested.
 
-At the software layer, hardware constraint raises the value of local efficiency, but cloud offload, feature tiering, and support cutoffs provide alternative escape routes. The report therefore does not assume a universal return to “lean software.”
+At the software layer, hardware constraints raise the value of local efficiency, but cloud offload, feature tiering, and support cutoffs provide alternative escape routes. The report therefore does not assume a universal return to “lean software.”
 
 The final boundary is:
 
-> **As of 2026, the evidence supports erosion of the cheap mass-market upgrade model in consumer computing; it does not yet establish structural terminal decline across the smartphone, PC, and gaming ecosystems.**
+> **As of 2026, the evidence supports an erosion of the cheap mass-market upgrade model in consumer computing; it does not yet establish structural terminal decline across the smartphone, PC, and gaming ecosystems.**
 
 ## References
 
