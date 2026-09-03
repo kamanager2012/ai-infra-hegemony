@@ -90,7 +90,7 @@ Google / Kairos 的公开时间线更长：**Hermes 2 最早在 2030 年达到 5
 
 ### 3.4 PORTS-Pike / NVIDIA / SB Energy / OpenAI：secured LPS 与初始 4.25 IT-GW 设计容量
 
-2026-08-17，NVIDIA 披露 PORTS-Pike Technology Campus 的新结构：通过与 SB Energy 合作，NVIDIA 为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**；OpenAI 将使用该 site，SB Energy 建设、持有并运营 data center。项目计划容量预计从 **2028 年开始分阶段上线**。[^7]
+2026-08-17，NVIDIA 披露 PORTS-Pike Technology Campus 的新结构：通过与 SB Energy 合作，NVIDIA 为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**；OpenAI 将使用该 site，SB Energy 建设、持有并运营 data center。announcement-stage 口径是从 **calendar 2028** 开始分阶段上线；NVIDIA 后续 FY27 Q2 Form 10-Q 则把第一 guarantee/service phase 写为预计在 **fiscal 2029** 开始。两者属于可兼容的 time identity，不应当作两个独立交付节点。[^7]
 
 这条证据把 Time-to-Power 再推进一层：
 
@@ -111,7 +111,7 @@ Google / Kairos 的公开时间线更长：**Hermes 2 最早在 2030 年达到 5
 | Crane / Microsoft | ~835 MW | restart / regulatory / execution path |
 | Talen / AWS | up to 1,920 MW | revised PPA / transition / ramp |
 | Kairos / Google | up to 50 MWe in 2030; up to 500 MWe by 2035 | long-duration development option |
-| PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / future phased buildout from 2028 |
+| PORTS-Pike / NVIDIA / SB Energy / OpenAI | initial 4.25 IT-GW design capacity | LPS secured / announcement-stage phased buildout from calendar 2028；first guarantee/service phase expected in fiscal 2029 |
 
 **Source:** Constellation、Talen Energy、Kairos Power / Google、NVIDIA / SB Energy.[^2][^3][^4][^5][^7]  
 **Note:** 不同项目处于不同合同、建设、许可、上电与利用状态，且表中的 generation MW/GW、PPA capacity 与 IT-GW 不是同一物理量，不能机械相加为 active AI load。
@@ -303,7 +303,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 [^6]: Lawrence Berkeley National Laboratory, “Queued Up: 2026 Edition,” active U.S. generation/storage interconnection queue, https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf
-[^7]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and phased buildout, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
+[^7]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and announcement-stage phased buildout from calendar 2028, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm ; NVIDIA Corporation, FY27 Q2 Form 10-Q, guarantees phasing in across nine data centers with the first expected in fiscal 2029 and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^8]: International Energy Agency, “Energy and AI — Executive summary,” grid-connection queues, transmission lead times, and critical-component delays, https://www.iea.org/reports/energy-and-ai/executive-summary
 [^9]: International Energy Agency, “Building the Future Transmission Grid — Executive summary,” cable and large-transformer procurement lead times, https://www.iea.org/reports/building-the-future-transmission-grid/executive-summary
