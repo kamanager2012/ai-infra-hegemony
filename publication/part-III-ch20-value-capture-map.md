@@ -106,10 +106,12 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 ## 7A. Financing Coordination 正成为 System Capability
 
-2026 年 8 月的两项披露说明，system-platform coordination 已经从 supply commitments 延伸到 infrastructure finance：
+2026 年 8 月 announcements 与 Q2 filings 说明，system-platform coordination 已经从 supply commitments 延伸到 infrastructure finance：
 
 - NVIDIA 与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 宣布建立 compute-financing platforms，目标是随时间动员 **>US$500B third-party capital**；相关合作仍 subject to final agreements。[^9]
 - PORTS-Pike 中，NVIDIA 为 land + power + shell 提供 credit support，并投资 **US$1.5B** 于 SB Energy；OpenAI 为客户，SB Energy build / own / operate data center。[^10]
+- NVIDIA FY27 Q2 Form 10-Q 对相关 PORTS-Pike lease guarantees 的 aggregate obligations 设定 **US$105B** 上限，覆盖约 **4.25 GW IT load** 的 leases。[^11] 这是 maximum conditional guarantee exposure，不是 funded CapEx、当前 cash outflow 或 independently financed end demand。
+- AMD Q2 2026 Form 10-Q 独立披露，与部分 commercial-partner data-center lease obligations 相关 guarantees 的 **maximum gross exposure 为 US$4.1B**。[^12] 该数字同样是 maximum guarantee exposure，不是 funded CapEx 或 realized loss。
 
 这意味着 value capture 不再只取决于“谁控制技术”和“谁控制物理稀缺”，还取决于：
 
@@ -185,7 +187,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 - **S1 Competitive Expansion**：custom stack、open software 和 supply expansion 降低平台租金，价值更分散；
 - **S2 Baseline Concentration**：system platform 与 scarce manufacturing 保持强 value capture，cloud 继续高投入；
-- **S3 Resource Hegemony**：logic/HBM/packaging/power 进一步集中，scarce-layer owners 与 dominant system platform 获取更强议价；
+- **S3 Resource Hegemony**：多个 scarce layers 的 quantity assurance / delivery access、switching cost 与 financing coordination 同时强化，且 workload monetization 足以支撑相关承诺；
 - **S4 Capital Hard Landing**：buyer utilization 与 commitments 下滑，长期基础设施首先面临 duration/ROI 压力，上游利润随后传导回落。
 
 这比给 system platform、HBM、foundry、cloud、application 排一个永久名次更可靠。
@@ -231,3 +233,7 @@ value capture 不是永久排名，而是 scarcity、switching cost、capital in
 [^8]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 [^9]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^10]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support, US$1.5B SB Energy investment and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
