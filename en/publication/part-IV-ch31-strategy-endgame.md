@@ -2,7 +2,7 @@
 
 ## 1. Strategy is about preserving executable optionality
 
-This chapter does not optimize for a single 2036 forecast. It asks which options remain valuable when concentration, substitution, scarcity, and capital clearing move in different directions.
+This chapter does not optimize strategy around a single 2036 forecast. It asks which options remain valuable when concentration, substitution, scarcity, and capital clearing move in different directions.
 
 The competitive unit is already a system stack spanning advanced logic, HBM, advanced packaging, interconnect, compiler/runtime, racks/pods, data centers, power, capital, and sustainable workload demand.
 
@@ -38,7 +38,7 @@ Can workloads move between system stacks at acceptable cost?
 
 If compiler/runtime layers, model formats, networking, and orchestration become more open, buyer optionality rises.
 
-If proprietary interfaces and platform-specific engineering deepen, switching cost becomes a larger industrial barrier.
+If proprietary interfaces and platform-specific engineering deepen, switching costs become a larger industrial barrier.
 
 ### 2.2 Scarce-Layer Supply Elasticity
 
@@ -72,7 +72,7 @@ Whose balance sheet ultimately supports long-duration compute demand?
 
 By August 2026, compute financing had expanded beyond corporate CapEx into third-party capital and LPS credit support.[^4][^5] First-party filings also show that supplier-side guarantees are not limited to one company: NVIDIA's PORTS-Pike guarantees cap aggregate obligations at **US$105B**, while AMD reported **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^6][^7] These are maximum guarantee exposures, not funded CapEx and not additive demand totals.
 
-This report classifies the supplier equity / credit-support element of such structures as **seller-assisted financing**; that is a report-side analytical label, not wording used in the underlying releases or filings.
+This report classifies the supplier equity / credit-support element of such structures as **seller-assisted financing**. This is a report-side analytical label, not wording used in the underlying releases or filings.
 
 The report therefore separates:
 
@@ -99,7 +99,7 @@ Scenario analysis matters because it changes which options should be preserved t
 |---|---|---|---|---|
 | S1 — Competitive Expansion | multiple system stacks coexist; supply elasticity and portability improve | multi-stack execution; price/performance optimization | applications/workflows and differentiated suppliers | interoperability, competition, multi-sourcing |
 | S2 — Baseline Concentration | high growth and high concentration coexist while substitution paths mature | primary-stack efficiency + executable second path | system platforms / scarce layers, with strict duration discipline | expand key physical layers and reduce single points of dependence |
-| S3 — Resource Hegemony | multi-layer scarcity, quantity assurance, and switching cost strengthen together | secure supply / power early while maintaining migration readiness | premium on scarce-capacity access and coordination | frontier supply continuity, power, domestic / alternative stacks |
+| S3 — Resource Hegemony | multi-layer scarcity, concentrated quantity assurance / delivery access, switching costs, and financing coordination strengthen while monetization supports long-duration commitments | secure supply / power early while maintaining migration readiness | premium on scarce-capacity access and coordination, with financing quality monitored explicitly | frontier supply continuity, power, domestic / alternative stacks |
 | S4 — Capital Hard Landing | utilization, clearing, and financing quality deteriorate together | avoid excessive long-duration reservation; prioritize variable cost and cash flow | residual value, debt, refinancing, distressed assets | prevent inefficient projects from trapping power/capital; use cheaper compute to diffuse applications |
 
 **Source:** Report S1–S4 framework and this chapter's strategic synthesis.  
@@ -112,7 +112,7 @@ The strategic difference can be compressed further:
 - **S3:** optionality comes from early access to scarce capacity without complete lock-in to one stack;
 - **S4:** optionality comes from cash flow, variable-cost structure, and the ability to reallocate cheaper assets after clearing.
 
-The objective is not to predict a permanent winner. It is:
+The objective is not to predict a permanent winner. It is instead:
 
 > **to keep an executable next move when the relative weight of S1–S4 changes.**
 
@@ -181,7 +181,7 @@ Three principles:
 2. **Separate supply risk across product tiers.** Flagship / high-performance SKUs and cost-sensitive / long-life SKUs should not automatically depend on the identical scarce-resource path, or one high-end constraint can propagate across the whole portfolio.
 3. **Identify long-life part continuity early.** For components with long qualification cycles and high replacement costs, continuously assess whether suppliers still have the economics to maintain long-duration supply, packaging/test, tooling, and engineering support.
 
-This is not a recommendation to maximize inventory holdings.
+This is not a recommendation to maximize inventory.
 
 The objective is:
 
