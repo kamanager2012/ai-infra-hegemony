@@ -177,7 +177,7 @@ power / LPS 统一使用：
 
 Crane、Talen/AWS、Kairos/Google、PORTS-Pike 等项目都必须按当前 state 更新，不能在合同签署、LPS secured 或 design-capacity 公布时直接标记为 AI power online。Generation MW/GW、PPA capacity 与 IT-GW 也不能机械互换。
 
-尤其 Talen 2026 Q2 10-Q 的 April-2026 revised-PPA transition 状态，不等于全部物理转换或 full delivery 已完成；较早 2025 10-K 的 spring-2027 full-transition expectation 与 no-later-than-2032 ramp 仍提供物理时钟背景。[^5]
+Talen/AWS 的当前 state 也要按后续 filing 读取：2026 Q2 10-Q 已明确写明 revised-PPA transition **occurred in April 2026**。[^5] 这一后续披露已经取代较早 2025 10-K 的 spring-2027 full-transition expectation，后者只能保留为 **superseded prior plan**。较早 10-K 仍提供独立的 delivery-ramp 背景：power delivery 随时间爬坡，full volume 当时预计最迟在 **2032** 达到。April 2026 transition 不能被改写成 full **1,920 MW** 已全部 delivered / energized / utilized。
 
 ## 10. 四个 Threshold 比 Calendar Year 更重要
 

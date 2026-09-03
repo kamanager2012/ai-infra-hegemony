@@ -72,7 +72,7 @@ The contract therefore represents a power-supply strategy, not a completed data-
 
 The revised Talen/AWS PPA can expand to as much as **1.92 GW**. Source: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 
-Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. Its earlier 2025 10-K had described the process as beginning in spring 2026 with **full transition expected in spring 2027**. April 2026 should therefore be treated as a revised-PPA transition status update, not as proof that every physical conversion and power-delivery step was complete.
+Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. That later filing supersedes the earlier 2025 10-K's **spring-2027 full-transition expectation** as the current transition-state marker; the older filing remains relevant for the original delivery-ramp context. April 2026 still does not mean the full **1,920 MW** contract quantity had already been physically delivered, energized, or utilized.
 
 The relevant monitoring questions remain:
 
@@ -135,7 +135,7 @@ This is a distinct form of capacity reservation with a different time constant.
 - NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q — revised AWS PPA up to 1,920 MW; transition occurred in April 2026: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K — full transition expected in spring 2027; delivery ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Talen 2025 10-K — prior spring-2027 transition expectation (superseded as current state); delivery ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
 
 ## 7. How power can interrupt semiconductor expansion

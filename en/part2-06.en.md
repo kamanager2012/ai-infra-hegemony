@@ -52,7 +52,7 @@ The ~835 MW figure is a plant/project capacity anchor, not proof of 835 MW of li
 
 The revised arrangement can scale to **1.92 GW**. Source: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 
-Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. Its earlier 2025 10-K had expected **full transition in spring 2027**, so April 2026 should not be read as proof that every physical conversion or delivery step was complete.
+Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. That later filing supersedes the earlier 2025 10-K's **spring-2027 full-transition expectation** as the current transition-state marker. The older filing remains useful for the original delivery-ramp context. April 2026 still does not mean the full **1,920 MW** contract quantity had already been physically delivered, energized, or utilized.
 
 The monitoring question is now:
 
@@ -170,5 +170,5 @@ It is:
 - NVIDIA DGX GB200 hardware guide — ~120 kW/rack: https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 - Constellation / Microsoft Crane restart — 20-year PPA, ~835 MW; official release says significant investments: https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q — transition occurred in April 2026; up to 1,920 MW: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K — transition process beginning spring 2026; full transition expected spring 2027: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Talen 2025 10-K — prior spring-2027 transition expectation (superseded as current state); original delivery-ramp context: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google

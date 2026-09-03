@@ -181,9 +181,9 @@ Signing a contract, securing LPS, or announcing future design capacity cannot by
 
 Generation MW/GW, PPA capacity, IT-GW, energized facility load, and utilized AI load must retain their distinct physical identities.
 
-In particular, the **spring-2026 transition plan and subsequent 2026 Q2 status** for the Talen/AWS revised PPA do not prove that every physical transition or full-delivery step was completed.[^5]
+For Talen/AWS, the **2026 Q2 10-Q states that transition to the revised PPA occurred in April 2026**.[^5] That later filing supersedes the earlier 2025 10-K's spring-2027 full-transition expectation as the current transition-state marker. It does **not** establish that the full **1,920 MW** contract quantity had already been delivered, energized, or utilized.
 
-The earlier 2025 10-K's spring-2027 full-transition expectation and no-later-than-2032 ramp provide additional physical-clock context.[^5]
+The older 2025 10-K remains relevant for the contract's originally disclosed delivery-ramp context — power delivery ramps over time toward full volume no later than **2032** — but its spring-2027 expectation is now a **superseded prior plan**, not a current milestone.[^5]
 
 ## 10. Four thresholds matter more than the calendar year
 

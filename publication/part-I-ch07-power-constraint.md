@@ -68,9 +68,9 @@ Constellation **2024-09-20 的首份 PPA / restart announcement** 只写项目�
 
 ### 3.2 Talen / AWS：最高 1,920 MW 的 revised PPA
 
-Talen/AWS revised PPA 的 full contract quantity 为 **up to 1,920 MW**，合同延续至 2042。Talen 2026 Q2 10-Q 写明 revised-PPA transition **occurred in April 2026**；更早的 2025 Form 10-K 曾披露 full transition expected in spring 2027。[^3][^4]
+Talen/AWS revised PPA 的 full contract quantity 为 **up to 1,920 MW**，合同延续至 2042。Talen 2026 Q2 10-Q 已明确写明 revised-PPA transition **occurred in April 2026**。[^3] 这一后续披露已经**取代 2025 Form 10-K 中 spring-2027 full-transition expectation，成为当前 transition-state marker**。较早 10-K 仍可用于保留原始 delivery-ramp 口径：power delivery 将随时间爬坡，full contract volume 当时预计最迟在 **2032** 达到。[^4]
 
-因此，April 2026 可以作为 revised-PPA transition 的最新公司披露状态，但不能扩写成：
+因此，April 2026 是当前 revised-PPA transition 状态，但仍不能扩写成 full **1,920 MW** 已全部完成 physical delivery、energized for AWS load 或 utilized。transition state 与 delivery-ramp state 必须分开：
 
 - 全部物理改造已完成；
 - 全部 1,920 MW 已经 delivered；

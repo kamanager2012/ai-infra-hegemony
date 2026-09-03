@@ -46,9 +46,9 @@ That **US$1.6B is a first-party project restart-CapEx estimate**. It is **not** 
 
 The Talen/AWS revised PPA has a full contract quantity of **up to 1,920 MW** and runs through 2042.[^3]
 
-Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**. An earlier 2025 10-K had stated that **full transition was expected in spring 2027**.[^3][^4]
+Talen's 2026 Q2 10-Q states that the transition to the revised AWS PPA **occurred in April 2026**.[^3] This later disclosure **supersedes the earlier 2025 10-K's spring-2027 full-transition expectation as the current transition-state marker**. The older filing remains relevant for the originally disclosed delivery-ramp context: power delivery ramps over time toward the full contract quantity, which was expected to be reached no later than **2032**.[^4]
 
-April 2026 can therefore be used as the current disclosed status of the revised-PPA transition. It **cannot** be interpreted as proof that every physical conversion, transmission modification, and full-delivery step had already been completed.
+April 2026 is therefore the current disclosed revised-PPA transition state. It still does **not** mean that the full **1,920 MW** contract quantity had already been physically delivered, energized for the AWS load, or utilized; transition state and delivery-ramp state are separate.
 
 The relevant forward indicators are the capacity ramp, energized MW, AWS load, and utilization.
 

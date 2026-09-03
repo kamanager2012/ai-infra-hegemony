@@ -166,7 +166,7 @@ FY25：
 当前重要项目：
 
 - Microsoft / Constellation：约 **835 MW** restart PPA；
-- Talen / AWS：revised PPA full contract quantity **up to 1,920 MW**；2026 Q2 10-Q 写明 transition occurred in **2026-04**，而 2025 10-K 曾写 full transition expected in **spring 2027**。April 2026 不等于全部物理交付完成，power delivery 仍需按后续公开状态跟踪；
+- Talen / AWS：revised PPA full contract quantity **up to 1,920 MW**；2026 Q2 10-Q 写明 transition occurred in **2026-04**。这一后续披露已取代 2025 10-K 的 spring-2027 full-transition expectation，后者只作为 prior plan / ramp context 保留。April 2026 transition 不等于 full 1,920 MW 已全部 physical delivery / energized / utilized；
 - Google / Kairos：Hermes 2 **up to 50 MWe in 2030**，fleet **up to 500 MWe by 2035**。
 
 因此后续应监测的是：
@@ -329,7 +329,7 @@ S4 Capital Hard Landing 重点监测四组指标。
 - SK hynix FY25 official results：https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 - Constellation / Microsoft Crane restart (~835 MW)：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q（up to 1,920 MW；transition occurred in 2026-04）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K（full transition expected spring 2027；full-volume ramp no later than 2032）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Talen 2025 10-K（prior spring-2027 transition expectation，superseded as current state；full-volume ramp no later than 2032）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google（50 MWe in 2030; up to 500 MWe by 2035）：https://www.kairospower.com/google
 
 - TSMC 4Q24 Transcript（2024 advanced packaging and testing >8%）：https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf

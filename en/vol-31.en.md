@@ -186,7 +186,7 @@ Energy projects are tracked through five states:
 Current important projects include:
 
 - Microsoft / Constellation: approximately **835 MW** restart PPA;
-- Talen / AWS: revised-PPA full contract quantity **up to 1,920 MW**. The 2026 Q2 10-Q states that the transition occurred in **April 2026**, while the 2025 10-K had expected full transition in **spring 2027**. April 2026 is not evidence that all physical delivery was complete;
+- Talen / AWS: revised-PPA full contract quantity **up to 1,920 MW**. The 2026 Q2 10-Q states that the transition occurred in **April 2026**; this later filing supersedes the 2025 10-K's spring-2027 full-transition expectation as the current transition-state marker. The older filing remains useful for delivery-ramp context. April 2026 does not mean the full 1,920 MW had already been physically delivered, energized, or utilized;
 - Google / Kairos: Hermes 2 **up to 50 MWe in 2030**, followed by a fleet **up to 500 MWe by 2035**.
 
 The next variables are therefore:
@@ -357,7 +357,7 @@ It is that it keeps the report **continuously calibratable to reality**.
 - SK hynix FY25 official results: https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q — up to 1,920 MW; transition occurred in April 2026: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K — full transition expected in spring 2027; full-volume ramp no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Talen 2025 10-K — prior spring-2027 transition expectation (superseded as current state); full-volume ramp no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — 50 MWe in 2030; up to 500 MWe by 2035: https://www.kairospower.com/google
 
 - TSMC 4Q24 Transcript — 2024 advanced packaging and testing >8%: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf

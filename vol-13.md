@@ -62,7 +62,7 @@ Microsoft 与 Constellation 的长期 PPA 对应约 **835 MW** 核电机组重�
 
 Talen/AWS 新版 PPA 最高可扩展至 **1.92 GW**。 来源：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 
-Talen 2026 Q2 10-Q 写明，向 revised AWS PPA 的 transition **occurred in April 2026**；较早的 2025 10-K 则曾描述为 spring 2026 开始 transitioning、**full transition expected in spring 2027**。因此，April 2026 应理解为 revised-PPA transition 状态更新，不能写成全部物理转换与供电交付已经完成。
+Talen 2026 Q2 10-Q 写明，向 revised AWS PPA 的 transition **occurred in April 2026**。这一后续 filing 已取代较早 2025 10-K 的 **spring-2027 full-transition expectation**，后者只能作为 superseded prior plan 保留；较早文件仍提供 delivery-ramp 背景。April 2026 transition 不能写成 full **1,920 MW** 已全部 physical delivery / energized / utilized。
 
 后续关键变量仍是：
 
@@ -114,7 +114,7 @@ Google 与 Kairos 的公开路径是：**Hermes 2 up to 50 MWe in 2030**，随�
 - NVIDIA GB200/NVL72 rack power (~120 kW/rack): https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 - Constellation / Microsoft Crane restart (~835 MW): https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 - Talen 2026 Q2 10-Q — revised AWS PPA up to 1,920 MW；transition occurred in April 2026: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
-- Talen 2025 10-K — full transition expected spring 2027；power delivery ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+- Talen 2025 10-K — prior spring-2027 transition expectation（superseded as current state）；delivery ramp to full volume no later than 2032: https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google — Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035: https://www.kairospower.com/google
 
 ## 7. 电力如何打断 semiconductor expansion
