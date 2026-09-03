@@ -73,3 +73,19 @@ function Header(el)
     end
   end
 end
+
+
+function Table(el)
+  local columns = 0
+  if el.colspecs then
+    columns = #el.colspecs
+  end
+
+  if columns >= 5 then
+    return {
+      pandoc.RawBlock("latex", "\\clearpage\\begin{landscape}\\footnotesize"),
+      el,
+      pandoc.RawBlock("latex", "\\end{landscape}\\clearpage")
+    }
+  end
+end
