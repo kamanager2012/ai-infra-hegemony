@@ -30,11 +30,12 @@
 
 8. [Figure 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)  
    **Type:** report framework. **Primary analytical homes:** Ch06–Ch08, Ch19, Ch24, Ch30.  
-   **Boundary:** causal schematic, not a deterministic sequence or timing forecast.
+   **Boundary:** causal schematic, not a deterministic sequence or timing forecast; the binding bottleneck can migrate and need not remain in the same layer.
 
 9. [Figure 9 — Anchor demand and Financing Reflexivity](figures/fig-09-financing-reflexivity.svg)  
    **Type:** report financing framework. **Primary analytical homes:** Ch13, Ch23, Ch24.  
-   **Boundary:** seller-assisted financing is neither automatically healthy nor artificial; interpretation depends on utilization, monetization, independent risk capital, and refinancing conditions.
+   **Evidence anchors:** NVIDIA PORTS-Pike maximum conditional guarantee exposure US$105B; AMD maximum gross commercial-partner lease-guarantee exposure US$4.1B.  
+   **Boundary:** both are maximum guarantee exposures—not funded CapEx or additive demand totals; interpretation depends on utilization, monetization, independent risk capital, and refinancing conditions.
 
 10. [Figure 10 — Demand-side closure through verified workflow output](figures/fig-10-verified-workflow-loop.svg)  
     **Type:** report economic framework. **Primary analytical homes:** Ch14, Ch19, Ch24, Ch32.  
@@ -42,6 +43,7 @@
 
 11. [Figure 11 — Production-Grade Parallel Stack vs. Autonomous Frontier Closure](figures/fig-11-china-closure-gates.svg)  
     **Type:** report closure-test framework. **Primary analytical homes:** Ch17, Ch32.  
+    **Current evidence:** partial production deployment is real, but public evidence does not close all seven Production-Grade Gates.  
     **Boundary:** production-grade substitution ≠ full technological autonomy; import dependence also does not prove absence of a production-grade parallel stack.
 
 ## Publication note
