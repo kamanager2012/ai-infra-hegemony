@@ -1,4 +1,4 @@
-# Phase II · Minimum Public-Proxy Scenario Dashboard v0.6
+# Phase II · Minimum Public-Proxy Scenario Dashboard v0.7
 
 > **Status:** Research-side calibration layer; not part of the frozen formal facts.  
 > **Purpose:** turn S1–S4 from a narrative scenario set into an updateable public-proxy state machine without inventing precision that public data cannot support.
@@ -74,6 +74,7 @@ This is a qualitative protocol until historical backtesting supports calibrated 
 | I. China frontier closure | production-grade alternative stack | seven gate evidence: compute, memory, packaging, interconnect, runtime, production workload, utilization/economics | consumer-scale or product existence extrapolated to frontier closure | S1/S2/S3 geography |
 | J. Geopolitical continuity | access continuity | export-control state, licensing, allied coordination, Taiwan continuity, service/equipment access | policy headline without physical transmission | all scenarios |
 | K. Hyperscaler capital-cycle transmission | whether infrastructure intensity is outrunning durable monetization / financing quality | within-company headroom, recognized CapEx/leases, debt/equity issuance, RPO/bookings breadth, cloud monetization, clearing/accounting | negative FCF or high CapEx read in isolation | S2/S3 ↔ S4 |
+| L. Developer / model capability concentration | whether model-production capability and developer-distribution choice are becoming structurally dependent on one platform | authoritative states from file 13: DDC conduct, MPG production concentration, CAWA capability absorption; multi-vendor parity, license exclusivity, talent/technology access, deployment friction | acquisition/license headline, open-model release, talent move, or technical integration read in isolation | S1 ↔ S2 ↔ S3; **not a direct S4 axis** |
 
 ## 4. S2 must have exit tests
 
@@ -401,6 +402,170 @@ Therefore:
 > **financing amplification is observable; system-wide refinancing stress is not established.**
 
 The monitoring task is now to detect the transition from **financeable leverage** to **fragile leverage**, not to treat leverage itself as the event.
+
+---
+
+## 6C. Axis L — Developer / Model Capability Concentration
+
+Axis L is a **derived scenario layer**.
+
+The underlying facts and mechanism states are owned by:
+
+- [13 · Developer Distribution Chokepoint](13-developer-distribution-chokepoint.md)
+
+Axis L does not independently re-adjudicate:
+- Hugging Face transaction status;
+- Poolside transaction terms;
+- Groq licensing / personnel facts;
+- DDC / MPG / CAWA states.
+
+It only asks:
+
+> **Do the authoritative states in file 13 materially change the probability that platform concentration is weakening, persisting, or moving toward deeper system-stack concentration?**
+
+### 6C.1 Three distinct inputs
+
+Axis L must preserve the distinction among:
+
+**DDC — Developer Distribution Chokepoint**
+- distribution ranking;
+- backend defaults;
+- provider parity;
+- deployment friction;
+- multi-homing;
+- self-preferencing.
+
+**MPG — Model Production Gravity**
+- model-production tooling;
+- training/evaluation systems;
+- model talent;
+- recipe / tooling dependence;
+- hardware coupling.
+
+**CAWA — Capability Absorption Without Acquisition**
+- technology licensing;
+- key-person transfer;
+- product-stack integration;
+- source-company continued viability;
+- access by rivals / third parties.
+
+Do not collapse them into one “software monopoly” score.
+
+### 6C.2 Current authoritative input state
+
+As maintained in file 13:
+
+~~~text
+DDC = DDC-A / transaction-status WATCH
+MPG = MPG-WATCH
+CAWA = CAWA-OBSERVED
+~~~
+
+Interpretation:
+
+- Hugging Face control is not first-party verified in the current source set;
+- current Hugging Face baseline still shows heterogeneous-device / local WebGPU work and multi-provider inference architecture;
+- Poolside's Model Factory capability is first-party verified, but NVIDIA transaction terms remain media-reported;
+- Groq provides first-party evidence that non-exclusive technology licensing + key-person transfer + later NVIDIA product integration can occur while the source company remains independent.
+
+### 6C.3 Current scenario implication
+
+The current Axis L state is:
+
+> **S2 persistence support / concentration WATCH — not S3 confirmation.**
+
+Why it supports S2 persistence:
+- NVIDIA already has CUDA/runtime/system-stack strength;
+- CAWA demonstrates an additional channel for internalizing important capabilities without acquiring the legal entity;
+- MPG provides a plausible upstream model-production gravity mechanism;
+- the reported Hugging Face transaction, if verified, could add a major distribution gateway.
+
+Why it does **not** justify S3:
+- Hugging Face ownership/control is unverified;
+- no realized DDC self-preferencing is observed;
+- Groq licensing is explicitly non-exclusive and Groq remains independently operating/financed;
+- Poolside exclusive control is unverified;
+- open / portable model and runtime alternatives remain visible;
+- no evidence establishes that competing model-production or deployment paths have become non-executable.
+
+### 6C.4 S2 → S3 escalation gate for Axis L
+
+Axis L should materially strengthen an S3 interpretation only if **cross-layer concentration** becomes observable.
+
+Require several of:
+
+1. **Distribution control**
+   - verified control of a major developer gateway;
+   - persistent self-preferencing / default bias.
+
+2. **Production capability concentration**
+   - important training/evaluation/model-factory capability becomes exclusive or effectively exclusive;
+   - independent production paths materially weaken.
+
+3. **Capability absorption breadth**
+   - CAWA repeats across multiple independent capability layers;
+   - core technologies / teams repeatedly migrate into the NVIDIA stack.
+
+4. **Switching-cost consequence**
+   - non-NVIDIA runtime / accelerator deployment becomes materially harder or costlier;
+   - technical presence remains but production parity degrades.
+
+5. **Workload consequence**
+   - real production workloads increasingly select NVIDIA because of upstream model-production / distribution dependencies, not merely hardware performance.
+
+6. **Persistence**
+   - the effect survives product-cycle noise and one-off transactions.
+
+No single acquisition, license, talent move, or model release can satisfy this gate.
+
+### 6C.5 S2 → S1 / concentration-relief evidence
+
+Axis L weight should move toward S1 if:
+
+- Hugging Face remains structurally neutral / independent or verified remedies preserve neutrality;
+- alternative hubs / registries remain low-friction and widely used;
+- Groq continues expanding independently and licensed technology remains genuinely multi-party accessible;
+- Poolside / other model-production systems remain independently viable;
+- ROCm / XLA / CPU / custom-accelerator deployment maintains first-class support;
+- open model weights / recipes improve portability;
+- model creators systematically multi-home;
+- workload deployment diversifies across accelerators / runtimes.
+
+### 6C.6 No S4 shortcut
+
+Axis L is a **competition / concentration axis**.
+
+It is not a capital-clearing axis.
+
+Therefore:
+
+> **DDC-B/C, MPG strengthening, or repeated CAWA can increase S2/S3 concentration weight without providing any S4 evidence.**
+
+A software/developer chokepoint could coexist with:
+- strong infrastructure demand;
+- weak infrastructure demand;
+- an expanding capital cycle;
+- or a clearing cycle.
+
+S4 remains owned by:
+- demand quality;
+- utilization / monetization;
+- forward commitments;
+- market clearing;
+- accounting / financing transmission.
+
+### 6C.7 Formal-report gate
+
+Even a stronger Axis L research state does not automatically reopen formal Ch02/Ch18.
+
+Formal reopening requires:
+- a material factual defect;
+- a verified pre-cutoff omission that changes the formal judgment;
+- or an explicit post-cutoff new research snapshot.
+
+Current state:
+
+> **NO FORMAL REOPEN — Axis L strengthens the research-side explanation of S2 persistence but does not change the frozen S2 baseline or S1–S4 taxonomy.**
 
 ---
 
