@@ -154,15 +154,19 @@ frontier AI 需要多个 advanced layer 同时成立：
 
 ### 6.2 Revenue Share 与 Shipment Share 必须保持不同分母
 
-长鑫公开招股材料引用 Omdia 的可审计口径是：按 **2025Q2 DRAM 销售额**测算，长鑫全球市场份额约 **3.97%**，位列全球第四。[^11]
+长鑫 2026-05-27 的科创板注册稿引用 Omdia：按 **2025 Q4 DRAM revenue** 计算，CXMT 全球份额约 **7.67%**，全球第四、中国第一。[^7]
 
-因此，“长鑫已经有 8% 全球 DRAM 份额”不能进入事实层。
+较早招股书给出的同分母时点是 **2025 Q2 约 3.97%**。[^11] 这两个数字都是 DRAM revenue share，应作为带日期的同分母进展：
 
-长江存储的最新机构口径则不同。Counterpoint Research 2026Q2 Memory & Storage Tracker 给出：YMTC 以约 **14% NAND shipment share** 进入全球前三；[^12] 同一机构 2026Q1 的 **13%** 则是 NAND **revenue share**。[^13]
+> **2025 Q2 3.97% → 2025 Q4 7.67%**
 
-这两个数字不能拼成同一时间序列，因为分母不同。
+而不是把其中一个单独包装成无日期的“当前份额”。
 
-它们真正支持的是：
+YMTC 的最新机构口径使用的是另一套 denominator。Counterpoint Research 2026 Q2 Memory & Storage Tracker 给出：YMTC 约占 **14% NAND shipments**，全球第三。[^12]
+
+shipment share 不能直接当成 revenue-share time series，也不能在没有同分母证据时推导 pricing power。
+
+这些证据真正支持的是：
 
 > **中国 conventional DRAM / NAND 的全球供给存在感已经明显上升，但份额增长本身仍不能证明 HBM、leading-edge logic 或 frontier-system closure。**
 
@@ -342,7 +346,6 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 [^10]: Micron Technology, investor material on HBM4E base logic die partnership with TSMC, https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63
 [^11]: CXMT prospectus / Omdia, 2025 Q2 DRAM revenue share 3.97%, global #4, https://static.sse.com.cn/stock/disclosure/announcement/c/202512/002170_20251230_B8QS.pdf
 [^12]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
-[^13]: Counterpoint Research, 2026 Q1, YMTC 13% NAND revenue share, https://counterpointresearch.com/en/insights/global-nand-memory-market-share
 [^14]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^15]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
 [^16]: ASML, 2023 statement on Dutch export-control regulations, https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government
