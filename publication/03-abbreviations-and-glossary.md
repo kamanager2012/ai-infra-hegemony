@@ -113,7 +113,7 @@ Model Capability → Task Suitability → Workflow Redesign → Adoption Economi
 
 - **S1 — Competitive Expansion：** 供给弹性、multi-sourcing 与 portability 提高，value capture 更分散。
 - **S2 — Baseline Concentration：** 少数 system platform / scarce-layer supplier 保持强经济性，同时真实替代路径继续发展。
-- **S3 — Resource Hegemony：** 多个 scarce layers 与 switching cost 同时强化，后来者复制完整 infrastructure stack 的门槛显著提高。
+- **S3 — Resource Hegemony：** multi-layer scarcity、quantity assurance / delivery access 集中、switching cost 与 financing coordination 同时强化，且 workload monetization 足以支撑相关 long-duration commitments，后来者复制完整 infrastructure stack 的门槛显著提高。
 - **S4 — Capital Hard Landing：** utilization、clearing price、forward commitments 与 accounting losses 同步恶化，资本进入清算。
 
 ## 证据身份
