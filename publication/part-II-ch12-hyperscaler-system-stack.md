@@ -189,7 +189,7 @@ CapEx 上升既可能支持 NVIDIA 出货，也可能同时加速 NVIDIA 的替�
 
 因此，效率提升既可能降低单位硬件需求，也可能通过 demand elasticity 扩大总 infrastructure demand。
 
-DeepSeek 等案例的训练成本、架构效率与单位智能经济学详见[第10章：模型单位经济、算法效率与开源竞争](part-II-ch10-model-economics.md)。本章不再重复展开具体 GPU-hours 与 KV-cache 数字，以避免不同主题之间重复论证。
+DeepSeek 等案例的训练成本、架构效率与单位智能经济学详见[第10章：模型单位经济、算法效率与开放模型竞争](part-II-ch10-model-economics.md)。本章不再重复展开具体 GPU-hours 与 KV-cache 数字，以避免不同主题之间重复论证。
 
 ---
 
