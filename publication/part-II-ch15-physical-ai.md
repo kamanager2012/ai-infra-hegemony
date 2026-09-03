@@ -168,6 +168,38 @@ Economic Output
 
 区别只是 data-center 的 bottleneck 更多在 compute / HBM / power，机器人则多出 actuator、battery、mechanical reliability、field service 与 safety。
 
+## 9B. Production-Grade Evidence 已经出现，但完整经济闭环仍未完成
+
+截至 2026-08-28 evidence cutoff，若干重要但范围仍窄的案例已经把 Physical AI 证据从 demo 推进到真实生产。
+
+**BMW / Figure 02。** BMW 披露，Figure 02 在 Spartanburg 工厂运行约 10 个月，按每周一至周五、每天 10 小时的班次工作，累计约 **1,250 operating hours**，搬运 **90,000+ 个零部件**，并参与 **30,000+ 辆 BMW X3** 的生产。[^5] BMW 同时披露，真实产线集成还需要额外的 safety / infrastructure 改造，包括 barriers / partitions、5G coverage 提升、occupational-safety 与 production-IT 团队提前介入，以及通过标准化接口接入 BMW Smart Robotics ecosystem。[^5]
+
+这已经是很强的证据，说明 frontier humanoid 可以从展示跨入重复运行的真实 production workflow。
+
+但它**仍然不是完整 production economics 证明**，因为公开资料没有给出：
+
+- intervention / takeover rate；
+- uptime / availability；
+- maintenance labor 与 parts；
+- safety incidents / operating hour；
+- 相对人工的 cycle-time denominator；
+- all-in TCO / payback；
+- 跨多个独立客户工厂的可验证 fleet economics。
+
+**Amazon / DeepFleet。** Amazon 披露其机器人网络已经超过 **100 万台、覆盖 300+ facilities**，并把 DeepFleet 这一 generative-AI foundation model 用于成熟机器人 fleet 的运动协调；Amazon 报告 robot travel-time efficiency 改善约 **10%**。[^6]
+
+它闭合的是另一条链：
+
+> **AI model → large physical fleet → multi-site deployment → measured process-efficiency change。**
+
+但这属于 **AI-enhanced mature warehouse robotics** 的证据，不等于 humanoid / general-purpose robot 已拥有同等经济性。10% travel-time improvement 也不能机械换算成 10% labor-cost 或 total-cost reduction。
+
+**GXO / Digit。** GXO 在 2024 年与 Agility Robotics 签署 multi-year Robots-as-a-Service agreement，把 Digit 从 proof-of-concept 推进到真实商业仓库部署；其任务包括从 AMR 卸载 totes 并放上 conveyor。[^7] 这提供了独立 customer-side 的 commercial deployment identity，但客户公开资料仍没有给出完整的 uptime / intervention / TCO 字段。
+
+所以现在更准确的证据边界是：
+
+> **窄任务上的 production-grade Physical AI 已经真实存在；但 broad reliability、safety、TCO 与 fleet-economics closure 仍未达到同等级公开验证。**
+
 ## 10. 中国 Physical-AI Stack 与 Frontier-AI Stack 不同
 
 Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-electronics supply chain 与 system integration。
@@ -199,3 +231,8 @@ Physical AI 大量依赖 motors、battery、sensors、manufacturing、consumer-e
 [^2]: NVIDIA, 2026-06, Isaac GR00T Reference Humanoid Robot, Jetson Thor onboard compute and Isaac GR00T platform, https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design
 [^3]: Micron Technology, investor presentation, 2026-06-24, humanoid-robot memory-content outlook, https://s25.q4cdn.com/621799436/files/doc_financials/2026/q3/Micron_Q3_26_Earnings_Deck.pdf
 [^4]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
+
+
+[^5]: BMW Group, “BMW Group introduces humanoid robots – a first in Germany,” 2026-03-09；包含 Figure 02 Spartanburg 真实生产结果与集成经验，https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html
+[^6]: Amazon, “Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot,” 2025-06-30, https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model
+[^7]: GXO Logistics, “GXO signs industry-first multi-year agreement with Agility Robotics,” 2024-06-27, https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/
