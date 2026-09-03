@@ -160,6 +160,8 @@ When a system seller also participates through customer equity investment, credi
 
 NVIDIA's August 2026 disclosures now provide concrete examples: it **announced partnerships / MOUs aimed at mobilizing more than US$500B of third-party capital over time, subject to final agreements**, provided LPS credit support around PORTS-Pike, and discussed large frontier-lab investments plus selective credit enhancement.[^5][^6][^7]
 
+The later filing evidence adds the denominator boundary. NVIDIA's FY27 Q2 Form 10-Q caps aggregate obligations under PORTS-Pike lease guarantees at **US$105B** across leases covering approximately **4.25 GW of IT load**.[^11] AMD's Q2 2026 Form 10-Q independently reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^12] Both are maximum guarantee exposures rather than funded CapEx or independently financed end demand. The cross-vendor evidence therefore broadens Financing Reflexivity beyond a single supplier without making the figures additive.
+
 This does not, by itself, prove that the demand is artificial.
 
 The key question is:
@@ -196,7 +198,7 @@ Public disclosures rarely provide a same-denominator measure spanning supplier e
 | weakening | risk appetite / refinancing terms deteriorating | rising materially | supplier support may be sustaining order visibility faster than end economics | strengthens Demand Quality / Financing family |
 | weak across utilization and clearing | independent capital withdraws or requires major repricing | support cannot restore execution / cash flow | capital clearing rather than simple financing acceleration | strong S4 evidence when cross-confirmed by other families |
 
-**Source:** **report-side evidence matrix**. The cited external disclosures establish the underlying financing structures—third-party-capital platforms / MOUs, seller credit support, equity exposure, and selective credit enhancement—but they do **not** supply the four interpretation rows below.[^5][^6][^7]  
+**Source:** **report-side evidence matrix**. The cited external disclosures establish the underlying financing structures—third-party-capital platforms / MOUs, seller credit support, guarantee exposure, equity exposure, and selective credit enhancement—but they do **not** supply the four interpretation rows below.[^5][^6][^7][^11][^12]  
 **Note:** No row is triggered by one disclosure alone. The matrix requires direction over time and cross-signal confirmation. If a same-denominator financing stack becomes public for a specific project, a project-level ratio can be calculated; until then, the matrix is more auditable than a synthetic percentage.
 
 The practical rule is:
@@ -237,7 +239,7 @@ But a single weak signal—a stock-price decline, lower model prices, a single-q
 
 As of August 2026, public evidence remains more consistent with **high-intensity capital expansion under rising ROI pressure** than with a confirmed AI-infrastructure capital collapse.
 
-NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP operating income **US$63.734B**,[^3] and supply/capacity commitments have risen to **US$279B**.[^4] At the same time, [Chapter 19](part-III-ch19-capex-supercycle.md) documents that major hyperscalers continue to guide or report very high infrastructure-investment levels, using non-identical accounting definitions.
+NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP operating income **US$63.734B**,[^3] and the disclosed **forward supply / capacity commitment family** has risen to **US$279B**.[^4] At the same time, [Chapter 19](part-III-ch19-capex-supercycle.md) documents that major hyperscalers continue to guide or report very high infrastructure-investment levels, using non-identical accounting definitions.
 
 This does not guarantee a soft landing.
 
@@ -255,3 +257,7 @@ It means only that capital clearing should not be treated as the dominant regime
 [^8]: NVIDIA Corporation, FY26 Form 10-K, H20-related charges including US$4.5B recorded in FY26 Q1, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 [^9]: OpenAI, “Announcing The Stargate Project,” 2025-01, long-duration U.S. AI-infrastructure buildout, https://openai.com/index/announcing-the-stargate-project/
 [^10]: Anthropic, “Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute,” 2026-04-20, >US$100B over ten years and up to 5 GW of new compute capacity, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
