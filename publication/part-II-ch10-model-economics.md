@@ -254,7 +254,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 ## References
 
 [^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” model architecture and formal-training compute, https://arxiv.org/abs/2412.19437
-[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, MLA / KV-cache and throughput results, https://github.com/deepseek-ai/DeepSeek-V2
+[^2]: DeepSeek-AI, “DeepSeek-V2,” technical report, MLA / KV-cache and throughput results, https://arxiv.org/abs/2405.04434 ; official repository, https://github.com/deepseek-ai/DeepSeek-V2
 [^3]: Stanford HAI, “2025 AI Index Report — Research and Development,” inference-price comparison for a GPT-3.5-equivalent MMLU level, https://hai.stanford.edu/ai-index/2025-ai-index-report/research-and-development
 [^4]: Stanford HAI, “2026 AI Index Report — Technical Performance,” frontier-model performance convergence and the shift toward cost, reliability and domain-specific competition, https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
 

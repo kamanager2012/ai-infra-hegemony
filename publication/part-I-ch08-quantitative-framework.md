@@ -512,10 +512,10 @@ AI infrastructure 的最基本经济关系可以写成：
 ## References
 
 [^1]: DeepSeek-AI, “DeepSeek-V3 Technical Report,” https://arxiv.org/abs/2412.19437
-[^2]: DeepSeek-AI, “DeepSeek-V2,” repository and technical report, https://github.com/deepseek-ai/DeepSeek-V2
+[^2]: DeepSeek-AI, “DeepSeek-V2,” technical report, https://arxiv.org/abs/2405.04434 ; official repository, https://github.com/deepseek-ai/DeepSeek-V2
 [^3]: NVIDIA, “GB200 NVL72,” official product page, https://www.nvidia.com/en-us/data-center/gb200-nvl72/
 [^4]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^5]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-[^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^6]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^7]: TrendForce, 2026-06-02, HBM wafer-input and bit-supply shares for 2025–2027, https://www.trendforce.com/presscenter/news/20260602-13074.html
 [^8]: TrendForce, 2026-07-30, 2026 DRAM sufficiency ratio estimate of approximately -1% to -2%, https://www.trendforce.com/presscenter/news/20260730-13158.html

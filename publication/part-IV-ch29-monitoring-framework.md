@@ -27,7 +27,7 @@
 | FY27 Q2 Data Center | US$89.0B |
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
-| Rubin | full production |
+| Rubin | ramping / in production；production shipments began Q3 FY27 |
 
 **Source:** NVIDIA FY26 results、FY27 Q2 results 与 FY27 Q2 Form 10-Q.[^1][^2]  
 **Note:** company-defined non-GAAP FCF 与 GAAP metrics 必须保留各自口径；commitments 为 aggregate amount，未披露 supplier-level split。
@@ -37,6 +37,8 @@ Supply / capacity commitments：[^2]
 - 2026-01-25：US$95.2B；
 - 2026-04-26：US$119B；
 - 2026-07-26：US$279B。
+
+各报告时点底层 mix 与 duration 并不完全相同，因此该序列只作为 forward-reservation indicator，不视为完全同质、同期限的 time series。
 
 这组指标回答：system seller 是否仍拥有足够 cash generation 与 forward commitment ability 预订下一代 scarce resources。
 
@@ -346,8 +348,8 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 
 ## References
 
-[^1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics and Rubin status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: NVIDIA, FY26 and FY27 Q2 official results, seller economics, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026 ; https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027 ; Vera Rubin full-production announcement, https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory ; FY27 Q2 Form 10-Q, production shipments began Q3 FY27, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^2]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^3]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf ; Micron Technology, FY25 Form 10-K, HBM requires more wafers / cleanroom space for the same bits at the same technology node, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm

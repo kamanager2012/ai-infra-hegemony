@@ -19,8 +19,8 @@
 
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**；
 - GAAP gross margin **75.0%**；
-- Rubin **full production**；
-- manufacturing, supply, and capacity commitments 由 2026-01-25 **US$95.2B** → 2026-04-26 **US$119B** → 2026-07-26 **US$279B**；
+- NVIDIA 将 Vera Rubin 描述为 **ramping into full production**；FY27 Q2 Form 10-Q 另说明 production shipments 已在 FY27 Q3 开始；[^1]
+- manufacturing, supply, and capacity commitment family 由 2026-01-25 **US$95.2B** → 2026-04-26 **US$119B** → 2026-07-26 **US$279B**；各报告时点底层 mix 与 duration 并不完全相同；
 - TSMC advanced-packaging tightness 仍限制 customer growth；[^7]
 - 四大云厂公开资本投入指标仍处高位，但必须保留各自 actual / guidance / expectation 身份；[^8]
 - power / LPS project 已出现约 835 MW、up to 1,920 MW、up to 500 MWe，以及 PORTS-Pike initial 4.25 IT-GW design capacity 等不同成熟度路径；[^9]
@@ -192,8 +192,8 @@ Crane、Talen/AWS、Kairos/Google、PORTS-Pike 等项目都必须按当前 state
 
 ## References
 
-[^1]: NVIDIA, FY27 Q2 official results, Data Center revenue, GAAP margin and Rubin production status, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
-[^2]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^1]: NVIDIA, Vera Rubin full-production announcement, 2026-05-31, https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory ; NVIDIA FY27 Q2 official results, Data Center revenue and GAAP margin, https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027 ; FY27 Q2 Form 10-Q, Vera Rubin production shipments began in Q3 FY27, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^2]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: Constellation, Crane Clean Energy Center / Microsoft PPA, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
 [^5]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
