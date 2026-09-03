@@ -9,6 +9,7 @@
 \usepackage{array}
 \usepackage{xurl}
 \usepackage{hyperref}
+\usepackage{newunicodechar}
 \usepackage{enumitem}
 \usepackage{etoolbox}
 \usepackage{ragged2e}
@@ -21,6 +22,11 @@
 \definecolor{ReportMuted}{HTML}{5E6670}
 \definecolor{ReportRule}{HTML}{A8B0B8}
 \definecolor{ReportTable}{HTML}{F3F5F7}
+
+\newfontfamily\ReportSymbols{Noto Sans Symbols2}
+\newunicodechar{→}{{\ReportSymbols →}}
+\newunicodechar{←}{{\ReportSymbols ←}}
+\newunicodechar{↔}{{\ReportSymbols ↔}}
 
 \hypersetup{
   colorlinks=true,
