@@ -168,7 +168,7 @@ It can also increase concentration, duration mismatch, and financing correlation
 
 The 2026 infrastructure-finance layer adds a second mechanism: **Financing Reflexivity**. Seller equity, credit enhancement, infrastructure support, and third-party capital can accelerate deployment, but they also make demand quality more dependent on financing structure.
 
-PORTS-Pike makes the scale and boundary concrete: NVIDIA's FY27 Q2 Form 10-Q caps aggregate guarantee obligations at **US$105B** for the initial approximately **4.25 GW IT-load** lease structure, with phased activation as data centers enter service. This is maximum conditional credit exposure, **not funded CapEx or current cash outflow**.[^rb5]
+PORTS-Pike makes the scale and boundary concrete: NVIDIA's FY27 Q2 Form 10-Q caps aggregate guarantee obligations at **US$105B** for leases covering approximately **4.25 GW of IT load**, with phased activation as data centers enter service. This is maximum conditional credit exposure, **not funded CapEx or current cash outflow**.[^rb5]
 
 AMD provides an independent cross-vendor check: its Q2 2026 Form 10-Q reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years. This is also maximum guarantee exposure rather than funded CapEx or realized loss.[^rb7] The financing mechanism is therefore broader than one supplier, while the instruments' denominators remain non-additive.
 
@@ -260,7 +260,7 @@ The report uses four parallel states rather than one point forecast.
 
 Supply elasticity rises, alternative stacks mature, portability improves, and scarcity premiums decline.
 
-The S1 evidence strengthened inside the August 2026 cutoff: AMD described Helios rackscale solutions as in production, while Meta committed to **up to 6 GW**, Anthropic to **up to 2 GW**, and Microsoft announced Azure deployment.[^rb6] These are deployment / shipment commitments rather than measured utilization or production-workload share, so they strengthen the competitive branch without displacing the current S2 baseline by themselves.
+The S1 evidence strengthened within the August 28, 2026 evidence cutoff: AMD described Helios rackscale solutions as in production, while Meta committed to **up to 6 GW**, Anthropic to **up to 2 GW**, and Microsoft announced Azure deployment.[^rb6] These are deployment / shipment commitments rather than measured utilization or production-workload share, so they strengthen the competitive branch without displacing the current S2 baseline by themselves.
 
 ### S2 — Baseline Concentration
 
