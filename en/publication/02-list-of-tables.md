@@ -13,7 +13,7 @@
 - [Table 4.1 — TSMC 2025 capacity, technology, and platform-revenue structure](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — Representative AI power / LPS pathways](part-I-ch07-power-constraint.md)
 - [Table 7.2 — Grid delivery frictions relevant to Time-to-Power](part-I-ch07-power-constraint.md)
-- [Table 8.1 — NVL72 rack-to-MW D-grade intensity conversion](part-I-ch08-quantitative-framework.md)
+- [Table 8.1 — NVL72 rack-power-to-hardware D-grade intensity conversion](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 public-data quantification readiness by layer](part-I-ch08-quantitative-framework.md)
 - [Table 8.3 — 2026 public-data gap / intensity ledger](part-I-ch08-quantitative-framework.md)
 - [Table 8.4 — 2026 computable anchors versus unclosed denominators](part-I-ch08-quantitative-framework.md)
