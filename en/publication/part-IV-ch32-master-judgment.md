@@ -50,11 +50,13 @@ Therefore:
 
 Competition can therefore shift from "who is willing to pay more?" toward "who can secure stable quantities, delivery timing, and system-level priority?"
 
-The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^13][^14]
+The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large capital providers, targeting **more than US$500B of third-party capital mobilization over time**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^13][^14]
 
-The first figure is a capital-mobilization target, not deployed capital. The second is future design capacity, not energized load.
+The FY27 Q2 Form 10-Q adds the risk-side scale: aggregate PORTS-Pike guarantee obligations are capped at **US$105B** across leases covering approximately **4.25 GW of IT load**, with guarantees phasing in as data centers enter service.[^15] This is maximum conditional credit exposure, not deployed capital, funded CapEx, or current cash outflow.
 
-Together they show that leading system-platform coordination is beginning to extend from chips into **physical infrastructure and capital formation**.
+AMD provides an independent cross-company check. Its Q2 2026 Form 10-Q disclosed **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms of up to **15 years**.[^16] That evidence shows supplier / sponsor credit support is not unique to NVIDIA; neither guarantee exposure should be counted as independently financed end demand.
+
+Together these disclosures show that leading system-platform coordination is beginning to extend from chips into **physical infrastructure and capital formation**, while making demand quality increasingly dependent on financing structure.
 
 ---
 
@@ -170,9 +172,9 @@ The same mechanism can amplify capital-cycle risk. If long-duration demand is re
 
 Model-company long-duration commitments have therefore become a leading indicator on par with hyperscaler CapEx and system-vendor supply commitments; their time-leadership still needs to be verified across more full cycles.
 
-PORTS-Pike extends this model further. Anchor demand can now be combined with **platform credit support + infrastructure developer + long-duration lease** to form land, power, and shell ahead of delivered compute.[^14]
+PORTS-Pike extends this model further. Anchor demand can now be combined with **platform credit support + infrastructure developer + long-duration lease** to form land, power, and shell ahead of delivered compute.[^14][^15]
 
-That structure can accelerate infrastructure formation while also increasing customer concentration and duration risk.
+AMD's separate partner-lease guarantees show that this financing pattern is broader than a single-company structure.[^16] These exposures can accelerate infrastructure formation while also increasing customer concentration, credit-support dependency, and duration risk; they are not equivalent to utilized workload or independent end demand.
 
 ---
 
@@ -498,3 +500,7 @@ That is the industrial meaning of the **system-level resource concentration risk
 [^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^16]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm

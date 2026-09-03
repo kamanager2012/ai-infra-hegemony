@@ -50,7 +50,13 @@ NVIDIA 披露的 aggregate **forward supply / capacity commitment family** 在�
 
 因此，产业竞争可以从“谁愿意出更高价格”转向“谁能够获得稳定数量、稳定交付和系统级优先级”。
 
-2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型长期资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^13][^14] 前者是 mobilization target、后者是 future design capacity，都不是已部署资本或已上电负载；但二者共同表明，领先 system platform 正开始把协调能力从芯片供应扩展到资本与物理基础设施。
+2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^13][^14]
+
+FY27 Q2 Form 10-Q 又给出风险侧规模：PORTS-Pike 相关 guarantees 覆盖约 **4.25 GW IT load** 的 leases，aggregate obligations 上限为 **US$105B**，并随 data centers 进入 service 分阶段生效。[^15] 这是 maximum conditional credit exposure，不是 deployed capital、funded CapEx 或当前 cash outflow。
+
+AMD 提供了独立的 cross-company check。其 Q2 2026 Form 10-Q 披露，对部分 commercial-partner data-center lease obligations 的 guarantees 形成 **US$4.1B maximum gross exposure**，期限最长 **15 年**。[^16] 这说明 supplier / sponsor credit support 并非 NVIDIA 独有；两类 guarantee exposure 都不能被当作 independently financed end demand。
+
+这些披露共同说明，领先 system platform 的协调能力正从芯片供应扩展到**物理基础设施与资本形成**，同时 demand quality 也越来越依赖 financing structure。
 
 ---
 
@@ -156,7 +162,9 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model
 
 因此，model-company long-duration commitment 已经成为与 hyperscaler CapEx、system-vendor supply commitments 同级的重要领先指标；其时间领先性仍需在更多完整周期中持续验证。
 
-PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^14] 这提高了基础设施形成速度，也同时增加 customer concentration 与 duration risk。
+PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^14][^15]
+
+AMD 独立披露的 partner-lease guarantees 又说明，这种 financing pattern 已经超出单一公司结构。[^16] 这些 exposure 可以加快 infrastructure formation，也会增加 customer concentration、credit-support dependency 与 duration risk；它们不等于 utilized workload，也不等于 independent end demand。
 
 ---
 
@@ -468,3 +476,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 [^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^16]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
