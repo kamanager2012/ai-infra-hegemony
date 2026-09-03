@@ -14,6 +14,27 @@ local function stringify(el)
   return pandoc.utils.stringify(el)
 end
 
+local function part_divider(chapter, part)
+  local title = part_titles[chapter]
+  if not title then
+    return nil
+  end
+
+  return pandoc.RawBlock(
+    "latex",
+    "\\clearpage\n" ..
+    "\\thispagestyle{empty}\n" ..
+    "\\vspace*{34mm}\n" ..
+    "{\\sffamily\\fontsize{10}{12}\\selectfont\\color{ReportMuted}RESEARCH REPORT / PART " .. part .. "\\par}\n" ..
+    "\\vspace{9mm}\n" ..
+    "{\\sffamily\\bfseries\\fontsize{29}{34}\\selectfont\\color{ReportNavy}" .. title .. "\\par}\n" ..
+    "\\vspace{7mm}\n" ..
+    "{\\color{ReportRule}\\rule{\\textwidth}{0.8pt}}\n" ..
+    "\\addcontentsline{toc}{part}{" .. title .. "}\n" ..
+    "\\clearpage"
+  )
+end
+
 function Header(el)
   local txt = stringify(el)
 
@@ -26,18 +47,16 @@ function Header(el)
     local part, chapter, title = txt:match("^Part ([IVX]+) · Chapter (%d+): (.+)$")
     if part and chapter and title then
       local blocks = {}
+      local divider = part_divider(chapter, part)
 
-      if chapter == "1" then
-        table.insert(blocks, pandoc.RawBlock("latex", "\\mainmatter"))
+      if divider then
+        table.insert(blocks, divider)
       end
 
-      if part_titles[chapter] then
+      if chapter == "1" then
         table.insert(
           blocks,
-          pandoc.RawBlock(
-            "latex",
-            "\\cleardoublepage\\part*{" .. part_titles[chapter] .. "}\\addcontentsline{toc}{part}{Part " .. part .. "}"
-          )
+          pandoc.RawBlock("latex", "\\pagenumbering{arabic}\\setcounter{page}{1}")
         )
       end
 
@@ -48,7 +67,7 @@ function Header(el)
 
     if txt == "Research Transparency, Limitations, and Correction Policy" then
       return {
-        pandoc.RawBlock("latex", "\\backmatter"),
+        pandoc.RawBlock("latex", "\\clearpage"),
         el
       }
     end
