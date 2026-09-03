@@ -9,7 +9,7 @@
 
 
 **Evidence cutoff：** 2026-08-28  
-**Edition revision：** 2026-08-31  
+**Edition revision：** 2026-09-03  
 本版研究判断只使用 cutoff 前可获得的证据。cutoff 后的本版编辑仅用于纠错、证据边界修复、双语一致性与论证结构调整；完整修订记录单独保留。
 
 [网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
