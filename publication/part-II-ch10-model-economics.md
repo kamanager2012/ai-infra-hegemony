@@ -1,4 +1,4 @@
-# Part II · 第10章：模型单位经济、算法效率与开源竞争
+# Part II · 第10章：模型单位经济、算法效率与开放模型竞争
 
 ## 1. Model Economics 不能脱离 Infrastructure Economics
 
@@ -78,9 +78,11 @@ Stanford AI Index 2025 给出一个历史量化锚：达到其所定义 GPT-3.5 
 
 ---
 
-## 4. Open Source 先压缩 Model-Layer Rent，再影响 Infrastructure Rent
+## 4. Open Model 先压缩 Model-Layer Rent，再影响 Infrastructure Rent
 
-open-source model 会扩大 capability diffusion、private deployment 与 model-switching option，同时压低 API premium。
+open-model 与 open-weight availability 会扩大 capability diffusion、private deployment 与 model-switching option，同时压低 API premium。
+
+**术语边界：** 本报告用 **open-model** 作为更宽的上位概念；只有在 model weights 可获得时才明确使用 **open-weight**。open-weight availability 本身不等于 open-source licensing，也不能自动推出 downstream rights 不受限制。
 
 但模型层迁移速度通常快于：
 
@@ -98,7 +100,7 @@ open-source model 会扩大 capability diffusion、private deployment 与 model-
 
 > **API price down ≠ infrastructure demand down**
 
-开源首先压缩的是模型能力本身的稀缺租金。
+开放模型首先压缩的是模型能力本身的稀缺租金。
 
 基础设施是否受压，要看单位资源需求下降是否快于 workload volume 增长。
 
@@ -172,7 +174,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 ## 8. Price Compression 与 Rebound 可以同时成立
 
-算法效率和开源竞争会降低 unit intelligence cost。
+算法效率和 open-model competition 会降低 unit intelligence cost。
 
 总基础设施需求可以抽象为：
 
@@ -239,7 +241,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 - model-layer price competition 与 capability diffusion 已经发生；
 - unit intelligence cost 继续下降；
 - algorithmic efficiency 正在改变 compute / memory demand function；
-- open source 正在提高 buyer optionality；
+- open-model / open-weight availability 正在提高 buyer optionality；
 - 但 infrastructure demand 尚未因此进入确认下降周期；
 - 总需求越来越取决于 workload growth、utilization 与 monetization。
 
