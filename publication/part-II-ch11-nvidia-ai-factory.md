@@ -65,7 +65,7 @@ NVIDIA 把大量 manufacturing CapEx 留在 TSMC、memory vendors、packaging ec
 
 - 公司宣布与六家大型资本提供方建立 compute-financing platforms，目标是随时间动员 **>US$500B third-party capital**；[^5]
 - PORTS-Pike 中，NVIDIA 为 land + power + shell buildout 提供 credit support，并投资 **US$1.5B** 于 SB Energy。[^6]
-- NVIDIA FY27 Q2 Form 10-Q 进一步披露，PORTS-Pike 相关 lease guarantees 覆盖约 **4.25 GW IT load**，aggregate obligation cap 为 **US$105B**，并通常随对应 data center 进入 service 分阶段生效。[^7]
+- NVIDIA FY27 Q2 Form 10-Q 进一步披露，PORTS-Pike 相关 lease guarantees 覆盖约 **4.25 GW IT load**，aggregate obligation cap 为 **US$105B**，并通常随对应 data center 进入 service 分阶段生效，第一阶段预计在 **FY2029** 开始。[^7]
 
 因此，NVIDIA 仍然没有变成拥有所有 fab、data center 与 power assets 的传统重资产运营商，但“asset-light platform”也不能再理解为完全不承担 infrastructure financing risk。
 
@@ -123,4 +123,4 @@ AI Factory 不应被当成“每个数据中心都是 NVIDIA 工厂”的所有�
 [^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and US$1.5B SB Energy investment, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
-[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
