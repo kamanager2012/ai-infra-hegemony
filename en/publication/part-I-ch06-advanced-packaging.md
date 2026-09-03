@@ -26,7 +26,7 @@ These labels are not perfectly identical. The >8% and >10% figures are therefore
 
 ## 3. Customer allocation remains undisclosed
 
-TSMC public material supports the following: advanced packaging is tight, CoWoS is an important part of that system, and packaging tightness is limiting customer growth.
+TSMC's public materials support the following: advanced packaging is tight, CoWoS is an important part of that system, and packaging tightness is limiting customer growth.
 
 TSMC does not disclose an auditable customer-level CoWoS allocation table for this report, nor does it provide an official CoWoS share by customer.
 
@@ -39,7 +39,7 @@ Annual customer revenue share, wafer revenue share, and CoWoS customer share are
 
 ## 4. Demand concentration is observable only through institutional estimates
 
-TrendForce's research on 2025 CoWoS demand identifies NVIDIA as the largest demand customer and estimates its demand share at **more than 60%**.[^3]
+TrendForce's research on 2025 CoWoS demand identifies NVIDIA as the largest source of demand and estimates its share at **more than 60%**.[^3]
 
 The evidence grade must remain **B — institutional estimate**. The figure is useful for analyzing demand concentration and designing stress tests, but it cannot be rewritten as:
 
@@ -51,7 +51,7 @@ The defensible interpretation is: **highly concentrated demand has a real instit
 
 ## 5. Packaging is a separate physical denominator
 
-The formal report does not use a report-side "CoWoS wafers per rack" geometry factor to infer industry rack capacity.
+This report does not use a report-side "CoWoS wafers per rack" geometry factor to infer industry rack capacity.
 
 Advanced-packaging capacity depends on packaging flow, interposer/substrate constraints, HBM integration, tool capacity, testing, yield, and qualification. It is not interchangeable with TSMC's front-end 12-inch-equivalent wafer shipments.
 
@@ -114,7 +114,7 @@ This distinction is essential for AI-infrastructure value-capture analysis.
 
 A frontier AI parallel stack cannot be judged from logic nodes alone. Even if accelerator dies can be produced, insufficient advanced packaging, substrates, HBM integration, testing, or high-volume yield can still prevent stable delivery of large systems.
 
-"Domestic chip production" therefore cannot hide packaging as an independent physical layer. China system closure must validate logic, HBM, packaging, interconnect, software, and power separately.
+"Domestic chip production" therefore cannot hide packaging as an independent physical layer. China's system-closure analysis must validate logic, HBM, packaging, interconnect, software, and power separately.
 
 ## 11. Current read and falsification
 
