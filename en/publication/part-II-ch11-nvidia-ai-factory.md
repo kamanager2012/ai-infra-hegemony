@@ -70,13 +70,13 @@ A more precise description is:
 
 > **The platform seeks to keep fabs, data centers, and power assets on external balance sheets while selectively using cash, equity, credit support, and long-duration coordination to accelerate formation of critical infrastructure.**
 
-That can improve Time-to-Capacity, but it can also pull customer-concentration, credit, and duration risk partly back onto the platform.
+That can improve Time-to-Capacity, but it can also bring part of the customer-concentration, credit, and duration risk back onto the platform.
 
 ## 7. Physical AI is an extension path, not current Data Center economics
 
 Automotive, robotics, simulation, and edge deployment follow the same system logic: hardware architecture, runtime, simulation, developer tooling, and model deployment form a combined platform.
 
-But "strategically important" does not mean "already contributing Data Center-scale revenue."
+But "strategically important" does not mean "already generating Data Center-scale revenue."
 
 Physical AI must be evaluated independently through design wins, deployment scale, revenue, reliability, and ecosystem adoption.
 
@@ -104,7 +104,7 @@ Its industrial importance is that the sales unit, qualification process, supply 
 
 ## 10. Current read
 
-As of 2026, the clearest change is that NVIDIA has moved materially beyond the accelerator-vendor role toward a system-platform / AI-Factory architecture.
+As of 2026, the clearest change is that NVIDIA has moved materially beyond the accelerator-vendor role toward a system-platform architecture organized around the AI Factory concept.
 
 "Vertical expansion" and "the industry is fully controlled by one platform" remain different propositions.
 
