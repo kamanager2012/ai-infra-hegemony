@@ -22,7 +22,7 @@ They are not "the same percentage of tasks will be automated," and they are not 
 
 ## 2A. 2026 shows localized signals, not a general labor-market verdict
 
-Stanford AI Index 2026 reports that U.S. employment for **software developers aged 22–25 fell by nearly 20% from 2024**, while roughly one-third of surveyed organizations expect AI to reduce workforce over the following year. At the same time, broad employment data have not shown job losses on the same scale across the economy.[^3]
+Stanford AI Index 2026 reports that U.S. employment among **software developers aged 22–25 fell by nearly 20% from 2024**, while roughly one-third of surveyed organizations expect AI to reduce workforce over the following year. At the same time, broad employment data have not shown job losses on the same scale across the economy.[^3]
 
 This evidence must be read narrowly:
 
@@ -34,13 +34,13 @@ A more direct August 12, 2026 update from the Stanford Digital Economy Lab uses 
 
 This is a broader age-by-exposure comparison than the software-developer series summarized by the AI Index above; the two denominators should not be treated as the same statistic.
 
-The authors explicitly characterize the payroll patterns as **early descriptive indicators rather than causal estimates**. The result therefore strengthens the hiring-pipeline mechanism without proving that AI alone caused the employment divergence.
+The authors explicitly characterize the payroll patterns as **early descriptive indicators rather than causal estimates**. The result therefore strengthens evidence for a hiring-pipeline mechanism without proving that AI alone caused the employment divergence.
 
 Anthropic's June 2026 Economic Index provides a different early signal: respondents who use Claude in more automated ways tend to anticipate that AI will be able to perform a larger share of their tasks over the next 12 months.[^4] Anthropic explicitly notes that the survey is not representative of the general population and over-represents computer/mathematical and management occupations.
 
 The defensible 2026 judgment remains:
 
-> **Localized hiring-pipeline and early-career signals are visible, but the translation from task exposure to workflow adoption to employment outcome is still unfolding.**
+> **Localized hiring-pipeline and early-career signals are visible, but the translation from task exposure through workflow adoption to employment outcomes is still unfolding.**
 
 **Scope note:** Sections 3–11 are report-side transmission mechanisms, illustrative task / occupation examples, and monitoring recommendations derived from the exposure evidence above and the report's broader workflow framework. They are not presented as externally validated universal causal laws or as quantified employment forecasts.
 
@@ -84,7 +84,7 @@ Examples include:
 
 These tasks have digital inputs/outputs and relatively clear evaluation criteria, making them easier to compress through agent/workflow systems.
 
-Task compression can still appear as higher output per worker rather than immediate elimination of the job.
+Task compression can still appear as higher output per worker rather than immediate job elimination.
 
 ## 6. Responsibility constraints preserve human review
 
