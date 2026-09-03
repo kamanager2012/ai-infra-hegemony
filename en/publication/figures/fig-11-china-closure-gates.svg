@@ -24,6 +24,7 @@
 <text x="875" y="545" class="b">9. Infrastructure / capital continuity</text>
 <text x="905" y="585" class="n">HBM / packaging / LPS / power / long-duration capital</text>
 <text x="1110" y="635" class="s" text-anchor="middle">Question: can the stack keep scaling when critical external inputs are constrained?</text>
+<text x="750" y="775" class="s" text-anchor="middle">Current evidence · Aug 28, 2026: partial production deployment is real; all seven Production-Grade Gates are not yet publicly closed.</text>
 <line x1="70" y1="790" x2="1430" y2="790" stroke="#bbb"/>
 <text x="70" y="830" class="n">Source: Report framework; Chapter 17 and Chapter 32.</text>
 <text x="70" y="860" class="n">Boundary: production-grade substitution ≠ full technological autonomy; import dependence also does not prove that no production-grade parallel stack exists.</text>
