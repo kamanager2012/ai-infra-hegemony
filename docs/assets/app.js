@@ -497,7 +497,7 @@
     $("headerBrief").href = documentUrl("RESEARCH_BRIEF.md");
     $("headerMethod").href = chapterUrl(27);
     $("langToggle").textContent = lang === "zh" ? "EN" : "中文";
-    $("readerLangToggle").textContent = lang === "zh" ? "EN" "中文";
+    $("readerLangToggle").textContent = lang === "zh" ? "EN" : "中文";
   }
 
   function patchLanguageUI() {
