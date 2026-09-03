@@ -128,7 +128,7 @@ Relevant conduct variables include:
 
 ### 7.5.1 Regulatory boundary
 
-The transaction report alone is not proof of illegality or monopoly:
+The transaction report alone does not establish illegality or monopoly:
 
 - many Hugging Face assets can be mirrored or redistributed;
 - open-weight model ownership does not by itself transfer to NVIDIA;
@@ -148,7 +148,7 @@ It cannot directly manufacture:
 - N2 wafers;
 - grid / energized MW.
 
-Even highly effective interface remedies can therefore coexist with continuing physical scarcity.
+Even highly effective interface remedies can therefore coexist with persistent physical scarcity.
 
 Legal competition and physical supply must remain separate analytical models.
 
