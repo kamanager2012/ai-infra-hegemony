@@ -56,6 +56,39 @@ The direction is consistent with the broader industrial thesis:
 
 A curriculum centered on the currently dominant model or tool is likely to become obsolete quickly. System design, verification, domain reasoning, and responsibility are more portable across models and platforms.
 
+### 2B. School-scale learning evidence now exists, but engagement and retention remain binding
+
+Two August 2026 randomized field studies materially improve the evidence base because they observe repeated school use and delayed learning rather than only one-session AI performance.
+
+**Khanmigo two-year school experiment.** Oreopoulos and Low report a two-year cluster randomized trial across **18 Tennessee middle schools** in which assigned students used Khan Academy with Khanmigo during existing daily remedial mathematics sessions.[^4] Assignment increased math achievement by about **1.3 national percentile ranks per term**, or roughly **0.06–0.08 standard deviations over a school year**; the implied effect of a full year of active participation is about **0.14 SD**.[^4]
+
+The result does not show that AI access automatically transforms learning. The gains resemble those from Khan Academy practice without AI assistance, while actual Khanmigo engagement was limited: **96%** of students tried it at least once, but the median student messaged it on only about one-third of practice days and used it in only about **17% of exercise sessions in which a mistake occurred**.[^4]
+
+The practical constraint is therefore partly:
+
+> **access → engagement → instructional workflow → learning outcome**
+
+—not model availability alone.
+
+**NUMI mastery experiment.** A separate randomized experiment with **more than 6,000 middle-school students** assigned AI versus computer-assisted-learning support and mastery versus non-mastery progression.[^5] Students completed a delayed assessment **one week later** covering practiced and unpracticed material.[^5]
+
+During practice, AI support improved error recovery: after mistakes, students were more likely to answer the next attempt correctly and needed fewer attempts to return to a correct answer, although they progressed more slowly and attempted fewer questions.[^5] The delayed-learning evidence was more limited and context-dependent than the immediate assistance effect, with the most encouraging results arising when AI support was embedded in a mastery workflow rather than offered as a generic shortcut.[^5]
+
+This establishes a more disciplined boundary:
+
+> **immediate AI-assisted correctness ≠ broad delayed retention or transfer.**
+
+The education evidence chain has therefore advanced from adoption-only indicators toward:
+
+> **repeated school deployment → measurable learning effect → partial delayed-retention evidence.**
+
+What remains unresolved at the same standard is:
+- broad transfer across topics;
+- teacher workload / organizational redesign;
+- all-in implementation and support cost;
+- persistent multi-year learning;
+- system-scale economics across heterogeneous schools.
+
 **Scope note:** Sections 3–11 are report recommendations derived from the industrial framework and cited competency models. They are not presented as externally validated causal findings about one optimal curriculum.
 
 ## 3. Layer one: AI literacy
@@ -167,7 +200,7 @@ That is closer to real industrial capability than simply banning AI tools.
 
 ## 12. Current read
 
-The central educational change is not simply to "create another AI major."
+The evidence now shows that AI-enabled tutoring can produce measurable learning gains in real school settings, but access alone is insufficient: engagement, instructional design, retention, and implementation remain binding. The central educational change is therefore not simply to "create another AI major."
 
 It is:
 
@@ -182,3 +215,7 @@ It is more likely to come from the ability to understand systems, verify results
 [^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
 [^2]: UNESCO, “AI competency framework for students,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66903
 [^3]: UNESCO, “AI competency framework for teachers,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-teachers?hub=779
+
+
+[^4]: Philip Oreopoulos and Nina Low, “One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment,” NBER Working Paper 35620, August 2026, https://www.nber.org/papers/w35620
+[^5]: Philip Oreopoulos, Michael Liut, Alp Sungu, and Nina Low, “Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment,” NBER Working Paper 35621, August 2026, https://www.nber.org/papers/w35621
