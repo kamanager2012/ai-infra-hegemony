@@ -34,11 +34,11 @@ These states must remain separate:
 
 > commitment / secured capacity / construction / energized capacity / utilization
 
-More than 10 GW secured does not mean more than 10 GW is already energized and operating.
+Securing more than 10 GW does not mean that more than 10 GW is already energized and operating.
 
 ### 3.1 PORTS-Pike: anchor demand now reaches LPS and credit support
 
-On August 17, 2026, NVIDIA disclosed its role in the PORTS-Pike Technology Campus with SB Energy in Ohio. NVIDIA is providing credit support to secure land, power, and shell (LPS) capacity; the initial deployment is designed for **4.25 IT-GW** of AI-factory capacity. OpenAI is the customer, while SB Energy will build, own, and operate the data center under a **20-year lease** to OpenAI. The announcement described phased capacity beginning in **calendar 2028**; NVIDIA's later FY27 Q2 Form 10-Q states that the first guarantee/service phase is expected in **fiscal 2029**. Those time identities are compatible rather than additive delivery milestones.[^5]
+On August 17, 2026, NVIDIA disclosed its role in the PORTS-Pike Technology Campus with SB Energy in Ohio. NVIDIA is providing credit support to secure land, power, and shell (LPS) capacity; the initial deployment is designed for **4.25 IT-GW** of AI-factory design capacity. OpenAI is the customer, while SB Energy will build, own, and operate the data center under a **20-year lease** to OpenAI. The announcement described phased capacity beginning in **calendar 2028**; NVIDIA's later FY27 Q2 Form 10-Q states that the first guarantee/service phase is expected in **fiscal 2029**. Those time identities are compatible rather than additive delivery milestones.[^5]
 
 The significance lies not only in scale; the transaction structure has also changed:
 
@@ -78,7 +78,7 @@ The public disclosure establishes scale. It does not establish a "largest custom
 
 xAI is the case of a model company entering infrastructure construction directly. In its December 2024 first-party update, xAI said **Colossus** had become fully operational in **122 days** using **100,000 NVIDIA Hopper GPUs**, and that it planned to double the cluster to a combined **200,000 Hopper GPUs**.[^7] The case shows a model company directly organizing large-scale compute infrastructure instead of relying only on pre-existing cloud capacity.
 
-This path is more direct than Stargate or Anthropic/AWS: rather than renting capacity through a cloud or a joint venture, the model company itself drove front-loaded capital formation in land, power, and chips. Anchor Buyers can guide upstream capital formation through more than one mode: long-duration leased commitments and self-built buildouts can coexist.
+This path is more direct than Stargate or Anthropic/AWS: rather than renting capacity through a cloud or a joint venture, the model company itself drove front-loaded capital formation in land, power, and chips. Anchor Buyers can guide upstream capital formation through more than one mode: long-duration leased commitments and self-built infrastructure can coexist.
 
 The xAI case is subject to the same state boundaries: Colossus going online is not full utilization, and an expansion plan is not installed capacity.
 
@@ -206,7 +206,7 @@ OpenAI Stargate's secured-capacity and construction milestones, Anthropic/AWS's 
 
 Anchor-buyer commitments are a key leading indicator connecting **S2/S3 expansion** with **S4 capital clearing**. The leading-indicator value of this signal is supported so far by three documented cases (Stargate, Anthropic/AWS, and xAI Colossus) and must be re-tested across additional full cycles.
 
-They can accelerate AI-infrastructure capital formation, but under weak utilization they can also amplify stranded-capacity and duration-mismatch risk.
+They can accelerate AI-infrastructure capital formation, but when utilization is weak they can also amplify stranded-capacity and duration-mismatch risk.
 
 ## 12. What would change the view
 
