@@ -42,7 +42,7 @@ Algorithm and architecture choices can change:
 - batch / concurrency;
 - serving efficiency.
 
-Public cases such as DeepSeek-V3 / V2 show that architecture improvements can significantly change training and serving resource requirements, although the cited sources do not define one universal "resource per capability" metric.[^1][^2]
+Public cases such as DeepSeek-V3 and DeepSeek-V2 show that architecture improvements can significantly change training and serving resource requirements, although the cited sources do not define one universal "resource per capability" metric.[^1][^2]
 
 But a changed demand function does not eliminate physical constraints. Whether higher efficiency reduces aggregate infrastructure demand still depends on workload volume and demand elasticity.
 
@@ -56,7 +56,7 @@ A clearly labeled **D-grade arithmetic conversion** is therefore:
 
 This is only a formal-training compute conversion. The 2.788M total already includes the paper's formal pre-training, context-extension, and post-training compute categories. The paper explicitly excludes prior research and ablation experiments; broader enterprise costs such as data engineering, engineering payroll, owned-cluster depreciation, networking/storage infrastructure, and the wider post-training / deployment organization are not established by this conversion.[^1]
 
-The US$5.576M figure can therefore be used as a public formal-training compute anchor, but not as "the full company cost of one frontier model."
+The US$5.576M figure can therefore be used as a public anchor for formal-training compute cost under the paper's stated rental assumption, but not as "the full company cost of one frontier model."
 
 ## 5. System specs support intensity analysis, not deployment inference
 
@@ -81,7 +81,7 @@ Where shipment or deployment cannot be closed from public evidence, the formal r
 
 Micron FY24 Q2 prepared remarks provide an important first-party boundary:
 
-> **industrywide / same technology node / same number of bits**, HBM3E requires approximately **3× the wafer supply of DDR5**.[^4]
+> **industry-wide / same technology node / same number of bits**, HBM3E requires approximately **3× the wafer supply of DDR5**.[^4]
 
 Bit demand and manufacturing input are therefore not one-to-one. As HBM bit share rises, pressure on DRAM wafer / cleanroom input can rise faster than bit share alone would suggest.
 
@@ -199,11 +199,11 @@ Contracted or secured capacity is not energized capacity; energized capacity is 
 **Source:** NVIDIA GB200 NVL72 official specification and DGX GB Rack Scale Systems User Guide.[^3][^5]  
 **Note:** This is a **D-grade mechanical intensity conversion**. It answers only: “if 1 MW of aggregate rack-level input power were composed entirely of this rack configuration, what would the hardware intensity be?” It is **not** a shipment, deployment, facility-IT-load, energized-facility, or industry-demand estimate, and it excludes PUE, network/storage, power-conversion, redundancy, and facility overhead.
 
-This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that specification is not deployment.
+This kind of conversion turns system specifications into auditable engineering intensity while preserving the boundary that a specification is not a deployment count.
 
 ## 12. When shipment volumes are unobservable, use bounded forward indicators
 
-NVIDIA's disclosed manufacturing / supply / capacity commitment family progressed across three reporting dates:[^6]
+NVIDIA's disclosed **forward supply / capacity commitment family** progressed across three reporting dates:[^6]
 
 - 2026-01-25: **US$95.2B**;
 - 2026-04-26: **US$119B**;
