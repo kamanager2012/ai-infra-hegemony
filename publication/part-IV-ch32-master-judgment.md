@@ -20,7 +20,7 @@
 
 ### Test D — Capital Formation 是否已经进入系统性清算？
 
-尚未。高 CapEx、US$279B aggregate supply commitments、seller-assisted financing 与 >US$500B third-party-capital mobilization target 都提高了未来 clearing 的重要性，但当前不能由支出规模本身推出泡沫或硬着陆。S4 仍要求 utilization、market clearing、forward commitment、demand quality / financing 等独立信号出现广泛、持续且因果一致的恶化。
+尚未。高 CapEx、US$279B aggregate supply and capacity commitments、seller-assisted financing 与 >US$500B third-party-capital mobilization target 都提高了未来 clearing 的重要性，但当前不能由支出规模本身推出泡沫或硬着陆。S4 仍要求 utilization、market clearing、forward commitment、demand quality / financing 等独立信号出现广泛、持续且因果一致的恶化。
 
 四个测试合在一起，当前最符合：
 
@@ -123,7 +123,7 @@ Contracted / Secured、Permitted、Construction / Transition、Energized、Utili
 
 ---
 
-## 6. Second Stack 会先削弱 Platform Rent，再缓解 Scarcity
+## 6. Second Stack 会先改变 Platform Economics，随后才可能实质缓解 Upstream Scarcity
 
 Google Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 已证明，hyperscaler 的反击不是“自研一颗芯片”，而是形成第二类 system stack。[^7]
 
@@ -340,7 +340,7 @@ Compute 只有在经济上可检验的意义上，才能被视为 productive inp
 
 ### S3 — Resource Hegemony
 
-多个 scarce layers、quantity assurance 与 switching cost 同时强化，后来者必须复制更完整的 infrastructure stack。
+多个 scarce layers 的 quantity assurance / delivery access、switching cost 与 financing coordination 同时强化，且 workload monetization 足以支撑相关承诺，后来者必须复制更完整的 infrastructure stack。
 
 ### S4 — Capital Hard Landing
 
@@ -433,7 +433,7 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 
 当前最接近事实的状态仍然是 **S2 — Baseline Concentration**：领先平台和关键稀缺层保持强经济性，替代系统持续成长，但尚未形成足以消除 system-level concentration 与物理约束的全面替代。
 
-未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 与 switching cost 同时强化，则 S3 权重上升；如果 utilization/revenue、market clearing、forward commitments、financing quality 与 accounting 中的多类独立信号跨主体/层级形成广泛、持续的交叉确认，则 S4 才真正成立；Accounting 是 confirmation channel，而不是硬门槛。
+未来如果供给弹性、system portability 与 multi-sourcing 显著改善，产业会向 S1 移动；如果多个 scarce layers 的 quantity assurance / delivery access、switching cost 与 financing coordination 同时强化，且 monetization 足以支撑相关承诺，则 S3 权重上升；如果 utilization/revenue、market clearing、forward commitments、financing quality 与 accounting 中的多类独立信号跨主体/层级形成广泛、持续的交叉确认，则 S4 才真正成立；Accounting 是 confirmation channel，而不是硬门槛。
 
 因此，这份报告最终不是在问“是不是只剩 AI 重要”。手机、电脑、游戏主机、汽车、工业设备、机器人以及航空航天等高可靠长生命周期系统仍然重要。真正需要问的是：
 
@@ -477,9 +477,9 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 [^10]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
 [^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
-[^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, announcement-stage initial 4.25 IT-GW design capacity and credit support for land/power/shell, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
-[^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B; guarantees phase in as nine data centers enter service, with the first expected in FY2029, and exposure declines as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^16]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
 
