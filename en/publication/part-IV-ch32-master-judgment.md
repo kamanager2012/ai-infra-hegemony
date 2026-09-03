@@ -20,7 +20,7 @@ Not yet. Hyperscaler custom systems and China's parallel stack establish that re
 
 ### Test D — Has capital formation entered broad systemic clearing?
 
-Not yet. High CapEx, **US$279B** of aggregate supply commitments, seller-assisted financing, and a **>US$500B** third-party-capital mobilization target all raise the importance of future clearing. None supports inferring a bubble or hard landing from spending scale alone. S4 still requires broad, persistent, causally coherent deterioration across independent signals such as utilization, market clearing, forward commitments, and demand quality / financing.
+Not yet. High CapEx, **US$279B** of aggregate supply and capacity commitments, seller-assisted financing, and a **>US$500B** third-party-capital mobilization target all raise the importance of future clearing. None supports inferring a bubble or hard landing from spending scale alone. S4 still requires broad, persistent, causally coherent deterioration across independent signals such as utilization, market clearing, forward commitments, and demand quality / financing.
 
 Taken together, the four tests describe:
 
@@ -131,7 +131,7 @@ Lower-margin, lower-bargaining-power, shorter-duration buyers are generally more
 
 ---
 
-## 6. Second stacks reduce platform rent before they eliminate scarcity
+## 6. Second stacks change platform economics before they materially relieve upstream scarcity
 
 Google Ironwood, AWS Trainium, Microsoft Maia, and Meta MTIA show that hyperscaler competition is no longer simply "internal ASIC versus external GPU." It is increasingly **system stack versus system stack**.[^7]
 
@@ -199,7 +199,7 @@ Two closure levels are therefore required.
 
 ### Production-Grade Parallel Stack
 
-China has moved beyond the stage of having no substitute system. Parts of the stack are already in real production deployment.
+China has moved beyond the stage of having no substitute system, and a real frontier parallel stack is iterating with partial production deployment. But under Chapter 17's seven Production-Grade Gates, public evidence is still insufficient to confirm that a complete production-grade frontier parallel stack has closed.
 
 ### Autonomous Frontier Closure
 
@@ -356,7 +356,7 @@ A small number of system platforms and scarce-layer suppliers retain strong econ
 
 ### S3 — Resource Hegemony
 
-Multiple scarce layers, quantity assurance, and switching costs strengthen together, forcing challengers to replicate a more complete infrastructure stack.
+Multiple scarce layers, quantity assurance / delivery access, switching costs, and financing coordination strengthen together while workload monetization remains sufficient to support the associated commitments, forcing challengers to replicate a more complete infrastructure stack.
 
 ### S4 — Capital Hard Landing
 
@@ -455,7 +455,7 @@ The state closest to current evidence remains **S2 — Baseline Concentration**:
 
 If supply elasticity, system portability, and multi-sourcing improve materially, the industry moves toward S1.
 
-If multiple scarce layers and switching costs strengthen simultaneously, S3 gains weight.
+If multiple scarce layers, quantity assurance / delivery access, switching costs, and financing coordination strengthen together while monetization remains sufficient to support the associated commitments, S3 gains weight.
 
 If multiple causally independent signal families across utilization/revenue, market clearing, forward commitments, financing quality, and accounting cross-confirm broad and persistent deterioration across actors/layers, S4 becomes the dominant interpretation; accounting is confirmatory rather than mandatory.
 
@@ -501,9 +501,9 @@ That is the industrial meaning of the **system-level resource concentration risk
 [^10]: Counterpoint Research, 2026 Q2, YMTC 14% NAND shipment share, https://counterpointresearch.com/en/insights/server-led-essds-hit-48-percent-of-nand-shipments
 [^12]: TrendForce, 2026-06-12, 1Q26 foundry revenue shares, https://www.trendforce.com/presscenter/news/20260612-13095.html
 [^13]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
-[^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, initial 4.25 IT-GW design capacity, credit support for land/power/shell, phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^14]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, announcement-stage initial 4.25 IT-GW design capacity and credit support for land/power/shell, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 
-[^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B; guarantees phase in as nine data centers enter service, with the first expected in FY2029, and exposure declines as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^16]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
 
