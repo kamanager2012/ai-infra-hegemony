@@ -237,7 +237,11 @@ Export controls, antitrust remedies, interface openness, industrial policy, regi
 
 Multi-year compute commitments from large model companies can influence infrastructure financing, custom silicon, power, and data-center buildout.
 
-The 2026 financing layer is now observable in first-party disclosures: NVIDIA has announced compute-financing platforms targeting **more than US$500B of third-party capital mobilization over time**, and PORTS-Pike adds seller credit support around initial **4.25 IT-GW** design capacity.[^7][^8]
+The 2026 financing layer is now observable in first-party disclosures: NVIDIA has announced compute-financing platforms targeting **more than US$500B of third-party capital mobilization over time**, while PORTS-Pike pairs seller credit support with initial **4.25 IT-GW** design capacity.[^7][^8] NVIDIA's FY27 Q2 Form 10-Q separately caps aggregate obligations under the associated SB Energy lease guarantees at **US$105B**. The guarantees generally become effective as the applicable leases commence across phased data-center delivery, are triggered by specified tenant defaults, and decline as lease payments are made.[^11] **US$105B is maximum conditional guarantee exposure, not funded CapEx, not current cash outflow, and not an additive copy of the underlying lease demand.**
+
+Financing Reflexivity is also no longer NVIDIA-specific. AMD's Q2 2026 Form 10-Q reports **US$4.1B maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; AMD states that the guarantees typically become payable upon partner default and that exposure declines as contractual lease payments are made.[^12] **US$4.1B is likewise maximum guarantee exposure, not funded CapEx or a realized loss.**
+
+This cross-vendor evidence shifts the mechanism from a single-company case toward an industry financing structure, while keeping each instrument's denominator and risk transfer separate.
 
 If Anchor Buyer demand expands and converts into real utilization, S2/S3 weighting rises.
 
@@ -318,7 +322,7 @@ Scenarios are distinguished along the following axes rather than by any single a
 - **S2 ↔ S3:** the direction of allocation concentration at scarce layers, the growth rate of seller forward commitments, proprietary switching costs, and the degree of powered-land lockup;
 - **S3 ↔ S4:** the relationship between utilization / monetization and the capital base. Because no comparable industry-wide ratio is publicly disclosed, public proxies are used: clearing prices (used-system prices, lease rates, cloud discounts), commitment growth, seller equity / credit support, third-party capital risk premia, and refinancing dependency.
 
-The same capital evidence (for example the **>US$500B** mobilization target, **nearly US$50B** invested in frontier AI labs, and selective credit enhancement for **nearly 2 GW of compute**)[^7][^8][^9] supports S2/S3 infrastructure coordination while the proxy signals are healthy, and shifts weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
+The same capital evidence now spans third-party mobilization and seller-assisted support across more than one supplier: the **>US$500B** third-party-capital mobilization target, **US$105B** PORTS-Pike maximum conditional guarantee exposure, **US$4.1B** AMD commercial-partner data-center lease-guarantee maximum gross exposure, **nearly US$50B** invested in frontier AI labs, and selective credit enhancement for **nearly 2 GW of compute**.[^7][^11][^12][^9] These figures have different denominators and are not additive capital totals. They support S2/S3 infrastructure coordination while the proxy signals are healthy, and shift weight toward S4 when the proxies deteriorate broadly and persistently; the judgment never rests on a single data point.
 
 Boundary case: if demand growth slows materially without producing sufficient cross-signal confirmation and causal breadth across multiple S4 signal families, assignment follows substitution strength — expanding substitution raises S1 weight, while persistent scarce-layer tightness places the state in S2 (reading "high demand" as "demand growth still above effective-supply growth").
 
@@ -363,13 +367,17 @@ That keeps long-run judgment responsive to industrial evidence rather than tied 
 [^2]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^3]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^4]: Google Ironwood TPU, https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ ; AWS Trainium3 UltraServers, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft Maia 200, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta MTIA 300, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, aggregate manufacturing, supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, US$279B aggregate supply and capacity commitments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^6]: NVIDIA, DGX GB200 Hardware Guide, rack power density, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html ; Talen Energy, 2026 Q2 Form 10-Q, large-load / PPA transition context, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; International Energy Agency, Energy and AI — Executive summary, grid-connection and transmission constraints, https://www.iea.org/reports/energy-and-ai/executive-summary
 [^7]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
 [^9]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, frontier-lab investment close to US$50B and selective credit enhancement for close to 2 GW of compute, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 
 [^10]: TrendForce, 2026-07-30, “Diverging Memory Market Outlook in 2027 as DRAM Supply Remains Tight While NAND Flash Supply Conditions Ease,” https://www.trendforce.com/presscenter/news/20260730-13158.html
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, SB Energy / PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness as nine data centers enter service, and exposure declining as lease payments are made, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
 
 ## Cross-references
 
