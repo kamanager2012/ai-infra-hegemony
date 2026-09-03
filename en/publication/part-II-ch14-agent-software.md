@@ -144,9 +144,9 @@ A more efficient system design can use:
 
 Routing is a dynamic allocation problem across quality, latency, cost, and failure probability.
 
-## 7. Open source can move profit toward workflow and distribution
+## 7. Open models can move profit toward workflow and distribution
 
-Open-source models increase portability, pressure API premiums, expand private deployment, and improve buyer bargaining power.
+Open-model and open-weight availability increase portability, pressure API premiums, expand private deployment, and improve buyer bargaining power.
 
 Model capability itself becomes harder to preserve as permanent software margin.
 
@@ -243,7 +243,7 @@ The dividing line is:
 
 ## Cross-references
 
-- [Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Source Competition](part-II-ch10-model-economics.md)
+- [Chapter 10: Model Unit Economics, Algorithmic Efficiency, and Open-Model Competition](part-II-ch10-model-economics.md)
 - [Chapter 12: Hyperscaler System-Stack Competition](part-II-ch12-hyperscaler-system-stack.md)
 - [Chapter 20: Value Capture Map](part-III-ch20-value-capture-map.md)
 - [Chapter 25: AI and Labor Markets](part-III-ch25-labor-market.md)
