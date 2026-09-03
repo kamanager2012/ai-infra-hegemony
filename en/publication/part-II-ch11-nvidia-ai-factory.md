@@ -58,10 +58,13 @@ This raises platform capital efficiency and turns external supply elasticity int
 
 Transactions disclosed in August 2026 show NVIDIA's supply orchestration extending partly into infrastructure capital.
 
-- The company announced compute-financing platforms with large long-duration capital providers, targeting **more than US$500B of third-party capital mobilization over time**.[^5]
+- The company announced compute-financing platforms with six large capital providers, targeting **more than US$500B of third-party capital mobilization over time**.[^5]
 - In PORTS-Pike, NVIDIA is providing credit support for land + power + shell buildout and investing **US$1.5B** in SB Energy.[^6]
+- NVIDIA's FY27 Q2 Form 10-Q further states that guarantees tied to the PORTS-Pike leases cover approximately **4.25 GW of IT load** and carry an aggregate obligation cap of **US$105B**, with guarantees generally phasing in as the corresponding data centers enter service.[^7]
 
 NVIDIA has not become a traditional heavy-asset operator that owns every fab, data center, and power asset. But an "asset-light platform" can no longer be interpreted as having zero infrastructure-financing exposure.
+
+**The US$105B figure is maximum conditional guarantee exposure, not funded CapEx, current cash outflow, realized loss, or independently financed end demand.** It measures a contingent credit-support channel that sits beside — and must not be added mechanically to — the US$1.5B equity investment or the >US$500B third-party-capital mobilization target.
 
 A more precise description is:
 
@@ -115,3 +118,5 @@ The next question is whether system definition can continue to translate into lo
 [^4]: NVIDIA Corporation, FY26 Form 10-K, U.S. SEC, Data Center, networking, platform, and supply-chain disclosures, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 [^5]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^6]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and US$1.5B SB Energy investment, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^7]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
