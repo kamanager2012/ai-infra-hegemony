@@ -121,7 +121,7 @@ The duration of AI-infrastructure demand cannot be judged only by asking how man
 
 This is why **large efficiency gains and long-run growth in aggregate infrastructure demand can coexist**: lower resource intensity per task can be offset or exceeded by broader workflow penetration, higher execution frequency, or deeper agent loops.
 
-This mechanism is not a guarantee of permanent demand. If AI fails to produce sufficiently low-cost, reliable, verifiable workflow output, the digital installed base remains potential TAM rather than realized utilization or cash flow.
+This mechanism is not a guarantee of permanent demand. If AI fails to produce sufficiently low-cost, reliable, verifiable workflow output, the digital installed base remains a potential TAM rather than realized utilization or cash flow.
 
 ## 7. Leading signals of reversal
 
@@ -157,7 +157,7 @@ That gap helps determine whether the capital cycle continues expanding, normaliz
 
 ## 9. Current read
 
-As of August 2026, public data still supports a high-investment regime in which **capital formation remains elevated while the utilization and monetization hurdle continues to rise**, rather than a completed capital-clearing cycle.
+As of August 2026, public evidence still supports a high-investment regime in which **capital formation remains elevated while the utilization and monetization hurdle continues to rise**, rather than a completed capital-clearing cycle.
 
 A real turn would require multiple independent signal families across utilization/revenue, market clearing, forward commitments, demand-financing quality, and accounting to confirm broad deterioration across actors and layers. Accounting strengthens the severity assessment when present, but it is not a mandatory gate.
 
