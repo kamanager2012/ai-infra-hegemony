@@ -184,6 +184,8 @@ Seller equity、credit enhancement、infrastructure support 与 third-party capi
 
 PORTS-Pike 把这个规模与边界具体化：NVIDIA FY27 Q2 Form 10-Q 对 initial 约 **4.25 GW IT-load** lease structure 的 aggregate guarantee obligations 设定 **US$105B** 上限，并随 data centers 进入 service 分阶段生效。它是 maximum conditional credit exposure，**不是 funded CapEx，也不是当前 cash outflow**。[^rb5]
 
+AMD 提供了独立 cross-vendor check：其 Q2 2026 Form 10-Q 披露，与部分 commercial-partner data-center lease obligations 相关 guarantees 的 **maximum gross exposure 为 US$4.1B**，期限最长 15 年。它同样是 maximum guarantee exposure，不是 funded CapEx 或 realized loss。[^rb7] 因此，Financing Reflexivity 已经超出单一 supplier，但不同 instrument 的 denominator 仍然不能加总。
+
 因此，本报告区分：
 
 1. independently financed end demand；
@@ -260,6 +262,8 @@ PORTS-Pike 把这个规模与边界具体化：NVIDIA FY27 Q2 Form 10-Q 对 init
 
 > **存在真实 production-grade parallel stack，不等于已经证明 autonomous frontier closure。**
 
+截至 2026-08-28 evidence cutoff，中国已经形成真实 frontier parallel stack 并出现 partial production deployment，但公开证据仍不足以确认七个 Production-Grade Gates 已全部闭合；Autonomous Frontier Closure 是更高、目前同样尚未满足的门槛。
+
 反过来，仍然存在 import dependence，也不等于不存在 production substitution。
 
 ---
@@ -284,7 +288,7 @@ High growth 与 concentration 共存。Leading platform 与 scarce-layer supplie
 
 ### S3 — Resource Hegemony
 
-多个 scarce layer、switching cost、forward reservation 与 delivery advantage 相互强化，使复制完整 competitive system 的成本持续升高。
+多个 scarce layers 的 quantity assurance / delivery access、switching cost 与 financing coordination 相互强化，且 workload monetization 足以支撑相关承诺，使复制完整 competitive system 的成本持续升高。
 
 ### S4 — Capital Hard Landing
 
@@ -302,7 +306,7 @@ S2 不应该被当作“必须维护的结论”。
 
 - HBM 与 advanced packaging 出现持续性宽松；
 - alternative stack 以低 migration cost 实现大规模 production substitution；
-- qualified advanced capacity access 明显扩散；
+- 多个 qualified scarce layers 的 quantity assurance / delivery access 明显扩散；
 - Time-to-Power 大幅缩短，不再成为高价值项目的差异化变量；
 - 大型 forward commitments 被明显取消、延期或下调；
 - utilization、AI revenue、clearing price 与 customer cash generation 同步恶化；
@@ -366,9 +370,11 @@ Evidence 同时分为：
 
 [^rb1]: TSMC，2Q26 Management Report，HPC 66%、smartphone 22% 与 7 nm 及以下 technology mix，https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf
 [^rb2]: Micron Technology，FY24 Q2 Prepared Remarks，same node / same bits 条件下 HBM3E 相对 DDR5 的 wafer-supply intensity，https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
-[^rb3]: NVIDIA Corporation，FY26 Form 10-K 与 FY27 Q2 Form 10-Q，aggregate manufacturing / supply / capacity commitments，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+[^rb3]: NVIDIA Corporation，FY26 Form 10-K 与 FY27 Q2 Form 10-Q，跨不同 reporting labels / durations 的 forward supply / capacity commitment family；FY26 Form 10-K 为 manufacturing, supply, and capacity commitments，FY27 Q2 Form 10-Q 为 supply and capacity commitments，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^rb4]: NVIDIA / SB Energy，PORTS-Pike Exhibit 99.1，2026-08-17，initial 4.25 IT-GW design capacity 与 phased buildout，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
 
 [^rb5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased service expected to begin in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^rb6]: AMD, Advancing AI 2026 / Helios official materials and customer deployment announcements: Helios described as in production; Meta up to 6 GW with first-gigawatt shipments from 2H26; Anthropic up to 2 GW with first-gigawatt deployment from 1H27; Microsoft Helios deployment on Azure, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/ ; https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/ ; https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership
+
+[^rb7]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
