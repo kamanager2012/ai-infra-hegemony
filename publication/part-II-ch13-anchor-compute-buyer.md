@@ -67,7 +67,7 @@ OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B
 
 ### 3.1 PORTS-Pike：Anchor Demand 已进入 LPS 与 Credit Support
 
-2026-08-17，NVIDIA 披露与 SB Energy 在 Ohio PORTS-Pike Technology Campus 的合作：NVIDIA 通过 credit support 锁定 land、power 与 shell（LPS）capacity，初始部署设计支持 **4.25 IT-GW** AI factory capacity；OpenAI 将作为客户，SB Energy 负责建设、持有并运营 data center，项目采用对 OpenAI 的 **20 年 lease**。NVIDIA 同时披露，项目计划容量预计从 **2028 年开始分阶段上线**。[^5]
+2026-08-17，NVIDIA 披露与 SB Energy 在 Ohio PORTS-Pike Technology Campus 的合作：NVIDIA 通过 credit support 锁定 land、power 与 shell（LPS）capacity，初始部署设计支持 **4.25 IT-GW** AI factory capacity；OpenAI 将作为客户，SB Energy 负责建设、持有并运营 data center，项目采用对 OpenAI 的 **20 年 lease**。announcement-stage 口径是从 **calendar 2028** 开始分阶段上线；NVIDIA 后续 FY27 Q2 Form 10-Q 则把第一 guarantee/service phase 写为预计在 **fiscal 2029** 开始。两者属于可兼容的 time identity，不是两个可以加总的交付节点。[^5]
 
 该项目的重要性不只是规模，而是交易结构发生了变化：
 
@@ -330,6 +330,6 @@ anchor-buyer mechanism 应在以下情况下被下调：
 [^2]: OpenAI, “Building the compute infrastructure for the Intelligence Age,” 2026-04-29, surpassed 10 GW secured-capacity milestone, https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/
 [^3]: OpenAI, “Stargate Michigan Data Center,” 2026-06-01, 1 GW The Barn campus groundbreaking, https://openai.com/index/stargate-michigan-data-center/
 [^4]: Anthropic, “Anthropic and Amazon expand collaboration,” 2026-04, >US$100B over ten years, up to 5 GW and >1M Trainium2 chips, https://www.anthropic.com/news/anthropic-amazon-compute?lang=us
-[^5]: NVIDIA, “NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute,” 2026-08-17, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^5]: NVIDIA, 2026-08-17 PORTS-Pike announcement, initial 4.25 IT-GW design capacity, LPS credit support, 20-year OpenAI lease, and announcement-stage phased capacity beginning in calendar 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx ; NVIDIA Corporation, FY27 Q2 Form 10-Q, guarantees phasing in across nine data centers with the first expected in fiscal 2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^6]: NVIDIA, FY27 Q2 Earnings Call transcript, 2026-08-26, OpenAI existing and planned NVIDIA Compute commitments approximately 12 GW, https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 [^7]: xAI, “xAI raises $6B Series C,” 2024-12-23，一手披露 Colossus 使用 100,000 颗 NVIDIA Hopper GPU、122 天达到 fully operational，并计划扩展到合计 200,000 颗 Hopper GPU，https://x.ai/news/series-c
