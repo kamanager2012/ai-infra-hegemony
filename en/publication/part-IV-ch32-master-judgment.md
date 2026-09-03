@@ -142,6 +142,8 @@ This produces two effects that point in different directions:
 
 Custom-silicon success therefore does not by itself mean upstream scarcity disappears.
 
+AMD now adds a different external-system path. By the August 28, 2026 cutoff, AMD described **Helios rackscale solutions as in production**; Meta had a definitive agreement for **up to 6 GW** of AMD Instinct systems with first-gigawatt shipments scheduled from **2H26**; Anthropic had committed to **up to 2 GW** with first-gigawatt deployment beginning in **1H27**; and Microsoft had announced Helios deployment on Azure.[^17][^18][^19][^20] This is materially stronger than roadmap evidence, but it is still deployment / shipment commitment evidence rather than measured production-workload share or realized utilization.
+
 The long-run variables that matter are:
 
 - production workload share;
@@ -152,7 +154,7 @@ The long-run variables that matter are:
 - scale-up / scale-out efficiency;
 - dependence on the same scarce upstream layers.
 
-If second system stacks carry more production workload and migration cost falls, **S1 — Competitive Expansion** gains weight.
+If second system stacks carry more production workload and migration cost falls, **S1 — Competitive Expansion** gains weight. AMD's 2026 Helios / multi-GW commitments strengthen that branch, but do not by themselves satisfy the production-workload / utilization test.
 
 If alternative systems remain constrained by the same scarce inputs and proprietary software friction, S2/S3 gains weight.
 
@@ -174,7 +176,7 @@ Model-company long-duration commitments have therefore become a leading indicato
 
 PORTS-Pike extends this model further. Anchor demand can now be combined with **platform credit support + infrastructure developer + long-duration lease** to form land, power, and shell ahead of delivered compute.[^14][^15]
 
-AMD's separate partner-lease guarantees show that this financing pattern is broader than a single-company structure.[^16] These exposures can accelerate infrastructure formation while also increasing customer concentration, credit-support dependency, and duration risk; they are not equivalent to utilized workload or independent end demand.
+AMD's separate partner-lease guarantees show that this financing pattern is broader than a single-company structure.[^16] The AMD–Anthropic agreement adds another mode: **up to US$5B of AMD strategic equity investment** alongside an **up to 2 GW** deployment commitment.[^19] The equity amount is a commitment ceiling, not infrastructure CapEx or realized revenue, and the 2 GW figure is not utilized load. Together these exposures can accelerate infrastructure formation while also increasing customer concentration, credit-support dependency, and duration risk; they are not equivalent to utilized workload or independent end demand.
 
 ---
 
@@ -504,3 +506,11 @@ That is the industrial meaning of the **system-level resource concentration risk
 [^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^16]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
+
+[^17]: AMD, Advancing AI 2026 / Helios official materials, 2026-07-23/28, Helios rackscale solutions described as in production for gigawatt-scale deployments and as a reference-design / rackscale solution, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://www.amd.com/en/products/rackscale-solutions/helios.html
+
+[^18]: AMD and Meta, 2026-02-24, definitive multi-year / multi-generation agreement for up to 6 GW of AMD Instinct GPUs, with shipments supporting the first gigawatt scheduled to begin in 2H26, https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/
+
+[^19]: AMD and Anthropic, 2026-07-22, up to 2 GW MI450 / Helios deployment with first gigawatt beginning in 1H27 and up to US$5B AMD strategic equity investment, https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/
+
+[^20]: AMD and Microsoft, 2026-07-20, Microsoft to deploy AMD Helios at scale on Azure for frontier-model inference, https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership

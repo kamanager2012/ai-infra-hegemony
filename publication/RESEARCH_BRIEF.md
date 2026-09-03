@@ -274,6 +274,8 @@ PORTS-Pike 把这个规模与边界具体化：NVIDIA FY27 Q2 Form 10-Q 对 init
 
 Supply elasticity 上升，alternative stack 成熟，portability 改善，scarcity premium 下降。
 
+截至 2026 年 8 月 cutoff，S1 的证据已经明显增强：AMD 表示 Helios rackscale solutions 已进入 production；Meta commitment 为 **up to 6 GW**，Anthropic 为 **up to 2 GW**，Microsoft 也已宣布 Azure deployment。[^rb6] 这些仍是 deployment / shipment commitments，不是 measured utilization 或 production-workload share，因此会提高 competitive branch 的权重，但单独不足以推翻当前 S2 baseline。
+
 ### S2 — Baseline Concentration
 
 High growth 与 concentration 共存。Leading platform 与 scarce-layer supplier 保持强 economics，同时 substitution path 持续扩张。
@@ -368,3 +370,5 @@ Evidence 同时分为：
 [^rb4]: NVIDIA / SB Energy，PORTS-Pike Exhibit 99.1，2026-08-17，initial 4.25 IT-GW design capacity 与 phased buildout，https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
 
 [^rb5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased service expected to begin in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^rb6]: AMD, Advancing AI 2026 / Helios official materials and customer deployment announcements: Helios described as in production; Meta up to 6 GW with first-gigawatt shipments from 2H26; Anthropic up to 2 GW with first-gigawatt deployment from 1H27; Microsoft Helios deployment on Azure, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/ ; https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/ ; https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership

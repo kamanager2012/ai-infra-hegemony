@@ -256,6 +256,8 @@ The report uses four parallel states rather than one point forecast.
 
 Supply elasticity rises, alternative stacks mature, portability improves, and scarcity premiums decline.
 
+The S1 evidence strengthened inside the August 2026 cutoff: AMD described Helios rackscale solutions as in production, while Meta committed to **up to 6 GW**, Anthropic to **up to 2 GW**, and Microsoft announced Azure deployment.[^rb6] These are deployment / shipment commitments rather than measured utilization or production-workload share, so they strengthen the competitive branch without displacing the current S2 baseline by themselves.
+
 ### S2 — Baseline Concentration
 
 High growth and concentration coexist. Leading platforms and scarce-layer suppliers retain strong economics while substitution paths continue to expand.
@@ -348,3 +350,5 @@ For the complete evidence, denominators, counterarguments, and falsification bou
 [^rb4]: NVIDIA / SB Energy, PORTS-Pike Exhibit 99.1 filed 2026-08-17, initial 4.25 IT-GW design capacity and phased buildout, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm
 
 [^rb5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased service expected to begin in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^rb6]: AMD, Advancing AI 2026 / Helios official materials and customer deployment announcements: Helios described as in production; Meta up to 6 GW with first-gigawatt shipments from 2H26; Anthropic up to 2 GW with first-gigawatt deployment from 1H27; Microsoft Helios deployment on Azure, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/ ; https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/ ; https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership

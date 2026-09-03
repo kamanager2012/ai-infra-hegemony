@@ -134,6 +134,8 @@ Google Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 已证明，hypers
 
 因此，custom silicon 的成功不等于上游资源竞争缓解。
 
+AMD 又提供了另一条 external-system path。到 2026-08-28 cutoff，AMD 已把 **Helios rackscale solutions 描述为进入 production**；Meta 与 AMD 的 definitive agreement 为 **up to 6 GW**，首个 1 GW 所需 shipments 从 **2H26** 开始；Anthropic 与 AMD 的协议为 **up to 2 GW**，首个 1 GW 从 **1H27** 开始；Microsoft 也已宣布在 Azure 部署 Helios。[^17][^18][^19][^20] 这比 roadmap evidence 强得多，但仍然是 deployment / shipment commitment evidence，不是 measured production-workload share 或 realized utilization。
+
 真正决定长期格局的不是产品发布数量，而是：
 
 - production workload share；
@@ -144,7 +146,7 @@ Google Ironwood、AWS Trainium、Microsoft Maia 与 Meta MTIA 已证明，hypers
 - scale-up / scale-out efficiency；
 - 供应链是否仍依赖同一批 scarce layers。
 
-如果第二类 system stack 在真实生产负载中扩大，而软件迁移成本持续下降，S1 — Competitive Expansion 的权重会上升；反之，如果替代系统仍然高度受限于同一批稀缺资源与软件锁定，S2/S3 更可能强化。
+如果第二类 system stack 在真实生产负载中扩大，而软件迁移成本持续下降，S1 — Competitive Expansion 的权重会上升。AMD 2026 年 Helios / multi-GW commitments 已经强化这条分支，但还没有单独满足 production-workload / utilization test。反之，如果替代系统仍然高度受限于同一批稀缺资源与软件锁定，S2/S3 更可能强化。
 
 ---
 
@@ -164,7 +166,7 @@ OpenAI Stargate、Anthropic/AWS 等长期基础设施承诺说明，头部 model
 
 PORTS-Pike 又把这一机制推进一步：Anchor Buyer 不再只是“给云厂一个长期订单”，而可以通过 **长期客户需求 + platform credit support + infrastructure developer + long-duration lease** 共同提前形成 land、power 与 shell。[^14][^15]
 
-AMD 独立披露的 partner-lease guarantees 又说明，这种 financing pattern 已经超出单一公司结构。[^16] 这些 exposure 可以加快 infrastructure formation，也会增加 customer concentration、credit-support dependency 与 duration risk；它们不等于 utilized workload，也不等于 independent end demand。
+AMD 独立披露的 partner-lease guarantees 又说明，这种 financing pattern 已经超出单一公司结构。[^16] AMD–Anthropic agreement 还增加了另一种模式：AMD **up to US$5B strategic equity investment** 与 **up to 2 GW deployment commitment** 同时出现。[^19] US$5B 是 commitment ceiling，不是 infrastructure CapEx 或 realized revenue；2 GW 也不是 utilized load。这些 exposure 可以加快 infrastructure formation，也会增加 customer concentration、credit-support dependency 与 duration risk；它们不等于 utilized workload，也不等于 independent end demand。
 
 ---
 
@@ -480,3 +482,11 @@ AI 正在推动一轮比“GPU 景气周期”更深的产业重构。
 [^15]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased effectiveness as data centers enter service, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^16]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, maximum gross exposure of US$4.1B from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
+
+[^17]: AMD, Advancing AI 2026 / Helios official materials, 2026-07-23/28, Helios rackscale solutions described as in production for gigawatt-scale deployments and as a reference-design / rackscale solution, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://www.amd.com/en/products/rackscale-solutions/helios.html
+
+[^18]: AMD and Meta, 2026-02-24, definitive multi-year / multi-generation agreement for up to 6 GW of AMD Instinct GPUs, with shipments supporting the first gigawatt scheduled to begin in 2H26, https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/
+
+[^19]: AMD and Anthropic, 2026-07-22, up to 2 GW MI450 / Helios deployment with first gigawatt beginning in 1H27 and up to US$5B AMD strategic equity investment, https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/
+
+[^20]: AMD and Microsoft, 2026-07-20, Microsoft to deploy AMD Helios at scale on Azure for frontier-model inference, https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership
