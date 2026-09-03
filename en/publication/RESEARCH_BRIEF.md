@@ -170,6 +170,8 @@ The 2026 infrastructure-finance layer adds a second mechanism: **Financing Refle
 
 PORTS-Pike makes the scale and boundary concrete: NVIDIA's FY27 Q2 Form 10-Q caps aggregate guarantee obligations at **US$105B** for the initial approximately **4.25 GW IT-load** lease structure, with phased activation as data centers enter service. This is maximum conditional credit exposure, **not funded CapEx or current cash outflow**.[^rb5]
 
+AMD provides an independent cross-vendor check: its Q2 2026 Form 10-Q reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years. This is also maximum guarantee exposure rather than funded CapEx or realized loss.[^rb7] The financing mechanism is therefore broader than one supplier, while the instruments' denominators remain non-additive.
+
 The report therefore distinguishes among:
 
 1. independently financed end demand;
@@ -242,6 +244,8 @@ This additionally requires durable continuity across:
 
 A real production-grade parallel stack can exist without proving autonomous frontier closure.
 
+At the August 28, 2026 evidence cutoff, China has a real frontier parallel stack with partial production deployment, but public evidence remains insufficient to confirm closure across all seven Production-Grade Gates. Autonomous Frontier Closure remains a still higher and unproven threshold.
+
 Conversely, import dependence does not mean no production substitution exists.
 
 ---
@@ -266,7 +270,7 @@ High growth and concentration coexist. Leading platforms and scarce-layer suppli
 
 ### S3 — Resource Hegemony
 
-Multiple scarce layers, switching costs, forward reservations, and delivery advantages reinforce one another, increasing the cost of replicating a competitive system.
+Multiple scarce layers, quantity assurance / delivery access, switching costs, and financing coordination reinforce one another while workload monetization remains sufficient to support the associated commitments, increasing the cost of replicating a competitive system.
 
 ### S4 — Capital Hard Landing
 
@@ -284,7 +288,7 @@ The highest-value reverse signals include:
 
 - durable loosening in HBM and advanced packaging;
 - large-scale alternative-stack production substitution with low migration cost;
-- materially broader access to qualified advanced capacity;
+- materially broader quantity assurance / delivery access across multiple qualified scarce layers;
 - Time-to-Power shortening enough to stop differentiating high-value projects;
 - major forward commitments being cancelled, rescheduled, or materially reduced;
 - sustained deterioration in utilization, AI revenue, clearing prices, and customer cash generation;
@@ -352,3 +356,5 @@ For the complete evidence, denominators, counterarguments, and falsification bou
 [^rb5]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B and phased service expected to begin in FY2029, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 [^rb6]: AMD, Advancing AI 2026 / Helios official materials and customer deployment announcements: Helios described as in production; Meta up to 6 GW with first-gigawatt shipments from 2H26; Anthropic up to 2 GW with first-gigawatt deployment from 1H27; Microsoft Helios deployment on Azure, https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era ; https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/ ; https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/ ; https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership
+
+[^rb7]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
