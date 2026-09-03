@@ -72,7 +72,7 @@ TSMC 未披露 customer-level CoWoS allocation。
 
 ### A-grade manufacturing anchor
 
-Micron：HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**；FY25 10-K 进一步确认 HBM 需要更多 wafers / cleanroom space。[^5]
+Micron：HBM3E same-node / same-bits ≈ **3× DDR5 wafer supply**；FY25 10-K 进一步确认 HBM 需要更多 wafers / cleanroom space。Micron FY25 Q2 prepared remarks 还给出下一代 forward indicator：trade ratio 预计在 HBM4 上继续上升，**HBM4E 预计超过 4:1**。[^5] 这个 >4:1 仍是 vendor expectation，不是已经实现的 industrywide ratio。
 
 ### B-grade forward structure
 
@@ -116,8 +116,8 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 
 当前代表性项目：
 
-- Microsoft / Constellation：~835 MW restart PPA；[^10]
-- Talen / AWS：up to 1,920 MW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；[^11]
+- Microsoft / Constellation：~835 MW restart PPA；Constellation Q3 2024 results 估计约 **US$1.6B cash from operations 用于 restart CapEx**，estimated in-service date 为 **2028**；[^10]
+- Talen / AWS：up to 1,920 MW revised PPA；2026 Q2 filing 已明确 transition **occurred in April 2026**，并取代较早 spring-2027 expectation 成为当前 state marker。full contract quantity 仍有独立 delivery ramp，不能写成已经 full delivered / energized / utilized；[^11]
 - Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035；[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI：initial **4.25 IT-GW design capacity**，属于 secured LPS / future phased buildout，计划从 **calendar 2028** 开始分阶段上线；NVIDIA Q2 filing 将第一阶段描述为预计在 **FY2029** 交付。[^2][^13]
 
@@ -354,12 +354,12 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 [^2]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^3]: TSMC, 2025 Annual Report, https://investor.tsmc.com/static/annualReports/2025/english/index.html
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
-[^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf ; Micron Technology, FY25 Form 10-K, HBM requires more wafers / cleanroom space for the same bits at the same technology node, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+[^5]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E wafer-supply trade ratio, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf ; Micron Technology, FY25 Q2 Prepared Remarks, HBM trade ratio expected to rise with HBM4 and HBM4E expected to exceed 4:1, https://investors.micron.com/static-files/52ce0c07-49dc-4eab-b1d2-a67bde373bca ; Micron Technology, FY25 Form 10-K, HBM requires more wafers / cleanroom space for the same bits at the same technology node, https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
 [^6]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 [^8]: TSMC, 2Q26 Earnings Conference Transcript, advanced-packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^9]: TrendForce, 2025 CoWoS demand structure, NVIDIA estimated >60%, B-grade institutional estimate, https://www.trendforce.com/research/download/RP250314ZJ
-[^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
-[^11]: Talen Energy, 2026 Q2 Form 10-Q and 2025 Form 10-K, revised AWS PPA state and ramp, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
+[^10]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs ; Constellation Q3 2024 results, approximately US$1.6B of cash from operations estimated for restart capital expenditures and 2028 in-service estimate, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2024-results
+[^11]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition occurred in April 2026 and full contract quantity up to 1,920 MW, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Talen Energy 2025 Form 10-K, superseded prior spring-2027 transition expectation and original delivery-ramp context to full volume no later than 2032, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 
 [^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
