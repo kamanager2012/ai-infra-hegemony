@@ -5,7 +5,7 @@
 **Structural industry outlook on system-stack competition, semiconductor allocation, HBM, advanced packaging, power, capital formation, and end-market transmission**
 
 **Evidence cutoff:** August 28, 2026  
-**Edition revision:** August 31, 2026  
+**Edition revision:** September 3, 2026  
 **Status:** publication-layer brief derived from the frozen 32-chapter canonical English report. It does not introduce a second analytical edition or new factual claims.
 
 ---
