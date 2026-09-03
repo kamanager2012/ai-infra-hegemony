@@ -20,6 +20,8 @@
 
 Stanford AI Index 2026 汇总的 2025 年组织调查显示，**88%** 的受访组织表示其组织至少在一个业务功能中使用 AI，**79%** 表示至少在一个业务功能中 regular use Generative AI。完整 Chapter 4 同时显示：按跨业务功能的 aggregate 看，scaled AI-agent use 在**几乎所有 business functions 中仍处 single digits**；但具体 industry/function pair 可以明显更高，例如 technology sector 的 **software engineering 24%、IT 22%、service operations 21%**。[^3]
 
+这批底层调查数据属于 **self-reported evidence**。Stanford 明确要求将其视为 **directional rather than comprehensive**：它反映受访者报告的 organizational use / deployment stage，不是独立观测到的 production telemetry，也不能直接等同于 verified workflow utilization。
+
 这组数据的意义不是给“Agent 经济”下一个固定渗透率结论，而是提供当前阶段定位：
 
 > **AI adoption 已广泛发生，但从 assistant / feature use 走向可长期运行的 autonomous or semi-autonomous workflow，仍处于早期扩散阶段。**
@@ -222,7 +224,7 @@ AI 正在把一部分 software 从低边际成本复制品变成实时消耗 com
 
 [^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
 [^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
-[^3]: Stanford HAI, “2026 AI Index Report — Economy,” full Chapter 4 / Figures 4.3.1, 4.3.7 and 4.3.8, based on McKinsey's 2025 organizational survey: 88% AI use and 79% regular Generative-AI use in at least one business function; scaled AI-agent use is in the single digits across nearly all business functions in the aggregate, while the technology sector reaches 24% in software engineering, 22% in IT, and 21% in service operations. The chapter-highlight webpage separately prints 70% for GenAI, so this report follows the full chapter figure/text rather than that inconsistent highlight, https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” full Chapter 4 / Figures 4.3.1, 4.3.7 and 4.3.8, based on McKinsey's 2025 organizational survey: 88% AI use and 79% regular Generative-AI use in at least one business function; scaled AI-agent use is in the single digits across nearly all business functions in the aggregate, while the technology sector reaches 24% in software engineering, 22% in IT, and 21% in service operations. Stanford also states that the survey results are self-reported and should be viewed as directional rather than comprehensive. The chapter-highlight webpage separately prints 70% for GenAI, so this report follows the full chapter figure/text rather than that inconsistent highlight, https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, long-running agentic tasks and the relationship between compute use and estimated artifact value; first-party product sample, https://www.anthropic.com/research/economic-index-june-2026-report
 
 ## 交叉引用

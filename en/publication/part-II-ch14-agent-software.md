@@ -20,6 +20,8 @@ toward:
 
 Stanford AI Index 2026 summarizes organizational survey evidence collected in 2025: **88% of respondents say their organization uses AI in at least one business function**, while **79% say their organization regularly uses Generative AI in at least one function**.[^3] The same chapter shows that **scaled AI-agent use remains in the single digits across nearly all business functions in the cross-function aggregate**, while specific industry/function pairs can be materially higher: in the technology sector, scaled use reaches **24% in software engineering, 22% in IT, and 21% in service operations**.[^3]
 
+The underlying survey evidence is **self-reported**. Stanford explicitly says these results should be viewed as **directional rather than comprehensive**; they measure reported organizational use and deployment stage, not independently observed production telemetry or verified workflow utilization.
+
 The correct reading is not a fixed penetration forecast, but a stage-of-market distinction:
 
 > **Broad AI adoption has already occurred, while production-grade autonomous or semi-autonomous workflow deployment is still early.**
@@ -236,7 +238,7 @@ The dividing line is:
 
 [^1]: Google Cloud, “Ironwood TPU,” https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/
 [^2]: Amazon Web Services, “Amazon EC2 Trn3 UltraServers,” https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/
-[^3]: Stanford HAI, “2026 AI Index Report — Economy,” full Chapter 4 / Figures 4.3.1, 4.3.7 and 4.3.8, based on McKinsey's 2025 organizational survey: 88% AI use and 79% regular Generative-AI use in at least one business function; scaled AI-agent use is in the single digits across nearly all business functions in the aggregate, while the technology sector reaches 24% in software engineering, 22% in IT, and 21% in service operations. The chapter-highlight webpage separately prints 70% for GenAI, so this report follows the full chapter figure/text rather than that inconsistent highlight, https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
+[^3]: Stanford HAI, “2026 AI Index Report — Economy,” full Chapter 4 / Figures 4.3.1, 4.3.7 and 4.3.8, based on McKinsey's 2025 organizational survey: 88% AI use and 79% regular Generative-AI use in at least one business function; scaled AI-agent use is in the single digits across nearly all business functions in the aggregate, while the technology sector reaches 24% in software engineering, 22% in IT, and 21% in service operations. Stanford also states that the survey results are self-reported and should be viewed as directional rather than comprehensive. The chapter-highlight webpage separately prints 70% for GenAI, so this report follows the full chapter figure/text rather than that inconsistent highlight, https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, long-running agentic tasks and the relationship between compute use and estimated artifact value; first-party product sample, https://www.anthropic.com/research/economic-index-june-2026-report
 
 ## Cross-references
