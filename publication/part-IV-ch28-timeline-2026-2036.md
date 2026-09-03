@@ -20,7 +20,7 @@
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**；
 - GAAP gross margin **75.0%**；
 - NVIDIA 将 Vera Rubin 描述为 **ramping into full production**；FY27 Q2 Form 10-Q 另说明 production shipments 已在 FY27 Q3 开始；[^1]
-- manufacturing, supply, and capacity commitment family 由 2026-01-25 **US$95.2B** → 2026-04-26 **US$119B** → 2026-07-26 **US$279B**；各报告时点底层 mix 与 duration 并不完全相同；
+- **forward supply / capacity commitment family** 由 2026-01-25 **US$95.2B** → 2026-04-26 **US$119B** → 2026-07-26 **US$279B**；各报告时点的 disclosure label、底层 mix 与 duration 并不完全相同；
 - TSMC advanced-packaging tightness 仍限制 customer growth；[^7]
 - 四大云厂公开资本投入指标仍处高位，但必须保留各自 actual / guidance / expectation 身份；[^8]
 - power / LPS project 已出现约 835 MW、up to 1,920 MW、up to 500 MWe，以及 PORTS-Pike initial 4.25 IT-GW design capacity 等不同成熟度路径；[^9]

@@ -32,7 +32,7 @@ This is a structured research-update process, not an automated trading model. Th
 **Source:** NVIDIA FY26 results, FY27 Q2 results, and FY27 Q2 Form 10-Q.[^1][^2]  
 **Note:** Company-defined non-GAAP FCF and GAAP metrics retain their respective identities; aggregate commitments have no disclosed supplier-level split.
 
-Manufacturing / supply / capacity commitment family:[^2]
+Forward supply / capacity commitment family:[^2]
 
 - 2026-01-25: US$95.2B;
 - 2026-04-26: US$119B;

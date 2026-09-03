@@ -20,7 +20,7 @@ Current confirmed anchors include:[^1][^2][^3][^4][^5][^6]
 - NVIDIA FY27 Q2 Data Center revenue **US$89.0B**;
 - GAAP gross margin **75.0%**;
 - NVIDIA described Vera Rubin as **ramping into full production**; the FY27 Q2 Form 10-Q separately states that production shipments began in Q3 FY27;[^1]
-- the disclosed manufacturing / supply / capacity commitment family rising from **US$95.2B** on 2026-01-25 → **US$119B** on 2026-04-26 → **US$279B** on 2026-07-26, while the underlying mix and duration are not identical across reporting dates;
+- the disclosed **forward supply / capacity commitment family** rising from **US$95.2B** on 2026-01-25 → **US$119B** on 2026-04-26 → **US$279B** on 2026-07-26, while the underlying disclosure label, mix, and duration are not identical across reporting dates;
 - TSMC advanced-packaging tightness still limiting customer growth;[^7]
 - public capital-spending metrics for the four major clouds remaining elevated, while retaining their different actual / guidance / expectation identities;[^8]
 - power / LPS projects appearing at different maturity states with scales around 835 MW, up to 1,920 MW, up to 500 MWe, and PORTS-Pike initial **4.25 IT-GW design capacity**;[^9]
