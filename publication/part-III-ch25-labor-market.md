@@ -28,6 +28,12 @@ Stanford AI Index 2026 汇总的美国数据指出，**22–25 岁 software deve
 - 它可能同时受 hiring cycle、宏观环境、毕业生供给与企业组织调整影响；
 - 它不能被直接改写成“AI 已导致软件工程岗位下降 20%”或“全行业将下降 20%”。
 
+Stanford Digital Economy Lab 在 2026-08-12 发布的直接更新，使用覆盖数百万美国劳动者、截至 2026 年 6 月的 ADP 高频 payroll data，对这一信号给出了更精确的机制拆分。[^5] 结果显示：**22–25 岁、处于高 AI exposure occupations 的劳动者，其就业水平相对于同龄低 exposure occupations 的对应路径约低 19%**；experienced workers 没有出现同等级缺口。更重要的是，这一分化主要通过 **reduced hiring，而不是 increased separations** 发生；研究同时没有发现 widespread economy-wide job displacement。[^5]
+
+这与前面 AI Index 汇总的 software-developer series 不是同一个 denominator，不能把两组“接近 20%”的数字当成同一统计量重复计算。
+
+作者明确把这些 payroll patterns 定义为 **early descriptive indicators，而不是 causal estimates**。因此，这条证据强化的是 hiring-pipeline mechanism，而不是证明“AI 单独导致了 19% 的就业下降”。
+
 Anthropic 2026 Economic Index 的用户调查又提供了另一类早期信号：更偏 automation 使用方式的受访者，往往预期 AI 在未来 12 个月能够承担更多工作任务。[^4] 但 Anthropic 明确说明该调查并不代表总体人口，computer/mathematical 与 management occupations 在样本中明显过度代表。
 
 因此，2026 年更稳健的结论仍然是：
@@ -130,7 +136,7 @@ agent-native workflow 可能减少部分 coordination work。
 
 ## 12. Current Read
 
-截至 2026 年，已有足够证据说明 AI 正在重构任务，但没有足够跨国证据支持一个统一“全经济岗位消失率”。
+截至 2026 年，已有足够证据说明 AI 正在重构任务，而且高 exposure occupations 的 early-career hiring pipeline 已出现可观测分化；但现有证据仍不足以把该分化全部归因于 AI，也不足以支持一个统一“全经济岗位消失率”。
 
 正式判断顺序应始终是：
 
@@ -144,3 +150,6 @@ agent-native workflow 可能减少部分 coordination work。
 [^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
 [^3]: Stanford HAI, “2026 AI Index Report — Economy,” early-career software-developer employment and employer workforce expectations, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, reported and anticipated task exposure by Claude users; survey explicitly not representative of the general population, https://www.anthropic.com/research/economic-index-june-2026-report
+
+
+[^5]: Erik Brynjolfsson, Bharat Chandar, Ruyu Chen, “Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence,” Stanford Digital Economy Lab, revised 2026-08-12；使用截至 2026 年 6 月的 ADP payroll data。作者明确将结果表述为 early descriptive indicators，而非 causal estimates，https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/
