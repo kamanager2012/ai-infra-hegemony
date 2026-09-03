@@ -8,7 +8,7 @@ Chapter 1 already provides the report's eight load-bearing findings as the reade
 
 ### Test A — Has system power become irreplaceable multi-layer control?
 
-Not yet. A small number of system platforms, especially NVIDIA, combine strong system coordination, software switching costs, supply commitments, and capital formation capacity. But delivery still depends on external foundry, HBM, advanced packaging, networking, and power. Strong platform power is not the same as control of every physical layer.
+Not yet. A small number of system platforms, especially NVIDIA, combine strong system coordination, software switching costs, supply commitments, and capital formation capacity. But delivery still depends on external foundries, HBM, advanced packaging, networking, and power. Strong platform power is not the same as control of every physical layer.
 
 ### Test B — Has AI/HPC resource absorption already forced structural exit across traditional end markets?
 
@@ -70,7 +70,7 @@ These numbers do not mean all HPC is AI, and they do not prove that Apple, Qualc
 
 They support the narrower conclusion that:
 
-> **High-growth HPC/AI workloads are materially influencing the direction of incremental advanced-manufacturing capital formation.**
+> **High-growth AI/HPC workloads are materially influencing the direction of incremental advanced-manufacturing capital formation.**
 
 Memory shows the same structural shift. Micron disclosed that, under same-node / same-bit conditions, HBM3E requires approximately **3× the wafer supply of DDR5**.[^2] TrendForce forecasts that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply**.[^3]
 
@@ -142,7 +142,7 @@ This produces two effects that point in different directions:
 
 Custom-silicon success therefore does not by itself mean upstream scarcity disappears.
 
-AMD now adds a different external-system path. By the August 28, 2026 cutoff, AMD described **Helios rackscale solutions as in production**; Meta had a definitive agreement for **up to 6 GW** of AMD Instinct systems with first-gigawatt shipments scheduled from **2H26**; Anthropic had committed to **up to 2 GW** with first-gigawatt deployment beginning in **1H27**; and Microsoft had announced Helios deployment on Azure.[^17][^18][^19][^20] This is materially stronger than roadmap evidence, but it is still deployment / shipment commitment evidence rather than measured production-workload share or realized utilization.
+AMD now adds a different external-system path. By the August 28, 2026 evidence cutoff, AMD described **Helios rackscale solutions as in production**; Meta had a definitive agreement for **up to 6 GW** of AMD Instinct systems with first-gigawatt shipments scheduled from **2H26**; Anthropic had committed to **up to 2 GW** with first-gigawatt deployment beginning in **1H27**; and Microsoft had announced Helios deployment on Azure.[^17][^18][^19][^20] This is materially stronger than roadmap evidence, but it is still deployment / shipment commitment evidence rather than measured production-workload share or realized utilization.
 
 The long-run variables that matter are:
 
