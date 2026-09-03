@@ -148,6 +148,8 @@ customer concentration 与 contract duration 必须与 useful life 一起看。
 
 来融资。
 
+risk-transfer layer 现在已经出现 cross-vendor evidence。NVIDIA FY27 Q2 Form 10-Q 对 PORTS-Pike lease guarantees 的 aggregate obligations 设定 **US$105B** 上限，覆盖约 **4.25 GW IT load** 的 leases；AMD Q2 2026 Form 10-Q 则披露，与部分 commercial-partner data-center lease obligations 相关 guarantees 的 **maximum gross exposure 为 US$4.1B**。[^11][^12] 两个数字都是 maximum guarantee exposure，不是 funded CapEx、当前 cash outflow 或 realized loss，因此不能机械加进 infrastructure investment total。
+
 这会改变 depreciation、interest、lease expense、residual-value risk 出现在哪一家公司的报表里。
 
 但它不会改变一条基本关系：
@@ -196,3 +198,7 @@ customer concentration 与 contract duration 必须与 useful life 一起看。
 [^8]: Microsoft, FY26 Q4 earnings conference call, operating-lease / CapEx classification change and approximately US$175B calendar-2026 CapEx expectation, https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
 [^9]: NVIDIA, 2026-08-10, announced compute-financing partnerships / MOUs targeting more than US$500B of third-party capital mobilization over time, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^10]: NVIDIA, 2026-08-17, PORTS-Pike seller credit support / equity / long-duration customer structure, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^11]: NVIDIA Corporation, FY27 Q2 Form 10-Q, PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, phased effectiveness across nine data centers with the first phase expected in FY2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^12]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
