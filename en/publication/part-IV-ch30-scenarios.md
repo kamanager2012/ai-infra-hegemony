@@ -109,7 +109,7 @@ Typical conditions include:
 - cloud custom systems divert only part of the workload;
 - powered land / firm MW are locked for long periods by a small set of buyers;
 - Anchor Buyer and seller forward commitments continue expanding;
-- infrastructure finance continues absorbing long-duration capital while workload monetization remains sufficient to support the associated commitments.
+- infrastructure finance continues to absorb long-duration capital while workload monetization remains sufficient to support the associated commitments.
 
 ### Reinforcement mechanism
 
@@ -161,7 +161,7 @@ After capital clearing, cheaper compute can still stimulate new applications.
 |---|---|---|---|
 | S1 — Competitive Expansion | higher supply elasticity, multi-sourcing, and portability | more distributed value capture and greater buyer optionality | scarce-layer tightness strengthens again or migration costs rise |
 | S2 — Baseline Concentration | strong demand, strong leading platforms, substitution develops but remains incomplete | high growth and concentration coexist | supply/substitution improve materially or ROI/commitments deteriorate together |
-| S3 — Resource Hegemony | multi-layer scarcity + switching costs + forward reservation strengthen | incremental capacity becomes more concentrated and replication costs rise | capacity access broadens and open interfaces materially lower migration costs |
+| S3 — Resource Hegemony | multi-layer scarcity + concentrated quantity assurance / delivery access + switching costs + financing coordination strengthen while monetization supports long-duration commitments | scarce-capacity access becomes more concentrated and replication costs rise | capacity access broadens, financing dependence falls, and open interfaces materially lower migration costs |
 | S4 — Capital Hard Landing | utilization / monetization and demand-financing quality fall short of the capital base | clearing prices, orders, CapEx, asset values, and financing quality weaken | utilization, clearing prices, independent financing, and forward commitments recover |
 
 **Source:** Report S1–S4 scenario framework.  
@@ -252,7 +252,7 @@ Model-company contracts therefore should not be treated as ordinary cloud-custom
 
 Seller-assisted financing can strengthen infrastructure formation when it is supported by real utilization, monetization, and independent capital.
 
-It becomes an S4 risk amplifier when customer cash generation weakens while supplier equity / credit support and refinancing dependency keep increasing.
+It becomes an S4 risk amplifier when customer cash generation weakens while supplier equity / credit support and refinancing dependency continue to increase.
 
 Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity**, rather than treating every financing-supported order as either fully organic or automatically artificial.
 
@@ -263,7 +263,7 @@ Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity
 - access to advanced capacity becomes more distributed;
 - open software / interfaces reduce migration cost materially;
 - power expansion shortens Time-to-Power;
-- buyer multi-sourcing becomes normal production practice.
+- buyer multi-sourcing becomes standard production practice.
 
 ## 9. Signals that move S2 toward S3
 
@@ -306,7 +306,7 @@ As of August 2026, the baseline is:
 because:
 
 - NVIDIA / leading-platform seller economics remain strong;[^1]
-- HBM remains structurally resource-intensive, while advanced packaging remains a currently evidenced bottleneck;[^2][^3]
+- HBM remains structurally resource-intensive, while advanced packaging remains an evidenced current bottleneck;[^2][^3]
 - cloud custom systems are real alternative systems, while public product evidence alone does not establish comprehensive frontier-workload substitution;[^4]
 - seller forward supply / capacity commitments remain high;[^5]
 - power is a separate deployment constraint that must be monitored through rack density, grid/interconnection, and delivery-state evidence;[^6]
