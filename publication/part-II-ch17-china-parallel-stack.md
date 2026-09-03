@@ -28,7 +28,7 @@ TSMC 2025 platform mix 仍显示 smartphone 占全年 platform revenue **29%**�
 
 Huawei / HiSilicon 的独特优势更适合描述为：**高端自有终端 + 自研 SoC + 自有软件/生态的 vertical closed loop 更成熟**，而不是“唯一有量”。
 
-Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；[^3] Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**，新一代 O3 继续采用 TSMC 3 nm，首发产品预计 200k–300k units。[^4]
+Xiaomi 也已经跨过纯 demo 阶段。Xinhua 2025-05 报道 XRing O1 已进入 mass production 并搭载 Xiaomi 15S Pro / Pad 7 Ultra；[^3] Reuters 2026-08 又报道 O1 已覆盖 **超过 1M devices**。同一报道援引知情人士称，下一代 O3 **计划**采用 TSMC 3 nm；其中一名来源称，首个 foldable-phone application 的 shipment target 为 **200k–300k units**。[^4]
 
 这意味着“Xiaomi 只有20–30万片边角料、只是品牌秀”不能作为事实层。更准确的判断是：
 
@@ -42,11 +42,11 @@ UNISOC 则代表另一种 commercial loop：它在大众/入门与 entry-5G 市�
 
 > **“国产设计”不等于“制造自主”，shipment share 也不能替代 foundry continuity。**
 
-UNISOC 是 fabless 设计公司。其公开产品资料能够确认多款当前 5G SoC 使用 **6nm EUV**；其中 UNISOC 官方 M6870 产品页更直接标注为 **TSMC 6nm EUV**。[^19] UNISOC / Spreadtrum 与 TSMC 的代工合作也有长期一手记录：TSMC 2011 年即披露 Spreadtrum 40nm baseband 在其 Fab 12 进入 initial production。[^20]
+UNISOC 是 fabless 设计公司。其公开资料支持的 manufacturing statement 必须比“6 nm EUV smartphone SoC”更窄：M6870 high-end display / VR platform 明确标注 **TSMC 6nm EUV**，而 T9100 smartphone SoC 只披露 **6nm process**，没有在该产品页标注 foundry identity，也没有说明该 process 为 EUV。[^19][^21] UNISOC / Spreadtrum 与 TSMC 的代工合作还有长期一手记录：TSMC 2011 年披露 Spreadtrum 40nm baseband 在其 Fab 12 进入 initial production。[^20]
 
 但这些证据并不支持进一步扩写成“UNISOC 全部产品均由 TSMC 生产”。例如，T9100 官方页面确认的是 **6nm process**，并未在该产品页直接披露 foundry identity。[^21] 因此，当前能够安全写下的判断是：
 
-> **UNISOC 的 14% smartphone AP-SoC shipment share 证明了真实商业设计与出货规模，但不能证明 domestic foundry closure；其公开产品与历史供应链证据显示 TSMC 是重要 manufacturing dependency，foundry continuity 必须作为独立 gate 评估。**
+> **UNISOC 证明了真实 commercial design capability，但公开产品证据并不能证明 domestic foundry closure；foundry identity 与 continuity 必须作为独立 gate 评估。**
 
 Xiaomi XRing 的情况更直接：本章已经引用的 Reuters 来源明确指出其量产与 TSMC 制造合作。[^4] 因此，Xiaomi 的自研 SoC 同样属于“design capability 已成立，但 manufacturing autonomy 不能由此推出”的案例。
 

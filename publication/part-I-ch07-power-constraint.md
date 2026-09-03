@@ -20,7 +20,7 @@
 
 AI power project 至少要区分：
 
-> **Announced → Contracted → Permitted → Construction / Transition → Energized → Utilized**
+> **Announced → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized**
 
 这些状态不能互换。
 
@@ -50,6 +50,8 @@ Microsoft 与 Constellation 的 **20 年 PPA** 支持原 Three Mile Island Unit 
 这一案例说明，大型 AI / cloud demand 已经能够通过长期购电承诺影响大型 generation asset 的资本决策。
 
 但 835 MW 是项目容量锚，不代表 835 MW 已经实时送达 AI data center。
+
+Constellation 官方公告只表示重启需要 significant investment，**并未披露 US$1.6B restart CapEx**；因此该数字不进入本章 fact layer。
 
 真正决定经济价值的是：
 

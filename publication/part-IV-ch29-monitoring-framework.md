@@ -21,7 +21,7 @@
 | 指标 | 当前公开值 |
 |---|---:|
 | FY26 Revenue | US$215.938B |
-| FY26 Data Center | US$193.737B |
+| FY26 Data Center | US$193.7B |
 | FY26 NVIDIA-defined non-GAAP FCF | US$96.575B |
 | FY27 Q2 Revenue | US$96.221B |
 | FY27 Q2 Data Center | US$89.0B |
@@ -119,7 +119,7 @@ Microsoft、Amazon、Alphabet、Meta 必须逐家公司保存：
 - Microsoft / Constellation：~835 MW restart PPA；[^10]
 - Talen / AWS：up to 1,920 MW revised PPA；April-2026 transition status 不能写成 full physical delivery complete；[^11]
 - Google / Kairos：Hermes 2 up to 50 MWe in 2030，fleet up to 500 MWe by 2035；[^12]
-- PORTS-Pike / NVIDIA / SB Energy / OpenAI：initial 4.25 IT-GW design capacity，属于 secured LPS / future phased buildout，计划从 2028 年开始分阶段上线。[^13]
+- PORTS-Pike / NVIDIA / SB Energy / OpenAI：initial **4.25 IT-GW design capacity**，属于 secured LPS / future phased buildout，计划从 **calendar 2028** 开始分阶段上线；NVIDIA Q2 filing 将第一阶段描述为预计在 **FY2029** 交付。[^2][^13]
 
 真正需要更新的是：每个项目从 secured / contracted 向 construction、energized、utilized 的实际转换速度，而不是公布容量本身。
 

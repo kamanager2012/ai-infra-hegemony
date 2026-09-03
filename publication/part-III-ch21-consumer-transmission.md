@@ -88,7 +88,7 @@ Counterpoint 2026H1 的数据提供了更直接的终端证据：[^7]
 - MediaTek 与 Qualcomm shipments 均同比下降 **>25%**；
 - 2Q26 smartphone memory prices 同比上涨 **>300%**；
 - GenAI smartphone SoC shipments 同比 **+24%**；
-- UNISOC 在低成本 segment 继续扩大份额。
+- UNISOC 在这一时期扩大 market share；Counterpoint 将其 H1 2026 的部分增长与 entry-level 机型为降低 BOM 而转向 UNISOC 4G platform 联系起来，同时也指出其 5G adoption 正在推进。
 
 这意味着同一轮上游压力会产生不同结果：
 
@@ -191,7 +191,7 @@ NVIDIA FY26 10-K 表示 FY26 Gaming revenue 同比 **+41%**，同时预计 suppl
 
 而不是直接导致市场停产。
 
-IDC 2026-06 的 PC outlook 进一步预计，2026 global PC shipments 同比 **-11.3%**，PC ASP 同比 **+18.3%**，且在 2027 年底以前看不到 memory shortage 的实质性缓解。[^31] 这仍然是 forecast，不应写成未来已确定，但它强化了同一个方向：**厂家必须同时处理更高系统成本、更弱 unit demand 与更难维持的完整 product portfolio。**
+IDC 2026-06 的 PC outlook 进一步预计，2026 global PC shipments 同比 **-11.3%**，PC ASP 同比 **+17%**，且在 2027 年底以前看不到 memory shortage 的实质性缓解。[^31] 这仍然是 forecast，不应写成未来已确定，但它强化了同一个方向：**厂家必须同时处理更高系统成本、更弱 unit demand 与更难维持的完整 product portfolio。**
 
 本报告把这种影响称为**升级税**：
 
@@ -274,7 +274,7 @@ Sony 2026 年 20-F 还把自 2025H2 以来的全球 memory semiconductor 涨价�
 TrendForce 对 2026 游戏主机市场的机构预测进一步估计：
 
 - 2026 global game-console shipment forecast 从原先 **-3.5% YoY** 下修到 **-4.4% YoY**；
-- 主要主机的 memory cost 占 BOM 比例，从过去约 **15%** 上升到大约 **23%–42%**；
+- **Switch 2** 的 memory module 预计约占 2026 hardware cost 的 **21%–23%**；Sony 与 Microsoft consoles 的 memory cost 预计在 2026 年超过 **35% of BOM**；
 - hardware gross margin 与传统促销空间因此承压。[^28]
 
 这属于 **B 级 institutional estimate**，不能升级成 Sony / Microsoft / Nintendo 已审计的实际 BOM。

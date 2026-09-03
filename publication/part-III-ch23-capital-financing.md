@@ -44,7 +44,7 @@ AI infrastructure finance 已经覆盖 equity、private infrastructure、project
 
 ## 1B. 历史类比必须有 Contract-Level Evidence
 
-vendor assistance、SPV、private credit 或 off-balance-sheet structure，确实可能让人联想到历史上的其他 infrastructure cycle；但“看起来像”不足以把当前 AI buildout 定性成 2000 年电信泡沫或 2008 年 securitization cycle 的重演。
+vendor assistance、SPV、private credit 或 off-balance-sheet structure，确实可能让人联想到历史上的其他 infrastructure cycle；但“看起来像”不足以把当前 AI buildout 定性成历史电信泡沫或 2008 年 securitization cycle 的重演。
 
 要做严谨历史类比，至少需要看到：
 

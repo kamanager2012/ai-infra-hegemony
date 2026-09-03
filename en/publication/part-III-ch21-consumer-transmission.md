@@ -72,7 +72,7 @@ Counterpoint's H1 2026 data provides a more direct view of the pressure:[^7]
 - MediaTek and Qualcomm shipments: both **down more than 25% YoY**;
 - Q2 2026 smartphone memory prices: **up about 300% YoY**;
 - GenAI smartphone SoC shipments: **+24% YoY**;
-- UNISOC gained market share in the period; the cited source does not attribute that gain specifically to a low-cost segment.
+- UNISOC gained market share in the period; Counterpoint links part of its H1 2026 growth to entry-level models migrating to UNISOC 4G platforms to reduce BOM cost, while also noting progress in 5G adoption.[^7]
 
 The result is **segmentation and restructuring rather than uniform collapse**: entry/mid-range devices are more exposed to memory/BOM pressure, premium/GenAI devices are relatively more resilient, and lower-cost SoC paths can gain share.
 

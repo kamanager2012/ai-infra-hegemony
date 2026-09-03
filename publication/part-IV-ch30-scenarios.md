@@ -231,7 +231,7 @@ export control、antitrust remedy、interface openness、industrial policy、reg
 
 大型 model companies 的多年 compute commitments 已经可以影响 infrastructure financing、custom silicon、power 与 data-center buildout。
 
-但 2026 年的新变化是，system seller 也开始通过 equity、credit enhancement、LPS support 与 compute-financing platforms 参与资本形成。[^7][^8]
+2026 年的 financing layer 已经有 first-party disclosure：NVIDIA 公布的 compute-financing platforms 目标是随时间动员 **超过 US$500B third-party capital**，PORTS-Pike 又在 initial **4.25 IT-GW design capacity** 周围加入 seller credit support。[^7][^8]
 
 因此需要同时观察两个方向：
 

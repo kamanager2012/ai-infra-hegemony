@@ -79,7 +79,7 @@
 
 要看已公布的 contracted / secured capacity 有多少真正转化为 energized、utilized capacity，以及 Time-to-Power 是否仍决定 site selection。
 
-PORTS-Pike 的公开计划是从 **2028 年开始分阶段上线**，因此它是 Phase II 检验“secured LPS 是否真正变成 deployable compute”的重要观察点，而不是 Phase I 的已运行容量。[^9]
+PORTS-Pike 的公开计划是从 **calendar 2028** 开始分阶段上线；NVIDIA FY27 Q2 Form 10-Q 又把第一阶段描述为预计在 **fiscal 2029** 交付。[^2][^9] 这两个 time identity 可以同时成立。因此，它是 Phase II 检验“secured LPS / future IT-GW design capacity 是否真正变成 deployable compute”的重要观察点，而不是 Phase I 的已运行容量。
 
 ## 4. Phase III：2031–2033 — Geography 与 Industrial Structure 可能固化
 

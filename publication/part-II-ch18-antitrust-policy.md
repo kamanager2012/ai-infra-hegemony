@@ -33,7 +33,7 @@ AI platform power 可以同时分布在 accelerator、interconnect、compiler/ru
 
 ## 3. 10% Turnover Ceiling 不是 Fine Forecast
 
-EU Regulation (EC) No 1/2003 Article 23(2) 规定，相关罚款不得超过 undertaking 前一营业年度 total turnover 的 **10%**。[^1]
+**Council Regulation (EC) No 1/2003 of 16 December 2002** Article 23(2) 规定，相关罚款不得超过 undertaking 前一营业年度 total turnover 的 **10%**。[^1]
 
 这是一条法定 ceiling，不是：
 
@@ -99,7 +99,7 @@ merger control 可以阻止关键中间层进一步被纳入同一控制体系�
 
 ## 7.5 Hugging Face reported transaction：Merger Control 可能延伸到 Developer-Distribution Foreclosure Risk
 
-2026-08-27，Reuters 转述 The Information 报道，NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^5]截至 2026-08-28，尚无双方正式 closing / merger approval 公告，因此该事项不被写成已完成交易。
+2026-08-27，Reuters 援引 The Information **报道** NVIDIA 已同意以约 **US$12.9B** 收购 Hugging Face。[^5]截至 2026-08-28，本报告未识别到 NVIDIA 或 Hugging Face 的 first-party transaction announcement。因此该事项只作为 **reported transaction** 处理，不能写成 first-party-confirmed transaction，更不能写成已完成 acquisition。
 
 如果交易最终完成，其竞争政策意义并不主要来自“又买了一家软件公司”，而在于一个已经拥有 accelerator、CUDA/runtime、networking 与 system stack 的平台，可能进一步控制开放模型生态中的重要 **discovery / distribution / tooling / deployment gateway**。
 

@@ -85,7 +85,7 @@ PTX 的作用尤其重要：NVIDIA 官方将 PTX 描述为跨多代 GPU 的 **st
 | FY26 Data Center revenue | US$193.737B |
 | FY26 NVIDIA-defined non-GAAP free cash flow | US$96.575B |
 | FY27 Q2 revenue | US$96.221B |
-| FY27 Q2 Data Center revenue | US$89.0B |
+| FY27 Q2 Data Center revenue | US$89.023B |
 | FY27 Q2 GAAP gross margin | 75.0% |
 | FY27 Q2 GAAP operating income | US$63.734B |
 | 2026-07-26 manufacturing, supply, and capacity commitments | US$279B |

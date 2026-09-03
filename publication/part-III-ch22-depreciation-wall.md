@@ -40,7 +40,7 @@ AI infrastructure 的根本错配是：
 
 ## 4. Clearing 沿 Asset-Duration Stack 传播
 
-最先调整的通常是：
+本报告把下面的顺序作为 **duration-stack clearing heuristic**，不是具有固定跨行业时序分布的经验定律：
 
 1. next-generation hardware orders；
 2. inventory；
@@ -55,6 +55,8 @@ AI infrastructure 的根本错配是：
 
 同样规模的基础设施投资，在高利用率和低利用率条件下会产生完全不同的资本回报。
 
+作为 **D-grade sensitivity example**，同一笔 **US$100B** 投资在 **90%** utilization 与 **30%** utilization 下会呈现完全不同的 economics。US$100B、90% 与 30% 都是 illustrative inputs，不是行业 actual。
+
 分析必须同时观察：
 
 > **Revenue / Deployed Compute**
@@ -67,7 +69,7 @@ AI infrastructure 的根本错配是：
 
 ## 6. Market-Clearing Price 可以更早暴露 Economic Depreciation
 
-used accelerator / system price、cloud lease rate 与 delivery lead time 可以早于 impairment 反映 generation obsolescence 和 oversupply。
+本章把 used accelerator / system price、cloud lease rate 与 delivery lead time 视为需要监测的 **leading market-clearing indicators**，用于观察 generation obsolescence 与 oversupply；并不主张存在一条已经验证的历史定律，认为这些指标一定先于 formal impairment 变化。
 
 如果新一代系统上线后旧一代 residual value 快速下跌，买方经济折旧会明显快于 accounting depreciation。
 

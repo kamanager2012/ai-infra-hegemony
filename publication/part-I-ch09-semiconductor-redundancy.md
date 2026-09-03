@@ -19,7 +19,7 @@ Frontier AI 的 supply security 不能从一张 fab 地图或相关企业的国�
 
 ## 2. Equipment 本身就是 System-Level Capability
 
-ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；截至 2025 年末，High-NA TWINSCAN EXE 仍主要处在客户 qualification 与 production-readiness 推进阶段。[^1]
+ASML 2025 Annual Report 披露全年销售 **48 台 EUV lithography systems**；截至 2025 年末，客户已在 High-NA systems 上运行超过 **400,000 wafers**，同时 qualification 仍在推进。[^1]
 
 但状态已经在 2026 年进一步前移。2026-07-15，ASML 与 Intel Foundry 官方确认：Intel 已在 **Intel 18A 的特定 layers** 上 dual-qualify High-NA EUV，并使用 High-NA 生产部分 Panther Lake / Intel Core Ultra Series 3 产品；这些产品已经进入 high-volume manufacturing，并以与 NXE platform 匹配的 yield 出货。[^8]
 
