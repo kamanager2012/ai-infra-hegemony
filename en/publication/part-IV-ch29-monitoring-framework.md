@@ -42,7 +42,7 @@ The underlying mix and duration are not identical across reporting dates, so the
 
 These metrics test whether the system seller still has sufficient cash generation and forward-commitment capacity to reserve next-generation scarce resources.
 
-The US$279B figure does not contain a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
+The US$279B figure does not provide a supplier-level split and cannot be converted into TSMC or HBM-vendor revenue.[^2]
 
 ## 3. Dashboard B — Foundry / packaging
 
@@ -127,7 +127,7 @@ Non-comparable accounting definitions must not be mechanically added into an off
 Representative current paths include:
 
 - Microsoft / Constellation: ~835 MW restart PPA; Constellation's Q3 2024 results estimate approximately **US$1.6B of cash from operations for restart CapEx** and a **2028** in-service date;[^10]
-- Talen / AWS: up to 1,920 MW revised PPA; the 2026 Q2 filing states transition occurred in **April 2026**, superseding the earlier spring-2027 transition expectation as the current state marker. Full contract quantity still sits on a separate delivery ramp and must not be rewritten as fully delivered / energized / utilized;[^11]
+- Talen / AWS: up to 1,920 MW revised PPA; the 2026 Q2 filing states that transition occurred in **April 2026**, superseding the earlier spring-2027 transition expectation as the current state marker. The full contract quantity remains on a separate delivery ramp and must not be treated as fully delivered / energized / utilized;[^11]
 - Google / Kairos: Hermes 2 up to 50 MWe in 2030; fleet up to 500 MWe by 2035;[^12]
 - PORTS-Pike / NVIDIA / SB Energy / OpenAI: initial **4.25 IT-GW design capacity**, representing secured LPS / future phased buildout with delivery planned to begin in **calendar 2028**; NVIDIA's Q2 filing describes the first phase as expected in **FY2029**.[^2][^13]
 
@@ -322,7 +322,7 @@ Instead, every monitoring variable should specify:
 
 ### Handling missing data
 
-If a layer does not provide same-unit `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**.
+If a layer does not provide same-unit measures of `AI_Effective_Demand` and `AI_Effective_Capacity`, its Absolute AI Capacity Gap must be labeled **not measurable from public data**.
 
 Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as proxies, but they cannot be renamed as an absolute capacity gap.
 
@@ -331,7 +331,7 @@ Growth Gap, lead time, pricing, and allocation fulfillment may be tracked as pro
 - **Toward S1:** supply elasticity, system substitution, buyer optionality, and portability improve in mutually reinforcing ways;
 - **Toward S3:** multi-layer scarcity, quantity assurance / delivery access concentration, switching costs, forward reservation, and financing coordination strengthen together while workload monetization remains sufficient to support the associated commitments;
 - **Toward S4:** multiple causally independent signal families deteriorate broadly and persistently across actors/layers; at least one real-economy / market / commitment signal must be present, while Accounting is confirmatory rather than mandatory;
-- **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario because of one headline.
+- **Otherwise:** keep S2 as the baseline or make only local weighting adjustments rather than changing the main scenario in response to a single headline.
 
 ## 12B. Five headline inflection tests
 
