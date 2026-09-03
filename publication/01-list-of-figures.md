@@ -30,11 +30,12 @@
 
 8. [图 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)  
    **类型：** report framework。**主要分析位置：** 第 6–8、19、24、30 章。  
-   **Boundary：** causal schematic，不是确定性 sequence 或 timing forecast。
+   **Boundary：** causal schematic，不是确定性 sequence 或 timing forecast；binding bottleneck 可以迁移，不需要长期固定在同一 layer。
 
 9. [图 9 — Anchor demand 与 Financing Reflexivity](figures/fig-09-financing-reflexivity.svg)  
    **类型：** report financing framework。**主要分析位置：** 第 13、23、24 章。  
-   **Boundary：** seller-assisted financing 既不能自动判定为健康，也不能自动判定为 artificial；必须结合 utilization、monetization、independent risk capital 与 refinancing conditions。
+   **Evidence anchors：** NVIDIA PORTS-Pike maximum conditional guarantee exposure US$105B；AMD maximum gross commercial-partner lease-guarantee exposure US$4.1B。  
+   **Boundary：** 两者都是 maximum guarantee exposure，不是 funded CapEx 或可加总 demand total；仍必须结合 utilization、monetization、independent risk capital 与 refinancing conditions。
 
 10. [图 10 — Verified workflow output 构成 demand-side closure](figures/fig-10-verified-workflow-loop.svg)  
     **类型：** report economic framework。**主要分析位置：** 第 14、19、24、32 章。  
@@ -42,6 +43,7 @@
 
 11. [图 11 — Production-Grade Parallel Stack 与 Autonomous Frontier Closure](figures/fig-11-china-closure-gates.svg)  
     **类型：** report closure-test framework。**主要分析位置：** 第 17、32 章。  
+    **Current evidence：** partial production deployment 已经真实存在，但 public evidence 尚未关闭全部 seven Production-Grade Gates。  
     **Boundary：** production-grade substitution ≠ full technological autonomy；存在 import dependence 也不等于不存在 production-grade parallel stack。
 
 ## 出版说明
