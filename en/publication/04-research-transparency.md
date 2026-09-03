@@ -153,7 +153,7 @@ After August 28, 2026, the report was edited only when one of the following cond
 
 These revisions did **not** authorize post-cutoff events to be backdated into the August 28 evidence snapshot.
 
-Several material corrections made during August 29–31 remain analytically relevant and are therefore disclosed here in compressed form:
+Several material corrections made during August 29–September 3 remain analytically relevant and are therefore disclosed here in compressed form:
 
 1. **End-system / residual-capacity framing was strengthened.** Consumer electronics, game consoles, industrial systems, and other non-AI end markets are analyzed through shared-resource exposure, Quantity Assurance, and Non-AI Residual Capacity rather than a blanket “AI displaces everything” claim.
 2. **China's frontier assessment was separated into Production-Grade Parallel Stack and Autonomous Frontier Closure.** A system that can run production workloads is not automatically an autonomous multi-generation frontier stack.
