@@ -20,7 +20,11 @@ Stanford HAI 2026 AI Index Education 章节给出几个清晰信号：[^1]
 
 这些数据共同说明工具采用速度明显快于制度适配，但它们本身并不证明 AI 已经改善学习结果。
 
-Stanford 同一章节还指出，全球已有 **90% 以上国家**在 primary 或 secondary education 提供 computer science，但正式 AI education 的普及更慢；中国和阿联酋已从 **2025–26 学年**开始推进 mandatory AI education。[^1] 这说明“是否进入课程”正在从学校层面的实验问题上移为国家教育体系问题。
+Stanford 同一章节还指出，全球已有 **90% 以上国家**在 primary 或 secondary education 提供 computer science，但正式 AI education 的普及更慢。阿联酋从 **2025–26 学年**开始，把 AI 作为 official subject 纳入 public schools 的 kindergarten–Grade 12 curriculum。[^7]
+
+中国的 implementation identity 必须写得更细。Stanford 网页摘要把它压缩成“China mandated AI education”，但其**完整章节实际列举的是北京、广东、杭州**在 national guidance 发布后，于 2025–26 学年开始要求 AI education。[^1] 中国教育部一手文件则要求将 AI-related courses 逐步作为 regular curriculum component，并通过 pilot / differentiated implementation 探索模式；2026 年《“人工智能+教育”行动计划》进一步要求把人工智能教育**全面纳入地方课程体系**，由各地课程指南明确学段目标、内容与课时。[^6] 因此，本报告不把中国写成“全国所有学校在同一个 2025–26 起始日统一实施 mandatory AI curriculum”。
+
+这说明“是否进入课程”正在从学校层面的实验问题上移为国家与地方共同设计的教育体系问题。
 
 教育体系的核心问题已经从“学生有没有用 AI”转向：
 
@@ -168,3 +172,7 @@ AI data-center buildout 让 electrical distribution、power engineering、liquid
 
 [^4]: Philip Oreopoulos and Nina Low, “One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment,” NBER Working Paper 35620, August 2026, https://www.nber.org/papers/w35620
 [^5]: Philip Oreopoulos, Michael Liut, Alp Sungu, Nina Low, “Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment,” NBER Working Paper 35621, August 2026, https://www.nber.org/papers/w35621
+
+[^6]: Ministry of Education of the People's Republic of China, 2024-12-03 guidance on strengthening AI literacy in primary and secondary schools — AI-related courses as a regular curriculum component and pilot implementation, https://en.moe.gov.cn/news/press_releases/202412/t20241210_1166454.html ; Ministry of Education and four other departments, “Artificial Intelligence + Education Action Plan,” 2026-04, directing AI education to be incorporated into local curriculum systems with locally defined curriculum guides / objectives / content / class-hour requirements, https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html
+
+[^7]: UAE Ministry of Education announcement reported by Emirates News Agency, 2025-05-04, AI introduced as an official subject across public-school grades from kindergarten through Grade 12 beginning in the 2025–26 academic year, https://www.wam.ae/en/article/bji6z2n-ministry-education-introduces-curriculum-public

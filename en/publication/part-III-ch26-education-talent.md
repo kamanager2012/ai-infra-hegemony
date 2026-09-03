@@ -26,7 +26,7 @@ The Stanford HAI 2026 AI Index Education chapter summarizes several adoption and
 
 - roughly **4 out of 5** U.S. high-school and college students use AI for schoolwork;
 - about half of middle/high schools have an AI-use policy;
-- the Stanford summary reports that only **6%** of teachers describe their schools as having clear, comprehensive AI policies;
+- the Stanford summary reports that only **6%** of teachers say their schools' AI policies are clear;
 - the Stanford summary reports an **11%** decline in U.S. four-year university CS undergraduate enrollment from 2024 to 2025;
 - AI software-related master's graduates grew **17% from 2023 to 2024**.
 
@@ -36,7 +36,9 @@ The pattern is:
 
 > **Tool Adoption > Curriculum Update > Institutional Reform**
 
-The same Stanford chapter reports that **more than 90% of countries** now offer computer science in primary or secondary education, while formal AI education has spread more slowly.[^1] The United Arab Emirates introduced a national mandatory AI curriculum for government schools beginning in the **2025–26 school year**. In China, national policy direction is being accompanied by provincial / municipal curriculum mandates and pilots rather than one uniform nationwide classroom implementation date.
+The same Stanford chapter reports that **more than 90% of countries** now offer computer science in primary or secondary education, while formal AI education has spread more slowly.[^1] The United Arab Emirates introduced AI as an official subject across public-school grades from kindergarten through Grade 12 beginning in the **2025–26 school year**.[^7]
+
+China requires a more careful implementation identity. Stanford's chapter webpage compresses the development as China having "mandated" AI education, but the **full chapter identifies Beijing, Guangdong, and Hangzhou** as jurisdictions that began requiring AI education in 2025–26 after national guidance was released.[^1] China's Ministry of Education first-party guidance calls for AI-related courses to become a regular curriculum component and for pilots / differentiated implementation; the 2026 national action plan further directs AI education to be incorporated comprehensively into **local curriculum systems**, with local course guides defining stage goals, content, and class-hour requirements.[^6] This report therefore does **not** assign China one uniform nationwide classroom implementation date.
 
 This moves the question from isolated school experimentation toward education-system design at national and subnational levels.
 
@@ -219,3 +221,7 @@ It is more likely to come from the ability to understand systems, verify results
 
 [^4]: Philip Oreopoulos and Nina Low, “One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment,” NBER Working Paper 35620, August 2026, https://www.nber.org/papers/w35620
 [^5]: Philip Oreopoulos, Michael Liut, Alp Sungu, and Nina Low, “Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment,” NBER Working Paper 35621, August 2026, https://www.nber.org/papers/w35621
+
+[^6]: Ministry of Education of the People's Republic of China, 2024-12-03 guidance on strengthening AI literacy in primary and secondary schools — AI-related courses as a regular curriculum component and pilot implementation, https://en.moe.gov.cn/news/press_releases/202412/t20241210_1166454.html ; Ministry of Education and four other departments, “Artificial Intelligence + Education Action Plan,” 2026-04, directing AI education to be incorporated into local curriculum systems with locally defined curriculum guides / objectives / content / class-hour requirements, https://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html
+
+[^7]: UAE Ministry of Education announcement reported by Emirates News Agency, 2025-05-04, AI introduced as an official subject across public-school grades from kindergarten through Grade 12 beginning in the 2025–26 academic year, https://www.wam.ae/en/article/bji6z2n-ministry-education-introduces-curriculum-public
