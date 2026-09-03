@@ -1,4 +1,4 @@
-# P2 · Downstream Empirical Chains v0.3
+# P2 · Downstream Empirical Chains v0.4
 
 > **Status:** Research-side evidence map; not part of the frozen formal report.  
 > **Goal:** strengthen Labor (Ch25), Education (Ch26), and Physical AI (Ch15) without pretending that the evidence is as mature as semiconductors, memory, packaging, power, or CapEx.
@@ -105,6 +105,94 @@ Those require:
 - task composition;
 - controls for demand and macro conditions.
 
+### Labor evidence added in v0.4 — staffing / hiring begins to become observable
+
+#### A. Stanford / ADP payroll evidence — hiring pipeline, not economy-wide displacement
+
+Brynjolfsson, Chandar & Chen's 2026 revision uses high-frequency ADP payroll data covering millions of U.S. workers through June 2026.
+
+The authors report:
+
+- **no evidence of widespread, economy-wide job displacement**;
+- employment among workers ages **22–25** in highly AI-exposed occupations is about **19% below** where it would be if it had kept pace with less-exposed peers;
+- the gap widened from about 15% in the earlier 2025 vintage;
+- the adjustment appears primarily through **reduced hiring rather than increased separations**;
+- experienced workers do not show the same gap;
+- adjustment so far is more visible in employment than in base pay.
+
+This moves the evidence chain from:
+
+```text
+task exposure
+→ possible worker effect
+```
+
+toward:
+
+```text
+occupation exposure
+→ age-specific hiring pipeline
+→ observed employment divergence
+```
+
+But it is still **not** a clean causal estimate of AI displacement.
+
+Potential confounds / boundaries include:
+- occupation-specific demand;
+- post-pandemic normalization;
+- interest-rate / tech-cycle effects;
+- firm composition in the ADP sample;
+- exposure measures differing from realized adoption.
+
+Therefore the correct conclusion is:
+
+> **AI-linked labor adjustment is now visible in specific early-career hiring pipelines, while broad economy-wide displacement remains unproven.**
+
+#### B. U.S. Census AI supplement — adoption breadth does not imply mass employment reduction
+
+Bonney et al. use nationally representative 2026 Census BTOS data.
+
+Reported structure:
+
+- about **18% of firms** used AI in at least one business function during Nov-2025–Jan-2026;
+- employment-weighted adoption was about **32%**;
+- **66%** of adopters mainly reported task augmentation;
+- employment reductions were reported by only about **2%** of firms;
+- functional deployment / operational investment is associated with employment declines in regression analysis, while worker-task use is not after controls.
+
+This is an important organization-level bridge because it separates:
+
+```text
+worker uses AI
+```
+
+from:
+
+```text
+firm integrates AI into functions / operating model
+```
+
+The second is more plausibly connected to staffing adjustment.
+
+But the regression is not a randomized causal design.
+
+So:
+
+> **firm-level operational integration is a stronger labor-transmission variable than worker exposure alone, but causal employment effects remain incompletely identified.**
+
+#### C. Cross-country executive survey — strong adoption, weak realized employment effect so far
+
+Yotzov et al. survey nearly 6,000 senior executives in the U.S., U.K., Germany and Australia.
+
+They report:
+- roughly **69%** of firms actively use AI;
+- more than **80%** report no employment or productivity impact from AI over the previous three years;
+- executives expect larger future effects than have been realized so far.
+
+This is useful contrary evidence against interpreting high adoption as already-large labor displacement.
+
+Forecasted employment reductions remain **expectations**, not realized outcomes.
+
 ### Labor research rule
 
 Never write:
@@ -169,6 +257,94 @@ Need more evidence on:
 - actual implementation and training cost;
 - adoption at school-system scale;
 - subgroup heterogeneity.
+
+### Education evidence added in v0.4 — school-scale use and delayed learning
+
+#### A. Khanmigo two-year school experiment — institution-scale effect, but engagement is binding
+
+Oreopoulos & Low report a two-year cluster randomized trial across **18 Tennessee middle schools** using Khan Academy with Khanmigo during daily remedial mathematics sessions.
+
+Reported results include:
+
+- assignment raises math achievement by about **1.3 national percentile ranks per term**;
+- approximately **0.06–0.08 standard deviations over a school year**;
+- implied effect of a full year of active participation reaches about **0.14 SD**;
+- gains are similar to those found in Khan Academy practice without AI assistance;
+- **96%** of students tried Khanmigo at least once, but median use was only about one-third of practice days;
+- students used it in only about **17%** of exercise sessions in which they made a mistake.
+
+This is a major evidence upgrade because it observes:
+
+```text
+school deployment
+→ repeated use
+→ school-year achievement
+```
+
+rather than a short lab task.
+
+But it also weakens a simplistic "AI tutor access automatically transforms learning" narrative.
+
+The binding constraint is partly:
+
+> **engagement / instructional integration, not model availability.**
+
+The fact that gains resemble non-AI Khan Academy practice means the incremental AI component cannot be assumed to explain the full achievement effect.
+
+#### B. NUMI 6,000+ student RCT — delayed retention / transfer is weaker than immediate support
+
+Oreopoulos, Liut, Sungu & Low study more than **6,000 middle-school students** randomized across AI vs CAL-only support and mastery vs non-mastery progression.
+
+One week later students completed a delayed assessment covering:
+- practiced material;
+- unpracticed material.
+
+During practice:
+- AI students progressed more slowly;
+- attempted fewer questions;
+- were more accurate conditional on attempting;
+- after mistakes, AI improved next-attempt correctness and reduced attempts needed to return to a correct answer.
+
+But on delayed learning:
+- mastery alone did not improve delayed outcomes;
+- the most encouraging delayed-test evidence appears when AI is embedded in the mastery workflow;
+- gains were marginally significant and concentrated on practiced material rather than broad transfer.
+
+This closes a missing research field:
+
+> **delayed assessment exists.**
+
+But the result is mixed rather than uniformly positive.
+
+Therefore:
+
+```text
+immediate correction support
+≠
+broad delayed retention / transfer
+```
+
+The evidence supports a more precise mechanism:
+
+> **AI tutoring is more productive when the workflow structures mistakes into sustained reasoning; access alone is not enough.**
+
+### Education chain status after v0.4
+
+The strongest observed chain is now:
+
+```text
+AI-assisted instruction
+→ repeated school use
+→ measurable achievement / immediate error correction
+→ limited / context-dependent delayed retention
+```
+
+Still weak / missing:
+- broad transfer across topics;
+- teacher workload and organizational redesign;
+- all-in implementation cost;
+- persistent multi-year learning beyond the study environment;
+- system-level scaling economics.
 
 ### Education research rule
 
@@ -418,8 +594,9 @@ Therefore the honest conclusion remains:
 | Domain | Causal task effect | Verified workflow outcome | Organization-scale effect | Economy/system-scale effect |
 |---|---|---|---|---|
 | Customer support | relatively strong | moderate/strong | partial | weak |
+| Labor-market staffing / hiring | exposure + adoption evidence | N/A as workflow | **partial: hiring-pipeline signals now observable** | weak / non-causal |
 | Software engineering | mixed, improving evidence | moderate | weak | weak |
-| Education | several RCT anchors | moderate | weak | weak |
+| Education | multiple RCTs incl. school-scale + delayed assessment | **moderate/strong** | **partial** | weak |
 | Industrial robotics | mature deployment stats | strong for traditional robotics | strong in selected industries | strong historical evidence |
 | Frontier Physical AI | capability + several real production deployments | **moderate/strong for narrow tasks** | **partial** | very weak |
 
@@ -492,7 +669,7 @@ This gives the whole report one downstream economic language.
 
 ---
 
-# 8. v0.3 conclusion
+# 8. v0.4 conclusion
 
 The downstream chapters do not need more confident prose.
 
@@ -505,7 +682,7 @@ The correct upgrade is:
 
 Until that chain exists, uncertainty should remain explicit.
 
-**v0.2 stop rule:** generic capability demos, benchmark gains, or additional productivity percentages do not justify a version bump unless they close a currently missing downstream link: adoption, verified outcome, persistence, organizational transmission, or economic/social consequence.
+**v0.4 stop rule:** generic capability demos, benchmark gains, adoption headlines, or additional productivity percentages do not justify a version bump unless they close a currently missing downstream link: staffing / organizational transmission, delayed retention / transfer, verified production reliability, TCO, or economy/system-scale consequence.
 
 ## Sources
 
