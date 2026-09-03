@@ -3,172 +3,200 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="AI Infrastructure Reordering, 2026–2036: a 32-chapter structural industry outlook on system stacks, semiconductors, HBM, advanced packaging, power, capital, and end-market capacity.">
+  <meta name="description" content="AI Infrastructure Reordering, 2026–2036: a 32-chapter structural industry outlook on system-stack competition, advanced logic, HBM, packaging, power, capital formation, substitution, and end-market capacity.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook">
-  <meta property="og:description" content="How the AI compute buildout is reallocating semiconductors, memory, advanced packaging, power, capital, and end-market capacity.">
+  <meta property="og:description" content="A public-evidence industry research report on how AI infrastructure is reallocating semiconductors, memory, advanced packaging, power, capital, and end-market capacity.">
   <meta property="og:url" content="https://kamanager2012.github.io/ai-infra-hegemony/">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="AI Infrastructure Reordering, 2026–2036">
-  <meta name="twitter:description" content="System-stack competition, residual capacity, moving bottlenecks, power, financing, and conditional scenarios for 2026–2036.">
-  <meta name="theme-color" content="#0b0d12">
+  <meta name="twitter:description" content="System-stack competition, residual capacity, moving bottlenecks, substitution, financing, and conditional scenarios for 2026–2036.">
+  <meta name="theme-color" content="#f4f2ed">
   <title>AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link rel="stylesheet" href="./assets/styles.css?v=20260831-3">
+  <link rel="stylesheet" href="./assets/styles.css?v=20260903-1">
 </head>
 <body>
-  <div class="topline"></div>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="./" aria-label="Home">
+    <a class="brand" href="./?lang=en" id="homeLink" aria-label="Report home">
       <span class="brand-mark">AIR</span>
       <span class="brand-copy">
-        <strong>AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook</strong>
+        <strong>AI Infrastructure Reordering</strong>
         <small>2026–2036 Structural Industry Outlook</small>
       </span>
     </a>
-    <nav class="header-actions">
-      <button class="ghost" id="langToggle" type="button">中文</button>
-      <a class="ghost" href="./rights.html">Rights & Permissions</a>
+    <nav class="header-actions" aria-label="Primary">
+      <a class="header-link" id="headerBrief" href="?lang=en&doc=RESEARCH_BRIEF.md">Research Brief</a>
+      <a class="header-link" id="headerMethod" href="?lang=en&chapter=27">Method & Evidence</a>
+      <a class="header-link" href="./rights.html">Rights</a>
+      <button class="language-toggle" id="langToggle" type="button">中文</button>
     </nav>
   </header>
 
   <main id="app">
-    <section class="hero" id="homeView">
-      <div class="hero-kicker" id="heroKicker">AI INFRASTRUCTURE · SEMICONDUCTORS · POWER · CAPITAL</div>
-      <h1 id="heroTitle">AI Buyers Are Repricing the Stack</h1>
-      <p class="hero-subtitle" id="heroSubtitle">A 2026–2036 framework for who gets advanced logic, HBM, packaging, power — and what is left for everyone else.</p>
-      <p class="hero-summary" id="heroSummary">
-        The core question is no longer which accelerator is fastest. It is which system stacks can secure scarce capacity, turn it into production workloads, and keep the economics working as supply expands, algorithms improve, and alternative stacks mature.
-      </p>
-      <div class="hero-actions">
-        <a class="primary" id="startReading" href="?lang=en&chapter=1">Start with the thesis</a>
-        <a class="secondary" id="masterJudgment" href="?lang=en&chapter=32">Read the master judgment</a>
-        <a class="secondary" id="printReport" href="?lang=en&print=1">Print / Save PDF</a>
-      </div>
-
-      <div class="status-grid">
-        <div><span>Evidence cutoff</span><strong>2026-08-28</strong></div>
-        <div><span>Edition revision</span><strong>2026-09-03</strong></div>
-        <div><span>Current state</span><strong>S2 · Baseline Concentration</strong></div>
-        <div><span>Rights</span><strong>All Rights Reserved</strong></div>
-      </div>
-    </section>
-
-    <section class="thesis-grid" id="thesisView">
-      <article>
-        <span>01</span>
-        <h2>System stack, not a chip war</h2>
-        <p>The competitive unit is advanced logic + HBM + packaging + interconnect + runtime + rack + power + capital + workload — not the accelerator alone.</p>
-      </article>
-      <article>
-        <span>02</span>
-        <h2>More supply can still mean less for everyone else</h2>
-        <p>Non-AI Residual Capacity asks what phones, PCs, vehicles, and industrial systems can actually obtain after priority demand is allocated.</p>
-      </article>
-      <article>
-        <span>03</span>
-        <h2>Bottlenecks move — and can reverse</h2>
-        <p>HBM, packaging, networking, power, and capital can become binding in sequence; a shortage at one layer can later flip into headroom or oversupply.</p>
-      </article>
-      <article>
-        <span>04</span>
-        <h2>The thesis has to survive substitution</h2>
-        <p>Hyperscaler custom stacks, China’s parallel stack, supply expansion, algorithmic efficiency, and capital clearing are explicit paths that can weaken the baseline.</p>
-      </article>
-    </section>
-
-    <section class="thesis-grid" id="evidenceSnapshot">
-      <article>
-        <span>TSMC · 2Q26</span>
-        <h2>66% / 77%</h2>
-        <p>HPC was 66% of revenue; 7 nm and below were 77% of wafer revenue. Revenue mix is not customer wafer allocation.</p>
-      </article>
-      <article>
-        <span>HBM · 2026E</span>
-        <h2>≈3×</h2>
-        <p>Micron: same-node / same-bits HBM3E requires ≈3× the wafer supply of DDR5. TrendForce separately estimates HBM wafer input at ~22% (top-three-supplier scope) and HBM bit supply at ~9%; the two scopes are not formally divided.</p>
-      </article>
-      <article>
-        <span>LPS · PORTS-Pike</span>
-        <h2>4.25 IT-GW</h2>
-        <p>Initial design capacity planned for phased delivery from 2028. Design / secured capacity is not energized or utilized AI load.</p>
-      </article>
-      <article>
-        <span>FINANCE · 2026-08</span>
-        <h2>&gt;US$500B</h2>
-        <p>Third-party-capital mobilization target over time. It is not capital already funded, committed, or deployed.</p>
-      </article>
-    </section>
-
-    <section class="report-index" id="indexView">
-      <div class="section-heading">
-        <div>
-          <span class="eyebrow">FULL REPORT</span>
-          <h2 id="indexTitle">Research map</h2>
+    <div id="homeShell">
+      <section class="hero" id="homeView">
+        <div class="hero-copy">
+          <span class="hero-kicker" id="heroKicker">INDUSTRY RESEARCH · ENGLISH CANONICAL EDITION</span>
+          <h1 id="heroTitle">AI Infrastructure Reordering,<br>2026–2036</h1>
+          <p class="hero-subtitle" id="heroSubtitle">A Structural Industry Outlook</p>
+          <p class="hero-dek" id="heroDek">How the AI compute buildout is reallocating semiconductors, memory, advanced packaging, power, capital, and end-market capacity.</p>
+          <p class="hero-summary" id="heroSummary">
+            The report tracks competition at the system-stack level and asks whether supply elasticity, alternative stacks, workload monetization, and capital clearing can loosen today’s concentration before scarcity migrates into the next constrained layer.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" id="researchBrief" href="?lang=en&doc=RESEARCH_BRIEF.md">Read the Research Brief</a>
+            <a class="secondary" id="startReading" href="?lang=en&chapter=1">Executive Summary</a>
+            <a class="secondary" id="masterJudgment" href="?lang=en&chapter=32">Master View</a>
+          </div>
         </div>
-        <p id="indexNote">Start with Ch03 Residual Capacity, Ch12 the Second System Stack, Ch17 China Parallel Stack, or Ch21 Consumer Transmission.</p>
-      </div>
-      <div id="chapterIndex"></div>
-    </section>
+
+        <aside class="edition-card" aria-label="Edition status">
+          <span class="edition-label" id="editionLabel">2026 EDITION</span>
+          <dl>
+            <div><dt id="cutoffLabel">Evidence cutoff</dt><dd>August 28, 2026</dd></div>
+            <div><dt id="revisionLabel">Edition revision</dt><dd>September 3, 2026</dd></div>
+            <div><dt id="baselineLabel">Current baseline</dt><dd>S2 · Baseline Concentration</dd></div>
+            <div><dt id="scopeLabel">Publication</dt><dd>32 chapters · EN / ZH</dd></div>
+          </dl>
+          <a class="edition-link" id="scopeLink" href="?lang=en&doc=00-front-matter.md">Scope, evidence boundaries & disclaimer →</a>
+        </aside>
+      </section>
+
+      <section class="reading-paths" aria-labelledby="readingPathsTitle">
+        <div class="section-intro">
+          <span class="eyebrow" id="readingPathsEyebrow">READER PATHS</span>
+          <h2 id="readingPathsTitle">Start from the decision you need to make</h2>
+          <p id="readingPathsNote">The report is deliberately broad. These paths isolate the load-bearing mechanism relevant to different professional readers.</p>
+        </div>
+        <div class="path-grid" id="readingPathGrid">
+          <a class="path-card" data-path="resource" href="?lang=en&chapter=3"><span>01</span><h3>Resource allocation</h3><p>Residual qualified supply, HBM, packaging and power.</p><b>Ch03 → Ch08 → Ch21</b></a>
+          <a class="path-card" data-path="stack" href="?lang=en&chapter=12"><span>02</span><h3>System-stack competition</h3><p>NVIDIA, hyperscalers, open-model economics and China’s parallel stack.</p><b>Ch02 → Ch12 → Ch17</b></a>
+          <a class="path-card" data-path="capital" href="?lang=en&chapter=19"><span>03</span><h3>Capital formation & clearing</h3><p>Duration, utilization, financing reflexivity and the S4 test.</p><b>Ch19 → Ch24 → Ch30</b></a>
+          <a class="path-card" data-path="method" href="?lang=en&chapter=27"><span>04</span><h3>Method & falsification</h3><p>Evidence grades, denominators, monitoring and scenario reweighting.</p><b>Ch27 → Ch30 → Ch32</b></a>
+        </div>
+      </section>
+
+      <section class="evidence-section" aria-labelledby="evidenceTitle">
+        <div class="section-intro">
+          <span class="eyebrow" id="evidenceEyebrow">LOAD-BEARING EVIDENCE</span>
+          <h2 id="evidenceTitle">A small number of facts carry most of the current baseline</h2>
+          <p id="evidenceNote">Each observation keeps its own denominator, time identity, and evidence boundary.</p>
+        </div>
+        <div class="evidence-grid" id="evidenceSnapshot">
+          <article><span></span><h3></h3><p></p></article>
+          <article><span></span><h3></h3><p></p></article>
+          <article><span></span><h3></h3><p></p></article>
+          <article><span></span><h3></h3><p></p></article>
+        </div>
+      </section>
+
+      <section class="boundary-strip" id="boundaryStrip">
+        <span class="eyebrow" id="boundaryEyebrow">EVIDENCE DISCIPLINE</span>
+        <div class="boundary-grid">
+          <p><strong>Revenue mix ≠ wafer allocation.</strong><br><span>Economic direction is not physical customer allocation.</span></p>
+          <p><strong>Secured ≠ energized ≠ utilized.</strong><br><span>Power and LPS retain delivery-state identity.</span></p>
+          <p><strong>Target ≠ funded capital.</strong><br><span>Guarantee exposure, CapEx and independent demand remain separate.</span></p>
+          <p><strong>Substitution ≠ autonomy.</strong><br><span>Production-grade deployment and frontier closure are different tests.</span></p>
+        </div>
+      </section>
+
+      <section class="report-index" id="indexView">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow" id="indexEyebrow">FULL REPORT</span>
+            <h2 id="indexTitle">32-chapter research map</h2>
+          </div>
+          <div class="index-tools">
+            <p id="indexNote">English is the canonical research language. Chinese is the professional parity edition.</p>
+            <label class="chapter-search">
+              <span class="sr-only" id="chapterSearchLabel">Search chapters</span>
+              <input id="chapterSearch" type="search" placeholder="Search chapter titles…" autocomplete="off">
+            </label>
+          </div>
+        </div>
+        <div id="chapterIndex"></div>
+      </section>
+
+      <section class="research-library" aria-labelledby="libraryTitle">
+        <div class="section-intro">
+          <span class="eyebrow" id="libraryEyebrow">RESEARCH LIBRARY</span>
+          <h2 id="libraryTitle">Publication and audit companions</h2>
+          <p id="libraryNote">Use the publication layer for reading and the audit companions when you need source identity, hypotheses, or evidence boundaries.</p>
+        </div>
+        <div class="library-grid" id="libraryGrid">
+          <a href="?lang=en&doc=01-list-of-figures.md" data-doc="figures"><strong>Figures</strong><span>11 core analytical figures</span></a>
+          <a href="?lang=en&doc=02-list-of-tables.md" data-doc="tables"><strong>Tables</strong><span>30 formal tables</span></a>
+          <a href="?lang=en&doc=03-abbreviations-and-glossary.md" data-doc="glossary"><strong>Glossary</strong><span>Core terms and model definitions</span></a>
+          <a href="?lang=en&doc=核心证据台账.md" data-doc="ledger"><strong>Evidence Ledger</strong><span>High-impact source-of-truth identities</span></a>
+          <a href="?lang=en&doc=核心参考文献索引.md" data-doc="sources"><strong>Source Index</strong><span>Primary and institutional source map</span></a>
+          <a href="?lang=en&doc=核心假设矩阵.md" data-doc="hypotheses"><strong>Hypothesis Matrix</strong><span>H1–H19 and falsification structure</span></a>
+        </div>
+      </section>
+    </div>
 
     <section class="reader hidden" id="readerView">
-      <aside class="reader-nav">
+      <aside class="reader-nav" id="readerNav">
         <div class="reader-nav-head">
           <a href="./?lang=en" id="backHome">← <span>Report home</span></a>
-          <button class="ghost small" id="readerLangToggle" type="button">中文</button>
+          <button class="language-toggle compact" id="readerLangToggle" type="button">中文</button>
+        </div>
+        <div class="reader-nav-meta">
+          <span id="readerNavEdition">2026 EDITION</span>
+          <strong id="readerNavTitle">32 chapters</strong>
         </div>
         <div id="readerChapterList"></div>
       </aside>
-      <article class="reader-content">
+
+      <article class="reader-content" id="readerContent">
         <div class="reader-toolbar">
           <div>
             <span id="readerPart" class="eyebrow"></span>
             <strong id="readerChapterLabel"></strong>
           </div>
           <div class="toolbar-actions">
-            <button class="ghost small" id="copyLink" type="button">Copy chapter link</button>
-            <button class="ghost small" id="printChapter" type="button">Print chapter</button>
+            <button class="secondary compact mobile-only" id="readerNavToggle" type="button">Chapters</button>
+            <button class="secondary compact" id="copyLink" type="button">Copy link</button>
           </div>
         </div>
         <div id="readerBody" class="markdown-body">
           <div class="loading">Loading report…</div>
         </div>
-        <nav class="chapter-pager">
+        <nav class="chapter-pager" aria-label="Chapter navigation">
           <a id="prevChapter" href="#"></a>
           <a id="nextChapter" href="#"></a>
         </nav>
       </article>
-    </section>
 
-    <section class="print-view hidden" id="printView">
-      <div class="print-cover">
-        <span class="eyebrow">2026–2036 INDUSTRY OUTLOOK RESEARCH REPORT</span>
-        <h1 id="printTitle">AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook</h1>
-        <p id="printSubtitle">How the AI Compute Buildout Is Reallocating Semiconductors, Memory, Advanced Packaging, Power, Capital, and End-Market Capacity</p>
-        <div class="print-meta">
-          <span>Evidence cutoff: 2026-08-28</span>
-          <span>Edition revision: 2026-09-03</span>
-          <span>32 chapters</span>
-        </div>
-      </div>
-      <div id="printBody" class="markdown-body print-body">
-        <div class="loading">Preparing print edition…</div>
-      </div>
+      <aside class="section-nav" id="sectionNav">
+        <span class="section-nav-label" id="sectionNavLabel">ON THIS PAGE</span>
+        <nav id="readerSectionList"></nav>
+        <a class="back-to-top" href="#app" id="backToTop">Back to top ↑</a>
+      </aside>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div>
-      <strong>AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook</strong>
-      <span>Industry research · 2026 edition</span>
+    <div class="footer-brand">
+      <strong>AI Infrastructure Reordering, 2026–2036</strong>
+      <span id="footerEdition">Structural Industry Outlook · 2026 edition</span>
     </div>
-    <p>Original research text: <a href="./rights.html">All Rights Reserved</a>. Public reading does not grant a general reuse license. Third-party materials remain subject to their respective rights.</p>
-    <p>English external landing: <a href="./en.html">AI Buyers Are Repricing the Stack</a></p>
-    <p>Static full-text snapshots (no JavaScript): <a href="./full-report-zh.html">中文全文</a> · <a href="./full-report-en.html">English full text</a></p>
+    <div class="footer-links">
+      <a id="footerBrief" href="?lang=en&doc=RESEARCH_BRIEF.md">Research Brief</a>
+      <a id="footerTransparency" href="?lang=en&doc=04-research-transparency.md">Transparency & Corrections</a>
+      <a href="./rights.html">Rights & Permissions</a>
+    </div>
+    <p id="footerNote">English is the canonical analytical edition. Public reading does not grant a general reuse license.</p>
   </footer>
+
+  <noscript>
+    <div class="noscript">JavaScript is required for the interactive reader. The research source remains available in the repository publication files.</div>
+  </noscript>
 
   <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/lib/marked.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
-  <script src="./assets/app.js?v=20260831-3"></script>
+  <script src="./assets/app.js?v=20260903-1"></script>
 </body>
 </html>
