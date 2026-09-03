@@ -38,7 +38,7 @@ The pattern is:
 
 The same Stanford chapter reports that **more than 90% of countries** now offer computer science in primary or secondary education, while formal AI education has spread more slowly.[^1] The United Arab Emirates introduced AI as an official subject across public-school grades from kindergarten through Grade 12 beginning in the **2025–26 school year**.[^7]
 
-China requires a more careful implementation identity. Stanford's chapter webpage compresses the development as China having "mandated" AI education, but the **full chapter identifies Beijing, Guangdong, and Hangzhou** as jurisdictions that began requiring AI education in 2025–26 after national guidance was released.[^1] China's Ministry of Education first-party guidance calls for AI-related courses to become a regular curriculum component and for pilots / differentiated implementation; the 2026 national action plan further directs AI education to be incorporated comprehensively into **local curriculum systems**, with local course guides defining stage goals, content, and class-hour requirements.[^6] This report therefore does **not** assign China one uniform nationwide classroom implementation date.
+China requires a more careful implementation identity. Stanford's chapter webpage compresses the development as China having "mandated" AI education, but the **full chapter identifies Beijing, Guangdong, and Hangzhou** as jurisdictions that began requiring AI education in 2025–26 after national guidance was released.[^1] First-party guidance from China's Ministry of Education calls for AI-related courses to become a regular curriculum component and for pilots / differentiated implementation; the 2026 national action plan further directs AI education to be incorporated comprehensively into **local curriculum systems**, with local course guides defining stage goals, content, and class-hour requirements.[^6] This report therefore does **not** assign China one uniform nationwide classroom implementation date.
 
 This moves the question from isolated school experimentation toward education-system design at national and subnational levels.
 
@@ -60,7 +60,7 @@ A curriculum centered on the currently dominant model or tool is likely to becom
 
 ### 2B. School-scale learning evidence now exists, but engagement and retention remain binding
 
-Two August 2026 randomized field studies materially improve the evidence base because they observe repeated school use and delayed learning rather than only one-session AI performance.
+Two August 2026 randomized field studies materially improve the evidence base because they observe repeated school use and delayed learning rather than only single-session AI performance.
 
 **Khanmigo two-year school experiment.** Oreopoulos and Low report a two-year cluster randomized trial across **18 Tennessee middle schools** in which assigned students used Khan Academy with Khanmigo during existing daily remedial mathematics sessions.[^4] Assignment increased math achievement by about **1.3 national percentile ranks per term**, or roughly **0.06–0.08 standard deviations over a school year**; the implied effect of a full year of active participation is about **0.14 SD**.[^4]
 
@@ -72,7 +72,7 @@ The practical constraint is therefore partly:
 
 —not model availability alone.
 
-**NUMI mastery experiment.** A separate randomized experiment with **more than 6,000 middle-school students** assigned AI versus computer-assisted-learning support and mastery versus non-mastery progression.[^5] Students completed a delayed assessment **one week later** covering practiced and unpracticed material.[^5]
+**NUMI mastery experiment.** A separate randomized experiment with **more than 6,000 middle-school students** assigned students to AI versus computer-assisted-learning support and to mastery versus non-mastery progression.[^5] Students completed a delayed assessment **one week later** covering practiced and unpracticed material.[^5]
 
 During practice, AI support improved error recovery: after mistakes, students were more likely to answer the next attempt correctly and needed fewer attempts to return to a correct answer, although they progressed more slowly and attempted fewer questions.[^5] The delayed-learning evidence was more limited and context-dependent than the immediate assistance effect, with the most encouraging results arising when AI support was embedded in a mastery workflow rather than offered as a generic shortcut.[^5]
 
@@ -206,7 +206,7 @@ The evidence now shows that AI-enabled tutoring can produce measurable learning 
 
 It is:
 
-> **make AI a systems capability across technical and professional education while raising verification, portability, and responsibility into core learning objectives.**
+> **treat AI as a systems capability across technical and professional education while making verification, portability, and responsibility core learning objectives.**
 
 The most durable talent advantage is unlikely to come simply from being best at calling models.
 
