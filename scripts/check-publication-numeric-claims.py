@@ -39,7 +39,7 @@ NON_FACT = re.compile(
     r"this report|the report|本书|本报告|截至|as of|"
     r"没有披露|未披露|不.*披露|does.*not.*disclose|not disclose|not as|"
     r"mechanically|机械|absolute claim|绝对化|fixed endpoints|"
-    r"not industry facts|not treated as fact|not used as fact|不作为事实|不视为事实|"
+    r"not industry facts|not treated as (?:industry )?fact|not used as (?:industry )?fact|不作为(?:行业)?事实|不视为(?:行业)?事实|"
     r"scenario[- ]scale|scale markers?|情景尺度|尺度标记|headline|should not be restated|reconstruction|"
     r"未经一手披露验证|unverified|counterexample|反例",
     re.I,
@@ -169,15 +169,19 @@ def main() -> int:
                 or re.search(r"https?://", lead)
                 or tables.get(i)
             )
-            blockquote_context = same_para
-            if line.startswith(">"):
-                blockquote_context = "\n".join(lines[max(0, i - 4): i + 1])
+            # Scenario / model-boundary disclaimers are often written as a
+            # separate paragraph immediately before or after the numeric line
+            # (for example a blockquote headline followed by a
+            # "scenario-scale markers" note). Paragraph-local matching misses
+            # the following paragraph, so scan a small neighbor window in both
+            # directions for every candidate, not only for blockquotes.
+            neighbor_context = "\n".join(lines[max(0, i - 4): i + 5])
             arithmetic_block = line.startswith(">") and bool(
                 re.search(r"[=≈×÷]|\b(?:plus|minus|times|divided)\b", line, re.I)
             )
             model_boundary = bool(
                 NON_FACT.search(same_para)
-                or NON_FACT.search(blockquote_context)
+                or NON_FACT.search(neighbor_context)
                 or NON_FACT.search(lead)
                 or arithmetic_block
             )
