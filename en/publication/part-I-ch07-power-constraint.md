@@ -36,7 +36,7 @@ Microsoft and Constellation entered a **20-year PPA** supporting the restart of 
 
 The case shows how hyperscaler demand can support a large existing power asset returning to service.
 
-But 835 MW is a project / unit-capacity anchor, not evidence that 835 MW is already being delivered in real time to AI data centers. The project still sits on regulatory, repair, restart, interconnection, and commercial-operation clocks.
+But 835 MW is a project / unit-capacity anchor, not evidence that 835 MW is already being delivered in real time to AI data centers. The project remains subject to regulatory, repair, restart, interconnection, and commercial-operation timelines.
 
 Constellation's **September 20, 2024 initial PPA / restart announcement** said the project would require significant investment but did not quantify that investment. The company's **November 4, 2024 Q3 results** then estimated that the restart would require approximately **US$1.6B of cash from operations for restart capital expenditures**, with an estimated **2028 in-service date**.[^2]
 
@@ -68,7 +68,7 @@ On **August 17, 2026**, NVIDIA disclosed a different infrastructure structure at
 
 The August 17 announcement described phased capacity beginning in **calendar 2028**. NVIDIA's later FY27 Q2 Form 10-Q states that the first guarantee/service phase is expected in **fiscal 2029**; those time identities are compatible and should not be treated as separate delivery milestones.
 
-This makes secured LPS a more direct precursor to deployable compute than a generic headline PPA. But **4.25 IT-GW is still design / planned capacity, not 2026 energized or utilized AI load**.
+This makes secured LPS a more direct precursor to deployable compute than a headline PPA alone. But **4.25 IT-GW is still design / planned capacity, not 2026 energized or utilized AI load**.
 
 ## 4. Project capacities cannot be summed into active AI load
 
@@ -126,7 +126,7 @@ That creates a variable comparable in importance to the chip roadmap:
 
 Projects with existing grid interconnection, powered land, substation / transformer capacity, firm generation, and executable permitting paths gain a timing advantage.
 
-Hyperscaler competition is therefore not only about who acquires more accelerators. It is also about a **deployment-timing question at scale**:
+Hyperscaler competition is therefore not only about who acquires more accelerators. It is also a **deployment-timing competition at scale**:
 
 > **who can energize the next 50 MW / 100 MW / 500 MW of systems sooner.**
 
