@@ -4,7 +4,7 @@
 
 Large AI-infrastructure investment is not evidence of a bubble by itself, and high seller margins are not evidence of healthy buyer economics.
 
-The S4 test begins when **asset formation starts to outrun utilization, realizable cash flow, financing independence, and residual value across multiple parts of the system**. The key is not a single weak metric, but a consistent divergence between capital formation and productive demand.
+The S4 test begins when **asset formation starts to outrun utilization, realizable cash flow, financing independence, and residual-value support across multiple parts of the system**. The key is not a single weak metric, but a consistent divergence between capital formation and productive demand.
 
 This chapter therefore does not ask whether AI valuations are high. It asks when the evidence is strong enough to move the scenario framework from S2-style expansion toward **S4 — Capital Hard Landing**.
 
@@ -160,7 +160,7 @@ When a system seller also participates through customer equity investment, credi
 
 NVIDIA's August 2026 disclosures now provide concrete examples: it **announced partnerships / MOUs aimed at mobilizing more than US$500B of third-party capital over time, subject to final agreements**, provided LPS credit support around PORTS-Pike, and discussed large frontier-lab investments plus selective credit enhancement.[^5][^6][^7]
 
-The later filing evidence adds the denominator boundary. NVIDIA's FY27 Q2 Form 10-Q caps aggregate obligations under PORTS-Pike lease guarantees at **US$105B** across leases covering approximately **4.25 GW of IT load**.[^11] AMD's Q2 2026 Form 10-Q independently reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^12] Both are maximum guarantee exposures rather than funded CapEx or independently financed end demand. The cross-vendor evidence therefore broadens Financing Reflexivity beyond a single supplier without making the figures additive.
+The later filing evidence adds the denominator boundary. NVIDIA's FY27 Q2 Form 10-Q caps aggregate obligations under PORTS-Pike lease guarantees at **US$105B** across leases covering approximately **4.25 GW of IT load**.[^11] AMD's Q2 2026 Form 10-Q independently reports **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^12] Both are maximum guarantee exposures rather than funded CapEx or independently financed end demand. The cross-vendor evidence therefore broadens Financing Reflexivity beyond a single supplier while preserving the non-additive denominators.
 
 This does not, by itself, prove that the demand is artificial.
 
@@ -243,7 +243,7 @@ NVIDIA FY26 non-GAAP free cash flow remains **US$96.575B**,[^1] FY27 Q2 GAAP ope
 
 This does not guarantee a soft landing.
 
-It means only that capital clearing should not be treated as the dominant regime without **cross-signal confirmation and cross-actor causal breadth** across real-economy, market-clearing, commitment, and financing evidence. Accounting losses strengthen the severity assessment when they appear but are not required for confirmation.
+It means only that capital clearing should not be treated as the dominant regime without **cross-signal confirmation and cross-actor causal breadth** across real-economy, market-clearing, commitment, and financing evidence. Accounting losses strengthen the severity assessment when they appear, but they are not required for confirmation.
 
 ## References
 
