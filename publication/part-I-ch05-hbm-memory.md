@@ -21,7 +21,7 @@ Micron FY24 Q2 prepared remarks 给出了明确适用边界：在 **same technol
 - HBM 扩张会更强地占用 DRAM wafer / cleanroom input；
 - conventional DRAM 的有效 residual capacity 可能受到更大压力。
 
-但它**不能**被改写成 HBM 售价是 DDR5 的 3×，也不能当作每座 fab、每一代 HBM 都固定不变的“3:1 定律”。Micron 对 HBM4 的公开表述只是 trade ratio 预计进一步上升；具体 HBM4/HBM4E 数值仍需未来 vendor disclosure。
+但它**不能**被改写成 HBM 售价是 DDR5 的 3×，也不能当作每座 fab、每一代 HBM 都固定不变的“3:1 定律”。Micron FY25 Q2 prepared remarks 已给出更进一步的 forward-looking boundary：公司预计 trade ratio 会在 HBM4 上继续上升，并在 HBM4E 上再次上升，**HBM4E 预计超过 4:1**。[^7] 这仍然是 vendor expectation，不是已经实现的 industrywide production ratio。
 
 ![图 3 — HBM3E 相对 DDR5 的 wafer-supply intensity](figures/fig-03-hbm-wafer-intensity.svg)
 
@@ -88,7 +88,7 @@ GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level materi
 
 > **per-system HBM spec 可以用于理解 memory intensity；行业总需求仍必须由真实 shipment、customer demand 或 memory-vendor supply data 约束。**
 
-## 8. HBM4 提高 Cross-Layer Capital Density，但没有固定公开 Multiplier
+## 8. HBM4 提高 Cross-Layer Capital Density；后续世代 ratio 必须保留 Forecast Identity
 
 下一代 HBM 的复杂度不只来自更高 stack count，还可能来自 logic base die、advanced foundry、packaging、testing 与 qualification 的进一步耦合。
 
@@ -96,7 +96,7 @@ GB200 NVL72 的 **13.4 TB HBM3E/rack** 是一个有价值的 system-level materi
 
 **HBM vendor → logic base die → advanced foundry → advanced packaging → accelerator qualification**。
 
-这意味着 HBM 可能从“memory bottleneck”演化为跨 memory/foundry/packaging 的 system bottleneck。但在 vendor 正式披露之前，不能把 HBM3E 的 ~3× 机械改成 HBM4 4×、5×，也不能把某一种 12-Hi / 16-Hi configuration 当成所有 HBM4 的统一量产规格。
+这意味着 HBM 可能从“memory bottleneck”演化为跨 memory/foundry/packaging 的 system bottleneck。Micron 已经公开表示 trade ratio 预计会在 HBM4 上继续上升，并在 HBM4E 上**超过 4:1**。[^7] 但这一 forward-looking disclosure 仍不能被改写成“HBM4 已经等于 4×”，也不能被当作已经实现的 industrywide ratio；某一种 12-Hi / 16-Hi configuration 同样不能被当成所有 HBM4 的统一量产规格。
 
 ## 9. HBM 不按标准 Commodity-Memory Cycle 清算
 
@@ -136,3 +136,5 @@ HBM 的长期稀缺不是必然。以下变化会显著削弱当前机制：
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 [^6]: TrendForce, 2026-06-02, per-wafer revenue comparison for HBM and DDR5 64GB RDIMM, https://www.trendforce.com/presscenter/news/20260602-13074.html
+
+[^7]: Micron Technology, FY25 Q2 Prepared Remarks, 2025-03-20, HBM trade ratio expected to rise with HBM4 and to exceed 4:1 with HBM4E; forward-looking vendor expectation, https://investors.micron.com/static-files/52ce0c07-49dc-4eab-b1d2-a67bde373bca

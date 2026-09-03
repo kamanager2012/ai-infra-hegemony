@@ -20,7 +20,7 @@ This evidence supports the following conclusions:
 - HBM expansion places greater pressure on DRAM wafer / cleanroom input;
 - effective residual capacity for conventional DRAM can face stronger pressure.
 
-It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an immutable "3:1 law" for every fab and every HBM generation. Micron's public statement on HBM4 is only that the trade ratio is expected to rise further; a specific HBM4/HBM4E ratio still requires future vendor disclosure.
+It does **not** mean that HBM is priced at 3× DDR5, nor can it be treated as an immutable "3:1 law" for every fab and every HBM generation. Micron's FY25 Q2 prepared remarks add a forward-looking generation boundary: the company expects the trade ratio to rise with HBM4 and to rise again with HBM4E, where it expects the ratio to **exceed 4:1**.[^7] That is a vendor expectation, not a realized industrywide production ratio.
 
 ![Figure 3 — HBM3E wafer-supply intensity versus DDR5](figures/fig-03-hbm-wafer-intensity.svg)
 
@@ -87,7 +87,7 @@ The boundary is:
 
 > **Per-system HBM specifications can describe memory intensity; industry demand still requires observed shipments, customer demand, or memory-vendor supply data.**
 
-## 8. HBM4 raises cross-layer capital density without a fixed public multiplier
+## 8. HBM4 raises cross-layer capital density; later-generation ratios must retain forecast identity
 
 The complexity of next-generation HBM comes not only from higher stack counts. It can also involve logic base dies, advanced foundry processes, packaging, testing, and qualification.
 
@@ -95,7 +95,7 @@ If logic base dies use more advanced processes, the memory bottleneck extends fu
 
 **HBM vendor → logic base die → advanced foundry → advanced packaging → accelerator qualification**
 
-HBM can evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Before vendors formally disclose the data, however, HBM3E's ~3× ratio cannot be mechanically rewritten as 4× or 5× for HBM4, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
+HBM can evolve from a "memory bottleneck" into a system bottleneck spanning memory, foundry, and packaging. Micron has already disclosed that it expects the trade ratio to rise with HBM4 and for HBM4E to **exceed 4:1**.[^7] That forward-looking disclosure still cannot be rewritten as "HBM4 is already 4×" or as a realized industrywide ratio, and one 12-Hi or 16-Hi configuration cannot be treated as the universal HBM4 production standard.
 
 ## 9. HBM does not clear like a standard commodity-memory cycle
 
@@ -135,3 +135,5 @@ The long-run claim is not that "HBM will always be scarce." It is:
 [^4]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 [^6]: TrendForce, 2026-06-02, per-wafer revenue comparison for HBM and DDR5 64GB RDIMM, https://www.trendforce.com/presscenter/news/20260602-13074.html
+
+[^7]: Micron Technology, FY25 Q2 Prepared Remarks, 2025-03-20, HBM trade ratio expected to rise with HBM4 and to exceed 4:1 with HBM4E; forward-looking vendor expectation, https://investors.micron.com/static-files/52ce0c07-49dc-4eab-b1d2-a67bde373bca
