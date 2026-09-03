@@ -106,7 +106,7 @@ TSMC 2025 Annual Report 与 2026 年 Arizona 官方更新显示：[^4][^9]
 - 第二座 fab 的 fab structure 已完成，目标在 **2027H2** 进入 N3 volume production；
 - 第三座 fab 已于 2025 开工，规划 N2 / A16，目标在本十年末进入 volume production；
 - 第四座 fab 与首座 advanced-packaging facility 已在 2026 年进入前期建设；
-- 当前**已经进入推进/建设基线的 Arizona footprint** 包括 **six logic fabs + two advanced-packaging facilities + R&D center**；但 TSMC 又在 2026-07-16 宣布意向追加 **US$100B**，继续建设 **several more 2 nm-and-below logic fabs 与 advanced-packaging fabs**，因此 six logic fabs 不能被写成最终 announced ceiling；
+- TSMC 当前 Arizona 官方页面列出的 planned total investment 为 **US$265B**，**已经进入推进/建设基线的 footprint** 包括 **six logic fabs + two advanced-packaging facilities + R&D center**；2026 年 7 月，TSMC 又单独宣布意向建设 **several more 2 nm-and-below logic fabs 与 advanced-packaging fabs**，但该 July announcement 并未披露一个新的 incremental dollar amount，因此 six logic fabs 不能被写成最终 announced ceiling；
 - Japan Kumamoto 第一座 fab 在 2024 年末进入量产，第二座 fab 规划包含 3 nm；
 - Germany Dresden 项目面向 automotive / industrial specialty technologies；
 - Taiwan 仍持续建设 2 nm 及更先进节点，并扩张 advanced packaging。
@@ -279,6 +279,6 @@ TSMC 2025 年报明确把 Arizona expansion 与 strong multi-year AI-related dem
 [^6]: U.S. Department of Commerce, US$1.4B NAPMP advanced-packaging final awards, 2025-01, https://www.commerce.gov/news/press-releases/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next
 [^7]: U.S. Department of Commerce, Amkor Arizona advanced-packaging and test award, 2024-12, https://www.commerce.gov/news/press-releases/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor
 [^8]: ASML, “High NA EUV reaches new readiness milestone with first high-volume Logic product,” 2026-07-15, Intel 18A select layers / Panther Lake HVM, https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone
-[^9]: TSMC Arizona, current project milestones and planned manufacturing footprint, 2026, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf ; TSMC 2Q26 Earnings Conference Transcript, 2026-07-16, additional US$100B Arizona investment intent for several more 2 nm-and-below logic fabs and advanced-packaging fabs, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/57b65edbfe6e480e74abe202be983ecbde79e934/TSMC%202Q26%20Transcript.pdf
+[^9]: TSMC Arizona, current project milestones, US$265B total planned investment, six-logic-fab / two-advanced-packaging-facility base footprint, and July 2026 intent to build several more 2 nm-and-below logic fabs and advanced-packaging fabs, https://www.tsmc.com/static/abouttsmcaz/index.htm ; TSMC 2026 AGM minutes, second-fab HVM timing and Arizona expansion context, https://investor.tsmc.com/sites/ir/shareholders-meeting/2026-06-04/2026AGM_Minutes_wmn.pdf
 
 [^10]: KLA Corporation, FY2026 Form 10-K, semiconductor process control, inspection, metrology, reticle/mask, chemistry/materials quality control, advanced packaging, and 2 nm process-control intensity, https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000027/klac-20260630.htm
