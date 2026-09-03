@@ -59,7 +59,7 @@ AI access
 → persistent occupation-level effect
 ```
 
-### What is already supported
+### Labor: what is already supported
 
 **Customer support**
 - Brynjolfsson, Li & Raymond: staggered AI-assistant rollout across 5,179 agents;
@@ -88,7 +88,7 @@ This is crucial counter-evidence:
 
 But “code output” and “verified completed software work” are different denominators.
 
-### What remains missing
+### Labor: what remains missing
 
 The weakest arrows are:
 
@@ -132,7 +132,7 @@ AI-assisted instruction
 → institution-level learning outcome
 ```
 
-### What is already supported
+### Education: what is already supported
 
 **Harvard undergraduate physics RCT (2025)**
 - N=194;
@@ -159,7 +159,7 @@ This supports:
 - AI can improve human tutoring quality;
 - effects can be heterogeneous by baseline tutor skill.
 
-### What remains missing
+### Education: what remains missing
 
 Need more evidence on:
 - retention weeks/months later;
@@ -431,14 +431,14 @@ The report should not force all domains to the same confidence level.
 
 # 6. How to strengthen Chapters 15 / 25 / 26 later
 
-## Labor
+## 6.1 Labor
 Prioritize:
 - causal firm adoption studies;
 - linked employer-employee data;
 - hiring / wage / hours outcomes;
 - occupation-level task redesign.
 
-## Education
+## 6.2 Education
 Prioritize:
 - preregistered RCTs;
 - delayed retention;
@@ -447,7 +447,7 @@ Prioritize:
 - teacher workload;
 - multi-school replication.
 
-## Physical AI
+## 6.3 Physical AI
 Prioritize:
 - real fleet operating hours;
 - intervention rates;
@@ -468,14 +468,14 @@ Cost per verified support resolution
 Cost per merged/accepted software task
 ```
 
-### Education
+### 7.2 Education
 ```text
 Cost per retained mastery outcome
 ```
 
 not cost per AI interaction.
 
-### Physical AI
+### 7.3 Physical AI
 ```text
 Cost per verified physical task
 ```
@@ -492,7 +492,7 @@ This gives the whole report one downstream economic language.
 
 ---
 
-# 8. v0.2 conclusion
+# 8. v0.3 conclusion
 
 The downstream chapters do not need more confident prose.
 
