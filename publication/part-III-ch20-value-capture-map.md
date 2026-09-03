@@ -141,7 +141,7 @@ FY27 Q2 10-Q 说明最新 commitments 主要关联 data-center infrastructure sy
 
 ## 9. Model / Application 的价值取决于 Workflow Economics
 
-模型公司与 AI software 拥有 model capability、API、user distribution 和 workflow 入口，但也面对 open-source competition、inference/retrieval/tool cost、cloud bargaining 与快速价格压缩。
+模型公司与 AI software 拥有 model capability、API、user distribution 和 workflow 入口，但也面对 open-model / open-weight competition、inference/retrieval/tool cost、cloud bargaining 与快速价格压缩。
 
 传统 SaaS 的高毛利不能直接套到 AI application。正确单位是 **AI Software Unit Economics**：
 
