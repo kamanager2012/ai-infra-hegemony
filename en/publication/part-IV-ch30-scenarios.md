@@ -104,11 +104,12 @@ Typical conditions include:
 
 - advanced packaging stays structurally tight;
 - HBM manufacturing intensity / generation constraints persist;
-- leading-edge incremental capacity remains highly concentrated;
+- quantity assurance / delivery access across advanced logic, HBM, packaging, and LPS/power remain concentrated among a small set of buyers;
 - proprietary software / interconnect migration costs stay high;
 - cloud custom systems divert only part of the workload;
 - powered land / firm MW are locked for long periods by a small set of buyers;
-- Anchor Buyer and seller forward commitments continue expanding.
+- Anchor Buyer and seller forward commitments continue expanding;
+- infrastructure finance continues absorbing long-duration capital while workload monetization remains sufficient to support the associated commitments.
 
 ### Reinforcement mechanism
 
@@ -269,7 +270,7 @@ Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity
 - seller forward commitments keep expanding rapidly;
 - HBM / packaging tightness persists across generations;
 - proprietary-system switching cost rises;
-- leading-edge incremental supply remains highly concentrated;
+- quantity assurance / delivery access across multiple critical scarce layers remain concentrated among a small set of buyers;
 - scarce power / powered land is locked by a small set of Anchor Buyers;
 - alternative stacks fail to create enough production-scale optionality.
 
