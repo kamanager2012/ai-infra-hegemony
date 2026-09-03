@@ -1,4 +1,4 @@
-# P0-4C · AI Infrastructure Project-Finance Borrower Panel v0.2
+# P0-4C · AI Infrastructure Project-Finance Borrower Panel v0.3
 
 > Initially extracted from P0-4 v0.17; the parent method is now v0.18. The panel separates financing exposure from realized refinancing stress and keeps facility-level identity.
 
@@ -515,6 +515,192 @@ This makes the facility panel consistent with P0-1's reversible adjudication log
 ---
 
 
+## 11B.8 Compute Financialization — planned GPU rental futures v0.3
+
+A new market-structure development could eventually change how lenders, AI clouds and infrastructure owners manage compute-price risk.
+
+CME Group and Silicon Data have announced two planned futures contracts:
+
+- **Silicon Data H100 Rental Index Futures**
+- **Silicon Data B200 Rental Index Futures**
+
+The contracts are scheduled to begin trading on **October 5, 2026**, pending completion of regulatory review.
+
+CME's technical notices define the unit of measure as:
+
+> **GPU-H — GPU Hours**
+
+and state that each futures contract is based on Silicon Data benchmarks for hourly GPU rental costs.
+
+### 11B.8A Current state: announced / testable, not yet a live liquid market
+
+As of the current **2026-09-03** research state:
+
+~~~text
+contract specification announced
++
+Globex / clearing support prepared
++
+customer testing available
+but
+live trading not yet started
+~~~
+
+Therefore the correct research state is:
+
+> **COMPUTE-DERIVATIVES PRE-LAUNCH**
+
+Do not write:
+
+- a liquid compute futures market already exists;
+- H100/B200 forward curves already reveal market consensus;
+- lenders already hedge project debt with these contracts;
+- GPU rental-price risk has become fully hedgeable.
+
+Those claims require post-launch evidence.
+
+### 11B.8B Why this matters for project finance
+
+If these contracts become liquid enough to support real hedging, the capital stack gains a new risk-management layer.
+
+Conceptually:
+
+~~~text
+physical GPU capacity
+→ spot / contracted rental price
+→ benchmark index
+→ futures curve
+→ hedge / price discovery
+→ potentially lower revenue-volatility uncertainty
+→ potentially different lender underwriting
+~~~
+
+For an AI-cloud borrower, this could make a previously hard-to-observe variable more explicit:
+
+> **forward market expectation for standardized GPU rental prices.**
+
+That could improve:
+- revenue-sensitivity analysis;
+- collateral/residual-value modeling;
+- refinancing scenarios;
+- contract-vs-market basis analysis.
+
+But it does not eliminate:
+- utilization risk;
+- customer-default risk;
+- model / hardware obsolescence;
+- geography / power constraints;
+- basis risk between a specific facility and the index.
+
+### 11B.8C Futures price ≠ facility economics
+
+The benchmark tracks rental pricing for standardized GPU categories.
+
+A real facility's economics also depend on:
+
+- GPU generation / exact SKU;
+- cluster size;
+- networking;
+- location;
+- power cost;
+- availability / uptime;
+- reserved vs on-demand contract;
+- software / support;
+- customer credit;
+- utilization;
+- contract duration.
+
+Therefore:
+
+> **H100/B200 futures cannot be treated as a direct mark-to-market of a data-center project.**
+
+The relevant variable is basis:
+
+~~~text
+Facility Realized Rental Economics
+-
+Benchmark Futures / Index Economics
+=
+Basis
+~~~
+
+A hedge is only economically useful if that basis remains manageable.
+
+### 11B.8D New observables after launch
+
+If the contracts go live, 04C should maintain:
+
+| Variable | Why it matters |
+|---|---|
+| launch / regulatory state | distinguishes announced product from tradable instrument |
+| daily volume | whether market is actually used |
+| open interest | persistence / risk transfer rather than one-off prints |
+| bid-ask / liquidity | practical hedgeability |
+| futures curve | expected rental-price term structure |
+| spot-futures basis | hedge effectiveness |
+| H100 vs B200 spread | generation / obsolescence signal |
+| participant adoption | whether AI clouds / lenders / hyperscalers actually use it |
+| collateral / margin burden | hedge can itself consume liquidity |
+| correlation with facility revenue | whether the index maps to project cash flow |
+
+### 11B.8E S4 boundary
+
+A declining compute futures curve is **not** by itself Market Clearing or S4.
+
+Possible explanations include:
+- expected new supply;
+- generation transition;
+- efficiency gains;
+- index methodology changes;
+- lower power / operating cost;
+- expected weaker demand.
+
+Escalation requires physical / economic cross-confirmation:
+
+~~~text
+futures / rental curve weakens
++
+spot rental / resale clearing weakens
++
+utilization falls
++
+forward commitments fall
++
+project refinancing / monetization deteriorates
+~~~
+
+Conversely, a steep / expensive forward curve can coexist with poor project economics if:
+- utilization is weak;
+- customer concentration is high;
+- financing cost is excessive.
+
+So compute derivatives are a **new price-discovery input**, not a new standalone clearing signal.
+
+### 11B.8F Financialization can improve and amplify the system
+
+Potential stabilizing effect:
+- hedging reduces cash-flow uncertainty;
+- lenders can model revenue risk more explicitly;
+- standardized price discovery may reduce financing friction.
+
+Potential amplification effect:
+- mark-to-market changes become visible faster;
+- margin requirements can create liquidity needs;
+- forward-curve repricing can affect collateral / underwriting expectations;
+- a standardized benchmark can synchronize market expectations.
+
+This is a research hypothesis until post-launch data exists.
+
+### 11B.8G Current adjudication
+
+Current conclusion:
+
+> **The institutional infrastructure for treating GPU compute rental cost as a hedgeable, standardized asset is being built, but the market has not yet demonstrated liquidity, adoption, basis quality, or financing transmission.**
+
+No P0-1 / S4 state change follows from the announcement.
+
+---
+
 ## Facility-level longitudinal sources added in v0.2
 
 - CoreWeave Q2 2026 Form 10-Q — DDTL 4.0 / 5.0 draw states, debt maturities, interest expense and subsequent DDTL 5.5 disclosure: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
@@ -536,3 +722,10 @@ This makes the facility panel consistent with P0-1's reversible adjudication log
 - IREN Q3 FY26 filing — binding ~US$3.6B GPU financing commitment backed by Microsoft-related GPUs / cash flows: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000026/iren-20260331.htm
 - IREN FY26 results, 2026-08-27 — additional GPU financings, customer prepayments and legacy Bitcoin-mining impairment identity: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm
 
+
+
+## Compute-financialization sources added in v0.3
+
+- CME Group, 2026-08-11, “CME Group and Silicon Data to Launch Compute Futures on October 5 to Unlock New Way to Hedge AI Risks”: https://www.cmegroup.com/media-room/press-releases/2026/8/11/cme_group_and_silicondatatolaunchcomputefuturesonoctober5tounloc.html
+- CME Group Globex Notice, 2026-08-17 — planned H100/B200 Compute Futures, GPU-H unit-of-measure support and October-5 launch schedule pending regulatory review: https://www.cmegroup.com/notices/electronic-trading/2026/08/20260817.html
+- CME Group, Compute Futures product page — benchmark / hedging design and pending-regulatory-review status: https://www.cmegroup.com/markets/energy/power/compute-futures.html
