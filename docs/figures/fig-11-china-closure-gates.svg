@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+<title id="title">Figure 11 — Production-Grade Parallel Stack versus Autonomous Frontier Closure</title><desc id="desc">Two nested closure tests: seven production-grade gates and two additional continuity gates required for autonomous frontier closure.</desc>
+<rect width="1500" height="900" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:39px;font-weight:700}.s{font-size:22px;fill:#444}.panel{fill:#fafafa;stroke:#222;stroke-width:2}.h{font-size:27px;font-weight:700}.b{font-size:21px}.n{font-size:18px;fill:#555}.a{stroke:#333;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<text x="70" y="68" class="t">China frontier assessment requires two separate closure tests</text>
+<text x="70" y="108" class="s">Production deployment can become economically meaningful before full multi-generation autonomy is established.</text>
+<rect class="panel" x="100" y="185" width="560" height="550" rx="18"/>
+<text x="380" y="240" class="h" text-anchor="middle">Production-Grade Parallel Stack</text>
+<text x="145" y="300" class="b">1. Accelerator / compute delivery</text>
+<text x="145" y="350" class="b">2. HBM-class or equivalent memory</text>
+<text x="145" y="400" class="b">3. Advanced packaging / integration</text>
+<text x="145" y="450" class="b">4. High-speed interconnect</text>
+<text x="145" y="500" class="b">5. Compiler / runtime + migration cost</text>
+<text x="145" y="550" class="b">6. Production workloads + feedback</text>
+<text x="145" y="600" class="b">7. Utilization / reliability / economics</text>
+<text x="380" y="675" class="s" text-anchor="middle">Question: can the system work commercially at verifiable scale?</text>
+<line class="a" x1="670" y1="455" x2="810" y2="455"/>
+<rect class="panel" x="830" y="250" width="560" height="420" rx="18"/>
+<text x="1110" y="305" class="h" text-anchor="middle">Autonomous Frontier Closure</text>
+<text x="875" y="370" class="b">Includes all seven production-grade gates, plus:</text>
+<text x="875" y="435" class="b">8. Advanced-manufacturing continuity</text>
+<text x="905" y="475" class="n">equipment / software / materials / spares / service / process upgrades</text>
+<text x="875" y="545" class="b">9. Infrastructure / capital continuity</text>
+<text x="905" y="585" class="n">HBM / packaging / LPS / power / long-duration capital</text>
+<text x="1110" y="635" class="s" text-anchor="middle">Question: can the stack keep scaling when critical external inputs are constrained?</text>
+<text x="750" y="775" class="s" text-anchor="middle">Current evidence · Aug 28, 2026: partial production deployment is real; the seven Production-Grade Gates are not all publicly closed.</text>
+<line x1="70" y1="790" x2="1430" y2="790" stroke="#bbb"/>
+<text x="70" y="830" class="n">Source: Report framework and current-state synthesis; Chapters 17 and 32.</text>
+<text x="70" y="860" class="n">Boundary: production-grade substitution ≠ full technological autonomy; import dependence also does not prove that no production-grade parallel stack exists.</text>
+</svg>
