@@ -13,7 +13,7 @@
 - [Table 4.1 — TSMC 2025 产能、技术与平台收入结构](part-I-ch04-tsmc-advanced-logic.md)
 - [Table 7.1 — 代表性 AI 电力 / LPS 路径](part-I-ch07-power-constraint.md)
 - [Table 7.2 — 与 Time-to-Power 直接相关的 Grid Delivery Frictions](part-I-ch07-power-constraint.md)
-- [Table 8.1 — NVL72 Rack-to-MW D 级强度换算](part-I-ch08-quantitative-framework.md)
+- [Table 8.1 — NVL72 rack-power-to-hardware D 级强度换算](part-I-ch08-quantitative-framework.md)
 - [Table 8.2 — 2026 Public-Data Quantification Readiness by Layer](part-I-ch08-quantitative-framework.md)
 - [Table 8.3 — 2026 Public-Data Gap / Intensity Ledger](part-I-ch08-quantitative-framework.md)
 - [Table 8.4 — 2026 年可计算锚点 vs 尚未闭合的 Denominator](part-I-ch08-quantitative-framework.md)
