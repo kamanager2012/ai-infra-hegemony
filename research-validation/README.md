@@ -38,7 +38,7 @@ Primary / auditable evidence
         ├─ 07  Downstream Labor / Education / Physical-AI evidence chains
         ├─ 09  China technical system-stack closure
         ├─ 12  Non-AI end-system response evidence
-        └─ 13  Developer-distribution / vertical-foreclosure evidence
+        └─ 13  Developer-distribution / model-production / capability-absorption evidence
                  │
                  ├─ 11 Financing taxonomy / causal double-counting map
                  ├─ 10 Scenario aggregation / S1–S4 relevance
@@ -75,7 +75,7 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - **Public-Proxy Scenario Dashboard**：v0.6；新增 derived-layer ownership contract：Dashboard 只做 scenario aggregation，不再作为 04A/04B/04C/04D 的竞争性事实台账。Dashboard K 的 company/facility factual state 分别以 04B/04C 为准，Dashboard 只负责 cross-confirmation 与 S1–S4 relevance；
 - **Financing Reflexivity Map**：v0.3；继续保留 2026 Support Taxonomy 与 anti-double-counting，但新增 scope contract：`11` 只负责 financing taxonomy / causal graph / reflexivity diagnostic；facility state 归 04C，support activation / funded-loss state 归 04D，live clearing adjudication 归 01A；
 - **Non-AI End-System Supply Conditions**：v0.4；在 downstream response-only 规则基础上新增 automotive / industrial attribution counterevidence：NXP 2026Q2 automotive/industrial revenue recovery、Infineon AI growth 与 automotive-order recovery / shared-capacity expansion、ST selected tightness + low distribution inventory 共同说明 supplier-side AI growth / tightness 不能替代 OEM response。当前结论仍是 shared-resource exposure credible，但 broad realized AI-attributed automotive/industrial pressure 未建立；
-- **Developer Distribution Chokepoint**：**v0.5**；Hugging Face transaction gate 与 pre-control neutrality baseline 保持不变，当前仍为 **DDC-A / transaction-status WATCH**；新增邻接机制 **Model Production Gravity (MPG-WATCH)**：Poolside 一手技术报告确认其 Model Factory 是 data + training + evaluation + inference 的模型生产系统，媒体则报道 NVIDIA 约 US$6B non-exclusive license、约 US$1B investment 与人才转移；交易结构保持 C-grade，不写成 NVIDIA acquired Poolside，也不把 MPG-WATCH 升级为 DDC-B。
+- **Developer Distribution Chokepoint**：**v0.6**；DDC、MPG、CAWA 已拆成三套独立机制。DDC 仍为 **DDC-A / transaction-status WATCH**；MPG 仍为 **MPG-WATCH**，Poolside transaction terms 继续保持 C-grade；新增 **CAWA-OBSERVED — Capability Absorption Without Acquisition**：Groq 一手确认 2025-12-24 与 NVIDIA 签 non-exclusive inference technology license，Jonathan Ross / Sunny Madra 等加入 NVIDIA、Groq 公司继续独立；2026-08-24 NVIDIA 又一手确认 NVIDIA Groq 3 LPX 已进入 Vera Rubin 产品栈量产。CAWA-OBSERVED 证明 legal ownership 不是 capability accumulation 的唯一变量，但不等于 foreclosure；正式 Ch02/Ch11 当前维持 HOLD，不因该机制自动重开。
 
 ## 文件索引
 
@@ -138,5 +138,5 @@ After this adjudication, Phase II moves from framework construction to **state-t
 5. Decision Invariants 结构已收口；不再扩充 hard-invariant 数量，也不再改 canonical 编号。后续只在真实实施案例出现时验证 L/M/H implementation burden；
 6. China extension 已成为技术闭合权威层；后续只补能改变某一 layer closure state 的一手/高质量独立证据，不再为了公司数量扩表；已确认重大口径错误才按冻结规则考虑同步正式 ch17；
 7. P2 进入 chain-closure maintenance：Labor 只接受能推进 causal staffing / wage / occupation transmission 的证据；Education 只接受 delayed retention / transfer、teacher workload、implementation cost 或 system-scale outcome；Physical AI 只接受 intervention / uptime / safety denominator / TCO / customer renewal / multi-site fleet economics。Non-AI automotive/industrial 只接受 OEM / equipment-maker procurement、pricing、qualification、lead-time、production/cadence 的真实 response；supplier-side tightness 本身不再触发 attribution。
-8. Developer Distribution Chokepoint / Model Production Gravity 继续分开维护：DDC 只有 first-party agreement/approval/closing 或真实 post-control conduct 才推进；MPG 只有 exclusive/effectively-exclusive production technology、人才/训练系统依赖、hardware coupling 或 production→distribution bundling 出现跨证据确认才升级。媒体 license/talent 报道本身不触发正式正文重开；
+8. `13` 继续分开维护 DDC / MPG / CAWA：DDC 只看 distribution conduct；MPG 只看 model-production concentration；CAWA 只看 license + talent + product-integration 后的 capability absorption。Groq 已使 CAWA 从 hypothesis 升为 OBSERVED，但只有 source-company/rival access materially weakens、类似模式跨更多独立能力层重复，或 CAWA+MPG+DDC 改变 competition judgment 时，才触发正式正文 material-reopen gate；
 9. 等上述 empirical layers 稳定后，再决定是否明确重开正式 32 章正文。
