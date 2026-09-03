@@ -70,7 +70,9 @@ This is the fundamental variable determining whether capital expansion is econom
 
 Whose balance sheet ultimately supports long-duration compute demand?
 
-By August 2026, compute financing had expanded beyond corporate CapEx into third-party capital and LPS credit support.[^4][^5] This report classifies the supplier equity / credit-support element of such structures as **seller-assisted financing**; that is a report-side analytical label, not wording used in the underlying NVIDIA releases.
+By August 2026, compute financing had expanded beyond corporate CapEx into third-party capital and LPS credit support.[^4][^5] First-party filings also show that supplier-side guarantees are not limited to one company: NVIDIA's PORTS-Pike guarantees cap aggregate obligations at **US$105B**, while AMD reported **US$4.1B of maximum gross exposure** from guarantees tied to certain commercial-partner data-center lease obligations.[^6][^7] These are maximum guarantee exposures, not funded CapEx and not additive demand totals.
+
+This report classifies the supplier equity / credit-support element of such structures as **seller-assisted financing**; that is a report-side analytical label, not wording used in the underlying releases or filings.
 
 The report therefore separates:
 
@@ -139,8 +141,9 @@ A disciplined sequence is:
 1. identify measurable real workflows;
 2. establish evaluation / verification;
 3. calculate cost per completed task and business value;
-4. preserve model / cloud / data portability;
-5. use longer compute commitments only after demand becomes sufficiently predictable.
+4. measure human-review, failure, and retry costs;
+5. preserve model / cloud / data portability;
+6. use longer compute commitments only after demand becomes sufficiently predictable.
 
 High-certainty workloads can justify longer reservations.
 
@@ -163,9 +166,10 @@ Even when a continuously maintained second production path is not justified, pre
 - cloud portability;
 - accelerator / runtime optionality;
 - open interfaces;
-- workload benchmarks and cost observability.
+- workload benchmarks and cost observability;
+- operational recovery.
 
-Where a second path is maintained, it exists to reduce single-point supply, pricing, policy, and migration risk. A low-criticality workload in an abundant / highly portable market may rationally rely on reconstructible optionality instead of carrying a permanently validated duplicate path.
+Where a second path is maintained, it exists to reduce single-point supply, pricing, policy, and migration risk. A second path that exists only in procurement or architecture documents without production-like validation does not provide effective bargaining power or resilience. A low-criticality workload in an abundant / highly portable market may rationally rely on reconstructible optionality instead of carrying a permanently validated duplicate path.
 
 ## 5A. End-system companies: manage Quantity Assurance, not price alone
 
@@ -201,23 +205,43 @@ At least four asset classes should remain separate:
 **Source:** Report Value Capture / Duration framework.  
 **Note:** The classification is for strategic analysis and is not an investment rating or valuation recommendation.
 
-High CapEx can be an entry barrier and preparation for growth, or a source of future depreciation and stranded assets.
+The same revenue growth can have very different capital-return implications across these asset classes.
 
-Capital analysis therefore requires CapEx, utilization, revenue, FCF, forward commitments, and clearing prices together.
+Capital analysis therefore cannot rely only on revenue growth, CapEx, or valuation multiples. It must also track:
+
+- utilization;
+- FCF;
+- forward commitments;
+- clearing prices;
+- residual value;
+- asset duration;
+- customer concentration;
+- third-party risk capital;
+- supplier equity / credit support;
+- refinancing dependency.
 
 ## 7. Capital: duration mismatch is the structural risk
 
-Short-cycle compute demand can be matched against long-duration debt, PPAs, data-center shells, and transmission assets.
+AI infrastructure combines multiple duration clocks:
 
-If workload demand disappoints, these assets clear much more slowly than hardware inventory.
+- short-cycle accelerators / servers;
+- medium-duration networking / cooling;
+- long-duration data-center shells;
+- still-longer grid / generation / PPA assets.
 
-The central question is:
+If short-cycle workload demand is matched against long-duration debt, PPAs, data-center assets, or transmission infrastructure and demand disappoints, the assets do not clear on the same clock.
+
+The central question is not simply:
+
+> "Is AI CapEx too high?"
+
+It is:
 
 > **Does demand duration match asset duration?**
 
 Under high demand, long-duration assets can be a moat.
 
-Under S4, the same assets can become long-lived burdens.
+Under S4, the same assets can become stranded capacity and refinancing risk.
 
 ## 8. Industrial policy: the competitive unit is the system, not one fab
 
@@ -231,15 +255,28 @@ A complete frontier-AI industrial capability requires at least:
 - compiler/runtime;
 - data centers;
 - power / grid;
-- talent / production operations.
+- engineering talent;
+- production operations.
 
-Subsidizing one advanced fab therefore does not create system closure.
+Subsidizing one advanced fab therefore does not create frontier-AI industrial capability.
 
-Manufacturing, memory, packaging, software, and power must be managed as one industrial strategy.
+The relevant national objective is:
+
+> **system-level continuity**
+
+That asks whether the overall system can continue operating, expanding, and iterating at acceptable cost when one or more critical external inputs are disrupted.
 
 ## 9. Industrial policy: power policy is now compute policy
 
-High-power racks pull grid planning, generation, interconnection, substations, cooling, and permitting into technology competition.
+High-power AI systems pull the following directly into compute competition:
+
+- generation;
+- transmission;
+- grid interconnection;
+- substations;
+- transformers;
+- cooling;
+- permitting.
 
 If chip supply expands while Time-to-Power does not improve, the result can be "hardware available, deployment delayed."
 
@@ -247,7 +284,7 @@ A national AI-infrastructure strategy therefore must manage:
 
 > **semiconductor clock + power-permitting clock + capital clock**
 
-at the same time.
+at the same time. Power can no longer be treated as an operating issue that begins only after the data center is built.
 
 ## 10. Industrial policy: interoperability creates optionality
 
@@ -325,7 +362,7 @@ The most important update variables include:
 - whether major system-seller commitments keep expanding or begin to contract;
 - production workload share and migration cost for cloud custom stacks;
 - whether HBM / advanced-packaging tightness materially eases;
-- whether leading-edge capacity access becomes more distributed;
+- whether quantity assurance / delivery access across multiple critical scarce layers becomes more distributed;
 - whether energized MW / Time-to-Power improves;
 - whether Anchor Compute Buyer commitments convert into real delivery;
 - whether AI monetization covers the expanding capital base;
@@ -387,3 +424,7 @@ This chapter does not offer a fixed ten-year end-state. It offers a set of strat
 [^3]: TrendForce, 2026-08-25, 2026E HBM + RDIMM share of DRAM bit supply, https://www.trendforce.com/presscenter/news/20260825-13198.html
 [^4]: NVIDIA, 2026-08-10, AI compute infrastructure financing platforms and >US$500B third-party-capital mobilization target, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^5]: NVIDIA, 2026-08-17, PORTS-Pike / SB Energy / OpenAI, LPS credit support and initial 4.25 IT-GW design capacity, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+
+[^6]: NVIDIA Corporation, FY27 Q2 Form 10-Q, SB Energy / PORTS-Pike guarantees covering approximately 4.25 GW of IT load, aggregate obligations capped at US$105B, and exposure declining as lease payments are made, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+
+[^7]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
