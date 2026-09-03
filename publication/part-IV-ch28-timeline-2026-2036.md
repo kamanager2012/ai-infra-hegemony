@@ -116,7 +116,7 @@ PORTS-Pike 的公开计划是从 **calendar 2028** 开始分阶段上线；NVIDI
 
 ### Resource Hegemony
 
-logic、HBM、packaging、software / interconnect 与 power 的协调能力进一步集中。若 executable second path 长期不足，低议价和长认证整机的 quantity-assurance gap 与 upgrade pressure 可能进一步固化。
+logic、HBM、packaging、software / interconnect 与 power 的协调能力进一步集中。多个 scarce layers 的 quantity assurance / delivery access、switching cost 与 financing coordination 同时强化，且 workload monetization 足以支撑相关 long-duration commitments。若 executable second path 长期不足，低议价和长认证整机的 quantity-assurance gap 与 upgrade pressure 可能进一步固化。
 
 ### Capital Hard Landing
 
@@ -200,7 +200,7 @@ Talen/AWS 的当前 state 也要按后续 filing 读取：2026 Q2 10-Q 已明确
 [^6]: Kairos Power / Google partnership, 2030 / 2035 development milestones, https://www.kairospower.com/google
 [^7]: TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
 [^8]: Microsoft FY26 Q4 earnings, https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast ; Alphabet Q2 2026 company CapEx guidance reported by Reuters, https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/ ; Meta 2026 Q2 SEC Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm ; Amazon 2026 Q2 Form 10-Q, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
-[^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^9]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and announcement-stage phased online plan beginning in calendar 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx ; NVIDIA Corporation, FY27 Q2 Form 10-Q, first guarantee/service phase expected in FY2029 across the phased nine-data-center structure, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 
 [^10]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
