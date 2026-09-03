@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
+<title id="title">Figure 4 — NVIDIA forward supply / capacity commitment family in 2026</title><desc id="desc">A three-bar chart of three disclosed forward-commitment points: 95.2 billion dollars on January 25, 119 billion on April 26, and 279 billion on July 26, 2026. Reporting labels, mix, and duration are not identical across dates.</desc>
+<rect width="1500" height="820" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:40px;font-weight:700}.s{font-size:23px;fill:#444}.lab{font-size:23px;font-weight:700}.v{font-size:31px;font-weight:700}.n{font-size:18px;fill:#555}.bar{fill:#444}.axis{stroke:#222;stroke-width:2}.tick{font-size:18px;fill:#555}</style>
+<text x="75" y="68" class="t">Forward resource reservation intensified sharply in 2026</text>
+<text x="75" y="108" class="s">NVIDIA forward supply / capacity commitment family (US$B)</text>
+<line x1="165" y1="650" x2="1370" y2="650" class="axis"/>
+<line x1="165" y1="170" x2="165" y2="650" class="axis"/>
+<text x="135" y="655" class="tick" text-anchor="end">0</text><text x="135" y="495" class="tick" text-anchor="end">100</text><text x="135" y="335" class="tick" text-anchor="end">200</text><text x="135" y="175" class="tick" text-anchor="end">300</text>
+<line x1="155" y1="490" x2="1370" y2="490" stroke="#ddd"/><line x1="155" y1="330" x2="1370" y2="330" stroke="#ddd"/><line x1="155" y1="170" x2="1370" y2="170" stroke="#ddd"/>
+<rect class="bar" x="290" y="498" width="240" height="152"/><text class="v" x="410" y="475" text-anchor="middle">95.2</text><text class="lab" x="410" y="690" text-anchor="middle">Jan 25, 2026</text>
+<rect class="bar" x="640" y="460" width="240" height="190"/><text class="v" x="760" y="437" text-anchor="middle">119</text><text class="lab" x="760" y="690" text-anchor="middle">Apr 26, 2026</text>
+<rect class="bar" x="990" y="204" width="240" height="446"/><text class="v" x="1110" y="181" text-anchor="middle">279</text><text class="lab" x="1110" y="690" text-anchor="middle">Jul 26, 2026</text>
+<text x="75" y="750" class="n">Source: NVIDIA public filings cited in Chapters 2 and 8.</text>
+<text x="75" y="780" class="n">Boundary: aggregate commitments; public filings do not provide a supplier-level split, and commitments are not equivalent to realized supplier revenue or delivered capacity.</text>
+</svg>
