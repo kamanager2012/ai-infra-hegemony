@@ -156,9 +156,7 @@ Power 不能只作为 electricity-price input 分析。
 
 > **IT-GW ≠ generation GW ≠ PPA capacity**
 
-PORTS-Pike 的重要性不在于“已经有 4.25 GW AI load”，而在于它显示 land、power、shell、credit support 与 model-company demand 正在更早地被联合协调。
-
-但其 initial **4.25 IT-GW design capacity** 仍然是 planned future capacity，不是 2026 年已经 energized 或 utilized 的 load。[^rb4]
+PORTS-Pike 的分析意义在于：land、power、shell、credit support 与 model-company demand 正在 infrastructure cycle 更早阶段被联合协调；但其 initial **4.25 IT-GW design capacity** 仍然是 planned future capacity，不是当前 utilized AI load。[^rb4]
 
 因此，真正的 industrial advantage 不是“谁买了更多 power”，而是：
 
