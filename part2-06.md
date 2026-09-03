@@ -14,7 +14,7 @@
 
 并网排队需要与 AI 负荷区分。Berkeley Lab 的 Queued Up 数据显示，美国 active generation/storage interconnection queue 在 **2023 年末**曾接近 **2,600 GW**；到 **2025 年末**已降至约 **2,061 GW**。这些队列主要是发电与储能项目，不能直接视为数据中心电力缺口。可确认的是并网流程仍可能跨越多年，而不是把某个历史峰值机械换算成 AI 可用 MW。
 
-购电与核电项目必须拆成三种法律/物理结构。第一，Microsoft/Constellation：20 年 PPA 支持 Crane 重启，机组约 **835 MW**；本篇不采用缺乏一手支撑的“重启资本开支约 US$1.6B”数字。第二，AWS/Talen：Cumulus 园区曾有约 **960 MW** 的名义规模，但这不能写成已获批的直连结构上限；2025 revised PPA 将 full contract quantity 提高至 **up to 1,920 MW** 并转向 front-of-the-meter。Talen 2026 Q2 10-Q 写明 transition to the revised AWS PPA **occurred in April 2026**；较早 2025 10-K 同时写明 full transition expected in **spring 2027**，而 full contract volume 仍按计划逐步 ramp，不能把 April 2026 写成全部物理交付完成。第三，Google/Kairos：Hermes 2 目标 **up to 50 MWe in 2030**，fleet **up to 500 MWe by 2035**。这些 MW/MWe 都是合同或开发路径，不是已上电 AI rack load。
+购电与核电项目必须拆成三种法律/物理结构。第一，Microsoft/Constellation：20 年 PPA 支持 Crane 重启，机组约 **835 MW**；9/20 初始公告没有量化 restart investment，但 11/4 Q3 results 已一手估计约 **US$1.6B cash from operations** 用于 restart capital expenditures，目标 2028 in service。该 1.6B 是 project restart-CapEx estimate，不是 Microsoft CapEx、PPA value 或已实际支出金额。第二，AWS/Talen：Cumulus 园区曾有约 **960 MW** 的名义规模，但这不能写成已获批的直连结构上限；2025 revised PPA 将 full contract quantity 提高至 **up to 1,920 MW** 并转向 front-of-the-meter。Talen 2026 Q2 10-Q 写明 transition to the revised AWS PPA **occurred in April 2026**；较早 2025 10-K 同时写明 full transition expected in **spring 2027**，而 full contract volume 仍按计划逐步 ramp，不能把 April 2026 写成全部物理交付完成。第三，Google/Kairos：Hermes 2 目标 **up to 50 MWe in 2030**，fleet **up to 500 MWe by 2035**。这些 MW/MWe 都是合同或开发路径，不是已上电 AI rack load。
 
 财务层面，历史情景参数曾使用四云混年 CapEx、电力与土建投入以及电费/PUE 假设进行压力测试。这些数字并非统一的 AI 硬件官方口径，也不能据此推导核电运营商与 NVIDIA 处于同一利润率区间。正式分析仅保留已披露的 CapEx、PPA、项目容量与利用率变量。
 
@@ -62,7 +62,7 @@ Kairos 路线目前可确认的是示范与开发进展，而不是大规模商�
 
 ## 5. 研究边界与未确认事项
 
-官方公开资料足以确认835MW级Crane重启、Susquehanna新版最高1,920MW PPA、Google/Kairos最高500MW开发目标；但合同文本细节、逐年上电曲线和实际负载利用率仍不完整。Constellation 官方稿只写重启需要 significant investments，**没有披露 US$1.6B restart CapEx**；US$16B 是州 GDP 影响口径，也不能当成项目资本开支。2,600 GW含非人工智能项目，未拆，不进事实层。每度八美分与电能利用效率一点二是假设。二零三零、二零三六功率是预测。中国、欧洲、印度电网不在实证里。核电运营商毛利率无单列。未经逐项一手校准的 rack-to-household、facility-overhead 与年用电类比不进入正式事实层；本篇仅保留已明确标为 D 级的 500×120 kW = 60 MW rack-level 算术。能源项目判断仅依据公开监管与公司材料，不将其等同于工程审计结论。
+官方公开资料足以确认835MW级Crane重启、Susquehanna新版最高1,920MW PPA、Google/Kairos最高500MW开发目标；但合同文本细节、逐年上电曲线和实际负载利用率仍不完整。Constellation 9/20 初始 announcement 只写 significant investments；11/4 Q3 results 则进一步披露约 **US$1.6B cash from operations 的 restart-CapEx estimate**。US$16B 是州 GDP 影响口径，不能当成项目资本开支；US$1.6B 也不能改写成 Microsoft CapEx、PPA value 或 cash already spent。2,600 GW含非人工智能项目，未拆，不进事实层。每度八美分与电能利用效率一点二是假设。二零三零、二零三六功率是预测。中国、欧洲、印度电网不在实证里。核电运营商毛利率无单列。未经逐项一手校准的 rack-to-household、facility-overhead 与年用电类比不进入正式事实层；本篇仅保留已明确标为 D 级的 500×120 kW = 60 MW rack-level 算术。能源项目判断仅依据公开监管与公司材料，不将其等同于工程审计结论。
 
 把核电写成绝对的政治正确或绝对的政治错误，都帮不了折旧模型。本文只要求三件事可核对：功率是否真正送出、年限是否长于四年、许可是否可执行。三类项目目前分别处于“签约重启、许可推进”“revised-PPA transition 在 2026 Q2 10-Q 中标记为 April 2026、但 full physical transition 仍需结合较早 2025 10-K 的 spring 2027 预期理解，容量继续爬坡”“远期 SMR 开发、示范向商业化推进”三个状态。它们不能直接加总为已经送达数据中心的实时 GW；能源分析必须按合同、许可、上电与利用率分别记录。
 
@@ -79,6 +79,7 @@ Kairos 路线目前可确认的是示范与开发进展，而不是大规模商�
 
 - NVIDIA DGX GB200 hardware guide（~120 kW/rack）：https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
 - Constellation / Microsoft Crane restart（20-year PPA；约835 MW；significant investments）：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs
+- Constellation Q3 2024 results（约US$1.6B cash from operations restart CapEx estimate；2028 in-service）：https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2024-results
 - Talen 2026 Q2 10-Q（transition occurred April 2026；up to 1,920 MW）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 - Talen 2025 10-K（spring 2026 start；full transition expected spring 2027）：https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 - Kairos / Google（Hermes 2 up to 50 MWe in 2030；fleet up to 500 MWe by 2035）：https://www.kairospower.com/google

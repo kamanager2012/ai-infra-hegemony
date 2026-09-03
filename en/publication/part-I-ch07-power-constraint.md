@@ -38,7 +38,9 @@ The case shows how hyperscaler demand can support a large existing power asset r
 
 But 835 MW is a project / unit-capacity anchor, not evidence that 835 MW is already being delivered in real time to AI data centers. The project still sits on regulatory, repair, restart, interconnection, and commercial-operation clocks.
 
-Constellation's official release states that the restart requires significant investment but does **not** disclose a US$1.6B restart CapEx figure. That number therefore does not enter this chapter's fact layer.
+Constellation's **September 20, 2024 initial PPA / restart announcement** said the project would require significant investment but did not quantify that investment. The company's **November 4, 2024 Q3 results** then estimated that the restart would require approximately **US$1.6B of cash from operations for restart capital expenditures**, with an estimated **2028 in-service date**.[^2]
+
+That **US$1.6B is a first-party project restart-CapEx estimate**. It is **not** Microsoft CapEx, the PPA's contract value, cash already spent, or evidence of 835 MW already being delivered to AI data centers.
 
 ### 3.2 Talen / AWS: a revised PPA of up to 1,920 MW
 
@@ -188,7 +190,7 @@ Headline GW growth alone is not sufficient evidence that the power bottleneck ha
 ## References
 
 [^1]: NVIDIA, DGX GB Rack Scale Systems User Guide, rack power consumption approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-[^2]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html
+[^2]: Constellation, 2024-09-20 Crane Clean Energy Center / Microsoft 20-year PPA announcement, approximately 835 MW unit and 2028 restart target, https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html ; Constellation, 2024-11-04 Q3 2024 results, approximately US$1.6B of cash from operations estimated for restart capital expenditures and 2028 in-service estimate, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2024-results
 [^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition and up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google

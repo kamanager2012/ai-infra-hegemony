@@ -51,7 +51,9 @@ Microsoft 与 Constellation 的 **20 年 PPA** 支持原 Three Mile Island Unit 
 
 但 835 MW 是项目容量锚，不代表 835 MW 已经实时送达 AI data center。
 
-Constellation 官方公告只表示重启需要 significant investment，**并未披露 US$1.6B restart CapEx**；因此该数字不进入本章 fact layer。
+Constellation **2024-09-20 的首份 PPA / restart announcement** 只写项目需要 significant investment，并未量化该投资；但公司 **2024-11-04 Q3 2024 results** 随后明确估计，Crane restart 需要约 **US$1.6B cash from operations 用于 restart capital expenditures**，estimated in-service date 为 **2028**。[^2]
+
+因此，**US$1.6B 可以进入一手 fact layer，但身份必须锁定为 project restart-CapEx estimate**：它不是 Microsoft CapEx、不是 PPA contract value、不是已经实际支出的金额，也不代表 835 MW 已经实时送达 AI data center。
 
 真正决定经济价值的是：
 
@@ -296,7 +298,7 @@ Crane 对应 **20 年 PPA**，而 compute hardware 会更快换代。[^2]
 ## References
 
 [^1]: NVIDIA, DGX GB200 Hardware Guide, rack power approximately 120 kW, https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html
-[^2]: Constellation, Crane Clean Energy Center / Microsoft 20-year PPA and approximately 835 MW unit, https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html
+[^2]: Constellation, 2024-09-20 Crane Clean Energy Center / Microsoft 20-year PPA announcement, approximately 835 MW unit and 2028 restart target, https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html ; Constellation, 2024-11-04 Q3 2024 results, approximately US$1.6B of cash from operations estimated for restart capital expenditures and 2028 in-service estimate, https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2024-results
 [^3]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition and up to 1,920 MW, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm
 [^4]: Talen Energy, 2025 Form 10-K, expected full transition timing, U.S. SEC, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^5]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
