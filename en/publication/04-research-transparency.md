@@ -6,7 +6,8 @@ The report is authored by **James (kamanager2012)**.
 
 The GitHub repository stores versioned research text, source indexes, evidence ledgers, and revision history. This traceability helps readers inspect how claims change over time, but it **does not constitute external peer review, audit assurance, a securities-research rating, or institutional endorsement**.
 
-**Retrieval and revision cutoff: August 28, 2026.**
+**Evidence cutoff: August 28, 2026.**  
+**Edition revision: September 3, 2026.**
 
 **Date interpretation:** the **evidence cutoff** determines which observed facts and external materials may support this edition. The **edition revision date** records when the current text was last materially edited. Detailed correction history remains available below and in Git history; these dates do not imply external review or audit status.
 
