@@ -41,7 +41,7 @@ Lower unit cost, however, does not guarantee lower aggregate infrastructure dema
 
 ### 3A. Price compression does not imply falling aggregate compute demand
 
-Stanford AI Index 2025 provides a historical anchor: at the report's GPT-3.5-equivalent MMLU performance level, inference cost fell from about **US$20 per million tokens** in November 2022 to about **US$0.07 per million tokens** in October 2024—roughly a **280× decline**.[^3]
+Stanford AI Index 2025 provides a historical anchor: at the GPT-3.5-equivalent MMLU performance level used in its comparison, inference cost fell from about **US$20 per million tokens** in November 2022 to about **US$0.07 per million tokens** in October 2024—roughly a **280× decline**.[^3]
 
 That comparison depends on a specific benchmark, model set, and time window. It should not be rewritten as "all model prices fell 280×." What it does establish is narrower:
 
@@ -98,7 +98,7 @@ The metrics that matter include:
 
 The largest model companies increasingly influence cloud, chip, and power investment through multi-year compute commitments, dedicated data-center projects, and long-duration capacity reservations.
 
-A model company is therefore not permanently limited to passively accepting cloud pricing. At sufficient scale, it can become a demand anchor for infrastructure capital formation.
+A model company therefore need not remain a passive price taker in cloud infrastructure. At sufficient scale, it can become a demand anchor for infrastructure capital formation.
 
 The same mechanism amplifies risk. If architecture efficiency rises, revenue underperforms, or workloads migrate elsewhere, long-duration capacity commitments can turn into utilization and duration risk.
 
@@ -110,9 +110,9 @@ Aggregate infrastructure demand depends on:
 
 > **Net Infrastructure Demand = Unit Resource Intensity × Total Workload Volume**
 
-If unit resource intensity falls 50% while workload volume grows 4×, total demand still increases.
+If unit resource intensity falls by 50% while workload volume grows 4×, total demand still increases.
 
-Long-run analysis therefore must observe real workload, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
+Long-run analysis therefore must observe real workload volume, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
 
 Chapter 14 adds a third mechanism: **AI inheritance**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
 
