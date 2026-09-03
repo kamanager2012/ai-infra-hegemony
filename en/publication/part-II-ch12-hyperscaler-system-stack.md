@@ -84,7 +84,7 @@ Becoming a general external substitute would require lower migration cost and a 
 
 Meta operates very large recommendation, ranking, and generative-AI workloads.
 
-MTIA 300's logic is not to become a general-purpose accelerator first.[^5] It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution. Meta's August 2026 engineering disclosure includes a **"Performance in Production"** result on a **150-billion-parameter production recommendation model running across 40 accelerators**.[^5] This is meaningful production-workload evidence, while the reported performance comparison remains vendor-reported rather than an external audit.
+MTIA 300 is not designed first and foremost to become a general-purpose accelerator.[^5] It targets the company's most important internal workloads and gradually organizes silicon, software, networking, and rack deployment into a custom full-stack solution. Meta's August 2026 engineering disclosure includes a **"Performance in Production"** result on a **150-billion-parameter production recommendation model running across 40 accelerators**.[^5] This is meaningful production-workload evidence, while the reported performance comparison remains vendor-reported rather than an external audit.
 
 The economic objective is:
 
@@ -124,7 +124,7 @@ The four-cloud CapEx numbers cannot be compared directly with NVIDIA revenue to 
 
 ## 9. Algorithmic efficiency is a separate axis
 
-Algorithmic and architectural efficiency directly affects system demand, but it is a different competitive axis from hyperscaler custom silicon.
+Algorithmic and architectural efficiency directly affect system demand, but they are a different competitive axis from hyperscaler custom silicon.
 
 Efficiency can:
 
@@ -202,7 +202,7 @@ The long-run structure need not involve one side eliminating the other.
 
 A plausible equilibrium is **workload segmentation**.
 
-That segmentation must also distinguish **training topology** from **inference topology**. Frontier training is typically more sensitive to large-scale collective communication, scale-up / scale-out fabrics, and synchronization efficiency. Inference is more workload-dependent, with memory capacity / bandwidth, latency, batching, power efficiency, and cost per token often carrying greater weight. At the same time, inference does not mean networking becomes irrelevant: Google Ironwood still integrates a 9,216-chip pod with dedicated ICI, while Microsoft states that Maia 200 scales over standard Ethernet to clusters of up to 6,144 accelerators.[^1][^4]
+That segmentation must also distinguish **training topology** from **inference topology**. Frontier training is typically more sensitive to large-scale collective communication, scale-up / scale-out fabrics, and synchronization efficiency. Inference requirements are more workload-dependent, with memory capacity / bandwidth, latency, batching, power efficiency, and cost per token often carrying greater weight. At the same time, this does not mean networking becomes irrelevant for inference: Google Ironwood still integrates a 9,216-chip pod with dedicated ICI, while Microsoft states that Maia 200 scales over standard Ethernet to clusters of up to 6,144 accelerators.[^1][^4]
 
 The report therefore does not generalize frontier-training interconnect barriers to all inference workloads, nor does it assume that custom silicon / Ethernet makes large-scale inference network-insensitive. The correct comparison is **memory, network, latency, utilization, and TCO for the specific workload topology**.
 
