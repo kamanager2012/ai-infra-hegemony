@@ -2,9 +2,9 @@
 
 This repository welcomes factual corrections, source repairs/upgrades, mechanism challenges, counter-evidence, falsification signals, and translation corrections that restore bilingual factual or analytical parity. Unsupported estimates must not be rewritten as confirmed facts.
 
-The Chinese 32-chapter formal report on `main` is the source of truth for facts, evidence grades, and analytical scope. The English edition should remain synchronized with the same research state.
+The **English 32-chapter formal report on `main` is the sole canonical analytical text** for claims, mechanisms, denominators, evidence identities, scenario states, falsification boundaries, and section hierarchy. The Chinese edition is the professional Chinese translation and must remain synchronized to the same research state.
 
-**Formal-text freeze:** the 32-chapter bilingual report was most recently refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The August 30 pass was limited to validated definition-level corrections plus a bilingual Chapter 32 parity repair and did not change the S2 baseline judgment or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
+**Formal-text freeze:** the 32-chapter bilingual report was refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The current edition revision is **2026-08-31** because permitted post-freeze evidence-boundary and bilingual-parity repairs continued without changing the evidence set, the S2 baseline judgment, or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
 
 ## Start with these files
 
@@ -12,7 +12,7 @@ The Chinese 32-chapter formal report on `main` is the source of truth for facts,
 - [Core Evidence Ledger](en/核心证据台账.en.md)
 - [Core Source Index](en/核心参考文献索引.en.md)
 - [Master Judgment](en/publication/part-IV-ch32-master-judgment.md)
-- [Chinese source-of-truth landing page](README.zh-CN.md)
+- [Professional Chinese edition](README.zh-CN.md)
 
 The report uses one common analytical chain:
 
@@ -80,7 +80,7 @@ Cross-chapter reuse never upgrades an evidence grade automatically.
 
 ## Bilingual synchronization rule
 
-After the formal-text freeze, when a permitted material correction or evidence repair is accepted into the Chinese source-of-truth corpus, the corresponding English chapter or framework file should be updated in the same research cycle. Bilingual synchronization should restore factual and analytical parity; it must not introduce style-only rewrites, post-cutoff evidence, changes in evidence strength, numerical definitions, scenario logic, or the F→H→M→S→X structure.
+After the formal-text freeze, a permitted material correction or evidence repair is resolved in the **English canonical analytical text first**; the corresponding Chinese chapter or framework file should then be updated in the same research cycle. Bilingual synchronization should restore factual and analytical parity; it must not introduce style-only rewrites, post-cutoff evidence, changes in evidence strength, numerical definitions, scenario logic, or the F→H→M→S→X structure.
 
 ---
 
@@ -88,9 +88,9 @@ After the formal-text freeze, when a permitted material correction or evidence r
 
 这是《AI基础设施格局重塑》的研究协作规范。欢迎提交事实纠错、来源修复/升级、机制挑战、反方证据、证伪信号与双语实质一致性修复；不接受把缺乏来源支持的数字写成已确认事实。
 
-中文 `main` 的 32 章正式报告是事实、证据等级与分析范围的 source of truth。英文版应与同一研究状态同步维护。
+**英文 `main` 的 32 章正式报告是唯一 canonical analytical text。** 中文版是专业中文译本，必须与英文版保持同一事实、证据等级、分母、机制、情景状态、证伪边界与章节层级。
 
-**正式正文冻结：**32 章中英文正式报告最近一次于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。8 月 30 日只处理已经验证的定义级问题与 Ch32 双语实质一致性修复，没有改变当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
+**正式正文冻结：**32 章中英文正式报告于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。当前 edition revision 为 **2026-08-31**，原因是冻结规则允许的 evidence-boundary 与双语实质一致性修复继续完成；这些修复没有改变 evidence set、当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
 
 ## 先看这些文件
 
@@ -166,4 +166,4 @@ After the formal-text freeze, when a permitted material correction or evidence r
 
 ## 中英文同步规则
 
-正式正文冻结后，只有符合冻结规则的重大纠错或证据修复被中文 source of truth 接受时，对应英文章节或框架文件才应在同一研究周期同步。双语同步的目标是恢复事实与分析实质一致性，不得借同步之名进行风格性重写、引入截止日后的新证据，或改变证据强度、数字口径、情景逻辑与 F→H→M→S→X 结构。
+正式正文冻结后，符合冻结规则的重大纠错或证据修复必须先在**英文 canonical analytical text** 中裁定，再在同一研究周期同步对应中文章节或框架文件。双语同步的目标是恢复事实与分析实质一致性，不得借同步之名进行风格性重写、引入截止日后的新证据，或改变证据强度、数字口径、情景逻辑与 F→H→M→S→X 结构。
