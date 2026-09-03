@@ -104,7 +104,7 @@ More useful metrics in this phase include:
 
 ## 5. Phase IV: 2034–2036 — maturity, diffusion, concentration, or clearing
 
-By this observation window, the four structural states should be easier to distinguish empirically.
+By this observation window, the four structural states should become easier to distinguish empirically.
 
 ### Competitive Expansion
 
@@ -175,7 +175,7 @@ Power / LPS uses one state machine:
 
 > **Announced → Contracted / Secured → Permitted → Construction / Transition → Energized → Utilized**
 
-Crane, Talen/AWS, Kairos/Google, PORTS-Pike, and similar projects must be updated by current state.
+Crane, Talen/AWS, Kairos/Google, PORTS-Pike, and similar projects must be updated according to their current delivery state.
 
 Signing a contract, securing LPS, or announcing future design capacity cannot by itself establish that AI power is online.
 
@@ -187,7 +187,7 @@ The older 2025 10-K remains relevant for the contract's originally disclosed del
 
 ## 10. Four thresholds matter more than the calendar year
 
-The next decade is more likely to be decided by four thresholds than by a single particular date:
+The next decade is more likely to be decided by four thresholds than by any single calendar date:
 
 1. **Does system substitution cross the production frontier-workload threshold?**
 2. **Does scarce-layer supply cross a durable-abundance threshold?**
