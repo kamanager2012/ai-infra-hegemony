@@ -19,7 +19,7 @@ This directory contains publication-layer figures for the English canonical edit
 - **Figure 5 — Power / LPS delivery-state model** — report framework preserving state and unit identity.
 - **Figure 6 — S1–S4 scenario map** — report scenario framework; S2 highlighted as the August 2026 evidence baseline.
 
-The next figure tranche should prioritize advanced-logic mix, capital-financing structure, bottleneck migration, and the verified-workflow demand-closure loop only where the underlying denominators remain publication-safe.
+The second figure tranche prioritizes advanced-logic mix, capital-financing structure, bottleneck migration, and the verified-workflow demand-closure loop only where the underlying denominators remain publication-safe.
 
 ## Second figure tranche
 
