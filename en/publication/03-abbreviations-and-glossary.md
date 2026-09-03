@@ -113,7 +113,7 @@ Model Capability → Task Suitability → Workflow Redesign → Adoption Economi
 
 - **S1 — Competitive Expansion:** higher supply elasticity, multi-sourcing, and portability distribute value capture more broadly.
 - **S2 — Baseline Concentration:** a small number of system platforms / scarce-layer suppliers retain strong economics while real substitution paths continue developing.
-- **S3 — Resource Hegemony:** multiple scarce layers and switching costs strengthen together, materially raising the cost of replicating the full infrastructure stack.
+- **S3 — Resource Hegemony:** multi-layer scarcity, concentrated quantity assurance / delivery access, switching costs, and financing coordination strengthen together while workload monetization remains sufficient to support associated long-duration commitments, materially raising the cost of replicating the full infrastructure stack.
 - **S4 — Capital Hard Landing:** accounting losses, utilization/revenue, market clearing, forward commitments, and demand-financing quality deteriorate broadly and persistently, producing capital clearing.
 
 ## Evidence identity
