@@ -165,7 +165,7 @@ This can reduce financing friction and accelerate Time-to-Capacity.
 
 But the same mechanism changes who bears risk.
 
-When a seller also provides equity, credit support, or infrastructure-financing coordination, some customer-concentration, duration, and residual-value risk can move back toward the platform. The cross-vendor guarantee disclosures show that this risk-transfer mechanism is broader than one supplier, while the different instruments remain non-additive.
+When a seller also provides equity, credit support, or infrastructure-financing coordination, some customer-concentration, duration, and residual-value risk can shift back toward the platform. The cross-vendor guarantee disclosures show that this risk-transfer mechanism is broader than one supplier, while the different instruments remain non-additive.
 
 Therefore:
 
@@ -261,7 +261,7 @@ As of August 2026, the strongest evidence of durable value capture in AI infrast
 2. **scarce physical layers with low short-run supply elasticity and high entry barriers, including HBM, leading-edge manufacturing, advanced packaging, and powered infrastructure;**
 3. **financing / coordination layers that can match long-duration workloads, LPS / compute assets, and long-duration capital.**
 
-The third category must be analyzed together with risk transfer. If a platform provides equity or credit support, it may gain more infrastructure influence while also reabsorbing part of customer, duration, or residual-value risk.
+The third category must be analyzed together with risk transfer. If a platform provides equity or credit support, it may gain greater infrastructure influence while also reabsorbing part of customer, duration, or residual-value risk.
 
 Whether applications develop a durable profit pool still depends on workflow economics and distribution.
 
