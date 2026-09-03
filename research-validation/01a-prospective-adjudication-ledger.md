@@ -1,4 +1,4 @@
-# P0-1A · Prospective Adjudication Ledger v0.2
+# P0-1A · Prospective Adjudication Ledger v0.3
 
 > **Status:** Research-side live logging layer; not part of the frozen 32-chapter formal report.  
 > **Purpose:** operationalize P0-1 v1.0 as a publication-time disciplined, causality-aware, reversible adjudication process.
@@ -193,6 +193,80 @@ Risk weight should fall if:
 
 ---
 
+## 4.5 Live update — 2026-09-03
+
+This update preserves the 2026-08-30 baseline and appends only evidence that became public afterward or that materially changes a maintained support-state interpretation.
+
+| ledger_id | publication_time | signal_family | actor / layer | observation | contrary signal / boundary | causal read | state contribution |
+|---|---|---|---|---|---|---|---|
+| AI26-007 | 2026-09-02 | Utilization / Revenue + Forward Commitment | Broadcom / custom AI accelerator + networking supplier | Q3 FY2026 AI semiconductor revenue **US$16.7B, +221% YoY and +54% QoQ**; Q4 AI semiconductor revenue guidance **US$21.7B** | supplier revenue/guidance is not end-workflow ROI; custom-silicon demand can coexist with weakness elsewhere | independent large-supplier evidence that AI infrastructure demand / shipments remain strongly expansionary | **NO CLEARING evidence — broadens supplier-side contrary evidence beyond NVIDIA** |
+| AI26-008 | 2026-08-27, incorporated into live ledger 2026-09-03 | Demand Quality / Financing | NVIDIA / seller-support architecture | Reuters reported certain AI-cloud revenue-sharing support arrangements were paused / redesigned | media-reported, not first-party filing; broader NVIDIA support model reportedly remained in place; no project cancellation or financing seizure established | support architecture is endogenous and can be redesigned; not evidence of end-demand destruction | **WATCH composition change; no escalation** |
+
+### 4.5A State impact
+
+The new Broadcom observation is important because it increases **independence and breadth** of the contrary evidence.
+
+The previous baseline already had:
+
+```text
+NVIDIA Data Center revenue ↑
++
+hyperscaler commitments remain high
++
+project financing still closes
+```
+
+The 2026-09-02 Broadcom release adds:
+
+```text
+second major AI semiconductor / networking supplier
+→ AI revenue growth remains extremely strong
+→ near-term AI revenue guidance remains expansionary
+```
+
+That makes a supplier-side system-clearing interpretation less plausible at this adjudication time.
+
+### 4.5B Support redesign is not clearing
+
+The NVIDIA revenue-sharing-program report changes the **form** of seller support, not the live clearing state.
+
+The evidence chain needed for escalation would be:
+
+```text
+support paused / redesigned
+→ independent financing unavailable
+→ project commitment reduced
+→ deployment / monetization deteriorates
+```
+
+That transmission is not established.
+
+Therefore:
+
+> **seller-support redesign is a financing-architecture observation, not a demand-destruction observation.**
+
+The canonical support-state detail remains in `04d-supplier-support-panel.md`.
+
+### 4.5C Updated composite state
+
+As of **2026-09-03**:
+
+> **NO CLEARING — WATCH flags remain elevated for capital intensity, concentration, financing-quality dispersion and seller-support reflexivity.**
+
+No move to CANDIDATE is justified.
+
+The reason is still causal breadth:
+
+- no broad utilization/revenue deterioration;
+- no multi-buyer commitment cut;
+- no financing seizure;
+- no project-level clearing;
+- no cross-supplier contraction.
+
+The 9/2 Broadcom evidence strengthens rather than weakens that conclusion.
+
+---
+
 ## 5. Evidence-origin map for the baseline
 
 To avoid false breadth:
@@ -239,3 +313,7 @@ Do **not** update merely because:
 - Project-finance facility sources: see `04c-project-finance-borrower-panel.md`.
 - Seller / sponsor support sources: see `04d-supplier-support-panel.md`.
 - Public-credit / SLOOS / CMDI sources: see `04a-public-credit-panel.md`.
+
+
+- Broadcom Q3 FY2026 results, 2026-09-02 — AI semiconductor revenue US$16.7B, +221% YoY / +54% QoQ; Q4 AI semiconductor revenue guidance US$21.7B: https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial
+- Reuters, 2026-08-27 — reported pause/redesign of certain NVIDIA AI-cloud revenue-sharing support arrangements; see canonical support treatment in `04d-supplier-support-panel.md`: https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/
