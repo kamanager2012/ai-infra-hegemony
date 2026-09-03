@@ -1,4 +1,4 @@
-# P0-4D · Supplier / Sponsor Support Panel v0.2
+# P0-4D · Supplier / Sponsor Support Panel v0.3
 
 > Initially extracted from P0-4 v0.17; the parent method is now v0.18. Support is a risk-distribution layer, not an independent copy of end demand.
 
@@ -162,6 +162,95 @@ The **US$105B cap itself is not a clearing signal**.
 
 ---
 
+## 11C.4 Reported support-program redesign — NVIDIA revenue-sharing arrangements
+
+On **2026-08-27**, Reuters reported, citing the Wall Street Journal, that NVIDIA had paused certain revenue-sharing arrangements with AI-cloud companies under a recently launched financing/support program.
+
+The reported program design had included combinations of:
+- credit / support for AI-cloud operators;
+- revenue-sharing tied to NVIDIA-hardware-generated cloud revenue;
+- capacity-repurchase / backstop concepts.
+
+Reuters also reported NVIDIA's position that the broader business model remained in place and was evolving amid strong demand.
+
+### 11C.4A Evidence identity
+
+This item is **media-reported support-structure evidence**, not a first-party filing.
+
+Research treatment:
+
+> **C-grade support-program transition — useful for monitoring support architecture, insufficient to infer funded loss, financing shutdown, or end-demand deterioration.**
+
+### 11C.4B Why this matters
+
+The support ledger previously focused heavily on:
+
+```text
+COMMITTED
+→ EFFECTIVE
+→ TRIGGERED
+→ FUNDED
+```
+
+This event proves the opposite direction also matters:
+
+```text
+ANNOUNCED / PILOTED SUPPORT
+→ TERMS REDESIGNED
+→ PARTIALLY PAUSED
+→ REPLACED / TERMINATED / RESUMED
+```
+
+Therefore support monitoring must track **program design changes**, not only guarantee activation.
+
+### 11C.4C New support-state labels
+
+Add two operational labels:
+
+- **REDESIGNED** — support remains conceptually available, but economics / eligibility / revenue-sharing / backstop terms change;
+- **PAUSED-PARTIAL** — a defined subset of a support program is paused without evidence that the entire financing channel has shut.
+
+These are not S4 states.
+
+### 11C.4D Current adjudication
+
+The reported pause does **not** establish:
+
+- AI-cloud financing seizure;
+- NVIDIA withdrawal from infrastructure support;
+- triggered guarantee losses;
+- weakening customer demand.
+
+It does establish:
+
+> **seller-support architecture is endogenous and can be revised when governance, economics, antitrust exposure, or partner incentives change.**
+
+This improves the anti-circularity test.
+
+If support is later replaced by:
+- independent third-party credit;
+- customer cash flow;
+- long-duration normal project debt,
+
+that is contrary evidence to seller-dependent circularity.
+
+If instead seller support repeatedly returns in larger forms as independent capital weakens, S4 / reflexivity weight rises.
+
+### 11C.4E No-double-counting implication
+
+A paused or redesigned support program must not be treated as a fall in end demand unless:
+
+```text
+support reduction
+→ financing access worsens
+→ project delivery / capacity commitment falls
+→ customer demand / monetization weakens
+```
+
+Without that transmission, the observation belongs only to the **support architecture** layer.
+
+---
+
 ## Related evidence layer
 
 See also [11 · Financing Reflexivity Map](11-financing-reflexivity-map.md), which maintains the 2026 support taxonomy and source-level evidence for strategic equity, guarantees, vendor/OEM finance, third-party capital mobilization, and customer prepayments.
@@ -175,3 +264,6 @@ See also [11 · Financing Reflexivity Map](11-financing-reflexivity-map.md), whi
 - AMD Q2 2026 Form 10-Q — approximately US$4.1B maximum potential future payments under partner data-center lease guarantees: https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
 - Applied Digital FY2026 Form 10-K — project completion guarantees tied to lease commencement milestones: https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm
 - IREN FY2026 results — customer prepayments and financing coverage of Microsoft-linked GPU CapEx: https://www.sec.gov/Archives/edgar/data/1878848/000187884826000051/irenreportsfy26results.htm
+
+
+- Reuters, 2026-08-27, “Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports” — media-reported support-program redesign; not first-party filing evidence: https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/
