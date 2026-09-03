@@ -279,7 +279,7 @@ system substitution 扩大、migration cost 下降、HBM/packaging/power 供给�
 
 ### 向 S3 移动
 
-seller commitments 继续扩大、多层 scarcity 持续、switching cost 上升、powered capacity 被少数 anchor buyers 长期锁定。
+seller commitments 继续扩大、multi-layer scarcity 持续、多个 scarce layers 的 quantity assurance / delivery access 更集中、switching cost 上升、financing coordination 同时强化，且 workload monetization 足以支撑相关 commitments。
 
 ### 向 S4 移动
 
@@ -315,7 +315,7 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 ### Scenario reweighting
 
 - **Toward S1：** supply elasticity、system substitution、buyer optionality 与 portability 以互相强化的方式改善；
-- **Toward S3：** multi-layer scarcity、switching cost、quantity-assurance concentration 与 forward reservation 同时强化；
+- **Toward S3：** multi-layer scarcity、quantity assurance / delivery access concentration、switching cost、forward reservation 与 financing coordination 同时强化，且 workload monetization 足以支撑相关 commitments；
 - **Toward S4：** 多个因果独立 signal families 跨主体/层级广泛、持续恶化；至少包含一个 real-economy / market / commitment signal，Accounting 是 confirmation channel 而不是 mandatory gate；
 - **Otherwise：** 保持 S2 baseline，或只做局部 weighting adjustment，不因为单一 headline 改变主情景。
 
@@ -362,7 +362,7 @@ Growth Gap、lead time、pricing 与 allocation fulfillment 可以作为 proxy �
 [^11]: Talen Energy, 2026 Q2 Form 10-Q, revised AWS PPA transition occurred in April 2026 and full contract quantity up to 1,920 MW, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm ; Talen Energy 2025 Form 10-K, superseded prior spring-2027 transition expectation and original delivery-ramp context to full volume no later than 2032, https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm
 [^12]: Kairos Power / Google partnership, Hermes 2 up to 50 MWe in 2030 and fleet up to 500 MWe by 2035, https://www.kairospower.com/google
 
-[^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and phased online plan beginning in 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx
+[^13]: NVIDIA, PORTS-Pike Technology Campus / SB Energy / OpenAI, 2026-08-17, initial 4.25 IT-GW design capacity and announcement-stage phased online plan beginning in calendar 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx ; NVIDIA Corporation, FY27 Q2 Form 10-Q, first guarantee/service phase expected in FY2029 across the phased nine-data-center structure, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 
 
 [^14]: Sony Group, FY2025 Q4 earnings speech / FY2026 outlook, PS5 hardware-sales / promotion management tied to memory procurement at reasonable prices, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_sonyspeech.pdf ; FY2025 Q4 earnings Q&A, FY26 memory volume already secured and pricing agreed to a certain extent, https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q4_qa.pdf
