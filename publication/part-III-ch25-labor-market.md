@@ -146,8 +146,8 @@ agent-native workflow 可能减少部分 coordination work。
 
 ## References
 
-[^1]: International Labour Organization, “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, 2025, https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Generative-AI-and-jobs-a-refined/995653520102676
-[^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note, 2024, https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+[^1]: International Labour Organization, Gmyrek et al., “Generative AI and Jobs: A Refined Global Index of Occupational Exposure,” Working Paper 140, May 2025, https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf
+[^2]: International Monetary Fund, “Gen-AI: Artificial Intelligence and the Future of Work,” Staff Discussion Note SDN/2024/001, January 2024, https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf
 [^3]: Stanford HAI, “2026 AI Index Report — Economy,” early-career software-developer employment and employer workforce expectations, https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
 [^4]: Anthropic, “Anthropic Economic Index report: Cadences,” 2026-06-26, reported and anticipated task exposure by Claude users; survey explicitly not representative of the general population, https://www.anthropic.com/research/economic-index-june-2026-report
 

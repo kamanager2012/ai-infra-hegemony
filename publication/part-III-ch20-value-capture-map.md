@@ -224,7 +224,7 @@ value capture 不是永久排名，而是 scarcity、switching cost、capital in
 [^1]: NVIDIA, “NVIDIA Announces Financial Results for Second Quarter Fiscal 2027,” https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
 [^2]: TSMC, 2025 Annual Report, gross margin and platform mix, https://investor.tsmc.com/static/annualReports/2025/english/index.html
 [^3]: TSMC, 4Q25 Earnings Conference Transcript, advanced packaging slightly over 10% of 2025 revenue, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf
-[^4]: TSMC, 2Q26 Earnings Conference Transcript, packaging tightness limiting customer growth, https://investor.tsmc.com/english/quarterly-results/2026/q2
+[^4]: TSMC, 2Q26 Earnings Conference Transcript, packaging tightness limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf
 [^5]: SK hynix, FY25 Financial Results, https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/
 [^6]: Micron Technology, FY24 Q2 Prepared Remarks, HBM3E ≈3× DDR5 wafer supply at same node / same bits, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^7]: NVIDIA Corporation, FY26 Form 10-K, US$95.2B manufacturing / supply / capacity commitments as of 2026-01-25, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm ; FY27 Q2 Form 10-Q, US$119B last quarter and US$279B as of 2026-07-26, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
