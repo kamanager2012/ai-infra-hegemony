@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 title: "AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook"
 message: "Please cite this 32-chapter bilingual industry research report using preferred-citation below / 请使用下方 preferred-citation 引用这份32章双语产业研究报告。"
+version: "1.0"
+date-released: 2026-09-04
 authors:
   - name: "James"
     alias: kamanager2012
@@ -18,6 +20,7 @@ keywords:
 preferred-citation:
   type: report
   title: "AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook"
+  version: "1.0"
   authors:
     - name: "James"
       alias: kamanager2012
