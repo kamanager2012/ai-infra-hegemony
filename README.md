@@ -7,7 +7,9 @@ A long-form industry research report on AI infrastructure, semiconductors, cloud
 
 Canonical research language: **English**. The Chinese edition is the authorized professional Chinese translation of the English canonical analytical text. Chinese syntax may be localized and standard industry terms may remain in English, but the Chinese edition must not independently add, remove, reorder, or redefine claims, mechanisms, denominators, evidence identities, scenario states, falsification boundaries, or section hierarchy. Any substantive revision is resolved in English first and then translated into Chinese.
 
-
+**Version:** 1.0  
+**Release status:** Final publication snapshot  
+**Release date:** September 4, 2026  
 **Evidence cutoff:** August 28, 2026  
 **Edition revision:** September 3, 2026  
 Research claims use evidence available by the cutoff. Later edits in this edition are limited to corrections, evidence-boundary repairs, bilingual parity, and editorial restructuring; the revision history is documented separately.
@@ -94,7 +96,7 @@ The report uses **Non-AI Residual Capacity**:
 ```text
 NonAI_Residual
 = Effective_Supply
-- AI_Absorption
+- AI_Server_Absorption
 - Other_Priority_Demand
 ```
 
