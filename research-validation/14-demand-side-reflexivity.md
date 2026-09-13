@@ -1,4 +1,4 @@
-# Phase II · Demand-Side Reflexivity Layer v0.1
+# Phase II · Demand-Side Reflexivity Layer v0.2
 
 > **Status:** Research-side validation layer; not part of the frozen 32-chapter formal report, and does not change the formal 2026-08-28 evidence cutoff.  
 > **Purpose:** make the demand-side counterpart of financing reflexivity explicit — whether AI-driven labor-income compression can reduce the final demand that ultimately pays for AI infrastructure, and which observables would show that channel before it reaches the five existing clearing-signal families.  
@@ -133,7 +133,7 @@ The loop is weakened or closed by any of the following, each observable in the p
 ## 9. Integration rule
 
 1. Record demand-side states and clocks in this file and, when they change, update the corresponding row rather than appending narrative.
-2. **Proposed extension (not yet applied):** Dashboard I's demand-quality family (`10`, Ch29 §10) could add the §4 rows as a tagged sub-list with their clocks. That is a formal-text-adjacent change and requires the owner's adjudication like any other Phase II result; until then, `10` is unchanged.
+2. **Applied 2026-09-14 (research-side):** Dashboard I's demand-quality family now carries the §4 rows as a tagged sub-list with their clocks — see `10` §6D, which amends Axis F and the §6 update sheet and registers this file as the authoritative owner in `10` §0. The change is research-side only: formal Ch29 §10 Dashboard I remains as frozen and no formal reopen is recorded.
 3. If demand-side evidence and financing-side evidence deteriorate together, the `01A` adjudication ledger records them as separate family contributions — never multiplied into one index.
 
 ## Sources

@@ -1,9 +1,9 @@
-# Phase II · Minimum Public-Proxy Scenario Dashboard v0.7
+# Phase II · Minimum Public-Proxy Scenario Dashboard v0.8
 
 > **Status:** Research-side calibration layer; not part of the frozen formal facts.  
 > **Purpose:** turn S1–S4 from a narrative scenario set into an updateable public-proxy state machine without inventing precision that public data cannot support.
 
-## 0. Derived-layer ownership contract v0.6
+## 0. Derived-layer ownership contract v0.7
 
 This dashboard is a **consumer / aggregation layer**, not the authoritative owner of underlying evidence ledgers.
 
@@ -16,6 +16,7 @@ For the financing-related axes:
 | facility-level project finance / DSCR / refinancing | `04C` |
 | seller / sponsor support activation / step-down | `04D` |
 | financing double-counting / reflexivity taxonomy | `11` |
+| demand-side state variables and their clocks (Axis F sub-rows, §6D) | `14` |
 | live clearing adjudication | `01A` |
 
 The dashboard may:
@@ -28,6 +29,10 @@ It must **not** maintain a competing raw-state ledger.
 Hard rule:
 
 > **When a Dashboard K description conflicts with 04B/04C/04D, the underlying appendix owns the factual state; Dashboard K owns only the scenario interpretation.**
+
+The same rule applies to the demand-side sub-rows in §6D:
+
+> **When a demand-side sub-row conflicts with `14`, `14` owns the factual state and the clock; this dashboard owns only the scenario relevance.**
 
 ## 1. Why this dashboard exists
 
@@ -68,7 +73,7 @@ This is a qualitative protocol until historical backtesting supports calibrated 
 | C. Forward commitment | future capacity reservation | manufacturing/supply commitments, long-term capacity contracts, project state transitions | timing shift / architecture mix change | S2 ↔ S3 / S4 |
 | D. Market clearing | utilization pressure | used-system price, lease rates, cloud discount, delivery lead time, inventory | new-generation price/performance improvement | S4 |
 | E. Accounting confirmation | loss recognition | inventory provision, impairment, accelerated depreciation, disposal | isolated product transition | S4 confirmation |
-| F. Demand quality | independent ability to pay | customer operating cash flow, third-party financing, debt terms, contract quality | seller-supported circularity | S2/S3 ↔ S4 |
+| F. Demand quality | independent ability to pay, including household-income-funded final demand | customer operating cash flow, third-party financing, debt terms, contract quality; plus the `14`-owned demand-side sub-rows in §6D (labor income, hiring/separations, household debt service, consumption, consumer-linked revenue, fiscal position) | seller-supported circularity; attributing an aggregate demand move to AI without same-denominator evidence | S2/S3 ↔ S4 |
 | G. Seller support | financing reflexivity | seller equity, guarantees, credit enhancement, OEM financing | healthy ecosystem investment | S4 risk amplifier only when customer economics weaken |
 | H. Power / LPS | deployment availability | interconnection milestone, substation/transformer delivery, permitted/construction/energized MW, Time-to-Power | announced/secured GW treated as online | S1/S2/S3 |
 | I. China frontier closure | production-grade alternative stack | seven gate evidence: compute, memory, packaging, interconnect, runtime, production workload, utilization/economics | consumer-scale or product existence extrapolated to frontier closure | S1/S2/S3 geography |
@@ -99,6 +104,7 @@ Required direction:
 - clearing price / lease economics deteriorate;
 - forward commitments shrink, cancel, or reschedule for economic reasons;
 - financing independence weakens;
+- demand-side transmission weakens the household-funded part of final demand (labor income → consumption → enterprise cash generation), where observable — this supplies the **real-economy leg** but cannot confirm S4 alone (§6D rule 3);
 - accounting losses later confirm the pressure.
 
 ## 5. No pseudo-threshold rule
@@ -130,6 +136,7 @@ Historical Phase II backtesting will determine whether a more quantitative trigg
 | Market clearing |  |  |  |  |  |  |  |
 | Accounting |  |  |  |  |  |  |  |
 | Demand quality |  |  |  |  |  |  |  |
+| Demand-side reflexivity (F sub-rows, `14`-owned) |  |  |  |  |  |  |  |
 | Seller support |  |  |  |  |  |  |  |
 | Power/LPS |  |  |  |  |  |  |  |
 | China closure |  |  |  |  |  |  |  |
@@ -569,6 +576,32 @@ Current state:
 
 ---
 
+## 6D. Axis F demand-side extension — household-income / consumption sub-rows
+
+**Extension status.** `14` §9 proposed this extension; it was adjudicated and applied **2026-09-14** as a research-side change. Formal Ch29 §10 Dashboard I is unchanged, and no formal reopen is recorded.
+
+Axis F already asks whether demand can pay independently. The demand-side sub-rows name one specific payer — the **household**, whose income funds consumption, which funds part of enterprise revenue, which funds AI budgets. These rows are owned by `14`; this dashboard consumes them (see §0).
+
+| Sub-row | Public proxy | Clock | What it can update here | What it cannot prove |
+|---|---|---|---|---|
+| Labor income | ECI / average hourly earnings (FRED `ECIALLCIV`) | Monthly–quarterly | Axis F direction | Not cohort-specific; composition shifts mask cohort losses |
+| Hiring / separations | JOLTS openings, quits, layoffs (FRED `JTSJOL`); age-occupation payroll panels | Monthly | Axis F persistence | Openings ≠ realized hiring; stock measures lag |
+| Household debt service | NY Fed Household Debt and Credit Report; FRED `TDSP` | Quarterly | Axis F buffer state | Aggregate; composition and refinancing terms matter |
+| Consumption | BEA Personal Consumption Expenditures; Census retail sales | Monthly–quarterly | Axis F direction | Aggregates cannot attribute cause to AI |
+| Consumer-linked enterprise revenue | card-network / intermediation volumes; seat- or consumption-based software disclosures | Quarterly | Axis F transmission | C-grade unless first-party; industry structure changes confound |
+| Fiscal position | receipts versus transfers, automatic stabilizers | Quarterly–annual | Axis F loop-closing variable | Proposals are scenario variables, not observations |
+
+Rules:
+
+1. **Ownership.** `14` maintains the raw state and the clocks; this dashboard records scenario relevance only. On conflict, `14` wins.
+2. **No double-counting.** A single underlying fact updates either a financing axis (`04`/`11`) or a demand-side sub-row, not both, unless it is genuinely two-sided evidence. The §6.1A discipline applies unchanged.
+3. **No standalone S4.** Demand-side transmission supplies the **real-economy leg**; S4 still requires multiple causal-independent families across actors and layers (Ch24 §9, Ch30 §5). If it deteriorates together with financing-side evidence, `01A` records separate family contributions — never multiplied into one index.
+4. **No pseudo-precision.** These rows cannot switch the scenario (§2, §5). They are recorded with direction, breadth, persistence, counterevidence, and clock.
+5. **Clock stacking is a state, not a conclusion.** The sub-rows move on different clocks (months to years). An early row moving while later rows have not yet responded is recorded as stacking, not as confirmation.
+6. **Freeze.** No sub-row changes the formal 2026-08-28 evidence cutoff or Ch29 Dashboard I.
+
+---
+
 ## 7. Formal-report interaction
 
 This dashboard does **not** overwrite the frozen S1–S4 framework.
@@ -578,3 +611,5 @@ It supplies the missing operational layer:
 > formal scenario definitions → public proxies → historical validation → eventual calibrated transition rules.
 
 Until calibration is strong enough, the formal report should continue to state that S1–S4 are conditional structural states, not a mechanical classifier.
+
+The Axis F demand-side extension (§6D) was adjudicated on 2026-09-14 as a research-side addition. It does not reopen Ch29 §10 or any other formal chapter; formal Dashboard I remains as frozen.
