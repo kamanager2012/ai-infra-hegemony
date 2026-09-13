@@ -14,7 +14,8 @@ Its purpose is not to keep polishing the publication. It exists to test the repo
 4. **P0-4 Macro-Financial Transmission** — connect rates, credit, equity support, project finance, and refinancing to the capital cycle;
 5. **P1 Geopolitical Scenario Layer** — make Taiwan continuity, export controls, alliance structure, and China closure explicit state variables;
 6. **P1 Conditional Timeline** — convert fixed-year language into condition → milestone → contrary-signal logic;
-7. **P2 Downstream Empirical Chains** — maintain auditable Labor / Education / Physical-AI transmission chains.
+7. **P2 Downstream Empirical Chains** — maintain auditable Labor / Education / Physical-AI transmission chains;
+8. **P1 Demand-Side Reflexivity** — own the labor-income → consumption → enterprise cash generation → AI monetization loop, its clocks, and its demand-side observables.
 
 ## Freeze boundary
 
@@ -40,7 +41,8 @@ Primary / auditable evidence
         ├─ 07  Downstream Labor / Education / Physical-AI evidence chains
         ├─ 09  China technical system-stack closure
         ├─ 12  Non-AI end-system response evidence
-        └─ 13  Developer-distribution / model-production / capability-absorption evidence
+        ├─ 13  Developer-distribution / model-production / capability-absorption evidence
+        └─ 14  Demand-side reflexivity / household-income → consumption → monetization state
                  │
                  ├─ 11 Financing taxonomy / causal double-counting map
                  ├─ 10 Scenario aggregation / S1–S4 relevance
@@ -59,9 +61,10 @@ Authority rules:
 3. **`06` owns conditional timeline grammar, not milestone truth.**
 4. **`08` owns decision rules, not scenario state.**
 5. **`11` owns financing taxonomy / anti-double-counting, while `04C/04D` own borrower/support states.**
-6. **Formal-report text remains frozen unless a specific evidence-backed defect or explicit reopen is recorded.**
+6. **`14` owns the demand-side reflexivity loop and its household-income / consumption observables; `07` continues to own task- and worker-level labor evidence.**
+7. **Formal-report text remains frozen unless a specific evidence-backed defect or explicit reopen is recorded.**
 
-This graph is the maintenance contract for Phase II. New files should not be added if their role can be expressed as an existing evidence owner, taxonomy layer, aggregation layer, or decision layer.
+This graph is the maintenance contract for Phase II. New files should not be added if their role can be expressed as an existing evidence owner, taxonomy layer, aggregation layer, or decision layer. **`14` was added under that rule**: the formal S4 path already allows “real-economy clearing” to confirm ahead of accounting, but no existing layer owned aggregate-demand-side observables — `07`'s labor chain terminates at employment/wage outcome, and `04`/`11` own the financing side. The justification is recorded in `14` §0.
 
 ## Current status
 
@@ -77,6 +80,7 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - **Public-Proxy Scenario Dashboard:** **v0.7.** Axis L — Developer / Model Capability Concentration now aggregates only `13`'s authoritative DDC / MPG / CAWA states. Current **DDC-A + MPG-WATCH + CAWA-OBSERVED** supports S2 persistence / concentration WATCH, not S3 confirmation. Axis L does not map directly to S4.
 - **Financing Reflexivity Map:** v0.3. The 2026 Support Taxonomy and anti-double-counting rules remain. Scope is explicit: `11` owns financing taxonomy / causal graph / reflexivity diagnosis; `04C` owns facility state; `04D` owns support activation / funded-loss state; `01A` owns live clearing adjudication.
 - **Non-AI End-System Supply Conditions:** v0.4. Automotive/industrial counterevidence now includes NXP 2026Q2 recovery, Infineon simultaneous AI growth + automotive-order recovery/shared-capacity expansion, and ST selected tightness + low distribution inventory. Current judgment remains: shared-resource exposure is credible, but broad realized AI-attributed automotive/industrial pressure is not established.
+- **Demand-Side Reflexivity:** **v0.1.** New research-side owner for the loop `labor income → consumption → enterprise cash generation → AI monetization → capital clearing`. Current 2026 state: the loop is **not open at its first gate** — no economy-wide displacement is observed; the existing signal is a reduced-hiring-driven pipeline divergence in early-career, high-exposure occupations (Stanford/ADP as recorded in `07`). The layer contributes a demand leg to S4 evidence and explicitly does not confirm S4 alone. External scenario references (including *The 2028 Global Intelligence Crisis*, 2026-02) are calibration shapes only; no external numbers are adopted. No formal-text change.
 - **Developer Distribution Chokepoint:** **v0.6.** DDC, MPG, and CAWA are separate mechanisms. DDC remains **DDC-A / transaction-status WATCH**; MPG remains **MPG-WATCH**, with Poolside transaction terms remaining C-grade; **CAWA-OBSERVED — Capability Absorption Without Acquisition** is now established by first-party evidence that Groq signed a non-exclusive inference-technology license with NVIDIA on 2025-12-24, Jonathan Ross / Sunny Madra and others joined NVIDIA while Groq remained independent, and NVIDIA confirmed on 2026-08-24 that NVIDIA Groq 3 LPX had entered the Vera Rubin product stack. CAWA-OBSERVED proves that legal ownership is not the only capability-accumulation variable, but does not prove foreclosure. Formal Ch02/Ch11 remain HOLD.
 
 ## File index
@@ -103,6 +107,8 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - [11 · Financing Reflexivity Map](11-financing-reflexivity-map.md)
 - [12 · Non-AI End-System Supply Conditions](12-non-ai-end-system-supply-conditions.md)
 - [13 · Developer Distribution Chokepoint](13-developer-distribution-chokepoint.md)
+- [14 · Demand-Side Reflexivity](14-demand-side-reflexivity.md)
+  - [14 · Demand-Side Reflexivity · 中文译本](14-demand-side-reflexivity.zh.md)
 
 ## Phase II Final Adjudication — 2026-08-30
 
@@ -142,3 +148,4 @@ Prioritize depth, state maintenance, and unresolved estimation rather than addin
 7. **P2 chain maintenance:** Labor accepts evidence that advances causal staffing / wage / occupation transmission; Education accepts delayed retention/transfer, teacher workload, implementation cost, or system-scale outcomes; Physical AI accepts intervention, uptime, safety-denominator, TCO, renewal, or multi-site fleet economics. For non-AI automotive/industrial, accept only real OEM/equipment-maker response in procurement, pricing, qualification, lead time, production, or cadence. Supplier-side tightness alone no longer triggers attribution.
 8. **`13`:** maintain DDC / MPG / CAWA separately. DDC tracks distribution conduct; MPG tracks model-production concentration; CAWA tracks capability absorption through license + talent + product integration without acquisition. Groq moves CAWA from hypothesis to OBSERVED, but a formal-text reopen requires materially weaker source-company/rival access, replication across additional independent capability layers, or a CAWA+MPG+DDC combination that changes the competition judgment.
 9. Reopen the formal 32-chapter report only when one of the above evidence layers produces a material evidence-backed change that passes the formal reopen gate.
+10. **`14`:** maintain the demand-side state rows and clocks from observable, same-denominator evidence (labor income, hiring/separations, household debt service, consumption, consumer-linked revenue, fiscal position). Do not adopt external scenario numbers, do not double-count with `04`/`11`, and do not propose formal-text changes until the proposed Dashboard I demand-side extension is adjudicated.
