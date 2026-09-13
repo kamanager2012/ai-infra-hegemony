@@ -16,7 +16,7 @@
 
 本文件**不**拥有：task / workflow 级劳动证据（`07`）、workflow 成本与价值单位（`03`）、融资结构与 financing reflexivity（`11`、`04A`–`04D`）、情景聚合（`10`）、实时清算裁定（`01A`）。
 
-**为什么必须新增 owner 而不是复用既有层。** 正式报告已允许 S4 由 “real-economy clearing” 在 accounting impairment 之前确认（Ch24 §9、Ch29 §10、Ch30 §5、Ch32 §9）。但没有任何既有层拥有总量需求侧可观察变量：`07` 的劳动链终止于 employment / wage outcome，不回流到需求；`03` 拥有 workflow 级的验证与成本；`04`/`11` 拥有融资的供给与结构，不拥有家庭收入与消费；`10` 聚合状态但不拥有事实。缺少本文件，S4 的需求腿有规则、没有变量。
+**为什么必须新增 owner 而不是复用既有层。** 正式报告已允许 S4 由 “real-economy clearing” 在 accounting impairment 之前确认（Ch24 §9、Ch29 §10 / §12、Ch30 §5、Ch32 §9）。但没有任何既有层拥有总量需求侧可观察变量：`07` 的劳动链终止于 employment / wage outcome，不回流到需求；`03` 拥有 workflow 级的验证与成本；`04`/`11` 拥有融资的供给与结构，不拥有家庭收入与消费；`10` 聚合状态但不拥有事实。缺少本文件，S4 的需求腿有规则、没有变量。
 
 ## 1. 正式链条没有承载的那个回路
 
@@ -52,9 +52,9 @@
 
 报告既有的劳动证据已经固定了起点，本文件复用而不重新推导：
 
-- **未观察到全经济范围 displacement。** `07` §2.2A 记录的 Stanford / ADP payroll 证据显示：22–25 岁、处于高 AI exposure 职业的劳动者就业约比低 exposure 同龄人路径低 19%，且主要通过 **reduced hiring 而非 increased separations** 发生；作者明确将其表述为描述性结果，而非因果估计。
-- **采用 ≠ 替代。** `07` §2.2B 的 Census BTOS 证据：约 18% 企业在至少一个业务职能中使用 AI，约 66% 的采用者主要报告 task augmentation，仅约 2% 的企业报告就业减少。
-- **高管报告的未来影响大于已实现影响。** `07` §2.2C 的跨国调查：约 69% 企业已在积极使用 AI，而超过 80% 报告过去三年没有就业或生产率影响。
+- **未观察到全经济范围 displacement。** `07` §2（evidence note A）记录的 Stanford / ADP payroll 证据显示：22–25 岁、处于高 AI exposure 职业的劳动者就业约比低 exposure 同龄人路径低 19%，且主要通过 **reduced hiring 而非 increased separations** 发生；作者明确将其表述为描述性结果，而非因果估计。
+- **采用 ≠ 替代。** `07` §2（evidence note B）的 Census BTOS 证据：约 18% 企业在至少一个业务职能中使用 AI，约 66% 的采用者主要报告 task augmentation，仅约 2% 的企业报告就业减少。
+- **高管报告的未来影响大于已实现影响。** `07` §2（evidence note C）的跨国调查：约 69% 企业已在积极使用 AI，而超过 80% 报告过去三年没有就业或生产率影响。
 - **Exposure 不是结果。** ILO 与 IMF 的 exposure 口径（Ch25 §2）不能换算为失业率。
 
 因此在 2026-08-28 截止日前，**下文 G1 门未打开**；存在的是集中于早期职业、高 exposure 职业的 hiring-pipeline 信号。本文件把完整回路视为 2026–2036 的条件化通道，而不是当前状态或预测。

@@ -16,7 +16,7 @@ This file owns:
 
 It does **not** own: task / workflow-level labor evidence (`07`), workflow cost-and-value units (`03`), financing structure and financing reflexivity (`11`, `04A`–`04D`), scenario aggregation (`10`), or live clearing adjudication (`01A`).
 
-**Why a new owner rather than an existing layer.** The formal report already allows S4 to be confirmed by “real-economy clearing” ahead of accounting impairment (Ch24 §9, Ch29 §10, Ch30 §5, Ch32 §9). But no existing layer owns aggregate-demand-side observables: `07`'s labor chain terminates at employment / wage outcome and does not return to demand; `03` owns workflow-level verification and cost; `04`/`11` own the supply and structure of financing, not household income or consumption; `10` aggregates states but owns no facts. Without this file the S4 demand leg has a rule but no variables.
+**Why a new owner rather than an existing layer.** The formal report already allows S4 to be confirmed by “real-economy clearing” ahead of accounting impairment (Ch24 §9, Ch29 §10 / §12, Ch30 §5, Ch32 §9). But no existing layer owns aggregate-demand-side observables: `07`'s labor chain terminates at employment / wage outcome and does not return to demand; `03` owns workflow-level verification and cost; `04`/`11` own the supply and structure of financing, not household income or consumption; `10` aggregates states but owns no facts. Without this file the S4 demand leg has a rule but no variables.
 
 ## 1. The loop the formal chain does not carry
 
@@ -52,9 +52,9 @@ Two properties distinguish this loop from financing reflexivity (`11`):
 
 The report's existing labor evidence already fixes the starting state, and this file reuses it rather than re-deriving it:
 
-- **No economy-wide displacement is observed.** The Stanford / ADP payroll evidence recorded in `07` §2.2A shows employment among workers aged 22–25 in highly AI-exposed occupations about 19% below the path of less-exposed peers, operating primarily through **reduced hiring rather than increased separations**, with the authors labeling the result descriptive, not causal.
-- **Adoption is not displacement.** The Census BTOS evidence in `07` §2.2B: about 18% of firms used AI in at least one business function, about 66% of adopters mainly reported task augmentation, and employment reductions were reported by only about 2% of firms.
-- **Executives report larger expected than realized effects.** The cross-country survey in `07` §2.2C: roughly 69% of firms actively use AI, while more than 80% report no employment or productivity impact over the previous three years.
+- **No economy-wide displacement is observed.** The Stanford / ADP payroll evidence recorded in `07` §2 (evidence note A) shows employment among workers aged 22–25 in highly AI-exposed occupations about 19% below the path of less-exposed peers, operating primarily through **reduced hiring rather than increased separations**, with the authors labeling the result descriptive, not causal.
+- **Adoption is not displacement.** The Census BTOS evidence in `07` §2 (evidence note B): about 18% of firms used AI in at least one business function, about 66% of adopters mainly reported task augmentation, and employment reductions were reported by only about 2% of firms.
+- **Executives report larger expected than realized effects.** The cross-country survey in `07` §2 (evidence note C): roughly 69% of firms actively use AI, while more than 80% report no employment or productivity impact over the previous three years.
 - **Exposure is not outcome.** ILO and IMF exposure measures (Ch25 §2) cannot be converted into unemployment rates.
 
 Therefore, as of the 2026-08-28 cutoff, **gate G1 below is not open**; what exists is a hiring-pipeline signal concentrated in early-career, high-exposure occupations. This file treats the full loop as a conditional 2026–2036 channel, not as the current state or a forecast.
