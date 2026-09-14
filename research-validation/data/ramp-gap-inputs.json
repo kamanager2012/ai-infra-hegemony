@@ -1,0 +1,18 @@
+{
+  "version": "2026-09-14",
+  "notes": "Composition parameters for the ramp-period funding gap. This file introduces no anchors of its own: the required-cash side is recomputed from data/capital-to-cash-inputs.json (layer 15) and the schedule dials are read from data/energization-inputs.json (layer 17). Only the composition-specific conventions live here, and each is a stated modelling choice, not an observation.",
+  "composition": {
+    "clock_origin": "t = 0 at first debt draw (financial close). Deployment is linear over `deployment_years`; first energization is at t = deployment_years; the energization ramp runs over `ramp_years` thereafter.",
+    "contract_term_convention": "The ten contract years begin at first revenue (t = deployment_years), not at announcement. This is the convention most favourable to the facility and is therefore used as the base.",
+    "capitalised_interest_share_kappa": {
+      "values": [1.0, 0.5, 0.0],
+      "base": 1.0,
+      "note": "Share of the pre-energization debt service that is capitalised rather than paid in cash. kappa = 1.0 (full capitalisation, the usual construction-period treatment, and the treatment consistent with a DSCR covenant that is only tested post-COD) is the base case; kappa = 0.0 is the same curve with no capitalisation at all."
+    },
+    "service_attachment": "After first energization the full debt service on the whole drawn facility is paid in cash, whether or not the corresponding GW has reached a revenue-bearing state. This attachment rule is the mechanism the composition exists to expose.",
+    "revenue_attachment": "Revenue accrues only on revenue-bearing GW, which is the contract ceiling times the energization share times the three conversion factors owned by layer 17."
+  },
+  "deployment_years_grid": [2, 3],
+  "single_tenant_reading": "The whole contract value is held against the whole cohort, i.e. this is a single-tenant reading in which the anchor contract is assumed to be the facility's only revenue source. Layer 15 §5 already states this framing. Other tenants, equity, or non-debt capital can carry the difference; the question asked here is only whether this contract alone covers the required floor.",
+  "contract_term_years": 10
+}

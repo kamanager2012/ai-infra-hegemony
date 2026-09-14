@@ -146,7 +146,7 @@ The 50% milestone spans **y2.0 to y13.0** — an eleven-year range produced enti
 ## 10. Integration
 
 1. Re-run `scripts/recompute_energization.py` when the Ch07 anchors move or when a ramp/compounding dial changes; update tables rather than appending narrative.
-2. **Supplies `15`.** This layer's state conversion is `15`'s "GW served" denominator. The two compose: `15` asks whether cash covers required cash per GW-year, and this file constrains how much GW is actually serving. Composing them is a **link**, not a multiplication — no composite index may be built from the two.
+2. **Supplies `15`.** This layer's state conversion is `15`'s "GW served" denominator. The two compose: `15` asks whether cash covers required cash per GW-year, and this file constrains how much GW is actually serving. That composition is now built, as [`18`](18-ramp-period-funding-gap.md). **The prohibition is against the scalar, not against the time axis:** `18` keeps both quantities in their own units on a common clock and produces a curve and three scalars (peak, term-end balance, crossover). No composite index — no single netted score — may be built from `15` and `17`, by `18` or by anything else.
 3. **Proposed extension (not yet applied):** `10` Axis H could carry the §6 milestones as a dated sub-row once (1) a project discloses dated state transitions. Until then Axis H is unchanged, and this file remains the only place the schedule lives.
 
 ## Sources
