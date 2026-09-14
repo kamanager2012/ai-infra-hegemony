@@ -157,6 +157,18 @@ def main():
         assert abs(r - published) < 0.005, (name, cap, r, published)
         print(f"  {name:<24} US${cap}B/GW  ->  {r:.2f}  (15 publishes {published:.2f})")
 
+    # The prose discusses the annual requirement level, not only the shortfall
+    # against it, so print the level too. A figure the document publishes and the
+    # script does not print is a figure nothing can be checked against. Printed
+    # at the precision the document cites, which is also the precision of the
+    # tables above: a value the script prints more finely than the document
+    # states it is still a value the document cannot be checked against.
+    print()
+    print("Annual required cash at full deployment = r x cohort, US$B/yr:")
+    for name, cap in sorted(PUBLISHED_REQUIRED_CASH):
+        r = required_cash_per_gw_year(regimes[name], cap)
+        print(f"  {name:<24} US${cap}B/GW  ->  {r * cohort:.2f}")
+
     print()
     print(f"Contract anchor: US${contract['value_usd_b_floor']}B floor / "
           f"{contract['years']} yr / {cohort} GW ceiling")

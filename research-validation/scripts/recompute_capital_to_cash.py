@@ -86,6 +86,13 @@ def main():
             + "".join(row)
         )
     assert math.isclose(required[("mid_coupon", 40)], 5.3012, rel_tol=5e-4)
+    # §5's convention note divides by this cell at one more decimal than the
+    # table displays, because the note's subject is the difference between the
+    # unrounded and the displayed value. Printing it is what makes that division
+    # reproducible rather than asserted in prose: a figure the document publishes
+    # and the script does not print is a figure nothing can be checked against.
+    print(f"mid_coupon @ US$30B/GW at 3 decimals, the value §5's note divides by: "
+          f"{required[('mid_coupon', 30)]:.3f}")
 
     print()
     print("Contract-revenue coverage ratio (contracted floor / required cash floor):")

@@ -69,6 +69,7 @@ CHECK_NAMES = {
     12: "a layer's tables carry the same quantities in both editions",
     13: "a rule a layer states reproduces the value it publishes",
     14: "the quantities nothing produces are exactly the declared ones",
+    15: "a layer's README summary states only values the layer produces",
 }
 
 # A quantity, as distinct from a count, a layer id, or a year: it carries a
@@ -88,6 +89,8 @@ CROSS_REF_RES = (
     re.compile(r"(?:表|Table)\s*\d+\.\d+"),
     re.compile(r"\bCh\s*\d+"),
     re.compile(r"\bv\d+\.\d+(?:\.\d+)?", re.I),
+    re.compile(r"`[^`]*\.py`"),
+    re.compile(r"research-validation/\S*"),
 )
 
 # Rules a layer states in prose and applies to a published value. The gate
@@ -262,6 +265,31 @@ def strip_cross_refs(text: str) -> str:
     for pattern in CROSS_REF_RES:
         text = pattern.sub(" ", text)
     return text
+
+
+def produced_quantities(ident: str, entry: dict, stdout: str) -> set[str]:
+    """Every quantity a layer produces: its tables, its registered tokens and
+    its script output, with each fraction also accepted as its percent.
+
+    The percent fold runs one way only - a produced 0.073 may appear as 7.3 -
+    because that is the direction this corpus uses: the tables carry 0.073 and
+    the prose carries 7.3%. Folding both ways would also accept a summary stating
+    100x a produced value, which is an error rather than a rendering choice."""
+    out: set[str] = set()
+    for _head, cells in markdown_tables(
+            read_if_present(PHASE2 / f"{ident}-{entry['slug']}.md")):
+        out |= set(quantities(cells))
+    for token in entry["headline_tokens"]:
+        out |= set(quantities(token))
+    out |= set(quantities(norm(stdout)))
+    for value in list(out):
+        try:
+            number = float(value)
+        except ValueError:
+            continue
+        if 0 < number <= 1:
+            out.add(f"{number * 100:g}")
+    return out
 
 
 def unaccounted_quantities(ident: str, entry: dict, produced: Counter) -> list[str]:
@@ -482,8 +510,14 @@ def main(argv: list[str] | None = None) -> int:
         zh = norm(read_if_present(PHASE2 / f"{ident}-{slug}.zh.md"))
         out = outputs.get(entry["script"], "")
         for token in entry["headline_tokens"]:
+            # The token is folded the same way the sources are. Without this a
+            # registry literal containing `×` can never match anything, because
+            # `norm` rewrites the sources to `x` and leaves the registry alone -
+            # a registered token that is unmatchable by construction, and silent
+            # about it.
+            folded = norm(token)
             where = "".join(k for k, src in (("script", out), ("canonical", doc), ("zh", zh))
-                            if token in src)
+                            if folded in src)
             check(where == "scriptcanonicalzh",
                   f"{ident} headline {token!r} in script+canonical+zh"
                   + (f" (found only in: {where or 'nothing'})" if where != "scriptcanonicalzh" else ""))
@@ -501,7 +535,7 @@ def main(argv: list[str] | None = None) -> int:
                      "either the computation changed, or this registry entry presumes a "
                      "figure nothing produces any more")
             else:
-                missing = [n for n, src in (("canonical", doc), ("zh", zh)) if token not in src]
+                missing = [n for n, src in (("canonical", doc), ("zh", zh)) if folded not in src]
                 note(ident,
                      f"headline token {token!r} is missing from {' and '.join(missing)} ({doc_rel})",
                      "the script still emits it, so the document drifted from its script")
@@ -509,7 +543,9 @@ def main(argv: list[str] | None = None) -> int:
                 # local to those - that is the whole difference between "this
                 # layer is broken" and a maintainable failure.
                 for name, src in (("canonical", doc), ("zh", zh)):
-                    if token not in src:
+                    # `src` is folded, so the test must be too; `sections_citing`
+                    # reads the file unfolded, so the literal it gets is not.
+                    if folded not in src:
                         continue
                     path = PHASE2 / (f"{ident}-{slug}.md" if name == "canonical"
                                      else f"{ident}-{slug}.zh.md")
@@ -731,6 +767,39 @@ def main(argv: list[str] | None = None) -> int:
                  "an exemption that outlives its reason is how a check gets narrower "
                  "than it reads")
 
+    # ------------------------------------------ 15. the README's public summary
+    print(f"15. {CHECK_NAMES[15]}")
+    # Checks 8 and 12 keep a layer's registered values and its tables honest.
+    # This covers the public summary of that layer: every quantity on the
+    # README's bullet for a layer has to be one the layer produces. It is the
+    # check that would have caught the defect that motivated check 14 - when
+    # three documents quoted 15's retired 2.51x, the README was one of them and
+    # nothing was watching it.
+    #
+    # Credited: the layer's tables, its registered tokens and its script output.
+    # Deliberately not credited: the layer's prose, because prose is where
+    # retired values and worked examples legitimately live. Crediting it makes
+    # this rule vacuous rather than lenient - reverting the README to 2.51x then
+    # produces an empty difference set, because 15 retains that value on purpose.
+    # Both versions were measured before either was written.
+    for lineno, line in enumerate(readme.splitlines(), 1):
+        if not line.startswith("- **") or "Reproducible via" not in line:
+            continue
+        owner = next((i for i, e in layers.items()
+                      if e.get("script") and e["script"] in line), None)
+        if owner is None:
+            continue
+        entry = layers[owner]
+        allowed = produced_quantities(owner, entry, outputs.get(entry["script"], ""))
+        stray = sorted(set(quantities(strip_cross_refs(line))) - allowed,
+                       key=lambda s: (len(s), s))
+        check(not stray,
+              f"README line {lineno} states only values {owner} produces"
+              + ("" if not stray else f" (not produced by {owner}: {stray})")
+              + ("" if not stray else
+                 " - the README summarises the layer, so a value the layer does "
+                 "not carry is either stale or belongs to another layer"))
+
     # ----------------------------------------------------------------- summary
     total_layers = len([i for i in on_disk])
     registered_layers = len(layers)
@@ -752,6 +821,9 @@ def main(argv: list[str] | None = None) -> int:
           "script, its versioned inputs or a registered token, or it is declared in "
           "the register's `unaccounted` list with the reason nothing produces it - "
           "so the residue is bounded and reviewable rather than assumed absent. "
+          "Check 15 extends the same accounting one level out, to the public "
+          "summary: the README's bullet for a layer may state only values that "
+          "layer produces. "
           "What PASS still does not claim: the three sources credited are the ones "
           "this repository has, and a value reaching a layer from an unregistered "
           "outside source would be reported as unaccounted, not as wrong. A token "

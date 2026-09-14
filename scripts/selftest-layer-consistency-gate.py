@@ -322,6 +322,14 @@ CASES = [
                          if u["value"] == "55.2"][0].update({"value": "1.23"})),
      "20 declared-unaccounted list is current (now produced, so the "
      "declarations are stale: ['1.23'])"),
+
+    # -- the README's public summary ---------------------------------------
+    # Not a hypothetical: this is the defect that motivated the check. 15 moved
+    # its coverage cell to 2.52x and the README kept quoting 2.51x, which nothing
+    # noticed because the value was registered nowhere at the time.
+    ("the README quotes a value its layer no longer produces",
+     rewrite(R + "README.md", "2.52× to 0.30×", "2.51× to 0.30×"),
+     "states only values 15 produces"),
 ]
 
 
@@ -375,6 +383,7 @@ CASE_CHECK = {
     "a derivation names a rule the gate does not implement": 13,
     "a layer publishes a quantity nothing produces": 14,
     "a declared unaccounted value has gone stale": 14,
+    "the README quotes a value its layer no longer produces": 15,
 }
 
 
