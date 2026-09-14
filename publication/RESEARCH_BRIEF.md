@@ -225,6 +225,8 @@ AMD 提供了独立 cross-vendor check：其 Q2 2026 Form 10-Q 披露，与部�
 
 > **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
 
+![图 10 — Verified workflow output 构成 demand-side closure](figures/fig-10-verified-workflow-loop.svg)
+
 ---
 
 ## 7. 传统终端仍然重要，但“重要”不等于拥有 upstream priority

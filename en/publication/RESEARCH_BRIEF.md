@@ -209,6 +209,8 @@ The demand-side loop is:
 
 > **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
 
+![Figure 10 — Demand-side closure through verified workflow output](figures/fig-10-verified-workflow-loop.svg)
+
 ---
 
 ## 7. Traditional end systems remain important but may lose upstream priority
