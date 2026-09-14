@@ -300,14 +300,42 @@ def main() -> int:
             check(points_back,
                   f"{upstream} acknowledges {ident} (the layer built on it)")
 
+    # --------------------------------------------------- 10. borrowed anchors
+    print("10. borrowed anchors still exist where the layer says they do")
+    # "No new numeric identities" has been a rule this repository states and a
+    # reader has to take on trust. This makes it executable: every anchor a
+    # layer reads from outside itself must still be findable in the document it
+    # came from. Layer 18's script already does this for layer 15's table; this
+    # generalises it, and extends it to the frozen chapters, which are the
+    # fixed point the research side is not permitted to move.
+    chapter_files = reg.get("frozen_chapter_files", {})
+    for ident, entry in layers.items():
+        for anchor in entry.get("borrowed_anchors", []):
+            source = anchor["source"]
+            if source in chapter_files:
+                targets = [ROOT / rel for rel in chapter_files[source]]
+            else:
+                targets = [m for m in sorted(PHASE2.glob(f"{source.lower()}-*.md"))
+                           if not m.name.endswith(".zh.md")]
+            if not targets:
+                check(False, f"{ident} anchor {anchor['literal']!r} names unknown source {source}")
+                continue
+            found_in = [t.name for t in targets
+                        if t.exists() and anchor["literal"] in read_if_present(t)]
+            check(bool(found_in),
+                  f"{ident} anchor {anchor['literal']!r} still in {source} ({anchor['role']})"
+                  + ("" if found_in else f" - searched {[t.name for t in targets]}"))
+
     # ----------------------------------------------------------------- summary
     total_layers = len([i for i in on_disk])
     registered_layers = len(layers)
     tokens = sum(len(e["headline_tokens"]) for e in layers.values())
+    anchors = sum(len(e.get("borrowed_anchors", [])) for e in layers.values())
     print()
     print(f"Phase II consistency: layer files on disk={total_layers}, "
           f"registry entries={registered_layers}, "
-          f"recompute scripts={len(scripts)}, headline tokens verified={tokens}")
+          f"recompute scripts={len(scripts)}, headline tokens verified={tokens}, "
+          f"borrowed anchors verified={anchors}")
     print(f"Convention epoch: layers >= {epoch} carry the full Phase II convention; "
           f"layers below it are checked for boundary-free invariants only.")
     print("Scope: PASS means every REGISTERED headline token is reproducible from "

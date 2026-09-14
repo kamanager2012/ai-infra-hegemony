@@ -6,7 +6,7 @@
   "convention_epoch": "14",
   "epoch_note": "Layers 00-13 predate the Phase II documentation convention and are checked only for the boundary-free invariants (translation pairing, README file-index membership, authority-graph membership). From 14 onward a layer additionally carries a status header, an ownership contract (§0), a Sources section, a .zh.md translation, a README authority rule listing, a README work-order entry, a README next-stage item, and - once it publishes derived numbers - a recompute script with a registered headline set.",
   "readme": "README.md",
-  "path_note": "Every path in this registry is relative to research-validation/ unless it starts with a layer id.",
+  "path_note": "Paths in this registry are relative to research-validation/ unless they start with a layer id (in which case they name that layer) or appear under `frozen_chapter_files`, which are repository-root-relative because the frozen chapters live outside this directory.",
   "cross_reference_offsets": {
     "anchor_layer": "14",
     "work_order": 8,
@@ -21,7 +21,8 @@
       "data": [],
       "upstream_must_acknowledge": [],
       "headline_tokens": [],
-      "token_note": "State-variable / clock layer: it names what to watch and deliberately publishes no derived numbers, so it registers no headline set by design."
+      "token_note": "State-variable / clock layer: it names what to watch and deliberately publishes no derived numbers, so it registers no headline set by design.",
+      "borrowed_anchors": []
     },
     "15": {
       "slug": "capital-to-cash-bridge",
@@ -38,6 +39,48 @@
         "US$429.3",
         "US$858.7",
         "1.87"
+      ],
+      "borrowed_anchors": [
+        {
+          "literal": "1.15",
+          "source": "04c",
+          "role": "DSCR covenant the required-cash floor is built on"
+        },
+        {
+          "literal": "5.96%",
+          "source": "04c",
+          "role": "low end of the observed coupon range"
+        },
+        {
+          "literal": "9.75%",
+          "source": "04c",
+          "role": "high end of the observed coupon range"
+        },
+        {
+          "literal": "US$3.529B",
+          "source": "04d",
+          "role": "NVIDIA LPS guarantee cap"
+        },
+        {
+          "literal": "US$105B",
+          "source": "04d",
+          "role": "SB Energy PORTS-Pike aggregate obligation cap"
+        },
+        {
+          "literal": "4.25",
+          "source": "04d",
+          "role": "initial IT-GW the US$105B cap covers"
+        },
+        {
+          "literal": "100B",
+          "source": "ch13",
+          "role": "Anthropic/AWS ten-year commitment"
+        },
+        {
+          "literal": "5 GW",
+          "source": "ch13",
+          "role": "capacity ceiling of that commitment"
+        }
       ]
     },
     "16": {
@@ -55,6 +98,18 @@
         "1.050",
         "0.240",
         "0.340"
+      ],
+      "borrowed_anchors": [
+        {
+          "literal": "5,179",
+          "source": "03",
+          "role": "support agents in the most-cited Level-3 study"
+        },
+        {
+          "literal": "14%",
+          "source": "03",
+          "role": "that study's reported productivity gain"
+        }
       ]
     },
     "17": {
@@ -70,6 +125,23 @@
         "72.0",
         "0.315",
         "13.0"
+      ],
+      "borrowed_anchors": [
+        {
+          "literal": "4–8 years",
+          "source": "ch7",
+          "role": "new transmission in advanced economies (Table 7.2)"
+        },
+        {
+          "literal": "2–3 years",
+          "source": "ch7",
+          "role": "cable procurement (Table 7.2)"
+        },
+        {
+          "literal": "up to 4 years",
+          "source": "ch7",
+          "role": "large power transformer procurement (Table 7.2)"
+        }
       ]
     },
     "18": {
@@ -86,6 +158,18 @@
         "21.9",
         "44%",
         "0.336"
+      ],
+      "borrowed_anchors": [
+        {
+          "literal": "1.87",
+          "source": "15",
+          "role": "IG-backed required cash per GW-year, recomputed and asserted in-script"
+        },
+        {
+          "literal": "0.315",
+          "source": "17",
+          "role": "mid-case compounding factor read from 17's dials"
+        }
       ]
     },
     "19": {
@@ -104,6 +188,28 @@
         "44.5%",
         "1.64",
         "0.85"
+      ],
+      "borrowed_anchors": [
+        {
+          "literal": "77%",
+          "source": "04c",
+          "role": "CoreWeave share of Core Scientific H1 2026 revenue"
+        },
+        {
+          "literal": "US$6.1B",
+          "source": "04c",
+          "role": "CoreWeave principal due in remainder-2026"
+        },
+        {
+          "literal": "US$10.0B",
+          "source": "04c",
+          "role": "committed undrawn liquidity"
+        },
+        {
+          "literal": "US$649.8M",
+          "source": "04c",
+          "role": "Core Scientific principal due 2029"
+        }
       ]
     },
     "20": {
@@ -122,6 +228,33 @@
         "3.83",
         "47%",
         "2.9%"
+      ],
+      "borrowed_anchors": [
+        {
+          "literal": "18%",
+          "source": "14",
+          "role": "firms using AI in at least one function"
+        },
+        {
+          "literal": "66%",
+          "source": "14",
+          "role": "adopters mainly reporting augmentation"
+        },
+        {
+          "literal": "2%",
+          "source": "14",
+          "role": "firms reporting employment reductions"
+        },
+        {
+          "literal": "69%",
+          "source": "14",
+          "role": "cross-country active-use base"
+        },
+        {
+          "literal": "80%",
+          "source": "14",
+          "role": "cross-country no-impact share"
+        }
       ]
     },
     "21": {
@@ -138,7 +271,41 @@
         "§2A"
       ],
       "acknowledgement_note": "Declares no upstream acknowledgement: its upstream is the frozen 32-chapter text, which this layer system reads and cannot write to. That asymmetry is the reason the layer exists.",
-      "token_note": "This layer's headline set is citations rather than numbers, and deliberately so: its output is a classification, and classification labels are language-specific while the sections a variable is carried by are not. The three-way check therefore asserts that the script, the canonical and the translation agree on WHICH section carries WHICH variable - which is the table's load-bearing content and the thing that would rot if a panel were renumbered."
+      "token_note": "This layer's headline set is citations rather than numbers, and deliberately so: its output is a classification, and classification labels are language-specific while the sections a variable is carried by are not. The three-way check therefore asserts that the script, the canonical and the translation agree on WHICH section carries WHICH variable - which is the table's load-bearing content and the thing that would rot if a panel were renumbered.",
+      "borrowed_anchors": [
+        {
+          "literal": "US$105B",
+          "source": "04d",
+          "role": "SB Energy cap, cited as a residual-value guarantee"
+        },
+        {
+          "literal": "US$3.529B",
+          "source": "04d",
+          "role": "NVIDIA LPS cap, cited for the same checklist item"
+        },
+        {
+          "literal": "1.15",
+          "source": "04c",
+          "role": "DSCR covenant, cited for the covenant/recourse item"
+        },
+        {
+          "literal": "take-or-pay",
+          "source": "11",
+          "role": "support form cited for the take-or-pay item"
+        }
+      ]
     }
-  }
+  },
+  "frozen_chapter_files": {
+    "note": "Frozen 32-chapter locations a research layer borrows an anchor from. Both editions are listed because the anchor may read differently in each; an anchor is satisfied if it is found in either, since the two editions are the same fact in two languages.",
+    "ch7": [
+      "publication/part-I-ch07-power-constraint.md",
+      "en/publication/part-I-ch07-power-constraint.md"
+    ],
+    "ch13": [
+      "publication/part-II-ch13-anchor-compute-buyer.md",
+      "en/publication/part-II-ch13-anchor-compute-buyer.md"
+    ]
+  },
+  "anchor_note": "`borrowed_anchors` makes the repository's 'no new numeric identities' rule executable. Each entry is an anchor a layer reads from outside itself, with the document it must still be found in. This is the same guarantee layer 18's script already implements for layer 15's table, generalised: if an upstream layer or a frozen chapter changes a value, the check fails loudly instead of letting the derived layer keep publishing the old one. Anchors borrowed from frozen chapters are checked in both editions, because the frozen text is the fixed point the research side is not permitted to move."
 }
