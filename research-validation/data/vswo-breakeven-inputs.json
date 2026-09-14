@@ -1,0 +1,35 @@
+{
+  "version": "2026-09-14",
+  "notes": "Normalized break-even parameters for the P0-3 closure identity. All quantities are dimensionless ratios, so the model produces no factual claim about any process, vendor, or deployment. The grids are report-side illustrations. Published-effect anchors are reused from `03`'s existing source list; this file adds no new literature and creates no new numeric identities.",
+  "identity": "rho_breakeven = p - 1 + s - a - i",
+  "where": {
+    "s": "gross execution-time saving as a share of baseline minutes per attempt",
+    "rho": "review + remediation minutes as a share of baseline minutes per attempt",
+    "p": "probability that a candidate outcome is verified AND persists over the measurement window",
+    "i": "allocated integration / mapping cost per attempt, as a share of baseline labor cost per outcome",
+    "a": "AI / tool / runtime / retry cost per attempt, as a share of baseline labor cost per outcome"
+  },
+  "placement_note": "i and a are per-attempt costs and enter the numerator before the /p division, per P0-3 §17.5 (integration cost must not be allocated only to successful workflows after the fact).",
+  "gross_saving_grid": [0.10, 0.20, 0.30, 0.40],
+  "review_share_grid": [0.00, 0.05, 0.10, 0.20],
+  "persistence_grid": [1.00, 0.95, 0.90, 0.80],
+  "integration_share_grid": [0.00, 0.10],
+  "inference_intensity": 0.05,
+  "negative_control_saving": -0.19,
+  "published_effect_anchors": [
+    {
+      "name": "Brynjolfsson / Li / Raymond — Generative AI at Work",
+      "reported": "productivity +14% on average across 5,179 support agents, heterogeneous",
+      "repo_source": "03 Sources; https://www.nber.org/papers/w31161",
+      "conversion": "if productivity means outcomes per unit time, time per outcome falls by 1 - 1/1.14",
+      "implied_s": 0.1228070175438597
+    },
+    {
+      "name": "METR — experienced open-source developers (negative control)",
+      "reported": "completion time +19% for 16 experienced developers on 246 tasks with early-2025 AI access",
+      "repo_source": "03 Level-3 candidate-audit sources; https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf",
+      "conversion": "reported directly as a time change; enters as a negative saving",
+      "implied_s": -0.19
+    }
+  ]
+}
