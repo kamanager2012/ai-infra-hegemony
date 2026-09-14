@@ -10,6 +10,7 @@
 | CPU | Central Processing Unit | 不与 accelerator 混用 |
 | ASIC | Application-Specific Integrated Circuit | cloud custom accelerator 属于其典型形式之一 |
 | SoC | System on Chip | 常用于 smartphone / edge / embedded |
+| IC | Integrated Circuit | 通用元件层；process node、packaging 与 system integration 是彼此独立的变量 |
 | HBM | High Bandwidth Memory | 与 DDR/RDIMM 的 bit share、wafer input 分开 |
 | DRAM | Dynamic Random-Access Memory | HBM、DDR、LPDDR、RDIMM 需按产品层区分 |
 | DDR5 | Double Data Rate 5 SDRAM | conventional DRAM 的一种 |
@@ -20,10 +21,13 @@
 | eSSD | Enterprise SSD | 企业级固态存储 |
 | NVMe | Non-Volatile Memory Express | 高速 SSD interface / protocol；产品规格不等于行业供给 |
 | UFS | Universal Flash Storage | mobile / embedded / selected game-console storage；与 data-center SSD 分开分析 |
+| HDD | Hard Disk Drive | 传统存储；与 NAND / eSSD 不属于同一供给池 |
 | CoWoS | Chip-on-Wafer-on-Substrate | TSMC advanced-packaging family；customer allocation 不由 revenue share推导 |
 | TSV | Through-Silicon Via | HBM stacking / 3D integration 的关键工艺之一 |
+| HVM | High-Volume Manufacturing | qualification 到 volume 的转段；qualification 状态不等于 HVM |
 | CUDA | NVIDIA compute platform / programming ecosystem | 作为 software switching-cost 变量分析 |
 | NVLink / NVSwitch | NVIDIA scale-up interconnect technologies | 不与 scale-out network 混为同一层 |
+| API | Application Programming Interface | 软件集成面；agent-native 工作流的可变成本组成部分之一 |
 | CapEx | Capital Expenditure | guidance、expectation、actual 必须分开 |
 | OpEx | Operating Expenditure | 不与 CapEx 直接合并 |
 | FCF | Free Cash Flow | 保留公司定义与 GAAP/non-GAAP 身份 |
@@ -34,9 +38,11 @@
 | CSP | Cloud Service Provider | hyperscaler 为其中重要类别 |
 | OEM | Original Equipment Manufacturer | 终端/整机厂商 |
 | ODM | Original Design Manufacturer | 设计制造服务商 |
+| PC | Personal Computer | 传统客户端终端；一个与 NARC 相关的需求池 |
 | BOM | Bill of Materials | 用于分析终端成本传导 |
 | TCO | Total Cost of Ownership | system-level 比较单位 |
 | ASP | Average Selling Price | 必须明确产品与时间口径 |
+| SKU | Stock-Keeping Unit | 产品配置单位；SKU 数量不等于出货量或供给量 |
 | ROI | Return on Investment | 仅作本报告用法；除非指明来源，否则不是公司披露口径 |
 | GAAP | 美国公认会计准则 | GAAP 与 non-GAAP 口径不得混用 |
 | PPE | Property, Plant and Equipment | 用于 hyperscaler capital-base 重构；各公司会计科目不同 |

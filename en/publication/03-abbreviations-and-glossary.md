@@ -10,6 +10,7 @@
 | CPU | Central Processing Unit | Not interchangeable with accelerators |
 | ASIC | Application-Specific Integrated Circuit | Cloud custom accelerators are one important form |
 | SoC | System on Chip | Common in smartphone, edge, and embedded systems |
+| IC | Integrated Circuit | Generic component layer; process node, packaging, and system integration remain separate variables |
 | HBM | High Bandwidth Memory | Bit share, wafer input, and market share remain separate denominators |
 | DRAM | Dynamic Random-Access Memory | HBM, DDR, LPDDR, and RDIMM remain product-level distinctions |
 | DDR5 | Double Data Rate 5 SDRAM | One conventional-DRAM product class |
@@ -20,10 +21,13 @@
 | eSSD | Enterprise SSD | Enterprise solid-state storage |
 | NVMe | Non-Volatile Memory Express | High-speed SSD interface / protocol; a product specification is not an industry-supply measure |
 | UFS | Universal Flash Storage | Mobile / embedded / selected game-console storage; analyzed separately from data-center SSD |
+| HDD | Hard Disk Drive | Conventional storage; a different supply pool from NAND / eSSD |
 | CoWoS | Chip-on-Wafer-on-Substrate | TSMC advanced-packaging family; customer allocation is not inferred from revenue share |
 | TSV | Through-Silicon Via | Important in HBM stacking / 3D integration |
+| HVM | High-Volume Manufacturing | Qualification-to-volume transition; qualification status is not HVM |
 | CUDA | NVIDIA compute platform / programming ecosystem | Analyzed as a software switching-cost variable |
 | NVLink / NVSwitch | NVIDIA scale-up interconnect technologies | Not treated as the same layer as scale-out networking |
+| API | Application Programming Interface | Software integration surface; one variable-cost component of agent-native workflows |
 | CapEx | Capital Expenditure | Guidance, expectation, and actuals remain separate |
 | OpEx | Operating Expenditure | Not mechanically combined with CapEx |
 | FCF | Free Cash Flow | Company-defined and GAAP/non-GAAP identities are preserved |
@@ -34,9 +38,11 @@
 | CSP | Cloud Service Provider | Hyperscalers are an important subset |
 | OEM | Original Equipment Manufacturer | End-device / system manufacturer |
 | ODM | Original Design Manufacturer | Design-and-manufacturing service provider |
+| PC | Personal Computer | Traditional client end system; one NARC-relevant demand pool |
 | BOM | Bill of Materials | Used in end-market cost-transmission analysis |
 | TCO | Total Cost of Ownership | Preferred system-level comparison unit |
 | ASP | Average Selling Price | Product and time denominator must be explicit |
+| SKU | Stock-Keeping Unit | Product-configuration unit; SKU count is not a volume or supply measure |
 | ROI | Return on Investment | Report-side usage only; not a disclosed company metric unless a source is named |
 | GAAP | U.S. Generally Accepted Accounting Principles | GAAP and non-GAAP identities are never merged |
 | PPE | Property, Plant and Equipment | Used in hyperscaler capital-base reconstruction; accounting line items differ by company |
