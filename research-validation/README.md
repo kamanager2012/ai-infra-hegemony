@@ -16,6 +16,7 @@ Its purpose is not to keep polishing the publication. It exists to test the repo
 6. **P1 Conditional Timeline** — convert fixed-year language into condition → milestone → contrary-signal logic;
 7. **P2 Downstream Empirical Chains** — maintain auditable Labor / Education / Physical-AI transmission chains;
 8. **P1 Demand-Side Reflexivity** — own the labor-income → consumption → enterprise cash generation → AI monetization loop, its clocks, and its demand-side observables.
+9. **P1 Capital-to-Cash Bridge** — perform the required-cash-versus-contracted-revenue division per GW-year from already-graded anchors, and maintain it as a reproducible artifact.
 
 ## Freeze boundary
 
@@ -42,7 +43,8 @@ Primary / auditable evidence
         ├─ 09  China technical system-stack closure
         ├─ 12  Non-AI end-system response evidence
         ├─ 13  Developer-distribution / model-production / capability-absorption evidence
-        └─ 14  Demand-side reflexivity / household-income → consumption → monetization state
+        ├─ 14  Demand-side reflexivity / household-income → consumption → monetization state
+        └─ 15  Capital-to-cash bridge / required cash vs contracted revenue per GW-year
                  │
                  ├─ 11 Financing taxonomy / causal double-counting map
                  ├─ 10 Scenario aggregation / S1–S4 relevance
@@ -62,9 +64,10 @@ Authority rules:
 4. **`08` owns decision rules, not scenario state.**
 5. **`11` owns financing taxonomy / anti-double-counting, while `04C/04D` own borrower/support states.**
 6. **`14` owns the demand-side reflexivity loop and its household-income / consumption observables; `07` continues to own task- and worker-level labor evidence.**
-7. **Formal-report text remains frozen unless a specific evidence-backed defect or explicit reopen is recorded.**
+7. **`15` owns the per-GW-year normalization and its coverage arithmetic; `04B`/`04C`/`04D`/`13` continue to own the underlying facts, and `15` creates no new numeric identities.**
+8. **Formal-report text remains frozen unless a specific evidence-backed defect or explicit reopen is recorded.**
 
-This graph is the maintenance contract for Phase II. New files should not be added if their role can be expressed as an existing evidence owner, taxonomy layer, aggregation layer, or decision layer. **`14` was added under that rule**: the formal S4 path already allows “real-economy clearing” to confirm ahead of accounting, but no existing layer owned aggregate-demand-side observables — `07`'s labor chain terminates at employment/wage outcome, and `04`/`11` own the financing side. The justification is recorded in `14` §0.
+This graph is the maintenance contract for Phase II. New files should not be added if their role can be expressed as an existing evidence owner, taxonomy layer, aggregation layer, or decision layer. **`14` was added under that rule**: the formal S4 path already allows “real-economy clearing” to confirm ahead of accounting, but no existing layer owned aggregate-demand-side observables — `07`'s labor chain terminates at employment/wage outcome, and `04`/`11` own the financing side. The justification is recorded in `14` §0. **`15` was added under the same rule**: the formal S4 condition is a comparison of capital formation against cash generation, but `04C` records DSCR covenants and coupons as facility state without ever converting them into a cash requirement per unit of capacity, and `03` owns cost per verified *workflow* — a different denominator. The per-GW-year unit had no owner. Its justification is recorded in `15` §0.
 
 ## Current status
 
@@ -81,6 +84,7 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - **Financing Reflexivity Map:** v0.3. The 2026 Support Taxonomy and anti-double-counting rules remain. Scope is explicit: `11` owns financing taxonomy / causal graph / reflexivity diagnosis; `04C` owns facility state; `04D` owns support activation / funded-loss state; `01A` owns live clearing adjudication.
 - **Non-AI End-System Supply Conditions:** v0.4. Automotive/industrial counterevidence now includes NXP 2026Q2 recovery, Infineon simultaneous AI growth + automotive-order recovery/shared-capacity expansion, and ST selected tightness + low distribution inventory. Current judgment remains: shared-resource exposure is credible, but broad realized AI-attributed automotive/industrial pressure is not established.
 - **Demand-Side Reflexivity:** **v0.2.** Research-side owner for the loop `labor income → consumption → enterprise cash generation → AI monetization → capital clearing`. Current 2026 state: the loop is **not open at its first gate** — no economy-wide displacement is observed; the existing signal is a reduced-hiring-driven pipeline divergence in early-career, high-exposure occupations (Stanford/ADP as recorded in `07`). The layer contributes a demand leg to S4 evidence and explicitly does not confirm S4 alone. External scenario references (including *The 2028 Global Intelligence Crisis*, 2026-02) are calibration shapes only; no external numbers are adopted. **v0.2:** the §9 integration rule was adjudicated and applied on 2026-09-14 as `10` §6D — the demand-side sub-rows now sit on Axis F and in the update sheet, under `14` ownership. Still **no formal-text change**; Ch29 §10 Dashboard I remains as frozen.
+- **Capital-to-Cash Bridge:** **v0.1.** New research-side layer performing the division the formal text refuses: **required cash per GW-year** (from observed financing terms — the 1.15× DSCR covenant recorded in `04C`, and observed coupons from ~5.96% to 9.75%) against **contracted revenue per GW-year** (from the >US$100B / up to 5 GW Anthropic–AWS commitment). Breakeven capital per GW lands at **US$14.2–21.3B** across three financing regimes — versus a US$50B/GW plan-scale *illustration* (plan and secured-GW are different scopes) and a US$24.71B/IT-GW *cap divided by design capacity*; neither is an observed cost. The output is a **coverage surface**, not a verdict: coverage ranges from 2.51× to 0.30× purely on how many GW the contract actually serves. Reproducible via `research-validation/scripts/recompute_capital_to_cash.py`; all outputs D-grade report-side calculations; no new numeric identities; no formal-text change.
 - **Developer Distribution Chokepoint:** **v0.6.** DDC, MPG, and CAWA are separate mechanisms. DDC remains **DDC-A / transaction-status WATCH**; MPG remains **MPG-WATCH**, with Poolside transaction terms remaining C-grade; **CAWA-OBSERVED — Capability Absorption Without Acquisition** is now established by first-party evidence that Groq signed a non-exclusive inference-technology license with NVIDIA on 2025-12-24, Jonathan Ross / Sunny Madra and others joined NVIDIA while Groq remained independent, and NVIDIA confirmed on 2026-08-24 that NVIDIA Groq 3 LPX had entered the Vera Rubin product stack. CAWA-OBSERVED proves that legal ownership is not the only capability-accumulation variable, but does not prove foreclosure. Formal Ch02/Ch11 remain HOLD.
 
 ## File index
@@ -109,6 +113,10 @@ This graph is the maintenance contract for Phase II. New files should not be add
 - [13 · Developer Distribution Chokepoint](13-developer-distribution-chokepoint.md)
 - [14 · Demand-Side Reflexivity](14-demand-side-reflexivity.md)
   - [14 · Demand-Side Reflexivity · 中文译本](14-demand-side-reflexivity.zh.md)
+- [15 · Capital-to-Cash Bridge](15-capital-to-cash-bridge.md)
+  - [15 · Capital-to-Cash Bridge · 中文译本](15-capital-to-cash-bridge.zh.md)
+  - [15 · bridge inputs](data/capital-to-cash-inputs.json)
+  - [15 · recompute script](scripts/recompute_capital_to_cash.py)
 
 ## Phase II Final Adjudication — 2026-08-30
 
@@ -149,3 +157,4 @@ Prioritize depth, state maintenance, and unresolved estimation rather than addin
 8. **`13`:** maintain DDC / MPG / CAWA separately. DDC tracks distribution conduct; MPG tracks model-production concentration; CAWA tracks capability absorption through license + talent + product integration without acquisition. Groq moves CAWA from hypothesis to OBSERVED, but a formal-text reopen requires materially weaker source-company/rival access, replication across additional independent capability layers, or a CAWA+MPG+DDC combination that changes the competition judgment.
 9. Reopen the formal 32-chapter report only when one of the above evidence layers produces a material evidence-backed change that passes the formal reopen gate.
 10. **`14`:** maintain the demand-side state rows and clocks from observable, same-denominator evidence (labor income, hiring/separations, household debt service, consumption, consumer-linked revenue, fiscal position). Do not adopt external scenario numbers and do not double-count with `04`/`11`. The Dashboard I demand-side extension was adjudicated on 2026-09-14 and is live as `10` §6D (research-side); further changes to formal text still require the formal reopen gate.
+11. **`15`:** re-run `research-validation/scripts/recompute_capital_to_cash.py` whenever a referenced anchor moves in `04C` / `04D` / `13`, and update the tables rather than appending narrative. Add an input only when it already exists as a graded claim elsewhere in the repository. The high-information events that would collapse the surface are: a named facility disclosing **DSCR together with energized capacity**, a disclosed **realized capital per GW**, or a disclosed **contract value per energized GW-year**. Until at least one of those exists, do not promote a coverage ratio into `10`.

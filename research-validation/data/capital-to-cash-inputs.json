@@ -1,0 +1,70 @@
+{
+  "version": "2026-09-14",
+  "notes": "D-grade illustrative bridge parameters layered on graded per-GW anchors. Every anchor below already exists as a graded claim elsewhere in the repository; this file creates no new numeric identities. The scenario grids and the opex/energy dials are report-side illustrations, not observations.",
+  "anchors": {
+    "stargate_plan": {
+      "value_usd_b": 500,
+      "gw": 10,
+      "years": 4,
+      "source_identity": "OpenAI announced long-term plan-level figure; the 10 GW is a separately disclosed secured-capacity milestone, NOT the scope of the plan. Dividing the two yields a plan-scale illustration only.",
+      "grade": "A for the announcement, D as a realized capital-per-GW cost"
+    },
+    "ports_pike_support": {
+      "guarantee_cap_usd_b": 105,
+      "it_gw": 4.25,
+      "source_identity": "NVIDIA FY27 Q2 filing / CFO commentary; aggregate guarantee obligation cap",
+      "grade": "A for the disclosed cap, D as a cost"
+    },
+    "anthropic_aws_contract": {
+      "value_usd_b_floor": 100,
+      "gw_ceiling": 5,
+      "years": 10,
+      "source_identity": "Anthropic / AWS ten-year commitment; value stated as >US$100B, capacity as up to 5 GW",
+      "grade": "A for the disclosure, D as a per-GW economic quantity"
+    },
+    "iren_fy2026": {
+      "ai_cloud_revenue_usd_m": 128.8,
+      "ai_cloud_revenue_fy2025_usd_m": 16.4,
+      "target_it_gw_2026": 0.3,
+      "target_it_gw_2027": 0.8,
+      "source_identity": "IREN FY2026 filing; delivery columns are company targets, not energized capacity",
+      "grade": "A for the disclosure, D as a delivered-capacity denominator"
+    }
+  },
+  "financing_regimes": [
+    {
+      "name": "ig_backed_long",
+      "debt_share": 0.6,
+      "rate": 0.06,
+      "tenor_years": 10,
+      "dscr_covenant": 1.15,
+      "anchor": "IREN Microsoft-linked GPU financing ~5.96-6.0%; Nebius secured facility SOFR + 2.50%; DSCR covenant 1.15x"
+    },
+    {
+      "name": "mid_coupon",
+      "debt_share": 0.6,
+      "rate": 0.08,
+      "tenor_years": 7,
+      "dscr_covenant": 1.15,
+      "anchor": "span between IG-backed and high-coupon project notes; not a specific facility"
+    },
+    {
+      "name": "high_coupon_project",
+      "debt_share": 0.6,
+      "rate": 0.0975,
+      "tenor_years": 7,
+      "dscr_covenant": 1.15,
+      "anchor": "CoreWeave Apr-2026 senior notes 9.75%; Applied Digital 2030 notes 9.25%"
+    }
+  ],
+  "capital_per_gw_grid_usd_b": [20, 25, 30, 40, 50],
+  "contract_gw_grid": [1, 2, 3, 5],
+  "energy_dial": {
+    "usd_per_mwh": [65, 85],
+    "hours_per_year": 8760,
+    "utilization": [1.0, 0.7],
+    "note": "Illustrative full-load energy arithmetic only. Not a claim about any facility's contracted power price or utilization."
+  },
+  "opex_share_of_revenue_illustrative": [0.25, 0.4],
+  "iren_delivery_fraction_sensitivity": [1.0, 0.5, 0.25]
+}
