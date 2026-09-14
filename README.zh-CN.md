@@ -65,6 +65,8 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 
 ## 核心判断
 
+以下为首页要点，不是另一组独立论断。报告完整的**十个承重判断**及章节映射见[第 1 章执行摘要](publication/part-I-ch01-executive-summary.md)。
+
 ### 1. 竞争单位已经从 Chip 上移到 System Stack
 
 NVIDIA 当前优势不能只用 GPU benchmark 或 market share 解释。

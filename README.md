@@ -67,6 +67,8 @@ For the full denominator audit and calculations, see [Chapter 8 — Quantitative
 
 ## Core findings
 
+These are landing-page highlights, not a second list of claims. The report's canonical **Ten load-bearing judgments** and their chapter mapping are in [Chapter 1 — Executive Summary](en/publication/part-I-ch01-executive-summary.md).
+
 ### 1. The competitive unit has moved from the chip to the system stack
 
 NVIDIA's current advantage cannot be explained by GPU benchmarks or market share alone.
