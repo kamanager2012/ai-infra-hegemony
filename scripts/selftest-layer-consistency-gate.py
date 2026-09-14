@@ -78,6 +78,43 @@ def create(rel: str, body: str):
     return run
 
 
+def free_layer_ident(tmp: Path) -> str:
+    """The lowest layer id no file in the copy uses.
+
+    Two cases below have to invent a layer. Hardcoding the id they invent works
+    until a real layer takes it, and then the case does not go FIXTURE - there
+    is no string for `FixtureGone` to miss. It collides: the layer it created
+    now exists for real, the check it names is masked by an unrelated one, and
+    it reports BAD. That is exactly what happened when layer `22` was added, so
+    both fixtures derive the id instead of naming one."""
+    used = {p.name[:2] for p in (tmp / R).glob("[0-9][0-9]-*.md")}
+    for n in range(14, 100):
+        if f"{n:02d}" not in used:
+            return f"{n:02d}"
+    raise FixtureGone("no free layer id below 100")
+
+
+def add_unregistered_layer(body: str):
+    """A layer file at a genuinely free id, with no registry entry."""
+    def run(tmp: Path) -> None:
+        (tmp / f"{R}{free_layer_ident(tmp)}-placeholder-experiment.md"
+         ).write_text(body, encoding="utf-8")
+    return run
+
+
+def add_ghost_registry_entry():
+    """A registry entry whose layer file does not exist, at a free id."""
+    def run(tmp: Path) -> None:
+        path = tmp / REGISTRY_REL
+        data = json.loads(path.read_text(encoding="utf-8"))
+        data["layers"][free_layer_ident(tmp)] = {
+            "slug": "ghost-layer", "script": None, "data": [],
+            "upstream_must_acknowledge": [], "headline_tokens": []}
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8")
+    return run
+
+
 def append(rel: str, text: str):
     def run(tmp: Path) -> None:
         path = tmp / rel
@@ -164,15 +201,13 @@ CASES = [
      create(R + "scripts/recompute_newlayer.py", "print('hi')\n"),
      "every recompute script has a registry entry"),
     ("a layer added without a registry entry fails",
-     create(R + "22-placeholder-experiment.md",
+     add_unregistered_layer(
             "# Phase II · Placeholder Experiment v0.1\n\n"
             "## 0. Ownership contract\n\nNothing, owned by nobody, in this fixture.\n\n"
             "## Sources\n\n"),
      "every layer from the epoch on has a registry entry"),
     ("a registry entry with no layer on disk fails",
-     registry(lambda d: d["layers"].update({"22": {
-         "slug": "ghost-layer", "script": None, "data": [],
-         "upstream_must_acknowledge": [], "headline_tokens": []}})),
+     add_ghost_registry_entry(),
      "every registry entry names a layer file on disk"),
     ("recompute script stops exiting 0",
      append(R + "scripts/recompute_energization.py", "\nthis is not python(\n"),
@@ -203,8 +238,8 @@ CASES = [
      "file index lists data/demand-composition-inputs.json"),
     ("authority graph top layer falls behind",
      rewrite(R + "README.md",
-             "└─ 21  Frozen-text gate status / coverage of a chapter's own required-variable test",
-             "└─ 21x Frozen-text gate status"),
+             "└─ 22  Channel discrimination test / the observable, the statistic and the pre-registered verdicts",
+             "└─ 22x Channel discrimination test"),
      "authority graph top layer"),
 
     # -- back-references ---------------------------------------------------
@@ -281,7 +316,7 @@ CASES = [
 
     # -- the register's stated size ---------------------------------------
     ("README misstates the register's size",
-     rewrite(R + "README.md", "**Registers:** 8 layers", "**Registers:** 9 layers"),
+     rewrite(R + "README.md", "**Registers:** 9 layers", "**Registers:** 10 layers"),
      "README Current status states the register's size"),
 
     # -- table parity across editions -------------------------------------

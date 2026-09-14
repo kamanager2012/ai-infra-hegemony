@@ -308,6 +308,32 @@
           "role": "support form cited for the take-or-pay item"
         }
       ]
+    },
+    "22": {
+      "slug": "channel-discrimination-test",
+      "script": "recompute_channel_discriminator.py",
+      "data": [
+        "channel-discriminator-inputs.json"
+      ],
+      "upstream_must_acknowledge": [
+        "19"
+      ],
+      "headline_tokens": [
+        "1.3%",
+        "2.6%",
+        "6.5%",
+        "13.0%",
+        "19.5%"
+      ],
+      "acknowledgement_note": "Requires `19` to point back because `19` names the test without supplying it: a reader who reaches the channel distinction at the authority meets the claim that the next downstream filing decides the question, and nothing there says the observable, the statistic or the verdicts exist. A sentence that reads as a plan of action, at the place the distinction is owned, is exactly where the executable version has to be pointed to - and it is also the layer that has to be told its single-filing framing was corrected.",
+      "token_note": "The headline set is the resolving-power column: the smallest upstream decline each level of disclosure granularity needs. These are the layer's own numbers - the retention curve is `19`'s published table read as a prediction, and the slopes are differences of it - whereas the resolution thresholds exist nowhere else in the corpus. `0.770` is deliberately NOT registered even though it is load-bearing: `quantities()` strips trailing zeros, so it reduces to `0.77` and would collide with the concentration anchor instead of testing anything new.",
+      "borrowed_anchors": [
+        {
+          "literal": "77%",
+          "source": "04c",
+          "role": "CoreWeave share of Core Scientific H1 2026 revenue - the single observed link concentration the two channels are functions of"
+        }
+      ]
     }
   },
   "frozen_chapter_files": {

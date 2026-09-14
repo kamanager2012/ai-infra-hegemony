@@ -119,6 +119,8 @@ The proportional model above is one of two mechanisms, and the observed structur
 
 **The distinguishing signature is directly observable and cheap.** Under A, the downstream link's revenue from the chain tracks the origin proportionally. Under B, it stays flat and then moves in a step. **The next Core Scientific filing tests which channel is operating** — and it is the cheapest test this layer has.
 
+**That test now has a runnable form, and one correction.** The observable, the statistic relating the two links' series, its predicted value under each channel, the disclosure granularity a separation needs and the verdicts — fixed before the data rather than after it — are owned by `22`. That layer also records a precondition this section does not state: **at zero upstream decline the two channels predict the same observation**, so a flat downstream series decides nothing without a measured upstream decline. The test is therefore **two series, not one filing**, and the framing above is corrected there rather than left standing here.
+
 ## 7. Which link feels it first
 
 `11` §7's discriminating variable is *independent cash generation relative to fixed capital obligations*. Putting the computed pieces against the observed structural facts:

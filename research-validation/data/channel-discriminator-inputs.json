@@ -1,0 +1,24 @@
+{
+  "version": "2026-09-14",
+  "notes": "Channel discrimination test. The single anchor is the observed concentration c = 0.77 that `04C` §11B.5 carries and `19` §2 already computes a surface from. Everything below is arithmetic on that one observed ratio: the two retention curves the two channels predict, the separation between them, and the upstream decline each resolution level requires. No new numeric identity is created, no anchor is inferred from another borrower, and no per-link revenue, coverage or breach probability is asserted. All outputs are D-grade report-side calculations.",
+  "concentration": {
+    "symbol": "c",
+    "value": 0.77,
+    "basis": "CoreWeave approximately 77% of Core Scientific total revenue in H1 2026",
+    "source_identity": "04C §11B.5, carried and used by 19 §2"
+  },
+  "upstream_concentration_dial": {
+    "symbol": "c1",
+    "disclosed": false,
+    "note": "The upstream link's own concentration on the origin is not disclosed in the rows carried by 11 / 04C, and 19 §5 enters it as a dial rather than an estimate. This test reads the upstream link's reported revenue decline directly, so it does not need c1 — but that substitution is only valid to the extent the reported decline is chain-attributable, which is a boundary this layer states rather than smooths."
+  },
+  "upstream_decline_grid": [0.1, 0.2, 0.3, 0.5, 0.77, 1.0],
+  "resolution_grid": [0.01, 0.02, 0.05, 0.1, 0.15],
+  "resolution_basis": "The smallest change in the downstream link's chain revenue the disclosure can resolve, expressed as a fraction of that revenue. It is the reporting granularity of the observed series, not a measurement of it; the grid is the dial the reader substitutes their own value into.",
+  "channels": {
+    "A_proportional": "Downstream chain revenue tracks the upstream decline continuously: retention = 1 - c u. A straight line of slope -c through (1, 0).",
+    "B_counterparty": "Downstream chain revenue is flat at 1 until the upstream link breaches, then takes a single step of size c. A flat line with a cliff."
+  },
+  "channel_boundary_rule": "The two channels are alternatives, not layers. They must not be added, averaged, or used to bracket a range: they are two hypotheses about one slope, and averaging them produces a slope belonging to neither.",
+  "verdict_rule_note": "Four outcomes are pre-registered, not two. A slope near -c, a slope near 0, a slope strictly between, and a slope steeper than -c each map to a different verdict, and the third and fourth falsify something the layer system currently asserts. The table is fixed here, before the data, so that the reading cannot be chosen after the fact."
+}
