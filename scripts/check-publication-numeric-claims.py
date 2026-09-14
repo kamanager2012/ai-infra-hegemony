@@ -6,17 +6,36 @@ unit-bearing numeric fact candidates and requires a citation/source anchor,
 a sourced table, an explicit model/scenario boundary, or a previously sourced
 repetition in the same chapter.
 
+A boundary counts in the candidate's own paragraph, in the lead line of the
+list it belongs to, or - because disclaimers are often written as the adjacent
+paragraph - within four lines of it. In that window alone the phrase must name
+the number's epistemic status; see GENERIC_BOUNDARY.
+
 This is a structural research/editorial check. It does not replace semantic fact review.
 """
 from __future__ import annotations
 
 from pathlib import Path
 import re
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-FILES = sorted((ROOT / "publication").glob("part-*.md")) + sorted(
-    (ROOT / "en" / "publication").glob("part-*.md")
-)
+
+def files(root: Path) -> list[Path]:
+    return sorted((root / "publication").glob("part-*.md")) + sorted(
+        (root / "en" / "publication").glob("part-*.md")
+    )
+
+FILES = files(ROOT)
+
+def use_root(path: Path) -> None:
+    """Point the gate at a different checkout.
+
+    The self-test runs this gate against a throwaway copy of the tree, so a
+    mutation it expects to be caught cannot touch the real repository."""
+    global ROOT, FILES
+    ROOT = path.resolve()
+    FILES = files(ROOT)
 
 FOOTNOTE_USE = re.compile(r"\[\^[^\]]+\]")
 FOOTNOTE_DEF = re.compile(r"^\[\^[^\]]+\]:")
@@ -44,6 +63,29 @@ NON_FACT = re.compile(
     r"未经一手披露验证|unverified|counterexample|反例",
     re.I,
 )
+# The neighbour window is the broadest concession in this gate: it looks four
+# lines out in both directions, so it crosses paragraph boundaries and reaches
+# sentences that have nothing to do with the candidate. It therefore accepts
+# only phrases that name a number's epistemic status. A word this corpus cannot
+# avoid - "as of", "the report", "if", "target" - is grammar, not a boundary,
+# and letting one cover a window that wide means a fabricated figure passes on
+# the strength of an unrelated sentence. That was measured rather than assumed:
+# a heading-adjacent unsourced claim was accepted only because 截至 ("as of")
+# opened a sentence four lines below it.
+GENERIC_BOUNDARY = {
+    "this report", "the report", "本书", "本报告", "截至", "as of",
+    "for example", "例如", "比如", "if", "如果", "假如",
+    "target", "目标", "assumption", "assume", "假设", "假定",
+    "headline", "should not be restated", "geometry", "几何",
+    "arithmetic", "算术", "illustrative", "示例", "threshold", "阈值",
+    "formula", "公式", "unverified",
+}
+
+def neighbour_boundary(text: str) -> bool:
+    return any(
+        m.group(0).strip().lower() not in GENERIC_BOUNDARY
+        for m in NON_FACT.finditer(text)
+    )
 
 def paragraph_ids(lines: list[str]) -> list[int]:
     out: list[int] = []
@@ -108,7 +150,15 @@ def values(line: str) -> list[str]:
 def norm(v: str) -> str:
     return re.sub(r"\s+", "", v).lower()
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    argv = list(sys.argv[1:] if argv is None else argv)
+    for arg in argv:
+        if arg.startswith("--root="):
+            use_root(Path(arg.split("=", 1)[1]))
+        else:
+            print(f"unknown argument: {arg}", file=sys.stderr)
+            return 2
+
     failures: list[str] = []
     total = 0
 
@@ -174,14 +224,17 @@ def main() -> int:
             # (for example a blockquote headline followed by a
             # "scenario-scale markers" note). Paragraph-local matching misses
             # the following paragraph, so scan a small neighbor window in both
-            # directions for every candidate, not only for blockquotes.
+            # directions for every candidate, not only for blockquotes. The
+            # window holds the narrower phrase set; the paragraph and the list
+            # lead keep the full one, because there the phrase is about the
+            # sentence itself rather than four lines away from it.
             neighbor_context = "\n".join(lines[max(0, i - 4): i + 5])
             arithmetic_block = line.startswith(">") and bool(
                 re.search(r"[=≈×÷]|\b(?:plus|minus|times|divided)\b", line, re.I)
             )
             model_boundary = bool(
                 NON_FACT.search(same_para)
-                or NON_FACT.search(neighbor_context)
+                or neighbour_boundary(neighbor_context)
                 or NON_FACT.search(lead)
                 or arithmetic_block
             )
@@ -205,7 +258,7 @@ def main() -> int:
             print(f"- {item}")
         return 1
 
-    print(f"Publication numeric source-coverage gate PASS: {len(FILES)}/64 chapters clear.")
+    print(f"Publication numeric source-coverage gate PASS: {len(FILES)}/{len(FILES)} chapters clear.")
     return 0
 
 if __name__ == "__main__":
