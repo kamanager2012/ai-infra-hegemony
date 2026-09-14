@@ -117,7 +117,7 @@ peak F = C r^2 P / (2 v f)       at  tau = r P / (v f)  after first energization
 
 **It does say something falsifiable and checkable:** at the observed financing terms, and reading the anchor contract as the facility's revenue source, the contract does not carry the facility's required cash floor **except in one cell of twenty-four** — and even there the un-retired ramp balance at contract end is US$13.75B.
 
-**It explains a number the earlier layers could only state.** `15` showed coverage falling from 2.51× to 0.30× as the served-GW denominator rises. The composition shows why the same facility cannot simply wait: **the required side has already attached to the deployed base, and the ramp is where the two sides are furthest apart.**
+**It explains a number the earlier layers could only state.** `15` showed coverage falling from 2.52× to 0.30× as the served-GW denominator rises. The composition shows why the same facility cannot simply wait: **the required side has already attached to the deployed base, and the ramp is where the two sides are furthest apart.**
 
 **Composition is not aggregation.** `17` §10 and the README forbid multiplying `17` and `15` into a composite index. A cash-flow composition is the opposite move: it keeps both quantities in their own units, on a common time axis, and refuses to net them into a scalar. The prohibition is against the scalar, not against the time axis.
 

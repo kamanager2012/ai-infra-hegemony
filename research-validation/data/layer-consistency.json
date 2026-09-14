@@ -171,6 +171,16 @@
           "literal": "0.315",
           "source": "17",
           "role": "mid-case compounding factor read from 17's dials"
+        },
+        {
+          "literal": "2.52×",
+          "source": "15",
+          "role": "upper end of the coverage surface, quoted in prose when 18 explains what the composition adds"
+        },
+        {
+          "literal": "0.30×",
+          "source": "15",
+          "role": "lower end of that same range, quoted in the same sentence"
         }
       ]
     },
