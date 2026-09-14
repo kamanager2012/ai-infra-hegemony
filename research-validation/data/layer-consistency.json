@@ -334,5 +334,73 @@
       "where": "16 §2, and the ledger row in §5",
       "note": "Output per unit time up by g means time per outcome down by 1 - 1/(1+g). The rule's whole purpose is that 0.14 is the wrong answer."
     }
+  ],
+  "unaccounted_note": "Quantities in a layer's canonical that no script output, versioned input or registered token produces, enumerated with the reason each is legitimate. This list exists so the residue is visible and bounded rather than exempted: a rule relaxed until the residue passes is a rule that has been deleted, so instead of an exemption mechanism the residue is declared, and both directions are checked - a new unaccounted value fails, and a declaration whose value is now produced fails as stale. It is small because it was measured before it was enforced: thirteen values across eight layers, each with a nameable reason. Two of them (15's 3.976, 18's 19.88) are values their scripts compute and do not print; the better repair for those is a line of script output rather than a standing declaration, and they are left here rather than silently absorbed.",
+  "unaccounted": [
+    {
+      "layer": "15",
+      "value": "2.51",
+      "why": "the coverage value this layer used to publish, cited in §5's rounding-convention note because how the cell came to read that is the note's entire subject. It is the only retired value in the corpus kept on purpose."
+    },
+    {
+      "layer": "15",
+      "value": "2.5126",
+      "why": "10.00 / 3.98 - dividing by §4's displayed 2-decimal cash cell, shown in the same note to contrast with the unrounded quotient"
+    },
+    {
+      "layer": "15",
+      "value": "2.5202",
+      "why": "10.00 / 3.976, the unrounded quotient the table now carries; the note performs the division because the rounding is what it is about"
+    },
+    {
+      "layer": "15",
+      "value": "3.976",
+      "why": "the unrounded required-cash value the script computes but renders at 2 decimals. The note cites the unrounded form precisely because the difference between it and 3.98 is the note's subject. The script printing it would remove this entry."
+    },
+    {
+      "layer": "16",
+      "value": "7.3",
+      "why": "the percent rendering of the 0.073 the script prints; a rendering choice is not a numeric disagreement, the same reason the table-parity check excludes dates"
+    },
+    {
+      "layer": "18",
+      "value": "0.3",
+      "why": "quoted from 15's coverage surface, the 5 GW / US$50B cell; registered as a borrowed anchor so it fails if 15 moves"
+    },
+    {
+      "layer": "18",
+      "value": "2.52",
+      "why": "quoted from 15's coverage surface, the 1 GW / US$30B cell; registered as a borrowed anchor. Its predecessor 2.51 was the value that went stale here in three documents at once."
+    },
+    {
+      "layer": "18",
+      "value": "3.83",
+      "why": "17.58 - 13.75, arithmetic on two values the script prints"
+    },
+    {
+      "layer": "18",
+      "value": "6.25",
+      "why": "10 - 3.75, arithmetic on the contract term and the ramp plateau the script prints"
+    },
+    {
+      "layer": "18",
+      "value": "6.3",
+      "why": "the percent rendering of the 0.63 the script prints"
+    },
+    {
+      "layer": "18",
+      "value": "19.88",
+      "why": "9.88 + 10.00 from the script's own shortfall table, and 15's unrounded 3.976 x 5 GW. The script prints the shortfall rather than the requirement level; printing the latter would remove this entry."
+    },
+    {
+      "layer": "19",
+      "value": "4",
+      "why": "`DDTL 4.0` is a facility name, not a quantity. The only entry here that is a false positive of the extractor rather than a real value, and it is listed rather than filtered so the reason stays on the record."
+    },
+    {
+      "layer": "20",
+      "value": "55.2",
+      "why": "0.80 x 0.69 stated in prose on two values the layer publishes"
+    }
   ]
 }

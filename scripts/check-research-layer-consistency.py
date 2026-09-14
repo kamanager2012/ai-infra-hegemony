@@ -68,6 +68,7 @@ CHECK_NAMES = {
     11: "README states the register's own size correctly",
     12: "a layer's tables carry the same quantities in both editions",
     13: "a rule a layer states reproduces the value it publishes",
+    14: "the quantities nothing produces are exactly the declared ones",
 }
 
 # A quantity, as distinct from a count, a layer id, or a year: it carries a
@@ -78,6 +79,16 @@ CHECK_NAMES = {
 QUANTITY_RE = re.compile(r"(?<![\d.,])(?:US\$)?\d[\d,]*(?:\.\d+)")
 TABLE_ROW_RE = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
 ISO_DATE_RE = re.compile(r"\d{4}-\d{2}(?:-\d{2})?")
+# References to other documents, and version tags. `§17.4` is not seventeen
+# point four, and a corpus this cross-referential would otherwise report an
+# unaccounted-value list made almost entirely of its own table of contents.
+CROSS_REF_RES = (
+    re.compile(r"§\s*\d+[A-Z]*(?:\.\d+[A-Z]*)*"),
+    re.compile(r"(?:Section|section|节)\s*\d+(?:\.\d+)*"),
+    re.compile(r"(?:表|Table)\s*\d+\.\d+"),
+    re.compile(r"\bCh\s*\d+"),
+    re.compile(r"\bv\d+\.\d+(?:\.\d+)?", re.I),
+)
 
 # Rules a layer states in prose and applies to a published value. The gate
 # implements them independently of the layer's own script: agreement between two
@@ -88,7 +99,8 @@ DERIVATION_RULES = {
 }
 
 
-def counts_line(layers: dict, scripts: list[Path], tables: int, derivations: int) -> str:
+def counts_line(layers: dict, scripts: list[Path], tables: int, derivations: int,
+                unaccounted: int) -> str:
     """The register's size, in one canonical sentence.
 
     Counts stated in prose rot faster than anything else here - the README's
@@ -113,6 +125,8 @@ def counts_line(layers: dict, scripts: list[Path], tables: int, derivations: int
                        "borrowed anchor", "borrowed anchors"),
                 plural(tables, "table pair", "table pairs"),
                 plural(derivations, "stated derivation", "stated derivations"),
+                plural(unaccounted, "declared unaccounted value",
+                       "declared unaccounted values"),
             ]) + ".")
 
 
@@ -238,6 +252,27 @@ def quantities(text: str) -> Counter:
         s = s.rstrip("0").rstrip(".") if "." in s else s
         out[s or "0"] += 1
     return out
+
+
+def strip_cross_refs(text: str) -> str:
+    """`text` with its references to other documents removed.
+
+    Used by the check that asks what a layer publishes that nothing produces.
+    The question is about measurements, and a section number is not one."""
+    for pattern in CROSS_REF_RES:
+        text = pattern.sub(" ", text)
+    return text
+
+
+def unaccounted_quantities(ident: str, entry: dict, produced: Counter) -> list[str]:
+    """Quantities in a layer's canonical that no local source produces.
+
+    The sources credited are the ones the repository actually has: the layer's
+    own script output, its versioned JSON inputs, and its registered headline
+    tokens. What is left is the set of values the layer can only be quoting from
+    somewhere else - or stating as worked arithmetic of its own."""
+    doc = quantities(strip_cross_refs(read_if_present(PHASE2 / f"{ident}-{entry['slug']}.md")))
+    return sorted(set(doc) - set(produced), key=lambda s: (len(s), s))
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -572,7 +607,9 @@ def main(argv: list[str] | None = None) -> int:
     # claim - how much is actually covered - and the one a reader uses to decide
     # whether the register is worth anything, so it is the last number that
     # should be allowed to drift.
-    wanted_counts = counts_line(layers, scripts, table_pairs, len(reg.get("derivations", [])))
+    wanted_counts = counts_line(layers, scripts, table_pairs,
+                                len(reg.get("derivations", [])),
+                                len(reg.get("unaccounted", [])))
     status = section(readme, "Current status") or ""
     check(wanted_counts in status,
           "README Current status states the register's size"
@@ -635,6 +672,65 @@ def main(argv: list[str] | None = None) -> int:
                  else f"does NOT match the published {deriv['to']}")
               + f" at {deriv['where']}")
 
+    # -------------------------------------- 14. declared unaccounted quantities
+    print(f"14. {CHECK_NAMES[14]}")
+    # Everything above covers values the repository registers or produces. What
+    # is left is the residue: quantities in a layer's canonical that no script
+    # output, versioned input or registered token produces at all.
+    #
+    # Enumerating it is the whole point. The alternative is to relax the rule
+    # until those values pass, and a rule relaxed until it passes is a rule that
+    # has been deleted - which is why this gate has no exemption mechanism
+    # anywhere else and should not grow one here. Declaring each value instead
+    # keeps the residue visible, bounded and reviewable: a new unaccounted value
+    # fails, and so does a declaration that has gone stale because the value is
+    # now produced.
+    #
+    # The residue is small because it was measured before it was enforced. Over
+    # the eight registered layers it is thirteen values, and every one is
+    # legitimate for a nameable reason: worked arithmetic in a convention note,
+    # the percent rendering of a fraction the script does print, arithmetic on
+    # two printed values, a value quoted from an upstream layer, and one facility
+    # name that is not a quantity at all.
+    declared: dict[str, dict[str, str]] = {}
+    for item in reg.get("unaccounted", []):
+        declared.setdefault(item["layer"], {})[item["value"]] = item["why"]
+    for ident in sorted(layers, key=lambda s: (len(s), s)):
+        entry = layers[ident]
+        if not entry["script"]:
+            continue
+        produced = quantities(norm(outputs.get(entry["script"], "")))
+        for rel in entry.get("data", []):
+            produced += quantities(strip_cross_refs(read_if_present(PHASE2 / "data" / rel)))
+        for token in entry["headline_tokens"]:
+            produced += quantities(token)
+        residual = set(unaccounted_quantities(ident, entry, produced))
+        known = declared.get(ident, {})
+
+        undeclared = sorted(residual - set(known), key=lambda s: (len(s), s))
+        check(not undeclared,
+              f"{ident} publishes no quantity that nothing produces"
+              + ("" if not undeclared else
+                 f" (unaccounted: {undeclared}) - either the layer's script should "
+                 f"print it, or it belongs in the register's `unaccounted` list "
+                 f"with the reason it does not"))
+        for value in undeclared:
+            note(ident, f"{value!r} is in {ident}-{entry['slug']}.md and in no script "
+                        f"output, versioned input or registered token",
+                 "a value published in a layer's tables or prose that no computation "
+                 "produces is how `16` came to publish a hand-entered 0.123")
+
+        stale = sorted(set(known) - residual, key=lambda s: (len(s), s))
+        check(not stale,
+              f"{ident} declared-unaccounted list is current"
+              + ("" if not stale else
+                 f" (now produced, so the declarations are stale: {stale})"))
+        for value in stale:
+            note(ident, f"the declaration for {value!r} is stale - it is now produced",
+                 "remove the declaration rather than leaving a standing exemption; "
+                 "an exemption that outlives its reason is how a check gets narrower "
+                 "than it reads")
+
     # ----------------------------------------------------------------- summary
     total_layers = len([i for i in on_disk])
     registered_layers = len(layers)
@@ -645,16 +741,22 @@ def main(argv: list[str] | None = None) -> int:
           f"registry entries={registered_layers}, "
           f"recompute scripts={len(scripts)}, headline tokens verified={tokens}, "
           f"borrowed anchors verified={anchors}, table pairs verified={table_pairs}, "
-          f"stated derivations verified={len(reg.get('derivations', []))}")
+          f"stated derivations verified={len(reg.get('derivations', []))}, "
+          f"unaccounted values declared={len(reg.get('unaccounted', []))}")
     print(f"Convention epoch: layers >= {epoch} carry the full Phase II convention; "
           f"layers below it are checked for boundary-free invariants only.")
-    print("Scope: PASS means every REGISTERED headline token is reproducible from "
-          "its layer's script and agrees across canonical and translation. It is "
-          "not a claim that every figure in research-validation/ is covered - the "
-          "registry covers the headline set a layer stakes its conclusions on, and "
-          "a layer with no registry entry would be caught by check 2, not by this. "
-          "A token is usually a number but need not be: layer 21's set is section "
-          "citations, because its output is a classification rather than a figure.")
+    print("Scope: check 8 means every REGISTERED headline token is reproducible "
+          "from its layer's script and agrees across canonical and translation. "
+          "Check 14 closes the other end of the same question: every quantity in a "
+          "registered layer's canonical is now either produced by that layer's "
+          "script, its versioned inputs or a registered token, or it is declared in "
+          "the register's `unaccounted` list with the reason nothing produces it - "
+          "so the residue is bounded and reviewable rather than assumed absent. "
+          "What PASS still does not claim: the three sources credited are the ones "
+          "this repository has, and a value reaching a layer from an unregistered "
+          "outside source would be reported as unaccounted, not as wrong. A token "
+          "is usually a number but need not be: layer 21's set is section citations, "
+          "because its output is a classification rather than a figure.")
     if failures:
         print(f"research-validation consistency check FAIL: {len(failures)} problem(s)")
         for f in failures:

@@ -304,6 +304,24 @@ CASES = [
     ("a derivation names a rule the gate does not implement",
      registry(lambda d: d["derivations"][0].update({"rule": "eyeballed"})),
      "names unknown rule"),
+
+    # -- the declared residue, checked in both directions -------------------
+    # A value nothing produces, which no declaration covers: this is the shape
+    # the check exists for, and it is how `16`'s hand-entered 0.123 would have
+    # looked before it was made reproducible.
+    ("a layer publishes a quantity nothing produces",
+     append(R + "17-energization-schedule-surface.md",
+            "\nA sentence the self-test adds, carrying 4.44, which no script, "
+            "input or registered token produces.\n"),
+     "17 publishes no quantity that nothing produces (unaccounted: ['4.44'])"),
+    # The other direction: a declaration that outlived its reason. It is edited
+    # in place rather than added so the register keeps its size and check 11
+    # stays quiet, which is what makes this case about check 14 alone.
+    ("a declared unaccounted value has gone stale",
+     registry(lambda d: [u for u in d["unaccounted"]
+                         if u["value"] == "55.2"][0].update({"value": "1.23"})),
+     "20 declared-unaccounted list is current (now produced, so the "
+     "declarations are stale: ['1.23'])"),
 ]
 
 
@@ -355,6 +373,8 @@ CASE_CHECK = {
     "the translation gains a table the canonical does not carry": 12,
     "a stated rule no longer reproduces the published value": 13,
     "a derivation names a rule the gate does not implement": 13,
+    "a layer publishes a quantity nothing produces": 14,
+    "a declared unaccounted value has gone stale": 14,
 }
 
 
