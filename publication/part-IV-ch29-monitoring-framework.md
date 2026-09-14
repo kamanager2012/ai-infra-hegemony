@@ -201,6 +201,19 @@ CapEx guidance、seller commitments、Anchor Buyer contracts、power contracts�
 
 customer cash generation、third-party capital risk-taking、supplier equity / credit enhancement、refinancing dependency、asset transferability、Anchor Buyer utilization。
 
+### Demand-side reflexivity（需求腿）
+
+同一信号族还有一条需求腿：AI 驱动的劳动收入压缩是否正在传导到最终需求。以下代理各自按自己的时钟观察，本报告不设阈值：
+
+- **Labor income** —— employment cost / wage series（月–季）；
+- **Hiring and separations** —— job openings、quits、layoffs series（月）；
+- **Household debt service 与 delinquency state** —— household credit reports（季）；
+- **Consumption** —— personal consumption / retail sales series（月–季）；
+- **Consumer-linked enterprise revenue** —— card-network 与 intermediation volumes，以及 seat- 或 consumption-based software disclosure（季）；
+- **Fiscal position** —— receipts versus transfers（季–年）。
+
+这些代理从需求方向更新 Demand Quality / Financing 信号族；不得与 financing evidence 重复计数，任何单一季度变化都不改变 S1–S4 权重。
+
 只有**多类因果独立的信号族**跨主体/层级形成广泛、持续且相互印证的恶化，S4 才从 stress test 升级为主情景。五类信号是 monitoring families，不是“五项必须全部满足”的硬门槛；Accounting 是 confirmation / severity evidence，不是 prerequisite。
 
 ## 10A. Dashboard J — End-System Residual Pressure

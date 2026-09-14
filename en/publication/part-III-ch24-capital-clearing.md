@@ -205,6 +205,35 @@ The practical rule is:
 
 > **supplier support is not a negative signal by itself; the reflexive stress condition is rising supplier support alongside weakening utilization, monetization, independent risk appetite, and market clearing.**
 
+### 7B. Demand-side reflexivity: how labor-income compression can reach clearing
+
+Financing Reflexivity runs on the **funding leg**. A second reflexivity runs on the **demand leg**, and the report treats it as a conditional mechanism, not a forecast.
+
+The loop is:
+
+> **AI adoption / task substitution → employment and labor income → consumption and household credit → enterprise revenue → AI monetization and cash generation → capital clearing**
+
+This mirrors the supply-side loop that dominates most infrastructure analysis. There, cheaper compute expands use. Here, the same substitution that improves enterprise margins can compress the household income that ultimately buys the enterprise's output.
+
+Four properties distinguish the loop:
+
+1. **It attacks demand, not funding.** Guarantees, third-party capital, and refinancing can extend the clock while monetization is weak; income compression reduces the ability and the willingness to pay at the same time.
+2. **It is reflexive, not cyclical.** A normal demand cycle restarts through lower rates and new construction. Here, cost savings are redeployed into the capability that produced them, so the loop has no natural brake unless adoption, income, or policy changes.
+3. **Incidence is a mechanism variable.** Displacement that lands on high-consumption-propensity cohorts is a different demand event from displacement spread across the income distribution.
+4. **Its clocks are stacked and long.** Hiring is observable in months; wages and consumption over quarters to years; household credit and the fiscal position later. The ten-year horizon can carry the whole sequence, and no single quarter is evidence of it.
+
+For the loop to reach clearing, each gate must hold in sequence, and each can stop it:
+
+- **Substitution depth** — verified substitution outruns the creation of new tasks and categories;
+- **Income incidence** — the income loss lands on cohorts that carry disproportionate consumption;
+- **Credit buffers** — household buffers are depleted enough to transmit income loss into spending within the relevant window;
+- **Pass-through** — savings are retained as margin and headcount reduction rather than passed through as price declines that expand volume;
+- **Replacement and policy** — new work, transfers, or public absorption do not offset the private income loss.
+
+The loop is a **demand-leg contribution to the existing Demand Quality / Financing and Utilization / Revenue families, not a sixth family**. It can strengthen S4 evidence; it cannot confirm S4 alone, and it does not change the five-family rule in §9.
+
+**Boundary:** this is a scenario shape, not a prediction and not a dated crisis. The report adopts no external scenario's numbers, unemployment rate, index level, or year-stamped claim, and it does not assume the loop closes — if cheaper intelligence reaches buyers as price declines that expand volume, the same substitution is S1-compatible. The external calibration reference is recorded in the report's External Research Comparison Index.
+
 ## 8. Clearing propagates through the asset-duration stack
 
 Short-cycle assets clear first; long-cycle assets clear later.

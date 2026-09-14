@@ -129,9 +129,12 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 - seller / Anchor Buyer commitments 缩减或取消；
 - used hardware residual value 快速下跌；
 - impairment / write-down 上升；
-- customer financing capacity 走弱，同时 supplier equity / credit support 或 refinancing dependency 上升。
+- customer financing capacity 走弱，同时 supplier equity / credit support 或 refinancing dependency 上升；
+- consumer-linked、labor-income-dependent enterprise revenue 走弱，同时 AI budgets 继续增长。
 
 这些是**典型信号族，不是 five-of-five mandatory gate**。S4 的确认依赖 cross-signal confirmation + cross-actor / cross-layer causal breadth。Accounting impairment 属于 confirmation / severity evidence，而不是 prerequisite；financing-led 或 real-economy clearing 可以在 qualifying write-down 出现之前被确认。
+
+S4 也可能从**需求腿**而非融资腿到来。如果 AI 驱动的替代压缩劳动收入的速度快于新需求的创造，压力可以通过消费与家庭信用、而不是通过一次融资事故，传导到 enterprise AI monetization 与 capital clearing。这是 S4 内部的一条传导路径，不是第五种情景；其闸门与时钟见第24章 §7B 与第29章 §10。
 
 ### Clearing Order
 
@@ -273,7 +276,8 @@ Financing Reflexivity 也已不再是 NVIDIA 独有。AMD Q2 2026 Form 10-Q 披�
 - cloud discounts / lease rates 明显恶化；
 - impairment 增加；
 - enterprise AI monetization 长期弱于 depreciation / operating cost；
-- supplier equity / credit support 占比上升，而独立 customer financing / third-party risk-taking 走弱。
+- supplier equity / credit support 占比上升，而独立 customer financing / third-party risk-taking 走弱；
+- labor-income compression 传导到 consumption、household credit 或 consumer-linked enterprise revenue，同时独立 financing 也走弱。
 
 ## 11. 这些是 State，不是 Stage
 

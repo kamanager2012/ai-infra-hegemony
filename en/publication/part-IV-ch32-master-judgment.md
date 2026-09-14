@@ -320,6 +320,8 @@ Putting these layers together, the demand-side loop is:
 
 If the front half of that chain expands persistently faster than the back half, S4 risk rises. If verified workflow output, utilization, and cash flow continue pulling new demand forward, S2/S3-style capital expansion can persist even as unit compute costs fall.
 
+The loop is not only forward. The same labor market that supplies the household income behind “Adoption / Cash Flow” can also withdraw it: if task substitution compresses income faster than new demand appears, the chain can run in reverse and feed the S4 demand leg (Chapter 24 §7B; Chapter 29 §10). The report therefore monitors demand as a two-way variable, not as a guaranteed tailwind.
+
 ---
 
 ## 11. Compute is productive infrastructure only when output validates the capital

@@ -134,9 +134,12 @@ Typical synchronized signals include:
 - seller / Anchor Buyer commitments shrink, reschedule, or cancel;
 - impairments / write-downs rise;
 - customer cash generation weakens while supplier equity / credit support or refinancing dependency rises;
-- independent third-party risk capital becomes less willing to absorb exposure.
+- independent third-party risk capital becomes less willing to absorb exposure;
+- consumer-linked, labor-income-dependent enterprise revenue weakens while AI budgets keep growing.
 
 These are **typical signal families, not a mandatory five-of-five gate**. S4 confirmation depends on cross-signal confirmation plus cross-actor / cross-layer causal breadth. Accounting impairment is confirmatory / severity evidence, not a prerequisite; financing-led or real-economy clearing can be confirmed before qualifying write-down evidence appears.
+
+S4 can also arrive from the **demand leg** rather than the funding leg. If AI-driven substitution compresses labor income faster than new demand is created, weakness can reach enterprise AI monetization and capital clearing through consumption and household credit rather than through a financing accident. This is a transmission path within S4, not a fifth scenario; its gates and clocks are specified in Chapter 24 §7B and Chapter 29 §10.
 
 ### Clearing order
 
@@ -283,7 +286,8 @@ Anchor Buyer demand must therefore be distinguished from **Financing Reflexivity
 - cloud discounts / lease rates deteriorate;
 - impairment rises;
 - enterprise AI monetization remains persistently below depreciation / operating cost;
-- supplier equity / credit support rises while independent customer financing / third-party risk-taking weakens.
+- supplier equity / credit support rises while independent customer financing / third-party risk-taking weakens;
+- labor-income compression reaches consumption, household credit, or consumer-linked enterprise revenue while independent financing also weakens.
 
 ## 11. These are states, not stages
 

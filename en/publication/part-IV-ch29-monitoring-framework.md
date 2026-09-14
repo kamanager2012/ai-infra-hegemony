@@ -213,6 +213,19 @@ CapEx guidance, seller commitments, Anchor Buyer contracts, power contracts.
 
 Customer cash generation, third-party risk capital, supplier equity / credit support, refinancing dependency, asset transferability, and Anchor Buyer utilization.
 
+### Demand-side reflexivity (demand leg)
+
+The same family has a demand-side leg: whether AI-driven labor-income compression is reaching final demand. Track, each on its own clock and without a report-side threshold:
+
+- **Labor income** — employment-cost / wage series (monthly–quarterly);
+- **Hiring and separations** — job-openings, quits, and layoffs series (monthly);
+- **Household debt service and delinquency state** — household credit reports (quarterly);
+- **Consumption** — personal-consumption / retail-sales series (monthly–quarterly);
+- **Consumer-linked enterprise revenue** — card-network and intermediation volumes, and seat- or consumption-based software disclosure (quarterly);
+- **Fiscal position** — receipts versus transfers (quarterly–annual).
+
+These proxies update the Demand Quality / Financing family from the demand direction. They must not be counted twice with the financing evidence, and no single-quarter move reweights S1–S4.
+
 S4 should move from stress test toward the main scenario only when **multiple causally independent signal families** show broad, persistent, mutually reinforcing deterioration across more than one actor or layer. The five groups are monitoring families, not a mandatory five-of-five gate; Accounting is confirmation / severity evidence, not a prerequisite.
 
 ## 10A. Dashboard J — End-system residual pressure

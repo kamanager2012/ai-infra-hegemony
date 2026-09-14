@@ -159,6 +159,35 @@ NVIDIA 2026-08 的公开披露已经出现这种结构：一方面推动 >US$500
 
 > **supplier support 本身不是 negative signal；真正的 reflexive stress condition，是 supplier support 上升的同时 utilization、monetization、independent risk appetite 与 market clearing 走弱。**
 
+### 7B. 需求侧反身性：劳动收入压缩如何传导到清算
+
+Financing Reflexivity 作用在**融资腿**；还有第二条反身性作用在**需求腿**。本报告把它作为条件化机制，而不是预测。
+
+这条回路是：
+
+> **AI adoption / task substitution → employment and labor income → consumption and household credit → enterprise revenue → AI monetization and cash generation → capital clearing**
+
+它与主导多数基建分析的供给侧回路互为镜像：供给侧的版本里，更便宜算力扩大使用；需求侧的版本里，同样的 task substitution 在改善企业毛利的同时，可能压缩最终购买企业产出的家庭收入。
+
+该回路的四个特征：
+
+1. **它打击的是需求，不是融资。** guarantees、third-party capital 与 refinancing 可以在 monetization 偏弱时延长时间；而收入压缩会同时降低支付能力与支付意愿。
+2. **它是反身性的，不是周期性的。** 常规需求周期会通过降息与新建设自我重启；这里节省的成本被重新投入到制造它的能力上，因此在 adoption、收入或政策改变之前没有自然刹车。
+3. **收入落点是机制变量。** 冲击落在高消费倾向人群，与均匀分散在收入分布上，是两种不同的需求事件。
+4. **它的时钟是叠加且长期的。** 招聘以月计可观察；工资与消费以季度到年计；家庭信用与财政更晚。十年窗口足以承载整条序列，而任何单一季度都不构成它的证据。
+
+回路要走到清算，每道闸门都必须依次成立，且每一道都能中止它：
+
+- **Substitution depth** —— 可验证替代快于新任务与新类别的创造；
+- **Income incidence** —— 收入损失落在承载不成比例消费的人群上；
+- **Credit buffers** —— 家庭缓冲已薄到足以在相关窗口内把收入损失传导为支出下降；
+- **Pass-through** —— 节省被保留为毛利与裁员，而不是以扩大销量的降价形式传导出去；
+- **Replacement and policy** —— 新工作、转移支付或公共吸纳不能抵消私人收入损失。
+
+这条回路是**对既有 Demand Quality / Financing 与 Utilization / Revenue 两个信号族的“需求腿”贡献，不是第六个信号族**。它可以强化 S4 证据，但不能单独确认 S4，也不改变 §9 的五族规则。
+
+**边界：** 这是 scenario shape，不是 prediction，也不是带年份的危机断言。本报告不采用任何外部情景的数字、失业率、指数点位或带年份的判断，也不假设回路必然闭合——如果更便宜的智能以扩大销量的降价形式到达买方，同样的 substitution 就是 S1-compatible 的。外部校准参照记录在本报告的 External Research Comparison Index 中。
+
 ## 8. Capital Clearing 按 Asset Duration 传播
 
 短周期资产先清算，长周期资产后清算。典型顺序更接近：

@@ -163,8 +163,9 @@ Evidence cutoff 与 revision date 是两个独立控制项。
 5. **纠正 strategy optionality 表述。** Chapter 31 不再把“持续维护一条可执行的第二生产路径”写成普遍最优策略。硬规则是把 executable optionality / resilience 的价值与 carrying cost 一并定价；只有 continuity、bargaining、recovery 与 switching value 高于该成本时，维护第二生产路径才成立。
 6. **修复 downstream evidence boundaries。** Chapter 15 纳入 cutoff 前 BMW/Figure 02、Amazon DeepFleet 与 GXO/Digit 的 production evidence，同时继续保留 intervention、uptime、safety、TCO 与 broad fleet economics 的证据缺口；Chapter 25 改用 Stanford/ADP direct revision 区分 reduced hiring 与 separations，并保持 descriptive / non-causal identity；Chapter 26 纳入 cutoff 前 Khanmigo school-scale RCT 与 NUMI delayed-assessment RCT，同时继续保留 engagement、transfer、teacher workload、implementation cost 与 long-run system effects 的未决边界。
 7. **正式固定 English-first canonical workflow 与 translation parity。** English 是唯一 canonical analytical layer；中文版只是该文本的专业翻译，不是独立分析版本。Claims、section order、evidence grades、denominators、mechanisms、scenario identities 与 falsification boundaries 必须保持等价。
+8. **正式冻结在 2026-09-14 被明确重开一次，用于一处有界新增：S4 之下的需求侧反身性机制。** 第24章（§7B）、第29章（Dashboard I 需求腿）、第30章（S4 signals）与第32章（§10）现在说明 AI 驱动的劳动收入压缩如何通过消费与家庭信用传导到 enterprise monetization 与 capital clearing。该机制是本报告自有的条件化构造：不采用任何外部情景的数字、失业率、指数点位或带年份判断，不新增第五种情景，也不改变 evidence cutoff。外部校准参照记录在 External Research Comparison Index 中。
 
-此后至 **2026-09-14** 的许可修复仍限于上述四类情形，保留在 repository history 中，不在此重复；它们未改变 evidence set、S2 baseline 或 S1–S4 taxonomy。
+除第 8 项这一处重开外，此后至 **2026-09-14** 的许可修复仍限于上述四类情形，保留在 repository history 中，不在此重复；它们未改变 evidence set、S2 baseline 或 S1–S4 taxonomy。
 
 对外规则因此很简单：
 
