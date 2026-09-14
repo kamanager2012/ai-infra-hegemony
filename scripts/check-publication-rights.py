@@ -8,16 +8,17 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "third-party-materials.json"
-FILES = sorted((ROOT / "publication").glob("*.md")) + sorted(
-    (ROOT / "en" / "publication").glob("*.md")
-)
+EDITIONS = (ROOT / "publication", ROOT / "en" / "publication")
+FILES = sorted(EDITIONS[0].glob("*.md")) + sorted(EDITIONS[1].glob("*.md"))
 MD_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 HTML_IMAGE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.I)
 IFRAME = re.compile(r"<iframe\b", re.I)
 
 def main() -> int:
     data = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    allowed = {x["ref"] for x in data.get("assets", [])}
+    third_party = {x["ref"] for x in data.get("assets", [])}
+    first_party = {x["ref"] for x in data.get("first_party_assets", [])}
+    allowed = third_party | first_party
     found: list[tuple[str, str]] = []
     embeds: list[str] = []
 
@@ -31,6 +32,15 @@ def main() -> int:
 
     missing = [(p, ref) for p, ref in found if ref not in allowed]
 
+    # A first-party declaration must point at a file that actually exists in at
+    # least one edition, so a stale declaration cannot silently authorize a
+    # figure that was renamed or removed.
+    stale = [
+        ref
+        for ref in sorted(first_party)
+        if not any((base / ref).exists() for base in EDITIONS)
+    ]
+
     if embeds:
         print("Unapproved iframe/embed markup:")
         for p in embeds:
@@ -43,9 +53,16 @@ def main() -> int:
             print(f"- {p}: {ref}")
         return 1
 
+    if stale:
+        print("Declared first-party assets with no file on disk:")
+        for ref in stale:
+            print(f"- {ref}")
+        return 1
+
     print(
         "publication media rights check PASS: "
-        f"embedded assets={len(found)}, manifest entries={len(allowed)}"
+        f"embedded assets={len(found)}, third-party entries={len(third_party)}, "
+        f"first-party declared={len(first_party)}"
     )
     return 0
 
