@@ -21,7 +21,7 @@ The analysis starts from denominator identity, then moves to duration mismatch a
 | Company | Current 2026 public metric | Identity |
 |---|---:|---|
 | Microsoft | calendar-2026 reported CapEx expectation ~US$175B | expectation; underlying investment expectation unchanged after lease-classification adjustment |
-| Alphabet | US$195–205B | Q2 full-year guidance |
+| Alphabet | US$195–205B | Q2 full-year company guidance **as reported by Reuters** (secondhand; no first-party exhibit identified for the guidance itself) |
 | Meta | US$130–145B | Q2 guidance; includes finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
 

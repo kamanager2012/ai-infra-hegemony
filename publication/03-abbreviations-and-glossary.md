@@ -37,6 +37,19 @@
 | BOM | Bill of Materials | 用于分析终端成本传导 |
 | TCO | Total Cost of Ownership | system-level 比较单位 |
 | ASP | Average Selling Price | 必须明确产品与时间口径 |
+| ROI | Return on Investment | 仅作本报告用法；除非指明来源，否则不是公司披露口径 |
+| GAAP | 美国公认会计准则 | GAAP 与 non-GAAP 口径不得混用 |
+| PPE | Property, Plant and Equipment | 用于 hyperscaler capital-base 重构；各公司会计科目不同 |
+| TTM | Trailing Twelve Months | 必须写明时间窗；不能与 calendar guidance 直接比较 |
+| TAM | Total Addressable Market | 仅机构 / sell-side 估计；不是公司披露实绩 |
+| EOL | End of Life | 长生命周期终端的部件连续性风险 |
+| MCU | Microcontroller Unit | 汽车 / 工业层；不是 frontier-AI accelerator |
+| APU | Accelerated Processing Unit | 主机 / 客户端 SoC 语境；不是 HBM 级 AI 系统 |
+| RF | Radio Frequency | 航空航天 / 国防 special-process exposure |
+| ADAS | Advanced Driver Assistance Systems | 汽车 compute 语境 |
+| FLOPS | Floating-Point Operations per Second | 仅 peak compute；不是 workload denominator（见第 8 章） |
+| KV cache | Key-Value cache | Inference memory state；是 inference 可能持续受 memory bound 的原因之一 |
+| EUV / DUV | Extreme / Deep Ultraviolet lithography | 制程设备层；与 export control 相关 |
 
 ## 标准单位
 

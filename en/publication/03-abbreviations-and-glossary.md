@@ -37,6 +37,19 @@
 | BOM | Bill of Materials | Used in end-market cost-transmission analysis |
 | TCO | Total Cost of Ownership | Preferred system-level comparison unit |
 | ASP | Average Selling Price | Product and time denominator must be explicit |
+| ROI | Return on Investment | Report-side usage only; not a disclosed company metric unless a source is named |
+| GAAP | U.S. Generally Accepted Accounting Principles | GAAP and non-GAAP identities are never merged |
+| PPE | Property, Plant and Equipment | Used in hyperscaler capital-base reconstruction; accounting line items differ by company |
+| TTM | Trailing Twelve Months | The time window must be stated; not directly comparable with calendar guidance |
+| TAM | Total Addressable Market | Institutional / sell-side estimates only; not a disclosed actual |
+| EOL | End of Life | Product-continuity risk in long-lifecycle end systems |
+| MCU | Microcontroller Unit | Automotive / industrial layer; not a frontier-AI accelerator |
+| APU | Accelerated Processing Unit | Console / client SoC context; not an HBM-class AI system |
+| RF | Radio Frequency | Aerospace / defense special-process exposure |
+| ADAS | Advanced Driver Assistance Systems | Automotive compute context |
+| FLOPS | Floating-Point Operations per Second | Peak compute only; not a workload denominator (see Chapter 8) |
+| KV cache | Key-Value cache | Inference memory state; one reason inference can remain memory-bound |
+| EUV / DUV | Extreme / Deep Ultraviolet lithography | Process-equipment layer; relevant to export controls |
 
 ## Standard units
 

@@ -31,7 +31,7 @@ Microsoft、Amazon、Alphabet、Meta 的财年、PPE、finance lease、net purch
 | 公司 | 2026 当前公开口径 | 身份 |
 |---|---:|---|
 | Microsoft | calendar-2026 reported CapEx expectation ~US$175B | expectation；lease-classification adjustment 后 underlying investment expectation unchanged |
-| Alphabet | US$195–205B | Q2 full-year guidance |
+| Alphabet | US$195–205B | Q2 full-year company guidance **as reported by Reuters**（二手；该 guidance 本身未识别到一手 exhibit） |
 | Meta | US$130–145B | Q2 guidance；含 finance-lease principal |
 | Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
 
