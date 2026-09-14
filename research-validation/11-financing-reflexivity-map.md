@@ -90,6 +90,8 @@ Anchor / end customer economics
 → Core Scientific debt service
 ```
 
+This file draws that chain and names the discriminating variable; it does not put a number on the transmission between its links, and it should not — the links are different borrowers with different obligations. That arithmetic is owned by **[`19`](19-chain-concentration-amplification.md)**, and it is the reason this chain is a chain rather than a list: at the observed concentration the ratio is simultaneously the amplification factor and the residual, and the two candidate transmission mechanisms — proportional pass-through against a counterparty step — are mutually exclusive and separate the links differently. `19` adds no anchor and asserts no per-link claim; every fact in it is read from here and from `04C`.
+
 ## 2A. 2026 support taxonomy — support is not one variable
 
 The 2026 evidence now requires seller / sponsor support to be split into at least five distinct forms.

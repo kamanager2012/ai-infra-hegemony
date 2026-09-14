@@ -1457,6 +1457,8 @@ Valid future upgrades are limited to:
 
 Generic “AI saves X% time” studies no longer justify a version bump.
 
+**What this rule does not block.** The dimensionless break-even form of the closure identity — the condition under which a claimed workflow effect survives once review, persistence and integration are accounted for — is algebra already implied by §17, not a literature expansion, and it therefore lives outside this file at **[`16`](16-vswo-cost-break-even.md)**. That distinction is deliberate and is recorded in `16` §0 and in the README authority rule for `16`. `03` stays at v0.7; a future maintainer who reads a break-even surface into this file should move it back out, not lower the stop rule.
+
 ---
 
 ## 18. Current conclusion

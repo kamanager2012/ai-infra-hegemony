@@ -479,12 +479,17 @@ But even there:
 
 > **company-level AI revenue is not automatically facility-level debt-service coverage.**
 
-Future updates should connect:
-- the financed GPU / data-center tranche;
-- ready-for-service / delivery date;
-- recognized revenue;
-- customer cash receipt;
-- DSCR / interest coverage.
+That gap is no longer listed as future work. The five items this section previously deferred are owned on the research side as follows:
+
+| Deferred item | Where it is now computed |
+|---|---|
+| the financed GPU / data-center tranche | `15` — observed financing terms converted into a required cash rate per GW-year |
+| ready-for-service / delivery date | `17` — the announced → energized → utilized → revenue-bearing schedule |
+| recognized revenue | partially: `15` uses *contracted* revenue per energized GW-year and `18` accrues it only on revenue-bearing capacity; facility-level revenue *recognition* remains a `04C` accounting item |
+| customer cash receipt | `18` — the time-phased composition of `15`'s cash floor with `17`'s clock |
+| DSCR / interest coverage | `15` (required cash and coverage) and `18` (its composition over the contract term) |
+
+**None of this changes any `04C` state.** This panel continues to own each facility's observed obligations, maturities, covenants and ring-fencing, and the derived layers create no anchors of their own — they read this panel's disclosed terms and assert against each other. What remains genuine future work here is a **per-facility** bridge: the same five steps for one named facility rather than as a regime-level surface. A disclosed realized capital per GW together with energized capacity and contracted revenue per energized GW-year is what would supply it.
 
 ### 11B.7D Facility-state stress protocol
 

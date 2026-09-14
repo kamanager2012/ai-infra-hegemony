@@ -135,6 +135,7 @@ The loop is weakened or closed by any of the following, each observable in the p
 1. Record demand-side states and clocks in this file and, when they change, update the corresponding row rather than appending narrative.
 2. **Applied 2026-09-14 (research-side):** Dashboard I's demand-quality family now carries the §4 rows as a tagged sub-list with their clocks — see `10` §6D, which amends Axis F and the §6 update sheet and registers this file as the authoritative owner in `10` §0. The change is research-side only: formal Ch29 §10 Dashboard I remains as frozen and no formal reopen is recorded.
 3. If demand-side evidence and financing-side evidence deteriorate together, the `01A` adjudication ledger records them as separate family contributions — never multiplied into one index.
+4. **The arithmetic on §2's rates lives in [`20`](20-demand-side-composition.md), not here.** This file owns the loop, the state variables, the clocks and the gates, and it declines to put numbers on them where the refusal is correct — §3 gate G2 refuses a consumption-propensity claim without a same-denominator source, and that refusal is not relaxed by `20`. What `20` does is compose the §2 adoption rates onto a common denominator, state the funnel's unmeasured last step as a boundary, and write the incidence question as an identity whose one free ratio stays a dial. **Ownership is unchanged:** a change to a §2 rate, a clock or a gate is a change to this file, and `20` must be re-run rather than edited.
 
 ## Sources
 

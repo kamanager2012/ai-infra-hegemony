@@ -273,6 +273,33 @@ def main() -> int:
                   f"{ident} headline {token!r} in script+canonical+zh"
                   + (f" (found only in: {where or 'nothing'})" if where != "scriptcanonicalzh" else ""))
 
+    # ------------------------------------------------------ 9. back-references
+    print("9. upstream layers acknowledge the layers built on them")
+    # A new layer is one-directional by default: its own §0 says which layer
+    # continues to own the underlying facts, and nothing makes that upstream
+    # file point back. The reader who reaches the authority first then sees a
+    # bridge listed as future work when it already exists. The registry names
+    # only those dependencies - see acknowledgement_note - so a layer whose
+    # upstream already points at it declares none.
+    for ident, entry in layers.items():
+        for upstream in entry.get("upstream_must_acknowledge", []):
+            # Layer ids are written `04C` in prose but `04c-` on disk.
+            matches = sorted(PHASE2.glob(f"{upstream.lower()}-*.md"))
+            matches = [m for m in matches if not m.name.endswith(".zh.md")]
+            if not matches:
+                check(False, f"{ident} declares upstream {upstream}, which has no layer file")
+                continue
+            # Only the upstream canonical is checked: the layers being
+            # acknowledged here are 00-13, which predate the translation
+            # convention and have no .zh.md to carry the pointer.
+            ack_doc = read_if_present(matches[0])
+            # Two accepted forms: the backticked layer id, or a markdown link
+            # whose target is that layer's document. Matching a bare `NN-`
+            # prefix would also match a year or a line reference.
+            points_back = f"`{ident}`" in ack_doc or f"]({ident}-" in ack_doc
+            check(points_back,
+                  f"{upstream} acknowledges {ident} (the layer built on it)")
+
     # ----------------------------------------------------------------- summary
     total_layers = len([i for i in on_disk])
     registered_layers = len(layers)
