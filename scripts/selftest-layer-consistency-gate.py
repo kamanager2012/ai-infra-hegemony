@@ -283,6 +283,27 @@ CASES = [
     ("README misstates the register's size",
      rewrite(R + "README.md", "**Registers:** 8 layers", "**Registers:** 9 layers"),
      "README Current status states the register's size"),
+
+    # -- table parity across editions -------------------------------------
+    # 18's peak table, whose figures the canonical carries as US$17.58 etc.
+    ("a canonical table cell moves and the translation does not",
+     rewrite(R + "18-ramp-period-funding-gap.md", "17.58", "17.68"),
+     "carries the same quantities"),
+    ("a translation table cell moves and the canonical does not",
+     rewrite(R + "20-demand-side-composition.zh.md", "11.1%", "12.1%"),
+     "carries the same quantities"),
+    ("the translation gains a table the canonical does not carry",
+     append(R + "19-chain-concentration-amplification.zh.md",
+            "\n| 附注 | 值 |\n|---|---:|\n| 自测插入 | 1.00 |\n"),
+     "carries the same number of tables"),
+
+    # -- stated derivations ------------------------------------------------
+    ("a stated rule no longer reproduces the published value",
+     registry(lambda d: d["derivations"][0].update({"to": "0.140"})),
+     ["productivity_to_time(14%) = 0.123", "does NOT match the published 0.140"]),
+    ("a derivation names a rule the gate does not implement",
+     registry(lambda d: d["derivations"][0].update({"rule": "eyeballed"})),
+     "names unknown rule"),
 ]
 
 
@@ -329,6 +350,11 @@ CASE_CHECK = {
     "rewording Ch07's prose does not trip the gate, because the anchor is the table": 10,
     "prose that touches no registered token does not trip the gate": None,
     "README misstates the register's size": 11,
+    "a canonical table cell moves and the translation does not": 12,
+    "a translation table cell moves and the canonical does not": 12,
+    "the translation gains a table the canonical does not carry": 12,
+    "a stated rule no longer reproduces the published value": 13,
+    "a derivation names a rule the gate does not implement": 13,
 }
 
 

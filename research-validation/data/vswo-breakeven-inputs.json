@@ -21,15 +21,19 @@
       "name": "Brynjolfsson / Li / Raymond — Generative AI at Work",
       "reported": "productivity +14% on average across 5,179 support agents, heterogeneous",
       "repo_source": "03 Sources; https://www.nber.org/papers/w31161",
-      "conversion": "if productivity means outcomes per unit time, time per outcome falls by 1 - 1/1.14",
-      "implied_s": 0.1228070175438597
+      "conversion_rule": "productivity_to_time",
+      "reported_gain": 0.14,
+      "implied_s_recorded": 0.1228070175438597,
+      "conversion_note": "implied_s is DERIVED, not entered. The script applies 1 - 1/(1+g) to reported_gain and asserts the result equals implied_s_recorded, so the two fields cannot drift apart: changing either the reported gain or the conversion rule fails instead of silently moving the published s. The rule is stated in §2 of the layer; before this it was stated only there, and the published 0.123 was produced by no script at all."
     },
     {
       "name": "METR — experienced open-source developers (negative control)",
       "reported": "completion time +19% for 16 experienced developers on 246 tasks with early-2025 AI access",
       "repo_source": "03 Level-3 candidate-audit sources; https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study-paper.pdf",
-      "conversion": "reported directly as a time change; enters as a negative saving",
-      "implied_s": -0.19
+      "conversion_rule": "reported_as_time",
+      "reported_gain": -0.19,
+      "implied_s_recorded": -0.19,
+      "conversion_note": "Reported directly as a time change, so it enters unchanged and no conversion is applied."
     }
   ]
 }

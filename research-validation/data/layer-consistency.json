@@ -97,7 +97,8 @@
         "0.850",
         "1.050",
         "0.240",
-        "0.340"
+        "0.340",
+        "0.123"
       ],
       "borrowed_anchors": [
         {
@@ -110,7 +111,8 @@
           "source": "03",
           "role": "that study's reported productivity gain"
         }
-      ]
+      ],
+      "token_note": "0.123 is the converted value of the +14% productivity gain: the script applies 1 - 1/(1+g) and asserts it against the recorded value, rather than taking the figure on trust. Before that, the rule lived only in this layer's prose and the published 0.123 was produced by no script at all."
     },
     "17": {
       "slug": "energization-schedule-surface",
@@ -307,5 +309,20 @@
       "en/publication/part-II-ch13-anchor-compute-buyer.md"
     ]
   },
-  "anchor_note": "`borrowed_anchors` makes the repository's 'no new numeric identities' rule executable. Each entry is an anchor a layer reads from outside itself, with the document it must still be found in. This is the same guarantee layer 18's script already implements for layer 15's table, generalised: if an upstream layer or a frozen chapter changes a value, the check fails loudly instead of letting the derived layer keep publishing the old one. Anchors borrowed from frozen chapters are checked in both editions, because the frozen text is the fixed point the research side is not permitted to move."
+  "anchor_note": "`borrowed_anchors` makes the repository's 'no new numeric identities' rule executable. Each entry is an anchor a layer reads from outside itself, with the document it must still be found in. This is the same guarantee layer 18's script already implements for layer 15's table, generalised: if an upstream layer or a frozen chapter changes a value, the check fails loudly instead of letting the derived layer keep publishing the old one. Anchors borrowed from frozen chapters are checked in both editions, because the frozen text is the fixed point the research side is not permitted to move.",
+  "derivations_note": "Arithmetic rules a layer states in prose and applies to a published value. The gate re-implements each named rule and requires it to reproduce the published result, independently of the layer's own script: two implementations agreeing is the point. A layer that states a rule and publishes its output belongs here, because a rule stated only in prose cannot fail - which is how 16 published a converted value that no computation produced.",
+  "derivations": [
+    {
+      "layer": "16",
+      "rule": "productivity_to_time",
+      "from": {
+        "layer": "03",
+        "value": "14%",
+        "what": "reported productivity gain, Brynjolfsson et al."
+      },
+      "to": "0.123",
+      "where": "16 §2, and the ledger row in §5",
+      "note": "Output per unit time up by g means time per outcome down by 1 - 1/(1+g). The rule's whole purpose is that 0.14 is the wrong answer."
+    }
+  ]
 }

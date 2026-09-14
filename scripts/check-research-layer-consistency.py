@@ -39,6 +39,7 @@ import json
 import re
 import subprocess
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,16 +66,40 @@ CHECK_NAMES = {
     9: "upstream layers acknowledge the layers built on them",
     10: "borrowed anchors still exist where the layer says they do",
     11: "README states the register's own size correctly",
+    12: "a layer's tables carry the same quantities in both editions",
+    13: "a rule a layer states reproduces the value it publishes",
+}
+
+# A quantity, as distinct from a count, a layer id, or a year: it carries a
+# decimal point, a currency prefix, or a thousands separator. Bare integers are
+# excluded on purpose - they are list indices, dated years and section numbers
+# far more often than they are measurements, and a check that fired on those
+# would be edited into silence within a month.
+QUANTITY_RE = re.compile(r"(?<![\d.,])(?:US\$)?\d[\d,]*(?:\.\d+)")
+TABLE_ROW_RE = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
+ISO_DATE_RE = re.compile(r"\d{4}-\d{2}(?:-\d{2})?")
+
+# Rules a layer states in prose and applies to a published value. The gate
+# implements them independently of the layer's own script: agreement between two
+# implementations is the check, so a rule is never verified by the code that
+# already believes it.
+DERIVATION_RULES = {
+    "productivity_to_time": lambda g: 1 - 1 / (1 + g),
 }
 
 
-def counts_line(layers: dict, scripts: list[Path]) -> str:
+def counts_line(layers: dict, scripts: list[Path], tables: int, derivations: int) -> str:
     """The register's size, in one canonical sentence.
 
     Counts stated in prose rot faster than anything else here - the README's
     claim about this register was wrong within the hour of being written - so
     the gate builds the sentence from the registry rather than trusting a hand
-    count, exactly as it derives a layer's title from its H1."""
+    count, exactly as it derives a layer's title from its H1.
+
+    The table count is here on purpose: headline tokens are the register's
+    narrowest claim, and a reader deciding whether to trust it should see how
+    much is checked by other means rather than inferring that 38 numbers is the
+    whole of it."""
     plural = lambda n, one, many: f"{n} {one if n == 1 else many}"
     return ("**Registers:** "
             + ", ".join([
@@ -86,6 +111,8 @@ def counts_line(layers: dict, scripts: list[Path]) -> str:
                        "headline token", "headline tokens"),
                 plural(sum(len(e.get("borrowed_anchors", [])) for e in layers.values()),
                        "borrowed anchor", "borrowed anchors"),
+                plural(tables, "table pair", "table pairs"),
+                plural(derivations, "stated derivation", "stated derivations"),
             ]) + ".")
 
 
@@ -172,6 +199,45 @@ def sections_citing(path: Path, literal: str) -> list[str]:
         if literal in body[pos:end]:
             found.append(title)
     return found
+
+
+def markdown_tables(body: str) -> list[tuple[str, str]]:
+    """[(nearest heading above, the table's cell text)] in document order."""
+    tables: list[tuple[str, str]] = []
+    heading, rows = "?", []
+    lines = body.splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("#"):
+            if rows:
+                tables.append((heading, " ".join(rows)))
+                rows = []
+            heading = line.lstrip("# ").strip()
+        elif line.strip().startswith("|"):
+            # The ---|--- separator is not a cell; the header above it is, and
+            # in this corpus a header can carry a quantity of its own.
+            if not TABLE_ROW_RE.match(line):
+                rows.append(line)
+        elif rows:
+            tables.append((heading, " ".join(rows)))
+            rows = []
+    if rows:
+        tables.append((heading, " ".join(rows)))
+    return tables
+
+
+def quantities(text: str) -> Counter:
+    """The quantities in a text, reduced to a comparable form.
+
+    Dates are removed first: `2026-04` is not four hundred and four, and an
+    edition that spells a month in words while the other writes it numerically
+    is not a numeric disagreement."""
+    text = ISO_DATE_RE.sub(" ", text)
+    out: Counter = Counter()
+    for m in QUANTITY_RE.finditer(text):
+        s = m.group(0).replace("US$", "").replace(",", "")
+        s = s.rstrip("0").rstrip(".") if "." in s else s
+        out[s or "0"] += 1
+    return out
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -493,16 +559,81 @@ def main(argv: list[str] | None = None) -> int:
                      f"{source} itself - re-check after {ident} is updated")
 
     # ------------------------------------------------------- 11. README counts
+    # Parsed here rather than inside check 12 because check 11 reports how many
+    # table pairs the register covers: a count that has to be known before the
+    # check that produces it runs, so it is computed once and shared.
+    doc_tables = {ident: (markdown_tables(read_if_present(PHASE2 / f"{ident}-{layers[ident]['slug']}.md")),
+                          markdown_tables(read_if_present(PHASE2 / f"{ident}-{layers[ident]['slug']}.zh.md")))
+                  for ident in layers if at_or_after_epoch(ident)}
+    table_pairs = sum(min(len(en), len(zh)) for en, zh in doc_tables.values())
+
     print(f"11. {CHECK_NAMES[11]}")
     # The register's own size, as the README states it. This is the audit-facing
     # claim - how much is actually covered - and the one a reader uses to decide
     # whether the register is worth anything, so it is the last number that
     # should be allowed to drift.
-    wanted_counts = counts_line(layers, scripts)
+    wanted_counts = counts_line(layers, scripts, table_pairs, len(reg.get("derivations", [])))
     status = section(readme, "Current status") or ""
     check(wanted_counts in status,
           "README Current status states the register's size"
           + ("" if wanted_counts in status else f" - expected verbatim: {wanted_counts}"))
+
+    # ------------------------------------------------- 12. table parity
+    print(f"12. {CHECK_NAMES[12]}")
+    # The registered headline tokens are a handful per layer; the tables are
+    # where most of a layer's numbers actually live. The two editions carry the
+    # same tables, so the same quantities must appear in both - a property that
+    # needs no exception list, because a translation is not permitted to move a
+    # number at all. This is the "a translation tracks its canonical" claim at
+    # table granularity rather than at 37 tokens.
+    for ident in sorted(doc_tables, key=lambda s: (len(s), s)):
+        slug = layers[ident]["slug"]
+        en, zh = doc_tables[ident]
+        check(len(en) == len(zh),
+              f"{ident} carries the same number of tables in both editions"
+              + ("" if len(en) == len(zh) else f" (en={len(en)}, zh={len(zh)})"))
+        for i, ((en_head, en_cells), (zh_head, zh_cells)) in enumerate(zip(en, zh)):
+            if quantities(en_cells) == quantities(zh_cells):
+                continue
+            only_en = sorted((quantities(en_cells) - quantities(zh_cells)).elements())
+            only_zh = sorted((quantities(zh_cells) - quantities(en_cells)).elements())
+            check(False, f"{ident} table {i + 1} ({en_head}) carries the same quantities "
+                         f"in both editions (en only: {only_en}; zh only: {only_zh})")
+            note(ident, f"table {i + 1} of {ident}-{slug}.md differs across editions",
+                 f"en only: {only_en}" if only_en else "en only: (none)",
+                 f"zh only: {only_zh}" if only_zh else "zh only: (none)",
+                 f"the table is under: {en_head} / {zh_head}")
+
+    # ------------------------------------------------ 13. stated derivations
+    print(f"13. {CHECK_NAMES[13]}")
+    # A layer may state an arithmetic rule in prose and apply it to a published
+    # value. When it does, the rule is registered here and re-executed - by this
+    # gate's own implementation, not the layer's. A rule stated only in prose
+    # cannot fail, which is how `16` came to publish a converted value that no
+    # computation produced.
+    for deriv in reg.get("derivations", []):
+        ident, rule_name = deriv["layer"], deriv["rule"]
+        rule = DERIVATION_RULES.get(rule_name)
+        if rule is None:
+            check(False, f"{ident} derivation names unknown rule {rule_name!r}")
+            continue
+        try:
+            given = float(deriv["from"]["value"].rstrip("%")) / (
+                100 if deriv["from"]["value"].endswith("%") else 1)
+            published = float(deriv["to"])
+        except ValueError:
+            check(False, f"{ident} derivation {rule_name} has a non-numeric value")
+            continue
+        computed = rule(given)
+        # Compared at the precision the layer publishes, since a rule's output
+        # is normally rounded before it is printed.
+        decimals = len(deriv["to"].split(".")[1]) if "." in deriv["to"] else 0
+        derived, recorded = f"{computed:.{decimals}f}", f"{published:.{decimals}f}"
+        check(derived == recorded,
+              f"{ident} {rule_name}({deriv['from']['value']}) = {derived} "
+              + (f"matches the published {deriv['to']}" if derived == recorded
+                 else f"does NOT match the published {deriv['to']}")
+              + f" at {deriv['where']}")
 
     # ----------------------------------------------------------------- summary
     total_layers = len([i for i in on_disk])
@@ -513,7 +644,8 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Phase II consistency: layer files on disk={total_layers}, "
           f"registry entries={registered_layers}, "
           f"recompute scripts={len(scripts)}, headline tokens verified={tokens}, "
-          f"borrowed anchors verified={anchors}")
+          f"borrowed anchors verified={anchors}, table pairs verified={table_pairs}, "
+          f"stated derivations verified={len(reg.get('derivations', []))}")
     print(f"Convention epoch: layers >= {epoch} carry the full Phase II convention; "
           f"layers below it are checked for boundary-free invariants only.")
     print("Scope: PASS means every REGISTERED headline token is reproducible from "

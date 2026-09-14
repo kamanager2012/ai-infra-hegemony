@@ -62,7 +62,7 @@ a_breakeven   = p - 1 + s - rho - i
 
 **Why normalization is the point.** Every quantity is a ratio, so the identity makes **no factual claim about any process**. It states conditions, not measurements. That is what allows a quantitative artifact to exist here at all, given that no public Level-3 dataset does.
 
-**One conversion rule.** A reported *productivity* gain is not a *time* saving. If output per unit time rises by `g`, time per outcome falls by `1 - 1/(1+g)`. A "+14% productivity" claim is `s = 0.123`, not `s = 0.14`. Where a source reports a time change directly, it enters unchanged.
+**One conversion rule.** A reported *productivity* gain is not a *time* saving. If output per unit time rises by `g`, time per outcome falls by `1 - 1/(1+g)`. A "+14% productivity" claim is `s = 0.123`, not `s = 0.14`. Where a source reports a time change directly, it enters unchanged. The rule is executed, not merely stated: `recompute_vswo_breakeven.py` applies it to the recorded gain and asserts the result against the recorded conversion, so the two cannot drift apart and the published `0.123` is produced by arithmetic rather than entered by hand. The register re-runs the same rule with its own implementation, for the reason a rule stated only in prose cannot fail.
 
 ## 3. Break-even review burden
 

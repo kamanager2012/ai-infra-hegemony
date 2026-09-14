@@ -40,6 +40,17 @@ def a_breakeven(s: float, rho: float, p: float, i: float) -> float:
     return p - 1 + s - rho - i
 
 
+def time_saving_from_productivity(g: float) -> float:
+    """A reported productivity gain is not a time saving.
+
+    If output per unit time rises by g, time per outcome falls by 1 - 1/(1+g).
+    This is the rule §2 states in prose; it lives here so that the converted
+    value it produces is computed rather than entered. Quoting the gain as a
+    saving (0.14 for a "+14% productivity" claim) overstates it by 14%, which
+    is exactly the error the rule exists to prevent."""
+    return 1 - 1 / (1 + g)
+
+
 def main():
     d = json.loads(INPUT.read_text(encoding="utf-8"))
     a0 = d["inference_intensity"]
@@ -89,17 +100,32 @@ def main():
         print(f"{s:>15.2f}{row}")
 
     print()
+    print("Conversion of each published effect into the identity's gross saving s")
+    print("(derived here, not entered: the recorded value is asserted against the rule)")
+    for e in d["published_effect_anchors"]:
+        g, recorded = e["reported_gain"], e["implied_s_recorded"]
+        if e["conversion_rule"] == "productivity_to_time":
+            derived = time_saving_from_productivity(g)
+            rule = "1 - 1/(1+g)"
+        else:
+            derived = g
+            rule = "reported as a time change"
+        assert math.isclose(derived, recorded, rel_tol=1e-12), (e["name"], derived, recorded)
+        print(f"  {e['name'][:52]:<54} {g:+.0%} x {rule} -> s = {derived:.3f}")
+
+    print()
     print("Published effects from the existing P0-3 source list, run through the identity")
     print(f"(a={a0}, i=0): the table gives the review share at which the effect is exactly erased.")
     ph = "".join(f"{f'p={p:.2f}':>10}" for p in d["persistence_grid"])
     print(f"{'anchor':<58}{ph}")
-    for e in d["published_effect_anchors"]:
-        s = e["implied_s"]
+    anchors = d["published_effect_anchors"]
+    for e in anchors:
+        s = e["implied_s_recorded"]
         row = "".join(f"{rho_breakeven(s, p, 0.0, a0):>10.3f}" for p in d["persistence_grid"])
         print(f"{e['name'][:56]:<58}{row}")
-    nber = d["published_effect_anchors"][0]["implied_s"]
+    nber = anchors[0]["implied_s_recorded"]
     assert math.isclose(rho_breakeven(nber, 1.0, 0.0, a0), 0.0728, rel_tol=5e-3)
-    metr = d["published_effect_anchors"][1]["implied_s"]
+    metr = anchors[1]["implied_s_recorded"]
     print()
     print(f"METR negative control at s={metr:.2f}: break-even rho = "
           f"{rho_breakeven(metr, 1.0, 0.0, a0):.3f}, i.e. the saving is already negative "

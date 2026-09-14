@@ -96,10 +96,12 @@ Contracted revenue per GW-year = (US$100B floor / 10 years) / GW served:
 
 | GW served | Revenue US$B/GW-yr | vs $30B/GW mid | vs $40B/GW mid | vs $50B/GW mid |
 |---:|---:|---:|---:|---:|
-| 1 | 10.00 | 2.51× | 1.89× | 1.51× |
+| 1 | 10.00 | 2.52× | 1.89× | 1.51× |
 | 2 | 5.00 | 1.26× | 0.94× | 0.75× |
 | 3 | 3.33 | 0.84× | 0.63× | 0.50× |
 | 5 (ceiling) | 2.00 | 0.50× | 0.38× | 0.30× |
+
+*Coverage is computed from the unrounded required-cash values, so dividing a revenue cell above by §4's displayed 2-decimal cash cell can differ in the last digit: the 1-GW/$30B cell is 10.00 / 3.976 = 2.5202, while dividing by the displayed 3.98 gives 2.5126. The table carries the first, because a published ratio should be the ratio of the quantities rather than of their rounded renderings. Rounding required cash first is how this cell came to read 2.51× — a value no computation produced.*
 
 **Breakeven capital per GW** — the capital cost at which the contracted floor exactly covers the required floor, spread over the full 5 GW ceiling:
 
