@@ -1,0 +1,34 @@
+{
+  "version": "2026-09-14",
+  "notes": "Demand-side composition and incidence parameters. Every rate below is an observed anchor already carried in `14` §2 with its evidence note; the derived rates, the denominator-sensitivity factor, the augmentation elasticity and the incidence identity are D-grade report-side calculations. No new numeric identity is created and no propensity is asserted — the one ratio the evidence does not pin down stays a dial.",
+  "adoption_panel_btos": {
+    "firms_using_ai_share": 0.18,
+    "adopters_mainly_augmenting_share": 0.66,
+    "firms_reporting_employment_reductions_share": 0.02,
+    "base": "U.S. firms; AI use in at least one business function; same instrument, same denominator",
+    "source_identity": "Census BTOS, via 14 §2 evidence note B",
+    "grade": "first-party-adjacent government survey; descriptive"
+  },
+  "adoption_panel_cross_country": {
+    "firms_actively_using_share": 0.69,
+    "no_employment_or_productivity_impact_share": 0.8,
+    "base": "cross-country firms; 'actively use'; three-year recall",
+    "source_identity": "cross-country survey via 14 §2 evidence note C",
+    "grade": "survey; descriptive",
+    "combination_rule": "Kept separate from the BTOS panel. It is used only as a denominator-sensitivity demonstration, never pooled or averaged with it, because the population, the question and the recall window all differ."
+  },
+  "incidence": {
+    "identity": "demand_effect = employment_effect x rho, where rho = consumption propensity of the displaced / average consumption propensity",
+    "rho_dial": [0.6, 0.8, 1.0, 1.2, 1.4],
+    "note": "rho is deliberately a dial. 14 §3 gate G2 states that the claim that high income deciles drive a disproportionate share of spending is a scenario assumption until stated with its own same-denominator source; the repository carries no propensity-by-cohort panel. The identity is the result, and it is what bounds the demand leg — not the dial."
+  },
+  "augmentation_share_dial": [0.5, 0.66, 0.8],
+  "gate_states_2026": [
+    {"gate": "G1", "name": "Substitution depth", "state": "closed", "observed": "only a hiring-pipeline divergence concentrated in early-career high-exposure occupations; separations not moved", "owner": "03"},
+    {"gate": "G2", "name": "Income incidence", "state": "not measured", "observed": "no same-denominator consumption-propensity-by-cohort source exists in the repository", "owner": "14"},
+    {"gate": "G3", "name": "Credit buffers", "state": "not yet triggered", "observed": "no sustained income loss has accumulated for buffers to absorb", "owner": "14"},
+    {"gate": "G4", "name": "Price versus margin pass-through", "state": "unresolved", "observed": "02's structural E2/E3/E4 coefficients remain unestimated", "owner": "02"},
+    {"gate": "G5", "name": "Replacement demand and policy", "state": "policy variable", "observed": "not legislated and not observed; proposals are scenario variables", "owner": "14"},
+    {"gate": "G6", "name": "Clock stacking", "state": "structural rule", "observed": "a stacking order, not a state that can be observed to open", "owner": "14"}
+  ]
+}
