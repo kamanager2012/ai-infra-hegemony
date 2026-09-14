@@ -173,7 +173,7 @@ AI 对传统市场的传导强度取决于三个条件：
 | Game console | custom SoC/APU、GDDR/DRAM、NAND/SSD、selected packaging/test | BOM、promotion、hardware margin、长世代 cost-down、quantity assurance | Sony 把 memory procurement 与硬件销量、促销、盈利联系起来，但同时披露 FY26 必需 memory volume 已 secured；TrendForce 另行预测 console-margin pressure[^12] | 主机直接抢 HBM；FY26 PS5 仍存在未解决的 quantity shortage；AI 抢走某厂确定 wafer 数量；下一代必然涨价/延期 |
 | Router / broadband | consumer DRAM/NAND、低议价采购 | higher price + weaker allocation | Counterpoint 记录了严重的 router / gateway memory-price 与 BOM pressure；quantity pressure 仍需按 buyer 单独验证[^13] | 所有终端都按同一倍数涨价 |
 | Automotive / industrial / production line | mature memory、MCU/analog、power、selected ADAS compute、packaging/test | 交期、认证、EOL/料号、供应连续性 | 长认证和长寿命降低快速换料能力；相邻 product-mix 可形成压力 | 汽车电子被 GPU/HBM 直接“吃掉” |
-| Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | 工业电子与 edge-AI 两类约束叠加 | 机器人可能同时暴露于工业电子与 AI compute 两侧 | 每台机器人都需要 frontier HBM；工厂因 AI 自动停产 |
+| Robotics / Physical AI | industrial control + sensors/actuation + edge accelerator + cloud retraining | 工业电子与 edge-AI 两类约束叠加 | **report-side system-exposure classification**；物理 AI 的独立证据基础见第 15 章 | 每台机器人都需要 frontier HBM；工厂因 AI 自动停产 |
 | Avionics / radar / space electronics | trusted/qualified logic、RF/power、rad-hard/rad-tolerant parts、special packaging/test | 小批量产线经济性、资格认证、可信 access、长寿命支持 | 商业高量市场可削弱小批量特殊需求的 bargaining power | 飞机、雷达、卫星因 HBM shortage 直接停摆 |
 | Naval / other long-life defense systems | long-life qualified electronics、power/communications、trusted supply、maintenance spares | EOL、供应商 longevity、small-volume economics | 长周期系统需要长期料号与可信供应保障 | 舰船/航母“缺 NVIDIA” |
 
