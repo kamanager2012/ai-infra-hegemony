@@ -4,7 +4,7 @@ This repository welcomes factual corrections, source repairs/upgrades, mechanism
 
 The **English 32-chapter formal report on `main` is the sole canonical analytical text** for claims, mechanisms, denominators, evidence identities, scenario states, falsification boundaries, and section hierarchy. The Chinese edition is the professional Chinese translation and must remain synchronized to the same research state.
 
-**Formal-text freeze:** the 32-chapter bilingual report was refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The current edition revision is **2026-09-03** because permitted post-freeze evidence-boundary and bilingual-parity repairs continued through September 3 without changing the evidence set, the S2 baseline judgment, or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
+**Formal-text freeze:** the 32-chapter bilingual report was refrozen on **2026-08-30**, with evidence/retrieval cutoff **2026-08-28**. The current edition revision is **2026-09-14** because permitted post-freeze evidence-boundary, definition-consistency, bilingual-parity, and reader-structure repairs continued through September 14 without changing the evidence set, the S2 baseline judgment, or the S1–S4 taxonomy. Post-freeze changes to the formal chapters are limited to factual corrections, source-link repairs, citation-scope/time-window/unit/denominator corrections, bilingual parity fixes, and material-error fixes. Style-only rewrites, chapter expansion, framework redesign, terminology renaming, and post-cutoff evidence additions do not belong in the frozen formal text unless the freeze is explicitly reopened.
 
 ## Start with these files
 
@@ -90,7 +90,7 @@ After the formal-text freeze, a permitted material correction or evidence repair
 
 **英文 `main` 的 32 章正式报告是唯一 canonical analytical text。** 中文版是专业中文译本，必须与英文版保持同一事实、证据等级、分母、机制、情景状态、证伪边界与章节层级。
 
-**正式正文冻结：**32 章中英文正式报告于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。当前 edition revision 为 **2026-09-03**，原因是冻结规则允许的 evidence-boundary 与双语实质一致性修复持续至 2026-09-03；这些修复没有改变 evidence set、当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
+**正式正文冻结：**32 章中英文正式报告于 **2026-08-30** 再次冻结，证据/检索截止日仍为 **2026-08-28**。当前 edition revision 为 **2026-09-14**，原因是冻结规则允许的 evidence-boundary、definition-consistency、双语实质一致性与读者结构修复持续至 2026-09-14；这些修复没有改变 evidence set、当前 S2 baseline judgment 或 S1–S4 taxonomy。冻结后，正式章节仅接受事实纠错、来源失效修复、引用范围/时间窗/单位/分母纠错、双语实质一致性修复与重大错误修复。纯风格重写、章节扩张、框架改造、术语改名，以及截止日之后的新证据，不进入冻结后的正式正文，除非明确重新开启正文冻结状态。
 
 ## 先看这些文件
 

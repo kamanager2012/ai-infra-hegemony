@@ -5,7 +5,7 @@
 **System Stack 竞争、半导体资源配置、HBM、Advanced Packaging、Power、资本形成与终端传导的行业研究简报**
 
 **Evidence cutoff：** 2026-08-28  
-**Edition revision：** 2026-09-03  
+**Edition revision：** 2026-09-14  
 **Status：** 本简报属于 publication layer，由已冻结的 32 章英文 canonical report 派生，不构成第二套研究版本，也不新增 factual claim。
 
 ---

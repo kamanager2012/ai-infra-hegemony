@@ -7,7 +7,7 @@
 GitHub 仓库用于保存版本化研究文本、来源索引、证据台账与修订记录。仓库的可追踪性有助于读者核对研究变化，但**不等于外部同行评审、审计鉴证或机构评级**。
 
 **Evidence cutoff：** 2026-08-28  
-**Edition revision：** 2026-09-03
+**Edition revision：** 2026-09-14
 
 **日期解释：** **Evidence cutoff** 用于界定本版哪些外部事实与材料可以进入证据集合；**Edition revision date** 记录当前文本最后一次实质编辑日期。详细纠错过程保留在下方记录与 Git history 中；这些日期不代表外部审稿、审计或机构认证。
 
@@ -163,6 +163,8 @@ Evidence cutoff 与 revision date 是两个独立控制项。
 5. **纠正 strategy optionality 表述。** Chapter 31 不再把“持续维护一条可执行的第二生产路径”写成普遍最优策略。硬规则是把 executable optionality / resilience 的价值与 carrying cost 一并定价；只有 continuity、bargaining、recovery 与 switching value 高于该成本时，维护第二生产路径才成立。
 6. **修复 downstream evidence boundaries。** Chapter 15 纳入 cutoff 前 BMW/Figure 02、Amazon DeepFleet 与 GXO/Digit 的 production evidence，同时继续保留 intervention、uptime、safety、TCO 与 broad fleet economics 的证据缺口；Chapter 25 改用 Stanford/ADP direct revision 区分 reduced hiring 与 separations，并保持 descriptive / non-causal identity；Chapter 26 纳入 cutoff 前 Khanmigo school-scale RCT 与 NUMI delayed-assessment RCT，同时继续保留 engagement、transfer、teacher workload、implementation cost 与 long-run system effects 的未决边界。
 7. **正式固定 English-first canonical workflow 与 translation parity。** English 是唯一 canonical analytical layer；中文版只是该文本的专业翻译，不是独立分析版本。Claims、section order、evidence grades、denominators、mechanisms、scenario identities 与 falsification boundaries 必须保持等价。
+
+此后至 **2026-09-14** 的许可修复仍限于上述四类情形，保留在 repository history 中，不在此重复；它们未改变 evidence set、S2 baseline 或 S1–S4 taxonomy。
 
 对外规则因此很简单：
 

@@ -4,7 +4,7 @@
 
 **Research theme:** Structural reallocation of compute, semiconductors, memory, advanced packaging, power, and capital  
 **Evidence cutoff:** August 28, 2026  
-**Edition revision:** September 3, 2026  
+**Edition revision:** September 14, 2026  
 Claims in this edition use evidence available by the cutoff; later edits are limited to corrections or editorial changes and are documented in the research-transparency record.
 
 This 32-chapter report analyzes the shift from individual-accelerator competition toward system-stack competition and its consequences for advanced logic, HBM, advanced packaging, power, cloud architecture, capital formation, traditional end markets, China's parallel stack, Agent-Native Software, Physical AI, labor and talent systems, and the long-run industrial structure.

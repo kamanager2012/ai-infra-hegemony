@@ -7,7 +7,7 @@ The report is authored by **James (kamanager2012)**.
 The GitHub repository stores versioned research text, source indexes, evidence ledgers, and revision history. This traceability helps readers inspect how claims change over time, but it **does not constitute external peer review, audit assurance, a securities-research rating, or institutional endorsement**.
 
 **Evidence cutoff: August 28, 2026.**  
-**Edition revision: September 3, 2026.**
+**Edition revision: September 14, 2026.**
 
 **Date interpretation:** the **evidence cutoff** determines which observed facts and external materials may support this edition. The **edition revision date** records when the current text was last materially edited. Detailed correction history remains available below and in Git history; these dates do not imply external review or audit status.
 
@@ -163,6 +163,8 @@ Several material corrections made during August 29–September 3 remain analytic
 5. **Strategy optionality language was corrected.** Chapter 31 no longer treats a continuously maintained executable second production path as universally optimal. The hard rule is to price executable optionality / resilience against carrying cost; maintaining a second production path remains conditional on continuity, bargaining, recovery, and switching value exceeding that cost.
 6. **Downstream evidence boundaries were repaired.** Chapter 15 now records pre-cutoff production evidence from BMW/Figure 02, Amazon DeepFleet, and GXO/Digit while keeping intervention, uptime, safety, TCO, and broad fleet economics open. Chapter 25 now uses the direct Stanford/ADP revision to distinguish reduced hiring from separations and preserves its descriptive, non-causal identity. Chapter 26 now records the pre-cutoff Khanmigo school-scale RCT and NUMI delayed-assessment RCT while keeping engagement, transfer, teacher workload, implementation cost, and long-run system effects unresolved.
 7. **English-first canonical workflow and translation parity were formalized.** English is the sole canonical analytical layer; Chinese is the professional translation of that text, not an independent analytical edition. Claims, section order, evidence grades, denominators, mechanisms, scenario identities, and falsification boundaries must remain equivalent.
+
+Further permitted repairs through **September 14, 2026** stayed within the same four categories and are recorded in repository history rather than repeated here; they did not change the evidence set, the S2 baseline, or the S1–S4 taxonomy.
 
 The public rule is therefore simple:
 

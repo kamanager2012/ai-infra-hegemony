@@ -6,7 +6,7 @@
 
 **作者：** James（kamanager2012）  
 **Evidence cutoff：** 2026-08-28  
-**Edition revision：** 2026-09-03  
+**Edition revision：** 2026-09-14  
 **分析与情景时域：** 2026–2036  
 **Canonical research language：** English  
 **中文版本：** Professional Chinese translation
