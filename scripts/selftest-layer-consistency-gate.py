@@ -577,7 +577,15 @@ def main(argv: list[str] | None = None) -> int:
             if rc == 1 and not missed:
                 print(f"ok       {name}")
                 if verbose:
-                    hit = next(f for f in failures if wanted[0] in f) if failures else wanted[0]
+                    # A case's expectation may land in the failure list or in
+                    # the affected-layer report printed below it. Several expect
+                    # a line of guidance, which is never a failure line, so
+                    # reading only `failures` raised StopIteration for those -
+                    # crashing the run *after* printing their `ok`, which made
+                    # `-v` exit 1 on a suite that had passed.
+                    hit = next((f for f in failures if wanted[0] in f),
+                               next((l.strip() for l in region.splitlines()
+                                     if wanted[0] in l), wanted[0]))
                     print(f"           {hit}")
             else:
                 bad.append(name)
