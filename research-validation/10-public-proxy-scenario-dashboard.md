@@ -578,7 +578,7 @@ Current state:
 
 ## 6D. Axis F demand-side extension — household-income / consumption sub-rows
 
-**Extension status.** `14` §9 proposed this extension; it was adjudicated and applied **2026-09-14** as a research-side change. Formal Ch29 §10 Dashboard I is unchanged, and no formal reopen is recorded.
+**Extension status.** `14` §9 proposed this extension; it was adjudicated and applied **2026-09-14** as a research-side change. **A2 update (2026-09-14):** the formal freeze was subsequently reopened once for the underlying mechanism, so formal Ch29 §10 Dashboard I now carries the demand leg; the formal chapters own the mechanism and this dashboard remains the research-side detail.
 
 Axis F already asks whether demand can pay independently. The demand-side sub-rows name one specific payer — the **household**, whose income funds consumption, which funds part of enterprise revenue, which funds AI budgets. These rows are owned by `14`; this dashboard consumes them (see §0).
 
@@ -598,7 +598,7 @@ Rules:
 3. **No standalone S4.** Demand-side transmission supplies the **real-economy leg**; S4 still requires multiple causal-independent families across actors and layers (Ch24 §9, Ch30 §5). If it deteriorates together with financing-side evidence, `01A` records separate family contributions — never multiplied into one index.
 4. **No pseudo-precision.** These rows cannot switch the scenario (§2, §5). They are recorded with direction, breadth, persistence, counterevidence, and clock.
 5. **Clock stacking is a state, not a conclusion.** The sub-rows move on different clocks (months to years). An early row moving while later rows have not yet responded is recorded as stacking, not as confirmation.
-6. **Freeze.** No sub-row changes the formal 2026-08-28 evidence cutoff or Ch29 Dashboard I.
+6. **Freeze.** No sub-row changes the formal 2026-08-28 evidence cutoff. Formal Ch29 Dashboard I now carries the demand leg (formal freeze explicitly reopened once on 2026-09-14); these rows remain the research-side detail behind it.
 
 ---
 
@@ -612,4 +612,4 @@ It supplies the missing operational layer:
 
 Until calibration is strong enough, the formal report should continue to state that S1–S4 are conditional structural states, not a mechanical classifier.
 
-The Axis F demand-side extension (§6D) was adjudicated on 2026-09-14 as a research-side addition. It does not reopen Ch29 §10 or any other formal chapter; formal Dashboard I remains as frozen.
+The Axis F demand-side extension (§6D) was adjudicated on 2026-09-14 as a research-side addition. **A2 update (2026-09-14):** the formal freeze was subsequently reopened once for the demand-side reflexivity mechanism, so formal Ch24 §7B, Ch29 Dashboard I, Ch30 §5/§10, and Ch32 §10 now state it; this dashboard remains the research-side detail.

@@ -1,15 +1,17 @@
 # Phase II · Demand-Side Reflexivity Layer v0.2
 
-> **Status:** Research-side validation layer; not part of the frozen 32-chapter formal report, and does not change the formal 2026-08-28 evidence cutoff.  
+> **Status:** Research-side supporting material. The demand-side reflexivity mechanism is now stated in the formal report — Chapter 24 §7B, Chapter 29 Dashboard I (demand leg), Chapter 30 §5/§10, and Chapter 32 §10 — after the formal freeze was explicitly reopened on 2026-09-14 (`04-research-transparency.md` §8A item 8). This file does not change the formal 2026-08-28 evidence cutoff; **where this file and the formal report differ, the formal report is authoritative.**  
 > **Purpose:** make the demand-side counterpart of financing reflexivity explicit — whether AI-driven labor-income compression can reduce the final demand that ultimately pays for AI infrastructure, and which observables would show that channel before it reaches the five existing clearing-signal families.  
 > **External calibration reference:** Citrini Research / Alap Shah, *The 2028 Global Intelligence Crisis* (2026-02) — a self-labeled scenario (“a scenario, not a prediction”) — used here only as a scenario-shape input, together with its published rebuttals. This file does not restate, reproduce, or adopt that essay's numbers; everything below is the report's own conditional construction for 2026–2036.  
 > **Chinese translation (derived):** [14-demand-side-reflexivity.zh.md](14-demand-side-reflexivity.zh.md)
 
-## 0. Ownership contract v0.1
+## 0. Ownership contract v0.2 (A2 reframe)
 
-This file owns:
+**Ownership after the A2 reframe:** the formal report owns the mechanism and its claims (Chapter 24 §7B; Chapter 29 Dashboard I; Chapter 30 §5/§10; Chapter 32 §10). This file owns only the research-side detail *behind* that mechanism — the panels, clocks, gates, and falsification conditions — and defers to the formal text on any conflict.
 
-- the **demand-side reflexivity loop** (labor income → consumption → enterprise cash generation → AI monetization → capital clearing);
+In that supporting role, this file owns:
+
+- the research-side detail for the **demand-side reflexivity loop** (labor income → consumption → enterprise cash generation → AI monetization → capital clearing);
 - the boundary between task-level labor evidence (owned by `07`) and aggregate-demand transmission (owned here);
 - demand-side state variables and their clocks;
 - the demand-leg integration rule for S4 evidence.
@@ -133,9 +135,9 @@ The loop is weakened or closed by any of the following, each observable in the p
 ## 9. Integration rule
 
 1. Record demand-side states and clocks in this file and, when they change, update the corresponding row rather than appending narrative.
-2. **Applied 2026-09-14 (research-side):** Dashboard I's demand-quality family now carries the §4 rows as a tagged sub-list with their clocks — see `10` §6D, which amends Axis F and the §6 update sheet and registers this file as the authoritative owner in `10` §0. The change is research-side only: formal Ch29 §10 Dashboard I remains as frozen and no formal reopen is recorded.
+2. **Applied 2026-09-14 (research-side):** Dashboard I's demand-quality family now carries the §4 rows as a tagged sub-list with their clocks — see `10` §6D, which amends Axis F and the §6 update sheet and registers this file as the research-side owner in `10` §0. **A2 update (2026-09-14):** the formal freeze was subsequently reopened once for the mechanism, so formal Ch29 §10 Dashboard I now carries the demand leg and the formal chapters (Chapter 24 §7B; Chapter 29; Chapter 30 §5/§10; Chapter 32 §10) own the mechanism; this file is supporting material.
 3. If demand-side evidence and financing-side evidence deteriorate together, the `01A` adjudication ledger records them as separate family contributions — never multiplied into one index.
-4. **The arithmetic on §2's rates lives in [`20`](20-demand-side-composition.md), not here.** This file owns the loop, the state variables, the clocks and the gates, and it declines to put numbers on them where the refusal is correct — §3 gate G2 refuses a consumption-propensity claim without a same-denominator source, and that refusal is not relaxed by `20`. What `20` does is compose the §2 adoption rates onto a common denominator, state the funnel's unmeasured last step as a boundary, and write the incidence question as an identity whose one free ratio stays a dial. **Ownership is unchanged:** a change to a §2 rate, a clock or a gate is a change to this file, and `20` must be re-run rather than edited.
+4. **The arithmetic on §2's rates lives in [`20`](20-demand-side-composition.md), not here.** In its supporting role, this file owns the research-side detail of the loop, the state variables, the clocks and the gates (the formal chapters own the mechanism), and it declines to put numbers on them where the refusal is correct — §3 gate G2 refuses a consumption-propensity claim without a same-denominator source, and that refusal is not relaxed by `20`. What `20` does is compose the §2 adoption rates onto a common denominator, state the funnel's unmeasured last step as a boundary, and write the incidence question as an identity whose one free ratio stays a dial. **Ownership is unchanged:** a change to a §2 rate, a clock or a gate is a change to this file, and `20` must be re-run rather than edited.
 
 ## Sources
 
