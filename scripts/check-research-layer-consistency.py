@@ -46,6 +46,58 @@ PHASE2 = ROOT / "research-validation"
 REGISTRY = PHASE2 / "data" / "layer-consistency.json"
 
 DOC_RE = re.compile(r"^(\d{2}[a-z]?)-(.+)\.md$")
+HEADING_RE = re.compile(r"^(#{2,3})\s+(.+)$", re.M)
+
+# The numbered checks, in order. This is load-bearing rather than decorative:
+# main() prints the headings from here, and the self-test reads this dict to
+# assert that every check has at least one case that makes it fire. A check
+# added without a case therefore fails the self-test rather than sitting
+# unverified - which is the whole reason the self-test exists.
+CHECK_NAMES = {
+    1: "translation pairing",
+    2: "registry completeness",
+    3: "ownership contract and Sources",
+    4: "README file index",
+    5: "authority graph",
+    6: "README work order / authority rules / next stage",
+    7: "recompute scripts",
+    8: "headline tokens appear in script stdout, canonical and translation",
+    9: "upstream layers acknowledge the layers built on them",
+    10: "borrowed anchors still exist where the layer says they do",
+    11: "README states the register's own size correctly",
+}
+
+
+def counts_line(layers: dict, scripts: list[Path]) -> str:
+    """The register's size, in one canonical sentence.
+
+    Counts stated in prose rot faster than anything else here - the README's
+    claim about this register was wrong within the hour of being written - so
+    the gate builds the sentence from the registry rather than trusting a hand
+    count, exactly as it derives a layer's title from its H1."""
+    plural = lambda n, one, many: f"{n} {one if n == 1 else many}"
+    return ("**Registers:** "
+            + ", ".join([
+                plural(len(layers), "layer", "layers"),
+                plural(sum(len(e["data"]) for e in layers.values()),
+                       "versioned input", "versioned inputs"),
+                plural(len(scripts), "recompute script", "recompute scripts"),
+                plural(sum(len(e["headline_tokens"]) for e in layers.values()),
+                       "headline token", "headline tokens"),
+                plural(sum(len(e.get("borrowed_anchors", [])) for e in layers.values()),
+                       "borrowed anchor", "borrowed anchors"),
+            ]) + ".")
+
+
+def use_root(path: Path) -> None:
+    """Point the gate at a different checkout.
+
+    The self-test runs this gate against a throwaway copy of the tree, so a
+    mutation it expects to be caught cannot touch the real repository."""
+    global ROOT, PHASE2, REGISTRY
+    ROOT = path.resolve()
+    PHASE2 = ROOT / "research-validation"
+    REGISTRY = PHASE2 / "data" / "layer-consistency.json"
 
 
 def norm(text: str) -> str:
@@ -104,23 +156,85 @@ def numbered_items(region: str) -> dict[int, str]:
     return items
 
 
-def main() -> int:
+def sections_citing(path: Path, literal: str) -> list[str]:
+    """Headings of the sections in `path` that contain `literal`.
+
+    This is what turns a failure from "the anchor is gone" into "these are the
+    places that have to change": the layer's own canonical is the thing a
+    maintainer would otherwise have to grep."""
+    body = read_if_present(path)
+    if not body:
+        return []
+    marks = [(m.start(), m.group(2).strip()) for m in HEADING_RE.finditer(body)]
+    found = []
+    for i, (pos, title) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(body)
+        if literal in body[pos:end]:
+            found.append(title)
+    return found
+
+
+def main(argv: list[str] | None = None) -> int:
+    argv = list(sys.argv[1:] if argv is None else argv)
+    for arg in argv:
+        if arg.startswith("--root="):
+            use_root(Path(arg.split("=", 1)[1]))
+        else:
+            print(f"unknown argument: {arg}", file=sys.stderr)
+            return 2
+
     reg = json.loads(read(REGISTRY))
     readme = read(PHASE2 / reg["readme"])
     epoch = reg["convention_epoch"]
     layers = reg["layers"]
     failures: list[str] = []
+    # A failing check says what is wrong. This says what to do about it: which
+    # layer is affected, what to re-run, and which of its sections cite the
+    # broken thing. Keyed by layer id so a layer with several failures is
+    # reported once, with all of them under it.
+    impacts: dict[str, list[str]] = {}
 
     def check(ok: bool, label: str) -> None:
         print(f"  {'PASS' if ok else 'FAIL'}  {label}")
         if not ok:
             failures.append(label)
 
+    def note(ident: str, first: str, *rest: str) -> None:
+        """Record one item of guidance under a layer. `first` is the bullet;
+        `rest` are the indented lines under it."""
+        impacts.setdefault(ident, []).append([first, *rest])
+
+    # source id (lowercase, as anchors spell it) -> layers that read from it.
+    borrowers: dict[str, set[str]] = {}
+    for lid, entry in layers.items():
+        for anchor in entry.get("borrowed_anchors", []):
+            borrowers.setdefault(anchor["source"].lower(), set()).add(lid)
+
+    def downstream_of(ident: str) -> list[str]:
+        """Registered layers that read a value from `ident`, transitively.
+
+        A broken anchor two hops up is still a broken anchor: `18` reads 1.87
+        from `15`, so if a `04c` figure that `15` republishes moves, `18` has to
+        be re-checked even though it never cites `04c` itself. Without this the
+        report would name the layer that failed and stop one hop short of the
+        work."""
+        spelling = {lid.lower(): lid for lid in layers}
+        seen: set[str] = set()
+        queue = [ident.lower()]
+        while queue:
+            for nxt in borrowers.get(queue.pop(), set()):
+                low = nxt.lower()
+                if low in seen or low == ident.lower():
+                    continue
+                seen.add(low)
+                queue.append(low)
+        return sorted((spelling.get(s, s) for s in seen), key=lambda s: (len(s), s))
+
     def at_or_after_epoch(ident: str) -> bool:
         return ident.isdigit() and int(ident) >= int(epoch)
 
     # ---------------------------------------------------------------- 1. pairing
-    print("1. translation pairing")
+    print(f"1. {CHECK_NAMES[1]}")
     on_disk: dict[str, Path] = {}
     for p in sorted(PHASE2.glob("*.md")):
         m = DOC_RE.match(p.name)
@@ -145,7 +259,7 @@ def main() -> int:
                        + (f" (orphans: {orphans})" if orphans else ""))
 
     # ------------------------------------------------------------ 2. registry
-    print("2. registry completeness")
+    print(f"2. {CHECK_NAMES[2]}")
     # The registry is what makes the rest of this gate exhaustive rather than
     # opt-in. A layer added under the convention but never registered would
     # otherwise skip every README wiring check silently.
@@ -159,7 +273,7 @@ def main() -> int:
           "every registry entry names a layer file on disk"
           + (f" (stale: {stale})" if stale else ""))
     # --------------------------------------------------------------- 3. contract
-    print("3. ownership contract and Sources")
+    print(f"3. {CHECK_NAMES[3]}")
     for ident in sorted(on_disk, key=lambda s: (len(s), s)):
         if not at_or_after_epoch(ident):
             continue
@@ -176,7 +290,7 @@ def main() -> int:
                   f"{ident} {label} carries a Sources section")
 
     # ------------------------------------------------------------- 4. file index
-    print("4. README file index")
+    print(f"4. {CHECK_NAMES[4]}")
     index = section(readme, "File index")
     if index is None:
         check(False, "README has a File index section")
@@ -194,7 +308,7 @@ def main() -> int:
             check(rel in index, f"{ident} file index lists {rel}")
 
     # ---------------------------------------------------------- 5. authority graph
-    print("5. authority graph")
+    print(f"5. {CHECK_NAMES[5]}")
     graph = section(readme, "Research Authority Graph")
     if graph is None:
         check(False, "README has a Research Authority Graph section")
@@ -213,7 +327,7 @@ def main() -> int:
               f"authority graph top layer ({top_graph}) equals highest layer file ({top_file})")
 
     # ------------------------------------------------------ 6. README cross-links
-    print("6. README work order / authority rules / next stage")
+    print(f"6. {CHECK_NAMES[6]}")
     offsets = reg["cross_reference_offsets"]
     anchor = int(offsets["anchor_layer"])
     work = numbered_items(section(readme, "Work order") or "")
@@ -237,7 +351,7 @@ def main() -> int:
               f"next-stage item {npos} maintains {ident}")
 
     # ------------------------------------------------------------ 7. scripts
-    print("7. recompute scripts")
+    print(f"7. {CHECK_NAMES[7]}")
     scripts = sorted((PHASE2 / "scripts").glob("recompute_*.py"))
     check(bool(scripts), "research-validation carries recompute scripts")
     outputs: dict[str, str] = {}
@@ -252,7 +366,7 @@ def main() -> int:
         outputs[path.name] = norm(proc.stdout)
 
     # ------------------------------------------------------- 8. headline tokens
-    print("8. headline tokens appear in script stdout, canonical and translation")
+    print(f"8. {CHECK_NAMES[8]}")
     registered = {e["script"] for e in layers.values() if e["script"]}
     unregistered = [p.name for p in scripts if p.name not in registered]
     check(not unregistered,
@@ -272,9 +386,39 @@ def main() -> int:
             check(where == "scriptcanonicalzh",
                   f"{ident} headline {token!r} in script+canonical+zh"
                   + (f" (found only in: {where or 'nothing'})" if where != "scriptcanonicalzh" else ""))
+            if where == "scriptcanonicalzh":
+                continue
+            # Two failure modes with different repairs, so do not merge them:
+            # if the script still prints the token, a document drifted away from
+            # its script and the script is the authority; if it does not, the
+            # token no longer exists at all and the registry entry is presuming
+            # a figure nothing produces.
+            doc_rel = f"{ident}-{slug}.md"
+            if "script" not in where:
+                note(ident,
+                     f"headline token {token!r} is no longer printed by scripts/{entry['script']}",
+                     "either the computation changed, or this registry entry presumes a "
+                     "figure nothing produces any more")
+            else:
+                missing = [n for n, src in (("canonical", doc), ("zh", zh)) if token not in src]
+                note(ident,
+                     f"headline token {token!r} is missing from {' and '.join(missing)} ({doc_rel})",
+                     "the script still emits it, so the document drifted from its script")
+                # Point at the sections that still carry it, so the repair is
+                # local to those - that is the whole difference between "this
+                # layer is broken" and a maintainable failure.
+                for name, src in (("canonical", doc), ("zh", zh)):
+                    if token not in src:
+                        continue
+                    path = PHASE2 / (f"{ident}-{slug}.md" if name == "canonical"
+                                     else f"{ident}-{slug}.zh.md")
+                    cited = sections_citing(path, token)
+                    note(ident,
+                         f"the {name} carries it under:",
+                         *([f"§{c}" for c in cited] or ["(not under a heading)"]))
 
     # ------------------------------------------------------ 9. back-references
-    print("9. upstream layers acknowledge the layers built on them")
+    print(f"9. {CHECK_NAMES[9]}")
     # A new layer is one-directional by default: its own §0 says which layer
     # continues to own the underlying facts, and nothing makes that upstream
     # file point back. The reader who reaches the authority first then sees a
@@ -301,7 +445,7 @@ def main() -> int:
                   f"{upstream} acknowledges {ident} (the layer built on it)")
 
     # --------------------------------------------------- 10. borrowed anchors
-    print("10. borrowed anchors still exist where the layer says they do")
+    print(f"10. {CHECK_NAMES[10]}")
     # "No new numeric identities" has been a rule this repository states and a
     # reader has to take on trust. This makes it executable: every anchor a
     # layer reads from outside itself must still be findable in the document it
@@ -319,12 +463,46 @@ def main() -> int:
                            if not m.name.endswith(".zh.md")]
             if not targets:
                 check(False, f"{ident} anchor {anchor['literal']!r} names unknown source {source}")
+                note(ident, f"anchor {anchor['literal']!r} names source {source}, which is "
+                            f"neither a layer on disk nor a mapped frozen chapter - fix the "
+                            f"registry entry before reading anything else into this")
                 continue
             found_in = [t.name for t in targets
                         if t.exists() and anchor["literal"] in read_if_present(t)]
             check(bool(found_in),
                   f"{ident} anchor {anchor['literal']!r} still in {source} ({anchor['role']})"
                   + ("" if found_in else f" - searched {[t.name for t in targets]}"))
+            if found_in:
+                continue
+            slug = layers[ident]["slug"]
+            cited = sections_citing(PHASE2 / f"{ident}-{slug}.md", anchor["literal"])
+            note(ident,
+                 f"anchor {anchor['literal']!r} ({anchor['role']}) is gone from {source}",
+                 f"the change happened upstream, in {source}; this layer publishes a value "
+                 f"derived from it, so {ident}-{slug}.md (+ .zh.md) has to be re-run and "
+                 f"reviewed" + (", in the sections that cite the anchor:" if cited else
+                                 ". The anchor is not cited verbatim in its prose - it "
+                                 "reaches this layer through the script's JSON inputs."),
+                 *[f"§{c}" for c in cited])
+            # The layers that read from this one cannot have been unaffected:
+            # they publish numbers this anchor feeds.
+            for down in downstream_of(ident):
+                note(down,
+                     f"downstream of {ident}",
+                     f"reads a value {ident} republishes from this anchor, without citing "
+                     f"{source} itself - re-check after {ident} is updated")
+
+    # ------------------------------------------------------- 11. README counts
+    print(f"11. {CHECK_NAMES[11]}")
+    # The register's own size, as the README states it. This is the audit-facing
+    # claim - how much is actually covered - and the one a reader uses to decide
+    # whether the register is worth anything, so it is the last number that
+    # should be allowed to drift.
+    wanted_counts = counts_line(layers, scripts)
+    status = section(readme, "Current status") or ""
+    check(wanted_counts in status,
+          "README Current status states the register's size"
+          + ("" if wanted_counts in status else f" - expected verbatim: {wanted_counts}"))
 
     # ----------------------------------------------------------------- summary
     total_layers = len([i for i in on_disk])
@@ -349,6 +527,24 @@ def main() -> int:
         print(f"research-validation consistency check FAIL: {len(failures)} problem(s)")
         for f in failures:
             print(f"  - {f}")
+        if impacts:
+            print()
+            print("Affected layers, and what each has to update:")
+            for ident in sorted(impacts, key=lambda s: (len(s), s)):
+                entry = layers.get(ident, {})
+                slug = entry.get("slug")
+                print(f"  {ident}  {ident}-{slug}.md" if slug else f"  {ident}")
+                if entry.get("script"):
+                    print(f"      re-run: research-validation/scripts/{entry['script']}")
+                for block in impacts[ident]:
+                    print(f"      - {block[0]}")
+                    for extra in block[1:]:
+                        print(f"          {extra}")
+        print()
+        print("Affected layers are listed because a failing anchor is not a "
+              "cosmetic defect: the layer that borrowed it is publishing a "
+              "number its source no longer carries. Never repair this by "
+              "widening the literal - that deletes the check.")
         return 1
     print("research-validation consistency check PASS")
     return 0

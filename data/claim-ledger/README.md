@@ -56,6 +56,12 @@ The research-layer checker covers the retained historical corpus. The publicatio
 
 The Phase II consistency checker covers `research-validation/`. That directory is outside the other two by construction: a Phase II number is sourced either by a value an upstream layer already publishes or by a script recomputing it from a versioned JSON input, and neither is a URL. Its rule is correspondingly stronger — every registered headline token must appear in the layer's script stdout, in the English canonical, and in the Chinese translation, so a documented number cannot survive a script that stopped producing it. It also fails on a layer added without README wiring, a translation that stops tracking its canonical, and an orphan or renamed layer file.
 
+A failing Phase II check additionally prints the layers it affects, not just the check that failed: the layers to re-run, their scripts, the sections of their canonical that cite the broken value, and the layers downstream of them that read the value second-hand. It has its own negative-path suite, which mutates a throwaway copy of the tree rather than the working copy:
+
+```bash
+python scripts/selftest-layer-consistency-gate.py
+```
+
 Candidate extraction:
 
 ```bash
