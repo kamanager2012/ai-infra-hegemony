@@ -185,7 +185,33 @@ The relevant question is whether the capital base is validated by **utilization,
 
 ---
 
-## 6. Traditional end systems remain important but may lose upstream priority
+## 6. Infrastructure demand must close through verified workflow output
+
+A report that stops at GPUs, HBM, CapEx, or data-center capacity is incomplete. Those are the supply side. The ten-year industrial cycle ultimately depends on whether installed compute moves through software, enterprise workflows, and the physical world into verifiable economic output.
+
+The relevant unit is:
+
+> **cost per verified workflow outcome**
+
+**AI inheritance.** Decades of information technology have already created software, databases, cloud systems, APIs, source code, identity/access systems, and traceable workflows. In highly digitized organizations AI can act as an intelligence / automation layer on that installed base:
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume**
+
+**Agent-native software.** Traditional SaaS scales largely around accounts and seats; agent-native software continuously consumes inference, retrieval, tools/APIs, retries, observability, and human review. Cheaper models and better routing can cut resource intensity per attempt, but if lower prices unlock more users, longer agent loops, more tool calls, and previously uneconomic workflows, total compute demand can still expand.
+
+**Physical AI** must clear a capital-payback test: the commercial threshold is not one completed task, but whether **Useful Tasks × Uptime × Deployment Scale** can cover **Energy + Maintenance + Human Supervision + Depreciation + Financing**.
+
+**Labor.** Occupational exposure cannot be converted directly into job-loss forecasts; the chain runs through task suitability, workflow redesign, adoption economics, and responsibility.
+
+Lower unit compute cost therefore does not by itself establish either lower total infrastructure demand or a Jevons-style increase in demand. Both depend on whether cheaper compute unlocks more verified workflows. If the supply, capital, and financing layers expand persistently faster than verified output, cash flow, and utilization, the risk of **S4 — Capital Hard Landing** rises structurally.
+
+The demand-side loop is:
+
+> **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
+
+---
+
+## 7. Traditional end systems remain important but may lose upstream priority
 
 The report does not argue that smartphones, PCs, game consoles, vehicles, industrial equipment, robotics, aerospace, or other long-lifecycle systems become irrelevant.
 
@@ -213,7 +239,7 @@ This is why the report tracks **residual qualified supply**, not only global cap
 
 ---
 
-## 7. China requires two separate closure tests
+## 8. China requires two separate closure tests
 
 The report separates two questions that are often collapsed.
 
@@ -250,7 +276,7 @@ Conversely, import dependence does not mean no production substitution exists.
 
 ---
 
-## 8. The 2026–2036 outlook is conditional
+## 9. The 2026–2036 outlook is conditional
 
 The report uses four parallel states rather than one point forecast.
 
@@ -280,7 +306,7 @@ The scenarios are not sequential and do not carry fixed probabilities.
 
 ---
 
-## 9. What would change the current view
+## 10. What would change the current view
 
 The current S2 interpretation should not be defended against contrary evidence.
 
@@ -300,7 +326,7 @@ The framework is designed so that new evidence can change the conclusion.
 
 ---
 
-## 10. Research discipline
+## 11. Research discipline
 
 The report uses:
 

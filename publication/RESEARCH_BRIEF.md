@@ -201,7 +201,33 @@ AMD 提供了独立 cross-vendor check：其 Q2 2026 Form 10-Q 披露，与部�
 
 ---
 
-## 6. 传统终端仍然重要，但“重要”不等于拥有 upstream priority
+## 6. 基础设施需求最终必须通过可验证工作流闭环
+
+只谈 GPU、HBM、CapEx 或数据中心容量的报告是不完整的。那些属于供给侧。十年产业周期最终取决于已安装算力能否经过软件、企业工作流与物理世界，转化为可验证的经济产出。
+
+更有意义的单位是：
+
+> **每项 verified workflow outcome 的成本**
+
+**AI inheritance。** 数十年的信息技术已经积累了软件、数据库、云系统、API、源代码、身份/访问系统与可追溯工作流。在高数字化组织中，AI 可以作为这些已安装基础之上的 intelligence / automation layer：
+
+> **Digital Installed Base → AI Overlay → Workflow Penetration → Automation Depth → Workload Volume**
+
+**Agent-native software。** 传统 SaaS 主要围绕账号与 seat 扩张；agent-native software 则持续消耗 inference、retrieval、tools/APIs、retries、observability 与 human review。更便宜的模型与更好的 routing 可以降低单次尝试的资源强度，但如果更低价格解锁了更多用户、更长 agent loop、更多 tool call 与原本不经济的工作流，总算力需求仍可能扩张。
+
+**Physical AI** 必须通过资本回收检验：商业门槛不是完成一次任务，而是 **Useful Tasks × Uptime × Deployment Scale** 能否覆盖 **Energy + Maintenance + Human Supervision + Depreciation + Financing**。
+
+**Labor。** 职业暴露不能直接转成失业预测；传导链要经过 task suitability、workflow redesign、adoption economics 与 responsibility。
+
+因此，更低的 unit compute cost 本身既不能证明总基础设施需求下降，也不能证明 Jevons 式需求上升；两者都取决于更便宜的算力是否解锁更多可验证工作流。如果供给、资本与融资层持续快于 verified output、cash flow 与 utilization 扩张，**S4 — Capital Hard Landing** 风险会结构性上升。
+
+需求侧闭环是：
+
+> **Physical Infrastructure → System Delivery → Workflow Economics → Verified Output → Adoption / Cash Flow → Utilization → Capital Reinvestment**
+
+---
+
+## 7. 传统终端仍然重要，但“重要”不等于拥有 upstream priority
 
 本报告并不认为 smartphone、PC、game console、vehicle、industrial equipment、robotics、aerospace 或其他 long-lifecycle system 会变得不重要。
 
@@ -229,7 +255,7 @@ AMD 提供了独立 cross-vendor check：其 Q2 2026 Form 10-Q 披露，与部�
 
 ---
 
-## 7. 中国必须通过两个独立 closure test 判断
+## 8. 中国必须通过两个独立 closure test 判断
 
 本报告明确分开两个问题。
 
@@ -268,7 +294,7 @@ AMD 提供了独立 cross-vendor check：其 Q2 2026 Form 10-Q 披露，与部�
 
 ---
 
-## 8. 2026–2036 必须使用 conditional scenario，而不是单点预测
+## 9. 2026–2036 必须使用 conditional scenario，而不是单点预测
 
 本报告使用四个 parallel states：
 
@@ -298,7 +324,7 @@ Utilization、monetization、clearing price、commitment 或 financing quality �
 
 ---
 
-## 9. 什么事实会改变当前判断
+## 10. 什么事实会改变当前判断
 
 S2 不应该被当作“必须维护的结论”。
 
@@ -320,7 +346,7 @@ S2 不应该被当作“必须维护的结论”。
 
 ---
 
-## 10. Research discipline
+## 11. Research discipline
 
 本报告采用：
 
