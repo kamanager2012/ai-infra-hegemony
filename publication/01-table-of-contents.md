@@ -17,7 +17,7 @@
 1. [第1章：执行摘要](part-I-ch01-executive-summary.md)
 2. [第3章：AI 资源重配与 Non-AI Residual Capacity](part-I-ch03-resource-gravity.md)
 3. [第21章：AI 如何重定价消费电子与其他终端系统](part-III-ch21-consumer-transmission.md)
-4. [第20章：Value Capture Map（§10）](part-III-ch20-value-capture-map.md)
+4. [第20章：AI Infrastructure Stack 的 Value Capture 与 Risk Bearing](part-III-ch20-value-capture-map.md)
 5. [第32章：Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 NVIDIA、Hyperscaler、中国 parallel stack 与情景章节是解释**为什么上游排队规则会变化**的机制背景；整机读者不需要先读完这些章节，才能理解 residual capacity、quantity assurance 与 upgrade tax。
@@ -51,13 +51,13 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 5. [HBM Economics——Manufacturing Intensity、Residual Capacity 与 Memory Scarcity](part-I-ch05-hbm-memory.md)
 6. [Advanced Packaging——Wafer 与 Deliverable System 之间的 Quantity Gate](part-I-ch06-advanced-packaging.md)
 7. [Time-to-Power——从 Rack Density 到 Deployable AI Capacity](part-I-ch07-power-constraint.md)
-8. [Quantitative Framework——Denominator Closure、Stress Test 与 Public-Data Limits](part-I-ch08-quantitative-framework.md)
-9. [全球半导体供应链与制造冗余](part-I-ch09-semiconductor-redundancy.md)
+8. [Quantitative Framework——什么可以量化，什么不能，以及为什么](part-I-ch08-quantitative-framework.md)
+9. [Semiconductor Supply-Chain Resilience——Equipment、Materials 与 Geographic Redundancy](part-I-ch09-semiconductor-redundancy.md)
 
 ## Part II — 需求、替代与第二系统栈
 
 10. [模型单位经济、算法效率与开放模型竞争](part-II-ch10-model-economics.md)
-11. [NVIDIA 从 Accelerator Vendor 向 AI Factory 扩张](part-II-ch11-nvidia-ai-factory.md)
+11. [NVIDIA 的 System-Orchestration Strategy：超越 Accelerator](part-II-ch11-nvidia-ai-factory.md)
 12. [第二类 System Stack——Hyperscaler Substitution 如何真正成立](part-II-ch12-hyperscaler-system-stack.md)
 13. [Anchor Compute Buyers——Long-Duration Demand 如何提前拉动 Infrastructure](part-II-ch13-anchor-compute-buyer.md)
 14. [Agent-Native Software 与 AI Software Unit Economics](part-II-ch14-agent-software.md)
@@ -68,7 +68,7 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 
 ## Part III — 资本周期、利润池与外部传导
 
-19. [AI Infrastructure Capital Formation——Duration Mismatch、Utilization 与 Demand Duration](part-III-ch19-capex-supercycle.md)
+19. [AI 基础设施资本形成——Utilization、Commitments 与 Duration Risk](part-III-ch19-capex-supercycle.md)
 20. [AI Infrastructure Stack 的 Value Capture 与 Risk Bearing](part-III-ch20-value-capture-map.md)
 21. [AI 如何重定价消费电子与其他终端系统](part-III-ch21-consumer-transmission.md)
 22. [折旧墙与 Duration Mismatch](part-III-ch22-depreciation-wall.md)
@@ -82,8 +82,8 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 27. [研究方法与证据架构](part-IV-ch27-research-method.md)
 28. [2026–2036 时间线与阶段性里程碑](part-IV-ch28-timeline-2026-2036.md)
 29. [Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting](part-IV-ch29-monitoring-framework.md)
-30. [Scenario Framework——Discriminating S1 to S4](part-IV-ch30-scenarios.md)
-31. [2036 终局与战略选择权](part-IV-ch31-strategy-endgame.md)
+30. [Scenario Framework——S1–S4 判别](part-IV-ch30-scenarios.md)
+31. [不同 AI 基础设施状态下的战略含义](part-IV-ch31-strategy-endgame.md)
 32. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
 ## 研究附录
