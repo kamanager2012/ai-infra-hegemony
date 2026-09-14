@@ -4,7 +4,7 @@
 
 **Current baseline (evidence cutoff: August 28, 2026): S2 — Baseline Concentration.**
 
-Chapter 1 already provides the report's eight load-bearing findings as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four evaluation tests and explains why the current state remains S2.
+Chapter 1 already provides the report's ten load-bearing judgments as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four evaluation tests and explains why the current state remains S2.
 
 ### Test A — Has system power become irreplaceable multi-layer control?
 

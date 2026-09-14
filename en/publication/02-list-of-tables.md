@@ -4,7 +4,7 @@
 
 ## Part I
 
-- [Table 1.1 — Eight load-bearing judgments and chapter mapping](part-I-ch01-executive-summary.md)
+- [Table 1.1 — Ten load-bearing judgments and chapter mapping](part-I-ch01-executive-summary.md)
 - [Table 1.2 — Scenario reweighting signals](part-I-ch01-executive-summary.md)
 - [Table 1.3 — Decision-use map](part-I-ch01-executive-summary.md)
 - [Table 2.1 — GB200 NVL72 rack-scale system structure](part-I-ch02-nvidia-system-stack.md)
@@ -40,6 +40,7 @@
 - [Table 29.2 — Power project state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — End-system residual-pressure monitoring panel](part-IV-ch29-monitoring-framework.md)
 - [Table 29.4 — Default evidence grade for report updates](part-IV-ch29-monitoring-framework.md)
+- [Table 29.5 — Specification of the headline monitoring variables](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — Core drivers, primary outcomes, and reverse signals for S1–S4](part-IV-ch30-scenarios.md)
 - [Table 31.1 — Core structural variables used in the long-run strategic judgment](part-IV-ch31-strategy-endgame.md)
 - [Table 31.2 — Primary value sources and risks across AI-related asset classes](part-IV-ch31-strategy-endgame.md)

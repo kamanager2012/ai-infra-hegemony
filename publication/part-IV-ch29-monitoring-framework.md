@@ -304,6 +304,23 @@ dominant platform economics 强，但 alternative stacks 继续发展；scarce l
 5. **persistence / confirmation** — 由适合该变量时钟的可比后续证据确认；
 6. **cross-signal confirmation** — 尤其是 S4，单一弱指标不足以改判。
 
+**Table 29.5 — Headline monitoring variables 的规格**
+
+| Headline variable | Dashboard | Source cadence | Physical / economic clock | Comparable baseline | Persistence basis | Cross-signal partner |
+|---|---|---|---|---|---|---|
+| Seller forward supply / capacity commitments | A | quarterly filing | reservation / contract | 同一 filing line item 与 reporting label | 连续 filing 同向移动 | seller cash generation；buyer CapEx guidance |
+| HBM / DRAM manufacturing intensity 与 balance | C | quarterly filing；monthly institutional pricing 与 bit-supply series | fab / memory cycle | same-node、same-bits trade ratio；同一 balance 定义 | institutional 与 first-party 窗口同向 | advanced-packaging lead time；终端 memory contract price |
+| Advanced-packaging tightness / lead time | B | quarterly earnings commentary；event-driven supplier disclosure | fab / packaging capacity | 同一供应商跨期的 tightness 措辞 | 连续季度陈述无反转 | HBM supply；second-stack delivery |
+| Power / LPS delivery conversion | E | event-driven project disclosure；quarterly filing | grid / construction / contract | 同一项目自身的 secured → energized → utilized 序列 | 下一次披露中阶段转换延续 | Time-to-Power；utilization |
+| Second-stack production workload | F | quarterly earnings 与 product disclosure | workload / software migration | 同一 denominator 上的 production-workload share | 连续多期为 production（非 benchmark）证据 | migration cost；system TCO |
+| China closure gates | G | filing、official product 与 institutional disclosure | manufacturing / multi-generation | 以同一 gate 定义逐门判断状态 | 某一 gate 跨多代保持闭合 | equipment / materials continuity |
+| Utilization / monetization 对 capital base | I | quarterly results 与 financing filing | asset / contract / accounting | 同一 deployed-asset denominator 上的 revenue 或 utilization | 多个独立 signal family 跨多期 | market clearing；financing quality |
+| Financing Reflexivity | I | filing 与 financing-structure disclosure | contract / accounting | 每种工具自身的 denominator（guarantee cap、equity commitment、mobilized target） | 连续多期 supplier support 与 utilization 的相对方向 | independent risk capital；clearing prices |
+| Non-AI residual pressure / quantity assurance | J | monthly pricing series；quarterly vendor filing | 终端产品周期 | 同一产品档位与同一 memory / component 口径 | contract price 与 allocation fulfillment 同向 | supplier product mix；configuration change |
+
+**Source：** 本报告 monitoring framework（本章），与各 dashboard 所引章节的 evidence identity 一并阅读。  
+**Note：** 本表为每个变量指定其自身的 clock 与比较基线，**不**设定统一阈值；“Persistence”按上文的变量自身 reporting cadence 判断。
+
 **Mechanism-break override：** breadth requirement 约束的是**系统级 scenario classification**，不是给底层 mechanism 提供“必须等多信号才承认反例”的保护。如果一条高质量 observation 在相同 denominator 与 time identity 下直接击穿某个 mechanism 的必要前提，该 mechanism 必须立即降级、重写或废弃，即使此时尚未形成 cross-signal breadth。breadth 决定的是整个 S1–S4 state 是否改变，不能被用来忽略已经失效的前提。
 
 ### Handling missing data

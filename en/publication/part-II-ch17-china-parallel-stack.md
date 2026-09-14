@@ -319,10 +319,10 @@ It does **not** require every component, tool, or material to be domestic.
 
 A higher standard applies when the question is whether the stack can continue scaling and advancing when critical external inputs are constrained.
 
-That additionally requires:
+On top of the seven Production-Grade Gates, autonomous frontier closure additionally requires two continuity gates:
 
-8. **advanced-manufacturing continuity:** equipment, software, materials, spares, field service, and process upgrades remain available or substitutable;
-9. **infrastructure / capital continuity:** HBM, packaging, LPS/power, and long-duration capital can support multi-generation expansion.
+A1. **advanced-manufacturing continuity:** equipment, software, materials, spares, field service, and process upgrades remain available or substitutable;
+A2. **infrastructure / capital continuity:** HBM, packaging, LPS/power, and long-duration capital can support multi-generation expansion.
 
 Therefore:
 

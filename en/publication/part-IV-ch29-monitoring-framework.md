@@ -318,6 +318,23 @@ Instead, every monitoring variable should specify:
 5. **persistence / confirmation** — supported by comparable follow-up evidence appropriate to that variable;
 6. **cross-signal confirmation** — especially for S4, where one weak metric is insufficient.
 
+**Table 29.5 — Specification of the headline monitoring variables**
+
+| Headline variable | Dashboard | Source cadence | Physical / economic clock | Comparable baseline | Persistence basis | Cross-signal partner |
+|---|---|---|---|---|---|---|
+| Seller forward supply / capacity commitments | A | quarterly filing | reservation / contract | same filing line item and reporting label | consecutive filings moving the same way | seller cash generation; buyer CapEx guidance |
+| HBM / DRAM manufacturing intensity and balance | C | quarterly filings; monthly institutional pricing and bit-supply series | fab / memory cycle | same-node, same-bits trade ratio; same balance definition | same-direction readings across institutional and first-party windows | advanced-packaging lead time; end-system memory contract price |
+| Advanced-packaging tightness / lead time | B | quarterly earnings commentary; event-driven supplier disclosure | fab / packaging capacity | the same supplier's own tightness language across periods | repeated quarterly statements without reversal | HBM supply; second-stack delivery |
+| Power / LPS delivery conversion | E | event-driven project disclosure; quarterly filings | grid / construction / contract | the same project's own secured → energized → utilized sequence | stage transition sustained in the next disclosure | Time-to-Power; utilization |
+| Second-stack production workload | F | quarterly earnings and product disclosure | workload / software migration | production-workload share on the same denominator | consecutive periods of production, not benchmark, evidence | migration cost; system TCO |
+| China closure gates | G | filing, official product, and institutional disclosure | manufacturing / multi-generation | gate-by-gate status against the same gate definition | a gate stays closed across more than one generation | equipment / materials continuity |
+| Utilization / monetization against the capital base | I | quarterly results and financing filings | asset / contract / accounting | revenue or utilization on the same deployed-asset denominator | several independent signal families over repeated periods | market clearing; financing quality |
+| Financing Reflexivity | I | filing and financing-structure disclosure | contract / accounting | each instrument's own denominator (guarantee cap, equity commitment, mobilized target) | direction of supplier support against utilization over consecutive periods | independent risk capital; clearing prices |
+| Non-AI residual pressure / quantity assurance | J | monthly pricing series; quarterly vendor filings | end-market product cycle | same product tier and same memory / component denomination | contract price and allocation fulfillment moving together | supplier product mix; configuration change |
+
+**Source:** Report monitoring framework (this chapter), read with the evidence identities owned by the chapters cited in each dashboard.  
+**Note:** The table assigns each variable its own clock and comparison basis; it does **not** set a universal threshold. “Persistence” is judged against the variable's own reporting cadence, as stated above.
+
 **Mechanism-break override:** breadth requirements govern **system-level scenario classification**, not whether an underlying mechanism is allowed to survive direct falsification. If a high-quality observation, on the same denominator and time identity, directly breaks a necessary premise of a mechanism, that mechanism must be downgraded, rewritten, or retired immediately even when cross-signal breadth is not yet present. Breadth determines whether the whole S1–S4 state changes; it cannot be used to ignore a broken premise.
 
 ### Handling missing data

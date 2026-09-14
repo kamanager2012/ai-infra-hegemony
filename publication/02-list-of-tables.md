@@ -4,7 +4,7 @@
 
 ## Part I
 
-- [Table 1.1 — 八个承重判断与章节映射](part-I-ch01-executive-summary.md)
+- [Table 1.1 — 十个承重判断与章节映射](part-I-ch01-executive-summary.md)
 - [Table 1.2 — Scenario Reweighting Signals](part-I-ch01-executive-summary.md)
 - [Table 1.3 — Decision-Use Map](part-I-ch01-executive-summary.md)
 - [Table 2.1 — GB200 NVL72 的 rack-scale 系统结构](part-I-ch02-nvidia-system-stack.md)
@@ -40,6 +40,7 @@
 - [Table 29.2 — Power / LPS delivery state machine](part-IV-ch29-monitoring-framework.md)
 - [Table 29.3 — End-system residual-pressure monitoring panel](part-IV-ch29-monitoring-framework.md)
 - [Table 29.4 — 更新时的默认 evidence grade](part-IV-ch29-monitoring-framework.md)
+- [Table 29.5 — Headline monitoring variables 的规格](part-IV-ch29-monitoring-framework.md)
 - [Table 30.1 — S1–S4 的核心驱动、主要结果与反向信号](part-IV-ch30-scenarios.md)
 - [Table 31.1 — 长期战略判断使用的核心结构变量与来源章节](part-IV-ch31-strategy-endgame.md)
 - [Table 31.2 — AI 相关资产的主要价值来源与风险](part-IV-ch31-strategy-endgame.md)

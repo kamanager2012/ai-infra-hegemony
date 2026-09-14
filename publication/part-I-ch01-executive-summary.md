@@ -12,9 +12,9 @@
 
 长期竞争的核心也不再只是 chip share，而是谁能够持续拼出完整系统、锁定 constrained layer、完成融资，并把 installed capacity 转化为真实 production workload。
 
-### 八个承重判断
+### 十个承重判断
 
-**Table 1.1 — 八个承重判断与章节映射**
+**Table 1.1 — 十个承重判断与章节映射**
 
 | 判断 | 为什么重要 | 主要展开章节 |
 |---|---|---|
@@ -25,7 +25,9 @@
 | **5. Substitution 可以削弱平台 economics，但不会自动解除上游 scarcity。** | Hyperscaler custom stack 可以分流 workload，同时仍消耗 advanced logic、HBM、packaging、networking 与 power。[^5] | Ch12–Ch16 |
 | **6. 中国必须通过两级 Closure Test 判断。** | Production-grade parallel stack 与 autonomous frontier closure 是两个不同命题。公开证据支持真实 frontier parallel stack 与 partial production deployment，但尚不足以确认七个 Production-Grade Gates 已全部闭合；Autonomous Frontier Closure 是更高、目前同样未满足的门槛。[^6] | Ch17 |
 | **7. Capital risk 本质上是 utilization、monetization 与 financing quality 问题。** | 高 CapEx 既不是长期需求成立的证明，也不是泡沫成立的证明。真正需要观察的是 utilization、market clearing、customer cash generation 与 financing quality 能否支撑资产基数。NVIDIA 2026 financing-platform 公告目标是通过 announced MOUs 随时间动员 >US$500B third-party capital；PORTS-Pike 又增加了围绕约 4.25 GW IT-load leases 的 **US$105B maximum conditional guarantee exposure**；AMD 另行披露，与部分 commercial-partner data-center leases 相关 guarantees 的 **US$4.1B maximum gross exposure**。mobilization target 不是 funded / deployed capital；两类 guarantee exposure 都不是 funded CapEx、当前 cash outflow 或 independently financed end demand。[^7][^8][^9] | Ch19、Ch22–Ch24 |
-| **8. 2026–2036 路径是条件化的。** | supply elasticity、substitution、algorithmic efficiency、workload growth、power、financing quality 与 system closure 都可能推动产业从 S2 转向 S1、S3 或 S4。 | Ch28–Ch32 |
+| **8. 模型公司已经成为 Anchor Compute Buyer。** | 模型公司的长周期承诺可以通过 revenue visibility → financing certainty → earlier buildout and resource reservation 提前拉动基础设施，同时提高客户集中度与 duration mismatch 风险。 | Ch13、Ch23 |
+| **9. 基础设施最终必须通过可验证工作流产出来闭环。** | GPU 出货、CapEx 或 token volume 本身都不能证明资产基数成立。长期检验是：每一项 verified workflow outcome 需要多少 compute、energy、human review 与 capital，以及由此产生的 business value 能否持续覆盖这些成本。 | Ch14、Ch24、Ch32 |
+| **10. 2026–2036 路径是条件化的。** | supply elasticity、substitution、algorithmic efficiency、workload growth、power、financing quality 与 system closure 都可能推动产业从 S2 转向 S1、S3 或 S4。 | Ch28–Ch32 |
 
 **Source：** 本报告 synthesis；各行 factual anchor 已在表内引用，并在对应章节展开。  
 **Note：** 本表是综合映射，不是独立 evidence source；在执行摘要中重复不会提高任何底层证据的 evidence grade。

@@ -4,7 +4,7 @@
 
 **当前基准（evidence cutoff：2026-08-28）：S2 — Baseline Concentration。**
 
-第1章已经用八个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个 evaluation tests，并说明为什么当前仍停留在 S2。
+第1章已经用十个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个 evaluation tests，并说明为什么当前仍停留在 S2。
 
 ### Test A — System Power 是否已经转化为不可替代的多层控制？
 

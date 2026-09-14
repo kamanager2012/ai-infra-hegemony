@@ -12,9 +12,9 @@ The analysis therefore follows allocation through the full system stack:
 
 The long-run issue is therefore not chip share alone, but who can repeatedly assemble the complete stack, finance it, secure the constrained layers, and convert installed capacity into productive workloads.
 
-### Eight load-bearing judgments
+### Ten load-bearing judgments
 
-**Table 1.1 — Eight load-bearing judgments and chapter mapping**
+**Table 1.1 — Ten load-bearing judgments and chapter mapping**
 
 | Judgment | Why it matters | Developed in |
 |---|---|---|
@@ -25,7 +25,9 @@ The long-run issue is therefore not chip share alone, but who can repeatedly ass
 | **5. Substitution can weaken platform economics without automatically relieving upstream scarcity.** | Hyperscaler custom stacks can divert workloads from external platforms while still consuming advanced logic, HBM, packaging, networking, and power.[^5] | Ch12–Ch16 |
 | **6. China requires two separate closure tests.** | A production-grade parallel stack is not the same as autonomous frontier closure across generations under constrained external inputs. Public evidence supports a real frontier parallel stack with partial production deployment, but does not yet confirm closure across all seven Production-Grade Gates; Autonomous Frontier Closure remains a higher and unproven threshold.[^6] | Ch17 |
 | **7. Capital risk is a utilization, monetization, and financing-quality problem.** | High CapEx is neither proof of durable demand nor proof of a bubble. The relevant question is whether utilization, market clearing, customer cash generation, and financing quality can validate the asset base. NVIDIA's 2026 financing-platform announcement targets >US$500B of third-party capital mobilization under announced MOUs; PORTS-Pike adds a **US$105B maximum conditional guarantee exposure** around leases covering approximately 4.25 GW of IT load; AMD independently reports **US$4.1B maximum gross exposure** from guarantees tied to certain commercial-partner data-center leases. The mobilization target is not funded/deployed capital, and neither guarantee exposure is funded CapEx, current cash outflow, or independently financed end demand.[^7][^8][^9] | Ch19, Ch22–Ch24 |
-| **8. The 2026–2036 path is conditional.** | Supply elasticity, substitution, algorithmic efficiency, workload growth, power, financing quality, and system closure can move the industry toward S1, S3, or S4 rather than leaving it permanently in S2. | Ch28–Ch32 |
+| **8. Model companies have become Anchor Compute Buyers.** | Long-duration model-company commitments can pull infrastructure forward through revenue visibility → financing certainty → earlier buildout and earlier resource reservation, while also raising customer-concentration and duration-mismatch risk. | Ch13, Ch23 |
+| **9. Infrastructure must close through verified workflow output.** | GPU shipments, CapEx, or token volume cannot by themselves validate the asset base. The long-run test is how much compute, energy, human review, and capital each verified workflow outcome requires, and whether the resulting business value can sustainably cover it. | Ch14, Ch24, Ch32 |
+| **10. The 2026–2036 path is conditional.** | Supply elasticity, substitution, algorithmic efficiency, workload growth, power, financing quality, and system closure can move the industry toward S1, S3, or S4 rather than leaving it permanently in S2. | Ch28–Ch32 |
 
 **Source:** Report synthesis; row-level factual anchors are cited inline and developed in the mapped chapters.  
 **Note:** This table is a synthesis map, not an independent evidence source; repetition here does not upgrade the evidence grade of any underlying claim.

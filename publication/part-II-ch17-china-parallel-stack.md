@@ -296,8 +296,10 @@ DeepSeek-V3 Technical Report 说明，算法与架构设计可以显著降低单
 
 ### 11.2 Autonomous Frontier Closure 还需要两个额外 Gate
 
-8. **advanced manufacturing continuity**：advanced logic、关键 equipment、software、materials、spares、field service 与 process upgrade 能持续获得或替代；
-9. **infrastructure / capital continuity**：HBM、packaging、LPS/power 与长期资本能够支持多代规模扩张，而不是只完成一次性 cluster deployment。
+在七个 Production-Grade Gate 之上，autonomous frontier closure 还需要两个 continuity gate：
+
+A1. **advanced manufacturing continuity**：advanced logic、关键 equipment、software、materials、spares、field service 与 process upgrade 能持续获得或替代；
+A2. **infrastructure / capital continuity**：HBM、packaging、LPS/power 与长期资本能够支持多代规模扩张，而不是只完成一次性 cluster deployment。
 
 因此：
 
