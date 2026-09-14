@@ -125,9 +125,16 @@ IDC 2026-08-26 的最新 smartphone forecast 预计：[^30]
 
 更准确的三层结构是：
 
-- **Premium：** 通过更高 ASP、融资方案、品牌溢价和更强 supply leverage 吸收成本，继续获得先进规格，但 volume 未必同步增长；
-- **Mid-range：** 最难同时守住 price band、memory/storage configuration 与年度性能叙事，因此更可能延长 platform life、减慢规格升级并拉长 replacement cycle；
-- **Entry：** 当 BOM inflation 超过价格带可承受范围时，结果可能不是同比例涨价，而是 SKU 减少、转向更低成本 platform、二手/翻新替代，甚至退出原有价格带。
+**Table 21.1 — Memory / 资源压力下的三层产品时钟**
+
+| 档位 | 成本吸收方式 | 典型反应 | 边界 |
+|---|---|---|---|
+| Premium | 通过更高 ASP、融资方案、品牌溢价和更强 supply leverage 吸收成本 | 继续获得技术进步，但 volume 未必同步增长 | 不能推出 premium 需求对 BOM 压力免疫 |
+| Mid-range | 最难同时守住 price band、memory/storage configuration 与年度性能叙事 | 延长 platform life、减慢规格升级、拉长 replacement cycle | 不是所有型号的统一规格冻结 |
+| Entry | BOM inflation 突破价格带上限 | SKU 减少、转向更低成本 platform、二手/翻新替代，或退出原有价格带 | 退出某个价格带不等于退出市场 |
+
+**Source：** 本报告 product-clock framework，用于组织本节引用的 IDC 与 Gartner forecast。[^30][^32]  
+**Note：** 这是用于组织既有 forecast 的分析框架，不是有来源的分档出货序列。
 
 Gartner 2026-02 的 forecast 也把这种压力写到了 replacement cycle：其预计到 2026 年底，PC lifetime 对 business buyer 延长约 **15%**、consumer 延长约 **20%**，并判断 sub-US$500 entry-level PC segment 到 2028 年可能失去经济可行性。[^32] 这属于 **B 级 institutional forecast**，不是已经发生的终局事实，但可以作为产品分层风险的外部验证。
 
@@ -211,11 +218,18 @@ IDC 2026-06 的 PC outlook 进一步预计，2026 global PC shipments 同比 **-
 
 当 memory、advanced logic 与相关制造资源的边际价格和 allocation priority 改变时，这些条件不再能够同时满足。厂商实际可采取的调整主要只有：
 
-1. **涨价：** 保住 margin，但接受 volume 与低端份额下降；
-2. **减配或冻结规格：** 守住 price band，但削弱年度升级理由；
-3. **缩 SKU、拉长生命周期：** 少开新模具、延长 platform amortization；
-4. **转移产品叙事：** 从 compute / memory 参数转向 camera、display、battery、form factor、software 与 services；
-5. **退出部分价格带、地区或产品线：** 当低毛利 SKU 已无法覆盖 BOM 与渠道成本时，直接收缩 portfolio。
+**Table 21.2 — Residual-Capacity Compression 下的厂商 Operating-Model 反应**
+
+| 反应 | Margin / volume 效果 | 主要风险 |
+|---|---|---|
+| 涨价 | 保住 margin，但接受 volume 与低端份额下降 | 超出计划的 demand destruction |
+| 减配或冻结规格 | 守住 price band，但削弱年度升级理由 | 差异化丧失 |
+| 缩 SKU、拉长生命周期 | 少开新模具、延长 platform amortization | franchise refresh 变慢 |
+| 转移产品叙事 | 转向 camera、display、battery、form factor、software 与 services | compute 主导的定位减弱 |
+| 退出部分价格带、地区或产品线 | 在低毛利 SKU 无法覆盖 BOM 与渠道成本处收缩 portfolio | 份额流向更低成本 platform |
+
+**Source：** 本报告 operating-model heuristic，与 Sony 一手 memory procurement 陈述及本节引用的 IDC / Gartner forecast 一并阅读。[^27][^30][^31][^32]  
+**Note：** 五种反应可以并存；它们不是有序阶段，也互不排斥。
 
 Sony 已经提供了一条很强的一手案例：FY26 PS5 hardware planning 明确把能够以合理价格采购到的 memory volume，与 unit sales、promotion plans 和 hardware profitability 连在一起。[^27] IDC 与 Gartner 对 smartphone / PC 的 2026 forecast 则显示，厂商正在面对 “higher ASP + lower units + premiumization + longer replacement cycle” 的组合。[^30][^31][^32]
 

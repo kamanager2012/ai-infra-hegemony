@@ -28,6 +28,8 @@
 ## Part III
 
 - [Table 19.1 — 四大云厂 2026 年公开资本投入口径](part-III-ch19-capex-supercycle.md)
+- [Table 21.1 — Memory / 资源压力下的三层产品时钟](part-III-ch21-consumer-transmission.md)
+- [Table 21.2 — Residual-Capacity Compression 下的厂商 Operating-Model 反应](part-III-ch21-consumer-transmission.md)
 - [Table 22.1 — 主要 Cloud 公司 server / network equipment useful-life disclosure](part-III-ch22-depreciation-wall.md)
 - [Table 23.1 — AI infrastructure 资产类别与主要融资风险](part-III-ch23-capital-financing.md)
 - [Table 24.1 — Financing Reflexivity Evidence Matrix](part-III-ch24-capital-clearing.md)

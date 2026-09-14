@@ -93,9 +93,16 @@ The key implication is that **unit contraction and revenue resilience can coexis
 
 The more defensible three-layer structure is:
 
-- **Premium:** absorbs cost through higher ASP, financing, brand premium, and stronger supply leverage; technical progress continues, but volume need not expand.
-- **Mid-range:** has the hardest time preserving price band, memory/storage configuration, and the annual performance narrative at the same time; platform life extends and replacement cycles lengthen.
-- **Entry:** when BOM inflation breaks the price ceiling, the outcome may be fewer SKUs, lower-cost platforms, refurbished/used substitution, or exit from the price band rather than a proportional price increase.
+**Table 21.1 — Three product clocks under memory / resource pressure**
+
+| Tier | Cost absorption | Characteristic response | Boundary |
+|---|---|---|---|
+| Premium | absorbs cost through higher ASP, financing, brand premium, and stronger supply leverage | technical progress continues, but volume need not expand | not evidence that premium demand is immune to BOM pressure |
+| Mid-range | hardest to preserve price band, memory/storage configuration, and the annual performance narrative at the same time | platform life extends and replacement cycles lengthen | not a uniform specification freeze across every model |
+| Entry | BOM inflation breaks the price ceiling | fewer SKUs, lower-cost platforms, refurbished/used substitution, or exit from the price band | exit from a price band is not the same as exit from the market |
+
+**Source:** Report-side product-clock framework, organizing the IDC and Gartner forecasts cited in this section.[^30][^32]  
+**Note:** This is an analytical framework for the cited forecasts, not a sourced per-tier shipment series.
 
 Gartner's February 2026 outlook points in the same direction: it expects PC lifetimes by year-end 2026 to extend by roughly **15% for business buyers** and **20% for consumers**, and forecasts that the **sub-US$500 entry-level PC segment will disappear by 2028**.[^32] This remains a **B-grade institutional forecast**, not an observed terminal state.
 
@@ -160,11 +167,18 @@ The following is a **report-side operating-model heuristic**, not a sourced hist
 
 When memory, advanced logic, and adjacent manufacturing resources are repriced or reprioritized, those conditions cannot all be preserved. Vendor responses narrow to five broad choices:
 
-1. **Raise price:** defend margin, accept lower volume and weaker low-end share.
-2. **Reduce or freeze specification:** preserve a price band, weaken the annual upgrade case.
-3. **Cut SKUs and extend lifecycle:** open fewer new designs and amortize platforms longer.
-4. **Shift the product narrative:** move from compute/memory toward camera, display, battery, form factor, software, and services.
-5. **Exit selected price bands, regions, or product lines:** shrink the portfolio when low-margin SKUs no longer cover BOM and channel economics.
+**Table 21.2 — Vendor operating-model responses to residual-capacity compression**
+
+| Response | Margin / volume effect | Main risk |
+|---|---|---|
+| Raise price | defends margin; accepts lower volume and weaker low-end share | demand destruction beyond plan |
+| Reduce or freeze specification | preserves a price band; weakens the annual upgrade case | loss of differentiation |
+| Cut SKUs and extend lifecycle | opens fewer new designs; amortizes platforms longer | slower franchise refresh |
+| Shift the product narrative | moves emphasis to camera, display, battery, form factor, software, and services | weaker compute-led positioning |
+| Exit selected price bands, regions, or product lines | shrinks the portfolio where low-margin SKUs no longer cover BOM and channel economics | share loss to lower-cost platforms |
+
+**Source:** Report-side operating-model heuristic, read with Sony's first-party memory-procurement statement and the IDC / Gartner forecasts cited in this section.[^27][^30][^31][^32]  
+**Note:** The five responses coexist; they are not an ordered sequence and are not mutually exclusive.
 
 Sony already provides a strong first-party example: its FY26 PS5 hardware planning explicitly links memory procurement at reasonable prices to unit sales, promotional plans, and hardware profitability.[^27] IDC and Gartner forecasts for smartphones and PCs show the same broader pattern of **higher ASP + lower units + premiumization + longer replacement cycles**.[^30][^31][^32]
 
