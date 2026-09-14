@@ -1,0 +1,61 @@
+{
+  "version": "2026-09-14",
+  "notes": "Registry for scripts/check-research-layer-consistency.py. Phase II's sourcing convention is not the 96-file corpus's convention: a Phase II number is sourced by (a) a value an upstream layer already publishes, or (b) a script recomputing it from a versioned JSON input. Neither is a URL, so the URL-based source-coverage gate does not apply here. This registry states the stronger rule that does: every registered headline token must appear in the layer's script stdout AND in the English canonical AND in the Chinese translation — three sources that cannot drift apart silently. The token list is self-policing: if a script stops printing a token, the check fails and the registry entry must be updated, so a stale entry cannot survive.",
+  "scope": "The registry is deliberately not exhaustive. It carries the headline numbers a layer stakes its conclusion on, not every figure the layer prints, so a PASS is a reproducibility claim about the headline set and not a claim that all of research-validation/ is source-covered. The residual surface is real and is not quantified here: the 96-file research numeric gate is structurally scoped to vol-*/part2-* and cannot see this directory, and running its heuristics over these files produces mostly false positives because a Phase II number's provenance is an upstream layer or a versioned input rather than a link. Quantifying that residual without a reproducible probe would put an unreproducible number into the repository, which is the failure this directory exists to avoid.",
+  "convention_epoch": "14",
+  "epoch_note": "Layers 00-13 predate the Phase II documentation convention and are checked only for the boundary-free invariants (translation pairing, README file-index membership, authority-graph membership). From 14 onward a layer additionally carries a status header, an ownership contract (§0), a Sources section, a .zh.md translation, a README authority rule listing, a README work-order entry, a README next-stage item, and - once it publishes derived numbers - a recompute script with a registered headline set.",
+  "readme": "README.md",
+  "path_note": "Every path in this registry is relative to research-validation/ unless it starts with a layer id.",
+  "cross_reference_offsets": {
+    "anchor_layer": "14",
+    "work_order": 8,
+    "authority_rule": 6,
+    "next_stage_item": 10,
+    "note": "Anchored at 14 and stepped by 1 per layer. The checker asserts that each layer's entry at these positions mentions the layer, so inserting or renumbering without updating the README fails."
+  },
+  "layers": {
+    "14": {
+      "slug": "demand-side-reflexivity",
+      "script": null,
+      "data": [],
+      "headline_tokens": [],
+      "token_note": "State-variable / clock layer: it names what to watch and deliberately publishes no derived numbers, so it registers no headline set by design."
+    },
+    "15": {
+      "slug": "capital-to-cash-bridge",
+      "script": "recompute_capital_to_cash.py",
+      "data": ["capital-to-cash-inputs.json"],
+      "headline_tokens": ["US$14.2", "US$21.3", "US$429.3", "US$858.7", "1.87"]
+    },
+    "16": {
+      "slug": "vswo-cost-break-even",
+      "script": "recompute_vswo_breakeven.py",
+      "data": ["vswo-breakeven-inputs.json"],
+      "headline_tokens": ["0.650", "0.850", "1.050", "0.240", "0.340"]
+    },
+    "17": {
+      "slug": "energization-schedule-surface",
+      "script": "recompute_energization.py",
+      "data": ["energization-inputs.json"],
+      "headline_tokens": ["10.5", "31.5", "72.0", "0.315", "13.0"]
+    },
+    "18": {
+      "slug": "ramp-period-funding-gap",
+      "script": "recompute_ramp_gap.py",
+      "data": ["ramp-gap-inputs.json"],
+      "headline_tokens": ["17.58", "13.75", "34.9", "21.9", "44%", "0.336"]
+    },
+    "19": {
+      "slug": "chain-concentration-amplification",
+      "script": "recompute_chain_amplification.py",
+      "data": ["chain-amplification-inputs.json"],
+      "headline_tokens": ["23.0%", "5.000", "5.4%", "44.5%", "1.64", "0.85"]
+    },
+    "20": {
+      "slug": "demand-side-composition",
+      "script": "recompute_demand_composition.py",
+      "data": ["demand-composition-inputs.json"],
+      "headline_tokens": ["11.1%", "32.7%", "6.12%", "3.83", "47%", "2.9%"]
+    }
+  }
+}
