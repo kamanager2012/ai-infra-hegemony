@@ -2,7 +2,7 @@
   "version": "2026-09-14",
   "notes": "Registry for scripts/check-research-layer-consistency.py. Phase II's sourcing convention is not the 96-file corpus's convention: a Phase II number is sourced by (a) a value an upstream layer already publishes, or (b) a script recomputing it from a versioned JSON input. Neither is a URL, so the URL-based source-coverage gate does not apply here. This registry states the stronger rule that does: every registered headline token must appear in the layer's script stdout AND in the English canonical AND in the Chinese translation — three sources that cannot drift apart silently. The token list is self-policing: if a script stops printing a token, the check fails and the registry entry must be updated, so a stale entry cannot survive.",
   "scope": "The registry is deliberately not exhaustive. It carries the headline numbers a layer stakes its conclusion on, not every figure the layer prints, so a PASS is a reproducibility claim about the headline set and not a claim that all of research-validation/ is source-covered. The residual surface is real and is not quantified here: the 96-file research numeric gate is structurally scoped to vol-*/part2-* and cannot see this directory, and running its heuristics over these files produces mostly false positives because a Phase II number's provenance is an upstream layer or a versioned input rather than a link. Quantifying that residual without a reproducible probe would put an unreproducible number into the repository, which is the failure this directory exists to avoid.",
-  "acknowledgement_note": "`upstream_must_acknowledge` is an obligation, not an inventory: it names the upstream layers that must point back at this one, and it is deliberately not the full set of layers this one reads. Only dependencies where the upstream file states or implies that the bridge does not exist are listed, because silence there misleads a reader who reaches the authority first. A layer whose upstream already points at it declares none - `18` reads `15` and `17`, and both already acknowledge it - and `17` declares none because its anchor is the frozen Ch07 text, which this layer system cannot write back into.",
+  "acknowledgement_note": "`upstream_must_acknowledge` is an obligation, not an inventory: it names the upstream layers that must point back at this one, and it is deliberately not the full set of layers this one reads. Only dependencies where the upstream file states or implies that the bridge does not exist are listed, because silence there misleads a reader who reaches the authority first. A layer whose upstream already points at it declares none - `18` reads `15` and `17`, and both already acknowledge it - and `17` declares none because its anchor is the frozen Ch07 text, which this layer system cannot write back into. `21` declares none because its upstream is the frozen text itself, which the layer system cannot write into - the exact asymmetry the layer records.",
   "convention_epoch": "14",
   "epoch_note": "Layers 00-13 predate the Phase II documentation convention and are checked only for the boundary-free invariants (translation pairing, README file-index membership, authority-graph membership). From 14 onward a layer additionally carries a status header, an ownership contract (§0), a Sources section, a .zh.md translation, a README authority rule listing, a README work-order entry, a README next-stage item, and - once it publishes derived numbers - a recompute script with a registered headline set.",
   "readme": "README.md",
@@ -123,6 +123,22 @@
         "47%",
         "2.9%"
       ]
+    },
+    "21": {
+      "slug": "frozen-text-gate-status",
+      "script": "recompute_frozen_gate_status.py",
+      "data": [
+        "frozen-gate-inputs.json"
+      ],
+      "upstream_must_acknowledge": [],
+      "headline_tokens": [
+        "CH23-1B",
+        "§11B.5",
+        "§11B.5C",
+        "§2A"
+      ],
+      "acknowledgement_note": "Declares no upstream acknowledgement: its upstream is the frozen 32-chapter text, which this layer system reads and cannot write to. That asymmetry is the reason the layer exists.",
+      "token_note": "This layer's headline set is citations rather than numbers, and deliberately so: its output is a classification, and classification labels are language-specific while the sections a variable is carried by are not. The three-way check therefore asserts that the script, the canonical and the translation agree on WHICH section carries WHICH variable - which is the table's load-bearing content and the thing that would rot if a panel were renumbered."
     }
   }
 }

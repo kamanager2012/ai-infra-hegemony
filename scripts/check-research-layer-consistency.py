@@ -310,11 +310,13 @@ def main() -> int:
           f"recompute scripts={len(scripts)}, headline tokens verified={tokens}")
     print(f"Convention epoch: layers >= {epoch} carry the full Phase II convention; "
           f"layers below it are checked for boundary-free invariants only.")
-    print("Scope: PASS means every REGISTERED headline number is reproducible from "
+    print("Scope: PASS means every REGISTERED headline token is reproducible from "
           "its layer's script and agrees across canonical and translation. It is "
-          "not a claim that every number in research-validation/ is covered - the "
+          "not a claim that every figure in research-validation/ is covered - the "
           "registry covers the headline set a layer stakes its conclusions on, and "
-          "a layer with no registry entry would be caught by check 2, not by this.")
+          "a layer with no registry entry would be caught by check 2, not by this. "
+          "A token is usually a number but need not be: layer 21's set is section "
+          "citations, because its output is a classification rather than a figure.")
     if failures:
         print(f"research-validation consistency check FAIL: {len(failures)} problem(s)")
         for f in failures:
