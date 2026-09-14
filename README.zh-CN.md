@@ -65,9 +65,9 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 
 ## 核心判断
 
-以下为首页要点，不是另一组独立论断。报告完整的**十个承重判断**及章节映射见[第 1 章执行摘要](publication/part-I-ch01-executive-summary.md)。
+以下为首页要点，不是另一组独立论断。它们按顺序对应报告规范的**十个承重判断**；完整表格与章节映射见[第 1 章执行摘要](publication/part-I-ch01-executive-summary.md)。
 
-### 1. 竞争单位已经从 Chip 上移到 System Stack
+### 1. 竞争单位已经上移到 system stack
 
 NVIDIA 当前优势不能只用 GPU benchmark 或 market share 解释。
 
@@ -81,7 +81,7 @@ NVIDIA 当前优势不能只用 GPU benchmark 或 market share 解释。
 
 > **谁能够以更低迁移成本、更高利用率和更稳定供应，把完整 system 持续交付给真实 workload。**
 
-### 2. AI 正在改变半导体“下一美元资本投向哪里”
+### 2. AI/HPC 正在改变新增资本的边际去向
 
 TSMC 2026 Q2 的 HPC platform revenue 占比达到 **66%**，advanced technologies（7 nm 及以下）占 wafer revenue **77%**。这些是 revenue mix，不是 AI wafer share，但说明 HPC 已成为先进制造资本形成的重要边际驱动力之一。
 
@@ -89,7 +89,7 @@ TSMC 2026 Q2 的 HPC platform revenue 占比达到 **66%**，advanced technologi
 
 > AI Infrastructure Economy 与 Traditional Device Economy 共享部分上游资源，却拥有不同的价格承受能力、订单期限与资本形成能力。
 
-### 3. 总供给增长不等于传统行业获得更多供给
+### 3. Gross supply 增长并不保证其他整机的 effective supply 改善
 
 本报告使用 **Non-AI Residual Capacity**：
 
@@ -102,52 +102,28 @@ NonAI_Residual
 
 因此，全球 wafer、DRAM 或 packaging capacity 可以增长，同时 smartphone、PC、automotive 等终端仍然面对更高价格、更低 allocation 或更慢规格升级。
 
-### 4. HBM 的资源占用不能只看 Bit Share
+### 4. Scarcity 必须按 physical layer 分开测量
 
-Micron 一手披露，在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**。
+HBM、advanced packaging、networking、land/power/shell 与 energized power 是不同的物理池，分母各不相同，因此单一“AI capacity”总量会误导判断。
 
-这是一项 wafer-supply trade ratio，不是售价倍数，也不是所有 HBM 世代永远固定的制造常数。
-
-TrendForce 对 HBM + RDIMM 占 2026 DRAM bit supply 约 **51%** 的判断则属于 **2026E institutional forecast**，不能写成 full-year actual。
-
-### 5. Advanced Packaging 与 Power 都已经成为独立约束
-
-TSMC 已一手确认 advanced-packaging capacity tightness 会限制 customer growth。
-
-同时，高密度 AI rack 让竞争继续上移到：
-
-- powered land；
-- grid interconnection；
-- substation；
-- cooling；
-- firm power；
-- permitting。
-
-2026-08-17 的 PORTS-Pike 项目进一步显示，system platform 正开始直接协调 **land + power + shell（LPS）**：NVIDIA 披露通过 credit support 锁定初始 **4.25 IT-GW** 设计容量，OpenAI 为客户，项目计划从 2028 年开始分阶段上线。
+- **HBM 的资源占用不能只看 Bit Share。** Micron 一手披露，在 **same technology node / same number of bits** 条件下，HBM3E 约需要 DDR5 **3× wafer supply**——这是 wafer-supply trade ratio，不是售价倍数，也不是所有 HBM 世代永远固定的制造常数。TrendForce 对 HBM + RDIMM 占 2026 DRAM bit supply 约 **51%** 的判断则属于 **2026E institutional forecast**，不能写成 full-year actual。
+- **Advanced Packaging 与 Power 都是独立约束。** TSMC 已一手确认 advanced-packaging tightness 会限制 customer growth。高密度 AI system 还把稀缺进一步推向 powered land、grid interconnection、substation、cooling、firm power 与 permitting。2026-08-17 的 PORTS-Pike 项目进一步显示 system platform 开始直接协调 **land + power + shell（LPS）**：NVIDIA 披露通过 credit support 锁定初始 **4.25 IT-GW** 设计容量，OpenAI 为客户，项目计划从 2028 年开始分阶段上线。
 
 这里必须严格区分：
 
 > **secured / contracted capacity ≠ energized capacity ≠ utilized AI load**
 
-### 6. 模型公司正在成为 Anchor Compute Buyer
+以及：
 
-OpenAI Stargate、Anthropic/AWS 等长期 compute commitments 表明，头部 model company 已经不只是租用现成 cloud capacity。
+> **IT-GW ≠ generation GW ≠ PPA capacity**
 
-长期模型需求可以形成：
+### 5. Substitution 可以削弱平台 economics，但不会自动解除上游 scarcity
 
-> **revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
+Hyperscaler custom stack 是一条真实的第二条路径，但它仍然消耗 advanced logic、HBM、advanced packaging、networking 与 power。
 
-但同一机制也会提高 customer concentration 与 duration mismatch risk。
+因此，替代改变的是**平台价值由谁获取**，而不必然放松受约束的物理层。一颗更便宜的 die、一个更强的孤立 benchmark，或一颗替代 accelerator，本身都不能证明迁移成本更低、production workload 已被替代，或稀缺层已经缓解。
 
-### 7. 资本竞争正在从 Corporate CapEx 扩展到 Infrastructure Finance
-
-NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立 AI compute infrastructure financing platforms，目标是**随时间动员超过 US$500B third-party capital**。
-
-这是一项 mobilization target，不是已经 funded / committed / deployed 的资本。
-
-它说明 compute 正被尝试组织成更接近长期 infrastructure asset 的融资对象。
-
-### 8. 中国判断必须分成两级：Production-Grade Parallel Stack 与 Autonomous Frontier Closure
+### 6. 中国必须通过两级 Closure Test 判断
 
 中国已经跨过“没有替代系统”的阶段，但 frontier 层必须区分“存在真实平行栈与部分 production deployment”和“七个 Production-Grade Gate 已经闭合”两个不同问题。按本报告现有公开证据，后者**尚不能确认**。
 
@@ -170,7 +146,33 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 
 因此，存在进口依赖不等于“没有 production-grade parallel stack”；同样，系统已经能运行也不等于 autonomous frontier closure 已完成。
 
-### 9. 当前最接近 S2 — Baseline Concentration
+### 7. Capital risk 本质上是 utilization、monetization 与 financing quality 问题
+
+高 CapEx 既不是持久需求的证明，也不是泡沫的证明。
+
+NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 建立 AI compute infrastructure financing platforms，目标是**随时间动员超过 US$500B third-party capital**。这是一项 mobilization target，不是已经 funded / committed / deployed 的资本。
+
+真正要问的是 utilization、market clearing、customer cash generation 与 financing quality 能否验证资产基础。S4 需要多个因果独立的 clearing-signal family 与多个 actor/layer 同时恶化，而不是一个很大的支出数字。
+
+### 8. 模型公司已经成为 Anchor Compute Buyer
+
+OpenAI Stargate、Anthropic/AWS 等长期 compute commitments 表明，头部 model company 已经不只是租用现成 cloud capacity。
+
+长期模型需求可以形成：
+
+> **revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
+
+但同一机制也会提高 customer concentration 与 duration mismatch risk。
+
+### 9. 基础设施最终必须通过可验证工作流产出来闭环
+
+AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。下面的 verified-workflow 标准是**长期经济判据，不是截至证据截止日已经完成经验校准的事实指标**。公开研究仍很少在同一 workflow denominator 下同时连接 AI cost、human time、verification、failure/retry、persistence 与 business value。Agent-Native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
+
+> **单位可验证工作流结果需要多少 Compute、Energy、Human Review 与 Capital，产生的业务价值能否持续覆盖这些成本。**
+
+因此，在该判据完成经验校准之前，单位 Compute 成本下降既不能被默认解释为基础设施总需求下降，也不能被默认解释为 Jevons 式总需求上升。若未来证据显示更低成本确实释放更多可验证工作流，总需求可以扩张；反过来，如果基础设施增长长期快于可验证业务产出与现金流，**S4 — Capital Hard Landing** 的风险才会系统性上升。
+
+### 10. 2026–2036 路径是条件化的
 
 本报告不用一个 2036 单点预测描述未来，而采用四类条件状态：
 
@@ -183,13 +185,7 @@ NVIDIA 2026-08-10 宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldm
 
 > 高增长、高集中与真实替代路径同时存在。
 
-### 10. 基础设施最终必须由“可验证工作流产出”完成需求侧闭环
-
-AI 基础设施的长期价值不能只由 GPU 出货、CapEx 或 token volume 证明。下面的 verified-workflow 标准是**长期经济判据，不是截至证据截止日已经完成经验校准的事实指标**。公开研究仍很少在同一 workflow denominator 下同时连接 AI cost、human time、verification、failure/retry、persistence 与 business value。Agent-Native Software、Physical AI 和企业自动化最终都要回到同一个经济问题：
-
-> **单位可验证工作流结果需要多少 Compute、Energy、Human Review 与 Capital，产生的业务价值能否持续覆盖这些成本。**
-
-因此，在该判据完成经验校准之前，单位 Compute 成本下降既不能被默认解释为基础设施总需求下降，也不能被默认解释为 Jevons 式总需求上升。若未来证据显示更低成本确实释放更多可验证工作流，总需求可以扩张；反过来，如果基础设施增长长期快于可验证业务产出与现金流，S4 — Capital Hard Landing 的风险才会系统性上升。
+S2 是当前基线，不是十年单点预测：supply elasticity、substitution、algorithmic efficiency、workload growth、power、financing quality 与 system closure 都可能把行业推向 S1、S3 或 S4。
 
 ---
 

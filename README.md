@@ -67,9 +67,9 @@ For the full denominator audit and calculations, see [Chapter 8 — Quantitative
 
 ## Core findings
 
-These are landing-page highlights, not a second list of claims. The report's canonical **Ten load-bearing judgments** and their chapter mapping are in [Chapter 1 — Executive Summary](en/publication/part-I-ch01-executive-summary.md).
+These are landing-page highlights, not a second list of claims. They follow the report's canonical **Ten load-bearing judgments** in the same order; the full table and chapter mapping are in [Chapter 1 — Executive Summary](en/publication/part-I-ch01-executive-summary.md).
 
-### 1. The competitive unit has moved from the chip to the system stack
+### 1. The competitive unit is the system stack
 
 NVIDIA's current advantage cannot be explained by GPU benchmarks or market share alone.
 
@@ -83,7 +83,7 @@ It is:
 
 > **Who can continuously deliver complete systems to real workloads with lower migration cost, high utilization, and reliable supply?**
 
-### 2. AI is changing where the next semiconductor capital dollar goes
+### 2. AI/HPC is changing the marginal destination of capital
 
 TSMC's HPC platform accounted for **66%** of 2Q26 revenue, while advanced technologies at 7 nm and below accounted for **77%** of wafer revenue. These are revenue-mix measures, not AI wafer share, but they show that HPC has become one of the central marginal drivers of advanced-manufacturing capital formation.
 
@@ -91,7 +91,7 @@ The report describes this as a **Two-Speed Semiconductor Economy**:
 
 > The AI Infrastructure Economy and the Traditional Device Economy share upstream resources, but differ in willingness to pay, order duration, prepayment capacity, and the ability to induce new capital formation.
 
-### 3. Total supply growth does not mean traditional industries receive more supply
+### 3. Gross supply can rise while effective supply for other end markets worsens
 
 The report uses **Non-AI Residual Capacity**:
 
@@ -104,28 +104,12 @@ NonAI_Residual
 
 Global wafer, DRAM, or packaging capacity can rise while smartphones, PCs, automotive, and industrial buyers still face higher prices, weaker allocation, or slower configuration upgrades.
 
-### 4. HBM manufacturing intensity cannot be inferred from bit share alone
+### 4. Scarcity must be measured layer by layer
 
-Micron disclosed that, under **same technology node / same number of bits** conditions, HBM3E requires approximately **3× the wafer supply of DDR5**.
+HBM, advanced packaging, networking, land/power/shell, and energized power are different physical pools with different denominators, so one aggregate "AI capacity" number is misleading.
 
-This is a manufacturing-input trade ratio, not a price multiple and not a permanent constant for every HBM generation.
-
-TrendForce's estimate that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply** remains a **2026E institutional forecast**, not a full-year actual.
-
-### 5. Advanced packaging and power are independent constraints
-
-TSMC has explicitly stated that advanced-packaging tightness can limit customer growth.
-
-High-density AI systems also push scarcity into:
-
-- powered land;
-- grid interconnection;
-- substations;
-- cooling;
-- firm power;
-- permitting.
-
-The 2026-08-17 PORTS-Pike project extends this further into **land + power + shell (LPS)**. NVIDIA disclosed credit support for an initial **4.25 IT-GW** design capacity with OpenAI as the customer, with phased delivery planned from 2028.
+- **HBM manufacturing intensity cannot be inferred from bit share alone.** Micron disclosed that, under **same technology node / same number of bits** conditions, HBM3E requires approximately **3× the wafer supply of DDR5**—a manufacturing-input trade ratio, not a price multiple and not a permanent constant for every HBM generation. TrendForce's estimate that HBM + RDIMM will represent approximately **51% of 2026 DRAM bit supply** remains a **2026E institutional forecast**, not a full-year actual.
+- **Advanced packaging and power are independent constraints.** TSMC has explicitly stated that advanced-packaging tightness can limit customer growth. High-density AI systems also push scarcity into powered land, grid interconnection, substations, cooling, firm power, and permitting. The 2026-08-17 PORTS-Pike project extends this into **land + power + shell (LPS)**; NVIDIA disclosed credit support for an initial **4.25 IT-GW** design capacity with OpenAI as the customer, with phased delivery planned from 2028.
 
 The report strictly separates:
 
@@ -135,25 +119,13 @@ and also:
 
 > **IT-GW ≠ generation GW ≠ PPA capacity**
 
-### 6. Model companies are becoming Anchor Compute Buyers
+### 5. Substitution can weaken platform economics without automatically relieving upstream scarcity
 
-OpenAI Stargate and the Anthropic/AWS relationship illustrate that leading model companies are no longer simply renting whatever cloud capacity already exists.
+Hyperscaler custom stacks are a real second route, but they still consume advanced logic, HBM, advanced packaging, networking, and power.
 
-Long-duration model demand can create:
+Substitution therefore changes **who captures platform value** without necessarily loosening the constrained physical layers. A cheaper die, a stronger isolated benchmark, or an alternative accelerator does not by itself prove lower migration cost, production-workload displacement, or relief in the scarce layers.
 
-> **revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
-
-The same mechanism can also raise customer-concentration and duration risk.
-
-### 7. Capital competition is expanding beyond corporate CapEx
-
-On 2026-08-10, NVIDIA announced AI compute-infrastructure financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting **more than US$500B of third-party capital mobilization over time**.
-
-This is a mobilization target, not funded, committed, or deployed capital.
-
-This matters because AI compute is increasingly being structured as a long-duration infrastructure-finance asset, not merely purchased through hyperscaler corporate CapEx.
-
-### 8. China must be assessed through two levels of closure
+### 6. China requires two separate closure tests
 
 China is no longer at the stage where no substitute system exists, but the frontier layer must still separate “a real parallel stack with partial production deployment exists” from “all seven Production-Grade Gates have closed.” On current public evidence, the latter **cannot yet be confirmed**.
 
@@ -176,7 +148,33 @@ China is no longer at the stage where no substitute system exists, but the front
 
 Import dependence does not mean there is no production-grade parallel stack. Conversely, production deployment does not prove autonomous frontier closure.
 
-### 9. The current evidence mix is closest to S2 — Baseline Concentration
+### 7. Capital risk is a utilization, monetization, and financing-quality problem
+
+High CapEx is neither proof of durable demand nor proof of a bubble.
+
+On 2026-08-10, NVIDIA announced AI compute-infrastructure financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, targeting **more than US$500B of third-party capital mobilization over time**. This is a mobilization target, not funded, committed, or deployed capital.
+
+The relevant question is whether utilization, market clearing, customer cash generation, and financing quality can validate the asset base. S4 requires broad deterioration across multiple causally independent clearing-signal families and actors/layers, not a large spending number.
+
+### 8. Model companies have become Anchor Compute Buyers
+
+OpenAI Stargate and the Anthropic/AWS relationship illustrate that leading model companies are no longer simply renting whatever cloud capacity already exists.
+
+Long-duration model demand can create:
+
+> **revenue visibility → financing certainty → earlier infrastructure buildout → earlier resource reservation**
+
+The same mechanism can also raise customer-concentration and duration risk.
+
+### 9. Infrastructure must close through verified workflow output
+
+The long-run value of AI infrastructure cannot be proven by GPU shipments, CapEx, or token volume alone. The verified-workflow standard below is a **long-run economic criterion, not an empirically calibrated fact metric as of the evidence cutoff**. Public studies still rarely join AI cost, human time, verification, failure/retry, persistence, and business value on the same workflow denominator. Agent-Native Software, Physical AI, and enterprise automation ultimately return to the same economic question:
+
+> **How much Compute, Energy, Human Review, and Capital is required per verified workflow outcome, and can the resulting business value sustainably cover those costs?**
+
+Until that criterion is empirically calibrated, lower unit Compute cost should not be presumed to imply either lower total infrastructure demand or a Jevons-style increase in demand. If future evidence shows that lower cost unlocks more verified workflows, total demand can expand; conversely, if infrastructure grows persistently faster than verified business output and cash flow, the risk of **S4 — Capital Hard Landing** rises structurally.
+
+### 10. The 2026–2036 path is conditional
 
 The report uses four conditional states rather than one 2036 point forecast:
 
@@ -189,13 +187,7 @@ As of August 2026, the evidence mix is closest to **S2**:
 
 > **high growth, high concentration, and credible substitution paths coexist.**
 
-### 10. Infrastructure ultimately needs a demand-side closure through verified workflow output
-
-The long-run value of AI infrastructure cannot be proven by GPU shipments, CapEx, or token volume alone. The verified-workflow standard below is a **long-run economic criterion, not an empirically calibrated fact metric as of the evidence cutoff**. Public studies still rarely join AI cost, human time, verification, failure/retry, persistence, and business value on the same workflow denominator. Agent-Native Software, Physical AI, and enterprise automation ultimately return to the same economic question:
-
-> **How much Compute, Energy, Human Review, and Capital is required per verified workflow outcome, and can the resulting business value sustainably cover those costs?**
-
-Until that criterion is empirically calibrated, lower unit Compute cost should not be presumed to imply either lower total infrastructure demand or a Jevons-style increase in demand. If future evidence shows that lower cost unlocks more verified workflows, total demand can expand; conversely, if infrastructure grows persistently faster than verified business output and cash flow, the risk of **S4 — Capital Hard Landing** rises structurally.
+S2 is the current baseline, not a ten-year point forecast: supply elasticity, substitution, algorithmic efficiency, workload growth, power, financing quality, and system closure can move the industry toward S1, S3, or S4.
 
 ---
 
