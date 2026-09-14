@@ -1,0 +1,30 @@
+{
+  "version": "2026-09-14",
+  "notes": "Time-to-Power schedule arithmetic. Lead-time streams are reused from the anchors already carried in Ch07 (IEA / LBNL). Ch07 states explicitly that the 4-8 year transmission figure is a broad grid-build clock and NOT a project-specific AI-data-center lead time; it is used here only as a reference band into which a reader substitutes project-specific durations. Ramp shapes and compounding factors are report-side illustrations. No new numeric identities.",
+  "lead_time_streams": {
+    "interconnection_transmission": {
+      "years": [4, 8],
+      "anchor": "IEA via Ch07 Table 7.2: new transmission 4-8 years in advanced economies",
+      "grade": "A for the institutional anchor, D as a project lead time"
+    },
+    "large_power_transformer": {
+      "years": [0, 4],
+      "anchor": "IEA via Ch07 Table 7.2: up to 4 years procurement; 0 because the stream need not be binding",
+      "grade": "A for the institutional anchor, D as a project lead time"
+    },
+    "site_construction": {
+      "years": [2, 3],
+      "anchor": "IEA via Ch07 §5A: cables 2-3 years procurement; used here as the site/equipment build clock",
+      "grade": "A for the institutional anchor, D as a project lead time"
+    }
+  },
+  "critical_path_modes": ["series", "parallel"],
+  "ramp_years_grid": [2, 4],
+  "cohort_gw_illustrative": 100,
+  "compounding_factors": {
+    "state_conversion": [0.3, 0.5, 0.8],
+    "utilization": [0.5, 0.7, 0.9],
+    "monetization": [0.7, 0.9, 1.0],
+    "note": "Product of the three factors converts announced GW into revenue-bearing GW. Each factor is a dial; none is measured by this report."
+  }
+}
