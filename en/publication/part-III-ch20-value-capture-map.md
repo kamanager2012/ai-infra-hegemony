@@ -224,7 +224,7 @@ The more useful variables are:
 
 > **shared-resource exposure + buyer power + qualification rigidity + supply assurance + product-mix reallocation**
 
-Chapter 3 defines the resource mechanism; Chapter 21 develops the observed pricing, configuration, longevity, and allocation transmission.
+[Chapter 3](part-I-ch03-resource-gravity.md) defines the resource mechanism; [Chapter 21](part-III-ch21-consumer-transmission.md) develops the observed pricing, configuration, longevity, and allocation transmission.
 
 ## 11. Custom silicon redistributes platform rent before upstream demand
 

@@ -4,7 +4,7 @@
 
 **Current baseline (evidence cutoff: August 28, 2026): S2 — Baseline Concentration.**
 
-Chapter 1 already provides the report's ten load-bearing judgments as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four evaluation tests and explains why the current state remains S2.
+[Chapter 1](part-I-ch01-executive-summary.md) already provides the report's ten load-bearing judgments as the reader entry. This chapter does not repeat them. The Master View instead compresses the preceding 31 chapters into four evaluation tests and explains why the current state remains S2.
 
 ### Test A — Has system power become irreplaceable multi-layer control?
 
@@ -28,7 +28,7 @@ Taken together, the four tests describe:
 
 That is **S2 — Baseline Concentration**.
 
-The Master View therefore answers a different question from Chapter 1:
+The Master View therefore answers a different question from [Chapter 1](part-I-ch01-executive-summary.md):
 
 > **Which mechanisms still sustain S2, which reverse facts would break those mechanisms, and what would force a shift toward S1, S3, or S4?**
 
@@ -199,7 +199,7 @@ Two closure levels are therefore required.
 
 ### Production-Grade Parallel Stack
 
-China has moved beyond the stage of having no substitute system, and a real frontier parallel stack is iterating with partial production deployment. But under Chapter 17's seven Production-Grade Gates, public evidence is still insufficient to confirm that a complete production-grade frontier parallel stack has closed.
+China has moved beyond the stage of having no substitute system, and a real frontier parallel stack is iterating with partial production deployment. But under [Chapter 17](part-II-ch17-china-parallel-stack.md)'s seven Production-Grade Gates, public evidence is still insufficient to confirm that a complete production-grade frontier parallel stack has closed.
 
 ### Autonomous Frontier Closure
 
@@ -320,7 +320,7 @@ Putting these layers together, the demand-side loop is:
 
 If the front half of that chain expands persistently faster than the back half, S4 risk rises. If verified workflow output, utilization, and cash flow continue pulling new demand forward, S2/S3-style capital expansion can persist even as unit compute costs fall.
 
-The loop is not only forward. The same labor market that supplies the household income behind “Adoption / Cash Flow” can also withdraw it: if task substitution compresses income faster than new demand appears, the chain can run in reverse and feed the S4 demand leg (Chapter 24 §7B; Chapter 29 §10). The report therefore monitors demand as a two-way variable, not as a guaranteed tailwind.
+The loop is not only forward. The same labor market that supplies the household income behind “Adoption / Cash Flow” can also withdraw it: if task substitution compresses income faster than new demand appears, the chain can run in reverse and feed the S4 demand leg ([Chapter 24](part-III-ch24-capital-clearing.md) §7B; [Chapter 29](part-IV-ch29-monitoring-framework.md) §10). The report therefore monitors demand as a two-way variable, not as a guaranteed tailwind.
 
 ---
 

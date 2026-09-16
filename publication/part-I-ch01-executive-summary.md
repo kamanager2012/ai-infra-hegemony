@@ -103,7 +103,7 @@
 - **资本形成 / clearing：** Ch19 → Ch22–Ch24 → Ch32
 - **方法、监测与 falsification：** Ch27 → Ch29 → Ch30 → Ch32
 
-如果需要核对某个数字，应进入对应主题章和 References；如果需要理解全局机制与最终判断，应进入 Ch32。
+如果需要核对某个数字，应进入对应主题章和 References；如果需要理解全局机制与最终判断，应进入[第32章](part-IV-ch32-master-judgment.md)。
 
 ---
 

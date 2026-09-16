@@ -69,7 +69,7 @@ Used accelerator / system prices, cloud lease rates, and delivery lead times are
 
 If old-system residual value falls quickly when a new generation launches, buyer-side economic depreciation can move much faster than accounting depreciation.
 
-That is why Chapter 24 treats Market Clearing as an independent S4 signal.
+That is why [Chapter 24](part-III-ch24-capital-clearing.md) treats Market Clearing as an independent S4 signal.
 
 ## 7. Algorithmic efficiency can accelerate economic obsolescence
 

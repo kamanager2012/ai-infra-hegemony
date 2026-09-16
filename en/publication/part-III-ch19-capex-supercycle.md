@@ -53,7 +53,7 @@ The implication is:
 
 > **Hyperscaler CapEx remains a critical indicator, but it is no longer the complete denominator of AI-infrastructure capital formation.**
 
-The announced compute-financing platforms, LPS structures, and supplier-side guarantee exposures should be analyzed in Chapter 23 rather than forced into a single corporate-CapEx total.[^5][^6][^8][^9]
+The announced compute-financing platforms, LPS structures, and supplier-side guarantee exposures should be analyzed in [Chapter 23](part-III-ch23-capital-financing.md) rather than forced into a single corporate-CapEx total.[^5][^6][^8][^9]
 
 ## 3. Duration mismatch is the core balance-sheet risk
 
