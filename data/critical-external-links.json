@@ -200,13 +200,25 @@
       "id": "UNESCO-AI-STUDENTS",
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66903",
       "final_url_contains": "ai-competency-framework-students",
-      "note": "Stable UNESCO official publication page; replaces the less stable bare article path."
+      "note": "Stable UNESCO official publication page; replaces the less stable bare article path.  When the UNESCO article host returns 5xx, the durable UNESDOC ARK is an accepted same-document fallback.",
+      "fallback_urls": [
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000391105",
+          "final_url_contains": "pf0000391105"
+        }
+      ]
     },
     {
       "id": "UNESCO-AI-TEACHERS",
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers?hub=779",
       "final_url_contains": "ai-competency-framework-teachers",
-      "note": "Stable UNESCO official publication page; replaces the less stable bare article path."
+      "note": "Stable UNESCO official publication page; replaces the less stable bare article path.  When the UNESCO article host returns 5xx, the durable UNESDOC ARK is an accepted same-document fallback.",
+      "fallback_urls": [
+        {
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000391104",
+          "final_url_contains": "pf0000391104"
+        }
+      ]
     }
   ],
   "last_manual_sweep": {

@@ -11,7 +11,7 @@ import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "critical-external-links.json"
-UA = "ai-infra-hegemony-publication-link-check/1.0 (+https://github.com/kamanager2012/ai-infra-hegemony)"
+UA = "Mozilla/5.0 (compatible; ai-infra-hegemony-link-check/1.0)"
 
 def fetch(url: str):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Range": "bytes=0-4095"})
