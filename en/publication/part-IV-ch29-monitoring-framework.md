@@ -291,7 +291,7 @@ Dashboard J does not independently determine S1–S4. It tests whether:
 | sell-side / supply-chain / media estimate | C |
 | report geometry / stress test / hypothetical rack count | D |
 
-**Source:** Report evidence method (see Chapter 27).  
+**Source:** Report evidence method (see [Chapter 27](part-IV-ch27-research-method.md)).  
 **Note:** A default grade can move with source quality, but repeated citation does not upgrade it automatically.
 
 Every update must preserve the original evidence grade.

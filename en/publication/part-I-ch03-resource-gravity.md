@@ -185,7 +185,7 @@ These end systems should not be placed into a universal “AI took the chips” 
 | Avionics / radar / space electronics | trusted/qualified logic, RF/power, rad-hard/rad-tolerant parts, special packaging/test | small-volume line economics, qualification, trusted access, long-lifecycle support | commercial high-volume markets can weaken small-volume special-demand bargaining power | aircraft, radar, or satellites are directly stopped by HBM shortage |
 | Naval / other long-life defense systems | long-life qualified electronics, power/communications, trusted supply, maintenance spares | EOL, supplier longevity, small-volume economics | long-lived systems need sustained part-number and trusted-supply continuity | naval platforms “need NVIDIA capacity” |
 
-**Source:** Chapter 21 smartphone / PC / game-console / consumer / industrial transmission evidence; NXP / ST automotive-longevity disclosures; U.S. GAO / DMEA trusted-microelectronics evidence; NASA/JPL space-radiation assurance materials.[^6][^7][^8][^9][^10]  
+**Source:** [Chapter 21](part-III-ch21-consumer-transmission.md) smartphone / PC / game-console / consumer / industrial transmission evidence; NXP / ST automotive-longevity disclosures; U.S. GAO / DMEA trusted-microelectronics evidence; NASA/JPL space-radiation assurance materials.[^6][^7][^8][^9][^10]  
 **Note:** The AI-era transmission strength differs substantially across the later rows. For defense / aerospace / space, the public evidence primarily establishes the structural weakness of low-volume, special, long-life, trusted supply in a commercial market; it does **not** establish AI/HPC as the direct cause of a specific program's cost or delay.
 
 The key boundary is:

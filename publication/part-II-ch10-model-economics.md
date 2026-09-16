@@ -126,7 +126,7 @@ Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hypers
 
 如果 theoretical chip cost 更低，但 migration、debug、reliability 或 utilization 更差，system TCO 未必更低。
 
-完整的 hyperscaler system-stack competition 见第12章。
+完整的 hyperscaler system-stack competition 见[第12章](part-II-ch12-hyperscaler-system-stack.md)。
 
 ---
 
@@ -156,7 +156,7 @@ Google TPU、AWS Trainium、Microsoft Maia、Meta MTIA 为模型公司与 hypers
 
 > **可以被用户接受、可以进入业务流程、可以创造价值的有效智能输出。**
 
-Agent-native software 的完整 workflow economics 见第14章。
+Agent-native software 的完整 workflow economics 见[第14章](part-II-ch14-agent-software.md)。
 
 ---
 
@@ -168,7 +168,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 同一机制也会放大风险：如果 architecture efficiency 提高、收入不及预期或 workload 迁移，长期 capacity commitments 会转化为 utilization 与 duration risk。
 
-这一机制在第13章的 anchor-buyer analysis 中展开。
+这一机制在[第13章](part-II-ch13-anchor-compute-buyer.md)的 anchor-buyer analysis 中展开。
 
 ---
 
@@ -198,7 +198,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 例如，如果 unit resource intensity 下降 **50%**，而 workload volume 增长 **4×**，总基础设施需求仍然会上升。
 
-这里还要加入第14章定义的 **AI inheritance**：大量潜在 AI workload 并不是从零生成，而是建立在 ERP、CRM、database、cloud、API、digital documents、source code 与既有 workflow 之上的增量 overlay。于是 workload volume 的长期增长既来自“单个任务调用更多”，也来自**已有数字流程逐步进入 AI penetration**。这使总需求判断必须同时观察 unit efficiency、workflow penetration、automation depth 与 execution frequency。
+这里还要加入[第14章](part-II-ch14-agent-software.md)定义的 **AI inheritance**：大量潜在 AI workload 并不是从零生成，而是建立在 ERP、CRM、database、cloud、API、digital documents、source code 与既有 workflow 之上的增量 overlay。于是 workload volume 的长期增长既来自“单个任务调用更多”，也来自**已有数字流程逐步进入 AI penetration**。这使总需求判断必须同时观察 unit efficiency、workflow penetration、automation depth 与 execution frequency。
 
 ---
 
@@ -230,7 +230,7 @@ Agent-native software 的完整 workflow economics 见第14章。
 
 长期 compute commitment 是否与真实 workload growth 匹配。
 
-最后一项会进一步进入 Anchor Compute Buyer 机制，详见第13章。
+最后一项会进一步进入 Anchor Compute Buyer 机制，详见[第13章](part-II-ch13-anchor-compute-buyer.md)。
 
 ---
 

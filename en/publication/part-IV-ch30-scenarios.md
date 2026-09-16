@@ -139,7 +139,7 @@ Typical synchronized signals include:
 
 These are **typical signal families, not a mandatory five-of-five gate**. S4 confirmation depends on cross-signal confirmation plus cross-actor / cross-layer causal breadth. Accounting impairment is confirmatory / severity evidence, not a prerequisite; financing-led or real-economy clearing can be confirmed before qualifying write-down evidence appears.
 
-S4 can also arrive from the **demand leg** rather than the funding leg. If AI-driven substitution compresses labor income faster than new demand is created, weakness can reach enterprise AI monetization and capital clearing through consumption and household credit rather than through a financing accident. This is a transmission path within S4, not a fifth scenario; its gates and clocks are specified in Chapter 24 §7B and Chapter 29 §10.
+S4 can also arrive from the **demand leg** rather than the funding leg. If AI-driven substitution compresses labor income faster than new demand is created, weakness can reach enterprise AI monetization and capital clearing through consumption and household credit rather than through a financing accident. This is a transmission path within S4, not a fifth scenario; its gates and clocks are specified in [Chapter 24](part-III-ch24-capital-clearing.md) §7B and [Chapter 29](part-IV-ch29-monitoring-framework.md) §10.
 
 ### Clearing order
 
@@ -314,7 +314,7 @@ because:
 - cloud custom systems are real alternative systems, while public product evidence alone does not establish comprehensive frontier-workload substitution;[^4]
 - seller forward supply / capacity commitments remain high;[^5]
 - power is a separate deployment constraint that must be monitored through rack density, grid/interconnection, and delivery-state evidence;[^6]
-- China has real frontier parallel alternatives and partial production deployment, but under Chapter 17's seven Production-Grade Gates a complete production-grade frontier closure remains unconfirmed by public evidence;
+- China has real frontier parallel alternatives and partial production deployment, but under [Chapter 17](part-II-ch17-china-parallel-stack.md)'s seven Production-Grade Gates a complete production-grade frontier closure remains unconfirmed by public evidence;
 - within this report's monitoring framework, a cross-signal case for an industry-wide Capital Hard Landing has not yet been established.
 
 The baseline remains valid only while this evidence mix remains valid; the discrimination rules are in Section 12A.

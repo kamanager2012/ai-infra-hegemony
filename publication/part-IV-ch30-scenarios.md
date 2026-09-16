@@ -134,7 +134,7 @@ AI workload demand、utilization 与 monetization 无法覆盖快速增长的资
 
 这些是**典型信号族，不是 five-of-five mandatory gate**。S4 的确认依赖 cross-signal confirmation + cross-actor / cross-layer causal breadth。Accounting impairment 属于 confirmation / severity evidence，而不是 prerequisite；financing-led 或 real-economy clearing 可以在 qualifying write-down 出现之前被确认。
 
-S4 也可能从**需求腿**而非融资腿到来。如果 AI 驱动的替代压缩劳动收入的速度快于新需求的创造，压力可以通过消费与家庭信用、而不是通过一次融资事故，传导到 enterprise AI monetization 与 capital clearing。这是 S4 内部的一条传导路径，不是第五种情景；其闸门与时钟见第24章 §7B 与第29章 §10。
+S4 也可能从**需求腿**而非融资腿到来。如果 AI 驱动的替代压缩劳动收入的速度快于新需求的创造，压力可以通过消费与家庭信用、而不是通过一次融资事故，传导到 enterprise AI monetization 与 capital clearing。这是 S4 内部的一条传导路径，不是第五种情景；其闸门与时钟见[第24章](part-III-ch24-capital-clearing.md) §7B 与[第29章](part-IV-ch29-monitoring-framework.md) §10。
 
 ### Clearing Order
 
@@ -300,7 +300,7 @@ Financing Reflexivity 也已不再是 NVIDIA 独有。AMD Q2 2026 Form 10-Q 披�
 - cloud custom systems 已形成真实竞争，但尚未证明全面替代 frontier workload；[^4]
 - infrastructure CapEx 与 forward commitments 仍高；[^5]
 - power constraint 上升；[^6]
-- China 已形成真实 frontier parallel alternatives 与部分 production deployment，但按第17章七个 Production-Grade Gate，完整 production-grade frontier closure 尚未由公开证据确认；
+- China 已形成真实 frontier parallel alternatives 与部分 production deployment，但按[第17章](part-II-ch17-china-parallel-stack.md)七个 Production-Grade Gate，完整 production-grade frontier closure 尚未由公开证据确认；
 - 全行业 Capital Hard Landing 的同步证据尚不足。
 
 这条 baseline 只在上述事实组合继续成立时有效；判别方法见 §12A。
