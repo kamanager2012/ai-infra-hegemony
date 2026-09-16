@@ -21,11 +21,11 @@
    **Boundary：** secured / contracted ≠ energized ≠ utilized；IT-GW ≠ generation GW ≠ PPA capacity。
 
 6. [图 6 — S1–S4 scenario map](figures/fig-06-s1-s4-scenario-map.svg)  
-   **类型：** report scenario framework。**主要分析位置：** 第 30 章。  
+   **类型：** report scenario framework。**主要分析位置：** [第 30 章](part-IV-ch30-scenarios.md)。  
    **Boundary：** 四个 scenario 是 parallel conditional states，不带固定 probability；S2 只表示截至 2026 年 8 月的 current evidence baseline。
 
 7. [图 7 — TSMC 2026 Q2 demand 与 technology mix](figures/fig-07-tsmc-2q26-mix.svg)  
-   **类型：** first-party actual data，保留两个独立 denominator。**主要分析位置：** 第 4 章。  
+   **类型：** first-party actual data，保留两个独立 denominator。**主要分析位置：** [第 4 章](part-I-ch04-tsmc-advanced-logic.md)。  
    **Boundary：** HPC 66% 与 smartphone 22% 是 total revenue 的 platform share；7 nm 及以下 77% 是 wafer revenue 的 technology share；均不是 customer-level wafer allocation。
 
 8. [图 8 — Rolling Bottleneck Cascade](figures/fig-08-rolling-bottleneck-cascade.svg)  
