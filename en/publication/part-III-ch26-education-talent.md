@@ -215,8 +215,8 @@ It is more likely to come from the ability to understand systems, verify results
 ## References
 
 [^1]: Stanford Institute for Human-Centered Artificial Intelligence, “2026 AI Index Report — Education,” https://hai.stanford.edu/ai-index/2026-ai-index-report/education
-[^2]: UNESCO, “AI competency framework for students,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66903
-[^3]: UNESCO, “AI competency framework for teachers,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-teachers?hub=779
+[^2]: UNESCO, “AI competency framework for students,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-students?hub=66903 ; durable UNESDOC record: https://unesdoc.unesco.org/ark:/48223/pf0000391105
+[^3]: UNESCO, “AI competency framework for teachers,” 2024, updated 2026-01-16, https://www.unesco.org/en/articles/ai-competency-framework-teachers?hub=779 ; durable UNESDOC record: https://unesdoc.unesco.org/ark:/48223/pf0000391104
 
 
 [^4]: Philip Oreopoulos and Nina Low, “One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment,” NBER Working Paper 35620, August 2026, https://www.nber.org/papers/w35620
