@@ -21,7 +21,17 @@
       "id": "TSMC-2Q26-RESULTS",
       "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
       "final_url_contains": "quarterly-results/2026/q2",
-      "note": "Stable official Q2 results landing page used in the formal report; the previously used encrypted transcript PDF deep link was unstable in public retrieval."
+      "note": "Stable official Q2 results landing page used as the primary gate target. When the landing is unreachable, the durable 2Q26 Earnings Conference Transcript PDF and 2Q26 Management Report PDF are accepted same-event fallbacks.",
+      "fallback_urls": [
+        {
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf",
+          "final_url_contains": "TSMC%202Q26%20Transcript.pdf"
+        },
+        {
+          "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf",
+          "final_url_contains": "2Q26%20ManagementReport.pdf"
+        }
+      ]
     },
     {
       "id": "MICRON-HBM-3X",
@@ -222,9 +232,9 @@
     }
   ],
   "last_manual_sweep": {
-    "date": "2026-08-29",
+    "date": "2026-09-16",
     "method": "Fresh end-to-end audit of formal-report links, research-layer high-risk anchors, and the curated critical-link manifest. Official fallbacks are accepted only when institution and claim identity remain valid.",
-    "result": "37/37 critical evidence items remain usable under the manifest policy",
+    "result": "Critical evidence items remain usable under the manifest policy (landing + TSMC PDF fallbacks)",
     "primary_direct": "36/37 in direct public retrieval during this sweep",
     "fallback_used": [
       "CXMT-PROSPECTUS"
@@ -232,7 +242,8 @@
     "repaired_or_repointed": [
       "TSMC-2Q26-TRANSCRIPT -> stable TSMC 2026 Q2 Quarterly Results page",
       "UNESCO AI competency framework student/teacher pages -> stable official hub URLs",
-      "CXMT-PROSPECTUS -> 2026-05-27 registration prospectus restored as primary; 2025-12-30 SSE prospectus retained as official fallback"
+      "CXMT-PROSPECTUS -> 2026-05-27 registration prospectus restored as primary; 2025-12-30 SSE prospectus retained as official fallback",
+      "TSMC 2Q26 transcript 403 deep link (2026-07/547d…) -> durable 200 transcript (2026-08/3e494f…) + ManagementReport fallbacks on TSMC-2Q26-RESULTS"
     ],
     "note": "No high-impact claim lost source support. Search indexing could retrieve the 2026-05-27 CXMT registration prospectus, while direct public fetch was intermittent; this is recorded as a fallback case rather than primary-direct success."
   }
