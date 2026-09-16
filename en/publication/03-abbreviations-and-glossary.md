@@ -53,7 +53,7 @@
 | APU | Accelerated Processing Unit | Console / client SoC context; not an HBM-class AI system |
 | RF | Radio Frequency | Aerospace / defense special-process exposure |
 | ADAS | Advanced Driver Assistance Systems | Automotive compute context |
-| FLOPS | Floating-Point Operations per Second | Peak compute only; not a workload denominator (see Chapter 8) |
+| FLOPS | Floating-Point Operations per Second | Peak compute only; not a workload denominator (see [Chapter 8](part-I-ch08-quantitative-framework.md)) |
 | KV cache | Key-Value cache | Inference memory state; one reason inference can remain memory-bound |
 | EUV / DUV | Extreme / Deep Ultraviolet lithography | Process-equipment layer; relevant to export controls |
 

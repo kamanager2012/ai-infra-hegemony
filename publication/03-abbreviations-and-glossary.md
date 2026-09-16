@@ -53,7 +53,7 @@
 | APU | Accelerated Processing Unit | 主机 / 客户端 SoC 语境；不是 HBM 级 AI 系统 |
 | RF | Radio Frequency | 航空航天 / 国防 special-process exposure |
 | ADAS | Advanced Driver Assistance Systems | 汽车 compute 语境 |
-| FLOPS | Floating-Point Operations per Second | 仅 peak compute；不是 workload denominator（见第 8 章） |
+| FLOPS | Floating-Point Operations per Second | 仅 peak compute；不是 workload denominator（见[第 8 章](part-I-ch08-quantitative-framework.md)） |
 | KV cache | Key-Value cache | Inference memory state；是 inference 可能持续受 memory bound 的原因之一 |
 | EUV / DUV | Extreme / Deep Ultraviolet lithography | 制程设备层；与 export control 相关 |
 
