@@ -4,7 +4,7 @@
 
 **当前基准（evidence cutoff：2026-08-28）：S2 — Baseline Concentration。**
 
-第1章已经用十个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个 evaluation tests，并说明为什么当前仍停留在 S2。
+[第1章](part-I-ch01-executive-summary.md)已经用十个承重判断给出全书入口；本章不再逐条复述。Master View 的职责是把前 31 章压缩成四个 evaluation tests，并说明为什么当前仍停留在 S2。
 
 ### Test A — System Power 是否已经转化为不可替代的多层控制？
 
@@ -28,7 +28,7 @@
 
 这就是 **S2 — Baseline Concentration**。
 
-因此，本章真正要回答的不是第1章已经回答过的“报告有哪些核心发现”，而是：
+因此，本章真正要回答的不是[第1章](part-I-ch01-executive-summary.md)已经回答过的“报告有哪些核心发现”，而是：
 
 > **哪些机制仍在支撑 S2，哪些反向事实足以让这些机制失效，并迫使总判转向 S1、S3 或 S4？**
 
@@ -187,7 +187,7 @@ foundry revenue share 同样不能等同于 frontier-AI capability。TrendForce 
 
 ### Production-Grade Parallel Stack
 
-中国已经跨过“没有替代系统”的阶段，部分层已进入真实 production deployment；但按第17章七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已闭合。
+中国已经跨过“没有替代系统”的阶段，部分层已进入真实 production deployment；但按[第17章](part-II-ch17-china-parallel-stack.md)七个 Production-Grade Gate，公开证据尚不足以确认完整 production-grade frontier parallel stack 已闭合。
 
 ### Autonomous Frontier Closure
 
@@ -306,7 +306,7 @@ AI 对劳动的传导必须至少经过：
 
 如果前半段扩张长期快于后半段，S4 风险上升；如果可验证工作流产出、利用率和现金流持续拉动新增需求，即使单位 Compute 成本持续下降，S2/S3 型资本扩张仍可能延续。
 
-这条回路不只是单向的。提供 “Adoption / Cash Flow” 背后家庭收入的同一个劳动市场，也可能把它抽走：如果 task substitution 压缩收入的速度快于新需求出现，这条链就会反向运行，喂给 S4 的需求腿（第24章 §7B；第29章 §10）。因此本报告把需求当作双向变量监测，而不是把它当作必然的顺风。
+这条回路不只是单向的。提供 “Adoption / Cash Flow” 背后家庭收入的同一个劳动市场，也可能把它抽走：如果 task substitution 压缩收入的速度快于新需求出现，这条链就会反向运行，喂给 S4 的需求腿（[第24章](part-III-ch24-capital-clearing.md) §7B；[第29章](part-IV-ch29-monitoring-framework.md) §10）。因此本报告把需求当作双向变量监测，而不是把它当作必然的顺风。
 
 ---
 

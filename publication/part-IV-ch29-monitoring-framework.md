@@ -230,7 +230,7 @@ customer cash generation、third-party capital risk-taking、supplier equity / c
 | Robotics / Physical AI | industrial-electronics lead time + edge accelerator / memory availability | industrial 与 AI-edge 两类约束是否同时出现 | 每台机器人都需要 frontier HBM |
 | High-reliability / aerospace / space | trusted access、EOL、qualification capacity、special-process continuity | 小批量、长寿命、特殊工艺供应经济性是否恶化 | AI 已造成某项目确定延期 / 涨幅 |
 
-**Source:** 第3章分层暴露框架、第21章整机传导与 Sony / TrendForce game-console evidence。[^14][^15]  
+**Source:** [第3章](part-I-ch03-resource-gravity.md)分层暴露框架、[第21章](part-III-ch21-consumer-transmission.md)整机传导与 Sony / TrendForce game-console evidence。[^14][^15]  
 **Note:** end-system dashboard 的作用不是把所有终端变成同一 shortage index，而是分开观察 **shared-resource exposure、buyer power、qualification rigidity 与 quantity assurance**。只有当上游资源证据和下游结果证据能够沿同一 transmission chain 对上，才升级 AI-era attribution。
 
 ### 代表性一手锚：Game Console

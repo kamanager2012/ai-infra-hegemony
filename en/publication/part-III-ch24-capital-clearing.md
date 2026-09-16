@@ -79,7 +79,7 @@ The current trajectory looks more like continued forward resource reservation th
 
 ## 3. The signal is divergence, not a synthetic global total
 
-As reconstructed in [Chapter 19](part-III-ch19-capex-supercycle.md), the four major hyperscalers do not report CapEx / PPE / finance-lease investment on a single identical accounting basis. Chapter 19 therefore owns the full capital-base reconstruction and denominator discipline.
+As reconstructed in [Chapter 19](part-III-ch19-capex-supercycle.md), the four major hyperscalers do not report CapEx / PPE / finance-lease investment on a single identical accounting basis. [Chapter 19](part-III-ch19-capex-supercycle.md) therefore owns the full capital-base reconstruction and denominator discipline.
 
 This chapter does not repeat the four-cloud CapEx table.
 
@@ -260,7 +260,7 @@ This report upgrades S4 from stress test to the current main scenario only when 
 
 The five groups do not need to deteriorate in the same quarter because accounting, project finance, and market clearing operate on different clocks. **Accounting is confirmation / severity evidence, not a mandatory gate**: financing-led or real-economy clearing can be confirmed before qualifying impairment or write-down evidence appears.
 
-Judgment is cumulative: each signal updates at its own disclosure frequency per the principle in Chapter 29 §12A, without a single fixed threshold; S4 is upgraded only when several groups deteriorate persistently and in a mutually reinforcing way; when signals diverge, the baseline is maintained and the divergence is logged in the monitoring framework.
+Judgment is cumulative: each signal updates at its own disclosure frequency per the principle in [Chapter 29](part-IV-ch29-monitoring-framework.md) §12A, without a single fixed threshold; S4 is upgraded only when several groups deteriorate persistently and in a mutually reinforcing way; when signals diverge, the baseline is maintained and the divergence is logged in the monitoring framework.
 
 But a single weak signal—a stock-price decline, lower model prices, a single-quarter margin move, or more seller support—is not sufficient if utilization and monetization remain healthy.
 

@@ -242,7 +242,7 @@ If the report's downstream question is whether important end systems can still o
 | Robotics / Physical AI | industrial-electronics lead time + edge-accelerator / memory availability | are industrial and AI-edge constraints appearing together? | every robot requires frontier HBM |
 | High-reliability / aerospace / space | trusted access, EOL, qualification capacity, special-process continuity | is the economics of low-volume, long-life, special-process supply deteriorating? | AI caused a specific program delay / cost increase |
 
-**Source:** Chapter 3 layered-exposure framework, Chapter 21 end-system transmission, and Sony / TrendForce game-console evidence.[^14][^15]  
+**Source:** [Chapter 3](part-I-ch03-resource-gravity.md) layered-exposure framework, [Chapter 21](part-III-ch21-consumer-transmission.md) end-system transmission, and Sony / TrendForce game-console evidence.[^14][^15]  
 **Note:** This is not a universal shortage index. It tracks **shared-resource exposure, buyer power, qualification rigidity, and quantity assurance** separately. AI-era attribution is strengthened only when upstream resource evidence and downstream outcome evidence align on the same transmission chain.
 
 ### Representative first-party anchor: game consoles

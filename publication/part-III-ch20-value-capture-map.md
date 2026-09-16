@@ -165,7 +165,7 @@ smartphone、PC、game consoles、automotive、industrial systems、robotics 与
 
 > **shared-resource exposure + buyer power + qualification rigidity + supply assurance + product-mix reallocation**
 
-第3章定义资源机制，第21章讨论已经能够观测到的 price / configuration / longevity / allocation 传导。
+[第3章](part-I-ch03-resource-gravity.md)定义资源机制，[第21章](part-III-ch21-consumer-transmission.md)讨论已经能够观测到的 price / configuration / longevity / allocation 传导。
 
 ## 11. Custom Silicon 会先重新分配 Platform Rent，再影响 Upstream Demand
 

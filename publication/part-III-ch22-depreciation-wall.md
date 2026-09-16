@@ -73,7 +73,7 @@ AI infrastructure 的根本错配是：
 
 如果新一代系统上线后旧一代 residual value 快速下跌，买方经济折旧会明显快于 accounting depreciation。
 
-这也是 Ch24 把 Market Clearing 单列为 S4 信号的原因。
+这也是[第24章](part-III-ch24-capital-clearing.md)把 Market Clearing 单列为 S4 信号的原因。
 
 ## 7. Algorithmic Efficiency 可以加速 Economic Obsolescence
 

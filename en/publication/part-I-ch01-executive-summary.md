@@ -103,7 +103,7 @@ Recommended paths:
 - **Capital formation and clearing:** Ch19 → Ch22–Ch24 → Ch32
 - **Method, monitoring, and falsification:** Ch27 → Ch29 → Ch30 → Ch32
 
-Readers who need a number should follow that number to the thematic chapter and its source. Readers who need the full causal judgment should use Chapter 32.
+Readers who need a number should follow that number to the thematic chapter and its source. Readers who need the full causal judgment should use [Chapter 32](part-IV-ch32-master-judgment.md).
 
 ---
 
