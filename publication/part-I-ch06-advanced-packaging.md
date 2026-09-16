@@ -129,7 +129,7 @@ Leading-edge logic 只是 frontier system 的一个 prerequisite；advanced pack
 
 ## 8. Second Stack 不会自动逃离 Packaging / HBM
 
-Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDIA platform profit，但它们自身仍需要：
+如[第12章](part-II-ch12-hyperscaler-system-stack.md)所述，Google、AWS、Microsoft、Meta 的 custom accelerator system 能够分流 NVIDIA platform profit，但它们自身仍需要：
 
 - advanced logic；
 - HBM；

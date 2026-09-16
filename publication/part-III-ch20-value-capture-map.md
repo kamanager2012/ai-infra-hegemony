@@ -82,7 +82,7 @@ Micron 的一手披露又说明：same node / same bits 条件下，HBM3E 约需
 
 ## 6. Hyperscaler 同时拥有 Distribution Power 与 Duration Risk
 
-Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal workload、customer base、custom silicon 和 data-center scale。这让它们有能力把一部分 platform economics 内部化。
+如[第12章](part-II-ch12-hyperscaler-system-stack.md)所述，Microsoft、Amazon、Alphabet、Meta 同时拥有 cloud distribution、internal workload、customer base、custom silicon 和 data-center scale。这让它们有能力把一部分 platform economics 内部化。
 
 但 cloud buyer 同时承担：
 

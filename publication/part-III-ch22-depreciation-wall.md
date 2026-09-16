@@ -120,7 +120,7 @@ algorithmic progress 对 infrastructure demand 既不是天然 expansionary，�
 
 ## 8. Power Asset 具有相反的 Duration Profile
 
-在 S2/S3 高需求环境中，long-duration power / grid asset 可能成为 scarce moat。
+在 S2/S3 高需求环境中，long-duration power / grid asset 可能成为 scarce moat；情景定义见[第30章](part-IV-ch30-scenarios.md)，物理电力约束另见[第7章](part-I-ch07-power-constraint.md)。
 
 在 S4 中，同一个 PPA、substation 或 data-center shell 则可能变成长久期低利用率负担。
 
@@ -181,7 +181,7 @@ risk-transfer layer 现在已经出现 cross-vendor evidence。NVIDIA FY27 Q2 Fo
 
 ## 11. Current Read
 
-截至 2026 年 8 月，更准确的解释是：**CapEx expansion 仍在继续，同时 duration 与 utilization risk 正在上升**，而不是已经进入广泛 impairment cycle。
+截至 2026 年 8 月，更准确的解释是：[第19章](part-III-ch19-capex-supercycle.md)仍记录 **CapEx expansion 仍在继续**，同时 duration 与 utilization risk 正在上升，而不是已经进入广泛 impairment cycle。
 
 折旧墙真正需要警惕的是：utilization 下滑、residual value 快速下降、CapEx / lease / project commitments 收缩与 refinancing 条件恶化等多类独立信号跨主体/层级相互印证。impairment 出现时会强化严重度判断，但正式 accounting loss 不是 mandatory gate。
 
