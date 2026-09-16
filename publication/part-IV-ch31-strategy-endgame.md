@@ -129,9 +129,9 @@ S1–S4 的完整定义见[第30章：S1–S4 四类标准情景](part-IV-ch30-s
 - leading system-platform economics 仍强；[^1]
 - advanced packaging 仍是公开确认的增长约束；[^2]
 - HBM / server memory 对制造资源的影响仍强；[^3]
-- cloud custom systems 已形成真实第二路线，但尚未证明全面替代 frontier workload；
-- power 已进入独立 physical constraint；
-- China frontier parallel stack 持续迭代并出现部分 production deployment，但按第17章七个 Production-Grade Gate，完整 production-grade frontier closure 尚未由公开证据确认；
+- cloud custom systems 已形成真实第二路线，但[第12章](part-II-ch12-hyperscaler-system-stack.md)并未证明其已全面替代 frontier workload；
+- power 在[第7章](part-I-ch07-power-constraint.md)的 delivery-state 框架下被作为独立 physical constraint 处理；
+- China frontier parallel stack 持续迭代并出现部分 production deployment；[第17章](part-II-ch17-china-parallel-stack.md)把七个 **Production-Grade Gates** 与 **Autonomous Frontier Closure** 所需的额外连续性测试分开处理，公开证据尚未确认任一完整测试已经完成；
 - 全行业 Capital Hard Landing 的同步证据仍不足。
 
 这不是十年固定预测。

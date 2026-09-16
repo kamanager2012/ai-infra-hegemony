@@ -40,7 +40,7 @@ NVIDIA 披露的 **forward supply / capacity commitment family** 由 2026-01-25 
 
 ## 3. 真正的 Signal 是 Divergence，不是 Synthetic Global Total
 
-四大 hyperscaler 的 CapEx / PPE / finance-lease 口径并不一致，因此完整资本基数和会计边界已经在第19章单独处理。
+四大 hyperscaler 的 CapEx / PPE / finance-lease 口径并不一致，因此完整资本基数和会计边界已经在[第19章](part-III-ch19-capex-supercycle.md)单独处理。
 
 本章不再重复四云 CapEx 表。
 
@@ -214,7 +214,7 @@ Financing Reflexivity 作用在**融资腿**；还有第二条反身性作用在
 
 ## 10. Current View
 
-截至 2026 年 8 月，公开事实仍更符合**高强度资本扩张处在不断上升的 ROI 压力之下**，而不是已经确认的 AI-infrastructure capital collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3]披露的 **forward supply / capacity commitment family** 已升至 **US$279B**；[^4]同时 hyperscaler 仍在给出极高的基础设施投资口径。
+截至 2026 年 8 月，公开事实仍更符合**高强度资本扩张处在不断上升的 ROI 压力之下**，而不是已经确认的 AI-infrastructure capital collapse。NVIDIA FY26 non-GAAP free cash flow 仍为 **US$96.575B**，[^1] FY27 Q2 GAAP operating income 为 **US$63.734B**，[^3]披露的 **forward supply / capacity commitment family** 已升至 **US$279B**；[^4]同时，[第19章](part-III-ch19-capex-supercycle.md)记录各大 hyperscaler 仍在以非同一会计口径给出或报告极高的基础设施投资水平。
 
 这不证明未来一定软着陆。它只说明：在缺少 real-economy、market-clearing、commitment 与 financing evidence 的 **cross-signal confirmation 和 cross-actor causal breadth** 时，不能把 capital clearing 当作 dominant regime。Accounting loss 出现时会强化 severity assessment，但不是确认 S4 的必要条件。
 
