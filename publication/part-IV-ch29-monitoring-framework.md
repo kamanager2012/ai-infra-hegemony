@@ -279,7 +279,7 @@ TrendForce 对 2026 console shipment / memory-BOM 的估计只能作为 B 级数
 | sell-side / supply-chain / media estimate | C |
 | report-side calculation / sensitivity / scenario input | D |
 
-**Source:** 本报告证据方法（见第27章）。  
+**Source:** 本报告证据方法（见[第27章](part-IV-ch27-research-method.md)）。  
 **Note:** 默认等级可因来源质量上调或下调，但不能因重复引用自动升级。
 
 任何更新都必须保持原始等级；数字更新不等于证据等级自动提升。

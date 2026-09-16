@@ -43,7 +43,7 @@
 
 只有当估值能够被转化成真实 financing capacity，而且底层 operating economics 仍然可信时，这个反馈才真正具有产业战略意义。
 
-这也是本章 Value Capture Map 与第23章“五维资本观察框架”之间的连接点。
+这也是本章 Value Capture Map 与[第23章](part-III-ch23-capital-financing.md)“五维资本观察框架”之间的连接点。
 
 ---
 

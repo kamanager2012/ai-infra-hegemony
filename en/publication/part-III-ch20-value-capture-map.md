@@ -43,7 +43,7 @@ But:
 
 The feedback becomes strategically important only when valuation can be converted into executable financing capacity and the underlying operating economics remain credible.
 
-This is the bridge between the value-capture map in this chapter and the **five-lens risk-adjusted-return framework** in Chapter 23.
+This is the bridge between the value-capture map in this chapter and the **five-lens risk-adjusted-return framework** in [Chapter 23](part-III-ch23-capital-financing.md).
 
 ---
 

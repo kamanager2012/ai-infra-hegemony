@@ -184,7 +184,7 @@ AI 对传统市场的传导强度取决于三个条件：
 
 > **Resource Gravity 是选择性的。越接近共享 advanced logic / memory / packaging，传导越直接；越依赖 trusted、long-life、RF/power、rad-hard 或 special-process capacity，传导越可能通过资本、设备、工程能力与供应商经济性间接发生。**
 
-具体终端价格、配置、换机周期与已观测案例详见第21章。
+具体终端价格、配置、换机周期与已观测案例详见[第21章](part-III-ch21-consumer-transmission.md)。
 
 ---
 

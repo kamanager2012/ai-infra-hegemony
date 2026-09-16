@@ -93,7 +93,7 @@ The objective is not to make every reader adopt the same conclusion. It is to ma
 
 ## 5. How to read the report
 
-This chapter is the **entry point**, not a second full synthesis. Chapter 32 is the integrated Master View after the evidence and mechanisms have been developed.
+This chapter is the **entry point**, not a second full synthesis. [Chapter 32](part-IV-ch32-master-judgment.md) is the integrated Master View after the evidence and mechanisms have been developed.
 
 Recommended paths:
 

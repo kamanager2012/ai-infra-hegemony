@@ -116,7 +116,7 @@ If unit resource intensity falls by 50% while workload volume grows 4×, total d
 
 Long-run analysis therefore must observe real workload volume, utilization, and business outcomes rather than training cost, benchmark scores, or token price in isolation.
 
-Chapter 14 adds a third mechanism: **AI inheritance**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
+[Chapter 14](part-II-ch14-agent-software.md) adds a third mechanism: **AI inheritance**. A large share of potential AI workload does not start from zero; it can be layered onto existing ERP, CRM, databases, cloud systems, APIs, digital documents, source code, and established workflows. Workload growth can therefore come not only from more calls per task but from **the penetration of AI into an already large digital installed base**. Long-run demand must consequently be read through unit efficiency, workflow penetration, automation depth, and execution frequency together.
 
 ## 9. Long-run competitive variables at the model layer
 
@@ -146,7 +146,7 @@ Whether model capability converts into durable revenue or measurable productivit
 
 Whether long-duration compute commitments remain aligned with real workload growth.
 
-The final variable links directly to the Anchor Compute Buyer mechanism developed in Chapter 13.
+The final variable links directly to the Anchor Compute Buyer mechanism developed in [Chapter 13](part-II-ch13-anchor-compute-buyer.md).
 
 ## 10. Current read
 

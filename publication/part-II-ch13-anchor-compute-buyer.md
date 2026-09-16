@@ -63,7 +63,7 @@ OpenAI 在 2025-01 宣布 Stargate，计划未来四年在美国投资 **US$500B
 - energized capacity 也不等于满负荷 utilization；
 - IT-GW、PPA GW 与 generation GW 不能机械互换。
 
-这套状态机与第7章 Power 分析保持一致。
+这套状态机与[第7章](part-I-ch07-power-constraint.md) Power 分析保持一致。
 
 ### 3.1 PORTS-Pike：Anchor Demand 已进入 LPS 与 Credit Support
 

@@ -93,7 +93,7 @@
 
 ## 5. 如何阅读这份报告
 
-本章只承担**入口**功能，不再承担第二份 Master View。完整综合判断保留在第32章。
+本章只承担**入口**功能，不再承担第二份 Master View。完整综合判断保留在[第32章](part-IV-ch32-master-judgment.md)。
 
 推荐阅读路径：
 
@@ -124,7 +124,7 @@
 [^3]: Micron Technology, FY24 Q2 Prepared Remarks, 2024-03-20, https://s25.q4cdn.com/621799436/files/doc_financials/2024/q2/FY24-Q2-Prepared-Remarks.pdf
 [^4]: TSMC, 4Q24 Earnings Conference Transcript, CoWoS capacity described as very tight and unable to satisfy all customer demand, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2025-01/84aeb15bbe33894365d33f52e027c5268ba95dcf/TSMC%204Q24%20Transcript.pdf ; TSMC, 2Q26 Earnings Conference Transcript, packaging capacity limiting customer growth, https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf
 [^5]: Google Cloud TPU release notes, 2026-03-31, TPU7x / Ironwood generally available, https://docs.cloud.google.com/tpu/docs/release-notes ; AWS, 2025-12-02, EC2 Trn3 UltraServers generally available, https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ ; Microsoft, 2026-01-26, Maia 200 deployed in US Central with named Microsoft/OpenAI workloads, https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ ; Meta Engineering, 2026-08-24, MTIA 300 production-workload evidence, https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/
-[^6]: CXMT 上海证券交易所披露、Moore Threads 官方资料、DeepSeek technical report 与 TrendForce foundry data；两级 closure test 的完整证据边界见第17章。
+[^6]: CXMT 上海证券交易所披露、Moore Threads 官方资料、DeepSeek technical report 与 TrendForce foundry data；两级 closure test 的完整证据边界见[第17章](part-II-ch17-china-parallel-stack.md)。
 [^7]: NVIDIA, 2026-08-10, announced strategic partnerships / MOUs for AI compute-infrastructure financing platforms targeting mobilization of >US$500B of third-party capital over time; partnerships remain subject to execution of final agreements, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
 [^8]: NVIDIA, 2026-08-17 PORTS-Pike / SB Energy announcement, initial 4.25 IT-GW design capacity with announcement-stage phased delivery beginning in calendar 2028, https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx ; NVIDIA FY27 Q2 Form 10-Q, guarantees covering approximately 4.25 GW of IT load with aggregate obligations capped at US$105B, phasing in across nine data centers with the first expected in fiscal 2029, and exposure declining as OpenAI fulfills lease payments, https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 [^9]: Advanced Micro Devices, Inc., Q2 2026 Form 10-Q, US$4.1B maximum gross exposure from guarantees tied to certain commercial-partner data-center lease obligations with terms up to 15 years; guarantees typically become payable upon partner default and exposure declines as contractual lease payments are made, https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
