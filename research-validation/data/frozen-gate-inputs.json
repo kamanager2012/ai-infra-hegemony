@@ -75,7 +75,7 @@
           "item": "transferability and secondary-market liquidity of the underlying assets",
           "state": "not yet observed",
           "where": null,
-          "detail": "No secondary market for GPU or data-center assets exists at observable liquidity. 11 §6 lists successful asset transfer between customers or operators as a falsification signal — i.e. something to watch for, not something measured. The adjacent market-structure item, the compute futures announced for 2026-10-05, is likewise pending liquidity rather than carrying any."
+          "detail": "No secondary market for GPU or data-center assets exists at observable liquidity. 11 §6 lists successful asset transfer between customers or operators as a falsification signal — i.e. something to watch for, not something measured. The adjacent market-structure item, the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-09-23, with elevated regulatory-calendar risk), is likewise pending liquidity rather than carrying any."
         }
       ]
     }
