@@ -54,7 +54,7 @@ The two half-observable items fail in the same way: the half that exists is the 
 
 Items 7 and 8 are not uncovered. They are **unobservable in advance**, and the difference is the result.
 
-A bubble is identified *ex post*: by defaults, and by assets that fail to transfer to a new owner at a defensible value. Both are **outcomes rather than states**. No disclosure can supply a default before it happens, and no reporting supplies secondary-market liquidity for a market that does not yet exist. The adjacent market-structure item — the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-10-05: the announced date passed without a listing, pending regulatory review) — is in exactly this position and is treated that way in `04C`: pending liquidity rather than carrying any.
+A bubble is identified *ex post*: by defaults, and by assets that fail to transfer to a new owner at a defensible value. Both are **outcomes rather than states**. No disclosure can supply a default before it happens, and no reporting supplies secondary-market liquidity for a market that does not yet exist. The adjacent market-structure item — the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-10-13: announced date missed; CFTC Approval Pending, review through 2026-11-09) — is in exactly this position and is treated that way in `04C`: pending liquidity rather than carrying any.
 
 So the Ch23 §1B test is not "6 of 8 covered, two gaps remaining". It has a **floor that further reporting cannot lift**, because the two decisive variables are the two that only exist after the question is settled. This is a stronger statement than *the evidence is incomplete*, and it is the reason this layer exists rather than a line in a panel.
 
