@@ -525,7 +525,7 @@ This makes the facility panel consistent with P0-1's reversible adjudication log
 ---
 
 
-## 11B.8 Compute Financialization — planned GPU rental futures v0.3
+## 11B.8 Compute Financialization — planned GPU rental futures v0.3.1
 
 A new market-structure development could eventually change how lenders, AI clouds and infrastructure owners manage compute-price risk.
 
@@ -534,9 +534,9 @@ CME Group and Silicon Data have announced two planned futures contracts:
 - **Silicon Data H100 Rental Index Futures** (Globex/ClearPort: GPU1)
 - **Silicon Data B200 Rental Index Futures** (Globex/ClearPort: GPU2)
 
-The **2026-08-11** CME press release and **SER-9785** named a target first trade date of **October 5, 2026**, pending completion of CFTC regulatory review. **That target has now passed without a listing.** Checked **2026-10-05 09:10 SGT** (2026-10-04 20:10 CT, i.e. after the Sunday CME Globex open for trade date 2026-10-05), CME's live product page still says launch "**later this year**" and still marks the product "**Pending regulatory review**"; no launch notice, no first-trade announcement and no volume / open-interest data were found. (The 2026-09-23 check had already shown the page dropping the October-5 language.)
+The **2026-08-11** CME press release and **SER-9785** named a target first trade date of **October 5, 2026**, pending completion of CFTC regulatory review. **That target has now passed without a listing.** Re-checked **2026-10-13 09:18 SGT**: CFTC product records **62544** (H100 / GPU1) and **62545** (B200 / GPU2) still show status **Approval Pending (90)** with record date **2026-09-21**; no launch notice, no first-trade announcement and no volume / open-interest data were found. CME's public product page and clearing advisory returned HTTP 403 on this check (prior 2026-10-05 check: still “later this year” / “Pending regulatory review”; 2026-09-23 check had already dropped the October-5 language). Secondary aggregator pages continue to describe CME's revised advisory as listing date **TBD**.
 
-Separately, the CFTC's Federal Register request for comment on listing compute derivatives (91 FR 54259; comments due **2026-10-20**) remains open. Secondary sources (press from 2026-09-22/25 citing The Information; the CCIR docket tracker) report that on **2026-09-21** the CFTC extended its review of NYMEX Submission No. 26-370 (CFTC product submission 62544, status "Approval Pending") by 45 days to **2026-11-09**, citing "novel or complex issues". The extension letter itself was **still not located as a primary CFTC or CME document** on this check, so 2026-11-09 is recorded as a reported review deadline, not as a verified launch date.
+Separately, the CFTC's Federal Register request for comment on listing compute derivatives (91 FR 54259; comments due **2026-10-20**) remains open. The **primary** CFTC Division of Market Oversight letter dated **2026-09-21** (retrieved and read 2026-10-13) extends the initial review of NYMEX Submission No. 26-370 / 26-370S for an additional 45 days **until the end of November 9, 2026**, citing the need for more time given “novel or complex issues” and the pending Request for Comment. **2026-11-09 is therefore a verified review-period end date, not a launch date.**
 
 CME's technical notices define the unit of measure as:
 
@@ -546,7 +546,7 @@ and state that each futures contract is based on Silicon Data benchmarks for hou
 
 ### 11B.8A Current state: announced / testable, not yet a live liquid market
 
-As of the current **2026-10-05** research state:
+As of the current **2026-10-13** research state:
 
 ~~~text
 contract specification announced
@@ -557,21 +557,23 @@ customer testing available (per Aug notices)
 +
 announced 2026-10-05 first trade date has passed with no listing observed
 +
-product page still "later this year" / "Pending regulatory review"
+CFTC 62544 / 62545 still Approval Pending (90) as of 2026-09-21 record
++
+primary CFTC letter extends review through end of 2026-11-09
 +
 CFTC public comment window still open through 2026-10-20
 +
-45-day CFTC review extension to 2026-11-09 reported (secondary only)
+CME product page unreachable this check (403); prior check still "later this year" / pending review; secondary sources say launch TBD
 but
 live trading not started
 and
-no verified primary CME/CFTC filing that sets a new firm launch date
+no verified primary CME/CFTC filing that sets a new firm launch / trade date
 ~~~
 
 Therefore the correct research state remains:
 
 > **COMPUTE-DERIVATIVES PRE-LAUNCH**
-> (announced 2026-10-05 target **missed** pending regulatory review; not a confirmed cancellation, and no verified replacement launch date)
+> (announced 2026-10-05 target **missed**; CFTC Approval Pending with primary-verified review through 2026-11-09; not a confirmed cancellation, and no verified replacement launch date)
 
 Do not write:
 
@@ -579,11 +581,11 @@ Do not write:
 - H100/B200 forward curves already reveal market consensus;
 - lenders already hedge project debt with these contracts;
 - GPU rental-price risk has become fully hedgeable;
-- the contracts are cancelled or rejected (no primary confirmation; the product remains pending review);
-- a new firm launch date of November 9 (that is a reported review deadline, secondary only, not a trade date);
+- the contracts are cancelled or rejected (no primary confirmation; the product remains Approval Pending);
+- a new firm launch date of November 9 (that is the verified CFTC review-period end, not a trade date);
 - any volume, open interest, basis or forward-curve reading (none exists).
 
-Those stronger claims require post-launch evidence or a primary regulatory/exchange filing.
+Those stronger claims require post-launch evidence or a primary regulatory/exchange filing that sets a trade date.
 
 ### 11B.8B Why this matters for project finance
 
@@ -758,5 +760,8 @@ No P0-1 / S4 state change follows from the announcement.
 - CME Group Globex Notice, 2026-08-17 — planned H100/B200 Compute Futures, GPU-H unit-of-measure support and October-5 launch schedule pending regulatory review: https://www.cmegroup.com/notices/electronic-trading/2026/08/20260817.html
 - CME Group SER-9785, 2026-08-11 — initial listing of Silicon Data H100/B200 Rental Index Futures (GPU1/GPU2), effective trade date 2026-10-05 pending CFTC review: https://www.cmegroup.com/content/dam/cmegroup/notices/ser/2026/08/ser-9785.pdf
 - CME Group, Compute Futures product page — checked 2026-09-23 and again 2026-10-05 09:10 SGT (after the Sunday Globex open for trade date 2026-10-05): still “later this year” + pending regulatory review; no listing observed: https://www.cmegroup.com/markets/energy/power/compute-futures.html
-- CCIR, “Compute Derivatives at the CFTC” docket tracker (secondary; reports CFTC product submission 62544 / NYMEX 26-370 as Approval Pending with a 2026-09-21 45-day extension to 2026-11-09): https://ccir.io/research/compute-derivatives-cftc
+- CCIR, “Compute Derivatives at the CFTC” docket tracker (secondary corroboration only): https://ccir.io/research/compute-derivatives-cftc
+- CFTC product record 62544 — Silicon Data H100 Rental Index Futures; status Approval Pending (90); date 2026-09-21 (checked 2026-10-13): https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/62544
+- CFTC product record 62545 — Silicon Data B200 Rental Index Futures; status Approval Pending (90); date 2026-09-21 (checked 2026-10-13): https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/62545
+- CFTC DMO letter, 2026-09-21 — extends NYMEX 26-370 / 26-370S review by 45 days until end of 2026-11-09 (retrieved 2026-10-13): https://www.cftc.gov/filings/documents/2026/orgdcmnymexcompcontr260921.pdf
 - CFTC, Request for Comment on the Listing of Compute Derivatives Contracts, 91 FR 54259 (comments due 2026-10-20): https://www.federalregister.gov/documents/2026/08/21/2026-17163/request-for-comment-on-the-listing-of-compute-derivatives-contracts
