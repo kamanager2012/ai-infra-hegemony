@@ -7,11 +7,11 @@
     "not disclosed": "no disclosure supplies this variable and none is expected from the ordinary reporting the panels track",
     "not yet observed": "the variable is an outcome rather than a state: no observation of it can exist before the event it describes occurs"
   },
-  "register_note": "The frozen corpus was searched in both editions for enumerated evidence-requirement checklists of the form 'a defensible X would require evidence on: [list]'. Ch23 §1B is the only one found; a search of the English edition for 'would require evidence on / would need evidence / requires evidence of' and of the Chinese edition for the corresponding 需要证据 / 需要看到 forms returns this checklist and one non-enumerated rule at Ch21. The register therefore has one entry, and it is stated as such rather than presented as a survey. If a later reading finds a second enumerated checklist, it is added here as another gate and the layer's §0 scope is unchanged.",
+  "register_note": "The frozen corpus was searched in both editions for enumerated evidence-requirement checklists of the form 'a defensible X would require evidence on: [list]'. Ch23 \u00a71B is the only one found; a search of the English edition for 'would require evidence on / would need evidence / requires evidence of' and of the Chinese edition for the corresponding \u9700\u8981\u8bc1\u636e / \u9700\u8981\u770b\u5230 forms returns this checklist and one non-enumerated rule at Ch21. The register therefore has one entry, and it is stated as such rather than presented as a survey. If a later reading finds a second enumerated checklist, it is added here as another gate and the layer's \u00a70 scope is unchanged.",
   "gates": [
     {
       "gate": "CH23-1B",
-      "chapter": "Ch23 §1B",
+      "chapter": "Ch23 \u00a71B",
       "chapter_title": "Historical analogies require contract-level evidence",
       "editions": {
         "zh": "publication/part-III-ch23-capital-financing.md",
@@ -19,27 +19,27 @@
       },
       "test": "whether the current AI buildout can be classified as a replay of the telecom bubble or the 2008 securitization cycle",
       "rule": "Without those contract-level variables, the analogy remains a research heuristic, not a formal report conclusion.",
-      "rule_zh": "如果这些 contract-level 变量没有公开，历史类比只能作为研究启发（research heuristic），不能升级成正式结论。",
+      "rule_zh": "\u5982\u679c\u8fd9\u4e9b contract-level \u53d8\u91cf\u6ca1\u6709\u516c\u5f00\uff0c\u5386\u53f2\u7c7b\u6bd4\u53ea\u80fd\u4f5c\u4e3a\u7814\u7a76\u542f\u53d1\uff08research heuristic\uff09\uff0c\u4e0d\u80fd\u5347\u7ea7\u6210\u6b63\u5f0f\u7ed3\u8bba\u3002",
       "items": [
         {
           "n": 1,
           "item": "leverage and loan-to-value",
           "state": "partly observable",
-          "where": "04C §11B.5 facility rows",
+          "where": "04C \u00a711B.5 facility rows",
           "detail": "Debt principal, coupon, maturity, collateral and non-recourse status are carried per facility. The asset-side valuation that an LTV needs is not disclosed by any facility in the panel, so the ratio itself cannot be formed from the disclosures tracked here."
         },
         {
           "n": 2,
           "item": "covenant quality and recourse",
           "state": "carried",
-          "where": "04C §11B.5, §11B.5C",
-          "detail": "A DSCR covenant of 1.15x plus a minimum-liquidity covenant (Nebius), disclosed DDTL covenant compliance (CoreWeave), and recourse recorded as such — DDTL 4.0 is largely non-recourse and several facilities sit in SPVs."
+          "where": "04C \u00a711B.5, \u00a711B.5C",
+          "detail": "A DSCR covenant of 1.15x plus a minimum-liquidity covenant (Nebius), disclosed DDTL covenant compliance (CoreWeave), and recourse recorded as such \u2014 DDTL 4.0 is largely non-recourse and several facilities sit in SPVs."
         },
         {
           "n": 3,
           "item": "take-or-pay / minimum-revenue obligations",
           "state": "carried",
-          "where": "11 §2A support taxonomy; 04D customer-prepayment row",
+          "where": "11 \u00a72A support taxonomy; 04D customer-prepayment row",
           "detail": "Carried as a distinct support form rather than as a footnote to revenue: take-or-pay colocation structures and customer prepayment / minimum payment, with the contracted cash flow identified as what supports debtability."
         },
         {
@@ -53,14 +53,14 @@
           "n": 5,
           "item": "senior / junior loss allocation",
           "state": "partly observable",
-          "where": "04C §11B.5 facility rows",
-          "detail": "Instrument seniority is recorded — senior secured notes, senior secured facilities, convertibles. The loss waterfall between tranches, which is what 'loss allocation' means, is not disclosed."
+          "where": "04C \u00a711B.5 facility rows",
+          "detail": "Instrument seniority is recorded \u2014 senior secured notes, senior secured facilities, convertibles. The loss waterfall between tranches, which is what 'loss allocation' means, is not disclosed."
         },
         {
           "n": 6,
           "item": "refinancing dependence",
           "state": "carried",
-          "where": "04C §11B.5C refinancing-state refresh",
+          "where": "04C \u00a711B.5C refinancing-state refresh",
           "detail": "Drawn state, pricing, covenant and rollover are refreshed, and two refinancing actions are observed rather than assumed: Core Scientific's March-2026 term loan repaid and replaced by the 2031 notes, and Applied Digital's bridge refinanced into the 2031 notes after year-end."
         },
         {
@@ -68,14 +68,14 @@
           "item": "default / restructuring behavior",
           "state": "not yet observed",
           "where": null,
-          "detail": "No borrower in the panel has defaulted or restructured, so this variable has no observations at all rather than a missing one. No disclosure can supply it before the event it describes, which makes this a permanent floor on the Ch23 §1B test rather than a gap that further reporting closes."
+          "detail": "No borrower in the panel has defaulted or restructured, so this variable has no observations at all rather than a missing one. No disclosure can supply it before the event it describes, which makes this a permanent floor on the Ch23 \u00a71B test rather than a gap that further reporting closes."
         },
         {
           "n": 8,
           "item": "transferability and secondary-market liquidity of the underlying assets",
           "state": "not yet observed",
           "where": null,
-          "detail": "No secondary market for GPU or data-center assets exists at observable liquidity. 11 §6 lists successful asset transfer between customers or operators as a falsification signal — i.e. something to watch for, not something measured. The adjacent market-structure item, the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-10-13: announced date missed; CFTC Approval Pending, review through 2026-11-09), is likewise pending liquidity rather than carrying any."
+          "detail": "No secondary market for GPU or data-center assets exists at observable liquidity. 11 \u00a76 lists successful asset transfer between customers or operators as a falsification signal \u2014 i.e. something to watch for, not something measured. The adjacent market-structure item, the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-10-26: announced date missed; CFTC Approval Pending, review through 2026-11-09; RFC closed; non-tradable index curve data \u2260 futures launch), is likewise pending liquidity rather than carrying any."
         }
       ]
     }
