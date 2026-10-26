@@ -285,18 +285,8 @@
         "§2A"
       ],
       "acknowledgement_note": "Declares no upstream acknowledgement: its upstream is the frozen 32-chapter text, which this layer system reads and cannot write to. That asymmetry is the reason the layer exists.",
-      "token_note": "This layer's headline set is citations rather than numbers, and deliberately so: its output is a classification, and classification labels are language-specific while the sections a variable is carried by are not. The three-way check therefore asserts that the script, the canonical and the translation agree on WHICH section carries WHICH variable - which is the table's load-bearing content and the thing that would rot if a panel were renumbered.",
+      "token_note": "This layer's headline set is source-section identifiers (CH23-1B, §11B.5, §11B.5C, §2A), which the script reads from versioned item where-fields. Exact item-to-state classification is asserted by the recompute script; the research-panel counts are D-grade, not numerical inference about systemic clearing. Payment/lease guarantee caps were removed as borrowed anchors because they do NOT evidence the distinct residual-value/repurchase obligation requested by the chapter.",
       "borrowed_anchors": [
-        {
-          "literal": "US$105B",
-          "source": "04d",
-          "role": "SB Energy cap, cited as a residual-value guarantee"
-        },
-        {
-          "literal": "US$3.529B",
-          "source": "04d",
-          "role": "NVIDIA LPS cap, cited for the same checklist item"
-        },
         {
           "literal": "1.15",
           "source": "04c",
