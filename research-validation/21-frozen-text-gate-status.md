@@ -1,4 +1,4 @@
-# Phase II · Frozen-Text Gate Status v0.1
+# Phase II · Frozen-Text Gate Status v0.2
 
 > **Status:** Research-side validation layer; not part of the frozen 32-chapter formal report, and does not change the formal 2026-08-28 evidence cutoff.  
 > **Purpose:** record the coverage status of a test the frozen formal text sets for itself, which the chapter cannot record without breaching the freeze.  
@@ -11,7 +11,7 @@ This file owns:
 
 - the **register of tests the frozen formal text sets for itself**, and the coverage status of each;
 - the **classification** of a frozen test's required variables into carried / partly observable / not disclosed / not yet observed;
-- the **permanent-floor result**: which required variables cannot be observed before the outcome they describe, and what that does and does not imply.
+- the **observation-boundary result**: which required variables are absent from the sampled panel, which may be observed before a default, and which require an event to have occurred.
 
 It does **not** own: any chapter's text or conclusion (the frozen 32 chapters), any facility, borrower or support fact (`04C`/`04D`/`11`), the historical-analogy question itself (Ch23 §1B), scenario aggregation (`10`), or clearing adjudication (`01A`). It creates **no anchors** — every item is quoted from the chapter and every coverage claim points at a section of a layer that already exists.
 
@@ -33,53 +33,58 @@ That is a test the report sets for itself, with its own stopping rule. What the 
 
 ## 2. The tabulation
 
-Eight items, classified by what the research panels carry:
+Eight items, classified by **exact variable identity** and by what the tracked research panels actually carry. A lease-payment backstop is not automatically a residual-value guarantee; generic support categories are not substitutes for contract terms.
 
-| # | Required variable (quoted from Ch23 §1B) | Status | Carried by |
+| # | Required variable (quoted from Ch23 §1B) | Status | Evidence owner / boundary |
 |---:|---|---|---|
-| 1 | leverage and loan-to-value | **partly observable** | `04C` §11B.5 facility rows |
+| 1 | leverage and loan-to-value | **partly observable** | `04C` §11B.5: debt/collateral terms exist; facility-matched collateral valuation is missing |
 | 2 | covenant quality and recourse | **carried** | `04C` §11B.5, §11B.5C |
-| 3 | take-or-pay / minimum-revenue obligations | **carried** | `11` §2A support taxonomy; `04D` customer-prepayment row |
-| 4 | residual-value guarantees or repurchase commitments | **carried** | `04D` support table |
-| 5 | senior / junior loss allocation | **partly observable** | `04C` §11B.5 facility rows |
+| 3 | take-or-pay / minimum-revenue obligations | **carried** | `11` §2A support taxonomy; `04D` customer-prepayment row; coverage is not a complete facility census |
+| 4 | residual-value guarantees or repurchase commitments | **not disclosed** | `04D` tracks lease/payment and completion guarantees, but these do not themselves establish a residual-value floor or repurchase obligation |
+| 5 | senior / junior loss allocation | **partly observable** | `04C` §11B.5: instrument ranking exists; intercreditor waterfall and tranche-level recovery allocation are missing |
 | 6 | refinancing dependence | **carried** | `04C` §11B.5C refinancing-state refresh |
-| 7 | default / restructuring behavior | **not yet observed** | — |
-| 8 | transferability and secondary-market liquidity of the underlying assets | **not yet observed** | — |
+| 7 | default / restructuring behavior | **not yet observed** | No such event recorded in the tracked current borrower panel; not a prediction about future events |
+| 8 | transferability and secondary-market liquidity of the underlying assets | **not disclosed** | The tracked panels lack comparable facility-asset transaction, realized-price, depth, spread, transfer-restriction and recovery observations |
 
-**Carried: 4 of 8. Partly observable: 2. Not yet observed: 2. Not disclosed: 0.**
+**Carried: 3 of 8. Partly observable: 2. Not disclosed: 2. Not yet observed: 1.** These are *panel coverage counts*, not percentages of a market, causal confidence weights, or evidence that the eight variables have been resolved at the level needed for the historical analogy.
 
-The two half-observable items fail in the same way: the half that exists is the instrument side, and the half that is missing is the valuation side. Debt principal, coupon, maturity, collateral and non-recourse status are carried per facility, but no facility discloses the asset-side value an LTV needs, so the ratio cannot be formed. Instrument seniority is recorded, but the loss waterfall between tranches — which is what *loss allocation* means — is not. **Neither is a collection gap. Both are disclosure boundaries**, and the panels report them as such rather than substituting a proxy.
+The two partly observable items have **different missing contracts**. Item 1 needs facility-matched asset valuation to calculate LTV. Item 5 needs the priority, intercreditor, subordination and loss-waterfall terms to trace senior/junior allocation; a valuation by itself cannot supply that legal allocation. Item 4 is not carried merely because `04D` tracks guarantee caps: payment/lease-performance guarantees, project-completion backstops, residual-value protection, and repurchase undertakings answer different questions.
 
-## 3. The permanent floor
+## 3. Observation boundaries, not an irreversible floor
 
-Items 7 and 8 are not uncovered. They are **unobservable in advance**, and the difference is the result.
+The former v0.1 claim that *both* items 7 and 8 are structurally unobservable before distress was too strong.
 
-A bubble is identified *ex post*: by defaults, and by assets that fail to transfer to a new owner at a defensible value. Both are **outcomes rather than states**. No disclosure can supply a default before it happens, and no reporting supplies secondary-market liquidity for a market that does not yet exist. The adjacent market-structure item — the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-10-26: announced date missed; CFTC Approval Pending, review through 2026-11-09; RFC closed; non-tradable index curve *data* ≠ futures launch) — is in exactly this position and is treated that way in `04C`: pending liquidity rather than carrying any.
+**Item 7 is event-contingent in the observed cohort.** Default or restructuring behavior for a given borrower cannot be recorded as an occurred event before it occurs. Nevertheless, a panel can observe *other* borrowers' defaults and restructurings, analyze contractual recovery rights in advance, and update this item's status if a tracked borrower has an event. The current label is a bounded absence in this cohort, not a theorem that the historical comparison can never be evaluated.
 
-So the Ch23 §1B test is not "6 of 8 covered, two gaps remaining". It has a **floor that further reporting cannot lift**, because the two decisive variables are the two that only exist after the question is settled. This is a stronger statement than *the evidence is incomplete*, and it is the reason this layer exists rather than a line in a panel.
+**Item 8 is potentially observable before default.** Used GPUs, servers and data-center assets may have resale prices, transfers, bids, depth and restrictions before any distressed sale. The relevant research gap is narrower: `04C` / `11` do not yet carry a reliable matched series of realized transfers, prices, depth, transferability restrictions and recoveries for the *pledged assets* in the borrower sample. The existence of a resale quote would not by itself demonstrate scalable liquidity, distressed recovery value or transferable customer contracts.
 
-**What it does not mean.** It does **not** make the analogy wrong, and it does **not** make a bubble less likely. A buildout can be a bubble and default behavior can be the proof — that is precisely why the variable is decisive. What follows is narrower and, for this report's purposes, more useful: **the analogy cannot be promoted to a conclusion by any amount of further disclosure**, so Ch23 §1B's stopping rule is not a temporary state of the evidence. The chapter's own caution and the structural bound agree.
+**Do not substitute a compute-price derivative for physical collateral liquidity.** A contract or index concerning the price of computing capacity is a distinct object from a sale of financed GPUs or data-center assets; its launch or trading activity cannot close item 8.
+
+The historical telecom/securitization analogy **remains a research heuristic under Ch23 §1B** because material evidence is not yet closed, not because a permanent logical barrier forbids its reassessment. Future verified disclosures and actual transactions could change coverage without automatically proving or disproving the analogy. No S1–S4 state or frozen chapter changes here.
 
 ## 4. What would change it
 
-1. **A first default or restructuring in the panel** would convert item 7 from *not yet observed* to an observation — and it would be a genuinely new facility state, not a disclosure. This is the only item here that a future *event* rather than a future *filing* can move.
-2. **A secondary transaction in GPU or data-center assets** at a disclosed price would begin item 8, though one transaction is a price, not a market.
-3. **A disclosed asset-side valuation attached to a facility** would close items 1 and 5 together, since both wait on the same missing half.
-4. **A second enumerated checklist found in the frozen corpus** would add a gate to the register. The §0 scope does not change; the register is additive by construction.
+1. **A documented default or restructuring within the sampled cohort** moves item 7 from *not yet observed* to an observed event only after `04C` records the borrower, date, obligation and resolution.
+2. **Auditable asset-sale, bid/ask and transfer records** with model/condition, transaction size, dates and asset/legal perimeter could move item 8 toward *partly observable* or *carried*. A single indicative quote is neither an executed sale nor a liquid market; evidence must match the pledged-asset scope.
+3. **Facility-matched collateral valuation** can advance item 1, but only if the debt and asset units and valuation date close.
+4. **Intercreditor and priority-of-payments documentation** can advance item 5. Collateral valuation alone cannot resolve it.
+5. **A contractual residual-value floor or repurchase undertaking, including triggers and obligor**, can advance item 4. An ordinary rent/lease-payment guarantee cannot.
+6. **A second enumerated checklist from the frozen corpus** adds a registered gate, not an inferred one.
 
-## 5. Falsification conditions
+## 5. Falsification / correction conditions
 
-1. **A facility disclosing an asset-side valuation that the panels had missed** would move items 1 and 5 to *carried* and would show this tabulation understating coverage.
-2. **A default already recorded somewhere in the repository** would break item 7's *not yet observed* status and would make the permanent-floor argument wrong for the current population.
-3. **An operating secondary market in GPU assets with observable pricing** would break item 8, and with it the claim that the floor is structural rather than a 2026 condition.
-4. **A frozen-text gate whose variables are all observable in advance** would show the permanent floor to be a property of this gate rather than a general one — which is the correct reading and is stated as such in §0's scope.
+1. Evidence of a facility-matched valuation the panel missed challenges item 1; an actual intercreditor loss waterfall challenges item 5. Neither automatically changes the other.
+2. A verified residual-value guarantee or repurchase obligation attached to a named asset/facility challenges item 4. A capped performance or payment guarantee is insufficient.
+3. Evidence of actual matched secondary-market transfers and transaction depth for pledged assets challenges item 8. Listing prices alone do not.
+4. A default/restructuring already recorded in `04C` challenges item 7 and requires correction of the sample status.
+5. If the assumed source owners change their observations, update them first and rerun this classification. Do not turn a coverage change into a conclusion about an asset-price bubble.
 
 ## 6. Boundary rules
 
 - **Status, never conclusion.** This layer records what the panels carry. It cannot promote the analogy, reject the analogy, or write anything into a chapter. The formal reopen gate is unchanged and this layer is not a path around it.
 - **No new numeric identity.** Every item is quoted from Ch23 §1B; every coverage claim names an existing section. Nothing is estimated.
-- **`not yet observed` is not zero and not N/A.** Items 7 and 8 are absences of the *observable* class, which is why they are counted separately from *not disclosed* — a distinction this layer exists to preserve.
-- **No proxy substitution.** Where a variable is half-carried, the missing half is stated as missing rather than filled with a substitute, which is what makes items 1 and 5 *partly observable* rather than *carried*.
+- **`not yet observed` is not zero and not N/A.** Item 7 means no event is recorded in the sampled cohort. Item 8 is *not disclosed* in the tracked facility-asset data, not inherently impossible to observe before default. Missing does not mean nonexistent.
+- **No proxy substitution.** Keep legal waterfalls distinct from collateral valuation, residual-value support distinct from payment guarantees, and physical asset resale distinct from compute-price contracts. Partial inputs do not complete the variable.
 - **The register is not a survey.** One gate, stated as one gate. Adding a second requires finding one, not inferring one.
 - **No double-counting with `04C`/`04D`/`11`.** Those layers own the facts; this one owns only their coverage of a chapter's list. A fact that changes here changes them first.
 - **No scenario switch, no S4, no composite index.** This layer cannot change `10`'s scenario relevance, confirm S4, or enter the frozen chapters, and its counts must never be netted into a score.
@@ -98,7 +103,7 @@ No new external source. Every item is quoted from the frozen chapter and every c
 
 - The eight required contract-level variables, the analogy test, and the stopping rule — Ch23 §1B: [`publication/part-III-ch23-capital-financing.md`](../publication/part-III-ch23-capital-financing.md) / [`en/publication/part-III-ch23-capital-financing.md`](../en/publication/part-III-ch23-capital-financing.md)
 - Facility debt, covenant, recourse, refinancing state — [`04C`](04c-project-finance-borrower-panel.md) §11B.5, §11B.5C
-- Guarantee caps and residual value as a tracked field — [`04D`](04d-supplier-support-panel.md) support table
+- Lease/payment and completion guarantee categories, **not** evidence of a contractual residual-value floor — [`04D`](04d-supplier-support-panel.md) §11C.3 support table
 - Take-or-pay and customer-prepayment support forms — [`11`](11-financing-reflexivity-map.md) §2A
 - Asset-transfer falsification signal — [`11`](11-financing-reflexivity-map.md) §6
 - Evidence hierarchy and report-side calculation labeling — [Research Transparency](../publication/04-research-transparency.md)
