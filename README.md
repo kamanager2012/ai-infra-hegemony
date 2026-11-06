@@ -1,5 +1,20 @@
+<div align="center">
+
 # AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
 ### AI基础设施格局重塑：2026–2036结构性产业展望
+
+[![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge)](README.zh-CN.md)
+[![Web Edition](https://img.shields.io/badge/Live-Web%20Edition-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
+
+**English Canonical** | [简体中文版 (README.zh-CN.md)](README.zh-CN.md) | [32-Chapter English Report](en/publication/README.md) | [32章中文完整报告](publication/README.md) | [2026 Q4 Addendum](2026-Q4-ROLLING-ADDENDUM.en.md)
+
+</div>
+
+> [!TIP]
+> **中文读者导读：** 本报告由作者团队提供完整中文专业翻译与技术分析。您可以直接点击切换至 **[简体中文主页 (README.zh-CN.md)](README.zh-CN.md)**，或直接阅读 **[32章中文完整报告](publication/README.md)** 与最新 **[2026 Q4 滚动研究补丁 (中文版)](2026-Q4-ROLLING-ADDENDUM.md)**。
+
+---
 
 **How the AI Compute Buildout Is Reallocating Semiconductors, Memory, Advanced Packaging, Power, Capital, and End-Market Capacity**
 

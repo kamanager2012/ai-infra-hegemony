@@ -1,6 +1,11 @@
 # 2026 Q4 滚动研究补丁：事实更新、范式跃迁与实证检验
 ### 2026 Q4 Rolling Research Addendum: Empirical Validation, Paradigm Shifts, and Downstream Transmission
 
+<div align="right">
+  <strong>Language:</strong>
+  <b>简体中文</b> | <a href="2026-Q4-ROLLING-ADDENDUM.en.md">English Canonical</a> | <a href="README.zh-CN.md">报告主页</a>
+</div>
+
 > **版本身份：** 2026 Q4 滚动跟踪补丁（Research Layer Addendum v1.0）  
 > **证据截止（Evidence Cutoff）：** 2026-11-06  
 > **基准报告参照：** 《AI基础设施格局重塑：2026–2036》（32章冻结正文，2026-08-28 cutoff）  

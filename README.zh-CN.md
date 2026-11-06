@@ -1,5 +1,20 @@
+<div align="center">
+
 # AI基础设施格局重塑：2026–2036结构性产业展望
 ### AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
+
+[![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge)](README.zh-CN.md)
+[![在线阅读](https://img.shields.io/badge/在线-网页版-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
+
+**简体中文版** | [English Canonical (README.md)](README.md) | [32章中文完整报告](publication/README.md) | [32-Chapter English Report](en/publication/README.md) | [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md)
+
+</div>
+
+> [!TIP]
+> **Language Switcher:** The English edition is the canonical analytical text. Click here for the **[English Canonical Homepage (README.md)](README.md)**, the **[32-Chapter English Edition](en/publication/README.md)**, or the **[2026 Q4 Rolling Addendum (English)](2026-Q4-ROLLING-ADDENDUM.en.md)**.
+
+---
 
 **AI 算力扩张如何重配半导体、存储、先进封装、电力、资本与终端产能**
 
