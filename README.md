@@ -305,11 +305,11 @@ This report is for industry research and information exchange. It does not const
 
 Future judgments can change as technology, demand, capital, regulation, geopolitics, and supply evolve.
 
-## Copyright and citation
+## Copyright, Commercial Use, and Citation
 
-Original research text and materials are licensed under the **[MIT License](LICENSE)**. You are free to copy, redistribute, remix, adapt, and build upon this material for any purpose, including commercial use, provided that proper attribution and the original copyright notice are retained. See [LICENSE](LICENSE) for full terms. Third-party material remains subject to the rights and licenses of its respective owners.
+Original research text and materials are licensed under the **[MIT License](LICENSE)** (see [Chinese Guide & Commercial Reuse Notice](LICENSE.zh-CN.md)). You are free to copy, redistribute, remix, adapt, and build upon this material for any purpose, including commercial use, provided that proper attribution and the original copyright notice are retained. See [LICENSE](LICENSE) for full terms. Third-party material remains subject to the rights and licenses of its respective owners.
 
-Citation metadata is available in [CITATION.cff](CITATION.cff).
+Citation metadata is available in [CITATION.cff](CITATION.cff) and the web rights overview in [Rights & Permissions](docs/rights.html).
 
 ## Corrections and counterevidence
 

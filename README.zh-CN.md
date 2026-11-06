@@ -302,11 +302,11 @@ S2 是当前基线，不是十年单点预测：supply elasticity、substitution
 
 未来判断会随技术、需求、资本、监管、地缘政治与供给变化而调整。
 
-## 版权与引用
+## 版权、商用与引用
 
-原创研究文本、数据台账与模型框架采用 **[MIT 开源许可证](LICENSE)** 授权。允许自由复制、转载、修改与商业化利用，唯一条件是在所有副本中完整保留原作者版权声明（Copyright (c) 2026 James Oldman）与 MIT 许可。具体许可规则见 [LICENSE](LICENSE)。第三方材料仍受其各自权利人和许可条件约束。
+原创研究文本、数据台账与模型框架正式采用 **[MIT 开源许可证](LICENSE)**（详见 [中文说明与商用转载授权指南](LICENSE.zh-CN.md)）。允许自由复制、转载、修改与商业化利用，唯一条件是在所有副本中完整保留原作者版权声明（`Copyright (c) 2026 James Oldman`）与 MIT 许可。第三方材料仍受其各自权利人和许可条件约束。
 
-引用信息见 [CITATION.cff](CITATION.cff)。
+完整引用元数据见 [CITATION.cff](CITATION.cff)，网页版权限说明见 [Rights & Permissions](docs/rights.html)。
 
 ## 纠错与反方意见
 

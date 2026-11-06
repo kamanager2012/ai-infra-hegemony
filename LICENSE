@@ -19,13 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-### 中文简要说明（供参考，以英文条款为准）
-
-本研究报告项目（包括所有正文文本、图表、数据台账、模型框架及关联工具代码）现采用 **MIT 许可证** 开源发布：
-
-1. **自由复制与转载**：您可以自由复制、转载、分发、传播本项目的全部或部分内容；
-2. **商业化使用（Commercial Use）**：允许将本报告内容用于商业用途，包括商业出版、研报整合、咨询报告、付费培训等；
-3. **强制署名（Attribution）**：任何复制、修改、演绎或转载版本中，必须完整保留原作者的版权声明（`Copyright (c) 2026 James Oldman (kamanager2012)`）与 MIT 许可全文。
