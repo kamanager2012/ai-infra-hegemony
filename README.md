@@ -14,7 +14,10 @@ Canonical research language: **English**. The Chinese edition is the authorized 
 **Edition revision:** September 14, 2026  
 Research claims use evidence available by the cutoff. Later edits in this edition are limited to corrections, evidence-boundary repairs, bilingual parity, and editorial restructuring; the revision history is documented separately.
 
-[Web edition source](docs/) · [Research Brief](en/publication/RESEARCH_BRIEF.md) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master View](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
+[Web edition source](docs/) · [Research Brief](en/publication/RESEARCH_BRIEF.md) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master View](en/publication/part-IV-ch32-master-judgment.md) · [2026 Q4 Rolling Addendum](2026-Q4-ROLLING-ADDENDUM.md) · [中文版](README.zh-CN.md)
+
+> [!NOTE]
+> **Rolling Research Update (November 2026):** See [2026 Q4 Rolling Research Addendum](2026-Q4-ROLLING-ADDENDUM.md) for Q3 hyperscaler earnings updates, the FERC decision on Talen/AWS nuclear co-location (validating that secured capacity ≠ energized load), the shift toward test-time reasoning compute, and real-world downstream transmission (PC component & smartphone inflation).
 
 ---
 

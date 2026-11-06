@@ -12,7 +12,10 @@
 **Edition revision：** 2026-09-14  
 本版研究判断只使用 cutoff 前可获得的证据。cutoff 后的本版编辑仅用于纠错、证据边界修复、双语一致性与论证结构调整；完整修订记录单独保留。
 
-[网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
+[网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md) · [English](README.md)
+
+> [!NOTE]
+> **最新动态跟踪（2026-11-06）：** 现已发布 [《2026 Q4 滚动研究补丁：事实更新、范式跃迁与实证检验》](2026-Q4-ROLLING-ADDENDUM.md)，记录了四云 2026 Q3 财报更新、FERC 否决 AWS/Talen 核电直供案（证实签约不等于上电）、o1 测试时推理算力演进，以及 2026 秋季 PC 配件与手机涨价潮的下游成本传导实证。
 
 ---
 
