@@ -1,38 +1,31 @@
-# All Rights Reserved
+MIT License
 
-Copyright © 2026 James (kamanager2012). All rights reserved.
+Copyright (c) 2026 James Oldman (kamanager2012)
 
-## Scope
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This notice applies to the original research text, analysis, tables, charts, taxonomies, frameworks, compilations, publication structure, website content, and other original material in this repository and its published web/PDF editions, except where a third-party work is separately identified.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Third-party quotations, data, trademarks, company materials, filings, papers, news reports, and other referenced materials remain subject to the rights, licenses, and legal terms of their respective owners.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-## No General License Granted
+---
 
-Except to the extent permitted by applicable law, no permission is granted to copy, reproduce, republish, redistribute, sublicense, sell, commercially exploit, modify, adapt, translate, create derivative works from, or otherwise reuse the protected material without prior written permission from the copyright holder.
+### 中文简要说明（供参考，以英文条款为准）
 
-Public availability for reading does not constitute an open-source, open-content, Creative Commons, or other general reuse license.
+本研究报告项目（包括所有正文文本、图表、数据台账、模型框架及关联工具代码）现采用 **MIT 许可证** 开源发布：
 
-## Automated Extraction, Datasets, and AI Use
-
-Except to the extent permitted by applicable law or by prior written permission, the protected material may not be:
-
-- systematically scraped, harvested, mirrored, or bulk-downloaded;
-- incorporated into a commercial or non-public corpus, benchmark, database, or dataset;
-- used as training, fine-tuning, preference-optimization, distillation, synthetic-data, retrieval-index, embedding-corpus, or evaluation material for an AI or machine-learning system;
-- reproduced or redistributed through an automated service in substantial part.
-
-This section is intended as an express reservation of rights and does not purport to restrict uses that applicable law independently permits without authorization.
-
-## Citation and Limited Quotation
-
-Citation of the report and limited quotation for criticism, commentary, scholarship, research, teaching, news reporting, or other uses permitted by applicable law are not prohibited by this notice. Where attribution is appropriate, cite the title, author/alias, edition or version, year, and canonical publication URL.
-
-## Permissions
-
-Any permission not expressly granted above requires prior written authorization from the copyright holder.
-
-## No Warranty
-
-The material is provided for research and informational purposes only, without warranties of any kind. It does not constitute investment, legal, accounting, or other professional advice.
+1. **自由复制与转载**：您可以自由复制、转载、分发、传播本项目的全部或部分内容；
+2. **商业化使用（Commercial Use）**：允许将本报告内容用于商业用途，包括商业出版、研报整合、咨询报告、付费培训等；
+3. **强制署名（Attribution）**：任何复制、修改、演绎或转载版本中，必须完整保留原作者的版权声明（`Copyright (c) 2026 James Oldman (kamanager2012)`）与 MIT 许可全文。

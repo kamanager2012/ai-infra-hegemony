@@ -5,6 +5,7 @@
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
 [![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge)](README.zh-CN.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Web Edition](https://img.shields.io/badge/Live-Web%20Edition-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
 
 **English Canonical** | [简体中文版 (README.zh-CN.md)](README.zh-CN.md) | [32-Chapter English Report](en/publication/README.md) | [32章中文完整报告](publication/README.md) | [2026 Q4 Addendum](2026-Q4-ROLLING-ADDENDUM.en.md)
@@ -306,7 +307,7 @@ Future judgments can change as technology, demand, capital, regulation, geopolit
 
 ## Copyright and citation
 
-Original research text is **All Rights Reserved**. Public availability does not grant a general reuse license. See [LICENSE](LICENSE) for the rights reservation, permissions policy, and treatment of automated extraction / AI use. Third-party material remains subject to the rights and licenses of its respective owners.
+Original research text and materials are licensed under the **[MIT License](LICENSE)**. You are free to copy, redistribute, remix, adapt, and build upon this material for any purpose, including commercial use, provided that proper attribution and the original copyright notice are retained. See [LICENSE](LICENSE) for full terms. Third-party material remains subject to the rights and licenses of its respective owners.
 
 Citation metadata is available in [CITATION.cff](CITATION.cff).
 
