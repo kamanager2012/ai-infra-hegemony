@@ -216,6 +216,18 @@ DeepSeek 等案例的训练成本、架构效率与单位智能经济学详见[�
 - external developer adoption；
 - migration cost 持续下降。
 
+**Table 12.1 — Production substitution 的度量模板（宣称 S1 前必须先填实）。** 未在同一 denominator 下填实每一行，不得把 stack 从“真实第二路径”升级为“经济替代”。
+
+| 指标 | 可观测代理 | 分母/单位 | 频率/时钟 | 不算数 |
+|---|---|---|---|---|
+| Production-workload share | `custom-stack production workloads / total production workloads`，以同一 workload class（frontier training 或命名 inference tier）为准 | 同 class 的 workload 计数或 compute-time，以可披露者为准 | 可披露时按季度，否则按事件 | 出货量、发布公告、benchmark |
+| Utilization | 同一 production workload 上的 fleet 实测利用率 | 同一 workload tier 上的已部署 accelerator | 财报/产品披露 | 名义容量、secured GW、设计 IT-GW |
+| System TCO | 每验证 workload 的全成本（accelerator + memory + interconnect + 工程 + 故障） | 同一 workload tier、同一可靠性目标 | 按 generation | 单看 die 价格、单看峰值 FLOPS |
+| Migration cost | 迁移命名 workload 的工程时间 + 性能损失 | 按命名 workload | 按 generation | 只存在 compiler/runtime |
+| Upstream dependence | 自研 stack 的 logic / HBM / packaging / power 来源 | 按层物理单位 | 按 generation | 营收份额代理 |
+
+截至 2026-08-28 cutoff，这些行在公开数据中尚不完整；因此本报告的结论上限为“真实第二路径”，而非已度量的经济替代。
+
 ---
 
 ## 10A. 两级 Threshold：Internal Economics 与 External Ecosystem

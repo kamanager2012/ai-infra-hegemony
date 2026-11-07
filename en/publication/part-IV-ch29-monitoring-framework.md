@@ -316,6 +316,18 @@ Multiple independent families among utilization/revenue, market clearing, forwar
 
 Dominant-platform economics stay strong while alternative stacks continue developing; scarce layers remain tight but keep expanding; CapEx remains high while ROI is still serviceable.
 
+**Table 29.6 — From qualitative trigger to observable proxy (no universal numeric threshold).** Each row is judged on its own clock and denominator; breadth across rows and actors is required before the headline scenario reweights.
+
+| Qualitative trigger | Observable proxy | Materiality / persistence basis | Cross-actor requirement | What does not trigger |
+|---|---|---|---|---|
+| S1: substitution matures | production-workload share + utilization + TCO on the same workload tier | consecutive production periods, not one launch | at least two independent stacks or buyers | benchmark win, GA announcement alone |
+| S1: supply elasticity improves | HBM/packaging lead time, same-supplier tightness language, residual supply to non-AI tier | same-definition readings across repeated quarterly windows | upstream + downstream alignment | one quarter price dip |
+| S3: quantity assurance concentrates | allocation fulfillment, LTA/prepayment access, secured-to-energized conversion by buyer tier | priority vs non-priority divergence persisting across disclosures | multiple scarce layers at once | one buyer securing one tranche |
+| Financing-led S4 | supplier equity/credit share, guarantee cap vs utilized draw, independent risk-capital terms | direction over consecutive filings vs utilization | seller + buyer + third-party capital together | one impairment alone (severity only) |
+| Demand-led S4 | utilization, clearing prices, forward-commitment rescheduling, customer cash generation | broad deterioration across families and actors over repeated periods | at least one real-economy/market/commitment signal | one weak quarter, one stock-price move |
+
+**Financing independence ratio (watch item).** For each project/buyer, track `supplier-supported financing / total project financing` and `maximum guarantee exposure / underlying lease or offtake`. A rising ratio with falling utilization is the reflexivity warning sign: formation is accelerating while demand independence is eroding. A falling ratio with rising utilization points the other way. No single ratio decides S4; it is read alongside Dashboard I families.
+
 ## 12A. Materiality and persistence follow each variable's clock
 
 The report does **not** impose a universal rule such as "two quarters" or "three months" across all variables.

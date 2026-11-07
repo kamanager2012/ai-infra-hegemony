@@ -163,6 +163,8 @@ S4 不等于 AI usage 消失；资本清算之后，低价 compute 仍可能刺�
 **Source:** 本报告 S1–S4 scenario framework。  
 **Note:** 四类情景是并列条件状态，不赋固定概率，也不是必然连续阶段。
 
+如何用 Table 30.1 避免 false precision：把每个“核心驱动”映射到 [第29章 Table 29.5–29.6](part-IV-ch29-monitoring-framework.md) 的可观测代理与持续性依据。改判需要可比的同分母观察 + 该变量自身时钟上的 cross-actor / cross-layer breadth；窄口径或脱离时钟的 headline 不得改 headline scenario。无同单位度量时，Gap 标注为 not measurable from public data，而不是用其他单位替代。
+
 ## 5A. Capacity Gap 是 Diagnostic Axis，不是第五种 Scenario
 
 S1–S4 仍然是并列条件状态；不另设第二套 scenario taxonomy。为了把“这一层今天是否短缺”与“压力是在扩大还是收敛”分开，使用两个互补指标。

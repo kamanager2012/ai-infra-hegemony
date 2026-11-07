@@ -307,6 +307,20 @@ A2. **infrastructure / capital continuity**：HBM、packaging、LPS/power 与长
 
 这一区分可以避免两个相反错误：既不能因为仍有进口依赖就否认真实替代系统，也不能因为系统已经能运行，就宣布所有 frontier critical layers 已经自主闭环。
 
+**Table 17.2 — 七个 Production-Grade Gate 的可观测指标。** 未按下列指标填实每一门，系统只算“部分部署”，不算“闭合”。
+
+| Gate | 可观测指标 | 算数 | 不算数 |
+|---|---|---|---|
+| 1. Accelerator/compute | 命名 production cluster 中已装机 accelerator 数量 + 持续 uptime | vendor 披露 + 客户部署 | 一次性 benchmark、单节点 demo |
+| 2. Memory subsystem | 已 qualification 的 HBM-class 带宽/容量 per device + 合格量产供给 | 官方产品 + qualification + 量产披露 | 传统 DDR/LPDDR 营收份额、把招股书沉默当作否定/肯定 |
+| 3. Advanced packaging | 合格 package starts/期 + 按良率交付的整机吞吐 | 供应商披露的产能 + 交付 | foundry 营收份额、只看逻辑节点进展 |
+| 4. Interconnect | 命名集群拓扑上的 scale-up/scale-out 带宽 + collective scaling | 集群实测 scaling | 只看单颗 link spec 而无集群验证 |
+| 5. Compiler/runtime | 命名 workload 上的算子覆盖、框架兼容、迁移时间/性能损失 | production porting 证据 | 只存在 compiler 或宣称峰值 FLOPS |
+| 6. Frontier production workload | 命名 frontier/high-value workload 在生产规模上持续反馈 | workload 名 + 规模 + 持续时间 | 实验室单次运行、inference demo |
+| 7. Utilization / economics | 同一集群的 utilization、reliability（uptime/MTBF）、每验证 workload 成本 | 实测 utilization + 单位经济 | 已公布容量、设计 GW、secured GW |
+
+传统 DRAM/NAND 的存在、手机 SoC 发货份额、foundry 营收份额，均不能替代 Gate 2/3/6/7。
+
 ## 12. 为什么 Partial Closure 已经影响全球竞争
 
 如果中国 parallel stack 在 advanced logic、HBM、packaging、interconnect 与 software 上同时规模化，它可能不只是“替代进口”，还可能形成第二个大型 resource-allocation center：新的 foundry、memory、packaging、power 与长期资本需求将进入全球/区域资源分配。

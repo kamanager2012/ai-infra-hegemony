@@ -39,6 +39,8 @@ Editorial rule:
 
 The objective is not to produce a single deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be tested against later public evidence. Facts emerging after **August 28, 2026** belong to a later evidence cycle; they may be used to re-evaluate the framework, but they are not backdated into this edition's evidence set.
 
+**Title lineage.** The repository slug and historical shorthand name `ai-infra-hegemony` refer to the research question, not to a current finding. The report's evidence-based baseline is S2 — Baseline Concentration; S3 — Resource Hegemony is a conditional hypothesis. The site title `AI Infrastructure Reordering` is the canonical name.
+
 
 ### Entry point for end-system and industrial-supply readers
 

@@ -36,7 +36,7 @@
 
 NVIDIA 当前最强的优势，不是“拥有所有物理资源”，而是能够把 GPU、CPU、HBM、NVLink、CUDA/runtime、rack-scale architecture、供应链与大规模 workload 组织成成熟的通用商业系统。
 
-NVIDIA 披露的 aggregate **forward supply / capacity commitment family** 在三个报告时点连续上升：2026-01-25 为 **US$95.2B**、2026-04-26 为 **US$119B**、2026-07-26 为 **US$279B**。[^1] 各报告期底层 mix 与 duration 并不完全相同，且文件没有披露 supplier-level split；因此，这一序列可以支持“forward reservation intensity 上升”，不能被改写成 TSMC、CoWoS 或某一家 HBM vendor 的确定收入。
+NVIDIA 披露的 aggregate **forward supply / capacity commitment family** 在三个报告时点连续上升：2026-01-25 为 **US$95.2B**、2026-04-26 为 **US$119B**、2026-07-26 为 **US$279B**。[^1] 各报告期底层 mix 与 duration 并不完全相同，且文件没有披露 supplier-level split，可取消性、take-or-pay 与到期分布未公开；因此，这一序列按 family-scale indicator 支持“forward reservation intensity 上升”，不作同质增长率，不能被改写成 TSMC、CoWoS 或某一家 HBM vendor 的确定收入，也不能作为 durable reservation 证据，合同条款披露前不得作耐久性推断。
 
 真正需要跟踪的不是历史 customer revenue share，而是：
 
@@ -50,7 +50,7 @@ NVIDIA 披露的 aggregate **forward supply / capacity commitment family** 在�
 
 因此，产业竞争可以从“谁愿意出更高价格”转向“谁能够获得稳定数量、稳定交付和系统级优先级”。
 
-2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型资本提供方宣布建立 compute financing platforms，目标是随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^13][^14]
+2026 年 8 月的最新变化进一步扩大了 system coordination 的边界。NVIDIA 一方面与六家大型资本提供方宣布建立 compute financing platforms，目标是**在最终协议前提下**随时间动员 **>US$500B third-party capital**；另一方面在 PORTS-Pike 项目中为 land、power 与 shell buildout 提供 credit support，初始部署设计支持 **4.25 IT-GW**，OpenAI 为客户。[^13][^14] 该动员目标仅按已宣布意愿处理，未披露最终协议/已承诺资本前，不得升级为融资协调能力证据。
 
 FY27 Q2 Form 10-Q 又给出风险侧规模：PORTS-Pike 相关 guarantees 覆盖约 **4.25 GW IT load** 的 leases，aggregate obligations 上限为 **US$105B**，并随 data centers 进入 service 分阶段生效。[^15] 这是 maximum conditional credit exposure，不是 deployed capital、funded CapEx 或当前 cash outflow。
 
