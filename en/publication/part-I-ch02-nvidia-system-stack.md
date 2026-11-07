@@ -96,7 +96,7 @@ If system-level advantage produces high profit and free cash flow, it can influe
 
 The FY27 Q2 10-Q states that the latest commitments are primarily associated with memory and manufacturing facilities required for data-center infrastructure systems.[^4] The filing does not split the US$279B across TSMC, CoWoS, SK hynix, Micron, Samsung, or any other individual supplier.
 
-The number therefore demonstrates the scale of aggregate forward supply commitments; it is not evidence of any specific supplier's future revenue.
+The number therefore demonstrates the scale of aggregate forward supply commitments; it is not evidence of any specific supplier's future revenue. Public filings do not disclose cancellability, take-or-pay terms, prepayment fractions, or maturity profiles, so the sequence is treated as a family-scale indicator of forward reservation intensity, not as a homogeneous growth-rate series and not as evidence of durable reservation. Any claim about durability must await disclosure of those contract terms.
 
 ![Figure 4 — NVIDIA forward supply / capacity commitment family in 2026](figures/fig-04-nvidia-forward-commitments.svg)
 

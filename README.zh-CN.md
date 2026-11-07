@@ -28,6 +28,8 @@
 **Edition revision：** 2026-09-14  
 本版研究判断只使用 cutoff 前可获得的证据。cutoff 后的本版编辑仅用于纠错、证据边界修复、双语一致性与论证结构调整；完整修订记录单独保留。
 
+> **如何阅读仓库名。** slug `ai-infra-hegemony` 只是历史性的研究问题简称，不是本报告的当前结论。截至 cutoff 的证据基线是 **S2 — Baseline Concentration**（高增长、高集中与真实替代路径并存），而非 S3 — Resource Hegemony。资源霸权始终作为带明确证伪信号的条件假设处理，不作为事实陈述。详见 [第1章](publication/part-I-ch01-executive-summary.md) 与 [第30章](publication/part-IV-ch30-scenarios.md)。
+
 [网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md) · [English](README.md)
 
 > [!NOTE]
@@ -74,9 +76,9 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 | HBM manufacturing intensity | Micron：same node / same bits 下 HBM3E 约需 DDR5 **3× wafer supply** | first-party physical trade ratio | 不是售价倍数；不是所有 HBM generation 的永久比例 |
 | HBM allocation intensity | TrendForce 2026E：HBM wafer input **在前三大供应商中**约占 total DRAM wafer input 的 **22%**；HBM bit supply 约占 total DRAM bit supply 的 **9%** | B 级 institutional forecast | 两个 scope 不完全一致，不能把 22%/9% 正式相除；同口径 physical anchor 继续使用 Micron same-node / same-bits ≈3× |
 | Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1% 到 −2%** | B 级 institutional forecast | 是 aggregate DRAM，不是 HBM-specific |
-| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B** | first-party filing | aggregate commitments；没有 supplier-level split |
+| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B** | first-party filing | family，非同质时间序列；mix/duration 不同；无 supplier split；斜率非增长率；可取消性/条款未披露 |
 | LPS / power coordination | PORTS-Pike 初始 **4.25 IT-GW design capacity**，计划自 2028 分阶段交付 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |
-| Infrastructure finance | NVIDIA 与金融机构公布 **>US$500B** third-party-capital mobilization target | first-party target | target ≠ funded / committed / deployed capital |
+| Infrastructure finance | NVIDIA 与金融机构公布 **>US$500B** third-party-capital mobilization target | first-party target | target ≠ funded / committed / deployed capital；仅在披露最终协议/已承诺资本时才升级为能力证据 |
 
 完整 denominator audit 与计算见[第8章：Quantitative Framework](publication/part-I-ch08-quantitative-framework.md)。
 

@@ -36,7 +36,7 @@ The Master View therefore answers a different question from [Chapter 1](part-I-c
 
 NVIDIA's current advantage is not ownership of every physical input. It is the ability to organize GPUs, CPUs, HBM, NVLink, CUDA/runtime, rack-scale architecture, supply-chain commitments, and large workloads into a mature general-purpose commercial system.
 
-NVIDIA's disclosed aggregate **forward supply / capacity commitment family** rose across three reporting dates: **US$95.2B** on January 25, 2026, **US$119B** on April 26, and **US$279B** on July 26.[^1] The underlying mix and duration are not identical across reporting dates, and the filings do not disclose a supplier-level split; the sequence therefore indicates rising forward reservation intensity, not confirmed revenue for TSMC, CoWoS, or any single HBM vendor.
+NVIDIA's disclosed aggregate **forward supply / capacity commitment family** rose across three reporting dates: **US$95.2B** on January 25, 2026, **US$119B** on April 26, and **US$279B** on July 26.[^1] The underlying mix and duration are not identical across reporting dates, the filings do not disclose a supplier-level split, and cancellability, take-or-pay terms, and maturity profiles are not publicly disclosed. The sequence therefore indicates rising forward reservation intensity as a family-scale indicator, not a homogeneous growth-rate series, not confirmed revenue for TSMC, CoWoS, or any single HBM vendor, and not evidence of durable reservation until those contract terms are disclosed.
 
 The correct long-run metric is:
 
@@ -50,7 +50,7 @@ Therefore:
 
 Competition can therefore shift from "who is willing to pay more?" toward "who can secure stable quantities, delivery timing, and system-level priority?"
 
-The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large capital providers, targeting **more than US$500B of third-party capital mobilization over time**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^13][^14]
+The latest 2026 developments extend system coordination beyond semiconductor supply. NVIDIA announced compute-financing platforms with six large capital providers, targeting **more than US$500B of third-party capital mobilization over time subject to final agreements**, and separately provided credit support for land, power, and shell at the PORTS-Pike project, whose initial deployment is designed for **4.25 IT-GW** with OpenAI as the customer.[^13][^14] The mobilization target is treated as announced intent only; it does not upgrade to financing-coordination capability evidence until final agreements or committed-capital figures are disclosed.
 
 The FY27 Q2 Form 10-Q adds the risk-side scale: aggregate PORTS-Pike guarantee obligations are capped at **US$105B** across leases covering approximately **4.25 GW of IT load**, with guarantees phasing in as data centers enter service.[^15] This is maximum conditional credit exposure, not deployed capital, funded CapEx, or current cash outflow.
 
