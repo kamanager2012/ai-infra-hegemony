@@ -5,7 +5,7 @@
 
 [![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
 [![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge)](README.zh-CN.md)
-[![开源协议: MIT](https://img.shields.io/badge/协议-MIT-yellow?style=for-the-badge)](LICENSE)
+[![协议: CC BY-NC-ND 4.0](https://img.shields.io/badge/协议-CC_BY--NC--ND_4.0-lightgrey.svg?style=for-the-badge)](LICENSE)
 [![在线阅读](https://img.shields.io/badge/在线-网页版-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
 
 **简体中文版** | [English Canonical (README.md)](README.md) | [32章中文完整报告](publication/README.md) | [32-Chapter English Report](en/publication/README.md) | [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md)
@@ -304,7 +304,7 @@ S2 是当前基线，不是十年单点预测：supply elasticity、substitution
 
 ## 版权、商用与引用
 
-原创研究文本、数据台账与模型框架正式采用 **[MIT 开源许可证](LICENSE)**（详见 [中文说明与商用转载授权指南](LICENSE.zh-CN.md)）。允许自由复制、转载、修改与商业化利用，唯一条件是在所有副本中完整保留原作者版权声明（`Copyright (c) 2026 James Oldman`）与 MIT 许可。第三方材料仍受其各自权利人和许可条件约束。
+原创研究文本、数据台账与模型框架正式采用 **[CC BY-NC-ND 4.0 许可证（署名-非商业性使用-禁止演绎）](LICENSE)**（详见 [中文说明与版权边界指南](LICENSE.zh-CN.md)）。允许个人非商业性阅读与引用，严格禁止任何商业化营利用途，禁止任何未经授权的洗稿演绎。第三方材料仍受其各自权利人和许可条件约束。
 
 完整引用元数据见 [CITATION.cff](CITATION.cff)，网页版权限说明见 [Rights & Permissions](docs/rights.html)。
 
