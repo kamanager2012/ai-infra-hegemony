@@ -64,7 +64,7 @@
       evidence:[
         ["TSMC · 2Q26","66% / 77%","HPC was 66% of total revenue; 7 nm and below were 77% of wafer revenue. The denominators are separate and neither is customer-level wafer allocation."],
         ["HBM · PHYSICAL INTENSITY","≈3×","Micron: at the same technology node and the same number of bits, HBM3E requires approximately 3× the wafer supply of DDR5. It is not a price multiple or a permanent ratio for every HBM generation."],
-        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family across Jan. 25, Apr. 26 and Jul. 26. Reporting labels, mix and duration are not assumed homogeneous."],
+        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family across Jan. 25, Apr. 26 and Jul. 26. Reporting labels, mix and duration are not assumed homogeneous. Terms/cancellability undisclosed; the sequence is a family-scale indicator, not a growth rate."],
         ["FINANCING · RISK EXPOSURE","105 / 4.1","US$B maximum guarantee exposures: NVIDIA PORTS-Pike US$105B; AMD US$4.1B. They are not funded CapEx or additive demand totals; PORTS-Pike’s 4.25 IT-GW is design capacity, not active load."]
       ],
       boundaryEyebrow:"EVIDENCE DISCIPLINE",
@@ -115,7 +115,7 @@
       evidence:[
         ["TSMC · 2Q26","66% / 77%","HPC 占 total revenue 66%；7 nm 及以下占 wafer revenue 77%。两个 denominator 分开，均不是 customer-level wafer allocation。"],
         ["HBM · PHYSICAL INTENSITY","≈3×","Micron：same technology node / same number of bits 下，HBM3E 约需 DDR5 的 3× wafer supply。它不是价格倍数，也不是所有 HBM generation 的永久比例。"],
-        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family，对应 1 月 25 日、4 月 26 日、7 月 26 日。不同报告时点的 label、mix 与 duration 不视为同质。"],
+        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family，对应 1 月 25 日、4 月 26 日、7 月 26 日。不同报告时点的 label、mix 与 duration 不视为同质；条款/可取消性未披露，该序列是 family-scale 指标而非增长率。"],
         ["FINANCING · RISK EXPOSURE","105 / 4.1","US$B maximum guarantee exposure：NVIDIA PORTS-Pike US$105B；AMD US$4.1B。两者不是 funded CapEx 或可加总 demand；PORTS-Pike 4.25 IT-GW 是 design capacity，不是 active load。"]
       ],
       boundaryEyebrow:"证据纪律",

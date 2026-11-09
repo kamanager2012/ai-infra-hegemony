@@ -26,7 +26,7 @@
 
 > **S2 — Baseline Concentration：high growth、强势 leading platform、scarce-layer concentration，与可信但尚不完整的 substitution path 同时存在。**
 
-这不是一个确定性的 2036 forecast，而是当前证据最支持的结构状态。
+这不是一个确定性的 2036 forecast，而是当前证据最支持的结构状态。仓库名与历史上使用的“hegemony”标签属于标题谱系中的研究问题，不是当前发现；S3 — Resource Hegemony 仍是带明确反向信号的条件假设。
 
 ![图 1 — 竞争单位已经从 Chip 上移到 System Stack](figures/fig-01-system-stack.svg)
 

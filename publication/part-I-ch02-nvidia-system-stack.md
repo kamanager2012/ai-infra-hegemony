@@ -93,7 +93,7 @@ PTX 的作用尤其重要：NVIDIA 官方将 PTX 描述为跨多代 GPU 的 **st
 **Source:** NVIDIA FY26 results / FY26 Form 10-K、FY27 Q2 results 与 FY27 Q2 Form 10-Q.[^2][^3][^4][^8]  
 **Note:** US$279B 为 FY27 Q2 10-Q 披露的 aggregate **supply and capacity commitments**；公开文件未提供 supplier-level split。
 
-FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。[^4]公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。
+FY27 Q2 10-Q 说明，最新 commitments 主要与 data-center infrastructure systems 所需的 memory 和 manufacturing facilities 有关。[^4]公开文件没有把 US$279B 拆分到 TSMC、CoWoS、SK hynix、Micron 或 Samsung，因此它只能证明整体前置供应承诺规模，不能写成任何单一供应商的确定收入。公开文件未披露可取消性、take-or-pay、预付款比例或到期分布，因此该序列按 family-scale indicator 处理，不作同质增长率，也不作为 durable reservation 证据；合同条款披露前不得作耐久性推断。
 
 ![图 4 — NVIDIA 2026 年 forward supply / capacity commitment family](figures/fig-04-nvidia-forward-commitments.svg)
 

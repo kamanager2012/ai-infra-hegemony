@@ -30,6 +30,8 @@ Canonical research language: **English**. The Chinese edition is the authorized 
 **Edition revision:** September 14, 2026  
 Research claims use evidence available by the cutoff. Later edits in this edition are limited to corrections, evidence-boundary repairs, bilingual parity, and editorial restructuring; the revision history is documented separately.
 
+> **How to read the repository name.** The workspace slug `ai-infra-hegemony` is a historical shorthand for the research question, not the report's current conclusion. The report's evidence-based baseline as of the cutoff is **S2 — Baseline Concentration** (high growth, high concentration, credible substitution paths coexisting), not S3 — Resource Hegemony. Resource hegemony is treated throughout as a conditional hypothesis with explicit falsification signals; it is not asserted as a fact. See [Chapter 1](en/publication/part-I-ch01-executive-summary.md) and [Chapter 30](en/publication/part-IV-ch30-scenarios.md).
+
 [Web edition source](docs/) · [Research Brief](en/publication/RESEARCH_BRIEF.md) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master View](en/publication/part-IV-ch32-master-judgment.md) · [2026 Q4 Rolling Addendum](2026-Q4-ROLLING-ADDENDUM.md) · [中文版](README.zh-CN.md)
 
 > [!NOTE]
@@ -76,9 +78,9 @@ This table is intentionally narrow: it shows the public observations and report-
 | HBM manufacturing intensity | Micron: HBM3E requires **≈3× wafer supply** vs. DDR5 at the same node / same bits | first-party physical trade ratio | not a price multiple; not a permanent ratio for every HBM generation |
 | HBM allocation intensity | TrendForce 2026E: HBM wafer input **among the top three suppliers** ≈**22%** of total DRAM wafer input; HBM bit supply ≈**9%** of total DRAM bit supply | B-grade institutional forecast | the scopes are not identical enough to divide 22% by 9%; use Micron's same-node / same-bits ≈3× as the comparable physical anchor |
 | Aggregate DRAM balance | 2026 sufficiency ratio estimated at roughly **−1% to −2%** | B-grade institutional forecast | aggregate DRAM, not HBM-specific |
-| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments: **US$95.2B → US$279B** from Jan. 25 to Jul. 26, 2026 | first-party filing | aggregate commitments; no supplier-level split |
+| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments: **US$95.2B → US$279B** from Jan. 25 to Jul. 26, 2026 | first-party filing | family, not homogeneous time series; mix/duration differ; no supplier split; slope is not a growth rate; cancellability/terms undisclosed |
 | LPS / power coordination | PORTS-Pike initial **4.25 IT-GW design capacity**, phased delivery planned from 2028 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |
-| Infrastructure finance | **>US$500B** third-party-capital mobilization target announced by NVIDIA and financial partners | first-party target | target ≠ funded / committed / deployed capital |
+| Infrastructure finance | **>US$500B** third-party-capital mobilization target announced by NVIDIA and financial partners | first-party target | target ≠ funded / committed / deployed capital; upgrade to capability evidence only when final agreements/committed capital are disclosed |
 
 For the full denominator audit and calculations, see [Chapter 8 — Quantitative Framework](en/publication/part-I-ch08-quantitative-framework.md).
 

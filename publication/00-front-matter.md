@@ -41,6 +41,8 @@
 
 研究目标不是给出单一的“2036 年预测”，而是建立一套可被后续公开事实检验的产业分析框架。**2026-08-28** 之后出现的新事实属于下一 evidence cycle，可用于重新评估当前框架，但不会倒写进本版 evidence set。
 
+**标题谱系。** 仓库 slug 与历史简称 `ai-infra-hegemony` 指的是研究问题，不是当前发现。本报告的证据基线是 S2 — Baseline Concentration；S3 — Resource Hegemony 是条件假设。站点标题 `AI Infrastructure Reordering` 为规范名称。
+
 
 ### 给整机与产业链读者的入口
 

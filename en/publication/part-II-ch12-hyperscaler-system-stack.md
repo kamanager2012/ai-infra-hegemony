@@ -162,6 +162,18 @@ But broader erosion of an external general-purpose platform additionally require
 - external developer adoption;
 - persistently lower migration cost.
 
+**Table 12.1 — Measurement template for production substitution (supply this table before claiming S1).** A stack cannot be upgraded from "real second route" to "economic substitution" until each row below is filled on the same denominator.
+
+| Metric | Observable proxy | Denominator / unit | Cadence / clock | What does not count |
+|---|---|---|---|---|
+| Production-workload share | `custom-stack production workloads / total production workloads` on the same workload class (frontier training or named inference tier) | workload count or compute-time on that class, disclosed where available | quarterly where disclosed; otherwise event-driven | chip shipments, launch announcements, benchmark wins |
+| Utilization | measured fleet utilization on the stated production workload | deployed accelerators on the same workload tier | earnings / product disclosure | nameplate capacity, secured GW, designed IT-GW |
+| System TCO | all-in cost per verified workload (accelerator + memory + interconnect + engineering + failure cost) | same workload tier, same reliability target | per generation | die price alone, peak FLOPS |
+| Migration cost | engineering time + performance loss to move a named workload between stacks | per named workload | per generation | existence of a compiler or runtime alone |
+| Upstream dependence | logic / HBM / packaging / power source for the custom stack | layer-specific physical unit | per generation | revenue-share proxies |
+
+As of the August 28, 2026 cutoff these rows remain incomplete from public data. The report's conclusion is therefore capped at "real second route," not at measured economic substitution.
+
 ---
 
 ## 10A. Two thresholds: internal economics and external ecosystem
