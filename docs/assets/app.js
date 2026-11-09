@@ -91,7 +91,7 @@
       notes:"Notes",
       footerEdition:"Structural Industry Outlook · 2026 edition",
       footerBrief:"Research Brief",footerTransparency:"Transparency & Corrections",
-      footerNote:"English is the canonical analytical edition. Public reading does not grant a general reuse license."
+      footerNote:"English is the canonical analytical edition (CC BY-NC-ND 4.0). See Rights for details."
     },
     zh:{
       heroKicker:"产业研究 · 中文专业译本",
