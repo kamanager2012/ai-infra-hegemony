@@ -13,7 +13,8 @@
   ],
   "chapters_per_language": 32,
   "public_appendices_per_language": 11,
-  "rights": "All Rights Reserved",
+  "rights": "CC BY-NC-ND 4.0",
+  "source_commit": "dca5732dbc92b38ef2df346143661d58b6e66660",
   "publication_model": "private-source-public-snapshot",
   "analysis_horizon": "2026–2036",
   "baseline_year": 2026
