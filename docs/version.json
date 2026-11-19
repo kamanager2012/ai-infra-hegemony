@@ -31,5 +31,16 @@
         "zh"
       ]
     }
-  ]
+  ],
+  "rolling_research": {
+    "version": "2026-Q4-v1.1",
+    "supersedes": "2026-Q4-v1.0",
+    "evidence_cutoff": "2026-11-19",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "document_key": "2026-Q4-ROLLING-ADDENDUM.md",
+    "status": "dated post-cutoff research addendum; does not supersede frozen baseline"
+  }
 }
