@@ -157,7 +157,7 @@
   const publicDocuments = new Set([
     "00-front-matter.md","01-table-of-contents.md","01-list-of-figures.md","02-list-of-tables.md",
     "RESEARCH_BRIEF.md","03-abbreviations-and-glossary.md","04-research-transparency.md","05-competitive-evidence-matrix.md",
-    "核心证据台账.md","核心参考文献索引.md","核心概念与模型索引.md","核心假设矩阵.md","外部研究对照索引.md"
+    "核心证据台账.md","核心参考文献索引.md","核心概念与模型索引.md","核心假设矩阵.md","外部研究对照索引.md","2026-Q4-ROLLING-ADDENDUM.md"
   ]);
 
   function chapterUrl(n, language = lang) {
@@ -518,6 +518,8 @@
     $("masterJudgment").href = chapterUrl(32);
     $("specialStudy").textContent = lang === "zh" ? "特别研究 Ch33 · 黄仁勋退场" : "Special Study Ch33 · Jensen Huang succession";
     $("specialStudy").href = chapterUrl(33);
+    $("q4ResearchUpdate").textContent = lang === "zh" ? "Q4 更新 v1.1 · 事实纠错与行业复核" : "Q4 Update v1.1 · Corrections & Industry Review";
+    $("q4ResearchUpdate").href = documentUrl("2026-Q4-ROLLING-ADDENDUM.md");
 
     $("editionLabel").textContent = t.edition;
     $("cutoffLabel").textContent = t.cutoff;
