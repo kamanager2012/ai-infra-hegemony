@@ -8,7 +8,7 @@
 [![协议: CC BY-NC-ND 4.0](https://img.shields.io/badge/协议-CC_BY--NC--ND_4.0-lightgrey.svg?style=for-the-badge)](LICENSE)
 [![在线阅读](https://img.shields.io/badge/在线-网页版-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
 
-**简体中文版** | [English Canonical (README.md)](README.md) | [32章中文完整报告](publication/README.md) | [32-Chapter English Report](en/publication/README.md) | [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md)
+**简体中文版** | [English Canonical (README.md)](README.md) | [32章中文完整报告](publication/README.md) | [32-Chapter English Report](en/publication/README.md) | [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md) | [特别研究第33章：黄仁勋退场](publication/part-IV-ch33-founder-succession.md)
 
 </div>
 

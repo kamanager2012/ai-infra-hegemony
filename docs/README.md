@@ -47,6 +47,10 @@ The website presents the same publication snapshot through:
 
 The website does not create a second research narrative.
 
+## Post-cutoff special chapter
+
+Chapter 33 (Jensen Huang succession and NVIDIA system coordination) is a dated 2026 Q4 special study with evidence cutoff **2026-11-19**. It is readable through `?lang=en&chapter=33` and `?lang=zh&chapter=33`, backed by `docs/content/{en,zh}/part-4.json`. This addition does not change the 32-chapter base evidence cutoff or imply that post-cutoff facts were available on 2026-08-28.
+
 ## Revision discipline
 
 English is the canonical analytical edition. A substantive change is resolved in English first and then synchronized to Chinese. The web bundles are publication snapshots of those canonical files.
@@ -55,4 +59,4 @@ Evidence cutoff and edition revision remain distinct: facts after **2026-08-28**
 
 ## Rights
 
-Original research material is **All Rights Reserved**. The public reader summary is in [`rights.html`](rights.html); the repository `LICENSE` remains authoritative for the source repository.
+The original research is distributed under **CC BY-NC-ND 4.0** as specified in the repository `LICENSE`. The public reader summary is in [`rights.html`](rights.html); the repository `LICENSE` remains authoritative for the source repository.

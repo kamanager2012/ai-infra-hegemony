@@ -33,7 +33,8 @@
     {n:29,part:4,file:"part-IV-ch29-monitoring-framework.md",en:"Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting",zh:"Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting"},
     {n:30,part:4,file:"part-IV-ch30-scenarios.md",en:"Scenario Framework — Distinguishing S1–S4",zh:"Scenario Framework——S1–S4 判别"},
     {n:31,part:4,file:"part-IV-ch31-strategy-endgame.md",en:"Strategic Implications Across Alternative AI Infrastructure States",zh:"不同 AI 基础设施状态下的战略含义"},
-    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",en:"Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View",zh:"Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断"}
+    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",en:"Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View",zh:"Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断"},
+    {n:33,part:4,file:"part-IV-ch33-founder-succession.md",en:"Special Study — After Jensen Huang: Succession and System Coordination",zh:"特别研究——黄仁勋退场：系统协调权力的继承与再分配"}
   ];
 
   const partNames = {
@@ -74,7 +75,7 @@
         ["Target ≠ funded capital.","Guarantee exposure, CapEx and independent demand remain separate."],
         ["Substitution ≠ autonomy.","Production-grade deployment and frontier closure are different tests."]
       ],
-      indexEyebrow:"FULL REPORT",indexTitle:"32-chapter research map",
+      indexEyebrow:"FULL REPORT",indexTitle:"32-chapter baseline + 2026 Q4 special study",
       indexNote:"English is the canonical research language. Chinese is the professional parity edition.",
       searchPlaceholder:"Search chapter titles…",searchLabel:"Search chapters",
       libraryEyebrow:"RESEARCH LIBRARY",libraryTitle:"Publication and audit companions",
@@ -84,7 +85,7 @@
         ["Evidence Ledger","High-impact source-of-truth identities"],["Source Index","Primary and institutional source map"],["Hypothesis Matrix","H1–H19 and falsification structure"]
       ],
       back:"Report home",copy:"Copy link",copied:"Copied",chapters:"Chapters",onPage:"ON THIS PAGE",backTop:"Back to top ↑",
-      readerEdition:"2026 EDITION",readerTitle:"32 chapters",prev:"Previous",next:"Next",
+      readerEdition:"2026 EDITION",readerTitle:"32 core chapters + Ch33 special study",prev:"Previous",next:"Next",
       appendix:"PUBLIC RESEARCH APPENDIX",loading:"Loading report…",
       unavailableChapter:"This chapter is unavailable in the current public snapshot.",
       unavailableDoc:"This document is not included in the public publication snapshot.",
@@ -125,7 +126,7 @@
         ["Target ≠ funded capital。","Guarantee exposure、CapEx 与 independent demand 分开。"],
         ["Substitution ≠ autonomy。","Production-grade deployment 与 frontier closure 是两套测试。"]
       ],
-      indexEyebrow:"完整报告",indexTitle:"32 章研究地图",
+      indexEyebrow:"完整报告",indexTitle:"32 章基准报告 + 2026 Q4 特别研究",
       indexNote:"英文是 canonical research language；中文为专业 parity edition。",
       searchPlaceholder:"搜索章节标题…",searchLabel:"搜索章节",
       libraryEyebrow:"研究资料库",libraryTitle:"出版层与审计 companion",
@@ -135,7 +136,7 @@
         ["核心证据台账","高影响 source-of-truth identity"],["核心参考文献索引","一手与机构来源地图"],["核心假设矩阵","H1–H19 与 falsification structure"]
       ],
       back:"报告首页",copy:"复制链接",copied:"已复制",chapters:"章节",onPage:"本页目录",backTop:"返回顶部 ↑",
-      readerEdition:"2026 版",readerTitle:"32 章",prev:"上一章",next:"下一章",
+      readerEdition:"2026 版",readerTitle:"32 章基准 + Ch33 特别研究",prev:"上一章",next:"下一章",
       appendix:"公开研究附录",loading:"正在载入报告…",
       unavailableChapter:"本章当前未包含在公开出版快照中。",
       unavailableDoc:"该文档未包含在公开出版快照中。",
@@ -149,7 +150,7 @@
   const $ = (id) => document.getElementById(id);
   const params = new URLSearchParams(location.search);
   let lang = params.get("lang") === "zh" ? "zh" : "en";
-  const chapterNo = Math.min(32, Math.max(1, Number(params.get("chapter") || 1)));
+  const chapterNo = Math.min(chapters.length, Math.max(1, Number(params.get("chapter") || 1)));
   let sectionObserver = null;
   const bundleCache = new Map();
 
@@ -515,6 +516,8 @@
     $("startReading").href = chapterUrl(1);
     $("masterJudgment").textContent = t.master;
     $("masterJudgment").href = chapterUrl(32);
+    $("specialStudy").textContent = lang === "zh" ? "特别研究 Ch33 · 黄仁勋退场" : "Special Study Ch33 · Jensen Huang succession";
+    $("specialStudy").href = chapterUrl(33);
 
     $("editionLabel").textContent = t.edition;
     $("cutoffLabel").textContent = t.cutoff;
@@ -602,13 +605,13 @@
     $("readerNav").classList.remove("open");
 
     const c = chapters[n - 1];
-    $("readerPart").textContent = partNames[lang][c.part];
+    $("readerPart").textContent = c.n === 33 ? (lang === "zh" ? "2026 Q4 · 特别研究（2026-11-19证据截止）" : "2026 Q4 · SPECIAL STUDY (2026-11-19 CUTOFF)") : partNames[lang][c.part];
     $("readerChapterLabel").textContent = "CH " + String(c.n).padStart(2,"0");
     buildChapterIndex($("readerChapterList"), true);
 
     $("prevChapter").textContent = c.n > 1 ? "← " + ui[lang].prev + " · CH " + String(c.n - 1).padStart(2,"0") : "";
     $("prevChapter").href = c.n > 1 ? chapterUrl(c.n - 1) : "#";
-    $("nextChapter").textContent = c.n < 32 ? ui[lang].next + " · CH " + String(c.n + 1).padStart(2,"0") + " →" : "";
+    $("nextChapter").textContent = c.n < chapters.length ? ui[lang].next + " · CH " + String(c.n + 1).padStart(2,"0") + " →" : "";
     $("nextChapter").href = c.n < 32 ? chapterUrl(c.n + 1) : "#";
 
     $("readerBody").innerHTML = '<div class="loading">' + escapeHtml(ui[lang].loading) + '</div>';
