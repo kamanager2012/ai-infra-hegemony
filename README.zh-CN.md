@@ -1,5 +1,21 @@
+<div align="center">
+
 # AI基础设施格局重塑：2026–2036结构性产业展望
 ### AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
+
+[![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge)](README.zh-CN.md)
+[![协议: CC BY-NC-ND 4.0](https://img.shields.io/badge/协议-CC_BY--NC--ND_4.0-lightgrey.svg?style=for-the-badge)](LICENSE)
+[![在线阅读](https://img.shields.io/badge/在线-网页版-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
+
+**简体中文版** | [English Canonical (README.md)](README.md) | [32章中文完整报告](publication/README.md) | [32-Chapter English Report](en/publication/README.md) | [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md) | [特别研究第33章：黄仁勋退场](publication/part-IV-ch33-founder-succession.md)
+
+</div>
+
+> [!TIP]
+> **Language Switcher:** The English edition is the canonical analytical text. Click here for the **[English Canonical Homepage (README.md)](README.md)**, the **[32-Chapter English Edition](en/publication/README.md)**, or the **[2026 Q4 Rolling Addendum (English)](2026-Q4-ROLLING-ADDENDUM.en.md)**.
+
+---
 
 **AI 算力扩张如何重配半导体、存储、先进封装、电力、资本与终端产能**
 
@@ -12,7 +28,12 @@
 **Edition revision：** 2026-09-14  
 本版研究判断只使用 cutoff 前可获得的证据。cutoff 后的本版编辑仅用于纠错、证据边界修复、双语一致性与论证结构调整；完整修订记录单独保留。
 
-[网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [English](README.md)
+> **如何阅读仓库名。** slug `ai-infra-hegemony` 只是历史性的研究问题简称，不是本报告的当前结论。截至 cutoff 的证据基线是 **S2 — Baseline Concentration**（高增长、高集中与真实替代路径并存），而非 S3 — Resource Hegemony。资源霸权始终作为带明确证伪信号的条件假设处理，不作为事实陈述。详见 [第1章](publication/part-I-ch01-executive-summary.md) 与 [第30章](publication/part-IV-ch30-scenarios.md)。
+
+[网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md) · [English](README.md)
+
+> [!NOTE]
+> **最新研究更新 v1.1（证据截止 2026-11-19）：** [《2026 Q4 滚动研究补丁：事实纠错与产业复核》](2026-Q4-ROLLING-ADDENDUM.md) · [英文规范稿](2026-Q4-ROLLING-ADDENDUM.en.md)。本版明确修正四云Q3财务数字，以及将**2024年**FERC AWS/Talen裁决错写为2026年新事件的问题；撤回o1和2024款手机芯片被错归到2026年，以及未充分核实的“所有存储/手机全面大涨”表述。新增NVIDIA **3,900亿美元**综合供应承诺、HBM4/NAND市场分化及BIS跨境远程算力监管分析。原**2026-08-28冻结的32章**保持不变；[第33章](publication/part-IV-ch33-founder-succession.md)独立研究黄仁勋离任。
 
 ---
 
@@ -55,9 +76,9 @@ AI 产业竞争正在从“谁拥有更快的一颗 accelerator”上移到完�
 | HBM manufacturing intensity | Micron：same node / same bits 下 HBM3E 约需 DDR5 **3× wafer supply** | first-party physical trade ratio | 不是售价倍数；不是所有 HBM generation 的永久比例 |
 | HBM allocation intensity | TrendForce 2026E：HBM wafer input **在前三大供应商中**约占 total DRAM wafer input 的 **22%**；HBM bit supply 约占 total DRAM bit supply 的 **9%** | B 级 institutional forecast | 两个 scope 不完全一致，不能把 22%/9% 正式相除；同口径 physical anchor 继续使用 Micron same-node / same-bits ≈3× |
 | Aggregate DRAM balance | 2026 sufficiency ratio 约 **−1% 到 −2%** | B 级 institutional forecast | 是 aggregate DRAM，不是 HBM-specific |
-| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B** | first-party filing | aggregate commitments；没有 supplier-level split |
+| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments 从 2026-01-25 的 **US$95.2B** 增至 2026-07-26 的 **US$279B** | first-party filing | family，非同质时间序列；mix/duration 不同；无 supplier split；斜率非增长率；可取消性/条款未披露 |
 | LPS / power coordination | PORTS-Pike 初始 **4.25 IT-GW design capacity**，计划自 2028 分阶段交付 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |
-| Infrastructure finance | NVIDIA 与金融机构公布 **>US$500B** third-party-capital mobilization target | first-party target | target ≠ funded / committed / deployed capital |
+| Infrastructure finance | NVIDIA 与金融机构公布 **>US$500B** third-party-capital mobilization target | first-party target | target ≠ funded / committed / deployed capital；仅在披露最终协议/已承诺资本时才升级为能力证据 |
 
 完整 denominator audit 与计算见[第8章：Quantitative Framework](publication/part-I-ch08-quantitative-framework.md)。
 
@@ -283,11 +304,11 @@ S2 是当前基线，不是十年单点预测：supply elasticity、substitution
 
 未来判断会随技术、需求、资本、监管、地缘政治与供给变化而调整。
 
-## 版权与引用
+## 版权、商用与引用
 
-原创研究文本采用 **All Rights Reserved（保留全部权利）**。公开可阅读不代表授予一般复制、改编、再分发、商业利用、批量抓取或 AI 训练/数据集使用许可；具体权利保留与许可规则见 [LICENSE](LICENSE)。第三方材料仍受其各自权利人和许可条件约束。
+原创研究文本、数据台账与模型框架正式采用 **[CC BY-NC-ND 4.0 许可证（署名-非商业性使用-禁止演绎）](LICENSE)**（详见 [中文说明与版权边界指南](LICENSE.zh-CN.md)）。允许个人非商业性阅读与引用，严格禁止任何商业化营利用途，禁止任何未经授权的洗稿演绎。第三方材料仍受其各自权利人和许可条件约束。
 
-引用信息见 [CITATION.cff](CITATION.cff)。
+完整引用元数据见 [CITATION.cff](CITATION.cff)，网页版权限说明见 [Rights & Permissions](docs/rights.html)。
 
 ## 纠错与反方意见
 

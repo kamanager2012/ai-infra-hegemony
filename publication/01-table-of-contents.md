@@ -86,6 +86,10 @@ Ch25–Ch26（劳动与教育）属于**二阶外部传导 / 扩展影响**，�
 31. [不同 AI 基础设施状态下的战略含义](part-IV-ch31-strategy-endgame.md)
 32. [Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断](part-IV-ch32-master-judgment.md)
 
+## 2026 Q4 特别研究 · 原32章冻结正文之外
+
+33. [黄仁勋退场：系统协调权力的继承与再分配](part-IV-ch33-founder-succession.md) · 证据截止 2026-11-19。
+
 ## 研究附录
 
 - [核心证据台账](../核心证据台账.md)

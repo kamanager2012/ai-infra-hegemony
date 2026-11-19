@@ -302,6 +302,18 @@ utilization / revenue、market clearing、forward commitments、demand-financing
 
 dominant platform economics 强，但 alternative stacks 继续发展；scarce layers 仍紧但持续扩产；CapEx 高且 ROI 仍可支撑。
 
+**Table 29.6 — 定性触发到可观测代理（不设统一数值阈值）。** 每行按各自的时钟与分母判断； headline scenario 改判需要跨行、跨 actor 的 breadth。
+
+| 定性触发 | 可观测代理 | 显著性/持续性依据 | 跨主体要求 | 不算触发 |
+|---|---|---|---|---|
+| S1：替代成熟 | 同一 workload tier 的 production-workload share + utilization + TCO | 连续 production 多期，非单次发布 | 至少两个独立 stack 或买家 | benchmark、GA 公告本身 |
+| S1：供给弹性改善 | HBM/packaging lead time、同一供应商 tightness 措辞、非 AI tier 的 residual supply | 跨重复季度窗口的同定义读数 | 上游 + 下游对齐 | 一次季度价格下行 |
+| S3：quantity assurance 集中 | allocation fulfillment、LTA/prepayment 可得性、按买家 tier 的 secured→energized 转换 | 披露间优先/非优先分化持续 | 多层稀缺同时发生 | 一个买家锁住一笔货 |
+| Financing-led S4 | supplier equity/credit 占比、guarantee cap 与已提用对比、独立 risk capital 条件 | 连续多期方向 vs utilization | seller + buyer + 第三方资本一起判断 | 单次 impairment（仅 severity） |
+| Demand-led S4 | utilization、clearing price、forward commitment 改期/取消、客户现金生成 | 多 family、跨多 actor 的广泛、持续恶化 | 至少一个 real-economy/market/commitment signal | 单季度变弱、股价异动 |
+
+**Financing independence ratio（观察项）。** 按项目/买家跟踪 `supplier-supported financing / total project financing` 与 `maximum guarantee exposure / underlying lease or offtake`。比值上升且利用率下降，是反身性警告（形成加速、需求独立性在侵蚀）；比值下降且利用率上升，则方向相反。单比值不决定 S4，必须与 Dashboard I 家族一起读。
+
 ## 12A. Materiality 与 Persistence 必须服从各变量的 Clock
 
 本报告不对所有变量套用统一的“两季度”或“三个月”规则。

@@ -1,6 +1,7 @@
 # 四云 Capex 口径核对
 
-> 核对/更新日期：2026-08-28  
+> 基准核对日期：2026-08-28；Q3 2026 事实修订：2026-11-19。
+> **历史表格仅记录8月时点及2023–2025重建值；最新2026 Q3数据以本页末新增A/B口径分开的表格为准。**  
 > 目的：统一 Microsoft、Amazon、Alphabet、Meta 的 CapEx / PPE 口径，避免把不同财年、不同会计科目和不同业务范围机械相加。  
 > 本核对优先使用公司 IR、Exhibit 99.1、现金流量表与最新公开指引；若后续 10-K/10-Q 对相关数字重述，以最新法定申报为准。
 
@@ -61,16 +62,31 @@ Meta 2025 公司口径：69,691 + 2,524 = 72,215（公司稿写 $72.22 billion�
 
 2025 实际资本投入已经明显高于 2024 混年水平，因此不能把两个年份的汇总数混写为同一事实。
 
-### C. 2026 最新公开规模：只比较方向，不直接复加
+### C. 截至2026-08-28的报告冻结基准（历史快照，非11月最新）
 
-| 公司 | 2026 最新公开口径 |
+| 公司 | 截至8月已公开口径 |
 |---|---:|
-| Microsoft | Calendar-2026 reported CapEx expectation 约 **US$175B** |
-| Amazon | 截至 2026-06-30，TTM PPE net purchases actual **US$169.007B** |
-| Alphabet | Q2 earnings-call guidance **US$195–205B** |
-| Meta | Q2 guidance **US$130–145B** |
+| Microsoft | 当时日历2026年CapEx预期约 **US$175B** |
+| Amazon | 截至6月30日TTM净PPE购置实际 **US$169.007B** |
+| Alphabet | Q2指引 **US$195–205B** |
+| Meta | Q2指引 **US$130–145B** |
 
-四家公司当前均处于高强度资本投入区间，但 Microsoft 的 calendar-year expectation、Amazon 的 TTM net PPE，以及 Alphabet/Meta 的 guidance 并不是同一会计量。由此只能推出“资本扩张继续抬升”，不能推出一个官方统一的“2026 四云 AI hardware CapEx”总额。
+此处仅保留旧研究时点，不得把这些值称为2026-11-19最新观察。不同财年、TTM及CapEx类别不可直接加总。
+
+### D. 截至2026-11-19的2026 Q3校正表（US$B）
+
+| 公司/观察期 | 当季披露 | 会计定义 | 2026全年最新管理层预期 | 来源 |
+|---|---:|---|---|---|
+| Microsoft FY27 Q1（至9/30） | **39.4**现金PP&E；**45.2**管理层CapEx；**7.4**融资租赁 | 同一季不同口径；绝不可机械将39.4与7.4相加冒称官方CapEx | 日历2026年CapEx约 **170** | [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1) |
+| Alphabet 2026 Q3 | **51.4** | CapEx；技术基础设施为主，非AI-only | 日历2026 **195–205** | [Alphabet CFO transcript](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx) |
+| Meta 2026 Q3 | **34.91** | CapEx含finance-lease principal | 日历2026 **135–145** | [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx) |
+| Amazon 2026 Q3 | **75.9** | 现金资本开支，包括技术基础设施和履约网络 | 日历2026约 **220** | [Amazon 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm) |
+
+**明确撤回旧版 Q3 四云表：** Microsoft现金PP&E **43.2**、Alphabet **43.5**、Meta **33.5**、Amazon现金CapEx **46.8** 与Amazon全年“75+”不是本次核实后的正确口径。旧表中的全年指引 **198–203 / 138–142** 同样不再使用。
+
+这些数值不是四家统一披露的AI硬件开支，不得以“全部资金投入GPU”“四云合计现金CapEx”或“共同的折旧负担”称之。仅可按公司各自的报告线，比较资本投入与**同期间**OCF、FCF、融资租赁、合同承诺和业务收入。Microsoft Q3 OCF **58.0**、管理层FCF **18.6**；Meta Q3 OCF **32.79**、FCF **−2.12**。其差异说明现金流并不呈现单向统一崩塌。
+
+完整更新与新S1–S4情景见[2026 Q4滚动研究补丁 v1.1](2026-Q4-ROLLING-ADDENDUM.md)。
 
 ## 禁止的口径外推
 

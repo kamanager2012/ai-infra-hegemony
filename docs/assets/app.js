@@ -33,7 +33,8 @@
     {n:29,part:4,file:"part-IV-ch29-monitoring-framework.md",en:"Monitoring Framework — State Variables, Inflection Tests, and Scenario Reweighting",zh:"Monitoring Framework——State Variables、Inflection Tests 与 Scenario Reweighting"},
     {n:30,part:4,file:"part-IV-ch30-scenarios.md",en:"Scenario Framework — Distinguishing S1–S4",zh:"Scenario Framework——S1–S4 判别"},
     {n:31,part:4,file:"part-IV-ch31-strategy-endgame.md",en:"Strategic Implications Across Alternative AI Infrastructure States",zh:"不同 AI 基础设施状态下的战略含义"},
-    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",en:"Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View",zh:"Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断"}
+    {n:32,part:4,file:"part-IV-ch32-master-judgment.md",en:"Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View",zh:"Master View——什么决定 AI 基础设施中的产业权力，什么事实会改变判断"},
+    {n:33,part:4,file:"part-IV-ch33-founder-succession.md",en:"Special Study — After Jensen Huang: Succession and System Coordination",zh:"特别研究——黄仁勋退场：系统协调权力的继承与再分配"}
   ];
 
   const partNames = {
@@ -64,7 +65,7 @@
       evidence:[
         ["TSMC · 2Q26","66% / 77%","HPC was 66% of total revenue; 7 nm and below were 77% of wafer revenue. The denominators are separate and neither is customer-level wafer allocation."],
         ["HBM · PHYSICAL INTENSITY","≈3×","Micron: at the same technology node and the same number of bits, HBM3E requires approximately 3× the wafer supply of DDR5. It is not a price multiple or a permanent ratio for every HBM generation."],
-        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family across Jan. 25, Apr. 26 and Jul. 26. Reporting labels, mix and duration are not assumed homogeneous."],
+        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family across Jan. 25, Apr. 26 and Jul. 26. Reporting labels, mix and duration are not assumed homogeneous. Terms/cancellability undisclosed; the sequence is a family-scale indicator, not a growth rate."],
         ["FINANCING · RISK EXPOSURE","105 / 4.1","US$B maximum guarantee exposures: NVIDIA PORTS-Pike US$105B; AMD US$4.1B. They are not funded CapEx or additive demand totals; PORTS-Pike’s 4.25 IT-GW is design capacity, not active load."]
       ],
       boundaryEyebrow:"EVIDENCE DISCIPLINE",
@@ -74,7 +75,7 @@
         ["Target ≠ funded capital.","Guarantee exposure, CapEx and independent demand remain separate."],
         ["Substitution ≠ autonomy.","Production-grade deployment and frontier closure are different tests."]
       ],
-      indexEyebrow:"FULL REPORT",indexTitle:"32-chapter research map",
+      indexEyebrow:"FULL REPORT",indexTitle:"32-chapter baseline + 2026 Q4 special study",
       indexNote:"English is the canonical research language. Chinese is the professional parity edition.",
       searchPlaceholder:"Search chapter titles…",searchLabel:"Search chapters",
       libraryEyebrow:"RESEARCH LIBRARY",libraryTitle:"Publication and audit companions",
@@ -84,14 +85,14 @@
         ["Evidence Ledger","High-impact source-of-truth identities"],["Source Index","Primary and institutional source map"],["Hypothesis Matrix","H1–H19 and falsification structure"]
       ],
       back:"Report home",copy:"Copy link",copied:"Copied",chapters:"Chapters",onPage:"ON THIS PAGE",backTop:"Back to top ↑",
-      readerEdition:"2026 EDITION",readerTitle:"32 chapters",prev:"Previous",next:"Next",
+      readerEdition:"2026 EDITION",readerTitle:"32 core chapters + Ch33 special study",prev:"Previous",next:"Next",
       appendix:"PUBLIC RESEARCH APPENDIX",loading:"Loading report…",
       unavailableChapter:"This chapter is unavailable in the current public snapshot.",
       unavailableDoc:"This document is not included in the public publication snapshot.",
       notes:"Notes",
       footerEdition:"Structural Industry Outlook · 2026 edition",
       footerBrief:"Research Brief",footerTransparency:"Transparency & Corrections",
-      footerNote:"English is the canonical analytical edition. Public reading does not grant a general reuse license."
+      footerNote:"English is the canonical analytical edition (CC BY-NC-ND 4.0). See Rights for details."
     },
     zh:{
       heroKicker:"产业研究 · 中文专业译本",
@@ -115,7 +116,7 @@
       evidence:[
         ["TSMC · 2Q26","66% / 77%","HPC 占 total revenue 66%；7 nm 及以下占 wafer revenue 77%。两个 denominator 分开，均不是 customer-level wafer allocation。"],
         ["HBM · PHYSICAL INTENSITY","≈3×","Micron：same technology node / same number of bits 下，HBM3E 约需 DDR5 的 3× wafer supply。它不是价格倍数，也不是所有 HBM generation 的永久比例。"],
-        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family，对应 1 月 25 日、4 月 26 日、7 月 26 日。不同报告时点的 label、mix 与 duration 不视为同质。"],
+        ["NVIDIA · 2026","95.2 → 119 → 279","US$B forward supply / capacity commitment family，对应 1 月 25 日、4 月 26 日、7 月 26 日。不同报告时点的 label、mix 与 duration 不视为同质；条款/可取消性未披露，该序列是 family-scale 指标而非增长率。"],
         ["FINANCING · RISK EXPOSURE","105 / 4.1","US$B maximum guarantee exposure：NVIDIA PORTS-Pike US$105B；AMD US$4.1B。两者不是 funded CapEx 或可加总 demand；PORTS-Pike 4.25 IT-GW 是 design capacity，不是 active load。"]
       ],
       boundaryEyebrow:"证据纪律",
@@ -125,7 +126,7 @@
         ["Target ≠ funded capital。","Guarantee exposure、CapEx 与 independent demand 分开。"],
         ["Substitution ≠ autonomy。","Production-grade deployment 与 frontier closure 是两套测试。"]
       ],
-      indexEyebrow:"完整报告",indexTitle:"32 章研究地图",
+      indexEyebrow:"完整报告",indexTitle:"32 章基准报告 + 2026 Q4 特别研究",
       indexNote:"英文是 canonical research language；中文为专业 parity edition。",
       searchPlaceholder:"搜索章节标题…",searchLabel:"搜索章节",
       libraryEyebrow:"研究资料库",libraryTitle:"出版层与审计 companion",
@@ -135,7 +136,7 @@
         ["核心证据台账","高影响 source-of-truth identity"],["核心参考文献索引","一手与机构来源地图"],["核心假设矩阵","H1–H19 与 falsification structure"]
       ],
       back:"报告首页",copy:"复制链接",copied:"已复制",chapters:"章节",onPage:"本页目录",backTop:"返回顶部 ↑",
-      readerEdition:"2026 版",readerTitle:"32 章",prev:"上一章",next:"下一章",
+      readerEdition:"2026 版",readerTitle:"32 章基准 + Ch33 特别研究",prev:"上一章",next:"下一章",
       appendix:"公开研究附录",loading:"正在载入报告…",
       unavailableChapter:"本章当前未包含在公开出版快照中。",
       unavailableDoc:"该文档未包含在公开出版快照中。",
@@ -149,14 +150,14 @@
   const $ = (id) => document.getElementById(id);
   const params = new URLSearchParams(location.search);
   let lang = params.get("lang") === "zh" ? "zh" : "en";
-  const chapterNo = Math.min(32, Math.max(1, Number(params.get("chapter") || 1)));
+  const chapterNo = Math.min(chapters.length, Math.max(1, Number(params.get("chapter") || 1)));
   let sectionObserver = null;
   const bundleCache = new Map();
 
   const publicDocuments = new Set([
     "00-front-matter.md","01-table-of-contents.md","01-list-of-figures.md","02-list-of-tables.md",
     "RESEARCH_BRIEF.md","03-abbreviations-and-glossary.md","04-research-transparency.md","05-competitive-evidence-matrix.md",
-    "核心证据台账.md","核心参考文献索引.md","核心概念与模型索引.md","核心假设矩阵.md","外部研究对照索引.md"
+    "核心证据台账.md","核心参考文献索引.md","核心概念与模型索引.md","核心假设矩阵.md","外部研究对照索引.md","2026-Q4-ROLLING-ADDENDUM.md"
   ]);
 
   function chapterUrl(n, language = lang) {
@@ -515,6 +516,10 @@
     $("startReading").href = chapterUrl(1);
     $("masterJudgment").textContent = t.master;
     $("masterJudgment").href = chapterUrl(32);
+    $("specialStudy").textContent = lang === "zh" ? "特别研究 Ch33 · 黄仁勋退场" : "Special Study Ch33 · Jensen Huang succession";
+    $("specialStudy").href = chapterUrl(33);
+    $("q4ResearchUpdate").textContent = lang === "zh" ? "Q4 更新 v1.1 · 事实纠错与行业复核" : "Q4 Update v1.1 · Corrections & Industry Review";
+    $("q4ResearchUpdate").href = documentUrl("2026-Q4-ROLLING-ADDENDUM.md");
 
     $("editionLabel").textContent = t.edition;
     $("cutoffLabel").textContent = t.cutoff;
@@ -602,13 +607,13 @@
     $("readerNav").classList.remove("open");
 
     const c = chapters[n - 1];
-    $("readerPart").textContent = partNames[lang][c.part];
+    $("readerPart").textContent = c.n === 33 ? (lang === "zh" ? "2026 Q4 · 特别研究（2026-11-19证据截止）" : "2026 Q4 · SPECIAL STUDY (2026-11-19 CUTOFF)") : partNames[lang][c.part];
     $("readerChapterLabel").textContent = "CH " + String(c.n).padStart(2,"0");
     buildChapterIndex($("readerChapterList"), true);
 
     $("prevChapter").textContent = c.n > 1 ? "← " + ui[lang].prev + " · CH " + String(c.n - 1).padStart(2,"0") : "";
     $("prevChapter").href = c.n > 1 ? chapterUrl(c.n - 1) : "#";
-    $("nextChapter").textContent = c.n < 32 ? ui[lang].next + " · CH " + String(c.n + 1).padStart(2,"0") + " →" : "";
+    $("nextChapter").textContent = c.n < chapters.length ? ui[lang].next + " · CH " + String(c.n + 1).padStart(2,"0") + " →" : "";
     $("nextChapter").href = c.n < 32 ? chapterUrl(c.n + 1) : "#";
 
     $("readerBody").innerHTML = '<div class="loading">' + escapeHtml(ui[lang].loading) + '</div>';

@@ -39,6 +39,8 @@ Editorial rule:
 
 The objective is not to produce a single deterministic 2036 forecast. It is to build an industrial-analysis framework whose judgments can be tested against later public evidence. Facts emerging after **August 28, 2026** belong to a later evidence cycle; they may be used to re-evaluate the framework, but they are not backdated into this edition's evidence set.
 
+**Title lineage.** The repository slug and historical shorthand name `ai-infra-hegemony` refer to the research question, not to a current finding. The report's evidence-based baseline is S2 — Baseline Concentration; S3 — Resource Hegemony is a conditional hypothesis. The site title `AI Infrastructure Reordering` is the canonical name.
+
 
 ### Entry point for end-system and industrial-supply readers
 
@@ -71,9 +73,9 @@ Institutional forecasts, sell-side estimates, and report-side calculations are n
 
 This report is for industry research and information purposes only. It is not investment advice, a securities rating, legal advice, an audit opinion, or a recommendation to enter into any transaction. All forward-looking judgments are conditional and may change with technology, demand, capital, regulation, geopolitics, and supply.
 
-## Copyright
+## Copyright and License
 
-Original report text is distributed under the repository LICENSE. Third-party material remains subject to the rights and licensing terms of its respective owners. Third-party material is used only when its rights boundary is clear and the material is appropriately cited or otherwise permitted.
+Original report text is distributed under the **[MIT License](../../LICENSE)** (see [Chinese Guide & Commercial Reuse Notice](../../LICENSE.zh-CN.md)), permitting free reproduction, commercial use, and adaptation subject to retaining original copyright attribution (`Copyright (c) 2026 James Oldman`). Third-party material remains subject to the rights and licensing terms of its respective owners. Third-party material is used only when its rights boundary is clear and the material is appropriately cited or otherwise permitted.
 
 ---
 

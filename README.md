@@ -1,5 +1,21 @@
+<div align="center">
+
 # AI Infrastructure Reordering, 2026–2036: A Structural Industry Outlook
 ### AI基础设施格局重塑：2026–2036结构性产业展望
+
+[![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)](README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge)](README.zh-CN.md)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg?style=for-the-badge)](LICENSE)
+[![Web Edition](https://img.shields.io/badge/Live-Web%20Edition-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
+
+**English Canonical** | [简体中文版 (README.zh-CN.md)](README.zh-CN.md) | [32-Chapter English Report](en/publication/README.md) | [32章中文完整报告](publication/README.md) | [2026 Q4 Addendum](2026-Q4-ROLLING-ADDENDUM.en.md) | [Special Ch33: Jensen Huang Succession](en/publication/part-IV-ch33-founder-succession.md)
+
+</div>
+
+> [!TIP]
+> **中文读者导读：** 本报告由作者团队提供完整中文专业翻译与技术分析。您可以直接点击切换至 **[简体中文主页 (README.zh-CN.md)](README.zh-CN.md)**，或直接阅读 **[32章中文完整报告](publication/README.md)** 与最新 **[2026 Q4 滚动研究补丁 (中文版)](2026-Q4-ROLLING-ADDENDUM.md)**。
+
+---
 
 **How the AI Compute Buildout Is Reallocating Semiconductors, Memory, Advanced Packaging, Power, Capital, and End-Market Capacity**
 
@@ -14,7 +30,12 @@ Canonical research language: **English**. The Chinese edition is the authorized 
 **Edition revision:** September 14, 2026  
 Research claims use evidence available by the cutoff. Later edits in this edition are limited to corrections, evidence-boundary repairs, bilingual parity, and editorial restructuring; the revision history is documented separately.
 
-[Web edition source](docs/) · [Research Brief](en/publication/RESEARCH_BRIEF.md) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master View](en/publication/part-IV-ch32-master-judgment.md) · [中文版](README.zh-CN.md)
+> **How to read the repository name.** The workspace slug `ai-infra-hegemony` is a historical shorthand for the research question, not the report's current conclusion. The report's evidence-based baseline as of the cutoff is **S2 — Baseline Concentration** (high growth, high concentration, credible substitution paths coexisting), not S3 — Resource Hegemony. Resource hegemony is treated throughout as a conditional hypothesis with explicit falsification signals; it is not asserted as a fact. See [Chapter 1](en/publication/part-I-ch01-executive-summary.md) and [Chapter 30](en/publication/part-IV-ch30-scenarios.md).
+
+[Web edition source](docs/) · [Research Brief](en/publication/RESEARCH_BRIEF.md) · [Read the 32-chapter English report](en/publication/README.md) · [Executive Summary](en/publication/part-I-ch01-executive-summary.md) · [Master View](en/publication/part-IV-ch32-master-judgment.md) · [2026 Q4 Rolling Addendum v1.1](2026-Q4-ROLLING-ADDENDUM.en.md) · [中文版](README.zh-CN.md)
+
+> [!NOTE]
+> **Corrected rolling research, v1.1 (evidence cutoff 2026-11-19):** [English Q4 addendum](2026-Q4-ROLLING-ADDENDUM.en.md) · [Chinese translation](2026-Q4-ROLLING-ADDENDUM.md). This revision explicitly corrects the four-cloud Q3 CapEx amounts and the date of the **2024** FERC Talen/AWS denial (with 2026 case closure), removes misdated o1/2024 smartphone cases and unsupported universal price claims, and adds NVIDIA US$390B forward commitments, differentiated HBM4/NAND evidence, and scoped BIS remote-compute access regulation. The **2026-08-28 frozen 32-chapter baseline is unchanged**; the separate [Chapter 33](en/publication/part-IV-ch33-founder-succession.md) addresses succession.
 
 ---
 
@@ -57,9 +78,9 @@ This table is intentionally narrow: it shows the public observations and report-
 | HBM manufacturing intensity | Micron: HBM3E requires **≈3× wafer supply** vs. DDR5 at the same node / same bits | first-party physical trade ratio | not a price multiple; not a permanent ratio for every HBM generation |
 | HBM allocation intensity | TrendForce 2026E: HBM wafer input **among the top three suppliers** ≈**22%** of total DRAM wafer input; HBM bit supply ≈**9%** of total DRAM bit supply | B-grade institutional forecast | the scopes are not identical enough to divide 22% by 9%; use Micron's same-node / same-bits ≈3× as the comparable physical anchor |
 | Aggregate DRAM balance | 2026 sufficiency ratio estimated at roughly **−1% to −2%** | B-grade institutional forecast | aggregate DRAM, not HBM-specific |
-| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments: **US$95.2B → US$279B** from Jan. 25 to Jul. 26, 2026 | first-party filing | aggregate commitments; no supplier-level split |
+| Forward supply commitments | NVIDIA manufacturing / supply / capacity commitments: **US$95.2B → US$279B** from Jan. 25 to Jul. 26, 2026 | first-party filing | family, not homogeneous time series; mix/duration differ; no supplier split; slope is not a growth rate; cancellability/terms undisclosed |
 | LPS / power coordination | PORTS-Pike initial **4.25 IT-GW design capacity**, phased delivery planned from 2028 | first-party project disclosure | design / secured capacity ≠ energized ≠ utilized load |
-| Infrastructure finance | **>US$500B** third-party-capital mobilization target announced by NVIDIA and financial partners | first-party target | target ≠ funded / committed / deployed capital |
+| Infrastructure finance | **>US$500B** third-party-capital mobilization target announced by NVIDIA and financial partners | first-party target | target ≠ funded / committed / deployed capital; upgrade to capability evidence only when final agreements/committed capital are disclosed |
 
 For the full denominator audit and calculations, see [Chapter 8 — Quantitative Framework](en/publication/part-I-ch08-quantitative-framework.md).
 
@@ -286,11 +307,11 @@ This report is for industry research and information exchange. It does not const
 
 Future judgments can change as technology, demand, capital, regulation, geopolitics, and supply evolve.
 
-## Copyright and citation
+## Copyright, Commercial Use, and Citation
 
-Original research text is **All Rights Reserved**. Public availability does not grant a general reuse license. See [LICENSE](LICENSE) for the rights reservation, permissions policy, and treatment of automated extraction / AI use. Third-party material remains subject to the rights and licenses of its respective owners.
+Original research text and materials are licensed under the **[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](LICENSE)** (see [Chinese Guide & Rights Notice](LICENSE.zh-CN.md)). You are free to copy and redistribute the material in any medium or format for non-commercial purposes, provided appropriate credit is given and no modifications or commercial reuse are made. See [LICENSE](LICENSE) for full terms. Third-party material remains subject to the rights and licenses of its respective owners.
 
-Citation metadata is available in [CITATION.cff](CITATION.cff).
+Citation metadata is available in [CITATION.cff](CITATION.cff) and the web rights overview in [Rights & Permissions](docs/rights.html).
 
 ## Corrections and counterevidence
 

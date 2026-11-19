@@ -86,6 +86,10 @@ This hierarchy is deliberate: **coverage is broad, but the report does not prete
 31. [Strategic Implications Across Alternative AI Infrastructure States](part-IV-ch31-strategy-endgame.md)
 32. [Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
+## 2026 Q4 Special Study · Outside the Frozen 32-Chapter Baseline
+
+33. [After Jensen Huang — Succession, System Coordination, and NVIDIA Platform Power](part-IV-ch33-founder-succession.md) · Evidence cutoff 2026-11-19.
+
 ## Research Appendices
 
 - [Core Evidence Ledger](../核心证据台账.en.md)

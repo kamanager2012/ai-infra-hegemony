@@ -13,8 +13,42 @@
   ],
   "chapters_per_language": 32,
   "public_appendices_per_language": 11,
-  "rights": "All Rights Reserved",
+  "rights": "CC BY-NC-ND 4.0",
+  "source_commit": "dca5732dbc92b38ef2df346143661d58b6e66660",
   "publication_model": "private-source-public-snapshot",
   "analysis_horizon": "2026–2036",
-  "baseline_year": 2026
+  "baseline_year": 2026,
+  "special_studies": [
+    {
+      "number": 33,
+      "slug": "founder-succession",
+      "title": "After Jensen Huang: Succession, System Coordination, and NVIDIA's Platform Power",
+      "title_zh": "黄仁勋的退场——NVIDIA 系统协调权力的继承、脆弱性与再分配",
+      "evidence_cutoff": "2026-11-19",
+      "scope": "post-cutoff special chapter; not part of the frozen 32-chapter baseline",
+      "languages": [
+        "en",
+        "zh"
+      ]
+    }
+  ],
+  "rolling_research": {
+    "version": "2026-Q4-v1.1",
+    "supersedes": "2026-Q4-v1.0",
+    "evidence_cutoff": "2026-11-19",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "document_key": "2026-Q4-ROLLING-ADDENDUM.md",
+    "status": "dated post-cutoff research addendum; does not supersede frozen baseline"
+  },
+  "post_freeze_editorial_audit": {
+    "date": "2026-11-19",
+    "scope": "F-01–F-07 source-boundary, monitoring and bilingual publication corrections",
+    "original_evidence_cutoff": "2026-08-28",
+    "introduces_post_cutoff_facts_into_baseline": false,
+    "related_research": "research-validation/2026-11-19-final-publication-audit.md"
+  },
+  "source_commit_role": "original edition source pin; for later editorial changes consult Git history and post_freeze_editorial_audit"
 }
