@@ -330,6 +330,20 @@ Therefore:
 
 Import dependence does not prove that no production-grade parallel stack exists. Conversely, successful production deployment does not prove autonomous frontier closure.
 
+**Table 17.2 — Operational metrics for the seven Production-Grade Gates.** Until each gate is filled on the metric below, the system is "partially deployed," not "closed."
+
+| Gate | Observable metric | Counts as evidence | Does not count |
+|---|---|---|---|
+| 1. Accelerator/compute | shipped and installed accelerators in a named production cluster with sustained uptime | vendor disclosure + customer deployment | one-off benchmark, single-node demo |
+| 2. Memory subsystem | HBM-class bandwidth/capacity per device at stated qualification, and qualified volume supply | official product + qualification + volume disclosure | conventional DDR/LPDDR revenue share, prospectus silence read either way |
+| 3. Advanced packaging | qualified package starts per period and delivered-system throughput at stated yield | supplier disclosure of capacity + delivery | foundry revenue share, logic-node progress alone |
+| 4. Interconnect | scale-up/scale-out bandwidth and collective scaling on the named cluster topology | measured cluster scaling evidence | single-chip link specs without cluster runs |
+| 5. Compiler/runtime | operator coverage, framework compatibility, migration time/performance-loss on a named workload | production porting evidence | existence of a compiler or peak-FLOPS claim |
+| 6. Frontier production workload | named frontier or high-value workload running at production scale with sustained feedback | workload name + scale + duration | lab model run, inference demo only |
+| 7. Utilization / economics | utilization, reliability (uptime/MTBF), and cost per verified workload on the same cluster | measured utilization + unit economics | capacity announced, designed GW, secured GW |
+
+Conventional DRAM/NAND presence, smartphone SoC shipment share, and foundry revenue share are not substitutes for Gates 2, 3, 6, or 7.
+
 ## 12. Why partial closure already matters globally
 
 If China's parallel stack scales simultaneously in advanced logic, HBM, packaging, interconnect, and software, it could do more than replace imports.
