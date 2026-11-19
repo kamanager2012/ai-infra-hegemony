@@ -8,7 +8,7 @@
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg?style=for-the-badge)](LICENSE)
 [![Web Edition](https://img.shields.io/badge/Live-Web%20Edition-purple?style=for-the-badge)](https://kamanager2012.github.io/ai-infra-hegemony/)
 
-**English Canonical** | [简体中文版 (README.zh-CN.md)](README.zh-CN.md) | [32-Chapter English Report](en/publication/README.md) | [32章中文完整报告](publication/README.md) | [2026 Q4 Addendum](2026-Q4-ROLLING-ADDENDUM.en.md)
+**English Canonical** | [简体中文版 (README.zh-CN.md)](README.zh-CN.md) | [32-Chapter English Report](en/publication/README.md) | [32章中文完整报告](publication/README.md) | [2026 Q4 Addendum](2026-Q4-ROLLING-ADDENDUM.en.md) | [Special Ch33: Jensen Huang Succession](en/publication/part-IV-ch33-founder-succession.md)
 
 </div>
 
