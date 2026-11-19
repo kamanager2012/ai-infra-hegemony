@@ -175,6 +175,26 @@ Detailed file-by-file chronology remains available through repository history an
 
 ---
 
+### 8B. Bounded editorial/source-identity audit on November 19, 2026
+
+The previously frozen 32-chapter baseline retained its **2026-08-28 evidence cutoff**. A separate **2026-11-19 editorial audit batch** corrected the interpretation and testability of *already-existing* evidence without importing subsequent facts into the baseline. This is an **editorial-correction date**, not a new evidence cutoff or a claim that the original 2026-09-14 publication revision never occurred.
+
+The F-01–F-07 correction batch covers:
+
+- **Title lineage:** the historical \`ai-infra-hegemony\` repository slug is a research question, not an observed S3 judgment; current original baseline remains **S2**.
+- **NVIDIA commitment family:** the 2026-01-25, 04-26 and 07-26 aggregates have differing mix/duration; no per-supplier split, cancellability, maturity or take-or-pay profile was inferred.
+- **Finance target:** announced **>US$500B** third-party-capital *mobilization intent* cannot become funded/committed/deployed capital without final agreements.
+- **Chapter 12:** explicit matched-workload and full-system production substitution measurement template (Table 12.1).
+- **Chapter 17:** seven Production-Grade Gate observable tests (Table 17.2), without substituting conventional DRAM or foundry revenue for closure.
+- **Chapters 29–30:** monitoring trigger proxies and clock/denominator alignment (Table 29.6) with S1–S4 falsification; no probability calibration.
+- **Bilingual source/snapshot alignment:** the 32-chapter EN/ZH content bundles and research brief/front matter reflect only these bounded analytical corrections.
+
+This record is separate from the **2026 Q4 Rolling Addendum v1.1 (evidence cutoff 2026-11-19)** and **Special Chapter 33 (2026-11-19)**. Their post-August facts remain outside the frozen baseline. The research-only Ch23 contract-coverage and Sol event-study repairs are likewise recorded in their own Phase II files and are not claims about a new S4 state.
+
+The legacy edition revision **2026-09-14** remains recorded as the original freeze-cycle label; the later November correction has its **own dated audit field** in \`docs/version.json\` and a permanent repository commit history. No independent peer-review or full external forensic assurance is claimed.
+
+---
+
 ## 9. External-use boundary
 
 This report is intended for industry research and information exchange. It does not constitute:
