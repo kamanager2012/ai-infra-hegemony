@@ -30,3 +30,32 @@ Only merge accepted work to `main` as an explicit publication event. Batch the a
 - Do not add Release, package, PDF, EPUB, test-matrix, or application-style deployment workflows merely because the repository is hosted on GitHub.
 - The only expected Actions activity is GitHub's own Pages deployment when an intentional publication commit reaches `main`.
 - PDF, if produced later, is a publishing artifact after the text is finalized; it does not require a standing Actions pipeline.
+
+## Manual acceptance gates (no CI)
+
+The repository includes two opt-in, **manual** tools. They must run on a machine with a complete repository checkout and, for browser validation, a working network/browser policy. The presence of a script or successful static validation is **not** evidence that its run passed.
+
+**1. Complete local Python/source and research calculation checks:**
+
+```sh
+python3 scripts/manual-release-audit.py --output ./manual-audit.json
+```
+
+This runs ten root structural/numeric/rights/model checks and nine Phase II reproducibility scripts (19 total). Nonzero exits, missing scripts and timeouts are explicit failures, not silent skips. External evidence URLs are optional and network-dependent:
+
+```sh
+python3 scripts/manual-release-audit.py --include-external --output ./manual-audit-with-links.json
+```
+
+**2. Real Chromium reader checks (desktop/mobile, English/Chinese):**
+
+```sh
+python3 -m pip install playwright
+python3 -m playwright install chromium
+python3 scripts/smoke-web-reader.py --base-url https://kamanager2012.github.io/ai-infra-hegemony/ --screenshot-dir ./smoke-shots
+```
+
+The browser script validates 18 independently reported cases: chapter 1, 32, 33 and the dated Q4 document in both languages on desktop and mobile, plus homepage CTA navigation. It checks rendered tables and footnotes, navigation, JavaScript exceptions, and horizontal overflow. A local system Chromium can be selected with `CHROMIUM_PATH` where supported. **Do not label the website visually accepted unless all cases actually run on an accessible site and exit 0**.
+
+These are manual publishing checks only. They do **not** create GitHub Actions workflows, automate release publishing, or change the frozen 2026-08-28 evidence cutoff.
+
