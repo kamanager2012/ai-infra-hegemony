@@ -31,7 +31,7 @@
 [网页版源码](docs/) · [Research Brief](publication/RESEARCH_BRIEF.md) · [开始阅读 32 章中文版](publication/README.md) · [图表目录](publication/01-list-of-figures.md) · [执行摘要](publication/part-I-ch01-executive-summary.md) · [Master View](publication/part-IV-ch32-master-judgment.md) · [2026 Q4 滚动研究补丁](2026-Q4-ROLLING-ADDENDUM.md) · [English](README.md)
 
 > [!NOTE]
-> **最新动态跟踪（2026-11-06）：** 现已发布 [《2026 Q4 滚动研究补丁：事实更新、范式跃迁与实证检验》](2026-Q4-ROLLING-ADDENDUM.md)，记录了四云 2026 Q3 财报更新、FERC 否决 AWS/Talen 核电直供案（证实签约不等于上电）、o1 测试时推理算力演进，以及 2026 秋季 PC 配件与手机涨价潮的下游成本传导实证。
+> **最新研究更新 v1.1（证据截止 2026-11-19）：** [《2026 Q4 滚动研究补丁：事实纠错与产业复核》](2026-Q4-ROLLING-ADDENDUM.md) · [英文规范稿](2026-Q4-ROLLING-ADDENDUM.en.md)。本版明确修正四云Q3财务数字，以及将**2024年**FERC AWS/Talen裁决错写为2026年新事件的问题；撤回o1和2024款手机芯片被错归到2026年，以及未充分核实的“所有存储/手机全面大涨”表述。新增NVIDIA **3,900亿美元**综合供应承诺、HBM4/NAND市场分化及BIS跨境远程算力监管分析。原**2026-08-28冻结的32章**保持不变；[第33章](publication/part-IV-ch33-founder-succession.md)独立研究黄仁勋离任。
 
 ---
 
