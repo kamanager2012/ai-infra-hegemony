@@ -75,6 +75,10 @@ For methodology and evidence discipline:
 31. [The 2036 Endgame and Strategic Optionality](part-IV-ch31-strategy-endgame.md)
 32. [Master View — What Determines Industrial Power in AI Infrastructure, and What Would Change the View](part-IV-ch32-master-judgment.md)
 
+## 2026 Q4 special study (outside the frozen 32-chapter baseline)
+
+33. [After Jensen Huang — Succession, System Coordination, and NVIDIA Platform Power](part-IV-ch33-founder-succession.md) · evidence cutoff 2026-11-19; not retroactive to the 2026-08-28 baseline.
+
 ## Research appendices
 
 - [Scope and Evidence Boundaries](00-front-matter.md)
