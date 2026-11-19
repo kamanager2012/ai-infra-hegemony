@@ -1,4 +1,4 @@
-# P0-2 · AI Demand Elasticity Empirical Calibration v0.8
+# P0-2 · AI Demand Elasticity Empirical Calibration v0.9
 
 > **Status:** Research-side validation; not part of the frozen formal report.  
 > **Goal:** build empirical anchors for the elasticity mechanism used in Chapters 14 and 24 without turning one scenario coefficient into a universal structural parameter.
@@ -784,7 +784,7 @@ Archived reproducibility assets:
 
 No API credential is stored in the repository.
 
-### 13B.10 Sol Aug-17 50% discount — short-window event calibration v0.8
+### 13B.10 Sol Aug-17 50% discount — short-window event calibration v0.9
 
 OpenRouter's own event documentation states that Sol remained untreated through Aug 16 and received a **50% discount beginning Aug 17**.
 
@@ -806,7 +806,7 @@ Benchmark adjusted short-window specification:
 
 `ln(SolTokens_t) = α + β·PostAug17_t + γ·ln(NonSolTokens_t) + δ·time_t + day-of-week FE + ε_t`
 
-with HAC(3) standard errors.
+with HAC(3) standard errors. The coefficient is an **observational log-level discontinuity**; dividing by `ln(0.5)` yields a price-normalized event association, **not** an identified own-price demand elasticity.
 
 Full-window estimate:
 
@@ -825,9 +825,9 @@ Window-end robustness using the same specification and Jul-30 start:
 | 2026-08-24 | **-0.478** | [-0.694, -0.263] |
 | 2026-08-28 | **-0.467** | [-0.691, -0.243] |
 
-The benchmark estimate is unusually stable to the post-window endpoint in this sample.
+The estimated **descriptive** price-normalized event association is stable across the three reported end dates. These windows are nested and share the same 18 pre-event observations; **their agreement does not constitute three independent replications**.
 
-A pre-period diagnostic using `ln(SolTokens) ~ time + ln(NonSolTokens) + day-of-week FE` gives a residual time-trend coefficient near zero (`0.00033`, `p≈0.98`). This is supportive, but the pre-period has only 18 observations and should not be oversold as a definitive parallel-trends test.
+A pre-period diagnostic using `ln(SolTokens) ~ time + ln(NonSolTokens) + day-of-week FE` gives a residual time-trend coefficient near zero (`0.00033`, `p≈0.98`). **This is not a parallel-trends test:** it is a short, treated-series-only diagnostic with 18 pre-event dates, no independently verified untreated counterfactual, and limited power to detect evolving confounding.
 
 Identification caveat:
 
@@ -838,22 +838,46 @@ Two alternative specifications that do not condition on contemporaneous non-Sol 
 - `ln(SolTokens) ~ PostAug17 + time + day-of-week FE` → implied elasticity **-0.484**, approx. 95% CI **[-0.728, -0.239]**;
 - `ln(Sol market share) ~ PostAug17 + time + day-of-week FE` → implied elasticity **-0.430**, approx. 95% CI **[-0.661, -0.199]**.
 
-Therefore the defensible v0.8 statement is not “the causal elasticity equals -0.47.” It is:
+Therefore the defensible v0.9 statement is not “the causal elasticity equals -0.47.” It is:
 
-> **Across several short-window adjustments, the Sol Aug-17 event response clusters around roughly -0.43 to -0.55; strict structural causal identification remains unresolved.**
+> **Across several short-window adjustments, Sol's price-normalized event association clusters around roughly -0.43 to -0.55; it is not yet a causal demand-elasticity estimate.**
 
 Interpretation boundary:
 
-> **The v0.8 coefficient is a short-window OpenRouter-visible Sol event elasticity, not a global model-demand elasticity, not E2/E3/E4 workflow elasticity, and not infrastructure-demand elasticity.**
+> **The v0.9 statistic is a short-window OpenRouter-visible Sol event response normalized by a documented price ratio. It is not a causally identified own-price elasticity, a global model-demand estimate, an E2/E3/E4 workflow elasticity, or infrastructure-demand elasticity.**
 
 Reasonable empirical reading:
 
 - raw quantity response is much larger than the market-adjusted effect;
 - a material Sol usage response remains after controlling for broad OpenRouter traffic growth and calendar trend;
-- the benchmark event estimate is around **-0.47**, with adjusted-specification values clustering around roughly **-0.43 to -0.55**;
+- the benchmark price-normalized event association is around **-0.47**, with adjusted-specification values clustering around roughly **-0.43 to -0.55**;
 - the result is materially below the naive raw `-1.40`, demonstrating why market expansion / composition must be controlled.
 
-### 13B.11 Why Terra / Luna do not yet yield a clean causal coefficient from this export
+### 13B.11 Reproducibility and identification audit v0.9
+
+**Recompute from the archived raw file (not hand-entered tables):**
+
+```bash
+python3 research-validation/scripts/verify_sol_event.py
+```
+
+The verifier uses only the Python standard library. It parses all **1,530 daily-ranking rows** (51 rows/day: the fifty named ranks plus an `other` aggregate), requires Sol to be visible on every one of the 30 dates, constructs the OpenRouter-visible daily total and `NonSolTokens = Total − Sol`, then runs the published ordinary-least-squares specifications. It independently implements Bartlett-kernel Newey–West **HAC(3)** variance with **no finite-sample correction** and normal-approximation 95% confidence intervals. The published benchmark guard asserts `β≈0.3236564`, `SE≈0.0792717`, `β/ln(0.5)≈−0.4669375`; the program exits nonzero if the input or reported estimate drifts.
+
+**Independent reconstruction check:** the archived 30-day panel was independently aggregated and fitted with `statsmodels` HAC(3); its benchmark coefficients and the Aug-20/Aug-24/Aug-28 window results agree with the v0.8 printed estimates to rounding. The new stdlib implementation was also tested against that reconstructed daily-total/Sol fixture. The repository-side full-CSV execution must still be performed in a checkout before merge; this note does not claim it was already executed there.
+
+**What the standard error does not buy.** There are only **30 daily observations** and **10 regression coefficients** in the full-window benchmark (18 pre-event days, 12 post-event days). The reported p-value (~4.45e−5) is conditional on model form, the HAC lag rule, and the **normal asymptotic approximation**; it does not incorporate uncertainty from event selection, time-varying user composition, simultaneous competitor price changes, unobserved provider routing, platform growth, or endogenous substitution. The Aug-20 robustness window has just **22 observations** against the same 10 columns. A small p-value is neither exogeneity nor valid proof of a 2026–2036 elasticity.
+
+**Observational estimand and treatment conditions:**
+
+- The measured outcome is the public-ranking-visible **Sol token volume or share**, not counterfactual all-channel demand; `other` is retained within the archived daily total, and providers' tokenizers need not match across model families.
+- Sol's documented 50% promotional reduction supplies `ln(0.5)` for **normalization**. This assumes that the reported promotion represents the relevant effective treatment price for the observed mixture of Sol tokens; transaction-weighted prices and user-level exposure are not in this dataset.
+- `NonSolTokens` is a **post-treatment, potentially endogenous normalization series**. If Sol usage displaces rival models, conditioning on other-model tokens is not innocuous. The no-market-control and share-outcome variants are sensitivity views, not independent instruments.
+- The report's interpretation is therefore **reduced-form, platform-specific interrupted-series association**. A causal price elasticity requires a credible counterfactual, verified treatment price/exposure, interference/substitution diagnostics and uncertainty robust to the short time series. E2–E4 additionally require workload/business-outcome and resource denominators.
+- The official OpenRouter blog's Jul-8–Aug-20 program comparisons use a different observation window and account exclusions; do **not** splice their whole-platform ratios onto this Jul-30–Aug-28 archived top-50-plus-`other` panel.
+
+**Stop rule:** no new structural E1 parameter or S1–S4 scenario revision follows from the event estimates alone. Raise an identification upgrade only with a genuine untreated comparison, user/provider treatment exposure, or a sufficiently auditable independent causal design.
+
+### 13B.12 Why Terra / Luna do not yet yield a clean causal coefficient from this export
 
 The raw export begins on **Jul 30**, after the Jul-27 OpenRouter program started and exactly when OpenAI changed Terra/Luna list prices. It therefore lacks the required model-day pre-period for the initial Terra/Luna treatment.
 
@@ -867,14 +891,14 @@ The official OpenRouter headline ratios remain descriptive evidence for the Jul-
 
 ---
 
-## 15. P0-2 v0.8 worklist
+## 15. P0-2 v0.9 worklist
 
-1. preserve the Sol Aug-17 event estimate as a **short-window platform-visible E1 calibration**, not a structural coefficient;
+1. preserve the Sol Aug-17 regression as a **reproducible, observational, price-normalized event association**, not an identified own-price elasticity; run `python3 research-validation/scripts/verify_sol_event.py` against the archived CSV before accepting an update;
 2. obtain a machine-readable Jul-8 → Jul-29 pre-window before attempting an independent Terra/Luna price coefficient;
 3. continue separating **share displacement** from **net market token expansion**;
 4. test whether elasticity differs by workload category only where usage labels are observable;
 5. keep E2/E3/E4 separate until workload / VSWO datasets exist;
-6. do not replace the D-grade sensitivity grid with either -1.11 or the Sol -0.47 event estimate outside its stated estimand.
+6. do not replace the D-grade sensitivity grid with either -1.11 or the Sol -0.47 event association outside its stated estimand; separately record sensitivity to counterfactual selection and transaction-weighted price exposure.
 
 ## Sources
 
