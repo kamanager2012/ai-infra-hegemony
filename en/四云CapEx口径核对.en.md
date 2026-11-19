@@ -1,6 +1,6 @@
 # Four-Cloud CapEx Scope Check
 
-> Review/update date: **2026-08-28**  
+> Baseline review date: **2026-08-28**; Q3 2026 correction cutoff **2026-11-19**  
 > Purpose: keep Microsoft, Amazon, Alphabet, and Meta CapEx / PPE metrics separated by fiscal window, accounting line, and actual/guidance identity. Company-wide capital spending is not an official AI-hardware line item.
 
 ## Conclusion
@@ -66,14 +66,31 @@ The old US$215B scale falls near these reconstructions, but the accounting ident
 
 These are report-side reconstructions for scale comparison, not “AI CapEx actuals.”
 
-## Latest 2026 public metrics
+## August 2026 baseline reference (historical snapshot, not the latest November reading)
 
-| Company | Latest 2026 public metric | Identity |
+| Company | Public metric then | Identity |
 |---|---:|---|
-| Microsoft | ~US$175B | calendar-2026 reported CapEx expectation |
-| Alphabet | US$195–205B | Q2 earnings-call full-year company guidance; secondary reporting source |
-| Meta | US$130–145B | Q2 company guidance including finance-lease principal |
-| Amazon | US$169.007B | TTM PPE net purchases actual through 2026-06-30 |
+| Microsoft | ~US$175B | Earlier calendar-2026 CapEx expectation |
+| Alphabet | US$195–205B | Q2 full-year guidance |
+| Meta | US$130–145B | Q2 guidance incl. finance-lease principal |
+| Amazon | US$169.007B | TTM net PPE purchase actual through June 30, 2026 |
+
+This historical table is retained to preserve the original August evidence window; **do not label it as the latest Nov 19 2026 information**.
+
+## Corrected Q3 2026 actual/guidance cross-section (evidence through Nov 19; US$B)
+
+| Company / reporting period | Quarter disclosure | Identity / denominator | Latest 2026 calendar guidance | First-party source |
+|---|---:|---|---|---|
+| Microsoft FY27 Q1 to Sep 30 | **39.4** cash PP&E; **45.2** management CapEx; **7.4** finance leases | Distinct cash-vs-lease identities; do not sum 39.4 + 7.4 as "official CapEx" | Approximately **170** | [Microsoft earnings call](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1) |
+| Alphabet Q3 | **51.4** | CapEx, predominantly technical infrastructure; not AI-only | **195–205** | [Alphabet CFO transcript](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx) |
+| Meta Q3 | **34.91** | CapEx **including finance-lease principal** | **135–145** | [Meta Q3 release](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx) |
+| Amazon Q3 | **75.9** | **Cash capital expenditures**, covering technology infrastructure and fulfillment | ~**220** | [Amazon Form 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm) |
+
+**Retracted as false current Q3 claims:** Microsoft cash PP&E US$43.2B, Alphabet US$43.5B, Meta US$33.5B, Amazon single-quarter cash capex US$46.8B and Amazon calendar-year cash capex "over US$75B." Previous narrowed guidance US$198–203B and US$138–142B is also incorrect.
+
+**Cash generation check:** Microsoft Q3 OCF US$58.0B and management FCF US$18.6B; Meta Q3 OCF US$32.79B and FCF −US$2.12B. Neither high total spending nor one quarterly FCF sign establishes a broad, independently financed AI-market collapse.
+
+No arithmetic sum is made; company-wide spending cannot be relabeled AI-GPU-only CapEx. See [Q4 v1.1 Addendum](../2026-Q4-ROLLING-ADDENDUM.en.md) for chronology and scenario assessment.
 
 ## Prohibited extrapolations
 
