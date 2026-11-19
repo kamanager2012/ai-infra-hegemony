@@ -1,6 +1,9 @@
 Source: OpenRouter (openrouter.ai/rankings)
-日榜 as_of: 2026-08-29T18:15:41.402Z  window 2026-07-30 → 2026-08-28
-周榜 as_of: 2026-08-29T18:18:37.192Z  window 2026-07-30 → 2026-08-28
-周榜 date 是 ISO 周的周一；最新一周 2026-08-24 覆盖到 8-28，不满整周。
-token = prompt_tokens + completion_tokens，不同厂牌分词器不可直接横比。
-Licensed under CC BY 4.0。
+Daily ranking archive as_of: 2026-08-29T18:15:41.402Z; dates 2026-07-30 through 2026-08-28; 30 days; 51 rows/day (top-50 named models plus 'other').
+Weekly ranking archive as_of: 2026-08-29T18:18:37.192Z; 2026-08-24 key is the ISO week's Monday, NOT evidence that its count is the sum of the five archived daily observations Aug 24-28.
+Reconciliation: the latest weekly bucket is approximately 10.4169T tokens HIGHER than the archived five-day sum; its complete observation window/accounting cannot be identified from these CSV columns. Do not treat it as a 5-day total, fill missing days or scale it to 7 days. The three preceding completed weekly buckets do reconcile to their corresponding daily sums.
+Token field: prompt_tokens + completion_tokens; upstream providers use different tokenizers and model families' token counts may not be strictly comparable.
+Rankings observation set: public-ranking-eligible activity, not all OpenRouter or global provider traffic. The included 'other' bucket is not an independently verified market-wide total.
+Sol Aug-17 study: source for 50% promotional price change is https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/ ; no historical transaction-weighted prices or user-exposure panel is bundled with these rankings.
+Reproduce Sol interrupted-series estimate: python3 research-validation/scripts/verify_sol_event.py
+License: CC BY 4.0. Preserve OpenRouter attribution and distinguish descriptive token-count comparisons from identified causal demand elasticity.
