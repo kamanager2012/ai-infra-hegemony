@@ -525,7 +525,7 @@ This makes the facility panel consistent with P0-1's reversible adjudication log
 ---
 
 
-## 11B.8 Compute Financialization — planned GPU rental futures v0.3.2
+## 11B.8 Compute Financialization — planned GPU rental futures v0.3.3
 
 A new market-structure development could eventually change how lenders, AI clouds and infrastructure owners manage compute-price risk.
 
@@ -546,9 +546,32 @@ CME's technical notices define the unit of measure as:
 
 and state that each futures contract is based on Silicon Data benchmarks for hourly GPU rental costs (contract unit 730 GPU-hours).
 
-### 11B.8A Current state: announced / testable, not yet a live liquid market
+### 11B.8A 2026-11-19 status refresh — review extended to January 8, 2027; no verified live contract
 
-As of the current **2026-10-26** research state:
+**Latest evidence cutoff for this subsection: 2026-11-19.** This update supersedes the **October 26** research clock below, not its historical observations.
+
+**A-grade primary regulatory update:**
+- On **2026-11-04**, NYMEX informed the CFTC in a [signed voluntary-extension letter](https://www.cftc.gov/filings/documents/2026/orgdcmnymexvolexten261105.pdf) that, **at the Commission's request**, it consented to a **further 60-day review extension until 2027-01-08** for the two proposed Silicon Data H100/B200 rental-index compute futures (NYMEX Submission No. 26-370).
+- The consent is **conditional**: if another registrant self-certifies, obtains approval or otherwise lists a comparable contract during the extended review, or if the Commission agrees to a shorter period, an **earlier date can control**. Therefore **January 8 is the conditional current review-period endpoint, not a confirmed first-trade or launch date**.
+- The [CFTC product filing table](https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts?col=Status&dir=ASC) currently continues to show the relevant H100/B200 entries as **“Approval Pending (90)”**, with the remark *“NYMEX consented to extend the review period through January 8, 2027.”* The display's underlying *09/21/2026* status date is **not evidence that no November change occurred**: the *Remarks* field is now updated.
+- The CME product page still describes the proposed futures as subject to regulatory review. Older October notices about platform testing or dissemination of a **non-tradable index-data feed** must not be used to assert active futures trading, executed transactions, volume, open interest or hedge adoption.
+
+**Table 11B.8.1 — Date and state separation (2026-11-19 recheck)**
+
+| Date / field | What is verified | What is NOT verified |
+|---|---|---|
+| 2026-08-11 announcement | Original proposed **2026-10-05** first trade target, conditional on CFTC review | That the original target was actually reached |
+| 2026-09-21 CFTC letter | First extension through **2026-11-09** | That Nov 9 was a trading launch or final regulatory approval |
+| 2026-11-04 NYMEX signed extension | **Further conditional review period through 2027-01-08** | Approval, cancellation, a guaranteed Jan 8 start date |
+| 2026-11-19 CFTC register observation | Both product records still **Approval Pending (90)**, with updated extension remark | A live, liquid benchmark-futures market or usable observed trading curve |
+
+**Current status:** **PRE-LAUNCH / REGULATORY REVIEW PENDING (as of November 19, 2026)**. No new S4 clearing determination, evidence of production GPU-price hedging, or collateral liquidity inference is warranted. The review extension is a **governance / market-infrastructure clock**, not an economic-demand measurement. A future approval decision, rejected application or actual trades would each be a separate event requiring a new dated source check.
+
+**Sources:** [NYMEX November 4 letter at the CFTC](https://www.cftc.gov/filings/documents/2026/orgdcmnymexvolexten261105.pdf) (A-grade filed primary document); [CFTC contract-status table](https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts?col=Status&dir=ASC) (A-grade public registry). The October-era observations below remain as an **archived evidence snapshot** and are no longer the current status.
+
+#### 11B.8A-Archive October 26, 2026 observation (superseded as current status)
+
+As of the **historical 2026-10-26** observation, before the November 4 extension (archived for reproducibility):
 
 ~~~text
 contract specification announced
@@ -574,9 +597,9 @@ and
 no verified primary CME/CFTC filing that sets a new firm launch / trade date
 ~~~
 
-Therefore the correct research state remains:
+At the **October 26 archival cutoff**, the assessment was:
 
-> **COMPUTE-DERIVATIVES PRE-LAUNCH**
+> **COMPUTE-DERIVATIVES PRE-LAUNCH (OCTOBER SNAPSHOT)**
 > (announced 2026-10-05 target **missed**; CFTC Approval Pending with primary-verified review through 2026-11-09; RFC comment window closed; non-tradable index forward-curve *data* live since 2026-10-15 ≠ futures launch; not a confirmed cancellation, and no verified replacement launch date)
 
 Do not write:
@@ -586,7 +609,7 @@ Do not write:
 - lenders already hedge project debt with these contracts;
 - GPU rental-price risk has become fully hedgeable;
 - the contracts are cancelled or rejected (no primary confirmation; the product remains Approval Pending);
-- a new firm launch date of November 9 (that is the verified CFTC review-period end, not a trade date);
+- treating **November 9, 2026** or **January 8, 2027** as a confirmed launch date (they are historical and current conditional *review endpoints*, respectively);
 - any volume, open interest, basis or traded forward-curve reading for the futures (none exists).
 
 Those stronger claims require post-launch evidence or a primary regulatory/exchange filing that sets a trade date.
