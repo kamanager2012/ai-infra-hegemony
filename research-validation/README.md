@@ -6,6 +6,8 @@ Its purpose is not to keep polishing the publication. It exists to test the repo
 
 **Canonical research language: English.** All Phase II analytical files are authored in English. Any Chinese version is a derived translation and must not create, remove, reorder, or redefine evidence identities, denominators, state labels, causal mechanisms, thresholds, or conclusions independently of the English canonical text.
 
+**Dated 2026-11-19 regulatory update:** Research layer [`04C` §11B.8](04c-project-finance-borrower-panel.md) now distinguishes its archived **2026-10-26** compute-derivatives observation from the **2026-11-19** verified CFTC/NYMEX review extension (conditional endpoint **2027-01-08**, products still **Approval Pending**). The review date is **not** a trading commencement date; index forward-curve data is **not** evidence of an executed futures market. This is a Phase II status refresh, not a new 2026-08-28 baseline fact, and it does not change S1–S4.
+
 ## Work order
 
 1. **P0-1 Historical Clearing Backtest** — test the five Chapter 24 clearing-signal families;
