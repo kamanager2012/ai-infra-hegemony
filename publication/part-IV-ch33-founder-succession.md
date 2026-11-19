@@ -20,13 +20,13 @@
 
 | 日期 / 期间 | 观察 | 证据身份 | 不能据此证明什么 |
 |---|---|---|---|
-| **2026-11-08** | NVIDIA 董事会宣布就有关黄仁勋遭外国情报活动针对的报道启动独立审查；董事会当时表示没有理由认为国家安全或公司秘密已被损害。 | **A：** 公司公告 [1] | 不能据此认定发生或未发生违法披露。 |
-| **2026-11-11** | 董事会接受黄仁勋辞去总裁、CEO 和董事职务，即时生效；任命 CFO Colette Kress 为临时 CEO，Harvey Jones 为董事会主席。 | **A：** SEC 8-K，11月12日申报 [2] | 不等于确认辞任成因，也不是对第三方指控作出裁决。 |
-| **2026-11-12** | NVIDIA 宣布寻找正式继任 CEO，同时考虑内部与外部人选；Kress 兼任 CFO。 | **A：** NVIDIA 公告 [3] | 未确定正式继任人选，也未给出法定完成期限。 |
-| **经营季截至2026-10-25；2026-11-17发布** | FY2027 Q3 收入 **1,158亿美元**，数据中心收入 **1,076亿美元**，GAAP 毛利率 **74.8%**；Vera Rubin NVL72 开始出货。 | **A：** 季报新闻稿 [4] | 这是**离任前经营期间**的结果，不能称为继任团队已经验证的业绩。 |
-| **截至2026-10-25；11月17日公开** | 综合供应及产能承诺达 **3,900亿美元**，上期为 **2,790亿美元**；公司称增量主要来自多年期存储采购。 | **A：** CFO 评论文件 [5] | 不是已支付的 CapEx、某一家供应商的收入、已通电数据中心容量或独立融资的最终采购。 |
-| **2026-11-17** | 董事会建立常设的国家安全和出口管制监督委员会，由 Suzanne Nora Johnson 担任主席；相关团队向委员会及临时 CEO 汇报。 | **A：** NVIDIA 公告 [6] | 委员会成立不等于风险控制已实际产生效果。 |
-| **2026-11-17** | 据 Reuters 对财报电话会议的报道，董事会主席表示不计划让黄仁勋重任 CEO，并将审慎寻找永久继任者。 | **C：** 媒体转述电话会议 [7] | 代表当时董事会意向，不是永远不能改变的法律限制，也不表示继任已完成。 |
+| **2026-11-08** | NVIDIA 董事会宣布就有关黄仁勋遭外国情报活动针对的报道启动独立审查；董事会当时表示没有理由认为国家安全或公司秘密已被损害。 | **A：** 公司公告 [^1] | 不能据此认定发生或未发生违法披露。 |
+| **2026-11-11** | 董事会接受黄仁勋辞去总裁、CEO 和董事职务，即时生效；任命 CFO Colette Kress 为临时 CEO，Harvey Jones 为董事会主席。 | **A：** SEC 8-K，11月12日申报 [^2] | 不等于确认辞任成因，也不是对第三方指控作出裁决。 |
+| **2026-11-12** | NVIDIA 宣布寻找正式继任 CEO，同时考虑内部与外部人选；Kress 兼任 CFO。 | **A：** NVIDIA 公告 [^3] | 未确定正式继任人选，也未给出法定完成期限。 |
+| **经营季截至2026-10-25；2026-11-17发布** | FY2027 Q3 收入 **1,158亿美元**，数据中心收入 **1,076亿美元**，GAAP 毛利率 **74.8%**；Vera Rubin NVL72 开始出货。 | **A：** 季报新闻稿 [^4] | 这是**离任前经营期间**的结果，不能称为继任团队已经验证的业绩。 |
+| **截至2026-10-25；11月17日公开** | 综合供应及产能承诺达 **3,900亿美元**，上期为 **2,790亿美元**；公司称增量主要来自多年期存储采购。 | **A：** CFO 评论文件 [^5] | 不是已支付的 CapEx、某一家供应商的收入、已通电数据中心容量或独立融资的最终采购。 |
+| **2026-11-17** | 董事会建立常设的国家安全和出口管制监督委员会，由 Suzanne Nora Johnson 担任主席；相关团队向委员会及临时 CEO 汇报。 | **A：** NVIDIA 公告 [^6] | 委员会成立不等于风险控制已实际产生效果。 |
+| **2026-11-17** | 据 Reuters 对财报电话会议的报道，董事会主席表示不计划让黄仁勋重任 CEO，并将审慎寻找永久继任者。 | **C：** 媒体转述电话会议 [^7] | 代表当时董事会意向，不是永远不能改变的法律限制，也不表示继任已完成。 |
 
 **最关键的时间边界：** 11月17日公布财报，不能抹去财务报告期在10月25日已经结束的事实。如果把“披露晚于辞任”直接说成“辞任后实现的收入”，就会人为制造不存在的继任业绩样本。
 
@@ -76,7 +76,7 @@ NVIDIA 的平台优势分布于不同层级，各自具有不同的保留机制�
 
 ## 5. 资本与供应：承诺是需要检验的风险，而不是兑现的成果
 
-NVIDIA CFO 关于截至10月25日的披露显示，综合供应及产能承诺为 **3,900亿美元**，此前披露为 **2,790亿美元**，增长主要涉及多年期存储采购 [5]。同一文件另列 **280亿美元**云服务协议及 **740亿美元**尚未起租的数据中心租赁，后两者合计 **1,020亿美元**。这些是不同的**未来承诺类别**，不是三笔同时发生的现金流出。到期日、履约条件与物理交付状态决定其真正风险。
+NVIDIA CFO 关于截至10月25日的披露显示，综合供应及产能承诺为 **3,900亿美元**，此前披露为 **2,790亿美元**，增长主要涉及多年期存储采购 [^5]。同一文件另列 **280亿美元**云服务协议及 **740亿美元**尚未起租的数据中心租赁，后两者合计 **1,020亿美元**。这些是不同的**未来承诺类别**，不是三笔同时发生的现金流出。到期日、履约条件与物理交付状态决定其真正风险。
 
 必须严格区分：
 
@@ -91,15 +91,15 @@ NVIDIA CFO 关于截至10月25日的披露显示，综合供应及产能承诺�
 
 ## 6. 技术路线与第一份离任后财报：严格归因
 
-NVIDIA 11月17日公告称 Vera Rubin NVL72 已开始出货，并列举合作平台部署进展 [4]。这一披露可以支持“**产品已开始出货**”这一事实，但不能反推出所有部署站点都已通电、利用率充足，或最终客户已经获得有吸引力的投资回报。
+NVIDIA 11月17日公告称 Vera Rubin NVL72 已开始出货，并列举合作平台部署进展 [^4]。这一披露可以支持“**产品已开始出货**”这一事实，但不能反推出所有部署站点都已通电、利用率充足，或最终客户已经获得有吸引力的投资回报。
 
-FY2027 Q4 **1,300亿美元、上下浮动3%** 的收入指引属于管理层**预测**，不是实现收入 [4]。以后即使实际业绩高于或低于指引，也必须先控制云客户支出、中国出口限制、产品组合、上游良率与供电约束，才能讨论继任管理的边际作用。
+FY2027 Q4 **1,300亿美元、上下浮动3%** 的收入指引属于管理层**预测**，不是实现收入 [^4]。以后即使实际业绩高于或低于指引，也必须先控制云客户支出、中国出口限制、产品组合、上游良率与供电约束，才能讨论继任管理的边际作用。
 
 最有价值的未来证据不是下一张 GPU 跑分榜，而是能否跨越多个产品世代，持续交付易于认证、能稳定运行且 TCO 有竞争力的完整系统。
 
 ## 7. 治理与地缘政治：不跨越证据边界
 
-2026年11月8日，NVIDIA 董事会宣布独立调查，并明确表示当时没有理由相信国家安全或公司秘密遭到损害 [1]。11月17日，新常设国家安全和出口管制监督委员会成立 [6]。
+2026年11月8日，NVIDIA 董事会宣布独立调查，并明确表示当时没有理由相信国家安全或公司秘密遭到损害 [^1]。11月17日，新常设国家安全和出口管制监督委员会成立 [^6]。
 
 这些信息足以在报告监测系统中新增 **Governance and Compliance Continuity（治理与合规连续性）** 观察变量，却不支持认定个人有罪、实施间谍行为、设计秘密被泄露或企业存在违法行为。后续必须区分董事会公告、调查完成后的结论、监管行政动作与司法裁决，不得混成一个事实层级。
 
@@ -148,20 +148,20 @@ FY2027 Q4 **1,300亿美元、上下浮动3%** 的收入指引属于管理层**�
 
 ---
 
-## 参考来源与证据分级
+## 来源与推论边界
 
-[1] **A · NVIDIA董事会**，《Statement from NVIDIA Board of Directors》，2026-11-08。https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx
+[^1]: **A · NVIDIA董事会**，《Statement from NVIDIA Board of Directors》，2026-11-08。https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx
 
-[2] **A · 美国SEC**，NVIDIA Form 8-K Item 5.02，事件发生于2026-11-11，申报于2026-11-12。https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm
+[^2]: **A · 美国SEC**，NVIDIA Form 8-K Item 5.02，事件发生于2026-11-11，申报于2026-11-12。https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm
 
-[3] **A · NVIDIA**，《NVIDIA Announces CEO Transition》，2026-11-12。https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx
+[^3]: **A · NVIDIA**，《NVIDIA Announces CEO Transition》，2026-11-12。https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx
 
-[4] **A · NVIDIA**，《NVIDIA Announces Financial Results for Third Quarter Fiscal 2027》，2026-11-17发布，经营季截至2026-10-25。https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
+[^4]: **A · NVIDIA**，《NVIDIA Announces Financial Results for Third Quarter Fiscal 2027》，2026-11-17发布，经营季截至2026-10-25。https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
 
-[5] **A · SEC附件**，NVIDIA FY2027 Q3 CFO Commentary，披露截至2026-10-25的供应、云服务与租赁承诺。https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm
+[^5]: **A · SEC附件**，NVIDIA FY2027 Q3 CFO Commentary，披露截至2026-10-25的供应、云服务与租赁承诺。https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm
 
-[6] **A · NVIDIA**，《NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee》，2026-11-17。https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-of-Directors-Establishes-National-Security-and-Export-Control-Oversight-Committee/default.aspx
+[^6]: **A · NVIDIA**，《NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee》，2026-11-17。https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-of-Directors-Establishes-National-Security-and-Export-Control-Oversight-Committee/default.aspx
 
-[7] **C · Reuters（转述财报电话会议）**，《Nvidia chair dismisses idea of rehiring Huang and vows fast search》，2026-11-17。https://www.reuters.com/business/nvidia-forecasts-quarterly-revenue-above-estimates-first-report-since-huangs-2026-11-17/
+[^7]: **C · Reuters（转述财报电话会议）**，《Nvidia chair dismisses idea of rehiring Huang and vows fast search》，2026-11-17。https://www.reuters.com/business/nvidia-forecasts-quarterly-revenue-above-estimates-first-report-since-huangs-2026-11-17/
 
 **方法论：** F → H → M → S → X。A 级表示一手申报或企业公告，并不意味着企业任何陈述均已被第三方独立验证。情景描述、指标设计、监测时间窗和因果机制均属研究侧假设，不能混为 A 级既成事实。
