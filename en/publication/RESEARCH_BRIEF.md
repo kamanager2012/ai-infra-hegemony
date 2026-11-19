@@ -24,7 +24,7 @@ As of the report cutoff, the evidence mix is closest to **S2 — Baseline Concen
 
 > **high growth, strong leading platforms, scarce-layer concentration, and credible but incomplete substitution paths coexist.**
 
-This is not a deterministic 2036 forecast. It is the current state that best fits the observed evidence under the report's scenario framework.
+This is not a deterministic 2036 forecast. It is the current state that best fits the observed evidence under the report's scenario framework. The repository name and the historical "hegemony" label appear in the title lineage as the research question, not as a current finding; S3 — Resource Hegemony remains a conditional hypothesis with explicit reverse signals.
 
 ![Figure 1 — The competitive unit is the system stack](figures/fig-01-system-stack.svg)
 

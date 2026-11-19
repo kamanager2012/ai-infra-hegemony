@@ -1,11 +1,11 @@
 {
-  "version": "2026-09-14",
-  "notes": "Coverage status of tests the frozen formal text sets for itself. Each item below is quoted from the frozen chapter; the state recorded against it is a statement about what the research panels carry, not a new fact about any company. No item here is promoted into a chapter and the formal reopen gate is unchanged: this layer records status, never conclusions.",
+  "version": "2026-10-26",
+  "notes": "Coverage status of tests the frozen formal text sets for itself. Each item below is quoted from the frozen chapter; the state recorded against it is a statement about what the research panels carry, not a new fact about any company. No item here is promoted into a chapter and the formal reopen gate is unchanged: this layer records status, never conclusions. Corrected 2026-10-26: lease/payment support is not residual-value guarantee; missing loss waterfall is not cured by collateral valuation; secondary-asset liquidity is not inherently post-default.",
   "states": {
-    "carried": "the research panels carry an observation for this variable, with a named facility or support form behind it",
-    "partly observable": "half of the variable is carried and the other half is not disclosed, so the quantity the chapter names cannot be formed even though its inputs partly exist",
-    "not disclosed": "no disclosure supplies this variable and none is expected from the ordinary reporting the panels track",
-    "not yet observed": "the variable is an outcome rather than a state: no observation of it can exist before the event it describes occurs"
+    "carried": "a named facility/support form in the tracked panel directly evidences at least one instance of the exact required variable; this is not marketwide completeness",
+    "partly observable": "some inputs are recorded but an essential contractual or matched-denominator component is missing",
+    "not disclosed": "the tracked panels do not supply a matched disclosure for this exact variable; this does not establish that a market or contract cannot exist",
+    "not yet observed": "the defined event has not occurred or been recorded for a borrower in the tracked cohort; this is an event-status observation, not a permanent unobservability theorem"
   },
   "register_note": "The frozen corpus was searched in both editions for enumerated evidence-requirement checklists of the form 'a defensible X would require evidence on: [list]'. Ch23 §1B is the only one found; a search of the English edition for 'would require evidence on / would need evidence / requires evidence of' and of the Chinese edition for the corresponding 需要证据 / 需要看到 forms returns this checklist and one non-enumerated rule at Ch21. The register therefore has one entry, and it is stated as such rather than presented as a survey. If a later reading finds a second enumerated checklist, it is added here as another gate and the layer's §0 scope is unchanged.",
   "gates": [
@@ -45,16 +45,16 @@
         {
           "n": 4,
           "item": "residual-value guarantees or repurchase commitments",
-          "state": "carried",
-          "where": "04D support table",
-          "detail": "Guarantee caps are carried with residual value named as a tracked field: NVIDIA LPS guarantees at about US$3.529B notional, the SB Energy PORTS-Pike aggregate obligation capped at US$105B, AMD partner lease guarantees at about US$4.1B, and Applied Digital project completion guarantees."
+          "state": "not disclosed",
+          "where": null,
+          "detail": "04D §11C.3 records lease/payment and completion guarantees and caps, not a contractual residual-value floor or repurchase obligation on named collateral. These categories cannot be promoted to this checklist item. No matched residual-value/repurchase term is established by the tracked panel."
         },
         {
           "n": 5,
           "item": "senior / junior loss allocation",
           "state": "partly observable",
           "where": "04C §11B.5 facility rows",
-          "detail": "Instrument seniority is recorded — senior secured notes, senior secured facilities, convertibles. The loss waterfall between tranches, which is what 'loss allocation' means, is not disclosed."
+          "detail": "Instrument seniority is recorded, but actual priority-of-payments and intercreditor waterfall terms and tranche loss allocation are not. Even a facility-matched asset valuation alone cannot disclose contractual senior/junior priority."
         },
         {
           "n": 6,
@@ -68,14 +68,14 @@
           "item": "default / restructuring behavior",
           "state": "not yet observed",
           "where": null,
-          "detail": "No borrower in the panel has defaulted or restructured, so this variable has no observations at all rather than a missing one. No disclosure can supply it before the event it describes, which makes this a permanent floor on the Ch23 §1B test rather than a gap that further reporting closes."
+          "detail": "No default/restructuring event is recorded for a borrower in the tracked panel as of this observation. Such an event cannot be marked as occurred in advance; historical observations elsewhere and pre-event rights are still analytically possible. This absence is not a permanent proof that the historical analogy is untestable."
         },
         {
           "n": 8,
           "item": "transferability and secondary-market liquidity of the underlying assets",
-          "state": "not yet observed",
+          "state": "not disclosed",
           "where": null,
-          "detail": "No secondary market for GPU or data-center assets exists at observable liquidity. 11 §6 lists successful asset transfer between customers or operators as a falsification signal — i.e. something to watch for, not something measured. The adjacent market-structure item, the compute futures announced for 2026-10-05 (still PRE-LAUNCH as of 2026-10-13: announced date missed; CFTC Approval Pending, review through 2026-11-09), is likewise pending liquidity rather than carrying any."
+          "detail": "The existing panels lack facility-collateral-matched realized transaction prices, depth/spreads, transfer restrictions or distressed recoveries. Used-GPU/server resale observations may exist ex ante, so an unobservable-in-principle claim is invalid. Compute-price contracts or indices are not evidence of physical collateral resale liquidity."
         }
       ]
     }

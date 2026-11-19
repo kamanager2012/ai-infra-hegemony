@@ -170,6 +170,8 @@ After capital clearing, cheaper compute can still stimulate new applications.
 **Source:** Report S1–S4 scenario framework.  
 **Note:** The four scenarios are parallel conditional states. They do not carry fixed probabilities and are not inevitable sequential stages.
 
+How to apply Table 30.1 without false precision: map each "core driver" to its observable proxy and persistence basis in [Chapter 29, Table 29.5–29.6](part-IV-ch29-monitoring-framework.md). A reweighting requires comparable, same-denominator observation plus cross-actor / cross-layer breadth on that variable's own clock; a narrow or off-clock headline never reweights the headline scenario. Where the same-unit measures do not exist, the Gap is flagged as not measurable from public data rather than proxied by a different unit.
+
 ## 5A. Capacity Gap is a diagnostic axis, not a fifth scenario
 
 S1–S4 remain parallel conditional states; no second scenario taxonomy is introduced. To separate “is the layer short today?” from “is the pressure widening or converging?”, the framework uses two complementary metrics.
