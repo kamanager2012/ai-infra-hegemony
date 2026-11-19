@@ -59,3 +59,24 @@ Do not mislabel the original \`edition_revision=2026-09-14\` as the November cor
 ## 5. Publication conclusion
 
 The bounded F-01–F-07 analytical repairs and Phase II reproducibility corrections have passed the **specified static/structural gates** and can be published as an auditable corrective batch without changing the base evidence cutoff or the separate 2026 Q4 evidence cycle. Full Python-suite execution and interactive browser confirmation remain explicitly unclaimed. Treat this as **source-integrity and publication-structure reconciliation**, not proof that every economic scenario is independently verified.
+
+## 6. Follow-up verification: Nov 19 late-day closeout
+
+This addendum records the outcome of a later, separate pass. It neither modifies the original evidence cutoff nor falsely promotes unexecuted runtime tests to PASS.
+
+### Newly completed
+
+- **66/66 exact canonical-source-to-public-snapshot parity**: the 33 numbered EN chapters and 33 numbered ZH chapters in `en/publication/` / `publication/` were individually fetched and their complete contents compared to corresponding `docs/content/{en,zh}/part-1..4.json` document strings. Every comparison returned exact equality.
+- Dated *regulatory-source freshness* repair in Phase II §11B.8: the original October 26 observation is now marked historical, while a new **2026-11-19** observation records the signed November 4 extension of an applicable regulator's review to a **conditional 2027-01-08 endpoint**; both cases remain pending rather than approved. This is not evidence of a launched or liquid market, not an investment recommendation, and not a new S4 signal. Source identity was checked against the regulator's formal filing and product registry. PR #21 (research) and PR #22 (main) merged; no dated baseline chapter changed.
+- **Two manual release verification tools** were added by merged PR #23 (and synchronized to research by #24), without introducing GitHub Actions: `scripts/manual-release-audit.py` (10 main checks + 9 research calculations = 19) and `scripts/smoke-web-reader.py` (18 two-language desktop/mobile browser routes and CTA tests). `PUBLISHING.md` documents exact commands and pass criteria. Github script inventory verified every named target exists; 9/9 targeted script and policy source assertions passed.
+- A **synthetic fixture** independently verified the Python audit wrapper's exit behavior: 19/19 simulated passing child processes returned exit 0, and a deliberately failing child script returned nonzero with one reported failure. The locally authored Python variants underwent syntax compilation; the exact committed files were not executed against a full checkout. **These are harness checks only**, not a run of the actual 19 original repository scripts.
+- Final branch tree comparison following PR #24 showed **main and research file contents identical**, with **zero open pull requests**.
+
+### Runtime blockers observed, not bypassed
+
+1. The model's container is constrained to a packages-only network and cannot resolve external GitHub or Pages DNS. A complete local checkout could not be obtained; therefore the **actual 19-script full repository regression remains UNEXECUTED**. Static parity and independent JavaScript replays do not substitute for the Python gate.
+2. Chromium can launch locally, but its navigation to even a localhost test server was explicitly rejected by administrator policy (`ERR_BLOCKED_BY_ADMINISTRATOR`); remote Pages navigation is unavailable. Therefore **actual 18-case live desktop/mobile browser acceptance remains UNEXECUTED**. No attempts to bypass the restriction were made.
+3. No user-hosted execution agent was connected through the available server-management connector. No test success was inferred from an unavailable execution environment.
+
+**Next publication gate:** The two manual command sets in `PUBLISHING.md` must run from an authorized, network-enabled full checkout and return success before a claim of comprehensive production/visual acceptance is warranted. This is an **explicit environmental dependency**, not a reason to modify the baseline research or overwrite its dated snapshots.
+
